@@ -73,9 +73,9 @@ export const Viewport3D = forwardRef<Viewport3DRef, Viewport3DProps>(({ studio, 
     sceneRef.current = scene;
     scene.background = isTransparentBg ? null : new THREE.Color(backgroundColor);
 
-    // 2. Camera
+    // 2. Camera: facing directly front-center like in Screenshot 179
     const camera = new THREE.PerspectiveCamera(40, width / height, 0.1, 100);
-    camera.position.set(2.4, 2.0, 3.2);
+    camera.position.set(0.15, 1.25, 3.2);
     cameraRef.current = camera;
 
     // 3. Renderer

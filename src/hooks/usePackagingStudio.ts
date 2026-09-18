@@ -18,26 +18,80 @@ import { PACKAGING_MODELS } from '../utils/packagingModels';
 import { BRAND_PRESETS } from '../utils/presets';
 
 export function usePackagingStudio() {
-  const initialModel = PACKAGING_MODELS.tuck_box;
-  const initialPreset = BRAND_PRESETS[0];
-
-  const [currentModelId, setCurrentModelId] = useState<PackagingModelId>('tuck_box');
+  const [currentModelId, setCurrentModelId] = useState<PackagingModelId>('standup_pouch');
   const [dimensions, setDimensions] = useState<PackagingDimensions>({
-    ...initialModel.defaultDimensions,
+    width: 130,
+    height: 225,
+    depth: 75,
   });
   const [openFactor, setOpenFactor] = useState<number>(0);
-  const [material, setMaterial] = useState<MaterialType>(initialPreset.material);
-  const [lighting, setLighting] = useState<LightingPreset>(initialPreset.lighting);
+  const [material, setMaterial] = useState<MaterialType>('coated_matte');
+  const [lighting, setLighting] = useState<LightingPreset>('studio_minimal');
   const [hasCondensation, setHasCondensation] = useState<boolean>(false);
   const [showWireframe, setShowWireframe] = useState<boolean>(false);
   const [autoRotate, setAutoRotate] = useState<boolean>(false);
   const [rotationSpeed, setRotationSpeed] = useState<number>(1);
-  const [backgroundColor, setBackgroundColor] = useState<string>(initialPreset.backgroundColor);
+  const [backgroundColor, setBackgroundColor] = useState<string>('#cbd5e1');
   const [isTransparentBg, setIsTransparentBg] = useState<boolean>(false);
 
+  // Initial layers: Pacdora Placeholder Text (matching Screenshot 179)
+  const initialPlaceholderLayers: DesignLayer[] = [
+    {
+      id: 'placeholder_title',
+      name: 'Upload Placeholder',
+      type: 'text',
+      text: 'Upload your images',
+      fontFamily: 'Inter',
+      fontSize: 52,
+      fontWeight: '700',
+      color: '#475569',
+      textAlign: 'center',
+      letterSpacing: 1,
+      lineHeight: 1.2,
+      x: 1024,
+      y: 920,
+      rotation: 0,
+      opacity: 0.85,
+    },
+    {
+      id: 'placeholder_sub',
+      name: 'AI Text',
+      type: 'text',
+      text: 'or create with AI',
+      fontFamily: 'Inter',
+      fontSize: 36,
+      fontWeight: '500',
+      color: '#64748b',
+      textAlign: 'center',
+      letterSpacing: 1,
+      lineHeight: 1.2,
+      x: 1024,
+      y: 990,
+      rotation: 0,
+      opacity: 0.8,
+    },
+    {
+      id: 'placeholder_dim',
+      name: 'Dimensions Guide',
+      type: 'text',
+      text: '491 x 733 px',
+      fontFamily: 'Space Grotesk',
+      fontSize: 32,
+      fontWeight: '600',
+      color: '#94a3b8',
+      textAlign: 'center',
+      letterSpacing: 2,
+      lineHeight: 1,
+      x: 1024,
+      y: 1060,
+      rotation: 0,
+      opacity: 0.75,
+    },
+  ];
+
   // Layers on the 2D dieline canvas
-  const [layers, setLayers] = useState<DesignLayer[]>(initialPreset.layers);
-  const [selectedLayerId, setSelectedLayerId] = useState<string | null>(initialPreset.layers[1]?.id || null);
+  const [layers, setLayers] = useState<DesignLayer[]>(initialPlaceholderLayers);
+  const [selectedLayerId, setSelectedLayerId] = useState<string | null>(null);
   const [activeFace, setActiveFace] = useState<CanvasFaceId>('full_dieline');
   const [showGuides, setShowGuides] = useState<boolean>(true);
   const [viewMode, setViewMode] = useState<'split' | '3d' | '2d'>('split');
