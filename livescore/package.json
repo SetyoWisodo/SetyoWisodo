@@ -1,0 +1,12 @@
+{
+  "name": "skor-langsung",
+  "version": "0.1.0",
+  "description": "Live score sepakbola dunia: jadwal, skor langsung, dan kejadian pertandingan.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  }
+}

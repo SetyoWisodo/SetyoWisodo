@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skor Langsung — Live Score Sepakbola Dunia</title>
+  <meta name="description" content="Skor langsung, jadwal, dan hasil pertandingan sepakbola dari liga-liga di seluruh dunia." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">⚽ <span>Skor Langsung</span></div>
+    <div class="conn" id="conn" title="Status pembaruan langsung">
+      <span class="dot"></span><span id="connText">Menghubungkan…</span>
+    </div>
+  </header>
+
+  <nav class="datebar" id="dates" aria-label="Pilih tanggal"></nav>
+
+  <section class="controls">
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-tab="all" role="tab">Semua <small id="cntAll"></small></button>
+      <button class="tab" data-tab="live" role="tab">🔴 Live <small id="cntLive"></small></button>
+      <button class="tab" data-tab="fav" role="tab">★ Favorit <small id="cntFav"></small></button>
+    </div>
+    <input id="search" type="search" placeholder="Cari tim atau liga…" aria-label="Cari" />
+  </section>
+
+  <div class="meta" id="meta"></div>
+  <div class="warn" id="warn" hidden></div>
+
+  <main id="list" aria-live="polite"><p class="empty">Memuat pertandingan…</p></main>
+
+  <div class="modal" id="modal" hidden>
+    <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+      <button class="close" id="closeModal" aria-label="Tutup">✕</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <footer class="foot">
+    Data pada mode <b>mock</b> adalah simulasi untuk pengembangan. Untuk data sungguhan, hubungkan provider berlisensi.
+  </footer>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
