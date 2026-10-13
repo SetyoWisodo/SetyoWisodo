@@ -1,109 +1,256 @@
-# ⚽ Skor Langsung — Live Score Sepakbola Dunia
+# Free Football Live Scores API — Premier League, LaLiga & More
 
-Platform live score sepakbola: jadwal, skor langsung, dan kejadian pertandingan (gol, kartu, pergantian pemain) dari liga-liga di seluruh dunia, diperbarui secara realtime lewat Server-Sent Events (SSE).
+<a href="https://www.buymeacoffee.com/rahiminia" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-Aplikasi ini **tanpa dependency eksternal** (Node.js 18+; uji dengan Node 22).
+An open-source, database-backed REST API and web score center for football live scores, today's fixtures, results, league tables, match summaries, play-by-play events, clubs and rosters.
 
-## Fitur
+**Live football score center:** [worldcup26.ir](https://worldcup26.ir/)
 
-- **Jadwal per tanggal** dengan navigasi 7 hari (3 hari sebelum dan sesudah hari ini).
-- **Live score realtime**: status (menit berjalan, HT, FT), skor, dan perubahan dikirim otomatis tanpa refresh.
-- **Tab Live**, **Favorit** (tersimpan di browser), dan **pencarian** tim/liga/negara.
-- **Pengelompokan per liga**; liga yang sedang live tampil lebih dulu.
-- **Detail pertandingan**: skor paruh waktu, timeline gol, kartu, dan pergantian pemain.
-- **Multi-provider**: data dari beberapa penyedia bisa digabung. Jika satu provider gagal, yang lain tetap tampil.
-- **Ringan**: cache per tanggal, pembaruan SSE hanya mengirim pertandingan yang berubah.
+**Free football API guide:** [worldcup26.ir/football-api](https://worldcup26.ir/football-api) — no API key currently required
 
-## Menjalankan
+**Interactive football API docs:** [worldcup26.ir/api-docs](https://worldcup26.ir/api-docs/)
+
+Current verified coverage focuses on England and Spain, including the Premier League, EFL competitions, FA Cup, LaLiga, LaLiga 2, Copa del Rey and women's competitions. UEFA Champions League and additional countries are added only after their data coverage is verified.
+
+The public API never calls an upstream provider during a customer request. A separate listener project fetches upstream data and writes normalized documents to MongoDB; this service only reads and publishes those documents.
+
+## Product scope
+
+This project is a country-based club football service with one stable API and
+data model across all supported leagues. England and Spain are the initial
+markets, followed by country-by-country expansion.
+
+| Phase | Scope | Status |
+|---|---|---|
+| 1 | Launch England and Spain, starting with the Premier League (`eng.1`) and LaLiga (`esp.1`) | First priority |
+| 2 | Add leagues from other countries one country at a time | Planned |
+
+## Search-friendly competition pages
+
+The website serves crawlable, server-rendered landing pages with unique titles,
+descriptions, canonical URLs, structured data and internal links:
+
+- `/football/eng.1` — Premier League live scores, fixtures, results and table
+- `/football/esp.1` — LaLiga live scores, fixtures, results and standings
+- `/football/country/england` — all verified England football competitions
+- `/football/country/spain` — all verified Spain football competitions
+- `/football-api` — free JSON football API guide, examples and documentation
+
+The XML sitemap discovers every active league automatically, so newly verified
+countries and competitions receive an indexable page without hard-coding new
+routes. The full keyword map and publishing rules are in
+[SEO-KEYWORDS.md](SEO-KEYWORDS.md).
+
+## Rollout strategy
+
+England and Spain are the reference implementations for the multi-league
+platform. Their ingestion, storage, API responses, and customer experience
+should be stable before broader country expansion.
+
+A new country or league is considered ready only when:
+
+1. Its stable league slug and country metadata are registered.
+2. Fixtures, results, live status, clubs, and standings are normalized in
+   MongoDB.
+3. Match details and important events are returned without calling an upstream
+   provider during the customer request.
+4. Data freshness, missing-data behavior, and listener failures are observable.
+5. API contract tests and at least one stored end-to-end example have been
+   verified.
+6. Swagger, the customer documentation, and the web league selector have been
+   updated.
+
+After England and Spain meet these requirements, additional countries will be
+enabled individually. This avoids advertising incomplete coverage and allows
+each rollout to be tested, monitored, and rolled back independently.
+
+## Architecture
+
+```text
+Upstream football data
+          │
+          ▼
+External listener project
+          │  MongoDB upserts
+          ▼
+soccer_* collections
+          │  read-only customer requests
+          ▼
+Free Football Live Scores API
+```
+
+This separation keeps customer traffic independent from upstream availability and lets the listener control polling, retries, normalization, and failover.
+
+## Public API
+
+Base path:
+
+```text
+/get/soccer
+```
+
+| Endpoint | Description |
+|---|---|
+| `GET /get/soccer/meta` | Current service capabilities, collection counts, and freshness |
+| `GET /get/soccer/leagues?kind=club&available=true` | Club competitions available for customer selection, with coverage counts |
+| `GET /get/soccer/{league}/scoreboard?dates=YYYYMMDD` | Fixtures, live status, scores, and match statistics |
+| `GET /get/soccer/{league}/fixtures?status=all&from=YYYYMMDD&to=YYYYMMDD` | Paginated stored schedule and results; dates are optional |
+| `GET /get/soccer/{league}/summary?event={eventId}` | Complete stored match summary |
+| `GET /get/soccer/{league}/events/{eventId}` | Summary path alias |
+| `GET /get/soccer/{league}/events/{eventId}/plays` | Paginated play-by-play |
+| `GET /get/soccer/{league}/clubs` | Clubs in the selected league |
+| `GET /get/soccer/{league}/clubs/{clubId}` | Club, roster, and coach |
+| `GET /get/soccer/{league}/standings?season=YYYY` | League table or competition groups |
+| `GET /health` | Application and database health |
+
+Examples:
 
 ```bash
-cd livescore
-npm start            # http://localhost:3000 (0.0.0.0:3000)
-npm test             # 23 test: data, adapter, API, dan SSE
+curl "http://localhost:3050/get/soccer/leagues"
+curl "http://localhost:3050/get/soccer/meta"
+curl "http://localhost:3050/get/soccer/leagues?kind=club&available=true"
+curl "http://localhost:3050/get/soccer/eng.1/scoreboard?dates=20260822"
+curl "http://localhost:3050/get/soccer/esp.1/fixtures?limit=100"
+curl "http://localhost:3050/get/soccer/eng.1/clubs"
+curl "http://localhost:3050/get/soccer/eng.1/standings?season=2026"
 ```
 
-Variabel environment:
+Responses for scoreboard, summary, and plays use a stable provider-compatible shape while remaining backed entirely by this project's MongoDB.
 
-| Variabel | Default | Keterangan |
-| --- | --- | --- |
-| `PORT` | `3000` | Port HTTP |
-| `HOST` | `0.0.0.0` | Alamat bind |
-| `PROVIDERS` | `mock` | Daftar provider, dipisah koma: `mock`, `footballdata` |
-| `FOOTBALL_DATA_TOKEN` | — | API key football-data.org (tier gratis tersedia) |
-| `FOOTBALL_DATA_BASE` | `https://api.football-data.org/v4` | Opsional, untuk proxy atau mock server |
+Match details include stored goal scorers, substitutions (player in/out, team, and minute), key-event timeline, statistics, and summary data. League-wide top scorers are intentionally not exposed yet: the database currently has no validated structured collection for them, and raw `soccer_snapshots` remain internal.
 
-Contoh memakai data sungguhan:
+The league catalog defaults to `kind=club`. Use `kind=international` or
+`kind=all` when those competitions are required. Every league includes a
+`coverage` object with match, club, and standings counts. Passing
+`available=true` hides competitions that do not yet have stored customer data.
+
+When the dedicated `soccer_clubs` catalog has not yet been populated for a
+league, the clubs endpoint builds a basic catalog from the normalized home and
+away participants already stored in `soccer_matches`. The response metadata
+states whether this fallback was used; roster and coach data are available only
+from dedicated club documents.
+
+## MongoDB collections
+
+| Collection | Purpose |
+|---|---|
+| `soccer_leagues` | Selectable club leagues and current-season metadata |
+| `soccer_clubs` | Club identity, branding, venue, roster, and coach |
+| `soccer_matches` | Match schedule, score, status, statistics, and summary data |
+| `soccer_match_events` | Idempotent play-by-play events |
+| `soccer_standings` | League tables and competition groups |
+| `soccer_sync_states` | Listener cursor, polling state, errors, and leases |
+
+The listener write contract, indexes, schemas, and upsert examples are documented in [LIVE-LISTENER-DATABASE.md](LIVE-LISTENER-DATABASE.md).
+
+## Getting started
+
+Requirements:
+
+- Node.js 20 or newer
+- MongoDB 6 or newer
+
+Install dependencies:
 
 ```bash
-PROVIDERS=footballdata FOOTBALL_DATA_TOKEN=xxxxx npm start
+npm install
 ```
 
-## Mode data
+Create `.env.development` or `.env.production`:
 
-**Mode `mock` (default)** dibuat untuk pengembangan dan demo. Jadwal, status, dan skor dihasilkan secara deterministik dari waktu sekarang, sehingga pertandingan terlihat "berjalan" dan skornya bertambah. Nama tim adalah nama klub dan tim nasional nyata, tetapi **hasil pertandingannya bukan kenyataan**.
+```env
+NODE_ENV=development
+PORT=3050
+MONGODB_URL=mongodb://localhost:27017/soccer
+ENABLE_SWAGGER=true
+LOG_LEVEL=debug
+CORS_ORIGINS=*
 
-**Mode `footballdata`** memakai API football-data.org v4. Catatan:
-- Tier gratis punya batas jumlah request dan cakupan kompetisi yang terbatas. Cache 60 detik membantu menjaga pemakaian.
-- Adapter ini ditulis berdasarkan dokumentasi API. Belum diuji terhadap API langsung karena lingkungan pengembangan tidak punya akses ke host tersebut. Silakan uji dengan token Anda sendiri.
-
-## Arsitektur
-
-```
-livescore/
-├── public/            # Frontend (HTML, CSS, JS tanpa framework)
-├── src/
-│   ├── index.js       # Titik masuk (bind 0.0.0.0)
-│   ├── app.js         # HTTP server, API, SSE, dan file statis
-│   ├── aggregator.js  # Menggabungkan provider, isolasi kegagalan
-│   ├── catalog.js     # Katalog liga untuk provider mock
-│   ├── util.js
-│   └── providers/
-│       ├── index.js        # Pemilih provider dari environment
-│       ├── mock.js         # Data simulasi deterministik
-│       └── footballData.js # Adapter football-data.org + normalisasi
-└── test/              # node:test
+RATE_LIMIT_WINDOW_MS=60000
+RATE_LIMIT_MAX=500
+PUBLIC_RATE_LIMIT_WINDOW_MS=60000
+PUBLIC_RATE_LIMIT_MAX=120
 ```
 
-### API
+Create the club-football collections and indexes:
 
-| Method | Path | Keterangan |
-| --- | --- | --- |
-| GET | `/api/health` | Status dan provider aktif |
-| GET | `/api/matches?date=YYYY-MM-DD[&status=live]` | Daftar pertandingan (tanpa kejadian) |
-| GET | `/api/matches/:id` | Detail pertandingan termasuk kejadian |
-| GET | `/api/stream?date=YYYY-MM-DD` | SSE: `hello` lalu `update` berisi pertandingan yang berubah |
-
-Contoh event SSE:
-
-```json
-{"type":"update","date":"2026-10-13","at":"2026-10-13T10:12:00.000Z","matches":[{"id":"mock:epl:2026-10-13:0","status":"LIVE","minute":11,"score":{"home":1,"away":0}}]}
+```bash
+npm run db:init-live
 ```
 
-### Menambah provider
+Start the API:
 
-Provider cukup memenuhi kontrak ini:
-
-```js
-{
-  name: 'nama-provider',
-  owns: (id) => id.startsWith('prefix:'),      // menentukan provider untuk id detail
-  async getMatches(dateKey, { now }) { /* -> Match[] */ },
-  async getMatch(id, { now }) { /* -> Match | null */ },
-}
+```bash
+npm start
 ```
 
-Model `Match` ada di `src/providers/footballData.js` (`normalizeFdMatch`) dan `src/providers/mock.js`. Status yang dipakai: `SCHEDULED`, `LIVE`, `HALF_TIME`, `FINISHED`, `POSTPONED`, `SUSPENDED`, `CANCELLED`.
+Swagger UI is available at:
 
-## Catatan penting: data, lisensi, dan skala
+```text
+http://localhost:3050/api-docs
+```
 
-- **Data live adalah bagian paling mahal.** Kode bisa ditulis dalam hitungan hari, tetapi data pertandingan dunia yang akurat dan cepat berasal dari penyedia berlisensi. Pastikan kontrak dan ketentuan penggunaannya mengizinkan penayangan di platform Anda.
-- **Jangan melakukan scraping** dari situs live score lain. Itu melanggar ketentuan layanan dan hak database mereka.
-- Untuk bersaing dengan layanan besar seperti LiveScore, fokus pada cakupan liga, kecepatan update (idealnya push, bukan polling), aplikasi mobile, notifikasi gol, dan keandalan saat trafik tinggi.
+Only the club-football API and health endpoints are included in the public Swagger specification.
 
-### Langkah berikutnya menuju skala produksi
+The raw, non-cached OpenAPI document is available at `/openapi.json`. The root
+page is an interactive competition explorer powered exclusively by the public
+Swagger endpoints. `/robots.txt` and `/sitemap.xml` describe the football API.
 
-1. Simpan data di database (PostgreSQL) dan ingest dari provider lewat worker terpisah.
-2. Ganti SSE per-instance dengan pub/sub (Redis) agar bisa di-scale horizontal.
-3. Cache di CDN untuk endpoint jadwal; SSE/WebSocket hanya untuk pertandingan live.
-4. Aplikasi mobile (PWA atau React Native) dan notifikasi push gol.
-5. Observabilitas (metrik latensi update, error provider) dan rate limiting.
+The browser application derives its country selector from the normalized
+`country` field returned by the league catalog. It uses `fixtures` for schedules
+and results, `standings` for tables, and `events/{eventId}` plus `plays` for the
+match drawer. Live match details refresh every 15 seconds while the drawer is
+open.
+
+## Data freshness
+
+The API does not run a listener. Freshness depends on the external writer's polling interval and last successful MongoDB update.
+
+- Live scoreboard, summary, and plays responses use a four-second client cache header.
+- Non-live match responses use a 30-second cache header.
+- League and club lists use a 60-second cache header.
+- `summary.meta.lastSyncedAt` exposes the last successful match sync time.
+
+## Listener requirements
+
+The external listener should:
+
+1. Register supported club leagues in `soccer_leagues`.
+2. Upsert clubs using provider and source club ID.
+3. Upsert match snapshots using provider, league slug, and source event ID.
+4. Bulk-upsert play events using their source event key.
+5. Upsert standings for the active season.
+6. Preserve the last valid snapshot when the upstream source fails.
+7. Use `soccer_sync_states` for leases, retries, and cursors.
+
+The listener should receive only `find`, `insert`, and `update` permissions on the `soccer_*` collections.
+
+## Testing
+
+Run serializer and response-contract tests:
+
+```bash
+npm run test:soccer
+```
+
+## Documentation
+
+- [Business and AI context](BUSINESS-CONTEXT.md) — canonical product intent, boundaries, capability status, and change rules
+- [Customer API reference](SOCCER-API.md)
+- [Listener database contract](LIVE-LISTENER-DATABASE.md)
+- [Database audit and migration status](DATABASE-AUDIT.md)
+- [Upstream data contract](UPSTREAM-LIVE-DATA.md)
+
+## Operational notes
+
+- Public routes use CORS and the configurable public rate limiter.
+- Request parameters are validated before database queries.
+- Raw provider payloads are private model fields and are excluded from normal API reads.
+- Provider-specific IDs stay inside `source` fields; public league slugs remain stable.
+- API-key issuance and per-customer quotas are not implemented yet.
+
+<a href="https://www.buymeacoffee.com/rahiminia" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+## License
+
+ISC
