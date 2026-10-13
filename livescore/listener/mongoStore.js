@@ -19,7 +19,7 @@ function createMongoStore() {
     },
 
     async getLeague(slug) {
-      return SoccerLeague.findOne({ slug }, { season: 1 }).lean();
+      return SoccerLeague.findOne({ slug }, { season: 1, source: 1 }).lean();
     },
 
     async upsertClub(slug, doc) {

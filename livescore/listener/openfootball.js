@@ -16,6 +16,37 @@
 
 const PROVIDER = 'openfootball';
 
+/**
+ * Liga yang bisa di-seed dari openfootball: 20 liga (23 berkas pada 2025-26, termasuk 3 versi -full).
+ * code : nama berkas di openfootball/football.json (tanpa ekstensi)
+ * slug : slug publik di API. Liga yang juga dicakup listener football-data memakai slug yang sama.
+ * tz   : zona waktu liga, untuk jam kick-off yang tidak punya penanda zona.
+ * live : true jika liga juga dicakup listener football-data (guard musim aktif memakai database).
+ * Liga lain hanya seed (live: false); tidak ada musim aktif dari listener.
+ */
+const SEED_LEAGUES = [
+  { code: 'en.1', slug: 'eng.1', name: 'English Premier League', country: 'England', tz: 'Europe/London', live: true },
+  { code: 'es.1', slug: 'esp.1', name: 'LaLiga', country: 'Spain', tz: 'Europe/Madrid', live: true },
+  { code: 'en.2', slug: 'eng.2', name: 'English Championship', country: 'England', tz: 'Europe/London' },
+  { code: 'en.3', slug: 'eng.3', name: 'English League One', country: 'England', tz: 'Europe/London' },
+  { code: 'en.4', slug: 'eng.4', name: 'English League Two', country: 'England', tz: 'Europe/London' },
+  { code: 'es.2', slug: 'esp.2', name: 'LaLiga Hypermotion', country: 'Spain', tz: 'Europe/Madrid' },
+  { code: 'de.1', slug: 'ger.1', name: 'Bundesliga', country: 'Germany', tz: 'Europe/Berlin' },
+  { code: 'de.2', slug: 'ger.2', name: '2. Bundesliga', country: 'Germany', tz: 'Europe/Berlin' },
+  { code: 'it.1', slug: 'ita.1', name: 'Serie A', country: 'Italy', tz: 'Europe/Rome' },
+  { code: 'it.2', slug: 'ita.2', name: 'Serie B', country: 'Italy', tz: 'Europe/Rome' },
+  { code: 'fr.1', slug: 'fra.1', name: 'Ligue 1', country: 'France', tz: 'Europe/Paris' },
+  { code: 'fr.2', slug: 'fra.2', name: 'Ligue 2', country: 'France', tz: 'Europe/Paris' },
+  { code: 'nl.1', slug: 'ned.1', name: 'Eredivisie', country: 'Netherlands', tz: 'Europe/Amsterdam' },
+  { code: 'pt.1', slug: 'por.1', name: 'Primeira Liga', country: 'Portugal', tz: 'Europe/Lisbon' },
+  { code: 'at.1', slug: 'aut.1', name: 'Austrian Bundesliga', country: 'Austria', tz: 'Europe/Vienna' },
+  { code: 'at.2', slug: 'aut.2', name: 'Austrian 2. Liga', country: 'Austria', tz: 'Europe/Vienna' },
+  { code: 'be.1', slug: 'bel.1', name: 'Belgian Pro League', country: 'Belgium', tz: 'Europe/Brussels' },
+  { code: 'gr.1', slug: 'gre.1', name: 'Super League Greece', country: 'Greece', tz: 'Europe/Athens' },
+  { code: 'sco.1', slug: 'sco.1', name: 'Scottish Premiership', country: 'Scotland', tz: 'Europe/London' },
+  { code: 'tr.1', slug: 'tur.1', name: 'Süper Lig', country: 'Turkey', tz: 'Europe/Istanbul' },
+];
+
 const slugify = (s) =>
   String(s || '')
     .normalize('NFKD')
@@ -258,6 +289,7 @@ function mapOpenfootballSeason(json, ctx) {
 
 module.exports = {
   PROVIDER,
+  SEED_LEAGUES,
   slugify,
   offsetMinutes,
   localToUtc,

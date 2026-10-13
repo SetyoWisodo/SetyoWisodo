@@ -14,8 +14,6 @@ const LEAGUES = {
     country: 'England',
     kind: 'club',
     sort_order: 10,
-    // Kode file di openfootball/football.json dan zona waktu untuk jam tanpa penanda zona.
-    openfootball: { code: 'en.1', tz: 'Europe/London' },
   },
   'esp.1': {
     slug: 'esp.1',
@@ -25,7 +23,6 @@ const LEAGUES = {
     country: 'Spain',
     kind: 'club',
     sort_order: 20,
-    openfootball: { code: 'es.1', tz: 'Europe/Madrid' },
   },
 };
 

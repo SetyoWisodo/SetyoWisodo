@@ -89,38 +89,63 @@ dan pastikan token Anda punya akses ke kompetisi tersebut.
 
 ## Seed musim lampau dari openfootball
 
-Untuk mengisi riwayat musim yang sudah selesai (misalnya 2025-26) sebelum listener football-data
-berjalan, pakai seeder. Sumber: [openfootball/football.json](https://github.com/openfootball/football.json)
-dengan lisensi CC0 1.0 (domain publik).
+Untuk mengisi riwayat musim yang sudah selesai (misalnya 2025-26), pakai seeder. Sumber:
+[openfootball/football.json](https://github.com/openfootball/football.json), lisensi CC0 1.0
+(domain publik). Data ini tidak live dan tidak dipakai sebagai cadangan permanen.
 
 ```bash
 # Dari GitHub raw (butuh akses ke raw.githubusercontent.com)
-npm run seed:openfootball -- --season 2025-26 --leagues eng.1,esp.1
+npm run seed:openfootball -- --season 2025-26
 
-# Dari clone lokal (lebih cepat, dan bisa dipakai tanpa akses raw.githubusercontent.com)
+# Dari clone lokal (tidak butuh akses raw.githubusercontent.com)
 git clone --depth 1 https://github.com/openfootball/football.json /tmp/fj
 npm run seed:openfootball -- --season 2025-26 --dir /tmp/fj
+
+# Hanya beberapa liga
+npm run seed:openfootball -- --season 2025-26 --leagues eng.1,ita.1 --dir /tmp/fj
 ```
 
-Aturan:
+Liga yang di-seed (20 liga, daftar lengkap di `listener/openfootball.js`, `SEED_LEAGUES`):
 
-- **Hanya musim lampau.** Seeder menolak musim yang sama atau lebih baru dari musim aktif di
-  `soccer_leagues`. Liga harus sudah ada di database (jalankan listener katalog dulu).
-- Jika tersedia, file `{code}-full.json` dipakai (ada gol dan kartu). Jika tidak, `{code}.json`
-  (hanya skor).
-- Pertandingan dengan skor selesai menjadi `post`, `postponed` menjadi `POSTPONED`, dan
-  `canceled` menjadi `CANCELLED`. Jadwal tanpa skor dilewati.
+| Slug | Liga | Slug | Liga |
+| --- | --- | --- | --- |
+| `eng.1` | Premier League (live) | `ita.1` | Serie A |
+| `esp.1` | LaLiga (live) | `ita.2` | Serie B |
+| `eng.2` | Championship | `fra.1` | Ligue 1 |
+| `eng.3` | League One | `fra.2` | Ligue 2 |
+| `eng.4` | League Two | `ned.1` | Eredivisie |
+| `esp.2` | LaLiga Hypermotion | `por.1` | Primeira Liga |
+| `ger.1` | Bundesliga | `aut.1` | Austrian Bundesliga |
+| `ger.2` | 2. Bundesliga | `aut.2` | Austrian 2. Liga |
+| `bel.1` | Belgian Pro League | `gre.1` | Super League Greece |
+| `sco.1` | Scottish Premiership | `tur.1` | Süper Lig |
+
+`eng.1` dan `esp.1` juga dicakup listener football-data. Liga lainnya hanya seed.
+
+Aturan musim:
+
+- **Liga live (`eng.1`, `esp.1`)**: liga harus sudah ada di `soccer_leagues` (jalankan listener
+  katalog dulu). Musim yang sama atau lebih baru dari musim aktif ditolak.
+- **Liga seed saja**: musim dianggap selesai setelah 1 Juli tahun berakhirnya. Musim yang belum
+  selesai ditolak. Dokumen `soccer_leagues` dibuat dengan `source.provider = openfootball`
+  agar API bisa melayaninya. Dokumen football-data **tidak pernah** ditimpa.
+
+Perilaku data:
+
+- File `{code}-full.json` dipakai jika ada (gol dan kartu). Jika tidak, `{code}.json` (skor saja).
+- Pertandingan bertanda skor selesai menjadi `post`, `postponed` menjadi `POSTPONED`, dan
+  `canceled` menjadi `CANCELLED`. Jadwal tanpa skor dilewati (belum dimainkan).
 - Jam tanpa penanda zona dihitung dari zona waktu liga. Jika jam tidak ada, kick-off diisi
   00:00 UTC dan catatan pada dokumen menyebutkannya.
 - `source.provider` = `openfootball`. Pertandingan ini **tidak pernah** ikut diminta detailnya
   ke football-data.org (`findMatchesForDetails` hanya memilih `football-data`).
 - Seed aman dijalankan ulang: ID pertandingan dan `event_key` bersifat deterministik.
-
-Batasan data openfootball:
-
-- Tidak ada ID klub. Tim diberi ID `of:{slug nama}`, sehingga tidak tercampur dengan klub football-data.
+- Tim memakai ID `of:{slug nama}`, tidak cocok dengan ID klub football-data.
 - Gol bunuh diri tidak ditandai di sumber, jadi tim yang tercatat bisa keliru untuk gol tersebut.
-- Data tidak live dan tidak diperbarui otomatis. Pertandingan musim aktif tetap berasal dari football-data.
+
+Hasil uji dengan data asli musim 2025-26 (`--dir` ke clone): 4.831 pertandingan selesai di 20 liga,
+6.050 kejadian (dari berkas `-full`: EPL, Bundesliga, Bundesliga Austria). Sekitar 2.000 jadwal
+belum bertanda skor dilewati.
 
 ## Batasan yang perlu diketahui
 

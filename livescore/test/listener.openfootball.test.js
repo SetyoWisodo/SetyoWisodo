@@ -6,13 +6,24 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const of = require('../listener/openfootball');
-const { seedSeason, loadSeasonFile, parseArgs } = require('../listener/seedOpenfootball');
+const { seedSeason, loadSeasonFile, parseArgs, parseSeason, seasonEnded, selectLeagues } = require('../listener/seedOpenfootball');
 const { createMemoryStore } = require('../listener/memoryStore');
-const { LEAGUES } = require('../listener/leagues');
+const { SEED_LEAGUES } = of;
 
 const NOW = new Date('2026-10-13T12:00:00Z');
-const EPL = LEAGUES['eng.1'];
-const LA_LIGA = LEAGUES['esp.1'];
+const EPL = SEED_LEAGUES.find((l) => l.slug === 'eng.1');
+const LA_LIGA = SEED_LEAGUES.find((l) => l.slug === 'esp.1');
+const BUNDESLIGA = SEED_LEAGUES.find((l) => l.slug === 'ger.1');
+const CHAMPIONSHIP = SEED_LEAGUES.find((l) => l.slug === 'eng.2');
+
+function writeSeasonDir(files) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'of-season-'));
+  for (const [rel, body] of Object.entries(files)) {
+    fs.mkdirSync(path.dirname(path.join(dir, rel)), { recursive: true });
+    fs.writeFileSync(path.join(dir, rel), JSON.stringify(body));
+  }
+  return dir;
+}
 
 const FT_MATCH = {
   round: 'Regular Season - 1',
@@ -185,4 +196,80 @@ test('parseArgs: membaca flag dan menolak argumen tanpa nilai', () => {
   assert.deepEqual(parseArgs(['--season', '2025-26', '--leagues', 'eng.1']), { season: '2025-26', leagues: 'eng.1' });
   assert.throws(() => parseArgs(['--season']), /butuh nilai/);
   assert.throws(() => parseArgs(['season', '2025-26']), /tidak dikenal/);
+});
+
+test('registri: 20 liga, slug dan kode unik, zona waktu valid, liga live hanya eng.1 dan esp.1', () => {
+  assert.equal(SEED_LEAGUES.length, 20);
+  assert.equal(new Set(SEED_LEAGUES.map((l) => l.slug)).size, 20);
+  assert.equal(new Set(SEED_LEAGUES.map((l) => l.code)).size, 20);
+  for (const l of SEED_LEAGUES) {
+    assert.doesNotThrow(() => new Intl.DateTimeFormat('en', { timeZone: l.tz }), `zona ${l.tz}`);
+    assert.match(l.slug, /^[a-z0-9][a-z0-9._-]{0,63}$/, 'slug harus lolos LEAGUE_PATTERN API');
+  }
+  assert.deepEqual(SEED_LEAGUES.filter((l) => l.live).map((l) => l.slug), ['eng.1', 'esp.1']);
+  assert.equal(selectLeagues(undefined).length, 20);
+  assert.equal(selectLeagues('eng.1,ger.1').length, 2);
+  assert.throws(() => selectLeagues('xx.9'), /liga tidak dikenal/);
+});
+
+test('parseSeason dan seasonEnded: batas musim selesai di 1 Juli', () => {
+  assert.deepEqual(parseSeason('2025-26'), { year: 2025 });
+  assert.throws(() => parseSeason('2025-2026'), /format musim/);
+  assert.equal(seasonEnded(2025, new Date('2026-06-30T23:59:59Z')), false);
+  assert.equal(seasonEnded(2025, new Date('2026-07-01T00:00:00Z')), true);
+});
+
+test('seedSeason liga seed saja: musim selesai di-seed, dokumen liga dibuat dengan source openfootball', async () => {
+  const dir = writeSeasonDir({ '2025-26/de.1-full.json': { name: 'BL', matches: [{ date: '2025-08-22', time: '15:30', team1: 'Bayern', team2: 'Dortmund', score: { ft: [2, 1] } }] } });
+  const store = createMemoryStore();
+  const r = await seedSeason({ store, def: BUNDESLIGA, season: '2025-26', dir, now: NOW });
+  assert.equal(r.mapped, 1);
+  const league = store._data.leagues.get('ger.1');
+  assert.equal(league.source.provider, 'openfootball');
+  assert.equal(league.active, true);
+  assert.equal(league.season.year, 2025);
+  assert.equal(league.season.display_name, '2025-26');
+  // 15:30 Berlin (CEST, +2) pada Agustus = 13:30 UTC.
+  const match = [...store._data.matches.values()][0];
+  assert.equal(match.date.toISOString(), '2025-08-22T13:30:00.000Z');
+  assert.equal(match.league_slug, 'ger.1');
+});
+
+test('seedSeason liga seed saja: musim belum selesai ditolak', async () => {
+  const store = createMemoryStore();
+  await assert.rejects(
+    seedSeason({ store, def: BUNDESLIGA, season: '2026-27', dir: '/tidak-dipakai', now: NOW }),
+    /belum selesai/,
+  );
+});
+
+test('seedSeason liga seed saja: tidak menimpa dokumen football-data', async () => {
+  const store = createMemoryStore();
+  await store.upsertLeague('ger.1', { slug: 'ger.1', source: { provider: 'football-data', source_id: '2002' }, season: { year: 2026 } });
+  await assert.rejects(
+    seedSeason({ store, def: BUNDESLIGA, season: '2025-26', dir: '/tidak-dipakai', now: NOW }),
+    /football-data/,
+  );
+  assert.equal(store._data.leagues.get('ger.1').source.provider, 'football-data');
+});
+
+test('seedSeason liga seed saja: seed musim lebih lama tidak menurunkan musim terbaru di dokumen liga', async () => {
+  const dir = writeSeasonDir({
+    '2025-26/de.1-full.json': { name: 'BL', matches: [{ date: '2025-08-22', time: '15:30', team1: 'Bayern', team2: 'Dortmund', score: { ft: [2, 1] } }] },
+    '2024-25/de.1-full.json': { name: 'BL', matches: [{ date: '2024-08-23', time: '15:30', team1: 'Leverkusen', team2: 'Hoffenheim', score: { ft: [3, 0] } }] },
+  });
+  const store = createMemoryStore();
+  await seedSeason({ store, def: BUNDESLIGA, season: '2025-26', dir, now: NOW });
+  await seedSeason({ store, def: BUNDESLIGA, season: '2024-25', dir, now: NOW });
+  assert.equal(store._data.leagues.get('ger.1').season.year, 2025);
+  assert.equal(store._data.matches.size, 2);
+});
+
+test('seedSeason liga seed saja: seed ulang musim yang sama tidak menggandakan data', async () => {
+  const dir = writeSeasonDir({ '2025-26/en.2.json': { name: 'Championship', matches: [{ date: '2025-08-09', time: '12:30', team1: 'Leeds', team2: 'Burnley', score: [1, 0] }] } });
+  const store = createMemoryStore();
+  await seedSeason({ store, def: CHAMPIONSHIP, season: '2025-26', dir, now: NOW });
+  await seedSeason({ store, def: CHAMPIONSHIP, season: '2025-26', dir, now: NOW });
+  assert.equal(store._data.matches.size, 1);
+  assert.equal(store._data.leagues.get('eng.2').season.year, 2025);
 });
