@@ -2,7 +2,7 @@
 
 # 📱 Rencana Operasional Konten Sosial Media
 
-### **Setyo Wisodo — AI untuk Bisnis & UMKM**
+### **Setyo Wisodo — AI untuk Bisnis & UMKM Indonesia**
 
 **TikTok · Instagram Reels · YouTube Shorts**  
 *Versi 1.0 — mode hybrid: produksi batch + persetujuan manusia sebelum tayang*
@@ -27,6 +27,7 @@
 10. [Kebutuhan dari pemilik akun](#10-kebutuhan-dari-pemilik-akun)
 11. [Rencana 90 hari dan kondisi go/no-go](#11-rencana-90-hari-dan-kondisi-gono-go)
 12. [Format persetujuan untuk memulai](#12-format-persetujuan-untuk-memulai)
+13. [Analisis monetisasi konten AI nasional](national-ai-content-monetization-plan.md)
 
 ---
 
@@ -37,7 +38,8 @@
 | Area | Keputusan |
 |---|---|
 | **Kanal** | TikTok, Instagram Reels, dan YouTube Shorts |
-| **Niche utama** | **AI untuk Bisnis & UMKM** — praktik sederhana yang membantu pemilik usaha, admin, dan marketer bekerja lebih cepat dan lebih rapi |
+| **Niche utama** | **AI untuk Bisnis & UMKM Indonesia** — praktik sederhana yang membantu pemilik usaha, admin, dan marketer bekerja lebih cepat dan lebih rapi |
+| **Cakupan geografis** | **Nasional Indonesia**. Contoh boleh datang dari mana pun, tetapi masalah, bahasa, dan CTA harus relevan untuk audiens Indonesia secara luas — bukan positioning kota/daerah tertentu. |
 | **Mode operasi** | **Hybrid**: konten dibuat secara batch, lalu pemilik akun memberi persetujuan sebelum render/publikasi sesuai gerbang di dokumen ini |
 | **Bahasa** | Bahasa Indonesia yang jelas, hangat, praktis; istilah teknis dijelaskan singkat |
 | **Wajah/identitas** | Tahap awal boleh *faceless* dengan stock footage + screen recording + motion text. Wajah Setyo adalah opsi peningkatan kualitas, bukan syarat awal. |
@@ -52,7 +54,7 @@ Ini adalah target proses dan pembelajaran, **bukan janji viral**.
 | Master video unik yang diproduksi | 16 video vertikal |
 | Distribusi potensial | Maks. 48 unggahan (16 aset × 3 kanal), setelah approval per platform |
 | Ritme | 4 topik/master video per minggu |
-| Durasi master video | 30–45 detik; maksimal 55 detik bila tutorial memang memerlukannya |
+| Durasi master video | 45–75 detik sebagai default; 60–90 detik untuk *deep-dive* yang diuji di YouTube/TikTok. Setelah pilot, tambahkan 1 video YouTube 5–8 menit/minggu untuk jalur watch-hours. |
 | Pilar yang diuji | 4 pilar, masing-masing minimal 3–4 konten |
 | Approval rate video | ≥80% video lolos tanpa perlu render ulang besar |
 | Kesalahan fakta/izin | 0 temuan yang tidak diperbaiki sebelum tayang |
@@ -91,7 +93,7 @@ Views dipantau, tetapi tidak berdiri sendiri. Konten yang sedikit views namun me
 
 ### Persona prioritas
 
-**Dina, 30 tahun, pemilik usaha kuliner di Jawa Timur.** Ia memegang WhatsApp, Instagram, dan katalog sendiri. Ia tidak membutuhkan kuliah AI; ia membutuhkan contoh seperti: “buat 10 ide Reels menu minggu ini”, “ubah testimoni menjadi caption”, dan “buat SOP balas calon pelanggan”.
+**Dina, 30 tahun, pemilik usaha kuliner di Indonesia.** Ia memegang WhatsApp, Instagram, dan katalog sendiri. Ia tidak membutuhkan kuliah AI; ia membutuhkan contoh seperti: “buat 10 ide Reels menu minggu ini”, “ubah testimoni menjadi caption”, dan “buat SOP balas calon pelanggan”.
 
 ### Karakter suara brand
 
@@ -109,9 +111,9 @@ Gunakan identitas yang konsisten di tiga kanal, setelah pemilik akun memilih han
 
 **Usulan bio singkat**
 
-> AI praktis untuk bisnis & UMKM  
-> Konten • SOP • produktivitas  
-> Dari Banyuwangi untuk Indonesia  
+> AI praktis untuk bisnis & UMKM Indonesia<br/>
+> Konten • SOP • produktivitas<br/>
+> Insight dan workflow untuk pelaku usaha Indonesia<br/>
 > ↓ Simpan template gratis / hubungi untuk kolaborasi
 
 **Tiga konten yang dipin setelah pilot:**
@@ -171,9 +173,9 @@ Skor setiap ide 1–5 pada: relevansi UMKM, kejelasan masalah, kemudahan dibukti
 |---|---|
 | Rasio | 9:16 (vertikal) |
 | Resolusi | 1080 × 1920 bila sumber dan render memungkinkan |
-| Durasi | 30–45 detik; 55 detik maksimum |
+| Durasi | 45–75 detik; 60–90 detik untuk *deep-dive* monetisasi; seri YouTube 5–8 menit dimulai setelah pilot |
 | Bahasa | Bahasa Indonesia; istilah Inggris hanya jika lebih umum, lalu jelaskan |
-| Voice-over | Uji `id-ID-ArdiNeural` dan `id-ID-GadisNeural`; pilih satu setelah pilot audio. Jika suara terasa sintetis, gunakan rekaman suara Setyo pada video tertentu. |
+| Voice-over | Uji `id-ID-ArdiNeural` dan `id-ID-GadisNeural` hanya sebagai pilot teknis; sebelum monetisasi, verifikasi hak penggunaan komersial provider. Prioritaskan rekaman suara Setyo atau provider yang lisensi komersialnya jelas. |
 | Kecepatan suara | Awal 1.00–1.06×; utamakan kejelasan daripada kecepatan |
 | Musik | Instrumental berlisensi/tersedia dari sumber yang sah, volume sekitar 10–15% dari voice-over |
 | Subtitle | Aktif, kontras tinggi, 1–2 baris per layar; jangan menutup wajah/screen-recording atau UI platform |
@@ -206,7 +208,7 @@ Gunakan ini sebagai instruksi tambahan saat menghasilkan naskah; ganti variabel 
 Kamu adalah editor konten short-form Bahasa Indonesia untuk Setyo Wisodo.
 Audiens: pemilik UMKM, admin, dan marketer Indonesia yang ingin memakai AI secara praktis.
 
-Buat naskah 35–45 detik tentang: [TOPIK].
+Buat naskah 45–75 detik tentang: [TOPIK]. Untuk topik yang punya bukti/demo kuat, boleh 60–90 detik.
 Hasil yang pembaca dapat: [HASIL PRAKTIS].
 Format wajib:
 1) hook maksimal 12 kata yang menyebut masalah spesifik;
