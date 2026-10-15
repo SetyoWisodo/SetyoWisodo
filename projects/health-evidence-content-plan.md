@@ -247,11 +247,13 @@ Instagram menyatakan misleading medical information tidak eligible untuk monetis
 
 | Divisi | Mandat | Tidak boleh dilakukan | Kewenangan |
 |---|---|---|---|
-| **1. Research & Evidence Desk** | Menemukan sumber primer, menyusun source card, memeriksa kualitas bukti, DOI, batasan, dan kemungkinan koreksi/retraction | Menentukan diagnosis/terapi atau menyederhanakan hasil studi tanpa konteks | Mengembalikan brief yang sumbernya lemah |
-| **2. Production & Hook/Retention** | Membuat 3 opsi hook, naskah, storyboard, animasi anatomi, narasi, dan draft video | Memilih klaim medis baru, menghapus batasan bukti, atau mempublish sendiri | Mengajukan draft ke penilaian |
-| **3. Divisi Penilaian Pra-Upload (PPU)** | Menguji kelayakan evidence, keamanan topik, akurasi anatomi, hak aset, disclosure AI, dan eligibility platform | Memperbaiki fakta secara diam-diam tanpa mengembalikan ke produksi | **Veto: PASS / REVISE / HOLD.** Hanya status PASS yang dapat menuju approval pemilik akun |
-| **4. Pemilik Akun / Editor-in-Chief** | Menyetujui identitas, batch, naskah final, dan jadwal | Mengabaikan temuan merah PPU | Persetujuan publikasi akhir; tidak dapat mengubah status HOLD menjadi publish tanpa bukti/review baru |
-| **5. Reviewer tenaga kesehatan eksternal** *(belum ada)* | Meninjau konten kategori kuning/klinis jika kelak ditunjuk | Menjadi sekadar nama/tempelan tanpa benar-benar meninjau naskah | Syarat wajib untuk konten yang keluar dari kategori hijau |
+| **1. Perencanaan Konten & Opportunity Intelligence** | Memetakan pertanyaan audiens, gap topik, peluang edukasi, tren yang aman, data performa batch sebelumnya, dan prioritas backlog; menerbitkan *content opportunity brief* | Mengubah sinyal tren menjadi klaim medis atau mengejar topik sensitif hanya demi views | Menetapkan prioritas brief dan mengirimnya ke Evidence Desk serta Produksi setelah lolos risiko awal |
+| **2. Research & Evidence Desk** | Menemukan sumber primer, menyusun source card, memeriksa kualitas bukti, DOI, batasan, dan kemungkinan koreksi/retraction | Menentukan diagnosis/terapi atau menyederhanakan hasil studi tanpa konteks | Mengembalikan brief yang sumbernya lemah; menyetujui atau menolak dasar klaim untuk produksi |
+| **3. Production & Hook/Retention** | Membuat 3 opsi hook, naskah, storyboard, animasi anatomi, narasi, dan draft video | Memilih klaim medis baru, menghapus batasan bukti, atau mempublish sendiri | Mengajukan draft ke penilaian |
+| **4. Divisi Penilaian Pra-Upload (PPU)** | Menguji kelayakan evidence, keamanan topik, akurasi anatomi, hak aset, disclosure AI, dan eligibility platform | Memperbaiki fakta secara diam-diam tanpa mengembalikan ke produksi | **Veto: PASS / REVISE / HOLD.** Hanya status PASS yang dapat menuju approval pemilik akun |
+| **5. Pemilik Akun / Editor-in-Chief** | Menyetujui identitas, batch, naskah final, dan jadwal | Mengabaikan temuan merah PPU | Persetujuan publikasi akhir; tidak dapat mengubah status HOLD menjadi publish tanpa bukti/review baru |
+| **6. Review Hasil & Algorithm Insight** | Menganalisis performa pasca-publikasi, komentar, retensi, sumber traffic, dan respons audiens untuk menghasilkan *learning report* | Mengklaim memahami algoritma rahasia, membeli engagement, atau mengorbankan akurasi demi metrik | Mengirim rekomendasi berbasis data kembali ke Divisi 1; tidak mengubah konten live tanpa approval |
+| **7. Reviewer tenaga kesehatan eksternal** *(belum ada)* | Meninjau konten kategori kuning/klinis jika kelak ditunjuk | Menjadi sekadar nama/tempelan tanpa benar-benar meninjau naskah | Syarat wajib untuk konten yang keluar dari kategori hijau |
 
 **Prinsip pemisahan tugas:** Divisi Produksi tidak dapat memberi status “lulus” pada karya sendiri. PPU harus membaca source card, melihat video final, dan menandatangani log keputusan sebelum file masuk jadwal upload.
 
@@ -300,6 +302,85 @@ PPU melakukan penilaian pada video final, bukan hanya naskah. Mereka tidak menge
 - **HOLD:** <75/100, sumber tidak memadai, visual/hak aset meragukan, topik keluar dari batas, atau ada klaim yang membutuhkan reviewer kesehatan.
 
 PPU mengisi satu log: `content ID · versi video · skor per dimensi · status · alasan · reviewer · waktu`. Status PASS berlaku hanya untuk versi file yang diperiksa; setiap perubahan naskah, visual, atau caption harus diperiksa ulang.
+
+### Divisi 1 — Perencanaan Konten & Opportunity Intelligence
+
+Divisi ini mengubah sinyal pasar dan pembelajaran channel menjadi keputusan editorial yang terukur. Tugasnya bukan mencari topik paling sensasional, melainkan menemukan irisan antara **pertanyaan publik, bukti yang cukup kuat, visual yang dapat dijelaskan, dan peluang format yang belum jenuh**.
+
+| Input yang dibaca | Cara dipakai | Bukan untuk |
+|---|---|---|
+| Pertanyaan di komentar, DM, dan pencarian internal platform | Menemukan istilah yang membingungkan audiens dan dijadikan pertanyaan edukatif | Mengambil data pribadi atau menjawab kondisi kesehatan personal |
+| Learning report dari Divisi 6 | Mengulang format/topik yang memberi pemahaman, save, share, dan retensi baik | Mengejar satu video viral tanpa melihat kualitas atau risiko |
+| Gap konten kompetitor/market | Mengidentifikasi penjelasan yang belum jelas, visual yang kurang baik, atau sumber yang tidak transparan | Menyalin naskah, visual, atau ide unik kreator lain |
+| Kalender kesehatan publik dan pembaruan guideline | Menyusun backlog yang relevan bila sumber primer tersedia | Memakai isu krisis/sensitif sebagai clickbait |
+| Kapasitas Evidence Desk dan PPU | Mengatur volume agar semua source card dan review selesai | Memaksa produksi karena target jumlah konten |
+
+Setiap peluang diterbitkan sebagai **Content Opportunity Brief (COB)**:
+
+```text
+COB ID / tanggal:
+Pertanyaan publik yang ingin dijawab:
+Mengapa relevan untuk audiens Indonesia nasional:
+Sinyal pendukung: komentar / pencarian / performance report / gap edukasi
+Hipotesis hook: tiga alternatif pembuka yang tidak menyesatkan
+Format dan visual proof yang direncanakan:
+Sumber awal yang harus diverifikasi Evidence Desk:
+Kategori risiko: hijau / kuning / merah
+Kriteria keberhasilan setelah publish:
+Keputusan Divisi 1: lanjut ke Evidence Desk / backlog / tolak
+```
+
+**Skor prioritas COB (100 poin):** relevansi publik 25, kekuatan/potensi sumber 25, kejelasan visual 15, potensi nilai edukasi 15, kecocokan dengan positioning 10, dan peluang format/retention yang sehat 10. Setiap kandidat kategori merah otomatis ditolak; kandidat kuning tidak boleh diteruskan tanpa rencana reviewer profesional.
+
+### Divisi 6 — Review Hasil & Algorithm Insight
+
+Divisi ini melakukan review pada **24 jam, 72 jam, dan 7 hari** setelah publikasi. “Algorithm Insight” berarti membaca pola yang tampak pada analytics dan respons audiens—bukan mengklaim mengetahui formula algoritma platform atau mencari cara memanipulasinya.
+
+| Kelompok sinyal | Data yang diperiksa | Pertanyaan yang dijawab |
+|---|---|---|
+| Distribusi | Impressions/reach, views, traffic source, search discovery bila tersedia | Apakah judul, thumbnail, dan topik mendapat kesempatan ditemukan? |
+| Hook & retensi | View awal, average watch time, average percentage viewed, completion/rewatch bila tersedia | Apakah detik 0–7 memenuhi janji pembuka dan mempertahankan perhatian? |
+| Nilai edukasi | Saves, shares, komentar yang menunjukkan pemahaman, pertanyaan lanjutan | Apakah konten cukup berguna untuk disimpan/dibagikan? |
+| Kepercayaan | Komentar koreksi, permintaan sumber, sentimen, report, unfollow pattern bila tersedia | Apakah audience memahami konteks dan mempercayai proses sumber? |
+| Pertumbuhan | Profile visits, subscribers/follows, returning viewers bila tersedia | Apakah seri menarik audience yang tepat, bukan hanya views sesaat? |
+| Operasi | Waktu riset, revisi, biaya, kegagalan render, status PPU | Apakah format dapat diproduksi konsisten tanpa menurunkan standar? |
+
+**Aturan membaca data:** bandingkan video dengan baseline 3–5 video sejenis pada kanal yang sama; jangan membandingkan angka mentah TikTok, Reels, dan YouTube secara langsung. Satu video bukan bukti keputusan. Cari pola minimal dari beberapa upload dan satu perubahan utama per eksperimen.
+
+Divisi 6 menerbitkan **Learning Report**:
+
+```text
+Content ID / platform / tanggal publish:
+Metrik 24h · 72h · 7 hari:
+Pola hook dan titik retensi yang terlihat:
+Sinyal nilai: save/share/komentar berkualitas:
+Pertanyaan atau miskonsepsi audiens yang muncul:
+Issue koreksi, sumber, policy, atau visual:
+Hipotesis yang didukung / ditolak:
+Satu hal yang dipertahankan:
+Satu eksperimen berikutnya:
+Rekomendasi untuk Divisi 1:
+```
+
+### Closed-loop workflow
+
+```text
+Divisi 6: Review hasil & sinyal audiens
+                ↓ Learning Report
+Divisi 1: Perencanaan & Opportunity Intelligence
+                ↓ Content Opportunity Brief
+Divisi 2: Research & Evidence Desk
+                ↓ Source Card disetujui
+Divisi 3: Production & Hook/Retention
+                ↓ Draft video + 3 opsi hook
+Divisi 4: PPU (PASS / REVISE / HOLD)
+                ↓ PASS
+Divisi 5: Editor-in-Chief approval → Publish
+                ↓
+                └──────── kembali ke Divisi 6
+```
+
+**Larangan optimasi:** tidak membeli views/followers, tidak membuat judul menakut-nakuti, tidak memakai kondisi kesehatan sensitif sebagai bait, tidak menghapus koreksi valid demi menjaga performa, dan tidak mengubah klaim ilmiah hanya untuk meningkatkan retention.
 
 ### Peran AI dan peran editor
 
