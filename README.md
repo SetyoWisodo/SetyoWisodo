@@ -123,8 +123,8 @@ Halo! Saya **Setyo Wisodo**, seorang profesional yang menggabungkan keahlian tek
   <tr>
     <td valign="top">
       <b>🧬 <a href="projects/health-evidence-content-plan.md">Rencana Konten Sains Kesehatan Berbasis Bukti</a> <sup>AKTIF</sup></b><br/>
-      Playbook konten kesehatan nasional: anatomi non-grafis, sumber jurnal yang dapat ditelusuri, produksi AI-assisted, dan penilaian independen sebelum upload.<br/>
-      <sub>📄 Opportunity Intelligence · Source Card · Divisi Hook/Retention · Penilaian Pra-Upload · Algorithm Insight · Kalender 30 Hari</sub>
+      Playbook konten kesehatan nasional: anatomi non-grafis, sumber jurnal yang dapat ditelusuri, produksi AI-assisted, identitas suara konsisten yang consent-first, dan penilaian independen sebelum upload.<br/>
+      <sub>📄 Opportunity Intelligence · Source Card · Divisi Hook/Retention · <a href="projects/voice-identity-production-plan.md">Voice Identity & Audio QA</a> · Penilaian Pra-Upload · Algorithm Insight · Kalender 30 Hari</sub>
     </td>
   </tr>
   <tr>

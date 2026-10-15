@@ -7,9 +7,10 @@
 **Anatomi non-grafis · Jurnal ilmiah · Literasi kesehatan publik**<br/>
 *Versi 1.0 · 15 Oktober 2026 · Konten AI-assisted dengan review editorial manusia*
 
-<sub>Status: 🟡 Rencana aktif. Tidak ada video, akun, atau koneksi publishing yang dijalankan oleh dokumen ini.</sub>
+<sub>Status: 🟡 Rencana aktif. Tidak ada video, akun, koneksi publishing, cloning suara, atau model TTS yang dijalankan oleh dokumen ini.</sub>
 
-> **Batch aktif (perencanaan saja):** [Batch 1 — COB, Source Card & Hook](health-content-batches/2026-10-batch-01/README.md)
+> **Batch aktif (perencanaan saja):** [Batch 1 — COB, Source Card & Hook](health-content-batches/2026-10-batch-01/README.md)<br/>
+> **Skill suara (rencana bersyarat):** [Voice Identity Production Plan](voice-identity-production-plan.md)
 
 </div>
 
@@ -25,6 +26,7 @@
 | **Format visual** | Animasi/ilustrasi anatomi 3D non-grafis, data visual, motion graphics, dan narasi edukatif |
 | **Kredensial saat ini** | Belum ada tenaga kesehatan berlisensi sebagai narasumber/reviewer; batas konten dibuat lebih ketat |
 | **AI** | Membantu produksi; tidak menjadi avatar dokter/ahli dan tidak menggantikan verifikasi editorial |
+| **Identitas suara** | Satu profile narator versioned hanya setelah consent, lisensi model/output, uji Bahasa Indonesia, dan Voice QA Gate lulus; detailnya di [Voice Identity Production Plan](voice-identity-production-plan.md) |
 | **Audiens** | Dewasa Indonesia yang ingin memahami sains tubuh dan membaca klaim kesehatan secara lebih kritis |
 | **Kanal** | YouTube sebagai pusat katalog; TikTok dan Instagram Reels untuk discovery, semuanya setelah approval manual |
 
@@ -251,8 +253,8 @@ Instagram menyatakan misleading medical information tidak eligible untuk monetis
 |---|---|---|---|
 | **1. Perencanaan Konten & Opportunity Intelligence** | Memetakan pertanyaan audiens, gap topik, peluang edukasi, tren yang aman, data performa batch sebelumnya, dan prioritas backlog; menerbitkan *content opportunity brief* | Mengubah sinyal tren menjadi klaim medis atau mengejar topik sensitif hanya demi views | Menetapkan prioritas brief dan mengirimnya ke Evidence Desk serta Produksi setelah lolos risiko awal |
 | **2. Research & Evidence Desk** | Menemukan sumber primer, menyusun source card, memeriksa kualitas bukti, DOI, batasan, dan kemungkinan koreksi/retraction | Menentukan diagnosis/terapi atau menyederhanakan hasil studi tanpa konteks | Mengembalikan brief yang sumbernya lemah; menyetujui atau menolak dasar klaim untuk produksi |
-| **3. Production & Hook/Retention** | Membuat 3 opsi hook, naskah, storyboard, animasi anatomi, narasi, dan draft video | Memilih klaim medis baru, menghapus batasan bukti, atau mempublish sendiri | Mengajukan draft ke penilaian |
-| **4. Divisi Penilaian Pra-Upload (PPU)** | Menguji kelayakan evidence, keamanan topik, akurasi anatomi, hak aset, disclosure AI, dan eligibility platform | Memperbaiki fakta secara diam-diam tanpa mengembalikan ke produksi | **Veto: PASS / REVISE / HOLD.** Hanya status PASS yang dapat menuju approval pemilik akun |
+| **3. Production & Hook/Retention** | Membuat 3 opsi hook, naskah, storyboard, animasi anatomi, narasi, **Voice QA**, dan draft video memakai satu Voice ID yang telah disetujui | Memilih klaim medis baru, menghapus batasan bukti, mengganti Voice ID/model tanpa review, atau mempublish sendiri | Mengajukan draft beserta pronunciation sheet dan Voice QA ke penilaian |
+| **4. Divisi Penilaian Pra-Upload (PPU)** | Menguji kelayakan evidence, keamanan topik, akurasi anatomi, hak aset, **hak suara/model**, disclosure AI, dan eligibility platform | Memperbaiki fakta secara diam-diam tanpa mengembalikan ke produksi | **Veto: PASS / REVISE / HOLD.** Hanya status PASS yang dapat menuju approval pemilik akun |
 | **5. Pemilik Akun / Editor-in-Chief** | Menyetujui identitas, batch, naskah final, dan jadwal | Mengabaikan temuan merah PPU | Persetujuan publikasi akhir; tidak dapat mengubah status HOLD menjadi publish tanpa bukti/review baru |
 | **6. Review Hasil & Algorithm Insight** | Menganalisis performa pasca-publikasi, komentar, retensi, sumber traffic, dan respons audiens untuk menghasilkan *learning report* | Mengklaim memahami algoritma rahasia, membeli engagement, atau mengorbankan akurasi demi metrik | Mengirim rekomendasi berbasis data kembali ke Divisi 1; tidak mengubah konten live tanpa approval |
 | **7. Reviewer tenaga kesehatan eksternal** *(belum ada)* | Meninjau konten kategori kuning/klinis jika kelak ditunjuk | Menjadi sekadar nama/tempelan tanpa benar-benar meninjau naskah | Syarat wajib untuk konten yang keluar dari kategori hijau |
@@ -285,6 +287,21 @@ Tujuan hook bukan membuat janji berlebihan; tujuan hook adalah membuat penonton 
 
 **Larangan hook:** “dokter tidak mau kamu tahu”, klaim menyembuhkan, ketakutan palsu, mempermalukan bentuk tubuh, memanfaatkan penyakit, atau judul/thumbnail yang lebih ekstrem dari isi video.
 
+### Skill Voice Identity & Audio Production
+
+Skill suara berada di dalam Divisi Produksi, tetapi tidak dapat meloloskan audionya sendiri. Tujuannya adalah menjaga satu suara narator yang mudah dikenali tanpa meniru orang lain atau membuat otoritas medis palsu. Implementasi kandidatnya adalah VoiceStudio, dengan prosedur lengkap di [Voice Identity Production Plan](voice-identity-production-plan.md) dan instruksi operasional di [`skills/voice-identity-production/SKILL.md`](../skills/voice-identity-production/SKILL.md).
+
+| Gerbang suara | Wajib sebelum audio dipakai di video |
+|---|---|
+| **Consent/provenance** | Voice owner memberi izin eksplisit, atau suara merupakan desain sintetis dengan sumber/lisensi yang terdokumentasi |
+| **Hak komersial** | Exact engine, model/weights, komponen, dan hak output telah diperiksa; lisensi aplikasi tidak dianggap cukup |
+| **Voice ID** | Satu profile versioned, misalnya `VOICE-ID-v1`, berstatus approved; tidak ada pergantian diam-diam dalam batch |
+| **Tes Indonesia** | Istilah umum, anatomi, angka, akronim, dan istilah Inggris yang diperlukan terdengar jelas dan benar |
+| **Audio QA** | Tidak ada kata hilang, clipping, artefak, tempo mengganggu, atau peniruan orang lain |
+| **Approval** | Voice QA PASS dan dicatat bersama pronunciation sheet sebelum file video final masuk PPU |
+
+> **Status saat ini:** tidak ada reference audio, profile suara, model TTS, clone, atau audio yang dibuat. Engine default VoiceStudio tidak dipakai untuk channel monetisasi ini sampai pemeriksaan lisensi exact model/output memberikan clearance tertulis.
+
 ### Divisi Penilaian Pra-Upload (PPU)
 
 PPU melakukan penilaian pada video final, bukan hanya naskah. Mereka tidak mengejar jumlah upload; mandatnya adalah mencegah kesalahan ilmiah, risiko kesehatan, dan kegagalan monetisasi.
@@ -293,9 +310,9 @@ PPU melakukan penilaian pada video final, bukan hanya naskah. Mereka tidak menge
 |---|---:|---|
 | Bukti & akurasi klaim | 25 | Source card lengkap; klaim sesuai sumber; batasan studi disebut bila relevan |
 | Batas kesehatan & risiko | 20 | Tidak ada diagnosis, terapi, dosis, klaim penyembuhan, atau saran personal |
-| Visual anatomi & hak aset | 15 | Anatomi/label diverifikasi; lisensi komersial jelas; non-grafis |
+| Visual anatomi, suara & hak aset | 15 | Anatomi/label diverifikasi; lisensi komersial visual/audio/model jelas; Voice ID/provenance tersedia; non-grafis |
 | Orisinalitas & nilai edukasi | 15 | Ada analisis/visual asli; bukan pembacaan artikel atau slideshow template |
-| AI disclosure & transparansi | 10 | Label/pengaturan AI dipilih bila relevan; tidak ada avatar/otoritas palsu |
+| AI disclosure & transparansi | 10 | Label/pengaturan AI dipilih bila relevan; tidak ada avatar, narator, atau otoritas palsu |
 | Hook & retention integrity | 10 | Hook akurat, payoff muncul, tidak clickbait/sensasional |
 | Metadata & monetisasi platform | 5 | Judul, thumbnail, caption, sitasi, dan disclosure sesuai kanal |
 
@@ -303,7 +320,7 @@ PPU melakukan penilaian pada video final, bukan hanya naskah. Mereka tidak menge
 - **REVISE:** 75–89/100 atau ada kekurangan yang dapat diperbaiki.
 - **HOLD:** <75/100, sumber tidak memadai, visual/hak aset meragukan, topik keluar dari batas, atau ada klaim yang membutuhkan reviewer kesehatan.
 
-PPU mengisi satu log: `content ID · versi video · skor per dimensi · status · alasan · reviewer · waktu`. Status PASS berlaku hanya untuk versi file yang diperiksa; setiap perubahan naskah, visual, atau caption harus diperiksa ulang.
+PPU mengisi satu log: `content ID · versi video · Voice ID/model (jika ada) · skor per dimensi · status · alasan · reviewer · waktu`. Status PASS berlaku hanya untuk versi file yang diperiksa; setiap perubahan naskah, visual, audio, Voice ID/model, atau caption harus diperiksa ulang.
 
 ### Divisi 1 — Perencanaan Konten & Opportunity Intelligence
 
@@ -373,8 +390,8 @@ Divisi 1: Perencanaan & Opportunity Intelligence
                 ↓ Content Opportunity Brief
 Divisi 2: Research & Evidence Desk
                 ↓ Source Card disetujui
-Divisi 3: Production & Hook/Retention
-                ↓ Draft video + 3 opsi hook
+Divisi 3: Production & Hook/Retention + Voice QA
+                ↓ Draft video + 3 opsi hook + Voice ID/pronunciation sheet
 Divisi 4: PPU (PASS / REVISE / HOLD)
                 ↓ PASS
 Divisi 5: Editor-in-Chief approval → Publish
@@ -392,7 +409,7 @@ Divisi 5: Editor-in-Chief approval → Publish
 | Riset | Membuat kata kunci/struktur source card | Membuka sumber primer, cek kualitas, tahun, DOI, batasan, dan retraction |
 | Naskah | Membuat draft dengan struktur | Menghapus overclaim, menulis keterbatasan, mengesahkan naskah |
 | Visual | Membuat konsep diagram/motion | Memeriksa anatomi, lisensi, ketepatan label, dan sensitivitas visual |
-| Narasi | TTS sebagai draft teknis | Memastikan lisensi komersial, pelafalan, dan tidak mengesankan AI adalah dokter |
+| Narasi | TTS sebagai draft teknis melalui satu Voice ID approved | Memastikan consent/provenance suara, lisensi komersial engine-model-output, pelafalan, Audio QA, dan tidak mengesankan AI adalah dokter |
 | Metadata | Draft caption/title/sitasi | Mengecek link, disclosure AI, dan pernyataan edukatif |
 | Publish | Menyiapkan draft upload | Memberi persetujuan akhir per aset/platform/jadwal |
 
@@ -400,7 +417,7 @@ Divisi 5: Editor-in-Chief approval → Publish
 
 - Jangan memakai nama, jas dokter, gelar, atau avatar manusia yang membuat narator tampak sebagai dokter/ahli kesehatan.
 - Gunakan narasi netral: “Mari lihat apa yang ditemukan penelitian ini,” bukan “Saya merekomendasikan pengobatan ini.”
-- Prioritaskan suara manusia Setyo jika memungkinkan. Jika TTS dipakai, verifikasi lisensi komersial provider terlebih dahulu; tool gratis bukan bukti hak komersial.
+- Gunakan hanya Voice ID yang telah disetujui. Jika memakai suara pemilik akun, simpan consent dan provenance secara privat; jika memakai TTS, verifikasi lisensi komersial provider, engine, model, komponen, dan output terlebih dahulu—tool gratis bukan bukti hak komersial.
 - Untuk visual/audio AI realistis, gunakan disclosure platform yang relevan.
 
 ### Prompt editorial kesehatan
