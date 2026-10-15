@@ -88,6 +88,7 @@ Set status to **HOLD** and do not generate final audio if any of these occurs:
 ## Current project status
 
 - VoiceStudio was evaluated as a functional candidate only.
+- The selected candidate route is the account owner's voice adapted into an AI narrator character; formal consent and persona choices are still pending.
 - No profile, reference recording, model, backend, cloning, or generated audio has been created.
 - The default VoiceStudio OmniVoice route must be treated as non-commercial/unapproved for this monetization-oriented channel until a separate exact-model review says otherwise.
 - See `projects/voice-identity-production-plan.md` for governance, activation stages, and approval wording.

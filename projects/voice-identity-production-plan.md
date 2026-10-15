@@ -16,7 +16,7 @@
 |---|---|
 | **Tujuan** | Menciptakan satu identitas suara yang konsisten untuk seluruh video kesehatan, agar audiens mengenali brand melalui narasi yang sama |
 | **Tool kandidat** | VoiceStudio: desktop/local workflow untuk voice cloning, voice design, batch narration, local API, dan MCP |
-| **Sumber suara** | **Belum dipilih.** Hanya boleh memakai suara pemilik akun yang memberi persetujuan eksplisit, atau suara sintetis yang lisensi penggunaan komersialnya telah diverifikasi |
+| **Sumber suara** | **Kandidat dipilih:** suara pemilik akun yang dimodifikasi AI menjadi karakter narator; masih menunggu consent tertulis, persona, audit model/output, dan Voice QA |
 | **Status sekarang** | Belum ada clone, voice profile, reference audio, model download, API key, atau audio render |
 | **Kebijakan brand** | Satu profile yang dikunci per versi (`VOICE-ID-v1`), bukan berganti-ganti suara antarvideo |
 | **Kebijakan kesehatan** | Narator tidak boleh tampil/ditulis sebagai dokter atau ahli kesehatan bila tidak ada kredensial tersebut |
@@ -78,13 +78,15 @@ Profile hanya dianggap **approved** jika semua data di atas terisi dan lulus Voi
 
 ## 3. Consent dan sumber suara
 
-### Jalur A — Suara pemilik akun sendiri
+### Jalur A — Suara pemilik akun yang dimodifikasi AI **(kandidat dipilih)**
 
-Ini jalur yang paling kuat untuk identitas personal, tetapi membutuhkan persetujuan eksplisit.
+Ini jalur yang paling kuat untuk identitas personal sekaligus memungkinkan pembawaan yang lebih sesuai konten. Reference audio hanya berasal dari pemilik akun; sistem boleh membentuk **karakter narator** yang lebih tenang, jelas, hangat, atau dinamis melalui setting yang terdokumentasi. Karakter tersebut tidak boleh diarahkan agar menyerupai dokter, selebritas, kreator lain, atau orang tertentu.
+
+Adaptasi yang boleh diuji setelah lisensi model lolos meliputi kejelasan artikulasi, tempo, penekanan, jeda, kehangatan, dan energi penyampaian. Semua perubahan harus tercatat dalam Voice Identity Card dan disetujui pemilik suara. Jangan pernah memakai sample suara orang lain untuk membuat suara pemilik tampak “lebih cocok”.
 
 Sebelum reference audio dipakai, pemilik suara harus menyetujui pernyataan berikut:
 
-> “Saya adalah pemilik suara pada rekaman referensi ini dan memberi izin untuk membuat profile suara AI yang hanya digunakan sebagai narasi pada kanal kesehatan [nama brand]. Saya memahami profile ini tidak boleh digunakan untuk meniru dokter, orang lain, endorsement palsu, panggilan, atau tujuan di luar persetujuan ini tanpa persetujuan baru.”
+> “Saya adalah pemilik suara pada rekaman referensi ini dan memberi izin untuk membuat profile suara AI dengan karakter narator yang dimodifikasi untuk kanal kesehatan [nama brand]. Saya memahami profile ini hanya digunakan sebagai narasi kanal tersebut dan tidak boleh digunakan untuk meniru dokter, orang lain, endorsement palsu, panggilan, atau tujuan di luar persetujuan ini tanpa persetujuan baru.”
 
 ### Jalur B — Suara sintetis yang didesain
 
