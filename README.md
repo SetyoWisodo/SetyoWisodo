@@ -127,6 +127,13 @@ Halo! Saya **Setyo Wisodo**, seorang profesional yang menggabungkan keahlian tek
       <sub>📄 Roadmap · Pricing & Unit Economics · GTM · Risiko · Rencana 90 Hari</sub>
     </td>
   </tr>
+  <tr>
+    <td valign="top">
+      <b>📱 <a href="projects/social-media-automation-execution-plan.md">Rencana Operasional Konten Sosial Media</a></b><br/>
+      Playbook eksekusi hybrid untuk personal brand <i>AI untuk Bisnis & UMKM</i> di TikTok, Instagram Reels, dan YouTube Shorts.<br/>
+      <sub>📄 Kalender 30 Hari · Naskah Pilot · QA · Approval Gate · Konfigurasi MPT · KPI</sub>
+    </td>
+  </tr>
 </table>
 
 ---
