@@ -255,6 +255,8 @@ Instagram menyatakan misleading medical information tidak eligible untuk monetis
 
 **Prinsip pemisahan tugas:** Divisi Produksi tidak dapat memberi status “lulus” pada karya sendiri. PPU harus membaca source card, melihat video final, dan menandatangani log keputusan sebelum file masuk jadwal upload.
 
+> **Batas independensi:** PPU adalah fungsi editorial/compliance, bukan tenaga kesehatan. Pada eksekusi nyata, PPU harus dijalankan oleh reviewer manusia atau peran yang berbeda dari pembuat video. Bila hanya ada satu orang yang mengerjakan produksi dan review, statusnya hanya boleh disebut **internal editorial check**—bukan review independen—dan konten tetap dibatasi pada kategori hijau. Konten kuning/klinis tetap membutuhkan reviewer tenaga kesehatan berlisensi.
+
 ### Divisi Production & Hook/Retention
 
 Tujuan hook bukan membuat janji berlebihan; tujuan hook adalah membuat penonton memahami **pertanyaan ilmiah yang akan benar-benar dijawab**. Setiap brief wajib menghasilkan minimal **tiga** hook yang berbeda, lalu PPU memilih satu yang akurat.
