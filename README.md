@@ -117,6 +117,20 @@ Halo! Saya **Setyo Wisodo**, seorang profesional yang menggabungkan keahlian tek
 
 ---
 
+### 📁 Proyek & Product Plan (Projects)
+
+<table>
+  <tr>
+    <td valign="top">
+      <b>🚀 <a href="projects/moneyprinterturbo-product-plan.md">VideoKilat — Product Plan</a></b><br/>
+      Strategi produk, go-to-market, dan monetisasi untuk layanan <i>AI short-video automation</i> di Indonesia, dibangun di atas open-source <a href="https://github.com/harry0703/MoneyPrinterTurbo">MoneyPrinterTurbo</a> (MIT).<br/>
+      <sub>📄 Roadmap · Pricing & Unit Economics · GTM · Risiko · Rencana 90 Hari</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ### 📫 Hubungi Saya (Connect with Me)
 
 <div align="center">
