@@ -107,7 +107,7 @@ PPU → owner approval → final assembly/publish gate
 | Gate | Pertanyaan | Status sekarang |
 |---|---|---|
 | **G0 — Skill audit** | Apakah fungsi, lisensi kode, risiko upstream, dan batas tool didokumentasikan? | ✅ Selesai |
-| **G1 — Scope** | Apakah pemilik akun memilih Batch/Content ID, format, dan jenis draft yang akan dirender? | ⏳ Menunggu pilihan setelah request render sebelumnya |
+| **G1 — Scope** | Apakah pemilik akun memilih Batch/Content ID, format, dan jenis draft yang akan dirender? | 🟡 Mode **draft internal** dipilih; Content ID dan format output masih menunggu pilihan |
 | **G2 — Scene authority** | Apakah scene berasal dari source card, hook, dan shot list yang disetujui? | ✅ Untuk shot list Batch 1; naskah/storyboard final tetap belum dibuat |
 | **G3 — Generator/provider** | Apakah exact model/provider, hak komersial output, input retention, biaya, dan disclosure disetujui? | 🔒 Belum ada generator/provider yang cleared |
 | **G4 — Generate/render** | Apakah prompt manifest, asset register, dan authorization per scene tersedia? | 🔒 Terkunci |
