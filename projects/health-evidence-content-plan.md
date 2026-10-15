@@ -9,6 +9,8 @@
 
 <sub>Status: 🟡 Rencana aktif. Tidak ada video, akun, atau koneksi publishing yang dijalankan oleh dokumen ini.</sub>
 
+> **Batch aktif (perencanaan saja):** [Batch 1 — COB, Source Card & Hook](health-content-batches/2026-10-batch-01/README.md)
+
 </div>
 
 ---
