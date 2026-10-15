@@ -16,7 +16,7 @@
 |---|---|
 | **Tujuan** | Menciptakan satu identitas suara yang konsisten untuk seluruh video kesehatan, agar audiens mengenali brand melalui narasi yang sama |
 | **Tool kandidat** | VoiceStudio: desktop/local workflow untuk voice cloning, voice design, batch narration, local API, dan MCP |
-| **Sumber suara** | **Kandidat dipilih:** suara pemilik akun yang dimodifikasi AI menjadi karakter narator; masih menunggu consent tertulis, persona, audit model/output, dan Voice QA |
+| **Sumber suara** | **Arah dipilih:** suara pemilik akun dimodifikasi AI menjadi karakter narator brand; consent terbatas untuk audit/penyiapan sudah direkam, sedangkan model, download, cloning, dan audio masih menunggu gate terpisah |
 | **Status sekarang** | Belum ada clone, voice profile, reference audio, model download, API key, atau audio render |
 | **Kebijakan brand** | Satu profile yang dikunci per versi (`VOICE-ID-v1`), bukan berganti-ganti suara antarvideo |
 | **Kebijakan kesehatan** | Narator tidak boleh tampil/ditulis sebagai dokter atau ahli kesehatan bila tidak ada kredensial tersebut |
@@ -63,7 +63,8 @@ Tool dan versi:
 Engine + exact model/weight revision:
 Lisensi engine/model/output yang diverifikasi:
 Bahasa utama: Bahasa Indonesia
-Gaya: edukatif, tenang, jelas, hangat, tidak menggurui
+Gaya: narator brand berbeda; hangat, jelas, mudah dipahami, tidak menggurui
+Transformasi target: artikulasi, tempo, jeda, penekanan, kehangatan, dan energi—tanpa imitasi pihak ketiga
 Kecepatan target: diuji per naskah; utamakan kejelasan
 Larangan: impersonasi dokter, selebritas, public figure, atau orang lain
 Reference audio path + transcript:
@@ -199,8 +200,8 @@ Reviewer audio:
 | Tahap | Output | Status sekarang |
 |---|---|---|
 | **V0 — Due diligence** | Audit VoiceStudio, lisensi, consent, hardware, dan batas brand | ✅ Selesai |
-| **V1 — Pilih sumber suara** | Keputusan: suara pemilik atau synthetic design + consent/lisensi | ⏳ Menunggu pemilik akun |
-| **V2 — Model & environment review** | Exact engine/model, revision, license evidence, hardware, data path | ⏳ Jangan download/install tanpa approval |
+| **V1 — Arah suara & consent terbatas** | Suara pemilik → narator brand berbeda, hangat, mudah dipahami; izin hanya untuk audit dan persiapan recording | ✅ Dicatat; belum ada asset suara |
+| **V2 — Model & environment review** | [Audit kandidat engine 15 Okt 2026](voice-engine-audit-2026-10-15.md): exact engine/model, revision, license evidence, hardware, data path | 🔒 HOLD: VoxCPM2 kandidat teknis, tetapi clearance komersial/output/komponen belum lengkap |
 | **V3 — Sample test** | 5–10 clip pendek Bahasa Indonesia untuk uji identity & pronunciation | ⏳ Hanya setelah V1–V2 PASS |
 | **V4 — Voice QA Gate** | Voice ID `approved` atau `hold` | ⏳ |
 | **V5 — Batch narration** | Narasi untuk naskah yang telah disetujui; QA audio dan PPU | 🔒 Belum diizinkan |
@@ -217,9 +218,11 @@ Tidak ada model VoiceStudio yang diunduh saat menyusun dokumen ini.
 
 ## 9. Persetujuan untuk langkah selanjutnya
 
-Jika memilih **suara sendiri**, gunakan persetujuan berikut:
+### Consent tahap V1 — sudah direkam
 
-> “Saya memilih suara saya sendiri sebagai sumber `VOICE-ID-v1` untuk kanal kesehatan. Saya memberi izin terbatas untuk membuat profile narasi AI bagi kanal ini. Lanjutkan ke V2: audit engine/model dan siapkan naskah reference recording. Jangan mengunduh model, membuat clone, atau menghasilkan audio sebelum saya menyetujui model dan menyerahkan reference recording.”
+Pemilik akun memilih **suara sendiri yang dimodifikasi AI** sebagai sumber `VOICE-ID-v1`, dengan karakter **narator brand yang berbeda, hangat, dan mudah dipahami**. Persetujuan ini terbatas pada audit engine/model dan persiapan naskah reference recording.
+
+> **Belum diizinkan:** download model, instalasi engine, penyerahan reference audio, cloning, synthesis, atau penggunaan audio pada video. Semua tindakan tersebut membutuhkan persetujuan tahap berikutnya setelah V2 memperoleh clearance.
 
 Jika memilih **suara sintetis**, gunakan:
 

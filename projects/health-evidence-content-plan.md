@@ -10,7 +10,7 @@
 <sub>Status: 🟡 Rencana aktif. Tidak ada video, akun, koneksi publishing, cloning suara, atau model TTS yang dijalankan oleh dokumen ini.</sub>
 
 > **Batch aktif (perencanaan saja):** [Batch 1 — COB, Source Card & Hook](health-content-batches/2026-10-batch-01/README.md)<br/>
-> **Skill suara (rencana bersyarat):** [Voice Identity Production Plan](voice-identity-production-plan.md)
+> **Skill suara (rencana bersyarat):** [Voice Identity Production Plan](voice-identity-production-plan.md) · [Audit engine (15 Okt 2026)](voice-engine-audit-2026-10-15.md)
 
 </div>
 

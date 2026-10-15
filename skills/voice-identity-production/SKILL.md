@@ -88,7 +88,8 @@ Set status to **HOLD** and do not generate final audio if any of these occurs:
 ## Current project status
 
 - VoiceStudio was evaluated as a functional candidate only.
-- The selected candidate route is the account owner's voice adapted into an AI narrator character; formal consent and persona choices are still pending.
-- No profile, reference recording, model, backend, cloning, or generated audio has been created.
+- The selected route is the account owner's voice adapted into a distinct, warm, easy-to-follow AI narrator character. Consent is limited to the engine audit and reference-recording preparation.
+- No profile, reference recording, model, backend, cloning, or generated audio has been created; model download/installation and all audio work still need a separate approval.
+- VoxCPM2 is the functional front-runner for Indonesian voice design + controllable cloning, but it is **HOLD**: its commercial inference/output/component evidence is incomplete in VoiceStudio's own inventory.
 - The default VoiceStudio OmniVoice route must be treated as non-commercial/unapproved for this monetization-oriented channel until a separate exact-model review says otherwise.
-- See `projects/voice-identity-production-plan.md` for governance, activation stages, and approval wording.
+- See `projects/voice-identity-production-plan.md` and `projects/voice-engine-audit-2026-10-15.md` for governance, activation stages, and audit evidence.
