@@ -122,6 +122,13 @@ Halo! Saya **Setyo Wisodo**, seorang profesional yang menggabungkan keahlian tek
 <table>
   <tr>
     <td valign="top">
+      <b>🧬 <a href="projects/health-evidence-content-plan.md">Rencana Konten Sains Kesehatan Berbasis Bukti</a> <sup>AKTIF</sup></b><br/>
+      Playbook konten kesehatan nasional: anatomi non-grafis, sumber jurnal yang dapat ditelusuri, produksi AI-assisted, dan penilaian independen sebelum upload.<br/>
+      <sub>📄 Source Card · Divisi Hook/Retention · Divisi Penilaian Pra-Upload · Monetisasi Platform · Kalender 30 Hari</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
       <b>🚀 <a href="projects/moneyprinterturbo-product-plan.md">VideoKilat — Product Plan</a></b><br/>
       Strategi produk, go-to-market, dan monetisasi untuk layanan <i>AI short-video automation</i> di Indonesia, dibangun di atas open-source <a href="https://github.com/harry0703/MoneyPrinterTurbo">MoneyPrinterTurbo</a> (MIT).<br/>
       <sub>📄 Roadmap · Pricing & Unit Economics · GTM · Risiko · Rencana 90 Hari</sub>
@@ -129,15 +136,15 @@ Halo! Saya **Setyo Wisodo**, seorang profesional yang menggabungkan keahlian tek
   </tr>
   <tr>
     <td valign="top">
-      <b>📱 <a href="projects/social-media-automation-execution-plan.md">Rencana Operasional Konten Sosial Media</a></b><br/>
-      Playbook eksekusi hybrid untuk personal brand <i>AI untuk Bisnis & UMKM Indonesia</i> di TikTok, Instagram Reels, dan YouTube Shorts.<br/>
+      <b>📱 <a href="projects/social-media-automation-execution-plan.md">Rencana Operasional Konten Sosial Media</a> <sup>ARSIP — UMKM</sup></b><br/>
+      Playbook eksekusi hybrid sebelumnya untuk personal brand <i>AI untuk Bisnis & UMKM Indonesia</i>; digantikan oleh plan kesehatan aktif.<br/>
       <sub>📄 Kalender 30 Hari · Naskah Pilot · QA · Approval Gate · Konfigurasi MPT · KPI</sub>
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <b>💰 <a href="projects/national-ai-content-monetization-plan.md">Rencana Monetisasi Konten AI Nasional</a></b><br/>
-      Guardrails untuk konten <i>AI-assisted</i> yang tetap orisinal dan eligible dimonetisasi di YouTube, TikTok, serta Instagram.<br/>
+      <b>💰 <a href="projects/national-ai-content-monetization-plan.md">Rencana Monetisasi Konten AI Nasional</a> <sup>ARSIP — UMKM</sup></b><br/>
+      Guardrails monetisasi sebelumnya untuk konten <i>AI-assisted</i> bisnis/UMKM; plan kesehatan aktif memiliki batas evidence dan visual medis tersendiri.<br/>
       <sub>📄 Ambang Platform · Originality & AI Disclosure · Eligibility QA · Roadmap 90 Hari</sub>
     </td>
   </tr>

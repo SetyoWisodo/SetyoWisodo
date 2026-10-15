@@ -7,7 +7,7 @@
 **TikTok · Instagram Reels · YouTube Shorts + YouTube long-form**<br/>
 *Versi 1.0 · Riset kebijakan per 15 Oktober 2026 · Konten AI-assisted, bukan content farm*
 
-<sub>Status: 🟡 Analisis dan standar kelayakan. Tidak ada akun yang dihubungkan, video yang dirender, atau konten yang dipublikasikan oleh dokumen ini.</sub>
+<sub>Status: ⚪ Diarsipkan pada 15 Oktober 2026. Analisis ini berfokus pada AI untuk Bisnis & UMKM dan telah digantikan sebagai arah konten aktif oleh <a href="health-evidence-content-plan.md">Rencana Konten Sains Kesehatan Berbasis Bukti</a>.</sub>
 
 </div>
 

@@ -7,7 +7,7 @@
 **TikTok · Instagram Reels · YouTube Shorts**  
 *Versi 1.0 — mode hybrid: produksi batch + persetujuan manusia sebelum tayang*
 
-<sub>Status: 🟡 Dokumen perencanaan. Tidak ada render, koneksi akun, penjadwalan, atau unggahan otomatis yang diizinkan oleh dokumen ini.</sub>
+<sub>Status: ⚪ Diarsipkan pada 15 Oktober 2026. Rencana ini berfokus pada AI untuk Bisnis & UMKM dan telah digantikan sebagai arah konten aktif oleh <a href="health-evidence-content-plan.md">Rencana Konten Sains Kesehatan Berbasis Bukti</a>.</sub>
 
 </div>
 
