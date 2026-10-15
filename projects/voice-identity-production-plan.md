@@ -109,13 +109,17 @@ Boleh digunakan jika:
 
 ## 4. Paket reference recording
 
+Gunakan [Panduan Rekam Reference Voice](voice-reference-recording-guide.md) untuk naskah, format file, struktur folder privat, dan pemeriksaan mandiri. **Pada tahap sekarang, rekam dan simpan lokal saja—jangan upload atau import ke engine.**
+
 VoiceStudio mendukung cloning dari reference clip pendek; dokumentasinya menyebut 3–10 detik sebagai rentang reference clip untuk engine OmniVoice. Untuk identitas brand, jangan bergantung pada satu potongan pendek saja. Siapkan paket referensi yang konsisten, dengan transcript yang benar.
 
 | File | Target | Isi |
 |---|---:|---|
 | `voice-neutral-01.wav` | 8–15 dtk | Narasi tenang tentang anatomi sederhana |
-| `voice-explainer-02.wav` | 8–15 dtk | Kalimat dengan penekanan pada istilah ilmiah umum |
-| `voice-warm-03.wav` | 8–15 dtk | Penutup edukatif dan CTA netral |
+| `voice-anatomy-02.wav` | 8–15 dtk | Istilah anatomi dan proses tubuh |
+| `voice-evidence-03.wav` | 8–15 dtk | Kalimat tentang bukti ilmiah dan batasannya |
+| `voice-numbers-04.wav` | 8–15 dtk | Angka, durasi, dan tempo edukatif |
+| `voice-closing-05.wav` | 8–15 dtk | Penutup aman dan CTA netral |
 | `voice-transcript.txt` | Lengkap | Transkrip persis dari seluruh rekaman referensi |
 | `voice-consent.md` | 1 file | Pernyataan izin, tanggal, pemilik, dan batas penggunaan |
 
