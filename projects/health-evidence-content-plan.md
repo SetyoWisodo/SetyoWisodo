@@ -11,7 +11,7 @@
 
 > **Batch aktif (perencanaan saja):** [Batch 1 — COB, Source Card & Hook](health-content-batches/2026-10-batch-01/README.md)<br/>
 > **Skill suara (rencana bersyarat):** [Voice Identity Production Plan](voice-identity-production-plan.md) · [Audit engine (15 Okt 2026)](voice-engine-audit-2026-10-15.md)<br/>
-> **Visual Production:** [Spesifikasi Visual untuk Divisi Produksi](health-visual-production-spec.md) · [Shot list Batch 1](health-content-batches/2026-10-batch-01/04-visual-production-requirements.md)
+> **Visual Production:** [Spesifikasi Visual untuk Divisi Produksi](health-visual-production-spec.md) · [Shot list Batch 1](health-content-batches/2026-10-batch-01/04-visual-production-requirements.md) · [Audit skill image/video](visual-skill-integration-audit.md)
 
 </div>
 

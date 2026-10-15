@@ -17,7 +17,7 @@
 | **Fungsi gambar** | Menjelaskan mekanisme atau metode secara visual; bukan hiasan stok atau pemancing rasa takut |
 | **Gaya inti** | Ilustrasi/3D non-fotorealistik, diagram bergerak, data visual, dan motion graphic yang mudah dibaca |
 | **Aset prioritas** | Dibuat sendiri atau memakai aset dengan lisensi komersial yang terdokumentasi |
-| **AI image/video** | Boleh sebagai alat bantu konsep/aset hanya setelah review anatomi, provenance, hak komersial, dan disclosure yang relevan |
+| **AI image/video** | Boleh sebagai alat bantu konsep/aset hanya setelah review anatomi, provenance, hak komersial, dan disclosure yang relevan; lihat [Audit & Integrasi Skill Image/Video](visual-skill-integration-audit.md) |
 | **Yang tidak dipakai** | Foto pasien, rekam medis, CT/MRI, operasi, luka, darah/organ nyata, visual penyakit yang mengejutkan, dan screenshot akun/jurnal tanpa hak jelas |
 | **Gate** | Source card → storyboard/asset register → Production draft → PPU → approval pemilik akun |
 
