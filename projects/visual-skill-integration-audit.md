@@ -107,11 +107,11 @@ PPU → owner approval → final assembly/publish gate
 | Gate | Pertanyaan | Status sekarang |
 |---|---|---|
 | **G0 — Skill audit** | Apakah fungsi, lisensi kode, risiko upstream, dan batas tool didokumentasikan? | ✅ Selesai |
-| **G1 — Scope** | Apakah pemilik akun memilih Batch/Content ID, format, dan jenis draft yang akan dirender? | 🟡 Mode **draft internal** dipilih; Content ID dan format output masih menunggu pilihan |
-| **G2 — Scene authority** | Apakah scene berasal dari source card, hook, dan shot list yang disetujui? | ✅ Untuk shot list Batch 1; naskah/storyboard final tetap belum dibuat |
-| **G3 — Generator/provider** | Apakah exact model/provider, hak komersial output, input retention, biaya, dan disclosure disetujui? | 🔒 Belum ada generator/provider yang cleared |
-| **G4 — Generate/render** | Apakah prompt manifest, asset register, dan authorization per scene tersedia? | 🔒 Terkunci |
-| **G5 — Visual QA/PPU** | Apakah output exact version lulus akurasi, non-graphic, asset-rights, dan platform checks? | 🔒 Terkunci |
+| **G1 — Scope** | Apakah pemilik akun memilih Batch/Content ID, format, dan jenis draft yang akan dirender? | ✅ H01 dipilih sebagai pilot: enam image scene + motion preview silent internal |
+| **G2 — Scene authority** | Apakah scene berasal dari source card, hook, dan shot list yang disetujui? | ✅ [Manifest H01](health-content-batches/2026-10-batch-01/05-h01-internal-render-manifest.md) mengunci source-card boundary; naskah/storyboard final tetap belum dibuat |
+| **G3 — Generator/provider** | Apakah exact model/provider, hak komersial output, input retention, biaya, dan disclosure disetujui? | 🟡 Draft internal saja: output tidak boleh dipakai final/komersial sampai review rights terpisah selesai |
+| **G4 — Generate/render** | Apakah prompt manifest, asset register, dan authorization per scene tersedia? | ✅ Enam scene H01 dan motion preview internal telah dirender; output tetap draft non-publik |
+| **G5 — Visual QA/PPU** | Apakah output exact version lulus akurasi, non-graphic, asset-rights, dan platform checks? | 🟡 Internal QA selesai dengan `conditionally keep`; overlay terverifikasi, rights review, dan PPU final masih terkunci |
 
 ---
 

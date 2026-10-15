@@ -3,3 +3,6 @@
 
 # Ada Library Information
 *.ali
+
+# Local media outputs and render caches are private production drafts, not Git assets.
+production-drafts/
