@@ -157,8 +157,8 @@ Statistik GitHub tersedia di profil: [github.com/SetyoWisodo](https://github.com
 
   [![GitHub](https://img.shields.io/badge/GitHub-SetyoWisodo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SetyoWisodo)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Setyo%20Wisodo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/)
-  [![Email](https://img.shields.io/badge/Email-Hubungi%20Saya-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-  [![Instagram](https://img.shields.io/badge/Instagram-Setyo%20Wisodo-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/)
+  [![Email](https://img.shields.io/badge/Email-Hubungi%20Saya-3B82F6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+  [![Instagram](https://img.shields.io/badge/Instagram-Setyo%20Wisodo-833AB4?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/)
 
 </div>
 
