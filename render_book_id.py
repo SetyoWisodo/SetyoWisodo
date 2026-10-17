@@ -1,12 +1,24 @@
 import re
 from fpdf import FPDF
+from fpdf.html import HTML2FPDF
 
 with open('/home/user/SetyoWisodo/book_id.md', 'r', encoding='utf-8') as f:
-    md = f.read()
+    raw = f.read()
+
+footnotes = {}
+body_lines = []
+for line in raw.split('\n'):
+    m = re.match(r'^\[\^(\d+)\]:\s*(.*)$', line.strip())
+    if m:
+        footnotes[int(m.group(1))] = m.group(2).strip()
+        continue
+    body_lines.append(line)
+md = '\n'.join(body_lines)
 
 def inline(text):
     text = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', text)
     text = re.sub(r'\*(.+?)\*', r'\1', text)
+    text = re.sub(r'\[\^(\d+)\]', r'<sup>\1</sup>', text)
     return text
 
 lines = md.split('\n')
@@ -60,7 +72,55 @@ if in_ul:
 
 html = '\n'.join(html_parts)
 
-pdf = FPDF()
+class TrackingHTML2PDF(HTML2FPDF):
+    def handle_data(self, data):
+        super().handle_data(data)
+        if 'sup' in self._tags_stack:
+            num_str = data.strip()
+            if num_str.isdigit():
+                n = int(num_str)
+                if n in footnotes:
+                    self.pdf._record_fn(n)
+
+class BookPDF(FPDF):
+    HTML2FPDF_CLASS = TrackingHTML2PDF
+    def __init__(self):
+        super().__init__()
+        self.page_fns = {}
+        self._fn_seen = set()
+        self._page_fn_start = set()
+        self._rendered_fn_pages = set()
+    def _record_fn(self, n):
+        self._fn_seen.add(n)
+    def add_page(self, *a, **k):
+        if self.page > 0:
+            prev = self.page
+            fns = self._fn_seen - self._page_fn_start
+            if fns:
+                self.page_fns[prev] = fns
+        self._page_fn_start = set(self._fn_seen)
+        super().add_page(*a, **k)
+    def footer(self):
+        p = self.page
+        fns = sorted(self.page_fns.get(p, ()))
+        if not fns:
+            cur = self._fn_seen - self._page_fn_start
+            if cur:
+                fns = sorted(cur)
+        if fns and p not in self._rendered_fn_pages:
+            self._rendered_fn_pages.add(p)
+            self.set_y(self.h - self.b_margin + 1)
+            self.set_font('DejaVu', '', 7.5)
+            for n in fns:
+                txt = footnotes.get(n, '')
+                self.set_x(self.l_margin)
+                self.multi_cell(0, 3.0, '%d. %s' % (n, txt), new_x='LMARGIN', new_y='NEXT')
+            self.set_font('DejaVu', '', 8)
+        self.set_y(-5)
+        self.set_font('DejaVu', '', 8)
+        self.cell(0, 5, 'Halaman %d' % p, align='C')
+
+pdf = BookPDF()
 pdf.set_auto_page_break(auto=True, margin=7)
 pdf.add_page()
 pdf.add_font('DejaVu', '', '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', uni=True)
@@ -78,5 +138,11 @@ pdf.cell(0, 6, 'Penulis: Setyo Wisodo   |   Tahun: 2026', ln=True, align='C')
 pdf.add_page()
 
 pdf.write_html(html)
+
+if pdf.page > 0:
+    fns = pdf._fn_seen - pdf._page_fn_start
+    if fns:
+        pdf.page_fns[pdf.page] = fns
+
 pdf.output('/home/user/SetyoWisodo/Surviving_the_Future_ID.pdf')
-print('PDF written')
+print('PDF written; footnotes:', len(footnotes))

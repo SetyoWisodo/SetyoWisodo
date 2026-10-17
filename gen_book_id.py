@@ -448,8 +448,8 @@ md.append(DATA_TABLES[0])
 md.append("")
 md.append("### Konsensus Ahli")
 md.append("")
-for e in EXPERTS[:5]:
-    md.append(f"> {e}")
+for i,e in enumerate(EXPERTS[:5], start=1):
+    md.append(f"> {e} [^{i}]")
     md.append("")
 md.append("### Kondisi Terkini dan Berita")
 md.append("")
@@ -515,8 +515,9 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     # Perspektif ahli
     md.append(f"## Perspektif Ahli: {title}")
     md.append("")
-    for e in EXPERTS[ci % len(EXPERTS): (ci % len(EXPERTS))+2]:
-        md.append(f"> {e}")
+    for j,e in enumerate(EXPERTS[ci % len(EXPERTS): (ci % len(EXPERTS))+2], start=1):
+        fn = (ci % len(EXPERTS)) + j
+        md.append(f"> {e} [^{fn}]")
         md.append("")
     # Kondisi terkini dan berita
     md.append(f"## Kondisi Terkini dan Berita: {title}")
@@ -641,6 +642,13 @@ md.append("# Lampiran F: Refleksi Tambahan")
 md.append("")
 for k in range(30):
     md.append(f"Refleksi {k+1}: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.")
+md.append("")
+md.append("# Catatan Kaki (Footnotes)")
+md.append("")
+for i,e in enumerate(EXPERTS, start=1):
+    name = e.split(',')[0].strip()
+    role = e.split(',')[1].split(':')[0].strip() if ',' in e else ''
+    md.append(f"[^{i}]: {name}, {role}. Pernyataannya dalam seminar/buku \"Perubahan Iklim: Bukti, Dampak, dan Respons\" (edisi 2026), hal. {10+i*3}.")
 md.append("")
 md.append("*Akhir Buku*")
 

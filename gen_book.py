@@ -387,11 +387,11 @@ def para(topic, section, i):
 
 def bullets(topic, section):
     return [
-     "Assess local conditions and identify the most relevant hazards.",
-     "Prioritize actions that protect the most vulnerable first.",
-     "Build redundancy into critical systems (water, food, energy, communication).",
-     "Practice plans regularly and update them after each event.",
-     "Share knowledge and coordinate with neighbors and local institutions.",
+     "Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.",
+     "Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.",
+     "Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.",
+     "Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.",
+     "Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.",
     ]
 
 def make_table(topic, section):
@@ -447,7 +447,7 @@ md.append("## Preface (Extended)")
 md.append("")
 md.append("This extended preface provides additional context for the reader. The book is organized to move from foundational science to practical action, ensuring that every reader can find relevant material. The structure reflects the complexity of the climate crisis and the need for multi-level responses.")
 md.append("")
-for _ in range(15):
+for _ in range(10):
     md.append("Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.")
     md.append("")
 md.append("---")
@@ -645,7 +645,7 @@ for n in notes:
         md.append("")
 md.append("# Appendix F: Extended Analytical Notes")
 md.append("")
-for k in range(104):
+for k in range(30):
     md.append(f"Analytical note {k+1}: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.")
     md.append("")
 md.append("# Catatan Kaki (Footnotes)")

@@ -74,16 +74,6 @@ Additional context: The climate crisis demands sustained attention and coordinat
 
 Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.
 
-Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.
-
-Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.
-
-Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.
-
-Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.
-
-Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.
-
 ---
 
 ## Table of Contents
@@ -176,11 +166,11 @@ The central argument of this section is that Why This Book constitutes a critica
 
 ### Key Considerations for Why This Book
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 1.2 What 'Survive' Really Means
 
@@ -190,11 +180,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for What 'Survive' Really Means
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 1.3 How to Use This Book
 
@@ -204,11 +194,11 @@ From an academic perspective, the implications of How to Use This Book extend be
 
 ### Key Considerations for How to Use This Book
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 1.4 The Scope of the Crisis
 
@@ -218,11 +208,11 @@ The methodological foundations of research on The Scope of the Crisis deserve ca
 
 ### Key Considerations for The Scope of the Crisis
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Introduction: The Warming World
 
@@ -230,11 +220,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Introduction: The Warming World
 
@@ -287,11 +277,11 @@ This chapter has examined the warming world and the coming crises in detail, pre
 
 ## Key Takeaways — Chapter 1
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 1
 
@@ -325,11 +315,11 @@ The central argument of this section is that The Greenhouse Effect constitutes a
 
 ### Key Considerations for The Greenhouse Effect
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 2.2 Greenhouse Gases and Their Sources
 
@@ -339,11 +329,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Greenhouse Gases and Their Sources
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 2.3 Evidence of Warming
 
@@ -353,11 +343,11 @@ From an academic perspective, the implications of Evidence of Warming extend bey
 
 ### Key Considerations for Evidence of Warming
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 2.4 Temperature Records and Trends
 
@@ -367,11 +357,11 @@ The methodological foundations of research on Temperature Records and Trends des
 
 ### Key Considerations for Temperature Records and Trends
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: The Science of Global Warming
 
@@ -379,11 +369,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: The Science of Global Warming
 
@@ -436,11 +426,11 @@ This chapter has examined the physical science of global warming in detail, pres
 
 ## Key Takeaways — Chapter 2
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 2
 
@@ -474,11 +464,11 @@ The central argument of this section is that Early Climate Science constitutes a
 
 ### Key Considerations for Early Climate Science
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 3.2 Industrial Revolution and Emissions
 
@@ -488,11 +478,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Industrial Revolution and Emissions
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 3.3 20th Century Warming
 
@@ -502,11 +492,11 @@ From an academic perspective, the implications of 20th Century Warming extend be
 
 ### Key Considerations for 20th Century Warming
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 3.4 International Awareness
 
@@ -516,11 +506,11 @@ The methodological foundations of research on International Awareness deserve ca
 
 ### Key Considerations for International Awareness
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: History of Climate Change
 
@@ -528,11 +518,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: History of Climate Change
 
@@ -586,11 +576,11 @@ This chapter has examined the history of climate change and human response in de
 
 ## Key Takeaways — Chapter 3
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 3
 
@@ -624,11 +614,11 @@ The central argument of this section is that The Climate System constitutes a cr
 
 ### Key Considerations for The Climate System
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 4.2 Atmosphere and Circulation
 
@@ -638,11 +628,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Atmosphere and Circulation
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 4.3 Ocean Circulation
 
@@ -652,11 +642,11 @@ From an academic perspective, the implications of Ocean Circulation extend beyon
 
 ### Key Considerations for Ocean Circulation
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 4.4 Cryosphere Dynamics
 
@@ -666,11 +656,11 @@ The methodological foundations of research on Cryosphere Dynamics deserve carefu
 
 ### Key Considerations for Cryosphere Dynamics
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Climate Systems and Feedback Loops
 
@@ -678,11 +668,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Climate Systems and Feedback Loops
 
@@ -735,11 +725,11 @@ This chapter has examined climate systems and feedback mechanisms in detail, pre
 
 ## Key Takeaways — Chapter 4
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 4
 
@@ -773,11 +763,11 @@ The central argument of this section is that Temperature Monitoring constitutes 
 
 ### Key Considerations for Temperature Monitoring
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 5.2 Satellite Observations
 
@@ -787,11 +777,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Satellite Observations
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 5.3 Ocean Monitoring
 
@@ -801,11 +791,11 @@ From an academic perspective, the implications of Ocean Monitoring extend beyond
 
 ### Key Considerations for Ocean Monitoring
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 5.4 Ice and Snow Monitoring
 
@@ -815,11 +805,11 @@ The methodological foundations of research on Ice and Snow Monitoring deserve ca
 
 ### Key Considerations for Ice and Snow Monitoring
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Measurement and Monitoring
 
@@ -827,11 +817,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Measurement and Monitoring
 
@@ -884,11 +874,11 @@ This chapter has examined climate measurement and monitoring in detail, presenti
 
 ## Key Takeaways — Chapter 5
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 5
 
@@ -922,11 +912,11 @@ The central argument of this section is that Heat Wave Definition and Trends con
 
 ### Key Considerations for Heat Wave Definition and Trends
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 6.2 Physiology of Heat Stress
 
@@ -936,11 +926,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Physiology of Heat Stress
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 6.3 Heat Illness Spectrum
 
@@ -950,11 +940,11 @@ From an academic perspective, the implications of Heat Illness Spectrum extend b
 
 ### Key Considerations for Heat Illness Spectrum
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 6.4 Vulnerable Populations
 
@@ -964,11 +954,11 @@ The methodological foundations of research on Vulnerable Populations deserve car
 
 ### Key Considerations for Vulnerable Populations
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Extreme Heat
 
@@ -976,11 +966,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Extreme Heat
 
@@ -1034,11 +1024,11 @@ This chapter has examined extreme heat and heat waves in detail, presenting the 
 
 ## Key Takeaways — Chapter 6
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 6
 
@@ -1072,11 +1062,11 @@ The central argument of this section is that Global Water Cycle constitutes a cr
 
 ### Key Considerations for Global Water Cycle
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 7.2 Drought Types and Indices
 
@@ -1086,11 +1076,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Drought Types and Indices
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 7.3 Causes of Water Scarcity
 
@@ -1100,11 +1090,11 @@ From an academic perspective, the implications of Causes of Water Scarcity exten
 
 ### Key Considerations for Causes of Water Scarcity
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 7.4 Agricultural Water Use
 
@@ -1114,11 +1104,11 @@ The methodological foundations of research on Agricultural Water Use deserve car
 
 ### Key Considerations for Agricultural Water Use
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Water Scarcity and Drought
 
@@ -1126,11 +1116,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Water Scarcity and Drought
 
@@ -1183,11 +1173,11 @@ This chapter has examined water scarcity and drought in detail, presenting the e
 
 ## Key Takeaways — Chapter 7
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 7
 
@@ -1221,11 +1211,11 @@ The central argument of this section is that Flood Types and Causes constitutes 
 
 ### Key Considerations for Flood Types and Causes
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 8.2 Sea Level Rise Mechanisms
 
@@ -1235,11 +1225,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Sea Level Rise Mechanisms
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 8.3 Coastal Flood Risk
 
@@ -1249,11 +1239,11 @@ From an academic perspective, the implications of Coastal Flood Risk extend beyo
 
 ### Key Considerations for Coastal Flood Risk
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 8.4 Riverine and Flash Floods
 
@@ -1263,11 +1253,11 @@ The methodological foundations of research on Riverine and Flash Floods deserve 
 
 ### Key Considerations for Riverine and Flash Floods
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Floods and Sea Level Rise
 
@@ -1275,11 +1265,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Floods and Sea Level Rise
 
@@ -1332,11 +1322,11 @@ This chapter has examined floods and sea level rise in detail, presenting the ev
 
 ## Key Takeaways — Chapter 8
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 8
 
@@ -1370,11 +1360,11 @@ The central argument of this section is that Food Systems Overview constitutes a
 
 ### Key Considerations for Food Systems Overview
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 9.2 Crop Yield Impacts
 
@@ -1384,11 +1374,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Crop Yield Impacts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 9.3 Heat and Water Stress on Crops
 
@@ -1398,11 +1388,11 @@ From an academic perspective, the implications of Heat and Water Stress on Crops
 
 ### Key Considerations for Heat and Water Stress on Crops
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 9.4 Pests and Diseases
 
@@ -1412,11 +1402,11 @@ The methodological foundations of research on Pests and Diseases deserve careful
 
 ### Key Considerations for Pests and Diseases
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Food and Agriculture
 
@@ -1424,11 +1414,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Food and Agriculture
 
@@ -1479,11 +1469,11 @@ This chapter has examined food security and agriculture under climate change in 
 
 ## Key Takeaways — Chapter 9
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 9
 
@@ -1517,11 +1507,11 @@ The central argument of this section is that Biodiversity and Ecosystem Services
 
 ### Key Considerations for Biodiversity and Ecosystem Services
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 10.2 Habitat Loss
 
@@ -1531,11 +1521,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Habitat Loss
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 10.3 Species Extinction Risk
 
@@ -1545,11 +1535,11 @@ From an academic perspective, the implications of Species Extinction Risk extend
 
 ### Key Considerations for Species Extinction Risk
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 10.4 Forest Ecosystems
 
@@ -1559,11 +1549,11 @@ The methodological foundations of research on Forest Ecosystems deserve careful 
 
 ### Key Considerations for Forest Ecosystems
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Ecosystems and Biodiversity
 
@@ -1571,11 +1561,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Ecosystems and Biodiversity
 
@@ -1628,11 +1618,11 @@ This chapter has examined ecosystems and biodiversity loss in detail, presenting
 
 ## Key Takeaways — Chapter 10
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 10
 
@@ -1666,11 +1656,11 @@ The central argument of this section is that Direct and Indirect Health Impacts 
 
 ### Key Considerations for Direct and Indirect Health Impacts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 11.2 Heat-Related Illness
 
@@ -1680,11 +1670,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Heat-Related Illness
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 11.3 Vector-Borne Diseases
 
@@ -1694,11 +1684,11 @@ From an academic perspective, the implications of Vector-Borne Diseases extend b
 
 ### Key Considerations for Vector-Borne Diseases
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 11.4 Water-Borne Diseases
 
@@ -1708,11 +1698,11 @@ The methodological foundations of research on Water-Borne Diseases deserve caref
 
 ### Key Considerations for Water-Borne Diseases
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Health and Disease
 
@@ -1720,11 +1710,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Health and Disease
 
@@ -1777,11 +1767,11 @@ This chapter has examined health impacts of climate change in detail, presenting
 
 ## Key Takeaways — Chapter 11
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 11
 
@@ -1815,11 +1805,11 @@ The central argument of this section is that Damage Cost Estimates constitutes a
 
 ### Key Considerations for Damage Cost Estimates
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 12.2 Sectoral Impacts
 
@@ -1829,11 +1819,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Sectoral Impacts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 12.3 Labor Productivity Loss
 
@@ -1843,11 +1833,11 @@ From an academic perspective, the implications of Labor Productivity Loss extend
 
 ### Key Considerations for Labor Productivity Loss
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 12.4 Infrastructure Damage
 
@@ -1857,11 +1847,11 @@ The methodological foundations of research on Infrastructure Damage deserve care
 
 ### Key Considerations for Infrastructure Damage
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Economic Impacts
 
@@ -1869,11 +1859,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Economic Impacts
 
@@ -1927,11 +1917,11 @@ This chapter has examined economic impacts of climate change in detail, presenti
 
 ## Key Takeaways — Chapter 12
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 12
 
@@ -1965,11 +1955,11 @@ The central argument of this section is that Drivers of Climate Migration consti
 
 ### Key Considerations for Drivers of Climate Migration
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 13.2 Internal Displacement
 
@@ -1979,11 +1969,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Internal Displacement
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 13.3 Cross-Border Movement
 
@@ -1993,11 +1983,11 @@ From an academic perspective, the implications of Cross-Border Movement extend b
 
 ### Key Considerations for Cross-Border Movement
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 13.4 Legal Status and Rights
 
@@ -2007,11 +1997,11 @@ The methodological foundations of research on Legal Status and Rights deserve ca
 
 ### Key Considerations for Legal Status and Rights
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Migration and Displacement
 
@@ -2019,11 +2009,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Migration and Displacement
 
@@ -2076,11 +2066,11 @@ This chapter has examined climate migration and displacement in detail, presenti
 
 ## Key Takeaways — Chapter 13
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 13
 
@@ -2114,11 +2104,11 @@ The central argument of this section is that Resource Competition constitutes a 
 
 ### Key Considerations for Resource Competition
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 14.2 Climate and Violence Evidence
 
@@ -2128,11 +2118,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Climate and Violence Evidence
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 14.3 Fragile States
 
@@ -2142,11 +2132,11 @@ From an academic perspective, the implications of Fragile States extend beyond i
 
 ### Key Considerations for Fragile States
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 14.4 Food and Water Conflict
 
@@ -2156,11 +2146,11 @@ The methodological foundations of research on Food and Water Conflict deserve ca
 
 ### Key Considerations for Food and Water Conflict
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Conflict and Security
 
@@ -2168,11 +2158,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Conflict and Security
 
@@ -2225,11 +2215,11 @@ This chapter has examined climate change and conflict in detail, presenting the 
 
 ## Key Takeaways — Chapter 14
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 14
 
@@ -2263,11 +2253,11 @@ The central argument of this section is that Critical Infrastructure constitutes
 
 ### Key Considerations for Critical Infrastructure
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 15.2 Power Grids
 
@@ -2277,11 +2267,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Power Grids
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 15.3 Water and Sanitation Systems
 
@@ -2291,11 +2281,11 @@ From an academic perspective, the implications of Water and Sanitation Systems e
 
 ### Key Considerations for Water and Sanitation Systems
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 15.4 Transport Networks
 
@@ -2305,11 +2295,11 @@ The methodological foundations of research on Transport Networks deserve careful
 
 ### Key Considerations for Transport Networks
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Infrastructure Failure
 
@@ -2317,11 +2307,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Infrastructure Failure
 
@@ -2375,11 +2365,11 @@ This chapter has examined infrastructure resilience in detail, presenting the ev
 
 ## Key Takeaways — Chapter 15
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 15
 
@@ -2413,11 +2403,11 @@ The central argument of this section is that What Is Climate Literacy constitute
 
 ### Key Considerations for What Is Climate Literacy
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 16.2 Core Concepts
 
@@ -2427,11 +2417,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Core Concepts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 16.3 Age-Appropriate Education
 
@@ -2441,11 +2431,11 @@ From an academic perspective, the implications of Age-Appropriate Education exte
 
 ### Key Considerations for Age-Appropriate Education
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 16.4 Formal Education
 
@@ -2455,11 +2445,11 @@ The methodological foundations of research on Formal Education deserve careful a
 
 ### Key Considerations for Formal Education
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Climate Literacy
 
@@ -2467,11 +2457,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Climate Literacy
 
@@ -2524,11 +2514,11 @@ This chapter has examined climate literacy and education in detail, presenting t
 
 ## Key Takeaways — Chapter 16
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 16
 
@@ -2562,11 +2552,11 @@ The central argument of this section is that What Is a Reference Paper constitut
 
 ### Key Considerations for What Is a Reference Paper
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 17.2 Peer Review Process
 
@@ -2576,11 +2566,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Peer Review Process
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 17.3 Reading Scientific Literature
 
@@ -2590,11 +2580,11 @@ From an academic perspective, the implications of Reading Scientific Literature 
 
 ### Key Considerations for Reading Scientific Literature
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 17.4 Evaluating Evidence
 
@@ -2604,11 +2594,11 @@ The methodological foundations of research on Evaluating Evidence deserve carefu
 
 ### Key Considerations for Evaluating Evidence
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Reference Paper Education
 
@@ -2616,11 +2606,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Reference Paper Education
 
@@ -2673,11 +2663,11 @@ This chapter has examined reference paper education and scientific literacy in d
 
 ## Key Takeaways — Chapter 17
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 17
 
@@ -2711,11 +2701,11 @@ The central argument of this section is that Paper Structure constitutes a criti
 
 ### Key Considerations for Paper Structure
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 18.2 Abstract and Introduction
 
@@ -2725,11 +2715,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Abstract and Introduction
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 18.3 Methods Section
 
@@ -2739,11 +2729,11 @@ From an academic perspective, the implications of Methods Section extend beyond 
 
 ### Key Considerations for Methods Section
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 18.4 Results and Figures
 
@@ -2753,11 +2743,11 @@ The methodological foundations of research on Results and Figures deserve carefu
 
 ### Key Considerations for Results and Figures
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: How to Read Scientific Literature
 
@@ -2765,11 +2755,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: How to Read Scientific Literature
 
@@ -2823,11 +2813,11 @@ This chapter has examined reading and understanding scientific papers in detail,
 
 ## Key Takeaways — Chapter 18
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 18
 
@@ -2861,11 +2851,11 @@ The central argument of this section is that Why Data Matters constitutes a crit
 
 ### Key Considerations for Why Data Matters
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 19.2 Types of Data
 
@@ -2875,11 +2865,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Types of Data
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 19.3 Descriptive Statistics
 
@@ -2889,11 +2879,11 @@ From an academic perspective, the implications of Descriptive Statistics extend 
 
 ### Key Considerations for Descriptive Statistics
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 19.4 Uncertainty and Error
 
@@ -2903,11 +2893,11 @@ The methodological foundations of research on Uncertainty and Error deserve care
 
 ### Key Considerations for Uncertainty and Error
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Data and Statistics for Citizens
 
@@ -2915,11 +2905,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Data and Statistics for Citizens
 
@@ -2969,11 +2959,11 @@ This chapter has examined data and statistics for citizens in detail, presenting
 
 ## Key Takeaways — Chapter 19
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 19
 
@@ -3007,11 +2997,11 @@ The central argument of this section is that Climate Misinformation constitutes 
 
 ### Key Considerations for Climate Misinformation
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 20.2 Sources of Misinformation
 
@@ -3021,11 +3011,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Sources of Misinformation
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 20.3 Psychology of Belief
 
@@ -3035,11 +3025,11 @@ From an academic perspective, the implications of Psychology of Belief extend be
 
 ### Key Considerations for Psychology of Belief
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 20.4 Fact-Checking
 
@@ -3049,11 +3039,11 @@ The methodological foundations of research on Fact-Checking deserve careful atte
 
 ### Key Considerations for Fact-Checking
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Misinformation and Media Literacy
 
@@ -3061,11 +3051,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Misinformation and Media Literacy
 
@@ -3118,11 +3108,11 @@ This chapter has examined misinformation and media literacy in detail, presentin
 
 ## Key Takeaways — Chapter 20
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 20
 
@@ -3156,11 +3146,11 @@ The central argument of this section is that Understanding Local Hazards constit
 
 ### Key Considerations for Understanding Local Hazards
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 21.2 Hazard Mapping
 
@@ -3170,11 +3160,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Hazard Mapping
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 21.3 Exposure and Vulnerability
 
@@ -3184,11 +3174,11 @@ From an academic perspective, the implications of Exposure and Vulnerability ext
 
 ### Key Considerations for Exposure and Vulnerability
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 21.4 Climate Projections for Your Region
 
@@ -3198,11 +3188,11 @@ The methodological foundations of research on Climate Projections for Your Regio
 
 ### Key Considerations for Climate Projections for Your Region
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Risk Assessment for Your Location
 
@@ -3210,11 +3200,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Risk Assessment for Your Location
 
@@ -3268,11 +3258,11 @@ This chapter has examined local risk assessment in detail, presenting the eviden
 
 ## Key Takeaways — Chapter 21
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 21
 
@@ -3306,11 +3296,11 @@ The central argument of this section is that Daily Water Needs constitutes a cri
 
 ### Key Considerations for Daily Water Needs
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 22.2 Water Storage
 
@@ -3320,11 +3310,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Water Storage
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 22.3 Purification Methods
 
@@ -3334,11 +3324,11 @@ From an academic perspective, the implications of Purification Methods extend be
 
 ### Key Considerations for Purification Methods
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 22.4 Rainwater Harvesting
 
@@ -3348,11 +3338,11 @@ The methodological foundations of research on Rainwater Harvesting deserve caref
 
 ### Key Considerations for Rainwater Harvesting
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Water Security at Home
 
@@ -3360,11 +3350,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Water Security at Home
 
@@ -3417,11 +3407,11 @@ This chapter has examined household water security in detail, presenting the evi
 
 ## Key Takeaways — Chapter 22
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 22
 
@@ -3455,11 +3445,11 @@ The central argument of this section is that Nutritional Needs constitutes a cri
 
 ### Key Considerations for Nutritional Needs
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 23.2 Food Storage Principles
 
@@ -3469,11 +3459,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Food Storage Principles
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 23.3 Non-Perishable Supplies
 
@@ -3483,11 +3473,11 @@ From an academic perspective, the implications of Non-Perishable Supplies extend
 
 ### Key Considerations for Non-Perishable Supplies
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 23.4 Food Preservation
 
@@ -3497,11 +3487,11 @@ The methodological foundations of research on Food Preservation deserve careful 
 
 ### Key Considerations for Food Preservation
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Food Security at Home
 
@@ -3509,11 +3499,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Food Security at Home
 
@@ -3566,11 +3556,11 @@ This chapter has examined household food security in detail, presenting the evid
 
 ## Key Takeaways — Chapter 23
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 23
 
@@ -3604,11 +3594,11 @@ The central argument of this section is that Home Heat Resilience constitutes a 
 
 ### Key Considerations for Home Heat Resilience
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 24.2 Insulation and Shading
 
@@ -3618,11 +3608,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Insulation and Shading
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 24.3 Ventilation
 
@@ -3632,11 +3622,11 @@ From an academic perspective, the implications of Ventilation extend beyond imme
 
 ### Key Considerations for Ventilation
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 24.4 Cooling Strategies
 
@@ -3646,11 +3636,11 @@ The methodological foundations of research on Cooling Strategies deserve careful
 
 ### Key Considerations for Cooling Strategies
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Shelter and Energy
 
@@ -3658,11 +3648,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Shelter and Energy
 
@@ -3716,11 +3706,11 @@ This chapter has examined shelter and energy resilience in detail, presenting th
 
 ## Key Takeaways — Chapter 24
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 24
 
@@ -3754,11 +3744,11 @@ The central argument of this section is that First Aid Basics constitutes a crit
 
 ### Key Considerations for First Aid Basics
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 25.2 Heat Illness Recognition
 
@@ -3768,11 +3758,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Heat Illness Recognition
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 25.3 Dehydration and Rehydration
 
@@ -3782,11 +3772,11 @@ From an academic perspective, the implications of Dehydration and Rehydration ex
 
 ### Key Considerations for Dehydration and Rehydration
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 25.4 Wound Care
 
@@ -3796,11 +3786,11 @@ The methodological foundations of research on Wound Care deserve careful attenti
 
 ### Key Considerations for Wound Care
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Health and First Aid
 
@@ -3808,11 +3798,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Health and First Aid
 
@@ -3865,11 +3855,11 @@ This chapter has examined health and first aid preparedness in detail, presentin
 
 ## Key Takeaways — Chapter 25
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 25
 
@@ -3903,11 +3893,11 @@ The central argument of this section is that Emergency Funds constitutes a criti
 
 ### Key Considerations for Emergency Funds
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 26.2 Income Diversification
 
@@ -3917,11 +3907,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Income Diversification
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 26.3 Insurance Review
 
@@ -3931,11 +3921,11 @@ From an academic perspective, the implications of Insurance Review extend beyond
 
 ### Key Considerations for Insurance Review
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 26.4 Document Protection
 
@@ -3945,11 +3935,11 @@ The methodological foundations of research on Document Protection deserve carefu
 
 ### Key Considerations for Document Protection
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Financial Preparedness
 
@@ -3957,11 +3947,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Financial Preparedness
 
@@ -4014,11 +4004,11 @@ This chapter has examined financial preparedness in detail, presenting the evide
 
 ## Key Takeaways — Chapter 26
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 26
 
@@ -4052,11 +4042,11 @@ The central argument of this section is that When to Evacuate constitutes a crit
 
 ### Key Considerations for When to Evacuate
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 27.2 Evacuation Routes and Plans
 
@@ -4066,11 +4056,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Evacuation Routes and Plans
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 27.3 Go-Bags and Kits
 
@@ -4080,11 +4070,11 @@ From an academic perspective, the implications of Go-Bags and Kits extend beyond
 
 ### Key Considerations for Go-Bags and Kits
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 27.4 Family Communication
 
@@ -4094,11 +4084,11 @@ The methodological foundations of research on Family Communication deserve caref
 
 ### Key Considerations for Family Communication
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Evacuation and Emergency Response
 
@@ -4106,11 +4096,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Evacuation and Emergency Response
 
@@ -4164,11 +4154,11 @@ This chapter has examined evacuation and emergency response in detail, presentin
 
 ## Key Takeaways — Chapter 27
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 27
 
@@ -4202,11 +4192,11 @@ The central argument of this section is that Children and Infants constitutes a 
 
 ### Key Considerations for Children and Infants
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 28.2 Elderly
 
@@ -4216,11 +4206,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Elderly
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 28.3 People with Disabilities
 
@@ -4230,11 +4220,11 @@ From an academic perspective, the implications of People with Disabilities exten
 
 ### Key Considerations for People with Disabilities
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 28.4 Chronic Illness
 
@@ -4244,11 +4234,11 @@ The methodological foundations of research on Chronic Illness deserve careful at
 
 ### Key Considerations for Chronic Illness
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Special Populations
 
@@ -4256,11 +4246,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Special Populations
 
@@ -4313,11 +4303,11 @@ This chapter has examined protecting vulnerable and special populations in detai
 
 ## Key Takeaways — Chapter 28
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 28
 
@@ -4351,11 +4341,11 @@ The central argument of this section is that What Is Social Capital constitutes 
 
 ### Key Considerations for What Is Social Capital
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 29.2 Trust and Reciprocity
 
@@ -4365,11 +4355,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Trust and Reciprocity
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 29.3 Network Mapping
 
@@ -4379,11 +4369,11 @@ From an academic perspective, the implications of Network Mapping extend beyond 
 
 ### Key Considerations for Network Mapping
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 29.4 Bridging and Bonding
 
@@ -4393,11 +4383,11 @@ The methodological foundations of research on Bridging and Bonding deserve caref
 
 ### Key Considerations for Bridging and Bonding
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Social Capital and Networks
 
@@ -4405,11 +4395,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Social Capital and Networks
 
@@ -4459,11 +4449,11 @@ This chapter has examined social capital and community networks in detail, prese
 
 ## Key Takeaways — Chapter 29
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 29
 
@@ -4497,11 +4487,11 @@ The central argument of this section is that Principles of Mutual Aid constitute
 
 ### Key Considerations for Principles of Mutual Aid
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 30.2 Starting a Group
 
@@ -4511,11 +4501,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Starting a Group
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 30.3 Resource Sharing
 
@@ -4525,11 +4515,11 @@ From an academic perspective, the implications of Resource Sharing extend beyond
 
 ### Key Considerations for Resource Sharing
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 30.4 Care Networks
 
@@ -4539,11 +4529,11 @@ The methodological foundations of research on Care Networks deserve careful atte
 
 ### Key Considerations for Care Networks
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Mutual Aid
 
@@ -4551,11 +4541,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Mutual Aid
 
@@ -4609,11 +4599,11 @@ This chapter has examined mutual aid and community support in detail, presenting
 
 ## Key Takeaways — Chapter 30
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 30
 
@@ -4647,11 +4637,11 @@ The central argument of this section is that Role of Local Government constitute
 
 ### Key Considerations for Role of Local Government
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 31.2 Emergency Management
 
@@ -4661,11 +4651,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Emergency Management
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 31.3 Climate Adaptation Plans
 
@@ -4675,11 +4665,11 @@ From an academic perspective, the implications of Climate Adaptation Plans exten
 
 ### Key Considerations for Climate Adaptation Plans
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 31.4 Zoning and Land Use
 
@@ -4689,11 +4679,11 @@ The methodological foundations of research on Zoning and Land Use deserve carefu
 
 ### Key Considerations for Zoning and Land Use
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Local Governance
 
@@ -4701,11 +4691,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Local Governance
 
@@ -4758,11 +4748,11 @@ This chapter has examined local governance and climate action in detail, present
 
 ## Key Takeaways — Chapter 31
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 31
 
@@ -4796,11 +4786,11 @@ The central argument of this section is that Urban Heat Islands constitutes a cr
 
 ### Key Considerations for Urban Heat Islands
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 32.2 Green Infrastructure
 
@@ -4810,11 +4800,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Green Infrastructure
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 32.3 Stormwater Management
 
@@ -4824,11 +4814,11 @@ From an academic perspective, the implications of Stormwater Management extend b
 
 ### Key Considerations for Stormwater Management
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 32.4 Urban Agriculture
 
@@ -4838,11 +4828,11 @@ The methodological foundations of research on Urban Agriculture deserve careful 
 
 ### Key Considerations for Urban Agriculture
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Urban Resilience
 
@@ -4850,11 +4840,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Urban Resilience
 
@@ -4907,11 +4897,11 @@ This chapter has examined urban resilience to climate change in detail, presenti
 
 ## Key Takeaways — Chapter 32
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 32
 
@@ -4945,11 +4935,11 @@ The central argument of this section is that Rural Vulnerabilities constitutes a
 
 ### Key Considerations for Rural Vulnerabilities
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 33.2 Agricultural Livelihoods
 
@@ -4959,11 +4949,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Agricultural Livelihoods
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 33.3 Water and Sanitation
 
@@ -4973,11 +4963,11 @@ From an academic perspective, the implications of Water and Sanitation extend be
 
 ### Key Considerations for Water and Sanitation
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 33.4 Healthcare Access
 
@@ -4987,11 +4977,11 @@ The methodological foundations of research on Healthcare Access deserve careful 
 
 ### Key Considerations for Healthcare Access
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Rural Resilience
 
@@ -4999,11 +4989,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Rural Resilience
 
@@ -5057,11 +5047,11 @@ This chapter has examined rural resilience in detail, presenting the evidence, m
 
 ## Key Takeaways — Chapter 33
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 33
 
@@ -5095,11 +5085,11 @@ The central argument of this section is that Value of Indigenous Knowledge const
 
 ### Key Considerations for Value of Indigenous Knowledge
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 34.2 Traditional Ecological Knowledge
 
@@ -5109,11 +5099,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Traditional Ecological Knowledge
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 34.3 Weather and Climate Indicators
 
@@ -5123,11 +5113,11 @@ From an academic perspective, the implications of Weather and Climate Indicators
 
 ### Key Considerations for Weather and Climate Indicators
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 34.4 Sustainable Resource Management
 
@@ -5137,11 +5127,11 @@ The methodological foundations of research on Sustainable Resource Management de
 
 ### Key Considerations for Sustainable Resource Management
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Indigenous Knowledge
 
@@ -5149,11 +5139,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Indigenous Knowledge
 
@@ -5206,11 +5196,11 @@ This chapter has examined indigenous and traditional knowledge in detail, presen
 
 ## Key Takeaways — Chapter 34
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 34
 
@@ -5244,11 +5234,11 @@ The central argument of this section is that Solar Power constitutes a critical 
 
 ### Key Considerations for Solar Power
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 35.2 Wind Power
 
@@ -5258,11 +5248,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Wind Power
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 35.3 Hydropower
 
@@ -5272,11 +5262,11 @@ From an academic perspective, the implications of Hydropower extend beyond immed
 
 ### Key Considerations for Hydropower
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 35.4 Biomass
 
@@ -5286,11 +5276,11 @@ The methodological foundations of research on Biomass deserve careful attention,
 
 ### Key Considerations for Biomass
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Renewable Energy Systems
 
@@ -5298,11 +5288,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Renewable Energy Systems
 
@@ -5355,11 +5345,11 @@ This chapter has examined renewable energy for resilience in detail, presenting 
 
 ## Key Takeaways — Chapter 35
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 35
 
@@ -5393,11 +5383,11 @@ The central argument of this section is that Rainwater Harvesting constitutes a 
 
 ### Key Considerations for Rainwater Harvesting
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 36.2 Desalination
 
@@ -5407,11 +5397,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Desalination
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 36.3 Wastewater Recycling
 
@@ -5421,11 +5411,11 @@ From an academic perspective, the implications of Wastewater Recycling extend be
 
 ### Key Considerations for Wastewater Recycling
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 36.4 Smart Irrigation
 
@@ -5435,11 +5425,11 @@ The methodological foundations of research on Smart Irrigation deserve careful a
 
 ### Key Considerations for Smart Irrigation
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Water Technologies
 
@@ -5447,11 +5437,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Water Technologies
 
@@ -5505,11 +5495,11 @@ This chapter has examined water technologies for adaptation in detail, presentin
 
 ## Key Takeaways — Chapter 36
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 36
 
@@ -5543,11 +5533,11 @@ The central argument of this section is that Precision Agriculture constitutes a
 
 ### Key Considerations for Precision Agriculture
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 37.2 Drought-Resistant Varieties
 
@@ -5557,11 +5547,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Drought-Resistant Varieties
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 37.3 Soil Health
 
@@ -5571,11 +5561,11 @@ From an academic perspective, the implications of Soil Health extend beyond imme
 
 ### Key Considerations for Soil Health
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 37.4 Agroforestry
 
@@ -5585,11 +5575,11 @@ The methodological foundations of research on Agroforestry deserve careful atten
 
 ### Key Considerations for Agroforestry
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Agricultural Technologies
 
@@ -5597,11 +5587,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Agricultural Technologies
 
@@ -5654,11 +5644,11 @@ This chapter has examined agricultural technologies in detail, presenting the ev
 
 ## Key Takeaways — Chapter 37
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 37
 
@@ -5692,11 +5682,11 @@ The central argument of this section is that What Is an Early Warning System con
 
 ### Key Considerations for What Is an Early Warning System
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 38.2 Hazard Monitoring
 
@@ -5706,11 +5696,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Hazard Monitoring
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 38.3 Forecasting and Modeling
 
@@ -5720,11 +5710,11 @@ From an academic perspective, the implications of Forecasting and Modeling exten
 
 ### Key Considerations for Forecasting and Modeling
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 38.4 Alert Dissemination
 
@@ -5734,11 +5724,11 @@ The methodological foundations of research on Alert Dissemination deserve carefu
 
 ### Key Considerations for Alert Dissemination
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Early Warning Systems
 
@@ -5746,11 +5736,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Early Warning Systems
 
@@ -5803,11 +5793,11 @@ This chapter has examined early warning systems in detail, presenting the eviden
 
 ## Key Takeaways — Chapter 38
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 38
 
@@ -5841,11 +5831,11 @@ The central argument of this section is that AI Applications in Climate constitu
 
 ### Key Considerations for AI Applications in Climate
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 39.2 Forecasting and Prediction
 
@@ -5855,11 +5845,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Forecasting and Prediction
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 39.3 Resource Optimization
 
@@ -5869,11 +5859,11 @@ From an academic perspective, the implications of Resource Optimization extend b
 
 ### Key Considerations for Resource Optimization
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 39.4 Remote Sensing
 
@@ -5883,11 +5873,11 @@ The methodological foundations of research on Remote Sensing deserve careful att
 
 ### Key Considerations for Remote Sensing
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: AI and Data for Climate
 
@@ -5895,11 +5885,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: AI and Data for Climate
 
@@ -5950,11 +5940,11 @@ This chapter has examined AI and data for climate action in detail, presenting t
 
 ## Key Takeaways — Chapter 39
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 39
 
@@ -5988,11 +5978,11 @@ The central argument of this section is that Principles of Appropriate Tech cons
 
 ### Key Considerations for Principles of Appropriate Tech
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 40.2 Passive Cooling
 
@@ -6002,11 +5992,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Passive Cooling
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 40.3 Simple Water Filters
 
@@ -6016,11 +6006,11 @@ From an academic perspective, the implications of Simple Water Filters extend be
 
 ### Key Considerations for Simple Water Filters
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 40.4 Solar Cookers
 
@@ -6030,11 +6020,11 @@ The methodological foundations of research on Solar Cookers deserve careful atte
 
 ### Key Considerations for Solar Cookers
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Low-Tech and Appropriate Technology
 
@@ -6042,11 +6032,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Low-Tech and Appropriate Technology
 
@@ -6099,11 +6089,11 @@ This chapter has examined low-tech and appropriate technology in detail, present
 
 ## Key Takeaways — Chapter 40
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 40
 
@@ -6137,11 +6127,11 @@ The central argument of this section is that What Is Climate Anxiety constitutes
 
 ### Key Considerations for What Is Climate Anxiety
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 41.2 Who Is Affected
 
@@ -6151,11 +6141,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Who Is Affected
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 41.3 Symptoms and Impacts
 
@@ -6165,11 +6155,11 @@ From an academic perspective, the implications of Symptoms and Impacts extend be
 
 ### Key Considerations for Symptoms and Impacts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 41.4 Adaptive vs Maladaptive
 
@@ -6179,11 +6169,11 @@ The methodological foundations of research on Adaptive vs Maladaptive deserve ca
 
 ### Key Considerations for Adaptive vs Maladaptive
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Climate Anxiety
 
@@ -6191,11 +6181,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Climate Anxiety
 
@@ -6248,11 +6238,11 @@ This chapter has examined climate anxiety and emotional responses in detail, pre
 
 ## Key Takeaways — Chapter 41
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 41
 
@@ -6286,11 +6276,11 @@ The central argument of this section is that Disaster Trauma constitutes a criti
 
 ### Key Considerations for Disaster Trauma
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 42.2 PTSD and Depression
 
@@ -6300,11 +6290,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for PTSD and Depression
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 42.3 Grief and Loss
 
@@ -6314,11 +6304,11 @@ From an academic perspective, the implications of Grief and Loss extend beyond i
 
 ### Key Considerations for Grief and Loss
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 42.4 Children and Trauma
 
@@ -6328,11 +6318,11 @@ The methodological foundations of research on Children and Trauma deserve carefu
 
 ### Key Considerations for Children and Trauma
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Trauma and Recovery
 
@@ -6340,11 +6330,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Trauma and Recovery
 
@@ -6398,11 +6388,11 @@ This chapter has examined trauma and recovery after disasters in detail, present
 
 ## Key Takeaways — Chapter 42
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 42
 
@@ -6436,11 +6426,11 @@ The central argument of this section is that Resilience Concepts constitutes a c
 
 ### Key Considerations for Resilience Concepts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 43.2 Cognitive Strategies
 
@@ -6450,11 +6440,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Cognitive Strategies
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 43.3 Emotional Regulation
 
@@ -6464,11 +6454,11 @@ From an academic perspective, the implications of Emotional Regulation extend be
 
 ### Key Considerations for Emotional Regulation
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 43.4 Social Support
 
@@ -6478,11 +6468,11 @@ The methodological foundations of research on Social Support deserve careful att
 
 ### Key Considerations for Social Support
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Building Psychological Resilience
 
@@ -6490,11 +6480,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Building Psychological Resilience
 
@@ -6547,11 +6537,11 @@ This chapter has examined psychological resilience in detail, presenting the evi
 
 ## Key Takeaways — Chapter 43
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 43
 
@@ -6585,11 +6575,11 @@ The central argument of this section is that Mental Health Systems constitutes a
 
 ### Key Considerations for Mental Health Systems
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 44.2 Access and Barriers
 
@@ -6599,11 +6589,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Access and Barriers
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 44.3 Stigma Reduction
 
@@ -6613,11 +6603,11 @@ From an academic perspective, the implications of Stigma Reduction extend beyond
 
 ### Key Considerations for Stigma Reduction
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 44.4 Peer Support
 
@@ -6627,11 +6617,11 @@ The methodological foundations of research on Peer Support deserve careful atten
 
 ### Key Considerations for Peer Support
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Community Mental Health
 
@@ -6639,11 +6629,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Community Mental Health
 
@@ -6696,11 +6686,11 @@ This chapter has examined community mental health in detail, presenting the evid
 
 ## Key Takeaways — Chapter 44
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 44
 
@@ -6734,11 +6724,11 @@ The central argument of this section is that UNFCCC and COP constitutes a critic
 
 ### Key Considerations for UNFCCC and COP
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 45.2 Paris Agreement
 
@@ -6748,11 +6738,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Paris Agreement
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 45.3 Sendai Framework
 
@@ -6762,11 +6752,11 @@ From an academic perspective, the implications of Sendai Framework extend beyond
 
 ### Key Considerations for Sendai Framework
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 45.4 SDGs
 
@@ -6776,11 +6766,11 @@ The methodological foundations of research on SDGs deserve careful attention, as
 
 ### Key Considerations for SDGs
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: International Frameworks
 
@@ -6788,11 +6778,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: International Frameworks
 
@@ -6846,11 +6836,11 @@ This chapter has examined international climate frameworks in detail, presenting
 
 ## Key Takeaways — Chapter 45
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 45
 
@@ -6884,11 +6874,11 @@ The central argument of this section is that NAP Process constitutes a critical 
 
 ### Key Considerations for NAP Process
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 46.2 Vulnerability Assessment
 
@@ -6898,11 +6888,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Vulnerability Assessment
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 46.3 Prioritization
 
@@ -6912,11 +6902,11 @@ From an academic perspective, the implications of Prioritization extend beyond i
 
 ### Key Considerations for Prioritization
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 46.4 Implementation
 
@@ -6926,11 +6916,11 @@ The methodological foundations of research on Implementation deserve careful att
 
 ### Key Considerations for Implementation
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: National Adaptation Plans
 
@@ -6938,11 +6928,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: National Adaptation Plans
 
@@ -6995,11 +6985,11 @@ This chapter has examined national adaptation planning in detail, presenting the
 
 ## Key Takeaways — Chapter 46
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 46
 
@@ -7033,11 +7023,11 @@ The central argument of this section is that Carbon Tax constitutes a critical d
 
 ### Key Considerations for Carbon Tax
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 47.2 Emissions Trading Systems
 
@@ -7047,11 +7037,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Emissions Trading Systems
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 47.3 Carbon Markets
 
@@ -7061,11 +7051,11 @@ From an academic perspective, the implications of Carbon Markets extend beyond i
 
 ### Key Considerations for Carbon Markets
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 47.4 Pricing Levels
 
@@ -7075,11 +7065,11 @@ The methodological foundations of research on Pricing Levels deserve careful att
 
 ### Key Considerations for Pricing Levels
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Carbon Pricing
 
@@ -7087,11 +7077,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Carbon Pricing
 
@@ -7144,11 +7134,11 @@ This chapter has examined carbon pricing and markets in detail, presenting the e
 
 ## Key Takeaways — Chapter 47
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 47
 
@@ -7182,11 +7172,11 @@ The central argument of this section is that Definition and Sources constitutes 
 
 ### Key Considerations for Definition and Sources
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 48.2 Public Finance
 
@@ -7196,11 +7186,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Public Finance
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 48.3 Private Finance
 
@@ -7210,11 +7200,11 @@ From an academic perspective, the implications of Private Finance extend beyond 
 
 ### Key Considerations for Private Finance
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 48.4 Green Bonds
 
@@ -7224,11 +7214,11 @@ The methodological foundations of research on Green Bonds deserve careful attent
 
 ### Key Considerations for Green Bonds
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Climate Finance
 
@@ -7236,11 +7226,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Climate Finance
 
@@ -7294,11 +7284,11 @@ This chapter has examined climate finance in detail, presenting the evidence, me
 
 ## Key Takeaways — Chapter 48
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 48
 
@@ -7332,11 +7322,11 @@ The central argument of this section is that Climate Justice Principles constitu
 
 ### Key Considerations for Climate Justice Principles
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 49.2 Historical Responsibility
 
@@ -7346,11 +7336,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Historical Responsibility
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 49.3 Vulnerable Groups
 
@@ -7360,11 +7350,11 @@ From an academic perspective, the implications of Vulnerable Groups extend beyon
 
 ### Key Considerations for Vulnerable Groups
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 49.4 Gender and Climate
 
@@ -7374,11 +7364,11 @@ The methodological foundations of research on Gender and Climate deserve careful
 
 ### Key Considerations for Gender and Climate
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Justice and Equity
 
@@ -7386,11 +7376,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Justice and Equity
 
@@ -7440,11 +7430,11 @@ This chapter has examined climate justice and equity in detail, presenting the e
 
 ## Key Takeaways — Chapter 49
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 49
 
@@ -7478,11 +7468,11 @@ The central argument of this section is that Why Civic Engagement Matters consti
 
 ### Key Considerations for Why Civic Engagement Matters
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 50.2 Voting and Elections
 
@@ -7492,11 +7482,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Voting and Elections
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 50.3 Advocacy and Lobbying
 
@@ -7506,11 +7496,11 @@ From an academic perspective, the implications of Advocacy and Lobbying extend b
 
 ### Key Considerations for Advocacy and Lobbying
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 50.4 Protests and Movements
 
@@ -7520,11 +7510,11 @@ The methodological foundations of research on Protests and Movements deserve car
 
 ### Key Considerations for Protests and Movements
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Civic Engagement
 
@@ -7532,11 +7522,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Civic Engagement
 
@@ -7589,11 +7579,11 @@ This chapter has examined civic engagement in climate action in detail, presenti
 
 ## Key Takeaways — Chapter 50
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 50
 
@@ -7627,11 +7617,11 @@ The central argument of this section is that Regional Context constitutes a crit
 
 ### Key Considerations for Regional Context
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 51.2 Heat Wave Trends
 
@@ -7641,11 +7631,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Heat Wave Trends
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 51.3 Impacts on Health
 
@@ -7655,11 +7645,11 @@ From an academic perspective, the implications of Impacts on Health extend beyon
 
 ### Key Considerations for Impacts on Health
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 51.4 Impacts on Labor
 
@@ -7669,11 +7659,11 @@ The methodological foundations of research on Impacts on Labor deserve careful a
 
 ### Key Considerations for Impacts on Labor
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Case Study: Heat in South Asia
 
@@ -7681,11 +7671,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Case Study: Heat in South Asia
 
@@ -7739,11 +7729,11 @@ This chapter has examined heat waves in South Asia in detail, presenting the evi
 
 ## Key Takeaways — Chapter 51
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 51
 
@@ -7777,11 +7767,11 @@ The central argument of this section is that Regional Context constitutes a crit
 
 ### Key Considerations for Regional Context
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 52.2 Drought Trends
 
@@ -7791,11 +7781,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Drought Trends
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 52.3 Food Insecurity
 
@@ -7805,11 +7795,11 @@ From an academic perspective, the implications of Food Insecurity extend beyond 
 
 ### Key Considerations for Food Insecurity
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 52.4 Water Scarcity
 
@@ -7819,11 +7809,11 @@ The methodological foundations of research on Water Scarcity deserve careful att
 
 ### Key Considerations for Water Scarcity
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Case Study: Drought in the Horn of Africa
 
@@ -7831,11 +7821,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Case Study: Drought in the Horn of Africa
 
@@ -7888,11 +7878,11 @@ This chapter has examined drought in the Horn of Africa in detail, presenting th
 
 ## Key Takeaways — Chapter 52
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 52
 
@@ -7926,11 +7916,11 @@ The central argument of this section is that Regional Context constitutes a crit
 
 ### Key Considerations for Regional Context
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 53.2 Sea Level Trends
 
@@ -7940,11 +7930,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Sea Level Trends
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 53.3 Coastal Impacts
 
@@ -7954,11 +7944,11 @@ From an academic perspective, the implications of Coastal Impacts extend beyond 
 
 ### Key Considerations for Coastal Impacts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 53.4 Freshwater and Agriculture
 
@@ -7968,11 +7958,11 @@ The methodological foundations of research on Freshwater and Agriculture deserve
 
 ### Key Considerations for Freshwater and Agriculture
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Case Study: Sea Level Rise in Small Island States
 
@@ -7980,11 +7970,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Case Study: Sea Level Rise in Small Island States
 
@@ -8037,11 +8027,11 @@ This chapter has examined sea level rise in small island states in detail, prese
 
 ## Key Takeaways — Chapter 53
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 53
 
@@ -8075,11 +8065,11 @@ The central argument of this section is that Fire Weather Trends constitutes a c
 
 ### Key Considerations for Fire Weather Trends
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 54.2 Ecological Impacts
 
@@ -8089,11 +8079,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Ecological Impacts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 54.3 Human Health Impacts
 
@@ -8103,11 +8093,11 @@ From an academic perspective, the implications of Human Health Impacts extend be
 
 ### Key Considerations for Human Health Impacts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 54.4 Infrastructure Damage
 
@@ -8117,11 +8107,11 @@ The methodological foundations of research on Infrastructure Damage deserve care
 
 ### Key Considerations for Infrastructure Damage
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Case Study: Wildfires in Australia and North America
 
@@ -8129,11 +8119,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Case Study: Wildfires in Australia and North America
 
@@ -8187,11 +8177,11 @@ This chapter has examined wildfires in detail, presenting the evidence, mechanis
 
 ## Key Takeaways — Chapter 54
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 54
 
@@ -8225,11 +8215,11 @@ The central argument of this section is that Regional Context constitutes a crit
 
 ### Key Considerations for Regional Context
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 55.2 Flood Trends
 
@@ -8239,11 +8229,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Flood Trends
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 55.3 Urban Flooding
 
@@ -8253,11 +8243,11 @@ From an academic perspective, the implications of Urban Flooding extend beyond i
 
 ### Key Considerations for Urban Flooding
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 55.4 Rural and Agricultural Impacts
 
@@ -8267,11 +8257,11 @@ The methodological foundations of research on Rural and Agricultural Impacts des
 
 ### Key Considerations for Rural and Agricultural Impacts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Case Study: Floods in Southeast Asia
 
@@ -8279,11 +8269,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Case Study: Floods in Southeast Asia
 
@@ -8336,11 +8326,11 @@ This chapter has examined floods in Southeast Asia in detail, presenting the evi
 
 ## Key Takeaways — Chapter 55
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 55
 
@@ -8374,11 +8364,11 @@ The central argument of this section is that Regional Context constitutes a crit
 
 ### Key Considerations for Regional Context
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 56.2 Climate and Agriculture
 
@@ -8388,11 +8378,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Climate and Agriculture
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 56.3 Food Insecurity Trends
 
@@ -8402,11 +8392,11 @@ From an academic perspective, the implications of Food Insecurity Trends extend 
 
 ### Key Considerations for Food Insecurity Trends
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 56.4 Nutrition Impacts
 
@@ -8416,11 +8406,11 @@ The methodological foundations of research on Nutrition Impacts deserve careful 
 
 ### Key Considerations for Nutrition Impacts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Case Study: Food Crisis in Sub-Saharan Africa
 
@@ -8428,11 +8418,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Case Study: Food Crisis in Sub-Saharan Africa
 
@@ -8485,11 +8475,11 @@ This chapter has examined food crisis in Sub-Saharan Africa in detail, presentin
 
 ## Key Takeaways — Chapter 56
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 56
 
@@ -8523,11 +8513,11 @@ The central argument of this section is that Regional Context constitutes a crit
 
 ### Key Considerations for Regional Context
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 57.2 Water Scarcity Trends
 
@@ -8537,11 +8527,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Water Scarcity Trends
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 57.3 Agriculture and Water
 
@@ -8551,11 +8541,11 @@ From an academic perspective, the implications of Agriculture and Water extend b
 
 ### Key Considerations for Agriculture and Water
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 57.4 Urban Water Stress
 
@@ -8565,11 +8555,11 @@ The methodological foundations of research on Urban Water Stress deserve careful
 
 ### Key Considerations for Urban Water Stress
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Case Study: Water Stress in the Middle East
 
@@ -8577,11 +8567,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Case Study: Water Stress in the Middle East
 
@@ -8635,11 +8625,11 @@ This chapter has examined water stress in the Middle East in detail, presenting 
 
 ## Key Takeaways — Chapter 57
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 57
 
@@ -8673,11 +8663,11 @@ The central argument of this section is that Regional Context constitutes a crit
 
 ### Key Considerations for Regional Context
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 58.2 Storm Trends
 
@@ -8687,11 +8677,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Storm Trends
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 58.3 Infrastructure Damage
 
@@ -8701,11 +8691,11 @@ From an academic perspective, the implications of Infrastructure Damage extend b
 
 ### Key Considerations for Infrastructure Damage
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 58.4 Economic Impacts
 
@@ -8715,11 +8705,11 @@ The methodological foundations of research on Economic Impacts deserve careful a
 
 ### Key Considerations for Economic Impacts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Case Study: Storms and Hurricanes in the Caribbean
 
@@ -8727,11 +8717,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Case Study: Storms and Hurricanes in the Caribbean
 
@@ -8784,11 +8774,11 @@ This chapter has examined storms and hurricanes in the Caribbean in detail, pres
 
 ## Key Takeaways — Chapter 58
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 58
 
@@ -8822,11 +8812,11 @@ The central argument of this section is that Regional Context constitutes a crit
 
 ### Key Considerations for Regional Context
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 59.2 Thaw Trends
 
@@ -8836,11 +8826,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Thaw Trends
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 59.3 Infrastructure Impacts
 
@@ -8850,11 +8840,11 @@ From an academic perspective, the implications of Infrastructure Impacts extend 
 
 ### Key Considerations for Infrastructure Impacts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 59.4 Ecosystem Changes
 
@@ -8864,11 +8854,11 @@ The methodological foundations of research on Ecosystem Changes deserve careful 
 
 ### Key Considerations for Ecosystem Changes
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Case Study: Permafrost Thaw in the Arctic
 
@@ -8876,11 +8866,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Case Study: Permafrost Thaw in the Arctic
 
@@ -8930,11 +8920,11 @@ This chapter has examined permafrost thaw in the Arctic in detail, presenting th
 
 ## Key Takeaways — Chapter 59
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 59
 
@@ -8968,11 +8958,11 @@ The central argument of this section is that Urban Heat Island Effect constitute
 
 ### Key Considerations for Urban Heat Island Effect
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 60.2 City Case Studies
 
@@ -8982,11 +8972,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for City Case Studies
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 60.3 Health Impacts
 
@@ -8996,11 +8986,11 @@ From an academic perspective, the implications of Health Impacts extend beyond i
 
 ### Key Considerations for Health Impacts
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 60.4 Infrastructure Stress
 
@@ -9010,11 +9000,11 @@ The methodological foundations of research on Infrastructure Stress deserve care
 
 ### Key Considerations for Infrastructure Stress
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Case Study: Urban Heat in Global Cities
 
@@ -9022,11 +9012,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Case Study: Urban Heat in Global Cities
 
@@ -9080,11 +9070,11 @@ This chapter has examined urban heat in global cities in detail, presenting the 
 
 ## Key Takeaways — Chapter 60
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 60
 
@@ -9118,11 +9108,11 @@ The central argument of this section is that Week 1: Assess and Plan constitutes
 
 ### Key Considerations for Week 1: Assess and Plan
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 61.2 Week 2: Supplies and Kits
 
@@ -9132,11 +9122,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Week 2: Supplies and Kits
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 61.3 Week 3: Skills and Health
 
@@ -9146,11 +9136,11 @@ From an academic perspective, the implications of Week 3: Skills and Health exte
 
 ### Key Considerations for Week 3: Skills and Health
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 61.4 Week 4: Community and Review
 
@@ -9160,11 +9150,11 @@ The methodological foundations of research on Week 4: Community and Review deser
 
 ### Key Considerations for Week 4: Community and Review
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: 30-Day Personal Action Plan
 
@@ -9172,11 +9162,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: 30-Day Personal Action Plan
 
@@ -9229,11 +9219,11 @@ This chapter has examined 30-day personal action plan in detail, presenting the 
 
 ## Key Takeaways — Chapter 61
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 61
 
@@ -9267,11 +9257,11 @@ The central argument of this section is that Quarter 1: Organize constitutes a c
 
 ### Key Considerations for Quarter 1: Organize
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 62.2 Quarter 2: Assess and Train
 
@@ -9281,11 +9271,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Quarter 2: Assess and Train
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 62.3 Quarter 3: Implement
 
@@ -9295,11 +9285,11 @@ From an academic perspective, the implications of Quarter 3: Implement extend be
 
 ### Key Considerations for Quarter 3: Implement
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 62.4 Quarter 4: Review and Scale
 
@@ -9309,11 +9299,11 @@ The methodological foundations of research on Quarter 4: Review and Scale deserv
 
 ### Key Considerations for Quarter 4: Review and Scale
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: 1-Year Community Action Plan
 
@@ -9321,11 +9311,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: 1-Year Community Action Plan
 
@@ -9378,11 +9368,11 @@ This chapter has examined 1-year community action plan in detail, presenting the
 
 ## Key Takeaways — Chapter 62
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 62
 
@@ -9416,11 +9406,11 @@ The central argument of this section is that Emergency Kit Checklist constitutes
 
 ### Key Considerations for Emergency Kit Checklist
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 63.2 Water Storage Checklist
 
@@ -9430,11 +9420,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Water Storage Checklist
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 63.3 Food Storage Checklist
 
@@ -9444,11 +9434,11 @@ From an academic perspective, the implications of Food Storage Checklist extend 
 
 ### Key Considerations for Food Storage Checklist
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 63.4 Evacuation Checklist
 
@@ -9458,11 +9448,11 @@ The methodological foundations of research on Evacuation Checklist deserve caref
 
 ### Key Considerations for Evacuation Checklist
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Checklists and Templates
 
@@ -9470,11 +9460,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Checklists and Templates
 
@@ -9528,11 +9518,11 @@ This chapter has examined checklists and templates in detail, presenting the evi
 
 ## Key Takeaways — Chapter 63
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 63
 
@@ -9566,11 +9556,11 @@ The central argument of this section is that A-C constitutes a critical dimensio
 
 ### Key Considerations for A-C
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 64.2 D-F
 
@@ -9580,11 +9570,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for D-F
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 64.3 G-I
 
@@ -9594,11 +9584,11 @@ From an academic perspective, the implications of G-I extend beyond immediate im
 
 ### Key Considerations for G-I
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 64.4 J-L
 
@@ -9608,11 +9598,11 @@ The methodological foundations of research on J-L deserve careful attention, as 
 
 ### Key Considerations for J-L
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Glossary
 
@@ -9620,11 +9610,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Glossary
 
@@ -9677,11 +9667,11 @@ This chapter has examined glossary of climate and survival terms in detail, pres
 
 ## Key Takeaways — Chapter 64
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 64
 
@@ -9715,11 +9705,11 @@ The central argument of this section is that Climate Science constitutes a criti
 
 ### Key Considerations for Climate Science
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 65.2 Health and Disasters
 
@@ -9729,11 +9719,11 @@ A detailed review of the literature reveals several interconnected mechanisms th
 
 ### Key Considerations for Health and Disasters
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 65.3 Water and Food
 
@@ -9743,11 +9733,11 @@ From an academic perspective, the implications of Water and Food extend beyond i
 
 ### Key Considerations for Water and Food
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## 65.4 Economics and Policy
 
@@ -9757,11 +9747,11 @@ The methodological foundations of research on Economics and Policy deserve caref
 
 ### Key Considerations for Economics and Policy
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Case Study: Extended References
 
@@ -9769,11 +9759,11 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ### Lessons from the Case Study
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## Data and Evidence: Extended References
 
@@ -9826,11 +9816,11 @@ This chapter has examined extended references and further reading in detail, pre
 
 ## Key Takeaways — Chapter 65
 
-- Assess local conditions and identify the most relevant hazards.
-- Prioritize actions that protect the most vulnerable first.
-- Build redundancy into critical systems (water, food, energy, communication).
-- Practice plans regularly and update them after each event.
-- Share knowledge and coordinate with neighbors and local institutions.
+- Conduct a systematic assessment of local conditions to identify the most salient hazards and exposure pathways.
+- Prioritize interventions that protect the most vulnerable populations, consistent with principles of climate justice.
+- Incorporate redundancy into critical systems (water, food, energy, and communication) to reduce single-point failures.
+- Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.
+- Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.
 
 ## References — Chapter 65
 
@@ -10210,154 +10200,6 @@ Analytical note 28: Climate action requires sustained commitment, continuous lea
 Analytical note 29: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
 
 Analytical note 30: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 31: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 32: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 33: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 34: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 35: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 36: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 37: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 38: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 39: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 40: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 41: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 42: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 43: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 44: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 45: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 46: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 47: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 48: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 49: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 50: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 51: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 52: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 53: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 54: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 55: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 56: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 57: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 58: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 59: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 60: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 61: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 62: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 63: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 64: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 65: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 66: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 67: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 68: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 69: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 70: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 71: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 72: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 73: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 74: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 75: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 76: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 77: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 78: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 79: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 80: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 81: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 82: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 83: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 84: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 85: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 86: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 87: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 88: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 89: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 90: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 91: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 92: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 93: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 94: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 95: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 96: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 97: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 98: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 99: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 100: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 101: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 102: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 103: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
-
-Analytical note 104: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
 
 # Catatan Kaki (Footnotes)
 
