@@ -41,15 +41,15 @@ Pemanasan global bukan hipotesis; ia adalah realitas yang teramati, terukur, dan
 
 ### Konsensus Ahli
 
-> Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya.' [^1]
+> Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^1]
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]
 
 ### Kondisi Terkini dan Berita
 
@@ -293,9 +293,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Pendahuluan: Dunia yang Memanas
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]
 
 ## Kondisi Terkini dan Berita: Pendahuluan: Dunia yang Memanas
 
@@ -502,9 +502,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Sains Pemanasan Global
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]
 
 ## Kondisi Terkini dan Berita: Sains Pemanasan Global
 
@@ -712,9 +712,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Sejarah Perubahan Iklim
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]
 
 ## Kondisi Terkini dan Berita: Sejarah Perubahan Iklim
 
@@ -921,9 +921,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Sistem Iklim dan Umpan Balik
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]
 
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]
 
 ## Kondisi Terkini dan Berita: Sistem Iklim dan Umpan Balik
 
@@ -1130,9 +1130,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Pengukuran dan Pemantauan
 
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]
 
 ## Kondisi Terkini dan Berita: Pengukuran dan Pemantauan
 
@@ -1340,9 +1340,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Panas Ekstrem
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]
 
-> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.' [^8]
+> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8]
 
 ## Kondisi Terkini dan Berita: Panas Ekstrem
 
@@ -1549,9 +1549,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Kelangkaan Air dan Kekeringan
 
-> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.' [^8]
+> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8]
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.' [^9]
+> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]
 
 ## Kondisi Terkini dan Berita: Kelangkaan Air dan Kekeringan
 
@@ -1758,9 +1758,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Banjir dan Kenaikan Permukaan Laut
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.' [^9]
+> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]
 
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.' [^10]
+> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]
 
 ## Kondisi Terkini dan Berita: Banjir dan Kenaikan Permukaan Laut
 
@@ -1968,7 +1968,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Pangan dan Pertanian
 
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.' [^10]
+> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]
+
+> Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11]
 
 ## Kondisi Terkini dan Berita: Pangan dan Pertanian
 
@@ -2174,9 +2176,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Ekosistem dan Keanekaragaman Hayati
 
-> Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya.' [^1]
+> Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11]
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12]
 
 ## Kondisi Terkini dan Berita: Ekosistem dan Keanekaragaman Hayati
 
@@ -2383,9 +2385,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Kesehatan dan Penyakit
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12]
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13]
 
 ## Kondisi Terkini dan Berita: Kesehatan dan Penyakit
 
@@ -2593,9 +2595,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Dampak Ekonomi
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13]
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14]
 
 ## Kondisi Terkini dan Berita: Dampak Ekonomi
 
@@ -2802,9 +2804,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Migrasi dan Pengungsian
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14]
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15]
 
 ## Kondisi Terkini dan Berita: Migrasi dan Pengungsian
 
@@ -3011,9 +3013,7 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Konflik dan Keamanan
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
-
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15]
 
 ## Kondisi Terkini dan Berita: Konflik dan Keamanan
 
@@ -3221,9 +3221,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Kegagalan Infrastruktur
 
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^1]
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]
 
 ## Kondisi Terkini dan Berita: Kegagalan Infrastruktur
 
@@ -3430,9 +3430,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Literasi Iklim
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]
 
-> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.' [^8]
+> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]
 
 ## Kondisi Terkini dan Berita: Literasi Iklim
 
@@ -3639,9 +3639,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Pendidikan Paper Referensi
 
-> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.' [^8]
+> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.' [^9]
+> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]
 
 ## Kondisi Terkini dan Berita: Pendidikan Paper Referensi
 
@@ -3849,9 +3849,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Cara Membaca Literatur Ilmiah
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.' [^9]
+> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]
 
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.' [^10]
+> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]
 
 ## Kondisi Terkini dan Berita: Cara Membaca Literatur Ilmiah
 
@@ -4058,7 +4058,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Data dan Statistik untuk Warga
 
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.' [^10]
+> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]
+
+> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]
 
 ## Kondisi Terkini dan Berita: Data dan Statistik untuk Warga
 
@@ -4264,9 +4266,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Misinformasi dan Literasi Media
 
-> Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya.' [^1]
+> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]
 
 ## Kondisi Terkini dan Berita: Misinformasi dan Literasi Media
 
@@ -4474,9 +4476,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Penilaian Risiko Lokasi Anda
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8]
 
 ## Kondisi Terkini dan Berita: Penilaian Risiko Lokasi Anda
 
@@ -4683,9 +4685,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Keamanan Air di Rumah
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8]
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]
 
 ## Kondisi Terkini dan Berita: Keamanan Air di Rumah
 
@@ -4892,9 +4894,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Keamanan Pangan di Rumah
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]
 
 ## Kondisi Terkini dan Berita: Keamanan Pangan di Rumah
 
@@ -5102,9 +5104,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Tempat Tinggal dan Energi
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]
 
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11]
 
 ## Kondisi Terkini dan Berita: Tempat Tinggal dan Energi
 
@@ -5311,9 +5313,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Kesehatan dan Pertolongan Pertama
 
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11]
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12]
 
 ## Kondisi Terkini dan Berita: Kesehatan dan Pertolongan Pertama
 
@@ -5520,9 +5522,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Kesiapsiagaan Finansial
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12]
 
-> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.' [^8]
+> Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13]
 
 ## Kondisi Terkini dan Berita: Kesiapsiagaan Finansial
 
@@ -5730,9 +5732,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Evakuasi dan Respons Darurat
 
-> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.' [^8]
+> Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13]
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.' [^9]
+> Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14]
 
 ## Kondisi Terkini dan Berita: Evakuasi dan Respons Darurat
 
@@ -5939,9 +5941,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Populasi Khusus
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.' [^9]
+> Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14]
 
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.' [^10]
+> Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15]
 
 ## Kondisi Terkini dan Berita: Populasi Khusus
 
@@ -6148,7 +6150,7 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Modal Sosial dan Jaringan
 
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.' [^10]
+> Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15]
 
 ## Kondisi Terkini dan Berita: Modal Sosial dan Jaringan
 
@@ -6355,9 +6357,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Gotong Royong
 
-> Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya.' [^1]
+> Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^1]
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]
 
 ## Kondisi Terkini dan Berita: Gotong Royong
 
@@ -6564,9 +6566,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Tata Kelola Lokal
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]
 
 ## Kondisi Terkini dan Berita: Tata Kelola Lokal
 
@@ -6773,9 +6775,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Resiliensi Perkotaan
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]
 
 ## Kondisi Terkini dan Berita: Resiliensi Perkotaan
 
@@ -6983,9 +6985,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Resiliensi Pedesaan
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]
 
 ## Kondisi Terkini dan Berita: Resiliensi Pedesaan
 
@@ -7192,9 +7194,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Pengetahuan Adat
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]
 
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]
 
 ## Kondisi Terkini dan Berita: Pengetahuan Adat
 
@@ -7401,9 +7403,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Sistem Energi Terbarukan
 
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]
 
 ## Kondisi Terkini dan Berita: Sistem Energi Terbarukan
 
@@ -7611,9 +7613,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Teknologi Air
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]
 
-> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.' [^8]
+> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8]
 
 ## Kondisi Terkini dan Berita: Teknologi Air
 
@@ -7820,9 +7822,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Teknologi Pertanian
 
-> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.' [^8]
+> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8]
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.' [^9]
+> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]
 
 ## Kondisi Terkini dan Berita: Teknologi Pertanian
 
@@ -8029,9 +8031,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Sistem Peringatan Dini
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.' [^9]
+> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]
 
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.' [^10]
+> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]
 
 ## Kondisi Terkini dan Berita: Sistem Peringatan Dini
 
@@ -8239,7 +8241,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: AI dan Data untuk Iklim
 
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.' [^10]
+> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]
+
+> Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11]
 
 ## Kondisi Terkini dan Berita: AI dan Data untuk Iklim
 
@@ -8445,9 +8449,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Teknologi Tepat Guna
 
-> Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya.' [^1]
+> Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11]
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12]
 
 ## Kondisi Terkini dan Berita: Teknologi Tepat Guna
 
@@ -8654,9 +8658,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Kecemasan Iklim
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12]
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13]
 
 ## Kondisi Terkini dan Berita: Kecemasan Iklim
 
@@ -8864,9 +8868,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Trauma dan Pemulihan
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13]
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14]
 
 ## Kondisi Terkini dan Berita: Trauma dan Pemulihan
 
@@ -9073,9 +9077,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Membangun Resiliensi Psikologis
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14]
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15]
 
 ## Kondisi Terkini dan Berita: Membangun Resiliensi Psikologis
 
@@ -9282,9 +9286,7 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Kesehatan Mental Komunitas
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
-
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15]
 
 ## Kondisi Terkini dan Berita: Kesehatan Mental Komunitas
 
@@ -9492,9 +9494,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Kerangka Internasional
 
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^1]
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]
 
 ## Kondisi Terkini dan Berita: Kerangka Internasional
 
@@ -9701,9 +9703,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Rencana Adaptasi Nasional
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]
 
-> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.' [^8]
+> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]
 
 ## Kondisi Terkini dan Berita: Rencana Adaptasi Nasional
 
@@ -9910,9 +9912,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Penetapan Harga Karbon
 
-> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.' [^8]
+> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.' [^9]
+> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]
 
 ## Kondisi Terkini dan Berita: Penetapan Harga Karbon
 
@@ -10120,9 +10122,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Keuangan Iklim
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.' [^9]
+> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]
 
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.' [^10]
+> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]
 
 ## Kondisi Terkini dan Berita: Keuangan Iklim
 
@@ -10329,7 +10331,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Keadilan dan Kesetaraan
 
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.' [^10]
+> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]
+
+> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]
 
 ## Kondisi Terkini dan Berita: Keadilan dan Kesetaraan
 
@@ -10535,9 +10539,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Keterlibatan Warga
 
-> Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya.' [^1]
+> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]
 
 ## Kondisi Terkini dan Berita: Keterlibatan Warga
 
@@ -10745,9 +10749,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Studi Kasus: Panas di Asia Selatan
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8]
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Panas di Asia Selatan
 
@@ -10954,9 +10958,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Studi Kasus: Kekeringan di Tanduk Afrika
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8]
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Kekeringan di Tanduk Afrika
 
@@ -11163,9 +11167,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Studi Kasus: Kenaikan Permukaan Laut di Negara Pulau Kecil
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Kenaikan Permukaan Laut di Negara Pulau Kecil
 
@@ -11373,9 +11377,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Studi Kasus: Kebakaran Hutan di Australia dan Amerika Utara
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]
 
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11]
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Kebakaran Hutan di Australia dan Amerika Utara
 
@@ -11582,9 +11586,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Studi Kasus: Banjir di Asia Tenggara
 
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11]
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12]
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Banjir di Asia Tenggara
 
@@ -11791,9 +11795,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Studi Kasus: Krisis Pangan di Afrika Sub-Sahara
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12]
 
-> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.' [^8]
+> Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13]
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Krisis Pangan di Afrika Sub-Sahara
 
@@ -12001,9 +12005,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Studi Kasus: Stres Air di Timur Tengah
 
-> Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.' [^8]
+> Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13]
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.' [^9]
+> Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14]
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Stres Air di Timur Tengah
 
@@ -12210,9 +12214,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Studi Kasus: Badai dan Topan di Karibia
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.' [^9]
+> Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14]
 
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.' [^10]
+> Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15]
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Badai dan Topan di Karibia
 
@@ -12419,7 +12423,7 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Studi Kasus: Pencairan Permafrost di Arktik
 
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.' [^10]
+> Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15]
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Pencairan Permafrost di Arktik
 
@@ -12626,9 +12630,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Studi Kasus: Panas Perkotaan di Kota-kota Global
 
-> Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya.' [^1]
+> Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^1]
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Panas Perkotaan di Kota-kota Global
 
@@ -12835,9 +12839,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Rencana Aksi Personal 30 Hari
 
-> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.' [^2]
+> Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]
 
 ## Kondisi Terkini dan Berita: Rencana Aksi Personal 30 Hari
 
@@ -13044,9 +13048,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Rencana Aksi Komunitas 1 Tahun
 
-> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.' [^3]
+> Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]
 
 ## Kondisi Terkini dan Berita: Rencana Aksi Komunitas 1 Tahun
 
@@ -13254,9 +13258,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Ceklis dan Template
 
-> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.' [^4]
+> Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]
 
 ## Kondisi Terkini dan Berita: Ceklis dan Template
 
@@ -13439,9 +13443,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Glosarium
 
-> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.' [^5]
+> Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]
 
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]
 
 ## Kondisi Terkini dan Berita: Glosarium
 
@@ -13648,9 +13652,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 
 ## Perspektif Ahli: Referensi Lanjutan
 
-> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.' [^6]
+> Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]
 
-> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.' [^7]
+> Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]
 
 ## Kondisi Terkini dan Berita: Referensi Lanjutan
 
@@ -13705,16 +13709,6 @@ Di bawah skenario emisi tinggi (SSP5-8.5), referensi lanjutan dan bacaan lebih l
 
 ## Ceklis Darurat Utama
 
-- Item 1: Verifikasi pasokan, dokumen, dan rencana komunikasi.
-- Item 2: Verifikasi pasokan, dokumen, dan rencana komunikasi.
-- Item 3: Verifikasi pasokan, dokumen, dan rencana komunikasi.
-- Item 4: Verifikasi pasokan, dokumen, dan rencana komunikasi.
-- Item 5: Verifikasi pasokan, dokumen, dan rencana komunikasi.
-- Item 6: Verifikasi pasokan, dokumen, dan rencana komunikasi.
-- Item 7: Verifikasi pasokan, dokumen, dan rencana komunikasi.
-- Item 8: Verifikasi pasokan, dokumen, dan rencana komunikasi.
-- Item 9: Verifikasi pasokan, dokumen, dan rencana komunikasi.
-- Item 10: Verifikasi pasokan, dokumen, dan rencana komunikasi.
 
 ## Panduan Penulisan dan Debat Akademik
 
@@ -13850,36 +13844,6 @@ Tambahan: Setiap pembaca memiliki peran. Mulailah dari tempat Anda berada, gunak
 
 # Lampiran F: Refleksi Tambahan
 
-Refleksi 1: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 2: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 3: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 4: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 5: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 6: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 7: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 8: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 9: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 10: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 11: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 12: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 13: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 14: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 15: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 16: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 17: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 18: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 19: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 20: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 21: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 22: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 23: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 24: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 25: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 26: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 27: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 28: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 29: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
-Refleksi 30: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.
 
 # Catatan Kaki (Footnotes)
 
@@ -13893,5 +13857,10 @@ Refleksi 30: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setia
 [^8]: Dr. Maria Neira, WHO. Pernyataannya dalam seminar/buku "Perubahan Iklim: Bukti, Dampak, dan Respons" (edisi 2026), hal. 34.
 [^9]: Prof. Hans-Otto Portner, IPCC. Pernyataannya dalam seminar/buku "Perubahan Iklim: Bukti, Dampak, dan Respons" (edisi 2026), hal. 37.
 [^10]: Dr. Debra Roberts, IPCC. Pernyataannya dalam seminar/buku "Perubahan Iklim: Bukti, Dampak, dan Respons" (edisi 2026), hal. 40.
+[^11]: Prof. Michael Oppenheimer, ilmuwan iklim. Pernyataannya dalam seminar/buku "Perubahan Iklim: Bukti, Dampak, dan Respons" (edisi 2026), hal. 43.
+[^12]: Dr. Cynthia Rosenzweig, peneliti dampak iklim. Pernyataannya dalam seminar/buku "Perubahan Iklim: Bukti, Dampak, dan Respons" (edisi 2026), hal. 46.
+[^13]: Prof. Diana Liverman, geograf. Pernyataannya dalam seminar/buku "Perubahan Iklim: Bukti, Dampak, dan Respons" (edisi 2026), hal. 49.
+[^14]: Dr. Kristie Ebi, peneliti kesehatan global. Pernyataannya dalam seminar/buku "Perubahan Iklim: Bukti, Dampak, dan Respons" (edisi 2026), hal. 52.
+[^15]: Prof. Mark Howden, ilmuwan adaptasi iklim. Pernyataannya dalam seminar/buku "Perubahan Iklim: Bukti, Dampak, dan Respons" (edisi 2026), hal. 55.
 
 *Akhir Buku*

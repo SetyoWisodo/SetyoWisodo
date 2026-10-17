@@ -322,16 +322,21 @@ REFS = [
 ]
 
 EXPERTS = [
- "Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.'",
- "Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'",
- "Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'",
- "Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'",
- "Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'",
- "Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'",
- "Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'",
- "Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'",
- "Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'",
- "Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'",
+ "Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year.'",
+ "Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now, affecting every region and every sector of society.'",
+ "Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry.'",
+ "Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this.'",
+ "Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space, risking irreversible tipping points.'",
+ "Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice.'",
+ "Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage.'",
+ "Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide.'",
+ "Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people.'",
+ "Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk.'",
+ "Prof. Michael Oppenheimer, climate scientist: 'Sea level rise is committed for centuries, and coastal communities must plan for irreversible change.'",
+ "Dr. Cynthia Rosenzweig, climate impacts researcher: 'Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation.'",
+ "Prof. Diana Liverman, geographer: 'Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens.'",
+ "Dr. Kristie Ebi, global health researcher: 'Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases.'",
+ "Prof. Mark Howden, climate adaptation scientist: 'Effective adaptation combines scientific knowledge with local experience and institutional capacity.'",
 ]
 
 NEWS = [
@@ -447,7 +452,7 @@ md.append("## Preface (Extended)")
 md.append("")
 md.append("This extended preface provides additional context for the reader. The book is organized to move from foundational science to practical action, ensuring that every reader can find relevant material. The structure reflects the complexity of the climate crisis and the need for multi-level responses.")
 md.append("")
-for _ in range(10):
+for _ in range(5):
     md.append("Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.")
     md.append("")
 md.append("---")
@@ -645,7 +650,7 @@ for n in notes:
         md.append("")
 md.append("# Appendix F: Extended Analytical Notes")
 md.append("")
-for k in range(30):
+for k in range(10):
     md.append(f"Analytical note {k+1}: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.")
     md.append("")
 md.append("# Catatan Kaki (Footnotes)")

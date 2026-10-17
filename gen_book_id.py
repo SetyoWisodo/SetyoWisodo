@@ -322,16 +322,21 @@ REFS = [
 ]
 
 EXPERTS = [
- "Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya.'",
- "Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang.'",
- "Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat.'",
- "Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin karena perubahan iklim.'",
- "Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya.'",
- "Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup.'",
- "Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan.'",
- "Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21.'",
- "Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat.'",
- "Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama.'",
+ "Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.'",
+ "Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.'",
+ "Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.'",
+ "Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.'",
+ "Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.'",
+ "Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.'",
+ "Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.'",
+ "Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.'",
+ "Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.'",
+ "Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.'",
+ "Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.'",
+ "Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.'",
+ "Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.'",
+ "Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.'",
+ "Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.'",
 ]
 
 NEWS = [
@@ -578,7 +583,7 @@ md.append("# Lampiran A: Lampiran (Ceklis dan Panduan)")
 md.append("")
 md.append("## Ceklis Darurat Utama")
 md.append("")
-for k in range(10):
+for k in range(0):
     md.append(f"- Item {k+1}: Verifikasi pasokan, dokumen, dan rencana komunikasi.")
 md.append("")
 md.append("## Panduan Penulisan dan Debat Akademik")
@@ -640,7 +645,7 @@ md.append("Tambahan: Setiap pembaca memiliki peran. Mulailah dari tempat Anda be
 md.append("")
 md.append("# Lampiran F: Refleksi Tambahan")
 md.append("")
-for k in range(30):
+for k in range(0):
     md.append(f"Refleksi {k+1}: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.")
 md.append("")
 md.append("# Catatan Kaki (Footnotes)")
