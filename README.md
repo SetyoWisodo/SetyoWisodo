@@ -4,7 +4,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&pause=1000&color=3B82F6&center=true&vCenter=true&width=720&lines=Halo%2C+Saya+Setyo+Wisodo+%F0%9F%91%8B;AI+Developer+%E2%80%A2+Product+Manager+%E2%80%A2+Marketing+Strategist;Membangun+Produk+Berbasis+AI+yang+Bertumbuh+%26+Berdampak" alt="Typing SVG" />
 
   <h1>👋 Halo, Saya Setyo Wisodo</h1>
-  <p><b>🤖 AI Development &nbsp;|&nbsp; 📋 Product Management &nbsp;|&nbsp; 📈 Digital & Growth Marketing</b></p>
+  <p><b>🤖 AI Development &nbsp;|&nbsp; 📋 Product Management &nbsp;|&nbsp; 📊 Digital & Growth Marketing</b></p>
 
   <p>
     <a href="https://github.com/SetyoWisodo">
@@ -27,7 +27,7 @@ Halo! Saya **Setyo Wisodo**, seorang profesional yang menggabungkan keahlian tek
 
 - 🤖 **Pengembangan AI:** Merancang dan mengintegrasikan solusi *Artificial Intelligence*, *Generative AI / LLM*, serta otomasi cerdas ke dalam produk nyata.
 - 📋 **Product Management:** Mengelola siklus hidup produk dari riset pengguna, perumusan strategi & *roadmap*, hingga peluncuran produk (*end-to-end execution*).
-- 📈 **Pemasaran & Pertumbuhan (*Growth*):** Menyusun strategi *Go-To-Market (GTM)*, akuisisi pengguna, *digital marketing*, dan optimasi pertumbuhan bisnis.
+- 📊 **Pemasaran & Pertumbuhan (*Growth*):** Menyusun strategi *Go-To-Market (GTM)*, akuisisi pengguna, *digital marketing*, dan optimasi pertumbuhan bisnis.
 - 👯 **Terbuka untuk kolaborasi:** Proyek inovasi AI, pengembangan produk *startup*/digital, dan strategi pertumbuhan pasar.
 - 📍 **Lokasi:** Indonesia 🇮🇩
 
@@ -57,7 +57,7 @@ Halo! Saya **Setyo Wisodo**, seorang profesional yang menggabungkan keahlian tek
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h4 align="center">📈 Pemasaran<br/>(Digital & Growth Marketing)</h4>
+      <h4 align="center">📊 Pemasaran<br/>(Digital & Growth Marketing)</h4>
       <ul>
         <li><b>Go-To-Market (GTM):</b> Strategi peluncuran produk & penetrasi pasar</li>
         <li><b>Growth & Funnel Optimization:</b> Akuisisi, retensi, dan konversi pengguna berbasis data</li>
@@ -88,7 +88,7 @@ Halo! Saya **Setyo Wisodo**, seorang profesional yang menggabungkan keahlian tek
 <p>
   <img src="https://img.shields.io/badge/GPT%20Researcher-Deep%20Research-3B82F6?style=for-the-badge&logo=github&logoColor=white" alt="GPT Researcher" />
   <img src="https://img.shields.io/badge/Open%20Deep%20Research-LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="Open Deep Research" />
-  <img src="https://img.shields.io/badge/STORM-Stanford-8C1515?style=for-the-badge&logo=github&logoColor=white" alt="STORM" />
+  <img src="https://img.shields.io/badge/STORM-Stanford-3B82F6?style=for-the-badge&logo=github&logoColor=white" alt="STORM" />
   <img src="https://img.shields.io/badge/NVIDIA-Deep%20Researcher-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Deep Researcher" />
   <img src="https://img.shields.io/badge/Tongyi-DeepResearch-FF6A00?style=for-the-badge&logo=alibaba&logoColor=white" alt="Tongyi DeepResearch" />
   <img src="https://img.shields.io/badge/Vane-AI%20Search-6366F1?style=for-the-badge&logo=search&logoColor=white" alt="Vane" />
@@ -106,7 +106,7 @@ Halo! Saya **Setyo Wisodo**, seorang profesional yang menggabungkan keahlian tek
   <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack" />
 </p>
 
-#### 📈 Marketing, Growth & Analytics
+#### 📊 Marketing, Growth & Analytics
 <p>
   <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Google Analytics" />
   <img src="https://img.shields.io/badge/Google%20Ads-4285F4?style=for-the-badge&logo=googleads&logoColor=white" alt="Google Ads" />
@@ -135,7 +135,7 @@ Kumpulan *deep research agent* dan *AI research tool* yang saya eksplorasi, inte
 <p align="center">
   <a href="https://github.com/assafelovic/gpt-researcher"><img src="https://img.shields.io/badge/GPT%20Researcher-Deep%20Research-3B82F6?style=for-the-badge&logo=github&logoColor=white" alt="GPT Researcher" /></a>
   <a href="https://github.com/langchain-ai/open_deep_research"><img src="https://img.shields.io/badge/Open%20Deep%20Research-LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="Open Deep Research" /></a>
-  <a href="https://github.com/stanford-oval/storm"><img src="https://img.shields.io/badge/STORM-Stanford-8C1515?style=for-the-badge&logo=stanford&logoColor=white" alt="STORM" /></a>
+  <a href="https://github.com/stanford-oval/storm"><img src="https://img.shields.io/badge/STORM-Stanford-3B82F6?style=for-the-badge&logo=stanford&logoColor=white" alt="STORM" /></a>
   <a href="https://github.com/NVIDIA-AI-Blueprints/deep-researcher-agent"><img src="https://img.shields.io/badge/NVIDIA-Deep%20Researcher-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA Deep Researcher" /></a>
   <a href="https://github.com/Alibaba-NLP/DeepResearch"><img src="https://img.shields.io/badge/Tongyi-DeepResearch-FF6A00?style=for-the-badge&logo=alibaba&logoColor=white" alt="Tongyi DeepResearch" /></a>
   <a href="https://github.com/ItzCrazyKns/Vane"><img src="https://img.shields.io/badge/Vane-AI%20Search-6366F1?style=for-the-badge&logo=search&logoColor=white" alt="Vane" /></a>
@@ -147,14 +147,7 @@ Kumpulan *deep research agent* dan *AI research tool* yang saya eksplorasi, inte
 
 ### 📊 Statistik GitHub (GitHub Analytics)
 
-<div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=SetyoWisodo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="SetyoWisodo GitHub Stats" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SetyoWisodo&layout=compact&langs_count=6&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=SetyoWisodo&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
+Statistik GitHub tersedia di profil: [github.com/SetyoWisodo](https://github.com/SetyoWisodo).
 
 ---
 
