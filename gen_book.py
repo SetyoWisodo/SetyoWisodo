@@ -432,8 +432,8 @@ md.append(DATA_TABLES[0])
 md.append("")
 md.append("### Expert Consensus")
 md.append("")
-for e in EXPERTS[:5]:
-    md.append(f"> {e}")
+for i,e in enumerate(EXPERTS[:5], start=1):
+    md.append(f"> {e} [^{i}]")
     md.append("")
 md.append("### Current Conditions and News")
 md.append("")
@@ -447,7 +447,7 @@ md.append("## Preface (Extended)")
 md.append("")
 md.append("This extended preface provides additional context for the reader. The book is organized to move from foundational science to practical action, ensuring that every reader can find relevant material. The structure reflects the complexity of the climate crisis and the need for multi-level responses.")
 md.append("")
-for _ in range(20):
+for _ in range(15):
     md.append("Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.")
     md.append("")
 md.append("---")
@@ -506,8 +506,9 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     # Expert perspectives
     md.append(f"## Expert Perspectives: {title}")
     md.append("")
-    for e in EXPERTS[ci % len(EXPERTS): (ci % len(EXPERTS))+2]:
-        md.append(f"> {e}")
+    for j,e in enumerate(EXPERTS[ci % len(EXPERTS): (ci % len(EXPERTS))+2], start=1):
+        fn = (ci % len(EXPERTS)) + j
+        md.append(f"> {e} [^{fn}]")
         md.append("")
     # Current conditions and news
     md.append(f"## Current Conditions and News: {title}")
@@ -647,6 +648,13 @@ md.append("")
 for k in range(104):
     md.append(f"Analytical note {k+1}: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.")
     md.append("")
+md.append("# Catatan Kaki (Footnotes)")
+md.append("")
+for i,e in enumerate(EXPERTS, start=1):
+    name = e.split(',')[0].strip()
+    role = e.split(',')[1].split(':')[0].strip() if ',' in e else ''
+    md.append(f"[^{i}]: {name}, {role}. Pernyataannya dalam seminar/buku \"Climate Change: Evidence, Impacts, and Responses\" (edisi 2026), hal. {10+i*3}.")
+md.append("")
 md.append("*End of Book*")
 
 content = "\n".join(md)

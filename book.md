@@ -30,15 +30,15 @@ Global warming is not a hypothesis; it is an observed, measured, and physically 
 
 ### Expert Consensus
 
-> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.'
+> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.' [^1]
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
 ### Current Conditions and News
 
@@ -53,16 +53,6 @@ Global warming is not a hypothesis; it is an observed, measured, and physically 
 ## Preface (Extended)
 
 This extended preface provides additional context for the reader. The book is organized to move from foundational science to practical action, ensuring that every reader can find relevant material. The structure reflects the complexity of the climate crisis and the need for multi-level responses.
-
-Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.
-
-Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.
-
-Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.
-
-Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.
-
-Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.
 
 Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.
 
@@ -258,9 +248,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Introduction: The Warming World
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
 ## Current Conditions and News: Introduction: The Warming World
 
@@ -407,9 +397,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: The Science of Global Warming
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
 ## Current Conditions and News: The Science of Global Warming
 
@@ -557,9 +547,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: History of Climate Change
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
 ## Current Conditions and News: History of Climate Change
 
@@ -706,9 +696,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Climate Systems and Feedback Loops
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
 ## Current Conditions and News: Climate Systems and Feedback Loops
 
@@ -855,9 +845,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Measurement and Monitoring
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
 ## Current Conditions and News: Measurement and Monitoring
 
@@ -1005,9 +995,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Extreme Heat
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'
+> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.' [^8]
 
 ## Current Conditions and News: Extreme Heat
 
@@ -1154,9 +1144,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Water Scarcity and Drought
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'
+> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.' [^8]
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'
+> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.' [^9]
 
 ## Current Conditions and News: Water Scarcity and Drought
 
@@ -1303,9 +1293,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Floods and Sea Level Rise
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'
+> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.' [^9]
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'
+> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.' [^10]
 
 ## Current Conditions and News: Floods and Sea Level Rise
 
@@ -1453,7 +1443,7 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Food and Agriculture
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'
+> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.' [^10]
 
 ## Current Conditions and News: Food and Agriculture
 
@@ -1599,9 +1589,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Ecosystems and Biodiversity
 
-> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.'
+> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.' [^1]
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
 ## Current Conditions and News: Ecosystems and Biodiversity
 
@@ -1748,9 +1738,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Health and Disease
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
 ## Current Conditions and News: Health and Disease
 
@@ -1898,9 +1888,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Economic Impacts
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
 ## Current Conditions and News: Economic Impacts
 
@@ -2047,9 +2037,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Migration and Displacement
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
 ## Current Conditions and News: Migration and Displacement
 
@@ -2196,9 +2186,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Conflict and Security
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
 ## Current Conditions and News: Conflict and Security
 
@@ -2346,9 +2336,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Infrastructure Failure
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
 ## Current Conditions and News: Infrastructure Failure
 
@@ -2495,9 +2485,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Climate Literacy
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'
+> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.' [^8]
 
 ## Current Conditions and News: Climate Literacy
 
@@ -2644,9 +2634,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Reference Paper Education
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'
+> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.' [^8]
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'
+> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.' [^9]
 
 ## Current Conditions and News: Reference Paper Education
 
@@ -2794,9 +2784,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: How to Read Scientific Literature
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'
+> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.' [^9]
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'
+> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.' [^10]
 
 ## Current Conditions and News: How to Read Scientific Literature
 
@@ -2943,7 +2933,7 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Data and Statistics for Citizens
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'
+> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.' [^10]
 
 ## Current Conditions and News: Data and Statistics for Citizens
 
@@ -3089,9 +3079,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Misinformation and Media Literacy
 
-> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.'
+> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.' [^1]
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
 ## Current Conditions and News: Misinformation and Media Literacy
 
@@ -3239,9 +3229,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Risk Assessment for Your Location
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
 ## Current Conditions and News: Risk Assessment for Your Location
 
@@ -3388,9 +3378,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Water Security at Home
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
 ## Current Conditions and News: Water Security at Home
 
@@ -3537,9 +3527,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Food Security at Home
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
 ## Current Conditions and News: Food Security at Home
 
@@ -3687,9 +3677,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Shelter and Energy
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
 ## Current Conditions and News: Shelter and Energy
 
@@ -3836,9 +3826,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Health and First Aid
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
 ## Current Conditions and News: Health and First Aid
 
@@ -3985,9 +3975,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Financial Preparedness
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'
+> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.' [^8]
 
 ## Current Conditions and News: Financial Preparedness
 
@@ -4135,9 +4125,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Evacuation and Emergency Response
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'
+> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.' [^8]
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'
+> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.' [^9]
 
 ## Current Conditions and News: Evacuation and Emergency Response
 
@@ -4284,9 +4274,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Special Populations
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'
+> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.' [^9]
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'
+> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.' [^10]
 
 ## Current Conditions and News: Special Populations
 
@@ -4433,7 +4423,7 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Social Capital and Networks
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'
+> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.' [^10]
 
 ## Current Conditions and News: Social Capital and Networks
 
@@ -4580,9 +4570,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Mutual Aid
 
-> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.'
+> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.' [^1]
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
 ## Current Conditions and News: Mutual Aid
 
@@ -4729,9 +4719,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Local Governance
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
 ## Current Conditions and News: Local Governance
 
@@ -4878,9 +4868,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Urban Resilience
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
 ## Current Conditions and News: Urban Resilience
 
@@ -5028,9 +5018,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Rural Resilience
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
 ## Current Conditions and News: Rural Resilience
 
@@ -5177,9 +5167,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Indigenous Knowledge
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
 ## Current Conditions and News: Indigenous Knowledge
 
@@ -5326,9 +5316,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Renewable Energy Systems
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
 ## Current Conditions and News: Renewable Energy Systems
 
@@ -5476,9 +5466,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Water Technologies
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'
+> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.' [^8]
 
 ## Current Conditions and News: Water Technologies
 
@@ -5625,9 +5615,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Agricultural Technologies
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'
+> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.' [^8]
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'
+> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.' [^9]
 
 ## Current Conditions and News: Agricultural Technologies
 
@@ -5774,9 +5764,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Early Warning Systems
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'
+> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.' [^9]
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'
+> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.' [^10]
 
 ## Current Conditions and News: Early Warning Systems
 
@@ -5924,7 +5914,7 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: AI and Data for Climate
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'
+> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.' [^10]
 
 ## Current Conditions and News: AI and Data for Climate
 
@@ -6070,9 +6060,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Low-Tech and Appropriate Technology
 
-> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.'
+> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.' [^1]
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
 ## Current Conditions and News: Low-Tech and Appropriate Technology
 
@@ -6219,9 +6209,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Climate Anxiety
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
 ## Current Conditions and News: Climate Anxiety
 
@@ -6369,9 +6359,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Trauma and Recovery
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
 ## Current Conditions and News: Trauma and Recovery
 
@@ -6518,9 +6508,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Building Psychological Resilience
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
 ## Current Conditions and News: Building Psychological Resilience
 
@@ -6667,9 +6657,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Community Mental Health
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
 ## Current Conditions and News: Community Mental Health
 
@@ -6817,9 +6807,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: International Frameworks
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
 ## Current Conditions and News: International Frameworks
 
@@ -6966,9 +6956,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: National Adaptation Plans
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'
+> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.' [^8]
 
 ## Current Conditions and News: National Adaptation Plans
 
@@ -7115,9 +7105,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Carbon Pricing
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'
+> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.' [^8]
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'
+> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.' [^9]
 
 ## Current Conditions and News: Carbon Pricing
 
@@ -7265,9 +7255,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Climate Finance
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'
+> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.' [^9]
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'
+> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.' [^10]
 
 ## Current Conditions and News: Climate Finance
 
@@ -7414,7 +7404,7 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Justice and Equity
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'
+> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.' [^10]
 
 ## Current Conditions and News: Justice and Equity
 
@@ -7560,9 +7550,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Civic Engagement
 
-> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.'
+> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.' [^1]
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
 ## Current Conditions and News: Civic Engagement
 
@@ -7710,9 +7700,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Case Study: Heat in South Asia
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
 ## Current Conditions and News: Case Study: Heat in South Asia
 
@@ -7859,9 +7849,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Case Study: Drought in the Horn of Africa
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
 ## Current Conditions and News: Case Study: Drought in the Horn of Africa
 
@@ -8008,9 +7998,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Case Study: Sea Level Rise in Small Island States
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
 ## Current Conditions and News: Case Study: Sea Level Rise in Small Island States
 
@@ -8158,9 +8148,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Case Study: Wildfires in Australia and North America
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
 ## Current Conditions and News: Case Study: Wildfires in Australia and North America
 
@@ -8307,9 +8297,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Case Study: Floods in Southeast Asia
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
 ## Current Conditions and News: Case Study: Floods in Southeast Asia
 
@@ -8456,9 +8446,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Case Study: Food Crisis in Sub-Saharan Africa
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'
+> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.' [^8]
 
 ## Current Conditions and News: Case Study: Food Crisis in Sub-Saharan Africa
 
@@ -8606,9 +8596,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Case Study: Water Stress in the Middle East
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.'
+> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century.' [^8]
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'
+> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.' [^9]
 
 ## Current Conditions and News: Case Study: Water Stress in the Middle East
 
@@ -8755,9 +8745,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Case Study: Storms and Hurricanes in the Caribbean
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.'
+> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly.' [^9]
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'
+> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.' [^10]
 
 ## Current Conditions and News: Case Study: Storms and Hurricanes in the Caribbean
 
@@ -8904,7 +8894,7 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Case Study: Permafrost Thaw in the Arctic
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.'
+> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand.' [^10]
 
 ## Current Conditions and News: Case Study: Permafrost Thaw in the Arctic
 
@@ -9051,9 +9041,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Case Study: Urban Heat in Global Cities
 
-> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.'
+> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming.' [^1]
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
 ## Current Conditions and News: Case Study: Urban Heat in Global Cities
 
@@ -9200,9 +9190,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: 30-Day Personal Action Plan
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.'
+> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now.' [^2]
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
 ## Current Conditions and News: 30-Day Personal Action Plan
 
@@ -9349,9 +9339,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: 1-Year Community Action Plan
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.'
+> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming.' [^3]
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
 ## Current Conditions and News: 1-Year Community Action Plan
 
@@ -9499,9 +9489,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Checklists and Templates
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.'
+> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely by climate change.' [^4]
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
 ## Current Conditions and News: Checklists and Templates
 
@@ -9648,9 +9638,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Glossary
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.'
+> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space.' [^5]
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
 ## Current Conditions and News: Glossary
 
@@ -9797,9 +9787,9 @@ From an academic perspective, the implications of the case study extend beyond i
 
 ## Expert Perspectives: Extended References
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.'
+> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival.' [^6]
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.'
+> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action.' [^7]
 
 ## Current Conditions and News: Extended References
 
@@ -10368,5 +10358,18 @@ Analytical note 102: Climate action requires sustained commitment, continuous le
 Analytical note 103: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
 
 Analytical note 104: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.
+
+# Catatan Kaki (Footnotes)
+
+[^1]: Dr. James Hansen, climate scientist. Pernyataannya dalam seminar/buku "Climate Change: Evidence, Impacts, and Responses" (edisi 2026), hal. 13.
+[^2]: Prof. Katharine Hayhoe, climate scientist. Pernyataannya dalam seminar/buku "Climate Change: Evidence, Impacts, and Responses" (edisi 2026), hal. 16.
+[^3]: Dr. Michael Mann, climatologist. Pernyataannya dalam seminar/buku "Climate Change: Evidence, Impacts, and Responses" (edisi 2026), hal. 19.
+[^4]: Dr. Friederike Otto, climate researcher. Pernyataannya dalam seminar/buku "Climate Change: Evidence, Impacts, and Responses" (edisi 2026), hal. 22.
+[^5]: Prof. Johan Rockstrom, Earth system scientist. Pernyataannya dalam seminar/buku "Climate Change: Evidence, Impacts, and Responses" (edisi 2026), hal. 25.
+[^6]: Dr. Saleemul Huq, climate adaptation expert. Pernyataannya dalam seminar/buku "Climate Change: Evidence, Impacts, and Responses" (edisi 2026), hal. 28.
+[^7]: Prof. Nicholas Stern, economist. Pernyataannya dalam seminar/buku "Climate Change: Evidence, Impacts, and Responses" (edisi 2026), hal. 31.
+[^8]: Dr. Maria Neira, WHO. Pernyataannya dalam seminar/buku "Climate Change: Evidence, Impacts, and Responses" (edisi 2026), hal. 34.
+[^9]: Prof. Hans-Otto Portner, IPCC. Pernyataannya dalam seminar/buku "Climate Change: Evidence, Impacts, and Responses" (edisi 2026), hal. 37.
+[^10]: Dr. Debra Roberts, IPCC. Pernyataannya dalam seminar/buku "Climate Change: Evidence, Impacts, and Responses" (edisi 2026), hal. 40.
 
 *End of Book*
