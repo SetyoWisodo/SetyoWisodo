@@ -1,0 +1,243 @@
+{
+  "slug": "Surviving_the_Future_EN",
+  "title": "Surviving the Future",
+  "subtitle": "Crisis, Climate, and Human Resilience",
+  "author": "Setyo Wisodo",
+  "year": "2026",
+  "publisher": "Independently published · Indonesia",
+  "contents_label": "Contents",
+  "index_label": "Index",
+  "dedication": "For the communities on every coastline, floodplain and hillside who are already adapting — and for the children who will inherit what we build.",
+  "keywords": [
+    "climate change",
+    "global warming",
+    "resilience",
+    "adaptation",
+    "disaster preparedness",
+    "Indonesia",
+    "Southeast Asia",
+    "climate policy"
+  ],
+  "copyright": {
+    "rights_short": "Copyright © 2026 Setyo Wisodo. All rights reserved.",
+    "lines": [
+      "_Surviving the Future: Crisis, Climate, and Human Resilience_",
+      "Copyright © 2026 Setyo Wisodo. All rights reserved.",
+      "No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means — electronic, mechanical, photocopying, recording or otherwise — without the prior written permission of the author, except for brief quotations in reviews and certain other non-commercial uses permitted by copyright law.",
+      "First edition, 2026.",
+      "ISBN (paperback): ______________________ \\\nISBN (ebook): ______________________",
+      "Data in this book reflect published sources available up to mid-2026. Climate science and statistics are updated regularly; readers are encouraged to consult the primary sources listed in the References.",
+      "_Disclaimer._ This book provides general educational information. It is not a substitute for professional medical, financial, legal or engineering advice, nor for instructions from official emergency authorities. In an emergency in Indonesia, call 112.",
+      "Typeset in Source Serif 4 and Source Sans 3 (SIL Open Font License). Cover illustration created for this edition.",
+      "Independently published · Indonesia"
+    ]
+  },
+  "back_cover": {
+    "headline": "The warming is certain. How we live through it is not.",
+    "paragraphs": [
+      "The world has already warmed by about 1.4 °C, 2024 was the hottest year ever measured, and the carbon budget for 1.5 °C is almost spent. Heat waves, floods, droughts, disease and displacement are no longer forecasts — they are the conditions of daily life for hundreds of millions of people.",
+      "*Surviving the Future* is a clear, evidence-based guide to the century ahead. Drawing on the IPCC, the World Meteorological Organization, the Lancet Countdown and research from Indonesia and Southeast Asia, it explains what is happening, what is coming, and — above all — what individuals, families and communities can do to stay safe, healthy and secure."
+    ],
+    "bullets": [
+      "The science of warming, without jargon",
+      "Indonesia and Southeast Asia on the front line",
+      "Practical plans for heat, floods, water, food, health and money",
+      "Community resilience, mental health and climate justice"
+    ],
+    "about": "Setyo Wisodo works at the intersection of artificial intelligence, product management and growth strategy in Indonesia, building technology that helps people make better decisions."
+  },
+  "index_terms": [
+    [
+      "adaptation",
+      "(?i)\\badaptation\\b"
+    ],
+    [
+      "aerosols",
+      "(?i)\\baerosols?\\b"
+    ],
+    [
+      "attribution science",
+      "(?i)\\battribution\\b"
+    ],
+    [
+      "BMKG",
+      "\\bBMKG\\b"
+    ],
+    [
+      "BNPB",
+      "\\bBNPB\\b"
+    ],
+    [
+      "carbon budget",
+      "(?i)\\bcarbon budget\\b"
+    ],
+    [
+      "carbon pricing",
+      "(?i)\\bcarbon (pricing|tax|price)\\b"
+    ],
+    [
+      "climate anxiety",
+      "(?i)\\bclimate anxiety\\b"
+    ],
+    [
+      "climate finance",
+      "(?i)\\bclimate finance\\b"
+    ],
+    [
+      "coral reefs",
+      "(?i)\\bcoral\\b"
+    ],
+    [
+      "dengue",
+      "(?i)\\bdengue\\b"
+    ],
+    [
+      "drought",
+      "(?i)\\bdroughts?\\b"
+    ],
+    [
+      "early warning",
+      "(?i)\\bearly warnings?\\b"
+    ],
+    [
+      "El Niño",
+      "El Niño"
+    ],
+    [
+      "emergency kit",
+      "(?i)\\b(emergency|go-)(kit|bag)s?\\b"
+    ],
+    [
+      "evacuation",
+      "(?i)\\bevacuat(e|ion|ions)\\b"
+    ],
+    [
+      "fires and haze",
+      "(?i)\\bhaze\\b"
+    ],
+    [
+      "flooding",
+      "(?i)\\bfloods?\\b|\\bflooding\\b"
+    ],
+    [
+      "food security",
+      "(?i)\\bfood security\\b"
+    ],
+    [
+      "gotong royong",
+      "(?i)gotong royong"
+    ],
+    [
+      "greenhouse effect",
+      "(?i)\\bgreenhouse effect\\b"
+    ],
+    [
+      "groundwater",
+      "(?i)\\bgroundwater\\b"
+    ],
+    [
+      "heat stroke",
+      "(?i)\\bheat ?stroke\\b"
+    ],
+    [
+      "heat waves",
+      "(?i)\\bheat ?waves?\\b"
+    ],
+    [
+      "insurance",
+      "(?i)\\binsurance\\b"
+    ],
+    [
+      "IPCC",
+      "\\bIPCC\\b"
+    ],
+    [
+      "Jakarta",
+      "\\bJakarta\\b"
+    ],
+    [
+      "JETP",
+      "\\bJETP\\b"
+    ],
+    [
+      "land subsidence",
+      "(?i)\\bsubsidence\\b"
+    ],
+    [
+      "loss and damage",
+      "(?i)\\bloss and damage\\b"
+    ],
+    [
+      "mangroves",
+      "(?i)\\bmangroves?\\b"
+    ],
+    [
+      "mental health",
+      "(?i)\\bmental health\\b"
+    ],
+    [
+      "migration",
+      "(?i)\\bmigration\\b"
+    ],
+    [
+      "misinformation",
+      "(?i)\\bmisinformation\\b"
+    ],
+    [
+      "mutual aid",
+      "(?i)\\bmutual aid\\b"
+    ],
+    [
+      "NDC",
+      "\\bNDCs?\\b"
+    ],
+    [
+      "Paris Agreement",
+      "Paris Agreement"
+    ],
+    [
+      "peatlands",
+      "(?i)\\bpeat(lands?)?\\b"
+    ],
+    [
+      "psychological first aid",
+      "(?i)\\bpsychological first aid\\b"
+    ],
+    [
+      "rice",
+      "(?i)\\brice\\b"
+    ],
+    [
+      "sea-level rise",
+      "(?i)\\bsea[- ]level\\b"
+    ],
+    [
+      "Simeulue",
+      "Simeulue"
+    ],
+    [
+      "smong",
+      "(?i)\\bsmong\\b"
+    ],
+    [
+      "solar power",
+      "(?i)\\bsolar\\b"
+    ],
+    [
+      "tipping points",
+      "(?i)\\btipping points?\\b"
+    ],
+    [
+      "urban heat island",
+      "(?i)\\burban heat island\\b"
+    ],
+    [
+      "wet-bulb temperature",
+      "(?i)\\bwet-bulb\\b"
+    ],
+    [
+      "Wolbachia",
+      "Wolbachia"
+    ]
+  ]
+}
