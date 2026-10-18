@@ -145,6 +145,29 @@ Kumpulan *deep research agent* dan *AI research tool* yang saya eksplorasi, inte
 
 ---
 
+### 📚 Buku (Book)
+
+<div align="center">
+
+  <img src="book/publish/Bertahan_Hidup_di_Masa_Depan_ID_cover_front.jpg" alt="Sampul Bertahan Hidup di Masa Depan" width="180">
+  &nbsp;&nbsp;
+  <img src="book/publish/Surviving_the_Future_EN_cover_front.jpg" alt="Surviving the Future cover" width="180">
+
+</div>
+
+**Bertahan Hidup di Masa Depan: Krisis, Iklim, dan Resiliensi Manusia** (edisi Indonesia) dan
+**Surviving the Future: Crisis, Climate, and Human Resilience** (edisi Inggris). Buku ini adalah panduan
+praktis berbasis bukti tentang perubahan iklim bagi keluarga dan komunitas, dengan fokus pada Indonesia dan Asia Tenggara.
+
+[![PDF ID](https://img.shields.io/badge/PDF-Edisi%20Indonesia-0F766E?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](book/publish/Bertahan_Hidup_di_Masa_Depan_ID_interior.pdf)
+[![PDF EN](https://img.shields.io/badge/PDF-English%20Edition-1D4ED8?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](book/publish/Surviving_the_Future_EN_interior.pdf)
+[![EPUB](https://img.shields.io/badge/EPUB-ID%20%7C%20EN-6D28D9?style=for-the-badge&logo=bookstack&logoColor=white)](book/publish/)
+
+File siap terbit (interior PDF 6×9 inci, sampul cetak lengkap dengan punggung buku, EPUB, DOCX) beserta
+cara build-nya ada di [`book/`](book/README.md).
+
+---
+
 ### 📊 Statistik GitHub (GitHub Analytics)
 
 Statistik GitHub tersedia di profil: [github.com/SetyoWisodo](https://github.com/SetyoWisodo).
