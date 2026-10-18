@@ -145,6 +145,65 @@ Kumpulan *deep research agent* dan *AI research tool* yang saya eksplorasi, inte
 
 ---
 
+### 🚀 Digital Product Skills — Powered by Deep Research
+
+> **Membangun Produk Digital Berbasis Riset Otomatis — dari riset mendalam → sintesis → produk siap jual.**
+
+Saya menerjemahkan 8 *deep research stacks* di atas menjadi **skill produk digital yang terukur** — siap diintegrasikan ke dalam *SaaS, marketplace riset, knowledge product, dan workflow enterprise*. Fokus: **automation, cited accuracy, scalability, dan monetization.**
+
+#### 🧩 Skill Matrix — Dari Tool ke Produk
+
+| # | Skill Produk Digital | Core Stack | Use Case Produk | Nilai Bisnis |
+|---|---|---|---|---|
+| 1 | **Autonomous Research Pipeline** | `GPT Researcher` — planner + execution agents, Jev decision models, multi-agent, recursive deep research | *Research-as-a-Service*, laporan otomatis dengan sitasi untuk UMKM, startup, media | ⚡ 10x lebih cepat, biaya riset -80%, laporan faktual siap jual |
+| 2 | **LangGraph Orchestration & Evals** | `Open Deep Research` — LangChain/LangGraph, think-tool, supervisor, MCP, eval bench | Workflow riset custom (paralel tool-call, exit-condition, supervisor-iter), eval-driven optimization | 🧠 Evaluasi kualitas, skalabilitas, integrasi ke stack LangChain enterprise |
+| 3 | **Multi-Perspective Knowledge Curation** | `STORM` — Outline + Retriever + Multi-perspective Q&A, Co-STORM human-AI collab | Generator buku/artikel panjang, Wikipedia-style drafts, kurikulum & courseware | 📚 Struktur topik komprehensif, kolaborasi manusia-AI, sitasi lengkap |
+| 4 | **Enterprise Trusted Insights** | `NVIDIA Deep Researcher` — NeMo Toolkit, LangChain Deep Agents, secure enterprise connectors | Insight bisnis terpercaya, konektor data enterprise, agent blueprint untuk korporat | 🏢 Keamanan enterprise, reasoning SOTA, deliver insight yang dapat diaudit |
+| 5 | **Cost-Efficient MoE Research Agent** | `Tongyi DeepResearch` — 30B MoE (A3B active), WebAgent + Agent, RL-trained | Riset skala besar hemat biaya, alternatif proprietary Deep Research | 💰 Open-source, setara proprietary, 30B MoE hemat compute |
+| 6 | **Private Answering Engine** | `Vane` — Self-hosted SearXNG, iterative deep research, Next.js + Drizzle, Docker | Private search engine, knowledge base internal, produk white-label tanpa ketergantungan vendor | 🔒 Data sovereignty, deep research iteratif, self-hosted |
+| 7 | **Human-Mind Search Framework** | `MindSearch` — Planner + Searcher multi-agent, mSDR, mimicking human mind | Mesin pencari ala Perplexity Pro / SearchGPT, deep search untuk e-commerce & edu | 🔍 Kedalaman pencarian web multi-agent, UI ringan, API siap produk |
+| 8 | **LLM Workspace & Deployment** | `Open WebUI` — Ollama/OpenAI, pipelines, tools, RAG, 19k+ commits ecosystem | Unified AI workspace, marketplace tools, on-prem LLM gateway untuk tim | 🖥️ UX ramah, multi-model, ekstensi pipeline & fungsi |
+
+#### 🏗️ Arsitektur Produk — End-to-End
+
+```mermaid
+flowchart LR
+    A[User Query / Brief] --> B{Open WebUI<br/>Gateway}
+    B --> C[GPT Researcher<br/>Planner + Executer]
+    B --> D[Open Deep Research<br/>LangGraph Supervisor]
+    B --> E[STORM<br/>Outline + Perspectives]
+    C --> F[Vane / MindSearch<br/>Private + Web Search]
+    D --> F
+    E --> F
+    F --> G[NVIDIA Agent<br/>Enterprise Reasoning]
+    G --> H[Tongyi MoE 30B<br/>Cost-Efficient Synthesis]
+    H --> I[Cited Report<br/>PDF / EPUB / Dashboard]
+    I --> J[Go-to-Market<br/>SaaS / API / Marketplace]
+```
+
+**Stack Integrasi:** `Python • Typst • Next.js • Docker • LangGraph • NeMo • RAG • SearXNG • Ollama • pypandoc` — semua sudah saya *build, deploy, dan monetize* di repo ini (`book/build.py` → interior PDF/EPUB/DOCX + cover).
+
+#### 💼 Produk Digital yang Sudah Dibangun
+
+| Produk | Stack Utama | Output | Status |
+|---|---|---|---|
+| **Surviving the Future — EN/ID Book Product** | STORM-style outline + GPT Researcher eval loop + Typst pipeline | Interior PDF 149/153 hal, Cover print, EPUB, DOCX (book/publish/) | ✅ Live — 374 hal legacy + 149/153 hal Typst edition |
+| **Auto-Research API** | GPT Researcher + Open Deep Research + Vane | JSON + Markdown + citated report via REST | 🔧 In integration |
+| **Private Knowledge Hub** | Vane + Open WebUI + MindSearch | Self-hosted search + RAG untuk tim/komunitas | 🔧 Deploy via Docker |
+| **Enterprise Insight Dashboard** | NVIDIA Blueprint + Tongyi MoE | Slide + insight terverifikasi untuk decision maker | 🧪 Prototype |
+
+#### 🎯 Skill Penerapan — Product × Growth
+
+- **Product Discovery:** Riset pasar otomatis dengan cited sources → validasi *product-market fit* 3x lebih cepat.
+- **Roadmapping:** Outline STORM → PRD modular → backlog Jira/Notion otomatis.
+- **Content & SEO Engine:** Laporan riset → artikel SEO → distribusi multi-channel (growth loop).
+- **Monetization:** Laporan premium, API research, white-label engine untuk B2B.
+- **Measurement:** Eval bench (Deep Research Bench) + analytics untuk iterasi kualitas.
+
+> **Ingin kolaborasi?** Saya membuka *joint product* untuk: *research SaaS, edtech courseware, media intelligence, dan enterprise knowledge system*. Hubungi via GitHub / LinkedIn — mari ubah riset menjadi produk yang tumbuh & berdampak. 🚀
+
+---
+
 ### 📊 Statistik GitHub (GitHub Analytics)
 
 Statistik GitHub tersedia di profil: [github.com/SetyoWisodo](https://github.com/SetyoWisodo).
