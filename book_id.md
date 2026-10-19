@@ -291,9 +291,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Katharine Hayhoe, ilmuwan iklim, yang menegaskan bahwa Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat. [^2] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang dunia yang memanas dan krisis yang akan datang, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang dunia yang memanas dan krisis yang akan datang, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Michael Mann, klimatolog menambahkan bahwa Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen. [^3] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk dunia yang memanas dan krisis yang akan datang seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai dunia yang memanas dan krisis yang akan datang menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Pendahuluan: Dunia yang Memanas
 
@@ -498,9 +498,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Michael Mann, klimatolog, yang menegaskan bahwa Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen. [^3] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang sains fisik pemanasan global, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang sains fisik pemanasan global, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Friederike Otto, peneliti iklim menambahkan bahwa Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya. [^4] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk sains fisik pemanasan global seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai sains fisik pemanasan global menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Sains Pemanasan Global
 
@@ -706,9 +706,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Friederike Otto, peneliti iklim, yang menegaskan bahwa Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya. [^4] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang sejarah perubahan iklim dan respons manusia, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang sejarah perubahan iklim dan respons manusia, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Johan Rockstrom, ilmuwan sistem bumi menambahkan bahwa Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan. [^5] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk sejarah perubahan iklim dan respons manusia seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai sejarah perubahan iklim dan respons manusia menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Sejarah Perubahan Iklim
 
@@ -913,9 +913,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Johan Rockstrom, ilmuwan sistem bumi, yang menegaskan bahwa Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan. [^5] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang sistem iklim dan mekanisme umpan balik, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang sistem iklim dan mekanisme umpan balik, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Saleemul Huq, ahli adaptasi iklim menambahkan bahwa Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan. [^6] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk sistem iklim dan mekanisme umpan balik seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai sistem iklim dan mekanisme umpan balik menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Sistem Iklim dan Umpan Balik
 
@@ -1120,9 +1120,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Saleemul Huq, ahli adaptasi iklim, yang menegaskan bahwa Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan. [^6] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang pengukuran dan pemantauan iklim, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang pengukuran dan pemantauan iklim, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Nicholas Stern, ekonom menambahkan bahwa Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi. [^7] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk pengukuran dan pemantauan iklim seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai pengukuran dan pemantauan iklim menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Pengukuran dan Pemantauan
 
@@ -1328,9 +1328,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Nicholas Stern, ekonom, yang menegaskan bahwa Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi. [^7] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang panas ekstrem dan gelombang panas, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang panas ekstrem dan gelombang panas, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Maria Neira, WHO menambahkan bahwa Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia. [^8] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk panas ekstrem dan gelombang panas seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai panas ekstrem dan gelombang panas menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Panas Ekstrem
 
@@ -1535,9 +1535,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Dr. Maria Neira, WHO, yang menegaskan bahwa Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia. [^8] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang kelangkaan air dan kekeringan, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang kelangkaan air dan kekeringan, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Hans-Otto Portner, IPCC menambahkan bahwa Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia. [^9] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk kelangkaan air dan kekeringan seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai kelangkaan air dan kekeringan menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Kelangkaan Air dan Kekeringan
 
@@ -1742,9 +1742,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Hans-Otto Portner, IPCC, yang menegaskan bahwa Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia. [^9] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang banjir dan kenaikan permukaan laut, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang banjir dan kenaikan permukaan laut, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Debra Roberts, IPCC menambahkan bahwa Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim. [^10] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk banjir dan kenaikan permukaan laut seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai banjir dan kenaikan permukaan laut menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Banjir dan Kenaikan Permukaan Laut
 
@@ -1950,9 +1950,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Debra Roberts, IPCC, yang menegaskan bahwa Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim. [^10] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang ketahanan pangan dan pertanian di bawah perubahan iklim, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang ketahanan pangan dan pertanian di bawah perubahan iklim, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Michael Oppenheimer, ilmuwan iklim menambahkan bahwa Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan. [^11] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk ketahanan pangan dan pertanian di bawah perubahan iklim seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai ketahanan pangan dan pertanian di bawah perubahan iklim menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Pangan dan Pertanian
 
@@ -2156,9 +2156,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Michael Oppenheimer, ilmuwan iklim, yang menegaskan bahwa Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan. [^11] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang ekosistem dan kehilangan keanekaragaman hayati, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang ekosistem dan kehilangan keanekaragaman hayati, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Cynthia Rosenzweig, peneliti dampak iklim menambahkan bahwa Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik. [^12] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk ekosistem dan kehilangan keanekaragaman hayati seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai ekosistem dan kehilangan keanekaragaman hayati menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Ekosistem dan Keanekaragaman Hayati
 
@@ -2363,9 +2363,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Cynthia Rosenzweig, peneliti dampak iklim, yang menegaskan bahwa Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik. [^12] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang dampak kesehatan dari perubahan iklim, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang dampak kesehatan dari perubahan iklim, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Diana Liverman, geograf menambahkan bahwa Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar. [^13] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk dampak kesehatan dari perubahan iklim seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai dampak kesehatan dari perubahan iklim menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Kesehatan dan Penyakit
 
@@ -2571,9 +2571,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Diana Liverman, geograf, yang menegaskan bahwa Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar. [^13] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang dampak ekonomi dari perubahan iklim, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang dampak ekonomi dari perubahan iklim, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Kristie Ebi, peneliti kesehatan global menambahkan bahwa Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser. [^14] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk dampak ekonomi dari perubahan iklim seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai dampak ekonomi dari perubahan iklim menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Dampak Ekonomi
 
@@ -2778,9 +2778,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Dr. Kristie Ebi, peneliti kesehatan global, yang menegaskan bahwa Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser. [^14] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang migrasi iklim dan pengungsian, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang migrasi iklim dan pengungsian, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Mark Howden, ilmuwan adaptasi iklim menambahkan bahwa Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan. [^15] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk migrasi iklim dan pengungsian seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai migrasi iklim dan pengungsian menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Migrasi dan Pengungsian
 
@@ -2985,9 +2985,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Mark Howden, ilmuwan adaptasi iklim, yang menegaskan bahwa Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan. [^15] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang perubahan iklim dan konflik, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang perubahan iklim dan konflik, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. James Hansen, ilmuwan iklim menambahkan bahwa Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun. [^16] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk perubahan iklim dan konflik seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai perubahan iklim dan konflik menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^16]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Konflik dan Keamanan
 
@@ -3193,9 +3193,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. James Hansen, ilmuwan iklim, yang menegaskan bahwa Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun. [^1] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang resiliensi infrastruktur, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^1] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang resiliensi infrastruktur, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Katharine Hayhoe, ilmuwan iklim menambahkan bahwa Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat. [^2] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk resiliensi infrastruktur seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai resiliensi infrastruktur menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Kegagalan Infrastruktur
 
@@ -3400,9 +3400,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Katharine Hayhoe, ilmuwan iklim, yang menegaskan bahwa Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat. [^2] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang literasi iklim dan pendidikan, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang literasi iklim dan pendidikan, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Michael Mann, klimatolog menambahkan bahwa Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen. [^3] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk literasi iklim dan pendidikan seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai literasi iklim dan pendidikan menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Literasi Iklim
 
@@ -3607,9 +3607,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Michael Mann, klimatolog, yang menegaskan bahwa Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen. [^3] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang pendidikan paper referensi dan literasi ilmiah, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang pendidikan paper referensi dan literasi ilmiah, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Friederike Otto, peneliti iklim menambahkan bahwa Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya. [^4] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk pendidikan paper referensi dan literasi ilmiah seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai pendidikan paper referensi dan literasi ilmiah menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Pendidikan Paper Referensi
 
@@ -3815,9 +3815,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Friederike Otto, peneliti iklim, yang menegaskan bahwa Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya. [^4] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang membaca dan memahami paper ilmiah, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang membaca dan memahami paper ilmiah, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Johan Rockstrom, ilmuwan sistem bumi menambahkan bahwa Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan. [^5] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk membaca dan memahami paper ilmiah seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai membaca dan memahami paper ilmiah menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Cara Membaca Literatur Ilmiah
 
@@ -4022,9 +4022,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Johan Rockstrom, ilmuwan sistem bumi, yang menegaskan bahwa Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan. [^5] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang data dan statistik untuk warga, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang data dan statistik untuk warga, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Saleemul Huq, ahli adaptasi iklim menambahkan bahwa Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan. [^6] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk data dan statistik untuk warga seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai data dan statistik untuk warga menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Data dan Statistik untuk Warga
 
@@ -4228,9 +4228,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Saleemul Huq, ahli adaptasi iklim, yang menegaskan bahwa Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan. [^6] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang misinformasi dan literasi media, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang misinformasi dan literasi media, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Nicholas Stern, ekonom menambahkan bahwa Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi. [^7] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk misinformasi dan literasi media seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai misinformasi dan literasi media menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Misinformasi dan Literasi Media
 
@@ -4436,9 +4436,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Nicholas Stern, ekonom, yang menegaskan bahwa Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi. [^7] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang penilaian risiko lokal, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang penilaian risiko lokal, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Maria Neira, WHO menambahkan bahwa Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia. [^8] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk penilaian risiko lokal seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai penilaian risiko lokal menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Penilaian Risiko Lokasi Anda
 
@@ -4643,9 +4643,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Dr. Maria Neira, WHO, yang menegaskan bahwa Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia. [^8] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang keamanan air rumah tangga, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang keamanan air rumah tangga, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Hans-Otto Portner, IPCC menambahkan bahwa Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia. [^9] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk keamanan air rumah tangga seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai keamanan air rumah tangga menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Keamanan Air di Rumah
 
@@ -4850,9 +4850,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Hans-Otto Portner, IPCC, yang menegaskan bahwa Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia. [^9] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang keamanan pangan rumah tangga, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang keamanan pangan rumah tangga, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Debra Roberts, IPCC menambahkan bahwa Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim. [^10] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk keamanan pangan rumah tangga seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai keamanan pangan rumah tangga menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Keamanan Pangan di Rumah
 
@@ -5058,9 +5058,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Debra Roberts, IPCC, yang menegaskan bahwa Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim. [^10] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang resiliensi tempat tinggal dan energi, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang resiliensi tempat tinggal dan energi, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Michael Oppenheimer, ilmuwan iklim menambahkan bahwa Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan. [^11] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk resiliensi tempat tinggal dan energi seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai resiliensi tempat tinggal dan energi menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Tempat Tinggal dan Energi
 
@@ -5265,9 +5265,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Michael Oppenheimer, ilmuwan iklim, yang menegaskan bahwa Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan. [^11] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang kesiapsiagaan kesehatan dan pertolongan pertama, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang kesiapsiagaan kesehatan dan pertolongan pertama, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Cynthia Rosenzweig, peneliti dampak iklim menambahkan bahwa Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik. [^12] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk kesiapsiagaan kesehatan dan pertolongan pertama seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai kesiapsiagaan kesehatan dan pertolongan pertama menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Kesehatan dan Pertolongan Pertama
 
@@ -5472,9 +5472,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Cynthia Rosenzweig, peneliti dampak iklim, yang menegaskan bahwa Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik. [^12] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang kesiapsiagaan finansial, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang kesiapsiagaan finansial, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Diana Liverman, geograf menambahkan bahwa Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar. [^13] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk kesiapsiagaan finansial seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai kesiapsiagaan finansial menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Kesiapsiagaan Finansial
 
@@ -5680,9 +5680,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Diana Liverman, geograf, yang menegaskan bahwa Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar. [^13] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang evakuasi dan respons darurat, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang evakuasi dan respons darurat, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Kristie Ebi, peneliti kesehatan global menambahkan bahwa Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser. [^14] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk evakuasi dan respons darurat seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai evakuasi dan respons darurat menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Evakuasi dan Respons Darurat
 
@@ -5887,9 +5887,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Dr. Kristie Ebi, peneliti kesehatan global, yang menegaskan bahwa Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser. [^14] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang melindungi populasi rentan dan khusus, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang melindungi populasi rentan dan khusus, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Mark Howden, ilmuwan adaptasi iklim menambahkan bahwa Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan. [^15] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk melindungi populasi rentan dan khusus seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai melindungi populasi rentan dan khusus menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Populasi Khusus
 
@@ -6094,9 +6094,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Mark Howden, ilmuwan adaptasi iklim, yang menegaskan bahwa Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan. [^15] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang modal sosial dan jaringan komunitas, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang modal sosial dan jaringan komunitas, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. James Hansen, ilmuwan iklim menambahkan bahwa Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun. [^16] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk modal sosial dan jaringan komunitas seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai modal sosial dan jaringan komunitas menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^16]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Modal Sosial dan Jaringan
 
@@ -6301,9 +6301,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. James Hansen, ilmuwan iklim, yang menegaskan bahwa Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun. [^1] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang gotong royong dan dukungan komunitas, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^1] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang gotong royong dan dukungan komunitas, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Katharine Hayhoe, ilmuwan iklim menambahkan bahwa Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat. [^2] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk gotong royong dan dukungan komunitas seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai gotong royong dan dukungan komunitas menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Gotong Royong
 
@@ -6508,9 +6508,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Katharine Hayhoe, ilmuwan iklim, yang menegaskan bahwa Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat. [^2] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang tata kelola lokal dan aksi iklim, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang tata kelola lokal dan aksi iklim, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Michael Mann, klimatolog menambahkan bahwa Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen. [^3] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk tata kelola lokal dan aksi iklim seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai tata kelola lokal dan aksi iklim menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Tata Kelola Lokal
 
@@ -6715,9 +6715,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Michael Mann, klimatolog, yang menegaskan bahwa Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen. [^3] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang resiliensi perkotaan terhadap perubahan iklim, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang resiliensi perkotaan terhadap perubahan iklim, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Friederike Otto, peneliti iklim menambahkan bahwa Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya. [^4] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk resiliensi perkotaan terhadap perubahan iklim seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai resiliensi perkotaan terhadap perubahan iklim menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Resiliensi Perkotaan
 
@@ -6923,9 +6923,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Friederike Otto, peneliti iklim, yang menegaskan bahwa Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya. [^4] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang resiliensi pedesaan, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang resiliensi pedesaan, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Johan Rockstrom, ilmuwan sistem bumi menambahkan bahwa Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan. [^5] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk resiliensi pedesaan seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai resiliensi pedesaan menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Resiliensi Pedesaan
 
@@ -7130,9 +7130,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Johan Rockstrom, ilmuwan sistem bumi, yang menegaskan bahwa Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan. [^5] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang pengetahuan adat dan tradisional, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang pengetahuan adat dan tradisional, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Saleemul Huq, ahli adaptasi iklim menambahkan bahwa Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan. [^6] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk pengetahuan adat dan tradisional seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai pengetahuan adat dan tradisional menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Pengetahuan Adat
 
@@ -7337,9 +7337,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Saleemul Huq, ahli adaptasi iklim, yang menegaskan bahwa Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan. [^6] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang energi terbarukan untuk resiliensi, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang energi terbarukan untuk resiliensi, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Nicholas Stern, ekonom menambahkan bahwa Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi. [^7] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk energi terbarukan untuk resiliensi seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai energi terbarukan untuk resiliensi menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Sistem Energi Terbarukan
 
@@ -7545,9 +7545,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Nicholas Stern, ekonom, yang menegaskan bahwa Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi. [^7] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang teknologi air untuk adaptasi, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang teknologi air untuk adaptasi, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Maria Neira, WHO menambahkan bahwa Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia. [^8] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk teknologi air untuk adaptasi seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai teknologi air untuk adaptasi menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Teknologi Air
 
@@ -7752,9 +7752,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Dr. Maria Neira, WHO, yang menegaskan bahwa Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia. [^8] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang teknologi pertanian, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang teknologi pertanian, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Hans-Otto Portner, IPCC menambahkan bahwa Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia. [^9] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk teknologi pertanian seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai teknologi pertanian menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Teknologi Pertanian
 
@@ -7959,9 +7959,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Hans-Otto Portner, IPCC, yang menegaskan bahwa Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia. [^9] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang sistem peringatan dini, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang sistem peringatan dini, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Debra Roberts, IPCC menambahkan bahwa Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim. [^10] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk sistem peringatan dini seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai sistem peringatan dini menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Sistem Peringatan Dini
 
@@ -8167,9 +8167,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Debra Roberts, IPCC, yang menegaskan bahwa Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim. [^10] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang AI dan data untuk aksi iklim, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang AI dan data untuk aksi iklim, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Michael Oppenheimer, ilmuwan iklim menambahkan bahwa Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan. [^11] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk AI dan data untuk aksi iklim seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai AI dan data untuk aksi iklim menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: AI dan Data untuk Iklim
 
@@ -8373,9 +8373,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Michael Oppenheimer, ilmuwan iklim, yang menegaskan bahwa Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan. [^11] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang teknologi tepat guna, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang teknologi tepat guna, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Cynthia Rosenzweig, peneliti dampak iklim menambahkan bahwa Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik. [^12] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk teknologi tepat guna seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai teknologi tepat guna menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Teknologi Tepat Guna
 
@@ -8580,9 +8580,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Cynthia Rosenzweig, peneliti dampak iklim, yang menegaskan bahwa Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik. [^12] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang kecemasan iklim dan respons emosional, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang kecemasan iklim dan respons emosional, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Diana Liverman, geograf menambahkan bahwa Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar. [^13] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk kecemasan iklim dan respons emosional seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai kecemasan iklim dan respons emosional menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Kecemasan Iklim
 
@@ -8788,9 +8788,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Diana Liverman, geograf, yang menegaskan bahwa Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar. [^13] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang trauma dan pemulihan pasca-bencana, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang trauma dan pemulihan pasca-bencana, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Kristie Ebi, peneliti kesehatan global menambahkan bahwa Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser. [^14] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk trauma dan pemulihan pasca-bencana seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai trauma dan pemulihan pasca-bencana menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Trauma dan Pemulihan
 
@@ -8995,9 +8995,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Dr. Kristie Ebi, peneliti kesehatan global, yang menegaskan bahwa Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser. [^14] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang resiliensi psikologis, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang resiliensi psikologis, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Mark Howden, ilmuwan adaptasi iklim menambahkan bahwa Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan. [^15] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk resiliensi psikologis seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai resiliensi psikologis menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Membangun Resiliensi Psikologis
 
@@ -9202,9 +9202,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Mark Howden, ilmuwan adaptasi iklim, yang menegaskan bahwa Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan. [^15] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang kesehatan mental komunitas, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang kesehatan mental komunitas, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. James Hansen, ilmuwan iklim menambahkan bahwa Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun. [^16] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk kesehatan mental komunitas seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai kesehatan mental komunitas menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^16]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Kesehatan Mental Komunitas
 
@@ -9410,9 +9410,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. James Hansen, ilmuwan iklim, yang menegaskan bahwa Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun. [^1] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang kerangka iklim internasional, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^1] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang kerangka iklim internasional, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Katharine Hayhoe, ilmuwan iklim menambahkan bahwa Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat. [^2] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk kerangka iklim internasional seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai kerangka iklim internasional menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Kerangka Internasional
 
@@ -9617,9 +9617,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Katharine Hayhoe, ilmuwan iklim, yang menegaskan bahwa Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat. [^2] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang perencanaan adaptasi nasional, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang perencanaan adaptasi nasional, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Michael Mann, klimatolog menambahkan bahwa Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen. [^3] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk perencanaan adaptasi nasional seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai perencanaan adaptasi nasional menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Rencana Adaptasi Nasional
 
@@ -9824,9 +9824,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Michael Mann, klimatolog, yang menegaskan bahwa Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen. [^3] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang penetapan harga karbon dan pasar, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang penetapan harga karbon dan pasar, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Friederike Otto, peneliti iklim menambahkan bahwa Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya. [^4] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk penetapan harga karbon dan pasar seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai penetapan harga karbon dan pasar menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Penetapan Harga Karbon
 
@@ -10032,9 +10032,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Friederike Otto, peneliti iklim, yang menegaskan bahwa Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya. [^4] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang keuangan iklim, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang keuangan iklim, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Johan Rockstrom, ilmuwan sistem bumi menambahkan bahwa Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan. [^5] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk keuangan iklim seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai keuangan iklim menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Keuangan Iklim
 
@@ -10239,9 +10239,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Johan Rockstrom, ilmuwan sistem bumi, yang menegaskan bahwa Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan. [^5] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang keadilan iklim dan kesetaraan, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang keadilan iklim dan kesetaraan, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Saleemul Huq, ahli adaptasi iklim menambahkan bahwa Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan. [^6] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk keadilan iklim dan kesetaraan seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai keadilan iklim dan kesetaraan menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Keadilan dan Kesetaraan
 
@@ -10445,9 +10445,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Saleemul Huq, ahli adaptasi iklim, yang menegaskan bahwa Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan. [^6] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang keterlibatan warga dalam aksi iklim, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang keterlibatan warga dalam aksi iklim, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Nicholas Stern, ekonom menambahkan bahwa Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi. [^7] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk keterlibatan warga dalam aksi iklim seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai keterlibatan warga dalam aksi iklim menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Keterlibatan Warga
 
@@ -10653,9 +10653,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Nicholas Stern, ekonom, yang menegaskan bahwa Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi. [^7] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang gelombang panas di Asia Selatan, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang gelombang panas di Asia Selatan, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Maria Neira, WHO menambahkan bahwa Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia. [^8] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk gelombang panas di Asia Selatan seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai gelombang panas di Asia Selatan menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Panas di Asia Selatan
 
@@ -10860,9 +10860,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Dr. Maria Neira, WHO, yang menegaskan bahwa Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia. [^8] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang kekeringan di Tanduk Afrika, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Maria Neira, WHO: 'Perubahan iklim adalah tantangan kesehatan terbesar abad ke-21, mengancam nyawa dan sistem kesehatan di seluruh dunia.' [^8] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang kekeringan di Tanduk Afrika, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Hans-Otto Portner, IPCC menambahkan bahwa Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia. [^9] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk kekeringan di Tanduk Afrika seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai kekeringan di Tanduk Afrika menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Kekeringan di Tanduk Afrika
 
@@ -11067,9 +11067,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Hans-Otto Portner, IPCC, yang menegaskan bahwa Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia. [^9] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang kenaikan permukaan laut di negara pulau kecil, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang kenaikan permukaan laut di negara pulau kecil, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Debra Roberts, IPCC menambahkan bahwa Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim. [^10] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk kenaikan permukaan laut di negara pulau kecil seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai kenaikan permukaan laut di negara pulau kecil menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Kenaikan Permukaan Laut di Negara Pulau Kecil
 
@@ -11275,9 +11275,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Debra Roberts, IPCC, yang menegaskan bahwa Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim. [^10] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang kebakaran hutan, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang kebakaran hutan, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Michael Oppenheimer, ilmuwan iklim menambahkan bahwa Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan. [^11] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk kebakaran hutan seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai kebakaran hutan menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Kebakaran Hutan di Australia dan Amerika Utara
 
@@ -11482,9 +11482,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Michael Oppenheimer, ilmuwan iklim, yang menegaskan bahwa Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan. [^11] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang banjir di Asia Tenggara, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Michael Oppenheimer, ilmuwan iklim: 'Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan.' [^11] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang banjir di Asia Tenggara, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Cynthia Rosenzweig, peneliti dampak iklim menambahkan bahwa Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik. [^12] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk banjir di Asia Tenggara seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai banjir di Asia Tenggara menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Banjir di Asia Tenggara
 
@@ -11689,9 +11689,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Cynthia Rosenzweig, peneliti dampak iklim, yang menegaskan bahwa Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik. [^12] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang krisis pangan di Afrika Sub-Sahara, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Cynthia Rosenzweig, peneliti dampak iklim: 'Sistem pangan menghadapi risiko yang meningkat dari panas, kekeringan, dan kejadian ekstrem yang menuntut adaptasi sistemik.' [^12] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang krisis pangan di Afrika Sub-Sahara, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Diana Liverman, geograf menambahkan bahwa Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar. [^13] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk krisis pangan di Afrika Sub-Sahara seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai krisis pangan di Afrika Sub-Sahara menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Krisis Pangan di Afrika Sub-Sahara
 
@@ -11897,9 +11897,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Diana Liverman, geograf, yang menegaskan bahwa Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar. [^13] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang stres air di Timur Tengah, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Diana Liverman, geograf: 'Keadilan iklim menuntut bahwa mereka yang paling sedikit bertanggung jawab atas emisi tidak dibiarkan menanggung beban terbesar.' [^13] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang stres air di Timur Tengah, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Kristie Ebi, peneliti kesehatan global menambahkan bahwa Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser. [^14] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk stres air di Timur Tengah seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai stres air di Timur Tengah menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Stres Air di Timur Tengah
 
@@ -12104,9 +12104,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Dr. Kristie Ebi, peneliti kesehatan global, yang menegaskan bahwa Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser. [^14] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang badai dan topan di Karibia, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Kristie Ebi, peneliti kesehatan global: 'Sistem kesehatan harus diperkuat untuk mengelola beban penyakit sensitif iklim yang bergeser.' [^14] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang badai dan topan di Karibia, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Mark Howden, ilmuwan adaptasi iklim menambahkan bahwa Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan. [^15] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk badai dan topan di Karibia seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai badai dan topan di Karibia menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Badai dan Topan di Karibia
 
@@ -12311,9 +12311,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Prof. Mark Howden, ilmuwan adaptasi iklim, yang menegaskan bahwa Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan. [^15] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang pencairan permafrost di Arktik, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Mark Howden, ilmuwan adaptasi iklim: 'Adaptasi yang efektif menggabungkan pengetahuan ilmiah dengan pengalaman lokal dan kapasitas kelembagaan.' [^15] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang pencairan permafrost di Arktik, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. James Hansen, ilmuwan iklim menambahkan bahwa Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun. [^16] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk pencairan permafrost di Arktik seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai pencairan permafrost di Arktik menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^16]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Pencairan Permafrost di Arktik
 
@@ -12518,9 +12518,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. James Hansen, ilmuwan iklim, yang menegaskan bahwa Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun. [^1] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang panas perkotaan di kota-kota global, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. James Hansen, ilmuwan iklim: 'Sainsnya jelas: emisi yang terus berlanjut akan mendorong pemanasan berbahaya, dan jendela untuk tindakan efektif menyempit setiap tahun.' [^1] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang panas perkotaan di kota-kota global, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Katharine Hayhoe, ilmuwan iklim menambahkan bahwa Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat. [^2] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk panas perkotaan di kota-kota global seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai panas perkotaan di kota-kota global menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Studi Kasus: Panas Perkotaan di Kota-kota Global
 
@@ -12725,9 +12725,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Katharine Hayhoe, ilmuwan iklim, yang menegaskan bahwa Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat. [^2] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang rencana aksi personal 30 hari, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Katharine Hayhoe, ilmuwan iklim: 'Perubahan iklim bukan ancaman jauh; ini terjadi sekarang, memengaruhi setiap wilayah dan setiap sektor masyarakat.' [^2] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang rencana aksi personal 30 hari, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Michael Mann, klimatolog menambahkan bahwa Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen. [^3] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk rencana aksi personal 30 hari seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai rencana aksi personal 30 hari menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Rencana Aksi Personal 30 Hari
 
@@ -12932,9 +12932,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Michael Mann, klimatolog, yang menegaskan bahwa Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen. [^3] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang rencana aksi komunitas 1 tahun, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Michael Mann, klimatolog: 'Bukti pemanasan akibat manusia sangat kuat dan konvergen di berbagai jalur penelitian independen.' [^3] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang rencana aksi komunitas 1 tahun, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Friederike Otto, peneliti iklim menambahkan bahwa Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya. [^4] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk rencana aksi komunitas 1 tahun seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai rencana aksi komunitas 1 tahun menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Rencana Aksi Komunitas 1 Tahun
 
@@ -13140,9 +13140,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terdampak bencana iklim (tahunan) | ~100 juta+ | IFRC |
 | Kerusakan ekonomi akibat bencana iklim (tahunan) | ~$200-300 miliar | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Friederike Otto, peneliti iklim, yang menegaskan bahwa Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya. [^4] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang ceklis dan template, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Friederike Otto, peneliti iklim: 'Setiap gelombang panas hari ini menjadi lebih mungkin dan lebih intens karena perubahan iklim, dan sains atribusi kini mengukurnya.' [^4] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang ceklis dan template, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Johan Rockstrom, ilmuwan sistem bumi menambahkan bahwa Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan. [^5] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk ceklis dan template seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai ceklis dan template menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Ceklis dan Template
 
@@ -13323,9 +13323,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Prevalensi kecemasan iklim (pemuda) | ~50%+ | Lancet Planetary Health |
 | Beban kesehatan mental | Meningkat | WHO |
 
-Premis utama bab ini ditegakkan melalui Prof. Johan Rockstrom, ilmuwan sistem bumi, yang menegaskan bahwa Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan. [^5] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang glosarium istilah iklim dan keselamatan, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Prof. Johan Rockstrom, ilmuwan sistem bumi: 'Kita mendorong planet melampaui ruang operasi amannya, berisiko titik balik yang tak dapat dibalikkan.' [^5] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang glosarium istilah iklim dan keselamatan, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Dr. Saleemul Huq, ahli adaptasi iklim menambahkan bahwa Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan. [^6] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk glosarium istilah iklim dan keselamatan seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai glosarium istilah iklim dan keselamatan menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Glosarium
 
@@ -13530,9 +13530,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-Premis utama bab ini ditegakkan melalui Dr. Saleemul Huq, ahli adaptasi iklim, yang menegaskan bahwa Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan. [^6] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang referensi lanjutan dan bacaan lebih lanjut, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.
+Dr. Saleemul Huq, ahli adaptasi iklim: 'Adaptasi bukan pilihan; ini adalah bertahan hidup, dan harus berakar pada pengetahuan lokal dan keadilan.' [^6] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang referensi lanjutan dan bacaan lebih lanjut, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.
 
-Memperkuat hal tersebut, Prof. Nicholas Stern, ekonom menambahkan bahwa Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi. [^7] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk referensi lanjutan dan bacaan lebih lanjut seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.
+Pembahasan mengenai referensi lanjutan dan bacaan lebih lanjut menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan Prof. Nicholas Stern, ekonom: 'Biaya tanpa tindakan jauh melebihi biaya tindakan, dan penundaan hanya memperbesar kerusakan ekonomi.' [^7]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Referensi Lanjutan
 

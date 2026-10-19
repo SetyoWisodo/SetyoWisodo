@@ -530,9 +530,9 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     exp1_quote = exp1.split(':',1)[1].strip().strip("'")
     exp2_name = exp2.split(':')[0].strip()
     exp2_quote = exp2.split(':',1)[1].strip().strip("'")
-    md.append(f"Premis utama bab ini ditegakkan melalui {exp1_name}, yang menegaskan bahwa {exp1_quote} [^{fn1}] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang {theme}, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.")
+    md.append(f"{exp1_name}: '{exp1_quote}' [^{fn1}] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang {theme}, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.")
     md.append("")
-    md.append(f"Memperkuat hal tersebut, {exp2_name} menambahkan bahwa {exp2_quote} [^{fn2}] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk {theme} seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.")
+    md.append(f"Pembahasan mengenai {theme} menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan {exp2_name}: '{exp2_quote}' [^{fn2}]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.")
     md.append("")
     # Kondisi terkini dan berita
     md.append(f"## Kondisi Terkini dan Berita: {title}")

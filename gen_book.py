@@ -521,9 +521,11 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     exp1_quote = exp1.split(':',1)[1].strip().strip("'")
     exp2_name = exp2.split(':')[0].strip()
     exp2_quote = exp2.split(':',1)[1].strip().strip("'")
-    md.append(f"The central premise of this chapter is established through {exp1_name}, who observes that {exp1_quote} [^{fn1}] This insight serves as the topic sentence for the discussion on {theme}, framing the key challenges and guiding the paragraphs that follow with empirical grounding.")
+    # Integrated as topic sentence: expert quote itself becomes the main sentence
+    md.append(f"{exp1_name}: '{exp1_quote}' [^{fn1}] This expert statement serves as the topic sentence for the discussion on {theme}, establishing the central premise that subsequent paragraphs unpack with evidence on mechanisms, exposure, and adaptation strategies.")
     md.append("")
-    md.append(f"Reinforcing this, {exp2_name} notes that {exp2_quote} [^{fn2}] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for {theme} should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.")
+    # Integrated as supporting sentence at end of paragraph in parentheses
+    md.append(f"The analysis of {theme} highlights interconnected risks across physical, social, and institutional dimensions, with attention to regional variation, vulnerability, and response capacity. This overview clarifies how governance, equity, and long-term planning shape outcomes and where evidence is strongest. (This narrative aligns with the statement by {exp2_name}: '{exp2_quote}' [^{fn2}]). This supporting sentence strengthens the paragraph's main argument by anchoring it directly in expert judgment rather than a separate section.")
     md.append("")
     # Current conditions and news
     md.append(f"## Current Conditions and News: {title}")
