@@ -664,7 +664,7 @@ for t in index_terms:
 md.append("")
 md.append("# Lampiran D: Daftar Pustaka (Referensi Lanjutan)")
 md.append("")
-for r in REFS:
+for r in sorted(REFS, key=lambda x: x.lower()):
     md.append(f"- {r}")
 md.append("")
 md.append("# Lampiran E: Biografi Penulis")

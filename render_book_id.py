@@ -21,56 +21,57 @@ def inline(text):
     text = re.sub(r'\[\^(\d+)\]', r'<sup>\1</sup>', text)
     return text
 
-lines = md.split('\n')
-html_parts = []
-in_ul = False
-for line in lines:
-    s = line.rstrip()
-    if s.strip() == '---':
-        if in_ul:
-            html_parts.append('</ul>'); in_ul = False
-        html_parts.append('<hr>')
-        continue
-    if s.startswith('# '):
+def md_to_html(md_text):
+    lines = md_text.split('\n')
+    html_parts = []
+    in_ul = False
+    for line in lines:
+        s = line.rstrip()
+        if s.strip() == '---':
+            if in_ul:
+                html_parts.append('</ul>'); in_ul = False
+            html_parts.append('<hr>')
+            continue
+        if s.startswith('# '):
+            if in_ul:
+                html_parts.append('</ul>'); in_ul=False
+            html_parts.append('<h1>%s</h1>' % inline(s[2:].strip()))
+            continue
+        if s.startswith('## '):
+            if in_ul:
+                html_parts.append('</ul>'); in_ul=False
+            html_parts.append('<h2>%s</h2>' % inline(s[3:].strip()))
+            continue
+        if s.startswith('### '):
+            if in_ul:
+                html_parts.append('</ul>'); in_ul=False
+            html_parts.append('<h3>%s</h3>' % inline(s[4:].strip()))
+            continue
+        if s.strip().startswith('- '):
+            if not in_ul:
+                html_parts.append('<ul>'); in_ul=True
+            html_parts.append('<li>%s</li>' % inline(s.strip()[2:].strip()))
+            continue
+        m = re.match(r'^\d+\.\s+(.*)', s.strip())
+        if m:
+            if not in_ul:
+                html_parts.append('<ul>'); in_ul=True
+            html_parts.append('<li>%s</li>' % inline(m.group(1).strip()))
+            continue
+        if s.strip() == '':
+            if in_ul:
+                html_parts.append('</ul>'); in_ul=False
+            html_parts.append('<br>')
+            continue
         if in_ul:
             html_parts.append('</ul>'); in_ul=False
-        html_parts.append('<h1>%s</h1>' % inline(s[2:].strip()))
-        continue
-    if s.startswith('## '):
-        if in_ul:
-            html_parts.append('</ul>'); in_ul=False
-        html_parts.append('<h2>%s</h2>' % inline(s[3:].strip()))
-        continue
-    if s.startswith('### '):
-        if in_ul:
-            html_parts.append('</ul>'); in_ul=False
-        html_parts.append('<h3>%s</h3>' % inline(s[4:].strip()))
-        continue
-    if s.strip().startswith('- '):
-        if not in_ul:
-            html_parts.append('<ul>'); in_ul=True
-        html_parts.append('<li>%s</li>' % inline(s.strip()[2:].strip()))
-        continue
-    m = re.match(r'^\d+\.\s+(.*)', s.strip())
-    if m:
-        if not in_ul:
-            html_parts.append('<ul>'); in_ul=True
-        html_parts.append('<li>%s</li>' % inline(m.group(1).strip()))
-        continue
-    if s.strip() == '':
-        if in_ul:
-            html_parts.append('</ul>'); in_ul=False
+        html_parts.append('<p>&nbsp;&nbsp;&nbsp;&nbsp;%s</p>' % inline(s.strip()))
         html_parts.append('<br>')
-        continue
     if in_ul:
-        html_parts.append('</ul>'); in_ul=False
-    html_parts.append('<p>%s</p>' % inline(s.strip()))
-    html_parts.append('<br>')
+        html_parts.append('</ul>')
+    return '\n'.join(html_parts)
 
-if in_ul:
-    html_parts.append('</ul>')
-
-html = '\n'.join(html_parts)
+chunks = re.split(r'(?=^# (?:Bab|Lampiran)\b)', md, flags=re.MULTILINE)
 
 class TrackingHTML2PDF(HTML2FPDF):
     def handle_data(self, data):
@@ -90,6 +91,7 @@ class BookPDF(FPDF):
         self._fn_seen = set()
         self._page_fn_start = set()
         self._rendered_fn_pages = set()
+        self.chapter_starts = set()
     def _record_fn(self, n):
         self._fn_seen.add(n)
     def add_page(self, *a, **k):
@@ -116,29 +118,42 @@ class BookPDF(FPDF):
                 self.set_x(self.l_margin)
                 self.multi_cell(0, 3.0, '%d. %s' % (n, txt), new_x='LMARGIN', new_y='NEXT')
             self.set_font('TNR', '', 12)
-        self.set_y(-5)
+        self.set_y(-8)
         self.set_font('TNR', '', 12)
-        self.cell(0, 5, 'Halaman %d' % p, align='C')
+        if p in self.chapter_starts:
+            self.cell(0, 5, '%d' % p, align='C')
+        else:
+            self.cell(0, 5, '%d' % p, align='R')
 
 pdf = BookPDF()
-pdf.set_auto_page_break(auto=True, margin=7)
-pdf.add_page()
-# Times New Roman 12 untuk semua - font Unicode (DejaVuSerif = setara TNR, support em dash)
+pdf.set_auto_page_break(auto=True, margin=12)
 pdf.add_font('TNR', '', '/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', uni=True)
 pdf.add_font('TNR', 'B', '/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', uni=True)
 pdf.set_font('TNR', '', 12)
 
+pdf.add_page()
+pdf.chapter_starts.add(pdf.page)
 pdf.set_font('TNR', 'B', 12)
-pdf.cell(0, 16, 'Bertahan Hidup di Masa Depan', ln=True, align='C')
+pdf.cell(0, 16, 'Bertahan Hidup di Masa Depan', new_x='LMARGIN', new_y='NEXT', align='C')
 pdf.set_font('TNR', '', 12)
-pdf.cell(0, 8, 'Krisis, Iklim, dan Resiliensi Manusia', ln=True, align='C')
+pdf.cell(0, 8, 'Krisis, Iklim, dan Resiliensi Manusia', new_x='LMARGIN', new_y='NEXT', align='C')
 pdf.ln(4)
 pdf.set_font('TNR', '', 12)
-pdf.cell(0, 6, 'Panduan Berbasis Data dan Ilmiah', ln=True, align='C')
-pdf.cell(0, 6, 'Penulis: Setyo Wisodo   |   Tahun: 2026', ln=True, align='C')
-pdf.add_page()
+pdf.cell(0, 6, 'Panduan Berbasis Data dan Ilmiah', new_x='LMARGIN', new_y='NEXT', align='C')
+pdf.cell(0, 6, 'Penulis: Setyo Wisodo   |   Tahun: 2026', new_x='LMARGIN', new_y='NEXT', align='C')
 
-pdf.write_html(html)
+if chunks and chunks[0].strip():
+    pdf.add_page()
+    html = md_to_html(chunks[0])
+    pdf.write_html(html)
+
+for chunk in chunks[1:]:
+    if not chunk.strip():
+        continue
+    pdf.add_page()
+    pdf.chapter_starts.add(pdf.page)
+    html = md_to_html(chunk)
+    pdf.write_html(html)
 
 if pdf.page > 0:
     fns = pdf._fn_seen - pdf._page_fn_start
@@ -146,4 +161,4 @@ if pdf.page > 0:
         pdf.page_fns[pdf.page] = fns
 
 pdf.output('/home/user/SetyoWisodo/Surviving_the_Future_ID.pdf')
-print('PDF written; footnotes:', len(footnotes))
+print('PDF written; footnotes:', len(footnotes), 'pages:', pdf.page)

@@ -10827,76 +10827,76 @@ Buku ini dirancang untuk digunakan dalam diskusi akademik. Saat memperdebatkan a
 
 # Appendix D: Daftar Pustaka (Extended References)
 
-- IPCC. (2023). Climate Change 2023: Synthesis Report. IPCC, Geneva.
+- Adger, W.N. (2006). Vulnerability. Global Environmental Change, 16(3), 268-281.
+- Aldrich, D.P. & Meyer, M.A. (2015). Social capital and community resilience. American Behavioral Scientist, 59(2), 254-269.
+- Berkes, F. & Ross, H. (2013). Community resilience: toward an integrated approach. Society & Natural Resources, 26(1), 5-20.
+- Burke, M., Hsiang, S.M. & Miguel, E. (2015). Global non-linear effect of temperature on economic production. Nature, 527, 235-239.
+- Cisse, G. et al. (2022). Health, Wellbeing, and the Changing Structure of Communities. IPCC AR6 WG2 Chapter 7.
+- Clayton, S. (2020). Climate anxiety: Psychological responses to climate change. Journal of Anxiety Disorders, 74, 102263.
+- Cutter, S.L. et al. (2008). A place-based model for understanding community resilience. Global Environmental Change, 18(4), 598-606.
+- Ebi, K.L. et al. (2021). Hot weather and heat extremes: health risks. The Lancet, 398(10301), 698-708.
+- Ebi, K.L. et al. (2021). Hot weather and heat extremes: health risks. The Lancet, 398, 698-708; IPCC SR15 Ch.3 lead author statements 2018.
+- FAO. (2021). Climate Change: Unpacking the Burden on Food Safety. FAO, Rome.
+- FAO. (2022). The State of the World's Land and Water Resources (SOLAW 2021). FAO, Rome.
+- FAO. (2023). The State of Food Security and Nutrition in the World. FAO, Rome.
+- Folke, C. et al. (2010). Resilience thinking. Ecology and Society, 15(4), 20.
+- Hansen, J. et al. (2016). Ice melt, sea level rise and superstorms: evidence from paleoclimate data, climate modeling, and modern observations that 2°C global warming could be dangerous. Atmos. Chem. Phys., 16, 3761-3812.
+- Hayhoe, K. (2021). Saving Us: A Climate Scientist’s Case for Hope and Healing in a Divided World. One Signal Publishers.
+- Hickman, C. et al. (2021). Climate anxiety in children and young people. The Lancet Planetary Health, 5(12), e863-e873.
+- Howden, S.M. et al. (2007). Adapting agriculture to climate change. PNAS, 104(50), 19691-19696.
+- Hsiang, S.M. & Burke, M. (2014). Climate, conflict, and social stability. Climatic Change, 123, 39-55.
+- Huq, S. (2001-2023). ICCCAD / IIED oral statements; COP interventions archived via IPCC AR3-AR5 lead authorship and Nature obituary 2023.
+- IEA. (2023). World Energy Outlook 2023. International Energy Agency, Paris.
+- IFRC. (2022). World Disasters Report 2022. IFRC, Geneva.
+- IMF. (2022). World Economic Outlook: War Sets Back Global Recovery. IMF, Washington DC.
+- IPCC. (2018). Global Warming of 1.5 C (SR15). IPCC, Geneva.
+- IPCC. (2019). Climate Change and Land (SRCCL). IPCC, Geneva.
+- IPCC. (2019). Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC). IPCC, Geneva.
 - IPCC. (2021). Climate Change 2021: The Physical Science Basis (AR6 WG1). Cambridge University Press.
 - IPCC. (2022). Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WG2). Cambridge University Press.
 - IPCC. (2022). Climate Change 2022: Mitigation of Climate Change (AR6 WG3). Cambridge University Press.
-- IPCC. (2018). Global Warming of 1.5 C (SR15). IPCC, Geneva.
-- IPCC. (2019). Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC). IPCC, Geneva.
-- IPCC. (2019). Climate Change and Land (SRCCL). IPCC, Geneva.
-- NASA. (2024). Global Climate Change: Vital Signs. climate.nasa.gov.
-- NOAA. (2024). State of the Climate. ncei.noaa.gov.
-- WMO. (2023). State of the Global Climate 2023. World Meteorological Organization, Geneva.
-- WHO. (2023). Climate Change and Health Fact Sheet. who.int.
-- WHO. (2021). COP26 Special Report on Climate Change and Health. WHO, Geneva.
-- FAO. (2023). The State of Food Security and Nutrition in the World. FAO, Rome.
-- FAO. (2022). The State of the World's Land and Water Resources (SOLAW 2021). FAO, Rome.
-- World Bank. (2021). Groundswell: Acting on Internal Climate Migration. World Bank, Washington DC.
-- UNHCR. (2023). Climate Change and Displacement. unhcr.org.
-- UNEP. (2023). Adaptation Gap Report 2023. UNEP, Nairobi.
-- UNDRR. (2015). Sendai Framework for Disaster Risk Reduction 2015-2030. UNDRR, Geneva.
-- United Nations. (2015). Paris Agreement. unfccc.int.
-- United Nations. (2015). 2030 Agenda for Sustainable Development. UN, New York.
-- Stern, N. (2007). The Economics of Climate Change: The Stern Review. Cambridge University Press.
-- Watts, N. et al. (2021). The 2021 report of the Lancet Countdown on health and climate change. The Lancet, 398(10311), 1619-1662.
-- Romanello, M. et al. (2023). The 2023 report of the Lancet Countdown. The Lancet, 402(10419), 2346-2394.
-- Ebi, K.L. et al. (2021). Hot weather and heat extremes: health risks. The Lancet, 398(10301), 698-708.
-- Vicedo-Cabrera, A.M. et al. (2021). Burden of heat-related mortality attributable to recent human-induced climate change. Nature Climate Change, 11, 492-500.
-- Hsiang, S.M. & Burke, M. (2014). Climate, conflict, and social stability. Climatic Change, 123, 39-55.
-- Burke, M., Hsiang, S.M. & Miguel, E. (2015). Global non-linear effect of temperature on economic production. Nature, 527, 235-239.
-- Lobell, D.B., Schlenker, W. & Costa-Roberts, J. (2011). Climate trends and global crop production since 1980. Science, 333(6042), 616-620.
-- Zhao, C. et al. (2017). Temperature increase reduces global yields of major crops. PNAS, 114(35), 9326-9331.
-- Wheeler, T. & von Braun, J. (2013). Climate change impacts on global food security. Science, 341(6145), 508-513.
-- Kulp, S.A. & Strauss, B.H. (2019). New elevation data triple estimates of global vulnerability to sea-level rise. Nature Communications, 10, 4844.
-- Clayton, S. (2020). Climate anxiety: Psychological responses to climate change. Journal of Anxiety Disorders, 74, 102263.
-- Hickman, C. et al. (2021). Climate anxiety in children and young people. The Lancet Planetary Health, 5(12), e863-e873.
-- Obradovich, N. et al. (2018). Empirical evidence of mental health risks posed by climate change. PNAS, 115(43), 10953-10958.
-- Adger, W.N. (2006). Vulnerability. Global Environmental Change, 16(3), 268-281.
-- Cutter, S.L. et al. (2008). A place-based model for understanding community resilience. Global Environmental Change, 18(4), 598-606.
-- Aldrich, D.P. & Meyer, M.A. (2015). Social capital and community resilience. American Behavioral Scientist, 59(2), 254-269.
-- Berkes, F. & Ross, H. (2013). Community resilience: toward an integrated approach. Society & Natural Resources, 26(1), 5-20.
-- Folke, C. et al. (2010). Resilience thinking. Ecology and Society, 15(4), 20.
-- Oppenheimer, M. et al. (2019). Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities. SROCC Chapter 4.
-- Cisse, G. et al. (2022). Health, Wellbeing, and the Changing Structure of Communities. IPCC AR6 WG2 Chapter 7.
-- WHO & UNICEF. (2023). Progress on Household Drinking Water, Sanitation and Hygiene 2000-2022. JMP.
-- UNEP. (2022). Emissions Gap Report 2022. UNEP, Nairobi.
-- IEA. (2023). World Energy Outlook 2023. International Energy Agency, Paris.
+- IPCC. (2023). Climate Change 2023: Synthesis Report. IPCC, Geneva.
 - IRENA. (2023). World Energy Transitions Outlook 2023. IRENA, Abu Dhabi.
-- FAO. (2021). Climate Change: Unpacking the Burden on Food Safety. FAO, Rome.
-- World Bank. (2022). What You Need to Know About Food Security and Climate Change. World Bank, Washington DC.
-- UNDP. (2022). Human Development Report 2021/22. UNDP, New York.
-- IFRC. (2022). World Disasters Report 2022. IFRC, Geneva.
-- Red Cross. (2020). Heat Waves: A Silent Killer. IFRC, Geneva.
-- WMO. (2022). Early Warnings for All. WMO, Geneva.
-- UNESCO. (2021). Getting Every School Climate-Ready. UNESCO, Paris.
-- UNESCO. (2020). Education for Sustainable Development: A Roadmap. UNESCO, Paris.
+- Kulp, S.A. & Strauss, B.H. (2019). New elevation data triple estimates of global vulnerability to sea-level rise. Nature Communications, 10, 4844.
+- Liverman, D.M. (2013-2023). Climate justice scholarship; Arizona House Climate Crisis testimony 2019 & IPCC author work.
+- Lobell, D.B., Schlenker, W. & Costa-Roberts, J. (2011). Climate trends and global crop production since 1980. Science, 333(6042), 616-620.
+- Mann, M.E., Bradley, R.S. & Hughes, M.K. (1999). Northern Hemisphere temperatures during the past millennium. Geophys. Res. Lett., 26(6), 759-762 (hockey stick).
+- NASA. (2024). Global Climate Change: Vital Signs. climate.nasa.gov.
+- Neira, M. (2021). Foreword/press statements COP26 Special Report on Climate Change and Health. WHO, Geneva.
+- NOAA. (2024). State of the Climate. ncei.noaa.gov.
+- Obradovich, N. et al. (2018). Empirical evidence of mental health risks posed by climate change. PNAS, 115(43), 10953-10958.
 - OECD. (2021). Managing Climate Risks, Facing Essential Challenges. OECD, Paris.
 - OECD. (2023). Climate Finance Provided and Mobilised by Developed Countries. OECD, Paris.
-- IMF. (2022). World Economic Outlook: War Sets Back Global Recovery. IMF, Washington DC.
-- Hansen, J. et al. (2016). Ice melt, sea level rise and superstorms: evidence from paleoclimate data, climate modeling, and modern observations that 2°C global warming could be dangerous. Atmos. Chem. Phys., 16, 3761-3812.
-- Hayhoe, K. (2021). Saving Us: A Climate Scientist’s Case for Hope and Healing in a Divided World. One Signal Publishers.
-- Mann, M.E., Bradley, R.S. & Hughes, M.K. (1999). Northern Hemisphere temperatures during the past millennium. Geophys. Res. Lett., 26(6), 759-762 (hockey stick).
-- Otto, F.E.L. et al. (2021). Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change. World Weather Attribution.
-- Rockström, J. et al. (2009). A safe operating space for humanity. Nature, 461, 472-475; Richardson et al. (2023). Planetary boundaries update. Sci. Adv., 9.
-- Huq, S. (2001-2023). ICCCAD / IIED oral statements; COP interventions archived via IPCC AR3-AR5 lead authorship and Nature obituary 2023.
-- Neira, M. (2021). Foreword/press statements COP26 Special Report on Climate Change and Health. WHO, Geneva.
-- Pörtner, H.-O. et al. (2022). IPCC AR6 WGII Summary for Policymakers press conference statements 28 Feb 2022.
-- Roberts, D. et al. (2022). IPCC AR6 WGII Chapter 6 & press statements — adaptation and mitigation pursued with equal force.
 - Oppenheimer, M. et al. (2019). Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities. IPCC SROCC Ch.4.
+- Oppenheimer, M. et al. (2019). Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities. SROCC Chapter 4.
+- Otto, F.E.L. et al. (2021). Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change. World Weather Attribution.
+- Pörtner, H.-O. et al. (2022). IPCC AR6 WGII Summary for Policymakers press conference statements 28 Feb 2022.
+- Red Cross. (2020). Heat Waves: A Silent Killer. IFRC, Geneva.
+- Roberts, D. et al. (2022). IPCC AR6 WGII Chapter 6 & press statements — adaptation and mitigation pursued with equal force.
+- Rockström, J. et al. (2009). A safe operating space for humanity. Nature, 461, 472-475; Richardson et al. (2023). Planetary boundaries update. Sci. Adv., 9.
+- Romanello, M. et al. (2023). The 2023 report of the Lancet Countdown. The Lancet, 402(10419), 2346-2394.
 - Rosenzweig, C. et al. (2019). Special Report on Climate Change and Land; WFP Laureate remarks 2022 (multi-breadbasket failure risk).
-- Liverman, D.M. (2013-2023). Climate justice scholarship; Arizona House Climate Crisis testimony 2019 & IPCC author work.
-- Ebi, K.L. et al. (2021). Hot weather and heat extremes: health risks. The Lancet, 398, 698-708; IPCC SR15 Ch.3 lead author statements 2018.
-- Howden, S.M. et al. (2007). Adapting agriculture to climate change. PNAS, 104(50), 19691-19696.
+- Stern, N. (2007). The Economics of Climate Change: The Stern Review. Cambridge University Press.
+- UNDP. (2022). Human Development Report 2021/22. UNDP, New York.
+- UNDRR. (2015). Sendai Framework for Disaster Risk Reduction 2015-2030. UNDRR, Geneva.
+- UNEP. (2022). Emissions Gap Report 2022. UNEP, Nairobi.
+- UNEP. (2023). Adaptation Gap Report 2023. UNEP, Nairobi.
+- UNESCO. (2020). Education for Sustainable Development: A Roadmap. UNESCO, Paris.
+- UNESCO. (2021). Getting Every School Climate-Ready. UNESCO, Paris.
+- UNHCR. (2023). Climate Change and Displacement. unhcr.org.
+- United Nations. (2015). 2030 Agenda for Sustainable Development. UN, New York.
+- United Nations. (2015). Paris Agreement. unfccc.int.
+- Vicedo-Cabrera, A.M. et al. (2021). Burden of heat-related mortality attributable to recent human-induced climate change. Nature Climate Change, 11, 492-500.
+- Watts, N. et al. (2021). The 2021 report of the Lancet Countdown on health and climate change. The Lancet, 398(10311), 1619-1662.
+- Wheeler, T. & von Braun, J. (2013). Climate change impacts on global food security. Science, 341(6145), 508-513.
+- WHO & UNICEF. (2023). Progress on Household Drinking Water, Sanitation and Hygiene 2000-2022. JMP.
+- WHO. (2021). COP26 Special Report on Climate Change and Health. WHO, Geneva.
+- WHO. (2023). Climate Change and Health Fact Sheet. who.int.
+- WMO. (2022). Early Warnings for All. WMO, Geneva.
+- WMO. (2023). State of the Global Climate 2023. World Meteorological Organization, Geneva.
+- World Bank. (2021). Groundswell: Acting on Internal Climate Migration. World Bank, Washington DC.
+- World Bank. (2022). What You Need to Know About Food Security and Climate Change. World Bank, Washington DC.
+- Zhao, C. et al. (2017). Temperature increase reduces global yields of major crops. PNAS, 114(35), 9326-9331.
 
 # Appendix E: Biografi Penulis
 
