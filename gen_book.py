@@ -480,13 +480,25 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(f"The analysis is structured to ensure that no aspect of {theme} is left unarticulated. Each section presents the main point first, followed by seven to eight supporting sentences that elaborate the evidence, mechanisms, and implications. This approach reflects academic writing standards and supports rigorous debate.")
     md.append("")
-    # Only 4 sub-chapters
+    # Only 4 sub-chapters - each with expert as topic/supporting sentence
     for si,sec in enumerate(secs[:4], start=1):
         md.append(f"## {ci}.{si} {sec}")
+        md.append("")
+        # Expert as topic sentence for this subsection
+        exp_idx = (ci * 4 + si - 1) % len(EXPERTS)
+        exp = EXPERTS[exp_idx]
+        fn = exp_idx + 1
+        md.append(f"{exp} [^{fn}]")
         md.append("")
         md.append(para(theme, sec, si))
         md.append("")
         md.append(para(theme, sec, si+4))
+        # Expert as supporting narrative at end of subsection
+        exp_idx2 = (exp_idx + 7) % len(EXPERTS)
+        exp2 = EXPERTS[exp_idx2]
+        fn2 = exp_idx2 + 1
+        md.append(f"({exp2} [^{fn2}])")
+        md.append("")
         md.append("")
         md.append(f"### Key Considerations for {sec}")
         md.append("")
@@ -517,15 +529,10 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         exps = (exps + EXPERTS)[:2]
     exp1 = exps[0]
     exp2 = exps[1]
-    exp1_name = exp1.split(':')[0].strip()
-    exp1_quote = exp1.split(':',1)[1].strip().strip("'")
-    exp2_name = exp2.split(':')[0].strip()
-    exp2_quote = exp2.split(':',1)[1].strip().strip("'")
-    # Integrated as topic sentence: expert quote itself becomes the main sentence
-    md.append(f"{exp1_name}: '{exp1_quote}' [^{fn1}] This expert statement serves as the topic sentence for the discussion on {theme}, establishing the central premise that subsequent paragraphs unpack with evidence on mechanisms, exposure, and adaptation strategies.")
+    # Integrated as topic sentence / supporting narrative - expert name + statement about the topic
+    md.append(f"{exp1} [^{fn1}]")
     md.append("")
-    # Integrated as supporting sentence at end of paragraph in parentheses
-    md.append(f"The analysis of {theme} highlights interconnected risks across physical, social, and institutional dimensions, with attention to regional variation, vulnerability, and response capacity. This overview clarifies how governance, equity, and long-term planning shape outcomes and where evidence is strongest. (This narrative aligns with the statement by {exp2_name}: '{exp2_quote}' [^{fn2}]). This supporting sentence strengthens the paragraph's main argument by anchoring it directly in expert judgment rather than a separate section.")
+    md.append(f"({exp2} [^{fn2}])")
     md.append("")
     # Current conditions and news
     md.append(f"## Current Conditions and News: {title}")

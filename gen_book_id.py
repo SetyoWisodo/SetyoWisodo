@@ -495,7 +495,17 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     for si,sec in enumerate(secs, start=1):
         md.append(f"## {ci}.{si} {sec}")
         md.append("")
+        exp_idx = (ci * 10 + si - 1) % len(EXPERTS)
+        exp = EXPERTS[exp_idx]
+        fn = exp_idx + 1
+        md.append(f"{exp} [^{fn}]")
+        md.append("")
         md.append(para(theme, sec, si))
+        md.append("")
+        exp_idx2 = (exp_idx + 7) % len(EXPERTS)
+        exp2 = EXPERTS[exp_idx2]
+        fn2 = exp_idx2 + 1
+        md.append(f"({exp2} [^{fn2}])")
         md.append("")
         md.append(f"### Pertimbangan Utama untuk {sec}")
         md.append("")
@@ -526,13 +536,9 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         exps = (exps + EXPERTS)[:2]
     exp1 = exps[0]
     exp2 = exps[1]
-    exp1_name = exp1.split(':')[0].strip()
-    exp1_quote = exp1.split(':',1)[1].strip().strip("'")
-    exp2_name = exp2.split(':')[0].strip()
-    exp2_quote = exp2.split(':',1)[1].strip().strip("'")
-    md.append(f"{exp1_name}: '{exp1_quote}' [^{fn1}] Pernyataan ahli ini menjadi pokok kalimat untuk pembahasan tentang {theme}, menetapkan premis utama yang kemudian diuraikan paragraf-paragraf berikutnya dengan bukti mekanisme, keterpaparan, dan strategi adaptasi.")
+    md.append(f"{exp1} [^{fn1}]")
     md.append("")
-    md.append(f"Pembahasan mengenai {theme} menekankan keterkaitan risiko pada dimensi fisik, sosial, dan kelembagaan, dengan perhatian pada variasi regional, kerentanan, dan kapasitas respons. Uraian ini memperjelas bagaimana tata kelola, kesetaraan, dan perencanaan jangka panjang membentuk luaran serta di mana bukti paling kuat. (Narasi tersebut sejalan dengan pernyataan {exp2_name}: '{exp2_quote}' [^{fn2}]). Kalimat pendukung ini memperkuat argumen utama paragraf dengan menambatkannya langsung pada penilaian ahli, bukan pada seksi terpisah.")
+    md.append(f"({exp2} [^{fn2}])")
     md.append("")
     # Kondisi terkini dan berita
     md.append(f"## Kondisi Terkini dan Berita: {title}")
