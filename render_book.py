@@ -113,15 +113,38 @@ class BookPDF(FPDF):
                 fns = sorted(cur)
         if fns and p not in self._rendered_fn_pages:
             self._rendered_fn_pages.add(p)
-            # Footnotes di area margin bawah (40mm) - rapihkan tanpa tumpang tindih
-            # Posisi y = bawah halaman - margin bawah + 2mm dari atas margin, beri line height cukup
+            # --- autofit: hitung tinggi blok footnote agar tidak menimpa nomor hal / off-page ---
+            # Ruang tersedia = bottom margin - footer_gap - offset_start
+            # footer di y=-12mm (34pt dari bawah), beri gap 4mm (11.3pt)
+            avail_h = self.b_margin - 12 - 4 + 2  # mm: 40-12-4+2=26mm -> pt
+            # fungsi estimasi tinggi
+            def est_height(fn_size, lh):
+                usable_w = self.w - self.l_margin - self.r_margin
+                total = 0
+                for n in fns:
+                    t = '%d. %s' % (n, footnotes.get(n,''))
+                    # string width pada fn_size
+                    w = self.get_string_width(t)
+                    # jika ada kata sangat panjang tanpa spasi, ceil tetap aman
+                    lines = int(w // usable_w) + 1
+                    # multi_cell juga wrap kata, estimasi lines via ceil lebih akurat jika hit via get_string_width per kata? pakai simple ceil
+                    # untuk aman tambah 1 baris jika >80% lebar
+                    total += lines * lh
+                return total
+            # cari fn_size & lh yang muat; mulai 9pt/4.2mm, turun sampai 6pt/3.0mm
+            fn_size, lh = 9, 4.2
+            # konversi avail_h mm ke pt untuk banding? est_height dalam mm (lh mm), avail_h mm. pakai mm.
+            while est_height(fn_size, lh) > avail_h and fn_size > 6:
+                fn_size -= 0.5
+                lh = max(3.0, fn_size * 0.47)  # ~ line-height 1.25x in mm; 9pt->4.2, 6pt->2.8
+                # recalc usable_w dengan fn_size baru (get_string_width berubah)
+            # Render dengan ukuran terpilih
             self.set_y(self.h - self.b_margin + 2)
-            self.set_font('TNR', '', 9)  # footnotes sedikit lebih kecil agar muat, tetap TNR
+            self.set_font('TNR', '', fn_size)
             for n in fns:
                 txt = footnotes.get(n, '')
                 self.set_x(self.l_margin)
-                # line height 4.2mm untuk 9pt agar tidak bertumpuk
-                self.multi_cell(0, 4.2, '%d. %s' % (n, txt), new_x='LMARGIN', new_y='NEXT')
+                self.multi_cell(0, lh, '%d. %s' % (n, txt), new_x='LMARGIN', new_y='NEXT')
             self.set_font('TNR', '', 12)
         # Nomor halaman: bab pertama tengah bawah, selain bab kanan bawah; margin sesuai 3/3/3/4 cm
         self.set_y(-12)
