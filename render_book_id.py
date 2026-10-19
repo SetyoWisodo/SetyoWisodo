@@ -24,6 +24,7 @@ def inline(text):
 def md_to_html(md_text):
     lines = md_text.split('\n')
     html_parts = []
+    html_parts.append('<style>p { text-align: justify; line-height: 1.25; margin-bottom: 4mm; } h1 { text-align: center; line-height: 1.5; margin-top: 6mm; margin-bottom: 4mm; } h2 { text-align: left; line-height: 1.5; margin-top: 4mm; margin-bottom: 3mm; } h3 { line-height: 1.5; margin-top: 3mm; margin-bottom: 2mm; } li { line-height: 1.25; }</style>')
     in_ul = False
     for line in lines:
         s = line.rstrip()
@@ -35,38 +36,37 @@ def md_to_html(md_text):
         if s.startswith('# '):
             if in_ul:
                 html_parts.append('</ul>'); in_ul=False
-            html_parts.append('<h1>%s</h1>' % inline(s[2:].strip()))
+            html_parts.append('<h1 style="line-height:1.5; margin-top:6mm; margin-bottom:4mm; text-align:center;">%s</h1>' % inline(s[2:].strip()))
             continue
         if s.startswith('## '):
             if in_ul:
                 html_parts.append('</ul>'); in_ul=False
-            html_parts.append('<h2>%s</h2>' % inline(s[3:].strip()))
+            html_parts.append('<h2 style="line-height:1.5; margin-top:4mm; margin-bottom:3mm;">%s</h2>' % inline(s[3:].strip()))
             continue
         if s.startswith('### '):
             if in_ul:
                 html_parts.append('</ul>'); in_ul=False
-            html_parts.append('<h3>%s</h3>' % inline(s[4:].strip()))
+            html_parts.append('<h3 style="line-height:1.5; margin-top:3mm; margin-bottom:2mm;">%s</h3>' % inline(s[4:].strip()))
             continue
         if s.strip().startswith('- '):
             if not in_ul:
                 html_parts.append('<ul>'); in_ul=True
-            html_parts.append('<li>%s</li>' % inline(s.strip()[2:].strip()))
+            html_parts.append('<li style="line-height:1.25; text-align:justify;">%s</li>' % inline(s.strip()[2:].strip()))
             continue
         m = re.match(r'^\d+\.\s+(.*)', s.strip())
         if m:
             if not in_ul:
                 html_parts.append('<ul>'); in_ul=True
-            html_parts.append('<li>%s</li>' % inline(m.group(1).strip()))
+            html_parts.append('<li style="line-height:1.25; text-align:justify;">%s</li>' % inline(m.group(1).strip()))
             continue
         if s.strip() == '':
             if in_ul:
                 html_parts.append('</ul>'); in_ul=False
-            html_parts.append('<br>')
+            html_parts.append('<div style="height:2mm;"></div>')
             continue
         if in_ul:
             html_parts.append('</ul>'); in_ul=False
-        html_parts.append('<p>&nbsp;&nbsp;&nbsp;&nbsp;%s</p>' % inline(s.strip()))
-        html_parts.append('<br>')
+        html_parts.append('<p style="text-align:justify; line-height:1.25; margin-bottom:4mm; text-indent:12.7mm;">%s</p>' % inline(s.strip()))
     if in_ul:
         html_parts.append('</ul>')
     return '\n'.join(html_parts)
@@ -85,8 +85,8 @@ class TrackingHTML2PDF(HTML2FPDF):
 
 class BookPDF(FPDF):
     HTML2FPDF_CLASS = TrackingHTML2PDF
-    def __init__(self):
-        super().__init__()
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self.page_fns = {}
         self._fn_seen = set()
         self._page_fn_start = set()
@@ -125,8 +125,9 @@ class BookPDF(FPDF):
         else:
             self.cell(0, 5, '%d' % p, align='R')
 
-pdf = BookPDF()
-pdf.set_auto_page_break(auto=True, margin=12)
+pdf = BookPDF(orientation='P', unit='mm', format='A4')
+pdf.set_margins(left=30, top=30, right=30)
+pdf.set_auto_page_break(auto=True, margin=40)
 pdf.add_font('TNR', '', '/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', uni=True)
 pdf.add_font('TNR', 'B', '/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', uni=True)
 pdf.set_font('TNR', '', 12)
@@ -161,4 +162,4 @@ if pdf.page > 0:
         pdf.page_fns[pdf.page] = fns
 
 pdf.output('/home/user/SetyoWisodo/Surviving_the_Future_ID.pdf')
-print('PDF written; footnotes:', len(footnotes), 'pages:', pdf.page)
+print('PDF written; footnotes:', len(footnotes), 'pages:', pdf.page, 'format: A4 margins 30/30/30/40mm')

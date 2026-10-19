@@ -1,6 +1,7 @@
 // =====================================================================
 //  Book template — "Surviving the Future" / "Bertahan Hidup di Masa Depan"
-//  Trim 6 x 9 in (152.4 x 228.6 mm), print-ready interior for POD/offset.
+//  A4 (210 x 297 mm), margins top 30mm bottom 40mm left 30mm right 30mm
+//  line spacing 1.25 within para, 1.5 between para, headings 1.5
 // =====================================================================
 
 #let serif = ("Times New Roman", "DejaVu Serif", "Times", "Serif")
@@ -121,11 +122,12 @@
   set document(title: title + ": " + subtitle, author: author, keywords: keywords)
   set text(font: serif, size: 12pt, lang: lang, fill: ink, hyphenate: true,
            number-type: "lining", costs: (hyphenation: 60%, runt: 120%, widow: 200%, orphan: 200%))
-  set par(justify: true, leading: 0.68em, first-line-indent: 1.2em, spacing: 0.68em)
+  // Format: Times New Roman 12, A4, justify, first line indent 12.7mm, line spacing 1.25, antar paragraf 1.5
+  set par(justify: true, leading: 0.30em, first-line-indent: 12.7mm, spacing: 0.90em)
   set page(
-    width: 6in, height: 9in,
-    margin: (inside: 0.85in, outside: 0.62in, top: 0.78in, bottom: 0.82in),
-    header-ascent: 38%, footer-descent: 35%,
+    width: 210mm, height: 297mm,
+    margin: (top: 30mm, bottom: 40mm, left: 30mm, right: 30mm),
+    header-ascent: 30mm, footer-descent: 12mm,
   )
   set list(indent: 0.6em, body-indent: 0.5em, spacing: 0.55em, marker: ([•], [–]))
   set enum(indent: 0.6em, body-indent: 0.5em, spacing: 0.55em)
