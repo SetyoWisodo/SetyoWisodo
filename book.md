@@ -226,11 +226,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Introduction: The Warming World
+The central premise of this chapter is established through Prof. Katharine Hayhoe, climate scientist, who observes that Climate change is not a distant threat; it is here and now, affecting every region and every sector of society. [^2] This insight serves as the topic sentence for the discussion on the warming world and the coming crises, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now, affecting every region and every sector of society.' [^2]
-
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry.' [^3]
+Reinforcing this, Dr. Michael Mann, climatologist notes that The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry. [^3] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for the warming world and the coming crises should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Introduction: The Warming World
 
@@ -375,11 +373,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: The Science of Global Warming
+The central premise of this chapter is established through Dr. Michael Mann, climatologist, who observes that The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry. [^3] This insight serves as the topic sentence for the discussion on the physical science of global warming, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry.' [^3]
-
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this.' [^4]
+Reinforcing this, Dr. Friederike Otto, climate researcher notes that Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this. [^4] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for the physical science of global warming should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: The Science of Global Warming
 
@@ -525,11 +521,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: History of Climate Change
+The central premise of this chapter is established through Dr. Friederike Otto, climate researcher, who observes that Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this. [^4] This insight serves as the topic sentence for the discussion on the history of climate change and human response, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this.' [^4]
-
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space, risking irreversible tipping points.' [^5]
+Reinforcing this, Prof. Johan Rockstrom, Earth system scientist notes that We are pushing the planet beyond its safe operating space, risking irreversible tipping points. [^5] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for the history of climate change and human response should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: History of Climate Change
 
@@ -674,11 +668,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Climate Systems and Feedback Loops
+The central premise of this chapter is established through Prof. Johan Rockstrom, Earth system scientist, who observes that We are pushing the planet beyond its safe operating space, risking irreversible tipping points. [^5] This insight serves as the topic sentence for the discussion on climate systems and feedback mechanisms, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space, risking irreversible tipping points.' [^5]
-
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice.' [^6]
+Reinforcing this, Dr. Saleemul Huq, climate adaptation expert notes that Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice. [^6] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for climate systems and feedback mechanisms should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Climate Systems and Feedback Loops
 
@@ -823,11 +815,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Measurement and Monitoring
+The central premise of this chapter is established through Dr. Saleemul Huq, climate adaptation expert, who observes that Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice. [^6] This insight serves as the topic sentence for the discussion on climate measurement and monitoring, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice.' [^6]
-
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage.' [^7]
+Reinforcing this, Prof. Nicholas Stern, economist notes that The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage. [^7] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for climate measurement and monitoring should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Measurement and Monitoring
 
@@ -973,11 +963,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Extreme Heat
+The central premise of this chapter is established through Prof. Nicholas Stern, economist, who observes that The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage. [^7] This insight serves as the topic sentence for the discussion on extreme heat and heat waves, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage.' [^7]
-
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide.' [^8]
+Reinforcing this, Dr. Maria Neira, WHO notes that Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide. [^8] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for extreme heat and heat waves should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Extreme Heat
 
@@ -1122,11 +1110,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Water Scarcity and Drought
+The central premise of this chapter is established through Dr. Maria Neira, WHO, who observes that Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide. [^8] This insight serves as the topic sentence for the discussion on water scarcity and drought, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide.' [^8]
-
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people.' [^9]
+Reinforcing this, Prof. Hans-Otto Portner, IPCC notes that The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people. [^9] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for water scarcity and drought should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Water Scarcity and Drought
 
@@ -1271,9 +1257,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-An integrated expert synthesis frames this chapter: Prof. Michael Oppenheimer, climate scientist observes that Sea level rise is committed for centuries, and coastal communities must plan for irreversible change. [^9] This statement serves as the central topic sentence — sea-level commitment is the core premise from which Flood Types, Coastal Risk, Riverine Floods, and Urban Flooding are interpreted. Subsequent paragraphs explain this premise with supporting data on mechanisms, exposure, and managed retreat.
+The central premise of this chapter is established through Prof. Hans-Otto Portner, IPCC, who observes that The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people. [^9] This insight serves as the topic sentence for the discussion on floods and sea level rise, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-Complementing this, Prof. Hans-Otto Portner, IPCC emphasizes that The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people. [^10] This is used as a supporting narrative for the main arguments: it explains why flood defenses, insurance, and long-term coastal adaptation must be evaluated against irreversible change and narrowing windows for action, turning expert insight into paragraph-level analysis rather than a separate section.
+Reinforcing this, Dr. Debra Roberts, IPCC notes that Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk. [^10] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for floods and sea level rise should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Floods and Sea Level Rise
 
@@ -1419,11 +1405,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Food and Agriculture
+The central premise of this chapter is established through Dr. Debra Roberts, IPCC, who observes that Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk. [^10] This insight serves as the topic sentence for the discussion on food security and agriculture under climate change, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk.' [^10]
-
-> Prof. Michael Oppenheimer, climate scientist: 'Sea level rise is committed for centuries, and coastal communities must plan for irreversible change.' [^11]
+Reinforcing this, Prof. Michael Oppenheimer, climate scientist notes that Sea level rise is committed for centuries, and coastal communities must plan for irreversible change. [^11] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for food security and agriculture under climate change should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Food and Agriculture
 
@@ -1567,11 +1551,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Ecosystems and Biodiversity
+The central premise of this chapter is established through Prof. Michael Oppenheimer, climate scientist, who observes that Sea level rise is committed for centuries, and coastal communities must plan for irreversible change. [^11] This insight serves as the topic sentence for the discussion on ecosystems and biodiversity loss, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Michael Oppenheimer, climate scientist: 'Sea level rise is committed for centuries, and coastal communities must plan for irreversible change.' [^11]
-
-> Dr. Cynthia Rosenzweig, climate impacts researcher: 'Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation.' [^12]
+Reinforcing this, Dr. Cynthia Rosenzweig, climate impacts researcher notes that Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation. [^12] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for ecosystems and biodiversity loss should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Ecosystems and Biodiversity
 
@@ -1716,11 +1698,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Health and Disease
+The central premise of this chapter is established through Dr. Cynthia Rosenzweig, climate impacts researcher, who observes that Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation. [^12] This insight serves as the topic sentence for the discussion on health impacts of climate change, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Cynthia Rosenzweig, climate impacts researcher: 'Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation.' [^12]
-
-> Prof. Diana Liverman, geographer: 'Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens.' [^13]
+Reinforcing this, Prof. Diana Liverman, geographer notes that Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens. [^13] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for health impacts of climate change should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Health and Disease
 
@@ -1866,11 +1846,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Economic Impacts
+The central premise of this chapter is established through Prof. Diana Liverman, geographer, who observes that Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens. [^13] This insight serves as the topic sentence for the discussion on economic impacts of climate change, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Diana Liverman, geographer: 'Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens.' [^13]
-
-> Dr. Kristie Ebi, global health researcher: 'Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases.' [^14]
+Reinforcing this, Dr. Kristie Ebi, global health researcher notes that Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases. [^14] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for economic impacts of climate change should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Economic Impacts
 
@@ -2015,11 +1993,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Migration and Displacement
+The central premise of this chapter is established through Dr. Kristie Ebi, global health researcher, who observes that Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases. [^14] This insight serves as the topic sentence for the discussion on climate migration and displacement, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Kristie Ebi, global health researcher: 'Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases.' [^14]
-
-> Prof. Mark Howden, climate adaptation scientist: 'Effective adaptation combines scientific knowledge with local experience and institutional capacity.' [^15]
+Reinforcing this, Prof. Mark Howden, climate adaptation scientist notes that Effective adaptation combines scientific knowledge with local experience and institutional capacity. [^15] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for climate migration and displacement should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Migration and Displacement
 
@@ -2164,9 +2140,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Conflict and Security
+The central premise of this chapter is established through Prof. Mark Howden, climate adaptation scientist, who observes that Effective adaptation combines scientific knowledge with local experience and institutional capacity. [^15] This insight serves as the topic sentence for the discussion on climate change and conflict, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Mark Howden, climate adaptation scientist: 'Effective adaptation combines scientific knowledge with local experience and institutional capacity.' [^15]
+Reinforcing this, Dr. James Hansen, climate scientist notes that The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year. [^16] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for climate change and conflict should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Conflict and Security
 
@@ -2312,11 +2288,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Infrastructure Failure
+The central premise of this chapter is established through Dr. James Hansen, climate scientist, who observes that The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year. [^1] This insight serves as the topic sentence for the discussion on infrastructure resilience, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year.' [^1]
-
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now, affecting every region and every sector of society.' [^2]
+Reinforcing this, Prof. Katharine Hayhoe, climate scientist notes that Climate change is not a distant threat; it is here and now, affecting every region and every sector of society. [^2] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for infrastructure resilience should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Infrastructure Failure
 
@@ -2461,11 +2435,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Climate Literacy
+The central premise of this chapter is established through Prof. Katharine Hayhoe, climate scientist, who observes that Climate change is not a distant threat; it is here and now, affecting every region and every sector of society. [^2] This insight serves as the topic sentence for the discussion on climate literacy and education, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now, affecting every region and every sector of society.' [^2]
-
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry.' [^3]
+Reinforcing this, Dr. Michael Mann, climatologist notes that The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry. [^3] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for climate literacy and education should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Climate Literacy
 
@@ -2610,11 +2582,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Reference Paper Education
+The central premise of this chapter is established through Dr. Michael Mann, climatologist, who observes that The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry. [^3] This insight serves as the topic sentence for the discussion on reference paper education and scientific literacy, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry.' [^3]
-
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this.' [^4]
+Reinforcing this, Dr. Friederike Otto, climate researcher notes that Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this. [^4] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for reference paper education and scientific literacy should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Reference Paper Education
 
@@ -2760,11 +2730,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: How to Read Scientific Literature
+The central premise of this chapter is established through Dr. Friederike Otto, climate researcher, who observes that Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this. [^4] This insight serves as the topic sentence for the discussion on reading and understanding scientific papers, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this.' [^4]
-
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space, risking irreversible tipping points.' [^5]
+Reinforcing this, Prof. Johan Rockstrom, Earth system scientist notes that We are pushing the planet beyond its safe operating space, risking irreversible tipping points. [^5] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for reading and understanding scientific papers should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: How to Read Scientific Literature
 
@@ -2909,11 +2877,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Data and Statistics for Citizens
+The central premise of this chapter is established through Prof. Johan Rockstrom, Earth system scientist, who observes that We are pushing the planet beyond its safe operating space, risking irreversible tipping points. [^5] This insight serves as the topic sentence for the discussion on data and statistics for citizens, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space, risking irreversible tipping points.' [^5]
-
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice.' [^6]
+Reinforcing this, Dr. Saleemul Huq, climate adaptation expert notes that Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice. [^6] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for data and statistics for citizens should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Data and Statistics for Citizens
 
@@ -3057,11 +3023,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Misinformation and Media Literacy
+The central premise of this chapter is established through Dr. Saleemul Huq, climate adaptation expert, who observes that Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice. [^6] This insight serves as the topic sentence for the discussion on misinformation and media literacy, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice.' [^6]
-
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage.' [^7]
+Reinforcing this, Prof. Nicholas Stern, economist notes that The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage. [^7] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for misinformation and media literacy should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Misinformation and Media Literacy
 
@@ -3207,11 +3171,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Risk Assessment for Your Location
+The central premise of this chapter is established through Prof. Nicholas Stern, economist, who observes that The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage. [^7] This insight serves as the topic sentence for the discussion on local risk assessment, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage.' [^7]
-
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide.' [^8]
+Reinforcing this, Dr. Maria Neira, WHO notes that Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide. [^8] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for local risk assessment should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Risk Assessment for Your Location
 
@@ -3356,11 +3318,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Water Security at Home
+The central premise of this chapter is established through Dr. Maria Neira, WHO, who observes that Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide. [^8] This insight serves as the topic sentence for the discussion on household water security, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide.' [^8]
-
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people.' [^9]
+Reinforcing this, Prof. Hans-Otto Portner, IPCC notes that The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people. [^9] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for household water security should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Water Security at Home
 
@@ -3505,11 +3465,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Food Security at Home
+The central premise of this chapter is established through Prof. Hans-Otto Portner, IPCC, who observes that The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people. [^9] This insight serves as the topic sentence for the discussion on household food security, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people.' [^9]
-
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk.' [^10]
+Reinforcing this, Dr. Debra Roberts, IPCC notes that Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk. [^10] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for household food security should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Food Security at Home
 
@@ -3655,11 +3613,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Shelter and Energy
+The central premise of this chapter is established through Dr. Debra Roberts, IPCC, who observes that Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk. [^10] This insight serves as the topic sentence for the discussion on shelter and energy resilience, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk.' [^10]
-
-> Prof. Michael Oppenheimer, climate scientist: 'Sea level rise is committed for centuries, and coastal communities must plan for irreversible change.' [^11]
+Reinforcing this, Prof. Michael Oppenheimer, climate scientist notes that Sea level rise is committed for centuries, and coastal communities must plan for irreversible change. [^11] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for shelter and energy resilience should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Shelter and Energy
 
@@ -3804,11 +3760,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Health and First Aid
+The central premise of this chapter is established through Prof. Michael Oppenheimer, climate scientist, who observes that Sea level rise is committed for centuries, and coastal communities must plan for irreversible change. [^11] This insight serves as the topic sentence for the discussion on health and first aid preparedness, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Michael Oppenheimer, climate scientist: 'Sea level rise is committed for centuries, and coastal communities must plan for irreversible change.' [^11]
-
-> Dr. Cynthia Rosenzweig, climate impacts researcher: 'Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation.' [^12]
+Reinforcing this, Dr. Cynthia Rosenzweig, climate impacts researcher notes that Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation. [^12] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for health and first aid preparedness should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Health and First Aid
 
@@ -3953,11 +3907,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Financial Preparedness
+The central premise of this chapter is established through Dr. Cynthia Rosenzweig, climate impacts researcher, who observes that Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation. [^12] This insight serves as the topic sentence for the discussion on financial preparedness, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Cynthia Rosenzweig, climate impacts researcher: 'Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation.' [^12]
-
-> Prof. Diana Liverman, geographer: 'Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens.' [^13]
+Reinforcing this, Prof. Diana Liverman, geographer notes that Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens. [^13] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for financial preparedness should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Financial Preparedness
 
@@ -4103,11 +4055,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Evacuation and Emergency Response
+The central premise of this chapter is established through Prof. Diana Liverman, geographer, who observes that Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens. [^13] This insight serves as the topic sentence for the discussion on evacuation and emergency response, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Diana Liverman, geographer: 'Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens.' [^13]
-
-> Dr. Kristie Ebi, global health researcher: 'Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases.' [^14]
+Reinforcing this, Dr. Kristie Ebi, global health researcher notes that Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases. [^14] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for evacuation and emergency response should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Evacuation and Emergency Response
 
@@ -4252,11 +4202,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Special Populations
+The central premise of this chapter is established through Dr. Kristie Ebi, global health researcher, who observes that Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases. [^14] This insight serves as the topic sentence for the discussion on protecting vulnerable and special populations, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Kristie Ebi, global health researcher: 'Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases.' [^14]
-
-> Prof. Mark Howden, climate adaptation scientist: 'Effective adaptation combines scientific knowledge with local experience and institutional capacity.' [^15]
+Reinforcing this, Prof. Mark Howden, climate adaptation scientist notes that Effective adaptation combines scientific knowledge with local experience and institutional capacity. [^15] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for protecting vulnerable and special populations should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Special Populations
 
@@ -4401,9 +4349,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Social Capital and Networks
+The central premise of this chapter is established through Prof. Mark Howden, climate adaptation scientist, who observes that Effective adaptation combines scientific knowledge with local experience and institutional capacity. [^15] This insight serves as the topic sentence for the discussion on social capital and community networks, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Mark Howden, climate adaptation scientist: 'Effective adaptation combines scientific knowledge with local experience and institutional capacity.' [^15]
+Reinforcing this, Dr. James Hansen, climate scientist notes that The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year. [^16] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for social capital and community networks should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Social Capital and Networks
 
@@ -4548,11 +4496,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Mutual Aid
+The central premise of this chapter is established through Dr. James Hansen, climate scientist, who observes that The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year. [^1] This insight serves as the topic sentence for the discussion on mutual aid and community support, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year.' [^1]
-
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now, affecting every region and every sector of society.' [^2]
+Reinforcing this, Prof. Katharine Hayhoe, climate scientist notes that Climate change is not a distant threat; it is here and now, affecting every region and every sector of society. [^2] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for mutual aid and community support should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Mutual Aid
 
@@ -4697,11 +4643,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Local Governance
+The central premise of this chapter is established through Prof. Katharine Hayhoe, climate scientist, who observes that Climate change is not a distant threat; it is here and now, affecting every region and every sector of society. [^2] This insight serves as the topic sentence for the discussion on local governance and climate action, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now, affecting every region and every sector of society.' [^2]
-
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry.' [^3]
+Reinforcing this, Dr. Michael Mann, climatologist notes that The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry. [^3] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for local governance and climate action should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Local Governance
 
@@ -4846,11 +4790,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Urban Resilience
+The central premise of this chapter is established through Dr. Michael Mann, climatologist, who observes that The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry. [^3] This insight serves as the topic sentence for the discussion on urban resilience to climate change, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry.' [^3]
-
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this.' [^4]
+Reinforcing this, Dr. Friederike Otto, climate researcher notes that Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this. [^4] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for urban resilience to climate change should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Urban Resilience
 
@@ -4996,11 +4938,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Rural Resilience
+The central premise of this chapter is established through Dr. Friederike Otto, climate researcher, who observes that Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this. [^4] This insight serves as the topic sentence for the discussion on rural resilience, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this.' [^4]
-
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space, risking irreversible tipping points.' [^5]
+Reinforcing this, Prof. Johan Rockstrom, Earth system scientist notes that We are pushing the planet beyond its safe operating space, risking irreversible tipping points. [^5] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for rural resilience should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Rural Resilience
 
@@ -5145,11 +5085,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Indigenous Knowledge
+The central premise of this chapter is established through Prof. Johan Rockstrom, Earth system scientist, who observes that We are pushing the planet beyond its safe operating space, risking irreversible tipping points. [^5] This insight serves as the topic sentence for the discussion on indigenous and traditional knowledge, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space, risking irreversible tipping points.' [^5]
-
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice.' [^6]
+Reinforcing this, Dr. Saleemul Huq, climate adaptation expert notes that Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice. [^6] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for indigenous and traditional knowledge should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Indigenous Knowledge
 
@@ -5294,11 +5232,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Renewable Energy Systems
+The central premise of this chapter is established through Dr. Saleemul Huq, climate adaptation expert, who observes that Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice. [^6] This insight serves as the topic sentence for the discussion on renewable energy for resilience, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice.' [^6]
-
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage.' [^7]
+Reinforcing this, Prof. Nicholas Stern, economist notes that The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage. [^7] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for renewable energy for resilience should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Renewable Energy Systems
 
@@ -5444,11 +5380,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Water Technologies
+The central premise of this chapter is established through Prof. Nicholas Stern, economist, who observes that The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage. [^7] This insight serves as the topic sentence for the discussion on water technologies for adaptation, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage.' [^7]
-
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide.' [^8]
+Reinforcing this, Dr. Maria Neira, WHO notes that Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide. [^8] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for water technologies for adaptation should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Water Technologies
 
@@ -5593,11 +5527,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Agricultural Technologies
+The central premise of this chapter is established through Dr. Maria Neira, WHO, who observes that Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide. [^8] This insight serves as the topic sentence for the discussion on agricultural technologies, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide.' [^8]
-
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people.' [^9]
+Reinforcing this, Prof. Hans-Otto Portner, IPCC notes that The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people. [^9] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for agricultural technologies should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Agricultural Technologies
 
@@ -5742,11 +5674,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Early Warning Systems
+The central premise of this chapter is established through Prof. Hans-Otto Portner, IPCC, who observes that The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people. [^9] This insight serves as the topic sentence for the discussion on early warning systems, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people.' [^9]
-
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk.' [^10]
+Reinforcing this, Dr. Debra Roberts, IPCC notes that Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk. [^10] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for early warning systems should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Early Warning Systems
 
@@ -5892,11 +5822,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: AI and Data for Climate
+The central premise of this chapter is established through Dr. Debra Roberts, IPCC, who observes that Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk. [^10] This insight serves as the topic sentence for the discussion on AI and data for climate action, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk.' [^10]
-
-> Prof. Michael Oppenheimer, climate scientist: 'Sea level rise is committed for centuries, and coastal communities must plan for irreversible change.' [^11]
+Reinforcing this, Prof. Michael Oppenheimer, climate scientist notes that Sea level rise is committed for centuries, and coastal communities must plan for irreversible change. [^11] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for AI and data for climate action should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: AI and Data for Climate
 
@@ -6040,11 +5968,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Low-Tech and Appropriate Technology
+The central premise of this chapter is established through Prof. Michael Oppenheimer, climate scientist, who observes that Sea level rise is committed for centuries, and coastal communities must plan for irreversible change. [^11] This insight serves as the topic sentence for the discussion on low-tech and appropriate technology, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Michael Oppenheimer, climate scientist: 'Sea level rise is committed for centuries, and coastal communities must plan for irreversible change.' [^11]
-
-> Dr. Cynthia Rosenzweig, climate impacts researcher: 'Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation.' [^12]
+Reinforcing this, Dr. Cynthia Rosenzweig, climate impacts researcher notes that Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation. [^12] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for low-tech and appropriate technology should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Low-Tech and Appropriate Technology
 
@@ -6189,11 +6115,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Climate Anxiety
+The central premise of this chapter is established through Dr. Cynthia Rosenzweig, climate impacts researcher, who observes that Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation. [^12] This insight serves as the topic sentence for the discussion on climate anxiety and emotional responses, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Cynthia Rosenzweig, climate impacts researcher: 'Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation.' [^12]
-
-> Prof. Diana Liverman, geographer: 'Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens.' [^13]
+Reinforcing this, Prof. Diana Liverman, geographer notes that Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens. [^13] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for climate anxiety and emotional responses should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Climate Anxiety
 
@@ -6339,11 +6263,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Trauma and Recovery
+The central premise of this chapter is established through Prof. Diana Liverman, geographer, who observes that Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens. [^13] This insight serves as the topic sentence for the discussion on trauma and recovery after disasters, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Diana Liverman, geographer: 'Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens.' [^13]
-
-> Dr. Kristie Ebi, global health researcher: 'Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases.' [^14]
+Reinforcing this, Dr. Kristie Ebi, global health researcher notes that Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases. [^14] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for trauma and recovery after disasters should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Trauma and Recovery
 
@@ -6488,11 +6410,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Building Psychological Resilience
+The central premise of this chapter is established through Dr. Kristie Ebi, global health researcher, who observes that Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases. [^14] This insight serves as the topic sentence for the discussion on psychological resilience, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Kristie Ebi, global health researcher: 'Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases.' [^14]
-
-> Prof. Mark Howden, climate adaptation scientist: 'Effective adaptation combines scientific knowledge with local experience and institutional capacity.' [^15]
+Reinforcing this, Prof. Mark Howden, climate adaptation scientist notes that Effective adaptation combines scientific knowledge with local experience and institutional capacity. [^15] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for psychological resilience should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Building Psychological Resilience
 
@@ -6637,9 +6557,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Community Mental Health
+The central premise of this chapter is established through Prof. Mark Howden, climate adaptation scientist, who observes that Effective adaptation combines scientific knowledge with local experience and institutional capacity. [^15] This insight serves as the topic sentence for the discussion on community mental health, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Mark Howden, climate adaptation scientist: 'Effective adaptation combines scientific knowledge with local experience and institutional capacity.' [^15]
+Reinforcing this, Dr. James Hansen, climate scientist notes that The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year. [^16] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for community mental health should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Community Mental Health
 
@@ -6785,11 +6705,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: International Frameworks
+The central premise of this chapter is established through Dr. James Hansen, climate scientist, who observes that The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year. [^1] This insight serves as the topic sentence for the discussion on international climate frameworks, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year.' [^1]
-
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now, affecting every region and every sector of society.' [^2]
+Reinforcing this, Prof. Katharine Hayhoe, climate scientist notes that Climate change is not a distant threat; it is here and now, affecting every region and every sector of society. [^2] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for international climate frameworks should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: International Frameworks
 
@@ -6934,11 +6852,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: National Adaptation Plans
+The central premise of this chapter is established through Prof. Katharine Hayhoe, climate scientist, who observes that Climate change is not a distant threat; it is here and now, affecting every region and every sector of society. [^2] This insight serves as the topic sentence for the discussion on national adaptation planning, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now, affecting every region and every sector of society.' [^2]
-
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry.' [^3]
+Reinforcing this, Dr. Michael Mann, climatologist notes that The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry. [^3] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for national adaptation planning should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: National Adaptation Plans
 
@@ -7083,11 +6999,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Carbon Pricing
+The central premise of this chapter is established through Dr. Michael Mann, climatologist, who observes that The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry. [^3] This insight serves as the topic sentence for the discussion on carbon pricing and markets, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry.' [^3]
-
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this.' [^4]
+Reinforcing this, Dr. Friederike Otto, climate researcher notes that Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this. [^4] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for carbon pricing and markets should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Carbon Pricing
 
@@ -7233,11 +7147,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Climate Finance
+The central premise of this chapter is established through Dr. Friederike Otto, climate researcher, who observes that Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this. [^4] This insight serves as the topic sentence for the discussion on climate finance, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this.' [^4]
-
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space, risking irreversible tipping points.' [^5]
+Reinforcing this, Prof. Johan Rockstrom, Earth system scientist notes that We are pushing the planet beyond its safe operating space, risking irreversible tipping points. [^5] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for climate finance should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Climate Finance
 
@@ -7382,11 +7294,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Justice and Equity
+The central premise of this chapter is established through Prof. Johan Rockstrom, Earth system scientist, who observes that We are pushing the planet beyond its safe operating space, risking irreversible tipping points. [^5] This insight serves as the topic sentence for the discussion on climate justice and equity, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space, risking irreversible tipping points.' [^5]
-
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice.' [^6]
+Reinforcing this, Dr. Saleemul Huq, climate adaptation expert notes that Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice. [^6] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for climate justice and equity should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Justice and Equity
 
@@ -7530,11 +7440,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Civic Engagement
+The central premise of this chapter is established through Dr. Saleemul Huq, climate adaptation expert, who observes that Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice. [^6] This insight serves as the topic sentence for the discussion on civic engagement in climate action, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice.' [^6]
-
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage.' [^7]
+Reinforcing this, Prof. Nicholas Stern, economist notes that The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage. [^7] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for civic engagement in climate action should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Civic Engagement
 
@@ -7680,11 +7588,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Case Study: Heat in South Asia
+The central premise of this chapter is established through Prof. Nicholas Stern, economist, who observes that The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage. [^7] This insight serves as the topic sentence for the discussion on heat waves in South Asia, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage.' [^7]
-
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide.' [^8]
+Reinforcing this, Dr. Maria Neira, WHO notes that Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide. [^8] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for heat waves in South Asia should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Case Study: Heat in South Asia
 
@@ -7829,11 +7735,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Case Study: Drought in the Horn of Africa
+The central premise of this chapter is established through Dr. Maria Neira, WHO, who observes that Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide. [^8] This insight serves as the topic sentence for the discussion on drought in the Horn of Africa, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Maria Neira, WHO: 'Climate change is the greatest health challenge of the 21st century, threatening lives and health systems worldwide.' [^8]
-
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people.' [^9]
+Reinforcing this, Prof. Hans-Otto Portner, IPCC notes that The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people. [^9] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for drought in the Horn of Africa should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Case Study: Drought in the Horn of Africa
 
@@ -7978,11 +7882,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Case Study: Sea Level Rise in Small Island States
+The central premise of this chapter is established through Prof. Hans-Otto Portner, IPCC, who observes that The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people. [^9] This insight serves as the topic sentence for the discussion on sea level rise in small island states, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people.' [^9]
-
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk.' [^10]
+Reinforcing this, Dr. Debra Roberts, IPCC notes that Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk. [^10] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for sea level rise in small island states should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Case Study: Sea Level Rise in Small Island States
 
@@ -8128,11 +8030,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Case Study: Wildfires in Australia and North America
+The central premise of this chapter is established through Dr. Debra Roberts, IPCC, who observes that Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk. [^10] This insight serves as the topic sentence for the discussion on wildfires, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk.' [^10]
-
-> Prof. Michael Oppenheimer, climate scientist: 'Sea level rise is committed for centuries, and coastal communities must plan for irreversible change.' [^11]
+Reinforcing this, Prof. Michael Oppenheimer, climate scientist notes that Sea level rise is committed for centuries, and coastal communities must plan for irreversible change. [^11] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for wildfires should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Case Study: Wildfires in Australia and North America
 
@@ -8277,11 +8177,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Case Study: Floods in Southeast Asia
+The central premise of this chapter is established through Prof. Michael Oppenheimer, climate scientist, who observes that Sea level rise is committed for centuries, and coastal communities must plan for irreversible change. [^11] This insight serves as the topic sentence for the discussion on floods in Southeast Asia, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Michael Oppenheimer, climate scientist: 'Sea level rise is committed for centuries, and coastal communities must plan for irreversible change.' [^11]
-
-> Dr. Cynthia Rosenzweig, climate impacts researcher: 'Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation.' [^12]
+Reinforcing this, Dr. Cynthia Rosenzweig, climate impacts researcher notes that Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation. [^12] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for floods in Southeast Asia should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Case Study: Floods in Southeast Asia
 
@@ -8426,11 +8324,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Case Study: Food Crisis in Sub-Saharan Africa
+The central premise of this chapter is established through Dr. Cynthia Rosenzweig, climate impacts researcher, who observes that Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation. [^12] This insight serves as the topic sentence for the discussion on food crisis in Sub-Saharan Africa, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Cynthia Rosenzweig, climate impacts researcher: 'Food systems face escalating risks from heat, drought, and extreme events that demand systemic adaptation.' [^12]
-
-> Prof. Diana Liverman, geographer: 'Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens.' [^13]
+Reinforcing this, Prof. Diana Liverman, geographer notes that Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens. [^13] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for food crisis in Sub-Saharan Africa should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Case Study: Food Crisis in Sub-Saharan Africa
 
@@ -8576,11 +8472,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Case Study: Water Stress in the Middle East
+The central premise of this chapter is established through Prof. Diana Liverman, geographer, who observes that Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens. [^13] This insight serves as the topic sentence for the discussion on water stress in the Middle East, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Diana Liverman, geographer: 'Climate justice requires that those least responsible for emissions are not left to bear the greatest burdens.' [^13]
-
-> Dr. Kristie Ebi, global health researcher: 'Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases.' [^14]
+Reinforcing this, Dr. Kristie Ebi, global health researcher notes that Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases. [^14] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for water stress in the Middle East should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Case Study: Water Stress in the Middle East
 
@@ -8725,11 +8619,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Case Study: Storms and Hurricanes in the Caribbean
+The central premise of this chapter is established through Dr. Kristie Ebi, global health researcher, who observes that Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases. [^14] This insight serves as the topic sentence for the discussion on storms and hurricanes in the Caribbean, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Kristie Ebi, global health researcher: 'Health systems must be strengthened to manage the shifting burden of climate-sensitive diseases.' [^14]
-
-> Prof. Mark Howden, climate adaptation scientist: 'Effective adaptation combines scientific knowledge with local experience and institutional capacity.' [^15]
+Reinforcing this, Prof. Mark Howden, climate adaptation scientist notes that Effective adaptation combines scientific knowledge with local experience and institutional capacity. [^15] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for storms and hurricanes in the Caribbean should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Case Study: Storms and Hurricanes in the Caribbean
 
@@ -8874,9 +8766,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Case Study: Permafrost Thaw in the Arctic
+The central premise of this chapter is established through Prof. Mark Howden, climate adaptation scientist, who observes that Effective adaptation combines scientific knowledge with local experience and institutional capacity. [^15] This insight serves as the topic sentence for the discussion on permafrost thaw in the Arctic, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Mark Howden, climate adaptation scientist: 'Effective adaptation combines scientific knowledge with local experience and institutional capacity.' [^15]
+Reinforcing this, Dr. James Hansen, climate scientist notes that The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year. [^16] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for permafrost thaw in the Arctic should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Case Study: Permafrost Thaw in the Arctic
 
@@ -9021,11 +8913,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Case Study: Urban Heat in Global Cities
+The central premise of this chapter is established through Dr. James Hansen, climate scientist, who observes that The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year. [^1] This insight serves as the topic sentence for the discussion on urban heat in global cities, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. James Hansen, climate scientist: 'The science is clear: continued emissions will drive dangerous warming, and the window for effective action narrows with each passing year.' [^1]
-
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now, affecting every region and every sector of society.' [^2]
+Reinforcing this, Prof. Katharine Hayhoe, climate scientist notes that Climate change is not a distant threat; it is here and now, affecting every region and every sector of society. [^2] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for urban heat in global cities should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Case Study: Urban Heat in Global Cities
 
@@ -9170,11 +9060,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: 30-Day Personal Action Plan
+The central premise of this chapter is established through Prof. Katharine Hayhoe, climate scientist, who observes that Climate change is not a distant threat; it is here and now, affecting every region and every sector of society. [^2] This insight serves as the topic sentence for the discussion on 30-day personal action plan, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Katharine Hayhoe, climate scientist: 'Climate change is not a distant threat; it is here and now, affecting every region and every sector of society.' [^2]
-
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry.' [^3]
+Reinforcing this, Dr. Michael Mann, climatologist notes that The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry. [^3] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for 30-day personal action plan should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: 30-Day Personal Action Plan
 
@@ -9319,11 +9207,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: 1-Year Community Action Plan
+The central premise of this chapter is established through Dr. Michael Mann, climatologist, who observes that The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry. [^3] This insight serves as the topic sentence for the discussion on 1-year community action plan, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Michael Mann, climatologist: 'The evidence for human-caused warming is overwhelming and converges across independent lines of inquiry.' [^3]
-
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this.' [^4]
+Reinforcing this, Dr. Friederike Otto, climate researcher notes that Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this. [^4] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for 1-year community action plan should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: 1-Year Community Action Plan
 
@@ -9469,11 +9355,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People affected by climate disasters (annual) | ~100 million+ | IFRC |
 | Economic damage from climate disasters (annual) | ~$200-300 billion | World Bank |
 
-## Expert Perspectives: Checklists and Templates
+The central premise of this chapter is established through Dr. Friederike Otto, climate researcher, who observes that Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this. [^4] This insight serves as the topic sentence for the discussion on checklists and templates, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Friederike Otto, climate researcher: 'Every heat wave today is made more likely and more intense by climate change, and attribution science now quantifies this.' [^4]
-
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space, risking irreversible tipping points.' [^5]
+Reinforcing this, Prof. Johan Rockstrom, Earth system scientist notes that We are pushing the planet beyond its safe operating space, risking irreversible tipping points. [^5] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for checklists and templates should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Checklists and Templates
 
@@ -9618,11 +9502,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | Climate anxiety prevalence (youth) | ~50%+ | Lancet Planetary Health |
 | Mental health burden | Rising | WHO |
 
-## Expert Perspectives: Glossary
+The central premise of this chapter is established through Prof. Johan Rockstrom, Earth system scientist, who observes that We are pushing the planet beyond its safe operating space, risking irreversible tipping points. [^5] This insight serves as the topic sentence for the discussion on glossary of climate and survival terms, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Prof. Johan Rockstrom, Earth system scientist: 'We are pushing the planet beyond its safe operating space, risking irreversible tipping points.' [^5]
-
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice.' [^6]
+Reinforcing this, Dr. Saleemul Huq, climate adaptation expert notes that Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice. [^6] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for glossary of climate and survival terms should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Glossary
 
@@ -9767,11 +9649,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Extended References
+The central premise of this chapter is established through Dr. Saleemul Huq, climate adaptation expert, who observes that Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice. [^6] This insight serves as the topic sentence for the discussion on extended references and further reading, framing the key challenges and guiding the paragraphs that follow with empirical grounding.
 
-> Dr. Saleemul Huq, climate adaptation expert: 'Adaptation is not optional; it is survival, and it must be grounded in local knowledge and justice.' [^6]
-
-> Prof. Nicholas Stern, economist: 'The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage.' [^7]
+Reinforcing this, Prof. Nicholas Stern, economist notes that The cost of inaction far exceeds the cost of action, and delay only compounds the economic damage. [^7] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for extended references and further reading should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.
 
 ## Current Conditions and News: Extended References
 

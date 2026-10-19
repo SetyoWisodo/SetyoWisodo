@@ -517,27 +517,23 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(DATA_TABLES[ci % len(DATA_TABLES)])
     md.append("")
-    # Perspektif Ahli - untuk Banjir dan Kenaikan Permukaan Laut (Bab 8) diintegrasikan ke pembahasan utama, bukan sub-bab terpisah
-    if ci == 8:
-        fn1 = (ci % len(EXPERTS)) + 1
-        fn2 = (ci % len(EXPERTS)) + 2
-        exp1 = EXPERTS[10]
-        exp2 = EXPERTS[8]
-        exp1_name = exp1.split(':')[0].strip()
-        exp1_quote = exp1.split(':',1)[1].strip().strip("'")
-        exp2_name = exp2.split(':')[0].strip()
-        exp2_quote = exp2.split(':',1)[1].strip().strip("'")
-        md.append(f"Sintesis ahli yang terintegrasi membingkai bab ini: {exp1_name} menegaskan bahwa {exp1_quote} [^{fn1}] Pernyataan ini menjadi pokok pikiran — komitmen kenaikan permukaan laut adalah premis utama untuk menafsirkan Jenis Banjir, Risiko Pesisir, Banjir Sungai, dan Banjir Perkotaan. Paragraf-paragraf selanjutnya menjelaskan premis tersebut dengan data mekanisme, keterpaparan, dan retret terkelola.")
-        md.append("")
-        md.append(f"Sebagai narasi pendukung, {exp2_name} menekankan bahwa {exp2_quote} [^{fn2}] Pernyataan ini berfungsi sebagai penjelasan kalimat pokok: mengapa pertahanan banjir, asuransi, dan adaptasi pesisir jangka panjang harus dinilai terhadap perubahan yang tidak dapat dibalikkan dan menyempitnya jendela tindakan, mengubah wawasan ahli menjadi analisis tingkat paragraf bukan seksi terpisah.")
-        md.append("")
-    else:
-        md.append(f"## Perspektif Ahli: {title}")
-        md.append("")
-        for j,e in enumerate(EXPERTS[ci % len(EXPERTS): (ci % len(EXPERTS))+2], start=1):
-            fn = (ci % len(EXPERTS)) + j
-            md.append(f"> {e} [^{fn}]")
-            md.append("")
+    # Perspektif Ahli - diintegrasikan ke pembahasan utama untuk SEMUA bab (bukan sub-bab terpisah)
+    # Setiap pernyataan ahli menjadi pokok pikiran / narasi pendukung
+    fn1 = (ci % len(EXPERTS)) + 1
+    fn2 = (ci % len(EXPERTS)) + 2
+    exps = EXPERTS[ci % len(EXPERTS): (ci % len(EXPERTS))+2]
+    if len(exps) < 2:
+        exps = (exps + EXPERTS)[:2]
+    exp1 = exps[0]
+    exp2 = exps[1]
+    exp1_name = exp1.split(':')[0].strip()
+    exp1_quote = exp1.split(':',1)[1].strip().strip("'")
+    exp2_name = exp2.split(':')[0].strip()
+    exp2_quote = exp2.split(':',1)[1].strip().strip("'")
+    md.append(f"Premis utama bab ini ditegakkan melalui {exp1_name}, yang menegaskan bahwa {exp1_quote} [^{fn1}] Pandangan ahli ini berfungsi sebagai pokok pikiran untuk pembahasan tentang {theme}, membingkai tantangan utama dan memandu paragraf-paragraf selanjutnya dengan landasan empiris.")
+    md.append("")
+    md.append(f"Memperkuat hal tersebut, {exp2_name} menambahkan bahwa {exp2_quote} [^{fn2}] Perspektif ini disisipkan sebagai narasi pendukung yang menjelaskan gagasan-gagasan utama — memperjelas bagaimana risiko, tata kelola, dan opsi adaptasi untuk {theme} seharusnya ditafsirkan dan ditindaklanjuti, memastikan analisis ahli memperkuat argumen inti bab pada tingkat paragraf.")
+    md.append("")
     # Kondisi terkini dan berita
     md.append(f"## Kondisi Terkini dan Berita: {title}")
     md.append("")

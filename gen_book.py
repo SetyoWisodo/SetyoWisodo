@@ -508,28 +508,23 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(DATA_TABLES[ci % len(DATA_TABLES)])
     md.append("")
-    # Expert perspectives - for Floods and Sea Level Rise (Chapter 8) integrate into main discussion, not separate subchapter
-    if ci == 8:
-        # Integrated as main idea / supporting narrative paragraphs
-        fn1 = (ci % len(EXPERTS)) + 1
-        fn2 = (ci % len(EXPERTS)) + 2
-        exp1 = EXPERTS[10]
-        exp2 = EXPERTS[8]
-        exp1_name = exp1.split(':')[0].strip()
-        exp1_quote = exp1.split(':',1)[1].strip().strip("'")
-        exp2_name = exp2.split(':')[0].strip()
-        exp2_quote = exp2.split(':',1)[1].strip().strip("'")
-        md.append(f"An integrated expert synthesis frames this chapter: {exp1_name} observes that {exp1_quote} [^{fn1}] This statement serves as the central topic sentence — sea-level commitment is the core premise from which Flood Types, Coastal Risk, Riverine Floods, and Urban Flooding are interpreted. Subsequent paragraphs explain this premise with supporting data on mechanisms, exposure, and managed retreat.")
-        md.append("")
-        md.append(f"Complementing this, {exp2_name} emphasizes that {exp2_quote} [^{fn2}] This is used as a supporting narrative for the main arguments: it explains why flood defenses, insurance, and long-term coastal adaptation must be evaluated against irreversible change and narrowing windows for action, turning expert insight into paragraph-level analysis rather than a separate section.")
-        md.append("")
-    else:
-        md.append(f"## Expert Perspectives: {title}")
-        md.append("")
-        for j,e in enumerate(EXPERTS[ci % len(EXPERTS): (ci % len(EXPERTS))+2], start=1):
-            fn = (ci % len(EXPERTS)) + j
-            md.append(f"> {e} [^{fn}]")
-            md.append("")
+    # Expert perspectives - integrated into main discussion for ALL chapters (not separate subchapter)
+    # Each expert statement becomes topic sentence / supporting narrative
+    fn1 = (ci % len(EXPERTS)) + 1
+    fn2 = (ci % len(EXPERTS)) + 2
+    exps = EXPERTS[ci % len(EXPERTS): (ci % len(EXPERTS))+2]
+    if len(exps) < 2:
+        exps = (exps + EXPERTS)[:2]
+    exp1 = exps[0]
+    exp2 = exps[1]
+    exp1_name = exp1.split(':')[0].strip()
+    exp1_quote = exp1.split(':',1)[1].strip().strip("'")
+    exp2_name = exp2.split(':')[0].strip()
+    exp2_quote = exp2.split(':',1)[1].strip().strip("'")
+    md.append(f"The central premise of this chapter is established through {exp1_name}, who observes that {exp1_quote} [^{fn1}] This insight serves as the topic sentence for the discussion on {theme}, framing the key challenges and guiding the paragraphs that follow with empirical grounding.")
+    md.append("")
+    md.append(f"Reinforcing this, {exp2_name} notes that {exp2_quote} [^{fn2}] This perspective is embedded as supporting narrative that explains the main ideas — clarifying how risks, governance, and adaptation options for {theme} should be interpreted and acted upon, ensuring expert analysis strengthens the chapter's core arguments at the paragraph level.")
+    md.append("")
     # Current conditions and news
     md.append(f"## Current Conditions and News: {title}")
     md.append("")
