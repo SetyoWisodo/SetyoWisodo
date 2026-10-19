@@ -18,7 +18,8 @@ md = '\n'.join(body_lines)
 def inline(text):
     text = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', text)
     text = re.sub(r'\*(.+?)\*', r'\1', text)
-    text = re.sub(r'\[\^(\d+)\]', r'<sup>\1</sup>', text)
+    # Superscript footnote marker dihapus sesuai permintaan user (hilangkan angka superscript di seluruh buku)
+    text = re.sub(r'\[\^(\d+)\]', r'', text)
     return text
 
 def md_to_html(md_text):
