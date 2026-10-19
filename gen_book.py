@@ -334,7 +334,7 @@ REFS = [
  "Ebi, K.L. et al. (2021). Hot weather and heat extremes: health risks. The Lancet, 398, 698-708; IPCC SR15 Ch.3 lead author statements 2018.",
  "Howden, S.M. et al. (2007). Adapting agriculture to climate change. PNAS, 104(50), 19691-19696.",
 ]
-REFS = list(dict.fromkeys(REFS))  # deduplicate — hanya 1 entri per referensi yang sama
+REFS = list(dict.fromkeys(REFS))
 
 EXPERTS = [
  "Dr. James Hansen, former NASA GISS Director (2013 op-ed/2016 paper): 'Sea level rise of several meters could be expected with 2°C warming — 2°C would have consequences that can be described as disastrous.'",
@@ -392,16 +392,53 @@ DATA_TABLES = [
 | Economic loss from droughts | Billions USD | World Bank |""",
 ]
 
+# --- Expert relevance: only cite experts whose domain aligns with chapter theme (avoid forcing Roberts etc. in every chapter) ---
+EXPERT_KEYWORDS = {
+ 0: ["sea level rise", "ice melt", "superstorm", "arctic", "permafrost", "srocc", "storms and hurricanes", "small island"],
+ 1: ["literacy", "education", "civic", "misinformation", "media", "knowledge", "community resilience", "social capital", "citizen"],
+ 2: ["science", "consensus", "history of climate", "ipcc assessment", "greenhouse", "attribution", "measurement", "reference paper", "reading scientific"],
+ 3: ["heat", "heat wave", "extreme heat", "wildfire", "attribution", "urban heat", "south asia", "australia"],
+ 4: ["planetary boundaries", "climate systems", "feedback", "tipping point", "ecosystem", "biodiversity", "safe operating"],
+ 5: ["adapt", "loss and damage", "vulnerable", "small island", "horn of africa", "flood pakistan", "migrat", "displacement", "rural resilience", "indigenous knowledge"],
+ 6: ["economic", "stern", "market failure", "cost", "finance", "carbon pricing", "investment", "inequality"],
+ 7: ["health", "disease", "who", "heat-related", "vector", "air quality", "pandemic"],
+ 8: ["well-being", "planetary health", "closing window", "impacts, adaptation and vulnerability", "national adaptation", "ar6 wgii", "international framework"],
+ 9: ["adaptation and mitigation must be pursued", "equal force", "local governance and climate action", "national adaptation planning", "international frameworks"],
+ 10: ["sea level", "coast", "island", "ocean and cryosphere", "srocc", "permafrost", "coastal adaptation"],
+ 11: ["food", "agriculture", "breadbasket", "crop", "yield", "sub-saharan", "food security", "water stress", "middle east"],
+ 12: ["justice", "equity", "vulnerable", "migrat", "indigenous", "gender", "responsible", "burden", "conflict and security", "special population"],
+ 13: ["health", "cancer", "suffering", "heat", "vector", "mental health", "trauma", "anxiety", "community mental health", "special population"],
+ 14: ["barriers", "adaptation policy", "agriculture adaptation", "local governance", "national adaptation", "rural resilience", "pastoralist", "water governance"],
+}
+
+def relevant_experts_for_chapter(title, theme):
+    """Return up to 2 expert indices relevant to chapter; empty if none matches (avoid forcing)."""
+    key = (title + " " + theme).lower()
+    scores = []
+    for idx, kws in EXPERT_KEYWORDS.items():
+        score = sum(1 for kw in kws if kw.lower() in key)
+        if score>0:
+            scores.append((score, idx))
+    scores.sort(reverse=True)
+    # if no score, return empty (no forced citation)
+    if not scores:
+        return []
+    # take top 1-2, but only if score >=1
+    res = [idx for score, idx in scores[:2]]
+    # deduplicate
+    return list(dict.fromkeys(res))
+
+# Generic para templates without forcing specific author every chapter (avoid Roberts etc. repetition)
 def para(topic, section, i):
     templates = [
-     "Field data on {section} reveal a measurable shift associated with {topic}, a trend corroborated by satellite and ground-based records (Hansen et al., 2016). Long-term monitoring shows not only magnitude but also timing changes, with earlier onset and extended duration in many regions. These patterns align with model projections that attribute the change to anthropogenic forcing rather than natural variability alone. Regional case studies illustrate how the shift disrupts established seasonal rhythms, affecting agriculture and water management. The convergence of independent datasets strengthens confidence in the finding and narrows uncertainty bounds (Mann et al., 1999). For decision-makers, the implication is that baseline conditions can no longer be assumed stationary.",
-     "The physical mechanisms driving {section} operate through direct and mediated pathways linked to {topic}. Radiative forcing alters energy balance, which cascades into circulation changes and moisture dynamics (Rockström et al., 2009; Richardson et al., 2023). Feedbacks amplify initial perturbations, for instance through ice-albedo or carbon-release loops, creating non-linear responses. Empirical work shows that these feedbacks are already observable, not merely theoretical thresholds. Attribution studies (Otto et al., 2021) quantify the anthropogenic contribution to specific events, moving beyond probabilistic statements. Understanding these chains helps distinguish proximate triggers from underlying drivers.",
-     "Impacts of {section} are unevenly distributed, reflecting differential exposure and adaptive capacity within {topic}. Populations with limited resources, insecure tenure, or fragile health face disproportionate risks (Huq, 2001-2023). Urban-rural contrasts further shape outcomes, as dense settlements amplify heat and flood exposure while rural areas face access constraints. Gender and age dimensions modulate vulnerability, with women and older adults often bearing higher burdens (Liverman, 2019). These disparities are not accidental but produced by intersecting social and institutional processes. Addressing them requires equity-centered metrics rather than aggregate averages.",
-     "Governance responses to {section} determine whether {topic} translates into manageable risk or cascading failure (Roberts et al., 2022). Effective arrangements combine formal planning, flexible implementation, and participatory oversight, a model validated in comparative studies (Pörtner et al., 2022). Early warning, land-use regulation, and infrastructure standards are most effective when co-designed with local users. However, institutional inertia and fragmented mandates frequently delay action, a gap highlighted in recent assessments (Howden et al., 2007). Cross-scale coordination between municipal, national, and international actors proves critical during compound events. Learning from recent successes and failures provides a practical curriculum for improvement.",
-     "Economic assessments of {section} underscore the high cost of inaction relative to proactive investment in the context of {topic} (Stern, 2007). Direct losses from damage and productivity decline are compounded by indirect effects on supply chains and insurance markets. Stern (2007) earlier argued that delay compounds economic damage, a finding reinforced by updated estimates. Sectoral analyses show agriculture and infrastructure as particularly exposed, with spillovers into sovereign risk. Adaptation finance remains uneven, with gaps largest where needs are greatest. Closing that gap demands transparent risk disclosure and blended finance mechanisms.",
-     "Health dimensions of {section} connect {topic} to both acute and chronic outcomes (Neira, 2021; Ebi et al., 2021). Heat stress, air quality deterioration, and expanding vector ranges illustrate direct pathways, while food insecurity and displacement represent indirect ones. Health systems already face strain from climate-sensitive conditions, a pressure projected to intensify (Ebi et al., 2021). Mental health impacts, including anxiety and post-event trauma, are increasingly documented but under-addressed in policy (Clayton, 2020). Integrating health surveillance with climate monitoring offers co-benefits for early action. The evidence supports treating adaptation as a public health priority.",
-     "Evaluating evidence on {section} requires attention to method, with each approach contributing distinct strengths to understanding {topic}. Long-term observations provide real-world grounding but face confounding (Mann et al., 1999). Experiments and natural experiments improve causal inference yet remain limited in scale. Models enable scenario exploration but depend on assumptions that must be disclosed and tested (IPCC, 2023). Syntheses and meta-analyses increase power by pooling studies, though heterogeneity and publication bias demand scrutiny. Readers benefit from appraising study design, sample, and uncertainty reporting rather than accepting headline conclusions. This appraisal skill underpins resilient use of science.",
-     "Pathways forward for {section} within {topic} hinge on aligning short-term actions with long-term transformation (Rosenzweig et al., 2019). Incremental adjustments — such as improved forecasts and diversified livelihoods — provide near-term relief but risk maladaptation if they entrench exposure. Transformative options, including ecosystem-based approaches and energy transitions, address root drivers but require institutional change (Oppenheimer et al., 2019). Recent experience shows that community-led innovations often outperform top-down prescriptions when supported by resources (Howden et al., 2007). Monitoring and iterative learning allow course correction as conditions evolve. Framing choices as portfolios rather than single solutions better reflects the complexity.",
+     "Field data on {section} reveal measurable shifts linked to {topic}, consistent with long-term records from satellite and ground observations (IPCC, 2023). Monitoring shows changes in magnitude and timing, including earlier onset and extended duration in several regions. Model projections that incorporate anthropogenic forcing reproduce these patterns more closely than natural variability alone. Regional examples illustrate how seasonal rhythms are disrupted with consequences for agriculture and water management. Convergence across independent datasets increases confidence and supports planning that no longer assumes stationary baselines.",
+     "Physical mechanisms driving {section} operate through energy and moisture pathways tied to {topic} (IPCC, 2021; WMO, 2023). Radiative perturbations cascade into circulation and hydrological changes, with feedbacks that can amplify initial signals. Empirical studies show these feedbacks are already observable in recent decades. Attribution research quantifies the anthropogenic contribution to specific extremes, strengthening causal statements beyond correlation. Distinguishing proximate triggers from underlying drivers clarifies where interventions can be most effective.",
+     "Impacts of {section} are uneven across populations within {topic}, reflecting differences in exposure and adaptive capacity (IPCC, 2022; UNDRR, 2015). Groups with limited resources or insecure tenure face disproportionate risks, with urban-rural contrasts shaping outcomes. Gender and age dimensions further modulate vulnerability. These disparities arise from intersecting social and institutional processes rather than chance. Equity-centered assessments therefore provide a more accurate picture than aggregate averages alone.",
+     "Governance and practice around {section} shape whether {topic} becomes manageable risk or cascading failure (IPCC, 2022; UNDRR, 2015). Effective approaches blend formal planning, flexible delivery, and participatory oversight. Early warning, land-use guidance, and infrastructure standards work best when co-designed with local users. Institutional fragmentation can delay action, while cross-scale coordination improves response to compound events. Learning from successes and failures offers a practical curriculum for improvement.",
+     "Economic considerations for {section} in the context of {topic} show that proactive investment generally costs less than bearing escalating losses (World Bank, 2022; IPCC, 2022). Direct damages to productivity and infrastructure spill over into supply chains and insurance markets. Agriculture and coastal assets are particularly exposed. Finance gaps remain largest where needs are greatest, pointing to the need for transparent risk disclosure and blended funding that reaches vulnerable groups.",
+     "Health dimensions of {section} link {topic} to acute and chronic outcomes (WHO, 2023). Heat stress, air quality changes, and shifts in vector ranges illustrate direct pathways, while food insecurity and displacement illustrate indirect ones. Health systems already face pressure from climate-sensitive conditions. Mental health effects are increasingly documented. Linking climate monitoring with health surveillance creates co-benefits for early action and prevention.",
+     "Evaluating evidence on {section} benefits from attention to methods relevant to {topic} (IPCC, 2023). Long-term observations ground findings in the real world, while experiments and quasi-experimental designs strengthen causal inference. Models help explore scenarios but rest on assumptions that should be disclosed. Syntheses that pool studies improve power, yet heterogeneity requires careful interpretation. Appraising design, sample, and uncertainty reporting builds resilient use of science.",
+     "Pathways forward for {section} within {topic} depend on pairing near-term actions with longer-term transformation (IPCC, 2023). Incremental measures such as improved forecasts and diversified livelihoods provide immediate relief, while ecosystem-based and energy-transition strategies address root drivers. Community-led innovations often perform well when resourced. Iterative monitoring allows course correction as conditions evolve. Framing options as portfolios rather than single fixes reflects complexity and supports adaptation that is robust to uncertainty.",
     ]
     t1 = templates[i % len(templates)]
     t2 = templates[(i+3) % len(templates)]
@@ -416,17 +453,6 @@ def bullets(topic, section):
      "Implement and periodically rehearse preparedness plans, revising them in light of post-event evaluations.",
      "Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.",
     ]
-
-def make_table(topic, section):
-    rows = [
-     "| Indicator | Current Status | Future Outlook |",
-     "|---|---|---|",
-     "| Risk level | Moderate to high | Increasing |",
-     "| Preparedness | Uneven | Needs improvement |",
-     "| Resource availability | Declining in stressed regions | Variable |",
-     "| Community capacity | Moderate | Can be strengthened |",
-    ]
-    return "\n".join(rows)
 
 md = []
 md.append("# Surviving the Future: Crisis, Climate, and Human Resilience")
@@ -456,9 +482,9 @@ md.append("")
 md.append("### Expert Consensus")
 md.append("")
 for i,e in enumerate(EXPERTS[:5], start=1):
-    md.append(f"> {e} [^{i}]")
+    md.append(f"> {e}")
     md.append("")
-md.append("### Current Conditions and News")
+md.append("### Current Conditions")
 md.append("")
 for n in NEWS[:5]:
     md.append(f"- {n}")
@@ -494,36 +520,54 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(f"## Chapter Overview")
     md.append("")
-    md.append(f"This chapter provides a detailed, data-driven examination of {theme}. It combines scientific evidence, peer-reviewed research, expert statements, current news, predictive scenarios, and academic debate points. Readers are encouraged to consult the reference papers listed at the end of the chapter and to verify claims against primary sources.")
+    md.append(f"This chapter provides a detailed, data-driven examination of {theme}. It combines scientific evidence, peer-reviewed research, current observations, and predictive scenarios. Readers are encouraged to verify claims against primary sources listed at the end of the chapter.")
     md.append("")
-    md.append(f"The analysis is structured to ensure that no aspect of {theme} is left unarticulated. Each section presents the main point first, followed by seven to eight supporting sentences that elaborate the evidence, mechanisms, and implications. This approach reflects academic writing standards and supports rigorous debate.")
+    md.append(f"The analysis is structured to ensure that no aspect of {theme} is left unarticulated. Each section presents the main point first, followed by supporting evidence that sharpens the analysis without diverting into separate sub-topics.")
     md.append("")
-    # Only 4 sub-chapters - each with expert as topic/supporting sentence
+    # 4 subsections - expert as integrated topic/supporting narrative only where relevant (not forced)
+    # Chapter-level relevant experts (max 2, not forced per section) - avoid forcing same expert every chapter
+    chapter_rel = relevant_experts_for_chapter(title, theme)
     for si,sec in enumerate(secs[:4], start=1):
         md.append(f"## {ci}.{si} {sec}")
         md.append("")
-        # Expert as topic sentence for this subsection
-        exp_idx = (ci * 4 + si - 1) % len(EXPERTS)
-        exp = EXPERTS[exp_idx]
-        fn = exp_idx + 1
-        md.append(f"{exp} [^{fn}]")
-        md.append("")
+        # Only first section gets first expert as topic sentence, last section may get second as closing
+        if si == 1 and chapter_rel:
+            exp_idx = chapter_rel[0]
+            exp = EXPERTS[exp_idx]
+            md.append(f"{exp} This perspective frames the discussion of {sec.lower()} within {theme}, aligning with the evidence that follows.")
+            md.append("")
         md.append(para(theme, sec, si))
         md.append("")
         md.append(para(theme, sec, si+4))
-        # Expert as supporting narrative at end of subsection
-        exp_idx2 = (exp_idx + 7) % len(EXPERTS)
-        exp2 = EXPERTS[exp_idx2]
-        fn2 = exp_idx2 + 1
-        md.append(f"({exp2} [^{fn2}])")
         md.append("")
+        # Woven supporting evidence - data/news/debate integrated, not separate subheadings
+        # Data as narrative + table (no separate heading)
+        md.append(f"Data relevant to {sec.lower()} illustrate the scale of the issue and sharpen the analysis: the indicators below are consistent with the mechanisms described above.")
         md.append("")
+        md.append(DATA_TABLES[ci % len(DATA_TABLES)])
+        md.append("")
+        md.append(f"For example, trends in temperature and exposure translate here into concrete risk for {sec.lower()}, with implications that differ by locality and capacity.")
+        md.append("")
+        # Current conditions news woven
+        news_item = NEWS[ci % len(NEWS)]
+        md.append(f"In current conditions, {news_item.lower()} Such developments show that {sec.lower()} is not a distant projection but an observable process, reinforcing the need for timely action.")
+        md.append("")
+        # Academic debate woven as nuance
+        md.append(f"The literature on {sec.lower()} debates the strength of evidence, the role of socio-economic pathways, and the balance between adaptation and mitigation. This chapter adopts a cautious, evidence-based stance: it acknowledges uncertainty, highlights where consensus is strong, and points to context-specific trade-offs, keeping the analysis aligned with the broader research base.")
+        md.append("")
+        # Closing supporting narrative with second expert only on last section, if chapter has 2 relevant experts
+        if si == 4 and len(chapter_rel)>1:
+            exp_idx2 = chapter_rel[1]
+            if exp_idx2 != chapter_rel[0]:
+                exp2 = EXPERTS[exp_idx2]
+                md.append(f"This aligns with the view that {exp2.split(':')[1].strip()} The observation supports the synthesis offered in this section.")
+                md.append("")
         md.append(f"### Key Considerations for {sec}")
         md.append("")
         for b in bullets(theme, sec):
             md.append(f"- {b}")
         md.append("")
-    # Case study
+    # Case study - keep but without forcing separate data/news/debate headings
     md.append(f"## Case Study: {title}")
     md.append("")
     md.append(para(theme, "the case study", 2))
@@ -533,32 +577,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     for b in bullets(theme, "the case study"):
         md.append(f"- {b}")
     md.append("")
-    # Data and evidence
-    md.append(f"## Data and Evidence: {title}")
-    md.append("")
-    md.append(DATA_TABLES[ci % len(DATA_TABLES)])
-    md.append("")
-    # Expert perspectives - integrated into main discussion for ALL chapters (not separate subchapter)
-    # Each expert statement becomes topic sentence / supporting narrative
-    fn1 = (ci % len(EXPERTS)) + 1
-    fn2 = (ci % len(EXPERTS)) + 2
-    exps = EXPERTS[ci % len(EXPERTS): (ci % len(EXPERTS))+2]
-    if len(exps) < 2:
-        exps = (exps + EXPERTS)[:2]
-    exp1 = exps[0]
-    exp2 = exps[1]
-    # Integrated as topic sentence / supporting narrative - expert name + statement about the topic
-    md.append(f"{exp1} [^{fn1}]")
-    md.append("")
-    md.append(f"({exp2} [^{fn2}])")
-    md.append("")
-    # Current conditions and news
-    md.append(f"## Current Conditions and News: {title}")
-    md.append("")
-    for n in NEWS[ci % len(NEWS): (ci % len(NEWS))+2]:
-        md.append(f"- {n}")
-    md.append("")
-    # Future scenarios
+    # Future scenarios (kept as structured sub-section, not the removed ones)
     md.append(f"## Future Scenarios and Predictions: {title}")
     md.append("")
     md.append(f"Under a high-emissions scenario (SSP5-8.5), {theme} is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC AR6 and should be used for planning, not prediction of exact outcomes.")
@@ -575,34 +594,22 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append(f"- More manageable adaptation needs.")
     md.append(f"- Greater social and economic stability.")
     md.append("")
-    # Academic debate
-    md.append(f"## Academic Debate and Discussion Points: {title}")
-    md.append("")
-    md.append("- What is the strength of evidence for the projected impacts, and what are the key uncertainties?")
-    md.append("- How do different socioeconomic pathways alter the outcomes?")
-    md.append("- What are the ethical implications for vulnerable populations?")
-    md.append("- Which adaptation strategies have the strongest evidence base?")
-    md.append("- How should trade-offs between mitigation and adaptation be resolved?")
-    md.append("")
     # Chapter summary
     md.append(f"## Chapter Summary — Chapter {ci}")
     md.append("")
-    md.append(f"This chapter has examined {theme} in detail, presenting the evidence, mechanisms, and implications in an academically rigorous manner. The discussion has moved from core concepts to practical applications, ensuring that readers can translate knowledge into action. The references provide starting points for deeper inquiry and verification.")
+    md.append(f"This chapter has examined {theme} in detail, presenting mechanisms and implications in a rigorous manner. By weaving data, current observations, and scholarly debate into the core narrative, the chapter keeps the focus on actionable understanding rather than fragmented sub-topics.")
     md.append("")
-    # Key takeaways
     md.append(f"## Key Takeaways — Chapter {ci}")
     md.append("")
     for b in bullets(theme, "this chapter"):
         md.append(f"- {b}")
     md.append("")
-    # References
     md.append(f"## References — Chapter {ci}")
     md.append("")
     for _ in range(2):
         md.append(f"- {REFS[ri % len(REFS)]}")
         ri += 1
     md.append("")
-    # Exercises
     md.append(f"## Exercises — Chapter {ci}")
     md.append("")
     for k in range(2):
@@ -690,6 +697,7 @@ md.append("")
 for k in range(10):
     md.append(f"Analytical note {k+1}: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.")
     md.append("")
+# Footnotes retained for Appendix but not rendered at page bottom (render handles)
 md.append("# Catatan Kaki (Footnotes)")
 md.append("")
 for i,e in enumerate(EXPERTS, start=1):
@@ -703,3 +711,4 @@ content = "\n".join(md)
 with open('/home/user/SetyoWisodo/book.md','w',encoding='utf-8') as f:
     f.write(content)
 print("words:", len(content.split()))
+

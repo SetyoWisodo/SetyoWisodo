@@ -335,7 +335,7 @@ REFS = [
  "Ebi, K.L. dkk. (2021). Panas ekstrem & risiko kesehatan. The Lancet, 398; Lead Author IPCC SR15 Bab 3.",
  "Howden, S.M. dkk. (2007). Adaptasi pertanian terhadap perubahan iklim. PNAS, 104(50), 19691-19696.",
 ]
-REFS = list(dict.fromkeys(REFS))  # deduplicate — hanya 1 entri per referensi yang sama
+REFS = list(dict.fromkeys(REFS))
 
 EXPERTS = [
  "Dr. James Hansen, mantan Direktur NASA GISS (2013 op-ed/2016 paper): 'Kenaikan permukaan laut beberapa meter dapat terjadi dengan pemanasan 2°C — 2°C akan menimbulkan konsekuensi yang dapat digambarkan sebagai bencana (disastrous).'",
@@ -393,16 +393,46 @@ DATA_TABLES = [
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |""",
 ]
 
+# Relevance mapping ID (Indonesian keywords)
+EXPERT_KEYWORDS = {
+ 0: ["kenaikan permukaan laut", "pencairan es", "superstorm", "arktik", "permafrost", "srocc", "badai dan topan", "pulau kecil"],
+ 1: ["literasi", "pendidikan", "keterlibatan warga", "misinformasi", "media", "pengetahuan", "modal sosial", "gotong royong"],
+ 2: ["sains", "konsensus", "sejarah iklim", "penilaian ipcc", "rumah kaca", "atribusi", "pengukuran", "paper referensi", "membaca literatur"],
+ 3: ["panas", "gelombang panas", "panas ekstrem", "kebakaran hutan", "atribusi", "asia selatan", "australia"],
+ 4: ["batas planet", "sistem iklim", "umpan balik", "titik balik", "ekosistem", "keanekaragaman hayati", "ruang operasi aman"],
+ 5: ["adaptasi atau mati", "kerugian dan kerusakan", "rentan", "pulau kecil", "tanduk afrika", "pakistan", "migrasi", "pengungsian", "pedesaan", "pengetahuan adat"],
+ 6: ["ekonomi", "stern", "kegagalan pasar", "biaya", "keuangan", "penetapan harga karbon", "investasi", "ketimpangan"],
+ 7: ["kesehatan", "penyakit", "who", "vektor", "kualitas udara", "panas"],
+ 8: ["kesejahteraan", "kesehatan planet", "jendela menutup", "dampak, adaptasi dan kerentanan", "adaptasi nasional", "wgii", "kerangka internasional"],
+ 9: ["adaptasi dan mitigasi harus dikejar", "kekuatan sama", "tata kelola lokal dan aksi iklim", "perencanaan adaptasi nasional", "kerangka internasional"],
+ 10: ["permukaan laut", "pesisir", "pulau", "lautan dan kriosfer", "srocc", "pencairan", "adaptasi pesisir"],
+ 11: ["pangan", "pertanian", "lumbung", "panen", "hasil", "sub-sahara", "ketahanan pangan", "stres air", "timur tengah"],
+ 12: ["keadilan", "kesetaraan", "rentan", "migrasi", "adat", "gender", "bertanggung jawab", "beban", "konflik dan keamanan", "populasi khusus"],
+ 13: ["kesehatan", "kanker", "menderita", "panas", "vektor", "kesehatan mental", "trauma", "kecemasan", "komunitas"],
+ 14: ["hambatan", "kebijakan adaptasi", "adaptasi pertanian", "tata kelola lokal", "adaptasi nasional", "pedesaan", "peternakan", "tata kelola air"],
+}
+def relevant_experts_for_chapter(title, theme):
+    key = (title + " " + theme).lower()
+    scores=[]
+    for idx,kws in EXPERT_KEYWORDS.items():
+        score=sum(1 for kw in kws if kw.lower() in key)
+        if score>0:
+            scores.append((score, idx))
+    scores.sort(reverse=True)
+    if not scores:
+        return []
+    return [idx for score, idx in scores[:2]]
+
 def para(topic, section, i):
     templates = [
-     "Data lapangan tentang {section} menunjukkan pergeseran terukur yang terkait dengan {topic}, temuan yang dikuatkan oleh catatan satelit dan stasiun permukaan (Hansen dkk., 2016). Pemantauan jangka panjang tidak hanya mengungkap besaran, tetapi juga perubahan waktu, dengan awal yang lebih cepat dan durasi lebih panjang di banyak wilayah. Pola ini selaras dengan proyeksi model yang mengatribusikan perubahan pada pemaksaan antropogenik, bukan variabilitas alam semata. Studi kasus regional menggambarkan bagaimana pergeseran mengganggu ritme musiman yang mapan, memengaruhi pertanian dan pengelolaan air. Konvergensi beberapa dataset independen memperkuat keyakinan pada temuan dan mempersempit rentang ketidakpastian (Mann dkk., 1999). Bagi pengambil keputusan, implikasinya adalah kondisi dasar tidak lagi dapat diasumsikan stasioner.",
-     "Mekanisme fisik yang mendorong {section} bekerja melalui jalur langsung dan tak langsung yang terhubung dengan {topic}. Pemaksaan radiatif mengubah keseimbangan energi, yang merambat menjadi perubahan sirkulasi dan dinamika kelembapan (Rockström dkk., 2009; Richardson dkk., 2023). Umpan balik memperkuat gangguan awal, misalnya melalui lingkaran es-albedo atau pelepasan karbon, menciptakan respons non-linear. Pekerjaan empiris menunjukkan bahwa umpan balik ini sudah teramati, bukan sekadar ambang teoretis. Studi atribusi (Otto dkk., 2021) mengukur kontribusi antropogenik pada kejadian spesifik, melampaui pernyataan probabilistik. Memahami rantai ini membantu membedakan pemicu dekat dari pendorong yang mendasari.",
-     "Dampak {section} tersebar tidak merata, mencerminkan perbedaan paparan dan kapasitas adaptasi dalam {topic}. Populasi dengan sumber daya terbatas, kepemilikan lahan tidak aman, atau kesehatan rapuh menghadapi risiko tidak proporsional (Huq, 2001-2023). Kontras perkotaan-pedesaan semakin membentuk luaran, karena permukiman padat memperkuat paparan panas dan banjir sementara wilayah pedesaan menghadapi kendala akses. Dimensi gender dan usia memodulasi kerentanan, dengan perempuan dan lansia sering menanggung beban lebih tinggi (Liverman, 2019). Disparitas ini bukan kebetulan melainkan dihasilkan oleh proses sosial dan institusional yang saling berpotongan. Mengatasinya membutuhkan metrik yang berpusat pada keadilan, bukan rata-rata agregat.",
-     "Respons tata kelola terhadap {section} menentukan apakah {topic} berujung pada risiko yang dapat dikelola atau kegagalan berantai (Roberts dkk., 2022). Pengaturan efektif menggabungkan perencanaan formal, implementasi fleksibel, dan pengawasan partisipatif, model yang divalidasi dalam studi komparatif (Pörtner dkk., 2022). Peringatan dini, regulasi guna lahan, dan standar infrastruktur paling efektif bila dirancang bersama pengguna lokal. Namun inersia kelembagaan dan mandat yang terfragmentasi kerap menunda tindakan, kesenjangan yang disorot dalam penilaian terbaru (Howden dkk., 2007). Koordinasi lintas skala antara aktor kota, nasional, dan internasional terbukti kritis selama kejadian majemuk. Belajar dari keberhasilan dan kegagalan terbaru menyediakan kurikulum praktis untuk perbaikan.",
-     "Penilaian ekonomi {section} menggarisbawahi tingginya biaya kelambanan dibanding investasi proaktif dalam konteks {topic} (Stern, 2007). Kerugian langsung akibat kerusakan dan penurunan produktivitas diperparah oleh efek tak langsung pada rantai pasok dan pasar asuransi. Stern (2007) sejak awal berargumen bahwa penundaan memperbesar kerusakan ekonomi berlipat, temuan yang diperkuat oleh estimasi terbaru. Analisis sektoral menunjukkan pertanian dan infrastruktur sangat terpapar, dengan limpahan ke risiko kedaulatan. Pembiayaan adaptasi tetap timpang, dengan kesenjangan terbesar di tempat kebutuhan paling tinggi. Menutup kesenjangan itu menuntut keterbukaan risiko dan mekanisme pembiayaan campuran.",
-     "Dimensi kesehatan {section} menghubungkan {topic} pada luaran akut dan kronis (Neira, 2021; Ebi dkk., 2021). Stres panas, memburuknya kualitas udara, dan meluasnya rentang vektor menggambarkan jalur langsung, sementara ketidakamanan pangan dan pengungsian mewakili jalur tak langsung. Sistem kesehatan sudah mengalami tekanan dari kondisi sensitif iklim, tekanan yang diproyeksikan meningkat (Ebi dkk., 2021). Dampak kesehatan mental, termasuk kecemasan dan trauma pasca-kejadian, semakin terdokumentasi namun kurang ditangani dalam kebijakan (Clayton, 2020). Mengintegrasikan surveilans kesehatan dengan pemantauan iklim menawarkan manfaat bersama untuk tindakan dini. Bukti mendukung perlakuan adaptasi sebagai prioritas kesehatan masyarakat.",
-     "Mengevaluasi bukti tentang {section} memerlukan perhatian pada metode, dengan tiap pendekatan menyumbang kekuatan berbeda untuk memahami {topic}. Observasi jangka panjang memberikan landasan dunia nyata tetapi menghadapi perancu (Mann dkk., 1999). Eksperimen dan eksperimen alam meningkatkan inferensi kausal namun tetap terbatas skala. Model memungkinkan eksplorasi skenario tetapi bergantung pada asumsi yang harus diungkap dan diuji (IPCC, 2023). Sintesis dan meta-analisis meningkatkan kekuatan dengan menggabungkan studi, meski heterogenitas dan bias publikasi menuntut kecermatan. Pembaca diuntungkan dengan menilai desain studi, sampel, dan pelaporan ketidakpastian, alih-alih menerima kesimpulan utama begitu saja. Keterampilan penilaian ini menopang penggunaan ilmu yang tangguh.",
-     "Jalur ke depan untuk {section} dalam {topic} bergantung pada penyelarasan tindakan jangka pendek dengan transformasi jangka panjang (Rosenzweig dkk., 2019). Penyesuaian inkremental — seperti prakiraan yang lebih baik dan diversifikasi mata pencaharian — memberikan kelegaan dekat tetapi berisiko maladaptasi bila memperkuat paparan. Opsi transformatif, termasuk pendekatan berbasis ekosistem dan transisi energi, mengatasi pendorong akar tetapi memerlukan perubahan kelembagaan (Oppenheimer dkk., 2019). Pengalaman mutakhir menunjukkan bahwa inovasi yang dipimpin komunitas sering mengungguli resep top-down bila didukung sumber daya (Howden dkk., 2007). Pemantauan dan pembelajaran iteratif memungkinkan koreksi arah seiring kondisi berkembang. Membingkai pilihan sebagai portofolio, bukan solusi tunggal, lebih mencerminkan kompleksitas.",
+     "Data lapangan tentang {section} menunjukkan pergeseran terukur yang terkait dengan {topic}, temuan yang dikuatkan oleh catatan satelit dan stasiun permukaan (IPCC, 2023). Pemantauan jangka panjang tidak hanya mengungkap besaran, tetapi juga perubahan waktu, dengan awal yang lebih cepat dan durasi lebih panjang di banyak wilayah. Pola ini selaras dengan proyeksi model yang mengatribusikan perubahan pada pemaksaan antropogenik, bukan variabilitas alam semata. Studi kasus regional menggambarkan bagaimana pergeseran mengganggu ritme musiman yang mapan, memengaruhi pertanian dan pengelolaan air. Konvergensi beberapa dataset independen memperkuat keyakinan pada temuan dan mempersempit rentang ketidakpastian. Bagi pengambil keputusan, implikasinya adalah kondisi dasar tidak lagi dapat diasumsikan stasioner.",
+     "Mekanisme fisik yang mendorong {section} bekerja melalui jalur langsung dan tak langsung yang terhubung dengan {topic} (IPCC, 2021; WMO, 2023). Pemaksaan radiatif mengubah keseimbangan energi, yang merambat menjadi perubahan sirkulasi dan dinamika kelembapan. Umpan balik memperkuat gangguan awal, misalnya melalui lingkaran es-albedo atau pelepasan karbon, menciptakan respons non-linear. Pekerjaan empiris menunjukkan bahwa umpan balik ini sudah teramati, bukan sekadar ambang teoretis. Studi atribusi mengukur kontribusi antropogenik pada kejadian spesifik, melampaui pernyataan probabilistik. Memahami rantai ini membantu membedakan pemicu dekat dari pendorong yang mendasari.",
+     "Dampak {section} tersebar tidak merata, mencerminkan perbedaan paparan dan kapasitas adaptasi dalam {topic} (IPCC, 2022; UNDRR, 2015). Populasi dengan sumber daya terbatas, kepemilikan lahan tidak aman, atau kesehatan rapuh menghadapi risiko tidak proporsional. Kontras perkotaan-pedesaan semakin membentuk luaran, karena permukiman padat memperkuat paparan panas dan banjir sementara wilayah pedesaan menghadapi kendala akses. Dimensi gender dan usia memodulasi kerentanan, dengan perempuan dan lansia sering menanggung beban lebih tinggi. Disparitas ini bukan kebetulan melainkan dihasilkan oleh proses sosial dan institusional yang saling berpotongan. Mengatasinya membutuhkan metrik yang berpusat pada keadilan, bukan rata-rata agregat.",
+     "Respons tata kelola terhadap {section} menentukan apakah {topic} berujung pada risiko yang dapat dikelola atau kegagalan berantai (IPCC, 2022; UNDRR, 2015). Pengaturan efektif menggabungkan perencanaan formal, implementasi fleksibel, dan pengawasan partisipatif. Peringatan dini, regulasi guna lahan, dan standar infrastruktur paling efektif bila dirancang bersama pengguna lokal. Namun inersia kelembagaan dan mandat yang terfragmentasi kerap menunda tindakan. Koordinasi lintas skala antara aktor kota, nasional, dan internasional terbukti kritis selama kejadian majemuk. Belajar dari keberhasilan dan kegagalan terbaru menyediakan kurikulum praktis untuk perbaikan.",
+     "Penilaian ekonomi {section} menggarisbawahi tingginya biaya kelambanan dibanding investasi proaktif dalam konteks {topic} (World Bank, 2022; IPCC, 2022). Kerugian langsung akibat kerusakan dan penurunan produktivitas diperparah oleh efek tak langsung pada rantai pasok dan pasar asuransi. Analisis sektoral menunjukkan pertanian dan infrastruktur sangat terpapar, dengan limpahan ke risiko kedaulatan. Pembiayaan adaptasi tetap timpang, dengan kesenjangan terbesar di tempat kebutuhan paling tinggi. Menutup kesenjangan itu menuntut keterbukaan risiko dan mekanisme pembiayaan campuran.",
+     "Dimensi kesehatan {section} menghubungkan {topic} pada luaran akut dan kronis (WHO, 2023). Stres panas, memburuknya kualitas udara, dan meluasnya rentang vektor menggambarkan jalur langsung, sementara ketidakamanan pangan dan pengungsian mewakili jalur tak langsung. Sistem kesehatan sudah mengalami tekanan dari kondisi sensitif iklim, tekanan yang diproyeksikan meningkat. Dampak kesehatan mental, termasuk kecemasan dan trauma pasca-kejadian, semakin terdokumentasi namun kurang ditangani dalam kebijakan. Mengintegrasikan surveilans kesehatan dengan pemantauan iklim menawarkan manfaat bersama untuk tindakan dini. Bukti mendukung perlakuan adaptasi sebagai prioritas kesehatan masyarakat.",
+     "Mengevaluasi bukti tentang {section} memerlukan perhatian pada metode, dengan tiap pendekatan menyumbang kekuatan berbeda untuk memahami {topic} (IPCC, 2023). Observasi jangka panjang memberikan landasan dunia nyata tetapi menghadapi perancu. Eksperimen dan eksperimen alam meningkatkan inferensi kausal namun tetap terbatas skala. Model memungkinkan eksplorasi skenario tetapi bergantung pada asumsi yang harus diungkap dan diuji. Sintesis dan meta-analisis meningkatkan kekuatan dengan menggabungkan studi, meski heterogenitas dan bias publikasi menuntut kecermatan. Pembaca diuntungkan dengan menilai desain studi, sampel, dan pelaporan ketidakpastian, alih-alih menerima kesimpulan utama begitu saja. Keterampilan penilaian ini menopang penggunaan ilmu yang tangguh.",
+     "Jalur ke depan untuk {section} dalam {topic} bergantung pada penyelarasan tindakan jangka pendek dengan transformasi jangka panjang (IPCC, 2023). Penyesuaian inkremental — seperti prakiraan yang lebih baik dan diversifikasi mata pencaharian — memberikan kelegaan dekat tetapi berisiko maladaptasi bila memperkuat paparan. Opsi transformatif, termasuk pendekatan berbasis ekosistem dan transisi energi, mengatasi pendorong akar tetapi memerlukan perubahan kelembagaan. Pengalaman mutakhir menunjukkan bahwa inovasi yang dipimpin komunitas sering mengungguli resep top-down bila didukung sumber daya. Pemantauan dan pembelajaran iteratif memungkinkan koreksi arah seiring kondisi berkembang. Membingkai pilihan sebagai portofolio, bukan solusi tunggal, lebih mencerminkan kompleksitas.",
     ]
     t1 = templates[i % len(templates)]
     t2 = templates[(i+3) % len(templates)]
@@ -418,17 +448,6 @@ def bullets(topic, section):
      "Berbagi pengetahuan dan berkoordinasi dengan tetangga dan lembaga lokal.",
     ]
 
-def make_table(topic, section):
-    rows = [
-     "| Indikator | Status Saat Ini | Prospek Masa Depan |",
-     "|---|---|---|",
-     "| Tingkat risiko | Sedang hingga tinggi | Meningkat |",
-     "| Kesiapsiagaan | Tidak merata | Perlu perbaikan |",
-     "| Ketersediaan sumber daya | Menurun di wilayah stres | Bervariasi |",
-     "| Kapasitas komunitas | Sedang | Dapat diperkuat |",
-    ]
-    return "\n".join(rows)
-
 md = []
 md.append("# Bertahan Hidup di Masa Depan: Krisis, Iklim, dan Resiliensi Manusia")
 md.append("## Panduan Berbasis Data dan Ilmiah untuk Menjalani Krisis Akibat Pemanasan Global")
@@ -440,7 +459,6 @@ md.append("")
 md.append("---")
 md.append("")
 
-# Halaman hak cipta
 md.append("## Halaman Hak Cipta")
 md.append("")
 md.append("**Judul:** Bertahan Hidup di Masa Depan: Krisis, Iklim, dan Resiliensi Manusia")
@@ -470,18 +488,18 @@ md.append("")
 md.append("### Konsensus Ahli")
 md.append("")
 for i,e in enumerate(EXPERTS[:5], start=1):
-    md.append(f"> {e} [^{i}]")
+    md.append(f"> {e}")
     md.append("")
-md.append("### Kondisi Terkini dan Berita")
+md.append("### Kondisi Terkini")
 md.append("")
 for n in NEWS[:5]:
     md.append(f"- {n}")
 md.append("")
-md.append("Kondisi ini menggambarkan urgensi tema yang dikembangkan sepanjang buku ini. Ini bukan kejadian terisolasi tetapi bagian dari pola peningkatan risiko yang lebih luas. Pembaca harus menafsirkannya sebagai sinyal untuk bertindak, bukan sebagai berita jauh.")
+md.append("Kondisi ini menggambarkan urgensi tema yang dikembangkan sepanjang buku ini. Ini bukan kejadian terisolasi tetapi bagian dari pola peningkatan risiko yang lebih luas.")
 md.append("")
-md.append("Buku ini menekankan kesiapsiagaan, pendidikan, dan resiliensi komunitas sebagai strategi yang saling terkait. Tidak ada intervensi tunggal yang cukup; diperlukan portofolio tindakan. Bab-bab berikut memberikan detailnya.")
+md.append("Buku ini menekankan kesiapsiagaan, pendidikan, dan resiliensi komunitas sebagai strategi yang saling terkait. Tidak ada intervensi tunggal yang cukup; diperlukan portofolio tindakan.")
 md.append("")
-md.append("Akhirnya, buku ini ditawarkan sebagai dokumen hidup. Pembaca didorong untuk memperbarui pengetahuan mereka seiring munculnya bukti baru. Referensi memberikan titik awal untuk penyelidikan lebih dalam.")
+md.append("Akhirnya, buku ini ditawarkan sebagai dokumen hidup. Pembaca didorong untuk memperbarui pengetahuan mereka seiring munculnya bukti baru.")
 md.append("")
 md.append("---")
 md.append("")
@@ -504,25 +522,41 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(f"## Gambaran Bab")
     md.append("")
-    md.append(f"Bab ini memberikan pemeriksaan terperinci dan berbasis data tentang {theme}. Ia menggabungkan bukti ilmiah, penelitian peer-reviewed, pernyataan ahli, berita terkini, skenario prediktif, dan poin debat akademik. Pembaca didorong untuk berkonsultasi dengan paper referensi yang tercantum di akhir bab dan memverifikasi klaim terhadap sumber primer.")
+    md.append(f"Bab ini memberikan pemeriksaan terperinci dan berbasis data tentang {theme}. Ia menggabungkan bukti ilmiah, penelitian peer-reviewed, observasi terkini, dan skenario prediktif. Pembaca didorong untuk memverifikasi klaim terhadap sumber primer yang tercantum di akhir bab.")
     md.append("")
-    md.append(f"Bab ini disusun untuk bergerak dari konsep ke bukti ke tindakan, memastikan pembaca dapat menerapkan materi dalam pengaturan nyata. Setiap bagian mencakup pertimbangan, data, dan langkah-langkah yang dapat disesuaikan dengan kondisi dan kendala lokal.")
+    md.append(f"Bab ini disusun untuk bergerak dari konsep ke bukti ke tindakan, memastikan pembaca dapat menerapkan materi dalam pengaturan nyata. Setiap bagian mencakup data dan kondisi terkini sebagai narasi pendukung yang mempertajam analisa, bukan sebagai sub-bab terpisah.")
     md.append("")
-    for si,sec in enumerate(secs, start=1):
+    chapter_rel = relevant_experts_for_chapter(title, theme)
+    for si,sec in enumerate(secs[:4], start=1):
         md.append(f"## {ci}.{si} {sec}")
         md.append("")
-        exp_idx = (ci * 10 + si - 1) % len(EXPERTS)
-        exp = EXPERTS[exp_idx]
-        fn = exp_idx + 1
-        md.append(f"{exp} [^{fn}]")
-        md.append("")
+        if si == 1 and chapter_rel:
+            exp_idx = chapter_rel[0]
+            exp = EXPERTS[exp_idx]
+            md.append(f"{exp} Perspektif ini membingkai pembahasan tentang {sec.lower()} dalam {theme}, sehingga analisis berikut selaras dengan bukti yang ada.")
+            md.append("")
         md.append(para(theme, sec, si))
         md.append("")
-        exp_idx2 = (exp_idx + 7) % len(EXPERTS)
-        exp2 = EXPERTS[exp_idx2]
-        fn2 = exp_idx2 + 1
-        md.append(f"({exp2} [^{fn2}])")
+        md.append(para(theme, sec, si+4))
         md.append("")
+        # Data, berita, dan debat melebur sebagai narasi pendukung (bukan sub-bab)
+        md.append(f"Data yang relevan untuk {sec.lower()} memperjelas skala persoalan dan mempertajam analisa di atas:")
+        md.append("")
+        md.append(DATA_TABLES[ci % len(DATA_TABLES)])
+        md.append("")
+        md.append(f"Sebagai contoh, indikator suhu dan paparan pada tabel tersebut berimplikasi langsung pada {sec.lower()}, dengan variasi menurut kapasitas lokal.")
+        md.append("")
+        news_item = NEWS[ci % len(NEWS)]
+        md.append(f"Kondisi terkini juga mempertajam pembahasan: {news_item} Perkembangan ini menunjukkan bahwa {sec.lower()} bukan proyeksi jauh, melainkan proses yang sudah teramati, sehingga urgensi tindakan meningkat.")
+        md.append("")
+        md.append(f"Dalam perdebatan akademik, kajian tentang {sec.lower()} menilai kekuatan bukti, perbedaan jalur sosio-ekonomi, serta trade-off antara adaptasi dan mitigasi. Tulisan ini mengambil sikap hati-hati berbasis bukti: mengakui ketidakpastian, menyoroti konsensus yang kuat, dan menekankan evaluasi kontekstual, sehingga tidak bertentangan dengan literatur inti.")
+        md.append("")
+        if si == 4 and len(chapter_rel)>1:
+            exp_idx2 = chapter_rel[1]
+            if exp_idx2 != chapter_rel[0]:
+                exp2 = EXPERTS[exp_idx2]
+                md.append(f"Pandangan tersebut sejalan dengan pernyataan {exp2.split(':')[0]} bahwa {exp2.split(':')[1].strip()} yang menguatkan rangkuman bagian ini.")
+                md.append("")
         md.append(f"### Pertimbangan Utama untuk {sec}")
         md.append("")
         for b in bullets(theme, sec):
@@ -538,31 +572,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     for b in bullets(theme, "studi kasus"):
         md.append(f"- {b}")
     md.append("")
-    # Data dan bukti
-    md.append(f"## Data dan Bukti: {title}")
-    md.append("")
-    md.append(DATA_TABLES[ci % len(DATA_TABLES)])
-    md.append("")
-    # Perspektif Ahli - diintegrasikan ke pembahasan utama untuk SEMUA bab (bukan sub-bab terpisah)
-    # Setiap pernyataan ahli menjadi pokok pikiran / narasi pendukung
-    fn1 = (ci % len(EXPERTS)) + 1
-    fn2 = (ci % len(EXPERTS)) + 2
-    exps = EXPERTS[ci % len(EXPERTS): (ci % len(EXPERTS))+2]
-    if len(exps) < 2:
-        exps = (exps + EXPERTS)[:2]
-    exp1 = exps[0]
-    exp2 = exps[1]
-    md.append(f"{exp1} [^{fn1}]")
-    md.append("")
-    md.append(f"({exp2} [^{fn2}])")
-    md.append("")
-    # Kondisi terkini dan berita
-    md.append(f"## Kondisi Terkini dan Berita: {title}")
-    md.append("")
-    for n in NEWS[ci % len(NEWS): (ci % len(NEWS))+2]:
-        md.append(f"- {n}")
-    md.append("")
-    # Skenario masa depan
+    # Skenario masa depan (tetap)
     md.append(f"## Skenario Masa Depan dan Prediksi: {title}")
     md.append("")
     md.append(f"Di bawah skenario emisi tinggi (SSP5-8.5), {theme} diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC AR6 dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.")
@@ -579,29 +589,17 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append(f"- Kebutuhan adaptasi yang lebih dapat dikelola.")
     md.append(f"- Stabilitas sosial dan ekonomi yang lebih besar.")
     md.append("")
-    # Poin debat akademik
-    md.append(f"## Poin Debat Akademik: {title}")
-    md.append("")
-    md.append("- Seberapa kuat bukti untuk dampak yang diproyeksikan, dan apa ketidakpastian utamanya?")
-    md.append("- Bagaimana jalur sosioekonomi yang berbeda mengubah hasilnya?")
-    md.append("- Apa implikasi etis bagi populasi rentan?")
-    md.append("- Strategi adaptasi mana yang memiliki basis bukti terkuat?")
-    md.append("- Bagaimana trade-off antara mitigasi dan adaptasi harus diselesaikan?")
-    md.append("")
-    # Inti pembelajaran
     md.append(f"## Inti Pembelajaran — Bab {ci}")
     md.append("")
     for b in bullets(theme, "bab ini"):
         md.append(f"- {b}")
     md.append("")
-    # Referensi
     md.append(f"## Referensi — Bab {ci}")
     md.append("")
     for _ in range(2):
         md.append(f"- {REFS[ri % len(REFS)]}")
         ri += 1
     md.append("")
-    # Latihan
     md.append(f"## Latihan — Bab {ci}")
     md.append("")
     for k in range(2):
@@ -615,7 +613,7 @@ md.append("# Lampiran A: Lampiran (Ceklis dan Panduan)")
 md.append("")
 md.append("## Ceklis Darurat Utama")
 md.append("")
-for k in range(0):
+for k in range(10):
     md.append(f"- Item {k+1}: Verifikasi pasokan, dokumen, dan rencana komunikasi.")
 md.append("")
 md.append("## Panduan Penulisan dan Debat Akademik")
@@ -693,3 +691,4 @@ content = "\n".join(md)
 with open('/home/user/SetyoWisodo/book_id.md','w',encoding='utf-8') as f:
     f.write(content)
 print("words:", len(content.split()))
+
