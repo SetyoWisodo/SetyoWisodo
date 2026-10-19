@@ -318,7 +318,6 @@ REFS = [
  "OECD. (2021). Managing Climate Risks, Facing Essential Challenges. OECD, Paris.",
  "OECD. (2023). Climate Finance Provided and Mobilised by Developed Countries. OECD, Paris.",
  "IMF. (2022). World Economic Outlook: War Sets Back Global Recovery. IMF, Washington DC.",
- "IPCC. (2023). Climate Change 2023: Synthesis Report Summary for Policymakers. IPCC, Geneva.",
  "Hansen, J. et al. (2016). Ice melt, sea level rise and superstorms: evidence from paleoclimate data, climate modeling, and modern observations that 2°C global warming could be dangerous. Atmos. Chem. Phys., 16, 3761-3812.",
  "Hayhoe, K. (2021). Saving Us: A Climate Scientist’s Case for Hope and Healing in a Divided World. One Signal Publishers.",
  "Mann, M.E., Bradley, R.S. & Hughes, M.K. (1999). Northern Hemisphere temperatures during the past millennium. Geophys. Res. Lett., 26(6), 759-762 (hockey stick).",
@@ -335,6 +334,7 @@ REFS = [
  "Ebi, K.L. et al. (2021). Hot weather and heat extremes: health risks. The Lancet, 398, 698-708; IPCC SR15 Ch.3 lead author statements 2018.",
  "Howden, S.M. et al. (2007). Adapting agriculture to climate change. PNAS, 104(50), 19691-19696.",
 ]
+REFS = list(dict.fromkeys(REFS))  # deduplicate — hanya 1 entri per referensi yang sama
 
 EXPERTS = [
  "Dr. James Hansen, former NASA GISS Director (2013 op-ed/2016 paper): 'Sea level rise of several meters could be expected with 2°C warming — 2°C would have consequences that can be described as disastrous.'",

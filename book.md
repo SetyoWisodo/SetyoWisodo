@@ -4859,8 +4859,8 @@ This chapter has examined social capital and community networks in detail, prese
 
 ## References — Chapter 29
 
-- IPCC. (2023). Climate Change 2023: Synthesis Report Summary for Policymakers. IPCC, Geneva.
 - Hansen, J. et al. (2016). Ice melt, sea level rise and superstorms: evidence from paleoclimate data, climate modeling, and modern observations that 2°C global warming could be dangerous. Atmos. Chem. Phys., 16, 3761-3812.
+- Hayhoe, K. (2021). Saving Us: A Climate Scientist’s Case for Hope and Healing in a Divided World. One Signal Publishers.
 
 ## Exercises — Chapter 29
 
@@ -5023,8 +5023,8 @@ This chapter has examined mutual aid and community support in detail, presenting
 
 ## References — Chapter 30
 
-- Hayhoe, K. (2021). Saving Us: A Climate Scientist’s Case for Hope and Healing in a Divided World. One Signal Publishers.
 - Mann, M.E., Bradley, R.S. & Hughes, M.K. (1999). Northern Hemisphere temperatures during the past millennium. Geophys. Res. Lett., 26(6), 759-762 (hockey stick).
+- Otto, F.E.L. et al. (2021). Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change. World Weather Attribution.
 
 ## Exercises — Chapter 30
 
@@ -5186,8 +5186,8 @@ This chapter has examined local governance and climate action in detail, present
 
 ## References — Chapter 31
 
-- Otto, F.E.L. et al. (2021). Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change. World Weather Attribution.
 - Rockström, J. et al. (2009). A safe operating space for humanity. Nature, 461, 472-475; Richardson et al. (2023). Planetary boundaries update. Sci. Adv., 9.
+- Huq, S. (2001-2023). ICCCAD / IIED oral statements; COP interventions archived via IPCC AR3-AR5 lead authorship and Nature obituary 2023.
 
 ## Exercises — Chapter 31
 
@@ -5349,8 +5349,8 @@ This chapter has examined urban resilience to climate change in detail, presenti
 
 ## References — Chapter 32
 
-- Huq, S. (2001-2023). ICCCAD / IIED oral statements; COP interventions archived via IPCC AR3-AR5 lead authorship and Nature obituary 2023.
-- Stern, N. (2007). The Economics of Climate Change: The Stern Review. Cambridge University Press.
+- Neira, M. (2021). Foreword/press statements COP26 Special Report on Climate Change and Health. WHO, Geneva.
+- Pörtner, H.-O. et al. (2022). IPCC AR6 WGII Summary for Policymakers press conference statements 28 Feb 2022.
 
 ## Exercises — Chapter 32
 
@@ -5513,8 +5513,8 @@ This chapter has examined rural resilience in detail, presenting the evidence, m
 
 ## References — Chapter 33
 
-- Neira, M. (2021). Foreword/press statements COP26 Special Report on Climate Change and Health. WHO, Geneva.
-- Pörtner, H.-O. et al. (2022). IPCC AR6 WGII Summary for Policymakers press conference statements 28 Feb 2022.
+- Roberts, D. et al. (2022). IPCC AR6 WGII Chapter 6 & press statements — adaptation and mitigation pursued with equal force.
+- Oppenheimer, M. et al. (2019). Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities. IPCC SROCC Ch.4.
 
 ## Exercises — Chapter 33
 
@@ -5676,8 +5676,8 @@ This chapter has examined indigenous and traditional knowledge in detail, presen
 
 ## References — Chapter 34
 
-- Roberts, D. et al. (2022). IPCC AR6 WGII Chapter 6 & press statements — adaptation and mitigation pursued with equal force.
-- Oppenheimer, M. et al. (2019). Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities. IPCC SROCC Ch.4.
+- Rosenzweig, C. et al. (2019). Special Report on Climate Change and Land; WFP Laureate remarks 2022 (multi-breadbasket failure risk).
+- Liverman, D.M. (2013-2023). Climate justice scholarship; Arizona House Climate Crisis testimony 2019 & IPCC author work.
 
 ## Exercises — Chapter 34
 
@@ -5839,8 +5839,8 @@ This chapter has examined renewable energy for resilience in detail, presenting 
 
 ## References — Chapter 35
 
-- Rosenzweig, C. et al. (2019). Special Report on Climate Change and Land; WFP Laureate remarks 2022 (multi-breadbasket failure risk).
-- Liverman, D.M. (2013-2023). Climate justice scholarship; Arizona House Climate Crisis testimony 2019 & IPCC author work.
+- Ebi, K.L. et al. (2021). Hot weather and heat extremes: health risks. The Lancet, 398, 698-708; IPCC SR15 Ch.3 lead author statements 2018.
+- Howden, S.M. et al. (2007). Adapting agriculture to climate change. PNAS, 104(50), 19691-19696.
 
 ## Exercises — Chapter 35
 
@@ -6003,8 +6003,8 @@ This chapter has examined water technologies for adaptation in detail, presentin
 
 ## References — Chapter 36
 
-- Ebi, K.L. et al. (2021). Hot weather and heat extremes: health risks. The Lancet, 398, 698-708; IPCC SR15 Ch.3 lead author statements 2018.
-- Howden, S.M. et al. (2007). Adapting agriculture to climate change. PNAS, 104(50), 19691-19696.
+- IPCC. (2023). Climate Change 2023: Synthesis Report. IPCC, Geneva.
+- IPCC. (2021). Climate Change 2021: The Physical Science Basis (AR6 WG1). Cambridge University Press.
 
 ## Exercises — Chapter 36
 
@@ -6166,8 +6166,8 @@ This chapter has examined agricultural technologies in detail, presenting the ev
 
 ## References — Chapter 37
 
-- IPCC. (2023). Climate Change 2023: Synthesis Report. IPCC, Geneva.
-- IPCC. (2021). Climate Change 2021: The Physical Science Basis (AR6 WG1). Cambridge University Press.
+- IPCC. (2022). Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WG2). Cambridge University Press.
+- IPCC. (2022). Climate Change 2022: Mitigation of Climate Change (AR6 WG3). Cambridge University Press.
 
 ## Exercises — Chapter 37
 
@@ -6329,8 +6329,8 @@ This chapter has examined early warning systems in detail, presenting the eviden
 
 ## References — Chapter 38
 
-- IPCC. (2022). Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WG2). Cambridge University Press.
-- IPCC. (2022). Climate Change 2022: Mitigation of Climate Change (AR6 WG3). Cambridge University Press.
+- IPCC. (2018). Global Warming of 1.5 C (SR15). IPCC, Geneva.
+- IPCC. (2019). Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC). IPCC, Geneva.
 
 ## Exercises — Chapter 38
 
@@ -6492,8 +6492,8 @@ This chapter has examined AI and data for climate action in detail, presenting t
 
 ## References — Chapter 39
 
-- IPCC. (2018). Global Warming of 1.5 C (SR15). IPCC, Geneva.
-- IPCC. (2019). Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC). IPCC, Geneva.
+- IPCC. (2019). Climate Change and Land (SRCCL). IPCC, Geneva.
+- NASA. (2024). Global Climate Change: Vital Signs. climate.nasa.gov.
 
 ## Exercises — Chapter 39
 
@@ -6655,8 +6655,8 @@ This chapter has examined low-tech and appropriate technology in detail, present
 
 ## References — Chapter 40
 
-- IPCC. (2019). Climate Change and Land (SRCCL). IPCC, Geneva.
-- NASA. (2024). Global Climate Change: Vital Signs. climate.nasa.gov.
+- NOAA. (2024). State of the Climate. ncei.noaa.gov.
+- WMO. (2023). State of the Global Climate 2023. World Meteorological Organization, Geneva.
 
 ## Exercises — Chapter 40
 
@@ -6818,8 +6818,8 @@ This chapter has examined climate anxiety and emotional responses in detail, pre
 
 ## References — Chapter 41
 
-- NOAA. (2024). State of the Climate. ncei.noaa.gov.
-- WMO. (2023). State of the Global Climate 2023. World Meteorological Organization, Geneva.
+- WHO. (2023). Climate Change and Health Fact Sheet. who.int.
+- WHO. (2021). COP26 Special Report on Climate Change and Health. WHO, Geneva.
 
 ## Exercises — Chapter 41
 
@@ -6982,8 +6982,8 @@ This chapter has examined trauma and recovery after disasters in detail, present
 
 ## References — Chapter 42
 
-- WHO. (2023). Climate Change and Health Fact Sheet. who.int.
-- WHO. (2021). COP26 Special Report on Climate Change and Health. WHO, Geneva.
+- FAO. (2023). The State of Food Security and Nutrition in the World. FAO, Rome.
+- FAO. (2022). The State of the World's Land and Water Resources (SOLAW 2021). FAO, Rome.
 
 ## Exercises — Chapter 42
 
@@ -7145,8 +7145,8 @@ This chapter has examined psychological resilience in detail, presenting the evi
 
 ## References — Chapter 43
 
-- FAO. (2023). The State of Food Security and Nutrition in the World. FAO, Rome.
-- FAO. (2022). The State of the World's Land and Water Resources (SOLAW 2021). FAO, Rome.
+- World Bank. (2021). Groundswell: Acting on Internal Climate Migration. World Bank, Washington DC.
+- UNHCR. (2023). Climate Change and Displacement. unhcr.org.
 
 ## Exercises — Chapter 43
 
@@ -7308,8 +7308,8 @@ This chapter has examined community mental health in detail, presenting the evid
 
 ## References — Chapter 44
 
-- World Bank. (2021). Groundswell: Acting on Internal Climate Migration. World Bank, Washington DC.
-- UNHCR. (2023). Climate Change and Displacement. unhcr.org.
+- UNEP. (2023). Adaptation Gap Report 2023. UNEP, Nairobi.
+- UNDRR. (2015). Sendai Framework for Disaster Risk Reduction 2015-2030. UNDRR, Geneva.
 
 ## Exercises — Chapter 44
 
@@ -7472,8 +7472,8 @@ This chapter has examined international climate frameworks in detail, presenting
 
 ## References — Chapter 45
 
-- UNEP. (2023). Adaptation Gap Report 2023. UNEP, Nairobi.
-- UNDRR. (2015). Sendai Framework for Disaster Risk Reduction 2015-2030. UNDRR, Geneva.
+- United Nations. (2015). Paris Agreement. unfccc.int.
+- United Nations. (2015). 2030 Agenda for Sustainable Development. UN, New York.
 
 ## Exercises — Chapter 45
 
@@ -7635,8 +7635,8 @@ This chapter has examined national adaptation planning in detail, presenting the
 
 ## References — Chapter 46
 
-- United Nations. (2015). Paris Agreement. unfccc.int.
-- United Nations. (2015). 2030 Agenda for Sustainable Development. UN, New York.
+- Stern, N. (2007). The Economics of Climate Change: The Stern Review. Cambridge University Press.
+- Watts, N. et al. (2021). The 2021 report of the Lancet Countdown on health and climate change. The Lancet, 398(10311), 1619-1662.
 
 ## Exercises — Chapter 46
 
@@ -7798,8 +7798,8 @@ This chapter has examined carbon pricing and markets in detail, presenting the e
 
 ## References — Chapter 47
 
-- Stern, N. (2007). The Economics of Climate Change: The Stern Review. Cambridge University Press.
-- Watts, N. et al. (2021). The 2021 report of the Lancet Countdown on health and climate change. The Lancet, 398(10311), 1619-1662.
+- Romanello, M. et al. (2023). The 2023 report of the Lancet Countdown. The Lancet, 402(10419), 2346-2394.
+- Ebi, K.L. et al. (2021). Hot weather and heat extremes: health risks. The Lancet, 398(10301), 698-708.
 
 ## Exercises — Chapter 47
 
@@ -7962,8 +7962,8 @@ This chapter has examined climate finance in detail, presenting the evidence, me
 
 ## References — Chapter 48
 
-- Romanello, M. et al. (2023). The 2023 report of the Lancet Countdown. The Lancet, 402(10419), 2346-2394.
-- Ebi, K.L. et al. (2021). Hot weather and heat extremes: health risks. The Lancet, 398(10301), 698-708.
+- Vicedo-Cabrera, A.M. et al. (2021). Burden of heat-related mortality attributable to recent human-induced climate change. Nature Climate Change, 11, 492-500.
+- Hsiang, S.M. & Burke, M. (2014). Climate, conflict, and social stability. Climatic Change, 123, 39-55.
 
 ## Exercises — Chapter 48
 
@@ -8124,8 +8124,8 @@ This chapter has examined climate justice and equity in detail, presenting the e
 
 ## References — Chapter 49
 
-- Vicedo-Cabrera, A.M. et al. (2021). Burden of heat-related mortality attributable to recent human-induced climate change. Nature Climate Change, 11, 492-500.
-- Hsiang, S.M. & Burke, M. (2014). Climate, conflict, and social stability. Climatic Change, 123, 39-55.
+- Burke, M., Hsiang, S.M. & Miguel, E. (2015). Global non-linear effect of temperature on economic production. Nature, 527, 235-239.
+- Lobell, D.B., Schlenker, W. & Costa-Roberts, J. (2011). Climate trends and global crop production since 1980. Science, 333(6042), 616-620.
 
 ## Exercises — Chapter 49
 
@@ -8287,8 +8287,8 @@ This chapter has examined civic engagement in climate action in detail, presenti
 
 ## References — Chapter 50
 
-- Burke, M., Hsiang, S.M. & Miguel, E. (2015). Global non-linear effect of temperature on economic production. Nature, 527, 235-239.
-- Lobell, D.B., Schlenker, W. & Costa-Roberts, J. (2011). Climate trends and global crop production since 1980. Science, 333(6042), 616-620.
+- Zhao, C. et al. (2017). Temperature increase reduces global yields of major crops. PNAS, 114(35), 9326-9331.
+- Wheeler, T. & von Braun, J. (2013). Climate change impacts on global food security. Science, 341(6145), 508-513.
 
 ## Exercises — Chapter 50
 
@@ -8451,8 +8451,8 @@ This chapter has examined heat waves in South Asia in detail, presenting the evi
 
 ## References — Chapter 51
 
-- Zhao, C. et al. (2017). Temperature increase reduces global yields of major crops. PNAS, 114(35), 9326-9331.
-- Wheeler, T. & von Braun, J. (2013). Climate change impacts on global food security. Science, 341(6145), 508-513.
+- Kulp, S.A. & Strauss, B.H. (2019). New elevation data triple estimates of global vulnerability to sea-level rise. Nature Communications, 10, 4844.
+- Clayton, S. (2020). Climate anxiety: Psychological responses to climate change. Journal of Anxiety Disorders, 74, 102263.
 
 ## Exercises — Chapter 51
 
@@ -8614,8 +8614,8 @@ This chapter has examined drought in the Horn of Africa in detail, presenting th
 
 ## References — Chapter 52
 
-- Kulp, S.A. & Strauss, B.H. (2019). New elevation data triple estimates of global vulnerability to sea-level rise. Nature Communications, 10, 4844.
-- Clayton, S. (2020). Climate anxiety: Psychological responses to climate change. Journal of Anxiety Disorders, 74, 102263.
+- Hickman, C. et al. (2021). Climate anxiety in children and young people. The Lancet Planetary Health, 5(12), e863-e873.
+- Obradovich, N. et al. (2018). Empirical evidence of mental health risks posed by climate change. PNAS, 115(43), 10953-10958.
 
 ## Exercises — Chapter 52
 
@@ -8777,8 +8777,8 @@ This chapter has examined sea level rise in small island states in detail, prese
 
 ## References — Chapter 53
 
-- Hickman, C. et al. (2021). Climate anxiety in children and young people. The Lancet Planetary Health, 5(12), e863-e873.
-- Obradovich, N. et al. (2018). Empirical evidence of mental health risks posed by climate change. PNAS, 115(43), 10953-10958.
+- Adger, W.N. (2006). Vulnerability. Global Environmental Change, 16(3), 268-281.
+- Cutter, S.L. et al. (2008). A place-based model for understanding community resilience. Global Environmental Change, 18(4), 598-606.
 
 ## Exercises — Chapter 53
 
@@ -8941,8 +8941,8 @@ This chapter has examined wildfires in detail, presenting the evidence, mechanis
 
 ## References — Chapter 54
 
-- Adger, W.N. (2006). Vulnerability. Global Environmental Change, 16(3), 268-281.
-- Cutter, S.L. et al. (2008). A place-based model for understanding community resilience. Global Environmental Change, 18(4), 598-606.
+- Aldrich, D.P. & Meyer, M.A. (2015). Social capital and community resilience. American Behavioral Scientist, 59(2), 254-269.
+- Berkes, F. & Ross, H. (2013). Community resilience: toward an integrated approach. Society & Natural Resources, 26(1), 5-20.
 
 ## Exercises — Chapter 54
 
@@ -9104,8 +9104,8 @@ This chapter has examined floods in Southeast Asia in detail, presenting the evi
 
 ## References — Chapter 55
 
-- Aldrich, D.P. & Meyer, M.A. (2015). Social capital and community resilience. American Behavioral Scientist, 59(2), 254-269.
-- Berkes, F. & Ross, H. (2013). Community resilience: toward an integrated approach. Society & Natural Resources, 26(1), 5-20.
+- Folke, C. et al. (2010). Resilience thinking. Ecology and Society, 15(4), 20.
+- Oppenheimer, M. et al. (2019). Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities. SROCC Chapter 4.
 
 ## Exercises — Chapter 55
 
@@ -9267,8 +9267,8 @@ This chapter has examined food crisis in Sub-Saharan Africa in detail, presentin
 
 ## References — Chapter 56
 
-- Folke, C. et al. (2010). Resilience thinking. Ecology and Society, 15(4), 20.
-- Oppenheimer, M. et al. (2019). Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities. SROCC Chapter 4.
+- Cisse, G. et al. (2022). Health, Wellbeing, and the Changing Structure of Communities. IPCC AR6 WG2 Chapter 7.
+- WHO & UNICEF. (2023). Progress on Household Drinking Water, Sanitation and Hygiene 2000-2022. JMP.
 
 ## Exercises — Chapter 56
 
@@ -9431,8 +9431,8 @@ This chapter has examined water stress in the Middle East in detail, presenting 
 
 ## References — Chapter 57
 
-- Cisse, G. et al. (2022). Health, Wellbeing, and the Changing Structure of Communities. IPCC AR6 WG2 Chapter 7.
-- WHO & UNICEF. (2023). Progress on Household Drinking Water, Sanitation and Hygiene 2000-2022. JMP.
+- UNEP. (2022). Emissions Gap Report 2022. UNEP, Nairobi.
+- IEA. (2023). World Energy Outlook 2023. International Energy Agency, Paris.
 
 ## Exercises — Chapter 57
 
@@ -9594,8 +9594,8 @@ This chapter has examined storms and hurricanes in the Caribbean in detail, pres
 
 ## References — Chapter 58
 
-- UNEP. (2022). Emissions Gap Report 2022. UNEP, Nairobi.
-- IEA. (2023). World Energy Outlook 2023. International Energy Agency, Paris.
+- IRENA. (2023). World Energy Transitions Outlook 2023. IRENA, Abu Dhabi.
+- FAO. (2021). Climate Change: Unpacking the Burden on Food Safety. FAO, Rome.
 
 ## Exercises — Chapter 58
 
@@ -9756,8 +9756,8 @@ This chapter has examined permafrost thaw in the Arctic in detail, presenting th
 
 ## References — Chapter 59
 
-- IRENA. (2023). World Energy Transitions Outlook 2023. IRENA, Abu Dhabi.
-- FAO. (2021). Climate Change: Unpacking the Burden on Food Safety. FAO, Rome.
+- World Bank. (2022). What You Need to Know About Food Security and Climate Change. World Bank, Washington DC.
+- UNDP. (2022). Human Development Report 2021/22. UNDP, New York.
 
 ## Exercises — Chapter 59
 
@@ -9920,8 +9920,8 @@ This chapter has examined urban heat in global cities in detail, presenting the 
 
 ## References — Chapter 60
 
-- World Bank. (2022). What You Need to Know About Food Security and Climate Change. World Bank, Washington DC.
-- UNDP. (2022). Human Development Report 2021/22. UNDP, New York.
+- IFRC. (2022). World Disasters Report 2022. IFRC, Geneva.
+- Red Cross. (2020). Heat Waves: A Silent Killer. IFRC, Geneva.
 
 ## Exercises — Chapter 60
 
@@ -10083,8 +10083,8 @@ This chapter has examined 30-day personal action plan in detail, presenting the 
 
 ## References — Chapter 61
 
-- IFRC. (2022). World Disasters Report 2022. IFRC, Geneva.
-- Red Cross. (2020). Heat Waves: A Silent Killer. IFRC, Geneva.
+- WMO. (2022). Early Warnings for All. WMO, Geneva.
+- UNESCO. (2021). Getting Every School Climate-Ready. UNESCO, Paris.
 
 ## Exercises — Chapter 61
 
@@ -10246,8 +10246,8 @@ This chapter has examined 1-year community action plan in detail, presenting the
 
 ## References — Chapter 62
 
-- WMO. (2022). Early Warnings for All. WMO, Geneva.
-- UNESCO. (2021). Getting Every School Climate-Ready. UNESCO, Paris.
+- UNESCO. (2020). Education for Sustainable Development: A Roadmap. UNESCO, Paris.
+- OECD. (2021). Managing Climate Risks, Facing Essential Challenges. OECD, Paris.
 
 ## Exercises — Chapter 62
 
@@ -10410,8 +10410,8 @@ This chapter has examined checklists and templates in detail, presenting the evi
 
 ## References — Chapter 63
 
-- UNESCO. (2020). Education for Sustainable Development: A Roadmap. UNESCO, Paris.
-- OECD. (2021). Managing Climate Risks, Facing Essential Challenges. OECD, Paris.
+- OECD. (2023). Climate Finance Provided and Mobilised by Developed Countries. OECD, Paris.
+- IMF. (2022). World Economic Outlook: War Sets Back Global Recovery. IMF, Washington DC.
 
 ## Exercises — Chapter 63
 
@@ -10573,8 +10573,8 @@ This chapter has examined glossary of climate and survival terms in detail, pres
 
 ## References — Chapter 64
 
-- OECD. (2023). Climate Finance Provided and Mobilised by Developed Countries. OECD, Paris.
-- IMF. (2022). World Economic Outlook: War Sets Back Global Recovery. IMF, Washington DC.
+- Hansen, J. et al. (2016). Ice melt, sea level rise and superstorms: evidence from paleoclimate data, climate modeling, and modern observations that 2°C global warming could be dangerous. Atmos. Chem. Phys., 16, 3761-3812.
+- Hayhoe, K. (2021). Saving Us: A Climate Scientist’s Case for Hope and Healing in a Divided World. One Signal Publishers.
 
 ## Exercises — Chapter 64
 
@@ -10736,8 +10736,8 @@ This chapter has examined extended references and further reading in detail, pre
 
 ## References — Chapter 65
 
-- IPCC. (2023). Climate Change 2023: Synthesis Report Summary for Policymakers. IPCC, Geneva.
-- Hansen, J. et al. (2016). Ice melt, sea level rise and superstorms: evidence from paleoclimate data, climate modeling, and modern observations that 2°C global warming could be dangerous. Atmos. Chem. Phys., 16, 3761-3812.
+- Mann, M.E., Bradley, R.S. & Hughes, M.K. (1999). Northern Hemisphere temperatures during the past millennium. Geophys. Res. Lett., 26(6), 759-762 (hockey stick).
+- Otto, F.E.L. et al. (2021). Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change. World Weather Attribution.
 
 ## Exercises — Chapter 65
 
@@ -10883,14 +10883,12 @@ Buku ini dirancang untuk digunakan dalam diskusi akademik. Saat memperdebatkan a
 - OECD. (2021). Managing Climate Risks, Facing Essential Challenges. OECD, Paris.
 - OECD. (2023). Climate Finance Provided and Mobilised by Developed Countries. OECD, Paris.
 - IMF. (2022). World Economic Outlook: War Sets Back Global Recovery. IMF, Washington DC.
-- IPCC. (2023). Climate Change 2023: Synthesis Report Summary for Policymakers. IPCC, Geneva.
 - Hansen, J. et al. (2016). Ice melt, sea level rise and superstorms: evidence from paleoclimate data, climate modeling, and modern observations that 2°C global warming could be dangerous. Atmos. Chem. Phys., 16, 3761-3812.
 - Hayhoe, K. (2021). Saving Us: A Climate Scientist’s Case for Hope and Healing in a Divided World. One Signal Publishers.
 - Mann, M.E., Bradley, R.S. & Hughes, M.K. (1999). Northern Hemisphere temperatures during the past millennium. Geophys. Res. Lett., 26(6), 759-762 (hockey stick).
 - Otto, F.E.L. et al. (2021). Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change. World Weather Attribution.
 - Rockström, J. et al. (2009). A safe operating space for humanity. Nature, 461, 472-475; Richardson et al. (2023). Planetary boundaries update. Sci. Adv., 9.
 - Huq, S. (2001-2023). ICCCAD / IIED oral statements; COP interventions archived via IPCC AR3-AR5 lead authorship and Nature obituary 2023.
-- Stern, N. (2007). The Economics of Climate Change: The Stern Review. Cambridge University Press.
 - Neira, M. (2021). Foreword/press statements COP26 Special Report on Climate Change and Health. WHO, Geneva.
 - Pörtner, H.-O. et al. (2022). IPCC AR6 WGII Summary for Policymakers press conference statements 28 Feb 2022.
 - Roberts, D. et al. (2022). IPCC AR6 WGII Chapter 6 & press statements — adaptation and mitigation pursued with equal force.

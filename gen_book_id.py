@@ -335,6 +335,7 @@ REFS = [
  "Ebi, K.L. dkk. (2021). Panas ekstrem & risiko kesehatan. The Lancet, 398; Lead Author IPCC SR15 Bab 3.",
  "Howden, S.M. dkk. (2007). Adaptasi pertanian terhadap perubahan iklim. PNAS, 104(50), 19691-19696.",
 ]
+REFS = list(dict.fromkeys(REFS))  # deduplicate — hanya 1 entri per referensi yang sama
 
 EXPERTS = [
  "Dr. James Hansen, mantan Direktur NASA GISS (2013 op-ed/2016 paper): 'Kenaikan permukaan laut beberapa meter dapat terjadi dengan pemanasan 2°C — 2°C akan menimbulkan konsekuensi yang dapat digambarkan sebagai bencana (disastrous).'",
