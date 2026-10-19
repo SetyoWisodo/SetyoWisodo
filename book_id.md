@@ -1756,11 +1756,9 @@ Bagi individu dan komunitas, implikasi praktis dari topik ini mencakup perubahan
 | Orang terpindah karena iklim (tahunan) | ~20 juta+ | UNHCR |
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |
 
-## Perspektif Ahli: Banjir dan Kenaikan Permukaan Laut
+Sintesis ahli yang terintegrasi membingkai bab ini: Prof. Michael Oppenheimer, ilmuwan iklim menegaskan bahwa Kenaikan permukaan laut terkomitmen selama berabad-abad, dan komunitas pesisir harus merencanakan perubahan tak dapat dibalikkan. [^9] Pernyataan ini menjadi pokok pikiran — komitmen kenaikan permukaan laut adalah premis utama untuk menafsirkan Jenis Banjir, Risiko Pesisir, Banjir Sungai, dan Banjir Perkotaan. Paragraf-paragraf selanjutnya menjelaskan premis tersebut dengan data mekanisme, keterpaparan, dan retret terkelola.
 
-> Prof. Hans-Otto Portner, IPCC: 'Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia.' [^9]
-
-> Dr. Debra Roberts, IPCC: 'Adaptasi dan mitigasi harus berjalan bersama; tidak satu pun saja cukup untuk mengelola risiko iklim.' [^10]
+Sebagai narasi pendukung, Prof. Hans-Otto Portner, IPCC menekankan bahwa Jendela untuk bertindak menutup dengan cepat, dan setiap pecahan derajat penting bagi ekosistem dan manusia. [^10] Pernyataan ini berfungsi sebagai penjelasan kalimat pokok: mengapa pertahanan banjir, asuransi, dan adaptasi pesisir jangka panjang harus dinilai terhadap perubahan yang tidak dapat dibalikkan dan menyempitnya jendela tindakan, mengubah wawasan ahli menjadi analisis tingkat paragraf bukan seksi terpisah.
 
 ## Kondisi Terkini dan Berita: Banjir dan Kenaikan Permukaan Laut
 

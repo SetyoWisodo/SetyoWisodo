@@ -3,8 +3,8 @@
 //  Trim 6 x 9 in (152.4 x 228.6 mm), print-ready interior for POD/offset.
 // =====================================================================
 
-#let serif = ("Source Serif 4",)
-#let sans = ("Source Sans 3",)
+#let serif = ("Times New Roman", "DejaVu Serif", "Times", "Serif")
+#let sans = ("Times New Roman", "DejaVu Serif", "Times", "Serif")
 #let accent = rgb("#1f5f8b")
 #let warm = rgb("#c26a1b")
 #let ink = rgb("#1b1b1b")
@@ -27,9 +27,9 @@
     above: 1.1em, below: 1.1em,
   )[
     #if title != none {
-      block(below: 0.6em, text(font: sans, weight: "semibold", size: 9.6pt, fill: col.darken(15%), upper(title)))
+      block(below: 0.6em, text(font: sans, weight: "semibold", size: 12pt, fill: col.darken(15%), upper(title)))
     }
-    #set text(size: 9.4pt)
+    #set text(size: 12pt)
     #set par(first-line-indent: 0pt, spacing: 0.75em)
     #body
   ]
@@ -37,7 +37,7 @@
 
 #let lead(body) = block(above: 0.2em, below: 1.4em)[
   #set par(first-line-indent: 0pt)
-  #text(size: 11.2pt, style: "italic", fill: muted, body)
+  #text(size: 12pt, style: "italic", fill: muted, body)
 ]
 
 #let part-page(number: "", title: "", lang: "en") = {
@@ -46,7 +46,7 @@
   [#metadata(L.at(lang).part + " " + number) <partpage>]
   v(30%)
   align(center)[
-    #text(font: sans, size: 11pt, weight: "semibold", tracking: 3pt, fill: accent, upper(L.at(lang).part + " " + number))
+    #text(font: sans, size: 12pt, weight: "bold", tracking: 3pt, fill: accent, upper(L.at(lang).part + " " + number))
     #v(10pt)
     #line(length: 22%, stroke: 0.7pt + accent)
     #v(12pt)
@@ -92,7 +92,7 @@
   }
   let keys = d.keys().sorted(key: k => lower(k))
   set par(first-line-indent: 0pt, justify: false, spacing: 0.32em, hanging-indent: 1em)
-  set text(size: 8.6pt)
+  set text(size: 12pt)
   columns(2, gutter: 14pt)[
     #let last = ""
     #for k in keys {
@@ -119,8 +119,8 @@
   keywords: (), body,
 ) = {
   set document(title: title + ": " + subtitle, author: author, keywords: keywords)
-  set text(font: serif, size: 10.4pt, lang: lang, fill: ink, hyphenate: true,
-           number-type: "old-style", costs: (hyphenation: 60%, runt: 120%, widow: 200%, orphan: 200%))
+  set text(font: serif, size: 12pt, lang: lang, fill: ink, hyphenate: true,
+           number-type: "lining", costs: (hyphenation: 60%, runt: 120%, widow: 200%, orphan: 200%))
   set par(justify: true, leading: 0.68em, first-line-indent: 1.2em, spacing: 0.68em)
   set page(
     width: 6in, height: 9in,
@@ -130,17 +130,17 @@
   set list(indent: 0.6em, body-indent: 0.5em, spacing: 0.55em, marker: ([•], [–]))
   set enum(indent: 0.6em, body-indent: 0.5em, spacing: 0.55em)
   set footnote.entry(separator: line(length: 25%, stroke: 0.4pt + muted), indent: 0pt, gap: 0.45em)
-  show footnote.entry: set text(size: 7.8pt)
+  show footnote.entry: set text(size: 12pt)
   show quote.where(block: true): it => block(inset: (left: 1.4em, right: 1.0em), above: 1em, below: 1em)[
-    #set text(size: 9.8pt, style: "italic")
+    #set text(size: 12pt, style: "italic")
     #set par(first-line-indent: 0pt)
     #it.body
-    #if it.attribution != none { align(right, text(style: "normal", size: 9pt, [— ] + it.attribution)) }
+    #if it.attribution != none { align(right, text(style: "normal", size: 12pt, [— ] + it.attribution)) }
   ]
 
   // ---- tables ----
   set table(stroke: none, inset: (x: 5pt, y: 4pt), fill: (x, y) => if y == 0 { accent.lighten(85%) } else if calc.odd(y) { luma(247) })
-  show table: set text(size: 8.6pt, number-type: "lining")
+  show table: set text(size: 12pt, number-type: "lining")
   show table: set par(justify: false, first-line-indent: 0pt)
   show table.cell.where(y: 0): set text(font: sans, weight: "semibold")
   show figure.where(kind: table): set block(breakable: true)
@@ -154,25 +154,25 @@
   show heading.where(level: 1): it => {
     if it.supplement == [Part] {
       // part title (placed inside part-page)
-      text(font: sans, size: 24pt, weight: "bold", fill: ink, it.body)
+      text(font: sans, size: 12pt, weight: "bold", fill: ink, it.body)
     } else {
       [#metadata("chapter-end") <chend>]
       pagebreak(to: "odd", weak: true)
       v(0.9in)
       if it.numbering != none {
-        block(below: 6pt, text(font: sans, size: 10pt, weight: "semibold", tracking: 2.5pt, fill: accent,
+        block(below: 6pt, text(font: sans, size: 12pt, weight: "bold", tracking: 2.5pt, fill: accent,
           upper(L.at(lang).chapter + " " + counter(heading).display("1"))))
       }
-      block(below: 10pt, text(font: sans, size: 21pt, weight: "bold", it.body))
+      block(below: 10pt, text(font: sans, size: 12pt, weight: "bold", it.body))
       block(below: 1.6em, line(length: 18%, stroke: 1.2pt + warm))
     }
   }
   show heading.where(level: 2): it => block(above: 1.6em, below: 0.75em, sticky: true,
-    text(size: 12.6pt, weight: "semibold", fill: accent.darken(10%), it.body))
+    text(size: 12pt, weight: "bold", fill: accent.darken(10%), it.body))
   show heading.where(level: 3): it => block(above: 1.2em, below: 0.6em, sticky: true,
-    text(size: 10.6pt, weight: "semibold", it.body))
+    text(size: 12pt, weight: "bold", it.body))
   show heading.where(level: 4): it => block(above: 1em, below: 0.5em, sticky: true,
-    text(size: 10pt, weight: "semibold", style: "italic", it.body))
+    text(size: 12pt, weight: "bold", style: "italic", it.body))
 
   // ---- running heads ----
   let is-blank(p) = {
@@ -195,7 +195,7 @@
       let num = counter(page).display()
       let prev = query(heading.where(level: 1).before(here())).filter(h => h.supplement != [Part])
       let chap = if prev.len() > 0 { prev.last().body } else { [] }
-      set text(font: sans, size: 7.8pt, fill: muted, tracking: 0.8pt, number-type: "lining")
+      set text(font: sans, size: 12pt, fill: muted, tracking: 0.8pt, number-type: "lining")
       if calc.even(p) {
         grid(columns: (auto, 1fr), column-gutter: 12pt, text(weight: "semibold", fill: ink, num), upper(title))
       } else {
@@ -208,7 +208,7 @@
       let p = here().page()
       let on-opener = query(heading.where(level: 1)).any(h => h.location().page() == p and h.supplement != [Part])
       if on-opener and state("hdr", false).get() {
-        align(center, text(font: sans, size: 8pt, fill: muted, number-type: "lining", counter(page).display()))
+        align(center, text(font: sans, size: 12pt, fill: muted, number-type: "lining", counter(page).display()))
       }
     },
   )

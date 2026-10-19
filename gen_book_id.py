@@ -517,13 +517,27 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(DATA_TABLES[ci % len(DATA_TABLES)])
     md.append("")
-    # Perspektif ahli
-    md.append(f"## Perspektif Ahli: {title}")
-    md.append("")
-    for j,e in enumerate(EXPERTS[ci % len(EXPERTS): (ci % len(EXPERTS))+2], start=1):
-        fn = (ci % len(EXPERTS)) + j
-        md.append(f"> {e} [^{fn}]")
+    # Perspektif Ahli - untuk Banjir dan Kenaikan Permukaan Laut (Bab 8) diintegrasikan ke pembahasan utama, bukan sub-bab terpisah
+    if ci == 8:
+        fn1 = (ci % len(EXPERTS)) + 1
+        fn2 = (ci % len(EXPERTS)) + 2
+        exp1 = EXPERTS[10]
+        exp2 = EXPERTS[8]
+        exp1_name = exp1.split(':')[0].strip()
+        exp1_quote = exp1.split(':',1)[1].strip().strip("'")
+        exp2_name = exp2.split(':')[0].strip()
+        exp2_quote = exp2.split(':',1)[1].strip().strip("'")
+        md.append(f"Sintesis ahli yang terintegrasi membingkai bab ini: {exp1_name} menegaskan bahwa {exp1_quote} [^{fn1}] Pernyataan ini menjadi pokok pikiran — komitmen kenaikan permukaan laut adalah premis utama untuk menafsirkan Jenis Banjir, Risiko Pesisir, Banjir Sungai, dan Banjir Perkotaan. Paragraf-paragraf selanjutnya menjelaskan premis tersebut dengan data mekanisme, keterpaparan, dan retret terkelola.")
         md.append("")
+        md.append(f"Sebagai narasi pendukung, {exp2_name} menekankan bahwa {exp2_quote} [^{fn2}] Pernyataan ini berfungsi sebagai penjelasan kalimat pokok: mengapa pertahanan banjir, asuransi, dan adaptasi pesisir jangka panjang harus dinilai terhadap perubahan yang tidak dapat dibalikkan dan menyempitnya jendela tindakan, mengubah wawasan ahli menjadi analisis tingkat paragraf bukan seksi terpisah.")
+        md.append("")
+    else:
+        md.append(f"## Perspektif Ahli: {title}")
+        md.append("")
+        for j,e in enumerate(EXPERTS[ci % len(EXPERTS): (ci % len(EXPERTS))+2], start=1):
+            fn = (ci % len(EXPERTS)) + j
+            md.append(f"> {e} [^{fn}]")
+            md.append("")
     # Kondisi terkini dan berita
     md.append(f"## Kondisi Terkini dan Berita: {title}")
     md.append("")

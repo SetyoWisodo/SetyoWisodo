@@ -1271,11 +1271,9 @@ From an academic perspective, the implications of the case study extend beyond i
 | People displaced by climate (annual) | ~20 million+ | UNHCR |
 | Economic loss from droughts | Billions USD | World Bank |
 
-## Expert Perspectives: Floods and Sea Level Rise
+An integrated expert synthesis frames this chapter: Prof. Michael Oppenheimer, climate scientist observes that Sea level rise is committed for centuries, and coastal communities must plan for irreversible change. [^9] This statement serves as the central topic sentence — sea-level commitment is the core premise from which Flood Types, Coastal Risk, Riverine Floods, and Urban Flooding are interpreted. Subsequent paragraphs explain this premise with supporting data on mechanisms, exposure, and managed retreat.
 
-> Prof. Hans-Otto Portner, IPCC: 'The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people.' [^9]
-
-> Dr. Debra Roberts, IPCC: 'Adaptation and mitigation must go hand in hand; neither alone is sufficient to manage climate risk.' [^10]
+Complementing this, Prof. Hans-Otto Portner, IPCC emphasizes that The window for action is closing rapidly, and every fraction of a degree matters for ecosystems and people. [^10] This is used as a supporting narrative for the main arguments: it explains why flood defenses, insurance, and long-term coastal adaptation must be evaluated against irreversible change and narrowing windows for action, turning expert insight into paragraph-level analysis rather than a separate section.
 
 ## Current Conditions and News: Floods and Sea Level Rise
 
