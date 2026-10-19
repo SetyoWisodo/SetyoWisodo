@@ -26,7 +26,6 @@ def md_to_html(md_text):
     html_parts = []
     # Global style untuk line spacing dan justify - diterapkan via CSS yang didukung fpdf2
     # FPDF2 mendukung style pada tag melalui parsing CSS inline
-    html_parts.append('<style>p { text-align: justify; line-height: 1.25; margin-bottom: 4mm; } h1 { text-align: center; line-height: 1.5; margin-top: 6mm; margin-bottom: 4mm; } h2 { text-align: left; line-height: 1.5; margin-top: 4mm; margin-bottom: 3mm; } h3 { line-height: 1.5; margin-top: 3mm; margin-bottom: 2mm; } li { line-height: 1.25; }</style>')
     in_ul = False
     for line in lines:
         s = line.rstrip()
@@ -38,7 +37,6 @@ def md_to_html(md_text):
         if s.startswith('# '):
             if in_ul:
                 html_parts.append('</ul>'); in_ul=False
-            # Bab - line spacing 1.5
             html_parts.append('<h1 style="line-height:1.5; margin-top:6mm; margin-bottom:4mm; text-align:center;">%s</h1>' % inline(s[2:].strip()))
             continue
         if s.startswith('## '):
@@ -65,13 +63,10 @@ def md_to_html(md_text):
         if s.strip() == '':
             if in_ul:
                 html_parts.append('</ul>'); in_ul=False
-            # antar paragraf spacing 1.5 ~ 6mm
             html_parts.append('<div style="height:2mm;"></div>')
             continue
         if in_ul:
             html_parts.append('</ul>'); in_ul=False
-        # Paragraf: justify, line spacing 1.25, antar paragraf 1.5 (margin-bottom), indent 12.7mm (1/2 inch Word default)
-        # First line indent via text-indent CSS (didukung fpdf2) + non-breaking spaces fallback
         html_parts.append('<p style="text-align:justify; line-height:1.25; margin-bottom:4mm; text-indent:12.7mm;">%s</p>' % inline(s.strip()))
     if in_ul:
         html_parts.append('</ul>')
@@ -118,14 +113,18 @@ class BookPDF(FPDF):
                 fns = sorted(cur)
         if fns and p not in self._rendered_fn_pages:
             self._rendered_fn_pages.add(p)
-            self.set_y(self.h - self.b_margin + 1)
-            self.set_font('TNR', '', 12)
+            # Footnotes di area margin bawah (40mm) - rapihkan tanpa tumpang tindih
+            # Posisi y = bawah halaman - margin bawah + 2mm dari atas margin, beri line height cukup
+            self.set_y(self.h - self.b_margin + 2)
+            self.set_font('TNR', '', 9)  # footnotes sedikit lebih kecil agar muat, tetap TNR
             for n in fns:
                 txt = footnotes.get(n, '')
                 self.set_x(self.l_margin)
-                self.multi_cell(0, 3.0, '%d. %s' % (n, txt), new_x='LMARGIN', new_y='NEXT')
+                # line height 4.2mm untuk 9pt agar tidak bertumpuk
+                self.multi_cell(0, 4.2, '%d. %s' % (n, txt), new_x='LMARGIN', new_y='NEXT')
             self.set_font('TNR', '', 12)
-        self.set_y(-8)
+        # Nomor halaman: bab pertama tengah bawah, selain bab kanan bawah; margin sesuai 3/3/3/4 cm
+        self.set_y(-12)
         self.set_font('TNR', '', 12)
         if p in self.chapter_starts:
             self.cell(0, 5, '%d' % p, align='C')

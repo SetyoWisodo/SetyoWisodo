@@ -24,7 +24,6 @@ def inline(text):
 def md_to_html(md_text):
     lines = md_text.split('\n')
     html_parts = []
-    html_parts.append('<style>p { text-align: justify; line-height: 1.25; margin-bottom: 4mm; } h1 { text-align: center; line-height: 1.5; margin-top: 6mm; margin-bottom: 4mm; } h2 { text-align: left; line-height: 1.5; margin-top: 4mm; margin-bottom: 3mm; } h3 { line-height: 1.5; margin-top: 3mm; margin-bottom: 2mm; } li { line-height: 1.25; }</style>')
     in_ul = False
     for line in lines:
         s = line.rstrip()
@@ -111,14 +110,14 @@ class BookPDF(FPDF):
                 fns = sorted(cur)
         if fns and p not in self._rendered_fn_pages:
             self._rendered_fn_pages.add(p)
-            self.set_y(self.h - self.b_margin + 1)
-            self.set_font('TNR', '', 12)
+            self.set_y(self.h - self.b_margin + 2)
+            self.set_font('TNR', '', 9)
             for n in fns:
                 txt = footnotes.get(n, '')
                 self.set_x(self.l_margin)
-                self.multi_cell(0, 3.0, '%d. %s' % (n, txt), new_x='LMARGIN', new_y='NEXT')
+                self.multi_cell(0, 4.2, '%d. %s' % (n, txt), new_x='LMARGIN', new_y='NEXT')
             self.set_font('TNR', '', 12)
-        self.set_y(-8)
+        self.set_y(-12)
         self.set_font('TNR', '', 12)
         if p in self.chapter_starts:
             self.cell(0, 5, '%d' % p, align='C')
