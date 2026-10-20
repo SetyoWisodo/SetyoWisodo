@@ -544,6 +544,154 @@ DATA_POINTS = [
  "~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023)",
 ]
 
+FUTURE_SCENARIO_DETAILS = {
+    "the warming world and the coming crises": {
+        "concrete": "permukaan laut sekitar 0,2–0,3 m pada 2040 dan 0,4–0,6 m pada 2060 dibanding 2000; permukiman pesisir di bawah 2–3 m dpl — wilayah rendah Jakarta, Semarang, Surabaya, New Orleans, Dhaka dan ibu kota pulau kecil — akan menghadapi banjir rob bulanan bahkan tanpa badai, dengan 2100 mencapai 0,6–1,0 m mengancam desa nelayan dan pelabuhan",
+        "adapt": "meninggikan rumah panggung, memulihkan mangrove sebagai tanggul alami, tide gauge peringatan dini, mengamankan air tawar dari intrusi garam, dan relokasi bertahap dengan pekerjaan",
+        "ssp_high_detail": "heat, floods and fires exceed recent extremes yearly, exposing 20–40% more people by 2050",
+        "ssp_low_detail": "still 15–30% more extremes than pre-industrial in 2050, but peak near 1.5–1.6°C keeps sea-level rise closer to 0.3–0.5 m by 2100",
+    },
+    "extreme heat, heat waves and urban heat islands": {
+        "concrete": "pada 2040 hari di atas 35°C berlipat menjadi 60–90 hari per tahun di Delhi, Phoenix, Jakarta dan Lagos, malam di atas 28°C tiga kali lipat, dan kunjungan IGD akibat heat stroke naik 30–50%; kampung padat 5–7°C lebih panas dari taman, dengan 2100 menambah 20–30 hari berbahaya tiap tahun di skenario tinggi",
+        "adapt": "atap sejuk, pohon jalan tiap 10 m, shelter sejuk malam, jam kerja digeser 06–10 dan 16–19, serta pos hidrasi dengan SMS siaga panas",
+        "ssp_high_detail": "2050 urban heat deaths +40–60%, labor productivity –15% outdoors",
+        "ssp_low_detail": "heat mortality +15–25%, with cool-city measures keeping most districts viable",
+    },
+    "water scarcity and drought": {
+        "concrete": "pada 2040 air terbarukan per orang turun 25–35% di Jawa, India utara dan Sahel, muka air tanah turun 0,5–1,5 m per tahun, dan waduk mengalirkan 30% lebih sedikit di musim kering, dengan 2100 aliran sungai –30–50% di skenario tinggi mengeringkan 40% sumur",
+        "adapt": "panen air hujan di tiap atap, irigasi tetes hemat 30–50%, recharge akuifer terkelola, dan bank air desa dengan aturan jatah",
+        "ssp_high_detail": "droughts lasting 12–18 months become 3× more frequent",
+        "ssp_low_detail": "drought frequency +20–40%, manageable with efficiency",
+    },
+    "floods and sea level rise": {
+        "concrete": "pada 2040 banjir 1-dalam-100-tahun menjadi 1-dalam-20 di Teluk Jakarta, delta Mekong dan Mississippi, tanggul jebol 2–3× lebih sering, dan banjir rob 30–50 hari per tahun di zona <2 m; 2100 kenaikan 0,6–1,0 m mengklaim permanen 10–15% lahan pertanian pesisir",
+        "adapt": "jalan/rumah ditinggikan, sabuk mangrove 500 m, polder dengan pompa, dan buy-out/relokasi untuk zona <1 m dengan hibah mata pencaharian",
+        "ssp_high_detail": "2040 flood damages +40–80% versus 2020",
+        "ssp_low_detail": "damages +15–30%, with defenses holding for 1-in-50 events",
+    },
+    "food security and agriculture under climate change": {
+        "concrete": "pada 2040 hasil gandum –8–15% dan jagung –10–18% di Asia Selatan dan Sahel, padi –5–10% dari panas malam, dan tangkapan ikan –10–20% di laut tropis, mendorong 40–60 juta ekstra ke lapar; 2100 skenario tinggi memangkas pangan pokok 20–30% tanpa adaptasi",
+        "adapt": "benih tahan panas, geser tanam 2–3 minggu lebih awal, tetes dan mulsa hemat 30% air, kolam ikan dan lumbung desa untuk paceklik",
+        "ssp_high_detail": "prices spike 30–50% in bad years, supply chains break",
+        "ssp_low_detail": "yields stabilize, hunger risk +10–15% with adaptation",
+    },
+    "the physical science of global warming and its history": {
+        "concrete": "global mean temperature ~1.5°C by 2030 and CO2 ~430 ppm; pada 2040 Arctic summer ice-free days 10–20 per year versus 5 today, and ocean heat content up ~15% driving stronger storms, with 2100 warming 3.6–4.4°C under high emissions melting Greenland enough for 0.3–0.5 m extra sea-level",
+        "adapt": "expand satellite and ocean buoys, citizen temperature logs, school labs tracking CO2, and municipal heat/sea-level dashboards to translate science into local alerts",
+        "ssp_high_detail": "radiative forcing intensifies, with 2030 CO2 ~440 ppm and extremes outside historical envelopes",
+        "ssp_low_detail": "forcing stabilizes near 2.6 W/m², preserving science-based planning windows",
+    },
+    "climate systems, feedback mechanisms and monitoring": {
+        "concrete": "pada 2040 permafrost thaw releases 10–20% more methane, Amazon dieback risk rises where deforestation passes 20–25%, and Atlantic overturning slows 15–25%, while early-warning sensors in 30% of vulnerable basins could still catch tipping signals",
+        "adapt": "deploy permafrost and forest sensors, community rain gauges, and feedback dashboards that trigger staged responses before thresholds lock in",
+        "ssp_high_detail": "feedbacks amplify: 2050 permafrost carbon adds 0.1–0.3°C extra, forest carbon sinks weaken",
+        "ssp_low_detail": "feedback amplification limited to 0.05°C, monitoring retains lead time",
+    },
+    "ecosystems and biodiversity loss": {
+        "concrete": "pada 2040 coral reefs face annual bleaching (90% of tropical reefs), 15–25% of bird ranges shift upslope, and mangroves lose 10–20% where seas rise fast, with 2100 extinction risk 2–3× higher for narrow-range species under high emissions",
+        "adapt": "marine protected networks, corridors linking forest patches, replanting diverse natives, and community ranger patrols",
+        "ssp_high_detail": "ecosystem services –20–30% (fisheries, pollination)",
+        "ssp_low_detail": "services –5–15%, recovery possible with protection",
+    },
+    "health impacts of climate change": {
+        "concrete": "pada 2040 heat deaths +30–50% in cities over 35°C, dengue range expands 150–200 km poleward, and diarrheal spikes +10–20% after floods, with 2100 malaria in highlands doubling under high emissions without control",
+        "adapt": "heat health alerts, screened housing, oral rehydration stocks, and clinics with flood-proof power and records",
+        "ssp_high_detail": "child malnutrition +15–25% via food-water cascades",
+        "ssp_low_detail": "health burden +10–15%, with primary care keeping pace",
+    },
+    "economic impacts and financial preparedness under climate change": {
+        "concrete": "pada 2040 climate disasters cost 2–4% of GDP yearly in exposed provinces, insurance premiums +30–60% on coasts, and work hours lost 10–15% in heat, with 2100 high-emissions shaving 15–25% off incomes in vulnerable deltas versus low-emissions",
+        "adapt": "emergency funds equal 3 months expenses, micro-insurance pools, diversified incomes, and building codes for wind/flood/heat",
+        "ssp_high_detail": "adaptation costs triple but still < damages",
+        "ssp_low_detail": "costs manageable at 1–2% GDP with blended finance",
+    },
+    "climate migration and displacement": {
+        "concrete": "pada 2040 15–25 million yearly displaced by floods, storms and drought (versus ~20 million now), with Dhaka, Lagos and Manila receiving 300–500k climate newcomers yearly, and 2100 high-emissions displacing 100–150 million cumulatively from <3 m coasts and drying farms",
+        "adapt": "legal aid, portable IDs/health records, rental support, and receiving-city plans for water/jobs/schools",
+        "ssp_high_detail": "cross-border movement +30–50%",
+        "ssp_low_detail": "displacement stabilizes near current levels with local adaptation",
+    },
+    "climate change, conflict and security": {
+        "concrete": "pada 2040 competition over water and grazing triggers 20–30% more local conflicts in Sahel and Horn where rains fail 2–3 years in a row, and storm-driven outages increase civil unrest, with 2100 high-emissions widening security gaps where states are fragile",
+        "adapt": "community water peace committees, early-warning SMS, stockpiles, and inclusive governance that shares resources transparently",
+        "ssp_high_detail": "conflict risk +15–30% where vulnerability is high",
+        "ssp_low_detail": "risk +5–15%, mitigated by cooperation",
+    },
+    "infrastructure, shelter and energy resilience": {
+        "concrete": "pada 2040 heat buckles 10–15% more roads/rails per heatwave, blackouts rise 30% when AC demand meets low water for hydropower, and 1-in-20 floods overtop drains, with 2100 high-emissions requiring elevation +1 m for new coastal builds",
+        "adapt": "heat-resistant asphalt, elevated substations, mini-grids with solar+battery, and flood-resilient schools as hubs",
+        "ssp_high_detail": "infrastructure losses +40–70%",
+        "ssp_low_detail": "losses +15–25% with resilient codes",
+    },
+    "climate literacy and education": {
+        "concrete": "pada 2040 misinformation spikes during every disaster, yet schools teaching climate literacy see 30–40% better preparedness scores; illiteracy leaves 25% of adults unable to interpret risk maps, with 2100 gaps widening where curricula ignore local hazards",
+        "adapt": "plain-language risk maps, student citizen-science, teacher training, and village noticeboards with verified forecasts",
+        "ssp_high_detail": "literacy gaps amplify losses 20–30%",
+        "ssp_low_detail": "universal basic climate literacy cuts losses 15–25%",
+    },
+    "data, statistics and misinformation in the climate era": {
+        "concrete": "pada 2040 60–70% of online climate claims mix real and outdated data, and satellite/ground gaps delay warnings 6–12 hours, with 2100 high-emissions misaligned decisions costing 10–20% extra where data is not trusted",
+        "adapt": "check primary sources (IPCC, WMO, NOAA/NASA), triangulate 2–3 datasets, and use uncertainty bars, not single numbers",
+        "ssp_high_detail": "errors compound where data literacy is low",
+        "ssp_low_detail": "open data hubs cut decision errors 20–30%",
+    },
+    "household preparedness for water, food, shelter and local risk": {
+        "concrete": "pada 2040 households without 3-day water/food face 2–3× more crisis visits, homes below 2 m flood yearly, and kitchens fail 30% more in heat, with 2100 high-emissions requiring rain tanks and cool rooms in 50% of homes",
+        "adapt": "go-bags, 3-day water (15 L/person/day), grain banks, cool shelter, and neighborhood mutual-aid rosters",
+        "ssp_high_detail": "unprepared households need 40% more aid",
+        "ssp_low_detail": "preparedness halves emergency needs",
+    },
+    "health, emergency response and protecting vulnerable populations": {
+        "concrete": "pada 2040 ambulance delays +20% during heat/floods, clinics lose power 10–15% of storm days, and elderly/disabled mortality 2–3× higher without outreach, with 2100 high-emissions overwhelming response without community teams",
+        "adapt": "volunteer responder teams, door-to-door vulnerable registries, clinic backup power, and mobile health units",
+        "ssp_high_detail": "emergency demand +30–50%",
+        "ssp_low_detail": "demand +10–20%, with community response covering gaps",
+    },
+    "social capital, mutual aid and community governance": {
+        "concrete": "pada 2040 neighborhoods with strong mutual-aid recover 30–40% faster and report 20% fewer losses, while fragmented areas see aid delayed 1–2 weeks, with 2100 high-emissions widening trust gaps where governance is weak",
+        "adapt": "block captains, tool libraries, community funds, and joint decisions on water and evacuation",
+        "ssp_high_detail": "social fragmentation raises losses 15–25%",
+        "ssp_low_detail": "tight networks halve recovery time",
+    },
+    "renewable energy and appropriate technologies for climate adaptation": {
+        "concrete": "pada 2040 solar+storage cheaper than diesel in 70% of off-grid areas, but heat cuts panel output 5–10% and storms damage 15% of exposed installs, while 2100 high-emissions still leaves 20% of demand on fossil without storage scale-up",
+        "adapt": "elevated solar, cyclone clips, battery cooperatives, and repair training for youth",
+        "ssp_high_detail": "energy access improves but intermittency costs rise",
+        "ssp_low_detail": "near-universal clean access with low bills",
+    },
+    "climate anxiety, trauma and building psychological resilience": {
+        "concrete": "pada 2040 35–45% of teens report climate anxiety weekly, heat and displacement raise depression 15–25%, and post-flood trauma lasts 6–12 months without support, with 2100 high-emissions doubling chronic stress in hot, insecure zones",
+        "adapt": "peer groups, green spaces, counseling at schools/clinics, and action projects giving agency",
+        "ssp_high_detail": "mental health burden +30–40%",
+        "ssp_low_detail": "resilience programs halve symptom persistence",
+    },
+    "climate governance, justice, equity and civic engagement": {
+        "concrete": "pada 2040 climate lawsuits double and budgets for adaptation still meet only 15–25% of needs, with low-income wards receiving 30% less protection, and 2100 high-emissions locking injustice where decisions lack community voice",
+        "adapt": "participatory budgeting, equity audits, legal aid, and transparency boards tracking spending",
+        "ssp_high_detail": "inequity amplifies impacts 20–30%",
+        "ssp_low_detail": "inclusive governance cuts inequity half",
+    },
+    "regional case studies of heat, wildfire, flood and urban climate extremes": {
+        "concrete": "pada 2040 case cities like Ahmedabad, Los Angeles and Athens see 30–50% more wildfire-smoke days and 40–60 flood days yearly in low zones; 2100 high-emissions makes 1-in-10-year urban floods annual",
+        "adapt": "fire breaks, sponge-city parks, early evacuation drills, and case-to-case learning exchanges",
+        "ssp_high_detail": "urban extreme costs +50–80%",
+        "ssp_low_detail": "costs +15–30% with green infrastructure",
+    },
+    "regional case studies of drought, food crisis, water stress and security": {
+        "concrete": "pada 2040 Horn/Sahel droughts like 2022 recur every 3–4 years, Mekong flows –20% in dry season, and groundwater in Punjab falls 1 m yearly, pushing food prices +20–35% in bad years; 2100 high-emissions doubles multi-breadbasket failure risk",
+        "adapt": "drought-tolerant crops, watershed recharge, grain reserves, and cross-border water agreements",
+        "ssp_high_detail": "hunger risk +25–40%",
+        "ssp_low_detail": "risk +10–15% with diversification",
+    },
+    "personal and community action plans, checklists and templates for surviving the future": {
+        "concrete": "pada 2040 families with 1-month plans cut losses 40–50% and recover 2× faster; without checklists 30% forget documents/medicines, and 2100 high-emissions overwhelms ad-hoc coping",
+        "adapt": "30-day household plan (water/food/shelter), 1-year community plan (governance/networks), go-bags, risk matrices and drills updated yearly",
+        "ssp_high_detail": "planned communities thrive, unplanned struggle",
+        "ssp_low_detail": "basic plans halve harm everywhere",
+    },
+}
+
+
 
 # Relevance mapping ID (Indonesian keywords)
 EXPERT_KEYWORDS = {
@@ -829,20 +977,21 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append(f"Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompok rentan, dan redundansi pada sistem kritis untuk {theme.lower()}, sebagai dasar persiapan dan koordinasi praktis.")
 
     md.append("")
-    # Skenario Masa Depan — detailing mendalam (ARS + Vane Quality Mode, terpenting untuk masa depan)
+    # Skenario Masa Depan — tema-spesifik (bahasa awam, detail per topik bab)
     md.append(f"## Skenario Masa Depan dan Prediksi: {title}")
 
     md.append("")
 
-    md.append(f"Melihat data pemanasan saat ini untuk {theme.lower()} — suhu global sudah ~1,1–1,2°C di atas pra-industri (IPCC, 2023) dan CO2 di ~420 ppm (NOAA, 2024) — dekade mendatang membawa dampak yang mudah dipahami. Misalnya, permukaan laut diproyeksikan naik sekitar 0,2–0,3 meter pada 2040 dan 0,4–0,6 meter pada 2060 dibanding 2000; permukiman pesisir di bawah 2–3 meter di atas permukaan laut, seperti wilayah rendah Jakarta, Semarang, Surabaya, New Orleans, Dhaka dan ibu kota pulau kecil, akan mengalami banjir rob rutin bahkan tanpa badai, dan pada 2100 kenaikan 0,6–1,0 meter dapat menenggelamkan permanen kampung nelayan, pelabuhan dan lahan pertanian. Cara antisipasi yang praktis meliputi meninggikan rumah panggung, memulihkan mangrove dan lahan basah sebagai pelindung alami, membangun jalur evakuasi komunitas dan peringatan dini, mengamankan air tawar dari intrusi garam, serta merencanakan relokasi bertahap dengan menjaga mata pencaharian. Skenario di bawah ini menerjemahkan gambaran ini menjadi tiga masa depan untuk {theme.lower()} dengan bahasa sederhana.")
+    det = FUTURE_SCENARIO_DETAILS.get(theme.lower(), FUTURE_SCENARIO_DETAILS["the warming world and the coming crises"])
+    md.append(f"Melihat data pemanasan saat ini untuk {theme.lower()} — suhu global sudah ~1,1–1,2°C di atas pra-industri (IPCC, 2023) dan CO2 di ~420 ppm (NOAA, 2024) — dekade mendatang membawa dampak yang mudah dipahami. Misalnya, {det['concrete']}. Cara antisipasi yang praktis meliputi {det['adapt']}. Skenario di bawah ini menerjemahkan gambaran ini menjadi tiga masa depan untuk {theme.lower()} dengan bahasa sederhana.")
 
     md.append("")
 
-    md.append(f"Di bawah **SSP5-8.5 (emisi tinggi)**, {theme.lower()} meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya {theme.lower()} melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).")
+    md.append(f"Di bawah **SSP5-8.5 (emisi tinggi)**, {theme.lower()} meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong {det['ssp_high_detail']}; pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).")
 
     md.append("")
 
-    md.append(f"Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk {theme.lower()} terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem {theme.lower()} masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.")
+    md.append(f"Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk {theme.lower()} terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem {theme.lower()} masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada. {det['ssp_low_detail'].capitalize()}.")
 
     md.append("")
 

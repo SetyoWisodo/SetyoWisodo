@@ -541,6 +541,154 @@ DATA_POINTS = [
  "~20 million people are displaced by climate annually (UNHCR, 2023)",
 ]
 
+FUTURE_SCENARIO_DETAILS = {
+    "the warming world and the coming crises": {
+        "concrete": "sea level about 0.2–0.3 m by 2040 and 0.4–0.6 m by 2060 versus 2000; neighborhoods below 2–3 m above sea level — low-lying Jakarta, Semarang, Surabaya, New Orleans, Dhaka and small island capitals — will face monthly tidal flooding even without storms, with 2100 reaching 0.6–1.0 m threatening fishing villages and ports",
+        "adapt": "raising houses on stilts, restoring mangroves as natural seawalls, early-warning tide gauges, securing freshwater from salt intrusion, and staged relocation with jobs",
+        "ssp_high_detail": "heat, floods and fires exceed recent extremes yearly, exposing 20–40% more people by 2050",
+        "ssp_low_detail": "still 15–30% more extremes than pre-industrial in 2050, but peak near 1.5–1.6°C keeps sea-level rise closer to 0.3–0.5 m by 2100",
+    },
+    "the physical science of global warming and its history": {
+        "concrete": "global mean temperature ~1.5°C by 2030 and CO2 ~430 ppm; by 2040 Arctic summer ice-free days 10–20 per year versus 5 today, and ocean heat content up ~15% driving stronger storms, with 2100 warming 3.6–4.4°C under high emissions melting Greenland enough for 0.3–0.5 m extra sea-level",
+        "adapt": "expand satellite and ocean buoys, citizen temperature logs, school labs tracking CO2, and municipal heat/sea-level dashboards to translate science into local alerts",
+        "ssp_high_detail": "radiative forcing intensifies, with 2030 CO2 ~440 ppm and extremes outside historical envelopes",
+        "ssp_low_detail": "forcing stabilizes near 2.6 W/m², preserving science-based planning windows",
+    },
+    "climate systems, feedback mechanisms and monitoring": {
+        "concrete": "by 2040 permafrost thaw releases 10–20% more methane, Amazon dieback risk rises where deforestation passes 20–25%, and Atlantic overturning slows 15–25%, while early-warning sensors in 30% of vulnerable basins could still catch tipping signals",
+        "adapt": "deploy permafrost and forest sensors, community rain gauges, and feedback dashboards that trigger staged responses before thresholds lock in",
+        "ssp_high_detail": "feedbacks amplify: 2050 permafrost carbon adds 0.1–0.3°C extra, forest carbon sinks weaken",
+        "ssp_low_detail": "feedback amplification limited to 0.05°C, monitoring retains lead time",
+    },
+    "extreme heat, heat waves and urban heat islands": {
+        "concrete": "by 2040 days above 35°C double to 60–90 per year in Delhi, Phoenix, Jakarta and Lagos, nights above 28°C triple, and heat-stroke ER visits rise 30–50%; concrete neighborhoods 5–7°C hotter than parks, with 2100 adding 20–30 extra dangerous days yearly under high emissions",
+        "adapt": "cool roofs, street trees every 10 m, night cooling shelters, shifted work hours 06–10 and 16–19, and hydration stations with heat-alert SMS",
+        "ssp_high_detail": "2050 urban heat deaths +40–60%, labor productivity –15% outdoors",
+        "ssp_low_detail": "heat mortality +15–25%, with cool-city measures keeping most districts viable",
+    },
+    "water scarcity and drought": {
+        "concrete": "by 2040 renewable water per person falls 25–35% in Java, northern India and the Sahel, groundwater drops 0.5–1.5 m yearly, and reservoirs deliver 30% less in dry seasons, with 2100 river flows –30–50% under high emissions drying 40% of wells",
+        "adapt": "rainwater harvesting on every roof, drip irrigation cutting use 30–50%, managed aquifer recharge, and village water banks with rationing rules",
+        "ssp_high_detail": "droughts lasting 12–18 months become 3× more frequent",
+        "ssp_low_detail": "drought frequency +20–40%, manageable with efficiency",
+    },
+    "floods and sea level rise": {
+        "concrete": "by 2040 a 1-in-100-year flood becomes 1-in-20 in Jakarta Bay, Mekong and Mississippi deltas, levees over-topped 2–3× more often, and tidal floods 30–50 days yearly in <2 m zones; 2100 0.6–1.0 m rise permanently claims 10–15% of coastal farmland",
+        "adapt": "elevated roads/houses, mangrove belts 500 m wide, polders with pumps, and buy-out/relocation for <1 m zones with livelihood grants",
+        "ssp_high_detail": "2040 flood damages +40–80% versus 2020",
+        "ssp_low_detail": "damages +15–30%, with defenses holding for 1-in-50 events",
+    },
+    "food security and agriculture under climate change": {
+        "concrete": "by 2040 wheat yields –8–15% and maize –10–18% in South Asia and Sahel, rice –5–10% from night heat, and fish catch –10–20% in tropical seas, pushing 40–60 million extra into hunger; 2100 high-emissions cuts staples 20–30% without adaptation",
+        "adapt": "heat-tolerant seeds, shifting sowing 2–3 weeks earlier, drip and mulch saving 30% water, fish ponds and grain banks for lean months",
+        "ssp_high_detail": "prices spike 30–50% in bad years, supply chains break",
+        "ssp_low_detail": "yields stabilize, hunger risk +10–15% with adaptation",
+    },
+    "ecosystems and biodiversity loss": {
+        "concrete": "by 2040 coral reefs face annual bleaching (90% of tropical reefs), 15–25% of bird ranges shift upslope, and mangroves lose 10–20% where seas rise fast, with 2100 extinction risk 2–3× higher for narrow-range species under high emissions",
+        "adapt": "marine protected networks, corridors linking forest patches, replanting diverse natives, and community ranger patrols",
+        "ssp_high_detail": "ecosystem services –20–30% (fisheries, pollination)",
+        "ssp_low_detail": "services –5–15%, recovery possible with protection",
+    },
+    "health impacts of climate change": {
+        "concrete": "by 2040 heat deaths +30–50% in cities over 35°C, dengue range expands 150–200 km poleward, and diarrheal spikes +10–20% after floods, with 2100 malaria in highlands doubling under high emissions without control",
+        "adapt": "heat health alerts, screened housing, oral rehydration stocks, and clinics with flood-proof power and records",
+        "ssp_high_detail": "child malnutrition +15–25% via food-water cascades",
+        "ssp_low_detail": "health burden +10–15%, with primary care keeping pace",
+    },
+    "economic impacts and financial preparedness under climate change": {
+        "concrete": "by 2040 climate disasters cost 2–4% of GDP yearly in exposed provinces, insurance premiums +30–60% on coasts, and work hours lost 10–15% in heat, with 2100 high-emissions shaving 15–25% off incomes in vulnerable deltas versus low-emissions",
+        "adapt": "emergency funds equal 3 months expenses, micro-insurance pools, diversified incomes, and building codes for wind/flood/heat",
+        "ssp_high_detail": "adaptation costs triple but still < damages",
+        "ssp_low_detail": "costs manageable at 1–2% GDP with blended finance",
+    },
+    "climate migration and displacement": {
+        "concrete": "by 2040 15–25 million yearly displaced by floods, storms and drought (versus ~20 million now), with Dhaka, Lagos and Manila receiving 300–500k climate newcomers yearly, and 2100 high-emissions displacing 100–150 million cumulatively from <3 m coasts and drying farms",
+        "adapt": "legal aid, portable IDs/health records, rental support, and receiving-city plans for water/jobs/schools",
+        "ssp_high_detail": "cross-border movement +30–50%",
+        "ssp_low_detail": "displacement stabilizes near current levels with local adaptation",
+    },
+    "climate change, conflict and security": {
+        "concrete": "by 2040 competition over water and grazing triggers 20–30% more local conflicts in Sahel and Horn where rains fail 2–3 years in a row, and storm-driven outages increase civil unrest, with 2100 high-emissions widening security gaps where states are fragile",
+        "adapt": "community water peace committees, early-warning SMS, stockpiles, and inclusive governance that shares resources transparently",
+        "ssp_high_detail": "conflict risk +15–30% where vulnerability is high",
+        "ssp_low_detail": "risk +5–15%, mitigated by cooperation",
+    },
+    "infrastructure, shelter and energy resilience": {
+        "concrete": "by 2040 heat buckles 10–15% more roads/rails per heatwave, blackouts rise 30% when AC demand meets low water for hydropower, and 1-in-20 floods overtop drains, with 2100 high-emissions requiring elevation +1 m for new coastal builds",
+        "adapt": "heat-resistant asphalt, elevated substations, mini-grids with solar+battery, and flood-resilient schools as hubs",
+        "ssp_high_detail": "infrastructure losses +40–70%",
+        "ssp_low_detail": "losses +15–25% with resilient codes",
+    },
+    "climate literacy and education": {
+        "concrete": "by 2040 misinformation spikes during every disaster, yet schools teaching climate literacy see 30–40% better preparedness scores; illiteracy leaves 25% of adults unable to interpret risk maps, with 2100 gaps widening where curricula ignore local hazards",
+        "adapt": "plain-language risk maps, student citizen-science, teacher training, and village noticeboards with verified forecasts",
+        "ssp_high_detail": "literacy gaps amplify losses 20–30%",
+        "ssp_low_detail": "universal basic climate literacy cuts losses 15–25%",
+    },
+    "data, statistics and misinformation in the climate era": {
+        "concrete": "by 2040 60–70% of online climate claims mix real and outdated data, and satellite/ground gaps delay warnings 6–12 hours, with 2100 high-emissions misaligned decisions costing 10–20% extra where data is not trusted",
+        "adapt": "check primary sources (IPCC, WMO, NOAA/NASA), triangulate 2–3 datasets, and use uncertainty bars, not single numbers",
+        "ssp_high_detail": "errors compound where data literacy is low",
+        "ssp_low_detail": "open data hubs cut decision errors 20–30%",
+    },
+    "household preparedness for water, food, shelter and local risk": {
+        "concrete": "by 2040 households without 3-day water/food face 2–3× more crisis visits, homes below 2 m flood yearly, and kitchens fail 30% more in heat, with 2100 high-emissions requiring rain tanks and cool rooms in 50% of homes",
+        "adapt": "go-bags, 3-day water (15 L/person/day), grain banks, cool shelter, and neighborhood mutual-aid rosters",
+        "ssp_high_detail": "unprepared households need 40% more aid",
+        "ssp_low_detail": "preparedness halves emergency needs",
+    },
+    "health, emergency response and protecting vulnerable populations": {
+        "concrete": "by 2040 ambulance delays +20% during heat/floods, clinics lose power 10–15% of storm days, and elderly/disabled mortality 2–3× higher without outreach, with 2100 high-emissions overwhelming response without community teams",
+        "adapt": "volunteer responder teams, door-to-door vulnerable registries, clinic backup power, and mobile health units",
+        "ssp_high_detail": "emergency demand +30–50%",
+        "ssp_low_detail": "demand +10–20%, with community response covering gaps",
+    },
+    "social capital, mutual aid and community governance": {
+        "concrete": "by 2040 neighborhoods with strong mutual-aid recover 30–40% faster and report 20% fewer losses, while fragmented areas see aid delayed 1–2 weeks, with 2100 high-emissions widening trust gaps where governance is weak",
+        "adapt": "block captains, tool libraries, community funds, and joint decisions on water and evacuation",
+        "ssp_high_detail": "social fragmentation raises losses 15–25%",
+        "ssp_low_detail": "tight networks halve recovery time",
+    },
+    "renewable energy and appropriate technologies for climate adaptation": {
+        "concrete": "by 2040 solar+storage cheaper than diesel in 70% of off-grid areas, but heat cuts panel output 5–10% and storms damage 15% of exposed installs, while 2100 high-emissions still leaves 20% of demand on fossil without storage scale-up",
+        "adapt": "elevated solar, cyclone clips, battery cooperatives, and repair training for youth",
+        "ssp_high_detail": "energy access improves but intermittency costs rise",
+        "ssp_low_detail": "near-universal clean access with low bills",
+    },
+    "climate anxiety, trauma and building psychological resilience": {
+        "concrete": "by 2040 35–45% of teens report climate anxiety weekly, heat and displacement raise depression 15–25%, and post-flood trauma lasts 6–12 months without support, with 2100 high-emissions doubling chronic stress in hot, insecure zones",
+        "adapt": "peer groups, green spaces, counseling at schools/clinics, and action projects giving agency",
+        "ssp_high_detail": "mental health burden +30–40%",
+        "ssp_low_detail": "resilience programs halve symptom persistence",
+    },
+    "climate governance, justice, equity and civic engagement": {
+        "concrete": "by 2040 climate lawsuits double and budgets for adaptation still meet only 15–25% of needs, with low-income wards receiving 30% less protection, and 2100 high-emissions locking injustice where decisions lack community voice",
+        "adapt": "participatory budgeting, equity audits, legal aid, and transparency boards tracking spending",
+        "ssp_high_detail": "inequity amplifies impacts 20–30%",
+        "ssp_low_detail": "inclusive governance cuts inequity half",
+    },
+    "regional case studies of heat, wildfire, flood and urban climate extremes": {
+        "concrete": "by 2040 case cities like Ahmedabad, Los Angeles and Athens see 30–50% more wildfire-smoke days and 40–60 flood days yearly in low zones; 2100 high-emissions makes 1-in-10-year urban floods annual",
+        "adapt": "fire breaks, sponge-city parks, early evacuation drills, and case-to-case learning exchanges",
+        "ssp_high_detail": "urban extreme costs +50–80%",
+        "ssp_low_detail": "costs +15–30% with green infrastructure",
+    },
+    "regional case studies of drought, food crisis, water stress and security": {
+        "concrete": "by 2040 Horn/Sahel droughts like 2022 recur every 3–4 years, Mekong flows –20% in dry season, and groundwater in Punjab falls 1 m yearly, pushing food prices +20–35% in bad years; 2100 high-emissions doubles multi-breadbasket failure risk",
+        "adapt": "drought-tolerant crops, watershed recharge, grain reserves, and cross-border water agreements",
+        "ssp_high_detail": "hunger risk +25–40%",
+        "ssp_low_detail": "risk +10–15% with diversification",
+    },
+    "personal and community action plans, checklists and templates for surviving the future": {
+        "concrete": "by 2040 families with 1-month plans cut losses 40–50% and recover 2× faster; without checklists 30% forget documents/medicines, and 2100 high-emissions overwhelms ad-hoc coping",
+        "adapt": "30-day household plan (water/food/shelter), 1-year community plan (governance/networks), go-bags, risk matrices and drills updated yearly",
+        "ssp_high_detail": "planned communities thrive, unplanned struggle",
+        "ssp_low_detail": "basic plans halve harm everywhere",
+    },
+}
+
+
 
 # --- Expert relevance: only cite experts whose domain aligns with chapter theme (avoid forcing Roberts etc. in every chapter) ---
 EXPERT_KEYWORDS = {
@@ -831,20 +979,21 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append(f"Lessons from the case study reinforce systematic assessment, prioritization of the most vulnerable, and redundancy in critical systems for {theme.lower()}, informing practical preparation and coordination.")
 
     md.append("")
-    # Future Scenarios — deep-research detailing (ARS + Vane Quality Mode, most important for future)
+    # Future Scenarios — topic-specific detailing (layman, detailed, per-chapter theme)
     md.append(f"## Future Scenarios and Predictions: {title}")
 
     md.append("")
 
-    md.append(f"Looking at current warming data for {theme.lower()} — with global temperature already ~1.1–1.2°C above pre-industrial (IPCC, 2023) and CO2 at ~420 ppm (NOAA, 2024) — the coming decades bring clear, everyday impacts. For example, sea level is projected to rise about 0.2–0.3 meters by 2040 and 0.4–0.6 meters by 2060 compared to 2000; coastal neighborhoods below 2–3 meters above sea level, such as low-lying parts of Jakarta, Semarang, Surabaya, New Orleans, Dhaka and small island capitals, will face regular tidal flooding even without storms, and by 2100 a rise of 0.6–1.0 meters could permanently submerge fishing villages, ports and farmland. Practical adaptations include raising houses on stilts, restoring mangroves and wetlands as natural barriers, building community evacuation routes and early-warning, securing freshwater from salt intrusion, and planning gradual relocation with livelihoods in mind. The scenarios below translate this picture into three futures for {theme.lower()} in plain language.")
+    det = FUTURE_SCENARIO_DETAILS.get(theme.lower(), FUTURE_SCENARIO_DETAILS["the warming world and the coming crises"])
+    md.append(f"Looking at current warming data for {theme.lower()} — with global temperature already ~1.1–1.2°C above pre-industrial (IPCC, 2023) and CO2 at ~420 ppm (NOAA, 2024) — the coming decades bring clear, everyday impacts. For example, {det['concrete']}. Practical adaptations include {det['adapt']}. The scenarios below translate this picture into three futures for {theme.lower()} in plain language.")
 
     md.append("")
 
-    md.append(f"Under **SSP5-8.5 (high emissions, business as usual)**, {theme.lower()} intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives {theme.lower()} hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).")
+    md.append(f"Under **SSP5-8.5 (high emissions, business as usual)**, {theme.lower()} intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives {det['ssp_high_detail']}; by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).")
 
     md.append("")
 
-    md.append(f"Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, {theme.lower()} benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with {theme.lower()} extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.")
+    md.append(f"Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, {theme.lower()} benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with {theme.lower()} extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists. {det['ssp_low_detail'].capitalize()}.")
 
     md.append("")
 
