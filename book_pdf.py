@@ -220,14 +220,33 @@ def draw_table(pdf, rows, caption=None, lang="en", col_widths=None):
         return
     ncol = max(len(r) for r in rows)
     rows = [r + [""] * (ncol - len(r)) for r in rows]
+    total_w = pdf.epw
+    pad = 1.3
     if col_widths is None:
         if ncol == 2:
             col_widths = [0.22, 0.78]
         else:
-            col_widths = [1.0 / ncol] * ncol
-    total_w = pdf.epw
-    widths = [total_w * f for f in col_widths]
-    pad = 1.3
+            # Lebar adaptif: penuhi dulu kata terpanjang tiap kolom,
+            # lalu bagi sisa ruang sesuai panjang rata-rata isi.
+            pdf.set_font("TNR", "", BODY_PT * 0.85)
+            longest, avg = [], []
+            for ci in range(ncol):
+                toks = []
+                for r in rows:
+                    toks += [t.strip() for t in str(r[ci]).split() if t.strip()]
+                longest.append(max([pdf.get_string_width(t) for t in toks] or [0]) + 2 * pad + 0.6)
+                avg.append(sum(len(t) for t in toks) / max(1, len(toks)))
+            mins = longest
+            if sum(mins) > total_w * 0.92:
+                scale = (total_w * 0.92) / sum(mins)
+                mins = [m * scale for m in mins]
+            spare = max(0.0, total_w - sum(mins))
+            weight = [max(1.0, a) ** 0.7 for a in avg]
+            tot_w = sum(weight) or 1.0
+            widths = [mins[i] + spare * weight[i] / tot_w for i in range(ncol)]
+            col_widths = None
+    if col_widths is not None:
+        widths = [total_w * f for f in col_widths]
     cell_h = 4.9
 
     def cell_lines(txt, width):

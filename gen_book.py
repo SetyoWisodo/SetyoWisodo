@@ -3,6 +3,8 @@ import re
 import prose
 
 from future_scenarios_loader import FUTURE_SCENARIOS
+import deep_render
+from content import DEEP
 
 CHAPTERS = [
  ("Introduction: The Warming World", "the warming world and the coming crises", [
@@ -819,6 +821,9 @@ md.append("")
 
 ri = 0
 for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
+    if ci in DEEP:
+        md.extend(deep_render.render_chapter(DEEP[ci], "Chapter"))
+        continue
     md.append(f"# Chapter {ci}: {title}")
     md.append("")
     md.append(f"*Theme: {theme}*")

@@ -3,6 +3,8 @@ import re
 import prose
 
 from future_scenarios_loader import FUTURE_SCENARIOS
+import deep_render
+from content_id import DEEP_ID
 
 CHAPTERS = [
  ("Pendahuluan: Dunia yang Memanas", "dunia yang memanas dan krisis mendatang", [
@@ -810,6 +812,9 @@ md.append("")
 
 ri = 0
 for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
+    if ci in DEEP_ID:
+        md.extend(deep_render.render_chapter(DEEP_ID[ci], "Bab", lang="id"))
+        continue
     md.append(f"# Bab {ci}: {title}")
     md.append("")
     md.append(f"*Tema: {theme}*")
