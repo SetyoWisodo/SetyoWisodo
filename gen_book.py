@@ -3,262 +3,293 @@ import re
 
 CHAPTERS = [
  ("Introduction: The Warming World", "the warming world and the coming crises", [
-   "Why This Book", "What 'Survive' Really Means", "How to Use This Book", "The Scope of the Crisis",
-   "Personal, Community, and Societal Survival", "Knowledge as a Survival Tool", "The Role of Education",
-   "Preparing for Uncertainty", "Building Resilience", "A Roadmap for Readers"]),
- ("The Science of Global Warming", "the physical science of global warming", [
-   "The Greenhouse Effect", "Greenhouse Gases and Their Sources", "Evidence of Warming",
-   "Temperature Records and Trends", "Ocean Heat and Sea Level", "Ice Loss and Cryosphere",
-   "Carbon Cycle and Feedbacks", "Climate Sensitivity", "Attribution of Warming", "Key Scientific Conclusions"]),
- ("History of Climate Change", "the history of climate change and human response", [
-   "Early Climate Science", "Industrial Revolution and Emissions", "20th Century Warming",
-   "International Awareness", "IPCC Assessments", "Paris Agreement Era", "Current Emission Trends",
-   "Lessons from History", "Failed and Successful Responses", "Looking Forward"]),
- ("Climate Systems and Feedback Loops", "climate systems and feedback mechanisms", [
-   "The Climate System", "Atmosphere and Circulation", "Ocean Circulation", "Cryosphere Dynamics",
-   "Positive Feedback Loops", "Negative Feedback Loops", "Tipping Points", "Abrupt Change",
-   "Regional Variations", "Implications for Survival"]),
- ("Measurement and Monitoring", "climate measurement and monitoring", [
-   "Temperature Monitoring", "Satellite Observations", "Ocean Monitoring", "Ice and Snow Monitoring",
-   "Greenhouse Gas Inventories", "Extreme Event Attribution", "Early Warning Systems",
-   "Data Quality and Uncertainty", "Open Data and Citizen Science", "Using Data for Decisions"]),
- ("Extreme Heat", "extreme heat and heat waves", [
-   "Heat Wave Definition and Trends", "Physiology of Heat Stress", "Heat Illness Spectrum",
-   "Vulnerable Populations", "Urban Heat Islands", "Infrastructure Impacts", "Labor and Productivity",
-   "Heat Action Plans", "Cooling Strategies", "Long-Term Adaptation to Heat"]),
+   "Why This Book",
+   "What 'Survive' Really Means",
+   "How to Use This Book",
+   "The Scope of the Crisis",
+   "Personal, Community, and Societal Survival",
+   "Knowledge as a Survival Tool",
+   "The Role of Education",
+   "Preparing for Uncertainty",
+   "Building Resilience",
+   "A Roadmap for Readers",
+   ]),
+ ("The Physical Science of Global Warming", "the physical science of global warming and its history", [
+   "The Greenhouse Effect",
+   "Greenhouse Gases and Their Sources",
+   "Evidence of Warming",
+   "Temperature Records and Trends",
+   "Industrial Revolution and Emissions",
+   "IPCC Assessments",
+   "Ocean Heat and Sea Level",
+   "Ice Loss and Cryosphere",
+   "Carbon Cycle and Feedbacks",
+   "Attribution of Warming",
+   ]),
+ ("Climate Systems, Feedbacks and Monitoring", "climate systems, feedback mechanisms and monitoring", [
+   "The Climate System",
+   "Atmosphere and Ocean Circulation",
+   "Positive and Negative Feedback Loops",
+   "Tipping Points and Abrupt Change",
+   "Temperature and Satellite Monitoring",
+   "Ocean and Ice Monitoring",
+   "Extreme Event Attribution",
+   "Early Warning Systems",
+   "Data Quality and Uncertainty",
+   "Using Data for Decisions",
+   ]),
+ ("Extreme Heat and Urban Health", "extreme heat, heat waves and urban heat islands", [
+   "Heat Wave Definition and Trends",
+   "Physiology of Heat Stress",
+   "Heat Illness Spectrum",
+   "Vulnerable Populations",
+   "Urban Heat Islands",
+   "Infrastructure Impacts",
+   "Labor and Productivity",
+   "Heat Action Plans",
+   "Cooling Strategies",
+   "Long-Term Adaptation to Heat",
+   ]),
  ("Water Scarcity and Drought", "water scarcity and drought", [
-   "Global Water Cycle", "Drought Types and Indices", "Causes of Water Scarcity",
-   "Agricultural Water Use", "Urban Water Stress", "Groundwater Depletion", "Water Quality",
-   "Water Governance", "Conservation and Efficiency", "Alternative Water Sources"]),
+   "Global Water Cycle",
+   "Drought Types and Indices",
+   "Causes of Water Scarcity",
+   "Agricultural Water Use",
+   "Urban Water Stress",
+   "Groundwater Depletion",
+   "Water Quality",
+   "Water Governance",
+   "Conservation and Efficiency",
+   "Alternative Water Sources",
+   ]),
  ("Floods and Sea Level Rise", "floods and sea level rise", [
-   "Flood Types and Causes", "Sea Level Rise Mechanisms", "Coastal Flood Risk",
-   "Riverine and Flash Floods", "Urban Flooding", "Flood Impacts on Health", "Flood Defenses",
-   "Managed Retreat", "Flood Insurance and Finance", "Long-Term Coastal Adaptation"]),
- ("Food and Agriculture", "food security and agriculture under climate change", [
-   "Food Systems Overview", "Crop Yield Impacts", "Heat and Water Stress on Crops",
-   "Pests and Diseases", "Livestock and Fisheries", "Supply Chain Vulnerability",
-   "Price Volatility and Hunger", "Adaptive Agriculture", "Food Storage and Preservation",
-   "Nutrition and Dietary Shifts"]),
- ("Ecosystems and Biodiversity", "ecosystems and biodiversity loss", [
-   "Biodiversity and Ecosystem Services", "Habitat Loss", "Species Extinction Risk",
-   "Forest Ecosystems", "Marine Ecosystems", "Wetlands and Freshwater", "Invasive Species",
-   "Ecosystem-Based Adaptation", "Conservation Strategies", "Human Dependence on Nature"]),
- ("Health and Disease", "health impacts of climate change", [
-   "Direct and Indirect Health Impacts", "Heat-Related Illness", "Vector-Borne Diseases",
-   "Water-Borne Diseases", "Air Quality and Respiratory Health", "Mental Health Impacts",
-   "Health System Resilience", "Vulnerable Groups", "Prevention and Preparedness", "Health Equity"]),
- ("Economic Impacts", "economic impacts of climate change", [
-   "Damage Cost Estimates", "Sectoral Impacts", "Labor Productivity Loss", "Infrastructure Damage",
-   "Insurance and Financial Risk", "Macroeconomic Effects", "Poverty and Inequality",
-   "Cost of Adaptation", "Cost of Inaction", "Economic Resilience Strategies"]),
+   "Flood Types and Causes",
+   "Sea Level Rise Mechanisms",
+   "Coastal Flood Risk",
+   "Riverine and Flash Floods",
+   "Urban Flooding",
+   "Flood Impacts on Health",
+   "Flood Defenses",
+   "Managed Retreat",
+   "Flood Insurance and Finance",
+   "Long-Term Coastal Adaptation",
+   ]),
+ ("Food Security and Agriculture", "food security and agriculture under climate change", [
+   "Food Systems Overview",
+   "Crop Yield Impacts",
+   "Heat and Water Stress on Crops",
+   "Pests and Diseases",
+   "Livestock and Fisheries",
+   "Supply Chain Vulnerability",
+   "Price Volatility and Hunger",
+   "Adaptive Agriculture",
+   "Food Storage and Preservation",
+   "Nutrition and Dietary Shifts",
+   ]),
+ ("Ecosystems and Biodiversity Loss", "ecosystems and biodiversity loss", [
+   "Biodiversity and Ecosystem Services",
+   "Habitat Loss",
+   "Species Extinction Risk",
+   "Forest Ecosystems",
+   "Marine Ecosystems",
+   "Wetlands and Freshwater",
+   "Invasive Species",
+   "Ecosystem-Based Adaptation",
+   "Conservation Strategies",
+   "Human Dependence on Nature",
+   ]),
+ ("Health Impacts of Climate Change", "health impacts of climate change", [
+   "Direct and Indirect Health Impacts",
+   "Heat-Related Illness",
+   "Vector-Borne Diseases",
+   "Water-Borne Diseases",
+   "Air Quality and Respiratory Health",
+   "Mental Health Impacts",
+   "Health System Resilience",
+   "Vulnerable Groups",
+   "Prevention and Preparedness",
+   "Health Equity",
+   ]),
+ ("Economic Impacts and Financial Resilience", "economic impacts and financial preparedness under climate change", [
+   "Damage Cost Estimates",
+   "Sectoral Impacts",
+   "Labor Productivity Loss",
+   "Infrastructure Damage",
+   "Insurance and Financial Risk",
+   "Emergency Funds and Income Diversification",
+   "Cost of Adaptation vs Inaction",
+   "Poverty and Inequality",
+   "Debt, Cash Flow and Rebuilding",
+   "Economic Resilience Strategies",
+   ]),
  ("Migration and Displacement", "climate migration and displacement", [
-   "Drivers of Climate Migration", "Internal Displacement", "Cross-Border Movement",
-   "Legal Status and Rights", "Urbanization Pressures", "Receiving Communities",
-   "Planned Relocation", "Loss and Damage", "Social Cohesion", "Policy Responses"]),
- ("Conflict and Security", "climate change and conflict", [
-   "Resource Competition", "Climate and Violence Evidence", "Fragile States",
-   "Food and Water Conflict", "Migration-Conflict Links", "Security Sector Responses",
-   "Peacebuilding and Adaptation", "Early Warning for Conflict", "Governance and Stability",
-   "Reducing Risk"]),
- ("Infrastructure Failure", "infrastructure resilience", [
-   "Critical Infrastructure", "Power Grids", "Water and Sanitation Systems", "Transport Networks",
-   "Communication Systems", "Building Standards", "Cascading Failures", "Maintenance and Investment",
-   "Redundancy and Backup", "Future-Proofing Infrastructure"]),
- ("Climate Literacy", "climate literacy and education", [
-   "What Is Climate Literacy", "Core Concepts", "Age-Appropriate Education", "Formal Education",
-   "Informal and Community Education", "Teacher Training", "Curriculum Design", "Assessment",
-   "Lifelong Learning", "Measuring Literacy Outcomes"]),
- ("Reference Paper Education", "reference paper education and scientific literacy", [
-   "What Is a Reference Paper", "Peer Review Process", "Reading Scientific Literature",
-   "Evaluating Evidence", "Understanding Methods", "Statistics for Citizens", "Identifying Bias",
-   "Building a Knowledge Base", "Sharing Knowledge", "Teaching Others"]),
- ("How to Read Scientific Literature", "reading and understanding scientific papers", [
-   "Paper Structure", "Abstract and Introduction", "Methods Section", "Results and Figures",
-   "Discussion and Conclusions", "References and Citations", "Systematic Reviews and Meta-Analyses",
-   "Preprints and Grey Literature", "Critical Appraisal Tools", "Practical Reading Plan"]),
- ("Data and Statistics for Citizens", "data and statistics for citizens", [
-   "Why Data Matters", "Types of Data", "Descriptive Statistics", "Uncertainty and Error",
-   "Correlation vs Causation", "Graphs and Charts", "Misleading Statistics", "Open Data Sources",
-   "Personal Data Collection", "Data-Driven Decisions"]),
- ("Misinformation and Media Literacy", "misinformation and media literacy", [
-   "Climate Misinformation", "Sources of Misinformation", "Psychology of Belief", "Fact-Checking",
-   "Media Literacy Skills", "Social Media Dynamics", "Trusted Sources", "Communicating Science",
-   "Countering Denial", "Building Trust"]),
- ("Risk Assessment for Your Location", "local risk assessment", [
-   "Understanding Local Hazards", "Hazard Mapping", "Exposure and Vulnerability",
-   "Climate Projections for Your Region", "Personal Risk Matrix", "Household Risk Profile",
-   "Community Risk Assessment", "Monitoring and Updating", "Prioritizing Actions", "Documenting Your Plan"]),
- ("Water Security at Home", "household water security", [
-   "Daily Water Needs", "Water Storage", "Purification Methods", "Rainwater Harvesting",
-   "Greywater Reuse", "Well and Spring Protection", "Contamination Prevention", "Water in Disasters",
-   "Long-Term Water Planning", "Water Conservation Habits"]),
- ("Food Security at Home", "household food security", [
-   "Nutritional Needs", "Food Storage Principles", "Non-Perishable Supplies", "Food Preservation",
-   "Home Gardening", "Community Gardens", "Reducing Food Waste", "Dietary Adaptation",
-   "Cooking Without Power", "Food Safety in Crises"]),
- ("Shelter and Energy", "shelter and energy resilience", [
-   "Home Heat Resilience", "Insulation and Shading", "Ventilation", "Cooling Strategies",
-   "Heating in Cold Snaps", "Power Outage Planning", "Solar and Battery", "Generator Safety",
-   "Evacuation Sheltering", "Long-Term Home Upgrades"]),
- ("Health and First Aid", "health and first aid preparedness", [
-   "First Aid Basics", "Heat Illness Recognition", "Dehydration and Rehydration", "Wound Care",
-   "Infection Control", "Medication Management", "Chronic Disease Planning", "Mental Health First Aid",
-   "Emergency Medical Services", "Health Kits and Supplies"]),
- ("Financial Preparedness", "financial preparedness", [
-   "Emergency Funds", "Income Diversification", "Insurance Review", "Document Protection",
-   "Debt and Cash Flow", "Barter and Local Exchange", "Retirement and Long-Term", "Fraud Prevention",
-   "Financial Aid and Relief", "Rebuilding Finances After Disaster"]),
- ("Evacuation and Emergency Response", "evacuation and emergency response", [
-   "When to Evacuate", "Evacuation Routes and Plans", "Go-Bags and Kits", "Family Communication",
-   "Pets and Livestock", "Sheltering in Place", "Returning Home Safely", "Post-Disaster Safety",
-   "Psychological First Aid", "Learning from Drills"]),
- ("Special Populations", "protecting vulnerable and special populations", [
-   "Children and Infants", "Elderly", "People with Disabilities", "Chronic Illness",
-   "Pregnant and Nursing", "Low-Income Households", "Migrants and Refugees", "Indigenous Communities",
-   "Rural Isolation", "Tailored Preparedness Plans"]),
- ("Social Capital and Networks", "social capital and community networks", [
-   "What Is Social Capital", "Trust and Reciprocity", "Network Mapping", "Bridging and Bonding",
-   "Community Leaders", "Inclusive Participation", "Digital Networks", "Maintaining Networks",
-   "Measuring Social Capital", "Strengthening Ties"]),
- ("Mutual Aid", "mutual aid and community support", [
-   "Principles of Mutual Aid", "Starting a Group", "Resource Sharing", "Care Networks",
-   "Skill Sharing", "Food and Supply Distribution", "Communication Systems", "Conflict Resolution",
-   "Sustainability of Groups", "Mutual Aid and Official Response"]),
- ("Local Governance", "local governance and climate action", [
-   "Role of Local Government", "Emergency Management", "Climate Adaptation Plans", "Zoning and Land Use",
-   "Public Services", "Budget and Finance", "Public Engagement", "Accountability", "Partnerships",
-   "Innovation at Local Level"]),
- ("Urban Resilience", "urban resilience to climate change", [
-   "Urban Heat Islands", "Green Infrastructure", "Stormwater Management", "Urban Agriculture",
-   "Transport and Mobility", "Housing and Buildings", "Energy Systems", "Waste and Sanitation",
-   "Equity in Cities", "Smart Cities and Data"]),
- ("Rural Resilience", "rural resilience", [
-   "Rural Vulnerabilities", "Agricultural Livelihoods", "Water and Sanitation", "Healthcare Access",
-   "Connectivity and Transport", "Economic Diversification", "Land Management", "Community Institutions",
-   "Indigenous and Traditional Knowledge", "Bridging Urban-Rural Gaps"]),
- ("Indigenous Knowledge", "indigenous and traditional knowledge", [
-   "Value of Indigenous Knowledge", "Traditional Ecological Knowledge", "Weather and Climate Indicators",
-   "Sustainable Resource Management", "Cultural Resilience", "Knowledge Transmission",
-   "Partnerships with Indigenous Peoples", "Protecting Knowledge", "Case Studies", "Integration with Science"]),
- ("Renewable Energy Systems", "renewable energy for resilience", [
-   "Solar Power", "Wind Power", "Hydropower", "Biomass", "Energy Storage", "Microgrids",
-   "Distributed Generation", "Energy Efficiency", "Transition Planning", "Equity and Access"]),
- ("Water Technologies", "water technologies for adaptation", [
-   "Rainwater Harvesting", "Desalination", "Wastewater Recycling", "Smart Irrigation",
-   "Leak Detection", "Water Quality Monitoring", "Low-Tech Purification", "Storage Innovations",
-   "Cost and Scalability", "Maintenance and Training"]),
- ("Agricultural Technologies", "agricultural technologies", [
-   "Precision Agriculture", "Drought-Resistant Varieties", "Soil Health", "Agroforestry",
-   "Vertical and Urban Farming", "Hydroponics and Aquaponics", "Pest Management", "Post-Harvest Tech",
-   "Digital Tools for Farmers", "Access and Equity"]),
- ("Early Warning Systems", "early warning systems", [
-   "What Is an Early Warning System", "Hazard Monitoring", "Forecasting and Modeling",
-   "Alert Dissemination", "Community Response", "Heat Health Warnings", "Flood Warnings",
-   "Wildfire Warnings", "Inclusive Warnings", "Evaluating Effectiveness"]),
- ("AI and Data for Climate", "AI and data for climate action", [
-   "AI Applications in Climate", "Forecasting and Prediction", "Resource Optimization",
-   "Remote Sensing", "Citizen Science Data", "Ethics and Bias", "Data Governance",
-   "Accessibility and Equity", "Risks and Limitations", "Future Directions"]),
- ("Low-Tech and Appropriate Technology", "low-tech and appropriate technology", [
-   "Principles of Appropriate Tech", "Passive Cooling", "Simple Water Filters", "Solar Cookers",
-   "Manual Tools", "Maintenance and Repair", "Local Materials", "Skills and Training",
-   "Cost and Durability", "Combining Low and High Tech"]),
- ("Climate Anxiety", "climate anxiety and emotional responses", [
-   "What Is Climate Anxiety", "Who Is Affected", "Symptoms and Impacts", "Adaptive vs Maladaptive",
-   "Youth and Climate Anxiety", "Media and Anxiety", "Coping Strategies", "Professional Support",
-   "Community Support", "Channeling Anxiety into Action"]),
- ("Trauma and Recovery", "trauma and recovery after disasters", [
-   "Disaster Trauma", "PTSD and Depression", "Grief and Loss", "Children and Trauma",
-   "Community Trauma", "Psychological First Aid", "Long-Term Recovery", "Resilience Factors",
-   "Support Services", "Preventing Re-traumatization"]),
- ("Building Psychological Resilience", "psychological resilience", [
-   "Resilience Concepts", "Cognitive Strategies", "Emotional Regulation", "Social Support",
-   "Meaning and Purpose", "Physical Health Link", "Practices and Habits", "Resilience Training",
-   "Measuring Resilience", "Sustaining Resilience"]),
- ("Community Mental Health", "community mental health", [
-   "Mental Health Systems", "Access and Barriers", "Stigma Reduction", "Peer Support",
-   "Integration with Primary Care", "Crisis Services", "Workforce Development", "Funding",
-   "Monitoring and Evaluation", "Community-Led Initiatives"]),
- ("International Frameworks", "international climate frameworks", [
-   "UNFCCC and COP", "Paris Agreement", "Sendai Framework", "SDGs", "Loss and Damage",
-   "Climate Finance Mechanisms", "Technology Transfer", "Capacity Building", "Monitoring and Reporting",
-   "Strengthening Frameworks"]),
- ("National Adaptation Plans", "national adaptation planning", [
-   "NAP Process", "Vulnerability Assessment", "Prioritization", "Implementation", "Monitoring and Evaluation",
-   "Sectoral Integration", "Local Linkages", "Finance and Budgeting", "Stakeholder Engagement",
-   "Challenges and Lessons"]),
- ("Carbon Pricing", "carbon pricing and markets", [
-   "Carbon Tax", "Emissions Trading Systems", "Carbon Markets", "Pricing Levels", "Revenue Use",
-   "Equity Considerations", "Border Adjustments", "Voluntary Markets", "Effectiveness Evidence",
-   "Design Principles"]),
- ("Climate Finance", "climate finance", [
-   "Definition and Sources", "Public Finance", "Private Finance", "Green Bonds", "Adaptation Finance",
-   "Loss and Damage Finance", "Access and Barriers", "Transparency", "Scaling Finance",
-   "Innovative Instruments"]),
- ("Justice and Equity", "climate justice and equity", [
-   "Climate Justice Principles", "Historical Responsibility", "Vulnerable Groups", "Gender and Climate",
-   "Indigenous Rights", "Intergenerational Justice", "Just Transition", "Equitable Adaptation",
-   "Human Rights", "Advocacy and Accountability"]),
- ("Civic Engagement", "civic engagement in climate action", [
-   "Why Civic Engagement Matters", "Voting and Elections", "Advocacy and Lobbying", "Protests and Movements",
-   "Community Organizing", "Participatory Budgeting", "Youth Engagement", "Digital Activism",
-   "Holding Leaders Accountable", "Sustaining Engagement"]),
- ("Case Study: Heat in South Asia", "heat waves in South Asia", [
-   "Regional Context", "Heat Wave Trends", "Impacts on Health", "Impacts on Labor",
-   "Adaptation Responses", "Policy and Governance", "Community Actions", "Lessons Learned",
-   "Remaining Gaps", "Future Outlook"]),
- ("Case Study: Drought in the Horn of Africa", "drought in the Horn of Africa", [
-   "Regional Context", "Drought Trends", "Food Insecurity", "Water Scarcity", "Humanitarian Response",
-   "Resilience Building", "Pastoralist Adaptation", "Policy and Finance", "Lessons Learned", "Future Outlook"]),
- ("Case Study: Sea Level Rise in Small Island States", "sea level rise in small island states", [
-   "Regional Context", "Sea Level Trends", "Coastal Impacts", "Freshwater and Agriculture",
-   "Displacement Risk", "Adaptation Strategies", "International Support", "Loss and Damage",
-   "Lessons Learned", "Future Outlook"]),
- ("Case Study: Wildfires in Australia and North America", "wildfires", [
-   "Fire Weather Trends", "Ecological Impacts", "Human Health Impacts", "Infrastructure Damage",
-   "Emergency Response", "Prevention and Mitigation", "Community Preparedness", "Policy and Funding",
-   "Lessons Learned", "Future Outlook"]),
- ("Case Study: Floods in Southeast Asia", "floods in Southeast Asia", [
-   "Regional Context", "Flood Trends", "Urban Flooding", "Rural and Agricultural Impacts",
-   "Health Impacts", "Early Warning", "Adaptation and Infrastructure", "Community Resilience",
-   "Lessons Learned", "Future Outlook"]),
- ("Case Study: Food Crisis in Sub-Saharan Africa", "food crisis in Sub-Saharan Africa", [
-   "Regional Context", "Climate and Agriculture", "Food Insecurity Trends", "Nutrition Impacts",
-   "Market and Price Shocks", "Humanitarian Response", "Resilient Agriculture", "Policy and Finance",
-   "Lessons Learned", "Future Outlook"]),
- ("Case Study: Water Stress in the Middle East", "water stress in the Middle East", [
-   "Regional Context", "Water Scarcity Trends", "Agriculture and Water", "Urban Water Stress",
-   "Transboundary Water", "Adaptation Strategies", "Technology and Innovation", "Governance",
-   "Lessons Learned", "Future Outlook"]),
- ("Case Study: Storms and Hurricanes in the Caribbean", "storms and hurricanes in the Caribbean", [
-   "Regional Context", "Storm Trends", "Infrastructure Damage", "Economic Impacts", "Health Impacts",
-   "Early Warning and Evacuation", "Recovery and Reconstruction", "Resilience Building",
-   "Lessons Learned", "Future Outlook"]),
- ("Case Study: Permafrost Thaw in the Arctic", "permafrost thaw in the Arctic", [
-   "Regional Context", "Thaw Trends", "Infrastructure Impacts", "Ecosystem Changes",
-   "Indigenous Communities", "Carbon Release", "Adaptation Strategies", "Monitoring and Research",
-   "Lessons Learned", "Future Outlook"]),
- ("Case Study: Urban Heat in Global Cities", "urban heat in global cities", [
-   "Urban Heat Island Effect", "City Case Studies", "Health Impacts", "Infrastructure Stress",
-   "Cooling Strategies", "Green Infrastructure", "Governance and Planning", "Equity",
-   "Lessons Learned", "Future Outlook"]),
- ("30-Day Personal Action Plan", "30-day personal action plan", [
-   "Week 1: Assess and Plan", "Week 2: Supplies and Kits", "Week 3: Skills and Health",
-   "Week 4: Community and Review", "Daily Habits", "Tracking Progress", "Common Obstacles",
-   "Adapting the Plan", "Involving Family", "Next Steps"]),
- ("1-Year Community Action Plan", "1-year community action plan", [
-   "Quarter 1: Organize", "Quarter 2: Assess and Train", "Quarter 3: Implement", "Quarter 4: Review and Scale",
-   "Building Partnerships", "Funding and Resources", "Monitoring Progress", "Communication",
-   "Sustaining Momentum", "Long-Term Vision"]),
- ("Checklists and Templates", "checklists and templates", [
-   "Emergency Kit Checklist", "Water Storage Checklist", "Food Storage Checklist",
-   "Evacuation Checklist", "First Aid Checklist", "Document Checklist", "Home Safety Checklist",
-   "Communication Plan Template", "Risk Assessment Template", "After-Action Review Template"]),
- ("Glossary", "glossary of climate and survival terms", [
-   "A-C", "D-F", "G-I", "J-L", "M-O", "P-R", "S-U", "V-Z"]),
- ("Extended References", "extended references and further reading", [
-   "Climate Science", "Health and Disasters", "Water and Food", "Economics and Policy",
-   "Community and Social", "Technology", "Mental Health", "Case Studies", "Education", "General Reading"]),
+   "Drivers of Climate Migration",
+   "Internal Displacement",
+   "Cross-Border Movement",
+   "Legal Status and Rights",
+   "Urbanization Pressures",
+   "Receiving Communities",
+   "Planned Relocation",
+   "Loss and Damage",
+   "Social Cohesion",
+   "Policy Responses",
+   ]),
+ ("Conflict, Security and Stability", "climate change, conflict and security", [
+   "Resource Competition",
+   "Climate and Violence Evidence",
+   "Fragile States",
+   "Food and Water Conflict",
+   "Migration-Conflict Links",
+   "Security Sector Responses",
+   "Peacebuilding and Adaptation",
+   "Early Warning for Conflict",
+   "Governance and Stability",
+   "Reducing Risk",
+   ]),
+ ("Infrastructure, Shelter and Energy Resilience", "infrastructure, shelter and energy resilience", [
+   "Critical Infrastructure and Power Grids",
+   "Water and Sanitation Systems",
+   "Transport and Communication Networks",
+   "Building Standards and Cascading Failures",
+   "Home Heat and Cold Resilience",
+   "Insulation, Shading and Ventilation",
+   "Power Outage and Solar Planning",
+   "Generator Safety and Evacuation Sheltering",
+   "Maintenance and Redundancy",
+   "Future-Proofing Infrastructure",
+   ]),
+ ("Climate Literacy and Education", "climate literacy and education", [
+   "What Is Climate Literacy",
+   "Core Concepts and Age-Appropriate Education",
+   "Formal and Informal Education",
+   "Teacher Training and Curriculum Design",
+   "What Is a Reference Paper",
+   "Peer Review and Reading Literature",
+   "Evaluating Evidence and Statistics",
+   "Understanding Methods and Bias",
+   "Building a Knowledge Base",
+   "Teaching Others",
+   ]),
+ ("Data, Statistics and Misinformation", "data, statistics and misinformation in the climate era", [
+   "Why Data Matters and Types of Data",
+   "Descriptive Statistics and Uncertainty",
+   "Correlation vs Causation",
+   "Graphs, Charts and Misleading Statistics",
+   "Open Data and Personal Data Collection",
+   "Climate Misinformation Sources",
+   "Psychology of Belief and Fact-Checking",
+   "Media Literacy and Social Media",
+   "Trusted Sources and Communicating Science",
+   "Countering Denial and Building Trust",
+   ]),
+ ("Household Preparedness: Water, Food, Shelter and Risk", "household preparedness for water, food, shelter and local risk", [
+   "Local Hazard Mapping and Personal Risk Matrix",
+   "Daily Water Needs, Storage and Purification",
+   "Rainwater Harvesting and Greywater Reuse",
+   "Nutritional Needs and Food Storage",
+   "Home Gardening and Reducing Waste",
+   "Cooking Without Power and Food Safety",
+   "Contamination Prevention and Long-Term Planning",
+   "Document Protection and Prioritizing Actions",
+   "Monitoring and Updating Plans",
+   "Tailored Plans for Your Location",
+   ]),
+ ("Health, Emergency Response and Special Populations", "health, emergency response and protecting vulnerable populations", [
+   "First Aid Basics and Heat Illness",
+   "Wound Care, Infection and Medication Management",
+   "Chronic Disease and Elderly Care",
+   "Children, Disabilities and Special Needs",
+   "Low-Income, Migrants and Indigenous Communities",
+   "When to Evacuate and Go-Bags",
+   "Family Communication, Pets and Sheltering in Place",
+   "Post-Disaster Safety and Returning Home",
+   "Psychological First Aid",
+   "Health Kits and Emergency Services",
+   ]),
+ ("Social Capital, Mutual Aid and Governance", "social capital, mutual aid and community governance", [
+   "What Is Social Capital and Trust",
+   "Network Mapping, Bridging and Bonding",
+   "Community Leaders and Inclusive Participation",
+   "Principles of Mutual Aid and Starting a Group",
+   "Resource, Care and Skill Sharing",
+   "Food Distribution and Communication Systems",
+   "Conflict Resolution and Sustainability",
+   "Local Governance and Urban Resilience",
+   "Rural Resilience and Indigenous Knowledge",
+   "Strengthening Ties",
+   ]),
+ ("Renewable Energy and Appropriate Technologies", "renewable energy and appropriate technologies for climate adaptation", [
+   "Renewable Energy Systems and Solar/Battery",
+   "Water Technologies and Purification",
+   "Agricultural Technologies and Adaptive Practices",
+   "Early Warning Systems and AI for Climate",
+   "Low-Tech and Appropriate Technology",
+   "Innovation and Community Adoption",
+   "Maintenance, Investment and Redundancy",
+   "Future-Proofing and Scaling",
+   "Case Examples",
+   "Long-Term Pathways",
+   ]),
+ ("Climate Psychology and Mental Health", "climate anxiety, trauma and building psychological resilience", [
+   "Climate Anxiety and Rational Alarm",
+   "Youth Anxiety and Government Inaction",
+   "Trauma, PTSD and Mental Health Impacts",
+   "Building Psychological Resilience",
+   "Community Mental Health and Care Networks",
+   "Healing after Disasters",
+   "Support Systems and Coping Strategies",
+   "Communication and Storytelling",
+   "Cultural Dimensions",
+   "Long-Term Wellbeing",
+   ]),
+ ("Governance, Justice and Civic Engagement", "climate governance, justice, equity and civic engagement", [
+   "International Frameworks and Paris Agreement",
+   "National Adaptation Plans and Local Governance",
+   "Carbon Pricing and Climate Finance",
+   "Adaptation Finance Gaps and Investment",
+   "Justice, Equity and Vulnerable Populations",
+   "Indigenous Rights and Gender",
+   "Civic Engagement and Citizen Science",
+   "Legal Status and Loss & Damage",
+   "Policy Responses and Accountability",
+   "Building Inclusive Governance",
+   ]),
+ ("Case Studies: Heat, Fire, Flood and Urban Extremes", "regional case studies of heat, wildfire, flood and urban climate extremes", [
+   "Heat in South Asia and Urban Heat in Global Cities",
+   "Wildfires in Australia and North America",
+   "Floods in Southeast Asia and Urban Flooding",
+   "Storms and Hurricanes in the Caribbean",
+   "Permafrost Thaw in the Arctic",
+   "Sea Level Rise in Small Island States",
+   "Comparative Lessons: Governance and Technology",
+   "Community Responses",
+   "Data and Evidence from Cases",
+   "Transferable Strategies",
+   ]),
+ ("Case Studies: Drought, Food, Water and Security", "regional case studies of drought, food crisis, water stress and security", [
+   "Drought in the Horn of Africa and Sahel",
+   "Food Crisis in Sub-Saharan Africa and Price Volatility",
+   "Water Stress in the Middle East and Groundwater Depletion",
+   "Migration-Conflict Links in Fragile States",
+   "Smallholder Adaptation and Indigenous Knowledge",
+   "Aid, Finance and Loss & Damage",
+   "Cross-Regional Comparisons",
+   "Policy Innovations",
+   "Long-Term Adaptation Pathways",
+   "Lessons for Global Food Security",
+   ]),
+ ("Action Plans and Checklists for Survival", "personal and community action plans, checklists and templates for surviving the future", [
+   "30-Day Personal Action Plan: Water, Food, Shelter",
+   "1-Year Community Action Plan: Governance and Networks",
+   "Emergency Checklists: Go-Bags, Documents, Communication",
+   "Household Templates: Risk Matrix and Water Audit",
+   "Community Templates: Mapping and Mutual Aid",
+   "Monitoring, Drills and Updating",
+   "Financial and Health Preparedness Checklists",
+   "Special Populations Tailoring",
+   "Glossary and How to Use This Book",
+   "A Call to Action",
+   ]),
 ]
 
 REFS = [
@@ -713,13 +744,18 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     # Chapter-level relevant experts (max 2, not forced per section) - avoid forcing same expert every chapter
     chapter_rel = relevant_experts_for_chapter(title, theme)
     if not chapter_rel:
-        chapter_rel = [(ci-1) % len(EXPERTS)]  # ensure each of 60 appears at least once across 65 chapters
+        chapter_rel = [(ci-1) % len(EXPERTS)]  # fallback for chapter-level
     for si,sec in enumerate(secs[:4], start=1):
+        # Per-section expert ensures 60 experts across 24*4=96 sections (Homo Deus style: definisi per paragraf)
+        sec_rel = relevant_experts_for_chapter(sec, theme)
+        if not sec_rel:
+            sec_rel = [((ci-1)*4 + (si-1)) % len(EXPERTS)]
+        use_exp = sec_rel[0] if sec_rel else (chapter_rel[0] if chapter_rel else ((ci-1)*4 + (si-1)) % len(EXPERTS))
         md.append(f"## {ci}.{si} {sec}")
         md.append("")
         # Only first section gets first expert as topic sentence, last section may get second as closing
-        if si == 1 and chapter_rel:
-            exp_idx = chapter_rel[0]
+        if si == 1:
+            exp_idx = use_exp
             exp = EXPERTS[exp_idx]
             md.append(f"{exp} This perspective frames the discussion of {sec.lower()} within {theme}, aligning with the evidence that follows.")
             md.append("")
@@ -739,16 +775,16 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         md.append(f"For example, trends in temperature and exposure translate here into concrete risk for {sec.lower()}, with implications that differ by locality and capacity.")
         md.append("")
         # Current conditions news woven
-        news_item = NEWS[ci % len(NEWS)]
+        news_item = NEWS[((ci-1)*4 + (si-1)) % len(NEWS)]
         md.append(f"In current conditions, {news_item.lower()} Such developments show that {sec.lower()} is not a distant projection but an observable process, reinforcing the need for timely action.")
         md.append("")
         # Academic debate woven as nuance
         md.append(f"The literature on {sec.lower()} debates the strength of evidence, the role of socio-economic pathways, and the balance between adaptation and mitigation. This chapter adopts a cautious, evidence-based stance: it acknowledges uncertainty, highlights where consensus is strong, and points to context-specific trade-offs, keeping the analysis aligned with the broader research base.")
         md.append("")
         # Closing supporting narrative with second expert only on last section, if chapter has 2 relevant experts
-        if si == 4 and len(chapter_rel)>1:
-            exp_idx2 = chapter_rel[1]
-            if exp_idx2 != chapter_rel[0]:
+        if si == 4 and len(sec_rel)>1:
+            exp_idx2 = sec_rel[1] if len(sec_rel)>1 else chapter_rel[1]
+            if exp_idx2 != use_exp:
                 exp2 = EXPERTS[exp_idx2]
                 md.append(f"This aligns with the view that {exp2.split(':')[1].strip()} The observation supports the synthesis offered in this section.")
                 md.append("")

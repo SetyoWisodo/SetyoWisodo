@@ -2,263 +2,294 @@
 import re
 
 CHAPTERS = [
- ("Pendahuluan: Dunia yang Memanas", "dunia yang memanas dan krisis yang akan datang", [
-   "Mengapa Buku Ini", "Apa Arti 'Bertahan Hidup'", "Cara Menggunakan Buku Ini", "Cakupan Krisis",
-   "Keselamatan Personal, Komunitas, dan Masyarakat", "Pengetahuan sebagai Alat Bertahan Hidup", "Peran Pendidikan",
-   "Mempersiapkan Ketidakpastian", "Membangun Resiliensi", "Peta Jalan untuk Pembaca"]),
- ("Sains Pemanasan Global", "sains fisik pemanasan global", [
-   "Efek Rumah Kaca", "Gas Rumah Kaca dan Sumbernya", "Bukti Pemanasan",
-   "Rekaman dan Tren Suhu", "Panah Laut dan Permukaan Laut", "Kehilangan Es dan Krisosfer",
-   "Siklus Karbon dan Umpan Balik", "Sensitivitas Iklim", "Atribusi Pemanasan", "Kesimpulan Ilmiah Utama"]),
- ("Sejarah Perubahan Iklim", "sejarah perubahan iklim dan respons manusia", [
-   "Sains Iklim Awal", "Revolusi Industri dan Emisi", "Pemanasan Abad ke-20",
-   "Kesadaran Internasional", "Penilaian IPCC", "Era Perjanjian Paris", "Tren Emisi Saat Ini",
-   "Pelajaran dari Sejarah", "Respons yang Gagal dan Berhasil", "Melihat ke Depan"]),
- ("Sistem Iklim dan Umpan Balik", "sistem iklim dan mekanisme umpan balik", [
-   "Sistem Iklim", "Atmosfer dan Sirkulasi", "Sirkulasi Lautan", "Dinamika Krisosfer",
-   "Umpan Balik Positif", "Umpan Balik Negatif", "Titik Balik", "Perubahan Mendadak",
-   "Variasi Regional", "Implikasi untuk Keselamatan"]),
- ("Pengukuran dan Pemantauan", "pengukuran dan pemantauan iklim", [
-   "Pemantauan Suhu", "Pengamatan Satelit", "Pemantauan Lautan", "Pemantauan Es dan Salju",
-   "Inventarisasi Gas Rumah Kaca", "Atribusi Kejadian Ekstrem", "Sistem Peringatan Dini",
-   "Kualitas Data dan Ketidakpastian", "Data Terbuka dan Sains Warga", "Menggunakan Data untuk Keputusan"]),
- ("Panas Ekstrem", "panas ekstrem dan gelombang panas", [
-   "Definisi dan Tren Gelombang Panas", "Fisiologi Stres Panas", "Spektrum Penyakit Panas",
-   "Populasi Rentan", "Pulau Panas Perkotaan", "Dampak Infrastruktur", "Tenaga Kerja dan Produktivitas",
-   "Rencana Aksi Panas", "Strategi Pendinginan", "Adaptasi Jangka Panjang terhadap Panas"]),
+ ("Pendahuluan: Dunia yang Memanas", "dunia yang memanas dan krisis mendatang", [
+   "Mengapa Buku Ini",
+   "Apa Arti 'Bertahan' Sesungguhnya",
+   "Cara Menggunakan Buku Ini",
+   "Lingkup Krisis",
+   "Kelangsungan Personal, Komunitas dan Masyarakat",
+   "Pengetahuan sebagai Alat Bertahan",
+   "Peran Pendidikan",
+   "Mempersiapkan Ketidakpastian",
+   "Membangun Resiliensi",
+   "Peta Jalan bagi Pembaca",
+   ]),
+ ("Sains Fisik Pemanasan Global", "sains fisik pemanasan global dan sejarahnya", [
+   "Efek Rumah Kaca",
+   "Gas Rumah Kaca dan Sumbernya",
+   "Bukti Pemanasan",
+   "Rekor Suhu dan Tren",
+   "Revolusi Industri dan Emisi",
+   "Penilaian IPCC",
+   "Panas Laut dan Permukaan Laut",
+   "Kehilangan Es dan Kriosfer",
+   "Siklus Karbon dan Umpan Balik",
+   "Atribusi Pemanasan",
+   ]),
+ ("Sistem Iklim, Umpan Balik dan Pemantauan", "sistem iklim, mekanisme umpan balik dan pemantauan", [
+   "Sistem Iklim",
+   "Sirkulasi Atmosfer dan Laut",
+   "Umpan Balik Positif dan Negatif",
+   "Titik Kritis dan Perubahan Mendadak",
+   "Pemantauan Suhu dan Satelit",
+   "Pemantauan Laut dan Es",
+   "Atribusi Peristiwa Ekstrem",
+   "Sistem Peringatan Dini",
+   "Kualitas Data dan Ketidakpastian",
+   "Menggunakan Data untuk Keputusan",
+   ]),
+ ("Panas Ekstrem dan Kesehatan Perkotaan", "panas ekstrem, gelombang panas dan pulau panas perkotaan", [
+   "Definisi dan Tren Gelombang Panas",
+   "Fisiologi Stres Panas",
+   "Spektrum Penyakit Akibat Panas",
+   "Populasi Rentan",
+   "Pulau Panas Perkotaan",
+   "Dampak Infrastruktur",
+   "Produktivitas Tenaga Kerja",
+   "Rencana Aksi Panas",
+   "Strategi Pendinginan",
+   "Adaptasi Jangka Panjang terhadap Panas",
+   ]),
  ("Kelangkaan Air dan Kekeringan", "kelangkaan air dan kekeringan", [
-   "Siklus Air Global", "Jenis dan Indeks Kekeringan", "Penyebab Kelangkaan Air",
-   "Penggunaan Air Pertanian", "Stres Air Perkotaan", "Penipisan Air Tanah", "Kualitas Air",
-   "Tata Kelola Air", "Konservasi dan Efisiensi", "Sumber Air Alternatif"]),
+   "Siklus Air Global",
+   "Jenis dan Indeks Kekeringan",
+   "Penyebab Kelangkaan Air",
+   "Penggunaan Air Pertanian",
+   "Stres Air Perkotaan",
+   "Penipisan Air Tanah",
+   "Kualitas Air",
+   "Tata Kelola Air",
+   "Konservasi dan Efisiensi",
+   "Sumber Air Alternatif",
+   ]),
  ("Banjir dan Kenaikan Permukaan Laut", "banjir dan kenaikan permukaan laut", [
-   "Jenis dan Penyebab Banjir", "Mekanisme Kenaikan Permukaan Laut", "Risiko Banjir Pesisir",
-   "Banjir Sungai dan Bandang", "Banjir Perkotaan", "Dampak Banjir pada Kesehatan", "Pertahanan Banjir",
-   "Retret Terkelola", "Asuransi dan Keuangan Banjir", "Adaptasi Pesisir Jangka Panjang"]),
- ("Pangan dan Pertanian", "ketahanan pangan dan pertanian di bawah perubahan iklim", [
-   "Gambaran Sistem Pangan", "Dampak Hasil Panen", "Stres Panas dan Air pada Tanaman",
-   "Hama dan Penyakit", "Ternak dan Perikanan", "Kerentanan Rantai Pasok",
-   "Volatilitas Harga dan Kelaparan", "Pertanian Adaptif", "Penyimpanan dan Pengawetan Pangan",
-   "Nutrisi dan Perubahan Diet"]),
- ("Ekosistem dan Keanekaragaman Hayati", "ekosistem dan kehilangan keanekaragaman hayati", [
-   "Keanekaragaman Hayati dan Jasa Ekosistem", "Kehilangan Habitat", "Risiko kepunahan Spesies",
-   "Ekosistem Hutan", "Ekosistem Laut", "Lahan Basah dan Air Tawar", "Spesies Invasif",
-   "Adaptasi Berbasis Ekosistem", "Strategi Konservasi", "Ketergantungan Manusia pada Alam"]),
- ("Kesehatan dan Penyakit", "dampak kesehatan dari perubahan iklim", [
-   "Dampak Kesehatan Langsung dan Tidak Langsung", "Penyakit Akibat Panas", "Penyakit Vektor",
-   "Penyakit Berbasis Air", "Kualitas Udara dan Kesehatan Pernapasan", "Dampak Kesehatan Mental",
-   "Resiliensi Sistem Kesehatan", "Kelompok Rentan", "Pencegahan dan Kesiapsiagaan", "Keadilan Kesehatan"]),
- ("Dampak Ekonomi", "dampak ekonomi dari perubahan iklim", [
-   "Estimasi Biaya Kerusakan", "Dampak Sektoral", "Kehilangan Produktivitas Tenaga Kerja", "Kerusakan Infrastruktur",
-   "Risiko Asuransi dan Keuangan", "Efek Makroekonomi", "Kemiskinan dan Ketimpangan",
-   "Biaya Adaptasi", "Biaya Tanpa Tindakan", "Strategi Resiliensi Ekonomi"]),
+   "Jenis dan Penyebab Banjir",
+   "Mekanisme Kenaikan Permukaan Laut",
+   "Risiko Banjir Pesisir",
+   "Banjir Sungai dan Banjir Bandang",
+   "Banjir Perkotaan",
+   "Dampak Banjir pada Kesehatan",
+   "Pertahanan Banjir",
+   "Retret Terkelola",
+   "Asuransi dan Keuangan Banjir",
+   "Adaptasi Pesisir Jangka Panjang",
+   ]),
+ ("Ketahanan Pangan dan Pertanian", "ketahanan pangan dan pertanian di tengah perubahan iklim", [
+   "Gambaran Sistem Pangan",
+   "Dampak Hasil Panen",
+   "Stres Panas dan Air pada Tanaman",
+   "Hama dan Penyakit",
+   "Peternakan dan Perikanan",
+   "Kerentanan Rantai Pasok",
+   "Volatilitas Harga dan Kelaparan",
+   "Pertanian Adaptif",
+   "Penyimpanan dan Pengawetan Pangan",
+   "Nutrisi dan Pergeseran Diet",
+   ]),
+ ("Ekosistem dan Kehilangan Keanekaragaman Hayati", "ekosistem dan kehilangan keanekaragaman hayati", [
+   "Keanekaragaman Hayati dan Jasa Ekosistem",
+   "Kehilangan Habitat",
+   "Risiko Kepunahan Spesies",
+   "Ekosistem Hutan",
+   "Ekosistem Laut",
+   "Lahan Basah dan Air Tawar",
+   "Spesies Invasif",
+   "Adaptasi Berbasis Ekosistem",
+   "Strategi Konservasi",
+   "Ketergantungan Manusia pada Alam",
+   ]),
+ ("Dampak Kesehatan Perubahan Iklim", "dampak kesehatan perubahan iklim", [
+   "Dampak Kesehatan Langsung dan Tak Langsung",
+   "Penyakit Terkait Panas",
+   "Penyakit Tular Vektor",
+   "Penyakit Tular Air",
+   "Kualitas Udara dan Kesehatan Pernapasan",
+   "Dampak Kesehatan Mental",
+   "Ketahanan Sistem Kesehatan",
+   "Kelompok Rentan",
+   "Pencegahan dan Kesiapsiagaan",
+   "Kesetaraan Kesehatan",
+   ]),
+ ("Dampak Ekonomi dan Ketahanan Keuangan", "dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim", [
+   "Estimasi Biaya Kerusakan",
+   "Dampak Sektoral",
+   "Kehilangan Produktivitas Tenaga Kerja",
+   "Kerusakan Infrastruktur",
+   "Risiko Asuransi dan Keuangan",
+   "Dana Darurat dan Diversifikasi Pendapatan",
+   "Biaya Adaptasi vs Kelambanan",
+   "Kemiskinan dan Ketimpangan",
+   "Utang, Arus Kas dan Pemulihan",
+   "Strategi Ketahanan Ekonomi",
+   ]),
  ("Migrasi dan Pengungsian", "migrasi iklim dan pengungsian", [
-   "Pendorong Migrasi Iklim", "Pengungsian Internal", "Pergerakan Lintas Batas",
-   "Status Hukum dan Hak", "Tekanan Urbanisasi", "Komunitas Penerima",
-   "Relokasi Terencana", "Kerugian dan Kerusakan", "Kohesi Sosial", "Respons Kebijakan"]),
- ("Konflik dan Keamanan", "perubahan iklim dan konflik", [
-   "Kompetisi Sumber Daya", "Bukti Iklim dan Kekerasan", "Negara Rentan",
-   "Konflik Pangan dan Air", "Tautan Migrasi-Konflik", "Respons Sektor Keamanan",
-   "Pembangunan Perdamaian dan Adaptasi", "Peringatan Dini Konflik", "Tata Kelola dan Stabilitas",
-   "Mengurangi Risiko"]),
- ("Kegagalan Infrastruktur", "resiliensi infrastruktur", [
-   "Infrastruktur Kritis", "Jaringan Listrik", "Sistem Air dan Sanitasi", "Jaringan Transportasi",
-   "Sistem Komunikasi", "Standar Bangunan", "Kegagalan Berantai", "Pemeliharaan dan Investasi",
-   "Redundansi dan Cadangan", "Infrastruktur Tahan Masa Depan"]),
- ("Literasi Iklim", "literasi iklim dan pendidikan", [
-   "Apa Itu Literasi Iklim", "Konsep Inti", "Pendidikan Sesuai Usia", "Pendidikan Formal",
-   "Pendidikan Informal dan Komunitas", "Pelatihan Guru", "Desain Kurikulum", "Penilaian",
-   "Pembelajaran Sepanjang Hayat", "Mengukur Hasil Literasi"]),
- ("Pendidikan Paper Referensi", "pendidikan paper referensi dan literasi ilmiah", [
-   "Apa Itu Paper Referensi", "Proses Peer Review", "Membaca Literatur Ilmiah",
-   "Mengevaluasi Bukti", "Memahami Metode", "Statistik untuk Warga", "Mengidentifikasi Bias",
-   "Membangun Basis Pengetahuan", "Berbagi Pengetahuan", "Mengajar Orang Lain"]),
- ("Cara Membaca Literatur Ilmiah", "membaca dan memahami paper ilmiah", [
-   "Struktur Paper", "Abstrak dan Pendahuluan", "Bagian Metode", "Hasil dan Gambar",
-   "Diskusi dan Kesimpulan", "Referensi dan Sitasi", "Tinjauan Sistematis dan Meta-Analisis",
-   "Preprint dan Literatur Abu-abu", "Alat Penilaian Kritis", "Rencana Membaca Praktis"]),
- ("Data dan Statistik untuk Warga", "data dan statistik untuk warga", [
-   "Mengapa Data Penting", "Jenis Data", "Statistik Deskriptif", "Ketidakpastian dan Galat",
-   "Korelasi vs Kausalitas", "Grafik dan Bagan", "Statistik yang Menyesatkan", "Sumber Data Terbuka",
-   "Pengumpulan Data Pribadi", "Keputusan Berbasis Data"]),
- ("Misinformasi dan Literasi Media", "misinformasi dan literasi media", [
-   "Misinformasi Iklim", "Sumber Misinformasi", "Psikologi Keyakinan", "Pemeriksaan Fakta",
-   "Keterampilan Literasi Media", "Dinamika Media Sosial", "Sumber Terpercaya", "Mengomunikasikan Sains",
-   "Menangkal Penyangkalan", "Membangun Kepercayaan"]),
- ("Penilaian Risiko Lokasi Anda", "penilaian risiko lokal", [
-   "Memahami Bahaya Lokal", "Pemetaan Bahaya", "Paparan dan Kerentanan",
-   "Proyeksi Iklim untuk Wilayah Anda", "Matriks Risiko Personal", "Profil Risiko Rumah Tangga",
-   "Penilaian Risiko Komunitas", "Pemantauan dan Pembaruan", "Prioritas Tindakan", "Mendokumentasikan Rencana"]),
- ("Keamanan Air di Rumah", "keamanan air rumah tangga", [
-   "Kebutuhan Air Harian", "Penyimpanan Air", "Metode Pemurnian", "Pemanenan Air Hujan",
-   "Penggunaan Kembali Air Abu-abu", "Perlindungan Sumur dan Mata Air", "Pencegahan Kontaminasi", "Air dalam Bencana",
-   "Perencanaan Air Jangka Panjang", "Kebiasaan Konservasi Air"]),
- ("Keamanan Pangan di Rumah", "keamanan pangan rumah tangga", [
-   "Kebutuhan Nutrisi", "Prinsip Penyimpanan Pangan", "Pasokan Non-Perishable", "Pengawetan Pangan",
-   "Berkebun di Rumah", "Kebun Komunitas", "Mengurangi Limbah Pangan", "Adaptasi Diet",
-   "Memasak Tanpa Listrik", "Keamanan Pangan dalam Krisis"]),
- ("Tempat Tinggal dan Energi", "resiliensi tempat tinggal dan energi", [
-   "Resiliensi Panas Rumah", "Insulasi dan Peneduh", "Ventilasi", "Strategi Pendinginan",
-   "Pemanasan saat Cuaca Dingin", "Perencanaan Pemadaman Listrik", "Solar dan Baterai", "Keamanan Generator",
-   "Berteduh saat Evakuasi", "Peningkatan Rumah Jangka Panjang"]),
- ("Kesehatan dan Pertolongan Pertama", "kesiapsiagaan kesehatan dan pertolongan pertama", [
-   "Dasar Pertolongan Pertama", "Pengenalan Penyakit Panas", "Dehidrasi dan Rehidrasi", "Perawatan Luka",
-   "Pengendalian Infeksi", "Pengelolaan Obat", "Perencanaan Penyakit Kronis", "Pertolongan Pertama Mental",
-   "Layanan Medis Darurat", "Kit dan Pasokan Kesehatan"]),
- ("Kesiapsiagaan Finansial", "kesiapsiagaan finansial", [
-   "Dana Darurat", "Diversifikasi Pendapatan", "Tinjauan Asuransi", "Perlindungan Dokumen",
-   "Utang dan Arus Kas", "Barter dan Pertukaran Lokal", "Pensiun dan Jangka Panjang", "Pencegahan Penipuan",
-   "Bantuan dan Keringanan Finansial", "Membangun Kembali Keuangan setelah Bencana"]),
- ("Evakuasi dan Respons Darurat", "evakuasi dan respons darurat", [
-   "Kapan Harus Evakuasi", "Rute dan Rencana Evakuasi", "Go-Bag dan Kit", "Komunikasi Keluarga",
-   "Hewan Peliharaan dan Ternak", "Berteduh di Tempat", "Kembali ke Rumah dengan Aman", "Keamanan Pasca-Bencana",
-   "Pertolongan Pertama Psikologis", "Belajar dari Simulasi"]),
- ("Populasi Khusus", "melindungi populasi rentan dan khusus", [
-   "Anak dan Bayi", "Lansia", "Penyandang Disabilitas", "Penyakit Kronis",
-   "Hamil dan Menyusui", "Rumah Tangga Berpenghasilan Rendah", "Migran dan Pengungsi", "Komunitas Adat",
-   "Isolasi Pedesaan", "Rencana Kesiapsiagaan yang Disesuaikan"]),
- ("Modal Sosial dan Jaringan", "modal sosial dan jaringan komunitas", [
-   "Apa Itu Modal Sosial", "Kepercayaan dan Resiprositas", "Pemetaan Jaringan", "Menjembatani dan Mengikat",
-   "Pemimpin Komunitas", "Partisipasi Inklusif", "Jaringan Digital", "Memelihara Jaringan",
-   "Mengukur Modal Sosial", "Memperkuat Ikatan"]),
- ("Gotong Royong", "gotong royong dan dukungan komunitas", [
-   "Prinsip Gotong Royong", "Memulai Kelompok", "Berbagi Sumber Daya", "Jaringan Perawatan",
-   "Berbagi Keterampilan", "Distribusi Pangan dan Pasokan", "Sistem Komunikasi", "Resolusi Konflik",
-   "Keberlanjutan Kelompok", "Gotong Royong dan Respons Resmi"]),
- ("Tata Kelola Lokal", "tata kelola lokal dan aksi iklim", [
-   "Peran Pemerintah Lokal", "Manajemen Darurat", "Rencana Adaptasi Iklim", "Zonasi dan Penggunaan Lahan",
-   "Layanan Publik", "Anggaran dan Keuangan", "Keterlibatan Publik", "Akuntabilitas", "Kemitraan",
-   "Inovasi di Tingkat Lokal"]),
- ("Resiliensi Perkotaan", "resiliensi perkotaan terhadap perubahan iklim", [
-   "Pulau Panas Perkotaan", "Infrastruktur Hijau", "Pengelolaan Air Hujan", "Pertanian Perkotaan",
-   "Transportasi dan Mobilitas", "Perumahan dan Bangunan", "Sistem Energi", "Sampah dan Sanitasi",
-   "Keadilan di Kota", "Kota Pintar dan Data"]),
- ("Resiliensi Pedesaan", "resiliensi pedesaan", [
-   "Kerentanan Pedesaan", "Penghidupan Pertanian", "Air dan Sanitasi", "Akses Kesehatan",
-   "Konektivitas dan Transportasi", "Diversifikasi Ekonomi", "Pengelolaan Lahan", "Lembaga Komunitas",
-   "Pengetahuan Adat dan Tradisional", "Menjembatani Kesenjangan Kota-Desa"]),
- ("Pengetahuan Adat", "pengetahuan adat dan tradisional", [
-   "Nilai Pengetahuan Adat", "Pengetahuan Ekologi Tradisional", "Indikator Cuaca dan Iklim",
-   "Pengelolaan Sumber Daya Berkelanjutan", "Resiliensi Budaya", "Transmisi Pengetahuan",
-   "Kemitraan dengan Masyarakat Adat", "Melindungi Pengetahuan", "Studi Kasus", "Integrasi dengan Sains"]),
- ("Sistem Energi Terbarukan", "energi terbarukan untuk resiliensi", [
-   "Tenaga Surya", "Tenaga Angin", "Tenaga Air", "Biomassa", "Penyimpanan Energi", "Mikrogrid",
-   "Pembangkitan Terdistribusi", "Efisiensi Energi", "Perencanaan Transisi", "Keadilan dan Akses"]),
- ("Teknologi Air", "teknologi air untuk adaptasi", [
-   "Pemanenan Air Hujan", "Desalinasi", "Daur Ulang Air Limbah", "Irigasi Cerdas",
-   "Deteksi Kebocoran", "Pemantauan Kualitas Air", "Pemurnian Teknologi Rendah", "Inovasi Penyimpanan",
-   "Biaya dan Skalabilitas", "Pemeliharaan dan Pelatihan"]),
- ("Teknologi Pertanian", "teknologi pertanian", [
-   "Pertanian Presisi", "Varietas Tahan Kekeringan", "Kesehatan Tanah", "Agroforestri",
-   "Pertanian Vertikal dan Perkotaan", "Hidroponik dan Akuaponik", "Pengelolaan Hama", "Teknologi Pasca-Panen",
-   "Alat Digital untuk Petani", "Akses dan Keadilan"]),
- ("Sistem Peringatan Dini", "sistem peringatan dini", [
-   "Apa Itu Sistem Peringatan Dini", "Pemantauan Bahaya", "Peramalan dan Pemodelan",
-   "Penyebaran Peringatan", "Respons Komunitas", "Peringatan Kesehatan Panas", "Peringatan Banjir",
-   "Peringatan Kebakaran Hutan", "Peringatan Inklusif", "Mengevaluasi Efektivitas"]),
- ("AI dan Data untuk Iklim", "AI dan data untuk aksi iklim", [
-   "Aplikasi AI dalam Iklim", "Peramalan dan Prediksi", "Optimasi Sumber Daya",
-   "Penginderaan Jauh", "Data Sains Warga", "Etika dan Bias", "Tata Kelola Data",
-   "Aksesibilitas dan Keadilan", "Risiko dan Keterbatasan", "Arah Masa Depan"]),
- ("Teknologi Tepat Guna", "teknologi tepat guna", [
-   "Prinsip Teknologi Tepat Guna", "Pendinginan Pasif", "Filter Air Sederhana", "Kompor Surya",
-   "Alat Manual", "Pemeliharaan dan Perbaikan", "Bahan Lokal", "Keterampilan dan Pelatihan",
-   "Biaya dan Daya Tahan", "Menggabungkan Teknologi Rendah dan Tinggi"]),
- ("Kecemasan Iklim", "kecemasan iklim dan respons emosional", [
-   "Apa Itu Kecemasan Iklim", "Siapa yang Terpengaruh", "Gejala dan Dampak", "Adaptif vs Maladaptif",
-   "Pemuda dan Kecemasan Iklim", "Media dan Kecemasan", "Strategi Koping", "Dukungan Profesional",
-   "Dukungan Komunitas", "Menyalurkan Kecemasan menjadi Aksi"]),
- ("Trauma dan Pemulihan", "trauma dan pemulihan pasca-bencana", [
-   "Trauma Bencana", "PTSD dan Depresi", "Duka dan Kehilangan", "Anak dan Trauma",
-   "Trauma Komunitas", "Pertolongan Pertama Psikologis", "Pemulihan Jangka Panjang", "Faktor Resiliensi",
-   "Layanan Dukungan", "Mencegah Re-traumatisasi"]),
- ("Membangun Resiliensi Psikologis", "resiliensi psikologis", [
-   "Konsep Resiliensi", "Strategi Kognitif", "Regulasi Emosi", "Dukungan Sosial",
-   "Makna dan Tujuan", "Tautan Kesehatan Fisik", "Praktik dan Kebiasaan", "Pelatihan Resiliensi",
-   "Mengukur Resiliensi", "Mempertahankan Resiliensi"]),
- ("Kesehatan Mental Komunitas", "kesehatan mental komunitas", [
-   "Sistem Kesehatan Mental", "Akses dan Hambatan", "Pengurangan Stigma", "Dukungan Sebaya",
-   "Integrasi dengan Perawatan Primer", "Layanan Krisis", "Pengembangan Tenaga Kerja", "Pendanaan",
-   "Pemantauan dan Evaluasi", "Inisiatif yang Dipimpin Komunitas"]),
- ("Kerangka Internasional", "kerangka iklim internasional", [
-   "UNFCCC dan COP", "Perjanjian Paris", "Kerangka Sendai", "SDG", "Kerugian dan Kerusakan",
-   "Mekanisme Keuangan Iklim", "Transfer Teknologi", "Pembangunan Kapasitas", "Pemantauan dan Pelaporan",
-   "Memperkuat Kerangka"]),
- ("Rencana Adaptasi Nasional", "perencanaan adaptasi nasional", [
-   "Proses NAP", "Penilaian Kerentanan", "Prioritas", "Implementasi", "Pemantauan dan Evaluasi",
-   "Integrasi Sektoral", "Tautan Lokal", "Keuangan dan Anggaran", "Keterlibatan Pemangku Kepentingan",
-   "Tantangan dan Pelajaran"]),
- ("Penetapan Harga Karbon", "penetapan harga karbon dan pasar", [
-   "Pajak Karbon", "Sistem Perdagangan Emisi", "Pasar Karbon", "Tingkat Harga", "Penggunaan Pendapatan",
-   "Pertimbangan Keadilan", "Penyesuaian Perbatasan", "Pasar Sukarela", "Bukti Efektivitas",
-   "Prinsip Desain"]),
- ("Keuangan Iklim", "keuangan iklim", [
-   "Definisi dan Sumber", "Keuangan Publik", "Keuangan Swasta", "Obligasi Hijau", "Keuangan Adaptasi",
-   "Keuangan Kerugian dan Kerusakan", "Akses dan Hambatan", "Transparansi", "Penskalaan Keuangan",
-   "Instrumen Inovatif"]),
- ("Keadilan dan Kesetaraan", "keadilan iklim dan kesetaraan", [
-   "Prinsip Keadilan Iklim", "Tanggung Jawab Historis", "Kelompok Rentan", "Gender dan Iklim",
-   "Hak Masyarakat Adat", "Keadilan Antar-Generasi", "Transisi yang Adil", "Adaptasi yang Setara",
-   "Hak Asasi Manusia", "Advokasi dan Akuntabilitas"]),
- ("Keterlibatan Warga", "keterlibatan warga dalam aksi iklim", [
-   "Mengapa Keterlibatan Warga Penting", "Pemilihan dan Pemilu", "Advokasi dan Lobi", "Protes dan Gerakan",
-   "Pengorganisasian Komunitas", "Anggaran Partisipatif", "Keterlibatan Pemuda", "Aktivisme Digital",
-   "Meminta Pertanggungjawaban Pemimpin", "Mempertahankan Keterlibatan"]),
- ("Studi Kasus: Panas di Asia Selatan", "gelombang panas di Asia Selatan", [
-   "Konteks Regional", "Tren Gelombang Panas", "Dampak pada Kesehatan", "Dampak pada Tenaga Kerja",
-   "Respons Adaptasi", "Kebijakan dan Tata Kelola", "Aksi Komunitas", "Pelajaran yang Dipetik",
-   "Kesenjangan yang Tersisa", "Prospek Masa Depan"]),
- ("Studi Kasus: Kekeringan di Tanduk Afrika", "kekeringan di Tanduk Afrika", [
-   "Konteks Regional", "Tren Kekeringan", "Ketidakamanan Pangan", "Kelangkaan Air", "Respons Kemanusiaan",
-   "Pembangunan Resiliensi", "Adaptasi Pastoralis", "Kebijakan dan Keuangan", "Pelajaran yang Dipetik", "Prospek Masa Depan"]),
- ("Studi Kasus: Kenaikan Permukaan Laut di Negara Pulau Kecil", "kenaikan permukaan laut di negara pulau kecil", [
-   "Konteks Regional", "Tren Permukaan Laut", "Dampak Pesisir", "Air Tawar dan Pertanian",
-   "Risiko Pengungsian", "Strategi Adaptasi", "Dukungan Internasional", "Kerugian dan Kerusakan",
-   "Pelajaran yang Dipetik", "Prospek Masa Depan"]),
- ("Studi Kasus: Kebakaran Hutan di Australia dan Amerika Utara", "kebakaran hutan", [
-   "Tren Cuaca Kebakaran", "Dampak Ekologis", "Dampak Kesehatan Manusia", "Kerusakan Infrastruktur",
-   "Respons Darurat", "Pencegahan dan Mitigasi", "Kesiapsiagaan Komunitas", "Kebijakan dan Pendanaan",
-   "Pelajaran yang Dipetik", "Prospek Masa Depan"]),
- ("Studi Kasus: Banjir di Asia Tenggara", "banjir di Asia Tenggara", [
-   "Konteks Regional", "Tren Banjir", "Banjir Perkotaan", "Dampak Pedesaan dan Pertanian",
-   "Dampak Kesehatan", "Peringatan Dini", "Adaptasi dan Infrastruktur", "Resiliensi Komunitas",
-   "Pelajaran yang Dipetik", "Prospek Masa Depan"]),
- ("Studi Kasus: Krisis Pangan di Afrika Sub-Sahara", "krisis pangan di Afrika Sub-Sahara", [
-   "Konteks Regional", "Iklim dan Pertanian", "Tren Ketidakamanan Pangan", "Dampak Nutrisi",
-   "Guncangan Pasar dan Harga", "Respons Kemanusiaan", "Pertanian Resilien", "Kebijakan dan Keuangan",
-   "Pelajaran yang Dipetik", "Prospek Masa Depan"]),
- ("Studi Kasus: Stres Air di Timur Tengah", "stres air di Timur Tengah", [
-   "Konteks Regional", "Tren Kelangkaan Air", "Pertanian dan Air", "Stres Air Perkotaan",
-   "Air Lintas Batas", "Strategi Adaptasi", "Teknologi dan Inovasi", "Tata Kelola",
-   "Pelajaran yang Dipetik", "Prospek Masa Depan"]),
- ("Studi Kasus: Badai dan Topan di Karibia", "badai dan topan di Karibia", [
-   "Konteks Regional", "Tren Badai", "Kerusakan Infrastruktur", "Dampak Ekonomi", "Dampak Kesehatan",
-   "Peringatan Dini dan Evakuasi", "Pemulihan dan Rekonstruksi", "Pembangunan Resiliensi",
-   "Pelajaran yang Dipetik", "Prospek Masa Depan"]),
- ("Studi Kasus: Pencairan Permafrost di Arktik", "pencairan permafrost di Arktik", [
-   "Konteks Regional", "Tren Pencairan", "Dampak Infrastruktur", "Perubahan Ekosistem",
-   "Komunitas Adat", "Pelepasan Karbon", "Strategi Adaptasi", "Pemantauan dan Penelitian",
-   "Pelajaran yang Dipetik", "Prospek Masa Depan"]),
- ("Studi Kasus: Panas Perkotaan di Kota-kota Global", "panas perkotaan di kota-kota global", [
-   "Efek Pulau Panas Perkotaan", "Studi Kasus Kota", "Dampak Kesehatan", "Stres Infrastruktur",
-   "Strategi Pendinginan", "Infrastruktur Hijau", "Tata Kelola dan Perencanaan", "Keadilan",
-   "Pelajaran yang Dipetik", "Prospek Masa Depan"]),
- ("Rencana Aksi Personal 30 Hari", "rencana aksi personal 30 hari", [
-   "Minggu 1: Menilai dan Merencanakan", "Minggu 2: Pasokan dan Kit", "Minggu 3: Keterampilan dan Kesehatan",
-   "Minggu 4: Komunitas dan Tinjauan", "Kebiasaan Harian", "Melacak Kemajuan", "Hambatan Umum",
-   "Menyesuaikan Rencana", "Melibatkan Keluarga", "Langkah Selanjutnya"]),
- ("Rencana Aksi Komunitas 1 Tahun", "rencana aksi komunitas 1 tahun", [
-   "Kuartal 1: Mengorganisasi", "Kuartal 2: Menilai dan Melatih", "Kuartal 3: Mengimplementasikan", "Kuartal 4: Meninjau dan Memperluas",
-   "Membangun Kemitraan", "Pendanaan dan Sumber Daya", "Memantau Kemajuan", "Komunikasi",
-   "Mempertahankan Momentum", "Visi Jangka Panjang"]),
- ("Ceklis dan Template", "ceklis dan template", [
-   "Ceklis Kit Darurat", "Ceklis Penyimpanan Air", "Ceklis Penyimpanan Pangan",
-   "Ceklis Evakuasi", "Ceklis Pertolongan Pertama", "Ceklis Dokumen", "Ceklis Keamanan Rumah",
-   "Template Rencana Komunikasi", "Template Penilaian Risiko", "Template Tinjauan Pasca-Aksi"]),
- ("Glosarium", "glosarium istilah iklim dan keselamatan", [
-   "A-C", "D-F", "G-I", "J-L", "M-O", "P-R", "S-U", "V-Z"]),
- ("Referensi Lanjutan", "referensi lanjutan dan bacaan lebih lanjut", [
-   "Sains Iklim", "Kesehatan dan Bencana", "Air dan Pangan", "Ekonomi dan Kebijakan",
-   "Komunitas dan Sosial", "Teknologi", "Kesehatan Mental", "Studi Kasus", "Pendidikan", "Bacaan Umum"]),
+   "Pendorong Migrasi Iklim",
+   "Pengungsian Internal",
+   "Pergerakan Lintas Batas",
+   "Status Hukum dan Hak",
+   "Tekanan Urbanisasi",
+   "Komunitas Penerima",
+   "Relokasi Terencana",
+   "Kerugian dan Kerusakan",
+   "Kohesi Sosial",
+   "Respon Kebijakan",
+   ]),
+ ("Konflik, Keamanan dan Stabilitas", "perubahan iklim, konflik dan keamanan", [
+   "Kompetisi Sumber Daya",
+   "Bukti Iklim dan Kekerasan",
+   "Negara Rapuh",
+   "Konflik Pangan dan Air",
+   "Kaitan Migrasi-Konflik",
+   "Respon Sektor Keamanan",
+   "Pembangunan Perdamaian dan Adaptasi",
+   "Peringatan Dini Konflik",
+   "Tata Kelola dan Stabilitas",
+   "Mengurangi Risiko",
+   ]),
+ ("Infrastruktur, Hunian dan Ketahanan Energi", "infrastruktur, hunian dan ketahanan energi", [
+   "Infrastruktur Kritis dan Jaringan Listrik",
+   "Sistem Air dan Sanitasi",
+   "Jaringan Transport dan Komunikasi",
+   "Standar Bangunan dan Kegagalan Berjenjang",
+   "Ketahanan Hunian terhadap Panas dan Dingin",
+   "Isolasi, Naungan dan Ventilasi",
+   "Perencanaan Pemadaman dan Surya",
+   "Keamanan Generator dan Penampungan Evakuasi",
+   "Pemeliharaan dan Redundansi",
+   "Infrastruktur Tahan Masa Depan",
+   ]),
+ ("Literasi Iklim dan Pendidikan", "literasi iklim dan pendidikan", [
+   "Apa Itu Literasi Iklim",
+   "Konsep Inti dan Pendidikan Sesuai Usia",
+   "Formal dan Informal",
+   "Pelatihan Guru dan Desain Kurikulum",
+   "Apa Itu Paper Referensi",
+   "Peer Review dan Membaca Literatur",
+   "Mengevaluasi Bukti dan Statistik",
+   "Memahami Metode dan Bias",
+   "Membangun Basis Pengetahuan",
+   "Mengajar Orang Lain",
+   ]),
+ ("Data, Statistik dan Misinformasi", "data, statistik dan misinformasi di era iklim", [
+   "Mengapa Data Penting dan Jenis Data",
+   "Statistik Deskriptif dan Ketidakpastian",
+   "Korelasi vs Kausalitas",
+   "Grafik, Bagan dan Statistik Menyesatkan",
+   "Data Terbuka dan Koleksi Personal",
+   "Sumber Misinformasi Iklim",
+   "Psikologi Kepercayaan dan Fact-Checking",
+   "Literasi Media dan Media Sosial",
+   "Sumber Tepercaya dan Komunikasi Sains",
+   "Melawan Penyangkal dan Membangun Kepercayaan",
+   ]),
+ ("Kesiapsiagaan Rumah Tangga: Air, Pangan, Hunian dan Risiko", "kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal", [
+   "Pemetaan Bahaya Lokal dan Matriks Risiko Personal",
+   "Kebutuhan Air Harian, Penyimpanan dan Pemurnian",
+   "Panen Air Hujan dan Daur Ulang Greywater",
+   "Kebutuhan Nutrisi dan Penyimpanan Pangan",
+   "Berkebun Rumah dan Mengurangi Limbah",
+   "Memasak Tanpa Listrik dan Keamanan Pangan",
+   "Pencegahan Kontaminasi dan Perencanaan Jangka Panjang",
+   "Perlindungan Dokumen dan Prioritas Tindakan",
+   "Pemantauan dan Pembaruan Rencana",
+   "Rencana Khusus Lokasimu",
+   ]),
+ ("Kesehatan, Tanggap Darurat dan Populasi Khusus", "kesehatan, tanggap darurat dan perlindungan populasi rentan", [
+   "Dasar Pertolongan Pertama dan Penyakit Panas",
+   "Perawatan Luka, Infeksi dan Manajemen Obat",
+   "Penyakit Kronis dan Perawatan Lansia",
+   "Anak, Disabilitas dan Kebutuhan Khusus",
+   "Rumah Tangga Miskin, Migran dan Komunitas Adat",
+   "Kapan Evakuasi dan Tas Siaga",
+   "Komunikasi Keluarga, Hewan Peliharaan dan Bertahan di Tempat",
+   "Keamanan Pasca-Bencana dan Kembali ke Rumah",
+   "Pertolongan Pertama Psikologis",
+   "Kit Kesehatan dan Layanan Darurat",
+   ]),
+ ("Modal Sosial, Gotong Royong dan Tata Kelola", "modal sosial, gotong royong dan tata kelola komunitas", [
+   "Apa Itu Modal Sosial dan Kepercayaan",
+   "Pemetaan Jaringan, Bridging dan Bonding",
+   "Pemimpin Komunitas dan Partisipasi Inklusif",
+   "Prinsip Gotong Royong dan Memulai Kelompok",
+   "Berbagi Sumber Daya, Perawatan dan Keterampilan",
+   "Distribusi Pangan dan Sistem Komunikasi",
+   "Resolusi Konflik dan Keberlanjutan",
+   "Tata Kelola Lokal dan Resiliensi Perkotaan",
+   "Resiliensi Pedesaan dan Pengetahuan Adat",
+   "Memperkuat Ikatan",
+   ]),
+ ("Energi Terbarukan dan Teknologi Tepat Guna", "energi terbarukan dan teknologi tepat guna untuk adaptasi iklim", [
+   "Sistem Energi Terbarukan dan Surya/Baterai",
+   "Teknologi Air dan Pemurnian",
+   "Teknologi Pertanian dan Praktik Adaptif",
+   "Sistem Peringatan Dini dan AI untuk Iklim",
+   "Teknologi Low-Tech dan Tepat Guna",
+   "Inovasi dan Adopsi Komunitas",
+   "Pemeliharaan, Investasi dan Redundansi",
+   "Tahan Masa Depan dan Skalabilitas",
+   "Contoh Kasus",
+   "Jalur Jangka Panjang",
+   ]),
+ ("Psikologi Iklim dan Kesehatan Mental", "kecemasan iklim, trauma dan membangun resiliensi psikologis", [
+   "Kecemasan Iklim dan Alarm Rasional",
+   "Kecemasan Pemuda dan Kelambanan Pemerintah",
+   "Trauma, PTSD dan Dampak Kesehatan Mental",
+   "Membangun Resiliensi Psikologis",
+   "Kesehatan Mental Komunitas dan Jaringan Perawatan",
+   "Pemulihan setelah Bencana",
+   "Sistem Dukungan dan Strategi Coping",
+   "Komunikasi dan Bercerita",
+   "Dimensi Kultural",
+   "Kesejahteraan Jangka Panjang",
+   ]),
+ ("Tata Kelola, Keadilan dan Keterlibatan Warga", "tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga", [
+   "Kerangka Internasional dan Perjanjian Paris",
+   "Rencana Adaptasi Nasional dan Tata Kelola Lokal",
+   "Penetapan Harga Karbon dan Keuangan Iklim",
+   "Kesenjangan Keuangan Adaptasi dan Investasi",
+   "Keadilan, Kesetaraan dan Populasi Rentan",
+   "Hak Adat dan Gender",
+   "Keterlibatan Warga dan Citizen Science",
+   "Status Hukum dan Loss & Damage",
+   "Respon Kebijakan dan Akuntabilitas",
+   "Membangun Tata Kelola Inklusif",
+   ]),
+ ("Studi Kasus: Panas, Kebakaran, Banjir dan Ekstrem Perkotaan", "studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan", [
+   "Panas di Asia Selatan dan Panas Perkotaan di Kota Global",
+   "Kebakaran Hutan di Australia dan Amerika Utara",
+   "Banjir di Asia Tenggara dan Banjir Perkotaan",
+   "Badai dan Topan di Karibia",
+   "Pencairan Permafrost di Arktik",
+   "Kenaikan Permukaan Laut di Negara Pulau Kecil",
+   "Pelajaran Komparatif: Tata Kelola dan Teknologi",
+   "Respon Komunitas",
+   "Data dan Bukti dari Kasus",
+   "Strategi yang Dapat Ditransfer",
+   ]),
+ ("Studi Kasus: Kekeringan, Pangan, Air dan Keamanan", "studi kasus regional kekeringan, krisis pangan, stres air dan keamanan", [
+   "Kekeringan di Tanduk Afrika dan Sahel",
+   "Krisis Pangan di Afrika Sub-Sahara dan Volatilitas Harga",
+   "Stres Air di Timur Tengah dan Penipisan Air Tanah",
+   "Kaitan Migrasi-Konflik di Negara Rapuh",
+   "Adaptasi Petani Kecil dan Pengetahuan Adat",
+   "Bantuan, Keuangan dan Loss & Damage",
+   "Perbandingan Lintas Regional",
+   "Inovasi Kebijakan",
+   "Jalur Adaptasi Jangka Panjang",
+   "Pelajaran untuk Ketahanan Pangan Global",
+   ]),
+ ("Rencana Aksi dan Daftar Periksa untuk Bertahan", "rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan", [
+   "Rencana Aksi Personal 30 Hari: Air, Pangan, Hunian",
+   "Rencana Aksi Komunitas 1 Tahun: Tata Kelola dan Jaringan",
+   "Daftar Periksa Darurat: Tas Siaga, Dokumen, Komunikasi",
+   "Template Rumah Tangga: Matriks Risiko dan Audit Air",
+   "Template Komunitas: Pemetaan dan Gotong Royong",
+   "Pemantauan, Latihan dan Pembaruan",
+   "Daftar Periksa Keuangan dan Kesehatan",
+   "Penyesuaian Populasi Khusus",
+   "Glosarium dan Cara Menggunakan Buku Ini",
+   "Seruan untuk Bertindak",
+   ]),
 ]
 
 REFS = [
@@ -713,12 +744,17 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     chapter_rel = relevant_experts_for_chapter(title, theme)
     if not chapter_rel:
-        chapter_rel = [(ci-1) % len(EXPERTS)]  # ensure each of 60 appears at least once across 65 chapters
+        chapter_rel = [(ci-1) % len(EXPERTS)]  # fallback for chapter-level
     for si,sec in enumerate(secs[:4], start=1):
+        # Per-section expert ensures 60 experts across 24*4=96 sections (Homo Deus style: definisi per paragraf)
+        sec_rel = relevant_experts_for_chapter(sec, theme)
+        if not sec_rel:
+            sec_rel = [((ci-1)*4 + (si-1)) % len(EXPERTS)]
+        use_exp = sec_rel[0] if sec_rel else (chapter_rel[0] if chapter_rel else ((ci-1)*4 + (si-1)) % len(EXPERTS))
         md.append(f"## {ci}.{si} {sec}")
         md.append("")
-        if si == 1 and chapter_rel:
-            exp_idx = chapter_rel[0]
+        if si == 1:
+            exp_idx = use_exp
             exp = EXPERTS[exp_idx]
             md.append(f"{exp} Perspektif ini membingkai pembahasan tentang {sec.lower()} dalam {theme}, sehingga analisis berikut selaras dengan bukti yang ada.")
             md.append("")
@@ -735,14 +771,14 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         md.append("")
         md.append(f"Sebagai contoh, indikator suhu dan paparan pada tabel tersebut berimplikasi langsung pada {sec.lower()}, dengan variasi menurut kapasitas lokal.")
         md.append("")
-        news_item = NEWS[ci % len(NEWS)]
+        news_item = NEWS[((ci-1)*4 + (si-1)) % len(NEWS)]
         md.append(f"Kondisi terkini juga mempertajam pembahasan: {news_item} Perkembangan ini menunjukkan bahwa {sec.lower()} bukan proyeksi jauh, melainkan proses yang sudah teramati, sehingga urgensi tindakan meningkat.")
         md.append("")
         md.append(f"Dalam perdebatan akademik, kajian tentang {sec.lower()} menilai kekuatan bukti, perbedaan jalur sosio-ekonomi, serta trade-off antara adaptasi dan mitigasi. Tulisan ini mengambil sikap hati-hati berbasis bukti: mengakui ketidakpastian, menyoroti konsensus yang kuat, dan menekankan evaluasi kontekstual, sehingga tidak bertentangan dengan literatur inti.")
         md.append("")
-        if si == 4 and len(chapter_rel)>1:
-            exp_idx2 = chapter_rel[1]
-            if exp_idx2 != chapter_rel[0]:
+        if si == 4 and len(sec_rel)>1:
+            exp_idx2 = sec_rel[1] if len(sec_rel)>1 else chapter_rel[1]
+            if exp_idx2 != use_exp:
                 exp2 = EXPERTS[exp_idx2]
                 md.append(f"Pandangan tersebut sejalan dengan pernyataan {exp2.split(':')[0]} bahwa {exp2.split(':')[1].strip()} yang menguatkan rangkuman bagian ini.")
                 md.append("")
