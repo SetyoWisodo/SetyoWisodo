@@ -23,6 +23,7 @@ from .ch19 import CH as _ch19
 from .ch20 import CH as _ch20
 from .ch21 import CH as _ch21
 from .ch22 import CH as _ch22
+from .ch23 import CH as _ch23
 
 DEEP = {
     1: _ch01,
@@ -47,4 +48,5 @@ DEEP = {
     20: _ch20,
     21: _ch21,
     22: _ch22,
+    23: _ch23,
 }
