@@ -736,30 +736,39 @@ def bullets(topic, section):
      "Berbagi pengetahuan dan berkoordinasi dengan tetangga dan lembaga lokal.",
     ]
 
+
+def _lc_first(s):
+    """Huruf pertama kecil, nama diri/satuan dipertahankan (2°C, NASA, IPCC)."""
+    for i, ch in enumerate(s):
+        if ch.isalpha():
+            return s[:i] + ch.lower() + s[i + 1:]
+    return s
+
+
+_PROTECT = ("IPCC", "AI", "PTSD", "CO2", "SSP", "UN", "WHO", "FAO")
+
+
+def _sentence_case_id(s):
+    """Title Case -> sentence case untuk dipakai di tengah kalimat."""
+    if not s:
+        return s
+    out = []
+    for i, w in enumerate(s.split()):
+        parts = []
+        for j, p in enumerate(w.split("-")):
+            plain = p.replace("'", "")
+            if any(p.startswith(x) for x in _PROTECT) or (len(plain) > 1 and plain.isupper()):
+                parts.append(p)
+            elif i == 0 and j == 0:
+                parts.append(p[:1].lower() + p[1:])
+            else:
+                parts.append(p.lower())
+        out.append("-".join(parts))
+    return " ".join(out)
+
+
 md = []
-md.append("# Bertahan Hidup di Masa Depan: Krisis, Iklim, dan Resiliensi Manusia")
-md.append("## Panduan Berbasis Data dan Ilmiah untuk Menjalani Krisis Akibat Pemanasan Global")
-md.append("")
-md.append("**Penulis:** Setyo Wisodo")
-md.append("**Tahun:** 2026")
-md.append("**Edisi:** Edisi Akademik")
-md.append("")
-md.append("---")
-md.append("")
-
-md.append("## Halaman Hak Cipta")
-md.append("")
-md.append("**Judul:** Bertahan Hidup di Masa Depan: Krisis, Iklim, dan Resiliensi Manusia")
-md.append("**Penulis:** Setyo Wisodo")
-md.append("**Tahun:** 2026")
-md.append("**Edisi:** Edisi Akademik")
-md.append("")
-md.append("Hak cipta dilindungi. Dilarang memperbanyak atau menyebarluaskan sebagian atau seluruh isi buku ini tanpa izin tertulis dari penulis, kecuali untuk kutipan singkat dalam ulasan dan penelitian dengan menyebut sumber.")
-md.append("")
-md.append("---")
-md.append("")
-
-md.append("## Prakata: Mengapa Pemanasan Global di Masa Depan adalah Kepastian")
+md.append("# Prakata: Mengapa Pemanasan Global di Masa Depan adalah Kepastian")
 md.append("")
 md.append("Pemanasan global bukan hipotesis; ia adalah realitas yang teramati, terukur, dan dijelaskan secara fisik. Kepastian pemanasan di masa depan bertumpu pada tiga pilar: (1) fisika efek rumah kaca, (2) akumulasi gas rumah kaca yang teramati di atmosfer, dan (3) inersia sistem iklim. Bahkan jika semua emisi berhenti hari ini, pemanasan yang telah terkunci dari emisi masa lalu akan berlanjut selama beberapa dekade. Buku ini ditulis untuk diperdebatkan di ruang akademik: setiap klaim utama terkait dengan literatur peer-reviewed, data, dan pernyataan para ahli.")
 md.append("")
@@ -771,6 +780,7 @@ md.append("- **Inersia:** Lautan menyimpan panas; lapisan es merespons lambat. B
 md.append("")
 md.append("Data yang mendasari pembahasan diringkas sebagai berikut:")
 md.append("")
+md.append("[[TABLE:Tabel P.1 Indikator iklim global utama (2024)]]")
 md.append(DATA_TABLES[0])
 md.append("")
 md.append("Konsensus ahli yang mendasari buku ini diringkas sebagai berikut.")
@@ -783,14 +793,6 @@ md.append("")
 md.append("Buku ini menekankan kesiapsiagaan, pendidikan, dan resiliensi komunitas sebagai strategi yang saling terkait. Tidak ada intervensi tunggal yang cukup; diperlukan portofolio tindakan.")
 md.append("")
 md.append("Akhirnya, buku ini ditawarkan sebagai dokumen hidup. Pembaca didorong untuk memperbarui pengetahuan mereka seiring munculnya bukti baru.")
-md.append("")
-md.append("---")
-md.append("")
-
-md.append("## Daftar Isi")
-md.append("")
-for i,(title,theme,secs) in enumerate(CHAPTERS, start=1):
-    md.append(f"{i}. {title}")
 md.append("")
 md.append("---")
 md.append("")
@@ -822,24 +824,24 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         m_year = re.search(r'\((\d{4})', exp)
         exp_year = m_year.group(1) if m_year else "2020"
         raw_quote = exp.split(":")[1].strip().strip("'").strip('"').strip()
-        md.append(f"Sebagaimana ditegaskan {exp_name} ({exp_year}), {raw_quote.lower()} Wawasan ini menjadi jangkar pembahasan {sec.lower()} dalam konteks {theme}, selaras dengan bukti empiris yang mengikuti.")
+        md.append(f"Sebagaimana ditegaskan {exp_name} ({exp_year}), {_lc_first(raw_quote)} Wawasan ini menjadi jangkar pembahasan {_sentence_case_id(sec)} dalam konteks {theme}, selaras dengan bukti empiris yang mengikuti.")
         md.append("")
         detail_sentences = EXPERT_DETAILS[exp_idx].format(section=sec.lower(), topic=theme).split('. ')
         md.append('. '.join(detail_sentences[1:]))
         md.append("")
-        md.append(para(theme, sec, si))
+        md.append(para(theme, _sentence_case_id(sec), si))
         md.append("")
         news_item = NEWS[((ci-1)*4 + (si-1)) % len(NEWS)]
-        md.append(para(theme, sec, si+4) + f" Hal ini diperkuat oleh perkembangan terkini: {news_item} — menunjukkan bahwa {sec.lower()} bukan proyeksi jauh melainkan proses teramati, sehingga urgensi tindakan meningkat.")
+        md.append(para(theme, _sentence_case_id(sec), si+4) + f" Hal ini diperkuat oleh perkembangan terkini: {news_item} — menunjukkan bahwa {sec.lower()} bukan proyeksi jauh melainkan proses teramati, sehingga urgensi tindakan meningkat.")
         md.append("")
-        md.append(f"Dalam perdebatan akademik, kajian tentang {sec.lower()} menilai kekuatan bukti, perbedaan jalur sosio-ekonomi, serta trade-off antara adaptasi dan mitigasi; bagi {theme.lower()}, penimbangan ketidakpastian, konsensus dan konteks lokal menjaga analisis tetap selaras dengan literatur inti.")
+        md.append(f"Dalam perdebatan akademik, kajian tentang {_sentence_case_id(sec)} menilai kekuatan bukti, perbedaan jalur sosio-ekonomi, serta trade-off antara adaptasi dan mitigasi; bagi {theme.lower()}, penimbangan ketidakpastian, konsensus dan konteks lokal menjaga analisis tetap selaras dengan literatur inti.")
         md.append("")
         pass
         if chapter_rel:
             md.append(f"Analisis untuk {sec.lower()} mengintegrasikan ketiga sumber ini: wawasan ahli di atas sebagai jangkar konseptual, berita terkini ({NEWS[ci % len(NEWS)].split('(')[0].strip().lower()}) sebagai validasi dunia nyata, dan tabel data yang mengkuantifikasi besaran. Bersama-sama mereka menunjukkan bagaimana {theme} diterjemahkan menjadi risiko nyata pada {sec.lower()}, dengan implikasi yang terukur dan dapat ditindaklanjuti.")
             md.append("")
         # Pertimbangan Utama dilebur ke pembahasan (tanpa heading terpisah)
-        md.append(f"Pertimbangan utama yang muncul dari {sec.lower()} mencakup {', '.join([b.lower() for b in bullets(theme, sec)][:3])}, dengan perhatian pada asesmen lokal yang sistematis, redundansi dan kesiapsiagaan sebagai penguat analisis inti.")
+        md.append(f"Pertimbangan utama yang muncul dari {_sentence_case_id(sec)} mencakup {', '.join([b.lower() for b in bullets(theme, _sentence_case_id(sec))][:3])}, dengan perhatian pada asesmen lokal yang sistematis, redundansi dan kesiapsiagaan sebagai penguat analisis inti.")
 
         md.append("")
     # Studi kasus
@@ -859,6 +861,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(fs["adapt"])
     md.append("")
+    md.append(f"[[TABLE:Tabel {ci}.1 Skenario dan prediksi masa depan untuk {theme} (2030-2100)]]")
     md.append("| Horizon | Perubahan pada bab ini |")
     md.append("|---|---|")
     md.append(f"| 2030 | {fs['k30']} |")
@@ -935,20 +938,6 @@ md.append("Tambahan: Buku ini merupakan dokumen hidup. Pembaca didorong untuk me
 md.append("")
 md.append("Tambahan: Setiap pembaca memiliki peran. Mulailah dari tempat Anda berada, gunakan apa yang Anda miliki, dan lakukan apa yang Anda bisa.")
 md.append("")
-md.append("# Lampiran F: Refleksi Tambahan")
-md.append("")
-for k in range(0):
-    md.append(f"Refleksi {k+1}: Aksi iklim memerlukan komitmen berkelanjutan lintas generasi. Setiap generasi mewarisi masalah dan solusi generasi sebelumnya, dan harus menambahkan kontribusinya sendiri.")
-md.append("")
-md.append("# Catatan Kaki (Footnotes)")
-md.append("")
-for i,e in enumerate(EXPERTS, start=1):
-    name = e.split(',')[0].strip()
-    role = e.split(',')[1].split(':')[0].strip() if ',' in e else ''
-    md.append(f"[^{i}]: {name}, {role}. Pernyataannya dalam seminar/buku \"Perubahan Iklim: Bukti, Dampak, dan Respons\" (edisi 2026), hal. {10+i*3}.")
-md.append("")
-md.append("*Akhir Buku*")
-
 content = "\n".join(md)
 with open('/home/user/SetyoWisodo/book_id.md','w',encoding='utf-8') as f:
     f.write(content)

@@ -741,18 +741,39 @@ def bullets(topic, section):
      "Disseminate knowledge and coordinate action with neighboring communities and relevant institutional actors.",
     ]
 
-md = []
-md.append("# Surviving the Future: Crisis, Climate, and Human Resilience")
-md.append("## A Data-Driven, Academically Grounded Guide to Living Through the Crises Caused by Global Warming")
-md.append("")
-md.append("**Author:** Setyo Wisodo")
-md.append("**Year:** 2026")
-md.append("**Edition:** Academic Edition")
-md.append("")
-md.append("---")
-md.append("")
 
-md.append("## Preface: Why Future Global Warming Is Certain")
+def _lc_first(s):
+    """Huruf pertama kecil, nama diri/satuan dipertahankan (2°C, NASA, IPCC)."""
+    for i, ch in enumerate(s):
+        if ch.isalpha():
+            return s[:i] + ch.lower() + s[i + 1:]
+    return s
+
+
+_PROTECT = ("IPCC", "AI", "PTSD", "CO2", "SSP", "UN", "WHO", "FAO")
+
+
+def _sentence_case(s):
+    """Title Case -> sentence case untuk dipakai di tengah kalimat."""
+    if not s:
+        return s
+    out = []
+    for i, w in enumerate(s.split()):
+        parts = []
+        for j, p in enumerate(w.split("-")):
+            plain = p.replace("'", "")
+            if any(p.startswith(x) for x in _PROTECT) or (len(plain) > 1 and plain.isupper()):
+                parts.append(p)
+            elif i == 0 and j == 0:
+                parts.append(p[:1].lower() + p[1:])
+            else:
+                parts.append(p.lower())
+        out.append("-".join(parts))
+    return " ".join(out)
+
+
+md = []
+md.append("# Preface: Why Future Global Warming Is Certain")
 md.append("")
 md.append("Global warming is not a hypothesis; it is an observed, measured, and physically explained reality. The certainty of future warming rests on three pillars: (1) the physics of the greenhouse effect, (2) the observed accumulation of greenhouse gases in the atmosphere, and (3) the inertia of the climate system. Even if all emissions stopped today, committed warming from past emissions would continue for decades. This book is written to be debated in academic spaces: every major claim is tied to peer-reviewed literature, data, and expert statements.")
 md.append("")
@@ -764,6 +785,7 @@ md.append("- **Inertia:** The ocean stores heat; ice sheets respond slowly. Even
 md.append("")
 md.append("Data underpinning the discussion is summarized as follows:")
 md.append("")
+md.append("[[TABLE:Table P.1 Key global climate indicators (2024)]]")
 md.append(DATA_TABLES[0])
 md.append("")
 md.append("The expert consensus underpinning this book is summarized as follows.")
@@ -778,17 +800,9 @@ md.append("## Preface (Extended)")
 md.append("")
 md.append("This extended preface provides additional context for the reader. The book is organized to move from foundational science to practical action, ensuring that every reader can find relevant material. The structure reflects the complexity of the climate crisis and the need for multi-level responses.")
 md.append("")
-for _ in range(5):
+for _ in range(1):
     md.append("Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.")
     md.append("")
-md.append("---")
-md.append("")
-
-md.append("## Table of Contents")
-md.append("")
-for i,(title,theme,secs) in enumerate(CHAPTERS, start=1):
-    md.append(f"{i}. {title}")
-md.append("")
 md.append("---")
 md.append("")
 
@@ -821,27 +835,27 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         m_year = re.search(r'\((\d{4})', exp)
         exp_year = m_year.group(1) if m_year else "2020"
         raw_quote = exp.split(":")[1].strip().strip("'").strip('"').strip()
-        md.append(f"As {exp_name} ({exp_year}) argues, {raw_quote.lower()} This insight anchors the analysis of {sec.lower()} within {theme}, aligning with broader evidence.")
+        md.append(f"As {exp_name} ({exp_year}) argues, {_lc_first(raw_quote)} This insight anchors the analysis of {_sentence_case(sec)} within {theme}, aligning with broader evidence.")
         md.append("")
-        detail_sentences = EXPERT_DETAILS[exp_idx].format(section=sec.lower(), topic=theme).split('. ')
+        detail_sentences = EXPERT_DETAILS[exp_idx].format(section=_sentence_case(sec), topic=theme).split('. ')
         md.append('. '.join(detail_sentences[1:]))
         md.append("")
-        md.append(para(theme, sec, si))
+        md.append(para(theme, _sentence_case(sec), si))
         md.append("")
         news_item = NEWS[((ci-1)*4 + (si-1)) % len(NEWS)]
-        md.append(para(theme, sec, si+4) + f" This is further underscored by recent developments: {news_item.lower()} — indicating that {sec.lower()} is not a distant projection but an observable process, reinforcing the urgency for timely action.")
+        md.append(para(theme, _sentence_case(sec), si+4) + f" This is further underscored by recent developments: {news_item.lower()} — indicating that {_sentence_case(sec)} is not a distant projection but an observable process, reinforcing the urgency for timely action.")
         md.append("")
         # Academic debate woven as nuance
-        md.append(f"The literature on {sec.lower()} debates the strength of evidence, the role of socio-economic pathways, and the balance between adaptation and mitigation; for {theme.lower()}, weighing uncertainty, consensus and context-specific trade-offs keeps the analysis aligned with the broader research base.")
+        md.append(f"The literature on {_sentence_case(sec)} debates the strength of evidence, the role of socio-economic pathways, and the balance between adaptation and mitigation; for {theme.lower()}, weighing uncertainty, consensus and context-specific trade-offs keeps the analysis aligned with the broader research base.")
         md.append("")
         # Second expert closing removed - round-robin ensures all 60 cited via topic sentences
         pass
         # Analisa terpadu: menggabungkan pernyataan ahli, news, dan grafik riset menjadi narasi penjelasan
         if chapter_rel:
-            md.append(f"Analysis for {sec.lower()} integrates these strands: the expert insight above provides the conceptual anchor, current news ({NEWS[ci % len(NEWS)].split('(')[0].strip().lower()}) supplies real-world validation, and the data table quantifies magnitude. Together they show how {theme} translates into lived risk for {sec.lower()}, with implications that are both measurable and actionable.")
+            md.append(f"Analysis for {_sentence_case(sec)} integrates these strands: the expert insight above provides the conceptual anchor, current news ({NEWS[ci % len(NEWS)].split('(')[0].strip().lower()}) supplies real-world validation, and the data table quantifies magnitude. Together they show how {theme} translates into lived risk for {sec.lower()}, with implications that are both measurable and actionable.")
             md.append("")
         # Key Considerations dissolved into discussion (no separate sub-heading)
-        md.append(f"Key considerations emerging from {sec.lower()} include {', '.join([b.lower() for b in bullets(theme, sec)][:3])}, while systematic local assessment, redundancy and preparedness remain central to {theme.lower()}.")
+        md.append(f"Key considerations emerging from {_sentence_case(sec)} include {', '.join([b.lower() for b in bullets(theme, _sentence_case(sec))][:3])}, while systematic local assessment, redundancy and preparedness remain central to {theme.lower()}.")
 
         md.append("")
     # Case study - keep but without forcing separate data/news/debate headings
@@ -860,6 +874,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(fs["adapt"])
     md.append("")
+    md.append(f"[[TABLE:Table {ci}.1 Future scenarios and predictions for {theme} (2030-2100)]]")
     md.append("| Horizon | What changes for this chapter |")
     md.append("|---|---|")
     md.append(f"| 2030 | {fs['k30']} |")
@@ -945,14 +960,6 @@ for n in notes:
     md.append(n)
     md.append("")
 # Footnotes retained for Appendix but not rendered at page bottom (render handles)
-md.append("# Catatan Kaki (Footnotes)")
-md.append("")
-for i,e in enumerate(EXPERTS, start=1):
-    name = e.split(',')[0].strip()
-    role = e.split(',')[1].split(':')[0].strip() if ',' in e else ''
-    md.append(f"[^{i}]: {name}, {role}. Pernyataannya dalam seminar/buku \"Climate Change: Evidence, Impacts, and Responses\" (edisi 2026), hal. {10+i*3}.")
-md.append("")
-md.append("*End of Book*")
 
 content = "\n".join(md)
 with open('/home/user/SetyoWisodo/book.md','w',encoding='utf-8') as f:
