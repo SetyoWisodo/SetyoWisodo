@@ -192,7 +192,14 @@ def draw_heading(pdf, text, level, chapter_no=None, lang="en"):
             pdf.set_y(pdf.t_margin)
         pdf.ln(1.0)
         pdf.set_font("TNR", "B", size)
-        pdf.multi_cell(0, h, text.upper(), align="C")
+        m = re.match(r"^(Chapter|Bab)\s+([0-9]+|[A-Z])\s*[:\u2013-]\s*(.+)$", text)
+        if m and m.group(2).isdigit():
+            # halaman pembuka bab: "CHAPTER 1" satu baris, judul bab di baris bawahnya
+            pdf.multi_cell(0, 5.6, f"{m.group(1).upper()} {m.group(2)}", align="C")
+            pdf.ln(1.4)
+            pdf.multi_cell(0, h, m.group(3).strip().upper(), align="C")
+        else:
+            pdf.multi_cell(0, h, text.upper(), align="C")
         pdf.ln(2.0)
         return
     need = h * (2 if level == 2 else 1) + 7
@@ -366,32 +373,11 @@ class Book(FPDF):
         self.chapter_title = None
         self.front = True          # cover + TOC
         self.opening = False       # halaman pembuka bab
+        self.chapter_starts = set()
 
     def header(self):
-        """Judul bab: tengah atas, HURUF BESAR, 12 pt, dibungkus bila panjang."""
-        y_saved = self.get_y()
-        if self.front or self.page == 1 or not self.chapter_title or self.opening:
-            self.set_y(y_saved)
-            return
-        txt = self.chapter_title.upper()
-        self.set_font("TNR", "", BODY_PT)
-        words, lines, cur = txt.split(), [], ""
-        for w in words:
-            cand = (cur + " " + w).strip()
-            if self.get_string_width(cand) <= self.epw or not cur:
-                cur = cand
-            else:
-                lines.append(cur)
-                cur = w
-        if cur:
-            lines.append(cur)
-        lines = lines[:2]
-        y = self.t_margin - (16.0 if len(lines) == 1 else 20.0)
-        for ln in lines:
-            self.set_xy(self.l_margin, y)
-            self.cell(0, 5.2, ln, align="C")
-            y += 5.2
-        self.set_y(y_saved)
+        """Tanpa header berjalan: judul bab hanya dicetak di halaman pembuka bab."""
+        return
 
     def footer(self):
         if self.page == 1:
@@ -400,7 +386,7 @@ class Book(FPDF):
         self.set_y(-14)
         self.set_font("TNR", "", BODY_PT)
         num = "%d" % self.page
-        if self.opening or self.page in getattr(self, "chapter_starts", set()):
+        if self.page in self.chapter_starts:
             self.cell(0, 5, num, align="C")
         else:
             self.cell(0, 5, num, align="R")
@@ -537,11 +523,10 @@ def render(md_path, out_pdf, lang="en", title=None):
             if kind == "h1":
                 title_txt = val
                 pdf.chapter_title = title_txt
-                pdf.opening = True
                 pdf.add_page()
+                pdf.chapter_starts.add(pdf.page)
                 new_pages[title_txt] = pdf.page
                 draw_heading(pdf, title_txt, 1, lang=lang)
-                pdf.opening = False
                 continue
             if kind == "h2":
                 draw_heading(pdf, val, 2)

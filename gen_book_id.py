@@ -767,6 +767,16 @@ def _sentence_case_id(s):
     return " ".join(out)
 
 
+def _sub_heading(label, title):
+    """Judul sub-bab: hindari titik dua ganda dan label yang terulang."""
+    t = title.strip()
+    head = t.split(":")[0].strip().lower()
+    if head.startswith(label.lower()[:9]):
+        return t
+    if ":" in t:
+        t = t.replace(":", " \u2014", 1)
+    return f"{label}: {t}"
+
 md = []
 md.append("# Prakata: Mengapa Pemanasan Global di Masa Depan adalah Kepastian")
 md.append("")
@@ -813,6 +823,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     chapter_rel = relevant_experts_for_chapter(title, theme)
     if not chapter_rel:
         chapter_rel = [(ci-1) % len(EXPERTS)]  # fallback for chapter-level
+    n_sub = len(secs[:4])
     for si,sec in enumerate(secs[:4], start=1):
         # Per-section expert ensures 60 experts across 24*4=96 sections (Homo Deus style: definisi per paragraf) - round-robin guarantees all 60 are cited at least once
         use_exp = ((ci-1)*4 + (si-1)) % len(EXPERTS)
@@ -826,26 +837,29 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         raw_quote = exp.split(":")[1].strip().strip("'").strip('"').strip()
         md.append(f"Sebagaimana ditegaskan {exp_name} ({exp_year}), {_lc_first(raw_quote)} Wawasan ini menjadi jangkar pembahasan {_sentence_case_id(sec)} dalam konteks {theme}, selaras dengan bukti empiris yang mengikuti.")
         md.append("")
-        detail_sentences = EXPERT_DETAILS[exp_idx].format(section=sec.lower(), topic=theme).split('. ')
+        detail_sentences = EXPERT_DETAILS[exp_idx].format(section=_sentence_case_id(sec), topic=theme).split('. ')
         md.append('. '.join(detail_sentences[1:]))
         md.append("")
         md.append(para(theme, _sentence_case_id(sec), si))
         md.append("")
         news_item = NEWS[((ci-1)*4 + (si-1)) % len(NEWS)]
-        md.append(para(theme, _sentence_case_id(sec), si+4) + f" Hal ini diperkuat oleh perkembangan terkini: {news_item} — menunjukkan bahwa {sec.lower()} bukan proyeksi jauh melainkan proses teramati, sehingga urgensi tindakan meningkat.")
+        news_txt = _lc_first(news_item.rstrip('.'))
+        md.append(para(theme, _sentence_case_id(sec), si+4) + f" Hal ini diperkuat oleh perkembangan terkini: {news_txt} — menunjukkan bahwa {_sentence_case_id(sec)} bukan proyeksi jauh melainkan proses teramati, sehingga urgensi tindakan meningkat.")
         md.append("")
-        md.append(f"Dalam perdebatan akademik, kajian tentang {_sentence_case_id(sec)} menilai kekuatan bukti, perbedaan jalur sosio-ekonomi, serta trade-off antara adaptasi dan mitigasi; bagi {theme.lower()}, penimbangan ketidakpastian, konsensus dan konteks lokal menjaga analisis tetap selaras dengan literatur inti.")
+        md.append(f"Dalam perdebatan akademik, kajian tentang {_sentence_case_id(sec)} menilai kekuatan bukti, perbedaan jalur sosio-ekonomi, serta trade-off antara adaptasi dan mitigasi; bagi {_sentence_case_id(theme)}, penimbangan ketidakpastian, konsensus dan konteks lokal menjaga analisis tetap selaras dengan literatur inti.")
         md.append("")
         pass
         if chapter_rel:
-            md.append(f"Analisis untuk {sec.lower()} mengintegrasikan ketiga sumber ini: wawasan ahli di atas sebagai jangkar konseptual, berita terkini ({NEWS[ci % len(NEWS)].split('(')[0].strip().lower()}) sebagai validasi dunia nyata, dan tabel data yang mengkuantifikasi besaran. Bersama-sama mereka menunjukkan bagaimana {theme} diterjemahkan menjadi risiko nyata pada {sec.lower()}, dengan implikasi yang terukur dan dapat ditindaklanjuti.")
+            news_head = _lc_first(NEWS[ci % len(NEWS)].split('(')[0].strip().rstrip('.'))
+            md.append(f"Analisis untuk {_sentence_case_id(sec)} mengintegrasikan ketiga sumber ini: wawasan ahli di atas sebagai jangkar konseptual, berita terkini ({news_head}) sebagai validasi dunia nyata, dan tabel data yang mengkuantifikasi besaran. Bersama-sama mereka menunjukkan bagaimana {theme} diterjemahkan menjadi risiko nyata pada {_sentence_case_id(sec)}, dengan implikasi yang terukur dan dapat ditindaklanjuti.")
             md.append("")
         # Pertimbangan Utama dilebur ke pembahasan (tanpa heading terpisah)
-        md.append(f"Pertimbangan utama yang muncul dari {_sentence_case_id(sec)} mencakup {', '.join([b.lower() for b in bullets(theme, _sentence_case_id(sec))][:3])}, dengan perhatian pada asesmen lokal yang sistematis, redundansi dan kesiapsiagaan sebagai penguat analisis inti.")
+        _kc = [b.lower().rstrip(".") for b in bullets(theme, _sentence_case_id(sec))[:3]]
+        md.append(f"Pertimbangan utama yang muncul dari {_sentence_case_id(sec)} mencakup {'; '.join(_kc)}, dengan perhatian pada asesmen lokal yang sistematis, redundansi dan kesiapsiagaan sebagai penguat analisis inti.")
 
         md.append("")
     # Studi kasus
-    md.append(f"## Studi Kasus: {title}")
+    md.append(f"## {ci}.{n_sub + 1} {_sub_heading('Studi Kasus', title)}")
     md.append("")
     md.append(para(theme, theme, 2))
     md.append("")
@@ -853,7 +867,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     # Skenario Masa Depan dan Prediksi — analisis unik per bab (tanpa template berulang)
     fs = FUTURE_SCENARIOS[ci - 1]["id"]
-    md.append(f"## Skenario Masa Depan dan Prediksi: {title}")
+    md.append(f"## {ci}.{n_sub + 2} {_sub_heading('Skenario Masa Depan dan Prediksi', title)}")
     md.append("")
     md.append(fs["lead"])
     md.append("")

@@ -772,6 +772,16 @@ def _sentence_case(s):
     return " ".join(out)
 
 
+def _sub_heading(label, title):
+    """Judul sub-bab: hindari titik dua ganda dan label yang terulang."""
+    t = title.strip()
+    head = t.split(":")[0].strip().lower()
+    if head.startswith(label.lower()[:9]):
+        return t
+    if ":" in t:
+        t = t.replace(":", " \u2014", 1)
+    return f"{label}: {t}"
+
 md = []
 md.append("# Preface: Why Future Global Warming Is Certain")
 md.append("")
@@ -823,6 +833,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     chapter_rel = relevant_experts_for_chapter(title, theme)
     if not chapter_rel:
         chapter_rel = [(ci-1) % len(EXPERTS)]  # fallback for chapter-level
+    n_sub = len(secs[:4])
     for si,sec in enumerate(secs[:4], start=1):
         # Per-section expert ensures 60 experts across 24*4=96 sections (Homo Deus style: definisi per paragraf) - round-robin guarantees all 60 are cited at least once
         use_exp = ((ci-1)*4 + (si-1)) % len(EXPERTS)
@@ -843,30 +854,33 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         md.append(para(theme, _sentence_case(sec), si))
         md.append("")
         news_item = NEWS[((ci-1)*4 + (si-1)) % len(NEWS)]
-        md.append(para(theme, _sentence_case(sec), si+4) + f" This is further underscored by recent developments: {news_item.lower()} — indicating that {_sentence_case(sec)} is not a distant projection but an observable process, reinforcing the urgency for timely action.")
+        news_txt = _lc_first(news_item.rstrip('.'))
+        md.append(para(theme, _sentence_case(sec), si+4) + f" This is further underscored by recent developments: {news_txt} — indicating that {_sentence_case(sec)} is not a distant projection but an observable process, reinforcing the urgency for timely action.")
         md.append("")
         # Academic debate woven as nuance
-        md.append(f"The literature on {_sentence_case(sec)} debates the strength of evidence, the role of socio-economic pathways, and the balance between adaptation and mitigation; for {theme.lower()}, weighing uncertainty, consensus and context-specific trade-offs keeps the analysis aligned with the broader research base.")
+        md.append(f"The literature on {_sentence_case(sec)} debates the strength of evidence, the role of socio-economic pathways, and the balance between adaptation and mitigation; for {_sentence_case(theme)}, weighing uncertainty, consensus and context-specific trade-offs keeps the analysis aligned with the broader research base.")
         md.append("")
         # Second expert closing removed - round-robin ensures all 60 cited via topic sentences
         pass
         # Analisa terpadu: menggabungkan pernyataan ahli, news, dan grafik riset menjadi narasi penjelasan
         if chapter_rel:
-            md.append(f"Analysis for {_sentence_case(sec)} integrates these strands: the expert insight above provides the conceptual anchor, current news ({NEWS[ci % len(NEWS)].split('(')[0].strip().lower()}) supplies real-world validation, and the data table quantifies magnitude. Together they show how {theme} translates into lived risk for {sec.lower()}, with implications that are both measurable and actionable.")
+            news_head = _lc_first(NEWS[ci % len(NEWS)].split('(')[0].strip().rstrip('.'))
+            md.append(f"Analysis for {_sentence_case(sec)} integrates these strands: the expert insight above provides the conceptual anchor, current news ({news_head}) supplies real-world validation, and the data table quantifies magnitude. Together they show how {theme} translates into lived risk for {_sentence_case(sec)}, with implications that are both measurable and actionable.")
             md.append("")
         # Key Considerations dissolved into discussion (no separate sub-heading)
-        md.append(f"Key considerations emerging from {_sentence_case(sec)} include {', '.join([b.lower() for b in bullets(theme, _sentence_case(sec))][:3])}, while systematic local assessment, redundancy and preparedness remain central to {theme.lower()}.")
+        _kc = [b.lower().rstrip(".") for b in bullets(theme, _sentence_case(sec))[:3]]
+        md.append(f"Key considerations emerging from {_sentence_case(sec)} include {'; '.join(_kc)}, while systematic local assessment, redundancy and preparedness remain central to {_sentence_case(theme)}.")
 
         md.append("")
     # Case study - keep but without forcing separate data/news/debate headings
-    md.append(f"## Case Study: {title}")
+    md.append(f"## {ci}.{n_sub + 1} {_sub_heading('Case Study', title)}")
     md.append("")
     md.append(para(theme, theme, 2))
     md.append("")
     md.append("")
     # Future Scenarios and Predictions — analisis unik per bab (tanpa template berulang)
     fs = FUTURE_SCENARIOS[ci - 1]["en"]
-    md.append(f"## Future Scenarios and Predictions: {title}")
+    md.append(f"## {ci}.{n_sub + 2} {_sub_heading('Future Scenarios and Predictions', title)}")
     md.append("")
     md.append(fs["lead"])
     md.append("")
