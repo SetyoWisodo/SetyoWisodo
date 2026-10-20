@@ -4,3 +4,4 @@
 # Ada Library Information
 *.ali
 skills/
+__pycache__/

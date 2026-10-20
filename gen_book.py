@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import re
 
+from future_scenarios_loader import FUTURE_SCENARIOS
+
 CHAPTERS = [
  ("Introduction: The Warming World", "the warming world and the coming crises", [
    "Why This Book",
@@ -388,6 +390,10 @@ REFS = [
 "Klinsky, Sonja & Brankovic, Jasmina. 2018. The Legacies of Climate Change. Routledge.",
 "Roy, Joyashree et al. 2019. Sustainable Land Management and Climate. IPCC SRCCL Chapter 4.",
 "Tschakert, Petra et al. 2021. Lived Experience of Climate Change: Heat, Flood and Limits. Wiley.",
+"Steffen, W. et al. (2018). Trajectories of the Earth System in the Anthropocene. PNAS, 115(33), 8252-8259.",
+"IPBES. (2019). Global Assessment Report on Biodiversity and Ecosystem Services. IPBES Secretariat, Bonn.",
+"Mach, K.J. et al. (2019). Climate as a risk factor for armed conflict. Nature, 571, 193-197.",
+"Schlosberg, D. (2007). Defining Environmental Justice: Theories, Movements, and Nature. Oxford University Press.",
 ]
 REFS = list(dict.fromkeys(REFS))
 
@@ -541,152 +547,6 @@ DATA_POINTS = [
  "~20 million people are displaced by climate annually (UNHCR, 2023)",
 ]
 
-FUTURE_SCENARIO_DETAILS = {
-    "the warming world and the coming crises": {
-        "concrete": "sea level about 0.2–0.3 m by 2040 and 0.4–0.6 m by 2060 versus 2000; neighborhoods below 2–3 m above sea level — low-lying Jakarta, Semarang, Surabaya, New Orleans, Dhaka and small island capitals — will face monthly tidal flooding even without storms, with 2100 reaching 0.6–1.0 m threatening fishing villages and ports",
-        "adapt": "raising houses on stilts, restoring mangroves as natural seawalls, early-warning tide gauges, securing freshwater from salt intrusion, and staged relocation with jobs",
-        "ssp_high_detail": "heat, floods and fires exceed recent extremes yearly, exposing 20–40% more people by 2050",
-        "ssp_low_detail": "still 15–30% more extremes than pre-industrial in 2050, but peak near 1.5–1.6°C keeps sea-level rise closer to 0.3–0.5 m by 2100",
-    },
-    "the physical science of global warming and its history": {
-        "concrete": "global mean temperature ~1.5°C by 2030 and CO2 ~430 ppm; by 2040 Arctic summer ice-free days 10–20 per year versus 5 today, and ocean heat content up ~15% driving stronger storms, with 2100 warming 3.6–4.4°C under high emissions melting Greenland enough for 0.3–0.5 m extra sea-level",
-        "adapt": "expand satellite and ocean buoys, citizen temperature logs, school labs tracking CO2, and municipal heat/sea-level dashboards to translate science into local alerts",
-        "ssp_high_detail": "radiative forcing intensifies, with 2030 CO2 ~440 ppm and extremes outside historical envelopes",
-        "ssp_low_detail": "forcing stabilizes near 2.6 W/m², preserving science-based planning windows",
-    },
-    "climate systems, feedback mechanisms and monitoring": {
-        "concrete": "by 2040 permafrost thaw releases 10–20% more methane, Amazon dieback risk rises where deforestation passes 20–25%, and Atlantic overturning slows 15–25%, while early-warning sensors in 30% of vulnerable basins could still catch tipping signals",
-        "adapt": "deploy permafrost and forest sensors, community rain gauges, and feedback dashboards that trigger staged responses before thresholds lock in",
-        "ssp_high_detail": "feedbacks amplify: 2050 permafrost carbon adds 0.1–0.3°C extra, forest carbon sinks weaken",
-        "ssp_low_detail": "feedback amplification limited to 0.05°C, monitoring retains lead time",
-    },
-    "extreme heat, heat waves and urban heat islands": {
-        "concrete": "by 2040 days above 35°C double to 60–90 per year in Delhi, Phoenix, Jakarta and Lagos, nights above 28°C triple, and heat-stroke ER visits rise 30–50%; concrete neighborhoods 5–7°C hotter than parks, with 2100 adding 20–30 extra dangerous days yearly under high emissions",
-        "adapt": "cool roofs, street trees every 10 m, night cooling shelters, shifted work hours 06–10 and 16–19, and hydration stations with heat-alert SMS",
-        "ssp_high_detail": "2050 urban heat deaths +40–60%, labor productivity –15% outdoors",
-        "ssp_low_detail": "heat mortality +15–25%, with cool-city measures keeping most districts viable",
-    },
-    "water scarcity and drought": {
-        "concrete": "by 2040 renewable water per person falls 25–35% in Java, northern India and the Sahel, groundwater drops 0.5–1.5 m yearly, and reservoirs deliver 30% less in dry seasons, with 2100 river flows –30–50% under high emissions drying 40% of wells",
-        "adapt": "rainwater harvesting on every roof, drip irrigation cutting use 30–50%, managed aquifer recharge, and village water banks with rationing rules",
-        "ssp_high_detail": "droughts lasting 12–18 months become 3× more frequent",
-        "ssp_low_detail": "drought frequency +20–40%, manageable with efficiency",
-    },
-    "floods and sea level rise": {
-        "concrete": "by 2040 a 1-in-100-year flood becomes 1-in-20 in Jakarta Bay, Mekong and Mississippi deltas, levees over-topped 2–3× more often, and tidal floods 30–50 days yearly in <2 m zones; 2100 0.6–1.0 m rise permanently claims 10–15% of coastal farmland",
-        "adapt": "elevated roads/houses, mangrove belts 500 m wide, polders with pumps, and buy-out/relocation for <1 m zones with livelihood grants",
-        "ssp_high_detail": "2040 flood damages +40–80% versus 2020",
-        "ssp_low_detail": "damages +15–30%, with defenses holding for 1-in-50 events",
-    },
-    "food security and agriculture under climate change": {
-        "concrete": "by 2040 wheat yields –8–15% and maize –10–18% in South Asia and Sahel, rice –5–10% from night heat, and fish catch –10–20% in tropical seas, pushing 40–60 million extra into hunger; 2100 high-emissions cuts staples 20–30% without adaptation",
-        "adapt": "heat-tolerant seeds, shifting sowing 2–3 weeks earlier, drip and mulch saving 30% water, fish ponds and grain banks for lean months",
-        "ssp_high_detail": "prices spike 30–50% in bad years, supply chains break",
-        "ssp_low_detail": "yields stabilize, hunger risk +10–15% with adaptation",
-    },
-    "ecosystems and biodiversity loss": {
-        "concrete": "by 2040 coral reefs face annual bleaching (90% of tropical reefs), 15–25% of bird ranges shift upslope, and mangroves lose 10–20% where seas rise fast, with 2100 extinction risk 2–3× higher for narrow-range species under high emissions",
-        "adapt": "marine protected networks, corridors linking forest patches, replanting diverse natives, and community ranger patrols",
-        "ssp_high_detail": "ecosystem services –20–30% (fisheries, pollination)",
-        "ssp_low_detail": "services –5–15%, recovery possible with protection",
-    },
-    "health impacts of climate change": {
-        "concrete": "by 2040 heat deaths +30–50% in cities over 35°C, dengue range expands 150–200 km poleward, and diarrheal spikes +10–20% after floods, with 2100 malaria in highlands doubling under high emissions without control",
-        "adapt": "heat health alerts, screened housing, oral rehydration stocks, and clinics with flood-proof power and records",
-        "ssp_high_detail": "child malnutrition +15–25% via food-water cascades",
-        "ssp_low_detail": "health burden +10–15%, with primary care keeping pace",
-    },
-    "economic impacts and financial preparedness under climate change": {
-        "concrete": "by 2040 climate disasters cost 2–4% of GDP yearly in exposed provinces, insurance premiums +30–60% on coasts, and work hours lost 10–15% in heat, with 2100 high-emissions shaving 15–25% off incomes in vulnerable deltas versus low-emissions",
-        "adapt": "emergency funds equal 3 months expenses, micro-insurance pools, diversified incomes, and building codes for wind/flood/heat",
-        "ssp_high_detail": "adaptation costs triple but still < damages",
-        "ssp_low_detail": "costs manageable at 1–2% GDP with blended finance",
-    },
-    "climate migration and displacement": {
-        "concrete": "by 2040 15–25 million yearly displaced by floods, storms and drought (versus ~20 million now), with Dhaka, Lagos and Manila receiving 300–500k climate newcomers yearly, and 2100 high-emissions displacing 100–150 million cumulatively from <3 m coasts and drying farms",
-        "adapt": "legal aid, portable IDs/health records, rental support, and receiving-city plans for water/jobs/schools",
-        "ssp_high_detail": "cross-border movement +30–50%",
-        "ssp_low_detail": "displacement stabilizes near current levels with local adaptation",
-    },
-    "climate change, conflict and security": {
-        "concrete": "by 2040 competition over water and grazing triggers 20–30% more local conflicts in Sahel and Horn where rains fail 2–3 years in a row, and storm-driven outages increase civil unrest, with 2100 high-emissions widening security gaps where states are fragile",
-        "adapt": "community water peace committees, early-warning SMS, stockpiles, and inclusive governance that shares resources transparently",
-        "ssp_high_detail": "conflict risk +15–30% where vulnerability is high",
-        "ssp_low_detail": "risk +5–15%, mitigated by cooperation",
-    },
-    "infrastructure, shelter and energy resilience": {
-        "concrete": "by 2040 heat buckles 10–15% more roads/rails per heatwave, blackouts rise 30% when AC demand meets low water for hydropower, and 1-in-20 floods overtop drains, with 2100 high-emissions requiring elevation +1 m for new coastal builds",
-        "adapt": "heat-resistant asphalt, elevated substations, mini-grids with solar+battery, and flood-resilient schools as hubs",
-        "ssp_high_detail": "infrastructure losses +40–70%",
-        "ssp_low_detail": "losses +15–25% with resilient codes",
-    },
-    "climate literacy and education": {
-        "concrete": "by 2040 misinformation spikes during every disaster, yet schools teaching climate literacy see 30–40% better preparedness scores; illiteracy leaves 25% of adults unable to interpret risk maps, with 2100 gaps widening where curricula ignore local hazards",
-        "adapt": "plain-language risk maps, student citizen-science, teacher training, and village noticeboards with verified forecasts",
-        "ssp_high_detail": "literacy gaps amplify losses 20–30%",
-        "ssp_low_detail": "universal basic climate literacy cuts losses 15–25%",
-    },
-    "data, statistics and misinformation in the climate era": {
-        "concrete": "by 2040 60–70% of online climate claims mix real and outdated data, and satellite/ground gaps delay warnings 6–12 hours, with 2100 high-emissions misaligned decisions costing 10–20% extra where data is not trusted",
-        "adapt": "check primary sources (IPCC, WMO, NOAA/NASA), triangulate 2–3 datasets, and use uncertainty bars, not single numbers",
-        "ssp_high_detail": "errors compound where data literacy is low",
-        "ssp_low_detail": "open data hubs cut decision errors 20–30%",
-    },
-    "household preparedness for water, food, shelter and local risk": {
-        "concrete": "by 2040 households without 3-day water/food face 2–3× more crisis visits, homes below 2 m flood yearly, and kitchens fail 30% more in heat, with 2100 high-emissions requiring rain tanks and cool rooms in 50% of homes",
-        "adapt": "go-bags, 3-day water (15 L/person/day), grain banks, cool shelter, and neighborhood mutual-aid rosters",
-        "ssp_high_detail": "unprepared households need 40% more aid",
-        "ssp_low_detail": "preparedness halves emergency needs",
-    },
-    "health, emergency response and protecting vulnerable populations": {
-        "concrete": "by 2040 ambulance delays +20% during heat/floods, clinics lose power 10–15% of storm days, and elderly/disabled mortality 2–3× higher without outreach, with 2100 high-emissions overwhelming response without community teams",
-        "adapt": "volunteer responder teams, door-to-door vulnerable registries, clinic backup power, and mobile health units",
-        "ssp_high_detail": "emergency demand +30–50%",
-        "ssp_low_detail": "demand +10–20%, with community response covering gaps",
-    },
-    "social capital, mutual aid and community governance": {
-        "concrete": "by 2040 neighborhoods with strong mutual-aid recover 30–40% faster and report 20% fewer losses, while fragmented areas see aid delayed 1–2 weeks, with 2100 high-emissions widening trust gaps where governance is weak",
-        "adapt": "block captains, tool libraries, community funds, and joint decisions on water and evacuation",
-        "ssp_high_detail": "social fragmentation raises losses 15–25%",
-        "ssp_low_detail": "tight networks halve recovery time",
-    },
-    "renewable energy and appropriate technologies for climate adaptation": {
-        "concrete": "by 2040 solar+storage cheaper than diesel in 70% of off-grid areas, but heat cuts panel output 5–10% and storms damage 15% of exposed installs, while 2100 high-emissions still leaves 20% of demand on fossil without storage scale-up",
-        "adapt": "elevated solar, cyclone clips, battery cooperatives, and repair training for youth",
-        "ssp_high_detail": "energy access improves but intermittency costs rise",
-        "ssp_low_detail": "near-universal clean access with low bills",
-    },
-    "climate anxiety, trauma and building psychological resilience": {
-        "concrete": "by 2040 35–45% of teens report climate anxiety weekly, heat and displacement raise depression 15–25%, and post-flood trauma lasts 6–12 months without support, with 2100 high-emissions doubling chronic stress in hot, insecure zones",
-        "adapt": "peer groups, green spaces, counseling at schools/clinics, and action projects giving agency",
-        "ssp_high_detail": "mental health burden +30–40%",
-        "ssp_low_detail": "resilience programs halve symptom persistence",
-    },
-    "climate governance, justice, equity and civic engagement": {
-        "concrete": "by 2040 climate lawsuits double and budgets for adaptation still meet only 15–25% of needs, with low-income wards receiving 30% less protection, and 2100 high-emissions locking injustice where decisions lack community voice",
-        "adapt": "participatory budgeting, equity audits, legal aid, and transparency boards tracking spending",
-        "ssp_high_detail": "inequity amplifies impacts 20–30%",
-        "ssp_low_detail": "inclusive governance cuts inequity half",
-    },
-    "regional case studies of heat, wildfire, flood and urban climate extremes": {
-        "concrete": "by 2040 case cities like Ahmedabad, Los Angeles and Athens see 30–50% more wildfire-smoke days and 40–60 flood days yearly in low zones; 2100 high-emissions makes 1-in-10-year urban floods annual",
-        "adapt": "fire breaks, sponge-city parks, early evacuation drills, and case-to-case learning exchanges",
-        "ssp_high_detail": "urban extreme costs +50–80%",
-        "ssp_low_detail": "costs +15–30% with green infrastructure",
-    },
-    "regional case studies of drought, food crisis, water stress and security": {
-        "concrete": "by 2040 Horn/Sahel droughts like 2022 recur every 3–4 years, Mekong flows –20% in dry season, and groundwater in Punjab falls 1 m yearly, pushing food prices +20–35% in bad years; 2100 high-emissions doubles multi-breadbasket failure risk",
-        "adapt": "drought-tolerant crops, watershed recharge, grain reserves, and cross-border water agreements",
-        "ssp_high_detail": "hunger risk +25–40%",
-        "ssp_low_detail": "risk +10–15% with diversification",
-    },
-    "personal and community action plans, checklists and templates for surviving the future": {
-        "concrete": "by 2040 families with 1-month plans cut losses 40–50% and recover 2× faster; without checklists 30% forget documents/medicines, and 2100 high-emissions overwhelms ad-hoc coping",
-        "adapt": "30-day household plan (water/food/shelter), 1-year community plan (governance/networks), go-bags, risk matrices and drills updated yearly",
-        "ssp_high_detail": "planned communities thrive, unplanned struggle",
-        "ssp_low_detail": "basic plans halve harm everywhere",
-    },
-}
 
 
 
@@ -841,21 +701,35 @@ EXPERT_DETAILS = {
 # Generic para templates without forcing specific author every chapter (avoid Roberts etc. repetition)
 def para(topic, section, i):
     templates = [
-     "Field data on {section} reveal measurable shifts linked to {topic}, consistent with long-term records from satellite and ground observations (IPCC, 2023). Monitoring shows changes in magnitude and timing, including earlier onset and extended duration in several regions. Model projections that incorporate anthropogenic forcing reproduce these patterns more closely than natural variability alone. Regional examples illustrate how seasonal rhythms are disrupted with consequences for agriculture and water management. Convergence across independent datasets increases confidence and supports planning that no longer assumes stationary baselines.",
-     "Physical mechanisms driving {section} operate through energy and moisture pathways tied to {topic} (IPCC, 2021; WMO, 2023). Radiative perturbations cascade into circulation and hydrological changes, with feedbacks that can amplify initial signals. Empirical studies show these feedbacks are already observable in recent decades. Attribution research quantifies the anthropogenic contribution to specific extremes, strengthening causal statements beyond correlation. Distinguishing proximate triggers from underlying drivers clarifies where interventions can be most effective.",
-     "Impacts of {section} are uneven across populations within {topic}, reflecting differences in exposure and adaptive capacity (IPCC, 2022; UNDRR, 2015). Groups with limited resources or insecure tenure face disproportionate risks, with urban-rural contrasts shaping outcomes. Gender and age dimensions further modulate vulnerability. These disparities arise from intersecting social and institutional processes rather than chance. Equity-centered assessments therefore provide a more accurate picture than aggregate averages alone.",
-     "Governance and practice around {section} shape whether {topic} becomes manageable risk or cascading failure (IPCC, 2022; UNDRR, 2015). Effective approaches blend formal planning, flexible delivery, and participatory oversight. Early warning, land-use guidance, and infrastructure standards work best when co-designed with local users. Institutional fragmentation can delay action, while cross-scale coordination improves response to compound events. Learning from successes and failures offers a practical curriculum for improvement.",
-     "Economic considerations for {section} in the context of {topic} show that proactive investment generally costs less than bearing escalating losses (World Bank, 2022; IPCC, 2022). Direct damages to productivity and infrastructure spill over into supply chains and insurance markets. Agriculture and coastal assets are particularly exposed. Finance gaps remain largest where needs are greatest, pointing to the need for transparent risk disclosure and blended funding that reaches vulnerable groups.",
-     "Health dimensions of {section} link {topic} to acute and chronic outcomes (WHO, 2023). Heat stress, air quality changes, and shifts in vector ranges illustrate direct pathways, while food insecurity and displacement illustrate indirect ones. Health systems already face pressure from climate-sensitive conditions. Mental health effects are increasingly documented. Linking climate monitoring with health surveillance creates co-benefits for early action and prevention.",
-     "Evaluating evidence on {section} benefits from attention to methods relevant to {topic} (IPCC, 2023). Long-term observations ground findings in the real world, while experiments and quasi-experimental designs strengthen causal inference. Models help explore scenarios but rest on assumptions that should be disclosed. Syntheses that pool studies improve power, yet heterogeneity requires careful interpretation. Appraising design, sample, and uncertainty reporting builds resilient use of science.",
-     "Pathways forward for {section} within {topic} depend on pairing near-term actions with longer-term transformation (IPCC, 2023). Incremental measures such as improved forecasts and diversified livelihoods provide immediate relief, while ecosystem-based and energy-transition strategies address root drivers. Community-led innovations often perform well when resourced. Iterative monitoring allows course correction as conditions evolve. Framing options as portfolios rather than single fixes reflects complexity and supports adaptation that is robust to uncertainty.",
+     "Field data on {section} reveal measurable shifts linked to {topic}, consistent with long-term satellite and ground records (IPCC, 2023). Monitoring of {section} shows changes in magnitude and timing, including earlier onset and longer duration in several regions. Model projections that include anthropogenic forcing reproduce observed {section} patterns more closely than natural variability alone. Regional examples show how disrupted seasonal rhythms tied to {section} affect agriculture and water management. Convergence across independent datasets on {section} increases confidence and supports planning that no longer assumes stationary baselines.",
+     "Physical mechanisms driving {section} operate through energy and moisture pathways tied to {topic} (IPCC, 2021; WMO, 2023). Radiative perturbations from {topic} cascade into circulation and hydrological changes, with feedbacks that can amplify the initial signal. Empirical studies of {section} show these feedbacks are already observable in recent decades. Attribution research quantifies the anthropogenic contribution to {section} extremes, strengthening causal statements beyond correlation. Distinguishing proximate triggers of {section} from underlying drivers clarifies where interventions can be most effective.",
+     "Impacts of {section} are uneven across populations within {topic}, reflecting differences in exposure and adaptive capacity (IPCC, 2022; UNDRR, 2015). Groups facing {section} with limited resources or insecure tenure carry disproportionate risk, and urban-rural contrasts shape the outcome. Gender and age dimensions further modulate how {section} is experienced. These disparities in {section} arise from intersecting social and institutional processes rather than chance. Equity-centred assessments of {section} therefore provide a more accurate picture than aggregate averages alone.",
+     "Governance and practice around {section} shape whether {topic} becomes manageable risk or cascading failure (IPCC, 2022; UNDRR, 2015). Effective approaches to {section} blend formal planning, flexible delivery and participatory oversight. Early warning, land-use guidance and infrastructure standards for {section} work best when co-designed with local users. Institutional fragmentation can delay action on {section}, while cross-scale coordination improves response to compound events. Learning from successes and failures in {section} offers a practical curriculum for improvement.",
+     "Economic considerations for {section} in the context of {topic} show that proactive investment generally costs less than bearing escalating losses (World Bank, 2022; IPCC, 2022). Direct damages from {section} to productivity and infrastructure spill over into supply chains and insurance markets. Agriculture and coastal assets exposed to {section} are particularly vulnerable. Finance gaps for {section} remain largest where needs are greatest, pointing to transparent risk disclosure and blended funding that reaches vulnerable groups. Cost-benefit analysis of {section} therefore needs to count avoided losses, not only upfront spending.",
+     "Health dimensions of {section} link {topic} to acute and chronic outcomes (WHO, 2023). Heat stress, air-quality changes and shifting vector ranges illustrate direct pathways from {section}, while food insecurity and displacement illustrate indirect ones. Health systems already face pressure from climate-sensitive conditions that {section} intensifies. Mental-health effects of {section}, including anxiety and post-event trauma, are increasingly documented. Linking climate monitoring with health surveillance around {section} creates co-benefits for early action and prevention.",
+     "Evaluating evidence on {section} benefits from attention to methods relevant to {topic} (IPCC, 2023). Long-term observations of {section} ground findings in the real world, while experiments and quasi-experimental designs strengthen causal inference. Models of {section} help explore scenarios but rest on assumptions that should be disclosed. Syntheses that pool {section} studies improve statistical power, yet heterogeneity requires careful interpretation. Appraising design, sample and uncertainty reporting for {section} builds resilient use of science.",
+     "Pathways forward for {section} within {topic} depend on pairing near-term actions with longer-term transformation (IPCC, 2023). Incremental measures for {section}, such as improved forecasts and diversified livelihoods, provide immediate relief, while ecosystem-based and energy-transition strategies address root drivers. Community-led innovations in {section} often perform well when resourced. Iterative monitoring of {section} allows course correction as conditions evolve. Framing options for {section} as portfolios rather than single fixes reflects complexity and supports adaptation robust to uncertainty.",
     ]
     t1 = templates[i % len(templates)]
     t2 = templates[(i+3) % len(templates)]
+    if section.strip().lower() == "this chapter":
+        section = topic
     base = t1.format(section=section, topic=topic) + " " + t2.format(section=section, topic=topic)
-    # Weave one relevant data point as inline evidence (professional academic style)
-    data_idx = (i + len(section)) % len(DATA_POINTS)
-    base += f" This is reinforced by evidence that {DATA_POINTS[data_idx]}."
+    # Weave one relevant data point with a rotating frame so the wording is not repeated
+    frames = [
+        "For {s}, the evidence is concrete: {d}.",
+        "The record for {s} shows that {d}.",
+        "One marker of {s}: {d}.",
+        "Recent assessments of {s} add that {d}.",
+        "In the case of {s}, {d}.",
+        "Observational evidence on {s} confirms that {d}.",
+        "A further data point on {s}: {d}.",
+        "The broader dataset for {s} notes that {d}.",
+    ]
+    key = sum(map(ord, section))
+    data_idx = (key * 7 + i * 5) % len(DATA_POINTS)
+    frame = frames[(key * 3 + i) % len(frames)]
+    base += " " + frame.format(s=section, d=DATA_POINTS[data_idx])
     return base
 
 def bullets(topic, section):
@@ -927,7 +801,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append(para(theme, "this chapter", 0))
     md.append("")
     # Integrated overview dissolved into chapter narrative (no separate heading)
-    md.append(f"This chapter examines {theme} through peer-reviewed evidence, current observations and scenario projections, inviting verification against chapter-end sources. The discussion proceeds from core concepts to evidence and to actionable implications, with each section presenting its main argument first and then integrating supporting data, news and expert insight to sharpen analysis.")
+    md.append(f"This chapter examines {theme} through peer-reviewed evidence, current observations and scenario projections, inviting verification against chapter-end sources. For {theme}, the discussion proceeds from core concepts to evidence and to actionable implications, with each section presenting its main argument first and then integrating supporting data, news and expert insight.")
 
     md.append("")
     # 4 subsections - expert as integrated topic/supporting narrative only where relevant (not forced)
@@ -958,7 +832,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         md.append(para(theme, sec, si+4) + f" This is further underscored by recent developments: {news_item.lower()} — indicating that {sec.lower()} is not a distant projection but an observable process, reinforcing the urgency for timely action.")
         md.append("")
         # Academic debate woven as nuance
-        md.append(f"The literature on {sec.lower()} debates the strength of evidence, the role of socio-economic pathways, and the balance between adaptation and mitigation. This chapter adopts a cautious, evidence-based stance: it acknowledges uncertainty, highlights where consensus is strong, and points to context-specific trade-offs, keeping the analysis aligned with the broader research base.")
+        md.append(f"The literature on {sec.lower()} debates the strength of evidence, the role of socio-economic pathways, and the balance between adaptation and mitigation; for {theme.lower()}, weighing uncertainty, consensus and context-specific trade-offs keeps the analysis aligned with the broader research base.")
         md.append("")
         # Second expert closing removed - round-robin ensures all 60 cited via topic sentences
         pass
@@ -967,69 +841,36 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
             md.append(f"Analysis for {sec.lower()} integrates these strands: the expert insight above provides the conceptual anchor, current news ({NEWS[ci % len(NEWS)].split('(')[0].strip().lower()}) supplies real-world validation, and the data table quantifies magnitude. Together they show how {theme} translates into lived risk for {sec.lower()}, with implications that are both measurable and actionable.")
             md.append("")
         # Key Considerations dissolved into discussion (no separate sub-heading)
-        md.append(f"Key considerations emerging from {sec.lower()} include {', '.join([b.lower() for b in bullets(theme, sec)][:3])}, while attention to systematic local assessment, redundancy and preparedness remains central. This sharpens the core analysis without diverting into a separate sub-topic.")
+        md.append(f"Key considerations emerging from {sec.lower()} include {', '.join([b.lower() for b in bullets(theme, sec)][:3])}, while systematic local assessment, redundancy and preparedness remain central to {theme.lower()}.")
 
         md.append("")
     # Case study - keep but without forcing separate data/news/debate headings
     md.append(f"## Case Study: {title}")
     md.append("")
-    md.append(para(theme, "the case study", 2))
+    md.append(para(theme, theme, 2))
     md.append("")
     # Lessons dissolved into case study narrative
     md.append(f"Lessons from the case study reinforce systematic assessment, prioritization of the most vulnerable, and redundancy in critical systems for {theme.lower()}, informing practical preparation and coordination.")
 
     md.append("")
-    # Future Scenarios — topic-specific detailing (layman, detailed, per-chapter theme)
+    # Future Scenarios and Predictions — analisis unik per bab (tanpa template berulang)
+    fs = FUTURE_SCENARIOS[ci - 1]["en"]
     md.append(f"## Future Scenarios and Predictions: {title}")
-
     md.append("")
-
-    det = FUTURE_SCENARIO_DETAILS.get(theme.lower(), FUTURE_SCENARIO_DETAILS["the warming world and the coming crises"])
-    md.append(f"Looking at current warming data for {theme.lower()} — with global temperature already ~1.1–1.2°C above pre-industrial (IPCC, 2023) and CO2 at ~420 ppm (NOAA, 2024) — the coming decades bring clear, everyday impacts. For example, {det['concrete']}. Practical adaptations include {det['adapt']}. The scenarios below translate this picture into three futures for {theme.lower()} in plain language.")
-
+    md.append(fs["lead"])
     md.append("")
-
-    md.append(f"Under **SSP5-8.5 (high emissions, business as usual)**, {theme.lower()} intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives {det['ssp_high_detail']}; by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).")
-
+    md.append(fs["mid"])
     md.append("")
-
-    md.append(f"Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, {theme.lower()} benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with {theme.lower()} extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists. {det['ssp_low_detail'].capitalize()}.")
-
+    md.append(fs["adapt"])
     md.append("")
-
-    md.append(f"In a middle path where emissions peak around 2040 and then slowly fall, warming reaches about 1.8–2.2°C by 2050. For {theme.lower()}, impacts become patchy: some neighborhoods suffer stronger heat, others more floods or droughts, and problems in one area (for example, crop failure) spill over to food prices, jobs and health (Hsiang & Burke, 2014; Burke et al., 2015). Drought, food and water problems often start to trigger each other (Wheeler & von Braun, 2013), as do heat and health problems (Watts et al., 2021; Vicedo-Cabrera et al., 2021). This is the path where everyday risks slowly become normal, not a single big event.")
-
+    md.append(fs["watch"])
     md.append("")
-
-    md.append(f"| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |")
-
-    md.append(f"|---|---|---|---|")
-
-    md.append(f"| 2030 | {theme} hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |")
-
-    md.append(f"| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |")
-
-    md.append(f"| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |")
-
+    md.append("| Horizon | What changes for this chapter |")
+    md.append("|---|---|")
+    md.append(f"| 2030 | {fs['k30']} |")
+    md.append(f"| 2050 | {fs['k50']} |")
+    md.append(f"| 2100 | {fs['k100']} |")
     md.append("")
-
-    md.append(f"How certain is this, and what are the limits? We are most certain about big, planet-wide changes — temperature, sea level and shrinking Arctic ice (~13% per decade, NASA, 2024) — and less certain about exactly which street or village will flood first, because local economy and planning matter too (IPCC, 2022; UNDRR, 2015). For {theme.lower()}, adapting gets much harder above about 2°C (Pörtner et al., 2022). Communities can check these numbers against local experience: watch tide gauges, heat records and crop yields, and compare with the data that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million are displaced by climate each year (UNHCR, 2023).")
-
-    md.append("")
-
-    md.append(f"### Scenario A: High Emissions (Business as Usual) — Analytic Implications")
-
-    md.append("")
-
-    md.append(f"Scenario A implies greater frequency and intensity of {theme.lower()} hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on {theme.lower()} systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).")
-
-    md.append("")
-
-    md.append(f"### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications")
-
-    md.append("")
-
-    md.append(f"Scenario B reduces but does not eliminate {theme.lower()} impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.")
 
     md.append("")
     # Chapter summary
@@ -1123,13 +964,7 @@ notes = [
  "Analytical note: Uncertainty is inherent in climate science and should be communicated transparently rather than hidden or exaggerated.",
 ]
 for n in notes:
-    for _ in range(16):
-        md.append(n)
-        md.append("")
-md.append("# Appendix F: Extended Analytical Notes")
-md.append("")
-for k in range(10):
-    md.append(f"Analytical note {k+1}: Climate action requires sustained commitment, continuous learning, and inclusive participation. Each community must adapt global knowledge to local realities.")
+    md.append(n)
     md.append("")
 # Footnotes retained for Appendix but not rendered at page bottom (render handles)
 md.append("# Catatan Kaki (Footnotes)")

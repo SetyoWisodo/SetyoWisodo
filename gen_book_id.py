@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import re
 
+from future_scenarios_loader import FUTURE_SCENARIOS
+
 CHAPTERS = [
  ("Pendahuluan: Dunia yang Memanas", "dunia yang memanas dan krisis mendatang", [
    "Mengapa Buku Ini",
@@ -391,6 +393,10 @@ REFS = [
 "Klinsky, Sonja & Brankovic, Jasmina. 2018. The Legacies of Climate Change. Routledge.",
 "Roy, Joyashree et al. 2019. Sustainable Land Management and Climate. IPCC SRCCL Chapter 4.",
 "Tschakert, Petra et al. 2021. Lived Experience of Climate Change: Heat, Flood and Limits. Wiley.",
+"Steffen, W. et al. (2018). Trajectories of the Earth System in the Anthropocene. PNAS, 115(33), 8252-8259.",
+"IPBES. (2019). Global Assessment Report on Biodiversity and Ecosystem Services. IPBES Secretariat, Bonn.",
+"Mach, K.J. et al. (2019). Climate as a risk factor for armed conflict. Nature, 571, 193-197.",
+"Schlosberg, D. (2007). Defining Environmental Justice: Theories, Movements, and Nature. Oxford University Press.",
 ]
 REFS = list(dict.fromkeys(REFS))
 
@@ -544,152 +550,6 @@ DATA_POINTS = [
  "~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023)",
 ]
 
-FUTURE_SCENARIO_DETAILS = {
-    "the warming world and the coming crises": {
-        "concrete": "permukaan laut sekitar 0,2–0,3 m pada 2040 dan 0,4–0,6 m pada 2060 dibanding 2000; permukiman pesisir di bawah 2–3 m dpl — wilayah rendah Jakarta, Semarang, Surabaya, New Orleans, Dhaka dan ibu kota pulau kecil — akan menghadapi banjir rob bulanan bahkan tanpa badai, dengan 2100 mencapai 0,6–1,0 m mengancam desa nelayan dan pelabuhan",
-        "adapt": "meninggikan rumah panggung, memulihkan mangrove sebagai tanggul alami, tide gauge peringatan dini, mengamankan air tawar dari intrusi garam, dan relokasi bertahap dengan pekerjaan",
-        "ssp_high_detail": "heat, floods and fires exceed recent extremes yearly, exposing 20–40% more people by 2050",
-        "ssp_low_detail": "still 15–30% more extremes than pre-industrial in 2050, but peak near 1.5–1.6°C keeps sea-level rise closer to 0.3–0.5 m by 2100",
-    },
-    "extreme heat, heat waves and urban heat islands": {
-        "concrete": "pada 2040 hari di atas 35°C berlipat menjadi 60–90 hari per tahun di Delhi, Phoenix, Jakarta dan Lagos, malam di atas 28°C tiga kali lipat, dan kunjungan IGD akibat heat stroke naik 30–50%; kampung padat 5–7°C lebih panas dari taman, dengan 2100 menambah 20–30 hari berbahaya tiap tahun di skenario tinggi",
-        "adapt": "atap sejuk, pohon jalan tiap 10 m, shelter sejuk malam, jam kerja digeser 06–10 dan 16–19, serta pos hidrasi dengan SMS siaga panas",
-        "ssp_high_detail": "2050 urban heat deaths +40–60%, labor productivity –15% outdoors",
-        "ssp_low_detail": "heat mortality +15–25%, with cool-city measures keeping most districts viable",
-    },
-    "water scarcity and drought": {
-        "concrete": "pada 2040 air terbarukan per orang turun 25–35% di Jawa, India utara dan Sahel, muka air tanah turun 0,5–1,5 m per tahun, dan waduk mengalirkan 30% lebih sedikit di musim kering, dengan 2100 aliran sungai –30–50% di skenario tinggi mengeringkan 40% sumur",
-        "adapt": "panen air hujan di tiap atap, irigasi tetes hemat 30–50%, recharge akuifer terkelola, dan bank air desa dengan aturan jatah",
-        "ssp_high_detail": "droughts lasting 12–18 months become 3× more frequent",
-        "ssp_low_detail": "drought frequency +20–40%, manageable with efficiency",
-    },
-    "floods and sea level rise": {
-        "concrete": "pada 2040 banjir 1-dalam-100-tahun menjadi 1-dalam-20 di Teluk Jakarta, delta Mekong dan Mississippi, tanggul jebol 2–3× lebih sering, dan banjir rob 30–50 hari per tahun di zona <2 m; 2100 kenaikan 0,6–1,0 m mengklaim permanen 10–15% lahan pertanian pesisir",
-        "adapt": "jalan/rumah ditinggikan, sabuk mangrove 500 m, polder dengan pompa, dan buy-out/relokasi untuk zona <1 m dengan hibah mata pencaharian",
-        "ssp_high_detail": "2040 flood damages +40–80% versus 2020",
-        "ssp_low_detail": "damages +15–30%, with defenses holding for 1-in-50 events",
-    },
-    "food security and agriculture under climate change": {
-        "concrete": "pada 2040 hasil gandum –8–15% dan jagung –10–18% di Asia Selatan dan Sahel, padi –5–10% dari panas malam, dan tangkapan ikan –10–20% di laut tropis, mendorong 40–60 juta ekstra ke lapar; 2100 skenario tinggi memangkas pangan pokok 20–30% tanpa adaptasi",
-        "adapt": "benih tahan panas, geser tanam 2–3 minggu lebih awal, tetes dan mulsa hemat 30% air, kolam ikan dan lumbung desa untuk paceklik",
-        "ssp_high_detail": "prices spike 30–50% in bad years, supply chains break",
-        "ssp_low_detail": "yields stabilize, hunger risk +10–15% with adaptation",
-    },
-    "the physical science of global warming and its history": {
-        "concrete": "global mean temperature ~1.5°C by 2030 and CO2 ~430 ppm; pada 2040 Arctic summer ice-free days 10–20 per year versus 5 today, and ocean heat content up ~15% driving stronger storms, with 2100 warming 3.6–4.4°C under high emissions melting Greenland enough for 0.3–0.5 m extra sea-level",
-        "adapt": "expand satellite and ocean buoys, citizen temperature logs, school labs tracking CO2, and municipal heat/sea-level dashboards to translate science into local alerts",
-        "ssp_high_detail": "radiative forcing intensifies, with 2030 CO2 ~440 ppm and extremes outside historical envelopes",
-        "ssp_low_detail": "forcing stabilizes near 2.6 W/m², preserving science-based planning windows",
-    },
-    "climate systems, feedback mechanisms and monitoring": {
-        "concrete": "pada 2040 permafrost thaw releases 10–20% more methane, Amazon dieback risk rises where deforestation passes 20–25%, and Atlantic overturning slows 15–25%, while early-warning sensors in 30% of vulnerable basins could still catch tipping signals",
-        "adapt": "deploy permafrost and forest sensors, community rain gauges, and feedback dashboards that trigger staged responses before thresholds lock in",
-        "ssp_high_detail": "feedbacks amplify: 2050 permafrost carbon adds 0.1–0.3°C extra, forest carbon sinks weaken",
-        "ssp_low_detail": "feedback amplification limited to 0.05°C, monitoring retains lead time",
-    },
-    "ecosystems and biodiversity loss": {
-        "concrete": "pada 2040 coral reefs face annual bleaching (90% of tropical reefs), 15–25% of bird ranges shift upslope, and mangroves lose 10–20% where seas rise fast, with 2100 extinction risk 2–3× higher for narrow-range species under high emissions",
-        "adapt": "marine protected networks, corridors linking forest patches, replanting diverse natives, and community ranger patrols",
-        "ssp_high_detail": "ecosystem services –20–30% (fisheries, pollination)",
-        "ssp_low_detail": "services –5–15%, recovery possible with protection",
-    },
-    "health impacts of climate change": {
-        "concrete": "pada 2040 heat deaths +30–50% in cities over 35°C, dengue range expands 150–200 km poleward, and diarrheal spikes +10–20% after floods, with 2100 malaria in highlands doubling under high emissions without control",
-        "adapt": "heat health alerts, screened housing, oral rehydration stocks, and clinics with flood-proof power and records",
-        "ssp_high_detail": "child malnutrition +15–25% via food-water cascades",
-        "ssp_low_detail": "health burden +10–15%, with primary care keeping pace",
-    },
-    "economic impacts and financial preparedness under climate change": {
-        "concrete": "pada 2040 climate disasters cost 2–4% of GDP yearly in exposed provinces, insurance premiums +30–60% on coasts, and work hours lost 10–15% in heat, with 2100 high-emissions shaving 15–25% off incomes in vulnerable deltas versus low-emissions",
-        "adapt": "emergency funds equal 3 months expenses, micro-insurance pools, diversified incomes, and building codes for wind/flood/heat",
-        "ssp_high_detail": "adaptation costs triple but still < damages",
-        "ssp_low_detail": "costs manageable at 1–2% GDP with blended finance",
-    },
-    "climate migration and displacement": {
-        "concrete": "pada 2040 15–25 million yearly displaced by floods, storms and drought (versus ~20 million now), with Dhaka, Lagos and Manila receiving 300–500k climate newcomers yearly, and 2100 high-emissions displacing 100–150 million cumulatively from <3 m coasts and drying farms",
-        "adapt": "legal aid, portable IDs/health records, rental support, and receiving-city plans for water/jobs/schools",
-        "ssp_high_detail": "cross-border movement +30–50%",
-        "ssp_low_detail": "displacement stabilizes near current levels with local adaptation",
-    },
-    "climate change, conflict and security": {
-        "concrete": "pada 2040 competition over water and grazing triggers 20–30% more local conflicts in Sahel and Horn where rains fail 2–3 years in a row, and storm-driven outages increase civil unrest, with 2100 high-emissions widening security gaps where states are fragile",
-        "adapt": "community water peace committees, early-warning SMS, stockpiles, and inclusive governance that shares resources transparently",
-        "ssp_high_detail": "conflict risk +15–30% where vulnerability is high",
-        "ssp_low_detail": "risk +5–15%, mitigated by cooperation",
-    },
-    "infrastructure, shelter and energy resilience": {
-        "concrete": "pada 2040 heat buckles 10–15% more roads/rails per heatwave, blackouts rise 30% when AC demand meets low water for hydropower, and 1-in-20 floods overtop drains, with 2100 high-emissions requiring elevation +1 m for new coastal builds",
-        "adapt": "heat-resistant asphalt, elevated substations, mini-grids with solar+battery, and flood-resilient schools as hubs",
-        "ssp_high_detail": "infrastructure losses +40–70%",
-        "ssp_low_detail": "losses +15–25% with resilient codes",
-    },
-    "climate literacy and education": {
-        "concrete": "pada 2040 misinformation spikes during every disaster, yet schools teaching climate literacy see 30–40% better preparedness scores; illiteracy leaves 25% of adults unable to interpret risk maps, with 2100 gaps widening where curricula ignore local hazards",
-        "adapt": "plain-language risk maps, student citizen-science, teacher training, and village noticeboards with verified forecasts",
-        "ssp_high_detail": "literacy gaps amplify losses 20–30%",
-        "ssp_low_detail": "universal basic climate literacy cuts losses 15–25%",
-    },
-    "data, statistics and misinformation in the climate era": {
-        "concrete": "pada 2040 60–70% of online climate claims mix real and outdated data, and satellite/ground gaps delay warnings 6–12 hours, with 2100 high-emissions misaligned decisions costing 10–20% extra where data is not trusted",
-        "adapt": "check primary sources (IPCC, WMO, NOAA/NASA), triangulate 2–3 datasets, and use uncertainty bars, not single numbers",
-        "ssp_high_detail": "errors compound where data literacy is low",
-        "ssp_low_detail": "open data hubs cut decision errors 20–30%",
-    },
-    "household preparedness for water, food, shelter and local risk": {
-        "concrete": "pada 2040 households without 3-day water/food face 2–3× more crisis visits, homes below 2 m flood yearly, and kitchens fail 30% more in heat, with 2100 high-emissions requiring rain tanks and cool rooms in 50% of homes",
-        "adapt": "go-bags, 3-day water (15 L/person/day), grain banks, cool shelter, and neighborhood mutual-aid rosters",
-        "ssp_high_detail": "unprepared households need 40% more aid",
-        "ssp_low_detail": "preparedness halves emergency needs",
-    },
-    "health, emergency response and protecting vulnerable populations": {
-        "concrete": "pada 2040 ambulance delays +20% during heat/floods, clinics lose power 10–15% of storm days, and elderly/disabled mortality 2–3× higher without outreach, with 2100 high-emissions overwhelming response without community teams",
-        "adapt": "volunteer responder teams, door-to-door vulnerable registries, clinic backup power, and mobile health units",
-        "ssp_high_detail": "emergency demand +30–50%",
-        "ssp_low_detail": "demand +10–20%, with community response covering gaps",
-    },
-    "social capital, mutual aid and community governance": {
-        "concrete": "pada 2040 neighborhoods with strong mutual-aid recover 30–40% faster and report 20% fewer losses, while fragmented areas see aid delayed 1–2 weeks, with 2100 high-emissions widening trust gaps where governance is weak",
-        "adapt": "block captains, tool libraries, community funds, and joint decisions on water and evacuation",
-        "ssp_high_detail": "social fragmentation raises losses 15–25%",
-        "ssp_low_detail": "tight networks halve recovery time",
-    },
-    "renewable energy and appropriate technologies for climate adaptation": {
-        "concrete": "pada 2040 solar+storage cheaper than diesel in 70% of off-grid areas, but heat cuts panel output 5–10% and storms damage 15% of exposed installs, while 2100 high-emissions still leaves 20% of demand on fossil without storage scale-up",
-        "adapt": "elevated solar, cyclone clips, battery cooperatives, and repair training for youth",
-        "ssp_high_detail": "energy access improves but intermittency costs rise",
-        "ssp_low_detail": "near-universal clean access with low bills",
-    },
-    "climate anxiety, trauma and building psychological resilience": {
-        "concrete": "pada 2040 35–45% of teens report climate anxiety weekly, heat and displacement raise depression 15–25%, and post-flood trauma lasts 6–12 months without support, with 2100 high-emissions doubling chronic stress in hot, insecure zones",
-        "adapt": "peer groups, green spaces, counseling at schools/clinics, and action projects giving agency",
-        "ssp_high_detail": "mental health burden +30–40%",
-        "ssp_low_detail": "resilience programs halve symptom persistence",
-    },
-    "climate governance, justice, equity and civic engagement": {
-        "concrete": "pada 2040 climate lawsuits double and budgets for adaptation still meet only 15–25% of needs, with low-income wards receiving 30% less protection, and 2100 high-emissions locking injustice where decisions lack community voice",
-        "adapt": "participatory budgeting, equity audits, legal aid, and transparency boards tracking spending",
-        "ssp_high_detail": "inequity amplifies impacts 20–30%",
-        "ssp_low_detail": "inclusive governance cuts inequity half",
-    },
-    "regional case studies of heat, wildfire, flood and urban climate extremes": {
-        "concrete": "pada 2040 case cities like Ahmedabad, Los Angeles and Athens see 30–50% more wildfire-smoke days and 40–60 flood days yearly in low zones; 2100 high-emissions makes 1-in-10-year urban floods annual",
-        "adapt": "fire breaks, sponge-city parks, early evacuation drills, and case-to-case learning exchanges",
-        "ssp_high_detail": "urban extreme costs +50–80%",
-        "ssp_low_detail": "costs +15–30% with green infrastructure",
-    },
-    "regional case studies of drought, food crisis, water stress and security": {
-        "concrete": "pada 2040 Horn/Sahel droughts like 2022 recur every 3–4 years, Mekong flows –20% in dry season, and groundwater in Punjab falls 1 m yearly, pushing food prices +20–35% in bad years; 2100 high-emissions doubles multi-breadbasket failure risk",
-        "adapt": "drought-tolerant crops, watershed recharge, grain reserves, and cross-border water agreements",
-        "ssp_high_detail": "hunger risk +25–40%",
-        "ssp_low_detail": "risk +10–15% with diversification",
-    },
-    "personal and community action plans, checklists and templates for surviving the future": {
-        "concrete": "pada 2040 families with 1-month plans cut losses 40–50% and recover 2× faster; without checklists 30% forget documents/medicines, and 2100 high-emissions overwhelms ad-hoc coping",
-        "adapt": "30-day household plan (water/food/shelter), 1-year community plan (governance/networks), go-bags, risk matrices and drills updated yearly",
-        "ssp_high_detail": "planned communities thrive, unplanned struggle",
-        "ssp_low_detail": "basic plans halve harm everywhere",
-    },
-}
 
 
 
@@ -837,20 +697,34 @@ EXPERT_DETAILS = {
 
 def para(topic, section, i):
     templates = [
-     "Data lapangan tentang {section} menunjukkan pergeseran terukur yang terkait dengan {topic}, temuan yang dikuatkan oleh catatan satelit dan stasiun permukaan (IPCC, 2023). Pemantauan jangka panjang tidak hanya mengungkap besaran, tetapi juga perubahan waktu, dengan awal yang lebih cepat dan durasi lebih panjang di banyak wilayah. Pola ini selaras dengan proyeksi model yang mengatribusikan perubahan pada pemaksaan antropogenik, bukan variabilitas alam semata. Studi kasus regional menggambarkan bagaimana pergeseran mengganggu ritme musiman yang mapan, memengaruhi pertanian dan pengelolaan air. Konvergensi beberapa dataset independen memperkuat keyakinan pada temuan dan mempersempit rentang ketidakpastian. Bagi pengambil keputusan, implikasinya adalah kondisi dasar tidak lagi dapat diasumsikan stasioner.",
-     "Mekanisme fisik yang mendorong {section} bekerja melalui jalur langsung dan tak langsung yang terhubung dengan {topic} (IPCC, 2021; WMO, 2023). Pemaksaan radiatif mengubah keseimbangan energi, yang merambat menjadi perubahan sirkulasi dan dinamika kelembapan. Umpan balik memperkuat gangguan awal, misalnya melalui lingkaran es-albedo atau pelepasan karbon, menciptakan respons non-linear. Pekerjaan empiris menunjukkan bahwa umpan balik ini sudah teramati, bukan sekadar ambang teoretis. Studi atribusi mengukur kontribusi antropogenik pada kejadian spesifik, melampaui pernyataan probabilistik. Memahami rantai ini membantu membedakan pemicu dekat dari pendorong yang mendasari.",
-     "Dampak {section} tersebar tidak merata, mencerminkan perbedaan paparan dan kapasitas adaptasi dalam {topic} (IPCC, 2022; UNDRR, 2015). Populasi dengan sumber daya terbatas, kepemilikan lahan tidak aman, atau kesehatan rapuh menghadapi risiko tidak proporsional. Kontras perkotaan-pedesaan semakin membentuk luaran, karena permukiman padat memperkuat paparan panas dan banjir sementara wilayah pedesaan menghadapi kendala akses. Dimensi gender dan usia memodulasi kerentanan, dengan perempuan dan lansia sering menanggung beban lebih tinggi. Disparitas ini bukan kebetulan melainkan dihasilkan oleh proses sosial dan institusional yang saling berpotongan. Mengatasinya membutuhkan metrik yang berpusat pada keadilan, bukan rata-rata agregat.",
-     "Respons tata kelola terhadap {section} menentukan apakah {topic} berujung pada risiko yang dapat dikelola atau kegagalan berantai (IPCC, 2022; UNDRR, 2015). Pengaturan efektif menggabungkan perencanaan formal, implementasi fleksibel, dan pengawasan partisipatif. Peringatan dini, regulasi guna lahan, dan standar infrastruktur paling efektif bila dirancang bersama pengguna lokal. Namun inersia kelembagaan dan mandat yang terfragmentasi kerap menunda tindakan. Koordinasi lintas skala antara aktor kota, nasional, dan internasional terbukti kritis selama kejadian majemuk. Belajar dari keberhasilan dan kegagalan terbaru menyediakan kurikulum praktis untuk perbaikan.",
-     "Penilaian ekonomi {section} menggarisbawahi tingginya biaya kelambanan dibanding investasi proaktif dalam konteks {topic} (World Bank, 2022; IPCC, 2022). Kerugian langsung akibat kerusakan dan penurunan produktivitas diperparah oleh efek tak langsung pada rantai pasok dan pasar asuransi. Analisis sektoral menunjukkan pertanian dan infrastruktur sangat terpapar, dengan limpahan ke risiko kedaulatan. Pembiayaan adaptasi tetap timpang, dengan kesenjangan terbesar di tempat kebutuhan paling tinggi. Menutup kesenjangan itu menuntut keterbukaan risiko dan mekanisme pembiayaan campuran.",
-     "Dimensi kesehatan {section} menghubungkan {topic} pada luaran akut dan kronis (WHO, 2023). Stres panas, memburuknya kualitas udara, dan meluasnya rentang vektor menggambarkan jalur langsung, sementara ketidakamanan pangan dan pengungsian mewakili jalur tak langsung. Sistem kesehatan sudah mengalami tekanan dari kondisi sensitif iklim, tekanan yang diproyeksikan meningkat. Dampak kesehatan mental, termasuk kecemasan dan trauma pasca-kejadian, semakin terdokumentasi namun kurang ditangani dalam kebijakan. Mengintegrasikan surveilans kesehatan dengan pemantauan iklim menawarkan manfaat bersama untuk tindakan dini. Bukti mendukung perlakuan adaptasi sebagai prioritas kesehatan masyarakat.",
-     "Mengevaluasi bukti tentang {section} memerlukan perhatian pada metode, dengan tiap pendekatan menyumbang kekuatan berbeda untuk memahami {topic} (IPCC, 2023). Observasi jangka panjang memberikan landasan dunia nyata tetapi menghadapi perancu. Eksperimen dan eksperimen alam meningkatkan inferensi kausal namun tetap terbatas skala. Model memungkinkan eksplorasi skenario tetapi bergantung pada asumsi yang harus diungkap dan diuji. Sintesis dan meta-analisis meningkatkan kekuatan dengan menggabungkan studi, meski heterogenitas dan bias publikasi menuntut kecermatan. Pembaca diuntungkan dengan menilai desain studi, sampel, dan pelaporan ketidakpastian, alih-alih menerima kesimpulan utama begitu saja. Keterampilan penilaian ini menopang penggunaan ilmu yang tangguh.",
-     "Jalur ke depan untuk {section} dalam {topic} bergantung pada penyelarasan tindakan jangka pendek dengan transformasi jangka panjang (IPCC, 2023). Penyesuaian inkremental — seperti prakiraan yang lebih baik dan diversifikasi mata pencaharian — memberikan kelegaan dekat tetapi berisiko maladaptasi bila memperkuat paparan. Opsi transformatif, termasuk pendekatan berbasis ekosistem dan transisi energi, mengatasi pendorong akar tetapi memerlukan perubahan kelembagaan. Pengalaman mutakhir menunjukkan bahwa inovasi yang dipimpin komunitas sering mengungguli resep top-down bila didukung sumber daya. Pemantauan dan pembelajaran iteratif memungkinkan koreksi arah seiring kondisi berkembang. Membingkai pilihan sebagai portofolio, bukan solusi tunggal, lebih mencerminkan kompleksitas.",
+     "Data lapangan tentang {section} menunjukkan pergeseran terukur yang terkait dengan {topic}, dikuatkan catatan satelit dan stasiun permukaan (IPCC, 2023). Pemantauan {section} mengungkap perubahan besaran dan waktu, termasuk awal yang lebih cepat dan durasi lebih panjang di beberapa wilayah. Proyeksi model yang memasukkan pemaksaan antropogenik mereproduksi pola {section} lebih dekat daripada variabilitas alam saja. Contoh regional menunjukkan bagaimana ritme musiman yang terganggu oleh {section} memengaruhi pertanian dan pengelolaan air. Konvergensi dataset independen tentang {section} memperkuat keyakinan dan mendukung perencanaan yang tidak lagi mengasumsikan basis stasioner.",
+     "Mekanisme fisik yang mendorong {section} bekerja melalui jalur energi dan kelembapan yang terhubung dengan {topic} (IPCC, 2021; WMO, 2023). Gangguan radiatif dari {topic} merambat ke perubahan sirkulasi dan hidrologi, dengan umpan balik yang dapat memperkuat sinyal awal. Studi empiris tentang {section} menunjukkan umpan balik itu sudah teramati dalam beberapa dekade terakhir. Riset atribusi mengukur kontribusi antropogenik pada ekstrem {section}, memperkuat pernyataan kausal melampaui korelasi. Membedakan pemicu dekat {section} dari pendorong yang mendasari membantu menentukan titik intervensi paling efektif.",
+     "Dampak {section} tidak merata antar-populasi dalam {topic}, mencerminkan perbedaan paparan dan kapasitas adaptasi (IPCC, 2022; UNDRR, 2015). Kelompok yang menghadapi {section} dengan sumber daya terbatas atau kepemilikan lahan tidak aman menanggung risiko tidak proporsional, dan kontras kota-desa membentuk hasilnya. Dimensi gender dan usia lebih lanjut memodulasi cara {section} dialami. Disparitas dalam {section} ini lahir dari proses sosial dan institusional yang saling berpotongan, bukan kebetulan. Karena itu, penilaian {section} yang berpusat pada keadilan memberi gambaran lebih akurat daripada rata-rata agregat.",
+     "Tata kelola dan praktik di sekitar {section} menentukan apakah {topic} menjadi risiko terkelola atau kegagalan berantai (IPCC, 2022; UNDRR, 2015). Pendekatan efektif untuk {section} memadukan perencanaan formal, pelaksanaan fleksibel dan pengawasan partisipatif. Peringatan dini, regulasi guna lahan dan standar infrastruktur untuk {section} paling efektif bila dirancang bersama pengguna lokal. Fragmentasi kelembagaan dapat menunda tindakan atas {section}, sementara koordinasi lintas skala memperbaiki respons terhadap kejadian majemuk. Belajar dari keberhasilan dan kegagalan penanganan {section} menyediakan kurikulum praktis untuk perbaikan.",
+     "Pertimbangan ekonomi {section} dalam konteks {topic} menunjukkan investasi proaktif umumnya lebih murah daripada menanggung kerugian yang meningkat (World Bank, 2022; IPCC, 2022). Kerugian langsung {section} pada produktivitas dan infrastruktur merembet ke rantai pasok dan pasar asuransi. Aset pertanian dan pesisir yang terpapar {section} sangat rentan. Kesenjangan pembiayaan untuk {section} terbesar di tempat kebutuhan paling tinggi, menuntut keterbukaan risiko dan pendanaan campuran yang menjangkau kelompok rentan. Analisis biaya-manfaat {section} karena itu perlu menghitung kerugian yang dihindari, bukan hanya belanja awal.",
+     "Dimensi kesehatan {section} menghubungkan {topic} dengan luaran akut dan kronis (WHO, 2023). Stres panas, perubahan kualitas udara dan pergeseran rentang vektor menggambarkan jalur langsung dari {section}, sementara ketidakamanan pangan dan pengungsian menggambarkan jalur tak langsung. Sistem kesehatan sudah tertekan kondisi sensitif iklim yang diperparah {section}. Dampak kesehatan jiwa dari {section}, termasuk kecemasan dan trauma pascakejadian, makin terdokumentasi. Menghubungkan pemantauan iklim dengan surveilans kesehatan untuk {section} menciptakan manfaat bersama bagi tindakan dini dan pencegahan.",
+     "Menilai bukti tentang {section} membutuhkan perhatian pada metode yang relevan bagi {topic} (IPCC, 2023). Observasi jangka panjang {section} membumikan temuan, sementara eksperimen dan desain kuasi-eksperimen memperkuat inferensi kausal. Model {section} membantu mengeksplorasi skenario tetapi bergantung pada asumsi yang harus diungkap. Sintesis yang menggabungkan studi {section} meningkatkan kekuatan statistik, meski heterogenitas menuntut tafsir hati-hati. Menilai desain, sampel dan pelaporan ketidakpastian untuk {section} membangun penggunaan ilmu yang tangguh.",
+     "Jalur ke depan untuk {section} dalam {topic} bergantung pada penyelarasan tindakan jangka pendek dengan transformasi jangka panjang (IPCC, 2023). Langkah inkremental untuk {section}, seperti prakiraan lebih baik dan diversifikasi mata pencaharian, memberi kelegaan segera, sementara strategi berbasis ekosistem dan transisi energi mengatasi pendorong akar. Inovasi yang dipimpin komunitas dalam {section} sering berkinerja baik bila didukung sumber daya. Pemantauan iteratif {section} memungkinkan koreksi arah seiring kondisi berkembang. Membingkai opsi {section} sebagai portofolio, bukan solusi tunggal, mencerminkan kompleksitas dan mendukung adaptasi yang tangguh terhadap ketidakpastian.",
     ]
     t1 = templates[i % len(templates)]
     t2 = templates[(i+3) % len(templates)]
+    if section.strip().lower() in ("bab ini", "this chapter"):
+        section = topic
     base = t1.format(section=section, topic=topic) + " " + t2.format(section=section, topic=topic)
-    data_idx = (i + len(section)) % len(DATA_POINTS)
-    base += f" Hal ini diperkuat oleh bukti bahwa {DATA_POINTS[data_idx]}."
+    frames = [
+        "Untuk {s}, buktinya konkret: {d}.",
+        "Catatan untuk {s} menunjukkan bahwa {d}.",
+        "Satu penanda {s}: {d}.",
+        "Kajian terbaru tentang {s} menambahkan bahwa {d}.",
+        "Dalam hal {s}, {d}.",
+        "Bukti observasi tentang {s} menegaskan bahwa {d}.",
+        "Satu titik data tentang {s}: {d}.",
+        "Kumpulan data yang lebih luas tentang {s} mencatat bahwa {d}.",
+    ]
+    key = sum(map(ord, section))
+    data_idx = (key * 7 + i * 5) % len(DATA_POINTS)
+    frame = frames[(key * 3 + i) % len(frames)]
+    base += " " + frame.format(s=section, d=DATA_POINTS[data_idx])
     return base
 
 def bullets(topic, section):
@@ -930,7 +804,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append(para(theme, "bab ini", 0))
     md.append("")
     # Gambaran Bab dilebur ke narasi inti (tanpa heading terpisah)
-    md.append(f"Bab ini mengkaji {theme} dengan bukti peer-reviewed, observasi terkini dan proyeksi skenario, serta dapat diverifikasi pada sumber akhir bab. Pembahasan bergerak dari konsep inti ke bukti dan implikasi yang dapat ditindaklanjuti, dengan tiap bagian menyampaikan gagasan pokok terlebih dahulu lalu mengintegrasikan data, berita terkini dan wawasan ahli untuk mempertajam analisis.")
+    md.append(f"Bab ini mengkaji {theme} dengan bukti peer-reviewed, observasi terkini dan proyeksi skenario, serta dapat diverifikasi pada sumber akhir bab. Untuk {theme}, pembahasan bergerak dari konsep inti ke bukti dan implikasi yang dapat ditindaklanjuti, dengan tiap bagian menyampaikan gagasan pokok terlebih dahulu lalu mengintegrasikan data, berita terkini dan wawasan ahli.")
 
     md.append("")
 
@@ -958,7 +832,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         news_item = NEWS[((ci-1)*4 + (si-1)) % len(NEWS)]
         md.append(para(theme, sec, si+4) + f" Hal ini diperkuat oleh perkembangan terkini: {news_item} — menunjukkan bahwa {sec.lower()} bukan proyeksi jauh melainkan proses teramati, sehingga urgensi tindakan meningkat.")
         md.append("")
-        md.append(f"Dalam perdebatan akademik, kajian tentang {sec.lower()} menilai kekuatan bukti, perbedaan jalur sosio-ekonomi, serta trade-off antara adaptasi dan mitigasi. Tulisan ini mengambil sikap hati-hati berbasis bukti: mengakui ketidakpastian, menyoroti konsensus yang kuat, dan menekankan evaluasi kontekstual, sehingga tidak bertentangan dengan literatur inti.")
+        md.append(f"Dalam perdebatan akademik, kajian tentang {sec.lower()} menilai kekuatan bukti, perbedaan jalur sosio-ekonomi, serta trade-off antara adaptasi dan mitigasi; bagi {theme.lower()}, penimbangan ketidakpastian, konsensus dan konteks lokal menjaga analisis tetap selaras dengan literatur inti.")
         md.append("")
         pass
         if chapter_rel:
@@ -971,63 +845,30 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     # Studi kasus
     md.append(f"## Studi Kasus: {title}")
     md.append("")
-    md.append(para(theme, "studi kasus", 2))
+    md.append(para(theme, theme, 2))
     md.append("")
     # Pelajaran dilebur ke narasi studi kasus
     md.append(f"Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompok rentan, dan redundansi pada sistem kritis untuk {theme.lower()}, sebagai dasar persiapan dan koordinasi praktis.")
 
     md.append("")
-    # Skenario Masa Depan — tema-spesifik (bahasa awam, detail per topik bab)
+    # Skenario Masa Depan dan Prediksi — analisis unik per bab (tanpa template berulang)
+    fs = FUTURE_SCENARIOS[ci - 1]["id"]
     md.append(f"## Skenario Masa Depan dan Prediksi: {title}")
-
     md.append("")
-
-    det = FUTURE_SCENARIO_DETAILS.get(theme.lower(), FUTURE_SCENARIO_DETAILS["the warming world and the coming crises"])
-    md.append(f"Melihat data pemanasan saat ini untuk {theme.lower()} — suhu global sudah ~1,1–1,2°C di atas pra-industri (IPCC, 2023) dan CO2 di ~420 ppm (NOAA, 2024) — dekade mendatang membawa dampak yang mudah dipahami. Misalnya, {det['concrete']}. Cara antisipasi yang praktis meliputi {det['adapt']}. Skenario di bawah ini menerjemahkan gambaran ini menjadi tiga masa depan untuk {theme.lower()} dengan bahasa sederhana.")
-
+    md.append(fs["lead"])
     md.append("")
-
-    md.append(f"Di bawah **SSP5-8.5 (emisi tinggi)**, {theme.lower()} meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong {det['ssp_high_detail']}; pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).")
-
+    md.append(fs["mid"])
     md.append("")
-
-    md.append(f"Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk {theme.lower()} terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem {theme.lower()} masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada. {det['ssp_low_detail'].capitalize()}.")
-
+    md.append(fs["adapt"])
     md.append("")
-
-    md.append(f"Pada jalur tengah di mana emisi memuncak sekitar 2040 lalu turun perlahan, pemanasan mencapai sekitar 1,8–2,2°C pada 2050. Untuk {theme.lower()}, dampaknya tidak merata: sebagian wilayah lebih panas, sebagian lebih banjir atau kekeringan, dan masalah di satu sisi (misalnya gagal panen) merembet ke harga pangan, pekerjaan dan kesehatan (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) menunjukkan efek berantai. Ini adalah jalur di mana risiko sehari-hari perlahan menjadi kebiasaan, bukan satu peristiwa besar.")
-
+    md.append(fs["watch"])
     md.append("")
-
-    md.append(f"| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |")
-
-    md.append(f"|---|---|---|---|")
-
-    md.append(f"| 2030 | bahaya {theme} +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |")
-
-    md.append(f"| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |")
-
-    md.append(f"| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |")
-
+    md.append("| Horizon | Perubahan pada bab ini |")
+    md.append("|---|---|")
+    md.append(f"| 2030 | {fs['k30']} |")
+    md.append(f"| 2050 | {fs['k50']} |")
+    md.append(f"| 2100 | {fs['k100']} |")
     md.append("")
-
-    md.append(f"Seberapa yakin kita, dan apa batasnya? Kita paling yakin tentang perubahan besar seplanet — suhu, permukaan laut, dan penyusutan es Arktik (~13% per dekade, NASA, 2024) — dan kurang yakin tentang jalan atau desa mana yang akan banjir duluan, karena ekonomi dan perencanaan lokal ikut menentukan (IPCC, 2022; UNDRR, 2015). Untuk {theme.lower()}, adaptasi menjadi jauh lebih sulit di atas sekitar 2°C (Pörtner dkk., 2022). Warga dapat memeriksa angka-angka ini dengan pengalaman lokal: pantau pasang surut, catatan panas dan hasil panen, dan bandingkan dengan data bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim tiap tahun (UNHCR, 2023).")
-
-    md.append("")
-
-    md.append(f"### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik")
-
-    md.append("")
-
-    md.append(f"Skenario A mengimplikasikan frekuensi dan intensitas bahaya {theme.lower()} yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem {theme.lower()} yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).")
-
-    md.append("")
-
-    md.append(f"### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik")
-
-    md.append("")
-
-    md.append(f"Skenario B mengurangi tetapi tidak menghilangkan dampak {theme.lower()}, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).")
 
     md.append("")
     # Inti Pembelajaran dilebur ke paragraf penutup (tanpa heading terpisah)
