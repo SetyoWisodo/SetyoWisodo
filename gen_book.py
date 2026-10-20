@@ -773,10 +773,8 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         md.append("")
         # Woven supporting evidence - data/news/debate integrated, not separate subheadings
         # Data as narrative + table (no separate heading)
-        # Data woven into narrative (Homo Deus style: numbers explained, not separate list)
-        md.append(f"Data relevant to {sec.lower()} illustrate the scale of the issue and sharpen the analysis — the indicators below are not a separate appendix but part of the argument. For instance, the table shows ~800 million facing food insecurity (FAO) and ~2 billion lacking safe water (WHO/UNICEF), while a ~6% wheat yield decline per 1°C (IPCC/Science) converts warming into concrete risk for {sec.lower()}. These figures, consistent with the mechanisms described above, show differing local implications yet a common pattern: {theme} is already measurable, not a distant projection.")
-        md.append("")
-        md.append(DATA_TABLES[ci % len(DATA_TABLES)])
+        # Data fully woven as narrative evidence (Homo Deus style: no separate table, angka jadi kalimat inti)
+        md.append(f"Data for {sec.lower()} show the scale is already measurable: global mean temperature has risen ~1.1–1.2°C since 1850–1900 (IPCC AR6), atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA), sea level has risen ~20–25 cm since 1900 (IPCC AR6), and Arctic sea ice declines by ~13% per decade (NASA), with ~100 million people affected by climate disasters annually (IFRC) and economic losses of ~$200–300 billion per year (World Bank). Converted to {sec.lower()}, these translate into food-water stress where ~800 million face food insecurity (FAO), ~2 billion lack safe water (WHO/UNICEF), wheat yields fall ~6% per 1°C (IPCC/Science), and ~20 million are displaced annually (UNHCR). These indicators, consistent with the mechanisms above, show differing local burdens yet a common measurable pattern for {theme}, not a distant projection.")
         md.append("")
         # Current conditions news woven
         news_item = NEWS[((ci-1)*4 + (si-1)) % len(NEWS)]
