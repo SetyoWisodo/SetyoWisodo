@@ -365,10 +365,17 @@ class Book(FPDF):
         self.lang = lang
         self.set_margins(left=30, top=30, right=30)
         self.set_auto_page_break(auto=True, margin=40)
-        self.add_font("TNR", "", FONT_DIR + "/DejaVuSerif.ttf", uni=True)
-        self.add_font("TNR", "B", FONT_DIR + "/DejaVuSerif-Bold.ttf", uni=True)
-        self.add_font("TNR", "I", FONT_DIR + "/DejaVuSerif-Italic.ttf", uni=True)
-        self.add_font("TNR", "BI", FONT_DIR + "/DejaVuSerif-BoldItalic.ttf", uni=True)
+        import os
+        _tinos = FONT_DIR + "/Tinos-Regular.ttf"
+        if os.path.exists(_tinos):
+            _fam = ("Tinos-Regular", "Tinos-Bold", "Tinos-Italic", "Tinos-BoldItalic")
+        else:
+            _fam = ("DejaVuSerif", "DejaVuSerif-Bold", "DejaVuSerif-Italic",
+                    "DejaVuSerif-BoldItalic")
+        self.add_font("TNR", "", FONT_DIR + "/%s.ttf" % _fam[0], uni=True)
+        self.add_font("TNR", "B", FONT_DIR + "/%s.ttf" % _fam[1], uni=True)
+        self.add_font("TNR", "I", FONT_DIR + "/%s.ttf" % _fam[2], uni=True)
+        self.add_font("TNR", "BI", FONT_DIR + "/%s.ttf" % _fam[3], uni=True)
         self.set_font("TNR", "", BODY_PT)
         self.chapter_title = None
         self.front = True          # cover + TOC
