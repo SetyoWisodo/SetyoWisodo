@@ -816,20 +816,18 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         if chapter_rel:
             md.append(f"Analisis untuk {sec.lower()} mengintegrasikan ketiga sumber ini: wawasan ahli di atas sebagai jangkar konseptual, berita terkini ({NEWS[ci % len(NEWS)].split('(')[0].strip().lower()}) sebagai validasi dunia nyata, dan tabel data yang mengkuantifikasi besaran. Bersama-sama mereka menunjukkan bagaimana {theme} diterjemahkan menjadi risiko nyata pada {sec.lower()}, dengan implikasi yang terukur dan dapat ditindaklanjuti.")
             md.append("")
-        md.append(f"### Pertimbangan Utama untuk {sec}")
-        md.append("")
-        for b in bullets(theme, sec):
-            md.append(f"- {b}")
+        # Pertimbangan Utama dilebur ke pembahasan (tanpa heading terpisah)
+        md.append(f"Pertimbangan utama yang muncul dari {sec.lower()} mencakup {', '.join([b.lower() for b in bullets(theme, sec)][:3])}, dengan perhatian pada asesmen lokal yang sistematis, redundansi dan kesiapsiagaan sebagai penguat analisis inti.")
+
         md.append("")
     # Studi kasus
     md.append(f"## Studi Kasus: {title}")
     md.append("")
     md.append(para(theme, "studi kasus", 2))
     md.append("")
-    md.append("### Pelajaran dari Studi Kasus")
-    md.append("")
-    for b in bullets(theme, "studi kasus"):
-        md.append(f"- {b}")
+    # Pelajaran dilebur ke narasi studi kasus
+    md.append(f"Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompok rentan, dan redundansi pada sistem kritis untuk {theme.lower()}, sebagai dasar persiapan dan koordinasi praktis.")
+
     md.append("")
     # Skenario masa depan (tetap)
     md.append(f"## Skenario Masa Depan dan Prediksi: {title}")
@@ -848,21 +846,17 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append(f"- Kebutuhan adaptasi yang lebih dapat dikelola.")
     md.append(f"- Stabilitas sosial dan ekonomi yang lebih besar.")
     md.append("")
-    md.append(f"## Inti Pembelajaran — Bab {ci}")
+    # Inti Pembelajaran dilebur ke paragraf penutup (tanpa heading terpisah)
+    md.append(f"Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk {theme.lower()}.")
+
     md.append("")
-    for b in bullets(theme, "bab ini"):
-        md.append(f"- {b}")
+    # Referensi per bab dilebur — rujukan lengkap terkonsolidasi di Daftar Pustaka (Lampiran D)
+    md.append(f"Sumber yang dikutip pada bab ini terkonsolidasi pada Daftar Pustaka (Lampiran D), tempat rujukan lengkap untuk {theme.lower()} dapat diverifikasi pada sumber primer.")
+
     md.append("")
-    md.append(f"## Referensi — Bab {ci}")
-    md.append("")
-    for _ in range(2):
-        md.append(f"- {REFS[ri % len(REFS)]}")
-        ri += 1
-    md.append("")
-    md.append(f"## Latihan — Bab {ci}")
-    md.append("")
-    for k in range(2):
-        md.append(f"{k+1}. Refleksikan bagaimana {theme} mempengaruhi komunitas Anda sendiri dan tulis rencana satu halaman.")
+    # Latihan dilebur ke ajakan reflektif (tanpa heading terpisah)
+    md.append(f"Sebagai refleksi, pertimbangkan bagaimana {theme.lower()} termanifestasi di komunitas Anda dan susun rencana adaptif satu halaman dengan menerapkan analisis di atas pada kondisi dan sumber daya lokal.")
+
     md.append("")
     md.append("---")
     md.append("")

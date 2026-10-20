@@ -818,20 +818,18 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         if chapter_rel:
             md.append(f"Analysis for {sec.lower()} integrates these strands: the expert insight above provides the conceptual anchor, current news ({NEWS[ci % len(NEWS)].split('(')[0].strip().lower()}) supplies real-world validation, and the data table quantifies magnitude. Together they show how {theme} translates into lived risk for {sec.lower()}, with implications that are both measurable and actionable.")
             md.append("")
-        md.append(f"### Key Considerations for {sec}")
-        md.append("")
-        for b in bullets(theme, sec):
-            md.append(f"- {b}")
+        # Key Considerations dissolved into discussion (no separate sub-heading)
+        md.append(f"Key considerations emerging from {sec.lower()} include {', '.join([b.lower() for b in bullets(theme, sec)][:3])}, while attention to systematic local assessment, redundancy and preparedness remains central. This sharpens the core analysis without diverting into a separate sub-topic.")
+
         md.append("")
     # Case study - keep but without forcing separate data/news/debate headings
     md.append(f"## Case Study: {title}")
     md.append("")
     md.append(para(theme, "the case study", 2))
     md.append("")
-    md.append("### Lessons from the Case Study")
-    md.append("")
-    for b in bullets(theme, "the case study"):
-        md.append(f"- {b}")
+    # Lessons dissolved into case study narrative
+    md.append(f"Lessons from the case study reinforce systematic assessment, prioritization of the most vulnerable, and redundancy in critical systems for {theme.lower()}, informing practical preparation and coordination.")
+
     md.append("")
     # Future scenarios (kept as structured sub-section, not the removed ones)
     md.append(f"## Future Scenarios and Predictions: {title}")
@@ -851,25 +849,21 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append(f"- Greater social and economic stability.")
     md.append("")
     # Chapter summary
-    md.append(f"## Chapter Summary — Chapter {ci}")
+    # Chapter Summary dissolved into closing narrative (no separate heading)
+    md.append(f"In sum, this chapter has examined {theme} by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.")
+
     md.append("")
-    md.append(f"This chapter has examined {theme} in detail, presenting mechanisms and implications in a rigorous manner. By weaving data, current observations, and scholarly debate into the core narrative, the chapter keeps the focus on actionable understanding rather than fragmented sub-topics.")
+    # Key Takeaways dissolved into concluding paragraph
+    md.append(f"Key takeaways centre on systematic local assessment, protecting the most vulnerable, building redundancy, rehearsing preparedness, and coordinating with neighboring communities for {theme.lower()}.")
+
     md.append("")
-    md.append(f"## Key Takeaways — Chapter {ci}")
+    # References per chapter dissolved — full citations consolidated in Appendix D (Daftar Pustaka) to avoid separate sub-chapter
+    md.append(f"Sources cited in this chapter are consolidated in the Daftar Pustaka (Appendix D), where complete references for {theme.lower()} can be verified against primary sources.")
+
     md.append("")
-    for b in bullets(theme, "this chapter"):
-        md.append(f"- {b}")
-    md.append("")
-    md.append(f"## References — Chapter {ci}")
-    md.append("")
-    for _ in range(2):
-        md.append(f"- {REFS[ri % len(REFS)]}")
-        ri += 1
-    md.append("")
-    md.append(f"## Exercises — Chapter {ci}")
-    md.append("")
-    for k in range(2):
-        md.append(f"{k+1}. Reflect on how {theme} affects your own community and write a one-page plan.")
+    # Exercises dissolved into narrative prompt (no separate heading)
+    md.append(f"For reflection, consider how {theme.lower()} manifests in your own community and outline a one-page adaptive plan, applying the analysis above to local conditions and resources.")
+
     md.append("")
     md.append("---")
     md.append("")
