@@ -365,6 +365,7 @@ REFS = [
  "Liverman, D.M. (2013-2023). Riset keadilan iklim; kesaksian DPR AS 2019 & karya IPCC.",
  "Ebi, K.L. dkk. (2021). Panas ekstrem & risiko kesehatan. The Lancet, 398; Lead Author IPCC SR15 Bab 3.",
  "Howden, S.M. dkk. (2007). Adaptasi pertanian terhadap perubahan iklim. PNAS, 104(50), 19691-19696.",
+ "Cissé, Gilbert et al. 2022. Health, Wellbeing and the Changing Structure of Communities. IPCC AR6 WG2 Chapter 7. Cambridge University Press.",
 ]
 REFS = list(dict.fromkeys(REFS))
 

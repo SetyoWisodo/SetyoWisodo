@@ -364,6 +364,7 @@ REFS = [
  "Liverman, D.M. (2013-2023). Climate justice scholarship; Arizona House Climate Crisis testimony 2019 & IPCC author work.",
  "Ebi, K.L. et al. (2021). Hot weather and heat extremes: health risks. The Lancet, 398, 698-708; IPCC SR15 Ch.3 lead author statements 2018.",
  "Howden, S.M. et al. (2007). Adapting agriculture to climate change. PNAS, 104(50), 19691-19696.",
+ "Cissé, Gilbert et al. 2022. Health, Wellbeing and the Changing Structure of Communities. IPCC AR6 WG2 Chapter 7. Cambridge University Press.",
 ]
 REFS = list(dict.fromkeys(REFS))
 

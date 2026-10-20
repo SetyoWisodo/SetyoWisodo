@@ -3581,6 +3581,7 @@ Buku ini dirancang untuk digunakan dalam diskusi akademik. Saat memperdebatkan a
 - Berkes, F. & Ross, H. (2013). Community resilience: toward an integrated approach. Society & Natural Resources, 26(1), 5-20.
 - Burke, M., Hsiang, S.M. & Miguel, E. (2015). Global non-linear effect of temperature on economic production. Nature, 527, 235-239.
 - Cisse, G. et al. (2022). Health, Wellbeing, and the Changing Structure of Communities. IPCC AR6 WG2 Chapter 7.
+- Cissé, Gilbert et al. 2022. Health, Wellbeing and the Changing Structure of Communities. IPCC AR6 WG2 Chapter 7. Cambridge University Press.
 - Clayton, S. (2020). Climate anxiety: Psychological responses to climate change. Journal of Anxiety Disorders, 74, 102263.
 - Cutter, S.L. et al. (2008). A place-based model for understanding community resilience. Global Environmental Change, 18(4), 598-606.
 - Ebi, K.L. et al. (2021). Hot weather and heat extremes: health risks. The Lancet, 398(10301), 698-708.
