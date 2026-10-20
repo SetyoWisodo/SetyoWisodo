@@ -24,6 +24,7 @@ from .ch20 import CH as _ch20
 from .ch21 import CH as _ch21
 from .ch22 import CH as _ch22
 from .ch23 import CH as _ch23
+from .ch24 import CH as _ch24
 
 DEEP_ID = {
     1: _ch01,
@@ -49,4 +50,5 @@ DEEP_ID = {
     21: _ch21,
     22: _ch22,
     23: _ch23,
+    24: _ch24,
 }
