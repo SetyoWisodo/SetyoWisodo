@@ -701,12 +701,12 @@ EXPERT_DETAILS = {
 # Generic para templates without forcing specific author every chapter (avoid Roberts etc. repetition)
 def para(topic, section, i):
     templates = [
-     "Field data on {section} reveal measurable shifts linked to {topic}, consistent with long-term satellite and ground records (IPCC, 2023). Monitoring of {section} shows changes in magnitude and timing, including earlier onset and longer duration in several regions. Model projections that include anthropogenic forcing reproduce observed {section} patterns more closely than natural variability alone. Regional examples show how disrupted seasonal rhythms tied to {section} affect agriculture and water management. Convergence across independent datasets on {section} increases confidence and supports planning that no longer assumes stationary baselines.",
+     "Field data on {section} reveal measurable shifts linked to {topic}, consistent with long-term satellite and ground records (IPCC, 2023). Monitoring of {section} shows changes in magnitude and timing, including earlier onset and longer duration in several regions. Model projections that include anthropogenic forcing reproduce the observed patterns of {section} more closely than natural variability alone. Regional examples show how disrupted seasonal rhythms tied to {section} affect agriculture and water management. Convergence across independent datasets on {section} increases confidence and supports planning that no longer assumes stationary baselines.",
      "Physical mechanisms driving {section} operate through energy and moisture pathways tied to {topic} (IPCC, 2021; WMO, 2023). Radiative perturbations from {topic} cascade into circulation and hydrological changes, with feedbacks that can amplify the initial signal. Empirical studies of {section} show these feedbacks are already observable in recent decades. Attribution research quantifies the anthropogenic contribution to {section} extremes, strengthening causal statements beyond correlation. Distinguishing proximate triggers of {section} from underlying drivers clarifies where interventions can be most effective.",
-     "Impacts of {section} are uneven across populations within {topic}, reflecting differences in exposure and adaptive capacity (IPCC, 2022; UNDRR, 2015). Groups facing {section} with limited resources or insecure tenure carry disproportionate risk, and urban-rural contrasts shape the outcome. Gender and age dimensions further modulate how {section} is experienced. These disparities in {section} arise from intersecting social and institutional processes rather than chance. Equity-centred assessments of {section} therefore provide a more accurate picture than aggregate averages alone.",
-     "Governance and practice around {section} shape whether {topic} becomes manageable risk or cascading failure (IPCC, 2022; UNDRR, 2015). Effective approaches to {section} blend formal planning, flexible delivery and participatory oversight. Early warning, land-use guidance and infrastructure standards for {section} work best when co-designed with local users. Institutional fragmentation can delay action on {section}, while cross-scale coordination improves response to compound events. Learning from successes and failures in {section} offers a practical curriculum for improvement.",
+     "Impacts of {section} are uneven across populations within {topic}, reflecting differences in exposure and adaptive capacity (IPCC, 2022; UNDRR, 2015). Groups facing {section} with limited resources or insecure tenure carry disproportionate risk, and urban-rural contrasts shape the outcome. Gender and age dimensions further modulate how people experience {section}. These disparities in {section} arise from intersecting social and institutional processes rather than chance. Equity-centred assessments of {section} therefore provide a more accurate picture than aggregate averages alone.",
+     "Governance and practice around {section} shape whether {topic} remains manageable or tips into cascading failure (IPCC, 2022; UNDRR, 2015). Effective approaches to {section} blend formal planning, flexible delivery and participatory oversight. Early warning, land-use guidance and infrastructure standards for {section} work best when co-designed with local users. Institutional fragmentation can delay action on {section}, while cross-scale coordination improves response to compound events. Learning from successes and failures in {section} offers a practical curriculum for improvement.",
      "Economic considerations for {section} in the context of {topic} show that proactive investment generally costs less than bearing escalating losses (World Bank, 2022; IPCC, 2022). Direct damages from {section} to productivity and infrastructure spill over into supply chains and insurance markets. Agriculture and coastal assets exposed to {section} are particularly vulnerable. Finance gaps for {section} remain largest where needs are greatest, pointing to transparent risk disclosure and blended funding that reaches vulnerable groups. Cost-benefit analysis of {section} therefore needs to count avoided losses, not only upfront spending.",
-     "Health dimensions of {section} link {topic} to acute and chronic outcomes (WHO, 2023). Heat stress, air-quality changes and shifting vector ranges illustrate direct pathways from {section}, while food insecurity and displacement illustrate indirect ones. Health systems already face pressure from climate-sensitive conditions that {section} intensifies. Mental-health effects of {section}, including anxiety and post-event trauma, are increasingly documented. Linking climate monitoring with health surveillance around {section} creates co-benefits for early action and prevention.",
+     "Health dimensions of {section} link {topic} to acute and chronic outcomes (WHO, 2023). Heat stress, air-quality changes and shifting vector ranges illustrate direct pathways from {section}, while food insecurity and displacement illustrate indirect ones. Health systems already face pressure from climate-sensitive conditions, and {section} adds to that pressure. Mental-health effects of {section}, including anxiety and post-event trauma, are increasingly documented. Linking climate monitoring with health surveillance around {section} creates co-benefits for early action and prevention.",
      "Evaluating evidence on {section} benefits from attention to methods relevant to {topic} (IPCC, 2023). Long-term observations of {section} ground findings in the real world, while experiments and quasi-experimental designs strengthen causal inference. Models of {section} help explore scenarios but rest on assumptions that should be disclosed. Syntheses that pool {section} studies improve statistical power, yet heterogeneity requires careful interpretation. Appraising design, sample and uncertainty reporting for {section} builds resilient use of science.",
      "Pathways forward for {section} within {topic} depend on pairing near-term actions with longer-term transformation (IPCC, 2023). Incremental measures for {section}, such as improved forecasts and diversified livelihoods, provide immediate relief, while ecosystem-based and energy-transition strategies address root drivers. Community-led innovations in {section} often perform well when resourced. Iterative monitoring of {section} allows course correction as conditions evolve. Framing options for {section} as portfolios rather than single fixes reflects complexity and supports adaptation robust to uncertainty.",
     ]
@@ -801,7 +801,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append(para(theme, "this chapter", 0))
     md.append("")
     # Integrated overview dissolved into chapter narrative (no separate heading)
-    md.append(f"This chapter examines {theme} through peer-reviewed evidence, current observations and scenario projections, inviting verification against chapter-end sources. For {theme}, the discussion proceeds from core concepts to evidence and to actionable implications, with each section presenting its main argument first and then integrating supporting data, news and expert insight.")
+    md.append(f"This chapter examines {theme} through peer-reviewed evidence, current observations and scenario projections, inviting verification against the consolidated Daftar Pustaka in Appendix D. For {theme}, the discussion proceeds from core concepts to evidence and to actionable implications, with each section presenting its main argument first and then integrating supporting data, news and expert insight.")
 
     md.append("")
     # 4 subsections - expert as integrated topic/supporting narrative only where relevant (not forced)
@@ -849,9 +849,6 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(para(theme, theme, 2))
     md.append("")
-    # Lessons dissolved into case study narrative
-    md.append(f"Lessons from the case study reinforce systematic assessment, prioritization of the most vulnerable, and redundancy in critical systems for {theme.lower()}, informing practical preparation and coordination.")
-
     md.append("")
     # Future Scenarios and Predictions — analisis unik per bab (tanpa template berulang)
     fs = FUTURE_SCENARIOS[ci - 1]["en"]
@@ -863,32 +860,13 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(fs["adapt"])
     md.append("")
-    md.append(fs["watch"])
-    md.append("")
     md.append("| Horizon | What changes for this chapter |")
     md.append("|---|---|")
     md.append(f"| 2030 | {fs['k30']} |")
     md.append(f"| 2050 | {fs['k50']} |")
     md.append(f"| 2100 | {fs['k100']} |")
     md.append("")
-
-    md.append("")
-    # Chapter summary
-    # Chapter Summary dissolved into closing narrative (no separate heading)
-    md.append(f"In sum, this chapter has examined {theme} by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.")
-
-    md.append("")
-    # Key Takeaways dissolved into concluding paragraph
-    md.append(f"Key takeaways centre on systematic local assessment, protecting the most vulnerable, building redundancy, rehearsing preparedness, and coordinating with neighboring communities for {theme.lower()}.")
-
-    md.append("")
-    # References per chapter dissolved — full citations consolidated in Appendix D (Daftar Pustaka) to avoid separate sub-chapter
-    md.append(f"Sources cited in this chapter are consolidated in the Daftar Pustaka (Appendix D), where complete references for {theme.lower()} can be verified against primary sources.")
-
-    md.append("")
-    # Exercises dissolved into narrative prompt (no separate heading)
-    md.append(f"For reflection, consider how {theme.lower()} manifests in your own community and outline a one-page adaptive plan, applying the analysis above to local conditions and resources.")
-
+    md.append(fs["watch"])
     md.append("")
     md.append("---")
     md.append("")

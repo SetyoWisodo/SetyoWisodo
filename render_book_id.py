@@ -26,7 +26,9 @@ def md_to_html(md_text):
     lines = md_text.split('\n')
     html_parts = []
     in_ul = False
-    for line in lines:
+    in_table = False
+    table_has_body = False
+    for idx, line in enumerate(lines):
         s = line.rstrip()
         if s.strip() == '---':
             if in_ul:
@@ -36,18 +38,63 @@ def md_to_html(md_text):
         if s.startswith('# '):
             if in_ul:
                 html_parts.append('</ul>'); in_ul=False
-            html_parts.append('<h1 style="line-height:1.5; margin-top:6mm; margin-bottom:4mm; text-align:center;">%s</h1>' % inline(s[2:].strip()))
+            html_parts.append('<h1 style="line-height:1.4; margin-top:4mm; margin-bottom:3mm; text-align:center;">%s</h1>' % inline(s[2:].strip()))
             continue
         if s.startswith('## '):
             if in_ul:
                 html_parts.append('</ul>'); in_ul=False
-            html_parts.append('<h2 style="line-height:1.5; margin-top:4mm; margin-bottom:3mm;">%s</h2>' % inline(s[3:].strip()))
+            html_parts.append('<h2 style="line-height:1.35; margin-top:3mm; margin-bottom:2mm;">%s</h2>' % inline(s[3:].strip()))
             continue
         if s.startswith('### '):
             if in_ul:
                 html_parts.append('</ul>'); in_ul=False
             html_parts.append('<h3 style="line-height:1.5; margin-top:3mm; margin-bottom:2mm;">%s</h3>' % inline(s[4:].strip()))
             continue
+        # --- Tabel markdown -> <table> HTML (fpdf2 mendukung table) ---
+        if s.strip().startswith('|'):
+            if in_ul:
+                html_parts.append('</ul>'); in_ul = False
+            if not in_table:
+                nrows = 0
+                for nxt in lines[idx:]:
+                    if nxt.strip().startswith('|'):
+                        nrows += 1
+                    else:
+                        break
+                # lookahead: sertakan paragraf sesudah tabel agar tidak tersisa 1-2 baris di halaman baru
+                after_words = 0
+                seen_blank = 0
+                for nxt in lines[idx + nrows:]:
+                    st = nxt.strip()
+                    if not st:
+                        seen_blank += 1
+                        if seen_blank > 2:
+                            break
+                        continue
+                    if st.startswith('#') or st.startswith('|') or st == '---':
+                        break
+                    after_words += len(st.split())
+                html_parts.append('<table border="1" width="100%%" align="center" data-rows="%d" data-after="%d">' % (nrows, after_words))
+                in_table = True
+            cells = [c.strip() for c in s.strip().strip('|').split('|')]
+            if all(re.fullmatch(r':?-{2,}:?', c) for c in cells if c):
+                continue  # baris separator |---|---|
+            is_head = (not table_has_body)
+            tag = 'th' if is_head else 'td'
+            row = ''.join(
+                '<%s width="%s" style="font-size:8.5pt; line-height:1.15; padding:0.6mm;" align="left"><b>%s</b></%s>' % (tag, "18%" if ci == 0 else "82%", inline(c), tag)
+                if is_head else
+                '<%s width="%s" style="font-size:8.5pt; line-height:1.15; padding:0.6mm;" align="left">%s</%s>' % (tag, "18%" if ci == 0 else "82%", inline(c), tag)
+                for ci, c in enumerate(cells)
+            )
+            html_parts.append('<tr>%s</tr>' % row)
+            if not is_head:
+                table_has_body = True
+            continue
+        if in_table and not s.strip().startswith('|'):
+            html_parts.append('</table>')
+            in_table = False
+            table_has_body = False
         if s.strip().startswith('- '):
             if not in_ul:
                 html_parts.append('<ul>'); in_ul=True
@@ -62,18 +109,38 @@ def md_to_html(md_text):
         if s.strip() == '':
             if in_ul:
                 html_parts.append('</ul>'); in_ul=False
-            html_parts.append('<div style="height:2mm;"></div>')
+            if in_table:
+                html_parts.append('</table>'); in_table=False; table_has_body=False
+            html_parts.append('<div style="height:0.8mm;"></div>')
             continue
         if in_ul:
             html_parts.append('</ul>'); in_ul=False
-        html_parts.append('<p style="text-align:justify; line-height:1.25; margin-bottom:4mm; text-indent:12.7mm;">%s</p>' % inline(s.strip()))
+        html_parts.append('<p style="text-align:justify; line-height:1.18; margin-bottom:2.0mm; text-indent:12.7mm;">%s</p>' % inline(s.strip()))
     if in_ul:
         html_parts.append('</ul>')
+    if in_table:
+        html_parts.append('</table>')
     return '\n'.join(html_parts)
 
 chunks = re.split(r'(?=^# (?:Bab|Lampiran)\b)', md, flags=re.MULTILINE)
 
 class TrackingHTML2PDF(HTML2FPDF):
+    def handle_starttag(self, tag, attrs):
+        if tag == 'table':
+            attrs_d = dict(attrs)
+            try:
+                rows = int(attrs_d.get('data-rows', 4))
+            except (TypeError, ValueError):
+                rows = 4
+            try:
+                after_words = int(attrs_d.get('data-after', 0))
+            except (TypeError, ValueError):
+                after_words = 0
+            need = 5 + rows * 6.0 + (int(after_words / 11) + 1) * 5.0  # mm tabel + paragraf sesudahnya
+            if self.pdf.get_y() + need > self.pdf.page_break_trigger and self.pdf.get_y() > self.pdf.t_margin + 4:
+                self.pdf.add_page()
+        super().handle_starttag(tag, attrs)
+
     def handle_data(self, data):
         super().handle_data(data)
         if 'sup' in self._tags_stack:
@@ -151,3 +218,17 @@ if pdf.page > 0:
 
 pdf.output('/home/user/SetyoWisodo/Surviving_the_Future_ID.pdf')
 print('PDF written; footnotes:', len(footnotes), 'pages:', pdf.page, 'format: A4 margins 30/30/30/40mm')
+
+# blank page cleanup: hapus halaman kosong sisa page-break
+try:
+    import pymupdf as _pm
+    _doc = _pm.open('/home/user/SetyoWisodo/Surviving_the_Future_ID.pdf')
+    _blank = [i for i, _pg in enumerate(_doc) if len(_pg.get_text().strip().split()) <= 1]
+    for _i in reversed(_blank):
+        _doc.delete_page(_i)
+    if _blank:
+        _doc.saveIncr()
+    print('blank pages removed:', _blank, '| final pages:', len(_doc))
+    _doc.close()
+except Exception as _e:
+    print('blank cleanup skipped:', _e)

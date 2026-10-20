@@ -697,12 +697,12 @@ EXPERT_DETAILS = {
 
 def para(topic, section, i):
     templates = [
-     "Data lapangan tentang {section} menunjukkan pergeseran terukur yang terkait dengan {topic}, dikuatkan catatan satelit dan stasiun permukaan (IPCC, 2023). Pemantauan {section} mengungkap perubahan besaran dan waktu, termasuk awal yang lebih cepat dan durasi lebih panjang di beberapa wilayah. Proyeksi model yang memasukkan pemaksaan antropogenik mereproduksi pola {section} lebih dekat daripada variabilitas alam saja. Contoh regional menunjukkan bagaimana ritme musiman yang terganggu oleh {section} memengaruhi pertanian dan pengelolaan air. Konvergensi dataset independen tentang {section} memperkuat keyakinan dan mendukung perencanaan yang tidak lagi mengasumsikan basis stasioner.",
+     "Data lapangan tentang {section} menunjukkan pergeseran terukur yang terkait dengan {topic}, dikuatkan catatan satelit dan stasiun permukaan (IPCC, 2023). Pemantauan {section} mengungkap perubahan besaran dan waktu, termasuk awal yang lebih cepat dan durasi lebih panjang di beberapa wilayah. Proyeksi model yang memasukkan pemaksaan antropogenik mereproduksi pola yang teramati pada {section} lebih dekat daripada variabilitas alam saja. Contoh regional menunjukkan bagaimana ritme musiman yang terganggu oleh {section} memengaruhi pertanian dan pengelolaan air. Konvergensi dataset independen tentang {section} memperkuat keyakinan dan mendukung perencanaan yang tidak lagi mengasumsikan basis stasioner.",
      "Mekanisme fisik yang mendorong {section} bekerja melalui jalur energi dan kelembapan yang terhubung dengan {topic} (IPCC, 2021; WMO, 2023). Gangguan radiatif dari {topic} merambat ke perubahan sirkulasi dan hidrologi, dengan umpan balik yang dapat memperkuat sinyal awal. Studi empiris tentang {section} menunjukkan umpan balik itu sudah teramati dalam beberapa dekade terakhir. Riset atribusi mengukur kontribusi antropogenik pada ekstrem {section}, memperkuat pernyataan kausal melampaui korelasi. Membedakan pemicu dekat {section} dari pendorong yang mendasari membantu menentukan titik intervensi paling efektif.",
-     "Dampak {section} tidak merata antar-populasi dalam {topic}, mencerminkan perbedaan paparan dan kapasitas adaptasi (IPCC, 2022; UNDRR, 2015). Kelompok yang menghadapi {section} dengan sumber daya terbatas atau kepemilikan lahan tidak aman menanggung risiko tidak proporsional, dan kontras kota-desa membentuk hasilnya. Dimensi gender dan usia lebih lanjut memodulasi cara {section} dialami. Disparitas dalam {section} ini lahir dari proses sosial dan institusional yang saling berpotongan, bukan kebetulan. Karena itu, penilaian {section} yang berpusat pada keadilan memberi gambaran lebih akurat daripada rata-rata agregat.",
-     "Tata kelola dan praktik di sekitar {section} menentukan apakah {topic} menjadi risiko terkelola atau kegagalan berantai (IPCC, 2022; UNDRR, 2015). Pendekatan efektif untuk {section} memadukan perencanaan formal, pelaksanaan fleksibel dan pengawasan partisipatif. Peringatan dini, regulasi guna lahan dan standar infrastruktur untuk {section} paling efektif bila dirancang bersama pengguna lokal. Fragmentasi kelembagaan dapat menunda tindakan atas {section}, sementara koordinasi lintas skala memperbaiki respons terhadap kejadian majemuk. Belajar dari keberhasilan dan kegagalan penanganan {section} menyediakan kurikulum praktis untuk perbaikan.",
+     "Dampak {section} tidak merata antar-populasi dalam {topic}, mencerminkan perbedaan paparan dan kapasitas adaptasi (IPCC, 2022; UNDRR, 2015). Kelompok yang menghadapi {section} dengan sumber daya terbatas atau kepemilikan lahan tidak aman menanggung risiko tidak proporsional, dan kontras kota-desa membentuk hasilnya. Dimensi gender dan usia lebih lanjut memodulasi cara orang mengalami {section}. Disparitas dalam {section} ini lahir dari proses sosial dan institusional yang saling berpotongan, bukan kebetulan. Karena itu, penilaian {section} yang berpusat pada keadilan memberi gambaran lebih akurat daripada rata-rata agregat.",
+     "Tata kelola dan praktik di sekitar {section} menentukan apakah {topic} tetap terkelola atau berujung kegagalan berantai (IPCC, 2022; UNDRR, 2015). Pendekatan efektif untuk {section} memadukan perencanaan formal, pelaksanaan fleksibel dan pengawasan partisipatif. Peringatan dini, regulasi guna lahan dan standar infrastruktur untuk {section} paling efektif bila dirancang bersama pengguna lokal. Fragmentasi kelembagaan dapat menunda tindakan atas {section}, sementara koordinasi lintas skala memperbaiki respons terhadap kejadian majemuk. Belajar dari keberhasilan dan kegagalan penanganan {section} menyediakan kurikulum praktis untuk perbaikan.",
      "Pertimbangan ekonomi {section} dalam konteks {topic} menunjukkan investasi proaktif umumnya lebih murah daripada menanggung kerugian yang meningkat (World Bank, 2022; IPCC, 2022). Kerugian langsung {section} pada produktivitas dan infrastruktur merembet ke rantai pasok dan pasar asuransi. Aset pertanian dan pesisir yang terpapar {section} sangat rentan. Kesenjangan pembiayaan untuk {section} terbesar di tempat kebutuhan paling tinggi, menuntut keterbukaan risiko dan pendanaan campuran yang menjangkau kelompok rentan. Analisis biaya-manfaat {section} karena itu perlu menghitung kerugian yang dihindari, bukan hanya belanja awal.",
-     "Dimensi kesehatan {section} menghubungkan {topic} dengan luaran akut dan kronis (WHO, 2023). Stres panas, perubahan kualitas udara dan pergeseran rentang vektor menggambarkan jalur langsung dari {section}, sementara ketidakamanan pangan dan pengungsian menggambarkan jalur tak langsung. Sistem kesehatan sudah tertekan kondisi sensitif iklim yang diperparah {section}. Dampak kesehatan jiwa dari {section}, termasuk kecemasan dan trauma pascakejadian, makin terdokumentasi. Menghubungkan pemantauan iklim dengan surveilans kesehatan untuk {section} menciptakan manfaat bersama bagi tindakan dini dan pencegahan.",
+     "Dimensi kesehatan {section} menghubungkan {topic} dengan luaran akut dan kronis (WHO, 2023). Stres panas, perubahan kualitas udara dan pergeseran rentang vektor menggambarkan jalur langsung dari {section}, sementara ketidakamanan pangan dan pengungsian menggambarkan jalur tak langsung. Sistem kesehatan sudah tertekan kondisi sensitif iklim, dan {section} menambah tekanan itu. Dampak kesehatan jiwa dari {section}, termasuk kecemasan dan trauma pascakejadian, makin terdokumentasi. Menghubungkan pemantauan iklim dengan surveilans kesehatan untuk {section} menciptakan manfaat bersama bagi tindakan dini dan pencegahan.",
      "Menilai bukti tentang {section} membutuhkan perhatian pada metode yang relevan bagi {topic} (IPCC, 2023). Observasi jangka panjang {section} membumikan temuan, sementara eksperimen dan desain kuasi-eksperimen memperkuat inferensi kausal. Model {section} membantu mengeksplorasi skenario tetapi bergantung pada asumsi yang harus diungkap. Sintesis yang menggabungkan studi {section} meningkatkan kekuatan statistik, meski heterogenitas menuntut tafsir hati-hati. Menilai desain, sampel dan pelaporan ketidakpastian untuk {section} membangun penggunaan ilmu yang tangguh.",
      "Jalur ke depan untuk {section} dalam {topic} bergantung pada penyelarasan tindakan jangka pendek dengan transformasi jangka panjang (IPCC, 2023). Langkah inkremental untuk {section}, seperti prakiraan lebih baik dan diversifikasi mata pencaharian, memberi kelegaan segera, sementara strategi berbasis ekosistem dan transisi energi mengatasi pendorong akar. Inovasi yang dipimpin komunitas dalam {section} sering berkinerja baik bila didukung sumber daya. Pemantauan iteratif {section} memungkinkan koreksi arah seiring kondisi berkembang. Membingkai opsi {section} sebagai portofolio, bukan solusi tunggal, mencerminkan kompleksitas dan mendukung adaptasi yang tangguh terhadap ketidakpastian.",
     ]
@@ -804,7 +804,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append(para(theme, "bab ini", 0))
     md.append("")
     # Gambaran Bab dilebur ke narasi inti (tanpa heading terpisah)
-    md.append(f"Bab ini mengkaji {theme} dengan bukti peer-reviewed, observasi terkini dan proyeksi skenario, serta dapat diverifikasi pada sumber akhir bab. Untuk {theme}, pembahasan bergerak dari konsep inti ke bukti dan implikasi yang dapat ditindaklanjuti, dengan tiap bagian menyampaikan gagasan pokok terlebih dahulu lalu mengintegrasikan data, berita terkini dan wawasan ahli.")
+    md.append(f"Bab ini mengkaji {theme} dengan bukti peer-reviewed, observasi terkini dan proyeksi skenario, serta dapat diverifikasi pada Daftar Pustaka terkonsolidasi di Lampiran D. Untuk {theme}, pembahasan bergerak dari konsep inti ke bukti dan implikasi yang dapat ditindaklanjuti, dengan tiap bagian menyampaikan gagasan pokok terlebih dahulu lalu mengintegrasikan data, berita terkini dan wawasan ahli.")
 
     md.append("")
 
@@ -847,8 +847,6 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(para(theme, theme, 2))
     md.append("")
-    # Pelajaran dilebur ke narasi studi kasus
-    md.append(f"Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompok rentan, dan redundansi pada sistem kritis untuk {theme.lower()}, sebagai dasar persiapan dan koordinasi praktis.")
 
     md.append("")
     # Skenario Masa Depan dan Prediksi — analisis unik per bab (tanpa template berulang)
@@ -861,27 +859,13 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(fs["adapt"])
     md.append("")
-    md.append(fs["watch"])
-    md.append("")
     md.append("| Horizon | Perubahan pada bab ini |")
     md.append("|---|---|")
     md.append(f"| 2030 | {fs['k30']} |")
     md.append(f"| 2050 | {fs['k50']} |")
     md.append(f"| 2100 | {fs['k100']} |")
     md.append("")
-
-    md.append("")
-    # Inti Pembelajaran dilebur ke paragraf penutup (tanpa heading terpisah)
-    md.append(f"Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk {theme.lower()}.")
-
-    md.append("")
-    # Referensi per bab dilebur — rujukan lengkap terkonsolidasi di Daftar Pustaka (Lampiran D)
-    md.append(f"Sumber yang dikutip pada bab ini terkonsolidasi pada Daftar Pustaka (Lampiran D), tempat rujukan lengkap untuk {theme.lower()} dapat diverifikasi pada sumber primer.")
-
-    md.append("")
-    # Latihan dilebur ke ajakan reflektif (tanpa heading terpisah)
-    md.append(f"Sebagai refleksi, pertimbangkan bagaimana {theme.lower()} termanifestasi di komunitas Anda dan susun rencana adaptif satu halaman dengan menerapkan analisis di atas pada kondisi dan sumber daya lokal.")
-
+    md.append(fs["watch"])
     md.append("")
     md.append("---")
     md.append("")
