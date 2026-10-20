@@ -836,7 +836,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
 
     md.append("")
 
-    md.append(f"**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.")
+    md.append(f"Looking at current warming data for {theme.lower()} — with global temperature already ~1.1–1.2°C above pre-industrial (IPCC, 2023) and CO2 at ~420 ppm (NOAA, 2024) — the coming decades bring clear, everyday impacts. For example, sea level is projected to rise about 0.2–0.3 meters by 2040 and 0.4–0.6 meters by 2060 compared to 2000; coastal neighborhoods below 2–3 meters above sea level, such as low-lying parts of Jakarta, Semarang, Surabaya, New Orleans, Dhaka and small island capitals, will face regular tidal flooding even without storms, and by 2100 a rise of 0.6–1.0 meters could permanently submerge fishing villages, ports and farmland. Practical adaptations include raising houses on stilts, restoring mangroves and wetlands as natural barriers, building community evacuation routes and early-warning, securing freshwater from salt intrusion, and planning gradual relocation with livelihoods in mind. The scenarios below translate this picture into three futures for {theme.lower()} in plain language.")
 
     md.append("")
 
@@ -848,7 +848,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
 
     md.append("")
 
-    md.append(f"**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where {theme.lower()} risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).")
+    md.append(f"In a middle path where emissions peak around 2040 and then slowly fall, warming reaches about 1.8–2.2°C by 2050. For {theme.lower()}, impacts become patchy: some neighborhoods suffer stronger heat, others more floods or droughts, and problems in one area (for example, crop failure) spill over to food prices, jobs and health (Hsiang & Burke, 2014; Burke et al., 2015). Drought, food and water problems often start to trigger each other (Wheeler & von Braun, 2013), as do heat and health problems (Watts et al., 2021; Vicedo-Cabrera et al., 2021). This is the path where everyday risks slowly become normal, not a single big event.")
 
     md.append("")
 
@@ -864,7 +864,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
 
     md.append("")
 
-    md.append(f"**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for {theme.lower()} (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).")
+    md.append(f"How certain is this, and what are the limits? We are most certain about big, planet-wide changes — temperature, sea level and shrinking Arctic ice (~13% per decade, NASA, 2024) — and less certain about exactly which street or village will flood first, because local economy and planning matter too (IPCC, 2022; UNDRR, 2015). For {theme.lower()}, adapting gets much harder above about 2°C (Pörtner et al., 2022). Communities can check these numbers against local experience: watch tide gauges, heat records and crop yields, and compare with the data that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million are displaced by climate each year (UNHCR, 2023).")
 
     md.append("")
 

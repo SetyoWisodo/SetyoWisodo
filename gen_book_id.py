@@ -834,7 +834,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
 
     md.append("")
 
-    md.append(f"**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.")
+    md.append(f"Melihat data pemanasan saat ini untuk {theme.lower()} — suhu global sudah ~1,1–1,2°C di atas pra-industri (IPCC, 2023) dan CO2 di ~420 ppm (NOAA, 2024) — dekade mendatang membawa dampak yang mudah dipahami. Misalnya, permukaan laut diproyeksikan naik sekitar 0,2–0,3 meter pada 2040 dan 0,4–0,6 meter pada 2060 dibanding 2000; permukiman pesisir di bawah 2–3 meter di atas permukaan laut, seperti wilayah rendah Jakarta, Semarang, Surabaya, New Orleans, Dhaka dan ibu kota pulau kecil, akan mengalami banjir rob rutin bahkan tanpa badai, dan pada 2100 kenaikan 0,6–1,0 meter dapat menenggelamkan permanen kampung nelayan, pelabuhan dan lahan pertanian. Cara antisipasi yang praktis meliputi meninggikan rumah panggung, memulihkan mangrove dan lahan basah sebagai pelindung alami, membangun jalur evakuasi komunitas dan peringatan dini, mengamankan air tawar dari intrusi garam, serta merencanakan relokasi bertahap dengan menjaga mata pencaharian. Skenario di bawah ini menerjemahkan gambaran ini menjadi tiga masa depan untuk {theme.lower()} dengan bahasa sederhana.")
 
     md.append("")
 
@@ -846,7 +846,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
 
     md.append("")
 
-    md.append(f"**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko {theme.lower()} tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).")
+    md.append(f"Pada jalur tengah di mana emisi memuncak sekitar 2040 lalu turun perlahan, pemanasan mencapai sekitar 1,8–2,2°C pada 2050. Untuk {theme.lower()}, dampaknya tidak merata: sebagian wilayah lebih panas, sebagian lebih banjir atau kekeringan, dan masalah di satu sisi (misalnya gagal panen) merembet ke harga pangan, pekerjaan dan kesehatan (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) menunjukkan efek berantai. Ini adalah jalur di mana risiko sehari-hari perlahan menjadi kebiasaan, bukan satu peristiwa besar.")
 
     md.append("")
 
@@ -862,7 +862,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
 
     md.append("")
 
-    md.append(f"**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk {theme.lower()} (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).")
+    md.append(f"Seberapa yakin kita, dan apa batasnya? Kita paling yakin tentang perubahan besar seplanet — suhu, permukaan laut, dan penyusutan es Arktik (~13% per dekade, NASA, 2024) — dan kurang yakin tentang jalan atau desa mana yang akan banjir duluan, karena ekonomi dan perencanaan lokal ikut menentukan (IPCC, 2022; UNDRR, 2015). Untuk {theme.lower()}, adaptasi menjadi jauh lebih sulit di atas sekitar 2°C (Pörtner dkk., 2022). Warga dapat memeriksa angka-angka ini dengan pengalaman lokal: pantau pasang surut, catatan panas dan hasil panen, dan bandingkan dengan data bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim tiap tahun (UNHCR, 2023).")
 
     md.append("")
 
