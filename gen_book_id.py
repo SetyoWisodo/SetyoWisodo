@@ -503,6 +503,22 @@ DATA_TABLES = [
 | Kerugian ekonomi akibat kekeringan | Miliaran USD | World Bank |""",
 ]
 
+DATA_POINTS = [
+ "suhu rata-rata global naik ~1,1–1,2°C sejak 1850–1900 (IPCC AR6)",
+ "konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA)",
+ "permukaan laut naik ~20–25 cm sejak 1900 (IPCC AR6)",
+ "es laut Arktik menyusut ~13% per dekade (NASA)",
+ "~100 juta orang terdampak bencana iklim setiap tahun (IFRC)",
+ "kerugian ekonomi akibat bencana iklim mencapai ~$200–300 miliar per tahun (World Bank)",
+ "~500.000+ kematian terkait panas terjadi setiap tahun (WHO/Lancet)",
+ "~7 juta kematian akibat polusi udara terjadi setiap tahun (WHO)",
+ "~800 juta menghadapi kerawanan pangan (FAO)",
+ "~2 miliar kekurangan air bersih (WHO/UNICEF)",
+ "hasil gandum turun ~6% per 1°C pemanasan (IPCC/Science)",
+ "~20 juta mengungsi akibat iklim setiap tahun (UNHCR)",
+]
+
+
 # Relevance mapping ID (Indonesian keywords)
 EXPERT_KEYWORDS = {
  0: ["kenaikan permukaan laut", "pencairan es", "superstorm", "arktik", "permafrost", "srocc", "badai dan topan", "pulau kecil"],
@@ -658,8 +674,10 @@ def para(topic, section, i):
     ]
     t1 = templates[i % len(templates)]
     t2 = templates[(i+3) % len(templates)]
-    return (t1.format(section=section, topic=topic) + " " +
-            t2.format(section=section, topic=topic))
+    base = t1.format(section=section, topic=topic) + " " + t2.format(section=section, topic=topic)
+    data_idx = (i + len(section)) % len(DATA_POINTS)
+    base += f" Hal ini diperkuat oleh bukti bahwa {DATA_POINTS[data_idx]}."
+    return base
 
 def bullets(topic, section):
     return [
@@ -768,15 +786,8 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
             md.append("")
         md.append(para(theme, sec, si))
         md.append("")
-        md.append(para(theme, sec, si+4))
-        md.append("")
-        # Data, berita, dan debat melebur sebagai narasi pendukung (bukan sub-bab)
-        md.append(f"Data untuk {sec.lower()} menunjukkan skala sudah terukur: suhu rata-rata global naik ~1,1–1,2°C sejak 1850–1900 (IPCC AR6), konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA), permukaan laut naik ~20–25 cm sejak 1900 (IPCC AR6), dan es laut Arktik menyusut ~13% per dekade (NASA), dengan ~100 juta orang terdampak bencana iklim setiap tahun (IFRC) dan kerugian ekonomi ~$200–300 miliar per tahun (World Bank). Diterjemahkan ke {sec.lower()}, ini berarti ~800 juta menghadapi kerawanan pangan (FAO), ~2 miliar kekurangan air bersih (WHO/UNICEF), hasil gandum turun ~6% per 1°C (IPCC/Science), dan ~20 juta mengungsi tiap tahun (UNHCR). Indikator-indikator ini, konsisten dengan mekanisme di atas, menunjukkan beban lokal berbeda namun pola terukur yang sama untuk {theme}, bukan proyeksi jauh.")
-        md.append("")
-        md.append(f"Sebagai contoh, indikator suhu dan paparan pada tabel tersebut berimplikasi langsung pada {sec.lower()}, dengan variasi menurut kapasitas lokal.")
-        md.append("")
         news_item = NEWS[((ci-1)*4 + (si-1)) % len(NEWS)]
-        md.append(f"Kondisi terkini juga mempertajam pembahasan: {news_item} Perkembangan ini menunjukkan bahwa {sec.lower()} bukan proyeksi jauh, melainkan proses yang sudah teramati, sehingga urgensi tindakan meningkat.")
+        md.append(para(theme, sec, si+4) + f" Hal ini diperkuat oleh perkembangan terkini: {news_item} — menunjukkan bahwa {sec.lower()} bukan proyeksi jauh melainkan proses teramati, sehingga urgensi tindakan meningkat.")
         md.append("")
         md.append(f"Dalam perdebatan akademik, kajian tentang {sec.lower()} menilai kekuatan bukti, perbedaan jalur sosio-ekonomi, serta trade-off antara adaptasi dan mitigasi. Tulisan ini mengambil sikap hati-hati berbasis bukti: mengakui ketidakpastian, menyoroti konsensus yang kuat, dan menekankan evaluasi kontekstual, sehingga tidak bertentangan dengan literatur inti.")
         md.append("")

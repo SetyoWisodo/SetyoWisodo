@@ -502,6 +502,22 @@ DATA_TABLES = [
 | Economic loss from droughts | Billions USD | World Bank |""",
 ]
 
+DATA_POINTS = [
+ "global mean temperature has risen ~1.1–1.2°C since 1850–1900 (IPCC AR6)",
+ "atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA)",
+ "sea level has risen ~20–25 cm since 1900 (IPCC AR6)",
+ "Arctic sea ice declines by ~13% per decade (NASA)",
+ "~100 million people are affected by climate disasters annually (IFRC)",
+ "economic losses from climate disasters reach ~$200–300 billion per year (World Bank)",
+ "~500,000+ heat-related deaths occur annually (WHO/Lancet)",
+ "~7 million air-pollution deaths occur annually (WHO)",
+ "~800 million people face food insecurity (FAO)",
+ "~2 billion people lack safe water (WHO/UNICEF)",
+ "wheat yields fall ~6% per 1°C warming (IPCC/Science)",
+ "~20 million people are displaced by climate annually (UNHCR)",
+]
+
+
 # --- Expert relevance: only cite experts whose domain aligns with chapter theme (avoid forcing Roberts etc. in every chapter) ---
 EXPERT_KEYWORDS = {
  0: ["sea level rise", "ice melt", "superstorm", "arctic", "permafrost", "srocc", "storms and hurricanes", "small island"],
@@ -664,8 +680,11 @@ def para(topic, section, i):
     ]
     t1 = templates[i % len(templates)]
     t2 = templates[(i+3) % len(templates)]
-    return (t1.format(section=section, topic=topic) + " " +
-            t2.format(section=section, topic=topic))
+    base = t1.format(section=section, topic=topic) + " " + t2.format(section=section, topic=topic)
+    # Weave one relevant data point as inline evidence (professional academic style)
+    data_idx = (i + len(section)) % len(DATA_POINTS)
+    base += f" This is reinforced by evidence that {DATA_POINTS[data_idx]}."
+    return base
 
 def bullets(topic, section):
     return [
@@ -769,16 +788,8 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
             md.append("")
         md.append(para(theme, sec, si))
         md.append("")
-        md.append(para(theme, sec, si+4))
-        md.append("")
-        # Woven supporting evidence - data/news/debate integrated, not separate subheadings
-        # Data as narrative + table (no separate heading)
-        # Data fully woven as narrative evidence (Homo Deus style: no separate table, angka jadi kalimat inti)
-        md.append(f"Data for {sec.lower()} show the scale is already measurable: global mean temperature has risen ~1.1–1.2°C since 1850–1900 (IPCC AR6), atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA), sea level has risen ~20–25 cm since 1900 (IPCC AR6), and Arctic sea ice declines by ~13% per decade (NASA), with ~100 million people affected by climate disasters annually (IFRC) and economic losses of ~$200–300 billion per year (World Bank). Converted to {sec.lower()}, these translate into food-water stress where ~800 million face food insecurity (FAO), ~2 billion lack safe water (WHO/UNICEF), wheat yields fall ~6% per 1°C (IPCC/Science), and ~20 million are displaced annually (UNHCR). These indicators, consistent with the mechanisms above, show differing local burdens yet a common measurable pattern for {theme}, not a distant projection.")
-        md.append("")
-        # Current conditions news woven
         news_item = NEWS[((ci-1)*4 + (si-1)) % len(NEWS)]
-        md.append(f"In current conditions, {news_item.lower()} Such developments show that {sec.lower()} is not a distant projection but an observable process, reinforcing the need for timely action.")
+        md.append(para(theme, sec, si+4) + f" This is further underscored by recent developments: {news_item.lower()} — indicating that {sec.lower()} is not a distant projection but an observable process, reinforcing the urgency for timely action.")
         md.append("")
         # Academic debate woven as nuance
         md.append(f"The literature on {sec.lower()} debates the strength of evidence, the role of socio-economic pathways, and the balance between adaptation and mitigation. This chapter adopts a cautious, evidence-based stance: it acknowledges uncertainty, highlights where consensus is strong, and points to context-specific trade-offs, keeping the analysis aligned with the broader research base.")
