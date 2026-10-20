@@ -781,12 +781,11 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(para(theme, "bab ini", 0))
     md.append("")
-    md.append(f"## Gambaran Bab")
+    # Gambaran Bab dilebur ke narasi inti (tanpa heading terpisah)
+    md.append(f"Bab ini mengkaji {theme} dengan bukti peer-reviewed, observasi terkini dan proyeksi skenario, serta dapat diverifikasi pada sumber akhir bab. Pembahasan bergerak dari konsep inti ke bukti dan implikasi yang dapat ditindaklanjuti, dengan tiap bagian menyampaikan gagasan pokok terlebih dahulu lalu mengintegrasikan data, berita terkini dan wawasan ahli untuk mempertajam analisis.")
+
     md.append("")
-    md.append(f"Bab ini memberikan pemeriksaan terperinci dan berbasis data tentang {theme}. Ia menggabungkan bukti ilmiah, penelitian peer-reviewed, observasi terkini, dan skenario prediktif. Pembaca didorong untuk memverifikasi klaim terhadap sumber primer yang tercantum di akhir bab.")
-    md.append("")
-    md.append(f"Bab ini disusun untuk bergerak dari konsep ke bukti ke tindakan, memastikan pembaca dapat menerapkan materi dalam pengaturan nyata. Setiap bagian mencakup data dan kondisi terkini sebagai narasi pendukung yang mempertajam analisa, bukan sebagai sub-bab terpisah.")
-    md.append("")
+
     chapter_rel = relevant_experts_for_chapter(title, theme)
     if not chapter_rel:
         chapter_rel = [(ci-1) % len(EXPERTS)]  # fallback for chapter-level

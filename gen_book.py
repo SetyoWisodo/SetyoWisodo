@@ -778,11 +778,9 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
     md.append(para(theme, "this chapter", 0))
     md.append("")
-    md.append(f"## Chapter Overview")
-    md.append("")
-    md.append(f"This chapter provides a detailed, data-driven examination of {theme}. It combines scientific evidence, peer-reviewed research, current observations, and predictive scenarios. Readers are encouraged to verify claims against primary sources listed at the end of the chapter.")
-    md.append("")
-    md.append(f"The analysis is structured to ensure that no aspect of {theme} is left unarticulated. Each section presents the main point first, followed by supporting evidence that sharpens the analysis without diverting into separate sub-topics.")
+    # Integrated overview dissolved into chapter narrative (no separate heading)
+    md.append(f"This chapter examines {theme} through peer-reviewed evidence, current observations and scenario projections, inviting verification against chapter-end sources. The discussion proceeds from core concepts to evidence and to actionable implications, with each section presenting its main argument first and then integrating supporting data, news and expert insight to sharpen analysis.")
+
     md.append("")
     # 4 subsections - expert as integrated topic/supporting narrative only where relevant (not forced)
     # Chapter-level relevant experts (max 2, not forced per section) - avoid forcing same expert every chapter
