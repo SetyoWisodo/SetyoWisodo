@@ -8,6 +8,8 @@ from .ch04 import CH as _ch04
 from .ch05 import CH as _ch05
 from .ch06 import CH as _ch06
 from .ch07 import CH as _ch07
+from .ch08 import CH as _ch08
+from .ch09 import CH as _ch09
 
 DEEP_ID = {
     1: _ch01,
@@ -17,4 +19,6 @@ DEEP_ID = {
     5: _ch05,
     6: _ch06,
     7: _ch07,
+    8: _ch08,
+    9: _ch09,
 }
