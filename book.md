@@ -1211,7 +1211,7 @@ What would change these conclusions? A breakthrough in dengue vaccines or in gen
 
 *Theme: the economics of climate damage, insurance and the cost of delay*
 
-In August 2017, Hurricane Harvey stalled over Houston and dropped more than 1,500 millimetres of rain in five days. The damage was estimated at US$125 billion, most of it from flooding rather than wind. A few weeks later, Hurricane Irma struck the Caribbean and Florida, and Hurricane Maria struck Puerto Rico, causing damage estimated at US$77 billion and US$90 billion respectively. The three storms together produced losses of about US$300 billion, of which only about a third was insured.
+In August 2017, Hurricane Harvey stalled over Houston and dropped more than 1,500 millimetres of rain in five days. The damage was estimated at US$125 billion, most of it from flooding rather than wind. A few weeks later, Hurricane Irma struck the Caribbean and Florida, and Hurricane Maria struck Puerto Rico, with losses of US$77 billion and US$90 billion respectively. The three storms together produced losses of about US$300 billion, of which only about a third was insured.
 
 The 2017 season illustrates a pattern that is becoming more common. The physical damage is only the first layer of economic loss. Businesses that close do not pay wages; workers who lose wages spend less; local governments that lose tax revenue cut services; insurers that pay claims raise premiums; and households that lose their savings reduce consumption for years. The indirect losses can exceed the direct damage, and they fall hardest on the people with the least cushion.
 
@@ -1301,7 +1301,7 @@ The policy response has three pillars. The first is mitigation, which reduces th
 
 ## 10.11 Case Study: The 2017 Atlantic Hurricane Season
 
-The 2017 Atlantic hurricane season was one of the most destructive on record. Hurricane Harvey made landfall in Texas in August and stalled, dropping more than 1,500 millimetres of rain over Houston and causing damage estimated at US$125 billion. Hurricane Irma followed in September, devastating several Caribbean islands and causing damage estimated at US$77 billion. Hurricane Maria struck Puerto Rico two weeks later, destroying the electricity grid and causing damage estimated at US$90 billion.
+The 2017 Atlantic hurricane season was one of the most destructive on record. Hurricane Harvey made landfall in Texas in August and stalled, dropping more than 1,500 millimetres of rain over Houston, with losses put at US$125 billion. Hurricane Irma followed in September, devastating several Caribbean islands and inflicting losses of US$77 billion. Hurricane Maria struck Puerto Rico two weeks later, destroying the electricity grid and inflicting damage of about US$90 billion.
 
 The total damage was about US$300 billion, of which only about a third was insured. The gap was concentrated in Puerto Rico and the smaller Caribbean islands, where insurance penetration is low and where the losses were largest relative to the size of the economy. In Puerto Rico, the storm caused an estimated 2,975 excess deaths in the months after landfall, most of them from the failure of the electricity and health systems rather than from the storm itself.
 

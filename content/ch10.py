@@ -11,7 +11,7 @@ CH = {
         "In August 2017, Hurricane Harvey stalled over Houston and dropped more than 1,500 "
         "millimetres of rain in five days. The damage was estimated at US$125 billion, most of it "
         "from flooding rather than wind. A few weeks later, Hurricane Irma struck the Caribbean and "
-        "Florida, and Hurricane Maria struck Puerto Rico, causing damage estimated at US$77 billion "
+        "Florida, and Hurricane Maria struck Puerto Rico, with losses of US$77 billion "
         "and US$90 billion respectively. The three storms together produced losses of about US$300 "
         "billion, of which only about a third was insured.",
 
@@ -310,10 +310,10 @@ CH = {
         "paras": [
             "The 2017 Atlantic hurricane season was one of the most destructive on record. Hurricane "
             "Harvey made landfall in Texas in August and stalled, dropping more than 1,500 "
-            "millimetres of rain over Houston and causing damage estimated at US$125 billion. "
-            "Hurricane Irma followed in September, devastating several Caribbean islands and causing "
-            "damage estimated at US$77 billion. Hurricane Maria struck Puerto Rico two weeks later, "
-            "destroying the electricity grid and causing damage estimated at US$90 billion.",
+            "millimetres of rain over Houston, with losses put at US$125 billion. "
+            "Hurricane Irma followed in September, devastating several Caribbean islands and inflicting "
+            "losses of US$77 billion. Hurricane Maria struck Puerto Rico two weeks later, "
+            "destroying the electricity grid and inflicting damage of about US$90 billion.",
 
             "The total damage was about US$300 billion, of which only about a third was insured. The "
             "gap was concentrated in Puerto Rico and the smaller Caribbean islands, where insurance "

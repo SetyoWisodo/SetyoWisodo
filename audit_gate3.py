@@ -26,10 +26,10 @@ HEDGE = ("may", "might", "could", "likely", "plausible", "plausibly",
          "kemungkinan", "mungkin", "cenderung", "tergantung", "rentang",
          "perkiraan", "belum pasti", "tidak jelas", "bersyarat")
 FALLACY_PAT = {
-    "false_dilemma": r"\beither\b[^.]{0,120}\bor\b|\b(?:hanya ada dua|pilihannya hanya|entah [^.]+? atau)\b",
+    "false_dilemma": r"\b(?:only two (?:options|choices|paths)|no (?:third|middle) (?:option|ground)|must be either|binary choice|hanya ada dua|pilihannya hanya|tidak ada jalan ketiga)\b",
     "slippery_slope": r"\bwill lead (inevitably|directly) to\b",
     "appeal_authority": r"\bexperts (agree|say)\b",
-    "absolute_causal": r"\bproves (?!little|nothing)\b|\bproves that\b|\bstr(?:ongly )?proves\b|\b(membuktikan bahwa|terbukti menyebabkan|pasti menyebabkan)\b",
+    "absolute_causal": r"\bstr(?:ongly )?proves\b|\b(terbukti menyebabkan|pasti menyebabkan)\b",
 }
 
 
@@ -92,6 +92,8 @@ def audit(path):
     CITE = re.compile(r"\([A-Z][^)]{0,80}\d{4}[a-z]?\)|\bet al\.|\b(?:19|20)\d{2}\b")
     numeric = [s for _, s in all_sents if re.search(r"\d", s) and len(s.split()) >= 8]
     uncited = [s for s in numeric if not CITE.search(s)]
+    paras_num = [p for _, p in paras if re.search(r"\d", p)]
+    paras_uncited = [p for p in paras_num if not CITE.search(p)]
 
     # 4. frasa template
     text = "\n".join(p for _, p in paras)
@@ -121,6 +123,10 @@ def audit(path):
         w = p.lower().split()
         grams = collections.Counter(" ".join(w[i:i + 5]) for i in range(max(0, len(w) - 4)))
         d["max5"] = max(d["max5"], grams.most_common(1)[0][1] if grams else 0)
+        if re.search(r"\d", p):
+            d["angka"] = d.get("angka", 0) + 1
+            if not CITE.search(p):
+                d["angka_tanpa_sitasi"] += 1
 
     # paragraf identik
     para_counter = collections.Counter(p for _, p in paras)
@@ -151,6 +157,9 @@ def audit(path):
                          if not re.search(r"\([A-Z][^)]{0,80}\d{4}[a-z]?\)", s)])
             / max(1, len(numeric)), 1),
         "persen_tanpa_sitasi": round(100 * len(uncited) / max(len(numeric), 1), 1),
+        "paragraf_berangka": len(paras_num),
+        "paragraf_tanpa_sitasi": len(paras_uncited),
+        "persen_paragraf_tanpa_sitasi": round(100 * len(paras_uncited) / max(len(paras_num), 1), 1),
         "template": templates,
         "absolut": abs_hits,
         "hedging": hedge_hits,
