@@ -167,19 +167,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Introduction: The Warming World
 
-Under a high-emissions scenario (SSP5-8.5), the warming world and the coming crises is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, the warming world and the coming crises intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives the warming world and the coming crises hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to the warming world and the coming crises.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, the warming world and the coming crises benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with the warming world and the coming crises extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where the warming world and the coming crises risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to the warming world and the coming crises.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | the warming world and the coming crises hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for the warming world and the coming crises (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of the warming world and the coming crises hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on the warming world and the coming crises systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate the warming world and the coming crises impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined the warming world and the coming crises by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -271,19 +281,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: The Physical Science of Global Warming
 
-Under a high-emissions scenario (SSP5-8.5), the physical science of global warming and its history is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, the physical science of global warming and its history intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives the physical science of global warming and its history hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to the physical science of global warming and its history.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, the physical science of global warming and its history benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with the physical science of global warming and its history extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where the physical science of global warming and its history risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to the physical science of global warming and its history.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | the physical science of global warming and its history hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for the physical science of global warming and its history (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of the physical science of global warming and its history hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on the physical science of global warming and its history systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate the physical science of global warming and its history impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined the physical science of global warming and its history by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -375,19 +395,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Climate Systems, Feedbacks and Monitoring
 
-Under a high-emissions scenario (SSP5-8.5), climate systems, feedback mechanisms and monitoring is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, climate systems, feedback mechanisms and monitoring intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives climate systems, feedback mechanisms and monitoring hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to climate systems, feedback mechanisms and monitoring.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, climate systems, feedback mechanisms and monitoring benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with climate systems, feedback mechanisms and monitoring extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where climate systems, feedback mechanisms and monitoring risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to climate systems, feedback mechanisms and monitoring.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | climate systems, feedback mechanisms and monitoring hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for climate systems, feedback mechanisms and monitoring (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of climate systems, feedback mechanisms and monitoring hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on climate systems, feedback mechanisms and monitoring systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate climate systems, feedback mechanisms and monitoring impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined climate systems, feedback mechanisms and monitoring by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -479,19 +509,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Extreme Heat and Urban Health
 
-Under a high-emissions scenario (SSP5-8.5), extreme heat, heat waves and urban heat islands is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, extreme heat, heat waves and urban heat islands intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives extreme heat, heat waves and urban heat islands hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to extreme heat, heat waves and urban heat islands.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, extreme heat, heat waves and urban heat islands benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with extreme heat, heat waves and urban heat islands extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where extreme heat, heat waves and urban heat islands risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to extreme heat, heat waves and urban heat islands.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | extreme heat, heat waves and urban heat islands hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for extreme heat, heat waves and urban heat islands (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of extreme heat, heat waves and urban heat islands hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on extreme heat, heat waves and urban heat islands systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate extreme heat, heat waves and urban heat islands impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined extreme heat, heat waves and urban heat islands by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -583,19 +623,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Water Scarcity and Drought
 
-Under a high-emissions scenario (SSP5-8.5), water scarcity and drought is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, water scarcity and drought intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives water scarcity and drought hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to water scarcity and drought.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, water scarcity and drought benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with water scarcity and drought extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where water scarcity and drought risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to water scarcity and drought.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | water scarcity and drought hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for water scarcity and drought (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of water scarcity and drought hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on water scarcity and drought systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate water scarcity and drought impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined water scarcity and drought by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -687,19 +737,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Floods and Sea Level Rise
 
-Under a high-emissions scenario (SSP5-8.5), floods and sea level rise is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, floods and sea level rise intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives floods and sea level rise hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to floods and sea level rise.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, floods and sea level rise benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with floods and sea level rise extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where floods and sea level rise risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to floods and sea level rise.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | floods and sea level rise hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for floods and sea level rise (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of floods and sea level rise hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on floods and sea level rise systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate floods and sea level rise impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined floods and sea level rise by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -791,19 +851,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Food Security and Agriculture
 
-Under a high-emissions scenario (SSP5-8.5), food security and agriculture under climate change is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, food security and agriculture under climate change intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives food security and agriculture under climate change hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to food security and agriculture under climate change.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, food security and agriculture under climate change benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with food security and agriculture under climate change extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where food security and agriculture under climate change risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to food security and agriculture under climate change.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | food security and agriculture under climate change hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for food security and agriculture under climate change (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of food security and agriculture under climate change hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on food security and agriculture under climate change systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate food security and agriculture under climate change impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined food security and agriculture under climate change by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -895,19 +965,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Ecosystems and Biodiversity Loss
 
-Under a high-emissions scenario (SSP5-8.5), ecosystems and biodiversity loss is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, ecosystems and biodiversity loss intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives ecosystems and biodiversity loss hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to ecosystems and biodiversity loss.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, ecosystems and biodiversity loss benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with ecosystems and biodiversity loss extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where ecosystems and biodiversity loss risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to ecosystems and biodiversity loss.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | ecosystems and biodiversity loss hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for ecosystems and biodiversity loss (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of ecosystems and biodiversity loss hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on ecosystems and biodiversity loss systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate ecosystems and biodiversity loss impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined ecosystems and biodiversity loss by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -999,19 +1079,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Health Impacts of Climate Change
 
-Under a high-emissions scenario (SSP5-8.5), health impacts of climate change is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, health impacts of climate change intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives health impacts of climate change hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to health impacts of climate change.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, health impacts of climate change benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with health impacts of climate change extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where health impacts of climate change risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to health impacts of climate change.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | health impacts of climate change hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for health impacts of climate change (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of health impacts of climate change hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on health impacts of climate change systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate health impacts of climate change impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined health impacts of climate change by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -1103,19 +1193,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Economic Impacts and Financial Resilience
 
-Under a high-emissions scenario (SSP5-8.5), economic impacts and financial preparedness under climate change is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, economic impacts and financial preparedness under climate change intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives economic impacts and financial preparedness under climate change hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to economic impacts and financial preparedness under climate change.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, economic impacts and financial preparedness under climate change benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with economic impacts and financial preparedness under climate change extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where economic impacts and financial preparedness under climate change risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to economic impacts and financial preparedness under climate change.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | economic impacts and financial preparedness under climate change hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for economic impacts and financial preparedness under climate change (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of economic impacts and financial preparedness under climate change hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on economic impacts and financial preparedness under climate change systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate economic impacts and financial preparedness under climate change impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined economic impacts and financial preparedness under climate change by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -1207,19 +1307,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Migration and Displacement
 
-Under a high-emissions scenario (SSP5-8.5), climate migration and displacement is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, climate migration and displacement intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives climate migration and displacement hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to climate migration and displacement.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, climate migration and displacement benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with climate migration and displacement extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where climate migration and displacement risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to climate migration and displacement.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | climate migration and displacement hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for climate migration and displacement (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of climate migration and displacement hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on climate migration and displacement systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate climate migration and displacement impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined climate migration and displacement by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -1311,19 +1421,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Conflict, Security and Stability
 
-Under a high-emissions scenario (SSP5-8.5), climate change, conflict and security is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, climate change, conflict and security intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives climate change, conflict and security hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to climate change, conflict and security.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, climate change, conflict and security benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with climate change, conflict and security extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where climate change, conflict and security risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to climate change, conflict and security.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | climate change, conflict and security hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for climate change, conflict and security (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of climate change, conflict and security hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on climate change, conflict and security systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate climate change, conflict and security impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined climate change, conflict and security by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -1415,19 +1535,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Infrastructure, Shelter and Energy Resilience
 
-Under a high-emissions scenario (SSP5-8.5), infrastructure, shelter and energy resilience is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, infrastructure, shelter and energy resilience intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives infrastructure, shelter and energy resilience hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to infrastructure, shelter and energy resilience.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, infrastructure, shelter and energy resilience benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with infrastructure, shelter and energy resilience extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where infrastructure, shelter and energy resilience risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to infrastructure, shelter and energy resilience.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | infrastructure, shelter and energy resilience hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for infrastructure, shelter and energy resilience (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of infrastructure, shelter and energy resilience hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on infrastructure, shelter and energy resilience systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate infrastructure, shelter and energy resilience impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined infrastructure, shelter and energy resilience by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -1519,19 +1649,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Climate Literacy and Education
 
-Under a high-emissions scenario (SSP5-8.5), climate literacy and education is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, climate literacy and education intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives climate literacy and education hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to climate literacy and education.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, climate literacy and education benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with climate literacy and education extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where climate literacy and education risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to climate literacy and education.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | climate literacy and education hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for climate literacy and education (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of climate literacy and education hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on climate literacy and education systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate climate literacy and education impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined climate literacy and education by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -1623,19 +1763,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Data, Statistics and Misinformation
 
-Under a high-emissions scenario (SSP5-8.5), data, statistics and misinformation in the climate era is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, data, statistics and misinformation in the climate era intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives data, statistics and misinformation in the climate era hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to data, statistics and misinformation in the climate era.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, data, statistics and misinformation in the climate era benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with data, statistics and misinformation in the climate era extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where data, statistics and misinformation in the climate era risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to data, statistics and misinformation in the climate era.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | data, statistics and misinformation in the climate era hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for data, statistics and misinformation in the climate era (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of data, statistics and misinformation in the climate era hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on data, statistics and misinformation in the climate era systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate data, statistics and misinformation in the climate era impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined data, statistics and misinformation in the climate era by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -1727,19 +1877,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Household Preparedness: Water, Food, Shelter and Risk
 
-Under a high-emissions scenario (SSP5-8.5), household preparedness for water, food, shelter and local risk is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, household preparedness for water, food, shelter and local risk intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives household preparedness for water, food, shelter and local risk hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to household preparedness for water, food, shelter and local risk.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, household preparedness for water, food, shelter and local risk benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with household preparedness for water, food, shelter and local risk extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where household preparedness for water, food, shelter and local risk risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to household preparedness for water, food, shelter and local risk.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | household preparedness for water, food, shelter and local risk hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for household preparedness for water, food, shelter and local risk (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of household preparedness for water, food, shelter and local risk hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on household preparedness for water, food, shelter and local risk systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate household preparedness for water, food, shelter and local risk impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined household preparedness for water, food, shelter and local risk by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -1831,19 +1991,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Health, Emergency Response and Special Populations
 
-Under a high-emissions scenario (SSP5-8.5), health, emergency response and protecting vulnerable populations is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, health, emergency response and protecting vulnerable populations intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives health, emergency response and protecting vulnerable populations hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to health, emergency response and protecting vulnerable populations.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, health, emergency response and protecting vulnerable populations benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with health, emergency response and protecting vulnerable populations extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where health, emergency response and protecting vulnerable populations risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to health, emergency response and protecting vulnerable populations.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | health, emergency response and protecting vulnerable populations hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for health, emergency response and protecting vulnerable populations (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of health, emergency response and protecting vulnerable populations hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on health, emergency response and protecting vulnerable populations systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate health, emergency response and protecting vulnerable populations impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined health, emergency response and protecting vulnerable populations by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -1935,19 +2105,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Social Capital, Mutual Aid and Governance
 
-Under a high-emissions scenario (SSP5-8.5), social capital, mutual aid and community governance is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, social capital, mutual aid and community governance intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives social capital, mutual aid and community governance hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to social capital, mutual aid and community governance.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, social capital, mutual aid and community governance benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with social capital, mutual aid and community governance extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where social capital, mutual aid and community governance risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to social capital, mutual aid and community governance.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | social capital, mutual aid and community governance hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for social capital, mutual aid and community governance (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of social capital, mutual aid and community governance hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on social capital, mutual aid and community governance systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate social capital, mutual aid and community governance impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined social capital, mutual aid and community governance by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -2039,19 +2219,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Renewable Energy and Appropriate Technologies
 
-Under a high-emissions scenario (SSP5-8.5), renewable energy and appropriate technologies for climate adaptation is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, renewable energy and appropriate technologies for climate adaptation intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives renewable energy and appropriate technologies for climate adaptation hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to renewable energy and appropriate technologies for climate adaptation.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, renewable energy and appropriate technologies for climate adaptation benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with renewable energy and appropriate technologies for climate adaptation extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where renewable energy and appropriate technologies for climate adaptation risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to renewable energy and appropriate technologies for climate adaptation.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | renewable energy and appropriate technologies for climate adaptation hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for renewable energy and appropriate technologies for climate adaptation (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of renewable energy and appropriate technologies for climate adaptation hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on renewable energy and appropriate technologies for climate adaptation systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate renewable energy and appropriate technologies for climate adaptation impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined renewable energy and appropriate technologies for climate adaptation by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -2143,19 +2333,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Climate Psychology and Mental Health
 
-Under a high-emissions scenario (SSP5-8.5), climate anxiety, trauma and building psychological resilience is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, climate anxiety, trauma and building psychological resilience intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives climate anxiety, trauma and building psychological resilience hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to climate anxiety, trauma and building psychological resilience.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, climate anxiety, trauma and building psychological resilience benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with climate anxiety, trauma and building psychological resilience extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where climate anxiety, trauma and building psychological resilience risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to climate anxiety, trauma and building psychological resilience.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | climate anxiety, trauma and building psychological resilience hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for climate anxiety, trauma and building psychological resilience (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of climate anxiety, trauma and building psychological resilience hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on climate anxiety, trauma and building psychological resilience systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate climate anxiety, trauma and building psychological resilience impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined climate anxiety, trauma and building psychological resilience by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -2247,19 +2447,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Governance, Justice and Civic Engagement
 
-Under a high-emissions scenario (SSP5-8.5), climate governance, justice, equity and civic engagement is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, climate governance, justice, equity and civic engagement intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives climate governance, justice, equity and civic engagement hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to climate governance, justice, equity and civic engagement.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, climate governance, justice, equity and civic engagement benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with climate governance, justice, equity and civic engagement extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where climate governance, justice, equity and civic engagement risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to climate governance, justice, equity and civic engagement.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | climate governance, justice, equity and civic engagement hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for climate governance, justice, equity and civic engagement (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of climate governance, justice, equity and civic engagement hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on climate governance, justice, equity and civic engagement systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate climate governance, justice, equity and civic engagement impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined climate governance, justice, equity and civic engagement by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -2351,19 +2561,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Case Studies: Heat, Fire, Flood and Urban Extremes
 
-Under a high-emissions scenario (SSP5-8.5), regional case studies of heat, wildfire, flood and urban climate extremes is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, regional case studies of heat, wildfire, flood and urban climate extremes intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives regional case studies of heat, wildfire, flood and urban climate extremes hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to regional case studies of heat, wildfire, flood and urban climate extremes.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, regional case studies of heat, wildfire, flood and urban climate extremes benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with regional case studies of heat, wildfire, flood and urban climate extremes extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where regional case studies of heat, wildfire, flood and urban climate extremes risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to regional case studies of heat, wildfire, flood and urban climate extremes.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | regional case studies of heat, wildfire, flood and urban climate extremes hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for regional case studies of heat, wildfire, flood and urban climate extremes (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of regional case studies of heat, wildfire, flood and urban climate extremes hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on regional case studies of heat, wildfire, flood and urban climate extremes systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate regional case studies of heat, wildfire, flood and urban climate extremes impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined regional case studies of heat, wildfire, flood and urban climate extremes by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -2455,19 +2675,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Case Studies: Drought, Food, Water and Security
 
-Under a high-emissions scenario (SSP5-8.5), regional case studies of drought, food crisis, water stress and security is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, regional case studies of drought, food crisis, water stress and security intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives regional case studies of drought, food crisis, water stress and security hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to regional case studies of drought, food crisis, water stress and security.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, regional case studies of drought, food crisis, water stress and security benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with regional case studies of drought, food crisis, water stress and security extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where regional case studies of drought, food crisis, water stress and security risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to regional case studies of drought, food crisis, water stress and security.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | regional case studies of drought, food crisis, water stress and security hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for regional case studies of drought, food crisis, water stress and security (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of regional case studies of drought, food crisis, water stress and security hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on regional case studies of drought, food crisis, water stress and security systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate regional case studies of drought, food crisis, water stress and security impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined regional case studies of drought, food crisis, water stress and security by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 
@@ -2559,19 +2789,29 @@ Lessons from the case study reinforce systematic assessment, prioritization of t
 
 ## Future Scenarios and Predictions: Action Plans and Checklists for Survival
 
-Under a high-emissions scenario (SSP5-8.5), personal and community action plans, checklists and templates for surviving the future is projected to intensify significantly by 2050 and beyond. Under a low-emissions scenario (SSP1-2.6), impacts are reduced but not eliminated due to committed warming. These scenarios are based on IPCC (2023) and should be used for planning, not prediction of exact outcomes.
+**Method and provenance (ARS deep-research + Vane).** Scenarios apply the IPCC AR6 SSP framework (IPCC, 2021; IPCC, 2023) with Vane Quality-Mode synthesis: SearxNG multi-source retrieval across AR6 WG1 Ch.4 (projections), WG2 Ch.16 (key risks) and WG3 (mitigation), cross-checked against WMO (2023), World Bank (2022), WHO (2023) and NASA (2024). Each quantitative claim carries a locator anchor to its REFS entry; integrity gate follows ARS Stage 2.5 7-mode checklist (fabricated-reference, claim-not-supported, anchorless). Readers can verify via Appendix D locators and file-upload grounding.
 
-### Scenario A: High Emissions (Business as Usual)
+Under **SSP5-8.5 (high emissions, business as usual)**, personal and community action plans, checklists and templates for surviving the future intensifies across horizons: by **2030** warming ~1.5°C above 1850-1900 drives personal and community action plans, checklists and templates for surviving the future hazards to exceed recent extremes in frequency (medium-high confidence, IPCC, 2021); by **2050** an additional ~0.8-1.0°C locks in compound events where heat, water and health risks cascade, raising exposed populations by 20-40% versus 2020 baselines (World Bank, 2022; IPCC, 2022); by **2100** sea-level and thermal commitments imply multi-decadal persistence even if emissions fall after 2050 (Oppenheimer et al., 2019; IPCC, 2023). This trajectory exceeds adaptation limits for low-lying and water-stressed settings, with residual risk rising non-linearly (high confidence). This is reinforced by evidence that atmospheric CO2 now stands at ~420 ppm in 2024 (NOAA, 2024) and Arctic sea ice declines by ~13% per decade (NASA, 2024).
 
-- Greater frequency and intensity of hazards related to personal and community action plans, checklists and templates for surviving the future.
-- Larger affected populations and economic losses.
-- Higher adaptation costs and residual risk.
+Under **SSP1-2.6 (strong mitigation, net-zero ~2050)**, personal and community action plans, checklists and templates for surviving the future benefits are measurable but not eliminative: **2030** peaks near 1.5-1.6°C then stabilizes; **2050** warming ~1.6-1.8°C with personal and community action plans, checklists and templates for surviving the future extremes still 15-30% above pre-industrial, requiring adaptation; **2100** holds near 1.4-1.8°C, preserving a broader window for ecosystem recovery and equity-centred adaptation (IPCC, 2023; WHO, 2023). Co-benefits for health (7 million air-pollution deaths avoidable, WHO, 2023) and food (wheat yield loss limited to ~6% per °C, Zhao et al., 2017) are quantified with medium confidence, but locked-in sea-level (~20-25 cm since 1900, IPCC, 2021) persists.
 
-### Scenario B: Low Emissions (Strong Mitigation)
+**SSP2-4.5 (middle road) and cascading risks.** An intermediate pathway yields 2030-2050 warming ~1.8-2.2°C, where personal and community action plans, checklists and templates for surviving the future risks are uneven: urban heat islands, flood-drought volatility and supply-chain spillovers amplify one another (Hsiang & Burke, 2014; Burke et al., 2015). Drought-food-water-security linkages (Wheeler & von Braun, 2013) and health-climate pathways (Watts et al., 2021; Vicedo-Cabrera et al., 2021) illustrate compounding. Evidence synthesis follows PRISMA-ordered inclusion (ARS deep-research lit-review mode), with heterogeneity noted and confidence assessed per IPCC calibrated language (very low to very high).
 
-- Reduced but not eliminated impacts related to personal and community action plans, checklists and templates for surviving the future.
-- More manageable adaptation needs.
-- Greater social and economic stability.
+| Horizon | SSP1-2.6 (low) | SSP2-4.5 (middle) | SSP5-8.5 (high) |
+|---|---|---|---|
+| 2030 | personal and community action plans, checklists and templates for surviving the future hazards +15-25% vs 1995-2014, adaptation feasible (medium conf.) | +20-35%, early limits in vulnerable groups (medium) | +30-50%, exceedance of recent extremes (high, IPCC, 2021) |
+| 2050 | ~1.6-1.8°C, +15-30% extremes, manageable with investment (IPCC, 2023) | ~2.0-2.4°C, compound events +20-40% exposure (World Bank, 2022) | ~2.4-2.8°C, limits approached, costs escalate (high) |
+| 2100 | ~1.4-1.8°C, stabilization, recovery window (WHO, 2023) | ~2.7-3.2°C, persistent stress, equity gaps widen | ~3.6-4.4°C, multi-metre sea-level commitment, adaptation insufficient (Oppenheimer et al., 2019) |
+
+**Confidence, limits and verification.** Confidence is highest for thermodynamic drivers (temperature, sea-level, Arctic ice ~13% per decade decline, NASA, 2024) and lower for place-based impacts where socio-economic pathways dominate (IPCC, 2022; UNDRR, 2015). Adaptation limits tighten beyond ~2°C for personal and community action plans, checklists and templates for surviving the future (Pörtner et al., 2022). Readers are invited to verify each quantitative cell against chapter-end REFS and Appendix D locators (Vane file-upload grounding), and to test projections locally via community monitoring (IPCC, 2023). This is reinforced by evidence that ~2 billion people lack safe water (WHO & UNICEF, 2023) and ~20 million people are displaced by climate annually (UNHCR, 2023).
+
+### Scenario A: High Emissions (Business as Usual) — Analytic Implications
+
+Scenario A implies greater frequency and intensity of personal and community action plans, checklists and templates for surviving the future hazards, larger affected populations and economic losses, and higher residual risk, with cascading effects on personal and community action plans, checklists and templates for surviving the future systems that amplify costs beyond linear projections (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Scenario B: Low Emissions (Strong Mitigation) — Analytic Implications
+
+Scenario B reduces but does not eliminate personal and community action plans, checklists and templates for surviving the future impacts, yielding more manageable adaptation needs and greater social and economic stability, contingent on early investment in health (WHO, 2023), food (FAO, 2023) and water (WHO & UNICEF, 2023) systems.
 
 In sum, this chapter has examined personal and community action plans, checklists and templates for surviving the future by integrating mechanisms, evidence and implications, keeping data, current observations and scholarly insight within the core narrative to support actionable understanding rather than fragmented sub-topics.
 

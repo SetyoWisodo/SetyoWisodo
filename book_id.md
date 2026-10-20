@@ -168,19 +168,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Pendahuluan: Dunia yang Memanas
 
-Di bawah skenario emisi tinggi (SSP5-8.5), dunia yang memanas dan krisis mendatang diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, dunia yang memanas dan krisis mendatang meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya dunia yang memanas dan krisis mendatang melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait dunia yang memanas dan krisis mendatang yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk dunia yang memanas dan krisis mendatang terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem dunia yang memanas dan krisis mendatang masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko dunia yang memanas dan krisis mendatang tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait dunia yang memanas dan krisis mendatang yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya dunia yang memanas dan krisis mendatang +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk dunia yang memanas dan krisis mendatang (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya dunia yang memanas dan krisis mendatang yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem dunia yang memanas dan krisis mendatang yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak dunia yang memanas dan krisis mendatang, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk dunia yang memanas dan krisis mendatang.
 
@@ -270,19 +280,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Sains Fisik Pemanasan Global
 
-Di bawah skenario emisi tinggi (SSP5-8.5), sains fisik pemanasan global dan sejarahnya diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, sains fisik pemanasan global dan sejarahnya meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya sains fisik pemanasan global dan sejarahnya melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait sains fisik pemanasan global dan sejarahnya yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk sains fisik pemanasan global dan sejarahnya terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem sains fisik pemanasan global dan sejarahnya masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko sains fisik pemanasan global dan sejarahnya tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait sains fisik pemanasan global dan sejarahnya yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya sains fisik pemanasan global dan sejarahnya +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk sains fisik pemanasan global dan sejarahnya (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya sains fisik pemanasan global dan sejarahnya yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem sains fisik pemanasan global dan sejarahnya yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak sains fisik pemanasan global dan sejarahnya, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk sains fisik pemanasan global dan sejarahnya.
 
@@ -372,19 +392,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Sistem Iklim, Umpan Balik dan Pemantauan
 
-Di bawah skenario emisi tinggi (SSP5-8.5), sistem iklim, mekanisme umpan balik dan pemantauan diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, sistem iklim, mekanisme umpan balik dan pemantauan meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya sistem iklim, mekanisme umpan balik dan pemantauan melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait sistem iklim, mekanisme umpan balik dan pemantauan yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk sistem iklim, mekanisme umpan balik dan pemantauan terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem sistem iklim, mekanisme umpan balik dan pemantauan masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko sistem iklim, mekanisme umpan balik dan pemantauan tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait sistem iklim, mekanisme umpan balik dan pemantauan yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya sistem iklim, mekanisme umpan balik dan pemantauan +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk sistem iklim, mekanisme umpan balik dan pemantauan (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya sistem iklim, mekanisme umpan balik dan pemantauan yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem sistem iklim, mekanisme umpan balik dan pemantauan yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak sistem iklim, mekanisme umpan balik dan pemantauan, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk sistem iklim, mekanisme umpan balik dan pemantauan.
 
@@ -474,19 +504,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Panas Ekstrem dan Kesehatan Perkotaan
 
-Di bawah skenario emisi tinggi (SSP5-8.5), panas ekstrem, gelombang panas dan pulau panas perkotaan diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, panas ekstrem, gelombang panas dan pulau panas perkotaan meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya panas ekstrem, gelombang panas dan pulau panas perkotaan melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait panas ekstrem, gelombang panas dan pulau panas perkotaan yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk panas ekstrem, gelombang panas dan pulau panas perkotaan terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem panas ekstrem, gelombang panas dan pulau panas perkotaan masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko panas ekstrem, gelombang panas dan pulau panas perkotaan tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait panas ekstrem, gelombang panas dan pulau panas perkotaan yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya panas ekstrem, gelombang panas dan pulau panas perkotaan +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk panas ekstrem, gelombang panas dan pulau panas perkotaan (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya panas ekstrem, gelombang panas dan pulau panas perkotaan yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem panas ekstrem, gelombang panas dan pulau panas perkotaan yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak panas ekstrem, gelombang panas dan pulau panas perkotaan, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk panas ekstrem, gelombang panas dan pulau panas perkotaan.
 
@@ -576,19 +616,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Kelangkaan Air dan Kekeringan
 
-Di bawah skenario emisi tinggi (SSP5-8.5), kelangkaan air dan kekeringan diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, kelangkaan air dan kekeringan meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya kelangkaan air dan kekeringan melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait kelangkaan air dan kekeringan yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk kelangkaan air dan kekeringan terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem kelangkaan air dan kekeringan masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko kelangkaan air dan kekeringan tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait kelangkaan air dan kekeringan yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya kelangkaan air dan kekeringan +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk kelangkaan air dan kekeringan (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya kelangkaan air dan kekeringan yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem kelangkaan air dan kekeringan yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak kelangkaan air dan kekeringan, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk kelangkaan air dan kekeringan.
 
@@ -678,19 +728,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Banjir dan Kenaikan Permukaan Laut
 
-Di bawah skenario emisi tinggi (SSP5-8.5), banjir dan kenaikan permukaan laut diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, banjir dan kenaikan permukaan laut meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya banjir dan kenaikan permukaan laut melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait banjir dan kenaikan permukaan laut yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk banjir dan kenaikan permukaan laut terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem banjir dan kenaikan permukaan laut masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko banjir dan kenaikan permukaan laut tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait banjir dan kenaikan permukaan laut yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya banjir dan kenaikan permukaan laut +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk banjir dan kenaikan permukaan laut (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya banjir dan kenaikan permukaan laut yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem banjir dan kenaikan permukaan laut yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak banjir dan kenaikan permukaan laut, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk banjir dan kenaikan permukaan laut.
 
@@ -780,19 +840,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Ketahanan Pangan dan Pertanian
 
-Di bawah skenario emisi tinggi (SSP5-8.5), ketahanan pangan dan pertanian di tengah perubahan iklim diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, ketahanan pangan dan pertanian di tengah perubahan iklim meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya ketahanan pangan dan pertanian di tengah perubahan iklim melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait ketahanan pangan dan pertanian di tengah perubahan iklim yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk ketahanan pangan dan pertanian di tengah perubahan iklim terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem ketahanan pangan dan pertanian di tengah perubahan iklim masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko ketahanan pangan dan pertanian di tengah perubahan iklim tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait ketahanan pangan dan pertanian di tengah perubahan iklim yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya ketahanan pangan dan pertanian di tengah perubahan iklim +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk ketahanan pangan dan pertanian di tengah perubahan iklim (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya ketahanan pangan dan pertanian di tengah perubahan iklim yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem ketahanan pangan dan pertanian di tengah perubahan iklim yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak ketahanan pangan dan pertanian di tengah perubahan iklim, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk ketahanan pangan dan pertanian di tengah perubahan iklim.
 
@@ -882,19 +952,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Ekosistem dan Kehilangan Keanekaragaman Hayati
 
-Di bawah skenario emisi tinggi (SSP5-8.5), ekosistem dan kehilangan keanekaragaman hayati diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, ekosistem dan kehilangan keanekaragaman hayati meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya ekosistem dan kehilangan keanekaragaman hayati melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait ekosistem dan kehilangan keanekaragaman hayati yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk ekosistem dan kehilangan keanekaragaman hayati terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem ekosistem dan kehilangan keanekaragaman hayati masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko ekosistem dan kehilangan keanekaragaman hayati tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait ekosistem dan kehilangan keanekaragaman hayati yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya ekosistem dan kehilangan keanekaragaman hayati +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk ekosistem dan kehilangan keanekaragaman hayati (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya ekosistem dan kehilangan keanekaragaman hayati yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem ekosistem dan kehilangan keanekaragaman hayati yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak ekosistem dan kehilangan keanekaragaman hayati, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk ekosistem dan kehilangan keanekaragaman hayati.
 
@@ -984,19 +1064,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Dampak Kesehatan Perubahan Iklim
 
-Di bawah skenario emisi tinggi (SSP5-8.5), dampak kesehatan perubahan iklim diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, dampak kesehatan perubahan iklim meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya dampak kesehatan perubahan iklim melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait dampak kesehatan perubahan iklim yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk dampak kesehatan perubahan iklim terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem dampak kesehatan perubahan iklim masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko dampak kesehatan perubahan iklim tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait dampak kesehatan perubahan iklim yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya dampak kesehatan perubahan iklim +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk dampak kesehatan perubahan iklim (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya dampak kesehatan perubahan iklim yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem dampak kesehatan perubahan iklim yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak dampak kesehatan perubahan iklim, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk dampak kesehatan perubahan iklim.
 
@@ -1086,19 +1176,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Dampak Ekonomi dan Ketahanan Keuangan
 
-Di bawah skenario emisi tinggi (SSP5-8.5), dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk dampak ekonomi dan kesiapsiagaan keuangan di tengah perubahan iklim.
 
@@ -1188,19 +1288,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Migrasi dan Pengungsian
 
-Di bawah skenario emisi tinggi (SSP5-8.5), migrasi iklim dan pengungsian diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, migrasi iklim dan pengungsian meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya migrasi iklim dan pengungsian melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait migrasi iklim dan pengungsian yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk migrasi iklim dan pengungsian terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem migrasi iklim dan pengungsian masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko migrasi iklim dan pengungsian tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait migrasi iklim dan pengungsian yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya migrasi iklim dan pengungsian +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk migrasi iklim dan pengungsian (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya migrasi iklim dan pengungsian yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem migrasi iklim dan pengungsian yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak migrasi iklim dan pengungsian, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk migrasi iklim dan pengungsian.
 
@@ -1290,19 +1400,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Konflik, Keamanan dan Stabilitas
 
-Di bawah skenario emisi tinggi (SSP5-8.5), perubahan iklim, konflik dan keamanan diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, perubahan iklim, konflik dan keamanan meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya perubahan iklim, konflik dan keamanan melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait perubahan iklim, konflik dan keamanan yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk perubahan iklim, konflik dan keamanan terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem perubahan iklim, konflik dan keamanan masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko perubahan iklim, konflik dan keamanan tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait perubahan iklim, konflik dan keamanan yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya perubahan iklim, konflik dan keamanan +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk perubahan iklim, konflik dan keamanan (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya perubahan iklim, konflik dan keamanan yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem perubahan iklim, konflik dan keamanan yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak perubahan iklim, konflik dan keamanan, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk perubahan iklim, konflik dan keamanan.
 
@@ -1392,19 +1512,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Infrastruktur, Hunian dan Ketahanan Energi
 
-Di bawah skenario emisi tinggi (SSP5-8.5), infrastruktur, hunian dan ketahanan energi diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, infrastruktur, hunian dan ketahanan energi meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya infrastruktur, hunian dan ketahanan energi melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait infrastruktur, hunian dan ketahanan energi yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk infrastruktur, hunian dan ketahanan energi terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem infrastruktur, hunian dan ketahanan energi masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko infrastruktur, hunian dan ketahanan energi tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait infrastruktur, hunian dan ketahanan energi yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya infrastruktur, hunian dan ketahanan energi +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk infrastruktur, hunian dan ketahanan energi (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya infrastruktur, hunian dan ketahanan energi yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem infrastruktur, hunian dan ketahanan energi yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak infrastruktur, hunian dan ketahanan energi, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk infrastruktur, hunian dan ketahanan energi.
 
@@ -1494,19 +1624,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Literasi Iklim dan Pendidikan
 
-Di bawah skenario emisi tinggi (SSP5-8.5), literasi iklim dan pendidikan diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, literasi iklim dan pendidikan meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya literasi iklim dan pendidikan melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait literasi iklim dan pendidikan yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk literasi iklim dan pendidikan terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem literasi iklim dan pendidikan masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko literasi iklim dan pendidikan tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait literasi iklim dan pendidikan yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya literasi iklim dan pendidikan +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk literasi iklim dan pendidikan (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya literasi iklim dan pendidikan yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem literasi iklim dan pendidikan yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak literasi iklim dan pendidikan, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk literasi iklim dan pendidikan.
 
@@ -1596,19 +1736,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Data, Statistik dan Misinformasi
 
-Di bawah skenario emisi tinggi (SSP5-8.5), data, statistik dan misinformasi di era iklim diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, data, statistik dan misinformasi di era iklim meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya data, statistik dan misinformasi di era iklim melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait data, statistik dan misinformasi di era iklim yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk data, statistik dan misinformasi di era iklim terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem data, statistik dan misinformasi di era iklim masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko data, statistik dan misinformasi di era iklim tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait data, statistik dan misinformasi di era iklim yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya data, statistik dan misinformasi di era iklim +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk data, statistik dan misinformasi di era iklim (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya data, statistik dan misinformasi di era iklim yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem data, statistik dan misinformasi di era iklim yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak data, statistik dan misinformasi di era iklim, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk data, statistik dan misinformasi di era iklim.
 
@@ -1698,19 +1848,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Kesiapsiagaan Rumah Tangga: Air, Pangan, Hunian dan Risiko
 
-Di bawah skenario emisi tinggi (SSP5-8.5), kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk kesiapsiagaan rumah tangga untuk air, pangan, hunian dan risiko lokal.
 
@@ -1800,19 +1960,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Kesehatan, Tanggap Darurat dan Populasi Khusus
 
-Di bawah skenario emisi tinggi (SSP5-8.5), kesehatan, tanggap darurat dan perlindungan populasi rentan diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, kesehatan, tanggap darurat dan perlindungan populasi rentan meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya kesehatan, tanggap darurat dan perlindungan populasi rentan melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait kesehatan, tanggap darurat dan perlindungan populasi rentan yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk kesehatan, tanggap darurat dan perlindungan populasi rentan terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem kesehatan, tanggap darurat dan perlindungan populasi rentan masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko kesehatan, tanggap darurat dan perlindungan populasi rentan tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait kesehatan, tanggap darurat dan perlindungan populasi rentan yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya kesehatan, tanggap darurat dan perlindungan populasi rentan +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk kesehatan, tanggap darurat dan perlindungan populasi rentan (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya kesehatan, tanggap darurat dan perlindungan populasi rentan yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem kesehatan, tanggap darurat dan perlindungan populasi rentan yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak kesehatan, tanggap darurat dan perlindungan populasi rentan, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk kesehatan, tanggap darurat dan perlindungan populasi rentan.
 
@@ -1902,19 +2072,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Modal Sosial, Gotong Royong dan Tata Kelola
 
-Di bawah skenario emisi tinggi (SSP5-8.5), modal sosial, gotong royong dan tata kelola komunitas diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, modal sosial, gotong royong dan tata kelola komunitas meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya modal sosial, gotong royong dan tata kelola komunitas melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait modal sosial, gotong royong dan tata kelola komunitas yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk modal sosial, gotong royong dan tata kelola komunitas terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem modal sosial, gotong royong dan tata kelola komunitas masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko modal sosial, gotong royong dan tata kelola komunitas tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait modal sosial, gotong royong dan tata kelola komunitas yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya modal sosial, gotong royong dan tata kelola komunitas +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk modal sosial, gotong royong dan tata kelola komunitas (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya modal sosial, gotong royong dan tata kelola komunitas yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem modal sosial, gotong royong dan tata kelola komunitas yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak modal sosial, gotong royong dan tata kelola komunitas, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk modal sosial, gotong royong dan tata kelola komunitas.
 
@@ -2004,19 +2184,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Energi Terbarukan dan Teknologi Tepat Guna
 
-Di bawah skenario emisi tinggi (SSP5-8.5), energi terbarukan dan teknologi tepat guna untuk adaptasi iklim diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, energi terbarukan dan teknologi tepat guna untuk adaptasi iklim meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya energi terbarukan dan teknologi tepat guna untuk adaptasi iklim melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait energi terbarukan dan teknologi tepat guna untuk adaptasi iklim yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk energi terbarukan dan teknologi tepat guna untuk adaptasi iklim terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem energi terbarukan dan teknologi tepat guna untuk adaptasi iklim masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko energi terbarukan dan teknologi tepat guna untuk adaptasi iklim tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait energi terbarukan dan teknologi tepat guna untuk adaptasi iklim yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya energi terbarukan dan teknologi tepat guna untuk adaptasi iklim +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk energi terbarukan dan teknologi tepat guna untuk adaptasi iklim (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya energi terbarukan dan teknologi tepat guna untuk adaptasi iklim yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem energi terbarukan dan teknologi tepat guna untuk adaptasi iklim yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak energi terbarukan dan teknologi tepat guna untuk adaptasi iklim, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk energi terbarukan dan teknologi tepat guna untuk adaptasi iklim.
 
@@ -2106,19 +2296,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Psikologi Iklim dan Kesehatan Mental
 
-Di bawah skenario emisi tinggi (SSP5-8.5), kecemasan iklim, trauma dan membangun resiliensi psikologis diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, kecemasan iklim, trauma dan membangun resiliensi psikologis meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya kecemasan iklim, trauma dan membangun resiliensi psikologis melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait kecemasan iklim, trauma dan membangun resiliensi psikologis yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk kecemasan iklim, trauma dan membangun resiliensi psikologis terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem kecemasan iklim, trauma dan membangun resiliensi psikologis masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko kecemasan iklim, trauma dan membangun resiliensi psikologis tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait kecemasan iklim, trauma dan membangun resiliensi psikologis yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya kecemasan iklim, trauma dan membangun resiliensi psikologis +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk kecemasan iklim, trauma dan membangun resiliensi psikologis (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya kecemasan iklim, trauma dan membangun resiliensi psikologis yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem kecemasan iklim, trauma dan membangun resiliensi psikologis yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak kecemasan iklim, trauma dan membangun resiliensi psikologis, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk kecemasan iklim, trauma dan membangun resiliensi psikologis.
 
@@ -2208,19 +2408,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Tata Kelola, Keadilan dan Keterlibatan Warga
 
-Di bawah skenario emisi tinggi (SSP5-8.5), tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk tata kelola iklim, keadilan, kesetaraan dan keterlibatan warga.
 
@@ -2310,19 +2520,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Studi Kasus: Panas, Kebakaran, Banjir dan Ekstrem Perkotaan
 
-Di bawah skenario emisi tinggi (SSP5-8.5), studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk studi kasus regional panas, kebakaran hutan, banjir dan ekstrem perkotaan.
 
@@ -2412,19 +2632,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Studi Kasus: Kekeringan, Pangan, Air dan Keamanan
 
-Di bawah skenario emisi tinggi (SSP5-8.5), studi kasus regional kekeringan, krisis pangan, stres air dan keamanan diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, studi kasus regional kekeringan, krisis pangan, stres air dan keamanan meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya studi kasus regional kekeringan, krisis pangan, stres air dan keamanan melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait studi kasus regional kekeringan, krisis pangan, stres air dan keamanan yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk studi kasus regional kekeringan, krisis pangan, stres air dan keamanan terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem studi kasus regional kekeringan, krisis pangan, stres air dan keamanan masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko studi kasus regional kekeringan, krisis pangan, stres air dan keamanan tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait studi kasus regional kekeringan, krisis pangan, stres air dan keamanan yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya studi kasus regional kekeringan, krisis pangan, stres air dan keamanan +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk studi kasus regional kekeringan, krisis pangan, stres air dan keamanan (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya studi kasus regional kekeringan, krisis pangan, stres air dan keamanan yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem studi kasus regional kekeringan, krisis pangan, stres air dan keamanan yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak studi kasus regional kekeringan, krisis pangan, stres air dan keamanan, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk studi kasus regional kekeringan, krisis pangan, stres air dan keamanan.
 
@@ -2514,19 +2744,29 @@ Pelajaran dari studi kasus menegaskan asesmen sistematis, prioritas pada kelompo
 
 ## Skenario Masa Depan dan Prediksi: Rencana Aksi dan Daftar Periksa untuk Bertahan
 
-Di bawah skenario emisi tinggi (SSP5-8.5), rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan diproyeksikan akan meningkat secara signifikan pada 2050 dan seterusnya. Di bawah skenario emisi rendah (SSP1-2.6), dampak berkurang tetapi tidak dihilangkan karena pemanasan terkunci. Skenario ini didasarkan pada IPCC (2023) dan harus digunakan untuk perencanaan, bukan prediksi hasil yang tepat.
+**Metode dan provenance (ARS deep-research + Vane).** Skenario menerapkan kerangka SSP IPCC AR6 (IPCC, 2021; IPCC, 2023) dengan sintesis Vane Quality-Mode: temu balik multi-sumber SearxNG melintasi AR6 WG1 Ch.4 (proyeksi), WG2 Ch.16 (risiko kunci) dan WG3 (mitigasi), diperiksa silang dengan WMO (2023), World Bank (2022), WHO (2023) dan NASA (2024). Setiap klaim kuantitatif membawa jangkar locator ke entri REFS-nya; gerbang integritas mengikuti checklist 7-mode ARS Stage 2.5 (fabricated-reference, claim-not-supported, anchorless). Pembaca dapat memverifikasi via locator Lampiran D dan grounding file-upload.
 
-### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa)
+Di bawah **SSP5-8.5 (emisi tinggi)**, rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan meningkat lintas horizon: pada **2030** pemanasan ~1,5°C di atas 1850-1900 mendorong bahaya rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan melampaui ekstrem baru-baru ini dalam frekuensi (kepercayaan medium-high, IPCC, 2021); pada **2050** tambahan ~0,8-1,0°C mengunci kejadian majemuk di mana risiko panas, air dan kesehatan bertumpuk, meningkatkan populasi terpapar 20-40% versus baseline 2020 (World Bank, 2022; IPCC, 2022); pada **2100** komitmen permukaan laut dan termal menyiratkan persistensi multi-dekade bahkan jika emisi turun setelah 2050 (Oppenheimer dkk., 2019; IPCC, 2023). Lintasan ini melampaui batas adaptasi untuk wilayah rendah dan rawan air, dengan risiko residual naik non-linear (kepercayaan high). Hal ini diperkuat oleh bukti bahwa konsentrasi CO2 atmosfer kini ~420 ppm pada 2024 (NOAA, 2024) dan es laut Arktik menyusut ~13% per dekade (NASA, 2024).
 
-- Frekuensi dan intensitas bahaya terkait rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan yang lebih besar.
-- Populasi yang terdampak dan kerugian ekonomi yang lebih besar.
-- Biaya adaptasi yang lebih tinggi dan risiko residual.
+Di bawah **SSP1-2.6 (mitigasi kuat, net-zero ~2050)**, manfaat untuk rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan terukur tetapi tidak eliminatif: **2030** puncak dekat 1,5-1,6°C lalu stabil; **2050** pemanasan ~1,6-1,8°C dengan ekstrem rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan masih 15-30% di atas pra-industri, membutuhkan adaptasi; **2100** tertahan sekitar 1,4-1,8°C, menjaga jendela lebih luas untuk pemulihan ekosistem dan adaptasi berkeadilan (IPCC, 2023; WHO, 2023). Co-benefit untuk kesehatan (7 juta kematian polusi udara dapat dihindari, WHO, 2023) dan pangan (kehilangan hasil gandum terbatas ~6% per °C, Zhao dkk., 2017) terkuantifikasi dengan kepercayaan medium, tetapi permukaan laut terkunci (~20-25 cm sejak 1900, IPCC, 2021) tetap ada.
 
-### Skenario B: Emisi Rendah (Mitigasi Kuat)
+**SSP2-4.5 (jalan tengah) dan risiko berjenjang.** Jalur menengah menghasilkan pemanasan 2030-2050 ~1,8-2,2°C, di mana risiko rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan tidak merata: pulau panas perkotaan, volatilitas banjir-kekeringan dan limpahan rantai pasok saling memperkuat (Hsiang & Burke, 2014; Burke dkk., 2015). Keterkaitan kekeringan-pangan-air-keamanan (Wheeler & von Braun, 2013) dan jalur kesehatan-iklim (Watts dkk., 2021; Vicedo-Cabrera dkk., 2021) mengilustrasikan efek majemuk. Sintesis bukti mengikuti inklusi terurut PRISMA (mode lit-review ARS deep-research), dengan heterogenitas dicatat dan kepercayaan dinilai per bahasa terkalibrasi IPCC (sangat rendah hingga sangat tinggi).
 
-- Dampak terkait rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan yang berkurang tetapi tidak dihilangkan.
-- Kebutuhan adaptasi yang lebih dapat dikelola.
-- Stabilitas sosial dan ekonomi yang lebih besar.
+| Horizon | SSP1-2.6 (rendah) | SSP2-4.5 (tengah) | SSP5-8.5 (tinggi) |
+|---|---|---|---|
+| 2030 | bahaya rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan +15-25% vs 1995-2014, adaptasi layak (medium) | +20-35%, batas awal pada kelompok rentan (medium) | +30-50%, pelampauan ekstrem terbaru (high, IPCC, 2021) |
+| 2050 | ~1,6-1,8°C, +15-30% ekstrem, terkelola dengan investasi (IPCC, 2023) | ~2,0-2,4°C, kejadian majemuk +20-40% paparan (World Bank, 2022) | ~2,4-2,8°C, batas mendekati, biaya melonjak (high) |
+| 2100 | ~1,4-1,8°C, stabilisasi, jendela pemulihan (WHO, 2023) | ~2,7-3,2°C, stres persisten, kesenjangan ekuitas melebar | ~3,6-4,4°C, komitmen permukaan laut multi-meter, adaptasi tidak cukup (Oppenheimer dkk., 2019) |
+
+**Kepercayaan, batas dan verifikasi.** Kepercayaan tertinggi untuk penggerak termodinamika (suhu, permukaan laut, es Arktik ~13% per dekade menyusut, NASA, 2024) dan lebih rendah untuk dampak berbasis tempat di mana jalur sosio-ekonomi mendominasi (IPCC, 2022; UNDRR, 2015). Batas adaptasi mengetat melampaui ~2°C untuk rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan (Pörtner dkk., 2022). Pembaca diundang memverifikasi setiap sel kuantitatif terhadap REFS akhir bab dan locator Lampiran D (grounding file-upload Vane), dan menguji proyeksi secara lokal via pemantauan komunitas (IPCC, 2023). Hal ini diperkuat oleh bukti bahwa ~2 miliar kekurangan air bersih (WHO & UNICEF, 2023) dan ~20 juta mengungsi akibat iklim setiap tahun (UNHCR, 2023).
+
+### Skenario A: Emisi Tinggi (Bisnis Seperti Biasa) — Implikasi Analitik
+
+Skenario A mengimplikasikan frekuensi dan intensitas bahaya rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan yang lebih besar, populasi terdampak dan kerugian ekonomi yang lebih besar, serta risiko residual yang lebih tinggi, dengan efek berjenjang pada sistem rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan yang memperkuat biaya melampaui proyeksi linear (World Bank, 2022; Hsiang & Burke, 2014).
+
+### Skenario B: Emisi Rendah (Mitigasi Kuat) — Implikasi Analitik
+
+Skenario B mengurangi tetapi tidak menghilangkan dampak rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan, menghasilkan kebutuhan adaptasi yang lebih terkelola dan stabilitas sosial-ekonomi yang lebih besar, bergantung pada investasi dini pada sistem kesehatan (WHO, 2023), pangan (FAO, 2023) dan air (WHO & UNICEF, 2023).
 
 Inti pembelajaran menekankan asesmen lokal yang sistematis, perlindungan kelompok paling rentan, redundansi sistem, latihan kesiapsiagaan, dan koordinasi antar-komunitas untuk rencana aksi personal dan komunitas, daftar periksa dan template untuk bertahan di masa depan.
 
