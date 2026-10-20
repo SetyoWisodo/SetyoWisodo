@@ -847,7 +847,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         raw_quote = exp.split(":")[1].strip().strip("'").strip('"').strip()
         md.append(prose.expert_lead("en", exp_name, exp_year, _lc_first(raw_quote), ci, si))
         md.append("")
-        _detail = EXPERT_DETAILS[exp_idx].format(section=prose.np_of(sec, "en"), topic=theme)
+        _detail = EXPERT_DETAILS[exp_idx].format(section=prose.short_np(sec, "en"), topic=prose.short_topic(theme))
         _parts = [x.strip().rstrip('.') for x in _detail.split('. ') if x.strip()]
         _body = '. '.join(_parts if "{section}" not in _detail else _parts[:-1])
         md.append(_body + '. ' + prose.expert_anchor("en", sec, ci, si))

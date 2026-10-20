@@ -62,7 +62,7 @@ Kesimpulan diagnosis: masalah utama bukan jumlah falasi, melainkan **produksi te
 | Metrik | Baseline `HEAD` | Sekarang | Arah |
 |---|---|---|---|
 | Paragraf tubuh | 740 | 734 | — |
-| Kata tubuh | 91.704 | 67.287 | −27 % (pengisi templat dibuang) |
+| Kata tubuh | 91.704 | 67.116 | −27 % (pengisi templat dibuang) |
 | Template verbatim | **672** | **0** | ✅ |
 | 5-gram maksimum dalam paragraf | **13** | **2** | ✅ |
 | Paragraf identik | 0 | **0** | ✅ |
@@ -81,7 +81,7 @@ Kesimpulan diagnosis: masalah utama bukan jumlah falasi, melainkan **produksi te
 
 | Metrik | Baseline `HEAD` | Sekarang |
 |---|---|---|
-| Paragraf / kata tubuh | 726 / 88.168 | 710 / 58.339 |
+| Paragraf / kata tubuh | 726 / 88.168 | 710 / 58.159 |
 | Template verbatim | 0 (pola baru belum ada) | **0** |
 | 5-gram maksimum dalam paragraf | 13 | **2** |
 | Paragraf identik | 0 | **0** |
@@ -183,8 +183,8 @@ Contoh kalimat dengan pengulangan tertinggi (11×): `The causal path can be trac
 |---|---|
 | `prose.py` | Mesin penulisan: 8 lensa × 4–6 varian, 6 bingkai batas bukti, 6 bingkai sintesis, 4 bingkai domain, bank penutup, jangkar pakar, `ExpertPicker`, pembangun studi kasus |
 | `audit_gate3.py` | Auditor: 18 metrik + per bab, keluaran JSON |
-| `book.md` / `book_id.md` | Naskah final (77.741 / 69.512 kata termasuk tabel & lampiran) |
-| `Surviving_the_Future.pdf` / `..._ID.pdf` | **177 / 188 halaman**, font Tinos (metrik Times New Roman), 25 tabel, daftar isi 24/24 akurat |
+| `book.md` / `book_id.md` | Naskah final (77.570 / 69.332 kata termasuk tabel & lampiran) |
+| `Surviving_the_Future.pdf` / `..._ID.pdf` | **176 / 187 halaman**, font Tinos (metrik Times New Roman), 25 tabel, daftar isi 24/24 akurat |
 
 ```bash
 python gen_book.py && python gen_book_id.py

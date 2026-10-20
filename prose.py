@@ -1114,8 +1114,23 @@ CASE = {
 }
 
 
+def short_topic(theme):
+    """Tema tanpa daftar panjang: ambil klausa pertama."""
+    return theme.split(",")[0].strip() if "," in theme else theme
+
+
+def short_np(sec_title, lang):
+    """NP pendek untuk sisipan dalam kalimat panjang."""
+    np_ = np_of(sec_title, lang)
+    if "," in np_:
+        np_ = np_.split(",")[0].strip()
+    return np_
+
+
 def expert_anchor(lang, sec_title, ci, si):
     np_ = np_of(sec_title, lang)
+    if "," in np_ or len(np_.split()) > 6:
+        np_ = np_.split(",")[0].strip()
     i = (ci * 5 + si) % 6
     if np_.startswith("kerangka "):
         while "kerangka {" in EXPERT_ANCHOR[lang][i]:
