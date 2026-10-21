@@ -1,0 +1,43 @@
+# -*- coding: utf-8 -*-
+"""Lapisan pendalaman Ketiga (ID) — bab 20."""
+
+EXTRA = {
+    20: {
+        "20.1": [
+            "Beban kesehatan jiwa akibat perubahan iklim biasanya disebut isu yang baru muncul, dan itu meremehkan betapa banyak yang sudah diketahui. Epidemiologi psikiatri telah mempelajari bencana setengah abad, dan temuannya konsisten: minoritas dari populasi terpapar mengembangkan gangguan yang bermakna secara klinis, bagian lebih besar mengembangkan gejala subklinis yang mereda dengan waktu dan dukungan, dan bebannya paling berat pada orang dengan kerentanan sebelumnya. Yang ditambahkan perubahan iklim adalah frekuensi. Komunitas yang mengalami satu banjir per generasi punya waktu pulih di antara peristiwa; komunitas yang mengalaminya tiap tiga tahun menumpuk stres lebih cepat daripada kemampuannya mereda."
+        ],
+        "20.2": [
+            "Trauma bencana adalah jalur yang paling banyak diteliti, dan bentuknya dapat diramalkan. Pada masa sesudahnya, sebagian besar orang mengalami distress, gangguan tidur, bayangan yang mengganggu, dan respons kaget yang meningkat, dan sebagian besar pulih tanpa pengobatan ketika rutinitas kembali. Kelompok lebih kecil — biasanya antara lima dan lima belas persen, bergantung peristiwa dan populasinya — mengembangkan gangguan stres pascatrauma, dan risikonya lebih tinggi bagi yang terpapar langsung, yang kehilangan seseorang, yang punya riwayat gangguan jiwa, dan yang tidak mendapat dukungan sosial sesudahnya. Faktor pelindung tunggal terkuat adalah pulihnya kehidupan biasa: pekerjaan, sekolah, rumah yang berfungsi."
+        ],
+        "20.3": [
+            "Perubahan lambat menghasilkan bentuk distress yang tidak ditangkap baik oleh buku pedoman diagnosis. Kekeringan, salinisasi, erosi pesisir, dan hilangnya penghidupan secara bertahap tidak menghasilkan satu peristiwa traumatis, sehingga kategori stres pascatrauma tidak cocok; yang digambarkan orang adalah suasana hati rendah yang menetap, rasa tak berdaya, dan duka atas tempat serta cara hidup yang menghilang. Istilah solastalgia diciptakan untuk distress akibat perubahan lingkungan pada rumah seseorang, dan telah didokumentasikan di antara petani Australia, penggembala Sahel, dan komunitas adat di Arktik."
+        ],
+        "20.4": [
+            "Panas memengaruhi gangguan jiwa melalui beberapa mekanisme sekaligus, dan efeknya lebih besar daripada yang diakui sebagian besar pelatihan klinis. Secara fisiologis, panas mengganggu tidur, menaikkan kortisol, dan mengganggu termoregulasi orang yang mengonsumsi antipsikotik atau litium, sebagian di antaranya mengganggu keringat atau kemampuan tubuh mengatur suhu. Secara perilaku, panas menaikkan mudah tersinggung, agresi, dan impulsivitas, dan kaitannya dengan insiden kekerasan salah satu temuan paling kokoh dalam literatur. Secara praktis, penyandang gangguan jiwa berat lebih mungkin tunawisma, lebih terisolasi, dan lebih jarang punya penyejuk."
+        ],
+        "20.5": [
+            "Anak dan remaja menanggung beban yang khas karena bersifat antisipatif. Survei di banyak negara menemukan mayoritas besar anak muda mengaku khawatir tentang perubahan iklim, minoritas besar mengaku hal itu memengaruhi kehidupan sehari-hari serta keputusan tentang masa depan, dan kelompok lebih kecil melaporkan distress yang cukup berat untuk mengganggu fungsi. Polanya tidak seragam: kecemasan lebih tinggi pada yang merasa lembaga tidak merespons, dan lebih rendah pada yang terlibat dalam bentuk aksi kolektif, salah satu temuan paling berguna bagi perancang intervensi. Menganggap kekhawatiran itu histeria tidak akurat sekaligus kontraproduktif."
+        ],
+        "20.6": [
+            "Pengungsian dan kehilangan tempat menghasilkan duka yang tidak punya pemakaman. Keluarga yang meninggalkan pulau, lembah, atau desa kehilangan bukan hanya rumah tetapi seperangkat hubungan, bahasa tempat, keterampilan, dan leluhur. Kerugiannya diperberat fakta bahwa kepergian biasanya dibingkai sebagai pilihan, yang membuatnya lebih sulit diratapi, dan bahwa tujuan jarang menawarkan kepadatan koneksi sosial yang sama. Studi atas komunitas yang direlokasi konsisten menemukan depresi dan penggunaan zat yang meningkat, dan efeknya terkuat ketika relokasi diputuskan tanpa konsultasi. Pelajaran praktisnya: jaringan sosial adalah aset yang harus dipindahkan bersama orangnya."
+        ],
+        "20.7": [
+            "Duka, penyangkalan, dan luka moral adalah tiga respons yang mudah tertukar dan penting dibedakan. Duka adalah respons yang tepat atas kehilangan dan tidak memerlukan pengobatan kecuali ia macet. Penyangkalan adalah pertahanan yang melindungi orang dari kesimpulan yang menuntutnya mengubah sesuatu yang belum siap ia ubah, dan lebih baik ditangani dengan menghapus biaya pengakuan daripada dengan argumen. Luka moral adalah distress yang menyusul perbuatan, atau kegagalan berbuat, yang melanggar nilai sendiri: pejabat yang menandatangani izin, insinyur yang tahu tanggulnya kurang, orang tua yang tidak mampu pindah."
+        ],
+        "20.8": [
+            "Yang membantu tidak misterius, dan jarang berupa intervensi spesialis. Buktinya menunjuk tiga hal: pulihnya rutinitas, kehadiran dukungan sosial, dan pengalaman berdaya. Rutinitas memberi struktur pada hari yang kehilangan bentuknya; dukungan memberi seseorang untuk diajak bicara dan diandalkan; keberdayaan memberi rasa bahwa tindakannya berarti, itulah sebabnya aksi kolektif berkaitan dengan distress lebih rendah, bukan lebih tinggi. Layanan klinis penting bagi minoritas yang membutuhkannya, dan paling efektif bila terintegrasi ke layanan primer, sekolah, dan organisasi warga alih-alih disampaikan dari gedung terpisah yang berstigma."
+        ],
+        "20.9": [
+            "Jurang pengobatan kesehatan jiwa adalah yang terbesar dalam kedokteran, dan perubahan iklim melebarkannya. Di banyak negara, lebih dari tiga perempat orang yang membutuhkan perawatan tidak menerima apa pun, dan kekurangannya paling parah di tempat bahayanya paling besar. Respons yang punya bukti adalah pengalihan tugas: melatih tenaga kesehatan komunitas, guru, dan staf layanan primer untuk memberikan intervensi singkat yang terstruktur, dan menyupervisinya dari jarak jauh. Pendekatan ini tidak menggantikan spesialis; ia melipatgandakan jumlah orang yang dapat mengenali masalah dan memberi respons pertama."
+        ],
+        "20.10": [
+            "Berkomunikasi tanpa keputusasaan adalah masalah desain, dan buktinya berlawanan dengan intuisi. Pesan yang diawali bencana menghasilkan keterputusan pada sebagian besar audiens, karena ancaman yang terasa melampaui kemampuan menghasilkan penghindaran alih-alih tindakan; pesan yang diawali solusi dapat menghasilkan kepuasan diri. Yang bekerja adalah kombinasi: pernyataan risiko yang jelas, tindakan spesifik yang dapat diambil audiens, dan pengakuan realistis atas ketidakpastian. Penyampainya sama pentingnya dengan pesannya, itulah sebabnya suara lokal yang dipercaya mengalahkan kampanye nasional. Komunikasi paling efektif memperlakukan audiens sebagai orang dewasa yang berhak atas gambaran penuh."
+        ],
+        "case": [
+            "Kebakaran Camp menghancurkan kota Paradise dalam beberapa jam pada 8 November 2018, menewaskan delapan puluh lima orang dan menghancurkan hampir sembilan belas ribu bangunan. Konsekuensi kesehatan jiwanya diteliti bertahun-tahun sesudahnya, dan temuannya menggambarkan lintasan yang lazim pada bencana kebakaran. Pada tahun pertama, tingkat stres pascatrauma dan depresi tinggi di seluruh populasi, bukan hanya di antara yang kehilangan rumah. Seiring waktu, bebannya bergeser ke orang yang pemulihannya macet: yang tidak dapat membangun ulang, yang asuransinya kurang, yang pindah jauh dari jaringan dukungannya. Komunitas yang dibangun kembali lebih kecil, lebih tua, dan lebih cemas daripada yang terbakar, dan pemulihan psikologisnya mengikuti pemulihan perumahan, bukan sebaliknya."
+        ],
+        "future": [
+            "Masa depan kesehatan jiwa yang diuraikan bab ini lebih bergantung pada layanan dan jaringan sosial yang menerimanya daripada pada iklimnya. Dalam satu skenario, kesehatan jiwa terintegrasi ke layanan primer dan perencanaan bencana, jaringan komunitas kuat, dan bebannya terkelola meski bahayanya meningkat. Dalam skenario lain, layanan tetap vertikal dan kurang didanai, peristiwa berulang menguras penduduk, dan bebannya menumpuk tanpa terlihat dalam tingkat penggunaan zat, kekerasan domestik, dan bunuh diri. Indikatornya: jurang pengobatan, jumlah tenaga kesehatan jiwa per seratus ribu penduduk, dan ketersediaan dukungan psikososial dalam respons bencana."
+        ],
+    },
+}

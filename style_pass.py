@@ -114,6 +114,113 @@ NUM_FIX = {
 }
 
 
+# Kalimat "Two conclusions follow." / "Dua kesimpulan mengikuti." dipakai di
+# hampir setiap bab dan terbaca sebagai templat. Varian dirotasi menurut urutan
+# kemunculan sehingga tidak ada dua bab berurutan yang memakai kalimat sama.
+EN_CONCL = [
+    "The evidence supports two conclusions.",
+    "Two lessons emerge from this.",
+    "There are two consequences here.",
+    "Two points deserve emphasis.",
+    "The analysis points to two conclusions.",
+]
+ID_CONCL = [
+    "Buktinya mendukung dua kesimpulan.",
+    "Dua pelajaran muncul dari sini.",
+    "Ada dua konsekuensi di sini.",
+    "Dua hal perlu ditekankan.",
+    "Analisisnya menunjuk pada dua kesimpulan.",
+]
+
+
+def _concl(text, lang):
+    if lang == "en":
+        for old, new in (("Two conclusions follow for decisions.",
+                          "Two implications matter for decisions."),):
+            c = text.count(old)
+            if c:
+                text = text.replace(old, new)
+                return text, c
+        base, variants = "Two conclusions follow.", EN_CONCL
+    else:
+        for old, new in (("Dua kesimpulan mengikuti dari tabel ini.",
+                          "Dari tabel ini muncul dua kesimpulan."),
+                         ("Dua kesimpulan mengikuti untuk pengambilan keputusan.",
+                          "Dua implikasi penting untuk pengambilan keputusan.")):
+            c = text.count(old)
+            if c:
+                text = text.replace(old, new)
+                return text, c
+        base, variants = "Dua kesimpulan mengikuti.", ID_CONCL
+    if base not in text:
+        return text, 0
+    parts = text.split(base)
+    out = [parts[0]]
+    n = 0
+    for chunk in parts[1:]:
+        out.append(variants[n % len(variants)])
+        out.append(chunk)
+        n += 1
+    return "".join(out), n
+
+
+# "a world that does not will ..." adalah kependekan yang terulang di banyak
+# bab. Diganti dengan varian yang menyebut apa yang tidak dilakukan.
+EN_WORLD = [
+    "a world that delays will",
+    "a world that fails to act will",
+    "a world that does nothing will",
+    "a world that continues on the current path will",
+    "a world that responds late will",
+    "a world that leaves it to the market will",
+]
+ID_WORLD = [
+    "dunia yang menunda akan",
+    "dunia yang gagal bertindak akan",
+    "dunia yang membiarkannya akan",
+    "dunia yang tetap pada jalur sekarang akan",
+    "dunia yang merespons terlambat akan",
+    "dunia yang mengutamakan pasar akan",
+]
+
+
+def _world(text, lang):
+    base = "a world that does not will" if lang == "en" else "dunia yang tidak akan"
+    variants = EN_WORLD if lang == "en" else ID_WORLD
+    if base not in text:
+        return text, 0
+    parts = text.split(base)
+    out = [parts[0]]
+    n = 0
+    for chunk in parts[1:]:
+        out.append(variants[n % len(variants)])
+        out.append(chunk)
+        n += 1
+    return "".join(out), n
+
+
+# "The most important variable remains the pace of ..." diulang di beberapa
+# bab. Setiap bab mendapat rumusan yang mengikuti subjeknya.
+EN_VAR = [
+    ("The most important variable remains the pace of policy and investment, because",
+     "What decides the outcome is the pace of policy and investment, because"),
+    ("The most important variable remains the pace of climate change, because",
+     "How fast the climate changes remains the decisive factor, because"),
+    ("The most important variable remains the pace of warming, because",
+     "How quickly the warming proceeds remains decisive, because"),
+    ("The most important variable, as in other chapters, is the pace of emission reduction, because",
+     "As in other chapters, the pace of emission reduction is what counts, because"),
+]
+ID_VAR = [
+    ("Variabel terpenting tetap laju kebijakan dan investasi, karena",
+     "Yang menentukan hasilnya adalah laju kebijakan dan investasi, karena"),
+    ("Variabel terpenting tetap laju perubahan iklim, karena",
+     "Seberapa cepat iklim berubah tetap menjadi faktor penentu, karena"),
+    ("Variabel terpenting tetap laju pemanasan, karena",
+     "Seberapa cepat pemanasan berlangsung tetap menentukan, karena"),
+]
+
+
 def apply(text, lang):
     pairs = EN_FS if lang == "en" else ID_FS
     n = 0
@@ -139,6 +246,18 @@ def apply(text, lang):
     if c:
         text = text.replace(q, "")
         n += c
+    for _ in range(6):
+        text, c = _concl(text, lang)
+        n += c
+        if not c:
+            break
+    text, c = _world(text, lang)
+    n += c
+    for old, new in (EN_VAR if lang == "en" else ID_VAR):
+        c = text.count(old)
+        if c:
+            text = text.replace(old, new)
+            n += c
     return text, n
 
 

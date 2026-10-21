@@ -21,8 +21,12 @@ def _load_extra(lang, n):
     ditambahkan bertahap tanpa menyunting berkas besar.
     """
     pkg = "content_id" if lang == "id" else "content"
+    import pkgutil
+    base = __import__(pkg, fromlist=["__path__"])
+    names = sorted(m.name for m in pkgutil.iter_modules(base.__path__)
+                   if m.name.startswith("depth"))
     merged = {}
-    for name in ("depth", "depth_b", "depth_c", "depth_d", "depth_e", "depth_f", "depth_g", "depth_h", "depth_i", "depth_j"):
+    for name in names:
         try:
             mod = __import__(pkg + "." + name, fromlist=["EXTRA"])
         except ImportError:
