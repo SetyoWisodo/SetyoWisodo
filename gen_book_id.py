@@ -794,12 +794,46 @@ md.append("# Lampiran A: Ceklis dan Panduan")
 md.append("")
 md.append("## Ceklis Darurat Utama")
 md.append("")
-for k in range(10):
-    md.append(f"- Item {k+1}: Verifikasi pasokan, dokumen, dan rencana komunikasi.")
+for item in [
+    "Air: empat liter per orang per hari selama sedikitnya tiga hari, ditambah filter atau tablet penjernih.",
+    "Pangan: stok tiga hari yang tidak perlu dimasak, dan pembuka kaleng manual.",
+    "Obat: persediaan tujuh hari untuk resep rutin, kotak P3K, dan daftar dosis tertulis.",
+    "Dokumen: KTP, polis asuransi, sertifikat properti dan catatan imunisasi dalam map tahan air, dengan salinan di awan.",
+    "Daya: power bank terisi, baterai cadangan, senter, dan radio baterai atau engkol tangan.",
+    "Panas: rencana untuk ruangan terdingin, tirai penghalang panas, dan daftar tempat umum berpendingin dalam jarak jalan kaki.",
+    "Banjir: jalur pasti ke tanah lebih tinggi, titik temu, dan aturan bahwa tidak seorang pun berjalan atau berkendara melewati air mengalir.",
+    "Uang: uang tunai cukup untuk tiga hari, karena mesin kartu mati saat listrik padam.",
+    "Tanggungan: perlengkapan untuk anak, orang tua, hewan peliharaan, dan siapa pun yang tidak bisa mengungsi sendiri.",
+    "Tetangga: nama dan nomor telepon dua rumah terdekat, serta satu kontak luar kota yang bisa dihubungi semua orang.",
+]:
+    md.append(f"- {item}")
 md.append("")
-md.append("## Panduan Penulisan dan Debat Akademik")
+md.append("## Ceklis Komunitas dan Kota")
 md.append("")
-md.append("Buku ini dirancang untuk digunakan dalam diskusi akademik. Saat memperdebatkan atau memperluas klaimnya:")
+for item in [
+    "Peta pusat pendingin dan tempat pengungsian yang dipublikasikan, lengkap dengan jam buka dan rute angkutan.",
+    "Keterbukaan risiko banjir untuk setiap alamat, tersedia sebelum kontrak sewa atau jual beli ditandatangani.",
+    "Saluran peringatan dini yang menjangkau orang tanpa ponsel pintar, lewat sirene, radio, atau SMS.",
+    "Daya cadangan untuk klinik, unit dialisis dan apotek, diuji dengan beban penuh setahun sekali.",
+    "Jadwal pemeliharaan drainase dan tanggul yang dipublikasikan, dibiayai, dan diaudit.",
+    "Pejabat yang namanya bertanggung jawab atas setiap ambang peringatan, sehingga keputusan mengungsi punya pemilik.",
+]:
+    md.append(f"- {item}")
+md.append("")
+md.append("## Lembar Kerja: Profil Risiko Lokal Anda")
+md.append("")
+for item in [
+    "Bahaya: mana di antara panas, banjir, kebakaran, kekeringan atau badai yang pernah melanda tempat ini dalam dua puluh tahun terakhir, dan seberapa sering?",
+    "Paparan: jalan, pekerjaan dan layanan mana yang berada di zona terdampak?",
+    "Kerentanan: siapa yang tidak bisa berpindah, membayar, atau bertahan melewati gangguan tiga hari?",
+    "Kapasitas: lembaga mana yang sudah memiliki kepercayaan, kendaraan dan staf untuk bertindak lebih dulu?",
+    "Pemicu: pengukuran apa, pada ambang berapa, yang akan membuat Anda pergi atau menutup usaha?",
+]:
+    md.append(f"- {item}")
+md.append("")
+md.append("## Panduan Debat Akademik")
+md.append("")
+md.append("Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah satu klaimnya:")
 md.append("")
 md.append("- Selalu sitasi sumber primer (paper peer-reviewed, laporan IPCC).")
 md.append("- Bedakan antara observasi, atribusi, dan proyeksi.")

@@ -255,9 +255,9 @@ Falasi: 0 di kedua bahasa. Penanda absolut **173 (EN) / 57 (ID)** dengan hedge *
 | `deep_render.py` | Perakit bab mendalam |
 | `content/ch01–24.py`, `content_id/ch01–24.py` | 48 modul bab, dua bahasa |
 | `audit_gate3.py` | Auditor: 21 metrik + per bab, keluaran JSON |
-| `book.md` / `book_id.md` | **121.951 / 106.386 kata** tubuh (termasuk tabel & lampiran) |
+| `book.md` / `book_id.md` | **131.365 / 115.914 kata** total; **121.951 / 106.386 kata** tubuh terhitung audit |
 | `references.py` | **138 entri** Daftar Pustaka kanonis (EN `et al.`, ID `dkk.`), satu sumber untuk kedua edisi |
-| `Surviving_the_Future.pdf` / `..._ID.pdf` | **286 / 307 halaman**, Tinos, 25 tabel, 24/24 bab, Lampiran A–G lengkap di kedua edisi, daftar isi akurat, 0 blok di luar margin |
+| `Surviving_the_Future.pdf` / `..._ID.pdf` | **288 / 309 halaman**, Tinos, 25 tabel, 24/24 bab, Lampiran A–G lengkap di kedua edisi, daftar isi akurat, 0 blok di luar margin |
 | `gate1.py` | Lapisan sisipan sitasi dalam teks: 4 tingkat aturan, 10 penjaga, penggabung sitasi berdampingan |
 | `content/depth*.py`, `content_id/depth*.py` | **10 modul × 2 bahasa**: lapisan paragraf kedua untuk 24/24 bab + bukti Global Selatan |
 

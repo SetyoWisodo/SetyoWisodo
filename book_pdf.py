@@ -543,6 +543,10 @@ def render(md_path, out_pdf, lang="en", title=None):
                 if pdf.get_y() + 3 * LINE_H > pdf.page_break_trigger:
                     pdf.add_page()
                     pdf.set_y(pdf.t_margin)
+                if getattr(pdf, "ref_mode", False):
+                    draw_paragraph(pdf, txt, indent=0.0, align="L")
+                    pdf.ln(3.0)
+                    continue
                 y = pdf.get_y()
                 pdf.set_xy(pdf.l_margin + 2.0, y)
                 pdf.cell(bullet_w, LINE_H, "\u2022", border=0)
@@ -554,6 +558,7 @@ def render(md_path, out_pdf, lang="en", title=None):
                 flush_li(pdf)
             if kind == "h1":
                 title_txt = val
+                pdf.ref_mode = bool(re.match(r"^(Appendix|Lampiran) D\b", title_txt))
                 pdf.chapter_title = title_txt
                 pdf.add_page()
                 pdf.chapter_starts.add(pdf.page)

@@ -807,19 +807,53 @@ md.append("# Appendix A: Checklists and Worksheets")
 md.append("")
 md.append("## Master Emergency Checklist")
 md.append("")
-for k in range(10):
-    md.append(f"- Item {k+1}: Verify supplies, documents, and communication plans.")
+for item in [
+    "Water: four litres per person per day for at least three days, plus a filter or purification tablets.",
+    "Food: three days of non-perishable food that needs no cooking, and a manual can opener.",
+    "Medications: a seven-day supply of prescriptions, a first-aid kit and a written list of dosages.",
+    "Documents: identity papers, insurance policies, property deeds and vaccination records in a waterproof folder, with scans in the cloud.",
+    "Power: a charged power bank, spare batteries, a torch and a battery or hand-crank radio.",
+    "Heat: a plan for the hottest room, blackout curtains, and a list of air-conditioned public places within walking distance.",
+    "Flood: a known route to higher ground, a meeting point, and a rule that no one walks or drives through moving water.",
+    "Money: enough cash for three days, because card readers fail when the power does.",
+    "Dependants: supplies for children, elderly relatives, pets and anyone who cannot evacuate alone.",
+    "Neighbours: names and phone numbers of the two nearest households, and an out-of-area contact everyone can call.",
+]:
+    md.append(f"- {item}")
 md.append("")
-md.append("## Panduan Penulisan dan Debat Akademik")
+md.append("## Community and City Checklist")
 md.append("")
-md.append("Buku ini dirancang untuk digunakan dalam diskusi akademik. Saat memperdebatkan atau memperluas klaimnya:")
+for item in [
+    "A published map of cooling centres and shelters, with opening hours and transport routes.",
+    "Flood-risk disclosure for every address, available before a lease or a sale is signed.",
+    "An early-warning channel that reaches people without smartphones, through sirens, radio or SMS.",
+    "Backup power for clinics, dialysis units and pharmacies, tested under load once a year.",
+    "Drainage and embankment maintenance schedules that are published, funded and audited.",
+    "A named official accountable for each warning threshold, so that the decision to evacuate has an owner.",
+]:
+    md.append(f"- {item}")
 md.append("")
-md.append("- Selalu sitasi sumber primer (paper peer-reviewed, laporan IPCC).")
-md.append("- Bedakan antara observasi, atribusi, dan proyeksi.")
-md.append("- Akui ketidakpastian dan tingkat kepercayaan.")
-md.append("- Pertimbangkan berbagai jalur sosioekonomi (SSP).")
-md.append("- Sertakan dimensi keadilan dan kesetaraan.")
-md.append("- Perbarui klaim seiring munculnya bukti baru.")
+md.append("## Worksheet: Your Local Risk Profile")
+md.append("")
+for item in [
+    "Hazard: which of heat, flood, fire, drought or storm has hit this place in the last twenty years, and how often?",
+    "Exposure: which streets, jobs and services sit in the affected zone?",
+    "Vulnerability: who cannot move, pay, or wait out a three-day interruption?",
+    "Capacity: which institution already has the trust, the vehicles and the staff to act first?",
+    "Trigger: what measurement, at what threshold, would make you leave or shut down?",
+]:
+    md.append(f"- {item}")
+md.append("")
+md.append("## Guide to Academic Debate")
+md.append("")
+md.append("This book is written to be argued with. When you contest or extend one of its claims:")
+md.append("")
+md.append("- Separate observation, attribution and projection, and say which one a number belongs to.")
+md.append("- Cite the primary source: the peer-reviewed paper or the assessment report, not the news story about it.")
+md.append("- State the uncertainty and the confidence level instead of rounding it away.")
+md.append("- Ask which socioeconomic pathway and which warming level the claim assumes.")
+md.append("- Ask who bears the cost and who is excluded by the policy proposed.")
+md.append("- Check whether new evidence has overtaken the claim, and say so if it has.")
 md.append("")
 md.append("# Appendix B: Glossary")
 md.append("")
