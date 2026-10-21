@@ -102,7 +102,7 @@ Lapisan ini **idempoten**: dijalankan dua kali pada berkas yang sama, sisipan ke
 
 Daftar Pustaka dibagi dua bagian: **Works Cited / Karya yang Dikutip** (130 entri EN, 123 ID) berisi hanya karya yang benar-benar muncul sebagai sitasi, dan **Further Reading / Bacaan Lanjutan** untuk sisanya, sehingga tidak ada entri menggantung di daftar rujukan.
 
-Setiap sitasi diuji silang terhadap Daftar Pustaka oleh `check_citations.py`: nama belakang harus punya entri, dan tahunnya harus persis sama. Hasil akhir: **376 sitasi (EN) / 335 (ID) diperiksa, 0 ketidakcocokan**.
+Setiap sitasi diuji silang terhadap Daftar Pustaka oleh `check_citations.py`: nama belakang harus punya entri, dan tahunnya harus persis sama. Hasil akhir: **377 sitasi (EN) / 336 (ID) diperiksa, 0 ketidakcocokan**.
 
 Gate 1 dipasang sebagai lapisan otomatis `gate1.py` yang dijalankan kedua generator
 tepat sebelum `book.md` / `book_id.md` ditulis. Aturannya empat tingkat:

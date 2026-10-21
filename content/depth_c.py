@@ -47,7 +47,7 @@ EXTRA = {
             "particulate matter; wildfire smoke adds another burden that is growing as fire seasons "
             "lengthen; and ozone formation accelerates at higher temperatures. The health toll is "
             "large: outdoor air pollution is associated with roughly 4 million premature deaths a year, "
-            "and household air pollution from solid fuels with another 3 million or more.",
+            "and household air pollution from solid fuels with another 3.7 million.",
         ],
         "9.5": [
             "Nutrition is the pathway with the largest long-term consequences and the least visible "

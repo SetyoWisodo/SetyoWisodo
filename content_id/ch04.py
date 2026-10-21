@@ -188,10 +188,9 @@ CH = {
                 "lain yang meningkat selama gelombang panas, seperti serangan jantung dan gagal "
                 "ginjal, yang mungkin tidak tercatat sebagai terkait panas.",
 
-                "Beban globalnya besar. Lancet Countdown memperkirakan bahwa kematian terkait panas "
-                "di antara orang berusia di atas 65 tahun telah meningkat sekitar 70 persen sejak "
-                "awal 1990-an, dan bahwa lebih dari 500.000 kematian per tahun terkait dengan "
-                "panas. Angka itu adalah perkiraan, bukan hitungan, dan bergantung pada asumsi "
+                "Beban globalnya besar. Organisasi Kesehatan Dunia memperkirakan sekitar 489.000 "
+                "kematian terkait panas per tahun antara 2000 dan 2019 (WHO, 2023). "
+                "Angka itu adalah perkiraan, bukan hitungan, dan bergantung pada asumsi "
                 "tentang hubungan suhu-kematian yang berbeda menurut lokasi. Tetapi arahnya tidak "
                 "ambigu, dan trennya merupakan salah satu sinyal paling jelas bahwa perubahan "
                 "iklim sudah memengaruhi kesehatan manusia.",

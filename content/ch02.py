@@ -385,8 +385,8 @@ CH = {
             "the twentieth century, is now accelerating.",
 
             "The present position can be stated with unusual precision. For a fifty per cent "
-            "chance of holding warming below 1.5°C, the remaining carbon budget is roughly 200 "
-            "billion tonnes of CO2 — about five years of current emissions. For 2°C the budget "
+            "chance of holding warming below 1.5°C, the remaining carbon budget is roughly 250 "
+            "billion tonnes of CO2 — about six years of current emissions. For 2°C the budget "
             "is larger but still finite, and the policies in place in 2025 imply warming of "
             "about 2.7°C by 2100 rather than the 1.5°C target governments have endorsed (IPCC, "
             "2022c; Friedlingstein et al., 2024). Three trajectories bracket the plausible "
@@ -523,7 +523,7 @@ _EXTRA = {
     "regardless of when it is emitted; the total that can be emitted while holding warming below "
     "a given threshold is therefore a finite quantity. The best estimate for a fifty per cent "
     "chance of staying below 1.5°C was about 500 billion tonnes of CO2 from 2020, and continued "
-    "emissions have since reduced it to roughly 200 billion — about five years at current rates "
+    "emissions have since reduced it to roughly 250 billion — about six years at current rates "
     "(IPCC, 2021; Friedlingstein et al., 2024). The budget does not care about pledges, "
     "announcements or targets; it responds only to the tonnage that actually leaves the ground.",
 

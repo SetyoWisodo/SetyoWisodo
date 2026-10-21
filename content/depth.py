@@ -363,11 +363,12 @@ EXTRA = {
         "opening": [
             "Heat is the deadliest climate hazard in most years, and it is the one with the least "
             "visible damage. A flood destroys buildings that can be photographed; a heatwave leaves "
-            "buildings intact and kills people inside them. The World Health Organization attributes "
-            "more than 175,000 deaths a year to heat, and the Lancet Countdown estimates that "
-            "heat-related mortality among people over 65 has risen by 167 per cent compared with the "
-            "1990s (Romanello et al., 2024). Those figures are estimates built from excess mortality "
-            "studies, because heat is rarely recorded as a cause of death on a certificate.",
+            "buildings intact and kills people inside them. In Europe alone, the World Health "
+            "Organization attributes more than 175,000 deaths a year to heat (WHO, 2023). The Lancet "
+            "Countdown estimates that heat-related mortality among people over 65 has risen by 167 per "
+            "cent compared with the 1990s (Romanello et al., 2024). Those figures are estimates built "
+            "from excess mortality studies, because heat is rarely recorded as a cause of death on a "
+            "certificate.",
         ],
         "4.1": [
             "Wet-bulb temperature is the measure that matters physiologically because it captures the "

@@ -45,7 +45,7 @@ EXTRA = {
             "kaca dan partikulat halus sekaligus; asap kebakaran hutan menambah beban yang tumbuh seiring "
             "musim api memanjang; dan pembentukan ozon mempercepat pada suhu lebih tinggi. Beban "
             "kesehatannya besar: polusi udara luar ruangan terkait dengan sekitar 4 juta kematian dini "
-            "per tahun, dan polusi udara dalam ruangan dari bahan bakar padat dengan 3 juta lebih.",
+            "per tahun, dan polusi udara dalam ruangan dari bahan bakar padat dengan 3,7 juta.",
         ],
         "9.5": [
             "Nutrisi adalah jalur dengan konsekuensi jangka panjang terbesar dan kerusakan paling tidak "

@@ -139,7 +139,7 @@ Dibuat otomatis (`check_citations.py`, `cited.py`, `gate1b.py`). Kutipan dihitun
 | 133 | Wheeler, T. & von Braun, J | 2013 | 0 | 0 | Further Reading | Further Reading |
 | 134 | WHO & UNICEF | 2023 | 7 | 6 | Works Cited | Works Cited |
 | 135 | WHO | 2021 | 7 | 6 | Works Cited | Works Cited |
-| 136 | WHO | 2023 | 7 | 6 | Works Cited | Works Cited |
+| 136 | WHO | 2023 | 8 | 7 | Works Cited | Works Cited |
 | 137 | WMO | 2022 | 20 | 24 | Works Cited | Works Cited |
 | 138 | WMO | 2023 | 20 | 24 | Works Cited | Works Cited |
 | 139 | WMO | 2025 | 20 | 24 | Works Cited | Works Cited |
@@ -150,4 +150,4 @@ Dibuat otomatis (`check_citations.py`, `cited.py`, `gate1b.py`). Kutipan dihitun
 | 144 | Zemp, M. et al | 2019 | 1 | 2 | Works Cited | Works Cited |
 | 145 | Zhao, C. et al | 2017 | 6 | 6 | Works Cited | Works Cited |
 
-**Total**: 145 entri; 376 sitasi EN, 335 sitasi ID; Works Cited 130 EN / 123 ID; 0 ketidakcocokan tahun.
+**Total**: 145 entri; 377 sitasi EN, 336 sitasi ID; Works Cited 130 EN / 123 ID; 0 ketidakcocokan tahun.

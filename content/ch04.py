@@ -181,9 +181,8 @@ CH = {
                 "heatwaves, such as heart attacks and kidney failure, which may not be recorded as "
                 "heat-related.",
 
-                "The global burden is large. The Lancet Countdown estimates that heat-related "
-                "mortality among people over 65 has increased by about 70 per cent since the early "
-                "1990s, and that more than 500,000 deaths a year are associated with heat. The "
+                "The global burden is large. The World Health Organization estimates about 489,000 "
+                "heat-related deaths a year between 2000 and 2019 (WHO, 2023). The "
                 "figure is an estimate, not a count, and it depends on assumptions about "
                 "temperature-mortality relationships that vary by location. But the direction is "
                 "unambiguous, and the trend is one of the clearest signals that climate change is "

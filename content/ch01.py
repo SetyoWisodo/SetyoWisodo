@@ -147,13 +147,12 @@ CH = {
                 "more than two hundred in a high-income country with a modern warning system.",
 
                 "But disasters capture only the visible part of the cost. The World Health "
-                "Organization attributes about 150,000 deaths a year to climate change through "
-                "heat, disease, malnutrition and displacement, a figure that most epidemiologists "
-                "consider conservative because it excludes the long tail of chronic illness and "
-                "lost livelihood. Heat alone is estimated to cause more than 500,000 deaths a year "
-                "globally, with the European summer of 2022 accounting for about 61,700 of them. "
-                "Air pollution, much of it from the same fuels that drive warming, kills about "
-                "seven million people a year.",
+                "Organization projects that climate change will cause about 250,000 additional "
+                "deaths a year between 2030 and 2050 through heat, diarrhoea, malaria and "
+                "undernutrition, and the true toll is probably higher. Heat is already lethal: the "
+                "European summer of 2022 is estimated to have caused about 61,700 deaths, most of "
+                "them among older people. Air pollution, much of it from the same fuels that drive "
+                "warming, kills about seven million people a year.",
 
                 "The economic record is equally uneven. The World Bank estimates that climate-"
                 "related losses in developing countries already exceed US$200 billion a year, and "

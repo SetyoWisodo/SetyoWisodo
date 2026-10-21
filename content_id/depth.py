@@ -369,11 +369,12 @@ EXTRA = {
         "opening": [
             "Panas adalah bahaya iklim paling mematikan pada sebagian besar tahun, dan ia bahaya dengan "
             "kerusakan paling tidak terlihat. Banjir menghancurkan bangunan yang dapat difoto; gelombang "
-            "panas meninggalkan bangunan utuh dan membunuh orang di dalamnya. Organisasi Kesehatan Dunia "
-            "mengaitkan lebih dari 175.000 kematian per tahun dengan panas, dan Lancet Countdown "
-            "memperkirakan kematian terkait panas di antara orang berusia di atas 65 tahun naik 167 "
-            "persen dibandingkan 1990-an (Romanello dkk., 2024). Angka itu perkiraan yang dibangun dari "
-            "studi kematian berlebih, karena panas jarang dicatat sebagai penyebab kematian di sertifikat.",
+            "panas meninggalkan bangunan utuh dan membunuh orang di dalamnya. Di Eropa saja, Organisasi "
+            "Kesehatan Dunia mengaitkan lebih dari 175.000 kematian per tahun dengan panas (WHO, 2023). "
+            "Lancet Countdown memperkirakan kematian terkait panas di antara orang berusia di atas 65 "
+            "tahun naik 167 persen dibandingkan 1990-an (Romanello dkk., 2024). Angka itu perkiraan yang "
+            "dibangun dari studi kematian berlebih, karena panas jarang dicatat sebagai penyebab "
+            "kematian di sertifikat.",
         ],
         "4.1": [
             "Suhu bola basah adalah ukuran yang penting secara fisiologis karena ia menangkap efek "

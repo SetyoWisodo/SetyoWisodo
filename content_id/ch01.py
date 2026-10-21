@@ -149,14 +149,13 @@ CH = {
                 "berpenghasilan tinggi dengan sistem peringatan modern.",
 
                 "Tetapi bencana hanya menangkap bagian biaya yang terlihat. Organisasi Kesehatan "
-                "Dunia mengaitkan sekitar 150.000 kematian per tahun dengan perubahan iklim melalui "
-                "panas, penyakit, malnutrisi, dan pengungsian — angka yang dianggap konservatif "
-                "oleh sebagian besar epidemiolog karena tidak memasukkan ekor panjang penyakit "
-                "kronis dan penghidupan yang hilang. Panas saja diperkirakan menyebabkan lebih dari "
-                "500.000 kematian per tahun secara global, dengan musim panas Eropa 2022 "
-                "menyumbang sekitar 61.700 di antaranya. Polusi udara, yang sebagian besar berasal "
-                "dari bahan bakar yang sama yang memanaskan iklim, menewaskan sekitar tujuh juta "
-                "orang per tahun.",
+                "Dunia memproyeksikan bahwa perubahan iklim akan menyebabkan sekitar 250.000 "
+                "kematian tambahan per tahun antara 2030 dan 2050 melalui panas, diare, malaria, "
+                "dan kurang gizi, dan angka sebenarnya mungkin lebih tinggi. Panas "
+                "sudah mematikan: musim panas Eropa 2022 diperkirakan menyebabkan sekitar 61.700 "
+                "kematian, sebagian besar di kalangan orang lanjut usia. Polusi udara, yang "
+                "sebagian besar berasal dari bahan bakar yang sama yang memanaskan iklim, "
+                "menewaskan sekitar tujuh juta orang per tahun.",
 
                 "Rekaman ekonominya sama tidak meratanya. Bank Dunia memperkirakan bahwa kerugian "
                 "terkait iklim di negara berkembang sudah melebihi US$200 miliar per tahun, dan "
