@@ -1884,6 +1884,8 @@ Texas adalah yurisdiksi kaya dengan jaringan listrik modern, dan itulah poinnya.
 
 Bab ini membahas lingkungan binaan sebagai masalah iklim. Bab ini melihat perumahan, tenaga listrik, air, transportasi, rumah sakit, dan sekolah, serta standar, pembiayaan, dan rezim pemeliharaan yang menentukan apakah mereka bertahan dari guncangan. Bab ini memberi perhatian khusus pada saling ketergantungan sistem, karena kegagalan satu sistem sering menyebabkan kegagalan sistem lain, dan pada pertanyaan siapa yang membayar ketangguhan ketika manfaatnya diperoleh selama beberapa dekade.
 
+Kode teknik ditulis seolah iklim abad kedua puluh akan berlanjut selamanya, dan asumsi itu kini menjadi liabilitas terbesar yang tidak tercatat dalam neraca dunia. Bangunan yang dirancang untuk intensitas hujan dengan peluang satu per lima puluh kali terlampaui dalam setahun akan mengalami hujan rancangan itu jauh lebih sering ketika sebarannya bergeser. Kegagalannya biasanya bukan keruntuhan dramatis; ia berupa jembatan yang ditutup untuk perbaikan, gardu induk yang terendam dua kali satu dekade, dan perumahan yang drainasenya memadai saat dibangun tetapi tidak lagi memadai sekarang.
+
 ## 13.1 Infrastruktur dan Asumsi Iklim Stasioner
 
 Desain rekayasa didasarkan pada statistik: banjir 100 tahun, angin 50 tahun, suhu desain yang terlampaui pada beberapa hari setiap tahun. Statistik itu diturunkan dari catatan historis dan mengasumsikan iklim stasioner — bahwa masa depan akan menyerupai masa lalu. Perubahan iklim melanggar asumsi itu, yang berarti infrastruktur yang dirancang dengan statistik lama diminta berkinerja dalam kondisi yang tidak pernah dimaksudkan untuk ditahannya.
@@ -1891,6 +1893,8 @@ Desain rekayasa didasarkan pada statistik: banjir 100 tahun, angin 50 tahun, suh
 Konsekuensinya terlihat di setiap sektor. Jalan melengkung pada panas yang melebihi titik lunak aspal; rel kereta memuai dan tergelincir; kabel listrik melendut dan transformator kepanasan; jembatan tergerus banjir yang lebih besar daripada aliran desain; sistem drainase kewalahan oleh intensitas hujan yang dahulu jarang. Kegagalan itu bukan disebabkan rekayasa yang buruk pada desain awal; ia disebabkan garis dasar yang bergerak, yang menjadi kalibrasi desain.
 
 Mengadaptasi infrastruktur memerlukan pembaruan statistik dan standar yang bergantung padanya. Sebagian negara telah memulainya: Belanda merevisi standar perlindungan banjirnya untuk memperhitungkan kenaikan muka laut; Inggris memperbarui proyeksi curah hujan untuk desain drainase; dan beberapa kota menaikkan suhu desain untuk jalan dan rel. Tetapi pembaruannya lambat, tidak merata, dan sering sukarela, dan infrastruktur yang sudah dibangun tidak dapat didesain ulang dalam semalam.
+
+Kalimat yang mengorganisasi bidang ini ditulis Milly dan rekan-rekannya pada 2008: stasioneritas sudah mati, dan pengelolaan air harus berhenti menganggap masa lalu sebagai panduan yang memadai bagi masa depan. Argumen mereka bersifat teknis, bukan apokaliptik. Debit waduk, frekuensi banjir, dan kapasitas spillway semuanya dihitung dari catatan historis, dan catatan itu tidak lagi menggambarkan sebaran yang akan menjadi sumber dekade berikutnya. Tempat para insinyur dahulu memiliki statistik stabil selama seabad, kini ada sasaran yang bergerak, dan profesi ini merespons dengan lambat karena alternatifnya — memberi probabilitas pada iklim yang sedang diubah secara aktif — mahal dan canggung secara politik.
 
 ## 13.2 Perumahan dan Tempat Berlindung
 
@@ -1900,6 +1904,8 @@ Permukiman informal adalah yang paling rentan. Sekitar satu miliar orang tinggal
 
 Di negara berpenghasilan tinggi, masalahnya sering usia stok perumahan dan lokasi perumahan. Bangunan yang dibangun sebelum kode modern mungkin tidak memiliki insulasi, pendinginan, perlindungan banjir, atau ketahanan api, dan meretrofitting-nya mahal. Perumahan di dataran banjir dan di garis pantai terpapar bahaya yang diremehkan ketika dibangun. Hasilnya adalah badai yang sama menghasilkan kerugian yang sangat berbeda di lingkungan yang berbeda, dan perbedaannya mengikuti pendapatan serta ras.
 
+Perumahan adalah tempat abstraksi itu menjadi daging. UN-Habitat memperkirakan sekitar 1,1 miliar orang tinggal di permukiman informal, dan sebagian besar hunian itu dibangun tanpa tinjauan teknik apa pun. Kode bangunan, jika ada, mengatur sektor formal; ia tidak mengatur kota yang dibangun sendiri dan menampung seperempat umat manusia perkotaan. Gempa Türkiye–Suriah 2023 menewaskan lebih dari lima puluh ribu orang, dan penyelidikan sesudahnya memusatkan perhatian pada jurang antara tuntutan kode dan apa yang benar-benar dituang ke dalam bekisting, termasuk ribuan bangunan yang dilegalkan melalui amnesti konstruksi berturut-turut.
+
 ## 13.3 Sistem Tenaga Listrik
 
 Listrik adalah tulang punggung infrastruktur modern: rumah sakit, pengolahan air, komunikasi, transportasi, dan pendinginan pangan semuanya bergantung padanya. Sistem tenaga listrik juga rentan terhadap iklim dalam beberapa cara. Panas mengurangi efisiensi pembangkit termal dan kapasitas saluran transmisi; kekeringan mengurangi output PLTA dan air yang tersedia untuk pendinginan; badai merusak saluran dan gardu; dan banjir merendam peralatan yang dibangun di permukaan tanah.
@@ -1907,6 +1913,8 @@ Listrik adalah tulang punggung infrastruktur modern: rumah sakit, pengolahan air
 Kegagalan Texas 2021 adalah contoh paling banyak dipelajari di negara berpenghasilan tinggi. Jaringan itu dirancang untuk puncak musim panas, dan badai musim dingin memperlihatkan ketiadaan weatherization, ketergantungan pada pasokan gas yang membeku di kepala sumur, dan kurangnya interkoneksi dengan bagian lain negara. Kegagalannya diperparah sistem air: pompa kehilangan listrik, pipa pecah, dan hilangnya tekanan air menciptakan darurat kesehatan publik yang berlangsung berhari-hari setelah listrik kembali.
 
 Solusinya diketahui. Weatherization pembangkit dan pasokan bahan bakar, mengubur atau memperkuat saluran, mendiversifikasi pembangkit, memperbaiki prakiraan, dan menghubungkan jaringan agar listrik berlebih dapat mengalir dari satu wilayah ke wilayah lain semuanya mengurangi risiko. Hambatannya adalah biaya dan insentif: manfaat ketangguhan diperoleh selama beberapa dekade dan sulit dikaitkan dengan keputusan tunggal, sementara biayanya langsung dan terlihat. Pasar yang memberi imbalan pada listrik termurah sering gagal memberi imbalan pada keandalan, itulah sebabnya regulasi diperlukan.
+
+Sistem listrik gagal dengan cara yang terstratifikasi secara sosial. Ketika Badai Musim Dingin Uri menekan suhu Texas di bawah minus sepuluh derajat Celsius pada Februari 2021, lebih dari empat juta pelanggan kehilangan listrik, dan kematian yang menyusul — menurut hitungan resmi, beberapa ratus — terkonsentrasi pada orang yang tidak mampu pergi, tidak mampu membeli genset, dan tinggal di rumah berinsulasi buruk. Jaringan itu dibangun untuk iklim yang jarang menghasilkan pembekuan berkepanjangan, dan desainnya yang terisolasi mencegah impor daya dari interkoneksi tetangga. Standar keandalan yang ditulis untuk cuaca normal berubah menjadi mekanisme yang membagi risiko ke bawah.
 
 ## 13.4 Sistem Air dan Sanitasi
 
@@ -1916,6 +1924,8 @@ Banjir adalah ancaman paling terlihat. Banjir merendam instalasi pengolahan, men
 
 Ketangguhan memerlukan redundansi dan diversifikasi. Beberapa sumber, jaringan yang saling terhubung, listrik cadangan, penyimpanan, dan pengolahan yang dapat beroperasi dalam kondisi bervariasi semuanya mengurangi risiko kegagalan. Demikian pula manajemen permintaan: mengurangi kehilangan dalam jaringan distribusi, yang rata-rata sekitar 30 persen secara global, sering lebih murah daripada membangun pasokan baru. Kasus Windhoek, Namibia, yang mendaur ulang air limbah menjadi pasokan minum sejak 1968, menunjukkan bahwa diversifikasi dapat mengamankan kota di wilayah kering.
 
+Sistem air kehilangan lebih banyak daripada yang ia kirimkan. Bank Dunia memperkirakan air tak berpendapatan — air olahan yang tidak pernah sampai ke pelanggan yang membayar — mencakup sekitar sepertiga pasokan di utilitas negara berkembang, dan kehilangan itu sekaligus menjadi beban keuangan dan kegagalan ketahanan, karena sistem yang sudah bocor sepertiga dari masukannya tidak punya cadangan ketika sumbernya gagal. Pendekatan Cape Town menuju Day Zero pada 2018 menunjukkan kemungkinan sebaliknya: kota berpenduduk empat juta memangkas konsumsi lebih dari separuh dalam tiga tahun melalui tarif, manajemen tekanan dan pelaporan publik, dan krisisnya ditunda alih-alih dijalani. Pemeliharaan lebih murah daripada keadaan darurat.
+
 ## 13.5 Transportasi dan Rantai Pasok
 
 Jaringan transportasi terpapar panas, banjir, angin, dan erosi pesisir. Jalan melunak dan retak pada panas ekstrem; rel kereta melengkung; jembatan tergerus banjir; pelabuhan ditutup badai; dan bandara terpengaruh panas yang mengurangi kepadatan udara dan memerlukan landasan lebih panjang atau muatan lebih kecil. Kegagalan itu secara individual dapat dikelola, tetapi terakumulasi di seluruh jaringan dan dapat mengisolasi komunitas selama berhari-hari.
@@ -1923,6 +1933,8 @@ Jaringan transportasi terpapar panas, banjir, angin, dan erosi pesisir. Jalan me
 Rantai pasok bergantung pada jaringan yang sama. Banjir yang menutup jalan dapat mencegah pangan mencapai kota; gelombang panas yang menutup jalur kereta dapat menunda pengiriman batu bara; badai yang menutup pelabuhan dapat mengganggu impor selama berpekan-pekan. Banjir Thailand 2011 menunjukkan bagaimana satu simpul dalam rantai pasok global dapat memengaruhi produksi di benua lain, dan badai Texas 2021 menunjukkan bagaimana kegagalan listrik dapat merambat menjadi kegagalan air, kesehatan, dan transportasi.
 
 Tindakan ketangguhan mencakup meninggikan dan membuat tahan air pada mata rantai kritis, membangun jalur alternatif, memperbaiki drainase, dan mendiversifikasi pemasok. Tindakan paling hemat biaya sering bersifat organisasional daripada fisik: prakiraan yang lebih baik, pasokan yang ditempatkan sebelumnya, dan rencana kontingensi yang telah diuji. Masalahnya adalah tindakan itu jarang terlihat, dan karena itu jarang dibiayai, sampai kegagalan terjadi.
+
+Jaringan transportasi membawa tanda tangan iklim tempat ia dibangun. Pada November 2021, sungai atmosfer di British Columbia menghanyutkan sebagian Jalan Raya Trans-Kanada dan kedua jalur kereta nasional, memutus Vancouver dari wilayah Kanada lainnya selama berminggu-minggu dan memaksa penjatahan bahan bakar serta pangan. Pada 2022, air rendah di Rhine memaksa tongkang memuat sebagian kecil kapasitas, menaikkan biaya batu bara dan bahan kimia di seluruh Jerman. Pada 2023 dan 2024, pembatasan draf di Terusan Panama memotong transit harian, dan pelayaran dialihkan mengelilingi Afrika. Setiap peristiwa bersifat lokal; setiap peristiwa merambat melalui harga dan jadwal lintas benua.
 
 ## 13.6 Rumah Sakit, Sekolah dan Fasilitas Kritis
 
@@ -1932,6 +1944,8 @@ Catatannya buruk. Rumah sakit sering berlokasi di dataran banjir, dibangun denga
 
 Sekolah sama pentingnya. Sekolah adalah tempat berlindung saat darurat, memberikan kesinambungan bagi anak-anak, dan sering merupakan bangunan dengan fungsi komunitas terbesar. Sekolah yang tidak dapat digunakan selama berbulan-bulan setelah banjir mengganggu pendidikan dan memaksa keluarga memilih antara bekerja dan mengasuh anak. Membangun sekolah dengan standar lebih tinggi, menggunakannya sebagai tempat berlindung yang ditetapkan, dan melengkapinya dengan air, listrik, serta komunikasi adalah intervensi yang relatif murah dengan imbal hasil besar.
 
+Rumah sakit adalah kasus paling jelas dari fasilitas yang harus berfungsi justru ketika lingkungannya tidak berfungsi. Ketika Badai Maria menghantam Puerto Rico pada 2017, rumah sakit berjalan dengan genset selama berbulan-bulan, dan industri farmasi pulau itu — bagian besar konsumsi Amerika Serikat untuk cairan infus tertentu — terganggu lebih lama lagi. Selama banjir 2021 di lembah Ahr, Jerman, panti wreda dan rumah sakit dievakuasi dalam gelap. Pelajaran desainnya lama dan berulang kali dilupakan: daya cadangan, air, oksigen dan komunikasi harus berukuran sesuai durasi gangguan, bukan sesuai durasi uji komisioning.
+
 ## 13.7 Desain Tangguh dan Retrofit
 
 Desain tangguh dimulai dari pemilihan lokasi: menghindari dataran banjir, lereng curam, dan garis pantai terbuka lebih murah daripada mempertahankannya. Ia berlanjut pada bentuk dan material: lantai ditinggikan, atap reflektif, naungan, ventilasi silang, sambungan yang diperkuat, dan material tahan banjir semuanya mengurangi kerentanan. Dan ia bergantung pada redundansi: listrik cadangan, penyimpanan air, banyak jalur keluar, dan jalur alternatif.
@@ -1939,6 +1953,8 @@ Desain tangguh dimulai dari pemilihan lokasi: menghindari dataran banjir, lereng
 Meretrofitting bangunan yang ada lebih sulit dan lebih mahal daripada membangun baru dengan baik. Insulasi, naungan, penguatan atap, peralatan mekanikal yang ditinggikan, dan penghalang banjir dapat ditambahkan, tetapi biayanya mungkin melebihi nilai bangunan, terutama pada perumahan berpenghasilan rendah. Hasilnya adalah retrofit sering ditargetkan pada bangunan publik dan rumah tangga yang mampu membayar, membiarkan orang termiskin terpapar.
 
 Ekonomi desain tangguh menguntungkan jika siklus hidup penuh diperhitungkan. Studi oleh Bank Dunia dan Global Facility for Disaster Reduction and Recovery menemukan bahwa setiap dolar yang diinvestasikan dalam ketangguhan menghemat sekitar empat dolar kerugian di masa depan, dan bahwa rasionya lebih tinggi untuk infrastruktur daripada rekonstruksi pascabencana. Masalahnya adalah penghematannya diperoleh anggaran dan pemerintah masa depan, sementara biayanya ditanggung sekarang, itulah sebabnya ketangguhan secara sistematis kekurangan dana.
+
+Retrofitting biasanya dipresentasikan sebagai biaya, dan bukti mempresentasikannya sebagai imbal hasil. Serangkaian kajian National Institute of Building Sciences di Amerika Serikat menemukan bahwa setiap dolar yang dibelanjakan untuk mitigasi bahaya melalui hibah federal menghemat sekitar enam dolar kerugian di masa depan, dengan rasio di atas sepuluh banding satu untuk perlindungan banjir sungai dan retrofit seismik di kawasan berisiko tinggi. Angka itu tidak memasukkan gangguan yang tidak pernah terjadi dan nyawa yang terus berlanjut, dan justru itulah sebabnya pemerintah kurang berinvestasi: manfaatnya tak terlihat, tersebar dalam puluhan tahun, dan dinikmati orang yang tidak membayarnya.
 
 ## 13.8 Sistem Terdesentralisasi dan Microgrid
 
@@ -1948,6 +1964,8 @@ Teknologinya menjadi lebih murah dan lebih andal. Panel surya dan baterai kini d
 
 Hambatannya bersifat regulasi dan keuangan, bukan teknis. Perusahaan listrik mungkin menolak pembangkit tersebar karena mengurangi pendapatannya; regulasi mungkin tidak mengizinkan jaringan lokal menjual listrik; dan pembiayaan mungkin tidak tersedia untuk proyek kecil. Komunitas yang paling diuntungkan sering yang paling kecil akses ke modal, itulah sebabnya investasi publik dan pembiayaan konsesional diperlukan untuk membuat ketangguhan terdesentralisasi tersedia bagi orang miskin.
 
+Desentralisasi bukan posisi moral; ia adalah pertukaran teknik. Mikrogrid yang dapat mengislandir diri menjaga klinik tetap terang ketika jaringan transmisi runtuh, tetapi ia juga melipatgandakan jumlah aset yang harus dirawat dan jumlah orang yang harus dilatih. Program solar home Bangladesh, yang memasang lebih dari empat juta sistem melalui Infrastructure Development Company Limited, menunjukkan bahwa perangkat terdistribusi dapat menjangkau rumah tangga yang tidak akan dijangkau jaringan selama satu generasi; ia juga menunjukkan sulitnya menagih iuran dan mengganti baterai satu dekade kemudian. Skala dan ketahanan menarik ke arah yang berbeda.
+
 ## 13.9 Pemeliharaan, Pembiayaan dan Siklus Bangun-Abaikan-Bangun Ulang
 
 Penyebab kegagalan infrastruktur yang paling umum bukan cacat desain melainkan defisit pemeliharaan. Jembatan berkarat, saluran tertimbun, pompa aus, dan tanggul turun. Defisitnya terakumulasi perlahan dan tidak terlihat, dan baru terungkap ketika suatu peristiwa menguji sistem. Pada saat itu, biaya perbaikan jauh lebih tinggi daripada biaya pemeliharaan.
@@ -1956,6 +1974,8 @@ Siklus bangun-abaikan-bangun ulang adalah masalah ekonomi politik. Membangun inf
 
 Memutus siklus itu memerlukan institusi yang membuat pemeliharaan terlihat dan dapat dibiayai: daftar aset, anggaran siklus hidup, kontrak kinerja, dan audit independen. Beberapa negara telah menciptakan dana pemeliharaan khusus dan mewajibkan perusahaan air melaporkan kualitas layanan, yang telah memperbaiki kinerja. Prinsipnya sederhana: ketangguhan bukan proyek melainkan praktik, dan ia harus dianggarkan setiap tahun.
 
+Siklus bangun–abaikan–bangun ulang adalah ekonomi politik, bukan kecelakaan. Konstruksi baru menghasilkan pita dan foto; pemeliharaan tidak menghasilkan apa pun yang terlihat dan karena itu kalah di setiap negosiasi anggaran. American Society of Civil Engineers telah memberi nilai infrastruktur Amerika Serikat sekitar C selama dua dekade dan memperkirakan tunggakan pekerjaan tertunda bernilai beberapa triliun dolar. Akibatnya, aset gagal lebih awal dari umur rancangannya, dan kegagalan itu kemudian diatribusikan pada cuaca alih-alih pada tiga puluh tahun inspeksi yang dilewati, seal yang tidak diganti, dan baja yang tidak dicat.
+
 ## 13.10 Kode, Standar dan Tata Kelola
 
 Kode bangunan dan standar rekayasa adalah instrumen paling ampuh untuk ketangguhan infrastruktur, karena mereka menentukan apa yang dibangun sebelum keputusan individual dibuat. Kode yang mewajibkan fondasi tahan banjir, atap tahan angin, dan material tahan panas membentuk jutaan bangunan selama beberapa dekade. Kode yang tidak ditegakkan tidak membentuk apa pun.
@@ -1963,6 +1983,8 @@ Kode bangunan dan standar rekayasa adalah instrumen paling ampuh untuk ketangguh
 Penegakan adalah mata rantai terlemah. Di banyak negara, kode ada tetapi tidak diterapkan, terutama dalam konstruksi informal dan proyek kecil. Inspektur mungkin kekurangan dana atau korup; pembangun mungkin tidak memiliki keterampilan untuk mematuhi; dan pemilik rumah mungkin tidak mengetahui standarnya. Hasilnya adalah celah antara kode di atas kertas dan bangunan di lapangan, yang sering paling lebar di tempat risikonya paling tinggi.
 
 Tata kelola menentukan apakah standar diperbarui seiring perubahan iklim. Itu memerlukan institusi yang memantau bahaya, merevisi kode, melatih profesional, dan menegakkan kepatuhan, serta sistem politik yang bersedia membebankan biaya pada pengembang dan pemilik rumah untuk manfaat yang mungkin tidak terlihat selama bertahun-tahun. Negara yang melakukannya dengan baik cenderung memiliki badan profesional yang kuat, regulator yang dibiayai baik, dan publik yang memahami risikonya. Negara yang melakukannya dengan buruk cenderung menemukan celahnya hanya setelah bencana.
+
+Kode hanya sekuat penegakannya, dan penegakan adalah tempat jurang antara hukum dan bangunan terbuka. Setelah gempa Haiti 2010, dan lagi setelah Türkiye 2023, penyidik menemukan bahwa standar teknis di atas kertas secara umum memadai dan bahwa bangunan yang membunuh orang tidak mengikutinya. Obatnya tidak glamor: inspeksi independen, lisensi insinyur, tanggung jawab hukum yang bertahan melewati kebangkrutan, dan daftar publik tentang apa yang dibangun dan dengan standar apa. Kode tanpa inspeksi adalah pernyataan niat.
 
 ## 13.11 Studi Kasus: Kegagalan Jaringan Texas 2021
 
@@ -1975,6 +1997,8 @@ Biaya manusianya terkonsentrasi pada kelompok rentan. Setidaknya 210 orang menin
 Biaya ekonominya sekitar US$195 miliar, menjadikannya bencana termahal dalam sejarah Texas. Kerugian yang diasuransikan hanya sebagian kecil dari itu, karena banyak kerusakan tidak diasuransikan. Dampak politiknya kuat: pimpinan operator jaringan mengundurkan diri, legislatif negara bagian mewajibkan weatherization fasilitas pembangkit, dan regulator federal merekomendasikan agar negara bagian menghubungkan jaringannya ke bagian lain negara, rekomendasi yang belum dilaksanakan.
 
 Kasus ini menggambarkan tiga pelajaran. Pertama, kegagalan infrastruktur bersifat sistemik: kegagalan listrik menjadi kegagalan air, yang menjadi kegagalan kesehatan, yang menjadi kegagalan perumahan. Kedua, standar desain penting: jaringan yang dirancang untuk musim panas gagal di musim dingin, bukan karena insinyurnya tidak kompeten tetapi karena asumsinya tidak lengkap. Ketiga, biaya kegagalan ditanggung secara tidak proporsional oleh orang miskin, bahkan di yurisdiksi kaya. Pelajaran yang sama berlaku di negara dengan kapasitas respons jauh lebih kecil.
+
+Rekonstruksi New Orleans setelah Badai Katrina adalah kasus paling banyak dipelajari tentang infrastruktur yang dibangun ulang di bawah asumsi risiko yang berubah. Sistem tanggul dibangun kembali ke standar satu-dalam-seratus-tahun, tingkat perlindungan yang sudah disebut tidak memadai oleh para insinyur sebelum badai, dan populasi kota itu masih belum kembali ke tingkat pra-2005. Pelajarannya bukan bahwa tekniknya gagal — bangunan baru berfungsi sesuai rancangan — melainkan bahwa perlindungan yang didefinisikan oleh periode ulang tidak dapat menyelesaikan pertanyaan seberapa besar risiko yang bersedia dihuni sebuah komunitas.
 
 ## 13.12 Skenario dan Prediksi Masa Depan: Infrastruktur pada 2050
 
@@ -2012,6 +2036,8 @@ Literasi iklim bukan sama dengan ilmu iklim. Ia mencakup pemahaman mekanisme das
 
 Bab ini membahas apa itu literasi iklim, apa yang ditunjukkan bukti tentang seberapa banyak literasi itu ada, dan bagaimana ia dapat diajarkan. Bab ini memberi perhatian khusus pada perbedaan antara informasi dan pemahaman, pada peran guru, dan pada risiko pendidikan iklim menjadi indoktrinasi atau ritual yang dangkal. Bab ini ditutup dengan pertanyaan bagaimana mengukur apakah pendidikan bekerja, yang lebih sulit daripada kedengarannya.
 
+Literasi iklim sering diukur dari apa yang dapat diingat orang, dan ukuran itu adalah hal paling tidak berguna darinya. Petani yang tidak dapat mendefinisikan pemaksaan radiatif tetapi tahu bulan mana hujan kini datang memiliki pengetahuan fungsional yang tidak ditangkap ujian pilihan ganda. Bidang ini karena itu bergeser dari menghitung jawaban benar ke menanyakan apakah orang dapat bertindak, menilai sumber, dan mengenali ketika sebuah klaim dijual kepada mereka. Pergeseran itu penting bagi kebijakan, karena intervensi yang menaikkan skor ujian tidak selalu intervensi yang mengubah perilaku.
+
 ## 14.1 Apa Arti Literasi Iklim
 
 Orang yang literat iklim memahami bahwa iklim menghangat, bahwa aktivitas manusia adalah penyebab utamanya, dan bahwa konsekuensinya sudah terukur. Tetapi literasi melampaui fakta utama. Ia mencakup pemahaman tentang bagaimana pengetahuan ilmiah diproduksi, mengapa ketidakpastian tidak sama dengan ketidaktahuan, dan bagaimana membedakan proyeksi dari prediksi. Ia mencakup kemampuan mengevaluasi bukti, yang memerlukan keakraban dengan data, grafik, dan statistik.
@@ -2019,6 +2045,8 @@ Orang yang literat iklim memahami bahwa iklim menghangat, bahwa aktivitas manusi
 Ia juga mencakup kompetensi praktis. Rumah tangga yang tahu cara bersiap menghadapi gelombang panas, menyimpan air, mengamankan atap, atau menafsirkan peringatan banjir adalah literat iklim dalam pengertian yang lebih langsung penting daripada kemampuan menjelaskan gaya radiasi. Kedua bentuk literasi itu terkait: memahami mekanisme membuat nasihat praktis koheren, dan pengalaman praktis membuat mekanismenya konkret.
 
 Akhirnya, literasi mencakup kecenderungan menggunakan pengetahuan. Banyak orang memahami risikonya dan tetap tidak bersiap, karena persiapan mahal, merepotkan, atau menakutkan. Pendidikan dapat menutup celah itu dengan menjadikan kesiapsiagaan normal, menyediakan langkah konkret, dan menghubungkan tindakan individu dengan hasil kolektif. Komponen perilaku adalah yang paling sulit diajarkan dan paling penting diukur.
+
+Model dominan pemahaman publik selama tiga dekade adalah model defisit: ketidaktahuan menghasilkan kelambanan, maka informasi menghasilkan tindakan. Kahan dan rekan-rekannya mengujinya pada 2012 dan menemukan sesuatu yang tidak nyaman — di antara orang dengan literasi sains tinggi, kepedulian iklim menjadi lebih terpolarisasi menurut garis politik, bukan lebih menyatu. Tafsirnya bukan bahwa pengetahuan tidak berguna, melainkan bahwa pengetahuan disaring oleh identitas, dan bahwa pesan yang mengancam kedudukan suatu kelompok akan ditolak dengan lebih terampil oleh anggota yang lebih terdidik. Literasi tanpa kepercayaan tidak berjalan.
 
 ## 14.2 Apa yang Ditunjukkan Bukti tentang Pemahaman Publik
 
@@ -2028,6 +2056,8 @@ Pemahaman tidak merata antarnegara dan antarkelompok. Orang dengan pendidikan le
 
 Bukti juga menunjukkan bahwa informasi saja tidak mengubah perilaku. Kampanye yang memberikan fakta tanpa menangani konteks sosial, biaya yang dirasakan, dan rasa kemanjuran sering gagal. Yang lebih berhasil adalah kombinasi informasi yang jelas, norma sosial, dukungan praktis, dan penyampai yang dipercaya. Itulah sebabnya pendidikan paling efektif ketika tertanam di komunitas alih-alih disampaikan dari kejauhan.
 
+Survei UNESCO 2021 atas kerangka kurikulum nasional menemukan bahwa hampir separuh negara yang diperiksa tidak menyebut perubahan iklim sama sekali, dan bahwa ketika topik itu muncul ia biasanya terbatas pada sains dengan sedikit perhatian pada dimensi sosial atau emosional. Survei yang sama melaporkan bahwa hanya sebagian minoritas guru merasa yakin mengajarkan konsekuensi lokal perubahan iklim, bahkan ketika mereka bersedia. Jurangnya karena itu bukan terutama ketidakpedulian publik; ia adalah jurang pasokan guru yang siap, materi yang dapat dipakai, dan ruang dalam jadwal, terkonsentrasi tepat di negara-negara yang paparannya paling tinggi.
+
 ## 14.3 Miskonsepsi dan Sumbernya
 
 Sebagian miskonsepsi adalah kesalahan sederhana yang dapat dikoreksi dengan penjelasan jelas: perbedaan antara cuaca dan iklim, peran lubang ozon, perbedaan antara prediksi dan proyeksi. Yang lain lebih sulit diubah karena terkait dengan identitas, ideologi, atau kepentingan ekonomi. Keyakinan bahwa perubahan iklim adalah tipuan, atau bahwa sudah terlambat untuk bertindak, atau bahwa tindakan individu tidak ada gunanya, biasanya bukan akibat kekurangan informasi.
@@ -2035,6 +2065,8 @@ Sebagian miskonsepsi adalah kesalahan sederhana yang dapat dikoreksi dengan penj
 Misinformasi menyebar melalui media sosial, media partisan, dan mekanisme normal komunikasi manusia: cerita yang hidup bergerak lebih jauh daripada statistik, dan klaim yang percaya diri bergerak lebih jauh daripada klaim yang hati-hati. Hasilnya adalah satu grafik menyesatkan dapat beredar bertahun-tahun setelah dibantah, dan koreksi sering gagal mencapai orang yang melihat klaim aslinya.
 
 Pendidikan dapat membantu dengan mengajarkan cara mengevaluasi sumber, mengenali teknik manipulasi, dan memegang ketidakpastian tanpa meninggalkan konsensus. Itu adalah bentuk literasi media dan ilmiah yang berharga jauh melampaui iklim. Ia juga lebih tahan lama daripada menghafal daftar fakta, karena membekali siswa untuk mengevaluasi klaim baru yang belum diantisipasi siapa pun.
+
+Miskonsepsi bukan kesalahan acak; ia adalah teori alternatif yang koheren. Yang paling bertahan adalah pencampuran perubahan iklim dengan lubang ozon, karena keduanya melibatkan atmosfer, keduanya dibingkai sebagai darurat, dan keduanya diatasi dengan melarang sesuatu. Yang kedua adalah keyakinan bahwa karena karbon dioksida hanya sebagian kecil atmosfer ia tidak dapat berarti apa-apa, yang mencampur konsentrasi dengan potensi. Yang ketiga adalah anggapan bahwa konsensus adalah pemungutan suara di antara ilmuwan alih-alih ringkasan bukti. Masing-masing bertahan karena dipelajari dari sumber yang masuk akal dan tidak pernah diuji terhadap pengukuran.
 
 ## 14.4 Kurikulum dan Sekolah
 
@@ -2044,6 +2076,8 @@ Reformasi Italia adalah contoh integrasi. Ia tidak menciptakan mata pelajaran te
 
 Reformasi kurikulum lambat dan diperdebatkan. Di sebagian negara, isi pendidikan iklim diperdebatkan secara politik; di negara lain, ia terdesak tekanan ujian dan mata pelajaran yang diuji. Hasilnya adalah pendidikan iklim sering ada di atas kertas tetapi tipis dalam praktik, dan siswa yang paling membutuhkannya — mereka yang berada di sekolah dengan sumber daya kurang — paling kecil kemungkinannya menerimanya.
 
+Kurikulum berubah lambat karena ia adalah dokumen yang dinegosiasikan. Italia menjadi negara pertama yang mewajibkan perubahan iklim dan pembangunan berkelanjutan di sekolah, mengumumkan pada 2019 bahwa setiap jenjang menerima sekitar tiga puluh jam setahun, dan implementasinya memperlihatkan kesulitannya: tiga puluh jam bukanlah mata pelajaran, dan tanpa guru terlatih serta asesmen ia menjadi upacara tahunan alih-alih kompetensi. Kurikulum Merdeka di Indonesia menempuh jalur berbeda, menanamkan tema iklim dalam kerja proyek alih-alih mata pelajaran khusus, yang memberi guru keleluasaan dan membuat cakupannya tidak merata.
+
 ## 14.5 Pelatihan Guru dan Dukungan Profesional
 
 Guru adalah faktor pembatas dalam pendidikan iklim. Sebagian besar guru belum dilatih dalam ilmu iklim, banyak yang tidak yakin tentang faktanya, dan sebagian cemas membahas topik yang bermuatan politik. Survei Royal Meteorological Society Inggris menemukan bahwa banyak guru sekolah dasar kurang percaya diri mengajarkan perubahan iklim, bahkan ketika mereka percaya itu penting.
@@ -2051,6 +2085,8 @@ Guru adalah faktor pembatas dalam pendidikan iklim. Sebagian besar guru belum di
 Pelatihan yang baik menangani pengetahuan dan pedagogi sekaligus. Guru membutuhkan pemahaman yang kuat tentang sains, tetapi mereka juga membutuhkan strategi untuk menangani kontroversi, menghubungkan tren global dengan pengalaman lokal, dan mengajar tanpa menimbulkan keputusasaan. Poin terakhir penting: orang muda yang belajar tentang perubahan iklim tanpa belajar tentang solusinya lebih mungkin mengalami kecemasan dan ketidakterlibatan.
 
 Dukungan profesional dapat datang dari banyak sumber: universitas, pusat sains, asosiasi profesi, dan jaringan sejawat. Program paling efektif berkelanjutan, bukan sekali jalan, dan melibatkan guru dalam merancang materi yang akan mereka gunakan. Lokakarya yang memberi guru satu set slide kurang efektif daripada komunitas praktik yang membantu mereka menyesuaikan materi dengan siswa sendiri.
+
+Pelatihan guru adalah hambatan yang semua orang akui dan sedikit yang membiayai. Guru yang diminta menjelaskan mengapa musim hujan lokal bergeser membutuhkan tiga hal yang jarang disediakan pendidikan pra-jabatan: pengetahuan subjek, data lokal, dan repertoar untuk menangani ketidaknyamanan politik yang menyusul. Di mana program ada, ia cenderung berupa lokakarya singkat tanpa tindak lanjut, dan bukti tentang pengembangan profesional konsisten bahwa pelatihan sekali jalan sangat sedikit mengubah praktik kelas. Model yang efektif adalah pendampingan berkelanjutan dengan materi bersama, yang mahal dan karena itu jarang diperluas.
 
 ## 14.6 Universitas dan Kapasitas Riset
 
@@ -2060,6 +2096,8 @@ Celah itu penting bagi adaptasi. Negara yang tidak dapat memantau gletser, akuif
 
 Universitas juga memiliki tanggung jawab untuk menghindari mereproduksi kondisi yang menghasilkan kerentanan. Agenda riset yang sepenuhnya ditentukan donor eksternal mungkin tidak menangani prioritas lokal; kurikulum yang diimpor mentah-mentah mungkin tidak sesuai konteks lokal. Institusi paling efektif menggabungkan standar internasional dengan relevansi lokal, dan membangun kemitraan yang mentransfer kapabilitas alih-alih ketergantungan.
 
+Universitas lebih penting karena apa yang dapat mereka ukur daripada karena apa yang mereka ajarkan kepada sarjana. Laporan Penilaian Keenam IPCC melibatkan 234 penulis dari enam puluh enam negara, dan geografi kepenulisan masih mencerminkan geografi pendanaan riset: Afrika menyumbang sebagian kecil penulis dan bagian yang lebih kecil lagi dari kajian regional yang dibutuhkan laporan itu. Indonesia memiliki lebih dari empat ribu perguruan tinggi, namun pangsanya dalam riset iklim di jurnal internasional tetap moderat dibanding jumlah penduduk dan paparannya. Kapasitas dibangun dengan membiayai observasi dan menahan peneliti di dalam negeri.
+
 ## 14.7 Pembelajaran Informal dan Komunikasi Publik
 
 Sebagian besar pembelajaran tentang iklim terjadi di luar sekolah. Museum, pusat sains, dokumenter, media berita, media sosial, dan organisasi komunitas semuanya membentuk apa yang diketahui dan dipercaya orang. Yang terbaik membuat yang abstrak menjadi konkret: pusat sains yang memungkinkan pengunjung melihat efek penahan panas, museum yang menceritakan banjir lokal, kelompok komunitas yang menyelenggarakan lokakarya kesiapsiagaan.
@@ -2067,6 +2105,8 @@ Sebagian besar pembelajaran tentang iklim terjadi di luar sekolah. Museum, pusat
 Komunikasi yang berhasil cenderung lokal, spesifik, dan dapat ditindaklanjuti. Pesan yang mengatakan planet ini menghangat kurang efektif daripada pesan yang mengatakan sungai lokal akan lebih sering banjir dan inilah yang harus dilakukan. Pesan yang hanya menyajikan malapetaka menimbulkan kelumpuhan; pesan yang hanya menyajikan solusi dapat tampak naif. Keseimbangannya adalah harapan yang jujur: penjelasan jelas tentang risiko, digabungkan dengan penjelasan jelas tentang apa yang masih dapat dilakukan.
 
 Jurnalis adalah perantara penting. Pelatihan mereka dalam ilmu iklim sering terbatas, dan tekanan untuk menghasilkan liputan berimbang dapat menciptakan kesetaraan palsu antara konsensus ilmiah dan kritiknya. Organisasi yang menyediakan pelatihan khusus, data, dan jaringan ahli telah memperbaiki liputan di banyak negara, tetapi perbaikannya tidak merata dan rentan terhadap tekanan komersial.
+
+Sebagian besar pembelajaran iklim terjadi di luar sekolah, melalui pembawa acara cuaca, dokumenter, media sosial dan percakapan. Program Yale tentang Komunikasi Perubahan Iklim telah melacak opini publik Amerika selama lebih dari satu dekade dan secara konsisten menemukan bahwa populasi terbagi menjadi segmen — Alarmed, Concerned, Cautious, Disengaged, Doubtful, Dismissive — yang ukurannya relatif stabil dan kebiasaan informasinya berbeda tajam. Pesan yang dirancang untuk Alarmed sampai ke Dismissive sebagai konfirmasi bahwa isu ini penanda budaya. Komunikasi yang efektif dimulai dengan mengetahui audiens mana yang dituju.
 
 ## 14.8 Literasi untuk Adaptasi
 
@@ -2076,6 +2116,8 @@ Mengajarkan literasi adaptasi berarti mengajarkan orang cara bersiap menghadapi 
 
 Program paling efektif tertanam dalam institusi yang ada: sekolah, klinik, organisasi keagamaan, dan pemerintah lokal. Mereka menggunakan bahasa lokal dan contoh lokal, dan diulang secara berkala agar pengetahuan tidak memudar. Satu kampanye tidak cukup, karena ingatan memudar dan karena orang baru datang ke komunitas. Kesiapsiagaan adalah praktik, bukan pelajaran.
 
+Adaptasi menuntut literasi yang berbeda dari mitigasi. Mitigasi meminta orang memahami mekanisme global dan menerima biaya sekarang untuk manfaat nanti; adaptasi meminta mereka membaca risiko lokal dan mengubah praktik musim ini. Pengetahuan yang penting karena itu bersifat prosedural — cara menafsirkan peta banjir, cara membaca prakiraan musiman, cara menilai apakah rencana drainase kontraktor memadai. Evaluasi pemetaan risiko partisipatif di Asia Selatan dan Afrika Timur menemukan bahwa petanya sendiri sedikit mengubah sesuatu; yang mengubah perilaku adalah proses menyusunnya bersama orang yang akan memakainya.
+
 ## 14.9 Pendidikan dalam Keadaan Darurat
 
 Perubahan iklim mengganggu pendidikan secara langsung, melalui kehancuran sekolah dan pengungsian keluarga, dan secara tidak langsung, melalui hilangnya penghidupan yang memaksa anak bekerja atau menikah dini. Banjir Pakistan 2022 merusak ribuan sekolah dan mengganggu pendidikan jutaan anak; siklon Bangladesh 2020 menghancurkan sekolah yang berfungsi sebagai tempat berlindung; dan kekeringan di Sahel mendorong keluarga menarik anak perempuan dari sekolah.
@@ -2084,6 +2126,8 @@ Gangguan itu memiliki konsekuensi jangka panjang. Anak yang kehilangan satu tahu
 
 Responsnya mencakup membangun sekolah dengan standar lebih tinggi, menggunakannya sebagai tempat berlindung, menyediakan pembelajaran jarak jauh ketika sekolah tutup, dan mendukung keluarga agar anak tidak terpaksa bekerja. Program paling efektif menggabungkan investasi fisik dengan perlindungan sosial, karena sekolah yang dibangun kembali tetapi siswanya kelaparan atau bekerja tidak akan memulihkan pembelajaran.
 
+Pendidikan adalah salah satu sistem pertama yang terganggu dan salah satu yang terakhir dipulihkan. Banjir 2022 di Pakistan merusak atau menghancurkan lebih dari dua puluh ribu sekolah, dan berbulan-bulan kemudian anak-anak masih belajar di tenda atau tidak sama sekali; penutupan COVID-19 sebelumnya telah menunjukkan bahwa setahun tanpa sekolah menghasilkan kehilangan literasi yang bertahan. Perpindahan menambah lapisan kedua, karena anak yang pindah tiga kali dalam setahun kehilangan catatan, guru dan bahasa. Pendidikan darurat karena itu adalah infrastruktur iklim, dan biasanya dibiayai paling akhir.
+
 ## 14.10 Mengukur Dampak dan Menghindari Indoktrinasi
 
 Mengukur dampak pendidikan iklim sulit. Nilai ujian dapat mengukur pengetahuan tetapi tidak perilaku; survei dapat mengukur sikap tetapi tidak pemahaman; dan hasil yang paling penting — kesiapsiagaan, ketangguhan, keputusan yang terinformasi — sulit dikaitkan dengan satu intervensi. Hasilnya adalah banyak program dievaluasi berdasarkan masukannya, bukan efeknya.
@@ -2091,6 +2135,8 @@ Mengukur dampak pendidikan iklim sulit. Nilai ujian dapat mengukur pengetahuan t
 Risiko indoktrinasi nyata dan harus ditanggapi serius. Pendidikan harus mengajarkan siswa cara berpikir, bukan apa yang harus dipikirkan; ia harus menyajikan bukti, menjelaskan ketidakpastian, dan memberi siswa alat untuk mencapai kesimpulan sendiri. Itu tidak berarti menyajikan keseimbangan palsu antara konsensus ilmiah dan kritiknya; itu berarti jujur tentang apa yang diketahui, apa yang tidak pasti, dan mengapa.
 
 Program terbaik menggabungkan ketelitian dengan kerendahan hati. Mereka mengajarkan fisika, bukti, dan ketidakpastian; mereka mengundang siswa memeriksa asumsi mereka sendiri; dan mereka menghubungkan pengetahuan dengan tindakan dengan cara yang menghormati otonomi siswa. Kombinasi itu lebih menuntut daripada advokasi atau netralitas, dan hanya kombinasi itulah yang menghasilkan warga yang dapat berpikir sendiri ketika faktanya berubah.
+
+Tuduhan bahwa pendidikan iklim adalah indoktrinasi layak mendapat jawaban serius alih-alih ditolak. Indoktrinasi adalah mengajarkan kesimpulan sebagai kebal terhadap bukti; pendidikan adalah mengajarkan bukti dan penalaran yang menghubungkannya. Dalam praktik, perbedaannya terlihat pada asesmen: mata pelajaran yang menguji apakah siswa dapat menjelaskan efek rumah kaca dan mengevaluasi suatu kebijakan tidak mengindoktrinasi, sementara yang menguji apakah mereka menyetujui slogan melakukannya. Pertanyaan yang lebih sulit adalah apa yang harus dilakukan dengan siswa yang mencapai kesimpulan berbeda dari bukti yang sama, dan itu pertanyaan tentang batas konsensus, bukan tentang metode mengajar.
 
 ## 14.11 Studi Kasus: Kurikulum Iklim Wajib Italia
 
@@ -2103,6 +2149,8 @@ Pelaksanaannya tidak merata. Pelatihan guru diperluas, dan kementerian menyediak
 Kasus ini menggambarkan janji dan batas reformasi kurikulum dari atas. Janjinya adalah kewajiban hukum dapat menciptakan ruang bagi mata pelajaran yang akan diabaikan pasar dan sekolah, dan dapat memberi sinyal kepada guru serta orang tua bahwa iklim adalah bagian inti pendidikan. Batasnya adalah kewajiban di atas kertas tidak menjamin pembelajaran dalam praktik; ia harus didukung pelatihan, sumber daya, penilaian, dan waktu.
 
 Bagi negara lain, pelajarannya spesifik. Pertama, integrasi lintas mata pelajaran lebih efektif daripada kursus terpisah, tetapi memerlukan koordinasi. Kedua, pelatihan guru adalah kendala pembatas, dan harus berkelanjutan, bukan sekali jalan. Ketiga, penilaian membentuk apa yang diajarkan, sehingga konten iklim harus dimasukkan ke ujian agar ditanggapi serius. Keempat, kontennya harus dihubungkan dengan kondisi lokal, karena tren global yang abstrak tidak mempersiapkan siswa menghadapi bahaya yang akan mereka hadapi.
+
+Kasus paling instruktif bukan sebuah negara melainkan sebuah profesi. Meteorolog di beberapa negara telah bergerak dari menyiarkan prakiraan ke menjelaskan atribusi, dan audiens merespons berbeda ketika pembawa acara mengatakan bahwa panas minggu ini menjadi lebih mungkin karena pemanasan alih-alih mengatakan bahwa iklim sedang berubah secara umum. Evaluasi siaran semacam itu menemukan perolehan pemahaman yang moderat tetapi nyata, dan juga menemukan bahwa pembawa acara membutuhkan perlindungan institusional: penyiar publik yang akan membela segmen atribusi terhadap keluhan politik berbuat sebanyak reformasi kurikulum mana pun untuk literasi.
 
 ## 14.12 Skenario dan Prediksi Masa Depan: Pendidikan pada 2050
 
@@ -2140,6 +2188,8 @@ Misinformasi tidak berhenti di dunia maya. Ia memengaruhi apakah orang mengungsi
 
 Bab ini membahas bagaimana pengetahuan iklim diproduksi, bagaimana ia salah dibaca, dan bagaimana ia sengaja dipelintirkan. Bab ini menjelaskan apa sebenarnya data iklim, bagaimana ilmuwan mengukur konsensus dan mengatribusikan peristiwa ekstrem, dan kesalahan statistik mana yang paling sering berulang. Bab ini kemudian beralih ke mekanika misinformasi dan apa yang benar-benar berhasil melawannya. Tujuannya bukan menjadikan setiap pembaca ahli statistik, tetapi membuat setiap pembaca lebih sulit ditipu.
 
+Angka iklim adalah pengukuran ditambah sekumpulan pilihan, dan pilihan itulah tempat sebagian besar perdebatan publik terjadi. Suhu global yang sama dapat dilaporkan sebagai 1,1, 1,2 atau 1,3 derajat pemanasan tergantung garis dasar, periode perataan dan basis data, dan setiap angka itu dapat dipertahankan. Memahami hal ini bukan relativisme; ia adalah perbedaan antara memperlakukan angka sebagai fakta dan memperlakukannya sebagai klaim yang dapat diinterogasi. Keterampilan yang dibutuhkan publik bukan aritmetika melainkan asal-usul data.
+
 ## 15.1 Apa Arti Sebenarnya Sebuah Angka Iklim
 
 Pernyataan bahwa 2024 adalah tahun kalender pertama yang lebih dari 1,5 °C di atas level praindustri hanya tepat dalam kaitannya dengan garis dasar, dan garis dasar itu adalah pilihan. Praindustri biasanya berarti 1850–1900, periode ketika cakupan instrumen menjadi cukup global untuk memperkirakan rata-rata planet. Ubah garis dasarnya dan angkanya berubah: relatif terhadap 1981–2010, 2024 sekitar 1,2 °C lebih hangat; relatif terhadap maksimum glasial terakhir, itu kuantitas yang sama sekali berbeda.
@@ -2147,6 +2197,8 @@ Pernyataan bahwa 2024 adalah tahun kalender pertama yang lebih dari 1,5 °C di a
 Angka iklim biasanya dinyatakan sebagai anomali alih-alih suhu absolut, karena anomali lebih dapat dibandingkan antaruang dan waktu. Stasiun di Siberia dan stasiun di Indonesia memiliki suhu absolut yang sangat berbeda, tetapi perubahan tahun-ke-tahunnya dapat dirata-ratakan secara bermakna. Konvensi itu menghindari distorsi akibat sebaran stasiun cuaca yang tidak merata, tetapi juga membuat angkanya abstrak, yang merupakan salah satu alasan angka itu mudah disalahartikan.
 
 Setiap angka iklim juga membawa rentang ketidakpastian, dan rentang itu bukan tanda kelemahan. Ia mencerminkan cakupan yang tidak lengkap, kesalahan instrumen, dan pilihan metode. Suhu permukaan rata-rata global yang diperkirakan NASA, NOAA, Met Office, dan Berkeley Earth sepakat dalam beberapa perseratus derajat, sebuah konvergensi yang luar biasa mengingat mereka menggunakan jaringan stasiun dan metode interpolasi yang berbeda. Konvergensi metode independen adalah bukti terkuat yang dapat diminta pembaca.
+
+Pilihan garis dasar adalah yang paling konsekuensial dan paling jarang dibahas. Angka pemanasan relatif terhadap 1850–1900 menggambarkan perubahan sejak industrialisasi dimulai; suhu absolut yang sama yang dinyatakan relatif terhadap 1981–2010 akan lebih rendah karena periode itu sudah hangat. Target 1,5 derajat didefinisikan terhadap garis dasar pra-industri dan diukur sebagai rata-rata dua puluh tahun, yang berarti satu tahun panas tidak melanggarnya dan satu tahun dingin tidak membantahnya. Sebagian besar perbedaan pendapat publik tentang apakah ambang itu telah terlampaui adalah perbedaan definisi, bukan perbedaan fisika.
 
 ## 15.2 Dari Mana Datanya Berasal
 
@@ -2156,6 +2208,8 @@ Satelit memberikan cakupan global tetapi hanya sejak akhir 1970-an, dan mereka m
 
 Produk reanalisis seperti ERA5 menggabungkan observasi dengan model cuaca untuk menghasilkan rekonstruksi atmosfer yang konsisten secara fisik sejak 1940, dan rekaman proksi — cincin pohon, inti es, karang, sedimen — memperluas gambaran hingga ribuan tahun ke belakang. Proksi kurang presisi tetapi menetapkan konteks: pemanasan saat ini jauh lebih cepat daripada apa pun di Holosen, dan konsentrasi karbon dioksida lebih tinggi daripada titik mana pun dalam setidaknya 800.000 tahun, dan mungkin tiga juta tahun.
 
+Rekor suhu global bukan satu instrumen melainkan rekonsiliasi banyak instrumen. Tiga rangkaian permukaan yang independen — GISTEMP milik NASA, NCEI milik NOAA dan HadCRUT milik Hadley Centre — memakai set stasiun, basis data laut dan metode interpolasi yang berbeda, dan semuanya sepakat secara dekat karena sinyal dasarnya besar. Satelit mengukur besaran yang berbeda, suhu troposfer bawah, dan dua produk satelit utama telah berselisih satu sama lain selama puluhan tahun tentang cara menggabungkan instrumen. Adanya perbedaan di tepi-tepi adalah bukti sains yang aktif, bukan bukti bahwa tidak ada yang diketahui.
+
 ## 15.3 Mengukur Konsensus Ilmiah
 
 Klaim bahwa sekitar 97 persen ilmuwan iklim sepakat bahwa aktivitas manusia memanaskan planet berasal dari beberapa studi independen. Doran dan Zimmerman (2009) mensurvei ilmuwan Bumi dan menemukan bahwa 97 persen dari mereka yang aktif menerbitkan riset iklim sepakat bahwa aktivitas manusia adalah faktor penyumbang signifikan. Cook dkk. (2013) memeriksa hampir 12.000 abstrak dan menemukan bahwa di antara yang menyatakan posisi, 97,1 persen mendukung konsensus, angka yang kemudian direvisi naik ketika sampel dikoreksi.
@@ -2163,6 +2217,8 @@ Klaim bahwa sekitar 97 persen ilmuwan iklim sepakat bahwa aktivitas manusia mema
 Lynas dkk. (2021) meninjau 88.125 makalah terkait iklim yang diterbitkan antara 2012 dan 2020 dan menemukan bahwa lebih dari 99,9 persen mendukung konsensus. Itu adalah tingkat kesepakatan luar biasa untuk pertanyaan ilmiah apa pun, sebanding dengan konsensus tentang tektonik lempeng atau teori kuman penyakit. Itu tidak berarti sains selesai dalam setiap detail; itu berarti klaim utamanya tidak diperdebatkan secara serius oleh para spesialis.
 
 Celah antara konsensus ilmiah dan persepsi publik juga diukur. Survei di Amerika Serikat menemukan bahwa publik memperkirakan porsi ilmuwan yang sepakat sekitar 70 persen, jauh di bawah angka sebenarnya, dan bahwa perkiraan yang terlalu rendah itu terkait dengan dukungan kebijakan yang lebih rendah. Celah itu kadang disebut celah konsensus, dan ia dihasilkan mekanisme yang sama yang menghasilkan miskonsepsi lain: pengulangan, paparan selektif, dan menonjolnya suara yang berbeda pendapat secara tidak proporsional dengan jumlahnya.
+
+Kajian konsensus sering dikutip dan sering disalahpahami. Oreskes memeriksa 928 abstrak pada 2004 dan tidak menemukan satu pun yang membantah posisi konsensus; Cook dan rekan-rekannya mengode hampir dua belas ribu abstrak pada 2013 dan menemukan bahwa di antara yang menyatakan pandangan, 97 persen mendukung sebab manusia; Lynas dan rekan-rekannya memeriksa 88.125 makalah pada 2021 dan menemukan angka di atas 99 persen. Tidak satu pun kajian ini membuktikan bahwa teorinya benar — sains tidak bekerja dengan hitungan kepala — tetapi semuanya membantah klaim bahwa komunitas ilmiah terbelah.
 
 ## 15.4 Ilmu Atribusi
 
@@ -2172,6 +2228,8 @@ Bidang ini matang dengan cepat. World Weather Attribution, kolaborasi ilmuwan di
 
 Atribusi sangat kuat karena menghubungkan statistik global dengan pengalaman lokal, tetapi juga mudah disalahartikan. Temuan bahwa suatu peristiwa menjadi dua kali lebih mungkin tidak berarti peristiwa itu dua kali lebih parah, dan temuan bahwa tidak ada sinyal manusia yang terdeteksi dalam peristiwa tertentu tidak berarti perubahan iklim tidak terjadi. Ketiadaan atribusi untuk satu peristiwa bukan bukti melawan tren yang lebih luas, sebagaimana satu pekan dingin bukan bukti melawan iklim yang menghangat.
 
+Atribusi peristiwa telah mengubah apa yang dapat dikatakan setelah bencana, dan ia memiliki batas yang biasanya hilang dalam penerjemahan. Metode standarnya membandingkan dunia dengan konsentrasi gas rumah kaca teramati terhadap dunia kontrafaktual tanpa gas itu, memakai ansambel model iklim, dan melaporkan perubahan peluang atau perubahan intensitas. World Weather Attribution menerapkannya dalam hitungan minggu setelah gelombang panas besar, menemukan bahwa sebagian peristiwa hampir mustahil tanpa pemanasan. Atribusi berbicara tentang risiko fisik; ia tidak menetapkan tanggung jawab hukum, yang menuntut pembuktian kerugian, kewajiban dan kausalitas yang tidak disediakan model iklim mana pun.
+
 ## 15.5 Kekeliruan Statistik yang Berulang
 
 Kekeliruan paling umum adalah memilih garis dasar secara curang. Klaim yang banyak diulang bahwa pemanasan berhenti pada 1998 bergantung pada pemilihan tahun dengan El Niño yang sangat kuat sebagai titik awal. Mulai analisis tiga tahun lebih awal atau lebih akhir dan trennya jelas. Teknik yang sama digunakan untuk menyatakan bahwa es laut sedang pulih, bahwa 1930-an lebih panas, atau bahwa gletser tertentu sedang tumbuh: pilih jendela yang menghasilkan kemiringan yang diinginkan.
@@ -2179,6 +2237,8 @@ Kekeliruan paling umum adalah memilih garis dasar secara curang. Klaim yang bany
 Kekeliruan kedua adalah mencampuradukkan cuaca dengan iklim. Cuaca dingin di satu wilayah tidak membantah tren global, sebagaimana satu hari panas tidak membuktikannya. Pertanyaan yang relevan adalah apakah frekuensi dan intensitas peristiwa berubah selama beberapa dekade dan lintas wilayah, yang memerlukan agregasi data alih-alih memilih anekdot. Anekdot itu hidup dan statistik itu abstrak, itulah sebabnya kekeliruan ini bertahan.
 
 Kekeliruan ketiga adalah salah membaca korelasi dan kausalitas, biasanya dalam klaim bahwa karbon dioksida mengikuti suhu alih-alih menyebabkannya. Dalam rekaman inti es, karbon dioksida memang naik setelah suhu pada awal terminasi glasial, karena pemanasan awal didorong siklus orbit dan laut kemudian melepaskan karbon dioksida, yang memperkuat pemanasan. Itu umpan balik, bukan bantahan; fisika karbon dioksida yang menyerap radiasi inframerah telah ditetapkan pada abad kesembilan belas dan tidak diperdebatkan.
+
+Kesalahan statistik paling umum dalam argumen iklim adalah pilihan titik ujung. Tren yang dihitung dari 1998 sampai 2012 menunjukkan sedikit pemanasan karena 1998 adalah tahun El Niño yang luar biasa panas dan 2012 tahun La Niña yang lebih dingin; mulailah pada 1997 atau akhiri pada 2015 dan data yang sama menunjukkan kenaikan yang jelas. Ini bukan trik khas iklim — ia muncul dalam keuangan, kedokteran dan olahraga — tetapi luar biasa efektif di sini karena derau besar dan publik tidak punya cara independen untuk menilai apakah jendela yang dipilih sembarang. Uji sensitivitas, di mana tren dihitung ulang pada banyak tahun awal dan akhir, adalah penawarnya dan hampir tidak pernah ditampilkan.
 
 ## 15.6 Misinformasi dalam Bencana
 
@@ -2188,6 +2248,8 @@ Polanya menguat dengan media sosial. Selama Badai Helene 2024, klaim palsu tenta
 
 Kecerdasan buatan membuat masalahnya lebih sulit. Gambar hasil generasi tentang jalan tergenang atau permukiman hancur dapat dibuat dalam hitungan menit dan sulit dibedakan dari foto asli, terutama di layar ponsel saat darurat. Alat deteksi tertinggal dari pembuatannya, dan platform yang mendistribusikan konten itu memiliki insentif terbatas untuk memperlambatnya. Hasilnya adalah nilai pembuktian sebuah foto telah turun, yang merupakan masalah bagi jurnalis, perusahaan asuransi, dan pengadilan, serta bagi pengelola darurat.
 
+Bencana menghasilkan kekosongan informasi, dan kekosongan diisi dengan cepat. Setelah topan 2013 di Filipina, laporan palsu tentang penjarahan dan badai kedua menyebar melalui media sosial lebih cepat daripada koreksi resmi, dan setelah kebakaran hutan 2023 di Maui, teori konspirasi tentang senjata energi terarah menjangkau jutaan orang sebelum lembaga menerbitkan dugaan awal penyebabnya. Riset tentang desas-desus selama keadaan darurat menunjukkan bahwa koreksi bekerja paling baik ketika datang dari sumber lokal yang dipercaya, tiba lebih awal, dan menawarkan penjelasan alternatif alih-alih penyangkalan kosong. Kecepatan dan legitimasi lokal lebih penting daripada kualitas produksi.
+
 ## 15.7 Membaca Grafik dan Mengenali Trik
 
 Banyak klaim iklim yang menyesatkan dibuat melalui grafik alih-alih kata-kata, karena grafik tampak objektif. Trik umumnya sederhana: memotong sumbu vertikal sehingga perubahan kecil tampak dramatis, atau memperpanjangnya sehingga perubahan besar tampak kecil; memilih tanggal mulai yang menguntungkan tren; memplot jendela pendek dan menarik kesimpulan panjang; dan membandingkan kumpulan data yang mengukur hal berbeda.
@@ -2195,6 +2257,8 @@ Banyak klaim iklim yang menyesatkan dibuat melalui grafik alih-alih kata-kata, k
 Pembaca dapat menerapkan empat pemeriksaan. Pertama, apa garis dasar atau periode referensinya, dan mengapa dipilih? Kedua, apa sumbu vertikalnya, dan apakah ia dimulai dari nol atau dari nilai yang membesarkan perubahan? Ketiga, apa jendela waktunya, dan apakah cukup panjang untuk membedakan tren dari derau? Keempat, siapa yang menghasilkan data itu, dan apakah kumpulan datanya tersedia? Pertanyaan terakhir adalah yang paling kuat, karena grafik yang dimanipulasi jarang disertai data yang dapat diakses.
 
 Komunikasi ilmiah yang sah memiliki konvensi sendiri yang bisa tampak seperti kelemahan. Batang kesalahan, rentang, dan bahasa bersyarat adalah tanda kehati-hatian, bukan penghindaran. Ilmuwan yang mengatakan suatu hasil mungkin terjadi dalam skenario tertentu sedang bersikap presisi; komentator yang mengatakan itu pasti sedang bersikap ceroboh atau tidak jujur. Belajar membaca bahasa yang berhati-hati sebagai tanda ketelitian adalah salah satu keterampilan paling berguna yang dapat diperoleh warga.
+
+Literasi grafik adalah pertahanan yang dapat diajarkan dalam satu jam. Manipulasi yang umum hanya sedikit: sumbu vertikal terpotong yang membuat perubahan kecil tampak dramatis, sumbu ganda yang menyiratkan hubungan antara deret yang tidak berhubungan, grafik kumulatif yang harus naik, dan jendela waktu yang dipilih-pilih. Kontroversi 'hockey stick' pada 2000-an instruktif karena rekonstruksi itu diperiksa National Research Council pada 2006, yang menemukan kesimpulan luasnya sehat dan ketidakpastian statistiknya diremehkan. Kedua bagian temuan itu benar, dan sebagian besar diskusi publik hanya menyimpan satu.
 
 ## 15.8 Prabantahan, Bantahan dan Inokulasi
 
@@ -2204,6 +2268,8 @@ Prabantahan — memperingatkan orang tentang teknik manipulasi sebelum mereka me
 
 Pertahanan paling tahan lama bersifat struktural: mengurangi pasokan misinformasi, meningkatkan salience sumber yang dapat dipercaya, dan membuat informasi akurat mudah ditemukan serta ditindaklanjuti. Itu berarti mendanai penyiaran publik, mewajibkan platform mengungkap bagaimana algoritmanya memperkuat konten, mendukung jurnalisme lokal, dan memastikan peringatan resmi tepat waktu, spesifik, dan konsisten. Literasi individu penting, tetapi ia tidak dapat menggantikan lingkungan informasi yang dirancang untuk membingungkan.
 
+Inokulasi bekerja, dan ia bekerja lebih baik sebelum paparan daripada sesudahnya. Teori yang dikembangkan McGuire pada 1960-an menyatakan bahwa dosis lemah dari argumen menyesatkan, disertai bantahan atas tekniknya, membangun ketahanan terhadap versi yang lebih kuat kemudian. Roozenbeek dan van der Linden menunjukkan efek itu dengan permainan daring di mana pemain belajar mengenali taktik manipulasi alih-alih klaim palsu tertentu, dan perolehannya berpindah ke topik yang tidak berhubungan. Implikasinya bagi komunikasi iklim adalah bahwa mengajarkan gerakan retoris — memetik pilihan, keseimbangan palsu, harapan yang mustahil — mengungguli mengoreksi klaim satu per satu.
+
 ## 15.9 Data Terbuka, Reproduksibilitas dan Celah Data
 
 Ilmu iklim luar biasa terbuka. Catatan suhu utama diterbitkan bersama metode dan kodenya; data satelit diarsipkan dan didistribusikan; keluaran model dikontribusikan ke Coupled Model Intercomparison Project dan tersedia bagi peneliti di seluruh dunia; dan laporan Panel Antarpemerintah tentang Perubahan Iklim ditinjau ratusan ilmuwan dan diterbitkan secara lengkap. Keterbukaan ini adalah jawaban terbaik yang tersedia atas klaim konspirasi, karena siapa pun yang memiliki keterampilan dapat mereproduksi analisisnya.
@@ -2212,6 +2278,8 @@ Namun datanya tidak tersebar merata. Cakupan stasiun jarang di sebagian Afrika, 
 
 Reproduksibilitas juga merupakan praktik sosial. Kumpulan data yang diterbitkan tetapi tidak didokumentasikan tidak dapat digunakan; metode yang dijelaskan tetapi tidak dikodekan tidak dapat direplikasi. Institusi paling berharga di ruang ini adalah mereka yang memelihara rekaman panjang, mendokumentasikan metodenya, dan menanggapi kritik di depan publik. Reputasi mereka dibangun atas dasar dapat diperiksa, yang justru merupakan hal yang tidak dapat dilakukan teori konspirasi.
 
+Data terbuka telah mengubah bidang ini dan mereproduksi ketidaksetaraannya. Produk reanalisis seperti ERA5 menyediakan cakupan global per jam, dan arsip CMIP6 membuat keluaran model iklim tersedia bagi peneliti mana pun yang punya lebar pita. Namun jaringan observasi yang menjadi landasan produk itu tersebar tidak merata: stasiun cuaca di Afrika jauh di bawah kepadatan yang direkomendasikan Organisasi Meteorologi Dunia, dan banyak layanan meteorologi nasional tidak mampu merawat yang ada. Akibatnya, tempat yang paling terpapar risiko iklim menghasilkan data lokal paling tidak andal.
+
 ## 15.10 Mengomunikasikan Angka Secara Jujur
 
 Angka itu persuasif tetapi mudah salah dibaca, sehingga komunikasi memerlukan kehati-hatian. Kenaikan suhu 1,5 °C terdengar kecil bagi orang yang mengalami 1,5 °C sebagai perbedaan antara hari sejuk dan hangat; perubahan yang sama pada rata-rata planet sangat besar, karena ia mewakili pergeseran distribusi panas, bukan kenaikan seragam. Menjelaskan perbedaan antara suhu lokal dan rata-rata global adalah salah satu hal paling berguna yang dapat dilakukan komunikator.
@@ -2219,6 +2287,8 @@ Angka itu persuasif tetapi mudah salah dibaca, sehingga komunikasi memerlukan ke
 Bahasa ketidakpastian juga penting. IPCC menggunakan istilah terkalibrasi: hampir pasti berarti probabilitas 99–100 persen, sangat mungkin 90–100 persen, mungkin 66–100 persen, kira-kira sama mungkinnya 33–66 persen. Istilah itu didefinisikan agar pembaca dapat menafsirkannya secara konsisten, tetapi sering dibaca sebagai keraguan yang kabur. Menerjemahkannya ke probabilitas sederhana, tanpa menghilangkan ketidakpastiannya, adalah keterampilan yang layak diajarkan.
 
 Akhirnya, komunikasi harus menghormati audiens. Orang bukan wadah kosong tempat fakta dituangkan; mereka memiliki pengalaman, nilai, dan sumber yang dipercaya. Pesan yang dimulai dengan pengalaman lokal, mengakui apa yang tidak pasti, dan menawarkan tindakan konkret lebih mungkin didengar daripada pesan yang dimulai dengan statistik global dan instruksi moral. Kejujuran tentang ketidakpastian bukan kelemahan dalam persuasi; ia adalah fondasi kepercayaan, dan kepercayaan adalah sumber daya yang paling penting ketika peringatan berikutnya datang.
+
+Komunikasi risiko gagal secara dapat diramalkan pada tingkat angka. 'Banjir satu dalam seratus tahun' didengar sebagian besar orang sebagai banjir yang terjadi sekali seabad alih-alih satu dengan peluang satu persen per tahun, dan kesalahpahaman itu tidak diperbaiki dengan pengulangan. Karya Gerd Gigerenzer tentang literasi risiko menunjukkan bahwa frekuensi alami — satu dalam seratus setiap tahun, dan peluang sekitar satu dalam empat selama tiga puluh tahun — jauh lebih dipahami daripada probabilitas. Reformasinya karena itu sederhana dan jarang diadopsi: laporkan frekuensi, laporkan cakrawala waktu, dan laporkan konsekuensinya bersama peluangnya.
 
 ## 15.11 Studi Kasus: Badai Helene dan Darurat Informasi
 
@@ -2231,6 +2301,8 @@ Lingkungan informasi runtuh lebih cepat daripada jalannya. Klaim bahwa pemerinta
 Konsekuensi praktisnya terukur. Pejabat melaporkan bahwa sebagian warga tidak mengajukan bantuan karena percaya bantuan itu akan diambil atau menimbulkan kewajiban; yang lain menunda evakuasi sebelum badai berikutnya. Organisasi bantuan menemukan bahwa mereka harus menghabiskan waktu membantah rumor alih-alih menyalurkan pasokan. Episode itu menunjukkan bahwa kepercayaan bukan variabel lunak: ia menentukan apakah peringatan dipatuhi dan apakah bantuan diterima.
 
 Pelajarannya spesifik. Peringatan harus datang melalui penyampai lokal yang dipercaya, bukan hanya melalui lembaga nasional. Koreksi harus cepat, konkret, dan berulang, karena rumor menyebar di celah antara peristiwa dan respons resmi. Dan platform harus diperlakukan sebagai bagian dari infrastruktur darurat, dengan kewajiban yang sesuai dengan pengaruhnya. Komunitas yang memiliki informasi akurat dan memercayainya pulih lebih cepat daripada komunitas dengan kerusakan fisik yang sama tetapi tanpa kepercayaan.
+
+Episod 'Climategate' 2009 tetap menjadi studi kasus terbaik tentang bagaimana data menjadi bukti. Surel yang dicuri dikutip untuk menyarankan bahwa ilmuwan memanipulasi catatan suhu; enam penyelidikan independen, termasuk satu oleh Royal Society, tidak menemukan kecurangan dan mengkritik justru kerahasiaan serta sikap defensif para peneliti. Episod itu merusak kepercayaan publik lebih besar daripada merusak sainsnya, dan reformasi yang menyusul — pengarsipan data, kode terbuka, korespondensi yang dipublikasikan — lebih efektif daripada bantahan apa pun sesudahnya. Transparansi adalah satu-satunya jawaban yang bertahan terhadap tuduhan menyembunyikan sesuatu.
 
 ## 15.12 Skenario dan Prediksi Masa Depan: Lingkungan Informasi pada 2050
 
@@ -2268,6 +2340,8 @@ Kasus Puerto Rico sering diceritakan sebagai kisah kegagalan infrastruktur, dan 
 
 Bab ini bersifat praktis. Bab ini memaparkan apa yang sebenarnya dibutuhkan rumah tangga untuk bertahan pada hari-hari dan pekan-pekan pertama gangguan, berapa banyak air dan pangan yang diperlukan, bagaimana berlindung dari panas, asap, dingin, dan banjir, serta bagaimana merencanakan hal-hal yang gagal secara diam-diam: obat-obatan, listrik untuk perangkat medis, dokumen, uang tunai, dan komunikasi. Bab ini juga membahas mengapa begitu sedikit rumah tangga bersiap, dan apa yang benar-benar mengubah perilaku.
 
+Kesiapsiagaan rumah tangga biasanya dijual sebagai daftar belanja, dan daftar itu adalah bagian paling tidak penting. Yang membedakan rumah tangga yang mampu bertahan dari yang tidak jarang bukan peralatan; melainkan apakah seseorang di rumah itu telah memikirkan urutannya — air sebelum pangan, informasi sebelum pergerakan, obat sebelum uang — dan apakah rumah tangga itu punya hubungan dengan tetangga. Peralatan penting di tepi. Rencananya penting di tengah, karena sebagian besar gangguan diselesaikan dengan improvisasi di dalam jaringan yang sudah ada, bukan dengan kotak darurat di lemari.
+
 ## 16.1 Rumah Tangga sebagai Penolong Pertama
 
 Dalam sebagian besar bencana, orang pertama yang menolong bukanlah profesional. Mereka adalah tetangga, anggota keluarga, dan orang yang kebetulan lewat, yang menarik orang dari kendaraan, berbagi air, membersihkan puing, dan memeriksa keadaan orang rentan. Riset tentang respons bencana secara konsisten menemukan bahwa bantuan informal mencakup sebagian besar penyelamatan dan dukungan langsung, terutama pada jam-jam pertama ketika layanan formal tidak dapat menjangkau wilayah terdampak.
@@ -2275,6 +2349,8 @@ Dalam sebagian besar bencana, orang pertama yang menolong bukanlah profesional. 
 Model keputusan tindakan protektif yang dikembangkan Lindell dan Perry (2012) menjelaskan mengapa sebagian rumah tangga bertindak dan yang lain tidak. Orang harus menerima peringatan, memahaminya, percaya bahwa peringatan itu kredibel dan relevan secara pribadi, mengidentifikasi tindakan yang layak, serta memiliki sumber daya dan dukungan sosial untuk melaksanakannya. Kegagalan pada salah satu tahap menghasilkan kelambanan. Itulah sebabnya peringatan yang secara teknis akurat tetap gagal: ia datang dalam bentuk yang tidak terhubung dengan apa yang diketahui orang, atau ia merekomendasikan tindakan yang tidak mampu mereka biayai.
 
 Kesiapsiagaan karena itu bukan hanya soal persediaan. Ia soal kapabilitas: mengetahui apa yang harus dilakukan, memiliki sarana untuk melakukannya, dan terhubung dengan orang lain yang dapat membantu. Rumah tangga dengan air dua pekan tetapi tanpa rencana untuk tetangga lanjut usia kurang siap daripada rumah tangga dengan air tiga hari dan jaringan tetangga yang berfungsi, karena yang kedua dapat beradaptasi dengan keadaan yang tidak diantisipasi yang pertama.
+
+Angka yang mengorganisasi bidang ini adalah bahwa sebagian besar orang yang hidup setelah gempa tidak diselamatkan tim profesional. Pada gempa Marmara 1999, dan lagi di Nepal 2015, mayoritas besar orang yang dikeluarkan dari reruntuhan dievakuasi oleh tetangga, kerabat dan orang lewat pada jam-jam pertama, sebelum tim pencari internasional mendarat. IFRC mendokumentasikan pola yang sama di banyak peristiwa, dan itu membalik citra standar respons: rumah tangga dan jalan adalah penanggap pertama, dan sistem profesional datang untuk menangani minoritas kasus yang membutuhkan ekstrikasi teknis.
 
 ## 16.2 Air: Kendala yang Menentukan
 
@@ -2284,6 +2360,8 @@ Penyimpanan dibatasi ruang dan berat. Air berbobot satu kilogram per liter, sehi
 
 Pengolahan sama pentingnya dengan penyimpanan. Merebus air selama satu menit di ketinggian permukaan laut membunuh sebagian besar patogen; tablet klorin atau pemutih rumah tangga tanpa pewangi dapat mendisinfeksi air jika dosisnya benar; dan filter keramik atau membran menghilangkan patogen serta sedimen. Setelah badai musim dingin Texas 2021, sekitar 14 juta orang berada di bawah imbauan merebus air, banyak selama berhari-hari, dan rumah tangga yang tidak memiliki cara merebus air atau tidak memiliki persediaan bergantung pada titik distribusi yang juga terganggu oleh badai yang sama.
 
+Air adalah kendala yang paling cepat mengakhiri improvisasi, dan angkanya tidak memberi kelonggaran. Standar Sphere menetapkan lima belas liter per orang per hari sebagai minimum untuk kebutuhan domestik dasar, sementara bertahan hidup membutuhkan sekitar tiga liter air minum di iklim sedang dan jauh lebih banyak di panas. Rumah tangga berempat yang menyimpan dua ratus liter memegang sekitar tiga hari pada standar itu, dan dua ratus liter berbobot dua ratus kilogram, sehingga penyimpanan dibatasi oleh daya dukung lantai dan ruang, bukan oleh kemauan. Pengolahan di titik pakai — merebus, klorinasi atau filtrasi — memperluas margin, dan uji coba secara konsisten menemukan penurunan penyakit diare sekitar sepertiga.
+
 ## 16.3 Pangan: Kalori, Daya Simpan dan Memasak
 
 Seseorang membutuhkan sekitar 2.000–2.500 kilokalori sehari, dan lebih banyak selama dingin, kerja fisik berat, atau pemulihan. Pasokan dua pekan untuk keluarga empat orang karena itu sekitar 250.000 kilokalori, volume yang cukup besar: beras, kacang-kacangan, minyak, gula, dan makanan kaleng memberikan kalori termurah per kilogram, sementara makanan beku-kering memberikan kepraktisan dengan harga jauh lebih tinggi. Aturan praktisnya adalah menyimpan apa yang sudah dimakan rumah tangga, merotasinya, dan mempertimbangkan cara memasaknya.
@@ -2291,6 +2369,8 @@ Seseorang membutuhkan sekitar 2.000–2.500 kilokalori sehari, dan lebih banyak 
 Memasak mungkin tidak mungkin dilakukan. Pemadaman listrik melumpuhkan kompor listrik dan microwave; gas mungkin dimatikan; dan penggunaan arang atau kompor gas portabel di dalam ruangan menciptakan bahaya karbon monoksida yang telah membunuh orang di setiap pemadaman besar. Rumah tangga karena itu memerlukan pangan yang dapat dimakan tanpa dimasak — kacang kaleng, biskuit, selai kacang, buah kering, makanan siap saji — serta cara aman memasak di luar ruangan atau di ruang berventilasi baik jika bahan bakar tersedia.
 
 Kelompok tertentu membutuhkan persediaan tertentu. Bayi membutuhkan susu formula dan air bersih; penyandang diabetes membutuhkan pangan yang sesuai dan penyimpanan insulin; penyandang penyakit celiac atau alergi tidak dapat mengandalkan pasokan bantuan umum. Sistem bantuan sering mengasumsikan orang dewasa generik, itulah sebabnya rumah tangga dengan kebutuhan khusus harus merencanakan sendiri dan memberi tahu tetangga atau kerabat di mana persediaan mereka disimpan.
+
+Perencanaan pangan gagal dalam dua arah: rumah tangga menyimpan hal yang salah dan menganggap mereka dapat memasaknya. Beras dan gandum yang disimpan rapat dan kering tetap layak dimakan bertahun-tahun, tetapi keduanya memerlukan bahan bakar dan air, dan dapur yang memakai listrik tidak punya cara merebus beras ketika jaringan mati. Ini kerentanan khas rumah tangga berlistrik di negara berpendapatan menengah, di mana peralihan dari arang dan minyak tanah menghapus cadangan yang masih dimiliki rumah tangga miskin. Rencana yang praktis karena itu menyimpan sebagian pangan yang tidak perlu dimasak, menyiapkan kompor non-listrik, dan merotasi stok agar lemari menjadi dapur, bukan museum.
 
 ## 16.4 Tempat Berlindung: Tinggal, Pergi, dan Ruang di Antara
 
@@ -2300,6 +2380,8 @@ Berlindung di tempat memerlukan ruangan yang sesuai. Untuk panas, ruangan terdin
 
 Evakuasi memerlukan tujuan, jalur, dan sarana transportasi. Rumah tangga tanpa mobil adalah yang paling rentan, dan mereka secara tidak proporsional miskin, lanjut usia, atau penyandang disabilitas. Perencanaan karena itu harus mencakup cara pergi yang tidak mengasumsikan kepemilikan kendaraan pribadi: tetangga yang memiliki mobil, daftar transportasi komunitas, atau titik penjemputan yang ditentukan. Evakuasi yang diperintahkan tetapi tidak dimungkinkan bukanlah rencana.
 
+Keputusan tempat berlindung dibuat di bawah tekanan waktu dengan informasi tidak lengkap, dan kesalahannya sistematis. Orang menunda evakuasi karena meremehkan bahaya, melebihkan kekuatan bangunan, dan menunggu konfirmasi dari tetangga; pola itu terdokumentasi dalam riset badai sebagai bias kewajaran. Evakuasi New Orleans 2005 gagal bukan karena orang menolak pergi, melainkan karena sekitar seratus ribu penduduk tidak punya mobil, uang, dan tujuan. Rencana tempat berlindung yang mengasumsikan mobilitas adalah rencana untuk minoritas yang memiliki kendaraan dan kartu kredit.
+
 ## 16.5 Listrik, Cahaya dan Panas
 
 Listrik adalah ketergantungan diam-diam di balik hampir segala hal: pendinginan, komunikasi, perangkat medis, pemompaan air, dan penerangan. Pemadaman menjadi lebih lama dan lebih sering di banyak negara. Di Amerika Serikat, pelanggan rata-rata mengalami sekitar lima hingga enam jam pemadaman setahun pada awal 2010-an; pada awal 2020-an angkanya meningkat, dan peristiwa ekstrem menghasilkan pemadaman yang diukur dalam pekan. Di Puerto Rico setelah Maria, sebagian pulau menunggu berbulan-bulan untuk pemulihan.
@@ -2307,6 +2389,8 @@ Listrik adalah ketergantungan diam-diam di balik hampir segala hal: pendinginan,
 Rumah tangga tidak perlu memberi daya pada segalanya; ia perlu memberi daya pada beberapa hal. Panel surya kecil dengan baterai dapat mengisi telepon dan menyalakan lampu; pembangkit listrik portabel dapat menjalankan lemari es sebagian hari atau perangkat medis; dan generator dapat menjalankan pompa atau pemanas, tetapi hanya di luar ruangan dan jauh dari jendela. Poin terakhir sangat penting: keracunan karbon monoksida secara konsisten termasuk penyebab kematian utama dalam pemadaman badai musim dingin, dan sepenuhnya dapat dicegah.
 
 Pendinginan memiliki hitungan waktu. Lemari es yang tertutup menjaga pangan aman sekitar empat jam; freezer penuh sekitar 48 jam jika pintunya tetap tertutup. Rumah tangga dapat memperpanjangnya dengan membekukan botol air sebelumnya, mengelompokkan pangan, dan menyimpan termometer di dalamnya. Mengetahui kapan harus membuang pangan sama pentingnya dengan mengetahui cara menyimpannya, karena keracunan pangan selama bencana memperburuk situasi yang sudah berbahaya.
+
+Listrik telah menjadi ketergantungan sunyi bagi kelangsungan rumah tangga. Rumah tanpa daya kehilangan pendinginan, penerangan, komunikasi, pompa air di gedung bertingkat, dan kian juga memasak serta pemanasan. Puerto Rico setelah 2017 menunjukkan arti pemadaman panjang: sebagian pulau menunggu hampir setahun untuk pemulihan, dan kematian berlebih didorong oleh perawatan medis yang terputus, bukan oleh badainya sendiri. Panel surya dan baterai turun biaya sekitar sembilan puluh persen sejak 2010, yang membuat sistem rumah tangga sederhana — cukup untuk kulkas, lampu dan telepon — menjadi pembelian ketahanan yang terjangkau di banyak bagian dunia.
 
 ## 16.6 Kesehatan, Obat-obatan dan Disabilitas
 
@@ -2316,6 +2400,8 @@ Peralatan medis yang bergantung pada listrik memerlukan rencana. Konsentrator ok
 
 Disabilitas dan kerapuhan membentuk setiap keputusan lain. Orang yang tidak dapat naik tangga tidak dapat berlindung di lantai atas; pengguna kursi roda tidak dapat mengevakuasi diri melewati puing; penyandang demensia mungkin tidak memahami peringatan. Kesiapsiagaan harus spesifik bagi orangnya, dan harus melibatkan orang-orang di sekitarnya, karena dukungan institusional mungkin tidak datang tepat waktu.
 
+Kesiapsiagaan kesehatan adalah tempat rencana rumah tangga bertemu batas kemandirian. Dialisis, konsentrator oksigen, pendinginan insulin dan kemoterapi tidak dapat diimprovisasi dari kotak darurat, dan orang yang bergantung padanya justru mereka yang paling tidak mampu mengungsi cepat. Kematian di antara penyandang disabilitas pada tsunami Tōhoku 2011 sekitar dua kali lipat populasi umum, jurang yang mencerminkan rute evakuasi dan tempat berlindung yang tidak aksesibel, bukan hanya gelombangnya. Rencana rumah tangga yang tidak menyebut fasilitas terdekat dengan daya cadangan, dan rute ke sana, tidak lengkap justru bagi anggota yang paling membutuhkannya.
+
 ## 16.7 Dokumen, Uang dan Komunikasi
 
 Bencana menghancurkan catatan yang membuktikan identitas, kepemilikan, dan hak. Akta kelahiran, paspor, sertifikat tanah, polis asuransi, rekam medis, resep, dan data bank harus disalin, disimpan dalam wadah tahan air, dan disimpan di lokasi kedua atau dalam bentuk digital terenkripsi. Rumah tangga yang kehilangan dokumen ini berjuang untuk mengklaim asuransi, mengakses bantuan, atau membuktikan tempat tinggal selama berbulan-bulan setelah peristiwa.
@@ -2323,6 +2409,8 @@ Bencana menghancurkan catatan yang membuktikan identitas, kepemilikan, dan hak. 
 Uang tunai penting karena sistem kartu bergantung pada listrik dan konektivitas. Sejumlah kecil uang tunai pecahan kecil memungkinkan rumah tangga membeli bahan bakar, air, atau transportasi ketika sistem pembayaran gagal. Di negara tempat uang seluler dominan, telepon yang terisi daya dan sumber listrik cadangan menjalankan fungsi yang sama, asalkan jaringannya tetap hidup — itulah sebabnya kegagalan komunikasi sering menjadi bagian paling membingungkan dari suatu bencana.
 
 Komunikasi memerlukan rencana yang dibuat sebelumnya. Keluarga harus menyepakati kontak di luar wilayah yang dapat meneruskan pesan, titik pertemuan, dan cara memberi sinyal bahwa mereka aman. Selama peristiwa besar, jaringan seluler padat, sehingga pesan teks sering berhasil ketika panggilan tidak; peta luring, dokumen yang diunduh, dan pesan yang telah ditulis sebelumnya mengurangi ketergantungan pada konektivitas. Tujuannya bukan tetap berkomunikasi terus-menerus tetapi dapat terhubung kembali ketika jaringan pulih.
+
+Dokumen dan uang tidak menarik sampai keduanya menjadi satu-satunya yang penting. Setelah banjir, perbedaan antara keluarga yang pulih dalam hitungan bulan dan yang menghabiskan bertahun-tahun di hunian sementara sering kali adalah apakah sertifikat tanah, polis asuransi dan dokumen identitas selamat, dan apakah ada uang tunai ketika jaringan pembayaran mati. Program transfer tunai setelah bencana berulang kali menunjukkan bahwa uang yang diberikan langsung dibelanjakan untuk hal yang sama dengan yang akan dipasok lembaga, dan lebih cepat. Persiapan praktisnya membosankan: salinan dalam kantong kedap air, salinan di awan, dan sejumlah kecil uang fisik dalam pecahan kecil.
 
 ## 16.8 Menilai Risiko Rumah Tangga
 
@@ -2332,6 +2420,8 @@ Penilaian harus mencakup hal-hal yang mudah terlewat: berapa lama rumah tangga d
 
 Kesiapsiagaan tidak merata. Survei secara konsisten menemukan bahwa rumah tangga berpenghasilan lebih tinggi lebih mungkin memiliki persediaan, rencana, dan asuransi, sementara rumah tangga berpenghasilan rendah menghadapi bahaya yang sama dengan sumber daya lebih sedikit. Itu bukan kegagalan tanggung jawab individu tetapi masalah struktural: kesiapsiagaan membutuhkan uang dan waktu, dan kebijakan publik yang memperlakukannya sebagai kewajiban pribadi tanpa memberikan dukungan akan menghasilkan ketimpangan dalam peluang bertahan hidup yang dapat diprediksi.
 
+Penilaian risiko rumah tangga gagal karena orang buruk dalam memeringkat peristiwa langka. Heuristik ketersediaan, yang diuraikan Tversky dan Kahneman pada 1973, membuat orang melebihkan risiko yang vivid dan meremehkan yang statistik, sehingga sebuah rumah tangga bisa bersiap untuk gempa yang dilihatnya di televisi dan mengabaikan gelombang panas yang jauh lebih mungkin membunuh anggota lanjut usianya. Bias kewajaran memperparah kesalahan selama peristiwa itu sendiri, menghasilkan penundaan yang mengubah peringatan menjadi korban. Penilaian yang berguna dimulai dari sejarah dan data lokal, bukan dari malapetaka global, dan memeringkat berdasarkan konsekuensi dan peluang, bukan berdasarkan drama.
+
 ## 16.9 Melampaui Tujuh Puluh Dua Jam
 
 Panduan resmi di banyak negara merekomendasikan persediaan tiga hari, dengan asumsi bantuan dari luar akan tiba dalam 72 jam. Asumsi itu sering salah. Setelah Badai Katrina pada 2005, sebagian New Orleans tanpa layanan dasar selama berpekan-pekan; setelah Maria, pemulihan memakan waktu berbulan-bulan; dan di wilayah terdampak konflik atau terpencil, bantuan mungkin lebih lama lagi. Tiga hari adalah batas bawah, bukan target.
@@ -2340,6 +2430,8 @@ Standar yang lebih realistis adalah air, pangan, dan obat untuk dua pekan, denga
 
 Lapisan-lapisan itu harus diuji. Rumah tangga yang tidak pernah membuka wadah airnya, menjalankan generatornya, atau menyusuri jalur evakuasinya tidak tahu apakah rencananya bekerja. Pemeriksaan tahunan — mengganti pangan dan obat kedaluwarsa, menguji peralatan, memperbarui kontak — mengubah persediaan menjadi kapabilitas. Kesiapsiagaan yang tidak pernah dilatih cenderung gagal tepat pada saat ia dibutuhkan.
 
+Aturan tujuh puluh dua jam adalah kenyamanan yang bertahan melampaui buktinya. Pemulihan infrastruktur setelah peristiwa besar biasanya memakan satu sampai dua minggu, dan dalam kasus berat berbulan-bulan; Badan Manajemen Darurat Federal Amerika Serikat menganjurkan persediaan dua minggu, dan banjir 2021 di British Columbia serta kerusakan badai 2024 di Carolina Utara bagian barat sama-sama meninggalkan komunitas tanpa air layak minum selama berminggu-minggu. Cakrawala perencanaan yang relevan ditetapkan oleh waktu pemulihan sistem yang diandalkan rumah tangga, bukan oleh waktu bertahan orang dewasa sehat, dan sistem itu lebih lambat daripada yang dibayangkan publik.
+
 ## 16.10 Kesiapsiagaan Komunitas dan Gotong Royong
 
 Rumah tangga tidak bersiap dalam isolasi. Tetangga, keluarga besar, jemaah keagamaan, sekolah, dan asosiasi lokal memberikan sebagian besar bantuan langsung dalam bencana, dan efektivitasnya bergantung pada seberapa baik mereka saling mengenal sebelum peristiwa terjadi. Program seperti Map Your Neighborhood di Negara Bagian Washington dan organisasi kesiapsiagaan mandiri Jepang membangun keakraban itu secara sengaja, dengan memetakan warga rentan, menyepakati peran, dan melatih respons.
@@ -2347,6 +2439,8 @@ Rumah tangga tidak bersiap dalam isolasi. Tetangga, keluarga besar, jemaah keaga
 Gotong royong paling efektif ketika terorganisasi. Lingkungan yang mengetahui siapa yang memiliki generator, siapa yang memiliki pelatihan medis, siapa yang perlu dibantu mengungsi, dan siapa yang memiliki kendaraan dapat mengalokasikan sumber daya pada jam-jam pertama, ketika sistem formal kewalahan. Itu memerlukan daftar, metode komunikasi, dan sedikit latihan, bukan anggaran besar. Hambatan utamanya bersifat sosial: orang tidak mengenal tetangganya, dan program kesiapsiagaan yang mengabaikan koneksi sosial cenderung menghasilkan persediaan tanpa koordinasi.
 
 Kebijakan publik dapat mendukung ini tanpa mengambil alih. Pemerintah kota dapat mendanai koordinator kesiapsiagaan komunitas, menyediakan pelatihan dan peralatan, serta mengakui kelompok lingkungan dalam rencana resmi. Tempat yang paling tangguh menggabungkan kesiapsiagaan rumah tangga yang kuat dengan jaringan sosial yang kuat dan pemerintah lokal yang berfungsi; tidak satu pun dari ketiganya cukup sendiri, dan mata rantai terlemah menentukan hasilnya.
+
+Kesiapsiagaan komunitas bekerja melalui hubungan yang sudah ada, bukan melalui organisasi baru. Riset tentang asosiasi lingkungan di Jepang dan kelompok penanggulangan bencana masyarakat di Indonesia menemukan bahwa kepadatan ikatan sosial sebelumnya memprediksi partisipasi dalam simulasi dan kecepatan bantuan informal jauh lebih baik daripada keberadaan rencana formal. Implikasi praktisnya adalah program kesiapsiagaan harus membiayai yang sudah ada — masjid, gereja, klub olahraga, perkumpulan penghuni — alih-alih membentuk komite yang rapat dua kali lalu bubar. Kepercayaan adalah infrastruktur yang tidak dapat diadakan setelah peristiwa terjadi.
 
 ## 16.11 Studi Kasus: Badai Maria dan Ketahanan Rumah Tangga di Puerto Rico
 
@@ -2359,6 +2453,8 @@ Data kematian menceritakan darurat yang lambat. Hitungan resmi awal 64 kematian 
 Rumah tangga yang bertahan memiliki ciri yang sama. Mereka menyimpan air — sering dalam tangki penampung, yang umum di pulau itu — dan pangan yang tidak perlu dimasak. Mereka memiliki obat, atau rencana untuk memperolehnya. Mereka memiliki tetangga yang berbagi generator, bahan bakar, dan informasi. Dan mereka memiliki cara memasak di luar ruangan tanpa menimbulkan kebakaran atau bahaya karbon monoksida. Kekayaan membantu, tetapi koneksi sosial lebih membantu, terutama di daerah pedesaan tempat bantuan formal datang terakhir.
 
 Pelajaran bagi kesiapsiagaan rumah tangga bersifat langsung. Penyimpanan air harus berukuran pekan, bukan hari. Obat dan peralatan yang bergantung pada listrik memerlukan rencana yang mencakup sumber daya cadangan dan opsi relokasi. Memasak harus dimungkinkan tanpa listrik dan tanpa pembakaran di dalam ruangan. Dan kesiapsiagaan harus bersifat sosial, karena rumah tangga yang bertahan paling baik adalah yang tertanam dalam jaringan yang dapat berbagi sumber daya. Persediaan tanpa tetangga adalah rencana yang rapuh.
+
+Gempa dan tsunami Tōhoku 2011 sering digambarkan sebagai kegagalan kesiapsiagaan, dan itu hanya sebagian benar. Sistem peringatan bekerja, simulasi nyata, dan ribuan orang mencapai tanah tinggi karena telah melatih rutenya. Kematian terkonsentrasi pada mereka yang tidak dapat bergerak cepat, mereka yang pulang mengambil barang, dan mereka yang mempercayai tanggul yang dilampaui gelombang. Kasus ini menunjukkan bahwa kesiapsiagaan bukan keadaan biner melainkan sebaran keuntungan, dan bahwa rumah tangga dengan pilihan paling sedikit adalah yang harus menjadi pusat rancangan rencana.
 
 ## 16.12 Skenario dan Prediksi Masa Depan: Kesiapsiagaan Rumah Tangga pada 2050
 
@@ -2396,6 +2492,8 @@ Gelombang panas 2003 mengubah cara Eropa memikirkan panas. Prancis menciptakan s
 
 Bab ini membahas konsekuensi kesehatan perubahan iklim dan kapasitas sistem kesehatan untuk merespons. Bab ini mencakup panas sebagai peristiwa korban massal, tekanan pada layanan darurat dan rumah sakit, kerentanan khusus kelompok tertentu, dan bayangan panjang kesehatan mental. Bab ini berargumen bahwa kesehatan adalah tempat abstraksi perubahan iklim menjadi terlihat sebagai tubuh, dan bahwa distribusi tubuh-tubuh itu adalah soal kebijakan, bukan takdir.
 
+Sistem kesehatan biasanya digambarkan sebagai bagian dari respons bencana, dan gambaran itu terbalik. Rumah sakit yang terendam saat badai bukan penanggap; ia adalah darurat kedua. Pertanyaan iklim bagi sektor kesehatan karena itu bukan bagaimana merawat lebih banyak pasien setelah peristiwa, melainkan bagaimana menjaga fasilitas, rantai pasok dan tenaga kerja tetap berfungsi selama peristiwa berlangsung, dan bagaimana melakukannya di tempat yang sistem dasarnya sudah rapuh.
+
 ## 17.1 Sistem Kesehatan sebagai Infrastruktur Iklim
 
 Sistem kesehatan adalah institusi yang dituju masyarakat ketika perubahan iklim melukai orang, dan sistem itu sendiri rentan terhadapnya. Panas mendorong permintaan layanan ambulans dan unit gawat darurat; banjir merusak rumah sakit dan memutus rantai pasok; badai mengganggu listrik dan air; dan wabah penyakit menular menyusul pengungsian serta kegagalan sanitasi. Sistem kesehatan yang tidak siap menghadapi guncangan ini tidak dapat melindungi populasi yang dilayaninya.
@@ -2403,6 +2501,8 @@ Sistem kesehatan adalah institusi yang dituju masyarakat ketika perubahan iklim 
 Organisasi Kesehatan Dunia menyebut perubahan iklim sebagai ancaman kesehatan terbesar yang dihadapi umat manusia, dan Lancet Countdown melacak indikatornya setiap tahun. Laporan 2024 menemukan bahwa kematian terkait panas di antara orang berusia di atas 65 tahun telah meningkat 167 persen dibandingkan 1990-an, bahwa 2023 memaparkan miliaran orang pada hari-hari panas berbahaya, dan bahwa sistem kesehatan di sebagian besar negara tetap kurang siap menghadapi risiko yang mereka hadapi.
 
 Kesiapsiagaan memiliki empat komponen: pengawasan, agar ancaman terdeteksi dini; kapasitas, agar layanan dapat menyerap lonjakan; infrastruktur, agar fasilitas tetap berfungsi selama bahaya; dan keadilan, agar yang paling rentan dijangkau lebih dulu. Sebagian besar sistem kesehatan kuat pada satu atau dua komponen dan lemah pada yang lain, dan kelemahannya biasanya keadilan, karena orang yang paling berisiko sering paling tidak mampu menuntut layanan.
+
+WHO memperkirakan sekitar satu miliar orang bergantung pada fasilitas kesehatan tanpa listrik yang andal, dan sebagian besar fasilitas itu tidak punya listrik sama sekali. Satu fakta itu mengorganisasi ulang agenda iklim untuk kesehatan: klinik tanpa daya tidak dapat menjalankan lemari vaksin, konsentrator oksigen atau sterilisator, dan tidak dapat terus bekerja selama gelombang panas atau banjir. Elektrifikasi, pasokan air dan ketahanan bangunan karena itu bukan infrastruktur penunjang melainkan substrat perawatan klinis, dan itulah intervensi yang paling mungkin diabaikan karena tidak menghasilkan foto dokter yang menyelamatkan nyawa.
 
 ## 17.2 Panas sebagai Peristiwa Korban Massal
 
@@ -2412,6 +2512,8 @@ Batas fisiologisnya telah mapan. Suhu bola basah — ukuran yang menggabungkan p
 
 Peristiwa panas korban massal berbagi pola. Kematian naik tajam setelah dua atau tiga hari dan malam yang panas berturut-turut, karena tubuh membutuhkan dinginnya malam untuk pulih; ia terkonsentrasi di antara orang lanjut usia, terisolasi, dan miskin; dan ia diremehkan secara real-time karena kematian dikaitkan dengan penyebab lain. Respons kesehatan publik yang berhasil tidak menarik: peringatan, pusat pendinginan, memeriksa orang rentan, menyesuaikan jam kerja, dan membuka bangunan publik pada malam hari.
 
+Panas adalah bahaya iklim paling mematikan di negara berpendapatan tinggi, dan ia membunuh dengan pola yang mudah terlewat. Gelombang panas Eropa 2003 menyebabkan sekitar tujuh puluh ribu kematian berlebih, gelombang panas Rusia 2010 sekitar lima puluh lima ribu, dan musim panas Eropa 2022 sekitar enam puluh satu ribu, dengan korban terbesar di antara orang di atas delapan puluh tahun yang tinggal sendiri di flat tanpa insulasi. Kematian dicatat sebagai gagal jantung atau pernapasan, sehingga panas muncul dalam statistik hanya setelah analisis mortalitas berlebih. Batas fisiologisnya adalah suhu bola basah mendekati tiga puluh lima derajat Celsius, ketika keringat tidak lagi mendinginkan tubuh, dan kawasan yang mendekatinya bertambah.
+
 ## 17.3 Layanan Darurat dan Kapasitas Lonjakan
 
 Layanan medis darurat adalah lapisan formal pertama respons, dan ia sensitif terhadap iklim. Waktu respons ambulans memanjang dalam panas, karena volume panggilan naik dan petugas lebih lambat dalam peralatan pelindung; banjir memblokir jalan dan membuat kendaraan terdampar; dan kebakaran hutan memaksa evakuasi yang membanjiri pengiriman. Studi di beberapa kota menemukan bahwa panas terkait dengan kenaikan terukur dalam panggilan darurat dan waktu respons.
@@ -2419,6 +2521,8 @@ Layanan medis darurat adalah lapisan formal pertama respons, dan ia sensitif ter
 Rumah sakit menghadapi masalah paralel: lonjakan permintaan bersamaan dengan penurunan kapasitas. Staf mungkin tidak dapat mencapai tempat kerja; listrik dan air mungkin gagal; prosedur elektif mungkin dibatalkan; dan tempat tidur mungkin ditempati orang yang tidak dapat dipulangkan karena rumahnya tidak layak huni. COVID-19 menunjukkan seberapa cepat sistem kesehatan dapat terentang, dan bagaimana tarikan itu paling menimpa orang termiskin dan tertua.
 
 Kapasitas lonjakan dibangun sebelum peristiwa. Ia memerlukan rencana perluasan tempat tidur, persediaan obat dan oksigen, protokol triase, dan kesepakatan dengan fasilitas tetangga. Ia juga memerlukan staf yang terlatih dan cukup istirahat, itulah sebabnya perencanaan tenaga kerja merupakan bentuk adaptasi iklim. Rumah sakit dengan rencana tetapi tanpa staf bukanlah kapasitas lonjakan; ia adalah dokumen.
+
+Layanan darurat dirancang untuk sejumlah kecil insiden simultan, dan ekstrem iklim menghasilkan banyak insiden sekaligus. Selama banjir 2021 di lembah Ahr, tim penyelamat tidak dapat mencapai desa selama berjam-jam karena jalan dan jembatan hilang, dan panggilan bantuan melampaui unit yang tersedia beberapa tingkat besaran. Konsep yang menggambarkan jurang itu adalah kapasitas lonjakan: kemampuan memperluas operasi melampaui normal, yang dalam sistem kesehatan bergantung pada cadangan staf, stok dan kesepakatan bantuan timbal balik. Sebagian besar layanan merencanakan insiden korban massal di satu lokasi; sedikit yang merencanakan kegagalan simultan transportasi, komunikasi dan listrik di seluruh kawasan.
 
 ## 17.4 Rumah Sakit dan Fasilitas Kesehatan dalam Ancaman
 
@@ -2428,6 +2532,8 @@ Modus kegagalannya dapat diprediksi. Banjir memasuki ruang bawah tanah dan panel
 
 Meretrofit rumah sakit mahal tetapi hemat biaya. Meninggikan peralatan kritis, memindahkan generator di atas level banjir, memasang air dan listrik di lokasi, serta memperkuat selubung bangunan mengurangi risiko evakuasi, yang sendirinya berbahaya bagi pasien. Bank Dunia memperkirakan bahwa menjadikan fasilitas kesehatan tangguh mengembalikan beberapa dolar dalam kerugian yang dihindari untuk setiap dolar yang diinvestasikan, dan manfaatnya tertinggi untuk fasilitas layanan primer di wilayah terpapar.
 
+Rumah sakit juga menjadi sasaran, dan era iklim tidak mengubahnya. Pemantauan WHO atas serangan terhadap layanan kesehatan mencatat ribuan insiden di zona konflik, dengan Ukraina sendiri mencatat lebih dari seribu sejak 2022, dan efeknya melampaui bangunan: staf pergi, jalur pasok menutup, dan populasi kehilangan fasilitas yang diandalkannya. Bahaya iklim memperparah kerentanan yang sama dari arah berbeda, membanjiri ruang bawah tanah, memutus listrik dan memaksa evakuasi. Respons desainnya sama dalam kedua kasus — utilitas redundan, lokasi terlindungi, dan kemampuan beroperasi sebagai unit lapangan ketika bangunannya hilang.
+
 ## 17.5 Kelompok Rentan dan Risiko yang Tidak Merata
 
 Risiko iklim terdistribusi menurut fisiologi, pekerjaan, dan posisi sosial. Orang lanjut usia kurang mampu mengatur suhu dan lebih mungkin memiliki penyakit kronis; anak anak memiliki rasio permukaan-terhadap-massa lebih tinggi dan lebih rentan dehidrasi; ibu hamil menghadapi risiko kelahiran prematur dan komplikasi yang meningkat; dan penyandang disabilitas mungkin tidak dapat mengevakuasi diri atau mengakses informasi.
@@ -2435,6 +2541,8 @@ Risiko iklim terdistribusi menurut fisiologi, pekerjaan, dan posisi sosial. Oran
 Paparan kerja adalah sumber risiko utama yang sering tidak terlihat. Pekerja luar ruang di konstruksi, pertanian, pengiriman, dan utilitas terpapar panas dalam waktu lama, sering dengan upah borongan yang menghambat istirahat. Studi di Amerika Serikat dan India menemukan tingkat cedera ginjal yang tinggi di antara pekerja pertanian, dan standar panas lemah atau tidak ada di banyak yurisdiksi.
 
 Posisi sosial menentukan apakah orang dapat melindungi diri. Orang tanpa tempat tinggal tidak memiliki ruang sejuk dan tidak dapat menyimpan air; narapidana dikurung di fasilitas yang sering tanpa pendingin udara; komunitas adat mungkin terpencil dari layanan dan terbebani perampasan historis; dan rumah tangga berpenghasilan rendah mungkin tidak mampu membiayai pendinginan atau mengungsi. Setiap kelompok memerlukan respons spesifik, dan nasihat generik tidak akan menjangkau mereka.
+
+Risiko tidak tersebar merata di dalam populasi, dan sektor kesehatan melihat gradiennya paling jelas. Orang lanjut usia, ibu hamil, bayi, penderita penyakit jantung dan pernapasan, serta penyandang disabilitas memikul beban tidak proporsional, dan mekanismenya berbeda: tekanan panas, obat yang terputus, tempat berlindung yang tidak aksesibel, hilangnya pendamping. Riset tentang kelahiran prematur dan paparan panas menemukan risiko yang meningkat di beberapa negara, dan efeknya paling kuat pada perempuan dengan akses paling sedikit ke pendinginan dan perawatan antenatal. Rencana kesehatan yang melaporkan angka kematian rata-rata tanpa memilahnya akan sistematis melewatkan orang yang paling perlu dilindungi.
 
 ## 17.6 Kesehatan Mental dan Bayangan Panjang
 
@@ -2444,6 +2552,8 @@ Peristiwa yang lambat menghasilkan beban tersendiri. Kekeringan telah dikaitkan 
 
 Layanan kesehatan mental biasanya bagian terlemah dari sistem kesehatan, dan jarang dimasukkan dalam perencanaan bencana. Mengintegrasikan dukungan psikososial ke dalam respons darurat, melatih tenaga kesehatan komunitas, dan menyediakan kesinambungan perawatan bagi orang dengan kondisi yang sudah ada adalah langkah berbiaya rendah dengan manfaat besar. Alternatifnya adalah populasi yang selamat dari banjir dan membawa konsekuensinya selama puluhan tahun.
 
+Beban kesehatan jiwa bertahan bertahun-tahun setelah peristiwa fisiknya. Survei pasca-bencana secara konsisten menemukan tingginya gangguan stres pascatrauma, depresi dan kecemasan, biasanya pada kisaran lima belas sampai dua puluh persen populasi terpapar, dengan keparahan mengikuti derajat paparan dan hilangnya dukungan sosial, bukan hanya besarnya bahaya. Konsep solastalgia, yang diajukan Glenn Albrecht pada 2005, menggambarkan distres akibat degradasi lingkungan tempat tinggal, dan ia menangkap sesuatu yang terlewat oleh kategori klinis: duka atas tempat yang masih ada tetapi tidak lagi sama.
+
 ## 17.7 Pengawasan dan Peringatan Dini
 
 Persyaratan pertama respons kesehatan yang efektif adalah mengetahui bahwa sesuatu sedang terjadi. Sistem peringatan kesehatan-panas menghubungkan prakiraan meteorologi dengan data kesehatan dan memicu tindakan ketika ambang terlampaui. Rencana aksi panas Ahmedabad, yang dikembangkan setelah gelombang panas 2010 menewaskan lebih dari 1.300 orang, menggabungkan peringatan, pusat pendinginan, dan penjangkauan kelompok rentan; evaluasi berikutnya oleh Hess dkk. (2018) memperkirakan bahwa rencana itu mencegah sekitar 1.190 kematian per tahun.
@@ -2451,6 +2561,8 @@ Persyaratan pertama respons kesehatan yang efektif adalah mengetahui bahwa sesua
 Pengawasan sindromik — memantau kunjungan unit gawat darurat, panggilan ambulans, dan penjualan apotek hampir secara real-time — dapat mendeteksi wabah dan dampak panas lebih awal daripada pelaporan formal. Analisis kematian berlebih, yang membandingkan kematian teramati dengan kematian yang diharapkan, adalah standar emas untuk mengukur angka sebenarnya gelombang panas atau pandemi. Negara yang berinvestasi dalam sistem ini selama COVID-19 lebih siap menghadapi guncangan kesehatan terkait iklim.
 
 Pengawasan harus terhubung dengan tindakan. Peringatan yang tidak memicu respons hanya informasi. Sistem yang efektif menetapkan siapa melakukan apa pada setiap ambang: lembaga mana yang membuka pusat pendinginan, klinik mana yang memperpanjang jam, petugas komunitas mana yang mengunjungi warga rentan, dan bagaimana publik diberi tahu. Rencana harus diuji sebelum peristiwa, karena ujian pertamanya seharusnya bukan darurat itu sendiri.
+
+Surveilans adalah bagian sistem kesehatan yang mengubah bahaya menjadi angka, dan kelemahannya adalah sejenis kebutaan. Kematian berlebih selama gelombang panas tidak terlihat secara real-time karena kematian dikode berminggu-minggu kemudian dan diatribusikan pada sebab proksimat; surveilans sindromik, yang memantau penerimaan gawat darurat dan penjualan apotek, dapat mendeteksi sinyal lebih awal. Evaluasi sistem peringatan dini panas di kota-kota Eropa menemukan penurunan kematian sekitar sepertiga ketika peringatan dipasangkan dengan tindakan — pusat pendinginan, kunjungan rumah, jam kerja yang disesuaikan — dan hampir tanpa efek ketika peringatan diterbitkan tanpa protokol respons.
 
 ## 17.8 Wabah Setelah Bencana
 
@@ -2460,6 +2572,8 @@ Risikonya tidak tak terelakkan. Penyediaan air bersih dan sanitasi yang cepat, k
 
 Perubahan iklim memperluas jangkauan penyakit tular vektor. Demam berdarah, yang dibawa nyamuk Aedes, menyebar ke wilayah baru: 2024 mencatat wabah rekor di Amerika, dengan lebih dari 12 juta kasus suspek, dan penularan lokal dilaporkan di sebagian Eropa. Malaria menyebar ke daerah dataran tinggi yang sebelumnya terlalu dingin untuk penularan. Pergeseran ini menuntut pengawasan dan pengendalian vektor bergerak lebih cepat daripada nyamuknya.
 
+Anggapan lama bahwa bencana menghasilkan epidemi telah digantikan gambaran yang lebih tepat: bencana menghasilkan wabah ketika memindahkan orang ke kondisi berdesakan dengan air tercemar. Kolera di Yaman setelah 2016 menghasilkan lebih dari satu juta kasus dugaan, dan malaria melonjak di Pakistan setelah banjir 2022. Wabah kolera Haiti 2010, yang menewaskan ribuan orang, dilacak ke limbah yang dibawa pasukan penjaga perdamaian internasional, pengingat bahwa risiko epidemi sebagian diciptakan oleh respons itu sendiri. Sanitasi, air bersih dan konfirmasi laboratorium cepat adalah intervensi yang penting, dan semuanya tidak glamor.
+
 ## 17.9 Tenaga Kerja, Obat-obatan dan Rantai Pasok
 
 Sistem kesehatan hanya sekuat tenaga kerjanya dan persediaannya. Banyak negara menghadapi kekurangan kronis dokter, perawat, dan tenaga kesehatan komunitas, dan kekurangan itu paling parah di wilayah yang paling terpapar perubahan iklim. Migrasi tenaga kesehatan dari negara berpenghasilan rendah ke negara berpenghasilan tinggi memperburuk masalah, meninggalkan sistem termiskin dengan staf paling sedikit.
@@ -2468,6 +2582,8 @@ Rantai pasok sama rapuhnya. Obat, oksigen, vaksin, dan peralatan medis bergantun
 
 Ketangguhan memerlukan persediaan, produksi lokal, dan pemasok yang terdiversifikasi. Ia juga memerlukan rantai dingin yang dapat bertahan dari pemadaman listrik, yang berarti pendinginan bertenaga surya dan sistem cadangan di setiap tingkat. Biayanya moderat relatif terhadap konsekuensi stok vaksin yang rusak atau pasokan oksigen yang terputus, dan manfaatnya melampaui iklim ke setiap jenis darurat.
 
+Tenaga kerja dan obat adalah dua sumber daya yang tidak dapat diimprovisasi. WHO memperkirakan bahwa sebagian besar fasilitas kesehatan di negara berpendapatan rendah kekurangan obat esensial, dan kekurangan itu menjadi akut ketika rantai pasok terganggu oleh peristiwa yang sama yang meningkatkan permintaan. Pandemi COVID-19 memperlihatkan kerapuhan pasokan oksigen di negara berpendapatan menengah, di mana lonjakan permintaan menyingkap ketergantungan pada sedikit produsen. Migrasi tenaga kesehatan memperparah masalah: negara dengan paparan iklim tertinggi sering menjadi sumber staf terlatih yang direkrut ke luar, meninggalkan fasilitas dengan staf di bawah ambang perawatan rutin, apalagi lonjakan.
+
 ## 17.10 Cakupan Kesehatan Universal dan Sistem yang Tangguh
 
 Perlindungan paling efektif terhadap risiko kesehatan terkait iklim adalah sistem kesehatan yang dapat diakses orang tanpa kehancuran finansial. Cakupan kesehatan universal mengurangi kerentanan karena ia memastikan orang mencari perawatan lebih awal, kondisi kronis terkelola, dan biaya penyakit terkait bencana tidak mendorong rumah tangga ke kemiskinan. Negara dengan sistem layanan primer yang kuat secara konsisten menunjukkan hasil lebih baik dalam bencana daripada negara dengan sistem terfragmentasi berbasis pasar.
@@ -2475,6 +2591,8 @@ Perlindungan paling efektif terhadap risiko kesehatan terkait iklim adalah siste
 Kerangka operasional Organisasi Kesehatan Dunia untuk sistem kesehatan tangguh iklim mengidentifikasi enam blok bangunan: kepemimpinan dan tata kelola, pembiayaan, tenaga kerja, produk medis, sistem informasi, dan penyampaian layanan. Masing-masing harus dinilai untuk risiko iklim dan diperkuat sesuai kebutuhan. Kerangka itu berguna karena menjadikan ketangguhan urusan manajemen rutin alih-alih proyek terpisah.
 
 Pembiayaan adalah kendala pembatas. Celah pembiayaan adaptasi untuk kesehatan besar: Organisasi Kesehatan Dunia memperkirakan negara berpenghasilan rendah dan menengah membutuhkan beberapa miliar dolar per tahun untuk memperkuat sistem kesehatan terhadap risiko iklim, sementara arus aktual hanya sebagian kecil dari itu. Menutup celah itu bukan hanya soal uang; ia soal prioritas, karena kesehatan secara konsisten kurang didanai relatif terhadap kontribusinya bagi kesejahteraan.
+
+Cakupan kesehatan universal adalah strategi adaptasi iklim, meskipun jarang disebut demikian. WHO dan Bank Dunia memperkirakan bahwa sekitar separuh penduduk dunia tidak tercakup penuh layanan kesehatan esensial, dan bahwa pembayaran langsung mendorong sekitar seratus juta orang jatuh miskin setiap tahun. Rumah tangga yang harus memilih antara pengobatan dan pangan setelah bencana adalah rumah tangga yang pemulihannya sudah terkompromi, dan utang yang timbul selama darurat membentuk dekade berikutnya. Perlindungan finansial karena itu bukan domain kebijakan terpisah; ia menentukan apakah sistem kesehatan dapat menyerap guncangan tanpa memindahkannya ke rumah tangga.
 
 ## 17.11 Studi Kasus: Gelombang Panas Eropa 2003
 
@@ -2487,6 +2605,8 @@ Reaksi politiknya keras. Menteri kesehatan Prancis mengundurkan diri, dan pemeri
 Sistem itu tampaknya bekerja. Ketika Eropa mengalami panas ekstrem pada 2022, dengan suhu melebihi 40 °C di beberapa negara, perkiraan kematian sekitar 61.700 — masih sangat tinggi, tetapi jauh lebih rendah daripada 2003 relatif terhadap intensitas dan durasi panas. Analisis oleh Ballester dkk. (2023) mengaitkan penurunan itu dengan kesiapsiagaan, adaptasi, dan kesadaran publik yang lebih baik.
 
 Pelajarannya jelas. Panas adalah peristiwa korban massal yang memerlukan respons kesehatan publik, bukan sekadar peringatan cuaca. Yang paling rentan adalah lanjut usia yang terisolasi, yang membutuhkan penjangkauan aktif alih-alih nasihat umum. Kesiapsiagaan menyelamatkan nyawa bahkan ketika bahayanya memburuk, yang merupakan argumen utama untuk adaptasi. Dan ukuran respons bukan jumlah peringatan yang dikeluarkan tetapi jumlah orang yang dijangkau dan dilindungi.
+
+Gelombang panas Chicago 1995 tetap menjadi kasus kanonis karena mortalitasnya begitu jelas bersifat sosial. Lebih dari tujuh ratus orang meninggal dalam sepekan, dan kematian terkonsentrasi di lingkungan kulit hitam miskin dengan tingkat kejahatan tinggi dan kohesi sosial rendah, sementara kawasan serupa secara demografis dengan jaringan komunitas lebih rapat bertahan lebih baik. Kajian Eric Klinenberg atas peristiwa itu menunjukkan bahwa pembedanya bukan suhu melainkan jumlah orang yang akan menyadari seorang tetangga lanjut usia tidak muncul. Pelajaran bagi sistem kesehatan adalah bahwa mil terakhir respons panas adalah ketukan di pintu, dan tidak ada prakiraan yang menggantikannya.
 
 ## 17.12 Skenario dan Prediksi Masa Depan: Sistem Kesehatan pada 2050
 
@@ -2524,6 +2644,8 @@ Banjir Lembah Ahr adalah kasus tentang tata kelola, bukan meteorologi. Curah huj
 
 Bab ini membahas infrastruktur sosial dan politik untuk bertahan hidup: jaringan yang membantu tetangga, institusi yang mengeluarkan peringatan dan mengorganisasi respons, serta pengaturan tata kelola yang menentukan apakah perlindungan menjangkau orang yang membutuhkannya. Bab ini berargumen bahwa modal sosial dan institusi publik bukan alternatif melainkan saling melengkapi, dan bahwa kualitas tata kelola adalah salah satu prediktor terkuat berapa banyak orang meninggal ketika bahaya melanda.
 
+Respons bencana biasanya dibayangkan sebagai struktur komando, dan dalam praktik ia adalah jaringan. Orang yang menarik tetangga dari reruntuhan, berbagi genset, membuka dapur umum dan menyebarkan peringatan tidak mengikuti bagan komando insiden; mereka bertindak atas hubungan yang sudah ada sebelum peristiwa. Modal sosial adalah aset ketahanan termurah dan paling sulit dibeli, karena ia dihasilkan oleh pergaulan biasa selama bertahun-tahun dan dihancurkan dengan cepat oleh perpindahan, ketakutan dan ketidaksetaraan.
+
 ## 18.1 Modal Sosial sebagai Sumber Daya Bertahan Hidup
 
 Modal sosial merujuk pada jaringan, norma, dan kepercayaan yang memungkinkan orang bertindak bersama. Ia bukan metafora: ia dapat diukur, dan ia memprediksi hasil. Sosiolog membedakan modal perekat, yang menghubungkan orang yang serupa dan dekat, modal penjembatan, yang menghubungkan orang lintas kelompok berbeda, dan modal penghubung, yang menghubungkan warga dengan institusi yang memiliki kekuasaan. Masing-masing berperan berbeda dalam bencana.
@@ -2531,6 +2653,8 @@ Modal sosial merujuk pada jaringan, norma, dan kepercayaan yang memungkinkan ora
 Modal perekat memberikan bantuan segera: tetangga yang memeriksa warga lanjut usia, keluarga yang berbagi air, jemaah yang membuka aula. Modal penjembatan memberikan akses ke sumber daya di luar lingkaran langsung: kelompok komunitas yang tahu cara mengajukan bantuan, jaringan yang dapat memobilisasi relawan. Modal penghubung menentukan apakah komunitas dapat memengaruhi institusi yang memutuskan di mana tanggul dibangun dan siapa yang menerima kompensasi.
 
 Daniel Aldrich, dalam rangkaian studi tentang pemulihan bencana di Jepang, India, dan Amerika Serikat, menemukan bahwa modal sosial memprediksi pemulihan lebih baik daripada pendapatan, kerusakan, atau belanja pemerintah. Komunitas dengan jaringan padat pulih lebih cepat karena mereka dapat berbagi informasi, mengalokasikan sumber daya, dan menuntut akuntabilitas institusi. Temuan itu penting karena menunjukkan bahwa ketangguhan tidak hanya dibeli dengan uang; ia juga dibangun melalui hubungan.
+
+Konsepnya memiliki sejarah panjang dan diperdebatkan. Pierre Bourdieu memperlakukan modal sosial sebagai sumber daya yang dimobilisasi individu untuk mereproduksi keuntungan; Robert Putnam memperlakukannya sebagai sifat komunitas, diukur melalui partisipasi dalam asosiasi dan kepercayaan pada tetangga. Pembeda antara modal perekat, yang menghubungkan orang yang serupa, modal penjembatan, yang menghubungkan orang melintasi perbedaan, dan modal penghubung, yang menghubungkan komunitas dengan institusi, adalah bagian paling berguna dari kerangka ini untuk kerja kebencanaan. Modal perekat membawa orang melewati malam pertama; modal penjembatan membuka akses ke sumber daya di luar kelompoknya sendiri; modal penghubung menentukan apakah bantuan benar-benar tiba.
 
 ## 18.2 Bukti: Lingkungan dan Peluang Bertahan
 
@@ -2540,6 +2664,8 @@ Mekanismenya sosial, bukan fisiologis. Warga lanjut usia di Little Village dikun
 
 Temuan serupa muncul dalam studi tentang banjir, badai, dan kebakaran hutan. Isolasi sosial secara konsisten terkait dengan kematian yang lebih tinggi, dan kohesi lingkungan dengan kematian yang lebih rendah. Implikasi kebijakannya adalah program yang membangun koneksi — pusat komunitas, asosiasi lingkungan, jaringan relawan, penjangkauan warga terisolasi — adalah bentuk kesiapsiagaan bencana, bahkan ketika tidak dibingkai demikian.
 
+Kasus empirisnya paling kuat justru di tempat yang paling mengejutkan. Kajian Daniel Aldrich atas gempa Kobe 1995 menemukan bahwa kekuatan ikatan sosial lingkungan memprediksi pemulihan sekuat kerusakan fisik hunian, dan karyanya kemudian di Jepang, India dan Amerika Serikat mereproduksi temuan itu: komunitas dengan jaringan lebih padat pulih lebih cepat, terlepas dari pendapatan dan belanja pemerintah. Mekanismenya tidak misterius. Tetangga berbagi informasi, meminjamkan alat, mengawasi anak, dan mengadvokasi satu sama lain di hadapan lembaga, dan setiap tindakan itu menggantikan layanan formal yang sedang kewalahan.
+
 ## 18.3 Gotong Royong dan Respons Relawan
 
 Ketika sistem formal kewalahan, orang mengorganisasi diri. Setelah Badai Katrina, Cajun Navy — jaringan longgar relawan dengan perahu — menyelamatkan ribuan orang dari lingkungan yang tergenang. Setelah Badai Sandy, Occupy Sandy mengorganisasi relawan untuk mengirim pasokan ke wilayah yang belum dijangkau bantuan resmi. Setelah gempa Mexico City 2017, brigade sipil yang dikenal sebagai topos menggali korban dari puing sebelum tim profesional tiba.
@@ -2547,6 +2673,8 @@ Ketika sistem formal kewalahan, orang mengorganisasi diri. Setelah Badai Katrina
 Gotong royong paling efektif ketika terhubung dengan sistem formal alih-alih menggantikannya. Relawan mengetahui kondisi lokal dan dapat bergerak lebih cepat, tetapi mereka kurang peralatan, pelatihan, dan kapasitas koordinasi. Hasil terbaik terjadi ketika lembaga formal menciptakan ruang bagi relawan, menyediakan informasi dan logistik, dan menghindari memperlakukan mereka sebagai ancaman terhadap komando dan kendali.
 
 Banjir Kerala 2018 menggambarkan poin itu. Pemerintah negara bagian memobilisasi komunitas nelayan, yang perahu dan pengetahuannya tentang perairan lokal sangat penting untuk menyelamatkan orang dari wilayah tergenang. Kolaborasi itu berhasil karena pemerintah mengakui nelayan sebagai mitra dan menyediakan bahan bakar, koordinasi, serta informasi. Itu bukan harmoni spontan; itu kerja sama yang terorganisasi.
+
+Bantuan timbal balik adalah praktik yang mengubah modal sosial menjadi pertolongan nyata, dan biasanya lebih efektif daripada yang diakui. Selama banjir Kerala 2018, komunitas nelayan memakai perahu mereka untuk menyelamatkan ribuan orang sebelum tim resmi dapat menjangkau mereka; selama bencana Tōhoku 2011, relawan dan organisasi lokal mendistribusikan pangan lebih cepat daripada sistem kotamadya; setelah Badai Sandy, jaringan bantuan gerakan Occupy mengungguli beberapa lembaga pada pekan pertama. Masalahnya juga nyata: relawan membanjiri tempat yang salah, menggandakan upaya, dan tidak punya asuransi serta koordinasi, sehingga praktik terbaiknya adalah membiayai dan mengintegrasikan kelompok yang sudah ada alih-alih memformalkannya ke dalam respons.
 
 ## 18.4 Rantai Peringatan dan Mil Terakhir
 
@@ -2556,6 +2684,8 @@ Mil terakhir adalah yang paling sulit. Bahkan ketika peringatan dikeluarkan, ia 
 
 Kepercayaan menentukan apakah pesan dipercaya. Komunitas yang pernah mengalami peringatan akurat lebih mungkin merespons peringatan berikutnya; komunitas yang pernah diabaikan atau disesatkan lebih kecil kemungkinannya. Membangun kepercayaan memerlukan konsistensi, keterbukaan tentang ketidakpastian, dan tindak lanjut yang terlihat. Ia lambat dibangun dan cepat hilang, itulah sebabnya ia termasuk kategori yang sama dengan infrastruktur fisik.
 
+Rantai peringatan hanya sekuat mata rantai terakhirnya, dan mata rantai terakhir adalah manusia yang memutuskan bergerak. Tsunami Samudra Hindia 2004 menewaskan sekitar 230.000 orang karena tidak ada sistem peringatan, tetapi gempa dan tsunami Sulawesi 2018 menewaskan ribuan orang di negara yang memilikinya, karena peringatan tidak menjangkau orang yang tepat pada waktu yang tepat dan sirene telah rusak. Studi perilaku evakuasi menemukan bahwa orang bertindak atas peringatan ketika ia dikonfirmasi oleh seseorang yang dipercaya, ketika mereka tahu ke mana harus pergi, dan ketika rutenya dapat dilalui — tiga syarat yang bersifat sosial dan fisik, bukan semata teknis.
+
 ## 18.5 Institusi, Kepercayaan dan Tata Kelola Risiko
 
 Kualitas pemerintah adalah salah satu penentu terkuat hasil bencana. Negara dengan birokrasi efektif, layanan darurat yang didanai baik, dan pengadaan yang jujur mengalami lebih sedikit kematian dan pulih lebih cepat daripada negara dengan paparan bahaya yang sama dan institusi yang lebih lemah. Kontras antara gempa Haiti dan Chile 2010 sering dikutip: gempa berkekuatan 7,0 di Haiti menewaskan lebih dari 200.000 orang, sementara gempa berkekuatan 8,8 di Chile tiga pekan kemudian menewaskan sekitar 500 orang, sebagian besar karena standar bangunan, kesiapsiagaan, dan kapasitas respons.
@@ -2563,6 +2693,8 @@ Kualitas pemerintah adalah salah satu penentu terkuat hasil bencana. Negara deng
 Kepercayaan penting karena kepatuhan bergantung padanya. Orang yang memercayai peringatan resmi lebih mungkin mengungsi, menerima pembatasan, dan bekerja sama dengan bantuan. Kepercayaan dibangun melalui kompetensi, kejujuran, dan keadilan, dan dirusak oleh kegagalan, pertentangan, serta kesan pilih kasih. Pandemi menggambarkan seberapa cepat kepercayaan dapat terkikis ketika pesannya tidak konsisten, dan seberapa mahal erosi itu.
 
 Tata kelola risiko memerlukan koordinasi lintas tingkat dan sektor. Rencana panas melibatkan kesehatan, meteorologi, layanan sosial, utilitas, dan masyarakat sipil; rencana banjir melibatkan pengelolaan air, tata guna lahan, layanan darurat, dan infrastruktur. Modus kegagalannya adalah fragmentasi, ketika setiap lembaga mengoptimalkan mandatnya sendiri dan tidak ada yang bertanggung jawab atas keseluruhan. Tata kelola yang efektif menetapkan tanggung jawab yang jelas, menyediakan sumber daya, dan menuntut koordinasi.
+
+Kepercayaan adalah variabel yang menentukan apakah peringatan menjadi tindakan. Riset survei tentang tata kelola risiko secara konsisten menemukan bahwa kepercayaan pada otoritas memprediksi perilaku protektif lebih kuat daripada akurasi informasi, dan bahwa satu pengkhianatan yang dirasakan dapat membatalkan bertahun-tahun komunikasi yang kredibel. Mekanismenya bekerja dua arah: populasi yang percaya pada institusinya mematuhi bahkan nasihat yang tidak sempurna, dan populasi yang tidak percaya tidak mematuhi bahkan ketika nasihatnya benar. Membangun kembali kepercayaan setelah kegagalan — peringatan yang terlewat, evakuasi yang tertunda, dana bantuan yang tidak tiba — adalah kerja lambat yang dimulai dengan mengakui kegagalan.
 
 ## 18.6 Desentralisasi dan Kapasitas Lokal
 
@@ -2572,6 +2704,8 @@ Undang-Undang Desa Indonesia, yang memberikan anggaran dan kewenangan besar kepa
 
 Pertanyaan desainnya adalah bagaimana membangun kapasitas lokal tanpa menciptakan penguasaan lokal. Itu memerlukan anggaran transparan, perencanaan partisipatif, audit eksternal, dan dukungan dari tingkat pemerintahan yang lebih tinggi. Itu juga memerlukan waktu, karena institusi berkembang melalui praktik. Desentralisasi yang dimulai lima tahun sebelum bencana tidak mungkin menghasilkan institusi yang mampu pada saat bencana tiba.
 
+Desentralisasi memindahkan keputusan lebih dekat ke orang yang menanggung konsekuensinya, dan ia juga memindahkan masalah kapasitas lebih dekat kepada mereka. Dana Desa di Indonesia, yang mengalokasikan sekitar satu miliar rupiah per desa setiap tahun, memberi komunitas anggaran untuk drainase, jalan dan kesiapsiagaan yang sebelumnya hanya ada di atas kertas, dan ia menghasilkan variasi besar dalam seberapa baik uang itu dipakai. Pelajarannya bukan bahwa desentralisasi gagal, melainkan bahwa ia membutuhkan pelengkap yang tidak glamor: nasihat teknis lokal, penganggaran transparan, dan cara mengaudit belanja yang tidak bergantung pada kementerian jauh.
+
 ## 18.7 Korupsi, Penguasaan Elite dan Rekonstruksi
 
 Bencana menciptakan arus uang besar, dan arus uang besar menciptakan peluang korupsi. Kontrak rekonstruksi, distribusi bantuan, dan transaksi tanah semuanya rentan. Dalam beberapa kasus, hasilnya adalah bantuan tidak menjangkau korban; dalam kasus lain, bantuan menjangkau mereka dalam bentuk yang lebih buruk, dengan bangunan yang gagal pada peristiwa berikutnya.
@@ -2579,6 +2713,8 @@ Bencana menciptakan arus uang besar, dan arus uang besar menciptakan peluang kor
 Penguasaan elite adalah masalah yang lebih halus. Bantuan dan rekonstruksi dapat memperkuat ketimpangan yang ada jika orang yang mengendalikan distribusi juga mengendalikan akses ke informasi, tanah, dan kredit. Perampasan tanah pascabencana telah didokumentasikan di beberapa negara, terutama di tempat kepemilikan tanah bersifat informal sebelum peristiwa. Perempuan, penyewa, dan warga informal sering paling terpapar dinamika ini.
 
 Penawarnya adalah transparansi. Menerbitkan daftar penerima manfaat, pemberian kontrak, dan data belanja memungkinkan komunitas dan jurnalis menuntut akuntabilitas institusi. Audit independen, pemantauan komunitas, dan mekanisme pengaduan dapat menangkap masalah lebih awal. Tidak satu pun cukup sendiri, tetapi bersama-sama mereka membuat korupsi lebih sulit dan lebih terlihat, yang sering cukup untuk mengubah perilaku.
+
+Rekonstruksi bencana adalah salah satu aktivitas paling rawan korupsi yang dilakukan negara, karena ia menggabungkan anggaran besar, pengadaan darurat, pengawasan lemah dan populasi yang tidak bisa menunggu. Studi tentang rekonstruksi pascabencana telah mendokumentasikan tingkat kebocoran seperlima atau lebih dalam beberapa program, dan kerugiannya bukan hanya finansial: sekolah yang dibangun dengan beton di bawah standar adalah korban di masa depan. Setelah tsunami 2004, upaya rekonstruksi Aceh, salah satu yang terbesar yang pernah dijalankan, memperlihatkan sekaligus besarnya risiko dan nilai pemantauan independen, daftar penerima yang terbuka dan audit komunitas dalam menguranginya.
 
 ## 18.8 Pembiayaan Risiko Bencana dan Akuntabilitas
 
@@ -2588,6 +2724,8 @@ Caribbean Catastrophe Risk Insurance Facility, yang didirikan pada 2007, adalah 
 
 Akuntabilitas adalah sisi lain pembiayaan. Pemerintah yang menerima dana adaptasi dan bantuan harus diwajibkan melaporkan bagaimana dana itu dibelanjakan, dan parlemen, lembaga audit, serta masyarakat sipil harus memiliki kapasitas untuk memeriksanya. Tanpa akuntabilitas, pembiayaan dapat diserap tanpa mengurangi risiko, yang merupakan salah satu alasan mengapa korelasi antara bantuan yang diterima dan ketangguhan yang dicapai lebih lemah daripada seharusnya.
 
+Pembiayaan risiko bencana adalah upaya memindahkan biaya malapetaka dari pascakejadian ke instrumen yang dapat diprediksi. Kumpulan risiko berdaulat, seperti Caribbean Catastrophe Risk Insurance Facility dan African Risk Capacity, menjual perlindungan parametrik yang membayar ketika pemicu terukur terpenuhi — kecepatan angin, curah hujan, magnitudo gempa — alih-alih setelah penilaian kerugian. Keunggulannya kecepatan; kelemahannya risiko basis, karena pemicu mungkin tidak sesuai kerusakan, meninggalkan pemerintah dengan pembayaran yang tidak menutup kebutuhan atau tanpa pembayaran meski kerugian berat. Asuransi melengkapi cadangan dan perlindungan sosial; ia tidak menggantikannya.
+
 ## 18.9 Kerja Sama Regional dan Internasional
 
 Bahaya iklim tidak mengenal batas. Badai melintasi garis pantai, sungai mengalir lintas negara, dan pengungsian meluap melewati perbatasan. Kerja sama regional dapat memperbaiki peringatan dini, berbagi sumber daya, dan mengoordinasikan respons. Pusat Koordinasi ASEAN untuk Bantuan Kemanusiaan dalam Penanggulangan Bencana (AHA Centre) adalah contoh: ia memelihara persediaan, mengoordinasikan respons regional, dan mendukung negara anggota selama darurat.
@@ -2596,6 +2734,8 @@ Kerja sama internasional paling efektif ketika mendukung institusi lokal alih-al
 
 Pembiayaan iklim juga merupakan bentuk tata kelola. Komitmen negara kaya untuk menyediakan US$100 miliar per tahun dalam pembiayaan iklim telah dipenuhi terlambat dan tidak merata, dan porsi adaptasi tetap jauh di bawah kebutuhan negara rentan. Celah itu bukan hanya soal uang; ia soal kepercayaan, karena negara yang berjanji dan tidak menepati memiliki kredibilitas lebih rendah ketika meminta kerja sama dalam emisi.
 
+Kerja sama regional penting karena bahaya tidak menghormati perbatasan dan karena negara kecil tidak dapat memikul biayanya sendiri. Perjanjian ASEAN tentang Penanggulangan Bencana dan Respons Darurat membentuk kerangka respons bersama dan pengaturan pasokan bantuan siaga, meskipun aktivasinya terbatas oleh prinsip non-intervensi asosiasi. Kerangka Sendai, yang diadopsi pada 2015, mengalihkan perhatian global dari respons bencana ke pengurangan risiko dan menetapkan target untuk mortalitas, populasi terdampak dan kerugian ekonomi, tetapi indikatornya bergantung pada pelaporan nasional yang tidak merata kualitas dan cakupannya.
+
 ## 18.10 Tata Kelola Polisentris dan Pembelajaran
 
 Tidak ada institusi tunggal yang dapat mengelola risiko iklim. Sistem paling efektif bersifat polisentris: banyak pusat pengambilan keputusan, terhubung oleh aturan dan informasi, masing-masing mampu bertindak dalam domainnya. Karya Elinor Ostrom tentang pengelolaan sumber daya bersama menunjukkan bahwa komunitas dapat mengelola sumber daya bersama secara efektif ketika mereka memiliki batas yang jelas, aturan yang sesuai kondisi lokal, dan mekanisme pilihan kolektif.
@@ -2603,6 +2743,8 @@ Tidak ada institusi tunggal yang dapat mengelola risiko iklim. Sistem paling efe
 Sistem polisentris tangguh karena tidak bergantung pada satu titik kegagalan. Jika lembaga nasional lambat, kota dapat bertindak; jika kota dikuasai elite, kelompok komunitas dapat mengorganisasi. Tetapi polisentrisme bukan anarki: ia memerlukan koordinasi, informasi bersama, dan akuntabilitas. Tantangannya adalah merancang sistem yang memungkinkan inisiatif lokal sekaligus memastikan yang paling rentan tidak tertinggal.
 
 Pembelajaran adalah persyaratan terakhir. Institusi yang memperlakukan setiap bencana sebagai pelajaran, menyelidiki apa yang terjadi, dan mengubah prosedurnya lebih tangguh daripada yang tidak. Penyelidikan banjir Lembah Ahr menghasilkan pengenalan peringatan siaran seluler di Jerman; penyelidikan Badai Katrina menghasilkan reformasi manajemen darurat. Pembelajaran memerlukan kemauan politik untuk menerima kritik, yang sering langka ketika kesalahan dipertaruhkan.
+
+Gagasan yang paling menggambarkan cara kerja ketahanan sebenarnya adalah tata kelola polisentris, yang dikembangkan Elinor Ostrom: banyak pusat pengambilan keputusan, secara formal independen, yang menyesuaikan diri melalui pembelajaran timbal balik alih-alih melalui satu hierarki. Sistem polisentris lebih berantakan daripada sistem komando dan lebih adaptif, karena kegagalan di satu simpul tidak merambat ke semua. Implikasi desainnya bukan menghapus otoritas pusat melainkan memastikan rumah tangga, lingkungan, kotamadya, provinsi dan lembaga nasional masing-masing memiliki kapasitas nyata dan batas yang jelas, dan bahwa informasi mengalir di antara mereka dalam dua arah.
 
 ## 18.11 Studi Kasus: Banjir Lembah Ahr, Jerman 2021
 
@@ -2615,6 +2757,8 @@ Kegagalan tersebar di seluruh rantai. Prakiraan tersedia tetapi tidak diterjemah
 Respons setelah peristiwa besar. Penyelidikan dilakukan, tanggung jawab diperjelas, dan sistem peringatan diperbaiki. Banjir itu menjadi titik rujukan kebijakan bencana Jerman, dan ia mengubah harapan publik tentang peringatan dan kesiapsiagaan. Pelajarannya bukan bahwa Jerman kekurangan kapasitas; pelajarannya adalah kapasitas harus diorganisasi menjadi rantai yang menjangkau rumah tangga terakhir.
 
 Bagi negara lain, pelajarannya spesifik. Peringatan harus spesifik dan dapat ditindaklanjuti, bukan sekadar meteorologis. Banyak saluran harus digunakan, termasuk yang tidak bergantung pada listrik atau internet. Pejabat lokal memerlukan wewenang dan pelatihan yang jelas untuk memerintahkan evakuasi. Dan publik harus diedukasi tentang apa arti peringatan, agar peringatan tidak diabaikan sebagai hal rutin. Masing-masing adalah tugas tata kelola, bukan tugas teknologi.
+
+Demonstrasi paling jelas modal sosial dalam bencana modern adalah perbandingan antara Badai Katrina 2005 dan respons banjir Louisiana 2016. Pada kedua peristiwa sistem formal kewalahan, tetapi di Louisiana 'Cajun Navy' — armada longgar pemilik perahu swasta yang dikoordinasikan melalui media sosial — menyelamatkan ribuan orang pada hari-hari pertama. Kelompok itu bukan pengganti layanan publik, dan kehadirannya yang tidak diatur menciptakan masalah koordinasi. Namun ia adalah ungkapan temuan yang berjalan sepanjang bab ini: kapasitas merespons tersebar di dalam populasi jauh sebelum ia diorganisasi menjadi sebuah lembaga.
 
 ## 18.12 Skenario dan Prediksi Masa Depan: Tata Kelola pada 2050
 

@@ -1892,6 +1892,8 @@ Texas is a wealthy jurisdiction with a modern grid, and that is the point. The f
 
 This chapter examines the built environment as a climate problem. It looks at housing, power, water, transport, hospitals and schools, and at the standards, financing and maintenance regimes that determine whether they survive a shock. It pays particular attention to the interdependence of systems, because the failure of one often causes the failure of others, and to the question of who pays for resilience when the benefits accrue over decades.
 
+Engineering codes are written as if the climate of the twentieth century will continue, and that assumption is now the largest unrecorded liability on the world's balance sheet. A structure designed for a rainfall intensity that has a one-in-fifty chance of being exceeded in any year will see its design storm arrive far more often as the distribution shifts. The failure is not usually dramatic collapse; it is a bridge that closes for repairs, a substation that floods twice a decade, a housing estate whose drainage was adequate when it was built and is not adequate now.
+
 ## 13.1 Infrastructure and the Assumption of a Stationary Climate
 
 Engineering design is based on statistics: the 100-year flood, the 50-year wind, the design temperature that is exceeded on a handful of days each year. Those statistics are derived from historical records and assume that the climate is stationary — that the future will resemble the past. Climate change violates that assumption, which means that infrastructure designed to the old statistics is being asked to perform in conditions it was never intended to withstand.
@@ -1899,6 +1901,8 @@ Engineering design is based on statistics: the 100-year flood, the 50-year wind,
 The consequences are visible in every sector. Roads buckle in heat that exceeds the softening point of asphalt; rail tracks expand and derail; power lines sag and transformers overheat; bridges are scourged by floods larger than the design flow; drainage systems are overwhelmed by rainfall intensities that were once rare. The failures are not caused by poor engineering in the original design; they are caused by the moving baseline against which the design was calibrated.
 
 Adapting infrastructure requires updating the statistics and the standards that depend on them. Some countries have begun to do this: the Netherlands has revised its flood protection standards to account for sea level rise; the United Kingdom has updated its rainfall projections for drainage design; and several cities have raised their design temperatures for roads and rail. But the updates are slow, uneven and often voluntary, and the infrastructure that is already built cannot be redesigned overnight.
+
+The phrase that organises this field was written by Milly and colleagues in 2008: stationarity is dead, and water management must stop assuming that the past is a sufficient guide to the future. Their argument was technical rather than apocalyptic. Reservoir yield, flood frequency, and spillway capacity are all calculated from historical records, and those records no longer describe the distribution from which the next decade will draw. Where engineers once had a century of stable statistics, they now have a moving target, and the profession has responded slowly because the alternative — assigning probabilities to a climate that is being actively changed — is expensive and politically awkward.
 
 ## 13.2 Housing and Shelter
 
@@ -1908,6 +1912,8 @@ Informal settlements are the most vulnerable. About one billion people live in s
 
 In high-income countries, the problem is often the age of the stock and the location of the housing. Buildings constructed before modern codes may lack insulation, cooling, flood protection or fire resistance, and retrofitting them is expensive. Housing in floodplains and on coastlines is exposed to hazards that were underestimated when it was built. The result is that the same storm produces very different losses in different neighbourhoods, and that the differences track income and race.
 
+Housing is where the abstraction becomes flesh. UN-Habitat estimates that around 1.1 billion people live in informal settlements, and the great majority of those dwellings were built without engineering review of any kind. Building codes, where they exist, govern the formal sector; they do not govern the self-built city that houses a quarter of urban humanity. The 2023 Türkiye–Syria earthquakes killed more than fifty thousand people, and the subsequent investigations concentrated on the gap between what the code required and what was actually poured into the formwork, including thousands of buildings regularised under successive construction amnesties.
+
 ## 13.3 Power Systems
 
 Electricity is the backbone of modern infrastructure: hospitals, water treatment, communications, transport and food refrigeration all depend on it. Power systems are also vulnerable to climate in several ways. Heat reduces the efficiency of thermal plants and the capacity of transmission lines; drought reduces hydropower output and the water available for cooling; storms damage lines and substations; and floods inundate equipment that was built at ground level.
@@ -1915,6 +1921,8 @@ Electricity is the backbone of modern infrastructure: hospitals, water treatment
 The Texas failure in 2021 is the most studied example in a high-income country. The grid was designed for summer peaks, and the winter storm exposed the absence of weatherisation, the dependence on gas supply that froze at the wellhead, and the lack of interconnection with the rest of the country. The failure was compounded by the water system: pumps lost power, pipes burst, and the loss of water pressure created a public health emergency that lasted for days after the power returned.
 
 The solutions are known. Weatherising generators and fuel supply, burying or reinforcing lines, diversifying generation, improving forecasting, and connecting grids so that surplus power can flow from one region to another all reduce risk. The obstacle is cost and incentives: the benefits of resilience accrue over decades and are difficult to attribute to any single decision, while the costs are immediate and visible. Markets that reward the cheapest electricity often fail to reward reliability, which is why regulation is needed.
+
+Power systems fail in ways that are socially stratified. When Winter Storm Uri pushed Texas temperatures below minus ten degrees Celsius in February 2021, more than four million customers lost power, and the deaths that followed — by the official count, several hundred — were concentrated among people who could not afford to leave, could not afford generators, and lived in poorly insulated housing. The grid itself was built for a climate that rarely produced sustained freezing, and its isolated design prevented imports from neighbouring interconnections. Reliability standards written for normal weather became a mechanism for distributing risk downward.
 
 ## 13.4 Water and Sanitation Systems
 
@@ -1924,6 +1932,8 @@ Floods are the most visible threat. They inundate treatment plants, contaminate 
 
 Resilience requires redundancy and diversification. Multiple sources, interconnected networks, backup power, storage and treatment that can operate under variable conditions all reduce the risk of failure. So does demand management: reducing losses in the distribution network, which average about 30 per cent globally, is often cheaper than developing new supply. The case of Windhoek, Namibia, which has recycled wastewater into drinking supply since 1968, shows that diversification can secure a city in an arid region.
 
+Water systems lose more than they deliver. The World Bank estimates that non-revenue water — treated water that never reaches a paying customer — accounts for roughly a third of supply in developing-country utilities, and the losses are both a financial drain and a resilience failure, because a system already leaking a third of its input has no reserve when a source fails. Cape Town's approach to Day Zero in 2018 showed the opposite possibility: a city of four million cut consumption by more than half in three years through tariffs, pressure management and public reporting, and the crisis was deferred rather than suffered. Maintenance is cheaper than emergency.
+
 ## 13.5 Transport and Supply Chains
 
 Transport networks are exposed to heat, flood, wind and coastal erosion. Roads soften and crack in extreme heat; rail tracks buckle; bridges are scourged by floods; ports are closed by storms; and airports are affected by heat that reduces air density and requires longer runways or reduced payloads. The failures are individually manageable, but they accumulate across a network and can isolate communities for days.
@@ -1931,6 +1941,8 @@ Transport networks are exposed to heat, flood, wind and coastal erosion. Roads s
 Supply chains depend on the same networks. A flood that closes a road can prevent food from reaching a city; a heatwave that closes a rail line can delay coal deliveries; a storm that closes a port can disrupt imports for weeks. The 2011 Thailand floods showed how a single node in a global supply chain can affect production on other continents, and the 2021 Texas storm showed how a failure of power can cascade into water, health and transport failures.
 
 Resilience measures include raising and waterproofing critical links, building alternate routes, improving drainage, and diversifying suppliers. The most cost-effective measures are often organisational rather than physical: better forecasting, pre-positioned supplies, and contingency plans that have been tested. The problem is that these measures are rarely visible, and therefore rarely funded, until a failure occurs.
+
+Transport networks carry the signature of the climate they were built for. In November 2021, atmospheric rivers in British Columbia washed out sections of the Trans-Canada Highway and both national rail lines, severing Vancouver from the rest of Canada for weeks and forcing rationing of fuel and food. In 2022, low water on the Rhine forced barges to load at a fraction of capacity, raising the cost of coal and chemicals across Germany. In 2023 and 2024, drought restrictions at the Panama Canal cut daily transits, and shipping rerouted around Africa. Each event was local; each propagated through prices and schedules across continents.
 
 ## 13.6 Hospitals, Schools and Critical Facilities
 
@@ -1940,6 +1952,8 @@ The record is poor. Hospitals are often located in floodplains, built to standar
 
 Schools are equally important. They are shelters during emergencies, they provide continuity for children, and they are often the buildings with the largest community function. A school that is unusable for months after a flood disrupts education and forces families to choose between work and childcare. Building schools to higher standards, using them as designated shelters, and equipping them with water, power and communications are relatively cheap interventions with large returns.
 
+Hospitals are the clearest case of a facility that must function precisely when its surroundings do not. When Hurricane Maria struck Puerto Rico in 2017, hospitals ran on generators for months, and the island's pharmaceutical manufacturing — a substantial share of United States consumption of certain intravenous solutions — was disrupted for even longer. During the 2021 floods in Germany's Ahr valley, care homes and hospitals were evacuated in the dark. The design lesson is old and repeatedly unlearned: backup power, water, oxygen and communications must be sized for the duration of the disruption, not for the duration of the commissioning test.
+
 ## 13.7 Resilient Design and Retrofitting
 
 Resilient design begins with siting: avoiding floodplains, steep slopes and exposed coastlines is cheaper than defending them. It continues with form and materials: raised floors, reflective roofs, shading, cross-ventilation, reinforced connections and flood-resistant materials all reduce vulnerability. And it depends on redundancy: backup power, water storage, multiple exits and alternate routes.
@@ -1947,6 +1961,8 @@ Resilient design begins with siting: avoiding floodplains, steep slopes and expo
 Retrofitting existing buildings is harder and more expensive than building new ones well. Insulation, shading, roof reinforcement, elevated mechanical equipment and flood barriers can be added, but the cost may exceed the value of the building, particularly in low-income housing. The result is that retrofitting is often targeted at public buildings and at households that can afford it, leaving the poorest exposed.
 
 The economics of resilient design are favourable when the full lifecycle is considered. A study by the World Bank and the Global Facility for Disaster Reduction and Recovery found that every dollar invested in resilience saves about four dollars in future losses, and that the ratio is higher for infrastructure than for post-disaster reconstruction. The problem is that the savings accrue to future budgets and future governments, while the costs are borne now, which is why resilience is systematically underfunded.
+
+Retrofitting is usually presented as a cost, and the evidence presents it as a return. A series of studies by the National Institute of Building Sciences in the United States found that each dollar spent on hazard mitigation through federal grants saved society roughly six dollars in future losses, with ratios above ten to one for riverine flood protection and seismic retrofitting in high-risk areas. Those figures exclude the disruption that never happens and the lives that continue, which is precisely why governments underinvest: the benefit is invisible, distributed across decades, and accrues to people who did not pay for it.
 
 ## 13.8 Decentralised Systems and Microgrids
 
@@ -1956,6 +1972,8 @@ The technology has become cheaper and more reliable. Solar panels and batteries 
 
 The barriers are regulatory and financial rather than technical. Utilities may resist distributed generation because it reduces their revenue; regulations may not allow local grids to sell power; and financing may not be available for small projects. The communities that would benefit most are often those with the least access to capital, which is why public investment and concessional finance are needed to make decentralised resilience available to the poor.
 
+Decentralisation is not a moral position; it is an engineering trade-off. A microgrid that can island itself keeps a clinic lit when the transmission network collapses, but it also multiplies the number of assets that must be maintained and the number of people who must be trained. Bangladesh's solar home programme, which installed more than four million systems through the Infrastructure Development Company Limited, demonstrated that distributed hardware can reach households no grid would reach for a generation; it also demonstrated the difficulty of collecting fees and replacing batteries a decade later. Scale and resilience pull in different directions.
+
 ## 13.9 Maintenance, Finance and the Build-Neglect-Rebuild Cycle
 
 The most common cause of infrastructure failure is not a design flaw but a maintenance deficit. Bridges corrode, drains silt up, pumps wear out, and levees settle. The deficit accumulates slowly and invisibly, and it is revealed only when an event tests the system. By then, the cost of repair is much higher than the cost of maintenance would have been.
@@ -1964,6 +1982,8 @@ The build-neglect-rebuild cycle is a political economy problem. Building new inf
 
 Breaking the cycle requires institutions that make maintenance visible and fundable: asset registers, lifecycle budgets, performance contracts and independent audits. Some countries have created dedicated maintenance funds and require utilities to report on service quality, which has improved performance. The principle is simple: resilience is not a project but a practice, and it must be budgeted every year.
 
+The build-neglect-rebuild cycle is a political economy, not an accident. New construction produces a ribbon and a photograph; maintenance produces nothing visible and therefore loses every budget negotiation. The American Society of Civil Engineers has graded United States infrastructure at roughly a C for two decades and estimated a multi-trillion dollar backlog of deferred work. The consequence is that assets fail earlier than their design life, and the failure is then attributed to the weather rather than to the thirty years of skipped inspections, replaced seals and unpainted steel that preceded it.
+
 ## 13.10 Codes, Standards and Governance
 
 Building codes and engineering standards are the most powerful instruments for infrastructure resilience, because they determine what is built before any individual decision is made. A code that requires flood-resistant foundations, wind-resistant roofs and heat-resistant materials shapes millions of buildings over decades. A code that is not enforced shapes nothing.
@@ -1971,6 +1991,8 @@ Building codes and engineering standards are the most powerful instruments for i
 Enforcement is the weak link. In many countries, codes exist but are not applied, particularly in informal construction and in small projects. Inspectors may be underfunded or corrupt; builders may lack the skills to comply; and homeowners may not know the standards. The result is a gap between the code on paper and the building on the ground, which is often widest where the risk is highest.
 
 Governance determines whether standards are updated as the climate changes. That requires institutions that monitor hazards, revise codes, train professionals and enforce compliance, and it requires a political system that is willing to impose costs on developers and homeowners for benefits that may not be visible for years. The countries that do this well tend to have strong professional bodies, well-funded regulators and a public that understands the risk. The countries that do it poorly tend to discover the gap only after a disaster.
+
+Codes are only as strong as their enforcement, and enforcement is where the gap between law and building opens. After the 2010 Haiti earthquake, and again after Türkiye in 2023, investigators found that the technical standards on paper were broadly adequate and that the buildings which killed people had not followed them. The remedies are unglamorous: independent inspection, licensing of engineers, liability that survives bankruptcy, and public registers of what was built and to which standard. A code without inspection is a statement of intent.
 
 ## 13.11 Case Study: The Texas Grid Failure of 2021
 
@@ -1983,6 +2005,8 @@ The human cost was concentrated among the vulnerable. At least 210 people died, 
 The economic cost was about US$195 billion, making it the costliest disaster in Texas history. Insured losses were a fraction of that, because much of the damage was uninsured. The political aftermath was intense: the grid operator's leadership resigned, the state legislature required weatherisation of generating facilities, and the federal regulator recommended that the state connect its grid to the rest of the country, a recommendation that has not been implemented.
 
 The case illustrates three lessons. First, infrastructure failures are systemic: the power failure became a water failure, which became a health failure, which became a housing failure. Second, design standards matter: a grid designed for summer failed in winter, not because the engineers were incompetent but because the assumptions were incomplete. Third, the costs of failure are borne disproportionately by the poor, even in a wealthy jurisdiction. The same lessons apply in countries with far less capacity to respond.
+
+The reconstruction of New Orleans after Hurricane Katrina is the most studied case of infrastructure rebuilt under a changed risk assumption. The levee system was rebuilt to a one-in-one-hundred-year standard, a level of protection that engineers had already described as inadequate before the storm, and the city's population has still not returned to its pre-2005 level. The lesson is not that the engineering failed — the new works performed as designed — but that protection defined by a return period cannot settle the question of how much risk a community is willing to inhabit.
 
 ## 13.12 Future Scenarios and Predictions: Infrastructure in 2050
 
@@ -2020,6 +2044,8 @@ Climate literacy is not the same as climate science. It includes understanding t
 
 This chapter examines what climate literacy is, what the evidence says about how much of it exists, and how it can be taught. It pays particular attention to the difference between information and understanding, to the role of teachers, and to the risk that climate education becomes either indoctrination or a superficial ritual. It closes with the question of how to measure whether education is working, which is harder than it sounds.
 
+Climate literacy is often measured by what people can recall, and that measurement is the least useful thing about it. A farmer who cannot define radiative forcing but knows which month the rains now arrive has functional knowledge that no multiple-choice test captures. The field has therefore shifted from counting correct answers to asking whether people can act, judge sources, and recognise when a claim is being sold to them. That shift matters for policy, because the interventions which raise test scores are not always the interventions which change behaviour.
+
 ## 14.1 What Climate Literacy Means
 
 A climate-literate person understands that the climate is warming, that human activity is the main cause, and that the consequences are already measurable. But literacy goes beyond the headline facts. It includes an understanding of how scientific knowledge is produced, why uncertainty is not the same as ignorance, and how to distinguish a projection from a prediction. It includes the ability to evaluate evidence, which requires some familiarity with data, graphs and statistics.
@@ -2027,6 +2053,8 @@ A climate-literate person understands that the climate is warming, that human ac
 It also includes practical competence. A household that knows how to prepare for a heatwave, store water, secure a roof or interpret a flood warning is climate-literate in a sense that matters more immediately than the ability to explain radiative forcing. The two forms of literacy are related: understanding the mechanism makes the practical advice coherent, and practical experience makes the mechanism concrete.
 
 Finally, literacy includes the disposition to use knowledge. Many people understand the risks and still do not prepare, because preparation is costly, inconvenient or frightening. Education can address that gap by making preparedness normal, by providing concrete steps, and by connecting individual action to collective outcomes. The behavioural component is the hardest to teach and the most important to measure.
+
+The dominant model of public understanding for three decades was the deficit model: ignorance produces inaction, therefore information produces action. Kahan and colleagues tested it in 2012 and found something uncomfortable — among people with high science literacy, climate concern became more polarised along political lines, not less. The interpretation is not that knowledge is useless but that knowledge is filtered through identity, and that a message which threatens a group's standing will be resisted more skilfully by its more educated members. Literacy without trust does not travel.
 
 ## 14.2 What the Evidence Shows About Public Understanding
 
@@ -2036,6 +2064,8 @@ Understanding is uneven across countries and across groups. People with more edu
 
 The evidence also shows that information alone does not change behaviour. Campaigns that provide facts without addressing the social context, the perceived cost and the sense of efficacy often fail. What works better is a combination of clear information, social norms, practical support and trusted messengers. That is why education is most effective when it is embedded in communities rather than delivered from a distance.
 
+UNESCO's 2021 survey of national curriculum frameworks found that nearly half of the countries examined made no reference to climate change at all, and that where the topic appeared it was usually confined to science with little attention to social or emotional dimensions. The same survey reported that a minority of teachers felt confident teaching the local consequences of climate change, even when they were willing. The gap is therefore not primarily one of public indifference; it is a gap in the supply of prepared teachers, usable materials and timetabled space, concentrated in exactly the countries where exposure is highest.
+
 ## 14.3 Misconceptions and Their Sources
 
 Some misconceptions are simple errors that can be corrected with clear explanation: the difference between weather and climate, the role of the ozone hole, the difference between a prediction and a projection. Others are more resistant because they are connected to identity, ideology or economic interest. The belief that climate change is a hoax, or that it is too late to act, or that individual action is pointless, is not usually the result of a lack of information.
@@ -2043,6 +2073,8 @@ Some misconceptions are simple errors that can be corrected with clear explanati
 Misinformation spreads through social media, through partisan media and through the normal mechanisms of human communication: vivid stories travel further than statistics, and confident claims travel further than cautious ones. The result is that a single misleading graph can circulate for years after it has been debunked, and that corrections often fail to reach the people who saw the original claim.
 
 Education can help by teaching how to evaluate sources, how to recognise the techniques of manipulation, and how to hold uncertainty without abandoning the consensus. That is a form of media and scientific literacy that is valuable far beyond climate. It is also more durable than memorising a list of facts, because it equips students to evaluate new claims that no one has anticipated.
+
+Misconceptions are not random errors; they are coherent alternative theories. The most durable is the conflation of climate change with the ozone hole, because both involve the atmosphere, both were framed as emergencies, and both were solved by banning something. A second is the belief that because carbon dioxide is a small fraction of the atmosphere it cannot matter, which confuses concentration with potency. A third is that consensus is a vote among scientists rather than a summary of evidence. Each survives because it is learned from a plausible source and never tested against a measurement.
 
 ## 14.4 Curriculum and Schools
 
@@ -2052,6 +2084,8 @@ The Italian reform is an example of integration. It does not create a separate s
 
 Curriculum reform is slow and contested. In some countries, the content of climate education is politically disputed; in others, it is crowded out by exam pressures and by subjects that are tested. The result is that climate education is often present on paper but thin in practice, and that the students who most need it — those in under-resourced schools — are the least likely to receive it.
 
+Curricula change slowly because they are negotiated documents. Italy became the first country to make climate change and sustainable development compulsory in schools, announcing in 2019 that every grade would receive roughly thirty hours a year, and the implementation revealed the difficulty: thirty hours is not a subject, and without trained teachers and assessment it becomes an annual assembly rather than a competence. Indonesia's Merdeka curriculum has taken a different route, embedding climate themes in project work rather than in a dedicated subject, which gives teachers flexibility and makes coverage uneven.
+
 ## 14.5 Teacher Training and Professional Support
 
 Teachers are the limiting factor in climate education. Most teachers have not been trained in climate science, many are uncertain about the facts, and some are anxious about discussing a politically charged topic. A survey by the United Kingdom's Royal Meteorological Society found that many primary teachers lacked confidence in teaching climate change, even when they believed it was important.
@@ -2059,6 +2093,8 @@ Teachers are the limiting factor in climate education. Most teachers have not be
 Good training addresses both knowledge and pedagogy. Teachers need a solid understanding of the science, but they also need strategies for handling controversy, for connecting global trends to local experience, and for teaching without inducing despair. The last point is important: young people who learn about climate change without learning about solutions are more likely to experience anxiety and disengagement.
 
 Professional support can come from many sources: universities, science centres, professional associations, and peer networks. The most effective programmes are sustained rather than one-off, and they involve teachers in designing the materials they will use. A workshop that gives teachers a set of slides is less effective than a community of practice that helps them adapt materials to their own students.
+
+Teacher training is the bottleneck that everyone acknowledges and few fund. A teacher asked to explain why the local rainy season has shifted needs three things that pre-service education rarely provides: subject knowledge, local data, and a repertoire for handling the political discomfort that follows. Where programmes exist, they tend to be short workshops without follow-up, and the evidence on professional development is consistent that one-off training changes classroom practice very little. The effective model is sustained coaching with shared materials, which is expensive and therefore rarely scaled.
 
 ## 14.6 Universities and Research Capacity
 
@@ -2068,6 +2104,8 @@ The gap matters for adaptation. A country that cannot monitor its own glaciers, 
 
 Universities also have a responsibility to avoid reproducing the conditions that produce vulnerability. Research agendas that are set entirely by external funders may not address local priorities; curricula that are imported wholesale may not fit local contexts. The most effective institutions combine international standards with local relevance, and they build partnerships that transfer capability rather than dependence.
 
+Universities matter less for what they teach undergraduates than for what they can measure. The Sixth Assessment Report of the IPCC drew on 234 authors from sixty-six countries, and the geography of authorship still reflects the geography of research funding: Africa contributed a small fraction of authors and an even smaller fraction of the regional studies the report needed. Indonesia has more than four thousand higher education institutions, yet its share of climate research in international journals remains modest relative to its population and exposure. Capacity is built by funding observation and by keeping researchers in the country.
+
 ## 14.7 Informal Learning and Public Communication
 
 Most learning about climate happens outside school. Museums, science centres, documentaries, news media, social media and community organisations all shape what people know and believe. The best of them make the abstract concrete: a science centre that lets visitors see the heat-trapping effect, a museum that tells the story of a local flood, a community group that organises a preparedness workshop.
@@ -2075,6 +2113,8 @@ Most learning about climate happens outside school. Museums, science centres, do
 Communication that works tends to be local, specific and actionable. A message that says the planet is warming is less effective than one that says the local river will flood more often and here is what to do about it. A message that presents only catastrophe induces paralysis; a message that presents only solutions can seem naive. The balance is honest hope: a clear account of the risk, combined with a clear account of what can still be done.
 
 Journalists are important intermediaries. Their training in climate science is often limited, and the pressure to produce balanced coverage can create a false equivalence between the scientific consensus and its critics. Organisations that provide specialised training, data and expert networks have improved coverage in many countries, but the improvement is uneven and vulnerable to commercial pressure.
+
+Most climate learning happens outside school, through weather presenters, documentaries, social media and conversation. The Yale programme on Climate Change Communication has tracked American public opinion for more than a decade and consistently finds that the population divides into segments — Alarmed, Concerned, Cautious, Disengaged, Doubtful, Dismissive — whose sizes are relatively stable and whose information habits differ sharply. Messaging designed for the Alarmed reaches the Dismissive as confirmation that the issue is a cultural marker. Effective communication begins with knowing which audience is being addressed.
 
 ## 14.8 Literacy for Adaptation
 
@@ -2084,6 +2124,8 @@ Teaching adaptation literacy means teaching people how to prepare for the hazard
 
 The most effective programmes are embedded in existing institutions: schools, clinics, religious organisations and local government. They use local languages and local examples, and they are repeated regularly so that knowledge does not decay. A single campaign is not enough, because memory fades and because new people arrive in the community. Preparedness is a practice, not a lesson.
 
+Adaptation requires a different literacy from mitigation. Mitigation asks people to understand a global mechanism and accept a cost now for a benefit later; adaptation asks them to read a local risk and change a practice this season. The knowledge that matters is therefore procedural — how to interpret a flood map, how to read a seasonal forecast, how to judge whether a contractor's drainage plan is adequate. Evaluations of participatory risk mapping in South Asia and East Africa find that the maps themselves change little; what changes behaviour is the process of producing them with the people who will use them.
+
 ## 14.9 Education in Emergencies
 
 Climate change disrupts education directly, through the destruction of schools and the displacement of families, and indirectly, through the loss of livelihoods that forces children to work or marry early. The 2022 Pakistan floods damaged thousands of schools and interrupted the education of millions of children; the 2020 cyclones in Bangladesh destroyed schools that had served as shelters; and drought in the Sahel has pushed families to withdraw girls from school.
@@ -2092,6 +2134,8 @@ The interruption has long-term consequences. Children who miss a year of school 
 
 The responses include building schools to higher standards, using them as shelters, providing remote learning when schools are closed, and supporting families so that children are not forced to work. The most effective programmes combine physical investment with social protection, because a school that is rebuilt but whose students are hungry or working will not restore learning.
 
+Education is one of the first systems to be interrupted and one of the last to be restored. The 2022 floods in Pakistan damaged or destroyed more than twenty thousand schools, and months later children were still learning in tents or not at all; the COVID-19 closures had already shown that a year without school produces measurable losses in literacy that persist. Displacement adds a second layer, because a child who moves three times in a year loses records, teachers and language. Emergency education is therefore climate infrastructure, and it is usually funded last.
+
 ## 14.10 Measuring Impact and Avoiding Indoctrination
 
 Measuring the impact of climate education is difficult. Test scores can measure knowledge but not behaviour; surveys can measure attitudes but not understanding; and the outcomes that matter most — preparedness, resilience, informed decisions — are difficult to attribute to any single intervention. The result is that many programmes are evaluated by their inputs rather than their effects.
@@ -2099,6 +2143,8 @@ Measuring the impact of climate education is difficult. Test scores can measure 
 The risk of indoctrination is real and should be taken seriously. Education should teach students how to think, not what to think; it should present the evidence, explain the uncertainties, and give students the tools to reach their own conclusions. That does not mean presenting false balance between the scientific consensus and its critics; it means being honest about what is known, what is uncertain and why.
 
 The best programmes combine rigour with humility. They teach the physics, the evidence and the uncertainties; they invite students to examine their own assumptions; and they connect knowledge to action in ways that respect the students' autonomy. That combination is more demanding than either advocacy or neutrality, and it is the only one that produces citizens who can think for themselves when the facts change.
+
+The charge that climate education is indoctrination deserves a serious answer rather than a dismissal. Indoctrination is teaching a conclusion as immune to evidence; education is teaching the evidence and the reasoning that connects it. In practice the distinction is visible in assessment: a course that tests whether students can explain the greenhouse effect and evaluate a policy is not indoctrinating, while one that tests whether they endorse a slogan is. The harder question is what to do with a student who reaches a different conclusion from the same evidence, which is a question about the limits of consensus, not about teaching method.
 
 ## 14.11 Case Study: Italy's Compulsory Climate Curriculum
 
@@ -2111,6 +2157,8 @@ The implementation has been uneven. Teacher training was expanded, and the minis
 The case illustrates both the promise and the limits of top-down curriculum reform. The promise is that a legal requirement can create space for a subject that markets and schools would otherwise neglect, and that it can signal to teachers and parents that climate is a core part of education. The limit is that a requirement on paper does not guarantee learning in practice; it must be supported by training, resources, assessment and time.
 
 For other countries, the lessons are specific. First, integration across subjects is more effective than a separate course, but it requires coordination. Second, teacher training is the binding constraint, and it must be sustained rather than one-off. Third, assessment shapes what is taught, so climate content must be included in examinations if it is to be taken seriously. Fourth, the content must be connected to local conditions, because abstract global trends do not prepare students for the hazards they will face.
+
+The most instructive case is not a country but a profession. Meteorologists in several countries have moved from broadcasting forecasts to explaining attribution, and audiences respond differently when a presenter says that this week's heat was made more likely by warming rather than that the climate is changing in general. Evaluations of such broadcasts find modest but real gains in understanding, and they also find that presenters need institutional cover: a public broadcaster that will defend an attribution segment against political complaint is doing as much for literacy as any curriculum reform.
 
 ## 14.12 Future Scenarios and Predictions: Education in 2050
 
@@ -2148,6 +2196,8 @@ The misinformation did not stay online. It affected whether people evacuated, wh
 
 This chapter is about how climate knowledge is produced, how it is misread, and how it is deliberately distorted. It explains what climate data actually are, how scientists measure consensus and attribute extreme events, and which statistical mistakes recur most often. It then turns to the mechanics of misinformation and to what actually works against it. The aim is not to make every reader a statistician but to make every reader harder to fool.
 
+A climate number is a measurement plus a set of choices, and the choices are where most public argument happens. The same global temperature can be reported as 1.1, 1.2 or 1.3 degrees of warming depending on the baseline, the averaging period and the dataset, and each of those figures is defensible. Understanding this is not relativism; it is the difference between treating a number as a fact and treating it as a claim that can be interrogated. The skill the public needs is not arithmetic but provenance.
+
 ## 15.1 What a Climate Number Actually Means
 
 The statement that 2024 was the first calendar year more than 1.5 °C above pre-industrial levels is precise only in relation to a baseline, and the baseline is a choice. Pre-industrial usually means 1850–1900, the period when instrument coverage became global enough to estimate a planetary average. Change the baseline and the number changes: relative to 1981–2010, 2024 was about 1.2 °C warmer; relative to the last glacial maximum it is a different quantity altogether.
@@ -2155,6 +2205,8 @@ The statement that 2024 was the first calendar year more than 1.5 °C above pre-
 Climate numbers are usually expressed as anomalies rather than absolute temperatures, because anomalies are more comparable across space and time. A station in Siberia and one in Indonesia have very different absolute temperatures, but their year-to-year changes can be averaged meaningfully. The convention avoids being distorted by the uneven distribution of weather stations, but it also makes the numbers abstract, which is one reason they are easy to misrepresent.
 
 Every climate number also carries an uncertainty range, and the range is not a sign of weakness. It reflects incomplete coverage, instrument error, and the choice of method. The global mean surface temperature estimated by NASA, NOAA, the Met Office and Berkeley Earth agree within a few hundredths of a degree, which is a remarkable convergence given that they use different station networks and different interpolation methods. Convergence of independent methods is the strongest evidence a reader can ask for.
+
+The choice of baseline is the most consequential and least discussed. A warming figure relative to 1850–1900 describes the change since industrialisation began; the same absolute temperature expressed relative to 1981–2010 will be lower because that period was already warm. The 1.5 degree target is defined against the pre-industrial baseline and measured as a twenty-year average, which means a single hot year does not breach it and a single cool year does not refute it. Most public disagreement about whether the threshold has been crossed is disagreement about definitions rather than about physics.
 
 ## 15.2 Where the Data Come From
 
@@ -2164,6 +2216,8 @@ Satellites provide global coverage but only since the late 1970s, and they measu
 
 Reanalysis products such as ERA5 combine observations with a weather model to produce a physically consistent reconstruction of the atmosphere going back to 1940, and proxy records — tree rings, ice cores, corals, sediments — extend the picture back thousands of years. The proxies are less precise but they establish the context: the current warming is far faster than anything in the Holocene, and the concentration of carbon dioxide is higher than at any point in at least 800,000 years, and probably three million.
 
+The global temperature record is not one instrument but a reconciliation of many. Three independent surface series — NASA's GISTEMP, NOAA's NCEI and the Hadley Centre's HadCRUT — use different station sets, different ocean datasets and different interpolation methods, and they agree closely because the underlying signal is large. Satellites measure a different quantity, the temperature of the lower troposphere, and the two main satellite products have disagreed with each other for decades over how to merge instruments. The existence of disagreement at the margins is evidence of active science, not evidence that nothing is known.
+
 ## 15.3 Measuring Scientific Consensus
 
 The claim that about 97 per cent of climate scientists agree that human activity is warming the planet comes from several independent studies. Doran and Zimmerman (2009) surveyed Earth scientists and found that 97 per cent of those who actively publish climate research agreed that human activity is a significant contributing factor. Cook et al. (2013) examined nearly 12,000 abstracts and found that among those expressing a position, 97.1 per cent endorsed the consensus, a figure later revised upward when the sample was corrected.
@@ -2171,6 +2225,8 @@ The claim that about 97 per cent of climate scientists agree that human activity
 Lynas et al. (2021) reviewed 88,125 climate-related papers published between 2012 and 2020 and found that more than 99.9 per cent of them endorsed the consensus. That is an extraordinary level of agreement for any scientific question, comparable to the consensus on plate tectonics or the germ theory of disease. It does not mean that the science is settled in every detail; it means that the central claim is not seriously disputed by specialists.
 
 The gap between scientific consensus and public perception is itself measured. Surveys in the United States find that the public estimates the share of scientists who agree at around 70 per cent, well below the actual figure, and that this underestimate is associated with lower support for policy. The gap is sometimes called the consensus gap, and it is produced by the same mechanisms that produce other misconceptions: repetition, selective exposure and the prominence of dissenting voices disproportionate to their number.
+
+Consensus studies are frequently cited and frequently misunderstood. Oreskes examined 928 abstracts in 2004 and found none that disputed the consensus position; Cook and colleagues coded nearly twelve thousand abstracts in 2013 and found that among those expressing a view, 97 per cent endorsed human causation; Lynas and colleagues examined 88,125 papers in 2021 and found the figure above 99 per cent. None of these studies prove that the theory is correct — science does not work by headcount — but they refute the claim that the scientific community is divided.
 
 ## 15.4 Attribution Science
 
@@ -2180,6 +2236,8 @@ The field has matured quickly. World Weather Attribution, a collaboration of sci
 
 Attribution is powerful because it connects global statistics to local experience, but it is also easy to misrepresent. A finding that an event was made twice as likely does not mean it was twice as severe, and a finding that no human signal was detected in a particular event does not mean climate change is not happening. Absence of attribution for one event is not evidence against the broader trend, just as a single cold week is not evidence against a warming climate.
 
+Event attribution has changed what can be said after a disaster, and it has limits that are usually lost in translation. The standard method compares a world with observed greenhouse gas concentrations to a counterfactual world without them, using ensembles of climate models, and reports either a change in probability or a change in intensity. World Weather Attribution has applied this within weeks of major heatwaves, finding that some events would have been virtually impossible without warming. Attribution speaks to physical risk; it does not establish legal liability, which requires proof of harm, duty and causation that no climate model provides.
+
 ## 15.5 The Statistical Fallacies That Recur
 
 The most common fallacy is cherry-picking the baseline. A widely repeated claim that warming stopped in 1998 depends on choosing a year with an exceptionally strong El Niño as the starting point. Begin the analysis three years earlier or later and the trend is clear. The same technique is used to argue that sea ice is recovering, that the 1930s were hotter, or that a particular glacier is growing: select the window that produces the desired slope.
@@ -2187,6 +2245,8 @@ The most common fallacy is cherry-picking the baseline. A widely repeated claim 
 A second fallacy is confusing weather with climate. A cold snap in one region does not disprove a global trend any more than a hot day proves it. The relevant question is whether the frequency and intensity of events are changing over decades and across regions, which requires aggregating data rather than selecting anecdotes. Anecdotes are vivid and statistics are abstract, which is why the fallacy persists.
 
 A third is misreading correlation and causation, usually in the claim that carbon dioxide follows temperature rather than causing it. In the ice-core record, carbon dioxide does rise after temperature at the onset of glacial terminations, because the initial warming is driven by orbital cycles and the ocean then releases carbon dioxide, which amplifies the warming. That is a feedback, not a refutation; the physics of carbon dioxide absorbing infrared radiation was established in the nineteenth century and is not in dispute.
+
+The most common statistical error in climate argument is the choice of endpoints. A trend calculated from 1998 to 2012 shows little warming because 1998 was an exceptionally hot El Niño year and 2012 a cooler La Niña one; start in 1997 or end in 2015 and the same data show a clear rise. This is not a trick unique to climate — it appears in finance, medicine and sports — but it is unusually effective here because the noise is large and the public has no independent way to judge whether a chosen window is arbitrary. Sensitivity testing, where the trend is recalculated across many start and end years, is the antidote and is almost never shown.
 
 ## 15.6 Misinformation in Disasters
 
@@ -2196,6 +2256,8 @@ The pattern has intensified with social media. During Hurricane Helene in 2024, 
 
 Artificial intelligence has made the problem harder. Generated images of flooded streets or destroyed neighbourhoods can be produced in minutes and are difficult to distinguish from real photographs, especially on a phone screen during an emergency. Detection tools lag behind generation, and the platforms that distribute the content have limited incentive to slow it. The result is that the evidentiary value of a photograph has fallen, which is a problem for journalists, insurers and courts as well as for emergency managers.
 
+Disasters produce information voids, and voids are filled quickly. After the 2013 typhoon in the Philippines, false reports of looting and of a second storm spread through social media faster than official corrections, and after the 2023 wildfires in Maui, conspiracy theories about directed energy weapons reached millions before agencies had published a preliminary cause. Research on rumour during emergencies suggests that corrections work best when they come from a trusted local source, arrive early, and offer an alternative explanation rather than a bare denial. Speed and local legitimacy matter more than production quality.
+
 ## 15.7 Reading a Graph and Spotting a Trick
 
 Many misleading climate claims are made through graphs rather than words, because a graph appears objective. The common tricks are simple: truncating the vertical axis so that a small change looks dramatic, or extending it so that a large change looks small; choosing a start date that flatters a trend; plotting a short window and drawing a long conclusion; and comparing datasets that measure different things.
@@ -2203,6 +2265,8 @@ Many misleading climate claims are made through graphs rather than words, becaus
 A reader can apply four checks. First, what is the baseline or reference period, and why was it chosen? Second, what is the vertical axis, and does it start at zero or at a value that exaggerates the change? Third, what is the time window, and is it long enough to distinguish a trend from noise? Fourth, who produced the data, and is the underlying dataset available? The last question is the most powerful, because manipulated graphs rarely come with accessible data.
 
 Legitimate scientific communication has its own conventions that can look like weakness. Error bars, ranges and conditional language are marks of care, not evasion. A scientist who says an outcome is likely under a scenario is being precise; a commentator who says it is certain is being careless or dishonest. Learning to read hedged language as a sign of rigour is one of the most useful skills a citizen can acquire.
+
+Graph literacy is a defence that can be taught in an hour. The common manipulations are few: a truncated vertical axis that makes a small change look dramatic, a dual axis that implies a relationship between unrelated series, a cumulative chart that must rise, and a selective time window. The 'hockey stick' controversy of the 2000s is instructive because the reconstruction was examined by the National Research Council in 2006, which found the broad conclusion sound and the statistical uncertainty understated. Both halves of that finding were true, and most public discussion kept only one.
 
 ## 15.8 Prebunking, Debunking and Inoculation
 
@@ -2212,6 +2276,8 @@ Prebunking — warning people about manipulation techniques before they encounte
 
 The most durable defence is structural: reduce the supply of misinformation, increase the salience of reliable sources, and make accurate information easy to find and act upon. That means funding public broadcasting, requiring platforms to disclose how their algorithms amplify content, supporting local journalism, and ensuring that official warnings are timely, specific and consistent. Individual literacy matters, but it cannot compensate for an information environment designed to confuse.
 
+Inoculation works, and it works better before exposure than after. The theory, developed by McGuire in the 1960s, is that a weak dose of a misleading argument, accompanied by a refutation of its technique, builds resistance to stronger versions later. Roozenbeek and van der Linden demonstrated the effect with an online game in which players learn to spot manipulation tactics rather than specific false claims, and the gain transferred to unrelated topics. The implication for climate communication is that teaching the rhetorical moves — cherry-picking, false balance, impossible expectation — outperforms correcting individual claims one at a time.
+
 ## 15.9 Open Data, Reproducibility and Data Gaps
 
 Climate science is unusually open. The major temperature records are published with their methods and code; satellite data are archived and distributed; model outputs are contributed to the Coupled Model Intercomparison Project and made available to researchers worldwide; and the Intergovernmental Panel on Climate Change reports are reviewed by hundreds of scientists and published in full. This openness is the best available answer to claims of conspiracy, because anyone with the skills can reproduce the analysis.
@@ -2220,6 +2286,8 @@ But the data are not evenly distributed. Station coverage is sparse in parts of 
 
 Reproducibility is also a social practice. A dataset that is published but undocumented is not usable; a method that is described but not coded is not replicable. The most valuable institutions in this space are those that maintain long records, document their methods and respond to criticism in public. Their reputation is built on being checkable, which is exactly what a conspiracy theory cannot be.
 
+Open data has transformed the field and reproduced its inequalities. Reanalysis products such as ERA5 provide global hourly coverage, and the CMIP6 archive makes climate model output available to any researcher with bandwidth. But the observational network that those products depend on is unevenly distributed: weather stations in Africa are far below the density recommended by the World Meteorological Organization, and many national meteorological services cannot afford to maintain what they have. The result is that the places most exposed to climate risk generate the least reliable local data.
+
 ## 15.10 Communicating Numbers Honestly
 
 Numbers are persuasive but easily misread, so communication requires care. A temperature rise of 1.5 °C sounds small to people who experience 1.5 °C as the difference between a cool and a warm day; the same change in a planetary average is enormous, because it represents a shift in the distribution of heat, not a uniform increase. Explaining the difference between a local temperature and a global average is one of the most useful things a communicator can do.
@@ -2227,6 +2295,8 @@ Numbers are persuasive but easily misread, so communication requires care. A tem
 Uncertainty language matters too. The IPCC uses calibrated terms: virtually certain means 99–100 per cent probability, very likely 90–100 per cent, likely 66–100 per cent, about as likely as not 33–66 per cent. These terms are defined so that readers can interpret them consistently, but they are often read as vague hedging. Translating them into plain probabilities, without stripping the uncertainty, is a skill worth teaching.
 
 Finally, communication should respect the audience. People are not empty vessels into which facts are poured; they have experience, values and trusted sources. A message that begins with local experience, acknowledges what is uncertain, and offers concrete action is more likely to be heard than one that begins with a global statistic and a moral instruction. Honesty about uncertainty is not a weakness in persuasion; it is the foundation of trust, and trust is the resource that matters most when the next warning arrives.
+
+Risk communication fails predictably at the level of the number. 'A one-in-one-hundred-year flood' is heard by most people as a flood that happens once a century rather than one with a one per cent annual chance, and the misunderstanding is not corrected by repetition. Gerd Gigerenzer's work on risk literacy shows that natural frequencies — one in a hundred each year, and a roughly one-in-four chance over thirty years — are understood far better than probabilities. The reform is therefore simple and rarely adopted: report frequencies, report the time horizon, and report the consequence alongside the chance.
 
 ## 15.11 Case Study: Hurricane Helene and the Information Emergency
 
@@ -2239,6 +2309,8 @@ The information environment collapsed faster than the roads. Claims that the fed
 The practical consequences were measurable. Officials reported that some residents did not apply for assistance because they believed the aid would be taken or would obligate them; others delayed evacuation before subsequent storms. Aid organisations found that they had to spend time rebutting rumours instead of delivering supplies. The episode showed that trust is not a soft variable: it determines whether warnings are obeyed and whether help is accepted.
 
 The lessons are specific. Warnings must arrive through trusted local messengers, not only through national agencies. Correction must be fast, concrete and repeated, because rumours spread in the gap between the event and the official response. And platforms must be treated as part of the emergency infrastructure, with obligations that match their influence. A community that has accurate information and trusts it recovers faster than one that has the same physical damage and does not.
+
+The 2009 'Climategate' episode remains the best case study in how data become evidence. Stolen emails were quoted to suggest that scientists had manipulated a temperature record; six independent inquiries, including one by the Royal Society, found no fraud and criticised instead the secrecy and defensiveness of the researchers. The episode damaged public trust more than it damaged the science, and the reforms that followed — data archiving, open code, published correspondence — were more effective than any subsequent rebuttal. Transparency is the only durable answer to an accusation of concealment.
 
 ## 15.12 Future Scenarios and Predictions: The Information Environment in 2050
 
@@ -2276,6 +2348,8 @@ The Puerto Rico case is often told as a story about infrastructure failure, and 
 
 This chapter is practical. It sets out what a household actually needs to survive the first days and weeks of a disruption, how much water and food that requires, how to shelter from heat, smoke, cold and flood, and how to plan for the things that fail silently: medication, power for medical devices, documents, cash and communication. It also examines why so few households prepare, and what actually changes behaviour.
 
+Household preparedness is usually sold as a shopping list, and the list is the least important part. What distinguishes households that cope from households that do not is rarely equipment; it is whether someone in the house has thought through the sequence — water before food, information before movement, medication before money — and whether the household has a relationship with the people next door. The equipment matters at the margin. The plan matters at the centre, because most disruptions are resolved by improvisation within an existing network rather than by a kit in a cupboard.
+
 ## 16.1 Households as the First Responders
 
 In most disasters, the first people to help are not professionals. They are neighbours, family members and passers-by, who pull people from vehicles, share water, clear debris and check on the vulnerable. Research on disaster response consistently finds that informal assistance accounts for a large share of immediate rescue and support, particularly in the first hours when formal services cannot reach the affected area.
@@ -2283,6 +2357,8 @@ In most disasters, the first people to help are not professionals. They are neig
 The protective action decision model developed by Lindell and Perry (2012) explains why some households act and others do not. People must receive a warning, understand it, believe it is credible and personally relevant, identify a feasible action, and have the resources and social support to carry it out. A failure at any stage produces inaction. This is why warnings that are technically accurate still fail: they arrive in a form that does not connect to what people know, or they recommend actions that people cannot afford.
 
 Preparedness is therefore not only a matter of stockpiles. It is a matter of capability: knowing what to do, having the means to do it, and being connected to others who can help. A household with two weeks of water but no plan for an elderly neighbour is less prepared than one with three days of water and a functioning neighbourhood network, because the second can adapt to circumstances the first did not anticipate.
+
+The figure that reorganises this field is that most people alive after an earthquake were not rescued by professional teams. In the 1999 Marmara earthquake, and again in Nepal in 2015, the overwhelming majority of those pulled from rubble were extricated by neighbours, relatives and passers-by in the first hours, before international search teams had landed. The IFRC has documented the same pattern across events, and it inverts the standard image of response: the household and the street are the first responders, and the professional system arrives to handle the minority of cases that need technical extrication.
 
 ## 16.2 Water: The Binding Constraint
 
@@ -2292,6 +2368,8 @@ Storage is constrained by space and weight. Water weighs one kilogram per litre,
 
 Treatment matters as much as storage. Boiling water for one minute at sea level kills most pathogens; chlorine tablets or unscented household bleach can disinfect water if dosed correctly; and ceramic or membrane filters remove pathogens and sediment. After the 2021 Texas winter storm, about 14 million people were placed under boil-water notices, many for days, and households that had no way to boil water or no stored supply depended on distribution points that were themselves disrupted by the same storm.
 
+Water is the constraint that ends improvisation fastest, and the numbers are unforgiving. The Sphere standards set fifteen litres per person per day as the minimum for basic domestic use, while survival requires roughly three litres of drinking water in a temperate climate and far more in heat. A household of four storing two hundred litres is holding about three days at that standard, and two hundred litres weighs two hundred kilograms, which is why storage is limited by floor loading and space rather than by willingness. Point-of-use treatment — boiling, chlorination or filtration — extends the margin, and trials consistently find it reduces diarrhoeal disease by a third.
+
 ## 16.3 Food: Calories, Shelf Life and Cooking
 
 A person needs roughly 2,000–2,500 kilocalories a day, and more during cold, hard physical work or recovery. A two-week supply for a family of four is therefore around 250,000 kilocalories, which is a substantial volume: rice, pulses, oil, sugar and canned goods provide the cheapest calories per kilogram, while freeze-dried meals provide convenience at a much higher price. The practical rule is to store what the household already eats, rotate it, and keep the cooking method in mind.
@@ -2299,6 +2377,8 @@ A person needs roughly 2,000–2,500 kilocalories a day, and more during cold, h
 Cooking may be impossible. Power cuts disable electric stoves and microwaves; gas may be shut off; and indoor use of charcoal or portable gas burners creates a carbon monoxide hazard that has killed people in every major outage. Households therefore need food that can be eaten without cooking — canned beans, crackers, nut butters, dried fruit, ready-to-eat meals — as well as a safe way to cook outdoors or in a well-ventilated space if fuel is available.
 
 Particular groups need particular supplies. Infants need formula and clean water; people with diabetes need appropriate food and insulin storage; people with coeliac disease or allergies cannot rely on generic relief supplies. Relief systems often assume a generic adult, which is why households with special needs should plan for themselves and tell a neighbour or relative where their supplies are kept.
+
+Food planning fails in two directions: households store the wrong things and assume they can cook them. Rice and wheat kept sealed and dry remain edible for years, but they require fuel and water, and a kitchen that runs on electricity has no way to boil rice when the grid is down. This is a specific vulnerability of electrified households in middle-income countries, where the transition away from charcoal and kerosene has removed the backup that poorer households still possess. A practical plan therefore stores some food that needs no cooking, keeps a non-electric stove, and rotates stock so that the cupboard is a pantry rather than a museum.
 
 ## 16.4 Shelter: Staying, Going and the Space In Between
 
@@ -2308,6 +2388,8 @@ Sheltering in place requires a suitable room. For heat, the coolest room on the 
 
 Evacuation requires a destination, a route and a means of transport. Households without a car are the most vulnerable, and they are disproportionately poor, elderly or disabled. Planning must therefore include a way to leave that does not assume private vehicle ownership: a neighbour with a car, a community transport list, or a designated pickup point. Evacuation that is ordered but not enabled is not a plan.
 
+Shelter decisions are made under time pressure with incomplete information, and the errors are systematic. People delay evacuation because they underestimate the hazard, overestimate the strength of their building, and wait for confirmation from neighbours; the pattern is documented in hurricane research as normalcy bias. The 2005 evacuation of New Orleans failed less because people refused to leave than because roughly a hundred thousand residents had no car, no money and no destination. Any shelter plan that assumes mobility is a plan for the minority who own a vehicle and a credit card.
+
 ## 16.5 Power, Light and Heat
 
 Electricity is the quiet dependency behind almost everything else: refrigeration, communications, medical devices, water pumping and lighting. Outages are becoming longer and more frequent in many countries. In the United States, the average customer experienced about five to six hours of outage a year in the early 2010s; by the early 2020s the figure had risen, and extreme events produced outages measured in weeks. In Puerto Rico after Maria, parts of the island waited months for restoration.
@@ -2315,6 +2397,8 @@ Electricity is the quiet dependency behind almost everything else: refrigeration
 A household does not need to power everything; it needs to power a few things. A small solar panel with a battery can charge phones and run a light; a portable power station can run a refrigerator for part of the day or a medical device; and a generator can run a pump or a heater, but only outdoors and away from windows. The last point is essential: carbon monoxide poisoning is consistently among the leading causes of death in winter storm outages, and it is entirely preventable.
 
 Refrigeration has a clock. A closed refrigerator keeps food safe for about four hours; a full freezer for about 48 hours if the door stays shut. Households can extend that by freezing water bottles in advance, grouping food, and keeping a thermometer inside. Knowing when to discard food is as important as knowing how to store it, because food poisoning during a disaster compounds an already dangerous situation.
+
+Electricity has become the quiet dependency of household survival. A house without power loses refrigeration, lighting, communications, water pumping in apartment buildings, and increasingly cooking and heating. Puerto Rico after 2017 demonstrated what a long outage means: parts of the island waited most of a year for restoration, and the excess deaths were driven by interrupted medical care rather than by the storm itself. Solar panels and batteries have fallen in cost by roughly ninety per cent since 2010, which makes a modest household system — enough for a fridge, a light and a phone — an affordable resilience purchase in much of the world.
 
 ## 16.6 Health, Medication and Disability
 
@@ -2324,6 +2408,8 @@ Power-dependent medical equipment requires a plan. Oxygen concentrators, ventila
 
 Disability and frailty shape every other decision. A person who cannot climb stairs cannot shelter on an upper floor; a person who uses a wheelchair cannot evacuate through debris; a person with dementia may not understand a warning. Preparedness must be specific to the person, and it must involve the people around them, because institutional support may not arrive in time.
 
+Health preparedness is where the household plan meets the limits of self-reliance. Dialysis, oxygen concentrators, insulin refrigeration, and chemotherapy cannot be improvised from a kit, and the people who depend on them are precisely those least able to evacuate quickly. Mortality among people with disabilities in the 2011 Tōhoku tsunami was roughly twice that of the general population, a gap that reflected inaccessible evacuation routes and shelters as much as the wave. A household plan that does not name the nearest facility with backup power, and the route to it, is incomplete precisely for the members who need it most.
+
 ## 16.7 Documents, Money and Communication
 
 Disasters destroy the records that prove identity, ownership and entitlement. Birth certificates, passports, title deeds, insurance policies, medical records, prescriptions and bank details should be copied, stored in a waterproof container and kept in a second location or in encrypted digital form. Households that lose these documents struggle to claim insurance, access aid or prove residency for months after the event.
@@ -2331,6 +2417,8 @@ Disasters destroy the records that prove identity, ownership and entitlement. Bi
 Cash matters because card systems depend on power and connectivity. A modest amount of small-denomination cash allows a household to buy fuel, water or transport when payment systems fail. In countries where mobile money is dominant, a charged phone and a backup power source serve the same function, provided the network stays up — which is why the failure of communications is often the most disorienting part of a disaster.
 
 Communication requires a plan made in advance. Families should agree on an out-of-area contact who can relay messages, a meeting point, and a way to signal that they are safe. During major events, mobile networks congest, so text messages often work when calls do not; offline maps, downloaded documents and pre-written messages reduce dependence on connectivity. The aim is not to stay in constant contact but to be able to reconnect when the network returns.
+
+Documents and money are unglamorous until they are the only things that matter. After a flood, the difference between a family that recovers in months and one that spends years in temporary housing is often whether the title deed, the insurance policy and the identity documents survived, and whether there was cash when the payment network was down. Cash transfer programmes after disasters have repeatedly shown that money given directly is spent on what agencies would have supplied anyway, and faster. The practical preparation is banal: copies in a waterproof bag, a cloud copy, and a small amount of physical cash in small notes.
 
 ## 16.8 Assessing Household Risk
 
@@ -2340,6 +2428,8 @@ The assessment should include the things that are easy to overlook: how long the
 
 Preparedness is unequal. Surveys consistently find that higher-income households are more likely to have supplies, plans and insurance, while lower-income households face the same hazards with fewer resources. That is not a failure of individual responsibility but a structural problem: preparedness costs money and time, and public policy that treats it as a private duty without providing support will produce predictable inequality in survival.
 
+Household risk assessment fails because people are bad at ranking rare events. The availability heuristic, described by Tversky and Kahneman in 1973, leads people to overweight vivid risks and underweight statistical ones, so a household may prepare for an earthquake it has seen on television and ignore the heatwave that is far more likely to kill its elderly member. Normalcy bias compounds the error during the event itself, producing the delay that turns a warning into a casualty. A useful assessment starts with local history and local data, not with global catastrophe, and ranks by consequence and likelihood rather than by drama.
+
 ## 16.9 Beyond Seventy-Two Hours
 
 Official guidance in many countries recommends three days of supplies, on the assumption that outside help will arrive within 72 hours. The assumption is often wrong. After Hurricane Katrina in 2005, parts of New Orleans were without basic services for weeks; after Maria, restoration took months; and in conflict-affected or remote areas, help may take longer still. Three days is a floor, not a target.
@@ -2348,6 +2438,8 @@ A more realistic standard is two weeks of water, food and medication, with the c
 
 The layers should be tested. A household that has never opened its water containers, run its generator or walked its evacuation route does not know whether the plan works. Annual checks — replacing expired food and medication, testing equipment, updating contacts — turn a stockpile into a capability. Preparedness that is never exercised tends to fail at exactly the moment it is needed.
 
+The seventy-two-hour rule is a comfort that outlived its evidence. Infrastructure restoration after a major event typically takes one to two weeks, and in severe cases months; the United States Federal Emergency Management Agency recommends a two-week supply, and the 2021 floods in British Columbia and the 2024 hurricane damage in western North Carolina both left communities without potable water for weeks. The relevant planning horizon is set by the recovery time of the systems a household depends on, not by the survival time of a healthy adult, and those systems are slower than the public imagines.
+
 ## 16.10 Community Preparedness and Mutual Aid
 
 Households do not prepare in isolation. Neighbours, extended families, religious congregations, schools and local associations provide most of the immediate help in a disaster, and their effectiveness depends on how well they know each other before it happens. Programmes such as Map Your Neighborhood in Washington State and Japan's self-help disaster organisations build that familiarity deliberately, by mapping vulnerable residents, agreeing roles and practising responses.
@@ -2355,6 +2447,8 @@ Households do not prepare in isolation. Neighbours, extended families, religious
 Mutual aid is most effective when it is organised. A neighbourhood that knows who has a generator, who has medical training, who needs help evacuating and who has a vehicle can allocate resources in the first hours, when formal systems are overwhelmed. That requires a list, a communication method and a small amount of practice, not a large budget. The main obstacle is social: people do not know their neighbours, and preparedness programmes that ignore social connection tend to produce supplies without coordination.
 
 Public policy can support this without taking it over. Municipalities can fund community preparedness coordinators, provide training and equipment, and recognise neighbourhood groups in official plans. The most resilient places combine strong household preparedness with strong social networks and functioning local government; none of the three is sufficient alone, and the weakest link determines the outcome.
+
+Community preparedness works through existing relationships rather than through new organisations. Research on Japanese neighbourhood associations and on Indonesian community disaster groups finds that the density of prior social ties predicts participation in drills and the speed of informal assistance far better than the existence of a formal plan. The practical implication is that preparedness programmes should fund what already exists — the mosque, the church, the sports club, the tenant association — rather than create a committee that meets twice and dissolves. Trust is the infrastructure that cannot be procured after the event.
 
 ## 16.11 Case Study: Hurricane Maria and Household Survival in Puerto Rico
 
@@ -2367,6 +2461,8 @@ The mortality data tell the story of a slow emergency. The initial official coun
 Households that coped shared certain features. They had stored water — often in cisterns, which are common on the island — and food that did not require cooking. They had medication, or a plan for obtaining it. They had neighbours who shared generators, fuel and information. And they had a way to cook outdoors without creating a fire or carbon monoxide hazard. Wealth helped, but social connection helped more, especially in rural areas where formal aid arrived last.
 
 The lessons for household preparedness are direct. Water storage must be sized for weeks, not days. Medication and power-dependent equipment require a plan that includes a backup power source and a relocation option. Cooking must be possible without electricity and without indoor combustion. And preparedness must be social, because the households that survived best were embedded in networks that could share resources. A stockpile without neighbours is a fragile plan.
+
+The 2011 Tōhoku earthquake and tsunami is often described as a failure of preparedness, and that is only partly true. The warning system worked, the drills were real, and thousands of people reached high ground because they had rehearsed the route. The deaths concentrated among those who could not move quickly, those who returned home to collect belongings, and those who trusted a seawall that the wave overtopped. The case demonstrates that preparedness is not a binary state but a distribution of advantage, and that the households with the fewest options are the ones the plan must be designed around first.
 
 ## 16.12 Future Scenarios and Predictions: Household Preparedness in 2050
 
@@ -2404,6 +2500,8 @@ The 2003 heatwave changed how Europe thinks about heat. France created a heat-he
 
 This chapter examines the health consequences of climate change and the capacity of health systems to respond. It covers heat as a mass casualty event, the strain on emergency services and hospitals, the particular vulnerability of specific populations, and the long shadow of mental health. It argues that health is where the abstractions of climate change become visible as bodies, and that the distribution of those bodies is a matter of policy, not fate.
 
+Health systems are usually described as part of the response to a disaster, and that description is backwards. A hospital that floods during a storm is not a responder; it is a second emergency. The climate question for the health sector is therefore not how to treat more patients after an event but how to keep the facilities, supply chains and workforce functioning while the event is happening, and how to do so in the places where the baseline system is already fragile.
+
 ## 17.1 Health Systems as Climate Infrastructure
 
 Health systems are the institution that society turns to when climate change injures people, and they are themselves vulnerable to it. Heat drives demand for ambulance services and emergency departments; floods damage hospitals and cut supply chains; storms disrupt power and water; and outbreaks of infectious disease follow displacement and sanitation failure. A health system that is not prepared for these shocks cannot protect the population it serves.
@@ -2411,6 +2509,8 @@ Health systems are the institution that society turns to when climate change inj
 The World Health Organization has described climate change as the single biggest health threat facing humanity, and the Lancet Countdown tracks the indicators annually. Its 2024 report found that heat-related mortality among people over 65 had risen by 167 per cent compared with the 1990s, that 2023 exposed billions of people to days of dangerous heat, and that health systems in most countries remain underprepared for the risks they face.
 
 Preparedness has four components: surveillance, so that threats are detected early; capacity, so that services can absorb surges; infrastructure, so that facilities keep functioning during hazards; and equity, so that the most vulnerable are reached first. Most health systems are strong on one or two of these and weak on the others, and the weakness is usually equity, because the people at greatest risk are often the least able to demand services.
+
+WHO estimates that roughly a billion people depend on health facilities without reliable electricity, and that a substantial share of those facilities have no electricity at all. That single fact reorganises the climate agenda for health: a clinic without power cannot run a vaccine fridge, an oxygen concentrator or a steriliser, and it cannot keep working during a heatwave or a flood. Electrification, water supply and building resilience are therefore not ancillary infrastructure but the substrate of clinical care, and they are the interventions most likely to be neglected because they do not produce a photograph of a doctor saving a life.
 
 ## 17.2 Heat as a Mass Casualty Event
 
@@ -2420,6 +2520,8 @@ The physiological limit is well established. Wet-bulb temperature — a measure 
 
 Mass casualty heat events share a pattern. Mortality rises sharply after two or three consecutive hot days and nights, because the body needs the cool of night to recover; it is concentrated among the elderly, the isolated and the poor; and it is underestimated in real time because deaths are attributed to other causes. The public-health response that works is unglamorous: warnings, cooling centres, checking on vulnerable people, adjusting work hours, and opening public buildings at night.
 
+Heat is the deadliest climate hazard in high-income countries, and it kills in a pattern that is easy to miss. The 2003 European heatwave caused an estimated seventy thousand excess deaths, the 2010 Russian heatwave around fifty-five thousand, and the 2022 European summer an estimated sixty-one thousand, with the largest toll among people over eighty living alone in uninsulated flats. Deaths are recorded as cardiovascular or respiratory failure, so the heat appears in the statistics only after excess mortality analysis. The physiological limit is a wet-bulb temperature near thirty-five degrees Celsius, at which sweat no longer cools the body, and the regions approaching it are growing.
+
 ## 17.3 Emergency Services and Surge Capacity
 
 Emergency medical services are the first formal layer of response, and they are sensitive to climate. Ambulance response times lengthen in heat, because call volumes rise and crews are slower in protective equipment; floods block roads and strand vehicles; and wildfires force evacuations that overwhelm dispatch. Studies in several cities have found that heat is associated with a measurable increase in emergency calls and in response times.
@@ -2427,6 +2529,8 @@ Emergency medical services are the first formal layer of response, and they are 
 Hospitals face a parallel problem: a surge in demand coinciding with a reduction in capacity. Staff may be unable to reach work; power and water may fail; elective procedures may be cancelled; and beds may be occupied by people who cannot be discharged because their homes are uninhabitable. COVID-19 demonstrated how quickly a health system can be stretched, and how the stretching falls hardest on the poorest and the oldest.
 
 Surge capacity is built before the event. It requires plans for expanding beds, stockpiles of medicines and oxygen, protocols for triage, and agreements with neighbouring facilities. It also requires staff who are trained and rested, which is why workforce planning is a form of climate adaptation. A hospital with a plan but no staff is not a surge capacity; it is a document.
+
+Emergency services are designed for a small number of simultaneous incidents, and climate extremes produce a large number at once. During the 2021 floods in the Ahr valley, rescue crews could not reach villages for hours because roads and bridges had disappeared, and calls for help outnumbered units by orders of magnitude. The concept that describes the gap is surge capacity: the ability to expand beyond normal operations, which in health systems depends on staff reserves, stockpiles and mutual aid agreements. Most services plan for a mass casualty event at a single site; few plan for a simultaneous failure of transport, communications and power across a whole region.
 
 ## 17.4 Hospitals and Health Facilities Under Threat
 
@@ -2436,6 +2540,8 @@ The failure modes are predictable. Flooding enters basements and switchgear; win
 
 Retrofitting hospitals is expensive but cost-effective. Elevating critical equipment, relocating generators above flood level, installing on-site water and power, and hardening building envelopes reduce the risk of evacuation, which is itself dangerous for patients. The World Bank has estimated that making health facilities resilient returns several dollars in avoided losses for every dollar invested, and that the benefit is highest for primary care facilities in exposed regions.
 
+Hospitals are also targets, and the climate era has not changed that. WHO's surveillance of attacks on health care has recorded thousands of incidents in conflict zones, with Ukraine alone accounting for more than a thousand since 2022, and the effect extends beyond the buildings: staff leave, supply lines close, and the population loses the facility it depended on. Climate hazards compound the same vulnerability from a different direction, flooding basements, cutting power and forcing evacuation. The design response is the same in both cases — redundant utilities, protected sites, and the ability to operate as a field unit when the building is lost.
+
 ## 17.5 Special Populations and Unequal Risk
 
 Climate risk is distributed by physiology, occupation and social position. Older adults are less able to regulate temperature and more likely to have chronic disease; children have a higher surface-area-to-mass ratio and are more vulnerable to dehydration; pregnant women face increased risk of preterm birth and complications; and people with disabilities may be unable to evacuate or to access information.
@@ -2443,6 +2549,8 @@ Climate risk is distributed by physiology, occupation and social position. Older
 Occupational exposure is a major and often invisible source of risk. Outdoor workers in construction, agriculture, delivery and utilities are exposed to heat for long periods, often with piece-rate pay that discourages rest breaks. Studies in the United States and India have found elevated rates of kidney injury among agricultural workers, and heat standards are weak or absent in many jurisdictions.
 
 Social position determines whether people can protect themselves. Homeless people have no cool room and no way to store water; prisoners are confined in facilities that often lack air conditioning; indigenous communities may be remote from services and burdened by historical dispossession; and low-income households may be unable to afford cooling or to evacuate. Each of these groups requires a specific response, and generic advice will not reach them.
+
+Risk is not distributed evenly within a population, and the health sector sees the gradient most clearly. Older people, pregnant women, infants, people with cardiorespiratory disease and people with disabilities carry a disproportionate burden, and the mechanisms differ: heat strain, disrupted medication, inaccessible shelters, loss of caregivers. Research on preterm birth and heat exposure has found elevated risk in several countries, and the effect is strongest among women with the least access to cooling and antenatal care. A health plan that reports an average death toll without disaggregating it will systematically miss the people it most needs to protect.
 
 ## 17.6 Mental Health and the Long Shadow
 
@@ -2452,6 +2560,8 @@ Slow-onset events produce their own burden. Drought has been associated with inc
 
 Mental health services are usually the weakest part of a health system, and they are rarely included in disaster planning. Integrating psychosocial support into emergency response, training community health workers, and providing continuity of care for people with pre-existing conditions are low-cost measures with substantial benefit. The alternative is a population that survives the flood and carries the consequences for decades.
 
+The mental health burden outlasts the physical event by years. Post-disaster surveys consistently find elevated rates of post-traumatic stress, depression and anxiety, typically in the range of fifteen to twenty per cent of the exposed population, with severity tracking the degree of exposure and the loss of social support rather than the magnitude of the hazard alone. The concept of solastalgia, proposed by Glenn Albrecht in 2005, describes the distress produced by the degradation of one's home environment, and it captures something that clinical categories miss: grief for a place that is still there but no longer the same.
+
 ## 17.7 Surveillance and Early Warning
 
 The first requirement of an effective health response is knowing that something is happening. Heat-health warning systems link meteorological forecasts to health data and trigger actions when thresholds are crossed. The Ahmedabad heat action plan, developed after a 2010 heatwave killed more than 1,300 people, combined warnings, cooling centres, and outreach to vulnerable groups; a subsequent evaluation by Hess et al. (2018) estimated that it had prevented about 1,190 deaths a year.
@@ -2459,6 +2569,8 @@ The first requirement of an effective health response is knowing that something 
 Syndromic surveillance — monitoring emergency department visits, ambulance calls and pharmacy sales in near real time — can detect outbreaks and heat impacts earlier than formal reporting. Excess mortality analysis, which compares observed deaths with expected deaths, is the gold standard for measuring the true toll of a heatwave or a pandemic. Countries that invested in these systems during COVID-19 are better prepared for climate-related health shocks.
 
 Surveillance must be linked to action. A warning that does not trigger a response is only information. Effective systems specify who does what at each threshold: which agencies open cooling centres, which clinics extend hours, which community workers visit vulnerable residents, and how the public is informed. The plan should be tested before the event, because the first test should not be the emergency itself.
+
+Surveillance is the part of the health system that turns a hazard into a number, and its weakness is a form of blindness. Excess mortality during heatwaves is invisible in real-time because deaths are coded weeks later and attributed to proximate causes; syndromic surveillance, which tracks emergency admissions and pharmacy sales, can detect the signal earlier. Evaluations of heat early-warning systems in European cities find reductions in mortality of the order of a third when the warning is paired with action — cooling centres, home visits, adjusted working hours — and almost no effect when the warning is issued without a response protocol attached.
 
 ## 17.8 Outbreaks After Disasters
 
@@ -2468,6 +2580,8 @@ The risk is not inevitable. Rapid provision of safe water and sanitation, vaccin
 
 Climate change is expanding the range of vector-borne disease. Dengue, carried by Aedes mosquitoes, is spreading into new regions: 2024 saw record outbreaks in the Americas, with more than 12 million suspected cases, and local transmission has been reported in parts of Europe. Malaria is expanding into highland areas that were previously too cool for transmission. These shifts require surveillance and vector control to move faster than the mosquitoes.
 
+The old assumption that disasters produce epidemics has been replaced by a more precise picture: they produce outbreaks when they displace people into crowded conditions with contaminated water. Cholera in Yemen after 2016 produced more than a million suspected cases, and malaria surged in Pakistan after the 2022 floods. The 2010 cholera outbreak in Haiti, which killed thousands, was traced to sewage introduced by international peacekeepers, a reminder that the epidemic risk is partly created by the response itself. Sanitation, clean water and rapid laboratory confirmation are the interventions that matter, and they are unglamorous.
+
 ## 17.9 Workforce, Medicines and Supply Chains
 
 A health system is only as strong as its workforce and its supplies. Many countries face chronic shortages of doctors, nurses and community health workers, and the shortages are worst in the regions most exposed to climate change. Migration of health workers from low-income to high-income countries compounds the problem, leaving the poorest systems with the fewest staff.
@@ -2476,6 +2590,8 @@ Supply chains are equally fragile. Medicines, oxygen, vaccines and medical equip
 
 Resilience requires stockpiles, local manufacturing and diversified suppliers. It also requires cold chains that can survive power cuts, which means solar-powered refrigeration and backup systems at every level. The cost is modest relative to the consequence of a vaccine stock spoiled or an oxygen supply interrupted, and the benefit extends beyond climate to every kind of emergency.
 
+Workforce and medicines are the two resources that cannot be improvised. WHO estimates that a large share of health facilities in low-income countries lack essential medicines, and the shortage becomes acute when supply chains are disrupted by the same event that increases demand. The COVID-19 pandemic demonstrated the fragility of oxygen supply in middle-income countries, where a surge in demand exposed dependence on a small number of producers. Health worker migration compounds the problem: the countries with the highest climate exposure are often the ones whose trained staff are recruited away, leaving facilities staffed below the threshold needed for routine care, let alone a surge.
+
 ## 17.10 Universal Health Coverage and Resilient Systems
 
 The most effective protection against climate-related health risk is a health system that people can access without financial ruin. Universal health coverage reduces vulnerability because it ensures that people seek care early, that chronic conditions are managed, and that the costs of disaster-related illness do not push households into poverty. Countries with strong primary care systems consistently show better outcomes in disasters than countries with fragmented, market-based systems.
@@ -2483,6 +2599,8 @@ The most effective protection against climate-related health risk is a health sy
 The World Health Organization's operational framework for climate-resilient health systems identifies six building blocks: leadership and governance, financing, workforce, medical products, information systems, and service delivery. Each must be assessed for climate risk and strengthened accordingly. The framework is useful because it makes resilience a matter of routine management rather than a separate project.
 
 Financing is the binding constraint. The adaptation finance gap for health is large: the World Health Organization has estimated that low- and middle-income countries need several billion dollars a year to strengthen health systems against climate risks, while actual flows are a fraction of that. Closing the gap is not only a matter of money; it is a matter of priorities, because health is consistently underfunded relative to its contribution to well-being.
+
+Universal health coverage is a climate adaptation strategy, though it is rarely described that way. WHO and the World Bank estimate that roughly half the world's population is not fully covered by essential health services, and that out-of-pocket payments push around a hundred million people into poverty each year. A household that must choose between treatment and food after a disaster is a household whose recovery is already compromised, and the debt incurred during the emergency shapes the next decade. Financial protection is therefore not a separate policy domain; it determines whether the health system can absorb a shock without transferring it to households.
 
 ## 17.11 Case Study: The 2003 European Heatwave
 
@@ -2495,6 +2613,8 @@ The political reaction was severe. The French health minister resigned, and the 
 The systems appear to have worked. When Europe experienced extreme heat in 2022, with temperatures exceeding 40 °C in several countries, the estimated death toll was about 61,700 — still very high, but substantially lower than 2003 relative to the intensity and duration of the heat. Analysis by Ballester et al. (2023) attributed the reduction to improved preparedness, adaptation and public awareness.
 
 The lessons are clear. Heat is a mass casualty event that requires a public health response, not merely a weather warning. The most vulnerable are the isolated elderly, who need active outreach rather than general advice. Preparedness saves lives even when the hazard worsens, which is the central argument for adaptation. And the measure of a response is not the number of alerts issued but the number of people reached and protected.
+
+The 1995 Chicago heatwave remains the canonical case because the mortality was so clearly social. More than seven hundred people died in a week, and the deaths were concentrated in poor, Black neighbourhoods with high crime rates and low social cohesion, while demographically similar areas with denser community networks fared better. Eric Klinenberg's study of the event showed that the difference was not temperature but the number of people who would notice an elderly neighbour was missing. The lesson for health systems is that the last mile of heat response is a knock on a door, and that no amount of forecasting substitutes for it.
 
 ## 17.12 Future Scenarios and Predictions: Health Systems in 2050
 
@@ -2532,6 +2652,8 @@ The Ahr valley flood is a case about governance rather than meteorology. The rai
 
 This chapter examines the social and political infrastructure of survival: the networks that help neighbours, the institutions that issue warnings and organise response, and the governance arrangements that determine whether protection reaches the people who need it. It argues that social capital and public institutions are not alternatives but complements, and that the quality of governance is one of the strongest predictors of how many people die when hazard strikes.
 
+Disaster response is usually imagined as a command structure, and in practice it is a network. The people who pull neighbours from rubble, share generators, open kitchens and circulate warnings are not following an incident command chart; they are acting on relationships that existed before the event. Social capital is the least expensive resilience asset and the hardest to purchase, because it is produced by ordinary association over years and destroyed quickly by displacement, fear and inequality.
+
 ## 18.1 Social Capital as a Survival Resource
 
 Social capital refers to the networks, norms and trust that enable people to act together. It is not a metaphor: it can be measured, and it predicts outcomes. Sociologists distinguish bonding capital, which links people who are similar and close, bridging capital, which links people across different groups, and linking capital, which connects citizens to institutions with power. Each plays a different role in a disaster.
@@ -2539,6 +2661,8 @@ Social capital refers to the networks, norms and trust that enable people to act
 Bonding capital provides immediate help: the neighbour who checks on an elderly resident, the family that shares water, the congregation that opens its hall. Bridging capital provides access to resources outside the immediate circle: the community group that knows how to apply for aid, the network that can mobilise volunteers. Linking capital determines whether a community can influence the institutions that decide where the levee is built and who receives compensation.
 
 Daniel Aldrich, in a series of studies of disaster recovery in Japan, India and the United States, found that social capital predicted recovery better than income, damage or government spending. Communities with dense networks recovered faster because they could share information, allocate resources and hold institutions accountable. The finding is important because it suggests that resilience is not only bought with money; it is also built through relationships.
+
+The concept has a long and contested history. Pierre Bourdieu treated social capital as a resource that individuals mobilise to reproduce advantage; Robert Putnam treated it as a property of communities, measured by participation in associations and trust in neighbours. The distinction between bonding capital, which links people who are alike, bridging capital, which links people across difference, and linking capital, which connects communities to institutions, is the most useful part of the framework for disaster work. Bonding capital gets people through the first night; bridging capital gets them access to resources outside their own group; linking capital determines whether aid actually arrives.
 
 ## 18.2 The Evidence: Neighbourhoods and Survival
 
@@ -2548,6 +2672,8 @@ The mechanism was social, not physiological. Elderly people in Little Village we
 
 Similar findings appear in studies of floods, hurricanes and wildfires. Social isolation is consistently associated with higher mortality, and neighbourhood cohesion with lower mortality. The implication for policy is that programmes which build connection — community centres, neighbourhood associations, volunteer networks, outreach to isolated residents — are forms of disaster preparedness, even when they are not framed that way.
 
+The empirical case is strongest where it is most surprising. Daniel Aldrich's study of the 1995 Kobe earthquake found that the strength of neighbourhood social ties predicted recovery as powerfully as the physical damage to housing, and his later work across Japan, India and the United States reproduced the finding: communities with denser networks recover faster, independent of income and government spending. The mechanism is not mysterious. Neighbours share information, lend tools, watch children, and advocate for each other with agencies, and each of those acts substitutes for a formal service that is overwhelmed.
+
 ## 18.3 Mutual Aid and Volunteer Response
 
 When formal systems are overwhelmed, people organise. After Hurricane Katrina, the Cajun Navy — a loose network of volunteers with boats — rescued thousands of people from flooded neighbourhoods. After Hurricane Sandy, Occupy Sandy organised volunteers to deliver supplies to areas that official relief had not reached. After the 2017 Mexico City earthquake, civilian brigades known as topos dug survivors out of rubble before professional teams arrived.
@@ -2555,6 +2681,8 @@ When formal systems are overwhelmed, people organise. After Hurricane Katrina, t
 Mutual aid is most effective when it is connected to formal systems rather than replacing them. Volunteers know local conditions and can move faster, but they lack equipment, training and coordination capacity. The best outcomes occur when formal agencies create spaces for volunteers, provide information and logistics, and avoid treating them as a threat to command and control.
 
 The Kerala floods of 2018 illustrate the point. The state government mobilised fishing communities, whose boats and knowledge of local waters were essential for rescuing people from flooded areas. The collaboration worked because the government recognised the fishers as partners and provided fuel, coordination and information. It was not spontaneous harmony; it was organised cooperation.
+
+Mutual aid is the practice that turns social capital into material help, and it is usually more effective than it is credited. During the 2018 Kerala floods, fishing communities used their boats to rescue thousands of people before official teams could reach them; during the 2011 Tōhoku disaster, volunteers and local organisations distributed food faster than the municipal system; after Hurricane Sandy, the Occupy movement's relief network outperformed several agencies in the first week. The problems are also real: volunteers converge on the wrong places, duplicate effort, and lack insurance and coordination, which is why the best practice is to fund and integrate existing groups rather than to formalise them into the response.
 
 ## 18.4 The Warning Chain and the Last Mile
 
@@ -2564,6 +2692,8 @@ The last mile is the hardest. Even when a warning is issued, it may not reach pe
 
 Trust determines whether the message is believed. Communities that have experienced accurate warnings in the past are more likely to respond to the next one; communities that have been ignored or misled are less likely. Building trust requires consistency, transparency about uncertainty, and visible follow-through. It is slow to build and fast to lose, which is why it belongs in the same category as physical infrastructure.
 
+The warning chain is only as strong as its last link, and the last link is a human being deciding to move. The 2004 Indian Ocean tsunami killed roughly 230,000 people because no warning system existed, but the 2018 Sulawesi earthquake and tsunami killed thousands in a country that had one, because the warning did not reach the right people in time and the sirens had been damaged. Studies of evacuation behaviour find that people act on a warning when it is confirmed by someone they trust, when they know where to go, and when the route is usable — three conditions that are social and physical, not merely technical.
+
 ## 18.5 Institutions, Trust and Risk Governance
 
 The quality of government is one of the strongest determinants of disaster outcomes. Countries with effective bureaucracies, well-funded emergency services and honest procurement suffer fewer deaths and recover faster than countries with the same hazard exposure and weaker institutions. The contrast between the 2010 earthquakes in Haiti and Chile is often cited: Haiti's magnitude 7.0 earthquake killed more than 200,000 people, while Chile's magnitude 8.8 earthquake three weeks later killed about 500, largely because of building standards, preparedness and response capacity.
@@ -2571,6 +2701,8 @@ The quality of government is one of the strongest determinants of disaster outco
 Trust matters because compliance depends on it. People who trust official warnings are more likely to evacuate, to accept restrictions and to cooperate with relief. Trust is built through competence, honesty and fairness, and it is damaged by failures, contradictions and perceived favouritism. The pandemic illustrated how quickly trust can erode when messaging is inconsistent, and how costly that erosion is.
 
 Risk governance requires coordination across levels and sectors. A heat plan involves health, meteorology, social services, utilities and civil society; a flood plan involves water management, land use, emergency services and infrastructure. The failure mode is fragmentation, where each agency optimises its own mandate and no one is accountable for the whole. Effective governance assigns clear responsibility, provides resources, and requires coordination.
+
+Trust is the variable that determines whether a warning becomes an action. Survey research on risk governance consistently finds that trust in authorities predicts protective behaviour more strongly than the accuracy of the information, and that a single perceived betrayal can undo years of credible communication. The mechanism cuts both ways: populations that trust their institutions comply even with imperfect advice, and populations that do not comply even when the advice is correct. Rebuilding trust after a failure — a missed warning, a delayed evacuation, a relief fund that did not arrive — is slow work that begins with admitting the failure.
 
 ## 18.6 Decentralisation and Local Capacity
 
@@ -2580,6 +2712,8 @@ Indonesia's village law, which gave villages substantial budgets and authority, 
 
 The design question is how to build local capacity without creating local capture. That requires transparent budgets, participatory planning, external audit and support from higher levels of government. It also requires time, because institutions develop through practice. A decentralisation that begins five years before a disaster is unlikely to produce capable institutions by the time it arrives.
 
+Decentralisation moves decisions closer to the people who bear the consequences, and it also moves the capacity problem closer to them. Indonesia's village fund, which allocates roughly a billion rupiah to each village annually, gave communities a budget for drainage, roads and preparedness that had previously existed only on paper, and it produced wide variation in how well the money was used. The lesson is not that decentralisation fails but that it requires the unglamorous accompaniments: local technical advice, transparent budgeting, and a way to audit spending that does not depend on a distant ministry.
+
 ## 18.7 Corruption, Capture and Reconstruction
 
 Disasters create large flows of money, and large flows of money create opportunities for corruption. Reconstruction contracts, relief distribution and land deals are all vulnerable. In some cases, the result is that aid does not reach survivors; in others, it reaches them in inferior form, with buildings that fail in the next event.
@@ -2587,6 +2721,8 @@ Disasters create large flows of money, and large flows of money create opportuni
 Elite capture is a subtler problem. Relief and reconstruction can reinforce existing inequalities if the people who control distribution also control access to information, land and credit. Post-disaster land grabs have been documented in several countries, particularly where tenure was informal before the event. Women, renters and informal residents are often the most exposed to these dynamics.
 
 The antidote is transparency. Publishing beneficiary lists, contract awards and spending data allows communities and journalists to hold institutions accountable. Independent audits, community monitoring and grievance mechanisms can catch problems early. None of these is sufficient alone, but together they make corruption more difficult and more visible, which is often enough to change behaviour.
+
+Disaster reconstruction is one of the most corruption-prone activities a state undertakes, because it combines large budgets, emergency procurement, weak oversight and a population that cannot wait. Studies of post-disaster reconstruction have documented leakage rates of a fifth or more in some programmes, and the losses are not only financial: a school built with substandard concrete is a future casualty. After the 2004 tsunami, the Aceh reconstruction effort, one of the largest ever mounted, exposed both the scale of the risk and the value of independent monitoring, public beneficiary lists and community audits in reducing it.
 
 ## 18.8 Disaster Risk Finance and Accountability
 
@@ -2596,6 +2732,8 @@ The Caribbean Catastrophe Risk Insurance Facility, established in 2007, is an ex
 
 Accountability is the other side of finance. Governments that receive adaptation and relief funds should be required to report how they were spent, and parliaments, audit institutions and civil society should have the capacity to scrutinise. Without accountability, finance can be absorbed without reducing risk, which is one reason why the correlation between aid received and resilience achieved is weaker than it should be.
 
+Disaster risk finance is the attempt to move the cost of catastrophe from the aftermath to a predictable instrument. Sovereign risk pools, such as the Caribbean Catastrophe Risk Insurance Facility and the African Risk Capacity, sell parametric cover that pays out when a measured trigger is met — wind speed, rainfall, earthquake magnitude — rather than after loss assessment. The advantage is speed; the drawback is basis risk, because the trigger may not match the damage, leaving a government with a payout that does not cover its needs or no payout despite severe losses. Insurance complements reserves and social protection; it does not replace them.
+
 ## 18.9 Regional and International Cooperation
 
 Climate hazards do not respect borders. Storms cross coastlines, rivers flow across countries, and displacement spills over frontiers. Regional cooperation can improve early warning, share resources and coordinate response. The ASEAN Coordinating Centre for Humanitarian Assistance on Disaster Management (AHA Centre) is an example: it maintains stockpiles, coordinates regional response and supports member states during emergencies.
@@ -2604,6 +2742,8 @@ International cooperation is most effective when it supports local institutions 
 
 Climate finance is also a form of governance. The commitment by wealthy countries to provide US$100 billion a year in climate finance has been met late and unevenly, and the adaptation share remains far below what vulnerable countries need. The gap is not only a matter of money; it is a matter of trust, because countries that promised and did not deliver have less credibility when they ask for cooperation on emissions.
 
+Regional cooperation matters because hazards do not respect borders and because small states cannot carry the cost alone. The ASEAN Agreement on Disaster Management and Emergency Response established a framework for joint response and a standby arrangement for relief supplies, though its activation has been limited by the association's principle of non-interference. The Sendai Framework, adopted in 2015, shifted global attention from disaster response to risk reduction and set targets for mortality, affected population and economic loss, but its indicators depend on national reporting that is uneven in quality and coverage.
+
 ## 18.10 Polycentric Governance and Learning
 
 No single institution can manage climate risk. The most effective systems are polycentric: many centres of decision-making, connected by rules and information, each able to act within its domain. Elinor Ostrom's work on governing the commons showed that communities can manage shared resources effectively when they have clear boundaries, rules that fit local conditions, and mechanisms for collective choice.
@@ -2611,6 +2751,8 @@ No single institution can manage climate risk. The most effective systems are po
 Polycentric systems are resilient because they do not depend on a single point of failure. If a national agency is slow, a city can act; if a city is captured, a community group can organise. But polycentricity is not anarchy: it requires coordination, shared information and accountability. The challenge is to design systems that allow local initiative while ensuring that the most vulnerable are not left out.
 
 Learning is the final requirement. Institutions that treat each disaster as a lesson, investigate what happened, and change their procedures are more resilient than those that do not. The inquiry into the Ahr valley flood led to the introduction of cell broadcast warnings in Germany; the inquiry into Hurricane Katrina led to reforms in emergency management. Learning requires the political willingness to accept criticism, which is often in short supply when blame is at stake.
+
+The idea that best describes how resilience actually works is polycentric governance, developed by Elinor Ostrom: many centres of decision-making, formally independent, that adjust through mutual learning rather than through a single hierarchy. Polycentric systems are messier than command systems and more adaptable, because failure in one node does not propagate to all. The design implication is not to abolish central authority but to ensure that households, neighbourhoods, municipalities, provinces and national agencies each have real capacity and clear boundaries, and that information flows between them in both directions.
 
 ## 18.11 Case Study: The Ahr Valley Flood, Germany 2021
 
@@ -2623,6 +2765,8 @@ The failure was distributed across the chain. Forecasts were available but not t
 The response after the event was substantial. Investigations were commissioned, responsibilities were clarified, and warning systems were improved. The flood became a reference point for German disaster policy, and it changed public expectations about warning and preparedness. The lesson was not that Germany lacked capacity; it was that capacity must be organised into a chain that reaches the last household.
 
 For other countries, the lessons are specific. Warnings must be specific and actionable, not merely meteorological. Multiple channels must be used, including ones that do not depend on electricity or internet. Local officials need clear authority and training to order evacuation. And the public must be educated about what warnings mean, so that a warning is not dismissed as routine. Each of these is a governance task, not a technological one.
+
+The clearest demonstration of social capital in modern disaster is the comparison between Hurricane Katrina in 2005 and the response to the 2016 flooding in Louisiana. In both events the formal system was overwhelmed, but in Louisiana the 'Cajun Navy' — a loose flotilla of private boat owners coordinated through social media — rescued thousands of people in the first days. The group was not a replacement for public services, and its unregulated presence created coordination problems. It was, however, an expression of the same finding that runs through this chapter: the capacity to respond is distributed through a population long before it is organised into an agency.
 
 ## 18.12 Future Scenarios and Predictions: Governance in 2050
 
