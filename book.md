@@ -4167,22 +4167,16 @@ This book is written to be argued with. When you contest or extend one of its cl
 
 # Appendix D: References
 
-- Adger, W.N. 2006. Vulnerability. *Global Environmental Change* 16(3): 268–281.
+## Works Cited
+
 - Albrecht, G. 2005. Solastalgia: A new concept in health and identity. *PAN: Philosophy Activism Nature* 3: 44–59.
-- Aldrich, D.P. & Meyer, M.A. 2015. Social capital and community resilience. *American Behavioral Scientist* 59(2): 254–269.
-- Andersen, Inger. 2023. *Adaptation Gap Report 2023*. UNEP, Nairobi.
-- Anderson, Kevin. 2020. *Carbon budgets and fossil exploration critiques*. Tyndall Centre, Manchester.
 - Armstrong McKay, D.I. et al. 2022. Exceeding 1.5°C global warming could trigger multiple climate tipping points. *Science* 377(6611): eabn7950.
-- Arrhenius, S. 1896. On the influence of carbonic acid in the air upon the temperature of the ground. *Philosophical Magazine* 41(251): 237–276.
 - Ballester, J. et al. 2023. Heat-related mortality in Europe during the summer of 2022. *Nature Medicine* 29: 1857–1866.
-- Berkes, F. & Ross, H. 2013. Community resilience: toward an integrated approach. *Society & Natural Resources* 26(1): 5–20.
-- Birol, Fatih. 2023. *World Energy Outlook 2023*. International Energy Agency, Paris.
 - Brunkard, J., Namulanda, G. & Ratard, R. 2008. Hurricane Katrina deaths, Louisiana, 2005. *Disaster Medicine and Public Health Preparedness* 2(4): 215–223.
 - Buhaug, H. 2015. Climate-conflict research: some reflections on the way forward. *WIREs Climate Change* 6(3): 269–275.
 - Burke, M., Hsiang, S.M. & Miguel, E. 2015. Global non-linear effect of temperature on economic production. *Nature* 527: 235–239.
 - Caesar, L. et al. 2021. Current Atlantic meridional overturning circulation weakest in last millennium. *Nature Geoscience* 14: 118–120.
 - CAL FIRE. 2019. *Camp Fire incident report*. California Department of Forestry and Fire Protection, Sacramento.
-- Canadell, Pep et al. 2021. *Global Carbon Project: Fossil Emissions Trends*. Global Carbon Project.
 - Carleton, T.A. & Hsiang, S.M. 2016. *Social and economic impacts of climate*. Science 353(6304): aad9837.
 - Chancel, L. 2022. Global carbon inequality over 1990–2019. *Nature Sustainability* 5: 931–938.
 - Checchi, F. & Robinson, W.C. 2013. *Mortality among populations of southern and central Somalia affected by severe food insecurity and famine during 2010–2012*. FAO/FSNAU, Rome.
@@ -4193,42 +4187,27 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Clarke, B. et al. 2022. Extreme weather impacts of climate change: an attribution perspective. *Environmental Research: Climate* 1(1): 012001.
 - Clayton, S. 2020. Climate anxiety: Psychological responses to climate change. *Journal of Anxiety Disorders* 74: 102263.
 - Cook, John et al. 2013. Quantifying the consensus on anthropogenic global warming. *Environmental Research Letters* 8(2): 024024.
-- Cutter, S.L. et al. 2008. A place-based model for understanding community resilience. *Global Environmental Change* 18(4): 598–606.
 - de Waal, A. 1997. *Famine Crimes: Politics and the Disaster Relief Industry in Africa*. James Currey, Oxford.
-- Dessler, Andrew. 2021. *Introduction to Modern Climate Change*. Cambridge University Press.
 - Ditlevsen, P. & Ditlevsen, S. 2023. Warning of a forthcoming collapse of the Atlantic meridional overturning circulation. *Nature Communications* 14: 4254.
 - Doran, P.T. & Zimmerman, M.K. 2009. Examining the scientific consensus on climate change. *EOS* 90(3): 22–23.
 - Ebi, K.L. et al. 2021. Hot weather and heat extremes: health risks. *The Lancet* 398(10301): 698–708.
-- FAO. 2021. *Climate Change: Unpacking the Burden on Food Safety*. FAO, Rome.
-- FAO. 2022. *The State of the World's Land and Water Resources (SOLAW 2021)*. FAO, Rome.
 - FAO. 2023. *The State of Food Security and Nutrition in the World*. FAO, Rome.
 - FERC & NERC. 2021. *The February 2021 cold weather outages in Texas and the South Central United States*. Federal Energy Regulatory Commission, Washington DC.
-- Folke, C. et al. 2010. Resilience thinking. *Ecology and Society* 15(4): 20.
 - Friedlingstein, P. et al. 2024. Global Carbon Budget 2024. *Earth System Science Data*.
 - Friedlingstein, Pierre et al. 2023. *Global Carbon Budget 2023: carbon cycle and sinks*. Earth System Science Data.
 - Galea, S., Nandi, A. & Vlahov, D. 2005. The epidemiology of post-traumatic stress disorder after disasters. *Epidemiologic Reviews* 27(1): 78–91.
-- Ghosh, Amitav. 2016. *The Great Derangement: Climate Change and the Unthinkable*. University of Chicago Press.
 - Gleick, Peter H. 2023. *Water, Climate and Governance Crises*. Pacific Institute, Oakland.
-- Gore, Al. 2006. *An Inconvenient Truth: The Planetary Emergency of Global Warming and What We Can Do About It*. Rodale Press.
-- Haigh, Joanna D. 2020. *Solar Variability and Climate*. Imperial College Press.
 - Hanigan, I.C. et al. 2012. Suicide and drought in New South Wales, Australia, 1970–2007. *PNAS* 109(35): 13950–13955.
-- Hansen, J. et al. 2016. *Ice melt, sea level rise and superstorms: evidence from paleoclimate data, climate modeling, and modern observations that 2°C global warming could be dangerous*. Atmos. Chem. Phys. 16: 3761–3812.
-- Hausfather, Zeke et al. 2023. *Berkeley Earth Global Temperature Report 2023*. Berkeley Earth.
-- Hayhoe, K. 2021. *Saving Us: A Climate Scientist’s Case for Hope and Healing in a Divided World*. One Signal Publishers.
 - Hegerl, G.C. et al. 1996. Detecting greenhouse-gas-induced climate change with an optimal fingerprint method. *Journal of Climate* 9(10): 2281–2306.
 - Hersbach, H. et al. 2020. The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society* 146(730): 1999–2049.
 - Hess, J.J. et al. 2018. Building resilience to climate change: pilot evaluation of the impact of India's first heat action plan on all-cause mortality. *Journal of Environmental and Public Health* 2018: 7973519.
 - Hickman, C. et al. 2021. *Climate anxiety in children and young people*. The Lancet Planetary Health 5(12): e863–e873.
-- Howden, S.M. et al. 2007. Adapting agriculture to climate change. *PNAS* 104(50): 19691–19696.
-- Hsiang, S.M. & Burke, M. 2014. Climate, conflict, and social stability. *Climatic Change* 123: 39–55.
 - Hsiang, S.M., Burke, M. & Miguel, E. 2013. Quantifying the influence of climate on human conflict. *Science* 341(6151): 1235367.
 - IEA. 2023. *World Energy Outlook 2023*. International Energy Agency, Paris.
 - IFRC. 2022. *World Disasters Report 2022*. IFRC, Geneva.
 - ILO. 2019. *Working on a warmer planet: the impact of heat stress on labour productivity and decent work*. ILO, Geneva.
 - IMBIE. 2018. Mass balance of the Antarctic Ice Sheet from 1992 to 2017. *Nature* 558: 219–222.
-- IMF. 2022. *World Economic Outlook: War Sets Back Global Recovery*. IMF, Washington DC.
 - IPBES. 2019. *Global Assessment Report on Biodiversity and Ecosystem Services*. IPBES Secretariat, Bonn.
-- IPCC. 2018. *Global Warming of 1.5 C (SR15)*. IPCC, Geneva.
 - IPCC. 2019a. *Climate Change and Land (SRCCL)*. IPCC, Geneva.
 - IPCC. 2019b. *Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)*. IPCC, Geneva.
 - IPCC. 2021. *Climate Change 2021: The Physical Science Basis (AR6 WG1)*. Cambridge University Press.
@@ -4239,76 +4218,44 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Iungman, T. et al. 2023. Cooling cities through urban green infrastructure: a health impact assessment of European cities. *The Lancet* 401(10376): 577–589.
 - Kelley, C.P. et al. 2015. Climate change in the Fertile Crescent and implications of the recent Syrian drought. *PNAS* 112(11): 3241–3246.
 - Kishore, N. et al. 2018. Mortality in Puerto Rico after Hurricane Maria. *New England Journal of Medicine* 379: 162–170.
-- Klein, Naomi. 2014. *This Changes Everything: Capitalism vs*. The Climate. Simon & Schuster.
 - Klinenberg, E. 2002. *Heat Wave: A Social Autopsy of Disaster in Chicago*. University of Chicago Press.
-- Kolbert, Elizabeth. 2014. *The Sixth Extinction: An Unnatural History*. Henry Holt and Co.
 - Kotz, M., Levermann, A. & Wenz, L. 2024. The economic commitment of climate change. *Nature* 628: 551–557.
 - Kreienkamp, F. et al. 2021. *Rapid attribution of heavy rainfall events leading to the severe flooding in Western Europe during July 2021*. World Weather Attribution.
 - Kulp, S.A. & Strauss, B.H. 2019. New elevation data triple estimates of global vulnerability to sea-level rise. *Nature Communications* 10: 4844.
-- La Camera, Francesco. 2023. *World Energy Transitions Outlook 2023*. IRENA, Abu Dhabi.
-- Le Quéré, Corinne et al. 2023. Global Carbon Budget 2023. *Earth System Science Data* 15(12): 5301–5369.
 - Lenssen, N.J.L. et al. 2019. Improvements in the GISTEMP uncertainty model. *Journal of Geophysical Research: Atmospheres* 124(12): 6307–6326.
 - Lenton, T.M. et al. 2008. Tipping elements in the Earth's climate system. *PNAS* 105(6): 1786–1793.
 - Lindell, M.K. & Perry, R.W. 2012. The protective action decision model: theoretical modifications and additional evidence. *Risk Analysis* 32(4): 616–632.
-- Lobell, D.B., Schlenker, W. & Costa-Roberts, J. 2011. Climate trends and global crop production since 1980. *Science* 333(6042): 616–620.
 - Lynas, M. et al. 2021. Greater than 99% consensus on human caused climate change in the peer-reviewed scientific literature. *Environmental Research Letters* 16(11): 114005.
 - Mach, K.J. et al. 2019. Climate as a risk factor for armed conflict. *Nature* 571: 193–197.
-- Mann, M.E., Bradley, R.S. & Hughes, M.K. 1999. *Northern Hemisphere temperatures during the past millennium*. Geophys. Res. Lett., 26(6), 759-762 (hockey stick).
-- McKibben, Bill. 2019. *Falter: Has the Human Game Begun to Play Itself Out?*. Henry Holt and Co.
 - Morice, C.P. et al. 2021. *An updated assessment of near-surface temperature change from 1850: the HadCRUT5 dataset*. Journal of Geophysical Research: Atmospheres 126(3): e2019JD032361.
 - NASA. 2024. *Global Climate Change: Vital Signs*. climate.nasa.gov.
 - Neumann, B. et al. 2015. *Future coastal population growth and exposure to sea-level rise and coastal flooding*. PLOS ONE 10(3): e0118571.
 - NOAA. 2024. *State of the Climate*. ncei.noaa.gov.
 - NOAA. 2025. *Trends in Atmospheric Carbon Dioxide*. Global Monitoring Laboratory, Boulder.
 - Notz, D. & Stroeve, J. 2016. Observed Arctic sea-ice loss directly follows anthropogenic CO2 emission. *Science* 354(6313): 747–750.
-- Obradovich, N. et al. 2018. Empirical evidence of mental health risks posed by climate change. *PNAS* 115(43): 10953–10958.
-- OECD. 2021. *Managing Climate Risks, Facing Essential Challenges*. OECD, Paris.
-- OECD. 2023. *Climate Finance Provided and Mobilised by Developed Countries*. OECD, Paris.
-- Oppenheimer, M. et al. 2019. *Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities*. SROCC Chapter 4.
-- Oreskes, Naomi & Conway, Erik M. 2010. *Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming*. Bloomsbury Press.
-- Otto, F.E.L. et al. 2021. *Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change*. World Weather Attribution.
 - Philip, S.Y. et al. 2022. Rapid attribution analysis of the extraordinary heatwave on the Pacific coast of the US and Canada in June 2021. *Earth System Dynamics* 13: 1689–1713.
-- Red Cross. 2020. *Heat Waves: A Silent Killer*. IFRC, Geneva.
 - Robine, J.-M. et al. 2008. Death toll exceeded 70,000 in Europe during the summer of 2003. *Comptes Rendus Biologies* 331(2): 171–178.
-- Robinson, Kim Stanley. 2020. *The Ministry for the Future*. Orbit Books.
-- Rockström, J. et al. 2009. *A safe operating space for humanity*. Nature, 461, 472-475; Richardson et al. (2023). Planetary boundaries update. Sci. Adv., 9.
 - Rohde, R.A. & Hausfather, Z. 2020. The Berkeley Earth land/ocean temperature record. *Earth System Science Data* 12: 3469–3479.
-- Romanello, M. et al. 2023. The 2023 report of the Lancet Countdown. *The Lancet* 402(10419): 2346–2394.
 - Romanello, M. et al. 2024. The 2024 report of the Lancet Countdown on health and climate change. *The Lancet* 404(10465): 1847–1896.
-- Roy, Joyashree et al. 2019. *Sustainable Land Management and Climate*. IPCC SRCCL Chapter 4.
-- Schlosberg, D. 2007. *Defining Environmental Justice: Theories, Movements, and Nature*. Oxford University Press.
 - Selby, J. et al. 2017. Climate change and the Syrian civil war revisited. *Political Geography* 60: 232–244.
 - Sen, A. 1981. *Poverty and Famines: An Essay on Entitlement and Deprivation*. Oxford University Press.
 - Shepherd, A. et al. 2020. Mass balance of the Greenland Ice Sheet from 1992 to 2018. *Nature* 579: 233–239.
 - Sherwood, S.C. & Huber, M. 2010. An adaptability limit to climate change due to heat stress. *PNAS* 107(21): 9552–9555.
 - Steffen, W. et al. 2015. Planetary boundaries: guiding human development on a changing planet. *Science* 347(6223): 1259855.
-- Steffen, W. et al. 2018. Trajectories of the Earth System in the Anthropocene. *PNAS* 115(33): 8252–8259.
-- Stern, N. 2007. *The Economics of Climate Change: The Stern Review*. Cambridge University Press.
 - Stott, P.A., Stone, D.A. & Allen, M.R. 2004. Human contribution to the European heatwave of 2003. *Nature* 432: 610–614.
 - Trenberth, K.E., Fasullo, J.T. & Kiehl, J. 2009. Earth's global energy budget. *Bulletin of the American Meteorological Society* 90(3): 311–323.
-- Tyndall, J. 1861. The Bakerian Lecture: on the absorption and radiation of heat by gases and vapours. *Philosophical Transactions of the Royal Society* 151: 1–36.
-- UNDP. 2022. *Human Development Report 2021/22*. UNDP, New York.
 - UNDRR. 2015. *Sendai Framework for Disaster Risk Reduction 2015-2030*. UNDRR, Geneva.
 - UNDRR. 2022. *Global Assessment Report on Disaster Risk Reduction 2022: Our World at Risk*. UNDRR, Geneva.
 - UNDRR. 2023. *Global Assessment Report on Disaster Risk Reduction 2023: Mapping Resilience for the Sustainable Development Goals*. UNDRR, Geneva.
-- UNEP. 2022. *Emissions Gap Report 2022*. UNEP, Nairobi.
 - UNEP. 2023. *Adaptation Gap Report 2023*. UNEP, Nairobi.
-- UNESCO. 2020. *Education for Sustainable Development: A Roadmap*. UNESCO, Paris.
 - UNESCO. 2021. *Getting Every School Climate-Ready*. UNESCO, Paris.
 - UNHCR. 2023. *Climate Change and Displacement*. unhcr.org.
-- United Nations. 2015a. *2030 Agenda for Sustainable Development*. UN, New York.
-- United Nations. 2015b. *Paris Agreement*. unfccc.int.
 - Vecellio, D.J. et al. 2022. Evaluating the 35°C wet-bulb temperature adaptability threshold for young, healthy subjects. *Journal of Applied Physiology* 132(2): 340–345.
-- Vicedo-Cabrera, A.M. et al. 2021. Burden of heat-related mortality attributable to recent human-induced climate change. *Nature Climate Change* 11: 492–500.
 - Victorian Bushfires Royal Commission. 2010. *Final report*. Parliament of Victoria, Melbourne.
-- Wallace-Wells, David. 2019. *The Uninhabitable Earth: Life After Warming*. Crown Publishing.
 - Warren, R. et al. 2018. The projected effect on insects, vertebrates, and plants of limiting global warming to 1.5°C rather than 2°C. *Science* 360(6390): 791–795.
 - Watts, N. et al. 2021. The 2021 report of the Lancet Countdown on health and climate change. *The Lancet* 398(10311): 1619–1662.
-- Wheeler, T. & von Braun, J. 2013. Climate change impacts on global food security. *Science* 341(6145): 508–513.
 - WHO & UNICEF. 2023. *Progress on Household Drinking Water, Sanitation and Hygiene 2000-2022*. JMP.
-- WHO. 2021. *COP26 Special Report on Climate Change and Health*. WHO, Geneva.
 - WHO. 2023. *Climate Change and Health Fact Sheet*. who.int.
-- WMO. 2022. *Early Warnings for All*. WMO, Geneva.
 - WMO. 2023. *State of the Global Climate 2023*. World Meteorological Organization, Geneva.
 - WMO. 2025. *State of the Global Climate 2024*. World Meteorological Organization, Geneva.
 - World Bank. 2021. *Groundswell: Acting on Internal Climate Migration*. World Bank, Washington DC.
@@ -4318,6 +4265,65 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Zemp, M. et al. 2019. Global glacier mass changes and their contributions to sea-level rise from 1961 to 2016. *Nature* 568: 382–386.
 - Zhao, C. et al. 2017. Temperature increase reduces global yields of major crops. *PNAS* 114(35): 9326–9331.
 
+## Further Reading
+
+These works informed the book's background but are not cited in the text.
+
+- Adger, W.N. 2006. Vulnerability. *Global Environmental Change* 16(3): 268–281.
+- Aldrich, D.P. & Meyer, M.A. 2015. Social capital and community resilience. *American Behavioral Scientist* 59(2): 254–269.
+- Andersen, Inger. 2023. *Adaptation Gap Report 2023*. UNEP, Nairobi.
+- Anderson, Kevin. 2020. *Carbon budgets and fossil exploration critiques*. Tyndall Centre, Manchester.
+- Arrhenius, S. 1896. On the influence of carbonic acid in the air upon the temperature of the ground. *Philosophical Magazine* 41(251): 237–276.
+- Berkes, F. & Ross, H. 2013. Community resilience: toward an integrated approach. *Society & Natural Resources* 26(1): 5–20.
+- Birol, Fatih. 2023. *World Energy Outlook 2023*. International Energy Agency, Paris.
+- Canadell, Pep et al. 2021. *Global Carbon Project: Fossil Emissions Trends*. Global Carbon Project.
+- Cutter, S.L. et al. 2008. A place-based model for understanding community resilience. *Global Environmental Change* 18(4): 598–606.
+- Dessler, Andrew. 2021. *Introduction to Modern Climate Change*. Cambridge University Press.
+- FAO. 2021. *Climate Change: Unpacking the Burden on Food Safety*. FAO, Rome.
+- FAO. 2022. *The State of the World's Land and Water Resources (SOLAW 2021)*. FAO, Rome.
+- Folke, C. et al. 2010. Resilience thinking. *Ecology and Society* 15(4): 20.
+- Ghosh, Amitav. 2016. *The Great Derangement: Climate Change and the Unthinkable*. University of Chicago Press.
+- Gore, Al. 2006. *An Inconvenient Truth: The Planetary Emergency of Global Warming and What We Can Do About It*. Rodale Press.
+- Haigh, Joanna D. 2020. *Solar Variability and Climate*. Imperial College Press.
+- Hansen, J. et al. 2016. *Ice melt, sea level rise and superstorms: evidence from paleoclimate data, climate modeling, and modern observations that 2°C global warming could be dangerous*. Atmos. Chem. Phys. 16: 3761–3812.
+- Hausfather, Zeke et al. 2023. *Berkeley Earth Global Temperature Report 2023*. Berkeley Earth.
+- Hayhoe, K. 2021. *Saving Us: A Climate Scientist’s Case for Hope and Healing in a Divided World*. One Signal Publishers.
+- Howden, S.M. et al. 2007. Adapting agriculture to climate change. *PNAS* 104(50): 19691–19696.
+- Hsiang, S.M. & Burke, M. 2014. Climate, conflict, and social stability. *Climatic Change* 123: 39–55.
+- IMF. 2022. *World Economic Outlook: War Sets Back Global Recovery*. IMF, Washington DC.
+- IPCC. 2018. *Global Warming of 1.5 C (SR15)*. IPCC, Geneva.
+- Klein, Naomi. 2014. *This Changes Everything: Capitalism vs*. The Climate. Simon & Schuster.
+- Kolbert, Elizabeth. 2014. *The Sixth Extinction: An Unnatural History*. Henry Holt and Co.
+- La Camera, Francesco. 2023. *World Energy Transitions Outlook 2023*. IRENA, Abu Dhabi.
+- Le Quéré, Corinne et al. 2023. Global Carbon Budget 2023. *Earth System Science Data* 15(12): 5301–5369.
+- Lobell, D.B., Schlenker, W. & Costa-Roberts, J. 2011. Climate trends and global crop production since 1980. *Science* 333(6042): 616–620.
+- Mann, M.E., Bradley, R.S. & Hughes, M.K. 1999. *Northern Hemisphere temperatures during the past millennium*. Geophys. Res. Lett., 26(6), 759-762 (hockey stick).
+- McKibben, Bill. 2019. *Falter: Has the Human Game Begun to Play Itself Out?*. Henry Holt and Co.
+- Obradovich, N. et al. 2018. Empirical evidence of mental health risks posed by climate change. *PNAS* 115(43): 10953–10958.
+- OECD. 2021. *Managing Climate Risks, Facing Essential Challenges*. OECD, Paris.
+- OECD. 2023. *Climate Finance Provided and Mobilised by Developed Countries*. OECD, Paris.
+- Oppenheimer, M. et al. 2019. *Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities*. SROCC Chapter 4.
+- Oreskes, Naomi & Conway, Erik M. 2010. *Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming*. Bloomsbury Press.
+- Otto, F.E.L. et al. 2021. *Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change*. World Weather Attribution.
+- Red Cross. 2020. *Heat Waves: A Silent Killer*. IFRC, Geneva.
+- Robinson, Kim Stanley. 2020. *The Ministry for the Future*. Orbit Books.
+- Rockström, J. et al. 2009. *A safe operating space for humanity*. Nature, 461, 472-475; Richardson et al. (2023). Planetary boundaries update. Sci. Adv., 9.
+- Romanello, M. et al. 2023. The 2023 report of the Lancet Countdown. *The Lancet* 402(10419): 2346–2394.
+- Roy, Joyashree et al. 2019. *Sustainable Land Management and Climate*. IPCC SRCCL Chapter 4.
+- Schlosberg, D. 2007. *Defining Environmental Justice: Theories, Movements, and Nature*. Oxford University Press.
+- Steffen, W. et al. 2018. Trajectories of the Earth System in the Anthropocene. *PNAS* 115(33): 8252–8259.
+- Stern, N. 2007. *The Economics of Climate Change: The Stern Review*. Cambridge University Press.
+- Tyndall, J. 1861. The Bakerian Lecture: on the absorption and radiation of heat by gases and vapours. *Philosophical Transactions of the Royal Society* 151: 1–36.
+- UNDP. 2022. *Human Development Report 2021/22*. UNDP, New York.
+- UNEP. 2022. *Emissions Gap Report 2022*. UNEP, Nairobi.
+- UNESCO. 2020. *Education for Sustainable Development: A Roadmap*. UNESCO, Paris.
+- United Nations. 2015a. *2030 Agenda for Sustainable Development*. UN, New York.
+- United Nations. 2015b. *Paris Agreement*. unfccc.int.
+- Vicedo-Cabrera, A.M. et al. 2021. Burden of heat-related mortality attributable to recent human-induced climate change. *Nature Climate Change* 11: 492–500.
+- Wallace-Wells, David. 2019. *The Uninhabitable Earth: Life After Warming*. Crown Publishing.
+- Wheeler, T. & von Braun, J. 2013. Climate change impacts on global food security. *Science* 341(6145): 508–513.
+- WHO. 2021. *COP26 Special Report on Climate Change and Health*. WHO, Geneva.
+- WMO. 2022. *Early Warnings for All*. WMO, Geneva.
 # Appendix E: About the Author
 
 **Setyo Wisodo** is a professional working across AI development, product management and digital marketing, with a focus on AI-based solutions and digital products. Based in Indonesia.

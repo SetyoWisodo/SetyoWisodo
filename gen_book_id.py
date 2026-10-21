@@ -960,11 +960,7 @@ index_terms = sorted(set([
 for t in index_terms:
     md.append(f"- {t}")
 md.append("")
-md.append("# Lampiran D: Daftar Pustaka (Referensi Lanjutan)")
-md.append("")
-for r in sorted(REFS, key=lambda x: x.lower()):
-    md.append(f"- {r}")
-md.append("")
+md.append("@@REFS@@")
 md.append("# Lampiran E: Biografi Penulis")
 md.append("")
 md.append("**Setyo Wisodo** adalah profesional yang menggabungkan keahlian dalam Pengembangan AI, Manajemen Produk, dan Pemasaran Digital. Aktif dalam pengembangan solusi berbasis AI dan produk digital. Lokasi: Indonesia.")
@@ -1014,6 +1010,14 @@ md.append("")
 content = "\n".join(md)
 import gate1
 content, n_cit = gate1.apply(content, "id")
+import cited as _cited
+_cited_refs, _further_refs = _cited.split_refs(REFS, _cited.pairs(content))
+_refs_md = ["# Lampiran D: Daftar Pustaka", "", "## Karya yang Dikutip", ""]
+_refs_md += [f"- {r}" for r in _cited_refs]
+_refs_md += ["", "## Bacaan Lanjutan", "",
+             "Karya berikut memperkaya latar penulisan tetapi tidak dikutip dalam teks.", ""]
+_refs_md += [f"- {r}" for r in _further_refs]
+content = content.replace("@@REFS@@", "\n".join(_refs_md))
 print("gate1 citations added:", n_cit)
 with open('/home/user/SetyoWisodo/book_id.md','w',encoding='utf-8') as f:
     f.write(content)

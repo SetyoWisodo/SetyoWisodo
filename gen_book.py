@@ -970,11 +970,7 @@ index_terms = sorted(set([
 for t in index_terms:
     md.append(f"- {t}")
 md.append("")
-md.append("# Appendix D: References")
-md.append("")
-for r in sorted(REFS, key=lambda x: x.lower()):
-    md.append(f"- {r}")
-md.append("")
+md.append("@@REFS@@")
 md.append("# Appendix E: About the Author")
 md.append("")
 md.append("**Setyo Wisodo** is a professional working across AI development, product management and digital marketing, with a focus on AI-based solutions and digital products. Based in Indonesia.")
@@ -1022,6 +1018,14 @@ md.append("")
 content = "\n".join(md)
 import gate1
 content, n_cit = gate1.apply(content, "en")
+import cited as _cited
+_cited_refs, _further_refs = _cited.split_refs(REFS, _cited.pairs(content))
+_refs_md = ["# Appendix D: References", "", "## Works Cited", ""]
+_refs_md += [f"- {r}" for r in _cited_refs]
+_refs_md += ["", "## Further Reading", "",
+             "These works informed the book's background but are not cited in the text.", ""]
+_refs_md += [f"- {r}" for r in _further_refs]
+content = content.replace("@@REFS@@", "\n".join(_refs_md))
 print("gate1 citations added:", n_cit)
 with open('/home/user/SetyoWisodo/book.md','w',encoding='utf-8') as f:
     f.write(content)

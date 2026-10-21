@@ -100,7 +100,9 @@ Alat: `audit_gate3.py`, `prose.py`, `gen_book.py` / `gen_book_id.py`, `deep_rend
 
 Lapisan ini **idempoten**: dijalankan dua kali pada berkas yang sama, sisipan kedua = 0.
 
-Setiap sitasi diuji silang terhadap Daftar Pustaka oleh `check_citations.py`: nama belakang harus punya entri, dan tahunnya harus persis sama. Hasil akhir: **328 sitasi (EN) / 293 (ID) diperiksa, 0 ketidakcocokan**.
+Daftar Pustaka dibagi dua bagian: **Works Cited / Karya yang Dikutip** (95 entri EN, 84 ID) berisi hanya karya yang benar-benar muncul sebagai sitasi, dan **Further Reading / Bacaan Lanjutan** untuk sisanya, sehingga tidak ada entri menggantung di daftar rujukan.
+
+Setiap sitasi diuji silang terhadap Daftar Pustaka oleh `check_citations.py`: nama belakang harus punya entri, dan tahunnya harus persis sama. Hasil akhir: **339 sitasi (EN) / 295 (ID) diperiksa, 0 ketidakcocokan**.
 
 Gate 1 dipasang sebagai lapisan otomatis `gate1.py` yang dijalankan kedua generator
 tepat sebelum `book.md` / `book_id.md` ditulis. Aturannya empat tingkat:
@@ -261,6 +263,7 @@ Falasi: 0 di kedua bahasa. Penanda absolut **173 (EN) / 57 (ID)** dengan hedge *
 | `references.py` | **143 entri** Daftar Pustaka kanonis (EN `et al.`, ID `dkk.`), satu sumber untuk kedua edisi |
 | `Surviving_the_Future.pdf` / `..._ID.pdf` | **291 / 312 halaman**, Tinos, 25 tabel, 24/24 bab, Lampiran A–G lengkap di kedua edisi, indeks bernomor halaman (88 entri EN / 91 ID), daftar isi akurat, 0 blok di luar margin |
 | `gate1.py` | Lapisan sisipan sitasi dalam teks: 4 tingkat aturan, 10 penjaga, penggabung sitasi berdampingan |
+| `cited.py` | Memisahkan entri yang benar-benar dikutip dari bacaan lanjutan saat Daftar Pustaka dibangun |
 | `check_citations.py` | Audit silang sitasi teks ↔ Daftar Pustaka: 328 (EN) / 293 (ID) sitasi diperiksa, 0 tahun salah, 0 nama tanpa entri |
 | `content/depth*.py`, `content_id/depth*.py` | **10 modul × 2 bahasa**: lapisan paragraf kedua untuk 24/24 bab + bukti Global Selatan |
 

@@ -26,9 +26,10 @@ PAIRS = [("book.md", R.REFS_EN, "# Appendix D", "en"),
 YEAR = r"(?:19|20)\d{2}[a-z]?"
 # "Nama", "Nama et al.", "Nama dkk.", "Nama & Nama", "Nama, Nama and Nama"
 BASE = r"[A-Z][A-Za-z\u00c0-\u00ff\-'\.]+"
-NAME = (BASE + r"(?:\s(?:et al\.?|dkk\.?))?"
-        r"(?:\s*[&,]\s*" + BASE + r")*"
-        r"(?:\s(?:and|dan)\s" + BASE + r")*")
+WORD = BASE + r"(?:\s+" + BASE + r"){0,2}"
+NAME = (WORD + r"(?:\s(?:et al\.?|dkk\.?))?"
+        r"(?:\s*[&,]\s*" + WORD + r")*"
+        r"(?:\s(?:and|dan)\s" + WORD + r")*")
 LOC = r"(?:[,\s]+(?:Chapter|Bab|Table|Tabel|Figure|Gambar|Section|Bagian|ch\.|p\.|pp\.)\s*[0-9A-Za-z\.\-–]+)*"
 PAREN = re.compile(r"\(([^()]{2,200}?" + YEAR + r"[a-z]?" + LOC + r")\)")
 COMP = re.compile(r"^\s*(" + NAME + r")[,\s]+(" + YEAR + r")" + LOC + r"\s*$")
