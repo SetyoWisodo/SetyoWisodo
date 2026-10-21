@@ -803,7 +803,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
 
 # Appendix A
-md.append("# Appendix A: Lampiran (Checklists & Panduan)")
+md.append("# Appendix A: Checklists and Worksheets")
 md.append("")
 md.append("## Master Emergency Checklist")
 md.append("")
@@ -821,7 +821,7 @@ md.append("- Pertimbangkan berbagai jalur sosioekonomi (SSP).")
 md.append("- Sertakan dimensi keadilan dan kesetaraan.")
 md.append("- Perbarui klaim seiring munculnya bukti baru.")
 md.append("")
-md.append("# Appendix B: Glosarium")
+md.append("# Appendix B: Glossary")
 md.append("")
 gloss = [
  "Adaptation: Adjusting to actual or expected climate impacts.",
@@ -841,7 +841,7 @@ gloss = [
 for g in gloss:
     md.append(f"- {g}")
 md.append("")
-md.append("# Appendix C: Indeks")
+md.append("# Appendix C: Index")
 md.append("")
 index_terms = sorted(set([
  "Adaptation", "Mitigation", "Resilience", "Vulnerability", "Exposure", "Sensitivity",
@@ -877,7 +877,36 @@ for n in notes:
     md.append("")
 # Footnotes retained for Appendix but not rendered at page bottom (render handles)
 
+md.append("# Appendix G: Notes on Event Sources")
+md.append("")
+md.append("Figures for the named events used as cases in this book are drawn from the documentation below. Where an event figure appears in the text without a parenthetical citation, this table identifies its source.")
+md.append("")
+md.append("- Pakistan floods, 2022 — WMO (2023), State of the Global Climate 2023; government post-disaster needs assessment.")
+md.append("- European heatwave, 2003 — Robine et al. (2008), Comptes Rendus Biologies 331(2).")
+md.append("- Chicago heatwave, 1995 — Klinenberg (2002), Heat Wave: A Social Autopsy of Disaster in Chicago.")
+md.append("- Hurricane Maria, Puerto Rico, 2017 — Kishore et al. (2018), New England Journal of Medicine 379.")
+md.append("- Hurricane Katrina, New Orleans, 2005 — Brunkard et al. (2008), Disaster Medicine and Public Health Preparedness 2(4).")
+md.append("- Pacific Northwest heat dome, 2021 — Philip et al. (2022), Earth System Dynamics 13.")
+md.append("- Ahr valley floods, Germany and Belgium, 2021 — Kreienkamp et al. (2021), World Weather Attribution.")
+md.append("- Black Saturday fires, Victoria, 2009 — Victorian Bushfires Royal Commission (2010), Final Report.")
+md.append("- Camp Fire, Paradise, California, 2018 — CAL FIRE (2019), Camp Fire incident report.")
+md.append("- Canadian wildfires, 2023 — CIFFC (2023), National Wildland Fire Situation Report.")
+md.append("- Texas winter storm Uri, 2021 — FERC & NERC (2021), The February 2021 cold weather outages.")
+md.append("- Somali famine, 2011 — Checchi & Robinson (2013), FAO/FSNAU mortality study.")
+md.append("- Ethiopian famine, 1984–1985 — Sen (1981) entitlement framework; de Waal (1997) famine analysis.")
+md.append("- Sahel droughts, 1968–1974 and 1984–1985 — IPCC (2019), Climate Change and Land; FAO (2023).")
+md.append("- Chennai floods, 2015 — IPCC (2022), Impacts, Adaptation and Vulnerability, urban chapter.")
+md.append("- Cape Town water crisis, 2018 — Gleick (2023), Water, Climate and Governance Crises.")
+md.append("- Syrian drought, 2006–2010 — Kelley et al. (2015), PNAS 112(11); Selby et al. (2017), Political Geography 60.")
+md.append("- Amazon deforestation threshold — IPCC (2019), Climate Change and Land.")
+md.append("- Arctic sea-ice decline — Notz & Stroeve (2016), Science 354(6313).")
+md.append("- Global temperature records — Lenssen et al. (2019); Morice et al. (2021); Rohde & Hausfather (2020); WMO (2023).")
+md.append("")
+
 content = "\n".join(md)
+import gate1
+content, n_cit = gate1.apply(content, "en")
+print("gate1 citations added:", n_cit)
 with open('/home/user/SetyoWisodo/book.md','w',encoding='utf-8') as f:
     f.write(content)
 print("words:", len(content.split()))

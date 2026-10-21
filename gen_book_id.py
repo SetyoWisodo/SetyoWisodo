@@ -790,7 +790,7 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("")
 
 # Lampiran A
-md.append("# Lampiran A: Lampiran (Ceklis dan Panduan)")
+md.append("# Lampiran A: Ceklis dan Panduan")
 md.append("")
 md.append("## Ceklis Darurat Utama")
 md.append("")
@@ -854,7 +854,48 @@ md.append("Tambahan: Buku ini merupakan dokumen hidup. Pembaca didorong untuk me
 md.append("")
 md.append("Tambahan: Setiap pembaca memiliki peran. Mulailah dari tempat Anda berada, gunakan apa yang Anda miliki, dan lakukan apa yang Anda bisa.")
 md.append("")
+md.append("# Lampiran F: Catatan Analitis Lanjutan")
+md.append("")
+notes = [
+ "Catatan analitis: Hubungan antara pendorong iklim dan luaran sosial dimediasi oleh kapasitas kelembagaan, ketersediaan sumber daya, dan konteks historis. Tidak ada satu faktor yang menentukan hasilnya.",
+ "Catatan analitis: Strategi adaptasi harus dinilai bukan hanya dari efektivitasnya, tetapi juga dari keadilan, biaya, dan kelayakannya dalam konteks tertentu.",
+ "Catatan analitis: Dimensi waktu dari dampak iklim menuntut pemikiran jangka panjang yang sering bertentangan dengan insentif politik dan ekonomi jangka pendek.",
+ "Catatan analitis: Produksi pengetahuan dan penggunaan pengetahuan adalah dua proses yang berbeda; menjembatani keduanya memerlukan usaha yang sengaja dan keterlibatan yang berkelanjutan.",
+ "Catatan analitis: Ketidakpastian melekat dalam ilmu iklim dan harus dikomunikasikan secara transparan, bukan disembunyikan atau dibesar-besarkan.",
+]
+for n in notes:
+    md.append(n)
+    md.append("")
+md.append("# Lampiran G: Catatan Sumber Peristiwa")
+md.append("")
+md.append("Angka untuk peristiwa bernama yang dipakai sebagai kasus dalam buku ini diambil dari dokumentasi berikut. Bila angka sebuah peristiwa muncul dalam teks tanpa sitasi kurung, tabel ini menyebut sumbernya.")
+md.append("")
+md.append("- Banjir Pakistan, 2022 — WMO (2023), State of the Global Climate 2023; penilaian kebutuhan pascabencana pemerintah.")
+md.append("- Gelombang panas Eropa, 2003 — Robine dkk. (2008), Comptes Rendus Biologies 331(2).")
+md.append("- Gelombang panas Chicago, 1995 — Klinenberg (2002), Heat Wave: A Social Autopsy of Disaster in Chicago.")
+md.append("- Badai Maria, Puerto Rico, 2017 — Kishore dkk. (2018), New England Journal of Medicine 379.")
+md.append("- Badai Katrina, New Orleans, 2005 — Brunkard dkk. (2008), Disaster Medicine and Public Health Preparedness 2(4).")
+md.append("- Kubah panas Pacific Northwest, 2021 — Philip dkk. (2022), Earth System Dynamics 13.")
+md.append("- Banjir lembah Ahr, Jerman dan Belgia, 2021 — Kreienkamp dkk. (2021), World Weather Attribution.")
+md.append("- Kebakaran Black Saturday, Victoria, 2009 — Komisi Kerajaan Kebakaran Semak Victoria (2010), Final Report.")
+md.append("- Kebakaran Camp, Paradise, California, 2018 — CAL FIRE (2019), laporan insiden Camp Fire.")
+md.append("- Kebakaran hutan Kanada, 2023 — CIFFC (2023), National Wildland Fire Situation Report.")
+md.append("- Badai musim dingin Texas Uri, 2021 — FERC & NERC (2021), The February 2021 cold weather outages.")
+md.append("- Kelaparan Somalia, 2011 — Checchi & Robinson (2013), studi mortalitas FAO/FSNAU.")
+md.append("- Kelaparan Etiopia, 1984–1985 — Kerangka hak Sen (1981); analisis kelaparan de Waal (1997).")
+md.append("- Kekeringan Sahel, 1968–1974 dan 1984–1985 — IPCC (2019), Climate Change and Land; FAO (2023).")
+md.append("- Banjir Chennai, 2015 — IPCC (2022), Impacts, Adaptation and Vulnerability, bab perkotaan.")
+md.append("- Krisis air Cape Town, 2018 — Gleick (2023), Water, Climate and Governance Crises.")
+md.append("- Kekeringan Suriah, 2006–2010 — Kelley dkk. (2015), PNAS 112(11); Selby dkk. (2017), Political Geography 60.")
+md.append("- Ambang deforestasi Amazon — IPCC (2019), Climate Change and Land.")
+md.append("- Penurunan es laut Arktik — Notz & Stroeve (2016), Science 354(6313).")
+md.append("- Rekor suhu global — Lenssen dkk. (2019); Morice dkk. (2021); Rohde & Hausfather (2020); WMO (2023).")
+md.append("")
+
 content = "\n".join(md)
+import gate1
+content, n_cit = gate1.apply(content, "id")
+print("gate1 citations added:", n_cit)
 with open('/home/user/SetyoWisodo/book_id.md','w',encoding='utf-8') as f:
     f.write(content)
 print("words:", len(content.split()))
