@@ -1277,6 +1277,8 @@ Dampak kesehatan perubahan iklim lebih luas daripada penyakit menular. Panas mem
 
 Bab ini membahas jalur-jalur itu, populasi yang paling terdampak, dan kapasitas sistem kesehatan untuk merespons. Bab ini memberi perhatian khusus pada perbedaan antara efek langsung, yang relatif mudah dikaitkan dengan gelombang panas atau banjir, dan efek tidak langsung, yang bekerja melalui ekosistem, sistem pangan, dan infrastruktur sehingga lebih sulit diukur tetapi sering lebih besar.
 
+Perkiraan Organisasi Kesehatan Dunia bahwa perubahan iklim akan menyebabkan sekitar 250.000 kematian tambahan per tahun antara 2030 dan 2050 — dari panas, diare, malaria, malnutrisi, dan banjir pesisir — banyak dikutip dan hampir pasti terlalu rendah, karena ia hanya menghitung sebagian jalur dan mengasumsikan adaptasi berlanjut. Karya yang lebih baru yang memasukkan panas saja menemukan jumlah dengan besaran serupa, dan Lancet Countdown berargumen bahwa beban kesehatan sudah terukur di setiap wilayah (Lancet Countdown, 2024). Ketidakpastiannya berjalan satu arah: perkiraan telah direvisi naik seiring membaiknya bukti.
+
 ## 9.1 Efek Langsung: Panas, Cedera dan Pengungsian
 
 Efek langsung iklim terhadap kesehatan paling mudah dilihat. Panas menyebabkan sengatan panas, kolaps kardiovaskular, dan cedera ginjal, serta memperparah kondisi yang sudah ada; musim panas Eropa 2022 terkait dengan sekitar 61.700 kematian. Banjir menyebabkan tenggelam, trauma, dan sengatan listrik, serta mengungsi ke tempat penampungan sementara tempat penyakit menyebar mudah. Badai menyebabkan cedera selama peristiwa dan infeksi setelahnya, ketika luka terpapar air yang terkontaminasi.
@@ -1284,6 +1286,8 @@ Efek langsung iklim terhadap kesehatan paling mudah dilihat. Panas menyebabkan s
 Efek langsung terkonsentrasi pada momen tertentu, yang membuatnya terlihat dan karenanya penting secara politik. Gelombang panas menghasilkan lonjakan kematian yang dapat diukur dalam beberapa pekan; banjir menghasilkan gambar yang beredar global. Tetapi konsentrasi itu juga menciptakan bias dalam cara beban kesehatan dipahami: kematian yang terjadi selama peristiwa dihitung, sementara kematian yang terjadi berbulan-bulan kemudian, akibat gangguan layanan kesehatan, kehilangan pendapatan, atau memburuknya penyakit kronis, tidak dihitung.
 
 Pengungsian adalah jembatan antara efek langsung dan tidak langsung. Orang yang kehilangan rumah karena banjir atau kebakaran mungkin tinggal di tempat penampungan yang padat, kehilangan akses obat dan pengobatan, dan menghadapi ketidakpastian berbulan-bulan. Konsekuensi kesehatan dari pengungsian — penyakit menular, tekanan mental, terputusnya perawatan kronis — sering melebihi konsekuensi langsung dari peristiwa yang menyebabkannya.
+
+Efek langsung paling mudah diatribusikan dan paling mudah kurang terhitung. Panas menyebabkan kematian kardiovaskular dan ginjal yang dicatat dengan penyebab lain; banjir menyebabkan tenggelam, cedera, dan tersengat listrik, tetapi juga infeksi pada pekan-pekan berikutnya; badai menyebabkan trauma dan, melalui pengungsian, hilangnya kesinambungan perawatan penyakit kronis. Pengungsian adalah paparan kesehatan tersendiri, karena ia mengganggu pengobatan, vaksinasi, perawatan kehamilan, dan perawatan kesehatan mental, dan gangguannya sering lebih lama daripada peristiwanya.
 
 ## 9.2 Penyakit Bawaan Vektor
 
@@ -1293,6 +1297,8 @@ Malaria adalah yang paling berdampak. Sekitar 249 juta kasus dan 608.000 kematia
 
 Demam berdarah telah meluas lebih cepat. Nyamuk Aedes aegypti telah menyebar ke lebih dari 150 negara, dan virus kini beredar di wilayah kota yang sebelumnya tidak ada. Epidemi 2024 di Amerika adalah yang terbesar dalam catatan, dan lonjakan serupa terjadi di Asia Tenggara dan Pasifik Barat. Penyebarannya didorong urbanisasi dan perjalanan selain iklim, itulah sebabnya responsnya harus menggabungkan pengendalian vektor, surveilans, dan kesiapan sistem kesehatan, bukan kebijakan iklim semata.
 
+Penyakit tular vektor memperluas jangkauannya dengan cara yang terukur. Potensi penularan demam berdarah, yang dibawa Aedes aegypti dan Aedes albopictus, telah naik substansial di sebagian besar wilayah tropis dan subtropis, dan penularan lokal tercatat di sebagian Eropa selatan. Malaria muncul di wilayah dataran tinggi Afrika Timur dan Andes yang sebelumnya terlalu dingin untuk penularan berkelanjutan. Perluasannya tidak seragam, karena tata guna lahan, pengendalian vektor, dan sistem kesehatan memediasinya, tetapi arahnya jelas.
+
 ## 9.3 Penyakit Bawaan Air dan Pangan
 
 Banjir dan kekeringan sama-sama meningkatkan risiko penyakit bawaan air, melalui mekanisme berbeda. Banjir membanjiri sistem sanitasi, mengontaminasi sumur, dan membawa patogen ke rumah; kekeringan memekatkan patogen di air yang langka dan mengurangi air yang tersedia untuk kebersihan. Kolera, tifus, hepatitis A, dan penyakit diare semuanya mengikuti pola ini, dan anak-anak di bawah lima tahun paling rentan.
@@ -1300,6 +1306,8 @@ Banjir dan kekeringan sama-sama meningkatkan risiko penyakit bawaan air, melalui
 Banjir Pakistan 2022 menghasilkan lonjakan penyakit diare dan malaria, dan gempa Haiti 2010 serta wabah kolera berikutnya menunjukkan seberapa cepat pasokan air yang terkontaminasi dapat menjadi darurat nasional. Di wilayah yang terkena kekeringan, masalahnya sering bukan ketiadaan air melainkan kualitasnya: ketika sumber mengering, orang menggunakan air apa pun yang tersedia, termasuk air yang terkontaminasi limbah atau limpasan pertanian.
 
 Penyakit bawaan pangan juga sensitif iklim. Suhu yang lebih hangat meningkatkan laju pertumbuhan bakteri seperti Salmonella dan Campylobacter dalam makanan, dan banjir dapat mengontaminasi tanaman dengan patogen. Pusat Pencegahan dan Pengendalian Penyakit Eropa telah mendokumentasikan peningkatan infeksi bawaan pangan selama gelombang panas, dan risikonya tertinggi di negara dengan infrastruktur rantai dingin terbatas. Hasilnya adalah beban kesehatan yang jarang dikaitkan dengan iklim tetapi tetap merupakan bagian darinya.
+
+Penyakit bawaan air dan pangan meningkat seiring suhu melalui beberapa mekanisme. Air yang lebih hangat mendukung pertumbuhan bakteri lebih cepat; hujan lebat menyapu patogen ke sumber air minum dan membebani sistem limbah; dan kekeringan memekatkan kontaminan di air yang tersisa. Kolera, tifus, dan penyakit diare pada anak menunjukkan pola ini, itulah sebabnya respons kesehatan terhadap banjir harus dimulai sebelum air surut, dengan klorinasi, rehidrasi oral, dan pengawasan wabah.
 
 ## 9.4 Polusi Udara dan Asap Kebakaran
 
@@ -1309,6 +1317,8 @@ Asap kebakaran hutan adalah komponen yang tumbuh. Kebakaran Kanada 2023 menghang
 
 Efek kesehatan polusi udara tidak terbatas pada sistem pernapasan. Partikel halus terkait dengan penyakit kardiovaskular, stroke, diabetes, dan hasil kelahiran yang buruk. Ozon, yang terbentuk lebih mudah pada suhu tinggi, merusak jaringan paru dan mengurangi hasil panen. Kombinasinya berarti perubahan iklim meningkatkan polusi udara pada saat yang sama polusi udara meningkatkan perubahan iklim, melalui pengendapan karbon hitam di salju dan es.
 
+Polusi udara dan perubahan iklim berbagi sebagian besar sumbernya, yang menjadikannya masalah gabungan alih-alih dua masalah. Membakar bahan bakar fosil melepaskan gas rumah kaca dan partikulat halus sekaligus; asap kebakaran hutan menambah beban yang tumbuh seiring musim api memanjang; dan pembentukan ozon mempercepat pada suhu lebih tinggi. Beban kesehatannya besar: polusi udara luar ruangan terkait dengan sekitar 4 juta kematian dini per tahun, dan polusi udara dalam ruangan dari bahan bakar padat dengan 3 juta lebih.
+
 ## 9.5 Gizi dan Perkembangan Anak
 
 Efek kesehatan perubahan iklim terhadap gizi bersifat tidak langsung dan mendalam. Suhu yang lebih tinggi mengurangi hasil panen, menurunkan kandungan hara biji-bijian, dan menaikkan harga pangan, yang mengurangi kuantitas dan kualitas pangan yang mampu dibeli rumah tangga miskin. Hasilnya adalah peningkatan gizi buruk, yang melemahkan sistem imun dan meningkatkan kerentanan terhadap penyakit menular.
@@ -1316,6 +1326,8 @@ Efek kesehatan perubahan iklim terhadap gizi bersifat tidak langsung dan mendala
 Anak-anak paling terdampak. Gizi buruk selama seribu hari pertama kehidupan — dari konsepsi hingga usia dua tahun — menyebabkan stunting, yang tidak dapat dibalik dan mengurangi perkembangan kognitif, prestasi sekolah, dan pendapatan seumur hidup. Organisasi Kesehatan Dunia memperkirakan bahwa perubahan iklim akan menyebabkan tambahan 95.000 kematian anak per tahun akibat gizi buruk pada 2050, dan bahwa bebannya akan jatuh secara tidak proporsional di Asia Selatan dan Afrika Sub-Sahara.
 
 Efek pemupukan CO2 menambahkan dimensi halus. Konsentrasi karbon dioksida yang lebih tinggi meningkatkan hasil tanaman C3 tetapi menurunkan konsentrasi protein, seng, dan besi dalam biji. Eksperimen pada padi, gandum, dan kedelai menunjukkan penurunan 5 sampai 10 persen protein dan mikronutrien pada CO2 tinggi, yang berarti panen dengan berat sama mungkin kurang bergizi. Bagi populasi yang bergantung pada satu tanaman pokok, 'kelaparan tersembunyi' ini dapat sama pentingnya dengan penurunan kalori.
+
+Nutrisi adalah jalur dengan konsekuensi jangka panjang terbesar dan kerusakan paling tidak terlihat. Panas dan kekeringan menurunkan hasil dan menaikkan harga, yang mengurangi keragaman pangan rumah tangga miskin; konsentrasi karbon dioksida yang lebih tinggi menurunkan kandungan protein, seng, dan besi pada tanaman pokok seperti gandum dan padi; dan malnutrisi ibu saat hamil memengaruhi perkembangan kognitif anak dengan cara yang bertahan seumur hidup. Hasilnya krisis kesehatan lambat yang diukur dalam tengkes alih-alih kematian.
 
 ## 9.6 Kesehatan Mental
 
@@ -1325,6 +1337,8 @@ Kebakaran Australia 2019–2020 diikuti peningkatan distres psikologis yang terd
 
 Beban kesehatan mental kurang dihitung karena tidak tertangkap statistik bencana dan karena stigma mencegah orang mencari bantuan. Ia juga kurang ditangani: layanan kesehatan mental langka di sebagian besar negara berpenghasilan rendah dan menengah, dan jarang dimasukkan dalam rencana kesiapsiagaan bencana. Konsekuensinya adalah efek psikologis perubahan iklim bertahan lama setelah kerusakan fisik diperbaiki.
 
+Konsekuensi kesehatan mental semakin dikenali sebagai bagian inti beban alih-alih kekhawatiran sekunder. Bencana menghasilkan stres pascatrauma, depresi, dan kecemasan; perubahan lambat menghasilkan duka dan solastalgia; dan antisipasi kerugian masa depan menghasilkan kecemasan, terutama di kalangan orang muda. Sistem kesehatan jarang menghitung hasil itu dan jarang mendanai layanan untuk menanganinya, itulah sebabnya celah pengobatan setelah bencana begitu besar.
+
 ## 9.7 Sistem Kesehatan di Bawah Tekanan
 
 Sistem kesehatan sendiri rentan terhadap perubahan iklim. Rumah sakit rusak oleh banjir dan badai; pemadaman listrik melumpuhkan ventilator dan pendingin; jalan terputus sehingga pasien tidak dapat mencapai perawatan; dan staf terdampak oleh peristiwa yang sama dengan pasiennya. Hasilnya adalah permintaan layanan kesehatan naik pada saat kapasitas untuk memberikannya turun.
@@ -1332,6 +1346,8 @@ Sistem kesehatan sendiri rentan terhadap perubahan iklim. Rumah sakit rusak oleh
 Gelombang panas Eropa 2022 menggambarkan masalah itu. Rumah sakit membatalkan operasi karena kamar operasi tidak dapat didinginkan; instalasi gawat darurat dibanjiri pasien terkait panas; dan waktu respons ambulans meningkat. Di Puerto Rico, Badai Maria 2017 menyebabkan kegagalan sistem listrik berkepanjangan yang terkait dengan perkiraan 2.975 kematian berlebih, banyak di antaranya akibat kondisi kronis yang tidak dapat diobati.
 
 Kesiapsiagaan memerlukan investasi dalam infrastruktur, pasokan, dan perencanaan. Rumah sakit membutuhkan listrik cadangan, pendinginan, penyimpanan air, dan perlindungan banjir. Sistem kesehatan membutuhkan kapasitas lonjakan, stok obat dan vaksin, serta rencana kesinambungan layanan selama gangguan. Mereka juga membutuhkan sistem surveilans yang dapat mendeteksi wabah lebih awal, dan tenaga kerja yang terlatih mengenali penyakit sensitif iklim. Sebagian besar tindakan ini murah relatif terhadap biaya kegagalan, tetapi jarang diprioritaskan sampai darurat terjadi.
+
+Sistem kesehatan tertekan dari dua sisi: permintaan naik sementara kapasitas turun. Panas menaikkan penerimaan darurat; banjir merusak fasilitas dan memblokir akses; pemadaman listrik melumpuhkan peralatan; dan stafnya sendiri terdampak peristiwa yang sama. Pandemi COVID-19 menunjukkan seberapa cepat sistem dapat terentang dan bagaimana tarikan itu memusatkan kerugian pada orang yang aksesnya sudah terbatas, itulah sebabnya ketangguhan kesehatan kini menjadi perhatian utama perencanaan adaptasi.
 
 ## 9.8 Populasi Rentan
 
@@ -1341,6 +1357,8 @@ Kehamilan adalah periode yang sangat rentan. Paparan panas terkait dengan kelahi
 
 Disabilitas dan usia berinteraksi dengan kemiskinan. Pengguna kursi roda mungkin tidak dapat mengevakuasi bangunan tanpa lift; penderita demensia mungkin tidak memahami peringatan panas; lansia yang tinggal sendiri mungkin tidak dapat membuka jendela atau mencapai pusat pendinginan. Kerentanan ini tidak tak terelakkan; ia hasil dari pilihan desain dan pengaturan sosial yang dapat diubah.
 
+Kerentanan di dalam populasi mengikuti garis yang sudah dikenal. Orang lanjut usia, bayi, ibu hamil, penderita penyakit kronis atau disabilitas, pekerja luar ruangan, orang tanpa tempat tinggal, narapidana, dan komunitas adat menghadapi risiko lebih tinggi karena alasan fisiologis, pekerjaan, dan sosial. Karena kelompok itu sering absen dari pengumpulan data rutin, risikonya diremehkan, dan karena suara politiknya lebih kecil, layanan yang mereka butuhkan kurang didanai.
+
 ## 9.9 Surveilans dan Peringatan Dini
 
 Peringatan dini adalah adaptasi kesehatan paling efektif. Sistem peringatan panas yang memicu pusat pendinginan, penjangkauan orang rentan, dan perubahan penjadwalan rumah sakit dapat mengurangi kematian secara substansial, seperti ditunjukkan pengalaman Ahmedabad. Sistem surveilans penyakit yang mendeteksi wabah lebih awal dapat menggerakkan pengendalian vektor dan pengobatan sebelum epidemi memuncak, dan prakiraan iklim dapat digunakan untuk memprediksi di mana kondisi mendukung penularan.
@@ -1349,6 +1367,8 @@ Integrasi data iklim dan kesehatan membaik. Lancet Countdown menerbitkan indikat
 
 Celahnya ada pada pelaksanaan. Sistem peringatan hanya berguna jika mencapai orang yang berisiko dan jika mereka memiliki kapasitas untuk bertindak. Di banyak negara, peringatan dikeluarkan di tingkat nasional tetapi tidak diterjemahkan menjadi tindakan lokal; di negara lain, datanya ada tetapi tidak dibagikan antara lembaga kesehatan dan meteorologi. Menutup celah itu lebih merupakan soal koordinasi kelembagaan dan kepercayaan daripada teknologi.
 
+Pengawasan adalah bagian adaptasi kesehatan yang paling cepat membayar dirinya sendiri. Pengawasan sindromik, yang melacak kunjungan darurat, penjualan apotek, dan panggilan ambulans hampir secara real-time, dapat mendeteksi wabah atau dampak panas beberapa hari sebelum pelaporan formal. Analisis kematian berlebih memberi ukuran retrospektif tentang apa yang sebenarnya terjadi. Negara yang membangun sistem ini selama COVID-19 lebih siap menghadapi guncangan kesehatan terkait iklim, karena infrastrukturnya sama.
+
 ## 9.10 Manfaat Sampingan dan Argumen Kesehatan untuk Aksi Iklim
 
 Argumen kesehatan untuk aksi iklim lebih kuat daripada argumen lingkungan, karena ia langsung dan personal. Mengurangi pembakaran bahan bakar fosil mengurangi polusi udara, yang mencegah jutaan kematian per tahun. Meningkatkan berjalan dan bersepeda mengurangi obesitas dan penyakit kardiovaskular sekaligus mengurangi emisi. Memperbaiki insulasi bangunan mengurangi permintaan energi dan melindungi orang dari panas serta dingin. Beralih ke pola makan kaya tanaman mengurangi emisi dan meningkatkan kesehatan.
@@ -1356,6 +1376,8 @@ Argumen kesehatan untuk aksi iklim lebih kuat daripada argumen lingkungan, karen
 Manfaat sampingan ini sering lebih besar daripada biaya kebijakan yang menghasilkannya, terutama di negara dengan polusi udara tinggi. Studi tentang manfaat kesehatan dari memenuhi target Paris di Tiongkok memperkirakan bahwa pengurangan polusi udara akan mencegah ratusan ribu kematian dini per tahun, manfaat yang tidak dihitung dalam biaya konvensional dekarbonisasi.
 
 Kerangka kesehatan juga mengubah politiknya. Kebijakan iklim sering disajikan sebagai biaya yang harus ditanggung demi generasi mendatang; kebijakan kesehatan disajikan sebagai manfaat yang diberikan sekarang. Tindakan yang sama — energi bersih, bangunan efisien, transportasi aktif, pola makan sehat — dapat dibenarkan dalam kedua bahasa, dan bahasa kesehatan sering menjangkau lebih jauh karena ia berbicara tentang apa yang dialami orang dalam tubuh mereka sendiri.
+
+Argumen manfaat bersama adalah kasus terkuat untuk aksi iklim cepat atas dasar kesehatan. Menghentikan batu bara mengurangi emisi partikulat dan menyelamatkan nyawa dalam hitungan tahun, jauh sebelum manfaat iklimnya terukur; beralih ke transportasi aktif menaikkan aktivitas fisik dan menurunkan obesitas serta penyakit kardiovaskular; dan pola makan lebih banyak tanaman menurunkan emisi serta menurunkan angka penyakit jantung, diabetes, dan sebagian kanker. Manfaat itu lokal, segera, dan terukur, yang membuatnya persuasif secara politik dengan cara yang tidak dimiliki target suhu global.
 
 ## 9.11 Studi Kasus: Epidemi Demam Berdarah 2024
 
@@ -1368,6 +1390,8 @@ Respons sistem kesehatan beragam. Brasil mengerahkan tim pengujian keliling dan 
 Kasus ini menggambarkan hubungan antara iklim dan sistem kesehatan. Cuaca menciptakan kondisi penularan, tetapi skala epidemi bergantung pada kapasitas sistem kesehatan untuk mendeteksi, mengobati, dan mengendalikannya. Negara dengan surveilans dan pengendalian vektor yang kuat melaporkan lebih sedikit kasus berat dan kematian daripada negara dengan sistem lemah, bahkan ketika kondisi iklimnya serupa.
 
 Pelajarannya praktis. Pertama, pengendalian vektor harus berkelanjutan, bukan episodik; nyamuk tidak menunggu wabah dinyatakan. Kedua, surveilans harus mengintegrasikan data iklim, sehingga otoritas kesehatan dapat mengantisipasi di mana kondisi mendukung dan bertindak sebelum kasus muncul. Ketiga, sistem kesehatan membutuhkan kapasitas lonjakan untuk penyakit yang meluas akibat perubahan iklim, termasuk staf, tempat tidur, tes, dan obat. Keempat, komunitas harus dilibatkan, karena intervensi paling efektif — menghilangkan genangan air, menggunakan kelambu dan losion — terjadi di rumah, bukan di rumah sakit.
+
+Epidemi 2024 juga menyingkap masalah data yang membentuk responsnya. Kasus terlaporkan bergantung pada konfirmasi laboratorium, dan sebagian besar negara memiliki kapasitas pengujian terbatas, sehingga rasio infeksi terlaporkan terhadap infeksi sebenarnya sangat bervariasi. Brasil, yang sistem pengawasannya relatif kuat, melaporkan lebih banyak kasus daripada tetangganya sebagian karena ia mencari lebih keras. Artefak itu menyulitkan perbandingan dan dapat menyesatkan pemerintah agar percaya bahwa negara dengan kasus terlaporkan lebih sedikit memiliki penularan lebih rendah, padahal sebaliknya mungkin benar.
 
 ## 9.12 Skenario dan Prediksi Masa Depan: Kesehatan pada 2050
 
@@ -1405,6 +1429,8 @@ Ekonomi iklim telah berpindah dari pinggiran disiplin ke pusatnya karena kerusak
 
 Bab ini membahas saluran ekonomi yang melaluinya perubahan iklim memengaruhi rumah tangga, perusahaan, dan negara. Bab ini membedakan kerusakan langsung dan kerugian tidak langsung, antara stok dan aliran, dan antara risiko yang dapat diasuransikan dan yang tidak. Bab ini ditutup dengan instrumen keuangan yang dapat membangun ketangguhan — dana cadangan, asuransi parametrik, obligasi bencana, dan neraca publik yang pada akhirnya menopang semuanya.
 
+Ekonomi perubahan iklim telah bergerak dari bidang khusus menjadi pertanyaan sentral kebijakan makroekonomi, dan alasannya adalah kerugiannya tidak lagi hipotetis. Kerugian ekonomi global akibat bencana cuaca rata-rata beberapa ratus miliar dolar per tahun selama dekade terakhir, dan trennya naik lebih cepat daripada keluaran. Yang lebih penting, kerugiannya tidak terdistribusi merata: sebagian besar jatuh pada rumah tangga tanpa asuransi dan pada pemerintah yang harus mengalihkan anggaran dari pembangunan ke rekonstruksi.
+
 ## 10.1 Kerusakan Langsung dan Kerugian Tidak Langsung
 
 Ekonomi bencana membedakan kerusakan, yaitu biaya memperbaiki atau mengganti aset fisik, dari kerugian, yaitu biaya aktivitas ekonomi yang hilang. Pabrik yang hancur merupakan kerusakan; produksi yang seharusnya dihasilkan pabrik itu selama berbulan-bulan pembangunan kembali merupakan kerugian. Keduanya sering dilaporkan bersama, tetapi perilakunya berbeda: kerusakan adalah biaya sekali waktu, sementara kerugian dapat bertahan sampai pabrik dibangun kembali dan pasar pulih.
@@ -1412,6 +1438,8 @@ Ekonomi bencana membedakan kerusakan, yaitu biaya memperbaiki atau mengganti ase
 Perbedaan itu penting bagi kebijakan. Kompensasi yang menutupi kerusakan tetapi tidak menutupi kerugian membuat bisnis tidak mampu membayar upah dan rumah tangga tidak mampu mengganti pendapatan, yang memperpanjang gangguan. Banjir Thailand 2011 merusak kawasan industri yang memproduksi sebagian besar hard disk dunia; kerusakannya diperbaiki dalam hitungan bulan, tetapi kekurangan produksi global bertahan lebih lama dan menaikkan harga komputer selama setahun. Kerugiannya menular melalui rantai pasok ke perusahaan dan konsumen yang tidak pernah melihat banjir itu.
 
 Kerugian tidak langsung sulit diukur karena bersifat kontrafaktual: ia menggambarkan apa yang akan terjadi tanpa bencana. Ekonom memperkirakannya menggunakan model input-output, model keseimbangan umum komputasi, atau perbandingan ekonometrik antara wilayah terdampak dan tidak terdampak. Perkiraannya beragam, tetapi secara konsisten menemukan bahwa kerugian tidak langsung lebih besar di ekonomi dengan keterkaitan lebih erat, perlindungan sosial lebih lemah, dan ruang fiskal lebih sempit untuk merespons.
+
+Kerusakan langsung adalah apa yang diukur penilai asuransi: bangunan, infrastruktur, kendaraan, dan tanaman. Kerugian tidak langsung adalah apa yang terjadi sesudahnya: usaha yang tidak dapat beroperasi, pekerja yang kehilangan pendapatan, rantai pasok yang terganggu, dan layanan publik yang terputus. Kerugian tidak langsung sering melebihi kerusakan langsung pada bulan-bulan setelah peristiwa, dan ia secara sistematis kurang tercatat karena tersebar di seluruh ekonomi alih-alih terkonsentrasi di tempat yang dapat difoto.
 
 ## 10.2 Produktivitas, Tenaga Kerja dan Panas
 
@@ -1421,6 +1449,8 @@ Mekanismenya fisiologis dan perilaku. Di atas suhu bola basah tertentu, pekerja 
 
 Efek distribusionalnya penting. Pekerja luar ruang, buruh tani, dan buruh bangunan paling terpapar, dan mereka sering paling tidak mampu mengasuransikan pendapatan yang hilang. Di negara dengan sebagian besar pekerjaan informal, panas tidak muncul dalam statistik produktivitas resmi, karena pekerjaannya tidak diukur sejak awal. Hasilnya adalah biaya ekonomi panas secara sistematis diremehkan di tempat-tempat yang biayanya paling tinggi.
 
+Panas mengurangi keluaran ekonomi melalui produktivitas kerja, dan efeknya cukup besar untuk terlihat dalam neraca nasional. Studi dengan data tingkat industri menemukan bahwa keluaran menurun pada hari panas di sektor yang memerlukan kerja luar ruangan atau dalam ruangan tanpa pendinginan, dan bahwa efeknya terbesar di negara beriklim panas dengan pendingin udara terbatas. Perkiraan global menunjukkan panas sudah menelan biaya beberapa poin persen PDB di sebagian Asia Selatan dan Afrika sub-Sahara, dan kerugiannya akan tumbuh seiring suhu naik.
+
 ## 10.3 Harga Pangan dan Inflasi
 
 Guncangan iklim terhadap produksi pangan menular ke ekonomi yang lebih luas melalui harga. Ketika produsen besar kehilangan panen, harga global naik, dan efeknya mencapai konsumen melalui harga ritel dan, di negara miskin, melalui biaya keranjang pangan yang mendominasi anggaran rumah tangga. Bank sentral mulai memasukkan guncangan iklim ke dalam model inflasi mereka, karena lonjakan harga pangan dan energi dapat mengguncang ekspektasi bahkan ketika inflasi inti stabil.
@@ -1428,6 +1458,8 @@ Guncangan iklim terhadap produksi pangan menular ke ekonomi yang lebih luas mela
 Krisis harga pangan 2022 adalah contohnya. Perang di Ukraina adalah pemicu langsung, tetapi ia datang di atas rangkaian kegagalan panen terkait iklim di Eropa, Asia Selatan, dan Tanduk Afrika. Harga pangan naik lebih dari 20 persen secara global, dan kenaikannya paling besar di negara yang mengimpor sebagian besar kalorinya. Hasilnya adalah kenaikan kemiskinan dan penurunan kualitas pola makan yang bertahan setelah harga turun.
 
 Efek inflasinya bukan hanya masalah rumah tangga; ia masalah pemerintah. Subsidi pangan dan energi sulit dihapus secara politik dan mahal secara fiskal, dan cenderung membesar justru ketika pendapatan turun karena ekonomi menyusut. Hasilnya adalah beban fiskal prosiklikal yang dapat mengubah guncangan iklim menjadi krisis utang, terutama di negara dengan akses terbatas ke pasar modal internasional.
+
+Harga pangan menyalurkan guncangan iklim ke ekonomi dengan cara yang sulit diprediksi dan mudah meledak secara politik. Kekeringan menaikkan harga bahan pokok, yang menaikkan biaya hidup rumah tangga yang membelanjakan porsi besar pendapatannya untuk pangan, yang mengurangi permintaan barang lain dan dapat memicu tuntutan upah serta protes. Lonjakan harga 2007–2008 dan 2010–2011 menunjukkan seberapa cepat guncangan pangan dapat menjadi peristiwa makroekonomi dan politik, dan seberapa jauh efeknya menjalar dari wilayah tempat panen gagal.
 
 ## 10.4 Risiko Negara dan Biaya Modal
 
@@ -1437,6 +1469,8 @@ Mekanismenya beroperasi melalui beberapa saluran. Bencana mengurangi pendapatan 
 
 Hasilnya adalah lingkaran setan bagi negara paling rentan. Mereka menghadapi biaya adaptasi tertinggi, biaya modal tertinggi, dan ruang fiskal paling sempit, dan kombinasi itu dapat membuat adaptasi tidak terjangkau bahkan ketika imbal hasilnya tinggi. Lembaga keuangan internasional mulai menangani masalah itu melalui pembiayaan konsesional, pertukaran utang, dan pinjaman darurat yang telah diatur sebelumnya, tetapi skalanya masih kecil relatif terhadap kebutuhan.
 
+Risiko sovereign adalah pintu masuk perubahan iklim ke sistem keuangan. Negara yang berulang kali dihantam bencana harus berutang untuk membangun kembali, yang menaikkan beban utangnya; investor menuntut premi untuk risiko itu, yang menaikkan biaya modalnya; dan biaya modal yang lebih tinggi menghambat investasi yang dibutuhkan untuk beradaptasi. Beberapa studi menemukan bahwa kerentanan iklim sudah tercermin dalam peringkat kredit sovereign, dan efeknya terkuat bagi negara pulau kecil serta negara berpenghasilan rendah dengan penyangga fiskal terbatas.
+
 ## 10.5 Asuransi dan Batas Transfer Risiko
 
 Asuransi adalah mekanisme yang memungkinkan kerugian disebar ke banyak pemegang polis dan sepanjang waktu. Ia bekerja ketika risikonya terukur, peristiwanya independen, dan premisnya menutupi kerugian yang diharapkan ditambah margin. Perubahan iklim melanggar ketiga syarat itu: risikonya berubah, peristiwanya menjadi berkorelasi antarbenua, dan kerugiannya naik lebih cepat daripada kemampuan premi menyesuaikan.
@@ -1444,6 +1478,8 @@ Asuransi adalah mekanisme yang memungkinkan kerugian disebar ke banyak pemegang 
 Hasilnya adalah retret. Perusahaan asuransi telah menarik diri dari sebagian California dan Florida, tempat risiko kebakaran dan angin topan meningkat; mereka menaikkan premi di wilayah pesisir; dan mengurangi cakupan banjir serta gelombang badai. Di Amerika Serikat, Program Asuransi Banjir Nasional telah bangkrut selama bertahun-tahun dan terpaksa menaikkan premi, yang membuat asuransi tidak terjangkau bagi sebagian pemilik rumah dan menurunkan nilai properti.
 
 Ketika asuransi gagal, biayanya berpindah ke pemerintah dan rumah tangga. Pemerintah memberikan bantuan bencana, yang sering tidak tersasar dan lambat; rumah tangga menguras tabungan, meminjam dengan bunga tinggi, atau meninggalkan properti. Pergeseran itu regresif, karena rumah tangga kaya dapat mengasuransikan diri sendiri dan rumah tangga miskin tidak. Hasilnya adalah risiko iklim menjadi mekanisme transfer kekayaan dari mereka yang tidak mampu menanggungnya ke mereka yang mampu.
+
+Asuransi adalah mekanisme utama untuk mengalihkan risiko iklim, dan ia menarik diri dari tempat yang risikonya tertinggi. Perusahaan asuransi mengurangi eksposur di sebagian California, Florida, dan Australia, dan preminya naik tajam di wilayah yang terpapar kebakaran hutan, banjir, dan badai. Ketika asuransi menjadi tidak tersedia atau tidak terjangkau, biaya bencana bergeser ke rumah tangga dan pemerintah, itulah sebabnya penarikan diri perusahaan asuransi diperlakukan sebagai sinyal risiko yang tidak dapat diasuransikan alih-alih keputusan komersial biasa.
 
 ## 10.6 Aset Terdampar dan Risiko Transisi
 
@@ -1453,6 +1489,8 @@ Risikonya tidak hipotetis. Perusahaan batu bara di Amerika Serikat dan Eropa tel
 
 Implikasi kebijakannya adalah risiko transisi dan risiko fisik harus dikelola bersama. Transisi tidak tertib, di mana kebijakan berubah mendadak dan aset dihapus nilainya secara tiba-tiba, dapat mengguncang lembaga keuangan; transisi yang tertunda, di mana risiko fisik terus terakumulasi, dapat mengguncangnya lebih parah. Tujuannya adalah transisi tertib yang memberi sinyal arah kebijakan lebih awal, menghentikan secara bertahap aset paling terpapar, dan melindungi pekerja serta komunitas yang bergantung padanya.
 
+Aset terbengkalai adalah investasi yang kehilangan nilai sebelum akhir umur yang diperkirakan, dan kebijakan iklim menciptakannya melalui dua cara. Aset bahan bakar fosil dapat terbengkalai karena regulasi, karena turunnya permintaan atas keluarannya, atau karena biaya karbon; dan aset fisik dapat terbengkalai karena panas kronis, banjir berulang, atau genangan permanen. Investor yang mengabaikan risiko itu salah menghargai aset hari ini, dan kerugiannya muncul kemudian sebagai penghapusan nilai mendadak, itulah sebabnya bank sentral kini memasukkan risiko iklim ke dalam penilaian stabilitas keuangan.
+
 ## 10.7 Biaya Kelambanan
 
 Memperkirakan biaya kelambanan memerlukan perbandingan antara masa depan dengan perubahan iklim dan masa depan tanpa perubahan iklim, dan perbandingan itu bergantung pada asumsi tentang pertumbuhan, adaptasi, dan diskonto. Model penilaian terintegrasi awal, seperti model DICE yang dikembangkan William Nordhaus, menghasilkan perkiraan beberapa persen PDB global pada akhir abad, dan perkiraan itu dikritik karena meremehkan risiko dampak katastrofik dan tidak dapat dibalik.
@@ -1460,6 +1498,8 @@ Memperkirakan biaya kelambanan memerlukan perbandingan antara masa depan dengan 
 Perkiraan yang lebih baru lebih besar. Studi 2024 di Nature menemukan bahwa jalur emisi tinggi akan mengurangi pendapatan global sekitar 19 persen pada 2050 relatif terhadap garis dasar tanpa iklim, dengan kerugian sekitar US$38 triliun per tahun, dan bahwa kerugiannya akan jatuh secara tidak proporsional pada negara dengan emisi historis rendah (Kotz, Levermann dan Wenz, 2024). Swiss Re Institute memperkirakan bahwa perubahan iklim dapat mengurangi PDB global 10 persen pada 2050 dalam skenario parah, dan Bank Dunia memperkirakan negara miskin dapat kehilangan 1,2 sampai 3,3 persen PDB pada 2030.
 
 Perkiraannya berbeda karena menggunakan asumsi berbeda, tetapi berbagi satu kesimpulan: biaya kelambanan lebih besar daripada biaya tindakan, dan selisihnya tumbuh. Ekonomi perubahan iklim karena itu bukan terutama soal apakah harus bertindak, melainkan seberapa cepat, seberapa adil, dan seberapa efektif. Semakin lama penundaan, semakin besar risiko fisik dan semakin mendadak transisi yang dibutuhkan untuk menghindarinya.
+
+Biaya tanpa tindakan biasanya dinyatakan sebagai perbandingan antara biaya mengurangi emisi dan biaya kerugian yang dihindari, dan perbandingannya telah bergeser secara meyakinkan. Stern Review memperkirakan pada 2006 bahwa bertindak lebih awal akan menelan biaya sekitar 1 persen PDB per tahun sementara tanpa tindakan akan menelan 5–20 persen; sejak itu, biaya energi terbarukan turun satu orde besaran dan perkiraan kerugian naik. Berdasarkan bukti saat ini, pertanyaannya bukan lagi apakah tindakan lebih murah daripada tanpa tindakan, tetapi seberapa jauh lebih murah.
 
 ## 10.8 Siapa yang Menanggung Kerugian
 
@@ -1469,6 +1509,8 @@ Efek distribusionalnya diperparah oleh fakta bahwa negara dan rumah tangga yang 
 
 Distribusi di tingkat rumah tangga sama pentingnya. Bencana yang menghancurkan rumah rumah tangga miskin dapat mendorongnya ke kemiskinan permanen, karena ia tidak memiliki tabungan, asuransi, dan akses kredit. Rumah tangga yang lebih kaya dapat menyerap kerugian yang sama dan membangun kembali. Hasilnya adalah satu peristiwa dapat memperlebar ketidaksetaraan selama satu generasi, dan perlindungan sosial sama pentingnya dengan infrastruktur fisik dalam menentukan siapa yang pulih.
 
+Distribusi kerugian ditentukan asuransi, bantuan pemerintah, dan perlindungan sosial, dan di sebagian besar negara ketiganya bersama-sama meninggalkan celah besar. Kerugian tanpa asuransi jatuh pada rumah tangga, dan paling berat pada mereka yang tabungannya paling sedikit, yang berarti bencana dapat mengubah guncangan pendapatan moderat menjadi kemiskinan permanen. Karena rumah tangga termiskin juga tinggal di tempat paling terpapar, kerugiannya terkonsentrasi di tempat kapasitas menyerapnya paling lemah.
+
 ## 10.9 Instrumen Keuangan untuk Ketangguhan
 
 Beberapa instrumen dapat mentransfer atau membiayai risiko iklim. Obligasi bencana negara membayar ketika peristiwa yang telah ditentukan terjadi, menyediakan likuiditas cepat setelah bencana. Asuransi parametrik melakukan hal yang sama pada skala lebih kecil, menggunakan curah hujan atau kecepatan angin sebagai proksi kerugian. Jalur kredit kontinjensi memungkinkan pemerintah meminjam dengan cepat ketika bencana dinyatakan. Dana cadangan mengumpulkan tabungan pada tahun baik untuk digunakan pada tahun buruk.
@@ -1477,6 +1519,8 @@ Setiap instrumen memiliki kekuatan dan kelemahan. Obligasi bencana mahal dan mem
 
 Masalah yang lebih mendalam adalah transfer risiko tidak mengurangi risiko; ia hanya menyebarkannya. Negara yang mengasuransikan banjir tetap mengalami banjir, dan premi yang dibayarnya mengurangi sumber daya untuk pencegahan. Strategi keuangan paling hemat biaya karena itu adalah berinvestasi dalam mengurangi risiko lebih dulu, dan menggunakan asuransi untuk risiko sisa yang tidak dapat dihilangkan. Urutan itu — pencegahan sebelum transfer — adalah prinsip inti ketangguhan finansial.
 
+Instrumen keuangan untuk ketangguhan telah berkembang: obligasi bencana, asuransi parametrik yang membayar ketika pemicu yang telah ditentukan terpenuhi, kumpulan risiko regional, jalur kredit kontinjen, dan obligasi ketangguhan. Keunggulannya adalah kecepatan dan kepastian, karena pembayaran tidak bergantung pada penilaian kerusakan. Keterbatasannya adalah risiko basis, kemungkinan pemicu tidak terpenuhi bahkan ketika kerusakan terjadi, itulah sebabnya instrumen itu paling baik dipakai bersama instrumen tradisional alih-alih menggantikannya.
+
 ## 10.10 Makroekonomi Dunia yang Memanas
 
 Pada tingkat makroekonomi, perubahan iklim memengaruhi pertumbuhan melalui beberapa saluran: ia menghancurkan modal, mengurangi produktivitas, mengalihkan investasi dari penggunaan produktif ke rekonstruksi, dan meningkatkan ketidakpastian yang mengurangi investasi jangka panjang. Efek gabungannya adalah penurunan output potensial yang bertahan lama setelah peristiwa yang menyebabkannya.
@@ -1484,6 +1528,8 @@ Pada tingkat makroekonomi, perubahan iklim memengaruhi pertumbuhan melalui beber
 Efeknya tidak seragam antarnegara. Ekonomi yang bergantung pada pertanian, pariwisata, atau pekerjaan luar ruang lebih terpapar; ekonomi dengan produksi terdiversifikasi dan lembaga kuat lebih tangguh. Hasilnya adalah perubahan iklim cenderung memperlebar jurang antara negara kaya dan miskin, membalik sebagian konvergensi yang dihasilkan globalisasi pada akhir abad kedua puluh.
 
 Respons kebijakannya memiliki tiga pilar. Pertama mitigasi, yang mengurangi besarnya kerusakan masa depan. Kedua adaptasi, yang mengurangi kerentanan terhadap kerusakan yang sudah terjadi. Ketiga ketangguhan finansial, yang memastikan rumah tangga, perusahaan, dan pemerintah dapat menyerap guncangan yang tidak dapat dicegah. Ketiganya saling melengkapi: mitigasi tanpa adaptasi membiarkan orang terpapar dampak yang tak terhindarkan; adaptasi tanpa mitigasi pada akhirnya melampaui batasnya; dan keduanya tanpa ketangguhan finansial membiarkan orang termiskin menanggung biayanya.
+
+Makroekonomi dunia yang memanas dibentuk tiga kekuatan yang menarik ke arah berbeda. Kerugian mengurangi keluaran dan menaikkan inflasi melalui guncangan pasokan; investasi adaptasi menaikkan permintaan dan dapat menaikkan produktivitas; dan transisi menjauh dari bahan bakar fosil mengalokasikan ulang modal serta tenaga kerja. Bank sentral mulai memodelkan efek ini, dan konsensus yang muncul adalah bahwa perubahan iklim adalah pendorong struktural volatilitas alih-alih guncangan sekali terjadi, yang mengubah cara kebijakan moneter seharusnya meresponsnya.
 
 ## 10.11 Studi Kasus: Musim Badai Atlantik 2017
 
@@ -1496,6 +1542,8 @@ Efek ekonominya bertahan bertahun-tahun. Di Puerto Rico, populasi menurun bebera
 Musim itu menggambarkan perbedaan antara kerugian yang diasuransikan dan tidak, serta antara kapasitas yurisdiksi kaya dan miskin untuk pulih. Ia juga menggambarkan pentingnya infrastruktur: kegagalan jaringan Puerto Rico mengubah badai menjadi darurat kesehatan publik, dan kegagalan sistem listrik Texas selama badai musim dingin empat tahun kemudian menunjukkan pola yang sama pada musim berbeda. Dalam kedua kasus, bahaya fisiknya berada dalam kisaran yang seharusnya dapat ditahan infrastruktur; kegagalannya ada pada desain, perawatan, dan tata kelola sistem.
 
 Pelajarannya finansial sekaligus fisik. Pertama, penetrasi asuransi adalah penentu pemulihan, dan ia paling rendah di tempat yang kebutuhannya paling besar. Kedua, ketangguhan infrastruktur adalah bentuk perlindungan finansial, karena ia mengurangi liabilitas yang harus ditanggung pemerintah dan rumah tangga setelah peristiwa. Ketiga, rumah tangga termiskin membutuhkan hibah dan perlindungan sosial, bukan pinjaman, karena pinjaman terhadap pendapatan masa depan bukan strategi pemulihan bagi orang yang kehilangan penghidupannya. Keempat, biaya rekonstruksi meningkat, dan kemauan donor serta perusahaan asuransi untuk membayar tidak meningkat.
+
+Musim 2017 juga menunjukkan celah asuransi yang mendefinisikan ekonomi iklim. Dari sekitar US$300 miliar kerugian, sekitar US$90 miliar diasuransikan, dan selisihnya terkonsentrasi di pulau-pulau Karibia serta Puerto Rico, tempat penetrasi asuransi rendah. Celah itu tidak hilang; ia diserap rumah tangga, pemerintah, dan bantuan kemanusiaan, yang berarti korban termiskin membiayai sebagian besar rekonstruksi melalui tabungan yang hilang, tahun sekolah yang hilang, dan kesehatan yang hilang.
 
 ## 10.12 Skenario dan Prediksi Masa Depan: Biaya Ekonomi hingga 2050
 
@@ -1532,6 +1580,8 @@ Skalanya sulit diukur karena iklim jarang menjadi satu-satunya alasan berpindah.
 
 Bab ini membahas pemicu migrasi iklim, perbedaan antara perpindahan sukarela dan terpaksa, serta tujuan yang menerima orang. Bab ini memberi perhatian khusus pada tempat-tempat yang tidak dapat beradaptasi di tempat — pulau kecil, delta rendah, dan padang penggembalaan yang rawan kekeringan — dan pada kerangka hukum serta politik yang menentukan apakah perpindahan dikelola atau kacau. Bab ini ditutup dengan pertanyaan yang dihadapi komunitas penerima: bagaimana menyerap orang tanpa menciptakan kerentanan baru.
 
+Migrasi adalah strategi adaptasi tertua manusia, dan ia biasanya digambarkan dengan bahasa krisis alih-alih agensi. Sebagian besar orang yang bergerak merespons tekanan lingkungan berpindah jarak pendek, tetap di dalam negaranya, dan kembali ketika kondisi memungkinkan; hanya sebagian kecil yang melintasi perbatasan. Citra eksodus massal dari Selatan global ke Utara global tidak didukung bukti, dan kebijakan yang dibangun di atas citra itu cenderung bersifat menghukum alih-alih melindungi.
+
 ## 11.1 Definisi: Migrasi, Pengungsian dan Relokasi
 
 Migrasi adalah istilah luas yang mencakup perpindahan sukarela untuk mencari peluang dan perpindahan terpaksa sebagai respons terhadap ancaman. Pengungsian biasanya merujuk pada perpindahan akibat peristiwa tertentu, seperti banjir atau konflik, dan menyiratkan bahwa orang berniat kembali. Relokasi terencana merujuk pada perpindahan komunitas yang terorganisasi ke lokasi baru, biasanya dengan dukungan pemerintah. Perbedaan itu penting karena menentukan perlindungan hukum yang berlaku dan bentuk bantuan yang tersedia.
@@ -1539,6 +1589,8 @@ Migrasi adalah istilah luas yang mencakup perpindahan sukarela untuk mencari pel
 Perubahan iklim dapat menghasilkan ketiganya. Banjir mengungsi orang sementara; kekeringan dapat mendorong migrasi permanen; desa yang berulang kali banjir dapat direlokasi oleh negara. Rumah tangga yang sama dapat mengalami beberapa di antaranya secara berurutan: mengungsi ke tempat penampungan, kembali ke rumah yang rusak, bermigrasi ke kota, dan akhirnya direlokasi ke permukiman baru. Kategori itu berguna bagi kebijakan tetapi tidak menggambarkan proses yang linear.
 
 Kerangka hukumnya tidak lengkap. Konvensi Pengungsi 1951 mendefinisikan pengungsi sebagai orang yang melarikan diri dari penganiayaan berdasarkan ras, agama, kebangsaan, kelompok sosial, atau pendapat politik; konvensi itu tidak mencakup orang yang melarikan diri dari perubahan lingkungan. Tidak ada instrumen internasional yang mengikat yang memberikan migran iklim hak untuk masuk ke negara lain atau menerima perlindungan. Beberapa negara telah menciptakan visa kemanusiaan, dan perjanjian regional mulai menangani celah itu, tetapi perlindungan yang tersedia bagi orang yang pulau kecilnya sedang menghilang bergantung pada di mana ia dilahirkan.
+
+Perbedaannya penting karena menentukan status hukum dan hak. Migrasi adalah perpindahan sukarela, bahkan ketika tekanan di belakangnya berat; pengungsian bersifat tidak sukarela dan biasanya sementara; dan relokasi adalah perpindahan terencana yang diorganisasi pemerintah atau lembaga. Orang yang meninggalkan desa yang dilanda kekeringan untuk mencari kerja adalah migran menurut hukum internasional dan memiliki sedikit perlindungan; orang yang melarikan diri dari banjir adalah pengungsi di dalam negaranya dan bergantung pada hukum nasional; dan orang yang dipindahkan dari garis pantai oleh program pemukiman ulang memiliki rangkaian hak lain lagi.
 
 ## 11.2 Pemicu Cepat dan Lambat
 
@@ -1548,6 +1600,8 @@ Perubahan lambat — kenaikan muka laut, desertifikasi, salinisasi, penyusutan g
 
 Keduanya berinteraksi. Komunitas yang dilemahkan kekeringan berulang mungkin tidak mampu pulih dari banjir; kota pesisir yang tenggelam mungkin dilanda gelombang badai yang seharusnya dapat ditahan satu generasi lalu. Urutan guncangan sama pentingnya dengan besarnya satu peristiwa, itulah sebabnya kerentanan paling baik dipahami sebagai lintasan, bukan keadaan.
 
+Peristiwa cepat mengungsikan jauh lebih banyak orang daripada peristiwa lambat, tetapi peristiwa lambat menghasilkan perpindahan yang lebih permanen. Banjir dan badai mengungsikan jutaan orang setiap tahun, dan sebagian besar kembali dalam hitungan pekan; kekeringan, salinisasi, dan kenaikan muka laut mengungsikan lebih sedikit orang sekaligus tetapi membuat kembali mustahil, sehingga perpindahannya menjadi permanen. Internal Displacement Monitoring Centre mencatat sekitar 26 juta pengungsian baru akibat bencana per tahun, dan angka itu meremehkan perpindahan lambat karena ia menghitung peristiwa alih-alih pengikisan bertahap.
+
 ## 11.3 Berapa Banyak Migrasi Terkait Iklim?
 
 Memperkirakan jumlah orang yang pindah karena perubahan iklim sulit karena iklim jarang menjadi satu-satunya penyebab. Peneliti menggunakan survei rumah tangga, data satelit tentang vegetasi dan curah hujan, serta model ekonometrik untuk mengidentifikasi pengaruh variabel iklim terhadap keputusan migrasi, dengan mengendalikan pendapatan, konflik, kepemilikan lahan, dan jaringan sosial. Perkiraannya sangat beragam, tetapi secara konsisten menemukan bahwa guncangan iklim meningkatkan migrasi, terutama dari daerah pedesaan dan terutama di antara rumah tangga yang bergantung pada pertanian.
@@ -1555,6 +1609,8 @@ Memperkirakan jumlah orang yang pindah karena perubahan iklim sulit karena iklim
 Laporan Groundswell Bank Dunia memperkirakan bahwa 216 juta orang dapat berpindah di dalam negaranya sendiri pada 2050 di enam wilayah di bawah skenario emisi tinggi, dengan sebagian besar perpindahan di Afrika Sub-Sahara, Asia Selatan, dan Amerika Latin. Laporan yang sama menemukan bahwa sebagian besar perpindahan dapat dihindari melalui adaptasi — irigasi, diversifikasi tanaman, perlindungan sosial, dan perencanaan kota — itulah sebabnya laporan itu dirumuskan sebagai seruan bertindak, bukan ramalan.
 
 Jumlah orang yang melintasi perbatasan internasional karena alasan iklim jauh lebih kecil, dan kemungkinan tetap demikian. Migrasi internasional mahal, membutuhkan dokumen dan jaringan, dan sering dihalangi kontrol perbatasan. Orang yang paling terpapar risiko iklim biasanya paling tidak mampu bermigrasi secara internasional, itulah sebabnya yang paling rentan sering tetap di tempat. Fenomena itu — imobilitas orang yang paling terpapar — adalah salah satu ciri migrasi iklim yang paling penting dan paling sedikit dibahas.
+
+Memperkirakan berapa banyak migrasi yang terkait iklim sulit secara metodologis, karena iklim jarang menjadi satu-satunya pendorong dan orang jarang menjelaskan motifnya dengan istilah itu. Survei biasanya menemukan faktor ekonomi mendominasi, dengan tekanan lingkungan berperan sebagai penguat alih-alih penyebab tunggal. Proyeksi 200 juta migran iklim pada 2050 yang banyak dikutip berasal dari karya 1995 dan telah dikritik metodenya; perkiraan berikutnya berkisar dari 44 juta hingga lebih dari 200 juta tergantung asumsi tentang adaptasi dan pembangunan.
 
 ## 11.4 Pastoralis, Petani dan Sahel
 
@@ -1564,6 +1620,8 @@ Hasilnya adalah konflik atas tanah dan air, terutama di tempat negara lemah dan 
 
 Petani merespons kekeringan dengan cara berbeda. Mereka mungkin bermigrasi sementara ke kota, mengirim anggota keluarga untuk bekerja, mendiversifikasi ke aktivitas non-pertanian, atau menjual ternak untuk membeli makanan. Strategi itu kumulatif, dan masing-masing mengurangi kapasitas rumah tangga untuk kembali bertani. Rumah tangga yang menjual hewan dan alatnya mungkin tidak dapat memulai lagi bahkan jika hujan kembali, itulah sebabnya kekeringan dapat menghasilkan de-agrarianisasi permanen di wilayah yang mengalaminya berulang kali.
 
+Pastoralis di Sahel menggambarkan bagaimana mobilitas berfungsi sebagai adaptasi. Penggembala memindahkan ternak mengikuti jalur yang telah dinegosiasikan lintas generasi, memakai sumur dan padang rumput yang dibagi menurut aturan adat. Ketika kekeringan mengurangi padang rumput, mobilitas memungkinkan ternak mencapai wilayah yang masih berumput; ketika perbatasan, lahan pertanian, atau konflik menghalangi jalurnya, kekeringan yang sama menjadi keruntuhan penghidupan. Krisisnya karena itu dihasilkan sama banyak oleh hilangnya mobilitas seperti oleh kurangnya hujan.
+
 ## 11.5 Negara Pulau Kecil dan Komunitas Pesisir
 
 Negara pulau kecil berkembang paling terpapar kenaikan muka laut karena luas daratannya kecil, elevasinya rendah, dan populasinya terkonsentrasi di pesisir. Tuvalu, Kiribati, Kepulauan Marshall, dan Maladewa memiliki elevasi rata-rata beberapa meter, dan pasokan air tawarnya bergantung pada lensa air tanah tipis yang rentan terhadap intrusi air asin. Bagi negara-negara ini, adaptasi di tempat memiliki batas fisik.
@@ -1571,6 +1629,8 @@ Negara pulau kecil berkembang paling terpapar kenaikan muka laut karena luas dar
 Responsnya memiliki tiga jalur. Pertama, pertahanan pesisir: tanggul laut, reklamasi, dan infrastruktur yang ditinggikan. Kedua, adaptasi di dalam pulau: pemanenan air hujan, desalinasi, tanaman toleran garam, dan relokasi permukiman ke tanah yang lebih tinggi. Ketiga, migrasi: perjanjian dengan negara lain yang memungkinkan warga pindah, bekerja, dan akhirnya menetap. Falepili Union antara Tuvalu dan Australia adalah contoh terbaru, dan ia menggabungkan jalur visa dengan pengakuan Australia atas batas laut Tuvalu serta komitmen membantu jika terjadi bencana besar.
 
 Politik perjanjian itu rumit. Negara pulau tidak ingin dilihat sebagai menyerah, dan tidak ingin kehilangan kedaulatan atau zona maritimnya, yang sangat luas relatif terhadap luas daratannya. Australia dan Selandia Baru bersedia menerima migran dalam jumlah terbatas, tetapi tidak bersedia mengakui kategori hukum pengungsi iklim. Hasilnya adalah tambal sulam pengaturan bilateral yang menyediakan jalur bagi sebagian orang tetapi bukan hak bagi semua.
+
+Negara pulau kecil menghadapi bentuk pengungsian yang tidak memiliki preseden dalam hukum internasional: hilangnya wilayah itu sendiri. Negara yang tanahnya tenggelam tidak memiliki populasi yang dapat kembali, dan pertanyaan hukum apakah kenegaraan bertahan setelah hilangnya wilayah belum terselesaikan. Sebagian pemerintah mulai membeli tanah di luar negeri sebagai bentuk asuransi, dan sebagian menegosiasikan jalur migrasi dengan tetangga yang lebih besar, tetapi tidak satu pun menyelesaikan pertanyaan kedaulatan atau kesinambungan budaya.
 
 ## 11.6 Banjir, Pengungsian dan Kembali
 
@@ -1580,6 +1640,8 @@ Sebagian besar pengungsian akibat banjir bersifat sementara, tetapi kembali tida
 
 Kualitas pengungsian sama pentingnya dengan durasinya. Orang di kamp menghadapi kepadatan, sanitasi buruk, dan akses terbatas ke layanan kesehatan serta pendidikan; orang yang tinggal bersama kerabat mungkin kurang terlihat tetapi sama rentannya. Keputusan untuk kembali sering didorong oleh ketersediaan pekerjaan dan perumahan, bukan oleh tingkat risiko, yang berarti orang termiskin paling mungkin kembali ke tempat berbahaya.
 
+Kembali setelah banjir adalah bagian pengungsian yang paling sedikit mendapat perhatian dan menentukan hasil jangka panjang. Rumah tangga kembali ketika rumahnya layak huni, penghidupannya pulih, dan anaknya dapat bersekolah; mereka tetap jauh ketika perumahan hancur, tanah tercemar, atau layanan tidak ada. Faktor yang memprediksi kembalinya karena itu sama dengan faktor yang memprediksi pemulihan, itulah sebabnya kebijakan pengungsian dan kebijakan perumahan tidak dapat dipisahkan.
+
 ## 11.7 Kota sebagai Tujuan
 
 Sebagian besar migran iklim pindah ke kota, dan sebagian besar kota tidak siap menerima mereka. Pendatang baru sering menetap di kawasan informal yang juga terpapar banjir, panas, dan longsor, dan mereka kekurangan akses ke air, sanitasi, layanan kesehatan, dan pekerjaan formal. Hasilnya adalah migrasi memindahkan kerentanan dari pedesaan ke kota alih-alih menyelesaikannya.
@@ -1587,6 +1649,8 @@ Sebagian besar migran iklim pindah ke kota, dan sebagian besar kota tidak siap m
 Kota yang merencanakan migrasi berkinerja lebih baik. Menyediakan lahan untuk perumahan terjangkau, memperluas air dan sanitasi ke permukiman informal, dan menciptakan peluang kerja mengurangi risiko pendatang terdorong ke kawasan berbahaya. Beberapa kota telah mengadopsi kebijakan yang secara eksplisit mengakui migran iklim, termasuk akses ke layanan dan tempat berlindung sementara. Tetapi sebagian besar belum, dan kedatangan banyak orang dalam waktu singkat dapat membebani layanan dan menciptakan ketegangan politik.
 
 Komunitas penerima sama pentingnya dengan migran. Kota yang berhasil menyerap orang adalah kota yang pasar tenaganya tumbuh, infrastrukturnya memadai, dan jaringan sosialnya inklusif. Kota yang sudah tertekan oleh pengangguran, kekurangan perumahan, dan layanan lemah mungkin mengalami konflik. Perbedaannya sebagian besar merupakan soal tata kelola dan investasi, yang berarti kebijakan migrasi juga kebijakan perkotaan.
+
+Kota menyerap sebagian besar migrasi iklim, dan mereka melakukannya secara informal. Pendatang baru biasanya menetap di lingkungan pinggiran dengan perumahan murah dan layanan terbatas, sering di wilayah yang terpapar banjir atau longsor. Hasilnya, migrasi memindahkan kerentanan dari pedesaan ke perkotaan tanpa menguranginya, kecuali kota penerima berinvestasi dalam perumahan, infrastruktur, dan layanan secepat pertumbuhan populasinya.
 
 ## 11.8 Remitansi dan Adaptasi Transnasional
 
@@ -1596,6 +1660,8 @@ Remitansi dapat meningkatkan ketangguhan. Rumah tangga yang menerima transfer ru
 
 Ada sisi gelapnya. Migrasi dapat memisahkan keluarga, meningkatkan beban perempuan yang tinggal, dan memaparkan migran pada eksploitasi serta pekerjaan berbahaya. Remitansi juga dapat menciptakan ketergantungan pada satu sumber pendapatan yang sendiri rentan terhadap guncangan ekonomi di negara tujuan. Tantangan kebijakannya adalah memaksimalkan manfaat migrasi sambil mengurangi biayanya, yang memerlukan jalur migrasi yang aman, perlindungan sosial yang dapat dibawa, dan sistem keuangan yang menurunkan biaya transfer.
 
+Remitansi adalah salah satu bentuk pembiayaan adaptasi paling efektif, dan ia jarang dihitung sebagai demikian. Uang yang dikirim pulang oleh anggota keluarga yang bekerja di luar negeri melebihi bantuan pembangunan resmi di banyak negara, dan ia datang langsung, cepat, dan tanpa syarat. Riset di Bangladesh, Nepal, dan Amerika Tengah menemukan bahwa rumah tangga penerima remitansi lebih banyak berinvestasi dalam perumahan, pendidikan, dan kesiapsiagaan, serta pulih lebih cepat setelah bencana, yang menjadikan migrasi strategi bagi mereka yang tinggal maupun yang pergi.
+
 ## 11.9 Kerangka Hukum dan Politik
 
 Kerangka hukum migrasi iklim terfragmentasi. Konvensi Pengungsi tidak mencakup pengungsian lingkungan; Organisasi Internasional untuk Migrasi bukan lembaga perlindungan; dan Konvensi Kerangka Kerja PBB tentang Perubahan Iklim membentuk gugus tugas tentang pengungsian tetapi bukan hak untuk diterima. Hasilnya adalah sebagian besar migran iklim bergantung pada aturan imigrasi biasa, yang dirancang untuk tujuan lain dan sering restriktif.
@@ -1604,6 +1670,8 @@ Sejumlah kemajuan telah dicapai. Global Compact for Safe, Orderly and Regular Mi
 
 Hambatan politiknya adalah penerimaan merupakan keputusan berdaulat, dan publik di negara penerima sering menolak migrasi. Hasilnya adalah pemerintah lebih suka membiayai adaptasi di negara asal, yang lebih murah dan lebih mudah secara politik, daripada membuka jalur hukum. Adaptasi memang diperlukan, tetapi ia tidak dapat melindungi semua orang, dan orang yang tidak dapat dilindunginya membutuhkan tempat untuk pergi. Tidak adanya jalur hukum tidak mencegah perpindahan; ia hanya membuat perpindahan menjadi tidak teratur, berbahaya, dan mahal.
 
+Kerangka hukum untuk migrasi iklim terfragmentasi. Konvensi Pengungsi 1951 tidak mengakui pendorong lingkungan, dan orang yang melarikan diri dari banjir umumnya bukan pengungsi; Konvensi Kampala mencakup pengungsi internal di Afrika tetapi hanya di dalam benua itu; dan Global Compact for Migration tidak mengikat. Beberapa perjanjian regional telah menciptakan visa kemanusiaan dan jalur tenaga kerja, tetapi cakupannya tetap sebagian dan bergantung pada kemauan politik.
+
 ## 11.10 Relokasi Terencana
 
 Relokasi terencana adalah perpindahan komunitas yang terorganisasi ke lokasi baru, biasanya karena lokasi asal menjadi tidak aman. Ini adalah bentuk adaptasi paling sulit, karena melibatkan kehilangan tanah, penghidupan, jaringan sosial, dan identitas budaya. Proyek relokasi memiliki sejarah panjang kegagalan ketika diterapkan tanpa konsultasi, dikompensasi secara tidak memadai, atau ditempatkan di lokasi yang juga rentan.
@@ -1611,6 +1679,8 @@ Relokasi terencana adalah perpindahan komunitas yang terorganisasi ke lokasi bar
 Kasus yang berhasil berbagi beberapa ciri. Komunitas dikonsultasikan sejak awal dan berulang kali; kompensasi mencakup tanah, perumahan, dan penghidupan; lokasi baru memiliki akses ke air, pekerjaan, dan layanan; dan prosesnya diberi tempo agar orang dapat pindah ketika mereka siap. Relokasi terencana desa pesisir Fiji, yang didukung kerangka nasional, adalah salah satu contoh yang lebih banyak dipelajari; prosesnya lebih lambat daripada yang diinginkan pemerintah, tetapi umumnya menghormati persetujuan komunitas.
 
 Pertanyaan tersulit adalah siapa yang memutuskan. Komunitas mungkin memilih tinggal bahkan ketika pemerintah menganggap lokasinya tidak aman; pemerintah mungkin menganggap relokasi perlu bahkan ketika komunitas tidak setuju. Ketegangan itu tidak terhindarkan, dan diselesaikan secara berbeda di sistem politik yang berbeda. Prinsip yang muncul dari panduan internasional adalah bahwa relokasi harus menjadi pilihan terakhir, harus sukarela jika memungkinkan, dan harus mempertahankan hak serta martabat orang yang pindah. Prinsip itu lebih mudah dinyatakan daripada dilaksanakan.
+
+Relokasi terencana adalah pilihan yang dihindari pemerintah sampai menjadi tak terhindarkan, dan rekam jejak melakukannya dengan baik tipis. Kasus yang berhasil berbagi beberapa ciri: sukarela bila mungkin, melibatkan komunitas dalam memilih lokasi dan desain, memberi kompensasi yang memulihkan penghidupan alih-alih hanya perumahan, dan mempertahankan jaringan sosial dengan memindahkan kelompok alih-alih individu. Di tempat ciri itu tidak ada, lokasi pemukiman ulang menjadi tempat pengungsian sekunder dan ketergantungan.
 
 ## 11.11 Studi Kasus: Tuvalu dan Falepili Union
 
@@ -1623,6 +1693,8 @@ Falepili Union, yang ditandatangani dengan Australia pada November 2023, adalah 
 Perjanjian itu dikritik. Sebagian orang Tuvalu berpendapat bahwa ia mendorong emigrasi dan melemahkan insentif untuk beradaptasi di tempat; yang lain berpendapat bahwa ia adalah satu-satunya opsi realistis bagi negara yang tidak dapat mempertahankan diri dari laut. Pemerintah membingkainya sebagai polis asuransi, bukan penyerahan, dan tetap berinvestasi dalam pertahanan pesisir serta adaptasi. Debat itu mencerminkan ketegangan yang lebih luas dalam kebijakan iklim: apakah berinvestasi di tempat yang mungkin menjadi tidak layak huni, atau merencanakan perpindahan orang sebelum krisis datang.
 
 Kasus ini memiliki implikasi di luar Tuvalu. Ia menunjukkan bahwa jalur hukum bagi migrasi iklim dapat diciptakan melalui perjanjian bilateral, bahkan tanpa kerangka global. Ia menunjukkan bahwa pengakuan kenegaraan dan batas laut dapat dipisahkan dari wilayah fisik, sebuah inovasi hukum dengan implikasi bagi negara pulau lain. Dan ia menunjukkan bahwa pilihan antara adaptasi dan migrasi tidak biner: sebuah negara dapat melakukan keduanya, dan keseimbangannya bergeser seiring meningkatnya risiko fisik.
+
+Falepili Union juga menggambarkan batas kesepakatan bilateral sebagai model. Ia menyediakan jalur bagi sejumlah tertentu orang Tuvalu per tahun, jumlah kecil relatif terhadap populasi sekitar 11.000 orang dan terhadap skala pengungsian yang akhirnya terjadi; ia tidak menciptakan kategori pengungsi iklim; dan ia bergantung pada niat baik mitra yang lebih besar. Nilainya bukan pada angkanya melainkan pada prinsip yang ditetapkannya: bahwa negara yang menghadapi hilangnya wilayah dapat menegosiasikan masa depan rakyatnya sebelum kehilangan itu terjadi.
 
 ## 11.12 Skenario dan Prediksi Masa Depan: Migrasi hingga 2050
 
@@ -1660,6 +1732,8 @@ Pola yang sama muncul di wilayah lain. Kekeringan di Sahel memperkuat persaingan
 
 Bab ini membahas interaksi itu. Bab ini mengulas apa yang sebenarnya ditunjukkan penelitian tentang iklim dan konflik — literatur dengan klaim kuat dan perbedaan pendapat serius — lalu memeriksa jalur yang melaluinya stres lingkungan dapat berkontribusi pada kekerasan. Bab ini memberi perhatian khusus pada peran lembaga, karena kekeringan yang sama dapat menghasilkan kelaparan di satu negara, protes di negara lain, dan tidak apa-apa di negara ketiga. Bab ini ditutup dengan pertanyaan tentang apa yang dapat dilakukan institusi keamanan, dan apa yang tidak dapat mereka lakukan.
 
+Hubungan antara iklim dan konflik adalah salah satu pertanyaan paling diperdebatkan di bidang ini, dan perdebatannya produktif. Karya awal menemukan kaitan statistik kuat antara suhu dan kekerasan; karya berikutnya mempertanyakan mekanisme kausalnya, kepekaan hasil terhadap spesifikasi model, dan risiko menggeneralisasi dari satu konteks ke konteks lain. Konsensus saat ini lebih sempit dan lebih berguna: perubahan iklim adalah pengali risiko yang bekerja melalui penghidupan, harga, migrasi, dan kapasitas negara, dan efeknya bergantung pada institusi.
+
 ## 12.1 Apa yang Ditunjukkan Penelitian
 
 Literatur modern tentang iklim dan konflik dimulai dengan serangkaian studi kuantitatif yang menemukan hubungan statistik antara suhu dan kekerasan. Meta-analisis yang banyak dikutip oleh Hsiang, Burke, dan Miguel (2013) melaporkan bahwa setiap kenaikan satu standar deviasi suhu terkait dengan kenaikan 14 persen konflik antarkelompok dan 4 persen kekerasan antarpribadi, di seluruh studi yang mencakup banyak negara dan periode.
@@ -1667,6 +1741,8 @@ Literatur modern tentang iklim dan konflik dimulai dengan serangkaian studi kuan
 Temuan itu berpengaruh dan diperdebatkan. Kritikus, terutama Buhaug (2015), berargumen bahwa studi-studi itu menderita bias seleksi, bahwa mereka menggabungkan bentuk kekerasan yang sangat berbeda, dan bahwa ukuran efeknya kecil relatif terhadap faktor politik dan ekonomi. Karya berikutnya, termasuk tinjauan di Nature oleh Mach et al. (2019), menyimpulkan bahwa iklim telah memengaruhi risiko konflik bersenjata di beberapa konteks tetapi bahwa buktinya paling kuat untuk kekerasan tingkat rendah dan paling lemah untuk perang sipil, serta bahwa keyakinan pada hubungan keseluruhan terbatas.
 
 Perbedaan pendapatnya bukan tentang apakah iklim dapat berkontribusi pada konflik; melainkan tentang seberapa besar, di mana, dan dalam kondisi apa. Konsensus yang muncul adalah bahwa iklim adalah pengganda risiko, bukan penyebab independen. Ia bekerja pada masyarakat yang sudah rentan, melalui mekanisme yang bersifat politik dan ekonomi, bukan meteorologis, dan efeknya paling besar di tempat lembaga lemah dan penghidupan bergantung pada sumber daya sensitif iklim.
+
+Literatur kuantitatif memiliki tiga alur. Satu menemukan bahwa suhu lebih tinggi dan anomali curah hujan terkait dengan lebih banyak konflik pada skala besar, dengan Hsiang dkk. (2013) melaporkan bahwa kenaikan satu simpangan baku suhu menaikkan konflik antarkelompok sekitar 14 persen dan kekerasan interpersonal sekitar 4 persen. Alur kedua menemukan efeknya kecil, bersyarat, atau tidak ada setelah faktor politik dan ekonomi dikendalikan. Alur ketiga, termasuk Mach dkk. (2019), menyimpulkan bahwa pengaruhnya nyata tetapi moderat relatif terhadap pendorong lain.
 
 ## 12.2 Jalur: Penghidupan, Harga dan Migrasi
 
@@ -1676,6 +1752,8 @@ Jalur kedua adalah harga pangan. Ketika harga naik, populasi kota memprotes, dan
 
 Jalur ketiga adalah migrasi. Perpindahan orang dapat menciptakan ketegangan di wilayah penerima, terutama ketika cepat, ketika dianggap tidak adil, dan ketika negara tidak mampu menyediakan layanan. Tetapi migrasi juga dapat menjadi sumber ketangguhan, melalui remitansi dan tenaga kerja. Hasilnya bergantung pada kapasitas komunitas penerima dan lembaga untuk menyerap orang, itulah sebabnya arus masuk yang sama dapat menghasilkan integrasi di satu tempat dan konflik di tempat lain.
 
+Jalurnya lebih mudah dijelaskan daripada diukur. Guncangan iklim mengurangi pendapatan pertanian, yang menurunkan biaya peluang bergabung dengan kelompok bersenjata; ia menaikkan harga pangan, yang dapat memicu protes dan kerusuhan; ia mengungsikan orang, yang dapat menciptakan persaingan di wilayah penerima; dan ia mengurangi pendapatan negara, yang melemahkan kapasitas merespons. Setiap jalur masuk akal, dan setiap jalur dimediasi institusi, itulah sebabnya kekeringan yang sama dapat menghasilkan kerusuhan di satu negara dan tidak di negara lain.
+
 ## 12.3 Sahel dan Cekungan Danau Chad
 
 Sahel adalah wilayah di mana hubungan iklim-konflik paling sering disebut dan paling sulit dipisahkan. Curah hujan menurun sejak 1970-an, meskipun telah pulih sebagian di beberapa daerah; suhu naik lebih cepat daripada rata-rata global; dan populasi tumbuh pesat. Pastoralis dan petani bersaing atas tanah dan air, dan negara lemah di sebagian besar wilayah itu.
@@ -1683,6 +1761,8 @@ Sahel adalah wilayah di mana hubungan iklim-konflik paling sering disebut dan pa
 Konflik di Mali, Burkina Faso, dan Niger telah menewaskan ribuan orang dan mengungsi jutaan. Penyebabnya politik dan militer sama besarnya dengan lingkungan: runtuhnya negara Libya pada 2011 membanjiri wilayah itu dengan senjata; kelompok jihadis memanfaatkan keluhan lokal; dan pemerintah merespons dengan strategi yang mengasingkan populasi pedesaan. Stres iklim berkontribusi dengan melemahkan penghidupan dan mempersulit negara menyediakan layanan, tetapi tidak menciptakan konflik itu sendiri.
 
 Cekungan Danau Chad adalah kasus serupa. Penyusutan danau didorong berkurangnya curah hujan, meningkatnya irigasi, dan pertumbuhan penduduk, dan telah menghancurkan penghidupan perikanan serta pertanian di empat negara. Kemiskinan dan pengungsian yang dihasilkan menciptakan cadangan rekrutan bagi Boko Haram dan turunannya, dan respons militer telah mengungsi jutaan orang lagi. Pelajarannya bukan bahwa danau menyebabkan pemberontakan; melainkan bahwa perubahan lingkungan dapat menciptakan kondisi di mana pemberontakan menjadi mungkin.
+
+Cekungan Danau Chad adalah kasus paling banyak dikutip, dan ia lebih rumit daripada ringkasannya. Danau itu menyusut dari sekitar 25.000 kilometer persegi pada 1960-an menjadi beberapa ribu pada titik terendahnya, tetapi penyusutannya didorong pengambilan air di hulu dan kekeringan regional sekaligus, dan ia memengaruhi wilayah yang sudah miskin, lemah tata kelolanya, dan diperebutkan. Pemberontakan Boko Haram memanfaatkan hilangnya penghidupan yang dihasilkan, tetapi ia juga memiliki pendorong ideologis dan politik sendiri yang tidak dapat dijelaskan akun lingkungan mana pun.
 
 ## 12.4 Suriah dan Politik Atribusi
 
@@ -1692,6 +1772,8 @@ Rantai kausal dari kekeringan ke perang diperdebatkan. Sebagian analisis berargu
 
 Kasus Suriah menggambarkan masalah umum dalam penelitian iklim-konflik: godaan untuk menceritakan kisah sederhana yang menghubungkan peristiwa cuaca dengan perang. Kisah itu berguna secara politik karena mendramatisasi taruhannya, dan berbahaya secara analitis karena mengaburkan keputusan politik yang mengubah kerentanan menjadi kekerasan. Pemerintah yang merespons kekeringan dengan redistribusi dan bantuan mungkin menghadapi protes; pemerintah yang merespons dengan represi mungkin menghadapi perang.
 
+Suriah adalah kasus yang atribusinya paling diperdebatkan. Kekeringan 2006–2010 adalah yang terburuk dalam catatan instrumental, dan ia mengungsikan sekitar 1,5 juta orang dari daerah pedesaan ke kota. Kelley dkk. (2015) berargumen bahwa kekeringan itu menjadi lebih mungkin karena perubahan iklim dan berkontribusi pada konflik; Selby dkk. (2017) berargumen bahwa peran kekeringan dilebih-lebihkan dan ekonomi politik menjelaskan lebih banyak. Keduanya sepakat bahwa kekeringan berinteraksi dengan keluhan dan institusi lemah, yang merupakan posisi yang dapat dipertahankan.
+
 ## 12.5 Sengketa Air dan Kerja Sama
 
 Air adalah sumber daya yang paling sering dikaitkan dengan konflik iklim, dan catatannya lebih banyak kerja sama daripada yang disarankan berita. Kronologi Konflik Air Pacific Institute mencatat ribuan insiden terkait air, sebagian besar lokal, dan jauh lebih banyak perjanjian daripada perang. Perjanjian Air Indus bertahan melewati tiga perang antara India dan Pakistan; Inisiatif Cekungan Nil menjaga dialog tetap hidup di antara sepuluh negara dengan klaim yang bersaing; dan Organisasi Sungai Senegal telah mengelola cekungan bersama selama beberapa dekade.
@@ -1699,6 +1781,8 @@ Air adalah sumber daya yang paling sering dikaitkan dengan konflik iklim, dan ca
 Itu tidak berarti air bukan sumber ketegangan. Bendungan Grand Ethiopian Renaissance di Nil Biru telah menjadi subjek satu dekade negosiasi antara Mesir, Sudan, dan Ethiopia, dan sengketanya belum terselesaikan. Mesir bergantung pada Nil untuk hampir seluruh air tawarnya dan memperlakukan sungai itu sebagai sumber daya eksistensial; Ethiopia berargumen bahwa ia berhak mengembangkan pembangkit listriknya sendiri. Sengketa itu belum menjadi perang, tetapi telah membentuk politik regional dan menunda kerja sama pada isu lain.
 
 Faktor yang menentukan apakah sengketa air meningkat adalah politik, bukan hidrologis. Negara yang memiliki lembaga untuk berbagi informasi, mekanisme penyelesaian sengketa, dan sejarah kerja sama lebih mungkin mengelola kelangkaan tanpa kekerasan. Negara yang tidak memilikinya, atau yang sudah bermusuhan, lebih mungkin memperlakukan air sebagai sumber daya zero-sum. Pelajarannya adalah perjanjian air adalah bentuk adaptasi, dan erosi perjanjian itu adalah risiko keamanan.
+
+Sengketa air antarnegar lebih sering dikelola daripada diperangi. Perjanjian Air Indus bertahan melalui tiga perang antara India dan Pakistan; Inisiatif Cekungan Nil menjaga dialog tetap hidup meski ada sengketa Bendungan Grand Ethiopian Renaissance; dan mekanisme Kerja Sama Mekong telah menciptakan saluran berbagi data. Rekam jejaknya menunjukkan bahwa perjanjian, bahkan yang tidak sempurna, mengurangi risiko kekerasan dengan menciptakan harapan dan prosedur penyelesaian sengketa.
 
 ## 12.6 Perikanan, Batas Laut dan Arktik
 
@@ -1708,6 +1792,8 @@ Di tropis, pemanasan menggerakkan stok ikan ke air yang lebih dingin dan melinta
 
 Perikanan juga menggambarkan peran lembaga internasional. Organisasi pengelolaan perikanan regional menetapkan kuota dan mengalokasikan akses, dan efektivitasnya bergantung pada kemauan negara untuk mematuhi. Perubahan iklim mempersulit tugas mereka karena stok yang mereka kelola bergerak, dan karena nasihat ilmiah yang menjadi landasan mereka tidak pasti. Hasilnya adalah celah tata kelola yang diisi oleh tindakan sepihak, yang justru merupakan hasil yang seharusnya dicegah oleh lembaga.
 
+Arktik menggambarkan bagaimana perubahan iklim dapat menciptakan persaingan strategis baru bahkan tanpa kelangkaan sumber daya langsung. Es laut yang menyusut membuka jalur pelayaran, menyingkap perikanan dan cadangan hidrokarbon, dan mengubah geografi militer wilayah itu. Negara Arktik telah menegosiasikan kesepakatan tentang pencarian dan penyelamatan serta perikanan, tetapi persaingan pengaruh yang mendasarinya menguat, dan pengucilan sebagian negara dari Dewan Arktik setelah 2022 mengurangi forum yang tersedia untuk mengelolanya.
+
 ## 12.7 Kapasitas Negara dan Kerapuhan
 
 Variabel terpenting dalam hubungan iklim-konflik adalah kapasitas negara. Negara yang dapat memberikan bantuan, menjaga ketertiban, dan menyediakan layanan selama guncangan dapat mencegah spiral dari kekeringan ke kelaparan ke kekerasan. Negara yang tidak dapat — karena miskin, korup, tidak sah, atau sudah berperang — adalah tempat spiral paling mungkin terjadi.
@@ -1715,6 +1801,8 @@ Variabel terpenting dalam hubungan iklim-konflik adalah kapasitas negara. Negara
 Negara rapuh juga paling terpapar perubahan iklim. Mereka cenderung bergantung pada pertanian, memiliki infrastruktur lemah, dan kekurangan kapasitas fiskal untuk merespons bencana. Kombinasinya menciptakan lingkaran umpan balik: guncangan iklim melemahkan negara, dan negara yang melemah kurang mampu merespons guncangan berikutnya. Hasilnya adalah perubahan iklim dapat berkontribusi pada kegagalan negara, dan kegagalan negara dapat membuat dampak iklim jauh lebih buruk.
 
 Implikasi kebijakannya adalah adaptasi iklim dan pembangunan perdamaian merupakan proyek yang sama di negara rapuh. Membangun irigasi, memulihkan padang rumput, dan menyediakan perlindungan sosial adalah tindakan adaptasi, tetapi juga tindakan pencegahan konflik, karena mereka mengurangi persaingan atas sumber daya yang memicu kekerasan. Sebaliknya juga benar: perjanjian perdamaian yang tidak menangani akses ke tanah dan air tidak mungkin bertahan.
+
+Kapasitas negara adalah variabel terpenting dalam hubungan iklim-konflik. Negara dengan institusi efektif dapat menyerap kekeringan dengan mengimpor pangan, memperluas perlindungan sosial, dan mengelola distribusi; negara dengan institusi lemah tidak dapat. Guncangan iklim yang sama yang menghasilkan lonjakan harga dan protes di satu negara menghasilkan krisis kemanusiaan dan rekrutmen bersenjata di negara lain, dan perbedaannya adalah tata kelola alih-alih meteorologi.
 
 ## 12.8 Institusi Keamanan dan Risiko Iklim
 
@@ -1724,6 +1812,8 @@ Peran militer kontroversial. Sebagian berargumen bahwa membingkai iklim sebagai 
 
 Kontribusi paling berguna yang dapat diberikan institusi keamanan sering bersifat analitis dan logistik, bukan kinetik. Sistem peringatan dini, perencanaan skenario, kapasitas respons bencana, dan perlindungan infrastruktur kritis semuanya berada dalam lingkup institusi keamanan dan semuanya berkontribusi pada ketangguhan. Risikonya adalah pembingkaian keamanan menggeser respons pembangunan dan tata kelola yang menangani akar kerentanan.
 
+Institusi keamanan mulai memperlakukan perubahan iklim sebagai pengali ancaman, dan pembingkaian mereka memiliki konsekuensi. Departemen Pertahanan Amerika Serikat menyebut perubahan iklim sebagai risiko bagi instalasi dan operasi; NATO memesan penilaian risiko iklim terhadap misi; dan beberapa badan intelijen nasional memasukkan iklim dalam prakiraan strategisnya. Risikonya adalah pembingkaian keamanan memprioritaskan kontrol perbatasan atas perlindungan, dan memiliterisasi masalah yang solusinya sebagian besar sipil.
+
 ## 12.9 Pangan, Harga dan Ketidakstabilan Politik
 
 Hubungan antara harga pangan dan ketidakstabilan politik adalah salah satu yang paling terdokumentasi dalam ilmu sosial. Lonjakan harga 2007–2008 diikuti kerusuhan di lebih dari tiga puluh negara, dan lonjakan 2010–2011 bertepatan dengan Musim Semi Arab. Mekanismenya langsung: ketika harga pangan pokok naik melampaui kemampuan rumah tangga, hasilnya adalah kelaparan, kemarahan, dan sering protes.
@@ -1732,6 +1822,8 @@ Efeknya tidak deterministik. Sebagian negara dengan harga pangan tinggi tidak me
 
 Perubahan iklim membuat pemicunya lebih mungkin dengan meningkatkan frekuensi kegagalan panen dan volatilitas harga. Ia juga membuat responsnya lebih sulit, karena pemerintah yang sudah tertekan secara fiskal mungkin tidak mampu mensubsidi pangan atau memberikan bantuan. Hasilnya adalah guncangan harga yang sama dapat diserap di satu negara dan menghasilkan krisis di negara lain.
 
+Kaitan antara harga pangan dan ketidakstabilan politik adalah salah satu jalur yang paling baik terdokumentasi. Lonjakan harga 2007–2008 terkait kerusuhan di lebih dari 30 negara, dan lonjakan 2010–2011 bertepatan dengan Arab Spring. Karya kuantitatif menemukan bahwa guncangan harga pangan menaikkan probabilitas kerusuhan, terutama di negara dengan perlindungan sosial lemah dan populasi urban yang bergantung pada bahan pokok impor, itulah sebabnya kebijakan pangan juga kebijakan keamanan.
+
 ## 12.10 Pencegahan, Peringatan Dini dan Pembangunan Perdamaian
 
 Pencegahan konflik lebih murah daripada respons konflik, dan adaptasi iklim dapat menjadi bentuk pencegahan. Sistem peringatan dini yang mengidentifikasi wilayah berisiko kekeringan atau banjir dapat memicu bantuan sebelum orang terpaksa bermigrasi atau bersaing atas sumber daya. Mekanisme dialog yang mempertemukan penggembala dan petani dapat menyelesaikan sengketa sebelum menjadi kekerasan. Reformasi tanah yang memperjelas kepemilikan dapat mengurangi ketidakpastian yang memicu konflik.
@@ -1739,6 +1831,8 @@ Pencegahan konflik lebih murah daripada respons konflik, dan adaptasi iklim dapa
 Bukti untuk intervensi ini beragam tetapi menggembirakan. Proyek keamanan iklim Program Pembangunan PBB di Sahel telah mendukung mediasi lokal dan peringatan dini, dan beberapa evaluasi melaporkan penurunan konflik. Tantangannya adalah skala: intervensinya kecil relatif terhadap besarnya masalah, dan bergantung pada lembaga lokal yang sering lemah.
 
 Pelajaran terdalamnya adalah keamanan iklim bukan terutama masalah militer. Ia masalah pembangunan, tata kelola, dan keadilan. Negara yang paling rentan terhadap konflik akibat iklim adalah negara di mana orang kekurangan akses aman ke tanah, air, dan pangan, dan di mana negara tidak mampu atau tidak mau menyediakannya. Menangani kondisi itu adalah kebijakan keamanan paling efektif yang tersedia, dan juga yang paling diabaikan.
+
+Pencegahan lebih murah daripada respons, dan buktinya terkuat untuk pendekatan yang menangani penghidupan serta tata kelola alih-alih yang berfokus pada keamanan. Karya Program Pembangunan Perserikatan Bangsa-Bangsa di Sahel menggabungkan infrastruktur air, koridor pastoral, dan penyelesaian sengketa lokal, dan evaluasinya melaporkan berkurangnya konflik di wilayah yang ditangani. Sistem peringatan dini yang menghubungkan prakiraan hujan dengan risiko konflik dapat memicu tindakan pencegahan, tetapi hanya jika kemauan politik untuk bertindak ada sebelum kekerasan dimulai.
 
 ## 12.11 Studi Kasus: Cekungan Danau Chad
 
@@ -1751,6 +1845,8 @@ Boko Haram muncul dalam konteks ini. Kelompok itu didirikan di Nigeria timur lau
 Konflik telah menewaskan lebih dari 35.000 orang dan mengungsi lebih dari dua juta. Respons militer, yang melibatkan pasukan dari Nigeria, Chad, Niger, dan Kamerun, telah merebut kembali wilayah tetapi belum memulihkan penghidupan yang memungkinkan orang kembali. Akses kemanusiaan terbatas, dan wilayah itu memiliki salah satu tingkat kerawanan pangan tertinggi di dunia. Danau itu sendiri terus berfluktuasi, dan proyek transfer air antarcekungan yang diusulkan untuk memulihkannya belum dibangun.
 
 Kasus ini menggambarkan batas respons yang murni keamanan. Tindakan militer dapat mengurangi kapasitas pemberontakan, tetapi tidak dapat memulihkan penghidupan yang membuat perekrutan menarik. Solusi yang bertahan akan memerlukan investasi dalam irigasi, perikanan, pastoralisme, dan tata kelola lokal, digabungkan dengan proses politik yang menangani keluhan yang dimanfaatkan pemberontakan. Itu tindakan pembangunan, tetapi juga tindakan keamanan, yang merupakan poin utama bab ini.
+
+Cekungan itu juga menunjukkan bagaimana krisis kemanusiaan dan lingkungan saling memperberat. Wilayah tersebut menampung populasi pengungsi dan pengungsi internal yang besar, yang menaikkan tekanan pada air dan padang rumput; penyusutan danau mengurangi penghidupan perikanan dan pertanian; dan pembatasan pergerakan oleh kelompok bersenjata memotong penggembala dari padang rumput yang seharusnya memungkinkan mereka bertahan. Setiap faktor mengurangi kapasitas menyerap faktor berikutnya, yang merupakan definisi perangkap kerapuhan.
 
 ## 12.12 Skenario dan Prediksi Masa Depan: Risiko Konflik hingga 2050
 

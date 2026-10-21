@@ -1285,6 +1285,8 @@ The health effects of climate change are broader than infectious disease. Heat k
 
 This chapter examines those pathways, the populations they affect most, and the capacity of health systems to respond. It pays particular attention to the difference between direct effects, which are relatively easy to attribute to a heatwave or a flood, and indirect effects, which operate through ecosystems, food systems and infrastructure and are therefore harder to measure but often larger.
 
+The World Health Organization's estimate that climate change will cause about 250,000 additional deaths a year between 2030 and 2050 — from heat, diarrhoea, malaria, undernutrition and coastal flooding — is widely quoted and almost certainly too low, because it counts only a subset of pathways and assumes continued adaptation. More recent work that includes heat alone finds tolls of a similar magnitude, and the Lancet Countdown argues that the health burden is already measurable in every region (Lancet Countdown, 2024). The uncertainty runs in one direction: the estimates have been revised upward as the evidence has improved.
+
 ## 9.1 Direct Effects: Heat, Injury and Displacement
 
 The direct effects of climate on health are the easiest to see. Heat causes heatstroke, cardiovascular collapse and kidney injury, and it exacerbates pre-existing conditions; the European summer of 2022 was associated with about 61,700 deaths. Floods cause drowning, trauma and electrocution, and they displace people into temporary shelters where disease spreads easily. Storms cause injuries during the event and infections in the aftermath, when wounds are exposed to contaminated water.
@@ -1292,6 +1294,8 @@ The direct effects of climate on health are the easiest to see. Heat causes heat
 The direct effects are concentrated in specific moments, which makes them visible and therefore politically salient. A heatwave produces a spike in deaths that can be measured within weeks; a flood produces images that circulate globally. But the concentration also creates a bias in how the health burden is understood: the deaths that occur during an event are counted, while the deaths that occur months later, from the disruption of health services, the loss of income or the deterioration of chronic disease, are not.
 
 Displacement is the bridge between direct and indirect effects. People who lose their homes to a flood or a fire may live in crowded shelters, lose access to medication and treatment, and face months of uncertainty. The health consequences of displacement — infectious disease, mental distress, interruption of chronic care — often exceed the direct consequences of the event that caused it.
+
+Direct effects are the easiest to attribute and the easiest to undercount. Heat causes cardiovascular and renal deaths that are recorded under other causes; floods cause drowning, injury and electrocution, but also infections in the weeks that follow; storms cause trauma and, through displacement, the loss of continuity of care for chronic conditions. Displacement is a health exposure in its own right, because it interrupts medication, vaccination, antenatal care and mental health treatment, and the interruption is often longer than the event itself.
 
 ## 9.2 Vector-Borne Diseases
 
@@ -1301,6 +1305,8 @@ Malaria is the most consequential. About 249 million cases and 608,000 deaths we
 
 Dengue has expanded even faster. The Aedes aegypti mosquito has spread to more than 150 countries, and the virus now circulates in urban areas where it was previously absent. The 2024 epidemic in the Americas was the largest on record, and similar surges occurred in Southeast Asia and the Western Pacific. The expansion is driven by urbanisation and travel as well as by climate, which is why the response must combine vector control, surveillance and health system preparedness rather than climate policy alone.
 
+Vector-borne diseases are expanding their range in ways that are measurable. The transmission potential of dengue, carried by Aedes aegypti and Aedes albopictus, has risen substantially in most tropical and subtropical regions, and local transmission has been recorded in parts of southern Europe. Malaria is appearing in highland areas of East Africa and the Andes that were previously too cool for sustained transmission. The expansion is not uniform, because land use, vector control and health systems mediate it, but the direction is clear.
+
 ## 9.3 Waterborne and Foodborne Disease
 
 Floods and droughts both increase the risk of waterborne disease, through different mechanisms. Floods overwhelm sanitation systems, contaminate wells and carry pathogens into homes; droughts concentrate pathogens in scarce water and reduce the water available for hygiene. Cholera, typhoid, hepatitis A and diarrhoeal diseases all follow this pattern, and children under five are the most vulnerable.
@@ -1308,6 +1314,8 @@ Floods and droughts both increase the risk of waterborne disease, through differ
 The 2022 Pakistan floods produced a surge in diarrhoeal disease and malaria, and the 2010 Haiti earthquake and subsequent cholera outbreak showed how quickly a contaminated water supply can become a national emergency. In drought-affected regions, the problem is often not the absence of water but its quality: as sources dry up, people use whatever water is available, including water that is contaminated with sewage or agricultural runoff.
 
 Foodborne disease is also climate-sensitive. Warmer temperatures increase the growth rate of bacteria such as Salmonella and Campylobacter in food, and flooding can contaminate crops with pathogens. The European Centre for Disease Prevention and Control has documented increases in foodborne infections during heatwaves, and the risk is highest in countries with limited cold-chain infrastructure. The result is a health burden that is rarely attributed to climate but is nonetheless part of it.
+
+Waterborne and foodborne diseases rise with temperature through several mechanisms. Warmer water supports faster bacterial growth; heavy rainfall flushes pathogens into drinking water sources and overwhelms sewage systems; and drought concentrates contaminants in the water that remains. Cholera, typhoid, and diarrhoeal disease in children all show this pattern, which is why the health response to a flood must begin before the water recedes, with chlorination, oral rehydration and surveillance for outbreaks.
 
 ## 9.4 Air Pollution and Wildfire Smoke
 
@@ -1317,6 +1325,8 @@ Wildfire smoke is a growing component. The 2023 Canadian fires burned more than 
 
 The health effects of air pollution are not limited to the respiratory system. Fine particles are associated with cardiovascular disease, stroke, diabetes and adverse birth outcomes. Ozone, which forms more readily at higher temperatures, damages lung tissue and reduces crop yields. The combination means that climate change increases air pollution at the same time that air pollution increases climate change, through the deposition of black carbon on snow and ice.
 
+Air pollution and climate change share most of their sources, which makes them a combined problem rather than two. Burning fossil fuels releases both greenhouse gases and fine particulate matter; wildfire smoke adds another burden that is growing as fire seasons lengthen; and ozone formation accelerates at higher temperatures. The health toll is large: outdoor air pollution is associated with roughly 4 million premature deaths a year, and household air pollution from solid fuels with another 3 million or more.
+
 ## 9.5 Nutrition and Child Development
 
 The health effects of climate change on nutrition are indirect and profound. Higher temperatures reduce crop yields, lower the nutrient content of grains and raise food prices, which reduces the quantity and quality of food that poor households can afford. The result is an increase in undernutrition, which weakens immune systems and increases vulnerability to infectious disease.
@@ -1324,6 +1334,8 @@ The health effects of climate change on nutrition are indirect and profound. Hig
 Children are the most affected. Undernutrition during the first thousand days of life — from conception to age two — causes stunting, which is irreversible and reduces cognitive development, school performance and lifetime earnings. The World Health Organization estimates that climate change will cause an additional 95,000 child deaths per year from undernutrition by 2050, and that the burden will fall disproportionately on South Asia and sub-Saharan Africa.
 
 The CO2 fertilisation effect adds a subtle dimension. Higher carbon dioxide concentrations increase the yield of C3 crops but reduce the concentration of protein, zinc and iron in the grain. Experiments on rice, wheat and soy show declines of 5 to 10 per cent in protein and micronutrients under elevated CO2, which means that a harvest of the same weight may be less nutritious. For populations that depend on a single staple crop, this 'hidden hunger' can matter as much as a decline in calories.
+
+Nutrition is the pathway with the largest long-term consequences and the least visible damage. Heat and drought reduce yields and raise prices, which reduces dietary diversity for poor households; higher carbon dioxide concentrations lower the protein, zinc and iron content of staple crops such as wheat and rice; and maternal undernutrition in pregnancy affects cognitive development in ways that persist for a lifetime. The result is a slow-moving health crisis that is measured in stunting rather than in deaths.
 
 ## 9.6 Mental Health
 
@@ -1333,6 +1345,8 @@ The 2019–2020 Australian bushfires were followed by a documented increase in p
 
 The mental health burden is undercounted because it is not captured by disaster statistics and because stigma prevents people from seeking help. It is also undertreated: mental health services are scarce in most low- and middle-income countries, and they are rarely included in disaster preparedness plans. The consequence is that the psychological effects of climate change persist long after the physical damage has been repaired.
 
+Mental health consequences are increasingly recognised as a core part of the burden rather than a secondary concern. Disasters produce post-traumatic stress, depression and anxiety; slow-onset change produces grief and solastalgia; and the anticipation of future harm produces anxiety, particularly among young people. Health systems rarely count these outcomes and rarely fund services to address them, which is why the treatment gap after disasters is so large.
+
 ## 9.7 Health Systems Under Stress
 
 Health systems are themselves vulnerable to climate change. Hospitals are damaged by floods and storms; power outages disable ventilators and refrigeration; roads are cut, preventing patients from reaching care; and staff are affected by the same events as their patients. The result is that the demand for health care rises at the same time as the capacity to provide it falls.
@@ -1340,6 +1354,8 @@ Health systems are themselves vulnerable to climate change. Hospitals are damage
 The 2022 European heatwave illustrated the problem. Hospitals cancelled surgeries because operating theatres could not be kept cool; emergency departments were overwhelmed by heat-related admissions; and ambulance response times increased. In Puerto Rico, Hurricane Maria in 2017 caused a prolonged failure of the electricity system that was associated with an estimated 2,975 excess deaths, many of them from chronic conditions that could not be treated.
 
 Preparedness requires investment in infrastructure, supplies and planning. Hospitals need backup power, cooling, water storage and flood protection. Health systems need surge capacity, stockpiles of medicines and vaccines, and plans for continuity of care during disruptions. They also need surveillance systems that can detect outbreaks early, and a workforce trained to recognise climate-sensitive disease. Most of these measures are inexpensive relative to the cost of failure, but they are rarely prioritised until an emergency occurs.
+
+Health systems are stressed from both sides: demand rises while capacity falls. Heat increases emergency admissions; floods damage facilities and block access; power outages disable equipment; and staff are themselves affected by the same event. The COVID-19 pandemic demonstrated how quickly a system can be stretched and how the stretching concentrates harm among people who already had limited access, which is why health resilience is now a central concern of adaptation planning.
 
 ## 9.8 Vulnerable Populations
 
@@ -1349,6 +1365,8 @@ Pregnancy is a particularly vulnerable period. Heat exposure is associated with 
 
 Disability and age interact with poverty. A person who uses a wheelchair may be unable to evacuate a building without an elevator; a person with dementia may not understand a heat warning; an older person living alone may not be able to open a window or reach a cooling centre. These vulnerabilities are not inevitable; they are the result of design choices and social arrangements that can be changed.
 
+Vulnerability within populations follows familiar lines. Older adults, infants, pregnant women, people with chronic illness or disability, outdoor workers, homeless people, prisoners and indigenous communities face higher risks for reasons that are physiological, occupational and social. Because these groups are often absent from routine data collection, their risk is underestimated, and because they have less political voice, the services they need are underfunded.
+
 ## 9.9 Surveillance and Early Warning
 
 Early warning is the most effective health adaptation. Heat warning systems that trigger cooling centres, outreach to vulnerable people and changes in hospital staffing can reduce deaths substantially, as the Ahmedabad experience demonstrates. Disease surveillance systems that detect outbreaks early can mobilise vector control and treatment before the epidemic peaks, and climate forecasts can be used to predict where conditions are favourable for transmission.
@@ -1357,6 +1375,8 @@ The integration of climate and health data is improving. The Lancet Countdown pu
 
 The gap is in implementation. A warning system is only useful if it reaches the people at risk and if they have the capacity to act on it. In many countries, the warning is issued at the national level but not translated into local action; in others, the data exist but are not shared between health and meteorological agencies. Closing that gap is less a matter of technology than of institutional coordination and trust.
 
+Surveillance is the part of health adaptation that pays for itself fastest. Syndromic surveillance, which tracks emergency visits, pharmacy sales and ambulance calls in near real time, can detect an outbreak or a heat impact days before formal reporting. Excess mortality analysis provides the retrospective measure of what actually happened. Countries that built these systems during COVID-19 are better prepared for climate-related health shocks, because the infrastructure is the same.
+
 ## 9.10 Co-Benefits and the Health Case for Climate Action
 
 The health argument for climate action is stronger than the environmental argument, because it is immediate and personal. Reducing fossil fuel combustion reduces air pollution, which prevents millions of deaths a year. Increasing walking and cycling reduces obesity and cardiovascular disease while reducing emissions. Improving building insulation reduces energy demand and protects people from heat and cold. Shifting toward plant-rich diets reduces emissions and improves health.
@@ -1364,6 +1384,8 @@ The health argument for climate action is stronger than the environmental argume
 These co-benefits are often larger than the costs of the policies that produce them, particularly in countries with high air pollution. A study of the health benefits of meeting the Paris targets in China estimated that the reduction in air pollution would prevent hundreds of thousands of premature deaths a year, a benefit that is not counted in the conventional cost of decarbonisation.
 
 The health frame also changes the politics. Climate policy is often presented as a cost to be borne for the sake of future generations; health policy is presented as a benefit to be delivered now. The same measures — clean energy, efficient buildings, active transport, healthy diets — can be justified in either language, and the health language often travels further because it speaks to what people experience in their own bodies.
+
+The co-benefit argument is the strongest case for rapid climate action on health grounds. Phasing out coal reduces particulate emissions and saves lives within years, long before any climate benefit is measurable; shifting to active transport increases physical activity and reduces obesity and cardiovascular disease; and plant-rich diets reduce emissions and lower rates of heart disease, diabetes and some cancers. These benefits are local, immediate and quantifiable, which makes them politically persuasive in a way that global temperature targets are not.
 
 ## 9.11 Case Study: The 2024 Dengue Epidemic
 
@@ -1376,6 +1398,8 @@ The health system response varied. Brazil deployed mobile testing teams and expa
 The case illustrates the connection between climate and health systems. The weather created the conditions for transmission, but the scale of the epidemic depended on the capacity of health systems to detect, treat and control it. Countries with strong surveillance and vector control reported fewer severe cases and deaths than countries with weaker systems, even when the climate conditions were similar.
 
 The lessons are practical. First, vector control must be continuous, not episodic; the mosquito does not wait for an outbreak to be declared. Second, surveillance must integrate climate data, so that health authorities can anticipate where conditions are favourable and act before cases appear. Third, health systems need surge capacity for the diseases that climate change is expanding, including staff, beds, tests and medicines. Fourth, communities must be engaged, because the most effective interventions — eliminating standing water, using bed nets and repellents — happen in homes, not in hospitals.
+
+The 2024 epidemic also exposed a data problem that shapes the response. Reported cases depend on laboratory confirmation, and most countries have limited testing capacity, so the ratio of reported to actual infections varies widely. Brazil, which has a relatively strong surveillance system, reported more cases than its neighbours partly because it looked harder. That artefact complicates comparisons and can mislead governments into believing that countries with fewer reported cases have less transmission, when the opposite may be true.
 
 ## 9.12 Future Scenarios and Predictions: Health in 2050
 
@@ -1413,6 +1437,8 @@ Climate economics has moved from the margins of the discipline to its centre bec
 
 This chapter examines the economic channels through which climate change affects households, firms and states. It distinguishes between direct damage and indirect loss, between stock and flow, and between the risks that can be insured and those that cannot. It closes with the financial instruments that can build resilience — reserve funds, parametric insurance, catastrophe bonds, and the public balance sheets that ultimately backstop them.
 
+The economics of climate change has moved from a niche field to a central question of macroeconomic policy, and the reason is that the damages are no longer hypothetical. Global economic losses from weather disasters have averaged several hundred billion dollars a year over the past decade, and the trend is rising faster than output. More importantly, the losses are not evenly distributed: a large share falls on uninsured households and on governments that must divert budgets from development to reconstruction.
+
 ## 10.1 Direct Damage and Indirect Loss
 
 Disaster economics distinguishes between damage, which is the cost of repairing or replacing physical assets, and loss, which is the cost of lost economic activity. A factory that is destroyed represents damage; the production that the factory would have generated during the months it is rebuilt represents loss. The two are often reported together, but they behave differently: damage is a one-time cost, while loss can persist until the factory is rebuilt and the market recovers.
@@ -1420,6 +1446,8 @@ Disaster economics distinguishes between damage, which is the cost of repairing 
 The distinction matters for policy. Compensation that covers damage but not loss leaves businesses unable to pay wages and households unable to replace income, which prolongs the disruption. The 2011 Thailand floods damaged industrial estates that produced a large share of the world's hard drives; the damage was repaired in months, but the global production shortfall lasted longer and raised computer prices for a year. The loss was transmitted through supply chains to firms and consumers who never saw the flood.
 
 Indirect losses are difficult to measure because they are counterfactual: they describe what would have happened without the disaster. Economists estimate them using input-output models, computable general equilibrium models, or econometric comparisons of affected and unaffected regions. The estimates vary, but they consistently find that indirect losses are larger in economies with tighter linkages, weaker social protection and less fiscal space to respond.
+
+Direct damage is what insurance assessors measure: buildings, infrastructure, vehicles and crops. Indirect loss is what happens afterwards: businesses that cannot operate, workers who lose income, supply chains that are interrupted, and public services that are disrupted. Indirect losses often exceed direct damage in the months after an event, and they are systematically under-recorded because they are diffused across the economy rather than concentrated in a place that can be photographed.
 
 ## 10.2 Productivity, Labour and Heat
 
@@ -1429,6 +1457,8 @@ The mechanism is physiological and behavioural. Above a certain wet-bulb tempera
 
 The distributional effect is important. Outdoor workers, agricultural labourers and construction workers are the most exposed, and they are often the least able to insure against lost income. In countries where a large share of employment is informal, heat does not appear in official productivity statistics, because the work is not measured in the first place. The result is that the economic cost of heat is systematically underestimated in the places where it is highest.
 
+Heat reduces economic output through labour productivity, and the effect is large enough to be visible in national accounts. Studies using industry-level data find that output declines on hot days in sectors that require outdoor or non-cooled indoor work, and that the effect is largest in countries with hot climates and limited air conditioning. Global estimates suggest that heat already costs several percentage points of GDP in parts of South Asia and sub-Saharan Africa, and that the loss will grow as temperatures rise.
+
 ## 10.3 Food Prices and Inflation
 
 Climate shocks to food production are transmitted to the wider economy through prices. When a major producer loses a harvest, global prices rise, and the effect reaches consumers through retail prices and, in poor countries, through the cost of the food basket that dominates household budgets. Central banks have begun to include climate shocks in their inflation models, because food and energy price spikes can destabilise expectations even when core inflation is stable.
@@ -1436,6 +1466,8 @@ Climate shocks to food production are transmitted to the wider economy through p
 The 2022 food price crisis is an example. The war in Ukraine was the immediate trigger, but it arrived on top of a series of climate-related harvest failures in Europe, South Asia and the Horn of Africa. Food prices rose by more than 20 per cent globally, and the increase was largest in countries that import a high share of their calories. The result was a rise in poverty and a decline in dietary quality that persisted after prices fell.
 
 The inflationary effect is not only a problem for households; it is a problem for governments. Food and energy subsidies are politically difficult to remove and fiscally expensive to maintain, and they tend to expand precisely when revenues are falling because the economy is contracting. The result is a pro-cyclical fiscal burden that can turn a climate shock into a debt crisis, particularly in countries with limited access to international capital markets.
+
+Food prices transmit climate shocks through the economy in ways that are difficult to predict and politically explosive. A drought raises the price of staples, which raises the cost of living for households that spend a large share of income on food, which reduces demand for other goods and can trigger wage demands and protests. The 2007–2008 and 2010–2011 price spikes demonstrated how quickly a food shock can become a macroeconomic and political event, and how far the effects travel from the region where the harvest failed.
 
 ## 10.4 Sovereign Risk and the Cost of Capital
 
@@ -1445,6 +1477,8 @@ The mechanism operates through several channels. Disasters reduce tax revenue an
 
 The result is a vicious circle for the most vulnerable countries. They face the highest adaptation costs, the highest cost of capital and the least fiscal space, and the combination can make adaptation unaffordable even when the returns are high. International financial institutions have begun to address the problem through concessional finance, debt swaps and pre-arranged emergency lending, but the scale remains small relative to the need.
 
+Sovereign risk is where climate change enters the financial system. A country that is repeatedly hit by disasters must borrow to rebuild, which raises its debt burden; investors demand a premium for that risk, which raises its cost of capital; and a higher cost of capital discourages the investment needed to adapt. Several studies have found that climate vulnerability is already reflected in sovereign credit ratings, and that the effect is strongest for small island states and low-income countries with limited fiscal buffers.
+
 ## 10.5 Insurance and the Limits of Risk Transfer
 
 Insurance is the mechanism that allows losses to be spread across many policyholders and over time. It works when the risk is measurable, the events are independent, and the premiums cover the expected losses plus a margin. Climate change violates all three conditions: the risk is changing, the events are becoming correlated across regions, and the losses are rising faster than premiums can adjust.
@@ -1452,6 +1486,8 @@ Insurance is the mechanism that allows losses to be spread across many policyhol
 The result is retreat. Insurers have withdrawn from parts of California and Florida, where wildfire and hurricane risk have increased; they have raised premiums in coastal areas; and they have reduced coverage for floods and storm surge. In the United States, the National Flood Insurance Program has been insolvent for years and has been forced to raise premiums, which has made insurance unaffordable for some homeowners and reduced property values.
 
 When insurance fails, the cost shifts to governments and households. Governments provide disaster relief, which is often untargeted and slow; households draw down savings, borrow at high interest, or abandon property. The shift is regressive, because wealthy households can self-insure and poor households cannot. The result is that climate risk becomes a mechanism for transferring wealth from those who cannot bear it to those who can.
+
+Insurance is the main mechanism for transferring climate risk, and it is withdrawing from the places where risk is highest. Insurers have reduced exposure in parts of California, Florida and Australia, and premiums have risen sharply in areas exposed to wildfire, flood and storm. When insurance becomes unavailable or unaffordable, the cost of a disaster shifts to households and governments, which is why the withdrawal of insurers is treated as a signal of uninsurable risk rather than a commercial decision.
 
 ## 10.6 Stranded Assets and Transition Risk
 
@@ -1461,6 +1497,8 @@ The risk is not hypothetical. Coal companies in the United States and Europe hav
 
 The policy implication is that transition risk and physical risk must be managed together. A disorderly transition, in which policy changes abruptly and assets are written down suddenly, can destabilise financial institutions; a delayed transition, in which physical risk continues to accumulate, can destabilise them even more. The goal is an orderly transition that signals policy direction early, phases out the most exposed assets gradually and protects the workers and communities that depend on them.
 
+Stranded assets are investments that lose value before the end of their expected life, and climate policy creates them in two ways. Fossil fuel assets can be stranded by regulation, by falling demand for their output, or by the cost of carbon; and physical assets can be stranded by chronic heat, repeated flooding or permanent inundation. Investors who ignore the risk misprice assets today, and the loss materialises later as a sudden write-down, which is why central banks now include climate risk in financial stability assessments.
+
 ## 10.7 The Cost of Inaction
 
 Estimating the cost of inaction requires comparing a future with climate change to a future without it, and the comparison depends on assumptions about growth, adaptation and discounting. Early integrated assessment models, such as the DICE model developed by William Nordhaus, produced estimates of a few per cent of global GDP by the end of the century, and those estimates were criticised for understating the risk of catastrophic and irreversible impacts.
@@ -1468,6 +1506,8 @@ Estimating the cost of inaction requires comparing a future with climate change 
 More recent estimates are larger. A 2024 study in Nature found that a high-emission pathway would reduce global income by about 19 per cent by 2050 relative to a no-climate baseline, with damages of about US$38 trillion a year, and that the losses would fall disproportionately on countries with low historical emissions (Kotz, Levermann and Wenz, 2024). The Swiss Re Institute estimated that climate change could reduce global GDP by 10 per cent by 2050 in a severe scenario, and the World Bank has estimated that poor countries could lose 1.2 to 3.3 per cent of GDP by 2030.
 
 The estimates differ because they use different assumptions, but they share a conclusion: the cost of inaction is larger than the cost of action, and the difference is growing. The economics of climate change is therefore not primarily about whether to act but about how quickly, how fairly and how effectively. The longer the delay, the larger the physical risk and the more abrupt the transition that will be required to avoid it.
+
+The cost of inaction is usually expressed as a comparison between the cost of reducing emissions and the cost of the damages avoided, and the comparison has shifted decisively. The Stern Review estimated in 2006 that acting early would cost about 1 per cent of GDP a year while inaction would cost 5–20 per cent; since then, the cost of renewable energy has fallen by an order of magnitude and estimates of damages have risen. On current evidence, the question is no longer whether action is cheaper than inaction but how much cheaper.
 
 ## 10.8 Who Bears the Loss
 
@@ -1477,6 +1517,8 @@ The distributional effect is compounded by the fact that the countries and house
 
 The household-level distribution is equally important. A disaster that destroys a poor household's home can push it into poverty permanently, because it has no savings, no insurance and no access to credit. A wealthier household can absorb the same loss and rebuild. The result is that a single event can widen inequality for a generation, and that social protection is as important as physical infrastructure in determining who recovers.
 
+The distribution of losses is determined by insurance, government assistance and social protection, and in most countries the three together leave a large gap. Uninsured losses fall on households, and they fall hardest on those with the fewest savings, which means that a disaster can convert a modest income shock into permanent poverty. Because the poorest households also live in the most exposed places, the losses are concentrated where the capacity to absorb them is weakest.
+
 ## 10.9 Financial Instruments for Resilience
 
 Several instruments can transfer or finance climate risk. Sovereign catastrophe bonds pay out when a predefined event occurs, providing rapid liquidity after a disaster. Parametric insurance does the same at a smaller scale, using rainfall or wind speed as a proxy for loss. Contingent credit lines allow governments to borrow quickly when a disaster is declared. Reserve funds accumulate savings in good years for use in bad ones.
@@ -1485,6 +1527,8 @@ Each instrument has strengths and weaknesses. Catastrophe bonds are expensive an
 
 The deeper issue is that risk transfer does not reduce risk; it only spreads it. A country that insures against floods still experiences the flood, and the premium it pays reduces the resources available for prevention. The most cost-effective financial strategy is therefore to invest in reducing risk first, and to use insurance for the residual risk that cannot be eliminated. That sequencing — prevention before transfer — is the core principle of financial resilience.
 
+Financial instruments for resilience have proliferated: catastrophe bonds, parametric insurance that pays out when a predefined trigger is met, regional risk pools, contingent credit lines and resilience bonds. Their advantage is speed and certainty, because payout does not depend on an assessment of damages. Their limitation is basis risk, the possibility that the trigger is not met even when damages occur, which is why they are best used alongside traditional instruments rather than as replacements.
+
 ## 10.10 The Macroeconomics of a Warming World
 
 At the macroeconomic level, climate change affects growth through several channels: it destroys capital, reduces productivity, diverts investment from productive uses to reconstruction, and increases uncertainty, which discourages long-term investment. The combined effect is a reduction in potential output that persists long after the event that caused it.
@@ -1492,6 +1536,8 @@ At the macroeconomic level, climate change affects growth through several channe
 The effect is not uniform across countries. Economies that depend on agriculture, tourism or outdoor labour are more exposed; economies with diversified production and strong institutions are more resilient. The result is that climate change is likely to widen the gap between rich and poor countries, reversing some of the convergence that globalisation produced in the late twentieth century.
 
 The policy response has three pillars. The first is mitigation, which reduces the magnitude of future damage. The second is adaptation, which reduces vulnerability to the damage that is already committed. The third is financial resilience, which ensures that households, firms and governments can absorb the shocks that cannot be prevented. The three are complementary: mitigation without adaptation leaves people exposed to unavoidable impacts; adaptation without mitigation eventually exceeds its limits; and both without financial resilience leave the poorest to bear the cost.
+
+The macroeconomics of a warming world are shaped by three forces that pull in different directions. Damages reduce output and raise inflation through supply shocks; adaptation investment raises demand and can raise productivity; and the transition away from fossil fuels reallocates capital and labour. Central banks have begun to model these effects, and the emerging consensus is that climate change is a structural driver of volatility rather than a one-off shock, which changes how monetary policy should respond to it.
 
 ## 10.11 Case Study: The 2017 Atlantic Hurricane Season
 
@@ -1504,6 +1550,8 @@ The economic effects persisted for years. In Puerto Rico, the population decline
 The season illustrates the difference between insured and uninsured loss, and between the capacity of rich and poor jurisdictions to recover. It also illustrates the importance of infrastructure: the failure of the Puerto Rican grid turned a hurricane into a public health emergency, and the failure of the Texas power system during a winter storm four years later showed the same pattern in a different season. In both cases, the physical hazard was within the range of what the infrastructure was supposed to withstand; the failure was in the design, maintenance and governance of the system.
 
 The lessons are financial as well as physical. First, insurance penetration is a determinant of recovery, and it is lowest where the need is greatest. Second, infrastructure resilience is a form of financial protection, because it reduces the liability that governments and households must bear after an event. Third, the poorest households need grants and social protection, not loans, because a loan against future income is not a recovery strategy for someone who has lost their livelihood. Fourth, the cost of reconstruction is rising, and the willingness of donors and insurers to pay is not.
+
+The 2017 season also demonstrated the insurance gap that defines climate economics. Of the roughly US$300 billion in losses, about US$90 billion was insured, and the difference was concentrated in the Caribbean islands and in Puerto Rico, where penetration was low. The gap did not disappear; it was absorbed by households, by governments and by humanitarian aid, which means that the poorest victims financed a large share of the reconstruction through lost savings, lost years of schooling and lost health.
 
 ## 10.12 Future Scenarios and Predictions: The Economic Cost to 2050
 
@@ -1540,6 +1588,8 @@ The scale is difficult to measure because climate is rarely the only reason for 
 
 This chapter examines the drivers of climate migration, the difference between voluntary and forced movement, and the destinations that receive people. It pays particular attention to the places that cannot adapt in place — small islands, low deltas and drought-prone rangelands — and to the legal and political frameworks that determine whether movement is managed or chaotic. It closes with the question that receiving communities face: how to absorb people without creating new vulnerability.
 
+Migration is the oldest adaptation strategy humans have, and it is usually described in the language of crisis rather than agency. Most people who move in response to environmental stress move short distances, stay within their own country, and return when conditions allow; only a small minority cross borders. The image of a mass exodus from the global South to the global North is not supported by the evidence, and policies built on that image tend to be punitive rather than protective.
+
 ## 11.1 Definitions: Migration, Displacement and Relocation
 
 Migration is a broad term that includes voluntary movement in search of opportunity and forced movement in response to threat. Displacement usually refers to movement caused by a specific event, such as a flood or a conflict, and it implies that people intend to return. Planned relocation refers to the organised movement of a community to a new site, usually with government support. The distinctions matter because they determine which legal protections apply and which forms of assistance are available.
@@ -1547,6 +1597,8 @@ Migration is a broad term that includes voluntary movement in search of opportun
 Climate change can produce all three. A flood displaces people temporarily; a drought may push people to migrate permanently; a village that is repeatedly flooded may be relocated by the state. The same household may experience several of these in sequence: displacement to a shelter, return to a damaged home, migration to a city, and eventually relocation to a new settlement. The categories are useful for policy but they do not describe a linear process.
 
 The legal framework is incomplete. The 1951 Refugee Convention defines a refugee as a person fleeing persecution on the basis of race, religion, nationality, social group or political opinion; it does not cover people fleeing environmental change. There is no binding international instrument that grants climate migrants a right to enter another country or to receive protection. Some countries have created humanitarian visas, and regional agreements have begun to address the gap, but the protection available to a person whose island is disappearing depends on where they happen to be born.
+
+The distinctions matter because they determine legal status and entitlement. Migration is a voluntary movement, even when the pressures behind it are severe; displacement is involuntary and usually temporary; and relocation is planned movement organised by a government or agency. A person who leaves a drought-stricken village to find work is a migrant under international law and has few protections; a person who flees a flood is displaced within their own country and depends on national law; and a person moved from a coastline by a resettlement programme has a different set of rights again.
 
 ## 11.2 Rapid-Onset and Slow-Onset Drivers
 
@@ -1556,6 +1608,8 @@ Slow-onset changes — sea level rise, desertification, salinisation, glacier re
 
 The two interact. A community weakened by repeated drought may be unable to recover from a flood; a coastal city that is subsiding may be overwhelmed by a storm surge that would have been manageable a generation ago. The sequence of shocks matters as much as the magnitude of any single event, which is why vulnerability is best understood as a trajectory rather than a state.
 
+Rapid-onset events displace far more people than slow-onset ones, but slow-onset events produce more permanent movement. Floods and storms displace millions each year, and most people return within weeks; drought, salinisation and sea-level rise displace fewer people at a time but make return impossible, so the movement becomes permanent. The Internal Displacement Monitoring Centre records around 26 million new disaster displacements a year, and the figure understates slow-onset movement because it counts events rather than attrition.
+
 ## 11.3 How Much Migration Is Climate-Related?
 
 Estimating the number of people who move because of climate change is difficult because climate is rarely the sole cause. Researchers use household surveys, satellite data on vegetation and rainfall, and econometric models to identify the effect of climate variables on migration decisions, controlling for income, conflict, land tenure and social networks. The estimates vary widely, but they consistently find that climate shocks increase migration, particularly from rural areas and particularly among households that depend on agriculture.
@@ -1563,6 +1617,8 @@ Estimating the number of people who move because of climate change is difficult 
 The World Bank's Groundswell reports projected that 216 million people could move within their own countries by 2050 in six regions under a high-emission scenario, with most of the movement in Sub-Saharan Africa, South Asia and Latin America. The same reports found that most of the movement could be avoided through adaptation — irrigation, crop diversification, social protection and urban planning — which is why they are framed as a call to action rather than a prediction.
 
 The number of people who cross international borders for climate reasons is much smaller, and it is likely to remain so. International migration is expensive, requires documents and networks, and is often deterred by border controls. The people who are most exposed to climate risk are usually the least able to migrate internationally, which is why the most vulnerable often stay in place. This phenomenon — the immobility of the most exposed — is one of the most important and least discussed features of climate migration.
+
+Estimating how much migration is climate-related is methodologically difficult, because climate is rarely the only driver and people seldom describe their motives in those terms. Surveys typically find that economic factors dominate, with environmental stress acting as an amplifier rather than a single cause. The widely quoted projection of 200 million climate migrants by 2050 dates from work published in 1995 and has been criticised for its methods; later estimates range from 44 million to more than 200 million depending on assumptions about adaptation and development.
 
 ## 11.4 Pastoralists, Farmers and the Sahel
 
@@ -1572,6 +1628,8 @@ The result is conflict over land and water, particularly where the state is weak
 
 Farmers respond to drought in a different way. They may migrate temporarily to cities, send a family member to work, diversify into non-farm activities, or sell livestock to buy food. The strategies are cumulative, and each one reduces the household's capacity to return to farming. A household that sells its animals and its tools may not be able to restart even if the rains return, which is why drought can produce permanent de-agrarianisation in regions that have experienced it repeatedly.
 
+Pastoralists in the Sahel illustrate how mobility functions as adaptation. Herders move livestock along routes that have been negotiated over generations, using wells and pasture that are shared under customary rules. When drought reduces pasture, mobility allows herds to reach areas that still have grass; when borders, farmland or conflict block the routes, the same drought becomes a livelihood collapse. The crisis is therefore produced as much by the loss of mobility as by the lack of rain.
+
 ## 11.5 Small Island States and Coastal Communities
 
 Small island developing states are the most exposed to sea level rise because their land area is small, their elevation is low, and their populations are concentrated on the coast. Tuvalu, Kiribati, the Marshall Islands and the Maldives have average elevations of a few metres, and their freshwater supplies depend on thin lenses of groundwater that are vulnerable to saltwater intrusion. For these states, adaptation in place has physical limits.
@@ -1579,6 +1637,8 @@ Small island developing states are the most exposed to sea level rise because th
 The responses have three tracks. The first is coastal defence: sea walls, reclamation, and raised infrastructure. The second is adaptation within the island: rainwater harvesting, desalination, salt-tolerant crops and the relocation of settlements to higher ground. The third is migration: agreements with other countries that allow citizens to move, work and eventually settle. The Falepili Union between Tuvalu and Australia is the most recent example, and it combines a visa pathway with Australian recognition of Tuvalu's maritime boundaries and a commitment to assist in the event of a major disaster.
 
 The politics of these agreements is delicate. Island states do not want to be seen as giving up, and they do not want to lose their sovereignty or their maritime zones, which are vast relative to their land area. Australia and New Zealand have been willing to accept limited numbers of migrants, but not to recognize a legal category of climate refugee. The result is a patchwork of bilateral arrangements that provides a pathway for some people but not a right for all.
+
+Small island states face a form of displacement that has no precedent in international law: the loss of territory itself. A country whose land is submerged does not have a population that can return, and the legal question of whether statehood survives the loss of territory is unresolved. Some governments have begun to purchase land abroad as a form of insurance, and some have negotiated migration pathways with larger neighbours, but neither solves the question of sovereignty or of cultural continuity.
 
 ## 11.6 Floods, Displacement and Return
 
@@ -1588,6 +1648,8 @@ Most flood displacement is temporary, but return is not always possible. A house
 
 The quality of displacement matters as much as its duration. People in camps face overcrowding, poor sanitation and limited access to health care and education; people who stay with relatives may be less visible but equally vulnerable. The decision to return is often driven by the availability of work and housing rather than by the level of risk, which means that the poorest are the most likely to return to hazardous places.
 
+Return after a flood is the part of displacement that receives least attention and determines the long-term outcome. Households return when their homes are habitable, their livelihoods are restored and their children can attend school; they stay away when housing is destroyed, land is contaminated or services are absent. The factors that predict return are therefore the same factors that predict recovery, which is why displacement policy and housing policy cannot be separated.
+
 ## 11.7 Cities as Destinations
 
 Most climate migrants move to cities, and most cities are not prepared for them. New arrivals often settle in informal areas that are themselves exposed to floods, heat and landslides, and they lack access to water, sanitation, health care and formal employment. The result is that migration transfers vulnerability from the countryside to the city rather than resolving it.
@@ -1595,6 +1657,8 @@ Most climate migrants move to cities, and most cities are not prepared for them.
 Cities that plan for migration do better. Providing land for affordable housing, extending water and sanitation to informal settlements, and creating work opportunities reduces the risk that newcomers will be pushed into hazardous areas. Some cities have adopted policies that explicitly recognize climate migrants, including access to services and temporary shelter. But most have not, and the arrival of large numbers of people in a short period can overwhelm services and create political tension.
 
 The receiving communities matter as much as the migrants. A city that absorbs people successfully is one where the labour market is growing, the infrastructure is adequate and the social fabric is inclusive. A city that is already stressed by unemployment, housing shortages and weak services may experience conflict. The difference is largely a matter of governance and investment, which means that migration policy is also urban policy.
+
+Cities absorb most climate migration, and they do so informally. New arrivals typically settle in peripheral neighbourhoods with cheap housing and limited services, often in areas exposed to floods or landslides. The result is that migration transfers vulnerability from rural areas to urban ones without reducing it, unless the receiving city invests in housing, infrastructure and services at the rate the population is growing.
 
 ## 11.8 Remittances and Transnational Adaptation
 
@@ -1604,6 +1668,8 @@ Remittances can increase resilience. A household that receives regular transfers
 
 There is a darker side. Migration can separate families, increase the burden on women who remain behind, and expose migrants to exploitation and dangerous work. The remittances may also create dependence on a single source of income that is itself vulnerable to economic shocks in the destination country. The policy challenge is to maximize the benefits of migration while reducing its costs, which requires safe migration pathways, portable social protection and financial systems that reduce the cost of transfers.
 
+Remittances are one of the most effective forms of adaptation finance, and they are rarely counted as such. Money sent home by family members working abroad exceeds official development assistance in many countries, and it arrives directly, quickly and without conditions. Research in Bangladesh, Nepal and Central America finds that remittance-receiving households invest more in housing, education and preparedness, and recover faster after disasters, which makes migration a strategy for those who stay as well as those who leave.
+
 ## 11.9 Legal and Political Frameworks
 
 The legal framework for climate migration is fragmented. The Refugee Convention does not cover environmental displacement; the International Organization for Migration is not a protection agency; and the UN Framework Convention on Climate Change established a task force on displacement but not a right to admission. The result is that most climate migrants depend on ordinary immigration rules, which are designed for other purposes and are often restrictive.
@@ -1612,6 +1678,8 @@ Some progress has been made. The Global Compact for Safe, Orderly and Regular Mi
 
 The political obstacle is that admission is a sovereign decision, and publics in receiving countries are often hostile to migration. The result is that governments prefer to fund adaptation in countries of origin, which is cheaper and politically easier, rather than to open legal pathways. Adaptation is necessary, but it cannot protect everyone, and the people it cannot protect need somewhere to go. The absence of a legal pathway does not prevent movement; it only makes the movement irregular, dangerous and expensive.
 
+The legal framework for climate migration is fragmented. The 1951 Refugee Convention does not recognise environmental drivers, and a person fleeing a flood is generally not a refugee; the Kampala Convention covers internally displaced people in Africa but only within the continent; and the Global Compact for Migration is non-binding. Several regional agreements have created humanitarian visas and labour pathways, but coverage remains partial and dependent on political willingness.
+
 ## 11.10 Planned Relocation
 
 Planned relocation is the organised movement of a community to a new site, usually because the original site has become unsafe. It is the most difficult form of adaptation, because it involves the loss of land, livelihoods, social networks and cultural identity. Relocation projects have a long history of failure when they have been imposed without consultation, compensated inadequately, or sited in places that are themselves vulnerable.
@@ -1619,6 +1687,8 @@ Planned relocation is the organised movement of a community to a new site, usual
 The successful cases share several features. Communities are consulted early and repeatedly; compensation covers land, housing and livelihood; the new site has access to water, employment and services; and the process is paced to allow people to move when they are ready. Fiji's planned relocation of coastal villages, supported by a national framework, is one of the more studied examples; it has been slower than the government intended, but it has generally respected community consent.
 
 The hardest question is who decides. A community may prefer to stay even when the government considers the site unsafe; a government may consider relocation necessary even when the community disagrees. The tension is unavoidable, and it is resolved differently in different political systems. The principle that has emerged from international guidance is that relocation should be a last resort, that it should be voluntary wherever possible, and that it should preserve the rights and dignity of the people who move. Those principles are easier to state than to implement.
+
+Planned relocation is the option that governments avoid until it becomes unavoidable, and the record of doing it well is thin. Successful cases share several features: they are voluntary where possible, they involve communities in choosing the site and design, they provide compensation that restores livelihoods rather than only housing, and they maintain social networks by moving groups rather than individuals. Where those features are absent, resettlement sites become places of secondary displacement and dependency.
 
 ## 11.11 Case Study: Tuvalu and the Falepili Union
 
@@ -1631,6 +1701,8 @@ The Falepili Union, signed with Australia in November 2023, is the most comprehe
 The agreement has been criticized. Some Tuvaluans argue that it encourages emigration and undermines the incentive to adapt in place; others argue that it is the only realistic option for a country that cannot defend itself against the sea. The government has framed it as an insurance policy rather than a surrender, and it has continued to invest in coastal defence and adaptation. The debate reflects a broader tension in climate policy: whether to invest in places that may become uninhabitable, or to plan for the movement of people before the crisis arrives.
 
 The case has implications beyond Tuvalu. It shows that legal pathways for climate migration can be created through bilateral agreements, even in the absence of a global framework. It shows that the recognition of statehood and maritime boundaries can be separated from the physical territory, which is a legal innovation with implications for other island states. And it shows that the choice between adaptation and migration is not binary: a country can do both, and the balance shifts as the physical risk increases.
+
+The Falepili Union also illustrates the limits of bilateral deals as a model. It provides a pathway for a specific number of Tuvaluans a year, which is small relative to a population of about 11,000 and to the scale of eventual displacement; it does not create a category of climate refugee; and it depends on the continuing goodwill of the larger partner. Its value lies less in the numbers than in the principle it establishes: that a state facing territorial loss can negotiate a future for its people before the loss occurs.
 
 ## 11.12 Future Scenarios and Predictions: Migration to 2050
 
@@ -1668,6 +1740,8 @@ The same pattern appears in other regions. Drought in the Sahel has intensified 
 
 This chapter examines that interaction. It reviews what the research actually shows about climate and conflict — a literature with strong claims and serious disagreements — and then examines the pathways through which environmental stress can contribute to violence. It pays particular attention to the role of institutions, because the same drought that produces famine in one country can produce protest in another and nothing at all in a third. The chapter closes with the question of what security institutions can do, and what they cannot.
 
+The relationship between climate and conflict is one of the most contested questions in the field, and the contest is productive. Early work found strong statistical associations between temperature and violence; later work questioned the causal mechanisms, the sensitivity of the results to model specification, and the risk of generalising from one context to another. The current consensus is narrower and more useful: climate change is a risk multiplier that acts through livelihoods, prices, migration and state capacity, and its effect depends on institutions.
+
 ## 12.1 What the Research Shows
 
 The modern literature on climate and conflict began with a series of quantitative studies that found a statistical relationship between temperature and violence. A widely cited meta-analysis by Hsiang, Burke and Miguel (2013) reported that each standard deviation increase in temperature was associated with a 14 per cent increase in intergroup conflict and a 4 per cent increase in interpersonal violence, across studies covering many countries and periods.
@@ -1675,6 +1749,8 @@ The modern literature on climate and conflict began with a series of quantitativ
 The finding was influential and contested. Critics, notably Buhaug (2015), argued that the studies suffered from selection bias, that they aggregated very different forms of violence, and that the effect sizes were small relative to political and economic factors. Later work, including a review in Nature by Mach et al. (2019), concluded that climate has affected armed conflict risk in some contexts but that the evidence is strongest for low-level violence and weakest for civil war, and that confidence in the overall relationship is limited.
 
 The disagreement is not about whether climate can contribute to conflict; it is about how much, where, and under what conditions. The consensus that has emerged is that climate is a risk multiplier rather than an independent cause. It acts on societies that are already vulnerable, through mechanisms that are political and economic rather than meteorological, and its effect is largest where institutions are weak and where livelihoods depend on climate-sensitive resources.
+
+The quantitative literature has three strands. One finds that higher temperatures and rainfall anomalies are associated with more conflict at large scales, with Hsiang et al. (2013) reporting that a one standard deviation increase in temperature raises intergroup conflict by about 14 per cent and interpersonal violence by about 4 per cent. A second strand finds that the effects are small, conditional or absent once political and economic factors are controlled. A third, including Mach et al. (2019), concludes that the influence is real but modest relative to other drivers.
 
 ## 12.2 Pathways: Livelihoods, Prices and Migration
 
@@ -1684,6 +1760,8 @@ The second pathway is food prices. When prices rise, urban populations protest, 
 
 The third pathway is migration. The movement of people can create tension in receiving areas, particularly when it is rapid, when it is perceived as unfair, and when the state is unable to provide services. But migration can also be a source of resilience, through remittances and labour. The outcome depends on the capacity of receiving communities and institutions to absorb people, which is why the same inflow can produce integration in one place and conflict in another.
 
+The pathways are easier to describe than to measure. Climate shocks reduce agricultural income, which reduces the opportunity cost of joining an armed group; they raise food prices, which can trigger protests and riots; they displace people, which can create competition in receiving areas; and they reduce state revenue, which weakens the capacity to respond. Each pathway is plausible, and each is mediated by institutions, which is why the same drought can produce unrest in one country and not in another.
+
 ## 12.3 The Sahel and the Lake Chad Basin
 
 The Sahel is the region where the climate-conflict relationship is most often invoked and most difficult to disentangle. Rainfall has declined since the 1970s, though it has partially recovered in some areas; temperatures have risen faster than the global average; and the population has grown rapidly. Pastoralists and farmers compete for land and water, and the state is weak across much of the region.
@@ -1691,6 +1769,8 @@ The Sahel is the region where the climate-conflict relationship is most often in
 The conflict in Mali, Burkina Faso and Niger has killed thousands and displaced millions. The causes are political and military as much as environmental: the collapse of the Libyan state in 2011 flooded the region with weapons; jihadist groups exploited local grievances; and governments responded with strategies that alienated rural populations. Climate stress contributed by undermining livelihoods and by making it harder for the state to deliver services, but it did not create the conflict on its own.
 
 The Lake Chad basin is a similar case. The lake's shrinkage has been driven by reduced rainfall, increased irrigation and population growth, and it has destroyed fishing and farming livelihoods across four countries. The resulting poverty and displacement created a reservoir of recruits for Boko Haram and its offshoots, and the military response has displaced millions more. The lesson is not that the lake caused the insurgency; it is that environmental change can create the conditions in which insurgency becomes possible.
+
+The Lake Chad Basin is the most cited case, and it is more complicated than the shorthand suggests. The lake shrank from about 25,000 square kilometres in the 1960s to a few thousand at its lowest, but the shrinkage was driven by upstream abstraction and regional drought together, and it affected a region that was already poor, weakly governed and contested. Boko Haram's insurgency exploited the resulting loss of livelihoods, but it also had its own ideological and political drivers that no environmental account can explain.
 
 ## 12.4 Syria and the Politics of Attribution
 
@@ -1700,6 +1780,8 @@ The causal chain from drought to war is contested. Some analyses argue that the 
 
 The Syrian case illustrates a general problem in climate-conflict research: the temptation to tell a simple story that connects a weather event to a war. The stories are politically useful because they dramatise the stakes, and they are analytically dangerous because they obscure the political decisions that turn vulnerability into violence. A government that responds to drought with redistribution and relief may face protest; a government that responds with repression may face war.
 
+Syria is the case where attribution is most contested. The 2006–2010 drought was the worst in the instrumental record, and it displaced an estimated 1.5 million people from rural areas to cities. Kelley et al. (2015) argued that the drought was made more likely by climate change and contributed to the conflict; Selby et al. (2017) argued that the drought's role has been overstated and that political economy explains more. Both agree that the drought interacted with grievance and weak institutions, which is the defensible position.
+
 ## 12.5 Water Disputes and Cooperation
 
 Water is the resource most often associated with climate conflict, and the record is more cooperative than the headlines suggest. The Pacific Institute's Water Conflict Chronology records thousands of water-related incidents, most of them local, and far more treaties than wars. The Indus Waters Treaty survived three wars between India and Pakistan; the Nile Basin Initiative has kept dialogue alive among ten countries with competing claims; and the Senegal River Organisation has managed a shared basin for decades.
@@ -1707,6 +1789,8 @@ Water is the resource most often associated with climate conflict, and the recor
 That does not mean water is not a source of tension. The Grand Ethiopian Renaissance Dam on the Blue Nile has been the subject of a decade of negotiations among Egypt, Sudan and Ethiopia, and the dispute remains unresolved. Egypt depends on the Nile for almost all of its fresh water and has treated the river as a existential resource; Ethiopia argues that it has the right to develop its own hydropower. The dispute has not become a war, but it has shaped regional politics and delayed cooperation on other issues.
 
 The factors that determine whether water disputes escalate are political, not hydrological. Countries that have institutions for sharing information, dispute-resolution mechanisms and a history of cooperation are more likely to manage scarcity without violence. Countries that lack them, or that are already hostile, are more likely to treat water as a zero-sum resource. The lesson is that water treaties are a form of adaptation, and that their erosion is a security risk.
+
+Water disputes between states are more often managed than fought. The Indus Waters Treaty has survived three wars between India and Pakistan; the Nile Basin Initiative has kept dialogue alive despite the dispute over the Grand Ethiopian Renaissance Dam; and the Mekong Cooperation mechanism has created channels for data sharing. The record suggests that treaties, even imperfect ones, reduce the risk of violence by creating expectations and procedures for resolving disputes.
 
 ## 12.6 Fisheries, Maritime Boundaries and the Arctic
 
@@ -1716,6 +1800,8 @@ In the tropics, warming is driving fish stocks toward cooler water and across ma
 
 Fisheries also illustrate the role of international institutions. Regional fisheries management organisations set quotas and allocate access, and their effectiveness depends on the willingness of states to comply. Climate change makes their task harder because the stocks they manage are moving, and because the scientific advice on which they rely is uncertain. The result is a governance gap that is filled by unilateral action, which is precisely the outcome that institutions are supposed to prevent.
 
+The Arctic illustrates how climate change can create new strategic competition even without direct resource scarcity. Retreating sea ice opens shipping routes, exposes fisheries and hydrocarbon reserves, and changes the military geography of the region. Arctic states have negotiated agreements on search and rescue and on fisheries, but the underlying competition for influence is intensifying, and the exclusion of some states from the Arctic Council after 2022 has reduced the forums available for managing it.
+
 ## 12.7 State Capacity and Fragility
 
 The most important variable in the climate-conflict relationship is the capacity of the state. A state that can deliver relief, maintain order and provide services during a shock can prevent the spiral from drought to famine to violence. A state that cannot — because it is poor, corrupt, illegitimate or already at war — is where the spiral is most likely to occur.
@@ -1723,6 +1809,8 @@ The most important variable in the climate-conflict relationship is the capacity
 Fragile states are also the most exposed to climate change. They tend to be agriculture-dependent, to have weak infrastructure and to lack the fiscal capacity to respond to disasters. The combination creates a feedback loop: climate shocks weaken the state, and a weakened state is less able to respond to the next shock. The result is that climate change can contribute to state failure, and state failure can make climate impacts much worse.
 
 The policy implication is that climate adaptation and peacebuilding are the same project in fragile states. Building irrigation, restoring rangelands and providing social protection are adaptation measures, but they are also conflict-prevention measures, because they reduce the competition over resources that fuels violence. The reverse is also true: a peace agreement that does not address access to land and water is unlikely to hold.
+
+State capacity is the most important variable in the climate-conflict relationship. A country with effective institutions can absorb a drought by importing food, expanding social protection and managing distribution; a country with weak institutions cannot. The same climate shock that produces price spikes and protests in one state produces humanitarian crisis and armed recruitment in another, and the difference is governance rather than meteorology.
 
 ## 12.8 Security Institutions and Climate Risk
 
@@ -1732,6 +1820,8 @@ The military's role is controversial. Some argue that framing climate as a secur
 
 The most useful contribution that security institutions can make is often analytical and logistical rather than kinetic. Early warning systems, scenario planning, disaster response capacity and the protection of critical infrastructure are all within the remit of security institutions and all contribute to resilience. The risk is that a security framing crowds out the development and governance responses that address the root causes of vulnerability.
 
+Security institutions have begun to treat climate change as a threat multiplier, and their framing has consequences. The United States Department of Defense has described climate change as a risk to installations and operations; NATO has commissioned assessments of climate risks to missions; and several national intelligence agencies have included climate in their strategic forecasts. The risk is that a security framing prioritises border control over protection, and that it militarises a problem whose solutions are mostly civilian.
+
 ## 12.9 Food, Prices and Political Instability
 
 The relationship between food prices and political instability is one of the best-documented in the social sciences. The 2007–2008 price spike was followed by riots in more than thirty countries, and the 2010–2011 spike coincided with the Arab Spring. The mechanism is straightforward: when the price of the staple food rises beyond what households can afford, the result is hunger, anger and, often, protest.
@@ -1740,6 +1830,8 @@ The effect is not deterministic. Some countries with high food prices experience
 
 Climate change makes the trigger more likely by increasing the frequency of harvest failures and by increasing the volatility of prices. It also makes the response more difficult, because governments that are already fiscally stressed may be unable to subsidise food or to provide relief. The result is that the same price shock can be absorbed in one country and produce a crisis in another.
 
+The link between food prices and political instability is one of the better-documented pathways. The 2007–2008 price spike was associated with riots in more than 30 countries, and the 2010–2011 spike coincided with the Arab Spring. Quantitative work finds that food price shocks increase the probability of unrest, particularly in countries with weak social protection and urban populations dependent on imported staples, which is why food policy is also security policy.
+
 ## 12.10 Prevention, Early Warning and Peacebuilding
 
 Conflict prevention is cheaper than conflict response, and climate adaptation can be a form of prevention. Early warning systems that identify areas at risk of drought or flood can trigger relief before people are forced to migrate or to compete for resources. Dialogue mechanisms that bring herders and farmers together can resolve disputes before they become violent. Land reform that clarifies tenure can reduce the uncertainty that fuels conflict.
@@ -1747,6 +1839,8 @@ Conflict prevention is cheaper than conflict response, and climate adaptation ca
 The evidence for these interventions is mixed but encouraging. The United Nations Development Programme's climate security projects in the Sahel have supported local mediation and early warning, and some evaluations report reductions in conflict. The challenge is scale: the interventions are small relative to the size of the problem, and they depend on local institutions that are often weak.
 
 The deepest lesson is that climate security is not primarily a military problem. It is a problem of development, governance and justice. The countries that are most vulnerable to climate-driven conflict are those where people lack secure access to land, water and food, and where the state is unable or unwilling to provide them. Addressing those conditions is the most effective security policy available, and it is also the most neglected.
+
+Prevention is cheaper than response, and the evidence is strongest for approaches that address livelihoods and governance rather than those that focus on security. The United Nations Development Programme's work in the Sahel has combined water infrastructure, pastoral corridors and local dispute resolution, and evaluations report reduced conflict in treated areas. Early warning systems that link rainfall forecasts to conflict risk can trigger preventive action, but only if the political will to act exists before the violence begins.
 
 ## 12.11 Case Study: The Lake Chad Basin
 
@@ -1759,6 +1853,8 @@ Boko Haram emerged in this context. The group was founded in north-eastern Niger
 The conflict has killed more than 35,000 people and displaced more than two million. The military response, which includes forces from Nigeria, Chad, Niger and Cameroon, has retaken territory but has not restored the livelihoods that would allow people to return. Humanitarian access is limited, and the region has one of the highest rates of food insecurity in the world. The lake itself continues to fluctuate, and the inter-basin water transfer project that was proposed to restore it has not been built.
 
 The case illustrates the limits of a purely security response. Military action can reduce the capacity of an insurgency, but it cannot restore the livelihoods that make recruitment attractive. A durable solution would require investment in irrigation, fisheries, pastoralism and local governance, combined with a political process that addresses the grievances that the insurgency exploited. Those are development measures, but they are also security measures, which is the central point of this chapter.
+
+The basin also shows how humanitarian and environmental crises compound. The region hosts large refugee and internally displaced populations, which increases pressure on water and pasture; the shrinking of the lake has reduced fishing and farming livelihoods; and restrictions on movement imposed by armed groups have cut herders off from the pastures that would otherwise allow them to cope. Each factor reduces the capacity to absorb the next, which is the definition of a fragility trap.
 
 ## 12.12 Future Scenarios and Predictions: Conflict Risk to 2050
 
