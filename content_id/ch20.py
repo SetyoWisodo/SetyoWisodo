@@ -129,7 +129,7 @@ CH = {
 
                 "Kaitan dengan bunuh diri terdokumentasi baik, meskipun mekanismenya kompleks. Studi "
                 "menemukan angka bunuh diri lebih tinggi selama periode panas, dan sebagian riset "
-                "menunjukkan bahwa panas meningkatkan impulsivitas dan agresi. Carleton (2017) meninjau "
+                "menunjukkan bahwa panas meningkatkan impulsivitas dan agresi. Carleton (2016) meninjau "
                 "bukti dan berargumen bahwa hubungannya cukup kuat untuk dimasukkan dalam perencanaan "
                 "pencegahan bunuh diri, terutama karena gelombang panas menjadi lebih sering dan intens.",
             ],

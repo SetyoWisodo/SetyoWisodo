@@ -996,7 +996,7 @@ md.append("- Badai Maria, Puerto Rico, 2017 — Kishore dkk. (2018), New England
 md.append("- Badai Katrina, New Orleans, 2005 — Brunkard dkk. (2008), Disaster Medicine and Public Health Preparedness 2(4).")
 md.append("- Kubah panas Pacific Northwest, 2021 — Philip dkk. (2022), Earth System Dynamics 13.")
 md.append("- Banjir lembah Ahr, Jerman dan Belgia, 2021 — Kreienkamp dkk. (2021), World Weather Attribution.")
-md.append("- Kebakaran Black Saturday, Victoria, 2009 — Komisi Kerajaan Kebakaran Semak Victoria (2010), Final Report.")
+md.append("- Kebakaran Black Saturday, Victoria, 2009 — Victorian Bushfires Royal Commission (2010), Final Report.")
 md.append("- Kebakaran Camp, Paradise, California, 2018 — CAL FIRE (2019), laporan insiden Camp Fire.")
 md.append("- Kebakaran hutan Kanada, 2023 — CIFFC (2023), National Wildland Fire Situation Report.")
 md.append("- Badai musim dingin Texas Uri, 2021 — FERC & NERC (2021), The February 2021 cold weather outages.")

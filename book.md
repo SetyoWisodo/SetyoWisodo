@@ -164,7 +164,7 @@ The floods began in June 2022 with monsoon rain that was heavy but not unprecede
 
 The numbers are a case study in how climate impacts are counted. About 33 million people were affected, 1,700 died, and 2.2 million houses were damaged or destroyed. The Post-Disaster Needs Assessment estimated damage at US$14.9 billion and economic losses at US$15.2 billion, together about 4.8 per cent of GDP (UNDRR, 2023). Agriculture lost most of a season: two million hectares of crops were destroyed, and the cotton harvest fell by about a third. The damage was concentrated in Sindh and Balochistan, the two poorest provinces, which is a pattern repeated in disaster after disaster.
 
-Attribution research found that climate change made the extreme rainfall more likely, though the magnitude of the effect varied between studies and depended on the definition of the event (Otto et al., 2023). But attribution explains only the trigger. The vulnerability had been built over decades: irrigation systems that had silted up, embankments that had not been maintained, housing in floodplains, and a population whose livelihoods depended on a single crop season. The flood was a climate event; the disaster was a development event.
+Attribution research found that climate change made the extreme rainfall more likely, though the magnitude of the effect varied between studies and depended on the definition of the event (Clarke et al., 2022). But attribution explains only the trigger. The vulnerability had been built over decades: irrigation systems that had silted up, embankments that had not been maintained, housing in floodplains, and a population whose livelihoods depended on a single crop season. The flood was a climate event; the disaster was a development event.
 
 The response revealed both the strengths and the limits of international aid. Donor pledges eventually exceeded US$10 billion, but they arrived over months, while the most urgent needs were in the first weeks. The Pakistani military, which has the country's largest logistics capacity, led the relief effort; provincial governments coordinated shelters; and local charities, particularly religious foundations, distributed food faster than the formal system. The pattern — rapid local response, slow international finance — is typical, and it is why the chapters on governance and social capital treat local institutions as part of the infrastructure.
 
@@ -176,7 +176,7 @@ The official Post-Disaster Needs Assessment, conducted jointly by the government
 
 ## 1.12 Future Scenarios and Predictions: What the Next Two Decades Hold
 
-The historical record provides the starting point. Since 1970, global surface temperature has risen by about 0.18°C per decade, sea level by about 3.4 millimetres per year, and the frequency of extreme heat has increased by a factor of roughly three in many regions (IPCC, 2019). The number of weather-related disasters reported to EM-DAT has risen from about 100 a year in the 1970s to more than 300 a year in the 2010s, though part of that increase reflects better reporting. The losses, adjusted for inflation, have grown by about 5 to 7 per cent a year, faster than exposure alone would predict.
+The historical record provides the starting point. Since 1970, global surface temperature has risen by about 0.18°C per decade, sea level by about 3.4 millimetres per year, and the frequency of extreme heat has increased by a factor of roughly three in many regions (IPCC, 2019b). The number of weather-related disasters reported to EM-DAT has risen from about 100 a year in the 1970s to more than 300 a year in the 2010s, though part of that increase reflects better reporting. The losses, adjusted for inflation, have grown by about 5 to 7 per cent a year, faster than exposure alone would predict.
 
 The present position is that the world is on a trajectory consistent with about 2.7°C of warming by 2100 if current policies are maintained, according to the International Energy Agency's assessment of announced pledges and implemented measures. That is below the 4.4°C of the highest scenario but well above the 1.5°C target. The near-term trajectory is largely locked in by emissions already released and by infrastructure already built: even if every country met its net-zero pledge, the next two decades would still warm by about 0.4°C above the current level.
 
@@ -223,7 +223,7 @@ The greenhouse effect is often described as a blanket, and the metaphor is usefu
 
 Four gases do almost all of the work. Carbon dioxide is the largest single contributor and the one that accumulates; methane is far more potent per molecule but short-lived; nitrous oxide is potent and long-lived in roughly equal measure; and a family of fluorinated industrial gases, present in minute quantities, traps heat thousands of times more effectively than CO2 (Friedlingstein et al., 2023). In 2024 the global average concentration of carbon dioxide reached about 424 parts per million, methane about 1,934 parts per billion and nitrous oxide about 336 parts per billion — values that have no precedent in the ice-core record of the last 800,000 years (NOAA, 2025; IPCC, 2021).
 
-The sources are known with unusual precision because they are counted twice: once from the bottom up, by adding up fuel sales, land-use change and industrial processes, and once from the top down, by measuring the changing composition of the atmosphere and the ocean. The two accounts now agree to within a few per cent. Fossil fuel combustion and industry released about 37.4 billion tonnes of CO2 in 2024, land-use change perhaps four billion more (Friedlingstein et al., 2024). Energy use accounts for roughly three-quarters of total greenhouse gas emissions; agriculture, forestry and land use for about a fifth; the rest comes from industry and waste (IPCC, 2022c).
+The sources are known with unusual precision because they are counted twice: once from the bottom up, by adding up fuel sales, land-use change and industrial processes, and once from the top down, by measuring the changing composition of the atmosphere and the ocean. The two accounts now agree to within a few per cent. Fossil fuel combustion and industry released about 37.4 billion tonnes of CO2 in 2024, land-use change perhaps four billion more (Friedlingstein et al., 2024). Energy use accounts for roughly three-quarters of total greenhouse gas emissions; agriculture, forestry and land use for about a fifth; the rest comes from industry and waste (IPCC, 2022b).
 
 The difference in lifetimes between the gases is the most policy-relevant fact in this section. A molecule of methane survives in the atmosphere for about a decade before it is oxidised, so cutting methane emissions reduces warming within years rather than centuries. Carbon dioxide is different: perhaps a third of what is emitted today will still be in the atmosphere in a thousand years. That asymmetry explains why climate strategy pursues two tracks at once — rapid methane cuts to slow the rate of warming in the near term, and deep CO2 cuts to determine where the warming finally stops. Confusing the two tracks is a common source of bad policy, because a methane success can look like progress on the problem while the cumulative CO2 ledger continues to grow.
 
@@ -263,7 +263,7 @@ The industrial revolution is the conventional starting point because it marks th
 
 The Intergovernmental Panel on Climate Change was created in 1988 by two United Nations bodies, the World Meteorological Organization and the UN Environment Programme, in response to a simple political problem: governments needed an authoritative account of a scientific literature that none of them could read in full. Its method is unusual. Hundreds of scientists volunteer to assess published research, they produce a technical report running to thousands of pages, and then governments negotiate the summary for policymakers line by line. The process is slow, conservative and occasionally painful to read, but it has one great virtue: no single government, industry or scientist can determine its conclusions.
 
-The sixth assessment cycle, published between 2021 and 2023, is the most important single source in this book. Its first working group concluded that it is 'unequivocal that human influence has warmed the atmosphere, ocean and land', and that the best estimate of the warming already experienced is about 1.1°C above 1850–1900 (IPCC, 2021). The second group found that roughly 3.3 to 3.6 billion people live in contexts that are highly vulnerable to climate change (IPCC, 2022b). The third found that the policies in place at the time of writing would produce warming of about 2.7°C by the end of the century (IPCC, 2022c). Those three sentences, taken together, are the empirical spine of the argument that follows.
+The sixth assessment cycle, published between 2021 and 2023, is the most important single source in this book. Its first working group concluded that it is 'unequivocal that human influence has warmed the atmosphere, ocean and land', and that the best estimate of the warming already experienced is about 1.1°C above 1850–1900 (IPCC, 2021). The second group found that roughly 3.3 to 3.6 billion people live in contexts that are highly vulnerable to climate change (IPCC, 2022a). The third found that the policies in place at the time of writing would produce warming of about 2.7°C by the end of the century (IPCC, 2022b). Those three sentences, taken together, are the empirical spine of the argument that follows.
 
 Reading an IPCC summary requires attention to its grammar. The panel uses a calibrated vocabulary in which 'likely' means a probability between 66 and 100 per cent, 'very likely' between 90 and 100, and 'virtually certain' above 99. It also distinguishes between an assessed range, which reflects the judgement of the author team across all available evidence, and the spread of model results, which reflects only the models. Statements such as 'warming of 1.5°C will be reached in the early 2030s' are assessments, not model outputs, and they carry the authority and the caution of that distinction. Readers who quote the panel without that grammar tend to overstate either its certainty or its doubt.
 
@@ -271,7 +271,7 @@ The Intergovernmental Panel on Climate Change does not conduct research; it asse
 
 ## 2.7 Ocean Heat and Sea Level
 
-The ocean has absorbed about ninety per cent of the excess heat trapped by greenhouse gases, and roughly a quarter of the carbon dioxide. That absorption is why the surface has not warmed faster, and it is also why the consequences arrive late. Water has an enormous heat capacity, so the ocean integrates warming over decades and then releases it slowly. Ocean heat content has set a record every year for the past decade; the increase in the upper two kilometres between 2022 and 2023 alone was larger than the total energy used by humanity in a year (Cheng et al., 2024). Marine heatwaves have roughly doubled in frequency since the 1980s, and the fourth global coral bleaching event was declared in 2024 (IPCC, 2019).
+The ocean has absorbed about ninety per cent of the excess heat trapped by greenhouse gases, and roughly a quarter of the carbon dioxide. That absorption is why the surface has not warmed faster, and it is also why the consequences arrive late. Water has an enormous heat capacity, so the ocean integrates warming over decades and then releases it slowly. Ocean heat content has set a record every year for the past decade; the increase in the upper two kilometres between 2022 and 2023 alone was larger than the total energy used by humanity in a year (Cheng et al., 2024). Marine heatwaves have roughly doubled in frequency since the 1980s, and the fourth global coral bleaching event was declared in 2024 (IPCC, 2019b).
 
 Sea level is the slowest and most consequential of these responses. Global mean sea level rose about 21 centimetres between 1900 and 2018, and the rate has accelerated from roughly 1.3 millimetres a year in the early twentieth century to about 4.5 millimetres a year today (IPCC, 2021; NASA, 2024). Roughly forty per cent of that rise comes from thermal expansion, a quarter from glaciers and a quarter from the ice sheets, with the remainder from changes in land water storage. Because the processes that drive it respond slowly, sea level will continue to rise for centuries even if emissions fall to zero. The practical question is therefore not whether to adapt, but how much and how soon — and the answer differs by an order of magnitude between a low-emission and a high-emission trajectory.
 
@@ -307,7 +307,7 @@ A younger branch of the field applies the same logic to individual events. Event
 
 Attribution also has a geography of evidence. Events in wealthy countries tend to be studied quickly because they are insured, instrumented and politically salient; events in poorer countries are studied later, if at all, and often with fewer observations. The result is an asymmetry in what can be said, not in what is happening. Researchers call this the attribution gap, and it matters for compensation: a country that cannot demonstrate attribution finds it harder to claim loss and damage, even when the physical case is strong. Closing the gap is therefore a matter of both science and justice.
 
-Attribution has moved from a research question to an operational service. The method compares large ensembles of model simulations with and without human influence, and asks how the probability or intensity of a specific event changed. For the 2022 Pakistan floods, attribution studies found that climate change increased the intensity of the extreme monsoon rainfall; for the 2021 Pacific Northwest heat dome, they concluded the event would have been virtually impossible without warming; for the 2018 European heat, they found a substantial human contribution (Otto et al., 2023). These findings are now produced within weeks, which makes them usable in recovery planning and litigation.
+Attribution has moved from a research question to an operational service. The method compares large ensembles of model simulations with and without human influence, and asks how the probability or intensity of a specific event changed. For the 2022 Pakistan floods, attribution studies found that climate change increased the intensity of the extreme monsoon rainfall; for the 2021 Pacific Northwest heat dome, they concluded the event would have been virtually impossible without warming; for the 2018 European heat, they found a substantial human contribution (Clarke et al., 2022). These findings are now produced within weeks, which makes them usable in recovery planning and litigation.
 
 ## 2.11 Case Study: The Keeling Curve
 
@@ -333,7 +333,7 @@ Any statement about the physical future of the climate is conditional, and it is
 
 The historical record supplies the baseline. Concentrations were stable at about 280 parts per million for six thousand years before 1750; they reached 315 in 1958, about 370 in 2000 and roughly 424 in 2024, with cumulative emissions since 1850 now close to 2,500 billion tonnes of CO2 (Friedlingstein et al., 2024). Global mean temperature has risen about 1.2°C over the same period and is currently rising at roughly 0.2°C per decade (IPCC, 2021). Sea level, which lagged the temperature rise for most of the twentieth century, is now accelerating.
 
-The present position can be stated with unusual precision. For a fifty per cent chance of holding warming below 1.5°C, the remaining carbon budget is roughly 200 billion tonnes of CO2 — about five years of current emissions (Friedlingstein et al., 2023). For 2°C the budget is larger but still finite, and the policies in place in 2025 imply warming of about 2.7°C by 2100 rather than the 1.5°C target governments have endorsed (IPCC, 2022c; Friedlingstein et al., 2024). Three trajectories bracket the plausible range, and each rests on a different assumption about policy, technology and behaviour.
+The present position can be stated with unusual precision. For a fifty per cent chance of holding warming below 1.5°C, the remaining carbon budget is roughly 200 billion tonnes of CO2 — about five years of current emissions (Friedlingstein et al., 2023). For 2°C the budget is larger but still finite, and the policies in place in 2025 imply warming of about 2.7°C by 2100 rather than the 1.5°C target governments have endorsed (IPCC, 2022b; Friedlingstein et al., 2024). Three trajectories bracket the plausible range, and each rests on a different assumption about policy, technology and behaviour.
 
 The first assumes rapid decarbonisation: emissions fall by about half by 2030 and reach net zero around mid-century, with carbon removal compensating for residual sources (Friedlingstein et al., 2023). Warming peaks near 1.8°C and declines slowly thereafter. The second assumes that current policies continue and are strengthened gradually, producing net zero late in the century; warming reaches about 2.7°C. The third assumes that decarbonisation stalls and that coal, oil and gas remain dominant; warming reaches roughly 4.4°C, with the largest increases over land and at high northern latitudes (IPCC, 2021, Table 4.5).
 
@@ -835,7 +835,7 @@ The physical mechanism is simple and getting stronger. Warmer air holds more wat
 
 Sea level rise adds a second, slower dimension. The ocean has risen about 20 to 25 centimetres since 1880, and the rate has increased to about 4.5 millimetres a year. That sounds small until it is combined with storm surge, high tide and subsidence: a city that has sunk 20 centimetres and faces a sea 20 centimetres higher experiences a 40-centimetre change in the effective height of its defences. This chapter examines both dimensions, because in most coastal cities they arrive together.
 
-Floods are the most frequent and most costly of climate hazards, and the number of people exposed to them has grown faster than the population. The reason is not only heavier rainfall but where people live: roughly one in five people worldwide lives in a river floodplain, and about 10 per cent lives in coastal zones below a once-in-a-century flood level (IPCC, 2022). Economic growth has concentrated assets in those same places, so a storm that would have caused modest damage a generation ago now causes billions.
+Floods are the most frequent and most costly of climate hazards, and the number of people exposed to them has grown faster than the population. The reason is not only heavier rainfall but where people live: roughly one in five people worldwide lives in a river floodplain, and about 10 per cent lives in coastal zones below a once-in-a-century flood level (IPCC, 2022a). Economic growth has concentrated assets in those same places, so a storm that would have caused modest damage a generation ago now causes billions.
 
 ## 6.1 The Physics of Flooding
 
@@ -869,13 +869,13 @@ Coastal flooding has three drivers, and their relative importance varies by loca
 
 ## 6.4 Jakarta: The Sinking Capital
 
-Jakarta is the most studied example of a city losing its race with the sea. About 40 per cent of the city lies below sea level, and some northern districts have subsided by more than four metres since the 1970s. The subsidence is caused mainly by groundwater extraction: only about half the population is connected to the piped water network, and the rest pumps from aquifers. The city has 13 rivers and a network of canals, and it receives about 1,700 millimetres of rain a year, concentrated in a wet season that regularly produces floods (IPCC, 2022).
+Jakarta is the most studied example of a city losing its race with the sea. About 40 per cent of the city lies below sea level, and some northern districts have subsided by more than four metres since the 1970s. The subsidence is caused mainly by groundwater extraction: only about half the population is connected to the piped water network, and the rest pumps from aquifers. The city has 13 rivers and a network of canals, and it receives about 1,700 millimetres of rain a year, concentrated in a wet season that regularly produces floods (IPCC, 2022a).
 
 The 2020 New Year flood displaced about 400,000 people and killed more than 60. The 2013 and 2007 floods were comparable or worse. The city has responded with a sea wall, pumping stations, dredging and a giant offshore dyke project, but the project has been delayed by land acquisition, funding and disputes about its design. In 2022, the government passed a law to move the national capital to Nusantara in East Kalimantan, citing congestion, inequality and environmental vulnerability, including flooding.
 
 The capital move does not solve Jakarta's problem; it relocates the state's administrative functions while leaving about 30 million people in the metropolitan area. The lesson is not that relocation is wrong but that it is not a substitute for managing subsidence. Stopping groundwater extraction, providing piped water to the whole city, restoring natural drainage and building defences are all necessary, and all are slow, expensive and politically difficult. Jakarta is therefore a test case for whether a large city can adapt faster than the ground beneath it sinks.
 
-Jakarta's subsidence is not a natural process. It is caused by decades of unregulated groundwater extraction by households and industry that cannot rely on the piped network, and by the weight of construction on soft alluvial soils. Measurements by Indonesian and international researchers found subsidence rates of up to 25 centimetres a year in some northern districts in the 2010s, several times the rate of global sea-level rise, which is why the city's flood defences had to be raised repeatedly simply to maintain the same standard of protection (IPCC, 2022).
+Jakarta's subsidence is not a natural process. It is caused by decades of unregulated groundwater extraction by households and industry that cannot rely on the piped network, and by the weight of construction on soft alluvial soils. Measurements by Indonesian and international researchers found subsidence rates of up to 25 centimetres a year in some northern districts in the 2010s, several times the rate of global sea-level rise, which is why the city's flood defences had to be raised repeatedly simply to maintain the same standard of protection (IPCC, 2022a).
 
 ## 6.5 Flash Floods and Urban Drainage
 
@@ -959,11 +959,11 @@ Valencia's DANA also exposed a planning failure that had been documented for yea
 
 ## 6.12 Future Scenarios and Predictions: Coasts in 2100
 
-The historical record is unambiguous. Global mean sea level has risen by about 20 to 25 centimetres since 1880, and the rate has accelerated from about 1.4 millimetres per year in the early twentieth century to about 4.5 millimetres per year today (IPCC, 2019). The frequency of coastal flooding has increased even where the sea level rise is modest, because flooding depends on the combination of sea level, tide, surge and waves, and because subsidence and coastal development have increased exposure.
+The historical record is unambiguous. Global mean sea level has risen by about 20 to 25 centimetres since 1880, and the rate has accelerated from about 1.4 millimetres per year in the early twentieth century to about 4.5 millimetres per year today (IPCC, 2019b). The frequency of coastal flooding has increased even where the sea level rise is modest, because flooding depends on the combination of sea level, tide, surge and waves, and because subsidence and coastal development have increased exposure.
 
 Present conditions show the scale of the exposure. About 600 million people live in low-elevation coastal zones less than 10 metres above sea level, and about 1 billion live within 100 kilometres of a coast (Neumann et al., 2015). The value of assets in these zones is enormous: in the United States alone, coastal property worth trillions of dollars is exposed to storm surge. In developing countries, the exposure is concentrated in informal settlements that have no insurance and little public protection.
 
-The assumptions that drive the projections are the emission path, the response of ice sheets, and the rate of subsidence. Under the low-emission scenario, sea level is projected to rise by about 0.3 to 0.4 metres by 2100; under the high-emission scenario, by 0.6 to 0.8 metres; and if the West Antarctic ice sheet becomes unstable, by more than a metre (IPCC, 2019). The difference matters less for the global average than for the frequency of extreme events: a 0.5-metre rise can turn a once-in-a-century flood into a once-in-a-decade flood, and in some places into an annual one (IPCC, 2022).
+The assumptions that drive the projections are the emission path, the response of ice sheets, and the rate of subsidence. Under the low-emission scenario, sea level is projected to rise by about 0.3 to 0.4 metres by 2100; under the high-emission scenario, by 0.6 to 0.8 metres; and if the West Antarctic ice sheet becomes unstable, by more than a metre (IPCC, 2019b). The difference matters less for the global average than for the frequency of extreme events: a 0.5-metre rise can turn a once-in-a-century flood into a once-in-a-decade flood, and in some places into an annual one (IPCC, 2022a).
 
 [[TABLE:Table 6.1 Coastal exposure in selected cities]]
 | City | Subsidence (cm/yr) | People exposed to 1-in-100 flood | 2050 sea level (SSP2-4.5) | Adaptation |
@@ -1189,7 +1189,7 @@ The frequency of bleaching has increased sharply. Before the 1980s, mass bleachi
 
 The projections are stark. At 1.5°C of warming, about 70 to 90 per cent of warm-water reefs are projected to decline; at 2°C, more than 99 per cent. These are not gradual declines; they are the loss of the physical structure that supports the ecosystem, followed by the collapse of the fish community. Some corals may survive in cooler refuges, and some may adapt, but the reef as a functioning system is unlikely to persist in the form that has existed for thousands of years.
 
-Coral reefs occupy less than 1 per cent of the ocean floor and support roughly a quarter of marine species at some stage of their lives (IPBES, 2019). They are also among the most temperature-sensitive ecosystems on Earth: a sustained anomaly of 1–2 °C above the local summer maximum can trigger bleaching, in which corals expel the symbiotic algae that feed them (IPCC, 2019). The Great Barrier Reef has experienced five mass bleaching events since 2016, and the fraction of reefs that have bleached at least once is now large enough to have changed the composition of the ecosystem.
+Coral reefs occupy less than 1 per cent of the ocean floor and support roughly a quarter of marine species at some stage of their lives (IPBES, 2019). They are also among the most temperature-sensitive ecosystems on Earth: a sustained anomaly of 1–2 °C above the local summer maximum can trigger bleaching, in which corals expel the symbiotic algae that feed them (IPCC, 2019b). The Great Barrier Reef has experienced five mass bleaching events since 2016, and the fraction of reefs that have bleached at least once is now large enough to have changed the composition of the ecosystem.
 
 Coral reefs are the ecosystem where the arithmetic of warming is least forgiving, and the numbers are now well established. The Great Barrier Reef has experienced five mass bleaching events since 2016, and the 2024 event affected more than seventy per cent of the reef in some surveys. Hughes and colleagues have argued that repeated bleaching has reduced the recovery interval below the time the reef needs to regrow, which converts a disturbance into a trajectory. Reefs support roughly a quarter of marine species at some stage of their life cycle, and the fisheries that depend on them feed hundreds of millions of people.
 
@@ -1207,7 +1207,7 @@ The Amazon is the ecosystem where a physical threshold could turn a gradual chan
 
 ## 8.5 Permafrost and the Tundra
 
-Permafrost — ground that remains frozen for at least two consecutive years — covers about a quarter of the Northern Hemisphere and stores an estimated 1,400 to 1,600 billion tonnes of carbon, roughly twice the carbon in the atmosphere (IPCC, 2019). As the Arctic warms three to four times faster than the global average, the ground thaws, and microbes decompose the organic matter that has been frozen for millennia, releasing carbon dioxide and methane.
+Permafrost — ground that remains frozen for at least two consecutive years — covers about a quarter of the Northern Hemisphere and stores an estimated 1,400 to 1,600 billion tonnes of carbon, roughly twice the carbon in the atmosphere (IPCC, 2019b). As the Arctic warms three to four times faster than the global average, the ground thaws, and microbes decompose the organic matter that has been frozen for millennia, releasing carbon dioxide and methane.
 
 The release is already measurable. Arctic rivers carry increasing amounts of dissolved organic carbon; thaw slumps and thermokarst lakes are appearing in regions that were previously stable; and winter carbon dioxide emissions from northern soils have increased. The processes are slow relative to fossil fuel emissions, but they are large and difficult to reverse, and they are not included in the carbon budgets that governments use to plan emission reductions.
 
@@ -1772,7 +1772,7 @@ Planned relocation is the hardest adaptation option because it requires a govern
 
 Tuvalu consists of nine atolls and reef islands scattered across about 1.3 million square kilometres of ocean, with a total land area of about 26 square kilometres. The population is about 11,000, and the highest point is less than five metres above sea level. The country has no rivers, no significant groundwater beyond thin freshwater lenses, and no high ground to which it could retreat. Its territorial waters, by contrast, are vast, and its exclusive economic zone is its most valuable asset.
 
-The physical pressures are already measurable. Sea level at Funafuti has risen by about 3.4 millimetres a year since records began, close to the global average, and the frequency of flooding at high tide has increased (IPCC, 2019). Saltwater intrusion has contaminated wells and reduced the productivity of taro pits, a staple crop. Coral bleaching has damaged reefs that provide food and coastal protection. The government has built sea walls and raised some roads, but the costs are high relative to the national budget.
+The physical pressures are already measurable. Sea level at Funafuti has risen by about 3.4 millimetres a year since records began, close to the global average, and the frequency of flooding at high tide has increased (IPCC, 2019b). Saltwater intrusion has contaminated wells and reduced the productivity of taro pits, a staple crop. Coral bleaching has damaged reefs that provide food and coastal protection. The government has built sea walls and raised some roads, but the costs are high relative to the national budget.
 
 The Falepili Union, signed with Australia in November 2023, is the most comprehensive bilateral arrangement of its kind. It provides a special visa pathway for Tuvaluans to live and work in Australia, with an initial cap and growth over time; it commits Australia to assist Tuvalu in the event of a major natural disaster or a security threat; and it recognizes Tuvalu's maritime boundaries and statehood even if the land is lost to the sea. The agreement is reciprocal: Australia gains strategic influence in the Pacific, and Tuvalu gains a pathway for its people.
 
@@ -3201,7 +3201,7 @@ Heat affects mental health directly and indirectly. Directly, high temperatures 
 
 The pharmacological dimension is often overlooked. Many psychiatric medications — antipsychotics, antidepressants, lithium — impair the body's ability to regulate temperature, increasing the risk of heat exhaustion and heat stroke. People taking these medications need specific advice about hydration, cooling and monitoring during heatwaves, and clinicians need to include heat risk in prescribing decisions.
 
-The association with suicide is well documented, though the mechanisms are complex. Studies have found higher suicide rates during hot periods, and some research suggests that heat increases impulsivity and aggression. Carleton (2017) reviewed the evidence and argued that the relationship is robust enough to warrant inclusion in suicide prevention planning, particularly as heatwaves become more frequent and intense.
+The association with suicide is well documented, though the mechanisms are complex. Studies have found higher suicide rates during hot periods, and some research suggests that heat increases impulsivity and aggression. Carleton (2016) reviewed the evidence and argued that the relationship is robust enough to warrant inclusion in suicide prevention planning, particularly as heatwaves become more frequent and intense.
 
 Heat affects mental illness through at least three routes, and the clinical one is the least known. Many antipsychotic and antidepressant medications impair thermoregulation and reduce thirst, so patients are more vulnerable to heatstroke; people with severe mental illness also have higher rates of cardiovascular and respiratory disease, worse housing, and less access to cooling. Epidemiological work has found associations between higher temperatures and suicide rates, and the 2021 heat dome in British Columbia killed hundreds of people, a large share of whom had chronic conditions and were living alone in buildings that could not be cooled.
 
@@ -3551,7 +3551,7 @@ Paradise is the case that shows how recovery reproduces risk. After the 2018 fir
 
 In 2023, Canada experienced its most severe wildfire season on record (CIFFC, 2023). About 18.5 million hectares burned — roughly seven times the ten-year average — and more than 200,000 people were evacuated. The fires burned from coast to coast, and smoke travelled thousands of kilometres, blanketing cities in Canada and the United States, including New York, where the sky turned orange in June.
 
-The smoke was a health event in its own right. Fine particulate matter (PM2.5) from wildfire smoke penetrates deep into the lungs and bloodstream and is associated with respiratory and cardiovascular illness (IPCC, 2022). Studies estimate that wildfire smoke exposure causes thousands of premature deaths a year in North America, and that the health burden is falling disproportionately on low-income and outdoor workers who cannot avoid exposure.
+The smoke was a health event in its own right. Fine particulate matter (PM2.5) from wildfire smoke penetrates deep into the lungs and bloodstream and is associated with respiratory and cardiovascular illness (IPCC, 2022a). Studies estimate that wildfire smoke exposure causes thousands of premature deaths a year in North America, and that the health burden is falling disproportionately on low-income and outdoor workers who cannot avoid exposure.
 
 The Canadian case also illustrates the limits of suppression. Fire is a natural part of many forest ecosystems, and decades of fire suppression have increased fuel loads, making fires more intense when they occur. Climate change adds heat and drought that make forests more flammable. The result is a feedback in which suppression, land management and warming interact to produce larger and more destructive fires.
 
@@ -4190,6 +4190,7 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Cheng, L. et al. 2024. New record ocean temperatures and related climate indicators in 2023. *Advances in Atmospheric Sciences* 41: 1068–1082.
 - CIFFC. 2023. *National wildland fire situation report 2023*. Canadian Interagency Forest Fire Centre, Winnipeg.
 - Cissé, Gilbert et al. 2022. *Health, Wellbeing and the Changing Structure of Communities*. IPCC AR6 WG2 Chapter 7. Cambridge University Press.
+- Clarke, B. et al. 2022. Extreme weather impacts of climate change: an attribution perspective. *Environmental Research: Climate* 1(1): 012001.
 - Clayton, S. 2020. Climate anxiety: Psychological responses to climate change. *Journal of Anxiety Disorders* 74: 102263.
 - Cook, John et al. 2013. Quantifying the consensus on anthropogenic global warming. *Environmental Research Letters* 8(2): 024024.
 - Cutter, S.L. et al. 2008. A place-based model for understanding community resilience. *Global Environmental Change* 18(4): 598–606.
@@ -4203,6 +4204,7 @@ This book is written to be argued with. When you contest or extend one of its cl
 - FAO. 2023. *The State of Food Security and Nutrition in the World*. FAO, Rome.
 - FERC & NERC. 2021. *The February 2021 cold weather outages in Texas and the South Central United States*. Federal Energy Regulatory Commission, Washington DC.
 - Folke, C. et al. 2010. Resilience thinking. *Ecology and Society* 15(4): 20.
+- Friedlingstein, P. et al. 2024. Global Carbon Budget 2024. *Earth System Science Data*.
 - Friedlingstein, Pierre et al. 2023. *Global Carbon Budget 2023: carbon cycle and sinks*. Earth System Science Data.
 - Galea, S., Nandi, A. & Vlahov, D. 2005. The epidemiology of post-traumatic stress disorder after disasters. *Epidemiologic Reviews* 27(1): 78–91.
 - Ghosh, Amitav. 2016. *The Great Derangement: Climate Change and the Unthinkable*. University of Chicago Press.
@@ -4227,11 +4229,11 @@ This book is written to be argued with. When you contest or extend one of its cl
 - IMF. 2022. *World Economic Outlook: War Sets Back Global Recovery*. IMF, Washington DC.
 - IPBES. 2019. *Global Assessment Report on Biodiversity and Ecosystem Services*. IPBES Secretariat, Bonn.
 - IPCC. 2018. *Global Warming of 1.5 C (SR15)*. IPCC, Geneva.
-- IPCC. 2019. *Climate Change and Land (SRCCL)*. IPCC, Geneva.
-- IPCC. 2019. *Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)*. IPCC, Geneva.
+- IPCC. 2019a. *Climate Change and Land (SRCCL)*. IPCC, Geneva.
+- IPCC. 2019b. *Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)*. IPCC, Geneva.
 - IPCC. 2021. *Climate Change 2021: The Physical Science Basis (AR6 WG1)*. Cambridge University Press.
-- IPCC. 2022. *Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WG2)*. Cambridge University Press.
-- IPCC. 2022. *Climate Change 2022: Mitigation of Climate Change (AR6 WG3)*. Cambridge University Press.
+- IPCC. 2022a. *Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WG2)*. Cambridge University Press.
+- IPCC. 2022b. *Climate Change 2022: Mitigation of Climate Change (AR6 WG3)*. Cambridge University Press.
 - IPCC. 2023. *Climate Change 2023: Synthesis Report*. IPCC, Geneva.
 - IRENA. 2023. *World Energy Transitions Outlook 2023*. IRENA, Abu Dhabi.
 - Iungman, T. et al. 2023. Cooling cities through urban green infrastructure: a health impact assessment of European cities. *The Lancet* 401(10376): 577–589.
@@ -4257,6 +4259,7 @@ This book is written to be argued with. When you contest or extend one of its cl
 - NASA. 2024. *Global Climate Change: Vital Signs*. climate.nasa.gov.
 - Neumann, B. et al. 2015. *Future coastal population growth and exposure to sea-level rise and coastal flooding*. PLOS ONE 10(3): e0118571.
 - NOAA. 2024. *State of the Climate*. ncei.noaa.gov.
+- NOAA. 2025. *Trends in Atmospheric Carbon Dioxide*. Global Monitoring Laboratory, Boulder.
 - Notz, D. & Stroeve, J. 2016. Observed Arctic sea-ice loss directly follows anthropogenic CO2 emission. *Science* 354(6313): 747–750.
 - Obradovich, N. et al. 2018. Empirical evidence of mental health risks posed by climate change. *PNAS* 115(43): 10953–10958.
 - OECD. 2021. *Managing Climate Risks, Facing Essential Challenges*. OECD, Paris.
@@ -4278,6 +4281,7 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Sen, A. 1981. *Poverty and Famines: An Essay on Entitlement and Deprivation*. Oxford University Press.
 - Shepherd, A. et al. 2020. Mass balance of the Greenland Ice Sheet from 1992 to 2018. *Nature* 579: 233–239.
 - Sherwood, S.C. & Huber, M. 2010. An adaptability limit to climate change due to heat stress. *PNAS* 107(21): 9552–9555.
+- Steffen, W. et al. 2015. Planetary boundaries: guiding human development on a changing planet. *Science* 347(6223): 1259855.
 - Steffen, W. et al. 2018. Trajectories of the Earth System in the Anthropocene. *PNAS* 115(33): 8252–8259.
 - Stern, N. 2007. *The Economics of Climate Change: The Stern Review*. Cambridge University Press.
 - Stott, P.A., Stone, D.A. & Allen, M.R. 2004. Human contribution to the European heatwave of 2003. *Nature* 432: 610–614.
@@ -4285,13 +4289,15 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Tyndall, J. 1861. The Bakerian Lecture: on the absorption and radiation of heat by gases and vapours. *Philosophical Transactions of the Royal Society* 151: 1–36.
 - UNDP. 2022. *Human Development Report 2021/22*. UNDP, New York.
 - UNDRR. 2015. *Sendai Framework for Disaster Risk Reduction 2015-2030*. UNDRR, Geneva.
+- UNDRR. 2022. *Global Assessment Report on Disaster Risk Reduction 2022: Our World at Risk*. UNDRR, Geneva.
+- UNDRR. 2023. *Global Assessment Report on Disaster Risk Reduction 2023: Mapping Resilience for the Sustainable Development Goals*. UNDRR, Geneva.
 - UNEP. 2022. *Emissions Gap Report 2022*. UNEP, Nairobi.
 - UNEP. 2023. *Adaptation Gap Report 2023*. UNEP, Nairobi.
 - UNESCO. 2020. *Education for Sustainable Development: A Roadmap*. UNESCO, Paris.
 - UNESCO. 2021. *Getting Every School Climate-Ready*. UNESCO, Paris.
 - UNHCR. 2023. *Climate Change and Displacement*. unhcr.org.
-- United Nations. 2015. *2030 Agenda for Sustainable Development*. UN, New York.
-- United Nations. 2015. *Paris Agreement*. unfccc.int.
+- United Nations. 2015a. *2030 Agenda for Sustainable Development*. UN, New York.
+- United Nations. 2015b. *Paris Agreement*. unfccc.int.
 - Vecellio, D.J. et al. 2022. Evaluating the 35°C wet-bulb temperature adaptability threshold for young, healthy subjects. *Journal of Applied Physiology* 132(2): 340–345.
 - Vicedo-Cabrera, A.M. et al. 2021. Burden of heat-related mortality attributable to recent human-induced climate change. *Nature Climate Change* 11: 492–500.
 - Victorian Bushfires Royal Commission. 2010. *Final report*. Parliament of Victoria, Melbourne.
@@ -4304,6 +4310,7 @@ This book is written to be argued with. When you contest or extend one of its cl
 - WHO. 2023. *Climate Change and Health Fact Sheet*. who.int.
 - WMO. 2022. *Early Warnings for All*. WMO, Geneva.
 - WMO. 2023. *State of the Global Climate 2023*. World Meteorological Organization, Geneva.
+- WMO. 2025. *State of the Global Climate 2024*. World Meteorological Organization, Geneva.
 - World Bank. 2021. *Groundswell: Acting on Internal Climate Migration*. World Bank, Washington DC.
 - World Bank. 2022. *What You Need to Know About Food Security and Climate Change*. World Bank, Washington DC.
 - WWF. 2022. *Living Planet Report 2022: building a nature-positive society*. WWF, Gland.

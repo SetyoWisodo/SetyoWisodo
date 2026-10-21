@@ -260,6 +260,26 @@ def _fix_end(sent, cit):
     return f"{s} ({cit})"
 
 
+YEAR_NORM = [
+    ("IPCC, 2019)", "IPCC, 2019\u00a7B)"),
+    ("IPCC, 2019;", "IPCC, 2019\u00a7B;"),
+    ("IPCC, 2022c", "IPCC, 2022\u00a7B"),
+    ("IPCC, 2022b", "IPCC, 2022\u00a7A"),
+    ("IPCC, 2022)", "IPCC, 2022\u00a7A)"),
+    ("IPCC, 2022;", "IPCC, 2022\u00a7A;"),
+    ("Otto et al., 2023", "Clarke et al., 2022"),
+    ("Otto dkk., 2023", "Clarke dkk., 2022"),
+]
+
+
+def _norm_years(text):
+    """Samakan tahun sitasi dengan entri Daftar Pustaka (idempoten)."""
+    for a, b in YEAR_NORM:
+        text = text.replace(a, b)
+    return (text.replace("2022\u00a7A", "2022a").replace("2022\u00a7B", "2022b")
+                .replace("2019\u00a7B", "2019b"))
+
+
 ADJ_CIT = re.compile(r"\(([^()\n]{2,90})\)([ \t])\(([^()\n]{2,90})\)")
 YEAR_ANY = re.compile(r"(?:19|20)\d{2}")
 
@@ -340,5 +360,8 @@ def apply(text, lang="en"):
             json.dump(log, fh, ensure_ascii=False, indent=1)
     except OSError:
         pass
-    merged, _ = _merge_adjacent("\n".join(out_lines))
+    body = _norm_years("\n".join(out_lines))
+    if lang != "en":
+        body = body.replace("et al.", "dkk.")
+    merged, _ = _merge_adjacent(body)
     return merged, len(log)

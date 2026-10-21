@@ -74,7 +74,7 @@ Alat: `audit_gate3.py`, `prose.py`, `gen_book.py` / `gen_book_id.py`, `deep_rend
 | Hedge | 140 | **728** | ✅ |
 | Falasi terdeteksi | 0 | **0** | ✅ (setelah adjudikasi) |
 | Sitasi kurung `(Penulis, tahun)` | — | **58** + 81 `et al.` | ⚠️ R2 |
-| Entri Daftar Pustaka | 99 | **143** (A–Z, `Nama Belakang, Nama Depan. Tahun. *Judul*. Penerbit.`) | ✅ semua penulis yang dikutip ada entrinya |
+| Entri Daftar Pustaka | 99 | **150** (A–Z, `Nama Belakang, Nama Depan. Tahun. *Judul*. Penerbit.`) | ✅ semua penulis yang dikutip ada entrinya |
 
 ### 4.2 Edisi Indonesia
 
@@ -89,7 +89,7 @@ Alat: `audit_gate3.py`, `prose.py`, `gen_book.py` / `gen_book_id.py`, `deep_rend
 | Tanpa sitasi — longgar | 6,4 % | 34,2 % |
 | Tanpa sitasi — tingkat paragraf | — | **25,0 %** |
 | Sitasi kurung / `et al.` | — | **34 / 38** |
-| Entri Daftar Pustaka | 99 | **143** (ID: `dkk.`), A–Z | ✅ |
+| Entri Daftar Pustaka | 99 | **150** (ID: `dkk.`), A–Z | ✅ |
 | Blok pakar campur bahasa | **44** | **0** |
 | Kutipan pakar setengah Inggris | **60** | **0** |
 | Penanda absolut (pola ID kini terdeteksi) | 6* | **57** |
@@ -99,6 +99,8 @@ Alat: `audit_gate3.py`, `prose.py`, `gen_book.py` / `gen_book_id.py`, `deep_rend
 ### 4.5 Gate 1 — lapisan sitasi dalam teks (EN & ID)
 
 Lapisan ini **idempoten**: dijalankan dua kali pada berkas yang sama, sisipan kedua = 0.
+
+Setiap sitasi diuji silang terhadap Daftar Pustaka oleh `check_citations.py`: nama belakang harus punya entri, dan tahunnya harus persis sama. Hasil akhir: **328 sitasi (EN) / 293 (ID) diperiksa, 0 ketidakcocokan**.
 
 Gate 1 dipasang sebagai lapisan otomatis `gate1.py` yang dijalankan kedua generator
 tepat sebelum `book.md` / `book_id.md` ditulis. Aturannya empat tingkat:
@@ -123,7 +125,7 @@ sudah punya sitasi kurung dilewati), serta pra-pass `ABBR` + `PROT` supaya `et a
 | Tanpa sitasi — longgar | 38,6 % | **26,6 %** | 34,2 % | **22,8 %** |
 | Tanpa sitasi — ketat | 93,1 % | **68,8 %** | 96,0 % | **71,9 %** |
 | Sitasi kurung di tubuh | 58 | **230** | 34 | **213** |
-| Entri Daftar Pustaka | 125 | **143** (A–Z, semua nama yang dikutip ada entrinya) | 125 | **138** |
+| Entri Daftar Pustaka | 125 | **150** (A–Z, semua nama yang dikutip ada entrinya) | 125 | **138** |
 | 5-gram maksimum / paragraf identik | 2 / 0 | **2 / 0** | 2 / 0 | **2 / 0** |
 
 Lampiran G ("Notes on Event Sources" / "Catatan Sumber Peristiwa") menambahkan 20
@@ -259,6 +261,7 @@ Falasi: 0 di kedua bahasa. Penanda absolut **173 (EN) / 57 (ID)** dengan hedge *
 | `references.py` | **143 entri** Daftar Pustaka kanonis (EN `et al.`, ID `dkk.`), satu sumber untuk kedua edisi |
 | `Surviving_the_Future.pdf` / `..._ID.pdf` | **291 / 312 halaman**, Tinos, 25 tabel, 24/24 bab, Lampiran A–G lengkap di kedua edisi, indeks bernomor halaman (88 entri EN / 91 ID), daftar isi akurat, 0 blok di luar margin |
 | `gate1.py` | Lapisan sisipan sitasi dalam teks: 4 tingkat aturan, 10 penjaga, penggabung sitasi berdampingan |
+| `check_citations.py` | Audit silang sitasi teks ↔ Daftar Pustaka: 328 (EN) / 293 (ID) sitasi diperiksa, 0 tahun salah, 0 nama tanpa entri |
 | `content/depth*.py`, `content_id/depth*.py` | **10 modul × 2 bahasa**: lapisan paragraf kedua untuk 24/24 bab + bukti Global Selatan |
 
 ```bash

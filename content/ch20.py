@@ -124,7 +124,7 @@ CH = {
 
                 "The association with suicide is well documented, though the mechanisms are complex. "
                 "Studies have found higher suicide rates during hot periods, and some research suggests "
-                "that heat increases impulsivity and aggression. Carleton (2017) reviewed the evidence "
+                "that heat increases impulsivity and aggression. Carleton (2016) reviewed the evidence "
                 "and argued that the relationship is robust enough to warrant inclusion in suicide "
                 "prevention planning, particularly as heatwaves become more frequent and intense.",
             ],
