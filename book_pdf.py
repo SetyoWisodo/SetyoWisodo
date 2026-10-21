@@ -570,6 +570,9 @@ def render(md_path, out_pdf, lang="en", title=None):
                 pdf.ln(0.6)
             elif kind == "li":
                 li_buf.append(val)
+            elif re.match(r"^\*(Theme|Tema):", val):
+                draw_paragraph(pdf, val, indent=0.0, align="L")
+                pdf.ln(0.8)
             else:
                 draw_paragraph(pdf, val)
         flush_li(pdf)

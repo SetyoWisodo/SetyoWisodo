@@ -22,7 +22,7 @@ def _load_extra(lang, n):
     """
     pkg = "content_id" if lang == "id" else "content"
     merged = {}
-    for name in ("depth", "depth_b", "depth_c", "depth_d", "depth_e", "depth_f", "depth_g"):
+    for name in ("depth", "depth_b", "depth_c", "depth_d", "depth_e", "depth_f", "depth_g", "depth_h", "depth_i"):
         try:
             mod = __import__(pkg + "." + name, fromlist=["EXTRA"])
         except ImportError:
