@@ -2796,6 +2796,8 @@ Hasilnya terukur. Penggunaan minyak tanah turun; anak-anak mendapat jam belajar 
 
 Bab ini membahas energi terbarukan dan teknologi tepat guna sebagai instrumen ketangguhan. Bab ini mencakup surya dan angin, penyimpanan dan fleksibilitas jaringan, mini-grid dan sistem di luar jaringan, memasak bersih, efisiensi, serta rantai pasok dan politik yang menentukan apakah teknologi ini menyebar cukup cepat. Argumennya bukan bahwa teknologi saja akan menyelesaikan krisis iklim, tetapi bahwa turunnya biaya energi bersih modular telah mengubah apa yang mungkin bagi rumah tangga, komunitas, dan negara.
 
+Energi terbarukan biasanya diperdebatkan sebagai kebijakan iklim, dan justifikasi terkuatnya sebenarnya adalah ketahanan. Deretan fotovoltaik di atap menghasilkan listrik ketika saluran transmisi mati; ladang angin tidak membutuhkan konvoi bahan bakar; mikrogrid dapat mengislandir diri dan menjaga klinik tetap berjalan. Teknologi yang sama yang menurunkan emisi juga memendekkan rantai ketergantungan antara rumah tangga dan energi yang dibutuhkannya, dan pemendekan itu bernilai sama besar dalam krisis dengan karbon yang dihemat.
+
 ## 19.1 Mengapa Energi Terbarukan adalah Teknologi Ketangguhan
 
 Energi terbarukan biasanya dibahas sebagai strategi mitigasi — cara mengurangi emisi. Ia juga strategi adaptasi, karena ia mengubah modus kegagalan sistem energi. Pembangkit batu bara bergantung pada rantai pasok bahan bakar, air pendingin, dan jaringan terpusat; panel surya bergantung pada sinar matahari. Ketika banjir memblokir jalan atau kekeringan mengurangi debit sungai, panel surya tetap memproduksi, dan sistem yang dibangun dari banyak unit kecil gagal secara bertahap alih-alih sekaligus.
@@ -2803,6 +2805,8 @@ Energi terbarukan biasanya dibahas sebagai strategi mitigasi — cara mengurangi
 Modularitas adalah sifat kuncinya. Pembangkit terpusat besar efisien tetapi rapuh: satu kegagalan dapat menghilangkan satu gigawatt dari jaringan. Sistem terdistribusi yang terdiri dari ribuan atap, baterai, dan pembangkit kecil dapat kehilangan sebagian tanpa kehilangan keseluruhan. Itulah sebabnya rumah sakit, klinik, dan tempat berlindung komunitas semakin menggabungkan koneksi jaringan dengan surya atap dan baterai, agar dapat beroperasi ketika jaringan gagal.
 
 Energi terbarukan juga mengurangi paparan guncangan harga bahan bakar. Negara pengimpor minyak dan gas rentan terhadap lonjakan harga akibat konflik, gangguan pelayaran, atau manipulasi pasar; krisis energi 2022, setelah invasi Rusia ke Ukraina, menaikkan biaya listrik dan pemanas di seluruh Eropa dan mendorong jutaan rumah tangga ke kemiskinan energi. Surya dan angin, setelah dibangun, tidak memiliki biaya bahan bakar, yang membuat ekonomi operasionalnya dapat diprediksi bahkan ketika pasar komoditas tidak.
+
+Proyeksi Badan Energi Internasional telah direvisi ke atas begitu sering sehingga arah perjalanannya tidak lagi diragukan: energi terbarukan memasok sekitar tiga puluh persen listrik global pada 2023 dan berada di jalur mendekati separuh pada 2030 dengan kebijakan yang berlaku sekarang. Pertanyaan yang menarik telah bergeser dari apakah transisi akan terjadi ke di mana kapasitasnya akan diproduksi dan siapa yang akan memilikinya. Tiongkok memproduksi mayoritas besar modul, wafer dan sel surya, yang membuat transisi energi menjadi pertanyaan rantai pasok sama besarnya dengan pertanyaan teknologi, dan memberi sejumlah kecil negara daya tawar atas kecepatan adaptasi negara lain.
 
 ## 19.2 Surya: Kurva Pembelajaran
 
@@ -2812,6 +2816,8 @@ Penyebaran mengikuti harga. Kapasitas surya global melewati satu terawatt pada 2
 
 Teknologinya memiliki batas. Surya hanya memproduksi pada siang hari, sehingga memerlukan penyimpanan atau pembangkit pelengkap untuk memenuhi permintaan malam; keluarannya bervariasi dengan cuaca dan musim; dan ia memerlukan lahan atau ruang atap. Pada musim dingin lintang tinggi, keluarannya dapat turun tajam. Batas itu dapat dikelola dengan penyimpanan, transmisi, dan pembangkit yang terdiversifikasi, tetapi berarti surya saja bukan sistem yang lengkap. Tantangan integrasi, bukan biaya pembangkit, kini menjadi kendala utama.
 
+Surya mengikuti kurva pembelajaran yang begitu teratur sehingga kini dipakai sebagai contoh buku teks. Harga modul turun sekitar sembilan puluh persen sejak 2010, dan penurunannya mengikuti kapasitas terpasang kumulatif alih-alih waktu, yang menjelaskan mengapa prakiraan yang mengasumsikan penurunan biaya linear salah setiap tahun selama dua dekade. Konsekuensinya, surya kini menjadi sumber listrik baru termurah di sebagian besar pasar, dan hambatan penyebarannya berpindah dari biaya ke koneksi jaringan, lahan, perizinan dan penyimpanan — bagian sistem yang lebih lambat dan lebih politis.
+
 ## 19.3 Tenaga Angin dan Masalah Variabilitas
 
 Tenaga angin adalah teknologi terbarukan matang lainnya. Kapasitas global melewati 1.000 gigawatt pada 2023, dengan instalasi terbesar di Tiongkok, Amerika Serikat, Jerman, India, dan Spanyol. Angin lepas pantai tumbuh cepat karena turbin dapat lebih besar dan angin lebih stabil di laut, serta lokasi lepas pantai dekat dengan pusat permintaan pesisir. Biaya angin lepas pantai turun tajam sebelum naik lagi pada 2022–2023 ketika rantai pasok mengetat dan suku bunga naik.
@@ -2819,6 +2825,8 @@ Tenaga angin adalah teknologi terbarukan matang lainnya. Kapasitas global melewa
 Angin berbagi variabilitas surya tetapi tidak pola hariannya. Di beberapa wilayah, keluaran angin lebih tinggi pada malam hari dan musim dingin, yang melengkapi surya; di wilayah lain, kemarau angin — periode angin yang luar biasa rendah — dapat berlangsung berhari-hari atau berpekan-pekan. Kemarau angin 2021 di Eropa mengurangi keluaran pada saat permintaan tinggi, yang berkontribusi pada lonjakan harga energi. Sistem yang sangat bergantung pada angin memerlukan penyimpanan, interkoneksi, dan cadangan yang dapat diatur untuk mengelola periode ini.
 
 Angin juga memiliki kendala sosial. Turbin terlihat, dapat berisik, dan memengaruhi lanskap serta satwa liar; oposisi telah memperlambat proyek di beberapa negara. Kendalanya nyata tetapi dapat dikelola dengan penempatan yang lebih baik, pembagian manfaat komunitas, dan konsultasi awal. Alternatifnya — terus bergantung pada bahan bakar fosil — membawa biaya lingkungan dan sosial lebih besar, tetapi perbandingan itu tidak selalu dibuat dalam debat perencanaan lokal.
+
+Masalah angin bukan biaya melainkan bentuk. Turbin modern mengubah tiga puluh sampai empat puluh lima persen energi angin yang melewatinya menjadi listrik, luar biasa untuk sebuah mesin, tetapi anginnya sendiri datang kapan ia datang. Operator jaringan karena itu merencanakan kredit kapasitas alih-alih kapasitas terpasang, dan perbedaannya penting: sistem dengan satu terawatt angin terpasang mungkin hanya punya kontribusi pasti sebagian kecil dari itu pada malam terdingin yang paling tenang dalam setahun. Jawaban teknisnya adalah portofolio pembangkit, interkoneksi, penyimpanan dan kelenturan permintaan; jawaban politiknya biasanya berdebat tentang angka terpasang.
 
 ## 19.4 Penyimpanan, Fleksibilitas dan Jaringan
 
@@ -2828,6 +2836,8 @@ Biaya baterai lithium-ion turun sekitar 85 persen antara 2010 dan 2023, dan peny
 
 Fleksibilitas juga datang dari bagaimana permintaan dikelola. Tarif berdasarkan waktu, termostat pintar, penggeseran beban industri, dan pengisian kendaraan listrik dapat memindahkan konsumsi ke waktu ketika pasokan melimpah. Interkoneksi memungkinkan wilayah dengan cuaca berbeda berbagi listrik, yang mengurangi total penyimpanan yang dibutuhkan. Kombinasi penyimpanan, fleksibilitas permintaan, interkoneksi, dan pembangkit terdiversifikasi adalah yang membuat jaringan berponsi terbarukan tinggi andal, bukan teknologi tunggal mana pun.
 
+Penyimpanan adalah teknologi yang mengubah pembangkitan intermiten menjadi kapasitas pasti, dan biayanya turun lebih cepat daripada dugaan sebagian besar analis. Paket baterai litium-ion sekitar sembilan puluh persen lebih murah daripada 2010, dan pemasangan skala jaringan tumbuh dari keanehan menjadi kelas aset standar dalam satu dekade. Penyimpanan empat jam kini menjadi konfigurasi bawaan, yang cocok untuk siklus harian tetapi tidak untuk kemarau angin selama sepekan yang harus dilalui sistem andal. Pumped hydro masih menyumbang mayoritas besar energi tersimpan di seluruh dunia, dan masalah durasi panjang tetap sebagian besar belum terpecahkan di luar geografi yang memungkinkan waduk.
+
 ## 19.5 Mini-Grid dan Surya di Luar Jaringan
 
 Sekitar 700 juta orang masih kekurangan akses listrik, sebagian besar di Afrika sub-Sahara dan Asia Selatan. Memperluas jaringan ke wilayah terpencil mahal dan lambat, dan di beberapa tempat mungkin tidak akan pernah ekonomis. Mini-grid — sistem pembangkit dan distribusi lokal yang kecil, sering surya dengan penyimpanan baterai — dapat menyediakan listrik andal bagi komunitas yang tidak dijangkau jaringan.
@@ -2835,6 +2845,8 @@ Sekitar 700 juta orang masih kekurangan akses listrik, sebagian besar di Afrika 
 Ekonominya telah membaik secara dramatis. Mini-grid surya kini dapat menyediakan listrik dengan biaya yang bersaing dengan diesel di banyak wilayah di luar jaringan, dan jauh di bawah biaya minyak tanah atau lilin per unit cahaya. Hambatan utamanya adalah pembiayaan, regulasi, dan pemeliharaan: mini-grid memerlukan modal awal, aturan jelas tentang tarif dan kedatangan jaringan, serta kapasitas lokal untuk mengoperasikan dan memperbaiki peralatan.
 
 Program surya rumah tangga Bangladesh menggambarkan potensi dan batas pendekatan di luar jaringan. Ia menjangkau jutaan rumah tangga dengan penerangan dasar dan pengisian telepon, tetapi sistemnya terlalu kecil untuk penggunaan produktif, dan ketika jaringan meluas, sebagian menjadi mubazir. Generasi program berikutnya menggabungkan sistem lebih besar, pembiayaan peralatan, dan penggunaan produktif — pompa irigasi, pendingin dingin, penggilingan — sehingga listrik menghasilkan pendapatan alih-alih hanya cahaya.
+
+Mikrogrid adalah tempat transisi energi bertemu satu miliar orang terakhir. Badan Energi Internasional memperkirakan sekitar tujuh ratus enam puluh juta orang masih tanpa listrik, sebagian besar di Afrika sub-Sahara dan Asia Selatan, dan memperluas jaringan utama ke banyak dari mereka tidak terjangkau maupun cepat. Mikrogrid surya dengan penyimpanan baterai menjadi jalur termurah ke layanan di banyak daerah pedesaan, dan model hibrida yang menggabungkan mikrogrid dengan surya rumah tangga dan penggunaan produktif — pompa irigasi, penggilingan, penyimpanan dingin — telah memperbaiki ekonominya secara berarti. Mode kegagalannya komersial, bukan teknis: tarif yang tidak menutup biaya penggantian, dan pelanggan yang tidak mampu membayar.
 
 ## 19.6 Memasak Bersih dan Energi Rumah Tangga
 
@@ -2844,6 +2856,8 @@ Transisi ke memasak bersih memerlukan lebih dari kompor. Gas minyak bumi cair me
 
 Manfaat kesehatan dan iklimnya besar. Memasak bersih mengurangi polusi udara dalam ruangan, menghemat waktu untuk mengumpulkan bahan bakar, mengurangi deforestasi di tempat kayu dipanen secara tidak berkelanjutan, dan memotong emisi karbon hitam. Hambatannya bersifat ekonomi dan logistik, bukan teknis, itulah sebabnya kemajuan lambat meskipun upaya telah berlangsung puluhan tahun dan mengapa subsidi berkelanjutan, pengembangan rantai pasok, dan perubahan perilaku semuanya diperlukan.
 
+Memasak adalah bagian transisi energi yang paling jarang dibahas dan paling besar dampaknya bagi kesehatan. Sekitar 2,3 miliar orang masih memasak dengan bahan bakar padat atau minyak tanah, dan polusi udara rumah tangga dari bahan bakar itu terkait dengan jutaan kematian dini setiap tahun, tidak proporsional pada perempuan dan anak. Konversi minyak tanah ke gas elpiji di Indonesia pada 2000-an menjangkau puluhan juta rumah tangga dan menjadi model peralihan bahan bakar cepat, tetapi ia juga menciptakan subsidi yang terbukti sulit dihapus secara politik. Memasak dengan listrik adalah jawaban jangka panjang yang lebih bersih dan menuntut jaringan yang mampu memikul beban pada puncak petang.
+
 ## 19.7 Teknologi Tepat Guna dan Kapasitas Lokal
 
 Teknologi tepat guna adalah teknologi yang sesuai konteks: terjangkau, dapat diperbaiki, dapat dipelihara dengan keterampilan lokal, dan cocok dengan kondisi setempat. Sistem surya rumah tangga yang dapat diperbaiki teknisi lokal lebih berguna daripada sistem yang lebih efisien tetapi tidak dapat diperbaiki. Pompa air yang dapat dipelihara komunitas lebih berkelanjutan daripada sistem rumit yang memerlukan spesialis eksternal.
@@ -2851,6 +2865,8 @@ Teknologi tepat guna adalah teknologi yang sesuai konteks: terjangkau, dapat dip
 Konsep itu dikritik sebagai merendahkan ketika menyiratkan bahwa komunitas miskin harus menerima teknologi lebih rendah. Kritik itu adil ketika teknologi tepat guna berarti pilihan kedua; tidak adil ketika ia berarti sesuai tujuan. Pertanyaan yang relevan bukan apakah suatu teknologi canggih, tetapi apakah ia dapat dipertahankan, diperbaiki, dan dibiayai sepanjang umurnya, serta apakah ia memenuhi kebutuhan orang yang memakainya.
 
 Manufaktur dan perakitan lokal dapat memperbaiki keberlanjutan dengan menciptakan lapangan kerja, mengurangi ketergantungan impor, dan membangun kapasitas perbaikan. Beberapa negara menggunakan kebijakan industri untuk mengembangkan manufaktur surya, perakitan baterai, dan produksi peralatan, dengan keberhasilan yang beragam. Program paling efektif menggabungkan alih teknologi dengan pelatihan dan pembiayaan, sehingga perusahaan lokal dapat memelihara dan menyesuaikan peralatan alih-alih hanya menjualnya.
+
+Teknologi tepat guna adalah gagasan lama dengan rekam jejak campuran. Argumen E. F. Schumacher dalam Small Is Beautiful — bahwa teknologi harus sesuai dengan sumber daya, keterampilan dan skala orang yang memakainya — mengantisipasi banyak agenda energi terdesentralisasi, tetapi penerjemahan ke praktik sering gagal karena teknologinya tepat dan sistem perawatannya tidak. Kasus yang berhasil berbagi pola: perakitan lokal, teknisi lokal, suku cadang tersedia dalam perjalanan sehari, dan model pembiayaan yang cocok dengan arus kas pelanggan. Industri surya bayar-sesuai-pakai di Kenya, yang menjual sistem dengan angsuran uang seluler, adalah contoh paling jelas dari keempatnya bekerja bersama.
 
 ## 19.8 Mineral Kritis dan Rantai Pasok
 
@@ -2860,6 +2876,8 @@ Pasokan terkonsentrasi. Tiongkok memurnikan sebagian besar litium, kobalt, dan g
 
 Diversifikasi, daur ulang, dan substitusi dapat mengurangi risiko. Daur ulang memulihkan litium, kobalt, dan nikel dari baterai dan dapat memasok porsi permintaan yang tumbuh seiring bertambahnya stok baterai terpasang. Substitusi — baterai natrium-ion, kimia berbasis besi, motor tanpa tanah jarang — dapat mengurangi ketergantungan pada material yang terbatas. Penambangan juga membawa biaya sosial dan lingkungan, termasuk penggunaan air, konflik lahan, dan pelanggaran tenaga kerja, yang harus ditangani jika transisi ingin adil.
 
+Transisi ini bersifat material sebelum bersifat elektrik. Kendaraan listrik memakai sekitar enam kali kandungan mineral mobil konvensional, dan angin lepas pantai memakai beberapa kali tembaga dan seng per megawatt dibanding pembangkit gas. Badan Energi Internasional memproyeksikan permintaan litium dapat naik empat puluh kali lipat pada 2040 dalam jalur net-zero, dan rantai pasok pengolahan mineral itu bahkan lebih terkonsentrasi daripada rantai pasok modul: Tiongkok memurnikan mayoritas litium, kobalt dan logam tanah jarang dunia. Risiko geopolitik transisi terbarukan bukanlah bahwa ia akan gagal karena kekurangan sumber daya, melainkan bahwa ia akan mereproduksi ketergantungan yang ingin dihindari.
+
 ## 19.9 Efisiensi dan Permintaan
 
 Unit energi termurah adalah yang tidak digunakan. Efisiensi energi — isolasi lebih baik, peralatan lebih efisien, lampu LED, pompa panas, motor efisien — mengurangi permintaan, menurunkan tagihan, dan memotong emisi, sering dengan biaya negatif. Badan Energi Internasional berulang kali menemukan bahwa langkah efisiensi dapat memberikan porsi besar pengurangan emisi yang dibutuhkan pada 2030, dan bahwa banyak di antaranya lebih murah daripada pasokan baru.
@@ -2868,6 +2886,8 @@ Pendinginan adalah kasus kritis. Permintaan pendingin udara tumbuh cepat di nega
 
 Kebijakan efisiensi menghadapi paradoks: ia tidak terlihat, tersebar, dan sering memerlukan investasi awal untuk penghematan yang diperoleh selama bertahun-tahun. Rumah tangga dan perusahaan secara sistematis kurang berinvestasi dalam efisiensi karena insentif terbelah — pemilik properti membayar isolasi sementara penyewa membayar tagihan — dan karena keterbatasan perhatian serta modal. Standar, pelabelan, pembiayaan, dan dukungan teknis dapat mengatasi hambatan ini, dan mereka termasuk kebijakan iklim paling hemat biaya yang tersedia.
 
+Efisiensi adalah sumber daya yang tidak perlu ditambang, dan ia kronis kurang dibeli. Badan Energi Internasional menyebut efisiensi energi sebagai bahan bakar pertama, dan perkiraan penghematan yang tersedia di bangunan, industri dan transportasi melampaui keluaran sumber energi mana pun. Hambatannya bukan teknologi melainkan struktur insentif: pemilik yang membayar ketel tidak membayar tagihan, utilitas yang menjual kilowatt-jam punya sedikit alasan menjual lebih sedikit, dan rumah tangga yang menghadapi biaya modal mendiskon arus penghematan masa depan secara tajam. Standar peralatan, kode bangunan dan pembiayaan lewat tagihan adalah instrumen yang benar-benar menggerakkan angkanya.
+
 ## 19.10 Ekonomi Politik Transisi
 
 Transisi energi bersifat politik. Subsidi bahan bakar fosil, yang totalnya melebihi satu triliun dolar pada 2022 selama krisis harga, mendistorsi pasar demi kepentingan pemain lama. Perencanaan jaringan, perizinan, dan aturan pasar menentukan apakah energi terbarukan dapat terhubung. Model bisnis utilitas yang dirancang untuk pembangkit terpusat dapat menolak produksi terdistribusi. Dan komunitas yang bergantung pada lapangan kerja fosil menolak perubahan yang mengancam penghidupan mereka.
@@ -2875,6 +2895,8 @@ Transisi energi bersifat politik. Subsidi bahan bakar fosil, yang totalnya meleb
 Transisi yang adil memerlukan penanganan kepentingan itu alih-alih mengabaikannya. Itu berarti pelatihan ulang dan dukungan pendapatan bagi pekerja, diversifikasi ekonomi bagi wilayah yang bergantung pada batu bara, dan konsultasi dengan komunitas yang terdampak infrastruktur baru. Itu juga berarti memastikan bahwa manfaat transisi — listrik lebih murah, udara lebih bersih, lapangan kerja baru — menjangkau orang-orang yang menanggung biayanya.
 
 Laju transisi kini menjadi variabel utama. Energi terbarukan lebih murah daripada pembangkit fosil baru di sebagian besar pasar, dan kendalanya semakin menjadi kapasitas jaringan, perizinan, penyimpanan, dan kemauan politik alih-alih biaya teknologi. Negara yang membangun cepat akan menikmati biaya lebih rendah dan keamanan energi lebih besar; negara yang menunda akan menghadapi biaya lebih tinggi, aset terbengkalai, dan paparan lebih besar terhadap guncangan harga bahan bakar.
+
+Ekonomi politik transisi adalah kontes antara pemain lama dengan aset dan pendatang baru dengan biaya yang terus turun. Subsidi konsumsi bahan bakar fosil mencapai tingkat tertinggi pada 2022 ketika harga energi melonjak, dan pemerintah yang paling banyak membelanjakan subsidi itu sering yang paling sedikit punya ruang fiskal untuk beradaptasi. Utilitas menghadapi aritmetika berbeda: ketika lebih banyak pelanggan memasang surya dan baterai, biaya tetap jaringan tersebar pada lebih sedikit unit yang terjual, yang menaikkan tarif, yang membuat pembangkitan sendiri lebih menarik. Spiral kematian tidak tak terhindarkan, tetapi ia adalah hasil yang dapat diramalkan dari mengatur sistem terdistribusi dengan alat sistem tersentralisasi.
 
 ## 19.11 Studi Kasus: Program Sistem Surya Rumah Tangga Bangladesh
 
@@ -2887,6 +2909,8 @@ Program itu tumbuh cepat. Pada awal 2020-an, lebih dari empat juta sistem telah 
 Batasnya sama instruktifnya. Sistemnya terlalu kecil untuk penggunaan produktif seperti irigasi, penggilingan, atau pendinginan, sehingga tidak menghasilkan pendapatan. Ketika jaringan meluas, sebagian rumah tangga beralih ke listrik jaringan dan meninggalkan sistemnya. Dan model pembiayaannya bergantung pada kredit mikro, yang mengecualikan rumah tangga termiskin yang tidak mampu membayar uang muka atau angsuran.
 
 Pelajaran bagi negara lain bersifat spesifik. Surya di luar jaringan dapat memberikan layanan dasar dengan cepat dan dalam skala besar, tetapi ia memerlukan standar mutu, kapasitas pemeliharaan lokal, dan pembiayaan yang menjangkau orang termiskin. Ia bekerja paling baik sebagai pelengkap perluasan jaringan alih-alih pengganti permanen, dan harus dirancang untuk mendukung penggunaan produktif, bukan hanya penerangan. Program Bangladesh bukan solusi lengkap, tetapi ia menunjukkan bahwa teknologi modular, pembiayaan tepat, dan institusi lokal dapat mengubah jutaan kehidupan.
+
+Kasus energi paling instruktif bukan sebuah negara melainkan sebuah pulau. Setelah Badai Maria menghancurkan sebagian besar sistem transmisi Puerto Rico pada 2017, sejumlah komunitas membangun mikrogrid surya-dengan-penyimpanan yang menjaga pompa air dan klinik tetap berjalan sementara jaringan utama butuh berbulan-bulan untuk pulih. Proyeknya kecil, mahal per kilowatt dan sangat bergantung pada dana hibah, dan semuanya menunjukkan sesuatu yang tidak dapat ditunjukkan ekonomi skala: sistem yang dirancang untuk ketahanan harus mampu gagal sepotong-sepotong. Kebijakan energi pulau itu sesudahnya mencoba, dengan keberhasilan terbatas, mengubah pelajaran tersebut menjadi kerangka regulasi.
 
 ## 19.12 Skenario dan Prediksi Masa Depan: Energi pada 2050
 
@@ -2925,6 +2949,8 @@ Kebakaran Camp diikuti pandemi COVID-19, yang tiba saat banyak korban masih meng
 
 Bab ini membahas psikologi perubahan iklim: trauma bencana, stres perubahan yang lambat, duka atas kehilangan, dan kecemasan yang dirasakan banyak orang, terutama yang muda, tentang masa depan. Bab ini juga membahas apa yang membantu: dukungan sosial, makna, tindakan, dan layanan yang dirancang baik. Argumennya adalah bahwa kesehatan mental bukan tambahan lunak bagi kebijakan iklim tetapi dimensi inti dari bagaimana masyarakat mengalami dan merespons perubahan.
 
+Konsekuensi kesehatan jiwa akibat perubahan iklim biasanya diletakkan di akhir daftar, setelah kerusakan fisik dihitung, dan urutan itu salah dalam dua hal. Distres psikologis sering merupakan efek kesehatan paling luas dari peristiwa ekstrem, dan ia yang paling lama bertahan; dan cara sebuah masyarakat berbicara tentang masa depan membentuk apakah orang bertindak, yang berarti keputusasaan bukan hanya perasaan pribadi melainkan variabel kebijakan publik.
+
 ## 20.1 Beban Kesehatan Mental Perubahan Iklim
 
 Perubahan iklim memengaruhi kesehatan mental melalui berbagai jalur. Peristiwa akut seperti banjir, kebakaran, dan badai menyebabkan cedera, kehilangan, pengungsian, dan kehancuran, yang masing-masing meningkatkan risiko gangguan terkait trauma. Perubahan yang lambat seperti kekeringan, kenaikan muka laut, dan salinisasi mengikis penghidupan dan tempat, menghasilkan stres kronis dan duka. Dan antisipasi perubahan di masa depan menghasilkan kecemasan, kemarahan, dan keputusasaan, terutama di kalangan orang muda.
@@ -2932,6 +2958,8 @@ Perubahan iklim memengaruhi kesehatan mental melalui berbagai jalur. Peristiwa a
 Bebannya besar tetapi kurang terukur. Kesehatan mental jarang dimasukkan dalam statistik kematian bencana, dan layanan di sebagian besar negara terlalu tipis untuk menangkap permintaannya. Di tempat studi tersedia, mereka menemukan efek substansial: meta-analisis oleh Galea, Nandi, dan Vlahov (2005) menemukan bahwa sebagian signifikan orang yang terpapar bencana mengalami gangguan stres pascatrauma, dan bahwa tingkatnya lebih tinggi setelah peristiwa yang melibatkan cedera, kehilangan, atau pengungsian.
 
 Bebannya juga tidak merata. Orang dengan penyakit mental yang sudah ada lebih rentan terhadap gangguan perawatan; orang yang hidup dalam kemiskinan memiliki lebih sedikit sumber daya untuk mengatasinya; dan orang yang mengungsi, terisolasi, atau didiskriminasi menghadapi risiko lebih tinggi. Hasilnya adalah perubahan iklim memperkuat ketimpangan kesehatan mental yang sudah ada alih-alih menciptakan masalah baru yang terpisah.
+
+Basis buktinya telah membaik tanpa menjadi presisi. WHO memperkirakan sekitar satu miliar orang hidup dengan gangguan jiwa dan bahwa jurang pengobatan di negara berpendapatan rendah dan menengah melampaui tujuh puluh lima persen, yang berarti garis dasarnya sudah tidak memadai sebelum efek iklim ditambahkan. Tinjauan literatur iklim menemukan hubungan konsisten antara cuaca ekstrem dan kecemasan, depresi serta stres pascatrauma yang meningkat, tetapi juga memperingatkan bahwa perkiraan prevalensi sangat bervariasi menurut metode, budaya dan waktu sejak paparan. Ringkasan jujurnya adalah arahnya jelas dan besarnya bergantung konteks.
 
 ## 20.2 Trauma Bencana
 
@@ -2941,6 +2969,8 @@ Namun PTSD bukan satu-satunya hasil, dan sering bukan yang paling umum. Depresi,
 
 Lintasannya penting. Sebagian besar orang pulih dengan waktu dan dukungan, tetapi sebagian kecil mengalami kondisi kronis. Faktor yang memprediksi pemulihan bersifat sosial: jaringan yang kuat, perumahan yang stabil, keamanan finansial, dan akses layanan. Itulah sebabnya pemulihan kesehatan mental tidak terpisahkan dari perumahan, pekerjaan, dan kebijakan sosial, dan mengapa layanan klinis saja tidak dapat menangani bebannya.
 
+Trauma bencana mengikuti paparan dengan keteraturan yang hampir mekanis. Meta-analisis Norris atas literatur menemukan bahwa sekitar lima belas sampai dua puluh persen orang yang terpapar bencana berat mengalami stres pascatrauma, dengan angka naik seiring cedera, kehilangan anggota keluarga, kehilangan rumah dan ancaman yang dirasakan terhadap nyawa. Tinjauan yang sama menemukan bahwa faktor protektif terkuat adalah dukungan sosial, dan faktor risiko terkuat adalah jumlah stresor sebelumnya — yang berarti komunitas yang berulang kali dihantam memikul beban kumulatif yang akan terlewat oleh respons peristiwa tunggal. Trauma tidak tersebar merata di dalam bencana; ia mengikuti garis patahan yang sudah ada.
+
 ## 20.3 Perubahan Lambat, Kekeringan dan Solastalgia
 
 Perubahan yang lambat menghasilkan jenis tekanan yang berbeda. Kekeringan, salinisasi, desertifikasi, dan erosi pesisir mengikis lanskap dan penghidupan yang diandalkan orang, sering selama bertahun-tahun. Filsuf Glenn Albrecht menciptakan istilah solastalgia pada 2005 untuk menggambarkan tekanan yang dihasilkan perubahan lingkungan saat masih tinggal di tempat asal — rasa rindu kampung halaman yang dialami tanpa meninggalkan rumah.
@@ -2948,6 +2978,8 @@ Perubahan yang lambat menghasilkan jenis tekanan yang berbeda. Kekeringan, salin
 Bukti dari kekeringan substansial. Studi di Australia menemukan kaitan antara kekeringan dan bunuh diri, terutama di antara pria pedesaan, dengan Hanigan dkk. (2012) memperkirakan bahwa kekeringan terkait dengan kenaikan kecil tetapi signifikan dalam angka bunuh diri di antara pria berusia 30 hingga 49 tahun. Mekanismenya kemungkinan ekonomi dan sosial: hilangnya pendapatan, utang, isolasi, dan erosi identitas maskulin yang terkait dengan bertani.
 
 Peristiwa lambat lebih sulit ditanggapi karena tidak memiliki awal dan akhir yang jelas. Tidak ada bencana tunggal untuk dipulihkan, tidak ada program rekonstruksi, dan tidak ada titik jelas ketika layanan harus diperluas. Hasilnya adalah stres kronis terakumulasi tanpa memicu respons institusional yang akan dipicu peristiwa akut, yang merupakan salah satu alasan mengapa kebutuhan kesehatan mental akibat peristiwa lambat begitu sering diabaikan.
+
+Peristiwa lambat menghasilkan jenis cedera berbeda, yang terakumulasi tanpa momen tunggal untuk berduka. Glenn Albrecht menciptakan istilah solastalgia pada 2005 untuk menggambarkan distres akibat perubahan lingkungan pada tempat tinggal seseorang, dan konsep itu terbukti berguna justru karena tidak menuntut perpindahan: orang dapat mengalami distres oleh degradasi lanskap yang masih mereka huni. Riset tentang kekeringan dan bunuh diri di pedesaan Australia menemukan angka yang meningkat di daerah terdampak kekeringan, dan mekanismenya bukan semata ekonomi; ia menggabungkan kerugian finansial, isolasi, erosi identitas petani, dan hilangnya masa depan yang selama ini dianggap pasti.
 
 ## 20.4 Panas dan Penyakit Mental
 
@@ -2957,6 +2989,8 @@ Dimensi farmakologis sering terlewat. Banyak obat psikiatri — antipsikotik, an
 
 Kaitan dengan bunuh diri terdokumentasi baik, meskipun mekanismenya kompleks. Studi menemukan angka bunuh diri lebih tinggi selama periode panas, dan sebagian riset menunjukkan bahwa panas meningkatkan impulsivitas dan agresi. Carleton (2017) meninjau bukti dan berargumen bahwa hubungannya cukup kuat untuk dimasukkan dalam perencanaan pencegahan bunuh diri, terutama karena gelombang panas menjadi lebih sering dan intens.
 
+Panas memengaruhi gangguan jiwa melalui setidaknya tiga jalur, dan jalur klinisnya yang paling jarang diketahui. Banyak obat antipsikotik dan antidepresan mengganggu termoregulasi dan mengurangi rasa haus, sehingga pasien lebih rentan terhadap heatstroke; orang dengan gangguan jiwa berat juga memiliki angka penyakit kardiovaskular dan pernapasan lebih tinggi, hunian lebih buruk, dan akses lebih kecil ke pendinginan. Karya epidemiologi menemukan hubungan antara suhu lebih tinggi dan angka bunuh diri, dan heat dome British Columbia 2021 menewaskan ratusan orang, sebagian besar darinya memiliki penyakit kronis dan tinggal sendiri di bangunan yang tidak dapat didinginkan.
+
 ## 20.5 Anak, Orang Muda dan Eco-Anxiety
 
 Orang muda terpapar perubahan iklim secara berbeda dari orang dewasa: tubuh mereka lebih rentan terhadap panas dan penyakit, pendidikan mereka terganggu bencana, dan masa depan mereka dibentuk keputusan yang tidak mereka buat. Mereka juga lebih sadar akan isu ini, karena ia diajarkan di sekolah dan karena ia memenuhi media sosial.
@@ -2964,6 +2998,8 @@ Orang muda terpapar perubahan iklim secara berbeda dari orang dewasa: tubuh mere
 Survei oleh Hickman dkk. (2021), yang diterbitkan di Lancet Planetary Health, menjajak 10.000 orang muda berusia 16 hingga 25 tahun di sepuluh negara. Ia menemukan bahwa 59 persen sangat atau amat sangat khawatir tentang perubahan iklim, 84 persen setidaknya cukup khawatir, dan 45 persen melaporkan bahwa perasaan mereka tentang perubahan iklim berdampak negatif pada kehidupan dan fungsi sehari-hari. Banyak yang melaporkan merasa dikhianati pemerintah dan ditinggalkan orang dewasa.
 
 Istilah eco-anxiety kadang digunakan untuk menggambarkan perasaan ini, tetapi bisa menyesatkan. Kecemasan adalah respons normal terhadap ancaman nyata, bukan gangguan, dan mempatologiskannya dapat mengaburkan dimensi politik dan sosialnya. Yang dibutuhkan orang muda bukan pengobatan karena peduli, melainkan dukungan, agensi, informasi akurat, dan orang dewasa yang menanggapi kekhawatiran mereka dengan serius.
+
+Anak dan orang muda memikul beban yang khas karena dibentuk oleh antisipasi alih-alih pengalaman. Survei atas sepuluh ribu orang muda di sepuluh negara, terbit pada 2021, menemukan bahwa mayoritas besar menggambarkan masa depan sebagai menakutkan dan bahwa minoritas besar melaporkan kekhawatiran iklim memengaruhi kehidupan dan fungsi harian mereka. Temuan itu bukan bukti patologi; ia bukti respons rasional terhadap ancaman nyata, dan memperlakukannya sebagai penyakit berisiko mengindividualisasi masalah politik. Pertanyaan klinisnya adalah kapan distres menjadi gangguan, dan pertanyaan kebijakannya adalah apa yang dilakukan orang dewasa terhadap hal yang dikhawatirkan anak-anak itu.
 
 ## 20.6 Pengungsian, Kehilangan dan Tempat
 
@@ -2973,6 +3009,8 @@ Keterikatan pada tempat adalah faktor pelindung dalam kondisi normal dan sumber 
 
 Kehilangan budaya adalah dimensi tersendiri. Komunitas adat yang menghadapi hilangnya tanah leluhur, situs sakral, dan penghidupan tradisional mengalami bentuk duka yang tidak tertangkap kategori klinis. Hilangnya bahasa, upacara, dan pengetahuan antargenerasi memperberat hilangnya tanah, dan tekanan yang dihasilkan bersifat kolektif sekaligus individual.
 
+Perpindahan melipatgandakan risiko kesehatan jiwa karena ia menghapus dua hal yang paling melindungi orang: tempat dan jaringan. Orang yang pindah setelah bencana kehilangan tetangga, rutinitas, sekolah, dan dukungan informal yang membuat hidup biasa mungkin, dan mereka sering pindah ke hunian sementara yang berdesakan, tidak aman dan jauh dari pekerjaan. Riset tentang relokasi terencana secara konsisten menemukan hasil lebih baik ketika orang pindah bersama, ketika tujuan punya peluang penghidupan, dan ketika keputusan dibuat bersama komunitas alih-alih dipaksakan. Dimensi kesehatan jiwa karena itu tidak terpisahkan dari rancangan relokasinya.
+
 ## 20.7 Duka, Penyangkalan dan Cedera Moral
 
 Perubahan iklim menghasilkan duka atas kehilangan yang sudah terjadi dan yang diantisipasi. Duka ini kadang disebut duka ekologis atau duka iklim, dan ia respons rasional terhadap kehilangan nyata alih-alih gejala patologi. Mengakuinya sebagai duka, bukan sebagai depresi atau kecemasan, dapat membantu orang memahami pengalamannya dan menemukan cara hidup dengannya.
@@ -2980,6 +3018,8 @@ Perubahan iklim menghasilkan duka atas kehilangan yang sudah terjadi dan yang di
 Penyangkalan adalah respons terkait tetapi berbeda. Ia dapat bersifat literal — menolak menerima bukti — atau interpretatif, dalam bentuk minimalisasi, fatalisme, atau pengalihan perhatian. Psikolog telah menggambarkan mekanisme pertahanan yang dibangkitkan perubahan iklim: penghindaran informasi yang mengancam, menjauhkan diri dari masalah, dan keyakinan bahwa orang lain akan menyelesaikannya. Mekanisme itu normal, tetapi menghambat tindakan.
 
 Cedera moral semakin dikenali di antara orang yang bekerja pada isu iklim: ilmuwan, tenaga kesehatan, petugas darurat, dan pejabat yang merasa terlibat dalam sistem yang gagal. Ia muncul ketika orang diharuskan bertindak melawan nilai mereka, atau ketika mereka menyaksikan kerugian yang tidak dapat mereka cegah. Menanganinya memerlukan dukungan institusional, bukan hanya ketangguhan individu, karena cedera itu dihasilkan kondisi kerja alih-alih kelemahan pribadi.
+
+Duka, penyangkalan dan cedera moral adalah tiga nama untuk respons yang sering dicampuradukkan. Duka adalah respons yang tepat terhadap kehilangan, termasuk kehilangan tempat atau masa depan, dan ia tidak memerlukan pengobatan; penyangkalan adalah pertahanan yang melindungi dari informasi yang membanjiri dan dapat adaptif dalam jangka pendek serta berbahaya dalam jangka panjang; cedera moral adalah kerusakan yang terjadi ketika seseorang dipaksa bertindak melawan nilainya, dan ia kian banyak dilaporkan di antara pemadam kebakaran, tenaga kesehatan dan staf bantuan yang tidak dapat menolong semua orang. Menamai keadaan itu dengan tepat penting karena masing-masing menuntut respons berbeda, dan pelatihan ketahanan generik tidak melayani satu pun dengan baik.
 
 ## 20.8 Apa yang Membantu: Dukungan, Makna dan Tindakan
 
@@ -2989,6 +3029,8 @@ Pertolongan psikologis pertama, yang dikembangkan Komite Tetap Antarlembaga dan 
 
 Makna dan tindakan juga membantu. Orang yang merasa tindakannya berarti, dan yang menjadi bagian dari upaya kolektif, melaporkan lebih sedikit keputusasaan daripada yang merasa tidak berdaya. Itulah sebabnya aksi iklim dapat bersifat protektif secara psikologis, bukan hanya berguna secara politik. Tujuannya bukan menyangkal keparahan situasi tetapi menggabungkan kejujuran tentang risiko dengan rasa agensi, yang kadang disebut harapan konstruktif.
 
+Apa yang membantu tidak semisterius yang kadang disiratkan bidang ini. Pertolongan psikologis pertama — keselamatan, stabilisasi, koneksi ke dukungan, informasi praktis — adalah intervensi awal yang dianjurkan, dan ia mengungguli debriefing, yang telah ditunjukkan tidak efektif dan berpotensi merugikan. Di luar masa segera, faktor protektif terkuat berbasis bukti adalah koneksi sosial, rasa agensi, dan pemaknaan. Partisipasi dalam aksi kolektif ditemukan mengurangi distres dalam beberapa kajian, terutama di antara orang muda, karena ia mengubah ketidakberdayaan menjadi efikasi. Tugas terapeutiknya bukan meyakinkan orang bahwa semuanya baik-baik saja melainkan memulihkan rasa bahwa apa yang mereka lakukan berarti.
+
 ## 20.9 Layanan, Celah Pengobatan dan Integrasi
 
 Layanan kesehatan mental adalah bagian terlemah dari sebagian besar sistem kesehatan. Organisasi Kesehatan Dunia memperkirakan bahwa celah pengobatan untuk gangguan mental umum melebihi 75 persen di banyak negara berpenghasilan rendah dan menengah, dan bahwa belanja kesehatan mental adalah sebagian kecil dari total belanja kesehatan. Dalam lingkungan bencana, celahnya melebar karena layanan terganggu justru ketika permintaan naik.
@@ -2997,6 +3039,8 @@ Menutup celah itu memerlukan pengalihan tugas: melatih tenaga kesehatan komunita
 
 Integrasi adalah prinsip kuncinya. Kesehatan mental harus menjadi bagian dari perencanaan bencana, layanan primer, kesehatan sekolah, dan perlindungan sosial, bukan silo terpisah yang diaktifkan hanya setelah krisis. Itu berarti memasukkan dukungan psikososial ke dalam respons darurat, penapisan di layanan primer, dan kesinambungan perawatan bagi orang dengan kondisi yang sudah ada. Itu juga berarti mengumpulkan data, karena kesehatan mental tidak terlihat dalam sebagian besar statistik bencana.
 
+Jurang pengobatan adalah masalah layanan yang sentral. Di negara berpendapatan tinggi, perawatan kesehatan jiwa kurang dibiayai relatif terhadap kebutuhan; di banyak negara berpendapatan rendah, ada kurang dari satu psikiater per satu juta orang, dan sebagian besar orang yang membutuhkan perawatan tidak pernah bertemu spesialis. Program mhGAP WHO menjawabnya dengan melatih tenaga kesehatan umum untuk memberikan serangkaian intervensi tertentu, dan pengalihan tugas semacam ini memiliki basis bukti terkuat dalam kesehatan jiwa global. Mengintegrasikan kesehatan jiwa ke dalam respons bencana dan layanan primer karena itu bukan cita-cita melainkan satu-satunya jalur yang menjangkau populasi pada skala yang dibutuhkan masalahnya.
+
 ## 20.10 Berkomunikasi Tanpa Keputusasaan
 
 Bagaimana perubahan iklim dikomunikasikan memengaruhi bagaimana orang merasa dan bertindak. Pesan yang hanya menekankan malapetaka dapat menghasilkan kelumpuhan, penyangkalan, atau fatalisme; pesan yang hanya menekankan solusi dapat tampak naif dan dapat merusak kepercayaan ketika masalah berlanjut. Keseimbangannya adalah harapan yang jujur: penjelasan jelas tentang risiko digabungkan dengan penjelasan jelas tentang apa yang dapat dilakukan.
@@ -3004,6 +3048,8 @@ Bagaimana perubahan iklim dikomunikasikan memengaruhi bagaimana orang merasa dan
 Pembingkaian penting. Riset komunikasi iklim menunjukkan bahwa pesan yang terhubung dengan nilai yang sudah dipegang orang, yang menggunakan contoh lokal dan konkret, dan yang menawarkan tindakan spesifik lebih efektif daripada peringatan global yang abstrak. Pesan yang menekankan identitas bersama dan kemanjuran kolektif lebih memotivasi daripada yang menekankan rasa bersalah individu.
 
 Bagi orang yang mengalami tekanan, respons paling membantu sering kali pengakuan alih-alih perdebatan. Mengatakan bahwa duka mereka dapat dipahami, bahwa mereka tidak sendiri, dan bahwa ada hal yang dapat mereka lakukan lebih mendukung daripada membantah perasaan mereka atau menawarkan jaminan palsu. Tujuannya bukan menghilangkan kecemasan tetapi membantu orang hidup dengan ketidakpastian sambil tetap terlibat, yang merupakan padanan psikologis dari adaptasi.
+
+Berkomunikasi tanpa keputusasaan adalah masalah teknis dengan literatur empiris. Seruan takut meningkatkan perhatian dan dapat meningkatkan penghindaran; pesan yang menggabungkan ancaman dengan jalur efikasi yang konkret — inilah yang terjadi, inilah yang bekerja, inilah yang dapat Anda lakukan — menghasilkan keterlibatan lebih besar daripada menenangkan atau menakut-nakuti saja. Harapan konstruktif, berbeda dari optimisme, adalah harapan yang berpijak pada agensi alih-alih pada ramalan bahwa keadaan akan baik. Bukti menunjukkan audiens dapat menoleransi informasi sulit, dan yang tidak dapat mereka toleransi adalah diberi tahu bahwa tidak ada yang mereka lakukan berarti.
 
 ## 20.11 Studi Kasus: Kebakaran Camp dan Dampak Setelahnya
 
@@ -3016,6 +3062,8 @@ Konsekuensi kesehatan mentalnya parah dan persisten. Klinisi melaporkan peningka
 Pandemi COVID-19 datang ketika banyak korban masih mengungsi, memperberat isolasi dan mengganggu layanan. Musim kebakaran berikutnya membawa asap dan evakuasi baru, mentrauma ulang orang yang sudah kehilangan rumah. Urutannya menggambarkan bagaimana paparan berulang terakumulasi, dan bagaimana satu peristiwa dapat menjadi kondisi kronis ketika pemulihan lambat.
 
 Pelajarannya spesifik. Layanan kesehatan mental harus diperluas bersamaan dengan tempat berlindung dan pasokan, bukan pekan kemudian. Dukungan harus menjangkau orang di tempat mereka berada, termasuk yang tidak mencari bantuan. Sekolah, layanan primer, dan organisasi komunitas harus dilengkapi untuk mengenali tekanan dan memberikan dukungan dasar. Dan pemulihan harus menangani perumahan, pendapatan, dan koneksi sosial, karena pemulihan psikologis bergantung pada stabilitas material.
+
+Pascabanjir Kerala 2018 menghasilkan eksperimen alami yang instruktif dalam kesehatan jiwa komunitas. Negara bagian itu memiliki sistem layanan primer yang relatif kuat dan sejarah perencanaan terdesentralisasi, dan ia mengerahkan relawan komunitas untuk menyaring distres bersamaan dengan upaya bantuan. Evaluasi menggambarkan model di mana kesehatan jiwa bukan program vertikal terpisah melainkan bagian dari cara respons diorganisasi, dan kendala utamanya adalah supervisi: relawan dapat mengidentifikasi orang yang membutuhkan bantuan, tetapi jalur rujukan ke klinisi terlatih tipis. Penyaringan tanpa layanan menghasilkan daftar, bukan pengobatan.
 
 ## 20.12 Skenario dan Prediksi Masa Depan: Kesehatan Mental pada 2050
 
@@ -3054,6 +3102,8 @@ Banjir itu bertepatan dengan persiapan Konferensi Para Pihak kedua puluh tujuh d
 
 Bab ini membahas tata kelola perubahan iklim melalui lensa keadilan: siapa yang bertanggung jawab atas emisi, siapa yang menanggung kerugian, dan institusi apa yang ada untuk mendistribusikan biaya serta memulihkan ketidakadilan. Bab ini mencakup tanggung jawab historisd, kerugian dan kerusakan, litigasi, transisi yang adil, dimensi adat dan gender, partisipasi orang muda, serta reformasi institusi internasional. Argumennya adalah bahwa kebijakan iklim tanpa teori keadilan bukan hanya tidak adil tetapi tidak efektif, karena kesepakatan tentang pembagian beban itulah yang memungkinkan kerja sama.
 
+Perubahan iklim adalah masalah keadilan sebelum menjadi masalah teknis, karena orang yang paling sedikit mengemisi paling banyak terpapar, dan karena obatnya — mengakhiri penggunaan bahan bakar fosil, mengubah tata guna lahan, membayar kerugian — mendistribusikan biaya dan manfaat dengan cara yang tidak dirancang untuk dikelola institusi yang ada. Memperlakukan keadilan sebagai renungan susulan menghasilkan kebijakan yang efisien secara teknis dan rapuh secara politik; memperlakukannya sebagai kendala desain menghasilkan kebijakan yang benar-benar dapat dilaksanakan.
+
 ## 21.1 Mengapa Perubahan Iklim adalah Masalah Keadilan
 
 Perubahan iklim adalah masalah keadilan karena tiga alasan struktural. Pertama, kerugiannya tidak merata: negara dan komunitas yang paling sedikit menyumbang emisi sering paling terpapar konsekuensinya, karena geografi, ketergantungan pada pertanian, dan kapasitas adaptasi yang terbatas. Kedua, biaya tindakan tidak merata: mengurangi emisi memerlukan perubahan produksi dan konsumsi yang menimpa kelompok berbeda secara berbeda. Ketiga, kapasitas bertindak tidak merata: negara kaya dan rumah tangga kaya memiliki sumber daya yang tidak dimiliki yang miskin.
@@ -3061,6 +3111,8 @@ Perubahan iklim adalah masalah keadilan karena tiga alasan struktural. Pertama, 
 Distribusi emisi membuat poin itu konkret. Oxfam dan Stockholm Environment Institute memperkirakan bahwa 10 persen terkaya populasi dunia menyumbang sekitar 48 persen emisi kumulatif antara 1990 dan 2015, sementara separuh termiskin menyumbang sekitar 7 persen. Polanya berlaku di dalam negara maupun antarnegar: rumah tangga kaya lebih banyak mengemudi, lebih sering terbang, dan memanaskan rumah yang lebih besar.
 
 Keadilan juga merupakan syarat praktis bagi kesepakatan. Perundingan iklim internasional menuntut negara menerima biaya yang tidak segera kembali, dan mereka hanya akan melakukannya jika percaya distribusinya adil. Kegagalan menyelesaikan pertanyaan keadilan — siapa memotong, seberapa banyak, dan siapa membayar — adalah salah satu alasan perundingan bergerak lambat, dan mengapa bahasa keadilan bergeser dari pinggiran ke pusat agenda.
+
+Literatur filsafat membedakan tiga dimensi keadilan yang sering dilebur dalam perdebatan publik. Keadilan distributif menyangkut siapa yang menanggung biaya dan siapa yang menerima manfaat; keadilan prosedural menyangkut siapa yang berhak memutuskan dan apakah prosesnya adil; dan pengakuan menyangkut apakah orang terdampak diperlakukan sebagai peserta penuh alih-alih sebagai objek kebijakan. Sebuah proyek dapat adil secara distributif dan tidak adil secara prosedural, atau benar secara prosedural dan merugikan secara substantif, dan sebagian besar konflik tentang proyek adaptasi melibatkan ketiganya sekaligus. Menamai dimensinya membantu menjelaskan mengapa pembayaran kompensasi tidak menyelesaikan keluhan tentang penyingkiran.
 
 ## 21.2 Tanggung Jawab Historis dan Anggaran Karbon
 
@@ -3070,6 +3122,8 @@ Anggaran karbon yang tersisa — jumlah yang masih dapat diemisikan sambil menja
 
 Prinsip berbeda menghasilkan jawaban berbeda. Grandfathering memberi setiap negara porsi berdasarkan emisi saat ini; konvergensi menyamakan emisi per orang seiring waktu; dan tanggung jawab historis membobot anggaran berdasarkan kontribusi masa lalu. Setiap prinsip memiliki pembela dan setiap prinsip akan menghasilkan distribusi upaya yang sangat berbeda. Hasil praktisnya adalah hibrida: kontribusi yang ditentukan secara nasional yang dipilih sendiri, digabungkan dengan janji pembiayaan yang terus-menerus tidak terpenuhi.
 
+Tanggung jawab historis biasanya diperdebatkan dengan emisi kumulatif, dan angkanya mencolok. Amerika Serikat menghasilkan sekitar seperempat karbon dioksida kumulatif sejak 1751, Uni Eropa sekitar tujuh belas persen, dan Tiongkok sekitar empat belas persen, meskipun emisi tahunan Tiongkok kini melampaui negara mana pun. Angka per kapita membalik peringkatnya, dan akuntansi berbasis konsumsi menggesernya lagi dengan mengatribusikan emisi ke negara tempat barang dikonsumsi alih-alih tempat diproduksi. Prinsip tanggung jawab bersama yang dibedakan ditulis ke dalam konvensi 1992 justru karena tidak ada satu metrik pun yang menyelesaikan pertanyaan siapa yang harus membayar.
+
 ## 21.3 Kerugian dan Kerusakan
 
 Kerugian dan kerusakan merujuk pada dampak perubahan iklim yang tidak dapat dihindari melalui mitigasi atau adaptasi. Ia mencakup kerugian ekonomi seperti infrastruktur yang hancur dan panen yang hilang, serta kerugian non-ekonomi seperti hilangnya wilayah, budaya, keanekaragaman hayati, dan nyawa. Bagi negara pulau kecil, dimensi non-ekonomi bersifat eksistensial: negara yang kehilangan tanahnya kehilangan kenegaraannya.
@@ -3077,6 +3131,8 @@ Kerugian dan kerusakan merujuk pada dampak perubahan iklim yang tidak dapat dihi
 Tuntutan kompensasi berakar pada 1991, ketika Vanuatu mengusulkan mekanisme asuransi atas nama Aliansi Negara Pulau Kecil. Tuntutan itu ditolak selama beberapa dekade, terutama karena negara kaya takut akan tanggung jawab tanpa batas. Pada COP27 tahun 2022, para pihak sepakat mendirikan dana, dan pada COP28 serta COP29 pengaturannya dielaborasi, dengan janji awal dalam ratusan juta dolar. Jumlahnya kecil relatif terhadap kebutuhan: perkiraan kerugian dan kerusakan tahunan di negara berkembang berkisar dari US$200 miliar hingga lebih dari US$500 miliar pada 2030.
 
 Dana itu karena itu awal, bukan solusi. Skalanya tidak memadai, kontributornya hanya sebagian dari yang bertanggung jawab, dan aturan kelayakannya diperdebatkan. Tetapi ia menetapkan prinsip yang telah ditolak selama tiga puluh tahun: bahwa kerugian iklim menciptakan kewajiban melampaui amal sukarela. Bagaimana prinsip itu dilaksanakan akan menentukan apakah ia menjadi mekanisme bermakna atau isyarat simbolis.
+
+Kerugian dan kerusakan bergerak dari frasa akademik menjadi blok negosiasi menjadi dana dalam rentang satu dekade. Konferensi iklim 2022 membentuk dana untuk negara rentan, dan pada 2023 janjinya mencapai beberapa ratus juta dolar, angka yang kecil relatif terhadap perkiraan kebutuhan: kajian atas kerusakan sisa yang tidak dapat dicegah adaptasi menempatkan kebutuhan pada ratusan miliar dolar per tahun pada 2030. Masalah rancangan dananya sama sulitnya dengan ukurannya — siapa yang berhak, apa yang dihitung sebagai kerugian, bagaimana menghindari insentif untuk tidak bertindak — dan itulah sebab negosiasinya lambat.
 
 ## 21.4 Litigasi Iklim
 
@@ -3086,6 +3142,8 @@ Kasus Urgenda di Belanda adalah tonggak. Pada 2019, Mahkamah Agung Belanda mengu
 
 Gugatan terhadap perusahaan juga maju. Pada 2021, pengadilan Belanda memerintahkan Shell mengurangi emisinya 45 persen pada 2030, putusan yang kemudian dibatalkan pada banding 2024 tetapi menandakan bahwa tanggung jawab korporasi adalah pertanyaan yang hidup. Di Amerika Serikat, Held v. Montana pada 2023 menemukan bahwa kegagalan negara bagian mempertimbangkan perubahan iklim saat mengizinkan proyek bahan bakar fosil melanggar hak konstitusional orang muda atas lingkungan yang bersih. Litigasi lambat dan tidak pasti, tetapi ia menciptakan daya tekan, membangun catatan, dan menggeser harapan.
 
+Litigasi telah menjadi sistem tata kelola iklim paralel, dan rekam jejaknya campuran dengan cara yang instruktif. Kasus Urgenda di Belanda menetapkan bahwa negara memiliki kewajiban kehati-hatian kepada warganya, dan putusan Shell 2021 memerintahkan perusahaan menurunkan emisi, meskipun kemudian dibatalkan pada tingkat banding. Gugatan terhadap pemerintah paling sering berhasil ketika hukum domestik sudah memuat kewajiban, dan gugatan yang semata berbasis hukum hak asasi internasional lebih sulit. Nilai strategis litigasi sering bukan putusannya melainkan proses penemuan bukti dan publisitasnya, yang keduanya mengubah perilaku sebelum vonis.
+
 ## 21.5 Transisi yang Adil dan Tenaga Kerja
 
 Transisi menjauh dari bahan bakar fosil akan menghilangkan sebagian pekerjaan dan menciptakan yang lain, dan distribusi perubahan itu adalah soal keadilan. Penambang batu bara, pekerja minyak, dan komunitas yang bergantung pada ekstraksi fosil menghadapi hilangnya penghidupan yang sering berbahaya dan bergaji rendah tetapi memberikan identitas dan stabilitas. Transisi yang mengabaikan mereka tidak adil sekaligus rapuh secara politik.
@@ -3093,6 +3151,8 @@ Transisi menjauh dari bahan bakar fosil akan menghilangkan sebagian pekerjaan da
 Organisasi Buruh Internasional memperkirakan bahwa sekitar 1,2 miliar pekerjaan bergantung pada lingkungan yang sehat, termasuk pertanian, kehutanan, perikanan, dan pariwisata, dan bahwa transisi ke ekonomi hijau dapat menciptakan jutaan pekerjaan baru di energi terbarukan, efisiensi, dan restorasi. Pertanyaannya adalah apakah pekerjaan baru berada di tempat yang sama, memerlukan keterampilan yang sama, dan menawarkan keamanan yang sama dengan yang lama. Sering kali tidak.
 
 Kebijakan transisi yang adil mencakup pelatihan ulang, dukungan pendapatan, pensiun dini, diversifikasi ekonomi lokal, dan jaminan pekerjaan layak di industri baru. Kebijakan itu memerlukan konsultasi dengan serikat pekerja dan komunitas, serta pendanaan. Negara yang paling maju — komisi batu bara Jerman, kesepakatan transisi adil Spanyol, pelatihan transisi Skotlandia — melakukannya dengan memperlakukan pekerja sebagai mitra alih-alih penghalang.
+
+Transisi yang adil adalah pembeda antara kebijakan iklim yang dapat dipertahankan dan yang dibalik pada pemilu berikutnya. Penghentian batu bara Jerman disertai paket multi-miliar euro untuk daerah terdampak, dan Kemitraan Transisi Energi yang Adil Afrika Selatan, diumumkan pada 2021 dengan janji awal delapan setengah miliar dolar, dirancang membiayai pelatihan ulang dan diversifikasi ekonomi bersamaan dengan penutupan pembangkit. Kemitraan Indonesia, diumumkan pada 2022, mengikuti model yang sama pada skala lebih besar. Rekam jejak sejauh ini menunjukkan uang itu perlu tetapi tidak cukup: pekerja membutuhkan jalur yang kredibel ke pekerjaan sebanding, bukan sekadar cek.
 
 ## 21.6 Masyarakat Adat dan Hak atas Tanah
 
@@ -3102,6 +3162,8 @@ Hak atas tanah adalah pusatnya. Di tempat komunitas adat memiliki hak milik yang
 
 Kebijakan iklim karena itu dapat merugikan masyarakat adat bahkan ketika niatnya baik. Hidroelektrik skala besar, perkebunan bioenergi, offset karbon, dan ekstraksi mineral untuk teknologi bersih dapat memindahkan komunitas dan merusak ekosistem. Transisi yang adil menuntut proyek-proyek itu dinilai dampak sosialnya, komunitas memiliki suara yang sungguh-sungguh, dan manfaatnya dibagi alih-alih diambil.
 
+Masyarakat adat terpapar tidak proporsional dan efektif secara tidak proporsional sebagai pengelola. Perkiraan menunjukkan wilayah adat memuat bagian besar keanekaragaman hayati yang tersisa, dan laju deforestasi lebih rendah di dalam wilayah adat yang diakui daripada di luarnya. Prinsip hukum yang muncul dari bukti itu adalah persetujuan bebas, didahulukan dan berdasarkan informasi, yang menuntut lebih daripada konsultasi setelah keputusan dibuat. Implementasinya tidak merata: pengakuan hutan adat di Indonesia maju lambat, dan proses demarkasi di Brasil berayun mengikuti pergantian pemerintah, yang sendiri merupakan pelajaran tentang seberapa cepat hak dapat dibalik.
+
 ## 21.7 Gender dan Interseksionalitas
 
 Perubahan iklim memengaruhi perempuan dan laki-laki secara berbeda, dan perbedaannya dihasilkan peran sosial alih-alih biologi. Perempuan lebih mungkin bertanggung jawab atas pengumpulan air, penyiapan pangan, dan kerja perawatan, yang semuanya menjadi lebih sulit ketika sumber daya langka. Mereka lebih mungkin bekerja di sektor informal dan sensitif iklim, dan lebih kecil kemungkinannya memiliki akses ke tanah, kredit, dan pengambilan keputusan.
@@ -3109,6 +3171,8 @@ Perubahan iklim memengaruhi perempuan dan laki-laki secara berbeda, dan perbedaa
 Kematian akibat bencana menunjukkan polanya. Studi tentang beberapa peristiwa menemukan kematian perempuan yang lebih tinggi di tempat perempuan memiliki status sosial dan ekonomi lebih rendah, mobilitas terbatas, dan akses informasi yang dibatasi. Gelombang panas Eropa 2003 menewaskan lebih banyak perempuan daripada laki-laki di Prancis, sebagian besar karena perempuan hidup lebih lama dan lebih mungkin menjanda serta tinggal sendiri. Polanya tidak universal, tetapi cukup umum untuk memerlukan perhatian dalam perencanaan.
 
 Interseksionalitas penting karena kerugian bertumpuk. Perempuan miskin dengan disabilitas di daerah pedesaan menghadapi profil risiko yang berbeda dari laki-laki kaya di kota, dan kebijakan generik tidak akan menjangkau dirinya. Adaptasi yang efektif memerlukan data terpilah, partisipasi kelompok terdampak, dan langkah yang ditargetkan seperti transfer tunai, pengasuhan anak, tempat berlindung yang aksesibel, dan bantuan hukum.
+
+Gender bukan tambahan pada analisis kerentanan; ia membentuk paparan, kapasitas dan suara. Di banyak masyarakat perempuan memiliki akses lebih kecil ke tanah, kredit, mobilitas dan pengambilan keputusan, dan kerugian itu menentukan apa yang dapat mereka lakukan sebelum, selama dan setelah bencana. Data kematian dari beberapa peristiwa menunjukkan angka kematian perempuan lebih tinggi, dijelaskan oleh mobilitas yang terbatas, pakaian, dan harapan bahwa perempuan akan merawat orang lain alih-alih mengungsi. Responsnya bukan memperlakukan perempuan sebagai kelompok rentan melainkan menyertakan mereka dalam perencanaan, pekerjaan dan kepemimpinan, yang menurut bukti memperbaiki hasil bagi seluruh komunitas.
 
 ## 21.8 Orang Muda dan Keadilan Antargenerasi
 
@@ -3118,6 +3182,8 @@ Orang muda merespons dengan mengorganisasi. Mogok sekolah, litigasi yang dipimpi
 
 Respons institusional mulai muncul. Beberapa negara menurunkan usia pemilih untuk pemilihan tertentu, menunjuk penasihat pemuda, atau membentuk komisioner generasi masa depan. Pengadilan di beberapa yurisdiksi menerima bahwa orang muda memiliki kedudukan hukum untuk menantang kebijakan iklim. Inovasi itu tidak sempurna, tetapi mereka mengakui masalah struktural: sistem demokrasi mendiskon masa depan, dan kebijakan iklim memerlukan institusi yang tidak melakukannya.
 
+Keadilan antargenerasi mengangkat pertanyaan yang sulit dijawab ekonomi: berapa banyak generasi sekarang harus berkorban untuk masa depan? Perselisihan antara Stern Review dan analisis biaya-manfaat yang lebih konvensional sebagian besar berkisar pada tingkat diskonto, dan pilihan parameter itu menentukan apakah tindakan agresif tampak rasional atau boros. Pada 2023 Komite Hak Anak Perserikatan Bangsa-Bangsa menerbitkan komentar umum yang menegaskan bahwa negara memiliki kewajiban melindungi anak dari kerusakan lingkungan yang dapat diperkirakan, yang memberi prinsip abstrak itu pijakan hukum. Kasus iklim oleh orang muda memakainya untuk berargumen bahwa masa depan bukan negeri asing.
+
 ## 21.9 Partisipasi Warga dan Demokrasi
 
 Kebijakan iklim dibuat dan dibatasi institusi politik, dan kualitas institusi itu menentukan apakah kebijakannya ambisius, tahan lama, dan adil. Demokrasi dengan partisipasi warga yang kuat cenderung menghasilkan kebijakan iklim lebih ambisius, tetapi juga rentan terhadap reaksi balik ketika biaya dibebankan tanpa konsultasi. Sistem otoriter dapat memaksakan kebijakan dengan cepat, tetapi sering kekurangan akuntabilitas dan responsivitas.
@@ -3126,6 +3192,8 @@ Eksperimen deliberatif menawarkan satu jalan menuju legitimasi. Majelis Warga Ir
 
 Partisipasi warga juga mencakup protes, litigasi, jurnalisme, aksi konsumen, dan pengorganisasian lokal. Bentuk partisipasi itu bukan pengganti politik formal, tetapi mereka membentuk lingkungan tempat politik formal beroperasi. Demokrasi yang sehat memerlukan ruang bagi semuanya, dan kebijakan iklim yang hanya mengandalkan keputusan teknokratis akan sulit mempertahankan legitimasi ketika biayanya terlihat.
 
+Keterlibatan sipil adalah mekanisme yang membuat kebijakan lingkungan menjadi sah, dan ia sedang tertekan. Konvensi Aarhus menetapkan hak atas akses informasi, partisipasi dan keadilan dalam urusan lingkungan, dan hak itu telah dipakai menggugat proyek di seluruh Eropa. Di tempat lain ruang sipil menyempit: pembela lingkungan termasuk pembela hak asasi manusia yang paling sering dibunuh, dan kedudukan hukum untuk gugatan kepentingan publik dibatasi di banyak yurisdiksi. Demokrasi yang tidak dapat mendengar keluhan tentang sebuah proyek adalah demokrasi yang akan membangun hal yang salah secara efisien.
+
 ## 21.10 Reformasi Institusi Internasional
 
 Institusi yang mengatur pembiayaan iklim dibangun untuk era yang berbeda. Bank Dunia dan Dana Moneter Internasional didirikan pada 1944, ketika sebagian besar negara hari ini belum ada sebagai negara merdeka, dan tata kelolanya mencerminkan distribusi kekuasaan pascaperang. Proposal reformasi telah beredar selama beberapa dekade, dan menjadi semakin mendesak seiring kebutuhan pembiayaan iklim tumbuh.
@@ -3133,6 +3201,8 @@ Institusi yang mengatur pembiayaan iklim dibangun untuk era yang berbeda. Bank D
 Inisiatif Bridgetown, yang diluncurkan Barbados pada 2022, mengusulkan serangkaian reformasi: memperluas pinjaman bank pembangunan multilateral, mengaitkan pembayaran dengan kerentanan iklim, dan menciptakan mekanisme baru untuk kerugian dan kerusakan. Inisiatif itu memengaruhi diskusi di Dana Moneter Internasional dan Bank Dunia, dan sebagian elemennya diadopsi, tetapi skala perubahannya masih sederhana relatif terhadap kebutuhan.
 
 Reformasi juga memerlukan perhatian pada utang. Banyak negara rentan iklim membelanjakan lebih banyak untuk pembayaran utang daripada untuk kesehatan dan pendidikan, dan bencana dapat mendorong mereka ke gagal bayar. Pertukaran utang, ketika kreditur menghapus utang sebagai imbalan investasi konservasi atau adaptasi, telah digunakan dalam beberapa kasus, dan dapat diperluas. Tanpa ruang fiskal, bahkan rencana adaptasi yang dirancang baik tidak dapat dilaksanakan, dan jurang antara janji dan praktik akan terus melebar.
+
+Reformasi institusi internasional lambat karena institusi itu dirancang untuk sebaran kekuasaan yang berbeda. UNFCCC beroperasi dengan konsensus, yang memberi setiap pihak hak veto; Dewan Keamanan memperlakukan iklim sebagai isu keamanan hanya secara berkala; dan lembaga Bretton Woods dibobot berdasarkan kontribusi finansial alih-alih paparan. Reformasi yang paling bergerak adalah reformasi finansial, bukan konstitusional: pemulihan utang yang dikaitkan dengan investasi iklim, reformasi bank pembangunan multilateral agar meminjamkan lebih banyak terhadap risiko, dan usulan Inisiatif Bridgetown untuk memperluas likuiditas bagi negara rentan. Perubahan institusional mengikuti uang lebih mudah daripada mengikuti argumen.
 
 ## 21.11 Studi Kasus: Dana Kerugian dan Kerusakan
 
@@ -3145,6 +3215,8 @@ Kesepakatan itu bersejarah tetapi terbatas. Ia menetapkan prinsip — bahwa nega
 Makna dana itu sebagian simbolis. Ia mengakui bahwa perubahan iklim menciptakan kewajiban melampaui amal, dan ia menyediakan mekanisme yang melaluinya kewajiban itu dapat dituntut. Tetapi dana ratusan juta tidak dapat menangani masalah ratusan miliar, dan jurang antara keduanya adalah ujian utama apakah sistem internasional dapat memberikan keadilan pada skala yang dibutuhkan.
 
 Pelajarannya spesifik. Prinsip penting, karena ia menetapkan syarat perundingan masa depan. Institusi penting, karena ia menentukan apakah prinsip dilaksanakan. Dan skala penting, karena mekanisme yang memadai secara prinsip tetapi kecil dalam praktik dapat menjadi pengganti tindakan alih-alih jalan menuju tindakan. Fase berikutnya debat adalah apakah dana itu menjadi instrumen redistribusi yang sungguh-sungguh atau simbol yang memungkinkan ketidakadilan dasarnya tetap berlangsung.
+
+Kasus yang paling menggambarkan dimensi keadilan adalah sengketa atas anggaran karbon yang tersisa. Anggaran itu adalah besaran fisik, tetapi setiap alokasinya melibatkan pilihan moral: bagian sama per orang, bagian sebanding emisi historis, atau bagian yang cukup untuk pembangunan. Pemerintah India berargumen bahwa emisinya harus naik untuk memenuhi kebutuhan pembangunan dan bahwa anggaran yang tersisa harus dialokasikan atas dasar per kapita, sementara negara pulau kecil berargumen bahwa alokasi apa pun yang konsisten dengan 1,5 derajat tidak menyisakan anggaran bagi mereka. Tidak ada resolusi teknis untuk perselisihan ini, dan itulah sebab ia berulang di setiap konferensi.
 
 ## 21.12 Skenario dan Prediksi Masa Depan: Keadilan pada 2050
 
@@ -3183,6 +3255,8 @@ Kubah panas itu adalah kasus ekstremitas statistik yang menjadi bencana fisik. S
 
 Bab ini membahas bencana secara komparatif. Bab ini melihat peristiwa panas, kebakaran, banjir, dan ekstrem perkotaan lintas wilayah dan dekade, dan menanyakan apa yang mereka miliki bersama: mengapa sebagian peristiwa menewaskan ribuan orang dan yang lain puluhan, mengapa bahaya serupa menghasilkan hasil berbeda, dan apa yang diungkap perbedaan itu tentang paparan, kerentanan, tata kelola, dan respons. Kasus dipilih bukan karena dramanya tetapi karena ajarannya.
 
+Studi kasus adalah argumen yang menyamar sebagai cerita, dan mutu argumennya bergantung pada apa kasus itu dibandingkan. Banjir yang sama dapat diceritakan sebagai kisah hujan yang luar biasa atau sebagai kisah drainase yang tidak pernah dirawat, dan kedua penceritaan dapat akurat sambil menunjuk kebijakan yang sama sekali berbeda. Membaca kasus dengan baik karena itu menuntut pertanyaan tentang kontrafaktualnya: apa yang akan terjadi jika bahayanya sama dan institusinya berbeda.
+
 ## 22.1 Cara Membaca Kasus Bencana
 
 Bencana tidak sama dengan bahaya. Bahaya adalah peristiwa fisik — badai, panas, banjir — dan bencana adalah kerugian yang ditimbulkannya, yang bergantung pada siapa yang terpapar, seberapa rentan mereka, dan seberapa baik institusi merespons. Bahaya yang sama dapat menghasilkan beberapa lusin kematian di satu tempat dan ratusan ribu di tempat lain, dan perbedaannya hampir selalu sosial dan politik alih-alih meteorologis.
@@ -3190,6 +3264,8 @@ Bencana tidak sama dengan bahaya. Bahaya adalah peristiwa fisik — badai, panas
 Analisis kasus yang berguna memisahkan lima elemen. Paparan menggambarkan siapa dan apa yang berada di jalur bahaya. Kerentanan menggambarkan kondisi yang membuat kerugian lebih mungkin, seperti kemiskinan, usia, disabilitas, perumahan buruk, atau kurangnya informasi. Kapasitas menggambarkan sumber daya yang tersedia untuk bersiap dan merespons. Tata kelola menggambarkan keputusan yang membentuk paparan dan kapasitas. Dan waktu menggambarkan bagaimana peristiwa berlangsung, karena urutan penting: gelombang panas yang diikuti kebakaran hutan lebih buruk daripada masing-masingnya.
 
 Kasus dalam bab ini dipilih untuk menggambarkan variasi lintas elemen itu. Sebagian menunjukkan apa yang terjadi ketika negara kaya tidak siap menghadapi bahaya yang tidak biasa; yang lain menunjukkan apa yang terjadi ketika negara miskin kewalahan oleh bahaya yang sudah biasa. Dibaca bersama, mereka menunjukkan bahwa kesiapsiagaan bukan fungsi kekayaan semata, dan bahwa penentu peluang bertahan hidup yang paling penting sering yang paling tidak terlihat.
+
+Wawasan pendiri riset bencana adalah bahwa tidak ada yang namanya bencana alam. O'Keefe, Westgate dan Wisner berargumen di Nature pada 1976 bahwa bencana dihasilkan oleh perpotongan bahaya alam dengan kerentanan manusia, dan bahwa menyebutnya alamiah mengaburkan keputusan yang menempatkan orang di jalur bahaya. Wawasan itu telah diperhalus alih-alih ditinggalkan: Wisner dan rekan-rekannya kemudian menggambarkan penciptaan risiko bencana sebagai proses yang berlangsung selama puluhan tahun melalui pasar tanah, praktik pembangunan dan kelalaian politik. Studi kasus yang dimulai dari bahayanya sudah memilih kesimpulannya.
 
 ## 22.2 Panas: Chicago 1995 dan Eropa 2003
 
@@ -3199,6 +3275,8 @@ Studi Eric Klinenberg atas peristiwa itu menemukan bahwa tingkat kematian sangat
 
 Gelombang panas Eropa 2003 menghasilkan korban jauh lebih besar di seluruh benua: sekitar 70.000 kematian, termasuk sekitar 14.800 di Prancis. Perbedaan antarnegara instruktif. Prancis tidak memiliki rencana panas, tidak memiliki daftar orang rentan, dan sistem kesehatannya sedang libur; Italia dan Spanyol, dengan iklim lebih hangat dan keakraban lebih besar dengan panas, memiliki kematian berlebih lebih rendah relatif terhadap anomali. Perbandingan itu menunjukkan bahwa pengalaman dan kesiapsiagaan lebih penting daripada garis lintang.
 
+Perbandingan antara Chicago dan Eropa bergantung pada pertanyaan metodologis yang menentukan bagaimana angka kematian dipahami. Mortalitas berlebih menghitung semua orang yang meninggal di atas garis dasar yang diharapkan selama peristiwa, tetapi sebagian dari mereka akan meninggal dalam beberapa pekan juga, fenomena yang dikenal sebagai pergeseran mortalitas atau pemanenan. Studi atas gelombang panas Eropa 2003 menemukan sedikit pergeseran pada bulan-bulan berikutnya, yang menunjukkan sebagian besar kematian berlebih benar-benar dipercepat secara bermakna, bukan dimajukan beberapa hari. Respons Prancis setelah 2003 — rencana panas nasional, daftar orang rentan, dan sistem peringatan yang terhubung dengan tindakan — menjadi templat yang diadaptasi negara lain.
+
 ## 22.3 Panas: Pacific Northwest 2021
 
 Kubah panas Pacific Northwest 2021 belum pernah terjadi sebelumnya dalam catatan instrumental. Lytton mencapai 49,6 °C, Portland 46,7 °C, dan Seattle 42,2 °C, dan anomalinya — perbedaan dari normal — lebih besar daripada hampir semua peristiwa panas yang pernah tercatat. Studi atribusi oleh World Weather Attribution menyimpulkan bahwa peristiwa itu hampir mustahil tanpa perubahan iklim akibat manusia, dan bahwa ia menjadi setidaknya 150 kali lebih mungkin.
@@ -3206,6 +3284,8 @@ Kubah panas Pacific Northwest 2021 belum pernah terjadi sebelumnya dalam catatan
 Korban manusianya terkonsentrasi di antara orang yang tidak memiliki pengalaman panas semacam itu dan tidak memiliki sarana untuk menghindarinya. Di British Columbia, sekitar 619 kematian dikaitkan dengan peristiwa itu, sebagian besar orang berusia di atas 70 tahun yang tinggal sendiri di rumah tanpa pendingin udara. Di Oregon, pejabat melaporkan lebih dari 100 kematian; di Washington, puluhan. Banyak yang meninggal di dalam ruangan, yang merupakan ciri peristiwa panas di kota beriklim sedang tempat perumahan dirancang untuk menahan panas.
 
 Peristiwa itu menyingkap celah perencanaan. Rencana darurat di wilayah itu berfokus pada badai musim dingin, gempa bumi, dan kebakaran hutan, bukan panas; pusat pendinginan ada tetapi tidak banyak diketahui atau tidak dapat diakses; dan pesan publik mengasumsikan orang dapat pergi ke mal atau rumah teman. Pelajarannya adalah kesiapsiagaan harus spesifik bahaya dan harus menjangkau orang yang paling tidak mampu bertindak atas nasihat generik.
+
+Heat dome Pasifik Barat Laut memperlihatkan bentuk kerentanan yang sebagian besar diabaikan perencanaan iklim: bangunan yang dirancang menahan panas di iklim sejuk. Sedikit rumah di Seattle atau Vancouver memiliki pendingin udara, dan panas terakumulasi di dalam ruangan selama beberapa hari berturut-turut, yang menjelaskan mengapa sebagian besar kematian terjadi di dalam apartemen alih-alih di luar. Kajian atribusi menyimpulkan bahwa peristiwa itu hampir mustahil terjadi tanpa pemanasan akibat manusia, dan laporan koroner menggambarkan populasi yang terisolasi, lanjut usia dan tidak sadar bahwa suhu di dalam berbahaya.
 
 ## 22.4 Kebakaran: Black Saturday dan Camp Fire
 
@@ -3215,6 +3295,8 @@ Komisi Kerajaan yang menyusul merekomendasikan pergeseran ke kebijakan pergi leb
 
 Kebakaran Camp di California pada 2018 menghasilkan pola berbeda. Ia bergerak begitu cepat sehingga evakuasi menjadi satu-satunya pilihan, dan kematian terkonsentrasi di antara warga lanjut usia serta penyandang disabilitas yang tidak dapat pergi dengan cepat. Kebakaran menghancurkan kota Paradise dalam hitungan jam, dan jalur evakuasinya kewalahan. Bersama-sama, kedua kasus menunjukkan bahwa keselamatan kebakaran bukan satu kebijakan tunggal melainkan serangkaian keputusan yang bergantung pada kecepatan dan intensitas peristiwa.
 
+Kasus kebakaran Australia dan California sama-sama bergantung pada kebijakan evakuasi, dan keduanya menunjuk arah berbeda. Setelah Black Saturday, Komisi Kerajaan menemukan bahwa doktrin 'tetap atau pergi' disalahpahami penduduk yang tidak pergi lebih awal maupun mempertahankan rumahnya secara efektif, dan komisi merekomendasikan peralihan ke pergi lebih awal dengan kategori peringatan yang lebih jelas. Di Paradise, perintah evakuasi datang terlambat dan jaringan jalan tidak mampu memikul lalu lintas, yang menghasilkan kemacetan yang menjebak orang di dalam mobil. Pelajarannya bukan bahwa satu kebijakan benar, melainkan bahwa kapasitas evakuasi adalah besaran fisik dan sosial yang harus diukur sebelum kebakaran dimulai.
+
 ## 22.5 Kebakaran: Kanada 2023 dan Masalah Asap
 
 Pada 2023, Kanada mengalami musim kebakaran hutan paling parah dalam catatan. Sekitar 18,5 juta hektar terbakar — kira-kira tujuh kali rata-rata sepuluh tahun — dan lebih dari 200.000 orang dievakuasi. Kebakaran membakar dari pantai ke pantai, dan asapnya menempuh ribuan kilometer, menyelimuti kota-kota di Kanada dan Amerika Serikat, termasuk New York, tempat langit berwarna oranye pada Juni.
@@ -3222,6 +3304,8 @@ Pada 2023, Kanada mengalami musim kebakaran hutan paling parah dalam catatan. Se
 Asapnya merupakan peristiwa kesehatan tersendiri. Partikulat halus (PM2.5) dari asap kebakaran menembus jauh ke dalam paru-paru dan aliran darah serta terkait dengan penyakit pernapasan dan kardiovaskular. Studi memperkirakan bahwa paparan asap kebakaran menyebabkan ribuan kematian dini per tahun di Amerika Utara, dan bahwa beban kesehatannya jatuh secara tidak proporsional pada pekerja berpenghasilan rendah dan pekerja luar ruangan yang tidak dapat menghindari paparan.
 
 Kasus Kanada juga menggambarkan batas pemadaman. Kebakaran adalah bagian alami dari banyak ekosistem hutan, dan beberapa dekade pemadaman telah meningkatkan beban bahan bakar, membuat kebakaran lebih intens ketika terjadi. Perubahan iklim menambahkan panas dan kekeringan yang membuat hutan lebih mudah terbakar. Hasilnya adalah umpan balik di mana pemadaman, pengelolaan lahan, dan pemanasan berinteraksi menghasilkan kebakaran yang lebih besar dan lebih merusak.
+
+Kebakaran Kanada 2023 menghasilkan peristiwa kesehatan yang melampaui jauh zona terbakarnya. Asap menempuh ribuan kilometer dan mendorong konsentrasi partikel halus di New York, Toronto dan Washington ke tingkat yang biasanya terlihat di kota berpolusi berat, dan anjuran kesehatan publik — tetap di dalam ruangan, gunakan filtrasi — sulit bagi orang yang bekerja di luar atau tidak punya pendingin udara. Episod itu juga menyingkap masalah pengelolaan kebakaran: seabad pemadaman telah membuat hutan lebih padat dan lebih mudah terbakar, dan praktik pembakaran masyarakat adat yang dahulu mengurangi beban bahan bakar dilarang selama beberapa generasi.
 
 ## 22.6 Banjir: Pakistan 2022
 
@@ -3231,6 +3315,8 @@ Banjir itu menyingkap kerentanan struktural. Populasi Pakistan terkonsentrasi di
 
 Responsnya besar tetapi tidak memadai. Lembaga nasional dan provinsi, militer, badan PBB, dan organisasi lokal bergerak, dan bantuan mencapai jutaan orang. Tetapi skala peristiwa mengalahkan kapasitas, dan berbulan-bulan kemudian banyak keluarga pengungsi masih tanpa tempat berlindung yang memadai. Banjir itu menjadi simbol jurang antara tanggung jawab dan kerugian, karena emisi Pakistan hanya sebagian kecil dari total global.
 
+Banjir Pakistan 2022 tidak biasa dalam cara kerusakannya tersebar. Curah hujannya ekstrem, tetapi sebagian besar kerugian terjadi di daerah yang sudah rentan: desa di dataran banjir, infrastruktur irigasi yang gagal, dan rumah tangga yang menyimpan tabungan dalam bentuk ternak alih-alih di bank. Kebutuhan rekonstruksi dinilai lebih dari enam belas miliar dolar, dan janji pada konferensi Jenewa hanya menutup sebagian kecilnya. Kasus ini menggambarkan pola yang berulang dalam bab ini: bahayanya global, kerentanannya nasional, dan pembiayaannya sukarela.
+
 ## 22.7 Banjir: Jerman dan Belgia 2021
 
 Banjir Juli 2021 di Jerman barat dan Belgia disebabkan sistem tekanan rendah yang bergerak lambat dan menghasilkan curah hujan ekstrem di atas tanah yang sudah jenuh. Di Lembah Ahr, sungai naik dalam hitungan jam, menghancurkan rumah, jalan, dan jembatan. Lebih dari 180 orang meninggal, dan kerusakan melebihi €30 miliar.
@@ -3238,6 +3324,8 @@ Banjir Juli 2021 di Jerman barat dan Belgia disebabkan sistem tekanan rendah yan
 Kasus itu penting karena terjadi di wilayah kaya dengan institusi kuat dan prakiraan modern. Peringatan dikeluarkan, tetapi tidak berubah menjadi tindakan. Banyak warga tidak percaya sungai bisa naik secepat itu; sebagian otoritas lokal menunda evakuasi; dan Jerman belum memiliki sistem siaran seluler nasional. Kegagalannya ada di mil terakhir rantai peringatan alih-alih di prakiraan.
 
 Perbandingan dengan Pakistan instruktif. Kedua peristiwa melibatkan curah hujan ekstrem dan keduanya menghasilkan kerugian besar, tetapi mekanisme kerugiannya berbeda: di Jerman, kegagalannya dalam penerjemahan dan respons; di Pakistan, dalam paparan struktural dan kapasitas. Pelajarannya adalah investasi dalam prakiraan perlu tetapi tidak cukup, dan mata rantai terlemah menentukan hasilnya.
+
+Banjir 2021 di Jerman dan Belgia menjadi studi kasus kegagalan peringatan alih-alih curah hujan. Prakiraan dari Sistem Kesadaran Banjir Eropa tersedia berhari-hari sebelumnya, tetapi peringatan tidak berubah menjadi evakuasi di lembah Ahr, dan sistem siaran sel yang akan menjangkau setiap telepon baru diperkenalkan pada tahun berikutnya. Penyidik menggambarkan rantai tanggung jawab yang terfragmentasi antara kotamadya, distrik dan negara bagian. Kasus ini mengingatkan bahwa kapasitas teknis untuk memperkirakan tidak sama dengan kapasitas institusional untuk bertindak, dan jurang di antara keduanya diukur dengan nyawa.
 
 ## 22.8 Ekstrem Perkotaan: Chennai, Cape Town dan Seoul
 
@@ -3247,6 +3335,8 @@ Krisis air Cape Town 2018 adalah darurat perkotaan yang lambat. Setelah tiga tah
 
 Banjir Seoul 2022 adalah pengingat bahwa kota kaya tidak kebal. Curah hujan rekor pada Agustus 2022 membanjiri ruang bawah tanah dan apartemen semi-basement, menewaskan setidaknya 141 orang, banyak di antaranya warga miskin yang tinggal di perumahan termurah. Peristiwa itu menyoroti cara pasar perumahan mendorong rumah tangga berpenghasilan rendah ke ruang paling berbahaya, dan bagaimana infrastruktur yang dirancang untuk iklim berbeda dapat gagal secara tiba-tiba.
 
+Chennai, Cape Town dan Seoul biasanya diceritakan sebagai kisah terpisah, dan bila dibaca bersama semuanya menggambarkan satu masalah perkotaan: infrastruktur yang dirancang untuk iklim stasioner dan dikelola institusi dengan insentif lemah untuk merawatnya. Banjir Chennai diperparah hilangnya lahan basah yang dahulu menyerap air monsun; kekeringan Cape Town dikelola melalui tarif dan penurunan tekanan alih-alih pasokan baru; banjir Seoul 2022 menewaskan orang yang tinggal di apartemen semi-basement, dan kota itu kemudian mengumumkan rencana menghapusnya bertahap. Dalam setiap kasus bahayanya meteorologis dan bencananya municipal.
+
 ## 22.9 Peristiwa Majemuk dan Berantai
 
 Banyak bencana paling merusak bersifat majemuk: dua atau lebih bahaya terjadi bersamaan atau berurutan, dan efeknya saling berinteraksi. Gelombang panas diikuti kebakaran hutan, kekeringan diikuti banjir, badai diikuti wabah penyakit — setiap kombinasi lebih buruk daripada jumlah bagiannya karena kapasitas respons sudah terentang.
@@ -3255,6 +3345,8 @@ Kegagalan berantai terjadi ketika kegagalan satu sistem memicu kegagalan sistem 
 
 Peristiwa majemuk menjadi lebih mungkin seiring perubahan iklim, karena bahaya yang dahulu independen kini lebih sering terjadi bersamaan. Perencanaannya memerlukan pergeseran dari pemikiran satu bahaya ke penilaian risiko sistemik, dan dari tanggung jawab sektoral ke respons terkoordinasi. Kasus dalam bab ini menunjukkan bahwa sebagian besar kegagalan bersifat sistemik, dan bahwa institusi yang mengelolanya biasanya terorganisasi menurut sektor.
 
+Peristiwa majemuk dan peristiwa berantai adalah dua hal berbeda dan pembedaannya penting bagi kesiapsiagaan. Peristiwa majemuk menggabungkan bahaya yang saling berinteraksi — gelombang panas dan kekeringan, badai dan gelombang badai — sehingga efek gabungannya melampaui jumlah bagiannya. Peristiwa berantai dimulai dari satu kegagalan dan merambat melalui sistem yang saling bergantung: listrik mati melumpuhkan pompa, yang melumpuhkan pasokan air, yang melumpuhkan rumah sakit. Pescaroli dan Alexander berargumen pada 2015 bahwa risiko berantai kurang tertangkap oleh penilaian bahaya konvensional karena ia bergantung pada konektivitas antarsistem, bukan pada keparahan satu bahaya.
+
 ## 22.10 Apa yang Dimiliki Bersama oleh Kasus-Kasus Itu
 
 Lintas konteks yang sangat berbeda, kasus-kasus itu berbagi beberapa ciri. Pertama, kematian terkonsentrasi di antara orang dengan kapasitas paling sedikit untuk bertindak: lanjut usia, miskin, penyandang disabilitas, terisolasi, dan mereka yang tinggal di perumahan tidak aman. Kedua, peringatan perlu tetapi tidak cukup: jurang antara peringatan dan tindakan adalah tempat banyak kematian terjadi. Ketiga, keputusan infrastruktur dan tata guna lahan menentukan paparan jauh sebelum peristiwa datang.
@@ -3262,6 +3354,8 @@ Lintas konteks yang sangat berbeda, kasus-kasus itu berbagi beberapa ciri. Perta
 Keempat, kualitas tata kelola lebih penting daripada keparahan bahaya dalam menjelaskan hasil. Negara dengan institusi kuat, layanan yang didanai baik, dan pengambilan keputusan yang akuntabel secara konsisten mengalami lebih sedikit kematian dari bahaya yang sebanding. Kelima, pemulihan lebih lambat daripada respons, dan ekor panjang pengungsian, utang, serta penyakit adalah tempat sebagian besar biaya manusia terakumulasi.
 
 Implikasinya praktis. Kesiapsiagaan harus ditargetkan pada orang yang paling berisiko, bukan pada warga rata-rata. Peringatan harus spesifik, diulang, dan disampaikan melalui saluran yang dipercaya. Infrastruktur harus dirancang untuk bahaya yang akan datang, bukan yang telah lewat. Dan pemulihan harus direncanakan sebelum bencana, karena bulan-bulan setelah peristiwa menentukan apakah komunitas kembali atau bubar.
+
+Dibaca bersama, kasus-kasus itu mendukung kesimpulan sederhana dan tidak nyaman: pelajaran dari satu bencana jarang diterapkan pada bencana berikutnya. Karya Birkland tentang peristiwa yang memfokuskan perhatian menemukan bahwa perhatian melonjak setelah bencana dan menyusut sebelum reformasi dilaksanakan, dan bahwa reformasi yang bertahan adalah yang sudah ada dalam agenda. Pengecualiannya instruktif. Rencana panas yang menyusul 2003 di Eropa bertahan karena dilembagakan di badan kesehatan publik, dan kode bangunan yang menyusul gempa besar bertahan di tempat penegakannya dibiayai. Belajar bukan laporan; ia adalah pos anggaran.
 
 ## 22.11 Studi Kasus: Lytton dan Kubah Panas 2021
 
@@ -3274,6 +3368,8 @@ Dua hari setelah rekor itu, kebakaran hutan menyapu Lytton dan menghancurkan seb
 Responsnya menyingkap celah. Pusat pendinginan tersedia tetapi tidak banyak diketahui, dan sebagian tidak dapat diakses orang tanpa transportasi. Pesan publik menyarankan orang mencari pendingin udara, tetapi banyak yang tidak memilikinya dan tidak dapat bepergian. Layanan darurat kewalahan oleh panggilan, dan laporan koroner merekomendasikan agar panas diperlakukan sebagai darurat kesehatan publik dengan penjangkauan proaktif kepada orang rentan.
 
 Pelajarannya spesifik. Rencana panas harus dirancang untuk orang yang paling berisiko, bukan untuk warga rata-rata. Peringatan harus mencakup tindakan dan lokasi konkret. Bangunan harus diadaptasi untuk panas, bukan hanya untuk dingin. Dan kemungkinan peristiwa majemuk harus dimasukkan dalam perencanaan, karena urutan panas dan kebakaran menjadi lebih umum. Lytton menunjukkan bahwa bahaya di luar rentang historis dapat mengalahkan wilayah kaya dan terkelola baik ketika sistemnya dirancang untuk iklim yang tidak lagi ada.
+
+Kasus bencana yang paling terdokumentasi dalam mengubah institusi sebuah negara adalah gelombang panas Eropa 2003. Angka kematiannya mengejutkan sebagian karena tak terlihat: orang meninggal di rumah, sendiri, dan peristiwa itu awalnya dilaporkan sebagai soal cuaca alih-alih soal kebijakan. Reformasi sesudahnya spesifik dan bertahan — sistem peringatan kesehatan panas, daftar orang rentan, pusat pendinginan, perubahan protokol rumah sakit — dan evaluasi menunjukkan penurunan kematian pada peristiwa berikutnya. Kasus ini menunjukkan bahwa bencana dapat menghasilkan pembelajaran institusional, asalkan pembelajarannya ditulis ke dalam praktik rutin alih-alih ke dalam monumen.
 
 ## 22.12 Skenario dan Prediksi Masa Depan: Ekstrem Perkotaan pada 2050
 
@@ -3313,6 +3409,8 @@ Kelaparan Somalia adalah kasus tentang hak atas pangan, bukan tentang pangan. An
 
 Bab ini membahas darurat yang lambat: kekeringan, krisis pangan, kelangkaan air, dan persinggungannya dengan konflik. Bab ini melihat Sahel, Etiopia, Somalia, Suriah, Yaman, Cape Town, São Paulo, dan California, serta krisis harga pangan global 2007–08 dan 2010–11. Kasus-kasus itu menunjukkan bahwa darurat lambat menewaskan lebih banyak orang daripada yang cepat dan menerima perhatian lebih sedikit, karena mereka tidak memiliki satu momen dramatis dan karena korbannya biasanya miskin dan jauh.
 
+Darurat lambat lebih sulit dilihat daripada banjir, dan ketidakterlihatannya sendiri adalah penyebab kematian. Kekeringan yang berkembang selama tiga musim tidak menghasilkan gambar dramatis sampai orang sudah kelaparan, dan pada saat itu intervensi termurah sudah tidak mungkin. Masalah sentral dalam bab ini karena itu bukan ketiadaan informasi — sistem peringatan dini kelaparan telah memprediksi sebagian besar kelaparan terkini — melainkan jurang antara prediksi dan tindakan.
+
 ## 23.1 Membaca Kasus yang Lambat
 
 Darurat yang lambat berkembang selama berbulan-bulan atau bertahun-tahun, dan lebih sulit dilihat daripada banjir atau badai. Kekeringan bukan peristiwa tunggal melainkan defisit curah hujan kumulatif yang menghabiskan kelembapan tanah, air tanah, padang rumput, dan waduk; efeknya muncul perlahan dalam hasil panen, kematian ternak, harga pangan, migrasi, dan malnutrisi. Pada saat kelaparan dinyatakan, prosesnya telah berlangsung setahun atau lebih.
@@ -3320,6 +3418,8 @@ Darurat yang lambat berkembang selama berbulan-bulan atau bertahun-tahun, dan le
 Kematiannya juga lambat dan tersebar. Orang meninggal bukan karena satu penyebab tetapi karena interaksi malnutrisi, penyakit, dan kelelahan; kematian dicatat sebagai malnutrisi, campak, diare, atau infeksi pernapasan alih-alih kekeringan. Hasilnya adalah darurat lambat secara sistematis kurang terhitung, dan skalanya dikenali hanya dalam survei retrospektif.
 
 Kasus dalam bab ini karena itu dibaca dengan tiga pertanyaan. Siapa yang terpapar, dan mengapa mereka tidak mampu mengatasinya? Institusi apa yang gagal, dan pada titik mana? Dan apa yang akan mencegah hasilnya — peringatan dini, transfer tunai, investasi air, penyelesaian konflik, atau semuanya? Jawabannya jarang teknologis, karena pengetahuannya biasanya sudah ada sebelum krisis.
+
+Perangkat teknis untuk mengukur krisis pangan telah membaik cukup jauh. Klasifikasi Fase Ketahanan Pangan Terpadu, dikenal sebagai IPC, memberi peringkat kerawanan pangan akut pada skala lima titik dan menyatakan kelaparan hanya ketika ambang tertentu terpenuhi: setidaknya dua puluh persen rumah tangga menghadapi kekurangan pangan ekstrem, malnutrisi akut di atas tiga puluh persen, dan mortalitas di atas dua kematian per sepuluh ribu orang per hari. Jaringan Sistem Peringatan Dini Kelaparan telah menerbitkan proyeksi selama puluhan tahun, dan rekam jejaknya baik. Kegagalan yang bertahan bersifat politis: pemerintah menolak deklarasi kelaparan di wilayahnya, dan donor merespons deklarasi alih-alih proyeksi.
 
 ## 23.2 Kelaparan Sahel
 
@@ -3329,6 +3429,8 @@ Penyebabnya bukan sekadar curah hujan. Kebijakan kolonial dan pascakolonial tela
 
 Sahel juga menunjukkan bahwa adaptasi mungkin. Sejak 1980-an, regenerasi alami yang dikelola petani — perlindungan dan pemangkasan pohon di lahan pertanian — telah memulihkan jutaan hektar di Niger, memperbaiki kesuburan tanah, dan meningkatkan hasil. Praktik itu dikembangkan secara lokal, menyebar melalui jaringan petani, dan didukung kebijakan. Ia tidak mencegah semua krisis, tetapi mengurangi kerentanan di wilayah yang mengadopsinya.
 
+Kelaparan Sahel pada 1970-an dan 1980-an menghasilkan salah satu narasi paling berpengaruh dan paling diperdebatkan dalam sejarah lingkungan. Citra gurun yang maju, dipopulerkan pada 1970-an, menyiratkan bahwa penggembalaan berlebih dan pertumbuhan penduduk mengubah lahan semi-kering menjadi gurun, dan respons kebijakannya mencakup pembatasan pergerakan pastoral yang membuat penggembala lebih rentan. Riset kemudian menemukan bahwa kisah 'desertifikasi' itu dilebih-lebihkan dan bahwa beberapa daerah justru menghijau ketika curah hujan pulih, sebagian melalui regenerasi alami yang dikelola petani. Episod ini adalah peringatan tentang seberapa yakin sebuah narasi dapat dibangun di atas catatan yang pendek.
+
 ## 23.3 Etiopia 1984–1985 dan Debat Hak atas Pangan
 
 Kelaparan Etiopia 1984–1985 menewaskan sekitar satu juta orang. Ia menyusul dua musim hujan yang gagal, tetapi juga dihasilkan konflik, kebijakan pemukiman ulang, dan pengalihan sumber daya untuk perang. Pangan tersedia di sebagian pasar, dan respons pemerintah dibentuk prioritas militernya serta kecurigaannya terhadap lembaga internasional.
@@ -3336,6 +3438,8 @@ Kelaparan Etiopia 1984–1985 menewaskan sekitar satu juta orang. Ia menyusul du
 Pendekatan hak atas pangan Sen menjelaskan paradoks itu. Orang kelaparan ketika mereka tidak dapat menguasai pangan, entah karena asetnya runtuh, pekerjaannya hilang, harga naik di luar jangkauan, atau transfer gagal. Di Etiopia, pastoralis kehilangan ternak, petani kehilangan panen, dan orang yang mengungsi kehilangan akses ke keduanya, sementara pasar di wilayah lain terus berfungsi.
 
 Kelaparan itu juga mengubah praktik kemanusiaan. Ia mendorong pembentukan Famine Early Warning Systems Network, perluasan bantuan pangan, dan debat tentang pembangunan alih-alih bantuan darurat. Debatnya berlanjut: lembaga kini menekankan transfer tunai, perlindungan sosial, dan ketangguhan, tetapi masalah dasarnya — bahwa peringatan tidak otomatis menghasilkan respons — tetap ada.
+
+Analisis Amartya Sen atas kelaparan Bengal 1943 mengubah cara kelaparan dipahami, dan Etiopia 1984–85 menguji teori itu dalam kondisi berbeda. Sen berargumen bahwa kelaparan dapat terjadi tanpa penurunan ketersediaan pangan, karena orang yang membutuhkan pangan mungkin tidak memiliki hak — pendapatan, tanah, akses pasar — untuk memperolehnya. Di Etiopia, pangan tersedia di beberapa pasar sementara orang kelaparan di tempat lain, dan program pemukiman ulang serta kampanye kontrainsurgensi pemerintah mengalihkan sumber daya dan membatasi pergerakan. Karya de Waal kemudian menggambarkan kelaparan sebagai proses yang dapat dipercepat atau diperlambat pemerintah dan pemberontak, yang menjadikannya peristiwa politik.
 
 ## 23.4 Somalia 2011 dan 2022
 
@@ -3345,6 +3449,8 @@ Perbandingannya instruktif karena defisit curah hujannya serupa. Pada 2011, akse
 
 Pelajarannya adalah kelaparan bukan peristiwa cuaca. Ia hasil politik dan ekonomi yang dapat dicegah dengan tindakan tepat waktu, dan pengetahuan yang diperlukan untuk bertindak biasanya tersedia sebelum krisis memuncak. Yang sering hilang adalah kemauan melepaskan dana lebih awal, akses untuk menyalurkannya, dan perhatian politik untuk mempertahankan respons setelah kamera pergi.
 
+Somalia 2011 dan 2022 menawarkan perbandingan yang pembedanya sebagian besar operasional. Pada 2011, peringatan diterbitkan berbulan-bulan sebelum deklarasi kelaparan, tetapi akses ke wilayah yang dikuasai al-Shabaab dibatasi, respons donor lambat, dan sekitar seperempat juta orang meninggal, separuhnya anak di bawah lima tahun. Pada 2022, kekeringan serupa menghasilkan respons kemanusiaan yang jauh lebih besar sebelum kelaparan dideklarasikan, termasuk transfer tunai dan dukungan ternak yang disalurkan organisasi lokal, dan hasil terburuk dihindari di banyak daerah. Kontrasnya adalah bukti bahwa tindakan dini bekerja ketika dibiayai dan ketika akses lokal ada.
+
 ## 23.5 Suriah: Kekeringan, Pengungsian dan Konflik
 
 Antara 2006 dan 2010, Suriah mengalami kekeringan multi-tahun terburuk dalam catatan instrumental. Curah hujan turun menjadi sebagian kecil dari normal di timur laut, panen gagal, dan ternak musnah. Sekitar 1,5 juta orang bergerak dari daerah pedesaan ke kota yang sudah berjuang menyerap pengungsi Irak serta menyediakan pekerjaan dan perumahan.
@@ -3352,6 +3458,8 @@ Antara 2006 dan 2010, Suriah mengalami kekeringan multi-tahun terburuk dalam cat
 Kekeringan itu tidak menyebabkan perang saudara yang dimulai pada 2011, dan analis memperingatkan agar tidak membuat klaim kausal sederhana. Tetapi ia berkontribusi pada kondisi tempat perang berlangsung: penghidupan pedesaan runtuh, harga pangan naik, dan kegagalan pemerintah merespons mengikis legitimasi di wilayah terdampak. Studi, termasuk karya Kelley dkk. (2015) dan Selby dkk. (2017), memperdebatkan bobot kekeringan relatif terhadap faktor politik, tetapi sepakat bahwa ia berinteraksi dengannya.
 
 Kasus Suriah menggambarkan konsep pengali ancaman. Perubahan iklim tidak menentukan konflik, tetapi ia dapat memperkuat stres yang sudah ada — pengangguran, ketimpangan, migrasi, institusi lemah — dan mengurangi kapasitas negara mengelolanya. Implikasi kebijakannya bukan bahwa iklim menyebabkan perang tetapi bahwa adaptasi iklim dan pencegahan konflik harus dirancang bersama.
+
+Kekeringan Suriah menjadi kasus uji bagi argumen 'iklim sebagai pengganda ancaman', dan perdebatan di sekitarnya lebih instruktif daripada kesimpulannya. Kelley dan rekan-rekannya berargumen pada 2015 bahwa kekeringan 2006–2010, yang menjadi lebih mungkin karena perubahan iklim, berkontribusi pada keruntuhan pertanian, perpindahan pedesaan dan karena itu pada kondisi yang menghasilkan pemberontakan. Selby dan rekan-rekannya menantang rantai kausal itu pada 2017, mencatat bahwa kekeringan memengaruhi daerah berbeda secara berbeda dan bahwa ekonomi politik, bukan curah hujan, menentukan siapa yang terpapar. Pertukaran itu memperjelas bahwa iklim dapat menjadi kondisi penyumbang tanpa menjadi sebab yang memadai.
 
 ## 23.6 Yaman: Air, Konflik dan Penyakit
 
@@ -3361,6 +3469,8 @@ Konflik yang dimulai pada 2014 menghancurkan sebagian besar infrastruktur air da
 
 Yaman menggambarkan interaksi kelangkaan air, konflik, dan penyakit. Setiap stresor mengurangi kapasitas mengelola yang lain: perang merusak infrastruktur, kelangkaan menaikkan harga, penyakit mengalahkan layanan kesehatan, dan ketidakstabilan yang dihasilkan membuat rekonstruksi lebih sulit. Kasus itu menunjukkan bahwa keamanan air bukan hanya soal pasokan tetapi soal tata kelola, infrastruktur, dan perdamaian.
 
+Krisis air Yaman mendahului perangnya dan menjadi malapetaka karena perang itu. Akuifer ibu kota telah disedot selama puluhan tahun, dan penggunaan air pertanian, terutama untuk qat, mencakup mayoritas besar konsumsi. Perang menghancurkan infrastruktur pompa, memindahkan jutaan orang, dan menciptakan kondisi bagi wabah kolera terbesar di dunia. Truk tangki air menjadi jalur pasokan utama bagi sebagian besar penduduk, dengan biaya yang tidak dapat ditanggung rumah tangga. Kasus ini menunjukkan bagaimana penipisan sumber daya yang lambat dan konflik yang cepat saling berinteraksi: masing-masing membuat yang lain lebih sulit dilalui.
+
 ## 23.7 Cape Town dan São Paulo: Krisis Air Perkotaan
 
 Krisis Cape Town 2018 membawa kota besar hampir kehabisan air. Setelah tiga tahun kekeringan, level waduk turun ke sekitar 20 persen, dan pejabat bersiap menghadapi Day Zero, ketika keran dimatikan dan warga mengambil air di titik distribusi. Kota itu menghindari hasil tersebut melalui pembatasan ketat, pengelolaan tekanan, perbaikan kebocoran, dan kampanye publik, tetapi krisis itu menyingkap kerentanan kota yang tumbuh dan bergantung pada pasokan yang bervariasi.
@@ -3368,6 +3478,8 @@ Krisis Cape Town 2018 membawa kota besar hampir kehabisan air. Setelah tiga tahu
 São Paulo menghadapi krisis serupa pada 2014–2015. Sistem waduk Cantareira, yang memasok sekitar separuh air wilayah metropolitan, turun di bawah 5 persen kapasitas, dan pejabat mempertimbangkan penjatahan. Krisis itu dikelola melalui pembatasan, transfer antarcekam air, dan curah hujan, tetapi ia menyingkap risiko bergantung pada satu sistem waduk untuk wilayah metropolitan lebih dari 20 juta orang.
 
 Kedua kasus menunjukkan bahwa krisis air perkotaan biasanya dihasilkan kombinasi kekeringan, pertumbuhan permintaan, kebocoran, dan perencanaan buruk alih-alih curah hujan semata. Kota yang berinvestasi dalam sumber yang beragam, pengelolaan permintaan, pengurangan kebocoran, dan komunikasi publik dapat bertahan dari kekeringan parah; kota yang tidak dapat mendekati keruntuhan bahkan di negara kaya.
+
+Cape Town dan São Paulo adalah dua kasus paling terdokumentasi tentang kota besar yang mendekati akhir airnya, dan keduanya lolos melalui manajemen permintaan alih-alih pasokan baru. Sistem Cantareira di São Paulo turun di bawah lima persen kapasitasnya pada 2015, dan negara bagian merespons dengan penurunan tekanan, bonus konservasi dan transfer darurat antardas. Respons Cape Town menggabungkan tarif, pembatasan, perbaikan kebocoran dan kampanye komunikasi publik yang membuat konsumsi terlihat. Dalam kedua kasus krisisnya ditunda, bukan diselesaikan: pertumbuhan permintaan yang mendasar dan paparan terhadap kekeringan multi-tahun tetap ada.
 
 ## 23.8 California: Air Tanah dan Kekeringan Panjang
 
@@ -3377,6 +3489,8 @@ Kekeringan itu menyingkap kegagalan tata kelola. Air tanah sebagian besar tidak 
 
 California juga menggambarkan interaksi kekeringan dan kebakaran. Kekeringan menewaskan jutaan pohon, dan kayu mati menjadi bahan bakar kebakaran berikutnya. Kebakaran Camp 2018 dan musim kebakaran 2020 sebagian merupakan produk tahun-tahun kekeringan. Urutannya menunjukkan bahwa bahaya lambat dan cepat saling terhubung, dan mengelola salah satunya memerlukan perhatian pada yang lain.
 
+Kebijakan kekeringan California dibentuk oleh doktrin hukum yang mendahului ilmu iklim. Prior appropriation, prinsip bahwa pengguna pertama yang mengklaim air memiliki hak tertua, mengalokasikan air berdasarkan penggunaan historis alih-alih kebutuhan kini, dan ia menjadikan air tanah sebagai penyangga yang disedot petani ketika pasokan permukaan dipangkas. Hasilnya adalah penurunan muka tanah di Central Valley, di mana permukaan tanah turun beberapa meter di sebagian daerah, secara permanen mengurangi kapasitas akuifer menyimpan air. Undang-Undang Pengelolaan Air Tanah Berkelanjutan 2014 adalah upaya serius pertama untuk mengatur pengambilan itu, dan implementasinya masih diperdebatkan.
+
 ## 23.9 Harga Pangan, Larangan Ekspor dan Krisis 2007–2008
 
 Pada 2007 dan 2008, harga pangan dunia naik tajam. Harga gandum lebih dari dua kali lipat, harga beras tiga kali lipat, dan jagung serta kedelai mencapai rekor tertinggi. Kenaikan itu didorong kombinasi faktor: permintaan biofuel, harga minyak yang naik, panen buruk di beberapa negara pengekspor, stok rendah, dan investasi spekulatif dalam futures komoditas.
@@ -3385,6 +3499,8 @@ Pemerintah merespons dengan pembatasan ekspor. India dan Vietnam membatasi ekspo
 
 Krisis itu menunjukkan bahwa ketahanan pangan bergantung pada perdagangan sebanyak pada produksi. Negara yang bergantung pada impor terpapar guncangan harga, dan negara yang membatasi ekspor mengekspor ketidakstabilan. Pelajaran bagi kebijakan iklim adalah adaptasi harus mencakup aturan perdagangan dan kerja sama regional, karena kekeringan di satu lumbung pangan dapat menjadi krisis pangan di benua lain.
 
+Krisis harga pangan 2007–2008 menunjukkan bahwa guncangan iklim dapat menjadi peristiwa global melalui pasar alih-alih melalui panen. Harga gandum dan beras lebih dari dua kali lipat, dan kenaikannya diperkuat pembatasan ekspor: ketika produsen besar melarang ekspor, importir panik dan membeli, yang mendorong harga lebih tinggi. Kerusuhan menyusul di lebih dari tiga puluh negara. Episod itu menetapkan pola yang berulang setelah 2022, ketika perang di Ukraina mengganggu pengiriman gandum dan kontrol ekspor kembali memperkuat guncangan. Ketahanan pangan karena itu merupakan fungsi kebijakan dagang sama besarnya dengan fungsi curah hujan.
+
 ## 23.10 Apa yang Diajarkan Kasus-Kasus Itu
 
 Lintas kasus, tiga pelajaran berulang. Pertama, kelaparan dan krisis air biasanya kegagalan hak atas pangan dan tata kelola alih-alih kelangkaan absolut. Pengetahuan yang diperlukan untuk mencegahnya ada, dan pangan atau airnya sering tersedia; yang gagal adalah akses, keterjangkauan, dan kemauan politik.
@@ -3392,6 +3508,8 @@ Lintas kasus, tiga pelajaran berulang. Pertama, kelaparan dan krisis air biasany
 Kedua, peringatan dini perlu tetapi tidak cukup. Somalia 2011 memiliki peringatan dan tetap mengalami kelaparan; Etiopia 1984–85 memiliki peringatan dan pemerintah yang memprioritaskan perang. Yang mengubah hasil adalah penerjemahan peringatan menjadi tindakan awal, yang memerlukan pembiayaan yang telah diatur, pemrograman yang luwes, dan akses.
 
 Ketiga, darurat lambat bersifat kumulatif dan saling terhubung. Kekeringan menguras air tanah, pengurasan air tanah mengurangi ketangguhan terhadap kekeringan berikutnya, dan kekeringan yang digabungkan dengan konflik menghasilkan kelaparan. Mengelolanya memerlukan investasi jangka panjang dalam infrastruktur air, perlindungan sosial, dan penyelesaian konflik, bukan hanya bantuan darurat. Kasus-kasus itu menunjukkan bahwa intervensi paling efektif sering yang paling tidak dramatis: transfer tunai, sumur bor, pengelolaan padang rumput, dan kesepakatan damai.
+
+Kasus-kasus itu bertemu pada pelajaran yang mudah dinyatakan dan sulit dilembagakan: kelaparan biasanya kegagalan akses, informasi dan kemauan politik alih-alih kegagalan produksi pangan. Instrumen yang bekerja sudah diketahui — peringatan dini, transfer tunai, perlindungan sosial, akses pasar, dan negosiasi kemanusiaan — dan semuanya lebih murah daripada respons darurat yang menyusul deklarasi. Yang hilang adalah mandat untuk bertindak atas proyeksi alih-alih atas malapetaka, yang merupakan masalah politik yang menyamar sebagai masalah teknis.
 
 ## 23.11 Studi Kasus: Kelaparan Somalia 2011
 
@@ -3404,6 +3522,8 @@ Kelaparan itu juga kegagalan penghidupan. Pastoralis bergantung pada ternak untu
 Responsnya, ketika datang, besar tetapi terlambat. Bantuan pangan, transfer tunai, pemberian makan terapeutik, dan layanan kesehatan menjangkau jutaan orang, dan tingkat kematian turun. Tetapi keterlambatannya menelan puluhan ribu nyawa, dan krisis itu memindahkan ratusan ribu orang ke negara tetangga. Pelajarannya dimasukkan ke perencanaan berikutnya, dan respons 2022 lebih cepat serta lebih luwes.
 
 Kasus itu menggambarkan argumen utama bab ini: darurat lambat bersifat politik. Curah hujan adalah pemicu, tetapi kelaparan dihasilkan konflik, akses terbatas, penghidupan yang gagal, dan respons yang terlambat. Mencegah yang berikutnya memerlukan tindakan awal sekaligus peringatan dini, dan memerlukan penanganan konflik serta kemiskinan yang membuat kekeringan mematikan.
+
+Kelaparan Etiopia 1984–85 adalah kasus yang membuat kelaparan terlihat oleh dunia, dan warisannya bermata dua. Laporan televisi menghasilkan respons publik yang belum pernah terjadi, termasuk konser Live Aid, dan menetapkan model kemanusiaan selebriti yang masih membentuk penggalangan dana bencana. Laporan itu juga menyederhanakan darurat politik yang kompleks menjadi kisah kekeringan dan kemurahan hati, mengaburkan peran konflik dan kebijakan pemukiman ulang. Kasus ini mengingatkan bahwa keterlihatan tidak sama dengan pemahaman, dan bahwa cerita yang dibawa sebuah bencana dapat menentukan apakah bencana berikutnya dicegah.
 
 ## 23.12 Skenario dan Prediksi Masa Depan: Ketahanan Pangan dan Air pada 2050
 
@@ -3443,6 +3563,8 @@ Perbandingan itu bukan argumen bahwa bencana telah terpecahkan. Amphan tetap men
 
 Bab terakhir ini mengubah analisis buku menjadi tindakan. Bab ini memaparkan apa yang dapat dilakukan rumah tangga, lingkungan, kota, usaha, dan pemerintah, dalam urutan apa, dan bagaimana mengetahui apakah upaya itu bekerja. Bab ini diorganisasi menurut cakrawala waktu — jam pertama, pekan pertama, tahun pertama — dan menurut tingkat organisasi, dari rumah tangga hingga negara. Tujuannya bukan daftar segala hal yang dapat dilakukan tetapi urutan hal yang paling penting.
 
+Rencana aksi gagal karena alasan yang dipahami dengan baik dan jarang dirancang untuknya: rencana itu mengasumsikan bahwa rencananya akan diikuti. Dalam praktik, respons diimprovisasi dari apa pun yang tersedia, oleh orang yang takut dan lelah, di bawah informasi yang salah. Rencana yang berguna karena itu bukan dokumen yang menentukan setiap langkah melainkan seperangkat keputusan yang dibuat sebelumnya — siapa yang memutuskan, siapa yang dihubungi, apa yang disimpan, apa yang ditinggalkan — sehingga improvisasinya dimulai dari tempat yang lebih baik.
+
 ## 24.1 Siklus Kesiapsiagaan
 
 Kesiapsiagaan adalah siklus alih-alih proyek: menilai risiko, merencanakan respons, melaksanakan rencana, memeriksa apakah berhasil, dan beradaptasi. Siklus itu dikenal dari manajemen keselamatan dan perbaikan mutu, dan ia berlaku bagi rumah tangga, perusahaan, dan pemerintah. Kegagalan paling umum bukan ketiadaan rencana tetapi ketiadaan langkah pemeriksaan dan adaptasi, itulah sebabnya rencana menjadi usang ketika bahaya dan populasi berubah.
@@ -3450,6 +3572,8 @@ Kesiapsiagaan adalah siklus alih-alih proyek: menilai risiko, merencanakan respo
 Penilaian dimulai dengan bahaya dan paparan: apa yang dapat terjadi di sini, seberapa sering, dan kepada siapa. Ia berlanjut dengan kerentanan dan kapasitas: siapa yang paling terdampak, sumber daya apa yang ada, dan celah apa yang tersisa. Penilaian yang baik menggunakan pengetahuan lokal sekaligus data teknis, karena warga tahu jalan mana yang banjir, tetangga mana yang perlu bantuan, dan di mana air menggenang.
 
 Perencanaan mengubah penilaian menjadi keputusan: siapa melakukan apa, dengan sumber daya apa, dan kapan. Rencana yang baik singkat, spesifik, dan dilatih. Rencana yang belum pernah diuji adalah hipotesis, dan ujian pertamanya seharusnya bukan darurat itu sendiri. Latihan menyingkap celah komunikasi, wewenang, dan logistik yang tidak dapat diantisipasi dokumen mana pun.
+
+Siklus kesiapsiagaan — menilai, merencanakan, berlatih, mengevaluasi, merevisi — dipinjam dari manajemen keselamatan dan memiliki kelemahan yang diketahui. Latihan cenderung menguji rencana alih-alih kapasitas, karena skenarionya ditulis orang yang menulis rencananya, dan evaluasinya memberi imbalan pada kepatuhan alih-alih penemuan. Program latihan Amerika yang dikenal sebagai HSEEP mencoba mengoreksinya dengan mewajibkan tinjauan pasca-aksi dengan tindakan korektif dan tenggat spesifik. Bukti dari organisasi yang memakainya dengan baik menunjukkan bahwa nilainya terletak bukan pada latihannya melainkan pada tindak lanjutnya, yang juga bagian yang paling sering dilewati.
 
 ## 24.2 Jam Pertama, Hari Pertama dan Pekan Pertama
 
@@ -3459,6 +3583,8 @@ Pada hari pertama, prioritasnya air, pangan, tempat berlindung, obat, dan komuni
 
 Pada pekan pertama, prioritasnya stabilisasi dan dokumentasi. Rumah tangga harus memotret kerusakan sebelum perbaikan, menghubungi perusahaan asuransi, menyimpan kwitansi, dan mengajukan bantuan. Mereka harus mewaspadai risiko kesehatan — air tercemar, jamur, panas, karbon monoksida — dan efek kesehatan mental akibat kehilangan. Komunitas harus mengorganisasi berbagi informasi, karena saluran resmi sering lambat dan terfragmentasi.
 
+Jam pertama didominasi ketidakpastian, dan persiapan yang paling berguna adalah yang menguranginya. Rumah tangga yang telah menyepakati titik temu, kontak konfirmasi di luar daerah terdampak, dan aturan keputusan untuk evakuasi tidak perlu menegosiasikan pertanyaan itu sambil bangunannya bergoyang. Logika yang sama berlaku untuk utilitas: mengetahui di mana katup gas dan cara menutupnya adalah keterampilan lima menit yang mencegah kebakaran. Sebagian besar kematian pada jam pertama dapat dicegah melalui tindakan yang lebih cepat dipelajari daripada kursus pertolongan pertama.
+
 ## 24.3 Bulan Pertama: Pemulihan dan Hak
 
 Pemulihan adalah fase tempat ketimpangan direproduksi atau dikurangi, dan ia fase yang paling sedikit mendapat perhatian. Pada bulan pertama, rumah tangga harus menavigasi asuransi, bantuan pemerintah, tuan rumah, pemberi kerja, dan pemberi pinjaman, sering sambil mengungsi dan trauma. Mereka yang memiliki dokumen, tabungan, pengetahuan hukum, dan jaringan sosial pulih lebih cepat; yang tidak mungkin tidak pernah pulih sepenuhnya.
@@ -3466,6 +3592,8 @@ Pemulihan adalah fase tempat ketimpangan direproduksi atau dikurangi, dan ia fas
 Langkah praktisnya penting. Simpan catatan tertulis kontak, klaim, dan pembayaran. Foto dan inventarisasi kerugian. Baca polis asuransi untuk pengecualian, terutama banjir, dan banding keputusan yang tampak salah. Ajukan ke setiap program yang mungkin memenuhi syarat, dan cari bantuan dari bantuan hukum, organisasi komunitas, atau manajer kasus bencana jika tersedia.
 
 Penyewa sangat terpapar. Mereka dapat kehilangan tempat tinggal tanpa kehilangan aset, dan mereka sering memiliki hak lebih sedikit serta akses bantuan lebih kecil daripada pemilik. Pemerintah lokal dapat melindungi mereka dengan menegakkan standar kelayakan huni, memperpanjang perlindungan penggusuran setelah bencana, dan membuat bantuan dapat dipindahkan. Tanpa langkah itu, program pemulihan dapat mempercepat pengungsian dan gentrifikasi.
+
+Bulan pertama adalah negosiasi dengan institusi, dan hasilnya bergantung pada dokumentasi dan kegigihan. Klaim asuransi rutin dibayar di bawah nilai pada tawaran pertama, dan rumah tangga yang tidak mengajukan keberatan meninggalkan uang di meja; program bantuan publik menuntut dokumen yang mungkin tidak dimiliki orang terlantar. Penipuan kontraktor umum setelah bencana karena permintaannya mendesak dan verifikasinya lambat. Perlindungan praktisnya tidak glamor: simpan salinan, foto semuanya, jangan menandatangani kontrak pertama, dan gunakan layanan manajemen kasus gratis yang biasanya disediakan bencana.
 
 ## 24.4 Tahun Pertama: Membangun Kembali Lebih Baik
 
@@ -3475,6 +3603,8 @@ Rumah tangga dan komunitas harus menuntut membangun kembali lebih baik, dan peme
 
 Tahun itu juga waktu untuk memperkuat infrastruktur sosial. Jaringan lingkungan, kelompok relawan, dan organisasi komunitas yang terbentuk selama respons dapat diformalkan dan didukung. Pengetahuan mereka tentang siapa yang perlu bantuan adalah aset yang tidak mudah direplikasi basis data pemerintah mana pun, dan keberadaan mereka mengurangi biaya respons berikutnya.
 
+Jendela rekonstruksi adalah periode ketika profil risiko sebuah komunitas ditetapkan untuk puluhan tahun, dan ia menutup lebih cepat daripada yang dibayangkan orang. Keputusan tentang elevasi, garis sempadan, material dan infrastruktur dibuat di bawah tekanan, sering oleh lembaga yang tidak punya kepentingan jangka panjang di tempat itu. Bukti lebih mendukung rekonstruksi yang digerakkan pemilik, di mana rumah tangga membangun kembali dengan bantuan teknis dan uang tunai, daripada program yang digerakkan kontraktor, karena ia menahan uang di ekonomi lokal dan menghasilkan bangunan yang sesuai cara orang benar-benar tinggal. Ia juga menuntut supervisi, bagian yang sulit dibiayai donor.
+
 ## 24.5 Daftar Periksa Kota dan Pemerintah Daerah
 
 Kota adalah tempat sebagian besar risiko iklim terkonsentrasi dan tempat sebagian besar keputusan adaptasi diambil. Kota yang ingin siap memerlukan rencana aksi panas dengan pusat pendinginan dan penjangkauan warga rentan; rencana banjir dengan pemeliharaan drainase, pengendalian tata guna lahan, dan jalur evakuasi; sistem peringatan yang menjangkau setiap lingkungan; dan daftar orang yang memerlukan bantuan.
@@ -3482,6 +3612,8 @@ Kota adalah tempat sebagian besar risiko iklim terkonsentrasi dan tempat sebagia
 Ia juga memerlukan infrastruktur yang membosankan: saluran yang terpelihara, pompa yang berfungsi, pohon dan naungan, air yang andal, listrik cadangan untuk klinik dan tempat berlindung, serta kode bangunan yang ditegakkan. Itu bukan investasi menarik, dan jarang mendapat kredit politik, itulah sebabnya ia kronis kekurangan dana. Kota yang membelanjakan untuk acara tetapi tidak untuk drainase tidak siap, apa pun kata rencananya.
 
 Akhirnya, kota memerlukan institusi yang dapat berkoordinasi. Panas melibatkan kesehatan, layanan sosial, utilitas, dan transportasi; banjir melibatkan air, perencanaan, layanan darurat, dan infrastruktur. Seseorang harus bertanggung jawab atas keseluruhan, dan koordinasinya harus dilatih sebelum peristiwa. Kota yang menunjuk pejabat ketangguhan kepala dan melatih komando bersama berkinerja lebih baik daripada yang tidak.
+
+Kota memiliki kendali paling langsung atas penentu risiko iklim, dan intervensinya sudah diketahui. Rencana aksi panas, yang dirintis di Ahmedabad setelah gelombang panas 2010, menggabungkan peringatan dini, pusat pendinginan, jangkauan ke warga rentan dan perubahan jam kerja; evaluasi menunjukkan penurunan kematian. Perawatan drainase, permukaan permeabel dan lahan basah yang dipulihkan mengurangi puncak banjir dengan biaya sebagian kecil dari saluran beton. Hambatannya bukan pengetahuan melainkan kenyataan bahwa pemeliharaan tidak punya acara peresmian, dan manfaatnya dinikmati orang yang tidak memilih pada pemilu berikutnya.
 
 ## 24.6 Daftar Periksa Kebijakan Nasional
 
@@ -3491,6 +3623,8 @@ Pemerintah juga mengendalikan insentif yang membentuk keputusan swasta. Harga as
 
 Keputusan nasional terpenting adalah memperlakukan adaptasi sebagai infrastruktur publik inti alih-alih rangkaian proyek. Itu berarti pos anggaran, rezim pemeliharaan, indikator kinerja, dan audit. Itu juga berarti menerima bahwa sebagian tempat tidak dapat dipertahankan tanpa batas, dan merencanakan relokasi terkelola di tempat yang tidak terhindarkan — keputusan yang menyakitkan secara politik dan rumit secara administratif, tetapi lebih murah daripada keruntuhan yang tidak terkelola.
 
+Pemerintah nasional menetapkan aturan yang menentukan apakah tindakan lokal mungkin. Instrumen yang paling penting tidak glamor: kode bangunan dengan penegakan, sistem peringatan dini yang menjangkau mil terakhir, perlindungan sosial yang dapat diperluas cepat, dan dana kontingensi yang dapat dibelanjakan sebelum bencana dideklarasikan. Perlindungan sosial adaptif — transfer tunai yang otomatis meningkat ketika pemicu terpenuhi — adalah inovasi terkini yang paling menjanjikan, karena ia memakai sistem penyaluran yang sudah ada alih-alih membangun yang baru selama darurat.
+
 ## 24.7 Usaha, Pekerjaan dan Kesinambungan
 
 Usaha adalah korban sekaligus vektor risiko iklim. Pabrik yang terendam kehilangan produksi; pemasok yang gagal mengganggu rantai global; tempat kerja tanpa perlindungan panas membahayakan pekerja. Perencanaan kesinambungan — mengidentifikasi fungsi kritis, lokasi cadangan, pemasok alternatif, dan protokol komunikasi — mengurangi kerugian dan melindungi lapangan kerja.
@@ -3498,6 +3632,8 @@ Usaha adalah korban sekaligus vektor risiko iklim. Pabrik yang terendam kehilang
 Standar panas di tempat kerja adalah isu yang tumbuh. Pekerja luar dan dalam ruangan di lingkungan panas memerlukan istirahat, air, naungan, dan jadwal yang disesuaikan, dan ketiadaan standar adalah penyebab utama penyakit yang dapat dicegah. Sebagian yurisdiksi telah mengadopsi aturan panas; banyak yang belum. Pengusaha yang memperlakukan panas sebagai isu produktivitas alih-alih isu keselamatan bersikap lalai sekaligus tidak rasional secara ekonomi, karena panas mengurangi keluaran sekaligus membahayakan pekerja.
 
 Rantai pasok memerlukan perhatian khusus. Perusahaan yang bergantung pada satu pemasok, satu pelabuhan, atau satu wilayah terpapar gangguan, dan banjir Thailand 2011 menunjukkan bagaimana satu peristiwa dapat memengaruhi produksi di seluruh dunia. Diversifikasi, penyangga persediaan, dan penilaian risiko pemasok mahal, tetapi gangguan juga mahal, dan keseimbangannya bergeser seiring peristiwa ekstrem menjadi lebih sering.
+
+Kelangsungan usaha biasanya diajarkan sebagai disiplin teknis, dan pelajaran terpentingnya adalah tentang ketergantungan. Perusahaan yang mencadangkan datanya tetapi bergantung pada satu pemasok di zona banjir tidak tangguh, dan perusahaan yang punya genset tetapi tidak punya kontrak bahan bakar juga tidak tangguh. Usaha kecil dan menengah adalah yang paling rentan dan paling sedikit bersiap, dan sebagian besar dari mereka yang tutup setelah bencana tidak pernah buka lagi. Langkah praktisnya adalah memetakan rantai — pemasok, utilitas, transportasi, staf — dan mengidentifikasi titik kegagalan tunggal yang dapat dihilangkan dengan investasi moderat.
 
 ## 24.8 Mengukur Kesiapan
 
@@ -3507,6 +3643,8 @@ Indikator praktis mencakup porsi rumah tangga dengan air dan pangan dua pekan; p
 
 Latihan adalah ujian paling informatif. Latihan yang menyingkap tautan komunikasi yang putus, wewenang yang tidak jelas, atau tempat berlindung yang tidak dapat diakses sangat berharga, karena ia menyingkap masalah ketika masih dapat diperbaiki. Organisasi yang paling cepat belajar adalah yang memperlakukan latihan sebagai eksperimen alih-alih pertunjukan, dan yang menerbitkan temuannya.
 
+Kesiapan sulit diukur karena yang diukur adalah kapasitas, bukan dokumen. Indikator cenderung menghitung masukan: rencana tertulis, latihan diadakan, lokakarya dilaksanakan. Pendekatan yang lebih baik adalah menguji kinerja dalam kondisi realistis dan mengukur waktu yang dibutuhkan untuk memulihkan fungsi kritis — air, listrik, komunikasi, layanan kesehatan — setelah guncangan simulasi. Pelajaran dari sektor yang melakukannya dengan baik, seperti penerbangan dan tenaga nuklir, adalah bahwa pengukuran hanya mengubah perilaku ketika independen dan hasilnya dipublikasikan.
+
 ## 24.9 Pembiayaan dan Urutan
 
 Sumber daya terbatas, jadi urutan penting. Imbal hasil tertinggi biasanya datang dari langkah yang murah, cepat, dan melindungi lintas banyak bahaya: peringatan dini, rencana panas, pemeliharaan drainase, penyimpanan air, vaksinasi, dan perlindungan sosial. Itu bukan investasi paling terlihat, itulah sebabnya ia sering dilewati demi infrastruktur besar.
@@ -3515,6 +3653,8 @@ Bukti tentang imbal hasilnya kuat. Studi tentang sistem peringatan dini menemuka
 
 Mekanisme pembiayaan harus sesuai garis waktu. Pembiayaan kontinjen yang telah diatur untuk respons, asuransi dan obligasi bencana untuk kerugian besar, pos anggaran untuk pemeliharaan, dan pembiayaan konsesional untuk adaptasi di negara berpenghasilan rendah masing-masing melayani tujuan berbeda. Kegagalan umumnya adalah bergantung pada seruan pascabencana, yang lambat, tidak pasti, dan tidak memadai relatif terhadap kebutuhan.
 
+Membiayai adaptasi adalah masalah urutan sama besarnya dengan masalah jumlah. Tindakan dengan imbal hasil tertinggi sering yang termurah dan tercepat: peringatan dini, rencana panas, perawatan drainase, vaksinasi, perlindungan sosial. Semuanya juga paling tidak menarik bagi donor karena sulit diatribusikan dan tidak menghasilkan monumen yang terlihat. Investasi lebih besar — tanggul laut, leve, relokasi — diperlukan di beberapa tempat dan harus menyusul, bukan mendahului, tindakan rendah penyesalan yang membeli waktu dan kredibilitas.
+
 ## 24.10 Apa yang Dibutuhkan untuk Bertahan Hidup
 
 Argumen buku ini, diringkas, adalah bahwa bertahan hidup merupakan fungsi persiapan, kerja sama, dan keadilan. Persiapan mengurangi peluang bahaya menjadi katastrofi; kerja sama memungkinkan orang bertindak bersama ketika institusi kewalahan; dan keadilan memastikan perlindungan menjangkau mereka yang paling membutuhkannya. Tidak satu pun dari ketiganya cukup sendiri, dan ketiganya dapat dibangun.
@@ -3522,6 +3662,8 @@ Argumen buku ini, diringkas, adalah bahwa bertahan hidup merupakan fungsi persia
 Bukti untuk klaim itu ada dalam kasus-kasus. Bangladesh menurunkan kematian akibat siklon dengan urutan besaran melalui tempat berlindung, peringatan, dan relawan. Negara Eropa menurunkan kematian akibat panas setelah 2003 melalui rencana dan penjangkauan. Kota yang berinvestasi dalam drainase dan peringatan mengalami kerugian lebih kecil daripada yang tidak. Perbaikannya tidak dihasilkan cuaca yang lebih baik; ia dihasilkan institusi yang lebih baik.
 
 Masa depan akan menguji institusi itu lebih keras. Pemanasan sudah terkunci, ekstrem semakin intens, dan jendela untuk menghindari hasil terburuk menyempit. Tetapi pilihannya bukan antara optimisme dan keputusasaan; ia antara persiapan dan kelalaian. Buku ini ditutup dengan klaim sederhana: masyarakat yang bertahan dalam dekade mendatang adalah mereka yang memperlakukan pandangan ke depan sebagai barang publik, membangun institusi yang belajar, dan melindungi orang yang tidak dapat melindungi diri sendiri.
+
+Kesimpulan yang dicapai buku ini bukan bahwa kelangsungan hidup bergantung pada bunker, stok pribadi atau rencana pelarian pribadi. Ia bergantung pada kapasitas biasa yang dibangun masyarakat ketika mereka memutuskan untuk membangunnya: infrastruktur yang berfungsi, institusi yang dapat dipercaya, jaringan sosial, dan distribusi risiko yang adil. Kesiapsiagaan adalah praktik, bukan pembelian, dan ia diukur pada tahun-tahun antara bencana, ketika tampaknya tidak terjadi apa-apa dan pekerjaannya adalah pemeliharaan.
 
 ## 24.11 Studi Kasus: Dari Bhola ke Amphan
 
@@ -3534,6 +3676,8 @@ Hasilnya terukur. Siklon dengan intensitas sebanding pada dekade berikutnya meng
 Perbandingan itu bukan kisah sukses sempurna. Tempat berlindung tersebar tidak merata, evakuasi lebih sulit bagi orang dengan ternak atau disabilitas, dan COVID-19 mempersulit kepadatan. Tetapi penurunan kematian adalah salah satu contoh terjelas kesiapsiagaan yang bekerja dalam skala besar, dan ia dicapai melalui investasi publik berkelanjutan selama lima dekade.
 
 Pelajarannya dapat ditransfer. Peringatan harus menjangkau mil terakhir, dan harus diulang melalui penyampai lokal yang dipercaya. Tempat berlindung harus cukup dekat untuk dicapai dengan berjalan kaki, dan aksesibel bagi penyandang disabilitas. Evakuasi harus dilatih, karena orang tidak mengikuti instruksi yang tidak dikenal di bawah tekanan. Dan sistem harus dipelihara di antara peristiwa, karena kesiapsiagaan memudar ketika perhatian berpindah.
+
+Kasus yang paling berguna bagi pembaca yang ingin bertindak bukan malapetaka melainkan kota yang bersiap sebelum malapetaka datang. Rencana aksi panas Ahmedabad, yang dikembangkan setelah gelombang panas 2010 menewaskan lebih dari seribu orang, menjadi model karena spesifik: pemicu prakiraan, peringatan berkode warna, pusat pendinginan di gedung publik, jangkauan melalui tenaga kesehatan komunitas, dan perubahan jam sekolah dan kerja. Evaluasi memperkirakan rencana itu mencegah ratusan kematian pada tahun-tahun berikutnya. Biayanya sebagian kecil dari kerugian yang dihindari, dan itulah argumen kesiapsiagaan dalam bentuknya yang paling konkret.
 
 ## 24.12 Skenario dan Prediksi Masa Depan: Dunia yang Siap pada 2050
 

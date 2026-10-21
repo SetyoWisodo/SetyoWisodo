@@ -2804,6 +2804,8 @@ The results were measurable. Kerosene use fell; children gained study hours; sho
 
 This chapter examines renewable energy and appropriate technologies as instruments of resilience. It covers solar and wind, storage and grid flexibility, mini-grids and off-grid systems, clean cooking, efficiency, and the supply chains and politics that determine whether these technologies spread fast enough. The argument is not that technology alone will solve the climate crisis, but that the falling cost of modular clean energy has changed what is possible for households, communities and countries.
 
+Renewables are usually argued about as a climate policy, and their strongest case is actually a resilience case. A photovoltaic array on a roof produces power when the transmission line is down; a wind farm does not need a fuel convoy; a mini-grid can island itself and keep a clinic running. The same technologies that reduce emissions also reduce the length of the dependency chain between a household and the energy it needs, and that shortening is worth as much in a crisis as the carbon saved.
+
 ## 19.1 Why Renewables Are a Resilience Technology
 
 Renewable energy is usually discussed as a mitigation strategy — a way to reduce emissions. It is also an adaptation strategy, because it changes the failure modes of energy systems. A coal plant depends on a fuel supply chain, cooling water and a centralised grid; a solar array depends on sunlight. When floods block roads or droughts reduce river flows, the solar array keeps producing, and a system built from many small units fails gradually rather than all at once.
@@ -2811,6 +2813,8 @@ Renewable energy is usually discussed as a mitigation strategy — a way to redu
 Modularity is the key property. A large central plant is efficient but brittle: one failure can remove a gigawatt from the grid. A distributed system composed of thousands of rooftops, batteries and small generators can lose pieces without losing the whole. That is why hospitals, clinics and community shelters increasingly combine grid connection with rooftop solar and batteries, so that they can operate when the grid fails.
 
 Renewables also reduce exposure to fuel price shocks. Countries that import oil and gas are vulnerable to price spikes caused by conflict, shipping disruption or market manipulation; the 2022 energy crisis, following Russia's invasion of Ukraine, raised electricity and heating costs across Europe and pushed millions of households into fuel poverty. Solar and wind, once built, have no fuel cost, which makes their operating economics predictable even when commodity markets are not.
+
+The International Energy Agency's projections have been revised upward so often that the direction of travel is no longer in doubt: renewables supplied roughly thirty per cent of global electricity in 2023 and are on course for close to half by 2030 under current policies. The interesting question has shifted from whether the transition will happen to where the capacity will be manufactured and who will own it. China produces the great majority of solar modules, wafers and cells, which makes the energy transition a supply-chain question as much as a technological one, and gives a small number of countries leverage over the speed at which others can adapt.
 
 ## 19.2 Solar: The Learning Curve
 
@@ -2820,6 +2824,8 @@ Deployment followed the price. Global solar capacity passed one terawatt in 2022
 
 The technology has limits. Solar produces only during daylight, so it requires storage or complementary generation to meet evening demand; output varies with weather and season; and it requires land or roof space. In high-latitude winters, output can fall sharply. These limits are manageable with storage, transmission and diversified generation, but they mean that solar alone is not a complete system. The integration challenge, not the generation cost, is now the main constraint.
 
+Solar has followed a learning curve so regular that it is now used as the textbook example. Module prices have fallen by roughly ninety per cent since 2010, and the decline has tracked cumulative installed capacity rather than time, which is why forecasts that assumed linear cost reduction were wrong every year for two decades. The consequence is that solar is now the cheapest source of new electricity in most markets, and that the constraint on deployment has moved from cost to grid connection, land, permitting and storage — the slower, more political parts of the system.
+
 ## 19.3 Wind Power and the Variability Problem
 
 Wind power is the other mature renewable technology. Global capacity passed 1,000 gigawatts in 2023, with the largest installations in China, the United States, Germany, India and Spain. Offshore wind has grown rapidly because turbines can be larger and winds steadier at sea, and because offshore sites are close to coastal demand centres. The cost of offshore wind fell sharply before rising again in 2022–2023 as supply chains tightened and interest rates rose.
@@ -2827,6 +2833,8 @@ Wind power is the other mature renewable technology. Global capacity passed 1,00
 Wind shares solar's variability but not its daily pattern. In some regions, wind output is higher at night and in winter, which complements solar; in others, wind droughts — periods of unusually low wind — can last for days or weeks. The 2021 wind drought in Europe reduced output at a time of high demand, contributing to the energy price spike. Systems that rely heavily on wind need storage, interconnection and dispatchable backup to manage these periods.
 
 Wind also has social constraints. Turbines are visible, can be noisy, and affect landscapes and wildlife; opposition has slowed projects in several countries. The constraints are real but manageable with better siting, community benefit sharing and early consultation. The alternative — continuing to rely on fossil fuels — carries larger environmental and social costs, but that comparison is not always made in local planning debates.
+
+Wind's problem is not cost but shape. A modern turbine converts thirty to forty-five per cent of the wind passing through it into electricity, which is remarkable for a machine, but the wind itself arrives when it arrives. Grid operators therefore plan for capacity credit rather than nameplate capacity, and the difference matters: a system with a terawatt of installed wind may have a firm contribution of a fraction of that on the coldest, stillest evening of the year. The engineering answer is a portfolio of generation, interconnection, storage and demand flexibility; the political answer is usually to argue about the nameplate figure.
 
 ## 19.4 Storage, Flexibility and the Grid
 
@@ -2836,6 +2844,8 @@ Lithium-ion battery costs fell by about 85 per cent between 2010 and 2023, and g
 
 Flexibility also comes from how demand is managed. Time-of-use tariffs, smart thermostats, industrial load shifting and electric vehicle charging can move consumption to times when supply is abundant. Interconnection allows regions with different weather to share power, which reduces the total storage needed. The combination of storage, demand flexibility, interconnection and diversified generation is what makes a high-renewable grid reliable, not any single technology.
 
+Storage is the technology that converts intermittent generation into firm capacity, and its cost has fallen faster than most analysts expected. Lithium-ion battery packs are roughly ninety per cent cheaper than in 2010, and grid-scale installations grew from a novelty to a standard asset class within a decade. Four hours of storage is now the default configuration, which suits daily cycling but not the week-long wind drought that a reliable system must survive. Pumped hydro still accounts for the overwhelming majority of stored energy worldwide, and the longer-duration problem remains largely unsolved outside geography that allows reservoirs.
+
 ## 19.5 Mini-Grids and Off-Grid Solar
 
 About 700 million people still lack access to electricity, most of them in sub-Saharan Africa and South Asia. Extending the grid to remote areas is expensive and slow, and in some places it may never be economic. Mini-grids — small, local generation and distribution systems, often solar with battery storage — can provide reliable power to communities that the grid does not reach.
@@ -2843,6 +2853,8 @@ About 700 million people still lack access to electricity, most of them in sub-S
 The economics have improved dramatically. A solar mini-grid can now deliver electricity at a cost competitive with diesel in many off-grid areas, and far below the cost of kerosene or candles per unit of light. The main barriers are financing, regulation and maintenance: mini-grids require upfront capital, clear rules on tariffs and grid arrival, and local capacity to operate and repair equipment.
 
 The Bangladesh solar home system programme illustrates both the potential and the limits of off-grid approaches. It reached millions of households with basic lighting and phone charging, but the systems were too small for productive use, and as the grid expanded, some became redundant. The next generation of programmes combines larger systems, appliance financing and productive uses — irrigation pumps, cold storage, milling — so that electricity generates income rather than only light.
+
+Mini-grids are where the energy transition meets the last billion people. The International Energy Agency estimates that around seven hundred and sixty million people still lack electricity, most of them in sub-Saharan Africa and South Asia, and extending the main grid to many of them is neither affordable nor fast. Solar mini-grids with battery storage have become the cheapest route to service in many rural areas, and hybrid models that combine a mini-grid with household solar and productive uses — irrigation pumps, milling, cold storage — have improved their economics substantially. The failure modes are commercial rather than technical: tariffs that do not cover replacement, and customers who cannot pay.
 
 ## 19.6 Clean Cooking and Household Energy
 
@@ -2852,6 +2864,8 @@ The transition to clean cooking requires more than a stove. Liquefied petroleum 
 
 The health and climate benefits are substantial. Clean cooking reduces indoor air pollution, saves time spent collecting fuel, reduces deforestation where wood is harvested unsustainably, and cuts black carbon emissions. The barriers are economic and logistical rather than technical, which is why progress has been slow despite decades of effort and why sustained subsidy, supply chain development and behaviour change are all required.
 
+Cooking is the part of the energy transition that is least discussed and most consequential for health. Around 2.3 billion people still cook with solid fuels or kerosene, and household air pollution from those fuels is associated with millions of premature deaths a year, disproportionately among women and children. Indonesia's conversion from kerosene to liquefied petroleum gas in the 2000s reached tens of millions of households and became a model for rapid fuel switching, but it also created a subsidy that has proved politically difficult to remove. Electric cooking is the cleaner long-run answer and requires a grid that can carry the load at the evening peak.
+
 ## 19.7 Appropriate Technology and Local Capacity
 
 Appropriate technology is technology that fits the context: affordable, repairable, maintainable with local skills, and suited to local conditions. A solar home system that can be repaired by a local technician is more useful than a more efficient system that cannot be fixed. A water pump that can be maintained by the community is more sustainable than a complex system that requires external specialists.
@@ -2859,6 +2873,8 @@ Appropriate technology is technology that fits the context: affordable, repairab
 The concept has been criticised as condescending when it implies that poor communities should accept lower technology. The critique is fair when appropriate technology means second-best; it is not fair when it means fit for purpose. The relevant question is not whether a technology is advanced but whether it can be sustained, repaired and afforded over its lifetime, and whether it meets the needs of the people who use it.
 
 Local manufacturing and assembly can improve sustainability by creating jobs, reducing dependence on imports and building repair capacity. Several countries have used industrial policy to develop solar manufacturing, battery assembly and appliance production, with varying success. The most effective programmes combine technology transfer with training and finance, so that local firms can maintain and adapt the equipment rather than merely sell it.
+
+Appropriate technology is an old idea with a mixed record. E. F. Schumacher's argument in Small Is Beautiful — that technologies should suit the resources, skills and scale of the people who use them — anticipated much of the decentralised energy agenda, but the translation into practice has often failed because the technology was appropriate and the maintenance system was not. The successful cases share a pattern: local assembly, local technicians, spare parts available within a day's travel, and a financing model that matches the customer's cash flow. Kenya's pay-as-you-go solar industry, which sells systems on mobile-money instalments, is the clearest example of all four working together.
 
 ## 19.8 Critical Minerals and Supply Chains
 
@@ -2868,6 +2884,8 @@ Supply is concentrated. China refines a large share of the world's lithium, coba
 
 Diversification, recycling and substitution can reduce the risk. Recycling recovers lithium, cobalt and nickel from batteries and can supply a growing share of demand as the stock of deployed batteries increases. Substitution — sodium-ion batteries, iron-based chemistries, rare-earth-free motors — can reduce dependence on constrained materials. Mining also carries social and environmental costs, including water use, land conflict and labour abuses, which must be addressed if the transition is to be just.
 
+The transition is material before it is electrical. An electric vehicle uses roughly six times the mineral content of a conventional car, and offshore wind uses several times the copper and zinc per megawatt of a gas plant. The International Energy Agency projects that lithium demand could rise by a factor of forty by 2040 under a net-zero pathway, and the supply chain for processing those minerals is even more concentrated than the supply chain for modules: China refines the majority of the world's lithium, cobalt and rare earths. The geopolitical risk of a renewables transition is not that it will fail for lack of resources but that it will reproduce the dependency it was meant to escape.
+
 ## 19.9 Efficiency and Demand
 
 The cheapest unit of energy is the one that is not used. Energy efficiency — better insulation, more efficient appliances, LED lighting, heat pumps, efficient motors — reduces demand, lowers bills and cuts emissions, often at negative cost. The International Energy Agency has repeatedly found that efficiency measures could deliver a large share of the emissions reductions needed by 2030, and that many are cheaper than new supply.
@@ -2876,6 +2894,8 @@ Cooling is a critical case. Demand for air conditioning is growing rapidly in ho
 
 Efficiency policy faces a paradox: it is invisible, distributed and often requires upfront investment for savings that accrue over years. Households and firms systematically underinvest in efficiency because of split incentives — the landlord pays for insulation while the tenant pays the bills — and because of limited attention and capital. Standards, labelling, financing and technical support can overcome these barriers, and they are among the most cost-effective climate policies available.
 
+Efficiency is the resource that does not need to be mined, and it is chronically underbought. The International Energy Agency has described energy efficiency as the first fuel, and its estimates of the available savings in buildings, industry and transport exceed the output of any single energy source. The obstacle is not technology but the structure of incentives: a landlord who pays for a boiler does not pay the bill, a utility that sells kilowatt-hours has little reason to sell fewer, and a household facing a capital cost discounts a stream of future savings steeply. Appliance standards, building codes and on-bill financing are the instruments that have actually moved the numbers.
+
 ## 19.10 The Political Economy of Transition
 
 Energy transitions are political. Fossil fuel subsidies, which totalled more than a trillion dollars in 2022 during the price crisis, distort markets in favour of incumbents. Grid planning, permitting and market rules determine whether renewables can connect. Utility business models designed for centralised generation can resist distributed production. And communities that depend on fossil fuel employment resist changes that threaten their livelihoods.
@@ -2883,6 +2903,8 @@ Energy transitions are political. Fossil fuel subsidies, which totalled more tha
 A just transition requires addressing those interests rather than ignoring them. That means retraining and income support for workers, economic diversification for coal-dependent regions, and consultation with communities affected by new infrastructure. It also means ensuring that the benefits of the transition — cheaper electricity, cleaner air, new jobs — reach the people who bear its costs.
 
 The pace of transition is now the central variable. Renewables are cheaper than new fossil fuel plants in most markets, and the constraints are increasingly grid capacity, permitting, storage and political will rather than technology cost. The countries that build quickly will benefit from lower costs and greater energy security; the countries that delay will face higher costs, stranded assets and greater exposure to fuel price shocks.
+
+The political economy of the transition is a contest between incumbents with assets and newcomers with costs that keep falling. Fossil fuel consumption subsidies reached record levels in 2022 when energy prices spiked, and the governments that spend most on those subsidies are often the ones with the least fiscal room to adapt. Utilities face a different arithmetic: as more customers install solar and batteries, the fixed costs of the network are spread over fewer units sold, which raises tariffs, which makes self-generation more attractive. The death spiral is not inevitable, but it is the predictable result of regulating a distributed system with the tools of a centralised one.
 
 ## 19.11 Case Study: Bangladesh's Solar Home System Programme
 
@@ -2895,6 +2917,8 @@ The programme grew rapidly. By the early 2020s, more than four million systems h
 The limitations were equally instructive. The systems were too small for productive uses such as irrigation, milling or refrigeration, so they did not generate income. As the grid expanded, some households switched to grid electricity and abandoned their systems. And the financing model depended on microcredit, which excluded the poorest households who could not afford the down payment or the instalments.
 
 The lessons for other countries are specific. Off-grid solar can deliver basic services quickly and at scale, but it needs quality standards, local maintenance capacity and financing that reaches the poorest. It works best as a complement to grid expansion rather than a permanent substitute, and it should be designed to support productive use, not only lighting. Bangladesh's programme was not a complete solution, but it demonstrated that modular technology, appropriate finance and local institutions can change millions of lives.
+
+The most instructive energy case is not a country but an island. After Hurricane Maria destroyed most of Puerto Rico's transmission system in 2017, a handful of communities built solar-plus-storage microgrids that kept water pumps and clinics running while the main grid took months to return. The projects were small, expensive per kilowatt and heavily dependent on grant funding, and they demonstrated something the economics of scale cannot: a system designed for resilience has to be able to fail in pieces. The island's subsequent energy policy has tried, with limited success, to convert that lesson into a regulatory framework.
 
 ## 19.12 Future Scenarios and Predictions: Energy in 2050
 
@@ -2933,6 +2957,8 @@ The Camp Fire was followed by the COVID-19 pandemic, which arrived while many su
 
 This chapter examines the psychology of climate change: the trauma of disasters, the stress of slow-onset change, the grief of loss, and the anxiety that many people, especially the young, feel about the future. It also examines what helps: social support, meaning, action and well-designed services. The argument is that mental health is not a soft add-on to climate policy but a core dimension of how societies experience and respond to change.
 
+The mental health consequences of climate change are usually placed at the end of the list, after the physical damage has been counted, and that ordering is wrong in two ways. Psychological distress is often the most widespread health effect of an extreme event, and it is the one that lasts longest; and the way a society talks about the future shapes whether people act, which means that despair is not merely a private feeling but a public policy variable.
+
 ## 20.1 The Mental Health Burden of Climate Change
 
 Climate change affects mental health through multiple pathways. Acute events such as floods, fires and storms cause injury, bereavement, displacement and destruction, each of which increases the risk of trauma-related disorders. Slow-onset changes such as drought, sea-level rise and salinisation erode livelihoods and places, producing chronic stress and grief. And the anticipation of future change produces anxiety, anger and despair, particularly among young people.
@@ -2940,6 +2966,8 @@ Climate change affects mental health through multiple pathways. Acute events suc
 The burden is large but under-measured. Mental health is rarely included in disaster mortality statistics, and services in most countries are too thin to capture the demand. Where studies exist, they find substantial effects: a meta-analysis by Galea, Nandi and Vlahov (2005) found that a significant minority of people exposed to disasters develop post-traumatic stress disorder, and that rates are higher after events involving injury, bereavement or displacement.
 
 The burden is also unequal. People with pre-existing mental illness are more vulnerable to disruption of care; people living in poverty have fewer resources to cope; and people who are displaced, isolated or discriminated against face higher risks. The result is that climate change compounds existing mental health inequalities rather than creating a new and separate problem.
+
+The evidence base has improved without becoming precise. WHO estimates that around a billion people live with a mental disorder and that the treatment gap in low- and middle-income countries exceeds seventy-five per cent, which means the baseline is already inadequate before any climate effect is added. Reviews of the climate literature find consistent associations between extreme weather and elevated anxiety, depression and post-traumatic stress, but they also warn that prevalence estimates vary widely with method, culture and time since exposure. The honest summary is that the direction is clear and the magnitude is context-dependent.
 
 ## 20.2 Disaster Trauma
 
@@ -2949,6 +2977,8 @@ But PTSD is not the only outcome, and often not the most common. Depression, anx
 
 The trajectory matters. Most people recover with time and support, but a minority develop chronic conditions. The factors that predict recovery are social: strong networks, stable housing, financial security and access to care. That is why mental health recovery is inseparable from housing, employment and social policy, and why clinical services alone cannot address the burden.
 
+Disaster trauma follows exposure with a regularity that is almost mechanical. Norris's meta-analysis of the literature found that roughly fifteen to twenty per cent of people exposed to a severe disaster develop post-traumatic stress, with rates rising with injury, bereavement, loss of home and perceived threat to life. The same review found that the strongest protective factor was social support, and the strongest risk factor was the number of prior stressors — which means that communities hit repeatedly carry a cumulative burden that a single-event response will miss. Trauma is not evenly distributed across a disaster; it follows the fault lines that already existed.
+
 ## 20.3 Slow Onset, Drought and Solastalgia
 
 Slow-onset change produces a different kind of distress. Drought, salinisation, desertification and coastal erosion erode the landscapes and livelihoods that people depend on, often over years. The philosopher Glenn Albrecht coined the term solastalgia in 2005 to describe the distress produced by environmental change while still living in one's home place — a homesickness experienced without leaving home.
@@ -2956,6 +2986,8 @@ Slow-onset change produces a different kind of distress. Drought, salinisation, 
 The evidence from drought is substantial. Studies in Australia have found associations between drought and suicide, particularly among rural men, with Hanigan et al. (2012) estimating that drought was associated with a small but significant increase in suicide rates among men aged 30 to 49. The mechanism is likely economic and social: loss of income, debt, isolation and the erosion of masculine identities tied to farming.
 
 Slow-onset events are harder to respond to because they lack a clear beginning and end. There is no single disaster to recover from, no reconstruction programme, and no obvious point at which services should be scaled up. The result is that chronic stress accumulates without triggering the institutional response that an acute event would provoke, which is one reason why slow-onset mental health needs are so often neglected.
+
+Slow-onset events produce a different kind of injury, one that accumulates without a single moment to mourn. Glenn Albrecht coined the term solastalgia in 2005 to describe the distress caused by environmental change to one's home place, and the concept has proved useful precisely because it does not require displacement: people can be distressed by the degradation of a landscape they still inhabit. Research on drought and suicide in rural Australia has found elevated rates in drought-affected areas, and the mechanism is not simply economic; it combines financial loss, isolation, the erosion of a farming identity, and the loss of the future that was assumed.
 
 ## 20.4 Heat and Mental Illness
 
@@ -2965,6 +2997,8 @@ The pharmacological dimension is often overlooked. Many psychiatric medications 
 
 The association with suicide is well documented, though the mechanisms are complex. Studies have found higher suicide rates during hot periods, and some research suggests that heat increases impulsivity and aggression. Carleton (2017) reviewed the evidence and argued that the relationship is robust enough to warrant inclusion in suicide prevention planning, particularly as heatwaves become more frequent and intense.
 
+Heat affects mental illness through at least three routes, and the clinical one is the least known. Many antipsychotic and antidepressant medications impair thermoregulation and reduce thirst, so patients are more vulnerable to heatstroke; people with severe mental illness also have higher rates of cardiovascular and respiratory disease, worse housing, and less access to cooling. Epidemiological work has found associations between higher temperatures and suicide rates, and the 2021 heat dome in British Columbia killed hundreds of people, a large share of whom had chronic conditions and were living alone in buildings that could not be cooled.
+
 ## 20.5 Children, Young People and Eco-Anxiety
 
 Young people are exposed to climate change differently from adults: their bodies are more vulnerable to heat and disease, their education is disrupted by disasters, and their futures are shaped by decisions they did not make. They are also more aware of the issue, because it is taught in school and because it saturates social media.
@@ -2972,6 +3006,8 @@ Young people are exposed to climate change differently from adults: their bodies
 A survey by Hickman et al. (2021), published in the Lancet Planetary Health, polled 10,000 young people aged 16 to 25 in ten countries. It found that 59 per cent were very or extremely worried about climate change, 84 per cent were at least moderately worried, and 45 per cent reported that their feelings about climate change negatively affected their daily life and functioning. Many reported feeling betrayed by governments and abandoned by adults.
 
 The term eco-anxiety is sometimes used to describe these feelings, but it can be misleading. Anxiety is a normal response to a real threat, not a disorder, and pathologising it can obscure the political and social dimensions. What young people need is not treatment for caring but support, agency, accurate information and adults who take their concerns seriously.
+
+Children and young people carry a burden that is distinctive because it is shaped by anticipation rather than experience. A survey of ten thousand young people across ten countries, published in 2021, found that a large majority described the future as frightening and that a substantial minority reported that worry about climate change affected their daily life and functioning. The finding is not evidence of pathology; it is evidence of a rational response to a genuine threat, and treating it as illness risks individualising a political problem. The clinical question is when distress becomes impairment, and the policy question is what adults are doing about the thing the young are worried about.
 
 ## 20.6 Displacement, Loss and Place
 
@@ -2981,6 +3017,8 @@ Place attachment is a protective factor in normal times and a source of grief wh
 
 Cultural loss is a distinct dimension. Indigenous communities facing the loss of ancestral lands, sacred sites and traditional livelihoods experience a form of grief that is not captured by clinical categories. The loss of language, ceremony and intergenerational knowledge compounds the loss of land, and the resulting distress is collective as well as individual.
 
+Displacement multiplies mental health risk because it removes the two things that most protect people: place and network. People who move after a disaster lose neighbours, routines, schools, and the informal support that makes ordinary life possible, and they often move into temporary accommodation that is crowded, insecure and far from work. Research on planned relocation consistently finds that outcomes are better when people move together, when the destination has livelihood opportunities, and when the decision is made with the community rather than imposed on it. The mental health dimension is therefore inseparable from the design of the relocation.
+
 ## 20.7 Grief, Denial and Moral Injury
 
 Climate change produces grief for losses that have already occurred and for losses that are anticipated. This grief is sometimes called ecological grief or climate grief, and it is a rational response to real loss rather than a symptom of pathology. Recognising it as grief, rather than as depression or anxiety, can help people make sense of their experience and find ways to live with it.
@@ -2988,6 +3026,8 @@ Climate change produces grief for losses that have already occurred and for loss
 Denial is a related but different response. It can be literal — refusing to accept the evidence — or interpretive, in the form of minimisation, fatalism or distraction. Psychologists have described the defence mechanisms that climate change evokes: avoidance of threatening information, distancing from the problem, and the belief that someone else will solve it. These mechanisms are normal, but they impede action.
 
 Moral injury is increasingly recognised among people who work on climate: scientists, health workers, emergency responders and officials who feel complicit in a system that is failing. It arises when people are required to act against their values, or when they witness harm they cannot prevent. Addressing it requires institutional support, not only individual resilience, because the injury is produced by the conditions of work rather than by personal weakness.
+
+Grief, denial and moral injury are three names for responses that are often confused. Grief is the appropriate response to loss, including loss of a place or a future, and it does not require treatment; denial is a defence that protects against overwhelming information and can be adaptive in the short term and dangerous in the long term; moral injury is the damage done when a person is forced to act against their values, and it is increasingly reported among firefighters, health workers and aid staff who cannot help everyone. Naming these states accurately matters because each calls for a different response, and generic resilience training serves none of them well.
 
 ## 20.8 What Helps: Support, Meaning and Action
 
@@ -2997,6 +3037,8 @@ Psychological first aid, developed by the Inter-Agency Standing Committee and ot
 
 Meaning and action also help. People who feel that their actions matter, and who are part of collective efforts, report less despair than those who feel powerless. This is why climate action can be psychologically protective, not only politically useful. The goal is not to deny the severity of the situation but to combine honesty about risk with a sense of agency, which is sometimes called constructive hope.
 
+What helps is less mysterious than the field sometimes suggests. Psychological first aid — safety, stabilisation, connection to support, practical information — is the recommended early intervention, and it outperforms debriefing, which has been shown to be ineffective and potentially harmful. Beyond the immediate, the strongest evidence-based protective factors are social connection, a sense of agency, and meaning-making. Participation in collective action has been found to reduce distress in some studies, particularly among young people, because it converts helplessness into efficacy. The therapeutic task is not to persuade people that things are fine but to restore their sense that what they do matters.
+
 ## 20.9 Services, Treatment Gap and Integration
 
 Mental health services are the weakest part of most health systems. The World Health Organization estimates that the treatment gap for common mental disorders exceeds 75 per cent in many low- and middle-income countries, and that spending on mental health is a small fraction of total health spending. In disaster settings, the gap widens because services are disrupted precisely when demand rises.
@@ -3005,6 +3047,8 @@ Closing the gap requires task-shifting: training community health workers, teach
 
 Integration is the key principle. Mental health should be part of disaster planning, primary care, school health and social protection, rather than a separate silo activated only after a crisis. That means including psychosocial support in emergency response, screening in primary care, and continuity of care for people with pre-existing conditions. It also means collecting data, because mental health is invisible in most disaster statistics.
 
+The treatment gap is the central service problem. In high-income countries, mental health care is underfunded relative to need; in many low-income countries, there are fewer than one psychiatrist per million people, and most people who need care never see a specialist. The WHO's mhGAP programme addresses this by training general health workers to deliver a defined set of interventions, and task-shifting of this kind has the strongest evidence base in global mental health. Integrating mental health into disaster response and primary care is therefore not an aspiration but the only route that reaches the population at the scale the problem requires.
+
 ## 20.10 Communicating Without Despair
 
 How climate change is communicated affects how people feel and act. Messages that emphasise only catastrophe can produce paralysis, denial or fatalism; messages that emphasise only solutions can seem naive and can undermine trust when problems persist. The balance is honest hope: a clear account of the risk combined with a clear account of what can be done.
@@ -3012,6 +3056,8 @@ How climate change is communicated affects how people feel and act. Messages tha
 Framing matters. Research on climate communication suggests that messages which connect to values people already hold, which use local and concrete examples, and which offer specific actions are more effective than abstract global warnings. Messages that emphasise shared identity and collective efficacy are more motivating than those that emphasise individual guilt.
 
 For people experiencing distress, the most helpful response is often acknowledgment rather than argument. Telling someone that their grief is understandable, that they are not alone, and that there are things they can do is more supportive than disputing their feelings or offering false reassurance. The aim is not to eliminate anxiety but to help people live with uncertainty while remaining engaged, which is the psychological equivalent of adaptation.
+
+Communicating without despair is a technical problem with an empirical literature. Fear appeals increase attention and can increase avoidance; messages that combine a threat with a concrete efficacy path — here is what is happening, here is what works, here is what you can do — produce more engagement than either reassurance or alarm alone. Constructive hope, as distinct from optimism, is hope grounded in agency rather than in predictions that things will turn out well. The evidence suggests that audiences can tolerate difficult information, and that what they cannot tolerate is being told that nothing they do matters.
 
 ## 20.11 Case Study: The Camp Fire and Its Aftermath
 
@@ -3024,6 +3070,8 @@ The mental health consequences were severe and persistent. Clinicians reported i
 The COVID-19 pandemic arrived while many survivors were still displaced, compounding isolation and disrupting services. Subsequent wildfire seasons brought smoke and renewed evacuations, retraumatising people who had already lost homes. The sequence illustrates how repeated exposures accumulate, and how a single event can become a chronic condition when recovery is slow.
 
 The lessons are specific. Mental health services must be scaled up at the same time as shelter and supplies, not weeks later. Support must reach people where they are, including those who do not seek help. Schools, primary care and community organisations must be equipped to recognise distress and provide basic support. And recovery must address housing, income and social connection, because psychological recovery depends on material stability.
+
+The aftermath of the 2018 Kerala floods produced an instructive natural experiment in community mental health. The state had a relatively strong primary care system and a history of decentralised planning, and it deployed community volunteers to screen for distress alongside the relief effort. Evaluations describe a model in which mental health was not a separate vertical programme but part of how the response was organised, and the main constraint was supervision: volunteers could identify people who needed help, but the referral pathway to trained clinicians was thin. Screening without services produces a list, not a treatment.
 
 ## 20.12 Future Scenarios and Predictions: Mental Health in 2050
 
@@ -3062,6 +3110,8 @@ The floods coincided with preparations for the twenty-seventh Conference of the 
 
 This chapter examines the governance of climate change through the lens of justice: who is responsible for emissions, who bears the harm, and what institutions exist to redistribute costs and remedy injustice. It covers historical responsibility, loss and damage, litigation, just transition, indigenous and gender dimensions, youth participation and the reform of international institutions. The argument is that climate policy without a theory of justice is not only unfair but ineffective, because agreement on burden-sharing is what makes cooperation possible.
 
+Climate change is a justice problem before it is a technical one, because the people who have emitted least are exposed most, and because the remedies — ending fossil fuel use, changing land use, paying for loss — redistribute costs and benefits in ways that existing institutions were not designed to manage. Treating justice as a moral afterthought produces policies that are technically efficient and politically fragile; treating it as a design constraint produces policies that can actually be implemented.
+
 ## 21.1 Why Climate Change Is a Justice Problem
 
 Climate change is a justice problem for three structural reasons. First, the harms are unequal: the countries and communities that contributed least to emissions are often the most exposed to their consequences, because of geography, dependence on agriculture and limited capacity to adapt. Second, the costs of action are unequal: reducing emissions requires changes in production and consumption that fall differently on different groups. Third, the capacity to act is unequal: rich countries and rich households have resources that poor ones do not.
@@ -3069,6 +3119,8 @@ Climate change is a justice problem for three structural reasons. First, the har
 The distribution of emissions makes the point concrete. Oxfam and the Stockholm Environment Institute estimated that the richest 10 per cent of the world's population accounted for about 48 per cent of cumulative emissions between 1990 and 2015, while the poorest half accounted for about 7 per cent. The pattern holds within countries as well as between them: wealthy households drive more, fly more and heat larger homes.
 
 Justice is also a practical condition for agreement. International climate negotiations require states to accept costs that are not immediately repaid, and they will only do so if they believe the distribution is fair. The failure to resolve questions of equity — who cuts, by how much, and who pays — is one reason why negotiations have moved slowly, and why the language of justice has moved from the margins to the centre of the agenda.
+
+The philosophical literature distinguishes three dimensions of justice that are often collapsed in public argument. Distributive justice concerns who bears the costs and who receives the benefits; procedural justice concerns who gets to decide and whether the process is fair; and recognition concerns whether the people affected are treated as full participants rather than as objects of policy. A project can be distributively fair and procedurally unjust, or procedurally correct and substantively harmful, and most conflicts about adaptation projects involve all three at once. Naming the dimension helps explain why a compensation payment does not resolve a grievance about exclusion.
 
 ## 21.2 Historical Responsibility and Carbon Budgets
 
@@ -3078,6 +3130,8 @@ The remaining carbon budget — the amount that can still be emitted while keepi
 
 Different principles produce different answers. Grandfathering gives each country a share based on current emissions; convergence equalises emissions per person over time; and historical responsibility weights the budget by past contribution. Each principle has defenders and each would produce a very different distribution of effort. The practical outcome has been a hybrid: nationally determined contributions that are self-selected, combined with pledges of finance that have consistently fallen short.
 
+Historical responsibility is usually argued with cumulative emissions, and the numbers are stark. The United States has produced roughly a quarter of cumulative carbon dioxide since 1751, the European Union around seventeen per cent, and China around fourteen per cent, though China's annual emissions now exceed those of any other country. Per capita figures reverse the ranking, and consumption-based accounting shifts it again by attributing emissions to the country where goods are consumed rather than where they are made. The principle of common but differentiated responsibilities was written into the 1992 convention precisely because no single metric settles the question of who should pay.
+
 ## 21.3 Loss and Damage
 
 Loss and damage refers to the harms caused by climate change that cannot be avoided through mitigation or adaptation. It includes economic losses such as destroyed infrastructure and lost crops, and non-economic losses such as the loss of territory, culture, biodiversity and human life. For small island states, the non-economic dimension is existential: a country that loses its land loses its statehood.
@@ -3085,6 +3139,8 @@ Loss and damage refers to the harms caused by climate change that cannot be avoi
 The demand for compensation dates back to 1991, when Vanuatu proposed an insurance mechanism on behalf of the Alliance of Small Island States. It was resisted for decades, largely because wealthy countries feared open-ended liability. At COP27 in 2022, parties agreed to establish a fund, and at COP28 and COP29 the arrangements were elaborated, with initial pledges in the hundreds of millions of dollars. The sums are small relative to need: estimates of annual loss and damage in developing countries range from US$200 billion to more than US$500 billion by 2030.
 
 The fund is therefore a beginning rather than a solution. Its scale is insufficient, its contributors are a subset of those responsible, and its rules on eligibility are contested. But it establishes a principle that had been denied for thirty years: that climate harm creates obligations beyond voluntary charity. How that principle is implemented will determine whether it becomes a meaningful mechanism or a symbolic gesture.
+
+Loss and damage moved from an academic phrase to a negotiating bloc to a fund in the space of a decade. The 2022 climate conference established a fund for vulnerable countries, and by 2023 pledges had reached several hundred million dollars, a figure that is small relative to the estimated needs: studies of the residual damages that adaptation cannot prevent put the requirement in the hundreds of billions annually by 2030. The fund's design problems are as difficult as its size — who is eligible, what counts as loss, how to avoid creating incentives for inaction — and they are the reason the negotiations have been slow.
 
 ## 21.4 Climate Litigation
 
@@ -3094,6 +3150,8 @@ The Urgenda case in the Netherlands was a landmark. In 2019, the Dutch Supreme C
 
 Cases against companies have also advanced. In 2021, a Dutch court ordered Shell to reduce its emissions by 45 per cent by 2030, a ruling that was later overturned on appeal in 2024 but that signalled that corporate liability is a live question. In the United States, Held v. Montana in 2023 found that the state's failure to consider climate change when permitting fossil fuel projects violated young people's constitutional right to a clean environment. Litigation is slow and uncertain, but it creates leverage, establishes records and shifts expectations.
 
+Litigation has become a parallel system of climate governance, and its track record is mixed in instructive ways. The Urgenda case in the Netherlands established that a state owes its citizens a duty of care, and the Shell judgment in 2021 ordered a company to reduce emissions, though it was later overturned on appeal. Cases against governments have succeeded most often where domestic law already contains a duty, and cases based purely on international human rights law have struggled. The strategic value of litigation is often less the judgment than the discovery process and the publicity, both of which change behaviour before a verdict.
+
 ## 21.5 Just Transition and Labour
 
 The transition away from fossil fuels will eliminate some jobs and create others, and the distribution of those changes is a matter of justice. Coal miners, oil workers and communities that depend on fossil fuel extraction face the loss of livelihoods that were often dangerous and poorly paid but that provided identity and stability. A transition that ignores them is both unjust and politically fragile.
@@ -3101,6 +3159,8 @@ The transition away from fossil fuels will eliminate some jobs and create others
 The International Labour Organization estimates that about 1.2 billion jobs depend on a healthy environment, including agriculture, forestry, fisheries and tourism, and that the transition to a green economy could create millions of new jobs in renewable energy, efficiency and restoration. The question is whether the new jobs are in the same places, require the same skills and offer the same security as the old ones. Often they do not.
 
 Just transition policies include retraining, income support, early retirement, diversification of local economies and guarantees of decent work in new industries. They require consultation with unions and communities, and they require funding. The countries that have made the most progress — Germany's coal commission, Spain's just transition agreements, Scotland's transition training — have done so by treating workers as partners rather than obstacles.
+
+A just transition is the difference between a climate policy that can be sustained and one that is reversed at the next election. Germany's coal phase-out was accompanied by a multi-billion-euro package for affected regions, and South Africa's Just Energy Transition Partnership, announced in 2021 with initial pledges of eight and a half billion dollars, was designed to fund retraining and economic diversification alongside plant closures. Indonesia's own partnership, announced in 2022, followed the same model at a larger scale. The record so far suggests that the money is necessary but not sufficient: workers need a credible path to a comparable job, not a cheque.
 
 ## 21.6 Indigenous Peoples and Land Rights
 
@@ -3110,6 +3170,8 @@ Land rights are central. Where indigenous communities have secure tenure, defore
 
 Climate policy can therefore harm indigenous peoples even when it is well intentioned. Large-scale hydropower, bioenergy plantations, carbon offsets and mineral extraction for clean technologies can displace communities and damage ecosystems. A just transition requires that these projects be assessed for their social impacts, that communities have a genuine say, and that benefits are shared rather than extracted.
 
+Indigenous peoples are disproportionately affected and disproportionately effective as stewards. Estimates suggest that Indigenous territories contain a large share of the world's remaining biodiversity, and that deforestation rates are lower inside recognised Indigenous lands than outside them. The legal principle that has emerged from this evidence is free, prior and informed consent, which requires more than consultation after a decision has been made. Implementation is uneven: Indonesia's recognition of customary forests has advanced slowly, and Brazil's demarcation process has oscillated with changes of government, which is itself a lesson about how quickly rights can be reversed.
+
 ## 21.7 Gender and Intersectionality
 
 Climate change affects women and men differently, and the differences are produced by social roles rather than biology. Women are more likely to be responsible for water collection, food preparation and care work, all of which become harder when resources are scarce. They are more likely to be employed in informal and climate-sensitive sectors, and less likely to have access to land, credit and decision-making.
@@ -3117,6 +3179,8 @@ Climate change affects women and men differently, and the differences are produc
 Disaster mortality shows the pattern. Studies of several events have found higher female mortality where women had lower social and economic status, limited mobility and restricted access to information. The 2003 European heatwave killed more women than men in France, largely because women live longer and were more likely to be widowed and living alone. The pattern is not universal, but it is common enough to require attention in planning.
 
 Intersectionality matters because disadvantages compound. A poor woman with a disability in a rural area faces a different risk profile from a wealthy man in a city, and generic policies will not reach her. Effective adaptation requires disaggregated data, participation by affected groups, and targeted measures such as cash transfers, childcare, accessible shelters and legal aid.
+
+Gender is not an add-on to vulnerability analysis; it shapes exposure, capacity and voice. In many societies women have less access to land, credit, mobility and decision-making, and those disadvantages determine what they can do before, during and after a disaster. Mortality data from some events show higher female death rates, explained by restricted mobility, clothing, and the expectation that women will care for others rather than evacuate. The response is not to treat women as a vulnerable group but to include them in planning, employment and leadership, which the evidence suggests improves outcomes for the whole community.
 
 ## 21.8 Young People and Intergenerational Justice
 
@@ -3126,6 +3190,8 @@ Young people have responded by organising. School strikes, youth-led litigation 
 
 Institutional responses are emerging. Some countries have lowered the voting age for certain elections, appointed youth advisers, or created future-generations commissioners. Courts in several jurisdictions have accepted that young people have standing to challenge climate policies. These innovations are imperfect, but they recognise a structural problem: democratic systems discount the future, and climate policy requires institutions that do not.
 
+Intergenerational justice raises a question that economics has struggled to answer: how much should the present sacrifice for the future? The disagreement between the Stern Review and more conventional cost-benefit analysis turned largely on the discount rate, and the choice of that parameter determines whether aggressive action appears rational or wasteful. In 2023 the United Nations Committee on the Rights of the Child issued a general comment clarifying that states have obligations to protect children from foreseeable environmental harm, which gives the abstract principle a legal footing. Youth climate cases have used it to argue that the future is not a foreign country.
+
 ## 21.9 Civic Engagement and Democracy
 
 Climate policy is made and constrained by political institutions, and the quality of those institutions determines whether policy is ambitious, durable and fair. Democracies with strong civic participation tend to produce more ambitious climate policy, but they are also vulnerable to backlash when costs are imposed without consultation. Authoritarian systems can impose policy quickly, but they often lack accountability and responsiveness.
@@ -3134,6 +3200,8 @@ Deliberative experiments offer one route to legitimacy. Ireland's Citizens' Asse
 
 Civic engagement also includes protest, litigation, journalism, consumer action and local organising. These forms of participation are not substitutes for formal politics, but they shape the environment in which formal politics operates. A healthy democracy requires space for all of them, and a climate policy that relies only on technocratic decisions will struggle to sustain legitimacy when costs become visible.
 
+Civic engagement is the mechanism through which environmental policy becomes legitimate, and it is under pressure. The Aarhus Convention established rights of access to information, participation and justice in environmental matters, and those rights have been used to challenge projects across Europe. Elsewhere, civic space has narrowed: environmental defenders are among the most frequently killed human rights defenders, and legal standing for public interest litigation is restricted in many jurisdictions. A democracy that cannot hear a complaint about a project is a democracy that will build the wrong things efficiently.
+
 ## 21.10 Reforming International Institutions
 
 The institutions that govern climate finance were built for a different era. The World Bank and the International Monetary Fund were established in 1944, when most of today's countries did not exist as independent states, and their governance reflects the post-war distribution of power. Reform proposals have circulated for decades, and they have gained urgency as climate finance needs have grown.
@@ -3141,6 +3209,8 @@ The institutions that govern climate finance were built for a different era. The
 The Bridgetown Initiative, launched by Barbados in 2022, proposes a set of reforms: expanding multilateral development bank lending, linking repayments to climate vulnerability, and creating new mechanisms for loss and damage. The initiative has influenced discussions at the International Monetary Fund and the World Bank, and some elements have been adopted, but the scale of change remains modest relative to the need.
 
 Reform also requires attention to debt. Many climate-vulnerable countries spend more on debt service than on health and education, and a disaster can push them into default. Debt swaps, where creditors forgive debt in exchange for conservation or adaptation investment, have been used in a few cases, and they could be expanded. Without fiscal space, even well-designed adaptation plans cannot be implemented, and the gap between promise and practice will continue to widen.
+
+Reforming international institutions is slow because the institutions were designed for a different distribution of power. The UNFCCC operates by consensus, which gives every party a veto; the Security Council treats climate as a security issue only intermittently; and the Bretton Woods institutions are weighted by financial contribution rather than exposure. The reforms with the most momentum are financial rather than constitutional: debt relief linked to climate investment, reform of multilateral development banks to lend more against risk, and the Bridgetown Initiative's proposal to expand liquidity for vulnerable states. Institutional change follows money more readily than it follows argument.
 
 ## 21.11 Case Study: The Loss and Damage Fund
 
@@ -3153,6 +3223,8 @@ The agreement was historic but limited. It established a principle — that vuln
 The fund's significance is partly symbolic. It recognises that climate change creates obligations beyond charity, and it provides a mechanism through which those obligations can be claimed. But a fund of hundreds of millions cannot address a problem of hundreds of billions, and the gap between the two is the central test of whether the international system can deliver justice at the scale required.
 
 The lessons are specific. Principles matter, because they establish the terms of future negotiations. Institutions matter, because they determine whether principles are implemented. And scale matters, because a mechanism that is adequate in principle but tiny in practice can become a substitute for action rather than a route to it. The next phase of the debate will be about whether the fund becomes a genuine instrument of redistribution or a symbol that allows the underlying inequity to persist.
+
+The case that best illustrates the justice dimension is the dispute over the atmosphere's remaining carbon budget. The budget is a physical quantity, but every allocation of it involves a moral choice: equal shares per person, shares proportional to historical emissions, or shares sufficient for development. The Indian government has argued that its emissions must rise to meet development needs and that the remaining budget should be allocated on a per capita basis, while small island states argue that any allocation consistent with 1.5 degrees leaves them with no budget at all. There is no technical resolution to this disagreement, which is why it recurs at every conference.
 
 ## 21.12 Future Scenarios and Predictions: Justice in 2050
 
@@ -3191,6 +3263,8 @@ The heat dome was a case of statistical extremity becoming physical catastrophe.
 
 This chapter examines disasters comparatively. It looks at heat, fire, flood and urban extreme events across regions and decades, and asks what they have in common: why some events kill thousands and others dozens, why similar hazards produce different outcomes, and what the differences reveal about exposure, vulnerability, governance and response. The cases are chosen not for their drama but for what they teach.
 
+A case study is an argument disguised as a story, and the quality of the argument depends on what the case is compared with. The same flood can be told as a story of exceptional rainfall or as a story of drainage that was never maintained, and both tellings can be accurate while pointing to completely different policies. Reading cases well therefore requires asking what the counterfactual is: what would have happened if the hazard had been the same and the institutions had been different.
+
 ## 22.1 How to Read a Disaster Case
 
 A disaster is not the same as a hazard. The hazard is the physical event — the storm, the heat, the flood — and the disaster is the harm it causes, which depends on who is exposed, how vulnerable they are, and how well institutions respond. The same hazard can produce a few dozen deaths in one place and hundreds of thousands in another, and the difference is almost always social and political rather than meteorological.
@@ -3198,6 +3272,8 @@ A disaster is not the same as a hazard. The hazard is the physical event — the
 A useful case analysis separates five elements. Exposure describes who and what is in harm's way. Vulnerability describes the conditions that make harm more likely, such as poverty, age, disability, poor housing or lack of information. Capacity describes the resources available to prepare and respond. Governance describes the decisions that shape exposure and capacity. And timing describes how the event unfolded, because sequences matter: a heatwave followed by a wildfire is worse than either alone.
 
 The cases in this chapter are selected to illustrate variation across those elements. Some show what happens when a rich country is unprepared for an unfamiliar hazard; others show what happens when a poor country is overwhelmed by a familiar one. Read together, they suggest that preparedness is not a function of wealth alone, and that the most important determinants of survival are often the least visible.
+
+The founding insight of disaster research is that there is no such thing as a natural disaster. O'Keefe, Westgate and Wisner argued in Nature in 1976 that disasters are produced by the intersection of a natural hazard with human vulnerability, and that describing them as natural obscures the decisions that put people in harm's way. The insight has been refined rather than abandoned: Wisner and colleagues later described disaster risk creation as a process that unfolds over decades through land markets, building practices and political neglect. A case study that begins with the hazard has already chosen its conclusion.
 
 ## 22.2 Heat: Chicago 1995 and Europe 2003
 
@@ -3207,6 +3283,8 @@ Eric Klinenberg's study of the event found that death rates varied sharply betwe
 
 Europe's 2003 heatwave produced a much larger toll across a whole continent: an estimated 70,000 deaths, including about 14,800 in France. The differences between countries were instructive. France had no heat plan, no register of vulnerable people and a health system on holiday; Italy and Spain, with warmer climates and more familiarity with heat, had lower excess mortality relative to the anomaly. The comparison suggests that experience and preparedness matter more than latitude.
 
+The comparison between Chicago and Europe turns on a methodological question that determines how the death toll is understood. Excess mortality counts everyone who died above the expected baseline during the event, but some of those people would have died within weeks anyway, a phenomenon known as mortality displacement or harvesting. Studies of the 2003 European heatwave found relatively little displacement in the following months, which suggests that most of the excess deaths were genuinely premature rather than brought forward by days. France's response after 2003 — a national heat plan, a register of vulnerable people, and a warning system tied to action — became the template that other countries adapted.
+
 ## 22.3 Heat: The Pacific Northwest, 2021
 
 The 2021 Pacific Northwest heat dome was unprecedented in the instrumental record. Lytton reached 49.6 °C, Portland 46.7 °C and Seattle 42.2 °C, and the anomaly — the difference from normal — was larger than in almost any other heat event ever recorded. An attribution study by World Weather Attribution concluded that the event would have been virtually impossible without human-caused climate change, and that it was made at least 150 times more likely.
@@ -3214,6 +3292,8 @@ The 2021 Pacific Northwest heat dome was unprecedented in the instrumental recor
 The human toll was concentrated among people who had no experience of such heat and no means to escape it. In British Columbia, about 619 deaths were attributed to the event, most of them people over 70 living alone in homes without air conditioning. In Oregon, officials reported more than 100 deaths; in Washington, dozens. Many died indoors, which is characteristic of heat events in temperate cities where housing is designed to retain heat.
 
 The event exposed a planning gap. Emergency plans in the region focused on winter storms, earthquakes and wildfires, not heat; cooling centres existed but were not widely known or accessible; and public messaging assumed that people could simply go to a mall or a friend's house. The lesson is that preparedness must be hazard-specific and must reach the people least able to act on generic advice.
+
+The Pacific Northwest heat dome exposed a form of vulnerability that climate planning had largely ignored: buildings designed to retain heat in a cool climate. Few homes in Seattle or Vancouver had air conditioning, and the heat accumulated indoors over successive days, which is why most of the deaths occurred inside apartments rather than outdoors. Attribution studies concluded that the event would have been virtually impossible without human-caused warming, and the coroners' reports described a population that was isolated, elderly and unaware that the temperature inside was dangerous.
 
 ## 22.4 Fire: Black Saturday and the Camp Fire
 
@@ -3223,6 +3303,8 @@ The Royal Commission that followed recommended a shift toward a policy of leavin
 
 The Camp Fire in California in 2018 produced a different pattern. It moved so fast that evacuation was the only option, and the deaths were concentrated among older and disabled residents who could not leave quickly. The fire destroyed the town of Paradise in hours, and the evacuation routes were overwhelmed. Together, the two cases show that fire safety is not a single policy but a set of decisions that depend on the speed and intensity of the event.
 
+The Australian and Californian fire cases both turned on evacuation policy, and they pointed in different directions. After Black Saturday, the Royal Commission found that the 'stay or go' doctrine had been misunderstood by residents who neither left early nor defended their homes effectively, and it recommended a shift toward leaving early and clearer warning categories. In Paradise, the evacuation order came late and the road network could not carry the traffic, which produced the traffic jam that trapped people in their cars. The lesson is not that one policy is right but that evacuation capacity is a physical and social quantity that must be measured before the fire starts.
+
 ## 22.5 Fire: Canada 2023 and the Smoke Problem
 
 In 2023, Canada experienced its most severe wildfire season on record. About 18.5 million hectares burned — roughly seven times the ten-year average — and more than 200,000 people were evacuated. The fires burned from coast to coast, and smoke travelled thousands of kilometres, blanketing cities in Canada and the United States, including New York, where the sky turned orange in June.
@@ -3230,6 +3312,8 @@ In 2023, Canada experienced its most severe wildfire season on record. About 18.
 The smoke was a health event in its own right. Fine particulate matter (PM2.5) from wildfire smoke penetrates deep into the lungs and bloodstream and is associated with respiratory and cardiovascular illness. Studies estimate that wildfire smoke exposure causes thousands of premature deaths a year in North America, and that the health burden is falling disproportionately on low-income and outdoor workers who cannot avoid exposure.
 
 The Canadian case also illustrates the limits of suppression. Fire is a natural part of many forest ecosystems, and decades of fire suppression have increased fuel loads, making fires more intense when they occur. Climate change adds heat and drought that make forests more flammable. The result is a feedback in which suppression, land management and warming interact to produce larger and more destructive fires.
+
+The Canadian fires of 2023 produced a health event that extended far beyond the burn zone. Smoke travelled thousands of kilometres and pushed fine particulate concentrations in New York, Toronto and Washington to levels usually seen in heavily polluted cities, and the public health advice — stay indoors, use filtration — was difficult for people who worked outdoors or had no air conditioning. The episode also exposed a fire management problem: a century of suppression has left forests denser and more flammable, and Indigenous burning practices that once reduced fuel loads were banned for generations.
 
 ## 22.6 Flood: Pakistan 2022
 
@@ -3239,6 +3323,8 @@ The flood exposed structural vulnerabilities. Pakistan's population is concentra
 
 The response was large but insufficient. National and provincial agencies, the military, UN agencies and local organisations mobilised, and aid reached millions of people. But the scale of the event overwhelmed capacity, and months later many displaced families remained without adequate shelter. The flood became a symbol of the gap between responsibility and harm, because Pakistan's emissions are a small fraction of the global total.
 
+Pakistan's 2022 floods were unusual in the way the damage was distributed. The rainfall was extreme, but much of the loss occurred in areas that were already vulnerable: villages on the floodplain, irrigation infrastructure that failed, and households whose savings were held in livestock rather than in banks. The reconstruction needs were assessed at more than sixteen billion dollars, and the pledges at the Geneva conference covered a fraction of that. The case illustrates a pattern that recurs in this chapter: the hazard is global, the vulnerability is national, and the financing is voluntary.
+
 ## 22.7 Flood: Germany and Belgium 2021
 
 The July 2021 floods in western Germany and Belgium were caused by a slow-moving low-pressure system that produced extreme rainfall over saturated ground. In the Ahr valley, the river rose within hours, destroying houses, roads and bridges. More than 180 people died, and damage exceeded €30 billion.
@@ -3246,6 +3332,8 @@ The July 2021 floods in western Germany and Belgium were caused by a slow-moving
 The case is notable because it occurred in a wealthy region with strong institutions and modern forecasting. Warnings were issued, but they did not translate into action. Many residents did not believe the river could rise so fast; some local authorities delayed evacuation; and Germany lacked a nationwide cell broadcast system. The failure was in the last mile of the warning chain rather than in the forecast.
 
 The comparison with Pakistan is instructive. Both events involved extreme rainfall and both produced large losses, but the mechanisms of harm differed: in Germany, the failure was in translation and response; in Pakistan, it was in structural exposure and capacity. The lesson is that investment in forecasting is necessary but not sufficient, and that the weakest link determines the outcome.
+
+The 2021 floods in Germany and Belgium became a case study in warning failure rather than in rainfall. Forecasts from the European Flood Awareness System were available days in advance, but the warnings did not translate into evacuation in the Ahr valley, and the cell broadcast system that would have reached every phone was not introduced until the following year. Investigators described a fragmented chain of responsibility between municipalities, districts and states. The case is a reminder that the technical capacity to forecast is not the same as the institutional capacity to act, and that the gap between them is measured in lives.
 
 ## 22.8 Urban Extremes: Chennai, Cape Town and Seoul
 
@@ -3255,6 +3343,8 @@ Cape Town's 2018 water crisis was a slow-onset urban emergency. After three year
 
 Seoul's 2022 floods were a reminder that wealthy cities are not immune. Record rainfall in August 2022 flooded basements and semi-basement apartments, killing at least 141 people, many of them poor residents living in the cheapest housing. The event highlighted the way housing markets push low-income households into the most dangerous spaces, and how infrastructure designed for a different climate can fail suddenly.
 
+Chennai, Cape Town and Seoul are usually told as separate stories, and read together they describe a single urban problem: infrastructure designed for a stationary climate and managed by institutions with weak incentives to maintain it. Chennai's floods were worsened by the loss of wetlands that had absorbed monsoon water; Cape Town's drought was managed through tariffs and pressure reduction rather than new supply; Seoul's 2022 flood killed people living in semi-basement apartments, and the city subsequently announced a plan to phase them out. In each case the hazard was meteorological and the disaster was municipal.
+
 ## 22.9 Compound and Cascading Events
 
 Many of the most damaging disasters are compound: two or more hazards occur together or in sequence, and their effects interact. A heatwave followed by a wildfire, a drought followed by a flood, a storm followed by a disease outbreak — each combination is worse than the sum of its parts because response capacity is already stretched.
@@ -3263,6 +3353,8 @@ Cascading failures occur when the failure of one system triggers the failure of 
 
 Compound events are becoming more likely as the climate changes, because hazards that were once independent now co-occur more often. Planning for them requires a shift from single-hazard thinking to systemic risk assessment, and from sectoral responsibility to coordinated response. The cases in this chapter suggest that most failures are systemic, and that the institutions that manage them are usually organised by sector.
 
+Compound and cascading events are two different things and the distinction matters for preparedness. A compound event combines hazards that interact — a heatwave and a drought, a storm and a storm surge — so that the combined effect exceeds the sum of the parts. A cascading event begins with one failure and propagates through interdependent systems: power loss disables pumping, which disables water supply, which disables hospitals. Pescaroli and Alexander argued in 2015 that cascading risk is poorly captured by conventional hazard assessment because it depends on the connectivity between systems rather than on the severity of any single hazard.
+
 ## 22.10 What the Cases Have in Common
 
 Across very different contexts, the cases share several features. First, deaths are concentrated among people with the least capacity to act: the elderly, the poor, the disabled, the isolated and those in insecure housing. Second, warnings are necessary but not sufficient: the gap between warning and action is where many deaths occur. Third, infrastructure and land-use decisions determine exposure long before an event arrives.
@@ -3270,6 +3362,8 @@ Across very different contexts, the cases share several features. First, deaths 
 Fourth, governance quality matters more than hazard severity in explaining outcomes. Countries with strong institutions, well-funded services and accountable decision-making consistently suffer fewer deaths from comparable hazards. Fifth, recovery is slower than response, and the long tail of displacement, debt and illness is where much of the human cost accumulates.
 
 The implications are practical. Preparedness must be targeted at the people most at risk, not at the average resident. Warnings must be specific, repeated and delivered through trusted channels. Infrastructure must be designed for the hazards that are coming, not the ones that have passed. And recovery must be planned before the disaster, because the months after an event determine whether a community returns or dissolves.
+
+Read together, the cases support a modest and uncomfortable conclusion: the lessons of one disaster are rarely applied to the next. Birkland's work on focusing events found that attention spikes after a disaster and decays before the reforms are implemented, and that the reforms which survive are the ones that were already on the agenda. The exceptions are instructive. The heat plans that followed 2003 in Europe persisted because they were institutionalised in public health agencies, and the building codes that followed major earthquakes persisted where enforcement was funded. Learning is not a report; it is a budget line.
 
 ## 22.11 Case Study: Lytton and the 2021 Heat Dome
 
@@ -3282,6 +3376,8 @@ Two days after the record, a wildfire swept through Lytton and destroyed most of
 The response revealed gaps. Cooling centres were available but not widely known, and some were inaccessible to people without transport. Public messaging advised people to seek air conditioning, but many had none and could not travel. Emergency services were overwhelmed by calls, and the coroner's report recommended that heat be treated as a public health emergency with proactive outreach to vulnerable people.
 
 The lessons are specific. Heat plans must be designed for the people most at risk, not for the average resident. Warnings must include concrete actions and locations. Buildings must be adapted for heat, not only for cold. And the possibility of compound events must be built into planning, because the sequence of heat and fire is becoming more common. Lytton shows that a hazard outside the historical range can overwhelm a wealthy, well-governed region when its systems were designed for a climate that no longer exists.
+
+The best-documented case of a disaster that changed a country's institutions is the 2003 European heatwave. The death toll was shocking partly because it was invisible: people died at home, alone, and the event was initially reported as a matter of weather rather than of policy. The subsequent reforms were specific and durable — heat health warning systems, vulnerable person registers, cooling centres, changes to hospital protocols — and evaluations suggest they reduced mortality in later events. The case demonstrates that a disaster can produce institutional learning, provided the learning is written into routine practice rather than into a memorial.
 
 ## 22.12 Future Scenarios and Predictions: Urban Extremes in 2050
 
@@ -3321,6 +3417,8 @@ The Somali famine is a case about entitlements rather than food. Amartya Sen's a
 
 This chapter examines slow-onset emergencies: drought, food crises, water scarcity and their intersections with conflict. It looks at the Sahel, Ethiopia, Somalia, Syria, Yemen, Cape Town, São Paulo and California, and at the global food price crises of 2007–08 and 2010–11. The cases show that slow emergencies kill more people than fast ones and receive less attention, because they lack a single dramatic moment and because their victims are usually poor and distant.
 
+Slow-onset emergencies are harder to see than floods, and the invisibility is itself a cause of death. A drought that develops over three seasons produces no dramatic images until people are already starving, and by then the cheapest interventions are no longer possible. The central problem in this chapter is therefore not the absence of information — famine early warning systems have predicted most recent famines — but the gap between prediction and action.
+
 ## 23.1 Reading Slow-Onset Cases
 
 Slow-onset emergencies develop over months or years, and they are harder to see than floods or storms. A drought is not a single event but a cumulative deficit of rainfall that depletes soil moisture, groundwater, pasture and reservoirs; its effects appear gradually in crop yields, livestock deaths, food prices, migration and malnutrition. By the time a famine is declared, the process has been underway for a year or more.
@@ -3328,6 +3426,8 @@ Slow-onset emergencies develop over months or years, and they are harder to see 
 The mortality is also slow and dispersed. People die not from a single cause but from the interaction of malnutrition, disease and exhaustion; deaths are recorded as malnutrition, measles, diarrhoea or respiratory infection rather than as drought. The result is that slow emergencies are systematically undercounted, and their scale is recognised only in retrospective surveys.
 
 The cases in this chapter are therefore read with three questions. Who was exposed, and why were they unable to cope? What institutions failed, and at what point? And what would have prevented the outcome — early warning, cash transfers, water investment, conflict resolution or all of them? The answers are rarely technological, because the knowledge usually exists before the crisis.
+
+The technical apparatus for measuring food crises has improved considerably. The Integrated Food Security Phase Classification, known as IPC, grades acute food insecurity on a five-point scale and declares famine only when specific thresholds are met: at least twenty per cent of households facing extreme food gaps, acute malnutrition above thirty per cent, and mortality above two deaths per ten thousand people per day. The Famine Early Warning Systems Network has issued projections for decades, and its record is good. The persisting failure is political: governments resist the declaration of famine on their territory, and donors respond to declarations rather than to projections.
 
 ## 23.2 The Sahel Famines
 
@@ -3337,6 +3437,8 @@ The causes were not simply rainfall. Colonial and post-colonial policies had pus
 
 The Sahel also shows that adaptation is possible. Since the 1980s, farmer-managed natural regeneration — the protection and pruning of trees on farmland — has restored millions of hectares in Niger, improved soil fertility and increased yields. The practice was developed locally, spread through farmer networks, and supported by policy. It did not prevent all crises, but it reduced vulnerability in the areas where it was adopted.
 
+The Sahel famines of the 1970s and 1980s produced one of the most influential and most contested narratives in environmental history. The image of the advancing desert, popularised in the 1970s, implied that overgrazing and population growth were turning semi-arid land into desert, and the policy response included restrictions on pastoral movement that made herders more vulnerable. Later research found that the 'desertification' story was overstated and that some areas had actually greened as rainfall recovered, partly through farmer-managed natural regeneration. The episode is a warning about how confidently a narrative can be built on a short record.
+
 ## 23.3 Ethiopia 1984–1985 and the Entitlement Debate
 
 The Ethiopian famine of 1984–1985 killed an estimated one million people. It followed two failed rainy seasons, but it was also produced by conflict, resettlement policies and the diversion of resources to war. Food was available in some markets, and the government's response was shaped by its military priorities and by its suspicion of international agencies.
@@ -3344,6 +3446,8 @@ The Ethiopian famine of 1984–1985 killed an estimated one million people. It f
 Sen's entitlement approach explained the paradox. People starve when they cannot establish command over food, whether because their assets have collapsed, their employment has disappeared, prices have risen beyond their reach, or transfers have failed. In Ethiopia, pastoralists lost their herds, farmers lost their harvests, and displaced people lost access to both, while markets in other regions continued to function.
 
 The famine also changed humanitarian practice. It led to the creation of the Famine Early Warning Systems Network, the expansion of food aid, and a debate about development rather than relief. The debate continues: agencies now emphasise cash transfers, social protection and resilience, but the underlying problem — that warnings do not automatically produce response — remains.
+
+Amartya Sen's analysis of the 1943 Bengal famine changed how famines are understood, and Ethiopia in 1984–85 tested the theory under different conditions. Sen argued that famines can occur without a decline in food availability, because the people who need food may lack the entitlements — income, land, access to markets — to obtain it. In Ethiopia, food was available in some markets while people starved in others, and the government's resettlement programme and counter-insurgency campaign diverted resources and restricted movement. De Waal's later work described famine as a process that governments and rebels can accelerate or slow, which makes it a political event.
 
 ## 23.4 Somalia 2011 and 2022
 
@@ -3353,6 +3457,8 @@ The comparison is instructive because the rainfall deficits were similar. In 201
 
 The lesson is that famine is not a weather event. It is a political and economic outcome that can be prevented by timely action, and the knowledge required to act is usually available before the crisis peaks. What is often missing is the willingness to release funds early, the access to deliver them, and the political attention to sustain the response after the cameras leave.
 
+Somalia in 2011 and 2022 offers a comparison in which the difference was largely operational. In 2011, warnings were issued months before the famine declaration, but access to territory controlled by al-Shabaab was restricted, donor response was slow, and about a quarter of a million people died, half of them children under five. In 2022, a similar drought produced a much larger humanitarian response before famine was declared, including cash transfers and livestock support delivered by local organisations, and the worst outcomes were avoided in many areas. The contrast is evidence that early action works when it is funded and when local access exists.
+
 ## 23.5 Syria: Drought, Displacement and Conflict
 
 Between 2006 and 2010, Syria experienced its worst multi-year drought in the instrumental record. Rainfall fell to a fraction of normal in the northeast, crops failed, and herds were decimated. An estimated 1.5 million people moved from rural areas to cities that were already struggling to absorb Iraqi refugees and to provide jobs and housing.
@@ -3360,6 +3466,8 @@ Between 2006 and 2010, Syria experienced its worst multi-year drought in the ins
 The drought did not cause the civil war that began in 2011, and analysts caution against simple causal claims. But it contributed to the conditions in which the war unfolded: rural livelihoods collapsed, food prices rose, and the government's failure to respond eroded legitimacy in affected regions. Studies, including work by Kelley et al. (2015) and Selby et al. (2017), debate the weight of the drought relative to political factors, but agree that it interacted with them.
 
 The Syrian case illustrates the concept of a threat multiplier. Climate change does not determine conflict, but it can amplify existing stresses — unemployment, inequality, migration, weak institutions — and reduce the capacity of the state to manage them. The policy implication is not that climate causes war but that climate adaptation and conflict prevention must be designed together.
+
+The Syrian drought has become a test case for the 'climate as threat multiplier' argument, and the debate around it is more instructive than the conclusion. Kelley and colleagues argued in 2015 that the 2006–2010 drought, made more likely by climate change, contributed to agricultural collapse, rural displacement and therefore to the conditions that produced the uprising. Selby and colleagues challenged the causal chain in 2017, noting that the drought affected different regions differently and that political economy, not rainfall, determined who was exposed. The exchange clarified that climate can be a contributing condition without being a sufficient cause.
 
 ## 23.6 Yemen: Water, Conflict and Disease
 
@@ -3369,6 +3477,8 @@ The conflict that began in 2014 destroyed much of the water infrastructure and d
 
 Yemen illustrates the interaction of water scarcity, conflict and disease. Each stressor reduces the capacity to manage the others: war damages infrastructure, scarcity raises prices, disease overwhelms health services, and the resulting instability makes reconstruction harder. The case shows that water security is not only a matter of supply but of governance, infrastructure and peace.
 
+Yemen's water crisis predates its war and was made catastrophic by it. The capital's aquifer has been drawn down for decades, and agricultural water use, particularly for qat, accounts for the overwhelming majority of consumption. The war destroyed pumping infrastructure, displaced millions, and created the conditions for the world's largest cholera outbreak. Water trucking became the main supply route for much of the population, at a cost that households could not sustain. The case shows how a slow resource depletion and a fast conflict interact: each makes the other harder to survive.
+
 ## 23.7 Cape Town and São Paulo: Urban Water Crises
 
 Cape Town's 2018 crisis brought a major city close to running out of water. After three years of drought, reservoir levels fell to about 20 per cent, and officials prepared for Day Zero, when taps would be shut off and residents would collect water at distribution points. The city avoided that outcome through severe restrictions, pressure management, leak repair and public campaigns, but the crisis exposed the vulnerability of a growing city dependent on a variable supply.
@@ -3376,6 +3486,8 @@ Cape Town's 2018 crisis brought a major city close to running out of water. Afte
 São Paulo faced a comparable crisis in 2014–2015. The Cantareira reservoir system, which supplies about half the metropolitan area's water, fell below 5 per cent of capacity, and officials considered rationing. The crisis was managed through restrictions, inter-basin transfers and rainfall, but it revealed the risks of relying on a single reservoir system for a metropolitan region of more than 20 million people.
 
 The two cases show that urban water crises are usually produced by a combination of drought, demand growth, leakage and poor planning rather than by rainfall alone. Cities that invest in diverse sources, demand management, leak reduction and public communication can survive severe droughts; cities that do not can come close to collapse even in wealthy countries.
+
+Cape Town and São Paulo are the two best-documented cases of a major city approaching the end of its water, and both escaped through demand management rather than new supply. São Paulo's Cantareira system fell below five per cent of its capacity in 2015, and the state responded with pressure reduction, bonuses for conservation and emergency transfers between basins. Cape Town's response combined tariffs, restrictions, leak repair and a public communication campaign that made consumption visible. In both cases the crisis was deferred, not solved: the underlying growth in demand and the exposure to a multi-year drought remain.
 
 ## 23.8 California: Groundwater and the Long Drought
 
@@ -3385,6 +3497,8 @@ The drought exposed a governance failure. Groundwater had been largely unregulat
 
 California also illustrates the interaction of drought and fire. The drought killed millions of trees, and the dead wood fuelled subsequent wildfires. The 2018 Camp Fire and the 2020 fire season were partly products of the drought years. The sequence shows that slow-onset and fast-onset hazards are connected, and that managing one requires attention to the other.
 
+California's drought policy has been shaped by a legal doctrine that predates climate science. Prior appropriation, the principle that the first user to claim water has the senior right, allocates water by historical use rather than by current need, and it made groundwater the buffer that farmers drew down when surface supplies were cut. The result was subsidence in the Central Valley, where the land surface has dropped by metres in some areas, permanently reducing the capacity of aquifers to store water. The Sustainable Groundwater Management Act of 2014 was the first serious attempt to regulate that withdrawal, and its implementation is still contested.
+
 ## 23.9 Food Prices, Export Bans and the 2007–2008 Crisis
 
 In 2007 and 2008, world food prices rose sharply. Wheat prices more than doubled, rice prices tripled, and maize and soybeans reached record highs. The increases were driven by a combination of factors: biofuel demand, rising oil prices, poor harvests in several exporting countries, low stocks, and speculative investment in commodity futures.
@@ -3393,6 +3507,8 @@ Governments responded with export restrictions. India and Vietnam limited rice e
 
 The crisis showed how food security depends on trade as well as production. Countries that relied on imports were exposed to price shocks, and countries that restricted exports exported instability. The lesson for climate policy is that adaptation must include trade rules and regional cooperation, because a drought in one breadbasket can become a food crisis on another continent.
 
+The 2007–2008 food price crisis demonstrated that a climate shock can become a global event through markets rather than through harvests. Prices for wheat and rice more than doubled, and the increases were amplified by export restrictions: when major producers banned exports, importers panicked and bought, which drove prices higher. Riots followed in more than thirty countries. The episode established a pattern that recurred after 2022, when the war in Ukraine disrupted grain shipments and export controls again amplified the shock. Food security is therefore a function of trade policy as much as of rainfall.
+
 ## 23.10 What the Cases Teach
 
 Across the cases, three lessons recur. First, famines and water crises are usually failures of entitlement and governance rather than absolute scarcity. The knowledge required to prevent them exists, and the food or water is often available; what fails is access, affordability and political will.
@@ -3400,6 +3516,8 @@ Across the cases, three lessons recur. First, famines and water crises are usual
 Second, early warning is necessary but not sufficient. Somalia 2011 had warnings and still experienced famine; Ethiopia 1984–85 had warnings and a government that prioritised war. What changes outcomes is the translation of warning into early action, which requires pre-arranged finance, flexible programming and access.
 
 Third, slow emergencies are cumulative and interconnected. Drought depletes groundwater, groundwater depletion reduces resilience to the next drought, and drought combined with conflict produces famine. Managing them requires long-term investment in water infrastructure, social protection and conflict resolution, not only emergency relief. The cases suggest that the most effective interventions are often the least dramatic: cash transfers, boreholes, pasture management and peace agreements.
+
+The cases converge on a lesson that is easy to state and hard to institutionalise: famine is usually a failure of access, information and political will rather than a failure of food production. The instruments that work are known — early warning, cash transfers, social protection, market access, and humanitarian negotiation — and they are cheaper than the emergency response that follows a declaration. What is missing is the mandate to act on a projection rather than on a catastrophe, which is a political problem disguised as a technical one.
 
 ## 23.11 Case Study: The 2011 Somali Famine
 
@@ -3412,6 +3530,8 @@ The famine was also a failure of livelihoods. Pastoralists depend on livestock f
 The response, when it came, was large but late. Food aid, cash transfers, therapeutic feeding and health services reached millions, and the death rate fell. But the delay cost tens of thousands of lives, and the crisis displaced hundreds of thousands of people into neighbouring countries. The lessons were incorporated into subsequent planning, and the 2022 response was faster and more flexible.
 
 The case illustrates the central argument of this chapter: slow emergencies are political. The rainfall was a trigger, but the famine was produced by conflict, restricted access, failed livelihoods and delayed response. Preventing the next one requires early action as well as early warning, and it requires addressing the conflict and poverty that make drought lethal.
+
+The Ethiopian famine of 1984–85 is the case that made famine visible to the world, and its legacy is double-edged. The television reports produced an unprecedented public response, including the Live Aid concerts, and they established the model of celebrity humanitarianism that still shapes disaster fundraising. They also simplified a complex political emergency into a story of drought and generosity, obscuring the role of conflict and resettlement policy. The case is a reminder that visibility is not the same as understanding, and that the story a disaster tells can determine whether the next one is prevented.
 
 ## 23.12 Future Scenarios and Predictions: Food and Water Security in 2050
 
@@ -3451,6 +3571,8 @@ The comparison is not an argument that disasters have been solved. Amphan still 
 
 This final chapter turns the book's analysis into action. It sets out what households, neighbourhoods, cities, businesses and governments can do, in what order, and how to know whether it is working. It is organised by time horizon — the first hour, the first week, the first year — and by level of organisation, from the household to the state. The aim is not a list of everything that could be done but a sequence of what matters most.
 
+Action plans fail for a reason that is well understood and rarely designed for: they assume that the plan will be followed. In practice, response is improvised from whatever is at hand, by people who are frightened and tired, under information that is wrong. A useful plan is therefore not a document that specifies every step but a set of decisions made in advance — who decides, who is called, what is stockpiled, what is abandoned — so that the improvisation starts from a better place.
+
 ## 24.1 The Preparedness Cycle
 
 Preparedness is a cycle rather than a project: assess the risk, plan the response, act on the plan, check whether it worked, and adapt. The cycle is familiar from safety management and quality improvement, and it applies to households, firms and governments alike. The most common failure is not the absence of a plan but the absence of the check and adapt steps, which is why plans become obsolete as hazards and populations change.
@@ -3458,6 +3580,8 @@ Preparedness is a cycle rather than a project: assess the risk, plan the respons
 Assessment begins with hazards and exposure: what can happen here, how often, and to whom. It continues with vulnerability and capacity: who will be affected most, what resources exist, and what gaps remain. Good assessments use local knowledge as well as technical data, because residents know which roads flood, which neighbours need help and where water collects.
 
 Planning turns assessment into decisions: who does what, with what resources, and by when. Good plans are short, specific and exercised. A plan that has never been tested is a hypothesis, and the first test should not be the emergency itself. Exercises reveal gaps in communication, authority and logistics that no document can anticipate.
+
+The preparedness cycle — assess, plan, exercise, evaluate, revise — is borrowed from safety management and has a known weakness. Exercises tend to test the plan rather than the capability, because the scenario is written by the people who wrote the plan, and the evaluation rewards compliance rather than discovery. The American exercise programme known as HSEEP tried to correct this by requiring after-action reviews with specific corrective actions and deadlines. The evidence from organisations that use it well suggests that the value lies less in the exercise than in the follow-up, which is also the part most often skipped.
 
 ## 24.2 The First Hour, Day and Week
 
@@ -3467,6 +3591,8 @@ In the first day, the priorities are water, food, shelter, medication and commun
 
 In the first week, the priorities are stabilisation and documentation. Households should photograph damage before repairs, contact insurers, keep receipts, and apply for assistance. They should watch for health risks — contaminated water, mould, heat, carbon monoxide — and for the mental health effects of loss. Communities should organise information sharing, because official channels are often slow and fragmented.
 
+The first hour is dominated by uncertainty, and the most useful preparations are the ones that reduce it. A household that has agreed on a meeting point, a check-in contact outside the affected area, and a decision rule for evacuation does not need to negotiate those questions while the building is shaking. The same logic applies to utilities: knowing where the gas shut-off is and how to turn it off is a five-minute skill that prevents a fire. Most of the deaths in the first hours are preventable through actions that take less time to learn than a first-aid course.
+
 ## 24.3 The First Month: Recovery and Rights
 
 Recovery is where inequality is reproduced or reduced, and it is the phase that receives the least attention. In the first month, households must navigate insurance, government assistance, landlords, employers and lenders, often while displaced and traumatised. Those with documents, savings, legal knowledge and social networks recover faster; those without may never recover fully.
@@ -3474,6 +3600,8 @@ Recovery is where inequality is reproduced or reduced, and it is the phase that 
 Practical steps matter. Keep a written log of contacts, claims and payments. Photograph and inventory losses. Read insurance policies for exclusions, especially flood, and appeal decisions that seem wrong. Apply to every programme for which the household may be eligible, and seek help from legal aid, community organisations or disaster case managers where available.
 
 Renters are especially exposed. They may lose their homes without losing an asset, and they often have fewer rights and less access to assistance than owners. Local governments can protect them by enforcing habitability standards, extending eviction protections after disasters, and making assistance portable. Without such measures, recovery programmes can accelerate displacement and gentrification.
+
+The first month is a negotiation with institutions, and the outcome depends on documentation and persistence. Insurance claims are routinely underpaid on first offer, and households that do not appeal leave money on the table; public assistance programmes require documents that displaced people may not have. Contractor fraud is common after disasters because demand is urgent and verification is slow. The practical protections are unglamorous: keep copies, photograph everything, do not sign the first contract, and use the free case-management services that most disasters eventually make available.
 
 ## 24.4 The First Year: Rebuilding Better
 
@@ -3483,6 +3611,8 @@ Households and communities should insist on building back better, and government
 
 The year is also the time to strengthen social infrastructure. Neighbourhood networks, volunteer groups and community organisations that formed during the response can be formalised and supported. Their knowledge of who needs help is an asset that no government database can easily replicate, and their existence reduces the cost of the next response.
 
+The reconstruction window is the period in which a community's risk profile is set for decades, and it closes faster than people expect. Decisions about elevation, setbacks, materials and infrastructure are made under pressure, often by agencies with no long-term stake in the place. The evidence favours owner-driven reconstruction, in which households rebuild with technical assistance and cash, over contractor-driven programmes, because it keeps money in the local economy and produces buildings that match how people actually live. It also requires supervision, which is the part that donors find difficult to fund.
+
 ## 24.5 City and Municipal Checklist
 
 Cities are where most climate risk is concentrated and where most adaptation decisions are made. A city that wants to be prepared needs a heat action plan with cooling centres and outreach to vulnerable residents; a flood plan with drainage maintenance, land-use controls and evacuation routes; a warning system that reaches every neighbourhood; and a register of people who need assistance.
@@ -3490,6 +3620,8 @@ Cities are where most climate risk is concentrated and where most adaptation dec
 It also needs the boring infrastructure: maintained drains, functioning pumps, trees and shade, reliable water, backup power for clinics and shelters, and building codes that are enforced. These are not glamorous investments, and they rarely attract political credit, which is why they are chronically underfunded. A city that spends on events but not on drainage is unprepared regardless of what its plan says.
 
 Finally, a city needs institutions that can coordinate. Heat involves health, social services, utilities and transport; floods involve water, planning, emergency services and infrastructure. Somebody must be accountable for the whole, and the coordination must be practised before the event. Cities that have appointed chief resilience officers and exercised joint command have performed better than those that have not.
+
+Cities have the most direct control over the determinants of climate risk, and the interventions are known. Heat action plans, pioneered in Ahmedabad after the 2010 heatwave, combine early warning, cooling centres, outreach to vulnerable residents and changes to working hours; evaluations suggest they reduce mortality. Drainage maintenance, permeable surfaces and restored wetlands reduce flood peaks at a fraction of the cost of concrete channels. The obstacle is not knowledge but the fact that maintenance has no ribbon-cutting, and that the benefits accrue to people who do not vote in the next election.
 
 ## 24.6 National Policy Checklist
 
@@ -3499,6 +3631,8 @@ Governments also control the incentives that shape private decisions. Insurance 
 
 The most important national decision is to treat adaptation as core public infrastructure rather than as a series of projects. That means budget lines, maintenance regimes, performance indicators and audit. It also means accepting that some places cannot be defended indefinitely, and planning for managed retreat where it is unavoidable — a decision that is politically painful and administratively complex, but less costly than unmanaged collapse.
 
+National governments set the rules that determine whether local action is possible. The instruments that matter most are unglamorous: building codes with enforcement, early warning systems that reach the last mile, social protection that can be scaled up quickly, and a contingency fund that can be spent before a disaster is declared. Adaptive social protection — cash transfers that automatically increase when a trigger is met — is the most promising recent innovation, because it uses existing delivery systems rather than building new ones during the emergency.
+
 ## 24.7 Business, Work and Continuity
 
 Businesses are both victims and vectors of climate risk. A factory that floods loses production; a supplier that fails disrupts a global chain; a workplace without heat protection endangers workers. Continuity planning — identifying critical functions, backup sites, supplier alternatives and communication protocols — reduces losses and protects employment.
@@ -3506,6 +3640,8 @@ Businesses are both victims and vectors of climate risk. A factory that floods l
 Workplace heat standards are a growing issue. Outdoor and indoor workers in hot environments need rest breaks, water, shade and adjusted schedules, and the absence of standards is a major cause of preventable illness. Some jurisdictions have adopted heat rules; many have not. Employers that treat heat as a productivity issue rather than a safety issue are both negligent and economically irrational, because heat reduces output as well as harming workers.
 
 Supply chains require particular attention. Firms that depend on a single supplier, a single port or a single region are exposed to disruption, and the 2011 Thailand floods showed how a single event can affect production worldwide. Diversification, inventory buffers and supplier risk assessment are costly, but so is disruption, and the balance has shifted as extreme events have become more frequent.
+
+Business continuity is usually taught as a technical discipline, and its most important lesson is about dependencies. A firm that has backed up its data but depends on a single supplier in a flood zone is not resilient, and a firm that has a generator but no fuel contract is not resilient either. Small and medium enterprises are the most vulnerable and the least prepared, and a large share of those that close after a disaster never reopen. The practical step is to map the chain — suppliers, utilities, transport, staff — and to identify the single points of failure that a modest investment could remove.
 
 ## 24.8 Measuring Readiness
 
@@ -3515,6 +3651,8 @@ Practical indicators include the share of households with two weeks of water and
 
 Exercises are the most informative test. A drill that reveals a broken communication link, an unclear authority or an inaccessible shelter is valuable, because it exposes problems while they can still be fixed. The organisations that learn fastest are those that treat exercises as experiments rather than performances, and that publish what they find.
 
+Readiness is difficult to measure because the thing being measured is a capability, not a document. Indicators tend to count inputs: plans written, exercises held, workshops delivered. A better approach is to test performance under realistic conditions and to measure the time it takes to restore critical functions — water, power, communications, health care — after a simulated shock. The lesson from sectors that do this well, such as aviation and nuclear power, is that measurement only changes behaviour when it is independent and when the results are published.
+
 ## 24.9 Financing and Sequencing
 
 Resources are limited, so sequence matters. The highest returns usually come from measures that are cheap, fast and protective across many hazards: early warning, heat plans, drainage maintenance, water storage, vaccination and social protection. These are not the most visible investments, which is why they are often skipped in favour of large infrastructure.
@@ -3523,6 +3661,8 @@ The evidence on returns is strong. Studies of early warning systems find benefit
 
 Financing mechanisms should match the timeline. Pre-arranged contingent finance for response, insurance and catastrophe bonds for large losses, budget lines for maintenance, and concessional finance for adaptation in low-income countries each serve a different purpose. The common failure is to rely on post-disaster appeals, which are slow, uncertain and inadequate relative to need.
 
+Financing adaptation is a problem of sequencing as much as of amount. The measures with the highest return are often the cheapest and fastest: early warning, heat plans, drainage maintenance, vaccination, social protection. They are also the least attractive to donors because they are difficult to attribute and produce no visible monument. The larger investments — sea walls, levees, relocation — are necessary in some places and should follow, rather than precede, the low-regret measures that buy time and credibility.
+
 ## 24.10 What Survival Requires
 
 The book's argument, condensed, is that survival is a function of preparation, cooperation and equity. Preparation reduces the chance that a hazard becomes a catastrophe; cooperation allows people to act together when institutions are overwhelmed; and equity ensures that protection reaches those who need it most. None of the three is sufficient alone, and all three can be built.
@@ -3530,6 +3670,8 @@ The book's argument, condensed, is that survival is a function of preparation, c
 The evidence for that claim is in the cases. Bangladesh reduced cyclone deaths by orders of magnitude through shelters, warnings and volunteers. European countries reduced heat deaths after 2003 through plans and outreach. Cities that invested in drainage and warning suffered less than those that did not. The improvements were not produced by better weather; they were produced by better institutions.
 
 The future will test those institutions more severely. Warming is committed, extremes are intensifying, and the window for avoiding the worst outcomes is narrowing. But the choice is not between optimism and despair; it is between preparation and neglect. The book ends with a simple claim: the societies that survive the coming decades will be those that treat foresight as a public good, build institutions that learn, and protect the people who cannot protect themselves.
+
+The conclusion the book reaches is not that survival depends on a bunker, a stockpile or a personal escape plan. It depends on the ordinary capacities that societies build when they decide to: functioning infrastructure, trustworthy institutions, social networks, and a fair distribution of risk. Preparedness is a practice rather than a purchase, and it is measured in the years between disasters, when nothing appears to be happening and the work is maintenance.
 
 ## 24.11 Case Study: From Bhola to Amphan
 
@@ -3542,6 +3684,8 @@ The results were measurable. Cyclones of comparable intensity in later decades p
 The comparison is not a story of complete success. Shelters are unevenly distributed, evacuation is harder for people with livestock or disabilities, and COVID-19 complicated crowding. But the reduction in mortality is one of the clearest examples of preparedness working at scale, and it was achieved by sustained public investment over five decades.
 
 The lessons are transferable. Warning must reach the last mile, and it must be repeated through trusted local messengers. Shelters must be close enough to reach on foot, and accessible to people with disabilities. Evacuation must be practised, because people do not follow unfamiliar instructions under stress. And the system must be maintained between events, because preparedness decays when attention moves elsewhere.
+
+The most useful case for a reader who wants to act is not a catastrophe but a city that prepared before one arrived. Ahmedabad's heat action plan, developed after a 2010 heatwave killed more than a thousand people, became a model because it was specific: a forecast trigger, a colour-coded warning, cooling centres in public buildings, outreach through community health workers, and changes to school and work hours. Evaluations estimate that it prevented hundreds of deaths in subsequent years. The plan cost a small fraction of the losses it avoided, which is the argument for preparedness in its most concrete form.
 
 ## 24.12 Future Scenarios and Predictions: A Prepared World in 2050
 
