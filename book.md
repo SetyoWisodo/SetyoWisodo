@@ -4077,39 +4077,93 @@ This book is written to be argued with. When you contest or extend one of its cl
 # Appendix C: Index
 
 - Adaptation
+- Air conditioning
+- Air pollution
+- Albedo
+- Aquifer
+- Attribution
 - Biodiversity
-- Carbon footprint
-- Carbon pricing
+- Carbon budget
+- Cholera
 - Climate finance
+- Climate model
+- Coastal protection
 - Committed warming
 - Conflict
+- Cooling centre
+- Coral reef
+- Deforestation
+- Dengue
+- Desalination
+- Disaster risk reduction
+- Displacement
 - Drought
 - Early warning
 - Ecosystem
-- Equity
+- El Niño
+- Emergence
 - Exposure
+- Extinction
+- Extreme heat
+- Feedback loop
+- Fisheries
 - Flood
 - Food security
+- Glacier
 - Greenhouse effect
-- Health
-- Heat wave
-- Indigenous knowledge
+- Grid
+- Groundwater
+- Heat action plan
+- Heat dome
+- Heat mortality
+- Heatwave
+- Hurricane
+- Hydropower
+- Ice sheet
 - Infrastructure
+- Insurance
+- Irrigation
 - Justice
+- Land use
+- Livestock
+- Loss and damage
+- Malaria
+- Managed retreat
+- Mangrove
 - Mental health
+- Microgrid
 - Migration
 - Mitigation
+- Monsoon
 - Mutual aid
-- RCP
+- Net zero
+- Nutrition
+- Ocean acidification
+- Permafrost
+- Public health
+- Radiative forcing
+- Relocation
 - Renewable energy
 - Resilience
-- SSP
+- Sanitation
+- Sea ice
 - Sea level rise
 - Sensitivity
+- Settlement
 - Social capital
+- Storm surge
+- Subsidy
+- Supply chain
+- Tenure
 - Tipping point
+- Typhoon
+- Urban heat island
 - Vulnerability
 - Water security
+- Water stress
+- Wet-bulb temperature
+- Wildfire
+- Zoning
 
 # Appendix D: References
 

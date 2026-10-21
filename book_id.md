@@ -4069,39 +4069,96 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 # Lampiran C: Indeks
 
 - Adaptasi
+- Agroforestri
+- Air tanah
+- Akuifer
+- Albedo
+- Anggaran karbon
+- Asuransi
+- Atribusi
+- Badai
 - Banjir
-- Efek rumah kaca
+- Banjir bandang
+- Bendungan
+- Deforestasi
+- Dekarbonisasi
+- Dengue
+- Desalinasi
+- Desertifikasi
 - Ekosistem
-- Energi terbarukan
+- El Niño
+- Elektrifikasi
+- Es laut
+- Gelombang badai
 - Gelombang panas
+- Gizi
+- Gletser
 - Gotong royong
+- Hasil panen
+- Hidrogen
 - Infrastruktur
-- Jejak karbon
+- Irigasi
+- Jaringan listrik
 - Keadilan
-- Keamanan air
-- Keanekaragaman hayati
+- Kebakaran hutan
 - Kekeringan
-- Kenaikan permukaan laut
+- Kematian akibat panas
+- Kematian berlebih
+- Kemiskinan energi
+- Kenaikan muka laut
+- Kepadatan
 - Kerentanan
 - Kesehatan
 - Kesehatan mental
-- Kesetaraan
+- Kesehatan publik
 - Ketahanan pangan
-- Keuangan iklim
+- Kolera
 - Konflik
+- Kubah panas
+- Kumuh
+- Lapisan es
+- Limbah pangan
+- Malaria
+- Mangrove
 - Migrasi
 - Mitigasi
 - Modal sosial
+- Model iklim
+- Monsun
+- Panas ekstrem
+- Pantai
 - Paparan
-- Pemanasan terkunci
-- Penetapan harga karbon
-- Pengetahuan adat
+- Partikulat
+- Pemadaman
+- Pendingin udara
+- Pengasaman laut
+- Pengungsi iklim
+- Pengungsian
+- Penyakit tular vektor
+- Perikanan
 - Peringatan dini
-- RCP
+- Permafrost
+- Permukiman
+- Permukiman informal
+- Pertanian
+- Polusi udara
+- Rantai pasok
+- Relokasi
+- Rencana aksi panas
 - Resiliensi
-- SSP
+- Retret terkelola
+- Salinisasi
+- Sanitasi
 - Sensitivitas
-- Titik balik
+- Subsidi
+- Suhu bola basah
+- Sungai atmosfer
+- Tanah longsor
+- Tata ruang
+- Terumbu karang
+- Titik kritis
+- Topan
+- Waduk
 
 # Lampiran D: Daftar Pustaka (Referensi Lanjutan)
 

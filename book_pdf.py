@@ -491,8 +491,21 @@ def render(md_path, out_pdf, lang="en", title=None):
     cfg = L[lang]
     blocks = split_blocks(parse_markdown(md_path))
 
-    def build(page_map=None, table_map=None):
+    # --- istilah indeks: semua butir "li" di bawah lampiran indeks ---
+    index_terms, in_index = [], False
+    for b in blocks:
+        if b[0] == "h1":
+            in_index = bool(re.match(r"^(Appendix|Lampiran) C\b", b[1]))
+        elif b[0] == "li" and in_index:
+            index_terms.append(b[1].strip())
+    index_lookup = {t.lower(): t for t in index_terms}
+    index_re = (re.compile(r"\b(" + "|".join(re.escape(t) for t in sorted(index_terms, key=len, reverse=True)) + r")\b", re.I)
+                if index_terms else None)
+
+    def build(page_map=None, table_map=None, index_map=None):
         pdf = Book(lang)
+        if index_map is None:
+            index_map = {}
         # ---------- cover ----------
         pdf.add_page()
         pdf.ln(38)
@@ -543,6 +556,18 @@ def render(md_path, out_pdf, lang="en", title=None):
                 if pdf.get_y() + 3 * LINE_H > pdf.page_break_trigger:
                     pdf.add_page()
                     pdf.set_y(pdf.t_margin)
+                if getattr(pdf, "index_mode", False) and txt.strip().lower() in index_lookup:
+                    pgx = sorted(index_map.get(index_lookup[txt.strip().lower()], []))
+                    if not pgx:
+                        continue
+                    if len(pgx) > 10:
+                        tail = ", ".join(str(x) for x in pgx[:10]) + " et passim"
+                    else:
+                        tail = ", ".join(str(x) for x in pgx)
+                    draw_paragraph(pdf, ("**" + txt.strip() + "**" + (", " + tail if tail else "")),
+                                   indent=0.0, align="L")
+                    pdf.ln(1.5)
+                    continue
                 if getattr(pdf, "ref_mode", False):
                     draw_paragraph(pdf, txt, indent=0.0, align="L")
                     pdf.ln(3.0)
@@ -559,6 +584,7 @@ def render(md_path, out_pdf, lang="en", title=None):
             if kind == "h1":
                 title_txt = val
                 pdf.ref_mode = bool(re.match(r"^(Appendix|Lampiran) D\b", title_txt))
+                pdf.index_mode = bool(re.match(r"^(Appendix|Lampiran) C\b", title_txt))
                 pdf.chapter_title = title_txt
                 pdf.add_page()
                 pdf.chapter_starts.add(pdf.page)
@@ -581,19 +607,32 @@ def render(md_path, out_pdf, lang="en", title=None):
                 pdf.ln(0.6)
             elif kind == "li":
                 li_buf.append(val)
+                if (index_re is not None and not getattr(pdf, "index_mode", False)
+                        and not re.match(r"^(Appendix|Lampiran)", pdf.chapter_title or "")):
+                    for m in index_re.finditer(val):
+                        key = index_lookup.get(m.group(1).lower())
+                        if key:
+                            index_map.setdefault(key, set()).add(pdf.page)
             elif re.match(r"^\*(Theme|Tema):", val):
                 draw_paragraph(pdf, val, indent=0.0, align="L")
                 pdf.ln(0.8)
             else:
+                start_pg = pdf.page
                 draw_paragraph(pdf, val)
+                if (index_re is not None and not getattr(pdf, "index_mode", False)
+                        and not re.match(r"^(Appendix|Lampiran)", pdf.chapter_title or "")):
+                    for key in {index_lookup[m.group(1).lower()] for m in index_re.finditer(val)}:
+                        if key:
+                            for pg_i in range(start_pg, pdf.page + 1):
+                                index_map.setdefault(key, set()).add(pg_i)
         flush_li(pdf)
-        return pdf, new_pages, new_tables
+        return pdf, new_pages, new_tables, index_map
 
-    pdf, pages, tables = build()
+    pdf, pages, tables, index_map = build()
     # pass berikutnya dengan nomor halaman nyata; ulangi sampai paginasi stabil
     stable = False
     for _ in range(8):
-        pdf2, pages2, tables2 = build(pages, tables)
+        pdf2, pages2, tables2, index_map = build(pages, tables, index_map)
         pdf = pdf2
         if pages2 == pages and tables2 == tables:
             stable = True
