@@ -166,7 +166,7 @@ Selain alat, 14 peristiwa disapu manual pada kedua edisi — mencari angka yang 
 | Daftar Pustaka | 145 entri per edisi |
 | Works Cited | 130 EN / 123 ID |
 | Further Reading | 15 EN / 22 ID |
-| Kata (termasuk appendiks) | 131.263 EN / 115.723 ID |
+| Kata (termasuk appendiks) | 131.090 EN / 115.564 ID |
 | Bab | 24 per edisi |
 | Tabel | 25 |
 
@@ -186,6 +186,6 @@ Koreksi #4 dan #5 menambah satu sitasi `(WHO, 2023)` di masing-masing edisi; ent
 
 ## 9. Keputusan gate
 
-**LULUS.** Tidak ada kontradiksi angka yang tersisa; lima koreksi data diterapkan di kedua edisi; 46 pemeriksaan fakta kanonis lolos; aparatus sitasi tetap bersih pada 377/336 sitasi.
+**LULUS.** Tidak ada kontradiksi angka yang tersisa; lima koreksi data diterapkan di kedua edisi; 46 pemeriksaan fakta kanonis lolos; aparatus sitasi tetap bersih pada 377/336 sitasi. (Jumlah kata diperbarui setelah Gate 4.)
 
 Gate berikutnya: **Gate 4 — panel tinjau** (enam sudut pandang: iklim, kebijakan, ekonomi, kesehatan, etika, dan praktisi lapangan), dilanjutkan Gate 5 (gaya) dan Gate 6 (produksi).

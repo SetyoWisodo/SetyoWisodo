@@ -334,7 +334,8 @@ def apply(text, lang="en"):
                     hit = cit
                     log.append({"t": "E", "rule": ev[0], "cit": cit, "sent": sent.strip()[:150]})
                     break
-            for kws, cit in (() if hit else rules):
+            skip_topic = ("pan american" in low) or ("pan amerika" in low)
+            for kws, cit in (() if hit or skip_topic else rules):
                 if all(k in low for k in kws):
                     hit = cit
                     log.append({"t": "A", "rule": " ".join(kws), "cit": cit, "sent": sent.strip()[:150]})

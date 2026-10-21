@@ -174,7 +174,7 @@ Penilaian Kebutuhan Pascabencana resmi, yang dilakukan bersama pemerintah Pakist
 
 ## 1.12 Skenario dan Prediksi Masa Depan: Apa yang Menanti Dua Dekade ke Depan
 
-Rekaman historis memberikan titik awal. Sejak 1970, suhu permukaan global naik sekitar 0,18 °C per dekade, permukaan laut naik sekitar 3,4 milimeter per tahun, dan frekuensi panas ekstrem meningkat sekitar tiga kali lipat di banyak wilayah. Jumlah bencana terkait cuaca yang dilaporkan ke EM-DAT naik dari sekitar 100 per tahun pada 1970-an menjadi lebih dari 300 per tahun pada 2010-an, meskipun sebagian kenaikan itu mencerminkan pelaporan yang lebih baik. Kerugian, setelah disesuaikan dengan inflasi, tumbuh sekitar 5 sampai 7 persen per tahun, lebih cepat daripada yang diperkirakan oleh paparan semata.
+Semua yang menyusul dalam buku ini bertumpu pada tren yang sudah terukur. Sejak 1970, suhu permukaan global naik sekitar 0,18 °C per dekade, permukaan laut naik sekitar 3,4 milimeter per tahun, dan frekuensi panas ekstrem meningkat sekitar tiga kali lipat di banyak wilayah. Jumlah bencana terkait cuaca yang dilaporkan ke EM-DAT naik dari sekitar 100 per tahun pada 1970-an menjadi lebih dari 300 per tahun pada 2010-an, meskipun sebagian kenaikan itu mencerminkan pelaporan yang lebih baik. Kerugian, setelah disesuaikan dengan inflasi, tumbuh sekitar 5 sampai 7 persen per tahun, lebih cepat daripada yang diperkirakan oleh paparan semata.
 
 Posisi sekarang adalah bahwa dunia berada pada lintasan yang konsisten dengan pemanasan sekitar 2,7 °C pada 2100 jika kebijakan saat ini dipertahankan, menurut penilaian Badan Energi Internasional atas janji yang diumumkan dan langkah yang diterapkan. Itu di bawah 4,4 °C dari skenario tertinggi tetapi jauh di atas target 1,5 °C. Lintasan jangka pendek sebagian besar sudah terkunci oleh emisi yang telah dilepaskan dan infrastruktur yang telah dibangun: bahkan jika setiap negara memenuhi janji nol bersihnya, dua dekade berikutnya tetap akan menghangat sekitar 0,4 °C di atas tingkat saat ini.
 
@@ -329,7 +329,7 @@ Masa depan iklim bukan satu angka, melainkan sekumpulan lintasan bersyarat. Syar
 
 Data historis menunjukkan mengapa lintasan itu penting. Selama 10.000 tahun terakhir, sebelum Revolusi Industri, konsentrasi karbon dioksida tidak pernah melebihi 300 bagian per juta (NOAA, 2024). Sejak 1750, konsentrasi naik menjadi 424 bagian per juta, dan sekitar setengah kenaikan itu terjadi sejak 1980 (NOAA, 2024). Jika emisi terus meningkat pada laju saat ini, konsentrasi pada 2100 dapat mencapai 700 sampai 800 bagian per juta, sebuah tingkat yang terakhir terjadi lebih dari tiga juta tahun lalu, ketika permukaan laut beberapa meter lebih tinggi daripada sekarang (NOAA, 2024).
 
-Kondisi sekarang memberi titik awal yang jelas. Dunia telah menghangat sekitar 1,2 °C, permukaan laut naik 20 sampai 25 sentimeter, dan sekitar 1,2 triliun ton karbon dioksida telah dilepaskan sejak 1750 (IPCC, 2021). Anggaran karbon yang tersisa untuk 1,5 °C sekitar 250 miliar ton, atau sekitar enam tahun pada laju emisi saat ini (Friedlingstein dkk., 2023). Angka ini bukan ramalan; ia adalah konsekuensi aritmetika dari fisika yang sudah dijelaskan di bagian sebelumnya, dan ia menunjukkan bahwa pilihan yang tersedia menyempit setiap tahun penundaan.
+Garis dasarnya sudah berubah. Dunia telah menghangat sekitar 1,2 °C, permukaan laut naik 20 sampai 25 sentimeter, dan sekitar 1,2 triliun ton karbon dioksida telah dilepaskan sejak 1750 (IPCC, 2021). Anggaran karbon yang tersisa untuk 1,5 °C sekitar 250 miliar ton, atau sekitar enam tahun pada laju emisi saat ini (Friedlingstein dkk., 2023). Angka ini bukan ramalan; ia adalah konsekuensi aritmetika dari fisika yang sudah dijelaskan di bagian sebelumnya, dan ia menunjukkan bahwa pilihan yang tersedia menyempit setiap tahun penundaan.
 
 Asumsi yang mendasari ketiga lintasan berbeda secara mendasar. Lintasan percepatan mengasumsikan bahwa emisi mencapai puncak sebelum 2030, turun setengahnya pada 2030, dan mencapai nol bersih sekitar 2060 (Friedlingstein dkk., 2023). Lintasan kebijakan saat ini mengasumsikan bahwa komitmen yang ada dilaksanakan tetapi tidak diperluas secara signifikan, sehingga emisi turun lambat dan nol bersih baru tercapai menjelang akhir abad. Lintasan fosil mengasumsikan bahwa batu bara, minyak, dan gas tetap mendominasi hingga 2100. Ketiga lintasan itu bukan prediksi tentang apa yang akan dilakukan pemerintah; mereka adalah alat untuk menguji apa yang terjadi jika dunia memilih salah satunya.
 
@@ -342,7 +342,7 @@ Asumsi yang mendasari ketiga lintasan berbeda secara mendasar. Lintasan percepat
 
 Dua kesimpulan mengikuti dari tabel ini. Pertama, perbedaan antara lintasan terendah dan tertinggi pada 2100 adalah sekitar 2,6 °C — lebih besar daripada seluruh pemanasan yang telah terjadi sejak Revolusi Industri. Kedua, perbedaan itu tidak muncul secara merata: lintasan tinggi menghasilkan gelombang panas yang jauh lebih sering, kekeringan yang lebih panjang, dan kenaikan muka laut yang lebih cepat, sementara lintasan rendah masih menghasilkan konsekuensi yang serius tetapi lebih dapat dikelola.
 
-Apa yang dapat mengubah kesimpulan ini? Perubahan besar dalam teknologi penyimpanan energi atau dalam biaya energi surya dapat mempercepat dekarbonisasi lebih cepat daripada yang diasumsikan dalam lintasan menengah. Sebaliknya, umpan balik karbon yang lebih kuat daripada perkiraan, atau pelepasan metana dari permafrost, dapat membuat lintasan tinggi lebih buruk daripada angka di atas. Yang tidak dapat diubah oleh teknologi adalah karbon yang sudah berada di atmosfer: ia akan tetap di sana selama berabad-abad, dan pemanasan yang telah terjadi tidak dapat dibatalkan dalam skala waktu satu generasi.
+Perubahan besar dalam teknologi penyimpanan energi atau dalam biaya energi surya dapat mempercepat dekarbonisasi lebih cepat daripada yang diasumsikan dalam lintasan menengah. Sebaliknya, umpan balik karbon yang lebih kuat daripada perkiraan, atau pelepasan metana dari permafrost, dapat membuat lintasan tinggi lebih buruk daripada angka di atas. Yang tidak dapat diubah oleh teknologi adalah karbon yang sudah berada di atmosfer: ia akan tetap di sana selama berabad-abad, dan pemanasan yang telah terjadi tidak dapat dibatalkan dalam skala waktu satu generasi.
 
 ---
 
@@ -480,7 +480,7 @@ Masa depan sistem iklim bukan satu angka melainkan sekumpulan lintasan bersyarat
 
 Posisi saat ini adalah bahwa beberapa variabel lambat telah mulai bergerak. Sirkulasi terbalik Atlantik lebih lemah daripada kapan pun dalam milenium terakhir menurut rekonstruksi proksi, meskipun ukuran dan signifikansi penurunannya masih diperdebatkan (Caesar dkk., 2021). Es laut Arktik berada pada lintasan untuk hampir tidak ada pada bulan September sebelum pertengahan abad di bawah semua skenario kecuali yang terendah. Terumbu karang air hangat telah mengalami empat peristiwa pemutihan global, dan interval di antaranya memendek.
 
-Asumsi yang menggerakkan skenario karena itu bukan hanya tentang emisi tetapi juga tentang respons variabel-variabel lambat ini. Jika sirkulasi terbalik melemah secara moderat, musim dingin Eropa sedikit mendingin sementara tropis menghangat lebih cepat; jika runtuh, konsekuensi regionalnya parah dan konsekuensi globalnya masih diperdebatkan. Jika lapisan es Greenland telah berkomitmen pada kehilangan jangka panjang, permukaan laut naik selama berabad-abad terlepas dari apa yang terjadi pada emisi setelah pertengahan abad. Ini bukan teori alternatif; ini adalah posisi berbeda pada kontinum probabilitas, dan sistem pemantauan yang dijelaskan di atas adalah yang memungkinkan probabilitas itu diperbarui.
+Variabel-variabel lambat itu sama pentingnya dengan emisi. Jika sirkulasi terbalik melemah secara moderat, musim dingin Eropa sedikit mendingin sementara tropis menghangat lebih cepat; jika runtuh, konsekuensi regionalnya parah dan konsekuensi globalnya masih diperdebatkan. Jika lapisan es Greenland telah berkomitmen pada kehilangan jangka panjang, permukaan laut naik selama berabad-abad terlepas dari apa yang terjadi pada emisi setelah pertengahan abad. Ini bukan teori alternatif; ini adalah posisi berbeda pada kontinum probabilitas, dan sistem pemantauan yang dijelaskan di atas adalah yang memungkinkan probabilitas itu diperbarui.
 
 [[TABLE:Tabel 3.1 Ambang batas sistem dan apa yang harus dipantau]]
 | Elemen | Ambang yang mengkhawatirkan | Waktu untuk mengamati perubahan | Sinyal yang dipantau |
@@ -493,7 +493,7 @@ Asumsi yang menggerakkan skenario karena itu bukan hanya tentang emisi tetapi ju
 
 Dua kesimpulan mengikuti untuk pengambilan keputusan. Pertama, pemantauan bukan kemewahan ilmiah melainkan sistem peringatan dini bagi planet: semakin cepat ambang terdeteksi, semakin banyak opsi yang tersisa. Kedua, alat standar analisis biaya-manfaat tidak cocok untuk sistem dengan ambang batas, karena alat itu merata-ratakan hasil yang tidak dapat dipertukarkan. Probabilitas kecil perubahan yang tidak dapat dibalik tidak setara dengan probabilitas lebih besar perubahan yang dapat dipulihkan, dan penilaian apa pun yang memperlakukan keduanya sebagai setara akan secara sistematis kurang berinvestasi dalam pencegahan.
 
-Apa yang dapat mengubah kesimpulan ini? Pelemahan sirkulasi terbalik yang jelas dan berkelanjutan akan meningkatkan urgensi setiap keputusan adaptasi di Eropa dan Afrika Barat. Satu dekade tanpa penurunan es laut Arktik lebih lanjut akan menunjukkan bahwa sistem lebih tangguh daripada asumsi model. Tidak ada yang mungkin menentukan sendiri, dan itulah sifat sistem yang diamati pada laju dekade: buktinya datang lambat, dan keputusannya tidak dapat menunggu.
+Pelemahan sirkulasi terbalik yang jelas dan berkelanjutan akan meningkatkan urgensi setiap keputusan adaptasi di Eropa dan Afrika Barat. Satu dekade tanpa penurunan es laut Arktik lebih lanjut akan menunjukkan bahwa sistem lebih tangguh daripada asumsi model. Tidak ada yang mungkin menentukan sendiri, dan itulah sifat sistem yang diamati pada laju dekade: buktinya datang lambat, dan keputusannya tidak dapat menunggu.
 
 ---
 
@@ -633,11 +633,11 @@ Panas Eropa 2022 juga menjadi ujian sistem peringatan yang dibangun setelah 2003
 
 ## 4.12 Skenario dan Prediksi Masa Depan: Panas di Dunia yang Lebih Hangat
 
-Rekaman historis menunjukkan tren yang jelas. Jumlah hari dengan panas ekstrem telah meningkat di setiap benua, frekuensi gelombang panas naik sekitar tiga kali lipat sejak 1950-an, dan tahun terpanas dalam rekaman telah dilampaui berulang kali pada dekade terakhir (WMO, 2023). Kematian akibat panas meningkat bersamanya: Lancet Countdown memperkirakan bahwa kematian akibat panas di antara orang berusia di atas 65 tahun telah meningkat sekitar 70 persen sejak 1990-an, dan bahwa trennya semakin cepat di Eropa dan Asia Selatan (Watts dkk., 2021).
+Panas adalah bahaya yang kaitannya dengan kematian paling jelas. Jumlah hari dengan panas ekstrem telah meningkat di setiap benua, frekuensi gelombang panas naik sekitar tiga kali lipat sejak 1950-an, dan tahun terpanas dalam rekaman telah dilampaui berulang kali pada dekade terakhir (WMO, 2023). Kematian akibat panas meningkat bersamanya: Lancet Countdown memperkirakan bahwa kematian akibat panas di antara orang berusia di atas 65 tahun telah meningkat 167 persen sejak 1990-an, dan bahwa trennya semakin cepat di Eropa dan Asia Selatan (Watts dkk., 2021).
 
-Kondisi saat ini sangat bervariasi menurut tempat. Di Delhi, musim panas 2024 menghasilkan pekan-pekan suhu di atas 45 °C dan permintaan listrik rekor; di Jakarta, gabungan kelembapan tinggi dan pulau panas perkotaan yang kuat menghasilkan kondisi bola basah yang sudah berbahaya bagi pekerja luar ruang; di Karachi, gelombang panas 2015 menewaskan lebih dari 1.200 orang di kota yang banyak lingkungannya kekurangan air dan listrik yang andal (Vecellio dkk., 2022). Ini bukan skenario masa depan. Ini adalah garis dasar tempat proyeksi dimulai.
+Paparan itu tidak merata. Di Delhi, musim panas 2024 menghasilkan pekan-pekan suhu di atas 45 °C dan permintaan listrik rekor; di Jakarta, gabungan kelembapan tinggi dan pulau panas perkotaan yang kuat menghasilkan kondisi bola basah yang sudah berbahaya bagi pekerja luar ruang; di Karachi, gelombang panas 2015 menewaskan lebih dari 1.200 orang di kota yang banyak lingkungannya kekurangan air dan listrik yang andal (Vecellio dkk., 2022). Ini bukan skenario masa depan. Ini adalah garis dasar tempat proyeksi dimulai.
 
-Asumsi yang menggerakkan proyeksi karena itu sama besarnya dengan asumsi tentang adaptasi seperti tentang emisi. Jika kota berinvestasi pada naungan, pendinginan, sistem peringatan, dan perumahan, kematian dapat turun meskipun suhu naik. Jika tidak, kematian akan naik lebih cepat daripada suhu karena paparan tumbuh bersama urbanisasi dan penuaan. Skenario di bawah ini menggabungkan keduanya: ia menunjukkan apa yang terjadi pada risiko panas di bawah jalur emisi berbeda dan tingkat investasi adaptasi berbeda.
+Adaptasi sama pentingnya dengan emisi. Jika kota berinvestasi pada naungan, pendinginan, sistem peringatan, dan perumahan, kematian dapat turun meskipun suhu naik. Jika tidak, kematian akan naik lebih cepat daripada suhu karena paparan tumbuh bersama urbanisasi dan penuaan. Skenario di bawah ini menggabungkan keduanya: ia menunjukkan apa yang terjadi pada risiko panas di bawah jalur emisi berbeda dan tingkat investasi adaptasi berbeda.
 
 [[TABLE:Tabel 4.1 Paparan panas di kota-kota terpilih, sekarang dan 2050]]
 | Kota | Hari di atas 35 °C sekarang | Hari di atas 35 °C pada 2050 (SSP2-4.5) | Risiko bola basah | Adaptasi kritis |
@@ -651,7 +651,7 @@ Asumsi yang menggerakkan proyeksi karena itu sama besarnya dengan asumsi tentang
 
 Dua kesimpulan mengikuti. Pertama, risiko panas tidak ditentukan oleh suhu saja: jumlah hari panas yang sama menghasilkan kematian yang sangat berbeda tergantung pada perumahan, air, listrik, dan perlindungan sosial. Kedua, keuntungan terbesar datang dari intervensi yang membosankan dan murah — naungan, air, peringatan, kunjungan ke tetangga lansia — bukan dari teknologi yang mahal dan belum terbukti. Kota yang melakukan hal-hal membosankan dengan baik dapat menyelamatkan ribuan nyawa pada 1,5 °C dan masih menyelamatkan banyak pada 2,5 °C, meskipun marginnya menyempit (Iungman dkk., 2023).
 
-Apa yang dapat mengubah kesimpulan ini? Terobosan dalam pendinginan murah dan efisien akan menurunkan kematian di negara panas tetapi akan meningkatkan permintaan listrik dan emisi kecuali dipasangkan dengan pembangkit bersih. Keruntuhan jaringan listrik selama gelombang panas akan mengubah peristiwa yang dapat dikelola menjadi malapetaka, seperti yang terjadi di Texas pada 2021 dan di India pada 2012. Dan peristiwa bola basah di atas ambang fisiologis akan menciptakan situasi di mana adaptasi mustahil dan hanya evakuasi yang tersisa.
+Terobosan dalam pendinginan murah dan efisien akan menurunkan kematian di negara panas tetapi akan meningkatkan permintaan listrik dan emisi kecuali dipasangkan dengan pembangkit bersih. Keruntuhan jaringan listrik selama gelombang panas akan mengubah peristiwa yang dapat dikelola menjadi malapetaka, seperti yang terjadi di Texas pada 2021 dan di India pada 2012. Dan peristiwa bola basah di atas ambang fisiologis akan menciptakan situasi di mana adaptasi mustahil dan hanya evakuasi yang tersisa.
 
 ---
 
@@ -793,11 +793,11 @@ Krisis Chennai juga menggambarkan seberapa cepat kota modern dapat direduksi men
 
 ## 5.12 Skenario dan Prediksi Masa Depan: Air pada 2050
 
-Data historis menunjukkan tren yang konsisten. Pengambilan air global meningkat sekitar tiga kali lipat sejak 1950, didorong pertumbuhan penduduk, irigasi, dan permintaan industri. Penipisan air tanah telah dipercepat dalam dua dekade terakhir, dan luas lahan yang terkena kekeringan meningkat. Bank Dunia memperkirakan bahwa kelangkaan air dapat mengurangi pertumbuhan PDB di beberapa wilayah hingga 6 persen pada 2050, dan Konvensi Perserikatan Bangsa-Bangsa untuk Memerangi Desertifikasi memperkirakan bahwa kekeringan dapat mengungsi 700 juta orang pada 2030.
+Air tawar adalah sumber daya yang jarak antara permintaan dan pasokannya menutup paling cepat. Pengambilan air global meningkat sekitar tiga kali lipat sejak 1950, didorong pertumbuhan penduduk, irigasi, dan permintaan industri. Penipisan air tanah telah dipercepat dalam dua dekade terakhir, dan luas lahan yang terkena kekeringan meningkat. Bank Dunia memperkirakan bahwa kelangkaan air dapat mengurangi pertumbuhan PDB di beberapa wilayah hingga 6 persen pada 2050, dan Konvensi Perserikatan Bangsa-Bangsa untuk Memerangi Desertifikasi memperkirakan bahwa kekeringan dapat mengungsi 700 juta orang pada 2030.
 
-Kondisi sekarang memberikan garis dasar. Sekitar 4 miliar orang mengalami kelangkaan air parah setidaknya satu bulan setiap tahun, dan 2,2 miliar orang kekurangan air minum yang dikelola dengan aman (Gleick, 2023). Pertanian menggunakan sekitar 70 persen pengambilan, dan di banyak cekungan alokasi air melebihi pasokan terbarukan (Gleick, 2023). Celahnya diisi oleh penambangan air tanah, yang tidak dapat berlangsung selamanya. Pertanyaannya bukan apakah defisit akan ditutup, tetapi bagaimana: melalui efisiensi, realokasi, pasokan baru, atau krisis.
+Permintaan sudah melebihi pasokan yang andal di banyak cekungan. Sekitar 4 miliar orang mengalami kelangkaan air parah setidaknya satu bulan setiap tahun, dan 2,2 miliar orang kekurangan air minum yang dikelola dengan aman (Gleick, 2023). Pertanian menggunakan sekitar 70 persen pengambilan, dan di banyak cekungan alokasi air melebihi pasokan terbarukan (Gleick, 2023). Celahnya diisi oleh penambangan air tanah, yang tidak dapat berlangsung selamanya. Pertanyaannya bukan apakah defisit akan ditutup, tetapi bagaimana: melalui efisiensi, realokasi, pasokan baru, atau krisis.
 
-Asumsi yang menggerakkan proyeksi adalah populasi, pola makan, teknologi, dan tata kelola. Dunia yang bergerak menuju irigasi efisien, mendaur ulang lebih banyak air, dan membatasi pengambilan air tanah dapat memenuhi permintaan dengan lebih sedikit air daripada yang digunakan hari ini. Dunia yang melanjutkan tren saat ini akan menghadapi kekurangan sekitar 40 persen antara pasokan yang tersedia dan permintaan yang diproyeksikan pada 2030, menurut 2030 Water Resources Group. Skenario di bawah ini menunjukkan bagaimana cekungan utama mungkin terlihat di bawah asumsi yang berbeda.
+Populasi, pola makan, teknologi, dan tata kelola akan menentukan neraca air. Dunia yang bergerak menuju irigasi efisien, mendaur ulang lebih banyak air, dan membatasi pengambilan air tanah dapat memenuhi permintaan dengan lebih sedikit air daripada yang digunakan hari ini. Dunia yang melanjutkan tren saat ini akan menghadapi kekurangan sekitar 40 persen antara pasokan yang tersedia dan permintaan yang diproyeksikan pada 2030, menurut 2030 Water Resources Group. Skenario di bawah ini menunjukkan bagaimana cekungan utama mungkin terlihat di bawah asumsi yang berbeda.
 
 [[TABLE:Tabel 5.1 Tekanan air di cekungan utama, sekarang dan 2050]]
 | Cekungan | Populasi (juta) | Tekanan sekarang | Celah 2050 (SSP2-4.5) | Adaptasi utama |
@@ -811,7 +811,7 @@ Asumsi yang menggerakkan proyeksi adalah populasi, pola makan, teknologi, dan ta
 
 Dua kesimpulan mengikuti. Pertama, celah terbesar berada di cekungan tempat pertanian mendominasi dan air tanah tidak diatur, yang berarti intervensi terpenting bersifat pertanian, bukan perkotaan. Kedua, celah itu dapat ditutup dengan teknologi yang ada; hambatannya adalah biaya politik untuk merealokasi air dari satu pengguna ke pengguna lain. Cekungan yang membatasi pengambilan akan menghasilkan lebih sedikit dalam jangka pendek, dan petani yang kehilangan air akan menolak.
 
-Apa yang dapat mengubah kesimpulan ini? Terobosan desalinasi murah akan memperluas pasokan bagi kota pesisir tetapi tidak bagi pertanian pedalaman. Perubahan pola makan ke arah pangan yang tidak terlalu banyak membutuhkan air akan mengurangi permintaan secara substansial, karena daging dan susu membutuhkan jauh lebih banyak air per kalori daripada biji-bijian. Dan kenaikan presipitasi yang berkelanjutan di sebagian cekungan, yang disarankan sebagian proyeksi iklim, akan mengurangi tekanan di tempat-tempat itu — tetapi proyeksi yang sama menunjukkan penurunan di tempat lain, dan ketidakpastiannya paling besar di tempat yang taruhannya paling tinggi.
+Terobosan desalinasi murah akan memperluas pasokan bagi kota pesisir tetapi tidak bagi pertanian pedalaman. Perubahan pola makan ke arah pangan yang tidak terlalu banyak membutuhkan air akan mengurangi permintaan secara substansial, karena daging dan susu membutuhkan jauh lebih banyak air per kalori daripada biji-bijian. Dan kenaikan presipitasi yang berkelanjutan di sebagian cekungan, yang disarankan sebagian proyeksi iklim, akan mengurangi tekanan di tempat-tempat itu — tetapi proyeksi yang sama menunjukkan penurunan di tempat lain, dan ketidakpastiannya paling besar di tempat yang taruhannya paling tinggi.
 
 ---
 
@@ -951,11 +951,11 @@ DANA Valencia juga menyingkap kegagalan perencanaan yang telah didokumentasikan 
 
 ## 6.12 Skenario dan Prediksi Masa Depan: Pesisir pada 2100
 
-Rekaman historis tidak ambigu. Muka laut rata-rata global telah naik sekitar 20 sampai 25 sentimeter sejak 1880, dan lajunya meningkat dari sekitar 1,4 milimeter per tahun pada awal abad kedua puluh menjadi sekitar 4,5 milimeter per tahun saat ini (IPCC, 2019b). Frekuensi banjir pesisir telah meningkat bahkan di tempat kenaikan muka lautnya moderat, karena banjir bergantung pada kombinasi muka laut, pasang, gelombang badai, dan ombak, serta karena penurunan tanah dan pembangunan pesisir telah meningkatkan paparan.
+Kenaikan muka laut adalah angka paling lambat di buku ini dan yang paling sulit dibalik. Muka laut rata-rata global telah naik sekitar 20 sampai 25 sentimeter sejak 1880, dan lajunya meningkat dari sekitar 1,4 milimeter per tahun pada awal abad kedua puluh menjadi sekitar 4,5 milimeter per tahun saat ini (IPCC, 2019b). Frekuensi banjir pesisir telah meningkat bahkan di tempat kenaikan muka lautnya moderat, karena banjir bergantung pada kombinasi muka laut, pasang, gelombang badai, dan ombak, serta karena penurunan tanah dan pembangunan pesisir telah meningkatkan paparan.
 
-Kondisi sekarang menunjukkan skala paparannya. Sekitar 600 juta orang tinggal di zona pesisir berelevasi rendah kurang dari 10 meter di atas permukaan laut, dan sekitar 1 miliar orang tinggal dalam jarak 100 kilometer dari pantai (Kulp & Strauss, 2019). Nilai aset di zona ini sangat besar: di Amerika Serikat saja, properti pesisir bernilai triliunan dolar terpapar gelombang badai. Di negara berkembang, paparannya terkonsentrasi di permukiman informal yang tidak memiliki asuransi dan sedikit perlindungan publik.
+Paparan terkonsentrasi di pesisir. Sekitar 600 juta orang tinggal di zona pesisir berelevasi rendah kurang dari 10 meter di atas permukaan laut, dan sekitar 1 miliar orang tinggal dalam jarak 100 kilometer dari pantai (Kulp & Strauss, 2019). Nilai aset di zona ini sangat besar: di Amerika Serikat saja, properti pesisir bernilai triliunan dolar terpapar gelombang badai. Di negara berkembang, paparannya terkonsentrasi di permukiman informal yang tidak memiliki asuransi dan sedikit perlindungan publik.
 
-Asumsi yang menggerakkan proyeksi adalah jalur emisi, respons lapisan es, dan laju penurunan tanah. Di bawah skenario emisi rendah, muka laut diperkirakan naik sekitar 0,3 sampai 0,4 meter pada 2100; di bawah skenario emisi tinggi, 0,6 sampai 0,8 meter; dan jika lapisan es Antartika Barat menjadi tidak stabil, lebih dari satu meter (IPCC, 2019b). Perbedaannya kurang penting bagi rata-rata global daripada bagi frekuensi peristiwa ekstrem: kenaikan 0,5 meter dapat mengubah banjir sekali seabad menjadi banjir sekali satu dekade, dan di beberapa tempat menjadi tahunan (IPCC, 2022a).
+Rentang muka laut bergantung pada jalur emisi, respons lapisan es, dan laju penurunan tanah. Di bawah skenario emisi rendah, muka laut diperkirakan naik sekitar 0,3 sampai 0,4 meter pada 2100; di bawah skenario emisi tinggi, 0,6 sampai 0,8 meter; dan jika lapisan es Antartika Barat menjadi tidak stabil, lebih dari satu meter (IPCC, 2019b). Perbedaannya kurang penting bagi rata-rata global daripada bagi frekuensi peristiwa ekstrem: kenaikan 0,5 meter dapat mengubah banjir sekali seabad menjadi banjir sekali satu dekade, dan di beberapa tempat menjadi tahunan (IPCC, 2022a).
 
 [[TABLE:Tabel 6.1 Paparan pesisir di kota-kota terpilih]]
 | Kota | Penurunan tanah (cm/tahun) | Penduduk terpapar banjir 1-dalam-100 | Muka laut 2050 (SSP2-4.5) | Adaptasi |
@@ -969,7 +969,7 @@ Asumsi yang menggerakkan proyeksi adalah jalur emisi, respons lapisan es, dan la
 
 Dua kesimpulan mengikuti. Pertama, variabel dominan di banyak kota bukan kenaikan muka laut global melainkan penurunan tanah lokal, yang disebabkan keputusan manusia dan dapat diperlambat atau dihentikan. Kedua, biaya adaptasi naik lebih cepat daripada laut, karena setiap tambahan kenaikan memerlukan pertahanan yang lebih besar dan lebih mahal, dan karena probabilitas kegagalan meningkat saat ambang desain didekati.
 
-Apa yang dapat mengubah kesimpulan ini? Keruntuhan lapisan es Antartika Barat akan membuat proyeksi ujung atas jauh lebih mungkin dan menggeser fokus kebijakan dari perlindungan ke retret. Terobosan dalam teknologi pompa berskala besar yang murah atau konstruksi terapung dapat memungkinkan sebagian kota bertahan lebih lama. Dan pengurangan emisi akan memperlambat kenaikan, tetapi tidak menghentikannya, karena laut dan lapisan es merespons selama berabad-abad. Bagi pesisir, mitigasi menentukan kecepatan darurat; adaptasi menentukan apakah kota itu bertahan.
+Keruntuhan lapisan es Antartika Barat akan membuat proyeksi ujung atas jauh lebih mungkin dan menggeser fokus kebijakan dari perlindungan ke retret. Terobosan dalam teknologi pompa berskala besar yang murah atau konstruksi terapung dapat memungkinkan sebagian kota bertahan lebih lama. Dan pengurangan emisi akan memperlambat kenaikan, tetapi tidak menghentikannya, karena laut dan lapisan es merespons selama berabad-abad. Bagi pesisir, mitigasi menentukan kecepatan darurat; adaptasi menentukan apakah kota itu bertahan.
 
 ---
 
@@ -1115,11 +1115,11 @@ Keputusan beras 2023 memiliki dimensi global yang sering terlewat. India menyumb
 
 ## 7.12 Skenario dan Prediksi Masa Depan: Memberi Makan Dunia pada 2050
 
-Bukti historis menunjukkan bahwa pemanasan sudah mengurangi hasil panen relatif terhadap apa yang akan terjadi tanpanya. Meta-analisis eksperimen lapangan menemukan bahwa setiap derajat pemanasan mengurangi hasil gandum global sekitar 6 persen, jagung 7,4 persen, padi 3,2 persen, dan kedelai 3,1 persen, sebelum adaptasi (Zhao dkk., 2017). Kerugiannya lebih besar di wilayah tropis, tempat tanaman sudah mendekati batas panasnya, dan lebih kecil di wilayah beriklim sedang, tempat musim tanam yang lebih panjang dapat mengimbangi sebagian panas.
+Dampak pemanasan terhadap pangan bukan lagi hipotesis. Meta-analisis eksperimen lapangan menemukan bahwa setiap derajat pemanasan mengurangi hasil gandum global sekitar 6 persen, jagung 7,4 persen, padi 3,2 persen, dan kedelai 3,1 persen, sebelum adaptasi (Zhao dkk., 2017). Kerugiannya lebih besar di wilayah tropis, tempat tanaman sudah mendekati batas panasnya, dan lebih kecil di wilayah beriklim sedang, tempat musim tanam yang lebih panjang dapat mengimbangi sebagian panas.
 
-Kondisi sekarang memberikan garis dasar. Produksi pangan global telah mengikuti pertumbuhan penduduk selama sebagian besar setengah abad terakhir, tetapi laju peningkatan hasil melambat, dan sekitar 735 juta orang mengalami kekurangan gizi pada 2022 (FAO, 2023). Sistem pangan juga bertanggung jawab atas sekitar sepertiga emisi gas rumah kaca global, yang berarti ia harus mengurangi emisi sekaligus meningkatkan produksi — kombinasi yang sulit tetapi tidak mustahil.
+Sistem pangan bertumpu pada margin yang menyempit. Produksi pangan global telah mengikuti pertumbuhan penduduk selama sebagian besar setengah abad terakhir, tetapi laju peningkatan hasil melambat, dan sekitar 735 juta orang mengalami kekurangan gizi pada 2022 (FAO, 2023). Sistem pangan juga bertanggung jawab atas sekitar sepertiga emisi gas rumah kaca global, yang berarti ia harus mengurangi emisi sekaligus meningkatkan produksi — kombinasi yang sulit tetapi tidak mustahil.
 
-Asumsi yang menggerakkan proyeksi adalah pertumbuhan penduduk, pola makan, teknologi, dan perdagangan. Dunia yang menstabilkan populasi, mengurangi limbah pangan, beralih ke pola makan lebih sehat, dan berinvestasi dalam adaptasi dapat memberi makan populasi yang lebih besar dengan lebih sedikit lahan dan air. Dunia yang melanjutkan tren saat ini akan menghadapi harga naik, ketergantungan impor yang meningkat, dan jumlah darurat pangan akibat iklim yang bertambah. Skenario di bawah ini menunjukkan rentangnya.
+Pertumbuhan penduduk, pola makan, teknologi, dan perdagangan akan menentukan hasil panen. Dunia yang menstabilkan populasi, mengurangi limbah pangan, beralih ke pola makan lebih sehat, dan berinvestasi dalam adaptasi dapat memberi makan populasi yang lebih besar dengan lebih sedikit lahan dan air. Dunia yang melanjutkan tren saat ini akan menghadapi harga naik, ketergantungan impor yang meningkat, dan jumlah darurat pangan akibat iklim yang bertambah. Skenario di bawah ini menunjukkan rentangnya.
 
 [[TABLE:Tabel 7.1 Sensitivitas hasil tanaman dan proyeksi 2050]]
 | Tanaman | Perubahan hasil per °C | Perubahan 2050 (SSP2-4.5) | Adaptasi utama | Wilayah kunci |
@@ -1133,7 +1133,7 @@ Asumsi yang menggerakkan proyeksi adalah pertumbuhan penduduk, pola makan, tekno
 
 Dua kesimpulan mengikuti. Pertama, tanaman yang memberi makan orang termiskin adalah yang paling sensitif terhadap panas, dan wilayah tempat tanaman itu ditanam adalah wilayah yang paling sedikit dibiayai adaptasinya. Kedua, kerugian yang diproyeksikan tidak katastrofik secara agregat global, tetapi parah di tempat-tempat tertentu, dan berinteraksi dengan kemiskinan, konflik, dan lembaga lemah untuk menghasilkan kelaparan alih-alih sekadar kekurangan.
 
-Apa yang dapat mengubah kesimpulan ini? Terobosan varietas tahan panas, atau efisiensi fotosintesis, akan mengurangi kerugian, tetapi butuh satu dekade atau lebih untuk mencapai petani. Pergeseran ke pola makan berbasis tanaman di negara berpenghasilan tinggi akan mengurangi permintaan pakan dan membebaskan lahan untuk pangan manusia. Dan peningkatan investasi yang berkelanjutan dalam irigasi, penyimpanan, dan jalan pedesaan akan mengurangi kehilangan pascapanen yang saat ini menyumbang sebagian besar celah. Variabel terpenting, bagaimanapun, adalah emisi: perbedaan antara 1,5 °C dan 3 °C adalah perbedaan antara sistem pangan yang dapat beradaptasi dan yang tidak (FAO, 2023).
+Terobosan varietas tahan panas, atau efisiensi fotosintesis, akan mengurangi kerugian, tetapi butuh satu dekade atau lebih untuk mencapai petani. Pergeseran ke pola makan berbasis tanaman di negara berpenghasilan tinggi akan mengurangi permintaan pakan dan membebaskan lahan untuk pangan manusia. Dan peningkatan investasi yang berkelanjutan dalam irigasi, penyimpanan, dan jalan pedesaan akan mengurangi kehilangan pascapanen yang saat ini menyumbang sebagian besar celah. Variabel terpenting, bagaimanapun, adalah emisi: perbedaan antara 1,5 °C dan 3 °C adalah perbedaan antara sistem pangan yang dapat beradaptasi dan yang tidak (FAO, 2023).
 
 ---
 
@@ -1279,11 +1279,11 @@ Penurunan terumbu tidak merata, dan ketidakmerataan itu instruktif. Sebagian ter
 
 ## 8.12 Skenario dan Prediksi Masa Depan: Dunia Kehidupan pada 2100
 
-Rekaman historis menunjukkan bahwa ekosistem sudah berubah. Living Planet Index mencatat penurunan rata-rata 69 persen populasi vertebrata yang dipantau antara 1970 dan 2018; tutupan karang global telah berkurang setengah sejak 1950-an; dan luas hutan primer yang hilang setiap tahun tetap di atas 10 juta hektar (WWF, 2022). Penurunan ini mendahului pemanasan terburuk, yang berarti tekanan iklim datang pada sistem yang sudah lemah.
+Dunia alami adalah tempat pertama biaya pemanasan menjadi terlihat. Living Planet Index mencatat penurunan rata-rata 69 persen populasi vertebrata yang dipantau antara 1970 dan 2018; tutupan karang global telah berkurang setengah sejak 1950-an; dan luas hutan primer yang hilang setiap tahun tetap di atas 10 juta hektar (WWF, 2022). Penurunan ini mendahului pemanasan terburuk, yang berarti tekanan iklim datang pada sistem yang sudah lemah.
 
-Kondisi sekarang adalah campuran kehilangan dan ketangguhan. Sebagian ekosistem mempertahankan kapasitas untuk pulih: Great Barrier Reef bagian selatan memulihkan sebagian besar tutupan karangnya setelah peristiwa 2016–2017, dan sebagian hutan tumbuh kembali setelah penebangan. Yang lain telah melewati ambang: Amazon melepaskan lebih banyak karbon daripada yang diserapnya di beberapa wilayah, dan sebagian Arktik kini menjadi sumber karbon bersih, bukan penyerap. Perbedaan antara kedua kelompok itulah kunci untuk memahami apa yang dapat diselamatkan.
+Gambaran ini bukan kemunduran yang merata. Sebagian ekosistem mempertahankan kapasitas untuk pulih: Great Barrier Reef bagian selatan memulihkan sebagian besar tutupan karangnya setelah peristiwa 2016–2017, dan sebagian hutan tumbuh kembali setelah penebangan. Yang lain telah melewati ambang: Amazon melepaskan lebih banyak karbon daripada yang diserapnya di beberapa wilayah, dan sebagian Arktik kini menjadi sumber karbon bersih, bukan penyerap. Perbedaan antara kedua kelompok itulah kunci untuk memahami apa yang dapat diselamatkan.
 
-Asumsi yang menggerakkan proyeksi adalah jalur emisi, laju perubahan penggunaan lahan, dan efektivitas konservasi. Di bawah jalur emisi rendah, banyak spesies dan ekosistem dapat bertahan, meskipun dalam bentuk yang berubah. Di bawah jalur emisi tinggi, proyeksi konvergen pada kehilangan luas: terumbu karang seperti yang kita kenal hilang, hutan tropis menurun, dan sebagian besar spesies menghadapi kehilangan jangkauan. Skenario di bawah ini merangkum rentangnya.
+Nasib ekosistem akan bergantung pada jalur emisi, perubahan penggunaan lahan, dan efektivitas konservasi. Di bawah jalur emisi rendah, banyak spesies dan ekosistem dapat bertahan, meskipun dalam bentuk yang berubah. Di bawah jalur emisi tinggi, proyeksi konvergen pada kehilangan luas: terumbu karang seperti yang kita kenal hilang, hutan tropis menurun, dan sebagian besar spesies menghadapi kehilangan jangkauan. Skenario di bawah ini merangkum rentangnya.
 
 [[TABLE:Tabel 8.1 Ambang ekosistem dan proyeksi perubahan]]
 | Ekosistem | Ambang yang mengkhawatirkan | Perubahan pada 2 °C | Perubahan pada 3 °C | Jasa yang berisiko |
@@ -1297,7 +1297,7 @@ Asumsi yang menggerakkan proyeksi adalah jalur emisi, laju perubahan penggunaan 
 
 Dua kesimpulan mengikuti. Pertama, perbedaan antara 2 °C dan 3 °C adalah perbedaan antara dunia di mana terumbu karang bertahan dalam bentuk yang berkurang dan dunia di mana mereka sebagian besar hilang, serta antara hutan yang menyimpan karbon dan hutan yang melepaskannya. Kedua, kerugiannya tidak tersebar merata: ekosistem tropis, yang menyimpan keanekaragaman hayati terbanyak dan menopang orang paling rentan, adalah yang paling terpapar.
 
-Apa yang dapat mengubah kesimpulan ini? Pengurangan deforestasi yang cepat akan membeli waktu bagi Amazon dan mengurangi emisi. Terobosan dalam restorasi karang, atau penemuan simbion tahan panas, dapat mempertahankan sebagian terumbu, tetapi tidak akan memulihkan struktur fisiknya dalam skala besar. Dan perubahan rezim kebakaran — melalui pengelolaan yang lebih baik dan lebih sedikit pemicu — akan mengurangi konversi hutan menjadi sabana. Tidak ada yang menggantikan pengurangan emisi, tetapi bersama-sama mereka dapat mengurangi laju kehilangan sementara kebijakan iklim dinegosiasikan.
+Pengurangan deforestasi yang cepat akan membeli waktu bagi Amazon dan mengurangi emisi. Terobosan dalam restorasi karang, atau penemuan simbion tahan panas, dapat mempertahankan sebagian terumbu, tetapi tidak akan memulihkan struktur fisiknya dalam skala besar. Dan perubahan rezim kebakaran — melalui pengelolaan yang lebih baik dan lebih sedikit pemicu — akan mengurangi konversi hutan menjadi sabana. Tidak ada yang menggantikan pengurangan emisi, tetapi bersama-sama mereka dapat mengurangi laju kehilangan sementara kebijakan iklim dinegosiasikan.
 
 ---
 
@@ -1305,7 +1305,7 @@ Apa yang dapat mengubah kesimpulan ini? Pengurangan deforestasi yang cepat akan 
 
 *Tema: penyakit sensitif iklim, sistem kesehatan dan epidemiologi dunia yang memanas*
 
-Pada 2024, Organisasi Kesehatan Pan Amerika mencatat lebih dari 12 juta kasus demam berdarah di Amerika, jumlah tertinggi yang pernah dilaporkan dan sekitar tiga kali rekor sebelumnya (Cissé dkk., 2022). Brasil sendiri melaporkan lebih dari enam juta kasus suspek. Epidemi itu didorong kombinasi faktor: suhu yang lebih hangat yang memperpendek masa inkubasi virus di dalam nyamuk, curah hujan yang lebih lebat yang menciptakan tempat berkembang biak, urbanisasi yang mendekatkan manusia dan nyamuk, serta pergerakan orang dan barang yang membawa virus melintasi perbatasan.
+Pada 2024, Organisasi Kesehatan Pan Amerika mencatat lebih dari 12 juta kasus demam berdarah di Amerika, jumlah tertinggi yang pernah dilaporkan dan sekitar tiga kali rekor sebelumnya. Brasil sendiri melaporkan lebih dari enam juta kasus suspek. Epidemi itu didorong kombinasi faktor: suhu yang lebih hangat yang memperpendek masa inkubasi virus di dalam nyamuk, curah hujan yang lebih lebat yang menciptakan tempat berkembang biak, urbanisasi yang mendekatkan manusia dan nyamuk, serta pergerakan orang dan barang yang membawa virus melintasi perbatasan (Cissé dkk., 2022).
 
 Demam berdarah adalah salah satu contoh paling jelas penyakit yang sensitif iklim. Nyamuk Aedes aegypti yang menularkannya berkembang baik di kota yang hangat dan lembap, dan jangkauannya meluas seiring naiknya suhu. Virus bereplikasi lebih cepat di nyamuk yang lebih hangat, yang berarti nyamuk yang dahulu menjadi infektif setelah dua belas hari mungkin menjadi infektif setelah tujuh hari. Hasilnya adalah kota yang satu generasi lalu terlalu dingin untuk penularan berkelanjutan kini dapat mengalami wabah rutin.
 
@@ -1447,11 +1447,11 @@ Epidemi 2024 juga menyingkap masalah data yang membentuk responsnya. Kasus terla
 
 ## 9.12 Skenario dan Prediksi Masa Depan: Kesehatan pada 2050
 
-Data historis menunjukkan bahwa efek kesehatan perubahan iklim sudah terukur. Kematian terkait panas di antara orang berusia di atas 65 tahun telah meningkat sekitar 70 persen sejak 1990-an; musim penularan demam berdarah telah memanjang di banyak wilayah; dan luas lahan yang terbakar meningkat, memaparkan lebih banyak orang pada asap. Tren ini bukan proyeksi; ini observasi, dan konsisten dengan perubahan fisik yang dijelaskan pada bab-bab sebelumnya.
+Dampak kesehatan akibat pemanasan sudah dihitung, bukan diramalkan. Kematian terkait panas di antara orang berusia di atas 65 tahun telah meningkat 167 persen sejak 1990-an; musim penularan demam berdarah telah memanjang di banyak wilayah; dan luas lahan yang terbakar meningkat, memaparkan lebih banyak orang pada asap. Tren ini bukan proyeksi; ini observasi, dan konsisten dengan perubahan fisik yang dijelaskan pada bab-bab sebelumnya.
 
-Kondisi sekarang memberikan garis dasar. Sekitar 3,5 miliar orang tinggal di wilayah yang sesuai untuk penularan demam berdarah; penularan malaria meluas di wilayah dataran tinggi; dan polusi udara tetap menjadi risiko kesehatan lingkungan terbesar, menyebabkan sekitar tujuh juta kematian per tahun (Watts dkk., 2021). Sistem kesehatan di negara berpenghasilan rendah paling tidak siap, dengan lebih sedikit tempat tidur, lebih sedikit tenaga kesehatan, dan kapasitas deteksi wabah yang lebih kecil.
+Beban penyakit sudah berskala global. Sekitar 3,5 miliar orang tinggal di wilayah yang sesuai untuk penularan demam berdarah; penularan malaria meluas di wilayah dataran tinggi; dan polusi udara tetap menjadi risiko kesehatan lingkungan terbesar, menyebabkan sekitar tujuh juta kematian per tahun (Watts dkk., 2021). Sistem kesehatan di negara berpenghasilan rendah paling tidak siap, dengan lebih sedikit tempat tidur, lebih sedikit tenaga kesehatan, dan kapasitas deteksi wabah yang lebih kecil.
 
-Asumsi yang menggerakkan proyeksi adalah jalur emisi, pertumbuhan penduduk, penuaan, urbanisasi, dan kekuatan sistem kesehatan. Dunia yang mengurangi emisi dan berinvestasi dalam sistem kesehatan dapat mencegah sebagian besar beban yang diproyeksikan; dunia yang tidak melakukan keduanya akan menghadapi beban yang tumbuh lebih cepat daripada iklim karena populasi menua dan berurbanisasi pada saat yang sama. Skenario di bawah ini merangkum rentangnya.
+Beban penyakit akan mengikuti jalur emisi, pertumbuhan penduduk, penuaan, urbanisasi, dan kekuatan sistem kesehatan. Dunia yang mengurangi emisi dan berinvestasi dalam sistem kesehatan dapat mencegah sebagian besar beban yang diproyeksikan; dunia yang tidak melakukan keduanya akan menghadapi beban yang tumbuh lebih cepat daripada iklim karena populasi menua dan berurbanisasi pada saat yang sama. Skenario di bawah ini merangkum rentangnya.
 
 [[TABLE:Tabel 9.1 Risiko kesehatan sensitif iklim, 2050]]
 | Risiko | Pemicu iklim | Perubahan pada 2 °C | Perubahan pada 3 °C | Adaptasi utama |
@@ -1465,7 +1465,7 @@ Asumsi yang menggerakkan proyeksi adalah jalur emisi, pertumbuhan penduduk, penu
 
 Dua kesimpulan mengikuti. Pertama, beban kesehatan didominasi jalur tidak langsung — gizi, penyakit menular, polusi udara — bukan efek langsung yang menjadi berita utama. Kedua, beban itu dapat dicegah dengan intervensi yang diketahui: energi bersih, pengendalian vektor, air dan sanitasi, peringatan panas, dan sistem kesehatan yang kuat. Celah antara apa yang diketahui dan apa yang dilakukan adalah masalah utama iklim dan kesehatan.
 
-Apa yang dapat mengubah kesimpulan ini? Terobosan vaksin demam berdarah atau pengendalian nyamuk dengan gene drive dapat mengurangi penularan secara substansial. Ekspansi cepat energi bersih akan mengurangi polusi udara dan panas sekaligus. Dan penguatan layanan kesehatan primer di negara berpenghasilan rendah akan memperbaiki respons terhadap setiap penyakit sensitif iklim. Tidak ada yang menggantikan pengurangan emisi, tetapi masing-masing akan mengurangi biaya manusia dari pemanasan yang sudah terjadi.
+Terobosan vaksin demam berdarah atau pengendalian nyamuk dengan gene drive dapat mengurangi penularan secara substansial. Ekspansi cepat energi bersih akan mengurangi polusi udara dan panas sekaligus. Dan penguatan layanan kesehatan primer di negara berpenghasilan rendah akan memperbaiki respons terhadap setiap penyakit sensitif iklim. Tidak ada yang menggantikan pengurangan emisi, tetapi masing-masing akan mengurangi biaya manusia dari pemanasan yang sudah terjadi.
 
 ---
 
@@ -1613,11 +1613,11 @@ Musim 2017 juga menunjukkan celah asuransi yang mendefinisikan ekonomi iklim. Da
 
 ## 10.12 Skenario dan Prediksi Masa Depan: Biaya Ekonomi hingga 2050
 
-Rekaman historis menunjukkan bahwa kerugian ekonomi akibat bencana terkait iklim telah meningkat. Total kerusakan akibat bencana terkait cuaca, disesuaikan dengan inflasi, tumbuh sekitar 5 sampai 7 persen per tahun sejak 1970-an, lebih cepat daripada yang diperkirakan oleh paparan semata. Kerugian yang diasuransikan tumbuh bahkan lebih cepat, karena lebih banyak aset terkonsentrasi di wilayah terpapar dan karena asuransi telah meluas ke pasar baru.
+Tagihan perubahan iklim sudah dibayar, dan tidak merata. Total kerusakan akibat bencana terkait cuaca, disesuaikan dengan inflasi, tumbuh sekitar 5 sampai 7 persen per tahun sejak 1970-an, lebih cepat daripada yang diperkirakan oleh paparan semata. Kerugian yang diasuransikan tumbuh bahkan lebih cepat, karena lebih banyak aset terkonsentrasi di wilayah terpapar dan karena asuransi telah meluas ke pasar baru.
 
-Kondisi sekarang memberikan garis dasar. Kerugian global akibat bencana terkait cuaca diperkirakan US$200 sampai US$300 miliar per tahun, yang sekitar setengahnya diasuransikan (UNDRR, 2023). Setengah yang tidak diasuransikan jatuh pada rumah tangga, perusahaan, dan pemerintah, dan terkonsentrasi di negara berpenghasilan rendah dan menengah. Biaya adaptasi diperkirakan US$100 sampai US$300 miliar per tahun pada 2030 bagi negara berkembang, dan pembiayaan yang tersedia hanya sebagian kecil dari itu.
+Kerugiannya besar dan terus tumbuh. Kerugian global akibat bencana terkait cuaca diperkirakan US$200 sampai US$300 miliar per tahun, yang sekitar setengahnya diasuransikan (UNDRR, 2023). Setengah yang tidak diasuransikan jatuh pada rumah tangga, perusahaan, dan pemerintah, dan terkonsentrasi di negara berpenghasilan rendah dan menengah. Biaya adaptasi diperkirakan US$100 sampai US$300 miliar per tahun pada 2030 bagi negara berkembang, dan pembiayaan yang tersedia hanya sebagian kecil dari itu.
 
-Asumsi yang menggerakkan proyeksi adalah jalur emisi, laju adaptasi, dan tingkat diskonto yang digunakan untuk membandingkan biaya sekarang dan masa depan. Tingkat diskonto rendah membuat kerusakan masa depan tampak lebih besar dan membenarkan lebih banyak belanja sekarang; tingkat diskonto tinggi membuatnya tampak lebih kecil dan membenarkan penundaan. Pilihan tingkat diskonto karena itu merupakan pilihan etis sekaligus ekonomi, karena ia menentukan berapa banyak bobot diberikan kepada orang yang belum lahir.
+Biaya ekonomi akan bergantung pada jalur emisi, laju adaptasi, dan tingkat diskonto yang dipakai membandingkan biaya sekarang dan masa depan. Tingkat diskonto rendah membuat kerusakan masa depan tampak lebih besar dan membenarkan lebih banyak belanja sekarang; tingkat diskonto tinggi membuatnya tampak lebih kecil dan membenarkan penundaan. Pilihan tingkat diskonto karena itu merupakan pilihan etis sekaligus ekonomi, karena ia menentukan berapa banyak bobot diberikan kepada orang yang belum lahir.
 
 [[TABLE:Tabel 10.1 Kerugian ekonomi pada tiga jalur, 2050]]
 | Indikator | Emisi rendah | Kebijakan saat ini | Emisi tinggi | Pemicu utama |
@@ -1630,7 +1630,7 @@ Asumsi yang menggerakkan proyeksi adalah jalur emisi, laju adaptasi, dan tingkat
 
 Dua kesimpulan mengikuti. Pertama, perbedaan antara jalur rendah dan tinggi diukur dalam poin persentase PDB global, yang berarti triliunan dolar dan ratusan juta orang terdorong ke kemiskinan. Kedua, kerugiannya bukan masa depan yang tiba pada 2050; ia terakumulasi tahun demi tahun, dan negara yang paling tidak mampu beradaptasi sudah membayar porsi tertinggi (UNDRR, 2023).
 
-Apa yang dapat mengubah kesimpulan ini? Difusi cepat energi bersih murah akan mengurangi kerusakan fisik dan risiko transisi sekaligus, dan itu sudah terjadi lebih cepat daripada asumsi sebagian besar model. Terobosan dalam pembiayaan adaptasi — melalui reformasi lembaga multilateral, keringanan utang, atau pungutan baru — akan mengurangi beban negara termiskin. Dan perubahan tingkat diskonto yang digunakan pemerintah akan membuat kerusakan jangka panjang tampak lebih besar dan membenarkan lebih banyak investasi sekarang. Tidak ada yang pasti, tetapi arah ekonominya jelas: penundaan lebih mahal daripada tindakan.
+Difusi cepat energi bersih murah akan mengurangi kerusakan fisik dan risiko transisi sekaligus, dan itu sudah terjadi lebih cepat daripada asumsi sebagian besar model. Terobosan dalam pembiayaan adaptasi — melalui reformasi lembaga multilateral, keringanan utang, atau pungutan baru — akan mengurangi beban negara termiskin. Dan perubahan tingkat diskonto yang digunakan pemerintah akan membuat kerusakan jangka panjang tampak lebih besar dan membenarkan lebih banyak investasi sekarang. Tidak ada yang pasti, tetapi arah ekonominya jelas: penundaan lebih mahal daripada tindakan.
 
 ---
 
@@ -1776,11 +1776,11 @@ Falepili Union juga menggambarkan batas kesepakatan bilateral sebagai model. Ia 
 
 ## 11.12 Skenario dan Prediksi Masa Depan: Migrasi hingga 2050
 
-Data historis menunjukkan bahwa guncangan iklim sudah memindahkan orang. Pusat Pemantauan Pengungsian Internal mencatat sekitar 26 juta pengungsian akibat bencana pada 2023, dan Bank Dunia memperkirakan bahwa 216 juta orang dapat berpindah di dalam negaranya sendiri pada 2050 di bawah skenario emisi tinggi. Angka itu bukan prediksi satu gelombang; ia menggambarkan jutaan keputusan individu, sebagian besar berjarak dekat dan sementara.
+Migrasi adalah adaptasi tertua dan yang paling sulit diukur. Pusat Pemantauan Pengungsian Internal mencatat sekitar 26 juta pengungsian akibat bencana pada 2023, dan Bank Dunia memperkirakan bahwa 216 juta orang dapat berpindah di dalam negaranya sendiri pada 2050 di bawah skenario emisi tinggi. Angka itu bukan prediksi satu gelombang; ia menggambarkan jutaan keputusan individu, sebagian besar berjarak dekat dan sementara.
 
-Kondisi sekarang memberikan garis dasar. Sekitar 3,5 miliar orang tinggal dalam konteks yang sangat rentan terhadap perubahan iklim, dan sekitar 1 miliar tinggal di zona pesisir berelevasi rendah. Negara yang paling terpapar juga yang paling tidak mampu mengelola migrasi: mereka memiliki sistem pencatatan lemah, perlindungan sosial terbatas, dan sedikit jalur hukum ke negara lain.
+Mereka yang bergerak hanyalah sebagian kecil dari yang terpapar. Sekitar 3,5 miliar orang tinggal dalam konteks yang sangat rentan terhadap perubahan iklim, dan sekitar 1 miliar tinggal di zona pesisir berelevasi rendah. Negara yang paling terpapar juga yang paling tidak mampu mengelola migrasi: mereka memiliki sistem pencatatan lemah, perlindungan sosial terbatas, dan sedikit jalur hukum ke negara lain.
 
-Asumsi yang menggerakkan proyeksi adalah jalur emisi, laju adaptasi, dan keterbukaan negara penerima. Dunia yang berinvestasi dalam adaptasi di tempat asal dapat mengurangi jumlah orang yang terpaksa pindah; dunia yang membuka jalur hukum dapat membuat perpindahan lebih aman dan tertib. Dunia yang tidak melakukan keduanya akan menghadapi lebih banyak orang yang bergerak secara tidak teratur, dengan biaya lebih tinggi bagi migran dan bagi negara yang menerima mereka.
+Perpindahan penduduk akan mengikuti jalur emisi, laju adaptasi, dan keterbukaan negara penerima. Dunia yang berinvestasi dalam adaptasi di tempat asal dapat mengurangi jumlah orang yang terpaksa pindah; dunia yang membuka jalur hukum dapat membuat perpindahan lebih aman dan tertib. Dunia yang tidak melakukan keduanya akan menghadapi lebih banyak orang yang bergerak secara tidak teratur, dengan biaya lebih tinggi bagi migran dan bagi negara yang menerima mereka.
 
 [[TABLE:Tabel 11.1 Proyeksi migrasi iklim pada 2050]]
 | Wilayah | Migran internal (juta) | Pemicu utama | Prioritas adaptasi | Risiko kebijakan |
@@ -1794,7 +1794,7 @@ Asumsi yang menggerakkan proyeksi adalah jalur emisi, laju adaptasi, dan keterbu
 
 Dua kesimpulan mengikuti. Pertama, skala migrasi iklim besar tetapi dapat dikelola jika diperkirakan; bahayanya bukan jumlah orang melainkan ketiadaan sistem untuk menerima mereka. Kedua, sebagian besar migrasi bersifat internal, yang berarti tanggung jawabnya terutama ada pada pemerintah nasional dan kota, bukan pada lembaga internasional.
 
-Apa yang dapat mengubah kesimpulan ini? Pengurangan emisi yang cepat akan mengurangi jumlah orang yang terpaksa pindah, tetapi tidak menghilangkan perpindahan yang sudah terkunci oleh pemanasan yang telah terjadi. Ekspansi besar pembiayaan adaptasi akan memungkinkan lebih banyak orang bertahan di tempatnya. Dan pergeseran opini publik di negara penerima akan membuat jalur hukum lebih layak, yang akan mengurangi biaya manusia dari perpindahan bahkan jika jumlah orang yang pindah tidak berubah.
+Pengurangan emisi yang cepat akan mengurangi jumlah orang yang terpaksa pindah, tetapi tidak menghilangkan perpindahan yang sudah terkunci oleh pemanasan yang telah terjadi. Ekspansi besar pembiayaan adaptasi akan memungkinkan lebih banyak orang bertahan di tempatnya. Dan pergeseran opini publik di negara penerima akan membuat jalur hukum lebih layak, yang akan mengurangi biaya manusia dari perpindahan bahkan jika jumlah orang yang pindah tidak berubah.
 
 ---
 
@@ -1946,11 +1946,11 @@ Cekungan itu juga menunjukkan bagaimana krisis kemanusiaan dan lingkungan saling
 
 ## 12.12 Skenario dan Prediksi Masa Depan: Risiko Konflik hingga 2050
 
-Rekaman historis tidak menunjukkan tren sederhana perang akibat iklim. Jumlah konflik bersenjata berfluktuasi, dan berakhirnya Perang Dingin menghasilkan penurunan yang sedikit hubungannya dengan iklim. Yang ditunjukkan rekaman adalah guncangan iklim terkait dengan risiko lebih tinggi kekerasan tingkat rendah, kerusuhan, dan konflik lokal, terutama di tempat yang sudah rapuh.
+Perang adalah wilayah tempat penjelasan iklim paling sering dibesar-besarkan. Jumlah konflik bersenjata berfluktuasi, dan berakhirnya Perang Dingin menghasilkan penurunan yang sedikit hubungannya dengan iklim. Yang ditunjukkan rekaman adalah guncangan iklim terkait dengan risiko lebih tinggi kekerasan tingkat rendah, kerusuhan, dan konflik lokal, terutama di tempat yang sudah rapuh.
 
-Kondisi sekarang memberikan garis dasar. Sekitar 2 miliar orang tinggal di negara yang terdampak konflik, dan sebagian besar dari mereka berada di wilayah yang sangat terpapar perubahan iklim (Mach dkk., 2019). Sahel, Tanduk Afrika, Timur Tengah, dan sebagian Asia Selatan menggabungkan paparan iklim tinggi dengan lembaga lemah dan konflik yang sudah ada, yang merupakan kombinasi paling berbahaya menurut penelitian.
+Kerapuhan adalah penyebut yang sama. Sekitar 2 miliar orang tinggal di negara yang terdampak konflik, dan sebagian besar dari mereka berada di wilayah yang sangat terpapar perubahan iklim (Mach dkk., 2019). Sahel, Tanduk Afrika, Timur Tengah, dan sebagian Asia Selatan menggabungkan paparan iklim tinggi dengan lembaga lemah dan konflik yang sudah ada, yang merupakan kombinasi paling berbahaya menurut penelitian.
 
-Asumsi yang menggerakkan proyeksi adalah jalur emisi, laju pembangunan, dan kualitas tata kelola. Dunia yang mengurangi emisi dan berinvestasi dalam lembaga dapat mengurangi risiko; dunia yang tidak melakukan keduanya akan menghadapi lebih banyak guncangan iklim yang tiba di tempat yang kurang mampu menyerapnya. Skenario di bawah ini merangkum rentangnya, dengan catatan bahwa konflik pada dasarnya tidak pasti dan keyakinan pada proyeksi kuantitatif apa pun rendah.
+Risiko keamanan akan mengikuti jalur emisi, laju pembangunan, dan kualitas tata kelola. Dunia yang mengurangi emisi dan berinvestasi dalam lembaga dapat mengurangi risiko; dunia yang tidak melakukan keduanya akan menghadapi lebih banyak guncangan iklim yang tiba di tempat yang kurang mampu menyerapnya. Skenario di bawah ini merangkum rentangnya, dengan catatan bahwa konflik pada dasarnya tidak pasti dan keyakinan pada proyeksi kuantitatif apa pun rendah.
 
 [[TABLE:Tabel 12.1 Paparan iklim dan risiko konflik di wilayah rapuh]]
 | Wilayah | Paparan iklim | Kapasitas lembaga | Risiko konflik pada 2 °C | Prioritas |
@@ -1964,7 +1964,7 @@ Asumsi yang menggerakkan proyeksi adalah jalur emisi, laju pembangunan, dan kual
 
 Dua kesimpulan mengikuti. Pertama, risiko konflik akibat iklim terkonsentrasi di tempat-tempat yang sudah rapuh, yang berarti pencegahan harus ditargetkan, bukan universal. Kedua, pencegahan paling efektif adalah pembangunan: hak atas tanah yang aman, lembaga air yang berfungsi, perlindungan sosial, dan pemerintah lokal yang akuntabel mengurangi persaingan yang mengubah kelangkaan menjadi kekerasan.
 
-Apa yang dapat mengubah kesimpulan ini? Perjanjian perdamaian besar di wilayah rapuh dapat mengurangi risiko secara substansial, demikian pula perbaikan tata kelola yang berkelanjutan. Resesi global berkepanjangan dapat mengurangi sumber daya untuk adaptasi dan meningkatkan risiko. Dan pengurangan emisi yang cepat akan mengurangi frekuensi guncangan yang memicu konflik, meskipun tidak akan menghilangkan kerentanan mendasar yang membuat konflik mungkin terjadi.
+Perjanjian perdamaian besar di wilayah rapuh dapat mengurangi risiko secara substansial, demikian pula perbaikan tata kelola yang berkelanjutan. Resesi global berkepanjangan dapat mengurangi sumber daya untuk adaptasi dan meningkatkan risiko. Dan pengurangan emisi yang cepat akan mengurangi frekuensi guncangan yang memicu konflik, meskipun tidak akan menghilangkan kerentanan mendasar yang membuat konflik mungkin terjadi.
 
 ---
 
@@ -2110,11 +2110,11 @@ Rekonstruksi New Orleans setelah Badai Katrina adalah kasus paling banyak dipela
 
 ## 13.12 Skenario dan Prediksi Masa Depan: Infrastruktur pada 2050
 
-Rekaman historis menunjukkan bahwa kegagalan infrastruktur meningkat. Jumlah pemadaman listrik terkait cuaca di Amerika Serikat naik dari beberapa ratus per tahun pada 1990-an menjadi beberapa ribu, dan biaya cuaca ekstrem terhadap infrastruktur tumbuh lebih cepat daripada nilai aset yang terpapar. Trennya tidak didorong rekayasa yang lebih buruk; ia didorong cuaca yang lebih ekstrem dan sistem yang menua.
+Infrastruktur gagal pada saat paling dibutuhkan. Jumlah pemadaman listrik terkait cuaca di Amerika Serikat naik dari beberapa ratus per tahun pada 1990-an menjadi beberapa ribu, dan biaya cuaca ekstrem terhadap infrastruktur tumbuh lebih cepat daripada nilai aset yang terpapar. Trennya tidak didorong rekayasa yang lebih buruk; ia didorong cuaca yang lebih ekstrem dan sistem yang menua.
 
-Kondisi sekarang memberikan garis dasar. American Society of Civil Engineers memberi nilai C− untuk infrastruktur Amerika Serikat, dengan celah pendanaan triliunan dolar selama dekade berikutnya. Secara global, Global Infrastructure Hub memperkirakan dunia membutuhkan sekitar US$94 triliun investasi infrastruktur pada 2040, dan belanja saat ini jauh di bawah itu. Sebagian besar investasi baru akan berada di negara yang sangat terpapar perubahan iklim dan memiliki kapasitas terbatas untuk memelihara apa yang mereka bangun.
+Defisit infrastruktur adalah kendalanya. American Society of Civil Engineers memberi nilai C− untuk infrastruktur Amerika Serikat, dengan celah pendanaan triliunan dolar selama dekade berikutnya. Secara global, Global Infrastructure Hub memperkirakan dunia membutuhkan sekitar US$94 triliun investasi infrastruktur pada 2040, dan belanja saat ini jauh di bawah itu. Sebagian besar investasi baru akan berada di negara yang sangat terpapar perubahan iklim dan memiliki kapasitas terbatas untuk memelihara apa yang mereka bangun.
 
-Asumsi yang menggerakkan proyeksi adalah jalur emisi, laju retrofit, dan standar yang diadopsi. Dunia yang membangun dengan standar lebih tinggi dan memelihara apa yang dimilikinya dapat mengurangi kegagalan bahkan ketika iklim memburuk; dunia yang melanjutkan siklus bangun-abaikan-bangun ulang akan menghadapi biaya naik dan kegagalan berantai yang lebih sering. Skenario di bawah ini merangkum rentangnya menurut sektor.
+Hasil infrastruktur akan bergantung pada jalur emisi, laju retrofit, dan standar yang diadopsi. Dunia yang membangun dengan standar lebih tinggi dan memelihara apa yang dimilikinya dapat mengurangi kegagalan bahkan ketika iklim memburuk; dunia yang melanjutkan siklus bangun-abaikan-bangun ulang akan menghadapi biaya naik dan kegagalan berantai yang lebih sering. Skenario di bawah ini merangkum rentangnya menurut sektor.
 
 [[TABLE:Tabel 13.1 Ketangguhan infrastruktur menurut sektor, 2050]]
 | Sektor | Stres iklim utama | Mode kegagalan | Adaptasi | Sinyal biaya |
@@ -2128,7 +2128,7 @@ Asumsi yang menggerakkan proyeksi adalah jalur emisi, laju retrofit, dan standar
 
 Dua kesimpulan mengikuti. Pertama, imbal hasil tertinggi datang dari investasi yang paling tidak menarik: pemeliharaan, listrik cadangan, drainase, dan kode bangunan. Kedua, sektor yang paling penting bagi kelangsungan hidup — air, kesehatan, dan tempat berlindung — sering paling sedikit dibiayai relatif terhadap kepentingannya.
 
-Apa yang dapat mengubah kesimpulan ini? Program investasi publik besar dapat menutup celah pemeliharaan, tetapi memerlukan keputusan politik yang sulit di negara dengan anggaran terbatas. Terobosan energi terdistribusi murah dapat mengurangi kerentanan sistem tenaga listrik, tetapi tidak akan menyelesaikan masalah air dan transportasi. Dan perubahan kode bangunan dapat memperbaiki konstruksi baru, tetapi tidak akan menangani stok yang sudah ada. Variabel terpenting sama dengan bab lain: kecepatan pengurangan emisi menentukan berapa banyak adaptasi yang dibutuhkan, dan kecepatan adaptasi menentukan berapa banyak kerusakan yang disebabkan pemanasan yang sudah terkunci.
+Program investasi publik besar dapat menutup celah pemeliharaan, tetapi memerlukan keputusan politik yang sulit di negara dengan anggaran terbatas. Terobosan energi terdistribusi murah dapat mengurangi kerentanan sistem tenaga listrik, tetapi tidak akan menyelesaikan masalah air dan transportasi. Dan perubahan kode bangunan dapat memperbaiki konstruksi baru, tetapi tidak akan menangani stok yang sudah ada. Variabel terpenting sama dengan bab lain: kecepatan pengurangan emisi menentukan berapa banyak adaptasi yang dibutuhkan, dan kecepatan adaptasi menentukan berapa banyak kerusakan yang disebabkan pemanasan yang sudah terkunci.
 
 ---
 
@@ -2280,11 +2280,11 @@ Kasus paling instruktif bukan sebuah negara melainkan sebuah profesi. Meteorolog
 
 ## 14.12 Skenario dan Prediksi Masa Depan: Pendidikan pada 2050
 
-Rekaman historis menunjukkan bahwa pendidikan telah meluas secara dramatis selama satu abad terakhir: tingkat melek huruf naik dari sekitar 12 persen pada 1900 menjadi lebih dari 85 persen hari ini, dan jumlah mahasiswa pendidikan tinggi tumbuh dari beberapa juta menjadi lebih dari 200 juta. Perluasannya tidak merata, dan perubahan iklim kini mengancam membalik sebagian keuntungan itu di wilayah paling terpapar.
+Tuas terpanjang dalam buku ini adalah pendidikan: tingkat melek huruf naik dari sekitar 12 persen pada 1900 menjadi lebih dari 85 persen hari ini, dan jumlah mahasiswa pendidikan tinggi tumbuh dari beberapa juta menjadi lebih dari 200 juta. Perluasannya tidak merata, dan perubahan iklim kini mengancam membalik sebagian keuntungan itu di wilayah paling terpapar.
 
-Kondisi sekarang memberikan garis dasar. Sekitar 250 juta anak tidak bersekolah, dan sekitar 222 juta terdampak darurat serta krisis berkepanjangan. Hanya sekitar setengah kurikulum nasional menyebut perubahan iklim, dan porsinya lebih rendah di negara yang paling terpapar. Celah antara kebutuhan literasi iklim dan penyediaannya paling besar di tempat konsekuensi ketidaktahuan paling parah.
+Titik awalnya adalah kesenjangan belajar. Sekitar 250 juta anak tidak bersekolah, dan sekitar 222 juta terdampak darurat serta krisis berkepanjangan. Hanya sekitar setengah kurikulum nasional menyebut perubahan iklim, dan porsinya lebih rendah di negara yang paling terpapar. Celah antara kebutuhan literasi iklim dan penyediaannya paling besar di tempat konsekuensi ketidaktahuan paling parah.
 
-Asumsi yang menggerakkan proyeksi adalah laju reformasi kurikulum, kualitas pelatihan guru, dan dampak guncangan iklim terhadap persekolahan. Dunia yang berinvestasi dalam pendidikan dapat menghasilkan generasi yang memahami risiko dan mampu beradaptasi; dunia yang tidak akan menghasilkan generasi yang terpapar bahaya yang tidak dipahaminya dan tidak dapat dipersiapkannya. Skenario di bawah ini merangkum rentangnya.
+Hasil pendidikan akan bergantung pada reformasi kurikulum, pelatihan guru, dan dampak guncangan iklim terhadap persekolahan. Dunia yang berinvestasi dalam pendidikan dapat menghasilkan generasi yang memahami risiko dan mampu beradaptasi; dunia yang tidak akan menghasilkan generasi yang terpapar bahaya yang tidak dipahaminya dan tidak dapat dipersiapkannya. Skenario di bawah ini merangkum rentangnya.
 
 [[TABLE:Tabel 14.1 Indikator pendidikan iklim, 2050]]
 | Indikator | Reformasi rendah | Tren saat ini | Reformasi tinggi | Apa yang dimungkinkan |
@@ -2298,7 +2298,7 @@ Asumsi yang menggerakkan proyeksi adalah laju reformasi kurikulum, kualitas pela
 
 Dua kesimpulan mengikuti. Pertama, literasi iklim adalah prasyarat adaptasi: orang tidak dapat bersiap menghadapi bahaya yang tidak dipahaminya, dan komunitas tidak dapat menuntut perlindungan yang tidak diketahuinya. Kedua, negara yang paling sedikit berinvestasi dalam pendidikan adalah negara yang akan menghadapi kehilangan pembelajaran terbesar akibat guncangan iklim, yang berarti jurang antara kaya dan miskin akan melebar kecuali pendidikan diprioritaskan.
 
-Apa yang dapat mengubah kesimpulan ini? Ekspansi cepat pelatihan guru akan memperbaiki kualitas pendidikan iklim bahkan tanpa reformasi kurikulum. Pergeseran ke pembelajaran daring dan berbasis komunitas dapat menjangkau siswa di wilayah yang sekolahnya tutup, meskipun tidak akan menggantikan fungsi sosial persekolahan. Dan perubahan kebijakan penilaian dapat menjadikan konten iklim bagian inti dari apa yang diajarkan, bukan tambahan opsional. Variabel terpenting, seperti pada bab lain, adalah laju pengurangan emisi, karena ia menentukan berapa banyak adaptasi yang perlu dipelajari generasi berikutnya.
+Ekspansi cepat pelatihan guru akan memperbaiki kualitas pendidikan iklim bahkan tanpa reformasi kurikulum. Pergeseran ke pembelajaran daring dan berbasis komunitas dapat menjangkau siswa di wilayah yang sekolahnya tutup, meskipun tidak akan menggantikan fungsi sosial persekolahan. Dan perubahan kebijakan penilaian dapat menjadikan konten iklim bagian inti dari apa yang diajarkan, bukan tambahan opsional. Variabel terpenting, seperti pada bab lain, adalah laju pengurangan emisi, karena ia menentukan berapa banyak adaptasi yang perlu dipelajari generasi berikutnya.
 
 ---
 
@@ -2442,11 +2442,11 @@ Episod 'Climategate' 2009 tetap menjadi studi kasus terbaik tentang bagaimana da
 
 ## 15.12 Skenario dan Prediksi Masa Depan: Lingkungan Informasi pada 2050
 
-Rekaman historis menunjukkan bahwa misinformasi bukan hal baru; yang baru adalah kecepatan dan skalanya. Rumor menyebar dari mulut ke mulut selama gempa Lisbon 1755; radio memperkuat propaganda pada abad kedua puluh; dan media sosial memampatkan siklusnya dari hari menjadi menit. Setiap transisi meningkatkan jangkauan dan mengurangi waktu yang tersedia untuk verifikasi.
+Klaim palsu bergerak lebih cepat daripada koreksinya, dan selalu begitu. Rumor menyebar dari mulut ke mulut selama gempa Lisbon 1755; radio memperkuat propaganda pada abad kedua puluh; dan media sosial memampatkan siklusnya dari hari menjadi menit. Setiap transisi meningkatkan jangkauan dan mengurangi waktu yang tersedia untuk verifikasi.
 
-Kondisi sekarang menentukan titik awalnya. Sekitar 5 miliar orang menggunakan media sosial, dan survei di banyak negara menemukan bahwa mayoritas memperoleh setidaknya sebagian berita darinya. Kecerdasan buatan generatif telah membuat teks, gambar, dan audio sintetis menjadi murah; riset Reuters Institute dan lainnya menemukan bahwa audiens kesulitan membedakannya dari materi asli. Kepercayaan pada media berita telah menurun di sebagian besar demokrasi kaya, sementara kepercayaan pada ilmuwan relatif tinggi, yang menciptakan peluang bagi ilmuwan yang berkomunikasi langsung.
+Lingkungan informasi adalah garis pertahanan pertama. Sekitar 5 miliar orang menggunakan media sosial, dan survei di banyak negara menemukan bahwa mayoritas memperoleh setidaknya sebagian berita darinya. Kecerdasan buatan generatif telah membuat teks, gambar, dan audio sintetis menjadi murah; riset Reuters Institute dan lainnya menemukan bahwa audiens kesulitan membedakannya dari materi asli. Kepercayaan pada media berita telah menurun di sebagian besar demokrasi kaya, sementara kepercayaan pada ilmuwan relatif tinggi, yang menciptakan peluang bagi ilmuwan yang berkomunikasi langsung.
 
-Asumsi yang menggerakkan proyeksi adalah laju regulasi, biaya deteksi, dan ketangguhan institusi lokal. Dunia yang berinvestasi dalam infrastruktur verifikasi, literasi media, dan pelaporan lokal yang dipercaya dapat membatasi kerusakannya; dunia yang tidak akan menghadapi bencana di mana lingkungan informasi gagal bersamaan dengan lingkungan fisiknya. Tabel merangkum rentangnya.
+Lingkungan informasi akan bergantung pada laju regulasi, biaya deteksi, dan ketangguhan institusi lokal. Dunia yang berinvestasi dalam infrastruktur verifikasi, literasi media, dan pelaporan lokal yang dipercaya dapat membatasi kerusakannya; dunia yang tidak akan menghadapi bencana di mana lingkungan informasi gagal bersamaan dengan lingkungan fisiknya. Tabel merangkum rentangnya.
 
 [[TABLE:Tabel 15.1 Indikator lingkungan informasi, 2050]]
 | Indikator | Terfragmentasi | Tren saat ini | Tangguh | Konsekuensi |
@@ -2460,7 +2460,7 @@ Asumsi yang menggerakkan proyeksi adalah laju regulasi, biaya deteksi, dan ketan
 
 Dua kesimpulan mengikuti. Pertama, misinformasi adalah pengali risiko bencana: ia tidak menciptakan banjir, tetapi ia menentukan apakah orang melarikan diri darinya. Kedua, pertahanan yang berhasil bersifat lokal dan struktural — penyampai yang dipercaya, jurnalisme yang didanai, data terbuka, dan warga yang literat — bukan satu perbaikan teknologi tunggal.
 
-Apa yang dapat mengubah kesimpulan ini? Regulasi yang mewajibkan platform mengungkap bagaimana mereka memeringkat konten dapat mengurangi amplifikasi kepalsuan, meskipun penegakannya lintas batas sulit. Sistem provenans yang murah dan andal — tanda tangan kriptografis pada gambar dan video — dapat memulihkan sebagian nilai pembuktian sebuah foto. Dan investasi berkelanjutan dalam jurnalisme lokal dapat membangun kembali institusi yang dahulu menyaring rumor. Variabel terpenting tetap sama seperti di bab lain: laju perubahan iklim menentukan seberapa sering sistem informasi akan diuji, dan kualitas sistem itu menentukan berapa banyak orang selamat dari ujian tersebut.
+Regulasi yang mewajibkan platform mengungkap bagaimana mereka memeringkat konten dapat mengurangi amplifikasi kepalsuan, meskipun penegakannya lintas batas sulit. Sistem provenans yang murah dan andal — tanda tangan kriptografis pada gambar dan video — dapat memulihkan sebagian nilai pembuktian sebuah foto. Dan investasi berkelanjutan dalam jurnalisme lokal dapat membangun kembali institusi yang dahulu menyaring rumor. Variabel terpenting tetap sama seperti di bab lain: laju perubahan iklim menentukan seberapa sering sistem informasi akan diuji, dan kualitas sistem itu menentukan berapa banyak orang selamat dari ujian tersebut.
 
 ---
 
@@ -2604,11 +2604,11 @@ Gempa dan tsunami Tōhoku 2011 sering digambarkan sebagai kegagalan kesiapsiagaa
 
 ## 16.12 Skenario dan Prediksi Masa Depan: Kesiapsiagaan Rumah Tangga pada 2050
 
-Rekaman historis menunjukkan jurang yang melebar antara lamanya gangguan dan lamanya persediaan rumah tangga. Durasi pemadaman rata-rata telah meningkat di banyak negara, pengungsian akibat bencana bertambah, dan jumlah orang yang terpapar panas ekstrem tumbuh. Sementara itu, data survei menunjukkan bahwa hanya sebagian kecil rumah tangga memenuhi standar kesiapsiagaan dasar: di Amerika Serikat, survei FEMA menemukan bahwa sekitar setengah orang dewasa telah mengambil setidaknya satu tindakan kesiapsiagaan, tetapi jauh lebih sedikit yang memiliki persediaan air dan pangan dua pekan.
+Kesiapsiagaan diukur dari selisih antara lamanya gangguan dan lamanya rumah tangga bertahan tanpa bantuan. Durasi pemadaman rata-rata telah meningkat di banyak negara, pengungsian akibat bencana bertambah, dan jumlah orang yang terpapar panas ekstrem tumbuh. Sementara itu, data survei menunjukkan bahwa hanya sebagian kecil rumah tangga memenuhi standar kesiapsiagaan dasar: di Amerika Serikat, survei FEMA menemukan bahwa sekitar setengah orang dewasa telah mengambil setidaknya satu tindakan kesiapsiagaan, tetapi jauh lebih sedikit yang memiliki persediaan air dan pangan dua pekan.
 
-Kondisi sekarang menetapkan garis dasar. Sekitar 2 miliar orang kekurangan air minum yang terkelola dengan aman di rumah, dan sekitar 3,6 miliar kekurangan sanitasi yang terkelola dengan aman; bagi mereka, penyimpanan rumah tangga bukan pelengkap sistem yang berfungsi melainkan penggantinya (IFRC, 2022). Di negara kaya, kesiapsiagaan tidak merata: rumah tangga berpenghasilan lebih tinggi, lebih tua, dan pemilik rumah lebih mungkin memiliki persediaan, sementara penyewa, rumah tangga muda, dan keluarga berpenghasilan rendah lebih kecil kemungkinannya, meskipun menghadapi paparan yang sama atau lebih besar.
+Bagi miliaran rumah tangga, persediaan bukan pilihan melainkan keharusan. Sekitar 2 miliar orang kekurangan air minum yang terkelola dengan aman di rumah, dan sekitar 3,6 miliar kekurangan sanitasi yang terkelola dengan aman; bagi mereka, penyimpanan rumah tangga bukan pelengkap sistem yang berfungsi melainkan penggantinya (IFRC, 2022). Di negara kaya, kesiapsiagaan tidak merata: rumah tangga berpenghasilan lebih tinggi, lebih tua, dan pemilik rumah lebih mungkin memiliki persediaan, sementara penyewa, rumah tangga muda, dan keluarga berpenghasilan rendah lebih kecil kemungkinannya, meskipun menghadapi paparan yang sama atau lebih besar.
 
-Asumsi di balik proyeksi adalah frekuensi gangguan, biaya dan ketersediaan barang kesiapsiagaan, serta kekuatan jaringan komunitas. Dunia yang berinvestasi dalam kesiapsiagaan rumah tangga dan komunitas dapat menurunkan kematian bahkan ketika bahaya meningkat; dunia yang mengandalkan layanan darurat semata akan melihat kematian terkonsentrasi di antara mereka yang tidak dapat bersiap. Tabel merangkum rentangnya.
+Kesiapsiagaan rumah tangga akan bergantung pada frekuensi gangguan, harga barang kesiapsiagaan, dan kekuatan jaringan komunitas. Dunia yang berinvestasi dalam kesiapsiagaan rumah tangga dan komunitas dapat menurunkan kematian bahkan ketika bahaya meningkat; dunia yang mengandalkan layanan darurat semata akan melihat kematian terkonsentrasi di antara mereka yang tidak dapat bersiap. Tabel merangkum rentangnya.
 
 [[TABLE:Tabel 16.1 Kesiapsiagaan rumah tangga menurut bahaya, 2050]]
 | Bahaya | Waktu ancang | Persediaan kritis | Kegagalan umum | Standar minimum |
@@ -2622,7 +2622,7 @@ Asumsi di balik proyeksi adalah frekuensi gangguan, biaya dan ketersediaan baran
 
 Dua kesimpulan mengikuti. Pertama, kesiapsiagaan rumah tangga adalah bentuk adaptasi yang dapat segera dilakukan individu, yang membuatnya berharga secara psikologis sekaligus praktis. Kedua, ia tidak dapat menggantikan sistem publik: rumah tangga tanpa air aman atau listrik andal tidak dapat menyimpan jalan keluar dari kegagalan sistemik, dan kebijakan yang mengharapkan mereka melakukannya memindahkan risiko kepada mereka yang paling tidak mampu menanggungnya.
 
-Apa yang dapat mengubah kesimpulan ini? Barang kesiapsiagaan bersubsidi dan insentif asuransi dapat menutup kesenjangan pendapatan dalam persediaan. Kode bangunan yang mewajibkan penyimpanan air, ruang aman, dan daya cadangan pada perumahan baru akan menanamkan kesiapsiagaan dalam struktur alih-alih dalam upaya individu. Dan program komunitas yang memetakan warga rentan serta mengorganisasi gotong royong dapat menutupi erosi koneksi sosial. Variabel terpenting tetap laju perubahan iklim, yang menentukan seberapa sering rumah tangga harus bergantung pada persediaan sendiri, dan berapa lama persediaan itu harus bertahan.
+Barang kesiapsiagaan bersubsidi dan insentif asuransi dapat menutup kesenjangan pendapatan dalam persediaan. Kode bangunan yang mewajibkan penyimpanan air, ruang aman, dan daya cadangan pada perumahan baru akan menanamkan kesiapsiagaan dalam struktur alih-alih dalam upaya individu. Dan program komunitas yang memetakan warga rentan serta mengorganisasi gotong royong dapat menutupi erosi koneksi sosial. Variabel terpenting tetap laju perubahan iklim, yang menentukan seberapa sering rumah tangga harus bergantung pada persediaan sendiri, dan berapa lama persediaan itu harus bertahan.
 
 ---
 
@@ -2774,11 +2774,11 @@ Gelombang panas Chicago 1995 tetap menjadi kasus kanonis karena mortalitasnya be
 
 ## 17.12 Skenario dan Prediksi Masa Depan: Sistem Kesehatan pada 2050
 
-Rekaman historis menunjukkan tren yang jelas. Kematian terkait panas di antara orang dewasa lanjut usia telah naik tajam sejak 1990-an, jangkauan geografis penyakit tular vektor telah meluas, dan jumlah orang yang terpapar panas ekstrem telah bertambah. Pada saat yang sama, adaptasi telah menurunkan kematian per derajat panas di negara yang berinvestasi dalam sistem peringatan, yang berarti masa depan bergantung pada bahaya dan responsnya.
+Masa depan kematian akibat panas lebih bergantung pada respons daripada pada suhu. Kematian terkait panas di antara orang dewasa lanjut usia telah naik tajam sejak 1990-an, jangkauan geografis penyakit tular vektor telah meluas, dan jumlah orang yang terpapar panas ekstrem telah bertambah. Pada saat yang sama, adaptasi telah menurunkan kematian per derajat panas di negara yang berinvestasi dalam sistem peringatan, yang berarti masa depan bergantung pada bahaya dan responsnya.
 
-Kondisi sekarang menetapkan garis dasar. Sekitar setengah populasi dunia kekurangan akses ke layanan kesehatan esensial, dan pengeluaran langsung mendorong jutaan orang ke kemiskinan setiap tahun. Sistem kesehatan di negara berpenghasilan rendah menghadapi kekurangan kronis staf, obat, dan infrastruktur, dan justru di negara-negara itulah risiko iklim tumbuh paling cepat. Di negara berpenghasilan tinggi, sistem lebih banyak sumber dayanya tetapi menua, dan menghadapi permintaan yang meningkat dari populasi yang menua.
+Garis dasarnya adalah sistem kesehatan yang sudah tertekan. Sekitar setengah populasi dunia kekurangan akses ke layanan kesehatan esensial, dan pengeluaran langsung mendorong jutaan orang ke kemiskinan setiap tahun. Sistem kesehatan di negara berpenghasilan rendah menghadapi kekurangan kronis staf, obat, dan infrastruktur, dan justru di negara-negara itulah risiko iklim tumbuh paling cepat. Di negara berpenghasilan tinggi, sistem lebih banyak sumber dayanya tetapi menua, dan menghadapi permintaan yang meningkat dari populasi yang menua.
 
-Asumsi di balik proyeksi adalah laju pemanasan, tingkat investasi dalam sistem kesehatan, dan efektivitas adaptasi. Dunia yang berinvestasi dalam layanan primer, pengawasan, dan fasilitas tangguh dapat menurunkan kematian bahkan ketika bahaya meningkat; dunia yang tidak akan melihat kemajuan kesehatan berbalik, terutama di negara yang paling sedikit bertanggung jawab atas emisi. Tabel merangkum rentangnya.
+Hasil kesehatan akan mengikuti laju pemanasan, investasi dalam sistem kesehatan, dan efektivitas adaptasi. Dunia yang berinvestasi dalam layanan primer, pengawasan, dan fasilitas tangguh dapat menurunkan kematian bahkan ketika bahaya meningkat; dunia yang tidak akan melihat kemajuan kesehatan berbalik, terutama di negara yang paling sedikit bertanggung jawab atas emisi. Tabel merangkum rentangnya.
 
 [[TABLE:Tabel 17.1 Indikator sistem kesehatan, 2050]]
 | Indikator | Adaptasi rendah | Tren saat ini | Adaptasi tinggi | Hasil kesehatan |
@@ -2792,7 +2792,7 @@ Asumsi di balik proyeksi adalah laju pemanasan, tingkat investasi dalam sistem k
 
 Dua kesimpulan mengikuti. Pertama, kesehatan adalah tempat perubahan iklim paling langsung dialami, dan karena itu tempat adaptasi memiliki imbal hasil paling jelas. Kedua, distribusi risiko kesehatan mengikuti ketimpangan yang ada, sehingga negara dan komunitas dengan kapasitas paling sedikit menghadapi beban terbesar.
 
-Apa yang dapat mengubah kesimpulan ini? Ekspansi cepat layanan primer dan tenaga kesehatan komunitas akan memperbaiki ketangguhan bahkan tanpa infrastruktur baru. Rencana aksi panas yang menjangkau lanjut usia terisolasi dapat menurunkan kematian secara substansial dengan biaya rendah. Dan pergeseran pembiayaan ke arah adaptasi kesehatan dapat menutup celah antara kebutuhan dan penyediaan. Variabel terpenting tetap laju pengurangan emisi, karena ia menentukan berapa banyak adaptasi yang harus disampaikan sistem kesehatan, dan berapa banyak orang akan membutuhkan perawatan yang tidak dapat diberikan.
+Ekspansi cepat layanan primer dan tenaga kesehatan komunitas akan memperbaiki ketangguhan bahkan tanpa infrastruktur baru. Rencana aksi panas yang menjangkau lanjut usia terisolasi dapat menurunkan kematian secara substansial dengan biaya rendah. Dan pergeseran pembiayaan ke arah adaptasi kesehatan dapat menutup celah antara kebutuhan dan penyediaan. Variabel terpenting tetap laju pengurangan emisi, karena ia menentukan berapa banyak adaptasi yang harus disampaikan sistem kesehatan, dan berapa banyak orang akan membutuhkan perawatan yang tidak dapat diberikan.
 
 ---
 
@@ -2946,11 +2946,11 @@ Demonstrasi paling jelas modal sosial dalam bencana modern adalah perbandingan a
 
 ## 18.12 Skenario dan Prediksi Masa Depan: Tata Kelola pada 2050
 
-Rekaman historis menunjukkan bahwa kualitas tata kelola menjelaskan banyak variasi kematian akibat bencana. Negara dengan institusi kuat telah menurunkan kematian dari bahaya yang sebanding selama satu abad terakhir, sementara negara dengan institusi lemah belum. Trennya tidak otomatis: ia bergantung pada investasi, akuntabilitas, dan pembelajaran.
+Bencana tidak menciptakan tata kelola; bencana mengungkapnya. Negara dengan institusi kuat telah menurunkan kematian dari bahaya yang sebanding selama satu abad terakhir, sementara negara dengan institusi lemah belum. Trennya tidak otomatis: ia bergantung pada investasi, akuntabilitas, dan pembelajaran.
 
-Kondisi sekarang menetapkan garis dasar. Kepercayaan pada pemerintah telah menurun di banyak demokrasi, sementara tuntutan pada pemerintah meningkat. Pemerintah lokal, yang menjalankan sebagian besar kerja operasional, sering kekurangan dana. Pembiayaan iklim internasional belum memenuhi komitmen, dan pembiayaan adaptasi hanya mencapai sebagian kecil dari yang dibutuhkan. Sementara itu, bahayanya menjadi lebih parah dan lebih sering.
+Garis dasarnya adalah defisit kepercayaan. Kepercayaan pada pemerintah telah menurun di banyak demokrasi, sementara tuntutan pada pemerintah meningkat. Pemerintah lokal, yang menjalankan sebagian besar kerja operasional, sering kekurangan dana. Pembiayaan iklim internasional belum memenuhi komitmen, dan pembiayaan adaptasi hanya mencapai sebagian kecil dari yang dibutuhkan. Sementara itu, bahayanya menjadi lebih parah dan lebih sering.
 
-Asumsi di balik proyeksi adalah lintasan kualitas institusi, tingkat pembiayaan, dan derajat kerja sama internasional. Dunia yang berinvestasi dalam kapasitas lokal, transparansi, dan kerja sama regional dapat mengelola risiko yang meningkat; dunia yang tidak akan melihat bencana menjadi krisis politik. Tabel merangkum rentangnya.
+Hasil tata kelola akan mengikuti kualitas institusi, pembiayaan, dan kerja sama internasional. Dunia yang berinvestasi dalam kapasitas lokal, transparansi, dan kerja sama regional dapat mengelola risiko yang meningkat; dunia yang tidak akan melihat bencana menjadi krisis politik. Tabel merangkum rentangnya.
 
 [[TABLE:Tabel 18.1 Indikator tata kelola, 2050]]
 | Institusi | Fungsi inti | Kegagalan umum | Reformasi | Indikator |
@@ -2964,7 +2964,7 @@ Asumsi di balik proyeksi adalah lintasan kualitas institusi, tingkat pembiayaan,
 
 Dua kesimpulan mengikuti. Pertama, tata kelola adalah penentu peluang bertahan hidup, bukan kondisi latar; perbedaan antara respons yang terorganisasi baik dan yang tidak terorganisasi diukur dalam nyawa. Kedua, reformasi yang paling penting tidak menarik: wewenang yang jelas, pembiayaan lokal yang memadai, pengadaan yang transparan, dan prosedur yang dilatih.
 
-Apa yang dapat mengubah kesimpulan ini? Investasi berkelanjutan dalam kapasitas pemerintah lokal akan memperbaiki respons bahkan tanpa teknologi baru. Perlindungan sosial universal akan mengurangi eksklusi yang meninggalkan orang termiskin tanpa bantuan. Dan kerja sama regional yang lebih kuat dapat mengimbangi kapasitas nasional yang lemah di negara kecil. Variabel terpenting tetap laju perubahan iklim, yang menentukan seberapa sering institusi akan diuji, dan apakah mereka memiliki waktu untuk belajar di antara ujian.
+Investasi berkelanjutan dalam kapasitas pemerintah lokal akan memperbaiki respons bahkan tanpa teknologi baru. Perlindungan sosial universal akan mengurangi eksklusi yang meninggalkan orang termiskin tanpa bantuan. Dan kerja sama regional yang lebih kuat dapat mengimbangi kapasitas nasional yang lemah di negara kecil. Variabel terpenting tetap laju perubahan iklim, yang menentukan seberapa sering institusi akan diuji, dan apakah mereka memiliki waktu untuk belajar di antara ujian.
 
 ---
 
@@ -3114,11 +3114,11 @@ Kasus energi paling instruktif bukan sebuah negara melainkan sebuah pulau. Setel
 
 ## 19.12 Skenario dan Prediksi Masa Depan: Energi pada 2050
 
-Rekaman historis menunjukkan pergeseran yang cepat. Energi terbarukan memasok sekitar 30 persen listrik global pada 2023, naik dari sekitar 20 persen satu dekade sebelumnya, dan surya serta angin menyumbang sebagian besar penambahan kapasitas baru (IEA, 2023). Biaya turun lebih cepat daripada yang diperkirakan hampir semua prakiraan, dan penyebaran berulang kali melebihi proyeksi. Trennya kini didorong ekonomi sebanyak kebijakan.
+Transisi energi adalah satu-satunya ramalan dalam buku ini yang berulang kali terlalu pesimistis. Energi terbarukan memasok sekitar 30 persen listrik global pada 2023, naik dari sekitar 20 persen satu dekade sebelumnya, dan surya serta angin menyumbang sebagian besar penambahan kapasitas baru (IEA, 2023). Biaya turun lebih cepat daripada yang diperkirakan hampir semua prakiraan, dan penyebaran berulang kali melebihi proyeksi. Trennya kini didorong ekonomi sebanyak kebijakan.
 
-Kondisi sekarang menetapkan garis dasar. Sekitar 700 juta orang kekurangan listrik dan 2,3 miliar kekurangan memasak bersih, sementara permintaan energi global terus naik (WHO, 2023). Bahan bakar fosil masih memasok sekitar 80 persen energi primer, dan subsidi terus menguntungkannya (IEA, 2023). Jaringan, penyimpanan, dan perizinan adalah kendala pembatas di banyak negara, dan rantai pasok mineral kritis terkonsentrasi.
+Garis dasarnya adalah kemiskinan energi di tengah sistem yang tumbuh. Sekitar 700 juta orang kekurangan listrik dan 2,3 miliar kekurangan memasak bersih, sementara permintaan energi global terus naik (WHO, 2023). Bahan bakar fosil masih memasok sekitar 80 persen energi primer, dan subsidi terus menguntungkannya (IEA, 2023). Jaringan, penyimpanan, dan perizinan adalah kendala pembatas di banyak negara, dan rantai pasok mineral kritis terkonsentrasi.
 
-Asumsi di balik proyeksi adalah laju penurunan biaya, tingkat investasi jaringan, dan kekuatan kebijakan. Dunia yang berinvestasi dalam jaringan, penyimpanan, dan manufaktur dapat mencapai sistem listrik yang sebagian besar terbarukan pada 2050; dunia yang tidak akan terus bergantung pada bahan bakar fosil dan menghadapi biaya lebih tinggi serta volatilitas lebih besar (IEA, 2023). Tabel merangkum rentangnya.
+Transisi energi akan bergantung pada penurunan biaya, investasi jaringan, dan kekuatan kebijakan. Dunia yang berinvestasi dalam jaringan, penyimpanan, dan manufaktur dapat mencapai sistem listrik yang sebagian besar terbarukan pada 2050; dunia yang tidak akan terus bergantung pada bahan bakar fosil dan menghadapi biaya lebih tinggi serta volatilitas lebih besar (IEA, 2023). Tabel merangkum rentangnya.
 
 [[TABLE:Tabel 19.1 Indikator energi bersih, 2050]]
 | Teknologi | Tren biaya | Penggunaan terbaik | Kendala | Manfaat ketangguhan |
@@ -3133,7 +3133,7 @@ Asumsi di balik proyeksi adalah laju penurunan biaya, tingkat investasi jaringan
 
 Dua kesimpulan mengikuti. Pertama, transisi energi kini terutama tantangan integrasi dan infrastruktur, bukan tantangan biaya: teknologinya cukup murah, tetapi jaringan, penyimpanan, perizinan, dan rantai pasok menentukan seberapa cepat ia menyebar. Kedua, teknologi terdesentralisasi memiliki nilai ketangguhan spesifik yang tidak dapat ditandingi sistem terpusat, karena ia memungkinkan komunitas menjaga layanan esensial tetap berjalan ketika jaringan gagal.
 
-Apa yang dapat mengubah kesimpulan ini? Terobosan dalam penyimpanan durasi panjang akan mengurangi kebutuhan pembangkit cadangan dan membuat jaringan berponsi terbarukan tinggi lebih murah. Ekspansi cepat investasi jaringan di negara berpenghasilan rendah akan membuka permintaan yang kini terbatas oleh pasokan tidak andal. Dan penurunan berkelanjutan biaya baterai serta mineral akan mempercepat elektrifikasi transportasi dan pemanas. Variabel terpenting tetap laju kebijakan dan investasi, karena teknologinya sudah tersedia dan kurva biayanya sudah menurun.
+Terobosan dalam penyimpanan durasi panjang akan mengurangi kebutuhan pembangkit cadangan dan membuat jaringan berponsi terbarukan tinggi lebih murah. Ekspansi cepat investasi jaringan di negara berpenghasilan rendah akan membuka permintaan yang kini terbatas oleh pasokan tidak andal. Dan penurunan berkelanjutan biaya baterai serta mineral akan mempercepat elektrifikasi transportasi dan pemanas. Variabel terpenting tetap laju kebijakan dan investasi, karena teknologinya sudah tersedia dan kurva biayanya sudah menurun.
 
 ---
 
@@ -3289,11 +3289,11 @@ Pascabanjir Kerala 2018 menghasilkan eksperimen alami yang instruktif dalam kese
 
 ## 20.12 Skenario dan Prediksi Masa Depan: Kesehatan Mental pada 2050
 
-Rekaman historis menunjukkan bahwa konsekuensi kesehatan mental bencana besar, persisten, dan kurang terukur. Studi setelah peristiwa besar secara konsisten menemukan tingkat stres pascatrauma, depresi, dan kecemasan yang tinggi, dan efeknya dapat bertahan bertahun-tahun. Seiring bahaya iklim menjadi lebih sering dan parah, beban kumulatifnya kemungkinan tumbuh, terutama di wilayah yang mengalami peristiwa berulang.
+Biaya psikologis bencana bertahan lebih lama daripada kerusakan fisiknya. Studi setelah peristiwa besar secara konsisten menemukan tingkat stres pascatrauma, depresi, dan kecemasan yang tinggi, dan efeknya dapat bertahan bertahun-tahun. Seiring bahaya iklim menjadi lebih sering dan parah, beban kumulatifnya kemungkinan tumbuh, terutama di wilayah yang mengalami peristiwa berulang.
 
-Kondisi sekarang menetapkan garis dasar. Layanan kesehatan mental kurang didanai dan kurang tenaga di sebagian besar negara, dan celah pengobatan melebihi 75 persen di banyak lingkungan berpenghasilan rendah (Clayton, 2020). Permintaan sudah meningkat: survei terhadap orang muda menemukan kecemasan yang luas, dan komunitas terdampak bencana melaporkan kenaikan kebutuhan yang berkelanjutan. Pada saat yang sama, stigma menurun di banyak tempat, yang dapat meningkatkan permintaan lebih jauh.
+Garis dasarnya adalah kesenjangan pengobatan. Layanan kesehatan mental kurang didanai dan kurang tenaga di sebagian besar negara, dan celah pengobatan melebihi 75 persen di banyak lingkungan berpenghasilan rendah (Clayton, 2020). Permintaan sudah meningkat: survei terhadap orang muda menemukan kecemasan yang luas, dan komunitas terdampak bencana melaporkan kenaikan kebutuhan yang berkelanjutan. Pada saat yang sama, stigma menurun di banyak tempat, yang dapat meningkatkan permintaan lebih jauh.
 
-Asumsi di balik proyeksi adalah frekuensi bahaya, ketersediaan layanan, dan kekuatan dukungan sosial. Dunia yang berinvestasi dalam kesehatan mental berbasis komunitas, mengintegrasikan dukungan psikososial ke dalam respons bencana, dan menangani pendorong material tekanan dapat membatasi bebannya; dunia yang tidak akan melihat sistem kesehatan mental kewalahan. Tabel merangkum rentangnya.
+Hasil kesehatan mental akan mengikuti frekuensi bahaya, ketersediaan layanan, dan kekuatan dukungan sosial. Dunia yang berinvestasi dalam kesehatan mental berbasis komunitas, mengintegrasikan dukungan psikososial ke dalam respons bencana, dan menangani pendorong material tekanan dapat membatasi bebannya; dunia yang tidak akan melihat sistem kesehatan mental kewalahan. Tabel merangkum rentangnya.
 
 [[TABLE:Tabel 20.1 Indikator kesehatan mental, 2050]]
 | Populasi | Stresor utama | Respons tipikal | Faktor risiko | Dukungan |
@@ -3308,7 +3308,7 @@ Asumsi di balik proyeksi adalah frekuensi bahaya, ketersediaan layanan, dan keku
 
 Dua kesimpulan mengikuti. Pertama, kesehatan mental adalah dampak iklim tersendiri, bukan konsekuensi sekunder kerusakan fisik, dan ia memerlukan investasi serta pengukuran tersendiri. Kedua, intervensi paling efektif bersifat sosial dan material sekaligus klinis: perumahan, pendapatan, koneksi, dan agensi melindungi kesehatan mental lebih andal daripada pengobatan semata.
 
-Apa yang dapat mengubah kesimpulan ini? Ekspansi besar tenaga kesehatan mental komunitas akan menutup sebagian celah pengobatan dengan biaya moderat. Mengintegrasikan dukungan psikososial ke dalam respons bencana akan mengurangi kronisitas. Dan menangani pendorong material tekanan — perumahan, utang, pengungsian — akan menurunkan insiden gangguan sejak awal. Variabel terpenting tetap laju perubahan iklim, karena ia menentukan berapa banyak orang akan mengalami kehilangan, dan berapa banyak dukungan yang mereka butuhkan.
+Ekspansi besar tenaga kesehatan mental komunitas akan menutup sebagian celah pengobatan dengan biaya moderat. Mengintegrasikan dukungan psikososial ke dalam respons bencana akan mengurangi kronisitas. Dan menangani pendorong material tekanan — perumahan, utang, pengungsian — akan menurunkan insiden gangguan sejak awal. Variabel terpenting tetap laju perubahan iklim, karena ia menentukan berapa banyak orang akan mengalami kehilangan, dan berapa banyak dukungan yang mereka butuhkan.
 
 ---
 
@@ -3456,11 +3456,11 @@ Kasus yang paling menggambarkan dimensi keadilan adalah sengketa atas anggaran k
 
 ## 21.12 Skenario dan Prediksi Masa Depan: Keadilan pada 2050
 
-Rekaman historis menunjukkan bahwa jurang antara tanggung jawab dan kerugian telah melebar. Emisi kumulatif terkonsentrasi di sejumlah kecil negara, sementara kerugian akibat perubahan iklim terkonsentrasi di negara dengan kapasitas adaptasi terbatas. Rekaman juga menunjukkan bahwa institusi merespons lambat: tuntutan kerugian dan kerusakan membutuhkan tiga dekade untuk menghasilkan dana, dan dananya tetap kecil.
+Jarak antara pihak yang menyebabkan pemanasan dan pihak yang menanggungnya adalah fakta politik utama abad ini. Emisi kumulatif terkonsentrasi di sejumlah kecil negara, sementara kerugian akibat perubahan iklim terkonsentrasi di negara dengan kapasitas adaptasi terbatas. Rekaman juga menunjukkan bahwa institusi merespons lambat: tuntutan kerugian dan kerusakan membutuhkan tiga dekade untuk menghasilkan dana, dan dananya tetap kecil.
 
-Kondisi sekarang menetapkan garis dasar. Komitmen pembiayaan iklim telah dipenuhi terlambat dan tidak merata, pembiayaan adaptasi tetap sebagian kecil dari kebutuhan, dan banyak negara rentan membelanjakan lebih banyak untuk pembayaran utang daripada untuk adaptasi iklim. Litigasi meningkat, dan pengadilan di beberapa yurisdiksi mengakui kewajiban iklim, tetapi penegakannya tetap sulit. Dukungan publik untuk aksi iklim luas tetapi dangkal di banyak negara, dan menurun ketika biaya menjadi terlihat.
+Garis dasarnya adalah kesenjangan pendanaan. Komitmen pembiayaan iklim telah dipenuhi terlambat dan tidak merata, pembiayaan adaptasi tetap sebagian kecil dari kebutuhan, dan banyak negara rentan membelanjakan lebih banyak untuk pembayaran utang daripada untuk adaptasi iklim. Litigasi meningkat, dan pengadilan di beberapa yurisdiksi mengakui kewajiban iklim, tetapi penegakannya tetap sulit. Dukungan publik untuk aksi iklim luas tetapi dangkal di banyak negara, dan menurun ketika biaya menjadi terlihat.
 
-Asumsi di balik proyeksi adalah laju perubahan iklim, kekuatan institusi internasional, dan tingkat tekanan warga. Dunia yang memperkuat redistribusi, memperluas pembiayaan kerugian dan kerusakan, serta melindungi ruang sipil dapat mengurangi ketidakadilan bahkan ketika iklim memburuk; dunia yang tidak akan melihat beban jatuh pada mereka yang paling tidak bertanggung jawab. Tabel merangkum rentangnya.
+Keadilan iklim akan bergantung pada laju perubahan iklim, kekuatan institusi internasional, dan tingkat tekanan warga. Dunia yang memperkuat redistribusi, memperluas pembiayaan kerugian dan kerusakan, serta melindungi ruang sipil dapat mengurangi ketidakadilan bahkan ketika iklim memburuk; dunia yang tidak akan melihat beban jatuh pada mereka yang paling tidak bertanggung jawab. Tabel merangkum rentangnya.
 
 [[TABLE:Tabel 21.1 Indikator keadilan iklim, 2050]]
 | Aktor | Tanggung jawab | Paparan | Instrumen | Celah |
@@ -3475,7 +3475,7 @@ Asumsi di balik proyeksi adalah laju perubahan iklim, kekuatan institusi interna
 
 Dua kesimpulan mengikuti. Pertama, keadilan bukan tambahan moral bagi kebijakan iklim tetapi syarat efektivitasnya, karena kerja sama bergantung pada distribusi beban yang adil. Kedua, instrumen yang ada tidak memadai skalanya, dan jurang antara prinsip dan praktik adalah masalah utama tata kelola iklim.
 
-Apa yang dapat mengubah kesimpulan ini? Ekspansi substansial pembiayaan kerugian dan kerusakan, yang didanai pungutan atas ekstraksi bahan bakar fosil atau pelayaran, akan menutup sebagian celahnya. Reformasi bank multilateral dan keringanan utang akan menciptakan ruang fiskal untuk adaptasi. Dan partisipasi warga yang lebih kuat akan membuat pemerintah lebih akuntabel atas janjinya. Variabel terpenting tetap laju perubahan iklim, karena ia menentukan skala kerugian yang harus dibagi, dan apakah institusi keadilan dapat mengikuti.
+Ekspansi substansial pembiayaan kerugian dan kerusakan, yang didanai pungutan atas ekstraksi bahan bakar fosil atau pelayaran, akan menutup sebagian celahnya. Reformasi bank multilateral dan keringanan utang akan menciptakan ruang fiskal untuk adaptasi. Dan partisipasi warga yang lebih kuat akan membuat pemerintah lebih akuntabel atas janjinya. Variabel terpenting tetap laju perubahan iklim, karena ia menentukan skala kerugian yang harus dibagi, dan apakah institusi keadilan dapat mengikuti.
 
 ---
 
@@ -3629,11 +3629,11 @@ Kasus bencana yang paling terdokumentasi dalam mengubah institusi sebuah negara 
 
 ## 22.12 Skenario dan Prediksi Masa Depan: Ekstrem Perkotaan pada 2050
 
-Rekaman historis menunjukkan bahwa peristiwa ekstrem menjadi lebih sering dan lebih intens. Gelombang panas yang dahulu jarang kini umum; musim kebakaran lebih panjang; curah hujan lebih terkonsentrasi; dan banjir pesisir lebih sering. Rekaman juga menunjukkan bahwa dampaknya terkonsentrasi di kota, tempat populasi, infrastruktur, dan ketimpangan berpotongan.
+Cuaca ekstrem sedang menjadi kondisi biasa kota-kota. Gelombang panas yang dahulu jarang kini umum; musim kebakaran lebih panjang; curah hujan lebih terkonsentrasi; dan banjir pesisir lebih sering. Rekaman juga menunjukkan bahwa dampaknya terkonsentrasi di kota, tempat populasi, infrastruktur, dan ketimpangan berpotongan.
 
-Kondisi sekarang menetapkan garis dasar. Lebih dari separuh populasi dunia tinggal di wilayah perkotaan, dan porsinya naik. Banyak kota berkembang ke dataran banjir, lereng curam, dan zona pesisir, dan sebagian besar warga kota tinggal di permukiman informal dengan layanan terbatas. Pada saat yang sama, pemerintah kota sering kekurangan pembiayaan, wewenang, dan data yang mereka butuhkan untuk mengelola risiko.
+Garis dasarnya adalah abad perkotaan. Lebih dari separuh populasi dunia tinggal di wilayah perkotaan, dan porsinya naik. Banyak kota berkembang ke dataran banjir, lereng curam, dan zona pesisir, dan sebagian besar warga kota tinggal di permukiman informal dengan layanan terbatas. Pada saat yang sama, pemerintah kota sering kekurangan pembiayaan, wewenang, dan data yang mereka butuhkan untuk mengelola risiko.
 
-Asumsi di balik proyeksi adalah laju pemanasan, laju urbanisasi, dan kualitas tata kelola kota. Dunia yang berinvestasi dalam rencana panas, drainase, peringatan dini, dan perlindungan sosial dapat menurunkan kematian perkotaan bahkan ketika bahaya meningkat; dunia yang tidak akan melihat bencana terkonsentrasi di lingkungan termiskin. Tabel merangkum rentangnya.
+Hasil perkotaan akan bergantung pada laju pemanasan, urbanisasi, dan kualitas tata kelola kota. Dunia yang berinvestasi dalam rencana panas, drainase, peringatan dini, dan perlindungan sosial dapat menurunkan kematian perkotaan bahkan ketika bahaya meningkat; dunia yang tidak akan melihat bencana terkonsentrasi di lingkungan termiskin. Tabel merangkum rentangnya.
 
 [[TABLE:Tabel 22.1 Kasus bencana komparatif, 2050]]
 | Peristiwa | Bahaya | Kematian | Yang gagal | Pelajaran |
@@ -3649,7 +3649,7 @@ Asumsi di balik proyeksi adalah laju pemanasan, laju urbanisasi, dan kualitas ta
 
 Dua kesimpulan mengikuti. Pertama, bahaya yang sama menghasilkan hasil sangat berbeda tergantung paparan, kerentanan, dan tata kelola, yang berarti sebagian besar kematian akibat bencana dapat dicegah secara prinsip. Kedua, kasus yang paling instruktif bukan yang paling besar tetapi yang paling diagnostik: mereka menyingkap sistem mana yang gagal dan mengapa.
 
-Apa yang dapat mengubah kesimpulan ini? Ekspansi cepat rencana aksi panas dan infrastruktur pendinginan akan menurunkan kematian akibat bahaya yang tumbuh paling cepat. Investasi dalam drainase dan pengelolaan dataran banjir akan mengurangi kerugian banjir perkotaan. Dan data yang lebih baik tentang permukiman informal akan membuat terlihat orang-orang yang saat ini tidak ada dalam peta risiko resmi. Variabel terpenting tetap laju pemanasan, karena ia menentukan seberapa jauh di luar pengalaman historis ekstrem masa depan akan terjadi.
+Ekspansi cepat rencana aksi panas dan infrastruktur pendinginan akan menurunkan kematian akibat bahaya yang tumbuh paling cepat. Investasi dalam drainase dan pengelolaan dataran banjir akan mengurangi kerugian banjir perkotaan. Dan data yang lebih baik tentang permukiman informal akan membuat terlihat orang-orang yang saat ini tidak ada dalam peta risiko resmi. Variabel terpenting tetap laju pemanasan, karena ia menentukan seberapa jauh di luar pengalaman historis ekstrem masa depan akan terjadi.
 
 ---
 
@@ -3807,11 +3807,11 @@ Kelaparan Etiopia 1984–85 adalah kasus yang membuat kelaparan terlihat oleh du
 
 ## 23.12 Skenario dan Prediksi Masa Depan: Ketahanan Pangan dan Air pada 2050
 
-Rekaman historis menunjukkan bahwa kelaparan menjadi lebih jarang tetapi belum punah. Jumlah orang yang terdampak krisis pangan meningkat dalam beberapa tahun terakhir, didorong konflik, guncangan ekonomi, dan ekstrem iklim. Kelangkaan air juga meningkat, dengan lebih dari dua miliar orang kini hidup di negara yang mengalami stres air.
+Kelaparan bukan lagi terutama kisah tentang pangan; ia kisah tentang akses, konflik, dan peringatan dini. Jumlah orang yang terdampak krisis pangan meningkat dalam beberapa tahun terakhir, didorong konflik, guncangan ekonomi, dan ekstrem iklim. Kelangkaan air juga meningkat, dengan lebih dari dua miliar orang kini hidup di negara yang mengalami stres air.
 
-Kondisi sekarang menetapkan garis dasar. Sekitar 735 juta orang menghadapi kelaparan pada 2022, dan hampir 3 miliar tidak mampu membiayai pola makan sehat. Irigasi bergantung pada akuifer yang terkuras di banyak wilayah, dan sistem pangan terpapar guncangan melalui konsentrasi perdagangan dan pembatasan ekspor. Pada saat yang sama, sistem peringatan dini, perlindungan sosial, dan transfer tunai telah membaik.
+Garis dasarnya adalah krisis kelaparan yang sudah berlangsung. Sekitar 735 juta orang menghadapi kelaparan pada 2022, dan hampir 3 miliar tidak mampu membiayai pola makan sehat. Irigasi bergantung pada akuifer yang terkuras di banyak wilayah, dan sistem pangan terpapar guncangan melalui konsentrasi perdagangan dan pembatasan ekspor. Pada saat yang sama, sistem peringatan dini, perlindungan sosial, dan transfer tunai telah membaik.
 
-Asumsi di balik proyeksi adalah laju pemanasan, tingkat investasi dalam air dan perlindungan sosial, dan intensitas konflik. Dunia yang berinvestasi dalam efisiensi irigasi, pengelolaan air tanah, tindakan awal, dan perdamaian dapat mengurangi kelaparan bahkan ketika iklim berubah; dunia yang tidak akan melihat krisis pangan dan air lebih sering. Tabel merangkum rentangnya.
+Ketahanan pangan dan air akan mengikuti laju pemanasan, investasi dalam air dan perlindungan sosial, serta intensitas konflik. Dunia yang berinvestasi dalam efisiensi irigasi, pengelolaan air tanah, tindakan awal, dan perdamaian dapat mengurangi kelaparan bahkan ketika iklim berubah; dunia yang tidak akan melihat krisis pangan dan air lebih sering. Tabel merangkum rentangnya.
 
 [[TABLE:Tabel 23.1 Kasus darurat lambat, 2050]]
 | Kasus | Pendorong | Kematian | Yang gagal | Pelajaran |
@@ -3827,7 +3827,7 @@ Asumsi di balik proyeksi adalah laju pemanasan, tingkat investasi dalam air dan 
 
 Dua kesimpulan mengikuti. Pertama, krisis pangan dan air dapat dicegah dengan pengetahuan dan sumber daya yang ada; yang gagal adalah kemauan politik, akses, dan waktu. Kedua, darurat lambat memerlukan investasi jangka panjang dalam air, perlindungan sosial, dan perdamaian, karena bantuan saja tidak dapat membalikkan pengurasan akuifer atau keruntuhan penghidupan.
 
-Apa yang dapat mengubah kesimpulan ini? Pembiayaan yang telah diatur untuk tindakan awal akan mengurangi jurang antara peringatan dan respons. Investasi dalam pengisian ulang air tanah dan efisiensi irigasi akan mengurangi paparan kekeringan. Dan penyelesaian konflik akan menghilangkan faktor yang mengubah panen buruk menjadi kelaparan. Variabel terpenting tetap laju pemanasan, karena ia menentukan seberapa sering sistem akan diuji, dan apakah mereka memiliki waktu untuk pulih di antara guncangan.
+Pembiayaan yang telah diatur untuk tindakan awal akan mengurangi jurang antara peringatan dan respons. Investasi dalam pengisian ulang air tanah dan efisiensi irigasi akan mengurangi paparan kekeringan. Dan penyelesaian konflik akan menghilangkan faktor yang mengubah panen buruk menjadi kelaparan. Variabel terpenting tetap laju pemanasan, karena ia menentukan seberapa sering sistem akan diuji, dan apakah mereka memiliki waktu untuk pulih di antara guncangan.
 
 ---
 
@@ -3985,11 +3985,11 @@ Kasus yang paling berguna bagi pembaca yang ingin bertindak bukan malapetaka mel
 
 ## 24.12 Skenario dan Prediksi Masa Depan: Dunia yang Siap pada 2050
 
-Rekaman historis menunjukkan bahwa kesiapsiagaan dapat menurunkan kematian akibat bencana secara dramatis, bahkan ketika bahaya meningkat. Kematian akibat siklon di Bangladesh turun dengan urutan besaran selama lima dekade; kematian akibat panas di Eropa turun setelah 2003; dan kota yang berinvestasi dalam peringatan serta drainase mengalami kerugian lebih kecil. Rekaman juga menunjukkan bahwa kemajuannya tidak merata dan dapat berbalik.
+Kesiapsiagaan berhasil, dan catatan menunjukkan seberapa besar. Kematian akibat siklon di Bangladesh turun dengan urutan besaran selama lima dekade; kematian akibat panas di Eropa turun setelah 2003; dan kota yang berinvestasi dalam peringatan serta drainase mengalami kerugian lebih kecil. Rekaman juga menunjukkan bahwa kemajuannya tidak merata dan dapat berbalik.
 
-Kondisi sekarang menetapkan garis dasar. Kesiapsiagaan tidak merata di dalam dan antarnegar: rumah tangga dan kota yang lebih kaya lebih siap, dan orang yang paling berisiko sering paling sedikit terlindungi. Pembiayaan adaptasi tetap jauh di bawah kebutuhan, dan pemeliharaan kronis kekurangan dana. Pada saat yang sama, teknologi peringatan, komunikasi, dan energi terdistribusi menjadi lebih murah dan lebih mampu.
+Garis dasarnya adalah kesiapsiagaan yang tidak merata. Kesiapsiagaan tidak merata di dalam dan antarnegar: rumah tangga dan kota yang lebih kaya lebih siap, dan orang yang paling berisiko sering paling sedikit terlindungi. Pembiayaan adaptasi tetap jauh di bawah kebutuhan, dan pemeliharaan kronis kekurangan dana. Pada saat yang sama, teknologi peringatan, komunikasi, dan energi terdistribusi menjadi lebih murah dan lebih mampu.
 
-Asumsi di balik proyeksi adalah laju pemanasan, tingkat investasi, dan kualitas tata kelola. Dunia yang berinvestasi dalam langkah-langkah yang dijelaskan bab ini dapat menurunkan kematian bahkan ketika bahaya meningkat; dunia yang tidak akan melihat beban jatuh pada mereka yang paling tidak mampu menanggungnya. Tabel merangkum rentangnya.
+Kesiapsiagaan akan bergantung pada laju pemanasan, investasi, dan kualitas tata kelola. Dunia yang berinvestasi dalam langkah-langkah yang dijelaskan bab ini dapat menurunkan kematian bahkan ketika bahaya meningkat; dunia yang tidak akan melihat beban jatuh pada mereka yang paling tidak mampu menanggungnya. Tabel merangkum rentangnya.
 
 [[TABLE:Tabel 24.1 Prioritas kesiapsiagaan menurut cakrawala, 2050]]
 | Cakrawala | Tindakan prioritas | Pelaku | Biaya | Tanda keberhasilan |
@@ -4003,7 +4003,7 @@ Asumsi di balik proyeksi adalah laju pemanasan, tingkat investasi, dan kualitas 
 
 Dua kesimpulan mengikuti. Pertama, tindakan paling penting bukan yang paling mahal: peringatan, latihan, rencana panas, penyimpanan air, dan perlindungan sosial memberikan manfaat besar dengan biaya moderat. Kedua, kesiapsiagaan harus dipertahankan, karena sistem memudar dan karena bahaya berubah; rencana yang ditulis sekali dan tidak pernah dilatih bukanlah kesiapsiagaan.
 
-Apa yang dapat mengubah kesimpulan ini? Ekspansi besar pembiayaan adaptasi akan memungkinkan negara berpenghasilan rendah berinvestasi pada skala yang dibutuhkan. Data yang lebih baik tentang populasi rentan akan membuat penjangkauan lebih efektif. Dan institusi lokal yang lebih kuat akan memungkinkan komunitas bertindak sebelum bantuan datang. Variabel terpenting tetap laju pengurangan emisi, karena ia menentukan berapa banyak adaptasi yang dibutuhkan dan apakah sistem yang dijelaskan buku ini akan memadai.
+Ekspansi besar pembiayaan adaptasi akan memungkinkan negara berpenghasilan rendah berinvestasi pada skala yang dibutuhkan. Data yang lebih baik tentang populasi rentan akan membuat penjangkauan lebih efektif. Dan institusi lokal yang lebih kuat akan memungkinkan komunitas bertindak sebelum bantuan datang. Variabel terpenting tetap laju pengurangan emisi, karena ia menentukan berapa banyak adaptasi yang dibutuhkan dan apakah sistem yang dijelaskan buku ini akan memadai.
 
 ---
 

@@ -14,7 +14,7 @@ CH = {
         "didorong kombinasi faktor: suhu yang lebih hangat yang memperpendek masa inkubasi virus di "
         "dalam nyamuk, curah hujan yang lebih lebat yang menciptakan tempat berkembang biak, "
         "urbanisasi yang mendekatkan manusia dan nyamuk, serta pergerakan orang dan barang yang "
-        "membawa virus melintasi perbatasan.",
+        "membawa virus melintasi perbatasan (Cissé dkk., 2022).",
 
         "Demam berdarah adalah salah satu contoh paling jelas penyakit yang sensitif iklim. Nyamuk "
         "Aedes aegypti yang menularkannya berkembang baik di kota yang hangat dan lembap, dan "

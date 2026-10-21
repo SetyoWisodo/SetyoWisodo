@@ -1013,6 +1013,9 @@ content, n_cit = gate1.apply(content, "id")
 import gate1b
 content, n_cit2 = gate1b.apply(content, "id")
 print("gate1b citations added:", n_cit2)
+import style_pass
+content, n_style = style_pass.apply(content, "id")
+print("style pass:", n_style)
 import cited as _cited
 _cited_refs, _further_refs = _cited.split_refs(REFS, _cited.pairs(content))
 _refs_md = ["# Lampiran D: Daftar Pustaka", "", "## Karya yang Dikutip", ""]

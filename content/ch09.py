@@ -14,7 +14,8 @@ CH = {
         "epidemic was driven by a combination of factors: warmer temperatures that shortened the "
         "incubation period of the virus inside the mosquito, heavier rainfall that created "
         "breeding sites, urbanisation that brought people and mosquitoes together, and the "
-        "movement of people and goods that carried the virus across borders.",
+        "movement of people and goods that carried the virus across borders (Cissé et al., "
+        "2022).",
 
         "Dengue is one of the clearest examples of a disease that is climate-sensitive. The Aedes "
         "aegypti mosquito that transmits it thrives in warm, humid cities, and its range has "
