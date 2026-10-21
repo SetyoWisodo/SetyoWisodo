@@ -366,7 +366,7 @@ EXTRA = {
             "buildings intact and kills people inside them. The World Health Organization attributes "
             "more than 175,000 deaths a year to heat, and the Lancet Countdown estimates that "
             "heat-related mortality among people over 65 has risen by 167 per cent compared with the "
-            "1990s (Lancet Countdown, 2024). Those figures are estimates built from excess mortality "
+            "1990s (Romanello et al., 2024). Those figures are estimates built from excess mortality "
             "studies, because heat is rarely recorded as a cause of death on a certificate.",
         ],
         "4.1": [

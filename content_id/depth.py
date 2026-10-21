@@ -372,7 +372,7 @@ EXTRA = {
             "panas meninggalkan bangunan utuh dan membunuh orang di dalamnya. Organisasi Kesehatan Dunia "
             "mengaitkan lebih dari 175.000 kematian per tahun dengan panas, dan Lancet Countdown "
             "memperkirakan kematian terkait panas di antara orang berusia di atas 65 tahun naik 167 "
-            "persen dibandingkan 1990-an (Lancet Countdown, 2024). Angka itu perkiraan yang dibangun dari "
+            "persen dibandingkan 1990-an (Romanello dkk., 2024). Angka itu perkiraan yang dibangun dari "
             "studi kematian berlebih, karena panas jarang dicatat sebagai penyebab kematian di sertifikat.",
         ],
         "4.1": [

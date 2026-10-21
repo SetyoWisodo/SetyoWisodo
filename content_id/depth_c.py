@@ -10,7 +10,7 @@ EXTRA = {
             "dan banjir pesisir — banyak dikutip dan hampir pasti terlalu rendah, karena ia hanya "
             "menghitung sebagian jalur dan mengasumsikan adaptasi berlanjut. Karya yang lebih baru yang "
             "memasukkan panas saja menemukan jumlah dengan besaran serupa, dan Lancet Countdown "
-            "berargumen bahwa beban kesehatan sudah terukur di setiap wilayah (Lancet Countdown, 2024). "
+            "berargumen bahwa beban kesehatan sudah terukur di setiap wilayah (Romanello dkk., 2024). "
             "Ketidakpastiannya berjalan satu arah: perkiraan telah direvisi naik seiring membaiknya "
             "bukti.",
         ],

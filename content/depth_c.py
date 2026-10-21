@@ -10,7 +10,7 @@ EXTRA = {
             "undernutrition and coastal flooding — is widely quoted and almost certainly too low, "
             "because it counts only a subset of pathways and assumes continued adaptation. More recent "
             "work that includes heat alone finds tolls of a similar magnitude, and the Lancet Countdown "
-            "argues that the health burden is already measurable in every region (Lancet Countdown, "
+            "argues that the health burden is already measurable in every region (Romanello et al., "
             "2024). The uncertainty runs in one direction: the estimates have been revised upward as "
             "the evidence has improved.",
         ],

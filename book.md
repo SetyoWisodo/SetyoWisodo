@@ -517,7 +517,7 @@ Cities make this worse in ways that are measurable. Concrete and asphalt absorb 
 
 This chapter examines heat as a physical hazard, as a physiological stress, as an urban design problem and as a public health emergency. It pays particular attention to the question that determines whether a heatwave becomes a disaster: who is exposed, who is warned, and who has somewhere cooler to go.
 
-Heat is the deadliest climate hazard in most years, and it is the one with the least visible damage. A flood destroys buildings that can be photographed; a heatwave leaves buildings intact and kills people inside them. The World Health Organization attributes more than 175,000 deaths a year to heat, and the Lancet Countdown estimates that heat-related mortality among people over 65 has risen by 167 per cent compared with the 1990s (Lancet Countdown, 2024). Those figures are estimates built from excess mortality studies, because heat is rarely recorded as a cause of death on a certificate.
+Heat is the deadliest climate hazard in most years, and it is the one with the least visible damage. A flood destroys buildings that can be photographed; a heatwave leaves buildings intact and kills people inside them. The World Health Organization attributes more than 175,000 deaths a year to heat, and the Lancet Countdown estimates that heat-related mortality among people over 65 has risen by 167 per cent compared with the 1990s (Romanello et al., 2024). Those figures are estimates built from excess mortality studies, because heat is rarely recorded as a cause of death on a certificate.
 
 ## 4.1 Measuring Heat: Temperature, Humidity and Wet-Bulb
 
@@ -1321,7 +1321,7 @@ The health effects of climate change are broader than infectious disease. Heat k
 
 This chapter examines those pathways, the populations they affect most, and the capacity of health systems to respond. It pays particular attention to the difference between direct effects, which are relatively easy to attribute to a heatwave or a flood, and indirect effects, which operate through ecosystems, food systems and infrastructure and are therefore harder to measure but often larger.
 
-The World Health Organization's estimate that climate change will cause about 250,000 additional deaths a year between 2030 and 2050 — from heat, diarrhoea, malaria, undernutrition and coastal flooding — is widely quoted and almost certainly too low, because it counts only a subset of pathways and assumes continued adaptation. More recent work that includes heat alone finds tolls of a similar magnitude, and the Lancet Countdown argues that the health burden is already measurable in every region (Lancet Countdown, 2024). The uncertainty runs in one direction: the estimates have been revised upward as the evidence has improved.
+The World Health Organization's estimate that climate change will cause about 250,000 additional deaths a year between 2030 and 2050 — from heat, diarrhoea, malaria, undernutrition and coastal flooding — is widely quoted and almost certainly too low, because it counts only a subset of pathways and assumes continued adaptation. More recent work that includes heat alone finds tolls of a similar magnitude, and the Lancet Countdown argues that the health burden is already measurable in every region (Romanello et al., 2024). The uncertainty runs in one direction: the estimates have been revised upward as the evidence has improved.
 
 ## 9.1 Direct Effects: Heat, Injury and Displacement
 
@@ -4172,6 +4172,7 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Aldrich, D.P. & Meyer, M.A. 2015. Social capital and community resilience. *American Behavioral Scientist* 59(2): 254–269.
 - Andersen, Inger. 2023. *Adaptation Gap Report 2023*. UNEP, Nairobi.
 - Anderson, Kevin. 2020. *Carbon budgets and fossil exploration critiques*. Tyndall Centre, Manchester.
+- Armstrong McKay, D.I. et al. 2022. Exceeding 1.5°C global warming could trigger multiple climate tipping points. *Science* 377(6611): eabn7950.
 - Arrhenius, S. 1896. On the influence of carbonic acid in the air upon the temperature of the ground. *Philosophical Magazine* 41(251): 237–276.
 - Ballester, J. et al. 2023. Heat-related mortality in Europe during the summer of 2022. *Nature Medicine* 29: 1857–1866.
 - Berkes, F. & Ross, H. 2013. Community resilience: toward an integrated approach. *Society & Natural Resources* 26(1): 5–20.
@@ -4239,6 +4240,7 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Klein, Naomi. 2014. *This Changes Everything: Capitalism vs*. The Climate. Simon & Schuster.
 - Klinenberg, E. 2002. *Heat Wave: A Social Autopsy of Disaster in Chicago*. University of Chicago Press.
 - Kolbert, Elizabeth. 2014. *The Sixth Extinction: An Unnatural History*. Henry Holt and Co.
+- Kotz, M., Levermann, A. & Wenz, L. 2024. The economic commitment of climate change. *Nature* 628: 551–557.
 - Kreienkamp, F. et al. 2021. *Rapid attribution of heavy rainfall events leading to the severe flooding in Western Europe during July 2021*. World Weather Attribution.
 - Kulp, S.A. & Strauss, B.H. 2019. New elevation data triple estimates of global vulnerability to sea-level rise. *Nature Communications* 10: 4844.
 - La Camera, Francesco. 2023. *World Energy Transitions Outlook 2023*. IRENA, Abu Dhabi.
@@ -4269,6 +4271,7 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Rockström, J. et al. 2009. *A safe operating space for humanity*. Nature, 461, 472-475; Richardson et al. (2023). Planetary boundaries update. Sci. Adv., 9.
 - Rohde, R.A. & Hausfather, Z. 2020. The Berkeley Earth land/ocean temperature record. *Earth System Science Data* 12: 3469–3479.
 - Romanello, M. et al. 2023. The 2023 report of the Lancet Countdown. *The Lancet* 402(10419): 2346–2394.
+- Romanello, M. et al. 2024. The 2024 report of the Lancet Countdown on health and climate change. *The Lancet* 404(10465): 1847–1896.
 - Roy, Joyashree et al. 2019. *Sustainable Land Management and Climate*. IPCC SRCCL Chapter 4.
 - Schlosberg, D. 2007. *Defining Environmental Justice: Theories, Movements, and Nature*. Oxford University Press.
 - Selby, J. et al. 2017. Climate change and the Syrian civil war revisited. *Political Geography* 60: 232–244.
@@ -4277,6 +4280,8 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Sherwood, S.C. & Huber, M. 2010. An adaptability limit to climate change due to heat stress. *PNAS* 107(21): 9552–9555.
 - Steffen, W. et al. 2018. Trajectories of the Earth System in the Anthropocene. *PNAS* 115(33): 8252–8259.
 - Stern, N. 2007. *The Economics of Climate Change: The Stern Review*. Cambridge University Press.
+- Stott, P.A., Stone, D.A. & Allen, M.R. 2004. Human contribution to the European heatwave of 2003. *Nature* 432: 610–614.
+- Trenberth, K.E., Fasullo, J.T. & Kiehl, J. 2009. Earth's global energy budget. *Bulletin of the American Meteorological Society* 90(3): 311–323.
 - Tyndall, J. 1861. The Bakerian Lecture: on the absorption and radiation of heat by gases and vapours. *Philosophical Transactions of the Royal Society* 151: 1–36.
 - UNDP. 2022. *Human Development Report 2021/22*. UNDP, New York.
 - UNDRR. 2015. *Sendai Framework for Disaster Risk Reduction 2015-2030*. UNDRR, Geneva.

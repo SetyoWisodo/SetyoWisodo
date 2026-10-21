@@ -509,7 +509,7 @@ Kota memperburuknya dengan cara yang terukur. Beton dan aspal menyerap radiasi m
 
 Bab ini membahas panas sebagai bahaya fisik, sebagai tekanan fisiologis, sebagai masalah desain kota, dan sebagai darurat kesehatan masyarakat. Bab ini memberi perhatian khusus pada pertanyaan yang menentukan apakah gelombang panas menjadi bencana: siapa yang terpapar, siapa yang diperingatkan, dan siapa yang memiliki tempat yang lebih dingin untuk dituju.
 
-Panas adalah bahaya iklim paling mematikan pada sebagian besar tahun, dan ia bahaya dengan kerusakan paling tidak terlihat. Banjir menghancurkan bangunan yang dapat difoto; gelombang panas meninggalkan bangunan utuh dan membunuh orang di dalamnya. Organisasi Kesehatan Dunia mengaitkan lebih dari 175.000 kematian per tahun dengan panas, dan Lancet Countdown memperkirakan kematian terkait panas di antara orang berusia di atas 65 tahun naik 167 persen dibandingkan 1990-an (Lancet Countdown, 2024). Angka itu perkiraan yang dibangun dari studi kematian berlebih, karena panas jarang dicatat sebagai penyebab kematian di sertifikat.
+Panas adalah bahaya iklim paling mematikan pada sebagian besar tahun, dan ia bahaya dengan kerusakan paling tidak terlihat. Banjir menghancurkan bangunan yang dapat difoto; gelombang panas meninggalkan bangunan utuh dan membunuh orang di dalamnya. Organisasi Kesehatan Dunia mengaitkan lebih dari 175.000 kematian per tahun dengan panas, dan Lancet Countdown memperkirakan kematian terkait panas di antara orang berusia di atas 65 tahun naik 167 persen dibandingkan 1990-an (Romanello dkk., 2024). Angka itu perkiraan yang dibangun dari studi kematian berlebih, karena panas jarang dicatat sebagai penyebab kematian di sertifikat.
 
 ## 4.1 Mengukur Panas: Suhu, Kelembapan dan Bola Basah
 
@@ -1313,7 +1313,7 @@ Dampak kesehatan perubahan iklim lebih luas daripada penyakit menular. Panas mem
 
 Bab ini membahas jalur-jalur itu, populasi yang paling terdampak, dan kapasitas sistem kesehatan untuk merespons. Bab ini memberi perhatian khusus pada perbedaan antara efek langsung, yang relatif mudah dikaitkan dengan gelombang panas atau banjir, dan efek tidak langsung, yang bekerja melalui ekosistem, sistem pangan, dan infrastruktur sehingga lebih sulit diukur tetapi sering lebih besar.
 
-Perkiraan Organisasi Kesehatan Dunia bahwa perubahan iklim akan menyebabkan sekitar 250.000 kematian tambahan per tahun antara 2030 dan 2050 — dari panas, diare, malaria, malnutrisi, dan banjir pesisir — banyak dikutip dan hampir pasti terlalu rendah, karena ia hanya menghitung sebagian jalur dan mengasumsikan adaptasi berlanjut. Karya yang lebih baru yang memasukkan panas saja menemukan jumlah dengan besaran serupa, dan Lancet Countdown berargumen bahwa beban kesehatan sudah terukur di setiap wilayah (Lancet Countdown, 2024). Ketidakpastiannya berjalan satu arah: perkiraan telah direvisi naik seiring membaiknya bukti.
+Perkiraan Organisasi Kesehatan Dunia bahwa perubahan iklim akan menyebabkan sekitar 250.000 kematian tambahan per tahun antara 2030 dan 2050 — dari panas, diare, malaria, malnutrisi, dan banjir pesisir — banyak dikutip dan hampir pasti terlalu rendah, karena ia hanya menghitung sebagian jalur dan mengasumsikan adaptasi berlanjut. Karya yang lebih baru yang memasukkan panas saja menemukan jumlah dengan besaran serupa, dan Lancet Countdown berargumen bahwa beban kesehatan sudah terukur di setiap wilayah (Romanello dkk., 2024). Ketidakpastiannya berjalan satu arah: perkiraan telah direvisi naik seiring membaiknya bukti.
 
 ## 9.1 Efek Langsung: Panas, Cedera dan Pengungsian
 
@@ -4167,6 +4167,7 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 - Aldrich, D.P. & Meyer, M.A. 2015. Social capital and community resilience. *American Behavioral Scientist* 59(2): 254–269.
 - Andersen, Inger. 2023. *Adaptation Gap Report 2023*. UNEP, Nairobi.
 - Anderson, Kevin. 2020. *Carbon budgets and fossil exploration critiques*. Tyndall Centre, Manchester.
+- Armstrong McKay, D.I. dkk. 2022. Exceeding 1.5°C global warming could trigger multiple climate tipping points. *Science* 377(6611): eabn7950.
 - Arrhenius, S. 1896. On the influence of carbonic acid in the air upon the temperature of the ground. *Philosophical Magazine* 41(251): 237–276.
 - Ballester, J. dkk. 2023. Heat-related mortality in Europe during the summer of 2022. *Nature Medicine* 29: 1857–1866.
 - Berkes, F. & Ross, H. 2013. Community resilience: toward an integrated approach. *Society & Natural Resources* 26(1): 5–20.
@@ -4234,6 +4235,7 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 - Klein, Naomi. 2014. *This Changes Everything: Capitalism vs*. The Climate. Simon & Schuster.
 - Klinenberg, E. 2002. *Heat Wave: A Social Autopsy of Disaster in Chicago*. University of Chicago Press.
 - Kolbert, Elizabeth. 2014. *The Sixth Extinction: An Unnatural History*. Henry Holt and Co.
+- Kotz, M., Levermann, A. & Wenz, L. 2024. The economic commitment of climate change. *Nature* 628: 551–557.
 - Kreienkamp, F. dkk. 2021. *Rapid attribution of heavy rainfall events leading to the severe flooding in Western Europe during July 2021*. World Weather Attribution.
 - Kulp, S.A. & Strauss, B.H. 2019. New elevation data triple estimates of global vulnerability to sea-level rise. *Nature Communications* 10: 4844.
 - La Camera, Francesco. 2023. *World Energy Transitions Outlook 2023*. IRENA, Abu Dhabi.
@@ -4264,6 +4266,7 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 - Rockström, J. dkk. 2009. *A safe operating space for humanity*. Nature, 461, 472-475; Richardson dkk. (2023). Planetary boundaries update. Sci. Adv., 9.
 - Rohde, R.A. & Hausfather, Z. 2020. The Berkeley Earth land/ocean temperature record. *Earth System Science Data* 12: 3469–3479.
 - Romanello, M. dkk. 2023. The 2023 report of the Lancet Countdown. *The Lancet* 402(10419): 2346–2394.
+- Romanello, M. dkk. 2024. The 2024 report of the Lancet Countdown on health and climate change. *The Lancet* 404(10465): 1847–1896.
 - Roy, Joyashree dkk. 2019. *Sustainable Land Management and Climate*. IPCC SRCCL Chapter 4.
 - Schlosberg, D. 2007. *Defining Environmental Justice: Theories, Movements, and Nature*. Oxford University Press.
 - Selby, J. dkk. 2017. Climate change and the Syrian civil war revisited. *Political Geography* 60: 232–244.
@@ -4272,6 +4275,8 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 - Sherwood, S.C. & Huber, M. 2010. An adaptability limit to climate change due to heat stress. *PNAS* 107(21): 9552–9555.
 - Steffen, W. dkk. 2018. Trajectories of the Earth System in the Anthropocene. *PNAS* 115(33): 8252–8259.
 - Stern, N. 2007. *The Economics of Climate Change: The Stern Review*. Cambridge University Press.
+- Stott, P.A., Stone, D.A. & Allen, M.R. 2004. Human contribution to the European heatwave of 2003. *Nature* 432: 610–614.
+- Trenberth, K.E., Fasullo, J.T. & Kiehl, J. 2009. Earth's global energy budget. *Bulletin of the American Meteorological Society* 90(3): 311–323.
 - Tyndall, J. 1861. The Bakerian Lecture: on the absorption and radiation of heat by gases and vapours. *Philosophical Transactions of the Royal Society* 151: 1–36.
 - UNDP. 2022. *Human Development Report 2021/22*. UNDP, New York.
 - UNDRR. 2015. *Sendai Framework for Disaster Risk Reduction 2015-2030*. UNDRR, Geneva.
