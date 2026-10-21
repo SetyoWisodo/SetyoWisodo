@@ -170,7 +170,7 @@ The response revealed both the strengths and the limits of international aid. Do
 
 Recovery has been uneven. By 2024, many households had rebuilt with the same materials in the same places, because they had no alternative and because reconstruction assistance covered only a fraction of the cost. The lesson is not that Pakistan should have prevented the rain. It is that recovery which restores the pre-existing vulnerability is not recovery; it is the preparation of the next disaster. The same lesson appears in the case studies of every chapter that follows.
 
-For readers outside Pakistan, the case has three implications. It shows that a climate hazard can erase years of development in a single season. It shows that vulnerability is produced by decisions about land, water and housing that are made long before the hazard arrives. And it shows that the difference between a disaster and a catastrophe is often the speed and reach of the response — which is a matter of institutions, not of meteorology.
+For readers outside Pakistan, the case has three implications. It shows that a climate hazard can erase years of development in a single season. It shows that vulnerability is produced by decisions about land, water and housing that are made long before the hazard arrives (Adger, 2006). And it shows that the difference between a disaster and a catastrophe is often the speed and reach of the response — which is a matter of institutions, not of meteorology.
 
 The official Post-Disaster Needs Assessment, conducted jointly by the government of Pakistan and international institutions, put total damage and losses at more than US$30 billion and estimated recovery needs at about US$16 billion, of which a fraction had been committed when the pledging conference closed (World Bank, 2022). The gap between assessed need and available finance is the practical form that climate injustice takes: a country with less than one per cent of cumulative emissions financing its own reconstruction while servicing external debt.
 
@@ -189,7 +189,7 @@ The scenarios below are therefore not predictions of what will happen but condit
 | Current policies | Implemented measures only, slow tightening after 2030 | ~1.9°C | ~2.1°C | Severe heatwaves annual in South Asia; crop losses 5–10%; 200 million displaced by 2050 |
 | Delayed transition | Emissions plateau until 2040, rapid catch-up afterwards | ~2.1°C | ~2.4°C | Arctic summers ice-free; reef collapse; 400 million in coastal flood zones |
 
-The difference between the first and third rows is about half a degree by 2050 and nearly a degree by 2100, but the difference in consequences is much larger than the temperature numbers suggest. Half a degree is the difference between a heatwave that kills hundreds and one that kills tens of thousands; between a harvest that fails once a decade and one that fails every other year; between a reef that bleaches and recovers and one that dissolves. The reason is that impacts are non-linear: they depend on thresholds, and thresholds are crossed at particular temperatures rather than spread evenly across the range.
+The difference between the first and third rows is about half a degree by 2050 and nearly a degree by 2100, but the difference in consequences is much larger than the temperature numbers suggest. Half a degree is the difference between a heatwave that kills hundreds and one that kills tens of thousands; between a harvest that fails once a decade and one that fails every other year; between a reef that bleaches and recovers and one that dissolves (IPCC, 2018). The reason is that impacts are non-linear: they depend on thresholds, and thresholds are crossed at particular temperatures rather than spread evenly across the range.
 
 What would change these projections? A faster collapse in the cost of storage would make the first row more likely; a sustained failure of international cooperation would make the third more likely. A large release of methane from permafrost or a faster loss of Antarctic ice would push all three rows upward. The one thing that would not change them is better forecasting: the projections already incorporate the best available science, and the uncertainty that remains is dominated by choices, not by ignorance.
 
@@ -201,7 +201,7 @@ What would change these projections? A faster collapse in the cost of storage wo
 
 In March 1958, a thirty-year-old geochemist named Charles David Keeling hauled a gas analyser up the northern slope of Mauna Loa, a volcano in Hawai'i, and began measuring the carbon dioxide content of clean Pacific air. The first readings came in at about 315 parts per million (NOAA, 2024). Keeling had chosen the site for the same reason meteorologists choose mountain tops: the air there has travelled thousands of kilometres over open ocean and carries no local smoke, no city traffic, no factory exhaust. What it carries is the background composition of the atmosphere. Within two years the measurements showed something no laboratory experiment could show — the background itself was rising, year after year.
 
-That single instrument turned a nineteenth-century physics argument into an accounting problem. Fourier, Foote, Tyndall and Arrhenius had established that carbon dioxide absorbs infrared radiation and that more of it should warm the surface. Keeling established the other half of the ledger: how fast humans were adding it. By 2024 the same series stood at roughly 424 parts per million, about fifty per cent above the pre-industrial value, with the increase still accelerating (NOAA Global Monitoring Laboratory, 2025). No other number in this book is measured so directly, over so long a period, by so few instruments.
+That single instrument turned a nineteenth-century physics argument into an accounting problem. Fourier, Foote, Tyndall and Arrhenius had established that carbon dioxide absorbs infrared radiation and that more of it should warm the surface (Dessler, 2021). Keeling established the other half of the ledger: how fast humans were adding it. By 2024 the same series stood at roughly 424 parts per million, about fifty per cent above the pre-industrial value, with the increase still accelerating (NOAA Global Monitoring Laboratory, 2025). No other number in this book is measured so directly, over so long a period, by so few instruments.
 
 The physics matters for the rest of the book because it sets the boundary conditions for everything else. A heatwave in Karachi, a harvest failure in the Brazilian Cerrado, an insurance withdrawal in Florida and a flood in Emilia-Romagna are different events with different proximate causes, but they share a common denominator: an atmosphere holding more energy and more water vapour than it did a century ago. This chapter establishes that denominator. It explains the mechanism that warms the surface, the gases that drive it, the evidence that the warming is real, the accounting that attributes it, and the range of futures consistent with what is already in the pipeline.
 
@@ -233,7 +233,7 @@ The gases differ enormously in potency and lifetime, and the difference matters 
 
 The evidence for warming does not rest on a single thermometer or a single group. Surface stations, weather balloons, satellites, ocean buoys, glacier surveys, tide gauges, boreholes, the timing of spring, the poleward movement of fish stocks and the retreat of mountain glaciers all point the same way. Each system has its own errors and its own blind spots; what makes the conclusion robust is that the errors are different and the signal is common. When independent records built from different instruments by different groups agree, the probability that all of them are wrong in the same direction falls sharply (IPCC, 2021, Chapter 2).
 
-The last two years illustrate both the strength and the subtlety of the evidence. The World Meteorological Organization estimated 2023 at about 1.45°C above the 1850–1900 average and 2024 at about 1.55°C, the warmest year in the instrumental record (WMO, 2025). Neither figure should be read as 'the climate has reached 1.5°C'; a single year bounces above and below the trend because of El Niño, volcanic aerosols, solar variability and the weather of the ocean. The trend itself, averaged over a decade, is currently rising at roughly 0.2°C per decade — about twenty times faster than the average rate of change since the last ice age (IPCC, 2021).
+The last two years illustrate both the strength and the subtlety of the evidence. The World Meteorological Organization estimated 2023 at about 1.45°C above the 1850–1900 average and 2024 at about 1.55°C, the warmest year in the instrumental record (WMO, 2025). Neither figure should be read as 'the climate has reached 1.5°C'; a single year bounces above and below the trend because of El Niño, volcanic aerosols, solar variability and the weather of the ocean (Haigh, 2020). The trend itself, averaged over a decade, is currently rising at roughly 0.2°C per decade — about twenty times faster than the average rate of change since the last ice age (IPCC, 2021).
 
 A related dispute concerns the satellites. Microwave sounding units have measured the temperature of the lower troposphere since 1979, and early analyses appeared to show less warming than the surface record. The discrepancy was traced to the slow drift of satellite orbits, which changed the time of day at which measurements were taken, and to the decay of the instruments themselves. Once those effects were corrected, the satellite record agreed with the surface stations within their respective uncertainties, and both agreed with model simulations driven by observed forcings (IPCC, 2021). The episode is worth remembering because it illustrates a general rule: a disagreement between two measurement systems is usually a clue about the instruments, not a refutation of the phenomenon they are both trying to measure.
 
@@ -241,7 +241,7 @@ The evidence for warming comes from several independent directions, and their ag
 
 ## 2.4 Temperature Records and Trends
 
-A global temperature record is not a single measurement but a statistical construction, and it is worth knowing how it is built because the construction is where most public argument about it goes wrong. Stations move, instruments change, cities grow around once-rural sites, and ships once measured sea temperature by dipping buckets and now measure it at the engine intake. Each of these changes introduces a bias of a few tenths of a degree, and each bias has to be estimated and removed. Four independent groups — HadCRUT in Britain, NASA GISS in the United States, Berkeley Earth and NOAA — do this work with different methods, and their global series agree to within about 0.05°C (Morice et al., 2021; Lenssen et al., 2019; Rohde and Hausfather, 2020).
+A global temperature record is not a single measurement but a statistical construction, and it is worth knowing how it is built because the construction is where most public argument about it goes wrong. Stations move, instruments change, cities grow around once-rural sites, and ships once measured sea temperature by dipping buckets and now measure it at the engine intake. Each of these changes introduces a bias of a few tenths of a degree, and each bias has to be estimated and removed. Four independent groups — HadCRUT in Britain, NASA GISS in the United States, Berkeley Earth and NOAA — do this work with different methods, and their global series agree to within about 0.05°C (Morice et al., 2021; Lenssen et al., 2019; Rohde and Hausfather, 2020; Hausfather et al., 2023).
 
 What the corrected record shows is a rise of about 1.2°C since the late nineteenth century, unevenly distributed: land has warmed faster than ocean, the Arctic three to four times faster than the global average, and nights faster than days. The record also shows that the warming has not been smooth. There are decades of little change, sharp El Niño years, and pauses that lasted a decade; all of them sit on an upward slope that has steepened since the 1970s. The apparent contradiction between short pauses and long trends is the single most exploited feature of the record in public debate, and it is resolved by the same rule that governs financial markets: look at the trend, not the last quarter.
 
@@ -295,7 +295,7 @@ Of every tonne of carbon dioxide released by human activity, roughly half stays 
 
 The ocean also absorbs carbon dioxide chemically, and the resulting change in seawater chemistry is direct and measurable: surface pH has fallen by about 0.1 units since the pre-industrial period, equivalent to a roughly thirty per cent increase in hydrogen ion concentration (IPCC, 2021). Organisms that build shells from calcium carbonate are sensitive to that change, which is why acidification is treated in this book as a parallel crisis rather than a footnote to warming. The same arithmetic that makes the ocean a buffer makes it a slow victim: it has absorbed the heat and the carbon, and it will pay for both for centuries.
 
-The carbon budget is the bridge between physics and policy, and its arithmetic is brutally simple. Every tonne of CO2 emitted adds roughly the same amount of warming, regardless of when it is emitted; the total that can be emitted while holding warming below a given threshold is therefore a finite quantity. The best estimate for a fifty per cent chance of staying below 1.5°C was about 500 billion tonnes of CO2 from 2020, and continued emissions have since reduced it to roughly 200 billion — about five years at current rates (IPCC, 2021; Friedlingstein et al., 2024). The budget does not care about pledges, announcements or targets; it responds only to the tonnage that actually leaves the ground.
+The carbon budget is the bridge between physics and policy, and its arithmetic is brutally simple (Le Quéré et al., 2023). Every tonne of CO2 emitted adds roughly the same amount of warming, regardless of when it is emitted; the total that can be emitted while holding warming below a given threshold is therefore a finite quantity. The best estimate for a fifty per cent chance of staying below 1.5°C was about 500 billion tonnes of CO2 from 2020, and continued emissions have since reduced it to roughly 200 billion — about five years at current rates (IPCC, 2021; Friedlingstein et al., 2024). The budget does not care about pledges, announcements or targets; it responds only to the tonnage that actually leaves the ground (UNEP, 2022).
 
 The carbon cycle is not a passive reservoir, and its feedbacks are where much of the scientific uncertainty lies. The land and ocean currently absorb about half of human emissions, but the efficiency of that sink is declining as forests are degraded, soils warm and the ocean's capacity to take up carbon weakens. Permafrost thaw releases carbon dioxide and methane that were stored for millennia; wildfires convert forest from a sink into a source; and a warmer ocean holds less carbon dioxide in solution. Each of these processes amplifies warming, which is why the carbon budget is smaller than a simple mass-balance calculation would suggest.
 
@@ -303,7 +303,7 @@ The carbon cycle is not a passive reservoir, and its feedbacks are where much of
 
 Attribution is the discipline of asking not whether the climate has changed but why. Its central tool is the fingerprint: climate models are run with all known forcings, then with human influences removed, and the resulting spatial patterns are compared with observations. The pattern of greenhouse warming — tropospheric warming with stratospheric cooling, more warming over land than ocean, more at high northern latitudes — is distinctive, and no combination of solar and volcanic variability reproduces it (Hegerl et al., 1996; IPCC, 2021). This is why the sixth assessment could describe human influence as unequivocal rather than merely likely.
 
-A younger branch of the field applies the same logic to individual events. Event attribution compares the probability or intensity of a heatwave, flood or drought in a world with and without human influence, using large ensembles of model simulations constrained by observations. The method has produced conclusions that are now widely cited: the 2021 Pacific Northwest heat dome was judged virtually impossible without climate change, and the 2023 Derna flood in Libya was made far more likely by warming sea surface temperatures (Philip et al., 2022). The method has limits — it says little about vulnerability, and single-event results carry wide uncertainty — but it has changed the terms of the compensation debate, because it allows a specific loss to be connected to a specific cause.
+A younger branch of the field applies the same logic to individual events. Event attribution compares the probability or intensity of a heatwave, flood or drought in a world with and without human influence, using large ensembles of model simulations constrained by observations. The method has produced conclusions that are now widely cited: the 2021 Pacific Northwest heat dome was judged virtually impossible without climate change, and the 2023 Derna flood in Libya was made far more likely by warming sea surface temperatures (Philip et al., 2022; Otto et al., 2021). The method has limits — it says little about vulnerability, and single-event results carry wide uncertainty — but it has changed the terms of the compensation debate, because it allows a specific loss to be connected to a specific cause.
 
 Attribution also has a geography of evidence. Events in wealthy countries tend to be studied quickly because they are insured, instrumented and politically salient; events in poorer countries are studied later, if at all, and often with fewer observations. The result is an asymmetry in what can be said, not in what is happening. Researchers call this the attribution gap, and it matters for compensation: a country that cannot demonstrate attribution finds it harder to claim loss and damage, even when the physical case is strong. Closing the gap is therefore a matter of both science and justice.
 
@@ -400,7 +400,7 @@ A feedback is a process that amplifies or dampens an initial change, and the sig
 
 ## 3.4 Tipping Points and Abrupt Change
 
-Some parts of the climate system do not respond gradually. They behave like a see-saw held just past its balance point: a small additional push produces a large, rapid and often irreversible change. Researchers call these tipping elements, and a 2022 assessment identified sixteen of them, including the Greenland and West Antarctic ice sheets, the Atlantic overturning circulation, the Amazon rainforest, boreal permafrost and warm-water coral reefs (Armstrong McKay et al., 2022). The assessment found that several would be at risk at warming levels between 1.5 and 2°C, which is to say within the range that current policies are likely to produce.
+Some parts of the climate system do not respond gradually. They behave like a see-saw held just past its balance point: a small additional push produces a large, rapid and often irreversible change. Researchers call these tipping elements, and a 2022 assessment identified sixteen of them, including the Greenland and West Antarctic ice sheets, the Atlantic overturning circulation, the Amazon rainforest, boreal permafrost and warm-water coral reefs (Armstrong McKay et al., 2022; Steffen et al., 2018). The assessment found that several would be at risk at warming levels between 1.5 and 2°C, which is to say within the range that current policies are likely to produce.
 
 The concept is easy to misunderstand. A tipping point is not a cliff edge at a precise temperature; it is a region of the parameter space in which the system loses stability, and the exact location is uncertain because the systems are complex and poorly observed. Nor does crossing a threshold always produce an instantaneous change: the Greenland ice sheet may take centuries to disappear once committed, and the Amazon may degrade over decades through fire and drought. What changes at the threshold is not the speed of the change but its reversibility.
 
@@ -414,7 +414,7 @@ The global temperature record is assembled from about thirty thousand land stati
 
 Each system has a characteristic error. Surface stations are precise but unevenly distributed, with dense coverage in Europe and North America and sparse coverage in parts of Africa and South America. Satellites are uniform but indirect, measuring radiance rather than temperature and requiring a radiative transfer model to convert one into the other. Reanalyses are complete but inherit the biases of their models. The skill of the system comes from the disagreement: when independent methods converge, the result is robust; when they diverge, the divergence points to a problem worth investigating.
 
-The architecture of that system is itself a policy achievement. The Global Climate Observing System, established in 1992, sets standards for instruments, data exchange and continuity, and the Paris Agreement's transparency framework depends on it. When a country reports its emissions or its progress, it relies on measurements that are only credible because they are comparable across borders. Monitoring, in other words, is not a technical appendix to climate policy; it is the infrastructure that makes policy verifiable.
+The architecture of that system is itself a policy achievement. The Global Climate Observing System, established in 1992, sets standards for instruments, data exchange and continuity, and the Paris Agreement's transparency framework depends on it (United Nations, 2015b). When a country reports its emissions or its progress, it relies on measurements that are only credible because they are comparable across borders. Monitoring, in other words, is not a technical appendix to climate policy; it is the infrastructure that makes policy verifiable.
 
 Monitoring is a global public good that is unevenly funded. The Global Climate Observing System defines the essential variables that must be measured, but many countries lack the stations, instruments and trained staff to measure them, and the gaps are concentrated in Africa, South America and parts of Asia — precisely where vulnerability is highest. Satellites fill some gaps, but they require calibration against ground truth, and a satellite programme that lapses takes years to replace.
 
@@ -440,7 +440,7 @@ Attribution studies distinguish between the influence on the magnitude of an eve
 
 ## 3.8 Early Warning Systems
 
-Early warning is the most cost-effective adaptation measure available, and it is still missing where it is needed most. The United Nations' Early Warnings for All initiative, launched in 2022, estimated that about half of the world's countries lack a multi-hazard early warning system, and that where systems exist they often fail at the last mile — the warning reaches a capital city but not a village, or arrives in a language and format that the people at risk cannot use (UNDRR and WMO, 2023). The same reports estimate that a twenty-four-hour warning of a coming storm can reduce damage by about thirty per cent.
+Early warning is the most cost-effective adaptation measure available, and it is still missing where it is needed most. The United Nations' Early Warnings for All initiative, launched in 2022, estimated that about half of the world's countries lack a multi-hazard early warning system, and that where systems exist they often fail at the last mile — the warning reaches a capital city but not a village, or arrives in a language and format that the people at risk cannot use (UNDRR and WMO, 2023; WMO, 2022). The same reports estimate that a twenty-four-hour warning of a coming storm can reduce damage by about thirty per cent.
 
 Bangladesh is the standard example of what is possible. After the Bhola cyclone of 1970 killed an estimated three hundred thousand people, the country built a system of cyclone shelters, volunteer networks and mobile-phone alerts that has cut fatalities dramatically: Cyclone Amphan in 2020, a storm of comparable strength, killed roughly a hundred people. The improvement was not primarily technological. It came from shelters placed where people live, warnings issued in local languages, and drills that made evacuation routine.
 
@@ -509,7 +509,7 @@ What would change these conclusions? A clear, sustained weakening of the overtur
 
 *Theme: extreme heat, urban heat islands and the physiology of heat death*
 
-Heat is the deadliest climate hazard in most years, and the least visible. A flood leaves debris, a fire leaves ash, a hurricane leaves a coastline that can be photographed from space. A heatwave leaves bodies in apartments, morgues that fill quietly, and death certificates that list cardiac arrest rather than exposure. The number of people killed by heat is therefore almost always discovered later, by epidemiologists comparing the deaths that occurred with the deaths that would have been expected, rather than by officials counting at the scene.
+Heat is the deadliest climate hazard in most years, and the least visible. A flood leaves debris, a fire leaves ash, a hurricane leaves a coastline that can be photographed from space. A heatwave leaves bodies in apartments, morgues that fill quietly, and death certificates that list cardiac arrest rather than exposure (Red Cross, 2020). The number of people killed by heat is therefore almost always discovered later, by epidemiologists comparing the deaths that occurred with the deaths that would have been expected, rather than by officials counting at the scene.
 
 The physical basis is simple. The human body produces heat continuously and must lose it to the environment. It does so by radiation, convection, evaporation of sweat and, to a small extent, by breathing. When air temperature approaches skin temperature, radiation and convection stop working and evaporation becomes the only route. When humidity is also high, evaporation slows, and the body's core temperature begins to rise. At a wet-bulb temperature near 35°C — the theoretical limit at which sweat can no longer cool the body — even a healthy adult at rest will overheat within hours (Vecellio et al., 2022).
 
@@ -517,7 +517,7 @@ Cities make this worse in ways that are measurable. Concrete and asphalt absorb 
 
 This chapter examines heat as a physical hazard, as a physiological stress, as an urban design problem and as a public health emergency. It pays particular attention to the question that determines whether a heatwave becomes a disaster: who is exposed, who is warned, and who has somewhere cooler to go.
 
-Heat is the deadliest climate hazard in most years, and it is the one with the least visible damage. A flood destroys buildings that can be photographed; a heatwave leaves buildings intact and kills people inside them. The World Health Organization attributes more than 175,000 deaths a year to heat, and the Lancet Countdown estimates that heat-related mortality among people over 65 has risen by 167 per cent compared with the 1990s (Romanello et al., 2024). Those figures are estimates built from excess mortality studies, because heat is rarely recorded as a cause of death on a certificate.
+Heat is the deadliest climate hazard in most years, and it is the one with the least visible damage. A flood destroys buildings that can be photographed; a heatwave leaves buildings intact and kills people inside them. The World Health Organization attributes more than 175,000 deaths a year to heat, and the Lancet Countdown estimates that heat-related mortality among people over 65 has risen by 167 per cent compared with the 1990s (Romanello et al., 2024; Vicedo-Cabrera et al., 2021). Those figures are estimates built from excess mortality studies, because heat is rarely recorded as a cause of death on a certificate.
 
 ## 4.1 Measuring Heat: Temperature, Humidity and Wet-Bulb
 
@@ -991,7 +991,7 @@ In July 2023, India restricted rice exports, and the effect was larger. India ac
 
 These episodes show how food security fails. It is not only a matter of how much the world grows; it is a matter of how the harvest is distributed, stored, traded and priced. A heatwave in one region becomes a price shock in another through export restrictions, speculative buying and the thinness of global stocks. The poorest households, which spend half their income on food, absorb the shock first, and they absorb it by eating less and eating worse.
 
-This chapter examines the physical effects of climate on crops, livestock and fisheries, and the economic and political mechanisms that turn those effects into hunger. It pays particular attention to the crops that feed most of humanity — wheat, maize and rice — and to the smallholders who grow much of the food consumed in low-income countries. It closes with the adaptations that are known to work and the reasons they are not spreading fast enough.
+This chapter examines the physical effects of climate on crops, livestock and fisheries, and the economic and political mechanisms that turn those effects into hunger. It pays particular attention to the crops that feed most of humanity — wheat, maize and rice — and to the smallholders who grow much of the food consumed in low-income countries. It closes with the adaptations that are known to work and the reasons they are not spreading fast enough (Howden et al., 2007).
 
 Food is the sector where climate change is most directly experienced, because every harvest is a climate experiment. Crops are sensitive to temperature during specific growth stages, to the timing and amount of water, and to extreme events at critical moments. A heatwave of a few days during flowering can reduce yields sharply even if the rest of the season is favourable, which is why average climate statistics understate the damage that extremes cause.
 
@@ -1005,7 +1005,7 @@ The combined effect of warming and CO2 is complex. Higher CO2 increases photosyn
 
 The effect of heat on crops is nonlinear and threshold-based. Photosynthesis begins to decline above an optimum temperature that varies by crop — roughly 30 °C for wheat and rice, higher for maize and sorghum — and above a critical threshold, pollen becomes sterile and grain filling stops (Zhao et al., 2017). Zhao et al. (2017) analysed hundreds of studies and estimated that each degree of warming reduces global wheat yields by about 6 per cent, rice by 3.2 per cent, maize by 7.4 per cent and soybeans by 3.1 per cent, before accounting for adaptation or carbon fertilisation.
 
-The crop-level mechanism is more specific than the headline that heat reduces yields. Photosynthesis has an optimum temperature, and above roughly thirty degrees Celsius the enzyme that fixes carbon begins to lose efficiency, while respiration keeps consuming sugars. The damage is worst when high daytime temperatures are combined with warm nights, because the plant cannot recover the carbon it burned during the day. Ortiz-Bobea and colleagues estimated in 2021 that anthropogenic warming has already reduced global agricultural productivity growth by roughly twenty-one per cent since 1961, and that the loss is concentrated in the tropics, where the margin above the optimum was always narrower.
+The crop-level mechanism is more specific than the headline that heat reduces yields. Photosynthesis has an optimum temperature, and above roughly thirty degrees Celsius the enzyme that fixes carbon begins to lose efficiency, while respiration keeps consuming sugars. The damage is worst when high daytime temperatures are combined with warm nights, because the plant cannot recover the carbon it burned during the day. Ortiz-Bobea and colleagues estimated in 2021 that anthropogenic warming has already reduced global agricultural productivity growth by roughly twenty-one per cent since 1961, and that the loss is concentrated in the tropics, where the margin above the optimum was always narrower (Lobell et al., 2011).
 
 ## 7.2 Water, Soil and the Limits of Irrigation
 
@@ -1097,7 +1097,7 @@ Adaptation in agriculture has a well-tested menu: heat- and drought-tolerant var
 
 ## 7.10 The Food System as a Whole
 
-Food security is not only a question of production. It depends on storage, transport, processing, retail and waste. About a third of the food produced is lost or wasted, and reducing that waste is equivalent to increasing production without using more land or water. It depends on diets: about a third of crop calories are fed to animals, and a shift toward less meat-intensive diets in high-income countries would free land and water for human food.
+Food security is not only a question of production. It depends on storage, transport, processing, retail and waste. About a third of the food produced is lost or wasted, and reducing that waste is equivalent to increasing production without using more land or water. It depends on diets: about a third of crop calories are fed to animals, and a shift toward less meat-intensive diets in high-income countries would free land and water for human food (FAO, 2022).
 
 It depends on the political economy of food. Subsidies that encourage water-intensive crops in dry regions, tariffs that protect inefficient producers, and land tenure systems that exclude smallholders all reduce the system's capacity to adapt. The barriers are rarely technical; they are institutional and distributional, which is why the chapters on governance and justice are as relevant to food as the chapters on agronomy.
 
@@ -1105,7 +1105,7 @@ The final point is that the food system and the climate system are coupled. Agri
 
 The food system as a whole is both a victim of climate change and a contributor to it, responsible for roughly a quarter to a third of global greenhouse gas emissions when land use, fertiliser, livestock, transport and waste are included. That dual role means that food system reform is simultaneously mitigation and adaptation: reducing food loss and waste lowers emissions and increases available supply; shifting toward more plant-rich diets reduces land pressure; and improving soil health increases both carbon storage and resilience to drought.
 
-The systems view is not a rhetorical preference; it is what the evidence supports. Food security depends on production, but also on storage, transport, trade, cold chains, credit, land tenure and social protection, and the binding constraint in most crises is one of the latter rather than the harvest itself. The 2007–2008 crisis demonstrated that grain was available while people went hungry, and the 2022 crisis demonstrated that trade policy could substitute for a failed harvest. A food system that is resilient is therefore one with redundancy at each link, not one that maximises output at a single point.
+The systems view is not a rhetorical preference; it is what the evidence supports. Food security depends on production, but also on storage, transport, trade, cold chains, credit, land tenure and social protection, and the binding constraint in most crises is one of the latter rather than the harvest itself (Wheeler & von Braun, 2013). The 2007–2008 crisis demonstrated that grain was available while people went hungry, and the 2022 crisis demonstrated that trade policy could substitute for a failed harvest. A food system that is resilient is therefore one with redundancy at each link, not one that maximises output at a single point.
 
 ## 7.11 Case Study: The 2023 Rice Shock
 
@@ -1317,7 +1317,7 @@ In 2024, the Pan American Health Organization recorded more than 12 million case
 
 Dengue is one of the clearest examples of a disease that is climate-sensitive. The Aedes aegypti mosquito that transmits it thrives in warm, humid cities, and its range has expanded as temperatures have risen. The virus replicates faster in warmer mosquitoes, which means that a mosquito that would have been infectious after twelve days may become infectious after seven. The result is that a city which was too cool for sustained transmission a generation ago may now experience regular outbreaks.
 
-The health effects of climate change are broader than infectious disease. Heat kills directly and indirectly; air pollution from wildfire smoke and fossil fuel combustion damages lungs and hearts; droughts and floods reduce food production and contaminate water; and extreme events disrupt the health systems that would otherwise treat the sick. The World Health Organization estimates that climate change will cause about 250,000 additional deaths per year between 2030 and 2050 from heat, malnutrition, malaria and diarrhoea alone, a figure that excludes many of the pathways described in this chapter.
+The health effects of climate change are broader than infectious disease. Heat kills directly and indirectly; air pollution from wildfire smoke and fossil fuel combustion damages lungs and hearts; droughts and floods reduce food production and contaminate water; and extreme events disrupt the health systems that would otherwise treat the sick (WHO, 2021). The World Health Organization estimates that climate change will cause about 250,000 additional deaths per year between 2030 and 2050 from heat, malnutrition, malaria and diarrhoea alone, a figure that excludes many of the pathways described in this chapter.
 
 This chapter examines those pathways, the populations they affect most, and the capacity of health systems to respond. It pays particular attention to the difference between direct effects, which are relatively easy to attribute to a heatwave or a flood, and indirect effects, which operate through ecosystems, food systems and infrastructure and are therefore harder to measure but often larger.
 
@@ -1353,7 +1353,7 @@ Floods and droughts both increase the risk of waterborne disease, through differ
 
 The 2022 Pakistan floods produced a surge in diarrhoeal disease and malaria, and the 2010 Haiti earthquake and subsequent cholera outbreak showed how quickly a contaminated water supply can become a national emergency. In drought-affected regions, the problem is often not the absence of water but its quality: as sources dry up, people use whatever water is available, including water that is contaminated with sewage or agricultural runoff.
 
-Foodborne disease is also climate-sensitive. Warmer temperatures increase the growth rate of bacteria such as Salmonella and Campylobacter in food, and flooding can contaminate crops with pathogens. The European Centre for Disease Prevention and Control has documented increases in foodborne infections during heatwaves, and the risk is highest in countries with limited cold-chain infrastructure. The result is a health burden that is rarely attributed to climate but is nonetheless part of it.
+Foodborne disease is also climate-sensitive. Warmer temperatures increase the growth rate of bacteria such as Salmonella and Campylobacter in food, and flooding can contaminate crops with pathogens (FAO, 2021). The European Centre for Disease Prevention and Control has documented increases in foodborne infections during heatwaves, and the risk is highest in countries with limited cold-chain infrastructure. The result is a health burden that is rarely attributed to climate but is nonetheless part of it.
 
 Waterborne and foodborne diseases rise with temperature through several mechanisms. Warmer water supports faster bacterial growth; heavy rainfall flushes pathogens into drinking water sources and overwhelms sewage systems; and drought concentrates contaminants in the water that remains. Cholera, typhoid, and diarrhoeal disease in children all show this pattern, which is why the health response to a flood must begin before the water recedes, with chlorination, oral rehydration and surveillance for outbreaks.
 
@@ -1421,7 +1421,7 @@ Vulnerability within populations follows familiar lines. Older adults, infants, 
 
 Early warning is the most effective health adaptation. Heat warning systems that trigger cooling centres, outreach to vulnerable people and changes in hospital staffing can reduce deaths substantially, as the Ahmedabad experience demonstrates. Disease surveillance systems that detect outbreaks early can mobilise vector control and treatment before the epidemic peaks, and climate forecasts can be used to predict where conditions are favourable for transmission.
 
-The integration of climate and health data is improving. The Lancet Countdown publishes annual indicators that track exposure, vulnerability and adaptation across countries, and the World Health Organization has developed a climate and health monitoring framework. Several countries now operate heat-health warning systems, and some are developing malaria early warning systems that use rainfall and temperature forecasts to predict outbreaks.
+The integration of climate and health data is improving. The Lancet Countdown publishes annual indicators that track exposure, vulnerability and adaptation across countries, and the World Health Organization has developed a climate and health monitoring framework (Romanello et al., 2023). Several countries now operate heat-health warning systems, and some are developing malaria early warning systems that use rainfall and temperature forecasts to predict outbreaks.
 
 The gap is in implementation. A warning system is only useful if it reaches the people at risk and if they have the capacity to act on it. In many countries, the warning is issued at the national level but not translated into local action; in others, the data exist but are not shared between health and meteorological agencies. Closing that gap is less a matter of technology than of institutional coordination and trust.
 
@@ -1487,7 +1487,7 @@ The 2017 season illustrates a pattern that is becoming more common. The physical
 
 Climate economics has moved from the margins of the discipline to its centre because the damage is no longer hypothetical. The estimates vary widely, but they converge on a conclusion: the cost of inaction is larger than the cost of action, and the difference grows with every year of delay. The debate is no longer about whether to act but about how to allocate the cost, who bears the risk, and how to finance the transition.
 
-This chapter examines the economic channels through which climate change affects households, firms and states. It distinguishes between direct damage and indirect loss, between stock and flow, and between the risks that can be insured and those that cannot. It closes with the financial instruments that can build resilience — reserve funds, parametric insurance, catastrophe bonds, and the public balance sheets that ultimately backstop them.
+This chapter examines the economic channels through which climate change affects households, firms and states. It distinguishes between direct damage and indirect loss, between stock and flow, and between the risks that can be insured and those that cannot. It closes with the financial instruments that can build resilience — reserve funds, parametric insurance, catastrophe bonds, and the public balance sheets that ultimately backstop them (OECD, 2021).
 
 The economics of climate change has moved from a niche field to a central question of macroeconomic policy, and the reason is that the damages are no longer hypothetical. Global economic losses from weather disasters have averaged several hundred billion dollars a year over the past decade, and the trend is rising faster than output. More importantly, the losses are not evenly distributed: a large share falls on uninsured households and on governments that must divert budgets from development to reconstruction.
 
@@ -1519,7 +1519,7 @@ Climate shocks to food production are transmitted to the wider economy through p
 
 The 2022 food price crisis is an example. The war in Ukraine was the immediate trigger, but it arrived on top of a series of climate-related harvest failures in Europe, South Asia and the Horn of Africa. Food prices rose by more than 20 per cent globally, and the increase was largest in countries that import a high share of their calories (FAO, 2023). The result was a rise in poverty and a decline in dietary quality that persisted after prices fell.
 
-The inflationary effect is not only a problem for households; it is a problem for governments. Food and energy subsidies are politically difficult to remove and fiscally expensive to maintain, and they tend to expand precisely when revenues are falling because the economy is contracting. The result is a pro-cyclical fiscal burden that can turn a climate shock into a debt crisis, particularly in countries with limited access to international capital markets.
+The inflationary effect is not only a problem for households; it is a problem for governments. Food and energy subsidies are politically difficult to remove and fiscally expensive to maintain, and they tend to expand precisely when revenues are falling because the economy is contracting. The result is a pro-cyclical fiscal burden that can turn a climate shock into a debt crisis, particularly in countries with limited access to international capital markets (IMF, 2022).
 
 Food prices transmit climate shocks through the economy in ways that are difficult to predict and politically explosive. A drought raises the price of staples, which raises the cost of living for households that spend a large share of income on food, which reduces demand for other goods and can trigger wage demands and protests. The 2007–2008 and 2010–2011 price spikes demonstrated how quickly a food shock can become a macroeconomic and political event, and how far the effects travel from the region where the harvest failed.
 
@@ -1567,7 +1567,7 @@ More recent estimates are larger. A 2024 study in Nature found that a high-emiss
 
 The estimates differ because they use different assumptions, but they share a conclusion: the cost of inaction is larger than the cost of action, and the difference is growing. The economics of climate change is therefore not primarily about whether to act but about how quickly, how fairly and how effectively. The longer the delay, the larger the physical risk and the more abrupt the transition that will be required to avoid it.
 
-The cost of inaction is usually expressed as a comparison between the cost of reducing emissions and the cost of the damages avoided, and the comparison has shifted decisively. The Stern Review estimated in 2006 that acting early would cost about 1 per cent of GDP a year while inaction would cost 5–20 per cent; since then, the cost of renewable energy has fallen by an order of magnitude and estimates of damages have risen. On current evidence, the question is no longer whether action is cheaper than inaction but how much cheaper.
+The cost of inaction is usually expressed as a comparison between the cost of reducing emissions and the cost of the damages avoided, and the comparison has shifted decisively. The Stern Review estimated in 2006 that acting early would cost about 1 per cent of GDP a year while inaction would cost 5–20 per cent; since then, the cost of renewable energy has fallen by an order of magnitude and estimates of damages have risen (Stern, 2007). On current evidence, the question is no longer whether action is cheaper than inaction but how much cheaper.
 
 The cost of inaction has been estimated many times, and the estimates have grown as the methodology has improved. A 2024 study in Nature by Kotz and colleagues projected that climate damages could reach roughly thirty-eight trillion dollars a year by 2050 under current emission trends, equivalent to a substantial share of global income, and that the losses would fall disproportionately on tropical and low-income countries. Earlier estimates were lower because they omitted tipping points, productivity effects and intangible losses. The policy implication is not that the number is precise but that the range of plausible estimates has moved decisively above the cost of action.
 
@@ -1822,7 +1822,7 @@ The relationship between climate and conflict is one of the most contested quest
 
 ## 12.1 What the Research Shows
 
-The modern literature on climate and conflict began with a series of quantitative studies that found a statistical relationship between temperature and violence. A widely cited meta-analysis by Hsiang, Burke and Miguel (2013) reported that each standard deviation increase in temperature was associated with a 14 per cent increase in intergroup conflict and a 4 per cent increase in interpersonal violence, across studies covering many countries and periods.
+The modern literature on climate and conflict began with a series of quantitative studies that found a statistical relationship between temperature and violence. A widely cited meta-analysis by Hsiang, Burke and Miguel (2013) reported that each standard deviation increase in temperature was associated with a 14 per cent increase in intergroup conflict and a 4 per cent increase in interpersonal violence, across studies covering many countries and periods (Hsiang & Burke, 2014).
 
 The finding was influential and contested. Critics, notably Buhaug (2015), argued that the studies suffered from selection bias, that they aggregated very different forms of violence, and that the effect sizes were small relative to political and economic factors. Later work, including a review in Nature by Mach et al. (2019), concluded that climate has affected armed conflict risk in some contexts but that the evidence is strongest for low-level violence and weakest for civil war, and that confidence in the overall relationship is limited.
 
@@ -2144,7 +2144,7 @@ What would change these conclusions? A large public investment programme could c
 
 *Theme: climate literacy, curriculum and the transmission of usable knowledge*
 
-In 2019, Italy became the first country to make climate change and sustainable development compulsory subjects in all state schools. The law, which took effect in the 2020–2021 school year, requires about thirty-three hours a year of climate education at every level, from primary school to upper secondary, integrated into existing subjects rather than taught as a separate course. Teachers were trained, materials were developed, and the ministry framed the reform as an obligation to the next generation rather than a matter of political preference.
+In 2019, Italy became the first country to make climate change and sustainable development compulsory subjects in all state schools (UNESCO, 2020). The law, which took effect in the 2020–2021 school year, requires about thirty-three hours a year of climate education at every level, from primary school to upper secondary, integrated into existing subjects rather than taught as a separate course. Teachers were trained, materials were developed, and the ministry framed the reform as an obligation to the next generation rather than a matter of political preference.
 
 The Italian case is unusual because most countries have not made climate education compulsory. A UNESCO survey found that only about half of national curricula mention climate change at all, and that where it is mentioned it is often confined to a single subject, taught without connection to local conditions, and assessed in ways that reward memorisation rather than understanding. The result is that many students leave school without the knowledge they need to interpret a weather forecast, evaluate a climate claim or prepare for a hazard.
 
@@ -2400,7 +2400,7 @@ A reader can apply four checks. First, what is the baseline or reference period,
 
 Legitimate scientific communication has its own conventions that can look like weakness. Error bars, ranges and conditional language are marks of care, not evasion. A scientist who says an outcome is likely under a scenario is being precise; a commentator who says it is certain is being careless or dishonest. Learning to read hedged language as a sign of rigour is one of the most useful skills a citizen can acquire.
 
-Graph literacy is a defence that can be taught in an hour. The common manipulations are few: a truncated vertical axis that makes a small change look dramatic, a dual axis that implies a relationship between unrelated series, a cumulative chart that must rise, and a selective time window. The 'hockey stick' controversy of the 2000s is instructive because the reconstruction was examined by the National Research Council in 2006, which found the broad conclusion sound and the statistical uncertainty understated. Both halves of that finding were true, and most public discussion kept only one.
+Graph literacy is a defence that can be taught in an hour. The common manipulations are few: a truncated vertical axis that makes a small change look dramatic, a dual axis that implies a relationship between unrelated series, a cumulative chart that must rise, and a selective time window. The 'hockey stick' controversy of the 2000s is instructive because the reconstruction was examined by the National Research Council in 2006, which found the broad conclusion sound and the statistical uncertainty understated (Mann et al., 1999). Both halves of that finding were true, and most public discussion kept only one.
 
 ## 15.8 Prebunking, Debunking and Inoculation
 
@@ -2814,7 +2814,7 @@ The warning chain had partially worked. The German meteorological service issued
 
 The Ahr valley flood is a case about governance rather than meteorology. The rainfall was extreme but not unimaginable; models had warned that such events were becoming more likely. What failed was the chain that connects a forecast to a decision, a decision to a warning, and a warning to a household that acts. Every link in that chain is an institution, and institutions can be designed well or badly.
 
-This chapter examines the social and political infrastructure of survival: the networks that help neighbours, the institutions that issue warnings and organise response, and the governance arrangements that determine whether protection reaches the people who need it. It argues that social capital and public institutions are not alternatives but complements, and that the quality of governance is one of the strongest predictors of how many people die when hazard strikes.
+This chapter examines the social and political infrastructure of survival: the networks that help neighbours, the institutions that issue warnings and organise response, and the governance arrangements that determine whether protection reaches the people who need it. It argues that social capital and public institutions are not alternatives but complements, and that the quality of governance is one of the strongest predictors of how many people die when hazard strikes (Aldrich & Meyer, 2015).
 
 Disaster response is usually imagined as a command structure, and in practice it is a network. The people who pull neighbours from rubble, share generators, open kitchens and circulate warnings are not following an incident command chart; they are acting on relationships that existed before the event. Social capital is the least expensive resilience asset and the hardest to purchase, because it is produced by ordinary association over years and destroyed quickly by displacement, fear and inequality.
 
@@ -2822,7 +2822,7 @@ Disaster response is usually imagined as a command structure, and in practice it
 
 Social capital refers to the networks, norms and trust that enable people to act together. It is not a metaphor: it can be measured, and it predicts outcomes. Sociologists distinguish bonding capital, which links people who are similar and close, bridging capital, which links people across different groups, and linking capital, which connects citizens to institutions with power. Each plays a different role in a disaster.
 
-Bonding capital provides immediate help: the neighbour who checks on an elderly resident, the family that shares water, the congregation that opens its hall. Bridging capital provides access to resources outside the immediate circle: the community group that knows how to apply for aid, the network that can mobilise volunteers. Linking capital determines whether a community can influence the institutions that decide where the levee is built and who receives compensation.
+Bonding capital provides immediate help: the neighbour who checks on an elderly resident, the family that shares water, the congregation that opens its hall. Bridging capital provides access to resources outside the immediate circle: the community group that knows how to apply for aid, the network that can mobilise volunteers (Cutter et al., 2008). Linking capital determines whether a community can influence the institutions that decide where the levee is built and who receives compensation (Berkes & Ross, 2013).
 
 Daniel Aldrich, in a series of studies of disaster recovery in Japan, India and the United States, found that social capital predicted recovery better than income, damage or government spending. Communities with dense networks recovered faster because they could share information, allocate resources and hold institutions accountable. The finding is important because it suggests that resilience is not only bought with money; it is also built through relationships.
 
@@ -2920,7 +2920,7 @@ Climate hazards do not respect borders. Storms cross coastlines, rivers flow acr
 
 International cooperation is most effective when it supports local institutions rather than substituting for them. Externally managed responses often arrive late, cost more, and leave little capacity behind. The Grand Bargain, a set of commitments to improve humanitarian financing, emphasises localisation for this reason, though progress has been slow.
 
-Climate finance is also a form of governance. The commitment by wealthy countries to provide US$100 billion a year in climate finance has been met late and unevenly, and the adaptation share remains far below what vulnerable countries need. The gap is not only a matter of money; it is a matter of trust, because countries that promised and did not deliver have less credibility when they ask for cooperation on emissions.
+Climate finance is also a form of governance. The commitment by wealthy countries to provide US$100 billion a year in climate finance has been met late and unevenly, and the adaptation share remains far below what vulnerable countries need (OECD, 2023). The gap is not only a matter of money; it is a matter of trust, because countries that promised and did not deliver have less credibility when they ask for cooperation on emissions.
 
 Regional cooperation matters because hazards do not respect borders and because small states cannot carry the cost alone. The ASEAN Agreement on Disaster Management and Emergency Response established a framework for joint response and a standby arrangement for relief supplies, though its activation has been limited by the association's principle of non-interference. The Sendai Framework, adopted in 2015, shifted global attention from disaster response to risk reduction and set targets for mortality, affected population and economic loss, but its indicators depend on national reporting that is uneven in quality and coverage (UNDRR, 2015).
 
@@ -2936,7 +2936,7 @@ Learning is the final requirement. Institutions that treat each disaster as a le
 
 The idea that best describes how resilience actually works is polycentric governance, developed by Elinor Ostrom: many centres of decision-making, formally independent, that adjust through mutual learning rather than through a single hierarchy. Polycentric systems are messier than command systems and more adaptable, because failure in one node does not propagate to all. The design implication is not to abolish central authority but to ensure that households, neighbourhoods, municipalities, provinces and national agencies each have real capacity and clear boundaries, and that information flows between them in both directions.
 
-Adaptive governance is the term that describes how polycentric systems learn, and its central finding is that learning happens through bridging organisations. Folke and colleagues described these as entities that connect local experience to higher levels of decision-making, and in disaster settings they are often NGOs, university centres or professional associations. The bridges matter because local knowledge does not travel upward on its own, and national policy does not travel downward without translation. Where the bridges are missing, the same mistakes are repeated in each municipality, and evaluation never accumulates beyond the local report.
+Adaptive governance is the term that describes how polycentric systems learn, and its central finding is that learning happens through bridging organisations (Folke et al., 2010). Folke and colleagues described these as entities that connect local experience to higher levels of decision-making, and in disaster settings they are often NGOs, university centres or professional associations. The bridges matter because local knowledge does not travel upward on its own, and national policy does not travel downward without translation. Where the bridges are missing, the same mistakes are repeated in each municipality, and evaluation never accumulates beyond the local report.
 
 ## 18.11 Case Study: The Ahr Valley Flood, Germany 2021
 
@@ -3006,7 +3006,7 @@ The resilience case for renewables is strongest where the alternative is a fuel 
 
 Solar photovoltaic modules have followed the steepest cost decline of any energy technology in history. The price of a module fell by roughly 90 per cent between 2010 and 2023, from more than a dollar per watt to around twenty cents, and installed system costs fell almost as fast. The decline was driven by manufacturing scale, learning by doing, and competition, and it transformed solar from a niche technology into the cheapest source of new electricity in many markets.
 
-Deployment followed the price. Global solar capacity passed one terawatt in 2022 and continued to grow at record rates, with annual additions exceeding 400 gigawatts by 2023 and continuing to rise. China accounted for the largest share of both manufacturing and installation, but growth spread across India, the United States, Europe, Brazil and the Middle East. In many countries, solar now supplies a significant share of daytime electricity.
+Deployment followed the price. Global solar capacity passed one terawatt in 2022 and continued to grow at record rates, with annual additions exceeding 400 gigawatts by 2023 and continuing to rise (IRENA, 2023). China accounted for the largest share of both manufacturing and installation, but growth spread across India, the United States, Europe, Brazil and the Middle East. In many countries, solar now supplies a significant share of daytime electricity.
 
 The technology has limits. Solar produces only during daylight, so it requires storage or complementary generation to meet evening demand; output varies with weather and season; and it requires land or roof space. In high-latitude winters, output can fall sharply. These limits are manageable with storage, transmission and diversified generation, but they mean that solar alone is not a complete system. The integration challenge, not the generation cost, is now the main constraint.
 
@@ -3197,7 +3197,7 @@ The drought-suicide link is one of the most politically charged findings in the 
 
 ## 20.4 Heat and Mental Illness
 
-Heat affects mental health directly and indirectly. Directly, high temperatures are associated with irritability, aggression, impaired cognition and worsening of symptoms in people with psychotic disorders. Indirectly, heat disrupts sleep, increases substance use and reduces the capacity to work, all of which affect mental well-being.
+Heat affects mental health directly and indirectly. Directly, high temperatures are associated with irritability, aggression, impaired cognition and worsening of symptoms in people with psychotic disorders (Obradovich et al., 2018). Indirectly, heat disrupts sleep, increases substance use and reduces the capacity to work, all of which affect mental well-being.
 
 The pharmacological dimension is often overlooked. Many psychiatric medications — antipsychotics, antidepressants, lithium — impair the body's ability to regulate temperature, increasing the risk of heat exhaustion and heat stroke. People taking these medications need specific advice about hydration, cooling and monitoring during heatwaves, and clinicians need to include heat risk in prescribing decisions.
 
@@ -3330,7 +3330,7 @@ Pakistan's contribution to cumulative global greenhouse gas emissions is less th
 
 The floods coincided with preparations for the twenty-seventh Conference of the Parties in Sharm el-Sheikh, where the question of loss and damage had been on the agenda for years without resolution. At that conference, parties agreed to establish a fund to address loss and damage, a demand that small island states had first made in 1991 (UNEP, 2023). It was a historic decision, and it was also an incomplete one: the fund was created, but its scale, contributors and rules were left to be decided.
 
-This chapter examines the governance of climate change through the lens of justice: who is responsible for emissions, who bears the harm, and what institutions exist to redistribute costs and remedy injustice. It covers historical responsibility, loss and damage, litigation, just transition, indigenous and gender dimensions, youth participation and the reform of international institutions. The argument is that climate policy without a theory of justice is not only unfair but ineffective, because agreement on burden-sharing is what makes cooperation possible.
+This chapter examines the governance of climate change through the lens of justice: who is responsible for emissions, who bears the harm, and what institutions exist to redistribute costs and remedy injustice. It covers historical responsibility, loss and damage, litigation, just transition, indigenous and gender dimensions, youth participation and the reform of international institutions. The argument is that climate policy without a theory of justice is not only unfair but ineffective, because agreement on burden-sharing is what makes cooperation possible (Schlosberg, 2007).
 
 Climate change is a justice problem before it is a technical one, because the people who have emitted least are exposed most, and because the remedies — ending fossil fuel use, changing land use, paying for loss — redistribute costs and benefits in ways that existing institutions were not designed to manage. Treating justice as a moral afterthought produces policies that are technically efficient and politically fragile; treating it as a design constraint produces policies that can actually be implemented.
 
@@ -4169,9 +4169,13 @@ This book is written to be argued with. When you contest or extend one of its cl
 
 ## Works Cited
 
+- Adger, W.N. 2006. Vulnerability. *Global Environmental Change* 16(3): 268–281.
 - Albrecht, G. 2005. Solastalgia: A new concept in health and identity. *PAN: Philosophy Activism Nature* 3: 44–59.
+- Aldrich, D.P. & Meyer, M.A. 2015. Social capital and community resilience. *American Behavioral Scientist* 59(2): 254–269.
 - Armstrong McKay, D.I. et al. 2022. Exceeding 1.5°C global warming could trigger multiple climate tipping points. *Science* 377(6611): eabn7950.
+- Arrhenius, S. 1896. On the influence of carbonic acid in the air upon the temperature of the ground. *Philosophical Magazine* 41(251): 237–276.
 - Ballester, J. et al. 2023. Heat-related mortality in Europe during the summer of 2022. *Nature Medicine* 29: 1857–1866.
+- Berkes, F. & Ross, H. 2013. Community resilience: toward an integrated approach. *Society & Natural Resources* 26(1): 5–20.
 - Brunkard, J., Namulanda, G. & Ratard, R. 2008. Hurricane Katrina deaths, Louisiana, 2005. *Disaster Medicine and Public Health Preparedness* 2(4): 215–223.
 - Buhaug, H. 2015. Climate-conflict research: some reflections on the way forward. *WIREs Climate Change* 6(3): 269–275.
 - Burke, M., Hsiang, S.M. & Miguel, E. 2015. Global non-linear effect of temperature on economic production. *Nature* 527: 235–239.
@@ -4187,27 +4191,38 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Clarke, B. et al. 2022. Extreme weather impacts of climate change: an attribution perspective. *Environmental Research: Climate* 1(1): 012001.
 - Clayton, S. 2020. Climate anxiety: Psychological responses to climate change. *Journal of Anxiety Disorders* 74: 102263.
 - Cook, John et al. 2013. Quantifying the consensus on anthropogenic global warming. *Environmental Research Letters* 8(2): 024024.
+- Cutter, S.L. et al. 2008. A place-based model for understanding community resilience. *Global Environmental Change* 18(4): 598–606.
 - de Waal, A. 1997. *Famine Crimes: Politics and the Disaster Relief Industry in Africa*. James Currey, Oxford.
+- Dessler, Andrew. 2021. *Introduction to Modern Climate Change*. Cambridge University Press.
 - Ditlevsen, P. & Ditlevsen, S. 2023. Warning of a forthcoming collapse of the Atlantic meridional overturning circulation. *Nature Communications* 14: 4254.
 - Doran, P.T. & Zimmerman, M.K. 2009. Examining the scientific consensus on climate change. *EOS* 90(3): 22–23.
 - Ebi, K.L. et al. 2021. Hot weather and heat extremes: health risks. *The Lancet* 398(10301): 698–708.
+- FAO. 2021. *Climate Change: Unpacking the Burden on Food Safety*. FAO, Rome.
+- FAO. 2022. *The State of the World's Land and Water Resources (SOLAW 2021)*. FAO, Rome.
 - FAO. 2023. *The State of Food Security and Nutrition in the World*. FAO, Rome.
 - FERC & NERC. 2021. *The February 2021 cold weather outages in Texas and the South Central United States*. Federal Energy Regulatory Commission, Washington DC.
+- Folke, C. et al. 2010. Resilience thinking. *Ecology and Society* 15(4): 20.
 - Friedlingstein, P. et al. 2024. Global Carbon Budget 2024. *Earth System Science Data*.
 - Friedlingstein, Pierre et al. 2023. *Global Carbon Budget 2023: carbon cycle and sinks*. Earth System Science Data.
 - Galea, S., Nandi, A. & Vlahov, D. 2005. The epidemiology of post-traumatic stress disorder after disasters. *Epidemiologic Reviews* 27(1): 78–91.
 - Gleick, Peter H. 2023. *Water, Climate and Governance Crises*. Pacific Institute, Oakland.
+- Haigh, Joanna D. 2020. *Solar Variability and Climate*. Imperial College Press.
 - Hanigan, I.C. et al. 2012. Suicide and drought in New South Wales, Australia, 1970–2007. *PNAS* 109(35): 13950–13955.
+- Hausfather, Zeke et al. 2023. *Berkeley Earth Global Temperature Report 2023*. Berkeley Earth.
 - Hegerl, G.C. et al. 1996. Detecting greenhouse-gas-induced climate change with an optimal fingerprint method. *Journal of Climate* 9(10): 2281–2306.
 - Hersbach, H. et al. 2020. The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society* 146(730): 1999–2049.
 - Hess, J.J. et al. 2018. Building resilience to climate change: pilot evaluation of the impact of India's first heat action plan on all-cause mortality. *Journal of Environmental and Public Health* 2018: 7973519.
 - Hickman, C. et al. 2021. *Climate anxiety in children and young people*. The Lancet Planetary Health 5(12): e863–e873.
+- Howden, S.M. et al. 2007. Adapting agriculture to climate change. *PNAS* 104(50): 19691–19696.
+- Hsiang, S.M. & Burke, M. 2014. Climate, conflict, and social stability. *Climatic Change* 123: 39–55.
 - Hsiang, S.M., Burke, M. & Miguel, E. 2013. Quantifying the influence of climate on human conflict. *Science* 341(6151): 1235367.
 - IEA. 2023. *World Energy Outlook 2023*. International Energy Agency, Paris.
 - IFRC. 2022. *World Disasters Report 2022*. IFRC, Geneva.
 - ILO. 2019. *Working on a warmer planet: the impact of heat stress on labour productivity and decent work*. ILO, Geneva.
 - IMBIE. 2018. Mass balance of the Antarctic Ice Sheet from 1992 to 2017. *Nature* 558: 219–222.
+- IMF. 2022. *World Economic Outlook: War Sets Back Global Recovery*. IMF, Washington DC.
 - IPBES. 2019. *Global Assessment Report on Biodiversity and Ecosystem Services*. IPBES Secretariat, Bonn.
+- IPCC. 2018. *Global Warming of 1.5 C (SR15)*. IPCC, Geneva.
 - IPCC. 2019a. *Climate Change and Land (SRCCL)*. IPCC, Geneva.
 - IPCC. 2019b. *Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)*. IPCC, Geneva.
 - IPCC. 2021. *Climate Change 2021: The Physical Science Basis (AR6 WG1)*. Cambridge University Press.
@@ -4222,40 +4237,60 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Kotz, M., Levermann, A. & Wenz, L. 2024. The economic commitment of climate change. *Nature* 628: 551–557.
 - Kreienkamp, F. et al. 2021. *Rapid attribution of heavy rainfall events leading to the severe flooding in Western Europe during July 2021*. World Weather Attribution.
 - Kulp, S.A. & Strauss, B.H. 2019. New elevation data triple estimates of global vulnerability to sea-level rise. *Nature Communications* 10: 4844.
+- Le Quéré, Corinne et al. 2023. Global Carbon Budget 2023. *Earth System Science Data* 15(12): 5301–5369.
 - Lenssen, N.J.L. et al. 2019. Improvements in the GISTEMP uncertainty model. *Journal of Geophysical Research: Atmospheres* 124(12): 6307–6326.
 - Lenton, T.M. et al. 2008. Tipping elements in the Earth's climate system. *PNAS* 105(6): 1786–1793.
 - Lindell, M.K. & Perry, R.W. 2012. The protective action decision model: theoretical modifications and additional evidence. *Risk Analysis* 32(4): 616–632.
+- Lobell, D.B., Schlenker, W. & Costa-Roberts, J. 2011. Climate trends and global crop production since 1980. *Science* 333(6042): 616–620.
 - Lynas, M. et al. 2021. Greater than 99% consensus on human caused climate change in the peer-reviewed scientific literature. *Environmental Research Letters* 16(11): 114005.
 - Mach, K.J. et al. 2019. Climate as a risk factor for armed conflict. *Nature* 571: 193–197.
+- Mann, M.E., Bradley, R.S. & Hughes, M.K. 1999. *Northern Hemisphere temperatures during the past millennium*. Geophys. Res. Lett., 26(6), 759-762 (hockey stick).
 - Morice, C.P. et al. 2021. *An updated assessment of near-surface temperature change from 1850: the HadCRUT5 dataset*. Journal of Geophysical Research: Atmospheres 126(3): e2019JD032361.
 - NASA. 2024. *Global Climate Change: Vital Signs*. climate.nasa.gov.
 - Neumann, B. et al. 2015. *Future coastal population growth and exposure to sea-level rise and coastal flooding*. PLOS ONE 10(3): e0118571.
 - NOAA. 2024. *State of the Climate*. ncei.noaa.gov.
 - NOAA. 2025. *Trends in Atmospheric Carbon Dioxide*. Global Monitoring Laboratory, Boulder.
 - Notz, D. & Stroeve, J. 2016. Observed Arctic sea-ice loss directly follows anthropogenic CO2 emission. *Science* 354(6313): 747–750.
+- Obradovich, N. et al. 2018. Empirical evidence of mental health risks posed by climate change. *PNAS* 115(43): 10953–10958.
+- OECD. 2021. *Managing Climate Risks, Facing Essential Challenges*. OECD, Paris.
+- OECD. 2023. *Climate Finance Provided and Mobilised by Developed Countries*. OECD, Paris.
+- Otto, F.E.L. et al. 2021. *Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change*. World Weather Attribution.
 - Philip, S.Y. et al. 2022. Rapid attribution analysis of the extraordinary heatwave on the Pacific coast of the US and Canada in June 2021. *Earth System Dynamics* 13: 1689–1713.
+- Red Cross. 2020. *Heat Waves: A Silent Killer*. IFRC, Geneva.
 - Robine, J.-M. et al. 2008. Death toll exceeded 70,000 in Europe during the summer of 2003. *Comptes Rendus Biologies* 331(2): 171–178.
 - Rohde, R.A. & Hausfather, Z. 2020. The Berkeley Earth land/ocean temperature record. *Earth System Science Data* 12: 3469–3479.
+- Romanello, M. et al. 2023. The 2023 report of the Lancet Countdown. *The Lancet* 402(10419): 2346–2394.
 - Romanello, M. et al. 2024. The 2024 report of the Lancet Countdown on health and climate change. *The Lancet* 404(10465): 1847–1896.
+- Schlosberg, D. 2007. *Defining Environmental Justice: Theories, Movements, and Nature*. Oxford University Press.
 - Selby, J. et al. 2017. Climate change and the Syrian civil war revisited. *Political Geography* 60: 232–244.
 - Sen, A. 1981. *Poverty and Famines: An Essay on Entitlement and Deprivation*. Oxford University Press.
 - Shepherd, A. et al. 2020. Mass balance of the Greenland Ice Sheet from 1992 to 2018. *Nature* 579: 233–239.
 - Sherwood, S.C. & Huber, M. 2010. An adaptability limit to climate change due to heat stress. *PNAS* 107(21): 9552–9555.
 - Steffen, W. et al. 2015. Planetary boundaries: guiding human development on a changing planet. *Science* 347(6223): 1259855.
+- Steffen, W. et al. 2018. Trajectories of the Earth System in the Anthropocene. *PNAS* 115(33): 8252–8259.
+- Stern, N. 2007. *The Economics of Climate Change: The Stern Review*. Cambridge University Press.
 - Stott, P.A., Stone, D.A. & Allen, M.R. 2004. Human contribution to the European heatwave of 2003. *Nature* 432: 610–614.
 - Trenberth, K.E., Fasullo, J.T. & Kiehl, J. 2009. Earth's global energy budget. *Bulletin of the American Meteorological Society* 90(3): 311–323.
+- Tyndall, J. 1861. The Bakerian Lecture: on the absorption and radiation of heat by gases and vapours. *Philosophical Transactions of the Royal Society* 151: 1–36.
 - UNDRR. 2015. *Sendai Framework for Disaster Risk Reduction 2015-2030*. UNDRR, Geneva.
 - UNDRR. 2022. *Global Assessment Report on Disaster Risk Reduction 2022: Our World at Risk*. UNDRR, Geneva.
 - UNDRR. 2023. *Global Assessment Report on Disaster Risk Reduction 2023: Mapping Resilience for the Sustainable Development Goals*. UNDRR, Geneva.
+- UNEP. 2022. *Emissions Gap Report 2022*. UNEP, Nairobi.
 - UNEP. 2023. *Adaptation Gap Report 2023*. UNEP, Nairobi.
+- UNESCO. 2020. *Education for Sustainable Development: A Roadmap*. UNESCO, Paris.
 - UNESCO. 2021. *Getting Every School Climate-Ready*. UNESCO, Paris.
 - UNHCR. 2023. *Climate Change and Displacement*. unhcr.org.
+- United Nations. 2015a. *2030 Agenda for Sustainable Development*. UN, New York.
+- United Nations. 2015b. *Paris Agreement*. unfccc.int.
 - Vecellio, D.J. et al. 2022. Evaluating the 35°C wet-bulb temperature adaptability threshold for young, healthy subjects. *Journal of Applied Physiology* 132(2): 340–345.
+- Vicedo-Cabrera, A.M. et al. 2021. Burden of heat-related mortality attributable to recent human-induced climate change. *Nature Climate Change* 11: 492–500.
 - Victorian Bushfires Royal Commission. 2010. *Final report*. Parliament of Victoria, Melbourne.
 - Warren, R. et al. 2018. The projected effect on insects, vertebrates, and plants of limiting global warming to 1.5°C rather than 2°C. *Science* 360(6390): 791–795.
 - Watts, N. et al. 2021. The 2021 report of the Lancet Countdown on health and climate change. *The Lancet* 398(10311): 1619–1662.
 - WHO & UNICEF. 2023. *Progress on Household Drinking Water, Sanitation and Hygiene 2000-2022*. JMP.
+- WHO. 2021. *COP26 Special Report on Climate Change and Health*. WHO, Geneva.
 - WHO. 2023. *Climate Change and Health Fact Sheet*. who.int.
+- WMO. 2022. *Early Warnings for All*. WMO, Geneva.
 - WMO. 2023. *State of the Global Climate 2023*. World Meteorological Organization, Geneva.
 - WMO. 2025. *State of the Global Climate 2024*. World Meteorological Organization, Geneva.
 - World Bank. 2021. *Groundswell: Acting on Internal Climate Migration*. World Bank, Washington DC.
@@ -4269,61 +4304,21 @@ This book is written to be argued with. When you contest or extend one of its cl
 
 These works informed the book's background but are not cited in the text.
 
-- Adger, W.N. 2006. Vulnerability. *Global Environmental Change* 16(3): 268–281.
-- Aldrich, D.P. & Meyer, M.A. 2015. Social capital and community resilience. *American Behavioral Scientist* 59(2): 254–269.
-- Andersen, Inger. 2023. *Adaptation Gap Report 2023*. UNEP, Nairobi.
-- Anderson, Kevin. 2020. *Carbon budgets and fossil exploration critiques*. Tyndall Centre, Manchester.
-- Arrhenius, S. 1896. On the influence of carbonic acid in the air upon the temperature of the ground. *Philosophical Magazine* 41(251): 237–276.
-- Berkes, F. & Ross, H. 2013. Community resilience: toward an integrated approach. *Society & Natural Resources* 26(1): 5–20.
-- Birol, Fatih. 2023. *World Energy Outlook 2023*. International Energy Agency, Paris.
-- Canadell, Pep et al. 2021. *Global Carbon Project: Fossil Emissions Trends*. Global Carbon Project.
-- Cutter, S.L. et al. 2008. A place-based model for understanding community resilience. *Global Environmental Change* 18(4): 598–606.
-- Dessler, Andrew. 2021. *Introduction to Modern Climate Change*. Cambridge University Press.
-- FAO. 2021. *Climate Change: Unpacking the Burden on Food Safety*. FAO, Rome.
-- FAO. 2022. *The State of the World's Land and Water Resources (SOLAW 2021)*. FAO, Rome.
-- Folke, C. et al. 2010. Resilience thinking. *Ecology and Society* 15(4): 20.
 - Ghosh, Amitav. 2016. *The Great Derangement: Climate Change and the Unthinkable*. University of Chicago Press.
 - Gore, Al. 2006. *An Inconvenient Truth: The Planetary Emergency of Global Warming and What We Can Do About It*. Rodale Press.
-- Haigh, Joanna D. 2020. *Solar Variability and Climate*. Imperial College Press.
 - Hansen, J. et al. 2016. *Ice melt, sea level rise and superstorms: evidence from paleoclimate data, climate modeling, and modern observations that 2°C global warming could be dangerous*. Atmos. Chem. Phys. 16: 3761–3812.
-- Hausfather, Zeke et al. 2023. *Berkeley Earth Global Temperature Report 2023*. Berkeley Earth.
 - Hayhoe, K. 2021. *Saving Us: A Climate Scientist’s Case for Hope and Healing in a Divided World*. One Signal Publishers.
-- Howden, S.M. et al. 2007. Adapting agriculture to climate change. *PNAS* 104(50): 19691–19696.
-- Hsiang, S.M. & Burke, M. 2014. Climate, conflict, and social stability. *Climatic Change* 123: 39–55.
-- IMF. 2022. *World Economic Outlook: War Sets Back Global Recovery*. IMF, Washington DC.
-- IPCC. 2018. *Global Warming of 1.5 C (SR15)*. IPCC, Geneva.
 - Klein, Naomi. 2014. *This Changes Everything: Capitalism vs*. The Climate. Simon & Schuster.
 - Kolbert, Elizabeth. 2014. *The Sixth Extinction: An Unnatural History*. Henry Holt and Co.
-- La Camera, Francesco. 2023. *World Energy Transitions Outlook 2023*. IRENA, Abu Dhabi.
-- Le Quéré, Corinne et al. 2023. Global Carbon Budget 2023. *Earth System Science Data* 15(12): 5301–5369.
-- Lobell, D.B., Schlenker, W. & Costa-Roberts, J. 2011. Climate trends and global crop production since 1980. *Science* 333(6042): 616–620.
-- Mann, M.E., Bradley, R.S. & Hughes, M.K. 1999. *Northern Hemisphere temperatures during the past millennium*. Geophys. Res. Lett., 26(6), 759-762 (hockey stick).
 - McKibben, Bill. 2019. *Falter: Has the Human Game Begun to Play Itself Out?*. Henry Holt and Co.
-- Obradovich, N. et al. 2018. Empirical evidence of mental health risks posed by climate change. *PNAS* 115(43): 10953–10958.
-- OECD. 2021. *Managing Climate Risks, Facing Essential Challenges*. OECD, Paris.
-- OECD. 2023. *Climate Finance Provided and Mobilised by Developed Countries*. OECD, Paris.
 - Oppenheimer, M. et al. 2019. *Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities*. SROCC Chapter 4.
 - Oreskes, Naomi & Conway, Erik M. 2010. *Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming*. Bloomsbury Press.
-- Otto, F.E.L. et al. 2021. *Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change*. World Weather Attribution.
-- Red Cross. 2020. *Heat Waves: A Silent Killer*. IFRC, Geneva.
 - Robinson, Kim Stanley. 2020. *The Ministry for the Future*. Orbit Books.
 - Rockström, J. et al. 2009. *A safe operating space for humanity*. Nature, 461, 472-475; Richardson et al. (2023). Planetary boundaries update. Sci. Adv., 9.
-- Romanello, M. et al. 2023. The 2023 report of the Lancet Countdown. *The Lancet* 402(10419): 2346–2394.
 - Roy, Joyashree et al. 2019. *Sustainable Land Management and Climate*. IPCC SRCCL Chapter 4.
-- Schlosberg, D. 2007. *Defining Environmental Justice: Theories, Movements, and Nature*. Oxford University Press.
-- Steffen, W. et al. 2018. Trajectories of the Earth System in the Anthropocene. *PNAS* 115(33): 8252–8259.
-- Stern, N. 2007. *The Economics of Climate Change: The Stern Review*. Cambridge University Press.
-- Tyndall, J. 1861. The Bakerian Lecture: on the absorption and radiation of heat by gases and vapours. *Philosophical Transactions of the Royal Society* 151: 1–36.
 - UNDP. 2022. *Human Development Report 2021/22*. UNDP, New York.
-- UNEP. 2022. *Emissions Gap Report 2022*. UNEP, Nairobi.
-- UNESCO. 2020. *Education for Sustainable Development: A Roadmap*. UNESCO, Paris.
-- United Nations. 2015a. *2030 Agenda for Sustainable Development*. UN, New York.
-- United Nations. 2015b. *Paris Agreement*. unfccc.int.
-- Vicedo-Cabrera, A.M. et al. 2021. Burden of heat-related mortality attributable to recent human-induced climate change. *Nature Climate Change* 11: 492–500.
 - Wallace-Wells, David. 2019. *The Uninhabitable Earth: Life After Warming*. Crown Publishing.
 - Wheeler, T. & von Braun, J. 2013. Climate change impacts on global food security. *Science* 341(6145): 508–513.
-- WHO. 2021. *COP26 Special Report on Climate Change and Health*. WHO, Geneva.
-- WMO. 2022. *Early Warnings for All*. WMO, Geneva.
 # Appendix E: About the Author
 
 **Setyo Wisodo** is a professional working across AI development, product management and digital marketing, with a focus on AI-based solutions and digital products. Based in Indonesia.

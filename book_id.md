@@ -100,7 +100,7 @@ Biaya manusia secara sistematis kurang terhitung, dan kekurangan itu bukan kebet
 
 Sistem fisik memiliki inersia, dan inersia itu biasanya disajikan sebagai berita buruk: pemanasan yang sudah terjadi akan berlanjut selama beberapa dekade, permukaan laut akan naik selama berabad-abad, dan sebagian perubahan tidak dapat dibalik. Semua itu benar. Tetapi inersia yang sama berarti masa depan belum ditentukan, karena emisi yang akan menghasilkan hasil terburuk belum terjadi. Perbedaan antara 1,8 °C dan 4,4 °C pada akhir abad bukan perbedaan fisika; itu perbedaan karbon kumulatif, dan karbon kumulatif masih sedang diputuskan.
 
-Anggaran karbon yang tersisa membuat aritmetikanya eksplisit. Untuk memiliki peluang lima puluh persen menahan pemanasan pada 1,5 °C, dunia dapat melepaskan sekitar 250 miliar ton karbon dioksida lagi — sekitar enam tahun pada laju saat ini. Untuk 2 °C, anggarannya sekitar 1.150 miliar ton. Angka-angka ini tidak pasti di bagian pinggir, tetapi orde besarnya tidak, dan itu berarti setiap tahun penundaan menghabiskan sebagian besar anggaran yang tersisa. Itu juga berarti pilihannya bukan antara tindakan dan tanpa tindakan, melainkan antara tindakan sekarang dan tindakan yang jauh lebih besar serta lebih mahal nanti.
+Anggaran karbon yang tersisa membuat aritmetikanya eksplisit. Untuk memiliki peluang lima puluh persen menahan pemanasan pada 1,5 °C, dunia dapat melepaskan sekitar 250 miliar ton karbon dioksida lagi — sekitar enam tahun pada laju saat ini. Untuk 2 °C, anggarannya sekitar 1.150 miliar ton. Angka-angka ini tidak pasti di bagian pinggir, tetapi orde besarnya tidak, dan itu berarti setiap tahun penundaan menghabiskan sebagian besar anggaran yang tersisa (UNEP, 2022). Itu juga berarti pilihannya bukan antara tindakan dan tanpa tindakan, melainkan antara tindakan sekarang dan tindakan yang jauh lebih besar serta lebih mahal nanti.
 
 Ada alasan kedua untuk optimisme yang hati-hati. Biaya teknologi yang mengurangi emisi turun lebih cepat daripada hampir semua perkiraan. Biaya fotovoltaik surya turun sekitar sembilan puluh persen sejak 2010, angin darat sekitar tujuh puluh persen, dan paket baterai lithium-ion sekitar delapan puluh lima persen (IRENA, 2023). Pada 2023, dunia menambah kapasitas pembangkit terbarukan lebih banyak daripada kapasitas fosil untuk pertama kalinya, dan Badan Energi Internasional kini memperkirakan bahwa energi terbarukan akan mencakup mayoritas kapasitas listrik baru hingga 2030 (IEA, 2023). Hambatannya bukan lagi terutama rekayasa; ia adalah kecepatan perubahan jaringan, perizinan, dan koalisi politik.
 
@@ -168,7 +168,7 @@ Responsnya menunjukkan kekuatan dan batas bantuan internasional. Janji donor akh
 
 Pemulihannya tidak merata. Pada 2024, banyak rumah tangga telah membangun kembali dengan bahan yang sama di tempat yang sama, karena mereka tidak punya alternatif dan karena bantuan rekonstruksi hanya menutupi sebagian kecil biaya. Pelajarannya bukan bahwa Pakistan seharusnya mencegah hujan. Pelajarannya adalah bahwa pemulihan yang memulihkan kerentanan yang sudah ada bukanlah pemulihan; itu adalah persiapan untuk bencana berikutnya. Pelajaran yang sama muncul dalam studi kasus setiap bab berikutnya.
 
-Bagi pembaca di luar Pakistan, kasus ini memiliki tiga implikasi. Ia menunjukkan bahwa bahaya iklim dapat menghapus bertahun-tahun pembangunan dalam satu musim. Ia menunjukkan bahwa kerentanan dihasilkan oleh keputusan tentang lahan, air, dan perumahan yang dibuat jauh sebelum bahaya datang. Dan ia menunjukkan bahwa perbedaan antara bencana dan malapetaka sering kali adalah kecepatan dan jangkauan respons — yang merupakan soal lembaga, bukan meteorologi.
+Bagi pembaca di luar Pakistan, kasus ini memiliki tiga implikasi. Ia menunjukkan bahwa bahaya iklim dapat menghapus bertahun-tahun pembangunan dalam satu musim. Ia menunjukkan bahwa kerentanan dihasilkan oleh keputusan tentang lahan, air, dan perumahan yang dibuat jauh sebelum bahaya datang (Adger, 2006). Dan ia menunjukkan bahwa perbedaan antara bencana dan malapetaka sering kali adalah kecepatan dan jangkauan respons — yang merupakan soal lembaga, bukan meteorologi.
 
 Penilaian Kebutuhan Pascabencana resmi, yang dilakukan bersama pemerintah Pakistan dan lembaga internasional, menempatkan total kerusakan dan kerugian melebihi US$30 miliar dan memperkirakan kebutuhan pemulihan sekitar US$16 miliar, yang sebagian kecilnya telah dijanjikan ketika konferensi pendanaan ditutup (Bank Dunia, 2022). Jurang antara kebutuhan yang dinilai dan pembiayaan yang tersedia adalah bentuk praktis dari ketidakadilan iklim: negara dengan kurang dari satu persen emisi kumulatif membiayai rekonstruksinya sendiri sambil membayar utang luar negeri.
 
@@ -187,7 +187,7 @@ Skenario di bawah ini karena itu bukan prediksi tentang apa yang akan terjadi, m
 | Kebijakan saat ini | Hanya langkah yang diterapkan, penguatan lambat setelah 2030 | ~1,9 °C | ~2,1 °C | Gelombang panas parah setiap tahun di Asia Selatan; kehilangan panen 5–10%; 200 juta mengungsi pada 2050 |
 | Transisi tertunda | Emisi datar hingga 2040, pengejaran cepat sesudahnya | ~2,1 °C | ~2,4 °C | Arktik bebas es musim panas; keruntuhan terumbu; 400 juta di zona banjir pesisir |
 
-Perbedaan antara baris pertama dan ketiga adalah sekitar setengah derajat pada 2050 dan hampir satu derajat pada 2100, tetapi perbedaan konsekuensinya jauh lebih besar daripada yang disarankan angka suhu. Setengah derajat adalah perbedaan antara gelombang panas yang menewaskan ratusan orang dan yang menewaskan puluhan ribu; antara panen yang gagal sekali satu dekade dan yang gagal setiap dua tahun; antara terumbu yang memutih lalu pulih dan terumbu yang larut. Alasannya adalah dampak bersifat non-linear: ia bergantung pada ambang batas, dan ambang batas dilampaui pada suhu tertentu, bukan tersebar merata di seluruh rentang.
+Perbedaan antara baris pertama dan ketiga adalah sekitar setengah derajat pada 2050 dan hampir satu derajat pada 2100, tetapi perbedaan konsekuensinya jauh lebih besar daripada yang disarankan angka suhu. Setengah derajat adalah perbedaan antara gelombang panas yang menewaskan ratusan orang dan yang menewaskan puluhan ribu; antara panen yang gagal sekali satu dekade dan yang gagal setiap dua tahun; antara terumbu yang memutih lalu pulih dan terumbu yang larut (IPCC, 2018). Alasannya adalah dampak bersifat non-linear: ia bergantung pada ambang batas, dan ambang batas dilampaui pada suhu tertentu, bukan tersebar merata di seluruh rentang.
 
 Apa yang dapat mengubah proyeksi ini? Penurunan biaya penyimpanan yang lebih cepat akan membuat baris pertama lebih mungkin; kegagalan kerja sama internasional yang berkelanjutan akan membuat baris ketiga lebih mungkin. Pelepasan metana besar dari permafrost atau kehilangan es Antartika yang lebih cepat akan mendorong ketiga baris ke atas. Satu hal yang tidak akan mengubahnya adalah prakiraan yang lebih baik: proyeksi sudah memasukkan ilmu terbaik yang tersedia, dan ketidakpastian yang tersisa didominasi oleh pilihan, bukan oleh ketidaktahuan.
 
@@ -199,7 +199,7 @@ Apa yang dapat mengubah proyeksi ini? Penurunan biaya penyimpanan yang lebih cep
 
 Pada Maret 1958, seorang geokimiawan berusia tiga puluh tahun bernama Charles David Keeling menurunkan alat pengukur gas ke lereng utara Mauna Loa, gunung berapi di Hawaii, dan mulai mengukur kandungan karbon dioksida di udara Pasifik yang bersih. Bacaan pertama menunjukkan sekitar 315 bagian per juta (NOAA, 2024). Keeling memilih lokasi itu karena alasan yang sama dengan para meteorologi yang memilih puncak gunung: udara di sana telah melintasi ribuan kilometer samudra dan tidak membawa asap lokal, lalu lintas kota, atau gas buang pabrik. Yang dibawanya adalah komposisi latar atmosfer. Dalam dua tahun, pengukuran itu menunjukkan sesuatu yang belum pernah ditunjukkan eksperimen laboratorium: latar itu sendiri meningkat, tahun demi tahun.
 
-Satu instrumen tersebut mengubah argumen fisika abad kesembilan belas menjadi persoalan pembukuan. Fourier, Foote, Tyndall, dan Arrhenius telah membuktikan bahwa karbon dioksida menyerap radiasi inframerah dan bahwa penambahan gas itu akan menghangatkan permukaan. Keeling menetapkan sisi lain dari pembukuan tersebut: seberapa cepat manusia menambahkannya. Pada 2024, rangkaian yang sama menunjukkan sekitar 424 bagian per juta, sekitar lima puluh persen di atas nilai pra-industri, dan laju kenaikannya masih dipercepat (NOAA Global Monitoring Laboratory, 2025). Tidak ada angka lain dalam buku ini yang diukur secara langsung begitu lama oleh begitu sedikit instrumen.
+Satu instrumen tersebut mengubah argumen fisika abad kesembilan belas menjadi persoalan pembukuan. Fourier, Foote, Tyndall, dan Arrhenius telah membuktikan bahwa karbon dioksida menyerap radiasi inframerah dan bahwa penambahan gas itu akan menghangatkan permukaan (Dessler, 2021; Tyndall, 1861). Keeling menetapkan sisi lain dari pembukuan tersebut: seberapa cepat manusia menambahkannya. Pada 2024, rangkaian yang sama menunjukkan sekitar 424 bagian per juta, sekitar lima puluh persen di atas nilai pra-industri, dan laju kenaikannya masih dipercepat (NOAA Global Monitoring Laboratory, 2025). Tidak ada angka lain dalam buku ini yang diukur secara langsung begitu lama oleh begitu sedikit instrumen.
 
 Fisika ini penting bagi seluruh buku karena ia menetapkan batas bagi segala hal lainnya. Gelombang panas di Karachi, kegagalan panen di Cerrado Brasil, penarikan polis asuransi di Florida, dan banjir di Emilia-Romagna adalah peristiwa yang berbeda dengan penyebab langsung yang berbeda, tetapi semuanya memiliki penyebut yang sama: atmosfer yang menahan lebih banyak energi dan lebih banyak uap air daripada satu abad lalu. Bab ini menjelaskan penyebut itu, mekanisme yang menghangatkan permukaan, gas yang menggerakkannya, bukti bahwa pemanasan itu nyata, pembukuan yang menghubungkannya dengan manusia, dan rangkaian kemungkinan masa depan yang konsisten dengan apa yang sudah ada di atmosfer.
 
@@ -213,7 +213,7 @@ Argumen ini dimulai dari sebuah teka-teki tentang suhu. Pada 1824, Joseph Fourie
 
 Svante Arrhenius memberikan bentuk kuantitatifnya pada 1896. Dengan perhitungan tangan yang memakan waktu berbulan-bulan, ia memperkirakan bahwa penggandaan karbon dioksida akan menaikkan suhu global sekitar 5 °C, dan bahwa pembakaran batu bara akan menghasilkan pemanasan yang dapat diukur dalam beberapa abad (IPCC, 2021). Angka itu lebih tinggi daripada perkiraan modern — sebagian karena ia mengabaikan beberapa umpan balik yang kemudian diketahui — tetapi arah dan mekanismenya benar. Pada 1938, Guy Callendar mengumpulkan catatan suhu dari sekitar dua ratus stasiun dan menunjukkan bahwa pemanasan yang diamati konsisten dengan kenaikan karbon dioksida yang dihitungnya sendiri.
 
-Yang perlu dipahami dari sejarah ini adalah bahwa mekanismenya sudah diketahui sebelum ada komputer, satelit, atau model iklim. Yang belum ada adalah dua hal: data global yang cukup untuk memisahkan sinyal dari variasi cuaca, dan anggaran karbon yang cukup untuk mengetahui seberapa besar tambahan gas itu dibandingkan dengan kapasitas atmosfer. Keduanya baru tersedia setelah Perang Dunia Kedua, dan keduanya menjelaskan mengapa bab ini bergerak dari fisikawan abad kesembilan belas ke stasiun pengukuran di Hawaii dan stasiun satelit di orbit.
+Yang perlu dipahami dari sejarah ini adalah bahwa mekanismenya sudah diketahui sebelum ada komputer, satelit, atau model iklim. Yang belum ada adalah dua hal: data global yang cukup untuk memisahkan sinyal dari variasi cuaca, dan anggaran karbon yang cukup untuk mengetahui seberapa besar tambahan gas itu dibandingkan dengan kapasitas atmosfer (Le Quéré et al., 2023). Keduanya baru tersedia setelah Perang Dunia Kedua, dan keduanya menjelaskan mengapa bab ini bergerak dari fisikawan abad kesembilan belas ke stasiun pengukuran di Hawaii dan stasiun satelit di orbit.
 
 Efek rumah kaca sering digambarkan sebagai selimut, dan metafora itu berguna tetapi tidak tepat. Yang sebenarnya terjadi adalah sinar matahari melewati atmosfer sebagian besar tanpa diserap dan menghangatkan permukaan; permukaan kemudian memancarkan panas ke atas pada panjang gelombang inframerah; dan gas seperti karbon dioksida, metana, serta uap air menyerap sebagian radiasi keluar itu lalu memancarkannya kembali ke segala arah, termasuk kembali ke permukaan. Hasilnya, planet kehilangan panas ke angkasa lebih lambat daripada tanpa gas-gas itu, dan permukaan harus menghangat sampai neraca energinya seimbang kembali.
 
@@ -243,9 +243,9 @@ Rekaman suhu global disusun oleh empat kelompok independen — HadCRUT di Inggri
 
 Tahun 2023 mencatat suhu rata-rata sekitar 1,45 °C di atas periode 1850–1900, dan 2024 menjadi tahun pertama yang melampaui 1,5 °C dalam satu tahun kalender, menurut Organisasi Meteorologi Dunia. Angka itu tidak berarti ambang Paris telah dilanggar, karena Perjanjian Paris mengacu pada rata-rata jangka panjang, bukan satu tahun. Tetapi angka itu menunjukkan bahwa dunia sudah berada di wilayah yang dianggap berbahaya oleh negosiasi iklim, dan bahwa El Niño 2023–2024 menambahkan dorongan di atas tren yang sudah ada.
 
-Membaca rekaman ini dengan benar memerlukan perhatian pada tiga hal. Pertama, tahun-tahun individual dipengaruhi El Niño dan La Niña, letusan gunung berapi, dan variasi Matahari, sehingga tren harus dihitung dalam periode beberapa dekade. Kedua, pemanasan tidak seragam: Arktik menghangat tiga sampai empat kali lebih cepat daripada rata-rata global, sementara sebagian Samudra Selatan dan Atlantik utara menghangat lebih lambat. Ketiga, rata-rata global menyembunyikan apa yang dialami manusia: kenaikan 1,2 °C dalam rata-rata tahunan dapat berarti gelombang panas yang jauh lebih sering di satu kota dan kekeringan yang lebih panjang di satu lembah.
+Membaca rekaman ini dengan benar memerlukan perhatian pada tiga hal. Pertama, tahun-tahun individual dipengaruhi El Niño dan La Niña, letusan gunung berapi, dan variasi Matahari, sehingga tren harus dihitung dalam periode beberapa dekade (Haigh, 2020). Kedua, pemanasan tidak seragam: Arktik menghangat tiga sampai empat kali lebih cepat daripada rata-rata global, sementara sebagian Samudra Selatan dan Atlantik utara menghangat lebih lambat. Ketiga, rata-rata global menyembunyikan apa yang dialami manusia: kenaikan 1,2 °C dalam rata-rata tahunan dapat berarti gelombang panas yang jauh lebih sering di satu kota dan kekeringan yang lebih panjang di satu lembah.
 
-Catatan suhu memerlukan penanganan cermat terhadap ketidakhomogenan. Stasiun berpindah, instrumen berganti, kawasan urban meluas di sekitarnya, dan praktik pengamatan berubah — dan masing-masing dapat menciptakan tren palsu jika tidak dikoreksi. Dataset utama menangani masalah itu dengan metode berbeda: NASA GISS menginterpolasi anomali, HadCRUT memakai pendekatan grid dengan batas cakupan, Berkeley Earth menerapkan model statistik pada data stasiun, dan NOAA memakai rutin homogenisasi sendiri. Kesepakatan mereka dalam beberapa perseratus derajat adalah bukti bahwa trennya adalah sifat iklim, bukan sifat salah satu analisis.
+Catatan suhu memerlukan penanganan cermat terhadap ketidakhomogenan. Stasiun berpindah, instrumen berganti, kawasan urban meluas di sekitarnya, dan praktik pengamatan berubah — dan masing-masing dapat menciptakan tren palsu jika tidak dikoreksi. Dataset utama menangani masalah itu dengan metode berbeda: NASA GISS menginterpolasi anomali, HadCRUT memakai pendekatan grid dengan batas cakupan, Berkeley Earth menerapkan model statistik pada data stasiun, dan NOAA memakai rutin homogenisasi sendiri (Hausfather et al., 2023). Kesepakatan mereka dalam beberapa perseratus derajat adalah bukti bahwa trennya adalah sifat iklim, bukan sifat salah satu analisis.
 
 ## 2.5 Revolusi Industri dan Emisi
 
@@ -279,7 +279,7 @@ Laut telah menyerap sekitar 90 persen panas berlebih yang terperangkap gas rumah
 
 ## 2.8 Kehilangan Es dan Kriosfer
 
-Kriosfer — es di darat dan di laut — adalah bagian sistem iklim yang paling cepat berubah. Lapisan es Greenland kehilangan sekitar 250 miliar ton massa per tahun pada periode 2006–2018, dan Antartika kehilangan sekitar 150 miliar ton per tahun pada periode yang sama (Shepherd dkk., 2020). Gletser gunung kehilangan massa di hampir semua wilayah, dengan total sekitar 1.000 miliar ton per dekade. Setiap miliar ton air yang masuk ke laut menaikkan permukaan laut sekitar 0,0028 milimeter, sehingga kehilangan tahunan Greenland dan Antartika bersama-sama menambah sekitar satu milimeter per tahun.
+Kriosfer — es di darat dan di laut — adalah bagian sistem iklim yang paling cepat berubah. Lapisan es Greenland kehilangan sekitar 250 miliar ton massa per tahun pada periode 2006–2018, dan Antartika kehilangan sekitar 150 miliar ton per tahun pada periode yang sama (Shepherd dkk., 2020; IMBIE, 2018). Gletser gunung kehilangan massa di hampir semua wilayah, dengan total sekitar 1.000 miliar ton per dekade. Setiap miliar ton air yang masuk ke laut menaikkan permukaan laut sekitar 0,0028 milimeter, sehingga kehilangan tahunan Greenland dan Antartika bersama-sama menambah sekitar satu milimeter per tahun.
 
 Es laut Arktik menyusut sekitar 13 persen per dekade pada bulan September, akhir musim leleh (Notz & Stroeve, 2016). Ketebalannya berkurang lebih cepat daripada luasnya, karena es tua yang tebal digantikan oleh es muda yang tipis dan mudah meleleh pada musim berikutnya. Hilangnya es laut tidak menaikkan permukaan laut secara langsung, tetapi ia memperkuat pemanasan Arktik melalui umpan balik albedo dan mengubah cuaca di lintang menengah.
 
@@ -392,7 +392,7 @@ Umpan balik adalah proses yang memperkuat atau meredam perubahan awal, dan tanda
 
 ## 3.4 Titik Kritis dan Perubahan Mendadak
 
-Sebagian bagian sistem iklim tidak merespons secara bertahap. Ia berperilaku seperti jungkat-jungkit yang ditahan tepat melewati titik seimbangnya: dorongan tambahan yang kecil menghasilkan perubahan besar, cepat, dan sering tidak dapat dibalik. Para peneliti menyebutnya elemen titik kritis, dan penilaian pada 2022 mengidentifikasi enam belas elemen, termasuk lapisan es Greenland dan Antartika Barat, sirkulasi terbalik Atlantik, hutan hujan Amazon, permafrost boreal, dan terumbu karang air hangat (Armstrong McKay dkk., 2022). Penilaian itu menemukan bahwa beberapa di antaranya berisiko pada tingkat pemanasan antara 1,5 dan 2 °C, yang berarti berada dalam kisaran yang kemungkinan dihasilkan oleh kebijakan saat ini.
+Sebagian bagian sistem iklim tidak merespons secara bertahap. Ia berperilaku seperti jungkat-jungkit yang ditahan tepat melewati titik seimbangnya: dorongan tambahan yang kecil menghasilkan perubahan besar, cepat, dan sering tidak dapat dibalik. Para peneliti menyebutnya elemen titik kritis, dan penilaian pada 2022 mengidentifikasi enam belas elemen, termasuk lapisan es Greenland dan Antartika Barat, sirkulasi terbalik Atlantik, hutan hujan Amazon, permafrost boreal, dan terumbu karang air hangat (Armstrong McKay dkk., 2022; Steffen et al., 2018). Penilaian itu menemukan bahwa beberapa di antaranya berisiko pada tingkat pemanasan antara 1,5 dan 2 °C, yang berarti berada dalam kisaran yang kemungkinan dihasilkan oleh kebijakan saat ini.
 
 Konsep ini mudah disalahpahami. Titik kritis bukanlah tebing pada suhu yang tepat; ia adalah wilayah dalam ruang parameter di mana sistem kehilangan stabilitas, dan lokasi tepatnya tidak pasti karena sistemnya kompleks dan pengamatannya terbatas. Melewati ambang juga tidak selalu menghasilkan perubahan seketika: lapisan es Greenland dapat membutuhkan berabad-abad untuk hilang setelah komitmennya terjadi, dan Amazon dapat terdegradasi selama beberapa dekade melalui kebakaran dan kekeringan. Yang berubah pada ambang itu bukan kecepatan perubahan, melainkan sifat dapat-dibaliknya.
 
@@ -406,7 +406,7 @@ Rekaman suhu global dirakit dari sekitar tiga puluh ribu stasiun darat, beberapa
 
 Setiap sistem memiliki kesalahan khasnya. Stasiun permukaan presisi tetapi tidak merata, dengan cakupan padat di Eropa dan Amerika Utara serta cakupan jarang di sebagian Afrika dan Amerika Selatan. Satelit seragam tetapi tidak langsung, mengukur radian, bukan suhu dan memerlukan model transfer radiatif untuk mengubahnya. Reanalisis lengkap tetapi mewarisi bias modelnya. Keterampilan sistem ini berasal dari ketidaksepakatan: ketika metode independen bertemu, hasilnya kuat; ketika mereka menyimpang, penyimpangan itu menunjuk pada masalah yang layak diselidiki.
 
-Arsitektur sistem itu sendiri merupakan pencapaian kebijakan. Global Climate Observing System, yang didirikan pada 1992, menetapkan standar untuk instrumen, pertukaran data, dan kesinambungan, dan kerangka transparansi Perjanjian Paris bergantung padanya. Ketika sebuah negara melaporkan emisi atau kemajuannya, ia mengandalkan pengukuran yang hanya dapat dipercaya karena dapat dibandingkan lintas batas. Pemantauan, dengan kata lain, bukan lampiran teknis kebijakan iklim; ia adalah infrastruktur yang membuat kebijakan dapat diverifikasi.
+Arsitektur sistem itu sendiri merupakan pencapaian kebijakan. Global Climate Observing System, yang didirikan pada 1992, menetapkan standar untuk instrumen, pertukaran data, dan kesinambungan, dan kerangka transparansi Perjanjian Paris bergantung padanya (United Nations, 2015b). Ketika sebuah negara melaporkan emisi atau kemajuannya, ia mengandalkan pengukuran yang hanya dapat dipercaya karena dapat dibandingkan lintas batas. Pemantauan, dengan kata lain, bukan lampiran teknis kebijakan iklim; ia adalah infrastruktur yang membuat kebijakan dapat diverifikasi.
 
 Pemantauan adalah barang publik global yang pendanaannya tidak merata. Sistem Pengamatan Iklim Global menetapkan variabel esensial yang harus diukur, tetapi banyak negara kekurangan stasiun, instrumen, dan staf terlatih untuk mengukurnya, dan celahnya terkonsentrasi di Afrika, Amerika Selatan, dan sebagian Asia — justru di tempat kerentanan tertinggi. Satelit mengisi sebagian celah, tetapi satelit memerlukan kalibrasi terhadap kebenaran di permukaan, dan program satelit yang berhenti memerlukan bertahun-tahun untuk digantikan.
 
@@ -424,7 +424,7 @@ Array Argo mengubah pengamatan laut. Sebelumnya, suhu dan salinitas bawah permuk
 
 Atribusi dimulai dengan pertanyaan tentang satu gelombang panas. Setelah musim panas Eropa 2003 menewaskan puluhan ribu orang, tim yang dipimpin Peter Stott bertanya apakah probabilitas peristiwa semacam itu telah berubah karena pengaruh manusia, dan menjawabnya dengan membandingkan simulasi model dengan dan tanpa gas rumah kaca (Stott, Stone dan Allen, 2004). Jawabannya — bahwa risikonya kira-kira berlipat dua — menetapkan metode yang sejak itu diterapkan pada ratusan peristiwa, dari gelombang panas Rusia 2010 hingga banjir Pakistan 2022 (WMO, 2023).
 
-Metodenya menjadi lebih cepat dan lebih terstandardisasi. Kelompok World Weather Attribution, yang didirikan pada 2014, kini menghasilkan analisis cepat dalam hitungan minggu setelah suatu peristiwa, menggunakan protokol yang ditinjau sejawat dan ansambel model yang besar. Temuannya dinyatakan sebagai perubahan probabilitas atau intensitas, bukan sebagai kepastian: kubah panas Pasifik Barat Laut 2021 dinilai hampir mustahil tanpa perubahan iklim; banjir Pakistan 2022 menjadi lebih mungkin karena pemanasan, meskipun kerentanan dan pengelolaan lahan menentukan skala bencananya; banjir Derna di Libya 2023 dikaitkan dengan air Laut Tengah yang lebih hangat dari biasanya (WMO, 2023).
+Metodenya menjadi lebih cepat dan lebih terstandardisasi. Kelompok World Weather Attribution, yang didirikan pada 2014, kini menghasilkan analisis cepat dalam hitungan minggu setelah suatu peristiwa, menggunakan protokol yang ditinjau sejawat dan ansambel model yang besar. Temuannya dinyatakan sebagai perubahan probabilitas atau intensitas, bukan sebagai kepastian: kubah panas Pasifik Barat Laut 2021 dinilai hampir mustahil tanpa perubahan iklim; banjir Pakistan 2022 menjadi lebih mungkin karena pemanasan, meskipun kerentanan dan pengelolaan lahan menentukan skala bencananya; banjir Derna di Libya 2023 dikaitkan dengan air Laut Tengah yang lebih hangat dari biasanya (WMO, 2023; Otto et al., 2021).
 
 Atribusi memiliki batas yang mudah dilupakan. Ia lebih andal untuk panas daripada hujan, lebih andal pada skala benua daripada lokal, dan paling lemah di tempat observasinya jarang — yang biasanya justru tempat populasi paling rentan bermukim. Ia juga tidak mengatakan apa pun tentang siapa yang bertanggung jawab atau siapa yang harus membayar; itu pertanyaan politik yang dapat diinformasikan oleh atribusi tetapi tidak dapat dijawab olehnya. Digunakan dengan hati-hati, atribusi mengubah rasa ketidakadilan yang samar menjadi klaim yang dapat dipertahankan; digunakan secara sembarangan, ia menciptakan harapan bahwa setiap bencana memiliki satu penyebab yang dapat diatribusikan.
 
@@ -432,7 +432,7 @@ Studi atribusi membedakan pengaruh terhadap besaran peristiwa dan pengaruh terha
 
 ## 3.8 Sistem Peringatan Dini
 
-Peringatan dini adalah tindakan adaptasi paling hemat biaya yang tersedia, dan ia masih hilang di tempat yang paling membutuhkannya. Inisiatif Early Warnings for All Perserikatan Bangsa-Bangsa, yang diluncurkan pada 2022, memperkirakan bahwa sekitar setengah negara di dunia tidak memiliki sistem peringatan dini multi-bahaya, dan bahwa di tempat sistem itu ada, sistem tersebut sering gagal pada mil terakhir — peringatan mencapai ibu kota tetapi tidak mencapai desa, atau datang dalam bahasa dan format yang tidak dapat digunakan oleh orang-orang yang berisiko (UNDRR dan WMO, 2023). Laporan yang sama memperkirakan bahwa peringatan dua puluh empat jam sebelum badai datang dapat mengurangi kerusakan sekitar tiga puluh persen.
+Peringatan dini adalah tindakan adaptasi paling hemat biaya yang tersedia, dan ia masih hilang di tempat yang paling membutuhkannya. Inisiatif Early Warnings for All Perserikatan Bangsa-Bangsa, yang diluncurkan pada 2022, memperkirakan bahwa sekitar setengah negara di dunia tidak memiliki sistem peringatan dini multi-bahaya, dan bahwa di tempat sistem itu ada, sistem tersebut sering gagal pada mil terakhir — peringatan mencapai ibu kota tetapi tidak mencapai desa, atau datang dalam bahasa dan format yang tidak dapat digunakan oleh orang-orang yang berisiko (UNDRR dan WMO, 2023; WMO, 2022). Laporan yang sama memperkirakan bahwa peringatan dua puluh empat jam sebelum badai datang dapat mengurangi kerusakan sekitar tiga puluh persen.
 
 Bangladesh adalah contoh standar tentang apa yang mungkin. Setelah siklon Bhola 1970 menewaskan sekitar tiga ratus ribu orang, negara itu membangun sistem tempat berlindung, jaringan relawan, dan peringatan ponsel yang telah menurunkan korban secara drastis: Siklon Amphan pada 2020, badai dengan kekuatan sebanding, menewaskan sekitar seratus orang. Perbaikan itu bukan terutama teknologi. Ia datang dari tempat berlindung yang ditempatkan di mana orang tinggal, peringatan yang disampaikan dalam bahasa lokal, dan latihan yang membuat evakuasi menjadi rutin.
 
@@ -501,7 +501,7 @@ Apa yang dapat mengubah kesimpulan ini? Pelemahan sirkulasi terbalik yang jelas 
 
 *Tema: panas ekstrem, pulau panas perkotaan dan fisiologi kematian akibat panas*
 
-Panas adalah bahaya iklim paling mematikan pada sebagian besar tahun, dan yang paling tidak terlihat. Banjir meninggalkan puing, kebakaran meninggalkan abu, angin topan meninggalkan garis pantai yang dapat difoto dari angkasa. Gelombang panas meninggalkan jenazah di apartemen, kamar mayat yang terisi tanpa suara, dan surat kematian yang mencantumkan gagal jantung alih-alih paparan panas. Jumlah orang yang tewas karena panas karena itu hampir selalu ditemukan belakangan, oleh epidemiolog yang membandingkan kematian yang terjadi dengan kematian yang seharusnya terjadi, bukan oleh pejabat yang menghitung di lokasi.
+Panas adalah bahaya iklim paling mematikan pada sebagian besar tahun, dan yang paling tidak terlihat. Banjir meninggalkan puing, kebakaran meninggalkan abu, angin topan meninggalkan garis pantai yang dapat difoto dari angkasa. Gelombang panas meninggalkan jenazah di apartemen, kamar mayat yang terisi tanpa suara, dan surat kematian yang mencantumkan gagal jantung alih-alih paparan panas (Red Cross, 2020). Jumlah orang yang tewas karena panas karena itu hampir selalu ditemukan belakangan, oleh epidemiolog yang membandingkan kematian yang terjadi dengan kematian yang seharusnya terjadi, bukan oleh pejabat yang menghitung di lokasi.
 
 Dasar fisiknya sederhana. Tubuh manusia menghasilkan panas terus-menerus dan harus melepaskannya ke lingkungan. Tubuh melakukannya melalui radiasi, konveksi, penguapan keringat, dan sedikit melalui pernapasan. Ketika suhu udara mendekati suhu kulit, radiasi dan konveksi berhenti bekerja dan penguapan menjadi satu-satunya jalur. Ketika kelembapan juga tinggi, penguapan melambat, dan suhu inti tubuh mulai naik. Pada suhu bola basah mendekati 35 °C — batas teoretis di mana keringat tidak lagi mendinginkan tubuh — bahkan orang dewasa sehat yang beristirahat akan kepanasan dalam beberapa jam (Vecellio dkk., 2022).
 
@@ -509,7 +509,7 @@ Kota memperburuknya dengan cara yang terukur. Beton dan aspal menyerap radiasi m
 
 Bab ini membahas panas sebagai bahaya fisik, sebagai tekanan fisiologis, sebagai masalah desain kota, dan sebagai darurat kesehatan masyarakat. Bab ini memberi perhatian khusus pada pertanyaan yang menentukan apakah gelombang panas menjadi bencana: siapa yang terpapar, siapa yang diperingatkan, dan siapa yang memiliki tempat yang lebih dingin untuk dituju.
 
-Panas adalah bahaya iklim paling mematikan pada sebagian besar tahun, dan ia bahaya dengan kerusakan paling tidak terlihat. Banjir menghancurkan bangunan yang dapat difoto; gelombang panas meninggalkan bangunan utuh dan membunuh orang di dalamnya. Organisasi Kesehatan Dunia mengaitkan lebih dari 175.000 kematian per tahun dengan panas, dan Lancet Countdown memperkirakan kematian terkait panas di antara orang berusia di atas 65 tahun naik 167 persen dibandingkan 1990-an (Romanello dkk., 2024). Angka itu perkiraan yang dibangun dari studi kematian berlebih, karena panas jarang dicatat sebagai penyebab kematian di sertifikat.
+Panas adalah bahaya iklim paling mematikan pada sebagian besar tahun, dan ia bahaya dengan kerusakan paling tidak terlihat. Banjir menghancurkan bangunan yang dapat difoto; gelombang panas meninggalkan bangunan utuh dan membunuh orang di dalamnya. Organisasi Kesehatan Dunia mengaitkan lebih dari 175.000 kematian per tahun dengan panas, dan Lancet Countdown memperkirakan kematian terkait panas di antara orang berusia di atas 65 tahun naik 167 persen dibandingkan 1990-an (Romanello dkk., 2024; Vicedo-Cabrera et al., 2021). Angka itu perkiraan yang dibangun dari studi kematian berlebih, karena panas jarang dicatat sebagai penyebab kematian di sertifikat.
 
 ## 4.1 Mengukur Panas: Suhu, Kelembapan dan Bola Basah
 
@@ -983,7 +983,7 @@ Pada Juli 2023, India membatasi ekspor beras, dan efeknya lebih besar. India men
 
 Episode ini menunjukkan bagaimana ketahanan pangan gagal. Ini bukan hanya soal berapa banyak yang ditanam dunia; ini soal bagaimana panen didistribusikan, disimpan, diperdagangkan, dan dihargai. Gelombang panas di satu wilayah menjadi guncangan harga di wilayah lain melalui pembatasan ekspor, pembelian spekulatif, dan tipisnya stok global. Rumah tangga termiskin, yang menghabiskan setengah pendapatannya untuk pangan, menyerap guncangan lebih dulu, dan mereka menyerapnya dengan makan lebih sedikit dan lebih buruk.
 
-Bab ini membahas efek fisik iklim pada tanaman, ternak, dan perikanan, serta mekanisme ekonomi dan politik yang mengubah efek itu menjadi kelaparan. Bab ini memberi perhatian khusus pada tanaman yang memberi makan sebagian besar umat manusia — gandum, jagung, dan beras — dan pada petani kecil yang menanam sebagian besar pangan di negara berpenghasilan rendah. Bab ini ditutup dengan adaptasi yang diketahui berhasil dan alasan mengapa adaptasi itu tidak menyebar cukup cepat.
+Bab ini membahas efek fisik iklim pada tanaman, ternak, dan perikanan, serta mekanisme ekonomi dan politik yang mengubah efek itu menjadi kelaparan. Bab ini memberi perhatian khusus pada tanaman yang memberi makan sebagian besar umat manusia — gandum, jagung, dan beras — dan pada petani kecil yang menanam sebagian besar pangan di negara berpenghasilan rendah. Bab ini ditutup dengan adaptasi yang diketahui berhasil dan alasan mengapa adaptasi itu tidak menyebar cukup cepat (Howden et al., 2007).
 
 Pangan adalah sektor tempat perubahan iklim paling langsung dialami, karena setiap panen adalah eksperimen iklim. Tanaman peka terhadap suhu pada tahap pertumbuhan tertentu, terhadap waktu dan jumlah air, serta terhadap peristiwa ekstrem pada momen kritis. Gelombang panas beberapa hari selama pembungaan dapat menurunkan hasil secara tajam bahkan jika sisa musimnya menguntungkan, itulah sebabnya statistik iklim rata-rata meremehkan kerusakan yang ditimbulkan ekstrem.
 
@@ -997,7 +997,7 @@ Efek gabungan pemanasan dan CO2 rumit. CO2 yang lebih tinggi meningkatkan fotosi
 
 Efek panas pada tanaman bersifat non-linear dan berbasis ambang. Fotosintesis mulai menurun di atas suhu optimum yang berbeda menurut tanaman — sekitar 30 °C untuk gandum dan padi, lebih tinggi untuk jagung dan sorgum — dan di atas ambang kritis, serbuk sari menjadi steril dan pengisian bulir berhenti (Zhao dkk., 2017). Zhao dkk. (2017) menganalisis ratusan studi dan memperkirakan bahwa setiap derajat pemanasan menurunkan hasil gandum global sekitar 6 persen, padi 3,2 persen, jagung 7,4 persen, dan kedelai 3,1 persen, sebelum memperhitungkan adaptasi atau pemupukan karbon.
 
-Mekanisme pada tingkat tanaman lebih spesifik daripada judul berita bahwa panas menurunkan hasil. Fotosintesis memiliki suhu optimum, dan di atas sekitar tiga puluh derajat Celsius enzim yang memfiksasi karbon mulai kehilangan efisiensi, sementara respirasi terus mengonsumsi gula. Kerusakannya paling parah ketika suhu siang tinggi disertai malam yang hangat, karena tanaman tidak dapat memulihkan karbon yang dibakarnya pada siang hari. Ortiz-Bobea dan rekan-rekannya memperkirakan pada 2021 bahwa pemanasan akibat manusia telah menurunkan pertumbuhan produktivitas pertanian global sekitar dua puluh satu persen sejak 1961, dan kerugiannya terkonsentrasi di daerah tropis, tempat margin di atas titik optimum selalu lebih sempit.
+Mekanisme pada tingkat tanaman lebih spesifik daripada judul berita bahwa panas menurunkan hasil. Fotosintesis memiliki suhu optimum, dan di atas sekitar tiga puluh derajat Celsius enzim yang memfiksasi karbon mulai kehilangan efisiensi, sementara respirasi terus mengonsumsi gula. Kerusakannya paling parah ketika suhu siang tinggi disertai malam yang hangat, karena tanaman tidak dapat memulihkan karbon yang dibakarnya pada siang hari. Ortiz-Bobea dan rekan-rekannya memperkirakan pada 2021 bahwa pemanasan akibat manusia telah menurunkan pertumbuhan produktivitas pertanian global sekitar dua puluh satu persen sejak 1961, dan kerugiannya terkonsentrasi di daerah tropis, tempat margin di atas titik optimum selalu lebih sempit (Lobell et al., 2011).
 
 ## 7.2 Air, Tanah dan Batas Irigasi
 
@@ -1089,7 +1089,7 @@ Adaptasi di bidang pertanian memiliki menu yang telah teruji: varietas tahan pan
 
 ## 7.10 Sistem Pangan secara Keseluruhan
 
-Ketahanan pangan bukan hanya soal produksi. Ia bergantung pada penyimpanan, transportasi, pengolahan, ritel, dan limbah. Sekitar sepertiga pangan yang diproduksi hilang atau terbuang, dan mengurangi limbah itu setara dengan meningkatkan produksi tanpa menggunakan lebih banyak lahan atau air. Ia bergantung pada pola makan: sekitar sepertiga kalori tanaman digunakan untuk pakan ternak, dan pergeseran ke pola makan yang lebih sedikit daging di negara berpenghasilan tinggi akan membebaskan lahan dan air untuk pangan manusia.
+Ketahanan pangan bukan hanya soal produksi. Ia bergantung pada penyimpanan, transportasi, pengolahan, ritel, dan limbah. Sekitar sepertiga pangan yang diproduksi hilang atau terbuang, dan mengurangi limbah itu setara dengan meningkatkan produksi tanpa menggunakan lebih banyak lahan atau air. Ia bergantung pada pola makan: sekitar sepertiga kalori tanaman digunakan untuk pakan ternak, dan pergeseran ke pola makan yang lebih sedikit daging di negara berpenghasilan tinggi akan membebaskan lahan dan air untuk pangan manusia (FAO, 2022).
 
 Ia bergantung pada ekonomi politik pangan. Subsidi yang mendorong tanaman intensif air di wilayah kering, tarif yang melindungi produsen tidak efisien, dan sistem kepemilikan tanah yang mengecualikan petani kecil semuanya mengurangi kapasitas sistem untuk beradaptasi. Hambatannya jarang teknis; hambatannya kelembagaan dan distribusional, itulah sebabnya bab tentang tata kelola dan keadilan sama relevannya bagi pangan dengan bab tentang agronomi.
 
@@ -1097,7 +1097,7 @@ Poin terakhir adalah sistem pangan dan sistem iklim saling terkait. Pertanian, k
 
 Sistem pangan secara keseluruhan adalah korban perubahan iklim sekaligus penyumbangnya, bertanggung jawab atas sekitar seperempat hingga sepertiga emisi gas rumah kaca global bila penggunaan lahan, pupuk, ternak, transportasi, dan limbah dimasukkan. Peran ganda itu berarti reformasi sistem pangan sekaligus mitigasi dan adaptasi: mengurangi kehilangan dan limbah pangan menurunkan emisi serta menambah pasokan tersedia; bergeser ke pola makan lebih banyak tanaman mengurangi tekanan lahan; dan memperbaiki kesehatan tanah meningkatkan penyimpanan karbon sekaligus ketangguhan terhadap kekeringan.
 
-Pandangan sistemik bukan preferensi retoris; ia yang didukung bukti. Ketahanan pangan bergantung pada produksi, tetapi juga pada penyimpanan, transportasi, perdagangan, rantai dingin, kredit, kepemilikan tanah dan perlindungan sosial, dan kendala pengikat dalam sebagian besar krisis adalah salah satu yang terakhir alih-alih panennya sendiri. Krisis 2007–2008 menunjukkan bahwa gabah tersedia sementara orang kelaparan, dan krisis 2022 menunjukkan bahwa kebijakan dagang dapat menggantikan panen yang gagal. Sistem pangan yang tangguh karena itu adalah yang memiliki redundansi di setiap mata rantai, bukan yang memaksimalkan keluaran di satu titik.
+Pandangan sistemik bukan preferensi retoris; ia yang didukung bukti. Ketahanan pangan bergantung pada produksi, tetapi juga pada penyimpanan, transportasi, perdagangan, rantai dingin, kredit, kepemilikan tanah dan perlindungan sosial, dan kendala pengikat dalam sebagian besar krisis adalah salah satu yang terakhir alih-alih panennya sendiri (Wheeler & von Braun, 2013). Krisis 2007–2008 menunjukkan bahwa gabah tersedia sementara orang kelaparan, dan krisis 2022 menunjukkan bahwa kebijakan dagang dapat menggantikan panen yang gagal. Sistem pangan yang tangguh karena itu adalah yang memiliki redundansi di setiap mata rantai, bukan yang memaksimalkan keluaran di satu titik.
 
 ## 7.11 Studi Kasus: Guncangan Beras 2023
 
@@ -1309,7 +1309,7 @@ Pada 2024, Organisasi Kesehatan Pan Amerika mencatat lebih dari 12 juta kasus de
 
 Demam berdarah adalah salah satu contoh paling jelas penyakit yang sensitif iklim. Nyamuk Aedes aegypti yang menularkannya berkembang baik di kota yang hangat dan lembap, dan jangkauannya meluas seiring naiknya suhu. Virus bereplikasi lebih cepat di nyamuk yang lebih hangat, yang berarti nyamuk yang dahulu menjadi infektif setelah dua belas hari mungkin menjadi infektif setelah tujuh hari. Hasilnya adalah kota yang satu generasi lalu terlalu dingin untuk penularan berkelanjutan kini dapat mengalami wabah rutin.
 
-Dampak kesehatan perubahan iklim lebih luas daripada penyakit menular. Panas membunuh secara langsung dan tidak langsung; polusi udara dari asap kebakaran dan pembakaran bahan bakar fosil merusak paru dan jantung; kekeringan dan banjir mengurangi produksi pangan dan mengontaminasi air; dan peristiwa ekstrem mengganggu sistem kesehatan yang seharusnya merawat orang sakit. Organisasi Kesehatan Dunia memperkirakan bahwa perubahan iklim akan menyebabkan sekitar 250.000 kematian tambahan per tahun antara 2030 dan 2050 hanya dari panas, malnutrisi, malaria, dan diare, angka yang tidak memasukkan banyak jalur yang dibahas dalam bab ini.
+Dampak kesehatan perubahan iklim lebih luas daripada penyakit menular. Panas membunuh secara langsung dan tidak langsung; polusi udara dari asap kebakaran dan pembakaran bahan bakar fosil merusak paru dan jantung; kekeringan dan banjir mengurangi produksi pangan dan mengontaminasi air; dan peristiwa ekstrem mengganggu sistem kesehatan yang seharusnya merawat orang sakit (WHO, 2021). Organisasi Kesehatan Dunia memperkirakan bahwa perubahan iklim akan menyebabkan sekitar 250.000 kematian tambahan per tahun antara 2030 dan 2050 hanya dari panas, malnutrisi, malaria, dan diare, angka yang tidak memasukkan banyak jalur yang dibahas dalam bab ini.
 
 Bab ini membahas jalur-jalur itu, populasi yang paling terdampak, dan kapasitas sistem kesehatan untuk merespons. Bab ini memberi perhatian khusus pada perbedaan antara efek langsung, yang relatif mudah dikaitkan dengan gelombang panas atau banjir, dan efek tidak langsung, yang bekerja melalui ekosistem, sistem pangan, dan infrastruktur sehingga lebih sulit diukur tetapi sering lebih besar.
 
@@ -1345,7 +1345,7 @@ Banjir dan kekeringan sama-sama meningkatkan risiko penyakit bawaan air, melalui
 
 Banjir Pakistan 2022 menghasilkan lonjakan penyakit diare dan malaria, dan gempa Haiti 2010 serta wabah kolera berikutnya menunjukkan seberapa cepat pasokan air yang terkontaminasi dapat menjadi darurat nasional. Di wilayah yang terkena kekeringan, masalahnya sering bukan ketiadaan air melainkan kualitasnya: ketika sumber mengering, orang menggunakan air apa pun yang tersedia, termasuk air yang terkontaminasi limbah atau limpasan pertanian.
 
-Penyakit bawaan pangan juga sensitif iklim. Suhu yang lebih hangat meningkatkan laju pertumbuhan bakteri seperti Salmonella dan Campylobacter dalam makanan, dan banjir dapat mengontaminasi tanaman dengan patogen. Pusat Pencegahan dan Pengendalian Penyakit Eropa telah mendokumentasikan peningkatan infeksi bawaan pangan selama gelombang panas, dan risikonya tertinggi di negara dengan infrastruktur rantai dingin terbatas. Hasilnya adalah beban kesehatan yang jarang dikaitkan dengan iklim tetapi tetap merupakan bagian darinya.
+Penyakit bawaan pangan juga sensitif iklim. Suhu yang lebih hangat meningkatkan laju pertumbuhan bakteri seperti Salmonella dan Campylobacter dalam makanan, dan banjir dapat mengontaminasi tanaman dengan patogen (FAO, 2021). Pusat Pencegahan dan Pengendalian Penyakit Eropa telah mendokumentasikan peningkatan infeksi bawaan pangan selama gelombang panas, dan risikonya tertinggi di negara dengan infrastruktur rantai dingin terbatas. Hasilnya adalah beban kesehatan yang jarang dikaitkan dengan iklim tetapi tetap merupakan bagian darinya.
 
 Penyakit bawaan air dan pangan meningkat seiring suhu melalui beberapa mekanisme. Air yang lebih hangat mendukung pertumbuhan bakteri lebih cepat; hujan lebat menyapu patogen ke sumber air minum dan membebani sistem limbah; dan kekeringan memekatkan kontaminan di air yang tersisa. Kolera, tifus, dan penyakit diare pada anak menunjukkan pola ini, itulah sebabnya respons kesehatan terhadap banjir harus dimulai sebelum air surut, dengan klorinasi, rehidrasi oral, dan pengawasan wabah.
 
@@ -1413,7 +1413,7 @@ Kerentanan di dalam populasi mengikuti garis yang sudah dikenal. Orang lanjut us
 
 Peringatan dini adalah adaptasi kesehatan paling efektif. Sistem peringatan panas yang memicu pusat pendinginan, penjangkauan orang rentan, dan perubahan penjadwalan rumah sakit dapat mengurangi kematian secara substansial, seperti ditunjukkan pengalaman Ahmedabad. Sistem surveilans penyakit yang mendeteksi wabah lebih awal dapat menggerakkan pengendalian vektor dan pengobatan sebelum epidemi memuncak, dan prakiraan iklim dapat digunakan untuk memprediksi di mana kondisi mendukung penularan.
 
-Integrasi data iklim dan kesehatan membaik. Lancet Countdown menerbitkan indikator tahunan yang melacak paparan, kerentanan, dan adaptasi di seluruh negara, dan Organisasi Kesehatan Dunia telah mengembangkan kerangka pemantauan iklim dan kesehatan. Beberapa negara kini mengoperasikan sistem peringatan kesehatan-panas, dan sebagian mengembangkan sistem peringatan dini malaria yang menggunakan prakiraan curah hujan dan suhu untuk memprediksi wabah.
+Integrasi data iklim dan kesehatan membaik. Lancet Countdown menerbitkan indikator tahunan yang melacak paparan, kerentanan, dan adaptasi di seluruh negara, dan Organisasi Kesehatan Dunia telah mengembangkan kerangka pemantauan iklim dan kesehatan (Romanello et al., 2023). Beberapa negara kini mengoperasikan sistem peringatan kesehatan-panas, dan sebagian mengembangkan sistem peringatan dini malaria yang menggunakan prakiraan curah hujan dan suhu untuk memprediksi wabah.
 
 Celahnya ada pada pelaksanaan. Sistem peringatan hanya berguna jika mencapai orang yang berisiko dan jika mereka memiliki kapasitas untuk bertindak. Di banyak negara, peringatan dikeluarkan di tingkat nasional tetapi tidak diterjemahkan menjadi tindakan lokal; di negara lain, datanya ada tetapi tidak dibagikan antara lembaga kesehatan dan meteorologi. Menutup celah itu lebih merupakan soal koordinasi kelembagaan dan kepercayaan daripada teknologi.
 
@@ -1479,7 +1479,7 @@ Musim 2017 menggambarkan pola yang semakin umum. Kerusakan fisik hanyalah lapisa
 
 Ekonomi iklim telah berpindah dari pinggiran disiplin ke pusatnya karena kerusakannya tidak lagi hipotetis. Perkiraannya sangat beragam, tetapi konvergen pada satu kesimpulan: biaya kelambanan lebih besar daripada biaya tindakan, dan selisihnya tumbuh setiap tahun penundaan. Debatnya bukan lagi apakah harus bertindak, melainkan bagaimana mengalokasikan biaya, siapa yang menanggung risiko, dan bagaimana membiayai transisi.
 
-Bab ini membahas saluran ekonomi yang melaluinya perubahan iklim memengaruhi rumah tangga, perusahaan, dan negara. Bab ini membedakan kerusakan langsung dan kerugian tidak langsung, antara stok dan aliran, dan antara risiko yang dapat diasuransikan dan yang tidak. Bab ini ditutup dengan instrumen keuangan yang dapat membangun ketangguhan — dana cadangan, asuransi parametrik, obligasi bencana, dan neraca publik yang pada akhirnya menopang semuanya.
+Bab ini membahas saluran ekonomi yang melaluinya perubahan iklim memengaruhi rumah tangga, perusahaan, dan negara. Bab ini membedakan kerusakan langsung dan kerugian tidak langsung, antara stok dan aliran, dan antara risiko yang dapat diasuransikan dan yang tidak. Bab ini ditutup dengan instrumen keuangan yang dapat membangun ketangguhan — dana cadangan, asuransi parametrik, obligasi bencana, dan neraca publik yang pada akhirnya menopang semuanya (OECD, 2021).
 
 Ekonomi perubahan iklim telah bergerak dari bidang khusus menjadi pertanyaan sentral kebijakan makroekonomi, dan alasannya adalah kerugiannya tidak lagi hipotetis. Kerugian ekonomi global akibat bencana cuaca rata-rata beberapa ratus miliar dolar per tahun selama dekade terakhir, dan trennya naik lebih cepat daripada keluaran. Yang lebih penting, kerugiannya tidak terdistribusi merata: sebagian besar jatuh pada rumah tangga tanpa asuransi dan pada pemerintah yang harus mengalihkan anggaran dari pembangunan ke rekonstruksi.
 
@@ -1511,7 +1511,7 @@ Guncangan iklim terhadap produksi pangan menular ke ekonomi yang lebih luas mela
 
 Krisis harga pangan 2022 adalah contohnya (FAO, 2023). Perang di Ukraina adalah pemicu langsung, tetapi ia datang di atas rangkaian kegagalan panen terkait iklim di Eropa, Asia Selatan, dan Tanduk Afrika. Harga pangan naik lebih dari 20 persen secara global, dan kenaikannya paling besar di negara yang mengimpor sebagian besar kalorinya (FAO, 2023). Hasilnya adalah kenaikan kemiskinan dan penurunan kualitas pola makan yang bertahan setelah harga turun.
 
-Efek inflasinya bukan hanya masalah rumah tangga; ia masalah pemerintah. Subsidi pangan dan energi sulit dihapus secara politik dan mahal secara fiskal, dan cenderung membesar justru ketika pendapatan turun karena ekonomi menyusut. Hasilnya adalah beban fiskal prosiklikal yang dapat mengubah guncangan iklim menjadi krisis utang, terutama di negara dengan akses terbatas ke pasar modal internasional.
+Efek inflasinya bukan hanya masalah rumah tangga; ia masalah pemerintah. Subsidi pangan dan energi sulit dihapus secara politik dan mahal secara fiskal, dan cenderung membesar justru ketika pendapatan turun karena ekonomi menyusut. Hasilnya adalah beban fiskal prosiklikal yang dapat mengubah guncangan iklim menjadi krisis utang, terutama di negara dengan akses terbatas ke pasar modal internasional (IMF, 2022).
 
 Harga pangan menyalurkan guncangan iklim ke ekonomi dengan cara yang sulit diprediksi dan mudah meledak secara politik. Kekeringan menaikkan harga bahan pokok, yang menaikkan biaya hidup rumah tangga yang membelanjakan porsi besar pendapatannya untuk pangan, yang mengurangi permintaan barang lain dan dapat memicu tuntutan upah serta protes. Lonjakan harga 2007–2008 dan 2010–2011 menunjukkan seberapa cepat guncangan pangan dapat menjadi peristiwa makroekonomi dan politik, dan seberapa jauh efeknya menjalar dari wilayah tempat panen gagal.
 
@@ -1559,7 +1559,7 @@ Perkiraan yang lebih baru lebih besar. Studi 2024 di Nature menemukan bahwa jalu
 
 Perkiraannya berbeda karena menggunakan asumsi berbeda, tetapi berbagi satu kesimpulan: biaya kelambanan lebih besar daripada biaya tindakan, dan selisihnya tumbuh. Ekonomi perubahan iklim karena itu bukan terutama soal apakah harus bertindak, melainkan seberapa cepat, seberapa adil, dan seberapa efektif. Semakin lama penundaan, semakin besar risiko fisik dan semakin mendadak transisi yang dibutuhkan untuk menghindarinya.
 
-Biaya tanpa tindakan biasanya dinyatakan sebagai perbandingan antara biaya mengurangi emisi dan biaya kerugian yang dihindari, dan perbandingannya telah bergeser secara meyakinkan. Stern Review memperkirakan pada 2006 bahwa bertindak lebih awal akan menelan biaya sekitar 1 persen PDB per tahun sementara tanpa tindakan akan menelan 5–20 persen; sejak itu, biaya energi terbarukan turun satu orde besaran dan perkiraan kerugian naik. Berdasarkan bukti saat ini, pertanyaannya bukan lagi apakah tindakan lebih murah daripada tanpa tindakan, tetapi seberapa jauh lebih murah.
+Biaya tanpa tindakan biasanya dinyatakan sebagai perbandingan antara biaya mengurangi emisi dan biaya kerugian yang dihindari, dan perbandingannya telah bergeser secara meyakinkan. Stern Review memperkirakan pada 2006 bahwa bertindak lebih awal akan menelan biaya sekitar 1 persen PDB per tahun sementara tanpa tindakan akan menelan 5–20 persen; sejak itu, biaya energi terbarukan turun satu orde besaran dan perkiraan kerugian naik (Stern, 2007). Berdasarkan bukti saat ini, pertanyaannya bukan lagi apakah tindakan lebih murah daripada tanpa tindakan, tetapi seberapa jauh lebih murah.
 
 Biaya kelambanan telah diperkirakan berkali-kali, dan perkiraannya membesar seiring membaiknya metodologi. Studi 2024 di Nature oleh Kotz dan rekan-rekannya memproyeksikan kerugian iklim dapat mencapai sekitar tiga puluh delapan triliun dolar per tahun pada 2050 dengan tren emisi sekarang, setara bagian besar pendapatan global, dan bahwa kerugiannya tidak proporsional menimpa negara tropis dan berpendapatan rendah. Perkiraan sebelumnya lebih rendah karena mengabaikan titik kritis, efek produktivitas dan kerugian yang tak terwujud. Implikasi kebijakannya bukan bahwa angkanya presisi melainkan bahwa rentang perkiraan yang masuk akal telah bergerak jauh di atas biaya bertindak.
 
@@ -1672,7 +1672,7 @@ Peristiwa cepat mengungsikan jauh lebih banyak orang daripada peristiwa lambat, 
 
 Memperkirakan jumlah orang yang pindah karena perubahan iklim sulit karena iklim jarang menjadi satu-satunya penyebab. Peneliti menggunakan survei rumah tangga, data satelit tentang vegetasi dan curah hujan, serta model ekonometrik untuk mengidentifikasi pengaruh variabel iklim terhadap keputusan migrasi, dengan mengendalikan pendapatan, konflik, kepemilikan lahan, dan jaringan sosial. Perkiraannya sangat beragam, tetapi secara konsisten menemukan bahwa guncangan iklim meningkatkan migrasi, terutama dari daerah pedesaan dan terutama di antara rumah tangga yang bergantung pada pertanian.
 
-Laporan Groundswell Bank Dunia memperkirakan bahwa 216 juta orang dapat berpindah di dalam negaranya sendiri pada 2050 di enam wilayah di bawah skenario emisi tinggi, dengan sebagian besar perpindahan di Afrika Sub-Sahara, Asia Selatan, dan Amerika Latin. Laporan yang sama menemukan bahwa sebagian besar perpindahan dapat dihindari melalui adaptasi — irigasi, diversifikasi tanaman, perlindungan sosial, dan perencanaan kota — itulah sebabnya laporan itu dirumuskan sebagai seruan bertindak, bukan ramalan.
+Laporan Groundswell Bank Dunia memperkirakan bahwa 216 juta orang dapat berpindah di dalam negaranya sendiri pada 2050 di enam wilayah di bawah skenario emisi tinggi, dengan sebagian besar perpindahan di Afrika Sub-Sahara, Asia Selatan, dan Amerika Latin (World Bank, 2021). Laporan yang sama menemukan bahwa sebagian besar perpindahan dapat dihindari melalui adaptasi — irigasi, diversifikasi tanaman, perlindungan sosial, dan perencanaan kota — itulah sebabnya laporan itu dirumuskan sebagai seruan bertindak, bukan ramalan.
 
 Jumlah orang yang melintasi perbatasan internasional karena alasan iklim jauh lebih kecil, dan kemungkinan tetap demikian. Migrasi internasional mahal, membutuhkan dokumen dan jaringan, dan sering dihalangi kontrol perbatasan. Orang yang paling terpapar risiko iklim biasanya paling tidak mampu bermigrasi secara internasional, itulah sebabnya yang paling rentan sering tetap di tempat. Fenomena itu — imobilitas orang yang paling terpapar — adalah salah satu ciri migrasi iklim yang paling penting dan paling sedikit dibahas.
 
@@ -1814,7 +1814,7 @@ Hubungan antara iklim dan konflik adalah salah satu pertanyaan paling diperdebat
 
 ## 12.1 Apa yang Ditunjukkan Penelitian
 
-Literatur modern tentang iklim dan konflik dimulai dengan serangkaian studi kuantitatif yang menemukan hubungan statistik antara suhu dan kekerasan. Meta-analisis yang banyak dikutip oleh Hsiang, Burke, dan Miguel (2013) melaporkan bahwa setiap kenaikan satu standar deviasi suhu terkait dengan kenaikan 14 persen konflik antarkelompok dan 4 persen kekerasan antarpribadi, di seluruh studi yang mencakup banyak negara dan periode.
+Literatur modern tentang iklim dan konflik dimulai dengan serangkaian studi kuantitatif yang menemukan hubungan statistik antara suhu dan kekerasan. Meta-analisis yang banyak dikutip oleh Hsiang, Burke, dan Miguel (2013) melaporkan bahwa setiap kenaikan satu standar deviasi suhu terkait dengan kenaikan 14 persen konflik antarkelompok dan 4 persen kekerasan antarpribadi, di seluruh studi yang mencakup banyak negara dan periode (Hsiang & Burke, 2014).
 
 Temuan itu berpengaruh dan diperdebatkan. Kritikus, terutama Buhaug (2015), berargumen bahwa studi-studi itu menderita bias seleksi, bahwa mereka menggabungkan bentuk kekerasan yang sangat berbeda, dan bahwa ukuran efeknya kecil relatif terhadap faktor politik dan ekonomi. Karya berikutnya, termasuk tinjauan di Nature oleh Mach dkk. (2019), menyimpulkan bahwa iklim telah memengaruhi risiko konflik bersenjata di beberapa konteks tetapi bahwa buktinya paling kuat untuk kekerasan tingkat rendah dan paling lemah untuk perang sipil, serta bahwa keyakinan pada hubungan keseluruhan terbatas.
 
@@ -2138,7 +2138,7 @@ Apa yang dapat mengubah kesimpulan ini? Program investasi publik besar dapat men
 
 Pada 2019, Italia menjadi negara pertama yang menjadikan perubahan iklim dan pembangunan berkelanjutan sebagai mata pelajaran wajib di semua sekolah negeri. Undang-undang itu, yang berlaku pada tahun ajaran 2020–2021, mewajibkan sekitar tiga puluh tiga jam pendidikan iklim setiap tahun di setiap jenjang, dari sekolah dasar hingga menengah atas, terintegrasi ke dalam mata pelajaran yang ada alih-alih diajarkan sebagai mata pelajaran terpisah. Guru dilatih, materi dikembangkan, dan kementerian membingkai reformasi itu sebagai kewajiban kepada generasi berikutnya, bukan sebagai preferensi politik.
 
-Kasus Italia tidak biasa karena sebagian besar negara belum menjadikan pendidikan iklim wajib. Survei UNESCO menemukan bahwa hanya sekitar setengah kurikulum nasional yang menyebut perubahan iklim sama sekali, dan bahwa ketika disebutkan, ia sering terbatas pada satu mata pelajaran, diajarkan tanpa kaitan dengan kondisi lokal, dan dinilai dengan cara yang memberi imbalan pada hafalan alih-alih pemahaman. Hasilnya adalah banyak siswa meninggalkan sekolah tanpa pengetahuan yang mereka butuhkan untuk menafsirkan prakiraan cuaca, mengevaluasi klaim iklim, atau bersiap menghadapi bahaya.
+Kasus Italia tidak biasa karena sebagian besar negara belum menjadikan pendidikan iklim wajib (UNESCO, 2020). Survei UNESCO menemukan bahwa hanya sekitar setengah kurikulum nasional yang menyebut perubahan iklim sama sekali, dan bahwa ketika disebutkan, ia sering terbatas pada satu mata pelajaran, diajarkan tanpa kaitan dengan kondisi lokal, dan dinilai dengan cara yang memberi imbalan pada hafalan alih-alih pemahaman. Hasilnya adalah banyak siswa meninggalkan sekolah tanpa pengetahuan yang mereka butuhkan untuk menafsirkan prakiraan cuaca, mengevaluasi klaim iklim, atau bersiap menghadapi bahaya.
 
 Literasi iklim bukan sama dengan ilmu iklim. Ia mencakup pemahaman mekanisme dasar, tetapi juga kemampuan membaca grafik, menafsirkan ketidakpastian, mengidentifikasi sumber yang dapat dipercaya, dan menghubungkan tren global dengan kondisi lokal. Ia mencakup pengetahuan praktis — apa yang harus dilakukan selama gelombang panas, bagaimana menyimpan air, bagaimana membaca peta banjir — dan mencakup kecenderungan untuk bertindak berdasarkan pengetahuan itu alih-alih mengabaikannya.
 
@@ -2392,7 +2392,7 @@ Pembaca dapat menerapkan empat pemeriksaan. Pertama, apa garis dasar atau period
 
 Komunikasi ilmiah yang sah memiliki konvensi sendiri yang bisa tampak seperti kelemahan. Batang kesalahan, rentang, dan bahasa bersyarat adalah tanda kehati-hatian, bukan penghindaran. Ilmuwan yang mengatakan suatu hasil mungkin terjadi dalam skenario tertentu sedang bersikap presisi; komentator yang mengatakan itu pasti sedang bersikap ceroboh atau tidak jujur. Belajar membaca bahasa yang berhati-hati sebagai tanda ketelitian adalah salah satu keterampilan paling berguna yang dapat diperoleh warga.
 
-Literasi grafik adalah pertahanan yang dapat diajarkan dalam satu jam. Manipulasi yang umum hanya sedikit: sumbu vertikal terpotong yang membuat perubahan kecil tampak dramatis, sumbu ganda yang menyiratkan hubungan antara deret yang tidak berhubungan, grafik kumulatif yang harus naik, dan jendela waktu yang dipilih-pilih. Kontroversi 'hockey stick' pada 2000-an instruktif karena rekonstruksi itu diperiksa National Research Council pada 2006, yang menemukan kesimpulan luasnya sehat dan ketidakpastian statistiknya diremehkan. Kedua bagian temuan itu benar, dan sebagian besar diskusi publik hanya menyimpan satu.
+Literasi grafik adalah pertahanan yang dapat diajarkan dalam satu jam. Manipulasi yang umum hanya sedikit: sumbu vertikal terpotong yang membuat perubahan kecil tampak dramatis, sumbu ganda yang menyiratkan hubungan antara deret yang tidak berhubungan, grafik kumulatif yang harus naik, dan jendela waktu yang dipilih-pilih. Kontroversi 'hockey stick' pada 2000-an instruktif karena rekonstruksi itu diperiksa National Research Council pada 2006, yang menemukan kesimpulan luasnya sehat dan ketidakpastian statistiknya diremehkan (Mann et al., 1999). Kedua bagian temuan itu benar, dan sebagian besar diskusi publik hanya menyimpan satu.
 
 ## 15.8 Prabantahan, Bantahan dan Inokulasi
 
@@ -2806,7 +2806,7 @@ Rantai peringatan telah bekerja sebagian. Layanan meteorologi Jerman mengeluarka
 
 Banjir Lembah Ahr adalah kasus tentang tata kelola, bukan meteorologi. Curah hujannya ekstrem tetapi tidak tak terbayangkan; model telah memperingatkan bahwa peristiwa semacam itu menjadi lebih mungkin. Yang gagal adalah rantai yang menghubungkan prakiraan ke keputusan, keputusan ke peringatan, dan peringatan ke rumah tangga yang bertindak. Setiap mata rantai dalam rantai itu adalah institusi, dan institusi dapat dirancang dengan baik atau buruk.
 
-Bab ini membahas infrastruktur sosial dan politik untuk bertahan hidup: jaringan yang membantu tetangga, institusi yang mengeluarkan peringatan dan mengorganisasi respons, serta pengaturan tata kelola yang menentukan apakah perlindungan menjangkau orang yang membutuhkannya. Bab ini berargumen bahwa modal sosial dan institusi publik bukan alternatif melainkan saling melengkapi, dan bahwa kualitas tata kelola adalah salah satu prediktor terkuat berapa banyak orang meninggal ketika bahaya melanda.
+Bab ini membahas infrastruktur sosial dan politik untuk bertahan hidup: jaringan yang membantu tetangga, institusi yang mengeluarkan peringatan dan mengorganisasi respons, serta pengaturan tata kelola yang menentukan apakah perlindungan menjangkau orang yang membutuhkannya. Bab ini berargumen bahwa modal sosial dan institusi publik bukan alternatif melainkan saling melengkapi, dan bahwa kualitas tata kelola adalah salah satu prediktor terkuat berapa banyak orang meninggal ketika bahaya melanda (Aldrich & Meyer, 2015).
 
 Respons bencana biasanya dibayangkan sebagai struktur komando, dan dalam praktik ia adalah jaringan. Orang yang menarik tetangga dari reruntuhan, berbagi genset, membuka dapur umum dan menyebarkan peringatan tidak mengikuti bagan komando insiden; mereka bertindak atas hubungan yang sudah ada sebelum peristiwa. Modal sosial adalah aset ketahanan termurah dan paling sulit dibeli, karena ia dihasilkan oleh pergaulan biasa selama bertahun-tahun dan dihancurkan dengan cepat oleh perpindahan, ketakutan dan ketidaksetaraan.
 
@@ -2814,7 +2814,7 @@ Respons bencana biasanya dibayangkan sebagai struktur komando, dan dalam praktik
 
 Modal sosial merujuk pada jaringan, norma, dan kepercayaan yang memungkinkan orang bertindak bersama. Ia bukan metafora: ia dapat diukur, dan ia memprediksi hasil. Sosiolog membedakan modal perekat, yang menghubungkan orang yang serupa dan dekat, modal penjembatan, yang menghubungkan orang lintas kelompok berbeda, dan modal penghubung, yang menghubungkan warga dengan institusi yang memiliki kekuasaan. Masing-masing berperan berbeda dalam bencana.
 
-Modal perekat memberikan bantuan segera: tetangga yang memeriksa warga lanjut usia, keluarga yang berbagi air, jemaah yang membuka aula. Modal penjembatan memberikan akses ke sumber daya di luar lingkaran langsung: kelompok komunitas yang tahu cara mengajukan bantuan, jaringan yang dapat memobilisasi relawan. Modal penghubung menentukan apakah komunitas dapat memengaruhi institusi yang memutuskan di mana tanggul dibangun dan siapa yang menerima kompensasi.
+Modal perekat memberikan bantuan segera: tetangga yang memeriksa warga lanjut usia, keluarga yang berbagi air, jemaah yang membuka aula. Modal penjembatan memberikan akses ke sumber daya di luar lingkaran langsung: kelompok komunitas yang tahu cara mengajukan bantuan, jaringan yang dapat memobilisasi relawan (Cutter et al., 2008). Modal penghubung menentukan apakah komunitas dapat memengaruhi institusi yang memutuskan di mana tanggul dibangun dan siapa yang menerima kompensasi (Berkes & Ross, 2013).
 
 Daniel Aldrich, dalam rangkaian studi tentang pemulihan bencana di Jepang, India, dan Amerika Serikat, menemukan bahwa modal sosial memprediksi pemulihan lebih baik daripada pendapatan, kerusakan, atau belanja pemerintah. Komunitas dengan jaringan padat pulih lebih cepat karena mereka dapat berbagi informasi, mengalokasikan sumber daya, dan menuntut akuntabilitas institusi. Temuan itu penting karena menunjukkan bahwa ketangguhan tidak hanya dibeli dengan uang; ia juga dibangun melalui hubungan.
 
@@ -2912,7 +2912,7 @@ Bahaya iklim tidak mengenal batas. Badai melintasi garis pantai, sungai mengalir
 
 Kerja sama internasional paling efektif ketika mendukung institusi lokal alih-alih menggantikannya. Respons yang dikelola eksternal sering datang terlambat, lebih mahal, dan meninggalkan sedikit kapasitas. Grand Bargain, seperangkat komitmen untuk memperbaiki pembiayaan kemanusiaan, menekankan lokalisasi karena alasan ini, meskipun kemajuannya lambat.
 
-Pembiayaan iklim juga merupakan bentuk tata kelola. Komitmen negara kaya untuk menyediakan US$100 miliar per tahun dalam pembiayaan iklim telah dipenuhi terlambat dan tidak merata, dan porsi adaptasi tetap jauh di bawah kebutuhan negara rentan. Celah itu bukan hanya soal uang; ia soal kepercayaan, karena negara yang berjanji dan tidak menepati memiliki kredibilitas lebih rendah ketika meminta kerja sama dalam emisi.
+Pembiayaan iklim juga merupakan bentuk tata kelola. Komitmen negara kaya untuk menyediakan US$100 miliar per tahun dalam pembiayaan iklim telah dipenuhi terlambat dan tidak merata, dan porsi adaptasi tetap jauh di bawah kebutuhan negara rentan (OECD, 2023). Celah itu bukan hanya soal uang; ia soal kepercayaan, karena negara yang berjanji dan tidak menepati memiliki kredibilitas lebih rendah ketika meminta kerja sama dalam emisi.
 
 Kerja sama regional penting karena bahaya tidak menghormati perbatasan dan karena negara kecil tidak dapat memikul biayanya sendiri. Perjanjian ASEAN tentang Penanggulangan Bencana dan Respons Darurat membentuk kerangka respons bersama dan pengaturan pasokan bantuan siaga, meskipun aktivasinya terbatas oleh prinsip non-intervensi asosiasi. Kerangka Sendai, yang diadopsi pada 2015, mengalihkan perhatian global dari respons bencana ke pengurangan risiko dan menetapkan target untuk mortalitas, populasi terdampak dan kerugian ekonomi, tetapi indikatornya bergantung pada pelaporan nasional yang tidak merata kualitas dan cakupannya (UNDRR, 2015).
 
@@ -2928,7 +2928,7 @@ Pembelajaran adalah persyaratan terakhir. Institusi yang memperlakukan setiap be
 
 Gagasan yang paling menggambarkan cara kerja ketahanan sebenarnya adalah tata kelola polisentris, yang dikembangkan Elinor Ostrom: banyak pusat pengambilan keputusan, secara formal independen, yang menyesuaikan diri melalui pembelajaran timbal balik alih-alih melalui satu hierarki. Sistem polisentris lebih berantakan daripada sistem komando dan lebih adaptif, karena kegagalan di satu simpul tidak merambat ke semua. Implikasi desainnya bukan menghapus otoritas pusat melainkan memastikan rumah tangga, lingkungan, kotamadya, provinsi dan lembaga nasional masing-masing memiliki kapasitas nyata dan batas yang jelas, dan bahwa informasi mengalir di antara mereka dalam dua arah.
 
-Tata kelola adaptif adalah istilah yang menggambarkan bagaimana sistem polisentris belajar, dan temuan sentralnya adalah pembelajaran terjadi melalui organisasi penjembatan. Folke dan rekan-rekannya menggambarkannya sebagai entitas yang menghubungkan pengalaman lokal ke tingkat pengambilan keputusan lebih tinggi, dan dalam konteks bencana ia sering berupa LSM, pusat universitas atau asosiasi profesi. Jembatan itu penting karena pengetahuan lokal tidak naik dengan sendirinya, dan kebijakan nasional tidak turun tanpa penerjemahan. Di tempat jembatannya tidak ada, kesalahan yang sama berulang di setiap kotamadya, dan evaluasi tidak pernah terakumulasi melampaui laporan lokal.
+Tata kelola adaptif adalah istilah yang menggambarkan bagaimana sistem polisentris belajar, dan temuan sentralnya adalah pembelajaran terjadi melalui organisasi penjembatan (Folke et al., 2010). Folke dan rekan-rekannya menggambarkannya sebagai entitas yang menghubungkan pengalaman lokal ke tingkat pengambilan keputusan lebih tinggi, dan dalam konteks bencana ia sering berupa LSM, pusat universitas atau asosiasi profesi. Jembatan itu penting karena pengetahuan lokal tidak naik dengan sendirinya, dan kebijakan nasional tidak turun tanpa penerjemahan. Di tempat jembatannya tidak ada, kesalahan yang sama berulang di setiap kotamadya, dan evaluasi tidak pernah terakumulasi melampaui laporan lokal.
 
 ## 18.11 Studi Kasus: Banjir Lembah Ahr, Jerman 2021
 
@@ -2998,7 +2998,7 @@ Argumen ketahanan untuk energi terbarukan paling kuat di tempat alternatifnya ad
 
 Modul fotovoltaik surya telah mengikuti penurunan biaya tercepat dari teknologi energi mana pun dalam sejarah. Harga modul turun sekitar 90 persen antara 2010 dan 2023, dari lebih dari satu dolar per watt menjadi sekitar dua puluh sen, dan biaya sistem terpasang turun hampir secepat itu. Penurunan didorong skala manufaktur, pembelajaran sambil bekerja, dan persaingan, dan ia mengubah surya dari teknologi ceruk menjadi sumber listrik baru termurah di banyak pasar.
 
-Penyebaran mengikuti harga. Kapasitas surya global melewati satu terawatt pada 2022 dan terus tumbuh pada tingkat rekor, dengan penambahan tahunan melebihi 400 gigawatt pada 2023 dan terus meningkat. Tiongkok menyumbang porsi terbesar baik manufaktur maupun instalasi, tetapi pertumbuhannya menyebar ke India, Amerika Serikat, Eropa, Brasil, dan Timur Tengah. Di banyak negara, surya kini memasok porsi signifikan listrik siang hari.
+Penyebaran mengikuti harga. Kapasitas surya global melewati satu terawatt pada 2022 dan terus tumbuh pada tingkat rekor, dengan penambahan tahunan melebihi 400 gigawatt pada 2023 dan terus meningkat (IRENA, 2023). Tiongkok menyumbang porsi terbesar baik manufaktur maupun instalasi, tetapi pertumbuhannya menyebar ke India, Amerika Serikat, Eropa, Brasil, dan Timur Tengah. Di banyak negara, surya kini memasok porsi signifikan listrik siang hari.
 
 Teknologinya memiliki batas. Surya hanya memproduksi pada siang hari, sehingga memerlukan penyimpanan atau pembangkit pelengkap untuk memenuhi permintaan malam; keluarannya bervariasi dengan cuaca dan musim; dan ia memerlukan lahan atau ruang atap. Pada musim dingin lintang tinggi, keluarannya dapat turun tajam. Batas itu dapat dikelola dengan penyimpanan, transmisi, dan pembangkit yang terdiversifikasi, tetapi berarti surya saja bukan sistem yang lengkap. Tantangan integrasi, bukan biaya pembangkit, kini menjadi kendala utama.
 
@@ -3189,7 +3189,7 @@ Kaitan kekeringan dan bunuh diri adalah salah satu temuan paling sensitif secara
 
 ## 20.4 Panas dan Penyakit Mental
 
-Panas memengaruhi kesehatan mental secara langsung dan tidak langsung. Secara langsung, suhu tinggi terkait dengan mudah tersinggung, agresi, gangguan kognisi, dan memburuknya gejala pada orang dengan gangguan psikotik. Secara tidak langsung, panas mengganggu tidur, meningkatkan penggunaan zat, dan mengurangi kapasitas bekerja, yang semuanya memengaruhi kesejahteraan mental.
+Panas memengaruhi kesehatan mental secara langsung dan tidak langsung. Secara langsung, suhu tinggi terkait dengan mudah tersinggung, agresi, gangguan kognisi, dan memburuknya gejala pada orang dengan gangguan psikotik (Obradovich et al., 2018). Secara tidak langsung, panas mengganggu tidur, meningkatkan penggunaan zat, dan mengurangi kapasitas bekerja, yang semuanya memengaruhi kesejahteraan mental.
 
 Dimensi farmakologis sering terlewat. Banyak obat psikiatri — antipsikotik, antidepresan, litium — mengganggu kemampuan tubuh mengatur suhu, meningkatkan risiko kelelahan panas dan sengatan panas. Orang yang mengonsumsi obat ini memerlukan nasihat spesifik tentang hidrasi, pendinginan, dan pemantauan selama gelombang panas, dan klinisi perlu memasukkan risiko panas dalam keputusan peresepan.
 
@@ -3291,7 +3291,7 @@ Pascabanjir Kerala 2018 menghasilkan eksperimen alami yang instruktif dalam kese
 
 Rekaman historis menunjukkan bahwa konsekuensi kesehatan mental bencana besar, persisten, dan kurang terukur. Studi setelah peristiwa besar secara konsisten menemukan tingkat stres pascatrauma, depresi, dan kecemasan yang tinggi, dan efeknya dapat bertahan bertahun-tahun. Seiring bahaya iklim menjadi lebih sering dan parah, beban kumulatifnya kemungkinan tumbuh, terutama di wilayah yang mengalami peristiwa berulang.
 
-Kondisi sekarang menetapkan garis dasar. Layanan kesehatan mental kurang didanai dan kurang tenaga di sebagian besar negara, dan celah pengobatan melebihi 75 persen di banyak lingkungan berpenghasilan rendah. Permintaan sudah meningkat: survei terhadap orang muda menemukan kecemasan yang luas, dan komunitas terdampak bencana melaporkan kenaikan kebutuhan yang berkelanjutan. Pada saat yang sama, stigma menurun di banyak tempat, yang dapat meningkatkan permintaan lebih jauh.
+Kondisi sekarang menetapkan garis dasar. Layanan kesehatan mental kurang didanai dan kurang tenaga di sebagian besar negara, dan celah pengobatan melebihi 75 persen di banyak lingkungan berpenghasilan rendah (Clayton, 2020). Permintaan sudah meningkat: survei terhadap orang muda menemukan kecemasan yang luas, dan komunitas terdampak bencana melaporkan kenaikan kebutuhan yang berkelanjutan. Pada saat yang sama, stigma menurun di banyak tempat, yang dapat meningkatkan permintaan lebih jauh.
 
 Asumsi di balik proyeksi adalah frekuensi bahaya, ketersediaan layanan, dan kekuatan dukungan sosial. Dunia yang berinvestasi dalam kesehatan mental berbasis komunitas, mengintegrasikan dukungan psikososial ke dalam respons bencana, dan menangani pendorong material tekanan dapat membatasi bebannya; dunia yang tidak akan melihat sistem kesehatan mental kewalahan. Tabel merangkum rentangnya.
 
@@ -3322,7 +3322,7 @@ Kontribusi Pakistan terhadap emisi gas rumah kaca kumulatif global kurang dari s
 
 Banjir itu bertepatan dengan persiapan Konferensi Para Pihak kedua puluh tujuh di Sharm el-Sheikh, tempat pertanyaan kerugian dan kerusakan telah lama ada dalam agenda tanpa penyelesaian. Pada konferensi itu, para pihak sepakat mendirikan dana untuk menangani kerugian dan kerusakan, tuntutan yang pertama kali diajukan negara pulau kecil pada 1991 (UNEP, 2023). Itu keputusan bersejarah, dan juga keputusan yang belum lengkap: dana dibentuk, tetapi skalanya, kontributor, dan aturannya diserahkan pada perundingan berikutnya.
 
-Bab ini membahas tata kelola perubahan iklim melalui lensa keadilan: siapa yang bertanggung jawab atas emisi, siapa yang menanggung kerugian, dan institusi apa yang ada untuk mendistribusikan biaya serta memulihkan ketidakadilan. Bab ini mencakup tanggung jawab historisd, kerugian dan kerusakan, litigasi, transisi yang adil, dimensi adat dan gender, partisipasi orang muda, serta reformasi institusi internasional. Argumennya adalah bahwa kebijakan iklim tanpa teori keadilan bukan hanya tidak adil tetapi tidak efektif, karena kesepakatan tentang pembagian beban itulah yang memungkinkan kerja sama.
+Bab ini membahas tata kelola perubahan iklim melalui lensa keadilan: siapa yang bertanggung jawab atas emisi, siapa yang menanggung kerugian, dan institusi apa yang ada untuk mendistribusikan biaya serta memulihkan ketidakadilan. Bab ini mencakup tanggung jawab historisd, kerugian dan kerusakan, litigasi, transisi yang adil, dimensi adat dan gender, partisipasi orang muda, serta reformasi institusi internasional. Argumennya adalah bahwa kebijakan iklim tanpa teori keadilan bukan hanya tidak adil tetapi tidak efektif, karena kesepakatan tentang pembagian beban itulah yang memungkinkan kerja sama (Schlosberg, 2007).
 
 Perubahan iklim adalah masalah keadilan sebelum menjadi masalah teknis, karena orang yang paling sedikit mengemisi paling banyak terpapar, dan karena obatnya — mengakhiri penggunaan bahan bakar fosil, mengubah tata guna lahan, membayar kerugian — mendistribusikan biaya dan manfaat dengan cara yang tidak dirancang untuk dikelola institusi yang ada. Memperlakukan keadilan sebagai renungan susulan menghasilkan kebijakan yang efisien secara teknis dan rapuh secara politik; memperlakukannya sebagai kendala desain menghasilkan kebijakan yang benar-benar dapat dilaksanakan.
 
@@ -4164,9 +4164,13 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 
 ## Karya yang Dikutip
 
+- Adger, W.N. 2006. Vulnerability. *Global Environmental Change* 16(3): 268–281.
 - Albrecht, G. 2005. Solastalgia: A new concept in health and identity. *PAN: Philosophy Activism Nature* 3: 44–59.
+- Aldrich, D.P. & Meyer, M.A. 2015. Social capital and community resilience. *American Behavioral Scientist* 59(2): 254–269.
 - Armstrong McKay, D.I. dkk. 2022. Exceeding 1.5°C global warming could trigger multiple climate tipping points. *Science* 377(6611): eabn7950.
+- Arrhenius, S. 1896. On the influence of carbonic acid in the air upon the temperature of the ground. *Philosophical Magazine* 41(251): 237–276.
 - Ballester, J. dkk. 2023. Heat-related mortality in Europe during the summer of 2022. *Nature Medicine* 29: 1857–1866.
+- Berkes, F. & Ross, H. 2013. Community resilience: toward an integrated approach. *Society & Natural Resources* 26(1): 5–20.
 - Brunkard, J., Namulanda, G. & Ratard, R. 2008. Hurricane Katrina deaths, Louisiana, 2005. *Disaster Medicine and Public Health Preparedness* 2(4): 215–223.
 - Buhaug, H. 2015. Climate-conflict research: some reflections on the way forward. *WIREs Climate Change* 6(3): 269–275.
 - Caesar, L. dkk. 2021. Current Atlantic meridional overturning circulation weakest in last millennium. *Nature Geoscience* 14: 118–120.
@@ -4178,25 +4182,38 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 - CIFFC. 2023. *National wildland fire situation report 2023*. Canadian Interagency Forest Fire Centre, Winnipeg.
 - Cissé, Gilbert dkk. 2022. *Health, Wellbeing and the Changing Structure of Communities*. IPCC AR6 WG2 Chapter 7. Cambridge University Press.
 - Clarke, B. dkk. 2022. Extreme weather impacts of climate change: an attribution perspective. *Environmental Research: Climate* 1(1): 012001.
+- Clayton, S. 2020. Climate anxiety: Psychological responses to climate change. *Journal of Anxiety Disorders* 74: 102263.
 - Cook, John dkk. 2013. Quantifying the consensus on anthropogenic global warming. *Environmental Research Letters* 8(2): 024024.
+- Cutter, S.L. dkk. 2008. A place-based model for understanding community resilience. *Global Environmental Change* 18(4): 598–606.
 - de Waal, A. 1997. *Famine Crimes: Politics and the Disaster Relief Industry in Africa*. James Currey, Oxford.
+- Dessler, Andrew. 2021. *Introduction to Modern Climate Change*. Cambridge University Press.
 - Doran, P.T. & Zimmerman, M.K. 2009. Examining the scientific consensus on climate change. *EOS* 90(3): 22–23.
 - Ebi, K.L. dkk. 2021. Hot weather and heat extremes: health risks. *The Lancet* 398(10301): 698–708.
+- FAO. 2021. *Climate Change: Unpacking the Burden on Food Safety*. FAO, Rome.
+- FAO. 2022. *The State of the World's Land and Water Resources (SOLAW 2021)*. FAO, Rome.
 - FAO. 2023. *The State of Food Security and Nutrition in the World*. FAO, Rome.
 - FERC & NERC. 2021. *The February 2021 cold weather outages in Texas and the South Central United States*. Federal Energy Regulatory Commission, Washington DC.
+- Folke, C. dkk. 2010. Resilience thinking. *Ecology and Society* 15(4): 20.
 - Friedlingstein, P. dkk. 2024. Global Carbon Budget 2024. *Earth System Science Data*.
 - Friedlingstein, Pierre dkk. 2023. *Global Carbon Budget 2023: carbon cycle and sinks*. Earth System Science Data.
 - Galea, S., Nandi, A. & Vlahov, D. 2005. The epidemiology of post-traumatic stress disorder after disasters. *Epidemiologic Reviews* 27(1): 78–91.
 - Gleick, Peter H. 2023. *Water, Climate and Governance Crises*. Pacific Institute, Oakland.
+- Haigh, Joanna D. 2020. *Solar Variability and Climate*. Imperial College Press.
 - Hanigan, I.C. dkk. 2012. Suicide and drought in New South Wales, Australia, 1970–2007. *PNAS* 109(35): 13950–13955.
+- Hausfather, Zeke dkk. 2023. *Berkeley Earth Global Temperature Report 2023*. Berkeley Earth.
 - Hersbach, H. dkk. 2020. The ERA5 global reanalysis. *Quarterly Journal of the Royal Meteorological Society* 146(730): 1999–2049.
 - Hess, J.J. dkk. 2018. Building resilience to climate change: pilot evaluation of the impact of India's first heat action plan on all-cause mortality. *Journal of Environmental and Public Health* 2018: 7973519.
 - Hickman, C. dkk. 2021. *Climate anxiety in children and young people*. The Lancet Planetary Health 5(12): e863–e873.
+- Howden, S.M. dkk. 2007. Adapting agriculture to climate change. *PNAS* 104(50): 19691–19696.
+- Hsiang, S.M. & Burke, M. 2014. Climate, conflict, and social stability. *Climatic Change* 123: 39–55.
 - Hsiang, S.M., Burke, M. & Miguel, E. 2013. Quantifying the influence of climate on human conflict. *Science* 341(6151): 1235367.
 - IEA. 2023. *World Energy Outlook 2023*. International Energy Agency, Paris.
 - IFRC. 2022. *World Disasters Report 2022*. IFRC, Geneva.
 - ILO. 2019. *Working on a warmer planet: the impact of heat stress on labour productivity and decent work*. ILO, Geneva.
+- IMBIE. 2018. Mass balance of the Antarctic Ice Sheet from 1992 to 2017. *Nature* 558: 219–222.
+- IMF. 2022. *World Economic Outlook: War Sets Back Global Recovery*. IMF, Washington DC.
 - IPBES. 2019. *Global Assessment Report on Biodiversity and Ecosystem Services*. IPBES Secretariat, Bonn.
+- IPCC. 2018. *Global Warming of 1.5 C (SR15)*. IPCC, Geneva.
 - IPCC. 2019a. *Climate Change and Land (SRCCL)*. IPCC, Geneva.
 - IPCC. 2019b. *Special Report on the Ocean and Cryosphere in a Changing Climate (SROCC)*. IPCC, Geneva.
 - IPCC. 2021. *Climate Change 2021: The Physical Science Basis (AR6 WG1)*. Cambridge University Press.
@@ -4211,38 +4228,60 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 - Kotz, M., Levermann, A. & Wenz, L. 2024. The economic commitment of climate change. *Nature* 628: 551–557.
 - Kreienkamp, F. dkk. 2021. *Rapid attribution of heavy rainfall events leading to the severe flooding in Western Europe during July 2021*. World Weather Attribution.
 - Kulp, S.A. & Strauss, B.H. 2019. New elevation data triple estimates of global vulnerability to sea-level rise. *Nature Communications* 10: 4844.
+- Le Quéré, Corinne dkk. 2023. Global Carbon Budget 2023. *Earth System Science Data* 15(12): 5301–5369.
 - Lenssen, N.J.L. dkk. 2019. Improvements in the GISTEMP uncertainty model. *Journal of Geophysical Research: Atmospheres* 124(12): 6307–6326.
 - Lenton, T.M. dkk. 2008. Tipping elements in the Earth's climate system. *PNAS* 105(6): 1786–1793.
 - Lindell, M.K. & Perry, R.W. 2012. The protective action decision model: theoretical modifications and additional evidence. *Risk Analysis* 32(4): 616–632.
+- Lobell, D.B., Schlenker, W. & Costa-Roberts, J. 2011. Climate trends and global crop production since 1980. *Science* 333(6042): 616–620.
 - Lynas, M. dkk. 2021. Greater than 99% consensus on human caused climate change in the peer-reviewed scientific literature. *Environmental Research Letters* 16(11): 114005.
 - Mach, K.J. dkk. 2019. Climate as a risk factor for armed conflict. *Nature* 571: 193–197.
+- Mann, M.E., Bradley, R.S. & Hughes, M.K. 1999. *Northern Hemisphere temperatures during the past millennium*. Geophys. Res. Lett., 26(6), 759-762 (hockey stick).
 - Morice, C.P. dkk. 2021. *An updated assessment of near-surface temperature change from 1850: the HadCRUT5 dataset*. Journal of Geophysical Research: Atmospheres 126(3): e2019JD032361.
 - NOAA. 2024. *State of the Climate*. ncei.noaa.gov.
+- NOAA. 2025. *Trends in Atmospheric Carbon Dioxide*. Global Monitoring Laboratory, Boulder.
 - Notz, D. & Stroeve, J. 2016. Observed Arctic sea-ice loss directly follows anthropogenic CO2 emission. *Science* 354(6313): 747–750.
+- Obradovich, N. dkk. 2018. Empirical evidence of mental health risks posed by climate change. *PNAS* 115(43): 10953–10958.
+- OECD. 2021. *Managing Climate Risks, Facing Essential Challenges*. OECD, Paris.
+- OECD. 2023. *Climate Finance Provided and Mobilised by Developed Countries*. OECD, Paris.
+- Otto, F.E.L. dkk. 2021. *Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change*. World Weather Attribution.
 - Philip, S.Y. dkk. 2022. Rapid attribution analysis of the extraordinary heatwave on the Pacific coast of the US and Canada in June 2021. *Earth System Dynamics* 13: 1689–1713.
+- Red Cross. 2020. *Heat Waves: A Silent Killer*. IFRC, Geneva.
 - Robine, J.-M. dkk. 2008. Death toll exceeded 70,000 in Europe during the summer of 2003. *Comptes Rendus Biologies* 331(2): 171–178.
 - Rohde, R.A. & Hausfather, Z. 2020. The Berkeley Earth land/ocean temperature record. *Earth System Science Data* 12: 3469–3479.
+- Romanello, M. dkk. 2023. The 2023 report of the Lancet Countdown. *The Lancet* 402(10419): 2346–2394.
 - Romanello, M. dkk. 2024. The 2024 report of the Lancet Countdown on health and climate change. *The Lancet* 404(10465): 1847–1896.
+- Schlosberg, D. 2007. *Defining Environmental Justice: Theories, Movements, and Nature*. Oxford University Press.
 - Selby, J. dkk. 2017. Climate change and the Syrian civil war revisited. *Political Geography* 60: 232–244.
 - Sen, A. 1981. *Poverty and Famines: An Essay on Entitlement and Deprivation*. Oxford University Press.
 - Shepherd, A. dkk. 2020. Mass balance of the Greenland Ice Sheet from 1992 to 2018. *Nature* 579: 233–239.
 - Sherwood, S.C. & Huber, M. 2010. An adaptability limit to climate change due to heat stress. *PNAS* 107(21): 9552–9555.
+- Steffen, W. dkk. 2018. Trajectories of the Earth System in the Anthropocene. *PNAS* 115(33): 8252–8259.
+- Stern, N. 2007. *The Economics of Climate Change: The Stern Review*. Cambridge University Press.
 - Stott, P.A., Stone, D.A. & Allen, M.R. 2004. Human contribution to the European heatwave of 2003. *Nature* 432: 610–614.
 - Trenberth, K.E., Fasullo, J.T. & Kiehl, J. 2009. Earth's global energy budget. *Bulletin of the American Meteorological Society* 90(3): 311–323.
+- Tyndall, J. 1861. The Bakerian Lecture: on the absorption and radiation of heat by gases and vapours. *Philosophical Transactions of the Royal Society* 151: 1–36.
 - UNDRR. 2015. *Sendai Framework for Disaster Risk Reduction 2015-2030*. UNDRR, Geneva.
 - UNDRR. 2022. *Global Assessment Report on Disaster Risk Reduction 2022: Our World at Risk*. UNDRR, Geneva.
 - UNDRR. 2023. *Global Assessment Report on Disaster Risk Reduction 2023: Mapping Resilience for the Sustainable Development Goals*. UNDRR, Geneva.
+- UNEP. 2022. *Emissions Gap Report 2022*. UNEP, Nairobi.
 - UNEP. 2023. *Adaptation Gap Report 2023*. UNEP, Nairobi.
+- UNESCO. 2020. *Education for Sustainable Development: A Roadmap*. UNESCO, Paris.
 - UNESCO. 2021. *Getting Every School Climate-Ready*. UNESCO, Paris.
 - UNHCR. 2023. *Climate Change and Displacement*. unhcr.org.
+- United Nations. 2015a. *2030 Agenda for Sustainable Development*. UN, New York.
+- United Nations. 2015b. *Paris Agreement*. unfccc.int.
 - Vecellio, D.J. dkk. 2022. Evaluating the 35°C wet-bulb temperature adaptability threshold for young, healthy subjects. *Journal of Applied Physiology* 132(2): 340–345.
+- Vicedo-Cabrera, A.M. dkk. 2021. Burden of heat-related mortality attributable to recent human-induced climate change. *Nature Climate Change* 11: 492–500.
 - Victorian Bushfires Royal Commission. 2010. *Final report*. Parliament of Victoria, Melbourne.
 - Warren, R. dkk. 2018. The projected effect on insects, vertebrates, and plants of limiting global warming to 1.5°C rather than 2°C. *Science* 360(6390): 791–795.
 - Watts, N. dkk. 2021. The 2021 report of the Lancet Countdown on health and climate change. *The Lancet* 398(10311): 1619–1662.
 - WHO & UNICEF. 2023. *Progress on Household Drinking Water, Sanitation and Hygiene 2000-2022*. JMP.
+- WHO. 2021. *COP26 Special Report on Climate Change and Health*. WHO, Geneva.
 - WHO. 2023. *Climate Change and Health Fact Sheet*. who.int.
+- WMO. 2022. *Early Warnings for All*. WMO, Geneva.
 - WMO. 2023. *State of the Global Climate 2023*. World Meteorological Organization, Geneva.
 - WMO. 2025. *State of the Global Climate 2024*. World Meteorological Organization, Geneva.
+- World Bank. 2021. *Groundswell: Acting on Internal Climate Migration*. World Bank, Washington DC.
 - World Bank. 2022. *What You Need to Know About Food Security and Climate Change*. World Bank, Washington DC.
 - WWF. 2022. *Living Planet Report 2022: building a nature-positive society*. WWF, Gland.
 - Yohe, G. & Tol, R.S.J. 2002. Indicators for social and economic coping capacity. *Global Environmental Change* 12(1): 25–40.
@@ -4253,72 +4292,28 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 
 Karya berikut memperkaya latar penulisan tetapi tidak dikutip dalam teks.
 
-- Adger, W.N. 2006. Vulnerability. *Global Environmental Change* 16(3): 268–281.
-- Aldrich, D.P. & Meyer, M.A. 2015. Social capital and community resilience. *American Behavioral Scientist* 59(2): 254–269.
-- Andersen, Inger. 2023. *Adaptation Gap Report 2023*. UNEP, Nairobi.
-- Anderson, Kevin. 2020. *Carbon budgets and fossil exploration critiques*. Tyndall Centre, Manchester.
-- Arrhenius, S. 1896. On the influence of carbonic acid in the air upon the temperature of the ground. *Philosophical Magazine* 41(251): 237–276.
-- Berkes, F. & Ross, H. 2013. Community resilience: toward an integrated approach. *Society & Natural Resources* 26(1): 5–20.
-- Birol, Fatih. 2023. *World Energy Outlook 2023*. International Energy Agency, Paris.
 - Burke, M., Hsiang, S.M. & Miguel, E. 2015. Global non-linear effect of temperature on economic production. *Nature* 527: 235–239.
-- Canadell, Pep dkk. 2021. *Global Carbon Project: Fossil Emissions Trends*. Global Carbon Project.
 - Chancel, L. 2022. Global carbon inequality over 1990–2019. *Nature Sustainability* 5: 931–938.
-- Clayton, S. 2020. Climate anxiety: Psychological responses to climate change. *Journal of Anxiety Disorders* 74: 102263.
-- Cutter, S.L. dkk. 2008. A place-based model for understanding community resilience. *Global Environmental Change* 18(4): 598–606.
-- Dessler, Andrew. 2021. *Introduction to Modern Climate Change*. Cambridge University Press.
 - Ditlevsen, P. & Ditlevsen, S. 2023. Warning of a forthcoming collapse of the Atlantic meridional overturning circulation. *Nature Communications* 14: 4254.
-- FAO. 2021. *Climate Change: Unpacking the Burden on Food Safety*. FAO, Rome.
-- FAO. 2022. *The State of the World's Land and Water Resources (SOLAW 2021)*. FAO, Rome.
-- Folke, C. dkk. 2010. Resilience thinking. *Ecology and Society* 15(4): 20.
 - Ghosh, Amitav. 2016. *The Great Derangement: Climate Change and the Unthinkable*. University of Chicago Press.
 - Gore, Al. 2006. *An Inconvenient Truth: The Planetary Emergency of Global Warming and What We Can Do About It*. Rodale Press.
-- Haigh, Joanna D. 2020. *Solar Variability and Climate*. Imperial College Press.
 - Hansen, J. dkk. 2016. *Ice melt, sea level rise and superstorms: evidence from paleoclimate data, climate modeling, and modern observations that 2°C global warming could be dangerous*. Atmos. Chem. Phys. 16: 3761–3812.
-- Hausfather, Zeke dkk. 2023. *Berkeley Earth Global Temperature Report 2023*. Berkeley Earth.
 - Hayhoe, K. 2021. *Saving Us: A Climate Scientist’s Case for Hope and Healing in a Divided World*. One Signal Publishers.
 - Hegerl, G.C. dkk. 1996. Detecting greenhouse-gas-induced climate change with an optimal fingerprint method. *Journal of Climate* 9(10): 2281–2306.
-- Howden, S.M. dkk. 2007. Adapting agriculture to climate change. *PNAS* 104(50): 19691–19696.
-- Hsiang, S.M. & Burke, M. 2014. Climate, conflict, and social stability. *Climatic Change* 123: 39–55.
-- IMBIE. 2018. Mass balance of the Antarctic Ice Sheet from 1992 to 2017. *Nature* 558: 219–222.
-- IMF. 2022. *World Economic Outlook: War Sets Back Global Recovery*. IMF, Washington DC.
-- IPCC. 2018. *Global Warming of 1.5 C (SR15)*. IPCC, Geneva.
 - Klein, Naomi. 2014. *This Changes Everything: Capitalism vs*. The Climate. Simon & Schuster.
 - Kolbert, Elizabeth. 2014. *The Sixth Extinction: An Unnatural History*. Henry Holt and Co.
-- La Camera, Francesco. 2023. *World Energy Transitions Outlook 2023*. IRENA, Abu Dhabi.
-- Le Quéré, Corinne dkk. 2023. Global Carbon Budget 2023. *Earth System Science Data* 15(12): 5301–5369.
-- Lobell, D.B., Schlenker, W. & Costa-Roberts, J. 2011. Climate trends and global crop production since 1980. *Science* 333(6042): 616–620.
-- Mann, M.E., Bradley, R.S. & Hughes, M.K. 1999. *Northern Hemisphere temperatures during the past millennium*. Geophys. Res. Lett., 26(6), 759-762 (hockey stick).
 - McKibben, Bill. 2019. *Falter: Has the Human Game Begun to Play Itself Out?*. Henry Holt and Co.
 - NASA. 2024. *Global Climate Change: Vital Signs*. climate.nasa.gov.
 - Neumann, B. dkk. 2015. *Future coastal population growth and exposure to sea-level rise and coastal flooding*. PLOS ONE 10(3): e0118571.
-- NOAA. 2025. *Trends in Atmospheric Carbon Dioxide*. Global Monitoring Laboratory, Boulder.
-- Obradovich, N. dkk. 2018. Empirical evidence of mental health risks posed by climate change. *PNAS* 115(43): 10953–10958.
-- OECD. 2021. *Managing Climate Risks, Facing Essential Challenges*. OECD, Paris.
-- OECD. 2023. *Climate Finance Provided and Mobilised by Developed Countries*. OECD, Paris.
 - Oppenheimer, M. dkk. 2019. *Sea Level Rise and Implications for Low-Lying Islands, Coasts and Communities*. SROCC Chapter 4.
 - Oreskes, Naomi & Conway, Erik M. 2010. *Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming*. Bloomsbury Press.
-- Otto, F.E.L. dkk. 2021. *Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change*. World Weather Attribution.
-- Red Cross. 2020. *Heat Waves: A Silent Killer*. IFRC, Geneva.
 - Robinson, Kim Stanley. 2020. *The Ministry for the Future*. Orbit Books.
 - Rockström, J. dkk. 2009. *A safe operating space for humanity*. Nature, 461, 472-475; Richardson dkk. (2023). Planetary boundaries update. Sci. Adv., 9.
-- Romanello, M. dkk. 2023. The 2023 report of the Lancet Countdown. *The Lancet* 402(10419): 2346–2394.
 - Roy, Joyashree dkk. 2019. *Sustainable Land Management and Climate*. IPCC SRCCL Chapter 4.
-- Schlosberg, D. 2007. *Defining Environmental Justice: Theories, Movements, and Nature*. Oxford University Press.
 - Steffen, W. dkk. 2015. Planetary boundaries: guiding human development on a changing planet. *Science* 347(6223): 1259855.
-- Steffen, W. dkk. 2018. Trajectories of the Earth System in the Anthropocene. *PNAS* 115(33): 8252–8259.
-- Stern, N. 2007. *The Economics of Climate Change: The Stern Review*. Cambridge University Press.
-- Tyndall, J. 1861. The Bakerian Lecture: on the absorption and radiation of heat by gases and vapours. *Philosophical Transactions of the Royal Society* 151: 1–36.
 - UNDP. 2022. *Human Development Report 2021/22*. UNDP, New York.
-- UNEP. 2022. *Emissions Gap Report 2022*. UNEP, Nairobi.
-- UNESCO. 2020. *Education for Sustainable Development: A Roadmap*. UNESCO, Paris.
-- United Nations. 2015a. *2030 Agenda for Sustainable Development*. UN, New York.
-- United Nations. 2015b. *Paris Agreement*. unfccc.int.
-- Vicedo-Cabrera, A.M. dkk. 2021. Burden of heat-related mortality attributable to recent human-induced climate change. *Nature Climate Change* 11: 492–500.
 - Wallace-Wells, David. 2019. *The Uninhabitable Earth: Life After Warming*. Crown Publishing.
 - Wheeler, T. & von Braun, J. 2013. Climate change impacts on global food security. *Science* 341(6145): 508–513.
-- WHO. 2021. *COP26 Special Report on Climate Change and Health*. WHO, Geneva.
-- WMO. 2022. *Early Warnings for All*. WMO, Geneva.
-- World Bank. 2021. *Groundswell: Acting on Internal Climate Migration*. World Bank, Washington DC.
 # Lampiran E: Biografi Penulis
 
 **Setyo Wisodo** adalah profesional yang menggabungkan keahlian dalam Pengembangan AI, Manajemen Produk, dan Pemasaran Digital. Aktif dalam pengembangan solusi berbasis AI dan produk digital. Lokasi: Indonesia.

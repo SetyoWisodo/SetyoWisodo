@@ -23,16 +23,16 @@ import references as R
 PAIRS = [("book.md", R.REFS_EN, "# Appendix D", "en"),
          ("book_id.md", R.REFS_ID, "# Lampiran D", "id")]
 
-YEAR = r"(?:19|20)\d{2}[a-z]?"
+YEAR = r"(?:18|19|20)\d{2}[a-z]?"
 # "Nama", "Nama et al.", "Nama dkk.", "Nama & Nama", "Nama, Nama and Nama"
 BASE = r"[A-Z][A-Za-z\u00c0-\u00ff\-'\.]+"
-WORD = BASE + r"(?:\s+" + BASE + r"){0,2}"
+WORD = BASE + r"(?:\s+" + BASE + r"){0,4}"
 NAME = (WORD + r"(?:\s(?:et al\.?|dkk\.?))?"
         r"(?:\s*[&,]\s*" + WORD + r")*"
         r"(?:\s(?:and|dan)\s" + WORD + r")*")
-LOC = r"(?:[,\s]+(?:Chapter|Bab|Table|Tabel|Figure|Gambar|Section|Bagian|ch\.|p\.|pp\.)\s*[0-9A-Za-z\.\-–]+)*"
-PAREN = re.compile(r"\(([^()]{2,200}?" + YEAR + r"[a-z]?" + LOC + r")\)")
-COMP = re.compile(r"^\s*(" + NAME + r")[,\s]+(" + YEAR + r")" + LOC + r"\s*$")
+PAREN = re.compile(r"\(([^()]{2,240})\)")
+COMP = re.compile(r"^\s*(" + NAME + r")[,\s]+(" + YEAR + r")\b")
+# catatan: sitasi boleh diikuti keterangan, mis. "(Arrhenius, 1896; model radiatif)"
 NARR = re.compile(r"\b(" + NAME + r")\s\((" + YEAR + r")\)")
 
 

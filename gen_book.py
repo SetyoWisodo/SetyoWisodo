@@ -1018,6 +1018,9 @@ md.append("")
 content = "\n".join(md)
 import gate1
 content, n_cit = gate1.apply(content, "en")
+import gate1b
+content, n_cit2 = gate1b.apply(content, "en")
+print("gate1b citations added:", n_cit2)
 import cited as _cited
 _cited_refs, _further_refs = _cited.split_refs(REFS, _cited.pairs(content))
 _refs_md = ["# Appendix D: References", "", "## Works Cited", ""]
