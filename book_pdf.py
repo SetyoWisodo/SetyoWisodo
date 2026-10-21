@@ -171,6 +171,9 @@ def draw_paragraph(pdf, text, indent=INDENT, align="J", size=BODY_PT,
         gap = space_w + (extra / (n - 1) if n > 1 else 0.0)
         pdf.set_xy(x, y)
         for j, (w_txt, st, w) in enumerate(words):
+            if j > 0 and w_txt.strip(".,;:!?)]}") == "" and gap > 0:
+                # tanda baca yang terpisah akibat batas run miring: rapatkan
+                pdf.set_x(pdf.get_x() - gap)
             pdf.set_font("TNR", st, size)
             pdf.cell(w, line_h, w_txt, border=0, align="L")
             if j < n - 1:
@@ -535,6 +538,9 @@ def render(md_path, out_pdf, lang="en", title=None):
                 pdf.set_font("TNR", "", BODY_PT)
                 bullet_w = pdf.get_string_width("\u2022") + 3.0
                 if pdf.get_y() + LINE_H > pdf.page_break_trigger:
+                    pdf.add_page()
+                    pdf.set_y(pdf.t_margin)
+                if pdf.get_y() + 3 * LINE_H > pdf.page_break_trigger:
                     pdf.add_page()
                     pdf.set_y(pdf.t_margin)
                 y = pdf.get_y()

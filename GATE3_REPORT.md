@@ -74,6 +74,7 @@ Alat: `audit_gate3.py`, `prose.py`, `gen_book.py` / `gen_book_id.py`, `deep_rend
 | Hedge | 140 | **728** | ✅ |
 | Falasi terdeteksi | 0 | **0** | ✅ (setelah adjudikasi) |
 | Sitasi kurung `(Penulis, tahun)` | — | **58** + 81 `et al.` | ⚠️ R2 |
+| Entri Daftar Pustaka | 99 | **125** (A–Z, `Nama Belakang, Nama Depan. Tahun. *Judul*. Penerbit.`) | ✅ semua penulis yang dikutip ada entrinya |
 
 ### 4.2 Edisi Indonesia
 
@@ -88,6 +89,7 @@ Alat: `audit_gate3.py`, `prose.py`, `gen_book.py` / `gen_book_id.py`, `deep_rend
 | Tanpa sitasi — longgar | 6,4 % | 34,2 % |
 | Tanpa sitasi — tingkat paragraf | — | **25,0 %** |
 | Sitasi kurung / `et al.` | — | **34 / 38** |
+| Entri Daftar Pustaka | 99 | **125** (ID: `dkk.`), A–Z | ✅ |
 | Blok pakar campur bahasa | **44** | **0** |
 | Kutipan pakar setengah Inggris | **60** | **0** |
 | Penanda absolut (pola ID kini terdeteksi) | 6* | **57** |
@@ -202,7 +204,7 @@ Falasi: 0 di kedua bahasa. Penanda absolut **173 (EN) / 57 (ID)** dengan hedge *
 | # | Residual | Dampak | Tindakan |
 |---|---|---|---|
 | R1 | Frasa domain masih berulang (maksimum 5-gram 2; tidak ada kalimat identik) | Ritme agak berulang pada bacaan berurutan | Gate 5: rujukan pronominal |
-| R2 | **Sitasi**: 29,4 % (EN) / 25,0 % (ID) paragraf berangka tanpa penanda tahun; ketat 93,1 % / 96,0 % | Bab kaya data dan tanggal, sitasi kurung 58 (EN) / 34 (ID) + 81 `et al.` (EN) | **Gate 1 (prioritas)**: tempelkan `(Nama belakang, Tahun)` pada setiap klaim berangka + Daftar Pustaka A–Z |
+| R2 | **Sitasi**: 29,4 % (EN) / 25,0 % (ID) paragraf berangka tanpa penanda tahun; ketat 93,1 % / 96,0 % | Daftar Pustaka sudah **125 entri A–Z** dan setiap nama yang dikutip punya entri; yang kurang adalah kepadatan sitasi kurung di dalam paragraf (58 EN / 34 ID) | **Gate 1 (prioritas)**: tempelkan `(Nama belakang, Tahun)` pada klaim berangka yang belum bertanda |
 | R3 | Penanda absolut 117 (EN): `never`, `must`, `everyone` | Sebagian retorika kebijakan yang sah | Gate 4: adjudikasi per kalimat |
 | R4 | Deteksi falasi berbasis regex | Tidak menangkap falasi semantik | Gate 4: pembacaan manusia |
 | R5 | Panjang: **281 hlm (EN) / 302 hlm (ID)**, 121.327 / 105.811 kata | Rata-rata **5.050 kata/bab (EN) — target ≈5.000 terlampaui**; minimum 4.843 (bab 24), maksimum 6.581 (bab 2) | **Tertutup** |
@@ -218,7 +220,8 @@ Falasi: 0 di kedua bahasa. Penanda absolut **173 (EN) / 57 (ID)** dengan hedge *
 | `content/ch01–24.py`, `content_id/ch01–24.py` | 48 modul bab, dua bahasa |
 | `audit_gate3.py` | Auditor: 21 metrik + per bab, keluaran JSON |
 | `book.md` / `book_id.md` | **121.327 / 105.811 kata** tubuh (termasuk tabel & lampiran) |
-| `Surviving_the_Future.pdf` / `..._ID.pdf` | **281 / 302 halaman**, Tinos, 25 tabel, 24/24 bab, daftar isi akurat, 0 blok di luar margin |
+| `references.py` | **125 entri** Daftar Pustaka kanonis (EN `et al.`, ID `dkk.`), satu sumber untuk kedua edisi |
+| `Surviving_the_Future.pdf` / `..._ID.pdf` | **282 / 303 halaman**, Tinos, 25 tabel, 24/24 bab, daftar isi akurat, 0 blok di luar margin |
 | `content/depth*.py`, `content_id/depth*.py` | **10 modul × 2 bahasa**: lapisan paragraf kedua untuk 24/24 bab + bukti Global Selatan |
 
 ```bash
