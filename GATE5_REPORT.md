@@ -105,7 +105,7 @@ Tidak ada perubahan pada gate ini. Verifikasi ulang pada PDF hasil render:
 | `fact_check.py` | **46/46, 0 gagal** |
 | `data_consistency.py` | 2 kandidat EN / 2 ID — keduanya kontras yang disengaja |
 | Pemindaian CJK | 0 berkas |
-| Kata | **200.301 EN / 166.882 ID** |
+| Kata (`wc -w`) | **199.731 EN / 166.318 ID** |
 | Paragraf naratif | 2.072 EN / 2.067 ID |
 | Rata-rata panjang kalimat | 24,1 kata (EN) / 20,2 (ID) |
 

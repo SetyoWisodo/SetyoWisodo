@@ -15,7 +15,7 @@
 | P4 | Nomor halaman Daftar Isi cocok dengan halaman sebenarnya | 0 selisih | **0** |
 | P5 | Font tertanam (embedded), hanya Times-metric | 100 % | **Tinos Regular/Bold/Italic, ketiga-tiganya tertanam** |
 | P6 | Kerapatan spasi baris *justify* terkendali | p90 < 2,2× spasi alami | **1,84× (EN) / 2,13× (ID)** |
-| P7 | Panjang buku dalam rentang yang diminta | 400–500 hlm | **403 (EN) / 423 (ID)** |
+| P7 | Panjang buku dalam rentang yang diminta | 400–500 hlm | **411 (EN) / 432 (ID)** |
 | P8 | Tidak ada duplikasi isi antarparagraf | 0 pasangan skor ≥ 5,0 | **0 (EN) / 0 (ID)** |
 | P9 | Aparatus bersih setelah semua penyuntingan | 0 masalah | **422 EN / 376 ID, 0** |
 
@@ -87,6 +87,12 @@ Sebelum gate ini, tabel yang tidak muat pada sisa halaman dipindahkan seluruhnya
 
 Karena EN hanya 401 halaman pada pemeriksaan pertama — satu halaman di atas ambang — tiga lapisan pendalaman tambahan (`depth_zp` … `depth_zr`, EN dan ID) menambah sekitar 1.500 kata per edisi pada bab 2, 5, 6, 12, 13, 15, dan 19: beda stok dan aliran, defisit adaptasi dan klausul peninjauan standar, serah terima antara respons sukarela dan sistem formal, serta uji "tahun kering ketiga" untuk rencana air. EN kini 403 halaman dan ID 422, sehingga penyuntingan kecil tidak akan menjatuhkan EN di bawah 400.
 
+### 2.7 Daftar Isi dua tingkat
+
+Daftar Isi semula hanya memuat 32 judul bab, sehingga pembaca tidak dapat menemukan sub-bab dari halaman depan dan harus memakai panel navigasi PDF. Kini setiap sub-bab (295 entri) dicantumkan di bawah babnya dengan indentasi 7 mm dan huruf biasa, sementara judul bab dan lampiran tetap tebal. Daftar Isi memanjang menjadi sembilan halaman, dengan kepala "TABLE OF CONTENTS (continued)" / "DAFTAR ISI (lanjutan)" pada setiap halaman lanjutan. Nomor halaman setiap sub-bab diambil dari pass paginasi yang sama dengan outline PDF, sehingga keduanya konsisten.
+
+Efek sampingnya adalah halaman bertambah delapan: EN dari 403 ke 411, ID dari 423 ke 432. Keduanya masih di dalam rentang yang diminta.
+
 ---
 
 ## 3. Hasil pemeriksaan produksi
@@ -95,8 +101,8 @@ Karena EN hanya 401 halaman pada pemeriksaan pertama — satu halaman di atas am
 
 | Butir | EN | ID |
 |---|---|---|
-| Halaman | **403** | **423** |
-| Ukuran berkas | 2,22 MB | 2,03 MB |
+| Halaman | **411** | **432** |
+| Ukuran berkas | 2,25 MB | 2,05 MB |
 | Format | A4 (210 × 297 mm) | sama |
 | Metadata judul | *Surviving the Future: Crisis, Climate, and Human Resilience* | *Surviving the Future: Krisis, Iklim, dan Ketahanan Manusia* |
 | Metadata penulis | Setyo Wisodo | Setyo Wisodo |
@@ -115,7 +121,7 @@ Pemeriksaan naskah:
 | `check_citations.py` | 422 EN / 376 ID, **0 masalah** |
 | `fact_check.py` | **0 gagal** |
 | `data_consistency.py` | 2 kandidat EN / 2 ID (keduanya rasio yang disengaja) |
-| Kata | **200.301 EN / 166.882 ID** |
+| Kata (`wc -w`) | **199.731 EN / 166.318 ID** |
 
 ---
 
@@ -123,7 +129,7 @@ Pemeriksaan naskah:
 
 1. **Deduplikasi paragraf selesai pada ambang kerja.** Tidak ada lagi pasangan paragraf berskor ≥ 5,0 di kedua edisi. Sisa 84 pasangan EN dan 97 ID pada ambang 3,2–4,9 adalah kasus satu bagian yang menyebut peristiwa yang sama dari dua sudut yang berbeda — angka di satu paragraf, mekanisme di paragraf lain — dan sifatnya komplementer, bukan berulang. Daftar lengkapnya tersimpan di `DEDUP_STATUS.txt` untuk pemeriksaan manual bila diperlukan.
 2. **Tingkat 3,2–4,9 belum disisir satu per satu.** Penyisiran itu membutuhkan pembacaan sekitar 180 pasangan, dan hasil yang diharapkan kecil karena sebagian besar adalah kesamaan topik yang wajar dalam bab studi kasus.
-3. **Berkas terbit belum dibangun ulang.** `book/publish/` masih memuat build lama (19 bab, 149 halaman) dari pipeline Typst yang membutuhkan `typst` dan `pandoc`; pipeline itu tidak tersedia di lingkungan ini. PDF A4 403/423 halaman adalah hasil yang harus dipakai.
+3. **Berkas terbit belum dibangun ulang.** `book/publish/` masih memuat build lama (19 bab, 149 halaman) dari pipeline Typst yang membutuhkan `typst` dan `pandoc`; pipeline itu tidak tersedia di lingkungan ini. PDF A4 411/432 halaman adalah hasil yang harus dipakai.
 4. **Penomoran halaman mengikuti halaman PDF, bukan angka romawi/arab terpisah.** Bagian depan (sampul, daftar isi, daftar tabel) memakai nomor yang sama dengan badan buku. Untuk penerbit yang menuntut penomoran terpisah, `book_pdf.Book.footer` adalah satu-satunya tempat yang perlu diubah.
 
 ## 5. Keputusan
@@ -136,6 +142,6 @@ Pemeriksaan naskah:
 - tabel dipecah lintas halaman dengan header berulang;
 - tidak ada lagi duplikasi paragraf berskor ≥ 5,0;
 - aparatus sitasi bersih (422 EN / 376 ID), pemeriksaan fakta 0 gagal;
-- panjang 403 halaman (EN) dan 423 (ID), di dalam rentang 400–500.
+- panjang 411 halaman (EN) dan 432 (ID), di dalam rentang 400–500.
 
 Buku siap untuk tahap penerbitan: dua berkas PDF A4 dengan teks lengkap, aparatus akademik lengkap, dan navigasi PDF yang berfungsi. Langkah berikutnya di luar gate ini adalah desain sampul cetak dan konversi ke EPUB/DOCX, yang membutuhkan pipeline terpisah dari renderer PDF ini.

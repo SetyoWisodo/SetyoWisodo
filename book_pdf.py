@@ -473,11 +473,17 @@ def draw_toc(pdf, entries, tables, lang="en"):
     pdf.set_font("TNR", "B", BODY_PT)
     pdf.cell(0, 7, cfg["toc"], align="C", new_x="LMARGIN", new_y="NEXT")
     pdf.ln(4)
+    first_toc_page = pdf.page
     for label, page_no, indent in entries:
         if pdf.get_y() + toc_line_height(pdf, label, indent) > pdf.page_break_trigger:
             pdf.add_page()
             pdf.set_y(pdf.t_margin)
-        draw_toc_line(pdf, label, page_no, indent=indent)
+            if pdf.page > first_toc_page:
+                pdf.set_font("TNR", "I", BODY_PT)
+                pdf.cell(0, 6, cfg["toc"] + (" (lanjutan)" if lang == "id" else " (continued)"),
+                         align="C", new_x="LMARGIN", new_y="NEXT")
+                pdf.ln(3)
+        draw_toc_line(pdf, label, page_no, indent=indent, bold=(indent == 0.0))
     pdf.add_page()
     pdf.set_font("TNR", "B", BODY_PT)
     pdf.cell(0, 7, cfg["lot"], align="C", new_x="LMARGIN", new_y="NEXT")
@@ -659,6 +665,9 @@ def render(md_path, out_pdf, lang="en", title=None):
             if b[0] == "h1":
                 label = b[1]
                 toc_entries.append((label, page_map.get(label, 0), 0.0))
+            elif b[0] == "h2":
+                label = b[1]
+                toc_entries.append((label, page_map.get(label, 0), 7.0))
         pdf.front = True
         draw_toc(pdf, toc_entries, [(c, table_map.get(c, 0)) for c in
                                     [b[1] for b in blocks if b[0] == "caption"]], lang)
@@ -715,6 +724,7 @@ def render(md_path, out_pdf, lang="en", title=None):
                 draw_heading(pdf, title_txt, 1, lang=lang)
                 continue
             if kind == "h2":
+                new_pages[val] = pdf.page
                 draw_heading(pdf, val, 2)
             elif kind == "h3":
                 draw_heading(pdf, val, 3)
