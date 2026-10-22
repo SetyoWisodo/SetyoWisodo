@@ -1,12 +1,18 @@
 {
   "en": {
-    "pages": 149,
-    "words": 29130,
-    "spine_in": 0.336
+    "pages": 411,
+    "spine_in": 1.028,
+    "cover_in": [
+      13.277,
+      9.25
+    ]
   },
   "id": {
-    "pages": 153,
-    "words": 27560,
-    "spine_in": 0.345
+    "pages": 432,
+    "spine_in": 1.08,
+    "cover_in": [
+      13.33,
+      9.25
+    ]
   }
 }
