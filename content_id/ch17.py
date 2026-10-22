@@ -365,6 +365,12 @@ CH = {
             ],
         },
         "after_table": [
+            "Kolom tengah perlu penjelasan. 'Kecenderungan sekarang' bukan ramalan masa depan yang paling "
+            "mungkin; ia lintasan yang mengikuti kebijakan yang sudah diundangkan, belanja adaptasi yang "
+            "sudah dijanjikan, dan investasi kesehatan yang sudah dianggarkan, dengan jalur emisi ditahan "
+            "pada kasus menengah. Itu kolom yang didapat suatu pemerintah bila tidak mengubah apa pun, "
+            "dan itu pembanding bagi dua kolom lainnya. ",
+
             "Dua kesimpulan mengikuti. Pertama, kesehatan adalah tempat perubahan iklim paling langsung "
             "dialami, dan karena itu tempat adaptasi memiliki imbal hasil paling jelas. Kedua, distribusi "
             "risiko kesehatan mengikuti ketimpangan yang ada, sehingga negara dan komunitas dengan "

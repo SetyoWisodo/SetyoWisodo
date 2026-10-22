@@ -166,10 +166,10 @@ Selain alat, 14 peristiwa disapu manual pada kedua edisi — mencari angka yang 
 | Daftar Pustaka | 145 entri per edisi |
 | Works Cited | 130 EN / 123 ID |
 | Further Reading | 15 EN / 22 ID |
-| Kata (termasuk appendiks) | **196.060 EN / 162.973 ID** |
+| Kata (termasuk appendiks) | **197.411 EN / 164.129 ID** |
 | Bab | 24 per edisi |
 | Tabel | 25 |
-| Halaman PDF | **401 EN / 416 ID** |
+| Halaman PDF | **401 EN / 419 ID** |
 
 Koreksi #4 dan #5 menambah satu sitasi `(WHO, 2023)` di masing-masing edisi; entri WHO 2023 sudah ada di Daftar Pustaka, sehingga tidak ada entri baru dan tidak ada entri menggantung.
 
@@ -201,13 +201,13 @@ Perluasan dikerjakan sebagai lapisan tambahan, bukan sebagai penulisan ulang: se
 
 | Butir | Sebelum perluasan | Setelah perluasan |
 |---|---|---|
-| Kata EN | 131.090 | **196.060** |
-| Kata ID | 115.564 | **162.973** |
+| Kata EN | 131.090 | **197.411** |
+| Kata ID | 115.564 | **164.129** |
 | Halaman PDF EN | 292 | **401** |
-| Halaman PDF ID | 312 | **416** |
+| Halaman PDF ID | 312 | **419** |
 | Paragraf naratif EN | ±1.100 | **2.079** |
 | Paragraf naratif ID | ±1.050 | **2.074** |
-| Modul lapisan | `depth` | `depth` + `depth_k` … `depth_zi` (30 modul per edisi) |
+| Modul lapisan | `depth` | `depth` + `depth_k` … `depth_zo` (36 modul per edisi) |
 
 Lapisan tambahan disusun per kelompok bab (bab 1–2, 3, 4, 5, 6, 7, 8–9, 10–11, 12–13, 14–15, 16–17, 18–19, 20, 21–22, 23, 24, lalu empat lintasan penyeimbang yang menyentuh seluruh bab). Setiap modul memuat kunci `N.M`, `case`, dan/atau `future`, sehingga paragraf baru masuk ke sub-bab yang tepat tanpa menyentuh berkas bab aslinya.
 
@@ -215,7 +215,7 @@ Empat pemeriksaan dijalankan ulang setelah setiap lapisan:
 
 | Pemeriksaan | Hasil akhir |
 |---|---|
-| `check_citations.py` | 423 EN / 376 ID, **0 masalah** |
+| `check_citations.py` | 422 EN / 376 ID, **0 masalah** |
 | `fact_check.py` | 46/46, **0 gagal** |
 | `data_consistency.py` | 2 kandidat EN / 2 ID (Stern 1 % vs 5–20 %; Watts 3,7 vs 4,0 juta) — keduanya kontras yang disengaja, bukan konflik |
 | Pemindaian CJK pada modul baru | 0 berkas |

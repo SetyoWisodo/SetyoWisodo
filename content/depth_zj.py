@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""Lapisan pendalaman Kesembilan (EN) — penutup praktis bab 24."""
+
+EXTRA = {
+    24: {
+        "24.5": [
+            "A city that has none of the six items should not try to acquire them all in one budget cycle, because the attempt will produce a strategy document and no change. The sequence that has worked in municipalities of very different sizes starts with the two items that cost least and reveal most: a public hazard map and a register of vulnerable residents. The map can be assembled from existing data in months, and it settles the argument about where the money should go; the register can be built from health records, utility accounts and the list that the local clinic already keeps, and it converts a general obligation into a set of names and addresses. The warning system and the drainage standard come next, because both need a technical specification and a procurement. The shelter plan and the protected budget line come last, and they are the ones that determine whether the rest survives a change of administration."
+        ],
+        "24.8": [
+            "A city or a country that has never measured its readiness should not wait for a perfect baseline, because the absence of a number is itself the finding. The retrospective method is cheap: reconstruct the last three events from the records of the utility, the hospital, the fire service and the school system, and compute the metrics that the chapter has listed for those events. How long was the power out, how many people were in a shelter, how many days of school were lost, how many claims were paid and how long did it take. The reconstruction will be incomplete, and the gaps will show which agency does not keep the record that its own response depends on. That discovery is the first improvement, and it costs a few weeks of a junior officer's time rather than a consultancy contract."
+        ],
+        "24.10": [
+            "The reader's position determines which part of this book is actionable this week. A household can pack a bag, agree a meeting point, walk the route to higher ground, list the medication that must stay cold and knock on the door of the neighbour who lives alone. A professional in a utility, a hospital, a school or a municipal office can find the one document that its own continuity plan is missing and write the paragraph that supplies it. An official with a budget can protect the maintenance line, publish the hazard map, or require the exercise that nobody has scheduled. None of those actions is sufficient on its own, and each of them is the kind of thing that the case studies in this book show being done or not done before an event that made the difference.",
+            "It is worth being honest about the limits of what any of this achieves. Preparedness does not abolish loss, and a well-prepared city will still bury people in a bad enough event; the argument of this book is about the margin, and the margin is where most of the deaths are. Nor is preparedness a substitute for reducing the emissions that set the odds, because a world that adapts perfectly to a climate it keeps worsening is running to stand still. The two are complements with different time constants: mitigation determines the climate that the next century inherits, and adaptation determines who survives the next decade in the one that is already here. A reader who acts on only one of them has done half the work, and half the work is what the record shows most institutions doing.",
+        ],
+    },
+}

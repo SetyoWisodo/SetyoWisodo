@@ -221,6 +221,112 @@ ID_VAR = [
 ]
 
 
+# Paragraf yang dibuka dengan pengulangan klaim paragraf sebelumnya. Lapisan
+# pendalaman menambahkan paragraf yang kadang membuka dengan kalimat yang sama
+# seperti paragraf di atasnya. Setiap entri menambahkan kalimat kedua sebagai
+# jangkar supaya hanya kemunculan yang benar yang diganti.
+DEDUP_EN = [
+    ("The legal framework for climate migration is fragmented. The 1951 Refugee Convention",
+     "The 1951 Refugee Convention"),
+    ("State capacity is the most important variable in the climate-conflict relationship. A country with effective institutions",
+     "A country with effective institutions"),
+    ("Indigenous peoples are disproportionately affected and disproportionately effective as stewards. A large share",
+     "A large share"),
+    ("Heat is the deadliest climate hazard in most years, and it is the one with the least visible damage. A flood destroys",
+     "A flood destroys"),
+    ("Flash floods are the deadliest type of flood because they arrive with little warning. They occur when",
+     "Flash floods occur when"),
+    ("Most climate learning happens outside school, and the quality of that learning is decisive. A museum exhibit",
+     "A museum exhibit"),
+    ("The most cited global estimate of climate migration comes from the World Bank's Groundswell reports, which projected that 216 million people could move within their own countries by 2050 under a high-emission scenario, concentrated in sub-Saharan Africa, South Asia and Latin America (World Bank, 2021). The figure is a modelling result",
+     "The 216 million figure is a modelling result"),
+    ("Nutrition is the pathway with the largest long-term consequences and the least visibility. A child who is stunted",
+     "A child who is stunted"),
+    ("Syria is the case where attribution has been most contested, and the contest is instructive. A severe multi-year drought",
+     "A severe multi-year drought"),
+    ("The link between drought and food prices runs through expectations as much as through harvests. A poor harvest",
+     "A poor harvest"),
+    ("Water disputes are more often managed than resolved, and the record is more encouraging than the headlines. Thousands of treaties",
+     "Thousands of treaties"),
+    ("The pattern of mortality is remarkably consistent across countries. The largest excess",
+     "The largest excess"),
+    ("Air pollution and climate change share their sources, which makes them a single problem with two accounting systems. Burning fossil fuels",
+     "Burning fossil fuels"),
+    ("The health case for climate action is often stronger than the environmental case, because it is immediate and local. Phasing out coal",
+     "Phasing out coal"),
+    ("Children and young people carry a burden that is distinctive because it is anticipatory. Surveys across",
+     "Surveys across"),
+    ("Drought is defined four ways, and the definitions are not interchangeable. Meteorological drought",
+     "Meteorological drought"),
+    ("Clean cooking is the least glamorous energy transition and one of the most consequential for health. About 2.3 billion",
+     "About 2.3 billion"),
+    ("The build-neglect-rebuild cycle is a political economy, not an accident. New construction produces a ribbon",
+     "Neglect is not an accident; it is what the incentive structure rewards. New construction produces a ribbon"),
+    ("The build-neglect-rebuild cycle is a political economy problem more than an engineering one. A new bridge can be inaugurated",
+     "The constraint is political rather than technical. A new bridge can be inaugurated"),
+    ("The build-neglect-rebuild cycle is the most expensive pattern in public infrastructure, and it is produced by politics rather than by engineering. A new bridge is a ribbon-cutting",
+     "The cost is deferred rather than avoided. A new bridge is a ribbon-cutting"),
+    ("The pattern of who dies in a heatwave is remarkably consistent across countries and decades. Risk rises with age, with cardiovascular and renal disease, with living alone, with poor housing and top-floor flats, with lack of air conditioning, and with neighbourhood deprivation.",
+     "Each of those factors is a mechanism as well as a marker: age reduces the capacity to sweat, cardiovascular disease reduces the capacity to compensate, living alone removes the person who would have noticed, and a top-floor flat turns a warm night into a lethal one."),
+]
+
+DEDUP_ID = [
+    ("Banjir bandang adalah jenis banjir paling mematikan karena datang dengan sedikit peringatan. Ia terjadi ketika",
+     "Banjir bandang terjadi ketika"),
+    ("Kerangka hukum untuk migrasi iklim terfragmentasi. Konvensi Pengungsi 1951",
+     "Konvensi Pengungsi 1951"),
+    ("Kapasitas negara adalah variabel terpenting dalam hubungan iklim-konflik. Negara dengan institusi efektif",
+     "Negara dengan institusi efektif"),
+    ("Panas adalah bahaya iklim paling mematikan pada sebagian besar tahun, dan ia bahaya dengan kerusakan paling tidak terlihat. Banjir menghancurkan",
+     "Banjir menghancurkan"),
+    ("Masyarakat adat terkena secara tidak proporsional dan secara tidak proporsional efektif sebagai pengelola. Sebagian besar hutan",
+     "Sebagian besar hutan"),
+    ("Sebagian besar pembelajaran iklim terjadi di luar sekolah, dan mutunya menentukan. Pameran museum",
+     "Pameran museum"),
+    ("Siklus bangun–abaikan–bangun ulang adalah ekonomi politik, bukan kecelakaan. Konstruksi baru menghasilkan",
+     "Kecenderungannya bukan kecelakaan; ia yang diberi imbalan oleh sistemnya. Konstruksi baru menghasilkan"),
+    ("Kaitan kekeringan dan harga pangan berjalan melalui ekspektasi sama besarnya dengan melalui panen. Panen buruk",
+     "Panen buruk"),
+    ("Argumen kesehatan untuk aksi iklim sering lebih kuat daripada argumen lingkungan, karena ia segera dan lokal. Menghentikan batu bara",
+     "Menghentikan batu bara"),
+    ("Kekeringan didefinisikan dengan empat cara, dan definisinya tidak dapat dipertukarkan. Kekeringan meteorologis",
+     "Kekeringan meteorologis"),
+    ("Kaitan antara harga pangan dan ketidakstabilan politik adalah salah satu jalur yang paling baik terdokumentasi. Lonjakan harga 2007–2008",
+     "Lonjakan harga 2007–2008"),
+    ("Umpan balik adalah proses yang memperkuat atau meredam suatu perubahan, dan tandanya menentukan apakah iklimnya mengendap atau berlari. Uap air",
+     "Uap air"),
+    ("Remitansi adalah sumber keuangan eksternal terbesar bagi banyak negara rentan, dan ia berfungsi sebagai bentuk asuransi yang tidak dirancang lembaga mana pun. Rumah tangga yang punya kerabat",
+     "Rumah tangga yang punya kerabat"),
+    ("Perkiraan global migrasi iklim yang paling banyak dikutip berasal dari laporan Groundswell Bank Dunia, yang memproyeksikan 216 juta orang dapat berpindah di dalam negaranya sendiri pada 2050 dalam skenario emisi tinggi, terkonsentrasi di Afrika sub-Sahara, Asia Selatan dan Amerika Latin. Angka itu adalah hasil pemodelan",
+     "Angka 216 juta itu adalah hasil pemodelan"),
+    ("Gelombang panas adalah peristiwa korban massal yang datang perlahan, dan kedatangan lambatnya yang membuatnya diremehkan. Gempa menghasilkan",
+     "Kedatangan yang lambat itu punya akibat operasional: tidak ada satu momen ketika sistem tahu bahwa ia sedang kewalahan. Gempa menghasilkan"),
+]
+
+
+# Gate 5: absolut yang tidak perlu. Hanya frasa yang membuat klaim empiris
+# mutlak; retorika yang memang sengaja hiperbolis ("a false claim travels faster
+# than a correction, and always has") dibiarkan.
+GATE5_EN = [
+    ("are the ones that a health-only surveillance will always detect late",
+     "are the ones that a health-only surveillance tends to detect late"),
+    ("explains why the counts are always underestimated",
+     "explains why the counts are almost always underestimated"),
+    ("the second is usually larger and always harder to measure",
+     "the second is usually larger and harder to measure"),
+    ("the tree-planting target was always a political slogan",
+     "the tree-planting target was from the outset a political slogan"),
+]
+GATE5_ID = [
+    ("adalah yang selalu terlambat dideteksi surveilans yang hanya menangani kesehatan manusia",
+     "adalah yang cenderung terlambat dideteksi surveilans yang hanya menangani kesehatan manusia"),
+    ("yang kedua biasanya lebih besar dan selalu lebih sulit diukur",
+     "yang kedua biasanya lebih besar dan lebih sulit diukur"),
+    ("menjelaskan mengapa hitungannya selalu diremehkan",
+     "menjelaskan mengapa hitungannya hampir selalu diremehkan"),
+]
+
+
 def apply(text, lang):
     pairs = EN_FS if lang == "en" else ID_FS
     n = 0
@@ -258,6 +364,24 @@ def apply(text, lang):
         if c:
             text = text.replace(old, new)
             n += c
+    for old, new in (DEDUP_EN if lang == "en" else DEDUP_ID):
+        c = text.count(old)
+        if c:
+            text = text.replace(old, new)
+            n += c
+    for old, new in (GATE5_EN if lang == "en" else GATE5_ID):
+        c = text.count(old)
+        if c:
+            text = text.replace(old, new)
+            n += c
+    # Variasi pembuka paragraf lapis kedua (lihat style_variety.py).
+    try:
+        import style_variety
+    except ImportError:
+        pass
+    else:
+        text, c = style_variety.apply(text, lang)
+        n += c
     return text, n
 
 

@@ -360,6 +360,13 @@ CH = {
             ],
         },
         "after_table": [
+            "The middle column needs a word of explanation. 'Current trends' is not a forecast of the "
+            "most likely future; it is the trajectory that follows from continuing the policies already "
+            "legislated, the adaptation spending already committed and the investment in health systems "
+            "already budgeted, with the emissions pathway held at the mid-case. It is the column a "
+            "government gets if it changes nothing, and it is the benchmark against which the other two "
+            "should be read. ",
+
             "Two conclusions follow. First, health is where climate change is most directly experienced, "
             "and it is therefore where adaptation has the clearest returns. Second, the distribution of "
             "health risk follows existing inequalities, so the countries and communities with the least "

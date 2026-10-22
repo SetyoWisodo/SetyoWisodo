@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""Lapisan pendalaman Kesembilan (ID) — penutup praktis bab 24."""
+
+EXTRA = {
+    24: {
+        "24.5": [
+            "Kota yang belum memiliki keenam butirnya tidak boleh mencoba memperoleh semuanya dalam satu siklus anggaran, karena upayanya akan menghasilkan dokumen strategi tanpa perubahan. Urutan yang berhasil di kota dengan ukuran sangat berbeda dimulai dari dua butir yang paling murah dan paling banyak mengungkap: peta bahaya yang terbuka dan daftar warga rentan. Petanya dapat disusun dari data yang sudah ada dalam hitungan bulan, dan ia menyelesaikan perdebatan tentang ke mana uang harus pergi; daftarnya dapat dibangun dari rekam kesehatan, akun utilitas, dan daftar yang sudah disimpan klinik setempat, dan ia mengubah kewajiban umum menjadi sekumpulan nama dan alamat. Sistem peringatan dan standar drainase menyusul, karena keduanya membutuhkan spesifikasi teknis dan pengadaan. Rencana pengungsian dan pos anggaran yang dilindungi datang terakhir, dan keduanya yang menentukan apakah sisanya bertahan ketika pemerintahan berganti."
+        ],
+        "24.8": [
+            "Kota atau negara yang belum pernah mengukur kesiapsiagaannya tidak boleh menunggu garis dasar yang sempurna, karena ketiadaan angka itu sendiri adalah temuannya. Metode retrospektif murah: rekonstruksi tiga peristiwa terakhir dari catatan utilitas, rumah sakit, dinas pemadam, dan sistem persekolahan, lalu hitung metrik yang telah didaftar bab ini untuk peristiwa-peristiwa itu. Berapa lama listrik mati, berapa orang di pengungsian, berapa hari sekolah hilang, berapa klaim dibayar dan berapa lama prosesnya. Rekonstruksinya akan tidak lengkap, dan celahnya akan menunjukkan lembaga mana yang tidak menyimpan catatan yang diandalkan responsnya sendiri. Temuan itu adalah perbaikan pertama, dan biayanya beberapa pekan waktu seorang staf junior alih-alih kontrak konsultan."
+        ],
+        "24.10": [
+            "Posisi pembaca menentukan bagian mana dari buku ini yang dapat ditindaklanjuti pekan ini. Rumah tangga dapat mengemas tas, menyepakati titik temu, menjalani jalur menuju tanah lebih tinggi, mendaftar obat yang harus tetap dingin, dan mengetuk pintu tetangga yang tinggal sendiri. Profesional di utilitas, rumah sakit, sekolah, atau kantor kota dapat menemukan satu dokumen yang hilang dari rencana keberlanjutan lembaganya dan menulis paragraf yang menyediakannya. Pejabat dengan anggaran dapat melindungi pos pemeliharaan, mempublikasikan peta bahaya, atau mewajibkan latihan yang belum dijadwalkan siapa pun. Tidak satu pun cukup sendiri, dan masing-masing adalah jenis hal yang ditunjukkan studi kasus dalam buku ini sedang dilakukan atau tidak dilakukan sebelum peristiwa yang membuat perbedaan.",
+            "Jujur soal batas dari semua ini. Kesiapsiagaan tidak menghapus kerugian, dan kota yang siap pun akan mengubur orang pada peristiwa yang cukup buruk; argumen buku ini tentang margin, dan margin itulah tempat sebagian besar kematian. Kesiapsiagaan juga bukan pengganti pengurangan emisi yang menetapkan peluangnya, karena dunia yang beradaptasi sempurna terhadap iklim yang terus diperburuk sedang berlari di tempat. Keduanya saling melengkapi dengan konstanta waktu berbeda: mitigasi menentukan iklim yang diwarisi abad berikutnya, dan adaptasi menentukan siapa yang bertahan pada dekade berikutnya di iklim yang sudah ada sekarang. Pembaca yang bertindak pada salah satunya baru mengerjakan separuh, dan separuh adalah yang ditunjukkan catatan sedang dilakukan sebagian besar institusi."
+        ],
+    },
+}
