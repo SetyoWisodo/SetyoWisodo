@@ -547,7 +547,7 @@ CH1 = {
         ],
         [
             "The book can be read straight through or used as a reference. Chapters 1-3 establish the physical and institutional baseline; chapters 4-13 work through the main impact domains; chapters 14-21 turn to knowledge, preparedness and governance; chapters 22-23 examine regional cases; chapter 24 collects the practical material.",
-            "Each chapter follows the same architecture: an opening claim, four analytical sections, a case study and a scenario table. The tables can be compared across chapters, and references are consolidated in Appendix D so that a claim can be traced without hunting through footnotes.",
+            "Each chapter follows the same architecture: an opening claim, four analytical sections, a case study and a scenario table. The tables can be compared across chapters, and references are consolidated at the back of the book so that a claim can be traced without hunting through footnotes.",
             "Readers in a hurry can start with the scenario table at the end of a chapter and work backwards. Readers using the book for teaching can pair the case studies with the checklists in chapter 24. Neither route requires accepting the argument whole.",
         ],
         [
@@ -569,7 +569,7 @@ CH1 = {
         ],
         [
             "Buku ini dapat dibaca runtut atau dipakai sebagai rujukan. Bab 1-3 meletakkan dasar fisik dan institusional; bab 4-13 menelusuri ranah dampak utama; bab 14-21 beralih ke pengetahuan, kesiapsiagaan dan tata kelola; bab 22-23 menelaah kasus regional; bab 24 menghimpun bahan praktis.",
-            "Setiap bab mengikuti arsitektur yang sama: klaim pembuka, empat bagian analitis, studi kasus dan tabel skenario. Tabelnya dapat dibandingkan antarbab, dan rujukannya dihimpun di Lampiran D sehingga klaim dapat ditelusuri tanpa mencari-cari catatan kaki.",
+            "Setiap bab mengikuti arsitektur yang sama: klaim pembuka, empat bagian analitis, studi kasus dan tabel skenario. Tabelnya dapat dibandingkan antarbab, dan rujukannya dihimpun di bagian belakang buku sehingga klaim dapat ditelusuri tanpa mencari-cari catatan kaki.",
             "Pembaca yang tergesa dapat mulai dari tabel skenario di akhir bab lalu bergerak mundur. Pembaca yang memakai buku ini untuk mengajar dapat memasangkan studi kasus dengan daftar periksa di bab 24. Kedua jalur tidak menuntut penerimaan utuh atas argumennya.",
         ],
         [

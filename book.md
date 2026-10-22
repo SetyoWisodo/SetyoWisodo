@@ -5216,98 +5216,46 @@ This book is written to be argued with. When you contest or extend one of its cl
 - RCP: Representative Concentration Pathway.
 - Committed warming: Warming locked in by past emissions.
 
-# Appendix C: Index
+# Appendix C: Analytical Caveats
 
-- Adaptation
-- Air conditioning
-- Air pollution
-- Albedo
-- Aquifer
-- Attribution
-- Biodiversity
-- Carbon budget
-- Cholera
-- Climate finance
-- Climate model
-- Coastal protection
-- Committed warming
-- Conflict
-- Cooling centre
-- Coral reef
-- Deforestation
-- Dengue
-- Desalination
-- Disaster risk reduction
-- Displacement
-- Drought
-- Early warning
-- Ecosystem
-- El Niño
-- Emergence
-- Exposure
-- Extinction
-- Extreme heat
-- Feedback loop
-- Fisheries
-- Flood
-- Food security
-- Glacier
-- Greenhouse effect
-- Grid
-- Groundwater
-- Heat action plan
-- Heat dome
-- Heat mortality
-- Heatwave
-- Hurricane
-- Hydropower
-- Ice sheet
-- Infrastructure
-- Insurance
-- Irrigation
-- Justice
-- Land use
-- Livestock
-- Loss and damage
-- Malaria
-- Managed retreat
-- Mangrove
-- Mental health
-- Microgrid
-- Migration
-- Mitigation
-- Monsoon
-- Mutual aid
-- Net zero
-- Nutrition
-- Ocean acidification
-- Permafrost
-- Public health
-- Radiative forcing
-- Relocation
-- Renewable energy
-- Resilience
-- Sanitation
-- Sea ice
-- Sea level rise
-- Sensitivity
-- Settlement
-- Social capital
-- Storm surge
-- Subsidy
-- Supply chain
-- Tenure
-- Tipping point
-- Typhoon
-- Urban heat island
-- Vulnerability
-- Water security
-- Water stress
-- Wet-bulb temperature
-- Wildfire
-- Zoning
+**Heat deaths are estimates, not counts.** The 2003 European heatwave is usually given as about 70,000 excess deaths and the summer of 2022 as about 61,700. Both are modelled figures, produced by comparing observed deaths with what would have been expected, and both were revised after first publication. The direction of the comparison in Chapter 4 — a hotter summer with fewer deaths, because the institutions had changed — survives every published revision; the exact numbers do not.
 
-# Appendix D: References
+**Attribution states a change in likelihood, not a cause.** The Pacific Northwest heat dome of 2021 was described as virtually impossible without human-caused warming, which is a claim about probability, not about any single household's loss (Chapter 4, Chapter 15).
+
+**Displacement figures count movements, not people.** A person displaced twice is counted twice in the global totals, and a person who moves without crossing a border may not be counted at all. The 2023 totals discussed in Chapter 11 should be read with that double counting in mind.
+
+**The conflict literature is contested by design.** The studies cited in Chapter 12 disagree about effect size and about which forms of violence count. This book reports the disagreement rather than resolving it, and any single coefficient should be treated as one estimate within a distribution (Chapter 12).
+
+**Food balance sheets are national averages.** The per-capita figures in Chapter 7 conceal how food is distributed inside a country, and a country can be a net exporter while part of its population is food insecure (Chapter 23).
+
+**Damage estimates depend on the discount rate.** Two economists using the same data can reach very different costs of inaction because they weight the future differently. That is why the figures in Chapter 10 and Chapter 21 are presented as ranges rather than as single numbers.
+
+# Appendix D: Notes on Event Sources
+
+Figures for the named events used as cases in this book are drawn from the documentation below. Where an event figure appears in the text without a parenthetical citation, this list identifies its source.
+
+- Pakistan floods, 2022 — WMO (2023), State of the Global Climate 2023; government post-disaster needs assessment.
+- European heatwave, 2003 — Robine et al. (2008), Comptes Rendus Biologies 331(2).
+- Chicago heatwave, 1995 — Klinenberg (2002), Heat Wave: A Social Autopsy of Disaster in Chicago.
+- Hurricane Maria, Puerto Rico, 2017 — Kishore et al. (2018), New England Journal of Medicine 379.
+- Hurricane Katrina, New Orleans, 2005 — Brunkard et al. (2008), Disaster Medicine and Public Health Preparedness 2(4).
+- Pacific Northwest heat dome, 2021 — Philip et al. (2022), Earth System Dynamics 13.
+- Ahr valley floods, Germany and Belgium, 2021 — Kreienkamp et al. (2021), World Weather Attribution.
+- Black Saturday fires, Victoria, 2009 — Victorian Bushfires Royal Commission (2010), Final Report.
+- Camp Fire, Paradise, California, 2018 — CAL FIRE (2019), Camp Fire incident report.
+- Canadian wildfires, 2023 — CIFFC (2023), National Wildland Fire Situation Report.
+- Texas winter storm Uri, 2021 — FERC & NERC (2021), The February 2021 cold weather outages.
+- Somali famine, 2011 — Checchi & Robinson (2013), FAO/FSNAU mortality study.
+- Ethiopian famine, 1984–1985 — Sen (1981) entitlement framework; de Waal (1997) famine analysis.
+- Sahel droughts, 1968–1974 and 1984–1985 — IPCC (2019), Climate Change and Land; FAO (2023).
+- Chennai floods, 2015 — IPCC (2022), Impacts, Adaptation and Vulnerability, urban chapter.
+- Cape Town water crisis, 2018 — Gleick (2023), Water, Climate and Governance Crises.
+- Syrian drought, 2006–2010 — Kelley et al. (2015), PNAS 112(11); Selby et al. (2017), Political Geography 60.
+- Amazon deforestation threshold — IPCC (2019), Climate Change and Land.
+- Arctic sea-ice decline — Notz & Stroeve (2016), Science 354(6313).
+- Global temperature records — Lenssen et al. (2019); Morice et al. (2021); Rohde & Hausfather (2020); WMO (2023).
+
+# References
 
 ## Works Cited
 
@@ -5461,43 +5409,101 @@ These works informed the book's background but are not cited in the text.
 - UNDP. 2022. *Human Development Report 2021/22*. UNDP, New York.
 - Wallace-Wells, David. 2019. *The Uninhabitable Earth: Life After Warming*. Crown Publishing.
 - Wheeler, T. & von Braun, J. 2013. Climate change impacts on global food security. *Science* 341(6145): 508–513.
-# Appendix E: About the Author
+# Index
 
-**Setyo Wisodo** is a professional working across AI development, product management and digital marketing, with a focus on AI-based solutions and digital products. Based in Indonesia.
+- Adaptation
+- Adaptive capacity
+- Air conditioning
+- Air pollution
+- Albedo
+- Aquifer
+- Attribution
+- Biodiversity
+- Carbon budget
+- Cholera
+- Climate finance
+- Climate model
+- Coastal protection
+- Committed warming
+- Conflict
+- Cooling centre
+- Coral reef
+- Deforestation
+- Dengue
+- Desalination
+- Disaster risk reduction
+- Displacement
+- Drought
+- Early warning
+- Ecosystem
+- El Niño
+- Emergence
+- Exposure
+- Extinction
+- Extreme heat
+- Feedback loop
+- Fisheries
+- Flood
+- Food security
+- Glacier
+- Greenhouse effect
+- Grid
+- Groundwater
+- Heat action plan
+- Heat dome
+- Heat mortality
+- Heatwave
+- Hurricane
+- Hydropower
+- Ice sheet
+- Infrastructure
+- Insurance
+- Irrigation
+- Justice
+- Land use
+- Livestock
+- Loss and damage
+- Malaria
+- Managed retreat
+- Mangrove
+- Mental health
+- Microgrid
+- Migration
+- Mitigation
+- Monsoon
+- Mutual aid
+- Net zero
+- Nutrition
+- Ocean acidification
+- Permafrost
+- Public health
+- Radiative forcing
+- Relocation
+- Renewable energy
+- Resilience
+- SSP
+- Sanitation
+- Sea ice
+- Sea level rise
+- Sensitivity
+- Settlement
+- Social capital
+- Storm surge
+- Subsidy
+- Supply chain
+- Tenure
+- Tipping point
+- Typhoon
+- Urban heat island
+- Vulnerability
+- Water security
+- Water stress
+- Wet-bulb temperature
+- Wildfire
+- Zoning
 
-# Appendix F: Extended Analytical Notes
+# About the Author
 
-Analytical note: The relationship between climate drivers and social outcomes is mediated by institutional capacity, resource availability, and historical context. No single factor determines the result.
+**Setyo Wisodo** is a professional working across AI development, product management and digital marketing, with a focus on AI-based products and digital services.
 
-Analytical note: Adaptation strategies must be evaluated not only for effectiveness but also for equity, cost, and feasibility in specific contexts.
-
-Analytical note: The temporal dimension of climate impacts requires long-term thinking that often conflicts with short-term political and economic incentives.
-
-Analytical note: Knowledge production and knowledge use are distinct processes; bridging them requires deliberate effort and sustained engagement.
-
-Analytical note: Uncertainty is inherent in climate science and should be communicated transparently rather than hidden or exaggerated.
-
-# Appendix G: Notes on Event Sources
-
-Figures for the named events used as cases in this book are drawn from the documentation below. Where an event figure appears in the text without a parenthetical citation, this table identifies its source.
-
-- Pakistan floods, 2022 — WMO (2023), State of the Global Climate 2023; government post-disaster needs assessment.
-- European heatwave, 2003 — Robine et al. (2008), Comptes Rendus Biologies 331(2).
-- Chicago heatwave, 1995 — Klinenberg (2002), Heat Wave: A Social Autopsy of Disaster in Chicago.
-- Hurricane Maria, Puerto Rico, 2017 — Kishore et al. (2018), New England Journal of Medicine 379.
-- Hurricane Katrina, New Orleans, 2005 — Brunkard et al. (2008), Disaster Medicine and Public Health Preparedness 2(4).
-- Pacific Northwest heat dome, 2021 — Philip et al. (2022), Earth System Dynamics 13.
-- Ahr valley floods, Germany and Belgium, 2021 — Kreienkamp et al. (2021), World Weather Attribution.
-- Black Saturday fires, Victoria, 2009 — Victorian Bushfires Royal Commission (2010), Final Report.
-- Camp Fire, Paradise, California, 2018 — CAL FIRE (2019), Camp Fire incident report.
-- Canadian wildfires, 2023 — CIFFC (2023), National Wildland Fire Situation Report.
-- Texas winter storm Uri, 2021 — FERC & NERC (2021), The February 2021 cold weather outages.
-- Somali famine, 2011 — Checchi & Robinson (2013), FAO/FSNAU mortality study.
-- Ethiopian famine, 1984–1985 — Sen (1981) entitlement framework; de Waal (1997) famine analysis.
-- Sahel droughts, 1968–1974 and 1984–1985 — IPCC (2019), Climate Change and Land; FAO (2023).
-- Chennai floods, 2015 — IPCC (2022), Impacts, Adaptation and Vulnerability, urban chapter.
-- Cape Town water crisis, 2018 — Gleick (2023), Water, Climate and Governance Crises.
-- Syrian drought, 2006–2010 — Kelley et al. (2015), PNAS 112(11); Selby et al. (2017), Political Geography 60.
-- Amazon deforestation threshold — IPCC (2019), Climate Change and Land.
-- Arctic sea-ice decline — Notz & Stroeve (2016), Science 354(6313).
-- Global temperature records — Lenssen et al. (2019); Morice et al. (2021); Rohde & Hausfather (2020); WMO (2023).
+He is based in Indonesia, where the hazards this book describes — heat, flood, drought and displacement — are part of ordinary experience rather than projection. That proximity shapes the argument here: the difference between a hazard and a disaster is usually a decision, and decisions can be made differently.

@@ -5214,101 +5214,46 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 - RCP: Representative Concentration Pathway.
 - Pemanasan terkunci: Pemanasan yang terkunci dari emisi masa lalu.
 
-# Lampiran C: Indeks
+# Lampiran C: Catatan Analitis
 
-- Adaptasi
-- Agroforestri
-- Air tanah
-- Akuifer
-- Albedo
-- Anggaran karbon
-- Asuransi
-- Atribusi
-- Badai
-- Banjir
-- Banjir bandang
-- Bendungan
-- Deforestasi
-- Dekarbonisasi
-- Dengue
-- Desalinasi
-- Desertifikasi
-- Ekosistem
-- El Niño
-- Elektrifikasi
-- Es laut
-- Gelombang badai
-- Gelombang panas
-- Gizi
-- Gletser
-- Gotong royong
-- Hasil panen
-- Hidrogen
-- Infrastruktur
-- Irigasi
-- Jaringan listrik
-- Keadilan
-- Kebakaran hutan
-- Kekeringan
-- Kematian akibat panas
-- Kematian berlebih
-- Kemiskinan energi
-- Kenaikan muka laut
-- Kepadatan
-- Kerentanan
-- Kesehatan
-- Kesehatan mental
-- Kesehatan publik
-- Ketahanan pangan
-- Kolera
-- Konflik
-- Kubah panas
-- Kumuh
-- Lapisan es
-- Limbah pangan
-- Malaria
-- Mangrove
-- Migrasi
-- Mitigasi
-- Modal sosial
-- Model iklim
-- Monsun
-- Panas ekstrem
-- Pantai
-- Paparan
-- Partikulat
-- Pemadaman
-- Pendingin udara
-- Pengasaman laut
-- Pengungsi iklim
-- Pengungsian
-- Penyakit tular vektor
-- Perikanan
-- Peringatan dini
-- Permafrost
-- Permukiman
-- Permukiman informal
-- Pertanian
-- Polusi udara
-- Rantai pasok
-- Relokasi
-- Rencana aksi panas
-- Resiliensi
-- Retret terkelola
-- Salinisasi
-- Sanitasi
-- Sensitivitas
-- Subsidi
-- Suhu bola basah
-- Sungai atmosfer
-- Tanah longsor
-- Tata ruang
-- Terumbu karang
-- Titik kritis
-- Topan
-- Waduk
+**Kematian akibat panas adalah estimasi, bukan hitungan.** Gelombang panas Eropa 2003 biasanya disebut sekitar 70.000 kematian berlebih dan musim panas 2022 sekitar 61.700. Keduanya angka model, dihasilkan dengan membandingkan kematian teramati dengan yang diperkirakan terjadi, dan keduanya direvisi setelah terbit pertama kali. Arah perbandingan di Bab 4 — musim yang lebih panas dengan kematian lebih sedikit karena institusinya berubah — bertahan pada setiap revisi; angka persisnya tidak.
 
-# Lampiran D: Daftar Pustaka
+**Atribusi menyatakan perubahan peluang, bukan sebab.** Kubah panas Pasifik Barat Laut 2021 disebut nyaris mustahil tanpa pemanasan akibat manusia, dan itu pernyataan tentang peluang, bukan tentang kerugian satu rumah tangga (Bab 4, Bab 15).
+
+**Angka perpindahan menghitung pergerakan, bukan orang.** Seseorang yang berpindah dua kali dihitung dua kali dalam total global, dan seseorang yang pindah tanpa melewati batas negara mungkin tidak tercatat sama sekali. Total 2023 yang dibahas di Bab 11 sebaiknya dibaca dengan kemungkinan penghitungan ganda itu.
+
+**Literatur konflik memang diperdebatkan.** Studi yang dikutip di Bab 12 berbeda pendapat tentang ukuran efek dan tentang bentuk kekerasan apa yang dihitung. Buku ini melaporkan perdebatan itu alih-alih menyelesaikannya, dan setiap koefisien tunggal sebaiknya diperlakukan sebagai satu estimasi dalam sebaran (Bab 12).
+
+**Neraca pangan adalah rata-rata nasional.** Angka per kapita di Bab 7 menyembunyikan bagaimana pangan terdistribusi di dalam negeri, dan sebuah negara bisa menjadi eksportir bersih sementara sebagian penduduknya rawan pangan (Bab 23).
+
+**Estimasi kerugian bergantung pada tingkat diskonto.** Dua ekonom dengan data yang sama dapat menghasilkan biaya kelambatan yang sangat berbeda karena memberi bobot berbeda pada masa depan. Itulah sebabnya angka di Bab 10 dan Bab 21 disajikan sebagai rentang, bukan satu bilangan.
+
+# Lampiran D: Catatan Sumber Peristiwa
+
+Angka untuk peristiwa bernama yang dipakai sebagai studi kasus dalam buku ini diambil dari dokumentasi di bawah. Bila suatu angka peristiwa muncul dalam teks tanpa sitasi dalam kurung, daftar ini menunjukkan sumbernya.
+
+- Banjir Pakistan, 2022 — WMO (2023), State of the Global Climate 2023; penilaian kebutuhan pascabencana pemerintah.
+- Gelombang panas Eropa, 2003 — Robine dkk. (2008), Comptes Rendus Biologies 331(2).
+- Gelombang panas Chicago, 1995 — Klinenberg (2002), Heat Wave: A Social Autopsy of Disaster in Chicago.
+- Badai Maria, Puerto Rico, 2017 — Kishore dkk. (2018), New England Journal of Medicine 379.
+- Badai Katrina, New Orleans, 2005 — Brunkard dkk. (2008), Disaster Medicine and Public Health Preparedness 2(4).
+- Kubah panas Pacific Northwest, 2021 — Philip dkk. (2022), Earth System Dynamics 13.
+- Banjir lembah Ahr, Jerman dan Belgia, 2021 — Kreienkamp dkk. (2021), World Weather Attribution.
+- Kebakaran Black Saturday, Victoria, 2009 — Victorian Bushfires Royal Commission (2010), Final Report.
+- Kebakaran Camp, Paradise, California, 2018 — CAL FIRE (2019), laporan insiden Camp Fire.
+- Kebakaran hutan Kanada, 2023 — CIFFC (2023), National Wildland Fire Situation Report.
+- Badai musim dingin Texas Uri, 2021 — FERC & NERC (2021), The February 2021 cold weather outages.
+- Kelaparan Somalia, 2011 — Checchi & Robinson (2013), studi mortalitas FAO/FSNAU.
+- Kelaparan Etiopia, 1984–1985 — Kerangka hak Sen (1981); analisis kelaparan de Waal (1997).
+- Kekeringan Sahel, 1968–1974 dan 1984–1985 — IPCC (2019), Climate Change and Land; FAO (2023).
+- Banjir Chennai, 2015 — IPCC (2022), Impacts, Adaptation and Vulnerability, bab perkotaan.
+- Krisis air Cape Town, 2018 — Gleick (2023), Water, Climate and Governance Crises.
+- Kekeringan Suriah, 2006–2010 — Kelley dkk. (2015), PNAS 112(11); Selby dkk. (2017), Political Geography 60.
+- Ambang deforestasi Amazon — IPCC (2019), Climate Change and Land.
+- Penurunan es laut Arktik — Notz & Stroeve (2016), Science 354(6313).
+- Rekor suhu global — Lenssen dkk. (2019); Morice dkk. (2021); Rohde & Hausfather (2020); WMO (2023).
+
+# Daftar Pustaka
 
 ## Karya yang Dikutip
 
@@ -5462,47 +5407,104 @@ Karya berikut memperkaya latar penulisan tetapi tidak dikutip dalam teks.
 - UNDP. 2022. *Human Development Report 2021/22*. UNDP, New York.
 - Wallace-Wells, David. 2019. *The Uninhabitable Earth: Life After Warming*. Crown Publishing.
 - Wheeler, T. & von Braun, J. 2013. Climate change impacts on global food security. *Science* 341(6145): 508–513.
-# Lampiran E: Biografi Penulis
+# Indeks
 
-**Setyo Wisodo** adalah profesional yang menggabungkan keahlian dalam Pengembangan AI, Manajemen Produk, dan Pemasaran Digital. Aktif dalam pengembangan solusi berbasis AI dan produk digital. Lokasi: Indonesia.
+- Adaptasi
+- Agroforestri
+- Air tanah
+- Akuifer
+- Albedo
+- Anggaran karbon
+- Asuransi
+- Atribusi
+- Badai
+- Banjir
+- Banjir bandang
+- Bendungan
+- Deforestasi
+- Dekarbonisasi
+- Dengue
+- Desalinasi
+- Desertifikasi
+- Ekosistem
+- El Niño
+- Elektrifikasi
+- Es laut
+- Gelombang badai
+- Gelombang panas
+- Gizi
+- Gletser
+- Gotong royong
+- Hasil panen
+- Hidrogen
+- Infrastruktur
+- Irigasi
+- Jaringan listrik
+- Kapasitas adaptif
+- Keadilan
+- Kebakaran hutan
+- Kekeringan
+- Kematian akibat panas
+- Kematian berlebih
+- Kemiskinan energi
+- Kenaikan muka laut
+- Kepadatan
+- Kerentanan
+- Kesehatan
+- Kesehatan mental
+- Kesehatan publik
+- Ketahanan pangan
+- Kolera
+- Konflik
+- Kubah panas
+- Kumuh
+- Lapisan es
+- Limbah pangan
+- Malaria
+- Mangrove
+- Migrasi
+- Mitigasi
+- Modal sosial
+- Model iklim
+- Monsun
+- Panas ekstrem
+- Pantai
+- Paparan
+- Partikulat
+- Pemadaman
+- Pendingin udara
+- Pengasaman laut
+- Pengungsi iklim
+- Pengungsian
+- Penyakit tular vektor
+- Perikanan
+- Peringatan dini
+- Permafrost
+- Permukiman
+- Permukiman informal
+- Pertanian
+- Polusi udara
+- Rantai pasok
+- Relokasi
+- Rencana aksi panas
+- Resiliensi
+- Retret terkelola
+- SSP
+- Salinisasi
+- Sanitasi
+- Sensitivitas
+- Subsidi
+- Suhu bola basah
+- Sungai atmosfer
+- Tanah longsor
+- Tata ruang
+- Terumbu karang
+- Titik kritis
+- Topan
+- Waduk
 
-Tambahan: Buku ini merupakan dokumen hidup. Pembaca didorong untuk memperbarui pengetahuan seiring munculnya bukti baru.
+# Tentang Penulis
 
-Tambahan: Setiap pembaca memiliki peran. Mulailah dari tempat Anda berada, gunakan apa yang Anda miliki, dan lakukan apa yang Anda bisa.
+**Setyo Wisodo** bekerja di bidang pengembangan AI, manajemen produk, dan pemasaran digital, dengan fokus pada produk berbasis AI dan layanan digital.
 
-# Lampiran F: Catatan Analitis Lanjutan
-
-Catatan analitis: Hubungan antara pendorong iklim dan luaran sosial dimediasi oleh kapasitas kelembagaan, ketersediaan sumber daya, dan konteks historis. Tidak ada satu faktor yang menentukan hasilnya.
-
-Catatan analitis: Strategi adaptasi harus dinilai bukan hanya dari efektivitasnya, tetapi juga dari keadilan, biaya, dan kelayakannya dalam konteks tertentu.
-
-Catatan analitis: Dimensi waktu dari dampak iklim menuntut pemikiran jangka panjang yang sering bertentangan dengan insentif politik dan ekonomi jangka pendek.
-
-Catatan analitis: Produksi pengetahuan dan penggunaan pengetahuan adalah dua proses yang berbeda; menjembatani keduanya memerlukan usaha yang sengaja dan keterlibatan yang berkelanjutan.
-
-Catatan analitis: Ketidakpastian melekat dalam ilmu iklim dan harus dikomunikasikan secara transparan, bukan disembunyikan atau dibesar-besarkan.
-
-# Lampiran G: Catatan Sumber Peristiwa
-
-Angka untuk peristiwa bernama yang dipakai sebagai kasus dalam buku ini diambil dari dokumentasi berikut. Bila angka sebuah peristiwa muncul dalam teks tanpa sitasi kurung, tabel ini menyebut sumbernya.
-
-- Banjir Pakistan, 2022 — WMO (2023), State of the Global Climate 2023; penilaian kebutuhan pascabencana pemerintah.
-- Gelombang panas Eropa, 2003 — Robine dkk. (2008), Comptes Rendus Biologies 331(2).
-- Gelombang panas Chicago, 1995 — Klinenberg (2002), Heat Wave: A Social Autopsy of Disaster in Chicago.
-- Badai Maria, Puerto Rico, 2017 — Kishore dkk. (2018), New England Journal of Medicine 379.
-- Badai Katrina, New Orleans, 2005 — Brunkard dkk. (2008), Disaster Medicine and Public Health Preparedness 2(4).
-- Kubah panas Pacific Northwest, 2021 — Philip dkk. (2022), Earth System Dynamics 13.
-- Banjir lembah Ahr, Jerman dan Belgia, 2021 — Kreienkamp dkk. (2021), World Weather Attribution.
-- Kebakaran Black Saturday, Victoria, 2009 — Victorian Bushfires Royal Commission (2010), Final Report.
-- Kebakaran Camp, Paradise, California, 2018 — CAL FIRE (2019), laporan insiden Camp Fire.
-- Kebakaran hutan Kanada, 2023 — CIFFC (2023), National Wildland Fire Situation Report.
-- Badai musim dingin Texas Uri, 2021 — FERC & NERC (2021), The February 2021 cold weather outages.
-- Kelaparan Somalia, 2011 — Checchi & Robinson (2013), studi mortalitas FAO/FSNAU.
-- Kelaparan Etiopia, 1984–1985 — Kerangka hak Sen (1981); analisis kelaparan de Waal (1997).
-- Kekeringan Sahel, 1968–1974 dan 1984–1985 — IPCC (2019), Climate Change and Land; FAO (2023).
-- Banjir Chennai, 2015 — IPCC (2022), Impacts, Adaptation and Vulnerability, bab perkotaan.
-- Krisis air Cape Town, 2018 — Gleick (2023), Water, Climate and Governance Crises.
-- Kekeringan Suriah, 2006–2010 — Kelley dkk. (2015), PNAS 112(11); Selby dkk. (2017), Political Geography 60.
-- Ambang deforestasi Amazon — IPCC (2019), Climate Change and Land.
-- Penurunan es laut Arktik — Notz & Stroeve (2016), Science 354(6313).
-- Rekor suhu global — Lenssen dkk. (2019); Morice dkk. (2021); Rohde & Hausfather (2020); WMO (2023).
+Ia berbasis di Indonesia, tempat bahaya yang diuraikan buku ini — panas, banjir, kekeringan, dan perpindahan — adalah pengalaman sehari-hari, bukan proyeksi. Kedekatan itu membentuk argumen buku ini: perbedaan antara bahaya dan bencana biasanya adalah keputusan, dan keputusan dapat diambil secara berbeda.

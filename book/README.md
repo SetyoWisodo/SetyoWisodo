@@ -12,8 +12,8 @@ Case Study and a Future Scenarios section that states what would falsify its own
 
 | | EN | ID |
 |---|---|---|
-| Pages (A4, 12 pt Tinos) | **412** | **432** |
-| Words (`wc -w`) | **199,787** | **166,362** |
+| Pages (A4, 12 pt Tinos) | **425** | **437** |
+| Words (`wc -w`) | **200,023** | **166,515** |
 | In-text citations | 402 | 350 |
 | References | 145 (130 cited in text) | 145 (124 cited in text) |
 | PDF outline entries | 327 | 327 |
@@ -22,13 +22,13 @@ Case Study and a Future Scenarios section that states what would falsify its own
 
 | File | Purpose |
 |---|---|
-| `Surviving_the_Future.pdf` (repo root) | A4 reading/print PDF, 412 pp |
-| `Surviving_the_Future_ID.pdf` (repo root) | A4 reading/print PDF, 432 pp |
-| `*_cover_print.pdf` | Full paperback wrap (back + spine + front), 300 dpi, 0.125 in bleed, spine sized from the page count |
+| `Surviving_the_Future.pdf` (repo root) | A4 reading/print PDF, 425 pp |
+| `Surviving_the_Future_ID.pdf` (repo root) | A4 reading/print PDF, 437 pp |
+| `*_cover_print.pdf` | Full paperback wrap (back + spine + front), 300 dpi, 0.125 in bleed, spine sized from the page count, with a clear 2 × 1.2 in retail barcode area |
 | `*_cover_front.jpg` | Front cover, for ebook and marketplaces |
-| `*.epub` | EPUB 3 ebook (nav + NCX, XHTML tables, cover page) |
-| `*.docx` | Editable manuscript, Times New Roman 12 pt, justified, 12.7 mm first-line indent |
-| `*_interior.pdf` | Byte-identical copy of the A4 interior PDF (412 / 432 pp) for uploading with the cover |
+| `*.epub` | EPUB 3 ebook (title and copyright pages, nav + NCX + landmarks, accessibility metadata, XHTML tables with `th scope`) |
+| `*.docx` | Editable manuscript: A4, mirror margins, Times New Roman 12 pt, justified, 12.7 mm indent, Heading styles, TOC field, running heads and page numbers |
+| `*_interior.pdf` | Byte-identical copy of the A4 interior PDF (425 / 437 pp) for uploading with the cover |
 | `build_report.json` | Page count, trim, bleed, spine width, cover size, dpi and file paths per edition |
 
 The interior PDFs are A4 with 30 mm margins, and `book/publish/*_interior.pdf` are byte-identical
@@ -62,7 +62,8 @@ be out of date by a page or two.
 | `check_citations.py` | every in-text citation has a reference entry, and every entry is cited; no year mismatches |
 | `fact_check.py` | ~46 canonical facts (figures, dates, death tolls) agree across the prose |
 | `data_consistency.py` | numbers of the same kind do not contradict each other between sentences |
-| `audit_production.py` | PDF metadata, outline, blank pages, margin overflow, dangling headings, TOC/page agreement, embedded fonts |
+| `audit_production.py` | PDF metadata, outline, blank pages, margin overflow (mirror-margin aware), dangling headings, TOC/page agreement, embedded fonts |
+| `audit_epub.py` | EPUB 3 structure without `epubcheck`: mimetype, container, manifest/spine, link and anchor targets, nav vs NCX, well-formedness |
 | `audit_redundancy.py` | paragraphs that restate the same facts in different words (scores by shared numbers, names, rare terms) |
 | `map_dups.py`, `para_tool.py` | locate and rewrite those paragraphs at their source module |
 

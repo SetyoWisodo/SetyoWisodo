@@ -53,6 +53,58 @@ L = {
 }
 
 
+# ------------------------------------------------------ edisi & hak cipta ----
+RUNNING = {
+    "en": "SURVIVING THE FUTURE",
+    "id": "BERTAHAN HIDUP DI MASA DEPAN",
+}
+
+COPY = {
+    "en": {
+        "title": "SURVIVING THE FUTURE",
+        "sub": "Crisis, Climate, and Human Resilience",
+        "author": "Setyo Wisodo",
+        "edition": "First edition, 2026",
+        "published": "Published by Setyo Wisodo.",
+        "rights": "Copyright \u00a9 2026 Setyo Wisodo. All rights reserved.",
+        "legal": ("No part of this publication may be reproduced, distributed, or transmitted in any form "
+                  "or by any means, including photocopying, recording, or other electronic or mechanical "
+                  "methods, without the prior written permission of the author, except in the case of brief "
+                  "quotations embodied in critical reviews and certain other noncommercial uses permitted "
+                  "by copyright law."),
+        "disclaimer": ("The information in this book is provided for general information and education. It is "
+                       "not medical, legal, financial or engineering advice, and it does not replace the "
+                       "judgement of a qualified professional. Death tolls, projections and risk estimates are "
+                       "those reported by the cited sources at the time of writing; official statistics are "
+                       "revised, sometimes for years, and readers should consult the original sources before "
+                       "relying on any figure for a decision."),
+        "credits": ("Cover design by the author. Set in Tinos, a metric-compatible alternative to Times New "
+                    "Roman, 12/15 pt."),
+    },
+    "id": {
+        "title": "BERTAHAN HIDUP DI MASA DEPAN",
+        "sub": "Krisis, Iklim, dan Ketahanan Manusia",
+        "author": "Setyo Wisodo",
+        "edition": "Edisi pertama, 2026",
+        "published": "Diterbitkan oleh Setyo Wisodo.",
+        "rights": "Hak cipta \u00a9 2026 Setyo Wisodo. Seluruh hak dilindungi.",
+        "legal": ("Tidak ada bagian dari publikasi ini yang boleh diperbanyak, didistribusikan, atau "
+                  "ditransmisikan dalam bentuk atau dengan cara apa pun, termasuk fotokopi, rekaman, atau "
+                  "metode elektronik dan mekanis lainnya, tanpa izin tertulis dari penulis, kecuali untuk "
+                  "kutipan singkat dalam ulasan kritis dan penggunaan nonkomersial tertentu yang diizinkan "
+                  "oleh undang-undang hak cipta."),
+        "disclaimer": ("Informasi dalam buku ini disediakan untuk pengetahuan umum dan pendidikan. Buku ini "
+                       "bukan nasihat medis, hukum, keuangan, atau teknik, dan tidak menggantikan pertimbangan "
+                       "profesional yang berwenang. Angka kematian, proyeksi, dan estimasi risiko adalah angka "
+                       "yang dilaporkan sumber yang dikutip pada saat penulisan; statistik resmi direvisi, "
+                       "kadang selama bertahun-tahun, dan pembaca sebaiknya memeriksa sumber aslinya sebelum "
+                       "memakai angka apa pun untuk mengambil keputusan."),
+        "credits": ("Desain sampul oleh penulis. Disusun dengan Tinos, alternatif metrik yang setara Times New "
+                    "Roman, 12/15 pt."),
+    },
+}
+
+
 # ----------------------------------------------------------------- inline ----
 def parse_runs(text):
     """Pecah teks menjadi run (teks, style) dengan style '', 'B', 'I'."""
@@ -93,8 +145,11 @@ def tokenize(pdf, text):
 
 
 # ------------------------------------------------------------------ text -----
+_CUR_PT = BODY_PT      # ukuran huruf aktif, dipakai pengukur lebar kata
+
+
 def word_width(pdf, word, style):
-    pdf.set_font("TNR", style, BODY_PT)
+    pdf.set_font("TNR", style, _CUR_PT)
     return pdf.get_string_width(word)
 
 
@@ -223,6 +278,8 @@ def layout_lines(pdf, tokens, first_width, width):
 def draw_paragraph(pdf, text, indent=INDENT, align="J", size=BODY_PT,
                    line_h=LINE_H, left=0.0, right=0.0):
     """Paragraf rata kiri-kanan (justify) dengan baris pertama masuk 12,7 mm."""
+    global _CUR_PT
+    _CUR_PT = size
     tokens = tokenize(pdf, text.strip())
     if not tokens:
         return
@@ -292,26 +349,38 @@ def draw_heading(pdf, text, level, chapter_no=None, lang="en"):
         if pdf.get_y() > pdf.t_margin + 2:
             pdf.add_page()
             pdf.set_y(pdf.t_margin)
-        pdf.ln(1.0)
-        pdf.set_font("TNR", "B", size)
         m = re.match(r"^(Chapter|Bab)\s+([0-9]+|[A-Z])\s*[:\u2013-]\s*(.+)$", text)
         if m and m.group(2).isdigit():
-            # halaman pembuka bab: "CHAPTER 1" satu baris, judul bab di baris bawahnya
-            pdf.multi_cell(0, 5.6, f"{m.group(1).upper()} {m.group(2)}", align="C")
-            pdf.ln(1.4)
-            pdf.multi_cell(0, h, m.group(3).strip().upper(), align="C")
+            # halaman pembuka bab: nomor bab, judul besar, lalu tema sebagai epigraf
+            pdf.ln(20.0)
+            try:
+                pdf.set_char_spacing(1.8)
+            except Exception:
+                pass
+            pdf.set_font("TNR", "", 10.5)
+            pdf.multi_cell(0, 5.4, f"{m.group(1).upper()} {m.group(2)}", align="C")
+            try:
+                pdf.set_char_spacing(0)
+            except Exception:
+                pass
+            pdf.ln(3.2)
+            pdf.set_font("TNR", "B", 19.0)
+            pdf.multi_cell(0, 8.2, m.group(3).strip().upper(), align="C")
+            pdf.ln(5.0)
         else:
-            pdf.multi_cell(0, h, text.upper(), align="C")
-        pdf.ln(2.0)
+            pdf.ln(16.0)
+            pdf.set_font("TNR", "B", 16.0)
+            pdf.multi_cell(0, 7.2, text.upper(), align="C")
+            pdf.ln(4.0)
         return
     need = h * (2 if level == 2 else 1) + 7
     if pdf.get_y() + need > pdf.page_break_trigger:
         pdf.add_page()
         pdf.set_y(pdf.t_margin)
-    pdf.ln(1.8 if level == 2 else 1.2)
+    pdf.ln(4.2 if level == 2 else 1.6)
     pdf.set_font("TNR", "B" if level <= 2 else "BI", size)
     pdf.multi_cell(0, h, text, align="L")
-    pdf.ln(1.0 if level == 2 else 0.6)
+    pdf.ln(2.0 if level == 2 else 0.8)
 
 
 # ----------------------------------------------------------------- table -----
@@ -409,6 +478,79 @@ def draw_table(pdf, rows, caption=None, lang="en", col_widths=None):
 
 
 # ------------------------------------------------------------------ toc ------
+ISBN = ""          # isi dengan ISBN 13 digit bila sudah terbit
+
+SEE_ALSO = {
+    "en": {
+        "adaptation": ["Adaptive capacity", "Climate finance", "Disaster risk reduction"],
+        "conflict": ["Displacement", "Food security"],
+        "drought": ["Groundwater", "Irrigation", "Water stress"],
+        "flood": ["Coastal protection", "Storm surge", "Zoning"],
+        "food security": ["Irrigation", "Nutrition"],
+        "grid": ["Renewable energy"],
+        "heatwave": ["Heat action plan", "Heat mortality"],
+        "insurance": ["Climate finance", "Disaster risk reduction"],
+        "wildfire": ["Air pollution", "Heat action plan"],
+    },
+    "id": {
+        "adaptasi": ["Kapasitas adaptif", "Pembiayaan iklim", "Pengurangan risiko bencana"],
+        "konflik": ["Perpindahan", "Ketahanan pangan"],
+        "kekeringan": ["Air tanah", "Irigasi", "Stres air"],
+        "banjir": ["Perlindungan pesisir", "Gelombang badai", "Tata guna lahan"],
+        "ketahanan pangan": ["Irigasi", "Gizi"],
+        "jaringan listrik": ["Energi terbarukan"],
+        "gelombang panas": ["Rencana aksi panas", "Kematian akibat panas"],
+        "asuransi": ["Pembiayaan iklim", "Pengurangan risiko bencana"],
+        "kebakaran": ["Polusi udara", "Rencana aksi panas"],
+    },
+}
+
+
+
+def index_ranges(pages):
+    """Rapatkan nomor halaman indeks menjadi rentang, atau 'passim' bila merata."""
+    ps = sorted({int(x) for x in pages})
+    if not ps:
+        return ""
+    if len(ps) >= 30:
+        return "passim"
+    out, i = [], 0
+    while i < len(ps):
+        j = i
+        while j + 1 < len(ps) and ps[j + 1] == ps[j] + 1:
+            j += 1
+        if j == i:
+            out.append(str(ps[i]))
+        elif j == i + 1:
+            out.append("%d, %d" % (ps[i], ps[j]))
+        else:
+            out.append("%d\u2013%d" % (ps[i], ps[j]))
+        i = j + 1
+    return ", ".join(out)
+
+
+def draw_copyright(pdf, lang="en"):
+    """Halaman hak cipta (verso halaman judul)."""
+    c = COPY[lang]
+    pdf.set_xy(pdf.l_margin, 92)
+    pdf.set_font("TNR", "B", 11.5)
+    pdf.cell(0, 6, c["title"], align="C", new_x="LMARGIN", new_y="NEXT")
+    pdf.set_font("TNR", "", 10.5)
+    pdf.cell(0, 5.4, c["sub"], align="C", new_x="LMARGIN", new_y="NEXT")
+    pdf.ln(2.5)
+    pdf.cell(0, 5.4, c["author"], align="C", new_x="LMARGIN", new_y="NEXT")
+    pdf.ln(13)
+    pdf.set_font("TNR", "", 9.5)
+    blocks = [(c["edition"], 1.6), (c["published"], 1.6)]
+    if ISBN:
+        blocks.append(("ISBN " + ISBN, 1.6))
+    blocks += [(c["rights"], 3.4), (c["legal"], 3.4), (c["disclaimer"], 3.4), (c["credits"], 0.0)]
+    for txt, gap in blocks:
+        pdf.multi_cell(0, 4.5, txt, align="L")
+        if gap:
+            pdf.ln(gap)
+
+
 def toc_line_height(pdf, label, indent=0.0):
     """Perkirakan tinggi satu entri daftar isi (mm) untuk cegah terpotong."""
     h = 5.8
@@ -467,8 +609,9 @@ def draw_toc_line(pdf, label, page_no, indent=0.0, bold=False):
 def draw_toc(pdf, entries, tables, lang="en"):
     """entries: [(label, page, indent)], tables: [(caption, page)]."""
     cfg = L[lang]
-    pdf.add_page()
     pdf.front = False
+    pdf.running_fallback = cfg["toc"]
+    pdf.add_page()
     pdf.ln(4)
     pdf.set_font("TNR", "B", BODY_PT)
     pdf.cell(0, 7, cfg["toc"], align="C", new_x="LMARGIN", new_y="NEXT")
@@ -484,6 +627,7 @@ def draw_toc(pdf, entries, tables, lang="en"):
                          align="C", new_x="LMARGIN", new_y="NEXT")
                 pdf.ln(3)
         draw_toc_line(pdf, label, page_no, indent=indent, bold=(indent == 0.0))
+    pdf.running_fallback = cfg["lot"]
     pdf.add_page()
     pdf.set_font("TNR", "B", BODY_PT)
     pdf.cell(0, 7, cfg["lot"], align="C", new_x="LMARGIN", new_y="NEXT")
@@ -500,6 +644,7 @@ class Book(FPDF):
     def __init__(self, lang="en"):
         super().__init__(orientation="P", unit="mm", format="A4")
         self.lang = lang
+        self.book_lang = lang          # set_lang() menimpa self.lang dengan "en-US"
         self.set_margins(left=30, top=30, right=30)
         self.set_auto_page_break(auto=True, margin=40)
         import os
@@ -518,6 +663,11 @@ class Book(FPDF):
         self.front = True          # cover + TOC
         self.opening = False       # halaman pembuka bab
         self.chapter_starts = set()
+        # margin cermin (gutter) untuk buku jilid: dalam 34 mm, luar 26 mm,
+        # sehingga lebar kolom tetap 150 mm dan paginasi tidak bergeser
+        self.inner_margin = 34.0
+        self.outer_margin = 26.0
+        self.running_fallback = ""
         self._hyph = make_hyphenator(lang)
         # --- metadata dokumen (Gate 6) ---
         _cfg = L[lang]
@@ -533,12 +683,48 @@ class Book(FPDF):
         except Exception:
             pass
 
+    def _running_title(self):
+        """Judul untuk kepala halaman recto: tanpa nomor bab, huruf besar."""
+        t = self.chapter_title or self.running_fallback or RUNNING[self.book_lang]
+        t = re.sub(r"^(Chapter|Bab)\s+\d+\s*[:.]\s*", "", t)
+        t = t.upper()
+        if len(t) > 58:
+            t = t[:55].rstrip(" ,;:") + "\u2026"
+        return t
+
     def header(self):
-        """Tanpa header berjalan: judul bab hanya dicetak di halaman pembuka bab."""
-        return
+        """Kepala halaman berjalan + margin cermin.
+
+        Halaman 1-2 (judul dan hak cipta) simetris dan tanpa kepala; halaman
+        pembuka bab juga tanpa kepala, sesuai kebiasaan buku cetak.
+        """
+        if self.page <= 2:
+            self.set_left_margin(30)
+            self.set_right_margin(30)
+            self.x = self.l_margin
+            return
+        if self.page % 2 == 1:                 # recto: punggung di kiri
+            self.set_left_margin(self.inner_margin)
+            self.set_right_margin(self.outer_margin)
+        else:                                  # verso: punggung di kanan
+            self.set_left_margin(self.outer_margin)
+            self.set_right_margin(self.inner_margin)
+        self.x = self.l_margin
+        if self.opening:
+            self.opening = False
+            return
+        y = self.get_y()
+        self.set_font("TNR", "", 8.5)
+        self.set_xy(self.l_margin, 17.0)
+        if self.page % 2 == 0:
+            self.cell(self.epw, 5, RUNNING[self.book_lang], align="L")
+        else:
+            self.cell(self.epw, 5, self._running_title(), align="R")
+        self.set_xy(self.l_margin, y)
 
     def footer(self):
-        if self.page == 1:
+        """Folio di tepi luar; halaman pembuka bab di tengah bawah."""
+        if self.page <= 2:
             return
         y_saved = self.get_y()
         self.set_y(-14)
@@ -546,8 +732,10 @@ class Book(FPDF):
         num = "%d" % self.page
         if self.page in self.chapter_starts:
             self.cell(0, 5, num, align="C")
-        else:
+        elif self.page % 2 == 1:
             self.cell(0, 5, num, align="R")
+        else:
+            self.cell(0, 5, num, align="L")
         self.set_y(y_saved)
 
 
@@ -624,7 +812,7 @@ def render(md_path, out_pdf, lang="en", title=None):
     index_terms, in_index = [], False
     for b in blocks:
         if b[0] == "h1":
-            in_index = bool(re.match(r"^(Appendix|Lampiran) C\b", b[1]))
+            in_index = bool(re.match(r"^(Appendix|Lampiran) C\b|^(Index|Indeks)$", b[1]))
         elif b[0] == "li" and in_index:
             index_terms.append(b[1].strip())
     index_lookup = {t.lower(): t for t in index_terms}
@@ -633,6 +821,8 @@ def render(md_path, out_pdf, lang="en", title=None):
 
     def build(page_map=None, table_map=None, index_map=None):
         pdf = Book(lang)
+        cright = COPY[lang]
+        pdf._idx_letter = None
         if index_map is None:
             index_map = {}
         # ---------- cover ----------
@@ -654,6 +844,16 @@ def render(md_path, out_pdf, lang="en", title=None):
         pdf.cell(0, 7, cfg["cover_author"], align="C", new_x="LMARGIN", new_y="NEXT")
         pdf.cell(0, 7, cfg["cover_year"], align="C", new_x="LMARGIN", new_y="NEXT")
         pdf.cell(0, 7, cfg["cover_edition"], align="C", new_x="LMARGIN", new_y="NEXT")
+        pdf.set_auto_page_break(False)
+        pdf.set_xy(pdf.l_margin, pdf.h - 42)
+        pdf.set_font("TNR", "", 9.5)
+        pdf.cell(0, 5.5, cright["published"], align="C", new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(0, 5.5, cright["edition"], align="C", new_x="LMARGIN", new_y="NEXT")
+        pdf.set_auto_page_break(True, 40)
+
+        # ---------- halaman hak cipta ----------
+        pdf.add_page()
+        draw_copyright(pdf, lang)
 
         # ---------- daftar isi (2 pass) ----------
         if page_map is None:
@@ -689,20 +889,33 @@ def render(md_path, out_pdf, lang="en", title=None):
                     pdf.add_page()
                     pdf.set_y(pdf.t_margin)
                 if getattr(pdf, "index_mode", False) and txt.strip().lower() in index_lookup:
-                    pgx = sorted(index_map.get(index_lookup[txt.strip().lower()], []))
+                    term = txt.strip()
+                    pgx = sorted(index_map.get(term, []))
                     if not pgx:
                         continue
-                    if len(pgx) > 10:
-                        tail = ", ".join(str(x) for x in pgx[:10]) + " et passim"
-                    else:
-                        tail = ", ".join(str(x) for x in pgx)
-                    draw_paragraph(pdf, ("**" + txt.strip() + "**" + (", " + tail if tail else "")),
-                                   indent=0.0, align="L")
-                    pdf.ln(1.5)
+                    letter = term[0].upper()
+                    if letter != getattr(pdf, "_idx_letter", None):
+                        pdf._idx_letter = letter
+                        if pdf.get_y() > pdf.t_margin + 2:
+                            pdf.ln(2.5)
+                        pdf.set_font("TNR", "B", 11)
+                        pdf.cell(0, 5.5, letter, new_x="LMARGIN", new_y="NEXT")
+                        pdf.ln(1.0)
+                    locs = index_ranges(pgx)
+                    tail = ("**" + term + "**")
+                    if locs:
+                        tail = "**" + term + ",** " + locs
+                    also = SEE_ALSO.get(pdf.book_lang, {}).get(term.lower())
+                    if also:
+                        tail += ". See also " + ", ".join(also) + "." if pdf.book_lang == "en" \
+                                else ". Lihat juga " + ", ".join(also) + "."
+                    draw_paragraph(pdf, tail, indent=-6.0, left=6.0, align="L",
+                                   size=10.5, line_h=4.5)
+                    pdf.ln(0.9)
                     continue
                 if getattr(pdf, "ref_mode", False):
-                    draw_paragraph(pdf, txt, indent=0.0, align="L")
-                    pdf.ln(3.0)
+                    draw_paragraph(pdf, txt, indent=-8.0, left=8.0, align="L", size=10.5, line_h=4.5)
+                    pdf.ln(2.6)
                     continue
                 y = pdf.get_y()
                 pdf.set_xy(pdf.l_margin + 2.0, y)
@@ -715,9 +928,12 @@ def render(md_path, out_pdf, lang="en", title=None):
                 flush_li(pdf)
             if kind == "h1":
                 title_txt = val
-                pdf.ref_mode = bool(re.match(r"^(Appendix|Lampiran) D\b", title_txt))
-                pdf.index_mode = bool(re.match(r"^(Appendix|Lampiran) C\b", title_txt))
+                pdf.ref_mode = bool(re.match(
+                    r"^(Appendix|Lampiran) D\b|^(References|Daftar Pustaka)$", title_txt))
+                pdf.index_mode = bool(re.match(
+                    r"^(Appendix|Lampiran) C\b|^(Index|Indeks)$", title_txt))
                 pdf.chapter_title = title_txt
+                pdf.opening = True
                 pdf.add_page()
                 pdf.chapter_starts.add(pdf.page)
                 new_pages[title_txt] = pdf.page
@@ -741,19 +957,24 @@ def render(md_path, out_pdf, lang="en", title=None):
             elif kind == "li":
                 li_buf.append(val)
                 if (index_re is not None and not getattr(pdf, "index_mode", False)
-                        and not re.match(r"^(Appendix|Lampiran)", pdf.chapter_title or "")):
+                        and not getattr(pdf, "ref_mode", False)
+                        and not re.match(r"^(Appendix|Lampiran|About the Author|Tentang Penulis)$",
+                                        pdf.chapter_title or "")):
                     for m in index_re.finditer(val):
                         key = index_lookup.get(m.group(1).lower())
                         if key:
                             index_map.setdefault(key, set()).add(pdf.page)
             elif re.match(r"^\*(Theme|Tema):", val):
-                draw_paragraph(pdf, val, indent=0.0, align="L")
-                pdf.ln(0.8)
+                pdf.set_font("TNR", "I", 10.5)
+                pdf.multi_cell(0, 5.2, val.replace("*", ""), align="C")
+                pdf.ln(4.0)
             else:
                 start_pg = pdf.page
                 draw_paragraph(pdf, val)
                 if (index_re is not None and not getattr(pdf, "index_mode", False)
-                        and not re.match(r"^(Appendix|Lampiran)", pdf.chapter_title or "")):
+                        and not getattr(pdf, "ref_mode", False)
+                        and not re.match(r"^(Appendix|Lampiran|About the Author|Tentang Penulis)$",
+                                        pdf.chapter_title or "")):
                     for key in {index_lookup[m.group(1).lower()] for m in index_re.finditer(val)}:
                         if key:
                             for pg_i in range(start_pg, pdf.page + 1):

@@ -20,8 +20,8 @@ import sys
 
 import references as R
 
-PAIRS = [("book.md", R.REFS_EN, "# Appendix D", "en"),
-         ("book_id.md", R.REFS_ID, "# Lampiran D", "id")]
+PAIRS = [("book.md", R.REFS_EN, "# References", "en"),
+         ("book_id.md", R.REFS_ID, "# Daftar Pustaka", "id")]
 
 YEAR = r"(?:18|19|20)\d{2}[a-z]?"
 # "Nama", "Nama et al.", "Nama dkk.", "Nama & Nama", "Nama, Nama and Nama"

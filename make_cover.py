@@ -198,13 +198,21 @@ def build(cfg):
             y += line_h
         y += px(0.12)
 
-    # blok penulis di bawah sampul belakang
+    # ---------- zona barcode ritel (dibiarkan kosong) ----------
+    bc_w, bc_h = 2.0, 1.2                      # inci, ukuran minimum EAN-13
+    bc_x0 = px(BLEED + TRIM_W - 0.35 - bc_w)
+    bc_y1 = px(BLEED + TRIM_H - 0.35)
+    bc_y0 = bc_y1 - px(bc_h)
+    draw.rectangle([bc_x0, bc_y0, bc_x0 + px(bc_w), bc_y1], fill=BACK_RGB)
+
+    # blok penulis: kolom menyempit agar tidak menabrak zona barcode
     f_bio = ImageFont.truetype(SERIF_R, px(0.105))
     bio = cfg["bio"]
-    yb0 = H - px(BLEED) - px(1.35) - len(wrap(draw, bio, f_bio, col_w)) * px(0.145)
+    bio_w = bc_x0 - x - px(0.25)
+    yb0 = H - px(BLEED) - px(1.35) - len(wrap(draw, bio, f_bio, bio_w)) * px(0.145)
     draw.line([x, yb0 - px(0.2), x + px(0.6), yb0 - px(0.2)], fill=ACCENT, width=px(0.012))
     yb = yb0
-    for ln in wrap(draw, bio, f_bio, col_w):
+    for ln in wrap(draw, bio, f_bio, bio_w):
         draw.text((x, yb), ln, font=f_bio, fill=(196, 202, 212))
         yb += px(0.166)
 
@@ -255,6 +263,8 @@ def main():
             "spine_in": round(spine, 3),
             "cover_in": [round(w, 3), round(h, 3)],
             "dpi": DPI,
+            "barcode_area_in": {"width": 2.0, "height": 1.2,
+                                "from_bottom_trim": 0.35, "from_right_trim": 0.35},
             "interior_pdf": INTERIORS[key],
             "cover_pdf": cfg["out_pdf"],
         }

@@ -1,33 +1,45 @@
 {
   "en": {
-    "pages": 412,
+    "pages": 425,
     "trim_in": [
       8.27,
       11.69
     ],
     "bleed_in": 0.125,
-    "spine_in": 1.03,
+    "spine_in": 1.062,
     "cover_in": [
-      17.82,
+      17.852,
       11.94
     ],
     "dpi": 300,
+    "barcode_area_in": {
+      "width": 2.0,
+      "height": 1.2,
+      "from_bottom_trim": 0.35,
+      "from_right_trim": 0.35
+    },
     "interior_pdf": "book/publish/Surviving_the_Future_EN_interior.pdf",
     "cover_pdf": "book/publish/Surviving_the_Future_EN_cover_print.pdf"
   },
   "id": {
-    "pages": 432,
+    "pages": 437,
     "trim_in": [
       8.27,
       11.69
     ],
     "bleed_in": 0.125,
-    "spine_in": 1.08,
+    "spine_in": 1.093,
     "cover_in": [
-      17.87,
+      17.883,
       11.94
     ],
     "dpi": 300,
+    "barcode_area_in": {
+      "width": 2.0,
+      "height": 1.2,
+      "from_bottom_trim": 0.35,
+      "from_right_trim": 0.35
+    },
     "interior_pdf": "book/publish/Bertahan_Hidup_di_Masa_Depan_ID_interior.pdf",
     "cover_pdf": "book/publish/Bertahan_Hidup_di_Masa_Depan_ID_cover_print.pdf"
   }

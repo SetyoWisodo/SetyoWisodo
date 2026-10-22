@@ -17,7 +17,10 @@ BOOKS = [
     ("Surviving_the_Future.pdf", "en"),
     ("Surviving_the_Future_ID.pdf", "id"),
 ]
-MARGIN_MM = 30.0
+MARGIN_MM = 30.0          # margin halaman simetris (halaman 1-2)
+INNER_MM = 34.0           # margin cermin: sisi punggung
+OUTER_MM = 26.0           # margin cermin: sisi luar
+HEAD_ZONE_MM = 24.0       # kepala halaman berjalan boleh di atas margin atas
 MM = 72.0 / 25.4
 TOL = 1.5 * MM  # toleransi 1,5 mm untuk huruf miring/berlebih optik
 
@@ -42,7 +45,7 @@ def audit(path):
 
     w, h = doc[0].rect.width, doc[0].rect.height
     out["size_mm"] = (round(mm(w), 1), round(mm(h), 1))
-    left_lim, right_lim = MARGIN_MM * MM - TOL, w - MARGIN_MM * MM + TOL
+    sym_l, sym_r = MARGIN_MM * MM - TOL, w - MARGIN_MM * MM + TOL
 
     blank, overflow, outside = [], [], []
     for i, page in enumerate(doc):
@@ -51,9 +54,17 @@ def audit(path):
         if not body:
             blank.append(i + 1)
             continue
+        if i < 2:
+            left_lim, right_lim = sym_l, sym_r
+        elif (i + 1) % 2 == 1:      # recto: punggung di kiri
+            left_lim, right_lim = INNER_MM * MM - TOL, w - OUTER_MM * MM + TOL
+        else:                       # verso: punggung di kanan
+            left_lim, right_lim = OUTER_MM * MM - TOL, w - INNER_MM * MM + TOL
         for b in page.get_text("blocks"):
             x0, y0, x1, y1, txt = b[0], b[1], b[2], b[3], b[4].strip()
             if not txt:
+                continue
+            if y1 < HEAD_ZONE_MM * MM:      # kepala halaman berjalan
                 continue
             if x1 > right_lim + 2 or x0 < left_lim - 2:
                 outside.append((i + 1, round(mm(x0), 1), round(mm(x1), 1), txt[:40]))

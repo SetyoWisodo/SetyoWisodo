@@ -26,6 +26,13 @@ BOOKS = [
         "title": "Surviving the Future: Crisis, Climate, and Human Resilience",
         "lang": "en",
         "author": "Setyo Wisodo",
+        "publisher": "Setyo Wisodo",
+        "rights": "Copyright \u00a9 2026 Setyo Wisodo. All rights reserved.",
+        "subjects": ["SCIENCE / Global Warming & Climate Change",
+                     "NATURE / Natural Disasters",
+                     "SOCIAL SCIENCE / Disasters & Disaster Relief"],
+        "description": "How societies survive the crises caused by global warming: 24 chapters, 25 data tables, 24 case studies, and the evidence behind each prediction.",
+        "a11y": "Reflowable text with a two-level table of contents and structural navigation; tables are marked up with column headers. No audio or video, no flashing content.",
         "uid": "urn:uuid:sf-en-2026",
     },
     {
@@ -36,6 +43,13 @@ BOOKS = [
         "title": "Surviving the Future: Krisis, Iklim, dan Ketahanan Manusia",
         "lang": "id",
         "author": "Setyo Wisodo",
+        "publisher": "Setyo Wisodo",
+        "rights": "Hak cipta \u00a9 2026 Setyo Wisodo. Seluruh hak dilindungi.",
+        "subjects": ["SCIENCE / Global Warming & Climate Change",
+                     "NATURE / Natural Disasters",
+                     "SOCIAL SCIENCE / Disasters & Disaster Relief"],
+        "description": "Bagaimana masyarakat bertahan dari krisis akibat pemanasan global: 24 bab, 25 tabel data, 24 studi kasus, dan bukti di balik setiap prediksi.",
+        "a11y": "Teks reflowable dengan daftar isi dua tingkat dan navigasi struktural; tabel ditandai dengan kepala kolom. Tanpa audio atau video, tanpa konten berkedip.",
         "uid": "urn:uuid:sf-id-2026",
     },
 ]
@@ -78,6 +92,9 @@ def slug(text):
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:48] or "s"
 
 
+_LANG = "en"        # diisi build_epub()
+
+
 def chapter_xhtml(title, blocks, is_first):
     parts = []
     first_h1 = True
@@ -94,7 +111,7 @@ def chapter_xhtml(title, blocks, is_first):
             if not val:
                 continue
             head, body = val[0], val[1:]
-            rows = ["<tr>%s</tr>" % "".join("<th>%s</th>" % inline_html(c) for c in head)]
+            rows = ["<tr>%s</tr>" % "".join('<th scope="col">%s</th>' % inline_html(c) for c in head)]
             for r in body:
                 rows.append("<tr>%s</tr>" % "".join("<td>%s</td>" % inline_html(c) for c in r))
             parts.append("<table>%s</table>" % "".join(rows))
@@ -111,9 +128,10 @@ def chapter_xhtml(title, blocks, is_first):
                 parts.append("<p>%s</p>" % inline_html(val))
     body = "\n".join(parts)
     return ('<?xml version="1.0" encoding="utf-8"?>\n'
-            '<html xmlns="http://www.w3.org/1999/xhtml"><head><title>%s</title>'
+            '<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="%s" lang="%s">'
+            '<head><title>%s</title>'
             '<link rel="stylesheet" href="style.css" type="text/css"/></head>'
-            '<body>%s</body></html>' % (html.escape(title or ""), body))
+            '<body>%s</body></html>' % (_LANG, _LANG, html.escape(title or ""), body))
 
 
 CSS = """
@@ -128,6 +146,16 @@ p.li { text-indent: 0; margin-left: 1.4em; text-align: left; }
 blockquote { margin: 0.8em 1.6em; font-size: 0.96em; }
 body.cover { margin: 0; padding: 0; text-align: center; }
 body.cover img { max-width: 100%; height: auto; }
+body.titlepage { text-align: center; margin-top: 22%; }
+h1.booktitle { font-size: 2em; letter-spacing: 0.04em; margin: 0 0 0.6em 0; }
+p.subtitle { font-size: 1.15em; text-indent: 0; text-align: center; margin: 0 0 3em 0; }
+p.author { font-size: 1.15em; text-indent: 0; text-align: center; margin: 0 0 5em 0; }
+p.imprint { text-indent: 0; text-align: center; font-size: 0.9em; }
+body.copyright { margin-top: 30%; }
+body.copyright p { text-indent: 0; text-align: left; font-size: 0.86em; margin: 0 0 0.7em 0; }
+table { border-collapse: collapse; width: 100%; margin: 0.8em 0; font-size: 0.86em; }
+th, td { border: 1px solid #999; padding: 0.25em 0.35em; text-align: left; vertical-align: top; }
+th { font-weight: bold; }
 blockquote p { text-indent: 0; }
 table { border-collapse: collapse; width: 100%; margin: 0.6em 0 1em 0; font-size: 0.78em; }
 th, td { border: 1px solid #444; padding: 2px 4px; text-align: left; vertical-align: top; }
@@ -139,6 +167,9 @@ def build_epub(cfg):
     """Tulis EPUB 3 langsung (zip): kendali penuh, tanpa ketergantungan quirks."""
     import uuid
     import zipfile
+
+    global _LANG
+    _LANG = cfg["lang"]
 
     blocks = blocks_of(cfg["md"])
     chapters = split_chapters(blocks)
@@ -162,11 +193,43 @@ def build_epub(cfg):
             add("cover.jpg", fh.read(), "image/jpeg", "cover-img")
         cover_html = ('<?xml version="1.0" encoding="utf-8"?>\n'
                       '<html xmlns="http://www.w3.org/1999/xhtml" '
-                      'xmlns:epub="http://www.idpf.org/2007/ops"><head><title>Cover</title>'
+                      'xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="%s" lang="%s">'
+                      '<head><title>Cover</title>'
                       '<link rel="stylesheet" href="style.css" type="text/css"/></head>'
-                      '<body class="cover"><div><img src="cover.jpg" alt="%s"/></div></body></html>'
-                      % html.escape(cfg["title"]))
+                      '<body class="cover" epub:type="cover"><div><img src="cover.jpg" alt="%s"/></div>'
+                      '</body></html>'
+                      % (cfg["lang"], cfg["lang"], html.escape(cfg["title"])))
         add("cover.xhtml", cover_html, "application/xhtml+xml", "cover", in_spine=True)
+
+    copy = book_pdf.COPY[cfg["lang"]]
+    title_html = ('<?xml version="1.0" encoding="utf-8"?>\n'
+                  '<html xmlns="http://www.w3.org/1999/xhtml" '
+                  'xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="%s" lang="%s">'
+                  '<head><title>%s</title><link rel="stylesheet" href="style.css" type="text/css"/></head>'
+                  '<body class="titlepage"><section epub:type="titlepage">'
+                  '<h1 class="booktitle">%s</h1><p class="subtitle">%s</p>'
+                  '<p class="author">%s</p><p class="imprint">%s<br/>2026</p>'
+                  '</section></body></html>'
+                  % (cfg["lang"], cfg["lang"], html.escape(cfg["title"]),
+                     html.escape(copy["title"]), html.escape(copy["sub"]),
+                     html.escape(copy["author"]), html.escape(copy["published"])))
+    add("titlepage.xhtml", title_html, "application/xhtml+xml", "titlepage", in_spine=True)
+
+    copyright_html = ('<?xml version="1.0" encoding="utf-8"?>\n'
+                      '<html xmlns="http://www.w3.org/1999/xhtml" '
+                      'xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="%s" lang="%s">'
+                      '<head><title>%s</title><link rel="stylesheet" href="style.css" type="text/css"/></head>'
+                      '<body class="copyright"><section epub:type="copyright-page">'
+                      '<p><strong>%s</strong><br/>%s<br/>%s</p>'
+                      '<p>%s</p><p>%s</p><p>%s</p><p>%s</p><p>%s</p><p>%s</p>'
+                      '</section></body></html>'
+                      % (cfg["lang"], cfg["lang"], html.escape(copy["title"]),
+                         html.escape(copy["title"]), html.escape(copy["sub"]),
+                         html.escape(copy["author"]), html.escape(copy["edition"]),
+                         html.escape(copy["published"]), html.escape(copy["rights"]),
+                         html.escape(copy["legal"]), html.escape(copy["disclaimer"]),
+                         html.escape(copy["credits"])))
+    add("copyright.xhtml", copyright_html, "application/xhtml+xml", "copyright", in_spine=True)
 
     for i, (title, blks) in enumerate(chapters):
         name = "c%03d.xhtml" % i
@@ -177,7 +240,8 @@ def build_epub(cfg):
 
     # ---- nav.xhtml ----
     nl = ['<?xml version="1.0" encoding="utf-8"?>',
-          '<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">',
+          '<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"'
+          ' xml:lang="%s" lang="%s">' % (cfg["lang"], cfg["lang"]),
           '<head><title>Contents</title><link rel="stylesheet" href="style.css" type="text/css"/></head>',
           '<body><nav epub:type="toc" id="toc"><h1>Contents</h1><ol>']
     for title, name, subs in nav_items:
@@ -188,9 +252,19 @@ def build_epub(cfg):
                 nl.append('<li><a href="%s#%s">%s</a></li>' % (name, hid, html.escape(label)))
             nl.append("</ol>")
         nl.append("</li>")
+    nl.append("</ol></nav>")
+    nl.append('<nav epub:type="landmarks" id="landmarks" hidden="hidden"><h2>Landmarks</h2><ol>')
+    nl.append('<li><a epub:type="cover" href="cover.xhtml">Cover</a></li>')
+    nl.append('<li><a epub:type="toc" href="nav.xhtml">Contents</a></li>')
+    nl.append('<li><a epub:type="bodymatter" href="c000.xhtml">%s</a></li>'
+              % ("Start" if cfg["lang"] == "en" else "Mulai"))
     nl.append("</ol></nav></body></html>")
     nav_xhtml = "\n".join(nl)
     add("nav.xhtml", nav_xhtml, "application/xhtml+xml", "nav", in_spine=True)
+    # daftar isi dibaca setelah halaman hak cipta, bukan di akhir buku
+    if "nav" in spine:
+        spine.remove("nav")
+        spine.insert(min(3, len(spine)), "nav")
 
     # ---- content.opf ----
     opf = ['<?xml version="1.0" encoding="utf-8"?>',
@@ -201,15 +275,29 @@ def build_epub(cfg):
            '<dc:title>%s</dc:title>' % html.escape(cfg["title"]),
            '<dc:creator>%s</dc:creator>' % html.escape(cfg["author"]),
            '<dc:language>%s</dc:language>' % cfg["lang"],
-           '<dc:publisher>Setyo Wisodo</dc:publisher>',
-           '<dc:date>2026</dc:date>',
-           '<meta property="dcterms:modified">2026-10-22T00:00:00Z</meta>']
+           '<dc:publisher>%s</dc:publisher>' % html.escape(cfg["publisher"]),
+           '<dc:date>2026-01-01</dc:date>',
+           '<dc:rights>%s</dc:rights>' % html.escape(cfg["rights"]),
+           '<dc:description>%s</dc:description>' % html.escape(cfg["description"]),
+           '<dc:subject>%s</dc:subject>' % html.escape(cfg["subjects"][0]),
+           '<dc:subject>%s</dc:subject>' % html.escape(cfg["subjects"][1]),
+           '<dc:subject>%s</dc:subject>' % html.escape(cfg["subjects"][2]),
+           '<meta property="dcterms:modified">2026-10-22T00:00:00Z</meta>',
+           '<meta property="schema:accessMode">textual</meta>',
+           '<meta property="schema:accessModeSufficient">textual</meta>',
+           '<meta property="schema:accessibilityFeature">structuralNavigation</meta>',
+           '<meta property="schema:accessibilityFeature">tableOfContents</meta>',
+           '<meta property="schema:accessibilityHazard">none</meta>',
+           '<meta property="schema:accessibilitySummary">%s</meta>'
+           % html.escape(cfg["a11y"])]
     if has_cover:
         opf.append('<meta name="cover" content="cover-img"/>')
     opf.append("</metadata><manifest>")
     opf.append('<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>')
+    PROPS = {"nav": "nav", "cover-img": "cover-image"}
     for item_id, name, mtype in manifest:
-        opf.append('<item id="%s" href="%s" media-type="%s"/>' % (item_id, name, mtype))
+        extra = (' properties="%s"' % PROPS[item_id]) if item_id in PROPS else ""
+        opf.append('<item id="%s" href="%s" media-type="%s"%s/>' % (item_id, name, mtype, extra))
     opf.append("</manifest><spine toc=\"ncx\">")
     for item_id in spine:
         opf.append('<itemref idref="%s"/>' % item_id)
@@ -246,8 +334,49 @@ def build_epub(cfg):
     return len(chapters)
 
 
+def _field(par, instr, placeholder=None):
+    """Sisipkan field Word (PAGE, TOC, ...) ke dalam paragraf."""
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
+    r1 = par.add_run()._r
+    fc = OxmlElement("w:fldChar"); fc.set(qn("w:fldCharType"), "begin"); r1.append(fc)
+    r2 = par.add_run()._r
+    it = OxmlElement("w:instrText"); it.set(qn("xml:space"), "preserve")
+    it.text = instr; r2.append(it)
+    r3 = par.add_run()._r
+    sep = OxmlElement("w:fldChar"); sep.set(qn("w:fldCharType"), "separate"); r3.append(sep)
+    if placeholder:
+        par.add_run(placeholder)
+    r4 = par.add_run()._r
+    end = OxmlElement("w:fldChar"); end.set(qn("w:fldCharType"), "end"); r4.append(end)
+
+
+def _lang(par, code):
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
+    for run in par.runs:
+        rpr = run._r.get_or_add_rPr()
+        el = OxmlElement("w:lang"); el.set(qn("w:val"), code); rpr.append(el)
+
+
+def _tbl_header_repeat(row):
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
+    trpr = row._tr.get_or_add_trPr()
+    el = OxmlElement("w:tblHeader"); el.set(qn("w:val"), "true"); trpr.append(el)
+
+
 def build_docx(cfg):
+    """Naskah DOCX siap sunting: A4, margin cermin, gaya Heading, TOC field."""
+    from docx.shared import Cm
+    from docx.enum.section import WD_SECTION
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
+
     doc = Document()
+    copy = book_pdf.COPY[cfg["lang"]]
+    lang_code = "en-GB" if cfg["lang"] == "en" else "id-ID"
+
     style = doc.styles["Normal"]
     style.font.name = "Times New Roman"
     style.font.size = Pt(12)
@@ -256,51 +385,134 @@ def build_docx(cfg):
     pf.first_line_indent = Mm(12.7)
     pf.space_after = Pt(0)
     pf.line_spacing = 1.15
+    rpr = style.element.get_or_add_rPr()
+    lang_el = OxmlElement("w:lang"); lang_el.set(qn("w:val"), lang_code); rpr.append(lang_el)
+
+    # ---- gaya judul bawaan, disetel ulang ke Times New Roman ----
+    for name, size, align, italic in (("Heading 1", 20, WD_ALIGN_PARAGRAPH.CENTER, False),
+                                      ("Heading 2", 12, WD_ALIGN_PARAGRAPH.LEFT, False),
+                                      ("Heading 3", 11, WD_ALIGN_PARAGRAPH.LEFT, True)):
+        st = doc.styles[name]
+        st.font.name = "Times New Roman"
+        st.font.size = Pt(size)
+        st.font.bold = not italic
+        st.font.italic = italic
+        st.font.color.rgb = None
+        st.paragraph_format.alignment = align
+        st.paragraph_format.first_line_indent = Mm(0)
+        st.paragraph_format.space_before = Pt(18 if name == "Heading 1" else 12)
+        st.paragraph_format.space_after = Pt(10 if name == "Heading 1" else 6)
+        st.paragraph_format.keep_with_next = True
+        st.paragraph_format.line_spacing = 1.0
+
+    # ---- halaman: A4, margin cermin (dalam 34 mm, luar 26 mm) ----
+    sec = doc.sections[0]
+    sec.page_width, sec.page_height = Mm(210), Mm(297)
+    sec.left_margin, sec.right_margin = Mm(34), Mm(26)
+    sec.top_margin, sec.bottom_margin = Mm(30), Mm(40)
+    sec.header_distance, sec.footer_distance = Mm(15), Mm(14)
+    settings = doc.settings.element
+    settings.append(OxmlElement("w:evenAndOddHeaders"))
+    settings.append(OxmlElement("w:mirrorMargins"))
+
+    # ---- kepala & kaki halaman berjalan ----
+    def _hdr(container, text, align):
+        p = container.paragraphs[0]
+        p.text = ""
+        p.alignment = align
+        p.paragraph_format.first_line_indent = Mm(0)
+        r = p.add_run(text)
+        r.font.name = "Times New Roman"; r.font.size = Pt(8.5)
+
+    _hdr(sec.header, RUNNING_FOR(cfg), WD_ALIGN_PARAGRAPH.RIGHT)
+    _hdr(sec.even_page_header, RUNNING_FOR(cfg), WD_ALIGN_PARAGRAPH.LEFT)
+    for footer, align in ((sec.footer, WD_ALIGN_PARAGRAPH.RIGHT),
+                          (sec.even_page_footer, WD_ALIGN_PARAGRAPH.LEFT)):
+        p = footer.paragraphs[0]
+        p.text = ""
+        p.alignment = align
+        p.paragraph_format.first_line_indent = Mm(0)
+        _field(p, " PAGE ", "1")
+
+    # ---- halaman judul ----
+    for _ in range(6):
+        doc.add_paragraph()
+    p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p.paragraph_format.first_line_indent = Mm(0)
+    r = p.add_run(copy["title"]); r.bold = True; r.font.size = Pt(26)
+    p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p.paragraph_format.first_line_indent = Mm(0)
+    r = p.add_run(copy["sub"]); r.font.size = Pt(14)
+    for _ in range(6):
+        doc.add_paragraph()
+    p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p.paragraph_format.first_line_indent = Mm(0)
+    r = p.add_run(copy["author"]); r.font.size = Pt(14)
+    p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p.paragraph_format.first_line_indent = Mm(0)
+    r = p.add_run(copy["published"] + "  \u00b7  " + copy["edition"]); r.font.size = Pt(10)
+
+    # ---- halaman hak cipta ----
+    doc.add_page_break()
+    for txt, size in ((copy["title"], 11.5), (copy["sub"], 10.5), (copy["author"], 10.5)):
+        p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        p.paragraph_format.first_line_indent = Mm(0)
+        r = p.add_run(txt); r.font.size = Pt(size); r.bold = (size == 11.5)
+    for txt in (copy["edition"], copy["published"], copy["rights"],
+                copy["legal"], copy["disclaimer"], copy["credits"]):
+        p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+        p.paragraph_format.first_line_indent = Mm(0)
+        p.paragraph_format.space_before = Pt(8)
+        r = p.add_run(txt); r.font.size = Pt(9.5)
+
+    # ---- daftar isi otomatis ----
+    doc.add_page_break()
+    p = doc.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p.paragraph_format.first_line_indent = Mm(0)
+    r = p.add_run("Contents" if cfg["lang"] == "en" else "Daftar Isi")
+    r.bold = True; r.font.size = Pt(14)
+    p = doc.add_paragraph(); p.paragraph_format.first_line_indent = Mm(0)
+    _field(p, ' TOC \\o "1-2" \\h \\z \\u ',
+           "Update this field (Ctrl+A, F9) to build the contents."
+           if cfg["lang"] == "en" else
+           "Perbarui field ini (Ctrl+A, F9) untuk menyusun daftar isi.")
 
     for kind, val in [(k, v) for k, v, _ in blocks_of(cfg["md"])]:
         if kind == "h1":
-            doc.add_page_break()
-            p = doc.add_paragraph()
-            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-            p.paragraph_format.first_line_indent = Mm(0)
-            r = p.add_run(val.upper())
-            r.bold = True
-            r.font.name = "Times New Roman"
-            r.font.size = Pt(12)
+            p = doc.add_paragraph(style="Heading 1")
+            p.paragraph_format.page_break_before = True
+            p.add_run(val)
         elif kind == "h2":
-            p = doc.add_paragraph()
-            p.paragraph_format.first_line_indent = Mm(0)
-            p.alignment = WD_ALIGN_PARAGRAPH.LEFT
-            r = p.add_run(val)
-            r.bold = True
-            r.font.size = Pt(12)
+            doc.add_paragraph(val, style="Heading 2")
         elif kind == "h3":
-            p = doc.add_paragraph()
-            p.paragraph_format.first_line_indent = Mm(0)
-            r = p.add_run(val)
-            r.italic = True
-            r.bold = True
+            doc.add_paragraph(val, style="Heading 3")
         elif kind == "table":
             if not val:
                 continue
             ncol = max(len(r) for r in val)
             t = doc.add_table(rows=0, cols=ncol)
             t.style = "Table Grid"
-            for row in val:
+            for ri, row in enumerate(val):
                 cells = t.add_row().cells
+                if ri == 0:
+                    _tbl_header_repeat(t.rows[-1])
                 for i, c in enumerate(row[:ncol]):
                     cells[i].text = c
                     for par in cells[i].paragraphs:
                         par.paragraph_format.first_line_indent = Mm(0)
+                        par.paragraph_format.line_spacing = 1.0
                         for run in par.runs:
-                            run.font.size = Pt(10)
+                            run.font.size = Pt(9.5)
                             run.font.name = "Times New Roman"
+                            if ri == 0:
+                                run.bold = True
         elif kind == "caption":
             p = doc.add_paragraph()
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
             p.paragraph_format.first_line_indent = Mm(0)
-            r = p.add_run(val)
-            r.bold = True
+            p.paragraph_format.space_before = Pt(8)
+            p.paragraph_format.keep_with_next = True
+            r = p.add_run(val); r.bold = True; r.font.size = Pt(10)
         elif kind == "quote":
             p = doc.add_paragraph()
             p.paragraph_format.left_indent = Mm(12.7)
@@ -315,7 +527,21 @@ def build_docx(cfg):
         else:
             p = doc.add_paragraph()
             add_runs(p, val)
+
+    cp = doc.core_properties
+    cp.title = cfg["title"]
+    cp.author = cfg["author"]
+    cp.subject = copy["sub"]
+    cp.comments = cfg["description"]
+    cp.keywords = "; ".join(cfg["subjects"])
+    cp.category = cfg["subjects"][0]
+    cp.language = lang_code
+    cp.last_modified_by = cfg["author"]
     doc.save(cfg["docx"])
+
+
+def RUNNING_FOR(cfg):
+    return book_pdf.RUNNING[cfg["lang"]]
 
 
 def add_runs(par, text):

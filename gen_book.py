@@ -880,8 +880,20 @@ gloss = [
 for g in gloss:
     md.append(f"- {g}")
 md.append("")
-md.append("# Appendix C: Index")
-md.append("")
+CAVEATS = [
+ '**Heat deaths are estimates, not counts.** The 2003 European heatwave is usually given as about 70,000 excess deaths and the summer of 2022 as about 61,700. Both are modelled figures, produced by comparing observed deaths with what would have been expected, and both were revised after first publication. The direction of the comparison in Chapter 4 — a hotter summer with fewer deaths, because the institutions had changed — survives every published revision; the exact numbers do not.',
+ "**Attribution states a change in likelihood, not a cause.** The Pacific Northwest heat dome of 2021 was described as virtually impossible without human-caused warming, which is a claim about probability, not about any single household's loss (Chapter 4, Chapter 15).",
+ '**Displacement figures count movements, not people.** A person displaced twice is counted twice in the global totals, and a person who moves without crossing a border may not be counted at all. The 2023 totals discussed in Chapter 11 should be read with that double counting in mind.',
+ '**The conflict literature is contested by design.** The studies cited in Chapter 12 disagree about effect size and about which forms of violence count. This book reports the disagreement rather than resolving it, and any single coefficient should be treated as one estimate within a distribution (Chapter 12).',
+ '**Food balance sheets are national averages.** The per-capita figures in Chapter 7 conceal how food is distributed inside a country, and a country can be a net exporter while part of its population is food insecure (Chapter 23).',
+ '**Damage estimates depend on the discount rate.** Two economists using the same data can reach very different costs of inaction because they weight the future differently. That is why the figures in Chapter 10 and Chapter 21 are presented as ranges rather than as single numbers.',
+]
+
+BIO = [
+ '**Setyo Wisodo** is a professional working across AI development, product management and digital marketing, with a focus on AI-based products and digital services.',
+ 'He is based in Indonesia, where the hazards this book describes — heat, flood, drought and displacement — are part of ordinary experience rather than projection. That proximity shapes the argument here: the difference between a hazard and a disaster is usually a decision, and decisions can be made differently.',
+]
+
 index_terms = sorted(set([
  "Adaptation",
  "Air conditioning",
@@ -971,32 +983,19 @@ index_terms = sorted(set([
  "Wet-bulb temperature",
  "Wildfire",
  "Zoning",
+ "Adaptive capacity",
+ "SSP",
+ "Tipping point",
 ]))
-for t in index_terms:
-    md.append(f"- {t}")
-md.append("")
-md.append("@@REFS@@")
-md.append("# Appendix E: About the Author")
-md.append("")
-md.append("**Setyo Wisodo** is a professional working across AI development, product management and digital marketing, with a focus on AI-based solutions and digital products. Based in Indonesia.")
-md.append("")
-md.append("# Appendix F: Extended Analytical Notes")
-md.append("")
-notes = [
- "Analytical note: The relationship between climate drivers and social outcomes is mediated by institutional capacity, resource availability, and historical context. No single factor determines the result.",
- "Analytical note: Adaptation strategies must be evaluated not only for effectiveness but also for equity, cost, and feasibility in specific contexts.",
- "Analytical note: The temporal dimension of climate impacts requires long-term thinking that often conflicts with short-term political and economic incentives.",
- "Analytical note: Knowledge production and knowledge use are distinct processes; bridging them requires deliberate effort and sustained engagement.",
- "Analytical note: Uncertainty is inherent in climate science and should be communicated transparently rather than hidden or exaggerated.",
-]
-for n in notes:
-    md.append(n)
-    md.append("")
-# Footnotes retained for Appendix but not rendered at page bottom (render handles)
 
-md.append("# Appendix G: Notes on Event Sources")
+md.append("# Appendix C: Analytical Caveats")
 md.append("")
-md.append("Figures for the named events used as cases in this book are drawn from the documentation below. Where an event figure appears in the text without a parenthetical citation, this table identifies its source.")
+for _c in CAVEATS:
+    md.append(_c)
+    md.append("")
+md.append("# Appendix D: Notes on Event Sources")
+md.append("")
+md.append('Figures for the named events used as cases in this book are drawn from the documentation below. Where an event figure appears in the text without a parenthetical citation, this list identifies its source.')
 md.append("")
 md.append("- Pakistan floods, 2022 — WMO (2023), State of the Global Climate 2023; government post-disaster needs assessment.")
 md.append("- European heatwave, 2003 — Robine et al. (2008), Comptes Rendus Biologies 331(2).")
@@ -1019,6 +1018,17 @@ md.append("- Amazon deforestation threshold — IPCC (2019), Climate Change and 
 md.append("- Arctic sea-ice decline — Notz & Stroeve (2016), Science 354(6313).")
 md.append("- Global temperature records — Lenssen et al. (2019); Morice et al. (2021); Rohde & Hausfather (2020); WMO (2023).")
 md.append("")
+md.append("@@REFS@@")
+md.append("# Index")
+md.append("")
+for _t in index_terms:
+    md.append("- " + _t)
+md.append("")
+md.append("# About the Author")
+md.append("")
+for _b in BIO:
+    md.append(_b)
+    md.append("")
 
 content = "\n".join(md)
 import gate1
@@ -1031,7 +1041,7 @@ content, n_style = style_pass.apply(content, "en")
 print("style pass:", n_style)
 import cited as _cited
 _cited_refs, _further_refs = _cited.split_refs(REFS, _cited.pairs(content))
-_refs_md = ["# Appendix D: References", "", "## Works Cited", ""]
+_refs_md = ["# References", "", "## Works Cited", ""]
 _refs_md += [f"- {r}" for r in _cited_refs]
 _refs_md += ["", "## Further Reading", "",
              "These works informed the book's background but are not cited in the text.", ""]

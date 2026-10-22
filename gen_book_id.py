@@ -874,8 +874,20 @@ gloss = [
 for g in gloss:
     md.append(f"- {g}")
 md.append("")
-md.append("# Lampiran C: Indeks")
-md.append("")
+CAVEATS = [
+ '**Kematian akibat panas adalah estimasi, bukan hitungan.** Gelombang panas Eropa 2003 biasanya disebut sekitar 70.000 kematian berlebih dan musim panas 2022 sekitar 61.700. Keduanya angka model, dihasilkan dengan membandingkan kematian teramati dengan yang diperkirakan terjadi, dan keduanya direvisi setelah terbit pertama kali. Arah perbandingan di Bab 4 — musim yang lebih panas dengan kematian lebih sedikit karena institusinya berubah — bertahan pada setiap revisi; angka persisnya tidak.',
+ '**Atribusi menyatakan perubahan peluang, bukan sebab.** Kubah panas Pasifik Barat Laut 2021 disebut nyaris mustahil tanpa pemanasan akibat manusia, dan itu pernyataan tentang peluang, bukan tentang kerugian satu rumah tangga (Bab 4, Bab 15).',
+ '**Angka perpindahan menghitung pergerakan, bukan orang.** Seseorang yang berpindah dua kali dihitung dua kali dalam total global, dan seseorang yang pindah tanpa melewati batas negara mungkin tidak tercatat sama sekali. Total 2023 yang dibahas di Bab 11 sebaiknya dibaca dengan kemungkinan penghitungan ganda itu.',
+ '**Literatur konflik memang diperdebatkan.** Studi yang dikutip di Bab 12 berbeda pendapat tentang ukuran efek dan tentang bentuk kekerasan apa yang dihitung. Buku ini melaporkan perdebatan itu alih-alih menyelesaikannya, dan setiap koefisien tunggal sebaiknya diperlakukan sebagai satu estimasi dalam sebaran (Bab 12).',
+ '**Neraca pangan adalah rata-rata nasional.** Angka per kapita di Bab 7 menyembunyikan bagaimana pangan terdistribusi di dalam negeri, dan sebuah negara bisa menjadi eksportir bersih sementara sebagian penduduknya rawan pangan (Bab 23).',
+ '**Estimasi kerugian bergantung pada tingkat diskonto.** Dua ekonom dengan data yang sama dapat menghasilkan biaya kelambatan yang sangat berbeda karena memberi bobot berbeda pada masa depan. Itulah sebabnya angka di Bab 10 dan Bab 21 disajikan sebagai rentang, bukan satu bilangan.',
+]
+
+BIO = [
+ '**Setyo Wisodo** bekerja di bidang pengembangan AI, manajemen produk, dan pemasaran digital, dengan fokus pada produk berbasis AI dan layanan digital.',
+ 'Ia berbasis di Indonesia, tempat bahaya yang diuraikan buku ini — panas, banjir, kekeringan, dan perpindahan — adalah pengalaman sehari-hari, bukan proyeksi. Kedekatan itu membentuk argumen buku ini: perbedaan antara bahaya dan bencana biasanya adalah keputusan, dan keputusan dapat diambil secara berbeda.',
+]
+
 index_terms = sorted(set([
  "Adaptasi",
  "Agroforestri",
@@ -968,34 +980,19 @@ index_terms = sorted(set([
  "Titik kritis",
  "Topan",
  "Waduk",
+ "Kapasitas adaptif",
+ "SSP",
+ "Titik kritis",
 ]))
-for t in index_terms:
-    md.append(f"- {t}")
+
+md.append("# Lampiran C: Catatan Analitis")
 md.append("")
-md.append("@@REFS@@")
-md.append("# Lampiran E: Biografi Penulis")
-md.append("")
-md.append("**Setyo Wisodo** adalah profesional yang menggabungkan keahlian dalam Pengembangan AI, Manajemen Produk, dan Pemasaran Digital. Aktif dalam pengembangan solusi berbasis AI dan produk digital. Lokasi: Indonesia.")
-md.append("")
-md.append("Tambahan: Buku ini merupakan dokumen hidup. Pembaca didorong untuk memperbarui pengetahuan seiring munculnya bukti baru.")
-md.append("")
-md.append("Tambahan: Setiap pembaca memiliki peran. Mulailah dari tempat Anda berada, gunakan apa yang Anda miliki, dan lakukan apa yang Anda bisa.")
-md.append("")
-md.append("# Lampiran F: Catatan Analitis Lanjutan")
-md.append("")
-notes = [
- "Catatan analitis: Hubungan antara pendorong iklim dan luaran sosial dimediasi oleh kapasitas kelembagaan, ketersediaan sumber daya, dan konteks historis. Tidak ada satu faktor yang menentukan hasilnya.",
- "Catatan analitis: Strategi adaptasi harus dinilai bukan hanya dari efektivitasnya, tetapi juga dari keadilan, biaya, dan kelayakannya dalam konteks tertentu.",
- "Catatan analitis: Dimensi waktu dari dampak iklim menuntut pemikiran jangka panjang yang sering bertentangan dengan insentif politik dan ekonomi jangka pendek.",
- "Catatan analitis: Produksi pengetahuan dan penggunaan pengetahuan adalah dua proses yang berbeda; menjembatani keduanya memerlukan usaha yang sengaja dan keterlibatan yang berkelanjutan.",
- "Catatan analitis: Ketidakpastian melekat dalam ilmu iklim dan harus dikomunikasikan secara transparan, bukan disembunyikan atau dibesar-besarkan.",
-]
-for n in notes:
-    md.append(n)
+for _c in CAVEATS:
+    md.append(_c)
     md.append("")
-md.append("# Lampiran G: Catatan Sumber Peristiwa")
+md.append("# Lampiran D: Catatan Sumber Peristiwa")
 md.append("")
-md.append("Angka untuk peristiwa bernama yang dipakai sebagai kasus dalam buku ini diambil dari dokumentasi berikut. Bila angka sebuah peristiwa muncul dalam teks tanpa sitasi kurung, tabel ini menyebut sumbernya.")
+md.append('Angka untuk peristiwa bernama yang dipakai sebagai studi kasus dalam buku ini diambil dari dokumentasi di bawah. Bila suatu angka peristiwa muncul dalam teks tanpa sitasi dalam kurung, daftar ini menunjukkan sumbernya.')
 md.append("")
 md.append("- Banjir Pakistan, 2022 — WMO (2023), State of the Global Climate 2023; penilaian kebutuhan pascabencana pemerintah.")
 md.append("- Gelombang panas Eropa, 2003 — Robine dkk. (2008), Comptes Rendus Biologies 331(2).")
@@ -1018,6 +1015,17 @@ md.append("- Ambang deforestasi Amazon — IPCC (2019), Climate Change and Land.
 md.append("- Penurunan es laut Arktik — Notz & Stroeve (2016), Science 354(6313).")
 md.append("- Rekor suhu global — Lenssen dkk. (2019); Morice dkk. (2021); Rohde & Hausfather (2020); WMO (2023).")
 md.append("")
+md.append("@@REFS@@")
+md.append("# Indeks")
+md.append("")
+for _t in index_terms:
+    md.append("- " + _t)
+md.append("")
+md.append("# Tentang Penulis")
+md.append("")
+for _b in BIO:
+    md.append(_b)
+    md.append("")
 
 content = "\n".join(md)
 import gate1
@@ -1030,7 +1038,7 @@ content, n_style = style_pass.apply(content, "id")
 print("style pass:", n_style)
 import cited as _cited
 _cited_refs, _further_refs = _cited.split_refs(REFS, _cited.pairs(content))
-_refs_md = ["# Lampiran D: Daftar Pustaka", "", "## Karya yang Dikutip", ""]
+_refs_md = ["# Daftar Pustaka", "", "## Karya yang Dikutip", ""]
 _refs_md += [f"- {r}" for r in _cited_refs]
 _refs_md += ["", "## Bacaan Lanjutan", "",
              "Karya berikut memperkaya latar penulisan tetapi tidak dikutip dalam teks.", ""]

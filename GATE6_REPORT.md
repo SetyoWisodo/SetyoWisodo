@@ -15,10 +15,10 @@
 | P4 | Nomor halaman Daftar Isi cocok dengan halaman sebenarnya | 0 selisih | **0** |
 | P5 | Font tertanam (embedded), hanya Times-metric | 100 % | **Tinos Regular/Bold/Italic, ketiga-tiganya tertanam** |
 | P6 | Kerapatan spasi baris *justify* terkendali | p90 < 2,2× spasi alami | **1,84× (EN) / 2,13× (ID)** |
-| P7 | Panjang buku dalam rentang yang diminta | 400–500 hlm | **412 (EN) / 432 (ID)** |
+| P7 | Panjang buku dalam rentang yang diminta | 400–500 hlm | **425 (EN) / 437 (ID)** |
 | P8 | Tidak ada duplikasi isi antarparagraf | 0 pasangan skor ≥ 5,0 | **0 (EN) / 0 (ID)** |
 | P9 | Aparatus bersih setelah semua penyuntingan | 0 masalah | **402 EN / 350 ID, 0** |
-| P10 | Berkas penerbitan tersedia (EPUB 3 + DOCX) dengan isi sepadan PDF | ada, isi sebanding | **EPUB 32 bab + 25 tabel per edisi; DOCX 2.802 / 2.807 paragraf, 25 tabel** |
+| P10 | Berkas penerbitan tersedia (EPUB 3 + DOCX) dengan isi sepadan PDF | ada, isi sebanding | **EPUB 42 berkas, 32 bab, 25 tabel; DOCX 2.803 / 2.806 paragraf, 25 tabel; `audit_epub.py` bersih** |
 | P11 | Sampul cetak siap unggah (300 dpi, bleed, punggung terhitung) | ada | **kedua edisi** |
 
 ---
@@ -104,10 +104,10 @@ Tiga format yang dibutuhkan penerbit belum ada pada awal gate, dan build lama di
 | | EN | ID |
 |---|---|---|
 | Berkas XHTML | 32 bab + sampul + nav | 32 bab + sampul + nav |
-| Kata dalam badan EPUB | 200.786 | 167.351 |
+| Kata dalam badan EPUB | 201.211 | 167.680 |
 | Tabel | 25 | 25 |
 | Navigasi | nav.xhtml + toc.ncx (bab dan sub-bab) | sama |
-| DOCX | 2.802 paragraf, 25 tabel | 2.807 paragraf, 25 tabel |
+| DOCX | 2.803 paragraf, 25 tabel | 2.806 paragraf, 25 tabel |
 
 EPUB ditulis dengan `zipfile` langsung — bukan pustaka pihak ketiga — karena `ebooklib` gagal memproses dokumen sebesar ini ("Document is empty" pada nav). Urutan berkas `mimetype` disimpan tanpa kompresi sesuai spesifikasi, dan `container.xml`, `content.opf`, `nav.xhtml`, serta `toc.ncx` dibuat eksplisit. Integritas zip diperiksa dengan `testzip()`: bersih pada kedua edisi.
 
@@ -117,10 +117,10 @@ DOCX memakai Times New Roman 12 pt, rata kanan-kiri, indent baris pertama 12,7 m
 
 | | EN | ID |
 |---|---|---|
-| Halaman | 412 | 432 |
-| Punggung | 1,030 inci | 1,080 inci |
-| Ukuran sampul | 17,82 × 11,94 inci | 17,87 × 11,94 inci |
-| Resolusi | 5.346 × 3.582 px (300 dpi) | 5.361 × 3.582 px |
+| Halaman | 425 | 437 |
+| Punggung | 1,062 inci | 1,093 inci |
+| Ukuran sampul | 17,85 × 11,94 inci | 17,88 × 11,94 inci |
+| Resolusi | 5.355 × 3.582 px (300 dpi) | 5.365 × 3.582 px |
 
 Sampul belakang memuat judul penarik, ringkasan tiga paragraf, enam butir isi buku, kutipan penarik, dan blok penulis. Judul punggung dan nama penulis diputar 90° dengan arah baca yang benar (atas ke bawah).
 
@@ -134,6 +134,24 @@ Setelah paket terbit dibangun, pembacaan ulang menemukan dua cacat yang lahir da
 
 Dampaknya kecil pada produksi dan besar pada mutu: EN bertambah satu halaman (411 → 412), ID tetap 432; sitasi dalam teks 402 EN / 350 ID; karya yang dikutip di badan 130 EN / 124 ID, kembali setara atau lebih tinggi daripada level Gate 5; duplikasi paragraf tetap 0 pasangan ≥ 5,0; `fact_check.py` 0 gagal; `audit_production.py` bersih pada kedua PDF.
 
+### 2.10 Penyempurnaan menjadi buku siap edar
+
+Penilaian kesiapan edar (rincian di `BOOK_READINESS.md`) menemukan tujuh kekurangan yang membedakan "naskah selesai" dari "buku siap jual". Semuanya sudah dikerjakan:
+
+| Kekurangan | Perbaikan |
+|---|---|
+| Tidak ada halaman hak cipta maupun disclaimer | Halaman hak cipta + disclaimer medis/hukum/keuangan, kredit sampul, baris penerbit di halaman judul |
+| Tidak ada kepala halaman berjalan pada 400+ halaman | Kepala berjalan verso/recto, ditekan di halaman pembuka bab |
+| Margin simetris, padahal punggung 1 inci | Margin cermin: dalam 34 mm, luar 26 mm; folio pindah ke tepi luar |
+| Pembuka bab datar (12 pt) | Nomor bab berhuruf jarak, judul 19 pt, tema sebagai epigraf italik |
+| Indeks mekanis ("et passim", daftar angka mentah) | Judul huruf A–Z, rentang halaman, *passim*, sembilan rujukan "lihat juga", indent gantung |
+| Lampiran "Extended Analytical Notes" berisi lima kalimat generik | Diganti enam catatan analitis spesifik yang bertaut ke bab |
+| EPUB tanpa halaman judul, tanpa `properties="nav"`, tanpa metadata penerbit | Halaman judul + hak cipta, `nav`/`cover-image` ditandai, metadata BISAC dan aksesibilitas, `landmarks`, `th scope` |
+
+Tambahan: `audit_epub.py` (pemeriksa struktur EPUB pengganti `epubcheck`), DOCX dengan gaya Heading, TOC field, nomor halaman, dan margin cermin, serta zona barcode 2 × 1,2 inci pada sampul belakang.
+
+Dampak pada paginasi: EN 412 → 425, ID 432 → 437, keduanya masih di dalam rentang. Semua pemeriksaan dijalankan ulang dan tetap bersih.
+
 ---
 
 ## 3. Hasil pemeriksaan produksi
@@ -142,8 +160,8 @@ Dampaknya kecil pada produksi dan besar pada mutu: EN bertambah satu halaman (41
 
 | Butir | EN | ID |
 |---|---|---|
-| Halaman | **412** | **432** |
-| Ukuran berkas | 2,25 MB | 2,05 MB |
+| Halaman | **425** | **437** |
+| Ukuran berkas | 2,29 MB | 2,09 MB |
 | Format | A4 (210 × 297 mm) | sama |
 | Metadata judul | *Surviving the Future: Crisis, Climate, and Human Resilience* | *Surviving the Future: Krisis, Iklim, dan Ketahanan Manusia* |
 | Metadata penulis | Setyo Wisodo | Setyo Wisodo |
@@ -162,7 +180,7 @@ Pemeriksaan naskah:
 | `check_citations.py` | 402 EN / 350 ID, **0 masalah** |
 | `fact_check.py` | **0 gagal** |
 | `data_consistency.py` | 2 kandidat EN / 2 ID (keduanya rasio yang disengaja) |
-| Kata (`wc -w`) | **199.787 EN / 166.362 ID** |
+| Kata (`wc -w`) | **200.023 EN / 166.515 ID** |
 
 ---
 
@@ -183,6 +201,6 @@ Pemeriksaan naskah:
 - tabel dipecah lintas halaman dengan header berulang;
 - tidak ada lagi duplikasi paragraf berskor ≥ 5,0;
 - aparatus sitasi bersih (402 EN / 350 ID), pemeriksaan fakta 0 gagal;
-- panjang 412 halaman (EN) dan 432 (ID), di dalam rentang 400–500.
+- panjang 425 halaman (EN) dan 437 (ID), di dalam rentang 400–500.
 
 Buku siap untuk tahap penerbitan: dua berkas PDF A4 dengan teks lengkap, aparatus akademik lengkap, dan navigasi PDF yang berfungsi. Langkah berikutnya di luar gate ini adalah desain sampul cetak dan konversi ke EPUB/DOCX, yang membutuhkan pipeline terpisah dari renderer PDF ini.

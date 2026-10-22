@@ -94,7 +94,7 @@ def audit(path):
     text = open(path, encoding="utf-8").read()
     is_id = "_id" in path
     body = text
-    for marker in ("# Appendix D", "# Lampiran D"):
+    for marker in ("# References", "# Daftar Pustaka", "# Appendix D", "# Lampiran D"):
         if marker in body:
             i = body.index(marker)
             j = body.find("\n# ", i + len(marker))
