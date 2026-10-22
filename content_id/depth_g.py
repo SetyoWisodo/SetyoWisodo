@@ -780,13 +780,15 @@ EXTRA = {
             "pasokan baru.",
         ],
         "23.9": [
-            "Krisis pangan 2022 mengulang pola 2008 dengan pemicu berbeda. Perang mengganggu ekspor "
-            "dari Ukraina dan Rusia, harga melonjak, dan beberapa negara membatasi ekspor gandum, beras "
-            "dan minyak goreng, yang memperkuat kenaikannya. Inisiatif Gandum Laut Hitam, "
-            "dinegosiasikan pada 2022, memulihkan sebagian besar pengiriman dan menurunkan harga "
-            "sebelum runtuh pada 2023. Episod itu menunjukkan bahwa sistem internasional dapat "
-            "bertindak cepat ketika gangguannya terlihat dan bahwa ia tidak punya mekanisme setara "
-            "untuk kegagalan panen yang lambat.",
+            "Yang membedakan 2022 dari 2008 adalah kecepatan respons internasionalnya, dan batas kecepatan "
+            "itu sendiri adalah pelajarannya. Gangguan terlihat jelas — pelabuhan diblokade, kapal tidak "
+            "bergerak, dan harga melonjak dalam hitungan pekan — sehingga negosiasi dapat difokuskan pada "
+            "satu masalah yang dapat digambarkan: jalur laut. Inisiatif Gandum Laut Hitam memulihkan sebagian "
+            "besar pengiriman dan menurunkan harga sebelum runtuh pada 2023, dan keruntuhannya menunjukkan "
+            "bahwa kesepakatan yang hanya bergantung pada satu perantara dapat berakhir bersamanya. Kegagalan "
+            "panen yang lambat tidak memiliki satu titik fokus semacam itu, yang menjelaskan mengapa dunia "
+            "bertindak lebih cepat terhadap blokade yang dapat difoto daripada terhadap kekeringan yang dapat "
+            "dihitung.",
         ],
         "23.10": [
             "Tindakan antisipatif adalah reformasi paling menjanjikan dalam respons kemanusiaan, dan "

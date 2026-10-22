@@ -459,14 +459,14 @@ EXTRA = {
             "kerentanannya nasional, dan pembiayaannya sukarela.",
         ],
         "22.7": [
-            "Banjir 2021 di Jerman dan Belgia menjadi studi kasus kegagalan peringatan alih-alih "
-            "curah hujan. Prakiraan dari Sistem Kesadaran Banjir Eropa tersedia berhari-hari "
-            "sebelumnya, tetapi peringatan tidak berubah menjadi evakuasi di lembah Ahr, dan sistem "
-            "siaran sel yang akan menjangkau setiap telepon baru diperkenalkan pada tahun berikutnya. "
-            "Penyidik menggambarkan rantai tanggung jawab yang terfragmentasi antara kotamadya, "
-            "distrik dan negara bagian. Kasus ini mengingatkan bahwa kapasitas teknis untuk "
-            "memperkirakan tidak sama dengan kapasitas institusional untuk bertindak, dan jurang di "
-            "antara keduanya diukur dengan nyawa.",
+            "Reformasi yang menyusul adalah bagian yang biasanya dilewatkan. Jerman memperkenalkan siaran sel "
+            "pada 2023, mewajibkan rencana perlindungan banjir diperbarui dan diuji, dan menempatkan "
+            "peringatan pada tingkat yang memiliki kewenangan mengeluarkan perintah, bukan hanya kewenangan "
+            "mengeluarkan prakiraan. Pada tingkat Eropa, arahan banjir direvisi untuk memasukkan skenario "
+            "iklim yang diperbarui dan kewajiban berbagi data secara real-time antarpemerintah. "
+            "Perubahan-perubahan itu tidak dramatis dan mudah dibatalkan ketika tidak ada banjir besar selama "
+            "beberapa tahun, itulah sebabnya laporan pascakegiatan yang menyebut nama dan tenggat lebih "
+            "berharga daripada rekomendasi umum: ia dapat diperiksa.",
         ],
         "22.8": [
             "Chennai, Cape Town dan Seoul biasanya diceritakan sebagai kisah terpisah, dan bila "

@@ -15,8 +15,8 @@
 | P4 | Nomor halaman Daftar Isi cocok dengan halaman sebenarnya | 0 selisih | **0** |
 | P5 | Font tertanam (embedded), hanya Times-metric | 100 % | **Tinos Regular/Bold/Italic, ketiga-tiganya tertanam** |
 | P6 | Kerapatan spasi baris *justify* terkendali | p90 < 2,2× spasi alami | **1,84× (EN) / 2,13× (ID)** |
-| P7 | Panjang buku dalam rentang yang diminta | 400–500 hlm | **401 (EN) / 419 (ID)** |
-| P8 | Tidak ada duplikasi isi antarparagraf | 0 pasangan skor ≥ 5,0 | **0 (EN) / 25 (ID)** — **belum tuntas** |
+| P7 | Panjang buku dalam rentang yang diminta | 400–500 hlm | **401 (EN) / 420 (ID)** |
+| P8 | Tidak ada duplikasi isi antarparagraf | 0 pasangan skor ≥ 5,0 | **7 (EN) / 19 (ID)** — **belum tuntas** |
 | P9 | Aparatus bersih setelah semua penyuntingan | 0 masalah | **422 EN / 376 ID, 0** |
 
 ---
@@ -51,7 +51,7 @@ Hasil pada kedua PDF (14.400 dan 14.100 baris isi yang diukur):
 | Baris > 2× | 13,3 % | **6,2 %** | 29,1 % | **13,5 %** |
 | Baris berakhir tanda hubung | 0 | 1.610 | 0 | 2.133 |
 
-Efek samping pada paginasi kecil dan tidak merusak: EN tetap 401 halaman, ID turun dari 419 ke 417 lalu kembali 419 setelah penambahan naskah di §2.4.
+Efek samping pada paginasi kecil dan tidak merusak: EN tetap 401 halaman, ID turun ke 417 lalu naik ke 420 setelah penambahan naskah di §2.4.
 
 ### 2.3 Kata pengantar
 
@@ -71,9 +71,9 @@ Paragraf yang terdeteksi tidak dihapus, melainkan **ditulis ulang menjadi isi ba
 
 | Ukuran | EN awal | EN kini | ID awal | ID kini |
 |---|---|---|---|---|
-| Pasangan skor ≥ 6,0 | 16 | **0** | 23 | **7** |
-| Pasangan skor ≥ 5,0 | 28 | **7** | 37 | **25** |
-| Pasangan skor ≥ 3,2 | 121 | **94** | 155 | **133** |
+| Pasangan skor ≥ 6,0 | 16 | **0** | 23 | **2** |
+| Pasangan skor ≥ 5,0 | 28 | **7** | 37 | **19** |
+| Pasangan skor ≥ 3,2 | 121 | **94** | 155 | **125** |
 
 Daftar sisa tersimpan di `DEDUP_STATUS.txt` untuk pekerjaan lanjutan.
 
@@ -85,7 +85,7 @@ Daftar sisa tersimpan di `DEDUP_STATUS.txt` untuk pekerjaan lanjutan.
 
 | Butir | EN | ID |
 |---|---|---|
-| Halaman | **401** | **419** |
+| Halaman | **401** | **420** |
 | Ukuran berkas | 2,21 MB | 2,01 MB |
 | Format | A4 (210 × 297 mm) | sama |
 | Metadata judul | *Surviving the Future: Crisis, Climate, and Human Resilience* | *Surviving the Future: Krisis, Iklim, dan Ketahanan Manusia* |
@@ -105,19 +105,19 @@ Pemeriksaan naskah:
 | `check_citations.py` | 422 EN / 376 ID, **0 masalah** |
 | `fact_check.py` | **0 gagal** |
 | `data_consistency.py` | 2 kandidat EN / 2 ID (keduanya rasio yang disengaja) |
-| Kata | **198.310 EN / 164.753 ID** |
+| Kata | **198.310 EN / 165.415 ID** |
 
 ---
 
 ## 4. Keterbatasan dan pekerjaan yang belum selesai
 
-1. **Deduplikasi ID belum tuntas.** 25 pasangan masih berskor ≥ 5,0 (7 di antaranya ≥ 6,0). Penyebabnya bukan terjemahan yang tertinggal, melainkan modul ID yang ditulis terpisah dari modul EN, sehingga perbaikan paragraf EN tidak otomatis memperbaiki padanannya. Daftar kerjanya ada di `DEDUP_STATUS.txt`.
+1. **Deduplikasi ID belum tuntas.** 19 pasangan masih berskor ≥ 5,0 (2 di antaranya ≥ 6,0). Penyebabnya bukan terjemahan yang tertinggal, melainkan modul ID yang ditulis terpisah dari modul EN, sehingga perbaikan paragraf EN tidak otomatis memperbaiki padanannya. Daftar kerjanya ada di `DEDUP_STATUS.txt`.
 2. **7 pasangan EN yang berskor ≥ 5,0** sebagian besar sudah komplementer (satu paragraf memberi angka, yang lain memberi kerangka), bukan duplikasi. Dua di antaranya masih layak disunting: §17.8 (kolera Haiti/Yaman) dan §21.12 (skenario keadilan).
-3. **Tingkat 3,2–5,0 belum disisir.** 94 pasangan EN / 133 ID pada ambang itu adalah campuran duplikasi ringan dan kesamaan topik yang wajar; penyisiran manual membutuhkan pemeriksaan satu per satu.
+3. **Tingkat 3,2–5,0 belum disisir.** 94 pasangan EN / 125 ID pada ambang itu adalah campuran duplikasi ringan dan kesamaan topik yang wajar; penyisiran manual membutuhkan pemeriksaan satu per satu.
 4. **Berkas terbit belum dibangun ulang.** `book/publish/` masih memuat build lama (19 bab, 149 halaman) dari pipeline Typst yang membutuhkan `typst` dan `pandoc`; pipeline itu tidak tersedia di lingkungan ini. PDF A4 401/419 halaman adalah hasil yang harus dipakai.
 
 ---
 
 ## 5. Keputusan
 
-Metadata, outline, tipografi, kata pengantar, dan deduplikasi EN **selesai dan terverifikasi**. Gate 6 belum dapat dinyatakan lulus penuh karena deduplikasi edisi Indonesia baru 40 % selesai. Pekerjaan berikutnya: menyisir 25 pasangan ID yang tersisa, memeriksa ulang §17.8 dan §21.12 EN, lalu menutup gate.
+Metadata, outline, tipografi, kata pengantar, dan deduplikasi EN **selesai dan terverifikasi**. Gate 6 belum dapat dinyatakan lulus penuh karena deduplikasi edisi Indonesia baru sekitar 60 % selesai. Pekerjaan berikutnya: menyisir 19 pasangan ID yang tersisa, merapikan tujuh paragraf Ahr yang berulang di §22.7 dan §18.11 EN, memeriksa ulang §17.8 dan §21.12 EN, lalu menutup gate.

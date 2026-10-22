@@ -41,7 +41,15 @@ EXTRA = {
             "Kasus lambat dalam bab ini mengajarkan empat pelajaran yang berlaku jauh melampaui tempat-tempat itu. Pertama, peringatan dini hanya berguna bila memicu tindakan dini, dan tindakan dini menuntut uang yang tersedia sebelum krisis dinyatakan. Kedua, konflik dan iklim berinteraksi dengan cara yang memperburuk keduanya, dan akses kemanusiaan sering kendala pengikat respons. Ketiga, keadaan akuifer, waduk, dan padang adalah indikator awal yang diukur dalam bulan dan tahun, yang memberi pembuat keputusan lebih banyak waktu daripada yang biasanya mereka pakai. Keempat, rumah tangga termiskin paling kurang mampu menyerap guncangan."
         ],
         "case": [
-            "Kelaparan Somalia 2011 adalah kasus paling jelas dalam catatan modern tentang bencana yang diramalkan dan tidak dicegah. Dua musim hujan gagal berturut-turut mengurangi panen dan ternak, harga gandum naik tajam, dan Jaringan Peringatan Dini Kelaparan menerbitkan peta yang menunjukkan wilayah berisiko berbulan-bulan sebelum deklarasi. Deklarasinya datang pada Juli, dan puluhan ribu orang sudah meninggal. Pembatasan akses oleh kelompok bersenjata dan keengganan donor membiayai respons di zona konflik menunda perluasan operasi, dan jumlah kematian akhirnya diperkirakan sekitar 258.000, separuhnya anak di bawah lima tahun. Kendala pengikatnya politik, bukan informasi."
+            "Ketika deklarasi kelaparan akhirnya keluar pada Juli, puluhan ribu orang sudah meninggal, dan "
+            "pertanyaannya bukan mengapa peringatannya terlambat melainkan mengapa peringatan yang datang "
+            "tepat waktu tidak mengubah belanja. Jaringan peringatan dini telah memetakan wilayah berisiko "
+            "berbulan-bulan sebelumnya; yang tidak tersedia adalah uang yang dapat dicairkan sebelum "
+            "deklarasi, staf yang dapat dikerahkan ke daerah yang dikuasai kelompok bersenjata, dan "
+            "kesepakatan dengan pihak yang menguasai jalan. Kendala pengikatnya politik, bukan informasi, dan "
+            "itulah sebabnya kasus ini dipakai sebagai contoh pertama dalam argumen tentang pembiayaan "
+            "antisipatif: sistem yang hanya membayar setelah ambang kematian terlampaui secara struktural "
+            "membayar terlambat."
         ],
         "future": [
             "Ketahanan pangan dan air 2050 akan ditentukan perpotongan tiga kurva: permintaan, yang naik bersama penduduk dan pendapatan; pasokan, yang turun ketika akuifer menipis dan gletser menyusut; dan frekuensi guncangan, yang naik bersama pemanasan. Wilayah tempat kurvanya paling cepat berpotongan sudah diketahui — Tanduk Afrika, Sahel, Timur Tengah, dataran Indo-Gangetika, dan lahan kering Asia Tengah — dan perbedaan antarskenario sebagian besar soal investasi dan konflik. Indikatornya: muka air tanah di cekungan besar, rasio stok global terhadap konsumsi, harga biji-bijian pokok, dan jumlah orang dalam kerawanan pangan akut."

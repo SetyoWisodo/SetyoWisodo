@@ -191,10 +191,14 @@ CH = {
             "num": "22.7",
             "title": "Banjir: Jerman dan Belgia 2021",
             "paras": [
-                "Banjir Juli 2021 di Jerman barat dan Belgia disebabkan sistem tekanan rendah yang bergerak "
-                "lambat dan menghasilkan curah hujan ekstrem di atas tanah yang sudah jenuh. Di Lembah "
-                "Ahr, sungai naik dalam hitungan jam, menghancurkan rumah, jalan, dan jembatan. Lebih dari "
-                "180 orang meninggal, dan kerusakan melebihi €30 miliar.",
+                "Banjir Juli 2021 di Jerman barat dan Belgia dimulai sebagai peristiwa meteorologis yang biasa "
+                "dan berakhir sebagai peristiwa kelembagaan. Sistem tekanan rendah yang bergerak lambat "
+                "menumpahkan hujan ekstrem di atas tanah yang sudah jenuh, sehingga hampir seluruh airnya menjadi "
+                "limpasan dalam beberapa jam. Di lembah yang sempit, limpasan itu terkumpul di satu saluran, dan "
+                "sungai yang biasanya dangkal naik menjadi arus yang memindahkan jembatan. Kerusakan fisiknya "
+                "terkonsentrasi pada bangunan yang dibangun di dataran banjir karena dataran itu sudah lama tidak "
+                "kebanjiran, yang merupakan pola yang berulang di seluruh buku ini: peta risiko tertinggal dari "
+                "iklimnya.",
 
                 "Kasus itu penting karena terjadi di wilayah kaya dengan institusi kuat dan prakiraan "
                 "modern. Peringatan dikeluarkan, tetapi tidak berubah menjadi tindakan. Banyak warga tidak "

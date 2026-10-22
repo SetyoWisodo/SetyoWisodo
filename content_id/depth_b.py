@@ -315,12 +315,14 @@ EXTRA = {
             "penyimpanan karbon sekaligus ketangguhan terhadap kekeringan.",
         ],
         "case": [
-            "Keputusan beras 2023 memiliki dimensi global yang sering terlewat. India menyumbang sekitar "
-            "40 persen ekspor beras dunia, dan pembatasannya menarik volume besar dari pasar yang sudah "
-            "ketat karena kondisi El Niño. Harga beras Thailand dan Vietnam naik ke level tertinggi dalam "
-            "lebih dari satu dekade, dan negara pengimpor di Afrika Barat serta Asia Tenggara berebut "
-            "pasokan. Episode itu menunjukkan seberapa cepat keputusan ketahanan pangan nasional berubah "
-            "menjadi masalah ketahanan pangan global.",
+            "Reaksi importir adalah bagian yang menentukan hasil akhirnya. Ketika eksportir besar membatasi "
+            "pengiriman, negara pengimpor menghadapi pilihan antara menunggu harga turun dan membeli sekarang "
+            "untuk mengisi cadangan, dan pilihan kedua secara rasional dilakukan setiap negara secara "
+            "terpisah sehingga menaikkan harga bagi semua. Negara yang memiliki stok dan valuta asing keluar "
+            "dengan aman; negara yang tidak memilikinya membayar lebih mahal atau mengurangi jatah. Karena "
+            "itu larangan ekspor satu negara dapat menaikkan harga di negara yang tidak pernah berdagang "
+            "langsung dengannya, dan efeknya paling keras pada rumah tangga miskin di negara pengimpor yang "
+            "tidak punya anggaran untuk menstabilkan harga.",
         ],
     },
 
