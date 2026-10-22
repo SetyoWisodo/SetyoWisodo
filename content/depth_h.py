@@ -92,14 +92,14 @@ EXTRA = {
     # ------------------------------------------------------------------ 12
     12: {
         "12.4": [
-            "The Syrian case has been so heavily cited that it is worth stating precisely what the "
-            "evidence supports and what it does not. Kelley and colleagues used climate models and "
-            "rainfall records to argue that the 2006–2010 drought was made two to three times more "
-            "likely by warming, and that the resulting crop failure and rural displacement "
-            "contributed to the conditions that produced the 2011 uprising. Selby and colleagues "
-            "replied that the drought's effects varied sharply by region and by agricultural "
-            "practices, and that the regime's own water and land policies determined who was "
-            "ruined. Both sides agree that climate was a stressor; they disagree about its weight.",
+            "What the exchange established, and what the field now generally accepts, is a division of labour "
+            "between the two claims. The attribution of the drought to warming is well supported: the models "
+            "and the rainfall record agree that the event was made substantially more likely, and the "
+            "question is how much. The attribution of the uprising to the drought is not, and neither Kelley "
+            "nor Selby defends it in that form; what the evidence supports is a contribution to the "
+            "conditions, in a country that had already absorbed a million and a half displaced people and had "
+            "already withdrawn much of its agricultural support. The case is therefore best read as a lesson "
+            "in how to be precise about a chain rather than as a claim that climate caused a war.",
         ],
         "12.8": [
             "Security institutions have begun to treat climate as a planning assumption rather than an "
@@ -242,13 +242,14 @@ EXTRA = {
             "evacuation routes.",
         ],
         "22.7": [
-            "The Ahr valley flood produced a policy reform that is unusually specific. Germany "
-            "introduced cell broadcast warnings in 2023, required flood protection plans to be "
-            "updated, and reorganised responsibilities between federal and state agencies. The "
-            "investigation by the state of Rhineland-Palatinate found that warnings had been issued "
-            "but that the chain of responsibility for translating them into evacuation was unclear. "
-            "The reform addressed the chain rather than the forecast, which is the correct target: "
-            "the forecast was accurate and the failures were institutional.",
+            "The implementation of that reform is the part worth watching, because the failure mode of "
+            "post-disaster legislation is a text that is never operationalised. Cell broadcast requires every "
+            "handset to be configured, every network to be integrated and every local authority to know which "
+            "message it is authorised to send, and each of those is a contract rather than a statute. The "
+            "2023 national warning day was the first test at scale, and the reported failures were "
+            "concentrated in exactly the places the inquiry had identified: municipal officials unsure "
+            "whether a warning was theirs to issue. Legislation that clarifies the chain on paper has not "
+            "clarified it in a control room until the control room has practised the decision.",
         ],
     },
     # ------------------------------------------------------------------ 23

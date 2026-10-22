@@ -106,7 +106,16 @@ EXTRA = {
             "Pemulihan di Pakistan dibatasi bukan oleh kerusakan fisik melainkan oleh posisi fiskal, dan batasan itu kini ciri standar bencana iklim di negara berutang. Pemerintah harus berutang untuk membangun ulang sambil membayar utang yang menyerap sebagian besar pendapatannya, dan janji yang dibuat pada konferensi internasional lambat datang dan sebagian berbentuk pinjaman. Hasilnya, rekonstruksinya dibiayai orang-orang yang kebanjiran, melalui gabungan layanan yang berkurang dan harga yang naik, yang merupakan mekanisme bagaimana bencana menjadi penurunan kesejahteraan permanen."
         ],
         "22.7": [
-            "Banjir Lembah Ahr memicu reformasi direktif banjir Eropa dan perubahan cara peringatan disampaikan, dan perubahannya mendidik. Layanan meteorologi kini menerbitkan prakiraan berbasis dampak yang menjelaskan apa yang akan dilakukan air alih-alih berapa banyak yang akan turun, sistem peringatan ponsel dipakai lintas batas, dan mekanisme perlindungan sipil diperkuat. Pelajaran lebih dalamnya tentang penerjemahan dari prakiraan ke perintah: peringatan yang tidak memberi tahu rumah tangga apa yang harus dilakukan, atau yang datang tanpa kewenangan untuk bertindak, adalah pesan bukan instruksi, dan celah di antaranya tempat kematian terjadi."
+            "Perubahan yang paling berkonsekuensi bukan teknologinya melainkan format peringatannya. "
+            "Prakiraan berbasis dampak menyatakan apa yang akan dilakukan air terhadap tempat yang disebut "
+            "namanya — jalan ini, jembatan ini, ruang bawah tanah ini — alih-alih berapa milimeter akan turun "
+            "di suatu distrik, dan pergeseran itu penting karena total milimeter tidak memuat instruksi yang "
+            "dapat dijalankan rumah tangga. Sistem Eropa kini menerbitkan peringatan per ruas sungai dengan "
+            "perkiraan genangan, dan layanan yang paling awal mengadopsi format itu melaporkan evakuasi palsu "
+            "yang lebih sedikit dan kepatuhan yang lebih cepat. Reformasinya karena itu perubahan "
+            "penerjemahan, bukan deteksi, dan di situlah hasil marginalnya berada selama satu dekade: "
+            "prakiraannya sudah cukup baik sejak lama, dan yang hilang adalah kalimat yang memberi tahu orang "
+            "apa yang harus dilakukan dengannya."
         ],
         "22.8": [
             "Tiga kota yang hampir kehabisan air menemukan bahwa aritmetika pasokan kurang penting daripada aritmetika kehilangan. Kota yang kehilangan sepertiga airnya melalui kebocoran punya waduk yang sepertiga lebih kecil daripada tampaknya, dan program perbaikannya tidak menarik serta lambat. Krisis São Paulo sama banyak soal jaringan distribusinya dengan curah hujannya, dan krisis Chennai sama banyak soal perambahan danau dengan monsunnya. Ukuran yang penting adalah neraca air: berapa yang masuk, berapa yang hilang, berapa yang ditagih, dan berapa yang dipakai, dan sedikit kota mempublikasikannya."
@@ -126,7 +135,15 @@ EXTRA = {
             "Respons Etiopia terhadap kelaparan 1984 mengubah institusi negaranya sekaligus sistem internasional, dan perubahannya salah satu yang paling penuh harapan dalam buku ini. Program Jaring Pengaman Produktif, yang dimulai 2005, memberi uang tunai atau pangan kepada rumah tangga sebagai imbalan pekerjaan restorasi lahan, dan dirancang agar dapat diprediksi alih-alih berbasis darurat, sehingga rumah tangga dapat merencanakan. Program itu diakui mengurangi kebutuhan bantuan darurat pada tahun buruk, dan telah ditiru di seluruh kawasan. Pelajarannya, sistem perlindungan sosial yang sudah ada sebelum krisis lebih murah dan efektif."
         ],
         "23.4": [
-            "Deklarasi kelaparan adalah tindakan teknis dengan konsekuensi politik, dan ambang teknisnya sengaja konservatif. Sistem IPC menuntut bukti kekurangan ekstrem, malnutrisi akut, dan mortalitas sebelum mengklasifikasikan suatu fase sebagai kelaparan, dan persyaratannya dirancang mencegah alarm palsu dengan biaya alarm terlambat. Di Somalia pada 2011, deklarasinya datang setelah jumlah kematian melewati ambang, dan keterlambatannya menjadi bahan penyelidikan. Reformasi yang menyusul mempercepat analisis dan mengizinkan lembaga bertindak pada fase lebih awal, dan ujiannya apakah tindakan mendahului deklarasi."
+            "Ambang IPC sengaja ditetapkan pada titik ketika kerugian sudah besar, dan konsekuensi politiknya "
+            "berjalan dua arah. Bagi pemerintah yang wilayahnya akan dinyatakan kelaparan, deklarasi berarti "
+            "pengakuan kegagalan dan sering berarti hilangnya kendali atas distribusi bantuan; karena itu "
+            "penundaan kadang merupakan keputusan politik yang disengaja, bukan kelalaian teknis. Bagi donor, "
+            "deklarasi adalah pemicu anggaran dan perhatian media, sehingga uang sering tiba setelah "
+            "kebutuhan memuncak. Reformasi yang paling banyak dibahas karena itu bukan menurunkan ambangnya, "
+            "yang akan menghasilkan alarm palsu dan melemahkan kredibilitas sistem, melainkan memisahkan "
+            "pencairan dana dari deklarasi: prakiraan memicu pembayaran, dan deklarasi tetap menjadi "
+            "pernyataan teknis tentang apa yang sudah terjadi."
         ],
         "23.5": [
             "Atribusi kekeringan Suriah menjadi studi kasus bagaimana temuan ilmiah dipakai dan disalahgunakan dalam argumen politik. Risetnya menemukan kekeringan itu lebih mungkin karena pemanasan akibat manusia, dan temuannya cepat diterjemahkan menjadi judul bahwa perubahan iklim menyebabkan perang. Versi hati-hatinya, kekeringan menyumbang pada perpindahan pedesaan yang membebani kota, respons pemerintah terhadap kekeringan adalah pilihan politik, dan perangnya punya banyak sebab yang salah satunya iklim. Politisasi temuannya merusak kredibilitas sains di kalangan yang tidak setuju dengan kebijakannya."

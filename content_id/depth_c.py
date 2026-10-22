@@ -209,12 +209,16 @@ EXTRA = {
             "moneter seharusnya meresponsnya.",
         ],
         "case": [
-            "Musim 2017 juga menunjukkan celah asuransi yang mendefinisikan ekonomi iklim. Dari sekitar "
-            "US$300 miliar kerugian, sekitar US$90 miliar diasuransikan, dan selisihnya terkonsentrasi "
-            "di pulau-pulau Karibia serta Puerto Rico, tempat penetrasi asuransi rendah. Celah itu tidak "
-            "hilang; ia diserap rumah tangga, pemerintah, dan bantuan kemanusiaan, yang berarti korban "
-            "termiskin membiayai sebagian besar rekonstruksi melalui tabungan yang hilang, tahun sekolah "
-            "yang hilang, dan kesehatan yang hilang.",
+            "Celahnya penting karena apa yang menggantikan asuransi ketika ia tidak ada. Rumah tangga tanpa "
+            "pertanggungan menarik tabungan, menunda perbaikan, dan berutang pada tingkat informal; "
+            "pemerintah menyerap sisanya lewat anggaran darurat yang tiba berbulan-bulan kemudian; dan "
+            "lembaga kemanusiaan mengisi ruang di antaranya. Setiap saluran itu lebih lambat dan kurang "
+            "lengkap daripada klaim, dan penundaan itu sendiri adalah biaya, karena atap yang diperbaiki "
+            "dalam tiga bulan menjaga sekolah dan kesehatan sebuah rumah tangga dengan cara yang tidak "
+            "dilakukan atap yang sama yang diperbaiki dalam tiga tahun. Inilah argumen untuk kumpulan risiko "
+            "dan pertanggungan parametrik, yang membayar berdasarkan pemicu terukur alih-alih klaim yang "
+            "dinilai: pembayarannya dapat tiba dalam hitungan pekan, dan ia tidak menuntut penilai mencapai "
+            "jalan yang sudah tidak ada.",
         ],
     },
 }

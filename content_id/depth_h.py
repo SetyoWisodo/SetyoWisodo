@@ -60,14 +60,14 @@ EXTRA = {
             "spesies khusus di puncak gunung atau pegunungan terisolasi tidak punya tempat tujuan.",
         ],
         "8.3": [
-            "Terumbu karang adalah ekosistem tempat aritmetika pemanasan paling tidak memberi "
-            "kelonggaran, dan angkanya kini mapan. Great Barrier Reef mengalami lima peristiwa "
-            "pemutihan massal sejak 2016, dan peristiwa 2024 memengaruhi lebih dari tujuh puluh persen "
-            "terumbu dalam sebagian survei. Hughes dan rekan-rekannya berargumen bahwa pemutihan "
-            "berulang telah memperpendek interval pemulihan di bawah waktu yang dibutuhkan terumbu "
-            "untuk tumbuh kembali, yang mengubah gangguan menjadi lintasan. Terumbu menopang sekitar "
-            "seperempat spesies laut pada suatu tahap siklus hidupnya, dan perikanan yang bergantung "
-            "padanya memberi makan ratusan juta orang.",
+            "Yang membuat terumbu berbeda dari ekosistem lain adalah bahwa kerugiannya langsung terasa pada "
+            "manusia yang tidak pernah melihatnya. Terumbu menahan energi gelombang sebelum mencapai pantai, "
+            "sehingga kehilangan struktur fisiknya menaikkan tinggi gelombang yang tiba di desa pesisir, dan "
+            "perikanan yang bergantung padanya adalah sumber protein dan pendapatan bagi puluhan juta rumah "
+            "tangga. Biaya penggantiannya dihitung dalam bentuk pemecah gelombang buatan dan program "
+            "restorasi yang jauh lebih mahal daripada perlindungan terhadap tekanan yang membunuhnya. Inilah "
+            "alasan ekonomi untuk membatasi pemanasan pada tingkat yang masih memungkinkan terumbu bertahan, "
+            "dan alasan mengapa target suhu bukan sekadar angka lingkungan.",
         ],
         "8.4": [
             "Amazon adalah ekosistem tempat ambang fisik dapat mengubah perubahan bertahap menjadi "
@@ -242,13 +242,15 @@ EXTRA = {
             "dalam rencana yang sama dengan rute evakuasi.",
         ],
         "22.7": [
-            "Banjir lembah Ahr menghasilkan reformasi kebijakan yang luar biasa spesifik. Jerman "
-            "memperkenalkan siaran sel pada 2023, mewajibkan rencana perlindungan banjir diperbarui, "
-            "dan menata ulang tanggung jawab antara lembaga federal dan negara bagian. Penyelidikan "
-            "negara bagian Rheinland-Pfalz menemukan bahwa peringatan telah diterbitkan tetapi rantai "
-            "tanggung jawab untuk menerjemahkannya menjadi evakuasi tidak jelas. Reformasinya "
-            "menyasar rantai itu alih-alih prakiraannya, yang merupakan sasaran yang tepat: "
-            "prakiraannya akurat dan kegagalannya institusional.",
+            "Pelaksanaan reformasi itu adalah bagian yang layak diamati, karena mode kegagalan "
+            "perundang-undangan pascalencana adalah teks yang tidak pernah dioperasionalkan. Siaran sel "
+            "menuntut setiap ponsel dikonfigurasi, setiap jaringan terintegrasi, dan setiap otoritas lokal "
+            "tahu pesan mana yang berwenang dikirimnya, dan masing-masing adalah kontrak alih-alih "
+            "undang-undang. Hari peringatan nasional 2023 adalah uji pertama pada skala penuh, dan kegagalan "
+            "yang dilaporkan terkonsentrasi justru di tempat yang telah ditunjuk penyelidikan: pejabat "
+            "kotamadya tidak yakin apakah peringatan itu wewenangnya. Undang-undang yang memperjelas rantai "
+            "di atas kertas belum memperjelasnya di ruang kendali sampai ruang kendali itu berlatih mengambil "
+            "keputusannya.",
         ],
     },
     # ------------------------------------------------------------------ 23

@@ -288,12 +288,14 @@ CH = {
             "radio dan pengeras suara, ribuan tempat berlindung yang ditinggikan, dan latihan tahunan. "
             "Cyclone Preparedness Programme melatih puluhan ribu relawan, banyak di antaranya perempuan, "
             "untuk memperingatkan dan mengevakuasi tetangga mereka.",
-
-            "Hasilnya terukur. Siklon dengan intensitas sebanding pada dekade berikutnya menghasilkan jauh "
-            "lebih sedikit kematian. Pada 1991, siklon menewaskan sekitar 138.000 orang, masih katastrofik "
-            "tetapi jauh lebih sedikit daripada 1970. Pada 2020, ketika Siklon Amphan mendarat selama "
-            "pandemi COVID-19, lebih dari 2,4 juta orang dievakuasi, dan jumlah kematian dalam hitungan "
-            "puluhan.",
+"Perbandingan yang penting bukan antara kedua badai melainkan antara dua masyarakat yang "
+"menghadapinya. Pada 1970 pesisir itu belum punya sistem memindahkan orang sebelum gelombang, dan "
+"kematiannya dihitung dalam ratusan ribu. Pada 2020 pesisir yang sama punya rantai peringatan "
+"yang menjangkau desa lewat pengeras suara dan ponsel, korps relawan yang menggiring orang ke "
+"pengungsian, dan penduduk yang pernah dievakuasi sehingga memercayai peringatannya. Lebih dari "
+"dua juta orang berpindah ke daratan selama pandemi, yaitu perincian operasional yang paling "
+"mengesankan para perencana: sistemnya bekerja pada skala dan kondisi yang tidak diantisipasi "
+"rencana mana pun, karena lembaganya sudah melatih bagian-bagian yang penting.",
 
             "Perbandingan itu bukan kisah sukses sempurna. Tempat berlindung tersebar tidak merata, "
             "evakuasi lebih sulit bagi orang dengan ternak atau disabilitas, dan COVID-19 mempersulit "

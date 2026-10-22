@@ -169,13 +169,14 @@ EXTRA = {
             "cepat metana diperlakukan sebagai tuas jangka pendek.",
         ],
         "2.3": [
-            "Bukti pemanasan datang dari beberapa arah independen, dan kesepakatannya adalah bagian "
-            "terkuat dari kasus ini. Termometer permukaan menunjukkan kenaikan sekitar 1,1–1,3 °C sejak "
-            "akhir abad kesembilan belas; satelit yang mengukur emisi gelombang mikro menunjukkan "
-            "troposfer menghangat dan stratosfer mendingin, kebalikan dari yang akan dihasilkan "
-            "perubahan yang digerakkan matahari; lubang bor menunjukkan pemanasan bawah permukaan; "
-            "gletser menyusut di setiap benua; dan waktu musim bergeser. Tidak ada satu garis bukti pun "
-            "yang memikul kesimpulan, dan tidak ada penjelasan alternatif yang menjelaskan semuanya.",
+            "Yang membuat kesepakatan itu kuat bukan jumlah studinya melainkan independensi metodenya. "
+            "Termometer, satelit, inti es, cincin pohon, dan pengukuran pasang surut tidak berbagi kesalahan "
+            "yang sama: satelit dapat dikalibrasi silang dengan stasiun darat, inti es merekam komposisi "
+            "atmosfer pada zaman sebelum ada termometer, dan pola pemanasan yang teramati — troposfer "
+            "menghangat sementara stratosfer mendingin — adalah pola yang hanya dapat dihasilkan oleh gas "
+            "rumah kaca, bukan oleh matahari yang lebih terang. Argumen yang mengandalkan satu jenis bukti "
+            "dapat dibantah dengan satu koreksi instrumen; argumen yang mengandalkan enam jenis bukti yang "
+            "saling menguatkan menuntut enam kesalahan yang kebetulan searah.",
         ],
         "2.4": [
             "Catatan suhu memerlukan penanganan cermat terhadap ketidakhomogenan. Stasiun berpindah, "
@@ -215,13 +216,15 @@ EXTRA = {
             "dan hutan kelp, yang merupakan habitat asuhan sebagian besar ikan komersial.",
         ],
         "2.8": [
-            "Kehilangan es adalah komponen sistem dengan komitmen jangka panjang terbesar dan "
-            "ketidakpastian terbesar. Lapisan es Greenland kehilangan massa sekitar 250–300 gigaton per "
-            "tahun, dan kontribusi Antarktika tumbuh seiring percepatan gletser outletnya. Gletser "
-            "pegunungan di luar wilayah kutub menyusut hampir di mana-mana, mengancam pasokan air musim "
-            "kemarau bagi ratusan juta orang di Andes, Himalaya, dan dataran tinggi Afrika Timur. "
-            "Ketidakpastiannya bukan apakah es hilang, melainkan seberapa cepat kehilangan itu berubah "
-            "menjadi muka laut.",
+            "Yang membedakan kehilangan es dari dampak iklim lainnya adalah bahwa ia praktis tidak dapat "
+            "dibalik dalam skala waktu manusia. Karbon dioksida yang sudah dilepaskan akan terserap sebagian "
+            "dalam beberapa dekade jika emisinya berhenti; lapisan es yang telah melewati ambangnya akan "
+            "terus kehilangan massa karena ketinggian permukaannya sendiri menurun dan udara yang lebih "
+            "hangat bertiup di atasnya. Karena itu kebijakan yang menargetkan suhu pada 2100 hampir tidak "
+            "berpengaruh pada permukaan laut pada 2100, yang sudah ditentukan oleh pemanasan hingga hari ini, "
+            "dan sepenuhnya menentukan permukaan laut pada 2300. Perbedaan skala waktu inilah yang membuat "
+            "adaptasi pesisir menjadi keputusan puluhan tahun, bukan keputusan politik satu siklus "
+            "pemerintahan.",
         ],
         "2.9": [
             "Siklus karbon bukan reservoir pasif, dan umpan baliknya adalah tempat sebagian besar "
@@ -387,14 +390,14 @@ EXTRA = {
             "bahaya dalam rencana panas kota-kota tropis mulai dinyatakan dalam besaran ini.",
         ],
         "4.2": [
-            "Penyakit panas berkembang sepanjang spektrum yang mudah salah dinilai. Kram panas dan "
-            "kelelahan panas dapat dipulihkan dengan istirahat, naungan, dan cairan; sengatan panas "
-            "adalah darurat medis ketika suhu inti melebihi 40 °C dan sistem saraf pusat mulai gagal, dan "
-            "ia dapat berkembang dalam satu jam setelah aktivitas berat pada kondisi parah. Organ paling "
-            "rentan adalah otak, ginjal, jantung, dan hati, dan penyintas sengatan panas sering membawa "
-            "kerusakan neurologis serta ginjal jangka panjang. Karena gejalanya dapat muncul terlambat, "
-            "orang yang paling berisiko mungkin tidak menyadari apa yang terjadi sampai mereka tidak "
-            "mampu bertindak.",
+            "Kesulitan klinisnya bukan mengenali sengatan panas melainkan mengenali siapa yang akan "
+            "mengalaminya. Kematian akibat panas di kota-kota beriklim sedang sebagian besar terjadi pada "
+            "orang yang tidak pernah mencapai diagnosis, di rumah, pada malam hari, dan dicatat sebagai "
+            "serangan jantung atau gagal napas pada pasien yang sudah punya penyakit penyerta. Itulah "
+            "sebabnya hitungan kematian berlebih lebih tinggi daripada hitungan kematian akibat panas yang "
+            "tercatat resmi, dan selisihnya bukan kesalahan statistik melainkan ciri penyakitnya. Bagi "
+            "perencana, konsekuensinya jelas: intervensi harus menyasar kondisi perumahan dan isolasi sosial, "
+            "karena tanda klinisnya datang terlalu lambat untuk dijadikan dasar tindakan.",
         ],
         "4.3": [
             "Pulau panas perkotaan dihasilkan bahan dan geometri alih-alih iklim semata. Aspal dan beton "
@@ -424,13 +427,15 @@ EXTRA = {
             "retrospektif yang mungkin tidak pernah dilakukan.",
         ],
         "4.6": [
-            "Rencana aksi panas berhasil, dan buktinya luar biasa kuat untuk ukuran adaptasi. Rencana "
-            "Ahmedabad, yang dikembangkan setelah gelombang panas 2010 menewaskan lebih dari 1.300 orang, "
-            "menggabungkan peringatan yang dipicu prakiraan, pusat pendinginan, perubahan jam kerja, dan "
-            "penjangkauan warga rentan; Hess dkk. (2018) memperkirakan rencana itu mencegah sekitar 1.190 "
-            "kematian per tahun. Ciri desain kuncinya bukan peringatannya melainkan tindakan yang telah "
-            "disepakati sebelumnya dan mengikuti peringatan itu, serta fakta bahwa tanggung jawabnya "
-            "ditetapkan pada lembaga tertentu alih-alih diserahkan pada individu.",
+            "Bukti bahwa rencana panas bekerja lebih kuat daripada bukti untuk hampir semua tindakan adaptasi "
+            "lain, dan kekuatannya datang dari perbandingan di dalam kota yang sama. Ahmedabad mencatat "
+            "kematian berlebih sebelum dan sesudah rencananya diberlakukan, dan penurunannya muncul pada "
+            "tahun-tahun ketika gelombang panasnya sebanding, yang merupakan desain yang jarang tersedia. "
+            "Evakuasi terhadap keberatan yang biasa — bahwa penurunannya disebabkan musim yang lebih sejuk — "
+            "bergantung pada pemisahan hari menurut suhu, dan pada kenyataan bahwa penurunannya paling besar "
+            "pada kelompok yang paling banyak dijangkau rencana itu. Inilah bentuk bukti yang seharusnya "
+            "dituntut dari setiap program adaptasi sebelum diperluas, dan yang biasanya tidak tersedia karena "
+            "tidak ada yang mengukur garis dasarnya.",
         ],
         "4.7": [
             "Panas mengurangi produktivitas kerja melalui dua jalur: ia memperlambat kerja, dan ia "

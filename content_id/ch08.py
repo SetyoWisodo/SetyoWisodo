@@ -136,15 +136,14 @@ CH = {
                 "di seluruh Amerika Selatan, dan cekungan Kongo melakukan hal yang sama bagi Afrika "
                 "tengah. Ketika hutan dibuka atau terdegradasi, karbon dan curah hujan sama-sama "
                 "hilang, dan kedua kehilangan itu saling memperkuat.",
-
-                "Amazon adalah kasus yang paling banyak dipelajari. Sekitar 17 persen hutan telah "
-                "dibuka, dan sebagian lagi terdegradasi oleh penebangan dan kebakaran. Model iklim "
-                "dan studi observasional menunjukkan bahwa di luar ambang sekitar 20 sampai 25 persen "
-                "deforestasi, hutan dapat kehilangan kemampuan mendaur ulang kelembapan dan mulai "
-                "berubah menjadi sabana di bagian timur dan selatan. Kekeringan 2023–2024, yang "
-                "terparah dalam rekaman instrumental, menurunkan permukaan sungai ke titik terendah "
-                "sepanjang sejarah dan menciptakan kondisi bagi kebakaran yang menghanguskan jutaan "
-                "hektar.",
+"Yang membuat Amazon berbeda dari hutan lain bukan luasnya melainkan peran sungainya. Hutan itu "
+"mengangkut kelembapan dari Samudra Atlantik ke pedalaman, dan sebagian besar hujan di bagian "
+"barat serta selatan berasal dari penguapan yang dilepaskan hutan itu sendiri, sehingga "
+"kehilangan tutupan di timur mengurangi hujan jauh di barat. Sistemnya juga bergantung pada "
+"banjir musiman: sungai yang naik mengisi dataran banjir dan memberi makan perikanan yang menjadi "
+"protein utama penduduk, dan rezim banjir yang berubah merusak keduanya sekaligus. Kebijakan yang "
+"hanya menghitung hektar yang ditebang karena itu melewatkan bagian yang paling menentukan, yaitu "
+"koneksi antara hutan, sungai, dan hujan yang mengikat keduanya.",
 
                 "Hutan juga bom karbon. Jika ia mati suri, karbon yang disimpannya akan dilepaskan, "
                 "mempercepat pemanasan dan membuat dieback lebih mungkin. Amazon karena itu "

@@ -414,14 +414,15 @@ CH = {
             "yang berbeda. Yang paling relevan bagi pembaca adalah tiga: lintasan percepatan "
             "dekarbonisasi, lintasan kebijakan saat ini yang diperkuat, dan lintasan yang "
             "mempertahankan dominasi fosil.",
-
-            "Data historis menunjukkan mengapa lintasan itu penting. Selama 10.000 tahun terakhir, "
-            "sebelum Revolusi Industri, konsentrasi karbon dioksida tidak pernah melebihi 300 "
-            "bagian per juta. Sejak 1750, konsentrasi naik menjadi 424 bagian per juta, dan "
-            "sekitar setengah kenaikan itu terjadi sejak 1980. Jika emisi terus meningkat pada "
-            "laju saat ini, konsentrasi pada 2100 dapat mencapai 700 sampai 800 bagian per juta, "
-            "sebuah tingkat yang terakhir terjadi lebih dari tiga juta tahun lalu, ketika "
-            "permukaan laut beberapa meter lebih tinggi daripada sekarang.",
+"Satu ciri lintasan yang mudah dilewatkan adalah bahwa konsentrasi berhenti naik hanya setelah "
+"emisi mencapai nol bersih, bukan ketika emisinya turun. Selama emisi masih di atas nol, karbon "
+"dioksida terus terakumulasi di atmosfer meskipun lajunya melambat, sehingga suhu juga terus naik "
+"meskipun lebih pelan. Itulah sebabnya perbedaan antara lintasan yang turun setengah dan lintasan "
+"yang mencapai nol bukan perbedaan derajat, melainkan perbedaan apakah pemanasannya berhenti atau "
+"berlanjut, dan mengapa tahun nol bersih lebih menentukan daripada tahun puncak emisi. Aerosol "
+"sulfat menambah komplikasi: mereka mendinginkan permukaan dan berkurang bersamaan dengan emisi, "
+"sehingga pembersihan udara dapat mempercepat pemanasan yang terlihat selama satu atau dua "
+"dekade.",
 
             "Kondisi sekarang memberi titik awal yang jelas. Dunia telah menghangat sekitar 1,2 °C, "
             "permukaan laut naik 20 sampai 25 sentimeter, dan sekitar 1,2 triliun ton karbon "

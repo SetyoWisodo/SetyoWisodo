@@ -72,7 +72,15 @@ EXTRA = {
             "Communicating a number honestly requires deciding what the audience needs to do with it. A household needs to know whether to evacuate, not the confidence interval of the forecast; a council needs to know the range of sea-level rise for the design life of a drain; a negotiator needs to know the uncertainty in the carbon budget. Giving each of them the same press release is a failure of communication even if the number is correct. The best practice is to lead with the decision, then the number, then the uncertainty, and to say plainly what is not known. That structure is harder to write than a headline and much more likely to be acted on."
         ],
         "case": [
-            "Hurricane Helene produced a misinformation emergency alongside a flooding emergency. The storm made landfall as a Category 4 in Florida and travelled inland, dropping extreme rainfall over the southern Appalachians; the flooding cut off whole towns and killed more than two hundred people across six states. In the days that followed, false claims about the response spread widely — that aid was being withheld, that the storm had been engineered, that the death toll was being concealed — and officials in the affected states spent time and credibility refuting them. The episode is a template for the next disaster: the information environment is now part of the emergency, and it must be planned for as such."
+            "The misinformation did not create the disaster and it did not determine the response, and both "
+            "halves of that sentence matter. The flooding in the southern Appalachians was produced by "
+            "rainfall that the forecasts had described days in advance, and the rescue effort was carried out "
+            "by state and local teams who were not waiting for a social media consensus. What the false "
+            "claims changed was the behaviour of a minority: some households declined assistance, some "
+            "volunteers arrived without coordination, and some officials spent the first week rebutting "
+            "rumour instead of directing resources. The measurable cost is therefore administrative rather "
+            "than physical, and that is the part that a preparedness plan can address, by naming a single "
+            "authoritative channel and staffing it before the event rather than after."
         ],
         "future": [
             "The information environment of 2050 will be shaped by two trends that pull in opposite directions. On one side, generative models will make it cheap to produce plausible text, images and video at scale, and the cost of fabrication will approach zero. On the other, the same tools will make it cheap to detect manipulation, to translate warnings into local languages, and to summarise complex data for a specific decision. Which trend dominates depends on institutions: on platform regulation, on public service media, on the digital literacy of the next generation, and on whether the trusted local voice survives the collapse of local news. The scenarios in this chapter differ mainly on that last variable."

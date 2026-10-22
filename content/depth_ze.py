@@ -167,7 +167,15 @@ EXTRA = {
             "Gender shapes the impact of every hazard, and the mechanism is rarely the hazard itself. Women are more likely to be responsible for the water, the fuel and the care of children and the elderly, which means that a drought becomes a longer working day and a flood becomes a heavier load. They are more likely to be excluded from the land title that determines compensation and from the committee that allocates the relief. They are less likely to be able to leave a shelter that is unsafe, and more likely to be exposed to violence in one that is crowded. The interventions that work are not separate programmes but a routine analysis of who is affected, applied to every decision."
         ],
         "future": [
-            "The justice scenario for 2050 turns on whether the institutions that distribute loss are rebuilt before the loss arrives. In one version, a scaled loss and damage mechanism, a restructured debt architecture and a local adaptation finance channel mean that a flood in a low-income country is met with resources rather than with an appeal. In the other, the funds remain small, the debt remains senior to the climate, and the adaptation that happens is private and unequal. The difference between the two is not the science, which is shared, but the willingness of the countries with the most capacity to accept an obligation that is not voluntary."
+            "The variable that separates the two versions is not the size of the fund but the speed at which "
+            "it can be disbursed. A mechanism that requires a project proposal, an appraisal and a "
+            "procurement cycle delivers money two to three years after the flood, which is the timescale of "
+            "reconstruction rather than of relief, and by then the households that could not wait have "
+            "already sold assets and withdrawn children from school. The proposals that have changed the "
+            "arithmetic are the ones that pre-accredit national and municipal agencies to spend against a "
+            "trigger, so that the money moves through a channel that already exists. The difference between "
+            "the scenarios can therefore be measured in weeks, and weeks are what the data on post-disaster "
+            "impoverishment say matters most."
         ],
     },
     22: {

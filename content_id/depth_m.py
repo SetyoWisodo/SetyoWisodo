@@ -4,7 +4,16 @@
 EXTRA = {
     4: {
         "4.1": [
-            "Dua termometer dapat menunjukkan angka yang sama dan menggambarkan hari yang sangat berbeda. Yang penting secara fisiologis adalah gabungan panas dan kelembapan, karena tubuh membuang panas terutama dengan menguapkan keringat, dan penguapan melambat ketika udara dipenuhi uap air. Suhu bola basah menangkap gabungan itu: ia adalah suhu terendah yang dapat dicapai suatu permukaan dengan menguapkan air ke udara, diukur dengan membungkus termometer dalam kain basah dan mengalirkan udara melewatinya. Sore kering 45 °C di gurun bisa memiliki bola basah di awal dua puluhan, masih dapat ditanggung di tempat teduh dengan air; sore lembap 35 °C di kota tropis bisa mendekati batas teoretis ketika orang dewasa sehat tidak dapat mendingin sama sekali. Instrumen di tempat kerja, seperti termometer bola basah dan bola, menambahkan panas radian dan gerak udara pada gagasan yang sama."
+            "Ukuran ini menjadi berguna bagi pemerintah kota karena alasan praktis: ia dapat dihitung dari "
+            "suhu dan kelembapan yang sudah dicatat stasiun cuaca, sehingga rencana aksi panas dapat "
+            "menetapkan pemicunya dalam besaran bola basah tanpa peralatan baru. Itu penting karena pemicunya "
+            "adalah tempat sebagian besar rencana gagal. Ambang yang ditetapkan pada suhu udara kering akan "
+            "menyala pada sore panas yang tidak membahayakan siapa pun dan diam pada hari lembap yang "
+            "mematikan, dan kesalahannya mengarah ke arah yang tidak menghasilkan keluhan maupun "
+            "pembelajaran. Menetapkan ambang dalam besaran bola basah memaksa rencana dikalibrasi pada "
+            "fisiologi orang yang dilindunginya, dan menjadikan pemicunya dapat ditinjau, yaitu sifat yang "
+            "memungkinkan kota memperbaikinya setelah musim yang buruk alih-alih menemukan cacatnya di "
+            "statistik kematian."
         ],
         "4.2": [
             "Rangkaian gangguannya dimulai dari darah. Untuk memindahkan panas dari inti tubuh ke kulit, jantung menaikkan curah dan mengalihkan darah dari usus serta ginjal, itulah sebabnya penyakit panas sering muncul sebagai pingsan, mual, atau cedera ginjal, bukan sebagai sengatan panas. Berkeringat kehilangan air dan garam, mengentalkan darah dan menaikkan risiko pembekuan; dehidrasi mengurangi volume darah, sehingga jantung harus bekerja lebih keras pada saat pasokannya berkurang. Orang tua mulai dengan cadangan lebih kecil, dan banyak mengonsumsi obat — diuretik, penyekat beta, antidepresan — yang mengganggu keringat atau respons kardiovaskular. Aklimatisasi nyata tetapi lambat: satu sampai dua pekan paparan bertahap menaikkan laju keringat dan menurunkan kehilangan garam."
@@ -19,7 +28,14 @@ EXTRA = {
             "Kematian berlebih membandingkan kematian yang teramati selama periode panas dengan kematian yang seharusnya terjadi pada pekan yang sama di tahun biasa, dan pilihan garis dasar mengubah jawabannya. Garis dasar dari lima tahun sebelumnya sederhana tetapi rentan terhadap musim flu yang buruk; garis dasar yang memodelkan suhu dan kematian bersama dapat memisahkan pengaruh panas dari pengaruh epidemi. Metode itu lalu menghadapi masalah pergeseran: sebagian orang yang mati saat gelombang panas akan mati dalam beberapa pekan lagi, sehingga kerugian bersihnya bisa lebih kecil. Studi umumnya menemukan pergeseran menyumbang sebagian kecil, tetapi ketidaksepakatan cukup besar sehingga peristiwa yang sama dapat dilaporkan dengan angka berbeda setengahnya."
         ],
         "4.6": [
-            "Rencana aksi panas adalah mesin untuk mengubah prakiraan menjadi tindakan sebelum ada yang kolaps. Komponennya tidak menarik: ambang suhu yang disepakati lebih dahulu, peringatan berkode warna yang dikenali semua orang, daftar distribusi yang menjangkau rumah sakit, sekolah, pemberi kerja, dan kelompok warga, pusat pendinginan yang benar-benar buka, serta protokol untuk memeriksa orang yang tinggal sendiri. Ahmedabad mengadopsi rencana pertama di Asia Selatan setelah gelombang panas 2010, dan evaluasinya menemukan penurunan kematian yang terukur. Bagian terlemahnya biasanya yang terakhir: rencana yang hanya ada di atas kertas gagal saat dibutuhkan, dan rencana yang ambangnya terlalu tinggi tidak pernah terpicu."
+            "Kendala pengikat rencana panas biasanya bukan rencananya melainkan daftar yang menjadi "
+            "landasannya. Mengetahui bahwa sebuah kota punya empat ratus ribu warga di atas tujuh puluh tahun "
+            "tidak berguna; mengetahui siapa di antaranya tinggal sendiri, tanpa penyejuk, dan punya penyakit "
+            "jantung adalah yang memungkinkan relawan mengetuk pintu yang tepat. Kota dengan daftar yang "
+            "berfungsi membangunnya dari daftar praktik dokter umum, akun utilitas, dan catatan apotek, "
+            "dengan prosedur persetujuan yang memenuhi hukum perlindungan data, dan yang gagal mencoba "
+            "membangunnya pada gelombang panas pertama. Daftar karena itu pekerjaan administrasi biasa yang "
+            "harus dipesan pada bulan yang sejuk oleh seseorang yang tidak akan diberi penghargaan karenanya."
         ],
         "4.7": [
             "Panas mengurangi kemampuan bekerja sebelum membuat seseorang jatuh sakit. Di atas sekitar 25 °C bola basah, kemampuan tubuh membuang panas lewat keringat mulai membatasi kerja fisik berkelanjutan, dan efeknya terbesar pada pekerjaan yang tidak dapat dipindahkan ke dalam ruangan atau dijadwalkan malam: pertanian, konstruksi, batu bata, garmen, pengantaran. Upah borongan mengubah batas fisiologis menjadi batas ekonomi, karena pekerja yang melambat berpenghasilan lebih sedikit dan terdorong mengabaikan tanda bahaya. Hasilnya kehilangan produktivitas yang terkonsentrasi di negara paling kurang mampu menyerapnya, dan kesenjangan keselamatan kerja: standar yang melindungi pekerja di negara kaya sering tidak ada di tempat panasnya paling parah. Naungan, air, istirahat, dan jadwal itu murah; penegakannya tidak."
@@ -34,7 +50,14 @@ EXTRA = {
             "Adaptasi punya langit-langit, dan langit-langitnya lebih rendah daripada langit-langit pengurangan emisi. Bagi orang dewasa sehat yang beristirahat di tempat teduh dengan air tak terbatas, bertahan hidup mungkin jauh di atas suhu yang dialami sebagian besar kota; bagi pekerja luar ruang di bawah matahari, batasnya datang jauh lebih cepat; bagi orang tua di flat tanpa pendingin, lebih cepat lagi. Ketika panas dan kelembapan bergabung melewati titik di mana keringat tidak lagi menguap, tidak ada perilaku yang menyelamatkan tubuh, dan pilihan yang tersisa hanya pendinginan mekanis dan mundur. Implikasinya, adaptasi membeli waktu dan menurunkan kematian pada pemanasan sedang, tetapi tidak dapat membuat dunia 4 °C layak huni di tropis."
         ],
         "case": [
-            "Musim panas 2022 berbeda dari 2003 dalam hal yang penting bagi adaptasi. Jumlah kematiannya lebih rendah meski suhunya setara atau lebih tinggi, dan perbedaannya sebagian besar dikaitkan dengan sistem peringatan, liputan media, protokol rumah sakit, dan kesadaran publik yang dibangun setelah 2003. Kegagalannya tetap serius: kematian terkonsentrasi pada orang tua yang tinggal sendiri, jeda antara prakiraan dan peringatan di beberapa negara, dan musim kebakaran yang menguras layanan pemadam. Britania melewati 40 °C untuk pertama kali dalam catatannya, di negara yang stok perumahannya dirancang menahan panas. Spanyol dan Portugal mencatat nilai ekstrem berulang, dan kekeringan yang mendahului panas mengurangi debit sungai serta keluaran PLTA."
+            "Perbandingan itu juga memuat peringatan tentang cara adaptasi diukur. Laju kematian per derajat "
+            "yang menurun adalah bukti standar bahwa sistem kesehatan telah beradaptasi, dan ukuran itu masuk "
+            "akal, tetapi ia dapat membaik sementara beban absolutnya naik karena paparannya tumbuh lebih "
+            "cepat daripada perlindungannya. Populasi Eropa menua, kotanya lebih panas daripada sekitarnya, "
+            "dan musim panasnya memanjang; rencana yang memangkas separuh risiko per derajat sementara jumlah "
+            "hari panas berlipat belum mengurangi korban. Metrik yang jujur karena itu kematian per musim "
+            "alih-alih kematian per derajat, dan dengan metrik itu catatan Eropa sejak 2003 adalah penurunan "
+            "yang diikuti dataran, bukan keberhasilan yang berlanjut."
         ],
         "future": [
             "Cara berguna memikirkan panas masa depan bukan rata-rata global melainkan jumlah hari di atas ambang berbahaya. Dunia 1,5 °C dan dunia 3 °C berbeda sedikit pada suhu rata-rata dan sangat besar pada frekuensi ekstrem: peristiwa yang dahulu sekali dalam lima puluh tahun menjadi sekali dalam lima tahun, dan di sebagian wilayah tropis hampir tahunan. Perubahan itulah yang menggerakkan kematian, kehilangan kerja, dan permintaan pendinginan, dan itulah yang harus dirancang infrastruktur. Jumlah hari di atas 35 °C adalah variabel perencanaan yang lebih jujur daripada rata-rata global, karena itulah yang dialami rumah tangga, rumah sakit, atau lokasi konstruksi, dan karena ia dapat diproyeksikan untuk satu kota, bukan untuk planet."

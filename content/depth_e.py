@@ -561,14 +561,15 @@ EXTRA = {
             "warning is issued without a response protocol attached.",
         ],
         "17.8": [
-            "The old assumption that disasters produce epidemics has been replaced by a more precise "
-            "picture: they produce outbreaks when they displace people into crowded conditions with "
-            "contaminated water. Cholera in Yemen after 2016 produced more than a million suspected "
-            "cases, and malaria surged in Pakistan after the 2022 floods. The 2010 cholera outbreak in "
-            "Haiti, which killed thousands, was traced to sewage introduced by international "
-            "peacekeepers, a reminder that the epidemic risk is partly created by the response "
-            "itself. Sanitation, clean water and rapid laboratory confirmation are the interventions "
-            "that matter, and they are unglamorous.",
+            "The epidemiology is more specific than the slogan, and the specificity is what makes it useful. "
+            "Earthquakes rarely produce epidemics, because the pathogen has to be present before the ground "
+            "shakes; floods and displacement produce them when they concentrate people around water that is "
+            "also carrying sewage. The outbreaks that follow are therefore predictable by type: cholera where "
+            "the water supply is contaminated, dengue where standing water persists after the flood recedes, "
+            "and measles where vaccination coverage was already low. Each of those has a different lag — "
+            "cholera within weeks, dengue within a month or two, measles in the following year — and each "
+            "therefore requires a different surveillance window, which is the detail that a plan written as a "
+            "generic warning will miss.",
         ],
         "17.9": [
             "Workforce and medicines are the two resources that cannot be improvised. WHO estimates "

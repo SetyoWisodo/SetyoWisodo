@@ -114,7 +114,14 @@ EXTRA = {
     },
     23: {
         "case": [
-            "Kelaparan Somalia 2011 sering digambarkan sebagai kegagalan peringatan dini, dan gambaran itu hanya sebagian benar. Peringatannya dikeluarkan; petanya dipublikasikan; lembaganya tahu. Yang gagal adalah penerjemahan peringatan menjadi keputusan membelanjakan uang sebelum deklarasinya, yang menuntut donor menerima bahwa buktinya memadai dan pemerintah menerima bahwa aksesnya mungkin. Reformasi sejak itu berfokus pada penerjemahan itu, melalui pembiayaan yang disiapkan lebih dahulu, rencana aksi antisipatif, dan proses deklarasi lebih cepat. Ujian reformasinya apakah uangnya bergerak sebelum ternaknya dijual."
+            "Yang sebenarnya gagal adalah kewenangan untuk mengakui bahwa ambangnya telah terlampaui. "
+            "Peringatan tersedia, petanya dipublikasikan, dan lembaga bantuan sudah bersiap; yang tidak "
+            "tersedia adalah keputusan politik untuk menyatakan kelaparan dan pihak yang berwenang membukanya "
+            "bagi organisasi yang dapat menjangkau daerah yang dikuasai kelompok bersenjata. Ketika deklarasi "
+            "akhirnya keluar, operasinya sudah tertunda beberapa bulan, dan penundaan itulah yang dihitung "
+            "dalam kematian. Pelajaran yang diambil sistem kemanusiaan bukan bahwa peringatannya kurang baik "
+            "melainkan bahwa rantai keputusan dari peringatan ke uang dan akses harus disiapkan sebelum "
+            "krisis, bukan dinegosiasikan di tengahnya."
         ],
     },
     24: {

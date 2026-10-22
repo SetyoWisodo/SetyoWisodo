@@ -553,14 +553,15 @@ EXTRA = {
             "menjadikannya peristiwa politik.",
         ],
         "23.4": [
-            "Deklarasi kelaparan adalah tindakan teknis dengan konsekuensi politik, dan ambang teknisnya "
-            "sengaja konservatif. Sistem IPC menuntut bukti kekurangan ekstrem, malnutrisi akut, dan kematian "
-            "sebelum mengklasifikasikan suatu fase sebagai kelaparan, dan persyaratan itu dirancang mencegah "
-            "alarm palsu dengan biaya alarm yang terlambat. Karena ambangnya harus dilampaui, deklarasi "
-            "secara struktural datang setelah kerugian yang seharusnya dicegahnya, dan itulah kritik yang "
-            "paling sering diajukan terhadap sistem ini. Beberapa lembaga kini mengusulkan pemicu antisipatif "
-            "yang membayar berdasarkan prakiraan, bukan berdasarkan bukti kematian, sehingga uang bergerak "
-            "sebelum ambangnya terlampaui.",
+            "Masalah ambangnya punya obat praktis yang kini dipakai beberapa lembaga, dan layak dijelaskan "
+            "karena dapat ditiru. Alih-alih menunggu bukti bahwa kelaparan sudah dimulai, pemicunya adalah "
+            "prakiraan: prospek curah hujan musiman digabung dengan harga pasar dan surveilans gizi, "
+            "disepakati lebih dahulu dengan donor, dan mencairkan uang ketika kemungkinan krisis melampaui "
+            "tingkat tertentu. Karena uangnya diikat sebelum hasilnya diketahui, donornya membeli asuransi "
+            "alih-alih amal, dan pembayarannya tidak menuntut deklarasi yang membawa biaya politik bagi "
+            "pemerintah penerimanya. Nilainya kecil dibandingkan respons yang dicegahnya, dan evaluasi "
+            "program pertama menemukan bahwa uangnya mencapai rumah tangga dua sampai empat bulan lebih awal "
+            "daripada seruan konvensional.",
         ],
         "23.5": [
             "Kekeringan Suriah menjadi kasus uji bagi argumen 'iklim sebagai pengganda ancaman', dan "

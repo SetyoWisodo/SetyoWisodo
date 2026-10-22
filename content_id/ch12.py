@@ -45,12 +45,15 @@ CH = {
             "num": "12.1",
             "title": "Apa yang Ditunjukkan Penelitian",
             "paras": [
-                "Literatur modern tentang iklim dan konflik dimulai dengan serangkaian studi "
-                "kuantitatif yang menemukan hubungan statistik antara suhu dan kekerasan. "
-                "Meta-analisis yang banyak dikutip oleh Hsiang, Burke, dan Miguel (2013) melaporkan "
-                "bahwa setiap kenaikan satu standar deviasi suhu terkait dengan kenaikan 14 persen "
-                "konflik antarkelompok dan 4 persen kekerasan antarpribadi, di seluruh studi yang "
-                "mencakup banyak negara dan periode.",
+                "Bidang ini menjadi kuantitatif ketika dua hal datang bersamaan: kumpulan data konflik sipil "
+                "global dan rekonstruksi iklim berbasis grid yang dapat dipasangkan dengannya. Kombinasi itu "
+                "memungkinkan peneliti menanyakan apakah tahun atau tempat yang luar biasa panas atau kering juga "
+                "mengalami lebih banyak kekerasan, dan generasi pertama studi menjawab ya di banyak latar. "
+                "Metodenya membawa kelemahan yang jelas, karena korelasi antara suhu dan konflik antarnegaran "
+                "dapat dihasilkan oleh kemiskinan, institusi, atau geografi alih-alih panas, dan perdebatan sejak "
+                "itu tentang cara memisahkan saluran-saluran itu. Literatur ini karena itu kurang merupakan "
+                "temuan yang mapan dan lebih merupakan perdebatan panjang tentang identifikasi, dan kesimpulannya "
+                "menyempit seiring membaiknya metode.",
 
                 "Temuan itu berpengaruh dan diperdebatkan. Kritikus, terutama Buhaug (2015), "
                 "berargumen bahwa studi-studi itu menderita bias seleksi, bahwa mereka menggabungkan "

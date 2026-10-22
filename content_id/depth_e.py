@@ -576,14 +576,15 @@ EXTRA = {
             "protokol respons.",
         ],
         "17.8": [
-            "Anggapan lama bahwa bencana menghasilkan epidemi telah digantikan gambaran yang lebih "
-            "tepat: bencana menghasilkan wabah ketika memindahkan orang ke kondisi berdesakan dengan air "
-            "tercemar. Kolera di Yaman setelah 2016 menghasilkan lebih dari satu juta kasus dugaan, dan "
-            "malaria melonjak di Pakistan setelah banjir 2022. Wabah kolera Haiti 2010, yang menewaskan "
-            "ribuan orang, dilacak ke limbah yang dibawa pasukan penjaga perdamaian internasional, "
-            "pengingat bahwa risiko epidemi sebagian diciptakan oleh respons itu sendiri. Sanitasi, air "
-            "bersih dan konfirmasi laboratorium cepat adalah intervensi yang penting, dan semuanya "
-            "tidak glamor.",
+            "Epidemiologinya lebih spesifik daripada slogannya, dan kekhususan itulah yang membuatnya "
+            "berguna. Gempa bumi jarang menghasilkan epidemi, karena patogennya harus sudah ada sebelum "
+            "tanahnya bergetar; banjir dan pengungsian menghasilkannya ketika keduanya memusatkan orang di "
+            "sekitar air yang sekaligus membawa limbah. Wabah yang menyusul karena itu dapat diramalkan "
+            "menurut jenisnya: kolera di tempat pasokan airnya tercemar, dengue di tempat air tergenang "
+            "bertahan setelah banjir surut, dan campak di tempat cakupan vaksinasinya sudah rendah. "
+            "Masing-masing punya jeda berbeda — kolera dalam hitungan pekan, dengue dalam satu sampai dua "
+            "bulan, campak pada tahun berikutnya — dan masing-masing karena itu menuntut jendela surveilans "
+            "berbeda, yaitu perincian yang akan dilewatkan rencana yang ditulis sebagai peringatan umum.",
         ],
         "17.9": [
             "Tenaga kerja dan obat adalah dua sumber daya yang tidak dapat diimprovisasi. WHO "

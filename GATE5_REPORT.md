@@ -93,7 +93,7 @@ Tidak ada perubahan pada gate ini. Verifikasi ulang pada PDF hasil render:
 | Nomor halaman | tengah-bawah pada halaman pembuka bab, kanan-bawah selebihnya | sama |
 | Baris judul bab | "CHAPTER n" + judul, dua baris tengah; tidak diulang di halaman berikutnya | "BAB n" + judul |
 | Daftar Isi & Daftar Tabel | dengan nomor halaman | sama |
-| Jumlah halaman | **401** | **419** |
+| Jumlah halaman | **403** (setelah Gate 6) | **423** (setelah Gate 6) |
 
 ---
 
@@ -105,7 +105,7 @@ Tidak ada perubahan pada gate ini. Verifikasi ulang pada PDF hasil render:
 | `fact_check.py` | **46/46, 0 gagal** |
 | `data_consistency.py` | 2 kandidat EN / 2 ID — keduanya kontras yang disengaja |
 | Pemindaian CJK | 0 berkas |
-| Kata | **197.411 EN / 164.129 ID** |
+| Kata | **200.301 EN / 166.882 ID** |
 | Paragraf naratif | 2.072 EN / 2.067 ID |
 | Rata-rata panjang kalimat | 24,1 kata (EN) / 20,2 (ID) |
 
@@ -122,6 +122,6 @@ Tidak ada perubahan pada gate ini. Verifikasi ulang pada PDF hasil render:
 
 ## 7. Keputusan gate
 
-**LULUS.** Enam templat lintas bab ditutup, 47 paragraf dengan pembuka yang bertabrakan diperbaiki, tujuh absolut yang tidak perlu dilunakkan, dan Tabel 17.1 mendapat catatan arah. Kedua edisi tetap bersih pada seluruh pemeriksaan aparatus, dan keduanya berada dalam rentang panjang yang diminta: **401 halaman (EN)** dan **419 halaman (ID)**.
+**LULUS.** Enam templat lintas bab ditutup, 47 paragraf dengan pembuka yang bertabrakan diperbaiki, tujuh absolut yang tidak perlu dilunakkan, dan Tabel 17.1 mendapat catatan arah. Kedua edisi tetap bersih pada seluruh pemeriksaan aparatus, dan keduanya berada dalam rentang panjang yang diminta: **403 halaman (EN)** dan **423 halaman (ID)** setelah penyuntingan produksi Gate 6.
 
 Gate berikutnya: **Gate 6 — produksi** (metadata PDF, penomoran halaman, keterbacaan cetak, pemeriksaan akhir berkas pratinjau).

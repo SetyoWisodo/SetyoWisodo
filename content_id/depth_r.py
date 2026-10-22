@@ -34,7 +34,14 @@ EXTRA = {
             "Makroekonomi dunia yang memanas terutama soal produktivitas, modal, dan ketidakpastian. Produktivitas turun di tempat kerusakan panas dan bencana menumpuk; modal dialihkan dari investasi ke perbaikan; dan ketidakpastian menaikkan biaya pembiayaan untuk segala hal yang mungkin terdampak. Hasilnya jalur pertumbuhan yang lebih lambat yang sulit dikaitkan pada satu tahun tertentu dan mudah dilihat dalam satu dekade. Sebagian efeknya diimbangi investasi adaptasi dan transisi energi, yang menciptakan permintaan dan lapangan kerja, dan sebagian lagi oleh turunnya biaya teknologi terbarukan."
         ],
         "case": [
-            "Musim Atlantik 2017 adalah pelajaran tentang bagaimana satu tahun bencana diserap. Harvey berhenti di atas Houston dan menghasilkan hujan yang melampaui setiap asumsi rancangan di wilayah itu; Irma menanggalkan infrastruktur yang menopang pariwisata beberapa pulau Karibia; Maria menghancurkan jaringan Puerto Rico dan menghasilkan jumlah kematian yang direvisi naik bertahun-tahun ketika mortalitas berlebih dihitung. Kerugian terasuransikan besar, yang tidak terasuransikan lebih besar, dan rekonstruksi yang menyusul lebih lambat daripada kemampuan ekonomi. Musim itu juga menunjukkan seberapa cepat bencana menjadi peristiwa fiskal."
+            "Yang membuat musim itu mahal bukan kekuatan badainya melainkan urutannya. Harvey, Irma, Maria, "
+            "dan Jose datang dalam rentang beberapa pekan, sehingga tim tanggap darurat yang sama harus "
+            "menangani tiga operasi sekaligus dan pasokan yang disiapkan untuk satu peristiwa habis sebelum "
+            "peristiwa ketiga. Kelelahan lembaga semacam itu jarang dihitung dalam perencanaan, karena "
+            "perencanaan biasanya mengasumsikan satu bencana besar per tahun anggaran. Kota dan negara bagian "
+            "yang bertahan lebih baik adalah yang lebih dahulu menerima bantuan dari yurisdiksi lain dan yang "
+            "lebih awal menyerahkan kendali kepada pemerintah federal, dua keputusan yang secara politik "
+            "tidak nyaman diambil ketika badai berikutnya masih di laut."
         ],
         "future": [
             "Masa depan ekonomi tiga dekade ke depan kemungkinan lebih ditentukan distribusi dan waktunya daripada total biaya perubahan iklim. Biaya yang datang bertahap dapat dibiayai; biaya yang datang menggerombol tidak, karena kerugiannya bertepatan dengan saat basis pajak rusak dan kebutuhan pinjaman paling tinggi. Itulah sebabnya agenda pembiayaan bergeser dari menaksir total ke menyiapkan likuiditas lebih awal. Indikatornya: penetrasi asuransi, porsi utang sovereign yang terpapar pendapatan sensitif iklim, tingkat pembiayaan kontinjen yang disiapkan, dan selisih biaya modal antara ekonomi rentan dan tangguh."

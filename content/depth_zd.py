@@ -106,7 +106,15 @@ EXTRA = {
             "The recovery in Pakistan was constrained less by the physical damage than by the fiscal position, and the constraint is now the standard feature of climate disasters in indebted countries. The government had to borrow to rebuild while servicing a debt that consumed a large share of its revenue, and the pledges made at the international conference were slow to arrive and partly in the form of loans. The result is that the reconstruction is financed by the people who were flooded, through a combination of reduced services and higher prices, which is the mechanism by which a disaster becomes a permanent reduction in welfare."
         ],
         "22.7": [
-            "The Ahr valley flood led to a reform of the European flood directive and to a change in the way warnings are delivered, and the change is instructive. The meteorological services now issue impact-based forecasts that describe what the water will do rather than how much will fall, the mobile phone alert system is used across borders, and the civil protection mechanism has been strengthened. The deeper lesson is about the translation from a forecast to an order: a warning that does not tell a household what to do, or that arrives without the authority to act, is a message rather than an instruction, and the gap between them is where the deaths occurred."
+            "The most consequential change is not the technology but the format of the warning. An "
+            "impact-based forecast states what the water will do to a named place — this street, this bridge, "
+            "this basement — rather than how many millimetres will fall over a district, and the shift "
+            "matters because a millimetre total carries no instruction that a household can act on. The "
+            "European system now issues warnings by river reach with expected inundation, and the services "
+            "that adopted the format earliest report fewer false evacuations and faster compliance. The "
+            "reform is therefore a change in translation rather than in detection, which is where the "
+            "marginal return has been for a decade: the forecast has been good enough for some time, and what "
+            "was missing was the sentence that tells a person what to do with it."
         ],
         "22.8": [
             "The three cities that ran short of water discovered that the arithmetic of supply is less important than the arithmetic of losses. A city that loses a third of its water through leaks has a reservoir that is a third smaller than it appears, and the repair programme is unglamorous and slow. São Paulo's crisis was as much about the distribution network as about the rainfall, and Chennai's was as much about the encroachment on its lakes as about the monsoon. The measure that matters is the water balance: how much enters, how much is lost, how much is billed and how much is used, and few cities publish it."
@@ -126,7 +134,15 @@ EXTRA = {
             "Ethiopia's response to the famine of 1984 changed the country's institutions as well as the international system, and the change is one of the more hopeful in this book. The Productive Safety Net Programme, which began in 2005, provides cash or food to households in return for work on land restoration, and it is designed to be predictable rather than emergency-based, so that a household can plan. The programme has been credited with reducing the need for emergency assistance in bad years, and it has been copied across the region. The lesson is that a social protection system which is in place before the crisis is cheaper and more effective than a humanitarian appeal after it."
         ],
         "23.4": [
-            "The declaration of a famine is a technical act with a political consequence, and the technical thresholds are deliberately conservative. The IPC system requires evidence of extreme deprivation, acute malnutrition and mortality before it classifies a phase as famine, and the requirement is designed to prevent false alarms at the cost of a late alarm. In Somalia in 2011, the declaration came after the death toll had already passed the threshold, and the delay was a subject of a subsequent inquiry. The reform that followed was to make the analysis faster and to allow the agencies to act on the earlier phases, and the test of the reform is whether the action precedes the declaration."
+            "The threshold problem has a practical remedy that several agencies now use, and it is worth "
+            "describing because it can be copied. Rather than waiting for the evidence that a famine has "
+            "begun, the trigger is a forecast: a seasonal rainfall outlook combined with market prices and "
+            "nutrition surveillance, agreed in advance with a donor, releases money when the probability of a "
+            "crisis crosses a set level. Because the money is committed before the outcome is known, the "
+            "donor is buying insurance rather than charity, and the payment does not require a declaration "
+            "that carries political costs for the government receiving it. The amounts are small relative to "
+            "the response they pre-empt, and the evaluations of the first programmes found that they reached "
+            "households two to four months earlier than conventional appeals."
         ],
         "23.5": [
             "The attribution of the Syrian drought became a case study in how a scientific finding is used and misused in a political argument. The research found that the drought was made more likely by human-caused warming, and the finding was quickly translated into a headline that climate change caused the war. The careful version is that the drought contributed to a rural displacement that strained the cities, that the government's response to the drought was a political choice, and that the war had many causes of which the climate was one. The politicisation of the finding damaged the credibility of the science among the people who disagreed with the policy."

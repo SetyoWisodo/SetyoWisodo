@@ -4,7 +4,15 @@
 EXTRA = {
     8: {
         "8.1": [
-            "The biodiversity baseline is harder to establish than the climate baseline, because nobody knows how many species exist. Estimates range from about two million described species to perhaps eight or ten million in total, and the uncertainty is largest in the tropics, where diversity is highest and taxonomic capacity is thinnest. Even the populations that are monitored are monitored unevenly: birds and large mammals are counted because people care about them, insects and fungi are largely uncounted, and soil organisms — the foundation of most terrestrial productivity — are known mostly as categories. The Living Planet Index, which records an average decline of about seventy per cent in monitored vertebrate populations since 1970, is therefore a signal rather than a census, and its authors say so plainly."
+            "The biodiversity baseline is harder to establish than the climate baseline, because no single "
+            "number captures the state of life on Earth, and any figure quoted without its definition invites "
+            "a false argument. The Living Planet Index, for instance, averages the trends of monitored "
+            "vertebrate populations rather than counting animals, so a decline of seventy per cent does not "
+            "mean that seven in ten individuals have died. The extinction-risk measure is a different "
+            "instrument again: it extrapolates from the species that have been assessed, which is a small and "
+            "biased sample of the total. Reading the three together is legitimate; comparing one with a "
+            "headline from another is not, and most of the confusion in public argument about biodiversity "
+            "comes from exactly that substitution."
         ],
         "8.2": [
             "Species respond to warming in three ways, and each has a different consequence for people. They move, tracking the climate they are adapted to, at a speed that depends on how far they must travel to find suitable conditions; they shift the timing of their lives, breeding or flowering earlier; or they stay and decline. The first strategy fails where a coastline, a mountain top or a city blocks the route, which is why species on islands and mountaintops are the most vulnerable. The second can desynchronise a food chain: a bird that arrives on its traditional date finds that its caterpillars have already hatched, and a plant that flowers early finds that its pollinator has not emerged. That mismatch is invisible in a species list and decisive in an ecosystem."

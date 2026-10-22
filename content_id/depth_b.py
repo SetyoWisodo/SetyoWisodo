@@ -365,13 +365,14 @@ EXTRA = {
             "pernah memutih setidaknya sekali kini cukup besar untuk mengubah komposisi ekosistemnya.",
         ],
         "8.4": [
-            "Amazon adalah sistem dengan hujan sendiri, dan itulah yang membuatnya rentan. Kelembapan "
-            "yang didaur ulang hutan turun sebagai hujan lebih jauh ke barat dan selatan, sehingga "
-            "deforestasi di timur mengurangi hujan di barat. Model menunjukkan bahwa di luar sekitar 20–25 "
-            "persen deforestasi, sebagian hutan dapat bergeser ke keadaan mirip savana, dengan "
-            "konsekuensi bagi penyimpanan karbon, keanekaragaman hayati, dan pertanian regional. "
-            "Kekeringan 2005, 2010, dan 2015–2016, serta kekeringan parah 2023–2024, ditafsirkan sebagai "
-            "peringatan awal transisi itu.",
+            "Konsekuensi sosial dari kemungkinan itu lebih mudah diabaikan daripada konsekuensi ekologisnya. "
+            "Sekitar tiga puluh juta orang tinggal di Amazon, dan sebagian besar bergantung pada sungai yang "
+            "tinggi-rendahnya menentukan hasil panen, akses ke pasar, dan kualitas air. Iklim yang lebih "
+            "kering mengubah kalender itu lebih cepat daripada perubahan ekonomi mana pun, dan rumah tangga "
+            "yang sama juga menanggung biaya kebijakan yang membatasi pembukaan lahan. Karena itu setiap "
+            "program yang berhasil di kawasan ini memiliki dua komponen: penghentian deforestasi dan "
+            "penyediaan penghidupan bagi penduduk yang telah tinggal di sana, dan program yang hanya memuat "
+            "komponen pertama memindahkan tekanannya ke tempat lain.",
         ],
         "8.5": [
             "Permafrost menutupi sekitar seperempat permukaan daratan Belahan Bumi Utara dan menyimpan "

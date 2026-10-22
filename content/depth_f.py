@@ -444,14 +444,14 @@ EXTRA = {
             "the hazard is global, the vulnerability is national, and the financing is voluntary.",
         ],
         "22.7": [
-            "The 2021 floods in Germany and Belgium became a case study in warning failure rather than "
-            "in rainfall. Forecasts from the European Flood Awareness System were available days in "
-            "advance, but the warnings did not translate into evacuation in the Ahr valley, and the "
-            "cell broadcast system that would have reached every phone was not introduced until the "
-            "following year. Investigators described a fragmented chain of responsibility between "
-            "municipalities, districts and states. The case is a reminder that the technical capacity "
-            "to forecast is not the same as the institutional capacity to act, and that the gap "
-            "between them is measured in lives.",
+            "What the reconstruction of the night showed was that the response was not absent but localised. "
+            "In some villages the volunteer fire service began evacuating before any formal order arrived, "
+            "and those villages lost far fewer people than neighbours a few kilometres away whose officials "
+            "waited for instructions. The difference was not the quality of the forecast, which was identical "
+            "for both, and it was not the diligence of the residents, who in both places went about an "
+            "ordinary evening. It was whether someone with a radio and a local map had decided, on their own "
+            "authority, that the water would be higher than the last time. That is a decision that can be "
+            "delegated in advance, and almost nowhere had it been.",
         ],
         "22.8": [
             "Chennai, Cape Town and Seoul are usually told as separate stories, and read together they "

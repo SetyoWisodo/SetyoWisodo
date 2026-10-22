@@ -33,7 +33,15 @@ EXTRA = {
             "Climate velocity is the speed at which a species must move to stay within the climate it is adapted to, and for many species it is faster than they can travel. In flat terrain the velocity can be several kilometres per decade, which a plant can manage only if its seeds are carried; on a mountain it is measured in metres of elevation, which is easier, until the species reaches the summit and has nowhere to go. The species that are most at risk are those with small ranges, low dispersal, long generation times, and dependence on a specific host or a specific temperature. The fossil record shows that species have moved before; it also shows that many did not move fast enough."
         ],
         "8.1": [
-            "The biodiversity baseline is harder to establish than the climate baseline, because no single number captures the state of life on Earth. The best-known assessments combine the extent of habitat, the abundance of monitored populations, the risk of extinction and the integrity of ecosystems, and all of them point in the same direction. The Living Planet Index, which tracks thousands of vertebrate populations, records an average decline of about seventy per cent since 1970, and the figure is an average of trends rather than a count of animals lost. The number that matters for policy is the one in a million: about a million species are estimated to be threatened with extinction, many of them within decades."
+            "Each of the three indicators answers a different question, and the confusion in public argument "
+            "comes from using one to answer another. Habitat extent answers whether there is room for a "
+            "species to persist; population abundance answers whether the ecosystem is still functioning; "
+            "extinction risk answers whether a loss would be permanent. A policy that targets extent alone "
+            "can restore a forest that is empty of the species it once held, and a policy that targets "
+            "abundance alone can preserve a population that has lost the genetic diversity to survive the "
+            "next shock. The argument of this chapter needs all three, and the reason the numbers are so "
+            "often quoted in isolation is that each of them, alone, supports a stronger headline than the "
+            "three together."
         ],
         "8.6": [
             "Freshwater ecosystems cover about one per cent of the Earth's surface and hold around a tenth of its species, which makes them the most concentrated and the most exposed habitats on the planet. Rivers are fragmented by dams that block the movement of fish and the transport of sediment, lakes are depleted by abstraction and enriched by nutrients, and wetlands are drained for agriculture because their value is only visible when they are gone. The Aral Sea is the extreme case: a sea that was the fourth largest lake in the world became a salt flat within a generation, and the fishing towns that depended on it are now a hundred kilometres from water."

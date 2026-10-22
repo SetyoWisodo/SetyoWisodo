@@ -15,7 +15,13 @@ EXTRA = {
             "Catatan suhu adalah rangkaian angka yang telah dikoreksi lebih sering daripada yang disadari kebanyakan orang, dan setiap koreksi punya alasan. Stasiun yang pindah dari lapangan ke apron bandara terbaca lebih hangat; yang diotomasi terbaca berbeda dari yang dibaca manusia; yang kini dikelilingi taman parkir mencatat pulau panas, bukan wilayahnya. Penyesuaiannya kecil, terdokumentasi, dan diuji, dan tidak mengubah trennya, yang merupakan temuan yang bertahan melalui setiap reanalisis. Trennya sendiri sekitar satu derajat pemanasan rata-rata global sejak akhir abad kesembilan belas, dengan sebagian besar terjadi lima puluh tahun terakhir."
         ],
         "2.8": [
-            "Kriosfer adalah tempat perubahannya paling terlihat dan akibatnya paling bertahan lama. Es laut Arktik kehilangan sekitar separuh luasnya pada akhir musim panas sejak catatan satelit dimulai, dan es yang tersisa lebih muda serta lebih tipis. Lapisan es Greenland kehilangan massa dengan laju yang meningkat, dan Antartika kehilangan massa di sebelah barat serta bertambah di sebagian timur, dengan hasil bersihnya negatif. Gletser gunung adalah menara air benua, dan ratusan juta orang yang bergantung pada lelehannya untuk musim kering akan melihat alirannya naik lalu turun, bahaya yang datang dua tahap."
+            "Perubahan kriosfer juga berfungsi sebagai indikator yang jujur, karena es tidak menegosiasikan "
+            "kebijakan. Suhu udara global berfluktuasi setiap tahun karena El Niño dan letusan gunung berapi, "
+            "sehingga tren satu dekade mudah dibantah; massa lapisan es yang hilang, sebaliknya, terakumulasi "
+            "dan sulit dijelaskan oleh faktor lain. Itulah sebabnya para peneliti memakai es sebagai "
+            "pemeriksaan silang terhadap suhu, dan mengapa selisih antara keduanya menjadi peringatan: jika "
+            "es kehilangan massa lebih cepat daripada yang diperkirakan model suhu, kemungkinan besar model "
+            "suhunya yang terlalu konservatif, bukan esnya yang salah."
         ],
     },
     3: {
@@ -167,7 +173,14 @@ EXTRA = {
             "Gender membentuk dampak setiap bahaya, dan mekanismenya jarang bahayanya sendiri. Perempuan lebih mungkin bertanggung jawab atas air, bahan bakar, dan pengasuhan anak serta lansia, yang berarti kekeringan menjadi hari kerja lebih panjang dan banjir menjadi beban lebih berat. Mereka lebih mungkin dikecualikan dari sertifikat tanah yang menentukan kompensasi dan dari komite yang mengalokasikan bantuan. Mereka lebih jarang dapat meninggalkan pengungsian yang tidak aman, dan lebih mungkin terpapar kekerasan di pengungsian yang padat. Intervensi yang berhasil bukan program terpisah melainkan analisis rutin tentang siapa yang terdampak, diterapkan pada setiap keputusan."
         ],
         "future": [
-            "Skenario keadilan 2050 bergantung pada apakah institusi yang membagikan kerugian dibangun ulang sebelum kerugiannya datang. Dalam satu versi, mekanisme kerugian dan kerusakan yang diskalakan, arsitektur utang yang direstrukturisasi, dan saluran pembiayaan adaptasi lokal berarti banjir di negara berpendapatan rendah dihadapi dengan sumber daya alih-alih dengan seruan bantuan. Dalam versi lain, dananya tetap kecil, utangnya tetap lebih senior daripada iklim, dan adaptasi yang terjadi bersifat swasta serta tidak merata. Perbedaannya bukan sainsnya, yang dibagi bersama, melainkan kesediaan negara berkemampuan terbesar menerima kewajiban yang tidak sukarela."
+            "Variabel yang memisahkan kedua versi bukan besar dananya melainkan kecepatan pencairannya. "
+            "Mekanisme yang menuntut proposal proyek, penilaian, dan siklus pengadaan menyalurkan uang dua "
+            "sampai tiga tahun setelah banjir, yaitu skala waktu rekonstruksi alih-alih bantuan darurat, dan "
+            "pada saat itu rumah tangga yang tidak dapat menunggu sudah menjual aset dan menarik anaknya dari "
+            "sekolah. Usulan yang mengubah aritmetikanya adalah yang mengakreditasi lebih dahulu lembaga "
+            "nasional dan kota untuk membelanjakan berdasarkan pemicu, sehingga uangnya bergerak melalui "
+            "saluran yang sudah ada. Perbedaan antara kedua skenario karena itu dapat diukur dalam pekan, dan "
+            "pekan adalah yang menurut data kemiskinan pascabencana paling menentukan."
         ],
     },
     22: {
@@ -191,7 +204,17 @@ EXTRA = {
             "Yang dibutuhkan untuk bertahan hidup, pada akhirnya, adalah ingatan sama seperti rencana. Komunitas yang telah hidup dengan bahaya selama beberapa generasi menyimpan catatan lisan tentang peristiwa yang hendak dicegah institusinya, dan catatan itu bentuk kesiapsiagaan yang tidak dapat dipasok lembaga mana pun. Penanda Jepang yang mencatat ketinggian tsunami masa lalu, tanda banjir di dinding kota Eropa, dan cerita kakek-nenek semuanya bagian dari arsip yang sama. Risikonya, ingatannya memudar ketika penduduknya berpindah dan peristiwanya menjauh, itulah sebabnya simulasi dan monumen bukan seremoni melainkan instrumen ingatan kelembagaan."
         ],
         "case": [
-            "Program siklon Bangladesh adalah demonstrasi paling jelas dalam catatan bahwa kesiapsiagaan dapat dibangun dalam skala besar, dan sejarah programnya sendiri menunjukkan berapa banyak darinya adalah kemauan politik. Setelah siklon 1970 dan siklon 1991, yang menewaskan sekitar 138.000 orang, pemerintah dan mitranya membangun jaringan tempat pengungsian yang ditinggikan, sistem relawan yang memindahkan orang sebelum gelombang datang, dan layanan peringatan yang menjangkau desa lewat pengeras suara. Pengungsiannya dirawat komunitas yang memakainya, dan relawannya dilatih serta dilatih ulang. Ketika Amphan tiba pada 2020, sistemnya bertahan, dan kematiannya puluhan."
+            "Yang membedakan program itu bukan pengungsiannya melainkan pemeliharaannya dan latihannya. "
+            "Tempat pengungsian yang tidak diperbaiki adalah bangunan, bukan perlindungan, dan pengungsian "
+            "program ini dirawat oleh komunitas yang memakainya, sehingga komunitas itu punya kepentingan "
+            "pada kondisinya dan klaim atas penggunaannya. Relawannya dilatih dan dilatih ulang alih-alih "
+            "diangkat sekali, dan rantai peringatannya diuji setiap musim, sehingga pengumuman lewat pengeras "
+            "suara datang dari orang yang sudah dikenal desa. Sistemnya juga belajar mengevakuasi lebih awal "
+            "dan lebih jauh ke daratan daripada yang secara teknis diminta peta gelombang badai, karena "
+            "pengalaman siklon berulang mengajari operatornya bahwa keputusan marginal lebih murah daripada "
+            "keputusan yang terlambat. Tidak satu pun mahal dibandingkan kerugian yang dicegahnya, dan "
+            "semuanya bergantung pada pos anggaran yang harus dilindungi pemerintah pada tahun-tahun ketika "
+            "tidak terjadi apa-apa."
         ],
     },
 }
