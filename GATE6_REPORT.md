@@ -18,6 +18,8 @@
 | P7 | Panjang buku dalam rentang yang diminta | 400–500 hlm | **411 (EN) / 432 (ID)** |
 | P8 | Tidak ada duplikasi isi antarparagraf | 0 pasangan skor ≥ 5,0 | **0 (EN) / 0 (ID)** |
 | P9 | Aparatus bersih setelah semua penyuntingan | 0 masalah | **422 EN / 376 ID, 0** |
+| P10 | Berkas penerbitan tersedia (EPUB 3 + DOCX) dengan isi sepadan PDF | ada, isi sebanding | **EPUB 199.180 / 165.770 kata, 25 tabel; DOCX 2.770 / 2.775 paragraf** |
+| P11 | Sampul cetak siap unggah (300 dpi, bleed, punggung terhitung) | ada | **kedua edisi** |
 
 ---
 
@@ -92,6 +94,36 @@ Karena EN hanya 401 halaman pada pemeriksaan pertama — satu halaman di atas am
 Daftar Isi semula hanya memuat 32 judul bab, sehingga pembaca tidak dapat menemukan sub-bab dari halaman depan dan harus memakai panel navigasi PDF. Kini setiap sub-bab (295 entri) dicantumkan di bawah babnya dengan indentasi 7 mm dan huruf biasa, sementara judul bab dan lampiran tetap tebal. Daftar Isi memanjang menjadi sembilan halaman, dengan kepala "TABLE OF CONTENTS (continued)" / "DAFTAR ISI (lanjutan)" pada setiap halaman lanjutan. Nomor halaman setiap sub-bab diambil dari pass paginasi yang sama dengan outline PDF, sehingga keduanya konsisten.
 
 Efek sampingnya adalah halaman bertambah delapan: EN dari 403 ke 411, ID dari 423 ke 432. Keduanya masih di dalam rentang yang diminta.
+
+### 2.8 Berkas penerbitan: EPUB, DOCX, dan sampul cetak
+
+Tiga format yang dibutuhkan penerbit belum ada pada awal gate, dan build lama di `book/publish/` berasal dari pipeline Typst yang sudah tidak tersedia (19 bab, 149 halaman — tidak mencerminkan naskah sekarang). Dibuat dua skrip baru:
+
+**`make_publish.py`** — menulis EPUB 3 dan DOCX langsung dari `book.md` / `book_id.md`, memakai blok yang sama dengan renderer PDF sehingga isinya identik dengan PDF (bukan konversi dari PDF, yang akan kehilangan struktur tabel dan judul).
+
+| | EN | ID |
+|---|---|---|
+| Berkas XHTML | 32 bab + sampul + nav | 32 bab + sampul + nav |
+| Kata dalam EPUB | 199.180 | 165.770 |
+| Tabel | 25 | 25 |
+| Navigasi | nav.xhtml + toc.ncx (bab dan sub-bab) | sama |
+| DOCX | 2.770 paragraf, 25 tabel | 2.775 paragraf, 25 tabel |
+
+EPUB ditulis dengan `zipfile` langsung — bukan pustaka pihak ketiga — karena `ebooklib` gagal memproses dokumen sebesar ini ("Document is empty" pada nav). Urutan berkas `mimetype` disimpan tanpa kompresi sesuai spesifikasi, dan `container.xml`, `content.opf`, `nav.xhtml`, serta `toc.ncx` dibuat eksplisit. Integritas zip diperiksa dengan `testzip()`: bersih pada kedua edisi.
+
+DOCX memakai Times New Roman 12 pt, rata kanan-kiri, indent baris pertama 12,7 mm, dan tabel bergaris — supaya penyunting dapat langsung bekerja pada berkas yang tipografinya sama dengan buku cetak.
+
+**`make_cover.py`** — sampul paperback penuh (belakang + punggung + depan) pada 300 dpi untuk trim A4, bleed 0,125 inci, dengan punggung dihitung dari jumlah halaman (0,0025 inci/halaman):
+
+| | EN | ID |
+|---|---|---|
+| Halaman | 411 | 432 |
+| Punggung | 1,028 inci | 1,080 inci |
+| Ukuran sampul | 17,82 × 11,94 inci | 17,87 × 11,94 inci |
+| Resolusi | 5.361 × 3.582 px (300 dpi) | 5.361 × 3.582 px |
+
+Sampul belakang memuat judul penarik, ringkasan tiga paragraf, enam butir isi buku, kutipan penarik, dan blok penulis. Judul punggung dan nama penulis diputar 90° dengan arah baca yang benar (atas ke bawah).
+
 
 ---
 
