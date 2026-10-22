@@ -4,6 +4,8 @@
 **Ruang lingkup:** kedua edisi, 24 bab, 25 tabel, 12 appendiks
 **Tanggal:** 22 Oktober 2026 · **Status gate:** **LULUS**
 
+> Catatan: angka halaman dan sitasi di laporan ini adalah keadaan **pada saat Gate 5 ditutup** (403/423 hlm, 422/376 sitasi). Keadaan terbit sekarang ada di `GATE6_REPORT.md`: 412/432 hlm, 402/350 sitasi, 130/124 karya dikutip di badan.
+
 ---
 
 ## 1. Kriteria lulus

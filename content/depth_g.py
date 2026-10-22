@@ -71,15 +71,13 @@ EXTRA = {
     # ------------------------------------------------------------------ 10
     10: {
         "10.2": [
-            "Labour productivity is the channel through which heat reaches the economy most directly, "
-            "and the International Labour Organization has estimated that heat stress will cost the "
-            "equivalent of more than two per cent of total working hours by 2030, with agriculture "
-            "and construction accounting for most of the loss. The estimate is conservative because "
-            "it counts only the capacity to work, not the decisions that firms make when heat makes "
-            "outdoor work uneconomic. Field studies in South and Southeast Asia find that workers "
-            "slow down, take longer breaks and shift hours, and that piece-rate pay transfers the "
-            "cost of the slowdown to the worker. Heat is therefore a regressive economic shock that "
-            "appears in the productivity statistics as a national problem.",
+            "Field evidence shows how the loss reaches households rather than national totals. "
+            "Studies in South and Southeast Asia find that workers slow down, take longer breaks and "
+            "shift hours, and that piece-rate pay transfers the cost of the slowdown to the worker, "
+            "so the loss is a regressive economic shock that surfaces in the statistics as a national "
+            "problem. Official estimates are conservative for a second reason: they count only the "
+            "capacity to work, not the decisions that firms make when heat renders outdoor work "
+            "uneconomic, and not the informal work that never enters the hours data at all.",
         ],
         "10.4": [
             "Sovereign risk is where climate change becomes a question of the price of money. Credit "

@@ -7,7 +7,14 @@ EXTRA = {
             "The distinction between damage and loss is the first thing a serious economic assessment separates. Damage is what happens to the asset — the house, the road, the factory, the hospital — and it is visible, photographable and relatively easy to value. Loss is what happens to the flow of income that the asset produced: the shop that did not trade for three months, the harvest that was not planted, the wages that were not paid, the tourists who did not come. Direct damage is a stock; indirect loss is a flow, and the two are measured in different units and over different periods. Recovery spending is a third category again, because repairing a bridge costs money that could have built a school, and that opportunity cost never appears in the damage report."
         ],
         "10.2": [
-            "Heat reduces output through labour, and the effect is larger than most macroeconomic models have assumed. In sectors where work cannot be moved indoors or scheduled at night, productivity falls as temperature rises, and the loss is largest in countries whose economies depend most on outdoor work. The mechanism is physiological rather than financial: a worker who must rest more often produces less per hour, and a workplace that must slow the pace to prevent heat illness produces less per day. The aggregate effect appears as a drag on growth that is spread thin and therefore rarely attributed to climate in any single year, which is exactly why it is easy to understate and hard to reverse."
+            "Most macroeconomic models have understated this channel because they treat heat as a "
+            "temporary shock rather than a permanent change in the conditions of work. A harvest lost "
+            "to drought can be replanted; two hours of safe working time lost every afternoon for "
+            "thirty years cannot be recovered. The loss therefore accumulates in the capital stock as "
+            "lower investment and in the labour force as slower skill formation, and it appears in the "
+            "accounts as a growth rate slightly lower than it would otherwise have been. That is why "
+            "the damage is easy to understate and hard to reverse: no single year looks like a "
+            "catastrophe, and no single ministry is responsible for the trend."
         ],
         "10.3": [
             "Food prices are the channel through which climate reaches every household budget. A drought that reduces a harvest raises the price of a staple, and the increase reaches consumers through milling, transport and retail. Because food is a large share of the basket in poor countries and a small share in rich ones, the same price shock is inflationary in one place and a rounding error in another. Central banks have begun to treat climate-driven food inflation as a persistent risk rather than a one-off, because the frequency of the shocks has increased and because expectations adapt: once households expect food prices to rise, they negotiate wages accordingly and the effect becomes self-sustaining."

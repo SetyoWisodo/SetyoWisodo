@@ -54,7 +54,10 @@ CH = {
                 "less a settled finding than a long argument about identification, and its conclusions have "
                 "narrowed as the methods improved.",
 
-                "The finding was influential and contested. Critics, notably Buhaug (2015), argued "
+                "The results of that first generation were summarised in a widely cited meta-analysis by "
+                "Hsiang, Burke and Miguel (2013), which Hsiang and Burke (2014) later extended into a "
+                "broader synthesis on climate, conflict and social stability. The finding was influential "
+                "and contested. Critics, notably Buhaug (2015), argued "
                 "that the studies suffered from selection bias, that they aggregated very different "
                 "forms of violence, and that the effect sizes were small relative to political and "
                 "economic factors. Later work, including a review in Nature by Mach et al. (2019), "

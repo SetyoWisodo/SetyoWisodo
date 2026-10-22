@@ -7,7 +7,15 @@ EXTRA = {
             "Perbedaan antara kerusakan dan kerugian adalah hal pertama yang dipisahkan penilaian ekonomi yang serius. Kerusakan adalah apa yang terjadi pada aset — rumah, jalan, pabrik, rumah sakit — dan ia terlihat, dapat difoto, dan relatif mudah dinilai. Kerugian adalah apa yang terjadi pada aliran pendapatan yang dihasilkan aset itu: toko yang tidak berjualan tiga bulan, panen yang tidak ditanam, upah yang tidak dibayar, wisatawan yang tidak datang. Kerusakan langsung adalah stok; kerugian tidak langsung adalah arus, dan keduanya diukur dalam satuan dan periode berbeda. Belanja pemulihan adalah kategori ketiga, karena memperbaiki jembatan memakai uang yang seharusnya membangun sekolah."
         ],
         "10.2": [
-            "Panas mengurangi keluaran melalui tenaga kerja, dan efeknya lebih besar daripada yang diasumsikan sebagian besar model makroekonomi. Di sektor yang pekerjaannya tidak dapat dipindahkan ke dalam ruangan atau dijadwalkan malam, produktivitas turun seiring naiknya suhu, dan kerugiannya terbesar di negara yang ekonominya paling bergantung pada kerja luar ruang. Mekanismenya fisiologis, bukan finansial: pekerja yang harus lebih sering beristirahat menghasilkan lebih sedikit per jam, dan tempat kerja yang harus memperlambat laju demi mencegah penyakit panas menghasilkan lebih sedikit per hari. Efek agregatnya tampak sebagai hambatan pertumbuhan yang tersebar tipis."
+            "Sebagian besar model makroekonomi meremehkan saluran ini karena memperlakukan panas "
+            "sebagai guncangan sementara, bukan sebagai perubahan permanen dalam kondisi kerja. Panen "
+            "yang hilang karena kekeringan bisa ditanam ulang; dua jam waktu kerja aman yang hilang "
+            "setiap sore selama tiga puluh tahun tidak bisa dipulihkan. Kerugiannya karena itu "
+            "terakumulasi dalam stok modal sebagai investasi yang lebih rendah dan dalam angkatan kerja "
+            "sebagai pembentukan keterampilan yang lebih lambat, dan muncul di neraca sebagai laju "
+            "pertumbuhan yang sedikit lebih rendah daripada seharusnya. Itulah sebabnya kerusakan ini "
+            "mudah diremehkan dan sulit dibalik: tidak ada satu tahun pun yang tampak seperti bencana, "
+            "dan tidak ada satu kementerian pun yang bertanggung jawab atas trennya."
         ],
         "10.3": [
             "Harga pangan adalah saluran yang membawa iklim ke anggaran setiap rumah tangga. Kekeringan yang mengurangi panen menaikkan harga bahan pokok, dan kenaikannya sampai ke konsumen melalui penggilingan, angkutan, dan ritel. Karena pangan adalah porsi besar keranjang belanja di negara miskin dan porsi kecil di negara kaya, guncangan harga yang sama bersifat inflatoir di satu tempat dan pembulatan di tempat lain. Bank sentral mulai memperlakukan inflasi pangan akibat iklim sebagai risiko persisten, bukan sekali lewat, karena frekuensi guncangannya meningkat dan karena ekspektasi beradaptasi."

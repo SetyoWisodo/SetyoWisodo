@@ -15,10 +15,10 @@
 | P4 | Nomor halaman Daftar Isi cocok dengan halaman sebenarnya | 0 selisih | **0** |
 | P5 | Font tertanam (embedded), hanya Times-metric | 100 % | **Tinos Regular/Bold/Italic, ketiga-tiganya tertanam** |
 | P6 | Kerapatan spasi baris *justify* terkendali | p90 < 2,2× spasi alami | **1,84× (EN) / 2,13× (ID)** |
-| P7 | Panjang buku dalam rentang yang diminta | 400–500 hlm | **411 (EN) / 432 (ID)** |
+| P7 | Panjang buku dalam rentang yang diminta | 400–500 hlm | **412 (EN) / 432 (ID)** |
 | P8 | Tidak ada duplikasi isi antarparagraf | 0 pasangan skor ≥ 5,0 | **0 (EN) / 0 (ID)** |
-| P9 | Aparatus bersih setelah semua penyuntingan | 0 masalah | **422 EN / 376 ID, 0** |
-| P10 | Berkas penerbitan tersedia (EPUB 3 + DOCX) dengan isi sepadan PDF | ada, isi sebanding | **EPUB 199.180 / 165.770 kata, 25 tabel; DOCX 2.770 / 2.775 paragraf** |
+| P9 | Aparatus bersih setelah semua penyuntingan | 0 masalah | **402 EN / 350 ID, 0** |
+| P10 | Berkas penerbitan tersedia (EPUB 3 + DOCX) dengan isi sepadan PDF | ada, isi sebanding | **EPUB 32 bab + 25 tabel per edisi; DOCX 2.802 / 2.807 paragraf, 25 tabel** |
 | P11 | Sampul cetak siap unggah (300 dpi, bleed, punggung terhitung) | ada | **kedua edisi** |
 
 ---
@@ -104,10 +104,10 @@ Tiga format yang dibutuhkan penerbit belum ada pada awal gate, dan build lama di
 | | EN | ID |
 |---|---|---|
 | Berkas XHTML | 32 bab + sampul + nav | 32 bab + sampul + nav |
-| Kata dalam EPUB | 199.180 | 165.770 |
+| Kata dalam badan EPUB | 200.786 | 167.351 |
 | Tabel | 25 | 25 |
 | Navigasi | nav.xhtml + toc.ncx (bab dan sub-bab) | sama |
-| DOCX | 2.770 paragraf, 25 tabel | 2.775 paragraf, 25 tabel |
+| DOCX | 2.802 paragraf, 25 tabel | 2.807 paragraf, 25 tabel |
 
 EPUB ditulis dengan `zipfile` langsung — bukan pustaka pihak ketiga — karena `ebooklib` gagal memproses dokumen sebesar ini ("Document is empty" pada nav). Urutan berkas `mimetype` disimpan tanpa kompresi sesuai spesifikasi, dan `container.xml`, `content.opf`, `nav.xhtml`, serta `toc.ncx` dibuat eksplisit. Integritas zip diperiksa dengan `testzip()`: bersih pada kedua edisi.
 
@@ -117,13 +117,22 @@ DOCX memakai Times New Roman 12 pt, rata kanan-kiri, indent baris pertama 12,7 m
 
 | | EN | ID |
 |---|---|---|
-| Halaman | 411 | 432 |
-| Punggung | 1,028 inci | 1,080 inci |
+| Halaman | 412 | 432 |
+| Punggung | 1,030 inci | 1,080 inci |
 | Ukuran sampul | 17,82 × 11,94 inci | 17,87 × 11,94 inci |
-| Resolusi | 5.361 × 3.582 px (300 dpi) | 5.361 × 3.582 px |
+| Resolusi | 5.346 × 3.582 px (300 dpi) | 5.361 × 3.582 px |
 
 Sampul belakang memuat judul penarik, ringkasan tiga paragraf, enam butir isi buku, kutipan penarik, dan blok penulis. Judul punggung dan nama penulis diputar 90° dengan arah baca yang benar (atas ke bawah).
 
+
+### 2.9 Perbaikan setelah pemeriksaan ulang berkas terbit
+
+Setelah paket terbit dibangun, pembacaan ulang menemukan dua cacat yang lahir dari deduplikasi Gate 6 dan tidak tertangkap oleh ambang skor:
+
+1. **Pembuka tanpa anteseden di Bab 12, kedua edisi.** Paragraf pertama §12.1 dibuka dengan "It was influential and contested in equal measure" (EN) dan "Pengaruhnya besar dan perdebatannya sama besar" (ID). Kalimat yang menjadi antesedennya — yaitu studi yang dibicarakan — ikut terhapus saat deduplikasi, sehingga kata ganti itu tidak menunjuk apa pun. Diperbaiki dengan menyebut kembali meta-analisisnya secara eksplisit (Hsiang, Burke dan Miguel, 2013; diperluas Hsiang dan Burke, 2014), yang sekaligus mengembalikan dua sitasi yang hilang ke badan teks.
+2. **§10.2 mengulang klaim yang sama empat kali.** Empat paragraf dibuka dengan pernyataan bahwa panas menurunkan keluaran lewat produktivitas kerja, dua di antaranya dengan kalimat pembuka yang identik kata per kata, dan estimasi jam kerja ILO muncul dua kali. Ketiga paragraf lapisan pendalaman ditulis ulang agar masing-masing membawa sudut yang berbeda — bukti neraca nasional dan non-linearitas lintas negara (Burke dkk., 2015), bukti lapangan tentang upah borongan, dan alasan model makro meremehkan saluran ini — sehingga tidak ada klaim yang diulang dan tiga sitasi yang semula hanya tersisa di "Bacaan Lanjutan" kembali dikutip.
+
+Dampaknya kecil pada produksi dan besar pada mutu: EN bertambah satu halaman (411 → 412), ID tetap 432; sitasi dalam teks 402 EN / 350 ID; karya yang dikutip di badan 130 EN / 124 ID, kembali setara atau lebih tinggi daripada level Gate 5; duplikasi paragraf tetap 0 pasangan ≥ 5,0; `fact_check.py` 0 gagal; `audit_production.py` bersih pada kedua PDF.
 
 ---
 
@@ -133,7 +142,7 @@ Sampul belakang memuat judul penarik, ringkasan tiga paragraf, enam butir isi bu
 
 | Butir | EN | ID |
 |---|---|---|
-| Halaman | **411** | **432** |
+| Halaman | **412** | **432** |
 | Ukuran berkas | 2,25 MB | 2,05 MB |
 | Format | A4 (210 × 297 mm) | sama |
 | Metadata judul | *Surviving the Future: Crisis, Climate, and Human Resilience* | *Surviving the Future: Krisis, Iklim, dan Ketahanan Manusia* |
@@ -150,18 +159,18 @@ Pemeriksaan naskah:
 
 | Pemeriksaan | Hasil |
 |---|---|
-| `check_citations.py` | 422 EN / 376 ID, **0 masalah** |
+| `check_citations.py` | 402 EN / 350 ID, **0 masalah** |
 | `fact_check.py` | **0 gagal** |
 | `data_consistency.py` | 2 kandidat EN / 2 ID (keduanya rasio yang disengaja) |
-| Kata (`wc -w`) | **199.731 EN / 166.318 ID** |
+| Kata (`wc -w`) | **199.787 EN / 166.362 ID** |
 
 ---
 
 ## 4. Keterbatasan dan pekerjaan yang belum selesai
 
-1. **Deduplikasi paragraf selesai pada ambang kerja.** Tidak ada lagi pasangan paragraf berskor ≥ 5,0 di kedua edisi. Sisa 84 pasangan EN dan 97 ID pada ambang 3,2–4,9 adalah kasus satu bagian yang menyebut peristiwa yang sama dari dua sudut yang berbeda — angka di satu paragraf, mekanisme di paragraf lain — dan sifatnya komplementer, bukan berulang. Daftar lengkapnya tersimpan di `DEDUP_STATUS.txt` untuk pemeriksaan manual bila diperlukan.
+1. **Deduplikasi paragraf selesai pada ambang kerja.** Tidak ada lagi pasangan paragraf berskor ≥ 5,0 di kedua edisi. Sisa 85 pasangan EN dan 98 ID pada ambang 3,2–4,9 adalah kasus satu bagian yang menyebut peristiwa yang sama dari dua sudut yang berbeda — angka di satu paragraf, mekanisme di paragraf lain — dan sifatnya komplementer, bukan berulang. Daftar lengkapnya tersimpan di `DEDUP_STATUS.txt` untuk pemeriksaan manual bila diperlukan.
 2. **Tingkat 3,2–4,9 belum disisir satu per satu.** Penyisiran itu membutuhkan pembacaan sekitar 180 pasangan, dan hasil yang diharapkan kecil karena sebagian besar adalah kesamaan topik yang wajar dalam bab studi kasus.
-3. **Berkas terbit belum dibangun ulang.** `book/publish/` masih memuat build lama (19 bab, 149 halaman) dari pipeline Typst yang membutuhkan `typst` dan `pandoc`; pipeline itu tidak tersedia di lingkungan ini. PDF A4 411/432 halaman adalah hasil yang harus dipakai.
+3. **Verifikasi EPUB masih struktural.** `epubcheck` tidak tersedia di lingkungan ini, sehingga EPUB diperiksa dengan `zipfile.testzip()`, urutan `mimetype`, dan pembacaan manual `content.opf`, `nav.xhtml`, serta `toc.ncx`. Isinya sepadan dengan PDF, tetapi validasi formal W3C sebaiknya dijalankan sebelum unggah ke toko.
 4. **Penomoran halaman mengikuti halaman PDF, bukan angka romawi/arab terpisah.** Bagian depan (sampul, daftar isi, daftar tabel) memakai nomor yang sama dengan badan buku. Untuk penerbit yang menuntut penomoran terpisah, `book_pdf.Book.footer` adalah satu-satunya tempat yang perlu diubah.
 
 ## 5. Keputusan
@@ -173,7 +182,7 @@ Pemeriksaan naskah:
 - kerapatan spasi p90 turun ke 1,84× (EN) dan 2,13× (ID) setelah pemenggalan kata;
 - tabel dipecah lintas halaman dengan header berulang;
 - tidak ada lagi duplikasi paragraf berskor ≥ 5,0;
-- aparatus sitasi bersih (422 EN / 376 ID), pemeriksaan fakta 0 gagal;
-- panjang 411 halaman (EN) dan 432 (ID), di dalam rentang 400–500.
+- aparatus sitasi bersih (402 EN / 350 ID), pemeriksaan fakta 0 gagal;
+- panjang 412 halaman (EN) dan 432 (ID), di dalam rentang 400–500.
 
 Buku siap untuk tahap penerbitan: dua berkas PDF A4 dengan teks lengkap, aparatus akademik lengkap, dan navigasi PDF yang berfungsi. Langkah berikutnya di luar gate ini adalah desain sampul cetak dan konversi ke EPUB/DOCX, yang membutuhkan pipeline terpisah dari renderer PDF ini.

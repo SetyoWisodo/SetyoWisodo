@@ -1,47 +1,551 @@
-book.md: 3.2+ 84 | 5.0+ 0 | 6.0+ 0
+book.md: 3.2+ 85 | 5.0+ 0 | 6.0+ 0
   4.8 §4.1 Measuring Heat: Temperature, Humidity and Wet-Bulb
-    A The theoretical limit of 35°C wet-bulb was proposed by Sherwood and Huber (2010) on the basis of a resting metabolic rate. Laborat…
-    B Wet-bulb temperature is the measure that matters physiologically because it captures the combined effect of heat and humidity on t…
+    A The theoretical limit of 35°C wet-bulb was proposed by Sherwood and Huber (2010) on the basis of a resting metabolic rate. Laboratory work since then 
+    B Wet-bulb temperature is the measure that matters physiologically because it captures the combined effect of heat and humidity on the body's ability to
   4.7 §16.7 Documents, Money and Communication
-    A Documents, money and communication are the least dramatic items on the list and the ones that determine how quickly a household re…
-    B Documents, money and communication are the three things that households most often forget, and the three that determine how quickl…
+    A Documents, money and communication are the least dramatic items on the list and the ones that determine how quickly a household recovers. Identity pap
+    B Documents, money and communication are the three things that households most often forget, and the three that determine how quickly they recover. Iden
   4.7 §6.2 River Floods and the Great Deltas
-    A The great deltas are the most flood-exposed places on Earth, and they are also where hundreds of millions of people live. The Gang…
-    B River floods are worst in deltas, and the reason is that deltas are sinking while the rivers are being starved of the sediment tha…
+    A The great deltas are the most flood-exposed places on Earth, and they are also where hundreds of millions of people live. The Ganges-Brahmaputra, the 
+    B River floods are worst in deltas, and the reason is that deltas are sinking while the rivers are being starved of the sediment that built them. A dam 
   4.6 §13.5 Transport and Supply Chains
-    A Transport networks carry the signature of the climate they were built for. In November 2021, atmospheric rivers in British Columbi…
-    B Transport adaptation is usually framed as protecting assets, and the more important question is protecting access. A washed-out br…
+    A Transport networks carry the signature of the climate they were built for. In November 2021, atmospheric rivers in British Columbia washed out section
+    B Transport adaptation is usually framed as protecting assets, and the more important question is protecting access. A washed-out bridge can be rebuilt,
   4.6 §2.10 Attribution of Warming
-    A A younger branch of the field applies the same logic to individual events. Event attribution compares the probability or intensity…
-    B Attribution has moved from a research question to an operational service. The method compares large ensembles of model simulations…
+    A A younger branch of the field applies the same logic to individual events. Event attribution compares the probability or intensity of a heatwave, floo
+    B Attribution has moved from a research question to an operational service. The method compares large ensembles of model simulations with and without hu
   4.6 §8.4 Tropical Forests and the Amazon
-    A The Amazon is the most studied case. About 17 per cent of the forest has been cleared, and a further fraction is degraded by loggi…
-    B The Amazon is a system with its own rainfall, and that is what makes it vulnerable. Moisture recycled by the forest falls as rain …
+    A The Amazon is the most studied case. About 17 per cent of the forest has been cleared, and a further fraction is degraded by logging and fire. Climate
+    B The Amazon is a system with its own rainfall, and that is what makes it vulnerable. Moisture recycled by the forest falls as rain further west and sou
   4.6 §4.6 Heat Action Plans and Early Warning
-    A Ahmedabad, India, adopted one of the first heat action plans in South Asia after a 2010 heatwave killed more than 1,300 people (He…
-    B Heat action plans work, and the evidence is unusually strong for an adaptation measure. Ahmedabad's plan, developed after a 2010 h…
-book_id.md: 3.2+ 97 | 5.0+ 0 | 6.0+ 0
+    A Ahmedabad, India, adopted one of the first heat action plans in South Asia after a 2010 heatwave killed more than 1,300 people (Hess et al., 2018). Th
+    B Heat action plans work, and the evidence is unusually strong for an adaptation measure. Ahmedabad's plan, developed after a 2010 heatwave killed more 
+  4.5 §10.7 The Cost of Inaction
+    A More recent estimates are larger. A 2024 study in Nature found that a high-emission pathway would reduce global income by about 19 per cent by 2050 re
+    B The cost of inaction has been estimated many times, and the estimates have grown as the methodology has improved. A 2024 study in Nature by Kotz and c
+  4.5 §20.3 Slow Onset, Drought and Solastalgia
+    A Slow-onset change produces a different kind of distress. Drought, salinisation, desertification and coastal erosion erode the landscapes and livelihoo
+    B Slow-onset events produce a different kind of injury, one that accumulates without a single moment to mourn. Glenn Albrecht coined the term solastalgi
+  4.5 §23.3 Ethiopia 1984–1985 and the Entitlement Debate
+    A Amartya Sen's analysis of the 1943 Bengal famine changed how famines are understood, and Ethiopia in 1984–85 tested the theory under different conditi
+    B Ethiopia in 1984 and 1985 is the case that produced the entitlement theory of famine, and the theory changed how the world responds. Amartya Sen's arg
+  4.5 §19.5 Mini-Grids and Off-Grid Solar
+    A About 700 million people still lack access to electricity, most of them in sub-Saharan Africa and South Asia. Extending the grid to remote areas is ex
+    B Mini-grids are where the energy transition meets the last billion people. The International Energy Agency estimates that around seven hundred and sixt
+  4.4 §7.11 Case Study: The 2023 Rice Shock
+    A The 2023 rice decision had a global dimension that is often missed. India accounts for about 40 per cent of the world's rice exports, and its restrict
+    B The rice shock of 2023 was produced by a combination of a weather event and a policy decision, and the policy decision did most of the damage. India, 
+  4.4 §23.5 Syria: Drought, Displacement and Conflict
+    A Between 2006 and 2010, Syria experienced its worst multi-year drought in the instrumental record (Kelley et al., 2015). Rainfall fell to a fraction of
+    B The Syrian drought has become a test case for the 'climate as threat multiplier' argument, and the debate around it is more instructive than the concl
+  4.3 §15.3 Measuring Scientific Consensus
+    A Lynas et al. (2021) reviewed 88,125 climate-related papers published between 2012 and 2020 and found that more than 99.9 per cent of them endorsed the
+    B Consensus studies are frequently cited and frequently misunderstood. Oreskes examined 928 abstracts in 2004 and found none that disputed the consensus
+  4.3 §22.4 Fire: Black Saturday and the Camp Fire
+    A Australia's Black Saturday fires of 7 February 2009 killed 173 people and destroyed more than 2,000 homes in Victoria (Victorian Bushfires Royal Commi
+    B Black Saturday and the Camp Fire are separated by nine years and half a world, and they share a mechanism: a fire that arrives faster than the warning
+  4.2 §23.5 Syria: Drought, Displacement and Conflict
+    A The drought did not cause the civil war that began in 2011, and analysts caution against simple causal claims. But it contributed to the conditions in
+    B The Syrian drought has become a test case for the 'climate as threat multiplier' argument, and the debate around it is more instructive than the concl
+  4.2 §18.2 The Evidence: Neighbourhoods and Survival
+    A The classic study of social capital and heat is Eric Klinenberg's analysis of the 1995 Chicago heatwave, which killed more than 700 people in a week (
+    B The study of neighbourhoods and survival began with a comparison that has never been fully explained away. In the Chicago heatwave of 1995, two adjace
+  4.1 §8.7 Ocean Acidification and Deoxygenation
+    A Ocean acidification is a separate problem from warming, and its chemistry is simpler and more certain. Carbon dioxide dissolves in seawater to form ca
+    B Ocean acidification is the other consequence of the carbon that the sea absorbs, and it is invisible in a way that bleaching is not. Carbon dioxide di
+  4.1 §4.11 Case Study: The European Summer of 2022
+    A The policy response varied. France, which had built a national heat plan after 2003, activated a colour-coded alert system, opened cooling centres and
+    B The 2022 summer was the first large test of the systems built after 2003, and the honest reading of the result is that they worked partially. France a
+  4.1 §3.4 Tipping Points and Abrupt Change
+    A Some parts of the climate system do not respond gradually. They behave like a see-saw held just past its balance point: a small additional push produc
+    B Tipping points are thresholds beyond which a component of the system reorganises into a different state, often irreversibly on human timescales. Candi
+  4.1 §15.3 Measuring Scientific Consensus
+    A The claim that about 97 per cent of climate scientists agree that human activity is warming the planet comes from several independent studies. Doran a
+    B Consensus studies are frequently cited and frequently misunderstood. Oreskes examined 928 abstracts in 2004 and found none that disputed the consensus
+  4.0 §21.11 Case Study: The Loss and Damage Fund
+    A At the 1991 negotiations, Vanuatu proposed an insurance mechanism to compensate small island states for the effects of sea-level rise. The proposal wa
+    B How a justice demand becomes an institution, and how much of the demand survives the process, is what the Loss and Damage Fund documents. Vanuatu prop
+  4.0 §12.11 Case Study: The Lake Chad Basin
+    A Lake Chad sits at the junction of Chad, Niger, Nigeria and Cameroon, and it has supported human settlement for thousands of years. In the 1960s it cov
+    B The conflict has killed more than 35,000 people and displaced more than two million (UNHCR, 2023). The military response, which includes forces from N
+  4.0 §4.4 Who Dies in a Heatwave
+    A The Chicago heatwave of July 1995 is the canonical study (Klinenberg, 2002). More than 700 people died in five days, most of them in their homes, and 
+    B The largest excess is among people over seventy-five, particularly women living alone, followed by people with cardiovascular or respiratory disease, 
+  4.0 §15.1 What a Climate Number Actually Means
+    A The statement that 2024 was the first calendar year more than 1.5 °C above pre-industrial levels is precise only in relation to a baseline, and the ba
+    B The choice of baseline is the most consequential and least discussed. A warming figure relative to 1850–1900 describes the change since industrialisat
+  3.9 §22.6 Flood: Pakistan 2022
+    A Pakistan's 2022 floods were driven by monsoon rainfall about three times the national average, combined with glacial melt from the Himalayas and a hea
+    B Pakistan's 2022 floods were unusual in the way the damage was distributed (WMO, 2023). The rainfall was extreme, but much of the loss occurred in area
+  3.9 §2.8 Ice Loss and Cryosphere
+    A The cryosphere is where the climate system keeps its slowest and least reversible commitments. Arctic sea ice has declined by roughly 12 to 13 per cen
+    B The Arctic case also illustrates how definitions carry consequences. 'Ice-free' does not mean an ocean without ice; it means less than one million squ
+  3.9 §9.3 Waterborne and Foodborne Disease
+    A Foodborne disease is also climate-sensitive. Warmer temperatures increase the growth rate of bacteria such as Salmonella and Campylobacter in food, an
+    B Waterborne and foodborne diseases are the oldest climate-sensitive infections, and they respond to temperature in ways that are well documented. Chole
+  3.8 §21.11 Case Study: The Loss and Damage Fund
+    A Momentum came after a series of disasters. Hurricane Maria in 2017, Cyclone Idai in 2019, the floods in Pakistan in 2022 and the heatwaves in Europe a
+    B How a justice demand becomes an institution, and how much of the demand survives the process, is what the Loss and Damage Fund documents. Vanuatu prop
+  3.8 §19.8 Critical Minerals and Supply Chains
+    A Supply is concentrated. China refines a large share of the world's lithium, cobalt and graphite, and dominates solar manufacturing; the Democratic Rep
+    B The energy transition is a materials transition, and the materials are concentrated in a few places. Lithium comes from a handful of salt flats and ha
+  3.8 §18.1 Social Capital as a Survival Resource
+    A Bonding capital provides immediate help: the neighbour who checks on an elderly resident, the family that shares water, the congregation that opens it
+    B Social capital is the resource that a community holds in its relationships, and the distinction that matters for disasters is between the three kinds.
+  3.8 §22.5 Fire: Canada 2023 and the Smoke Problem
+    A In 2023 the Canadian fires produced a health event that extended far beyond the burn zone. Smoke travelled thousands of kilometres and pushed fine par
+    B Smoke from Canada in 2023 turned air quality into a transboundary issue that no single jurisdiction could manage, and the management was improvised. T
+  3.8 §13.3 Power Systems
+    A Power systems fail in ways that are socially stratified. When Winter Storm Uri pushed Texas temperatures below minus ten degrees Celsius in February 2
+    B Power systems are vulnerable at the points where the climate meets the physics of generation and transmission. A thermal plant needs cooling water, an
+  3.8 §22.7 Flood: Germany and Belgium 2021
+    A The July 2021 floods in western Germany and Belgium were caused by a slow-moving low-pressure system that produced extreme rainfall over saturated gro
+    B No case separates a warning from an action more clearly than the Ahr valley flood of July 2021 (Kreienkamp et al., 2021). Forecasts gave a day of noti
+  3.8 §5.6 Agriculture: The Largest User
+    A Agriculture accounts for about 70 per cent of global freshwater withdrawals, and in some developing countries the share is closer to 90 per cent (Glei
+    B Agriculture consumes about 70 per cent of global freshwater withdrawals, and the share is higher in arid regions (Gleick, 2023). Irrigation is essenti
+  3.8 §22.2 Heat: Chicago 1995 and Europe 2003
+    A The comparison between Chicago and Europe turns on a methodological question that determines how the death toll is understood. Excess mortality counts
+    B Chicago 1995 and Europe 2003 are the founding studies of heat mortality and they point in the same direction from different angles (Robine et al., 200
+  3.7 §19.3 Wind Power and the Variability Problem
+    A Wind power is the other mature renewable technology. Global capacity passed 1,000 gigawatts in 2023, with the largest installations in China, the Unit
+    B Wind power is the other mature renewable and it faces a different problem: the resource is variable and often located far from the demand. Offshore wi
+  3.7 §10.11 Case Study: The 2017 Atlantic Hurricane Season
+    A Few Atlantic seasons have been as destructive as 2017. Hurricane Harvey made landfall in Texas in August and stalled, dropping more than 1,500 millime
+    B What the 2017 season documents is how a single year of disasters is absorbed. Harvey stalled over Houston and produced rainfall that exceeded every de
+  3.7 §2.6 IPCC Assessments
+    A Reading an IPCC summary requires attention to its grammar. The panel uses a calibrated vocabulary in which 'likely' means a probability between 66 and
+    B The IPCC does not do research itself; it assembles and assesses what has been published, and the process shapes the product. Three working groups cove
+  3.6 §4.12 Future Scenarios and Predictions: Heat in a Warmer World
+    A The useful way to think about future heat is not the global average but the number of days above a dangerous threshold. A world at 1.5 °C and a world 
+    B The evidence supports two conclusions. The first is that heat risk is not determined by temperature alone: the same number of hot days produces very d
+  3.6 §16.11 Case Study: Hurricane Maria and Household Survival in Puerto Rico
+    A Hurricane Maria made landfall in Puerto Rico on 20 September 2017 as a Category 4 storm, two weeks after Hurricane Irma had passed close to the island
+    B Hurricane Maria is the clearest recent case of households carrying the response. The storm destroyed the electricity grid, knocked out water treatment
+  3.6 §23.4 Somalia 2011 and 2022
+    A The 2011 Somali famine was declared after months of warning, and it killed about 258,000 people. The 2022 crisis was different in important respects: 
+    B Somalia in 2011 and 2022 offers a comparison in which the difference was largely operational (Checchi & Robinson, 2013). In 2011, warnings were issued
+  3.6 §17.11 Case Study: The 2003 European Heatwave
+    A In the first two weeks of August 2003, a persistent high-pressure system brought exceptional heat to western and central Europe (Robine et al., 2008).
+    B The systems appear to have worked after 2003. When Europe experienced extreme heat in 2022, with temperatures exceeding 40 °C in several countries, th
+  3.6 §22.6 Flood: Pakistan 2022
+    A Pakistan's 2022 floods were unusual in the way the damage was distributed (WMO, 2023). The rainfall was extreme, but much of the loss occurred in area
+    B Pakistan's post-flood fiscal position illustrates how a climate disaster becomes a debt problem. The reconstruction bill exceeded the country's annual
+  3.6 §20.10 Communicating Without Despair
+    A Communicating without despair is a design problem, and the evidence is counter-intuitive. Messages that lead with catastrophe produce disengagement in
+    B Communicating about the climate without producing despair is a craft, and the evidence on what works is more specific than the general advice to be ho
+  3.6 §8.7 Ocean Acidification and Deoxygenation
+    A Ocean acidification is sometimes called the other carbon dioxide problem, because it follows directly from chemistry rather than from warming. Carbon 
+    B Ocean acidification is a separate problem from warming, and its chemistry is simpler and more certain. Carbon dioxide dissolves in seawater to form ca
+  3.6 §Chapter 22: Case Studies: Heat, Fire, Flood and Urban Extremes
+    A On 29 June 2021, the village of Lytton in British Columbia recorded 49.6 °C, the highest temperature ever measured in Canada (Philip et al., 2022). Th
+    B The consequences were immediate and severe. Roads buckled, power cables sagged and failed, and hundreds of people died across British Columbia, Washin
+  3.6 §23.7 Cape Town and São Paulo: Urban Water Crises
+    A Cape Town and São Paulo are the two best-documented cases of a major city approaching the end of its water, and both escaped through demand management
+    B Cape Town and São Paulo are two urban water crises that arrived by different routes and were resolved in different ways. São Paulo's reservoirs fell t
+  3.6 §11.9 Legal and Political Frameworks
+    A The 1951 Refugee Convention does not recognise environmental drivers, and a person fleeing a flood is generally not a refugee; the Kampala Convention 
+    B The legal framework for climate mobility is a patchwork. The 1951 Refugee Convention does not cover people who move because of environmental change, a
+  3.6 §12.6 Fisheries, Maritime Boundaries and the Arctic
+    A The Arctic illustrates how climate change can create new strategic competition even without direct resource scarcity. Retreating sea ice opens shippin
+    B The Arctic is where climate change is redrawing the map fastest, and the redrawing has security consequences. Retreating sea ice opens shipping routes
+  3.6 §2.8 Ice Loss and Cryosphere
+    A The cryosphere is where the climate system keeps its slowest and least reversible commitments. Arctic sea ice has declined by roughly 12 to 13 per cen
+    B The cryosphere is where the change is most visible and where the consequences are most durable. Arctic sea ice has lost roughly half of its extent at 
+  3.5 §12.1 What the Research Shows
+    A The results of that first generation were summarised in a widely cited meta-analysis by Hsiang, Burke and Miguel (2013), which Hsiang and Burke (2014)
+    B Three strands run through the quantitative literature. One finds that higher temperatures and rainfall anomalies are associated with more conflict at 
+  3.5 §11.11 Case Study: Tuvalu and the Falepili Union
+    A The Falepili Union, signed with Australia in November 2023, is the most comprehensive bilateral arrangement of its kind. It provides a special visa pa
+    B The Falepili Union also illustrates the limits of bilateral deals as a model. It provides a pathway for a specific number of Tuvaluans a year, which i
+  3.5 §22.5 Fire: Canada 2023 and the Smoke Problem
+    A In 2023, Canada experienced its most severe wildfire season on record (CIFFC, 2023). About 18.5 million hectares burned — roughly seven times the ten-
+    B Smoke from Canada in 2023 turned air quality into a transboundary issue that no single jurisdiction could manage, and the management was improvised. T
+  3.5 §4.2 The Physiology of Heat Illness
+    A Heat illness progresses along a continuum. Heat cramps are painful muscle spasms caused by salt loss; heat exhaustion produces weakness, dizziness, he
+    B Heat illness progresses along a spectrum that is easy to misjudge. Heat cramps and heat exhaustion are reversible with rest, shade and fluids; heatstr
+  3.5 §6.2 River Floods and the Great Deltas
+    A The largest concentration of flood risk is in the deltas of Asia. The Ganges–Brahmaputra, the Mekong, the Irrawaddy, the Indus and the Yangtze carry e
+    B The great deltas are the most flood-exposed places on Earth, and they are also where hundreds of millions of people live. The Ganges-Brahmaputra, the 
+  3.5 §Chapter 9: Health Impacts of Climate Change
+    A The health effects of climate change are broader than infectious disease. Heat kills directly and indirectly; air pollution from wildfire smoke and fo
+    B The World Health Organization's estimate that climate change will cause about 250,000 additional deaths a year between 2030 and 2050 — from heat, diar
+  3.5 §19.6 Clean Cooking and Household Energy
+    A Cooking is the part of the energy transition that is least discussed and most consequential for health. Around 2.3 billion people still cook with soli
+    B The fiscal cost of cooking fuel is the reason the transition stalls. Indonesia's conversion from kerosene to liquefied petroleum gas in the 2000s reac
+  3.4 §12.5 Water Disputes and Cooperation
+    A Water is the resource most often associated with climate conflict, and the record is more cooperative than the headlines suggest. The Pacific Institut
+    B Water disputes between states are more often managed than fought. The Indus Waters Treaty has survived three wars between India and Pakistan; the Nile
+  3.4 §23.7 Cape Town and São Paulo: Urban Water Crises
+    A São Paulo faced a comparable crisis in 2014–2015. The Cantareira reservoir system, which supplies about half the metropolitan area's water, fell below
+    B Cape Town and São Paulo are two urban water crises that arrived by different routes and were resolved in different ways. São Paulo's reservoirs fell t
+  3.4 §23.11 Case Study: The 2011 Somali Famine
+    A The 2011 famine in southern Somalia followed two consecutive failed rainy seasons and a drought that affected the wider Horn of Africa (Checchi & Robi
+    B No disaster in the modern record was more clearly predicted and less clearly prevented than the Somali famine of 2011. Two consecutive failed rainy se
+  3.4 §10.5 Insurance and the Limits of Risk Transfer
+    A The result is retreat. Insurers have withdrawn from parts of California and Florida, where wildfire and hurricane risk have increased; they have raise
+    B Insurance is the main mechanism for transferring climate risk, and it is withdrawing from the places where risk is highest. Insurers have reduced expo
+  3.4 §21.2 Historical Responsibility and Carbon Budgets
+    A Historical responsibility is usually argued with cumulative emissions, and the numbers are stark. The United States has produced roughly a quarter of 
+    B Historical responsibility is measured in cumulative emissions, and the measure changes the picture completely. On an annual basis, China is the larges
+  3.4 §11.11 Case Study: Tuvalu and the Falepili Union
+    A The Falepili Union, signed with Australia in November 2023, is the most comprehensive bilateral arrangement of its kind. It provides a special visa pa
+    B The Falepili Union between Australia and Tuvalu is the first agreement that addresses the legal continuity of a state whose territory is being submerg
+  3.4 §11.5 Small Island States and Coastal Communities
+    A The responses have three tracks. The first is coastal defence: sea walls, reclamation, and raised infrastructure. The second is adaptation within the 
+    B Small island states have produced the most innovative legal responses to displacement, because they face the possibility that their territory will bec
+  3.4 §5.2 Drought: Four Definitions
+    A Drought is usually defined in four ways. Meteorological drought is a prolonged period of below-average rainfall. Agricultural drought is a shortage of
+    B The four definitions of drought are not academic refinements; they describe different failures that arrive at different times. Meteorological drought 
+  3.4 §21.4 Climate Litigation
+    A Cases against companies have also advanced. In 2021, a Dutch court ordered Shell to reduce its emissions by 45 per cent by 2030, a ruling that was lat
+    B Litigation has become a parallel system of climate governance, and its track record is mixed in instructive ways. The Urgenda case in the Netherlands 
+  3.3 §22.5 Fire: Canada 2023 and the Smoke Problem
+    A In 2023 the Canadian fires produced a health event that extended far beyond the burn zone. Smoke travelled thousands of kilometres and pushed fine par
+    B How fire is understood in public health has changed, and the change is recent. Fine particulate matter from wildfires can travel thousands of kilometr
+  3.3 §23.9 Food Prices, Export Bans and the 2007–2008 Crisis
+    A In 2007 and 2008, world food prices rose sharply (FAO, 2023). Wheat prices more than doubled, rice prices tripled, and maize and soybeans reached reco
+    B In 2007 and 2008 the world discovered that its food system had less slack than it thought. A series of weather shocks in major producing countries, a 
+  3.3 §11.5 Small Island States and Coastal Communities
+    A Small island states have produced the most innovative legal responses to displacement, because they face the possibility that their territory will bec
+    B Small island states are the clearest case of a population whose territory is at risk, and their situation is misdescribed by the word migration. A per
+  3.2 §7.5 Livestock and Pastoralism
+    A Pastoralism is a system adapted to variability. Herders move with the rains, keep mixed herds of different species, and use social networks to share a
+    B Pastoralism is the food system that climate policy most often misunderstands. Herders manage variability rather than maximise yield, moving animals to
+  3.2 §7.5 Livestock and Pastoralism
+    A Pastoralism is a system adapted to variability. Herders move with the rains, keep mixed herds of different species, and use social networks to share a
+    B Pastoralism is a livelihood built for variability, and it is being tested beyond its limits. Herders move livestock to follow rainfall, using traditio
+  3.2 §16.5 Power, Light and Heat
+    A Electricity is the quiet dependency behind almost everything else: refrigeration, communications, medical devices, water pumping and lighting. Outages
+    B Electricity has become the quiet dependency of household survival. A house without power loses refrigeration, lighting, communications, water pumping 
+  3.2 §6.9 Ecosystem-Based Protection
+    A Ecosystem-based protection is often cheaper than engineering and delivers additional benefits. Mangroves attenuate wave energy and stabilise coastline
+    B Ecosystem-based protection works by using the physics of a natural barrier against the energy of a flood. Mangroves attenuate waves, absorb surge and 
+  3.2 §15.8 Prebunking, Debunking and Inoculation
+    A Prebunking and debunking are different tools with different strengths. Debunking corrects a specific claim after it has spread, and its effectiveness 
+    B Prebunking and debunking are different strategies and they work best in combination. Debunking corrects a claim after it has spread, and the research 
+  3.2 §24.5 City and Municipal Checklist
+    A Finally, a city needs institutions that can coordinate. Heat involves health, social services, utilities and transport; floods involve water, planning
+    B Heat action plans have spread because they are cheap, visible and effective. The core elements are a forecast trigger, a warning that reaches vulnerab
+  3.2 §8.7 Ocean Acidification and Deoxygenation
+    A Ocean acidification is sometimes called the other carbon dioxide problem, because it follows directly from chemistry rather than from warming. Carbon 
+    B Ocean acidification is the other consequence of the carbon that the sea absorbs, and it is invisible in a way that bleaching is not. Carbon dioxide di
+  3.2 §8.5 Permafrost and the Tundra
+    A Permafrost — ground that remains frozen for at least two consecutive years — covers about a quarter of the Northern Hemisphere and stores an estimated
+    B Permafrost is ground that has stayed frozen for at least two years, and it holds more carbon than the atmosphere does. When it thaws, the organic mate
+  3.2 §7.11 Case Study: The 2023 Rice Shock
+    A The 2023 rice decision had a global dimension that is often missed. India accounts for about 40 per cent of the world's rice exports, and its restrict
+    B The rice shock of 2023 showed how a climate event becomes a market event. India, the largest exporter of rice, restricted shipments after a delayed an
+  3.2 §7.11 Case Study: The 2023 Rice Shock
+    A In 2023, that is what happened. India, which accounts for about forty per cent of global rice exports, restricted shipments after a poor monsoon and r
+    B The 2023 rice decision had a global dimension that is often missed. India accounts for about 40 per cent of the world's rice exports, and its restrict
+  3.2 §8.7 Ocean Acidification and Deoxygenation
+    A Ocean acidification is sometimes called the other carbon dioxide problem, because it follows directly from chemistry rather than from warming. Carbon 
+    B Ocean acidification is the other carbon problem, and it is less familiar than warming. The ocean has absorbed roughly a quarter of anthropogenic carbo
+  3.2 §2.7 Ocean Heat and Sea Level
+    A The ocean has absorbed about ninety per cent of the excess heat trapped by greenhouse gases, and roughly a quarter of the carbon dioxide. That absorpt
+    B The ocean has absorbed roughly 90 per cent of the excess heat trapped by greenhouse gases, and that absorption has consequences beyond sea level (Chen
+  3.2 §23.5 Syria: Drought, Displacement and Conflict
+    A Between 2006 and 2010, Syria experienced its worst multi-year drought in the instrumental record (Kelley et al., 2015). Rainfall fell to a fraction of
+    B Syria is the case where a drought, a war and a policy failure are tangled together, and the tangling is the lesson. Between 2006 and 2010, the country
+  3.2 §17.11 Case Study: The 2003 European Heatwave
+    A In the first two weeks of August 2003, a persistent high-pressure system brought exceptional heat to western and central Europe (Robine et al., 2008).
+    B Europe in 2003 produced about seventy thousand deaths and a reform that has been copied across the world (Robine et al., 2008). The French government 
+  3.2 §19.6 Clean Cooking and Household Energy
+    A Around 2.3 billion people still cook with solid fuels — wood, charcoal, dung, crop residue — in open fires or inefficient stoves. The resulting househ
+    B Cooking is the part of the energy transition that is least discussed and most consequential for health. Around 2.3 billion people still cook with soli
+book_id.md: 3.2+ 98 | 5.0+ 0 | 6.0+ 0
   4.9 §23.5 Suriah: Kekeringan, Pengungsian dan Konflik
-    A Antara 2006 dan 2010, Suriah mengalami kekeringan multi-tahun terburuk dalam catatan instrumental (Kelley dkk., 2015). Curah hujan…
-    B Kekeringan Suriah menjadi kasus uji bagi argumen 'iklim sebagai pengganda ancaman', dan perdebatan di sekitarnya lebih instruktif …
+    A Antara 2006 dan 2010, Suriah mengalami kekeringan multi-tahun terburuk dalam catatan instrumental (Kelley dkk., 2015). Curah hujan turun menjadi sebag
+    B Kekeringan Suriah menjadi kasus uji bagi argumen 'iklim sebagai pengganda ancaman', dan perdebatan di sekitarnya lebih instruktif daripada kesimpulann
   4.8 §8.9 Jasa Ekosistem dan Ketergantungan Manusia
-    A Perlindungan pesisir adalah contoh lain. Mangrove, terumbu, dan gumuk mengurangi energi gelombang dan gelombang badai, dan hilangn…
-    B Jasa ekosistem biasanya digambarkan abstrak, dan nilainya menjadi konkret ketika jasanya gagal. Mangrove mengurangi gelombang bada…
+    A Perlindungan pesisir adalah contoh lain. Mangrove, terumbu, dan gumuk mengurangi energi gelombang dan gelombang badai, dan hilangnya sistem itu mening
+    B Jasa ekosistem biasanya digambarkan abstrak, dan nilainya menjadi konkret ketika jasanya gagal. Mangrove mengurangi gelombang badai dan energi gelomba
   4.8 §19.6 Memasak Bersih dan Energi Rumah Tangga
-    A Memasak adalah bagian transisi energi yang paling jarang dibahas dan paling besar dampaknya bagi kesehatan. Sekitar 2,3 miliar ora…
-    B Biaya fiskal bahan bakar memasak adalah alasan transisi ini tersendat. Konversi minyak tanah ke gas elpiji di Indonesia pada 2000-…
+    A Memasak adalah bagian transisi energi yang paling jarang dibahas dan paling besar dampaknya bagi kesehatan. Sekitar 2,3 miliar orang masih memasak den
+    B Biaya fiskal bahan bakar memasak adalah alasan transisi ini tersendat. Konversi minyak tanah ke gas elpiji di Indonesia pada 2000-an menjangkau puluha
   4.8 §5.6 Pertanian: Pengguna Terbesar
-    A Pertanian menyumbang sekitar 70 persen pengambilan air tawar global, dan di sebagian negara berkembang porsinya mendekati 90 perse…
-    B Pertanian mengonsumsi sekitar 70 persen pengambilan air tawar global, dan porsinya lebih tinggi di wilayah kering (Gleick, 2023). …
+    A Pertanian menyumbang sekitar 70 persen pengambilan air tawar global, dan di sebagian negara berkembang porsinya mendekati 90 persen (Gleick, 2023). Ir
+    B Pertanian mengonsumsi sekitar 70 persen pengambilan air tawar global, dan porsinya lebih tinggi di wilayah kering (Gleick, 2023). Irigasi penting untu
   4.7 §21.4 Litigasi Iklim
-    A Gugatan terhadap perusahaan juga maju. Pada 2021, pengadilan Belanda memerintahkan Shell mengurangi emisinya 45 persen pada 2030, …
-    B Litigasi telah menjadi sistem tata kelola iklim paralel, dan rekam jejaknya campuran dengan cara yang instruktif. Kasus Urgenda di…
+    A Gugatan terhadap perusahaan juga maju. Pada 2021, pengadilan Belanda memerintahkan Shell mengurangi emisinya 45 persen pada 2030, putusan yang kemudia
+    B Litigasi telah menjadi sistem tata kelola iklim paralel, dan rekam jejaknya campuran dengan cara yang instruktif. Kasus Urgenda di Belanda menetapkan 
   4.6 §11.11 Studi Kasus: Tuvalu dan Falepili Union
-    A Falepili Union, yang ditandatangani dengan Australia pada November 2023, adalah pengaturan bilateral paling komprehensif dari jeni…
-    B Falepili Union juga menggambarkan batas kesepakatan bilateral sebagai model. Ia menyediakan jalur bagi sejumlah tertentu orang Tuv…
+    A Falepili Union, yang ditandatangani dengan Australia pada November 2023, adalah pengaturan bilateral paling komprehensif dari jenisnya. Ia menyediakan
+    B Falepili Union juga menggambarkan batas kesepakatan bilateral sebagai model. Ia menyediakan jalur bagi sejumlah tertentu orang Tuvalu per tahun, jumla
   4.6 §12.9 Pangan, Harga dan Ketidakstabilan Politik
-    A Hubungan antara harga pangan dan ketidakstabilan politik adalah salah satu yang paling terdokumentasi dalam ilmu sosial. Lonjakan …
-    B Harga pangan termasuk prediktor kerusuhan kota yang paling andal, dan mekanismenya cukup sederhana sehingga terasa tidak nyaman. R…
+    A Hubungan antara harga pangan dan ketidakstabilan politik adalah salah satu yang paling terdokumentasi dalam ilmu sosial. Lonjakan harga 2007–2008 diik
+    B Harga pangan termasuk prediktor kerusuhan kota yang paling andal, dan mekanismenya cukup sederhana sehingga terasa tidak nyaman. Rumah tangga yang mem
   4.6 §4.12 Skenario dan Prediksi Masa Depan: Panas di Dunia yang Lebih Hangat
-    A Cara berguna memikirkan panas masa depan bukan rata-rata global melainkan jumlah hari di atas ambang berbahaya. Dunia 1,5 °C dan d…
-    B Buktinya mendukung dua kesimpulan. Pertama, risiko panas tidak ditentukan oleh suhu saja: jumlah hari panas yang sama menghasilkan…
+    A Cara berguna memikirkan panas masa depan bukan rata-rata global melainkan jumlah hari di atas ambang berbahaya. Dunia 1,5 °C dan dunia 3 °C berbeda se
+    B Buktinya mendukung dua kesimpulan. Pertama, risiko panas tidak ditentukan oleh suhu saja: jumlah hari panas yang sama menghasilkan kematian yang sanga
+  4.5 §22.4 Kebakaran: Black Saturday dan Camp Fire
+    A Kebakaran Black Saturday di Australia pada 7 Februari 2009 menewaskan 173 orang dan menghancurkan lebih dari 2.000 rumah di Victoria (Victorian Bushfi
+    B Black Saturday dan Kebakaran Camp terpisah sembilan tahun dan setengah dunia, dan keduanya berbagi mekanisme: api yang datang lebih cepat daripada per
+  4.4 §6.2 Banjir Sungai dan Delta Besar
+    A Delta-delta besar adalah tempat paling terpapar banjir di Bumi, dan juga tempat ratusan juta orang tinggal. Gangga-Brahmaputra, Mekong, Nil, Indus, da
+    B Banjir sungai paling buruk di delta, dan alasannya delta sedang turun sementara sungainya kehabisan sedimen yang membangunnya. Bendungan di hulu memer
+  4.4 §6.2 Banjir Sungai dan Delta Besar
+    A Konsentrasi risiko banjir terbesar berada di delta-delta Asia. Gangga–Brahmaputra, Mekong, Irrawaddy, Indus, dan Yangtze membawa volume air dan sedime
+    B Delta-delta besar adalah tempat paling terpapar banjir di Bumi, dan juga tempat ratusan juta orang tinggal. Gangga-Brahmaputra, Mekong, Nil, Indus, da
+  4.4 §11.9 Kerangka Hukum dan Politik
+    A Konvensi Pengungsi 1951 tidak mengakui pendorong lingkungan, dan orang yang melarikan diri dari banjir umumnya bukan pengungsi; Konvensi Kampala menca
+    B Kerangka hukum mobilitas iklim adalah tambal sulam. Konvensi Pengungsi 1951 tidak mencakup orang yang pindah karena perubahan lingkungan, dan tidak ad
+  4.4 §23.9 Harga Pangan, Larangan Ekspor dan Krisis 2007–2008
+    A Krisis 2007–2008 menghasilkan seperangkat reformasi yang masih menjadi dasar kebijakan ketahanan pangan. Cadangan Beras Darurat ASEAN Plus Three diben
+    B Krisis 2007 dan 2008 menghasilkan seperangkat aturan yang seharusnya mencegah pengulangan, dan aturannya diuji pada 2022 dan gagal sebagian. Disiplin 
+  4.4 §18.2 Bukti: Lingkungan dan Peluang Bertahan
+    A Studi klasik tentang modal sosial dan panas adalah analisis Eric Klinenberg atas gelombang panas Chicago 1995, yang menewaskan lebih dari 700 orang da
+    B Studi tentang lingkungan dan keselamatan dimulai dari perbandingan yang belum pernah sepenuhnya terjelaskan. Pada gelombang panas Chicago 1995, dua ko
+  4.2 §11.7 Kota sebagai Tujuan
+    A Sebagian besar migran iklim pindah ke kota, dan sebagian besar kota tidak siap menerima mereka. Pendatang baru sering menetap di kawasan informal yang
+    B Kota menyerap sebagian besar migrasi iklim, dan mereka melakukannya secara informal. Pendatang baru biasanya menetap di lingkungan pinggiran dengan pe
+  4.2 §5.7 Sistem Air Perkotaan
+    A Kota memusatkan permintaan dan kehilangan air sebelum mencapai keran. Air non-pendapatan — selisih antara yang diproduksi perusahaan air dan yang dita
+    B Sistem air perkotaan adalah jaringan rekayasa yang berukuran untuk kota yang tidak lagi ada, dan kinerjanya diukur angka yang sedikit kota mempublikas
+  4.2 §16.5 Listrik, Cahaya dan Panas
+    A Listrik adalah ketergantungan diam-diam di balik hampir segala hal: pendinginan, komunikasi, perangkat medis, pemompaan air, dan penerangan. Pemadaman
+    B Listrik telah menjadi ketergantungan sunyi bagi kelangsungan rumah tangga. Rumah tanpa daya kehilangan pendinginan, penerangan, komunikasi, pompa air 
+  4.2 §23.5 Suriah: Kekeringan, Pengungsian dan Konflik
+    A Kekeringan itu tidak menyebabkan perang saudara yang dimulai pada 2011, dan analis memperingatkan agar tidak membuat klaim kausal sederhana. Tetapi ia
+    B Kekeringan Suriah menjadi kasus uji bagi argumen 'iklim sebagai pengganda ancaman', dan perdebatan di sekitarnya lebih instruktif daripada kesimpulann
+  4.2 §12.1 Apa yang Ditunjukkan Penelitian
+    A Hasil generasi pertama itu dirangkum dalam meta-analisis yang banyak dikutip oleh Hsiang, Burke dan Miguel (2013), yang kemudian diperluas Hsiang dan 
+    B Tiga alur berjalan melalui literatur kuantitatif. Satu menemukan bahwa suhu lebih tinggi dan anomali curah hujan terkait dengan lebih banyak konflik p
+  4.2 §23.9 Harga Pangan, Larangan Ekspor dan Krisis 2007–2008
+    A Krisis harga pangan 2007–2008 menunjukkan bahwa guncangan iklim dapat menjadi peristiwa global melalui pasar alih-alih melalui panen (FAO, 2023). Harg
+    B Krisis harga pangan 2007 dan 2008 adalah saat dunia menemukan bahwa sistem pangannya memiliki kelonggaran lebih sedikit daripada yang dikiranya (FAO, 
+  4.2 §16.7 Dokumen, Uang dan Komunikasi
+    A Dokumen, uang, dan komunikasi adalah butir paling tidak dramatis dalam daftar dan yang menentukan seberapa cepat rumah tangga pulih. KTP, sertifikat t
+    B Dokumen, uang, dan komunikasi adalah tiga hal yang paling sering dilupakan rumah tangga, dan tiga hal yang menentukan kecepatan pemulihannya. Dokumen 
+  4.0 §5.8 Kekeringan, Pangan dan Harga
+    A Panen buruk di negara pengekspor besar mengurangi pasokan, tetapi efek harganya diperbesar ketika pemerintah membatasi ekspor, pedagang mengantisipasi
+    B Kaitan antara kekeringan dan harga pangan pendek, dan kaitan antara harga dan kelaparan lebih pendek. Panen yang gagal di negara pengekspor besar meng
+  4.0 §12.4 Suriah dan Politik Atribusi
+    A Suriah adalah kasus yang atribusinya paling diperdebatkan. Kekeringan 2006–2010 adalah yang terburuk dalam catatan instrumental, dan ia mengungsikan s
+    B Kasus Suriah begitu sering dikutip sehingga perlu dinyatakan secara tepat apa yang didukung bukti dan apa yang tidak. Kelley dan rekan-rekannya memaka
+  4.0 §15.1 Apa Arti Sebenarnya Sebuah Angka Iklim
+    A Pernyataan bahwa 2024 adalah tahun kalender pertama yang lebih dari 1,5 °C di atas level praindustri hanya tepat dalam kaitannya dengan garis dasar, d
+    B Pilihan garis dasar adalah yang paling konsekuensial dan paling jarang dibahas. Angka pemanasan relatif terhadap 1850–1900 menggambarkan perubahan sej
+  4.0 §4.11 Studi Kasus: Musim Panas Eropa 2022
+    A Perkiraan kematian yang diterbitkan di Nature Medicine mengaitkan sekitar 61.700 kematian dengan musim panas itu, dengan angka tertinggi di Italia, Sp
+    B Musim panas 2022 adalah uji besar pertama bagi sistem yang dibangun setelah 2003, dan pembacaan jujur atas hasilnya adalah bahwa sistem itu bekerja se
+  3.9 §4.11 Studi Kasus: Musim Panas Eropa 2022
+    A Respons kebijakannya beragam. Prancis, yang telah membangun rencana panas nasional setelah 2003, mengaktifkan sistem peringatan berkode warna, membuka
+    B Musim panas 2022 adalah uji besar pertama bagi sistem yang dibangun setelah 2003, dan pembacaan jujur atas hasilnya adalah bahwa sistem itu bekerja se
+  3.9 §23.7 Cape Town dan São Paulo: Krisis Air Perkotaan
+    A São Paulo menghadapi krisis serupa pada 2014–2015. Sistem waduk Cantareira, yang memasok sekitar separuh air wilayah metropolitan, turun di bawah 5 pe
+    B Cape Town dan São Paulo adalah dua krisis air perkotaan yang datang melalui jalur berbeda dan diselesaikan dengan cara berbeda. Waduk São Paulo turun 
+  3.9 §19.8 Mineral Kritis dan Rantai Pasok
+    A Pasokan terkonsentrasi. Tiongkok memurnikan sebagian besar litium, kobalt, dan grafit dunia, serta mendominasi manufaktur surya; Republik Demokratik K
+    B Transisi energi adalah transisi material, dan materialnya terkonsentrasi di beberapa tempat. Litium berasal dari segelintir danau garam dan tambang ba
+  3.9 §22.4 Kebakaran: Black Saturday dan Camp Fire
+    A Komisi Kerajaan yang menyusul merekomendasikan pergeseran ke kebijakan pergi lebih awal pada hari-hari bahaya kebakaran ekstrem, dan ke sistem peringa
+    B Kasus kebakaran Australia dan California sama-sama bergantung pada kebijakan evakuasi, dan keduanya menunjuk arah berbeda. Setelah Black Saturday, Kom
+  3.9 §19.4 Penyimpanan, Fleksibilitas dan Jaringan
+    A Biaya baterai lithium-ion turun sekitar 85 persen antara 2010 dan 2023, dan penyimpanan skala jaringan tumbuh cepat, dari beberapa gigawatt menjadi pu
+    B Penyimpanan dan fleksibilitas adalah jawaban atas variabilitas, dan jawabannya menjadi lebih murah lebih cepat daripada perkiraan. Baterai lithium-ion
+  3.8 §7.5 Peternakan dan Pastoralisme
+    A Pastoralisme adalah penghidupan yang dibangun untuk variabilitas, dan ia sedang diuji di luar batasnya. Penggembala memindahkan ternak mengikuti hujan
+    B Pastoralisme adalah sistem pangan yang paling sering disalahpahami kebijakan iklim. Penggembala mengelola variabilitas alih-alih memaksimalkan hasil, 
+  3.8 §3.11 Studi Kasus: Argo dan Laut yang Tersembunyi
+    A Argo mengubahnya dengan desain yang sangat sederhana. Pelampung dijatuhkan dari kapal; ia tenggelam ke kedalaman yang diprogram, hanyut bersama arus, 
+    B Pelampung itu mesin sederhana dengan tugas sulit. Setiap unit hanyut pada kedalaman sekitar satu kilometer, mengubah daya apungnya untuk menyelam ke d
+  3.8 §13.3 Sistem Tenaga Listrik
+    A Sistem listrik gagal dengan cara yang terstratifikasi secara sosial. Ketika Badai Musim Dingin Uri menekan suhu Texas di bawah minus sepuluh derajat C
+    B Sistem listrik rentan pada titik ketika iklim bertemu fisika pembangkitan dan transmisi. Pembangkit termal butuh air pendingin, dan sungai yang terlal
+  3.8 §10.11 Studi Kasus: Musim Badai Atlantik 2017
+    A Musim badai Atlantik 2017 adalah salah satu yang paling merusak dalam catatan. Badai Harvey mendarat di Texas pada Agustus dan tertahan, menjatuhkan l
+    B Total kerusakannya sekitar US$300 miliar, yang hanya sekitar sepertiganya diasuransikan. Celahnya terkonsentrasi di Puerto Rico dan pulau-pulau Karibi
+  3.8 §4.4 Siapa yang Tewas dalam Gelombang Panas
+    A Pola siapa yang meninggal dalam gelombang panas sangat konsisten lintas negara dan dekade. Risiko naik seiring usia, seiring penyakit kardiovaskular d
+    B Pola kematiannya sangat konsisten antarnegeri. Kelebihan terbesar ada pada orang di atas tujuh puluh lima tahun, terutama perempuan yang tinggal sendi
+  3.8 §4.4 Siapa yang Tewas dalam Gelombang Panas
+    A Gelombang panas Chicago pada Juli 1995 adalah studi kanonis (Klinenberg, 2002). Lebih dari 700 orang meninggal dalam lima hari, sebagian besar di ruma
+    B Pola kematiannya sangat konsisten antarnegeri. Kelebihan terbesar ada pada orang di atas tujuh puluh lima tahun, terutama perempuan yang tinggal sendi
+  3.7 §2.2 Gas Rumah Kaca dan Sumbernya
+    A Empat kelompok gas bertanggung jawab atas hampir seluruh pemanasan yang disebabkan manusia. Karbon dioksida menyumbang sekitar tiga perempatnya; ia di
+    B Dua dari empat gas itu jarang dibicarakan publik, dan keduanya penting. Dinitrogen oksida terutama berasal dari pupuk nitrogen dan kotoran ternak, ham
+  3.7 §12.5 Sengketa Air dan Kerja Sama
+    A Itu tidak berarti air bukan sumber ketegangan. Bendungan Grand Ethiopian Renaissance di Nil Biru telah menjadi subjek satu dekade negosiasi antara Mes
+    B Sengketa air lebih sering dikelola daripada diselesaikan, dan catatan sejarahnya lebih kooperatif daripada yang disiratkan berita. Sengketa Nil antara
+  3.7 §7.1 Bagaimana Panas Memengaruhi Tanaman
+    A Efek gabungan pemanasan dan CO2 rumit. CO2 yang lebih tinggi meningkatkan fotosintesis pada tanaman C3 seperti gandum, padi, dan kedelai — efek yang d
+    B Efek panas pada tanaman bersifat non-linear dan berbasis ambang. Fotosintesis mulai menurun di atas suhu optimum yang berbeda menurut tanaman — sekita
+  3.7 §15.8 Prabantahan, Bantahan dan Inokulasi
+    A Prabantahan — memperingatkan orang tentang teknik manipulasi sebelum mereka menemukannya — memiliki bukti yang lebih kuat. Teori inokulasi, yang dikem
+    B Inokulasi bekerja, dan ia bekerja lebih baik sebelum paparan daripada sesudahnya. Teori yang dikembangkan McGuire pada 1960-an menyatakan bahwa dosis 
+  3.6 §2.12 Skenario dan Prediksi Masa Depan: Lintasan Fisik hingga 2100
+    A Garis dasarnya sudah berubah. Dunia telah menghangat sekitar 1,2 °C, permukaan laut naik 20 sampai 25 sentimeter, dan sekitar 1,2 triliun ton karbon d
+    B Asumsi yang mendasari ketiga lintasan berbeda secara mendasar. Lintasan percepatan mengasumsikan bahwa emisi mencapai puncak sebelum 2030, turun seten
+  3.6 §4.7 Panas di Tempat Kerja: Produktivitas dan Tenaga Kerja
+    A Mekanismenya bersifat fisiologis. Di atas sekitar 26 °C bola basah, tubuh harus mengalihkan darah ke kulit untuk membuang panas, yang mengurangi darah
+    B Panas mengurangi kemampuan bekerja sebelum membuat seseorang jatuh sakit. Di atas sekitar 25 °C bola basah, kemampuan tubuh membuang panas lewat kerin
+  3.6 §17.8 Wabah Setelah Bencana
+    A Bencana menciptakan kondisi penyakit menular: populasi mengungsi, air tercemar, tempat berlindung padat, vaksinasi terganggu, dan layanan kesehatan ke
+    B Perubahan iklim memperluas jangkauan penyakit tular vektor. Demam berdarah, yang dibawa nyamuk Aedes, menyebar ke wilayah baru: 2024 mencatat wabah re
+  3.6 §20.12 Skenario dan Prediksi Masa Depan: Kesehatan Mental pada 2050
+    A Garis dasarnya adalah kesenjangan pengobatan. Layanan kesehatan mental kurang didanai dan kurang tenaga di sebagian besar negara, dan celah pengobatan
+    B Skenario kesehatan jiwa 2050 bergantung pada apakah layanannya diintegrasikan sebelum permintaannya datang (Clayton, 2020). Dalam satu skenario, layan
+  3.6 §23.7 Cape Town dan São Paulo: Krisis Air Perkotaan
+    A Krisis Cape Town 2018 membawa kota besar hampir kehabisan air. Setelah tiga tahun kekeringan, level waduk turun ke sekitar 20 persen, dan pejabat bers
+    B Cape Town dan São Paulo adalah dua krisis air perkotaan yang datang melalui jalur berbeda dan diselesaikan dengan cara berbeda. Waduk São Paulo turun 
+  3.6 §20.3 Perubahan Lambat, Kekeringan dan Solastalgia
+    A Perubahan yang lambat menghasilkan jenis tekanan yang berbeda. Kekeringan, salinisasi, desertifikasi, dan erosi pesisir mengikis lanskap dan penghidup
+    B Peristiwa lambat menghasilkan jenis cedera berbeda, yang terakumulasi tanpa momen tunggal untuk berduka. Glenn Albrecht menciptakan istilah solastalgi
+  3.6 §1.9 Cara Bab-Bab Saling Terhubung
+    A Bab 13 sampai 21 membahas respons. Bab-bab itu mencakup infrastruktur, pendidikan, data dan misinformasi, kesiapsiagaan rumah tangga, kesehatan darura
+    B Bab-bab disusun dalam tiga busur. Busur pertama, bab 2 hingga 6, menetapkan garis dasar fisik dan manusia: bagaimana sistem iklim bekerja, bagaimana p
+  3.6 §8.7 Pengasaman dan Deoksigenasi Laut
+    A Pengasaman laut kadang disebut masalah karbon dioksida yang lain, karena ia mengikuti kimia secara langsung alih-alih pemanasan. Karbon dioksida yang 
+    B Pengasaman laut adalah masalah karbon yang lain, dan ia kurang dikenal dibanding pemanasan. Laut telah menyerap sekitar seperempat karbon dioksida ant
+  3.6 §17.2 Panas sebagai Peristiwa Korban Massal
+    A Batas fisiologisnya telah mapan. Suhu bola basah — ukuran yang menggabungkan panas dan kelembapan — sekitar 35 °C merupakan titik ketika orang dewasa 
+    B Panas adalah bahaya iklim paling mematikan di negara berpendapatan tinggi, dan ia membunuh dengan pola yang mudah terlewat. Gelombang panas Eropa 2003
+  3.6 §23.9 Harga Pangan, Larangan Ekspor dan Krisis 2007–2008
+    A Pada 2007 dan 2008, harga pangan dunia naik tajam (FAO, 2023). Harga gandum lebih dari dua kali lipat, harga beras tiga kali lipat, dan jagung serta k
+    B Krisis harga pangan 2007–2008 menunjukkan bahwa guncangan iklim dapat menjadi peristiwa global melalui pasar alih-alih melalui panen (FAO, 2023). Harg
+  3.6 §23.9 Harga Pangan, Larangan Ekspor dan Krisis 2007–2008
+    A Krisis harga pangan 2007–2008 menunjukkan bahwa guncangan iklim dapat menjadi peristiwa global melalui pasar alih-alih melalui panen (FAO, 2023). Harg
+    B Krisis 2007 dan 2008 menghasilkan seperangkat aturan yang seharusnya mencegah pengulangan, dan aturannya diuji pada 2022 dan gagal sebagian. Disiplin 
+  3.6 §23.9 Harga Pangan, Larangan Ekspor dan Krisis 2007–2008
+    A Krisis harga pangan 2007–2008 menunjukkan bahwa guncangan iklim dapat menjadi peristiwa global melalui pasar alih-alih melalui panen (FAO, 2023). Harg
+    B Krisis 2007–2008 menghasilkan seperangkat reformasi yang masih menjadi dasar kebijakan ketahanan pangan. Cadangan Beras Darurat ASEAN Plus Three diben
+  3.6 §12.4 Suriah dan Politik Atribusi
+    A Konflik Suriah sering disebut sebagai perang iklim pertama. Antara 2006 dan 2010, kekeringan parah melanda wilayah pertanian timur laut negara itu, me
+    B Suriah adalah kasus yang atribusinya paling diperdebatkan. Kekeringan 2006–2010 adalah yang terburuk dalam catatan instrumental, dan ia mengungsikan s
+  3.6 §3.4 Titik Kritis dan Perubahan Mendadak
+    A Sebagian bagian sistem iklim tidak merespons secara bertahap. Ia berperilaku seperti jungkat-jungkit yang ditahan tepat melewati titik seimbangnya: do
+    B Tipping point adalah ambang yang di luarnya komponen sistem menata ulang ke keadaan lain, sering tak terbalikkan pada skala waktu manusia. Kandidatnya
+  3.5 §12.11 Studi Kasus: Cekungan Danau Chad
+    A Danau Chad terletak di persimpangan Chad, Niger, Nigeria, dan Kamerun, dan telah menopang permukiman manusia selama ribuan tahun. Pada 1960-an danau i
+    B Konflik telah menewaskan lebih dari 35.000 orang dan mengungsi lebih dari dua juta. Respons militer, yang melibatkan pasukan dari Nigeria, Chad, Niger
+  3.5 §22.4 Kebakaran: Black Saturday dan Camp Fire
+    A Kebakaran Camp di California pada 2018 menghasilkan pola berbeda. Ia bergerak begitu cepat sehingga evakuasi menjadi satu-satunya pilihan, dan kematia
+    B Paradise adalah kasus yang menunjukkan bagaimana pemulihan mereproduksi risiko. Setelah kebakaran 2018 menghancurkan sebagian besar kota, hukum Califo
+  3.5 §2.2 Gas Rumah Kaca dan Sumbernya
+    A Empat kelompok gas bertanggung jawab atas hampir seluruh pemanasan yang disebabkan manusia. Karbon dioksida menyumbang sekitar tiga perempatnya; ia di
+    B Karbon dioksida adalah penyumbang terbesar perubahan neraca energi, tetapi bukan satu-satunya, dan yang lain berperilaku berbeda. Metana punya masa ti
+  3.5 §21.4 Litigasi Iklim
+    A Gugatan terhadap perusahaan juga maju. Pada 2021, pengadilan Belanda memerintahkan Shell mengurangi emisinya 45 persen pada 2030, putusan yang kemudia
+    B Litigasi iklim menghasilkan sedikit putusan yang mengubah kerangka debat, dan masing-masing bersandar pada teori hukum berbeda. Kasus Urgenda di Belan
+  3.5 §22.8 Ekstrem Perkotaan: Chennai, Cape Town dan Seoul
+    A Chennai, Cape Town dan Seoul biasanya diceritakan sebagai kisah terpisah, dan bila dibaca bersama semuanya menggambarkan satu masalah perkotaan: infra
+    B Chennai, Cape Town, dan Seoul adalah tiga kasus air perkotaan yang berbeda iklim dan bertemu dalam tata kelola. Waduk Chennai turun ke satu persen pad
+  3.5 §12.3 Sahel dan Cekungan Danau Chad
+    A Cekungan Danau Chad sering dikutip sebagai kasus iklim-konflik dan kutipannya biasanya terlalu disederhanakan. Danau itu menyusut dramatis sejak 1960-
+    B Cekungan Danau Chad adalah kasus yang paling baik menunjukkan bagaimana tekanan iklim, tekanan demografi, dan pemberontakan dapat saling menguatkan ta
+  3.4 §4.1 Mengukur Panas: Suhu, Kelembapan dan Bola Basah
+    A Termometer di tempat teduh mengukur suhu udara, tetapi tubuh merespons kombinasi suhu, kelembapan, angin, dan radiasi. Indeks panas, yang akrab dari p
+    B Batas teoretis 35 °C bola basah diusulkan oleh Sherwood dan Huber (2010) berdasarkan laju metabolisme saat istirahat. Penelitian laboratorium sejak it
+  3.4 §15.3 Mengukur Konsensus Ilmiah
+    A Lynas dkk. (2021) meninjau 88.125 makalah terkait iklim yang diterbitkan antara 2012 dan 2020 dan menemukan bahwa lebih dari 99,9 persen mendukung kon
+    B Kajian konsensus sering dikutip dan sering disalahpahami. Oreskes memeriksa 928 abstrak pada 2004 dan tidak menemukan satu pun yang membantah posisi k
+  3.4 §19.8 Mineral Kritis dan Rantai Pasok
+    A Mineral kritis adalah kerentanan rantai pasok transisi energi. Panel surya, turbin angin, baterai, dan jaringan membutuhkan litium, kobalt, nikel, tem
+    B Transisi energi adalah transisi material, dan materialnya terkonsentrasi di beberapa tempat. Litium berasal dari segelintir danau garam dan tambang ba
+  3.4 §19.3 Tenaga Angin dan Masalah Variabilitas
+    A Tenaga angin adalah teknologi terbarukan matang lainnya. Kapasitas global melewati 1.000 gigawatt pada 2023, dengan instalasi terbesar di Tiongkok, Am
+    B Tenaga angin adalah terbarukan matang lainnya dan menghadapi masalah berbeda: sumbernya bervariasi dan sering jauh dari permintaan. Angin lepas pantai
+  3.4 §3.4 Titik Kritis dan Perubahan Mendadak
+    A Titik kritis bukan tebing dalam arti biasa; ia ambang ketika sebuah umpan balik mengambil alih dari pemaksaan luar dan melanjutkan perubahan dengan se
+    B Titik kritis adalah elemen sistem yang dapat berubah mendadak setelah ambang terlampaui, dan kesulitannya ambang itu tidak dapat diamati sebelumnya. S
+  3.4 §19.11 Studi Kasus: Program Sistem Surya Rumah Tangga Bangladesh
+    A Pada 1990-an, sebagian besar rumah tangga pedesaan Bangladesh tidak memiliki listrik. Minyak tanah adalah sumber cahaya utama, dan biayanya signifikan
+    B Program sistem surya rumah tangga Bangladesh adalah upaya elektrifikasi lepas jaringan terbesar di dunia dan studi kasus tentang bagaimana institusi m
+  3.4 §18.8 Pembiayaan Risiko Bencana dan Akuntabilitas
+    A Caribbean Catastrophe Risk Insurance Facility, yang didirikan pada 2007, adalah contoh kumpulan regional yang membayar cepat setelah peristiwa yang me
+    B Pembiayaan risiko bencana adalah upaya memindahkan biaya malapetaka dari pascakejadian ke instrumen yang dapat diprediksi. Kumpulan risiko berdaulat, 
+  3.4 §13.5 Transportasi dan Rantai Pasok
+    A Jaringan transportasi membawa tanda tangan iklim tempat ia dibangun. Pada November 2021, sungai atmosfer di British Columbia menghanyutkan sebagian Ja
+    B Adaptasi transportasi biasanya dibingkai sebagai melindungi aset, dan pertanyaan yang lebih penting adalah melindungi akses. Jembatan yang hanyut dapa
+  3.4 §15.11 Studi Kasus: Badai Helene dan Darurat Informasi
+    A Badai Helene mendarat pada 26 September 2024 sebagai badai Kategori 4 di dekat Perry, Florida, lalu bergerak cepat ke pedalaman. Medan anginnya luar b
+    B Badai Helene menghasilkan darurat misinformasi bersamaan dengan darurat banjir. Badai itu mendarat sebagai Kategori 4 di Florida lalu bergerak ke dara
+  3.4 §4.11 Studi Kasus: Musim Panas Eropa 2022
+    A Perkiraan kematian yang diterbitkan di Nature Medicine mengaitkan sekitar 61.700 kematian dengan musim panas itu, dengan angka tertinggi di Italia, Sp
+    B Respons kebijakannya beragam. Prancis, yang telah membangun rencana panas nasional setelah 2003, mengaktifkan sistem peringatan berkode warna, membuka
+  3.3 §7.11 Studi Kasus: Guncangan Beras 2023
+    A Guncangan beras 2023 memperlihatkan bagaimana peristiwa iklim menjadi peristiwa pasar. India, pengekspor beras terbesar, membatasi pengiriman setelah 
+    B Guncangan beras 2023 dihasilkan kombinasi peristiwa cuaca dan keputusan kebijakan, dan keputusan kebijakannya yang menyebabkan sebagian besar kerusaka
+  3.3 §21.4 Litigasi Iklim
+    A Litigasi telah menjadi sistem tata kelola iklim paralel, dan rekam jejaknya campuran dengan cara yang instruktif. Kasus Urgenda di Belanda menetapkan 
+    B Litigasi iklim menghasilkan sedikit putusan yang mengubah kerangka debat, dan masing-masing bersandar pada teori hukum berbeda. Kasus Urgenda di Belan
+  3.3 §1.9 Cara Bab-Bab Saling Terhubung
+    A Enam bab pertama bersifat diagnostik. Bab 1 sampai 3 menetapkan sains fisik dan sistem pengamatan; bab 4 sampai 6 memeriksa panas, air, dan banjir seb
+    B Tiga busur itu juga tiga pertanyaan. Busur diagnostik menjawab apa yang terjadi dan mengapa; busur respons menjawab apa yang dapat dilakukan, oleh sia
+  3.2 §19.7 Teknologi Tepat Guna dan Kapasitas Lokal
+    A Teknologi tepat guna adalah teknologi yang sesuai konteks: terjangkau, dapat diperbaiki, dapat dipelihara dengan keterampilan lokal, dan cocok dengan 
+    B Teknologi tepat guna adalah prinsip bahwa teknologi terbaik adalah yang dapat dipelihara secara lokal, dengan keterampilan dan suku cadang lokal. Pomp
+  3.2 §13.2 Perumahan dan Tempat Berlindung
+    A Perumahan adalah garis pertahanan pertama terhadap iklim, dan juga stok aset terbesar yang dimiliki rumah tangga. Rumah yang dibangun baik melindungi 
+    B Perumahan adalah tempat adaptasi iklim paling personal dan paling kurang diatur. Rumah diharapkan melindungi penghuninya dari panas, dingin, hujan, an
+  3.2 §7.5 Peternakan dan Pastoralisme
+    A Pastoralisme adalah sistem yang beradaptasi dengan variabilitas. Penggembala bergerak bersama hujan, memelihara kawanan campuran dari spesies berbeda,
+    B Pastoralisme adalah penghidupan yang dibangun untuk variabilitas, dan ia sedang diuji di luar batasnya. Penggembala memindahkan ternak mengikuti hujan
+  3.2 §15.4 Ilmu Atribusi
+    A Bidang ini matang dengan cepat. World Weather Attribution, kolaborasi ilmuwan di Eropa dan Amerika Serikat, kini menghasilkan analisis cepat dalam hit
+    B Atribusi telah menjadi layanan praktis di Global Selatan, bukan hanya latihan akademik. World Weather Attribution telah menganalisis gelombang panas d
+  3.2 §10.1 Kerusakan Langsung dan Kerugian Tidak Langsung
+    A Kerusakan langsung adalah apa yang diukur penilai asuransi: bangunan, infrastruktur, kendaraan, dan tanaman. Kerugian tidak langsung adalah apa yang t
+    B Perbedaan antara kerusakan dan kerugian adalah hal pertama yang dipisahkan penilaian ekonomi yang serius. Kerusakan adalah apa yang terjadi pada aset 
+  3.2 §8.7 Pengasaman dan Deoksigenasi Laut
+    A Pengasaman laut kadang disebut masalah karbon dioksida yang lain, karena ia mengikuti kimia secara langsung alih-alih pemanasan. Karbon dioksida yang 
+    B Pengasaman laut adalah masalah terpisah dari pemanasan, dan kimianya lebih sederhana serta lebih pasti. Karbon dioksida larut dalam air laut membentuk
+  3.2 §14.6 Universitas dan Kapasitas Riset
+    A Universitas menghasilkan riset yang menjadi dasar pemahaman iklim, dan melatih profesional yang akan merancang infrastruktur, mengelola air, merencana
+    B Universitas lebih penting karena apa yang dapat mereka ukur daripada karena apa yang mereka ajarkan kepada sarjana. Laporan Penilaian Keenam IPCC meli
+  3.2 §24.2 Jam Pertama, Hari Pertama dan Pekan Pertama
+    A Jam pertama didominasi ketidakpastian, dan persiapan yang paling berguna adalah yang menguranginya. Rumah tangga yang telah menyepakati titik temu, ko
+    B Jam pertama adalah ujian persiapan yang gagal dilalui sebagian besar rumah tangga karena tidak adanya satu keputusan yang dibuat sebelumnya. Riset per
+  3.2 §20.2 Trauma Bencana
+    A Lintasannya penting. Sebagian besar orang pulih dengan waktu dan dukungan, tetapi sebagian kecil mengalami kondisi kronis. Faktor yang memprediksi pem
+    B Bukti longitudinal tentang trauma bencana menunjukkan pola yang terlewat oleh survei potong lintang. Sebagian besar orang yang terpapar peristiwa bera
+  3.2 §23.8 California: Air Tanah dan Kekeringan Panjang
+    A Kekeringan California 2012–2016 adalah salah satu yang paling parah dalam catatan sejarah negara bagian. Level waduk turun, lapisan salju mencapai rek
+    B Kebijakan kekeringan California dibentuk oleh doktrin hukum yang mendahului ilmu iklim. Prior appropriation, prinsip bahwa pengguna pertama yang mengk
+  3.2 §19.9 Efisiensi dan Permintaan
+    A Unit energi termurah adalah yang tidak digunakan. Efisiensi energi — isolasi lebih baik, peralatan lebih efisien, lampu LED, pompa panas, motor efisie
+    B Efisiensi adalah sumber daya yang tidak perlu ditambang, dan ia kronis kurang dibeli. Badan Energi Internasional menyebut efisiensi energi sebagai bah
+  3.2 §22.4 Kebakaran: Black Saturday dan Camp Fire
+    A Kasus kebakaran Australia dan California sama-sama bergantung pada kebijakan evakuasi, dan keduanya menunjuk arah berbeda. Setelah Black Saturday, Kom
+    B Black Saturday dan Kebakaran Camp terpisah sembilan tahun dan setengah dunia, dan keduanya berbagi mekanisme: api yang datang lebih cepat daripada per
+  3.2 §8.4 Hutan Tropis dan Amazon
+    A Hutan tropis menyimpan sekitar setengah karbon dalam vegetasi darat dan menopang sebagian besar keanekaragaman hayati dunia. Mereka juga memengaruhi c
+    B Amazon adalah ekosistem tempat ambang fisik dapat mengubah perubahan bertahap menjadi perubahan mendadak, dan mekanismenya cukup dipahami. Hutan menda
+  3.2 §16.2 Air: Kendala yang Menentukan
+    A Penyimpanan dibatasi ruang dan berat. Air berbobot satu kilogram per liter, sehingga pasokan dua pekan tidak dapat dibawa jauh dan harus disimpan di t
+    B Air adalah kendala yang paling cepat mengakhiri improvisasi, dan angkanya tidak memberi kelonggaran. Standar Sphere menetapkan lima belas liter per or
+  3.2 §22.7 Banjir: Jerman dan Belgia 2021
+    A Banjir Juli 2021 di Jerman barat dan Belgia dimulai sebagai peristiwa meteorologis yang biasa dan berakhir sebagai peristiwa kelembagaan. Sistem tekan
+    B Banjir Lembah Ahr Juli 2021 adalah kasus yang paling jelas memisahkan peringatan dari tindakan (Kreienkamp dkk., 2021). Prakiraan memberi tahu sehari 
+  3.2 §5.4 Sungai di Bawah Tekanan
+    A Sungai Kuning di Tiongkok telah dialokasikan sepenuhnya sejak 1990-an dan kadang gagal mencapai laut; Indus memasok cekungan yang dihuni lebih dari 25
+    B Sungai tertekan dari tiga arah sekaligus: debit berkurang akibat pengambilan di hulu, waktu aliran berubah akibat lelehan salju dan perubahan hujan, s
+  3.2 §12.3 Sahel dan Cekungan Danau Chad
+    A Cekungan Danau Chad adalah kasus paling banyak dikutip, dan ia lebih rumit daripada ringkasannya. Danau itu menyusut dari sekitar 25.000 kilometer per
+    B Cekungan Danau Chad adalah kasus yang paling baik menunjukkan bagaimana tekanan iklim, tekanan demografi, dan pemberontakan dapat saling menguatkan ta
+  3.2 §5.8 Kekeringan, Pangan dan Harga
+    A Kaitan antara kekeringan dan harga pangan berjalan melalui produksi dan ekspektasi. Panen gagal mengurangi pasokan, tetapi efek harganya diperkuat pem
+    B Kaitan antara kekeringan dan harga pangan pendek, dan kaitan antara harga dan kelaparan lebih pendek. Panen yang gagal di negara pengekspor besar meng
+  3.2 §12.4 Suriah dan Politik Atribusi
+    A Suriah adalah kasus yang atribusinya paling diperdebatkan. Kekeringan 2006–2010 adalah yang terburuk dalam catatan instrumental, dan ia mengungsikan s
+    B Suriah adalah kasus tempat atribusi paling diperdebatkan, dan perdebatannya mendidik. Kekeringan parah beberapa tahun antara 2006 dan 2010 memindahkan
+  3.2 §23.5 Suriah: Kekeringan, Pengungsian dan Konflik
+    A Antara 2006 dan 2010, Suriah mengalami kekeringan multi-tahun terburuk dalam catatan instrumental (Kelley dkk., 2015). Curah hujan turun menjadi sebag
+    B Suriah adalah kasus ketika kekeringan, perang, dan kegagalan kebijakan terjerat, dan jeratannya adalah pelajarannya. Antara 2006 dan 2010, negara itu 
+  3.2 §17.11 Studi Kasus: Gelombang Panas Eropa 2003
+    A Pada dua pekan pertama Agustus 2003, sistem tekanan tinggi yang bertahan lama membawa panas luar biasa ke Eropa barat dan tengah. Suhu di Prancis mele
+    B Gelombang panas Eropa 2003 adalah kasus pendiri perencanaan kesehatan-panas, dan masih demonstrasi paling jelas tentang apa yang dapat dan tidak dapat
+  3.2 §19.6 Memasak Bersih dan Energi Rumah Tangga
+    A Sekitar 2,3 miliar orang masih memasak dengan bahan bakar padat — kayu, arang, kotoran hewan, residu tanaman — di api terbuka atau kompor tidak efisie
+    B Memasak adalah bagian transisi energi yang paling jarang dibahas dan paling besar dampaknya bagi kesehatan. Sekitar 2,3 miliar orang masih memasak den
+  3.2 §4.4 Siapa yang Tewas dalam Gelombang Panas
+    A Gelombang panas Chicago pada Juli 1995 adalah studi kanonis (Klinenberg, 2002). Lebih dari 700 orang meninggal dalam lima hari, sebagian besar di ruma
+    B Pola siapa yang meninggal dalam gelombang panas sangat konsisten lintas negara dan dekade. Risiko naik seiring usia, seiring penyakit kardiovaskular d
+  3.2 §23.2 Kelaparan Sahel
+    A Kelaparan Sahel pada 1970-an dan 1980-an menghasilkan salah satu narasi paling berpengaruh dan paling diperdebatkan dalam sejarah lingkungan. Citra gu
+    B Kelaparan Sahel 1970-an dan 1980-an menewaskan sekitar seratus ribu orang pada kekeringan 1968 sampai 1974, dan gambar dari periode itu membentuk cara
+  3.2 §1.10 Membaca dalam Keadaan Darurat
+    A Buku bukanlah rencana darurat. Jika peringatan telah dikeluarkan di tempat Anda berada, instruksi otoritas mengalahkan apa pun yang tercetak di sini, 
+    B Buku ini dapat dipakai pada tiga kecepatan. Dalam dua puluh empat jam sebelum bahaya yang diketahui, bab 24 dan daftar periksa bab 16 adalah satu-satu

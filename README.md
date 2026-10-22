@@ -8,13 +8,13 @@ warming, written for general readers who want the evidence rather than the sloga
 
 | | English | Bahasa Indonesia |
 |---|---|---|
-| PDF | `Surviving_the_Future.pdf` (**411 pp**) | `Surviving_the_Future_ID.pdf` (**432 pp**) |
+| PDF | `Surviving_the_Future.pdf` (**412 pp**) | `Surviving_the_Future_ID.pdf` (**432 pp**) |
 | EPUB | `book/publish/Surviving_the_Future_EN.epub` | `book/publish/Bertahan_Hidup_di_Masa_Depan_ID.epub` |
 | DOCX | `book/publish/Surviving_the_Future_EN.docx` | `book/publish/Bertahan_Hidup_di_Masa_Depan_ID.docx` |
 | Print cover | `book/publish/Surviving_the_Future_EN_cover_print.pdf` | `book/publish/Bertahan_Hidup_di_Masa_Depan_ID_cover_print.pdf` |
-| Words | 199,731 | 166,318 |
-| Cited sources | 145 | 145 |
-| In-text citations | 422 | 376 |
+| Words | 199,787 | 166,362 |
+| References | 145 (130 cited in text) | 145 (124 cited in text) |
+| In-text citations | 402 | 350 |
 
 ## What the book contains
 
@@ -39,7 +39,7 @@ See `book/README.md` for the pipeline, the verification tools, and the typograph
 
 ## Verification
 
-`check_citations.py` (422/376 citations, 0 problems), `fact_check.py` (0 failures),
+`check_citations.py` (402/350 citations, 0 problems), `fact_check.py` (0 failures),
 `data_consistency.py`, `audit_production.py` (both PDFs clean: metadata, 327-entry outline, no blank
 pages or margin overflow, embedded fonts), `audit_redundancy.py` (0 paragraph pairs scoring ≥ 5.0 in
 either edition). Gate reports: `GATE2_REPORT.md` … `GATE6_REPORT.md`.

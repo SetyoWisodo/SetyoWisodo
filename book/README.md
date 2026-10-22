@@ -12,26 +12,28 @@ Case Study and a Future Scenarios section that states what would falsify its own
 
 | | EN | ID |
 |---|---|---|
-| Pages (A4, 12 pt Tinos) | **411** | **432** |
-| Words (`wc -w`) | **199,731** | **166,318** |
-| In-text citations | 422 | 376 |
-| References | 145 | 145 |
+| Pages (A4, 12 pt Tinos) | **412** | **432** |
+| Words (`wc -w`) | **199,787** | **166,362** |
+| In-text citations | 402 | 350 |
+| References | 145 (130 cited in text) | 145 (124 cited in text) |
 | PDF outline entries | 327 | 327 |
 
 ## Ready-to-publish files (`publish/`)
 
 | File | Purpose |
 |---|---|
-| `Surviving_the_Future.pdf` (repo root) | A4 reading/print PDF, 411 pp |
+| `Surviving_the_Future.pdf` (repo root) | A4 reading/print PDF, 412 pp |
 | `Surviving_the_Future_ID.pdf` (repo root) | A4 reading/print PDF, 432 pp |
 | `*_cover_print.pdf` | Full paperback wrap (back + spine + front), 300 dpi, 0.125 in bleed, spine sized from the page count |
 | `*_cover_front.jpg` | Front cover, for ebook and marketplaces |
 | `*.epub` | EPUB 3 ebook (nav + NCX, XHTML tables, cover page) |
 | `*.docx` | Editable manuscript, Times New Roman 12 pt, justified, 12.7 mm first-line indent |
-| `build_report.json` | Page count, spine width and cover size per edition |
+| `*_interior.pdf` | Byte-identical copy of the A4 interior PDF (412 / 432 pp) for uploading with the cover |
+| `build_report.json` | Page count, trim, bleed, spine width, cover size, dpi and file paths per edition |
 
-The interior PDFs are A4 with 30 mm margins; `book/publish/*_interior.pdf` holds an older 6 × 9 in
-build from the retired Typst pipeline and should not be used.
+The interior PDFs are A4 with 30 mm margins, and `book/publish/*_interior.pdf` are byte-identical
+copies of the same files, kept beside the cover and ebook so a printer can take the interior and the
+wraparound from one folder.
 
 ## Building
 
@@ -43,9 +45,15 @@ pip install --break-system-packages fpdf2 pyphen pymupdf python-docx pillow
 python gen_book.py && python gen_book_id.py      # book.md, book_id.md
 python check_citations.py && python fact_check.py
 python render_book.py && python render_book_id.py  # the two A4 PDFs
+cp Surviving_the_Future.pdf book/publish/Surviving_the_Future_EN_interior.pdf
+cp Surviving_the_Future_ID.pdf book/publish/Bertahan_Hidup_di_Masa_Depan_ID_interior.pdf
 python make_publish.py                             # EPUB + DOCX
 python make_cover.py                               # print covers + build_report.json
 ```
+
+`make_cover.py` reads the page count from the interior PDFs, so run the copy step before it. If those
+files are missing it prints a warning and falls back to the page count stored in the script, which may
+be out of date by a page or two.
 
 ## Verification tools
 

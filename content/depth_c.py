@@ -128,13 +128,16 @@ EXTRA = {
             "rather than concentrated in a place that can be photographed.",
         ],
         "10.2": [
-            "Heat reduces economic output through labour productivity, and the effect is large enough "
-            "to be visible in national accounts. Studies using industry-level data find that output "
-            "declines on hot days in sectors that require outdoor or non-cooled indoor work, and that "
-            "the effect is largest in countries with hot climates and limited air conditioning. "
-            "Global estimates suggest that heat already costs several percentage points of GDP in "
-            "parts of South Asia and sub-Saharan Africa, and that the loss will grow as temperatures "
-            "rise.",
+            "The effect is also visible in national accounts. Studies using industry-level data find "
+            "that output declines on hot days in sectors that require outdoor or non-cooled indoor "
+            "work, and that the effect is largest in countries with hot climates and limited air "
+            "conditioning. A cross-country analysis of temperature and economic production found that "
+            "output rises with temperature only up to an optimum of about 13 \u00b0C in average annual "
+            "temperature and falls sharply above it, so that warming does not simply slow growth "
+            "everywhere but moves it from hot countries to cool ones (Burke et al., 2015). Estimates "
+            "for the hottest regions suggest that heat already costs several percentage points of GDP "
+            "in parts of South Asia and sub-Saharan Africa, and that the loss will grow as "
+            "temperatures rise.",
         ],
         "10.3": [
             "Food prices transmit climate shocks through the economy in ways that are difficult to "

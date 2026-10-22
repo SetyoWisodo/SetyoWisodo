@@ -26,7 +26,7 @@ BOOKS = [
     {
         "front": "book/publish/Surviving_the_Future_EN_cover_front.jpg",
         "out_pdf": "book/publish/Surviving_the_Future_EN_cover_print.pdf",
-        "pages": 411,
+        "pages": 412,
         "title": "SURVIVING THE FUTURE",
         "subtitle": "Crisis, Climate, and Human Resilience",
         "author": "SETYO WISODO",
@@ -97,6 +97,26 @@ ACCENT = (232, 163, 61)
 
 def px(inches):
     return int(round(inches * DPI))
+
+
+
+INTERIORS = {
+    "en": "book/publish/Surviving_the_Future_EN_interior.pdf",
+    "id": "book/publish/Bertahan_Hidup_di_Masa_Depan_ID_interior.pdf",
+}
+
+
+def page_count(path, fallback):
+    """Jumlah halaman nyata dari PDF interior; pakai angka cadangan bila belum ada."""
+    try:
+        import pymupdf
+        n = len(pymupdf.open(path))
+        if n:
+            return n
+        print("PERINGATAN: %s kosong; memakai %d halaman" % (path, fallback))
+    except Exception:
+        print("PERINGATAN: %s belum ada; memakai %d halaman" % (path, fallback))
+    return fallback
 
 
 def wrap(draw, text, font, width):
@@ -224,12 +244,22 @@ def build(cfg):
 def main():
     report = {}
     for cfg in BOOKS:
-        w, h, spine = build(cfg)
         key = "en" if "EN" in cfg["out_pdf"] else "id"
-        report[key] = {"pages": cfg["pages"], "spine_in": round(spine, 3),
-                       "cover_in": [round(w, 3), round(h, 3)]}
-        print("%s: cover %.2f x %.2f in, spine %.3f in -> %s"
-              % (key, w, h, spine, cfg["out_pdf"]))
+        pages = page_count(INTERIORS[key], cfg["pages"])
+        cfg = dict(cfg, pages=pages)
+        w, h, spine = build(cfg)
+        report[key] = {
+            "pages": pages,
+            "trim_in": [TRIM_W, TRIM_H],
+            "bleed_in": BLEED,
+            "spine_in": round(spine, 3),
+            "cover_in": [round(w, 3), round(h, 3)],
+            "dpi": DPI,
+            "interior_pdf": INTERIORS[key],
+            "cover_pdf": cfg["out_pdf"],
+        }
+        print("%s: %d pp, cover %.2f x %.2f in, spine %.3f in -> %s"
+              % (key, pages, w, h, spine, cfg["out_pdf"]))
     with open("book/publish/build_report.json", "w") as fh:
         json.dump(report, fh, indent=2)
 

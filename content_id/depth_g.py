@@ -71,16 +71,14 @@ EXTRA = {
     # ------------------------------------------------------------------ 10
     10: {
         "10.2": [
-            "Produktivitas tenaga kerja adalah saluran yang membuat panas mencapai ekonomi paling "
-            "langsung, dan Organisasi Buruh Internasional memperkirakan stres panas akan menghabiskan "
-            "setara lebih dari dua persen total jam kerja pada 2030, dengan pertanian dan konstruksi "
-            "menyumbang sebagian besar kehilangan itu. Perkiraan tersebut konservatif karena hanya "
-            "menghitung kapasitas bekerja, bukan keputusan yang diambil perusahaan ketika panas "
-            "membuat kerja luar ruangan tidak ekonomis. Studi lapangan di Asia Selatan dan Tenggara "
-            "menemukan pekerja melambat, beristirahat lebih lama dan menggeser jam, dan bahwa upah "
-            "borongan memindahkan biaya perlambatan itu kepada pekerja. Panas karena itu adalah "
-            "guncangan ekonomi regresif yang muncul di statistik produktivitas sebagai masalah "
-            "nasional.",
+            "Bukti lapangan menunjukkan bagaimana kerugian itu sampai ke rumah tangga, bukan hanya "
+            "ke total nasional. Studi di Asia Selatan dan Tenggara menemukan pekerja melambat, "
+            "beristirahat lebih lama, dan menggeser jam, dan bahwa upah borongan memindahkan biaya "
+            "perlambatan itu kepada pekerja, sehingga kerugiannya menjadi guncangan ekonomi regresif "
+            "yang muncul di statistik sebagai masalah nasional. Perkiraan resmi konservatif karena "
+            "alasan kedua: yang dihitung hanya kapasitas bekerja, bukan keputusan perusahaan ketika "
+            "panas membuat kerja luar ruangan tidak ekonomis, dan bukan pekerjaan informal yang tidak "
+            "pernah masuk ke data jam kerja sama sekali.",
         ],
         "10.4": [
             "Risiko berdaulat adalah tempat perubahan iklim menjadi pertanyaan harga uang. Lembaga "

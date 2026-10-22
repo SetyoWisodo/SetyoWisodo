@@ -41,8 +41,6 @@ RULES = [
     ("volcanic aerosols, solar variability", "gunung berapi, dan variasi Matahari", "Haigh, 2020"),
     ("Researchers call these tipping elements", "Para peneliti menyebutnya elemen titik kritis",
      "Steffen et al., 2018"),
-    ("meta-analysis by Hsiang, Burke and Miguel", "Meta-analisis yang banyak dikutip oleh Hsiang",
-     "Hsiang & Burke, 2014"),
     ("a third of crop calories are fed to animals", "sepertiga kalori tanaman digunakan untuk pakan",
      "FAO, 2022"),
     ("The 'hockey stick' controversy", "'hockey stick' pada 2000-an", "Mann et al., 1999"),

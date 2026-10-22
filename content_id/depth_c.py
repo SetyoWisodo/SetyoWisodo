@@ -129,13 +129,16 @@ EXTRA = {
             "difoto.",
         ],
         "10.2": [
-            "Panas mengurangi keluaran ekonomi melalui produktivitas kerja, dan efeknya cukup besar "
-            "untuk terlihat dalam neraca nasional. Studi dengan data tingkat industri menemukan bahwa "
-            "keluaran menurun pada hari panas di sektor yang memerlukan kerja luar ruangan atau dalam "
-            "ruangan tanpa pendinginan, dan bahwa efeknya terbesar di negara beriklim panas dengan "
-            "pendingin udara terbatas. Perkiraan global menunjukkan panas sudah menelan biaya beberapa "
-            "poin persen PDB di sebagian Asia Selatan dan Afrika sub-Sahara, dan kerugiannya akan tumbuh "
-            "seiring suhu naik.",
+            "Efeknya juga terlihat dalam neraca nasional. Studi dengan data tingkat industri menemukan "
+            "bahwa keluaran menurun pada hari panas di sektor yang memerlukan kerja luar ruangan atau "
+            "dalam ruangan tanpa pendinginan, dan bahwa efeknya terbesar di negara beriklim panas dengan "
+            "pendingin udara terbatas. Analisis lintas negara tentang suhu dan produksi ekonomi "
+            "menemukan bahwa keluaran naik seiring suhu hanya sampai optimum sekitar 13 \u00b0C suhu "
+            "tahunan rata-rata dan turun tajam di atasnya, sehingga pemanasan tidak sekadar "
+            "memperlambat pertumbuhan di mana-mana tetapi memindahkannya dari negara panas ke negara "
+            "dingin (Burke dkk., 2015). Perkiraan untuk kawasan terpanas menunjukkan panas sudah "
+            "menelan biaya beberapa poin persen PDB di sebagian Asia Selatan dan Afrika sub-Sahara, "
+            "dan kerugiannya akan tumbuh seiring suhu naik.",
         ],
         "10.3": [
             "Harga pangan menyalurkan guncangan iklim ke ekonomi dengan cara yang sulit diprediksi dan "

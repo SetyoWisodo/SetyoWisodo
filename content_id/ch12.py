@@ -55,7 +55,10 @@ CH = {
                 "temuan yang mapan dan lebih merupakan perdebatan panjang tentang identifikasi, dan kesimpulannya "
                 "menyempit seiring membaiknya metode.",
 
-                "Temuan itu berpengaruh dan diperdebatkan. Kritikus, terutama Buhaug (2015), "
+                "Hasil generasi pertama itu dirangkum dalam meta-analisis yang banyak dikutip oleh Hsiang, "
+                "Burke dan Miguel (2013), yang kemudian diperluas Hsiang dan Burke (2014) menjadi sintesis "
+                "yang lebih luas tentang konflik dan stabilitas sosial. Temuan itu berpengaruh dan "
+                "diperdebatkan. Kritikus, terutama Buhaug (2015), "
                 "berargumen bahwa studi-studi itu menderita bias seleksi, bahwa mereka menggabungkan "
                 "bentuk kekerasan yang sangat berbeda, dan bahwa ukuran efeknya kecil relatif "
                 "terhadap faktor politik dan ekonomi. Karya berikutnya, termasuk tinjauan di Nature "

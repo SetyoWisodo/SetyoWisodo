@@ -322,6 +322,23 @@ ID = [
      "Sistemnya tampaknya bekerja setelah 2003. Ketika Eropa mengalami"),
     ("Makna dana itu sebagian simbolis. Ia mengakui",
      "Maknanya sebagian simbolis. Ia mengakui"),
+    # --- Gate 5, sisa terakhir: satu pembuka bab yang dipakai delapan kali ---
+    ('Bab ini memberi perhatian khusus pada pertanyaan yang menentukan apakah gelombang panas menjadi bencana: siapa yang terpapar, siapa yang diperingatkan, dan siapa yang memiliki tempat yang lebih dingin untuk dituju.',
+     'Yang menentukan apakah gelombang panas menjadi bencana adalah siapa yang terpapar, siapa yang diperingatkan, dan siapa yang memiliki tempat yang lebih dingin untuk dituju.'),
+    ('Bab ini memberi perhatian khusus pada tanaman yang memberi makan sebagian besar umat manusia — gandum, jagung, dan beras — dan pada petani kecil yang menanam sebagian besar pangan di negara berpenghasilan rendah.',
+     'Yang menjadi perhatian di sini adalah tanaman yang memberi makan sebagian besar umat manusia — gandum, jagung, dan beras — dan petani kecil yang menanam sebagian besar pangan di negara berpenghasilan rendah.'),
+    ('Bab ini memberi perhatian khusus pada tiga sistem yang sangat rentan sekaligus sangat penting: terumbu karang, hutan tropis, dan permafrost.',
+     'Tiga sistem yang sangat rentan sekaligus sangat penting adalah terumbu karang, hutan tropis, dan permafrost.'),
+    ('Bab ini memberi perhatian khusus pada perbedaan antara efek langsung, yang relatif mudah dikaitkan dengan gelombang panas atau banjir, dan efek tidak langsung, yang bekerja melalui ekosistem, sistem pangan, dan infrastruktur sehingga lebih sulit diukur tetapi sering lebih besar.',
+     'Bab ini membedakan efek langsung, yang relatif mudah dikaitkan dengan gelombang panas atau banjir, dari efek tidak langsung, yang bekerja melalui ekosistem, sistem pangan, dan infrastruktur sehingga lebih sulit diukur tetapi sering lebih besar.'),
+    ('Bab ini memberi perhatian khusus pada tempat-tempat yang tidak dapat beradaptasi di tempat — pulau kecil, delta rendah, dan padang penggembalaan yang rawan kekeringan — dan pada kerangka hukum serta politik yang menentukan apakah perpindahan dikelola atau kacau.',
+     'Bab ini menyoroti tempat-tempat yang tidak dapat beradaptasi di tempat — pulau kecil, delta rendah, dan padang penggembalaan yang rawan kekeringan — serta kerangka hukum dan politik yang menentukan apakah perpindahan dikelola atau kacau.'),
+    ('Bab ini memberi perhatian khusus pada peran lembaga, karena kekeringan yang sama dapat menghasilkan kelaparan di satu negara, protes di negara lain, dan tidak apa-apa di negara ketiga.',
+     'Peran lembaga menjadi penentu, karena kekeringan yang sama dapat menghasilkan kelaparan di satu negara, protes di negara lain, dan tidak apa-apa di negara ketiga.'),
+    ('Bab ini memberi perhatian khusus pada saling ketergantungan sistem, karena kegagalan satu sistem sering menyebabkan kegagalan sistem lain, dan pada pertanyaan siapa yang membayar ketangguhan ketika manfaatnya diperoleh selama beberapa dekade.',
+     'Bab ini juga menyoroti saling ketergantungan sistem, karena kegagalan satu sistem sering menyebabkan kegagalan sistem lain, dan pertanyaan siapa yang membayar ketangguhan ketika manfaatnya diperoleh selama beberapa dekade.'),
+    ('Bab ini memberi perhatian khusus pada perbedaan antara informasi dan pemahaman, pada peran guru, dan pada risiko pendidikan iklim menjadi indoktrinasi atau ritual yang dangkal.',
+     'Bab ini membedakan informasi dari pemahaman, dan membahas peran guru serta risiko pendidikan iklim menjadi indoktrinasi atau ritual yang dangkal.'),
 ]
 
 
