@@ -169,14 +169,13 @@ EXTRA = {
     # ------------------------------------------------------------------ 12
     12: {
         "12.1": [
-            "The quantitative literature on climate and conflict began with a pair of influential "
-            "studies and has been arguing with itself ever since. Burke and colleagues estimated in "
-            "2009 that warming could increase the risk of civil war in Africa by roughly fifty per "
-            "cent by 2030, and Hsiang, Burke and Miguel concluded in 2013 that a one-standard-"
-            "deviation increase in temperature raised interpersonal violence by about four per cent "
-            "and intergroup conflict by about two. Later work using better data and pre-registered "
-            "designs found smaller effects and more heterogeneity, and the current consensus is that "
-            "climate acts as a risk factor that matters most where institutions are already weak.",
+            "Part of the disagreement between those strands is a disagreement about what counts as conflict. "
+            "A riot, a civil war and a homicide rate are different phenomena measured by different agencies "
+            "with different thresholds, and a coefficient estimated on one is not directly comparable with a "
+            "coefficient estimated on another. Studies that pool them find larger and more consistent effects "
+            "than studies that keep them apart, which suggests that some of the apparent contradiction is an "
+            "artefact of aggregation. The practical implication for anyone using this literature is to ask "
+            "which outcome was measured before asking how large the effect was.",
         ],
         "12.3": [
             "The Lake Chad basin illustrates how a slow environmental change becomes a security "
@@ -678,13 +677,15 @@ EXTRA = {
             "forecast but a list of names and a person who will knock on the door.",
         ],
         "22.4": [
-            "Paradise is the case that shows how recovery reproduces risk. After the 2018 fire "
-            "destroyed most of the town, California law required rebuilding to current codes, and the "
-            "cost of compliance made it impossible for many former residents to return. Those who "
-            "did rebuild faced insurance premiums that reflected the new risk, and the town's "
-            "population remains far below its pre-fire level. The case is often described as a "
-            "failure of recovery, and it is more accurately described as a market revealing that the "
-            "place had become uninsurable at the density it previously had.",
+            "Paradise illustrates the second disaster that follows the first, which is the loss of the place "
+            "itself. Rebuilding to current codes is the correct policy and it raises the cost of return, so "
+            "the households that come back are the ones with insurance, savings and patience, and the ones "
+            "that do not are the ones who rented, worked in the town's services, or had already spent their "
+            "savings on temporary housing. The rebuilt community is smaller and older than the one that "
+            "burned, and the services that made it viable — the school, the clinic, the grocery — close when "
+            "the population falls below the threshold that sustains them. Recovery policy therefore decides "
+            "who lives in a place as surely as the hazard decides whether they can, and the decision is "
+            "usually made by default rather than deliberately.",
         ],
         "22.6": [
             "Pakistan's post-flood fiscal position illustrates how a climate disaster becomes a debt "

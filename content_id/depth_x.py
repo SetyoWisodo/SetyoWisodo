@@ -48,7 +48,15 @@ EXTRA = {
             "Chicago 1995 dan Eropa 2003 adalah studi pendiri mortalitas panas dan keduanya menunjuk arah yang sama dari sudut berbeda. Di Chicago, lebih dari tujuh ratus orang meninggal dalam lima hari, dan kematiannya terkonsentrasi pada orang tua yang tinggal sendiri di lingkungan yang jaringan sosialnya menipis; respons kota lambat, dan kepolisian serta kamar mayat kewalahan. Di Eropa, tujuh puluh ribu orang meninggal di dua belas negara dalam dua pekan, dan sistem yang seharusnya memperingatkan, mengangkut, serta merawat korban tidak terhubung satu sama lain. Keduanya kegagalan koneksi, bukan kegagalan prakiraan."
         ],
         "22.3": [
-            "Kubah panas Pasifik Barat Laut Juni 2021 adalah jenis peristiwa yang berbeda dan mengubah cara ilmuwan memikirkan ekstrem. Lytton, desa sekitar 250 orang di British Columbia, mencatat 49,6 °C, hampir lima derajat di atas rekor nasional sebelumnya; marginnya begitu besar sehingga sebagian ilmuwan awalnya meragukan pengukurannya. Studi atribusi menemukan peristiwa itu hampir mustahil tanpa pemanasan akibat manusia, dan membuatnya setidaknya seratus lima puluh kali lebih mungkin. Korban manusianya mengikuti infrastruktur: sebagian besar rumah di wilayah itu tanpa penyejuk, dan yang meninggal ditemukan di dalam ruangan, di bangunan yang dirancang menahan panas."
+            "Yang membuat peristiwa Pacific Northwest mematikan bukan puncaknya melainkan perumahannya. Stok "
+            "bangunan wilayah itu dirancang untuk musim panas yang sejuk, yang dalam praktik berarti jendela "
+            "besar menghadap barat, isolasi tipis, dan hampir tanpa penyejuk, dan panasnya bertahan sepanjang "
+            "malam alih-alih mereda setelah gelap. Kematian terkonsentrasi di dalam ruangan, di apartemen "
+            "yang dibangun untuk menahan hangat pada musim dingin dan tidak dapat melepasnya pada musim "
+            "panas, dan di antara orang yang tinggal sendiri. Peristiwa ini kini dipakai dalam literatur "
+            "sebagai kasus paling jelas tentang bahaya yang belum pernah perlu direncanakan negara kaya, "
+            "yaitu kategori yang akan mencakup sebagian besar dekade berikutnya dalam buku ini: bahaya tiba "
+            "di tempat yang infrastrukturnya dioptimalkan untuk iklim yang sudah tidak ada."
         ],
         "22.4": [
             "Black Saturday dan Kebakaran Camp terpisah sembilan tahun dan setengah dunia, dan keduanya berbagi mekanisme: api yang datang lebih cepat daripada peringatan. Di Victoria pada 2009, 173 orang meninggal pada hari ketika muka api bergerak dengan kecepatan yang membuat evakuasi mematikan, dan komisi kerajaan yang menyusul menulis ulang pendekatan Australia terhadap peringatan kebakaran dan anjuran pergi lebih awal. Di California pada 2018, delapan puluh lima orang meninggal di kota yang terbakar dalam beberapa jam, sebagian besar warga lanjut usia atau penyandang disabilitas yang tidak dapat mengungsi."
@@ -72,7 +80,14 @@ EXTRA = {
             "Kasus dalam bab ini berbagi empat ciri yang lebih penting daripada perbedaannya. Pertama, dalam setiap kasus bahayanya berada dalam rentang yang telah diproyeksikan ilmu iklim, yang berarti kegagalannya kegagalan kesiapsiagaan, bukan kegagalan pengetahuan. Kedua, dalam setiap kasus kematiannya terkonsentrasi pada orang yang kerentanannya sudah diketahui sebelumnya: tua, terisolasi, disabilitas, miskin. Ketiga, dalam setiap kasus respons yang berhasil bersifat antisipatif dan lokal, bukan pusat dan reaktif. Keempat, hampir di setiap kasus reformasi yang menyusul dipicu penyelidikan publik, yang menunjukkan mekanisme belajarnya bersifat politik."
         ],
         "case": [
-            "Lytton adalah kasus terkecil dalam buku ini dan salah satu yang paling mendidik. Desa itu mencatat 49,6 °C pada 29 Juni 2021, suhu tertinggi yang pernah diukur di Kanada, dan rekor sebelumnya 45 °C pada 1937. Marginnya begitu jauh di luar catatan setempat sehingga pengukurannya dipertanyakan sebelum dikonfirmasi, dan peristiwanya kemudian terbukti setidaknya seratus lima puluh kali lebih mungkin karena pemanasan akibat manusia. Dua hari kemudian, kebakaran menghancurkan sebagian besar desa. Penduduknya telah diperingatkan soal panas tetapi tidak soal api, dan evakuasinya menyisakan beberapa menit untuk pergi."
+            "Dua hari setelah rekor itu, kebakaran menyapu desa dan menghancurkan sebagian besarnya, dan "
+            "urutannya adalah bagian yang penting bagi kesiapsiagaan. Panas telah mengeringkan vegetasi, "
+            "angin yang sama yang mendorong panas juga menggerakkan api, dan perintah evakuasi datang setelah "
+            "api memotong jalan keluar. Komunitas sebesar itu tidak memiliki manajer darurat purnawaktu, dan "
+            "sistem peringatan provinsi yang seharusnya menjangkau setiap ponsel sudah diuji tetapi belum "
+            "pernah dipakai pada skala itu. Kasus ini biasanya dikisahkan sebagai cerita tentang rekor suhu; "
+            "ia lebih berguna sebagai cerita tentang dua bahaya yang datang pada pekan yang sama dan "
+            "menemukan satu rencana yang hanya mampu menangani salah satunya."
         ],
         "future": [
             "Ekstrem perkotaan 2050 akan ditentukan perpotongan tiga tren: bahaya yang lebih sering, penduduk kota yang tumbuh, dan mutu tata kelola kota. Kota yang berinvestasi pada rencana aksi panas, drainase, peringatan dini, dan perlindungan sosial dapat menurunkan kematian meski bahayanya meningkat; kota yang melebar ke dataran banjir dan bergantung pada respons darurat tidak dapat. Skenarionya berbeda terutama pada variabel ketiga, karena dua yang pertama sudah banyak ditentukan. Indikatornya: porsi penduduk yang tercakup rencana panas, standar drainase jaringan, jumlah hari di atas 35 °C, dan jarak warga ke pusat pendinginan."

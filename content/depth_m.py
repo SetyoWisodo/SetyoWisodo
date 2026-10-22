@@ -4,7 +4,15 @@
 EXTRA = {
     4: {
         "4.1": [
-            "Two thermometers can read the same temperature and describe completely different days. What matters physiologically is the combination of heat and humidity, because the body sheds heat mainly by evaporating sweat, and evaporation slows as the air fills with water vapour. Wet-bulb temperature captures that combination: it is the lowest temperature a surface can reach by evaporating water into the air, and it is measured by wrapping a thermometer in a wet cloth and moving air across it. A dry 45 °C afternoon in a desert may have a wet-bulb reading in the low twenties, survivable in shade with water; a humid 35 °C afternoon in a tropical city may approach the theoretical limit at which a healthy adult cannot cool at all. Instruments used in workplaces, such as the wet-bulb globe thermometer, add radiant heat and air movement to the same idea."
+            "The measure has become useful to city governments for a practical reason: it can be computed "
+            "from the temperature and humidity that a weather station already records, so a heat action plan "
+            "can set its trigger in wet-bulb terms without new equipment. That matters because the trigger is "
+            "where most plans fail. A threshold set in dry-bulb temperature will fire on hot afternoons that "
+            "harm nobody and stay silent on humid days that kill, and the error runs in the direction that "
+            "produces no complaints and no learning. Setting the threshold in wet-bulb terms forces the plan "
+            "to be calibrated to the physiology of the people it protects, and it makes the trigger "
+            "reviewable, which is the property that lets a city improve it after a bad summer instead of "
+            "discovering the flaw in the mortality statistics."
         ],
         "4.2": [
             "The cascade begins with blood. To move heat from the core to the skin, the heart increases output and redirects blood away from the gut and kidneys, which is why heat illness often presents as fainting, nausea or kidney injury rather than as heatstroke. Sweating loses water and salt, thickening the blood and raising the risk of clots; dehydration reduces blood volume, so the heart must work harder at the moment it has less to work with. Older people begin with less reserve, and many take drugs — diuretics, beta blockers, antidepressants — that interfere with sweating or with the cardiovascular response. Acclimatisation is real but slow: a week or two of gradual exposure increases sweat rate and lowers salt loss, which is why the first hot spell of a season kills more than a later one of equal temperature."

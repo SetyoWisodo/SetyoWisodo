@@ -460,13 +460,15 @@ EXTRA = {
             "leave home.",
         ],
         "case": [
-            "The 2022 European heat was also a test of the warning systems built after 2003, and the "
-            "results were mixed but instructive. France activated its heat plan, opened cool rooms and "
-            "used a register of vulnerable residents to make thousands of check-in calls; Spain and "
-            "Italy recorded high mortality but also implemented local measures. Ballester et al. (2023) "
-            "estimated about 61,700 heat-related deaths, a figure that would be considered catastrophic "
-            "in any other context and that nonetheless represents a substantial decline in deaths per "
-            "degree of heat compared with 2003.",
+            "The 2022 summer was the first large test of the systems built after 2003, and the honest reading "
+            "of the result is that they worked partially. France activated its plan, opened cool rooms and "
+            "used its register of vulnerable residents to make thousands of check-in calls; Spain and Italy "
+            "recorded high mortality and implemented local measures later than they might have. The published "
+            "estimate, discussed above, was lower per degree of heat than in 2003, which is the signature of "
+            "adaptation: the same temperature produced fewer deaths because the institutions had changed. The "
+            "residue is the part that matters for the rest of this book, because a summer that kills "
+            "thousands of people in countries with universal health care and functioning warning systems is a "
+            "reasonable estimate of what a hotter summer will do in countries with neither.",
         ],
     },
 }

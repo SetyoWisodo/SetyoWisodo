@@ -44,12 +44,15 @@ CH = {
             "num": "12.1",
             "title": "What the Research Shows",
             "paras": [
-                "The modern literature on climate and conflict began with a series of quantitative "
-                "studies that found a statistical relationship between temperature and violence. A "
-                "widely cited meta-analysis by Hsiang, Burke and Miguel (2013) reported that each "
-                "standard deviation increase in temperature was associated with a 14 per cent "
-                "increase in intergroup conflict and a 4 per cent increase in interpersonal violence, "
-                "across studies covering many countries and periods.",
+                "The field became quantitative when two things arrived at once: global data sets of civil "
+                "conflict and gridded climate reconstructions that could be matched to them. That combination "
+                "allowed researchers to ask whether years or places that were unusually warm or dry also saw more "
+                "violence, and the first generation of studies answered yes across many settings. The method "
+                "carried an obvious weakness, because a correlation between temperature and conflict across "
+                "countries can be produced by poverty, institutions or geography rather than by heat, and the "
+                "argument since then has been about how to separate those channels. The literature is therefore "
+                "less a settled finding than a long argument about identification, and its conclusions have "
+                "narrowed as the methods improved.",
 
                 "The finding was influential and contested. Critics, notably Buhaug (2015), argued "
                 "that the studies suffered from selection bias, that they aggregated very different "

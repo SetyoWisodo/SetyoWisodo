@@ -48,7 +48,15 @@ EXTRA = {
             "Chicago 1995 and Europe 2003 are the founding studies of heat mortality and they point in the same direction from different angles. In Chicago, more than seven hundred people died in five days, and the deaths were concentrated among older people living alone in neighbourhoods where the social fabric had thinned; the city's response was slow, and the police and the morgue were overwhelmed. In Europe, seventy thousand people died across twelve countries in two weeks, and the systems that should have warned, transported and treated the victims were not connected to each other. Both events were a failure of connection rather than of forecasting, which is why both produced reforms in warning, outreach and hospital protocol rather than in meteorology."
         ],
         "22.3": [
-            "The Pacific Northwest heat dome of June 2021 was a different kind of event and it changed the way scientists think about extremes. Lytton, a village of about 250 people in British Columbia, recorded 49.6 °C, nearly five degrees above the previous national record; the margin was so large that some scientists initially questioned the measurement. Attribution studies found that the event would have been virtually impossible without human-caused warming, and that it was made at least a hundred and fifty times more likely. The human toll followed the infrastructure: most homes in the region had no air conditioning, and the people who died were found indoors, in buildings designed to retain heat."
+            "What made the Pacific Northwest event lethal was not the peak but the housing. The region's "
+            "building stock was designed for mild summers, which in practice means large west-facing windows, "
+            "little insulation and almost no air conditioning, and the heat persisted through the night "
+            "rather than relenting after dark. The deaths were concentrated indoors, in apartments that had "
+            "been built to retain warmth in winter and could not shed it in summer, and among people who "
+            "lived alone. The event is now used in the literature as the clearest case of a hazard that a "
+            "wealthy country had never needed to plan for, which is the category that most of this book's "
+            "later decades will fall into: the danger arrives in a place whose infrastructure was optimised "
+            "for a climate that no longer exists."
         ],
         "22.4": [
             "Black Saturday and the Camp Fire are separated by nine years and half a world, and they share a mechanism: a fire that arrives faster than the warning can travel. In Victoria in 2009, 173 people died on a day when the fire front moved at speeds that made evacuation lethal, and the royal commission that followed rewrote Australia's approach to fire warnings and to the advice to leave early. In California in 2018, eighty-five people died in a town that burned in a few hours, most of them older or disabled residents who could not evacuate. Both cases show that the margin between a survivable event and a catastrophe is often a matter of minutes and of whether the people at risk can move."
@@ -63,7 +71,15 @@ EXTRA = {
             "The Ahr valley flood of July 2021 is the case that most clearly separates a warning from an action. Forecasts gave a day of notice, the meteorological service issued warnings, and yet 134 people died in one district and more than 180 across Germany and Belgium. The inquiry found that the warnings were general, that local authorities did not translate them into an evacuation of the narrow valleys, and that the phone alert system had not been used. The case has become the reference for European reform of civil protection, because it showed that the technical capacity to forecast is not the same as the institutional capacity to act."
         ],
         "22.8": [
-            "Chennai, Cape Town and Seoul are three urban water cases that differ in climate and converge in governance. Chennai's reservoirs fell to one per cent in 2019 after a failed monsoon and decades of encroachment on the lakes that once recharged the aquifer; Cape Town's dams fell to crisis levels in 2018 and the city rationed water to fifty litres per person per day; Seoul's floods in 2022 exposed the inequality of housing in semi-basement flats. Each city responded with a mix of supply, demand and infrastructure, and each discovered that the binding constraint was not the volume of water available but the speed at which institutions could change behaviour."
+            "The three cities are usually compared on their hazards, and the more useful comparison is on "
+            "their maintenance budgets. Chennai's reservoirs failed in a year when the monsoon also failed, "
+            "but the loss of the lakes that once recharged the aquifer had been accumulating for decades, and "
+            "each of those decades contained a decision to permit construction on a floodplain. Cape Town's "
+            "response to its drought was a tariff and a pressure regime that reduced demand by roughly half "
+            "within two years, which is evidence that a city can change behaviour faster than it can build a "
+            "dam. Seoul's floods were a housing failure rather than a drainage failure, and the plan to phase "
+            "out semi-basement flats was the recognition that the cheapest adaptation was to stop housing "
+            "people below the water line."
         ],
         "22.9": [
             "Compound and cascading events are the category that the single-hazard framework handles worst. A heatwave that coincides with a drought produces fires that produce smoke that produces health emergencies; a hurricane that knocks out the grid disables the water pump that would have suppressed the fire; a flood that closes the port delays the fuel that the generators need. The probability of any one component is low, and the probability of the combination is lower, but the consequence is much larger than the sum, which is why risk models that treat hazards independently systematically understate the tail. The practical response is to map the dependencies rather than the hazards, and to test the system against combinations rather than against single shocks."
@@ -72,7 +88,14 @@ EXTRA = {
             "The cases in this chapter share four features that matter more than their differences. First, in every case the hazard was within the range that the climate science had projected, which means the failures were failures of preparedness rather than of knowledge. Second, in every case the deaths were concentrated among people whose vulnerability was known in advance: the old, the isolated, the disabled, the poor. Third, in every case the response that worked was anticipatory and local rather than central and reactive. Fourth, in almost every case the reform that followed was triggered by a public inquiry, which suggests that the mechanism of learning is political rather than technical."
         ],
         "case": [
-            "Lytton is the smallest case in this book and one of the most instructive. The village recorded 49.6 °C on 29 June 2021, the highest temperature ever measured in Canada, and the previous record had been 45 °C set in 1937. The margin was so far outside the local record that the measurement was questioned before it was confirmed, and the event was subsequently found to have been made at least a hundred and fifty times more likely by human-caused warming. Two days later, a wildfire destroyed most of the village. The population had been warned about heat but not about the fire, and the evacuation left residents with minutes to leave."
+            "Two days after the record, a fire swept through the village and destroyed most of it, and the "
+            "sequence is the part that matters for preparedness. The heat had dried the vegetation, the same "
+            "wind that pushed the heat also drove the fire, and the evacuation order came after the fire had "
+            "already cut the exits. A community of that size has no full-time emergency manager, and the "
+            "provincial alert system that was supposed to reach every phone had been tested but never used at "
+            "that scale. The case is usually told as a story about a temperature record; it is more useful as "
+            "a story about two hazards arriving in the same week and finding a single plan that could only "
+            "handle one."
         ],
         "future": [
             "Urban extremes in 2050 will be determined by the intersection of three trends: more frequent hazards, growing urban populations, and the quality of urban governance. Cities that invest in heat action plans, drainage, early warning and social protection can reduce deaths even as the hazards intensify; cities that expand into floodplains and rely on emergency response cannot. The scenarios differ mainly in the third variable, because the first two are largely determined and the third is a choice. The data worth tracking are the share of the population covered by a heat plan, the drainage standard of the sewer network, the number of days above 35 °C, and the proportion of residents within reach of a cooling centre or a shelter."

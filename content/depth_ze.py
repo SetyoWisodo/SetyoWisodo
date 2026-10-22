@@ -191,7 +191,16 @@ EXTRA = {
             "What survival requires, in the end, is a memory as well as a plan. The communities that have lived with a hazard for generations carry an oral record of the events that their institutions were built to prevent, and the record is a form of preparedness that no agency can supply. The Japanese markers that record the height of past tsunamis, the flood marks on the walls of European towns and the stories that grandparents tell are all part of the same archive. The risk is that the memory fades as the population moves and the event recedes, which is why the drill and the monument are not ceremonies but instruments of institutional memory."
         ],
         "case": [
-            "The Bangladeshi cyclone programme is the clearest demonstration in the record that preparedness can be built at scale, and the programme's own history shows how much of it was political will. After the 1970 cyclone and the 1991 cyclone, which killed an estimated 138,000 people, the government and its partners built a network of raised shelters, a volunteer system that moves people before the surge and a warning service that reaches the villages by megaphone. The shelters are maintained by the communities that use them, and the volunteers are trained and retrained. When Amphan arrived in 2020, the system held, and the deaths were in the dozens."
+            "What distinguishes the programme is not the shelters but the maintenance and the drills. A "
+            "raised shelter that has not been repaired is a building, not a refuge, and the programme's "
+            "shelters are maintained by the communities that use them, which gives those communities an "
+            "interest in their condition and a claim on their use. The volunteers are trained and retrained "
+            "rather than appointed once, and the warning chain is tested every season, so that the megaphone "
+            "announcement arrives from someone the village already knows. The system also learned to evacuate "
+            "earlier and further inland than the storm-surge maps strictly required, because the experience "
+            "of repeated cyclones taught the operators that a marginal call is cheaper than a late one. None "
+            "of that is expensive relative to the losses it prevents, and all of it depends on a budget line "
+            "that a government has to protect in the years when nothing happens."
         ],
     },
 }

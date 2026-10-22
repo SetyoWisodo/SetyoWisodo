@@ -34,7 +34,15 @@ EXTRA = {
             "Polycentric governance is the academic name for a system in which many centres of decision-making coexist and coordinate without a single authority. It sounds like a description of chaos and it is often the opposite, because redundancy is a form of resilience: a city with a strong mayor, active neighbourhood associations, a functioning utility and an engaged private sector can respond even if one of them fails. The condition for it to work is that the centres share information and accept a common standard, which is why the most successful examples are built around a technical protocol — a flood warning, a building code, a data standard — rather than around a political hierarchy. Learning is the output that matters: a system that reviews its failures and changes its practice is worth more than one that is perfectly organised and never learns."
         ],
         "case": [
-            "The Ahr valley flood of July 2021 is a case about the gap between a warning and an action. Forecasts gave a day of notice that extreme rainfall was coming, and warnings were issued, but the messages were general and the local authorities did not translate them into an evacuation of the narrow valleys where the water would funnel. In the Ahrweiler district alone, 134 people died; across Germany and Belgium the toll exceeded 180, and the damage ran into tens of billions of euros. The subsequent inquiries focused on the last mile: whether the warning reached the right people, in language they understood, early enough to act, and whether anyone had the authority to order an evacuation."
+            "The Ahr valley flood is the case that separates a forecast from a warning, and a warning from an "
+            "action. The meteorological service did its part: the models showed the rainfall a day in advance "
+            "and the alerts were issued. What failed was the translation of a regional alert into a local "
+            "decision, in valleys where the water rises within hours and where a general message about heavy "
+            "rain does not tell a household whether to leave. The inquiries that followed concentrated on "
+            "three questions that recur in almost every failure of this kind: whether the warning named the "
+            "places that would flood, whether it reached people who were asleep or at work, and whether any "
+            "single official had the authority to order an evacuation without waiting for a higher level of "
+            "government."
         ],
         "future": [
             "The governance of 2050 will be judged by whether it can make a decision quickly in a system that has many centres and no single authority. The scenarios differ mainly in trust and in capacity: a society in which people believe the warning, the compensation and the building code can adapt at a fraction of the cost of one in which they do not. The figures to monitor are the ones that are hard to fake: the share of local governments with a funded disaster budget, the time between a forecast and a public warning, the proportion of reconstruction contracts that are published, and the level of trust in public institutions measured by ordinary surveys."

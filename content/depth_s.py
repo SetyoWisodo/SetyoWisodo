@@ -28,7 +28,14 @@ EXTRA = {
             "Security institutions have begun to treat climate as a planning assumption rather than an environmental issue. Ministries of defence map which installations are exposed to flooding and heat, which operations are affected by water scarcity, and which regions are likely to require humanitarian support. The framing is contested, because a security framing can justify spending on borders rather than on adaptation, and because it can securitise migration in ways that harm the people it claims to protect. The more defensible version of the argument is narrower: climate change increases the demand for disaster response, peacekeeping and humanitarian logistics, and those capabilities take years to build."
         ],
         "12.9": [
-            "Food prices are the best-documented link between climate and political instability, and the mechanism is straightforward. A price spike reduces real income for urban households, which are politically concentrated and easy to mobilise, and the grievance can attach to whatever symbol of the regime is closest. The 2007–2008 rice and wheat price spike coincided with riots in more than thirty countries, and the 2010–2011 spike coincided with the protests that became the Arab Spring. The correlation is not proof of causation, and the political context determined the outcome, but the pattern is consistent enough that food price monitoring is now part of early warning for political risk as well as for hunger."
+            "The reason food prices are treated as a security variable rather than a welfare one is that the "
+            "transmission is fast and the affected population is concentrated. A staple that doubles in price "
+            "transmits to the household budget within days, and urban households that spend half their income "
+            "on food have no buffer to absorb it, which is why the political consequences arrive before the "
+            "nutritional ones are visible in any survey. Countries with functioning social protection can "
+            "convert a price shock into a budget cost; countries without it convert the same shock into a "
+            "political one. That is the channel through which a drought in one hemisphere becomes a riot in "
+            "another, and it is why food policy and fiscal policy are the same conversation."
         ],
         "12.10": [
             "Prevention is cheaper than response and harder to finance, because it produces nothing visible. The measures that reduce conflict risk are the same ones that build adaptive capacity: secure land tenure, functioning local government, water infrastructure, social protection that does not exclude young men, and a justice system that settles disputes over pasture and water before they become violent. Early warning systems that combine rainfall, vegetation, prices and local reporting can anticipate the moment at which a drought becomes a crisis. Peacebuilding and climate adaptation are usually financed by different institutions with different timelines, which is why the integration of the two remains more rhetorical than operational."

@@ -553,14 +553,14 @@ EXTRA = {
             "menjadikannya peristiwa politik.",
         ],
         "23.4": [
-            "Somalia 2011 dan 2022 menawarkan perbandingan yang pembedanya sebagian besar "
-            "operasional. Pada 2011, peringatan diterbitkan berbulan-bulan sebelum deklarasi "
-            "kelaparan, tetapi akses ke wilayah yang dikuasai al-Shabaab dibatasi, respons donor "
-            "lambat, dan sekitar seperempat juta orang meninggal, separuhnya anak di bawah lima "
-            "tahun. Pada 2022, kekeringan serupa menghasilkan respons kemanusiaan yang jauh lebih "
-            "besar sebelum kelaparan dideklarasikan, termasuk transfer tunai dan dukungan ternak yang "
-            "disalurkan organisasi lokal, dan hasil terburuk dihindari di banyak daerah. Kontrasnya "
-            "adalah bukti bahwa tindakan dini bekerja ketika dibiayai dan ketika akses lokal ada.",
+            "Deklarasi kelaparan adalah tindakan teknis dengan konsekuensi politik, dan ambang teknisnya "
+            "sengaja konservatif. Sistem IPC menuntut bukti kekurangan ekstrem, malnutrisi akut, dan kematian "
+            "sebelum mengklasifikasikan suatu fase sebagai kelaparan, dan persyaratan itu dirancang mencegah "
+            "alarm palsu dengan biaya alarm yang terlambat. Karena ambangnya harus dilampaui, deklarasi "
+            "secara struktural datang setelah kerugian yang seharusnya dicegahnya, dan itulah kritik yang "
+            "paling sering diajukan terhadap sistem ini. Beberapa lembaga kini mengusulkan pemicu antisipatif "
+            "yang membayar berdasarkan prakiraan, bukan berdasarkan bukti kematian, sehingga uang bergerak "
+            "sebelum ambangnya terlampaui.",
         ],
         "23.5": [
             "Kekeringan Suriah menjadi kasus uji bagi argumen 'iklim sebagai pengganda ancaman', dan "

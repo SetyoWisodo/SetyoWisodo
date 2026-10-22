@@ -67,12 +67,15 @@ EXTRA = {
             "efek rebound.",
         ],
         "5.7": [
-            "Sistem air perkotaan kehilangan porsi yang mencolok dari apa yang disalurkannya. Air non-"
-            "pendapatan — air yang dipompa tetapi tidak pernah ditagih, karena kebocoran, pencurian, "
-            "atau kesalahan meter — rata-rata sekitar 30 persen secara global, dan melebihi 50 persen di "
-            "sebagian kota. Menguranginya sering sumber pasokan baru termurah, karena airnya sudah "
-            "dipompa. Kota yang berinvestasi dalam deteksi kebocoran, pengelolaan tekanan, dan "
-            "meteran telah menunda atau menghindari kebutuhan waduk baru yang mahal.",
+            "Hambatan kelembagaannya jarang bersifat teknis. Utilitas yang menjual air per volume kehilangan "
+            "pendapatan ketika memperbaiki kebocorannya, sehingga program efisiensi yang berhasil dapat "
+            "meninggalkannya dengan biaya lebih tinggi dan pemasukan lebih kecil — insentif terbalik yang "
+            "harus dikoreksi regulator secara eksplisit. Kota yang paling jauh menekan kehilangan biasanya "
+            "mengubah struktur tarifnya pada saat yang sama, melepaskan pendapatan dari volume terjual atau "
+            "membiarkan utilitas menyimpan sebagian penghematannya, dan pelajarannya berlaku untuk hampir "
+            "setiap tindakan adaptasi yang menghemat uang dengan mengurangi permintaan. Tindakan itu membayar "
+            "dirinya secara fisik dan tidak membayar lembaga yang harus menjalankannya, kecuali ada yang "
+            "merancang insentifnya.",
         ],
         "5.8": [
             "Kaitan antara kekeringan dan harga pangan berjalan melalui produksi dan ekspektasi. Panen "
@@ -333,13 +336,14 @@ EXTRA = {
             "memperkuat, itulah sebabnya menangani satu sambil mengabaikan yang lain cenderung gagal.",
         ],
         "8.1": [
-            "Garis dasar keanekaragaman hayati lebih buruk daripada dugaan kebanyakan orang. Living "
-            "Planet Index, yang melacak populasi vertebrata terpantau, melaporkan penurunan rata-rata "
-            "sekitar 69 persen antara 1970 dan 2018 (WWF, 2022); Penilaian Global IPBES menemukan bahwa "
-            "sekitar satu juta spesies terancam punah, banyak dalam hitungan dekade (IPBES, 2019); dan "
-            "sekitar 75 persen permukaan daratan serta 66 persen lautan telah berubah secara signifikan "
-            "akibat aktivitas manusia. Perubahan iklim adalah satu tekanan di antara beberapa, dan ia "
-            "berinteraksi dengan yang lain alih-alih bekerja sendiri.",
+            "Konsekuensinya bagi argumen bab ini bukan angkanya melainkan apa yang dilakukannya pada titik "
+            "acuan. Target konservasi biasanya ditetapkan terhadap garis dasar terkini, yang berarti setiap "
+            "generasi mewarisi dunia yang sedikit lebih kosong dan mengukur kerugiannya terhadap itu. "
+            "Mekanismenya paling mudah dilihat pada perikanan, ketika definisi stok sehat direvisi ke bawah "
+            "seiring hilangnya ikan besar, dan ia bekerja pada hutan, padang rumput, serta tanah. Garis dasar "
+            "yang bergerak tidak dapat berfungsi sebagai target, itulah sebabnya indeks semacam ini lebih "
+            "berguna sebagai laju daripada sebagai tingkat: pertanyaannya bukan berapa yang tersisa melainkan "
+            "seberapa cepat ia pergi.",
         ],
         "8.2": [
             "Spesies bergerak, dan mereka bergerak ke atas serta ke arah kutub pada laju yang terukur "
@@ -377,12 +381,14 @@ EXTRA = {
             "dikelola.",
         ],
         "8.6": [
-            "Ekosistem air tawar kehilangan keanekaragaman hayati lebih cepat daripada sistem darat "
-            "maupun laut. Sungai, danau, dan lahan basah menutupi sebagian kecil permukaan planet tetapi "
-            "menopang porsi spesies yang tidak proporsional, dan mereka terpengaruh bendungan, "
-            "pengambilan air, polusi, spesies invasif, dan pemanasan sekaligus. Living Planet Index untuk "
-            "spesies air tawar melaporkan penurunan rata-rata sekitar 83 persen sejak 1970, yang paling "
-            "tajam di antara semua bioma.",
+            "Yang membuat penurunan air tawar berbeda dari yang lain adalah bahwa ia direkayasa. Habitat "
+            "darat sebagian besar hilang karena konversi, yang setidaknya terlihat di peta, sedangkan habitat "
+            "sungai hilang karena bangunan yang sengaja dibuat dan dapat sengaja dibongkar. Bendungan memecah "
+            "sungai menjadi rangkaian kolam, memblokir migrasi yang dibutuhkan banyak ikan untuk "
+            "menyelesaikan daur hidupnya, dan menjebak sedimen yang seharusnya membangun kembali delta di "
+            "hilir. Pembongkaran bendungan di Eropa dan Amerika Utara dalam dua dekade terakhir adalah bukti "
+            "paling jelas bahwa kerugian itu dapat dipulihkan bila ada kemauan politik, dan ikannya kembali "
+            "lebih cepat daripada yang diperkirakan model.",
         ],
         "8.7": [
             "Pengasaman laut kadang disebut masalah karbon dioksida yang lain, karena ia mengikuti kimia "

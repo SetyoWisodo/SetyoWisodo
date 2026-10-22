@@ -34,7 +34,16 @@ EXTRA = {
             "Communicating without despair is a design problem, and the evidence is counter-intuitive. Messages that lead with catastrophe produce disengagement in most audiences, because a threat that feels overwhelming produces avoidance rather than action; messages that lead with solutions can produce complacency. What works is a combination: a clear statement of the risk, a specific action that the audience can take, and a realistic acknowledgement of uncertainty. The messenger matters as much as the message, which is why local and trusted voices outperform national campaigns. The most effective communication treats the audience as capable adults who are entitled to the full picture, including the parts that are frightening."
         ],
         "case": [
-            "The Camp Fire destroyed the town of Paradise in a few hours on 8 November 2018, killing eighty-five people and destroying nearly nineteen thousand structures. The mental health consequences were studied for years afterwards, and the findings describe a trajectory that is common to fire disasters. In the first year, rates of post-traumatic stress and depression were high across the population, not only among those who had lost homes. As time passed, the burden shifted to the people whose recovery stalled: those who could not rebuild, those whose insurance was inadequate, those who had moved away from their support networks. The community that was rebuilt was smaller, older and more anxious than the one that burned, and the psychological recovery followed the housing recovery rather than the reverse."
+            "The mental health consequences were studied for years afterwards, and the findings describe a "
+            "trajectory that is common to fire disasters. In the first year, rates of post-traumatic stress "
+            "and depression were high across the population, not only among those who had lost homes. As time "
+            "passed, the burden shifted to the people whose recovery stalled: those who could not rebuild, "
+            "those whose insurance was inadequate, those who had moved away from their support networks. The "
+            "community that was rebuilt was smaller, older and more anxious than the one that burned, and the "
+            "psychological recovery followed the housing recovery rather than the reverse. That sequence is "
+            "the reason the mental-health literature on disasters keeps arriving at the same policy "
+            "conclusion, which is that the fastest way to treat the trauma of a displaced population is to "
+            "end its displacement."
         ],
         "future": [
             "The mental health future described in this chapter depends less on the climate than on the services and the social fabric that receive it. In one scenario, mental health is integrated into primary care and disaster planning, community networks are strong, and the burden is managed even as the hazards increase. In another, services remain vertical and underfunded, repeated events exhaust the population, and the burden accumulates invisibly in rates of substance use, domestic violence and suicide. The signals that matter are the treatment gap, the number of mental health workers per hundred thousand people, and the availability of psychosocial support in disaster response. Each is measurable, and each is determined by decisions taken before the event."

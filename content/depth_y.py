@@ -13,7 +13,15 @@ EXTRA = {
             "Ethiopia in 1984 and 1985 is the case that produced the entitlement theory of famine, and the theory changed how the world responds. Amartya Sen's argument was that famines occur when people lose the ability to command food through their entitlements — through their own production, their labour, their assets or transfers — rather than when food is absent from the market. In Ethiopia, food was being exported from the affected regions while people starved, and the government's response was shaped by a war and by a policy of resettlement that did not serve the people it moved. The death toll was estimated at about one million, and the crisis produced the first serious international system of early warning and food aid."
         ],
         "23.4": [
-            "Somalia in 2011 and again in 2022 shows how much has changed and how much has not. In 2011, the United Nations declared famine in two regions of southern Somalia after two consecutive failed rainy seasons, and the eventual toll was estimated at about 258,000, half of them children under five. The warnings had been issued months in advance, and the response was constrained by the access restrictions imposed by an armed group and by the reluctance of donors to fund a response in a conflict zone. In 2022, a fifth consecutive failed season produced a much larger humanitarian operation and a lower death toll, which suggests that early action works when access allows it."
+            "The difference between the two episodes was operational, and the detail is the lesson. In 2022 "
+            "the humanitarian system began distributing cash and supporting livestock before any famine was "
+            "declared, using local organisations that already had access to the affected districts, and the "
+            "appeals were funded earlier and more fully than in 2011. The sequence matters because the "
+            "indicators that predict famine — livestock prices, terms of trade for pastoralists, admissions "
+            "for malnutrition — were visible in both episodes months before the emergency peaked. What "
+            "changed was not the information but the willingness to act on it while the outcome was still "
+            "uncertain, which is the same constraint that the finance chapters of this book describe in a "
+            "different vocabulary."
         ],
         "23.5": [
             "Syria is the case where a drought, a war and a policy failure are tangled together, and the tangling is the lesson. Between 2006 and 2010, the country experienced its worst multi-year drought in the instrumental record, and hundreds of thousands of farming families moved to the cities. The government's response favoured irrigated agriculture with groundwater, which depleted the aquifer and rewarded the connected, while the smallholders who depended on rain-fed farming received little support. The drought did not cause the war, and it did contribute to the grievances and the displacement that the war exploited. The case is a warning about how a defensible attribution can be turned into a misleading headline in either direction."

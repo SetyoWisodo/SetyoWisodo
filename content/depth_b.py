@@ -66,12 +66,14 @@ EXTRA = {
             "rather than returned to the environment — a phenomenon economists call the rebound effect.",
         ],
         "5.7": [
-            "Urban water systems lose a remarkable share of what they supply. Non-revenue water — water "
-            "that is pumped but never billed, because of leaks, theft or metering errors — averages "
-            "around 30 per cent globally, and exceeds 50 per cent in some cities. Reducing it is often "
-            "the cheapest source of new supply, because the water is already being pumped. Cities that "
-            "have invested in leak detection, pressure management and metering have delayed or avoided "
-            "the need for expensive new reservoirs.",
+            "The institutional obstacle is rarely the engineering. A utility that sells water by volume loses "
+            "revenue when it repairs its leaks, so a successful efficiency programme can leave it with higher "
+            "costs and a smaller income, which is a perverse incentive that regulators have had to correct "
+            "explicitly. The cities that have cut losses furthest have usually changed the tariff structure "
+            "at the same time, decoupling revenue from volume sold or allowing the utility to keep part of "
+            "the saving, and the lesson generalises to almost every adaptation measure that saves money by "
+            "reducing demand. The measure pays for itself in physical terms and does not pay for the "
+            "institution that has to carry it out, unless someone designs the incentive.",
         ],
         "5.8": [
             "The link between drought and food prices runs through both production and expectations. A "
@@ -331,13 +333,14 @@ EXTRA = {
             "to fail.",
         ],
         "8.1": [
-            "The biodiversity baseline is worse than most people assume. The Living Planet Index, which "
-            "tracks monitored populations of vertebrates, reports an average decline of about 69 per "
-            "cent between 1970 and 2018 (WWF, 2022); the IPBES Global Assessment found that around one "
-            "million species are threatened with extinction, many within decades (IPBES, 2019); and "
-            "around 75 per cent of the land surface and 66 per cent of the ocean have been "
-            "significantly altered by human activity. Climate change is one pressure among several, and "
-            "it is interacting with the others rather than acting alone.",
+            "The consequence for the argument of this chapter is not the number itself but what it does to "
+            "the reference point. Conservation targets are usually set against a recent baseline, which means "
+            "that each generation inherits a slightly emptier world and measures its own losses against that. "
+            "The mechanism is easiest to see in fisheries, where the definition of a healthy stock has been "
+            "revised downward as the large fish disappeared, and it operates in forests, grasslands and soils "
+            "as well. A baseline that moves cannot function as a target, which is why an index of this kind "
+            "is more useful as a rate than as a level: the question that matters is not how much remains but "
+            "how fast it is going.",
         ],
         "8.2": [
             "Species are moving, and they are moving uphill and poleward at rates that are measurable "
@@ -375,12 +378,14 @@ EXTRA = {
             "why permafrost is treated as a tipping element rather than a manageable source.",
         ],
         "8.6": [
-            "Freshwater ecosystems are losing biodiversity faster than either terrestrial or marine "
-            "systems. Rivers, lakes and wetlands cover a small fraction of the planet's surface but "
-            "support a disproportionate share of species, and they are affected by dams, abstraction, "
-            "pollution, invasive species and warming at the same time. The Living Planet Index for "
-            "freshwater species reports an average decline of about 83 per cent since 1970, the steepest "
-            "of any biome.",
+            "What makes the freshwater decline different from the others is that it is engineered. "
+            "Terrestrial habitat is lost mostly to conversion, which is at least visible on a map, while "
+            "river habitat is lost to structures that are deliberately built and can be deliberately removed. "
+            "A dam fragments a river into a series of pools, blocks the migration that many fish require in "
+            "order to complete their life cycle, and traps the sediment that would otherwise rebuild the "
+            "delta downstream. The removal of dams in Europe and North America over the past two decades is "
+            "the clearest evidence that the loss is reversible where the political will exists, and the fish "
+            "return faster than the models predicted.",
         ],
         "8.7": [
             "Ocean acidification is sometimes called the other carbon dioxide problem, because it "

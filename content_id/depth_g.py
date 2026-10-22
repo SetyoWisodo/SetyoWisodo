@@ -105,14 +105,15 @@ EXTRA = {
             "pratinjau adaptasi iklim di negara kaya.",
         ],
         "10.7": [
-            "Biaya kelambanan telah diperkirakan berkali-kali, dan perkiraannya membesar seiring "
-            "membaiknya metodologi. Studi 2024 di Nature oleh Kotz dan rekan-rekannya memproyeksikan "
-            "kerugian iklim dapat mencapai sekitar tiga puluh delapan triliun dolar per tahun pada "
-            "2050 dengan tren emisi sekarang, setara bagian besar pendapatan global, dan bahwa "
-            "kerugiannya tidak proporsional menimpa negara tropis dan berpendapatan rendah. Perkiraan "
-            "sebelumnya lebih rendah karena mengabaikan titik kritis, efek produktivitas dan kerugian "
-            "yang tak terwujud. Implikasi kebijakannya bukan bahwa angkanya presisi melainkan bahwa "
-            "rentang perkiraan yang masuk akal telah bergerak jauh di atas biaya bertindak.",
+            "Perkiraan biaya telah berkembang karena metode ekonominya berubah, bukan karena iklimnya berubah "
+            "lebih cepat daripada yang diperkirakan. Generasi pertama menghitung kerusakan pada sektor yang "
+            "mudah dihargai — pertanian, energi, infrastruktur — dan mengabaikan produktivitas tenaga kerja, "
+            "kesehatan, migrasi, dan hilangnya jasa ekosistem, yang justru merupakan bagian terbesar. "
+            "Generasi berikutnya memasukkan dampak pada pertumbuhan, bukan hanya pada tingkat keluaran, dan "
+            "itulah yang membuat angkanya membesar: kerugian yang menekan investasi selama beberapa dekade "
+            "lebih besar daripada kerugian yang mengurangi keluaran satu tahun. Perdebatan yang jujur karena "
+            "itu bukan tentang angka mana yang benar melainkan tentang apa yang dihitung, dan perkiraan yang "
+            "tidak menyebut cakupannya tidak dapat dibandingkan dengan perkiraan lain.",
         ],
         "10.9": [
             "Instrumen keuangan untuk ketahanan telah berlipat tanpa menyelesaikan masalah intinya. "
@@ -171,15 +172,13 @@ EXTRA = {
     # ------------------------------------------------------------------ 12
     12: {
         "12.1": [
-            "Literatur kuantitatif tentang iklim dan konflik dimulai dengan sepasang kajian "
-            "berpengaruh dan sejak itu berdebat dengan dirinya sendiri. Burke dan rekan-rekannya "
-            "memperkirakan pada 2009 bahwa pemanasan dapat menaikkan risiko perang sipil di Afrika "
-            "sekitar lima puluh persen pada 2030, dan Hsiang, Burke serta Miguel menyimpulkan pada 2013 "
-            "bahwa kenaikan suhu satu simpangan baku menaikkan kekerasan interpersonal sekitar empat "
-            "persen dan konflik antarkelompok sekitar dua persen. Karya kemudian dengan data lebih "
-            "baik dan desain terdaftar menemukan efek lebih kecil dan lebih heterogen, dan konsensus "
-            "kini adalah bahwa iklim bertindak sebagai faktor risiko yang paling penting di tempat "
-            "institusinya sudah lemah.",
+            "Sebagian perselisihan antarkelompok itu adalah perselisihan tentang apa yang dihitung sebagai "
+            "konflik. Kerusuhan, perang sipil, dan tingkat pembunuhan adalah fenomena berbeda yang diukur "
+            "lembaga berbeda dengan ambang berbeda, dan koefisien yang ditaksir pada yang satu tidak dapat "
+            "langsung dibandingkan dengan koefisien pada yang lain. Studi yang menggabungkannya menemukan "
+            "efek lebih besar dan lebih konsisten daripada studi yang memisahkannya, yang menunjukkan "
+            "sebagian pertentangan itu artefak agregasi. Implikasi praktisnya bagi siapa pun yang memakai "
+            "literatur ini adalah menanyakan hasil apa yang diukur sebelum menanyakan sebesar apa efeknya.",
         ],
         "12.3": [
             "Cekungan Danau Chad menggambarkan bagaimana perubahan lingkungan yang lambat menjadi "

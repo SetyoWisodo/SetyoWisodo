@@ -190,12 +190,13 @@ EXTRA = {
             "atas perlindungan, dan memiliterisasi masalah yang solusinya sebagian besar sipil.",
         ],
         "12.9": [
-            "Kaitan antara harga pangan dan ketidakstabilan politik adalah salah satu jalur yang paling "
-            "baik terdokumentasi. Lonjakan harga 2007–2008 terkait kerusuhan di lebih dari 30 negara, dan "
-            "lonjakan 2010–2011 bertepatan dengan Arab Spring. Karya kuantitatif menemukan bahwa "
-            "guncangan harga pangan menaikkan probabilitas kerusuhan, terutama di negara dengan "
-            "perlindungan sosial lemah dan populasi urban yang bergantung pada bahan pokok impor, itulah "
-            "sebabnya kebijakan pangan juga kebijakan keamanan.",
+            "Mekanisme yang mengubah gagal panen menjadi lonjakan harga global berjalan melalui kebijakan, "
+            "bukan cuaca. Ketika eksportir besar membatasi atau melarang ekspor untuk melindungi konsumennya "
+            "sendiri, importir kehilangan pasokan dan menawar apa yang tersisa, dan pembatasan yang diambil "
+            "tiap pemerintah secara defensif sendirian menghasilkan hasil kolektif yang tidak diinginkan "
+            "siapa pun. Episode 2007 dan 2008 mengikuti pola itu dengan rapat, dan pelajaran yang diambil "
+            "lembaga-lembaganya adalah bahwa pemantauan harga dan kebijakan perdagangan berada di sistem "
+            "peringatan dini yang sama dengan prakiraan hujan dan hasil panen.",
         ],
         "12.10": [
             "Pencegahan lebih murah daripada respons, dan buktinya terkuat untuk pendekatan yang "

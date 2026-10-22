@@ -377,13 +377,14 @@ EXTRA = {
             "kematian di sertifikat.",
         ],
         "4.1": [
-            "Suhu bola basah adalah ukuran yang penting secara fisiologis karena ia menangkap efek "
-            "gabungan panas dan kelembapan terhadap kemampuan tubuh mendingin melalui keringat. Hari "
-            "kering 45 °C masih dapat dilalui orang dewasa sehat di naungan dengan air; hari lembap 35 °C "
-            "tidak, karena keringat tidak dapat menguap dan suhu inti tubuh naik. Batas teoretis sekitar "
-            "35 °C bola basah diidentifikasi Sherwood dan Huber (2010); kerja eksperimental Vecellio dkk. "
-            "(2022) menemukan bahwa bahkan 31 °C bola basah dapat berbahaya bagi orang lanjut usia yang "
-            "beristirahat, yang berarti batas praktisnya lebih rendah daripada angka buku teks.",
+            "Dua termometer dapat menunjukkan suhu yang sama dan menggambarkan dua hari yang sama sekali "
+            "berbeda. Yang penting secara fisiologis adalah gabungan panas dan kelembapan, karena tubuh "
+            "membuang panas terutama dengan menguapkan keringat, dan penguapan melambat ketika udara penuh "
+            "uap air. Suhu bola basah menangkap gabungan itu: ia adalah suhu terendah yang dapat dicapai "
+            "suatu permukaan dengan menguapkan air ke udara, diukur dengan membungkus termometer dalam kain "
+            "basah dan menganginkannya. Karena ia menggambarkan kemampuan tubuh mendingin, ia menjadi ukuran "
+            "yang lebih baik bagi batas kelangsungan hidup daripada suhu udara, dan itulah sebabnya ambang "
+            "bahaya dalam rencana panas kota-kota tropis mulai dinyatakan dalam besaran ini.",
         ],
         "4.2": [
             "Penyakit panas berkembang sepanjang spektrum yang mudah salah dinilai. Kram panas dan "
@@ -468,13 +469,16 @@ EXTRA = {
             "tempat tinggal, narapidana, dan warga lanjut usia yang tidak dapat meninggalkan rumah.",
         ],
         "case": [
-            "Panas Eropa 2022 juga menjadi ujian sistem peringatan yang dibangun setelah 2003, dan "
-            "hasilnya beragam tetapi instruktif. Prancis mengaktifkan rencana panasnya, membuka ruang "
-            "sejuk, dan memakai daftar warga rentan untuk melakukan ribuan panggilan pemeriksaan; Spanyol "
-            "dan Italia mencatat kematian tinggi tetapi juga menerapkan langkah lokal. Ballester dkk. "
-            "(2023) memperkirakan sekitar 61.700 kematian terkait panas, angka yang akan dianggap "
-            "katastrofik dalam konteks lain dan yang tetap mewakili penurunan substansial kematian per "
-            "derajat panas dibandingkan 2003.",
+            "Musim panas 2022 adalah uji besar pertama bagi sistem yang dibangun setelah 2003, dan pembacaan "
+            "jujur atas hasilnya adalah bahwa sistem itu bekerja sebagian. Prancis mengaktifkan rencananya, "
+            "membuka ruang sejuk, dan memakai daftar warga rentan untuk melakukan ribuan panggilan "
+            "pemeriksaan; Spanyol dan Italia mencatat kematian tinggi dan menerapkan langkah lokal lebih "
+            "lambat. Perkiraan yang diterbitkan, yang dibahas di atas, lebih rendah per derajat panas "
+            "daripada 2003, dan itulah tanda khas adaptasi: suhu yang sama menghasilkan kematian lebih "
+            "sedikit karena lembaganya berubah. Sisanya yang penting bagi buku ini, karena musim panas yang "
+            "menewaskan ribuan orang di negara dengan layanan kesehatan menyeluruh dan sistem peringatan yang "
+            "berfungsi adalah perkiraan wajar apa yang akan dilakukan musim yang lebih panas di negara yang "
+            "tidak memiliki keduanya.",
         ],
     },
 }

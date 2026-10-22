@@ -28,7 +28,15 @@ EXTRA = {
             "Institusi keamanan mulai memperlakukan iklim sebagai asumsi perencanaan, bukan isu lingkungan. Kementerian pertahanan memetakan instalasi mana yang terpapar banjir dan panas, operasi mana yang terpengaruh kelangkaan air, dan kawasan mana yang mungkin memerlukan dukungan kemanusiaan. Pembingkaiannya diperdebatkan, karena bingkai keamanan dapat membenarkan belanja perbatasan alih-alih adaptasi, dan karena ia dapat mengamankan isu migrasi dengan cara yang merugikan orang yang katanya dilindungi. Versi argumen yang lebih dapat dipertahankan lebih sempit: perubahan iklim menaikkan permintaan respons bencana, penjaga perdamaian, dan logistik kemanusiaan."
         ],
         "12.9": [
-            "Harga pangan adalah kaitan iklim dan ketidakstabilan politik yang paling terdokumentasi, dan mekanismenya lugas. Lonjakan harga mengurangi pendapatan riil rumah tangga kota, yang terkonsentrasi secara politik dan mudah dimobilisasi, dan keluhannya dapat menempel pada simbol rezim yang terdekat. Lonjakan harga beras dan gandum 2007–2008 bertepatan dengan kerusuhan di lebih dari tiga puluh negara, dan lonjakan 2010–2011 bertepatan dengan protes yang menjadi Arab Spring. Korelasinya bukan bukti kausalitas, dan konteks politik menentukan hasilnya, tetapi polanya cukup konsisten sehingga pemantauan harga pangan kini bagian dari peringatan dini risiko politik."
+            "Alasan harga pangan diperlakukan sebagai variabel keamanan dan bukan kesejahteraan adalah "
+            "transmisinya cepat dan penduduk terdampaknya terkonsentrasi. Sembako yang harganya berlipat "
+            "menular ke anggaran rumah tangga dalam hitungan hari, dan rumah tangga kota yang membelanjakan "
+            "separuh pendapatannya untuk pangan tidak punya penyangga, itulah sebabnya akibat politiknya tiba "
+            "sebelum akibat gizinya terlihat di survei mana pun. Negara dengan perlindungan sosial yang "
+            "berfungsi dapat mengubah guncangan harga menjadi beban anggaran; negara tanpanya mengubah "
+            "guncangan yang sama menjadi guncangan politik. Itulah saluran yang mengubah kekeringan di satu "
+            "belahan menjadi kerusuhan di belahan lain, dan itulah sebabnya kebijakan pangan dan kebijakan "
+            "fiskal adalah percakapan yang sama."
         ],
         "12.10": [
             "Pencegahan lebih murah daripada respons dan lebih sulit dibiayai, karena ia tidak menghasilkan apa pun yang terlihat. Tindakan yang menurunkan risiko konflik sama dengan yang membangun kapasitas adaptif: kepastian tenurial, pemerintah lokal yang berfungsi, infrastruktur air, perlindungan sosial yang tidak mengecualikan pemuda, dan sistem peradilan yang menyelesaikan sengketa padang serta air sebelum menjadi kekerasan. Sistem peringatan dini yang menggabungkan hujan, vegetasi, harga, dan laporan warga dapat mengantisipasi saat kekeringan berubah menjadi krisis."

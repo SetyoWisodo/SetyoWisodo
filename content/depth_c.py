@@ -205,12 +205,15 @@ EXTRA = {
             "rather than a one-off shock, which changes how monetary policy should respond to it.",
         ],
         "case": [
-            "The 2017 season also demonstrated the insurance gap that defines climate economics. Of "
-            "the roughly US$300 billion in losses, about US$90 billion was insured, and the difference "
-            "was concentrated in the Caribbean islands and in Puerto Rico, where penetration was low. "
-            "The gap did not disappear; it was absorbed by households, by governments and by "
-            "humanitarian aid, which means that the poorest victims financed a large share of the "
-            "reconstruction through lost savings, lost years of schooling and lost health.",
+            "The gap matters because of what replaces insurance when it is absent. Households without cover "
+            "draw down savings, postpone repairs, and borrow at informal rates; governments absorb the "
+            "remainder through emergency appropriations that arrive months later; and humanitarian agencies "
+            "fill the space in between. Each of those channels is slower and less complete than a claim, and "
+            "the delay is itself a cost, because a roof repaired in three months preserves a household's "
+            "schooling and health in a way that the same roof repaired in three years does not. This is the "
+            "argument for risk pools and parametric cover, which pay out against a measured trigger rather "
+            "than an adjusted claim: the payment can arrive in weeks, and it does not require an assessor to "
+            "reach a road that no longer exists.",
         ],
     },
 }

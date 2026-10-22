@@ -27,6 +27,10 @@ L = {
         "cover_author": "Setyo Wisodo",
         "cover_year": "2026",
         "cover_edition": "Academic Edition",
+        "meta_title": "Surviving the Future: Crisis, Climate, and Human Resilience",
+        "meta_subject": "Climate change, disaster risk, and human resilience: a data-driven academic guide",
+        "meta_keywords": "climate change; disaster risk reduction; adaptation; resilience; heat; flood; drought; preparedness",
+        "meta_lang": "en-US",
     },
     "id": {
         "toc": "DAFTAR ISI",
@@ -41,6 +45,10 @@ L = {
         "cover_author": "Setyo Wisodo",
         "cover_year": "2026",
         "cover_edition": "Edisi Akademik",
+        "meta_title": "Surviving the Future: Krisis, Iklim, dan Ketahanan Manusia",
+        "meta_subject": "Perubahan iklim, risiko bencana, dan ketahanan manusia: panduan akademik berbasis data",
+        "meta_keywords": "perubahan iklim; pengurangan risiko bencana; adaptasi; ketahanan; panas; banjir; kekeringan; kesiapsiagaan",
+        "meta_lang": "id-ID",
     },
 }
 
@@ -104,32 +112,109 @@ def break_long_word(pdf, word, style, width):
     return parts
 
 
+def make_hyphenator(lang):
+    """Hyphenator pyphen untuk bahasa tertentu; None bila tidak tersedia."""
+    try:
+        import pyphen
+    except ImportError:
+        return None
+    try:
+        return pyphen.Pyphen(lang={"en": "en_US", "id": "id_ID"}.get(lang, "en_US"))
+    except Exception:
+        return None
+
+
+def hyphen_prefix(pdf, word, style, avail):
+    """Awalan berhubung yang masih muat di sisa baris, atau None.
+
+    Aturan: hanya kata alfabet, minimal 6 huruf, bukan nama diri (huruf besar
+    di awal), minimal 3 huruf sebelum dan sesudah tanda hubung.
+    """
+    hy = getattr(pdf, "_hyph", None)
+    if hy is None or len(word) < 6 or not word.isalpha():
+        return None
+    if word[0].isupper():
+        return None
+    try:
+        positions = hy.positions(word)
+    except Exception:
+        return None
+    best = None
+    for p in positions:
+        if p < 3 or len(word) - p < 3:
+            continue
+        cand = word[:p] + "-"
+        if word_width(pdf, cand, style) <= avail:
+            best = p
+        else:
+            break
+    if best is None:
+        return None
+    return word[:best] + "-", word[best:]
+
+
 def layout_lines(pdf, tokens, first_width, width):
-    """Bagi token menjadi baris-baris sesuai lebar (greedy)."""
+    """Bagi token menjadi baris-baris sesuai lebar (greedy + pemenggalan kata)."""
     lines, cur, cur_w = [], [], 0.0
     limit = first_width
-    for word, style in tokens:
+    pending = []
+    prev_hyphen = False
+    hyphens_run = 0
+    idx = 0
+
+    def flush():
+        nonlocal cur, cur_w, limit
+        lines.append((cur, cur_w))
+        cur, cur_w, limit = [], 0.0, width
+
+    while idx < len(tokens) or pending:
+        if pending:
+            word, style = pending.pop(0)
+        else:
+            word, style = tokens[idx]
+            idx += 1
+
         if word.isspace():
             if cur and not cur[-1][0].isspace():
                 w = word_width(pdf, " ", style)
                 cur.append((" ", style, w))
                 cur_w += w
             continue
+
         w = word_width(pdf, word, style)
-        if w > width:  # kata sangat panjang
+        if w > width:  # kata sangat panjang (mis. URL)
+            if cur:
+                flush()
             for part in break_long_word(pdf, word, style, width):
                 pw = word_width(pdf, part, style)
                 if cur_w + pw > limit and cur:
-                    lines.append((cur, cur_w))
-                    cur, cur_w, limit = [], 0.0, width
+                    flush()
                 cur.append((part, style, pw))
                 cur_w += pw
+            prev_hyphen = False
             continue
+
         if cur_w + w > limit and cur:
-            lines.append((cur, cur_w))
-            cur, cur_w, limit = [], 0.0, width
+            last_word = not any(not t[0].isspace() for t in tokens[idx:]) and not pending
+            split = (None if (hyphens_run >= 2 or last_word)
+                     else hyphen_prefix(pdf, word, style, limit - cur_w))
+            if split is not None:
+                head, tail = split
+                hw = word_width(pdf, head, style)
+                cur.append((head, style, hw))
+                cur_w += hw
+                flush()
+                prev_hyphen = True
+                hyphens_run += 1
+                pending.insert(0, (tail, style))
+                continue
+            flush()
+            prev_hyphen = False
+            hyphens_run = 0
+
         cur.append((word, style, w))
         cur_w += w
+
     if cur:
         lines.append((cur, cur_w))
     return lines
@@ -182,9 +267,23 @@ def draw_paragraph(pdf, text, indent=INDENT, align="J", size=BODY_PT,
         pdf.set_xy(pdf.l_margin, y + line_h)
 
 
+def _bookmark(pdf, text, level):
+    """Entri navigasi PDF (bookmark): bab = level 0, sub-bab = level 1."""
+    if level > 2:
+        return
+    label = text.strip()
+    if not label:
+        return
+    try:
+        pdf.start_section(label, level=level - 1, strict=False)
+    except Exception:
+        pass
+
+
 def draw_heading(pdf, text, level, chapter_no=None, lang="en"):
     """Judul: H1 tengah-atas HURUF BESAR 12 pt; H2/H3 kiri, tebal."""
     text = re.sub(r"\*\*(.+?)\*\*", r"\1", text).strip()
+    _bookmark(pdf, text, level)
     size = BODY_PT
     h = LINE_H * 1.4
     if pdf.get_y() < pdf.t_margin:
@@ -403,6 +502,20 @@ class Book(FPDF):
         self.front = True          # cover + TOC
         self.opening = False       # halaman pembuka bab
         self.chapter_starts = set()
+        self._hyph = make_hyphenator(lang)
+        # --- metadata dokumen (Gate 6) ---
+        _cfg = L[lang]
+        self.set_title(_cfg["meta_title"])
+        self.set_author("Setyo Wisodo")
+        self.set_subject(_cfg["meta_subject"])
+        self.set_keywords(_cfg["meta_keywords"])
+        self.set_creator("Setyo Wisodo")
+        self.set_producer("fpdf2 (Arena Agent Mode)")
+        self.set_lang(_cfg["meta_lang"])
+        try:
+            self.set_display_mode("useoutlines")
+        except Exception:
+            pass
 
     def header(self):
         """Tanpa header berjalan: judul bab hanya dicetak di halaman pembuka bab."""

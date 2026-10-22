@@ -284,11 +284,14 @@ CH = {
             "radio and loudspeakers, thousands of raised shelters, and annual drills. The Cyclone "
             "Preparedness Programme trained tens of thousands of volunteers, many of them women, to "
             "warn and evacuate their neighbours.",
-
-            "The results were measurable. Cyclones of comparable intensity in later decades produced far "
-            "fewer deaths. In 1991, a cyclone killed about 138,000 people, still catastrophic but far "
-            "fewer than 1970. By 2020, when Cyclone Amphan made landfall during the COVID-19 pandemic, "
-            "more than 2.4 million people were evacuated, and the death toll was in the dozens.",
+"The comparison that matters is not between the two storms but between the two societies that met "
+"them. In 1970 the coast had no system for moving people before a surge, and the deaths were "
+"counted in the hundreds of thousands. By 2020 the same coastline had a warning chain that "
+"reached villages by megaphone and mobile phone, a volunteer corps that walked people to "
+"shelters, and a population that had been evacuated before and therefore believed the warning. "
+"More than two million people moved inland during a pandemic, which is the operational detail "
+"that most impresses engineers: the system worked at a scale and under conditions that no plan "
+"had anticipated, because the institutions had practised the parts of it that mattered.",
 
             "The comparison is not a story of complete success. Shelters are unevenly distributed, "
             "evacuation is harder for people with livestock or disabilities, and COVID-19 complicated "

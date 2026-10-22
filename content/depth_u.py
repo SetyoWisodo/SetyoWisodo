@@ -72,7 +72,16 @@ EXTRA = {
             "Universal health coverage is the most effective single adaptation in the health sector, because it determines whether a household seeks care before a condition becomes an emergency. A family that must choose between a clinic visit and a week of food will wait, and the waiting is what turns a treatable infection into a hospital admission and a manageable chronic disease into a crisis. Coverage also determines whether the costs of a disaster are absorbed by the health system or by the household, which is the difference between a bad year and a catastrophic one. Building coverage is slow, political and expensive, and it is the measure that most reliably reduces deaths in a warming world."
         ],
         "case": [
-            "The European heatwave of 2003 is the founding case of heat-health planning, and it is still the clearest demonstration of what a health system can and cannot absorb. Across twelve countries, an estimated 70,000 people died in two weeks, most of them older people living alone in cities, and many of them in France, where the toll was about 14,800. The system was not unprepared because it lacked data; it was unprepared because no one had connected the forecast to the hospital, the care home and the apartment. The reforms that followed — heat warning systems, registers of vulnerable people, media campaigns, hospital protocols — are credited with reducing deaths in later heatwaves, which is the rare case of a disaster that produced a durable improvement."
+            "What the French inquiry found was an absence of connection rather than an absence of capacity. "
+            "The forecast existed, the hospitals existed, the care homes existed, and the emergency services "
+            "existed; what did not exist was a procedure that required any of them to act on the forecast, or "
+            "a register that would have told a municipality which of its residents were old, alone and "
+            "without air conditioning. The reforms that followed were therefore administrative before they "
+            "were medical: a national heat plan with defined triggers, a requirement that care homes report, "
+            "a register of vulnerable residents, and a media campaign that treated heat as a hazard rather "
+            "than as weather. The same template has since been adopted in cities that have never experienced "
+            "a European summer, which is the strongest evidence that the lesson was institutional rather than "
+            "climatic."
         ],
         "future": [
             "The health systems of 2050 will be judged by how they function in the worst week of the year rather than by their average performance. The scenarios in this chapter differ mainly in investment and in coverage: a system with universal access, resilient facilities, trained staff and functioning surveillance can absorb a much larger hazard than one without them. The indicators that matter are concrete: the share of facilities with backup power and water, the number of health workers per thousand people, routine immunisation coverage, and the time it takes to detect and respond to an outbreak. Each of these is measurable now, which means the future of health under climate change is being decided by budget lines rather than by physics."

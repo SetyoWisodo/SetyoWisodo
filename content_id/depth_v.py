@@ -34,7 +34,15 @@ EXTRA = {
             "Tata kelola polisentris adalah nama akademis bagi sistem ketika banyak pusat pengambilan keputusan hidup bersama dan berkoordinasi tanpa satu otoritas tunggal. Kedengarannya seperti gambaran kekacauan dan sering justru sebaliknya, karena redundansi adalah bentuk ketangguhan: kota dengan wali kota yang kuat, perkumpulan warga yang aktif, utilitas yang berfungsi, dan sektor swasta yang terlibat dapat merespons bahkan bila salah satunya gagal. Syaratnya, pusat-pusat itu berbagi informasi dan menerima standar bersama, itulah sebabnya contoh paling berhasil dibangun di sekitar protokol teknis, bukan hierarki politik."
         ],
         "case": [
-            "Banjir Lembah Ahr Juli 2021 adalah kasus tentang jurang antara peringatan dan tindakan. Prakiraan memberi tahu sehari sebelumnya bahwa hujan ekstrem akan datang, dan peringatan dikeluarkan, tetapi pesannya umum dan otoritas lokal tidak menerjemahkannya menjadi evakuasi lembah sempit tempat air akan terfokus. Di distrik Ahrweiler saja, 134 orang meninggal; di Jerman dan Belgia lebih dari 180, dan kerusakannya mencapai puluhan miliar euro. Penyelidikan berikutnya memusatkan perhatian pada mil terakhir: apakah peringatan mencapai orang yang tepat, dalam bahasa yang dipahami, cukup awal untuk bertindak, dan apakah ada yang berwenang memerintahkan evakuasi."
+            "Banjir Lembah Ahr adalah kasus yang memisahkan prakiraan dari peringatan, dan peringatan dari "
+            "tindakan. Badan meteorologi menjalankan tugasnya: model menunjukkan hujan ekstrem sehari "
+            "sebelumnya dan peringatannya dikeluarkan. Yang gagal adalah penerjemahan peringatan regional "
+            "menjadi keputusan lokal, di lembah yang airnya naik dalam hitungan jam dan di mana pesan umum "
+            "tentang hujan lebat tidak memberi tahu rumah tangga apakah harus pergi. Penyelidikan berikutnya "
+            "memusatkan perhatian pada tiga pertanyaan yang berulang pada hampir setiap kegagalan semacam "
+            "ini: apakah peringatannya menyebut tempat yang akan banjir, apakah ia mencapai orang yang sedang "
+            "tidur atau bekerja, dan apakah ada satu pejabat yang berwenang memerintahkan evakuasi tanpa "
+            "menunggu tingkat pemerintahan di atasnya."
         ],
         "future": [
             "Tata kelola 2050 akan dinilai dari kemampuannya mengambil keputusan cepat dalam sistem yang punya banyak pusat dan tidak ada otoritas tunggal. Skenarionya berbeda terutama pada kepercayaan dan kapasitas: masyarakat yang percaya pada peringatan, kompensasi, dan kode bangunan dapat beradaptasi dengan biaya sebagian kecil dibandingkan masyarakat yang tidak. Indikatornya yang sulit dipalsukan: porsi pemerintah lokal dengan anggaran kebencanaan yang didanai, waktu antara prakiraan dan peringatan publik, proporsi kontrak rekonstruksi yang dipublikasikan, dan tingkat kepercayaan pada institusi publik menurut survei biasa."

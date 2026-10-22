@@ -34,7 +34,15 @@ EXTRA = {
             "Berkomunikasi tanpa keputusasaan adalah masalah desain, dan buktinya berlawanan dengan intuisi. Pesan yang diawali bencana menghasilkan keterputusan pada sebagian besar audiens, karena ancaman yang terasa melampaui kemampuan menghasilkan penghindaran alih-alih tindakan; pesan yang diawali solusi dapat menghasilkan kepuasan diri. Yang bekerja adalah kombinasi: pernyataan risiko yang jelas, tindakan spesifik yang dapat diambil audiens, dan pengakuan realistis atas ketidakpastian. Penyampainya sama pentingnya dengan pesannya, itulah sebabnya suara lokal yang dipercaya mengalahkan kampanye nasional. Komunikasi paling efektif memperlakukan audiens sebagai orang dewasa yang berhak atas gambaran penuh."
         ],
         "case": [
-            "Kebakaran Camp menghancurkan kota Paradise dalam beberapa jam pada 8 November 2018, menewaskan delapan puluh lima orang dan menghancurkan hampir sembilan belas ribu bangunan. Konsekuensi kesehatan jiwanya diteliti bertahun-tahun sesudahnya, dan temuannya menggambarkan lintasan yang lazim pada bencana kebakaran. Pada tahun pertama, tingkat stres pascatrauma dan depresi tinggi di seluruh populasi, bukan hanya di antara yang kehilangan rumah. Seiring waktu, bebannya bergeser ke orang yang pemulihannya macet: yang tidak dapat membangun ulang, yang asuransinya kurang, yang pindah jauh dari jaringan dukungannya. Komunitas yang dibangun kembali lebih kecil, lebih tua, dan lebih cemas daripada yang terbakar, dan pemulihan psikologisnya mengikuti pemulihan perumahan, bukan sebaliknya."
+            "Konsekuensi kesehatan jiwa Kebakaran Camp diteliti bertahun-tahun sesudahnya, dan temuannya "
+            "menggambarkan lintasan yang lazim pada bencana kebakaran. Pada tahun pertama, tingkat stres "
+            "pascatrauma dan depresi tinggi di seluruh populasi, bukan hanya di antara yang kehilangan rumah. "
+            "Seiring waktu, bebannya bergeser ke orang yang pemulihannya macet: yang tidak dapat membangun "
+            "ulang, yang asuransinya kurang, yang pindah jauh dari jaringan dukungannya. Komunitas yang "
+            "dibangun kembali lebih kecil, lebih tua, dan lebih cemas daripada yang terbakar, dan pemulihan "
+            "psikologisnya mengikuti pemulihan perumahan, bukan sebaliknya. Itulah sebabnya literatur "
+            "kesehatan jiwa bencana terus sampai pada kesimpulan kebijakan yang sama: cara tercepat mengobati "
+            "trauma penduduk yang tercerabut adalah mengakhiri ketercerabutannya."
         ],
         "future": [
             "Masa depan kesehatan jiwa yang diuraikan bab ini lebih bergantung pada layanan dan jaringan sosial yang menerimanya daripada pada iklimnya. Dalam satu skenario, kesehatan jiwa terintegrasi ke layanan primer dan perencanaan bencana, jaringan komunitas kuat, dan bebannya terkelola meski bahayanya meningkat. Dalam skenario lain, layanan tetap vertikal dan kurang didanai, peristiwa berulang menguras penduduk, dan bebannya menumpuk tanpa terlihat dalam tingkat penggunaan zat, kekerasan domestik, dan bunuh diri. Indikatornya: jurang pengobatan, jumlah tenaga kesehatan jiwa per seratus ribu penduduk, dan ketersediaan dukungan psikososial dalam respons bencana."

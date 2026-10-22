@@ -185,12 +185,13 @@ EXTRA = {
             "mostly civilian.",
         ],
         "12.9": [
-            "The link between food prices and political instability is one of the better-documented "
-            "pathways. The 2007–2008 price spike was associated with riots in more than 30 countries, "
-            "and the 2010–2011 spike coincided with the Arab Spring. Quantitative work finds that food "
-            "price shocks increase the probability of unrest, particularly in countries with weak "
-            "social protection and urban populations dependent on imported staples, which is why food "
-            "policy is also security policy.",
+            "The mechanism that turns a harvest failure into a global price spike runs through policy rather "
+            "than weather. When a major exporter restricts or bans exports to protect its own consumers, "
+            "importers lose their supply and bid for what remains, and a restriction that each government "
+            "adopts defensibly on its own produces a collective outcome that none of them intended. The "
+            "episode of 2007 and 2008 followed this pattern closely, and the lesson that agencies drew from "
+            "it was that price monitoring and trade policy belong in the same early-warning system as "
+            "rainfall and yield forecasts.",
         ],
         "12.10": [
             "Prevention is cheaper than response, and the evidence is strongest for approaches that "

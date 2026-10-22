@@ -709,13 +709,18 @@ for i,e in enumerate(EXPERTS[:5], start=1):
 md.append("---")
 md.append("")
 
-md.append("## Preface (Extended)")
+md.append("## How This Book Is Organised")
 md.append("")
-md.append("This extended preface provides additional context for the reader. The book is organized to move from foundational science to practical action, ensuring that every reader can find relevant material. The structure reflects the complexity of the climate crisis and the need for multi-level responses.")
+md.append("The book is arranged so that a reader can enter at three different depths. The first is the argument, which runs through the chapter openings and the sections numbered x.1 to x.3: why the physical certainty of warming is settled, how a local hazard becomes a systemic failure, and what the record of the past two decades shows about which places absorbed an event and which did not. A reader who only has an evening can read those sections across all twenty-four chapters and come away with the claim of the book intact.")
 md.append("")
-for _ in range(1):
-    md.append("Additional context: The climate crisis demands sustained attention and coordinated action across all sectors of society. This book aims to equip readers with the knowledge and tools needed to contribute meaningfully to that effort.")
-    md.append("")
+md.append("The second depth is the case record. Every chapter carries a numbered case study that reconstructs one event in detail — the rainfall totals, the warnings issued, the hours in which power failed, the decisions taken by named institutions — and the analysis that follows the reconstruction. The cases were chosen so that no single explanation covers them: some failed through exposure, some through vulnerability, some through the failure of a warning to reach the people it described, and a few succeeded for reasons that had nothing to do with luck.")
+md.append("")
+md.append("The third depth is the appraisal. Each chapter closes with a Future Scenarios section that separates what the physical system has already committed to from what depends on decisions not yet taken, and states plainly which of its own predictions would prove it wrong. That section is the reason the book is meant to be argued with rather than simply read: a prediction that cannot be falsified is a description of the author's preferences, and the scenarios here are written to be checkable against the record as it accumulates.")
+md.append("")
+md.append("Three conventions run through the text. Citations are author and year in the prose, with the full entry in the reference list; figures are the most recent authoritative values available at the time of writing, and where sources disagree the disagreement is stated rather than averaged away. Numbers that describe deaths, displacement or damage are given as the range the sources support, because the false precision of a single figure would misrepresent what is known. And the book avoids the passive construction that hides who decided what: where an institution chose not to act, the text says which institution, because responsibility that cannot be assigned cannot be examined.")
+md.append("")
+md.append("A note on what this book is not. It is not a manual of climate science, though it summarises the science that the argument depends on. It is not a policy programme, though it ends with the measures that the evidence supports. It is a record of what has already happened, read closely enough to show why the next disaster will fall on some places and not others, and written in the belief that the difference is usually a decision rather than a fate.")
+md.append("")
 md.append("---")
 md.append("")
 

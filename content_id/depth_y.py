@@ -13,7 +13,14 @@ EXTRA = {
             "Etiopia 1984 dan 1985 adalah kasus yang menghasilkan teori entitlement tentang kelaparan, dan teorinya mengubah cara dunia merespons. Argumen Amartya Sen, kelaparan terjadi ketika orang kehilangan kemampuan mengakses pangan melalui haknya — melalui produksi sendiri, tenaga kerja, aset, atau transfer — bukan ketika pangan tidak ada di pasar. Di Etiopia, pangan diekspor dari wilayah terdampak sementara orang kelaparan, dan respons pemerintah dibentuk perang serta kebijakan permukiman kembali yang tidak melayani orang yang dipindahkan. Jumlah kematian diperkirakan sekitar satu juta, dan krisis itu menghasilkan sistem peringatan dini serta bantuan pangan internasional pertama yang serius."
         ],
         "23.4": [
-            "Somalia pada 2011 dan lagi pada 2022 menunjukkan berapa banyak yang berubah dan berapa banyak yang tidak. Pada 2011, PBB menyatakan kelaparan di dua wilayah Somalia selatan setelah dua musim hujan gagal berturut-turut, dan jumlah kematian akhirnya diperkirakan sekitar 258.000, separuhnya anak di bawah lima tahun. Peringatannya telah dikeluarkan berbulan-bulan sebelumnya, dan responsnya dibatasi pembatasan akses oleh kelompok bersenjata serta keengganan donor membiayai respons di zona konflik. Pada 2022, musim gagal kelima menghasilkan operasi kemanusiaan jauh lebih besar dengan jumlah kematian lebih rendah."
+            "Pembedanya operasional, dan perinciannya adalah pelajarannya. Pada 2022 sistem kemanusiaan mulai "
+            "menyalurkan uang tunai dan mendukung ternak sebelum kelaparan dideklarasikan, memakai organisasi "
+            "lokal yang sudah punya akses ke distrik terdampak, dan seruannya didanai lebih awal serta lebih "
+            "penuh daripada 2011. Urutannya penting karena indikator yang meramalkan kelaparan — harga "
+            "ternak, nilai tukar bagi peternak, penerimaan rawat inap karena malnutrisi — sudah terlihat pada "
+            "kedua episode berbulan-bulan sebelum krisis memuncak. Yang berubah bukan informasinya melainkan "
+            "kemauan bertindak atas informasi itu ketika hasilnya masih belum pasti, yaitu kendala yang sama "
+            "yang dibahas bab-bab pembiayaan buku ini dengan kosakata berbeda."
         ],
         "23.5": [
             "Suriah adalah kasus ketika kekeringan, perang, dan kegagalan kebijakan terjerat, dan jeratannya adalah pelajarannya. Antara 2006 dan 2010, negara itu mengalami kekeringan multi-tahun terburuk dalam catatan instrumental, dan ratusan ribu keluarga petani pindah ke kota. Respons pemerintah berpihak pada pertanian beririgasi dengan air tanah, yang menipiskan akuifer dan memberi imbalan pada yang punya koneksi, sementara petani kecil yang bergantung pada tadah hujan menerima sedikit dukungan. Kekeringan tidak menyebabkan perang, dan ia menyumbang pada keluhan serta pengungsian yang dimanfaatkan perang."
