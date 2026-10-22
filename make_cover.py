@@ -38,13 +38,14 @@ BOOKS = [
             "This book reads the record of the past two decades closely enough to show why the next "
             "disaster will fall on some places and not others, and it argues that the difference is "
             "usually a decision rather than a fate.",
-            "Twenty-four chapters, twenty-five data tables, twenty-four case studies and a reference list of "
-            "145 sources. Written for readers who want the evidence rather than the slogan.",
+            "Twenty-four chapters, twenty-five data tables, eleven data figures, twenty-four case studies "
+            "and a reference list of 145 sources. Written for readers who want the evidence rather than "
+            "the slogan.",
         ],
         "back_head": "WHAT THE RECORD SHOWS",
         "pull": "A prepared world is not a world without disasters. It is a world in which the same event kills fewer people.",
         "inside": [
-            "Why the same cyclone killed 500,000 people in 1970 and dozens in 2020",
+            "Why a cyclone killed 500,000 people in 1970 and dozens in 2020 on the same coastline",
             "The heatwave that killed 70,000 Europeans in 2003 — and the hotter one that killed 61,700 in 2022",
             "The Ahr valley, where the forecast was right and 180 people died anyway",
             "What a heat action plan, a shelter register and a protected budget line actually cost",
@@ -71,13 +72,14 @@ BOOKS = [
             "Buku ini membaca catatan dua dekade terakhir cukup dekat untuk menunjukkan mengapa bencana "
             "berikutnya akan menimpa sebagian tempat dan bukan yang lain, dan berargumen bahwa "
             "perbedaannya biasanya sebuah keputusan, bukan takdir.",
-            "Dua puluh empat bab, dua puluh lima tabel data, dua puluh empat studi kasus, dan daftar "
-            "pustaka 145 sumber. Ditulis untuk pembaca yang menginginkan bukti, bukan slogan.",
+            "Dua puluh empat bab, dua puluh lima tabel data, sebelas gambar data, dua puluh empat studi "
+            "kasus, dan daftar pustaka 145 sumber. Ditulis untuk pembaca yang menginginkan bukti, bukan "
+            "slogan.",
         ],
         "back_head": "APA YANG DITUNJUKKAN CATATAN",
         "pull": "Dunia yang siap bukan dunia tanpa bencana. Ia dunia tempat peristiwa yang sama menewaskan lebih sedikit orang.",
         "inside": [
-            "Mengapa siklon yang sama menewaskan 500.000 orang pada 1970 dan puluhan pada 2020",
+            "Mengapa sebuah siklon menewaskan 500.000 orang pada 1970 dan puluhan pada 2020 di pesisir yang sama",
             "Gelombang panas yang menewaskan 70.000 orang Eropa pada 2003, dan yang lebih panas tetapi menewaskan 61.700 pada 2022",
             "Lembah Ahr, ketika prakiraannya benar dan 180 orang tetap meninggal",
             "Berapa biaya sebenarnya sebuah rencana aksi panas, daftar warga rentan, dan pos anggaran yang dilindungi",
@@ -203,7 +205,7 @@ def build(cfg):
     bc_x0 = px(BLEED + TRIM_W - 0.35 - bc_w)
     bc_y1 = px(BLEED + TRIM_H - 0.35)
     bc_y0 = bc_y1 - px(bc_h)
-    draw.rectangle([bc_x0, bc_y0, bc_x0 + px(bc_w), bc_y1], fill=BACK_RGB)
+    draw.rectangle([bc_x0, bc_y0, bc_x0 + px(bc_w), bc_y1], fill=(255, 255, 255))
 
     # blok penulis: kolom menyempit agar tidak menabrak zona barcode
     f_bio = ImageFont.truetype(SERIF_R, px(0.105))

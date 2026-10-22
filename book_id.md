@@ -22,15 +22,15 @@ Data yang mendasari pembahasan diringkas sebagai berikut:
 
 Konsensus ahli yang mendasari buku ini diringkas sebagai berikut.
 
-> Dr. James Hansen, former NASA GISS Director (2013 op-ed/2016 paper): 'Kenaikan permukaan laut beberapa meter dapat diperkirakan pada pemanasan 2°C — dan 2°C akan membawa konsekuensi yang pantas disebut bencana.'
+> James Hansen, mantan direktur Goddard Institute for Space Studies NASA, berpendapat pada 2013 bahwa dua derajat pemanasan sudah cukup untuk memperkirakan kenaikan permukaan laut beberapa meter, dan menyebut konsekuensinya sebagai bencana.
 
-> Prof. Katharine Hayhoe, Texas Tech Chief Scientist (2014, post-IPCC AR5): 'Perubahan iklim ada di sini dan sekarang, bukan di waktu atau tempat yang jauh — pilihan yang kita buat hari ini akan berdampak besar pada masa depan kita.'
+> Katharine Hayhoe, ilmuwan iklim Texas Tech (2014, setelah penilaian kelima IPCC): perubahan iklim terjadi di sini dan sekarang, bukan di tempat atau waktu yang jauh, dan pilihan yang dibuat hari ini akan menentukan masa depan.
 
-> Dr. Michael Mann, Penn State climatologist (2004/2021): 'Konsensus ilmiah bahwa iklim menghangat karena manusia hampir sekukuh konsensus tentang gravitasi — banyak lini bukti independen bertemu pada kesimpulan yang sama.'
+> Michael Mann, ahli iklim Penn State (2004; 2021): konsensus ilmiah tentang perubahan iklim akibat manusia sebanding dengan konsensus tentang gravitasi, karena banyak jalur bukti independen bertemu.
 
-> Dr. Friederike Otto, Imperial College / World Weather Attribution co-founder (2021): 'Gelombang panas Pacific Northwest 2021 hampir mustahil terjadi tanpa perubahan iklim yang disebabkan manusia.'
+> Friederike Otto, Imperial College dan salah satu pendiri World Weather Attribution (2021): gelombang panas Pasifik Barat Laut 2021 nyaris mustahil terjadi tanpa perubahan iklim akibat manusia.
 
-> Prof. Johan Rockström, Potsdam Institute & Stockholm Resilience Centre (2009 Nature; 2023 update): 'Kami mendefinisikan batas planet sebagai ruang tempat manusia dapat beroperasi dengan aman — enam dari sembilan batas kini terlampaui, jauh di luar ruang aman itu.'
+> Johan Rockström, Potsdam Institute for Climate Impact Research dan Stockholm Resilience Centre (2009 Nature; pembaruan 2023): batas planet mendefinisikan ruang aman bagi umat manusia, dan enam dari sembilan batas itu kini terlampaui.
 
 Kondisi ini menggambarkan urgensi tema yang dikembangkan sepanjang buku ini. Ini bukan kejadian terisolasi tetapi bagian dari pola peningkatan risiko yang lebih luas.
 
@@ -438,6 +438,8 @@ Asumsi yang mendasari ketiga lintasan berbeda secara mendasar. Lintasan percepat
 | Kebijakan saat ini diperkuat (SSP2-4.5) | Penguatan lambat, nol bersih akhir abad | ~2,0 °C | ~2,7 °C (2,1–3,5) | CO2 mendekati 500 ppm pada 2060; Arktik bebas es musim panas sebelum 2050 |
 | Dekarbonisasi terhenti (SSP5-8.5) | Dominasi fosil berlanjut hingga 2100 | ~2,6 °C | ~4,4 °C (3,3–5,7) | CO2 di atas 700 ppm; kenaikan muka laut di atas 0,8 m dan semakin cepat |
 
+![Gambar 2.1 Pemanasan 2050 dan 2100 pada tiga lintasan emisi](figures/fig2_1_id.png)||Sumber: Tabel 2.1. Garis tegak menunjukkan rentang 2100; skenario SSP sebagaimana dirangkum IPCC (2021, 2023).
+
 Dari tabel ini muncul dua kesimpulan. Pertama, perbedaan antara lintasan terendah dan tertinggi pada 2100 adalah sekitar 2,6 °C — lebih besar daripada seluruh pemanasan yang telah terjadi sejak Revolusi Industri. Kedua, perbedaan itu tidak muncul secara merata: lintasan tinggi menghasilkan gelombang panas yang jauh lebih sering, kekeringan yang lebih panjang, dan kenaikan muka laut yang lebih cepat, sementara lintasan rendah masih menghasilkan konsekuensi yang serius tetapi lebih dapat dikelola.
 
 Perubahan besar dalam teknologi penyimpanan energi atau dalam biaya energi surya dapat mempercepat dekarbonisasi lebih cepat daripada yang diasumsikan dalam lintasan menengah. Sebaliknya, umpan balik karbon yang lebih kuat daripada perkiraan, atau pelepasan metana dari permafrost, dapat membuat lintasan tinggi lebih buruk daripada angka di atas. Yang tidak dapat diubah oleh teknologi adalah karbon yang sudah berada di atmosfer: ia akan tetap di sana selama berabad-abad, dan pemanasan yang telah terjadi tidak dapat dibatalkan dalam skala waktu satu generasi.
@@ -833,6 +835,8 @@ Cara berguna memikirkan panas masa depan bukan rata-rata global melainkan jumlah
 | Athena | ~30 | ~55 | Sedang | Kode bangunan; kanopi pohon |
 | Phoenix | ~110 | ~150 | Rendah tetapi ekstrem | Pendinginan bagi tunawisma; kapasitas jaringan |
 
+![Gambar 4.1 Hari di atas 35 °C sekarang dan pada 2050 di enam kota](figures/fig4_1_id.png)||Sumber: Tabel 4.1; SSP2-4.5 untuk kolom 2050.
+
 Buktinya mendukung dua kesimpulan. Pertama, risiko panas tidak ditentukan oleh suhu saja: jumlah hari panas yang sama menghasilkan kematian yang sangat berbeda tergantung pada perumahan, air, listrik, dan perlindungan sosial. Kedua, keuntungan terbesar datang dari intervensi yang membosankan dan murah — naungan, air, peringatan, kunjungan ke tetangga lansia — bukan dari teknologi yang mahal dan belum terbukti. Kota yang melakukan hal-hal membosankan dengan baik dapat menyelamatkan ribuan nyawa pada 1,5 °C dan masih menyelamatkan banyak pada 2,5 °C, meskipun marginnya menyempit (Iungman dkk., 2023).
 
 Terobosan dalam pendinginan murah dan efisien akan menurunkan kematian di negara panas tetapi akan meningkatkan permintaan listrik dan emisi kecuali dipasangkan dengan pembangkit bersih. Keruntuhan jaringan listrik selama gelombang panas akan mengubah peristiwa yang dapat dikelola menjadi malapetaka, seperti yang terjadi di Texas pada 2021 dan di India pada 2012. Dan peristiwa bola basah di atas ambang fisiologis akan menciptakan situasi di mana adaptasi mustahil dan hanya evakuasi yang tersisa.
@@ -1038,6 +1042,8 @@ Jurang air 2050 lebih ditentukan perpotongan tiga kurva daripada total hujan: pe
 | Citarum (Jawa) | ~25 | Sangat tinggi | 20–30% | Pengolahan limbah; reboisasi |
 | Murray–Darling | ~2,4 | Tinggi | 10–20% | Perdagangan air; aliran lingkungan |
 | Tigris–Efrat | ~60 | Sangat tinggi | 30–40% | Koordinasi bendungan; reformasi irigasi |
+
+![Gambar 5.1 Penduduk yang bergantung pada enam cekungan tertekan, dan kesenjangan pasokan pada 2050](figures/fig5_1_id.png)||Sumber: Tabel 5.1; kesenjangan adalah kekurangan terhadap permintaan terproyeksi pada SSP2-4.5.
 
 Dua pelajaran muncul dari sini. Pertama, celah terbesar berada di cekungan tempat pertanian mendominasi dan air tanah tidak diatur, yang berarti intervensi terpenting bersifat pertanian, bukan perkotaan. Kedua, celah itu dapat ditutup dengan teknologi yang ada; hambatannya adalah biaya politik untuk merealokasi air dari satu pengguna ke pengguna lain. Cekungan yang membatasi pengambilan akan menghasilkan lebih sedikit dalam jangka pendek, dan petani yang kehilangan air akan menolak.
 
@@ -1246,6 +1252,8 @@ Pesisir 2100 akan ditentukan emisi abad ini dan lapisan es abad berikutnya, gabu
 | Ho Chi Minh City | 1–3 | ~1 juta | +0,16 m | Tanggul; pengelolaan delta |
 | Miami | 0,2–0,5 | ~0,4 juta | +0,18 m | Pompa; elevasi; retret terkelola |
 | Aleksandria | 0,3–0,6 | ~0,5 juta | +0,17 m | Tanggul laut; penambahan pasir pantai |
+
+![Gambar 6.1 Penduduk yang terpapar banjir pesisir periode ulang 100 tahun di enam kota](figures/fig6_1_id.png)||Sumber: Tabel 6.1; jumlah terpapar mencakup penurunan tanah bila dilaporkan.
 
 Ada dua konsekuensi di sini. Pertama, variabel dominan di banyak kota bukan kenaikan muka laut global melainkan penurunan tanah lokal, yang disebabkan keputusan manusia dan dapat diperlambat atau dihentikan. Kedua, biaya adaptasi naik lebih cepat daripada laut, karena setiap tambahan kenaikan memerlukan pertahanan yang lebih besar dan lebih mahal, dan karena probabilitas kegagalan meningkat saat ambang desain didekati.
 
@@ -1459,6 +1467,8 @@ Memberi makan dunia pada 2050 lebih merupakan pertanyaan distribusi, ketangguhan
 | Kopi | −10 hingga −20% | −25 hingga −50% | Naungan; pergeseran ketinggian; varietas baru | Etiopia; Kolombia; Vietnam |
 | Peternakan | −5 hingga −10% (susu) | −10 hingga −20% | Naungan; bibit; kualitas pakan | Asia Selatan; Sahel |
 
+![Gambar 7.1 Perubahan hasil panen per tambahan satu derajat pemanasan, menurut tanaman](figures/fig7_1_id.png)||Sumber: Tabel 7.1. Batang untuk kopi dan ternak menunjukkan rentang yang dilaporkan.
+
 Dua hal perlu ditekankan. Pertama, tanaman yang memberi makan orang termiskin adalah yang paling sensitif terhadap panas, dan wilayah tempat tanaman itu ditanam adalah wilayah yang paling sedikit dibiayai adaptasinya. Kedua, kerugian yang diproyeksikan tidak katastrofik secara agregat global, tetapi parah di tempat-tempat tertentu, dan berinteraksi dengan kemiskinan, konflik, dan lembaga lemah untuk menghasilkan kelaparan alih-alih sekadar kekurangan.
 
 Terobosan varietas tahan panas, atau efisiensi fotosintesis, akan mengurangi kerugian, tetapi butuh satu dekade atau lebih untuk mencapai petani. Pergeseran ke pola makan berbasis tanaman di negara berpenghasilan tinggi akan mengurangi permintaan pakan dan membebaskan lahan untuk pangan manusia. Dan peningkatan investasi yang berkelanjutan dalam irigasi, penyimpanan, dan jalan pedesaan akan mengurangi kehilangan pascapanen yang saat ini menyumbang sebagian besar celah. Variabel terpenting, bagaimanapun, adalah emisi: perbedaan antara 1,5 °C dan 3 °C adalah perbedaan antara sistem pangan yang dapat beradaptasi dan yang tidak (FAO, 2023).
@@ -1664,6 +1674,8 @@ Dunia hidup 2100 bukan versi menipis dari yang kita kenal; ia kumpulan yang berb
 | Permafrost | Awal pencairan | Pencairan 10–20% | Pencairan 30–50% | Karbon; infrastruktur |
 | Mangrove | Muka laut > laju migrasi | Kehilangan 10–30% | Kehilangan 30–50% | Pertahanan pesisir; tempat pembesaran |
 | Air tawar | Perubahan aliran dan suhu | Kehilangan spesies 20–30% | Kehilangan spesies 40–60% | Air; perikanan darat |
+
+![Gambar 8.1 Penurunan pada 2 °C dan 3 °C untuk empat sistem dengan ambang terukur](figures/fig8_1_id.png)||Sumber: Tabel 8.1. Nilai terumbu pada 3 °C adalah “lebih dari 99 persen” yang dilaporkan.
 
 Analisisnya menunjuk pada dua kesimpulan. Pertama, perbedaan antara 2 °C dan 3 °C adalah perbedaan antara dunia di mana terumbu karang bertahan dalam bentuk yang berkurang dan dunia di mana mereka sebagian besar hilang, serta antara hutan yang menyimpan karbon dan hutan yang melepaskannya. Kedua, kerugiannya tidak tersebar merata: ekosistem tropis, yang menyimpan keanekaragaman hayati terbanyak dan menopang orang paling rentan, adalah yang paling terpapar.
 
@@ -2090,6 +2102,8 @@ Masa depan ekonomi tiga dekade ke depan kemungkinan lebih ditentukan distribusi 
 | Orang terdorong ke kemiskinan (juta) | 50–100 | 100–200 | 200–400 | Harga pangan; pengungsian |
 | Kebutuhan pembiayaan adaptasi (US$ miliar/tahun) | 100 | 200 | 300+ | Infrastruktur; perlindungan sosial |
 
+![Gambar 10.1 Kerugian PDB global hingga 2050 pada tiga jalur emisi](figures/fig10_1_id.png)||Sumber: Tabel 10.1; kerugian diukur terhadap garis dasar tanpa perubahan iklim.
+
 Dua pelajaran muncul dari sini. Pertama, perbedaan antara jalur rendah dan tinggi diukur dalam poin persentase PDB global, yang berarti triliunan dolar dan ratusan juta orang terdorong ke kemiskinan. Kedua, kerugiannya bukan masa depan yang tiba pada 2050; ia terakumulasi tahun demi tahun, dan negara yang paling tidak mampu beradaptasi sudah membayar porsi tertinggi (UNDRR, 2023).
 
 Difusi cepat energi bersih murah akan mengurangi kerusakan fisik dan risiko transisi sekaligus, dan itu sudah terjadi lebih cepat daripada asumsi sebagian besar model. Terobosan dalam pembiayaan adaptasi — melalui reformasi lembaga multilateral, keringanan utang, atau pungutan baru — akan mengurangi beban negara termiskin. Dan perubahan tingkat diskonto yang digunakan pemerintah akan membuat kerusakan jangka panjang tampak lebih besar dan membenarkan lebih banyak investasi sekarang. Tidak ada yang pasti, tetapi arah ekonominya jelas: penundaan lebih mahal daripada tindakan.
@@ -2301,6 +2315,8 @@ Migrasi tiga dekade ke depan sebagian besar bersifat internal, jarak pendek, dan
 | Asia Timur dan Pasifik | ~48 | Muka laut; badai | Pertahanan pesisir; relokasi | Pembebasan lahan |
 | Afrika Utara | ~19 | Kekeringan; air | Irigasi; lapangan kerja | Ketidakstabilan politik |
 | Negara pulau kecil | ~2–3 | Kenaikan muka laut | Relokasi; jalur hukum | Kedaulatan; budaya |
+
+![Gambar 11.1 Migran iklim internal pada 2050, menurut kawasan asal](figures/fig11_1_id.png)||Sumber: Tabel 11.1; estimasi adalah perpindahan internal, bukan pengungsi lintas batas.
 
 Ada dua konsekuensi di sini. Pertama, skala migrasi iklim besar tetapi dapat dikelola jika diperkirakan; bahayanya bukan jumlah orang melainkan ketiadaan sistem untuk menerima mereka. Kedua, sebagian besar migrasi bersifat internal, yang berarti tanggung jawabnya terutama ada pada pemerintah nasional dan kota, bukan pada lembaga internasional.
 
@@ -3582,6 +3598,8 @@ Sistem kesehatan 2050 akan dinilai dari cara bekerjanya pada pekan terburuk tahu
 | Cakupan layanan kesehatan mental | 15% | 30% | 60% | Beban psikososial |
 | Pembiayaan adaptasi kesehatan | Rendah | Sedang | Tinggi | Kapasitas sistem |
 
+![Gambar 17.1 Kematian berlebih akibat panas per tahun pada 2050 di bawah tiga jalur adaptasi](figures/fig17_1_id.png)||Sumber: Tabel 17.1.
+
 Kolom tengah perlu penjelasan. 'Kecenderungan sekarang' bukan ramalan masa depan yang paling mungkin; ia lintasan yang mengikuti kebijakan yang sudah diundangkan, belanja adaptasi yang sudah dijanjikan, dan investasi kesehatan yang sudah dianggarkan, dengan jalur emisi ditahan pada kasus menengah. Itu kolom yang didapat suatu pemerintah bila tidak mengubah apa pun, dan itu pembanding bagi dua kolom lainnya. 
 
 Dua hal perlu ditekankan. Pertama, kesehatan adalah tempat perubahan iklim paling langsung dialami, dan karena itu tempat adaptasi memiliki imbal hasil paling jelas. Kedua, distribusi risiko kesehatan mengikuti ketimpangan yang ada, sehingga negara dan komunitas dengan kapasitas paling sedikit menghadapi beban terbesar.
@@ -4687,6 +4705,8 @@ Masa depan kasus bencana adalah peristiwanya makin sulit diklasifikasikan dan ke
 | Pakistan 2022 | Banjir | 1.700+ | Paparan dan kapasitas | Kerentanan struktural |
 | Seoul 2022 | Banjir | 141 | Ketimpangan perumahan | Lindungi penghuni basement |
 
+![Gambar 22.1 Kematian pada delapan bencana perkotaan dan kebakaran, pada skala logaritma](figures/fig22_1_id.png)||Sumber: Tabel 22.1. Lytton menunjukkan kematian di British Columbia pada 2021.
+
 Dua hal perlu ditekankan. Pertama, bahaya yang sama menghasilkan hasil sangat berbeda tergantung paparan, kerentanan, dan tata kelola, yang berarti sebagian besar kematian akibat bencana dapat dicegah secara prinsip. Kedua, kasus yang paling instruktif bukan yang paling besar tetapi yang paling diagnostik: mereka menyingkap sistem mana yang gagal dan mengapa.
 
 Ekspansi cepat rencana aksi panas dan infrastruktur pendinginan akan menurunkan kematian akibat bahaya yang tumbuh paling cepat. Investasi dalam drainase dan pengelolaan dataran banjir akan mengurangi kerugian banjir perkotaan. Dan data yang lebih baik tentang permukiman informal akan membuat terlihat orang-orang yang saat ini tidak ada dalam peta risiko resmi. Seberapa cepat pemanasan berlangsung tetap menentukan, karena ia menentukan seberapa jauh di luar pengalaman historis ekstrem masa depan akan terjadi.
@@ -4914,6 +4934,8 @@ Ketahanan pangan dan air 2050 akan ditentukan perpotongan tiga kurva: permintaan
 | Yaman 2017 | Air; konflik | Kolera | Sanitasi runtuh | Air sebagai keamanan |
 | Cape Town 2018 | Kekeringan; permintaan | Tidak ada | Keragaman pasokan | Kelola permintaan lebih awal |
 | São Paulo 2014–15 | Kekeringan; ketergantungan | Tidak ada | Sumber tunggal | Diversifikasi pasokan |
+
+![Gambar 23.1 Kematian pada empat krisis kekeringan dan kelaparan, pada skala logaritma](figures/fig23_1_id.png)||Sumber: Tabel 23.1. Suriah 2006–10 tidak dimasukkan karena tabel mencatat perpindahan, bukan kematian.
 
 Analisisnya menunjuk pada dua kesimpulan. Pertama, krisis pangan dan air dapat dicegah dengan pengetahuan dan sumber daya yang ada; yang gagal adalah kemauan politik, akses, dan waktu. Kedua, darurat lambat memerlukan investasi jangka panjang dalam air, perlindungan sosial, dan perdamaian, karena bantuan saja tidak dapat membalikkan pengurasan akuifer atau keruntuhan penghidupan.
 

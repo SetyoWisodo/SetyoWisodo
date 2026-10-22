@@ -5,6 +5,7 @@ bercaption (Table 3.1 ...).
 
 Dipakai oleh render_book.py (EN) dan render_book_id.py (ID).
 """
+import os
 import re
 from fpdf import FPDF
 
@@ -12,11 +13,12 @@ BODY_PT = 12.0
 LINE_H = 5.1          # mm, ~1.2 x 12 pt
 INDENT = 12.7         # mm, awal paragraf masuk
 FONT_DIR = "/home/user/SetyoWisodo/fonts"
+BOOK_DIR = "/home/user/SetyoWisodo"
 
 L = {
     "en": {
         "toc": "TABLE OF CONTENTS",
-        "lot": "LIST OF TABLES",
+        "lot": "LIST OF TABLES AND FIGURES",
         "chapter": "Chapter",
         "page": "page",
         "contents_hint": "",
@@ -34,7 +36,7 @@ L = {
     },
     "id": {
         "toc": "DAFTAR ISI",
-        "lot": "DAFTAR TABEL",
+        "lot": "DAFTAR TABEL DAN GAMBAR",
         "chapter": "Bab",
         "page": "hal.",
         "contents_hint": "",
@@ -384,6 +386,80 @@ def draw_heading(pdf, text, level, chapter_no=None, lang="en"):
 
 
 # ----------------------------------------------------------------- table -----
+def draw_figure(pdf, path, caption, source, lang="en"):
+    """Gambar satu blok gambar beserta caption dan baris sumber.
+
+    Gambar tidak pernah dipisahkan dari captionnya: bila tinggi gambar plus
+    caption plus sumber tidak muat, halaman baru dibuka lebih dulu.
+    """
+    if not os.path.isabs(path):
+        path = os.path.join(BOOK_DIR, path)
+    if not os.path.exists(path):
+        print("PERINGATAN: gambar tidak ditemukan:", path)
+        return None
+    from PIL import Image
+    with Image.open(path) as im:
+        iw, ih = im.size
+    width = pdf.epw
+    height = width * ih / iw
+
+    # pisahkan label ("Figure 2.1") dari teks caption bila sudah menyatu
+    m = re.match(r"^(Figure|Gambar)\s+([0-9]+\.[0-9]+)\s*(.*)$", caption.strip())
+    if m:
+        lab, caption = m.group(1) + " " + m.group(2), m.group(3)
+    else:
+        lab = "Figure" if lang == "en" else "Gambar"
+    lab = lab + " "
+    # perkiraan tinggi caption + sumber pada lebar kolom
+    pdf.set_font("TNR", "B", 9.5)
+    cap_w = pdf.get_string_width(lab) + pdf.get_string_width(caption)
+    cap_lines = 1 + int(cap_w // (width - 1))
+    pdf.set_font("TNR", "", 8.0)
+    src_lines = 1 + int(pdf.get_string_width(source) // (width - 1))
+    cap_h = 4.6 * cap_lines
+    src_h = 4.2 * src_lines
+    need = height + 3.0 + cap_h + 1.6 + src_h
+
+    if pdf.get_y() + need > pdf.page_break_trigger:
+        pdf.add_page()
+        pdf.set_y(pdf.t_margin)
+    if pdf.get_y() + height > pdf.page_break_trigger:
+        # gambar lebih tinggi daripada satu halaman: kecilkan
+        height = pdf.page_break_trigger - pdf.get_y() - cap_h - 6.0
+        width = height * iw / ih
+
+    y = pdf.get_y()
+    pdf.image(path, x=pdf.l_margin + (pdf.epw - width) / 2.0, y=y, w=width)
+    pdf.set_y(y + height + 2.4)
+    page = pdf.page
+
+    # caption: label tebal + teks biasa, di tengah
+    pdf.set_font("TNR", "B", 9.5)
+    lw = pdf.get_string_width(lab)
+    pdf.set_font("TNR", "", 9.5)
+    tw = pdf.get_string_width(caption)
+    if lw + tw <= width - 1:
+        x = pdf.l_margin + (pdf.epw - (lw + tw)) / 2.0
+        pdf.set_xy(x, pdf.get_y())
+        pdf.set_font("TNR", "B", 9.5)
+        pdf.cell(lw, 4.6, lab)
+        pdf.set_font("TNR", "", 9.5)
+        pdf.cell(tw + 1, 4.6, caption)
+        pdf.set_xy(pdf.l_margin, pdf.get_y() + 4.6)
+    else:
+        pdf.set_font("TNR", "B", 9.5)
+        pdf.multi_cell(0, 4.6, lab.strip(), align="C")
+        pdf.set_font("TNR", "", 9.5)
+        pdf.multi_cell(0, 4.6, caption, align="C")
+    if source:
+        pdf.set_font("TNR", "", 7.6)
+        pdf.set_text_color(90, 90, 90)
+        pdf.multi_cell(0, 3.9, source, align="C")
+        pdf.set_text_color(0, 0, 0)
+    pdf.ln(3.4)
+    return page
+
+
 def draw_table(pdf, rows, caption=None, lang="en", col_widths=None):
     """Gambar tabel bergaris dengan caption di atas (Table 3.1 ...)."""
     from fpdf.fonts import FontFace
@@ -606,8 +682,8 @@ def draw_toc_line(pdf, label, page_no, indent=0.0, bold=False):
         pdf.ln(h)
 
 
-def draw_toc(pdf, entries, tables, lang="en"):
-    """entries: [(label, page, indent)], tables: [(caption, page)]."""
+def draw_toc(pdf, entries, tables, lang="en", figures=None):
+    """entries: [(label, page, indent)], tables/figures: [(caption, page)]."""
     cfg = L[lang]
     pdf.front = False
     pdf.running_fallback = cfg["toc"]
@@ -637,6 +713,17 @@ def draw_toc(pdf, entries, tables, lang="en"):
             pdf.add_page()
             pdf.set_y(pdf.t_margin)
         draw_toc_line(pdf, caption, page_no)
+    if figures:
+        pdf.ln(6)
+        pdf.set_font("TNR", "B", BODY_PT)
+        pdf.cell(0, 7, "LIST OF FIGURES" if lang == "en" else "DAFTAR GAMBAR",
+                 align="C", new_x="LMARGIN", new_y="NEXT")
+        pdf.ln(2.0)
+        for caption, page_no in figures:
+            if pdf.get_y() + toc_line_height(pdf, caption, 4.0) > pdf.page_break_trigger:
+                pdf.add_page()
+                pdf.set_y(pdf.t_margin)
+            draw_toc_line(pdf, caption, page_no, indent=4.0)
 
 
 # ------------------------------------------------------------------ book -----
@@ -750,6 +837,25 @@ def parse_markdown(path):
     return lines
 
 
+def typographic(s):
+    """Kutip tipografis dan spasi satuan: tanda kutip lurus -> ‘ ’ / “ ”,
+    dan "2°C" -> "2 °C" agar konsisten di seluruh buku."""
+    if not s:
+        return s
+    out, prev = [], ""
+    for ch in s:
+        if ch == "'":
+            out.append("\u2018" if prev in ("", " ", "\t", "(", "[", "\u2014", "\u2013", "/", "\u201c") else "\u2019")
+        elif ch == '"':
+            out.append("\u201c" if prev in ("", " ", "\t", "(", "[", "\u2014", "\u2013", "/", "\u2018") else "\u201d")
+        else:
+            out.append(ch)
+        prev = ch
+    s = "".join(out)
+    s = re.sub(r"(\d)\s?°C", r"\1 °C", s)
+    return s
+
+
 def split_blocks(lines):
     """Ubah baris markdown menjadi blok terstruktur."""
     blocks, i = [], 0
@@ -763,12 +869,19 @@ def split_blocks(lines):
             continue
         m = re.match(r"^(#{1,3})\s+(.*)$", s)
         if m:
-            blocks.append(("h%d" % len(m.group(1)), m.group(2).strip(), ""))
+            blocks.append(("h%d" % len(m.group(1)), typographic(m.group(2).strip()), ""))
+            i += 1
+            continue
+        m = re.match(r"^!\[([^\]]*)\]\(([^)]+)\)(?:\|\|(.+))?\s*$", s)
+        if m:
+            blocks.append(("figure", (m.group(2).strip(),
+                                       typographic(m.group(1).strip()),
+                                       typographic((m.group(3) or "").strip())), ""))
             i += 1
             continue
         m = re.match(r"^\[\[TABLE:\s*(.*?)\]\]\s*$", s)
         if m:
-            blocks.append(("caption", m.group(1), ""))
+            blocks.append(("caption", typographic(m.group(1)), ""))
             i += 1
             continue
         if s.strip().startswith("|"):
@@ -776,31 +889,31 @@ def split_blocks(lines):
             while i < len(lines) and lines[i].strip().startswith("|"):
                 cells = [c.strip() for c in lines[i].strip().strip("|").split("|")]
                 if not all(re.fullmatch(r":?-{2,}:?", c) for c in cells if c):
-                    rows.append(cells)
+                    rows.append([typographic(c) for c in cells])
                 i += 1
             blocks.append(("table", rows, ""))
             continue
         if s.strip().startswith("> "):
-            blocks.append(("quote", s.strip()[2:].strip(), ""))
+            blocks.append(("quote", typographic(s.strip()[2:].strip()), ""))
             i += 1
             continue
         if s.strip().startswith("- "):
-            blocks.append(("li", s.strip()[2:].strip(), ""))
+            blocks.append(("li", typographic(s.strip()[2:].strip()), ""))
             i += 1
             continue
         m = re.match(r"^\d+\.\s+(.*)$", s.strip())
         if m:
-            blocks.append(("li", m.group(1).strip(), ""))
+            blocks.append(("li", typographic(m.group(1).strip()), ""))
             i += 1
             continue
         # paragraf: gabung baris berurutan
         para = [s.strip()]
         i += 1
         while i < len(lines) and lines[i].strip() and not re.match(
-                r"^(#{1,3}\s|\[\[TABLE:|\||- |> |\d+\.\s)", lines[i].strip()):
+                r"^(#{1,3}\s|\[\[TABLE:|!\[|\||- |> |\d+\.\s)", lines[i].strip()):
             para.append(lines[i].strip())
             i += 1
-        blocks.append(("p", " ".join(para), ""))
+        blocks.append(("p", typographic(" ".join(para)), ""))
     return blocks
 
 
@@ -819,12 +932,14 @@ def render(md_path, out_pdf, lang="en", title=None):
     index_re = (re.compile(r"\b(" + "|".join(re.escape(t) for t in sorted(index_terms, key=len, reverse=True)) + r")\b", re.I)
                 if index_terms else None)
 
-    def build(page_map=None, table_map=None, index_map=None):
+    def build(page_map=None, table_map=None, index_map=None, fig_map=None):
         pdf = Book(lang)
         cright = COPY[lang]
         pdf._idx_letter = None
         if index_map is None:
             index_map = {}
+        if fig_map is None:
+            fig_map = {}
         # ---------- cover ----------
         pdf.add_page()
         pdf.ln(38)
@@ -870,10 +985,12 @@ def render(md_path, out_pdf, lang="en", title=None):
                 toc_entries.append((label, page_map.get(label, 0), 7.0))
         pdf.front = True
         draw_toc(pdf, toc_entries, [(c, table_map.get(c, 0)) for c in
-                                    [b[1] for b in blocks if b[0] == "caption"]], lang)
+                                    [b[1] for b in blocks if b[0] == "caption"]], lang,
+                 [(b[1][1], (fig_map or {}).get(b[1][1], 0))
+                  for b in blocks if b[0] == "figure"])
         pdf.front = False
 
-        new_pages, new_tables = {}, {}
+        new_pages, new_tables, new_figs = {}, {}, {}
         caption_pending = None
         li_buf = []
 
@@ -951,6 +1068,10 @@ def render(md_path, out_pdf, lang="en", title=None):
                 if caption_pending:
                     new_tables[caption_pending] = pg
                 caption_pending = None
+            elif kind == "figure":
+                pg = draw_figure(pdf, val[0], val[1], val[2], lang=lang)
+                if pg:
+                    new_figs[val[1]] = pg
             elif kind == "quote":
                 draw_paragraph(pdf, val, indent=0.0, left=8.0, right=8.0)
                 pdf.ln(0.6)
@@ -980,18 +1101,18 @@ def render(md_path, out_pdf, lang="en", title=None):
                             for pg_i in range(start_pg, pdf.page + 1):
                                 index_map.setdefault(key, set()).add(pg_i)
         flush_li(pdf)
-        return pdf, new_pages, new_tables, index_map
+        return pdf, new_pages, new_tables, index_map, new_figs
 
-    pdf, pages, tables, index_map = build()
+    pdf, pages, tables, index_map, figs = build()
     # pass berikutnya dengan nomor halaman nyata; ulangi sampai paginasi stabil
     stable = False
     for _ in range(8):
-        pdf2, pages2, tables2, index_map = build(pages, tables, index_map)
+        pdf2, pages2, tables2, index_map, figs2 = build(pages, tables, index_map, figs)
         pdf = pdf2
-        if pages2 == pages and tables2 == tables:
+        if pages2 == pages and tables2 == tables and figs2 == figs:
             stable = True
             break
-        pages, tables = pages2, tables2
+        pages, tables, figs = pages2, tables2, figs2
     if not stable:
         print("WARNING: pagination not fully stable; last pass used")
 

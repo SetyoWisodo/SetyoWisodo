@@ -301,15 +301,15 @@ from references import REFS_ID as REFS
 REFS = list(dict.fromkeys(REFS))
 
 EXPERTS = [
- "Dr. James Hansen, former NASA GISS Director (2013 op-ed/2016 paper): 'Kenaikan permukaan laut beberapa meter dapat diperkirakan pada pemanasan 2°C — dan 2°C akan membawa konsekuensi yang pantas disebut bencana.'",
- "Prof. Katharine Hayhoe, Texas Tech Chief Scientist (2014, post-IPCC AR5): 'Perubahan iklim ada di sini dan sekarang, bukan di waktu atau tempat yang jauh — pilihan yang kita buat hari ini akan berdampak besar pada masa depan kita.'",
- "Dr. Michael Mann, Penn State climatologist (2004/2021): 'Konsensus ilmiah bahwa iklim menghangat karena manusia hampir sekukuh konsensus tentang gravitasi — banyak lini bukti independen bertemu pada kesimpulan yang sama.'",
- "Dr. Friederike Otto, Imperial College / World Weather Attribution co-founder (2021): 'Gelombang panas Pacific Northwest 2021 hampir mustahil terjadi tanpa perubahan iklim yang disebabkan manusia.'",
- "Prof. Johan Rockström, Potsdam Institute & Stockholm Resilience Centre (2009 Nature; 2023 update): 'Kami mendefinisikan batas planet sebagai ruang tempat manusia dapat beroperasi dengan aman — enam dari sembilan batas kini terlampaui, jauh di luar ruang aman itu.'",
+ "James Hansen, mantan direktur Goddard Institute for Space Studies NASA, berpendapat pada 2013 bahwa dua derajat pemanasan sudah cukup untuk memperkirakan kenaikan permukaan laut beberapa meter, dan menyebut konsekuensinya sebagai bencana.",
+ "Katharine Hayhoe, ilmuwan iklim Texas Tech (2014, setelah penilaian kelima IPCC): perubahan iklim terjadi di sini dan sekarang, bukan di tempat atau waktu yang jauh, dan pilihan yang dibuat hari ini akan menentukan masa depan.",
+ "Michael Mann, ahli iklim Penn State (2004; 2021): konsensus ilmiah tentang perubahan iklim akibat manusia sebanding dengan konsensus tentang gravitasi, karena banyak jalur bukti independen bertemu.",
+ "Friederike Otto, Imperial College dan salah satu pendiri World Weather Attribution (2021): gelombang panas Pasifik Barat Laut 2021 nyaris mustahil terjadi tanpa perubahan iklim akibat manusia.",
+ "Johan Rockström, Potsdam Institute for Climate Impact Research dan Stockholm Resilience Centre (2009 Nature; pembaruan 2023): batas planet mendefinisikan ruang aman bagi umat manusia, dan enam dari sembilan batas itu kini terlampaui.",
  "Dr. Saleemul Huq, ICCCAD Director (COP speeches, 2015-2023): 'Adaptasi atau mati — adaptasi adalah kelangsungan hidup, dan dana kerugian serta kerusakan harus permanen dalam Perjanjian Paris bagi negara rentan.'",
  "Prof. Nicholas Stern, LSE Grantham Institute (Stern Review 2006): 'Perubahan iklim adalah kegagalan pasar terbesar yang pernah terlihat — manfaat tindakan dini yang kuat jauh melampaui biaya ketidakbertindakan.'",
  "Dr. Maria Neira, WHO Department of Environment, Climate & Health (2021 COP26 Special Report): 'Perubahan iklim adalah ancaman kesehatan tunggal terbesar yang dihadapi umat manusia — pembakaran bahan bakar fosil membunuh kita.'",
- "Prof. Hans-Otto Pörtner, IPCC WGII Co-Chair (IPCC AR6 WGII press conference 28 Feb 2022): 'Perubahan iklim adalah ancaman bagi kesejahteraan manusia dan kesehatan planet — penundaan lebih lanjut akan melewatkan jendela singkat yang cepat menutup untuk masa depan yang layak huni.'",
+ "Friederike Otto, Imperial College dan salah satu pendiri World Weather Attribution (2021): gelombang panas Pasifik Barat Laut 2021 nyaris mustahil terjadi tanpa perubahan iklim akibat manusia.",
  "Dr. Debra Roberts, IPCC WGII Co-Chair Durban (AR6 WGII 2022): 'Adaptasi dan mitigasi harus dikejar dengan kekuatan dan urgensi yang sama — tindakan setengah hati bukan lagi pilihan.'",
  "Prof. Michael Oppenheimer, Princeton SROCC Lead Author (SROCC Ch.4, 2019; SciLine 2021): 'Tidak ada skenario yang menghentikan kenaikan permukaan laut pada abad ini — permukaan laut sudah terkunci untuk naik selama berabad-abad akibat panas laut dan respons lapisan es.'",
  "Dr. Cynthia Rosenzweig, NASA GISS / AgMIP founder, World Food Prize 2022 (NYT 2019; WFP laureate statement): 'Potensi risiko kegagalan di banyak lumbung pangan meningkat — sistem pangan menghadapi ekstrem yang meningkat dan menuntut adaptasi sistemik.'",
@@ -1045,6 +1045,8 @@ _refs_md += ["", "## Bacaan Lanjutan", "",
 _refs_md += [f"- {r}" for r in _further_refs]
 content = content.replace("@@REFS@@", "\n".join(_refs_md))
 print("gate1 citations added:", n_cit)
+import figures as _figures
+content = _figures.insert(content, "id")
 with open('/home/user/SetyoWisodo/book_id.md','w',encoding='utf-8') as f:
     f.write(content)
 print("words:", len(content.split()))

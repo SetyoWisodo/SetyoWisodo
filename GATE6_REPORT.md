@@ -15,10 +15,10 @@
 | P4 | Nomor halaman Daftar Isi cocok dengan halaman sebenarnya | 0 selisih | **0** |
 | P5 | Font tertanam (embedded), hanya Times-metric | 100 % | **Tinos Regular/Bold/Italic, ketiga-tiganya tertanam** |
 | P6 | Kerapatan spasi baris *justify* terkendali | p90 < 2,2× spasi alami | **1,84× (EN) / 2,13× (ID)** |
-| P7 | Panjang buku dalam rentang yang diminta | 400–500 hlm | **425 (EN) / 437 (ID)** |
+| P7 | Panjang buku dalam rentang yang diminta | 400–500 hlm | **430 (EN) / 445 (ID)** |
 | P8 | Tidak ada duplikasi isi antarparagraf | 0 pasangan skor ≥ 5,0 | **0 (EN) / 0 (ID)** |
 | P9 | Aparatus bersih setelah semua penyuntingan | 0 masalah | **402 EN / 350 ID, 0** |
-| P10 | Berkas penerbitan tersedia (EPUB 3 + DOCX) dengan isi sepadan PDF | ada, isi sebanding | **EPUB 42 berkas, 32 bab, 25 tabel; DOCX 2.803 / 2.806 paragraf, 25 tabel; `audit_epub.py` bersih** |
+| P10 | Berkas penerbitan tersedia (EPUB 3 + DOCX) dengan isi sepadan PDF | ada, isi sebanding | **EPUB 53 berkas, 32 bab, 25 tabel, 11 gambar bertalt; DOCX 2.836 / 2.839 paragraf, 25 tabel, 11 gambar; `audit_epub.py` bersih** |
 | P11 | Sampul cetak siap unggah (300 dpi, bleed, punggung terhitung) | ada | **kedua edisi** |
 
 ---
@@ -152,6 +152,24 @@ Tambahan: `audit_epub.py` (pemeriksa struktur EPUB pengganti `epubcheck`), DOCX 
 
 Dampak pada paginasi: EN 412 → 425, ID 432 → 437, keduanya masih di dalam rentang. Semua pemeriksaan dijalankan ulang dan tetap bersih.
 
+### 2.12 Pemeriksaan kesiapan edar
+
+Penilaian kesiapan edar (rincian dan skor di `BOOK_READINESS.md`) menemukan tujuh cacat kecil yang tidak
+tertangkap auditor otomatis, semuanya sudah diperbaiki:
+
+| Temuan | Perbaikan |
+|---|---|
+| Gambar data tidak pernah dirujuk dari daftar dan tidak muncul di daftar isi | Daftar Tabel menjadi **Daftar Tabel dan Gambar** dengan sub-daftar gambar; 11 entri berhalaman |
+| Label di dalam gambar berbahasa Inggris pada edisi Indonesia | Setiap gambar dibuat dua versi; sumbu, satuan, dan kategori diterjemahkan, angka tetap sama |
+| Tanda kutip lurus dan satuan tidak konsisten (`2°C`) | Pass tipografis: ‘ ’ “ ” dan `2 °C` di seluruh badan, termasuk sel tabel |
+| Lima epigraf mengatasnamakan ilmuwan dengan kata-kata yang tidak verbatim | Diubah menjadi kalimat tak langsung dengan atribusi dan tahun; tidak ada lagi klaim kutipan langsung |
+| Zona barcode sampul berwarna latar, bukan putih | Kotak putih 2 × 1,2 inci, 0,35 inci dari tepi potong, terverifikasi sampel piksel |
+| Blurb sampul menyebut “siklon yang sama” untuk 1970 dan 1991, dan tidak menyebut gambar | Dua kalimat diperbaiki di kedua bahasa |
+| Kalimat baru memicu dua temuan `check_citations` | Ditulis ulang tanpa tanda kurung tahun; aparatus kembali 0 masalah |
+
+Dampak paginasi: EN 412 → 430, ID 432 → 445 (gambar dan daftar gambar). Punggung sampul dihitung ulang
+otomatis (1,075 dan 1,113 inci). Semua auditor dijalankan ulang dan bersih.
+
 ---
 
 ## 3. Hasil pemeriksaan produksi
@@ -160,8 +178,8 @@ Dampak pada paginasi: EN 412 → 425, ID 432 → 437, keduanya masih di dalam re
 
 | Butir | EN | ID |
 |---|---|---|
-| Halaman | **425** | **437** |
-| Ukuran berkas | 2,29 MB | 2,09 MB |
+| Halaman | **430** | **445** |
+| Ukuran berkas | 2,84 MB | 2,65 MB |
 | Format | A4 (210 × 297 mm) | sama |
 | Metadata judul | *Surviving the Future: Crisis, Climate, and Human Resilience* | *Surviving the Future: Krisis, Iklim, dan Ketahanan Manusia* |
 | Metadata penulis | Setyo Wisodo | Setyo Wisodo |
@@ -180,13 +198,13 @@ Pemeriksaan naskah:
 | `check_citations.py` | 402 EN / 350 ID, **0 masalah** |
 | `fact_check.py` | **0 gagal** |
 | `data_consistency.py` | 2 kandidat EN / 2 ID (keduanya rasio yang disengaja) |
-| Kata (`wc -w`) | **200.023 EN / 166.515 ID** |
+| Kata (`wc -w`) | **200.271 EN / 166.753 ID** |
 
 ---
 
 ## 4. Keterbatasan dan pekerjaan yang belum selesai
 
-1. **Deduplikasi paragraf selesai pada ambang kerja.** Tidak ada lagi pasangan paragraf berskor ≥ 5,0 di kedua edisi. Sisa 85 pasangan EN dan 98 ID pada ambang 3,2–4,9 adalah kasus satu bagian yang menyebut peristiwa yang sama dari dua sudut yang berbeda — angka di satu paragraf, mekanisme di paragraf lain — dan sifatnya komplementer, bukan berulang. Daftar lengkapnya tersimpan di `DEDUP_STATUS.txt` untuk pemeriksaan manual bila diperlukan.
+1. **Deduplikasi paragraf selesai pada ambang kerja.** Tidak ada lagi pasangan paragraf berskor ≥ 5,0 di kedua edisi. Sisa 87 pasangan EN dan 98 ID pada ambang 3,2–4,9 (skor tertinggi 4,8 EN / 4,9 ID; `DEDUP_STATUS.txt` adalah cuplikan lintasan Gate 6) adalah kasus satu bagian yang menyebut peristiwa yang sama dari dua sudut yang berbeda — angka di satu paragraf, mekanisme di paragraf lain — dan sifatnya komplementer, bukan berulang. Daftar lengkapnya tersimpan di `DEDUP_STATUS.txt` untuk pemeriksaan manual bila diperlukan.
 2. **Tingkat 3,2–4,9 belum disisir satu per satu.** Penyisiran itu membutuhkan pembacaan sekitar 180 pasangan, dan hasil yang diharapkan kecil karena sebagian besar adalah kesamaan topik yang wajar dalam bab studi kasus.
 3. **Verifikasi EPUB masih struktural.** `epubcheck` tidak tersedia di lingkungan ini, sehingga EPUB diperiksa dengan `zipfile.testzip()`, urutan `mimetype`, dan pembacaan manual `content.opf`, `nav.xhtml`, serta `toc.ncx`. Isinya sepadan dengan PDF, tetapi validasi formal W3C sebaiknya dijalankan sebelum unggah ke toko.
 4. **Penomoran halaman mengikuti halaman PDF, bukan angka romawi/arab terpisah.** Bagian depan (sampul, daftar isi, daftar tabel) memakai nomor yang sama dengan badan buku. Untuk penerbit yang menuntut penomoran terpisah, `book_pdf.Book.footer` adalah satu-satunya tempat yang perlu diubah.
@@ -201,6 +219,7 @@ Pemeriksaan naskah:
 - tabel dipecah lintas halaman dengan header berulang;
 - tidak ada lagi duplikasi paragraf berskor ≥ 5,0;
 - aparatus sitasi bersih (402 EN / 350 ID), pemeriksaan fakta 0 gagal;
-- panjang 425 halaman (EN) dan 437 (ID), di dalam rentang 400–500.
+- panjang 430 halaman (EN) dan 445 (ID), di dalam rentang 400–500;
+- 11 gambar data per edisi, diturunkan dari tabel yang sudah ada tanpa angka baru.
 
 Buku siap untuk tahap penerbitan: dua berkas PDF A4 dengan teks lengkap, aparatus akademik lengkap, dan navigasi PDF yang berfungsi. Langkah berikutnya di luar gate ini adalah desain sampul cetak dan konversi ke EPUB/DOCX, yang membutuhkan pipeline terpisah dari renderer PDF ini.

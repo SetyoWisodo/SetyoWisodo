@@ -13,9 +13,10 @@ import re
 
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.shared import Mm, Pt
+from docx.shared import Mm, Pt, RGBColor
 
 import book_pdf
+import figures as figmod
 
 BOOKS = [
     {
@@ -31,8 +32,8 @@ BOOKS = [
         "subjects": ["SCIENCE / Global Warming & Climate Change",
                      "NATURE / Natural Disasters",
                      "SOCIAL SCIENCE / Disasters & Disaster Relief"],
-        "description": "How societies survive the crises caused by global warming: 24 chapters, 25 data tables, 24 case studies, and the evidence behind each prediction.",
-        "a11y": "Reflowable text with a two-level table of contents and structural navigation; tables are marked up with column headers. No audio or video, no flashing content.",
+        "description": "How societies survive the crises caused by global warming: 24 chapters, 25 data tables, 11 data figures, 24 case studies, and the evidence behind each prediction.",
+        "a11y": "Reflowable text with a two-level table of contents and structural navigation; tables are marked up with column headers and every data figure carries alternative text. No audio or video, no flashing content.",
         "uid": "urn:uuid:sf-en-2026",
     },
     {
@@ -48,11 +49,27 @@ BOOKS = [
         "subjects": ["SCIENCE / Global Warming & Climate Change",
                      "NATURE / Natural Disasters",
                      "SOCIAL SCIENCE / Disasters & Disaster Relief"],
-        "description": "Bagaimana masyarakat bertahan dari krisis akibat pemanasan global: 24 bab, 25 tabel data, 24 studi kasus, dan bukti di balik setiap prediksi.",
-        "a11y": "Teks reflowable dengan daftar isi dua tingkat dan navigasi struktural; tabel ditandai dengan kepala kolom. Tanpa audio atau video, tanpa konten berkedip.",
+        "description": "Bagaimana masyarakat bertahan dari krisis akibat pemanasan global: 24 bab, 25 tabel data, 11 gambar data, 24 studi kasus, dan bukti di balik setiap prediksi.",
+        "a11y": "Teks reflowable dengan daftar isi dua tingkat dan navigasi struktural; tabel ditandai dengan kepala kolom dan setiap gambar data memiliki teks alternatif. Tanpa audio atau video, tanpa konten berkedip.",
         "uid": "urn:uuid:sf-id-2026",
     },
 ]
+
+
+def split_caption(caption):
+    """'Figure 2.1 Teks' -> ('Figure 2.1', 'Teks')."""
+    m = re.match(r"^(Figure|Gambar)\s+([0-9]+\.[0-9]+)\s*(.*)$", caption.strip())
+    if not m:
+        return "", caption
+    return m.group(1) + " " + m.group(2), m.group(3)
+
+
+def figure_alt(caption, lang):
+    """Teks alternatif untuk pembaca layar, diambil dari figures.py."""
+    for f in figmod.FIGURES:
+        if caption == figmod.caption(f, lang):
+            return f["alt_" + lang]
+    return caption
 
 
 def inline_html(text):
@@ -117,6 +134,16 @@ def chapter_xhtml(title, blocks, is_first):
             parts.append("<table>%s</table>" % "".join(rows))
         elif kind == "caption":
             parts.append('<p class="caption">%s</p>' % inline_html(val))
+        elif kind == "figure":
+            path, caption, source = val
+            alt = figure_alt(caption, _LANG)
+            src_html = ('<br/><span class="figsrc">%s</span>' % inline_html(source)
+                        if source else "")
+            flabel, ftext = split_caption(caption)
+            parts.append('<figure class="fig"><img src="%s" alt="%s"/>'
+                         '<figcaption><span class="figlabel">%s</span> %s%s</figcaption></figure>'
+                         % (html.escape(path), html.escape(alt),
+                            html.escape(flabel), inline_html(ftext), src_html))
         elif kind == "quote":
             parts.append("<blockquote><p>%s</p></blockquote>" % inline_html(val))
         elif kind == "li":
@@ -141,6 +168,11 @@ h2 { font-size: 1.12em; margin: 1.4em 0 0.35em 0; }
 h3 { font-size: 1em; font-style: italic; margin: 1.1em 0 0.3em 0; }
 p { text-align: justify; text-indent: 1.27em; margin: 0 0 0.35em 0; }
 p.caption { text-align: center; font-weight: bold; text-indent: 0; margin-top: 1em; }
+figure.fig { margin: 1.2em 0 1.4em 0; text-align: center; page-break-inside: avoid; }
+figure.fig img { max-width: 100%; height: auto; }
+figure.fig figcaption { font-size: 0.9em; margin-top: 0.5em; text-indent: 0; }
+span.figlabel { font-weight: bold; }
+span.figsrc { color: #555; font-size: 0.92em; }
 p.theme { font-style: italic; text-indent: 0; margin: 0.2em 0 0.9em 0; }
 p.li { text-indent: 0; margin-left: 1.4em; text-align: left; }
 blockquote { margin: 0.8em 1.6em; font-size: 0.96em; }
@@ -186,6 +218,25 @@ def build_epub(cfg):
             spine.append(item_id or name.replace(".", "-").replace("/", "-"))
 
     add("style.css", CSS, "text/css", "style")
+
+    # ---- gambar data: berkas PNG ikut masuk ke dalam EPUB ----
+    seen_fig = set()
+    for _title, blks in chapters:
+        for kind, val in blks:
+            if kind != "figure":
+                continue
+            rel = val[0].replace("\\", "/")
+            if rel in seen_fig:
+                continue
+            seen_fig.add(rel)
+            full = rel if os.path.isabs(rel) else os.path.join(book_pdf.BOOK_DIR, rel)
+            if not os.path.exists(full):
+                print("PERINGATAN: gambar hilang:", full)
+                continue
+            with open(full, "rb") as fh:
+                add(rel, fh.read(), "image/png",
+                    "fig-" + os.path.basename(rel).replace(".png", "").replace("_", "-"))
+    print("epub figures:", len(seen_fig))
 
     has_cover = os.path.exists(cfg["img"])
     if has_cover:
@@ -513,6 +564,40 @@ def build_docx(cfg):
             p.paragraph_format.space_before = Pt(8)
             p.paragraph_format.keep_with_next = True
             r = p.add_run(val); r.bold = True; r.font.size = Pt(10)
+        elif kind == "figure":
+            path, caption, source = val
+            full = path if os.path.isabs(path) else os.path.join(book_pdf.BOOK_DIR, path)
+            if os.path.exists(full):
+                p = doc.add_paragraph()
+                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p.paragraph_format.first_line_indent = Mm(0)
+                p.paragraph_format.space_before = Pt(8)
+                p.paragraph_format.keep_with_next = True
+                run = p.add_run()
+                run.add_picture(full, width=Mm(150))
+                try:
+                    doc.inline_shapes[-1]._inline.docPr.set(
+                        "descr", figure_alt(caption, cfg["lang"]))
+                except Exception:
+                    pass
+            else:
+                print("PERINGATAN: gambar hilang:", full)
+            p = doc.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.paragraph_format.first_line_indent = Mm(0)
+            p.paragraph_format.space_before = Pt(4)
+            p.paragraph_format.keep_with_next = bool(source)
+            flabel, ftext = split_caption(caption)
+            r = p.add_run(flabel + " "); r.bold = True; r.font.size = Pt(9.5)
+            r = p.add_run(ftext); r.font.size = Pt(9.5)
+            if source:
+                p = doc.add_paragraph()
+                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p.paragraph_format.first_line_indent = Mm(0)
+                p.paragraph_format.space_after = Pt(10)
+                r = p.add_run(source)
+                r.italic = True; r.font.size = Pt(8)
+                r.font.color.rgb = RGBColor(0x5A, 0x5A, 0x5A)
         elif kind == "quote":
             p = doc.add_paragraph()
             p.paragraph_format.left_indent = Mm(12.7)

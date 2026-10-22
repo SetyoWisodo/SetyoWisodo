@@ -12,23 +12,24 @@ Case Study and a Future Scenarios section that states what would falsify its own
 
 | | EN | ID |
 |---|---|---|
-| Pages (A4, 12 pt Tinos) | **425** | **437** |
-| Words (`wc -w`) | **200,023** | **166,515** |
+| Pages (A4, 12 pt Tinos) | **430** | **445** |
+| Words (`wc -w`) | **200,271** | **166,753** |
 | In-text citations | 402 | 350 |
 | References | 145 (130 cited in text) | 145 (124 cited in text) |
 | PDF outline entries | 327 | 327 |
+| Data figures | 11 | 11 |
 
 ## Ready-to-publish files (`publish/`)
 
 | File | Purpose |
 |---|---|
-| `Surviving_the_Future.pdf` (repo root) | A4 reading/print PDF, 425 pp |
-| `Surviving_the_Future_ID.pdf` (repo root) | A4 reading/print PDF, 437 pp |
+| `Surviving_the_Future.pdf` (repo root) | A4 reading/print PDF, 430 pp |
+| `Surviving_the_Future_ID.pdf` (repo root) | A4 reading/print PDF, 445 pp |
 | `*_cover_print.pdf` | Full paperback wrap (back + spine + front), 300 dpi, 0.125 in bleed, spine sized from the page count, with a clear 2 × 1.2 in retail barcode area |
 | `*_cover_front.jpg` | Front cover, for ebook and marketplaces |
-| `*.epub` | EPUB 3 ebook (title and copyright pages, nav + NCX + landmarks, accessibility metadata, XHTML tables with `th scope`) |
-| `*.docx` | Editable manuscript: A4, mirror margins, Times New Roman 12 pt, justified, 12.7 mm indent, Heading styles, TOC field, running heads and page numbers |
-| `*_interior.pdf` | Byte-identical copy of the A4 interior PDF (425 / 437 pp) for uploading with the cover |
+| `*.epub` | EPUB 3 ebook (title and copyright pages, nav + NCX + landmarks, accessibility metadata, XHTML tables with `th scope`, `<figure>` blocks with alternative text) |
+| `*.docx` | Editable manuscript: A4, mirror margins, Times New Roman 12 pt, justified, 12.7 mm indent, Heading styles, TOC field, running heads, page numbers, figures at 150 mm with `descr` alt text |
+| `*_interior.pdf` | Byte-identical copy of the A4 interior PDF (430 / 445 pp) for uploading with the cover |
 | `build_report.json` | Page count, trim, bleed, spine width, cover size, dpi and file paths per edition |
 
 The interior PDFs are A4 with 30 mm margins, and `book/publish/*_interior.pdf` are byte-identical
@@ -37,12 +38,13 @@ wraparound from one folder.
 
 ## Building
 
-Requirements: Python 3.10+ with `fpdf2`, `pyphen`, `pymupdf`, `python-docx`, `pillow`.
+Requirements: Python 3.10+ with `fpdf2`, `pyphen`, `pymupdf`, `python-docx`, `pillow`, `matplotlib`.
 
 ```bash
-pip install --break-system-packages fpdf2 pyphen pymupdf python-docx pillow
+pip install --break-system-packages fpdf2 pyphen pymupdf python-docx pillow matplotlib
 
-python gen_book.py && python gen_book_id.py      # book.md, book_id.md
+python make_figures.py                             # figures/*.png (EN + *_id.png)
+python gen_book.py && python gen_book_id.py      # book.md, book_id.md (figures inserted)
 python check_citations.py && python fact_check.py
 python render_book.py && python render_book_id.py  # the two A4 PDFs
 cp Surviving_the_Future.pdf book/publish/Surviving_the_Future_EN_interior.pdf

@@ -22,15 +22,15 @@ Data underpinning the discussion is summarized as follows:
 
 The expert consensus underpinning this book is summarized as follows.
 
-> Dr. James Hansen, former NASA GISS Director (2013 op-ed/2016 paper): 'Sea level rise of several meters could be expected with 2°C warming — 2°C would have consequences that can be described as disastrous.'
+> James Hansen, former director of NASA's Goddard Institute for Space Studies, argued in 2013 that two degrees of warming would be enough to expect several metres of sea-level rise, and called the consequences disastrous.
 
-> Prof. Katharine Hayhoe, Texas Tech Chief Scientist (2014, post-IPCC AR5): 'Climate change is here and now, and not in some distant time or place — the choices we make today will have a significant impact on our future.'
+> Katharine Hayhoe, Texas Tech climate scientist (2014, after the IPCC fifth assessment): climate change is here and now rather than in some distant time or place, and the choices made today will shape what the future holds.
 
-> Dr. Michael Mann, Penn State climatologist (2004/2021): 'There is about as much scientific consensus about human-caused climate change as there is about gravity — multiple independent lines of evidence converge.'
+> Michael Mann, Penn State climatologist (2004; 2021): the scientific consensus on human-caused climate change is comparable to the consensus on gravity, because multiple independent lines of evidence converge.
 
-> Dr. Friederike Otto, Imperial College / World Weather Attribution co-founder (2021): 'The Pacific Northwest 2021 heatwave would have been virtually impossible without human-caused climate change.'
+> Friederike Otto, Imperial College and co-founder of World Weather Attribution (2021): the Pacific Northwest heatwave of 2021 would have been virtually impossible without human-caused climate change.
 
-> Prof. Johan Rockström, Potsdam Institute & Stockholm Resilience Centre (2009 Nature; 2023 update): 'We define planetary boundaries within which humanity can operate safely — six of nine boundaries are now transgressed, well outside the safe operating space.'
+> Johan Rockström, Potsdam Institute for Climate Impact Research and Stockholm Resilience Centre (2009 Nature; 2023 update): planetary boundaries define a safe operating space for humanity, and six of the nine are now transgressed.
 
 ---
 
@@ -440,6 +440,8 @@ Regionally, the three trajectories diverge far more than the global averages sug
 | Current policies strengthened (SSP2-4.5) | Slow tightening, net zero late century | ~2.0°C | ~2.7°C (2.1–3.5) | CO2 near 500 ppm by 2060; Arctic summers ice-free before 2050 |
 | Stalled decarbonisation (SSP5-8.5) | Fossil dominance continues to 2100 | ~2.6°C | ~4.4°C (3.3–5.7) | CO2 above 700 ppm; sea-level rise above 0.8 m and accelerating |
 
+![Figure 2.1 Warming in 2050 and 2100 under three emission trajectories](figures/fig2_1.png)||Source: Table 2.1. Bars show the 2100 range; SSP scenarios as summarised in IPCC (2021, 2023).
+
 What would change these numbers is worth stating as plainly as the numbers themselves. A larger climate sensitivity than the central estimate, a faster loss of the land carbon sink, or an earlier collapse of Arctic summer sea ice would all push the outcomes toward the upper end. A faster decline in methane, a stronger aerosol effect from air-quality policy, or large-scale carbon removal would push them down. None of these possibilities can be resolved by argument; they will be resolved by measurement, and the measurements that matter are the ones this chapter has described — concentration, temperature, ocean heat, ice mass and sea level.
 
 For the reader, the practical implication is a shift in attention. The question is no longer whether the physics is settled; it is which of three trajectories is being followed, and how quickly the answer becomes visible. That question is answered not by climate models but by the energy system, which is the subject of the chapters that follow.
@@ -835,6 +837,8 @@ The useful way to think about future heat is not the global average but the numb
 | Athens | ~30 | ~55 | Moderate | Building codes; tree canopy |
 | Phoenix | ~110 | ~150 | Low but extreme | Cooling for homeless; grid capacity |
 
+![Figure 4.1 Days above 35 °C now and in 2050 in six cities](figures/fig4_1.png)||Source: Table 4.1; SSP2-4.5 for the 2050 column.
+
 The evidence supports two conclusions. The first is that heat risk is not determined by temperature alone: the same number of hot days produces very different mortality depending on housing, water, power and social protection. The second is that the largest gains come from interventions that are boring and cheap — shade, water, warnings, check-ins on elderly neighbours — rather than from technologies that are expensive and unproven. A city that does the boring things well can save thousands of lives at 1.5°C and still save many at 2.5°C, though the margin narrows (Iungman et al., 2023).
 
 A breakthrough in cheap, efficient cooling would reduce mortality in hot countries but would increase electricity demand and emissions unless it were paired with clean generation. A collapse of the power grid during a heatwave would turn a manageable event into a catastrophe, as happened in Texas in 2021 and in India in 2012. And a wet-bulb event above the physiological threshold would create a situation in which adaptation is impossible and only evacuation remains.
@@ -1040,6 +1044,8 @@ The water gap of 2050 will be determined less by total rainfall than by the inte
 | Citarum (Java) | ~25 | Very high | 20–30% | Wastewater treatment; reforestation |
 | Murray–Darling | ~2.4 | High | 10–20% | Water trading; environmental flows |
 | Tigris–Euphrates | ~60 | Very high | 30–40% | Dam coordination; irrigation reform |
+
+![Figure 5.1 People depending on six stressed basins, and the supply gap they face in 2050](figures/fig5_1.png)||Source: Table 5.1; gap is the shortfall against projected demand under SSP2-4.5.
 
 Two lessons emerge from this. The first is that the gap is largest in basins where agriculture dominates and groundwater is unregulated, which means that the most important interventions are agricultural rather than urban. The second is that the gap can be closed with existing technology; the obstacle is the political cost of reallocating water from one user to another. A basin that caps withdrawals will produce less in the short term, and the farmers who lose water will resist.
 
@@ -1248,6 +1254,8 @@ The coast of 2100 will be determined by emissions in this century and by ice she
 | Ho Chi Minh City | 1–3 | ~1 million | +0.16 m | Embankments; delta management |
 | Miami | 0.2–0.5 | ~0.4 million | +0.18 m | Pumps; elevation; managed retreat |
 | Alexandria | 0.3–0.6 | ~0.5 million | +0.17 m | Sea wall; beach nourishment |
+
+![Figure 6.1 People exposed to a 1-in-100-year coastal flood in six cities](figures/fig6_1.png)||Source: Table 6.1; exposure counts include subsidence where reported.
 
 There are two consequences here. First, the dominant variable in many cities is not global sea level rise but local subsidence, which is caused by human decisions and can be slowed or stopped. Second, the cost of adaptation rises faster than the sea, because each increment of rise requires a larger and more expensive defence, and because the probability of failure increases as the design threshold is approached.
 
@@ -1461,6 +1469,8 @@ Feeding the world in 2050 is less a question of total calories than of distribut
 | Coffee | −10 to −20% | −25 to −50% | Shade; altitude shift; new varieties | Ethiopia; Colombia; Vietnam |
 | Livestock | −5 to −10% (milk) | −10 to −20% | Shade; breeds; feed quality | South Asia; Sahel |
 
+![Figure 7.1 Yield change per additional degree of warming, by crop](figures/fig7_1.png)||Source: Table 7.1. Bars for coffee and livestock show the reported range.
+
 Two points deserve emphasis. First, the crops that feed the poorest people are the most sensitive to heat, and the regions where they are grown are the ones where adaptation is least funded. Second, the projected losses are not catastrophic in the global aggregate, but they are severe in particular places, and they interact with poverty, conflict and weak institutions to produce famine rather than shortage.
 
 A breakthrough in heat-tolerant varieties, or in the efficiency of photosynthesis, would reduce the losses, but it would take a decade or more to reach farmers. A shift toward plant-based diets in high-income countries would reduce demand for feed grains and free land for human food. And a sustained increase in investment in irrigation, storage and rural roads would reduce the post-harvest losses that currently account for a large share of the gap. The most important variable, however, is emissions: the difference between 1.5°C and 3°C is the difference between a food system that can adapt and one that cannot (FAO, 2023).
@@ -1666,6 +1676,8 @@ The living world of 2100 will not be a depleted version of the one we know; it w
 | Permafrost | Thaw onset | 10–20% thaw | 30–50% thaw | Carbon; infrastructure |
 | Mangroves | Sea level > migration rate | 10–30% loss | 30–50% loss | Coastal defence; nurseries |
 | Freshwater | Flow and temperature change | 20–30% species loss | 40–60% species loss | Water; inland fisheries |
+
+![Figure 8.1 Decline at 2 °C and at 3 °C for four systems with measurable thresholds](figures/fig8_1.png)||Source: Table 8.1. Coral value at 3 °C is the reported “greater than 99 per cent”.
 
 The analysis points to two conclusions. First, the difference between 2°C and 3°C is the difference between a world where coral reefs survive in reduced form and one where they are largely gone, and between a forest that stores carbon and one that releases it. Second, the loss is not evenly distributed: tropical ecosystems, which hold the most biodiversity and support the most vulnerable people, are the most exposed.
 
@@ -2092,6 +2104,8 @@ The economic future of the next three decades is likely to be dominated less by 
 | People pushed into poverty (million) | 50–100 | 100–200 | 200–400 | Food prices; displacement |
 | Adaptation finance needed (US$ bn/yr) | 100 | 200 | 300+ | Infrastructure; social protection |
 
+![Figure 10.1 Global GDP loss by 2050 under three emission paths](figures/fig10_1.png)||Source: Table 10.1; loss is measured against a no-climate baseline.
+
 Two lessons emerge from this. First, the difference between the low and high pathways is measured in percentage points of global GDP, which is to say in trillions of dollars and in hundreds of millions of people pushed into poverty. Second, the losses are not a future that arrives in 2050; they accumulate year by year, and the countries that are least able to adapt are already paying the highest share (UNDRR, 2023).
 
 A rapid diffusion of cheap clean energy would reduce both the physical damage and the transition risk, and it is already happening faster than most models assumed. A breakthrough in adaptation finance — through reform of multilateral institutions, debt relief or new levies — would reduce the burden on the poorest countries. And a change in the discount rate used by governments would make long-term damages look larger and justify more investment now. None of these is certain, but the direction of the economics is: delay costs more than action.
@@ -2303,6 +2317,8 @@ The migration of the next three decades will be mostly internal, mostly short-di
 | East Asia and Pacific | ~48 | Sea level; storms | Coastal defence; relocation | Land acquisition |
 | North Africa | ~19 | Drought; water | Irrigation; employment | Political instability |
 | Small island states | ~2–3 | Sea level rise | Relocation; legal pathways | Sovereignty; culture |
+
+![Figure 11.1 Internal climate migrants by 2050, by region of origin](figures/fig11_1.png)||Source: Table 11.1; estimates are internal movements, not cross-border refugees.
 
 There are two consequences here. First, the scale of climate migration is large but manageable if it is anticipated; the danger is not the number of people but the absence of systems to receive them. Second, most migration will be internal, which means that the responsibility falls primarily on national and municipal governments, not on international institutions.
 
@@ -3584,6 +3600,8 @@ The health systems of 2050 will be judged by how they function in the worst week
 | Mental health service coverage | 15% | 30% | 60% | Psychosocial burden |
 | Health adaptation finance | Low | Moderate | High | System capacity |
 
+![Figure 17.1 Annual excess heat deaths in 2050 under three adaptation paths](figures/fig17_1.png)||Source: Table 17.1.
+
 The middle column needs a word of explanation. 'Current trends' is not a forecast of the most likely future; it is the trajectory that follows from continuing the policies already legislated, the adaptation spending already committed and the investment in health systems already budgeted, with the emissions pathway held at the mid-case. It is the column a government gets if it changes nothing, and it is the benchmark against which the other two should be read. 
 
 Two points deserve emphasis. First, health is where climate change is most directly experienced, and it is therefore where adaptation has the clearest returns. Second, the distribution of health risk follows existing inequalities, so the countries and communities with the least capacity face the greatest burden.
@@ -4689,6 +4707,8 @@ The future of disaster cases is that the events will be less classifiable and th
 | Pakistan 2022 | Flood | 1,700+ | Exposure and capacity | Structural vulnerability |
 | Seoul 2022 | Flood | 141 | Housing inequality | Protect basement dwellers |
 
+![Figure 22.1 Deaths in eight urban and wildfire disasters, on a logarithmic scale](figures/fig22_1.png)||Source: Table 22.1. Lytton shows deaths for British Columbia in 2021.
+
 Two points deserve emphasis. First, the same hazard produces very different outcomes depending on exposure, vulnerability and governance, which means that most disaster deaths are preventable in principle. Second, the cases that are most instructive are not the largest but the most diagnostic: they reveal which systems failed and why.
 
 A rapid expansion of heat action plans and cooling infrastructure would reduce deaths from the hazard that is growing fastest. Investment in drainage and floodplain management would reduce urban flood losses. And better data on informal settlements would make visible the people who are currently absent from official risk maps. How quickly the warming proceeds remains decisive, because it determines how far beyond historical experience future extremes will go.
@@ -4916,6 +4936,8 @@ Food and water security in 2050 will be determined by the intersection of three 
 | Yemen 2017 | Water; conflict | Cholera | Sanitation collapse | Water as security |
 | Cape Town 2018 | Drought; demand | None | Supply diversity | Manage demand early |
 | São Paulo 2014–15 | Drought; reliance | None | Single source | Diversify supply |
+
+![Figure 23.1 Deaths in four drought and famine crises, on a logarithmic scale](figures/fig23_1.png)||Source: Table 23.1. Syria 2006–10 is omitted because the table records displacement, not deaths.
 
 The analysis points to two conclusions. First, food and water crises are preventable with existing knowledge and resources; what fails is political will, access and timing. Second, slow emergencies require long-term investment in water, social protection and peace, because relief alone cannot reverse the depletion of aquifers or the collapse of livelihoods.
 

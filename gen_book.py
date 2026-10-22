@@ -301,15 +301,15 @@ from references import REFS_EN as REFS
 REFS = list(dict.fromkeys(REFS))
 
 EXPERTS = [
- "Dr. James Hansen, former NASA GISS Director (2013 op-ed/2016 paper): 'Sea level rise of several meters could be expected with 2°C warming — 2°C would have consequences that can be described as disastrous.'",
- "Prof. Katharine Hayhoe, Texas Tech Chief Scientist (2014, post-IPCC AR5): 'Climate change is here and now, and not in some distant time or place — the choices we make today will have a significant impact on our future.'",
- "Dr. Michael Mann, Penn State climatologist (2004/2021): 'There is about as much scientific consensus about human-caused climate change as there is about gravity — multiple independent lines of evidence converge.'",
- "Dr. Friederike Otto, Imperial College / World Weather Attribution co-founder (2021): 'The Pacific Northwest 2021 heatwave would have been virtually impossible without human-caused climate change.'",
- "Prof. Johan Rockström, Potsdam Institute & Stockholm Resilience Centre (2009 Nature; 2023 update): 'We define planetary boundaries within which humanity can operate safely — six of nine boundaries are now transgressed, well outside the safe operating space.'",
+ "James Hansen, former director of NASA's Goddard Institute for Space Studies, argued in 2013 that two degrees of warming would be enough to expect several metres of sea-level rise, and called the consequences disastrous.",
+ "Katharine Hayhoe, Texas Tech climate scientist (2014, after the IPCC fifth assessment): climate change is here and now rather than in some distant time or place, and the choices made today will shape what the future holds.",
+ "Michael Mann, Penn State climatologist (2004; 2021): the scientific consensus on human-caused climate change is comparable to the consensus on gravity, because multiple independent lines of evidence converge.",
+ "Friederike Otto, Imperial College and co-founder of World Weather Attribution (2021): the Pacific Northwest heatwave of 2021 would have been virtually impossible without human-caused climate change.",
+ "Johan Rockström, Potsdam Institute for Climate Impact Research and Stockholm Resilience Centre (2009 Nature; 2023 update): planetary boundaries define a safe operating space for humanity, and six of the nine are now transgressed.",
  "Dr. Saleemul Huq, ICCCAD Director (COP speeches, 2015-2023): 'It is adapt or die — adaptation is survival, and loss-and-damage must be permanent in the Paris Agreement for vulnerable nations.'",
  "Prof. Nicholas Stern, LSE Grantham Institute (Stern Review 2006): 'Climate change is the greatest and widest-ranging market failure ever seen — the benefits of strong, early action far outweigh the costs of not acting.'",
  "Dr. Maria Neira, WHO Department of Environment, Climate & Health (2021 COP26 Special Report): 'Climate change is the single biggest health threat facing humanity — the burning of fossil fuels is killing us.'",
- "Prof. Hans-Otto Pörtner, IPCC WGII Co-Chair (IPCC AR6 WGII press conference 28 Feb 2022): 'Climate change is a threat to human well-being and planetary health — any further delay will miss a brief and rapidly closing window to secure a liveable future.'",
+ "Friederike Otto, Imperial College and co-founder of World Weather Attribution (2021): the Pacific Northwest heatwave of 2021 would have been virtually impossible without human-caused climate change.",
  "Dr. Debra Roberts, IPCC WGII Co-Chair Durban (AR6 WGII 2022): 'Adaptation and mitigation must be pursued with equal force and urgency — half measures are no longer an option.'",
  "Prof. Michael Oppenheimer, Princeton SROCC Lead Author (SROCC Ch.4, 2019; SciLine 2021): 'There is no scenario that stops sea level rise in this century — sea level is committed to rise for centuries due to ocean heat and ice-sheet response.'",
  "Dr. Cynthia Rosenzweig, NASA GISS / AgMIP founder, World Food Prize 2022 (NYT 2019; WFP laureate statement): 'The potential risk of multi-breadbasket failure is increasing — food systems face escalating extremes that demand systemic adaptation.'",
@@ -1048,6 +1048,8 @@ _refs_md += ["", "## Further Reading", "",
 _refs_md += [f"- {r}" for r in _further_refs]
 content = content.replace("@@REFS@@", "\n".join(_refs_md))
 print("gate1 citations added:", n_cit)
+import figures as _figures
+content = _figures.insert(content, "en")
 with open('/home/user/SetyoWisodo/book.md','w',encoding='utf-8') as f:
     f.write(content)
 print("words:", len(content.split()))

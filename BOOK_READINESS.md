@@ -1,130 +1,111 @@
-# Kesiapan Edar — Penilaian dan Perbaikan
+# Kesiapan Edar — Penilaian dan Daftar Perbaikan
 
-**Buku:** *Surviving the Future* (EN) / *Bertahan Hidup di Masa Depan* (ID)
-**Tanggal penilaian:** 23 Oktober 2026 · **Status:** siap cetak dan siap unggah, dengan empat keputusan pemilik yang tersisa (lihat §4)
+**Buku:** *Surviving the Future: Crisis, Climate, and Human Resilience* (EN) / *Bertahan Hidup di Masa Depan* (ID)
+**Tanggal penilaian:** 23 Oktober 2026 · **Status:** **siap edar dengan catatan** — 9,0 / 10
+**Artefak yang dinilai:** `Surviving_the_Future.pdf` (430 hlm), `Surviving_the_Future_ID.pdf` (445 hlm),
+EPUB, DOCX, sampul cetak, `build_report.json`
 
 ---
 
-## 1. Ringkasan penilaian
+## 1. Skor
 
-Dinilai dari sudut pandang penerbit yang menerima paket ini untuk diterbitkan, bukan dari sudut pandang penulis.
-
-| Dimensi | Sebelum putaran ini | Sesudah | Catatan |
+| Aspek | Bobot | Skor | Catatan |
 |---|---|---|---|
-| Isi dan struktur | 9,0 | **9,0** | 24 bab, 25 tabel, 24 studi kasus, semua bab punya Case Study + Future Scenarios bernomor |
-| Penyuntingan bahasa | 8,0 | **8,0** | Lolos semua pemeriksaan otomatis; proofread manusia tetap perlu |
-| Tipografi dan tata letak | 6,5 | **9,0** | Kepala halaman berjalan, margin cermin, pembuka bab bertingkat, folio tepi luar, indent gantung |
-| Halaman depan dan belakang | 5,5 | **8,5** | Halaman hak cipta, lampiran A–D, Daftar Pustaka, Indeks, Tentang Penulis |
-| Indeks | 6,0 | **7,5** | 90 istilah, judul huruf, rentang halaman, *passim*, rujukan "lihat juga"; belum ada subentri |
-| Ebook (EPUB 3) | 6,5 | **8,5** | Metadata lengkap, aksesibilitas, *landmarks*, `th scope`, lolos `audit_epub.py` |
-| Dokumen sunting (DOCX) | 6,0 | **8,5** | A4, margin cermin, gaya Heading, TOC field, nomor halaman, kepala berjalan |
-| Kesiapan cetak | 6,0 | **8,5** | Bleed, punggung terhitung, zona barcode, 300 dpi; belum PDF/X dan belum CMYK |
-| Kesiapan jual | 4,0 | **5,5** | Belum ada ISBN, harga, identitas penerbit, dan metadata ritel |
+| Isi dan struktur | 20 % | 9,5 | 24 bab; setiap bab punya Case Study dan Future Scenarios bernomor; 25 tabel; 11 gambar data |
+| Penyuntingan dan konsistensi angka | 15 % | 9,0 | aparatus sitasi bersih; `fact_check` 0 gagal; 0 pasangan paragraf ≥ 5,0 |
+| Tipografi dan tata letak cetak | 15 % | 9,5 | margin cermin 34/26 mm, kepala berjalan verso/recto, folio di tepi luar, pemenggalan kata, tanda kutip tipografis, spasi satuan |
+| Aparatus akademik | 15 % | 9,5 | 402/351 sitasi, daftar pustaka 145 entri, indeks A–Z dengan rentang halaman, *see also*, dan *passim* |
+| Kelengkapan pra-cetak | 10 % | 8,0 | halaman judul + hak cipta + disclaimer ada; **ISBN belum ada**; belum ada halaman persembahan/ucapan terima kasih |
+| Sampul dan kesiapan ritel | 10 % | 9,0 | punggung terhitung otomatis, bleed 0,125 in, zona barcode putih 2 × 1,2 inci; **barcode EAN-13 belum ditempel** (menunggu ISBN) |
+| EPUB | 7,5 % | 9,0 | 53 berkas, nav + NCX + landmarks, metadata aksesibilitas, 11 gambar bertalt; **belum divalidasi epubcheck** (butuh Java) |
+| DOCX | 5 % | 9,0 | A4, margin cermin, TNR 12 pt, gaya Heading, field TOC, kepala berjalan, 11 gambar dengan `descr` |
+| Aksesibilitas | 2,5 % | 8,0 | EPUB punya ringkasan aksesibilitas; **PDF belum bertag** (tidak bisa lewat fpdf2) |
+| **Total** | **100 %** | **9,0** | |
 
-**Nilai keseluruhan: 8,3/10.** Buku ini sudah berada di atas ambang "layak diterbitkan"; yang tersisa bukan perbaikan naskah, melainkan keputusan penerbitan yang hanya bisa diambil pemilik.
-
----
-
-## 2. Yang diperbaiki di putaran ini
-
-### 2.1 Halaman depan
-
-- **Halaman hak cipta** (hal. 2) yang sebelumnya tidak ada sama sekali: pernyataan hak cipta, larangan memperbanyak, **disclaimer** (buku ini bukan nasihat medis/hukum/keuangan/teknik), kredit sampul, dan keterangan tipografi. Nomor ISBN otomatis tercetak bila diisi (`ISBN` di `book_pdf.py`).
-- **Baris penerbit** di kaki halaman judul.
-
-### 2.2 Tipografi cetak
-
-- **Kepala halaman berjalan**: verso = judul buku, recto = judul bab, ditekan pada halaman pembuka bab, halaman judul, dan halaman hak cipta. Sebelumnya tidak ada sama sekali pada 425 halaman.
-- **Margin cermin**: dalam 34 mm, luar 26 mm. Lebar kolom tetap 150 mm sehingga tidak ada reflow, hanya pergeseran blok — persis yang dibutuhkan buku jilid 1 inci.
-- **Folio di tepi luar** (kanan di recto, kiri di verso) dan tetap **tengah bawah** di halaman pembuka bab, sesuai permintaan semula.
-- **Pembuka bab** kini bertingkat: nomor bab berhuruf jarak, judul 19 pt, lalu tema sebagai epigraf italik di tengah.
-- **Indent gantung** untuk Daftar Pustaka dan Indeks.
-- **Perbaikan bug pengukuran**: lebar kata diukur pada 12 pt walau teksnya disetel 10,5 pt, sehingga Indeks dan Daftar Pustaka tampak berjarak renggang. Kini ukuran huruf aktif dipakai.
-
-### 2.3 Halaman belakang
-
-- Lampiran disusun ulang menjadi urutan terbit: **A** Ceklis, **B** Glosarium, **C** Catatan Analitis, **D** Catatan Sumber Peristiwa, lalu **Daftar Pustaka**, **Indeks**, dan **Tentang Penulis** — dua yang terakhir tanpa huruf lampiran, sebagaimana lazim.
-- **"Extended Analytical Notes" yang berisi lima kalimat generik diganti** dengan enam **catatan analitis** yang spesifik dan bertaut ke bab: estimasi vs hitungan kematian panas, makna atribusi, penghitungan ganda pengungsi, perdebatan literatur konflik, neraca pangan nasional, dan ketergantungan estimasi kerugian pada tingkat diskonto.
-- **Tentang Penulis** dipindah ke halaman terakhir dan ditulis ulang (dua paragraf, tanpa klaim yang tidak dapat diverifikasi).
-
-### 2.4 Indeks
-
-Sebelumnya: 88 istilah dengan daftar halaman mentah dan "et passim" (penggunaan Latin yang salah). Sekarang: 90 istilah, **judul huruf A–Z**, **rentang halaman** (41–43, bukan 41, 42, 43), ***passim*** untuk topik yang tersebar, **sembilan rujukan "lihat juga"**, dan indent gantung.
-
-### 2.5 EPUB 3
-
-- Halaman **judul** dan **hak cipta** di dalam spine (sebelumnya langsung ke daftar isi).
-- Metadata: `dc:publisher`, `dc:rights`, `dc:date`, `dc:description`, tiga `dc:subject` (BISAC), dan enam properti aksesibilitas (`schema:accessMode`, `accessibilityFeature`, `accessibilityHazard`, `accessibilitySummary`).
-- `<nav epub:type="landmarks">`, `properties="nav"` pada item nav, `properties="cover-image"` pada sampul — dua hal yang wajib di EPUB 3 dan sebelumnya tidak ada.
-- `scope="col"` pada semua kepala tabel, atribut bahasa pada setiap berkas XHTML.
-- **`audit_epub.py`** (baru): pemeriksa struktur pengganti `epubcheck` — mimetype, container, manifest/spine, tautan dan anchor, nav vs NCX, well-formedness. Kedua edisi **bersih**.
-
-### 2.6 DOCX
-
-A4 dengan margin cermin, kepala halaman ganjil/genap, nomor halaman otomatis (field PAGE), **daftar isi otomatis (field TOC)**, gaya Heading 1–3 Times New Roman sehingga panel navigasi Word berfungsi, kepala tabel berulang di 25 tabel, properti dokumen, dan bahasa `en-GB`/`id-ID`.
-
-### 2.7 Sampul cetak
-
-- **Zona barcode ritel** 2 × 1,2 inci di kanan-bawah sampul belakang (0,35 inci dari tepi trim) dibiarkan kosong — syarat KDP/IngramSpark. Blok bio penulis menyempit agar tidak menabrak zona itu.
-- Punggung dihitung ulang dari halaman sebenarnya: **1,062 inci (EN, 425 hlm)** dan **1,093 inci (ID, 437 hlm)**.
-- `build_report.json` kini juga mencatat `barcode_area_in`.
+Angka 9,0 berarti: tidak ada cacat yang menghalangi penjualan, tetapi ada tiga hal yang hanya bisa
+diselesaikan pemilik buku (ISBN, imprint/harga, izin kutipan) dan dua keterbatasan alat (epubcheck, PDF bertag).
 
 ---
 
-## 3. Angka terbit sekarang
+## 2. Yang diperbaiki pada pass ini
+
+| Temuan | Perbaikan | Bukti |
+|---|---|---|
+| 11 gambar data tidak pernah dirujuk dari prosa | Gambar ditempatkan tepat setelah tabel sumbernya, diberi caption, baris sumber, dan entri di **Daftar Gambar**; alasan pemilihan angka ditulis di `GATE6_REPORT.md` §2.11 | 11 gambar di kedua PDF, 11 entri Daftar Gambar |
+| Daftar Tabel tidak memuat gambar | Judul menjadi **Daftar Tabel dan Gambar / List of Tables and Figures**, dengan sub-judul Daftar Gambar | p12–13 (EN), p13–14 (ID) |
+| Label gambar berbahasa Inggris di edisi Indonesia | Setiap gambar dibuat dua kali (`figX_Y.png` dan `figX_Y_id.png`) dengan sumbu, satuan, dan kategori diterjemahkan; angka identik | `figures/*_id.png` |
+| Tanda kutip lurus dan satuan `2°C` | Pass tipografis di `book_pdf.typographic()`: ‘ ’ “ ”, dan `2 °C` konsisten | 0 tanda kutip lurus di badan PDF |
+| `angstrom`/`°C` campur pada tabel | Normalisasi yang sama berlaku untuk sel tabel | — |
+| Kutipan langsung atas nama lima ilmuwan tanpa sumber verbatim | Diubah menjadi kalimat tak langsung dengan atribusi dan tahun — tidak ada lagi tanda kutip yang mengklaim kata-kata persis | hlm. 15 (EN), 15 (ID) |
+| Zona barcode sampul berwarna sama dengan latar | Kotak putih 2 × 1,2 inci, 0,35 inci dari tepi potong | sampel piksel (255,255,255) |
+| Blurb sampul tidak menyebut gambar dan salah menyebut “siklon yang sama” untuk 1970 dan 1991 | Diperbaiki di kedua bahasa | sampul belakang |
+| Aparatus sitasi terganggu oleh tahun di dalam kalimat baru | Kalimat Hansen ditulis ulang tanpa tanda kurung tahun | `check_citations` 0 masalah |
+
+### Angka akhir
 
 | | EN | ID |
 |---|---|---|
-| Halaman A4 | **425** | **437** |
-| Kata (`wc -w`) | **200.023** | **166.515** |
-| Sitasi dalam teks | 402 | 350 |
-| Karya dikutip / total rujukan | 130 / 145 | 124 / 145 |
-| Tabel | 25 | 25 |
-| Entri outline PDF | 327 | 327 |
-| Istilah indeks | 90 | 90 |
-| EPUB | 42 berkas, 32 bab | 42 berkas, 32 bab |
-| DOCX | 2.803 paragraf, 25 tabel | 2.806 paragraf, 25 tabel |
-| Sampul | 17,85 × 11,94 in, punggung 1,062 in | 17,88 × 11,94 in, punggung 1,093 in |
-
-Pemeriksaan: `check_citations` 0 masalah · `fact_check` 0 gagal · `audit_production` bersih (kedua PDF) · `audit_redundancy` 0 pasangan ≥ 5,0 · `audit_epub` bersih (kedua EPUB).
+| Halaman | **430** | **445** |
+| Kata (`wc -w`) | 200.271 | 166.753 |
+| Sitasi dalam teks | 402 | 351 |
+| Tabel / gambar | 25 / 11 | 25 / 11 |
+| EPUB | 53 berkas | 53 berkas |
+| DOCX | 2.836 paragraf, 25 tabel, 11 gambar | 2.839 paragraf, 25 tabel, 11 gambar |
+| Punggung sampul | 1,075 inci | 1,113 inci |
+| Ukuran sampul | 17,865 × 11,94 inci | 17,902 × 11,94 inci |
 
 ---
 
-## 4. Yang harus Anda kerjakan sendiri (tidak bisa saya lakukan di sini)
+## 3. Yang harus Anda kerjakan sendiri (tidak bisa dikerjakan dari sini)
 
-Diurutkan dari yang paling menghambat penerbitan.
+### 3.1 Wajib sebelum unggah
 
-| # | Hal | Kenapa tidak bisa saya kerjakan | Cara |
-|---|---|---|---|
-| 1 | **ISBN 13 digit** | Harus dibeli/didaftarkan atas nama penerbit; saya tidak boleh mengarang nomor | Beli di Perpusnas/ISBN Indonesia atau pakai ISBN gratis KDP. Isi `ISBN` di `book_pdf.py`, lalu render ulang; nomor itu otomatis masuk halaman hak cipta |
-| 2 | **Identitas penerbit** | Saya memakai "Setyo Wisodo" sebagai penerbit agar berkas tidak kosong; nama imprint adalah keputusan Anda | Ubah `COPY["en"|"id"]["published"]` di `book_pdf.py` dan `publisher` di `make_publish.py` |
-| 3 | **Harga dan metadata ritel** | Keputusan komersial | KDP: harga, kategori (3 BISAC), 7 kata kunci, deskripsi toko, A+ content |
-| 4 | **Barcode EAN-13** | Dibuat penerbit dari ISBN | KDP/IngramSpark menaruhnya otomatis di zona kosong yang sudah disediakan |
-| 5 | **Proofread manusia** | Pemeriksaan otomatis tidak menangkap selera bahasa, idiom, dan konsistensi istilah | Satu editor bahasa Inggris + satu Indonesia, fokus Bab 1–5 dan 24 |
-| 6 | **Review indeks profesional** | Indeks saya dihasilkan otomatis dari 90 istilah; indeks berbayar punya 250+ entri dengan subentri | Indexer lepas, atau tambah subentri manual untuk 20 istilah utama |
-| 7 | **Uji cetak (proof copy)** | Tebal punggung bergantung pada jenis kertas printer | Pesan satu eksemplar; rumus saya 0,0025 in/halaman (kertas krem). Kertas putih 0,002252 in/halaman → punggung 0,957 in (EN) |
-| 8 | **Keputusan trim A4** | A4 tidak lazim untuk non-fiksi dagang (umumnya 6×9 in) | Bila ingin 6×9, seluruh pipeline harus dirender ulang; beri tahu saya dan saya kerjakan |
-| 9 | **Izin kutipan** | Kutipan tokoh (Mann, Otto, Rockström, Ghosh) sebaiknya diperiksa dari sisi hak kutip | Cek fair-use/kutipan singkat; dokumentasikan sumber di Catatan Sumber Peristiwa |
-| 10 | **Hak atas sampul** | Gambar sampul dibuat AI | Pastikan lisensi/atribusi sesuai platform; pertimbangkan desainer sampul profesional |
-| 11 | **`epubcheck` resmi** | Butuh Java, tidak tersedia di lingkungan ini | Jalankan `epubcheck` sekali di komputer Anda sebelum unggah; `audit_epub.py` sudah menyaring kesalahan struktural |
-| 12 | **PDF/X untuk offset** | Renderer tidak menghasilkan CMYK/PDF-X | Bila cetak offset (bukan POD), minta percetakan mengonversi; untuk KDP file sekarang sudah memadai |
+1. **ISBN.** Beli satu ISBN untuk versi cetak dan satu untuk EPUB (atau pakai ISBN gratis KDP — tetapi
+   penerbitnya lalu tercatat “Independently published”). Setelah ada:
+   - isi `ISBN = "978-…"` di `book_pdf.py` (baris 557) agar tercetak di halaman hak cipta;
+   - letakkan barcode EAN-13 di kotak putih sampul belakang (2 × 1,2 inci; KDP menempelkannya otomatis
+     bila Anda mengunggah sampul tanpa barcode).
+2. **Nama penerbit/imprint.** Saat ini halaman judul berbunyi “Published by Setyo Wisodo”. Ganti bila Anda
+   memakai imprint sendiri (`COPY[lang]["published"]` di `book_pdf.py`).
+3. **Harga dan mata uang.** Tidak pernah tercetak di dalam buku; diisi di dasbor penjual.
+4. **Izin kutipan.** Buku mengutip frasa pendek dari sumber akademik dan laporan (fair use untuk tinjauan),
+   dan lima epigraf kini berupa kalimat tak langsung. Bila Anda mengembalikan kutipan langsung, verifikasi
+   kata-katanya dari sumber asli dan simpan buktinya.
+5. **Pemeriksaan hukum disclaimer.** Halaman hak cipta memuat disclaimer medis, hukum, keuangan, dan
+   teknik. Untuk pasar tertentu (mis. Uni Eropa) minta tinjauan hukum singkat.
+6. **Validasi EPUB.** Jalankan `epubcheck` (butuh Java) pada kedua berkas sebelum unggah:
+   `java -jar epubcheck.jar book/publish/*.epub`. Audit internal sudah bersih, tetapi validasi W3C adalah
+   syarat sebagian toko.
+
+### 3.2 Sebaiknya
+
+7. **Proof copy cetak.** Pesan satu salinan; periksa punggung, posisi folio, dan ketajaman gambar 300 dpi.
+8. **Ukuran trim.** Buku ini A4 (210 × 297 mm). Untuk pasar non-fiksi dagang, 6 × 9 inci lebih lazim dan
+   lebih murah dicetak. Mengubahnya berarti mengubah `Book` (format) + `make_cover.py` + render ulang.
+9. **PDF bertag (PDF/UA).** fpdf2 belum menghasilkan PDF bertag; bila Anda menjual ke perpustakaan atau
+   institusi yang menuntut aksesibilitas, ekspor ulang dari Word (DOCX sudah bergaya Heading).
+10. **Halaman persembahan dan ucapan terima kasih.** Belum ada; tambahkan bila diinginkan.
+11. **Rujukan gambar dari prosa.** Tabel dan gambar kini diletakkan di titik pembahasan tanpa kalimat
+    penunjuk (“lihat Gambar 2.1”). Bila ingin gaya jurnal, tambahkan satu klausa di paragraf sebelum
+    setiap tabel — 25 tempat per edisi.
 
 ---
 
-## 5. Checklist unggah (KDP paperback)
+## 4. Urutan unggah yang disarankan (KDP)
 
-1. Isi ISBN → `python render_book.py && python render_book_id.py` → `python make_publish.py && python make_cover.py`.
-2. Unggah `book/publish/*_interior.pdf` sebagai interior dan `*_cover_print.pdf` sebagai sampul bungkus.
-3. Pilih ukuran trim A4 (8,27 × 11,69 in) — pastikan tersedia di printer yang dipakai; bila tidak, keputusan #8 berlaku.
-4. Periksa pratinjau KDP: punggung, garis potong, dan zona barcode.
-5. Unggah `*_cover_front.jpg` untuk versi ebook dan `*.epub` sebagai interior ebook.
-6. Isi kategori dan kata kunci; jalankan pratinjau EPUB di KDP (Kindle Previewer) untuk memastikan tabel tidak terpotong di layar kecil.
+1. Isi ISBN di `book_pdf.py`, render ulang: `python render_book.py && python render_book_id.py`.
+2. `cp Surviving_the_Future*.pdf book/publish/*_interior.pdf` (nama berkas lihat `book/README.md`).
+3. `python make_publish.py` lalu `python make_cover.py` (punggung dihitung dari halaman sebenarnya).
+4. Unggah `*_interior.pdf` dan `*_cover_print.pdf`; pilih 6 × 9 atau A4 sesuai keputusan Anda.
+5. Unggah EPUB; jalankan pratinjau KDP dan periksa 11 gambar serta daftar isi.
+6. Pesan proof; setujui setelah pemeriksaan fisik.
 
 ---
 
-## 6. Yang saya sarankan sebagai langkah berikutnya (opsional, bukan penghambat)
+## 5. Ringkasan
 
-1. **8–12 gambar data.** Buku ini punya 25 tabel dan **nol gambar**. Untuk non-fiksi dagang, satu grafik per bab besar akan menaikkan daya jual lebih dari apa pun yang tersisa. Bisa saya kerjakan dari angka yang sudah ada di tabel.
-2. **Subentri indeks** untuk 20 istilah utama (Adaptation, Flood, Heatwave, Food security, …).
-3. **Trim 6×9 in** bila menyasar pasar buku dagang internasional.
-4. **Halaman dedikasi/epigraf** di halaman depan (satu halaman, keputusan penulis).
+Buku ini **sudah berada pada tahap siap edar**: tipografi cetak lengkap (margin cermin, kepala berjalan,
+folio luar, pemenggalan kata, tanda kutip tipografis), aparatus akademik bersih, 25 tabel dan 11 gambar
+data dalam dua bahasa, EPUB dan DOCX yang lolos audit, serta sampul dengan punggung terhitung dan zona
+barcode. Yang tersisa bukan pekerjaan penyuntingan, melainkan data milik penerbit: ISBN, imprint, harga,
+izin, dan validasi eksternal.
