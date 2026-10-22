@@ -361,7 +361,10 @@ def draw_table(pdf, rows, caption=None, lang="en", col_widths=None):
 
     cap_h = (cell_h * 2 + 3.0) if caption else 0.0
     need = cap_h + sum(heights) + 2
-    if pdf.get_y() + need > pdf.page_break_trigger:
+    # Tabel utuh lebih disukai; bila tidak muat, tabel dipecah dengan header
+    # yang diulang, asalkan setidaknya header + dua baris data muat.
+    min_chunk = heights[0] + sum(heights[1:3])
+    if pdf.get_y() + need > pdf.page_break_trigger and pdf.get_y() + cap_h + min_chunk > pdf.page_break_trigger:
         pdf.add_page()
         pdf.set_y(pdf.t_margin)
 
@@ -374,8 +377,7 @@ def draw_table(pdf, rows, caption=None, lang="en", col_widths=None):
         pdf.ln(1.2)
     table_page = pdf.page
 
-    y0 = pdf.get_y()
-    for ri, r in enumerate(rows):
+    def draw_row(ri, r):
         x = pdf.l_margin
         y = pdf.get_y()
         hh = heights[ri]
@@ -394,6 +396,14 @@ def draw_table(pdf, rows, caption=None, lang="en", col_widths=None):
                 pdf.ln(cell_h)
             x += w
         pdf.set_xy(pdf.l_margin, y + hh)
+
+    for ri, r in enumerate(rows):
+        avail = pdf.page_break_trigger - pdf.get_y()
+        if heights[ri] > avail and ri > 1 and avail < min_chunk + heights[ri] * 0.5:
+            pdf.add_page()
+            pdf.set_y(pdf.t_margin)
+            draw_row(0, rows[0])          # header diulang pada halaman lanjutan
+        draw_row(ri, r)
     pdf.ln(2.2)
     return table_page
 
