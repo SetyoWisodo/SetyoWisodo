@@ -780,23 +780,17 @@ class Book(FPDF):
         return t
 
     def header(self):
-        """Kepala halaman berjalan + margin cermin.
+        """Kepala halaman berjalan, simetris dan di tengah pada setiap halaman.
 
-        Halaman 1-2 (judul dan hak cipta) simetris dan tanpa kepala; halaman
-        pembuka bab juga tanpa kepala, sesuai kebiasaan buku cetak.
+        Blok teks memakai margin yang sama (30 mm) di semua halaman, sehingga
+        letak teks tidak bergeser antara halaman ganjil dan genap. Halaman 1-2
+        (judul dan hak cipta) tanpa kepala; halaman pembuka bab juga tanpa kepala.
         """
-        if self.page <= 2:
-            self.set_left_margin(30)
-            self.set_right_margin(30)
-            self.x = self.l_margin
-            return
-        if self.page % 2 == 1:                 # recto: punggung di kiri
-            self.set_left_margin(self.inner_margin)
-            self.set_right_margin(self.outer_margin)
-        else:                                  # verso: punggung di kanan
-            self.set_left_margin(self.outer_margin)
-            self.set_right_margin(self.inner_margin)
+        self.set_left_margin(30)
+        self.set_right_margin(30)
         self.x = self.l_margin
+        if self.page <= 2:
+            return
         if self.opening:
             self.opening = False
             return
@@ -804,25 +798,20 @@ class Book(FPDF):
         self.set_font("TNR", "", 8.5)
         self.set_xy(self.l_margin, 17.0)
         if self.page % 2 == 0:
-            self.cell(self.epw, 5, RUNNING[self.book_lang], align="L")
+            self.cell(self.epw, 5, RUNNING[self.book_lang], align="C")
         else:
-            self.cell(self.epw, 5, self._running_title(), align="R")
+            self.cell(self.epw, 5, self._running_title(), align="C")
         self.set_xy(self.l_margin, y)
 
     def footer(self):
-        """Folio di tepi luar; halaman pembuka bab di tengah bawah."""
+        """Folio: tengah bawah pada halaman pembuka bab, kanan bawah pada sisanya."""
         if self.page <= 2:
             return
         y_saved = self.get_y()
         self.set_y(-14)
         self.set_font("TNR", "", BODY_PT)
         num = "%d" % self.page
-        if self.page in self.chapter_starts:
-            self.cell(0, 5, num, align="C")
-        elif self.page % 2 == 1:
-            self.cell(0, 5, num, align="R")
-        else:
-            self.cell(0, 5, num, align="L")
+        self.cell(0, 5, num, align="C" if self.page in self.chapter_starts else "R")
         self.set_y(y_saved)
 
 

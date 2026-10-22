@@ -18,8 +18,8 @@ BOOKS = [
     ("Surviving_the_Future_ID.pdf", "id"),
 ]
 MARGIN_MM = 30.0          # margin halaman simetris (halaman 1-2)
-INNER_MM = 34.0           # margin cermin: sisi punggung
-OUTER_MM = 26.0           # margin cermin: sisi luar
+INNER_MM = 30.0           # margin kiri (simetris)
+OUTER_MM = 30.0           # margin kanan (simetris)
 HEAD_ZONE_MM = 24.0       # kepala halaman berjalan boleh di atas margin atas
 MM = 72.0 / 25.4
 TOL = 1.5 * MM  # toleransi 1,5 mm untuk huruf miring/berlebih optik

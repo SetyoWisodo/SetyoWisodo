@@ -28,7 +28,7 @@ Case Study and a Future Scenarios section that states what would falsify its own
 | `*_cover_print.pdf` | Full paperback wrap (back + spine + front), 300 dpi, 0.125 in bleed, spine sized from the page count, with a clear 2 × 1.2 in retail barcode area |
 | `*_cover_front.jpg` | Front cover, for ebook and marketplaces |
 | `*.epub` | EPUB 3 ebook (title and copyright pages, nav + NCX + landmarks, accessibility metadata, XHTML tables with `th scope`, `<figure>` blocks with alternative text) |
-| `*.docx` | Editable manuscript: A4, mirror margins, Times New Roman 12 pt, justified, 12.7 mm indent, Heading styles, TOC field, running heads, page numbers, figures at 150 mm with `descr` alt text |
+| `*.docx` | Editable manuscript: A4, Times New Roman 12 pt, justified, 12.7 mm indent, Heading styles, TOC field, running heads, page numbers, figures at 150 mm with `descr` alt text |
 | `*_interior.pdf` | Byte-identical copy of the A4 interior PDF (430 / 445 pp) for uploading with the cover |
 | `build_report.json` | Page count, trim, bleed, spine width, cover size, dpi and file paths per edition |
 
@@ -64,7 +64,7 @@ be out of date by a page or two.
 | `check_citations.py` | every in-text citation has a reference entry, and every entry is cited; no year mismatches |
 | `fact_check.py` | ~46 canonical facts (figures, dates, death tolls) agree across the prose |
 | `data_consistency.py` | numbers of the same kind do not contradict each other between sentences |
-| `audit_production.py` | PDF metadata, outline, blank pages, margin overflow (mirror-margin aware), dangling headings, TOC/page agreement, embedded fonts |
+| `audit_production.py` | PDF metadata, outline, blank pages, margin overflow, dangling headings, TOC/page agreement, embedded fonts |
 | `audit_epub.py` | EPUB 3 structure without `epubcheck`: mimetype, container, manifest/spine, link and anchor targets, nav vs NCX, well-formedness |
 | `audit_redundancy.py` | paragraphs that restate the same facts in different words (scores by shared numbers, names, rare terms) |
 | `map_dups.py`, `para_tool.py` | locate and rewrite those paragraphs at their source module |

@@ -142,13 +142,13 @@ Penilaian kesiapan edar (rincian di `BOOK_READINESS.md`) menemukan tujuh kekuran
 |---|---|
 | Tidak ada halaman hak cipta maupun disclaimer | Halaman hak cipta + disclaimer medis/hukum/keuangan, kredit sampul, baris penerbit di halaman judul |
 | Tidak ada kepala halaman berjalan pada 400+ halaman | Kepala berjalan verso/recto, ditekan di halaman pembuka bab |
-| Margin simetris, padahal punggung 1 inci | Margin cermin: dalam 34 mm, luar 26 mm; folio pindah ke tepi luar |
+| Margin cermin 34/26 mm membuat blok teks bergeser kiri–kanan antathalaman | Margin simetris 30 mm di semua halaman; folio kanan-bawah, tengah hanya di pembuka bab |
 | Pembuka bab datar (12 pt) | Nomor bab berhuruf jarak, judul 19 pt, tema sebagai epigraf italik |
 | Indeks mekanis ("et passim", daftar angka mentah) | Judul huruf A–Z, rentang halaman, *passim*, sembilan rujukan "lihat juga", indent gantung |
 | Lampiran "Extended Analytical Notes" berisi lima kalimat generik | Diganti enam catatan analitis spesifik yang bertaut ke bab |
 | EPUB tanpa halaman judul, tanpa `properties="nav"`, tanpa metadata penerbit | Halaman judul + hak cipta, `nav`/`cover-image` ditandai, metadata BISAC dan aksesibilitas, `landmarks`, `th scope` |
 
-Tambahan: `audit_epub.py` (pemeriksa struktur EPUB pengganti `epubcheck`), DOCX dengan gaya Heading, TOC field, nomor halaman, dan margin cermin, serta zona barcode 2 × 1,2 inci pada sampul belakang.
+Tambahan: `audit_epub.py` (pemeriksa struktur EPUB pengganti `epubcheck`), DOCX dengan gaya Heading, TOC field, nomor halaman, dan margin simetris, serta zona barcode 2 × 1,2 inci pada sampul belakang.
 
 Dampak pada paginasi: EN 412 → 425, ID 432 → 437, keduanya masih di dalam rentang. Semua pemeriksaan dijalankan ulang dan tetap bersih.
 

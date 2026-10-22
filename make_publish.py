@@ -456,15 +456,12 @@ def build_docx(cfg):
         st.paragraph_format.keep_with_next = True
         st.paragraph_format.line_spacing = 1.0
 
-    # ---- halaman: A4, margin cermin (dalam 34 mm, luar 26 mm) ----
+    # ---- halaman: A4, margin simetris 30 mm (sama dengan PDF) ----
     sec = doc.sections[0]
     sec.page_width, sec.page_height = Mm(210), Mm(297)
-    sec.left_margin, sec.right_margin = Mm(34), Mm(26)
+    sec.left_margin, sec.right_margin = Mm(30), Mm(30)
     sec.top_margin, sec.bottom_margin = Mm(30), Mm(40)
     sec.header_distance, sec.footer_distance = Mm(15), Mm(14)
-    settings = doc.settings.element
-    settings.append(OxmlElement("w:evenAndOddHeaders"))
-    settings.append(OxmlElement("w:mirrorMargins"))
 
     # ---- kepala & kaki halaman berjalan ----
     def _hdr(container, text, align):
@@ -475,10 +472,8 @@ def build_docx(cfg):
         r = p.add_run(text)
         r.font.name = "Times New Roman"; r.font.size = Pt(8.5)
 
-    _hdr(sec.header, RUNNING_FOR(cfg), WD_ALIGN_PARAGRAPH.RIGHT)
-    _hdr(sec.even_page_header, RUNNING_FOR(cfg), WD_ALIGN_PARAGRAPH.LEFT)
-    for footer, align in ((sec.footer, WD_ALIGN_PARAGRAPH.RIGHT),
-                          (sec.even_page_footer, WD_ALIGN_PARAGRAPH.LEFT)):
+    _hdr(sec.header, RUNNING_FOR(cfg), WD_ALIGN_PARAGRAPH.CENTER)
+    for footer, align in ((sec.footer, WD_ALIGN_PARAGRAPH.RIGHT),):
         p = footer.paragraphs[0]
         p.text = ""
         p.alignment = align

@@ -13,12 +13,12 @@ EPUB, DOCX, sampul cetak, `build_report.json`
 |---|---|---|---|
 | Isi dan struktur | 20 % | 9,5 | 24 bab; setiap bab punya Case Study dan Future Scenarios bernomor; 25 tabel; 11 gambar data |
 | Penyuntingan dan konsistensi angka | 15 % | 9,0 | aparatus sitasi bersih; `fact_check` 0 gagal; 0 pasangan paragraf ≥ 5,0 |
-| Tipografi dan tata letak cetak | 15 % | 9,5 | margin cermin 34/26 mm, kepala berjalan verso/recto, folio di tepi luar, pemenggalan kata, tanda kutip tipografis, spasi satuan |
+| Tipografi dan tata letak cetak | 15 % | 9,5 | margin simetris 30 mm di setiap halaman, kepala berjalan terpusat, folio kanan-bawah (tengah pada pembuka bab), pemenggalan kata, tanda kutip tipografis, spasi satuan |
 | Aparatus akademik | 15 % | 9,5 | 402/351 sitasi, daftar pustaka 145 entri, indeks A–Z dengan rentang halaman, *see also*, dan *passim* |
 | Kelengkapan pra-cetak | 10 % | 8,0 | halaman judul + hak cipta + disclaimer ada; **ISBN belum ada**; belum ada halaman persembahan/ucapan terima kasih |
 | Sampul dan kesiapan ritel | 10 % | 9,0 | punggung terhitung otomatis, bleed 0,125 in, zona barcode putih 2 × 1,2 inci; **barcode EAN-13 belum ditempel** (menunggu ISBN) |
 | EPUB | 7,5 % | 9,0 | 53 berkas, nav + NCX + landmarks, metadata aksesibilitas, 11 gambar bertalt; **belum divalidasi epubcheck** (butuh Java) |
-| DOCX | 5 % | 9,0 | A4, margin cermin, TNR 12 pt, gaya Heading, field TOC, kepala berjalan, 11 gambar dengan `descr` |
+| DOCX | 5 % | 9,0 | A4, margin simetris 30 mm, TNR 12 pt, gaya Heading, field TOC, kepala berjalan, 11 gambar dengan `descr` |
 | Aksesibilitas | 2,5 % | 8,0 | EPUB punya ringkasan aksesibilitas; **PDF belum bertag** (tidak bisa lewat fpdf2) |
 | **Total** | **100 %** | **9,0** | |
 
@@ -104,8 +104,8 @@ diselesaikan pemilik buku (ISBN, imprint/harga, izin kutipan) dan dua keterbatas
 
 ## 5. Ringkasan
 
-Buku ini **sudah berada pada tahap siap edar**: tipografi cetak lengkap (margin cermin, kepala berjalan,
-folio luar, pemenggalan kata, tanda kutip tipografis), aparatus akademik bersih, 25 tabel dan 11 gambar
+Buku ini **sudah berada pada tahap siap edar**: tipografi cetak lengkap (margin simetris 30 mm, kepala
+berjalan terpusat, folio kanan-bawah, pemenggalan kata, tanda kutip tipografis), aparatus akademik bersih, 25 tabel dan 11 gambar
 data dalam dua bahasa, EPUB dan DOCX yang lolos audit, serta sampul dengan punggung terhitung dan zona
 barcode. Yang tersisa bukan pekerjaan penyuntingan, melainkan data milik penerbit: ISBN, imprint, harga,
 izin, dan validasi eksternal.
