@@ -172,7 +172,7 @@ dari tipografi yang direncanakan terpisah:
 | Lapisan | Isi |
 |---|---|
 | Seni | Sesosok orang berjas hujan berdiri di atas dermaga kayu, memegang lentera, menghadap kota pesisir yang setengah tenggelam dan dinding badai; cahaya amber menembus awan. Dihasilkan dengan prompt terkompilasi (lihat `book/cover/SKILL_open_generative_ai.md`) |
-| Tipografi | Kicker amber di atas, judul dua baris Source Sans Black, aturan amber, subjudul Source Serif Italic, nama penulis berjarak lebar |
+| Tipografi | Kicker amber di atas, judul dua baris Source Sans Black, aturan amber, subjudul Source Serif Italic; nama penulis dan tahun 2026 di kaki sampul |
 | Janji nilai | Kalimat penutup di pita bawah: *"Survival is a decision, not a fate."* / *"Bertahan hidup adalah keputusan, bukan takdir."* |
 | Bidang kosong | Tidak ada baris statistik di kaki sampul; ruang bawah dibiarkan bersih agar seni dan kalimat penutup yang berbicara |
 

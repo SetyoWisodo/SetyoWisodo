@@ -32,11 +32,12 @@ AMBER = (232, 163, 61)
 MUTED = (176, 186, 199)
 
 # tata letak dinyatakan sebagai pecahan, supaya rasio lain bisa memakai kode sama
-F_AUTHOR = 0.029
-F_KICKER = 0.057
+F_KICKER = 0.050
 F_TITLE = 0.089
 F_IMAGE = 0.251
-F_QUOTE = 0.898
+F_QUOTE = 0.848
+F_AUTHOR = 0.928          # nama penulis di kaki sampul
+F_YEAR = 0.966            # tahun di bawah nama
 F_TITLE_WIDTH = 0.795
 
 
@@ -106,12 +107,12 @@ def build(cfg, out_path, w, h):
         return ImageFont.truetype(os.path.join(FONTS, name), max(10, int(size * s)))
 
     black = os.path.join(FONTS, "SourceSans3-Black.otf")
-    f_author = font("SourceSans3-Semibold.otf", 42)
+    f_author = font("SourceSans3-Semibold.otf", 36)
+    f_year = font("SourceSans3-Semibold.otf", 27)
     f_kick = font("SourceSans3-Semibold.otf", 33)
     f_sub = font("SourceSerif4-It.otf", 62)
     f_sub2 = font("SourceSerif4-It.otf", 46)
 
-    tracked(draw, cfg["author"], f_author, int(h * F_AUTHOR), IVORY, tracking=16 * s, width=w)
     tracked(draw, cfg["kicker"], f_kick, int(h * F_KICKER), AMBER, tracking=9 * s, width=w)
 
     target = int(w * F_TITLE_WIDTH)
@@ -151,12 +152,17 @@ def build(cfg, out_path, w, h):
         draw.text(((w - wq) / 2, yq), ln, font=fq, fill=IVORY)
         yq += int(fq.size * 1.26)
 
+    # ---------- nama penulis dan tahun di kaki sampul ----------
+    tracked(draw, cfg["author"], f_author, int(h * F_AUTHOR), IVORY, tracking=13 * s, width=w)
+    tracked(draw, cfg["year"], f_year, int(h * F_YEAR), AMBER, tracking=7 * s, width=w)
+
     canvas.save(out_path, quality=95, dpi=(300, 300), subsampling=0)
     print("  ->", os.path.relpath(out_path, HERE), canvas.size)
 
 
 EN = dict(
     author="SETYO WISODO",
+    year="2026",
     kicker="THE DEFINITIVE GUIDE TO THE CENTURY OF CRISES",
     title1="SURVIVING",
     title2="THE FUTURE",
@@ -166,6 +172,7 @@ EN = dict(
 
 ID = dict(
     author="SETYO WISODO",
+    year="2026",
     kicker="PANDUAN LENGKAP MENUJU ABAD KRISIS",
     title1="BERTAHAN HIDUP",
     title2="DI MASA DEPAN",
