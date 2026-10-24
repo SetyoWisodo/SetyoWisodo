@@ -25,8 +25,11 @@ Case Study and a Future Scenarios section that states what would falsify its own
 |---|---|
 | `Surviving_the_Future.pdf` (repo root) | A4 reading/print PDF, 430 pp |
 | `Surviving_the_Future_ID.pdf` (repo root) | A4 reading/print PDF, 445 pp |
-| `*_cover_print.pdf` | Full paperback wrap (back + spine + front), 300 dpi, 0.125 in bleed, spine sized from the page count, with a clear 2 × 1.2 in retail barcode area |
-| `*_cover_front.jpg` | Front cover, for ebook and marketplaces |
+| `*_cover_print.pdf` | Full paperback wrap (back + spine + front), 300 dpi, 0.125 in bleed, spine sized from the page count, with a white 2 × 1.2 in retail barcode area |
+| `*_cover_front.jpg` | Front cover at the trim ratio (1800 × 2546, 300 dpi): artwork, typography, quote, and the book's statistics |
+| `*_cover_ebook.jpg` | Ebook cover at the 1:1.6 ratio stores ask for (1600 × 2560), used inside the EPUB |
+| `book/cover/art_cover_v1.png` | Raw artwork for the front cover; `make_cover_front.py` composites artwork + typography |
+| `book/cover/SKILL_open_generative_ai.md` | The prompt-compiler skill (from Anil-matcha/Open-Generative-AI, MIT) used to write the cover prompt |
 | `*.epub` | EPUB 3 ebook (title and copyright pages, nav + NCX + landmarks, accessibility metadata, XHTML tables with `th scope`, `<figure>` blocks with alternative text) |
 | `*.docx` | Editable manuscript: A4, Times New Roman 12 pt, justified, 12.7 mm indent, Heading styles, TOC field, running heads, page numbers, figures at 150 mm with `descr` alt text |
 | `*_interior.pdf` | Byte-identical copy of the A4 interior PDF (430 / 445 pp) for uploading with the cover |
@@ -50,7 +53,8 @@ python render_book.py && python render_book_id.py  # the two A4 PDFs
 cp Surviving_the_Future.pdf book/publish/Surviving_the_Future_EN_interior.pdf
 cp Surviving_the_Future_ID.pdf book/publish/Bertahan_Hidup_di_Masa_Depan_ID_interior.pdf
 python make_publish.py                             # EPUB + DOCX
-python make_cover.py                               # print covers + build_report.json
+python make_cover_front.py                         # front + ebook covers from the artwork
+python make_cover.py                               # print wraps + build_report.json
 ```
 
 `make_cover.py` reads the page count from the interior PDFs, so run the copy step before it. If those

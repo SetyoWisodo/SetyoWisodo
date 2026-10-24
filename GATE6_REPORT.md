@@ -19,7 +19,7 @@
 | P8 | Tidak ada duplikasi isi antarparagraf | 0 pasangan skor ≥ 5,0 | **0 (EN) / 0 (ID)** |
 | P9 | Aparatus bersih setelah semua penyuntingan | 0 masalah | **402 EN / 350 ID, 0** |
 | P10 | Berkas penerbitan tersedia (EPUB 3 + DOCX) dengan isi sepadan PDF | ada, isi sebanding | **EPUB 53 berkas, 32 bab, 25 tabel, 11 gambar bertalt; DOCX 2.836 / 2.839 paragraf, 25 tabel, 11 gambar; `audit_epub.py` bersih** |
-| P11 | Sampul cetak siap unggah (300 dpi, bleed, punggung terhitung) | ada | **kedua edisi** |
+| P11 | Sampul cetak siap unggah (300 dpi, bleed, punggung terhitung) | ada | **kedua edisi; sampul depan 1800 × 2546 dan sampul ebook 1600 × 2560 dari seni generatif** |
 
 ---
 
@@ -151,6 +151,36 @@ Penilaian kesiapan edar (rincian di `BOOK_READINESS.md`) menemukan tujuh kekuran
 Tambahan: `audit_epub.py` (pemeriksa struktur EPUB pengganti `epubcheck`), DOCX dengan gaya Heading, TOC field, nomor halaman, dan margin simetris, serta zona barcode 2 × 1,2 inci pada sampul belakang.
 
 Dampak pada paginasi: EN 412 → 425, ID 432 → 437, keduanya masih di dalam rentang. Semua pemeriksaan dijalankan ulang dan tetap bersih.
+
+### 2.11 Gambar data dan sampul baru
+
+**Gambar data.** Buku ini berangkat dari 25 tabel dan **nol gambar**. Sebelas grafik sekarang dibangun
+dari angka yang sudah ada di dalam tabel, tanpa satu pun angka baru: 2.1 (lereng pemanasan 2050–2100),
+4.1 (hari di atas 35 °C di enam kota), 5.1 (penduduk per cekungan), 6.1 (paparan banjir pesisir),
+7.1 (hasil panen per +1 °C), 8.1 (penurunan pada 2 °C vs 3 °C), 10.1 (kerugian PDB), 11.1 (migran
+iklim), 17.1 (kematian akibat panas), 22.1 dan 23.1 (korban bencana pada skala log). Setiap nilai
+diperiksa ulang terhadap `book.md` oleh `make_figures.py:verify()` sebelum digambar; Suriah 2006–10
+sengaja tidak masuk gambar 23.1 karena tabelnya mencatat perpindahan, bukan kematian, dan alasan itu
+ditulis di baris sumber. Semua gambar dibuat dua bahasa (label bitmap diterjemahkan, angka tetap),
+diletakkan tepat setelah tabel sumbernya, dan diberi caption, baris sumber, serta teks alternatif.
+Daftar Tabel berganti nama menjadi **Daftar Tabel dan Gambar**.
+
+**Sampul.** Sampul lama memakai foto desa panggung di atas air: bagus, tetapi terbaca sebagai buku tentang
+satu kawasan, bukan tentang abad krisis. Sampul baru dibangun dari seni yang lebih ambisius dan
+dari tipografi yang direncanakan terpisah:
+
+| Lapisan | Isi |
+|---|---|
+| Seni | Sesosok orang berjas hujan berdiri di atas dermaga kayu, memegang lentera, menghadap kota pesisir yang setengah tenggelam dan dinding badai; cahaya amber menembus awan. Dihasilkan dengan prompt terkompilasi (lihat `book/cover/SKILL_open_generative_ai.md`) |
+| Tipografi | Kicker amber di atas, judul dua baris Source Sans Black, aturan amber, subjudul Source Serif Italic, nama penulis berjarak lebar |
+| Janji nilai | Kalimat penutup di pita bawah: *"Survival is a decision, not a fate."* / *"Bertahan hidup adalah keputusan, bukan takdir."* |
+| Bukti | Baris statistik: 24 bab · 25 tabel data · 11 gambar · 145 sumber |
+
+Semua huruf ditambahkan oleh `make_cover_front.py`, bukan oleh model gambar, sehingga tajam pada
+300 dpi dan dapat diterjemahkan tanpa membuat ulang seni. Dua rasio dibuat: 1800 × 2546 (potong
+A4, untuk bungkus cetak) dan 1600 × 2560 (1 : 1,6, untuk EPUB dan toko ebook). Punggung dan zona
+barcode tetap dihitung `make_cover.py` dari jumlah halaman interior (1,075 dan 1,113 inci).
+
 
 ### 2.12 Pemeriksaan kesiapan edar
 

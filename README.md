@@ -34,7 +34,7 @@ pip install --break-system-packages fpdf2 pyphen pymupdf python-docx pillow matp
 python make_figures.py                             # the 11 figures, EN and ID
 python gen_book.py && python gen_book_id.py
 python render_book.py && python render_book_id.py
-python make_publish.py && python make_cover.py
+python make_cover_front.py && python make_cover.py && python make_publish.py
 ```
 
 See `book/README.md` for the pipeline, the verification tools, and the typographic specification.

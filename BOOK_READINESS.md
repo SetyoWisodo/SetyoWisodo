@@ -1,7 +1,7 @@
 # Kesiapan Edar — Penilaian dan Daftar Perbaikan
 
 **Buku:** *Surviving the Future: Crisis, Climate, and Human Resilience* (EN) / *Bertahan Hidup di Masa Depan* (ID)
-**Tanggal penilaian:** 23 Oktober 2026 · **Status:** **siap edar dengan catatan** — 9,0 / 10
+**Tanggal penilaian:** 23 Oktober 2026 · **Status:** **siap edar dengan catatan** — 9,1 / 10
 **Artefak yang dinilai:** `Surviving_the_Future.pdf` (430 hlm), `Surviving_the_Future_ID.pdf` (445 hlm),
 EPUB, DOCX, sampul cetak, `build_report.json`
 
@@ -16,13 +16,13 @@ EPUB, DOCX, sampul cetak, `build_report.json`
 | Tipografi dan tata letak cetak | 15 % | 9,5 | margin simetris 30 mm di setiap halaman, kepala berjalan terpusat, folio kanan-bawah (tengah pada pembuka bab), pemenggalan kata, tanda kutip tipografis, spasi satuan |
 | Aparatus akademik | 15 % | 9,5 | 402/351 sitasi, daftar pustaka 145 entri, indeks A–Z dengan rentang halaman, *see also*, dan *passim* |
 | Kelengkapan pra-cetak | 10 % | 8,0 | halaman judul + hak cipta + disclaimer ada; **ISBN belum ada**; belum ada halaman persembahan/ucapan terima kasih |
-| Sampul dan kesiapan ritel | 10 % | 9,0 | punggung terhitung otomatis, bleed 0,125 in, zona barcode putih 2 × 1,2 inci; **barcode EAN-13 belum ditempel** (menunggu ISBN) |
+| Sampul dan kesiapan ritel | 10 % | 9,2 | seni generatif baru (krisis dan ketahanan dalam satu bingkai), dua rasio: potong A4 1800 × 2546 dan ebook 1600 × 2560; punggung terhitung otomatis, bleed 0,125 in, zona barcode putih 2 × 1,2 inci; **barcode EAN-13 belum ditempel** (menunggu ISBN) |
 | EPUB | 7,5 % | 9,0 | 53 berkas, nav + NCX + landmarks, metadata aksesibilitas, 11 gambar bertalt; **belum divalidasi epubcheck** (butuh Java) |
 | DOCX | 5 % | 9,0 | A4, margin simetris 30 mm, TNR 12 pt, gaya Heading, field TOC, kepala berjalan, 11 gambar dengan `descr` |
 | Aksesibilitas | 2,5 % | 8,0 | EPUB punya ringkasan aksesibilitas; **PDF belum bertag** (tidak bisa lewat fpdf2) |
-| **Total** | **100 %** | **9,0** | |
+| **Total** | **100 %** | **9,1** | |
 
-Angka 9,0 berarti: tidak ada cacat yang menghalangi penjualan, tetapi ada tiga hal yang hanya bisa
+Angka 9,1 berarti: tidak ada cacat yang menghalangi penjualan, tetapi ada tiga hal yang hanya bisa
 diselesaikan pemilik buku (ISBN, imprint/harga, izin kutipan) dan dua keterbatasan alat (epubcheck, PDF bertag).
 
 ---
@@ -39,6 +39,7 @@ diselesaikan pemilik buku (ISBN, imprint/harga, izin kutipan) dan dua keterbatas
 | Kutipan langsung atas nama lima ilmuwan tanpa sumber verbatim | Diubah menjadi kalimat tak langsung dengan atribusi dan tahun — tidak ada lagi tanda kutip yang mengklaim kata-kata persis | hlm. 15 (EN), 15 (ID) |
 | Zona barcode sampul berwarna sama dengan latar | Kotak putih 2 × 1,2 inci, 0,35 inci dari tepi potong | sampel piksel (255,255,255) |
 | Blurb sampul tidak menyebut gambar dan salah menyebut “siklon yang sama” untuk 1970 dan 1991 | Diperbaiki di kedua bahasa | sampul belakang |
+| Sampul lama terbaca sebagai buku tentang satu kawasan, bukan abad krisis | Sampul baru dari seni generatif: krisis dan ketahanan dalam satu bingkai, tipografi terpisah, kalimat penutup, dan baris bukti; dua rasio keluaran | `book/publish/*_cover_front.jpg`, `*_cover_ebook.jpg` |
 | Aparatus sitasi terganggu oleh tahun di dalam kalimat baru | Kalimat Hansen ditulis ulang tanpa tanda kurung tahun | `check_citations` 0 masalah |
 
 ### Angka akhir

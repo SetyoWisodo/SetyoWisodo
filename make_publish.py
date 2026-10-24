@@ -21,7 +21,7 @@ import figures as figmod
 BOOKS = [
     {
         "md": "book.md",
-        "img": "book/publish/Surviving_the_Future_EN_cover_front.jpg",
+        "img": "book/publish/Surviving_the_Future_EN_cover_ebook.jpg",
         "epub": "book/publish/Surviving_the_Future_EN.epub",
         "docx": "book/publish/Surviving_the_Future_EN.docx",
         "title": "Surviving the Future: Crisis, Climate, and Human Resilience",
@@ -38,7 +38,7 @@ BOOKS = [
     },
     {
         "md": "book_id.md",
-        "img": "book/publish/Bertahan_Hidup_di_Masa_Depan_ID_cover_front.jpg",
+        "img": "book/publish/Bertahan_Hidup_di_Masa_Depan_ID_cover_ebook.jpg",
         "epub": "book/publish/Bertahan_Hidup_di_Masa_Depan_ID.epub",
         "docx": "book/publish/Bertahan_Hidup_di_Masa_Depan_ID.docx",
         "title": "Surviving the Future: Krisis, Iklim, dan Ketahanan Manusia",
