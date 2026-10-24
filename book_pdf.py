@@ -763,7 +763,7 @@ class Book(FPDF):
         self.set_subject(_cfg["meta_subject"])
         self.set_keywords(_cfg["meta_keywords"])
         self.set_creator("Setyo Wisodo")
-        self.set_producer("fpdf2 (Arena Agent Mode)")
+        self.set_producer("fpdf2")
         self.set_lang(_cfg["meta_lang"])
         try:
             self.set_display_mode("useoutlines")

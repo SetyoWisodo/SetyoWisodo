@@ -196,7 +196,7 @@ tertangkap auditor otomatis, semuanya sudah diperbaiki:
 | Zona barcode sampul berwarna latar, bukan putih | Kotak putih 2 × 1,2 inci, 0,35 inci dari tepi potong, terverifikasi sampel piksel |
 | Blurb sampul menyebut “siklon yang sama” untuk 1970 dan 1991, dan tidak menyebut gambar | Dua kalimat diperbaiki di kedua bahasa |
 | Kalimat baru memicu dua temuan `check_citations` | Ditulis ulang tanpa tanda kurung tahun; aparatus kembali 0 masalah |
-| Halaman Tentang Penulis hanya menyebut pekerjaan, bukan latar pendidikan | Ditulis ulang: gelar S.Pd. pendidikan sejarah Universitas Negeri Malang, metode sejarah (pola masa lalu + data hari ini), dan batas klaim prediksi |
+| Halaman Tentang Penulis hanya menyebut pekerjaan, bukan latar pendidikan | Ditulis ulang: gelar S.Pd. pendidikan sejarah Universitas Negeri Malang, metode sejarah (pola masa lalu + data hari ini), dan batas klaim prediksi; tanpa menyebut perangkat atau peran AI dalam penyusunan buku |
 
 Dampak paginasi: EN 412 → 430, ID 432 → 445 (gambar dan daftar gambar). Punggung sampul dihitung ulang
 otomatis (1,075 dan 1,113 inci). Semua auditor dijalankan ulang dan bersih.

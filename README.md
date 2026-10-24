@@ -12,7 +12,7 @@ warming, written for general readers who want the evidence rather than the sloga
 | EPUB | `book/publish/Surviving_the_Future_EN.epub` | `book/publish/Bertahan_Hidup_di_Masa_Depan_ID.epub` |
 | DOCX | `book/publish/Surviving_the_Future_EN.docx` | `book/publish/Bertahan_Hidup_di_Masa_Depan_ID.docx` |
 | Print cover | `book/publish/Surviving_the_Future_EN_cover_print.pdf` | `book/publish/Bertahan_Hidup_di_Masa_Depan_ID_cover_print.pdf` |
-| Words | 200,476 | 166,931 |
+| Words | 200,473 | 166,925 |
 | References | 145 (130 cited in text) | 145 (124 cited in text) |
 | In-text citations | 402 | 350 |
 
