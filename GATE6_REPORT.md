@@ -174,7 +174,7 @@ dari tipografi yang direncanakan terpisah:
 | Seni | Sesosok orang berjas hujan berdiri di atas dermaga kayu, memegang lentera, menghadap kota pesisir yang setengah tenggelam dan dinding badai; cahaya amber menembus awan. Dihasilkan dengan prompt terkompilasi (lihat `book/cover/SKILL_open_generative_ai.md`) |
 | Tipografi | Kicker amber di atas, judul dua baris Source Sans Black, aturan amber, subjudul Source Serif Italic, nama penulis berjarak lebar |
 | Janji nilai | Kalimat penutup di pita bawah: *"Survival is a decision, not a fate."* / *"Bertahan hidup adalah keputusan, bukan takdir."* |
-| Bukti | Baris statistik: 24 bab · 25 tabel data · 11 gambar · 145 sumber |
+| Bidang kosong | Tidak ada baris statistik di kaki sampul; ruang bawah dibiarkan bersih agar seni dan kalimat penutup yang berbicara |
 
 Semua huruf ditambahkan oleh `make_cover_front.py`, bukan oleh model gambar, sehingga tajam pada
 300 dpi dan dapat diterjemahkan tanpa membuat ulang seni. Dua rasio dibuat: 1800 × 2546 (potong

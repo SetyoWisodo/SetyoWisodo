@@ -36,8 +36,7 @@ F_AUTHOR = 0.029
 F_KICKER = 0.057
 F_TITLE = 0.089
 F_IMAGE = 0.251
-F_QUOTE = 0.878
-F_STATS = 0.955
+F_QUOTE = 0.898
 F_TITLE_WIDTH = 0.795
 
 
@@ -92,7 +91,7 @@ def build(cfg, out_path, w, h):
     canvas.paste(big, (0, img_top), mask)
 
     # ---------- pita bawah: cukup gelap agar kalimat penutup terbaca ----------
-    band_h = int(h * 0.285)
+    band_h = int(h * 0.235)
     band = Image.new("L", (1, band_h))
     for i in range(band_h):
         t = i / (band_h - 1)
@@ -111,7 +110,6 @@ def build(cfg, out_path, w, h):
     f_kick = font("SourceSans3-Semibold.otf", 33)
     f_sub = font("SourceSerif4-It.otf", 62)
     f_sub2 = font("SourceSerif4-It.otf", 46)
-    f_stat = font("SourceSans3-Semibold.otf", 29)
 
     tracked(draw, cfg["author"], f_author, int(h * F_AUTHOR), IVORY, tracking=16 * s, width=w)
     tracked(draw, cfg["kicker"], f_kick, int(h * F_KICKER), AMBER, tracking=9 * s, width=w)
@@ -152,7 +150,6 @@ def build(cfg, out_path, w, h):
         draw = ImageDraw.Draw(canvas)
         draw.text(((w - wq) / 2, yq), ln, font=fq, fill=IVORY)
         yq += int(fq.size * 1.26)
-    tracked(draw, cfg["stats"], f_stat, int(h * F_STATS), AMBER, tracking=6 * s, width=w)
 
     canvas.save(out_path, quality=95, dpi=(300, 300), subsampling=0)
     print("  ->", os.path.relpath(out_path, HERE), canvas.size)
@@ -165,7 +162,6 @@ EN = dict(
     title2="THE FUTURE",
     sub="Crisis, Climate, and Human Resilience",
     quote=["Survival is a decision, not a fate."],
-    stats="24 CHAPTERS   ·   25 DATA TABLES   ·   11 FIGURES   ·   145 SOURCES",
 )
 
 ID = dict(
@@ -175,7 +171,6 @@ ID = dict(
     title2="DI MASA DEPAN",
     sub="Krisis, Iklim, dan Resiliensi Manusia",
     quote=["Bertahan hidup adalah keputusan, bukan takdir."],
-    stats="24 BAB   ·   25 TABEL DATA   ·   11 GAMBAR   ·   145 SUMBER",
 )
 
 if __name__ == "__main__":

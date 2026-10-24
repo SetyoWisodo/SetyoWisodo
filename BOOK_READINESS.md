@@ -39,7 +39,7 @@ diselesaikan pemilik buku (ISBN, imprint/harga, izin kutipan) dan dua keterbatas
 | Kutipan langsung atas nama lima ilmuwan tanpa sumber verbatim | Diubah menjadi kalimat tak langsung dengan atribusi dan tahun — tidak ada lagi tanda kutip yang mengklaim kata-kata persis | hlm. 15 (EN), 15 (ID) |
 | Zona barcode sampul berwarna sama dengan latar | Kotak putih 2 × 1,2 inci, 0,35 inci dari tepi potong | sampel piksel (255,255,255) |
 | Blurb sampul tidak menyebut gambar dan salah menyebut “siklon yang sama” untuk 1970 dan 1991 | Diperbaiki di kedua bahasa | sampul belakang |
-| Sampul lama terbaca sebagai buku tentang satu kawasan, bukan abad krisis | Sampul baru dari seni generatif: krisis dan ketahanan dalam satu bingkai, tipografi terpisah, kalimat penutup, dan baris bukti; dua rasio keluaran | `book/publish/*_cover_front.jpg`, `*_cover_ebook.jpg` |
+| Sampul lama terbaca sebagai buku tentang satu kawasan, bukan abad krisis | Sampul baru dari seni generatif: krisis dan ketahanan dalam satu bingkai, tipografi terpisah, kalimat penutup, kaki sampul bersih tanpa baris statistik; dua rasio keluaran | `book/publish/*_cover_front.jpg`, `*_cover_ebook.jpg` |
 | Aparatus sitasi terganggu oleh tahun di dalam kalimat baru | Kalimat Hansen ditulis ulang tanpa tanda kurung tahun | `check_citations` 0 masalah |
 
 ### Angka akhir
