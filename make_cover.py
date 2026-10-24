@@ -52,9 +52,9 @@ BOOKS = [
             "The four clocks of climate policy: emissions, concentration, temperature, sea level",
             "How to read a death toll, a loss estimate and a warning that never reached its street",
         ],
-        "bio": "Setyo Wisodo writes about disaster risk, climate adaptation and community resilience. "
-               "This book distils two decades of disaster records into a single argument about what "
-               "allows a place to survive a crisis and what does not.",
+        "bio": "Setyo Wisodo holds a degree in history education from Universitas Negeri Malang. "
+               "He reads the past for patterns, tests them against present-day data, and writes about "
+               "what that comparison implies for disaster risk adaptation and community resilience.",
         "spine_title": "SURVIVING THE FUTURE",
     },
     {
@@ -86,9 +86,9 @@ BOOKS = [
             "Empat jam kebijakan iklim: emisi, konsentrasi, suhu, permukaan laut",
             "Cara membaca jumlah kematian, taksiran kerugian, dan peringatan yang tidak pernah sampai ke jalannya",
         ],
-        "bio": "Setyo Wisodo menulis tentang risiko bencana, adaptasi iklim, dan ketahanan komunitas. "
-               "Buku ini merangkum dua dekade catatan bencana ke dalam satu argumen tentang apa yang "
-               "membuat suatu tempat mampu melewati krisis dan apa yang membuatnya tidak.",
+        "bio": "Setyo Wisodo adalah sarjana pendidikan sejarah lulusan Universitas Negeri Malang. "
+               "Ia membaca masa lalu untuk menemukan pola, mengujinya dengan data hari ini, dan menulis "
+               "tentang apa yang tersirat bagi adaptasi risiko bencana dan ketahanan komunitas.",
         "spine_title": "BERTAHAN HIDUP DI MASA DEPAN",
     },
 ]

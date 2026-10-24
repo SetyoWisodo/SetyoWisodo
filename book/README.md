@@ -13,7 +13,7 @@ Case Study and a Future Scenarios section that states what would falsify its own
 | | EN | ID |
 |---|---|---|
 | Pages (A4, 12 pt Tinos) | **430** | **445** |
-| Words (`wc -w`) | **200,271** | **166,753** |
+| Words (`wc -w`) | **200,476** | **166,931** |
 | In-text citations | 402 | 350 |
 | References | 145 (130 cited in text) | 145 (124 cited in text) |
 | PDF outline entries | 327 | 327 |

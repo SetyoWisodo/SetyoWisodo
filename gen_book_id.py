@@ -884,8 +884,10 @@ CAVEATS = [
 ]
 
 BIO = [
- '**Setyo Wisodo** bekerja di bidang pengembangan AI, manajemen produk, dan pemasaran digital, dengan fokus pada produk berbasis AI dan layanan digital.',
- 'Ia berbasis di Indonesia, tempat bahaya yang diuraikan buku ini — panas, banjir, kekeringan, dan perpindahan — adalah pengalaman sehari-hari, bukan proyeksi. Kedekatan itu membentuk argumen buku ini: perbedaan antara bahaya dan bencana biasanya adalah keputusan, dan keputusan dapat diambil secara berbeda.',
+ '**Setyo Wisodo** adalah sarjana pendidikan sejarah (S.Pd.), alumni Universitas Negeri Malang. Gelarnya adalah gelar keguruan dalam ilmu sejarah, dan kebiasaan yang ditanamkannya adalah kebiasaan yang diandalkan buku ini: membaca catatan primer dengan teliti, menimbang satu sumber terhadap sumber lain, dan memisahkan apa yang dibuktikan bukti dari apa yang diasumsikan penuturnya. Disiplin itulah yang dibawanya ke catatan iklim.',
+ 'Metodenya adalah metode sejarah yang diterapkan pada subjek yang bergerak lebih cepat. Pola masa lalu \u2014 urutan bagaimana sebuah bahaya menjadi kelaparan, bagaimana sebuah peringatan menjadi kegagalan, bagaimana sebuah pesisir menjadi kota \u2014 dibaca berdampingan dengan data hari ini: catatan suhu, jumlah perpindahan, taksiran kerugian, harga roti. Ketika keduanya bersesuaian, pengulangan itu diperlakukan sebagai sinyal, bukan kebetulan. Ketika keduanya berselisih, buku ini mengatakannya alih-alih meratakan perbedaan itu.',
+ 'Memprediksi masa depan dari perbandingan itu bukan ramalan. Klaimnya lebih sempit: sistem manusia cenderung gagal dalam urutan yang dapat dikenali, dan urutan itu dapat dipelajari dari catatan dua dekade terakhir. Buku prediksi hanya layak dibaca bila dapat diperiksa, itulah sebabnya setiap bab di sini ditutup dengan menyebut pengamatan yang akan membuktikannya salah.',
+ 'Ia juga bekerja di bidang pengembangan AI, manajemen produk, dan pemasaran digital, dengan fokus pada produk berbasis AI dan layanan digital. Ia berbasis di Indonesia, tempat bahaya yang diuraikan di halaman-halaman ini \u2014 panas, banjir, kekeringan, dan perpindahan \u2014 adalah pengalaman sehari-hari, bukan proyeksi. Kedekatan itu membentuk argumen buku ini: perbedaan antara bahaya dan bencana biasanya adalah keputusan, dan keputusan dapat diambil secara berbeda.',
 ]
 
 index_terms = sorted(set([

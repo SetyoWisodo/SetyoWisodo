@@ -5526,6 +5526,10 @@ These works informed the book's background but are not cited in the text.
 
 # About the Author
 
-**Setyo Wisodo** is a professional working across AI development, product management and digital marketing, with a focus on AI-based products and digital services.
+**Setyo Wisodo** holds a bachelor’s degree in history education (S.Pd.) from Universitas Negeri Malang, Indonesia. His degree is a teaching degree in history, and the habit it instils is the one this book depends on: read a primary record closely, weigh one source against another, and separate what the evidence establishes from what the narrator assumes. That discipline is what he brings to the climate record.
 
-He is based in Indonesia, where the hazards this book describes — heat, flood, drought and displacement — are part of ordinary experience rather than projection. That proximity shapes the argument here: the difference between a hazard and a disaster is usually a decision, and decisions can be made differently.
+The method here is the historian’s method applied to a faster subject. Patterns of the past — the order in which a hazard becomes a famine, a warning becomes a failure, a coastline becomes a city — are read beside data from the present: temperature records, displacement counts, loss estimates, the price of bread. Where the two agree, the repetition is treated as a signal rather than a coincidence. Where they diverge, the book says so rather than smoothing the difference away.
+
+Predicting the future from that comparison is not prophecy. The claim is narrower: human systems tend to fail in recognisable orders, and the order can be learned from the record of the past two decades. A book of predictions is worth reading only if it can be checked, which is why every chapter here closes by naming the observation that would prove it wrong.
+
+He also works across AI development, product management and digital marketing, with a focus on AI-based products and digital services. He is based in Indonesia, where the hazards described in these pages — heat, flood, drought and displacement — are ordinary experience rather than projection. That proximity shapes the argument: the difference between a hazard and a disaster is usually a decision, and decisions can be made differently.
