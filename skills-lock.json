@@ -1,125 +1,276 @@
 {
-  "version": 1,
-  "skills": {
-    "ad-library-teardown": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/ad-library-teardown/SKILL.md",
-      "computedHash": "1f9ecc59fd94ea78dbc6d73ce89410b36ccf341f7d75092ae6e568e3bfc3693f"
+  "generated_by": "skill-lab",
+  "total": 54,
+  "skills": [
+    {
+      "skill": "ad-library-teardown",
+      "sha256": "93b67284b21a",
+      "installed_via": "npx skills add"
     },
-    "anatomy-reveal": {
-      "source": "annnguyentt/anatomy-reveal-skill",
-      "sourceType": "github",
-      "skillPath": "SKILL.md",
-      "computedHash": "f6ae0508bca7a844784ec515fa4763801b9a1a193559f9571e294b5c9e88ad68"
+    {
+      "skill": "ads",
+      "sha256": "72fecd78dbe7",
+      "installed_via": "npx skills add"
     },
-    "audience-research": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/audience-research/SKILL.md",
-      "computedHash": "208db958f2f42bfdfffb6d8b35e4a8438c6d8e49d6959f7d5233fd8679a6b02d"
+    {
+      "skill": "ads-amazon",
+      "sha256": "e1890c0cb393",
+      "installed_via": "npx skills add"
     },
-    "blender-download-artifacts": {
-      "source": "scenario-labs/blender-plugin",
-      "sourceType": "github",
-      "skillPath": ".agents/skills/blender-download-artifacts/SKILL.md",
-      "computedHash": "6b699a518b65bf2cfedfe4b28c98afedaebf9fa929a8f1e8c579c3768290117d"
+    {
+      "skill": "ads-apple",
+      "sha256": "fbd3a496ccd0",
+      "installed_via": "npx skills add"
     },
-    "blender-knowledge-refresh": {
-      "source": "scenario-labs/blender-plugin",
-      "sourceType": "github",
-      "skillPath": ".agents/skills/blender-knowledge-refresh/SKILL.md",
-      "computedHash": "60583a7abaa9cd25e1535bb1f76b878a5e92393d385da8ab435c1666c65df682"
+    {
+      "skill": "ads-attribution",
+      "sha256": "e121015d4c2e",
+      "installed_via": "npx skills add"
     },
-    "comment-mining": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/comment-mining/SKILL.md",
-      "computedHash": "0c91de55510904aca412f85b85d06a2b270eab3609135004435913c474ad7631"
+    {
+      "skill": "ads-audit",
+      "sha256": "116af34f04c9",
+      "installed_via": "npx skills add"
     },
-    "competitor-social-research": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/competitor-social-research/SKILL.md",
-      "computedHash": "639c2996ce779630a935d1fba6b3486bd8254beddebe36c9ab206e29514791ba"
+    {
+      "skill": "ads-budget",
+      "sha256": "f5416bd786da",
+      "installed_via": "npx skills add"
     },
-    "content-repurposing": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/content-repurposing/SKILL.md",
-      "computedHash": "bf942e3997eb3fdbbac289ddd1d92e39b4e0862db1651996eed632410485c93d"
+    {
+      "skill": "ads-competitor",
+      "sha256": "4e3bd1d01ce6",
+      "installed_via": "npx skills add"
     },
-    "creator-profile-teardown": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/creator-profile-teardown/SKILL.md",
-      "computedHash": "7ec49b5355d9ec6a94d9d171dbb25048d5da479e4928326eb5e4c935ddfe79ab"
+    {
+      "skill": "ads-create",
+      "sha256": "148da652ea7e",
+      "installed_via": "npx skills add"
     },
-    "hairline-adopt": {
-      "source": "lucasmarkes/hairline",
-      "sourceType": "github",
-      "skillPath": "skills/hairline-adopt/SKILL.md",
-      "computedHash": "b637cec02d6073b9b19cfcb2a45e0b9ec0ab074646314e5880b001de2cb56d9d"
+    {
+      "skill": "ads-creative",
+      "sha256": "4cf885550612",
+      "installed_via": "npx skills add"
     },
-    "hairline-create": {
-      "source": "lucasmarkes/hairline",
-      "sourceType": "github",
-      "skillPath": "skills/hairline-create/SKILL.md",
-      "computedHash": "97dc77430c05a87e0e1e985f7952938b02147040742ec88095ccfe6f1abe11b5"
+    {
+      "skill": "ads-dna",
+      "sha256": "99d62bffb751",
+      "installed_via": "npx skills add"
     },
-    "influencer-prospecting": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/influencer-prospecting/SKILL.md",
-      "computedHash": "3574ed3dce7ff1d05a08ea374971cc80aaae950844108d877d764af3747f57d1"
+    {
+      "skill": "ads-generate",
+      "sha256": "c7bf32613cd6",
+      "installed_via": "npx skills add"
     },
-    "motion": {
-      "source": "motiondivision/ai-kit",
-      "sourceType": "github",
-      "skillPath": "plugins/motion/skills/motion/SKILL.md",
-      "computedHash": "c0c9eb4e43176278387ddad4d06b3028f882966396a3e8ef24765a32faae13c7"
+    {
+      "skill": "ads-google",
+      "sha256": "82f0083ad202",
+      "installed_via": "npx skills add"
     },
-    "motion-design": {
-      "source": "LottieFiles/motion-design-skill",
-      "sourceType": "github",
-      "skillPath": "skills/motion-design/SKILL.md",
-      "computedHash": "9fcf9130cc46ee8fd1d8e09a9263347a9d76efbcbfa46591cc4cefaf19bbb453"
+    {
+      "skill": "ads-landing",
+      "sha256": "d178024b94ab",
+      "installed_via": "npx skills add"
     },
-    "outlier-post-finder": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/outlier-post-finder/SKILL.md",
-      "computedHash": "be109d43f29ef36f5e155aecfd700718b08c11c197acec9ff8e4a2e9010c9c3c"
+    {
+      "skill": "ads-launch",
+      "sha256": "b1614308347a",
+      "installed_via": "npx skills add"
     },
-    "product-demand-research": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/product-demand-research/SKILL.md",
-      "computedHash": "e0f47b5b9cd8e02638a504e72112c7b70b4791ccebe06a7b59c2a535ff3044ce"
+    {
+      "skill": "ads-linkedin",
+      "sha256": "45cd90060dbd",
+      "installed_via": "npx skills add"
     },
-    "scrapecreators-api": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/scrapecreators-api/SKILL.md",
-      "computedHash": "53b3f03866951c84f791720b9c4381c9238ff4d67f6c588710870d476604b6d0"
+    {
+      "skill": "ads-math",
+      "sha256": "b129b371f983",
+      "installed_via": "npx skills add"
     },
-    "social-listening-brief": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/social-listening-brief/SKILL.md",
-      "computedHash": "eebeb4157c04844a6fefcea178e510b8f271b65ded99af259a81b037883be609"
+    {
+      "skill": "ads-meta",
+      "sha256": "1e06b50f7d0a",
+      "installed_via": "npx skills add"
     },
-    "transcript-intelligence": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/transcript-intelligence/SKILL.md",
-      "computedHash": "df51dbcd37c57fda737e1577a376e52cb1a8e203ba9094a467960c7cba50ed6b"
+    {
+      "skill": "ads-microsoft",
+      "sha256": "ffa46fc0720d",
+      "installed_via": "npx skills add"
     },
-    "trend-discovery": {
-      "source": "ScrapeCreators/social-media-research-skills",
-      "sourceType": "github",
-      "skillPath": "skills/trend-discovery/SKILL.md",
-      "computedHash": "d41e316db471e7f54a5f775ea613a12ac067f340b83479e94a71a9f3daade473"
+    {
+      "skill": "ads-monitor",
+      "sha256": "f1420bbdc71b",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-optimize",
+      "sha256": "0f8548e97be9",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-photoshoot",
+      "sha256": "ac42a9c63510",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-pinterest",
+      "sha256": "ab8be1dc5a6d",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-plan",
+      "sha256": "590f8062e556",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-reddit",
+      "sha256": "5eaf0e578137",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-report",
+      "sha256": "b9927d1b497f",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-research",
+      "sha256": "7be4b6009ff6",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-server-side-tracking",
+      "sha256": "bfdd1c4bb95d",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-setup",
+      "sha256": "67704bae892d",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-snapchat",
+      "sha256": "189aff195547",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-test",
+      "sha256": "5f1a0c5580f5",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-tiktok",
+      "sha256": "6f50b45e98de",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-validate",
+      "sha256": "a61da0abd3e6",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-x",
+      "sha256": "10b342e81a76",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "ads-youtube",
+      "sha256": "4b08d58d0b7f",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "anatomy-reveal",
+      "sha256": "1d769487ccf6",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "audience-research",
+      "sha256": "3ced7d3268b8",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "blender-download-artifacts",
+      "sha256": "25f1bcca704a",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "blender-knowledge-refresh",
+      "sha256": "f36b02eb5eb6",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "comment-mining",
+      "sha256": "8fb6527e7e73",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "competitor-social-research",
+      "sha256": "3a5179df374d",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "content-repurposing",
+      "sha256": "894468df8b24",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "creator-profile-teardown",
+      "sha256": "8bb24dbb8ae5",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "hairline-adopt",
+      "sha256": "0b53d688ce04",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "hairline-create",
+      "sha256": "8675ceec106e",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "influencer-prospecting",
+      "sha256": "670e840f96ef",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "motion",
+      "sha256": "0e12431dce74",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "motion-design",
+      "sha256": "8729ecbc7e57",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "outlier-post-finder",
+      "sha256": "c648fbe9dda6",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "product-demand-research",
+      "sha256": "88d57b03fa52",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "scrapecreators-api",
+      "sha256": "016154fe955f",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "social-listening-brief",
+      "sha256": "c41b897c1b5b",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "transcript-intelligence",
+      "sha256": "599e19d53de3",
+      "installed_via": "npx skills add"
+    },
+    {
+      "skill": "trend-discovery",
+      "sha256": "b22f5d14d01b",
+      "installed_via": "npx skills add"
     }
-  }
+  ]
 }

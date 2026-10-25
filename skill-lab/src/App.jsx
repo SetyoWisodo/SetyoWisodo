@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, useMemo, Suspense } from 'react'
 import gsap from 'gsap'
 import { motion, AnimatePresence } from 'motion/react'
 import SocialLab from './SocialLab.jsx'
+import AdsLab from './AdsLab.jsx'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Environment, PerspectiveCamera, ContactShadows, Float, Grid } from '@react-three/drei'
 import { Physics, RigidBody, BallCollider, CuboidCollider } from '@react-three/rapier'
@@ -1580,6 +1581,7 @@ export default function App(){
             <a href="#openverse">Openverse</a>
             <a href="#openverse-audio">Sound</a>
             <a href="#social-research">Social</a>
+            <a href="#ads-lab">Ads</a>
             <a href="#blender">Blender</a>
           </div>
         </div>
@@ -1772,11 +1774,29 @@ export default function App(){
         </div>
       </section>
 
+      {/* ADS — AgriciDaniel/claude-ads */}
+      <section id="ads-lab" className="wrap" style={{ paddingTop: 12 }}>
+        <div className="section-head">
+          <div>
+            <div className="eyebrow">12 — AgriciDaniel/claude-ads · 34 skills · 12 platforms · Claude-first paid-media ops · v2.1.0 · development candidate</div>
+            <h2>Ads Cockpit — 12-platform audits, deterministic findings, evidence coverage & gated drafts</h2>
+          </div>
+          <p>Conductor owns scope + verification + aggregation; 12 platform workers + cross-platform workers return schema-valid audit-worker-result v1 (pass/fail/unknown/not_applicable). Health profiles disabled — no invented scores. Capability-gated writes are drafts until all six gates pass.</p>
+        </div>
+        <AdsLab />
+        <div style={{ marginTop:12, display:'flex', gap:8, flexWrap:'wrap' }}>
+          <span className="chip"><b>Install</b> npx skills add AgriciDaniel/claude-ads --agent '*' -y</span>
+          <span className="chip"><b>Commands</b> /ads setup · dna · audit all/platform · monitor · optimize · report · next · validate · cockpit</span>
+          <span className="chip"><b>Bundle</b> versioned JSON → MD/HTML/PDF · evidence ledger with source_id+refresh_due</span>
+          <a href="https://github.com/AgriciDaniel/claude-ads" target="_blank" className="chip" style={{ textDecoration:'none' }}>Skill repo →</a>
+        </div>
+      </section>
+
       {/* BLENDER */}
       <section id="blender" className="wrap" style={{ paddingTop: 12 }}>
         <div className="section-head">
           <div>
-            <div className="eyebrow">12 — scenario-labs/blender-plugin · Blender 5.0+ · GPL-3.0 · MCP</div>
+            <div className="eyebrow">13 — scenario-labs/blender-plugin · Blender 5.0+ · GPL-3.0 · MCP</div>
             <h2>Scenario for Blender — generate in the viewport, drive via MCP</h2>
           </div>
           <p>AI images, video, 3D and PBR materials without leaving Blender. Plus a local loopback MCP server so agents can create objects, shade, and render.</p>
@@ -1789,24 +1809,24 @@ export default function App(){
         <div className="card" style={{ background: 'var(--panel-2)' }}>
           <div className="card-pad">
             <div className="mono" style={{ color: 'var(--dim)' }}>How this page was built</div>
-            <h3 style={{ margin: '6px 0 8px' }}>20+ skills installed via <code>npx skills add</code> → orchestrated in one Vite app</h3>
+            <h3 style={{ margin: '6px 0 8px' }}>54 skills installed via <code>npx skills add</code> → orchestrated in one Vite app</h3>
             <div className="grid-3" style={{ marginTop: 12 }}>
               <div style={{ padding: 12, borderRadius: 12, background: 'var(--panel)', border: '1px solid var(--line)' }}>
                 <div className="mono">Installed (anatomy/motion)</div>
                 <div style={{ color: 'var(--muted)', fontSize: 12, marginTop: 4, lineHeight: 1.6 }}>
-                  • annnguyentt/anatomy-reveal<br/>• lucasmarkes/hairline (create+adopt)<br/>• LottieFiles/motion-design-skill<br/>• motiondivision/ai-kit (motion)<br/>• scenario-labs/blender-plugin (2 skills)
+                  • annnguyentt/anatomy-reveal<br/>• lucasmarkes/hairline (create+adopt)<br/>• LottieFiles/motion-design-skill<br/>• motiondivision/ai-kit (motion)<br/>• scenario-labs/blender-plugin (2 skills)<br/>• AgriciDaniel/claude-ads (34) — ads + 12 platform audits + setup/audit/monitor/optimize/report
                 </div>
               </div>
               <div style={{ padding: 12, borderRadius: 12, background: 'var(--panel)', border: '1px solid var(--line)' }}>
                 <div className="mono">Installed (social research)</div>
                 <div style={{ color: 'var(--muted)', fontSize: 12, marginTop: 4, lineHeight: 1.6 }}>
-                  • ScrapeCreators/social-media-research-skills (13)<br/>· outlier-post-finder · transcript · comment-mining<br/>· competitor · ad-teardown · trend · influencer<br/>· audience · listening · demand · creator · repurpose · API
+                  • ScrapeCreators/social-media-research-skills (13)<br/>· outlier-post-finder · transcript · comment-mining<br/>· competitor · ad-teardown · trend · influencer<br/>· audience · listening · demand · creator · repurpose · API<br/>• 54 total verified in skills-lock.json
                 </div>
               </div>
               <div style={{ padding: 12, borderRadius: 12, background: 'var(--panel)', border: '1px solid var(--line)' }}>
                 <div className="mono">Runtime + APIs</div>
                 <div style={{ color: 'var(--muted)', fontSize: 12, marginTop: 4, lineHeight: 1.6 }}>
-                  • gsap 3.15 · motion 12 · R3F + Rapier + postprocessing<br/>• api.openverse.org/v1/images + /v1/audio<br/>• api.scrapecreators.com (27+ platforms, 110 endpoints)
+                  • gsap 3.15 · motion 12 · R3F + Rapier + postprocessing<br/>• api.openverse.org/v1/images + /v1/audio<br/>• api.scrapecreators.com (110 endpoints) · claude_ads_core Python scoring + cockpit
                 </div>
               </div>
             </div>
