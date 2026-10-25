@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "skills": {
+    "anatomy-reveal": {
+      "source": "annnguyentt/anatomy-reveal-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "f6ae0508bca7a844784ec515fa4763801b9a1a193559f9571e294b5c9e88ad68"
+    },
+    "blender-download-artifacts": {
+      "source": "scenario-labs/blender-plugin",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/blender-download-artifacts/SKILL.md",
+      "computedHash": "6b699a518b65bf2cfedfe4b28c98afedaebf9fa929a8f1e8c579c3768290117d"
+    },
+    "blender-knowledge-refresh": {
+      "source": "scenario-labs/blender-plugin",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/blender-knowledge-refresh/SKILL.md",
+      "computedHash": "60583a7abaa9cd25e1535bb1f76b878a5e92393d385da8ab435c1666c65df682"
+    },
+    "hairline-adopt": {
+      "source": "lucasmarkes/hairline",
+      "sourceType": "github",
+      "skillPath": "skills/hairline-adopt/SKILL.md",
+      "computedHash": "b637cec02d6073b9b19cfcb2a45e0b9ec0ab074646314e5880b001de2cb56d9d"
+    },
+    "hairline-create": {
+      "source": "lucasmarkes/hairline",
+      "sourceType": "github",
+      "skillPath": "skills/hairline-create/SKILL.md",
+      "computedHash": "97dc77430c05a87e0e1e985f7952938b02147040742ec88095ccfe6f1abe11b5"
+    },
+    "motion": {
+      "source": "motiondivision/ai-kit",
+      "sourceType": "github",
+      "skillPath": "plugins/motion/skills/motion/SKILL.md",
+      "computedHash": "c0c9eb4e43176278387ddad4d06b3028f882966396a3e8ef24765a32faae13c7"
+    },
+    "motion-design": {
+      "source": "LottieFiles/motion-design-skill",
+      "sourceType": "github",
+      "skillPath": "skills/motion-design/SKILL.md",
+      "computedHash": "9fcf9130cc46ee8fd1d8e09a9263347a9d76efbcbfa46591cc4cefaf19bbb453"
+    }
+  }
+}

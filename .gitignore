@@ -7,3 +7,12 @@
 # Book build intermediates
 book/.gen/
 __pycache__/
+
+# Arena skill lab
+skill-lab/node_modules
+skill-lab/dist
+
+# Local skill installs (reproducible via npx skills add + skills-lock.json)
+.agents
+.claude
+agent
