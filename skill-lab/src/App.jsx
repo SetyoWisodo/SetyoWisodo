@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, useMemo, Suspense } from 'react'
 import gsap from 'gsap'
 import { motion, AnimatePresence } from 'motion/react'
+import SocialLab from './SocialLab.jsx'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Environment, PerspectiveCamera, ContactShadows, Float, Grid } from '@react-three/drei'
 import { Physics, RigidBody, BallCollider, CuboidCollider } from '@react-three/rapier'
@@ -1578,6 +1579,7 @@ export default function App(){
             <a href="#post">Post</a>
             <a href="#openverse">Openverse</a>
             <a href="#openverse-audio">Sound</a>
+            <a href="#social-research">Social</a>
             <a href="#blender">Blender</a>
           </div>
         </div>
@@ -1751,11 +1753,30 @@ export default function App(){
         </section>
       )}
 
+      {/* SOCIAL RESEARCH — ScrapeCreators */}
+      <section id="social-research" className="wrap" style={{ paddingTop: 12 }}>
+        <div className="section-head">
+          <div>
+            <div className="eyebrow">11 — ScrapeCreators/social-media-research-skills · 13 skills · 4.7k★ · MIT</div>
+            <h2>Social Media Research Lab — outliers, comments, transcripts, ads, trends & demand</h2>
+          </div>
+          <p>ScrapeCreators is the data layer (110 endpoints, 27+ platforms). Each workflow skill turns public posts, comments, transcripts & ads into cited, actionable artifacts — not just JSON.</p>
+        </div>
+        <SocialLab />
+        <div style={{ marginTop:12, display:'flex', gap:8, flexWrap:'wrap' }}>
+          <span className="chip"><b>Public-data only</b> · public endpoints, source URLs cited</span>
+          <span className="chip"><b>Baseline-aware</b> · median, not mean — huge/strong/mild outliers</span>
+          <span className="chip"><b>Exact language</b> · verbatim hooks, quotes, VOC preserved</span>
+          <a href="https://github.com/ScrapeCreators/social-media-research-skills" target="_blank" className="chip" style={{ textDecoration:'none' }}>Skill repo →</a>
+          <a href="https://docs.scrapecreators.com" target="_blank" className="chip" style={{ textDecoration:'none' }}>API docs →</a>
+        </div>
+      </section>
+
       {/* BLENDER */}
       <section id="blender" className="wrap" style={{ paddingTop: 12 }}>
         <div className="section-head">
           <div>
-            <div className="eyebrow">10 — scenario-labs/blender-plugin · Blender 5.0+ · GPL-3.0 · MCP</div>
+            <div className="eyebrow">12 — scenario-labs/blender-plugin · Blender 5.0+ · GPL-3.0 · MCP</div>
             <h2>Scenario for Blender — generate in the viewport, drive via MCP</h2>
           </div>
           <p>AI images, video, 3D and PBR materials without leaving Blender. Plus a local loopback MCP server so agents can create objects, shade, and render.</p>
@@ -1768,24 +1789,24 @@ export default function App(){
         <div className="card" style={{ background: 'var(--panel-2)' }}>
           <div className="card-pad">
             <div className="mono" style={{ color: 'var(--dim)' }}>How this page was built</div>
-            <h3 style={{ margin: '6px 0 8px' }}>10 skills installed via <code>npx skills add</code> → orchestrated in one Vite app</h3>
+            <h3 style={{ margin: '6px 0 8px' }}>20+ skills installed via <code>npx skills add</code> → orchestrated in one Vite app</h3>
             <div className="grid-3" style={{ marginTop: 12 }}>
               <div style={{ padding: 12, borderRadius: 12, background: 'var(--panel)', border: '1px solid var(--line)' }}>
-                <div className="mono">Installed</div>
+                <div className="mono">Installed (anatomy/motion)</div>
                 <div style={{ color: 'var(--muted)', fontSize: 12, marginTop: 4, lineHeight: 1.6 }}>
                   • annnguyentt/anatomy-reveal<br/>• lucasmarkes/hairline (create+adopt)<br/>• LottieFiles/motion-design-skill<br/>• motiondivision/ai-kit (motion)<br/>• scenario-labs/blender-plugin (2 skills)
                 </div>
               </div>
               <div style={{ padding: 12, borderRadius: 12, background: 'var(--panel)', border: '1px solid var(--line)' }}>
-                <div className="mono">Runtime libs</div>
+                <div className="mono">Installed (social research)</div>
                 <div style={{ color: 'var(--muted)', fontSize: 12, marginTop: 4, lineHeight: 1.6 }}>
-                  • gsap 3.15<br/>• motion (framer) 12<br/>• @react-three/fiber + drei<br/>• @react-three/rapier + @react-three/postprocessing<br/>• three, postprocessing
+                  • ScrapeCreators/social-media-research-skills (13)<br/>· outlier-post-finder · transcript · comment-mining<br/>· competitor · ad-teardown · trend · influencer<br/>· audience · listening · demand · creator · repurpose · API
                 </div>
               </div>
               <div style={{ padding: 12, borderRadius: 12, background: 'var(--panel)', border: '1px solid var(--line)' }}>
-                <div className="mono">APIs & links</div>
+                <div className="mono">Runtime + APIs</div>
                 <div style={{ color: 'var(--muted)', fontSize: 12, marginTop: 4, lineHeight: 1.6 }}>
-                  • api.openverse.org/v1/images/?q=&license=<br/>• skills.wheresryan.sh/anatomy<br/>• hairline.lucasmarkes.com/skills<br/>• github.com/pmndrs/*, greensock/GSAP
+                  • gsap 3.15 · motion 12 · R3F + Rapier + postprocessing<br/>• api.openverse.org/v1/images + /v1/audio<br/>• api.scrapecreators.com (27+ platforms, 110 endpoints)
                 </div>
               </div>
             </div>
