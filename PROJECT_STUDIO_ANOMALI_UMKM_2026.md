@@ -2,7 +2,7 @@
 ## Project Berbeda dari Buku `Surviving the Future` — Murni dari Riset Sosial Media + 54 Skills Repo
 
 > **Owner:** Setyo Wisodo — Banyuanyar, East Java — AI Dev · Product · Growth  
-> **Status:** Concept + spec (prototype interaktif di skill-lab **belum dibangun** — lihat §5) · **Build target:** 30 hari pilot  
+> **Status:** Superseded oleh `PROJECT_STUDIO_ANOMALI_v2_NASIONAL_CLIPPER.md`. Prototype v2 ada di skill-lab (`#studio-anomali`). · **Build target:** 30 hari pilot  
 > **Repo skills used:** 46/54 — 13/13 social-research, 26/34 ads, 7/7 creative. 8 ads sengaja tidak dipakai: `ads` (umbrella), `create`, `linkedin`, `microsoft`, `apple`, `amazon`, `reddit`, `x` (B2C lokal Jatim, tidak relevan)  
 > **Validation:** 180M sosmed ID [1], 125M TikTok [2], anomali 400M views [6], CPA TikTok $18.94 termurah [3]
 

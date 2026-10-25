@@ -2,7 +2,7 @@
 ## Revisi dari `PROJECT_STUDIO_ANOMALI_UMKM_2026.md` (target Jatim → seluruh Indonesia)
 
 > **Owner:** Setyo Wisodo — Banyuanyar, East Java
-> **Status:** Spec v2 (belum ada prototype). Prototype skill-lab tetap rencana.
+> **Status:** Spec v2 + prototype interaktif `skill-lab/src/AnomalyStudio.jsx` (`#studio-anomali`, data mock). Belum ada data live.
 > **Perubahan utama:** (1) target UMKM seluruh Indonesia, bukan Jatim saja; (2) menambahkan model **clipper** sebagai mesin akuisisi dan sumber pendapatan kedua.
 
 ---
@@ -157,3 +157,12 @@ Sisa skill tetap dipakai seperti di v1.
 - reap.video — "Whop Clipping: How to Make Money with Content Rewards (2026)"
 - luminaclippers.com — "How Much Do Clippers Make?" (rujukan OpenClip, CreatorDB, NPR)
 - YouTube Help — YouTube Partner Program overview & eligibility (dikutip sumber di atas, belum dicek langsung)
+
+
+---
+
+## 12. Status Implementasi (25 Okt 2026)
+
+- Prototype `AnomalyStudio.jsx` dibangun: radar outlier, hook transkrip, VOC komentar, trend, nano matcher, simulator ads, dan kalender 8 atom.
+- Data masih mock. Ganti dengan data ScrapeCreators saat API key tersedia.
+- Skill yang dipakai untuk spek ini: `script-long-form` dan `fact-check-sources` untuk naskah video panjang, ditambah 46 skill dari v1.

@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'motion/react'
 import SocialLab from './SocialLab.jsx'
 import AdsLab from './AdsLab.jsx'
 import ProjectPotential from './ProjectPotential.jsx'
+import AnomalyStudio from './AnomalyStudio.jsx'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Environment, PerspectiveCamera, ContactShadows, Float, Grid } from '@react-three/drei'
 import { Physics, RigidBody, BallCollider, CuboidCollider } from '@react-three/rapier'
@@ -1584,6 +1585,7 @@ export default function App(){
             <a href="#social-research">Social</a>
             <a href="#ads-lab">Ads</a>
             <a href="#project-potential">Projects</a>
+            <a href="#studio-anomali">Studio</a>
             <a href="#blender">Blender</a>
           </div>
         </div>
@@ -1810,6 +1812,18 @@ export default function App(){
           <span className="chip"><b>Next</b> Pilot UMKM Banyuanyar $250 → Anomaly Studio week 3</span>
           <span className="chip"><b>Repo</b> SetyoWisodo/SetyoWisodo — Banyuanyar, East Java, ID</span>
         </div>
+      </section>
+
+      {/* STUDIO ANOMALI v2 — prototype (mock data) */}
+      <section id="studio-anomali" className="wrap" style={{ paddingTop: 12 }}>
+        <div className="section-head">
+          <div>
+            <div className="eyebrow">15 — Studio Anomali v2 · Nasional + Clipper · prototype (data mock)</div>
+            <h2>Studio Anomali — pabrik konten UMKM seluruh Indonesia</h2>
+          </div>
+          <p>Radar outlier, hook transkrip, VOC komentar, trend, nano creator matcher, simulator ads, dan kalender 8 atom. Spek: PROJECT_STUDIO_ANOMALI_v2_NASIONAL_CLIPPER.md.</p>
+        </div>
+        <AnomalyStudio />
       </section>
 
       {/* BLENDER */}

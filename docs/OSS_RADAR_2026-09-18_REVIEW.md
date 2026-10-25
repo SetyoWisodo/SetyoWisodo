@@ -38,8 +38,24 @@ Yang tidak boleh:
 
 Keputusan: tidak ada kode dari repo ini yang disalin. Untuk Blender, kita tetap memakai skill `blender-download-artifacts` dan `blender-knowledge-refresh` yang sudah ada. Jika suatu hari ingin menjual skill Blender, perlu konsultasi lisensi atau pembuatan ulang dari nol.
 
-## 4. Yang belum diperiksa
+## 4. Hasil pemeriksaan empat repo tambahan (25 Okt 2026)
 
-- Empat repo lain belum dibaca isinya: openui (MIT, UI), ideagraph-live (MIT, bintang 2), mnemos (Apache-2.0), agentguard (Apache-2.0). Lisensi sudah dicek; isi dan kualitas belum.
-- Pengecekan CI design-os-3d-blender berstatus gagal pada commit terakhir (22 Okt). Tidak diselidiki.
+| Repo | Lisensi | Temuan | Keputusan |
+|------|---------|--------|-----------|
+| thesysdev/openui | MIT | Monorepo besar (1.060 commit, 82 tag, 13,7K bintang). Fokus generative UI dengan contoh banyak framework. Aktif. | Referensi untuk UI generatif di skill-lab jika nanti dibutuhkan. Tidak disalin. |
+| SaltKing0/ideagraph-live | MIT | **Repo sudah pindah nama ke `SaltKing0/graph-engine`** (276 commit, 15 tag). Memuat catatan "prototype closeout" dan menyatakan validasi independen **belum selesai**; README menyebut modul ini eksperimental. Model graph berbasis Markdown di git cocok dengan kebutuhan canon dan bukti untuk naskah. | Referensi konsep provenance untuk `fact-check-sources`. Jangan dianggap production-ready. |
+| ncz-os/mnemos | Apache-2.0 | Sistem memori besar (1.556 commit, 92 tag). Commit terakhir (23 Okt) berstatus **gagal di CI**. Banyak integrasi framework. | Tidak dipakai sekarang. Terlalu besar untuk kebutuhan skill-lab. Bisa jadi referensi memori agent. |
+| chrismsmr-celcom/agentguard | Apache-2.0 | **Repo sudah pindah ke `cerbere-AG`** (906 commit). Commit terakhir (24 Okt) berstatus **gagal di CI**. Termasuk dashboard, kebijakan, dan fitur "sealed evidence". | Tidak dipakai sekarang. Kalau dipakai, cek status CI dulu. |
+
+Catatan tambahan untuk design-os-3d-blender: commit 22 Okt berstatus gagal di CI. Tidak diselidiki lebih jauh.
+
+## 5. Status adopsi
+
+- `script-long-form` dan `fact-check-sources`: **sudah dibuat** di `.agents/skills/`, terdaftar di `skills-lock.json` (56 entri, semua hash cocok). Keduanya ditulis dari nol dengan struktur yang terinspirasi story-skills (MIT). Tidak ada teks yang disalin.
+- design-os-3d-blender: tidak ada kode yang disalin.
+- Prototype Studio Anomali: lihat `skill-lab/src/AnomalyStudio.jsx` dan section `#studio-anomali`, data mock.
+
+## 6. Yang belum diperiksa
+
+- Isi kode openui, graph-engine, mnemos, dan cerbere-AG hanya dibaca dari halaman depan. Belum dijalankan, belum diuji.
 - Post asli berisi klaim pendek dari akun dengan 4 like. Deskripsi tiap repo dalam post adalah ringkasan penulis post, bukan dari repo itu sendiri.

@@ -1,6 +1,6 @@
 {
   "generated_by": "skill-lab",
-  "total": 54,
+  "total": 56,
   "skills": [
     {
       "skill": "ad-library-teardown",
@@ -218,6 +218,11 @@
       "installed_via": "npx skills add"
     },
     {
+      "skill": "fact-check-sources",
+      "sha256": "21689c2c39b5",
+      "installed_via": "authored (local)"
+    },
+    {
       "skill": "hairline-adopt",
       "sha256": "0b53d688ce04",
       "installed_via": "npx skills add"
@@ -256,6 +261,11 @@
       "skill": "scrapecreators-api",
       "sha256": "016154fe955f",
       "installed_via": "npx skills add"
+    },
+    {
+      "skill": "script-long-form",
+      "sha256": "c52eecdea823",
+      "installed_via": "authored (local)"
     },
     {
       "skill": "social-listening-brief",
