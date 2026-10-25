@@ -73,4 +73,15 @@ skill-lab/
 - For a true Anatomy Reveal film render, install `puppeteer-core`, Chrome/Edge, `ffmpeg`, and ImageMagick, then run the skill’s `motion/render.mjs` + `encode.mjs` — ~2 min per second of film.
 - Tailwind was intentionally **not** used; the palette is custom (ink #f4f1eb, bg #08080a, paper #fdf6ec, accents #ff3b30/#0a84ff/#30d158) to keep the bundle self-contained.
 
+## Workflow — Opus → Skills → Engines → Openverse Sound
+
+See [`WORKFLOW.md`](./WORKFLOW.md) for the full 4-stage pipeline:
+
+1. **Opus writes the code** — spec, convex parts, separating planes, feature channels
+2. **Skills guide the look** — paper 4-tone, Hairline pointer figures, LottieFiles director, Motion springs
+3. **Engines render** — R3F + Rapier WASM + postprocessing + Blender viewport + GSAP timeline
+4. **Openverse adds the sound** — `GET /v1/audio/?q=` live CC audio, waveform, 8-slot soundtrack (film/steam/grind/tick/impact/swell/ui/ambient), global audio bar, attribution preserved
+
+> The anatomy-reveal film is silent by design — “offer to cut it to a track the user supplies.” This demo supplies that track via Openverse.
+
 — Built for Setyo Wisodo · Banyuanyar, East Java, ID · 2026-10-25

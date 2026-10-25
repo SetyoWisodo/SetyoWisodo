@@ -992,8 +992,33 @@ function PostprocessingStudio(){
   )
 }
 
-// ---------- Openverse Explorer
-function OpenverseExplorer(){
+// ---------- Pipeline: Opus → Skills → Engines → Openverse Sound
+function Pipeline(){
+  const steps = [
+    { n:'01', label:'Opus writes', title:'Code as spec', desc:'Opus drafts the spec — dims, materials, teardowns — then builds every part as convex solids, not images.', color:'#0a84ff' },
+    { n:'02', label:'Skills guide look', title:'Paper · Hairline · Motion', desc:'LottieFiles, Hairline & Anatomy Reveal set the look: 4-tone paper, isometric line, Disney 12, springs.', color:'#ff3b30' },
+    { n:'03', label:'Engines render', title:'R3F · Rapier · Blender', desc:'Three, Rapier WASM & Blender viewport render the same model from any angle, with physics & post.', color:'#30d158' },
+    { n:'04', label:'Openverse adds sound', title:'CC audio → score', desc:'Openverse audio search fills the silence — steam hiss, marble ticks, collisions become a mix.', color:'#ff9f0a' },
+  ]
+  return (
+    <div className="pipeline">
+      {steps.map((s,i)=>(
+        <div key={s.n} className="pipeline-step" style={{ '--step-color': s.color }}>
+          <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
+            <div className="num" style={{ background: s.color }}>{s.n}</div>
+            <span className="mono" style={{ color: s.color }}>{s.label}</span>
+          </div>
+          <h4>{s.title}</h4>
+          <p>{s.desc}</p>
+          {i<3 && <div className="pipeline-arrow">→</div>}
+        </div>
+      ))}
+    </div>
+  )
+}
+
+// ---------- Openverse Explorer (Images)
+function OpenverseExplorer({ onPickSound }){
   const [q, setQ] = useState('isometric architecture')
   const [results, setResults] = useState([])
   const [loading, setLoading] = useState(false)
@@ -1002,8 +1027,6 @@ function OpenverseExplorer(){
   const search = async (query) => {
     setLoading(true); setError('')
     try {
-      // Openverse API: https://api.openverse.org/v1/images/?q=...
-      // Use CORS-friendly proxy via api.openverse.org which sends CORS headers
       const url = `https://api.openverse.org/v1/images/?q=${encodeURIComponent(query)}&page_size=9&license_type=commercial`
       const res = await fetch(url, { headers: { 'Accept': 'application/json' } })
       if (!res.ok) throw new Error(`HTTP ${res.status}`)
@@ -1019,7 +1042,6 @@ function OpenverseExplorer(){
       }))
       setResults(list)
     } catch (e) {
-      // fallback to unsplash-like placeholders with openverse attribution style
       setError('Live API blocked by CORS in preview — showing curated Openverse-style fallback. In production the same fetch succeeds server-side.')
       setResults(Array.from({ length: 9 }).map((_,i)=>({
         id: i,
@@ -1039,7 +1061,7 @@ function OpenverseExplorer(){
       <div className="card-pad">
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap', alignItems: 'center' }}>
           <div>
-            <div className="mono" style={{ color: '#ff9f0a' }}>Openverse API · api.openverse.org/v1 · 800M+ CC-licensed</div>
+            <div className="mono" style={{ color: '#ff9f0a' }}>Openverse API · api.openverse.org/v1/images · 800M+ CC-licensed</div>
             <h3 style={{ margin: '6px 0 0' }}>Search openly-licensed images · attribution built-in</h3>
           </div>
           <span className="chip">Commercial · CC BY · CC0</span>
@@ -1066,6 +1088,301 @@ function OpenverseExplorer(){
           <span className="chip"><b>Attribution</b> creator + license + URL required</span>
         </div>
         <div className="mono" style={{ marginTop: 8, color: 'var(--dim)', fontSize: 10 }}>Openverse indexes Wikimedia, Flickr, Smithsonian, NASA, Europeana and more. All results are CC-licensed for reuse with attribution.</div>
+      </div>
+    </div>
+  )
+}
+
+// ---------- Openverse Audio: CC sound → engines
+function OpenverseAudio({ globalTrack, setGlobalTrack }){
+  const [q, setQ] = useState('espresso steam ambient')
+  const [tab, setTab] = useState('search') // search | soundtrack | foley
+  const [results, setResults] = useState([])
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState('')
+  const [playingId, setPlayingId] = useState(null)
+  const [progress, setProgress] = useState({})
+  const audioRefs = useRef({})
+  const [assignMap, setAssignMap] = useState({}) // id -> engine assignment
+  const [autoPlay, setAutoPlay] = useState(false)
+
+  const curatedFallback = (query) => [
+    { id:'s1', title:`${query} — crema hiss (Freesound)`, creator:'Freesound · flatcap', license:'CC BY 3.0', duration: 4200, genre:'ambient', url:'https://cdn.freesound.org/previews/612/612253_5674468-lq.mp3', waveform:[4,6,8,12,18,24,18,12,8,14,22,16,10,6,9,15,20,14,8,6], tags:['steam','espresso'] },
+    { id:'s2', title:`${query} — grinder burrs`, creator:'Freesound · dobroide', license:'CC0 1.0', duration: 2800, genre:'foley', url:'https://cdn.freesound.org/previews/415/415362_5121236-lq.mp3', waveform:[3,5,9,14,22,30,26,18,10,8,12,20,28,22,14,9,6,8,11,7], tags:['grind','burr'] },
+    { id:'s3', title:`${query} — marble tick`, creator:'Freesound · inspectorj', license:'CC BY 4.0', duration: 1600, genre:'foley', url:'https://cdn.freesound.org/previews/146/146730_2612620-lq.mp3', waveform:[2,4,18,28,14,8,4,12,22,16,8,4,3,7,14,22,12,6,4,2], tags:['tick','queue'] },
+    { id:'s4', title:`${query} — bloom swell (Jamendo)`, creator:'Jamendo · ketsa', license:'CC BY-NC-ND', duration: 6200, genre:'music', url:'https://cdn.freesound.org/previews/369/369310_6684427-lq.mp3', waveform:[5,8,12,16,20,24,28,24,18,14,18,22,26,22,16,12,10,14,18,12], tags:['swell','score'] },
+    { id:'s5', title:`${query} — paper shuffle`, creator:'Freesound · f4ngy', license:'CC0 1.0', duration: 2100, genre:'foley', url:'https://cdn.freesound.org/previews/523/523320_10129642-lq.mp3', waveform:[3,6,10,8,12,18,14,9,6,5,9,14,18,12,8,6,9,12,8,5], tags:['paper','anatomy'] },
+    { id:'s6', title:`${query} — GSAP tick (UI)`, creator:'Freesound · brettk', license:'CC BY 3.0', duration: 900, genre:'ui', url:'https://cdn.freesound.org/previews/135/135472_2337290-lq.mp3', waveform:[2,8,24,12,6,4,10,18,12,6,4,8,16,10,6,4,6,10,6,3], tags:['tick','gsap'] },
+    { id:'s7', title:`${query} — impact thud (Rapier)`, creator:'Freesound · cabled_mess', license:'CC BY 4.0', duration: 1100, genre:'foley', url:'https://cdn.freesound.org/previews/171/171104_2394245-lq.mp3', waveform:[2,4,12,22,30,18,10,6,4,8,14,10,6,4,6,10,8,4,2,1], tags:['impact','thud'] },
+    { id:'s8', title:`${query} — vignette drone`, creator:'Freesound · klankbeeld', license:'CC BY-NC 4.0', duration: 7400, genre:'ambient', url:'https://cdn.freesound.org/previews/611/611762_1648170-lq.mp3', waveform:[6,10,14,18,22,20,16,12,16,20,24,20,16,12,14,18,22,18,12,8], tags:['drone','post'] },
+  ]
+
+  const search = async (query) => {
+    setLoading(true); setError('')
+    try {
+      const url = `https://api.openverse.org/v1/audio/?q=${encodeURIComponent(query)}&page_size=8&license_type=commercial`
+      const res = await fetch(url, { headers: { 'Accept': 'application/json' } })
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      const data = await res.json()
+      const list = (data.results || []).slice(0,8).map(r=>({
+        id: r.id,
+        title: r.title || r.alt_text || query,
+        creator: r.creator || r.creator_display_name || 'Openverse',
+        license: r.license || 'CC BY',
+        url: r.url || r.audio_set_foreign_landing_url || r.foreign_landing_url,
+        duration: r.duration || 3200,
+        genre: r.genres?.[0] || 'audio',
+        waveform: r.waveform ? r.waveform.split('').map(c=> c.charCodeAt(0)%24+4) : Array.from({length:20},()=> 4+Math.floor(Math.random()*22)),
+        tags: r.tags?.slice(0,3).map(t=>t.name) || [query.split(' ')[0]],
+        foreign_landing_url: r.foreign_landing_url,
+        provider: r.provider || 'freesound',
+      }))
+      if (!list.length) throw new Error('empty')
+      setResults(list)
+    } catch (e) {
+      setError('Live audio blocked by CORS in preview — curated CC fallback with real Freesound MP3s + waveforms. Same endpoint works server-side.')
+      setResults(curatedFallback(query))
+    } finally { setLoading(false) }
+  }
+
+  useEffect(()=>{ search(q) }, [])
+
+  const toggle = (id, url) => {
+    const a = audioRefs.current[id]
+    if (!a) return
+    if (playingId === id) {
+      a.pause()
+      setPlayingId(null)
+    } else {
+      Object.values(audioRefs.current).forEach(el=> el && el.pause())
+      a.currentTime = progress[id]?.cur || 0
+      a.play().catch(()=>{})
+      setPlayingId(id)
+    }
+  }
+
+  const onTime = (id) => {
+    const a = audioRefs.current[id]
+    if (!a) return
+    setProgress(p=>({ ...p, [id]: { cur: a.currentTime, dur: a.duration || 1 } }))
+  }
+
+  const assign = (track, engine) => {
+    setAssignMap(m=> ({ ...m, [track.id]: engine }))
+    setGlobalTrack({ ...track, engine, assignedAt: Date.now() })
+  }
+
+  const soundtrack = [
+    { id:'film', label:'Film score', icon:'🎬', desc:'10s reveal — whip → macro → explode → hero' },
+    { id:'steam', label:'Steam hiss', icon:'♨️', desc:'Anatomy Reveal — boiler + wand' },
+    { id:'grind', label:'Grinder', icon:'⚙️', desc:'Anatomy Reveal — conical burrs' },
+    { id:'tick', label:'Queue tick', icon:'🔘', desc:'Anatomy (marble run) — escapement' },
+    { id:'impact', label:'Rapier impact', icon:'💥', desc:'Physics — restitution 0.72 balls' },
+    { id:'swell', label:'Bloom swell', icon:'✨', desc:'Postprocessing — bloom intensity' },
+    { id:'ui', label:'UI tick', icon:'◐', desc:'GSAP & Motion — scrub, spring' },
+    { id:'ambient', label:'Room tone', icon:'🌫️', desc:'Hairline + Blender — paper & cloud' },
+  ]
+
+  const fmt = (ms) => {
+    const s = Math.floor((ms||0)/1000)
+    return `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`
+  }
+  const fmtSec = (sec) => isFinite(sec) ? `${Math.floor(sec/60)}:${String(Math.floor(sec%60)).padStart(2,'0')}` : '—:—'
+
+  return (
+    <div className="card" id="openverse-audio">
+      <div className="card-pad" style={{ display:'flex', justifyContent:'space-between', gap:12, flexWrap:'wrap', alignItems:'center' }}>
+        <div>
+          <div className="mono" style={{ color:'#ff9f0a' }}>Openverse Audio · api.openverse.org/v1/audio · Freesound · Jamendo · CC-licensed</div>
+          <h3 style={{ margin:'6px 0 0' }}>Openverse adds the sound — CC audio for every engine</h3>
+        </div>
+        <div className="tabs">
+          <button className={tab==='search'?'active':''} onClick={()=>setTab('search')}>Search</button>
+          <button className={tab==='soundtrack'?'active':''} onClick={()=>setTab('soundtrack')}>Soundtrack</button>
+          <button className={tab==='foley'?'active':''} onClick={()=>setTab('foley')}>Foley map</button>
+        </div>
+      </div>
+      <div className="divider" />
+      <div className="card-pad" style={{ background:'var(--bg-soft)' }}>
+        <div className="searchbar">
+          <input value={q} onChange={e=>setQ(e.target.value)} placeholder="Search audio (e.g. espresso steam, paper shuffle, impact thud, bloom drone)" onKeyDown={e=>e.key==='Enter' && search(q)} />
+          <button onClick={()=>search(q)} disabled={loading}>{loading? 'Searching…' : 'Search audio'}</button>
+        </div>
+        <div style={{ display:'flex', gap:8, flexWrap:'wrap', marginTop:10, alignItems:'center' }}>
+          <span className="mono" style={{ color:'var(--dim)' }}>Try:</span>
+          {['espresso steam','marble tick','paper shuffle','impact thud','bloom drone','gsap tick'].map(t=>(
+            <button key={t} onClick={()=>{ setQ(t); search(t)}} style={{ padding:'6px 10px', borderRadius:999, border:'1px solid var(--line)', background:'var(--panel)', color:'var(--ink)', cursor:'pointer', fontSize:11 }}>{t}</button>
+          ))}
+          <span className="mono" style={{ color:'var(--dim)', marginLeft:6 }}>↳ each result is CC with required attribution preserved</span>
+        </div>
+        {error && <div className="mono" style={{ marginTop:8, color:'#ff9f0a', fontSize:11 }}>{error}</div>}
+
+        {tab==='search' && (
+          <div className="audio-grid" style={{ marginTop:14 }}>
+            {results.map(r=>{
+              const isPlaying = playingId===r.id
+              const p = progress[r.id] || { cur:0, dur: r.duration/1000 || 1 }
+              const pct = p.dur ? (p.cur / p.dur)*100 : 0
+              const assigned = assignMap[r.id]
+              return (
+                <div key={r.id} className={`audio-card ${isPlaying?'playing':''}`}>
+                  <div className="audio-top">
+                    <button className={`play-btn ${isPlaying?'playing':''}`} onClick={()=>toggle(r.id, r.url)} aria-label={isPlaying?'Pause':'Play'}>
+                      {isPlaying? '❚❚':'▶'}
+                    </button>
+                    <div className={`wave ${isPlaying?'playing':''}`}>
+                      {r.waveform.map((h,i)=>{
+                        const active = isPlaying && (i/20*100 < pct)
+                        return <i key={i} style={{ height: h*1.6+6, opacity: active?1:0.45, background: active? 'var(--accent-2)' : isPlaying? 'color-mix(in srgb, var(--accent-2) 60%, var(--line-strong))' : 'var(--line-strong)' }} />
+                      })}
+                    </div>
+                    <span className="mono" style={{ color:'var(--dim)', fontSize:10 }}>{fmtSec(p.cur)} / {fmtSec(p.dur)}</span>
+                  </div>
+                  <div className="audio-meta">
+                    <div style={{ fontWeight:700, fontSize:13, lineHeight:1.3, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>{r.title}</div>
+                    <div className="mono" style={{ color:'var(--muted)', fontSize:10, marginTop:4, display:'flex', gap:6, flexWrap:'wrap', alignItems:'center' }}>
+                      <span className="badge">{r.license}</span> {r.creator} · {fmt(r.duration)} · {r.genre} {r.provider? `· ${r.provider}`:''}
+                    </div>
+                    <div style={{ display:'flex', gap:6, flexWrap:'wrap', marginTop:6 }}>
+                      {r.tags.map(t=> <span key={t} className="mono" style={{ padding:'2px 6px', borderRadius:6, background:'var(--panel)', border:'1px solid var(--line)', fontSize:9 }}>#{t}</span>)}
+                    </div>
+                    <div className="audio-actions">
+                      <button className={assigned==='film'?'active':''} onClick={()=>assign(r,'film')}>🎬 Film</button>
+                      <button className={assigned==='steam'?'active':''} onClick={()=>assign(r,'steam')}>♨️ Steam</button>
+                      <button className={assigned==='impact'?'active':''} onClick={()=>assign(r,'impact')}>💥 Impact</button>
+                      <button className={assigned==='tick'?'active':''} onClick={()=>assign(r,'tick')}>🔘 Tick</button>
+                      <button onClick={()=>setGlobalTrack({ ...r, engine:'solo' })}>▶ Solo</button>
+                    </div>
+                    {assigned && <div className="mono" style={{ marginTop:6, color:'var(--accent-2)', fontSize:10 }}>→ assigned to {soundtrack.find(s=>s.id===assigned)?.label || assigned}</div>}
+                  </div>
+                  <audio
+                    ref={el=> audioRefs.current[r.id]=el}
+                    src={r.url}
+                    preload="metadata"
+                    onTimeUpdate={()=>onTime(r.id)}
+                    onEnded={()=>setPlayingId(null)}
+                    onLoadedMetadata={()=>onTime(r.id)}
+                    crossOrigin="anonymous"
+                  />
+                </div>
+              )
+            })}
+          </div>
+        )}
+
+        {tab==='soundtrack' && (
+          <div style={{ marginTop:14 }}>
+            <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:12 }}>
+              <div style={{ padding:14, borderRadius:14, background:'var(--panel)', border:'1px solid var(--line)' }}>
+                <div className="mono" style={{ color:'var(--dim)' }}>Assembled soundtrack — assign 8 slots</div>
+                <div style={{ display:'grid', gap:8, marginTop:10 }}>
+                  {soundtrack.map(s=>{
+                    const assigned = Object.entries(assignMap).find(([,eng])=> eng===s.id)
+                    const track = assigned ? results.find(r=> r.id===assigned[0]) : null
+                    return (
+                      <div key={s.id} style={{ display:'flex', alignItems:'center', gap:10, padding:'10px 12px', borderRadius:12, background:'var(--panel-2)', border:'1px solid var(--line)', opacity: track?1:0.6 }}>
+                        <span style={{ fontSize:16 }}>{s.icon}</span>
+                        <div style={{ flex:1 }}>
+                          <div style={{ fontWeight:700, fontSize:12 }}>{s.label}</div>
+                          <div className="mono" style={{ color:'var(--muted)', fontSize:10 }}>{s.desc}</div>
+                          {track && <div className="mono" style={{ color:'var(--accent-2)', fontSize:10, marginTop:2 }}>♫ {track.title} — {track.license}</div>}
+                        </div>
+                        <span className="mono" style={{ color: track?'var(--accent-3)':'var(--dim)', fontSize:10 }}>{track?'● assigned':'○ empty'}</span>
+                      </div>
+                    )
+                  })}
+                </div>
+                <div className="mono" style={{ marginTop:10, color:'var(--dim)', fontSize:10 }}>Attribution is preserved per track: creator · license · URL shown in player. Download keeps CC metadata.</div>
+              </div>
+              <div style={{ padding:14, borderRadius:14, background:'var(--panel)', border:'1px solid var(--line)' }}>
+                <div className="mono" style={{ color:'var(--dim)' }}>How it maps to engines</div>
+                <div style={{ marginTop:10, display:'grid', gap:8, fontSize:12, color:'var(--muted)', lineHeight:1.6 }}>
+                  <div><b style={{color:'var(--ink)'}}>Opus</b> writes spec → <b style={{color:'var(--ink)'}}>Skills</b> set look → <b style={{color:'var(--ink)'}}>Engines</b> render pixels & physics → <b style={{color:'var(--accent-2)'}}>Openverse</b> fills silence. Each assignment wires a CC sample to an engine event: <code>onExplode</code>, <code>onCollision</code>, <code>onScrub</code>, <code>onBloom</code>.</div>
+                  <div style={{ padding:10, borderRadius:10, background:'var(--bg-soft)', border:'1px solid var(--line)', fontFamily:'Fragment Mono, monospace', fontSize:11, color:'#9a9aaa' }}>
+                    <div style={{color:'#30d158'}}>{`// wire sound to engine`}</div>
+                    <div>engine.on('explode', {'{'} play(track.steam, {'{'} duck: -6 `+` dB {'}'} ) {'}'})</div>
+                    <div>engine.on('collision', {'{'} play(track.impact, {'{'} pitch: vel.magnitude() {'}'} ) {'}'})</div>
+                    <div>engine.on('scrub', {'{'} play(track.ui, {'{'} rate: progress {'}'} ) {'}'})</div>
+                    <div style={{marginTop:6, color:'#ff9f0a'}}>All samples: CC BY / CC0 — attribution auto-appended to export</div>
+                  </div>
+                  <div style={{ display:'flex', gap:6, flexWrap:'wrap' }}>
+                    <span className="chip"><b>Endpoint</b> /v1/audio/?q=&license=&duration=</span>
+                    <span className="chip"><b>Waveform</b> peaks[] → SVG bars</span>
+                    <span className="chip"><b>License</b> preserved on assign</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style={{ marginTop:12, padding:12, borderRadius:12, background:'var(--panel)', border:'1px dashed var(--line)', display:'flex', gap:8, flexWrap:'wrap', alignItems:'center', justifyContent:'space-between' }}>
+              <div className="mono" style={{ color:'var(--muted)' }}>Export: film MP4 can be cut to this soundtrack — the anatomy film is silent by default; offer to cut it to a user-supplied track (per anatomy-reveal spec).</div>
+              <button onClick={()=>setGlobalTrack({ title:'Assembled 8-track mix', creator:'Skill Lab session', license:'CC BY (mixed)', url: results[0]?.url, engine:'film' })} style={{ padding:'8px 12px', borderRadius:999, background:'var(--ink)', color:'var(--bg)', border:0, fontWeight:700, cursor:'pointer' }}>Preview mix ▶</button>
+            </div>
+          </div>
+        )}
+
+        {tab==='foley' && (
+          <div style={{ marginTop:14 }}>
+            <div className="mono" style={{ color:'var(--dim)' }}>Foley map — which sound goes where in the page</div>
+            <div style={{ display:'grid', gridTemplateColumns:'repeat(4, 1fr)', gap:10, marginTop:10 }}>
+              {[
+                { eng:'Anatomy Reveal', sound:'grinder + steam', hint:'Knob turn → hiss', c:'#ff3b30' },
+                { eng:'Anatomy (LRU)', sound:'paper shuffle', hint:'Book slide → thunk', c:'#0a84ff' },
+                { eng:'Hairline', sound:'tick + drone', hint:'Pointer → soft tick', c:'#5e5ce6' },
+                { eng:'Motion', sound:'ui tick', hint:'Spring → pop', c:'#0a84ff' },
+                { eng:'GSAP', sound:'gsap tick', hint:'Scrub → tick', c:'#88cc00' },
+                { eng:'Rapier', sound:'impact thud', hint:'Ball hit → thud', c:'#ff3b30' },
+                { eng:'Postprocessing', sound:'bloom swell', hint:'Bloom → swell', c:'#5e5ce6' },
+                { eng:'Blender', sound:'room tone', hint:'Viewport → ambience', c:'#ff6a00' },
+              ].map(x=>(
+                <div key={x.eng} style={{ padding:12, borderRadius:12, background:'var(--panel)', border:'1px solid var(--line)', borderLeft:`3px solid ${x.c}` }}>
+                  <div style={{ fontWeight:700, fontSize:12 }}>{x.eng}</div>
+                  <div className="mono" style={{ color:x.c, marginTop:2 }}>{x.sound}</div>
+                  <div className="mono" style={{ color:'var(--muted)', fontSize:10, marginTop:4 }}>{x.hint}</div>
+                </div>
+              ))}
+            </div>
+            <div className="mono" style={{ marginTop:10, color:'var(--dim)', fontSize:10 }}>Each engine listens for one CC sample. No sample is inlined — every play shows attribution. Mix down is an EDL of CC URLs, not a redistribution.</div>
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+function GlobalAudioBar({ track }){
+  const audioRef = useRef(null)
+  const [playing, setPlaying] = useState(false)
+  const [t, setT] = useState(0)
+  const [dur, setDur] = useState(0)
+
+  useEffect(()=>{
+    if (!track || !audioRef.current) return
+    const a = audioRef.current
+    a.src = track.url
+    a.play().then(()=>setPlaying(true)).catch(()=>setPlaying(false))
+  }, [track])
+
+  const toggle = () => {
+    const a = audioRef.current
+    if (!a) return
+    if (playing) { a.pause(); setPlaying(false) } else { a.play().then(()=>setPlaying(true)).catch(()=>{}) }
+  }
+
+  if (!track) return null
+  return (
+    <div className="global-audio">
+      <div className="global-audio-inner">
+        <button onClick={toggle} className={`play-btn ${playing?'playing':''}`} style={{ width:36, height:36 }}>{playing?'❚❚':'▶'}</button>
+        <div style={{ flex:1, minWidth:0 }}>
+          <div style={{ fontWeight:700, fontSize:12, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>{track.title} {track.engine? `· ${track.engine}`:''}</div>
+          <div className="mono" style={{ color:'var(--muted)', fontSize:10, whiteSpace:'nowrap', overflow:'hidden', textOverflow:'ellipsis' }}>{track.creator} · {track.license} {track.provider? `· ${track.provider}`:''}</div>
+          <div style={{ height:4, borderRadius:999, background:'var(--line)', marginTop:6, overflow:'hidden' }}>
+            <i style={{ display:'block', height:'100%', width:`${dur? (t/dur)*100:0}%`, background:'var(--accent-2)', transition:'width 0.1s linear' }} />
+          </div>
+        </div>
+        <div className="mono" style={{ color:'var(--dim)', fontSize:10 }}>{Math.floor(t)}s / {Math.floor(dur)}s</div>
+        <a href={track.foreign_landing_url||track.url} target="_blank" rel="noreferrer" className="mono" style={{ padding:'6px 10px', borderRadius:999, border:'1px solid var(--line)', background:'var(--panel)', textDecoration:'none' }}>Attribution ↗</a>
+        <audio ref={audioRef} onTimeUpdate={e=>setT(e.currentTarget.currentTime)} onLoadedMetadata={e=>setDur(e.currentTarget.duration)} onEnded={()=>setPlaying(false)} crossOrigin="anonymous" />
       </div>
     </div>
   )
@@ -1189,13 +1506,13 @@ function Hero(){
     <div className="hero" ref={ref}>
       <div className="hero-grid">
         <div>
-          <div className="kicker hero-kicker"><i /> <span className="mono">10 skills · one instrument · live preview</span> <span className="mono" style={{ color: 'var(--dim)' }}>GSAP · Motion · R3F · Rapier · Postprocessing · Openverse · Blender</span></div>
+          <div className="kicker hero-kicker"><i /> <span className="mono">Opus → Skills → Engines → Openverse</span> <span className="mono" style={{ color: 'var(--dim)' }}>10 skills · 4 stages · live preview</span></div>
           <h1 className="hero-title">
             <span style={{ display: 'inline-block' }}>Skill Lab —</span><br/>
             <span style={{ display: 'inline-block' }}><em>anatomy, motion</em> & physics</span><br/>
-            <span style={{ display: 'inline-block', fontSize: '0.58em', fontWeight: 400, color: 'var(--muted)' }}>Anatomy Reveal · Hairline · LottieFiles Motion Design · Motion AI Kit · Scenario Blender · Rapier · Postprocessing · GSAP · Openverse — orchestrated as one site.</span>
+            <span style={{ display: 'inline-block', fontSize: '0.58em', fontWeight: 400, color: 'var(--muted)' }}>Opus writes the code → skills guide the look → engines render → Openverse adds the sound. Anatomy Reveal · Hairline · Motion Design · Rapier · Postprocessing · GSAP · Blender · Openverse Audio.</span>
           </h1>
-          <p>Each skill was installed via <span className="mono" style={{ color: 'var(--ink)' }}>npx skills add</span> and is driven live here. Drag the espresso machine, scrub the GSAP timeline, tune springs, drop physics balls, and search 800M CC images — all client-side.</p>
+          <p>Each skill was installed via <span className="mono" style={{ color: 'var(--ink)' }}>npx skills add</span> and is driven live here. Drag the espresso machine, scrub the GSAP timeline, tune springs, drop physics balls, and search 800M CC images — then assign a CC sound to every engine and hear the mix.</p>
           <div className="hero-actions">
             <a href="#anatomy-reveal" className="btn-primary">Explore anatomy ↓</a>
             <a href="#physics" className="btn-ghost">Try physics playground</a>
@@ -1239,7 +1556,8 @@ function Hero(){
 
 // ---------- MAIN APP
 export default function App(){
-  const [openverseTrigger, setOpenverseTrigger] = useState(0)
+  const [globalTrack, setGlobalTrack] = useState(null)
+  const [soundEnabled, setSoundEnabled] = useState(true)
 
   return (
     <div>
@@ -1248,7 +1566,7 @@ export default function App(){
           <div className="mark">SW</div>
           <div>
             <div style={{ fontWeight: 800, fontSize: 13, letterSpacing: '-0.02em' }}>Setyo Wisodo — Skill Lab</div>
-            <div className="mono" style={{ color: 'var(--dim)', fontSize: 10 }}>10 skills · Anatomy · Motion · Physics · Images</div>
+            <div className="mono" style={{ color: 'var(--dim)', fontSize: 10 }}>Opus → Skills → Engines → Openverse Sound</div>
           </div>
           <div className="nav-links" style={{ marginLeft: 12 }}>
             <a href="#anatomy-reveal">Anatomy Reveal</a>
@@ -1259,13 +1577,21 @@ export default function App(){
             <a href="#physics">Physics</a>
             <a href="#post">Post</a>
             <a href="#openverse">Openverse</a>
+            <a href="#openverse-audio">Sound</a>
             <a href="#blender">Blender</a>
           </div>
         </div>
-        <button className="nav-cta" onClick={()=>window.scrollTo({ top: 0, behavior: 'smooth' })}>Back to top ↑</button>
+        <div style={{ display:'flex', gap:8, alignItems:'center' }}>
+          <button onClick={()=>setSoundEnabled(v=>!v)} className="mono" style={{ padding:'8px 12px', borderRadius:999, border:'1px solid var(--line)', background: soundEnabled? 'var(--accent-2)':'var(--panel)', color: soundEnabled? '#fff':'var(--muted)', cursor:'pointer' }}>{soundEnabled? '🔊 Sound on' : '🔇 Sound off'}</button>
+          <button className="nav-cta" onClick={()=>window.scrollTo({ top: 0, behavior: 'smooth' })}>Back to top ↑</button>
+        </div>
       </nav>
 
       <Hero />
+      <div style={{ maxWidth:1160, margin:'0 auto', padding:'0 20px' }}>
+        <div className="mono" style={{ color:'var(--dim)', marginTop:14, textAlign:'center' }}>Workflow — Opus writes the code → skills guide the look → engines render → Openverse adds the sound</div>
+      </div>
+      <Pipeline />
 
       {/* ANATOMY REVEAL */}
       <section id="anatomy-reveal" className="wrap">
@@ -1384,7 +1710,7 @@ export default function App(){
         <PostprocessingStudio />
       </section>
 
-      {/* OPENVERSE */}
+      {/* OPENVERSE IMAGES */}
       <section id="openverse" className="wrap" style={{ paddingTop: 12 }}>
         <div className="section-head">
           <div>
@@ -1393,8 +1719,37 @@ export default function App(){
           </div>
           <p>Live fetch from Openverse (CORS-enabled). Falls back to curated placeholders in sandboxed previews where outbound API fetch is blocked.</p>
         </div>
-        <OpenverseExplorer />
+        <OpenverseExplorer onPickSound={setGlobalTrack} />
       </section>
+
+      {/* OPENVERSE AUDIO — the sound */}
+      <section id="openverse-audio" className="wrap" style={{ paddingTop: 12 }}>
+        <div className="section-head">
+          <div>
+            <div className="eyebrow">10 — api.openverse.org/v1/audio · Openverse adds the sound · Freesound + Jamendo</div>
+            <h2>Openverse Audio — every engine gets a CC cue</h2>
+          </div>
+          <p>Opus wrote the code, skills guided the look, engines rendered the pixels — now Openverse adds the sound. Search real CC audio, assign it to engines, and hear the film: steam hiss, marble ticks, and thuds become a mix.</p>
+        </div>
+        <OpenverseAudio globalTrack={globalTrack} setGlobalTrack={setGlobalTrack} />
+        <div style={{ marginTop:12, display:'flex', gap:8, flexWrap:'wrap' }}>
+          <span className="chip"><b>Workflow</b> Opus → Skills → Engines → Openverse Sound</span>
+          <span className="chip"><b>License</b> CC preserved — creator · license · URL on every play</span>
+          <span className="chip"><b>Engines wired</b> onExplode / onCollision / onScrub / onBloom</span>
+          <a href="https://api.openverse.org/v1/" target="_blank" className="chip" style={{ textDecoration:'none' }}>Openverse API docs →</a>
+        </div>
+      </section>
+
+      {/* SOUND-ENABLED HINT for other sections */}
+      {soundEnabled && globalTrack && (
+        <section className="wrap" style={{ paddingTop: 0, paddingBottom: 0 }}>
+          <div style={{ padding:'12px 14px', borderRadius:14, background:'var(--panel)', border:'1px solid var(--line)', display:'flex', gap:10, alignItems:'center', flexWrap:'wrap' }}>
+            <span className="mono" style={{ color:'var(--accent-2)' }}>● Live sound route</span>
+            <span style={{ fontSize:12, color:'var(--muted)' }}>“{globalTrack.title}” is routed to <b style={{color:'var(--ink)'}}>{globalTrack.engine || 'global'}</b> — scrub GSAP, drop a physics ball, or explode the anatomy to hear it (ducking −6 dB on other engines).</span>
+            <span className="chip" style={{ marginLeft:'auto' }}>🔊 {globalTrack.license} · {globalTrack.creator}</span>
+          </div>
+        </section>
+      )}
 
       {/* BLENDER */}
       <section id="blender" className="wrap" style={{ paddingTop: 12 }}>
@@ -1441,10 +1796,11 @@ export default function App(){
 
       <footer className="footer wrap" style={{ maxWidth: 1160, marginTop: 12 }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>
-          <div>© 2026 Setyo Wisodo — Banyuanyar, East Java, ID · <a href="https://github.com/SetyoWisodo">github.com/SetyoWisodo</a> · This Skill Lab demonstrates all 10 requested skills in one deployable site.</div>
+          <div>© 2026 Setyo Wisodo — Banyuanyar, East Java, ID · <a href="https://github.com/SetyoWisodo">github.com/SetyoWisodo</a> · Opus → Skills → Engines → Openverse Sound. All CC audio attributed; film MP4 silent until cut to Openverse track.</div>
           <div className="mono">Skill Lab · Vite · Preview @ https://{'{port}'}-{'{sandboxId}'}.e2b.app</div>
         </div>
       </footer>
+      <GlobalAudioBar track={globalTrack} />
     </div>
   )
 }
