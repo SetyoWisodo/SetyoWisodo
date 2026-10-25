@@ -3,6 +3,7 @@ import gsap from 'gsap'
 import { motion, AnimatePresence } from 'motion/react'
 import SocialLab from './SocialLab.jsx'
 import AdsLab from './AdsLab.jsx'
+import ProjectPotential from './ProjectPotential.jsx'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Environment, PerspectiveCamera, ContactShadows, Float, Grid } from '@react-three/drei'
 import { Physics, RigidBody, BallCollider, CuboidCollider } from '@react-three/rapier'
@@ -1582,6 +1583,7 @@ export default function App(){
             <a href="#openverse-audio">Sound</a>
             <a href="#social-research">Social</a>
             <a href="#ads-lab">Ads</a>
+            <a href="#project-potential">Projects</a>
             <a href="#blender">Blender</a>
           </div>
         </div>
@@ -1792,11 +1794,29 @@ export default function App(){
         </div>
       </section>
 
+      {/* PROJECT POTENTIAL — Research → 54 skills */}
+      <section id="project-potential" className="wrap" style={{ paddingTop: 12 }}>
+        <div className="section-head">
+          <div>
+            <div className="eyebrow">13 — Research Social Media × 54 Skills → 6 flagship projects + 1 bonus · 90-day roadmap</div>
+            <h2>Project Potential — dari riset jadi pendapatan, semua skill repo terpakai</h2>
+          </div>
+          <p>Riset sosial media 2026 Indonesia (180M users, TikTok 125M, GEO +156%, anomali 400M views) dipetakan ke 54 skills (13 social research + 34 ads + 7 creative) jadi 6 project flagship dengan model monetisasi, channel mix (TikTok CPM $4 → Meta → Google → LinkedIn) dan roadmap eksekusi 90 hari.</p>
+        </div>
+        <ProjectPotential />
+        <div style={{ marginTop:12, display:'flex', gap:8, flexWrap:'wrap' }}>
+          <span className="chip"><b>Full report</b> RESEARCH_SOCIAL_MEDIA_PROJECT_POTENTIAL_2026.md — 22 pages, 28 sources cited</span>
+          <span className="chip"><b>0 idle</b> — 13/13 social + 34/34 ads + 7/7 creative = 54/54 verified</span>
+          <span className="chip"><b>Next</b> Pilot UMKM Banyuanyar $250 → Anomaly Studio week 3</span>
+          <span className="chip"><b>Repo</b> SetyoWisodo/SetyoWisodo — Banyuanyar, East Java, ID</span>
+        </div>
+      </section>
+
       {/* BLENDER */}
       <section id="blender" className="wrap" style={{ paddingTop: 12 }}>
         <div className="section-head">
           <div>
-            <div className="eyebrow">13 — scenario-labs/blender-plugin · Blender 5.0+ · GPL-3.0 · MCP</div>
+            <div className="eyebrow">14 — scenario-labs/blender-plugin · Blender 5.0+ · GPL-3.0 · MCP</div>
             <h2>Scenario for Blender — generate in the viewport, drive via MCP</h2>
           </div>
           <p>AI images, video, 3D and PBR materials without leaving Blender. Plus a local loopback MCP server so agents can create objects, shade, and render.</p>
