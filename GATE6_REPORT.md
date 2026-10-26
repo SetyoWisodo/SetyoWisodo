@@ -222,6 +222,25 @@ dan pengecualian pemetaan indeks. Semuanya kini memakai daftar judul halaman bel
 sehingga indentasi menggantung pada Notes on Event Sources dan References, serta penomoran halaman
 indeks, tetap bekerja. Paginasi tidak berubah: EN 430 hlm, ID 445 hlm.
 
+### 2.14 Tampilan 3D untuk marketplace
+
+Toko buku menampilkan sampul sebagai objek, bukan bidang datar: pembeli melihat punggung dan tebal
+buku. Render 3D dibuat dengan geometri nyata, bukan tempelan gambar miring:
+
+| Keluaran | Ukuran | Dipakai untuk |
+|---|---|---|
+| `*_3d_square.png` | 2000 × 2000, latar putih | gambar utama daftar jual |
+| `*_3d_transparent.png` | 2000 × 2000, alfa | banner, komposit promosi |
+| `*_3d_front.png` | 2000 × 2000, sudut ringan | galeri produk |
+| `pair_3d_square.png` | 2000 × 2000 | kedua edisi dalam satu bingkai |
+
+Tebal punggung diambil dari `build_report.json` (1,075 inci EN, 1,113 inci ID), jadi proporsi pada
+gambar sama dengan file cetak. Proyeksi memakai matriks perspektif 4 titik per bidang dengan
+pengaburan tepi untuk menghilangkan jahitan, gradasi melintang pada punggung agar buku terlihat
+bulat, tekstur tumpukan kertas pada bidang atas, serta bayangan kontak di bawah buku. Teks punggung
+(judul, nama penulis) ditambahkan oleh skrip, bukan dari sampul datar, supaya arah baca vertikalnya
+benar dan tidak tercetak cermin.
+
 ---
 
 ## 3. Hasil pemeriksaan produksi

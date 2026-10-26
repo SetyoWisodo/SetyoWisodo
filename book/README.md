@@ -28,6 +28,10 @@ Case Study and a Future Scenarios section that states what would falsify its own
 | `*_cover_print.pdf` | Full paperback wrap (back + spine + front), 300 dpi, 0.125 in bleed, spine sized from the page count, with a white 2 × 1.2 in retail barcode area |
 | `*_cover_front.jpg` | Front cover at the trim ratio (1800 × 2546, 300 dpi): artwork, typography, quote, and the book's statistics |
 | `*_cover_ebook.jpg` | Ebook cover at the 1:1.6 ratio stores ask for (1600 × 2560), used inside the EPUB |
+| `3d/*_3d_square.png` | 3D book render, 2000 × 2000, white background, for marketplace listings |
+| `3d/*_3d_transparent.png` | Same render on a transparent background, for banners and composites |
+| `3d/*_3d_front.png` | 3D render at a shallower angle, for product galleries |
+| `3d/pair_3d_square.png` | Both editions side by side in one frame |
 | `book/cover/art_cover_v1.png` | Raw artwork for the front cover; `make_cover_front.py` composites artwork + typography |
 | `book/cover/SKILL_open_generative_ai.md` | The prompt-compiler skill (from Anil-matcha/Open-Generative-AI, MIT) used to write the cover prompt |
 | `*.epub` | EPUB 3 ebook (title and copyright pages, nav + NCX + landmarks, accessibility metadata, XHTML tables with `th scope`, `<figure>` blocks with alternative text) |
@@ -54,6 +58,7 @@ cp Surviving_the_Future.pdf book/publish/Surviving_the_Future_EN_interior.pdf
 cp Surviving_the_Future_ID.pdf book/publish/Bertahan_Hidup_di_Masa_Depan_ID_interior.pdf
 python make_publish.py                             # EPUB + DOCX
 python make_cover_front.py                         # front + ebook covers from the artwork
+python make_3d.py                                  # 3D renders for marketplaces
 python make_cover.py                               # print wraps + build_report.json
 ```
 
