@@ -1,9 +1,9 @@
 # Harga Jual Edisi Inggris — Rekomendasi Berdasarkan Data
 
-Jawaban singkat: **$49**, dengan harga peluncuran **$39** untuk 50 pembeli pertama.
+Jawaban singkat: **$45** — sekitar 10% di bawah buku sejenis dan terbitan universitas.
 
-Alasannya bukan selera. Ada tiga perhitungan berbeda yang bertemu di angka yang sama,
-dan satu batas pasar yang membuat $59 terlalu dini.
+Harga itu diturunkan dari patokan pasar yang bisa diperiksa, lalu dipotong 10% sesuai
+permintaan. Skema promosinya ada di `PROMOSI.md`.
 
 ---
 
@@ -60,7 +60,7 @@ Untuk 430 halaman:
 |---|---|---|
 | $29 | $0,067 | 22% |
 | $39 | $0,091 | 30% |
-| **$49** | **$0,114** | **38%** |
+| **$45** | **$0,105** | **35%** |
 | $59 | $0,137 | 46% |
 | Setara universitas | $129 | 100% |
 
@@ -69,45 +69,56 @@ $59 **bukan** harga yang keterlaluan secara isi.
 
 ---
 
-## 3. Tiga perhitungan yang bertemu di $49
+## 3. Menetapkan $45 — 10% di bawah patokan
 
-**Kategori.** Ebook akademik dan teknis dijual $19,99–$49,99. Buku ini ada di ujung
-atas kategori itu karena 201.000 kata, 145 sumber, dan aparatus rujukan lengkap.
-$49 adalah **plafon kategori** — harga tertinggi yang masih bisa dijelaskan tanpa
-mengangkat bahu.
+Tiga patokan pasar, masing-masing dipotong 10%:
 
-**Padanan cetak.** Paperback Routledge sejenis $34,99–$66,99. Titik tengahnya $51.
-Buku ini memberi lebih banyak halaman daripada rata-rata paperback itu.
+| Patokan | Harga patokan | −10% |
+|---|---|---|
+| Plafon ebook akademik & teknis | $49,99 | **$44,99** |
+| Median paperback Routledge sejenis | $51,99 | $46,79 |
+| Paperback setara terbitan universitas | ±$55,00 | $49,50 |
 
-**Harga per halaman.** $49 = $0,114/halaman — sebangun dengan profesional book,
-jauh di bawah monograf universitas.
+Patokan yang dipakai adalah yang **paling dekat dengan produk ini**: plafon kategori
+ebook akademik. Sepuluh persen di bawah $49,99 adalah $44,99, dibulatkan menjadi
+**$45**.
 
-Ketiganya mengarah ke $45–$55. **$49** adalah angka bulat yang paling mudah
-dipertahankan saat ditanya "kenapa segitu".
+Terhadap ketiga patokan sekaligus:
+
+- **10,0% di bawah** plafon kategori akademik
+- **13,5% di bawah** median paperback Routledge
+- **18,2% di bawah** paperback terbitan universitas
+
+Harga per halaman: $45 ÷ 430 = **$0,105/halaman**, sepertiga dari patokan
+penerbit universitas ($0,30).
+
+Kalau ditanya "kenapa $45", jawabannya satu kalimat: *buku akademik sejenis dijual
+$50 sampai $55, dan saya sengaja memasang di bawahnya.*
 
 ---
 
-## 4. Kenapa bukan $59
+## 4. Kenapa tidak lebih tinggi
 
-$59 masih masuk akal dari sisi isi, tetapi melewati tiga batas sekaligus:
+Harga lebih tinggi masih bisa dipertahankan dari sisi isi, tetapi melewati tiga batas:
 
 1. **Di atas plafon kategori.** $49,99 adalah ujung atas ebook akademik. Di atas itu,
    pembeli mulai membandingkan dengan kursus, bukan buku.
 2. **Belum ada bukti sosial.** Pembeli $59 bertanya "siapa yang sudah membacanya?"
-   Anda belum punya satu pun ulasan. Di $49 pertanyaan itu lebih ringan; di $39
+   Anda belum punya satu pun ulasan. Di $45 pertanyaan itu lebih ringan; di $39
    pembeli bersedia mengambil risiko.
 3. **Pesainnya gratis.** IPCC, WMO, Lancet Countdown, dan Bank Dunia menerbitkan
    laporan otoritatif **tanpa biaya**. Yang orang bayar bukan datanya, melainkan
    sintesis dan kemudahan memakainya. Itu bernilai $40–50, bukan $60.
 
-**Yang perlu diingat:** $59 tidak salah selamanya. Ia jadi wajar **setelah** ada
-25+ ulasan dan posisi yang jelas. Naikkan harga nanti, bukan sekarang.
+**Yang perlu diingat:** harga $55–$59 tidak salah selamanya. Ia jadi wajar **setelah**
+ada 25+ ulasan dan posisi yang jelas. Naikkan nanti, bukan sekarang.
 
-## 5. Kenapa bukan $29
+## 5. Kenapa tidak lebih murah
 
-Di $29 Anda menjual 201.000 kata dan 145 sumber dengan harga paperback populer.
-Itu memberi sinyal "buku biasa" pada produk yang bukan buku biasa, dan tidak memberi
-ruang untuk diskon promosi. $29 juga membuat bundle tidak mungkin masuk akal.
+Di bawah $40 Anda menjual 201.000 kata dan 145 sumber dengan harga paperback populer.
+Itu memberi sinyal "buku biasa" pada produk yang bukan buku biasa, dan tidak
+menyisakan ruang untuk diskon promosi — diskon 20% dari $35 hanya menyisakan $28,
+sementara dari $45 menyisakan $36.
 
 ---
 
@@ -116,28 +127,26 @@ ruang untuk diskon promosi. $29 juga membuat bundle tidak mungkin masuk akal.
 | Produk | Harga | Bersih per penjualan |
 |---|---|---|
 | Sampel (EN + ID) | **$0** | — |
-| **Surviving the Future (EN)** | **$49** | **$41,88** |
+| **Surviving the Future (EN)** | **$45** | **$38,40** |
 | Bertahan Hidup di Masa Depan (ID) | **$29** | **$24,46** |
-| Bundle keduanya | **$69** | **$59,30** |
+| Bundle keduanya | **$59** | **$50,59** |
 
 Edisi Indonesia **sengaja lebih murah**: pembeli lokal membandingkannya dengan buku
 berbahasa Indonesia (Rp 100.000–180.000), bukan dengan ebook akademik internasional.
 $29 dengan diskon PPP turun lagi menjadi sekitar $12–23 — masuk jangkauan.
 
-### Peluncuran: 50 pembeli pertama di $39
+### Promosi: lihat `PROMOSI.md`
 
-Buat kode diskon di Gumroad:
+Ada empat tingkat diskon dengan aturan yang jelas, bukan obral:
 
-| Kolom | Isi |
-|---|---|
-| Kode | `EARLY50` |
-| Diskon | 20% |
-| Batas pemakaian | 50 |
-| Batas waktu | 30 hari |
+| Kode | Diskon | Harga | Bersih |
+|---|---|---|---|
+| `LAUNCH20` — 50 pembeli pertama | 20% | $36,00 | $30,56 |
+| `KAMPUS25` — dosen & mahasiswa | 25% | $33,75 | $28,60 |
+| `BUNDLEUP40` — pembeli EN yang mau edisi ID | 40% | $17,40 | $14,36 |
 
-Harga di halaman tetap $49. Kode ini yang membuat 50 pembeli pertama masuk di $39,20
-dan meninggalkan ulasan. Setelah 50 terpakai, kode mati sendiri — harga naik tanpa
-Anda perlu mengubah apa pun.
+Ditambah sampel gratis, afiliasi 30%, Discover, PPP, tip, dan upsell bundle.
+Susunan lengkap beserta kalender 30 hari ada di `PROMOSI.md`.
 
 ---
 
@@ -145,11 +154,11 @@ Anda perlu mengubah apa pun.
 
 Jangan percaya angka di dokumen ini lebih dari data Anda sendiri.
 
-1. Terbitkan di **$49**, dengan kode `EARLY50`.
+1. Terbitkan di **$45**, dengan kode `LAUNCH20`.
 2. Catat setiap hari: kunjungan halaman, penjualan, dan sumber kunjungan.
 3. Setelah 30 hari, lihat **satu** angka: pendapatan bersih per 100 kunjungan.
 4. Kalau di bawah $2, turunkan ke $39 dan ulangi 30 hari.
-5. Kalau di atas $8, coba $59 untuk 30 hari berikutnya.
+5. Kalau di atas $8, naikkan ke $55 untuk 30 hari berikutnya.
 
 Yang menentukan bukan harga, melainkan **dari mana kunjungan datang**. Kiriman
 langsung ke 20 dosen yang tepat akan mengalahkan 10.000 kunjungan acak, di harga
@@ -159,9 +168,9 @@ berapa pun.
 
 ## 8. Yang saya ubah di berkas
 
-Sudah diterapkan: EN $49, ID $29, bundle $69. Teks listing ikut disesuaikan —
-bagian "WHY $59" menjadi "WHY $49", dan pembanding artikel jurnal tetap dipakai
-karena masih berlaku.
+Sudah diterapkan: EN $45, ID $29, bundle $59. Teks listing ikut disesuaikan —
+bagian "WHY $45" menjelaskan patokannya secara terbuka, dan pembanding artikel
+jurnal tetap dipakai karena masih berlaku.
 
-Kalau Anda tetap ingin $59, cukup ubah satu angka di Gumroad — tidak ada yang
-rusak. Dokumen ini menyimpan alasannya, supaya keputusan itu dibuat sadar.
+Mengubah harga kapan pun hanya butuh satu kolom di Gumroad. Dokumen ini menyimpan
+alasannya, supaya setiap perubahan dibuat sadar.

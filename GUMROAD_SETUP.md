@@ -34,10 +34,10 @@ bukan 10%. Tabel lengkapnya sudah diperbarui di `GUMROAD.md`.
 
 | Harga produk | Bersih per penjualan | Penjualan untuk $100 |
 |---|---|---|
-| $49 (EN) | $41,88 | **3** |
-| $69 (bundle) | $59,30 | **2** |
+| $45 (EN) | $38,40 | **3** |
+| $59 (bundle) | $50,59 | **2** |
 
-Di harga $49, dana pertama Anda cair setelah tiga penjualan. Jangan turunkan harga
+Di harga $45, dana pertama Anda cair setelah tiga penjualan. Jangan turunkan harga
 hanya agar "cepat laku" — yang menentukan bukan harga, melainkan dari mana
 kunjungan datang.
 
@@ -138,11 +138,11 @@ Kotak **"Products to exclude"** biarkan kosong.
 **"Card country and IP verification"** biarkan menyala — ia mencegah orang memalsukan
 lokasi untuk mendapat diskon.
 
-Efeknya untuk buku Anda: harga $49 di Amerika tetap $49, sementara pembeli Indonesia
-membayar sekitar $20–39 tergantung penilaian Bank Dunia saat itu (diskon 20–60%).
+Efeknya untuk buku Anda: harga $45 di Amerika tetap $45, sementara pembeli Indonesia
+membayar sekitar $18–36 tergantung penilaian Bank Dunia saat itu (diskon 20–60%).
 Rupiahnya jadi lebih masuk akal tanpa Anda harus mengorbankan harga internasional.
 
-**Jujur soal ini:** edisi Indonesia sengaja dipasang lebih murah ($29, bukan $49)
+**Jujur soal ini:** edisi Indonesia sengaja dipasang lebih murah ($29, bukan $45)
 karena pembeli lokal membandingkannya dengan buku berbahasa Indonesia, bukan dengan
 ebook akademik internasional. Dengan diskon PPP, pembeli Indonesia turun lagi ke
 sekitar $12–23. Itu bukan menggembosi harga — itu menyesuaikan daya beli pasar yang
@@ -169,9 +169,9 @@ Urutannya penting:
 1. **Produk sampel gratis dulu.** Harga $0. Ini yang paling cepat jadi dan paling
    kecil risikonya kalau ada yang salah.
 2. Salin URL-nya (`gumroad.com/l/xxxxx`).
-3. **Produk EN $49**, tempel URL sampel ke deskripsi.
+3. **Produk EN $45**, tempel URL sampel ke deskripsi.
 4. **Produk ID $29**, sama.
-5. **Produk bundle $69**, sama.
+5. **Produk bundle $59**, sama.
 
 Deskripsi dan sampulnya sudah siap di `book/publish/gumroad/`. Langkah per produk ada
 di `GUMROAD.md` bagian 5.
