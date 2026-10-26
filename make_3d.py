@@ -1,22 +1,31 @@
 # -*- coding: utf-8 -*-
 """Render 3D buku (sampul + tebal punggung) untuk tampilan marketplace.
 
-Geometri memakai ukuran nyata dari build_report.json:
-potong 8,27 x 11,69 inci, tebal punggung 1,075 inci (EN) / 1,113 inci (ID).
-Jadi punggung pada gambar bukan hiasan — skalanya sama dengan file cetak.
+Geometri memakai ukuran nyata dari build_report.json: potong 8,27 x 11,69 inci,
+tebal punggung 1,075 inci (EN) / 1,113 inci (ID). Kotak buku punya enam sisi,
+jadi buku bisa diputar sampai sisi belakang tanpa gambar palsu:
+
+  depan   -> sampul depan
+  belakang-> panel belakang dari file bungkus cetak (diekstrak ulang tiap jalan)
+  punggung-> judul + nama penulis, digambar skrip (bukan dari sampul datar)
+  tiga lainnya -> tumpukan kertas
 
 Keluaran di book/publish/3d/:
-  *_3d_square.png        2000 x 2000, latar putih  (gambar utama marketplace)
-  *_3d_transparent.png   2000 x 2000, latar transparan (untuk banner toko)
-  *_3d_front.png         2000 x 2000, tampak depan + punggung tipis
-  pair_3d_square.png     2000 x 2000, kedua edisi berdampingan
+  *_3d_square.png        latar putih, gambar utama marketplace
+  *_3d_transparent.png   latar transparan, untuk banner
+  *_3d_front.png         tampak depan, sudut ringan
+  *_3d_back.png          tampak belakang (belakang + punggung)
+  *_3d_front_back.png    depan dan belakang dalam satu bingkai
+  pair_3d_square.png     kedua edisi berdampingan
 
 Jalankan: python make_3d.py
 """
 import json
 import os
+import tempfile
 
 import numpy as np
+import pymupdf
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -31,110 +40,73 @@ PAPER = (238, 232, 214)
 
 SERIF_B = os.path.join(FONTS, "SourceSerif4-Semibold.otf")
 SANS = os.path.join(FONTS, "SourceSans3-Semibold.otf")
-SANS_R = os.path.join(FONTS, "SourceSans3-Regular.otf")
 
-SS = 2.0          # supersampling
+SS = 2.0                      # supersampling
 
 BOOKS = {
     "en": dict(
         cover=os.path.join(PUB, "Surviving_the_Future_EN_cover_front.jpg"),
+        wrap=os.path.join(PUB, "Surviving_the_Future_EN_cover_print.pdf"),
         slug="Surviving_the_Future_EN",
         spine_title="SURVIVING THE FUTURE",
-        spine_sub="Crisis, Climate, and Human Resilience",
         author="SETYO WISODO",
     ),
     "id": dict(
         cover=os.path.join(PUB, "Bertahan_Hidup_di_Masa_Depan_ID_cover_front.jpg"),
+        wrap=os.path.join(PUB, "Bertahan_Hidup_di_Masa_Depan_ID_cover_print.pdf"),
         slug="Bertahan_Hidup_di_Masa_Depan_ID",
         spine_title="BERTAHAN HIDUP DI MASA DEPAN",
-        spine_sub="Krisis, Iklim, dan Resiliensi Manusia",
         author="SETYO WISODO",
     ),
 }
 
 
-# ---------------------------------------------------------------- geometri 3d
-def find_coeffs(dst, src):
-    """Koefisien PIL PERSPECTIVE: memetakan piksel keluaran (dst) ke sumber (src)."""
-    m = []
-    for (x, y), (X, Y) in zip(dst, src):
-        m.append([x, y, 1, 0, 0, 0, -X * x, -X * y])
-        m.append([0, 0, 0, x, y, 1, -Y * x, -Y * y])
-    A = np.array(m, dtype=np.float64)
-    B = np.array([c for p in src for c in p], dtype=np.float64)
-    return np.linalg.lstsq(A, B, rcond=None)[0]
+# ------------------------------------------------------------------ panel belakang
+def back_panel(cfg, spacer, report):
+    """Ambil panel belakang dari PDF bungkus cetak, tanpa kotak barcode kosong."""
+    cache = os.path.join(tempfile.gettempdir(), "book3d")
+    os.makedirs(cache, exist_ok=True)
+    out = os.path.join(cache, os.path.basename(cfg["wrap"]).replace(".pdf", "_back.png"))
+    if os.path.exists(out):
+        return Image.open(out).convert("RGB")
+
+    bleed = report["bleed_in"]
+    trim_w, trim_h = report["trim_in"]
+    bar = report["barcode_area_in"]
+    dpi = 200                                   # cukup untuk tekstur 3D
+    clip = pymupdf.Rect(bleed * 72, bleed * 72,
+                        (bleed + trim_w) * 72, (bleed + trim_h) * 72)
+    page = pymupdf.open(cfg["wrap"])[0]
+    pix = page.get_pixmap(dpi=dpi, clip=clip)
+    img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+
+    # tutup kotak barcode putih dengan warna latar sekitarnya
+    px = dpi
+    x0 = (trim_w - bar["from_right_trim"] - bar["width"]) * px
+    y0 = (trim_h - bar["from_bottom_trim"] - bar["height"]) * px
+    x1 = x0 + bar["width"] * px
+    y1 = y0 + bar["height"] * px
+    patch = img.crop((int(x0) - 60, int(y1) + 24, int(x0) + 40, int(y1) + 64))
+    bg = tuple(int(v) for v in np.asarray(patch).reshape(-1, 3).mean(0))
+    ImageDraw.Draw(img).rectangle([x0 - 3, y0 - 3, x1 + 3, y1 + 3], fill=bg)
+
+    img.save(out)
+    return img
 
 
-def project(points, yaw, pitch, cam, f, cx, cy):
-    """Putar titik 3D (x kanan, y atas, z ke arah kamera) lalu proyeksikan."""
-    out = []
-    ca, sa = np.cos(yaw), np.sin(yaw)
-    cb, sb = np.cos(pitch), np.sin(pitch)
-    for x, y, z in points:
-        x1 = x * ca + z * sa
-        z1 = -x * sa + z * ca
-        y2 = y * cb - z1 * sb
-        z2 = y * sb + z1 * cb
-        k = f / (cam - z2)
-        out.append((cx + x1 * k, cy - y2 * k))
-    return out
-
-
-def quad_face(texture, quad, size, shade=None):
-    """Tempel tekstur ke satu bidang segi empat pada kanvas seukuran `size`."""
-    w, h = texture.size
-    src = [(0, 0), (w, 0), (w, h), (0, h)]
-    coeffs = find_coeffs(quad, src)
-    warped = texture.transform(size, Image.PERSPECTIVE, tuple(coeffs),
-                                resample=Image.BICUBIC)
-    mask = Image.new("L", size, 0)
-    ImageDraw.Draw(mask).polygon(quad, fill=255)
-    mask = mask.filter(ImageFilter.GaussianBlur(0.8))
-    warped.putalpha(mask)
-    if shade is not None:
-        warped = apply_shade(warped, shade)
-    return warped
-
-
-def expand(quad, px):
-    """Lebarkan segi empat dari titik pusatnya, untuk menutup celah antarbidang."""
-    cx = sum(p[0] for p in quad) / len(quad)
-    cy = sum(p[1] for p in quad) / len(quad)
-    out = []
-    for x, y in quad:
-        dx, dy = x - cx, y - cy
-        d = max(1e-6, (dx * dx + dy * dy) ** 0.5)
-        out.append((x + dx / d * px, y + dy / d * px))
-    return out
-
-
-def apply_shade(layer, shade):
-    """shade(x_frac, y_frac) -> faktor kecerahan 0..1+ pada kanvas."""
-    w, h = layer.size
-    xs = np.linspace(0.0, 1.0, w, dtype=np.float32)[None, :]
-    ys = np.linspace(0.0, 1.0, h, dtype=np.float32)[:, None]
-    k = shade(xs, ys).astype(np.float32)
-    arr = np.asarray(layer, dtype=np.float32)
-    arr[..., :3] *= k[..., None]
-    return Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8), "RGBA")
-
-
-# ---------------------------------------------------------------- tekstur
-def spine_texture(cfg, spine_in, trim_w_in, trim_h_in, px_per_in):
-    """Punggung buku: navy, judul serif vertikal, aksen amber, nama penulis."""
+# ------------------------------------------------------------------ tekstur
+def spine_texture(cfg, spine_in, trim_h_in, px_per_in):
+    """Punggung: navy, gradasi melintang, judul vertikal, nama penulis."""
     w = max(24, int(round(spine_in * px_per_in)))
     h = int(round(trim_h_in * px_per_in))
     img = Image.new("RGB", (w, h), NAVY)
     d = ImageDraw.Draw(img)
 
-    # gradien melintang: buku bulat, tepi lebih gelap
     for x in range(w):
         t = x / max(1, w - 1)
         k = 0.72 + 0.42 * (1 - abs(t - 0.42) / 0.62) ** 1.4
-        row = tuple(min(255, int(c * k)) for c in NAVY)
-        d.line([(x, 0), (x, h)], fill=row)
+        d.line([(x, 0), (x, h)], fill=tuple(min(255, int(c * k)) for c in NAVY))
 
-    # garis aksen: satu di kepala punggung, satu di atas nama penulis
     m = max(3, int(w * 0.33))
     bar = max(2, int(px_per_in * 0.018))
     d.rectangle([m, int(h * 0.052), w - m, int(h * 0.052) + bar], fill=AMBER)
@@ -143,15 +115,12 @@ def spine_texture(cfg, spine_in, trim_w_in, trim_h_in, px_per_in):
 
     def vertical(text, font, fill, cy_frac, max_h_frac, tracking=0):
         f = font
-        tmp = Image.new("RGBA", (10, 10))
-        dd = ImageDraw.Draw(tmp)
-        tw = dd.textlength(text, font=f)
-        limit = h * max_h_frac
-        while tw > limit and f.size > 12:
+        probe = ImageDraw.Draw(Image.new("RGBA", (8, 8)))
+        tw = probe.textlength(text, font=f)
+        while tw > h * max_h_frac and f.size > 12:
             f = ImageFont.truetype(f.path, f.size - 1)
-            tw = dd.textlength(text, font=f)
-        cap = int(f.size * 1.7)
-        strip = Image.new("RGBA", (int(tw) + 12, cap), (0, 0, 0, 0))
+            tw = probe.textlength(text, font=f)
+        strip = Image.new("RGBA", (int(tw) + 12, int(f.size * 1.7)), (0, 0, 0, 0))
         sd = ImageDraw.Draw(strip)
         if tracking:
             x = 6
@@ -167,122 +136,193 @@ def spine_texture(cfg, spine_in, trim_w_in, trim_h_in, px_per_in):
              IVORY, 0.335, 0.46)
     vertical(cfg["author"], ImageFont.truetype(SANS, int(w * 0.175)),
              (208, 216, 226), 0.795, 0.17, tracking=2)
-
     return img
 
 
-def pages_texture(trim_w_in, spine_in, px_per_in):
-    """Blok kertas: krem dengan garis halus tumpukan halaman."""
-    w = int(round(trim_w_in * px_per_in))
-    h = max(20, int(round(spine_in * px_per_in)))
+def pages_texture(w_in, h_in, px_per_in, vertical=False):
+    """Tumpukan kertas; `vertical` untuk sisi depan buku (tepi halaman)."""
+    w = max(8, int(round(w_in * px_per_in)))
+    h = max(8, int(round(h_in * px_per_in)))
+    if vertical:
+        w, h = h, w
     img = Image.new("RGB", (w, h), PAPER)
     d = ImageDraw.Draw(img)
     step = max(2, int(h / 90))
     for y in range(0, h, step):
         tone = 226 + (y * 7) % 18
         d.line([(0, y), (w, y)], fill=(tone, tone - 5, tone - 22))
-    # sisi dekat punggung sedikit lebih gelap
-    for x in range(min(w // 3, 90)):
-        k = int(14 * (1 - x / max(1, min(w // 3, 90))))
-        d.line([(x, 0), (x, h)], fill=(238 - k, 232 - k, 214 - k))
+    if vertical:
+        img = img.rotate(90, expand=True)
     return img
 
 
-# ---------------------------------------------------------------- render
-def render(cfg, spine_in, trim_w=8.27, trim_h=11.69,
-           yaw_deg=28.0, pitch_deg=13.0, canvas=2000, bg=(255, 255, 255, 255),
-           shadow=True):
-    """Satu bingkai 3D: muka depan + punggung + blok kertas atas."""
+# ------------------------------------------------------------------ geometri
+def find_coeffs(dst, src):
+    m = []
+    for (x, y), (X, Y) in zip(dst, src):
+        m.append([x, y, 1, 0, 0, 0, -X * x, -X * y])
+        m.append([0, 0, 0, x, y, 1, -Y * x, -Y * y])
+    A = np.array(m, dtype=np.float64)
+    B = np.array([c for p in src for c in p], dtype=np.float64)
+    return np.linalg.lstsq(A, B, rcond=None)[0]
+
+
+def project(points, yaw, pitch, cam, f, cx, cy):
+    """Putar titik (x kanan, y atas, z ke kamera) lalu proyeksikan."""
+    out, depth = [], []
+    ca, sa = np.cos(yaw), np.sin(yaw)
+    cb, sb = np.cos(pitch), np.sin(pitch)
+    for x, y, z in points:
+        x1 = x * ca + z * sa
+        z1 = -x * sa + z * ca
+        y2 = y * cb - z1 * sb
+        z2 = y * sb + z1 * cb
+        k = f / (cam - z2)
+        out.append((cx + x1 * k, cy - y2 * k))
+        depth.append(z2)
+    return out, depth
+
+
+def expand(quad, px):
+    cx = sum(p[0] for p in quad) / len(quad)
+    cy = sum(p[1] for p in quad) / len(quad)
+    out = []
+    for x, y in quad:
+        dx, dy = x - cx, y - cy
+        d = max(1e-6, (dx * dx + dy * dy) ** 0.5)
+        out.append((x + dx / d * px, y + dy / d * px))
+    return out
+
+
+def quad_face(texture, quad, size, shade=None):
+    w, h = texture.size
+    coeffs = find_coeffs(quad, [(0, 0), (w, 0), (w, h), (0, h)])
+    warped = texture.transform(size, Image.PERSPECTIVE, tuple(coeffs),
+                               resample=Image.BICUBIC)
+    mask = Image.new("L", size, 0)
+    ImageDraw.Draw(mask).polygon(quad, fill=255)
+    mask = mask.filter(ImageFilter.GaussianBlur(0.9))
+    warped.putalpha(mask)
+    if shade is not None:
+        warped = apply_shade(warped, shade)
+    return warped
+
+
+def apply_shade(layer, shade):
+    w, h = layer.size
+    xs = np.linspace(0.0, 1.0, w, dtype=np.float32)[None, :]
+    ys = np.linspace(0.0, 1.0, h, dtype=np.float32)[:, None]
+    k = np.asarray(shade(xs, ys), dtype=np.float32)
+    arr = np.asarray(layer, dtype=np.float32)
+    arr[..., :3] *= k[..., None]
+    return Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8), "RGBA")
+
+
+# ------------------------------------------------------------------ render
+def render(cfg, report, yaw_deg=28.0, pitch_deg=13.0, canvas=2000,
+           bg=(255, 255, 255, 255), shadow=True):
     size = int(canvas * SS)
     cover = Image.open(cfg["cover"]).convert("RGB")
-    ppi = cover.width / trim_w
-    spine_in = float(spine_in)
-    spine_tex = spine_texture(cfg, spine_in, trim_w, trim_h, ppi * 2.2)
-    pages_tex = pages_texture(trim_w, spine_in, ppi * 2.2)
+    back = back_panel(cfg, None, report)
+    ppi = cover.width / report["trim_in"][0]
+    tw, th = report["trim_in"]
+    spine_in = float(report["spine_in"])
 
-    W, H, D = trim_w, trim_h, spine_in
-    yaw, pitch = np.radians(yaw_deg), np.radians(pitch_deg)
+    spine_tex = spine_texture(cfg, spine_in, th, ppi * 2.0)
+    pages_top = pages_texture(tw, spine_in, 220)
+    pages_fore = pages_texture(spine_in, th, 220, vertical=True)
 
-    # sudut kotak buku (y ke atas, z ke kamera)
-    f_tl = (-W / 2, +H / 2, +D / 2)
-    f_tr = (+W / 2, +H / 2, +D / 2)
-    f_br = (+W / 2, -H / 2, +D / 2)
-    f_bl = (-W / 2, -H / 2, +D / 2)
-    s_tf = (-W / 2, +H / 2, +D / 2)
-    s_tb = (-W / 2, +H / 2, -D / 2)
-    s_bb = (-W / 2, -H / 2, -D / 2)
-    s_bf = (-W / 2, -H / 2, +D / 2)
-    t_fl = (-W / 2, +H / 2, +D / 2)
-    t_fr = (+W / 2, +H / 2, +D / 2)
-    t_br = (+W / 2, +H / 2, -D / 2)
-    t_bl = (-W / 2, +H / 2, -D / 2)
+    W, H, D = tw, th, spine_in
+    hw, hh, hd = W / 2, H / 2, D / 2
 
-    cam, f = 46.0, 34.0 * (size / 2000.0)
-    pts = [f_tl, f_tr, f_br, f_bl, s_tf, s_tb, s_bb, s_bf,
-           t_fl, t_fr, t_br, t_bl]
-    proj = project(pts, yaw, pitch, cam, f, 0, 0)
-    xs = [p[0] for p in proj]
-    ys = [p[1] for p in proj]
+    # tiap sisi: [kiri-atas, kanan-atas, kanan-bawah, kiri-bawah]
+    faces = {
+        "front": ([(-hw, hh, hd), (hw, hh, hd), (hw, -hh, hd), (-hw, -hh, hd)], cover,
+                  lambda x, y: 0.955 + 0.055 * np.clip((x - 0.18) / 0.55, 0, 1)),
+        "back": ([(hw, hh, -hd), (-hw, hh, -hd), (-hw, -hh, -hd), (hw, -hh, -hd)], back,
+                 lambda x, y: 0.925 + 0.045 * np.clip((0.9 - x) / 0.6, 0, 1)),
+        "spine": ([(-hw, hh, hd), (-hw, hh, -hd), (-hw, -hh, -hd), (-hw, -hh, hd)], spine_tex,
+                  lambda x, y: 0.80 + 0.22 * np.clip((np.abs(x - 0.5) * 2 - 0.2) / 0.6, 0, 1)),
+        "fore": ([(hw, hh, -hd), (hw, hh, hd), (hw, -hh, hd), (hw, -hh, -hd)], pages_fore,
+                 lambda x, y: 0.82 + 0.14 * np.clip((x - 0.1) / 0.8, 0, 1)),
+        "top": ([(-hw, hh, -hd), (hw, hh, -hd), (hw, hh, hd), (-hw, hh, hd)], pages_top,
+                lambda x, y: 0.99 + 0.02 * y),
+        "bottom": ([(-hw, -hh, hd), (hw, -hh, hd), (hw, -hh, -hd), (-hw, -hh, -hd)], pages_fore,
+                   lambda x, y: 0.70 + 0.10 * x),
+    }
+
+    normals = {
+        "front": (0, 0, 1), "back": (0, 0, -1),
+        "spine": (-1, 0, 0), "fore": (1, 0, 0),
+        "top": (0, 1, 0), "bottom": (0, -1, 0),
+    }
+
+    def facing(key, yaw, pitch):
+        """Benar bila sisi menghadap kamera setelah diputar."""
+        nx, ny, nz = normals[key]
+        ca, sa = np.cos(yaw), np.sin(yaw)
+        cb, sb = np.cos(pitch), np.sin(pitch)
+        x1 = nx * ca + nz * sa
+        z1 = -nx * sa + nz * ca
+        z2 = ny * sb + z1 * cb
+        return z2 > 0.02
+
+    visible = {k: v for k, v in faces.items()
+               if facing(k, np.radians(yaw_deg), np.radians(pitch_deg))}
+
+    all_pts = [p for f in visible.values() for p in f[0]]
+    proj_flat, depth_flat = project(all_pts, np.radians(yaw_deg), np.radians(pitch_deg),
+                                    46.0, 34.0 * (size / 2000.0), 0, 0)
+    xs, ys = [p[0] for p in proj_flat], [p[1] for p in proj_flat]
     bw, bh = max(xs) - min(xs), max(ys) - min(ys)
     margin = 0.115 if shadow else 0.075
     scale = min(size * (1 - margin * 2) / bw, size * (1 - margin * 2) / bh)
     ox = size / 2 - (max(xs) + min(xs)) / 2 * scale
     oy = size / 2 - (max(ys) + min(ys)) / 2 * scale
-    proj = [(x * scale + ox, y * scale + oy) for x, y in proj]
-    q_front = proj[0:4]
-    # punggung: balik urutan supaya tekstur tidak tercetak cermin
-    q_spine = [proj[5], proj[4], proj[7], proj[6]]
-    q_top = proj[8:12]
+    proj_flat = [(x * scale + ox, y * scale + oy) for x, y in proj_flat]
+
+    ordered = []
+    for i, (key, (quad, tex, shade)) in enumerate(visible.items()):
+        pts = proj_flat[i * 4:(i + 1) * 4]
+        ordered.append((float(np.mean(depth_flat[i * 4:(i + 1) * 4])), key, pts, tex, shade))
+    ordered.sort(key=lambda t: t[0])            # jauh dulu, dekat belakangan
 
     layer = Image.new("RGBA", (size, size), (0, 0, 0, 0))
 
     if shadow:
-        # bayangan kontak + ambient lembut di bawah buku
-        sy = max(p[1] for p in q_front) - size * 0.004
-        sx = (min(p[0] for p in q_front) + max(p[0] for p in q_front)) / 2
-        sw = (max(p[0] for p in q_front) - min(p[0] for p in q_front)) * 0.90
+        # bayangan di bawah seluruh buku, dihitung dari semua sisi yang terlihat
+        bottom = max(p[1] for f in visible.values() for p in f[0])
+        left = min(x for _d, _k, pts, _t, _s in ordered for x, _y in pts)
+        right = max(x for _d, _k, pts, _t, _s in ordered for x, _y in pts)
+        sy = bottom * scale + oy - size * 0.004 if bottom < 1e6 else size * 0.8
+        sx = (left + right) / 2
+        sw = (right - left) * 0.90
         sh = size * 0.040
         sh_img = Image.new("L", (size, size), 0)
-        ImageDraw.Draw(sh_img).ellipse(
-            [sx - sw / 2, sy - sh / 2, sx + sw / 2, sy + sh / 2], fill=110)
+        ImageDraw.Draw(sh_img).ellipse([sx - sw / 2, sy - sh / 2, sx + sw / 2, sy + sh / 2],
+                                       fill=105)
         sh_img = sh_img.filter(ImageFilter.GaussianBlur(size * 0.015))
-        shadow_layer = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-        shadow_layer.putalpha(sh_img)
-        shadow_layer = Image.composite(
-            Image.new("RGBA", (size, size), (17, 26, 38, 255)),
-            Image.new("RGBA", (size, size), (0, 0, 0, 0)), sh_img)
-        layer = Image.alpha_composite(layer, shadow_layer)
+        layer = Image.alpha_composite(
+            layer, Image.composite(Image.new("RGBA", (size, size), (17, 26, 38, 255)),
+                                   Image.new("RGBA", (size, size), (0, 0, 0, 0)), sh_img))
 
-    # bidang atas (kertas) — paling belakang
-    top = quad_face(pages_tex, expand(q_top, 1.6), (size, size),
-                    shade=lambda x, y: 0.97 + 0.05 * y)
-    layer = Image.alpha_composite(layer, top)
+    for _d, key, pts, tex, shade in ordered:
+        layer = Image.alpha_composite(
+            layer, quad_face(tex, expand(pts, 1.4), (size, size), shade=shade))
 
-    # punggung — muka kiri, sedikit lebih gelap dari depan
-    spine = quad_face(spine_tex, expand(q_spine, 1.6), (size, size),
-                      shade=lambda x, y: 0.80 + 0.22 * np.clip(
-                          (x - 0.06) / 0.30, 0, 1))
-    layer = Image.alpha_composite(layer, spine)
-
-    # muka depan
-    front = quad_face(cover, expand(q_front, 1.2), (size, size),
-                      shade=lambda x, y: 0.955 + 0.055 * np.clip(
-                          (x - 0.18) / 0.55, 0, 1))
-    layer = Image.alpha_composite(layer, front)
-
-    # engsel: garis gelap tipis di pertemuan punggung dan muka depan
-    hinge = ImageDraw.Draw(layer)
-    hinge.line([q_front[0], q_front[3]], fill=(0, 0, 0, 70),
-               width=max(2, int(size * 0.0016)))
-    # kilau di sepanjang engsel
-    hinge.line([q_front[0], q_front[3]], fill=(255, 255, 255, 26),
-               width=max(1, int(size * 0.0007)))
+    # engsel tipis di pertemuan punggung dan sampul depan
+    if "front" in visible and "spine" in visible:
+        front_pts = [p for _d, k, p, _t, _s in ordered if k == "front"][0]
+        dd = ImageDraw.Draw(layer)
+        dd.line([front_pts[0], front_pts[3]], fill=(0, 0, 0, 70),
+                width=max(2, int(size * 0.0016)))
 
     out = Image.new("RGBA", (size, size), bg)
     out = Image.alpha_composite(out, layer)
     return out.resize((canvas, canvas), Image.LANCZOS)
 
 
+# ------------------------------------------------------------------ keluaran
 def save(img, name):
     os.makedirs(OUT, exist_ok=True)
     path = os.path.join(OUT, name)
@@ -290,43 +330,62 @@ def save(img, name):
     print("  ->", os.path.relpath(path, HERE), img.size)
 
 
+def content_bbox(img):
+    a = img.split()[-1].point(lambda v: 255 if v > 8 else 0)
+    return a.getbbox() or (0, 0, img.width, img.height)
+
+
+def compose(builds, canvas=2000, gap_frac=0.045, fill=0.94):
+    """Susun beberapa render berdampingan dalam satu bingkai persegi.
+
+    Masukan harus render transparan tanpa bayangan: crop memakai alfa, jadi
+    bayangan akan ikut terpotong menjadi bercak kelabu di bawah buku.
+    """
+    imgs = []
+    for im in builds:
+        im = im.convert("RGBA")
+        imgs.append(im.crop(content_bbox(im)))
+    gap = int(canvas * gap_frac)
+    board = Image.new("RGBA", (canvas, canvas), (255, 255, 255, 255))
+    total_w = sum(i.width for i in imgs)
+    k = min((canvas * fill) / max(i.height for i in imgs),
+            (canvas - gap * (len(imgs) + 1)) / total_w)
+    x = gap
+    for im in imgs:
+        im = im.resize((int(im.width * k), int(im.height * k)), Image.LANCZOS)
+        board.alpha_composite(im, (x, (canvas - im.height) // 2))
+        x += im.width + gap
+    return board
+
+
 def main():
     rep = json.load(open(os.path.join(PUB, "build_report.json")))
     print("render 3d:")
-    singles, transparent = {}, {}
+    front_view, back_view, clear = {}, {}, {}
+
     for key, cfg in BOOKS.items():
-        spine = rep[key]["spine_in"]
-        main_img = render(cfg, spine, canvas=2000)
-        singles[key] = main_img
-        save(main_img, f"{cfg['slug']}_3d_square.png")
-        clear = render(cfg, spine, canvas=2000, bg=(255, 255, 255, 0))
-        save(clear, f"{cfg['slug']}_3d_transparent.png")
-        transparent[key] = clear
-        save(render(cfg, spine, yaw_deg=13, pitch_deg=8, canvas=2000),
-             f"{cfg['slug']}_3d_front.png")
+        r = rep[key]
+        slug = cfg["slug"]
+        main_img = render(cfg, r, canvas=2000)
+        save(main_img, f"{slug}_3d_square.png")
 
-    # kedua edisi berdampingan
-    size = 2000
-    pair = Image.new("RGBA", (size, size), (255, 255, 255, 255))
-    books = []
-    for key in ("en", "id"):
-        im = transparent[key]
-        bbox = im.split()[-1].point(lambda v: 255 if v > 8 else 0).getbbox()
-        books.append(im.crop(bbox) if bbox else im)
+        c = render(cfg, r, canvas=2000, bg=(255, 255, 255, 0))
+        save(c, f"{slug}_3d_transparent.png")
+        clear[key] = c
 
-    gap = int(size * 0.03)
-    slot_w = (size - gap * 3) // 2
-    slot_h = int(size * 0.86)
-    # skala bersama: kedua buku seukuran sama dan utuh di dalam bingkai
-    total_w = sum(b.width for b in books)
-    k = min((size * 0.80) / max(b.height for b in books),
-            (size - gap * 3) / total_w)
-    for i, im in enumerate(books):
-        im = im.resize((int(im.width * k), int(im.height * k)), Image.LANCZOS)
-        x = gap + i * (slot_w + gap) + (slot_w - im.width) // 2
-        y = (size - im.height) // 2
-        pair.alpha_composite(im, (x, y))
-    save(pair, "pair_3d_square.png")
+        f = render(cfg, r, yaw_deg=13, pitch_deg=8, canvas=2000)
+        save(f, f"{slug}_3d_front.png")
+        front_view[key] = render(cfg, r, yaw_deg=13, pitch_deg=8, canvas=2000,
+                                 bg=(255, 255, 255, 0), shadow=False)
+
+        b = render(cfg, r, yaw_deg=208, pitch_deg=8, canvas=2000)
+        save(b, f"{slug}_3d_back.png")
+        back_clear = render(cfg, r, yaw_deg=208, pitch_deg=8, canvas=2000,
+                            bg=(255, 255, 255, 0), shadow=False)
+
+        save(compose([front_view[key], back_clear]), f"{slug}_3d_front_back.png")
+
+    save(compose([front_view["en"], front_view["id"]], fill=0.80), "pair_3d_square.png")
 
 
 if __name__ == "__main__":

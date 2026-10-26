@@ -232,6 +232,8 @@ buku. Render 3D dibuat dengan geometri nyata, bukan tempelan gambar miring:
 | `*_3d_square.png` | 2000 × 2000, latar putih | gambar utama daftar jual |
 | `*_3d_transparent.png` | 2000 × 2000, alfa | banner, komposit promosi |
 | `*_3d_front.png` | 2000 × 2000, sudut ringan | galeri produk |
+| `*_3d_back.png` | 2000 × 2000 | tampak belakang: panel belakang asli |
+| `*_3d_front_back.png` | 2000 × 2000 | depan dan belakang dalam satu bingkai |
 | `pair_3d_square.png` | 2000 × 2000 | kedua edisi dalam satu bingkai |
 
 Tebal punggung diambil dari `build_report.json` (1,075 inci EN, 1,113 inci ID), jadi proporsi pada
@@ -240,6 +242,12 @@ pengaburan tepi untuk menghilangkan jahitan, gradasi melintang pada punggung aga
 bulat, tekstur tumpukan kertas pada bidang atas, serta bayangan kontak di bawah buku. Teks punggung
 (judul, nama penulis) ditambahkan oleh skrip, bukan dari sampul datar, supaya arah baca vertikalnya
 benar dan tidak tercetak cermin.
+
+Sisi belakang memakai panel belakang yang diekstrak langsung dari PDF bungkus cetak, dengan kotak
+barcode putih ditutup memakai warna latar sekitarnya, sehingga gambar tidak menampilkan kotak kosong
+yang membingungkan pembeli. Model geometrinya enam sisi penuh dengan *back-face culling* dan urutan
+gambar menurut kedalaman, jadi bidang yang menghadap menjauh tidak pernah tergambar menembus buku —
+kesalahan yang sempat muncul pada percobaan pertama (teks punggung tampak cermin).
 
 ---
 

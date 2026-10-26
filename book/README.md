@@ -31,6 +31,8 @@ Case Study and a Future Scenarios section that states what would falsify its own
 | `3d/*_3d_square.png` | 3D book render, 2000 × 2000, white background, for marketplace listings |
 | `3d/*_3d_transparent.png` | Same render on a transparent background, for banners and composites |
 | `3d/*_3d_front.png` | 3D render at a shallower angle, for product galleries |
+| `3d/*_3d_back.png` | 3D render from behind: the real back panel, barcode box removed |
+| `3d/*_3d_front_back.png` | Front and back in one frame, for stores that allow one gallery image |
 | `3d/pair_3d_square.png` | Both editions side by side in one frame |
 | `book/cover/art_cover_v1.png` | Raw artwork for the front cover; `make_cover_front.py` composites artwork + typography |
 | `book/cover/SKILL_open_generative_ai.md` | The prompt-compiler skill (from Anil-matcha/Open-Generative-AI, MIT) used to write the cover prompt |
