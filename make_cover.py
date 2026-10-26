@@ -183,22 +183,22 @@ def build(cfg):
     # ---------- back ----------
     margin = px(0.55)
     x = px(BLEED) + margin
-    y = px(BLEED) + px(0.75)
+    y = px(BLEED) + px(0.62)
     col_w = px(TRIM_W) - 2 * margin
 
-    f_head = ImageFont.truetype(SERIF_B, px(0.175))
+    f_head = ImageFont.truetype(SERIF_B, px(0.225))
     draw.text((x, y), cfg["back_head"], font=f_head, fill=ACCENT)
-    y += px(0.42)
-    draw.line([x, y, x + px(0.6), y], fill=ACCENT, width=px(0.012))
-    y += px(0.28)
+    y += px(0.50)
+    draw.line([x, y, x + px(0.7), y], fill=ACCENT, width=px(0.014))
+    y += px(0.30)
 
-    f_body = ImageFont.truetype(SERIF_R, px(0.125))
-    line_h = px(0.196)
+    f_body = ImageFont.truetype(SERIF_R, px(0.158))
+    line_h = px(0.242)
     for para in cfg["blurb"]:
         for ln in wrap(draw, para, f_body, col_w):
-            draw.text((x, y), ln, font=f_body, fill=(232, 232, 232))
+            draw.text((x, y), ln, font=f_body, fill=(240, 241, 244))
             y += line_h
-        y += px(0.12)
+        y += px(0.15)
 
     # ---------- zona barcode ritel (dibiarkan kosong) ----------
     bc_w, bc_h = 2.0, 1.2                      # inci, ukuran minimum EAN-13
@@ -208,39 +208,39 @@ def build(cfg):
     draw.rectangle([bc_x0, bc_y0, bc_x0 + px(bc_w), bc_y1], fill=(255, 255, 255))
 
     # blok penulis: kolom menyempit agar tidak menabrak zona barcode
-    f_bio = ImageFont.truetype(SERIF_R, px(0.105))
+    f_bio = ImageFont.truetype(SERIF_R, px(0.132))
     bio = cfg["bio"]
     bio_w = bc_x0 - x - px(0.25)
-    yb0 = H - px(BLEED) - px(1.35) - len(wrap(draw, bio, f_bio, bio_w)) * px(0.145)
+    yb0 = H - px(BLEED) - px(1.42) - len(wrap(draw, bio, f_bio, bio_w)) * px(0.178)
     draw.line([x, yb0 - px(0.2), x + px(0.6), yb0 - px(0.2)], fill=ACCENT, width=px(0.012))
     yb = yb0
     for ln in wrap(draw, bio, f_bio, bio_w):
-        draw.text((x, yb), ln, font=f_bio, fill=(196, 202, 212))
-        yb += px(0.166)
+        draw.text((x, yb), ln, font=f_bio, fill=(214, 220, 229))
+        yb += px(0.178)
 
     # isi buku, sebagai butir pendek di kolom belakang
     y += px(0.10)
     draw.line([x, y, x + col_w, y], fill=(70, 88, 110), width=px(0.005))
     y += px(0.22)
-    f_bul = ImageFont.truetype(SERIF_R, px(0.112))
+    f_bul = ImageFont.truetype(SERIF_R, px(0.140))
     for item in cfg["inside"]:
         draw.text((x, y), "\u2022", font=f_bul, fill=ACCENT)
-        for i, ln in enumerate(wrap(draw, item, f_bul, col_w - px(0.22))):
-            draw.text((x + px(0.22), y), ln, font=f_bul, fill=(226, 230, 236))
-            y += px(0.176)
-        y += px(0.055)
+        for i, ln in enumerate(wrap(draw, item, f_bul, col_w - px(0.26))):
+            draw.text((x + px(0.26), y), ln, font=f_bul, fill=(234, 237, 242))
+            y += px(0.216)
+        y += px(0.075)
 
     # kutipan penarik di tengah sampul belakang
-    f_q = ImageFont.truetype(SERIF_I, px(0.185))
+    f_q = ImageFont.truetype(SERIF_I, px(0.238))
     qlines = wrap(draw, cfg["pull"], f_q, col_w - px(0.9))
-    qh = len(qlines) * px(0.275)
+    qh = len(qlines) * px(0.330)
     qy = int((y + (H - px(BLEED) - px(1.9) - qh)) / 2)
     draw.line([x, qy - px(0.28), x + px(0.9), qy - px(0.28)], fill=ACCENT, width=px(0.014))
     for ln in qlines:
-        draw.text((x + px(0.15), qy), ln, font=f_q, fill=(238, 240, 244))
-        qy += px(0.275)
+        draw.text((x + px(0.15), qy), ln, font=f_q, fill=(245, 247, 250))
+        qy += px(0.330)
 
-    f_sub = ImageFont.truetype(SERIF_I, px(0.115))
+    f_sub = ImageFont.truetype(SERIF_I, px(0.140))
     yb = H - px(BLEED) - px(0.7)
     for ln in wrap(draw, cfg["subtitle"], f_sub, col_w):
         draw.text((x, yb), ln, font=f_sub, fill=(170, 178, 190))

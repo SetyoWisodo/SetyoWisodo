@@ -177,7 +177,7 @@ dari tipografi yang direncanakan terpisah:
 | Bidang kosong | Tidak ada baris statistik di kaki sampul; ruang bawah dibiarkan bersih agar seni dan kalimat penutup yang berbicara |
 
 Semua huruf ditambahkan oleh `make_cover_front.py`, bukan oleh model gambar, sehingga tajam pada
-300 dpi dan dapat diterjemahkan tanpa membuat ulang seni. Dua rasio dibuat: 1800 × 2546 (potong
+300 dpi dan dapat diterjemahkan tanpa membuat ulang seni. Dua rasio dibuat: 2550 × 3608 (potong
 A4, untuk bungkus cetak) dan 1600 × 2560 (1 : 1,6, untuk EPUB dan toko ebook). Punggung dan zona
 barcode tetap dihitung `make_cover.py` dari jumlah halaman interior (1,075 dan 1,113 inci).
 
@@ -248,6 +248,36 @@ barcode putih ditutup memakai warna latar sekitarnya, sehingga gambar tidak mena
 yang membingungkan pembeli. Model geometrinya enam sisi penuh dengan *back-face culling* dan urutan
 gambar menurut kedalaman, jadi bidang yang menghadap menjauh tidak pernah tergambar menembus buku —
 kesalahan yang sempat muncul pada percobaan pertama (teks punggung tampak cermin).
+
+### 2.15 Keterbacaan sampul pada ukuran kecil
+
+Toko menampilkan sampul pada 150–250 piksel. Pada ukuran itu, tipografi sampul sebelumnya kalah oleh
+gambar: teks terkecil hanya **8,5 pt** (bio di sampul belakang) dan berkas depan berukuran 1800 px
+untuk potong 8,27 inci, yaitu **218 dpi efektif** — belum memenuhi syarat cetak 300 dpi. Diukur ulang
+dan diperbaiki:
+
+| Elemen | Sebelum | Sesudah |
+|---|---|---|
+| Berkas sampul depan | 1800 × 2546 px (218 dpi) | **2550 × 3608 px (308 dpi)** |
+| Kicker depan | 11,8 pt | **14,3 pt** |
+| Subjudul depan | 17,3 pt | **25,2 pt** |
+| Kalimat penutup depan | 16,2 pt | **24,5 pt** |
+| Nama penulis | 10,1 pt | **15,6 pt** |
+| Kepala sampul belakang | 12,6 pt | **16,2 pt** |
+| Blurb sampul belakang | 9,0 pt | **11,4 pt** |
+| Butir isi | 8,1 pt | **10,1 pt** |
+| Kutipan penarik | 13,3 pt | **17,1 pt** |
+| Bio penulis | **8,5 pt** | **9,5 pt** |
+
+Kontras juga dinaikkan (teks sekunder dari `#c4cad4` menjadi `#d6dce5`; badan blurb dari `#e8e8e8`
+menjadi `#f0f1f4`), karena teks kelabu di atas navy kehilangan bentuknya lebih dulu saat diperkecil.
+Fungsi `tracked()` sekarang mengecilkan huruf berjarak lebar sampai muat di dalam bidang potong,
+sehingga kenaikan ukuran tidak mendorong teks melewati tepi.
+
+Uji terakhir: sampul diperkecil ke 200, 320, dan 480 piksel. Pada 200 px, judul, subjudul, kalimat
+penutup, dan nama penulis masih terbaca; pada 320 px seluruh teks depan terbaca. Render 3D ikut
+dibangun ulang dari sampul 300 dpi, termasuk panel belakang yang diekstrak ulang dari PDF bungkus
+cetak (cache `/tmp` dihapus lebih dulu agar tidak memakai panel lama).
 
 ---
 

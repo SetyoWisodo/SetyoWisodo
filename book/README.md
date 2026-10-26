@@ -26,7 +26,7 @@ Case Study and a Future Scenarios section that states what would falsify its own
 | `Surviving_the_Future.pdf` (repo root) | A4 reading/print PDF, 430 pp |
 | `Surviving_the_Future_ID.pdf` (repo root) | A4 reading/print PDF, 445 pp |
 | `*_cover_print.pdf` | Full paperback wrap (back + spine + front), 300 dpi, 0.125 in bleed, spine sized from the page count, with a white 2 × 1.2 in retail barcode area |
-| `*_cover_front.jpg` | Front cover at the trim ratio (1800 × 2546, 300 dpi): artwork, typography, quote, and the book's statistics |
+| `*_cover_front.jpg` | Front cover at the trim ratio (2550 × 3608, 300 dpi): artwork, typography, quote |
 | `*_cover_ebook.jpg` | Ebook cover at the 1:1.6 ratio stores ask for (1600 × 2560), used inside the EPUB |
 | `3d/*_3d_square.png` | 3D book render, 2000 × 2000, white background, for marketplace listings |
 | `3d/*_3d_transparent.png` | Same render on a transparent background, for banners and composites |

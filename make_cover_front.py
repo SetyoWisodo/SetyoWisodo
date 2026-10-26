@@ -5,7 +5,7 @@ Seni mentah: book/cover/art_cover_v1.png (dibuat dengan prompt terkompilasi
 dari skill Open Generative AI, lihat book/cover/SKILL_open_generative_ai.md).
 
 Keluaran:
-  book/publish/*_cover_front.jpg       1800 x 2546 px (rasio potong A4, 300 dpi)
+  book/publish/*_cover_front.jpg       2550 x 3608 px (rasio potong A4, 300 dpi)
                                        dipakai make_cover.py dan make_publish.py
   book/publish/*_cover_ebook.jpg       1600 x 2560 px (rasio 1:1,6 yang diminta
                                        toko ebook seperti KDP)
@@ -24,7 +24,7 @@ OUT_ID = os.path.join(PUB, "Bertahan_Hidup_di_Masa_Depan_ID_cover_front.jpg")
 EB_EN = os.path.join(PUB, "Surviving_the_Future_EN_cover_ebook.jpg")
 EB_ID = os.path.join(PUB, "Bertahan_Hidup_di_Masa_Depan_ID_cover_ebook.jpg")
 
-W, H = 1800, 2546                     # rasio potong A4 pada 300 dpi
+W, H = 2550, 3608                     # rasio potong A4 pada 300 dpi (8,5 x 12,03 in)
 NAVY = (11, 22, 34)
 NAVY_SOFT = (17, 31, 46)
 IVORY = (246, 243, 235)
@@ -38,11 +38,23 @@ F_IMAGE = 0.251
 F_QUOTE = 0.848
 F_AUTHOR = 0.928          # nama penulis di kaki sampul
 F_YEAR = 0.966            # tahun di bawah nama
-F_TITLE_WIDTH = 0.795
+F_TITLE_WIDTH = 0.820
 
 
-def tracked(draw, text, font, y, fill, tracking=0.0, center_x=None, width=None):
-    """Tulis teks dengan jarak antarhuruf manual, rata tengah."""
+def tracked(draw, text, font, y, fill, tracking=0.0, center_x=None, width=None,
+            max_w=None):
+    """Tulis teks dengan jarak antarhuruf manual, rata tengah.
+
+    `max_w` menjaga baris berjarak lebar tetap di dalam bidang potong: huruf
+    diperkecil bertahap sampai muat, bukan dipotong.
+    """
+    if max_w:
+        while max_w and font.size > 8:
+            probe = sum(draw.textlength(ch, font=font) for ch in text) \
+                    + tracking * (len(text) - 1)
+            if probe <= max_w:
+                break
+            font = ImageFont.truetype(font.path, font.size - 1)
     cx = center_x if center_x is not None else width // 2
     widths = [draw.textlength(ch, font=font) for ch in text]
     total = sum(widths) + tracking * (len(text) - 1)
@@ -107,16 +119,17 @@ def build(cfg, out_path, w, h):
         return ImageFont.truetype(os.path.join(FONTS, name), max(10, int(size * s)))
 
     black = os.path.join(FONTS, "SourceSans3-Black.otf")
-    f_author = font("SourceSans3-Semibold.otf", 36)
-    f_year = font("SourceSans3-Semibold.otf", 27)
-    f_kick = font("SourceSans3-Semibold.otf", 33)
-    f_sub = font("SourceSerif4-It.otf", 62)
+    f_author = font("SourceSans3-Semibold.otf", 46)
+    f_year = font("SourceSans3-Semibold.otf", 36)
+    f_kick = font("SourceSans3-Semibold.otf", 42)
+    f_sub = font("SourceSerif4-It.otf", 74)
     f_sub2 = font("SourceSerif4-It.otf", 46)
 
-    tracked(draw, cfg["kicker"], f_kick, int(h * F_KICKER), AMBER, tracking=9 * s, width=w)
+    tracked(draw, cfg["kicker"], f_kick, int(h * F_KICKER), AMBER, tracking=7 * s,
+            width=w, max_w=int(w * 0.86))
 
     target = int(w * F_TITLE_WIDTH)
-    max_size = int(260 * s)
+    max_size = int(276 * s)
     f1 = fit_to_width(draw, cfg["title1"], black, target, max_size)
     f2 = fit_to_width(draw, cfg["title2"], black, target, max_size)
     size = min(f1.size, f2.size)
@@ -140,12 +153,12 @@ def build(cfg, out_path, w, h):
     yq = int(h * F_QUOTE)
     for ln in cfg["quote"]:
         fq = fit_to_width(draw, ln, os.path.join(FONTS, "SourceSerif4-It.otf"),
-                          int(w * 0.80), int(58 * s))
+                          int(w * 0.82), int(72 * s))
         wq = draw.textlength(ln, font=fq)
         # bayangan halus supaya tetap terbaca di atas gambar
         shadow = Image.new("RGBA", (w, h), (0, 0, 0, 0))
         sd = ImageDraw.Draw(shadow)
-        sd.text(((w - wq) / 2, yq), ln, font=fq, fill=(0, 0, 0, 175))
+        sd.text(((w - wq) / 2, yq), ln, font=fq, fill=(0, 0, 0, 205))
         shadow = shadow.filter(ImageFilter.GaussianBlur(int(11 * s)))
         canvas.paste(Image.alpha_composite(canvas.convert("RGBA"), shadow).convert("RGB"), (0, 0))
         draw = ImageDraw.Draw(canvas)
@@ -153,7 +166,8 @@ def build(cfg, out_path, w, h):
         yq += int(fq.size * 1.26)
 
     # ---------- nama penulis dan tahun di kaki sampul ----------
-    tracked(draw, cfg["author"], f_author, int(h * F_AUTHOR), IVORY, tracking=13 * s, width=w)
+    tracked(draw, cfg["author"], f_author, int(h * F_AUTHOR), IVORY, tracking=12 * s,
+            width=w, max_w=int(w * 0.86))
     tracked(draw, cfg["year"], f_year, int(h * F_YEAR), AMBER, tracking=7 * s, width=w)
 
     canvas.save(out_path, quality=95, dpi=(300, 300), subsampling=0)
