@@ -53,16 +53,26 @@ EPUB. Tetapi tahu di mana risikonya.
 
 | # | Produk | File yang diunggah | Harga |
 |---|---|---|---|
-| 1 | Surviving the Future (EN) | `Surviving_the_Future_EN_interior.pdf`, `.epub`, `.docx` | **$14** |
-| 2 | Bertahan Hidup di Masa Depan (ID) | `Bertahan_Hidup_di_Masa_Depan_ID_interior.pdf`, `.epub`, `.docx` | **$11** |
-| 3 | Bilingual bundle | keenam file di atas | **$19** |
-| 4 | Free sample | `Surviving_the_Future_EN_sample.pdf`, `..._ID_sample.pdf` | **$0** (pay what you want) |
+| 1 | Surviving the Future (EN) | PDF, EPUB, DOCX, `*_figures.zip` | **$59** |
+| 2 | Bertahan Hidup di Masa Depan (ID) | PDF, EPUB, DOCX, `*_figures.zip` | **$59** |
+| 3 | Bilingual bundle | kedelapan file di atas | **$79** |
+| 4 | Free sample | `*_sample.pdf` (EN + ID) | **$0** (pay what you want) |
 
 Produk 4 bukan pelengkap — ia mesin penjualannya. Sampel gratis mengumpulkan email,
 masuk ke Gumroad Discover, dan menjadi tautan yang bisa Anda sebar di media sosial.
 
-Beli-borong lebih murah dari beli terpisah ($14 + $11 = $25 vs $19) dan tetap
+Beli-borong lebih murah dari beli terpisah ($59 + $59 = $118 vs $79) dan tetap
 menguntungkan: biaya tetap $0,50 hanya dipotong sekali, bukan dua kali.
+
+### Paket gambar — yang menopang harga $59
+
+`python make_figure_pack.py` menghasilkan `*_figures.zip` per edisi: 11 gambar
+300 dpi, keterangan dan baris sumbernya, plus README berisi hak pakai.
+
+Ini bukan tambahan kosmetik. Pembaca di harga $59 hampir selalu orang yang akan
+**memakai** bukunya: dosen yang butuh slide, perencana yang butuh bagan, jurnalis
+yang butuh grafik. Gambar lepas membuat buku itu dipakai, bukan sekadar dibaca.
+Tanpa ini, $59 hanya angka.
 
 ### Setelah dipotong biaya
 
@@ -76,11 +86,13 @@ Artinya totalnya sekitar **12,9% + 80¢** per penjualan langsung, bukan 10%.
 
 | Harga | Gumroad | Proses | Bersih | Persen |
 |---|---|---|---|---|
-| $9 | $1,40 | $0,56 | **$7,04** | 78% |
-| $11 | $1,60 | $0,62 | **$8,78** | 80% |
-| $14 | $1,90 | $0,71 | **$11,39** | 81% |
-| $19 | $2,40 | $0,85 | **$15,75** | 83% |
-| $14 lewat Discover | $4,20 | termasuk | **$9,80** | 70% |
+| $59 | $6,40 | $2,01 | **$50,59** | 85,7% |
+| $79 | $8,40 | $2,59 | **$68,01** | 86,1% |
+| $59 lewat Discover | $17,70 | termasuk | **$41,30** | 70% |
+| $79 lewat Discover | $23,70 | termasuk | **$55,30** | 70% |
+
+Perhatikan: persentase bersih **naik** seiring harga, karena biaya tetap 80¢
+tidak ikut membesar. Di $59 Anda kehilangan 14,3%; di $14 Anda kehilangan 18,6%.
 
 Discover tetap menguntungkan: 70% dari penjualan yang tanpa Discover tidak akan ada.
 
@@ -96,8 +108,8 @@ Indonesia.
 - **PayPal** — cadangan, dibayar dalam USD, ada biaya 2% + konversi.
 - **Payoneer dan Wise tidak didukung.** Jangan direncanakan.
 - **Saldo minimum pencairan untuk Indonesia adalah $100** dan angkanya terkunci —
-  tidak bisa diturunkan. Dengan harga $14, butuh sekitar **9 penjualan** sebelum
-  dana pertama cair; dengan bundle $19, cukup **7 penjualan**.
+  tidak bisa diturunkan. Di harga $59, dana pertama cair setelah **2 penjualan**;
+  di harga $79, juga **2 penjualan**. Ini keuntungan nyata dari harga tinggi.
 - Jadwal pembayaran: mingguan. Penjualan ditahan sekitar 7 hari sebelum bisa dicairkan.
 
 Karena Gumroad sejak 1 Januari 2025 berstatus **Merchant of Record**, PPN/VAT dan pajak
@@ -122,14 +134,15 @@ penghasilan Anda di Indonesia tetap kewajiban Anda sendiri.
 ### B. Buat produk 1 (EN)
 
 1. **Products → New product** → Name: `Surviving the Future` → Type: Digital product
-2. **Price**: $14
+2. **Price**: $59
 3. **Description**: tempel isi `book/publish/gumroad/copy/listing_en.txt`
 4. **Cover**: unggah berurutan
    - `cover_en_1_hero.png`
    - `cover_en_2_inside.png`
    - `cover_en_3_quote.png`
 5. **Thumbnail**: `thumb_en.png`
-6. **Content**: unggah tiga file → **nyalakan stempel PDF pada file PDF**
+6. **Content**: unggah empat file (PDF, EPUB, DOCX, ZIP gambar) → **nyalakan
+   stempel PDF pada file PDF**
 7. **URL**: `surviving-the-future`
 8. Simpan → **Publish**
 

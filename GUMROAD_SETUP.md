@@ -34,12 +34,11 @@ bukan 10%. Tabel lengkapnya sudah diperbarui di `GUMROAD.md`.
 
 | Harga produk | Bersih per penjualan | Penjualan untuk $100 |
 |---|---|---|
-| $14 | $11,39 | **9** |
-| $19 (bundle) | $15,75 | **7** |
-| $11 | $8,78 | 12 |
+| $59 | $50,59 | **2** |
+| $79 (bundle) | $68,01 | **2** |
 
-Karena itu, dorong pembeli ke **bundle $19** sejak awal — dana pertama Anda cair
-lebih cepat, dan pembeli dapat lebih banyak.
+Di harga $59, dana pertama Anda cair setelah dua penjualan. Itu keuntungan nyata
+dari harga tinggi, dan alasan untuk tidak menurunkan harga hanya agar "cepat laku".
 
 ---
 
@@ -138,9 +137,15 @@ Kotak **"Products to exclude"** biarkan kosong.
 **"Card country and IP verification"** biarkan menyala — ia mencegah orang memalsukan
 lokasi untuk mendapat diskon.
 
-Efeknya untuk buku Anda: harga $14 di Amerika tetap $14, sementara pembeli Indonesia
-membayar sekitar $6–11 tergantung penilaian Bank Dunia saat itu. Rupiahnya jadi wajar
-tanpa Anda harus mengorbankan harga internasional.
+Efeknya untuk buku Anda: harga $59 di Amerika tetap $59, sementara pembeli Indonesia
+membayar sekitar $24–47 tergantung penilaian Bank Dunia saat itu (diskon 20–60%).
+Rupiahnya jadi lebih masuk akal tanpa Anda harus mengorbankan harga internasional.
+
+**Jujur soal ini:** $59 tetap mahal untuk pasar Indonesia, bahkan setelah diskon PPP.
+Kalau nanti penjualan lokal lambat, turunkan **hanya produk ID** (misalnya $25–29) dan
+biarkan edisi Inggris tetap $59. Itu bukan menggembosi harga — itu menyesuaikan daya
+beli pasar yang berbeda. Buku akademik berbahasa Inggris memang lazim dihargai lebih
+tinggi daripada edisi lokalnya.
 
 ---
 
@@ -162,9 +167,9 @@ Urutannya penting:
 1. **Produk sampel gratis dulu.** Harga $0. Ini yang paling cepat jadi dan paling
    kecil risikonya kalau ada yang salah.
 2. Salin URL-nya (`gumroad.com/l/xxxxx`).
-3. **Produk EN $14**, tempel URL sampel ke deskripsi.
-4. **Produk ID $11**, sama.
-5. **Produk bundle $19**, sama.
+3. **Produk EN $59**, tempel URL sampel ke deskripsi.
+4. **Produk ID $59**, sama.
+5. **Produk bundle $79**, sama.
 
 Deskripsi dan sampulnya sudah siap di `book/publish/gumroad/`. Langkah per produk ada
 di `GUMROAD.md` bagian 5.
