@@ -92,7 +92,7 @@ Artinya totalnya sekitar **12,9% + 80¢** per penjualan langsung, bukan 10%.
 |---|---|---|---|---|
 | $29 | $3,40 | $1,14 | **$24,46** | 84,3% |
 | $49 | $5,40 | $1,72 | **$41,88** | 85,5% |
-| $69 | $7,40 | $2,30 | **$59,50** | 86,2% |
+| $69 | $7,40 | $2,30 | **$59,30** | 85,9% |
 | $49 lewat Discover | $14,70 | termasuk | **$34,30** | 70% |
 
 Perhatikan: persentase bersih **naik** seiring harga, karena biaya tetap 80¢

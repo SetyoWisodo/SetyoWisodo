@@ -118,7 +118,7 @@ ruang untuk diskon promosi. $29 juga membuat bundle tidak mungkin masuk akal.
 | Sampel (EN + ID) | **$0** | — |
 | **Surviving the Future (EN)** | **$49** | **$41,88** |
 | Bertahan Hidup di Masa Depan (ID) | **$29** | **$24,46** |
-| Bundle keduanya | **$69** | **$59,50** |
+| Bundle keduanya | **$69** | **$59,30** |
 
 Edisi Indonesia **sengaja lebih murah**: pembeli lokal membandingkannya dengan buku
 berbahasa Indonesia (Rp 100.000–180.000), bukan dengan ebook akademik internasional.

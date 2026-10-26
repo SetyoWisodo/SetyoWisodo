@@ -35,7 +35,7 @@ bukan 10%. Tabel lengkapnya sudah diperbarui di `GUMROAD.md`.
 | Harga produk | Bersih per penjualan | Penjualan untuk $100 |
 |---|---|---|
 | $49 (EN) | $41,88 | **3** |
-| $69 (bundle) | $59,50 | **2** |
+| $69 (bundle) | $59,30 | **2** |
 
 Di harga $49, dana pertama Anda cair setelah tiga penjualan. Jangan turunkan harga
 hanya agar "cepat laku" — yang menentukan bukan harga, melainkan dari mana
