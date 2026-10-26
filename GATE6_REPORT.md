@@ -279,6 +279,30 @@ penutup, dan nama penulis masih terbaca; pada 320 px seluruh teks depan terbaca.
 dibangun ulang dari sampul 300 dpi, termasuk panel belakang yang diekstrak ulang dari PDF bungkus
 cetak (cache `/tmp` dihapus lebih dulu agar tidak memakai panel lama).
 
+### 2.16 Sampul belakang: fakta, daya pikat, dan ajakan
+
+Tiga kelemahan teks sampul belakang ditemukan saat menyusun ulang:
+
+1. **Klaim tanpa tahun.** "Five of the warmest years ever measured" benar, tetapi tidak menyebut
+   periode mana. Buku sendiri (Bab 1) menulis lima tahun terpanas adalah 2020–2024, jadi sampul kini
+   menyebut rentang itu dan sejalan dengan isi.
+2. **Angka yang bertentangan dengan isi.** Sampul menyebut korban Siklon Amphan 2020 "puluhan",
+   sementara Bab 2 menulis "roughly a hundred". Angka yang dipakai sekarang adalah yang paling
+   terverifikasi di dalam buku: **lebih dari dua juta orang dievakuasi lebih dulu**, dan korban
+   "puluhan" — persis seperti Bunyi Bab 24.4. Angka Bhola 1970 diubah menjadi "hingga 500.000"
+   mengikuti rentang 300.000–500.000 yang dipakai buku.
+3. **Tanpa ajakan bertindak.** Tidak ada kalimat yang memberi tahu pembaca apa yang harus dilakukan.
+   Ditambahkan pita ajakan di atas blok penulis, menunjuk ke lembar kerja risiko lokal di halaman
+   belakang: lima pertanyaan (bahaya, paparan, kerentanan, kapasitas, pemicu) yang persis ada di
+   *Worksheet: Your Local Risk Profile*.
+
+Kepala sampul belakang diganti dari label datar ("WHAT THE RECORD SHOWS") menjadi kalimat yang
+menjual tesis buku: **"THE HAZARD CANNOT BE STOPPED. THE DISASTER CAN."** Kepala sekarang boleh
+membungkus dua baris. Kutipan penarik menyesuaikan ukuran hurufnya terhadap ruang yang tersisa,
+sehingga pada edisi Indonesia — yang butirnya lebih panjang — kutipan tidak lagi menabrak pita
+ajakan. Paragraf ringkasan dipecah menjadi kalimat pendek dan angka ditulis dengan kata, karena
+blok angka bertitik ("24. 25. 11.") terbaca seperti daftar harga di ukuran thumbnail.
+
 ---
 
 ## 3. Hasil pemeriksaan produksi

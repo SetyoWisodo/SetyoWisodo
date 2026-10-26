@@ -31,21 +31,22 @@ BOOKS = [
         "subtitle": "Crisis, Climate, and Human Resilience",
         "author": "SETYO WISODO",
         "blurb": [
-            "Five of the warmest years ever measured. A cyclone that killed 138,000 people in 1991 and a "
-            "cyclone that killed dozens in 2020, on the same coastline. A heatwave that killed 70,000 "
-            "Europeans in 2003 and a hotter one that killed 61,700 in 2022 because the institutions "
-            "had changed.",
-            "This book reads the record of the past two decades closely enough to show why the next "
-            "disaster will fall on some places and not others, and it argues that the difference is "
-            "usually a decision rather than a fate.",
-            "Twenty-four chapters, twenty-five data tables, eleven data figures, twenty-four case studies "
-            "and a reference list of 145 sources. Written for readers who want the evidence rather than "
-            "the slogan.",
+            "The five years from 2020 to 2024 were the warmest ever measured. In 1970 a cyclone killed "
+            "up to half a million people in the Bengal delta. In 2020 a storm of comparable strength hit "
+            "the same coast: more than two million people were moved to safety first, and the death toll "
+            "was in the dozens.",
+            "This book is about that gap. Two decades of climate records, read closely, show why the next "
+            "disaster will devastate some places and barely touch others \u2014 and why the difference is "
+            "almost always a decision rather than a fate. Heat, flood, drought, fire, food, water, "
+            "migration, conflict: every chapter ends by naming the observation that would prove it wrong.",
+            "Twenty-four chapters. Twenty-five data tables. Eleven figures. Twenty-four case studies. "
+            "One hundred and forty-five sources. Written for readers who want the evidence, not the slogan.",
         ],
-        "back_head": "WHAT THE RECORD SHOWS",
+        "back_head": "THE HAZARD CANNOT BE STOPPED. THE DISASTER CAN.",
         "pull": "A prepared world is not a world without disasters. It is a world in which the same event kills fewer people.",
+        "cta": "Start with the last pages: five questions that turn this book into a plan for your own street.",
         "inside": [
-            "Why a cyclone killed 500,000 people in 1970 and dozens in 2020 on the same coastline",
+            "Why a cyclone killed up to 500,000 people in 1970 and dozens in 2020 on the same coastline",
             "The heatwave that killed 70,000 Europeans in 2003 — and the hotter one that killed 61,700 in 2022",
             "The Ahr valley, where the forecast was right and 180 people died anyway",
             "What a heat action plan, a shelter register and a protected budget line actually cost",
@@ -65,21 +66,23 @@ BOOKS = [
         "subtitle": "Krisis, Iklim, dan Resiliensi Manusia",
         "author": "SETYO WISODO",
         "blurb": [
-            "Lima tahun terpanas yang pernah terukur. Siklon yang menewaskan 138.000 orang pada 1991 dan "
-            "siklon yang menewaskan puluhan orang pada 2020, di pesisir yang sama. Gelombang panas yang "
-            "menewaskan 70.000 orang Eropa pada 2003 dan gelombang yang lebih panas pada 2022 tetapi "
-            "menewaskan 61.700 orang karena lembaganya sudah berubah.",
-            "Buku ini membaca catatan dua dekade terakhir cukup dekat untuk menunjukkan mengapa bencana "
-            "berikutnya akan menimpa sebagian tempat dan bukan yang lain, dan berargumen bahwa "
-            "perbedaannya biasanya sebuah keputusan, bukan takdir.",
-            "Dua puluh empat bab, dua puluh lima tabel data, sebelas gambar data, dua puluh empat studi "
-            "kasus, dan daftar pustaka 145 sumber. Ditulis untuk pembaca yang menginginkan bukti, bukan "
-            "slogan.",
+            "Lima tahun dari 2020 sampai 2024 adalah lima tahun terpanas yang pernah terukur. Pada 1970 "
+            "sebuah siklon menewaskan hingga setengah juta orang di delta Benggala. Pada 2020 badai dengan "
+            "kekuatan setara menghantam pesisir yang sama: lebih dari dua juta orang dipindahkan lebih dulu, "
+            "dan jumlah kematiannya puluhan.",
+            "Buku ini tentang selisih itu. Catatan iklim dua dekade, dibaca cukup dekat, menunjukkan "
+            "mengapa bencana berikutnya akan menghancurkan sebagian tempat dan nyaris tidak menyentuh "
+            "yang lain \u2014 dan mengapa selisihnya hampir selalu sebuah keputusan, bukan takdir. Panas, "
+            "banjir, kekeringan, kebakaran, pangan, air, migrasi, konflik: setiap bab ditutup dengan "
+            "menyebut pengamatan yang akan membuktikannya salah.",
+            "Dua puluh empat bab. Dua puluh lima tabel data. Sebelas gambar. Dua puluh empat studi kasus. "
+            "Seratus empat puluh lima sumber. Ditulis untuk pembaca yang menginginkan bukti, bukan slogan.",
         ],
-        "back_head": "APA YANG DITUNJUKKAN CATATAN",
+        "back_head": "BAHAYANYA TIDAK BISA DIHENTIKAN. BENCANANYA BISA.",
         "pull": "Dunia yang siap bukan dunia tanpa bencana. Ia dunia tempat peristiwa yang sama menewaskan lebih sedikit orang.",
+        "cta": "Mulai dari halaman terakhir: lima pertanyaan yang mengubah buku ini menjadi rencana untuk jalan Anda sendiri.",
         "inside": [
-            "Mengapa sebuah siklon menewaskan 500.000 orang pada 1970 dan puluhan pada 2020 di pesisir yang sama",
+            "Mengapa sebuah siklon menewaskan hingga 500.000 orang pada 1970 dan puluhan pada 2020 di pesisir yang sama",
             "Gelombang panas yang menewaskan 70.000 orang Eropa pada 2003, dan yang lebih panas tetapi menewaskan 61.700 pada 2022",
             "Lembah Ahr, ketika prakiraannya benar dan 180 orang tetap meninggal",
             "Berapa biaya sebenarnya sebuah rencana aksi panas, daftar warga rentan, dan pos anggaran yang dilindungi",
@@ -187,8 +190,11 @@ def build(cfg):
     col_w = px(TRIM_W) - 2 * margin
 
     f_head = ImageFont.truetype(SERIF_B, px(0.225))
-    draw.text((x, y), cfg["back_head"], font=f_head, fill=ACCENT)
-    y += px(0.50)
+    head_lines = wrap(draw, cfg["back_head"], f_head, col_w)
+    for hl in head_lines:
+        draw.text((x, y), hl, font=f_head, fill=ACCENT)
+        y += px(0.295)
+    y += px(0.10)
     draw.line([x, y, x + px(0.7), y], fill=ACCENT, width=px(0.014))
     y += px(0.30)
 
@@ -211,10 +217,27 @@ def build(cfg):
     f_bio = ImageFont.truetype(SERIF_R, px(0.132))
     bio = cfg["bio"]
     bio_w = bc_x0 - x - px(0.25)
-    yb0 = H - px(BLEED) - px(1.42) - len(wrap(draw, bio, f_bio, bio_w)) * px(0.178)
+    bio_lines = wrap(draw, bio, f_bio, bio_w)
+    yb0 = H - px(BLEED) - px(1.42) - len(bio_lines) * px(0.178)
+
+    # ajakan bertindak: pita berlatar sedikit lebih terang, tepat di atas penulis
+    f_cta = ImageFont.truetype(SERIF_I, px(0.150))
+    pad_x, pad_y = px(0.24), px(0.20)
+    cta_lines = wrap(draw, cfg["cta"], f_cta, col_w - pad_x * 2)
+    cta_lh = px(0.206)
+    band_h = len(cta_lines) * cta_lh + pad_y * 2
+    band_y0 = yb0 - px(0.72) - band_h
+    draw.rectangle([x - pad_x, band_y0, x + col_w + pad_x, band_y0 + band_h],
+                   fill=(21, 37, 56), outline=ACCENT, width=max(2, px(0.010)))
+    yc = band_y0 + pad_y
+    for ln in cta_lines:
+        draw.text((x, yc), ln, font=f_cta, fill=(247, 205, 140))
+        yc += cta_lh
+    y_cta = band_y0
+
     draw.line([x, yb0 - px(0.2), x + px(0.6), yb0 - px(0.2)], fill=ACCENT, width=px(0.012))
     yb = yb0
-    for ln in wrap(draw, bio, f_bio, bio_w):
+    for ln in bio_lines:
         draw.text((x, yb), ln, font=f_bio, fill=(214, 220, 229))
         yb += px(0.178)
 
@@ -230,15 +253,22 @@ def build(cfg):
             y += px(0.216)
         y += px(0.075)
 
-    # kutipan penarik di tengah sampul belakang
-    f_q = ImageFont.truetype(SERIF_I, px(0.238))
-    qlines = wrap(draw, cfg["pull"], f_q, col_w - px(0.9))
-    qh = len(qlines) * px(0.330)
-    qy = int((y + (H - px(BLEED) - px(1.9) - qh)) / 2)
+    # kutipan penarik: huruf menyesuaikan ruang yang tersisa antara butir dan CTA
+    qy = y + px(0.55)
+    room = y_cta - px(0.95) - qy
+    q_size = 0.238
+    while q_size > 0.140:
+        f_q = ImageFont.truetype(SERIF_I, px(q_size))
+        qlines = wrap(draw, cfg["pull"], f_q, col_w - px(0.9))
+        q_step = px(q_size * 1.386)
+        qh = len(qlines) * q_step
+        if qh <= room:
+            break
+        q_size -= 0.008
     draw.line([x, qy - px(0.28), x + px(0.9), qy - px(0.28)], fill=ACCENT, width=px(0.014))
     for ln in qlines:
         draw.text((x + px(0.15), qy), ln, font=f_q, fill=(245, 247, 250))
-        qy += px(0.330)
+        qy += q_step
 
     f_sub = ImageFont.truetype(SERIF_I, px(0.140))
     yb = H - px(BLEED) - px(0.7)
