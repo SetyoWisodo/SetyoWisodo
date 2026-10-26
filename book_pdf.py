@@ -906,6 +906,16 @@ def split_blocks(lines):
     return blocks
 
 
+BACK_MATTER = (
+    # EN
+    "Checklists and Worksheets", "Glossary", "Analytical Caveats",
+    "Notes on Event Sources", "References", "Index", "About the Author",
+    # ID
+    "Ceklis dan Panduan", "Glosarium", "Catatan Analitis",
+    "Catatan Sumber Peristiwa", "Daftar Pustaka", "Indeks", "Tentang Penulis",
+)
+
+
 def render(md_path, out_pdf, lang="en", title=None):
     cfg = L[lang]
     blocks = split_blocks(parse_markdown(md_path))
@@ -914,7 +924,7 @@ def render(md_path, out_pdf, lang="en", title=None):
     index_terms, in_index = [], False
     for b in blocks:
         if b[0] == "h1":
-            in_index = bool(re.match(r"^(Appendix|Lampiran) C\b|^(Index|Indeks)$", b[1]))
+            in_index = bool(re.match(r"^(Index|Indeks)$", b[1]))
         elif b[0] == "li" and in_index:
             index_terms.append(b[1].strip())
     index_lookup = {t.lower(): t for t in index_terms}
@@ -1035,9 +1045,9 @@ def render(md_path, out_pdf, lang="en", title=None):
             if kind == "h1":
                 title_txt = val
                 pdf.ref_mode = bool(re.match(
-                    r"^(Appendix|Lampiran) D\b|^(References|Daftar Pustaka)$", title_txt))
-                pdf.index_mode = bool(re.match(
-                    r"^(Appendix|Lampiran) C\b|^(Index|Indeks)$", title_txt))
+                    r"^(Notes on Event Sources|Catatan Sumber Peristiwa)$"
+                    r"|^(References|Daftar Pustaka)$", title_txt))
+                pdf.index_mode = bool(re.match(r"^(Index|Indeks)$", title_txt))
                 pdf.chapter_title = title_txt
                 pdf.opening = True
                 pdf.add_page()
@@ -1068,8 +1078,7 @@ def render(md_path, out_pdf, lang="en", title=None):
                 li_buf.append(val)
                 if (index_re is not None and not getattr(pdf, "index_mode", False)
                         and not getattr(pdf, "ref_mode", False)
-                        and not re.match(r"^(Appendix|Lampiran|About the Author|Tentang Penulis)$",
-                                        pdf.chapter_title or "")):
+                        and (pdf.chapter_title or "") not in BACK_MATTER):
                     for m in index_re.finditer(val):
                         key = index_lookup.get(m.group(1).lower())
                         if key:
@@ -1083,8 +1092,7 @@ def render(md_path, out_pdf, lang="en", title=None):
                 draw_paragraph(pdf, val)
                 if (index_re is not None and not getattr(pdf, "index_mode", False)
                         and not getattr(pdf, "ref_mode", False)
-                        and not re.match(r"^(Appendix|Lampiran|About the Author|Tentang Penulis)$",
-                                        pdf.chapter_title or "")):
+                        and (pdf.chapter_title or "") not in BACK_MATTER):
                     for key in {index_lookup[m.group(1).lower()] for m in index_re.finditer(val)}:
                         if key:
                             for pg_i in range(start_pg, pdf.page + 1):

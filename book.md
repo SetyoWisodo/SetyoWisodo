@@ -5179,7 +5179,7 @@ A major expansion of adaptation finance would allow low-income countries to inve
 
 ---
 
-# Appendix A: Checklists and Worksheets
+# Checklists and Worksheets
 
 ## Master Emergency Checklist
 
@@ -5222,7 +5222,7 @@ This book is written to be argued with. When you contest or extend one of its cl
 - Ask who bears the cost and who is excluded by the policy proposed.
 - Check whether new evidence has overtaken the claim, and say so if it has.
 
-# Appendix B: Glossary
+# Glossary
 
 - Adaptation: Adjusting to actual or expected climate impacts.
 - Mitigation: Reducing greenhouse gas emissions.
@@ -5238,7 +5238,7 @@ This book is written to be argued with. When you contest or extend one of its cl
 - RCP: Representative Concentration Pathway.
 - Committed warming: Warming locked in by past emissions.
 
-# Appendix C: Analytical Caveats
+# Analytical Caveats
 
 **Heat deaths are estimates, not counts.** The 2003 European heatwave is usually given as about 70,000 excess deaths and the summer of 2022 as about 61,700. Both are modelled figures, produced by comparing observed deaths with what would have been expected, and both were revised after first publication. The direction of the comparison in Chapter 4 — a hotter summer with fewer deaths, because the institutions had changed — survives every published revision; the exact numbers do not.
 
@@ -5252,7 +5252,7 @@ This book is written to be argued with. When you contest or extend one of its cl
 
 **Damage estimates depend on the discount rate.** Two economists using the same data can reach very different costs of inaction because they weight the future differently. That is why the figures in Chapter 10 and Chapter 21 are presented as ranges rather than as single numbers.
 
-# Appendix D: Notes on Event Sources
+# Notes on Event Sources
 
 Figures for the named events used as cases in this book are drawn from the documentation below. Where an event figure appears in the text without a parenthetical citation, this list identifies its source.
 

@@ -801,8 +801,8 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("---")
     md.append("")
 
-# Lampiran A
-md.append("# Lampiran A: Ceklis dan Panduan")
+# Back matter: ceklis
+md.append("# Ceklis dan Panduan")
 md.append("")
 md.append("## Ceklis Darurat Utama")
 md.append("")
@@ -854,7 +854,7 @@ md.append("- Pertimbangkan berbagai jalur sosioekonomi (SSP).")
 md.append("- Sertakan dimensi keadilan dan kesetaraan.")
 md.append("- Perbarui klaim seiring munculnya bukti baru.")
 md.append("")
-md.append("# Lampiran B: Glosarium")
+md.append("# Glosarium")
 md.append("")
 gloss = [
  "Adaptasi: Menyesuaikan diri dengan dampak iklim yang aktual atau yang diharapkan.",
@@ -987,12 +987,12 @@ index_terms = sorted(set([
  "Titik kritis",
 ]))
 
-md.append("# Lampiran C: Catatan Analitis")
+md.append("# Catatan Analitis")
 md.append("")
 for _c in CAVEATS:
     md.append(_c)
     md.append("")
-md.append("# Lampiran D: Catatan Sumber Peristiwa")
+md.append("# Catatan Sumber Peristiwa")
 md.append("")
 md.append('Angka untuk peristiwa bernama yang dipakai sebagai studi kasus dalam buku ini diambil dari dokumentasi di bawah. Bila suatu angka peristiwa muncul dalam teks tanpa sitasi dalam kurung, daftar ini menunjukkan sumbernya.')
 md.append("")

@@ -35,7 +35,7 @@ FALLACY_PAT = {
 
 def split_book(path):
     raw = open(path, encoding="utf-8").read()
-    blocks = re.split(r"\n# (?=Chapter \d+|Bab \d+|Appendix|Lampiran|Preface|Prakata)", raw)
+    blocks = re.split(r"\n# (?=Chapter \d+|Bab \d+|Checklists and Worksheets|Glossary|Analytical Caveats|Notes on Event Sources|Ceklis dan Panduan|Glosarium|Catatan Analitis|Catatan Sumber Peristiwa|Preface|Prakata)", raw)
     out = []
     for b in blocks:
         head = b.split("\n", 1)[0].strip()

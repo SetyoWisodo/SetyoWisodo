@@ -5177,7 +5177,7 @@ Ekspansi besar pembiayaan adaptasi akan memungkinkan negara berpenghasilan renda
 
 ---
 
-# Lampiran A: Ceklis dan Panduan
+# Ceklis dan Panduan
 
 ## Ceklis Darurat Utama
 
@@ -5220,7 +5220,7 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 - Sertakan dimensi keadilan dan kesetaraan.
 - Perbarui klaim seiring munculnya bukti baru.
 
-# Lampiran B: Glosarium
+# Glosarium
 
 - Adaptasi: Menyesuaikan diri dengan dampak iklim yang aktual atau yang diharapkan.
 - Mitigasi: Mengurangi emisi gas rumah kaca.
@@ -5236,7 +5236,7 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 - RCP: Representative Concentration Pathway.
 - Pemanasan terkunci: Pemanasan yang terkunci dari emisi masa lalu.
 
-# Lampiran C: Catatan Analitis
+# Catatan Analitis
 
 **Kematian akibat panas adalah estimasi, bukan hitungan.** Gelombang panas Eropa 2003 biasanya disebut sekitar 70.000 kematian berlebih dan musim panas 2022 sekitar 61.700. Keduanya angka model, dihasilkan dengan membandingkan kematian teramati dengan yang diperkirakan terjadi, dan keduanya direvisi setelah terbit pertama kali. Arah perbandingan di Bab 4 — musim yang lebih panas dengan kematian lebih sedikit karena institusinya berubah — bertahan pada setiap revisi; angka persisnya tidak.
 
@@ -5250,7 +5250,7 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 
 **Estimasi kerugian bergantung pada tingkat diskonto.** Dua ekonom dengan data yang sama dapat menghasilkan biaya kelambatan yang sangat berbeda karena memberi bobot berbeda pada masa depan. Itulah sebabnya angka di Bab 10 dan Bab 21 disajikan sebagai rentang, bukan satu bilangan.
 
-# Lampiran D: Catatan Sumber Peristiwa
+# Catatan Sumber Peristiwa
 
 Angka untuk peristiwa bernama yang dipakai sebagai studi kasus dalam buku ini diambil dari dokumentasi di bawah. Bila suatu angka peristiwa muncul dalam teks tanpa sitasi dalam kurung, daftar ini menunjukkan sumbernya.
 

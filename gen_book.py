@@ -807,8 +807,8 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
     md.append("---")
     md.append("")
 
-# Appendix A
-md.append("# Appendix A: Checklists and Worksheets")
+# Back matter: checklists
+md.append("# Checklists and Worksheets")
 md.append("")
 md.append("## Master Emergency Checklist")
 md.append("")
@@ -860,7 +860,7 @@ md.append("- Ask which socioeconomic pathway and which warming level the claim a
 md.append("- Ask who bears the cost and who is excluded by the policy proposed.")
 md.append("- Check whether new evidence has overtaken the claim, and say so if it has.")
 md.append("")
-md.append("# Appendix B: Glossary")
+md.append("# Glossary")
 md.append("")
 gloss = [
  "Adaptation: Adjusting to actual or expected climate impacts.",
@@ -990,12 +990,12 @@ index_terms = sorted(set([
  "Tipping point",
 ]))
 
-md.append("# Appendix C: Analytical Caveats")
+md.append("# Analytical Caveats")
 md.append("")
 for _c in CAVEATS:
     md.append(_c)
     md.append("")
-md.append("# Appendix D: Notes on Event Sources")
+md.append("# Notes on Event Sources")
 md.append("")
 md.append('Figures for the named events used as cases in this book are drawn from the documentation below. Where an event figure appears in the text without a parenthetical citation, this list identifies its source.')
 md.append("")

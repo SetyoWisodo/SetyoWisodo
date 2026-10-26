@@ -183,7 +183,7 @@ Ini bukan satu skill terpisah, melainkan **lapisan penalaran** yang tersebar dan
 | Gate | Nama | Skill/protokol | Masukan | Keluaran | Blokir? |
 |---|---|---|---|---|---|
 | 0 | Inventaris | — | `book.md`, `book_id.md`, `REFS` | Daftar bab, sub-bab, tabel, klaim, rujukan | Tidak |
-| 1 | Integritas sumber & sitasi | `claim_verification` + `citation-check` | Semua sitasi dalam teks vs Appendix D | Daftar sitasi hilang/berlebih, DOI/tahun salah | **Ya** |
+| 1 | Integritas sumber & sitasi | `claim_verification` + `citation-check` | Semua sitasi dalam teks vs Notes on Event Sources + References | Daftar sitasi hilang/berlebih, DOI/tahun salah | **Ya** |
 | 2 | Audit fakta & angka | `deep-research` mode `fact-check` | 24 tabel skenario + DATA_POINTS | Setiap angka ↔ sumber; klaim tanpa sumber | **Ya** |
 | 3 | Audit argumen & logika | `logical_fallacies` + Toulmin + `claim_strength_ladder` | Paragraf argumentatif tiap bab | Fallacy, klaim berlebih, generalisasi, kausalitas palsu | **Ya** |
 | 4 | Panel review 5 kursi | `academic-paper-reviewer` mode `full` | Draf per bab / seluruh buku | 5 laporan + keputusan + roadmap | Tidak (advisory) |
@@ -191,7 +191,7 @@ Ini bukan satu skill terpisah, melainkan **lapisan penalaran** yang tersebar dan
 | 6 | Produksi & format | `format-convert` + `citation-check` | Naskah final | PDF/EPUB/DOCX, APA 7, daftar isi/tabel | **Ya** |
 | 7 | Pra-terbit | `disclosure` + `plagiarism_detection` + `reproducibility_audit` | Naskah final | Pernyataan AI, similaritas, audit reproduksi | **Ya** |
 
-Catatan: pada buku ini, "daftar pustaka" adalah **Appendix D**, dan setiap bab memakai sitasi `Nama (Tahun)`. Gate 1 dan 2 karena itu bisa dijalankan otomatis dari `book.md` + `GEN` + `REFS`.
+Catatan: pada buku ini, "daftar pustaka" adalah **References** (plus **Notes on Event Sources** untuk angka peristiwa), dan setiap bab memakai sitasi `Nama (Tahun)`. Gate 1 dan 2 karena itu bisa dijalankan otomatis dari `book.md` + `GEN` + `REFS`.
 
 ---
 

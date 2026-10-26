@@ -201,6 +201,27 @@ tertangkap auditor otomatis, semuanya sudah diperbaiki:
 Dampak paginasi: EN 412 → 430, ID 432 → 445 (gambar dan daftar gambar). Punggung sampul dihitung ulang
 otomatis (1,075 dan 1,113 inci). Semua auditor dijalankan ulang dan bersih.
 
+### 2.13 Halaman belakang tanpa label "Lampiran"
+
+Empat bagian penutup sebelumnya berjudul "Appendix A–D" / "Lampiran A–D". Label huruf itu dibuang
+karena tidak menambah informasi: tidak ada satu pun rujukan silang di dalam teks yang menunjuk
+"Appendix B", dan pembaca menemukan bagian itu lewat daftar isi serta kepala halaman berjalan.
+Judulnya sekarang berdiri sendiri, seperti pada buku-buku sejenis:
+
+| Sebelum | Sesudah |
+|---|---|
+| APPENDIX A: CHECKLISTS AND WORKSHEETS | **CHECKLISTS AND WORKSHEETS** |
+| APPENDIX B: GLOSSARY | **GLOSSARY** |
+| APPENDIX C: ANALYTICAL CAVEATS | **ANALYTICAL CAVEATS** |
+| APPENDIX D: NOTES ON EVENT SOURCES | **NOTES ON EVENT SOURCES** |
+
+Edisi Indonesia mengikuti pola yang sama (Ceklis dan Panduan, Glosarium, Catatan Analitis, Catatan
+Sumber Peristiwa). Dampak teknis yang ditangani: `book_pdf.py` sebelumnya mengenali bagian-bagian ini
+lewat awalan "Appendix"/"Lampiran" untuk menentukan mode daftar pustaka (hanging indent), mode indeks,
+dan pengecualian pemetaan indeks. Semuanya kini memakai daftar judul halaman belakang (`BACK_MATTER`)
+sehingga indentasi menggantung pada Notes on Event Sources dan References, serta penomoran halaman
+indeks, tetap bekerja. Paginasi tidak berubah: EN 430 hlm, ID 445 hlm.
+
 ---
 
 ## 3. Hasil pemeriksaan produksi

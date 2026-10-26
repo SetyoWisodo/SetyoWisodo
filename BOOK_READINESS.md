@@ -47,7 +47,7 @@ diselesaikan pemilik buku (ISBN, imprint/harga, izin kutipan) dan dua keterbatas
 | | EN | ID |
 |---|---|---|
 | Halaman | **430** | **445** |
-| Kata (`wc -w`) | 200.473 | 166.925 |
+| Kata (`wc -w`) | 200.465 | 166.917 |
 | Sitasi dalam teks | 402 | 351 |
 | Tabel / gambar | 25 / 11 | 25 / 11 |
 | EPUB | 53 berkas | 53 berkas |
