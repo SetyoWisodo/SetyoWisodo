@@ -34,6 +34,7 @@ Case Study and a Future Scenarios section that states what would falsify its own
 | `3d/*_3d_back.png` | 3D render from behind: the real back panel, barcode box removed |
 | `3d/*_3d_front_back.png` | Front and back in one frame, for stores that allow one gallery image |
 | `3d/pair_3d_square.png` | Both editions side by side in one frame |
+| `marketplace/` | Six 3000 px angles per edition + bundle lineup, for Amazon/Etsy/Gumroad |
 | `*_sample.pdf` | Free sample: full contents, preface, all of Chapter 1, one figure spread, closing page |
 | `sold/*.pdf` | Per-buyer copies with a licence page and a name on every page (git-ignored) |
 | `gumroad/` | Marketplace covers (2560×1440), thumbnails (1600×1600), profile avatar (800×800) and paste-ready listing copy |
@@ -65,6 +66,7 @@ cp Surviving_the_Future_ID.pdf book/publish/Bertahan_Hidup_di_Masa_Depan_ID_inte
 python make_publish.py                             # EPUB + DOCX
 python make_cover_front.py                         # front + ebook covers from the artwork
 python make_3d.py                                  # 3D renders for marketplaces
+python make_marketplace.py                         # final 3000 px marketplace photos
 python make_sample.py                              # free samples (35 / 37 pages)
 python personalize_pdf.py --edition id --name "Nama Pembeli" --order INV-001
 python make_gumroad.py                               # Gumroad covers + thumbnails
