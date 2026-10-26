@@ -66,15 +66,21 @@ menguntungkan: biaya tetap $0,50 hanya dipotong sekali, bukan dua kali.
 
 ### Setelah dipotong biaya
 
-Gumroad: **10% + $0,50** per transaksi langsung; **30%** kalau pembeli datang lewat
-Discover.
+Angka ini diambil dari halaman **Settings → Payments** akun Anda, bukan dari ringkasan
+pemasaran Gumroad:
 
-| Harga | Potongan | Bersih | Persen bersih |
-|---|---|---|---|
-| $14 | $1,90 | **$12,10** | 86% |
-| $11 | $1,60 | **$9,40** | 85% |
-| $19 | $2,40 | **$16,60** | 87% |
-| $14 lewat Discover | $4,20 | $9,80 | 70% |
+- **Penjualan langsung:** 10% + 50¢ (Gumroad) **+ 2,9% + 30¢** (biaya proses pembayaran)
+- **Penjualan lewat Discover:** 30% (biaya proses sudah termasuk)
+
+Artinya totalnya sekitar **12,9% + 80¢** per penjualan langsung, bukan 10%.
+
+| Harga | Gumroad | Proses | Bersih | Persen |
+|---|---|---|---|---|
+| $9 | $1,40 | $0,56 | **$7,04** | 78% |
+| $11 | $1,60 | $0,62 | **$8,78** | 80% |
+| $14 | $1,90 | $0,71 | **$11,39** | 81% |
+| $19 | $2,40 | $0,85 | **$15,75** | 83% |
+| $14 lewat Discover | $4,20 | termasuk | **$9,80** | 70% |
 
 Discover tetap menguntungkan: 70% dari penjualan yang tanpa Discover tidak akan ada.
 
@@ -89,9 +95,10 @@ Indonesia.
 - **Rekening bank lokal (IDR)** — cara utama, tanpa biaya perantara tambahan.
 - **PayPal** — cadangan, dibayar dalam USD, ada biaya 2% + konversi.
 - **Payoneer dan Wise tidak didukung.** Jangan direncanakan.
-- Saldo minimum pencairan tampil di **Settings → Payments** (Gumroad menyebut $10 di
-  halaman bantuannya, sebagian jadwal memakai $100 — cek angka yang muncul di akun Anda).
-- Penjualan ditahan sekitar 7 hari sebelum bisa dicairkan.
+- **Saldo minimum pencairan untuk Indonesia adalah $100** dan angkanya terkunci —
+  tidak bisa diturunkan. Dengan harga $14, butuh sekitar **9 penjualan** sebelum
+  dana pertama cair; dengan bundle $19, cukup **7 penjualan**.
+- Jadwal pembayaran: mingguan. Penjualan ditahan sekitar 7 hari sebelum bisa dicairkan.
 
 Karena Gumroad sejak 1 Januari 2025 berstatus **Merchant of Record**, PPN/VAT dan pajak
 penjualan di seluruh dunia ditangani mereka. Anda tidak perlu mendaftar VAT. Pajak
@@ -133,6 +140,9 @@ Produk 4 memakai `cover_sample_1_hero.png`, `thumb_sample.png`, harga $0.
 
 Kalau harga $0 ditolak, aktifkan **"Pay what you want"** dengan minimum $0 — efeknya
 sama, dan pembeli boleh memberi tip.
+
+**Buat produk 4 lebih dulu, sebelum yang berbayar.** Ia paling cepat jadi, paling
+kecil risikonya, dan URL-nya dibutuhkan untuk ditempel ke deskripsi produk 1-3.
 
 ### D. Setelah terbit
 
