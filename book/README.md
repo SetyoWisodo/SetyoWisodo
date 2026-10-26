@@ -36,7 +36,7 @@ Case Study and a Future Scenarios section that states what would falsify its own
 | `3d/pair_3d_square.png` | Both editions side by side in one frame |
 | `*_sample.pdf` | Free sample: full contents, preface, all of Chapter 1, one figure spread, closing page |
 | `sold/*.pdf` | Per-buyer copies with a licence page and a name on every page (git-ignored) |
-| `gumroad/` | Marketplace covers (2560×1440), thumbnails (1600×1600) and paste-ready listing copy |
+| `gumroad/` | Marketplace covers (2560×1440), thumbnails (1600×1600), profile avatar (800×800) and paste-ready listing copy |
 | `*_figures.zip` | Figure pack sold with the book: 11 figures at 300 dpi, captions, source lines, licence |
 | `book/cover/art_cover_v1.png` | Raw artwork for the front cover; `make_cover_front.py` composites artwork + typography |
 | `book/cover/SKILL_open_generative_ai.md` | The prompt-compiler skill (from Anil-matcha/Open-Generative-AI, MIT) used to write the cover prompt |

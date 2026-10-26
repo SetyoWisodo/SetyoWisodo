@@ -385,6 +385,34 @@ SAMPLE = dict(
 )
 
 
+def avatar(initials="SW", sub="Setyo Wisodo"):
+    """Foto profil 800x800: monogram, bukan sampul buku.
+
+    Memakai sampul akan mengikat akun ke satu judul; monogram tetap dipakai
+    saat buku berikutnya terbit."""
+    N = 800
+    img = Image.new("RGB", (N, N), NAVY)
+    d = ImageDraw.Draw(img)
+    for y in range(N):
+        t = y / N
+        d.line([(0, y), (N, y)],
+               fill=tuple(int(NAVY[i] + (NAVY_LO[i] - NAVY[i]) * t * 1.15) for i in range(3)))
+
+    # bingkai tipis
+    d.rectangle([36, 36, N - 36, N - 36], outline=(38, 54, 74), width=2)
+
+    f = F(SER_B, 250)
+    tw = d.textlength(initials, font=f)
+    d.text(((N - tw) / 2, 232), initials, font=f, fill=IVORY)
+
+    d.line([(N / 2 - 52, 545), (N / 2 + 52, 545)], fill=AMBER, width=5)
+
+    f2 = F(SAN_B, 34)
+    tw2 = d.textlength(sub, font=f2)
+    d.text(((N - tw2) / 2, 590), sub, font=f2, fill=MUTED)
+    return img
+
+
 def save(img, name, note):
     os.makedirs(OUT, exist_ok=True)
     p = os.path.join(OUT, name)
@@ -409,3 +437,4 @@ if __name__ == "__main__":
     save(thumb(ID), "thumb_id.png", "ID thumbnail")
     save(thumb(BUNDLE), "thumb_bundle.png", "Bundle thumbnail")
     save(thumb(SAMPLE), "thumb_sample.png", "Sample thumbnail")
+    save(avatar(), "profile_avatar.png", "Profile avatar")
