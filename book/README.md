@@ -36,6 +36,7 @@ Case Study and a Future Scenarios section that states what would falsify its own
 | `3d/pair_3d_square.png` | Both editions side by side in one frame |
 | `*_sample.pdf` | Free sample: full contents, preface, all of Chapter 1, one figure spread, closing page |
 | `sold/*.pdf` | Per-buyer copies with a licence page and a name on every page (git-ignored) |
+| `gumroad/` | Marketplace covers (2560×1440), thumbnails (1600×1600) and paste-ready listing copy |
 | `book/cover/art_cover_v1.png` | Raw artwork for the front cover; `make_cover_front.py` composites artwork + typography |
 | `book/cover/SKILL_open_generative_ai.md` | The prompt-compiler skill (from Anil-matcha/Open-Generative-AI, MIT) used to write the cover prompt |
 | `*.epub` | EPUB 3 ebook (title and copyright pages, nav + NCX + landmarks, accessibility metadata, XHTML tables with `th scope`, `<figure>` blocks with alternative text) |
@@ -65,6 +66,7 @@ python make_cover_front.py                         # front + ebook covers from t
 python make_3d.py                                  # 3D renders for marketplaces
 python make_sample.py                              # free samples (35 / 37 pages)
 python personalize_pdf.py --edition id --name "Nama Pembeli" --order INV-001
+python make_gumroad.py                               # Gumroad covers + thumbnails
 python make_cover.py                               # print wraps + build_report.json
 ```
 
