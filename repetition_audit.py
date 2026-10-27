@@ -77,12 +77,13 @@ def main():
     lines = ["# Pengulangan di Dalam Bab", "",
              "Ukuran: kemiripan kosinus antarparagraf dalam bab yang sama, dengan",
              "bobot IDF. Dihitung sebelum dan sesudah pass penyuntingan; angka",
-             "\"sebelum\" berasal dari `git show HEAD:` sehingga bisa diperiksa.",
+             "\"sebelum\" berasal dari `git show $BASELINE:` (baku: HEAD)",
              ""]
     rows = []
     for path in FILES:
         now = open(path, encoding="utf-8").read()
-        old = subprocess.run(["git", "show", f"HEAD:{path}"],
+        base = __import__("os").environ.get("BASELINE", "HEAD")
+        old = subprocess.run(["git", "show", f"{base}:{path}"],
                              capture_output=True, text=True).stdout
         i0, o0 = pairs(old)
         i1, o1 = pairs(now)
