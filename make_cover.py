@@ -40,7 +40,7 @@ BOOKS = [
             "almost always a decision rather than a fate. Heat, flood, drought, fire, food, water, "
             "migration, conflict: every chapter ends by naming the observation that would prove it wrong.",
             "Twenty-four chapters. Twenty-five data tables. Eleven figures. Twenty-four case studies. "
-            "One hundred and forty-five sources. Written for readers who want the evidence, not the slogan.",
+            "One hundred and seventy-two sources. Written for readers who want the evidence, not the slogan.",
         ],
         "back_head": "THE HAZARD CANNOT BE STOPPED. THE DISASTER CAN.",
         "pull": "A prepared world is not a world without disasters. It is a world in which the same event kills fewer people.",
@@ -63,7 +63,7 @@ BOOKS = [
         "out_pdf": "book/publish/Bertahan_Hidup_di_Masa_Depan_ID_cover_print.pdf",
         "pages": 432,
         "title": "BERTAHAN HIDUP DI MASA DEPAN",
-        "subtitle": "Krisis, Iklim, dan Resiliensi Manusia",
+        "subtitle": "Krisis, Iklim, dan Ketahanan Manusia",
         "author": "SETYO WISODO",
         "blurb": [
             "Lima tahun dari 2020 sampai 2024 adalah lima tahun terpanas yang pernah terukur. Pada 1970 "
@@ -76,7 +76,7 @@ BOOKS = [
             "banjir, kekeringan, kebakaran, pangan, air, migrasi, konflik: setiap bab ditutup dengan "
             "menyebut pengamatan yang akan membuktikannya salah.",
             "Dua puluh empat bab. Dua puluh lima tabel data. Sebelas gambar. Dua puluh empat studi kasus. "
-            "Seratus empat puluh lima sumber. Ditulis untuk pembaca yang menginginkan bukti, bukan slogan.",
+            "Seratus tujuh puluh dua sumber. Ditulis untuk pembaca yang menginginkan bukti, bukan slogan.",
         ],
         "back_head": "BAHAYANYA TIDAK BISA DIHENTIKAN. BENCANANYA BISA.",
         "pull": "Dunia yang siap bukan dunia tanpa bencana. Ia dunia tempat peristiwa yang sama menewaskan lebih sedikit orang.",

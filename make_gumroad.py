@@ -336,7 +336,7 @@ ID = dict(
     pdf=os.path.join(HERE, "Surviving_the_Future_ID.pdf"),
     kicker="Edisi bukti",
     title="Bertahan Hidup di Masa Depan",
-    sub="Krisis, Iklim, dan Resiliensi Manusia",
+    sub="Krisis, Iklim, dan Ketahanan Manusia",
     blurb="Dua puluh empat bab tentang panas, banjir, kekeringan, kebakaran, pangan, air, "
           "migrasi, dan konflik \u2014 untuk pembaca yang ingin bukti, bukan slogan.",
     stats=[("24", "bab"), ("145", "sumber"), ("445", "halaman")],

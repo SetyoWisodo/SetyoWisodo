@@ -32,7 +32,7 @@ Efeknya terhadap ketiga patokan:
 - **13,5% di bawah** median paperback Routledge
 - **18,2% di bawah** paperback terbitan universitas
 
-Dan dalam harga per halaman: $45 ÷ 430 = **$0,105/halaman**, dibanding patokan
+Dan dalam harga per halaman: $45 ÷ 447 = **$0,101/halaman**, dibanding patokan
 penerbit universitas $0,30 — sepertiga dari harga monograf akademik.
 
 Kalau ditanya "kenapa $45", jawabannya satu kalimat: *karena buku akademik
@@ -42,7 +42,7 @@ sejenis dijual $50 sampai $55, dan saya sengaja memasang di bawahnya.*
 
 ## 2. Prinsip: yang dibeli pertama kali bukan bukunya
 
-Pembeli pertama Anda tidak sedang membeli 201.000 kata. Ia sedang mengambil
+Pembeli pertama Anda tidak sedang membeli 207.000 kata. Ia sedang mengambil
 risiko $45 pada penulis yang belum dikenal, tanpa penerbit, tanpa satu pun ulasan.
 
 Diskon yang terlalu besar menjawab keraguan itu dengan salah: ia memberi tahu
@@ -205,7 +205,7 @@ Di atas $8 → naikkan harga ke $55 dan ulangi sebulan.
 - **Jangan mengumumkan "harga naik besok"** lalu tidak menaikkannya. Sekali
   berbohong soal harga, semua angka Anda kehilangan arti.
 - **Jangan menurunkan harga ID di bawah $15.** Di bawah itu, biaya tetap $0,80
-  memakan 20% dari penerimaan, dan Anda menjual 445 halaman lebih murah
+  memakan 20% dari penerimaan, dan Anda menjual 462 halaman lebih murah
   daripada satu kopi di kafe.
 - **Jangan pakai kata "diskon" di judul halaman produk.** Halaman menjual
   buku. Kode yang menjual harga.

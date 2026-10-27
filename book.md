@@ -247,6 +247,8 @@ The difference between the first and third rows is about half a degree by 2050 a
 
 What would change these projections? A faster collapse in the cost of storage would make the first row more likely; a sustained failure of international cooperation would make the third more likely. A large release of methane from permafrost or a faster loss of Antarctic ice would push all three rows upward. The one thing that would not change them is better forecasting: the projections already incorporate the best available science, and the uncertainty that remains is dominated by choices, not by ignorance.
 
+Put this chapter's projection to a test that a reader can run. The central claim is that the multi-year average crosses 1.5 °C in the 2030s while individual years cross it in the 2020s: on that claim, the five-year average for 2026–2030 should sit between 1.35 and 1.5 °C, and the average for 2036–2040 should exceed 1.5 °C, within the range assessed for these scenarios (IPCC, 2021). The assumption is that emissions keep falling no faster than current policies imply; a faster fall would not stop the crossing, only delay it by a few years. If the five-year average stays below 1.3 °C through 2035, this chapter's framing is wrong and the low-sensitivity row of Table 1.1 deserves to be the default. The three numbers to watch are the annual global mean anomaly, atmospheric carbon dioxide concentration, and the fossil share of primary energy; all three are published every year, and all three move before the damage does. 
+
 ---
 
 # Chapter 2: The Physical Science of Global Warming
@@ -450,6 +452,8 @@ What would change these numbers is worth stating as plainly as the numbers thems
 
 For the reader, the practical implication is a shift in attention. The question is no longer whether the physics is settled; it is which of three trajectories is being followed, and how quickly the answer becomes visible. That question is answered not by climate models but by the energy system, which is the subject of the chapters that follow.
 
+The trajectories in Table 2.1 can be checked against three physical records, and the check is cheap. On the central path, warming should reach about 1.5 °C by the early 2030s and sea level should rise at roughly five millimetres a year by 2040, up from the present rate (IPCC, 2021); ocean heat content should keep setting records in most years, because the ocean absorbs the bulk of the imbalance. The assumption is that climate sensitivity sits near the assessed range rather than at its upper end. If the observed warming rate for 2025–2040 falls materially below the model average while concentrations keep rising, then the central estimate in this chapter is wrong. The numbers worth watching are the global mean temperature, ocean heat content in the upper two thousand metres, and the satellite record of sea level; each is updated monthly, and each is harder to dispute than a single hot year. 
+
 ---
 
 # Chapter 3: Climate Systems, Feedbacks and Monitoring
@@ -644,6 +648,8 @@ The possibility that matters most for this chapter is not a gradual trend but a 
 Two implications matter for decisions. The first is that monitoring is not a scientific luxury but an early-warning system for the planet: the sooner a threshold is detected, the more options remain. The second is that the standard tools of cost-benefit analysis are poorly suited to a system with thresholds, because they average over outcomes that are not interchangeable. A small probability of an irreversible change is not equivalent to a larger probability of a recoverable one, and any appraisal that treats them as equivalent will systematically underinvest in prevention.
 
 A clear, sustained weakening of the overturning circulation would raise the urgency of every adaptation decision in Europe and West Africa. A decade without further Arctic sea-ice decline would suggest that the system is more resilient than the models assume. Neither is likely to be decisive on its own, and that is the nature of a system observed at the pace of decades: the evidence arrives slowly, and the decisions cannot wait for it.
+
+For a chapter about thresholds, a prediction should name the observation that would show a threshold approaching. The testable claim here is that the interval between disturbances keeps shortening faster than the systems recover: bleaching events should recur at intervals below six years through the 2030s, September Arctic sea ice should continue its decline at several per cent per decade, and the overturning circulation should weaken within the range already measured, without abrupt collapse before 2050. That last point is the assumption as much as the prediction. If a decade passes without further Arctic ice loss, or if the circulation index recovers to its 1990s range, this chapter's account of accumulating commitment is too pessimistic. The numbers to watch are September ice extent, the RAPID circulation index, and the mass balance of the Greenland and Antarctic sheets. 
 
 ---
 
@@ -850,6 +856,8 @@ The useful way to think about future heat is not the global average but the numb
 The evidence supports two conclusions. The first is that heat risk is not determined by temperature alone: the same number of hot days produces very different mortality depending on housing, water, power and social protection. The second is that the largest gains come from interventions that are boring and cheap — shade, water, warnings, check-ins on elderly neighbours — rather than from technologies that are expensive and unproven. A city that does the boring things well can save thousands of lives at 1.5°C and still save many at 2.5°C, though the margin narrows (Iungman et al., 2023).
 
 A breakthrough in cheap, efficient cooling would reduce mortality in hot countries but would increase electricity demand and emissions unless it were paired with clean generation. A collapse of the power grid during a heatwave would turn a manageable event into a catastrophe, as happened in Texas in 2021 and in India in 2012. And a wet-bulb event above the physiological threshold would create a situation in which adaptation is impossible and only evacuation remains.
+
+Heat is the hazard where a prediction can be counted in bodies, and that makes it checkable. The claim is that mortality per hot day keeps falling in cities that invest and rises in cities that do not, so that the same summer produces very different counts across the six cities of Table 4.1 by 2050; in the investing cities, deaths per degree of anomaly should be lower in 2040 than in 2020, the direction the burden estimates of Iungman et al. (2023) support, while days above 35 °C double — the threshold this chapter treats as the planning point for outdoor work (IPCC, 2021). The assumption is that cooling, shade, warnings and check-ins are financed at something like the present rate. If deaths per degree rise in cities that built heat plans and stockpiled cooling, the adaptation argument of this chapter fails. Watch excess summer mortality, days above 35 °C, and the share of households with a working cooling option. 
 
 ---
 
@@ -1060,6 +1068,8 @@ The water gap of 2050 will be determined less by total rainfall than by the inte
 Two lessons emerge from this. The first is that the gap is largest in basins where agriculture dominates and groundwater is unregulated, which means that the most important interventions are agricultural rather than urban. The second is that the gap can be closed with existing technology; the obstacle is the political cost of reallocating water from one user to another. A basin that caps withdrawals will produce less in the short term, and the farmers who lose water will resist.
 
 A breakthrough in cheap desalination would expand supply for coastal cities but not for inland agriculture. A change in diet toward less water-intensive food would reduce demand substantially, since meat and dairy require far more water per calorie than grains. And a sustained increase in precipitation in some basins, which some climate projections suggest, would relieve pressure in those places — but the same projections show declines in others, and the uncertainty is largest where the stakes are highest.
+
+The water chapter predicts a gap, so the test is whether the gap opens at the predicted rate. The claim is that basins in Table 5.1 will show withdrawals exceeding sustainable supply in more years than not by 2035, and that the shortfall will appear first in groundwater rather than in rivers, because aquifers are where the unmeasured abstraction happens. The assumption is that irrigation efficiency improves no faster than it has since 2000. If monitored basins show stress falling while withdrawals rise, the accounting in this chapter is wrong. The numbers to watch are groundwater levels in the index wells, the share of treated wastewater reused, and the price of water in the cities that already ration; the first is the earliest signal, and it is also the one most often suppressed. 
 
 ---
 
@@ -1272,6 +1282,8 @@ The coast of 2100 will be determined by emissions in this century and by ice she
 There are two consequences here. First, the dominant variable in many cities is not global sea level rise but local subsidence, which is caused by human decisions and can be slowed or stopped. Second, the cost of adaptation rises faster than the sea, because each increment of rise requires a larger and more expensive defence, and because the probability of failure increases as the design threshold is approached.
 
 A collapse of the West Antarctic ice sheet would make the high-end projections much more likely and would shift the policy focus from protection to retreat. A breakthrough in cheap, large-scale pumping or in floating construction could allow some cities to remain in place longer. And a reduction in emissions would slow the rise, but it would not stop it, because the ocean and the ice sheets respond over centuries. For coasts, mitigation determines the speed of the emergency; adaptation determines whether the city survives it.
+
+Coastal risk is testable because the water arrives on a schedule. The claim is that the one-in-a-hundred-year flood of the twentieth century becomes a one-in-thirty-year flood in the exposed cities of Table 6.1 by 2050, and that in cities where subsidence continues, the change arrives a decade or two earlier than the global sea-level record alone would suggest. The assumption is that groundwater extraction continues at the present rate in the subsiding cities and that no new defences are built. If the observed frequency of the design flood in those cities does not rise over the next two decades, this chapter overstates the exposure. Watch the tide-gauge record corrected for land motion, the frequency of nuisance flooding at high tide, and the insured value of coastal property. 
 
 ---
 
@@ -1489,6 +1501,8 @@ Two points deserve emphasis. First, the crops that feed the poorest people are t
 
 A breakthrough in heat-tolerant varieties, or in the efficiency of photosynthesis, would reduce the losses, but it would take a decade or more to reach farmers. A shift toward plant-based diets in high-income countries would reduce demand for feed grains and free land for human food. And a sustained increase in investment in irrigation, storage and rural roads would reduce the post-harvest losses that currently account for a large share of the gap. The most important variable, however, is emissions: the difference between 1.5°C and 3°C is the difference between a food system that can adapt and one that cannot (FAO, 2023).
 
+The food prediction is the one that reaches a reader's kitchen soonest, and it is the easiest to check. The claim is that yield losses per degree of warming stay within the ranges in Table 7.1, so that global production keeps rising while regional deficits widen, and that the visible symptom by 2035 is not scarcity but price spikes following export restrictions. The assumption is that trade stays open most of the time and that heat-tolerant varieties spread at the present rate. If global yields fall for several consecutive years while prices stay calm, the mechanism described here is wrong. Watch the food price index, the number of export restrictions in force, and the gap between yields in temperate and tropical regions. 
+
 ---
 
 # Chapter 8: Ecosystems and Biodiversity Loss
@@ -1698,6 +1712,8 @@ The living world of 2100 will not be a depleted version of the one we know; it w
 The analysis points to two conclusions. First, the difference between 2°C and 3°C is the difference between a world where coral reefs survive in reduced form and one where they are largely gone, and between a forest that stores carbon and one that releases it (IPCC, 2018). Second, the loss is not evenly distributed: tropical ecosystems, which hold the most biodiversity and support the most vulnerable people, are the most exposed.
 
 A rapid reduction in deforestation would buy time for the Amazon and reduce emissions. A breakthrough in coral restoration, or the discovery of heat-tolerant symbionts, could preserve some reefs, but it would not restore the physical structure at scale. And a change in the fire regime — through better management and less ignition — would reduce the conversion of forest to savannah. None of these substitutes for emission reduction, but together they can reduce the rate of loss while the climate policy is negotiated.
+
+Ecosystem predictions are hard to falsify because recovery can look like resilience, so this chapter commits to a specific test. The claim is that bleaching recurs faster than reefs can rebuild, so that coral cover in the Indo-Pacific fails to recover to its pre-2016 level in any decade before 2050, and that the interval between global bleaching events stays below six years. The assumption is that warming follows the middle path rather than the high one. If cover returns to its earlier level and holds for five years, the recovery argument wins and this chapter is too pessimistic. The numbers to watch are degree-heating weeks, live coral cover on the long-term survey reefs, and the annual area burned in the boreal and Amazon regions. 
 
 ---
 
@@ -1917,6 +1933,8 @@ The evidence supports two conclusions. First, the health burden is dominated by 
 
 A breakthrough in dengue vaccines or in gene-drive mosquito control could reduce transmission substantially. A rapid expansion of clean energy would reduce air pollution and heat simultaneously. And a strengthening of primary health care in low-income countries would improve the response to every climate-sensitive disease. None of these is a substitute for emission reduction, but each would reduce the human cost of the warming that is already committed.
 
+Health effects arrive early and are counted late, which is why the test should be set in advance. The claim is that climate-sensitive disease expands before climate-attributable mortality becomes visible in national statistics: dengue cases in the Americas should exceed the 2024 record at least once in the 2030s, and heat deaths among people over 65 should keep rising in absolute terms even where rates per degree fall. The assumption is that surveillance improves at the present rate, so a rise in reported cases means more disease rather than better counting. If cases fall while mosquito habitat expands, this chapter is wrong about the mechanism. Watch reported dengue and malaria cases, the share of health facilities with reliable power, and excess mortality in heat seasons. 
+
 ---
 
 # Chapter 10: Economic Impacts and Financial Resilience
@@ -2129,6 +2147,8 @@ The economic future of the next three decades is likely to be dominated less by 
 Two lessons emerge from this. First, the difference between the low and high pathways is measured in percentage points of global GDP, which is to say in trillions of dollars and in hundreds of millions of people pushed into poverty. Second, the losses are not a future that arrives in 2050; they accumulate year by year, and the countries that are least able to adapt are already paying the highest share (UNDRR, 2023).
 
 A rapid diffusion of cheap clean energy would reduce both the physical damage and the transition risk, and it is already happening faster than most models assumed. A breakthrough in adaptation finance — through reform of multilateral institutions, debt relief or new levies — would reduce the burden on the poorest countries. And a change in the discount rate used by governments would make long-term damages look larger and justify more investment now. None of these is certain, but the direction of the economics is: delay costs more than action.
+
+The economics chapter predicts a bill, so the test is whether the bill arrives. The claim is that losses grow faster than the economy because exposure grows faster than protection, and that the gap between total losses and insured losses widens rather than closes; by 2035 the uninsured share of catastrophe losses should still be above half in the exposed middle-income countries discussed here. The assumption is that insurance penetration grows slowly and that public contingent liabilities remain uncapped. If insured losses grow faster than total losses for a decade, the protection gap is closing and the arithmetic in this chapter is wrong. Watch the annual count of billion-dollar events, the insured share of losses, and the cost of sovereign borrowing in exposed countries. 
 
 ---
 
@@ -2346,6 +2366,8 @@ There are two consequences here. First, the scale of climate migration is large 
 
 A rapid reduction in emissions would reduce the number of people who are forced to move, but it would not eliminate the movement that is already committed by the warming that has occurred. A major expansion of adaptation finance would allow more people to remain in place. And a shift in public opinion in receiving countries would make legal pathways more feasible, which would reduce the human cost of movement even if the number of movers did not change.
 
+Migration is predicted with wide ranges, and the honest test is about composition rather than totals. The claim is that displacement over the next decades is mostly internal and mostly short-distance, so that the number of cross-border climate refugees grows much more slowly than the number of people displaced inside their own countries; the projections in Table 11.1 should hold within their ranges for internal movement while international asylum claims rise only modestly. The assumption is that no new legal pathway is created at scale. If cross-border movement grows faster than internal movement, then the model in this chapter is wrong about how households move. Watch disaster displacements, remittance flows, and the number of bilateral agreements of the Falepili kind. 
+
 ---
 
 # Chapter 12: Conflict, Security and Stability
@@ -2561,6 +2583,8 @@ The conflict risk of the next three decades will be concentrated in a set of reg
 Two points deserve emphasis. First, the risk of climate-driven conflict is concentrated in places that are already fragile, which means that prevention must be targeted rather than universal. Second, the most effective prevention is development: secure land rights, functioning water institutions, social protection and accountable local government reduce the competition that turns scarcity into violence.
 
 A major peace agreement in a fragile region could reduce the risk substantially, as could a sustained improvement in governance. A prolonged global recession could reduce the resources available for adaptation and increase the risk. And a rapid reduction in emissions would reduce the frequency of the shocks that trigger conflict, though it would not eliminate the underlying vulnerabilities that make conflict possible.
+
+Conflict is where prediction is most dangerous, so this chapter's test is narrow. The claim is not that warming causes war but that it raises the risk of low-level violence in places that are already fragile, and the testable part is timing: in the regions of Table 12.1, local clashes and riots should follow climate shocks within one or two seasons, and should be muted where local institutions mediate disputes. The assumption is that food prices and pasture condition transmit the shock to households before it reaches the state. If violence rises in years of good rainfall and falls in drought years, then the mechanism described in this chapter is wrong. The number that makes it checkable is the count of people in need of assistance: in the fragile regions of Table 12.1 it should rise in drought years and fall in wet ones, by a margin visible in the published appeals and not only in the news. Watch staple prices, pasture condition, and the number of people in need of assistance in the fragile regions. 
 
 ---
 
@@ -2780,6 +2804,8 @@ The analysis points to two conclusions. First, the highest returns come from the
 
 A large public investment programme could close the maintenance gap, but it would require political decisions that are difficult in countries with constrained budgets. A breakthrough in cheap distributed energy could reduce the vulnerability of power systems, but it would not solve the water and transport problems. And a change in building codes could improve new construction, but it would not address the existing stock. The most important variable is the same as in other chapters: the speed of emission reduction determines how much adaptation is needed, and the speed of adaptation determines how much damage the committed warming causes.
 
+Infrastructure fails on a schedule that can be audited, and that is what makes this prediction useful. The claim is that the dominant failure of the next two decades will be cascading rather than catastrophic: outages, boil-water notices and closed roads that follow a hazard and turn it into a public health event, as in Texas, Puerto Rico and the Ahr valley; by 2035 the number of such notices should rise faster than the number of storms. The assumption is that maintenance budgets stay at present levels and that standards are not revised. If failure rates fall while the hazard intensifies, then this chapter's prediction is wrong. The threshold that makes the claim checkable is a rise of at least half in outage minutes per customer between 2025 and 2035 in systems that keep present maintenance budgets, and a rise of at least a third in boil-water notices within 10 years. Watch outage minutes per customer, water losses in distribution, and the share of critical facilities with on-site power. 
+
 ---
 
 # Chapter 14: Climate Literacy and Education
@@ -2996,6 +3022,8 @@ The evidence supports two conclusions. First, climate literacy is a precondition
 
 A rapid expansion of teacher training would improve the quality of climate education even without curriculum reform. A shift toward online and community-based learning could reach students in areas where schools are closed, though it would not replace the social function of schooling. And a change in assessment policy could make climate content a core part of what is taught, rather than an optional extra. As in other chapters, the pace of emission reduction is what counts, because it determines how much adaptation the next generation will need to learn.
 
+Education is the slowest lever in the book, so its predictions are about generations rather than years. The claim is that climate literacy improves where curricula change and teachers are trained, and stagnates where a mandate is issued without either; by 2035 the gap between countries that trained teachers and those that only added hours should be visible in what students can do rather than in what they have heard. The assumption is that assessment eventually follows the curriculum. If measured literacy rises just as fast in countries that added no teacher training, this chapter overstates the constraint. Watch school days lost to hazards, the share of national curricula that mention climate, and the share of teachers trained to teach it. 
+
 ---
 
 # Chapter 15: Data, Statistics and Misinformation
@@ -3208,6 +3236,8 @@ Two lessons emerge from this. First, misinformation is a disaster-risk multiplie
 
 Regulation that requires platforms to disclose how they rank content could reduce the amplification of falsehood, though enforcement across borders is difficult. Cheap and reliable provenance systems — cryptographic signatures on images and video — could restore part of the evidentiary value of a photograph. And a sustained investment in local journalism could rebuild the institutions that once filtered rumour. The most important variable remains the same as elsewhere: the pace of climate change determines how often the information system will be tested, and the quality of that system determines how many people survive the test.
 
+The information chapter predicts a contest between evidence and volume, and the test is whether evidence holds. The claim is that the scientific consensus stays above ninety per cent while public belief moves independently of it, so that the gap between expert agreement and public certainty is the number that matters; synthetic text and images should make the volume of false claims rise faster than the volume of corrections through the 2030s. The assumption is that platform policy changes slowly and that no labelling regime becomes mandatory. If public certainty converges on the expert consensus without any change in policy, this chapter's model of the information environment is wrong. The measurable version: the consensus should stay above 90 per cent of papers through 2035, continuing the level that reviews of 2012–2020 already put above 99 per cent (Lynas et al., 2021), while the share of adults who name climate as a top national concern should move less than five points over the same period despite the increase in extreme events. Watch the consensus studies, survey measures of belief, and the correction rate on major platforms. 
+
 ---
 
 # Chapter 16: Household Preparedness: Water, Food, Shelter and Risk
@@ -3419,6 +3449,8 @@ Household preparedness in 2050 will be shaped by two changes that are already vi
 There are two consequences here. First, household preparedness is a form of adaptation that individuals can act on immediately, which makes it psychologically as well as practically valuable. Second, it cannot substitute for public systems: households without safe water or reliable power cannot store their way out of a systemic failure, and policy that expects them to do so transfers risk onto those least able to carry it.
 
 Subsidised preparedness goods and insurance incentives could close the income gap in stockpiles. Building codes that require water storage, safe rooms and backup power in new housing would embed preparedness in the structure rather than in individual effort. And community programmes that map vulnerable residents and organise mutual aid could compensate for the erosion of social connection. The most important variable remains the pace of climate change, which determines how often households will need to rely on their own supplies, and how long they will have to last.
+
+Household preparedness is measurable and therefore falsifiable, which is rare in this book. The claim is that the difference between households that cope and households that do not is concentrated in three things — stored water, documents and a contact plan — and that the share of households meeting the seventy-two-hour standard rises only where governments or employers pay for it; by 2035 that share should still be below half in most of the cities discussed here. The assumption is that no country makes preparedness compulsory. If the standard is widely met without subsidy or requirement, this chapter's account of household behaviour is wrong. Watch the share of households with three days of water, the share with documents copied, and the share that received a warning they understood. 
 
 ---
 
@@ -3642,6 +3674,8 @@ Two points deserve emphasis. First, health is where climate change is most direc
 
 A rapid expansion of primary care and community health workers would improve resilience even without new infrastructure. Heat action plans that reach isolated elderly people could cut mortality substantially at low cost. And a shift in finance toward health adaptation could close the gap between need and provision. The most important variable remains the pace of emission reduction, because it determines how much adaptation the health system will have to deliver, and how many people will need care that cannot be provided.
 
+Health systems fail quietly before they fail visibly, so the test is set on the quiet indicators. The claim is that excess deaths in heat and flood events track the resilience of the receiving system rather than the severity of the hazard: hospitals with on-site power and staff trained in surge protocols should record lower mortality in comparable events, and the gap between the best and worst prepared systems should widen through the 2030s. The assumption is that health spending grows roughly with national income. If mortality in well-prepared systems rises as fast as in unprepared ones, the adaptation argument in this chapter fails. Watch facility power reliability, the share of the population covered by essential services, and excess mortality in event seasons. 
+
 ---
 
 # Chapter 18: Social Capital, Mutual Aid and Governance
@@ -3861,6 +3895,8 @@ The governance of 2050 will be judged by whether it can make a decision quickly 
 The analysis points to two conclusions. First, governance is a determinant of survival, not a background condition; the difference between a well-organised response and a disorganised one is measured in lives. Second, the reforms that matter most are unglamorous: clear authority, adequate local finance, transparent procurement, and practised procedures.
 
 A sustained investment in local government capacity would improve response even without new technology. Universal social protection would reduce the exclusion that leaves the poorest without help. And stronger regional cooperation could compensate for weak national capacity in small states. The most important variable remains the pace of climate change, which determines how often institutions will be tested, and whether they have time to learn between tests.
+
+Social capital is the hardest thing in this book to measure and the easiest to observe after an event. The claim is that recovery speed depends on the density of neighbourhood ties more than on the size of the aid budget, so that communities with organised mutual aid return to normal faster at equal damage; the comparison between the response to Hurricane Katrina and the Kerala floods is the reference case. The assumption is that no authority suppresses independent organisation. If recovery time tracks money alone, with no independent effect of association, this chapter's central claim is wrong. The test is a comparison of two districts with similar damage and different levels of organisation: the better-organised one should restore water, power and schooling in about half the time, within 12 months rather than 24 months, and the gap should not disappear when incomes are held equal. Watch volunteer turnout, the number of active community organisations per district, and the time to restore services after an event. 
 
 ---
 
@@ -4085,6 +4121,8 @@ The evidence supports two conclusions. First, the energy transition is now prima
 
 A breakthrough in long-duration storage would reduce the need for backup generation and make high-renewable grids cheaper. A rapid expansion of grid investment in low-income countries would unlock demand that is currently constrained by unreliable supply. And a sustained decline in battery and mineral costs would make electrification of transport and heating faster. What decides the outcome is the pace of policy and investment, because the technology is already available and the cost curve is already falling.
 
+Energy is the one arena where the direction of travel is nearly certain and the rate is not, so the test is about rate. The claim is that solar and wind keep growing faster than most official forecasts, that battery costs keep falling, and that access for the roughly 700 million people without electricity counted by the IEA (2023) improves slowly unless off-grid finance is subsidised; by 2035 solar should exceed the capacity assumed in today's national plans. The assumption is that manufacturing capacity keeps expanding and that grid connection does not become the binding constraint. If deployment stalls while module prices fall, the barrier is institutional and this chapter has the wrong culprit. Watch annual capacity added, battery pack prices, and the access rate in sub-Saharan Africa. 
+
 ---
 
 # Chapter 20: Climate Psychology and Mental Health
@@ -4308,6 +4346,8 @@ Two lessons emerge from this. First, mental health is a climate impact in its ow
 
 A large expansion of community mental health workers would close part of the treatment gap at modest cost. Integrating psychosocial support into disaster response would reduce chronicity. And addressing the material drivers of distress — housing, debt, displacement — would reduce the incidence of disorder in the first place. How fast the climate changes remains the decisive factor, because it determines how many people will experience loss, and how much support they will need.
 
+Mental health predictions are usually too vague to test, so this one is tied to a number. The claim is that the treatment gap narrows only where mental health is integrated into primary care and disaster planning, and that climate anxiety among young people rises even where services improve, because it tracks the hazard rather than the treatment; by 2035 the workforce per hundred thousand should still be far below need in most of the countries discussed here. The assumption is that financing grows at the present rate. If measured distress falls while the hazard worsens and services do not expand, this chapter overstates the burden. The number to settle it is the treatment gap: it should narrow by no more than a quarter in the 10 years to 2035 in countries that do not integrate mental health into primary care, and by more than that where they do. Watch the treatment gap, mental health workers per hundred thousand, and the share of disaster plans that include psychosocial support. 
+
 ---
 
 # Chapter 21: Governance, Justice and Civic Engagement
@@ -4528,6 +4568,8 @@ The variable that separates the two versions is not the size of the fund but the
 There are two consequences here. First, justice is not a moral add-on to climate policy but a condition of its effectiveness, because cooperation depends on a fair distribution of burdens. Second, the instruments that exist are inadequate in scale, and the gap between principle and practice is the central problem of climate governance.
 
 A substantial expansion of loss and damage finance, funded by levies on fossil fuel extraction or shipping, would close part of the gap. Reform of multilateral banks and debt relief would create fiscal space for adaptation. And stronger civic participation would make governments more accountable for their promises. How fast the climate changes remains the decisive factor, because it determines the scale of harm that must be shared, and whether the institutions of justice can keep pace.
+
+Justice is the arena where prediction is a political statement, so this chapter commits to measurements rather than outcomes. The claim is that litigation and loss-and-damage finance grow faster than mitigation ambition, that the number of climate cases keeps rising through the 2030s, and that the funds pledged remain small relative to assessed needs; the ratio of pledged to assessed loss and damage should stay below a tenth through this decade. The assumption is that no binding liability regime is created. If pledged finance approaches assessed needs while litigation declines, then this chapter is wrong about the direction of the regime. The checkable ratio is disbursed loss-and-damage finance against assessed needs: it should stay below one part in ten through 2035 while the case count keeps rising past two thousand filings. Watch the case count, the disbursed share of pledged funds, and the per-capita allocation of the remaining carbon budget. 
 
 ---
 
@@ -4756,6 +4798,8 @@ The future of disaster cases is that the events will be less classifiable and th
 Two points deserve emphasis. First, the same hazard produces very different outcomes depending on exposure, vulnerability and governance, which means that most disaster deaths are preventable in principle. Second, the cases that are most instructive are not the largest but the most diagnostic: they reveal which systems failed and why.
 
 A rapid expansion of heat action plans and cooling infrastructure would reduce deaths from the hazard that is growing fastest. Investment in drainage and floodplain management would reduce urban flood losses. And better data on informal settlements would make visible the people who are currently absent from official risk maps. How quickly the warming proceeds remains decisive, because it determines how far beyond historical experience future extremes will go.
+
+The comparative chapters earn their place only if they yield a forecast, so here it is. The claim is that compound and cascading events, not single hazards, produce the largest losses in wealthy countries over the next two decades, and that deaths per event keep falling in places that invest in warning and social protection while rising in places that do not; the cases assembled here — Texas, Lytton, the Ahr valley, Seoul, Camp Fire — should be read as the templates rather than the outliers. The assumption is that no single event exceeds the design limits of a nuclear or dam facility. If the largest losses come from single-hazard events with no cascade, the framing here is wrong. The testable pattern is that at least half of the ten costliest events of the next decade should involve two or more systems failing together, and that deaths per event should keep falling in countries that score well on the readiness measures in Chapter 24. Watch the count of billion-dollar events, deaths per event, and recovery time to pre-disaster service levels. 
 
 ---
 
@@ -4988,6 +5032,8 @@ Food and water security in 2050 will be determined by the intersection of three 
 The analysis points to two conclusions. First, food and water crises are preventable with existing knowledge and resources; what fails is political will, access and timing. Second, slow emergencies require long-term investment in water, social protection and peace, because relief alone cannot reverse the depletion of aquifers or the collapse of livelihoods.
 
 Pre-arranged finance for early action would reduce the gap between warning and response. Investment in groundwater recharge and irrigation efficiency would reduce exposure to drought. And conflict resolution would remove the factor that turns a bad harvest into a famine. How quickly the warming proceeds remains decisive, because it determines how often the systems will be tested, and whether they will have time to recover between shocks.
+
+Slow-onset crises are the ones where early warning has the most value and the least political reward, so the test is about timing. The claim is that famine declarations keep arriving after the evidence, as in Somalia in 2011, and that the gap between the first warning and the first large payment narrows only where finance is pre-arranged; by 2035 anticipatory disbursement should exceed post-declaration appeals in the countries that adopted it in this decade. The assumption is that access to contested areas can be negotiated in advance. If declarations come before the crisis peaks in countries without pre-arranged finance, this chapter overstates the institutional obstacle. The measurable version is the lag itself: the median gap between the first warning and the first large disbursement should fall below three months where finance is pre-arranged, and stay above nine months where it is not. Watch IPC phase populations, the date of the first anticipatory payment, and the price of the local staple. 
 
 ---
 
@@ -5224,6 +5270,8 @@ A reader who wants to know within a few years whether the prepared scenario is a
 The evidence supports two conclusions. First, the most important actions are not the most expensive: warnings, drills, heat plans, water storage and social protection deliver large benefits at modest cost. Second, preparedness must be sustained, because systems decay and because hazards change; a plan written once and never exercised is not preparedness.
 
 A major expansion of adaptation finance would allow low-income countries to invest at the scale required. Better data on vulnerable populations would make outreach more effective. And stronger local institutions would allow communities to act before help arrives. The most important variable remains the pace of emission reduction, because it determines how much adaptation will be needed and whether the systems described in this book will be sufficient.
+
+The final chapter turns prediction into a checklist, and a checklist has to be auditable. The claim is that the sequence — warnings, drills, heat plans, water storage, drainage maintenance and social protection before sea walls and grid upgrades — produces more protection per unit of money, and that countries following it should record falling deaths per event by 2040 while those that build first and prepare later do not. The assumption is that the cheap measures are actually maintained, which is the step most often skipped. If deaths per event fall fastest in countries that invested mainly in large infrastructure, the sequencing argument in this chapter is wrong. Watch deaths per event, the share of households meeting the seventy-two-hour standard, and the number of exercises conducted per year. 
 
 ---
 

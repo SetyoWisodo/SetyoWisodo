@@ -26,15 +26,15 @@ membuat orang membeli:
 | Sepasang halaman Bab 2 bergambar | 33–34 | klaim "data" benar-benar ada |
 | Halaman penutup sampel | 35 | apa yang belum dibaca + cara membeli |
 
-Halaman terakhir sampel menyebut: *"Anda baru membaca 35 dari 430 halaman"* — lalu
+Halaman terakhir sampel menyebut: *"Anda baru membaca 35 dari 447 halaman"* — lalu
 merinci apa saja yang ada di 395 halaman sisanya. Ini yang memicu rasa penasaran:
 bukan menggoda dengan teka-teki, tetapi menunjukkan bahwa yang belum dibaca itu
 memang berisi.
 
-Edisi Indonesia: 37 halaman dari 445.
+Edisi Indonesia: 37 halaman dari 462.
 
 **Setiap halaman sampel membawa catatan kaki** `FREE SAMPLE · Surviving the Future ·
-full edition: 430 pages`. Kalau sampel tersebar, ia menyebar bersama alamat pembeliannya.
+full edition: 447 pages`. Kalau sampel tersebar, ia menyebar bersama alamat pembeliannya.
 
 ---
 

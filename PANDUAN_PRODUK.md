@@ -67,7 +67,7 @@ Klik **Upload images or videos**, lalu unggah **tiga berkas ini, berurutan**:
 
 | Urutan | Berkas | Isi |
 |---|---|---|
-| 1 | `cover_en_1_hero.png` | buku 3D + judul + angka (24 / 145 / 430) |
+| 1 | `cover_en_1_hero.png` | buku 3D + judul (tanpa baris angka) |
 | 2 | `cover_en_2_inside.png` | halaman asli buku, membuktikan isinya nyata |
 | 3 | `cover_en_3_quote.png` | kutipan sampul belakang |
 

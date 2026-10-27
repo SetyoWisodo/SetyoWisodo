@@ -3,8 +3,8 @@
 Daftar periksa, bukan tuduhan. Setiap paragraf di bawah memuat
 | Edisi | Paragraf | Tanpa rujukan | Atribusi dalam prosa |
 |---|---|---|---|
-| Inggris | 2108 | 12 | 2 |
-| Indonesia | 2101 | 28 | 3 |
+| Inggris | 2132 | 12 | 3 |
+| Indonesia | 2124 | 28 | 4 |
 besaran tanpa rujukan di paragraf itu, dan sumbernya tidak disebut
 langsung di dalam kalimat. Tahun dan nomor bab tidak dihitung.
 

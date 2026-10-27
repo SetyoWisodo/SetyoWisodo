@@ -62,7 +62,7 @@ dibaca. 22° cukup memperlihatkan ketebalan tanpa mengorbankan keterbacaan judul
 pada −78° hanya menghasilkan tumpukan kertas. Pada 52°, teks punggung membelok
 sampai bisa dibaca sementara sampul depan masih utuh.
 
-**Tepi kertas −28°** diperlihatkan dengan sengaja: buku ini 430 dan 445 halaman, dan
+**Tepi kertas −28°** diperlihatkan dengan sengaja: buku ini 447 dan 462 halaman, dan
 ketebalan adalah bukti paling cepat bahwa isinya serius. Itu alasan orang membayar
 $45, bukan $9.
 

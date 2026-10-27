@@ -9,7 +9,7 @@ Sudut dipilih menurut pekerjaannya di halaman marketplace:
   hero    depan + punggung + tepi atas -- foto utama, paling meyakinkan
   front   nyaris lurus -- untuk thumbnail kecil, distorsi paling sedikit
   angle   3/4 tajam -- memperlihatkan ketebalan buku
-  fore    memperlihatkan tepi kertas -- membuktikan 430 halaman
+  fore    memperlihatkan tepi kertas -- membuktikan 447 halaman
   back    sampul belakang -- dipakai di gambar kedua atau ketiga
   spine   punggung terbaca -- untuk daftar rak dan katalog
 

@@ -78,7 +78,7 @@ utama Anda. Kalau ragu, pakai yang Inggris — sampul dan judulnya berbahasa Ing
 
 ```
 I write about climate risk and what decides whether a community survives it.
-Author of Surviving the Future — 24 chapters, 430 pages, 145 sources — and its
+Author of Surviving the Future — 24 chapters, 447 pages, 172 sources — and its
 Indonesian edition.
 ```
 
@@ -86,7 +86,7 @@ Indonesian edition.
 
 ```
 Saya menulis tentang risiko iklim dan apa yang menentukan apakah sebuah komunitas
-bertahan. Penulis Surviving the Future (24 bab, 430 halaman, 145 sumber) dan
+bertahan. Penulis Surviving the Future (24 bab, 447 halaman, 172 sumber) dan
 edisi Indonesianya.
 ```
 
@@ -110,7 +110,7 @@ strength hit the same coast and the death toll was in the dozens. Same hazard,
 different outcome.
 
 The book asks what made the difference, and finds the answer in decisions rather
-than in the weather. It runs to 24 chapters and 430 pages, built on 145 sources,
+than in the weather. It runs to 24 chapters and 447 pages, built on 172 sources,
 and every chapter ends by naming the observation that would prove it wrong.
 ```
 
@@ -123,7 +123,7 @@ dengan kekuatan setara menghantam pesisir yang sama dan jumlah kematiannya
 puluhan. Bahaya yang sama, hasil yang berbeda.
 
 Buku ini menanyakan apa yang membuat perbedaan itu, dan menemukan jawabannya
-pada keputusan, bukan pada cuaca. Dua puluh empat bab, 445 halaman, disusun dari
+pada keputusan, bukan pada cuaca. Dua puluh empat bab, 462 halaman, disusun dari
 145 sumber, dan setiap bab ditutup dengan menyebutkan pengamatan yang akan
 membuktikannya salah.
 ```

@@ -2,7 +2,7 @@
 
 **Buku:** *Surviving the Future: Crisis, Climate, and Human Resilience* (EN) / *Bertahan Hidup di Masa Depan* (ID)
 **Tanggal penilaian:** 23 Oktober 2026 · **Status:** **siap edar dengan catatan** — 9,1 / 10
-**Artefak yang dinilai:** `Surviving_the_Future.pdf` (430 hlm), `Surviving_the_Future_ID.pdf` (445 hlm),
+**Artefak yang dinilai:** `Surviving_the_Future.pdf` (447 hlm), `Surviving_the_Future_ID.pdf` (462 hlm),
 EPUB, DOCX, sampul cetak, `build_report.json`
 
 ---
@@ -14,7 +14,7 @@ EPUB, DOCX, sampul cetak, `build_report.json`
 | Isi dan struktur | 20 % | 9,5 | 24 bab; setiap bab punya Case Study dan Future Scenarios bernomor; 25 tabel; 11 gambar data |
 | Penyuntingan dan konsistensi angka | 15 % | 9,0 | aparatus sitasi bersih; `fact_check` 0 gagal; 0 pasangan paragraf ≥ 5,0 |
 | Tipografi dan tata letak cetak | 15 % | 9,5 | margin simetris 30 mm di setiap halaman, kepala berjalan terpusat, folio kanan-bawah (tengah pada pembuka bab), pemenggalan kata, tanda kutip tipografis, spasi satuan |
-| Aparatus akademik | 15 % | 9,5 | 402/351 sitasi, daftar pustaka 145 entri, indeks A–Z dengan rentang halaman, *see also*, dan *passim* |
+| Aparatus akademik | 15 % | 9,5 | 629/594 sitasi, daftar pustaka 172 entri, indeks A–Z dengan rentang halaman, *see also*, dan *passim* |
 | Kelengkapan pra-cetak | 10 % | 8,0 | halaman judul + hak cipta + disclaimer ada; **ISBN belum ada**; belum ada halaman persembahan/ucapan terima kasih |
 | Sampul dan kesiapan ritel | 10 % | 9,2 | seni generatif baru (krisis dan ketahanan dalam satu bingkai), dua rasio: potong A4 1800 × 2546 dan ebook 1600 × 2560; punggung terhitung otomatis, bleed 0,125 in, zona barcode putih 2 × 1,2 inci; **barcode EAN-13 belum ditempel** (menunggu ISBN) |
 | EPUB | 7,5 % | 9,0 | 53 berkas, nav + NCX + landmarks, metadata aksesibilitas, 11 gambar bertalt; **belum divalidasi epubcheck** (butuh Java) |
@@ -46,9 +46,9 @@ diselesaikan pemilik buku (ISBN, imprint/harga, izin kutipan) dan dua keterbatas
 
 | | EN | ID |
 |---|---|---|
-| Halaman | **430** | **445** |
+| Halaman | **447** | **462** |
 | Kata (`wc -w`) | 200.465 | 166.917 |
-| Sitasi dalam teks | 402 | 351 |
+| Sitasi dalam teks | 629 | 594 |
 | Tabel / gambar | 25 / 11 | 25 / 11 |
 | EPUB | 53 berkas | 53 berkas |
 | DOCX | 2.836 paragraf, 25 tabel, 11 gambar | 2.839 paragraf, 25 tabel, 11 gambar |

@@ -190,7 +190,7 @@ ID = dict(
     kicker="PANDUAN LENGKAP MENUJU ABAD KRISIS",
     title1="BERTAHAN HIDUP",
     title2="DI MASA DEPAN",
-    sub="Krisis, Iklim, dan Resiliensi Manusia",
+    sub="Krisis, Iklim, dan Ketahanan Manusia",
     quote=["Bertahan hidup adalah keputusan, bukan takdir."],
 )
 

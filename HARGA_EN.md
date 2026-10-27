@@ -15,7 +15,7 @@ isinya, dan angkanya diambil langsung dari berkas:
 | Metrik | Nilai | Buku sejenis umumnya |
 |---|---|---|
 | Kata | **201.037** | 80.000–100.000 |
-| Halaman | 430 | 250–320 |
+| Halaman | 447 | 250–320 |
 | Kata per halaman | 468 | 300–350 |
 | Bab | 24 | 10–14 |
 | Subbab bernomor | 288 | — |
@@ -54,15 +54,15 @@ ditentukan oleh yang lebih rendah dari keduanya.
 ### Harga per halaman — cara paling adil membandingkan
 
 Penerbit akademik menetapkan harga per halaman: universitas $0,30, komersial $0,47.
-Untuk 430 halaman:
+Untuk 447 halaman:
 
 | Harga | Per halaman | Dibanding universitas ($0,30) |
 |---|---|---|
-| $29 | $0,067 | 22% |
-| $39 | $0,091 | 30% |
-| **$45** | **$0,105** | **35%** |
-| $59 | $0,137 | 46% |
-| Setara universitas | $129 | 100% |
+| $29 | $0,065 | 22% |
+| $39 | $0,087 | 29% |
+| **$45** | **$0,101** | **34%** |
+| $59 | $0,132 | 44% |
+| Setara universitas | $134 | 100% |
 
 Artinya: bahkan di $59, buku ini masih di bawah separuh harga monograf universitas.
 $59 **bukan** harga yang keterlaluan secara isi.
@@ -89,7 +89,7 @@ Terhadap ketiga patokan sekaligus:
 - **13,5% di bawah** median paperback Routledge
 - **18,2% di bawah** paperback terbitan universitas
 
-Harga per halaman: $45 ÷ 430 = **$0,105/halaman**, sepertiga dari patokan
+Harga per halaman: $45 ÷ 447 = **$0,101/halaman**, sepertiga dari patokan
 penerbit universitas ($0,30).
 
 Kalau ditanya "kenapa $45", jawabannya satu kalimat: *buku akademik sejenis dijual
@@ -115,7 +115,7 @@ ada 25+ ulasan dan posisi yang jelas. Naikkan nanti, bukan sekarang.
 
 ## 5. Kenapa tidak lebih murah
 
-Di bawah $40 Anda menjual 201.000 kata dan 145 sumber dengan harga paperback populer.
+Di bawah $40 Anda menjual 207.000 kata dan 172 sumber dengan harga paperback populer.
 Itu memberi sinyal "buku biasa" pada produk yang bukan buku biasa, dan tidak
 menyisakan ruang untuk diskon promosi — diskon 20% dari $35 hanya menyisakan $28,
 sementara dari $45 menyisakan $36.

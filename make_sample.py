@@ -35,7 +35,7 @@ ED = [
         lang="en",
         title="SURVIVING THE FUTURE",
         sub="Crisis, Climate, and Human Resilience",
-        total=430,
+        total=None,   # diisi dari jumlah halaman PDF asli
         sample_note="This is a free sample of the complete edition.",
         end_head="END OF THE FREE SAMPLE",
         read_line="You have just read the first 35 of {total} pages.",
@@ -45,12 +45,12 @@ ED = [
             ("25 data tables and 11 figures", "every number traceable to a named source"),
             ("24 case studies", "Bhola, Amphan, Chicago 1995, the Ahr valley, Cape Town, Chennai"),
             ("Worklists and worksheets", "an emergency checklist and a local risk profile you can fill in"),
-            ("Glossary, analytical caveats, index", "and 145 sources, with notes on every event figure"),
+            ("Glossary, analytical caveats, index", "and 172 sources, with notes on every event figure"),
         ],
         cta_head="GET THE COMPLETE EDITION",
         cta_body="The full PDF, EPUB and print editions are available from the publisher.",
         cta_url="[ isi alamat toko Anda di sini ]",
-        foot="FREE SAMPLE  \u00b7  Surviving the Future  \u00b7  full edition: 430 pages",
+        foot_tpl="FREE SAMPLE  \u00b7  Surviving the Future  \u00b7  full edition: {total} pages",
         legal="This sample may be shared freely. The complete edition is licensed to the "
               "individual who bought it and may not be redistributed.",
     ),
@@ -60,8 +60,8 @@ ED = [
         pages=[*range(1, 35), 50, 51],
         lang="id",
         title="BERTAHAN HIDUP DI MASA DEPAN",
-        sub="Krisis, Iklim, dan Resiliensi Manusia",
-        total=445,
+        sub="Krisis, Iklim, dan Ketahanan Manusia",
+        total=None,   # diisi dari jumlah halaman PDF asli
         sample_note="Ini adalah sampel gratis dari edisi lengkap.",
         end_head="AKHIR SAMPEL GRATIS",
         read_line="Anda baru membaca 37 dari {total} halaman.",
@@ -71,12 +71,12 @@ ED = [
             ("25 tabel data dan 11 gambar", "setiap angka dapat ditelusuri ke sumbernya"),
             ("24 studi kasus", "Bhola, Amphan, Chicago 1995, Lembah Ahr, Cape Town, Chennai"),
             ("Ceklis dan lembar kerja", "daftar periksa darurat dan profil risiko lokal yang bisa Anda isi"),
-            ("Glosarium, catatan analitis, indeks", "dan 145 sumber, dengan catatan untuk setiap angka peristiwa"),
+            ("Glosarium, catatan analitis, indeks", "dan 172 sumber, dengan catatan untuk setiap angka peristiwa"),
         ],
         cta_head="DAPATKAN EDISI LENGKAP",
         cta_body="PDF lengkap, EPUB, dan edisi cetak tersedia dari penerbit.",
         cta_url="[ isi alamat toko Anda di sini ]",
-        foot="SAMPEL GRATIS  \u00b7  Bertahan Hidup di Masa Depan  \u00b7  edisi lengkap: 445 halaman",
+        foot_tpl="SAMPEL GRATIS  \u00b7  Bertahan Hidup di Masa Depan  \u00b7  edisi lengkap: {total} halaman",
         legal="Sampel ini boleh dibagikan. Edisi lengkap dilisensikan kepada pembeli "
               "dan tidak boleh disebarluaskan.",
     ),
@@ -152,12 +152,14 @@ def closing_page(doc, cfg, page_w, page_h):
 
 def sample_footer(page, cfg, page_w):
     """Catatan kaki kecil di setiap halaman sampel."""
-    page.insert_text((page_w / 2 - 150, page.rect.height - 22), cfg["foot"],
+    text = cfg["foot_tpl"].format(total=cfg["total"])
+    page.insert_text((page_w / 2 - 150, page.rect.height - 22), text,
                      fontname="helv", fontsize=6.6, color=(0.55, 0.58, 0.63))
 
 
 def build(cfg):
     src = pymupdf.open(cfg["src"])
+    cfg["total"] = src.page_count          # jumlah halaman edisi lengkap, bukan angka tetap
     out = pymupdf.open()
     pw, ph = src[0].rect.width, src[0].rect.height
 
