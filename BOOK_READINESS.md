@@ -2,7 +2,7 @@
 
 **Buku:** *Surviving the Future: Crisis, Climate, and Human Resilience* (EN) / *Bertahan Hidup di Masa Depan* (ID)
 **Tanggal penilaian:** 23 Oktober 2026 · **Status:** **siap edar dengan catatan** — 9,1 / 10
-**Artefak yang dinilai:** `Surviving_the_Future.pdf` (447 hlm), `Surviving_the_Future_ID.pdf` (462 hlm),
+**Artefak yang dinilai:** `Surviving_the_Future.pdf` (451 hlm), `Surviving_the_Future_ID.pdf` (470 hlm),
 EPUB, DOCX, sampul cetak, `build_report.json`
 
 ---
@@ -46,7 +46,7 @@ diselesaikan pemilik buku (ISBN, imprint/harga, izin kutipan) dan dua keterbatas
 
 | | EN | ID |
 |---|---|---|
-| Halaman | **447** | **462** |
+| Halaman | **451** | **470** |
 | Kata (`wc -w`) | 200.465 | 166.917 |
 | Sitasi dalam teks | 629 | 594 |
 | Tabel / gambar | 25 / 11 | 25 / 11 |

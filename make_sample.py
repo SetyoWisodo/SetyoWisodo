@@ -31,14 +31,14 @@ ED = [
     dict(
         src=os.path.join(HERE, "Surviving_the_Future.pdf"),
         out=os.path.join(PUB, "Surviving_the_Future_EN_sample.pdf"),
-        pages=[*range(1, 33), 49, 50],        # 1-based, inklusif
+        pages=[*range(1, 33)],        # 1-based, inklusif; halaman gambar dicari otomatis
         lang="en",
         title="SURVIVING THE FUTURE",
         sub="Crisis, Climate, and Human Resilience",
         total=None,   # diisi dari jumlah halaman PDF asli
         sample_note="This is a free sample of the complete edition.",
         end_head="END OF THE FREE SAMPLE",
-        read_line="You have just read the first 35 of {total} pages.",
+        read_line="You have just read {n} of the {total} pages in this edition.",
         inside_head="WHAT THE COMPLETE EDITION CONTAINS",
         inside=[
             ("24 chapters", "from the physics of warming to action plans for a single street"),
@@ -57,14 +57,14 @@ ED = [
     dict(
         src=os.path.join(HERE, "Surviving_the_Future_ID.pdf"),
         out=os.path.join(PUB, "Bertahan_Hidup_di_Masa_Depan_ID_sample.pdf"),
-        pages=[*range(1, 35), 50, 51],
+        pages=[*range(1, 35)],
         lang="id",
         title="BERTAHAN HIDUP DI MASA DEPAN",
         sub="Krisis, Iklim, dan Ketahanan Manusia",
         total=None,   # diisi dari jumlah halaman PDF asli
         sample_note="Ini adalah sampel gratis dari edisi lengkap.",
         end_head="AKHIR SAMPEL GRATIS",
-        read_line="Anda baru membaca 37 dari {total} halaman.",
+        read_line="Anda baru membaca {n} dari {total} halaman edisi ini.",
         inside_head="ISI EDISI LENGKAP",
         inside=[
             ("24 bab", "dari fisika pemanasan sampai rencana aksi untuk satu jalan"),
@@ -118,7 +118,7 @@ def closing_page(doc, cfg, page_w, page_h):
     y += 34
 
     # kalimat "berapa yang sudah dibaca"
-    page.insert_text((m, y), cfg["read_line"].format(total=cfg["total"]),
+    page.insert_text((m, y), cfg["read_line"].format(n=len(cfg["pages"]), total=cfg["total"]),
                      fontname="si", fontsize=13.5, color=IVORY)
     y += 40
 
@@ -157,9 +157,19 @@ def sample_footer(page, cfg, page_w):
                      fontname="helv", fontsize=6.6, color=(0.55, 0.58, 0.63))
 
 
+def figure_pages(src, start):
+    """Dua halaman bergambar pertama sesudah halaman `start` -- bukti bahwa
+    klaim "data" di dalam buku benar-benar berisi gambar, bukan hanya teks."""
+    for i in range(start, min(start + 80, src.page_count)):
+        if src[i].get_images(full=True):
+            return [i + 1, i + 2] if i + 2 <= src.page_count else [i + 1]
+    return []
+
+
 def build(cfg):
     src = pymupdf.open(cfg["src"])
     cfg["total"] = src.page_count          # jumlah halaman edisi lengkap, bukan angka tetap
+    cfg["pages"] = cfg["pages"] + figure_pages(src, len(cfg["pages"]) + 1)
     out = pymupdf.open()
     pw, ph = src[0].rect.width, src[0].rect.height
 

@@ -46,7 +46,7 @@ fisika dan laut berpijak pada satu kasus instrumen.
 
 | Bab | Tahun | Angka | Asumsi | Falsifier | Indikator | Kasus di bab |
 |---|---|---|---|---|---|---|
-| 1 | 6 | 24 | ya | ya | ya | 6 |
+| 1 | 6 | 25 | ya | ya | ya | 6 |
 | 2 | 5 | 14 | ya | ya | ya | 10 |
 | 3 | 2 | 6 | ya | ya | ya | 10 |
 | 4 | 2 | 16 | ya | ya | ya | 9 |
@@ -59,7 +59,7 @@ fisika dan laut berpijak pada satu kasus instrumen.
 | 11 | 1 | 5 | ya | ya | ya | 12 |
 | 12 | 1 | 3 | ya | ya | ya | 5 |
 | 13 | 3 | 3 | ya | ya | ya | 7 |
-| 14 | 2 | 8 | ya | ya | ya | 4 |
+| 14 | 2 | 9 | ya | ya | ya | 4 |
 | 15 | 3 | 4 | ya | ya | ya | 3 |
 | 16 | 2 | 5 | ya | ya | ya | 3 |
 | 17 | 2 | 3 | ya | ya | ya | 6 |
@@ -88,6 +88,12 @@ adalah kalimat falsifier-nya: setiap bab menyebut pengamatan yang akan
 membuktikannya salah, sehingga pembaca tidak perlu menunggu tahun
 sasarannya untuk tahu apakah ia sedang membaca ramalan yang tepat atau
 yang keliru.
+
+Paragraf uji itu bukan akhir subbab: sesudahnya ada paragraf anjuran
+pelaksanaan yang menyebut pemicu, urutan kerja, pelakunya, dan satu hal
+yang tidak boleh dilakukan. Daftar itu ada di `ADVICE_PER_BAB.md` dan
+diperiksa `advice_audit.py`; prediksi tanpa anjuran tidak berguna pada
+hari kejadiannya, dan anjuran tanpa pemicu tidak dapat dijalankan.
 
 Angka yang dipantau sengaja dipilih yang terbit rutin — anomali suhu
 tahunan, kandungan panas laut, luas es September, harga modul surya,

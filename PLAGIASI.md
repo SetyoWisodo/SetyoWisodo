@@ -1,6 +1,6 @@
 # Pemeriksaan Plagiasi — Surviving the Future
 
-**Kesimpulan singkat:** skor kemiripan internal **0,36%**, dan **0 dari 12 kalimat**
+**Kesimpulan singkat:** skor kemiripan internal **0,35%**, dan **0 dari 12 kalimat**
 yang diuji kata per kata ditemukan di web. Teks bukunya bersih dari duplikasi dan
 tidak memuat satu pun kutipan langsung.
 
@@ -14,7 +14,7 @@ angka mana pun di halaman ini.
 
 | Lapis | Cakupan | Skor |
 |---|---|---|
-| **Internal** — 48 bab dibandingkan satu sama lain | 378.626 kata | **0,36%** |
+| **Internal** — 48 bab dibandingkan satu sama lain | 384.146 kata | **0,35%** |
 | **Eksternal** — 12 kalimat uji ke web, kata per kata | 12 dari 24 bab | **0%** cocok |
 | **Kutipan langsung** dalam naskah | 7.355 kalimat | **0** |
 | **Perkiraan gaya-Turnitin** | — | **0–3%** |
@@ -89,7 +89,7 @@ Selain teksnya, beberapa gelar dan afiliasi juga keliru:
 | Prof. Naomi Klein, **Rutgers** | University of British Columbia |
 
 **Kabar baiknya:** 54 kutipan itu **tidak ada di dalam buku yang Anda jual.** Saya
-memeriksa `book.md`, `book_id.md`, dan kedua PDF 447/462 halaman: nol kemunculan.
+memeriksa `book.md`, `book_id.md`, dan kedua PDF 451/470 halaman: nol kemunculan.
 `book.md` dihasilkan oleh versi generator yang lebih lama, sebelum blok `EXPERTS`
 ditambahkan, dan belum pernah dibuat ulang sejak itu.
 
@@ -120,7 +120,7 @@ kalimatnya **kata per kata**, catat nomor halaman, baru masukkan indeksnya ke
 
 ---
 
-## 2. Duplikasi internal — 0,36%
+## 2. Duplikasi internal — 0,35%
 
 Diukur dengan `tools/plagiarism/winnow.py`, implementasi algoritma **winnowing**
 (Schleimer, Wilkerson & Aiken, 2003) — algoritma yang sama dipakai MOSS dan menjadi
@@ -133,7 +133,7 @@ Alatnya divalidasi lebih dulu, karena skor 0% tanpa kontrol tidak bisa dipercaya
 |---|---|
 | Kontrol positif — satu paragraf buku disalin ke berkas terpisah | **98,17%** terdeteksi |
 | Kontrol negatif — teks karangan yang tidak berkaitan | **0%** (di bawah ambang) |
-| Seluruh buku, 48 bab saling dibandingkan | **0,36%** |
+| Seluruh buku, 48 bab saling dibandingkan | **0,35%** |
 
 Catatan percobaan: `copydetect` (repo GitHub `blingenf/copydetect`, 328 bintang)
 dicoba lebih dulu dan **gagal pada prosa** — tokenizer Pygments-nya menggabungkan
@@ -238,7 +238,7 @@ sama, dibobot IDF, dan diperiksa di kedua edisi:
 |---|---|---|
 | Paragraf dalam bab mirip >= 0,40 (Inggris) | 66 | **48** |
 | Paragraf yang mengulang pembuka bab >= 0,30 (Inggris) | 33 | **12** |
-| Paragraf dalam bab mirip >= 0,40 (Indonesia) | 70 | **58** |
+| Paragraf dalam bab mirip >= 0,40 (Indonesia) | 70 | **57** |
 | Paragraf yang mengulang pembuka bab >= 0,30 (Indonesia) | 37 | **24** |
 
 Perbaikannya **bukan penghapusan kasus** — pengulangan studi kasus dalam satu bab
@@ -247,7 +247,7 @@ ulang peristiwa kini membahas sudut yang berbeda (metodologi hitungan korban,
 negosiasi akses, arsitektur kelembagaan, rekayasa peringatan, biaya fiskal). Hanya
 tiga paragraf yang dibuang, semuanya di edisi Indonesia dan semuanya karena
 benar-benar duplikat tetangganya (dua pada pass sebelumnya, satu duplikat kalimat
-penuh di Bab 19 yang muncul belakangan); paragraf edisi Inggris tetap 2.132.
+penuh di Bab 19 yang muncul belakangan); paragraf edisi Inggris tetap 2.156.
 Sisa angka di atas sebagian besar adalah struktur yang disengaja (vignette pembuka
 bab lalu kasus yang sama dibahas panjang di subbab Case Study). Alatnya
 `repetition_audit.py`, daftar sisanya `REPETISI.md`.
@@ -309,11 +309,12 @@ yang ketiga, dan itulah yang hampir masuk ke buku Anda.
 | ✅ Selesai | `audit_plagiarism.py` — audit duplikasi + pemeriksa atribusi |
 | ✅ Terverifikasi | 0 kutipan langsung di buku; duplikasi < 0,1% |
 | ✅ Terverifikasi | 0 masalah sitasi dua arah, kedua edisi |
-| ✅ Terverifikasi | Skor internal 0,36% (winnowing, dengan kontrol positif/negatif) |
+| ✅ Terverifikasi | Skor internal 0,35% (winnowing, dengan kontrol positif/negatif) |
 | ✅ Terverifikasi | 12 kalimat uji, 0 kecocokan verbatim di web |
 | ⬜ Perlu Anda | Jalankan Turnitin/iThenticate sebelum terbit (untuk skor resmi) |
 | ✅ Terverifikasi | 64 sitasi ditambahkan (tidak ada yang dikarang) |
 | ⬜ Perlu Anda | 12/28 paragraf bersisa — daftar di `NUMERIC_CLAIMS.md`; sisa ini kalimat retoris tanpa klaim statistik baru |
+| ✅ Terverifikasi | `advice_audit.py` — 48/48 paragraf anjuran pelaksanaan lulus (pemicu, urutan, langkah, pelaku, larangan) |
 | ⬜ Opsional | Variasikan ritme paragraf yang terlalu seragam |
 
 Menjalankan ulang `python audit_plagiarism.py` kapan pun akan memberi angka terbaru

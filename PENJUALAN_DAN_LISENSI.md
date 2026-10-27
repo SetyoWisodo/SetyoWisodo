@@ -23,18 +23,22 @@ membuat orang membeli:
 | Judul, hak cipta, **daftar isi penuh** | 1–13 | skala dan kedalaman: 24 bab, 25 tabel, 11 gambar |
 | Prakata | 14–16 | suara penulis dan alasan buku ini ada |
 | **Bab 1 utuh** | 17–32 | mutu tulisan, bukan cuplikan acak |
-| Sepasang halaman Bab 2 bergambar | 33–34 | klaim "data" benar-benar ada |
+| Halaman Bab 2 bergambar + halaman sesudahnya | 33–34 | klaim "data" benar-benar ada |
 | Halaman penutup sampel | 35 | apa yang belum dibaca + cara membeli |
 
-Halaman terakhir sampel menyebut: *"Anda baru membaca 35 dari 447 halaman"* — lalu
-merinci apa saja yang ada di 395 halaman sisanya. Ini yang memicu rasa penasaran:
+Nomor halaman gambar **dicari otomatis** oleh `make_sample.py`, bukan ditulis
+tetap: setiap kali naskah bertambah, halaman gambar ikut bergeser, dan sampel
+tidak boleh menampilkan halaman teks sambil menyebutnya "halaman bergambar".
+
+Halaman terakhir sampel menyebut: *"Anda baru membaca 34 dari 451 halaman"* — lalu
+merinci apa saja yang ada di 417 halaman sisanya. Ini yang memicu rasa penasaran:
 bukan menggoda dengan teka-teki, tetapi menunjukkan bahwa yang belum dibaca itu
 memang berisi.
 
-Edisi Indonesia: 37 halaman dari 462.
+Edisi Indonesia: 36 halaman sampel dari 470 halaman.
 
 **Setiap halaman sampel membawa catatan kaki** `FREE SAMPLE · Surviving the Future ·
-full edition: 447 pages`. Kalau sampel tersebar, ia menyebar bersama alamat pembeliannya.
+full edition: 451 pages`. Kalau sampel tersebar, ia menyebar bersama alamat pembeliannya.
 
 ---
 
