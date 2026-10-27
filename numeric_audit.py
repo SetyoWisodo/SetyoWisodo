@@ -28,7 +28,7 @@ def collect(path):
         if b.startswith("# Chapter") or b.startswith("# Bab"):
             chap = b.lstrip("# ").split(":")[0]
             continue
-        if not C.is_body(b) or not re.search(r"\d", b):
+        if not C.is_body(b):
             continue
         if not C.QUANTITY.search(b) or CITE_STRICT.search(b):
             continue
