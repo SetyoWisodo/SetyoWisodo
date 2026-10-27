@@ -14,7 +14,7 @@ angka mana pun di halaman ini.
 
 | Lapis | Cakupan | Skor |
 |---|---|---|
-| **Internal** — 48 bab dibandingkan satu sama lain | 374.949 kata | **0,36%** |
+| **Internal** — 48 bab dibandingkan satu sama lain | 377.704 kata | **0,36%** |
 | **Eksternal** — 12 kalimat uji ke web, kata per kata | 12 dari 24 bab | **0%** cocok |
 | **Kutipan langsung** dalam naskah | 7.355 kalimat | **0** |
 | **Perkiraan gaya-Turnitin** | — | **0–3%** |
@@ -89,7 +89,7 @@ Selain teksnya, beberapa gelar dan afiliasi juga keliru:
 | Prof. Naomi Klein, **Rutgers** | University of British Columbia |
 
 **Kabar baiknya:** 54 kutipan itu **tidak ada di dalam buku yang Anda jual.** Saya
-memeriksa `book.md`, `book_id.md`, dan kedua PDF 438/456 halaman: nol kemunculan.
+memeriksa `book.md`, `book_id.md`, dan kedua PDF 441/457 halaman: nol kemunculan.
 `book.md` dihasilkan oleh versi generator yang lebih lama, sebelum blok `EXPERTS`
 ditambahkan, dan belum pernah dibuat ulang sejak itu.
 
@@ -189,7 +189,7 @@ dan dua arahnya konsisten.
 
 ## 5. Yang masih perlu diperhatikan
 
-### 5.1 Angka tanpa rujukan — 0,7% (Inggris) dan 1,4% (Indonesia)
+### 5.1 Angka tanpa rujukan — 0,7% (Inggris) dan 1,5% (Indonesia)
 
 Angka 22% yang saya laporkan sebelum track ini **salah ukur**. Pemeriksanya
 menghitung setiap digit, termasuk tahun ("pada 2023") dan nomor bab ("x.1").
@@ -200,9 +200,9 @@ tinggal belasan.
 | | Awal track | Sesudah |
 |---|---|---|
 | Paragraf Inggris dengan besaran tanpa rujukan | 180 (8,6%) | **14 (0,7%)** |
-| Paragraf Indonesia | 201 (9,7%) | **30 (1,4%)** |
-| Sitasi dalam teks (Inggris) | 574 | **647** |
-| Sitasi dalam teks (Indonesia) | 434 | **602** |
+| Paragraf Indonesia | 201 (9,7%) | **31 (1,5%)** |
+| Sitasi dalam teks (Inggris) | 574 | **623** |
+| Sitasi dalam teks (Indonesia) | 434 | **589** |
 | Entri Daftar Pustaka | 155 | **172** |
 
 **17 sumber baru** masuk Daftar Pustaka, semuanya karya terbit yang benar-benar
@@ -226,6 +226,29 @@ kalimat ("according to the United Nations Office for Disaster Risk Reduction",
 statistik baru ("1,5 °C terdengar kecil"). Kalau angka baru ditambahkan kelak,
 `python numeric_audit.py` akan menandainya dan menuliskannya ke
 `NUMERIC_CLAIMS.md`.
+
+### 5.1b Pengulangan di dalam bab — 66 -> 52 pasangan
+
+Bukan plagiasi, tetapi cacat keterbacaan: beberapa bab menceritakan peristiwa yang
+sama dua kali dengan fakta yang sama (Badai Texas, Chennai, Danau Chad, Italia
+sekolah, Somalia). Diukur dengan kemiripan kosinus antarparagraf dalam bab yang
+sama, dibobot IDF, dan diperiksa di kedua edisi:
+
+| | Sebelum | Sesudah |
+|---|---|---|
+| Paragraf dalam bab mirip >= 0,40 (Inggris) | 66 | **52** |
+| Paragraf yang mengulang pembuka bab >= 0,30 (Inggris) | 33 | **11** |
+| Paragraf dalam bab mirip >= 0,40 (Indonesia) | 70 | **62** |
+| Paragraf yang mengulang pembuka bab >= 0,30 (Indonesia) | 37 | **24** |
+
+Perbaikannya **bukan penghapusan kasus** — pengulangan studi kasus dalam satu bab
+memang disengaja — melainkan penulisan ulang: paragraf yang tadinya menceritakan
+ulang peristiwa kini membahas sudut yang berbeda (metodologi hitungan korban,
+negosiasi akses, arsitektur kelembagaan, rekayasa peringatan, biaya fiskal). Hanya
+dua paragraf yang dibuang, keduanya karena benar-benar duplikat tetangganya.
+Sisa angka di atas sebagian besar adalah struktur yang disengaja (vignette pembuka
+bab lalu kasus yang sama dibahas panjang di subbab Case Study). Alatnya
+`repetition_audit.py`, daftar sisanya `REPETISI.md`.
 
 ### 5.2 Kemiripan dengan sumber luar — sampel sudah diuji, skor resmi belum
 
@@ -288,7 +311,7 @@ yang ketiga, dan itulah yang hampir masuk ke buku Anda.
 | ✅ Terverifikasi | 12 kalimat uji, 0 kecocokan verbatim di web |
 | ⬜ Perlu Anda | Jalankan Turnitin/iThenticate sebelum terbit (untuk skor resmi) |
 | ✅ Terverifikasi | 64 sitasi ditambahkan (tidak ada yang dikarang) |
-| ⬜ Perlu Anda | 14/30 paragraf bersisa — daftar di `NUMERIC_CLAIMS.md` |
+| ⬜ Perlu Anda | 14/31 paragraf bersisa — daftar di `NUMERIC_CLAIMS.md` |
 | ⬜ Opsional | Variasikan ritme paragraf yang terlalu seragam |
 
 Menjalankan ulang `python audit_plagiarism.py` kapan pun akan memberi angka terbaru
