@@ -59,6 +59,7 @@ pip install --break-system-packages fpdf2 pyphen pymupdf python-docx pillow matp
 
 python make_figures.py                             # figures/*.png (EN + *_id.png)
 python gen_book.py && python gen_book_id.py      # book.md, book_id.md (figures inserted)
+python tools/plagiarism/check.py                  # internal similarity + citation discipline
 python check_citations.py && python fact_check.py
 python render_book.py && python render_book_id.py  # the two A4 PDFs
 cp Surviving_the_Future.pdf book/publish/Surviving_the_Future_EN_interior.pdf

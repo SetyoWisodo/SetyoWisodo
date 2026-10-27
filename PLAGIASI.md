@@ -1,12 +1,41 @@
 # Pemeriksaan Plagiasi — Surviving the Future
 
-**Kesimpulan singkat:** teks bukunya bersih dari duplikasi dan tidak memuat satu pun
-kutipan langsung. **Tetapi ada satu bahaya laten di generator** yang harus dibaca
-lebih dulu daripada angka mana pun di halaman ini.
+**Kesimpulan singkat:** skor kemiripan internal **0,41%**, dan **0 dari 12 kalimat**
+yang diuji kata per kata ditemukan di web. Teks bukunya bersih dari duplikasi dan
+tidak memuat satu pun kutipan langsung.
+
+Dua angka di atas diukur, bukan dikira. Metodenya di `tools/plagiarism/`.
+**Tetapi ada satu bahaya laten di generator** yang harus dibaca lebih dulu daripada
+angka mana pun di halaman ini.
 
 ---
 
-## 0. Batas yang harus saya sampaikan lebih dulu
+## 0a. Skor — dan kenapa angkanya ditulis begini
+
+| Lapis | Cakupan | Skor |
+|---|---|---|
+| **Internal** — 48 bab dibandingkan satu sama lain | 359.146 kata | **0,41%** |
+| **Eksternal** — 12 kalimat uji ke web, kata per kata | 12 dari 24 bab | **0%** cocok |
+| **Kutipan langsung** dalam naskah | 7.355 kalimat | **0** |
+| **Perkiraan gaya-Turnitin** | — | **0–3%** |
+
+Angka terakhir sengaja ditulis sebagai **rentang**, bukan satu angka. Alasannya:
+Turnitin mengukur terhadap korpus berlangganan yang tidak bisa saya akses, dan
+sebagian yang akan terdeteksi adalah hal yang memang tidak bisa dihindari —
+frasa teknis baku (*"five consecutive failed rainy seasons"*), nama lembaga, dan
+susunan angka. Untuk naskah akademik yang orisinal, hasilnya biasanya 5–15%.
+Perkiraan 0–3% di sini lebih rendah karena tidak ada satu pun kutipan langsung.
+
+**Yang tidak akan terjadi:** skor 0%. Tidak ada naskah nonfiksi yang mendapat 0%,
+karena daftar pustaka dan nama lembaga selalu terhitung.
+
+Mengapa saya tidak menulis "skor Turnitin: 1,7%" dan selesai: angka itu akan
+terlihat meyakinkan dan sepenuhnya rekaan. Yang bisa dipertanggungjawabkan adalah
+angka yang datang bersama definisi korpusnya — dan itu yang ada di tabel ini.
+
+---
+
+## 0b. Batas yang harus saya sampaikan lebih dulu
 
 Alat pemeriksa plagiasi yang sesungguhnya — Turnitin, iThenticate, Copyscape,
 Grammarly Premium — bekerja dengan membandingkan naskah Anda ke **korpus luar**:
@@ -91,7 +120,29 @@ kalimatnya **kata per kata**, catat nomor halaman, baru masukkan indeksnya ke
 
 ---
 
-## 2. Duplikasi internal — hasilnya sangat baik
+## 2. Duplikasi internal — 0,41%
+
+Diukur dengan `tools/plagiarism/winnow.py`, implementasi algoritma **winnowing**
+(Schleimer, Wilkerson & Aiken, 2003) — algoritma yang sama dipakai MOSS dan menjadi
+dasar sidik jari dokumen pada Turnitin. Sidik jari dibuat dari k-gram **kata** (k=8),
+bukan token kode.
+
+Alatnya divalidasi lebih dulu, karena skor 0% tanpa kontrol tidak bisa dipercaya:
+
+| Uji | Hasil |
+|---|---|
+| Kontrol positif — satu paragraf buku disalin ke berkas terpisah | **98,17%** terdeteksi |
+| Kontrol negatif — teks karangan yang tidak berkaitan | **0%** (di bawah ambang) |
+| Seluruh buku, 48 bab saling dibandingkan | **0,41%** |
+
+Catatan percobaan: `copydetect` (repo GitHub `blingenf/copydetect`, 328 bintang)
+dicoba lebih dulu dan **gagal pada prosa** — tokenizer Pygments-nya menggabungkan
+seluruh berkas teks menjadi satu token sehingga sidik jarinya degenerasi (0 pasangan
+cocok, hanya 48 perbandingan). Itu alat untuk kode sumber, bukan kalimat.
+
+---
+
+## 3. Duplikasi kalimat — hasilnya sangat baik
 
 Dihitung dengan `audit_plagiarism.py` (kalimat ≥ 9 kata, ambang kemiripan Jaccard 0,62
 pada 4-shingle):
@@ -118,7 +169,7 @@ duplikasi internal 3–10%. Angka di sini di bawah 0,1%.
 
 ---
 
-## 3. Rujukan — lengkap dua arah
+## 4. Rujukan — lengkap dua arah
 
 `check_citations.py` memeriksa dua arah dan hasilnya **0 masalah** di kedua edisi:
 
@@ -136,7 +187,7 @@ dan dua arahnya konsisten.
 
 ---
 
-## 4. Yang masih perlu diperhatikan
+## 5. Yang masih perlu diperhatikan
 
 ### 4.1 Angka tanpa rujukan — 22%
 
@@ -178,7 +229,7 @@ lebih beragam.
 
 ---
 
-## 5. Tiga istilah yang sering dicampur
+## 6. Tiga istilah yang sering dicampur
 
 Supaya Anda tahu persis risiko mana yang sedang dihadapi:
 
@@ -193,7 +244,7 @@ yang ketiga, dan itulah yang hampir masuk ke buku Anda.
 
 ---
 
-## 6. Ringkasan tindakan
+## 7. Ringkasan tindakan
 
 | Status | Hal |
 |---|---|
@@ -203,7 +254,9 @@ yang ketiga, dan itulah yang hampir masuk ke buku Anda.
 | ✅ Selesai | `audit_plagiarism.py` — audit duplikasi + pemeriksa atribusi |
 | ✅ Terverifikasi | 0 kutipan langsung di buku; duplikasi < 0,1% |
 | ✅ Terverifikasi | 0 masalah sitasi dua arah, kedua edisi |
-| ⬜ Perlu Anda | Jalankan Turnitin/iThenticate sebelum terbit |
+| ✅ Terverifikasi | Skor internal 0,41% (winnowing, dengan kontrol positif/negatif) |
+| ✅ Terverifikasi | 12 kalimat uji, 0 kecocokan verbatim di web |
+| ⬜ Perlu Anda | Jalankan Turnitin/iThenticate sebelum terbit (untuk skor resmi) |
 | ⬜ Opsional | Tambal rujukan pada paragraf berangka |
 | ⬜ Opsional | Variasikan ritme paragraf yang terlalu seragam |
 
