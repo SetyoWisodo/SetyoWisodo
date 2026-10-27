@@ -1127,6 +1127,35 @@ def short_np(sec_title, lang):
     return np_
 
 
+SECTION_TOPIC = {
+    "en": [
+        "The place to begin with {S} is the physical record rather than the argument about it.",
+        "What matters in {S} is not the average but the tail: the years, places and people where the margin disappears.",
+        "Any honest account of {S} has to start from what can be measured and then say plainly where the measurement stops.",
+        "The evidence on {S} is uneven, and the unevenness is itself part of what has to be explained.",
+        "Read closely, {S} is less a single trend than a set of thresholds crossed at different speeds.",
+        "The question that organises {S} is simple to state and hard to answer: what would have to change for the next outcome to differ?",
+    ],
+    "id": [
+        "Titik mulai untuk {S} adalah catatan fisiknya, bukan perdebatannya.",
+        "Yang penting dalam {S} bukan rata-ratanya, melainkan ekornya: tahun, tempat, dan orang ketika batas amannya habis.",
+        "Uraian yang jujur tentang {S} harus dimulai dari apa yang bisa diukur, lalu menyebut terus terang di mana pengukurannya berhenti.",
+        "Bukti tentang {S} tidak merata, dan ketidakmerataan itu sendiri adalah bagian dari yang perlu dijelaskan.",
+        "Dibaca dengan teliti, {S} bukan satu tren tunggal melainkan sekumpulan ambang yang dilewati dengan kecepatan berbeda.",
+        "Pertanyaan yang menata {S} mudah diucapkan dan sulit dijawab: apa yang harus berubah agar hasil berikutnya berbeda?",
+    ],
+}
+
+
+def section_topic(lang, sec_title, theme):
+    """Kalimat topik netral -- dipakai bila atribusi ahli belum terverifikasi."""
+    np_ = np_of(sec_title, lang)
+    if "," in np_ or len(np_.split()) > 6:
+        np_ = np_.split(",")[0].strip()
+    i = (sum(ord(c) for c in sec_title) + len(theme)) % len(SECTION_TOPIC[lang])
+    return SECTION_TOPIC[lang][i].format(S=np_)
+
+
 def expert_anchor(lang, sec_title, ci, si):
     np_ = np_of(sec_title, lang)
     if "," in np_ or len(np_.split()) > 6:

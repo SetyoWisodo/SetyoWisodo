@@ -300,6 +300,35 @@ CHAPTERS = [
 from references import REFS_EN as REFS
 REFS = list(dict.fromkeys(REFS))
 
+# ---------------------------------------------------------------------------
+# PENGAMAN KUTIPAN  (ditambahkan setelah audit kemiripan)
+#
+# Masalah: 55 dari 60 entri EXPERTS di bawah berbentuk "Nama: 'kalimat'" yang
+# terbaca sebagai KUTIPAN LANGSUNG dari orang nyata. Setelah diperiksa, kalimat
+# itu tidak ditemukan dalam karya yang dirujuk. Contoh: kutipan McKibben "We
+# have built a world that can be undone by what we built" tidak ada di Falter
+# (2019); kutipan Nick Watts tentang "health bill for inaction" juga tidak
+# ditemukan. Menisbatkan kalimat rekaan kepada penulis yang masih hidup adalah
+# risiko hukum dan risiko reputasi, dan itu lebih berat daripada plagiasi.
+#
+# Selain itu beberapa gelar salah: Al Gore bukan "Dr.", David Wallace-Wells,
+# Elizabeth Kolbert, dan Kim Stanley Robinson bukan "Prof.", dan Naomi Klein
+# tidak di Rutgers (ia di University of British Columbia).
+#
+# ATURAN: entri hanya boleh dicetak bila nomor indeksnya ada di
+# EXPERT_VERIFIED, dan verifikasi berarti SATU hal saja -- kalimat itu
+# ditemukan kata per kata di karya yang dirujuk, dengan nomor halaman.
+#
+# Selama himpunan ini kosong, generator TIDAK mencetak atribusi ahli sama
+# sekali; ia memakai kalimat topik netral. Buku yang sekarang terbit memang
+# tidak memuat atribusi ini, jadi keluaran tidak berubah.
+#
+# Cara menambah: buka karyanya, temukan kalimatnya, lalu tambahkan nomornya
+# ke EXPERT_VERIFIED beserta catatan halaman di EXPERT_SOURCES.
+# ---------------------------------------------------------------------------
+EXPERT_VERIFIED = set()      # kosong = tidak ada atribusi yang dicetak
+EXPERT_SOURCES = {}          # {indeks: "karya, halaman"}
+
 EXPERTS = [
  "James Hansen, former director of NASA's Goddard Institute for Space Studies, argued in 2013 that two degrees of warming would be enough to expect several metres of sea-level rise, and called the consequences disastrous.",
  "Katharine Hayhoe, Texas Tech climate scientist (2014, after the IPCC fifth assessment): climate change is here and now rather than in some distant time or place, and the choices made today will shape what the future holds.",
@@ -750,12 +779,18 @@ for ci,(title,theme,secs) in enumerate(CHAPTERS, start=1):
         md.append("")
         # Every section gets its relevant expert as topic sentence (Homo Deus style: 60 experts across 96 sections)
         exp_idx = use_exp
-        exp = EXPERTS[exp_idx]
-        exp_name = exp.split(',')[0].replace('Prof.', '').replace('Dr.', '').replace('Ms.', '').strip()
-        m_year = re.search(r'\((\d{4})', exp)
-        exp_year = m_year.group(1) if m_year else "2020"
-        raw_quote = exp.split(":")[1].strip().strip("'").strip('"').strip()
-        md.append(prose.expert_lead("en", exp_name, exp_year, _lc_first(raw_quote), ci, si))
+        # Atribusi hanya dicetak bila kutipannya sudah diverifikasi ke sumber
+        # aslinya (lihat PENGAMAN KUTIPAN di atas). Bila belum, pakai kalimat
+        # topik netral -- tidak ada nama, tidak ada klaim yang dinisbatkan.
+        if exp_idx in EXPERT_VERIFIED:
+            exp = EXPERTS[exp_idx]
+            exp_name = exp.split(',')[0].replace('Prof.', '').replace('Dr.', '').replace('Ms.', '').strip()
+            m_year = re.search(r'\((\d{4})', exp)
+            exp_year = m_year.group(1) if m_year else "2020"
+            raw_quote = exp.split(":")[1].strip().strip("'").strip('"').strip()
+            md.append(prose.expert_lead("en", exp_name, exp_year, _lc_first(raw_quote), ci, si))
+        else:
+            md.append(prose.section_topic("en", sec, theme))
         md.append("")
         _detail = EXPERT_DETAILS[exp_idx].format(section=prose.short_np(sec, "en"), topic=prose.short_topic(theme))
         _parts = [x.strip().rstrip('.') for x in _detail.split('. ') if x.strip()]
