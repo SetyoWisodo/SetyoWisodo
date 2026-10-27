@@ -89,7 +89,7 @@ Selain teksnya, beberapa gelar dan afiliasi juga keliru:
 | Prof. Naomi Klein, **Rutgers** | University of British Columbia |
 
 **Kabar baiknya:** 54 kutipan itu **tidak ada di dalam buku yang Anda jual.** Saya
-memeriksa `book.md`, `book_id.md`, dan kedua PDF 431/445 halaman: nol kemunculan.
+memeriksa `book.md`, `book_id.md`, dan kedua PDF 435/453 halaman: nol kemunculan.
 `book.md` dihasilkan oleh versi generator yang lebih lama, sebelum blok `EXPERTS`
 ditambahkan, dan belum pernah dibuat ulang sejak itu.
 

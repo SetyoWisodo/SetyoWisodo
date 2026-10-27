@@ -1,14 +1,14 @@
 {
   "en": {
-    "pages": 431,
+    "pages": 435,
     "trim_in": [
       8.27,
       11.69
     ],
     "bleed_in": 0.125,
-    "spine_in": 1.078,
+    "spine_in": 1.088,
     "cover_in": [
-      17.867,
+      17.877,
       11.94
     ],
     "dpi": 300,
@@ -22,15 +22,15 @@
     "cover_pdf": "book/publish/Surviving_the_Future_EN_cover_print.pdf"
   },
   "id": {
-    "pages": 445,
+    "pages": 453,
     "trim_in": [
       8.27,
       11.69
     ],
     "bleed_in": 0.125,
-    "spine_in": 1.113,
+    "spine_in": 1.133,
     "cover_in": [
-      17.902,
+      17.922,
       11.94
     ],
     "dpi": 300,
