@@ -8,7 +8,7 @@ warming, written for general readers who want the evidence rather than the sloga
 
 | | English | Bahasa Indonesia |
 |---|---|---|
-| PDF | `Surviving_the_Future.pdf` (**435 pp**) | `Surviving_the_Future_ID.pdf` (**453 pp**) |
+| PDF | `Surviving_the_Future.pdf` (**438 pp**) | `Surviving_the_Future_ID.pdf` (**456 pp**) |
 | EPUB | `book/publish/Surviving_the_Future_EN.epub` | `book/publish/Bertahan_Hidup_di_Masa_Depan_ID.epub` |
 | DOCX | `book/publish/Surviving_the_Future_EN.docx` | `book/publish/Bertahan_Hidup_di_Masa_Depan_ID.docx` |
 | Print cover | `book/publish/Surviving_the_Future_EN_cover_print.pdf` | `book/publish/Bertahan_Hidup_di_Masa_Depan_ID_cover_print.pdf` |

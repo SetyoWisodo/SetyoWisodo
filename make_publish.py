@@ -10,17 +10,21 @@ Pemakaian: python make_publish.py
 import html
 import os
 import re
+import shutil
 
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Mm, Pt, RGBColor
 
 import book_pdf
+from pypdf import PdfReader
 import figures as figmod
 
 BOOKS = [
     {
         "md": "book.md",
+        "pdf": "Surviving_the_Future.pdf",
+        "interior": "book/publish/Surviving_the_Future_EN_interior.pdf",
         "img": "book/publish/Surviving_the_Future_EN_cover_ebook.jpg",
         "epub": "book/publish/Surviving_the_Future_EN.epub",
         "docx": "book/publish/Surviving_the_Future_EN.docx",
@@ -38,6 +42,8 @@ BOOKS = [
     },
     {
         "md": "book_id.md",
+        "pdf": "Surviving_the_Future_ID.pdf",
+        "interior": "book/publish/Bertahan_Hidup_di_Masa_Depan_ID_interior.pdf",
         "img": "book/publish/Bertahan_Hidup_di_Masa_Depan_ID_cover_ebook.jpg",
         "epub": "book/publish/Bertahan_Hidup_di_Masa_Depan_ID.epub",
         "docx": "book/publish/Bertahan_Hidup_di_Masa_Depan_ID.docx",
@@ -643,6 +649,11 @@ def add_runs(par, text):
 
 def main():
     for cfg in BOOKS:
+        # Interior yang dipakai sampul harus yang terbaru: sampul menghitung
+        # tebal punggung dari jumlah halaman PDF ini. Interior basi = spine salah.
+        shutil.copyfile(cfg["pdf"], cfg["interior"])
+        print("%s: interior %d halaman -> %s"
+              % (cfg["lang"], len(PdfReader(cfg["pdf"]).pages), cfg["interior"]))
         n = build_epub(cfg)
         build_docx(cfg)
         print("%s: %d bab -> %s, %s" % (cfg["lang"], n, cfg["epub"], cfg["docx"]))

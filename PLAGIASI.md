@@ -89,7 +89,7 @@ Selain teksnya, beberapa gelar dan afiliasi juga keliru:
 | Prof. Naomi Klein, **Rutgers** | University of British Columbia |
 
 **Kabar baiknya:** 54 kutipan itu **tidak ada di dalam buku yang Anda jual.** Saya
-memeriksa `book.md`, `book_id.md`, dan kedua PDF 435/453 halaman: nol kemunculan.
+memeriksa `book.md`, `book_id.md`, dan kedua PDF 438/456 halaman: nol kemunculan.
 `book.md` dihasilkan oleh versi generator yang lebih lama, sebelum blok `EXPERTS`
 ditambahkan, dan belum pernah dibuat ulang sejak itu.
 
@@ -189,29 +189,43 @@ dan dua arahnya konsisten.
 
 ## 5. Yang masih perlu diperhatikan
 
-### 5.1 Angka tanpa rujukan — 8,2% (bukan 22%)
+### 5.1 Angka tanpa rujukan — 0,7% (Inggris) dan 1,4% (Indonesia)
 
-Angka 22% yang saya laporkan sebelumnya **salah ukur**. Pemeriksanya menghitung
-setiap digit, termasuk tahun ("pada 2023") dan nomor bab ("x.1"). Tahun bukan
-statistik; yang butuh rujukan adalah **besaran**.
+Angka 22% yang saya laporkan sebelum track ini **salah ukur**. Pemeriksanya
+menghitung setiap digit, termasuk tahun ("pada 2023") dan nomor bab ("x.1").
+Tahun bukan statistik; yang butuh rujukan adalah **besaran**. Setelah tolok
+ukurnya diperbaiki dan rujukannya ditambal, sisa paragraf berangka tanpa rujukan
+tinggal belasan.
 
-| | Sebelum | Sesudah |
+| | Awal track | Sesudah |
 |---|---|---|
-| Paragraf Inggris dengan besaran tanpa rujukan | 223 (10,7%) | **180 (8,6%)** |
-| Paragraf Indonesia | 216 (10,4%) | **201 (9,7%)** |
-| Sitasi dalam teks (Inggris) | 399 | **451** |
-| Sitasi dalam teks (Indonesia) | 357 | **367** |
+| Paragraf Inggris dengan besaran tanpa rujukan | 180 (8,6%) | **14 (0,7%)** |
+| Paragraf Indonesia | 201 (9,7%) | **30 (1,4%)** |
+| Sitasi dalam teks (Inggris) | 574 | **647** |
+| Sitasi dalam teks (Indonesia) | 434 | **602** |
+| Entri Daftar Pustaka | 155 | **172** |
 
-**64 sitasi ditambahkan**, dan tidak satu pun dikarang. Aturannya: setiap rujukan
-baru harus sudah ada di Daftar Pustaka, dan angkanya harus benar-benar angka yang
-diterbitkan sumber itu. Daftar jangkar + alasannya ada di `numeric_sources.py`,
-supaya siapa pun bisa memeriksa satu per satu. Alatnya `cite_numbers.py`.
+**17 sumber baru** masuk Daftar Pustaka, semuanya karya terbit yang benar-benar
+memuat angka yang dirujuk: Addams et al. (2009), Gigerenzer (2015), Great
+Barrier Reef Marine Park Authority (2024), IPC (2021), Liemberger & Wyatt
+(2019), Milieudefensie v. Shell (2021), Newman et al. (2024), Roser &
+Ortiz-Ospina (2018), Texas DSHS (2023), UNEP (2023b), Urgenda (2019), WHO
+(2022), World Bank (2024), Filkov et al. (2020), Falepili Union Treaty (2023),
+Oregon State University (2023), Sphere Association (2018).
 
-Yang **tidak** saya lakukan: menempelkan rujukan pada 180 paragraf sisa hanya agar
-angkanya terlihat bagus. Sisa itu sebagian besar berupa angka korban peristiwa
-(Derna, Valencia, Türkiye, Badai Helene) dan ambang kebijakan (1,5 °C) yang sumber
-resminya belum ada di Daftar Pustaka. Seluruhnya terdaftar di `NUMERIC_CLAIMS.md` (381 paragraf untuk kedua edisi),
-lengkap dengan bab dan angkanya, untuk diperiksa satu per satu.
+**Aturan yang saya pakai, tanpa kecuali:** rujukan hanya dipasang kalau (a)
+sumbernya sudah ada di Daftar Pustaka, (b) angka itu memang diterbitkan sumber
+tersebut, dan (c) kalimatnya bisa dipastikan. Kalau ragu, tidak dipasang. Daftar
+jangkar lengkap ada di `more_citations.py` dan `apply_more.py`, sehingga setiap
+tambalan bisa diaudit satu per satu lalu dijalankan ulang
+(`python apply_more.py`) — hasilnya idempoten.
+
+Dari 14 paragraf sisa di edisi Inggris, 2 sudah menyebut sumbernya di dalam
+kalimat ("according to the United Nations Office for Disaster Risk Reduction",
+"a meta-analysis by Chen and colleagues"); sisanya kalimat retoris tanpa klaim
+statistik baru ("1,5 °C terdengar kecil"). Kalau angka baru ditambahkan kelak,
+`python numeric_audit.py` akan menandainya dan menuliskannya ke
+`NUMERIC_CLAIMS.md`.
 
 ### 5.2 Kemiripan dengan sumber luar — sampel sudah diuji, skor resmi belum
 
@@ -274,7 +288,7 @@ yang ketiga, dan itulah yang hampir masuk ke buku Anda.
 | ✅ Terverifikasi | 12 kalimat uji, 0 kecocokan verbatim di web |
 | ⬜ Perlu Anda | Jalankan Turnitin/iThenticate sebelum terbit (untuk skor resmi) |
 | ✅ Terverifikasi | 64 sitasi ditambahkan (tidak ada yang dikarang) |
-| ⬜ Perlu Anda | 180 paragraf bersisa — daftar di `NUMERIC_CLAIMS.md` |
+| ⬜ Perlu Anda | 14/30 paragraf bersisa — daftar di `NUMERIC_CLAIMS.md` |
 | ⬜ Opsional | Variasikan ritme paragraf yang terlalu seragam |
 
 Menjalankan ulang `python audit_plagiarism.py` kapan pun akan memberi angka terbaru

@@ -20,6 +20,7 @@ import sys
 from collections import Counter, defaultdict
 
 from cite_numbers import QUANTITY, is_body
+from numeric_audit import figures, CITE as Q_CITE
 
 FILES = [("book.md", "en"), ("book_id.md", "id")]
 MIN_WORDS = 9          # kalimat lebih pendek dari ini diabaikan (terlalu umum)
@@ -138,7 +139,7 @@ def audit(path, lang):
     # pembaca bisa melihat selisihnya.
     paras = [p for p in re.split(r"\n\s*\n", text) if is_body(p)]
     any_num = [p for p in paras if re.search(r"\d", p) and not CITE_STRICT.search(p)]
-    no_cite = [p for p in paras if QUANTITY.search(p) and not CITE_STRICT.search(p)]
+    no_cite = [p for p in paras if figures(p) and not Q_CITE.search(p)]
     print(f"\n4. Paragraf panjang ({len(paras)}):")
     print(f"   memuat digit apa pun tanpa rujukan   : {len(any_num)} "
           f"({len(any_num)/max(1,len(paras))*100:.0f}%)")
