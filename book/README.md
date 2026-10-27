@@ -12,7 +12,7 @@ Case Study and a Future Scenarios section that states what would falsify its own
 
 | | EN | ID |
 |---|---|---|
-| Pages (A4, 12 pt Tinos) | **430** | **445** |
+| Pages (A4, 12 pt Tinos) | **431** | **445** |
 | Words (`wc -w`) | **200,465** | **166,917** |
 | In-text citations | 402 | 350 |
 | References | 145 (130 cited in text) | 145 (124 cited in text) |
@@ -23,7 +23,7 @@ Case Study and a Future Scenarios section that states what would falsify its own
 
 | File | Purpose |
 |---|---|
-| `Surviving_the_Future.pdf` (repo root) | A4 reading/print PDF, 430 pp |
+| `Surviving_the_Future.pdf` (repo root) | A4 reading/print PDF, 431 pp |
 | `Surviving_the_Future_ID.pdf` (repo root) | A4 reading/print PDF, 445 pp |
 | `*_cover_print.pdf` | Full paperback wrap (back + spine + front), 300 dpi, 0.125 in bleed, spine sized from the page count, with a white 2 × 1.2 in retail barcode area |
 | `*_cover_front.jpg` | Front cover at the trim ratio (2550 × 3608, 300 dpi): artwork, typography, quote |
@@ -43,7 +43,7 @@ Case Study and a Future Scenarios section that states what would falsify its own
 | `book/cover/SKILL_open_generative_ai.md` | The prompt-compiler skill (from Anil-matcha/Open-Generative-AI, MIT) used to write the cover prompt |
 | `*.epub` | EPUB 3 ebook (title and copyright pages, nav + NCX + landmarks, accessibility metadata, XHTML tables with `th scope`, `<figure>` blocks with alternative text) |
 | `*.docx` | Editable manuscript: A4, Times New Roman 12 pt, justified, 12.7 mm indent, Heading styles, TOC field, running heads, page numbers, figures at 150 mm with `descr` alt text |
-| `*_interior.pdf` | Byte-identical copy of the A4 interior PDF (430 / 445 pp) for uploading with the cover |
+| `*_interior.pdf` | Byte-identical copy of the A4 interior PDF (431 / 445 pp) for uploading with the cover |
 | `build_report.json` | Page count, trim, bleed, spine width, cover size, dpi and file paths per edition |
 
 The interior PDFs are A4 with 30 mm margins, and `book/publish/*_interior.pdf` are byte-identical

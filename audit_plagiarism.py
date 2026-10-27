@@ -19,6 +19,8 @@ import re
 import sys
 from collections import Counter, defaultdict
 
+from cite_numbers import QUANTITY, is_body
+
 FILES = [("book.md", "en"), ("book_id.md", "id")]
 MIN_WORDS = 9          # kalimat lebih pendek dari ini diabaikan (terlalu umum)
 JACCARD = 0.62         # ambang kalimat "nyaris sama" (4-shingle; 0,62 = sangat mirip)
@@ -56,6 +58,8 @@ def shingles(toks, n=4):
 
 
 CITE = re.compile(r"\((?:[A-Z][^()]{0,80})?(?:19|20)\d{2}[a-z]?(?:[;,][^()]{0,40})?\)")
+# untuk atribusi paragraf: tahun telanjang "(2023)" BUKAN rujukan, jadi nama wajib ada
+CITE_STRICT = re.compile(r"\([A-Z][^()]{0,80}?(?:19|20)\d{2}[a-z]?\)")
 QUOTED = re.compile(r"[\u201c\"]([^\u201d\"]{40,})[\u201d\"]")
 
 
@@ -127,16 +131,24 @@ def audit(path, lang):
     for q in orphan[:3]:
         print(f"   - {q[:96]}...")
 
-    # ---- 4. paragraf berangka tanpa rujukan --------------------------------
-    paras = [p for p in re.split(r"\n\s*\n", text)
-             if len(p.split()) >= 40 and not p.startswith(("#", "-", "!", "[", "|"))]
-    no_cite = [p for p in paras if re.search(r"\d", p) and not CITE.search(p)]
-    print(f"\n4. Paragraf panjang ({len(paras)}): {len(no_cite)} memuat angka tanpa rujukan "
-          f"({len(no_cite)/max(1,len(paras))*100:.0f}%)")
+    # ---- 4. paragraf berkuantitas tanpa rujukan ---------------------------
+    # Versi lama menghitung SETIAP digit, termasuk tahun ("pada 2023") dan
+    # nomor bab, sehingga angkanya membengkak dan menyesatkan. Yang perlu
+    # rujukan adalah BESARAN, bukan tahun. Dua-duanya dilaporkan supaya
+    # pembaca bisa melihat selisihnya.
+    paras = [p for p in re.split(r"\n\s*\n", text) if is_body(p)]
+    any_num = [p for p in paras if re.search(r"\d", p) and not CITE_STRICT.search(p)]
+    no_cite = [p for p in paras if QUANTITY.search(p) and not CITE_STRICT.search(p)]
+    print(f"\n4. Paragraf panjang ({len(paras)}):")
+    print(f"   memuat digit apa pun tanpa rujukan   : {len(any_num)} "
+          f"({len(any_num)/max(1,len(paras))*100:.0f}%)")
+    print(f"   memuat BESARAN tanpa rujukan         : {len(no_cite)} "
+          f"({len(no_cite)/max(1,len(paras))*100:.1f}%)")
 
     return dict(lines=len(sents), dup=len(dup_idxs), dup_words=dup_words,
                 total_words=total_words, near=near_pairs, quotes=len(quotes),
                 orphan=len(orphan), paras=len(paras), nocite=len(no_cite),
+                anynum=len(any_num),
                 worst=worst[:5])
 
 

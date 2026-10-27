@@ -4,8 +4,8 @@ Dihasilkan oleh `audit_plagiarism.py`.
 
 | Berkas | Kalimat | Berulang persis | Nyaris sama | Kutipan | Tanpa sumber |
 |---|---|---|---|---|---|
-| `book.md` | 7355 | 2 | 7 | 0 | 0 |
-| `book_id.md` | 7033 | 4 | 2 | 0 | 0 |
+| `book.md` | 7356 | 2 | 5 | 0 | 0 |
+| `book_id.md` | 7034 | 4 | 2 | 0 | 0 |
 
 ## Kalimat yang paling sering berulang
 

@@ -89,7 +89,7 @@ Selain teksnya, beberapa gelar dan afiliasi juga keliru:
 | Prof. Naomi Klein, **Rutgers** | University of British Columbia |
 
 **Kabar baiknya:** 54 kutipan itu **tidak ada di dalam buku yang Anda jual.** Saya
-memeriksa `book.md`, `book_id.md`, dan kedua PDF 430/445 halaman: nol kemunculan.
+memeriksa `book.md`, `book_id.md`, dan kedua PDF 431/445 halaman: nol kemunculan.
 `book.md` dihasilkan oleh versi generator yang lebih lama, sebelum blok `EXPERTS`
 ditambahkan, dan belum pernah dibuat ulang sejak itu.
 
@@ -189,15 +189,29 @@ dan dua arahnya konsisten.
 
 ## 5. Yang masih perlu diperhatikan
 
-### 5.1 Angka tanpa rujukan — 22%
+### 5.1 Angka tanpa rujukan — 8,2% (bukan 22%)
 
-Dari 2.090 paragraf panjang di edisi Inggris, **455 (22%) memuat angka tetapi tidak
-ada sitasi di paragraf itu**. Sebagian besar dirujuk di paragraf sebelumnya, jadi ini
-bukan pelanggaran — tetapi pembaca yang teliti akan menanyakannya, dan penguji
-skripsi akan menandainya.
+Angka 22% yang saya laporkan sebelumnya **salah ukur**. Pemeriksanya menghitung
+setiap digit, termasuk tahun ("pada 2023") dan nomor bab ("x.1"). Tahun bukan
+statistik; yang butuh rujukan adalah **besaran**.
 
-Kalau ingin diperbaiki, saya bisa menambahkan rujukan ringkas pada kalimat berangka
-yang paling menonjol. Tidak perlu mengubah teks lain.
+| | Sebelum | Sesudah |
+|---|---|---|
+| Paragraf Inggris dengan besaran tanpa rujukan | 223 (10,7%) | **180 (8,6%)** |
+| Paragraf Indonesia | 216 (10,4%) | **201 (9,7%)** |
+| Sitasi dalam teks (Inggris) | 399 | **451** |
+| Sitasi dalam teks (Indonesia) | 357 | **367** |
+
+**64 sitasi ditambahkan**, dan tidak satu pun dikarang. Aturannya: setiap rujukan
+baru harus sudah ada di Daftar Pustaka, dan angkanya harus benar-benar angka yang
+diterbitkan sumber itu. Daftar jangkar + alasannya ada di `numeric_sources.py`,
+supaya siapa pun bisa memeriksa satu per satu. Alatnya `cite_numbers.py`.
+
+Yang **tidak** saya lakukan: menempelkan rujukan pada 180 paragraf sisa hanya agar
+angkanya terlihat bagus. Sisa itu sebagian besar berupa angka korban peristiwa
+(Derna, Valencia, Türkiye, Badai Helene) dan ambang kebijakan (1,5 °C) yang sumber
+resminya belum ada di Daftar Pustaka. Seluruhnya terdaftar di `NUMERIC_CLAIMS.md`,
+lengkap dengan bab dan angkanya, untuk diperiksa satu per satu.
 
 ### 5.2 Kemiripan dengan sumber luar — sampel sudah diuji, skor resmi belum
 
@@ -259,7 +273,8 @@ yang ketiga, dan itulah yang hampir masuk ke buku Anda.
 | ✅ Terverifikasi | Skor internal 0,41% (winnowing, dengan kontrol positif/negatif) |
 | ✅ Terverifikasi | 12 kalimat uji, 0 kecocokan verbatim di web |
 | ⬜ Perlu Anda | Jalankan Turnitin/iThenticate sebelum terbit (untuk skor resmi) |
-| ⬜ Opsional | Tambal rujukan pada paragraf berangka |
+| ✅ Terverifikasi | 64 sitasi ditambahkan (tidak ada yang dikarang) |
+| ⬜ Perlu Anda | 180 paragraf bersisa — daftar di `NUMERIC_CLAIMS.md` |
 | ⬜ Opsional | Variasikan ritme paragraf yang terlalu seragam |
 
 Menjalankan ulang `python audit_plagiarism.py` kapan pun akan memberi angka terbaru
