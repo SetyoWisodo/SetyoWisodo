@@ -1,6 +1,6 @@
 # Pemeriksaan Plagiasi — Surviving the Future
 
-**Kesimpulan singkat:** skor kemiripan internal **0,41%**, dan **0 dari 12 kalimat**
+**Kesimpulan singkat:** skor kemiripan internal **0,36%**, dan **0 dari 12 kalimat**
 yang diuji kata per kata ditemukan di web. Teks bukunya bersih dari duplikasi dan
 tidak memuat satu pun kutipan langsung.
 
@@ -14,7 +14,7 @@ angka mana pun di halaman ini.
 
 | Lapis | Cakupan | Skor |
 |---|---|---|
-| **Internal** — 48 bab dibandingkan satu sama lain | 359.146 kata | **0,41%** |
+| **Internal** — 48 bab dibandingkan satu sama lain | 374.949 kata | **0,36%** |
 | **Eksternal** — 12 kalimat uji ke web, kata per kata | 12 dari 24 bab | **0%** cocok |
 | **Kutipan langsung** dalam naskah | 7.355 kalimat | **0** |
 | **Perkiraan gaya-Turnitin** | — | **0–3%** |
@@ -120,7 +120,7 @@ kalimatnya **kata per kata**, catat nomor halaman, baru masukkan indeksnya ke
 
 ---
 
-## 2. Duplikasi internal — 0,41%
+## 2. Duplikasi internal — 0,36%
 
 Diukur dengan `tools/plagiarism/winnow.py`, implementasi algoritma **winnowing**
 (Schleimer, Wilkerson & Aiken, 2003) — algoritma yang sama dipakai MOSS dan menjadi
@@ -133,7 +133,7 @@ Alatnya divalidasi lebih dulu, karena skor 0% tanpa kontrol tidak bisa dipercaya
 |---|---|
 | Kontrol positif — satu paragraf buku disalin ke berkas terpisah | **98,17%** terdeteksi |
 | Kontrol negatif — teks karangan yang tidak berkaitan | **0%** (di bawah ambang) |
-| Seluruh buku, 48 bab saling dibandingkan | **0,41%** |
+| Seluruh buku, 48 bab saling dibandingkan | **0,36%** |
 
 Catatan percobaan: `copydetect` (repo GitHub `blingenf/copydetect`, 328 bintang)
 dicoba lebih dulu dan **gagal pada prosa** — tokenizer Pygments-nya menggabungkan
@@ -284,7 +284,7 @@ yang ketiga, dan itulah yang hampir masuk ke buku Anda.
 | ✅ Selesai | `audit_plagiarism.py` — audit duplikasi + pemeriksa atribusi |
 | ✅ Terverifikasi | 0 kutipan langsung di buku; duplikasi < 0,1% |
 | ✅ Terverifikasi | 0 masalah sitasi dua arah, kedua edisi |
-| ✅ Terverifikasi | Skor internal 0,41% (winnowing, dengan kontrol positif/negatif) |
+| ✅ Terverifikasi | Skor internal 0,36% (winnowing, dengan kontrol positif/negatif) |
 | ✅ Terverifikasi | 12 kalimat uji, 0 kecocokan verbatim di web |
 | ⬜ Perlu Anda | Jalankan Turnitin/iThenticate sebelum terbit (untuk skor resmi) |
 | ✅ Terverifikasi | 64 sitasi ditambahkan (tidak ada yang dikarang) |

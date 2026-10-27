@@ -94,7 +94,7 @@ baku yang sama (*"five consecutive failed rainy seasons"*).
 | | Inggris | Indonesia |
 |---|---|---|
 | Kalimat diperiksa | 7.355 | 7.033 |
-| Kemiripan internal | **0,41%** | — |
+| Kemiripan internal | **0,36%** | — |
 | Berulang persis | 2 | 4 |
 | Nyaris sama | 7 | 2 |
 | Teks dalam tanda kutip ≥ 40 huruf | **0** | **0** |
