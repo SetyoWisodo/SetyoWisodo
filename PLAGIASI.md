@@ -189,7 +189,7 @@ dan dua arahnya konsisten.
 
 ## 5. Yang masih perlu diperhatikan
 
-### 4.1 Angka tanpa rujukan — 22%
+### 5.1 Angka tanpa rujukan — 22%
 
 Dari 2.090 paragraf panjang di edisi Inggris, **455 (22%) memuat angka tetapi tidak
 ada sitasi di paragraf itu**. Sebagian besar dirujuk di paragraf sebelumnya, jadi ini
@@ -199,10 +199,12 @@ skripsi akan menandainya.
 Kalau ingin diperbaiki, saya bisa menambahkan rujukan ringkas pada kalimat berangka
 yang paling menonjol. Tidak perlu mengubah teks lain.
 
-### 4.2 Kemiripan dengan sumber luar — belum diuji
+### 5.2 Kemiripan dengan sumber luar — sampel sudah diuji, skor resmi belum
 
-Ini bagian yang tidak bisa saya kerjakan dan tidak bisa digantikan oleh audit di atas.
-Yang perlu dilakukan sebelum terbit:
+Lapisan ini sudah diukur sejauh mungkin tanpa lisensi: 12 kalimat khas, satu per bab,
+dicari kata per kata di web — **0 cocok**. Rinciannya di
+`tools/plagiarism/PHRASE_TESTS.md`. Yang belum — dan tidak akan bisa dari sini — adalah
+skor resmi terhadap korpus berlangganan. Untuk itu:
 
 | Alat | Biaya | Cocok untuk |
 |---|---|---|
@@ -216,15 +218,15 @@ lalu periksa **daftar sumber yang cocok**, bukan skor totalnya. Skor 15% bisa
 sepenuhnya berasal dari daftar pustaka dan nama lembaga — itu normal dan bukan
 plagiasi.
 
-### 4.3 Karakter teks yang dihasilkan mesin
+### 5.3 Keseragaman ritme kalimat
 
-Ini bukan plagiasi, tetapi berhubungan dan perlu Anda tahu: pola kalimat yang sangat
-seragam (banyak paragraf dengan panjang hampir sama, banyak konstruksi "X is not Y;
-it is Z") bisa dikenali pembaca sebagai teks yang disusun mesin. Sebagian pembaca
-menganggapnya sama seriusnya dengan plagiasi meski secara hukum berbeda.
+Ini bukan plagiasi, tetapi berhubungan dan perlu Anda tahu: ritme paragrafnya cukup
+seragam — banyak paragraf dengan panjang hampir sama, banyak konstruksi "X is not Y;
+it is Z". Pembaca yang membaca berjam-jam akan merasakan polanya, dan sebagian
+menganggapnya sama mengganggu dengan plagiasi meski persoalannya berbeda.
 
-Belum ada bagian di buku yang perlu diubah untuk ini, tetapi kalau Anda ingin, saya
-bisa menandai paragraf yang paling berpola dan menulis ulang sebagian agar ritmenya
+Belum ada bagian yang perlu diubah untuk ini, tetapi kalau Anda ingin, saya bisa
+menandai paragraf yang paling berpola dan menulis ulang sebagian agar ritmenya
 lebih beragam.
 
 ---
