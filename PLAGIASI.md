@@ -210,7 +210,7 @@ supaya siapa pun bisa memeriksa satu per satu. Alatnya `cite_numbers.py`.
 Yang **tidak** saya lakukan: menempelkan rujukan pada 180 paragraf sisa hanya agar
 angkanya terlihat bagus. Sisa itu sebagian besar berupa angka korban peristiwa
 (Derna, Valencia, Türkiye, Badai Helene) dan ambang kebijakan (1,5 °C) yang sumber
-resminya belum ada di Daftar Pustaka. Seluruhnya terdaftar di `NUMERIC_CLAIMS.md`,
+resminya belum ada di Daftar Pustaka. Seluruhnya terdaftar di `NUMERIC_CLAIMS.md` (381 paragraf untuk kedua edisi),
 lengkap dengan bab dan angkanya, untuk diperiksa satu per satu.
 
 ### 5.2 Kemiripan dengan sumber luar — sampel sudah diuji, skor resmi belum
