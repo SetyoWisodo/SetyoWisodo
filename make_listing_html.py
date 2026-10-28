@@ -70,6 +70,12 @@ def convert(text):
         raw = lines[i]
         line = raw.strip()
 
+        # lanjutan poin: baris menjorok setelah sebuah butir
+        if raw.startswith("  ") and line and items:
+            items[-1] += " " + line
+            i += 1
+            continue
+
         # heading: baris teks diikuti baris garis "-" atau "="
         nxt = lines[i + 1].strip() if i + 1 < len(lines) else ""
         if line and nxt and set(nxt) <= {"-", "="} and len(nxt) >= 3:
@@ -88,11 +94,6 @@ def convert(text):
         if line.startswith("* "):
             flush_para()
             items.append(line[2:].strip())
-            i += 1
-            continue
-
-        if line.startswith("  ") and items:      # lanjutan poin
-            items[-1] += " " + line.strip()
             i += 1
             continue
 

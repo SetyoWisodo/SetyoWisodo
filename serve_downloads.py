@@ -177,6 +177,8 @@ class Handler(BaseHTTPRequestHandler):
                 body = open(full, "rb").read()
                 # judul H1 dibuang: judul produk sudah ada di kolom Name Gumroad
                 body = re.sub(rb"<h1>.*?</h1>", b"", body, count=1, flags=re.S)
+                # kotak petunjuk ikut terbuang supaya tidak tersalin saat Ctrl+A
+                body = re.sub(rb"<div class=\"hint\">.*?</div>", b"", body, count=1, flags=re.S)
                 self.send_response(200)
                 ctype = ("text/plain; charset=utf-8" if fname.endswith(".txt")
                          else "text/html; charset=utf-8")
