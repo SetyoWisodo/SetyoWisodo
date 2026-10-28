@@ -135,6 +135,24 @@ Kolom harga tidak ada di tengah halaman — ia ada di **panel kanan**, di bawah 
 
 Jangan nyalakan **Pay what you want** dan jangan buat **variant**: satu harga, satu produk.
 
+### Tiga toggle di bagian Pricing — semuanya MATI
+
+| Toggle | Setelan | Sebab |
+|---|---|---|
+| Allow customers to pay what they want | **mati** | Produk berharga tetap; kalau nyala, pembeli bisa membayar $1 |
+| Allow customers to pay in installments | **mati** | Nilai transaksi kecil; cicilan hanya menambah friksi dan biaya |
+| Automatically apply discount code | **mati** | Diskon dipakai manual lewat kode; kalau nyala, semua orang dapat diskon |
+
+### Bagian Versions — lewati
+
+Kotak **+ Add version** dibiarkan kosong. Satu versi, empat berkas. Versi hanya berguna kalau Anda menjual paket berbeda (mis. PDF saja vs PDF + cetak).
+
+### Peringatan kuning di bawah halaman — bukan kesalahan
+
+> *"This product has no files or content. Buyers who purchase it get an empty download page — add content in the Content tab."*
+
+Ini normal dan **hilang sendiri setelah Langkah 7**. Artinya sederhana: harganya sudah, berkasnya belum. Klik **Save and continue**, lalu pindah ke tab **Content**.
+
 ---
 
 ## Langkah 7 · Tab Content — bagian paling penting
