@@ -57,8 +57,16 @@ def card(root, fname, title, note="", preview=True):
         <span class="sub">{html.escape(note)} · {size}</span></div></a>'''
 
 
-def build_html():
+def build_html(host=""):
     parts = []
+
+    base = f"https://{host}" if host else ""
+    parts.insert(0, f'''<div class="hero">
+      <a class="btn" href="/copy/en" target="_blank">Buka teks deskripsi EN &nbsp;→</a>
+      <p class="lede" style="margin:14px 0 0">Lalu <b>Ctrl+A</b>, <b>Ctrl+C</b>, dan tempel ke kotak
+      Description di Gumroad. Alamat halaman itu:
+      <code>{base}/copy/en</code> — bisa juga diketik langsung di bilah alamat,
+      atau dibuka dari kartu di bawah.</p></div>''')
 
     parts.append('<h2>Teks deskripsi siap tempel</h2><div class="grid">')
     for slug, t in [("en-plain", "EN — teks polos (paling gampang)"),
@@ -136,6 +144,12 @@ h2{{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--amb
 .thumb{{background:#fff;aspect-ratio:1;display:flex;align-items:center;justify-content:center}}
 .thumb img{{width:100%;height:100%;object-fit:contain}}
 .card:has(.thumb:empty) .thumb{{display:none}}
+.hero{{background:#132538;border:1px solid #2a4056;border-radius:14px;padding:26px 26px 24px;margin:0 0 8px}}
+.btn{{display:inline-block;background:var(--amber);color:#151006;font-weight:700;
+ font-size:16px;padding:13px 22px;border-radius:9px;text-decoration:none}}
+.btn:hover{{filter:brightness(1.08)}}
+code{{background:#0d1b2a;border:1px solid var(--line);border-radius:5px;
+ padding:2px 6px;font-size:12.5px;color:#f0d9b0;word-break:break-all}}
 .meta{{padding:11px 13px 13px;display:flex;flex-direction:column;gap:3px}}
 .meta b{{font-size:14px;font-weight:600}}
 .meta span{{font-size:11.5px;color:var(--muted);word-break:break-all}}
@@ -158,7 +172,7 @@ class Handler(BaseHTTPRequestHandler):
         path = urllib.parse.unquote(self.path.split("?")[0])
 
         if path in ("/", "/index.html"):
-            body = build_html().encode()
+            body = build_html(self.headers.get("Host", "")).encode()
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.send_header("Content-Length", str(len(body)))
