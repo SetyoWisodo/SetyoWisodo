@@ -147,6 +147,33 @@ Jangan nyalakan **Pay what you want** dan jangan buat **variant**: satu harga, s
 
 Kotak **+ Add version** dibiarkan kosong. Satu versi, empat berkas. Versi hanya berguna kalau Anda menjual paket berbeda (mis. PDF saja vs PDF + cetak).
 
+---
+
+## Langkah 6c · Settings (di bawah Versions)
+
+Enam toggle. Hanya dua yang perlu disentuh.
+
+| Toggle | Setelan | Sebab |
+|---|---|---|
+| **Limit product sales** | mati | Produk digital, stok tak terbatas. Menyalakan ini membuat produk berhenti terjual setelah batas tertentu |
+| **Allow customers to choose a quantity** | mati | Buku tidak dijual per kodi; menyalakannya membuat pembeli bisa membeli 5 salinan sekaligus dan bingung soal lisensi |
+| **Publicly show the number of sales on your product page** | mati (awal) | Di awal, angka "3 sales" justru melemahkan. Nyalakan nanti setelah lewat 50 penjualan — saat angka itu jadi bukti sosial |
+| **Mark product as e-publication for VAT purposes** | **NYALA** | Ini buku elektronik. Dengan ini Gumroad memperlakukan produk sebagai e-publication, bukan layanan digital umum — relevan untuk perlakuan pajak di beberapa negara pembeli |
+| **Specify a refund policy for this product** | **NYALA** — wajib | Lihat teks di bawah. Tanpa kebijakan yang tertulis, sengketa pembayaran selalu dimenangkan pembeli |
+| **Custom domain** | kosongkan | Domain sendiri hanya perlu bila Anda punya situs. `setyowisodo.gumroad.com` sudah cukup |
+
+### Refund policy — tempel teks ini
+
+Klik toggle **Specify a refund policy**, lalu tempel:
+
+```
+Because this is a digital download, sales are final once the files have been
+accessed. If a file will not open, or you received the wrong edition, write to me
+within 14 days and I will send a working copy or refund you in full.
+```
+
+Kalimat ini adil untuk kedua pihak: pembeli dilindungi dari berkas rusak, Anda dilindungi dari pembelian lalu minta uang kembali setelah membaca seluruh buku. Gumroad menampilkan kebijakan ini di halaman checkout.
+
 ### Peringatan kuning di bawah halaman — bukan kesalahan
 
 > *"This product has no files or content. Buyers who purchase it get an empty download page — add content in the Content tab."*
