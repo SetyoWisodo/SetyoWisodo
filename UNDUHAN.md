@@ -40,3 +40,37 @@ Preview sesi ini (hidup selama sesi berjalan; kalau muncul "Sandbox not found", 
 - PDF isi: EN 457 halaman, ID 473 halaman, A4, Times New Roman 12 pt.
 - Sampel gratis boleh dibagikan bebas; isi penuh untuk pembeli (Gumroad: EN US$45, ID US$29, bundel US$59, sampel US$0).
 - Salinan pembeli diberi stempel pembeli sehingga dapat ditelusuri, tanpa DRM.
+
+## Materi unggah Gumroad (gambar)
+
+Klik nama berkas → tombol **Download raw file** di kanan atas. Semua sudah angka final (EN 457 hlm · ID 473 hlm · bundle 930 hlm · 152 sumber).
+
+**Produk 1 — Surviving the Future (EN)**
+
+- [cover_en_1_hero.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/cover_en_1_hero.png) — Gambar cover 1 — buku 3D + judul + angka 24 · 152 · 457
+- [cover_en_2_inside.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/cover_en_2_inside.png) — Gambar cover 2 — halaman asli buku
+- [cover_en_3_quote.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/cover_en_3_quote.png) — Gambar cover 3 — kutipan sampul belakang
+- [thumb_en.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/thumb_en.png) — Thumbnail 1600×1600
+
+**Produk 2 — Free sample (EN)**
+
+- [cover_sample_1_hero.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/cover_sample_1_hero.png) — Gambar cover 1 — sampel gratis
+- [thumb_sample.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/thumb_sample.png) — Thumbnail 1600×1600
+
+**Produk 3 — Bertahan Hidup di Masa Depan (ID)**
+
+- [cover_id_1_hero.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/cover_id_1_hero.png) — Gambar cover 1 — buku 3D + judul + angka 24 · 152 · 473
+- [cover_id_2_inside.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/cover_id_2_inside.png) — Gambar cover 2 — halaman asli buku
+- [cover_id_3_quote.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/cover_id_3_quote.png) — Gambar cover 3 — kutipan sampul belakang
+- [thumb_id.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/thumb_id.png) — Thumbnail 1600×1600
+
+**Produk 4 — Bundle (EN + ID)**
+
+- [cover_bundle_1_hero.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/cover_bundle_1_hero.png) — Gambar cover 1 — dua buku berdampingan
+- [cover_bundle_2_quote.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/cover_bundle_2_quote.png) — Gambar cover 2 — kutipan
+- [thumb_bundle.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/thumb_bundle.png) — Thumbnail 1600×1600
+
+**Profil**
+
+- [profile_avatar.png](https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/gumroad/profile_avatar.png) — Avatar profil 800×800
+
