@@ -96,6 +96,47 @@ Klik **Save and continue** di kanan atas. Kalau ada kotak kuning di panel kanan,
 
 ---
 
+## Langkah 5b · Product info (Call to action · Summary · Additional details)
+
+Bagian ini muncul setelah Thumbnail. Isinya pendek, tapi Summary ikut tampil di kartu produk dan hasil pencarian Gumroad — jadi jangan dikosongkan.
+
+| Kolom | Isi | Alasan |
+|---|---|---|
+| **Call to action** | `I want this` — biarkan | Teks tombol beli; sudah wajar |
+| **Summary** | lihat tabel di bawah | Satu kalimat, tampil di bawah tombol beli |
+| **Additional details** | `Pages` → `457` · `Language` → `English` · `Format` → `PDF, EPUB, DOCX` | Muncul sebagai butir detail di halaman produk; membantu orang memutuskan sebelum membeli |
+| **Integrations** (community chat) | **mati** | Chat butuh dijawab setiap hari; jangan dinyalakan kalau tidak ada waktu |
+
+### Summary — empat kalimat final
+
+| Produk | Summary |
+|---|---|
+| EN ($45) | `Why the same storm kills in one country and spares the next — and what a prepared community does differently. 24 chapters, 457 pages, 152 cited sources.` |
+| ID ($29) | `Mengapa badai yang sama menewaskan di satu negeri dan tidak di negeri lain — dan apa yang dilakukan masyarakat yang siap. 24 bab, 473 halaman, 152 sumber.` |
+| Sampel ($0) | `The full table of contents, the preface, and all of Chapter 1 — free, no email wall.` |
+| Bundle ($59) | `Both editions, 930 pages, one purchase: the English and Indonesian books, written separately for each readership.` |
+
+Kalau kotak Summary menolak karena terlalu panjang, potong bagian setelah tanda pisah — kalimat pertama saja sudah cukup.
+
+### Additional details — cara mengisi
+
+1. Klik dropdown yang sekarang terbaca **Pages** → pilih **Pages**, lalu isi kolom sebelahnya dengan `457`.
+2. Klik **+ Add detail** untuk menambah baris: pilih **Language** → `English`.
+3. **+ Add detail** lagi: pilih **Format** → `PDF, EPUB, DOCX`.
+4. Kalau atribut yang Anda mau tidak ada di daftar, klik ikon **tong sampah** di kanan baris itu — lebih baik tidak ada detail daripada detail yang salah.
+
+Untuk produk ID, ganti Language menjadi `Indonesian`; untuk bundle, tulis `English, Indonesian`.
+
+---
+
+## Langkah 6b · Harga (panel kanan)
+
+Kolom harga tidak ada di tengah halaman — ia ada di **panel kanan**, di bawah tulisan *Price*. Ketik `45`, pastikan satuannya **USD**, lalu klik di luar kotak. Peringatan kuning *"Please enter a valid price"* akan hilang setelah angka masuk.
+
+Jangan nyalakan **Pay what you want** dan jangan buat **variant**: satu harga, satu produk.
+
+---
+
 ## Langkah 7 · Tab Content — bagian paling penting
 
 Klik tab **Content** di atas. Unggah **empat berkas** (tombol *Upload files*):
