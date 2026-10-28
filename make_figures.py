@@ -297,23 +297,26 @@ def fig7_1():
 
 # --------------------------------------------------------------- 8.1 --------
 def fig8_1():
-    data = [("Coral reefs", (70, 90), (99, 100)),
-            ("Freshwater species", (20, 30), (40, 60)),
-            ("Mangroves", (10, 30), (30, 50)),
-            ("Permafrost", (10, 20), (30, 50))]
+    # Label eksplisit: karang sudah >99 % pada 2 °C (IPCC SR1.5), dan pada 3 °C
+    # yang dilaporkan adalah kehilangan struktur, bukan persentase baru.
+    data = [("Coral reefs   (3 °C: structure lost)", (99, 100), ">99%", None, None),
+            ("Freshwater species", (20, 30), "20–30%", (40, 60), "40–60%"),
+            ("Mangroves", (10, 30), "10–30%", (30, 50), "30–50%"),
+            ("Permafrost", (10, 20), "10–20%", (30, 50), "30–50%")]
     fig, ax = plt.subplots(figsize=(5.9, 2.9))
     ys = list(range(len(data)))
     MINW = 1.6  # keep a 1-point range visible at 300 dpi
-    for y, (name, two, three) in zip(ys, data):
+    for y, (name, two, lab2, three, lab3) in zip(ys, data):
         ax.barh(y + 0.17, max(two[1] - two[0], MINW), left=two[0], height=0.28,
                 color=NAVY, zorder=3)
-        ax.barh(y - 0.17, max(three[1] - three[0], MINW), left=three[0], height=0.28,
-                color=RUST, zorder=3)
-        ax.annotate("%d–%d%%" % two, (two[1], y + 0.17), xytext=(6, 0),
+        if three is not None:
+            ax.barh(y - 0.17, max(three[1] - three[0], MINW), left=three[0], height=0.28,
+                    color=RUST, zorder=3)
+        ax.annotate(lab2, (two[1], y + 0.17), xytext=(6, 0),
                     textcoords="offset points", va="center", fontsize=7.8, color=NAVY)
-        lab = ">99%" if three[1] == 100 else "%d–%d%%" % three
-        ax.annotate(lab, (three[1], y - 0.17), xytext=(6, 0),
-                    textcoords="offset points", va="center", fontsize=7.8, color=RUST)
+        if lab3:
+            ax.annotate(lab3, (three[1], y - 0.17), xytext=(6, 0),
+                        textcoords="offset points", va="center", fontsize=7.8, color=RUST)
     ax.set_yticks(ys)
     ax.set_yticklabels([d[0] for d in data])
     ax.invert_yaxis()
@@ -369,7 +372,7 @@ def fig11_1():
 
 # -------------------------------------------------------------- 17.1 --------
 def fig17_1():
-    data = [("Low adaptation", 700), ("Current trends", 500), ("High adaptation", 250)]
+    data = [("Low adaptation", 735), ("Current trends", 500), ("High adaptation", 245)]
     fig, ax = plt.subplots(figsize=(5.9, 2.9))
     xs = range(len(data))
     ax.bar(list(xs), [d[1] for d in data], color=[RUST, AMBER, NAVY], width=0.55, zorder=3)
@@ -389,15 +392,16 @@ def fig22_1():
     data = [("Europe 2003 (heat)", 70000), ("Pakistan 2022 (flood)", 1700),
             ("Chicago 1995 (heat)", 739), ("Lytton 2021 (heat and fire)", 619),
             ("Germany 2021 (flood)", 180), ("Black Saturday 2009 (fire)", 173),
-            ("Seoul 2022 (flood)", 141), ("Camp Fire 2018 (fire)", 85)]
+            ("Seoul 2022 (flood)", 12), ("Camp Fire 2018 (fire)", 85)]
     fig, ax = plt.subplots(figsize=(5.9, 3.0))
     ys = range(len(data))
     ax.barh(list(ys), [d[1] for d in data], color=NAVY, height=0.62, zorder=3)
     for y, (name, val) in zip(ys, data):
-        ax.annotate("{:,}".format(val), (val, y), xytext=(6, 0),
+        label = "12+" if val == 12 else "{:,}".format(val)
+        ax.annotate(label, (val, y), xytext=(6, 0),
                     textcoords="offset points", va="center", fontsize=8, color=INK)
     ax.set_xscale("log")
-    ax.set_xlim(50, 300000)
+    ax.set_xlim(8, 300000)
     ax.set_yticks(list(ys))
     ax.set_yticklabels([d[0] for d in data])
     ax.invert_yaxis()
@@ -435,11 +439,11 @@ CHECKS = {
     "5.1": ["| ~300 |", "| ~280 |", "| ~60 |", "| ~40 |", "| ~25 |", "| ~2.4 |"],
     "6.1": ["~2.5 million", "~1.5 million", "~1 million", "~0.4 million", "~0.5 million"],
     "7.1": ["| −6% |", "| −7.4% |", "| −3.2% |", "| −3.1% |", "−10 to −20%", "−5 to −10% (milk)"],
-    "8.1": ["70–90% decline", ">99% decline", "10–20% thaw", "30–50% thaw", "10–30% loss", "30–50% loss", "20–30% species loss", "40–60% species loss"],
+    "8.1": [">99% decline", "Reef structure lost", "10–20% thaw", "30–50% thaw", "10–30% loss", "30–50% loss", "20–30% species loss", "40–60% species loss"],
     "10.1": ["−3 to −5%", "−8 to −12%", "−15 to −20%"],
     "11.1": ["| ~85 |", "| ~40 |", "| ~17 |", "| ~48 |", "| ~19 |", "| ~2–3 |"],
-    "17.1": ["~700,000", "~500,000", "~250,000"],
-    "22.1": ["| 739 |", "~70,000", "| 173 |", "| 85 |", "619 (BC)", ">180", "1,700+", "| 141 |"],
+    "17.1": ["~735,000", "~500,000", "~245,000"],
+    "22.1": ["| 739 |", "~70,000", "| 173 |", "| 85 |", "619 (BC)", ">180", "1,700+", "| 12+ |"],
     "23.1": ["~100,000", "~1,000,000", "~258,000", "~43,000"],
 }
 

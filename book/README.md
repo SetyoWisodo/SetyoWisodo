@@ -12,9 +12,9 @@ Case Study and a Future Scenarios section that states what would falsify its own
 
 | | EN | ID |
 |---|---|---|
-| Pages (A4, 12 pt Tinos) | **456** | **472** |
-| Words (`wc -w`) | **212,313** | **176,514** |
-| In-text citations | 694 | 659 |
+| Pages (A4, 12 pt Tinos) | **457** | **473** |
+| Words (`wc -w`) | **212,489** | **176,674** |
+| In-text citations | 698 | 662 |
 | References | 172 (149 cited in text) | 172 (145 cited in text) |
 | PDF outline entries | 327 | 327 |
 | Data figures | 11 | 11 |
@@ -23,8 +23,8 @@ Case Study and a Future Scenarios section that states what would falsify its own
 
 | File | Purpose |
 |---|---|
-| `Surviving_the_Future.pdf` (repo root) | A4 reading/print PDF, 456 pp |
-| `Surviving_the_Future_ID.pdf` (repo root) | A4 reading/print PDF, 472 pp |
+| `Surviving_the_Future.pdf` (repo root) | A4 reading/print PDF, 457 pp |
+| `Surviving_the_Future_ID.pdf` (repo root) | A4 reading/print PDF, 473 pp |
 | `*_cover_print.pdf` | Full paperback wrap (back + spine + front), 300 dpi, 0.125 in bleed, spine sized from the page count, with a white 2 × 1.2 in retail barcode area |
 | `*_cover_front.jpg` | Front cover at the trim ratio (2550 × 3608, 300 dpi): artwork, typography, quote |
 | `*_cover_ebook.jpg` | Ebook cover at the 1:1.6 ratio stores ask for (1600 × 2560), used inside the EPUB |
@@ -43,7 +43,7 @@ Case Study and a Future Scenarios section that states what would falsify its own
 | `book/cover/SKILL_open_generative_ai.md` | The prompt-compiler skill (from Anil-matcha/Open-Generative-AI, MIT) used to write the cover prompt |
 | `*.epub` | EPUB 3 ebook (title and copyright pages, nav + NCX + landmarks, accessibility metadata, XHTML tables with `th scope`, `<figure>` blocks with alternative text) |
 | `*.docx` | Editable manuscript: A4, Times New Roman 12 pt, justified, 12.7 mm indent, Heading styles, TOC field, running heads, page numbers, figures at 150 mm with `descr` alt text |
-| `*_interior.pdf` | Byte-identical copy of the A4 interior PDF (456 / 472 pp) for uploading with the cover |
+| `*_interior.pdf` | Byte-identical copy of the A4 interior PDF (457 / 473 pp) for uploading with the cover |
 | `build_report.json` | Page count, trim, bleed, spine width, cover size, dpi and file paths per edition |
 
 The interior PDFs are A4 with 30 mm margins, and `book/publish/*_interior.pdf` are byte-identical
@@ -100,7 +100,7 @@ content/depth*.py               layered additions loaded by deep_render.py
 deep_render.py                  chapter assembler
 book_pdf.py                     PDF renderer (justification, hyphenation, tables, TOC, outline)
 style_pass.py, style_variety.py post-generation style transforms (de-templating, dedup)
-references.py                   REFS_EN / REFS_ID, 172 entries each
+references.py                   REFS_EN / REFS_ID, 175 entries each
 GATE2..GATE6_REPORT.md          gate reports
 ```
 

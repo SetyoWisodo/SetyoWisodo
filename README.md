@@ -8,14 +8,14 @@ warming, written for general readers who want the evidence rather than the sloga
 
 | | English | Bahasa Indonesia |
 |---|---|---|
-| PDF | `Surviving_the_Future.pdf` (**456 pp**) | `Surviving_the_Future_ID.pdf` (**472 pp**) |
+| PDF | `Surviving_the_Future.pdf` (**457 pp**) | `Surviving_the_Future_ID.pdf` (**473 pp**) |
 | EPUB | `book/publish/Surviving_the_Future_EN.epub` | `book/publish/Bertahan_Hidup_di_Masa_Depan_ID.epub` |
 | DOCX | `book/publish/Surviving_the_Future_EN.docx` | `book/publish/Bertahan_Hidup_di_Masa_Depan_ID.docx` |
 | Print cover | `book/publish/Surviving_the_Future_EN_cover_print.pdf` | `book/publish/Bertahan_Hidup_di_Masa_Depan_ID_cover_print.pdf` |
 | 3D marketplace image | `book/publish/3d/Surviving_the_Future_EN_3d_square.png` | `book/publish/3d/Bertahan_Hidup_di_Masa_Depan_ID_3d_square.png` |
-| Words | 212,313 | 176,514 |
+| Words | 212,489 | 176,674 |
 | References | 172 (149 cited in text) | 172 (145 cited in text) |
-| In-text citations | 694 | 659 |
+| In-text citations | 698 | 662 |
 
 ## What the book contains
 
@@ -50,7 +50,7 @@ See `book/README.md` for the pipeline, the verification tools, and the typograph
 
 ## Verification
 
-`check_citations.py` (694/659 citations, 0 problems), `fact_check.py` (0 failures),
+`check_citations.py` (698/662 citations, 0 problems), `fact_check.py` (0 failures),
 `prediction_audit.py` (24/24 chapters pass in both editions), `advice_audit.py` (24/24 implementation
 paragraphs pass in both editions), `repetition_audit.py` (EN 48 / ID 57 similar paragraph pairs, down
 from 66/70),

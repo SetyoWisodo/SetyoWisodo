@@ -15,7 +15,7 @@ isinya, dan angkanya diambil langsung dari berkas:
 | Metrik | Nilai | Buku sejenis umumnya |
 |---|---|---|
 | Kata | **201.037** | 80.000–100.000 |
-| Halaman | 456 | 250–320 |
+| Halaman | 457 | 250–320 |
 | Kata per halaman | 468 | 300–350 |
 | Bab | 24 | 10–14 |
 | Subbab bernomor | 288 | — |
@@ -54,7 +54,7 @@ ditentukan oleh yang lebih rendah dari keduanya.
 ### Harga per halaman — cara paling adil membandingkan
 
 Penerbit akademik menetapkan harga per halaman: universitas $0,30, komersial $0,47.
-Untuk 456 halaman:
+Untuk 457 halaman:
 
 | Harga | Per halaman | Dibanding universitas ($0,30) |
 |---|---|---|
@@ -89,7 +89,7 @@ Terhadap ketiga patokan sekaligus:
 - **13,5% di bawah** median paperback Routledge
 - **18,2% di bawah** paperback terbitan universitas
 
-Harga per halaman: $45 ÷ 456 = **$0,100/halaman**, sepertiga dari patokan
+Harga per halaman: $45 ÷ 457 = **$0,100/halaman**, sepertiga dari patokan
 penerbit universitas ($0,30).
 
 Kalau ditanya "kenapa $45", jawabannya satu kalimat: *buku akademik sejenis dijual

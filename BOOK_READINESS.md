@@ -2,7 +2,7 @@
 
 **Buku:** *Surviving the Future: Crisis, Climate, and Human Resilience* (EN) / *Bertahan Hidup di Masa Depan* (ID)
 **Tanggal penilaian:** 28 Oktober 2026 · **Status:** **siap edar** — 9,2 / 10 (setelah perbaikan pasca-review ahli, lihat `REVIEW_EXPERT.md` §8)
-**Artefak yang dinilai:** `Surviving_the_Future.pdf` (456 hlm), `Surviving_the_Future_ID.pdf` (472 hlm),
+**Artefak yang dinilai:** `Surviving_the_Future.pdf` (457 hlm), `Surviving_the_Future_ID.pdf` (473 hlm),
 EPUB, DOCX, sampul cetak, `build_report.json`
 
 ---
@@ -14,7 +14,7 @@ EPUB, DOCX, sampul cetak, `build_report.json`
 | Isi dan struktur | 20 % | 9,5 | 24 bab; setiap bab punya Case Study dan Future Scenarios bernomor; 25 tabel; 11 gambar data |
 | Penyuntingan dan konsistensi angka | 15 % | 9,0 | aparatus sitasi bersih; `fact_check` 0 gagal; 0 pasangan paragraf ≥ 5,0 |
 | Tipografi dan tata letak cetak | 15 % | 9,5 | margin simetris 30 mm di setiap halaman, kepala berjalan terpusat, folio kanan-bawah (tengah pada pembuka bab), pemenggalan kata, tanda kutip tipografis, spasi satuan |
-| Aparatus akademik | 15 % | 9,7 | 694/659 sitasi, daftar pustaka 172 entri, 25/25 tabel bercatatan sumber, glosarium 64 istilah, indeks A–Z dengan rentang halaman, *see also*, dan *passim* |
+| Aparatus akademik | 15 % | 9,7 | 698/662 sitasi, daftar pustaka 175 entri, 25/25 tabel bercatatan sumber, glosarium 64 istilah, indeks A–Z dengan rentang halaman, *see also*, dan *passim* |
 | Kelengkapan pra-cetak | 10 % | 8,0 | halaman judul + hak cipta + disclaimer ada; **ISBN belum ada**; belum ada halaman persembahan/ucapan terima kasih |
 | Sampul dan kesiapan ritel | 10 % | 9,2 | seni generatif baru (krisis dan ketahanan dalam satu bingkai), dua rasio: potong A4 1800 × 2546 dan ebook 1600 × 2560; punggung terhitung otomatis, bleed 0,125 in, zona barcode putih 2 × 1,2 inci; **barcode EAN-13 belum ditempel** (menunggu ISBN) |
 | EPUB | 7,5 % | 9,0 | 53 berkas, nav + NCX + landmarks, metadata aksesibilitas, 11 gambar bertalt; **belum divalidasi epubcheck** (butuh Java) |
@@ -46,16 +46,33 @@ diselesaikan pemilik buku (ISBN, imprint/harga, izin kutipan) dan dua keterbatas
 
 | | EN | ID |
 |---|---|---|
-| Halaman | **456** | **472** |
-| Kata (`wc -w`) | 212.313 | 176.514 |
-| Sitasi dalam teks | 694 | 659 |
+| Halaman | **457** | **473** |
+| Kata (`wc -w`) | 212.489 | 176.674 |
+| Sitasi dalam teks | 698 | 662 |
 | Tabel / gambar | 25 / 11 | 25 / 11 |
 | EPUB | 53 berkas | 53 berkas |
 | DOCX | 2.836 paragraf, 25 tabel, 11 gambar | 2.839 paragraf, 25 tabel, 11 gambar |
-| Punggung sampul | 1,140 inci | 1,180 inci |
+| Punggung sampul | 1,143 inci | 1,183 inci |
 | Ukuran sampul | 17,93 × 11,94 inci | 17,97 × 11,94 inci |
 
 ---
+
+## 2b. Pemeriksaan konsistensi silang angka (wajib setiap kali angka diubah)
+
+Satu angka tinggal di empat tempat, dan memperbaiki satu tempat tidak
+memperbaiki tiga sisanya. Urutan periksa yang dipakai sejak pass terakhir:
+
+1. **Tabel** — sel tempat angka itu berada, termasuk header (tahun, satuan, "relatif").
+2. **Gambar** — `make_figures.py` menggambar dari data sendiri, bukan dari tabel;
+   jalankan `python make_figures.py` dan perhatikan baris `verifikasi:` di akhirnya.
+3. **Caption dan teks alternatif** — `figures.py` menyimpan `cap_*`, `src_*`, `alt_*`;
+   teks alternatif ini yang masuk ke EPUB dan DOCX, jadi versi lama akan lolos tanpa terlihat.
+4. **Prosa** — kalimat yang menyebut angka itu, biasanya satu sampai tiga paragraf
+   sebelum dan sesudah tabel.
+
+Pemeriksaan ini menemukan enam ketidakcocokan pada pass terakhir (Figure 8.1,
+Figure 17.1, Table/Figure 22.1, jumlah baris Table 22.1, catatan Lytton, dan satu
+kalimat Bab 8); rinciannya di `REVIEW_EXPERT.md` §9.
 
 ## 3. Yang harus Anda kerjakan sendiri (tidak bisa dikerjakan dari sini)
 

@@ -3,7 +3,7 @@
 **Peran penilai:** profesor bidang ilmu iklim dan risiko bencana, bertindak sebagai
 auditor naskah (bukan penyunting bahasa).
 **Naskah yang dinilai:** `book.md` (EN) dan `book_id.md` (ID); versi pertama
-commit `8847077`, versi perbaikan commit `e68778c`; interior PDF 456 dan 472 halaman.
+commit `8847077`, versi perbaikan commit `e68778c`; interior PDF 457 dan 473 halaman.
 **Metode:** dua belas pemeriksaan otomatis (angka, sitasi, tabel, gambar, indeks,
 glosarium, rujukan silang, atribusi, panjang bab, kepadatan sitasi, pengulangan,
 metadata) ditambah pembacaan manual ±60 halaman yang paling padat angka, yaitu
@@ -29,7 +29,7 @@ Isi dan argumennya tidak diubah, karena di situlah kekuatan naskah ini.
 | Dimensi | Nilai | Catatan |
 |---|---|---|
 | Ketepatan isi (fakta, angka, satuan) | 8,0 → **9,5**/10 | lima kesalahan sudah diganti angka yang dapat dilacak |
-| Aparatus akademik (sitasi, pustaka, atribusi) | 8,5 → **9,5**/10 | 694/659 sitasi terbaca, 0 masalah; 172/172 entri pustaka |
+| Aparatus akademik (sitasi, pustaka, atribusi) | 8,5 → **9,5**/10 | 698/662 sitasi terbaca, 0 masalah; 175/175 entri pustaka |
 | Keterlacakan angka tabel | **4,0 → 9,5**/10 | 24 tabel kini bersumber; Table P.1 sudah punya kolom Source |
 | Struktur dan keterbacaan | 9,0/10 | 24 bab, subbab bernomor, kasus + prediksi + anjuran |
 | Kejujuran prediksi | 9,5/10 | 24/24 bab punya falsifier dan indikator |
@@ -223,7 +223,7 @@ ada di Daftar Pustaka.
 | 1 | Catatan sumber untuk 24 tabel | EN + ID | **selesai** | 24 baris `Source:` / `Sumber:` tercetak (dihitung ulang dari PDF) |
 | 2 | Baris karang Table 8.1 | EN + ID | **selesai** | 1,5 °C: 70–90 %; 2 °C: >99 %; kolom ketiga menjadi akibat struktural |
 | 3 | Penurunan tanah Jakarta Table 6.1 | EN + ID | **selesai** | 1–15 → 1–25 cm/tahun, sesuai teks Bab 6 |
-| 4 | Angka Seoul 2022 | EN + ID | **selesai** | 141 → "setidaknya selusin" (angka 141 tidak dapat dilacak; 141 adalah korban banjir Seoul 2022 yang dilaporkan untuk seluruh negeri, bukan kota) |
+| 4 | Angka Seoul 2022 | EN + ID | **selesai** | 141 → "setidaknya selusin"; tabel dan gambar kini memakai **12+** dan menandainya sebagai minimum, karena angka kota yang dapat dilacak hanya berada di kisaran belasan |
 | 5 | Lima atribusi angka | EN + ID | **selesai** | IEA → IPCC (2021); Irma/Maria → NOAA NCEI; Katrina → Brunkard (Louisiana) + NOAA (kerusakan); Uri → TSDSHS + NOAA + analisis independen; Seoul |
 | 6 | Akhiran ", 2050" pada 9 judul tabel | EN + ID | **selesai** | 13.1, 16.1, 18.1, 19.1, 20.1, 21.1, 22.1, 23.1, 24.1 tidak lagi berakhiran tahun |
 | 7 | Kalimat penunjuk tabel + gambar | EN + ID | **selesai** | 24/24 tabel dan 11/11 gambar dirujuk dari prosa (0 tersisa) |
@@ -244,23 +244,67 @@ perkiraan.
 
 | Pemeriksaan | Sebelum | Sesudah |
 |---|---|---|
-| Halaman interior | 451 / 470 | **456 / 472** |
-| Kata badan | 209.718 / 174.428 | **212.313 / 176.514** |
-| Sitasi terbaca | 629 / 594 | **694 / 659**, masalah **0** |
-| Entri pustaka | 172 / 172 | **172 / 172** |
+| Halaman interior | 451 / 470 | **457 / 473** |
+| Kata badan | 209.718 / 174.428 | **212.489 / 176.674** |
+| Sitasi terbaca | 629 / 594 | **698 / 662**, masalah **0** |
+| Entri pustaka | 172 / 172 | **175 / 175** |
 | Tabel dengan catatan sumber | 1 / 25 | **25 / 25** (PDF, EPUB, DOCX) |
 | Tabel dirujuk dari prosa | 0 / 24 | **24 / 24** |
 | Gambar dirujuk dari prosa | 0 / 11 | **11 / 11** |
 | Glosarium | 13 | **64 / 65** |
+| Paragraf berangka tanpa rujukan (EN) | 13 | **9** |
 | Catatan peristiwa | 18 | **30 / 30** |
 | Indeks | 90 entri, berhalaman | **90 entri, berhalaman, *see also*, *passim*** |
-| Kemiripan internal | 0,35 % | **0,38 %** (korpus 48 bab, 388.827 kata) |
+| Kemiripan internal | 0,35 % | **0,38 %** (korpus 48 bab, 389.163 kata) |
 | Prediksi / anjuran | 24/24 · 48/48 | **24/24 · 48/48** |
 | Audit produksi | bersih | **bersih, 0 judul menggantung, 0 blok keluar margin** |
+| Gambar vs tabelnya | 8.1, 17.1, 22.1 tidak lagi cocok | **digambar ulang dan cocok** |
 
 Dua catatan jujur tentang batas verifikasi ini. Pertama, skor 0,38 % tetap
 kemiripan **internal**: tidak ada korpus berlangganan yang diakses, jadi angka itu
 tidak boleh disebut skor Turnitin. Kedua, perbaikan dokumentasi tidak menambah
 pembacaan ahli baru; yang saya periksa ulang adalah kesepuluh butir dan seluruh
-tabel, bukan naskah 456 halaman dari awal. Untuk terbit, sisa pekerjaan bersifat
+tabel, bukan naskah 457 halaman dari awal. Untuk terbit, sisa pekerjaan bersifat
 produksi (ISBN, unggah, harga), bukan naskah.
+
+---
+
+## 9. Temuan pada pemeriksaan kedua (dan perbaikannya)
+
+Setelah perbaikan pertama, saya memeriksa ulang **konsistensi silang**: apakah
+angka yang saya ubah di tabel masih sama dengan angka yang digambar, dengan yang
+dikutip di prosa, dan dengan yang tertulis di caption. Enam ketidakcocokan
+ditemukan, semuanya akibat perbaikan pertama yang tidak menjalar ke seluruh
+lapisan:
+
+| # | Temuan | Akibat bila dibiarkan | Perbaikan |
+|---|---|---|---|
+| 1 | Figure 8.1 masih menggambar karang 70–90 % di 2 °C | Gambar membantah tabel yang baru dikoreksi — kesalahan yang lebih sulit dimaafkan daripada salah angka | Digambar ulang: karang >99 % di 2 °C, dan barisnya diberi keterangan "3 °C: structure lost" |
+| 2 | Figure 17.1 masih 700.000 / 500.000 / 250.000 | Tabel 17.1 sudah 735/500/245 | Data gambar dan teks alternatifnya disamakan |
+| 3 | Table 22.1 dan Figure 22.1 masih memuat Seoul 141 | Angka yang sudah dicabut dari prosa hidup lagi di tabel dan grafik | Menjadi **12+** di keduanya, ditandai sebagai minimum |
+| 4 | Prosa menyebut "nine disasters" untuk tabel berisi delapan baris | Kesalahan hitung yang mudah terlihat | Menjadi "eight" / "delapan" |
+| 5 | Lytton 619 tidak dijelaskan di tabel | Pembaca membandingkan kematian desa dengan kematian provinsi | Catatan tabel: 619 = kematian berlebih seluruh British Columbia, jadi kolom dibaca sebagai orde besaran |
+| 6 | Kalimat Bab 8 masih menyebut karang "bertahan dalam bentuk berkurang" di 2 °C | Bertentangan dengan >99 % pada 2 °C | Kalimat ditulis ulang: 1,5 °C vs 2 °C adalah 70–90 % vs praktis hilang |
+
+Selain itu, klaim "emisi 2024–2025 masih pada rekor" di catatan Table 1.1
+diperhalus menjadi klaim yang benar-benar dimuat sumbernya: penilaian anggaran
+karbon 2024 menempatkan emisi pada tingkat rekor tanpa penurunan berkelanjutan
+(Friedlingstein et al., 2024). Setelah render ulang: **457 dan 473 halaman**,
+24 baris sumber tabel di PDF, EPUB, dan DOCX, dan seluruh gate bersih.
+
+Pada pass yang sama, empat paragraf berangka yang tadinya hanya menyebut
+sumber di dalam kalimat diberi sitasi kurung supaya dapat diperiksa: banjir
+1995–2015 (CRED & UNISDR, 2015), pergeseran wilayah spesies (Chen et al., 2011),
+rasio manfaat mitigasi (National Institute of Building Sciences, 2019), dan
+pemberitahuan air mendidih Texas (Texas Comptroller of Public Accounts, 2021).
+Klaim "US$195 miliar" untuk Uri diganti dengan **US$80–130 miliar** dari
+Texas Comptroller (2021) — angka yang benar-benar dimuat sumbernya — dan label
+"bencana termahal dalam sejarah Texas" dihapus karena NOAA sendiri menempatkan
+kerusakan langsung Uri di sekitar US$26 miliar, jauh di bawah Harvey. Paragraf
+berangka tanpa rujukan di edisi Inggris turun dari 13 menjadi 9, dan daftar
+pustaka menjadi 175 entri di kedua edisi.
+
+**Pelajaran yang saya catat untuk naskah ini:** setiap kali sebuah angka diubah
+di tabel, tiga tempat lain harus ikut diperiksa — gambar, caption/teks alternatif,
+dan kalimat prosa yang menyebutnya. Itu sekarang menjadi bagian dari daftar
+pemeriksaan di `BOOK_READINESS.md`.

@@ -30,15 +30,15 @@ Nomor halaman gambar **dicari otomatis** oleh `make_sample.py`, bukan ditulis
 tetap: setiap kali naskah bertambah, halaman gambar ikut bergeser, dan sampel
 tidak boleh menampilkan halaman teks sambil menyebutnya "halaman bergambar".
 
-Halaman terakhir sampel menyebut: *"Anda baru membaca 34 dari 456 halaman"* — lalu
+Halaman terakhir sampel menyebut: *"Anda baru membaca 34 dari 457 halaman"* — lalu
 merinci apa saja yang ada di 417 halaman sisanya. Ini yang memicu rasa penasaran:
 bukan menggoda dengan teka-teki, tetapi menunjukkan bahwa yang belum dibaca itu
 memang berisi.
 
-Edisi Indonesia: 36 halaman sampel dari 472 halaman.
+Edisi Indonesia: 36 halaman sampel dari 473 halaman.
 
 **Setiap halaman sampel membawa catatan kaki** `FREE SAMPLE · Surviving the Future ·
-full edition: 456 pages`. Kalau sampel tersebar, ia menyebar bersama alamat pembeliannya.
+full edition: 457 pages`. Kalau sampel tersebar, ia menyebar bersama alamat pembeliannya.
 
 ---
 

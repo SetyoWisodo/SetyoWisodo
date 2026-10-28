@@ -14,7 +14,7 @@ angka mana pun di halaman ini.
 
 | Lapis | Cakupan | Skor |
 |---|---|---|
-| **Internal** — 48 bab dibandingkan satu sama lain | 388.827 kata | **0,38%** |
+| **Internal** — 48 bab dibandingkan satu sama lain | 389.163 kata | **0,38%** |
 | **Eksternal** — 12 kalimat uji ke web, kata per kata | 12 dari 24 bab | **0%** cocok |
 | **Kutipan langsung** dalam naskah | 7.355 kalimat | **0** |
 | **Perkiraan gaya-Turnitin** | — | **0–3%** |
@@ -89,7 +89,7 @@ Selain teksnya, beberapa gelar dan afiliasi juga keliru:
 | Prof. Naomi Klein, **Rutgers** | University of British Columbia |
 
 **Kabar baiknya:** 54 kutipan itu **tidak ada di dalam buku yang Anda jual.** Saya
-memeriksa `book.md`, `book_id.md`, dan kedua PDF 456/472 halaman: nol kemunculan.
+memeriksa `book.md`, `book_id.md`, dan kedua PDF 457/473 halaman: nol kemunculan.
 `book.md` dihasilkan oleh versi generator yang lebih lama, sebelum blok `EXPERTS`
 ditambahkan, dan belum pernah dibuat ulang sejak itu.
 
@@ -178,7 +178,7 @@ duplikasi internal 3–10%. Angka di sini di bawah 0,1%.
 
 | | Inggris | Indonesia |
 |---|---|---|
-| Sitasi terbaca | 694 | 659 |
+| Sitasi terbaca | 698 | 662 |
 | Entri daftar pustaka | 172 (149 dikutip + 23 bacaan lanjutan) | 172 (145 + 27) |
 | Masalah | **0** | **0** |
 

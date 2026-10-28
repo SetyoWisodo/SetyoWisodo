@@ -32,7 +32,7 @@ Efeknya terhadap ketiga patokan:
 - **13,5% di bawah** median paperback Routledge
 - **18,2% di bawah** paperback terbitan universitas
 
-Dan dalam harga per halaman: $45 ÷ 456 = **$0,100/halaman**, dibanding patokan
+Dan dalam harga per halaman: $45 ÷ 457 = **$0,100/halaman**, dibanding patokan
 penerbit universitas $0,30 — sepertiga dari harga monograf akademik.
 
 Kalau ditanya "kenapa $45", jawabannya satu kalimat: *karena buku akademik
@@ -205,7 +205,7 @@ Di atas $8 → naikkan harga ke $55 dan ulangi sebulan.
 - **Jangan mengumumkan "harga naik besok"** lalu tidak menaikkannya. Sekali
   berbohong soal harga, semua angka Anda kehilangan arti.
 - **Jangan menurunkan harga ID di bawah $15.** Di bawah itu, biaya tetap $0,80
-  memakan 20% dari penerimaan, dan Anda menjual 472 halaman lebih murah
+  memakan 20% dari penerimaan, dan Anda menjual 473 halaman lebih murah
   daripada satu kopi di kafe.
 - **Jangan pakai kata "diskon" di judul halaman produk.** Halaman menjual
   buku. Kode yang menjual harga.
