@@ -135,6 +135,11 @@ h2{{font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--amb
 <p class="lede">Klik kartu mana pun untuk mengunduh. Foto marketplace berukuran
 3000 × 3000 px, siap diunggah ke Gumroad, Amazon, atau Etsy.</p>
 {''.join(parts)}
+<h2>Cadangan permanen</h2>
+<p class="lede">Kalau tautan preview ini berhenti bekerja (sandbox sesi berakhir),
+semua berkas yang sama tersedia di repositori:
+<a href="https://github.com/SetyoWisodo/SetyoWisodo/tree/arena/3b1aa1ad-setyowisodo/book/publish"
+   style="color:var(--amber)">book/publish di GitHub</a>.</p>
 </body></html>"""
 
 
