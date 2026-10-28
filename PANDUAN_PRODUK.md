@@ -2,6 +2,18 @@
 
 Toko Anda: **setyowisodo.gumroad.com** · Halaman yang sedang terbuka: produk pertama (`/vbqmqo`), tab **Product** — masih kosong, ini yang pertama diisi.
 
+**Status produk 1 (per 28 Oktober 2026):**
+
+| Bagian | Status |
+|---|---|
+| Name | ✅ `Surviving the Future` |
+| Description | ✅ terisi dan berformat |
+| URL | ⬜ masih `surviving-thefuture` → ubah ke `surviving-the-future` |
+| Cover (3 gambar) | ⬜ |
+| Thumbnail + harga $45 | ⬜ |
+| Content (4 berkas + stempel PDF) | ⬜ |
+| Uji beli kode 100% | ⬜ |
+
 > **Teks deskripsi tidak perlu dikarang.** Empat teks final sudah tersedia di halaman unduhan, bagian **Teks deskripsi siap tempel**: `/copy/en`, `/copy/id`, `/copy/bundle`, `/copy/sample`. Buka, tekan Ctrl+A, Ctrl+C, tempel ke kotak Description.
 Semua isian di bawah sudah final. Ikuti berurutan; jangan lompat ke produk kedua sebelum produk pertama terbit dan diuji.
 
