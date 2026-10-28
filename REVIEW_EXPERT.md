@@ -2,8 +2,8 @@
 
 **Peran penilai:** profesor bidang ilmu iklim dan risiko bencana, bertindak sebagai
 auditor naskah (bukan penyunting bahasa).
-**Naskah yang dinilai:** `book.md` (EN) dan `book_id.md` (ID), commit `8847077`;
-interior PDF 456 dan 472 halaman.
+**Naskah yang dinilai:** `book.md` (EN) dan `book_id.md` (ID); versi pertama
+commit `8847077`, versi perbaikan commit `e68778c`; interior PDF 456 dan 472 halaman.
 **Metode:** dua belas pemeriksaan otomatis (angka, sitasi, tabel, gambar, indeks,
 glosarium, rujukan silang, atribusi, panjang bab, kepadatan sitasi, pengulangan,
 metadata) ditambah pembacaan manual ±60 halaman yang paling padat angka, yaitu
