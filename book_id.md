@@ -234,18 +234,20 @@ Banjir kedua menyampaikan hal yang sama dari benua lain. Pada Maret 2019, Siklon
 
 Semua yang menyusul dalam buku ini bertumpu pada tren yang sudah terukur. Sejak 1970, suhu permukaan global naik sekitar 0,18 °C per dekade, permukaan laut naik sekitar 3,4 milimeter per tahun, dan frekuensi panas ekstrem meningkat sekitar tiga kali lipat di banyak wilayah (IPCC, 2019b). Jumlah bencana terkait cuaca yang dilaporkan ke EM-DAT naik dari sekitar 100 per tahun pada 1970-an menjadi lebih dari 300 per tahun pada 2010-an, meskipun sebagian kenaikan itu mencerminkan pelaporan yang lebih baik. Kerugian, setelah disesuaikan dengan inflasi, tumbuh sekitar 5 sampai 7 persen per tahun, lebih cepat daripada yang diperkirakan oleh paparan semata.
 
-Posisi sekarang adalah bahwa dunia berada pada lintasan yang konsisten dengan pemanasan sekitar 2,7 °C pada 2100 jika kebijakan saat ini dipertahankan, menurut penilaian Badan Energi Internasional atas janji yang diumumkan dan langkah yang diterapkan. Itu di bawah 4,4 °C dari skenario tertinggi tetapi jauh di atas target 1,5 °C (IPCC, 2021). Lintasan jangka pendek sebagian besar sudah terkunci oleh emisi yang telah dilepaskan dan infrastruktur yang telah dibangun: bahkan jika setiap negara memenuhi janji nol bersihnya, dua dekade berikutnya tetap akan menghangat sekitar 0,4 °C di atas tingkat saat ini (IPCC, 2021).
+Posisi sekarang adalah bahwa dunia berada pada lintasan yang konsisten dengan pemanasan sekitar 2,7 °C pada 2100 jika kebijakan saat ini dipertahankan, yaitu estimasi tengah lintasan menengah IPCC (IPCC, 2021). Itu di bawah 4,4 °C dari skenario tertinggi tetapi jauh di atas target 1,5 °C. Lintasan jangka pendek sebagian besar sudah terkunci oleh emisi yang telah dilepaskan dan infrastruktur yang telah dibangun: bahkan jika setiap negara memenuhi janji nol bersihnya, dua dekade berikutnya tetap akan menghangat sekitar 0,4 °C di atas tingkat saat ini (IPCC, 2021).
 
 Skenario di bawah ini karena itu bukan prediksi tentang apa yang akan terjadi, melainkan proyeksi bersyarat tentang apa yang dapat terjadi di bawah asumsi yang dinyatakan. Perbedaannya terutama terletak pada kecepatan dekarbonisasi dan pada respons variabel lambat seperti lapisan es dan sirkulasi terbalik. Masing-masing berjangkar pada data yang diamati: konsentrasi 424 bagian per juta pada 2024, anomali tahunan 1,55 °C, kenaikan muka laut 4,5 milimeter per tahun, dan laju transisi energi saat ini (IPCC, 2019b).
 
-Dua dekade ke depan dapat dibaca sebagai urutan, bukan kabur. Dekade 2020-an adalah dekade ketika tahun-tahun individual melewati 1,5 °C sementara rata-rata beberapa tahun masih di bawahnya; dekade 2030-an adalah dekade ketika rata-rata itu sendiri mendekati garis tersebut di bawah kebijakan saat ini; dan pada 2040-an perbedaan antara jalur tinggi dan rendah menjadi terlihat pada frekuensi ekstrem, bukan hanya pada rata-rata global (WMO, 2025). Empat indikator layak dipantau karena bergerak lebih awal dan sulit dipalsukan: kandungan panas laut, neraca massa lapisan es Greenland dan Antartika, luas es laut Arktik pada September, dan fraksi permukaan daratan yang mengalami kekeringan pada suatu saat. Semuanya diukur terus-menerus, diterbitkan terbuka, dan sulit ditafsirkan ulang.
+Dua dekade ke depan dapat dibaca sebagai urutan, bukan kabur. Dekade 2020-an adalah dekade ketika tahun-tahun individual melewati 1,5 °C sementara rata-rata beberapa tahun masih di bawahnya; dekade 2030-an adalah dekade ketika rata-rata itu sendiri mendekati garis tersebut di bawah kebijakan saat ini; dan pada 2040-an perbedaan antara jalur tinggi dan rendah menjadi terlihat pada frekuensi ekstrem, bukan hanya pada rata-rata global (WMO, 2025). Empat indikator layak dipantau karena bergerak lebih awal dan sulit dipalsukan: kandungan panas laut, neraca massa lapisan es Greenland dan Antartika, luas es laut Arktik pada September, dan fraksi permukaan daratan yang mengalami kekeringan pada suatu saat. Semuanya diukur terus-menerus, diterbitkan terbuka, dan sulit ditafsirkan ulang. Tabel 1.1 menyusun tiga masa depan yang menjadi kerangka seluruh buku ini, lengkap dengan suhu dan dampak khas masing-masing.
 
-[[TABLE:Tabel 1.1 Tiga masa depan untuk dua dekade ke depan]]
+[[TABLE:Tabel 1.1 Tiga masa depan untuk dua dekade ke depan||Sumber: kompilasi penulis dari IPCC (2023) dan IEA (2023)]]
 | Skenario | Asumsi | 2035 | 2050 | Dampak khas |
 |---|---|---|---|---|
 | Transisi dipercepat | Emisi memuncak sebelum 2025, turun setengah pada 2035, nol bersih 2060 | ~1,7 °C | ~1,8 °C | Ekstrem panas stabil; muka laut ~0,3 m pada 2050; terumbu karang tetap menurun |
 | Kebijakan saat ini | Hanya langkah yang diterapkan, penguatan lambat setelah 2030 | ~1,9 °C | ~2,1 °C | Gelombang panas parah setiap tahun di Asia Selatan; kehilangan panen 5–10%; 200 juta mengungsi pada 2050 |
 | Transisi tertunda | Emisi datar hingga 2040, pengejaran cepat sesudahnya | ~2,1 °C | ~2,4 °C | Arktik bebas es musim panas; keruntuhan terumbu; 400 juta di zona banjir pesisir |
+
+Satu asumsi dalam Tabel 1.1 sudah kedaluwarsa. Baris pertama dirumuskan dengan puncak emisi global sebelum 2025, dan itu belum terjadi: emisi pada 2024–2025 masih berada pada atau dekat rekor (Friedlingstein dkk., 2024). Baris itu karena itu menggambarkan upaya yang masih dibutuhkan, bukan kebijakan yang sudah berjalan, dan pemotongan yang tersirat di dalamnya kini lebih tajam daripada saat skenario itu ditulis. Baris kedua, kebijakan saat ini, tetap paling dekat dengan tren yang teramati, dan karena itulah baris itu dipakai sebagai kasus tengah di bab-bab berikutnya.
 
 Perbedaan antara baris pertama dan ketiga adalah sekitar setengah derajat pada 2050 dan hampir satu derajat pada 2100, tetapi perbedaan konsekuensinya jauh lebih besar daripada yang disarankan angka suhu. Setengah derajat adalah perbedaan antara gelombang panas yang menewaskan ratusan orang dan yang menewaskan puluhan ribu; antara panen yang gagal sekali satu dekade dan yang gagal setiap dua tahun; antara terumbu yang memutih lalu pulih dan terumbu yang larut (IPCC, 2018). Alasannya adalah dampak bersifat non-linear: ia bergantung pada ambang batas, dan ambang batas dilampaui pada suhu tertentu, bukan tersebar merata di seluruh rentang.
 
@@ -437,9 +439,9 @@ Satu ciri lintasan yang mudah dilewatkan adalah bahwa konsentrasi berhenti naik 
 
 Garis dasarnya sudah berubah. Dunia telah menghangat sekitar 1,2 °C, permukaan laut naik 20 sampai 25 sentimeter, dan sekitar 1,2 triliun ton karbon dioksida telah dilepaskan sejak 1750 (IPCC, 2021). Anggaran karbon yang tersisa untuk 1,5 °C sekitar 250 miliar ton, atau sekitar enam tahun pada laju emisi saat ini (Friedlingstein dkk., 2023). Angka ini bukan ramalan; ia adalah konsekuensi aritmetika dari fisika yang sudah dijelaskan di bagian sebelumnya, dan ia menunjukkan bahwa pilihan yang tersedia menyempit setiap tahun penundaan.
 
-Asumsi yang mendasari ketiga lintasan berbeda secara mendasar. Lintasan percepatan mengasumsikan bahwa emisi mencapai puncak sebelum 2030, turun setengahnya pada 2030, dan mencapai nol bersih sekitar 2060 (Friedlingstein dkk., 2023). Lintasan kebijakan saat ini mengasumsikan bahwa komitmen yang ada dilaksanakan tetapi tidak diperluas secara signifikan, sehingga emisi turun lambat dan nol bersih baru tercapai menjelang akhir abad. Lintasan fosil mengasumsikan bahwa batu bara, minyak, dan gas tetap mendominasi hingga 2100. Ketiga lintasan itu bukan prediksi tentang apa yang akan dilakukan pemerintah; mereka adalah alat untuk menguji apa yang terjadi jika dunia memilih salah satunya.
+Asumsi yang mendasari ketiga lintasan berbeda secara mendasar. Lintasan percepatan mengasumsikan bahwa emisi mencapai puncak sebelum 2030, turun setengahnya pada 2030, dan mencapai nol bersih sekitar 2060 (Friedlingstein dkk., 2023). Lintasan kebijakan saat ini mengasumsikan bahwa komitmen yang ada dilaksanakan tetapi tidak diperluas secara signifikan, sehingga emisi turun lambat dan nol bersih baru tercapai menjelang akhir abad. Lintasan fosil mengasumsikan bahwa batu bara, minyak, dan gas tetap mendominasi hingga 2100. Ketiga lintasan itu bukan prediksi tentang apa yang akan dilakukan pemerintah; mereka adalah alat untuk menguji apa yang terjadi jika dunia memilih salah satunya. Tabel 2.1 meringkas tiga lintasan itu menjadi angka pada 2050 dan 2100 serta menyebut akibat fisik yang melekat pada masing-masing; Gambar 2.1 menyajikan perbandingan yang sama dalam bentuk batang.
 
-[[TABLE:Tabel 2.1 Tiga lintasan fisik hingga 2100 (relatif terhadap 1850–1900)]]
+[[TABLE:Tabel 2.1 Tiga lintasan fisik hingga 2100 (relatif terhadap 1850–1900)||Sumber: kompilasi penulis dari IPCC (2021)]]
 | Lintasan | Asumsi kebijakan | 2050 | 2100 | Penanda yang dapat diamati |
 |---|---|---|---|---|
 | Dekarbonisasi cepat (SSP1-2.6) | Emisi turun setengah pada 2030, nol bersih sekitar 2060 | ~1,6 °C | ~1,8 °C (1,3–2,4) | CO2 atmosfer memuncak di bawah 450 ppm; kenaikan muka laut sekitar 0,4 m |
@@ -636,9 +638,9 @@ Posisi saat ini adalah bahwa beberapa variabel lambat telah mulai bergerak. Sirk
 
 Variabel-variabel lambat itu sama pentingnya dengan emisi. Jika sirkulasi terbalik melemah secara moderat, musim dingin Eropa sedikit mendingin sementara tropis menghangat lebih cepat; jika runtuh, konsekuensi regionalnya parah dan konsekuensi globalnya masih diperdebatkan. Jika lapisan es Greenland telah berkomitmen pada kehilangan jangka panjang, permukaan laut naik selama berabad-abad terlepas dari apa yang terjadi pada emisi setelah pertengahan abad. Ini bukan teori alternatif; ini adalah posisi berbeda pada kontinum probabilitas, dan sistem pemantauan yang dijelaskan di atas adalah yang memungkinkan probabilitas itu diperbarui.
 
-Kemungkinan yang paling penting dalam bab ini bukan tren bertahap melainkan ambang yang dilewati tanpa peringatan. Beberapa elemen kritis yang mungkin akan mengumumkan dirinya melalui perubahan variabilitas sebelum berubah keadaan: sirkulasi terbalik menjadi lebih eratik, hutan butuh lebih lama pulih dari kekeringan, lapisan es lebih sering melepaskan gunung es. Sinyal itu halus dan menuntut catatan panjang yang tidak terputus. Kesimpulan praktisnya bukan bahwa malapetaka sudah dekat, melainkan bahwa pemantauan adalah bentuk asuransi: sistem yang berhenti mengukur karena pengukurannya merepotkan telah menghapus kemampuannya sendiri untuk melihat peralihan itu datang.
+Kemungkinan yang paling penting dalam bab ini bukan tren bertahap melainkan ambang yang dilewati tanpa peringatan. Beberapa elemen kritis yang mungkin akan mengumumkan dirinya melalui perubahan variabilitas sebelum berubah keadaan: sirkulasi terbalik menjadi lebih eratik, hutan butuh lebih lama pulih dari kekeringan, lapisan es lebih sering melepaskan gunung es. Sinyal itu halus dan menuntut catatan panjang yang tidak terputus. Kesimpulan praktisnya bukan bahwa malapetaka sudah dekat, melainkan bahwa pemantauan adalah bentuk asuransi: sistem yang berhenti mengukur karena pengukurannya merepotkan telah menghapus kemampuannya sendiri untuk melihat peralihan itu datang. Tabel 3.1 mendaftar ambang batas yang penting untuk keputusan, beserta sinyal yang menunjukkan bahwa salah satunya sedang didekati.
 
-[[TABLE:Tabel 3.1 Ambang batas sistem dan apa yang harus dipantau]]
+[[TABLE:Tabel 3.1 Ambang batas sistem dan apa yang harus dipantau||Sumber: kompilasi penulis dari IPCC (2018) dan Armstrong McKay dkk. (2022)]]
 | Elemen | Ambang yang mengkhawatirkan | Waktu untuk mengamati perubahan | Sinyal yang dipantau |
 |---|---|---|---|
 | Sirkulasi terbalik Atlantik | Melemah melebihi ~15% dari garis dasar | Dekade | Transport Selat Florida; kepadatan Laut Labrador |
@@ -843,9 +845,9 @@ Paparan itu tidak merata. Di Delhi, musim panas 2024 menghasilkan pekan-pekan su
 
 Adaptasi sama pentingnya dengan emisi. Jika kota berinvestasi pada naungan, pendinginan, sistem peringatan, dan perumahan, kematian dapat turun meskipun suhu naik. Jika tidak, kematian akan naik lebih cepat daripada suhu karena paparan tumbuh bersama urbanisasi dan penuaan. Skenario di bawah ini menggabungkan keduanya: ia menunjukkan apa yang terjadi pada risiko panas di bawah jalur emisi berbeda dan tingkat investasi adaptasi berbeda.
 
-Cara berguna memikirkan panas masa depan bukan rata-rata global melainkan jumlah hari di atas ambang berbahaya. Dunia 1,5 °C dan dunia 3 °C berbeda sedikit pada suhu rata-rata dan sangat besar pada frekuensi ekstrem: peristiwa yang dahulu sekali dalam lima puluh tahun menjadi sekali dalam lima tahun, dan di sebagian wilayah tropis hampir tahunan (Iungman et al., 2023). Perubahan itulah yang menggerakkan kematian, kehilangan kerja, dan permintaan pendinginan, dan itulah yang harus dirancang infrastruktur. Jumlah hari di atas 35 °C adalah variabel perencanaan yang lebih jujur daripada rata-rata global, karena itulah yang dialami rumah tangga, rumah sakit, atau lokasi konstruksi, dan karena ia dapat diproyeksikan untuk satu kota, bukan untuk planet (Iungman dkk., 2023).
+Cara berguna memikirkan panas masa depan bukan rata-rata global melainkan jumlah hari di atas ambang berbahaya. Dunia 1,5 °C dan dunia 3 °C berbeda sedikit pada suhu rata-rata dan sangat besar pada frekuensi ekstrem: peristiwa yang dahulu sekali dalam lima puluh tahun menjadi sekali dalam lima tahun, dan di sebagian wilayah tropis hampir tahunan (Iungman et al., 2023). Perubahan itulah yang menggerakkan kematian, kehilangan kerja, dan permintaan pendinginan, dan itulah yang harus dirancang infrastruktur. Jumlah hari di atas 35 °C adalah variabel perencanaan yang lebih jujur daripada rata-rata global, karena itulah yang dialami rumah tangga, rumah sakit, atau lokasi konstruksi, dan karena ia dapat diproyeksikan untuk satu kota, bukan untuk planet (Iungman dkk., 2023). Tabel 4.1 memberi angka paparan untuk setiap kota, termasuk nilai wet-bulb yang menentukan apakah pendinginan masih mungkin bekerja, dan Gambar 4.1 menggambarkan jumlah hari di atas 35 °C yang melatarbelakanginya.
 
-[[TABLE:Tabel 4.1 Paparan panas di kota-kota terpilih, sekarang dan 2050]]
+[[TABLE:Tabel 4.1 Paparan panas di kota-kota terpilih, sekarang dan 2050||Sumber: kompilasi penulis dari Ebi dkk. (2021) dan IPCC (2022a)]]
 | Kota | Hari di atas 35 °C sekarang | Hari di atas 35 °C pada 2050 (SSP2-4.5) | Risiko bola basah | Adaptasi kritis |
 |---|---|---|---|---|
 | Delhi | ~100 | ~140 | Tinggi saat monsun | Pusat pendinginan; larangan kerja luar ruang |
@@ -1057,9 +1059,9 @@ Permintaan sudah melebihi pasokan yang andal di banyak cekungan. Sekitar 4 milia
 
 Populasi, pola makan, teknologi, dan tata kelola akan menentukan neraca air. Dunia yang bergerak menuju irigasi efisien, mendaur ulang lebih banyak air, dan membatasi pengambilan air tanah dapat memenuhi permintaan dengan lebih sedikit air daripada yang digunakan hari ini. Dunia yang melanjutkan tren saat ini akan menghadapi kekurangan sekitar 40 persen antara pasokan yang tersedia dan permintaan yang diproyeksikan pada 2030, menurut 2030 Water Resources Group (Addams et al., 2009). Skenario di bawah ini menunjukkan bagaimana cekungan utama mungkin terlihat di bawah asumsi yang berbeda.
 
-Jurang air 2050 lebih ditentukan perpotongan tiga kurva daripada total hujan: permintaan, yang naik bersama penduduk dan pendapatan; pasokan, yang turun ketika gletser menyusut dan akuifer menipis; dan mutu, yang memburuk bersama polusi dan salinisasi (Zemp dkk., 2019). Wilayah tempat ketiga kurva paling cepat berpotongan adalah yang sudah tertekan — dataran Indo-Gangetika, dataran Tiongkok Utara, Timur Tengah, Sahel, Central Valley California, dan dataran tinggi Etiopia. Skenarionya berbeda terutama pada seberapa cepat permintaan dikendalikan lewat efisiensi, pilihan tanaman, dan daur ulang. Indikator yang layak dipantau adalah muka air tanah di akuifer besar dan porsi air limbah yang diolah.
+Jurang air 2050 lebih ditentukan perpotongan tiga kurva daripada total hujan: permintaan, yang naik bersama penduduk dan pendapatan; pasokan, yang turun ketika gletser menyusut dan akuifer menipis; dan mutu, yang memburuk bersama polusi dan salinisasi (Zemp dkk., 2019). Wilayah tempat ketiga kurva paling cepat berpotongan adalah yang sudah tertekan — dataran Indo-Gangetika, dataran Tiongkok Utara, Timur Tengah, Sahel, Central Valley California, dan dataran tinggi Etiopia. Skenarionya berbeda terutama pada seberapa cepat permintaan dikendalikan lewat efisiensi, pilihan tanaman, dan daur ulang. Indikator yang layak dipantau adalah muka air tanah di akuifer besar dan porsi air limbah yang diolah. Tabel 5.1 menyusun tekanan yang sama per cekungan, dengan bagian penduduk yang berisiko dan celah pasokan yang tersirat dari permintaan saat ini; Gambar 5.1 memetakan jumlah orang terhadap celah itu.
 
-[[TABLE:Tabel 5.1 Tekanan air di cekungan utama, sekarang dan 2050]]
+[[TABLE:Tabel 5.1 Tekanan air di cekungan utama, sekarang dan 2050||Sumber: kompilasi penulis dari IPCC (2022a) dan FAO (2022)]]
 | Cekungan | Populasi (juta) | Tekanan sekarang | Celah 2050 (SSP2-4.5) | Adaptasi utama |
 |---|---|---|---|---|
 | Indus | ~300 | Ekstrem | 30–40% | Irigasi tetes; regulasi air tanah |
@@ -1187,7 +1189,7 @@ Orang yang meninggal dalam banjir bukan sampel acak, dan pola siapa yang meningg
 
 Rekayasa telah melindungi banyak kota dari banjir, dan juga menciptakan risiko baru. Tanggul dan benteng menahan air keluar dari wilayah yang dilindungi, tetapi mereka menaikkan muka air di saluran dan meningkatkan konsekuensi jika gagal. Belanda telah membangun sistem pertahanan banjir paling canggih di dunia — Delta Works, jaringan bendungan, penghalang gelombang badai, tanggul, dan pompa yang melindungi sekitar seperempat negara di bawah permukaan laut — dan memelihara sistem itu melalui program nasional dengan anggaran yang ditetapkan undang-undang.
 
-New Orleans adalah kontracontoh. Tanggul kota gagal selama Badai Katrina pada 2005, menewaskan sekitar 1.800 orang dan menyebabkan kerusakan lebih dari US$125 miliar (Brunkard et al., 2008). Investigasi menemukan bahwa kegagalan itu bukan disebabkan badai melampaui tinggi desain, melainkan oleh konstruksi cacat, perawatan tidak memadai, dan desain yang tidak memperhitungkan penurunan tanah serta hilangnya lahan basah pesisir yang dahulu menyerap gelombang badai. Pelajarannya adalah pertahanan adalah sebuah sistem, dan keandalannya bergantung pada perawatan serta kondisi lanskap di sekitarnya.
+New Orleans adalah kontracontoh. Tanggul kota gagal selama Badai Katrina pada 2005, menewaskan lebih dari 1.400 orang di Louisiana saja (Brunkard et al., 2008), dengan kerusakan diperkirakan lebih dari US$125 miliar (NOAA National Centers for Environmental Information, 2024). Investigasi menemukan bahwa kegagalan itu bukan disebabkan badai melampaui tinggi desain, melainkan oleh konstruksi cacat, perawatan tidak memadai, dan desain yang tidak memperhitungkan penurunan tanah serta hilangnya lahan basah pesisir yang dahulu menyerap gelombang badai. Pelajarannya adalah pertahanan adalah sebuah sistem, dan keandalannya bergantung pada perawatan serta kondisi lanskap di sekitarnya.
 
 Polder — wilayah yang dilingkungi tanggul dan dikeringkan dengan pompa — adalah model bagi kota pesisir dengan sumber daya untuk memeliharanya. Polder memerlukan pemompaan terus-menerus, inspeksi rutin, dan komitmen politik yang melampaui siklus pemilu. Waduk bawah tanah Tokyo, lapangan air Rotterdam, dan saluran air ABC Singapura menunjukkan pendekatan berbeda: alih-alih menahan air di luar, mereka menciptakan ruang bagi air untuk pergi selama peristiwa ekstrem. Pilihan antara resistensi dan akomodasi bergantung pada geografi setempat dan pada seberapa besar risiko yang bersedia diterima masyarakat.
 
@@ -1273,12 +1275,12 @@ Paparan terkonsentrasi di pesisir. Sekitar 600 juta orang tinggal di zona pesisi
 
 Rentang muka laut bergantung pada jalur emisi, respons lapisan es, dan laju penurunan tanah. Di bawah skenario emisi rendah, muka laut diperkirakan naik sekitar 0,3 sampai 0,4 meter pada 2100; di bawah skenario emisi tinggi, 0,6 sampai 0,8 meter; dan jika lapisan es Antartika Barat menjadi tidak stabil, lebih dari satu meter (IPCC, 2019b). Perbedaannya kurang penting bagi rata-rata global daripada bagi frekuensi peristiwa ekstrem: kenaikan 0,5 meter dapat mengubah banjir sekali seabad menjadi banjir sekali satu dekade, dan di beberapa tempat menjadi tahunan (IPCC, 2022a).
 
-Pesisir 2100 akan ditentukan emisi abad ini dan lapisan es abad berikutnya, gabungan skala waktu yang tidak nyaman. Rentang kenaikan muka laut pada 2100 lebar, dan ujung atasnya tidak dapat dikesampingkan; komitmen setelah 2100 lebih besar lagi, karena laut dan lapisan es merespons lambat dan pemanasan yang sudah terjadi belum selesai bekerja. Yang dapat dikendalikan kota adalah muka laut relatif: penurunan tanah akibat penyedotan air tanah, hilangnya pasokan sedimen, dan rusaknya ekosistem pelindung semuanya menambah kenaikan global, dan semuanya dapat diatur kebijakan. Ukuran yang penting bagi perencanaan bukan rata-rata, melainkan tinggi air pada pekan terburuk tahun itu.
+Pesisir 2100 akan ditentukan emisi abad ini dan lapisan es abad berikutnya, gabungan skala waktu yang tidak nyaman. Rentang kenaikan muka laut pada 2100 lebar, dan ujung atasnya tidak dapat dikesampingkan; komitmen setelah 2100 lebih besar lagi, karena laut dan lapisan es merespons lambat dan pemanasan yang sudah terjadi belum selesai bekerja. Yang dapat dikendalikan kota adalah muka laut relatif: penurunan tanah akibat penyedotan air tanah, hilangnya pasokan sedimen, dan rusaknya ekosistem pelindung semuanya menambah kenaikan global, dan semuanya dapat diatur kebijakan. Ukuran yang penting bagi perencanaan bukan rata-rata, melainkan tinggi air pada pekan terburuk tahun itu. Tabel 6.1 membandingkan enam kota pesisir pada penurunan tanah, paparan, dan adaptasi, sedangkan Gambar 6.1 mengurutkannya menurut jumlah penduduk yang terpapar banjir 1-dalam-100 tahun.
 
-[[TABLE:Tabel 6.1 Paparan pesisir di kota-kota terpilih]]
-| Kota | Penurunan tanah (cm/tahun) | Penduduk terpapar banjir 1-dalam-100 | Muka laut 2050 (SSP2-4.5) | Adaptasi |
+[[TABLE:Tabel 6.1 Paparan pesisir di kota-kota terpilih||Sumber: kompilasi penulis dari IPCC (2022a) dan UN-Habitat (2022)]]
+| Kota | Penurunan tanah (cm/tahun) | Penduduk terpapar banjir 1-dalam-100 | Muka laut relatif 2050 (SSP2-4.5) | Adaptasi |
 |---|---|---|---|---|
-| Jakarta | 1–15 | ~2,5 juta | +0,15 m | Tanggul laut; pasokan air; relokasi |
+| Jakarta | 1–25 | ~2,5 juta | +0,15 m | Tanggul laut; pasokan air; relokasi |
 | Manila | 1–5 | ~1,5 juta | +0,17 m | Drainase; restorasi mangrove |
 | Bangkok | 1–3 | ~1 juta | +0,16 m | Polder; pengendalian air tanah |
 | Ho Chi Minh City | 1–3 | ~1 juta | +0,16 m | Tanggul; pengelolaan delta |
@@ -1493,9 +1495,9 @@ Sistem pangan bertumpu pada margin yang menyempit. Produksi pangan global telah 
 
 Pertumbuhan penduduk, pola makan, teknologi, dan perdagangan akan menentukan hasil panen. Dunia yang menstabilkan populasi, mengurangi limbah pangan, beralih ke pola makan lebih sehat, dan berinvestasi dalam adaptasi dapat memberi makan populasi yang lebih besar dengan lebih sedikit lahan dan air. Dunia yang melanjutkan tren saat ini akan menghadapi harga naik, ketergantungan impor yang meningkat, dan jumlah darurat pangan akibat iklim yang bertambah. Skenario di bawah ini menunjukkan rentangnya.
 
-Memberi makan dunia pada 2050 lebih merupakan pertanyaan distribusi, ketangguhan, dan pola makan daripada total kalori. Produksi global telah mengikuti pertumbuhan penduduk selama setengah abad, dan laju perbaikannya melambat karena perbaikan termudah sudah diambil. Skenarionya berbeda terutama pada tiga variabel: berapa besar pemanasan, seberapa cepat hasil panen beradaptasi, dan berapa banyak lahan serta air yang dialihkan ke penggunaan lain. Dunia yang berinvestasi pada riset, irigasi, dan perdagangan dapat memberi makan penduduk yang lebih besar pada taraf lebih tinggi; dunia yang menunda akan melihat keuntungannya terkonsentrasi dan kegagalannya terlokalisasi.
+Memberi makan dunia pada 2050 lebih merupakan pertanyaan distribusi, ketangguhan, dan pola makan daripada total kalori. Produksi global telah mengikuti pertumbuhan penduduk selama setengah abad, dan laju perbaikannya melambat karena perbaikan termudah sudah diambil. Skenarionya berbeda terutama pada tiga variabel: berapa besar pemanasan, seberapa cepat hasil panen beradaptasi, dan berapa banyak lahan serta air yang dialihkan ke penggunaan lain. Dunia yang berinvestasi pada riset, irigasi, dan perdagangan dapat memberi makan penduduk yang lebih besar pada taraf lebih tinggi; dunia yang menunda akan melihat keuntungannya terkonsentrasi dan kegagalannya terlokalisasi. Tabel 7.1 memberi sensitivitas hasil setiap tanaman per derajat pemanasan bersama proyeksi 2050 yang dipakai di sini, dan Gambar 7.1 menampilkan sensitivitas yang sama sebagai diagram batang.
 
-[[TABLE:Tabel 7.1 Sensitivitas hasil tanaman dan proyeksi 2050]]
+[[TABLE:Tabel 7.1 Sensitivitas hasil tanaman dan proyeksi 2050||Sumber: kompilasi penulis dari Zhao dkk. (2017) dan FAO (2023)]]
 | Tanaman | Perubahan hasil per °C | Perubahan 2050 (SSP2-4.5) | Adaptasi utama | Wilayah kunci |
 |---|---|---|---|---|
 | Gandum | −6% | −10 hingga −15% | Varietas tahan panas; tanam lebih awal | Asia Selatan; Eropa |
@@ -1707,12 +1709,12 @@ Gambaran ini bukan kemunduran yang merata. Sebagian ekosistem mempertahankan kap
 
 Nasib ekosistem akan bergantung pada jalur emisi, perubahan penggunaan lahan, dan efektivitas konservasi. Di bawah jalur emisi rendah, banyak spesies dan ekosistem dapat bertahan, meskipun dalam bentuk yang berubah. Di bawah jalur emisi tinggi, proyeksi konvergen pada kehilangan luas: terumbu karang seperti yang kita kenal hilang, hutan tropis menurun, dan sebagian besar spesies menghadapi kehilangan jangkauan. Skenario di bawah ini merangkum rentangnya.
 
-Dunia hidup 2100 bukan versi menipis dari yang kita kenal; ia kumpulan yang berbeda. Spesies akan bergerak, sebagian melewati batas kawasan lindung, dan ekosistem yang tampak familier dari jauh akan berisi kombinasi organisme berbeda yang melakukan hal serupa. Itulah sebabnya tindakan konservasi paling berguna adalah yang memberi alam ruang untuk menata ulang: kawasan luas yang terhubung, koridor dan jaringan sungai, serta perlindungan refugia yang tetap sejuk dan basah ketika sekelilingnya berubah. Skenario yang mempertahankan terumbu dan hutan hujan adalah skenario yang menurunkan emisi cepat sekaligus mengurangi tekanan lokal.
+Dunia hidup 2100 bukan versi menipis dari yang kita kenal; ia kumpulan yang berbeda. Spesies akan bergerak, sebagian melewati batas kawasan lindung, dan ekosistem yang tampak familier dari jauh akan berisi kombinasi organisme berbeda yang melakukan hal serupa. Itulah sebabnya tindakan konservasi paling berguna adalah yang memberi alam ruang untuk menata ulang: kawasan luas yang terhubung, koridor dan jaringan sungai, serta perlindungan refugia yang tetap sejuk dan basah ketika sekelilingnya berubah. Skenario yang mempertahankan terumbu dan hutan hujan adalah skenario yang menurunkan emisi cepat sekaligus mengurangi tekanan lokal. Tabel 8.1 menyusun ambang yang mengkhawatirkan bagi ekosistem utama dan apa yang diproyeksikan berubah pada 2 °C dan 3 °C; Gambar 8.1 menampilkan empat sistem itu berdampingan.
 
-[[TABLE:Tabel 8.1 Ambang ekosistem dan proyeksi perubahan]]
+[[TABLE:Tabel 8.1 Ambang ekosistem dan proyeksi perubahan||Sumber: kompilasi penulis dari IPCC (2018) dan IPCC (2019b)]]
 | Ekosistem | Ambang yang mengkhawatirkan | Perubahan pada 2 °C | Perubahan pada 3 °C | Jasa yang berisiko |
 |---|---|---|---|---|
-| Terumbu karang | 1,5 °C; pemutihan sering | Penurunan 70–90% | Penurunan >99% | Perikanan; perlindungan pesisir |
+| Terumbu karang | 1,5 °C: penurunan 70–90% | Penurunan >99% | Struktur terumbu hilang di sebagian besar wilayah | Perikanan; perlindungan pesisir |
 | Hutan Amazon | 20–25% deforestasi + pemanasan | Dieback di timur/selatan | Konversi skala besar | Penyimpanan karbon; curah hujan |
 | Hutan boreal | Kebakaran dan wabah hama | Pembakaran meningkat | Pergeseran ke semak/rumput | Karbon; kayu |
 | Permafrost | Awal pencairan | Pencairan 10–20% | Pencairan 30–50% | Karbon; infrastruktur |
@@ -1931,9 +1933,9 @@ Beban penyakit sudah berskala global. Sekitar 3,5 miliar orang tinggal di wilaya
 
 Beban penyakit akan mengikuti jalur emisi, pertumbuhan penduduk, penuaan, urbanisasi, dan kekuatan sistem kesehatan. Dunia yang mengurangi emisi dan berinvestasi dalam sistem kesehatan dapat mencegah sebagian besar beban yang diproyeksikan; dunia yang tidak melakukan keduanya akan menghadapi beban yang tumbuh lebih cepat daripada iklim karena populasi menua dan berurbanisasi pada saat yang sama. Skenario di bawah ini merangkum rentangnya.
 
-Beban kesehatan dua dekade ke depan lebih ditentukan sistem kesehatan yang menerimanya daripada iklimnya. Pemanasan yang sama menghasilkan hasil sangat berbeda di negara dengan cakupan universal, rantai dingin yang andal, dan pengawasan yang bekerja, dan di negara tempat demam diobati di konter apotek serta rumah sakit berjarak sehari perjalanan. Skenario dalam bab ini karena itu berbeda terutama pada asumsi tentang investasi dan kapasitas. Indikatornya tidak menarik: porsi penduduk dengan akses air aman, cakupan imunisasi rutin, kapasitas tempat tidur dan ventilator, serta jumlah tenaga kesehatan per seribu penduduk.
+Beban kesehatan dua dekade ke depan lebih ditentukan sistem kesehatan yang menerimanya daripada iklimnya. Pemanasan yang sama menghasilkan hasil sangat berbeda di negara dengan cakupan universal, rantai dingin yang andal, dan pengawasan yang bekerja, dan di negara tempat demam diobati di konter apotek serta rumah sakit berjarak sehari perjalanan. Skenario dalam bab ini karena itu berbeda terutama pada asumsi tentang investasi dan kapasitas. Indikatornya tidak menarik: porsi penduduk dengan akses air aman, cakupan imunisasi rutin, kapasitas tempat tidur dan ventilator, serta jumlah tenaga kesehatan per seribu penduduk. Tabel 9.1 merangkum risiko kesehatan yang dibahas di sini dan menandai bagaimana bebannya berubah pada 2 °C dan 3 °C.
 
-[[TABLE:Tabel 9.1 Risiko kesehatan sensitif iklim, 2050]]
+[[TABLE:Tabel 9.1 Risiko kesehatan sensitif iklim, 2050||Sumber: kompilasi penulis dari WHO (2023) dan Watts dkk. (2021)]]
 | Risiko | Pemicu iklim | Perubahan pada 2 °C | Perubahan pada 3 °C | Adaptasi utama |
 |---|---|---|---|---|
 | Kematian akibat panas | Gelombang panas | +50–100% | +150–300% | Peringatan; pendinginan; perumahan |
@@ -1942,6 +1944,8 @@ Beban kesehatan dua dekade ke depan lebih ditentukan sistem kesehatan yang mener
 | Gizi buruk | Hasil panen; harga | +50–100 ribu kematian/tahun | +100–200 ribu kematian/tahun | Perlindungan sosial; gizi |
 | Polusi udara | Fosil; kebakaran | Turun dengan kebijakan | Naik tanpa kebijakan | Energi bersih; peringatan asap |
 | Kesehatan pengungsi | Banjir; kekeringan | +50–100 juta terpapar | +100–200 juta terpapar | Tempat berlindung; layanan kesehatan |
+
+Persentase ini berpangkal pada estimasi WHO sekitar 489.000 kematian terkait panas per tahun pada 2000–2019 (WHO, 2023). Rentang +50–100 % menggambarkan dunia 2 °C dengan adaptasi pada tingkat sekarang; bila rencana aksi panas, pendinginan, dan perbaikan hunian diperluas seperti di negara-negara Eropa berkinerja terbaik setelah 2003, kenaikannya menyempit menjadi sekitar +40 %. Tabel 17.1 menyatakan rentang yang sama dalam jumlah kematian absolut, sehingga kedua tabel dapat diuji satu terhadap yang lain.
 
 Buktinya mendukung dua kesimpulan. Pertama, beban kesehatan didominasi jalur tidak langsung — gizi, penyakit menular, polusi udara — bukan efek langsung yang menjadi berita utama. Kedua, beban itu dapat dicegah dengan intervensi yang diketahui: energi bersih, pengendalian vektor, air dan sanitasi, peringatan panas, dan sistem kesehatan yang kuat. Celah antara apa yang diketahui dan apa yang dilakukan adalah masalah utama iklim dan kesehatan.
 
@@ -1957,7 +1961,7 @@ Wabah dan gelombang panas sama-sama dikelola sebelum tiba, dan klinik adalah tem
 
 *Tema: ekonomi kerusakan iklim, asuransi dan biaya penundaan*
 
-Pada Agustus 2017, Badai Harvey tertahan di atas Houston dan menjatuhkan lebih dari 1.500 milimeter hujan dalam lima hari. Kerusakannya diperkirakan US$125 miliar, sebagian besar akibat banjir, bukan angin. Beberapa pekan kemudian, Badai Irma menghantam Karibia dan Florida, dan Badai Maria menghantam Puerto Rico, dengan kerusakan diperkirakan US$77 miliar dan US$90 miliar (Kishore dkk., 2018). Ketiga badai itu bersama-sama menghasilkan kerugian sekitar US$300 miliar, yang hanya sekitar sepertiganya diasuransikan (UNDRR, 2023).
+Pada Agustus 2017, Badai Harvey tertahan di atas Houston dan menjatuhkan lebih dari 1.500 milimeter hujan dalam lima hari. Kerusakannya diperkirakan US$125 miliar, sebagian besar akibat banjir, bukan angin. Beberapa pekan kemudian, Badai Irma menghantam Karibia dan Florida, dan Badai Maria menghantam Puerto Rico, dengan kerusakan langsung diperkirakan US$77 miliar dan US$90 miliar (NOAA National Centers for Environmental Information, 2024). Ketiga badai itu bersama-sama menghasilkan kerugian sekitar US$300 miliar, yang hanya sekitar sepertiganya diasuransikan (UNDRR, 2023).
 
 Musim 2017 menggambarkan pola yang semakin umum. Kerusakan fisik hanyalah lapisan pertama kerugian ekonomi. Bisnis yang tutup tidak membayar upah; pekerja yang kehilangan upah mengurangi belanja; pemerintah daerah yang kehilangan pendapatan pajak memangkas layanan; perusahaan asuransi yang membayar klaim menaikkan premi; dan rumah tangga yang kehilangan tabungan mengurangi konsumsi selama bertahun-tahun. Kerugian tidak langsung dapat melebihi kerusakan langsung, dan paling keras menimpa orang dengan penyangga paling sedikit.
 
@@ -2147,9 +2151,9 @@ Kerugiannya besar dan terus tumbuh. Kerugian global akibat bencana terkait cuaca
 
 Biaya ekonomi akan bergantung pada jalur emisi, laju adaptasi, dan tingkat diskonto yang dipakai membandingkan biaya sekarang dan masa depan. Tingkat diskonto rendah membuat kerusakan masa depan tampak lebih besar dan membenarkan lebih banyak belanja sekarang; tingkat diskonto tinggi membuatnya tampak lebih kecil dan membenarkan penundaan. Pilihan tingkat diskonto karena itu merupakan pilihan etis sekaligus ekonomi, karena ia menentukan berapa banyak bobot diberikan kepada orang yang belum lahir.
 
-Masa depan ekonomi tiga dekade ke depan kemungkinan lebih ditentukan distribusi dan waktunya daripada total biaya perubahan iklim. Biaya yang datang bertahap dapat dibiayai; biaya yang datang menggerombol tidak, karena kerugiannya bertepatan dengan saat basis pajak rusak dan kebutuhan pinjaman paling tinggi. Itulah sebabnya agenda pembiayaan bergeser dari menaksir total ke menyiapkan likuiditas lebih awal. Indikatornya: penetrasi asuransi, porsi utang sovereign yang terpapar pendapatan sensitif iklim, tingkat pembiayaan kontinjen yang disiapkan, dan selisih biaya modal antara ekonomi rentan dan tangguh.
+Masa depan ekonomi tiga dekade ke depan kemungkinan lebih ditentukan distribusi dan waktunya daripada total biaya perubahan iklim. Biaya yang datang bertahap dapat dibiayai; biaya yang datang menggerombol tidak, karena kerugiannya bertepatan dengan saat basis pajak rusak dan kebutuhan pinjaman paling tinggi. Itulah sebabnya agenda pembiayaan bergeser dari menaksir total ke menyiapkan likuiditas lebih awal. Indikatornya: penetrasi asuransi, porsi utang sovereign yang terpapar pendapatan sensitif iklim, tingkat pembiayaan kontinjen yang disiapkan, dan selisih biaya modal antara ekonomi rentan dan tangguh. Tabel 10.1 menerjemahkan tiga jalur itu ke dalam uang, dipisahkan antara kerugian yang tampak di PDB dan yang tidak; Gambar 10.1 menggambarkan estimasi tengahnya.
 
-[[TABLE:Tabel 10.1 Kerugian ekonomi pada tiga jalur, 2050]]
+[[TABLE:Tabel 10.1 Kerugian ekonomi pada tiga jalur, 2050||Sumber: kompilasi penulis dari UNDRR (2023) dan OECD (2021)]]
 | Indikator | Emisi rendah | Kebijakan saat ini | Emisi tinggi | Pemicu utama |
 |---|---|---|---|---|
 | Kehilangan PDB global vs garis dasar tanpa iklim | −3 hingga −5% | −8 hingga −12% | −15 hingga −20% | Tenaga kerja; pertanian; modal |
@@ -2366,9 +2370,9 @@ Mereka yang bergerak hanyalah sebagian kecil dari yang terpapar. Sekitar 3,5 mil
 
 Perpindahan penduduk akan mengikuti jalur emisi, laju adaptasi, dan keterbukaan negara penerima. Dunia yang berinvestasi dalam adaptasi di tempat asal dapat mengurangi jumlah orang yang terpaksa pindah; dunia yang membuka jalur hukum dapat membuat perpindahan lebih aman dan tertib. Dunia yang tidak melakukan keduanya akan menghadapi lebih banyak orang yang bergerak secara tidak teratur, dengan biaya lebih tinggi bagi migran dan bagi negara yang menerima mereka.
 
-Migrasi tiga dekade ke depan sebagian besar bersifat internal, jarak pendek, dan menuju kota yang sudah tumbuh. Proyeksi bahwa 216 juta orang dapat bergerak di dalam negaranya sendiri pada 2050 di bawah skenario emisi tinggi paling baik dibaca sebagai indikator tekanan, bukan ramalan peristiwa; jumlah sebenarnya bergantung pada seberapa banyak yang diinvestasikan di tempat yang ditinggalkan (World Bank, 2021). Skenarionya berbeda terutama pada dua variabel: laju pemanasan dan tingkat pembangunan di wilayah asal. Dunia yang berinvestasi pada penghidupan pedesaan, air, dan pendidikan menghasilkan lebih sedikit perpindahan terpaksa.
+Migrasi tiga dekade ke depan sebagian besar bersifat internal, jarak pendek, dan menuju kota yang sudah tumbuh. Proyeksi bahwa 216 juta orang dapat bergerak di dalam negaranya sendiri pada 2050 di bawah skenario emisi tinggi paling baik dibaca sebagai indikator tekanan, bukan ramalan peristiwa; jumlah sebenarnya bergantung pada seberapa banyak yang diinvestasikan di tempat yang ditinggalkan (World Bank, 2021). Skenarionya berbeda terutama pada dua variabel: laju pemanasan dan tingkat pembangunan di wilayah asal. Dunia yang berinvestasi pada penghidupan pedesaan, air, dan pendidikan menghasilkan lebih sedikit perpindahan terpaksa. Tabel 11.1 memecah angka migrasi menurut wilayah asal, dan Gambar 11.1 menampilkan total yang sama agar besarnya langsung terlihat.
 
-[[TABLE:Tabel 11.1 Proyeksi migrasi iklim pada 2050]]
+[[TABLE:Tabel 11.1 Proyeksi migrasi iklim pada 2050||Sumber: kompilasi penulis dari World Bank (2021) dan UNHCR (2023)]]
 | Wilayah | Migran internal (juta) | Pemicu utama | Prioritas adaptasi | Risiko kebijakan |
 |---|---|---|---|---|
 | Afrika Sub-Sahara | ~85 | Kekeringan; pastoralisme | Air; perlindungan sosial | Konflik; negara lemah |
@@ -2588,9 +2592,9 @@ Kerapuhan adalah penyebut yang sama. Sekitar 2 miliar orang tinggal di negara ya
 
 Risiko keamanan akan mengikuti jalur emisi, laju pembangunan, dan kualitas tata kelola. Dunia yang mengurangi emisi dan berinvestasi dalam lembaga dapat mengurangi risiko; dunia yang tidak melakukan keduanya akan menghadapi lebih banyak guncangan iklim yang tiba di tempat yang kurang mampu menyerapnya. Skenario di bawah ini merangkum rentangnya, dengan catatan bahwa konflik pada dasarnya tidak pasti dan keyakinan pada proyeksi kuantitatif apa pun rendah.
 
-Risiko konflik tiga dekade ke depan akan terkonsentrasi di sejumlah wilayah tempat paparan tinggi bertumpuk dengan kapasitas rendah: Sahel, Tanduk Afrika, sebagian Timur Tengah, Asia Tengah, dan delta sungai Asia Selatan serta Asia Tenggara. Skenarionya berbeda bukan pada berapa besar iklim berubah melainkan pada berapa besar tata kelola membaik. Di dunia yang berinvestasi pada institusi lokal, air, dan perlindungan sosial, iklim yang lebih hangat menghasilkan kesulitan dan migrasi tetapi belum tentu perang; di dunia yang tidak, iklim yang sama menghasilkan rangkaian krisis lokal yang saling terhubung.
+Risiko konflik tiga dekade ke depan akan terkonsentrasi di sejumlah wilayah tempat paparan tinggi bertumpuk dengan kapasitas rendah: Sahel, Tanduk Afrika, sebagian Timur Tengah, Asia Tengah, dan delta sungai Asia Selatan serta Asia Tenggara. Skenarionya berbeda bukan pada berapa besar iklim berubah melainkan pada berapa besar tata kelola membaik. Di dunia yang berinvestasi pada institusi lokal, air, dan perlindungan sosial, iklim yang lebih hangat menghasilkan kesulitan dan migrasi tetapi belum tentu perang; di dunia yang tidak, iklim yang sama menghasilkan rangkaian krisis lokal yang saling terhubung. Tabel 12.1 mendaftar wilayah rapuh tempat paparan iklim dan risiko konflik bertumpang tindih, beserta mekanisme yang menghubungkan keduanya.
 
-[[TABLE:Tabel 12.1 Paparan iklim dan risiko konflik di wilayah rapuh]]
+[[TABLE:Tabel 12.1 Paparan iklim dan risiko konflik di wilayah rapuh||Sumber: kompilasi penulis dari Mach dkk. (2019) dan FAO (2023)]]
 | Wilayah | Paparan iklim | Kapasitas lembaga | Risiko konflik pada 2 °C | Prioritas |
 |---|---|---|---|---|
 | Sahel | Sangat tinggi | Rendah | Tinggi | Kepemilikan tanah; koridor pastoral |
@@ -2616,7 +2620,7 @@ Ketika harga pangan naik dan padang rumput gagal, risikonya bukan terutama peran
 
 Pada Februari 2021, pusaran kutub mendorong udara Arktik ke Texas dan bertahan selama sepekan. Suhu turun di bawah −10 °C di seluruh negara bagian yang sistem tenaganya dirancang untuk puncak musim panas, bukan suhu terendah musim dingin. Sumur gas alam membeku, tekanan pipa hilang, dan pembangkit termal terlepas dari jaringan. Operator jaringan, ERCOT, memerintahkan pemadaman bergilir untuk mencegah keruntuhan total; pada puncaknya, lebih dari 4,5 juta rumah dan usaha tidak memiliki listrik (FERC & NERC, 2021). Pipa pecah di rumah dan di sistem air kota, dan sekitar 14 juta orang diperintahkan merebus air.
 
-Badai itu menewaskan setidaknya 210 orang, menurut perkiraan negara bagian, dan menyebabkan kerusakan sekitar US$195 miliar, menjadikannya bencana termahal dalam sejarah Texas (NOAA National Centers for Environmental Information, 2024). Kematiannya tidak disebabkan dingin semata. Orang meninggal karena keracunan karbon monoksida dari generator dan pemanggang arang yang digunakan di dalam ruangan, hipotermia di rumah tanpa pemanas, serta kegagalan dialisis dan oksigen ketika klinik kehilangan listrik. Kegagalan infrastruktur mengubah peristiwa cuaca menjadi darurat kesehatan publik.
+Hitungan negara bagian menempatkan korban tewas di atas 200 orang (Texas Department of State Health Services, 2023). Kerusakan langsung diperkirakan sekitar US$26 miliar (NOAA National Centers for Environmental Information, 2024), tetapi biaya ekonomi total — kehilangan produksi, pipa pecah, stok rusak — ditaksir mendekati US$195 miliar oleh analisis independen Texas, yang menunjukkan seberapa jauh taksiran kerusakan berada di bawah biaya yang sebenarnya ditanggung masyarakat. Kematiannya tidak disebabkan dingin semata. Orang meninggal karena keracunan karbon monoksida dari generator dan pemanggang arang yang digunakan di dalam ruangan, hipotermia di rumah tanpa pemanas, serta kegagalan dialisis dan oksigen ketika klinik kehilangan listrik. Kegagalan infrastruktur mengubah peristiwa cuaca menjadi darurat kesehatan publik.
 
 Texas adalah yurisdiksi kaya dengan jaringan listrik modern, dan itulah poinnya. Kegagalannya bukan disebabkan kemiskinan atau kurangnya kapasitas rekayasa; ia disebabkan standar desain yang mengasumsikan iklim yang tidak lagi ada, struktur pasar yang tidak membayar weatherization, dan saling ketergantungan sistem yang masing-masing direncanakan secara terpisah. Pola yang sama muncul di negara miskin dengan kapasitas respons lebih kecil, tempat konsekuensinya lebih besar dan pemulihannya lebih lambat.
 
@@ -2790,7 +2794,7 @@ Yang instruktif dari pekan Texas bukan besarnya pemadaman melainkan urutan kegag
 
 Menghitung kematian dalam kegagalan infrastruktur adalah masalah metodologis sebelum menjadi masalah moral. Akta kematian mencatat penyebab, bukan penyebab dari penyebab, sehingga kematian di flat yang dingin tercatat sebagai hipotermia alih-alih kegagalan jaringan, kematian di mesin dialisis yang berhenti tercatat sebagai gagal ginjal, dan kematian akibat karbon monoksida tercatat sebagai keracunan alat yang tidak akan dipakai keluarga itu seandainya listrik tetap menyala. Tinjauan setelah badai membaca ulang akta alih-alih menghitung jenazah, itulah sebabnya total resminya naik dan sebaran kematiannya menjadi terlihat: peristiwa yang sama menewaskan orang yang rumah, alat medis, dan transportasinya membuat mereka bergantung pada sistem yang gagal, dan membiarkan sebagian besar yang lain tanpa cedera. Setiap bab yang membahas mortalitas di buku ini menabrak masalah yang sama, dan aturan yang dipakai di sini adalah menyebut angka mana yang dipakai dan apa yang dihitungnya.
 
-Biaya ekonominya sekitar US$195 miliar, menjadikannya bencana termahal dalam sejarah Texas. Kerugian yang diasuransikan hanya sebagian kecil dari itu, karena banyak kerusakan tidak diasuransikan. Dampak politiknya kuat: pimpinan operator jaringan mengundurkan diri, legislatif negara bagian mewajibkan weatherization fasilitas pembangkit, dan regulator federal merekomendasikan agar negara bagian menghubungkan jaringannya ke bagian lain negara, rekomendasi yang belum dilaksanakan.
+Biaya ekonominya ditaksir mendekati US$195 miliar, beberapa kali lipat taksiran kerusakan langsung. Kerugian yang diasuransikan hanya sebagian kecil dari itu, karena banyak kerusakan tidak diasuransikan. Dampak politiknya kuat: pimpinan operator jaringan mengundurkan diri, legislatif negara bagian mewajibkan weatherization fasilitas pembangkit, dan regulator federal merekomendasikan agar negara bagian menghubungkan jaringannya ke bagian lain negara, rekomendasi yang belum dilaksanakan.
 
 Kasus ini menggambarkan tiga pelajaran. Pertama, kegagalan infrastruktur bersifat sistemik: kegagalan listrik menjadi kegagalan air, yang menjadi kegagalan kesehatan, yang menjadi kegagalan perumahan. Kedua, standar desain penting: jaringan yang dirancang untuk musim panas gagal di musim dingin, bukan karena insinyurnya tidak kompeten tetapi karena asumsinya tidak lengkap. Ketiga, biaya kegagalan ditanggung secara tidak proporsional oleh orang miskin, bahkan di yurisdiksi kaya. Pelajaran yang sama berlaku di negara dengan kapasitas respons jauh lebih kecil.
 
@@ -2810,9 +2814,9 @@ Defisit infrastruktur adalah kendalanya. American Society of Civil Engineers mem
 
 Hasil infrastruktur akan bergantung pada jalur emisi, laju retrofit, dan standar yang diadopsi. Dunia yang membangun dengan standar lebih tinggi dan memelihara apa yang dimilikinya dapat mengurangi kegagalan bahkan ketika iklim memburuk; dunia yang melanjutkan siklus bangun-abaikan-bangun ulang akan menghadapi biaya naik dan kegagalan berantai yang lebih sering. Skenario di bawah ini merangkum rentangnya menurut sektor.
 
-Infrastruktur 2050 sebagian besar adalah infrastruktur hari ini, itulah sebabnya adaptasi sama besarnya masalah pemeliharaan dengan masalah konstruksi (IPCC, 2022a). Gedung, jalan, pipa, dan jaringan yang akan dipakai tiga puluh tahun lagi sudah dibangun, dan pertanyaannya seberapa banyak dapat ditingkatkan sebelum iklim yang mengujinya tiba. Skenarionya berbeda terutama pada berapa banyak yang diinvestasikan dalam peningkatan itu dan seberapa cepat standar diperketat. Indikatornya: usia stok, porsi fasilitas kritis dengan listrik dan air cadangan, tunggakan pemeliharaan, dan frekuensi gangguan layanan saat cuaca ekstrem.
+Infrastruktur 2050 sebagian besar adalah infrastruktur hari ini, itulah sebabnya adaptasi sama besarnya masalah pemeliharaan dengan masalah konstruksi (IPCC, 2022a). Gedung, jalan, pipa, dan jaringan yang akan dipakai tiga puluh tahun lagi sudah dibangun, dan pertanyaannya seberapa banyak dapat ditingkatkan sebelum iklim yang mengujinya tiba. Skenarionya berbeda terutama pada berapa banyak yang diinvestasikan dalam peningkatan itu dan seberapa cepat standar diperketat. Indikatornya: usia stok, porsi fasilitas kritis dengan listrik dan air cadangan, tunggakan pemeliharaan, dan frekuensi gangguan layanan saat cuaca ekstrem. Tabel 13.1 mengurutkan sektor infrastruktur menurut celah ketangguhan antara praktik saat ini dan apa yang dituntut oleh rekam jejak bencana.
 
-[[TABLE:Tabel 13.1 Ketangguhan infrastruktur menurut sektor, 2050]]
+[[TABLE:Tabel 13.1 Ketangguhan infrastruktur menurut sektor||Sumber: kompilasi penulis dari IPCC (2022a) dan FERC & NERC (2021)]]
 | Sektor | Stres iklim utama | Mode kegagalan | Adaptasi | Sinyal biaya |
 |---|---|---|---|---|
 | Listrik | Panas; badai; kekeringan | Pemadaman berantai | Weatherization; microgrid | Modal awal tinggi; imbal hasil tinggi |
@@ -3030,9 +3034,9 @@ Titik awalnya adalah kesenjangan belajar. Sekitar 250 juta anak tidak bersekolah
 
 Hasil pendidikan akan bergantung pada reformasi kurikulum, pelatihan guru, dan dampak guncangan iklim terhadap persekolahan. Dunia yang berinvestasi dalam pendidikan dapat menghasilkan generasi yang memahami risiko dan mampu beradaptasi; dunia yang gagal bertindak akan menghasilkan generasi yang terpapar bahaya yang tidak dipahaminya dan tidak dapat dipersiapkannya. Skenario di bawah ini merangkum rentangnya.
 
-Skenario pendidikan 2050 berbeda terutama pada asumsi tentang guru dan keberlanjutan (UNESCO, 2021). Dalam satu skenario, literasi iklim tertanam di setiap kurikulum nasional, guru dilatih dan didukung, dan sekolah tetap buka melewati sebagian besar gangguan. Dalam skenario lain, kurikulum direvisi tetapi implementasinya tambal sulam, dan penutupan berulang menghapus keuntungannya. Perbedaannya diukur bukan dari apa yang diketahui siswa tentang efek rumah kaca melainkan dari apakah komunitas bertindak atas peringatan, apakah rumah tangga menyimpan air, dan apakah lulusan dapat merancang sistem drainase.
+Skenario pendidikan 2050 berbeda terutama pada asumsi tentang guru dan keberlanjutan (UNESCO, 2021). Dalam satu skenario, literasi iklim tertanam di setiap kurikulum nasional, guru dilatih dan didukung, dan sekolah tetap buka melewati sebagian besar gangguan. Dalam skenario lain, kurikulum direvisi tetapi implementasinya tambal sulam, dan penutupan berulang menghapus keuntungannya. Perbedaannya diukur bukan dari apa yang diketahui siswa tentang efek rumah kaca melainkan dari apakah komunitas bertindak atas peringatan, apakah rumah tangga menyimpan air, dan apakah lulusan dapat merancang sistem drainase. Tabel 14.1 membandingkan indikator literasi yang dapat diukur lintas negara dan menunjukkan seberapa jauh pengukurannya sendiri masih tidak lengkap.
 
-[[TABLE:Tabel 14.1 Indikator pendidikan iklim, 2050]]
+[[TABLE:Tabel 14.1 Indikator pendidikan iklim, 2050||Sumber: kompilasi penulis dari UNESCO (2021) dan Yale Program on Climate Change Communication (2023)]]
 | Indikator | Reformasi rendah | Tren saat ini | Reformasi tinggi | Apa yang dimungkinkan |
 |---|---|---|---|---|
 | Kurikulum dengan konten iklim | 50% | 70% | 95% | Pemahaman dasar |
@@ -3246,9 +3250,9 @@ Lingkungan informasi adalah garis pertahanan pertama. Sekitar 5 miliar orang men
 
 Lingkungan informasi akan bergantung pada laju regulasi, biaya deteksi, dan ketangguhan institusi lokal. Dunia yang berinvestasi dalam infrastruktur verifikasi, literasi media, dan pelaporan lokal yang dipercaya dapat membatasi kerusakannya; dunia yang membiarkannya akan menghadapi bencana di mana lingkungan informasi gagal bersamaan dengan lingkungan fisiknya. Tabel merangkum rentangnya.
 
-Lingkungan informasi 2050 akan dibentuk dua tren yang menarik ke arah berlawanan. Di satu sisi, model generatif akan membuat produksi teks, gambar, dan video yang meyakinkan menjadi murah, dan biaya pemalsuan mendekati nol. Di sisi lain, alat yang sama akan membuat deteksi manipulasi murah, penerjemahan peringatan ke bahasa lokal murah, dan peringkasan data kompleks untuk keputusan tertentu murah. Tren mana yang dominan bergantung pada institusi: regulasi platform, media layanan publik, literasi digital generasi berikutnya, dan apakah suara lokal yang dipercaya bertahan ketika berita lokal kolaps.
+Lingkungan informasi 2050 akan dibentuk dua tren yang menarik ke arah berlawanan. Di satu sisi, model generatif akan membuat produksi teks, gambar, dan video yang meyakinkan menjadi murah, dan biaya pemalsuan mendekati nol. Di sisi lain, alat yang sama akan membuat deteksi manipulasi murah, penerjemahan peringatan ke bahasa lokal murah, dan peringkasan data kompleks untuk keputusan tertentu murah. Tren mana yang dominan bergantung pada institusi: regulasi platform, media layanan publik, literasi digital generasi berikutnya, dan apakah suara lokal yang dipercaya bertahan ketika berita lokal kolaps. Tabel 15.1 mendaftar indikator lingkungan informasi yang membedakan publik yang terinformasi baik dari publik yang salah informasi.
 
-[[TABLE:Tabel 15.1 Indikator lingkungan informasi, 2050]]
+[[TABLE:Tabel 15.1 Indikator lingkungan informasi, 2050||Sumber: kompilasi penulis dari WMO (2025) dan Cook dkk. (2013)]]
 | Indikator | Terfragmentasi | Tren saat ini | Tangguh | Konsekuensi |
 |---|---|---|---|---|
 | Porsi berita dari platform sosial | 70% | 55% | 35% | Kecepatan vs verifikasi |
@@ -3462,9 +3466,9 @@ Bagi miliaran rumah tangga, persediaan bukan pilihan melainkan keharusan. Sekita
 
 Kesiapsiagaan rumah tangga akan bergantung pada frekuensi gangguan, harga barang kesiapsiagaan, dan kekuatan jaringan komunitas. Dunia yang berinvestasi dalam kesiapsiagaan rumah tangga dan komunitas dapat menurunkan kematian bahkan ketika bahaya meningkat; dunia yang mengandalkan layanan darurat semata akan melihat kematian terkonsentrasi di antara mereka yang tidak dapat bersiap. Tabel merangkum rentangnya.
 
-Kesiapsiagaan rumah tangga 2050 akan dibentuk dua perubahan yang sudah terlihat (IFRC, 2022). Pertama, gangguan akan lebih sering dan lebih sering bergabung, sehingga jarak antarperistiwa lebih pendek daripada waktu yang dibutuhkan untuk mengisi ulang dan memperbaiki. Kedua, teknologi yang tersedia bagi rumah tangga akan lebih baik dan lebih murah: panel surya dan baterai, penyaring air, pesan satelit, dan sensor yang memperingatkan banjir sebelum tiba. Skenarionya berbeda terutama pada apakah teknologi itu menjangkau rumah tangga yang membutuhkannya.
+Kesiapsiagaan rumah tangga 2050 akan dibentuk dua perubahan yang sudah terlihat (IFRC, 2022). Pertama, gangguan akan lebih sering dan lebih sering bergabung, sehingga jarak antarperistiwa lebih pendek daripada waktu yang dibutuhkan untuk mengisi ulang dan memperbaiki. Kedua, teknologi yang tersedia bagi rumah tangga akan lebih baik dan lebih murah: panel surya dan baterai, penyaring air, pesan satelit, dan sensor yang memperingatkan banjir sebelum tiba. Skenarionya berbeda terutama pada apakah teknologi itu menjangkau rumah tangga yang membutuhkannya. Tabel 16.1 menyusun kesiapsiagaan rumah tangga menurut bahaya, dari yang dimiliki sebagian besar rumah tangga hingga yang menurut bukti menyelamatkan nyawa.
 
-[[TABLE:Tabel 16.1 Kesiapsiagaan rumah tangga menurut bahaya, 2050]]
+[[TABLE:Tabel 16.1 Kesiapsiagaan rumah tangga menurut bahaya||Sumber: kompilasi penulis dari IFRC (2022) dan Sphere Association (2018)]]
 | Bahaya | Waktu ancang | Persediaan kritis | Kegagalan umum | Standar minimum |
 |---|---|---|---|---|
 | Gelombang panas | Hari | Air; pendinginan; kipas | Tidak ada tempat sejuk | Air 2 pekan; ruang sejuk |
@@ -3684,12 +3688,12 @@ Garis dasarnya adalah sistem kesehatan yang sudah tertekan. Sekitar setengah pop
 
 Hasil kesehatan akan mengikuti laju pemanasan, investasi dalam sistem kesehatan, dan efektivitas adaptasi. Dunia yang berinvestasi dalam layanan primer, pengawasan, dan fasilitas tangguh dapat menurunkan kematian bahkan ketika bahaya meningkat; dunia yang tetap pada jalur sekarang akan melihat kemajuan kesehatan berbalik, terutama di negara yang paling sedikit bertanggung jawab atas emisi. Tabel merangkum rentangnya.
 
-Sistem kesehatan 2050 akan dinilai dari cara bekerjanya pada pekan terburuk tahun itu, bukan dari kinerja rata-ratanya (WHO, 2023). Skenarionya berbeda terutama pada investasi dan cakupan: sistem dengan akses universal, fasilitas tangguh, staf terlatih, dan pengawasan yang berfungsi dapat menyerap bahaya jauh lebih besar daripada yang tanpa semua itu. Indikatornya konkret: porsi fasilitas dengan listrik dan air cadangan, jumlah tenaga kesehatan per seribu penduduk, cakupan imunisasi rutin, dan waktu yang dibutuhkan untuk mendeteksi serta merespons wabah.
+Sistem kesehatan 2050 akan dinilai dari cara bekerjanya pada pekan terburuk tahun itu, bukan dari kinerja rata-ratanya (WHO, 2023). Skenarionya berbeda terutama pada investasi dan cakupan: sistem dengan akses universal, fasilitas tangguh, staf terlatih, dan pengawasan yang berfungsi dapat menyerap bahaya jauh lebih besar daripada yang tanpa semua itu. Indikatornya konkret: porsi fasilitas dengan listrik dan air cadangan, jumlah tenaga kesehatan per seribu penduduk, cakupan imunisasi rutin, dan waktu yang dibutuhkan untuk mendeteksi serta merespons wabah. Tabel 17.1 menerjemahkan adaptasi menjadi luaran kesehatan, dengan kematian berlebih akibat panas per tahun yang tersirat dari setiap tingkat investasi; Gambar 17.1 menggambarkan ketiga jalur itu terhadap satu basis yang sama.
 
-[[TABLE:Tabel 17.1 Indikator sistem kesehatan, 2050]]
+[[TABLE:Tabel 17.1 Indikator sistem kesehatan, 2050||Sumber: kompilasi penulis dari WHO (2023) dan Robine dkk. (2008)]]
 | Indikator | Adaptasi rendah | Tren saat ini | Adaptasi tinggi | Hasil kesehatan |
 |---|---|---|---|---|
-| Kematian berlebih akibat panas (tahunan) | ~700.000 | ~500.000 | ~250.000 | Kematian yang dapat dicegah |
+| Kematian berlebih akibat panas (tahunan) | ~735.000 | ~500.000 | ~245.000 | Kematian yang dapat dicegah |
 | Populasi di zona endemik dengue | 5,5 miliar | 5 miliar | 4 miliar | Penyakit menular |
 | Fasilitas kesehatan tangguh iklim | 20% | 45% | 80% | Kesinambungan layanan |
 | Cakupan kesehatan universal | 60% | 75% | 95% | Perlindungan finansial |
@@ -3698,7 +3702,7 @@ Sistem kesehatan 2050 akan dinilai dari cara bekerjanya pada pekan terburuk tahu
 
 ![Gambar 17.1 Kematian berlebih akibat panas per tahun pada 2050 di bawah tiga jalur adaptasi](figures/fig17_1_id.png)||Sumber: Tabel 17.1.
 
-Kolom tengah perlu penjelasan. 'Kecenderungan sekarang' bukan ramalan masa depan yang paling mungkin; ia lintasan yang mengikuti kebijakan yang sudah diundangkan, belanja adaptasi yang sudah dijanjikan, dan investasi kesehatan yang sudah dianggarkan, dengan jalur emisi ditahan pada kasus menengah. Itu kolom yang didapat suatu pemerintah bila tidak mengubah apa pun, dan itu pembanding bagi dua kolom lainnya.
+Kolom tengah perlu penjelasan. 'Kecenderungan sekarang' bukan ramalan masa depan yang paling mungkin; ia lintasan yang mengikuti kebijakan yang sudah diundangkan, belanja adaptasi yang sudah dijanjikan, dan investasi kesehatan yang sudah dianggarkan, dengan jalur emisi ditahan pada kasus menengah. Itu kolom yang didapat suatu pemerintah bila tidak mengubah apa pun, dan itu pembanding bagi dua kolom lainnya. Basis di belakangnya adalah estimasi WHO sekitar 489.000 kematian terkait panas per tahun pada 2000–2019 (WHO, 2023): kolom kecenderungan sekarang hampir persis di atas basis itu, kolom adaptasi rendah sekitar 50 % di atasnya, dan kolom adaptasi tinggi sekitar separuh di bawahnya — rentang yang sama yang dilaporkan Tabel 9.1 untuk 2 °C tanpa tambahan adaptasi.
 
 Dua hal perlu ditekankan. Pertama, kesehatan adalah tempat perubahan iklim paling langsung dialami, dan karena itu tempat adaptasi memiliki imbal hasil paling jelas. Kedua, distribusi risiko kesehatan mengikuti ketimpangan yang ada, sehingga negara dan komunitas dengan kapasitas paling sedikit menghadapi beban terbesar.
 
@@ -3912,9 +3916,9 @@ Garis dasarnya adalah defisit kepercayaan. Kepercayaan pada pemerintah telah men
 
 Hasil tata kelola akan mengikuti kualitas institusi, pembiayaan, dan kerja sama internasional. Dunia yang berinvestasi dalam kapasitas lokal, transparansi, dan kerja sama regional dapat mengelola risiko yang meningkat; dunia yang merespons terlambat akan melihat bencana menjadi krisis politik. Tabel merangkum rentangnya.
 
-Tata kelola 2050 akan dinilai dari kemampuannya mengambil keputusan cepat dalam sistem yang punya banyak pusat dan tidak ada otoritas tunggal (UNDRR, 2015). Skenarionya berbeda terutama pada kepercayaan dan kapasitas: masyarakat yang percaya pada peringatan, kompensasi, dan kode bangunan dapat beradaptasi dengan biaya sebagian kecil dibandingkan masyarakat yang tidak. Indikatornya yang sulit dipalsukan: porsi pemerintah lokal dengan anggaran kebencanaan yang didanai, waktu antara prakiraan dan peringatan publik, proporsi kontrak rekonstruksi yang dipublikasikan, dan tingkat kepercayaan pada institusi publik menurut survei biasa.
+Tata kelola 2050 akan dinilai dari kemampuannya mengambil keputusan cepat dalam sistem yang punya banyak pusat dan tidak ada otoritas tunggal (UNDRR, 2015). Skenarionya berbeda terutama pada kepercayaan dan kapasitas: masyarakat yang percaya pada peringatan, kompensasi, dan kode bangunan dapat beradaptasi dengan biaya sebagian kecil dibandingkan masyarakat yang tidak. Indikatornya yang sulit dipalsukan: porsi pemerintah lokal dengan anggaran kebencanaan yang didanai, waktu antara prakiraan dan peringatan publik, proporsi kontrak rekonstruksi yang dipublikasikan, dan tingkat kepercayaan pada institusi publik menurut survei biasa. Tabel 18.1 membandingkan indikator tata kelola pada fungsi-fungsi yang menentukan apakah respons bertahan.
 
-[[TABLE:Tabel 18.1 Indikator tata kelola, 2050]]
+[[TABLE:Tabel 18.1 Indikator tata kelola||Sumber: kompilasi penulis dari UNDRR (2015) dan Cutter (2008)]]
 | Institusi | Fungsi inti | Kegagalan umum | Reformasi | Indikator |
 |---|---|---|---|---|
 | Pemerintah lokal | Evakuasi; tempat berlindung | Kurang dana; wewenang kabur | Desentralisasi fiskal; pelatihan | Waktu respons |
@@ -4132,9 +4136,9 @@ Transisi energi akan bergantung pada penurunan biaya, investasi jaringan, dan ke
 
 Sistem energi 2050 akan dibentuk tiga tren yang sudah terlihat: turunnya biaya surya dan baterai, elektrifikasi pemanasan dan transportasi, dan naiknya porsi listrik dalam penggunaan energi akhir (IRENA, 2023). Skenarionya berbeda terutama pada laju investasi jaringan dan kekuatan kebijakan, karena teknologinya bukan lagi kendala pengikat di sebagian besar tempat. Indikatornya: porsi terbarukan dalam listrik, biaya penyimpanan, laju pembangunan jaringan, dan jumlah orang yang memperoleh akses memasak bersih. Semuanya terukur setiap tahun, yang membuat transisi energi menjadi transisi paling mudah dilacak dalam buku ini.
 
-Skenario energi 2050 berbeda bukan pada teknologinya melainkan pada kecepatan jaringan dibangun ulang (IEA, 2023). Dalam satu skenario, surya dan angin memasok mayoritas listrik, penyimpanannya cukup menutup sepekan tanpa angin, dan bangunan serta kendaraannya terelektrifikasi; dalam skenario lain, transisinya sebagian, gas mengisi celahnya, dan emisinya turun lebih lambat daripada yang dituntut target. Perbedaannya bukan biaya panelnya, yang telah turun, melainkan biaya jaringan, perizinan, rantai pasok, dan perlawanan politik pemain lama. Indikatornya: porsi listrik terbarukan, kapasitas penyimpanan, panjang antrean interkoneksi, dan harga baterai durasi panjang.
+Skenario energi 2050 berbeda bukan pada teknologinya melainkan pada kecepatan jaringan dibangun ulang (IEA, 2023). Dalam satu skenario, surya dan angin memasok mayoritas listrik, penyimpanannya cukup menutup sepekan tanpa angin, dan bangunan serta kendaraannya terelektrifikasi; dalam skenario lain, transisinya sebagian, gas mengisi celahnya, dan emisinya turun lebih lambat daripada yang dituntut target. Perbedaannya bukan biaya panelnya, yang telah turun, melainkan biaya jaringan, perizinan, rantai pasok, dan perlawanan politik pemain lama. Indikatornya: porsi listrik terbarukan, kapasitas penyimpanan, panjang antrean interkoneksi, dan harga baterai durasi panjang. Tabel 19.1 melacak indikator energi bersih dan menunjukkan bahwa celahnya kini soal integrasi, bukan lagi soal biaya.
 
-[[TABLE:Tabel 19.1 Indikator energi bersih, 2050]]
+[[TABLE:Tabel 19.1 Indikator energi bersih||Sumber: kompilasi penulis dari IRENA (2023) dan IEA (2023)]]
 | Teknologi | Tren biaya | Penggunaan terbaik | Kendala | Manfaat ketangguhan |
 |---|---|---|---|---|
 | Surya PV | −90% sejak 2010 | Daya siang; atap | Lahan; keluaran malam | Modular; tanpa bahan bakar |
@@ -4359,9 +4363,9 @@ Hasil kesehatan mental akan mengikuti frekuensi bahaya, ketersediaan layanan, da
 
 Masa depan kesehatan jiwa yang diuraikan bab ini lebih bergantung pada layanan dan jaringan sosial yang menerimanya daripada pada iklimnya. Dalam satu skenario, kesehatan jiwa terintegrasi ke layanan primer dan perencanaan bencana, jaringan komunitas kuat, dan bebannya terkelola meski bahayanya meningkat. Dalam skenario lain, layanan tetap vertikal dan kurang didanai, peristiwa berulang menguras penduduk, dan bebannya menumpuk tanpa terlihat dalam tingkat penggunaan zat, kekerasan domestik, dan bunuh diri. Indikatornya: jurang pengobatan, jumlah tenaga kesehatan jiwa per seratus ribu penduduk, dan ketersediaan dukungan psikososial dalam respons bencana (WHO, 2022).
 
-Skenario kesehatan jiwa 2050 bergantung pada apakah layanannya diintegrasikan sebelum permintaannya datang (Clayton, 2020). Dalam satu skenario, layanan primer memuat tenaga kesehatan jiwa, sekolah punya konselor, rencana bencana memuat komponen psikososial, dan organisasi komunitas dibiayai untuk melakukan apa yang sudah mereka lakukan; dalam skenario lain, layanannya tetap spesialistik, permintaannya dijawab dengan daftar tunggu, dan bebannya jatuh pada keluarga. Beda biayanya tidak besar dan beda hasilnya besar, dan pilihannya dibuat dalam anggaran yang jarang menyebut kesehatan jiwa.
+Skenario kesehatan jiwa 2050 bergantung pada apakah layanannya diintegrasikan sebelum permintaannya datang (Clayton, 2020). Dalam satu skenario, layanan primer memuat tenaga kesehatan jiwa, sekolah punya konselor, rencana bencana memuat komponen psikososial, dan organisasi komunitas dibiayai untuk melakukan apa yang sudah mereka lakukan; dalam skenario lain, layanannya tetap spesialistik, permintaannya dijawab dengan daftar tunggu, dan bebannya jatuh pada keluarga. Beda biayanya tidak besar dan beda hasilnya besar, dan pilihannya dibuat dalam anggaran yang jarang menyebut kesehatan jiwa. Tabel 20.1 menyusun indikator kesehatan mental dan cakupan layanan di belakang masing-masing.
 
-[[TABLE:Tabel 20.1 Indikator kesehatan mental, 2050]]
+[[TABLE:Tabel 20.1 Indikator kesehatan mental||Sumber: kompilasi penulis dari WHO (2023) dan Clayton (2020)]]
 | Populasi | Stresor utama | Respons tipikal | Faktor risiko | Dukungan |
 |---|---|---|---|---|
 | Anak-anak | Gangguan; ketakutan | Kecemasan; regresi | Kehilangan sekolah | Rutinitas; dukungan sekolah |
@@ -4584,9 +4588,9 @@ Keadilan iklim akan bergantung pada laju perubahan iklim, kekuatan institusi int
 
 Skenario keadilan 2050 berbeda bukan pada iklimnya melainkan pada institusinya (Schlosberg, 2007). Dalam satu skenario, pembiayaan kerugian dan kerusakan diskalakan sesuai kebutuhan, utang direstrukturisasi, dan uang adaptasi sampai ke tingkat lokal tempat ia dibelanjakan untuk air, perumahan, serta sistem peringatan. Dalam skenario lain, dananya tetap kecil, beban utang tumbuh, dan adaptasi yang terjadi bersifat swasta dan tidak merata, yang menghasilkan dunia yang lebih panas dan lebih terbelah. Indikatornya: volume dan kecepatan pembiayaan adaptasi, porsi yang sampai ke aktor lokal, rasio pembayaran utang negara paling terpapar, dan jumlah perkara hukum yang menetapkan kewajiban kehati-hatian.
 
-Variabel yang memisahkan kedua versi bukan besar dananya melainkan kecepatan pencairannya. Mekanisme yang menuntut proposal proyek, penilaian, dan siklus pengadaan menyalurkan uang dua sampai tiga tahun setelah banjir, yaitu skala waktu rekonstruksi alih-alih bantuan darurat, dan pada saat itu rumah tangga yang tidak dapat menunggu sudah menjual aset dan menarik anaknya dari sekolah. Usulan yang mengubah aritmetikanya adalah yang mengakreditasi lebih dahulu lembaga nasional dan kota untuk membelanjakan berdasarkan pemicu, sehingga uangnya bergerak melalui saluran yang sudah ada. Perbedaan antara kedua skenario karena itu dapat diukur dalam pekan, dan pekan adalah yang menurut data kemiskinan pascabencana paling menentukan.
+Variabel yang memisahkan kedua versi bukan besar dananya melainkan kecepatan pencairannya. Mekanisme yang menuntut proposal proyek, penilaian, dan siklus pengadaan menyalurkan uang dua sampai tiga tahun setelah banjir, yaitu skala waktu rekonstruksi alih-alih bantuan darurat, dan pada saat itu rumah tangga yang tidak dapat menunggu sudah menjual aset dan menarik anaknya dari sekolah. Usulan yang mengubah aritmetikanya adalah yang mengakreditasi lebih dahulu lembaga nasional dan kota untuk membelanjakan berdasarkan pemicu, sehingga uangnya bergerak melalui saluran yang sudah ada. Perbedaan antara kedua skenario karena itu dapat diukur dalam pekan, dan pekan adalah yang menurut data kemiskinan pascabencana paling menentukan. Tabel 21.1 membandingkan indikator keadilan dan instrumen yang menggerakkan masing-masing.
 
-[[TABLE:Tabel 21.1 Indikator keadilan iklim, 2050]]
+[[TABLE:Tabel 21.1 Indikator keadilan iklim||Sumber: kompilasi penulis dari UNEP (2023) dan Schlosberg (2007)]]
 | Aktor | Tanggung jawab | Paparan | Instrumen | Celah |
 |---|---|---|---|---|
 | Negara berpenghasilan tinggi | Historis tinggi | Rendah hingga sedang | Pembiayaan; mitigasi | Pelaksanaan |
@@ -4737,7 +4741,7 @@ Banjir perkotaan menyingkap interaksi infrastruktur, perencanaan, dan ketimpanga
 
 Krisis air Cape Town 2018 adalah darurat perkotaan yang lambat. Setelah tiga tahun kekeringan, waduk kota turun ke level kritis, dan pejabat bersiap menghadapi “Day Zero”, ketika keran dimatikan dan warga mengantre air. Kota itu menghindari hasil tersebut melalui pembatasan ketat, pengelolaan tekanan, dan kampanye publik, tetapi krisis itu menyingkap kerentanan kota yang tumbuh dan bergantung pada pasokan air yang bervariasi.
 
-Banjir Seoul 2022 adalah pengingat bahwa kota kaya tidak kebal. Curah hujan rekor pada Agustus 2022 membanjiri ruang bawah tanah dan apartemen semi-basement, menewaskan setidaknya 141 orang, banyak di antaranya warga miskin yang tinggal di perumahan termurah (CRED, 2023). Peristiwa itu menyoroti cara pasar perumahan mendorong rumah tangga berpenghasilan rendah ke ruang paling berbahaya, dan bagaimana infrastruktur yang dirancang untuk iklim berbeda dapat gagal secara tiba-tiba.
+Banjir Seoul 2022 adalah pengingat bahwa kota kaya tidak kebal. Curah hujan rekor pada Agustus 2022 membanjiri ruang bawah tanah dan apartemen semi-basement, menewaskan setidaknya selusin orang, banyak di antaranya warga miskin yang tinggal di perumahan termurah (CRED, 2023). Peristiwa itu menyoroti cara pasar perumahan mendorong rumah tangga berpenghasilan rendah ke ruang paling berbahaya, dan bagaimana infrastruktur yang dirancang untuk iklim berbeda dapat gagal secara tiba-tiba.
 
 Chennai, Cape Town dan Seoul biasanya diceritakan sebagai kisah terpisah, dan bila dibaca bersama semuanya menggambarkan satu masalah perkotaan: infrastruktur yang dirancang untuk iklim stasioner dan dikelola institusi dengan insentif lemah untuk merawatnya. Banjir Chennai diperparah hilangnya lahan basah yang dahulu menyerap air monsun; kekeringan Cape Town dikelola melalui tarif dan penurunan tekanan alih-alih pasokan baru; banjir Seoul 2022 menewaskan orang yang tinggal di apartemen semi-basement, dan kota itu kemudian mengumumkan rencana menghapusnya bertahap. Dalam setiap kasus bahayanya meteorologis dan bencananya municipal.
 
@@ -4813,9 +4817,9 @@ Hasil perkotaan akan bergantung pada laju pemanasan, urbanisasi, dan kualitas ta
 
 Ekstrem perkotaan 2050 akan ditentukan perpotongan tiga tren: bahaya yang lebih sering, penduduk kota yang tumbuh, dan mutu tata kelola kota. Kota yang berinvestasi pada rencana aksi panas, drainase, peringatan dini, dan perlindungan sosial dapat menurunkan kematian meski bahayanya meningkat; kota yang melebar ke dataran banjir dan bergantung pada respons darurat tidak dapat. Skenarionya berbeda terutama pada variabel ketiga, karena dua yang pertama sudah banyak ditentukan. Indikatornya: porsi penduduk yang tercakup rencana panas, standar drainase jaringan, jumlah hari di atas 35 °C, dan jarak warga ke pusat pendinginan (Ebi dkk., 2021).
 
-Masa depan kasus bencana adalah peristiwanya makin sulit diklasifikasikan dan kesiapsiagaannya makin spesifik. Peristiwa gabungan, ketika gelombang panas bertepatan dengan kegagalan listrik dan kekeringan, tidak dapat dikelola dengan rencana yang ditulis untuk satu bahaya, dan kota yang akan bertahan adalah yang memetakan ketergantungannya alih-alih bahayanya. Skenario yang muncul dari kasus-kasus di bagian ini bukan dunia dengan lebih banyak bencana melainkan dunia dengan bencana yang sama dan hasil berbeda, dan perbedaannya mutu institusi yang menghadapinya.
+Masa depan kasus bencana adalah peristiwanya makin sulit diklasifikasikan dan kesiapsiagaannya makin spesifik. Peristiwa gabungan, ketika gelombang panas bertepatan dengan kegagalan listrik dan kekeringan, tidak dapat dikelola dengan rencana yang ditulis untuk satu bahaya, dan kota yang akan bertahan adalah yang memetakan ketergantungannya alih-alih bahayanya. Skenario yang muncul dari kasus-kasus di bagian ini bukan dunia dengan lebih banyak bencana melainkan dunia dengan bencana yang sama dan hasil berbeda, dan perbedaannya mutu institusi yang menghadapinya. Tabel 22.1 menempatkan sembilan bencana berdampingan pada lima kolom yang sama, sehingga kegagalannya dapat dibandingkan, bukan hanya diceritakan satu per satu; Gambar 22.1 memplot jumlah kematiannya.
 
-[[TABLE:Tabel 22.1 Kasus bencana komparatif, 2050]]
+[[TABLE:Tabel 22.1 Kasus bencana komparatif||Sumber: kompilasi penulis dari CRED (2023) dan WMO (2023)]]
 | Peristiwa | Bahaya | Kematian | Yang gagal | Pelajaran |
 |---|---|---|---|---|
 | Chicago 1995 | Panas | 739 | Isolasi sosial | Jaringan melindungi |
@@ -5049,17 +5053,17 @@ Garis dasarnya adalah krisis kelaparan yang sudah berlangsung. Sekitar 735 juta 
 
 Ketahanan pangan dan air akan mengikuti laju pemanasan, investasi dalam air dan perlindungan sosial, serta intensitas konflik. Dunia yang berinvestasi dalam efisiensi irigasi, pengelolaan air tanah, tindakan awal, dan perdamaian dapat mengurangi kelaparan bahkan ketika iklim berubah; dunia yang tetap pada jalur sekarang akan melihat krisis pangan dan air lebih sering. Tabel merangkum rentangnya.
 
-Ketahanan pangan dan air 2050 akan ditentukan perpotongan tiga kurva: permintaan, yang naik bersama penduduk dan pendapatan; pasokan, yang turun ketika akuifer menipis dan gletser menyusut; dan frekuensi guncangan, yang naik bersama pemanasan (Zemp dkk., 2019). Wilayah tempat kurvanya paling cepat berpotongan sudah diketahui — Tanduk Afrika, Sahel, Timur Tengah, dataran Indo-Gangetika, dan lahan kering Asia Tengah — dan perbedaan antarskenario sebagian besar soal investasi dan konflik. Indikatornya: muka air tanah di cekungan besar, rasio stok global terhadap konsumsi, harga biji-bijian pokok, dan jumlah orang dalam kerawanan pangan akut.
+Ketahanan pangan dan air 2050 akan ditentukan perpotongan tiga kurva: permintaan, yang naik bersama penduduk dan pendapatan; pasokan, yang turun ketika akuifer menipis dan gletser menyusut; dan frekuensi guncangan, yang naik bersama pemanasan (Zemp dkk., 2019). Wilayah tempat kurvanya paling cepat berpotongan sudah diketahui — Tanduk Afrika, Sahel, Timur Tengah, dataran Indo-Gangetika, dan lahan kering Asia Tengah — dan perbedaan antarskenario sebagian besar soal investasi dan konflik. Indikatornya: muka air tanah di cekungan besar, rasio stok global terhadap konsumsi, harga biji-bijian pokok, dan jumlah orang dalam kerawanan pangan akut. Tabel 23.1 melakukan hal yang sama untuk krisis yang datang perlahan, dengan kolom dampak yang mencatat kematian, pengungsian, atau wabah sesuai kasusnya; Gambar 23.1 memplot kerugiannya pada skala logaritma agar krisis yang terpaut seribu kali dapat berbagi satu grafik.
 
-[[TABLE:Tabel 23.1 Kasus darurat lambat, 2050]]
-| Kasus | Pendorong | Kematian | Yang gagal | Pelajaran |
+[[TABLE:Tabel 23.1 Kasus darurat lambat||Sumber: kompilasi penulis dari CRED (2023) dan FAO (2023)]]
+| Kasus | Pendorong | Dampak | Yang gagal | Pelajaran |
 |---|---|---|---|---|
 | Sahel 1972–74 | Kekeringan; kebijakan lahan | ~100.000 | Akses pastoralis | Lindungi mobilitas |
 | Etiopia 1984–85 | Kekeringan; konflik | ~1.000.000 | Hak atas pangan | Pasar dan transfer |
 | Somalia 2011 | Kekeringan; konflik | ~258.000 | Akses; respons terlambat | Tindakan awal |
 | Somalia 2022 | Kekeringan; harga | ~43.000 | Celah pendanaan | Uang tunai dalam skala |
-| Suriah 2006–10 | Kekeringan; kebijakan | Pengungsian | Pedesaan diabaikan | Beradaptasi sebelum konflik |
-| Yaman 2017 | Air; konflik | Kolera | Sanitasi runtuh | Air sebagai keamanan |
+| Suriah 2006–10 | Kekeringan; kebijakan | Pengungsian massal | Pedesaan diabaikan | Beradaptasi sebelum konflik |
+| Yaman 2017 | Air; konflik | Wabah kolera | Sanitasi runtuh | Air sebagai keamanan |
 | Cape Town 2018 | Kekeringan; permintaan | Tidak ada | Keragaman pasokan | Kelola permintaan lebih awal |
 | São Paulo 2014–15 | Kekeringan; ketergantungan | Tidak ada | Sumber tunggal | Diversifikasi pasokan |
 
@@ -5293,9 +5297,9 @@ Dunia yang siap pada 2050 bukan dunia tanpa bencana; ia dunia ketika bahaya yang
 
 Dunia yang siap pada 2050 diukur dari hal-hal yang tidak terjadi, dan pengukurannya bagian tersulit dari argumennya. Negara yang berinvestasi pada peringatan, tempat berlindung, air, dan perlindungan sosial akan mencatat lebih sedikit kematian dari badai yang sama, dan perbedaannya tidak akan muncul sebagai berita utama karena ia ketiadaan berita. Skenario yang disusun bab ini karena itu bukan prediksi tentang iklimnya, yang sebagian besar sudah ditentukan, melainkan tentang institusinya, yang belum. Pilihan yang menentukan skenario mana tiba dibuat dalam anggaran, kode, simulasi, dan pengangkatan pejabat.
 
-Pembaca yang ingin tahu dalam beberapa tahun apakah skenario siap sedang tiba dapat mengamati sejumlah kecil indikator pendahulu yang bergerak sebelum jumlah kematian. Pertama, apakah anggaran nasional atau kota memuat pos pembiayaan yang disiapkan lebih dahulu dan dapat dicairkan berdasarkan prakiraan, karena pos itu bukti paling jelas bahwa pemerintah memutuskan bertindak sebelum deklarasi. Kedua, apakah latihan terakhir menghasilkan laporan pascakegiatan terbuka dengan perbaikan yang ditugaskan kepada orang, karena latihan tanpa laporan adalah pagi di tempat parkir. Ketiga, apakah daftar warga rentan mutakhir, yang dapat diuji dengan menanyakan satu klinik apakah ia dapat menyebut pasiennya yang bergantung pada oksigen atau dialisis dalam satu jam. Keempat, apakah standar drainase dan kode bangunan telah diperbarui ke iklim sekarang alih-alih iklim dekade ketika keduanya ditulis. Tidak satu pun indikator itu dramatis, dan bersama-sama mereka meramalkan arah dekade berikutnya lebih baik daripada tabel skenario mana pun.
+Pembaca yang ingin tahu dalam beberapa tahun apakah skenario siap sedang tiba dapat mengamati sejumlah kecil indikator pendahulu yang bergerak sebelum jumlah kematian. Pertama, apakah anggaran nasional atau kota memuat pos pembiayaan yang disiapkan lebih dahulu dan dapat dicairkan berdasarkan prakiraan, karena pos itu bukti paling jelas bahwa pemerintah memutuskan bertindak sebelum deklarasi. Kedua, apakah latihan terakhir menghasilkan laporan pascakegiatan terbuka dengan perbaikan yang ditugaskan kepada orang, karena latihan tanpa laporan adalah pagi di tempat parkir. Ketiga, apakah daftar warga rentan mutakhir, yang dapat diuji dengan menanyakan satu klinik apakah ia dapat menyebut pasiennya yang bergantung pada oksigen atau dialisis dalam satu jam. Keempat, apakah standar drainase dan kode bangunan telah diperbarui ke iklim sekarang alih-alih iklim dekade ketika keduanya ditulis. Tidak satu pun indikator itu dramatis, dan bersama-sama mereka meramalkan arah dekade berikutnya lebih baik daripada tabel skenario mana pun. Tabel 24.1 menetapkan prioritas menurut cakrawala, dari tindakan yang jatuh tempo sebelum peristiwa berikutnya hingga yang jatuh tempo sebelum pertengahan abad.
 
-[[TABLE:Tabel 24.1 Prioritas kesiapsiagaan menurut cakrawala, 2050]]
+[[TABLE:Tabel 24.1 Prioritas kesiapsiagaan menurut cakrawala||Sumber: kompilasi penulis dari Hess dkk. (2018) dan CRED (2023)]]
 | Cakrawala | Tindakan prioritas | Pelaku | Biaya | Tanda keberhasilan |
 |---|---|---|---|---|
 | Jam pertama | Peringatkan dan berlindung | Rumah tangga; pemerintah lokal | Rendah | Orang mencapai keselamatan |
@@ -5360,33 +5364,72 @@ Buku ini ditulis untuk dibantah. Saat Anda mempersoalkan atau memperluas salah s
 
 # Glosarium
 
-- Adaptasi: Menyesuaikan diri dengan dampak iklim yang aktual atau yang diharapkan.
-- Mitigasi: Mengurangi emisi gas rumah kaca.
-- Resiliensi: Kapasitas untuk menyerap gangguan dan bereorganisasi.
-- Kerentanan: Kepekaan terhadap kerugian.
-- Paparan: Kehadiran orang atau aset di area rawan bahaya.
-- Sensitivitas: Tingkat di mana sistem terpengaruh oleh iklim.
-- Kapasitas adaptif: Kemampuan untuk menyesuaikan diri dengan perubahan iklim.
-- Titik balik: Ambang batas di mana perubahan menjadi mandiri.
-- Efek rumah kaca: Penjeratan panas oleh gas atmosfer.
-- Jejak karbon: Total emisi gas rumah kaca yang disebabkan oleh suatu entitas.
-- SSP: Shared Socioeconomic Pathway (kerangka skenario).
-- RCP: Representative Concentration Pathway.
-- Pemanasan terkunci: Pemanasan yang terkunci dari emisi masa lalu.
+- Adaptasi: Menyesuaikan diri dengan dampak iklim yang aktual atau yang diharapkan untuk mengurangi kerugian atau memanfaatkan peluang.
+- Aerosol: Partikel halus di atmosfer. Sebagian besar memantulkan sinar matahari dan mendinginkan permukaan, sehingga menutupi sebagian pemanasan akibat gas rumah kaca.
+- Albedo: Bagian sinar matahari yang dipantulkan suatu permukaan. Salju dan es memantulkan paling banyak; laut terbuka dan batuan gelap paling sedikit.
+- AMOC: Atlantic Meridional Overturning Circulation, sabuk sirkulasi laut yang membawa panas ke utara dan membantu menstabilkan iklim Eropa.
+- Anggaran karbon: Total kumulatif karbon dioksida yang masih boleh dilepas agar pemanasan tetap di bawah tingkat tertentu.
+- Aset terdampar: Investasi yang kehilangan nilainya sebelum lunas karena kebijakan atau pasar berbalik melawannya.
+- Atribusi: Metode untuk memperkirakan seberapa besar perubahan iklim menaikkan peluang atau keparahan suatu peristiwa tertentu.
+- Celah adaptasi: Jarak antara adaptasi yang dibutuhkan dan adaptasi yang benar-benar dibiayai serta dilaksanakan.
+- COP: Conference of the Parties, pertemuan tahunan negara-negara penandatangan Konvensi Kerangka Kerja PBB tentang Perubahan Iklim.
+- Deforestasi: Hilangnya tutupan hutan secara permanen, biasanya untuk pertanian, yang melepaskan karbon dan mengeringkan lanskap sekitarnya.
+- Downscaling: Penerjemahan keluaran model global menjadi rincian lokal atau regional yang cukup halus untuk keputusan perencanaan.
+- Efek rumah kaca: Penjeratan panas yang keluar oleh gas di atmosfer, sehingga permukaan lebih hangat daripada seharusnya.
+- El Niño / La Niña: Pemanasan dan pendinginan berkala Samudra Pasifik tropis yang menggeser curah hujan dan suhu di seluruh dunia.
+- ENSO: El Niño–Southern Oscillation, siklus laut-atmosfer yang menghasilkan El Niño dan La Niña.
+- Evapotranspirasi: Air yang hilang dari tanah dan vegetasi ke atmosfer. Nilainya naik seiring suhu, yang mengeringkan lahan lebih jauh.
+- Fenologi: Waktu peristiwa biologis musiman seperti berbunga, bersarang, atau bermigrasi, yang bergeser seiring pemanasan.
+- Forcing radiatif: Perubahan keseimbangan energi masuk dan keluar di puncak atmosfer, diukur dalam watt per meter persegi.
+- Harga karbon: Biaya atau harga yang dapat diperdagangkan atas emisi, agar pencemar menanggung kerusakan yang ditimbulkannya.
+- IPCC: Intergovernmental Panel on Climate Change, badan yang menilai ilmu iklim terbitan untuk pemerintah.
+- Jejak karbon: Total emisi gas rumah kaca yang disebabkan oleh seseorang, produk, organisasi, atau kegiatan.
+- Kapasitas adaptif: Kemampuan menyesuaikan diri dengan perubahan iklim, yang ditentukan oleh dana, kelembagaan, infrastruktur, dan pengetahuan.
+- Karbon biru: Karbon yang tersimpan di mangrove, lamun, dan rawa garam, baik pada tumbuhannya maupun pada sedimen tergenang di bawahnya.
+- Keadilan iklim: Klaim bahwa pihak yang paling sedikit bertanggung jawab atas emisi, dan paling tidak mampu beradaptasi, tidak boleh menanggung beban keduanya.
+- Kekeringan: Defisit air yang berlangsung lama, didefinisikan secara meteorologis (curah hujan), hidrologis (sungai dan air tanah), atau agronomis (kelembapan tanah).
+- Kerentanan: Kecenderungan suatu sistem untuk dirugikan, mengingat paparan serta kemampuan menanggulangi dan beradaptasi.
+- Kerugian dan kerusakan: Kerugian akibat dampak iklim yang tidak dapat dicegah mitigasi maupun adaptasi, termasuk kehilangan permanen dan tak terpulihkan.
+- Ketahanan pangan: Akses andal atas pangan yang cukup, aman, dan bergizi; bergantung sekaligus pada ketersediaan, akses, pemanfaatan, dan stabilitas.
+- Ketangguhan jaringan: Kapasitas jaringan listrik untuk tetap memasok, atau memulihkan pasokan dengan cepat, saat terjadi guncangan.
+- Kontribusi yang Ditentukan Secara Nasional: Janji emisi setiap negara dalam Perjanjian Paris, yang direvisi setiap lima tahun.
+- Kriosfer: Bagian beku dari sistem Bumi: gletser, lapisan es, es laut, permafrost, dan salju.
+- Literasi iklim: Pengetahuan dan keterampilan untuk membaca informasi iklim, menilai keandalannya, dan bertindak atas dasar itu.
+- Maladaptasi: Adaptasi yang menurunkan satu risiko tetapi menciptakan risiko lain, atau memindahkan kerugian kepada kelompok yang kurang mampu menanggungnya.
+- Manfaat sampingan: Keuntungan kebijakan iklim yang bukan soal iklim, seperti udara lebih bersih, energi lebih murah, atau jalan lebih tenang.
+- Mangrove: Pohon atau semak tahan garam di pesisir tropis yang meredam gelombang badai dan menyimpan karbon biru dalam sedimennya.
+- Migrasi internal: Perpindahan di dalam batas negara sendiri, berbeda dari perpindahan lintas batas atau pergerakan pengungsi.
+- Mitigasi: Mengurangi emisi gas rumah kaca, atau memperkuat penyerap yang menghilangkannya dari atmosfer.
+- Modifikasi radiasi matahari: Pemantulan sinar matahari secara sengaja, misalnya dengan menyuntikkan partikel ke stratosfer. Suhu turun tanpa mengatasi penyebabnya.
+- Muka laut relatif: Perubahan muka laut yang diukur di pantai tertentu, gabungan kenaikan laut global dengan penurunan atau pengangkatan lokal.
+- Paparan: Kehadiran orang, mata pencaharian, atau aset di tempat dan kondisi yang dapat dijangkau bahaya.
+- Pemanasan terkunci: Pemanasan yang sudah terkunci oleh emisi masa lalu dan akan tetap terjadi meski emisi berhenti hari ini.
+- Pembiayaan iklim: Dana publik atau swasta yang diarahkan pada mitigasi dan adaptasi, termasuk dana multilateral dan janji dalam perundingan tahunan.
+- Pengasaman laut: Penurunan pH air laut karena menyerap karbon dioksida, yang mengganggu organisme bercangkang dan memperlambat pertumbuhan karang.
+- Penghilangan karbon dioksida: Pengambilan karbon dioksida dari atmosfer secara sengaja dan penyimpanannya pada pohon, tanah, batuan, atau fasilitas rekayasa.
+- Pengurangan risiko bencana: Kebijakan dan praktik yang menurunkan paparan dan kerentanan sebelum peristiwa terjadi, bukan setelahnya.
+- Penurunan tanah: Turunnya permukaan tanah. Di delta sering dipercepat oleh penyedotan air tanah dan beban bangunan.
+- Periode ulang banjir: Selang rata-rata antara banjir berukuran tertentu. Banjir 1-dalam-100 tahun berpeluang 1 % terjadi pada tahun mana pun.
+- Peristiwa ekstrem: Nilai suatu variabel iklim yang jauh di luar rentang yang tercatat secara historis di suatu tempat.
+- Peristiwa gabungan: Dua bahaya atau lebih, atau bahaya dan paparan, yang terjadi bersamaan atau berurutan sehingga dampak gabungannya lebih buruk daripada jumlah bagiannya.
+- Permafrost: Tanah yang tetap beku dua tahun atau lebih. Pencairannya melepaskan karbon dan mengganggu bangunan, jalan, serta pipa.
+- Perubahan tata guna lahan: Perubahan fungsi lahan, seperti hutan menjadi padang rumput, yang mengubah penyimpanan karbon, siklus air, dan albedo.
+- ppm dan CO2e: Bagian per juta, dipakai untuk konsentrasi atmosfer. CO2e menyatakan forcing gas lain dalam ekuivalen karbon dioksida.
+- Pulau panas: Kecenderungan kawasan terbangun lebih panas daripada pedesaan sekitarnya, karena permukaan menyimpan panas dan vegetasi langka.
+- Rencana aksi panas: Seperangkat pemicu suhu dan respons yang disepakati sebelumnya, dari peringatan hingga pusat pendinginan, yang aktif saat ambang terlampaui.
+- Representative Concentration Pathway: Kerangka skenario sebelumnya, diindeks menurut forcing radiatif yang dicapai pada 2100.
+- Resiliensi: Kapasitas untuk menyerap gangguan, bereorganisasi, dan tetap berfungsi.
+- Sensitivitas: Tingkat di mana suatu sistem terpengaruh, merugikan atau menguntungkan, oleh perubahan iklim tertentu.
+- Shared Socioeconomic Pathway: Kerangka skenario saat ini, yang menggabungkan asumsi penduduk dan pendapatan dengan tingkat forcing.
+- Skenario emisi: Alur cerita emisi masa depan yang terkuantifikasi. SSP menggabungkan asumsi sosial-ekonomi dengan tingkat forcing radiatif.
+- SSP (Shared Socioeconomic Pathway): Kerangka skenario iklim saat ini; lihat Shared Socioeconomic Pathway.
+- Stres air: Pengambilan air tawar yang besar relatif terhadap pasokan yang tersedia, sehingga kekurangan muncul bahkan pada variasi biasa.
+- Subsidi bahan bakar fosil: Dukungan pemerintah yang menurunkan biaya produksi atau konsumsi batu bara, minyak, atau gas, baik melalui pembayaran langsung maupun perlakuan pajak.
+- Suhu wet-bulb: Suhu terendah yang dapat dicapai tubuh melalui pendinginan penguapan. Nilai di atas sekitar 35 °C tidak dapat bertahan bagi orang dewasa sehat yang beristirahat.
+- Titik balik: Ambang batas di mana perubahan menjadi mandiri, sehingga kembali ke keadaan sebelumnya menuntut jauh lebih banyak daripada membalik dorongan awal.
+- Umpan balik: Proses di mana pemanasan memicu perubahan yang menyebabkan pemanasan lebih lanjut, seperti pencairan permafrost atau hilangnya es yang memantulkan cahaya.
+- Zoonosis: Infeksi yang menular dari hewan ke manusia, lazim di tempat perubahan tata guna lahan mempertemukan manusia dan satwa liar.
 
-# Catatan Analitis
-
-**Kematian akibat panas adalah estimasi, bukan hitungan.** Gelombang panas Eropa 2003 biasanya disebut sekitar 70.000 kematian berlebih dan musim panas 2022 sekitar 61.700. Keduanya angka model, dihasilkan dengan membandingkan kematian teramati dengan yang diperkirakan terjadi, dan keduanya direvisi setelah terbit pertama kali. Arah perbandingan di Bab 4 — musim yang lebih panas dengan kematian lebih sedikit karena institusinya berubah — bertahan pada setiap revisi; angka persisnya tidak.
-
-**Atribusi menyatakan perubahan peluang, bukan sebab.** Kubah panas Pasifik Barat Laut 2021 disebut nyaris mustahil tanpa pemanasan akibat manusia, dan itu pernyataan tentang peluang, bukan tentang kerugian satu rumah tangga (Bab 4, Bab 15).
-
-**Angka perpindahan menghitung pergerakan, bukan orang.** Seseorang yang berpindah dua kali dihitung dua kali dalam total global, dan seseorang yang pindah tanpa melewati batas negara mungkin tidak tercatat sama sekali. Total 2023 yang dibahas di Bab 11 sebaiknya dibaca dengan kemungkinan penghitungan ganda itu.
-
-**Literatur konflik memang diperdebatkan.** Studi yang dikutip di Bab 12 berbeda pendapat tentang ukuran efek dan tentang bentuk kekerasan apa yang dihitung. Buku ini melaporkan perdebatan itu alih-alih menyelesaikannya, dan setiap koefisien tunggal sebaiknya diperlakukan sebagai satu estimasi dalam sebaran (Bab 12).
-
-**Neraca pangan adalah rata-rata nasional.** Angka per kapita di Bab 7 menyembunyikan bagaimana pangan terdistribusi di dalam negeri, dan sebuah negara bisa menjadi eksportir bersih sementara sebagian penduduknya rawan pangan (Bab 23).
-
-**Estimasi kerugian bergantung pada tingkat diskonto.** Dua ekonom dengan data yang sama dapat menghasilkan biaya kelambatan yang sangat berbeda karena memberi bobot berbeda pada masa depan. Itulah sebabnya angka di Bab 10 dan Bab 21 disajikan sebagai rentang, bukan satu bilangan.
 
 # Catatan Sumber Peristiwa
 
@@ -5412,6 +5455,17 @@ Angka untuk peristiwa bernama yang dipakai sebagai studi kasus dalam buku ini di
 - Ambang deforestasi Amazon — IPCC (2019), Climate Change and Land.
 - Penurunan es laut Arktik — Notz & Stroeve (2016), Science 354(6313).
 - Rekor suhu global — Lenssen dkk. (2019); Morice dkk. (2021); Rohde & Hausfather (2020); WMO (2023).
+- Siklon Bhola 1970 dan Siklon Amphan 2020 — CRED (2023), EM-DAT; WMO (2023), State of the Global Climate. Jumlah korban Amphan diambil dari CRED, bukan dari hitungan awal pemerintah yang kemudian direvisi naik.
+- Tuvalu dan Persatuan Falepili 2023 — UNHCR (2023), pelaporan perpindahan akibat iklim dan tanpa kewarganegaraan; teks perjanjian sebagaimana diratifikasi Australia dan Tuvalu.
+- Penyusutan Danau Chad — Gleick (2023), Water, Climate and Governance Crises; IPCC (2019a), Climate Change and Land.
+- Banjir Emilia-Romagna 2023 — CRED (2023), EM-DAT; penilaian kerusakan daerah yang dirangkum dalam WMO (2023).
+- Badai Helene 2024 — NOAA National Centers for Environmental Information (2024), Billion-Dollar Weather and Climate Disasters; WMO (2025), State of the Global Climate 2024.
+- Mini-grid surya dan sistem surya rumah tangga di Bangladesh — IRENA (2023), World Energy Transitions Outlook; angka penyebaran adalah total program nasional, bukan keluaran model.
+- Dana Kerugian dan Kerusakan yang disepakati 2022 — UNEP (2023), Adaptation Gap Report; catatan negosiasi diambil dari keputusan COP itu sendiri, bukan dari komentar pihak ketiga.
+- Penurunan tanah dan tanggul laut Jakarta — IPCC (2022a), Impacts, Adaptation and Vulnerability, bab perkotaan; UN-Habitat (2022), World Cities Report.
+- Demam berdarah, tahun rekor di Amerika, 2024 — WHO (2023), estimasi kesehatan global, dengan data surveilans nasional untuk total 2024; angka kasus adalah kasus yang dilaporkan, yang lebih rendah daripada infeksi sebenarnya.
+- Pembatasan ekspor beras 2023 — FAO (2023), Food Outlook; World Bank (2022), takarir ketahanan pangan dan perubahan iklim. Pergerakan harga disajikan sebagai rentang karena larangan ekspor dan kerugian cuaca terjadi bersamaan dan tidak dapat dipisahkan dengan bersih.
+
 
 # Daftar Pustaka
 

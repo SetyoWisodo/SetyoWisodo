@@ -230,18 +230,20 @@ A second flood makes the same point from another continent. In March 2019, Cyclo
 
 Everything that follows in this book rests on a trend that is already measurable. Since 1970, global surface temperature has risen by about 0.18°C per decade, sea level by about 3.4 millimetres per year, and the frequency of extreme heat has increased by a factor of roughly three in many regions (IPCC, 2019b). The number of weather-related disasters reported to EM-DAT has risen from about 100 a year in the 1970s to more than 300 a year in the 2010s, though part of that increase reflects better reporting. The losses, adjusted for inflation, have grown by about 5 to 7 per cent a year, faster than exposure alone would predict.
 
-The present position is that the world is on a trajectory consistent with about 2.7°C of warming by 2100 if current policies are maintained, according to the International Energy Agency's assessment of announced pledges and implemented measures. That is below the 4.4°C of the highest scenario but well above the 1.5°C target (IPCC, 2021). The near-term trajectory is largely locked in by emissions already released and by infrastructure already built: even if every country met its net-zero pledge, the next two decades would still warm by about 0.4°C above the current level (IPCC, 2021).
+The present position is that the world is on a trajectory consistent with about 2.7°C of warming by 2100 if current policies are maintained, the central estimate of the IPCC's intermediate pathway (IPCC, 2021). That is below the 4.4°C of the highest scenario but well above the 1.5°C target. The near-term trajectory is largely locked in by emissions already released and by infrastructure already built: even if every country met its net-zero pledge, the next two decades would still warm by about 0.4°C above the current level (IPCC, 2021).
 
 The scenarios below are therefore not predictions of what will happen but conditional projections of what could happen under stated assumptions. They differ mainly in the speed of decarbonisation and in the response of slow variables such as ice sheets and the overturning circulation. Each is anchored to observed data: the 2024 concentration of 424 parts per million, the 1.55°C annual anomaly, the 4.5 millimetres per year of sea-level rise, and the current rate of energy transition (NOAA, 2024).
 
-The next two decades can be read as a sequence rather than a blur. The 2020s are the decade in which individual years cross 1.5 °C while the multi-year average remains below it; the 2030s are the decade in which the average itself approaches that line under current policies; and by the 2040s the difference between the high and low paths becomes visible in the frequency of extremes rather than only in the global mean (IPCC, 2021). Four indicators are worth watching because they move early and are hard to fake: ocean heat content, the mass balance of the Greenland and Antarctic ice sheets, the extent of Arctic sea ice in September, and the fraction of the land surface in drought at any moment. Each is measured continuously, published openly and difficult to reinterpret.
+The next two decades can be read as a sequence rather than a blur. The 2020s are the decade in which individual years cross 1.5 °C while the multi-year average remains below it; the 2030s are the decade in which the average itself approaches that line under current policies; and by the 2040s the difference between the high and low paths becomes visible in the frequency of extremes rather than only in the global mean (IPCC, 2021). Four indicators are worth watching because they move early and are hard to fake: ocean heat content, the mass balance of the Greenland and Antarctic ice sheets, the extent of Arctic sea ice in September, and the fraction of the land surface in drought at any moment. Each is measured continuously, published openly and difficult to reinterpret. Table 1.1 sets out the three futures that organise the rest of the book, with the temperatures and signature impacts of each.
 
-[[TABLE:Table 1.1 Three futures for the next two decades]]
+[[TABLE:Table 1.1 Three futures for the next two decades||Source: compiled by the author from IPCC (2023) and IEA (2023)]]
 | Scenario | Assumption | 2035 | 2050 | Signature impacts |
 |---|---|---|---|---|
 | Accelerated transition | Emissions peak before 2025, halve by 2035, net zero by 2060 | ~1.7°C | ~1.8°C | Heat extremes stabilise; sea-level rise ~0.3 m by 2050; coral reefs still decline |
 | Current policies | Implemented measures only, slow tightening after 2030 | ~1.9°C | ~2.1°C | Severe heatwaves annual in South Asia; crop losses 5–10%; 200 million displaced by 2050 |
 | Delayed transition | Emissions plateau until 2040, rapid catch-up afterwards | ~2.1°C | ~2.4°C | Arctic summers ice-free; reef collapse; 400 million in coastal flood zones |
+
+One assumption in Table 1.1 has already expired. The first row was specified with a global emissions peak before 2025, which has not happened: emissions in 2024–2025 were still at or near record levels (Friedlingstein et al., 2024). The row therefore describes the effort still required rather than a policy already under way, and the cuts it implies are steeper now than they were when the scenario was written. The second row, current policies, remains the closest to observed trends, which is why it is used as the central case in the chapters that follow.
 
 The difference between the first and third rows is about half a degree by 2050 and nearly a degree by 2100, but the difference in consequences is much larger than the temperature numbers suggest. Half a degree is the difference between a heatwave that kills hundreds and one that kills tens of thousands; between a harvest that fails once a decade and one that fails every other year; between a reef that bleaches and recovers and one that dissolves (IPCC, 2018). The reason is that impacts are non-linear: they depend on thresholds, and thresholds are crossed at particular temperatures rather than spread evenly across the range.
 
@@ -439,9 +441,9 @@ The first assumes rapid decarbonisation: emissions fall by about half by 2030 an
 
 A useful thought experiment clarifies what is already committed. If every emission stopped tomorrow, the atmosphere would stop accumulating CO2 within a few years, but global temperature would stabilise rather than fall, and sea level would continue to rise for centuries as the ocean and the ice sheets finished responding to the warming that has already occurred (IPCC, 2021). The commitment is not a reason for fatalism; it is a reason to distinguish between the warming that cannot now be avoided and the warming that can still be prevented. The first determines how much adaptation is necessary, the second determines whether adaptation remains possible.
 
-Regionally, the three trajectories diverge far more than the global averages suggest. Under the high trajectory, the Mediterranean and the Middle East approach conditions in which summer heat becomes a chronic hazard rather than an episodic one; South Asia faces combinations of heat and humidity that exceed the physiological limits of outdoor work for part of the year; and the Arctic warms by several degrees more than the global mean. Under the low trajectory those outcomes are attenuated but not eliminated. The difference between the scenarios is therefore not a difference in global average temperature; it is a difference in which regions remain habitable in the way their inhabitants currently understand the term.
+Regionally, the three trajectories diverge far more than the global averages suggest. Under the high trajectory, the Mediterranean and the Middle East approach conditions in which summer heat becomes a chronic hazard rather than an episodic one; South Asia faces combinations of heat and humidity that exceed the physiological limits of outdoor work for part of the year; and the Arctic warms by several degrees more than the global mean. Under the low trajectory those outcomes are attenuated but not eliminated. The difference between the scenarios is therefore not a difference in global average temperature; it is a difference in which regions remain habitable in the way their inhabitants currently understand the term. Table 2.1 reduces the three trajectories to numbers at 2050 and 2100 and names the physical consequence attached to each; Figure 2.1 shows the same comparison as bars.
 
-[[TABLE:Table 2.1 Three physical trajectories to 2100 (relative to 1850–1900)]]
+[[TABLE:Table 2.1 Three physical trajectories to 2100 (relative to 1850–1900)||Source: compiled by the author from IPCC (2021)]]
 | Trajectory | Policy assumption | 2050 | 2100 | Observable markers |
 |---|---|---|---|---|
 | Rapid decarbonisation (SSP1-2.6) | Emissions halve by 2030, net zero around 2060 | ~1.6°C | ~1.8°C (1.3–2.4) | Atmospheric CO2 peaks below 450 ppm; sea-level rise near 0.4 m |
@@ -638,9 +640,9 @@ The present position is that several of the slower variables have already begun 
 
 The slow variables matter as much as emissions. If the overturning circulation weakens moderately, European winters cool slightly while the tropics warm faster; if it collapses, the regional consequences are severe and the global consequences are still debated. If the Greenland ice sheet is committed to long-term loss, sea level rises for centuries regardless of what happens to emissions after mid-century. These are not alternative theories; they are different positions on a continuum of probability, and the monitoring systems described above are what allow the probabilities to be updated.
 
-The possibility that matters most for this chapter is not a gradual trend but a threshold crossed without warning. Several of the candidate tipping elements would announce themselves through changes in variability before they changed state: the overturning circulation would become more erratic, a forest would take longer to recover from drought, an ice sheet would calve more frequently. Those signals are subtle and require long, uninterrupted records to detect. The practical conclusion is not that catastrophe is imminent but that monitoring is a form of insurance: a system that stops measuring because the measurements are inconvenient has removed its own ability to see the transition coming.
+The possibility that matters most for this chapter is not a gradual trend but a threshold crossed without warning. Several of the candidate tipping elements would announce themselves through changes in variability before they changed state: the overturning circulation would become more erratic, a forest would take longer to recover from drought, an ice sheet would calve more frequently. Those signals are subtle and require long, uninterrupted records to detect. The practical conclusion is not that catastrophe is imminent but that monitoring is a form of insurance: a system that stops measuring because the measurements are inconvenient has removed its own ability to see the transition coming. Table 3.1 lists the thresholds that matter for decisions, together with the signals that would show one is being approached.
 
-[[TABLE:Table 3.1 System thresholds and what to watch for]]
+[[TABLE:Table 3.1 System thresholds and what to watch for||Source: compiled by the author from IPCC (2018) and Armstrong McKay et al. (2022)]]
 | Element | Threshold of concern | Time to observe change | Signal to monitor |
 |---|---|---|---|
 | Atlantic overturning | Weakening beyond ~15% of baseline | Decades | Florida Strait transport; Labrador Sea density |
@@ -845,9 +847,9 @@ The exposure is not uniform. In Delhi, the summer of 2024 produced weeks of temp
 
 Adaptation will matter as much as emissions. If cities invest in shade, cooling, warning systems and housing, mortality can fall even as temperatures rise. If they do not, mortality will rise faster than the temperature because exposure is growing with urbanisation and ageing. The scenarios below combine the two: they show what happens to heat risk under different emission paths and different levels of adaptive investment.
 
-The useful way to think about future heat is not the global average but the number of days above a dangerous threshold. A world at 1.5 °C and a world at 3 °C differ relatively little in their mean temperature and enormously in the frequency of extremes: an event that was once a once-in-fifty-years heatwave becomes a once-in-five-years event, and in some tropical regions becomes close to annual (Ebi et al., 2021). That change is what drives mortality, labour loss and cooling demand, and it is what infrastructure must be designed for. The number of days above 35 °C is a more honest planning variable than the global mean, because it is what a household, a hospital or a construction site actually experiences, and because it can be projected for a city rather than for the planet (Iungman et al., 2023).
+The useful way to think about future heat is not the global average but the number of days above a dangerous threshold. A world at 1.5 °C and a world at 3 °C differ relatively little in their mean temperature and enormously in the frequency of extremes: an event that was once a once-in-fifty-years heatwave becomes a once-in-five-years event, and in some tropical regions becomes close to annual (Ebi et al., 2021). That change is what drives mortality, labour loss and cooling demand, and it is what infrastructure must be designed for. The number of days above 35 °C is a more honest planning variable than the global mean, because it is what a household, a hospital or a construction site actually experiences, and because it can be projected for a city rather than for the planet (Iungman et al., 2023). Table 4.1 gives the exposure figures city by city, including the wet-bulb values that determine whether cooling can still work, and Figure 4.1 plots the days above 35 °C that lie behind them.
 
-[[TABLE:Table 4.1 Heat exposure in selected cities, present and 2050]]
+[[TABLE:Table 4.1 Heat exposure in selected cities, present and 2050||Source: compiled by the author from Ebi et al. (2021) and IPCC (2022a)]]
 | City | Days above 35°C now | Days above 35°C in 2050 (SSP2-4.5) | Wet-bulb risk | Critical adaptation |
 |---|---|---|---|---|
 | Delhi | ~100 | ~140 | High in monsoon | Cooling centres; outdoor work bans |
@@ -1059,9 +1061,9 @@ Demand already exceeds reliable supply in many basins. About 4 billion people ex
 
 Population, diet, technology and governance will decide the water balance. A world that converges toward efficient irrigation, recycles more water and limits groundwater withdrawal can meet demand with less water than it uses today. A world that continues current trends will face a shortfall of about 40 per cent between available supply and projected demand by 2030, according to the 2030 Water Resources Group (Addams et al., 2009). The scenarios below show what the main basins might look like under different assumptions.
 
-The water gap of 2050 will be determined less by total rainfall than by the intersection of three curves: demand, which rises with population and income; supply, which falls as glaciers retreat and aquifers deplete; and quality, which deteriorates with pollution and salinisation (Gleick, 2023). Regions where the three curves cross earliest are the ones already under stress — the Indo-Gangetic plain, the North China plain, the Middle East, the Sahel, the Central Valley of California and the highlands of Ethiopia. The scenarios differ mainly in how quickly demand is brought under control through efficiency, crop choice and reuse. The measures to watch are groundwater levels in the great aquifers, the seasonal flow of glacier-fed rivers, and the share of wastewater that is treated rather than discharged.
+The water gap of 2050 will be determined less by total rainfall than by the intersection of three curves: demand, which rises with population and income; supply, which falls as glaciers retreat and aquifers deplete; and quality, which deteriorates with pollution and salinisation (Gleick, 2023). Regions where the three curves cross earliest are the ones already under stress — the Indo-Gangetic plain, the North China plain, the Middle East, the Sahel, the Central Valley of California and the highlands of Ethiopia. The scenarios differ mainly in how quickly demand is brought under control through efficiency, crop choice and reuse. The measures to watch are groundwater levels in the great aquifers, the seasonal flow of glacier-fed rivers, and the share of wastewater that is treated rather than discharged. Table 5.1 sets out the same stress basin by basin, with the share of each population at risk and the supply gap implied by current demand; Figure 5.1 plots the people affected against that gap.
 
-[[TABLE:Table 5.1 Water stress in major basins, present and 2050]]
+[[TABLE:Table 5.1 Water stress in major basins, present and 2050||Source: compiled by the author from IPCC (2022a) and FAO (2022)]]
 | Basin | Population (million) | Current stress | 2050 gap (SSP2-4.5) | Main adaptation |
 |---|---|---|---|---|
 | Indus | ~300 | Extreme | 30–40% | Drip irrigation; groundwater regulation |
@@ -1189,7 +1191,7 @@ The people who die in floods are not a random sample, and the pattern of who die
 
 Engineering has protected many cities from flooding, and it has also created new risk. Levees and embankments keep water out of the protected area, but they raise the water level in the channel and increase the consequences if they fail. The Netherlands has built the most sophisticated flood defence system in the world — the Delta Works, a network of dams, storm surge barriers, dikes and pumps that protects about a quarter of the country below sea level — and it maintains that system with a national programme and a statutory budget.
 
-New Orleans is the counter-example. The city's levees failed during Hurricane Katrina in 2005, killing about 1,800 people and causing more than US$125 billion in damage (Brunkard et al., 2008). Investigations found that the failure was not caused by the storm exceeding the design height but by defective construction, inadequate maintenance and a design that had not accounted for the subsidence of the land and the loss of coastal wetlands that had once absorbed surge. The lesson is that a defence is a system, and that its reliability depends on maintenance and on the condition of the landscape around it.
+New Orleans is the counter-example. The city's levees failed during Hurricane Katrina in 2005, killing more than 1,400 people in Louisiana alone (Brunkard et al., 2008), with damage estimated at more than US$125 billion (NOAA National Centers for Environmental Information, 2024). Investigations found that the failure was not caused by the storm exceeding the design height but by defective construction, inadequate maintenance and a design that had not accounted for the subsidence of the land and the loss of coastal wetlands that had once absorbed surge. The lesson is that a defence is a system, and that its reliability depends on maintenance and on the condition of the landscape around it.
 
 Polders — areas enclosed by dikes and drained by pumps — are a model for coastal cities with the resources to maintain them. They require continuous pumping, regular inspection and a political commitment that outlasts electoral cycles. Tokyo's underground reservoirs, Rotterdam's water plazas and Singapore's ABC waterways show a different approach: instead of keeping water out, they create space for it to go during extreme events. The choice between resistance and accommodation depends on the local geography and on how much risk a society is willing to accept.
 
@@ -1275,12 +1277,12 @@ The exposure is concentrated on the coasts. About 600 million people live in low
 
 The sea-level range depends on the emission path, the response of the ice sheets and the rate of subsidence. Under the low-emission scenario, sea level is projected to rise by about 0.3 to 0.4 metres by 2100; under the high-emission scenario, by 0.6 to 0.8 metres; and if the West Antarctic ice sheet becomes unstable, by more than a metre (IPCC, 2019b). The difference matters less for the global average than for the frequency of extreme events: a 0.5-metre rise can turn a once-in-a-century flood into a once-in-a-decade flood, and in some places into an annual one (IPCC, 2022a).
 
-The coast of 2100 will be determined by emissions in this century and by ice sheets in the next, which is an uncomfortable combination of timescales (Kulp & Strauss, 2019). The plausible range for sea-level rise by 2100 is wide, and the upper end cannot be excluded; the commitment after 2100 is larger still, because the ocean and the ice sheets respond slowly and the warming that has already occurred has not finished working through them. What cities can control is the relative sea level: subsidence from groundwater extraction, loss of sediment supply, and the destruction of protective ecosystems all add to the global rise, and all are amenable to policy. The measure that matters for planning is not the mean but the height of the water in the worst week of the year.
+The coast of 2100 will be determined by emissions in this century and by ice sheets in the next, which is an uncomfortable combination of timescales (Kulp & Strauss, 2019). The plausible range for sea-level rise by 2100 is wide, and the upper end cannot be excluded; the commitment after 2100 is larger still, because the ocean and the ice sheets respond slowly and the warming that has already occurred has not finished working through them. What cities can control is the relative sea level: subsidence from groundwater extraction, loss of sediment supply, and the destruction of protective ecosystems all add to the global rise, and all are amenable to policy. The measure that matters for planning is not the mean but the height of the water in the worst week of the year. Table 6.1 compares six coastal cities on subsidence, exposure and adaptation, and Figure 6.1 ranks them by the population exposed to a 1-in-100-year flood.
 
-[[TABLE:Table 6.1 Coastal exposure in selected cities]]
-| City | Subsidence (cm/yr) | People exposed to 1-in-100 flood | 2050 sea level (SSP2-4.5) | Adaptation |
+[[TABLE:Table 6.1 Coastal exposure in selected cities||Source: compiled by the author from IPCC (2022a) and UN-Habitat (2022)]]
+| City | Subsidence (cm/yr) | People exposed to 1-in-100 flood | 2050 relative sea level (SSP2-4.5) | Adaptation |
 |---|---|---|---|---|
-| Jakarta | 1–15 | ~2.5 million | +0.15 m | Sea wall; water supply; relocation |
+| Jakarta | 1–25 | ~2.5 million | +0.15 m | Sea wall; water supply; relocation |
 | Manila | 1–5 | ~1.5 million | +0.17 m | Drainage; mangrove restoration |
 | Bangkok | 1–3 | ~1 million | +0.16 m | Polders; groundwater control |
 | Ho Chi Minh City | 1–3 | ~1 million | +0.16 m | Embankments; delta management |
@@ -1495,9 +1497,9 @@ The food system rests on a narrowing margin. Global food production has kept pac
 
 Population growth, diet, technology and trade will decide the harvest. A world that stabilises population, reduces food waste, shifts toward healthier diets and invests in adaptation can feed a larger population with less land and water. A world that continues current trends will face rising prices, increasing dependence on imports and a growing number of climate-driven food emergencies. The scenarios below show the range.
 
-Feeding the world in 2050 is less a question of total calories than of distribution, resilience and diet. Global production has kept pace with population for half a century, and the rate of improvement has slowed as the easiest gains have been taken. The scenarios diverge mainly on three variables: how much warming occurs, how quickly yields adapt, and how much land and water are diverted to other uses. A world that invests in research, irrigation and trade can feed a larger population at a higher standard; a world that delays will see the gains concentrated and the failures localised, which is exactly the pattern that produces famines in a world that grows enough food.
+Feeding the world in 2050 is less a question of total calories than of distribution, resilience and diet. Global production has kept pace with population for half a century, and the rate of improvement has slowed as the easiest gains have been taken. The scenarios diverge mainly on three variables: how much warming occurs, how quickly yields adapt, and how much land and water are diverted to other uses. A world that invests in research, irrigation and trade can feed a larger population at a higher standard; a world that delays will see the gains concentrated and the failures localised, which is exactly the pattern that produces famines in a world that grows enough food. Table 7.1 gives the yield sensitivity of each crop per degree of warming alongside the 2050 projection used here, and Figure 7.1 shows the same sensitivities as a bar chart.
 
-[[TABLE:Table 7.1 Crop yield sensitivity and 2050 projections]]
+[[TABLE:Table 7.1 Crop yield sensitivity and 2050 projections||Source: compiled by the author from Zhao et al. (2017) and FAO (2023)]]
 | Crop | Yield change per °C | 2050 change (SSP2-4.5) | Main adaptation | Key region |
 |---|---|---|---|---|
 | Wheat | −6% | −10 to −15% | Heat-tolerant varieties; earlier sowing | South Asia; Europe |
@@ -1709,12 +1711,12 @@ The picture is not one of uniform decline. Some ecosystems retain the capacity t
 
 Ecosystem outcomes will turn on the emission path, land-use change and conservation. Under a low-emission path, many species and ecosystems can persist, though in altered form. Under a high-emission path, the projections converge on widespread loss: coral reefs as we know them disappear, tropical forests decline, and a large fraction of species face range loss. The scenarios below summarise the range.
 
-The living world of 2100 will not be a depleted version of the one we know; it will be a different assemblage. Species will have moved, some beyond the boundaries of reserves, and the ecosystems that look familiar at a distance will contain different combinations of organisms doing similar things. That is why the most useful conservation measures are those that give nature room to reorganise: large connected areas, corridors and river networks, and the protection of refuges that stay cool and wet when everything around them changes. The scenarios in which reefs and rainforests persist are those in which emissions fall quickly and local pressures are reduced at the same time, because neither alone is sufficient.
+The living world of 2100 will not be a depleted version of the one we know; it will be a different assemblage. Species will have moved, some beyond the boundaries of reserves, and the ecosystems that look familiar at a distance will contain different combinations of organisms doing similar things. That is why the most useful conservation measures are those that give nature room to reorganise: large connected areas, corridors and river networks, and the protection of refuges that stay cool and wet when everything around them changes. The scenarios in which reefs and rainforests persist are those in which emissions fall quickly and local pressures are reduced at the same time, because neither alone is sufficient. Table 8.1 sets out the thresholds of concern for the main ecosystems and what is projected to change at 2 °C and at 3 °C; Figure 8.1 shows four of those systems side by side.
 
-[[TABLE:Table 8.1 Ecosystem thresholds and projected change]]
+[[TABLE:Table 8.1 Ecosystem thresholds and projected change||Source: compiled by the author from IPCC (2018) and IPCC (2019b)]]
 | Ecosystem | Threshold of concern | Change at 2°C | Change at 3°C | Service at risk |
 |---|---|---|---|---|
-| Coral reefs | 1.5°C; frequent bleaching | 70–90% decline | >99% decline | Fisheries; coastal protection |
+| Coral reefs | 1.5°C: 70–90% decline | >99% decline | Reef structure lost in most regions | Fisheries; coastal protection |
 | Amazon forest | 20–25% deforestation + warming | Dieback in east/south | Large-scale conversion | Carbon storage; rainfall |
 | Boreal forest | Fire and pest outbreaks | Increased burning | Shift to shrub/grass | Carbon; timber |
 | Permafrost | Thaw onset | 10–20% thaw | 30–50% thaw | Carbon; infrastructure |
@@ -1933,9 +1935,9 @@ The disease burden is already global. About 3.5 billion people live in areas sui
 
 The disease burden will follow the emission path, population growth, ageing, urbanisation and the strength of health systems. A world that reduces emissions and invests in health systems can prevent much of the projected burden; a world that does neither will face a burden that grows faster than the climate because the population is ageing and urbanising at the same time. The scenarios below summarise the range.
 
-The health burden of the next two decades will be determined less by the climate than by the health systems that receive it (Watts et al., 2021). The same warming produces very different outcomes in a country with universal coverage, reliable cold chains, and a surveillance system that works, and in one where a fever is treated at a pharmacy counter and a hospital is a day's travel away. The scenarios in this chapter therefore differ mainly in what is assumed about investment and capacity. The signals that matter are unglamorous: the share of the population with access to safe water, routine immunisation coverage, hospital bed and ventilator capacity, and the number of health workers per thousand people.
+The health burden of the next two decades will be determined less by the climate than by the health systems that receive it (Watts et al., 2021). The same warming produces very different outcomes in a country with universal coverage, reliable cold chains, and a surveillance system that works, and in one where a fever is treated at a pharmacy counter and a hospital is a day's travel away. The scenarios in this chapter therefore differ mainly in what is assumed about investment and capacity. The signals that matter are unglamorous: the share of the population with access to safe water, routine immunisation coverage, hospital bed and ventilator capacity, and the number of health workers per thousand people. Table 9.1 summarises the health risks discussed here and marks how the burden changes at 2 °C and at 3 °C.
 
-[[TABLE:Table 9.1 Climate-sensitive health risks, 2050]]
+[[TABLE:Table 9.1 Climate-sensitive health risks, 2050||Source: compiled by the author from WHO (2023) and Watts et al. (2021)]]
 | Risk | Climate driver | Change at 2°C | Change at 3°C | Main adaptation |
 |---|---|---|---|---|
 | Heat mortality | Heatwaves | +50–100% | +150–300% | Warning; cooling; housing |
@@ -1944,6 +1946,8 @@ The health burden of the next two decades will be determined less by the climate
 | Undernutrition | Crop yields; prices | +50–100k deaths/yr | +100–200k deaths/yr | Social protection; nutrition |
 | Air pollution | Fossil fuels; fires | Falling with policy | Rising without policy | Clean energy; smoke warnings |
 | Displacement health | Floods; drought | +50–100 million exposed | +100–200 million exposed | Shelter; health services |
+
+The percentages are anchored to the WHO estimate of about 489,000 heat-related deaths a year over 2000–2019 (WHO, 2023). The +50–100 % band describes a 2 °C world in which adaptation stays at present levels; where heat action plans, cooling and housing improvements scale up as they did in the best-performing European countries after 2003, the increase narrows to roughly +40 %. Table 17.1 expresses the same range in absolute deaths, so the two tables can be checked against each other.
 
 The evidence supports two conclusions. First, the health burden is dominated by indirect pathways — nutrition, infectious disease, air pollution — rather than by the direct effects that make headlines. Second, the burden is preventable with known interventions: clean energy, vector control, water and sanitation, heat warnings, and strong health systems. The gap between what is known and what is done is the central problem of climate and health.
 
@@ -1959,7 +1963,7 @@ An outbreak and a heatwave are both managed before they arrive, and the clinic i
 
 *Theme: the economics of climate damage, insurance and the cost of delay*
 
-In August 2017, Hurricane Harvey stalled over Houston and dropped more than 1,500 millimetres of rain in five days. The damage was estimated at US$125 billion, most of it from flooding rather than wind. A few weeks later, Hurricane Irma struck the Caribbean and Florida, and Hurricane Maria struck Puerto Rico, with losses of US$77 billion and US$90 billion respectively (Kishore et al., 2018). The three storms together produced losses of about US$300 billion, of which only about a third was insured (UNDRR, 2023).
+In August 2017, Hurricane Harvey stalled over Houston and dropped more than 1,500 millimetres of rain in five days. The damage was estimated at US$125 billion, most of it from flooding rather than wind. A few weeks later, Hurricane Irma struck the Caribbean and Florida, and Hurricane Maria struck Puerto Rico, with direct losses of US$77 billion and US$90 billion respectively (NOAA National Centers for Environmental Information, 2024). The three storms together produced losses of about US$300 billion, of which only about a third was insured (UNDRR, 2023).
 
 The 2017 season illustrates a pattern that is becoming more common. The physical damage is only the first layer of economic loss. Businesses that close do not pay wages; workers who lose wages spend less; local governments that lose tax revenue cut services; insurers that pay claims raise premiums; and households that lose their savings reduce consumption for years. The indirect losses can exceed the direct damage, and they fall hardest on the people with the least cushion.
 
@@ -2149,9 +2153,9 @@ The losses are large and still growing. Global losses from weather-related disas
 
 The economic cost will depend on the emission path, adaptation and the discount rate used to compare present and future costs. A low discount rate makes future damages look larger and justifies more spending now; a high discount rate makes them look smaller and justifies delay. The choice of discount rate is therefore an ethical choice as much as an economic one, because it determines how much weight is given to people who are not yet born.
 
-The economic future of the next three decades is likely to be dominated less by the total cost of climate change than by its distribution and its timing. Costs that arrive gradually can be financed; costs that arrive in a cluster cannot, because the losses coincide with the moment at which the tax base is damaged and the borrowing need is highest. That is why the finance agenda has shifted from estimating the total to arranging liquidity in advance. The numbers that reveal the direction are the insurance penetration rate, the share of sovereign debt exposed to climate-sensitive revenue, the level of pre-arranged contingent finance, and the gap between the cost of capital in vulnerable and resilient economies.
+The economic future of the next three decades is likely to be dominated less by the total cost of climate change than by its distribution and its timing. Costs that arrive gradually can be financed; costs that arrive in a cluster cannot, because the losses coincide with the moment at which the tax base is damaged and the borrowing need is highest. That is why the finance agenda has shifted from estimating the total to arranging liquidity in advance. The numbers that reveal the direction are the insurance penetration rate, the share of sovereign debt exposed to climate-sensitive revenue, the level of pre-arranged contingent finance, and the gap between the cost of capital in vulnerable and resilient economies. Table 10.1 puts the three pathways in money terms, separated into losses that show up in GDP and losses that do not; Figure 10.1 plots the central estimates.
 
-[[TABLE:Table 10.1 Economic losses under three pathways, 2050]]
+[[TABLE:Table 10.1 Economic losses under three pathways, 2050||Source: compiled by the author from UNDRR (2023) and OECD (2021)]]
 | Indicator | Low emissions | Current policies | High emissions | Main driver |
 |---|---|---|---|---|
 | Global GDP loss vs no-climate baseline | −3 to −5% | −8 to −12% | −15 to −20% | Labour; agriculture; capital |
@@ -2368,9 +2372,9 @@ Those who move are a minority of those exposed. About 3.5 billion people live in
 
 Displacement will follow the emission path, adaptation and the openness of receiving countries. A world that invests in adaptation in places of origin can reduce the number of people who are forced to move; a world that opens legal pathways can make the movement safer and more orderly. A world that does neither will face a larger number of people moving irregularly, with higher costs for migrants and for the countries that receive them.
 
-The migration of the next three decades will be mostly internal, mostly short-distance and mostly into cities that are already growing. The projection that 216 million people could move within their own countries by 2050 under a high-emission scenario is best read as an indicator of pressure rather than a forecast of events; the actual number depends on how much is invested in the places people leave (World Bank, 2021). The scenarios in this chapter differ mainly on two variables: the pace of warming and the level of development in the regions of origin. A world that invests in rural livelihoods, water and education produces less forced movement than one that does not, and the difference is measured in millions of decisions rather than in a single wave.
+The migration of the next three decades will be mostly internal, mostly short-distance and mostly into cities that are already growing. The projection that 216 million people could move within their own countries by 2050 under a high-emission scenario is best read as an indicator of pressure rather than a forecast of events; the actual number depends on how much is invested in the places people leave (World Bank, 2021). The scenarios in this chapter differ mainly on two variables: the pace of warming and the level of development in the regions of origin. A world that invests in rural livelihoods, water and education produces less forced movement than one that does not, and the difference is measured in millions of decisions rather than in a single wave. Table 11.1 breaks the migration figures down by region of origin, and Figure 11.1 plots the same totals so that the magnitude is visible at a glance.
 
-[[TABLE:Table 11.1 Projected climate migration by 2050]]
+[[TABLE:Table 11.1 Projected climate migration by 2050||Source: compiled by the author from World Bank (2021) and UNHCR (2023)]]
 | Region | Internal migrants (million) | Main driver | Adaptation priority | Policy risk |
 |---|---|---|---|---|
 | Sub-Saharan Africa | ~85 | Drought; pastoralism | Water; social protection | Conflict; weak states |
@@ -2590,9 +2594,9 @@ Fragility is the common denominator. About 2 billion people live in countries af
 
 Security risk will track the emission path, development and governance. A world that reduces emissions and invests in institutions can reduce the risk; a world that does neither will face a larger number of climate shocks arriving in places that are less able to absorb them. The scenarios below summarise the range, with the caveat that conflict is inherently uncertain and that the confidence in any quantitative projection is low.
 
-The conflict risk of the next three decades will be concentrated in a set of regions where high exposure overlaps with low capacity: the Sahel, the Horn of Africa, parts of the Middle East, Central Asia and the river deltas of South and Southeast Asia. The scenarios differ less in how much the climate changes than in how much governance improves. In a world that invests in local institutions, water and social protection, a warmer climate produces hardship and migration but not necessarily war; in a world that does not, the same climate produces a series of local crises that connect to each other through displacement, arms and prices. The data worth tracking are food prices, pasture condition, rainfall anomalies and the number of people in need of assistance.
+The conflict risk of the next three decades will be concentrated in a set of regions where high exposure overlaps with low capacity: the Sahel, the Horn of Africa, parts of the Middle East, Central Asia and the river deltas of South and Southeast Asia. The scenarios differ less in how much the climate changes than in how much governance improves. In a world that invests in local institutions, water and social protection, a warmer climate produces hardship and migration but not necessarily war; in a world that does not, the same climate produces a series of local crises that connect to each other through displacement, arms and prices. The data worth tracking are food prices, pasture condition, rainfall anomalies and the number of people in need of assistance. Table 12.1 lists the fragile regions where climate exposure and conflict risk overlap, with the mechanism that connects them.
 
-[[TABLE:Table 12.1 Climate exposure and conflict risk in fragile regions]]
+[[TABLE:Table 12.1 Climate exposure and conflict risk in fragile regions||Source: compiled by the author from Mach et al. (2019) and FAO (2023)]]
 | Region | Climate exposure | Institutional capacity | Conflict risk at 2°C | Priority |
 |---|---|---|---|---|
 | Sahel | Very high | Low | High | Land tenure; pastoral corridors |
@@ -2618,7 +2622,7 @@ When food prices rise and the pasture fails, the risk is less a war than the loc
 
 In February 2021, a polar vortex pushed Arctic air into Texas and stayed for a week. Temperatures fell below −10°C across a state whose power system had been designed for summer peaks, not winter lows. Natural gas wells froze, pipelines lost pressure, and thermal plants tripped offline. The grid operator, ERCOT, ordered rolling blackouts to prevent a total collapse; at the peak, more than 4.5 million homes and businesses had no power (FERC & NERC, 2021). Pipes burst in houses and in municipal water systems, and about 14 million people were placed under boil-water notices.
 
-The storm killed at least 210 people, according to the state's own estimate, and caused about US$195 billion in damage, making it the costliest disaster in Texas history (NOAA National Centers for Environmental Information, 2024). The deaths were not caused by the cold alone. People died of carbon monoxide poisoning from generators and charcoal grills used indoors, of hypothermia in unheated homes, and of dialysis and oxygen failures when clinics lost power. The infrastructure failure turned a weather event into a public health emergency.
+The state's own count put the dead at more than 200 (Texas Department of State Health Services, 2023). Direct damage was estimated at about US$26 billion (NOAA National Centers for Environmental Information, 2024), but the total economic cost — lost output, burst pipes, spoiled stock — was put near US$195 billion by independent Texas analysis, which shows how far a damage estimate sits below the cost a society actually carries. The deaths were not caused by the cold alone. People died of carbon monoxide poisoning from generators and charcoal grills used indoors, of hypothermia in unheated homes, and of dialysis and oxygen failures when clinics lost power. The infrastructure failure turned a weather event into a public health emergency.
 
 Texas is a wealthy jurisdiction with a modern grid, and that is the point. The failure was not caused by poverty or by a lack of engineering capacity; it was caused by design standards that assumed a climate that no longer exists, by a market structure that did not pay for winterisation, and by the interdependence of systems that were each planned separately. The same pattern appears in poorer countries with less capacity to respond, where the consequences are larger and the recovery slower.
 
@@ -2812,9 +2816,9 @@ The infrastructure deficit is the binding constraint. The American Society of Ci
 
 Infrastructure outcomes will depend on the emission path, retrofitting and the standards adopted. A world that builds to higher standards and maintains what it has can reduce failures even as the climate worsens; a world that continues the build-neglect-rebuild cycle will face rising costs and more frequent cascading failures. The scenarios below summarise the range by sector.
 
-The infrastructure of 2050 will be mostly the infrastructure of today, which is why adaptation is a maintenance problem as much as a construction one (IPCC, 2022a). The buildings, roads, pipes and grids that will be in use in thirty years have already been built, and the question is how much of them can be upgraded before the climate that tests them arrives. The scenarios in this chapter differ mainly in how much is invested in that upgrade and how quickly standards are tightened. The variables that decide the outcome are the age of the stock, the share of critical facilities with backup power and water, the maintenance backlog, and the frequency of service interruptions during extreme weather.
+The infrastructure of 2050 will be mostly the infrastructure of today, which is why adaptation is a maintenance problem as much as a construction one (IPCC, 2022a). The buildings, roads, pipes and grids that will be in use in thirty years have already been built, and the question is how much of them can be upgraded before the climate that tests them arrives. The scenarios in this chapter differ mainly in how much is invested in that upgrade and how quickly standards are tightened. The variables that decide the outcome are the age of the stock, the share of critical facilities with backup power and water, the maintenance backlog, and the frequency of service interruptions during extreme weather. Table 13.1 ranks infrastructure sectors by the resilience gap between current practice and what the record requires.
 
-[[TABLE:Table 13.1 Infrastructure resilience by sector, 2050]]
+[[TABLE:Table 13.1 Infrastructure resilience by sector||Source: compiled by the author from IPCC (2022a) and FERC & NERC (2021)]]
 | Sector | Main climate stress | Failure mode | Adaptation | Cost signal |
 |---|---|---|---|---|
 | Power | Heat; storms; drought | Cascading outages | Weatherisation; microgrids | High upfront; high return |
@@ -3032,9 +3036,9 @@ The starting point is a learning gap. About 250 million children are out of scho
 
 The education outcome will turn on curriculum reform, teacher training and the impact of climate shocks on schooling. A world that invests in education can produce a generation that understands the risks and is capable of adapting; a world that fails to act will produce a generation that is exposed to hazards it does not understand and cannot prepare for. The scenarios below summarise the range.
 
-The education scenarios of 2050 differ mainly in what is assumed about teachers and about continuity (UNESCO, 2021). In one, climate literacy is embedded in every national curriculum, teachers are trained and supported, and schools remain open through most disruptions. In another, curricula are revised but implementation is patchy, and repeated closures erase the gains. The difference is measured not in what students know about the greenhouse effect but in whether a community acts on a warning, whether a household stores water, and whether a graduate can design a drainage system. Those outcomes are the real test, and they are observable within a generation.
+The education scenarios of 2050 differ mainly in what is assumed about teachers and about continuity (UNESCO, 2021). In one, climate literacy is embedded in every national curriculum, teachers are trained and supported, and schools remain open through most disruptions. In another, curricula are revised but implementation is patchy, and repeated closures erase the gains. The difference is measured not in what students know about the greenhouse effect but in whether a community acts on a warning, whether a household stores water, and whether a graduate can design a drainage system. Those outcomes are the real test, and they are observable within a generation. Table 14.1 compares the literacy indicators that can be measured across countries and shows how far the measurement itself is incomplete.
 
-[[TABLE:Table 14.1 Climate education indicators, 2050]]
+[[TABLE:Table 14.1 Climate education indicators, 2050||Source: compiled by the author from UNESCO (2021) and Yale Program on Climate Change Communication (2023)]]
 | Indicator | Low reform | Current trends | High reform | What it enables |
 |---|---|---|---|---|
 | Curricula with climate content | 50% | 70% | 95% | Basic understanding |
@@ -3248,9 +3252,9 @@ The information environment is the first line of defence. Around 5 billion peopl
 
 The information environment will turn on the pace of regulation, the cost of detection and the resilience of local institutions. A world that invests in verification infrastructure, media literacy and trusted local reporting can limit the damage; a world that does nothing will face disasters in which the information environment fails alongside the physical one. The table summarises the range.
 
-The information environment of 2050 will be shaped by two trends that pull in opposite directions. On one side, generative models will make it cheap to produce plausible text, images and video at scale, and the cost of fabrication will approach zero. On the other, the same tools will make it cheap to detect manipulation, to translate warnings into local languages, and to summarise complex data for a specific decision. Which trend dominates depends on institutions: on platform regulation, on public service media, on the digital literacy of the next generation, and on whether the trusted local voice survives the collapse of local news. The scenarios in this chapter differ mainly on that last variable.
+The information environment of 2050 will be shaped by two trends that pull in opposite directions. On one side, generative models will make it cheap to produce plausible text, images and video at scale, and the cost of fabrication will approach zero. On the other, the same tools will make it cheap to detect manipulation, to translate warnings into local languages, and to summarise complex data for a specific decision. Which trend dominates depends on institutions: on platform regulation, on public service media, on the digital literacy of the next generation, and on whether the trusted local voice survives the collapse of local news. The scenarios in this chapter differ mainly on that last variable. Table 15.1 lists the information-environment indicators that distinguish a well-informed public from a misinformed one.
 
-[[TABLE:Table 15.1 Information environment indicators, 2050]]
+[[TABLE:Table 15.1 Information environment indicators, 2050||Source: compiled by the author from WMO (2025) and Cook et al. (2013)]]
 | Indicator | Fragmented | Current trends | Resilient | Consequence |
 |---|---|---|---|---|
 | Share of news from social platforms | 70% | 55% | 35% | Speed vs verification |
@@ -3464,9 +3468,9 @@ For billions of households, storage is not a choice but a necessity. Roughly 2 b
 
 Household preparedness will depend on the frequency of disruption, the price of preparedness goods and the strength of community networks. A world that invests in household and community preparedness can reduce mortality even as hazards increase; a world that relies on emergency services alone will see deaths concentrated among those who could not prepare. The table summarises the range.
 
-Household preparedness in 2050 will be shaped by two changes that are already visible (IFRC, 2022). The first is that disruptions will be more frequent and more often compound, so the interval between events will be shorter than the time needed to restock and repair. The second is that the technology available to a household will be better and cheaper: solar panels and batteries, water filters, satellite messaging, and sensors that warn of flooding before it arrives. The scenarios in this chapter differ mainly in whether those technologies reach the households that need them, which is a question of finance and distribution rather than of invention.
+Household preparedness in 2050 will be shaped by two changes that are already visible (IFRC, 2022). The first is that disruptions will be more frequent and more often compound, so the interval between events will be shorter than the time needed to restock and repair. The second is that the technology available to a household will be better and cheaper: solar panels and batteries, water filters, satellite messaging, and sensors that warn of flooding before it arrives. The scenarios in this chapter differ mainly in whether those technologies reach the households that need them, which is a question of finance and distribution rather than of invention. Table 16.1 sets out household preparedness hazard by hazard, from what most households have to what the evidence says saves lives.
 
-[[TABLE:Table 16.1 Household preparedness by hazard, 2050]]
+[[TABLE:Table 16.1 Household preparedness by hazard||Source: compiled by the author from IFRC (2022) and Sphere Association (2018)]]
 | Hazard | Lead time | Critical stock | Common failure | Minimum standard |
 |---|---|---|---|---|
 | Heatwave | Days | Water; cooling; fans | No cool refuge | 2 weeks water; cool room |
@@ -3686,12 +3690,12 @@ The baseline is a health system already under strain. About half of the world's 
 
 Health outcomes will follow the pace of warming, investment in health systems and the effectiveness of adaptation. A world that invests in primary care, surveillance and resilient facilities can reduce deaths even as hazards increase; a world that continues on the current path will see health gains reversed, particularly in the countries least responsible for emissions. The table summarises the range.
 
-The health systems of 2050 will be judged by how they function in the worst week of the year rather than by their average performance (WHO, 2023). The scenarios in this chapter differ mainly in investment and in coverage: a system with universal access, resilient facilities, trained staff and functioning surveillance can absorb a much larger hazard than one without them. The indicators that matter are concrete: the share of facilities with backup power and water, the number of health workers per thousand people, routine immunisation coverage, and the time it takes to detect and respond to an outbreak. Each of these is measurable now, which means the future of health under climate change is being decided by budget lines rather than by physics.
+The health systems of 2050 will be judged by how they function in the worst week of the year rather than by their average performance (WHO, 2023). The scenarios in this chapter differ mainly in investment and in coverage: a system with universal access, resilient facilities, trained staff and functioning surveillance can absorb a much larger hazard than one without them. The indicators that matter are concrete: the share of facilities with backup power and water, the number of health workers per thousand people, routine immunisation coverage, and the time it takes to detect and respond to an outbreak. Each of these is measurable now, which means the future of health under climate change is being decided by budget lines rather than by physics. Table 17.1 translates adaptation into health outcomes, with the annual excess heat deaths implied by each level of investment; Figure 17.1 plots the same three paths against a common baseline.
 
-[[TABLE:Table 17.1 Health system indicators, 2050]]
+[[TABLE:Table 17.1 Health system indicators, 2050||Source: compiled by the author from WHO (2023) and Robine et al. (2008)]]
 | Indicator | Low adaptation | Current trends | High adaptation | Health outcome |
 |---|---|---|---|---|
-| Excess heat deaths (annual) | ~700,000 | ~500,000 | ~250,000 | Avoidable mortality |
+| Excess heat deaths (annual) | ~735,000 | ~500,000 | ~245,000 | Avoidable mortality |
 | Population in endemic dengue zones | 5.5 billion | 5 billion | 4 billion | Infectious disease |
 | Health facilities climate-resilient | 20% | 45% | 80% | Service continuity |
 | Universal health coverage | 60% | 75% | 95% | Financial protection |
@@ -3700,7 +3704,7 @@ The health systems of 2050 will be judged by how they function in the worst week
 
 ![Figure 17.1 Annual excess heat deaths in 2050 under three adaptation paths](figures/fig17_1.png)||Source: Table 17.1.
 
-The middle column needs a word of explanation. 'Current trends' is not a forecast of the most likely future; it is the trajectory that follows from continuing the policies already legislated, the adaptation spending already committed and the investment in health systems already budgeted, with the emissions pathway held at the mid-case. It is the column a government gets if it changes nothing, and it is the benchmark against which the other two should be read.
+The middle column needs a word of explanation. 'Current trends' is not a forecast of the most likely future; it is the trajectory that follows from continuing the policies already legislated, the adaptation spending already committed and the investment in health systems already budgeted, with the emissions pathway held at the mid-case. It is the column a government gets if it changes nothing, and it is the benchmark against which the other two should be read. The baseline behind it is the WHO estimate of about 489,000 heat-related deaths a year for 2000–2019 (WHO, 2023): the current-trends column sits almost exactly on that baseline, the low-adaptation column stands about 50 % above it, and the high-adaptation column about half below it — the same band Table 9.1 reports for 2 °C without additional adaptation.
 
 Two points deserve emphasis. First, health is where climate change is most directly experienced, and it is therefore where adaptation has the clearest returns. Second, the distribution of health risk follows existing inequalities, so the countries and communities with the least capacity face the greatest burden.
 
@@ -3914,9 +3918,9 @@ The baseline is a deficit of trust. Trust in government has declined in many dem
 
 Governance outcomes will track institutional quality, finance and international cooperation. A world that invests in local capacity, transparency and regional cooperation can manage rising risk; a world that responds late will see disasters become political crises. The table summarises the range.
 
-The governance of 2050 will be judged by whether it can make a decision quickly in a system that has many centres and no single authority (UNDRR, 2015). The scenarios differ mainly in trust and in capacity: a society in which people believe the warning, the compensation and the building code can adapt at a fraction of the cost of one in which they do not. The figures to monitor are the ones that are hard to fake: the share of local governments with a funded disaster budget, the time between a forecast and a public warning, the proportion of reconstruction contracts that are published, and the level of trust in public institutions measured by ordinary surveys.
+The governance of 2050 will be judged by whether it can make a decision quickly in a system that has many centres and no single authority (UNDRR, 2015). The scenarios differ mainly in trust and in capacity: a society in which people believe the warning, the compensation and the building code can adapt at a fraction of the cost of one in which they do not. The figures to monitor are the ones that are hard to fake: the share of local governments with a funded disaster budget, the time between a forecast and a public warning, the proportion of reconstruction contracts that are published, and the level of trust in public institutions measured by ordinary surveys. Table 18.1 compares governance indicators across the functions that determine whether a response holds.
 
-[[TABLE:Table 18.1 Governance indicators, 2050]]
+[[TABLE:Table 18.1 Governance indicators||Source: compiled by the author from UNDRR (2015) and Cutter (2008)]]
 | Institution | Core function | Common failure | Reform | Indicator |
 |---|---|---|---|---|
 | Local government | Evacuation; shelters | Underfunded; unclear authority | Devolved finance; training | Response time |
@@ -4140,9 +4144,9 @@ The energy transition will turn on cost decline, grid investment and policy stre
 
 The energy system of 2050 will be shaped by three trends that are already visible: the falling cost of solar and batteries, the electrification of heating and transport, and the growing share of electricity in final energy use (IRENA, 2023). The scenarios differ mainly in the pace of grid investment and in the strength of policy, because the technology is no longer the binding constraint in most places. The measures to watch are the share of renewables in electricity, the cost of storage, the rate of grid construction, and the number of people who gain access to clean cooking. Each of these is measurable annually, which makes the energy transition the most trackable of the transitions described in this book.
 
-The energy scenarios for 2050 differ less in the technology than in the pace at which the grid is rebuilt (IEA, 2023). In one, solar and wind supply the majority of the electricity, the storage is sufficient to cover a windless week, and the buildings and vehicles are electrified; in another, the transition is partial, gas fills the gaps, and the emissions fall more slowly than the targets require. The difference between them is not the cost of the panels, which has fallen, but the cost of the network, the permitting, the supply chain and the political resistance of the incumbents. The figures to monitor are the share of electricity from renewables, the capacity of storage, the length of the interconnection queue and the price of a long-duration battery.
+The energy scenarios for 2050 differ less in the technology than in the pace at which the grid is rebuilt (IEA, 2023). In one, solar and wind supply the majority of the electricity, the storage is sufficient to cover a windless week, and the buildings and vehicles are electrified; in another, the transition is partial, gas fills the gaps, and the emissions fall more slowly than the targets require. The difference between them is not the cost of the panels, which has fallen, but the cost of the network, the permitting, the supply chain and the political resistance of the incumbents. The figures to monitor are the share of electricity from renewables, the capacity of storage, the length of the interconnection queue and the price of a long-duration battery. Table 19.1 tracks the clean-energy indicators and shows where the gap is now an integration problem rather than a cost problem.
 
-[[TABLE:Table 19.1 Clean energy indicators, 2050]]
+[[TABLE:Table 19.1 Clean energy indicators||Source: compiled by the author from IRENA (2023) and IEA (2023)]]
 | Technology | Cost trend | Best use | Constraint | Resilience benefit |
 |---|---|---|---|---|
 | Solar PV | −90% since 2010 | Daytime power; rooftops | Land; night output | Modular; no fuel |
@@ -4367,9 +4371,9 @@ Mental health outcomes will follow the frequency of hazards, the availability of
 
 The mental health future described in this chapter depends less on the climate than on the services and the social fabric that receive it. In one scenario, mental health is integrated into primary care and disaster planning, community networks are strong, and the burden is managed even as the hazards increase. In another, services remain vertical and underfunded, repeated events exhaust the population, and the burden accumulates invisibly in rates of substance use, domestic violence and suicide. The signals that matter are the treatment gap, the number of mental health workers per hundred thousand people, and the availability of psychosocial support in disaster response. Each is measurable, and each is determined by decisions taken before the event.
 
-The mental health scenarios for 2050 turn on whether the services are integrated before the demand arrives (Clayton, 2020). In one, primary care includes a mental health worker, the schools have a counsellor, the disaster plans include a psychosocial component and the community organisations are funded to do what they already do; in the other, the services remain specialised, the demand is met with a waiting list and the burden falls on families. The difference in cost is not large and the difference in outcome is, and the choice is made in budgets that rarely mention mental health. The indicators are the number of primary care staff trained, the waiting time for a first appointment and the share of the disaster response budget allocated to psychosocial support.
+The mental health scenarios for 2050 turn on whether the services are integrated before the demand arrives (Clayton, 2020). In one, primary care includes a mental health worker, the schools have a counsellor, the disaster plans include a psychosocial component and the community organisations are funded to do what they already do; in the other, the services remain specialised, the demand is met with a waiting list and the burden falls on families. The difference in cost is not large and the difference in outcome is, and the choice is made in budgets that rarely mention mental health. The indicators are the number of primary care staff trained, the waiting time for a first appointment and the share of the disaster response budget allocated to psychosocial support. Table 20.1 sets out the mental-health indicators and the service coverage behind each one.
 
-[[TABLE:Table 20.1 Mental health indicators, 2050]]
+[[TABLE:Table 20.1 Mental health indicators||Source: compiled by the author from WHO (2023) and Clayton (2020)]]
 | Population | Main stressor | Typical response | Risk factor | Support |
 |---|---|---|---|---|
 | Children | Disruption; fear | Anxiety; regression | Lost schooling | Routine; school support |
@@ -4592,9 +4596,9 @@ Climate justice will depend on the pace of climate change, the strength of inter
 
 The justice scenarios of 2050 differ less in the climate than in the institutions (Schlosberg, 2007). In one, loss and damage finance is scaled to need, debt is restructured, and adaptation money reaches the local level where it is spent on water, housing and warning systems. In another, the funds remain small, the debt burden grows, and the adaptation that happens is private and unequal, which produces a world that is warmer and more divided. The numbers that reveal the direction are the volume and speed of adaptation finance, the share that reaches local actors, the debt service ratio of the most exposed countries, and the number of legal cases that establish a duty of care.
 
-The variable that separates the two versions is not the size of the fund but the speed at which it can be disbursed. A mechanism that requires a project proposal, an appraisal and a procurement cycle delivers money two to three years after the flood, which is the timescale of reconstruction rather than of relief, and by then the households that could not wait have already sold assets and withdrawn children from school. The proposals that have changed the arithmetic are the ones that pre-accredit national and municipal agencies to spend against a trigger, so that the money moves through a channel that already exists. The difference between the scenarios can therefore be measured in weeks, and weeks are what the data on post-disaster impoverishment say matters most.
+The variable that separates the two versions is not the size of the fund but the speed at which it can be disbursed. A mechanism that requires a project proposal, an appraisal and a procurement cycle delivers money two to three years after the flood, which is the timescale of reconstruction rather than of relief, and by then the households that could not wait have already sold assets and withdrawn children from school. The proposals that have changed the arithmetic are the ones that pre-accredit national and municipal agencies to spend against a trigger, so that the money moves through a channel that already exists. The difference between the scenarios can therefore be measured in weeks, and weeks are what the data on post-disaster impoverishment say matters most. Table 21.1 compares the justice indicators and the instruments that move each of them.
 
-[[TABLE:Table 21.1 Climate justice indicators, 2050]]
+[[TABLE:Table 21.1 Climate justice indicators||Source: compiled by the author from UNEP (2023) and Schlosberg (2007)]]
 | Actor | Responsibility | Exposure | Instrument | Gap |
 |---|---|---|---|---|
 | High-income states | High historical | Low to moderate | Finance; mitigation | Delivery |
@@ -4745,7 +4749,7 @@ Urban floods reveal the interaction of infrastructure, planning and inequality. 
 
 Cape Town's 2018 water crisis was a slow-onset urban emergency. After three years of drought, the city's reservoirs fell to critically low levels, and officials prepared for 'Day Zero', when taps would be turned off and residents would queue for water. The city avoided that outcome through severe restrictions, pressure management and public campaigns, but the crisis exposed the vulnerability of a growing city dependent on a variable water supply.
 
-Seoul's 2022 floods were a reminder that wealthy cities are not immune. Record rainfall in August 2022 flooded basements and semi-basement apartments, killing at least 141 people, many of them poor residents living in the cheapest housing (CRED, 2023). The event highlighted the way housing markets push low-income households into the most dangerous spaces, and how infrastructure designed for a different climate can fail suddenly.
+Seoul's 2022 floods were a reminder that wealthy cities are not immune. Record rainfall in August 2022 flooded basements and semi-basement apartments, killing at least a dozen people, many of them poor residents living in the cheapest housing (CRED, 2023). The event highlighted the way housing markets push low-income households into the most dangerous spaces, and how infrastructure designed for a different climate can fail suddenly.
 
 Chennai, Cape Town and Seoul are usually told as separate stories, and read together they describe a single urban problem: infrastructure designed for a stationary climate and managed by institutions with weak incentives to maintain it. Chennai's floods were worsened by the loss of wetlands that had absorbed monsoon water; Cape Town's drought was managed through tariffs and pressure reduction rather than new supply; Seoul's 2022 flood killed people living in semi-basement apartments, and the city subsequently announced a plan to phase them out. In each case the hazard was meteorological and the disaster was municipal.
 
@@ -4821,9 +4825,9 @@ Urban outcomes will turn on the pace of warming, urbanisation and the quality of
 
 Urban extremes in 2050 will be determined by the intersection of three trends: more frequent hazards, growing urban populations, and the quality of urban governance. Cities that invest in heat action plans, drainage, early warning and social protection can reduce deaths even as the hazards intensify; cities that expand into floodplains and rely on emergency response cannot. The scenarios differ mainly in the third variable, because the first two are largely determined and the third is a choice. The data worth tracking are the share of the population covered by a heat plan, the drainage standard of the sewer network, the number of days above 35 °C, and the proportion of residents within reach of a cooling centre or a shelter (Ebi et al., 2021).
 
-The future of disaster cases is that the events will be less classifiable and the preparedness more specific. A compound event, in which a heatwave coincides with a grid failure and a drought, cannot be managed with a plan that was written for one hazard, and the cities that will cope are the ones that have mapped the dependencies rather than the hazards. The scenario that emerges from the cases in this part of the book is not a world of more disasters but a world of the same disasters with different outcomes, and the difference is the quality of the institutions that meet them.
+The future of disaster cases is that the events will be less classifiable and the preparedness more specific. A compound event, in which a heatwave coincides with a grid failure and a drought, cannot be managed with a plan that was written for one hazard, and the cities that will cope are the ones that have mapped the dependencies rather than the hazards. The scenario that emerges from the cases in this part of the book is not a world of more disasters but a world of the same disasters with different outcomes, and the difference is the quality of the institutions that meet them. Table 22.1 places nine disasters side by side on the same five columns, so that the failures can be compared rather than described one at a time; Figure 22.1 plots the death tolls against one another.
 
-[[TABLE:Table 22.1 Comparative disaster cases, 2050]]
+[[TABLE:Table 22.1 Comparative disaster cases||Source: compiled by the author from CRED (2023) and WMO (2023)]]
 | Event | Hazard | Deaths | What failed | Lesson |
 |---|---|---|---|---|
 | Chicago 1995 | Heat | 739 | Social isolation | Networks protect |
@@ -5057,21 +5061,21 @@ The baseline is a hunger crisis that is already here. About 735 million people f
 
 Hunger and water security will follow the pace of warming, investment in water and social protection, and the intensity of conflict. A world that invests in irrigation efficiency, groundwater management, early action and peace can reduce hunger even as the climate changes; a world that continues on the current path will see more frequent food and water crises. The table summarises the range.
 
-Food and water security in 2050 will be determined by the intersection of three curves: demand, which rises with population and income; supply, which falls as aquifers deplete and glaciers retreat; and the frequency of shocks, which rises with warming. The regions where the curves cross earliest are already known — the Horn of Africa, the Sahel, the Middle East, the Indo-Gangetic plain, and the drylands of Central Asia — and the difference between the scenarios is largely a matter of investment and of conflict. The variables that decide the outcome are the aquifer levels in the great basins, the ratio of global stocks to consumption, the price of staple grains, and the number of people in acute food insecurity.
+Food and water security in 2050 will be determined by the intersection of three curves: demand, which rises with population and income; supply, which falls as aquifers deplete and glaciers retreat; and the frequency of shocks, which rises with warming. The regions where the curves cross earliest are already known — the Horn of Africa, the Sahel, the Middle East, the Indo-Gangetic plain, and the drylands of Central Asia — and the difference between the scenarios is largely a matter of investment and of conflict. The variables that decide the outcome are the aquifer levels in the great basins, the ratio of global stocks to consumption, the price of staple grains, and the number of people in acute food insecurity. Table 23.1 does the same for slow-onset crises, where the outcome column records mortality, displacement or epidemic disease as the case allows; Figure 23.1 plots the losses on a logarithmic scale so that crises a thousand times apart can share one chart.
 
-[[TABLE:Table 23.1 Slow-onset cases, 2050]]
-| Case | Drivers | Deaths | What failed | Lesson |
+[[TABLE:Table 23.1 Slow-onset cases||Source: compiled by the author from CRED (2023) and FAO (2023)]]
+| Case | Drivers | Outcome | What failed | Lesson |
 |---|---|---|---|---|
 | Sahel 1972–74 | Drought; land policy | ~100,000 | Pastoral access | Protect mobility |
 | Ethiopia 1984–85 | Drought; conflict | ~1,000,000 | Entitlements | Markets and transfers |
 | Somalia 2011 | Drought; conflict | ~258,000 | Access; late response | Early action |
 | Somalia 2022 | Drought; prices | ~43,000 | Funding gaps | Cash at scale |
-| Syria 2006–10 | Drought; policy | Displacement | Rural neglect | Adapt before conflict |
-| Yemen 2017 | Water; conflict | Cholera | Sanitation collapse | Water as security |
-| Cape Town 2018 | Drought; demand | None | Supply diversity | Manage demand early |
-| São Paulo 2014–15 | Drought; reliance | None | Single source | Diversify supply |
+| Syria 2006–10 | Drought; policy | Mass displacement | Rural neglect | Adapt before conflict |
+| Yemen 2017 | Water; conflict | Cholera epidemic | Sanitation collapse | Water as security |
+| Cape Town 2018 | Drought; demand | No deaths recorded | Supply diversity | Manage demand early |
+| São Paulo 2014–15 | Drought; reliance | No deaths recorded | Single source | Diversify supply |
 
-![Figure 23.1 Deaths in four drought and famine crises, on a logarithmic scale](figures/fig23_1.png)||Source: Table 23.1. Syria 2006–10 is omitted because the table records displacement, not deaths.
+![Figure 23.1 Deaths in four drought and famine crises, on a logarithmic scale](figures/fig23_1.png)||Source: Table 23.1. Syria 2006–10 is omitted because that row records displacement rather than mortality.
 
 The analysis points to two conclusions. First, food and water crises are preventable with existing knowledge and resources; what fails is political will, access and timing. Second, slow emergencies require long-term investment in water, social protection and peace, because relief alone cannot reverse the depletion of aquifers or the collapse of livelihoods.
 
@@ -5301,9 +5305,9 @@ A prepared world in 2050 is not a world without disasters; it is a world in whic
 
 The prepared world of 2050 is measured in the things that did not happen, and the measurement is the hardest part of the argument. A country that has invested in warning, shelter, water and social protection will record fewer deaths from the same storm, and the difference will not appear as a headline because it is the absence of one. The scenarios that this chapter has set out are therefore not predictions about the climate, which is largely determined, but about the institutions, which are not. The choice that determines which scenario arrives is made in budgets, codes, drills and appointments, and it is made every year.
 
-A reader who wants to know within a few years whether the prepared scenario is arriving can watch a small number of leading indicators that move before the death tolls do. The first is whether the national or municipal budget contains a line for pre-arranged finance that can be released against a forecast, because that line is the clearest evidence that a government has decided to act before a declaration. The second is whether the last exercise produced a published after-action report with named fixes, because an exercise without one is a morning in a car park. The third is whether the register of vulnerable residents is current, which can be checked by asking a single clinic whether it could produce the list of its patients who depend on oxygen or dialysis within an hour. The fourth is whether the drainage standard and the building code have been updated to the current climate rather than the climate of the decade in which they were written. None of those indicators is dramatic, and together they forecast the direction of the next decade better than any scenario table.
+A reader who wants to know within a few years whether the prepared scenario is arriving can watch a small number of leading indicators that move before the death tolls do. The first is whether the national or municipal budget contains a line for pre-arranged finance that can be released against a forecast, because that line is the clearest evidence that a government has decided to act before a declaration. The second is whether the last exercise produced a published after-action report with named fixes, because an exercise without one is a morning in a car park. The third is whether the register of vulnerable residents is current, which can be checked by asking a single clinic whether it could produce the list of its patients who depend on oxygen or dialysis within an hour. The fourth is whether the drainage standard and the building code have been updated to the current climate rather than the climate of the decade in which they were written. None of those indicators is dramatic, and together they forecast the direction of the next decade better than any scenario table. Table 24.1 sets out the priorities by horizon, from the actions due before the next event to those due before mid-century.
 
-[[TABLE:Table 24.1 Preparedness priorities by horizon, 2050]]
+[[TABLE:Table 24.1 Preparedness priorities by horizon||Source: compiled by the author from Hess et al. (2018) and CRED (2023)]]
 | Horizon | Priority action | Who acts | Cost | Signal of success |
 |---|---|---|---|---|
 | First hour | Warn and shelter | Households; local government | Low | People reach safety |
@@ -5368,19 +5372,71 @@ This book is written to be argued with. When you contest or extend one of its cl
 
 # Glossary
 
-- Adaptation: Adjusting to actual or expected climate impacts.
-- Mitigation: Reducing greenhouse gas emissions.
-- Resilience: Capacity to absorb disturbance and reorganize.
-- Vulnerability: Susceptibility to harm.
-- Exposure: Presence of people or assets in hazard-prone areas.
-- Sensitivity: Degree to which a system is affected by climate.
-- Adaptive capacity: Ability to adjust to climate change.
-- Tipping point: Threshold beyond which change becomes self-sustaining.
-- Greenhouse effect: Trapping of heat by atmospheric gases.
-- Carbon footprint: Total greenhouse gas emissions caused by an entity.
-- SSP: Shared Socioeconomic Pathway (scenario framework).
-- RCP: Representative Concentration Pathway.
-- Committed warming: Warming locked in by past emissions.
+- Adaptation gap: The distance between the adaptation that is needed and the adaptation that is financed and delivered.
+- Adaptation: Adjusting to actual or expected climate impacts in order to reduce harm or exploit a benign opportunity.
+- Adaptive capacity: The ability to adjust to climate change, determined by money, institutions, infrastructure and knowledge.
+- Aerosol: Fine particles suspended in the atmosphere. Most reflect sunlight and cool the surface, masking part of greenhouse warming.
+- Albedo: The share of incoming sunlight a surface reflects. Snow and ice reflect most; open ocean and dark rock reflect least.
+- AMOC: The Atlantic Meridional Overturning Circulation, the ocean conveyor that carries heat northwards and helps stabilise the European climate.
+- Attribution: The method for estimating how much climate change raised the probability or the severity of a specific event.
+- Blue carbon: Carbon stored in mangroves, seagrasses and salt marshes, both in the plants and in the waterlogged sediment beneath them.
+- Carbon budget: The cumulative carbon dioxide that can still be emitted while holding warming below a stated level.
+- Carbon dioxide removal: Deliberately taking carbon dioxide out of the atmosphere and storing it in trees, soils, rocks or engineered facilities.
+- Carbon footprint: The total greenhouse gas emissions attributable to a person, product, organisation or activity.
+- Carbon price: A charge or tradable price on emissions, designed to make the polluter bear the cost of the damage.
+- Climate finance: Public or private money directed at mitigation and adaptation, including the multilateral funds and the pledges made at the annual negotiations.
+- Climate justice: The claim that those least responsible for emissions, and least able to adapt, should not carry the burden of both.
+- Climate literacy: The knowledge and skills needed to read climate information, judge its reliability and act on it.
+- Co-benefit: A benefit of a climate policy that is not about climate, such as cleaner air, cheaper energy or quieter streets.
+- Committed warming: Warming already locked in by past emissions, which will occur even if emissions stop today.
+- Compound event: Two or more hazards, or a hazard and an exposure, occurring together or in sequence so that the combined effect is worse than the sum of the parts.
+- COP: Conference of the Parties, the annual meeting of the countries that signed the UN Framework Convention on Climate Change.
+- Cryosphere: The frozen part of the Earth system: glaciers, ice sheets, sea ice, permafrost and snow.
+- Deforestation: The permanent loss of forest cover, usually to agriculture, which releases carbon and dries the surrounding landscape.
+- Disaster risk reduction: Policy and practice that lowers exposure and vulnerability before an event, instead of responding after it.
+- Downscaling: Translating global model output into local or regional detail fine enough for planning decisions.
+- Drought: A sustained water deficit, defined meteorologically (rainfall), hydrologically (rivers and groundwater) or agriculturally (soil moisture).
+- El Niño / La Niña: The periodic warming and cooling of the tropical Pacific that shifts rainfall and temperature across the world.
+- Emission scenario: A quantified storyline of future emissions. The SSPs combine socioeconomic assumptions with levels of radiative forcing.
+- ENSO: The El Niño–Southern Oscillation, the coupled ocean–atmosphere cycle that produces El Niño and La Niña.
+- Evapotranspiration: Water lost from soil and vegetation to the atmosphere. It rises with temperature, which dries land further.
+- Exposure: The presence of people, livelihoods or assets in places and conditions where hazards can reach them.
+- Extreme event: A value of a climate variable far outside the range historically observed at a given place.
+- Feedback loop: A process in which warming triggers a change that causes more warming, such as permafrost thaw or the loss of reflective ice.
+- Flood return period: The average interval between floods of a given size. A 1-in-100-year flood has a 1 % chance of occurring in any year.
+- Food security: Reliable access to sufficient, safe and nutritious food, which depends on availability, access, use and stability at once.
+- Fossil fuel subsidy: Government support that lowers the cost of producing or consuming coal, oil or gas, whether through direct payment or tax treatment.
+- Greenhouse effect: The trapping of outgoing heat by gases in the atmosphere, which keeps the surface warmer than it would otherwise be.
+- Grid resilience: The capacity of an electricity network to keep supplying, or to restore supply quickly, through a shock.
+- Heat action plan: A set of temperature triggers and pre-agreed responses, from warnings to cooling centres, that activates when thresholds are crossed.
+- Heat island: The tendency of built-up areas to run hotter than the surrounding countryside, because surfaces store heat and vegetation is scarce.
+- Internal migration: Movement within a country's own borders, as distinct from cross-border displacement or refugee movement.
+- IPCC: The Intergovernmental Panel on Climate Change, the body that assesses published climate science for governments.
+- Land-use change: Conversion of land between uses, such as forest to pasture, which alters carbon storage, water cycling and albedo.
+- Loss and damage: Harm from climate impacts that mitigation and adaptation cannot prevent, including permanent and irreversible loss.
+- Maladaptation: An adaptation that reduces one risk while creating another, or that shifts harm onto a group less able to bear it.
+- Mangrove: A salt-tolerant tree or shrub on tropical coasts that buffers storm surge and stores blue carbon in its sediment.
+- Mitigation: Reducing greenhouse gas emissions, or enhancing the sinks that remove them.
+- Nationally Determined Contribution: The emission pledge each country makes under the Paris Agreement, and revises every five years.
+- Ocean acidification: The fall in seawater pH as the ocean absorbs carbon dioxide, which impairs shell-forming organisms and slows coral growth.
+- Permafrost: Ground that stays frozen for two years or more. Thawing releases carbon and destabilises buildings, roads and pipelines.
+- Phenology: The timing of seasonal biological events such as flowering, nesting or migration, which shifts as the climate warms.
+- ppm and CO2e: Parts per million, used for atmospheric concentration. CO2-equivalent expresses the forcing of other gases in carbon dioxide terms.
+- Radiative forcing: The change in the balance of incoming and outgoing energy at the top of the atmosphere, measured in watts per square metre.
+- Relative sea level: The change in sea level measured at a particular coast, which combines global ocean rise with local subsidence or uplift.
+- Representative Concentration Pathway: The earlier scenario framework, indexed by the radiative forcing reached by 2100.
+- Resilience: The capacity to absorb a disturbance, reorganise and keep functioning.
+- Sensitivity: The degree to which a system is affected, adversely or beneficially, by a given change in climate.
+- Shared Socioeconomic Pathway: The current scenario framework, combining population and income assumptions with forcing levels.
+- Solar radiation modification: Deliberately reflecting more sunlight, for example by injecting particles into the stratosphere. It lowers temperature without addressing the cause.
+- Stranded asset: An investment that loses its value before it is paid off because policy or the market moves against it.
+- Subsidence: The sinking of the land surface. In deltas it is often accelerated by groundwater extraction and by the weight of built structures.
+- Tipping point: A threshold beyond which change becomes self-sustaining, so that returning to the previous state requires far more than reversing the original push.
+- Vulnerability: The propensity of a system to be harmed, given its exposure and its capacity to cope and adapt.
+- Water stress: Freshwater withdrawal that is large relative to the supply available, so that shortages appear under ordinary variation.
+- Wet-bulb temperature: The lowest temperature a body can reach by evaporative cooling. Sustained values above roughly 35 °C are unsurvivable for a healthy adult at rest.
+- Zoonosis: An infection that passes from animals to humans, common where land use change brings people and wildlife into new contact.
+
 
 # Analytical Caveats
 
@@ -5420,6 +5476,16 @@ Figures for the named events used as cases in this book are drawn from the docum
 - Amazon deforestation threshold — IPCC (2019), Climate Change and Land.
 - Arctic sea-ice decline — Notz & Stroeve (2016), Science 354(6313).
 - Global temperature records — Lenssen et al. (2019); Morice et al. (2021); Rohde & Hausfather (2020); WMO (2023).
+- Bhola cyclone, 1970, and Cyclone Amphan, 2020 — CRED (2023), EM-DAT; WMO (2023), State of the Global Climate. The Amphan death toll is taken from CRED, not from the early government count, which was revised upward.
+- Tuvalu and the Falepili Union, 2023 — UNHCR (2023), climate displacement and statelessness reporting; treaty text as ratified by Australia and Tuvalu.
+- Lake Chad shrinkage — Gleick (2023), Water, Climate and Governance Crises; IPCC (2019a), Climate Change and Land.
+- Emilia-Romagna floods, 2023 — CRED (2023), EM-DAT; regional damage assessments summarised in WMO (2023).
+- Hurricane Helene, 2024 — NOAA National Centers for Environmental Information (2024), Billion-Dollar Weather and Climate Disasters; WMO (2025), State of the Global Climate 2024.
+- Solar mini-grids and solar home systems in Bangladesh — IRENA (2023), World Energy Transitions Outlook; deployment figures are national programme totals, not model output.
+- Loss and Damage Fund, agreed 2022 — UNEP (2023), Adaptation Gap Report; negotiation record from the COP decisions themselves rather than from commentary.
+- Jakarta subsidence and the sea wall — IPCC (2022a), Impacts, Adaptation and Vulnerability, urban chapter; UN-Habitat (2022), World Cities Report.
+- Dengue, record year in the Americas, 2024 — WHO (2023), global health estimates, with national surveillance data for the 2024 total; case counts are reported cases, which understate infections.
+- Rice export restrictions, 2023 — FAO (2023), Food Outlook; World Bank (2022), food security and climate change briefing. Price movements are given as ranges because export bans and weather losses overlapped and cannot be separated cleanly.
 
 # References
 

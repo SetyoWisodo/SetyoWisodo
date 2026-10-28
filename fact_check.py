@@ -16,7 +16,7 @@ FACTS = [
     ("CH4", r"methane about", r"bagian per miliar", ["1,934", "1.934", "1.900"]),
     ("Sea-level rate", r"millimetres a year today", r"milimeter per tahun", ["4.5", "4,5"]),
     ("Warming to date", r"rise of about", r"suhu permukaan sekitar 1,1", ["1.1", "1.3", "1,1", "1,3"]),
-    ("Katrina deaths", r"Katrina in 2005", r"Katrina", ["1,800", "1.800"]),
+    ("Katrina deaths", r"Katrina in 2005", r"Katrina", ["1,400", "1.400"]),
     ("Maria excess deaths", r"excess deaths", r"kematian berlebih", ["2,975", "2.975"]),
     ("Europe 2003", r"70,000", r"70.000", ["70,000", "70.000"]),
     ("Black Saturday", r"Black Saturday", r"Black Saturday", ["173"]),

@@ -460,7 +460,7 @@ def draw_figure(pdf, path, caption, source, lang="en"):
     return page
 
 
-def draw_table(pdf, rows, caption=None, lang="en", col_widths=None):
+def draw_table(pdf, rows, caption=None, lang="en", col_widths=None, source=""):
     """Gambar tabel bergaris dengan caption di atas (Table 3.1 ...)."""
     from fpdf.fonts import FontFace
     if not rows:
@@ -505,7 +505,15 @@ def draw_table(pdf, rows, caption=None, lang="en", col_widths=None):
         heights.append(max(hs) * cell_h + 2 * pad)
 
     cap_h = (cell_h * 2 + 3.0) if caption else 0.0
-    need = cap_h + sum(heights) + 2
+    src_h = 0.0
+    if source:
+        pdf.set_font("TNR", "I", BODY_PT * 0.72)
+        try:
+            nlines = len(pdf.multi_cell(total_w, 4.0, source, dry_run=True, output="LINES"))
+        except Exception:
+            nlines = 2
+        src_h = nlines * 4.0 + 1.0
+    need = cap_h + src_h + sum(heights) + 2
     # Tabel utuh lebih disukai; bila tidak muat, tabel dipecah dengan header
     # yang diulang, asalkan setidaknya header + dua baris data muat.
     min_chunk = heights[0] + sum(heights[1:3])
@@ -520,6 +528,12 @@ def draw_table(pdf, rows, caption=None, lang="en", col_widths=None):
         pdf.set_font("TNR", "B", BODY_PT)
         pdf.multi_cell(0, cell_h, caption, align="C")
         pdf.ln(1.2)
+    if source:
+        pdf.set_font("TNR", "I", BODY_PT * 0.72)
+        pdf.set_text_color(70, 70, 70)
+        pdf.multi_cell(0, 4.0, source, align="L")
+        pdf.set_text_color(0, 0, 0)
+        pdf.ln(1.0)
     table_page = pdf.page
 
     def draw_row(ri, r):
@@ -868,9 +882,10 @@ def split_blocks(lines):
                                        typographic((m.group(3) or "").strip())), ""))
             i += 1
             continue
-        m = re.match(r"^\[\[TABLE:\s*(.*?)\]\]\s*$", s)
+        m = re.match(r"^\[\[TABLE:\s*(.*?)(?:\|\|\s*(.*?))?\]\]\s*$", s)
         if m:
-            blocks.append(("caption", typographic(m.group(1)), ""))
+            blocks.append(("caption", typographic(m.group(1).strip()),
+                           typographic((m.group(2) or "").strip())))
             i += 1
             continue
         if s.strip().startswith("|"):
@@ -991,6 +1006,7 @@ def render(md_path, out_pdf, lang="en", title=None):
 
         new_pages, new_tables, new_figs = {}, {}, {}
         caption_pending = None
+        caption_src_pending = ""
         li_buf = []
 
         def flush_li(pdf):
@@ -1039,7 +1055,8 @@ def render(md_path, out_pdf, lang="en", title=None):
                 draw_paragraph(pdf, txt, indent=0.0, left=bullet_w + 2.0)
                 pdf.ln(0.5)
 
-        for kind, val, _ in blocks:
+        for b in blocks:
+            kind, val = b[0], b[1]
             if kind != "li":
                 flush_li(pdf)
             if kind == "h1":
@@ -1062,11 +1079,14 @@ def render(md_path, out_pdf, lang="en", title=None):
                 draw_heading(pdf, val, 3)
             elif kind == "caption":
                 caption_pending = val
+                caption_src_pending = b[2] if len(b) > 2 else ""
             elif kind == "table":
-                pg = draw_table(pdf, val, caption=caption_pending, lang=lang)
+                pg = draw_table(pdf, val, caption=caption_pending, lang=lang,
+                                source=caption_src_pending)
                 if caption_pending:
                     new_tables[caption_pending] = pg
                 caption_pending = None
+                caption_src_pending = ""
             elif kind == "figure":
                 pg = draw_figure(pdf, val[0], val[1], val[2], lang=lang)
                 if pg:

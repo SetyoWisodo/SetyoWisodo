@@ -99,13 +99,13 @@ def blocks_of(md_path):
 def split_chapters(blocks):
     """Kembalikan [(judul, [blok])]; blok sebelum h1 pertama masuk judul None."""
     chapters, cur_title, cur = [], None, []
-    for kind, val, _ in blocks:
+    for kind, val, extra in blocks:
         if kind == "h1":
             if cur:
                 chapters.append((cur_title, cur))
-            cur_title, cur = val, [(kind, val)]
+            cur_title, cur = val, [(kind, val, extra)]
         else:
-            cur.append((kind, val))
+            cur.append((kind, val, extra))
     if cur:
         chapters.append((cur_title, cur))
     return chapters
@@ -123,7 +123,9 @@ def chapter_xhtml(title, blocks, is_first):
     first_h1 = True
     if title:
         parts.append("<h1>%s</h1>" % inline_html(title))
-    for kind, val in blocks:
+    for b in blocks:
+        kind, val = b[0], b[1]
+        extra = b[2] if len(b) > 2 else ""
         if kind == "h1":
             continue    # judul bab sudah ditulis di atas
         elif kind == "h2":
@@ -140,6 +142,8 @@ def chapter_xhtml(title, blocks, is_first):
             parts.append("<table>%s</table>" % "".join(rows))
         elif kind == "caption":
             parts.append('<p class="caption">%s</p>' % inline_html(val))
+            if extra:
+                parts.append('<p class="tablesource">%s</p>' % inline_html(extra))
         elif kind == "figure":
             path, caption, source = val
             alt = figure_alt(caption, _LANG)
@@ -174,6 +178,7 @@ h2 { font-size: 1.12em; margin: 1.4em 0 0.35em 0; }
 h3 { font-size: 1em; font-style: italic; margin: 1.1em 0 0.3em 0; }
 p { text-align: justify; text-indent: 1.27em; margin: 0 0 0.35em 0; }
 p.caption { text-align: center; font-weight: bold; text-indent: 0; margin-top: 1em; }
+p.tablesource { font-style: italic; font-size: 0.85em; color: #444; text-indent: 0; margin: 0.2em 0 0.4em 0; }
 figure.fig { margin: 1.2em 0 1.4em 0; text-align: center; page-break-inside: avoid; }
 figure.fig img { max-width: 100%; height: auto; }
 figure.fig figcaption { font-size: 0.9em; margin-top: 0.5em; text-indent: 0; }
@@ -228,7 +233,7 @@ def build_epub(cfg):
     # ---- gambar data: berkas PNG ikut masuk ke dalam EPUB ----
     seen_fig = set()
     for _title, blks in chapters:
-        for kind, val in blks:
+        for kind, val in [(b[0], b[1]) for b in blks]:
             if kind != "figure":
                 continue
             rel = val[0].replace("\\", "/")
@@ -292,7 +297,7 @@ def build_epub(cfg):
         name = "c%03d.xhtml" % i
         add(name, chapter_xhtml(title, blks, i == 0), "application/xhtml+xml",
             "c%03d" % i, in_spine=True)
-        subs = [(slug(v), v) for kk, v in blks if kk == "h2"]
+        subs = [(slug(b[1]), b[1]) for b in blks if b[0] == "h2"]
         nav_items.append((title or cfg["title"], name, subs))
 
     # ---- nav.xhtml ----
@@ -529,7 +534,7 @@ def build_docx(cfg):
            if cfg["lang"] == "en" else
            "Perbarui field ini (Ctrl+A, F9) untuk menyusun daftar isi.")
 
-    for kind, val in [(k, v) for k, v, _ in blocks_of(cfg["md"])]:
+    for kind, val, extra in blocks_of(cfg["md"]):
         if kind == "h1":
             p = doc.add_paragraph(style="Heading 1")
             p.paragraph_format.page_break_before = True
@@ -565,6 +570,13 @@ def build_docx(cfg):
             p.paragraph_format.space_before = Pt(8)
             p.paragraph_format.keep_with_next = True
             r = p.add_run(val); r.bold = True; r.font.size = Pt(10)
+            if extra:
+                p2 = doc.add_paragraph()
+                p2.alignment = WD_ALIGN_PARAGRAPH.LEFT
+                p2.paragraph_format.first_line_indent = Mm(0)
+                p2.paragraph_format.space_before = Pt(1)
+                p2.paragraph_format.keep_with_next = True
+                r2 = p2.add_run(extra); r2.italic = True; r2.font.size = Pt(8.5)
         elif kind == "figure":
             path, caption, source = val
             full = path if os.path.isabs(path) else os.path.join(book_pdf.BOOK_DIR, path)
