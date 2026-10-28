@@ -10,6 +10,7 @@ kali lingkungan kerja dijalankan ulang.
 """
 import html
 import os
+import re
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
@@ -58,6 +59,14 @@ def card(root, fname, title, note="", preview=True):
 
 def build_html():
     parts = []
+
+    parts.append('<h2>Teks deskripsi siap tempel</h2><div class="grid">')
+    for slug, t in [("en", "EN — Surviving the Future"), ("id", "ID — Bertahan Hidup"),
+                    ("bundle", "Bundle — dua edisi"), ("sample", "Sampel gratis")]:
+        parts.append(f'<a class="card" href="/copy/{slug}" target="_blank">'
+                     f'<div class="meta"><b>{html.escape(t)}</b>'
+                     f'<span>buka → Ctrl+A → Ctrl+C → tempel di Description</span></div></a>')
+    parts.append("</div>")
 
     parts.append('<h2>Foto marketplace — Inggris</h2><div class="grid">')
     for key, title, note in MKT:
@@ -155,6 +164,23 @@ class Handler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(body)
             return
+
+        if path.startswith("/copy/"):
+            name = path[len("/copy/"):].strip("/").lower()
+            fname = {"en": "listing_en.html", "id": "listing_id.html",
+                     "bundle": "listing_bundle.html",
+                     "sample": "listing_sample.html"}.get(name)
+            full = os.path.join(PUB, "gumroad", "copy", fname or "")
+            if fname and os.path.isfile(full):
+                body = open(full, "rb").read()
+                # judul H1 dibuang: judul produk sudah ada di kolom Name Gumroad
+                body = re.sub(rb"<h1>.*?</h1>", b"", body, count=1, flags=re.S)
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.send_header("Content-Length", str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+                return
 
         if path.startswith("/f/"):
             rel = path[3:].lstrip("/")
