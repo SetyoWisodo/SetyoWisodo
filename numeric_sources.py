@@ -143,8 +143,8 @@ CURATED = [
     ("About 700 million people still lack access to electricity", "IEA (2023)",
      "IEA: ~750 juta orang tanpa akses listrik; buku memakai 700 juta sebagai "
      "pembulatan konservatif."),
-    ("About 2.3 billion people cook with solid fuels", "IEA (2023)",
-     "IEA: ~2,3 miliar orang memasak dengan bahan bakar padat."),
+    ("About 2.1 billion people cook with solid fuels", "WHO (2023b)",
+     "WHO: ~2,1 miliar orang memasak dengan bahan bakar padat atau minyak tanah."),
 
     # --- Bab 20 ------------------------------------------------------------
     ("Eighty-five people died, most of them elderly or disabled",
@@ -196,7 +196,7 @@ ID_EXTRA = [
     ("Antara 2006 dan 2010, kekeringan parah", "Kelley et al. (2015)"),
     ("Di dua belas negara, sekitar 70.000 orang meninggal", "Robine et al. (2008)"),
     ("Sekitar 700 juta orang masih kekurangan akses listrik", "IEA (2023)"),
-    ("2,3 miliar orang masih memasak dengan bahan bakar padat", "IEA (2023)"),
+    ("2,1 miliar orang masih memasak dengan bahan bakar padat", "WHO (2023b)"),
     ("Sekitar 735 juta orang menghadapi kelaparan", "FAO (2023)"),
     ("menewaskan sekitar 258", "Checchi & Robinson (2013)"),
     ("perkiraan 2.975 kematian berlebih", "Kishore et al. (2018)"),

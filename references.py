@@ -41,8 +41,8 @@ REFS_EN = [
     "FERC & NERC. 2021. *The February 2021 cold weather outages in Texas and the South Central United States*. Federal Energy Regulatory Commission, Washington DC.",
     "Filkov, A.I. et al. 2020. Impact of Australia's catastrophic 2019/20 bushfire season on forest ecosystems. *Journal of Safety Science and Resilience* 1(1): 1-15.",
     "Folke, C. et al. 2010. Resilience thinking. *Ecology and Society* 15(4): 20.",
+    "Friedlingstein, P. et al. 2023. *Global Carbon Budget 2023: carbon cycle and sinks*. Earth System Science Data.",
     "Friedlingstein, P. et al. 2024. Global Carbon Budget 2024. *Earth System Science Data*.",
-    "Friedlingstein, Pierre et al. 2023. *Global Carbon Budget 2023: carbon cycle and sinks*. Earth System Science Data.",
     "Galea, S., Nandi, A. & Vlahov, D. 2005. The epidemiology of post-traumatic stress disorder after disasters. *Epidemiologic Reviews* 27(1): 78–91.",
     "Ghosh, Amitav. 2016. *The Great Derangement: Climate Change and the Unthinkable*. University of Chicago Press.",
     "Gigerenzer, G. 2015. *Risk Savvy: How to Make Good Decisions*. Penguin, London.",
@@ -136,8 +136,8 @@ REFS_EN = [
     "Steffen, W. et al. 2018. Trajectories of the Earth System in the Anthropocene. *PNAS* 115(33): 8252–8259.",
     "Stern, N. 2007. *The Economics of Climate Change: The Stern Review*. Cambridge University Press.",
     "Stott, P.A., Stone, D.A. & Allen, M.R. 2004. Human contribution to the European heatwave of 2003. *Nature* 432: 610–614.",
-    "Texas Department of State Health Services. 2023. *February 2021 Winter Storm Uri: death certificate review*. DSHS, Austin.",
     "Texas Comptroller of Public Accounts. 2021. *Winter Storm Uri 2021: The Economic Impact of the Storm*. Fiscal Notes, October 2021. Austin.",
+    "Texas Department of State Health Services. 2023. *February 2021 Winter Storm Uri: death certificate review*. DSHS, Austin.",
     "Trenberth, K.E., Fasullo, J.T. & Kiehl, J. 2009. Earth's global energy budget. *Bulletin of the American Meteorological Society* 90(3): 311–323.",
     "Tyndall, J. 1861. The Bakerian Lecture: on the absorption and radiation of heat by gases and vapours. *Philosophical Transactions of the Royal Society* 151: 1–36.",
     "UN-Habitat. 2022. *World Cities Report 2022: Envisaging the Future of Cities*. UN-Habitat, Nairobi.",
@@ -166,6 +166,7 @@ REFS_EN = [
     "WHO. 2021. *COP26 Special Report on Climate Change and Health*. WHO, Geneva.",
     "WHO. 2022. *World Mental Health Report: Transforming Mental Health for All*. WHO, Geneva.",
     "WHO. 2023. *Climate Change and Health Fact Sheet*. who.int.",
+    "WHO. 2023b. *Ambient (outdoor) air pollution* and *Household air pollution* fact sheets. WHO, Geneva.",
     "WMO. 2022. *Early Warnings for All*. WMO, Geneva.",
     "WMO. 2023. *State of the Global Climate 2023*. World Meteorological Organization, Geneva.",
     "WMO. 2025. *State of the Global Climate 2024*. World Meteorological Organization, Geneva.",
@@ -219,8 +220,8 @@ REFS_ID = [
     "FERC & NERC. 2021. *The February 2021 cold weather outages in Texas and the South Central United States*. Federal Energy Regulatory Commission, Washington DC.",
     "Filkov, A.I. et al. 2020. Impact of Australia's catastrophic 2019/20 bushfire season on forest ecosystems. *Journal of Safety Science and Resilience* 1(1): 1-15.",
     "Folke, C. dkk. 2010. Resilience thinking. *Ecology and Society* 15(4): 20.",
+    "Friedlingstein, P. dkk. 2023. *Global Carbon Budget 2023: carbon cycle and sinks*. Earth System Science Data.",
     "Friedlingstein, P. dkk. 2024. Global Carbon Budget 2024. *Earth System Science Data*.",
-    "Friedlingstein, Pierre dkk. 2023. *Global Carbon Budget 2023: carbon cycle and sinks*. Earth System Science Data.",
     "Galea, S., Nandi, A. & Vlahov, D. 2005. The epidemiology of post-traumatic stress disorder after disasters. *Epidemiologic Reviews* 27(1): 78–91.",
     "Ghosh, Amitav. 2016. *The Great Derangement: Climate Change and the Unthinkable*. University of Chicago Press.",
     "Gigerenzer, G. 2015. *Risk Savvy: How to Make Good Decisions*. Penguin, London.",
@@ -314,8 +315,8 @@ REFS_ID = [
     "Steffen, W. dkk. 2018. Trajectories of the Earth System in the Anthropocene. *PNAS* 115(33): 8252–8259.",
     "Stern, N. 2007. *The Economics of Climate Change: The Stern Review*. Cambridge University Press.",
     "Stott, P.A., Stone, D.A. & Allen, M.R. 2004. Human contribution to the European heatwave of 2003. *Nature* 432: 610–614.",
-    "Texas Department of State Health Services. 2023. *February 2021 Winter Storm Uri: death certificate review*. DSHS, Austin.",
     "Texas Comptroller of Public Accounts. 2021. *Winter Storm Uri 2021: The Economic Impact of the Storm*. Fiscal Notes, Oktober 2021. Austin.",
+    "Texas Department of State Health Services. 2023. *February 2021 Winter Storm Uri: death certificate review*. DSHS, Austin.",
     "Trenberth, K.E., Fasullo, J.T. & Kiehl, J. 2009. Earth's global energy budget. *Bulletin of the American Meteorological Society* 90(3): 311–323.",
     "Tyndall, J. 1861. The Bakerian Lecture: on the absorption and radiation of heat by gases and vapours. *Philosophical Transactions of the Royal Society* 151: 1–36.",
     "UN-Habitat. 2022. *World Cities Report 2022: Envisaging the Future of Cities*. UN-Habitat, Nairobi.",
@@ -344,6 +345,7 @@ REFS_ID = [
     "WHO. 2021. *COP26 Special Report on Climate Change and Health*. WHO, Geneva.",
     "WHO. 2022. *World Mental Health Report: Transforming Mental Health for All*. WHO, Geneva.",
     "WHO. 2023. *Climate Change and Health Fact Sheet*. who.int.",
+    "WHO. 2023b. *Ambient (outdoor) air pollution* and *Household air pollution* fact sheets. WHO, Geneva.",
     "WMO. 2022. *Early Warnings for All*. WMO, Geneva.",
     "WMO. 2023. *State of the Global Climate 2023*. World Meteorological Organization, Geneva.",
     "WMO. 2025. *State of the Global Climate 2024*. World Meteorological Organization, Geneva.",
@@ -356,3 +358,7 @@ REFS_ID = [
     "Zemp, M. dkk. 2019. Global glacier mass changes and their contributions to sea-level rise from 1961 to 2016. *Nature* 568: 382–386.",
     "Zhao, C. dkk. 2017. Temperature increase reduces global yields of major crops. *PNAS* 114(35): 9326–9331.",
 ]
+
+
+
+
