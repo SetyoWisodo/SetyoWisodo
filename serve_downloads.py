@@ -46,7 +46,7 @@ def card(root, fname, title, note="", preview=True):
     if not os.path.exists(path):
         return ""
     size = human(os.path.getsize(path))
-    url = "/f/" + urllib.parse.quote(f"{root}/{fname}")
+    url = "/f/" + urllib.parse.quote("/".join(x for x in (root, fname) if x))
     img = (f'<img loading="lazy" src="{url}" alt="{html.escape(title)}">'
            if preview else '')
     return f'''<a class="card" href="{url}" download>
