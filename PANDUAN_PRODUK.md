@@ -159,20 +159,38 @@ Enam toggle. Hanya dua yang perlu disentuh.
 | **Allow customers to choose a quantity** | mati | Buku tidak dijual per kodi; menyalakannya membuat pembeli bisa membeli 5 salinan sekaligus dan bingung soal lisensi |
 | **Publicly show the number of sales on your product page** | mati (awal) | Di awal, angka "3 sales" justru melemahkan. Nyalakan nanti setelah lewat 50 penjualan — saat angka itu jadi bukti sosial |
 | **Mark product as e-publication for VAT purposes** | **NYALA** | Ini buku elektronik. Dengan ini Gumroad memperlakukan produk sebagai e-publication, bukan layanan digital umum — relevan untuk perlakuan pajak di beberapa negara pembeli |
-| **Specify a refund policy for this product** | **NYALA** — wajib | Lihat teks di bawah. Tanpa kebijakan yang tertulis, sengketa pembayaran selalu dimenangkan pembeli |
+| **Specify a refund policy for this product** | **NYALA** → periode **14-day money back guarantee** | Lihat dua paragraf di bawah. Tanpa kebijakan tertulis, sengketa selalu dimenangkan pembeli |
 | **Custom domain** | kosongkan | Domain sendiri hanya perlu bila Anda punya situs. `setyowisodo.gumroad.com` sudah cukup |
 
-### Refund policy — tempel teks ini
+### Refund policy — pilih 14 hari, lalu tempel fine print ini
 
-Klik toggle **Specify a refund policy**, lalu tempel:
+Dropdown **Refund period** hanya punya lima pilihan tetap. Pilih:
 
 ```
-Because this is a digital download, sales are final once the files have been
-accessed. If a file will not open, or you received the wrong edition, write to me
-within 14 days and I will send a working copy or refund you in full.
+14-day money back guarantee
 ```
 
-Kalimat ini adil untuk kedua pihak: pembeli dilindungi dari berkas rusak, Anda dilindungi dari pembelian lalu minta uang kembali setelah membaca seluruh buku. Gumroad menampilkan kebijakan ini di halaman checkout.
+Alasannya: sampel 35 halaman gratis sudah menyaring pembaca yang salah niat, jadi risiko "baca lalu minta uang kembali" kecil; sementara sengketa kartu kredit (chargeback) jauh lebih mahal — Gumroad memotong biaya penanganan, dan akun yang sering bersengketa bisa dibatasi. Angka 14 hari adalah standar toko digital buku.
+
+**Fine print (opsional) — tempel:**
+
+```
+Write to me within 14 days of purchase and I will refund you in full, no
+questions asked. If a file will not open or you received the wrong edition, I
+will send a working copy first, and refund you if that does not solve it. The
+free 35-page sample exists so you can judge the book before you buy it.
+```
+
+**Kalau Anda tetap memilih "No refunds allowed",** fine print-nya harus berubah supaya tidak bertentangan dengan pilihan itu:
+
+```
+Because this is a digital download, all sales are final. If a file will not open,
+or you received the wrong edition, write to me and I will send a working copy
+within 24 hours. A free 35-page sample is available so you can judge the book
+before you buy.
+```
+
+Yang tidak boleh: memilih "No refunds allowed" tapi menulis janji uang kembali di deskripsi. Itu kontradiksi yang justru memicu sengketa.
 
 ### Peringatan kuning di bawah halaman — bukan kesalahan
 
