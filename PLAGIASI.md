@@ -182,7 +182,7 @@ duplikasi internal 3–10%. Angka di sini di bawah 0,1%.
 | Entri daftar pustaka | 172 (149 dikutip + 23 bacaan lanjutan) | 172 (145 + 27) |
 | Masalah | **0** | **0** |
 
-Ini pertahanan terkuat Anda terhadap tuduhan plagiasi: 172 sumber nyata, dikutip,
+Ini pertahanan terkuat Anda terhadap tuduhan plagiasi: 152 sumber nyata, dikutip,
 dan dua arahnya konsisten.
 
 ---

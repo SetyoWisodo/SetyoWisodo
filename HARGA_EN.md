@@ -115,7 +115,7 @@ ada 25+ ulasan dan posisi yang jelas. Naikkan nanti, bukan sekarang.
 
 ## 5. Kenapa tidak lebih murah
 
-Di bawah $40 Anda menjual 210.000 kata dan 172 sumber dengan harga paperback populer.
+Di bawah $40 Anda menjual 210.000 kata dan 152 sumber dengan harga paperback populer.
 Itu memberi sinyal "buku biasa" pada produk yang bukan buku biasa, dan tidak
 menyisakan ruang untuk diskon promosi — diskon 20% dari $35 hanya menyisakan $28,
 sementara dari $45 menyisakan $36.

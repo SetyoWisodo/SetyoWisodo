@@ -243,9 +243,16 @@ def cover_inside(cfg, out):
     y = block(d, (x, y), cfg["inside_body"], F(SAN_R, 33), tw, MUTED, 47)
 
     y += 36
+    # susutkan ukuran poin bila daftar tidak muat sampai bawah halaman
+    for fs, lead in ((31, 42), (29, 39), (27, 36), (25, 34), (23, 32)):
+        probe = y
+        for item in cfg["inside_list"]:
+            probe = block(d, (x + 34, probe), item, F(SAN_R, fs), tw - 34, IVORY, lead) + 12
+        if probe <= H - 70:
+            break
     for item in cfg["inside_list"]:
-        d.ellipse([x, y + 12, x + 11, y + 23], fill=AMBER)
-        y = block(d, (x + 34, y), item, F(SAN_R, 31), tw - 34, IVORY, 42) + 14
+        d.ellipse([x, y + int(fs * 0.38), x + 11, y + int(fs * 0.38) + 11], fill=AMBER)
+        y = block(d, (x + 34, y), item, F(SAN_R, fs), tw - 34, IVORY, lead) + 12
     return img
 
 
@@ -313,7 +320,7 @@ EN = dict(
     sub="Crisis, Climate, and Human Resilience",
     blurb="Twenty-four chapters on heat, flood, drought, fire, food, water, migration "
           "and conflict \u2014 written for readers who want the evidence, not the slogan.",
-    stats=[("24", "chapters"), ("145", "sources"), ("430", "pages")],
+    stats=[("24", "chapters"), ("152", "sources"), ("457", "pages")],
     pages=[20, 34, 50],
     inside_kicker="Look inside",
     inside_title="Real pages, real data",
@@ -321,14 +328,15 @@ EN = dict(
                 "its own table, and the observation that would prove it wrong.",
     inside_list=[
         "25 data tables and 11 figures, each traceable to a named source",
-        "24 case studies: Bhola, Amphan, Chicago 1995, the Ahr valley, Cape Town, Chennai",
-        "Emergency checklists and a local risk profile you can fill in",
+        "24 case studies: Bhola 1970, Amphan 2020, Chicago 1995, the Ahr valley 2021",
+        "Emergency checklists and a local risk profile you can fill in for your street",
+        "Glossary, analytical caveats and a full index",
     ],
     quote="A prepared world is not a world without disasters. It is a world where disasters "
           "stop being surprises.",
     quote_src="From the back cover",
     thumb_title="Surviving the Future",
-    thumb_foot="430 pages  \u00b7  English",
+    thumb_foot="457 pages  \u00b7  English",
 )
 
 ID = dict(
@@ -339,7 +347,7 @@ ID = dict(
     sub="Krisis, Iklim, dan Ketahanan Manusia",
     blurb="Dua puluh empat bab tentang panas, banjir, kekeringan, kebakaran, pangan, air, "
           "migrasi, dan konflik \u2014 untuk pembaca yang ingin bukti, bukan slogan.",
-    stats=[("24", "bab"), ("145", "sumber"), ("445", "halaman")],
+    stats=[("24", "bab"), ("152", "sumber"), ("473", "halaman")],
     pages=[21, 35, 51],
     inside_kicker="Lihat isinya",
     inside_title="Halaman asli, data asli",
@@ -347,14 +355,15 @@ ID = dict(
                 "sendiri, tabelnya sendiri, dan pengamatan yang akan membuktikannya salah.",
     inside_list=[
         "25 tabel data dan 11 gambar, semuanya dapat ditelusuri ke sumber bernama",
-        "24 studi kasus: Bhola, Amphan, Chicago 1995, Lembah Ahr, Cape Town, Chennai",
-        "Ceklis darurat dan profil risiko lokal yang bisa Anda isi sendiri",
+        "24 studi kasus: Bhola 1970, Amphan 2020, Chicago 1995, Lembah Ahr 2021",
+        "Ceklis darurat dan profil risiko lokal yang bisa Anda isi sendiri di jalan Anda",
+        "Glosarium, catatan analitis, dan indeks lengkap",
     ],
     quote="Dunia yang siap bukan dunia tanpa bencana. Dunia yang siap adalah dunia ketika "
           "bencana berhenti menjadi kejutan.",
     quote_src="Dari sampul belakang",
     thumb_title="Bertahan Hidup di Masa Depan",
-    thumb_foot="445 halaman  \u00b7  Indonesia",
+    thumb_foot="473 halaman  \u00b7  Indonesia",
 )
 
 BUNDLE = dict(
@@ -362,21 +371,21 @@ BUNDLE = dict(
     kicker="Bilingual bundle",
     title="Two languages, one argument",
     sub="Surviving the Future + Bertahan Hidup di Masa Depan",
-    blurb="Both editions in one purchase: 875 pages, 290 sources and citations, "
+    blurb="Both editions in one purchase: 930 pages, 304 sources and citations, "
           "the same 24 chapters written separately for each readership.",
     render2="Bertahan_Hidup_di_Masa_Depan_ID_3d_transparent.png",
-    stats=[("2", "editions"), ("875", "pages"), ("24", "chapters")],
+    stats=[("2", "editions"), ("930", "pages"), ("24", "chapters")],
     quote="Two editions, one argument: the hazard is not the disaster. The decision is.",
     quote_src="Buy both, read either",
     thumb_title="Both editions",
-    thumb_foot="875 pages  \u00b7  EN + ID",
+    thumb_foot="930 pages  \u00b7  EN + ID",
 )
 
 SAMPLE = dict(
     render="Surviving_the_Future_EN_3d_transparent.png",
     kicker="Free sample",
     title="Read the first chapter",
-    sub="35 of 430 pages, free",
+    sub="35 of 457 pages, free",
     blurb="Full table of contents, the preface, all of Chapter 1, and one data spread. "
           "No email wall on the download itself.",
     stats=[("35", "pages"), ("1", "chapter"), ("0", "cost")],
