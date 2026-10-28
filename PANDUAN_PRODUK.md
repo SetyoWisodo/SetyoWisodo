@@ -9,7 +9,7 @@ Toko Anda: **setyowisodo.gumroad.com** · Halaman yang sedang terbuka: produk pe
 | Name | ✅ `Surviving the Future` |
 | Description | ✅ terisi dan berformat |
 | URL | ⬜ masih `surviving-thefuture` → ubah ke `surviving-the-future` |
-| Cover (3 gambar) | ⬜ |
+| Cover (3 gambar) | ⬜ — berkas sudah diperbarui: 457 pages / 152 sources |
 | Thumbnail + harga $45 | ⬜ |
 | Content (4 berkas + stempel PDF) | ⬜ |
 | Uji beli kode 100% | ⬜ |
