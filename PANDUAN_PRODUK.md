@@ -28,6 +28,8 @@ Kotak kosong besar itu yang paling menentukan penjualan. **Jangan tempel teks po
 
 **Cara yang benar:**
 
+0. Kalau langkah 1–3 di bawah terasa rumit: buka **`DESKRIPSI_GUMROAD.md`** atau **`/copy/en-plain`**, salin semua teksnya, tempel ke kotak Description, selesai — tanpa menyentuh toolbar.
+
 1. Buka **`/copy/en`** di halaman unduhan (tautan ada di panel *Live Preview* Arena, baris pertama "Teks deskripsi siap tempel"). Kalau panel itu tidak terbuka, buka berkas `book/publish/gumroad/copy/listing_en.html` dari salinan repo di komputer Anda.
 2. Di halaman itu: **Ctrl+A**, lalu **Ctrl+C**.
 3. Klik kotak **Description** di Gumroad, lalu **Ctrl+V**.

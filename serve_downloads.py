@@ -61,11 +61,12 @@ def build_html():
     parts = []
 
     parts.append('<h2>Teks deskripsi siap tempel</h2><div class="grid">')
-    for slug, t in [("en", "EN — Surviving the Future"), ("id", "ID — Bertahan Hidup"),
+    for slug, t in [("en-plain", "EN — teks polos (paling gampang)"),
+                    ("en", "EN — berformat"), ("id", "ID — Bertahan Hidup"),
                     ("bundle", "Bundle — dua edisi"), ("sample", "Sampel gratis")]:
         parts.append(f'<a class="card" href="/copy/{slug}" target="_blank">'
                      f'<div class="meta"><b>{html.escape(t)}</b>'
-                     f'<span>buka → Ctrl+A → Ctrl+C → tempel di Description</span></div></a>')
+                     f'<span>{"salin semua teks di halaman ini" if slug == "en-plain" else "buka → Ctrl+A → Ctrl+C → tempel di Description"}</span></div></a>')
     parts.append("</div>")
 
     parts.append('<h2>Foto marketplace — Inggris</h2><div class="grid">')
@@ -169,14 +170,17 @@ class Handler(BaseHTTPRequestHandler):
             name = path[len("/copy/"):].strip("/").lower()
             fname = {"en": "listing_en.html", "id": "listing_id.html",
                      "bundle": "listing_bundle.html",
-                     "sample": "listing_sample.html"}.get(name)
+                     "sample": "listing_sample.html",
+                     "en-plain": "listing_en_plain.txt"}.get(name)
             full = os.path.join(PUB, "gumroad", "copy", fname or "")
             if fname and os.path.isfile(full):
                 body = open(full, "rb").read()
                 # judul H1 dibuang: judul produk sudah ada di kolom Name Gumroad
                 body = re.sub(rb"<h1>.*?</h1>", b"", body, count=1, flags=re.S)
                 self.send_response(200)
-                self.send_header("Content-Type", "text/html; charset=utf-8")
+                ctype = ("text/plain; charset=utf-8" if fname.endswith(".txt")
+                         else "text/html; charset=utf-8")
+                self.send_header("Content-Type", ctype)
                 self.send_header("Content-Length", str(len(body)))
                 self.end_headers()
                 self.wfile.write(body)
