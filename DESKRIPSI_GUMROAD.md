@@ -56,7 +56,23 @@ Baris poin tidak perlu diapa-apakan. Jangan pakai Heading 1 — judul produk sud
 | Bertahan Hidup di Masa Depan (ID) | `/copy/id` | 473 halaman, 152 sumber |
 | Bundle EN + ID | `/copy/bundle` | 457 + 473 halaman |
 
-**Ganti setelah sampel terbit:** di deskripsi EN dan ID ada baris rujukan ke sampel. Ganti dengan URL produk sampel Anda, mis. `setyowisodo.gumroad.com/l/surviving-the-future-sample`.
+**Ganti setelah sampel terbit:** di deskripsi EN dan ID ada baris rujukan ke sampel. Letaknya **bukan di awal** — ia ada di bagian **IF $45 IS TOO MUCH**, yaitu setelah bagian **WHY $45** dan sebelum **WHO IT IS FOR**, kira-kira 60% ke bawah teks:
+
+```
+IF $45 IS TOO MUCH
+
+Read the free sample first: [link to your free sample product]
+
+35 pages. The full table of contents, ...
+```
+
+Cara cepat menemukannya: klik di dalam kotak Description, lalu **Ctrl+End** (kursor melompat ke ujung teks; baris itu ada di atas bagian WHO IT IS FOR). Blok teks di kurung siku itulah yang diganti, misalnya menjadi:
+
+```
+Read the free sample first: setyowisodo.gumroad.com/l/surviving-the-future-sample
+```
+
+Di edisi ID barisnya berbunyi `Baca sampel gratisnya dulu: [tautan ke produk sampel]`, posisinya sama.
 
 ---
 
