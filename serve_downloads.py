@@ -71,7 +71,8 @@ def build_html(host=""):
 
     parts.append('<h2>Teks deskripsi siap tempel</h2><div class="grid">')
     for slug, t in [("en-plain", "EN — teks polos (paling gampang)"),
-                    ("en", "EN — berformat"), ("sample", "Sampel gratis")]:
+                    ("en", "EN — berformat"), ("sample", "Sampel gratis"),
+                    ("pesan", "Teks pesan penjualan — pesan pribadi, surel dosen, pitch afiliasi")]:
         parts.append(f'<a class="card" href="/copy/{slug}" target="_blank">'
                      f'<div class="meta"><b>{html.escape(t)}</b>'
                      f'<span>{"salin semua teks di halaman ini" if slug == "en-plain" else "buka → Ctrl+A → Ctrl+C → tempel di Description"}</span></div></a>')
@@ -172,7 +173,8 @@ class Handler(BaseHTTPRequestHandler):
         if path.startswith("/copy/"):
             name = path[len("/copy/"):].strip("/").lower()
             fname = {"en": "listing_en.html", "sample": "listing_sample.html",
-                     "en-plain": "listing_en_plain.txt"}.get(name)
+                     "en-plain": "listing_en_plain.txt",
+                     "pesan": "outreach.html"}.get(name)
             full = os.path.join(PUB, "gumroad", "copy", fname or "")
             if fname and os.path.isfile(full):
                 body = open(full, "rb").read()

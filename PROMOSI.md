@@ -124,8 +124,10 @@ Dari $45, afiliasi 30% menyisakan sekitar **$25 bersih** untuk Anda. Lebih baik
 ### 5.3 Gumroad Discover
 
 Biaya 30%, tetapi mendatangkan pembeli yang tidak Anda kenal. Dari $45 Anda
-menerima **$31,50**. Nyalakan setelah ada minimal 5 ulasan — produk tanpa ulasan
-tidak akan dipilih algoritme Discover.
+menerima **$31,50**. Kategori dan tag sudah terisi, tetapi Discover baru
+menampilkan produk setelah ada **satu penjualan berbayar** dan Risk Review
+selesai — dan urutannya berdasarkan biaya yang didapat Gumroad, bukan jumlah
+penjualan. Perlakukan sebagai bonus, bukan rencana.
 
 ### 5.4 Purchasing Power Parity
 
@@ -144,6 +146,19 @@ harga di Amerika dan Eropa.
 
 ## 6. Kalender 30 hari
 
+Teks siap tempel untuk semua langkah di bawah ada di halaman `/copy/pesan` (pesan
+pribadi EN + ID, surel dosen, tawaran afiliasi, dan satu postingan pendek).
+
+**Urutan yang tidak boleh dibalik.** Sampel gratis dulu, baru pesan keluar.
+Mengirim tautan produk tanpa sampel memaksa orang mengambil keputusan $45 tanpa
+bisa membaca satu halaman pun — itu satu-satunya cara memastikan nol penjualan.
+
+**Angka yang masuk akal untuk bulan pertama:** 20 pesan pribadi → 2–3 penjualan;
+10 surel dosen → 1 penjualan atau 1 kelas yang memakai buku; 5 pitch afiliasi →
+0–1 kerja sama. Total 3–4 penjualan sudah melewati ambang payout Gumroad
+($100), yang berarti uangnya benar-benar bisa ditarik, bukan hanya tercatat.
+
+
 | Hari | Tindakan |
 |---|---|
 | **1** | Terbitkan sampel gratis. Salin URL-nya |
@@ -153,7 +168,7 @@ harga di Amerika dan Eropa.
 | **7** | Posting di 3 grup akademik dengan `KAMPUS25` |
 | **10** | Hubungi 5 penulis newsletter untuk afiliasi 30% |
 | **14** | Terbitkan satu bab gratis sebagai tulisan umum, tautkan ke sampel |
-| **21** | Nyalakan Discover (sudah ada ulasan) |
+| **21** | Cek Discover: baru terbuka setelah ada penjualan berbayar + Risk Review. Jangan diandalkan sebagai sumber trafik |
 | **30** | `LAUNCH20` habis sendiri. Jangan diganti kode baru |
 | **30** | Minta ulasan ke semua pembeli lewat satu email |
 
