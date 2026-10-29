@@ -386,8 +386,8 @@ Batas `1` itu penting: kalau lupa, siapa pun yang menebak kode ini bisa mengambi
 1. Buka jendela **incognito** (Ctrl+Shift+N) — supaya tidak memakai sesi akun Anda.
 2. Buka `https://setyowisodo.gumroad.com/l/surviving-the-future`.
 3. Klik **I want this**.
-4. Di halaman bayar, klik tautan **Add discount code** (kadang berbunyi *Have a discount code?*), tempel `TESTSENDIRI`, klik **Apply**.
-5. Total harus berubah menjadi **$0** — bukan $45.
+4. Kolom kode ada di **kolom kiri, tepat di atas bagian tip** — kadang sudah tampil sebagai kotak isian, kadang masih berupa tautan **Add discount code** / *Have a discount code?* yang harus diklik dulu. Kalau tidak terlihat, **gulir ke atas** di halaman itu. Tempel `TESTSENDIRI`, lalu **Apply**.
+5. Total harus berubah menjadi **Rp 0** (halaman ini menampilkan Rupiah karena mata uang terdeteksi; $0 dan Rp 0 sama saja). Kalau total masih Rp 825.129, kodenya belum masuk — jangan lanjut mengisi kartu.
 6. Isi email yang **berbeda** dari email akun Gumroad (mis. Gmail pribadi Anda). Ini bagian inti ujian: stempel akan mencetak email ini.
 7. Selesaikan pembelian. Pada total $0 biasanya tidak perlu nomor kartu.
 
