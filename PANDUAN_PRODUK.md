@@ -369,7 +369,7 @@ Ini satu-satunya cara membuktikan stempel pembeli benar-benar bekerja sebelum ad
 | Kolom | Isi |
 |---|---|
 | Name (internal, tidak dilihat pembeli) | `Test purchase — hapus setelah selesai` |
-| Code | `TESTSENDIRI` |
+| Code | `TESTSENDIRI` — **isi kolom ini**; kalau dibiarkan kosong, Gumroad membuat kode dari kolom Name (saat dicoba 29 Okt, kotak Code terlewat sehingga kode tersimpan menjadi `FIRSTBUYERFREE`) |
 | Discount type | **Percentage** |
 | Amount | `100` |
 | Limit quantity of discounted products | `1` |
