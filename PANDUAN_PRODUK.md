@@ -230,12 +230,31 @@ Klik tab **Content** di atas. Unggah **empat berkas** (tombol *Upload files*):
 
 **Nyalakan toggle "Stamp PDFs with the buyer information"** pada berkas PDF. Tanpa itu tidak ada penanda pembeli sama sekali, dan janji di deskripsi ("The PDF is watermarked with your email address at checkout") menjadi bohong.
 
-Beri nama tiap bagian agar pembeli tahu apa yang dia unduh:
+Nama berkas sudah terisi otomatis dari zip — biarkan apa adanya:
 
-- `01 · The book (PDF, 457 pages)`
-- `02 · The book (EPUB)`
-- `03 · The book (DOCX)`
-- `04 · Figure pack (11 figures, 300 dpi)`
+- `01 - The book (PDF, 457 pages)`
+- `02 - The book (EPUB)`
+- `03 - The book (DOCX)`
+- `04 - Figure pack (11 figures, 300 dpi)`
+
+**Description tiap berkas (opsional, tapi membantu pembeli di pustaka mereka):**
+
+| Berkas | Description |
+|---|---|
+| PDF | `The complete book: cover, 457 numbered pages, 327 bookmarks, table of contents and index. Stamped with your purchase details at checkout.` |
+| EPUB | `For phones, tablets and e-readers. All 24 chapters and 11 figures, reflowable text.` |
+| DOCX | `Editable manuscript, A4, Times New Roman 12 pt — for quoting, excerpting or translating passages.` |
+| ZIP | `Eleven figures at 300 dpi with captions and source lines. Cleared for use in your own slides, lectures and reports; please credit the book.` |
+
+**ISBN: kosongkan.** Buku ini belum punya ISBN terdaftar, dan mengarang nomor justru merusak data perpustakaan. Kalau nanti ingin ISBN (untuk katalog perpustakaan atau toko ritel), Perpustakaan Nasional RI menerbitkannya gratis; setelah itu baru isi kolom ini.
+
+**Toggle per berkas:**
+
+| Toggle | PDF | EPUB/DOCX/ZIP |
+|---|---|---|
+| Stamp this PDF with buyer information | **NYALA** | tidak ada |
+| Show "Send to Kindle" and "Read" buttons | nyala (berguna untuk PDF & EPUB) | nyala |
+| Disable file downloads | **MATI** | **MATI** |
 
 > **Jangan unggah** `*_cover_print.pdf` — itu bungkus cetak untuk percetakan, bukan buku. **Jangan juga** `*_interior.pdf` untuk pembeli: berkas itu untuk percetakan, halaman pertamanya halaman judul teks tanpa sampul. Yang dijual adalah `*_ebook.pdf`. Jangan beri kata sandi pada PDF — Gumroad tidak bisa menstempel berkas terkunci.
 
