@@ -3,7 +3,8 @@
 > **Mandat:** membuat aset visual yang layak dipakai brand kopi premium — tanpa menunggu fotografer.
 > **Pemilik:** owner (merekam klip mentah) + agent (aset desain & video).
 > **Waktu:** 20 menit/minggu (rekam) + 5 menit (jalankan generator).
-> **Berkas kerja:** `data/kreatif.json` (manifest) · `konten/` (hasil) · `tools/kreatif.py` · `tools/brandkit.py` · `brand/`.
+> **Berkas kerja:** `data/kreatif.json` (manifest) · `konten/` (hasil) · `riset/brief/` (brief dari D3) · `tools/kreatif.py` · `tools/brandkit.py` · `brand/`.
+> **Skill:** [`skills/social-media-riset`](../../skills/social-media-riset/SKILL.md#alur-kerja) — bagian akhirnya menghasilkan brief; brief itu yang jadi **daftar rekam** D4, bukan daftar keinginan.
 > **Target & KPI:** `data/divisi.json` (D4).
 
 D4 memegang dua hal yang sering dianggap sama padahal berbeda:
@@ -15,6 +16,9 @@ Yang kedua tidak menggantikan yang pertama — ia menjaga ritme saat klip mentah
 ## 1. Alur kerja inti — dari klip mentah ke aset siap tayang
 
 ```
+[0] Brief dari riset (D3) — pola yang naik + sudut kita + aset yang diminta
+        │        riset/brief/brief-NN-*.md
+        ▼
 [1] Produksi (D1) berjalan
         │
         ├── owner merekam 8–10 klip (30–60 detik, vertikal, tanpa wajah)
@@ -46,6 +50,7 @@ Yang kedua tidak menggantikan yang pertama — ia menjaga ritme saat klip mentah
 | `tools/kreatif.py` | video 9:16 dari teks + label produk, poster, carousel, story, hub | **tidak** merekam dunia nyata; tidak ada footage sangrai asli |
 | `tools/brandkit.py` | label 70×100 mm @300 dpi, OG image, sheet A4, logo | butuh data batch & tanggal sangrai yang benar |
 | `tools/kampanye.py` | landing page kampanye dari katalog + manifest | harga & klaim ikut berkas; kalau berkas salah, halaman salah |
+| `tools/riset.py` | analisis outlier, pola hook, brief konten | **tidak** mengambil data dari internet; isi CSV manual |
 
 **Aturan jujur:** setiap video render diberi keterangan "dirender dari data", bukan "dokumentasi asli".
 Kalau owner punya footage asli, footage asli **selalu menang** — render hanya jaring pengaman ritme.
@@ -74,6 +79,7 @@ yang jadwalnya hari ini tapi belum dijadwalkan D3? Kalau ada, beri tahu D3.
 ### Mingguan — 40 menit
 | Menit | Kegiatan | Output |
 | --- | --- | --- |
+| 10 | Baca brief di `riset/brief/`; pilih maksimal 3 yang asetnya bisa dikerjakan minggu ini | daftar rekam |
 | 20 | Rekam 8–10 klip saat produksi/packing (tanpa menghentikan pekerjaan) | klip mentah |
 | 5 | Pilih 5 klip, tulis hook 1 baris | daftar hook |
 | 5 | `python3 tools/kreatif.py` → render aset | `konten/*` + manifest |
@@ -98,6 +104,7 @@ Dari `data/divisi.json` → D4.
 | Carousel jadi | 4 | 6 | 8 | item `id` berawalan `carousel` | naik |
 | Aset siap tayang | 12 | 18 | 24 | seluruh item manifest | naik |
 | Klip mentah / bulan | 30 | 40 | 50 | dihitung manual saat merekam, dicatat mingguan | naik |
+| Brief dari riset | 4 | 8 | 12 | item `brief` di `riset/data.json` | naik |
 
 Pendukung: aset baru per minggu 3 → 4 → 5; waktu produksi 1 video ≤ 45 → 30 → 25 menit.
 "Klip mentah" belum punya berkas pencatat — sampai ada, isinya tampil sebagai **tanpa data** di papan
@@ -114,6 +121,22 @@ Pendukung: aset baru per minggu 3 → 4 → 5; waktu produksi 1 video ≤ 45 →
 | Satu bulan | video & carousel mencapai target; folder `konten/` < 12 MB |
 | Satu kampanye | aset kampanye + landing page sinkron dengan harga katalog |
 
+## 4b. Memakai brief riset (jangan mengarang arah sendiri)
+
+`tools/riset.py` menulis `riset/brief/brief-NN-*.md`. Tiap brief memuat pola yang naik, sudut
+untuk Nocturne, hook versi kita, aset yang dipakai, bukti yang wajib tampil, dan larangan.
+
+| Langkah | Aturan |
+| --- | --- |
+| Pilih brief | maksimal 3 per minggu; utamakan yang asetnya sudah `siap` di manifest |
+| Ubah jadi shot list | 3–5 klip per brief; tulis di kertas sebelum merekam |
+| Aset baru | tambah ke `data/kreatif.json` dengan judul, platform, rasio, jadwal, status `siap` |
+| Brief selesai | tandai `dipakai` di `riset/data.json` lewat `tools/riset.py` berikutnya; hapus berkasnya dari `riset/brief/` bila sudah usang |
+| Tidak pakai brief | tulis alasannya satu baris — "tidak cocok karena X" |
+
+**Jangan** mengambil hook, footage, audio, atau desain milik akun yang dianalisis. Yang diambil pola.
+Angka yang tampil di konten harus berasal dari `batch-qc.csv`, `catalog.json`, atau `pesanan.csv`.
+
 ## 5. Serah terima
 
 | Dari | Kepada | Apa |
@@ -121,6 +144,7 @@ Pendukung: aset baru per minggu 3 → 4 → 5; waktu produksi 1 video ≤ 45 →
 | D1 | D4 | angka batch, tanggal sangrai, skor (bahan teks video) |
 | D7 | D4 | aturan klaim & izin (mana yang boleh ditampilkan) |
 | D4 | D3 | aset siap + manifest + caption |
+| D3 (riset) | D4 | brief: pola, sudut, aset yang harus dibuat |
 | D4 | D2 | poster/label baru untuk katalog & marketplace |
 
 ## 6. Jebakan
@@ -130,3 +154,5 @@ Pendukung: aset baru per minggu 3 → 4 → 5; waktu produksi 1 video ≤ 45 →
 3. **Menyimpan video berat di repo.** Repo bukan CDN. Batasi durasi & bitrate; arsipkan selebihnya.
 4. **Mengubah token brand di aset.** Palet & huruf mengikuti brief; konsistensi adalah aset itu sendiri.
 5. **Menumpuk 40 aset tanpa pernah tayang.** Aset yang tidak terbit = nol, bukan setengah.
+6. **Merekam tanpa brief.** Rekaman tanpa arah menghasilkan 10 klip yang tidak dipakai minggu mana pun.
+7. **Menyalin gaya visual akun lain.** Yang boleh dipelajari adalah pola hook & format; identitas visual kita tetap milik brief.

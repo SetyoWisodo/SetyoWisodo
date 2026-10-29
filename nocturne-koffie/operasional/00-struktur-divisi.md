@@ -10,6 +10,10 @@ Semua divisi dijalankan dari satu papan: `python3 tools/papan.py` → `dashboard
 [`divisi/`](divisi/) → `D1-produksi-qc.md` … `D7-brand-legal.md`.
 Target angkanya hidup di `data/divisi.json` — bukan di dokumen.
 
+**Skill riset (D3 + D4):** [`skills/`](../skills/README.md) — `social-media-riset`,
+`komentar-mining`, `search-intent-riset`. Sumber data `data/riset-*.csv`, mesin analisis
+`tools/riset.py`, keluaran `riset/` (dasbor, swipe file, brief).
+
 ---
 
 ## 1. Tujuh divisi
@@ -18,8 +22,8 @@ Target angkanya hidup di `data/divisi.json` — bukan di dokumen.
 | --- | --- | --- | --- | --- |
 | D1 | **Produksi & QC** | Pilih green bean, jadwalkan sangrai, cicipi tiap batch, putuskan lolos/tolak, catat batch | Owner + mitra Ais | `data/batch-qc.csv`, `data/stok-lot.json` |
 | D2 | **Penjualan & CRM** | Balas WhatsApp, konfirmasi order, follow-up, langganan, pipeline B2B | Owner | `data/pesanan.csv`, `komersial/pipeline-b2b.csv` |
-| D3 | **Marketing & Pertumbuhan** | Pilih & jadwalkan konten, tulis caption, kelola marketplace & kampanye, ukur hasil | Owner dibantu agent | `data/konten-14hari.csv`, `data/kpi.csv` |
-| D4 | **Kreatif & Media** | Rekam klip mentah, render aset (video/carousel/story), jaga standar visual | Owner (rekam) + agent (aset) | `tools/kreatif.py`, `data/kreatif.json`, `konten/` |
+| D3 | **Marketing & Pertumbuhan** | Riset konten sejenis & kata kunci, pilih & jadwalkan konten, tulis caption, kelola marketplace & kampanye, ukur hasil | Owner dibantu agent | `data/konten-14hari.csv`, `data/kpi.csv`, `data/riset-*.csv` |
+| D4 | **Kreatif & Media** | Kerjakan brief riset, rekam klip mentah, render aset (video/carousel/story), jaga standar visual | Owner (rekam) + agent (aset) | `tools/kreatif.py`, `data/kreatif.json`, `konten/`, `riset/brief/` |
 | D5 | **Operasional & Logistik** | Packing, ongkir, kirim, resi, retur, opname kemasan | Owner | `data/pesanan.csv` |
 | D6 | **Keuangan** | Catat kas, hitung HPP & margin, jaga harga, break-even | Owner | `data/biaya.json`, papan |
 | D7 | **Brand & Legal** | Konsistensi klaim, aset brand, dokumen usaha, izin petani & mitra | Owner | `data/legal.json`, brief 11.8 |
@@ -47,6 +51,8 @@ keputusan berhenti di D1; D2 hanya menerima kabar "stok varian ini kosong minggu
 | Order diterima / ditolak (stok habis) | D2 | D1 | D5 |
 | Ongkir & kurir | D5 | D2 | — |
 | Aset mana yang tayang | D3 | D7 | D4 |
+| Pola riset yang dipakai | D3 | D4, D7 | D2 |
+| Data referensi dianggap `asli`? | D3 (diperiksa owner) | — | D4 |
 | Standar visual & format aset | D4 | D7 | D3 |
 | Klaim di situs, IG, marketplace | D7 | D3, D4 | semua |
 | Nama petani tayang | D7 | D1 | D3, D4 |
@@ -75,6 +81,7 @@ keputusan berhenti di D1; D2 hanya menerima kabar "stok varian ini kosong minggu
 | Kamis | 30 mnt cupping + gerbang klaim aset minggu depan | D1 → D7 | Status SKU akurat, aset lolos/ditahan |
 | Jumat | 30 mnt keuangan: kas, margin, tagihan | D6 | Baris KPI minggu ini |
 | Sabtu | 40 mnt packing + kirim + opname kemasan | D5 | Semua order terkirim |
+| Sabtu | 15 mnt tambah 5 baris referensi + 3 komentar (`data/riset-*.csv`) | D3 | Riset minggu depan siap |
 | Sabtu | 20 mnt render aset minggu depan (`tools/kreatif.py`) | D4 | `data/kreatif.json` diperbarui |
 | Minggu | 30 mnt review papan + rencana minggu depan | owner | 3 prioritas minggu depan |
 
@@ -130,6 +137,7 @@ Papan membaca 9 berkas dan menghitung sendiri:
 | --- | --- | --- |
 | Perlu keputusan hari ini | semua | urutan kerja hari ini (kritis dulu) |
 | **Target divisi** | `divisi.json` + semua | divisi mana yang tertinggal bulan ini |
+| **Riset** | `riset/data.json` | pola mana yang dipakai minggu ini, celah kata kunci |
 | Tujuh divisi | hitungan | siapa yang harus bergerak |
 | Jadwal konten | `konten-14hari.csv` | posting atau tayangkan aset siap |
 | Aset siap tayang | `kreatif.json` | aset mana yang belum dijadwalkan |
@@ -151,6 +159,7 @@ Papan membaca 9 berkas dan menghitung sendiri:
 | Chat belum dibalas > 6 jam | Prioritaskan; potensi closing turun tajam | segera |
 | Klaim di konten melanggar brief 11.8 | Hapus/revisi dalam 1 jam; catat penyebabnya | 1 jam |
 | Aset dirender dengan data yang salah | Tarik aset, perbaiki berkas sumber, render ulang | hari yang sama |
+| Riset memakai baris `contoh` sebagai dasar keputusan | Tandai batal; isi baris `asli` atau tunda keputusan | hari yang sama |
 | Mitra sangrai tidak bisa produksi | Aktifkan mitra cadangan (jangan diumumkan di situs) | 3 hari |
 
 ---
@@ -164,3 +173,5 @@ Papan membaca 9 berkas dan menghitung sendiri:
 5. Mengubah harga di satu tempat tanpa mengubah `data/biaya.json` dan papan.
 6. Menayangkan aset yang belum lewat gerbang klaim D7.
 7. Mengetik angka target di dokumen — target hanya di `data/divisi.json`.
+8. Menyalin konten, hook, footage, atau audio milik akun lain — yang diambil hanya pola.
+9. Memakai angka kompetitor sebagai klaim kita di konten atau halaman jual.

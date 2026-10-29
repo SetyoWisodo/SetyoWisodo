@@ -19,6 +19,8 @@ nocturne-koffie/
 ├── data/catalog.json             ← SATU-SATUNYA file yang perlu diubah rutin
 ├── brand/                        logo SVG, OG card, 9 label kantong + lembar A4, brand kit
 ├── komersial/                    harga grosir 4 tingkat, penawaran B2B, pipeline prospek
+├── skills/                       3 skill riset: sosial media, komentar, mesin pencari (SKILL.md)
+├── riset/                        dasbor riset, swipe file, brief konten (hasil generate)
 ├── operasional/                  7 divisi: struktur, alur kerja + target per divisi
 │   ├── divisi/                   D1…D7 — satu berkas per divisi
 │   └── arsip/                    SOP versi 6 divisi (rujukan sejarah, tidak dipakai)
@@ -29,6 +31,7 @@ nocturne-koffie/
 ├── tools/komersial.py            generator harga grosir + penawaran B2B
 ├── tools/kreatif.py              generator video 9:16, carousel, story, hub konten
 ├── tools/kampanye.py             generator landing page kampanye
+├── tools/riset.py                analisis konten ramai, komentar, kata kunci → brief
 ├── dashboard/index.html          papan harian hasil generate (jangan diedit manual)
 ├── panduan/PANDUAN-LANDING-PAGE.md
 ├── panduan/07-sistem-motion.md
@@ -47,6 +50,8 @@ python3 tools/komersial.py         # buat ulang harga grosir + penawaran B2B
 python3 tools/kreatif.py           # render 5 video + carousel + story (butuh ffmpeg)
 python3 tools/kreatif.py --cepat    # hanya gambar (tanpa encode video)
 python3 tools/kampanye.py          # buat ulang landing kampanye dari katalog + manifest
+python3 tools/riset.py             # analisis riset → riset/index.html + swipe file + brief
+python3 tools/riset.py --cek       # ringkasan riset tanpa menulis berkas
 ```
 
 `tools/kreatif.py` butuh ffmpeg. Di sandbox: `pip install --break-system-packages imageio-ffmpeg`
@@ -55,6 +60,7 @@ dan itu dilaporkan di keluaran terminal serta di `data/kreatif.json` → `video_
 
 Halaman yang perlu dibuka: `/` (situs) · `/dashboard/` (papan harian) ·
 `/kampanye/` (landing kampanye konten) · `/konten/` (hub aset, `noindex`) ·
+`/riset/` (dasbor riset konten & kata kunci, `noindex`) ·
 `/brand/` (brand kit) · `/komersial/penawaran-b2b.html` (proposal B2B).
 
 Harus lewat server — katalog dimuat dengan `fetch`, dan `file://` akan diblokir browser.
@@ -97,6 +103,9 @@ Tanpa dependensi, tanpa server tambahan.
 | `data/legal.json` | status dokumen usaha | D7 |
 | `data/divisi.json` | **target & KPI 7 divisi, 3 bulan** — satu-satunya tempat angka target | owner |
 | `data/kreatif.json` | manifest aset konten (video/carousel/story, status tayang) | D4 |
+| `data/riset-referensi.csv` | tangkapan post sejenis (hook, format, metrik) — `status` contoh/asli | D3 |
+| `data/riset-komentar.csv` | kutipan komentar pembeli → keberatan & FAQ | D3 |
+| `data/riset-kata-kunci.csv` | kata kunci Google/marketplace/TikTok + halaman target | D3 |
 
 Yang dihitung otomatis: margin tiap ukuran, HPP, break-even, sisa bungkus per SKU
 (dari green bean × yield; blend dari komponennya), order terlambat, resi kosong,
@@ -151,6 +160,10 @@ menunggu konfirmasi pemilik." Jangan dihapus sebelum beres.
 | `brand/README.md` | brand kit: logo, label 70×100 mm, aturan cetak & pemakaian logo |
 | `komersial/01-panduan-grosir.md` | 4 tingkat harga grosir, aturan margin, alur jual B2B |
 | `marketing/08-konten-siap-pakai.md` | 7 post + 3 skrip TikTok + 9 judul marketplace siap salin |
+| `skills/README.md` | **3 skill riset** (social-media-riset, komentar-mining, search-intent-riset) + aturan etika & bukti |
+| `skills/social-media-riset/SKILL.md` | outlier post, baseline median, taksonomi hook, swipe file, brief |
+| `skills/komentar-mining/SKILL.md` | bahasa pembeli → keberatan/FAQ/copy, aturan kutipan ≤ 24 kata |
+| `skills/search-intent-riset/SKILL.md` | Google/marketplace/TikTok/mesin jawaban AI, prioritas & celah halaman |
 | `marketing/09-media-kreator.md` | **playbook konten media kreator**: pipeline aset, bank 12 hook, jadwal, 3 angka ukur, aturan caption |
 | `operasional/00-struktur-divisi.md` | 7 divisi, RACI, ritme harian/mingguan, cara membaca tabel target |
 | `operasional/divisi/README.md` | indeks 7 divisi + cara mengubah target di `data/divisi.json` |

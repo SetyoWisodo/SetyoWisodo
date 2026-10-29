@@ -325,7 +325,7 @@ def bulan_ke(periode, hari_ini):
 
 
 def hitung_aktual(catalog, pesanan, batch, konten, kpi_last, stok, qc, proses, resi,
-                  legal, kreatif, margin_stats, hari_ini):
+                  legal, kreatif, margin_stats, hari_ini, riset=None):
     """Satu nilai per kunci KPI di data/divisi.json. None = belum ada datanya."""
     sejak30 = hari_ini - timedelta(days=30)
     bulan_ini = [(p) for p in pesanan
@@ -365,8 +365,12 @@ def hitung_aktual(catalog, pesanan, batch, konten, kpi_last, stok, qc, proses, r
 
     legal_selesai = sum(1 for x in legal if (x.get("status") or "").lower() in ("selesai", "ada", "done"))
 
+    riset = riset or {}
     return {
         "_jendela": (jendela, ""),
+        "riset_referensi": (riset.get("referensi_asli"), "post"),
+        "riset_kata_kunci": (riset.get("kata_kunci"), "frasa"),
+        "brief_riset": (len(riset.get("brief") or []), "brief"),
         "_aset_dibuat": ((kreatif or {}).get("dibuat"), ""),
         "batch_bulan": (len(batch_bulan), "batch"),
         "batch_ditolak_pct": (round(pct_ditolak, 1) if pct_ditolak is not None else None, "%"),
@@ -677,6 +681,38 @@ def render(ctx):
                      f'<td><span class="pill {"ok" if a.get("status") == "tayang" else "dim"}">{a.get("status")}</span></td></tr>')
         o.append('</table></section>')
 
+    if ctx.get("riset"):
+        r = ctx["riset"]
+        top = r.get("outlier_teratas") or {}
+        pola = (r.get("pola") or [{}])[0]
+        celah = r.get("celah") or []
+        o.append('<section><h2>Riset — konten ramai &amp; kata kunci</h2>')
+        o.append(f'<div class="legend">Sumber <code>data/riset-referensi.csv</code> + '
+                 f'<code>data/riset-kata-kunci.csv</code> · dibuat {r.get("dibuat", "—")} · '
+                 f'confidence <b>{r.get("confidence", "—")}</b> '
+                 f'({r.get("referensi_asli", 0)} baris asli, {r.get("referensi_contoh", 0)} contoh). '
+                 f'Buka <a href="../riset/index.html">dasbor riset</a> · '
+                 f'<a href="../riset/swipe-file.md">swipe file</a> · '
+                 f'<a href="../skills/README.md">skills</a>.</div>')
+        o.append('<div class="grid">')
+        o.append(f'<div class="card"><h3>Outlier teratas</h3>'
+                 f'<div class="owner">{top.get("platform", "—")} · {top.get("format", "—")}</div>'
+                 f'<p style="margin:8px 0 0;font-size:13.5px">“{top.get("hook", "—")}”</p>'
+                 f'<div class="next">lift <b>{top.get("lift", 0):.1f}×</b> · ER {top.get("er", 0):.1f}% · '
+                 f'status data {top.get("status", "—")}</div></div>')
+        o.append(f'<div class="card"><h3>Pola dominan</h3>'
+                 f'<div class="owner">{pola.get("nama", "—")} · {pola.get("n", 0)} post</div>'
+                 f'<p style="margin:8px 0 0;font-size:13.5px">Sudut kita: <b>{pola.get("sudut", "—")}</b></p>'
+                 f'<div class="next">lift median {pola.get("lift_median", 0):.1f}× · '
+                 f'{len(r.get("brief") or [])} brief siap dikerjakan D4</div></div>')
+        o.append(f'<div class="card"><h3>Kata kunci</h3>'
+                 f'<div class="owner">{r.get("kata_kunci", 0)} frasa · '
+                 f'{r.get("persen_tercakup", 0)}% dijawab halaman</div>'
+                 f'<p style="margin:8px 0 0;font-size:13.5px">'
+                 + (", ".join(c.get("kata_kunci", "") for c in celah[:3]) if celah else "Tidak ada celah tercatat")
+                 + f'</p><div class="next">Prioritas: perbaiki halaman yang sudah ada sebelum membuat halaman baru.</div></div>')
+        o.append('</div></section>')
+
     o.append('<section><h2>Penjualan — pesanan perlu diproses</h2>')
     if ctx["proses"]:
         o.append('<table><tr><th>Nomor</th><th>Tanggal</th><th>Nama</th><th>Produk</th><th>Ukuran</th><th class="num">Qty</th><th class="num">Total</th><th>Status</th><th class="num">Umur</th></tr>')
@@ -777,6 +813,7 @@ def render(ctx):
     <a href="../komersial/penawaran-b2b.html">penawaran B2B</a> ·
     <a href="../komersial/harga-grosir.csv">harga grosir</a> ·
     <a href="../konten/index.html">hub konten</a> ·
+    <a href="../riset/index.html">dasbor riset</a> ·
     <a href="../operasional/00-struktur-divisi.md">struktur divisi</a></span>
   <span>Angka biaya di <code>data/biaya.json</code> masih <b>asumsi</b> — ganti dengan angka nyata.</span>
 </footer></div></body></html>""")
@@ -825,12 +862,14 @@ def main():
 
     peringatan = susun_peringatan(stok, margin, proses, resi, follow, konten_telat, qc, legal, pipeline)
     kreatif = baca_json(D("kreatif.json"), {})
+    riset = baca_json(D("riset.json"), {}) if os.path.exists(D("riset.json")) else baca_json(
+        os.path.join(ROOT, "riset", "data.json"), {})
 
     kritis = sum(1 for s in stok if s["beda_status"] or s["status_hitung"] == "habis")
     margin_stats = {"terburuk": rata_margin, "break_even": break_even["order_per_bulan"],
                     "biaya_tetap": biaya_tetap}
     aktual = hitung_aktual(catalog, pesanan, batch, konten, kpi_last, stok, qc, proses, resi,
-                           legal, kreatif, margin_stats, hari_ini)
+                           legal, kreatif, margin_stats, hari_ini, riset)
     target_divisi, label_bulan = susun_target_divisi(divisi_json, aktual, hari_ini)
     jendela_data = aktual.get("_jendela", ("bulan berjalan", ""))[0]
     divisi = {
@@ -893,7 +932,7 @@ def main():
         "stok": stok, "margin": margin, "qc": qc, "legal": legal, "pipeline": pipeline,
         "break_even": break_even, "rata_margin": rata_margin,
         "target_divisi": target_divisi, "label_bulan": label_bulan, "kreatif": kreatif,
-        "jendela_data": jendela_data,
+        "jendela_data": jendela_data, "riset": riset,
     }
 
     if args.json:

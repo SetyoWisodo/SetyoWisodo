@@ -144,6 +144,20 @@
           "satuan": "akun",
           "arah": "naik",
           "target": [300, 800, 1500]
+        },
+        {
+          "nama": "Referensi kompetitor dianalisis",
+          "kunci": "riset_referensi",
+          "satuan": "post",
+          "arah": "naik",
+          "target": [20, 40, 60]
+        },
+        {
+          "nama": "Kata kunci terpetakan",
+          "kunci": "riset_kata_kunci",
+          "satuan": "frasa",
+          "arah": "naik",
+          "target": [12, 24, 36]
         }
       ],
       "target_tambahan": {
@@ -195,6 +209,13 @@
           "satuan": "klip",
           "arah": "naik",
           "target": [30, 40, 50]
+        },
+        {
+          "nama": "Brief dari riset",
+          "kunci": "brief_riset",
+          "satuan": "brief",
+          "arah": "naik",
+          "target": [4, 8, 12]
         }
       ],
       "target_tambahan": {

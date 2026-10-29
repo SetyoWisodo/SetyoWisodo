@@ -1,0 +1,161 @@
+{
+  "dibuat": "2026-10-29",
+  "referensi": 27,
+  "referensi_asli": 0,
+  "referensi_contoh": 27,
+  "confidence": "belum ada data asli",
+  "outlier_teratas": {
+    "tanggal": "2026-10-12",
+    "platform": "tiktok",
+    "akun": "(contoh) akun kopi spesialti ID",
+    "url": "",
+    "format": "reel",
+    "hook": "Kopi Rp50 ribu vs Rp150 ribu — bedanya di mana?",
+    "topik": "banding-harga",
+    "detik": 21.0,
+    "views": 412000.0,
+    "interaksi": 24640.0,
+    "simpan": 3100.0,
+    "komentar_n": 940.0,
+    "followers": 48000.0,
+    "status": "contoh",
+    "catatan": "format duel harga; teks besar di 1 detik pertama",
+    "er": 5.980582524271845,
+    "simpan_rate": 0.7524271844660194,
+    "reach_rate": 858.3333333333334,
+    "baseline": 142000.0,
+    "baseline_n": 10,
+    "baseline_tingkat": "akun",
+    "lift": 2.9014084507042255,
+    "label": "outlier kuat",
+    "hook_kategori": "banding",
+    "hook_semua": [
+      "banding",
+      "harga",
+      "angka"
+    ],
+    "hindari": []
+  },
+  "pola": [
+    {
+      "nama": "Diagnosis masalah",
+      "n": 1,
+      "lift_median": 2.25,
+      "sudut": "Diagnosis masalah"
+    },
+    {
+      "nama": "Perbandingan A vs B",
+      "n": 2,
+      "lift_median": 2.24,
+      "sudut": "Perbandingan jujur"
+    },
+    {
+      "nama": "Larangan / peringatan",
+      "n": 1,
+      "lift_median": 1.83,
+      "sudut": "Larangan yang bisa dibuktikan"
+    },
+    {
+      "nama": "Angka / daftar",
+      "n": 1,
+      "lift_median": 1.83,
+      "sudut": "Angka + daftar"
+    },
+    {
+      "nama": "Pengakuan / biaya nyata",
+      "n": 1,
+      "lift_median": 1.66,
+      "sudut": "Pengakuan biaya"
+    }
+  ],
+  "komentar": 12,
+  "komentar_rekap": [
+    {
+      "jenis": "pertanyaan",
+      "n": 5,
+      "contoh": "pahitnya karena gilingan atau suhu air?"
+    },
+    {
+      "jenis": "keberatan",
+      "n": 2,
+      "contoh": "saya simpan di kulkas malah berbau kulkas"
+    },
+    {
+      "jenis": "harga",
+      "n": 2,
+      "contoh": "ada yang harganya di bawah 50 ribu?"
+    },
+    {
+      "jenis": "permintaan",
+      "n": 2,
+      "contoh": "kafe saya butuh 10 kg per bulan, bisa?"
+    },
+    {
+      "jenis": "pujian",
+      "n": 1,
+      "contoh": "ini gue banget, grinder murah bikin pahit"
+    }
+  ],
+  "kata_kunci": 12,
+  "persen_tercakup": 58,
+  "persen_persis": 0,
+  "celah": [
+    {
+      "kata_kunci": "kopi 250 gram murah",
+      "prioritas": 1.4,
+      "halaman": "",
+      "cakupan": "belum ada halaman"
+    },
+    {
+      "kata_kunci": "rekomendasi kopi untuk pemula",
+      "prioritas": 1.07,
+      "halaman": "kampanye/index.html",
+      "cakupan": "belum"
+    },
+    {
+      "kata_kunci": "kopi robusta 1 kg harga",
+      "prioritas": 0.9,
+      "halaman": "komersial/harga-grosir.csv",
+      "cakupan": "belum"
+    },
+    {
+      "kata_kunci": "cara menyimpan kopi",
+      "prioritas": 0.8,
+      "halaman": "",
+      "cakupan": "belum ada halaman"
+    },
+    {
+      "kata_kunci": "kopi tubruk enak",
+      "prioritas": 0.8,
+      "halaman": "",
+      "cakupan": "belum ada halaman"
+    }
+  ],
+  "brief": [
+    {
+      "no": 1,
+      "judul": "Diagnosis masalah",
+      "aset": "reel-tanggal-sangrai"
+    },
+    {
+      "no": 2,
+      "judul": "Perbandingan jujur",
+      "aset": "carousel-02a"
+    },
+    {
+      "no": 3,
+      "judul": "Larangan yang bisa dibuktikan",
+      "aset": "carousel-01a"
+    },
+    {
+      "no": 4,
+      "judul": "Angka + daftar",
+      "aset": "carousel-01c"
+    },
+    {
+      "no": 5,
+      "judul": "Pengakuan biaya",
+      "aset": "reel-batch-ditolak"
+    }
+  ]
+}
