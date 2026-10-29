@@ -385,12 +385,12 @@ SAMPLE = dict(
     render="Surviving_the_Future_EN_3d_transparent.png",
     kicker="Free sample",
     title="Read the first chapter",
-    sub="35 of 457 pages, free",
+    sub="36 of 458 pages, free",
     blurb="Full table of contents, the preface, all of Chapter 1, and one data spread. "
           "No email wall on the download itself.",
     stats=[("35", "pages"), ("1", "chapter"), ("0", "cost")],
     thumb_title="Free sample",
-    thumb_foot="35 pages  \u00b7  free",
+    thumb_foot="36 pages  \u00b7  free",
 )
 
 

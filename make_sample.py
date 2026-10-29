@@ -29,7 +29,8 @@ MUTED = (0.62, 0.68, 0.75)
 
 ED = [
     dict(
-        src=os.path.join(PUB, "Surviving_the_Future_EN_ebook.pdf"),
+        src=os.path.join(PUB, "Surviving_the_Future_EN_interior.pdf"),
+        cover=os.path.join(PUB, "Surviving_the_Future_EN_cover_front.jpg"),
         out=os.path.join(PUB, "Surviving_the_Future_EN_sample.pdf"),
         pages=[*range(1, 33)],        # 1-based, inklusif; halaman gambar dicari otomatis
         lang="en",
@@ -55,7 +56,8 @@ ED = [
               "individual who bought it and may not be redistributed.",
     ),
     dict(
-        src=os.path.join(PUB, "Bertahan_Hidup_di_Masa_Depan_ID_ebook.pdf"),
+        src=os.path.join(PUB, "Bertahan_Hidup_di_Masa_Depan_ID_interior.pdf"),
+        cover=os.path.join(PUB, "Bertahan_Hidup_di_Masa_Depan_ID_cover_front.jpg"),
         out=os.path.join(PUB, "Bertahan_Hidup_di_Masa_Depan_ID_sample.pdf"),
         pages=[*range(1, 35)],
         lang="id",
@@ -118,7 +120,8 @@ def closing_page(doc, cfg, page_w, page_h):
     y += 34
 
     # kalimat "berapa yang sudah dibaca"
-    page.insert_text((m, y), cfg["read_line"].format(n=len(cfg["pages"]), total=cfg["total"]),
+    read = len(cfg["pages"])
+    page.insert_text((m, y), cfg["read_line"].format(n=read, total=cfg["total"]),
                      fontname="si", fontsize=13.5, color=IVORY)
     y += 40
 
@@ -167,18 +170,22 @@ def figure_pages(src, start):
 
 
 def build(cfg):
+    # Sumber tetap PDF interior (keluaran fpdf2): salinan halamannya tidak
+    # menggandakan objek gambar. Sampul ditambahkan sebagai halaman baru
+    # dengan satu gambar, bukan dengan menyalin halaman dari edisi digital.
     src = pymupdf.open(cfg["src"])
-    cfg["total"] = src.page_count          # jumlah halaman edisi lengkap, bukan angka tetap
+    cfg["total"] = src.page_count
     cfg["pages"] = cfg["pages"] + figure_pages(src, len(cfg["pages"]) + 1)
     out = pymupdf.open()
     pw, ph = src[0].rect.width, src[0].rect.height
 
+    cover = out.new_page(width=pw, height=ph)
+    cover.insert_image(cover.rect, filename=cfg["cover"], keep_proportion=True)
+
     for pno in cfg["pages"]:
         out.insert_pdf(src, from_page=pno - 1, to_page=pno - 1)
 
-    for i, page in enumerate(out):
-        if i == 0:          # halaman sampul: tanpa catatan kaki
-            continue
+    for page in list(out)[1:]:      # halaman sampul tanpa catatan kaki
         sample_footer(page, cfg, pw)
 
     closing_page(out, cfg, pw, ph)
@@ -192,10 +199,10 @@ def build(cfg):
         "producer": "fpdf2",
     })
     out.set_toc([])                     # sampel tanpa bookmark penuh
-    out.save(cfg["out"], garbage=3, deflate=True)
+    n = out.page_count      # sampul + halaman buku + halaman penutup
+    out.save(cfg["out"], garbage=4, deflate=True)
     out.close()
     src.close()
-    n = len(cfg["pages"]) + 1
     print("  -> %s  (%d halaman)" % (os.path.relpath(cfg["out"], HERE), n))
 
 

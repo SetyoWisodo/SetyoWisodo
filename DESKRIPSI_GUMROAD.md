@@ -63,7 +63,7 @@ IF $45 IS TOO MUCH
 
 Read the free sample first: [link to your free sample product]
 
-35 pages. The full table of contents, ...
+The full table of contents, ...
 ```
 
 Cara cepat menemukannya: klik di dalam kotak Description, lalu **Ctrl+End** (kursor melompat ke ujung teks; baris itu ada di atas bagian WHO IT IS FOR). Blok teks di kurung siku itulah yang diganti, misalnya menjadi:

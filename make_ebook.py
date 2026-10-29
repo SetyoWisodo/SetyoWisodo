@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
-"""Edisi digital: sampul berwarna sebagai halaman pertama.
+"""Edisi digital: sampul berwarna sebagai halaman pertama, halaman judul tetap.
 
-Halaman 1 file interior adalah halaman judul tipografis (teks saja, tanpa
-gambar). Pembeli yang mengunduh PDF melihat halaman teks sebagai halaman
-pertama, dan kesannya seperti naskah yang belum selesai — bukan buku.
+Halaman 1 file interior adalah halaman judul tipografis (teks saja). Pembeli
+yang membukanya melihat teks polos lebih dulu, jadi kesannya naskah, bukan buku.
 
-Skrip ini membuat edisi digital yang **menukar** halaman judul itu dengan
-sampul berwarna penuh (A4, tanpa margin). Karena yang ditukar, bukan
-disisipkan:
+Skrip ini **menyisipkan** satu halaman sampul di depan, sehingga:
 
-  * jumlah halaman tetap sama (457 / 473),
-  * nomor folio yang tercetak di kaki halaman tidak bergeser,
-  * Daftar Isi, Indeks, dan bookmark tetap menunjuk halaman yang benar.
+  * halaman 1 = sampul berwarna (A4 penuh, tanpa margin, tanpa folio),
+  * halaman 2 = halaman judul seperti aslinya,
+  * total halaman menjadi 458 (EN) dan 474 (ID),
+
+Nomor folio yang tercetak tidak berubah, jadi Daftar Isi dan Indeks tetap
+menunjuk halaman yang benar. Bookmark digeser satu halaman agar tetap mendarat
+di halaman yang sama seperti sebelumnya.
 
 File `*_interior.pdf` **tidak diubah** — itu yang dikirim ke percetakan.
 
@@ -19,7 +20,7 @@ Jalankan: python make_ebook.py
 """
 import os
 
-import pypdf
+import pymupdf
 from fpdf import FPDF
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -38,7 +39,7 @@ def build_cover(jpg, out):
     pdf.set_margins(0, 0, 0)
     pdf.add_page()
     # w+h sekaligus = skala penuh; rasio sampul 0,7068 vs A4 0,7071,
-    # selisihnya 0,04 persen sehingga tidak terlihat melar.
+    # selisih 0,04 persen sehingga tidak terlihat melar.
     pdf.image(jpg, x=0, y=0, w=pdf.w, h=pdf.h)
     pdf.output(out)
 
@@ -55,35 +56,62 @@ def build(slug, label):
 
     build_cover(jpg, tmp)
 
-    src = pypdf.PdfReader(interior)
-    n_src = len(src.pages)
-    cover = pypdf.PdfReader(tmp)
+    doc = pymupdf.open(interior)
+    n_src = doc.page_count
+    toc_before = doc.get_toc(simple=True)
 
-    writer = pypdf.PdfWriter(clone_from=src)
-    writer.remove_page(0)                      # buang halaman judul teks
-    writer.insert_page(cover.pages[0], 0)      # ganti dengan sampul
-    with open(ebook, "wb") as fh:
-        writer.write(fh)
+    cover = pymupdf.open(tmp)
+    doc.insert_pdf(cover, start_at=0)          # halaman judul tetap, hanya bergeser
+    cover.close()
 
+    # Bookmark: pymupdf membiarkan nomor halaman apa adanya, sehingga seluruh
+    # tujuan harus digeser satu halaman agar mendarat di tempat yang sama.
+    doc.set_toc([[lvl, title, page + 1] for lvl, title, page in toc_before])
+
+    doc.set_metadata(dict(doc.metadata, producer="fpdf2 + PyMuPDF"))
+    doc.save(ebook, garbage=4, deflate=True)
+    doc.close()
     os.remove(tmp)
 
-    out = pypdf.PdfReader(ebook)
-    n_out = len(out.pages)
-    assert n_out == n_src, (n_out, n_src)
-    first = out.pages[0]
+    # ---- verifikasi ----
+    out = pymupdf.open(ebook)
+    n_out = out.page_count
+    assert n_out == n_src + 1, (n_out, n_src)
+    assert len(out.get_toc()) == len(toc_before), (len(out.get_toc()), len(toc_before))
+    first = out[0]
+    assert not first.get_text().strip(), "halaman sampul masih berisi teks"
+    assert first.get_images(full=True), "halaman sampul tidak memuat gambar"
+
+    # setiap bookmark bab harus mendarat di halaman yang memuat judulnya.
+    # Teks judul dicetak dengan jarak antarhuruf ("C H A P T E R 1"),
+    # jadi perbandingan dilakukan tanpa spasi sama sekali.
+    def squash(x):
+        return "".join(x.lower().split())
+
+    checked = 0
+    for _lvl, title, page in out.get_toc():
+        if not title.lower().startswith(("chapter ", "bab ")):
+            continue
+        head, _, rest = title.partition(":")
+        assert squash(head) in squash(out[page - 1].get_text()), (title, page)
+        assert squash(rest.strip().split(":")[0]) in squash(out[page - 1].get_text()), (title, page)
+        checked += 1
+    assert checked >= 20, checked
+
+    size = os.path.getsize(ebook) / 1048576
     print(f"  {label}")
-    print(f"    {slug}_ebook.pdf  {n_out} hlm  "
-          f"{os.path.getsize(ebook)/1048576:.2f} MB  "
-          f"halaman 1: {first.mediabox.width:.0f}x{first.mediabox.height:.0f} pt")
+    print(f"    {slug}_ebook.pdf  {n_out} hlm  {size:.2f} MB  "
+          f"halaman 1: sampul {first.rect.width:.0f}x{first.rect.height:.0f} pt  "
+          f"halaman 2: {out[1].get_text().strip().splitlines()[0][:32]}")
+    out.close()
     return n_out
 
 
 def main():
-    print("edisi digital (sampul + isi):")
-    total = 0
+    print("edisi digital (sampul + halaman judul + isi):")
     for label, slug in EDITIONS:
-        total = build(slug, label)
-    print(f"selesai — {total} halaman per edisi")
+        build(slug, label)
+    print("selesai")
 
 
 if __name__ == "__main__":

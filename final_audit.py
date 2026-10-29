@@ -538,6 +538,26 @@ def check_products():
         else:
             ok("produk", "%s: sampel %d halaman, menyebut edisi lengkap %s halaman"
                % (lang, d.page_count, m.group(1)))
+    # edisi digital: sampul di halaman 1, halaman judul tetap di halaman 2
+    for path, lang in (("book/publish/Surviving_the_Future_EN_ebook.pdf", "EN"),
+                       ("book/publish/Bertahan_Hidup_di_Masa_Depan_ID_ebook.pdf", "ID")):
+        if not os.path.exists(path):
+            fail("produk", "%s tidak ada" % path)
+            continue
+        d = pymupdf.open(path)
+        interior = EN_PDF if lang == "EN" else ID_PDF
+        n_in = pymupdf.open(interior).page_count
+        first = d[0]
+        if first.get_text().strip() or not first.get_images(full=True):
+            fail("produk", "%s: halaman 1 bukan sampul" % lang)
+        elif d.page_count != n_in + 1:
+            fail("produk", "%s: ebook %d halaman, seharusnya %d" % (lang, d.page_count, n_in + 1))
+        elif not any(t[1].lower().startswith(("chapter ", "bab ")) for t in d.get_toc()):
+            fail("produk", "%s: bookmark hilang" % lang)
+        else:
+            ok("produk", "%s: ebook %d halaman (sampul + %d isi), bookmark %d"
+               % (lang, d.page_count, n_in, len(d.get_toc())))
+
     for path in ("book/publish/Surviving_the_Future_EN_cover_print.pdf",
                  "book/publish/Bertahan_Hidup_di_Masa_Depan_ID_cover_print.pdf"):
         if not os.path.exists(path):

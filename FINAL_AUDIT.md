@@ -6,7 +6,7 @@ Dihasilkan oleh `final_audit.py`. Dijalankan ulang sampai nol FAIL.
 |---|---|
 | FAIL | **0** |
 | WARN | 0 |
-| OK | 43 |
+| OK | 45 |
 
 ## struktur
 
@@ -85,8 +85,10 @@ Dihasilkan oleh `final_audit.py`. Dijalankan ulang sampai nol FAIL.
 
 ## produk
 
-- ✅ EN: sampel 35 halaman, menyebut edisi lengkap 457 halaman
-- ✅ ID: sampel 37 halaman, menyebut edisi lengkap 473 halaman
+- ✅ EN: sampel 36 halaman, menyebut edisi lengkap 457 halaman
+- ✅ ID: sampel 38 halaman, menyebut edisi lengkap 473 halaman
+- ✅ EN: ebook 458 halaman (sampul + 457 isi), bookmark 327
+- ✅ ID: ebook 474 halaman (sampul + 473 isi), bookmark 326
 - ✅ Surviving_the_Future_EN_cover_print.pdf: 17.93 × 11.94 inci
 - ✅ Bertahan_Hidup_di_Masa_Depan_ID_cover_print.pdf: 17.97 × 11.94 inci
 

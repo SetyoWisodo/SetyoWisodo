@@ -41,7 +41,7 @@ L = {
         "page": "hal.",
         "contents_hint": "",
         "table_word": "Tabel",
-        "cover_title": "Surviving the Future",
+        "cover_title": "Bertahan Hidup di Masa Depan",
         "cover_sub": "Krisis, Iklim, dan Ketahanan Manusia",
         "cover_tag": "Panduan Berbasis Data dan Akademik untuk Melewati Krisis Akibat Pemanasan Global",
         "cover_author": "Setyo Wisodo",

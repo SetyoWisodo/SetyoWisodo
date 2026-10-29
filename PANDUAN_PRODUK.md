@@ -22,7 +22,7 @@ Semua isian di bawah sudah final. Ikuti berurutan; jangan lompat ke produk kedua
 | # | Produk | Harga | Berkas isi |
 |---|---|---|---|
 | 1 | Surviving the Future (EN) | $45 | PDF + EPUB + DOCX + paket gambar |
-| 2 | Free sample (EN) | $0 | 1 PDF sampel 35 hlm |
+| 2 | Free sample (EN) | $0 | 1 PDF sampel 36 hlm (bersampul) |
 | 3 | Bertahan Hidup di Masa Depan (ID) | $29 | PDF + EPUB + DOCX + paket gambar |
 | 4 | Bundle EN + ID | $59 | produk 1 + produk 3 |
 
@@ -304,7 +304,7 @@ surviving-the-future-sample
 
 ## Langkah 16 · Content
 
-Satu berkas: `book/publish/Surviving_the_Future_EN_sample.pdf` (35 halaman). Stempel pembeli: **tidak perlu** — sampel memang gratis dan boleh dibagikan.
+Satu berkas: `book/publish/Surviving_the_Future_EN_sample.pdf` (36 halaman, sudah bersampul). Stempel pembeli: **tidak perlu** — sampel memang gratis dan boleh dibagikan.
 
 ## Langkah 17 · Terbitkan
 

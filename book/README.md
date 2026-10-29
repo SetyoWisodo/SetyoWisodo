@@ -68,7 +68,7 @@ python make_publish.py                             # EPUB + DOCX
 python make_cover_front.py                         # front + ebook covers from the artwork
 python make_3d.py                                  # 3D renders for marketplaces
 python make_marketplace.py                         # final 3000 px marketplace photos
-python make_sample.py                              # free samples (35 / 37 pages)
+python make_sample.py                              # free samples (36 / 38 pages)
 python personalize_pdf.py --edition id --name "Nama Pembeli" --order INV-001
 python make_gumroad.py                               # Gumroad covers + thumbnails
 python make_figure_pack.py                           # figure packs for buyers (11 PNG each)
