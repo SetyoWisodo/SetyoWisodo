@@ -1,6 +1,6 @@
 {
   "hari_ini": "2026-10-30",
-  "dibuat": "30 Oct 2026 00:24 WIB",
+  "dibuat": "30 Oct 2026 00:35 WIB",
   "kpi": {
     "minggu": "1",
     "mulai": "2026-10-26",
@@ -49,6 +49,12 @@
       "divisi": "Produksi & QC",
       "teks": "Batch NK-GYO-2610-A ditolak (81.5).",
       "aksi": "Pastikan batch pengganti sudah disangrai dan dicicipi."
+    },
+    {
+      "level": "info",
+      "divisi": "Penjualan & CRM",
+      "teks": "Pipeline B2B masih kosong.",
+      "aksi": "Isi 30 prospek di komersial/pipeline-b2b.csv — satu kafe 5 kg/bulan ≈ 15 order retail."
     },
     {
       "level": "info",
@@ -195,16 +201,16 @@
       "jenis": "Video",
       "judul": "12 menit terakhir sebelum kopi dikemas",
       "pilar": "Proses",
-      "status": "belum"
+      "status": "siap"
     },
     {
       "tanggal": "2026-11-04",
       "hari": "Selasa",
       "platform": "IG Carousel",
       "jenis": "Carousel",
-      "judul": "Kenapa kami cetak tanggal sangrai, bukan kedaluwarsa",
+      "judul": "Tanggal sangrai, bukan tanggal kedaluwarsa",
       "pilar": "Bukti",
-      "status": "belum"
+      "status": "siap"
     },
     {
       "tanggal": "2026-11-05",
@@ -213,16 +219,16 @@
       "jenis": "Video",
       "judul": "Suara first crack",
       "pilar": "Proses",
-      "status": "belum"
+      "status": "siap"
     },
     {
       "tanggal": "2026-11-06",
       "hari": "Kamis",
       "platform": "IG Story",
       "jenis": "Story",
-      "judul": "Tiga tanda kopi masih segar",
+      "judul": "Tiga tanda kopi masih segar + jajak pendapat",
       "pilar": "Edukasi",
-      "status": "belum"
+      "status": "siap"
     }
   ],
   "proses": [
@@ -956,6 +962,13 @@
       "catatan": "Email Gmail dipakai sementara"
     }
   ],
+  "pipeline": {
+    "jumlah": 0,
+    "status": {},
+    "due": [],
+    "aktif": [],
+    "kg_aktif": 0
+  },
   "break_even": {
     "biaya_tetap": 1275000.0,
     "laba_per_order": 37279,

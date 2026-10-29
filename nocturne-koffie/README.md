@@ -17,8 +17,12 @@ nocturne-koffie/
 │   ├── css/motion.css            token & aturan animasi
 │   └── img/produk/               9 foto stiker kemasan (4:5, dari brief)
 ├── data/catalog.json             ← SATU-SATUNYA file yang perlu diubah rutin
+├── brand/                        logo SVG, OG card, 9 label kantong + lembar A4, brand kit
+├── komersial/                    harga grosir 4 tingkat, penawaran B2B, pipeline prospek
 ├── operasional/                  6 divisi: struktur, SOP, KPI, runbook minggu 1
 ├── tools/papan.py                generator papan harian (stdlib, tanpa dependensi)
+├── tools/brandkit.py             generator logo, OG card, label kantong (Pillow)
+├── tools/komersial.py            generator harga grosir + penawaran B2B
 ├── dashboard/index.html          papan harian hasil generate (jangan diedit manual)
 ├── panduan/PANDUAN-LANDING-PAGE.md
 ├── panduan/07-sistem-motion.md
@@ -32,7 +36,12 @@ cd nocturne-koffie
 python3 -m http.server 8080        # situs  → http://localhost:8080
                                    # papan  → http://localhost:8080/dashboard/
 python3 tools/papan.py             # hitung ulang papan harian
+python3 tools/brandkit.py          # buat ulang label + logo (butuh Pillow)
+python3 tools/komersial.py         # buat ulang harga grosir + penawaran B2B
 ```
+
+Halaman yang perlu dibuka: `/` (situs) · `/dashboard/` (papan harian) ·
+`/brand/` (brand kit) · `/komersial/penawaran-b2b.html` (proposal B2B).
 
 Harus lewat server — katalog dimuat dengan `fetch`, dan `file://` akan diblokir browser.
 
@@ -119,6 +128,9 @@ menunggu konfirmasi pemilik." Jangan dihapus sebelum beres.
 | File | Isi |
 | --- | --- |
 | `panduan/PANDUAN-LANDING-PAGE.md` | **Panduan pembuatan landing page** — 13 bagian, 25 butir QA |
+| `brand/README.md` | brand kit: logo, label 70×100 mm, aturan cetak & pemakaian logo |
+| `komersial/01-panduan-grosir.md` | 4 tingkat harga grosir, aturan margin, alur jual B2B |
+| `marketing/08-konten-siap-pakai.md` | 7 post + 3 skrip TikTok + 9 judul marketplace siap salin |
 | `operasional/00-struktur-divisi.md` | 6 divisi, RACI, ritme harian/mingguan, eskalasi |
 | `operasional/01-produksi-qc.md` | rantai produksi, kode batch, gerbang QC, aturan stok |
 | `operasional/02-penjualan-crm.md` | alur order, template WA, langganan, pipeline B2B |

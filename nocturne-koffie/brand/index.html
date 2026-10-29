@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brand Kit — Nocturne Koffie</title>
+<style>
+:root{--paper:#F5EFE4;--ink:#16110D;--muted:#6b6156;--gold:#D9A441;--orange:#E1542B;--line:1px solid rgba(22,17,13,.16)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 Inter,system-ui,sans-serif}
+.wrap{max-width:1120px;margin:0 auto;padding:44px clamp(16px,4vw,40px) 80px}
+h1{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:clamp(30px,5vw,46px);line-height:1;letter-spacing:-.03em;margin:8px 0 10px}
+.kicker{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.lede{max-width:60ch;color:var(--muted)}
+h2{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+   color:var(--muted);border-top:2px solid var(--ink);padding-top:12px;margin:44px 0 16px}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.sw{border-radius:6px;height:96px;border:var(--line)}
+.sw span{display:block;padding:8px 10px;font-size:11px;letter-spacing:.06em}
+figure{margin:0;border:var(--line);background:#fff;border-radius:4px;overflow:hidden}
+figure img{width:100%;display:block}
+figcaption{padding:8px 10px;font-size:12px;color:var(--muted);text-transform:capitalize;border-top:var(--line)}
+.logos{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.logos img{width:100%;display:block;border:var(--line);border-radius:4px;background:#fff}
+.og{width:100%;border:var(--line);border-radius:4px}
+a{color:inherit}
+.note{font-size:12.5px;color:var(--muted);border-left:2px solid var(--gold);padding-left:12px;margin-top:14px}
+</style></head><body><div class="wrap">
+<p class="kicker">Brand kit · dihasilkan oleh tools/brandkit.py</p>
+<h1>Nocturne Koffie</h1>
+<p class="lede">Semua aset cetak & digital dalam satu tempat. Label memakai ukuran 70 × 100 mm @300 dpi,
+siap ditempel ke kantong black matte 250 g. Tanggal sangrai, kode batch, dan level roast
+diisi otomatis dari <code>data/catalog.json</code> + <code>data/batch-qc.csv</code>.</p>
+
+<h2>Logo</h2>
+<div class="logos">
+  <img src="logo-mark.svg" alt="Simbol Nocturne">
+  <img src="logo-lockup.svg" alt="Lockup Nocturne gelap di atas kertas">
+  <img src="logo-lockup-dark.svg" alt="Lockup Nocturne terang di atas tinta">
+</div>
+<p class="note">Simbol = bulatan dengan celah 9,5% — motif yang sama dipakai sebagai penanda level roast
+dan peluru daftar di situs. Jangan memberi warna lain, gradien, atau bayangan.</p>
+
+<h2>Palet</h2>
+<div class="row">
+  <div class="sw" style="background:#F5EFE4"><span>Paper · #F5EFE4</span></div>
+  <div class="sw" style="background:#16110D;color:#F5EFE4"><span>Ink · #16110D</span></div>
+  <div class="sw" style="background:#E1542B;color:#fff"><span>Burnt Orange · #E1542B</span></div>
+  <div class="sw" style="background:#4A2C1A;color:#F5EFE4"><span>Espresso · #4A2C1A</span></div>
+  <div class="sw" style="background:#D9A441"><span>Roast Gold · #D9A441</span></div>
+</div>
+
+<h2>Kartu berbagi (Open Graph)</h2>
+<img class="og" src="og-1200x630.jpg" alt="Kartu OG Nocturne 1200 × 630">
+<p class="note">Dipakai saat tautan dibagikan di WhatsApp, Instagram, X, dan Facebook. Ukuran 1200 × 630 px.</p>
+
+<h2>Label kantong — 9 SKU</h2>
+<div class="row"><figure><img src="label-arjuno.png" alt="Label label-arjuno.png" loading="lazy"><figcaption>arjuno</figcaption></figure><figure><img src="label-blend-6040.png" alt="Label label-blend-6040.png" loading="lazy"><figcaption>blend 6040</figcaption></figure><figure><img src="label-blend-7030.png" alt="Label label-blend-7030.png" loading="lazy"><figcaption>blend 7030</figcaption></figure><figure><img src="label-blue-mount-ijen.png" alt="Label label-blue-mount-ijen.png" loading="lazy"><figcaption>blue mount ijen</figcaption></figure><figure><img src="label-gayo.png" alt="Label label-gayo.png" loading="lazy"><figcaption>gayo</figcaption></figure><figure><img src="label-ijen-excelsa.png" alt="Label label-ijen-excelsa.png" loading="lazy"><figcaption>ijen excelsa</figcaption></figure><figure><img src="label-kintamani.png" alt="Label label-kintamani.png" loading="lazy"><figcaption>kintamani</figcaption></figure><figure><img src="label-raung.png" alt="Label label-raung.png" loading="lazy"><figcaption>raung</figcaption></figure><figure><img src="label-semeru.png" alt="Label label-semeru.png" loading="lazy"><figcaption>semeru</figcaption></figure></div>
+<p class="note">Cetak: <b>label-sheet-a4.png</b> (8 label per lembar A4, ada tanda potong) atau
+label per produk untuk cetak stiker roll. Ganti tanggal & batch lewat
+<code>python3 tools/brandkit.py --tanggal YYYY-MM-DD --batch A</code>.</p>
+
+<h2>Ikon aplikasi</h2>
+<div class="logos" style="grid-template-columns:120px 1fr">
+  <img src="apple-touch-icon.png" alt="Ikon 180 px" style="border-radius:24px">
+  <img src="favicon.svg" alt="Favicon" style="max-width:120px">
+</div>
+</div></body></html>

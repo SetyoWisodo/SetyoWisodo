@@ -238,6 +238,29 @@ def analisa_konten(konten, hari_ini):
     return hari_ini_konten, terlambat, berikut[:4]
 
 
+def analisa_pipeline(hari_ini):
+    path = os.path.join(ROOT, "komersial", "pipeline-b2b.csv")
+    rows = baca_csv(path)
+    rows = [r for r in rows if not (r.get("nama_tempat") or "").startswith("(contoh)")]
+    status = defaultdict(int)
+    due, aktif = [], []
+    for r in rows:
+        st = (r.get("status") or "belum").strip().lower()
+        status[st] += 1
+        if st in ("aktif", "menang", "deal"):
+            aktif.append(r)
+            continue
+        tgl = parse_tanggal(r.get("tanggal_followup"))
+        if tgl and tgl <= hari_ini:
+            due.append({**r, "lewat": (hari_ini - tgl).days})
+        elif st == "belum" and not (r.get("tanggal_pesan") or "").strip():
+            due.append({**r, "lewat": 0, "belum_dihubungi": True})
+    due.sort(key=lambda x: x["lewat"], reverse=True)
+    target_kg = sum(float(r.get("volume_target_kg") or 0) for r in aktif)
+    return {"jumlah": len(rows), "status": dict(status), "due": due, "aktif": aktif,
+            "kg_aktif": target_kg}
+
+
 def analisa_qc(batch, hari_ini):
     sejak = hari_ini - timedelta(days=30)
     bulan = []
@@ -271,7 +294,7 @@ def analisa_kpi(kpi):
 
 
 # ──────────────────────────────── peringatan ──────────────────────────────
-def susun_peringatan(stok, margin, proses, resi, follow, konten_telat, qc, legal):
+def susun_peringatan(stok, margin, proses, resi, follow, konten_telat, qc, legal, pipeline=None):
     out = []
 
     def add(level, divisi, teks, aksi):
@@ -307,6 +330,24 @@ def susun_peringatan(stok, margin, proses, resi, follow, konten_telat, qc, legal
 
     for b in qc["ditolak"]:
         add("info", "Produksi & QC", f"Batch {b.get('kode_batch')} ditolak ({b.get('skor_cupping')}).", "Pastikan batch pengganti sudah disangrai dan dicicipi.")
+
+    if pipeline:
+        if not pipeline["jumlah"]:
+            add("info", "Penjualan & CRM",
+                "Pipeline B2B masih kosong.",
+                "Isi 30 prospek di komersial/pipeline-b2b.csv — satu kafe 5 kg/bulan ≈ 15 order retail.")
+        else:
+            for d in pipeline["due"][:5]:
+                if d.get("belum_dihubungi"):
+                    add("info", "Penjualan & CRM", f"{d.get('nama_tempat')} ({d.get('jenis')}) belum dihubungi.",
+                        "Kirim pesan pertama dari template B2B-1, lalu isi tanggal follow-up H+4.")
+                else:
+                    add("peringatan" if d["lewat"] > 2 else "info", "Penjualan & CRM",
+                        f"Follow-up {d.get('nama_tempat')} lewat {d['lewat']} hari.",
+                        "Kirim B2B-2 (satu pesan saja, jangan mengulang).")
+            if pipeline["kg_aktif"]:
+                add("info", "Keuangan", f"Volume B2B aktif {pipeline['kg_aktif']:.0f} kg/bulan.",
+                    "Pastikan kapasitas sangrai & jadwal lot mencukupi.")
 
     belum = [x for x in legal if (x.get("status") or "").lower() not in ("selesai", "ada", "done")]
     if belum:
@@ -513,6 +554,27 @@ def render(ctx):
              f'rata-rata laba per order {RP(be["laba_per_order"])} · break-even <b>{be["order_per_bulan"]} order/bulan</b> '
              f'(±{be["order_per_minggu"]} order/minggu).</div></section>')
 
+    # Pipeline B2B
+    pl = ctx.get("pipeline") or {}
+    o.append('<section><h2>Penjualan — pipeline B2B</h2>')
+    if pl.get("jumlah"):
+        stt = " · ".join(f"{k}: {v}" for k, v in sorted(pl["status"].items()))
+        o.append(f'<div class="legend">{pl["jumlah"]} prospek · {stt} · volume aktif {pl["kg_aktif"]:.0f} kg/bulan</div>')
+        if pl["due"]:
+            o.append('<table><tr><th>Tempat</th><th>Jenis</th><th>Area</th><th class="num">Target kg</th><th>Status</th><th class="num">Aksi</th></tr>')
+            for d in pl["due"]:
+                aksi = "Kirim pesan pertama" if d.get("belum_dihubungi") else f"Follow-up (lewat {d['lewat']}h)"
+                o.append(f'<tr><td>{d.get("nama_tempat")}</td><td>{d.get("jenis")}</td><td>{d.get("area")}</td>'
+                         f'<td class="num">{d.get("volume_target_kg") or "—"}</td><td>{d.get("status")}</td>'
+                         f'<td class="num">{aksi}</td></tr>')
+            o.append("</table>")
+        else:
+            o.append('<div class="empty">Tidak ada follow-up jatuh tempo.</div>')
+    else:
+        o.append('<div class="empty">Pipeline masih kosong. Isi <code>komersial/pipeline-b2b.csv</code> — '
+                 'satu akun kafe 5 kg/bulan setara ±15 order retail.</div>')
+    o.append("</section>")
+
     # QC
     q = ctx["qc"]
     o.append(f'<section><h2>Produksi — QC batch (30 hari)</h2><div class="legend">{q["jumlah_30h"]} batch · {len(q["ditolak"])} ditolak · skor rata-rata {q["skor_rata"] if q["skor_rata"] is not None else "—"}</div>')
@@ -537,7 +599,10 @@ def render(ctx):
     o.append("</table></section>")
 
     o.append(f"""<footer>
-  <span>Dibuat otomatis oleh <code>tools/papan.py</code> pada {ctx['dibuat']}.</span>
+  <span>Dibuat otomatis oleh <code>tools/papan.py</code> pada {ctx['dibuat']} ·
+    <a href="../brand/index.html">brand kit</a> ·
+    <a href="../komersial/penawaran-b2b.html">penawaran B2B</a> ·
+    <a href="../komersial/harga-grosir.csv">harga grosir</a></span>
   <span>Angka biaya di <code>data/biaya.json</code> masih <b>asumsi</b> — ganti dengan angka nyata.</span>
 </footer></div></body></html>""")
     return "\n".join(o)
@@ -568,6 +633,7 @@ def main():
     konten_hari, konten_telat, konten_berikut = analisa_konten(konten, hari_ini)
     qc = analisa_qc(batch, hari_ini)
     kpi_last = analisa_kpi(kpi)
+    pipeline = analisa_pipeline(hari_ini)
 
     biaya_tetap = sum(float(x.get("nilai") or 0) for x in biaya.get("asumsi", {}).get("biaya_tetap_bulanan", []))
     margins = [m for m in margin if m.get("varian")]
@@ -581,7 +647,7 @@ def main():
         "order_per_minggu": math.ceil((biaya_tetap / laba_per_order) / 4.3) if laba_per_order else 0,
     }
 
-    peringatan = susun_peringatan(stok, margin, proses, resi, follow, konten_telat, qc, legal)
+    peringatan = susun_peringatan(stok, margin, proses, resi, follow, konten_telat, qc, legal, pipeline)
 
     kritis = sum(1 for s in stok if s["beda_status"] or s["status_hitung"] == "habis")
     divisi = {
@@ -634,7 +700,7 @@ def main():
         "kpi": kpi_last, "peringatan": peringatan, "divisi": divisi,
         "konten_hari": konten_hari, "konten_telat": konten_telat, "konten_berikut": konten_berikut,
         "proses": proses, "follow": follow, "resi": resi,
-        "stok": stok, "margin": margin, "qc": qc, "legal": legal,
+        "stok": stok, "margin": margin, "qc": qc, "legal": legal, "pipeline": pipeline,
         "break_even": break_even, "rata_margin": rata_margin,
     }
 
