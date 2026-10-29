@@ -23,7 +23,7 @@ Keduanya:
 
 | Berkas | Isi |
 |---|---|
-| `pair_mkt_lineup.jpg` / `.png` | 3600 × 2400, dua edisi berdampingan untuk produk bundle |
+| `pair_mkt_lineup.jpg` / `.png` | 3600 × 2400, dua edisi berdampingan — **tidak dipakai** karena hanya edisi Inggris yang dijual |
 
 ---
 
@@ -37,7 +37,7 @@ Keduanya:
 | Cover 2 | `cover_en_2_inside.png` (dari folder `gumroad/`) |
 | Cover 3 | `Surviving_the_Future_EN_mkt_back.jpg` |
 | Thumbnail | `thumb_en.png` (dari folder `gumroad/`) |
-| Produk bundle | `pair_mkt_lineup.jpg` |
+| ~~Produk bundle~~ | `pair_mkt_lineup.jpg` — tidak dipakai (hanya edisi Inggris yang dijual) |
 
 ### Amazon KDP / Etsy / toko lain
 

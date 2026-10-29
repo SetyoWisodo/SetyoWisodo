@@ -372,16 +372,18 @@ def check_parity(e, i):
     else:
         ok("paritas", "kata badan EN %s / ID %s (rasio %.2f)" % (f"{we:,}", f"{wi:,}", ratio))
 
-    # harga
-    for path, pats in (("HARGA_EN.md", ["$45", "$29", "$59"]),
-                       ("GUMROAD.md", ["$45", "$29", "$59"])):
-        if os.path.exists(path):
-            t = read(path)
-            miss = [p for p in pats if p not in t]
-            if miss:
-                fail("harga", "%s tidak memuat %s" % (path, miss))
-    if os.path.exists("GUMROAD.md") and all(p in read("GUMROAD.md") for p in ("$45", "$29", "$59")):
-        ok("harga", "EN $45 · ID $29 · bundle $59 konsisten di dokumen penjualan")
+    # harga — keputusan 29 Okt 2026: hanya edisi Inggris yang dijual
+    for path in ("HARGA_EN.md", "GUMROAD.md", "PROMOSI.md", "PANDUAN_PRODUK.md"):
+        if os.path.exists(path) and "$45" not in read(path):
+            fail("harga", "%s tidak memuat harga $45" % path)
+    sisa = [p for p in ("HARGA_EN.md", "GUMROAD.md", "PROMOSI.md", "PANDUAN_PRODUK.md")
+            if os.path.exists(p) and any(x in read(p) for x in
+                                         ("Bundle keduanya", "bundle $59",
+                                          "produk ID $29", "Bundle EN + ID"))]
+    if sisa:
+        fail("harga", "dokumen penjualan masih menawarkan edisi ID/bundle: %s" % sisa)
+    else:
+        ok("harga", "penjualan hanya edisi Inggris: $45 + sampel $0, tanpa ID/bundle")
 
 
 # ------------------------------------------------------------------- 6. PDF --

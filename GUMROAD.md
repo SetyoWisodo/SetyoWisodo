@@ -49,20 +49,20 @@ EPUB. Tetapi tahu di mana risikonya.
 
 ---
 
-## 3. Empat produk
+## 3. Dua produk — edisi Inggris saja
 
 | # | Produk | File yang diunggah | Harga |
 |---|---|---|---|
 | 1 | Surviving the Future (EN) | PDF, EPUB, DOCX, `*_figures.zip` | **$45** |
-| 2 | Bertahan Hidup di Masa Depan (ID) | PDF, EPUB, DOCX, `*_figures.zip` | **$29** |
-| 3 | Bilingual bundle | kedelapan file di atas | **$59** |
-| 4 | Free sample | `*_sample.pdf` (EN + ID) | **$0** (pay what you want) |
+| 2 | Free sample (EN) | `*_sample.pdf` (36 hlm) | **$0** (pay what you want) |
 
-Produk 4 bukan pelengkap — ia mesin penjualannya. Sampel gratis mengumpulkan email,
+**Keputusan 29 Oktober 2026:** hanya edisi Inggris yang dijual. Edisi Indonesia tetap
+dipakai sebagai alat koreksi silang saat menyunting, tetapi tidak pernah diunggah,
+tidak pernah dipromosikan, dan tidak punya halaman produk. Produk bundle dibatalkan
+karena isinya bergantung pada edisi Indonesia.
+
+Produk 2 bukan pelengkap — ia mesin penjualannya. Sampel gratis mengumpulkan email,
 masuk ke Gumroad Discover, dan menjadi tautan yang bisa Anda sebar di media sosial.
-
-Beli-borong lebih murah dari beli terpisah ($45 + $29 = $74 vs $59) dan tetap
-menguntungkan: biaya tetap $0,50 hanya dipotong sekali, bukan dua kali.
 
 Alasan angka-angka ini ada di `HARGA_EN.md` — disusun dari harga pasar ebook
 akademik ($19,99–$49,99), paperback Routledge sejenis ($34,99–$66,99), dan
@@ -90,9 +90,8 @@ Artinya totalnya sekitar **12,9% + 80¢** per penjualan langsung, bukan 10%.
 
 | Harga | Gumroad | Proses | Bersih | Persen |
 |---|---|---|---|---|
-| $29 | $3,40 | $1,14 | **$24,46** | 84,3% |
 | $45 | $5,00 | $1,61 | **$38,40** | 85,3% |
-| $59 | $6,40 | $2,01 | **$50,59** | 85,7% |
+| $36 dengan `LAUNCH20` | $3,60 | $1,34 | **$30,56** | 84,9% |
 | $45 lewat Discover | $13,50 | termasuk | **$31,50** | 70% |
 
 Perhatikan: persentase bersih **naik** seiring harga, karena biaya tetap 80¢
@@ -112,8 +111,7 @@ Indonesia.
 - **PayPal** — cadangan, dibayar dalam USD, ada biaya 2% + konversi.
 - **Payoneer dan Wise tidak didukung.** Jangan direncanakan.
 - **Saldo minimum pencairan untuk Indonesia adalah $100** dan angkanya terkunci —
-  tidak bisa diturunkan. Di harga $45, dana pertama cair setelah **3 penjualan**;
-  di harga $59, hanya **2 penjualan**. Ini keuntungan nyata dari harga tinggi.
+  tidak bisa diturunkan. Di harga $45, dana pertama cair setelah **3 penjualan**.
 - Jadwal pembayaran: mingguan. Penjualan ditahan sekitar 7 hari sebelum bisa dicairkan.
 
 Karena Gumroad sejak 1 Januari 2025 berstatus **Merchant of Record**, PPN/VAT dan pajak
@@ -150,16 +148,15 @@ penghasilan Anda di Indonesia tetap kewajiban Anda sendiri.
 7. **URL**: `surviving-the-future`
 8. Simpan → **Publish**
 
-### C. Ulangi untuk produk 2, 3, 4
+### C. Ulangi untuk produk 2 (sampel)
 
-Produk 3 memakai `cover_bundle_1_hero.png`, `cover_bundle_2_quote.png`, `thumb_bundle.png`.
-Produk 4 memakai `cover_sample_1_hero.png`, `thumb_sample.png`, harga $0.
+Produk sampel memakai `cover_sample_1_hero.png`, `thumb_sample.png`, harga $0.
 
 Kalau harga $0 ditolak, aktifkan **"Pay what you want"** dengan minimum $0 — efeknya
 sama, dan pembeli boleh memberi tip.
 
-**Buat produk 4 lebih dulu, sebelum yang berbayar.** Ia paling cepat jadi, paling
-kecil risikonya, dan URL-nya dibutuhkan untuk ditempel ke deskripsi produk 1-3.
+**Buat produk sampel lebih dulu, sebelum yang berbayar.** Ia paling cepat jadi, paling
+kecil risikonya, dan URL-nya dibutuhkan untuk ditempel ke deskripsi produk berbayar.
 
 ### D. Setelah terbit
 
@@ -173,7 +170,7 @@ kecil risikonya, dan URL-nya dibutuhkan untuk ditempel ke deskripsi produk 1-3.
 
 ## 6. Materi visual
 
-`python make_gumroad.py` menghasilkan semuanya sekaligus dari render 3D dan PDF asli:
+`python make_gumroad.py` menghasilkan **materi edisi Inggris saja** (EN + sampel) dari render 3D dan PDF asli:
 
 | File | Ukuran | Dipakai untuk |
 |---|---|---|
@@ -181,7 +178,7 @@ kecil risikonya, dan URL-nya dibutuhkan untuk ditempel ke deskripsi produk 1-3.
 | `cover_*_inside.png` | 2560×1440 | Sampul kedua: halaman asli buku |
 | `cover_*_quote.png` | 2560×1440 | Sampul ketiga: kutipan sampul belakang |
 | `thumb_*.png` | 1600×1600 | Thumbnail Discover, perpustakaan, profil |
-| `copy/listing_*.txt` | teks | Deskripsi siap tempel |
+| `copy/listing_en.txt` · `copy/listing_sample.txt` | teks | Deskripsi siap tempel |
 
 Spesifikasi Gumroad: sampul minimal 1280×720 (di sini 2560×1440 agar tajam di layar
 retina, Gumroad menurunkan sendiri ke maksimal 4096 px), thumbnail minimal 600×600.
@@ -193,13 +190,13 @@ Maksimal 8 sampul per produk.
 
 - [ ] Rekening bank sudah terhubung dan terverifikasi
 - [ ] PPP menyala
-- [ ] Stempel PDF menyala di produk 1, 2, 3
+- [ ] Stempel PDF menyala di produk berbayar
 - [ ] PDF yang diunggah **bukan** versi `--protect`
 - [ ] Pembelian uji berhasil, email muncul di halaman pertama PDF
 - [ ] Sampel gratis bisa diunduh tanpa memasukkan email
 - [ ] Tautan sampel sudah ditempel di deskripsi produk berbayar
 - [ ] Deskripsi tidak memuat klaim yang tidak ada di buku
-- [ ] Harga bundle lebih murah dari jumlah harga terpisah
+- [ ] Tidak ada halaman produk edisi Indonesia yang ikut terbit
 
 ---
 

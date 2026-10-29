@@ -2,29 +2,29 @@
 
 Toko Anda: **setyowisodo.gumroad.com** · Halaman yang sedang terbuka: produk pertama (`/vbqmqo`), tab **Product** — masih kosong, ini yang pertama diisi.
 
-**Status produk 1 (per 28 Oktober 2026):**
+**Status produk 1 (per 29 Oktober 2026):**
 
 | Bagian | Status |
 |---|---|
 | Name | ✅ `Surviving the Future` |
 | Description | ✅ terisi dan berformat |
-| URL | ⬜ masih `surviving-thefuture` → ubah ke `surviving-the-future` |
-| Cover (3 gambar) | ⬜ — berkas sudah diperbarui: 457 pages / 152 sources |
-| Thumbnail + harga $45 | ⬜ |
-| Content (4 berkas + stempel PDF) | ⬜ |
+| URL | ✅ `surviving-the-future` |
+| Cover (3 gambar) | ✅ terunggah |
+| Thumbnail + harga $45 | ⬜ harga belum diisi di panel kanan |
+| Content (4 berkas + stempel PDF) | ✅ empat berkas masuk, stempel PDF menyala |
 | Uji beli kode 100% | ⬜ |
 
-> **Teks deskripsi tidak perlu dikarang.** Empat teks final sudah tersedia di halaman unduhan, bagian **Teks deskripsi siap tempel**: `/copy/en`, `/copy/id`, `/copy/bundle`, `/copy/sample`. Buka, tekan Ctrl+A, Ctrl+C, tempel ke kotak Description.
-Semua isian di bawah sudah final. Ikuti berurutan; jangan lompat ke produk kedua sebelum produk pertama terbit dan diuji.
-
-**Empat produk yang akan dibuat, dalam urutan ini:**
+**Keputusan 29 Oktober 2026: hanya edisi Inggris yang dijual.** Dua produk, dalam urutan ini:
 
 | # | Produk | Harga | Berkas isi |
 |---|---|---|---|
 | 1 | Surviving the Future (EN) | $45 | PDF + EPUB + DOCX + paket gambar |
 | 2 | Free sample (EN) | $0 | 1 PDF sampel 36 hlm (bersampul) |
-| 3 | Bertahan Hidup di Masa Depan (ID) | $29 | PDF + EPUB + DOCX + paket gambar |
-| 4 | Bundle EN + ID | $59 | produk 1 + produk 3 |
+
+Edisi Indonesia **tidak dijual dan tidak diunggah ke Gumroad**. Ia tetap dipakai sebagai alat koreksi silang — setiap angka dan setiap argumen di edisi Inggris diperiksa ulang lewat edisi Indonesia yang ditulis terpisah. Berkasnya tetap dirender hanya untuk keperluan itu; lihat bagian **Edisi Indonesia — internal** di bawah.
+
+> **Teks deskripsi tidak perlu dikarang.** Teks final tersedia di halaman unduhan, bagian **Teks deskripsi siap tempel**: `/copy/en` dan `/copy/sample`. Buka, tekan Ctrl+A, Ctrl+C, tempel ke kotak Description.
+Semua isian di bawah sudah final. Ikuti berurutan; jangan lompat ke produk kedua sebelum produk pertama terbit dan diuji.
 
 ---
 
@@ -50,7 +50,7 @@ Yang ikut terbawa: subjudul, garis pemisah, daftar poin, tebal-miring. Kotak pet
 
 **Kalau hasil tempelannya berantakan:** tempel teks dari `listing_en.txt` per bagian, lalu rapikan dengan toolbar — dropdown **Text** → *Heading 2* untuk baris `WHAT MAKES THIS DIFFERENT`, `WHY $45`, dan seterusnya; tombol **bullet list** untuk baris berawalan `*`; sisanya biarkan *Paragraph*. Jangan pakai Heading 1: judul produk sudah ada di atas halaman.
 
-**Setelah produk sampel terbit** (Langkah 20), kembali ke sini dan ganti teks `[link to your free sample product]` menjadi URL sampel.
+**Setelah produk sampel terbit** (Langkah 17), kembali ke sini dan ganti teks `[link to your free sample product]` menjadi URL sampel.
 
 ## Langkah 3 · URL
 
@@ -268,7 +268,7 @@ Thank you. Your files are in your Gumroad library — the PDF, the EPUB, the DOC
 
 ## Langkah 9 · Tab Share
 
-Tab ini menampilkan tautan pendek produk. Itu tautan yang Anda sebarkan. Salin, lalu simpan di catatan — dipakai di Langkah 20 dan di bio profil.
+Tab ini menampilkan tautan pendek produk. Itu tautan yang Anda sebarkan. Salin, lalu simpan di catatan — dipakai di Langkah 17 dan di bio profil.
 
 ## Langkah 10 · Terbitkan
 
@@ -277,7 +277,7 @@ Tombol **Publish** (kanan atas). Setelah terbit, buka halamannya di jendela peny
 - [ ] Judul, deskripsi berformat, tiga gambar tampil
 - [ ] Harga terbaca $45, bukan $0
 - [ ] Tombol beli bisa diklik sampai ke halaman pembayaran
-- [ ] Tidak ada teks `[link to your free sample product]` yang tersisa (kalau sampel belum ada, biarkan dulu — diganti di Langkah 20)
+- [ ] Tidak ada teks `[link to your free sample product]` yang tersisa (kalau sampel belum ada, biarkan dulu — diganti di Langkah 17)
 
 ---
 
@@ -327,69 +327,50 @@ Satu berkas: `book/publish/Surviving_the_Future_EN_sample.pdf` (36 halaman, suda
 
 ## Langkah 17 · Terbitkan
 
-Publish, lalu salin URL-nya. URL inilah yang ditempel ke deskripsi produk 1 dan produk 4.
+Publish, lalu salin URL-nya. URL inilah yang ditempel ke deskripsi produk 1 (dan ke bio/profil).
 
 ---
 
-# PRODUK 3 — Bertahan Hidup di Masa Depan (ID, $29)
+# Edisi Indonesia — internal, tidak dijual
 
-## Langkah 18 · Buat produk baru
+Edisi Indonesia tetap hidup di repositori sebagai **pembanding**, bukan produk:
 
-Name: `Bertahan Hidup di Masa Depan`. Deskripsi dari `listing_id.html` (cadangan: `listing_id.txt`). URL:
-
-```
-bertahan-hidup-di-masa-depan
-```
-
-## Langkah 19 · Cover, harga, berkas
-
-| Kolom | Isi |
+| Fungsi | Berkas |
 |---|---|
-| Cover 1–3 | `cover_id_1_hero.png`, `cover_id_2_inside.png`, `cover_id_3_quote.png` |
-| Thumbnail | `thumb_id.png` |
-| Price | `29` · USD |
-| Tab Content | `Bertahan_Hidup_di_Masa_Depan_ID_ebook.pdf` (**stempel NYALA**), `..._ID.epub`, `..._ID.docx`, `..._ID_figures.zip` |
-| Receipt | kalimat yang sama, diterjemahkan bebas, atau kosongkan |
+| Koreksi silang angka & argumen | `book_id.md` dibandingkan dengan `book.md` |
+| Bukti paritas isi | `python render_book_id.py` → `Surviving_the_Future_ID.pdf` (473 hlm) |
+| Pemeriksaan mandiri per bab | `KASUS_PER_BAB.md`, `PREDIKSI_PER_BAB.md`, `ADVICE_PER_BAB.md` |
 
-Halaman buku ini 473 halaman — angka itu sudah tertulis di deskripsi, jangan diubah.
+**Yang tidak dilakukan lagi:**
 
----
+- Jangan membuat produk Gumroad untuk edisi ini.
+- Jangan menyiapkan sampul jual, thumbnail, atau teks listing berbahasa Indonesia.
+- Jangan menautkannya di halaman toko, bio, atau materi promosi mana pun.
 
-# PRODUK 4 — Bundle (EN + ID, $59)
+Alasannya komersial: pasar buku akademik berbahasa Indonesia untuk topik ini terlalu kecil dibanding perhatian yang dibutuhkan untuk mengelolanya. Satu produk yang dirawat serius lebih baik daripada dua yang setengah dirawat.
 
-## Langkah 20 · Tempel URL sampel lebih dulu
-
-Kembali ke produk 1 dan produk 3, ganti baris sampel di deskripsi dengan URL sampel dari Langkah 17. Simpan.
-
-## Langkah 21 · Buat bundle
-
-Gumroad punya dua jalan. **Pakai jalan A kalau tersedia** — pembeli otomatis mendapat pembaruan kedua buku.
-
-**Jalan A — produk bertipe Bundle.** *New product → Bundle*. Name: `Surviving the Future — Bilingual Bundle`. Pilih dua produk yang sudah terbit (produk 1 dan produk 3), lalu tetapkan harga `59`. Deskripsi dari `listing_bundle.html`. Cover: `cover_bundle_1_hero.png`, lalu `cover_bundle_2_quote.png`. Thumbnail: `thumb_bundle.png`. URL: `bilingual-bundle`.
-
-**Jalan B — kalau Bundle tidak muncul di akun Anda.** Produk digital biasa, unggah delapan berkas sekaligus di tab Content (empat EN + empat ID), harga `59`, deskripsi tetap `listing_bundle.html`. Konsekuensinya: pembaruan buku harus diunggah ulang manual ke sini setiap edisi direvisi.
-
-Jangan lupa: `$59` untuk dua buku yang jika dibeli terpisah `$74` — itu yang membuat bundle masuk akal.
+> Berkas `book/publish/gumroad/cover_id_*.png`, `thumb_id.png`, `listing_id.txt`, dan `listing_bundle.txt` **tidak dipakai lagi** — jangan diunggah. Kalau suatu hari edisi Indonesia ingin dijual, berkas itu bisa dibuat ulang dengan `python make_gumroad.py`.
 
 ---
 
-# Langkah 22 · Kode diskon (bukan potongan harga di halaman)
+# Langkah 18 · Kode diskon (bukan potongan harga di halaman)
 
 Harga di halaman produk **tidak diturunkan**. Diskon hanya lewat kode, supaya harga normal tetap terjaga.
 
-**Settings → Discounts → New discount**, tiga kali:
+**Settings → Discounts → New discount**, dua kali:
 
 | Kode | Diskon | Untuk siapa | Batas |
 |---|---|---|---|
 | `LAUNCH20` | 20% | peluncuran, 14 hari pertama | 50 pemakaian |
 | `KAMPUS25` | 25% | mahasiswa & dosen, verifikasi lewat email kampus | tanpa batas |
-| `BUNDLEUP40` | 40% | pembeli produk 1 yang mau menambah edisi ID | 20 pemakaian |
+
+Kode `BUNDLEUP40` **tidak dipakai lagi** — ia hanya masuk akal kalau ada produk kedua.
 
 Pasang `LAUNCH20` di bagian atas deskripsi selama masa peluncuran, lalu hapus kalimatnya setelah 14 hari. Kode tidak kedaluwarsa sendiri — matikan manual.
 
 ---
 
-# Langkah 23 · Sebelum dianggap selesai
+# Langkah 19 · Sebelum dianggap selesai
 
 Untuk **setiap** produk:
 
@@ -397,7 +378,7 @@ Untuk **setiap** produk:
 - [ ] Cover minimal satu gambar; urutan gambar benar
 - [ ] Harga benar dan bukan $0 (kecuali sampel)
 - [ ] Semua berkas terunggah, ukuran wajar (PDF isi ± 3 MB)
-- [ ] Stempel PDF **menyala** pada kedua produk berbayar
+- [ ] Stempel PDF **menyala** pada produk berbayar (produk sampel tidak perlu)
 - [ ] Tombol beli berfungsi di jendela penyamaran
 - [ ] Uji beli 100% sudah dilakukan minimal sekali, stempel terbukti muncul
 
@@ -406,7 +387,7 @@ Untuk **setiap** produk:
 | Gejala | Sebab | Perbaikan |
 |---|---|---|
 | Deskripsi jadi satu blok tanpa judul | teks polos ditempel | tempel dari berkas `.html`, atau rapikan dengan toolbar |
-| Pembeli mengeluh PDF tidak ada tanda dirinya | toggle stempel mati, atau yang diunggah `*_cover_print.pdf` | unggah `*_interior.pdf`, nyalakan stempel |
+| Pembeli mengeluh PDF tidak ada tanda dirinya | toggle stempel mati, atau yang diunggah `*_cover_print.pdf` / `*_interior.pdf` | unggah `*_ebook.pdf`, nyalakan stempel |
 | Pembeli tidak menemukan berkas | tab Content kosong walau produk terbit | unggah ulang di tab Content, lalu **Save** |
 | Kotak kuning di panel kanan tidak hilang | harga atau berkas belum diisi | isi harga dulu, simpan, lalu unggah berkas |
 
@@ -414,4 +395,4 @@ Untuk **setiap** produk:
 
 ## Satu hal soal nama akun
 
-Sidebar Anda menampilkan **Setyo Wisodo**, dan alamat toko `setyowisodo.gumroad.com` — sudah sesuai. Yang tetap perlu dipastikan: nama pada kolom **"Pay to the order of"** di *Settings → Payments* harus sama persis dengan nama pemilik rekening bank. Kalau berbeda, pencairan ditolak dan uang tertahan di saldo. Minimum pencairan **$100** (terkunci untuk rekening Indonesia): di harga $45, dana pertama cair setelah tiga penjualan; di bundle $59, setelah dua.
+Sidebar Anda menampilkan **Setyo Wisodo**, dan alamat toko `setyowisodo.gumroad.com` — sudah sesuai. Yang tetap perlu dipastikan: nama pada kolom **"Pay to the order of"** di *Settings → Payments* harus sama persis dengan nama pemilik rekening bank. Kalau berbeda, pencairan ditolak dan uang tertahan di saldo. Minimum pencairan **$100** (terkunci untuk rekening Indonesia): di harga $45, dana pertama cair setelah **tiga penjualan**.

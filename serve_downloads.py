@@ -28,9 +28,10 @@ MKT = [
     ("hero", "Hero transparan", "PNG, latar kosong untuk banner"),
 ]
 
+# Hanya edisi Inggris yang dijual. Edisi Indonesia tetap dirender sebagai alat
+# koreksi internal, tetapi tidak ditampilkan di halaman ini.
 EDITIONS = [
     ("EN", "Surviving_the_Future_EN"),
-    ("ID", "Bertahan_Hidup_di_Masa_Depan_ID"),
 ]
 
 
@@ -70,8 +71,7 @@ def build_html(host=""):
 
     parts.append('<h2>Teks deskripsi siap tempel</h2><div class="grid">')
     for slug, t in [("en-plain", "EN — teks polos (paling gampang)"),
-                    ("en", "EN — berformat"), ("id", "ID — Bertahan Hidup"),
-                    ("bundle", "Bundle — dua edisi"), ("sample", "Sampel gratis")]:
+                    ("en", "EN — berformat"), ("sample", "Sampel gratis")]:
         parts.append(f'<a class="card" href="/copy/{slug}" target="_blank">'
                      f'<div class="meta"><b>{html.escape(t)}</b>'
                      f'<span>{"salin semua teks di halaman ini" if slug == "en-plain" else "buka → Ctrl+A → Ctrl+C → tempel di Description"}</span></div></a>')
@@ -84,36 +84,20 @@ def build_html(host=""):
                           title, note))
     parts.append("</div>")
 
-    parts.append('<h2>Foto marketplace — Indonesia</h2><div class="grid">')
-    for key, title, note in MKT:
-        ext = "png" if key == "hero" and "transparan" in title else "jpg"
-        parts.append(card("marketplace", f"Bertahan_Hidup_di_Masa_Depan_ID_mkt_{key}.{ext}",
-                          title, note))
-    parts.append("</div>")
-
-    parts.append('<h2>Kedua edisi</h2><div class="grid">')
-    parts.append(card("marketplace", "pair_mkt_lineup.jpg", "Lineup dua edisi",
-                      "3600 × 2400 — untuk produk bundle"))
-    parts.append("</div>")
-
     parts.append('<h2>Sampul Gumroad</h2><div class="grid">')
     for root, f, t in [
         ("gumroad", "cover_en_1_hero.png", "EN — sampul 1"),
         ("gumroad", "cover_en_2_inside.png", "EN — sampul 2, halaman asli"),
         ("gumroad", "cover_en_3_quote.png", "EN — sampul 3, kutipan"),
-        ("gumroad", "cover_id_1_hero.png", "ID — sampul 1"),
-        ("gumroad", "cover_id_2_inside.png", "ID — sampul 2"),
-        ("gumroad", "cover_id_3_quote.png", "ID — sampul 3"),
-        ("gumroad", "cover_bundle_1_hero.png", "Bundle — sampul 1"),
         ("gumroad", "cover_sample_1_hero.png", "Sampel — sampul 1"),
         ("gumroad", "thumb_en.png", "Thumbnail EN"),
-        ("gumroad", "thumb_id.png", "Thumbnail ID"),
+        ("gumroad", "thumb_sample.png", "Thumbnail sampel"),
         ("gumroad", "profile_avatar.png", "Avatar profil"),
     ]:
         parts.append(card(root, f, t))
     parts.append("</div>")
 
-    parts.append('<h2>Buku</h2><div class="grid">')
+    parts.append('<h2>Buku — edisi Inggris (satu-satunya yang dijual)</h2><div class="grid">')
     for tag, slug in EDITIONS:
         for f, t in [
             (f"{slug}_ebook.pdf", f"{tag} — PDF lengkap (sampul + isi)"),
@@ -160,6 +144,10 @@ code{{background:#0d1b2a;border:1px solid var(--line);border-radius:5px;
 <p class="lede">Klik kartu mana pun untuk mengunduh. Foto marketplace berukuran
 3000 × 3000 px, siap diunggah ke Gumroad, Amazon, atau Etsy.</p>
 {''.join(parts)}
+<h2>Edisi Indonesia</h2>
+<p class="lede">Edisi Indonesia tidak dijual. Berkasnya tetap dirender sebagai pembanding
+saat menyunting — tidak ditautkan di sini, tidak diunggah ke Gumroad, dan tidak
+dipromosikan.</p>
 <h2>Cadangan permanen</h2>
 <p class="lede">Kalau tautan preview ini berhenti bekerja (sandbox sesi berakhir),
 semua berkas yang sama tersedia di repositori:
@@ -183,9 +171,7 @@ class Handler(BaseHTTPRequestHandler):
 
         if path.startswith("/copy/"):
             name = path[len("/copy/"):].strip("/").lower()
-            fname = {"en": "listing_en.html", "id": "listing_id.html",
-                     "bundle": "listing_bundle.html",
-                     "sample": "listing_sample.html",
+            fname = {"en": "listing_en.html", "sample": "listing_sample.html",
                      "en-plain": "listing_en_plain.txt"}.get(name)
             full = os.path.join(PUB, "gumroad", "copy", fname or "")
             if fname and os.path.isfile(full):

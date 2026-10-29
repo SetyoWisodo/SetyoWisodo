@@ -10,9 +10,9 @@ dengan aturan yang jelas supaya tidak berubah menjadi obral.
 | Produk | Harga | Bersih setelah biaya |
 |---|---|---|
 | **Surviving the Future (EN)** | **$45** | **$38,40** |
-| Bertahan Hidup di Masa Depan (ID) | **$29** | **$24,46** |
-| Bundle keduanya | **$59** | **$50,59** |
-| Sampel | $0 | — |
+| Sampel (EN) | $0 | — |
+
+Hanya edisi Inggris yang dijual (keputusan 29 Oktober 2026). Edisi Indonesia disimpan sebagai pembanding saat menyunting — tidak dijual, tidak dipromosikan, dan tidak punya halaman produk. Karena itu tidak ada harga ID dan tidak ada bundle.
 
 ### Dari mana angka $45
 
@@ -58,16 +58,15 @@ Diskon hanya alat untuk mendapatkan nomor 2.
 
 ## 3. Tangga diskon
 
-Empat tingkat, masing-masing punya pekerjaan sendiri. Jangan menambah tingkat
-kelima — tangga yang terlalu panjang membuat pembeli menunggu potongan berikutnya
-dan tidak membeli sama sekali.
+Tiga tingkat (termasuk harga penuh), masing-masing punya pekerjaan sendiri. Jangan
+menambah tingkat keempat — tangga yang terlalu panjang membuat pembeli menunggu
+potongan berikutnya dan tidak membeli sama sekali.
 
 | Kode | Untuk siapa | Diskon | Harga | Bersih Anda | Batas |
 |---|---|---|---|---|---|
 | *(tanpa kode)* | pembeli biasa | — | $45 | **$38,40** | — |
 | `LAUNCH20` | 50 pembeli pertama | 20% | $36,00 | **$30,56** | 50 pemakaian, 30 hari |
 | `KAMPUS25` | dosen & mahasiswa | 25% | $33,75 | **$28,60** | 100 pemakaian, tanpa batas waktu |
-| `BUNDLEUP40` | yang sudah beli EN, mau ID | 40% | $17,40 | **$14,36** | hanya lewat email pasca-beli |
 
 ### Kenapa 20%, bukan 50%
 
@@ -84,17 +83,6 @@ menyebarkan nama Anda di silabus.
 
 Sebar kode ini di grup dosen, milis kampus, dan forum mahasiswa pascasarjana.
 **Jangan** pasang di halaman produk — yang membayar penuh tidak perlu tahu.
-
-### Kenapa BUNDLEUP40 hanya lewat email
-
-Ia tidak menurunkan harga di halaman. Ia hanya diberikan kepada orang yang
-**sudah** membeli, sehingga tidak bisa dipakai calon pembeli untuk menawar
-edisi Inggris. Efeknya menaikkan nilai satu pelanggan dari $45 ke $62,40.
-
-Cara memasangnya: Gumroad → **Workflows** → email otomatis 7 hari setelah
-pembelian EN, berisi kode `BUNDLEUP40`.
-
----
 
 ## 4. Aturan main diskon
 
@@ -148,9 +136,9 @@ harga di Amerika dan Eropa.
 ### 5.5 Tip dan upsell
 
 - **Tipping**: nyalakan. Pembaca yang tersentuh sering memberi $5–10 lebih.
-- **Upsell**: di checkout EN, tawarkan bundle $59 sebagai peningkatan. Pembeli
-  yang sedang mengeluarkan $45 jauh lebih mungkin menambah $14 daripada membeli
-  produk kedua dari nol.
+- **Upsell**: tidak ada produk kedua untuk ditawarkan. Gantinya, arahkan pembeli
+  ke **sampel gratis** untuk dibagikan ke kolega — satu pembaca yang meneruskan
+  tautan lebih bernilai daripada satu upsell yang dipaksakan.
 
 ---
 
@@ -161,7 +149,7 @@ harga di Amerika dan Eropa.
 | **1** | Terbitkan sampel gratis. Salin URL-nya |
 | **1** | Terbitkan EN $45 dengan `LAUNCH20` aktif |
 | **1** | Kirim ke 20 orang yang Anda kenal secara pribadi — bukan broadcast |
-| **3** | Terbitkan bundle $59 dan produk ID $29 |
+| **3** | Kirim sampel gratis ke 10 dosen yang mengampu mata kuliah terkait |
 | **7** | Posting di 3 grup akademik dengan `KAMPUS25` |
 | **10** | Hubungi 5 penulis newsletter untuk afiliasi 30% |
 | **14** | Terbitkan satu bab gratis sebagai tulisan umum, tautkan ke sampel |
@@ -204,8 +192,8 @@ Di atas $8 → naikkan harga ke $55 dan ulangi sebulan.
   jawaban atas keraguan, bukan pembuka percakapan.
 - **Jangan mengumumkan "harga naik besok"** lalu tidak menaikkannya. Sekali
   berbohong soal harga, semua angka Anda kehilangan arti.
-- **Jangan menurunkan harga ID di bawah $15.** Di bawah itu, biaya tetap $0,80
-  memakan 20% dari penerimaan, dan Anda menjual 473 halaman lebih murah
+- **Jangan menurunkan harga di bawah $30.** Di bawah itu, biaya tetap $0,80
+  memakan porsi yang makin besar, dan Anda menjual 457 halaman lebih murah
   daripada satu kopi di kafe.
 - **Jangan pakai kata "diskon" di judul halaman produk.** Halaman menjual
   buku. Kode yang menjual harga.

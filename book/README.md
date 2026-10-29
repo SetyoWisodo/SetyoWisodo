@@ -3,9 +3,13 @@
 *Crisis, Climate, and Human Resilience* · *Krisis, Iklim, dan Ketahanan Manusia*
 Setyo Wisodo, 2026. Two editions: English (EN) and Indonesian (ID).
 
+**Sold edition: English only** (decision of 29 October 2026). The Indonesian edition is
+kept as a cross-check for copy-editing — every number and argument is verified against
+it — and is not published, promoted, or sold.
+
 A data-rich, academically grounded guide to living through the crises caused by global warming:
 24 chapters, 25 data tables, 24 case studies, appendices (checklists, glossary, index, references,
-notes on event sources), and **145 references** per edition. Every chapter closes with a numbered
+notes on event sources), and **152 works cited plus 23 further reading** per edition. Every chapter closes with a numbered
 Case Study and a Future Scenarios section that states what would falsify its own predictions.
 
 ## Current build
@@ -15,7 +19,7 @@ Case Study and a Future Scenarios section that states what would falsify its own
 | Pages (A4, 12 pt Tinos) | **457** | **473** |
 | Words (`wc -w`) | **212,489** | **176,674** |
 | In-text citations | 698 | 662 |
-| References | 172 (149 cited in text) | 172 (145 cited in text) |
+| References | 152 works cited + 23 further reading | 152 works cited + 27 further reading |
 | PDF outline entries | 327 | 327 |
 | Data figures | 11 | 11 |
 
@@ -34,7 +38,7 @@ Case Study and a Future Scenarios section that states what would falsify its own
 | `3d/*_3d_back.png` | 3D render from behind: the real back panel, barcode box removed |
 | `3d/*_3d_front_back.png` | Front and back in one frame, for stores that allow one gallery image |
 | `3d/pair_3d_square.png` | Both editions side by side in one frame |
-| `marketplace/` | Six 3000 px angles per edition + bundle lineup, for Amazon/Etsy/Gumroad |
+| `marketplace/` | Six 3000 px angles per edition, for Amazon/Etsy/Gumroad; the pair lineup is only for a bundle that is not offered |
 | `*_sample.pdf` | Free sample: full contents, preface, all of Chapter 1, one figure spread, closing page |
 | `sold/*.pdf` | Per-buyer copies with a licence page and a name on every page (git-ignored) |
 | `gumroad/` | Marketplace covers (2560×1440), thumbnails (1600×1600), profile avatar (800×800) and paste-ready listing copy |

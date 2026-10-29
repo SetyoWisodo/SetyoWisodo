@@ -126,26 +126,23 @@ sementara dari $45 menyisakan $36.
 
 | Produk | Harga | Bersih per penjualan |
 |---|---|---|
-| Sampel (EN + ID) | **$0** | — |
+| Sampel (EN) | **$0** | — |
 | **Surviving the Future (EN)** | **$45** | **$38,40** |
-| Bertahan Hidup di Masa Depan (ID) | **$29** | **$24,46** |
-| Bundle keduanya | **$59** | **$50,59** |
 
-Edisi Indonesia **sengaja lebih murah**: pembeli lokal membandingkannya dengan buku
-berbahasa Indonesia (Rp 100.000–180.000), bukan dengan ebook akademik internasional.
-$29 dengan diskon PPP turun lagi menjadi sekitar $12–23 — masuk jangkauan.
+**Hanya edisi Inggris yang dijual** (keputusan 29 Oktober 2026). Edisi Indonesia tetap
+ada sebagai pembanding saat menyunting, tetapi tidak dijual, tidak dipasarkan, dan tidak
+punya halaman produk. Karena itu tidak ada harga ID dan tidak ada bundle.
 
 ### Promosi: lihat `PROMOSI.md`
 
-Ada empat tingkat diskon dengan aturan yang jelas, bukan obral:
+Ada dua tingkat diskon dengan aturan yang jelas, bukan obral:
 
 | Kode | Diskon | Harga | Bersih |
 |---|---|---|---|
 | `LAUNCH20` — 50 pembeli pertama | 20% | $36,00 | $30,56 |
 | `KAMPUS25` — dosen & mahasiswa | 25% | $33,75 | $28,60 |
-| `BUNDLEUP40` — pembeli EN yang mau edisi ID | 40% | $17,40 | $14,36 |
 
-Ditambah sampel gratis, afiliasi 30%, Discover, PPP, tip, dan upsell bundle.
+Ditambah sampel gratis, afiliasi 30%, Discover, dan PPP.
 Susunan lengkap beserta kalender 30 hari ada di `PROMOSI.md`.
 
 ---
@@ -168,7 +165,7 @@ berapa pun.
 
 ## 8. Yang saya ubah di berkas
 
-Sudah diterapkan: EN $45, ID $29, bundle $59. Teks listing ikut disesuaikan —
+Sudah diterapkan: **EN $45 saja** (ID dan bundle dibatalkan 29 Oktober 2026). Teks listing ikut disesuaikan —
 bagian "WHY $45" menjelaskan patokannya secara terbuka, dan pembanding artikel
 jurnal tetap dipakai karena masih berlaku.
 

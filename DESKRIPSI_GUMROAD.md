@@ -48,15 +48,15 @@ Baris poin tidak perlu diapa-apakan. Jangan pakai Heading 1 — judul produk sud
 
 ---
 
-## Teks untuk tiga produk lainnya
+## Teks untuk produk kedua (sampel gratis)
 
 | Produk | Buka | Catatan |
 |---|---|---|
-| Free sample (EN) | `/copy/sample` | — |
-| Bertahan Hidup di Masa Depan (ID) | `/copy/id` | 473 halaman, 152 sumber |
-| Bundle EN + ID | `/copy/bundle` | 457 + 473 halaman |
+| Free sample (EN) | `/copy/sample` | 36 halaman, gratis |
 
-**Ganti setelah sampel terbit:** di deskripsi EN dan ID ada baris rujukan ke sampel. Letaknya **bukan di awal** — ia ada di bagian **IF $45 IS TOO MUCH**, yaitu setelah bagian **WHY $45** dan sebelum **WHO IT IS FOR**, kira-kira 60% ke bawah teks:
+**Hanya edisi Inggris yang dijual.** Teks `listing_id.txt` dan `listing_bundle.txt` tidak dipakai — edisi Indonesia disimpan untuk koreksi internal, bukan untuk dipasarkan.
+
+**Ganti setelah sampel terbit:** di deskripsi EN ada baris rujukan ke sampel. Letaknya **bukan di awal** — ia ada di bagian **IF $45 IS TOO MUCH**, yaitu setelah bagian **WHY $45** dan sebelum **WHO IT IS FOR**, kira-kira 60% ke bawah teks:
 
 ```
 IF $45 IS TOO MUCH
@@ -72,7 +72,7 @@ Cara cepat menemukannya: klik di dalam kotak Description, lalu **Ctrl+End** (kur
 Read the free sample first: setyowisodo.gumroad.com/l/surviving-the-future-sample
 ```
 
-Di edisi ID barisnya berbunyi `Baca sampel gratisnya dulu: [tautan ke produk sampel]`, posisinya sama.
+(Baris serupa di edisi ID tidak perlu diurus — edisi itu tidak dijual.)
 
 ---
 

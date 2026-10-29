@@ -431,19 +431,29 @@ def save(img, name, note):
 
 
 if __name__ == "__main__":
-    print("materi Gumroad:")
+    # Hanya edisi Inggris yang dijual (29 Okt 2026). Materi ID dan bundle tidak
+    # dibuat lagi supaya tidak ada berkas usang yang terunggah tanpa sengaja.
+    # Konfigurasi ID/BUNDLE tetap ada di berkas ini; jalankan `--all` kalau
+    # suatu hari kedua edisi ingin dipasarkan lagi.
+    import sys
+    semua = "--all" in sys.argv
+
+    print("materi Gumroad (edisi Inggris):")
     save(cover_hero(EN, None), "cover_en_1_hero.png", "EN cover 1 hero")
     save(cover_inside(EN, None), "cover_en_2_inside.png", "EN cover 2 inside")
     save(cover_quote(EN, None), "cover_en_3_quote.png", "EN cover 3 quote")
-    save(cover_hero(ID, None), "cover_id_1_hero.png", "ID cover 1 hero")
-    save(cover_inside(ID, None), "cover_id_2_inside.png", "ID cover 2 inside")
-    save(cover_quote(ID, None), "cover_id_3_quote.png", "ID cover 3 quote")
-    save(cover_hero(BUNDLE, None), "cover_bundle_1_hero.png", "Bundle cover 1 hero")
-    save(cover_quote(BUNDLE, None), "cover_bundle_2_quote.png", "Bundle cover 2 quote")
     save(cover_hero(SAMPLE, None), "cover_sample_1_hero.png", "Sample cover 1 hero")
 
     save(thumb(EN), "thumb_en.png", "EN thumbnail")
-    save(thumb(ID), "thumb_id.png", "ID thumbnail")
-    save(thumb(BUNDLE), "thumb_bundle.png", "Bundle thumbnail")
     save(thumb(SAMPLE), "thumb_sample.png", "Sample thumbnail")
     save(avatar(), "profile_avatar.png", "Profile avatar")
+
+    if semua:
+        print("  (tambahan: ID + bundle)")
+        save(cover_hero(ID, None), "cover_id_1_hero.png", "ID cover 1 hero")
+        save(cover_inside(ID, None), "cover_id_2_inside.png", "ID cover 2 inside")
+        save(cover_quote(ID, None), "cover_id_3_quote.png", "ID cover 3 quote")
+        save(cover_hero(BUNDLE, None), "cover_bundle_1_hero.png", "Bundle cover 1 hero")
+        save(cover_quote(BUNDLE, None), "cover_bundle_2_quote.png", "Bundle cover 2 quote")
+        save(thumb(ID), "thumb_id.png", "ID thumbnail")
+        save(thumb(BUNDLE), "thumb_bundle.png", "Bundle thumbnail")

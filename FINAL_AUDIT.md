@@ -63,7 +63,7 @@ Dihasilkan oleh `final_audit.py`. Dijalankan ulang sampai nol FAIL.
 
 ## harga
 
-- ✅ EN $45 · ID $29 · bundle $59 konsisten di dokumen penjualan
+- ✅ penjualan hanya edisi Inggris: $45 + sampel $0, tanpa ID/bundle
 
 ## pdf
 

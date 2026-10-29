@@ -35,7 +35,7 @@ bukan 10%. Tabel lengkapnya sudah diperbarui di `GUMROAD.md`.
 | Harga produk | Bersih per penjualan | Penjualan untuk $100 |
 |---|---|---|
 | $45 (EN) | $38,40 | **3** |
-| $59 (bundle) | $50,59 | **2** |
+| $36 dengan `LAUNCH20` | $30,56 | **4** |
 
 Di harga $45, dana pertama Anda cair setelah tiga penjualan. Jangan turunkan harga
 hanya agar "cepat laku" — yang menentukan bukan harga, melainkan dari mana
@@ -142,12 +142,10 @@ Efeknya untuk buku Anda: harga $45 di Amerika tetap $45, sementara pembeli Indon
 membayar sekitar $18–36 tergantung penilaian Bank Dunia saat itu (diskon 20–60%).
 Rupiahnya jadi lebih masuk akal tanpa Anda harus mengorbankan harga internasional.
 
-**Jujur soal ini:** edisi Indonesia sengaja dipasang lebih murah ($29, bukan $45)
-karena pembeli lokal membandingkannya dengan buku berbahasa Indonesia, bukan dengan
-ebook akademik internasional. Dengan diskon PPP, pembeli Indonesia turun lagi ke
-sekitar $12–23. Itu bukan menggembosi harga — itu menyesuaikan daya beli pasar yang
-berbeda, dan buku akademik berbahasa Inggris memang lazim dihargai lebih tinggi
-daripada edisi lokalnya.
+**Catatan:** hanya edisi Inggris yang dijual, jadi PPP bekerja sepenuhnya lewat satu
+harga $45 — pembeli Indonesia membayar sekitar $18–36 menurut penilaian Bank Dunia.
+Edisi Indonesia tidak dipasang sebagai produk; ia disimpan sebagai pembanding saat
+menyunting naskah.
 
 ---
 
@@ -170,8 +168,8 @@ Urutannya penting:
    kecil risikonya kalau ada yang salah.
 2. Salin URL-nya (`gumroad.com/l/xxxxx`).
 3. **Produk EN $45**, tempel URL sampel ke deskripsi.
-4. **Produk ID $29**, sama.
-5. **Produk bundle $59**, sama.
+
+Hanya dua produk. Edisi Indonesia tidak dijual (keputusan 29 Oktober 2026).
 
 Deskripsi dan sampulnya sudah siap di `book/publish/gumroad/`. Langkah per produk ada
 di `GUMROAD.md` bagian 5.
