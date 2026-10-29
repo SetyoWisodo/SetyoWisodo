@@ -1,0 +1,40 @@
+{
+  "_catatan": "SEMUA ANGKA DI FILE INI ADALAH ASUMSI AWAL, bukan angka nyata. Ganti sebelum dipakai untuk memutuskan harga. File ini satu-satunya tempat biaya disimpan. Harga green blend = rata-rata tertimbang komponen (70/30 Raung×Ijen, 60/40 Raung×Ijen).",
+  "asumsi": {
+    "yield_sangrai": 0.8,
+    "kemasan_per_bungkus": 3500,
+    "label_stiker": 700,
+    "tenaga_kerja_per_bungkus": 1500,
+    "lain_lain_per_bungkus": 300,
+    "target_margin_kotor": 0.35,
+    "biaya_tetap_bulanan": [
+      {
+        "nama": "Domain + email brand",
+        "nilai": 25000
+      },
+      {
+        "nama": "Listrik & gas (bagian Nocturne)",
+        "nilai": 350000
+      },
+      {
+        "nama": "Iklan & produksi konten",
+        "nilai": 750000
+      },
+      {
+        "nama": "Cadangan peralatan & kemasan",
+        "nilai": 150000
+      }
+    ]
+  },
+  "harga_green_per_kg": {
+    "gayo": 150000,
+    "kintamani": 150000,
+    "blue-mount-ijen": 140000,
+    "semeru": 135000,
+    "arjuno": 55000,
+    "raung": 52000,
+    "ijen-excelsa": 46000,
+    "blend-7030": 78400,
+    "blend-6040": 87200
+  }
+}

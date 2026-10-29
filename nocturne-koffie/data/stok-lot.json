@@ -1,0 +1,68 @@
+{
+  "_catatan": "Satu baris per lot green bean. 'terpakai_kg' = green bean yang sudah disangrai. Stok yang tampil di situs dihitung dari sisa green bean x yield, bukan dari kopi jadi yang menumpuk.",
+  "lots": [
+    {
+      "id": "LOT-IJN-2610",
+      "produk": "blue-mount-ijen",
+      "tanggal_masuk": "2026-10-20",
+      "green_kg": 20,
+      "terpakai_kg": 17.0,
+      "harga_green_per_kg": 140000,
+      "status": "aktif"
+    },
+    {
+      "id": "LOT-RNG-2610",
+      "produk": "raung",
+      "tanggal_masuk": "2026-10-18",
+      "green_kg": 25,
+      "terpakai_kg": 11.0,
+      "harga_green_per_kg": 80000,
+      "status": "aktif"
+    },
+    {
+      "id": "LOT-GYO-2610",
+      "produk": "gayo",
+      "tanggal_masuk": "2026-10-12",
+      "green_kg": 10,
+      "terpakai_kg": 7.6,
+      "harga_green_per_kg": 150000,
+      "status": "aktif"
+    },
+    {
+      "id": "LOT-SMR-2610",
+      "produk": "semeru",
+      "tanggal_masuk": "2026-10-05",
+      "green_kg": 8,
+      "terpakai_kg": 3.4,
+      "harga_green_per_kg": 135000,
+      "status": "aktif"
+    },
+    {
+      "id": "LOT-KTM-2610",
+      "produk": "kintamani",
+      "tanggal_masuk": "2026-09-28",
+      "green_kg": 8,
+      "terpakai_kg": 8.0,
+      "harga_green_per_kg": 150000,
+      "status": "habis"
+    },
+    {
+      "id": "LOT-ARJ-2610",
+      "produk": "arjuno",
+      "tanggal_masuk": "2026-10-15",
+      "green_kg": 12,
+      "terpakai_kg": 2.0,
+      "harga_green_per_kg": 85000,
+      "status": "aktif"
+    },
+    {
+      "id": "LOT-EXC-2610",
+      "produk": "ijen-excelsa",
+      "tanggal_masuk": "2026-10-10",
+      "green_kg": 10,
+      "terpakai_kg": 1.4,
+      "harga_green_per_kg": 70000,
+      "status": "aktif"
+    }
+  ]
+}

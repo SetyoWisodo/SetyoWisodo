@@ -1,0 +1,14 @@
+{
+  "_catatan": "Status dokumen usaha. 'selesai' = sudah di tangan. 'belum' = masih ditunggu. Ini yang menentukan boleh-tidaknya kampanye besar dan klaim di situs.",
+  "dokumen": [
+    { "nama": "NIB (perizinan berusaha)", "status": "belum", "catatan": "Dibutuhkan untuk verifikasi Meta/WhatsApp API & pendaftaran marketplace" },
+    { "nama": "Sertifikat halal", "status": "belum", "catatan": "Opsional untuk kopi, tapi menaikkan kepercayaan di marketplace" },
+    { "nama": "Izin publikasi nama petani (7 nama)", "status": "belum", "catatan": "Nama sudah tayang mengikuti brief; izin menyusul" },
+    { "nama": "Izin pemakaian nama & logo Ais Coffee Roastery", "status": "belum", "catatan": "Wajib tertulis karena nama mitra dipakai di situs" },
+    { "nama": "Kebijakan privasi", "status": "belum", "catatan": "Wajib sebelum formulir member & pelacakan analitik aktif" },
+    { "nama": "Syarat & ketentuan", "status": "belum", "catatan": "Termasuk kebijakan garansi & pengembalian" },
+    { "nama": "Kebijakan pengiriman & ongkir", "status": "belum", "catatan": "Butuh keputusan kurir & tarif" },
+    { "nama": "Nomor WhatsApp Business aktif", "status": "selesai", "catatan": "+62 898-8188-800 (dari brief, perlu konfirmasi)" },
+    { "nama": "Domain & email brand", "status": "belum", "catatan": "Email Gmail dipakai sementara" }
+  ]
+}

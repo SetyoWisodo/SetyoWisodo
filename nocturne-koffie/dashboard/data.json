@@ -1,0 +1,966 @@
+{
+  "hari_ini": "2026-10-30",
+  "dibuat": "30 Oct 2026 00:24 WIB",
+  "kpi": {
+    "minggu": "1",
+    "mulai": "2026-10-26",
+    "order": 3,
+    "omzet": 264000.0,
+    "aov": 88000.0,
+    "langganan": 0,
+    "b2b": 0,
+    "chat": 11,
+    "followers": 187,
+    "catatan": "minggu uji coba; 2 order dari IG, 1 dari WA"
+  },
+  "peringatan": [
+    {
+      "level": "peringatan",
+      "divisi": "Produksi & QC",
+      "teks": "Blue Mount Ijen tersisa 9 bungkus 250 g.",
+      "aksi": "Jadwalkan lot berikutnya; beri prioritas ke langganan."
+    },
+    {
+      "level": "peringatan",
+      "divisi": "Penjualan & CRM",
+      "teks": "Order NK-1028-01 (Bagus) menunggu 2 hari.",
+      "aksi": "Konfirmasi & kirim hari ini; balas < 2 jam."
+    },
+    {
+      "level": "peringatan",
+      "divisi": "Penjualan & CRM",
+      "teks": "Order NK-1028-02 (Dewi) menunggu 2 hari.",
+      "aksi": "Konfirmasi & kirim hari ini; balas < 2 jam."
+    },
+    {
+      "level": "info",
+      "divisi": "Operasional & Logistik",
+      "teks": "Order NK-1027-01 belum punya nomor resi.",
+      "aksi": "Kirim resi ke pembeli lewat WhatsApp."
+    },
+    {
+      "level": "info",
+      "divisi": "Operasional & Logistik",
+      "teks": "Order NK-1028-02 belum punya nomor resi.",
+      "aksi": "Kirim resi ke pembeli lewat WhatsApp."
+    },
+    {
+      "level": "info",
+      "divisi": "Produksi & QC",
+      "teks": "Batch NK-GYO-2610-A ditolak (81.5).",
+      "aksi": "Pastikan batch pengganti sudah disangrai dan dicicipi."
+    },
+    {
+      "level": "info",
+      "divisi": "Brand & Legal",
+      "teks": "8 dokumen legal belum selesai.",
+      "aksi": "Lihat daftar di papan bagian Legal."
+    }
+  ],
+  "divisi": {
+    "Produksi & QC": {
+      "metrics": [
+        [
+          "Batch 30 hari",
+          4
+        ],
+        [
+          "Batch ditolak",
+          1
+        ],
+        [
+          "SKU stok kritis",
+          1
+        ],
+        [
+          "Skor cupping rata",
+          84.1
+        ]
+      ],
+      "next": "Catat batch sangrai berikutnya & perbarui status stok di situs."
+    },
+    "Penjualan & CRM": {
+      "metrics": [
+        [
+          "Order perlu diproses",
+          2
+        ],
+        [
+          "Restock jatuh tempo",
+          0
+        ],
+        [
+          "Chat masuk",
+          11
+        ],
+        [
+          "Resi belum dikirim",
+          2
+        ]
+      ],
+      "next": "Balas semua chat < 2 jam dan kirim resi yang tertunda."
+    },
+    "Marketing & Konten": {
+      "metrics": [
+        [
+          "Konten hari ini",
+          0
+        ],
+        [
+          "Konten terlambat",
+          0
+        ],
+        [
+          "Followers IG",
+          187
+        ],
+        [
+          "Chat dari konten",
+          "—"
+        ]
+      ],
+      "next": "Selesaikan konten terjadwal; kalau kosong, rekam 3 klip mentah hari ini."
+    },
+    "Operasional & Logistik": {
+      "metrics": [
+        [
+          "Siap dikirim",
+          2
+        ],
+        [
+          "Tanpa resi",
+          2
+        ],
+        [
+          "Order 30 hari",
+          3
+        ],
+        [
+          "Kemasan tersedia",
+          "cek stok"
+        ]
+      ],
+      "next": "Packing hanya setelah pembayaran terkonfirmasi; kirim resi hari yang sama."
+    },
+    "Keuangan": {
+      "metrics": [
+        [
+          "Omzet minggu ini",
+          "Rp264.000"
+        ],
+        [
+          "AOV",
+          "Rp88.000"
+        ],
+        [
+          "Margin terburuk",
+          "42%"
+        ],
+        [
+          "Break-even",
+          "35 order/bln"
+        ]
+      ],
+      "next": "Catat pengeluaran mingguan dan cocokkan dengan biaya tetap."
+    },
+    "Brand & Legal": {
+      "metrics": [
+        [
+          "Dokumen selesai",
+          "1/9"
+        ],
+        [
+          "Izin yang ditunggu",
+          "8"
+        ],
+        [
+          "Klaim situs",
+          "sesuai brief 11.8"
+        ],
+        [
+          "Data petani",
+          "izin publikasi"
+        ]
+      ],
+      "next": "Lengkapi NIB & izin publikasi nama petani sebelum kampanye besar."
+    }
+  },
+  "konten_hari": [],
+  "konten_telat": [],
+  "konten_berikut": [
+    {
+      "tanggal": "2026-11-03",
+      "hari": "Senin",
+      "platform": "IG Reels",
+      "jenis": "Video",
+      "judul": "12 menit terakhir sebelum kopi dikemas",
+      "pilar": "Proses",
+      "status": "belum"
+    },
+    {
+      "tanggal": "2026-11-04",
+      "hari": "Selasa",
+      "platform": "IG Carousel",
+      "jenis": "Carousel",
+      "judul": "Kenapa kami cetak tanggal sangrai, bukan kedaluwarsa",
+      "pilar": "Bukti",
+      "status": "belum"
+    },
+    {
+      "tanggal": "2026-11-05",
+      "hari": "Rabu",
+      "platform": "TikTok",
+      "jenis": "Video",
+      "judul": "Suara first crack",
+      "pilar": "Proses",
+      "status": "belum"
+    },
+    {
+      "tanggal": "2026-11-06",
+      "hari": "Kamis",
+      "platform": "IG Story",
+      "jenis": "Story",
+      "judul": "Tiga tanda kopi masih segar",
+      "pilar": "Edukasi",
+      "status": "belum"
+    }
+  ],
+  "proses": [
+    {
+      "tanggal": "2026-10-28",
+      "nomor": "NK-1028-01",
+      "nama": "Bagus",
+      "wa": "6281222222222",
+      "kota": "Surabaya",
+      "produk": "Blend 70/30",
+      "ukuran": "1 kg",
+      "qty": "1",
+      "total": "170000",
+      "ongkir": "18000",
+      "status": "baru",
+      "sumber": "whatsapp",
+      "resi": "",
+      "catatan": "minta giling espresso",
+      "umur_hari": 2,
+      "telat": true
+    },
+    {
+      "tanggal": "2026-10-28",
+      "nomor": "NK-1028-02",
+      "nama": "Dewi",
+      "wa": "6281333333333",
+      "kota": "Malang",
+      "produk": "Gayo",
+      "ukuran": "100 g",
+      "qty": "3",
+      "total": "135000",
+      "ongkir": "15000",
+      "status": "diproses",
+      "sumber": "tokopedia",
+      "resi": "",
+      "catatan": "hadiah",
+      "null": [
+        " minta kartu ucapan"
+      ],
+      "umur_hari": 2,
+      "telat": true
+    }
+  ],
+  "follow": [],
+  "resi": [
+    {
+      "tanggal": "2026-10-27",
+      "nomor": "NK-1027-01",
+      "nama": "Rani",
+      "wa": "6281111111111",
+      "kota": "Banyuwangi",
+      "produk": "Raung",
+      "ukuran": "250 g",
+      "qty": "2",
+      "total": "92000",
+      "ongkir": "0",
+      "status": "dikirim",
+      "sumber": "instagram",
+      "resi": "",
+      "catatan": "COD area kota",
+      "umur_hari": 3
+    },
+    {
+      "tanggal": "2026-10-28",
+      "nomor": "NK-1028-02",
+      "nama": "Dewi",
+      "wa": "6281333333333",
+      "kota": "Malang",
+      "produk": "Gayo",
+      "ukuran": "100 g",
+      "qty": "3",
+      "total": "135000",
+      "ongkir": "15000",
+      "status": "diproses",
+      "sumber": "tokopedia",
+      "resi": "",
+      "catatan": "hadiah",
+      "null": [
+        " minta kartu ucapan"
+      ],
+      "umur_hari": 2
+    }
+  ],
+  "stok": [
+    {
+      "id": "gayo",
+      "produk": "Gayo",
+      "sisa_green_kg": 2.4,
+      "blend": false,
+      "roasted_g": 1920,
+      "bungkus": {
+        "100 g": 19,
+        "250 g": 7,
+        "500 g": 3,
+        "1 kg": 1
+      },
+      "status_hitung": "tersedia",
+      "status_situs": "tersedia",
+      "beda_status": false,
+      "hari_tersisa": 179,
+      "terjual_28h_g": 300
+    },
+    {
+      "id": "kintamani",
+      "produk": "Kintamani",
+      "sisa_green_kg": 0.0,
+      "blend": false,
+      "roasted_g": 0,
+      "bungkus": {
+        "100 g": 0,
+        "250 g": 0,
+        "500 g": 0,
+        "1 kg": 0
+      },
+      "status_hitung": "habis",
+      "status_situs": "menunggu-panen",
+      "beda_status": false,
+      "hari_tersisa": null,
+      "terjual_28h_g": 0
+    },
+    {
+      "id": "blue-mount-ijen",
+      "produk": "Blue Mount Ijen",
+      "sisa_green_kg": 3.0,
+      "blend": false,
+      "roasted_g": 2400,
+      "bungkus": {
+        "100 g": 24,
+        "250 g": 9,
+        "500 g": 4,
+        "1 kg": 2
+      },
+      "status_hitung": "terbatas",
+      "status_situs": "terbatas",
+      "beda_status": false,
+      "hari_tersisa": null,
+      "terjual_28h_g": 0
+    },
+    {
+      "id": "semeru",
+      "produk": "Semeru",
+      "sisa_green_kg": 4.6,
+      "blend": false,
+      "roasted_g": 3680,
+      "bungkus": {
+        "100 g": 36,
+        "250 g": 14,
+        "500 g": 7,
+        "1 kg": 3
+      },
+      "status_hitung": "tersedia",
+      "status_situs": "tersedia",
+      "beda_status": false,
+      "hari_tersisa": null,
+      "terjual_28h_g": 0
+    },
+    {
+      "id": "arjuno",
+      "produk": "Arjuno",
+      "sisa_green_kg": 10.0,
+      "blend": false,
+      "roasted_g": 8000,
+      "bungkus": {
+        "100 g": 80,
+        "250 g": 32,
+        "500 g": 16,
+        "1 kg": 8
+      },
+      "status_hitung": "tersedia",
+      "status_situs": "tersedia",
+      "beda_status": false,
+      "hari_tersisa": null,
+      "terjual_28h_g": 0
+    },
+    {
+      "id": "raung",
+      "produk": "Raung",
+      "sisa_green_kg": 14.0,
+      "blend": false,
+      "roasted_g": 11200,
+      "bungkus": {
+        "100 g": 112,
+        "250 g": 44,
+        "500 g": 22,
+        "1 kg": 11
+      },
+      "status_hitung": "tersedia",
+      "status_situs": "tersedia",
+      "beda_status": false,
+      "hari_tersisa": 627,
+      "terjual_28h_g": 500
+    },
+    {
+      "id": "ijen-excelsa",
+      "produk": "Ijen Excelsa",
+      "sisa_green_kg": 8.6,
+      "blend": false,
+      "roasted_g": 6880,
+      "bungkus": {
+        "100 g": 68,
+        "250 g": 27,
+        "500 g": 13,
+        "1 kg": 6
+      },
+      "status_hitung": "tersedia",
+      "status_situs": "tersedia",
+      "beda_status": false,
+      "hari_tersisa": null,
+      "terjual_28h_g": 0
+    },
+    {
+      "id": "blend-7030",
+      "produk": "Blend 70/30",
+      "sisa_green_kg": null,
+      "blend": true,
+      "roasted_g": 8000,
+      "bungkus": {
+        "100 g": 80,
+        "250 g": 32,
+        "500 g": 16,
+        "1 kg": 8
+      },
+      "status_hitung": "tersedia",
+      "status_situs": "tersedia",
+      "beda_status": false,
+      "hari_tersisa": 224,
+      "terjual_28h_g": 1000
+    },
+    {
+      "id": "blend-6040",
+      "produk": "Blend 60/40",
+      "sisa_green_kg": null,
+      "blend": true,
+      "roasted_g": 6000,
+      "bungkus": {
+        "100 g": 60,
+        "250 g": 24,
+        "500 g": 12,
+        "1 kg": 6
+      },
+      "status_hitung": "tersedia",
+      "status_situs": "tersedia",
+      "beda_status": false,
+      "hari_tersisa": null,
+      "terjual_28h_g": 0
+    }
+  ],
+  "margin": [
+    {
+      "produk": "Gayo",
+      "id": "gayo",
+      "green_per_kg": 150000.0,
+      "varian": [
+        {
+          "ukuran": "100 g",
+          "harga": 45000.0,
+          "hpp": 24750,
+          "laba": 20250,
+          "margin": 0.45,
+          "sehat": true
+        },
+        {
+          "ukuran": "250 g",
+          "harga": 99000.0,
+          "hpp": 52875,
+          "laba": 46125,
+          "margin": 0.4659,
+          "sehat": true
+        },
+        {
+          "ukuran": "500 g",
+          "harga": 180000.0,
+          "hpp": 99750,
+          "laba": 80250,
+          "margin": 0.4458,
+          "sehat": true
+        },
+        {
+          "ukuran": "1 kg",
+          "harga": 340000.0,
+          "hpp": 193500,
+          "laba": 146500,
+          "margin": 0.4309,
+          "sehat": true
+        }
+      ],
+      "margin_terburuk": 0.4309,
+      "sehat": true
+    },
+    {
+      "produk": "Kintamani",
+      "id": "kintamani",
+      "green_per_kg": 150000.0,
+      "varian": [
+        {
+          "ukuran": "100 g",
+          "harga": 40000.0,
+          "hpp": 24750,
+          "laba": 15250,
+          "margin": 0.3812,
+          "sehat": true
+        },
+        {
+          "ukuran": "250 g",
+          "harga": 90000.0,
+          "hpp": 52875,
+          "laba": 37125,
+          "margin": 0.4125,
+          "sehat": true
+        },
+        {
+          "ukuran": "500 g",
+          "harga": 180000.0,
+          "hpp": 99750,
+          "laba": 80250,
+          "margin": 0.4458,
+          "sehat": true
+        },
+        {
+          "ukuran": "1 kg",
+          "harga": 352000.0,
+          "hpp": 193500,
+          "laba": 158500,
+          "margin": 0.4503,
+          "sehat": true
+        }
+      ],
+      "margin_terburuk": 0.3812,
+      "sehat": true
+    },
+    {
+      "produk": "Blue Mount Ijen",
+      "id": "blue-mount-ijen",
+      "green_per_kg": 140000.0,
+      "varian": [
+        {
+          "ukuran": "100 g",
+          "harga": 39000.0,
+          "hpp": 23500,
+          "laba": 15500,
+          "margin": 0.3974,
+          "sehat": true
+        },
+        {
+          "ukuran": "250 g",
+          "harga": 83000.0,
+          "hpp": 49750,
+          "laba": 33250,
+          "margin": 0.4006,
+          "sehat": true
+        },
+        {
+          "ukuran": "500 g",
+          "harga": 152000.0,
+          "hpp": 93500,
+          "laba": 58500,
+          "margin": 0.3849,
+          "sehat": true
+        },
+        {
+          "ukuran": "1 kg",
+          "harga": 297000.0,
+          "hpp": 181000,
+          "laba": 116000,
+          "margin": 0.3906,
+          "sehat": true
+        }
+      ],
+      "margin_terburuk": 0.3849,
+      "sehat": true
+    },
+    {
+      "produk": "Semeru",
+      "id": "semeru",
+      "green_per_kg": 135000.0,
+      "varian": [
+        {
+          "ukuran": "100 g",
+          "harga": 36000.0,
+          "hpp": 22875,
+          "laba": 13125,
+          "margin": 0.3646,
+          "sehat": true
+        },
+        {
+          "ukuran": "250 g",
+          "harga": 86000.0,
+          "hpp": 48188,
+          "laba": 37812,
+          "margin": 0.4397,
+          "sehat": true
+        },
+        {
+          "ukuran": "500 g",
+          "harga": 149000.0,
+          "hpp": 90375,
+          "laba": 58625,
+          "margin": 0.3935,
+          "sehat": true
+        },
+        {
+          "ukuran": "1 kg",
+          "harga": 287000.0,
+          "hpp": 174750,
+          "laba": 112250,
+          "margin": 0.3911,
+          "sehat": true
+        }
+      ],
+      "margin_terburuk": 0.3646,
+      "sehat": true
+    },
+    {
+      "produk": "Arjuno",
+      "id": "arjuno",
+      "green_per_kg": 55000.0,
+      "varian": [
+        {
+          "ukuran": "100 g",
+          "harga": 25000.0,
+          "hpp": 12875,
+          "laba": 12125,
+          "margin": 0.485,
+          "sehat": true
+        },
+        {
+          "ukuran": "250 g",
+          "harga": 42000.0,
+          "hpp": 23188,
+          "laba": 18812,
+          "margin": 0.4479,
+          "sehat": true
+        },
+        {
+          "ukuran": "500 g",
+          "harga": 78000.0,
+          "hpp": 40375,
+          "laba": 37625,
+          "margin": 0.4824,
+          "sehat": true
+        },
+        {
+          "ukuran": "1 kg",
+          "harga": 148000.0,
+          "hpp": 74750,
+          "laba": 73250,
+          "margin": 0.4949,
+          "sehat": true
+        }
+      ],
+      "margin_terburuk": 0.4479,
+      "sehat": true
+    },
+    {
+      "produk": "Raung",
+      "id": "raung",
+      "green_per_kg": 52000.0,
+      "varian": [
+        {
+          "ukuran": "100 g",
+          "harga": 23000.0,
+          "hpp": 12500,
+          "laba": 10500,
+          "margin": 0.4565,
+          "sehat": true
+        },
+        {
+          "ukuran": "250 g",
+          "harga": 46000.0,
+          "hpp": 22250,
+          "laba": 23750,
+          "margin": 0.5163,
+          "sehat": true
+        },
+        {
+          "ukuran": "500 g",
+          "harga": 80000.0,
+          "hpp": 38500,
+          "laba": 41500,
+          "margin": 0.5188,
+          "sehat": true
+        },
+        {
+          "ukuran": "1 kg",
+          "harga": 152000.0,
+          "hpp": 71000,
+          "laba": 81000,
+          "margin": 0.5329,
+          "sehat": true
+        }
+      ],
+      "margin_terburuk": 0.4565,
+      "sehat": true
+    },
+    {
+      "produk": "Ijen Excelsa",
+      "id": "ijen-excelsa",
+      "green_per_kg": 46000.0,
+      "varian": [
+        {
+          "ukuran": "100 g",
+          "harga": 26000.0,
+          "hpp": 11750,
+          "laba": 14250,
+          "margin": 0.5481,
+          "sehat": true
+        },
+        {
+          "ukuran": "250 g",
+          "harga": 53000.0,
+          "hpp": 20375,
+          "laba": 32625,
+          "margin": 0.6156,
+          "sehat": true
+        },
+        {
+          "ukuran": "500 g",
+          "harga": 97000.0,
+          "hpp": 34750,
+          "laba": 62250,
+          "margin": 0.6418,
+          "sehat": true
+        },
+        {
+          "ukuran": "1 kg",
+          "harga": 185000.0,
+          "hpp": 63500,
+          "laba": 121500,
+          "margin": 0.6568,
+          "sehat": true
+        }
+      ],
+      "margin_terburuk": 0.5481,
+      "sehat": true
+    },
+    {
+      "produk": "Blend 70/30",
+      "id": "blend-7030",
+      "green_per_kg": 78400.0,
+      "varian": [
+        {
+          "ukuran": "100 g",
+          "harga": 30000.0,
+          "hpp": 15800,
+          "laba": 14200,
+          "margin": 0.4733,
+          "sehat": true
+        },
+        {
+          "ukuran": "250 g",
+          "harga": 55000.0,
+          "hpp": 30500,
+          "laba": 24500,
+          "margin": 0.4455,
+          "sehat": true
+        },
+        {
+          "ukuran": "500 g",
+          "harga": 90000.0,
+          "hpp": 55000,
+          "laba": 35000,
+          "margin": 0.3889,
+          "sehat": true
+        },
+        {
+          "ukuran": "1 kg",
+          "harga": 170000.0,
+          "hpp": 104000,
+          "laba": 66000,
+          "margin": 0.3882,
+          "sehat": true
+        }
+      ],
+      "margin_terburuk": 0.3882,
+      "sehat": true
+    },
+    {
+      "produk": "Blend 60/40",
+      "id": "blend-6040",
+      "green_per_kg": 87200.0,
+      "varian": [
+        {
+          "ukuran": "100 g",
+          "harga": 33000.0,
+          "hpp": 16900,
+          "laba": 16100,
+          "margin": 0.4879,
+          "sehat": true
+        },
+        {
+          "ukuran": "250 g",
+          "harga": 57000.0,
+          "hpp": 33250,
+          "laba": 23750,
+          "margin": 0.4167,
+          "sehat": true
+        },
+        {
+          "ukuran": "500 g",
+          "harga": 105000.0,
+          "hpp": 60500,
+          "laba": 44500,
+          "margin": 0.4238,
+          "sehat": true
+        },
+        {
+          "ukuran": "1 kg",
+          "harga": 195000.0,
+          "hpp": 115000,
+          "laba": 80000,
+          "margin": 0.4103,
+          "sehat": true
+        }
+      ],
+      "margin_terburuk": 0.4103,
+      "sehat": true
+    }
+  ],
+  "qc": {
+    "jumlah_30h": 4,
+    "ditolak": [
+      {
+        "tanggal": "2026-10-24",
+        "kode_batch": "NK-GYO-2610-A",
+        "produk": "gayo",
+        "green_kg": "2.0",
+        "roasted_kg": "1.60",
+        "yield": "0.800",
+        "skor_cupping": "81.5",
+        "status": "ditolak",
+        "catatan": "Aftertaste pahit, manis tidak muncul; sangrai ulang",
+        "_tgl": "2026-10-24"
+      }
+    ],
+    "skor_rata": 84.1,
+    "terakhir": [
+      {
+        "tanggal": "2026-10-28",
+        "kode_batch": "NK-GYO-2610-B",
+        "produk": "gayo",
+        "green_kg": "2.0",
+        "roasted_kg": "1.61",
+        "yield": "0.805",
+        "skor_cupping": "84.5",
+        "status": "lolos",
+        "catatan": "Batch ulang; profil kembali normal",
+        "_tgl": "2026-10-28"
+      },
+      {
+        "tanggal": "2026-10-24",
+        "kode_batch": "NK-GYO-2610-A",
+        "produk": "gayo",
+        "green_kg": "2.0",
+        "roasted_kg": "1.60",
+        "yield": "0.800",
+        "skor_cupping": "81.5",
+        "status": "ditolak",
+        "catatan": "Aftertaste pahit, manis tidak muncul; sangrai ulang",
+        "_tgl": "2026-10-24"
+      },
+      {
+        "tanggal": "2026-10-21",
+        "kode_batch": "NK-RNG-2610-A",
+        "produk": "raung",
+        "green_kg": "4.0",
+        "roasted_kg": "3.22",
+        "yield": "0.805",
+        "skor_cupping": "84.0",
+        "status": "lolos",
+        "catatan": "Cokelat hitam, karamel; body tebal",
+        "_tgl": "2026-10-21"
+      },
+      {
+        "tanggal": "2026-10-21",
+        "kode_batch": "NK-IJN-2610-A",
+        "produk": "blue-mount-ijen",
+        "green_kg": "3.0",
+        "roasted_kg": "2.40",
+        "yield": "0.800",
+        "skor_cupping": "86.5",
+        "status": "lolos",
+        "catatan": "Madu, apel; aftertaste panjang",
+        "_tgl": "2026-10-21"
+      }
+    ]
+  },
+  "legal": [
+    {
+      "nama": "NIB (perizinan berusaha)",
+      "status": "belum",
+      "catatan": "Dibutuhkan untuk verifikasi Meta/WhatsApp API & pendaftaran marketplace"
+    },
+    {
+      "nama": "Sertifikat halal",
+      "status": "belum",
+      "catatan": "Opsional untuk kopi, tapi menaikkan kepercayaan di marketplace"
+    },
+    {
+      "nama": "Izin publikasi nama petani (7 nama)",
+      "status": "belum",
+      "catatan": "Nama sudah tayang mengikuti brief; izin menyusul"
+    },
+    {
+      "nama": "Izin pemakaian nama & logo Ais Coffee Roastery",
+      "status": "belum",
+      "catatan": "Wajib tertulis karena nama mitra dipakai di situs"
+    },
+    {
+      "nama": "Kebijakan privasi",
+      "status": "belum",
+      "catatan": "Wajib sebelum formulir member & pelacakan analitik aktif"
+    },
+    {
+      "nama": "Syarat & ketentuan",
+      "status": "belum",
+      "catatan": "Termasuk kebijakan garansi & pengembalian"
+    },
+    {
+      "nama": "Kebijakan pengiriman & ongkir",
+      "status": "belum",
+      "catatan": "Butuh keputusan kurir & tarif"
+    },
+    {
+      "nama": "Nomor WhatsApp Business aktif",
+      "status": "selesai",
+      "catatan": "+62 898-8188-800 (dari brief, perlu konfirmasi)"
+    },
+    {
+      "nama": "Domain & email brand",
+      "status": "belum",
+      "catatan": "Email Gmail dipakai sementara"
+    }
+  ],
+  "break_even": {
+    "biaya_tetap": 1275000.0,
+    "laba_per_order": 37279,
+    "order_per_bulan": 35,
+    "order_per_minggu": 8
+  },
+  "rata_margin": 0.4236222222222222
+}

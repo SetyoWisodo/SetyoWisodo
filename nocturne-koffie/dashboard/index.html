@@ -1,0 +1,178 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Papan Harian — Nocturne Koffie</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F5EFE4;--paper2:#EFE6D6;--ink:#16110D;--muted:rgba(22,17,13,.58);
+--orange:#E1542B;--espresso:#4A2C1A;--gold:#D9A441;--green:#2F6B4F;--red:#A32A1B;
+--line:1px solid rgba(22,17,13,.14)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 Inter,system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque",Inter,system-ui,sans-serif;letter-spacing:-.02em;margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding:24px clamp(16px,4vw,36px) 80px}
+header.top{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:flex-end;border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:22px}
+.brand{font-weight:800;font-size:22px}
+.brand small{display:block;font-size:9px;letter-spacing:.34em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.tanggal{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:clamp(22px,4vw,34px);font-weight:700;line-height:1}
+.tanggal small{display:block;font:600 11px/1.6 Inter,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+.grid{display:grid;gap:16px}
+.kpi{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-bottom:22px}
+.kpi div{background:var(--paper2);border:var(--line);border-radius:6px;padding:12px 14px}
+.kpi b{display:block;font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:24px;line-height:1.1}
+.kpi span{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.kpi em{font-style:normal;font-size:11px;color:var(--muted)}
+section{margin-bottom:26px}
+h2{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.alert{display:grid;grid-template-columns:64px 1fr auto;gap:12px;align-items:start;border:var(--line);border-left:4px solid var(--muted);border-radius:5px;padding:11px 13px;background:#fff8}
+.alert.kritis{border-left-color:var(--red)}.alert.peringatan{border-left-color:var(--gold)}.alert.info{border-left-color:var(--espresso)}
+.alert .lvl{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.alert .div{font-size:10.5px;color:var(--muted);letter-spacing:.04em}
+.alert b{display:block;font-weight:600}
+.alert p{margin:2px 0 0;font-size:13.5px;color:var(--muted)}
+.badge{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:99px;border:1px solid}
+.b-tersedia{color:var(--green);border-color:var(--green)}.b-terbatas{color:#8a5a00;border-color:var(--gold);background:#fdf3dd}
+.b-habis{color:#fff;background:var(--ink);border-color:var(--ink)}.b-baru{color:#fff;background:var(--orange);border-color:var(--orange)}
+table{width:100%;border-collapse:collapse;font-size:13.5px;background:#fff8}
+th,td{text-align:left;padding:8px 10px;border-bottom:var(--line);vertical-align:top}
+th{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr.alert-row td{background:#fff1ec}
+.divisi{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{border:var(--line);border-radius:6px;padding:14px;background:#fff8}
+.card h3{font-size:15px;margin-bottom:2px}
+.card .owner{font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.card dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin:10px 0 0;font-size:13px}
+.card dt{color:var(--muted)}.card dd{margin:0;text-align:right;font-variant-numeric:tabular-nums}
+.card .next{margin-top:10px;font-size:12.5px;border-top:var(--line);padding-top:8px}
+.empty{padding:14px;border:1px dashed rgba(22,17,13,.25);border-radius:6px;color:var(--muted);font-size:13.5px}
+footer{margin-top:34px;border-top:2px solid var(--ink);padding-top:14px;font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:space-between}
+code{background:var(--paper2);padding:1px 5px;border-radius:3px;font-size:12px}
+.legend{font-size:12px;color:var(--muted);margin:-4px 0 10px}
+</style></head><body><div class="wrap">
+<header class="top">
+  <div class="brand">Nocturne<small>Koffie Brand · papan harian</small></div>
+  <div class="tanggal">Jumat, 30 Oktober 2026<small>Divisi aktif: 6 · dibuat 30 Oct 2026 00:24 WIB</small></div>
+</header>
+<div class="grid kpi">
+<div><span>Order minggu ini</span><b>3</b><em>target 90 hari: 25/bulan</em></div>
+<div><span>Omzet minggu ini</span><b>Rp264.000</b><em>retail, belum termasuk ongkir</em></div>
+<div><span>Nilai order rata-rata</span><b>Rp88.000</b><em>target Rp130.000</em></div>
+<div><span>Langganan aktif</span><b>0</b><em>target 3</em></div>
+<div><span>Akun B2B</span><b>0</b><em>target 1</em></div>
+<div><span>Chat WA</span><b>11</b><em>masuk minggu ini</em></div>
+</div>
+<section><h2>Perlu keputusan hari ini</h2><div class="grid">
+<div class="alert peringatan">
+      <div><div class="lvl">peringatan</div><div class="div">Produksi & QC</div></div>
+      <div><b>Blue Mount Ijen tersisa 9 bungkus 250 g.</b><p>Jadwalkan lot berikutnya; beri prioritas ke langganan.</p></div>
+      <div></div></div>
+<div class="alert peringatan">
+      <div><div class="lvl">peringatan</div><div class="div">Penjualan & CRM</div></div>
+      <div><b>Order NK-1028-01 (Bagus) menunggu 2 hari.</b><p>Konfirmasi & kirim hari ini; balas < 2 jam.</p></div>
+      <div></div></div>
+<div class="alert peringatan">
+      <div><div class="lvl">peringatan</div><div class="div">Penjualan & CRM</div></div>
+      <div><b>Order NK-1028-02 (Dewi) menunggu 2 hari.</b><p>Konfirmasi & kirim hari ini; balas < 2 jam.</p></div>
+      <div></div></div>
+<div class="alert info">
+      <div><div class="lvl">info</div><div class="div">Operasional & Logistik</div></div>
+      <div><b>Order NK-1027-01 belum punya nomor resi.</b><p>Kirim resi ke pembeli lewat WhatsApp.</p></div>
+      <div></div></div>
+<div class="alert info">
+      <div><div class="lvl">info</div><div class="div">Operasional & Logistik</div></div>
+      <div><b>Order NK-1028-02 belum punya nomor resi.</b><p>Kirim resi ke pembeli lewat WhatsApp.</p></div>
+      <div></div></div>
+<div class="alert info">
+      <div><div class="lvl">info</div><div class="div">Produksi & QC</div></div>
+      <div><b>Batch NK-GYO-2610-A ditolak (81.5).</b><p>Pastikan batch pengganti sudah disangrai dan dicicipi.</p></div>
+      <div></div></div>
+<div class="alert info">
+      <div><div class="lvl">info</div><div class="div">Brand & Legal</div></div>
+      <div><b>8 dokumen legal belum selesai.</b><p>Lihat daftar di papan bagian Legal.</p></div>
+      <div></div></div>
+</div></section>
+<section><h2>Enam divisi</h2><div class="grid divisi">
+<div class="card"><h3>Produksi & QC</h3><div class="owner">Ais Coffee Roastery · Nocturne memeriksa</div>
+      <dl><dt>Batch 30 hari</dt><dd>4</dd><dt>Batch ditolak</dt><dd>1</dd><dt>SKU stok kritis</dt><dd>1</dd><dt>Skor cupping rata</dt><dd>84.1</dd></dl>
+      <div class="next"><b>Langkah berikutnya:</b> Catat batch sangrai berikutnya & perbarui status stok di situs.</div></div>
+<div class="card"><h3>Penjualan & CRM</h3><div class="owner">owner · WhatsApp Business</div>
+      <dl><dt>Order perlu diproses</dt><dd>2</dd><dt>Restock jatuh tempo</dt><dd>0</dd><dt>Chat masuk</dt><dd>11</dd><dt>Resi belum dikirim</dt><dd>2</dd></dl>
+      <div class="next"><b>Langkah berikutnya:</b> Balas semua chat < 2 jam dan kirim resi yang tertunda.</div></div>
+<div class="card"><h3>Marketing & Konten</h3><div class="owner">owner · IG / TikTok</div>
+      <dl><dt>Konten hari ini</dt><dd>0</dd><dt>Konten terlambat</dt><dd>0</dd><dt>Followers IG</dt><dd>187</dd><dt>Chat dari konten</dt><dd>—</dd></dl>
+      <div class="next"><b>Langkah berikutnya:</b> Selesaikan konten terjadwal; kalau kosong, rekam 3 klip mentah hari ini.</div></div>
+<div class="card"><h3>Operasional & Logistik</h3><div class="owner">owner · packing & kurir</div>
+      <dl><dt>Siap dikirim</dt><dd>2</dd><dt>Tanpa resi</dt><dd>2</dd><dt>Order 30 hari</dt><dd>3</dd><dt>Kemasan tersedia</dt><dd>cek stok</dd></dl>
+      <div class="next"><b>Langkah berikutnya:</b> Packing hanya setelah pembayaran terkonfirmasi; kirim resi hari yang sama.</div></div>
+<div class="card"><h3>Keuangan</h3><div class="owner">owner · catatan kas</div>
+      <dl><dt>Omzet minggu ini</dt><dd>Rp264.000</dd><dt>AOV</dt><dd>Rp88.000</dd><dt>Margin terburuk</dt><dd>42%</dd><dt>Break-even</dt><dd>35 order/bln</dd></dl>
+      <div class="next"><b>Langkah berikutnya:</b> Catat pengeluaran mingguan dan cocokkan dengan biaya tetap.</div></div>
+<div class="card"><h3>Brand & Legal</h3><div class="owner">owner · dokumen usaha</div>
+      <dl><dt>Dokumen selesai</dt><dd>1/9</dd><dt>Izin yang ditunggu</dt><dd>8</dd><dt>Klaim situs</dt><dd>sesuai brief 11.8</dd><dt>Data petani</dt><dd>izin publikasi</dd></dl>
+      <div class="next"><b>Langkah berikutnya:</b> Lengkapi NIB & izin publikasi nama petani sebelum kampanye besar.</div></div>
+</div></section>
+<section><h2>Marketing — jadwal konten</h2>
+<div class="empty">Tidak ada konten terjadwal hari ini. Rekam 3 klip saat sangrai/packing untuk stok konten.</div>
+<h2 style="margin-top:14px">Berikutnya</h2><table><tr><th>Tanggal</th><th>Platform</th><th>Judul</th><th>Pilar</th></tr>
+<tr><td>2026-11-03</td><td>IG Reels</td><td>12 menit terakhir sebelum kopi dikemas</td><td>Proses</td></tr>
+<tr><td>2026-11-04</td><td>IG Carousel</td><td>Kenapa kami cetak tanggal sangrai, bukan kedaluwarsa</td><td>Bukti</td></tr>
+<tr><td>2026-11-05</td><td>TikTok</td><td>Suara first crack</td><td>Proses</td></tr>
+<tr><td>2026-11-06</td><td>IG Story</td><td>Tiga tanda kopi masih segar</td><td>Edukasi</td></tr>
+</table>
+</section>
+<section><h2>Penjualan — pesanan perlu diproses</h2>
+<table><tr><th>Nomor</th><th>Tanggal</th><th>Nama</th><th>Produk</th><th>Ukuran</th><th class="num">Qty</th><th class="num">Total</th><th>Status</th><th class="num">Umur</th></tr>
+<tr class="alert-row"><td>NK-1028-01</td><td>2026-10-28</td><td>Bagus</td><td>Blend 70/30</td><td>1 kg</td><td class="num">1</td><td class="num">Rp170.000</td><td><span class="badge b-baru">baru</span></td><td class="num">2h</td></tr>
+<tr class="alert-row"><td>NK-1028-02</td><td>2026-10-28</td><td>Dewi</td><td>Gayo</td><td>100 g</td><td class="num">3</td><td class="num">Rp135.000</td><td><span class="badge b-baru">diproses</span></td><td class="num">2h</td></tr>
+</table>
+</section>
+<section><h2>Produksi — stok per SKU</h2><div class="legend">Sisa dihitung dari green bean × yield, bukan dari kopi jadi. “Beda” = status di situs berbeda dari hitungan lot.</div>
+<table><tr><th>Produk</th><th class="num">Green sisa</th><th class="num">Roasted</th><th class="num">100g</th><th class="num">250g</th><th class="num">500g</th><th class="num">1kg</th><th class="num">Terjual 28h</th><th class="num">Hari</th><th>Status lot</th><th>Situs</th></tr>
+<tr><td>Gayo</td><td class="num">2.4 kg</td><td class="num">1.92 kg</td><td class="num">19</td><td class="num">7</td><td class="num">3</td><td class="num">1</td><td class="num">300 g</td><td class="num">179</td><td><span class="badge b-tersedia">tersedia</span></td><td><span class="badge b-tersedia">tersedia</span></td></tr>
+<tr><td>Kintamani</td><td class="num">0.0 kg</td><td class="num">0.00 kg</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0 g</td><td class="num">—</td><td><span class="badge b-habis">habis</span></td><td><span class="badge b-menunggu-panen">menunggu-panen</span></td></tr>
+<tr><td>Blue Mount Ijen</td><td class="num">3.0 kg</td><td class="num">2.40 kg</td><td class="num">24</td><td class="num">9</td><td class="num">4</td><td class="num">2</td><td class="num">0 g</td><td class="num">—</td><td><span class="badge b-terbatas">terbatas</span></td><td><span class="badge b-terbatas">terbatas</span></td></tr>
+<tr><td>Semeru</td><td class="num">4.6 kg</td><td class="num">3.68 kg</td><td class="num">36</td><td class="num">14</td><td class="num">7</td><td class="num">3</td><td class="num">0 g</td><td class="num">—</td><td><span class="badge b-tersedia">tersedia</span></td><td><span class="badge b-tersedia">tersedia</span></td></tr>
+<tr><td>Arjuno</td><td class="num">10.0 kg</td><td class="num">8.00 kg</td><td class="num">80</td><td class="num">32</td><td class="num">16</td><td class="num">8</td><td class="num">0 g</td><td class="num">—</td><td><span class="badge b-tersedia">tersedia</span></td><td><span class="badge b-tersedia">tersedia</span></td></tr>
+<tr><td>Raung</td><td class="num">14.0 kg</td><td class="num">11.20 kg</td><td class="num">112</td><td class="num">44</td><td class="num">22</td><td class="num">11</td><td class="num">500 g</td><td class="num">>365</td><td><span class="badge b-tersedia">tersedia</span></td><td><span class="badge b-tersedia">tersedia</span></td></tr>
+<tr><td>Ijen Excelsa</td><td class="num">8.6 kg</td><td class="num">6.88 kg</td><td class="num">68</td><td class="num">27</td><td class="num">13</td><td class="num">6</td><td class="num">0 g</td><td class="num">—</td><td><span class="badge b-tersedia">tersedia</span></td><td><span class="badge b-tersedia">tersedia</span></td></tr>
+<tr><td>Blend 70/30</td><td class="num">None kg</td><td class="num">8.00 kg</td><td class="num">80</td><td class="num">32</td><td class="num">16</td><td class="num">8</td><td class="num">1000 g</td><td class="num">224</td><td><span class="badge b-tersedia">tersedia</span></td><td><span class="badge b-tersedia">tersedia</span></td></tr>
+<tr><td>Blend 60/40</td><td class="num">None kg</td><td class="num">6.00 kg</td><td class="num">60</td><td class="num">24</td><td class="num">12</td><td class="num">6</td><td class="num">0 g</td><td class="num">—</td><td><span class="badge b-tersedia">tersedia</span></td><td><span class="badge b-tersedia">tersedia</span></td></tr>
+</table></section>
+<section><h2>Keuangan — margin per ukuran</h2><div class="legend">HPP = green bean ÷ yield + kemasan + label + tenaga. Target margin kotor ≥ 35%.</div>
+<table><tr><th>Produk</th><th class="num">Green/kg</th><th class="num">100 g</th><th class="num">250 g</th><th class="num">500 g</th><th class="num">1 kg</th><th class="num">Terburuk</th></tr>
+<tr><td>Gayo</td><td class="num">Rp150.000</td><td class="num" style="color:inherit">45%<br><small>Rp24.750</small></td><td class="num" style="color:inherit">47%<br><small>Rp52.875</small></td><td class="num" style="color:inherit">45%<br><small>Rp99.750</small></td><td class="num" style="color:inherit">43%<br><small>Rp193.500</small></td><td class="num"><b>43%</b></td></tr>
+<tr><td>Kintamani</td><td class="num">Rp150.000</td><td class="num" style="color:inherit">38%<br><small>Rp24.750</small></td><td class="num" style="color:inherit">41%<br><small>Rp52.875</small></td><td class="num" style="color:inherit">45%<br><small>Rp99.750</small></td><td class="num" style="color:inherit">45%<br><small>Rp193.500</small></td><td class="num"><b>38%</b></td></tr>
+<tr><td>Blue Mount Ijen</td><td class="num">Rp140.000</td><td class="num" style="color:inherit">40%<br><small>Rp23.500</small></td><td class="num" style="color:inherit">40%<br><small>Rp49.750</small></td><td class="num" style="color:inherit">38%<br><small>Rp93.500</small></td><td class="num" style="color:inherit">39%<br><small>Rp181.000</small></td><td class="num"><b>38%</b></td></tr>
+<tr><td>Semeru</td><td class="num">Rp135.000</td><td class="num" style="color:inherit">36%<br><small>Rp22.875</small></td><td class="num" style="color:inherit">44%<br><small>Rp48.188</small></td><td class="num" style="color:inherit">39%<br><small>Rp90.375</small></td><td class="num" style="color:inherit">39%<br><small>Rp174.750</small></td><td class="num"><b>36%</b></td></tr>
+<tr><td>Arjuno</td><td class="num">Rp55.000</td><td class="num" style="color:inherit">48%<br><small>Rp12.875</small></td><td class="num" style="color:inherit">45%<br><small>Rp23.188</small></td><td class="num" style="color:inherit">48%<br><small>Rp40.375</small></td><td class="num" style="color:inherit">49%<br><small>Rp74.750</small></td><td class="num"><b>45%</b></td></tr>
+<tr><td>Raung</td><td class="num">Rp52.000</td><td class="num" style="color:inherit">46%<br><small>Rp12.500</small></td><td class="num" style="color:inherit">52%<br><small>Rp22.250</small></td><td class="num" style="color:inherit">52%<br><small>Rp38.500</small></td><td class="num" style="color:inherit">53%<br><small>Rp71.000</small></td><td class="num"><b>46%</b></td></tr>
+<tr><td>Ijen Excelsa</td><td class="num">Rp46.000</td><td class="num" style="color:inherit">55%<br><small>Rp11.750</small></td><td class="num" style="color:inherit">62%<br><small>Rp20.375</small></td><td class="num" style="color:inherit">64%<br><small>Rp34.750</small></td><td class="num" style="color:inherit">66%<br><small>Rp63.500</small></td><td class="num"><b>55%</b></td></tr>
+<tr><td>Blend 70/30</td><td class="num">Rp78.400</td><td class="num" style="color:inherit">47%<br><small>Rp15.800</small></td><td class="num" style="color:inherit">45%<br><small>Rp30.500</small></td><td class="num" style="color:inherit">39%<br><small>Rp55.000</small></td><td class="num" style="color:inherit">39%<br><small>Rp104.000</small></td><td class="num"><b>39%</b></td></tr>
+<tr><td>Blend 60/40</td><td class="num">Rp87.200</td><td class="num" style="color:inherit">49%<br><small>Rp16.900</small></td><td class="num" style="color:inherit">42%<br><small>Rp33.250</small></td><td class="num" style="color:inherit">42%<br><small>Rp60.500</small></td><td class="num" style="color:inherit">41%<br><small>Rp115.000</small></td><td class="num"><b>41%</b></td></tr>
+</table>
+<div class="legend" style="margin-top:10px">Biaya tetap Rp1.275.000/bulan · rata-rata laba per order Rp37.279 · break-even <b>35 order/bulan</b> (±8 order/minggu).</div></section>
+<section><h2>Produksi — QC batch (30 hari)</h2><div class="legend">4 batch · 1 ditolak · skor rata-rata 84.1</div>
+<table><tr><th>Tanggal</th><th>Kode batch</th><th>Produk</th><th class="num">Yield</th><th class="num">Skor</th><th>Status</th><th>Catatan</th></tr>
+<tr><td>2026-10-28</td><td>NK-GYO-2610-B</td><td>gayo</td><td class="num">0.805</td><td class="num">84.5</td><td style="color:inherit"><b>lolos</b></td><td>Batch ulang; profil kembali normal</td></tr>
+<tr><td>2026-10-24</td><td>NK-GYO-2610-A</td><td>gayo</td><td class="num">0.800</td><td class="num">81.5</td><td style="color:var(--red)"><b>ditolak</b></td><td>Aftertaste pahit, manis tidak muncul; sangrai ulang</td></tr>
+<tr><td>2026-10-21</td><td>NK-RNG-2610-A</td><td>raung</td><td class="num">0.805</td><td class="num">84.0</td><td style="color:inherit"><b>lolos</b></td><td>Cokelat hitam, karamel; body tebal</td></tr>
+<tr><td>2026-10-21</td><td>NK-IJN-2610-A</td><td>blue-mount-ijen</td><td class="num">0.800</td><td class="num">86.5</td><td style="color:inherit"><b>lolos</b></td><td>Madu, apel; aftertaste panjang</td></tr>
+</table>
+</section>
+<section><h2>Brand & Legal</h2><table><tr><th>Dokumen</th><th>Status</th><th>Catatan</th></tr>
+<tr><td>NIB (perizinan berusaha)</td><td style="color:var(--red)"><b>belum</b></td><td>Dibutuhkan untuk verifikasi Meta/WhatsApp API & pendaftaran marketplace</td></tr>
+<tr><td>Sertifikat halal</td><td style="color:var(--red)"><b>belum</b></td><td>Opsional untuk kopi, tapi menaikkan kepercayaan di marketplace</td></tr>
+<tr><td>Izin publikasi nama petani (7 nama)</td><td style="color:var(--red)"><b>belum</b></td><td>Nama sudah tayang mengikuti brief; izin menyusul</td></tr>
+<tr><td>Izin pemakaian nama & logo Ais Coffee Roastery</td><td style="color:var(--red)"><b>belum</b></td><td>Wajib tertulis karena nama mitra dipakai di situs</td></tr>
+<tr><td>Kebijakan privasi</td><td style="color:var(--red)"><b>belum</b></td><td>Wajib sebelum formulir member & pelacakan analitik aktif</td></tr>
+<tr><td>Syarat & ketentuan</td><td style="color:var(--red)"><b>belum</b></td><td>Termasuk kebijakan garansi & pengembalian</td></tr>
+<tr><td>Kebijakan pengiriman & ongkir</td><td style="color:var(--red)"><b>belum</b></td><td>Butuh keputusan kurir & tarif</td></tr>
+<tr><td>Nomor WhatsApp Business aktif</td><td style="color:var(--green)"><b>selesai</b></td><td>+62 898-8188-800 (dari brief, perlu konfirmasi)</td></tr>
+<tr><td>Domain & email brand</td><td style="color:var(--red)"><b>belum</b></td><td>Email Gmail dipakai sementara</td></tr>
+</table></section>
+<footer>
+  <span>Dibuat otomatis oleh <code>tools/papan.py</code> pada 30 Oct 2026 00:24 WIB.</span>
+  <span>Angka biaya di <code>data/biaya.json</code> masih <b>asumsi</b> — ganti dengan angka nyata.</span>
+</footer></div></body></html>

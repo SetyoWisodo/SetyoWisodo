@@ -17,6 +17,9 @@ nocturne-koffie/
 │   ├── css/motion.css            token & aturan animasi
 │   └── img/produk/               9 foto stiker kemasan (4:5, dari brief)
 ├── data/catalog.json             ← SATU-SATUNYA file yang perlu diubah rutin
+├── operasional/                  6 divisi: struktur, SOP, KPI, runbook minggu 1
+├── tools/papan.py                generator papan harian (stdlib, tanpa dependensi)
+├── dashboard/index.html          papan harian hasil generate (jangan diedit manual)
 ├── panduan/PANDUAN-LANDING-PAGE.md
 ├── panduan/07-sistem-motion.md
 └── marketing/                    strategi, kalender konten, copy, CRM, B2B
@@ -26,7 +29,9 @@ nocturne-koffie/
 
 ```bash
 cd nocturne-koffie
-python3 -m http.server 8080     # buka http://localhost:8080
+python3 -m http.server 8080        # situs  → http://localhost:8080
+                                   # papan  → http://localhost:8080/dashboard/
+python3 tools/papan.py             # hitung ulang papan harian
 ```
 
 Harus lewat server — katalog dimuat dengan `fetch`, dan `file://` akan diblokir browser.
@@ -49,6 +54,37 @@ Harus lewat server — katalog dimuat dengan `fetch`, dan `file://` akan dibloki
 - **Motion layer**: intro berurutan, topeng headline, bar kemajuan gulir, reveal saat scroll,
   parallax hero/kartu/poster, tombol magnetik, tilt kartu, glow kursor, dan micro-feedback —
   semuanya mati otomatis pada `prefers-reduced-motion`
+
+## Papan harian (menjalankan bisnis)
+
+`tools/papan.py` membaca 7 berkas data lalu menulis `dashboard/index.html` + `dashboard/data.json`.
+Tanpa dependensi, tanpa server tambahan.
+
+| Berkas | Isi | Siapa yang mengisi |
+| --- | --- | --- |
+| `data/catalog.json` | produk, harga, status stok yang tampil di situs | D1 |
+| `data/biaya.json` | harga green bean, kemasan, upah, biaya tetap (**masih asumsi**) | D5 |
+| `data/stok-lot.json` | lot green bean: masuk, terpakai, sisa | D1 |
+| `data/batch-qc.csv` | catatan sangrai + skor cupping + lolos/tolak | D1 |
+| `data/pesanan.csv` | satu baris per order | D2 |
+| `data/konten-14hari.csv` | jadwal konten + status | D3 |
+| `data/kpi.csv` | KPI mingguan | D5 |
+| `data/legal.json` | status dokumen usaha | D6 |
+
+Yang dihitung otomatis: margin tiap ukuran, HPP, break-even, sisa bungkus per SKU
+(dari green bean × yield; blend dari komponennya), order terlambat, resi kosong,
+restock jatuh tempo (H+18), konten terlambat, batch ditolak, dan selisih status stok
+situs vs lot.
+
+```bash
+python3 tools/papan.py                       # hari ini (WIB)
+python3 tools/papan.py --tanggal 2026-11-03  # tanggal lain
+python3 tools/papan.py --json                # ringkasan untuk dibaca mesin
+```
+
+**Enam divisi** (detail di `operasional/`): Produksi & QC · Penjualan & CRM ·
+Marketing & Konten · Operasional & Logistik · Keuangan · Brand & Legal.
+Ritme: 25 menit/hari + ±7 jam/minggu. Mulai dari `operasional/07-runbook-minggu-1.md`.
 
 ## Yang WAJIB dikonfirmasi sebelum tayang
 
@@ -83,6 +119,14 @@ menunggu konfirmasi pemilik." Jangan dihapus sebelum beres.
 | File | Isi |
 | --- | --- |
 | `panduan/PANDUAN-LANDING-PAGE.md` | **Panduan pembuatan landing page** — 13 bagian, 25 butir QA |
+| `operasional/00-struktur-divisi.md` | 6 divisi, RACI, ritme harian/mingguan, eskalasi |
+| `operasional/01-produksi-qc.md` | rantai produksi, kode batch, gerbang QC, aturan stok |
+| `operasional/02-penjualan-crm.md` | alur order, template WA, langganan, pipeline B2B |
+| `operasional/03-marketing-konten.md` | rekam saat produksi, ritme posting, aturan klaim |
+| `operasional/04-operasional-logistik.md` | SOP packing, ongkir, retur, opname |
+| `operasional/05-keuangan.md` | HPP, target margin, break-even, tutup buku |
+| `operasional/06-brand-legal.md` | identitas, klaim terlarang, privasi petani, dokumen |
+| `operasional/07-runbook-minggu-1.md` | rencana 10 hari pertama per divisi |
 | `panduan/07-sistem-motion.md` | **Sistem gerak** — 5 skill motion teratas + 13 gerak yang dipasang, token, larangan, 10 butir uji |
 | `marketing/00-strategi-90hari.md` | Strategi 90 hari (positioning, segmen, ritme 7 jam/minggu, KPI) |
 | `marketing/01-kalender-konten-30hari.md` | 30 hari konten + aset yang direkam saat produksi |

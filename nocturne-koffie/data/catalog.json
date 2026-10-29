@@ -9,7 +9,10 @@
   "brand": {
     "name": "Nocturne Koffie",
     "brandline": "KOFFIE BRAND",
-    "headline": ["Kopi dari petani.", "Diseduh untukmu."],
+    "headline": [
+      "Kopi dari petani.",
+      "Diseduh untukmu."
+    ],
     "intro": "Setiap kemasan menyebut nama petani, desa, dan ketinggian kebunnya. Disangrai mingguan oleh Ais Coffee Roastery di Banyuwangi. Dikemas dan dikirim dari kota yang sama.",
     "city": "Banyuwangi",
     "province": "Jawa Timur",
@@ -28,17 +31,49 @@
     "stock_updated": "29 Oktober 2026"
   },
   "roast_scale": [
-    { "level": 1, "name": "Light", "id": "Sangrai terang" },
-    { "level": 2, "name": "Light to Medium", "id": "Terang–sedang" },
-    { "level": 3, "name": "Medium", "id": "Sedang" },
-    { "level": 4, "name": "Medium to Dark", "id": "Sedang–gelap" },
-    { "level": 5, "name": "Dark", "id": "Gelap" }
+    {
+      "level": 1,
+      "name": "Light",
+      "id": "Sangrai terang"
+    },
+    {
+      "level": 2,
+      "name": "Light to Medium",
+      "id": "Terang–sedang"
+    },
+    {
+      "level": 3,
+      "name": "Medium",
+      "id": "Sedang"
+    },
+    {
+      "level": 4,
+      "name": "Medium to Dark",
+      "id": "Sedang–gelap"
+    },
+    {
+      "level": 5,
+      "name": "Dark",
+      "id": "Gelap"
+    }
   ],
   "stock_states": {
-    "tersedia": { "label": "Tersedia", "note": "" },
-    "terbatas": { "label": "Terbatas", "note": "Stok lot ini terbatas — lot berikutnya ±{bulan}." },
-    "habis": { "label": "Habis", "note": "Lot ini habis. Kabari saya saat ada." },
-    "menunggu-panen": { "label": "Menunggu panen", "note": "Panen berikutnya ±{bulan}." }
+    "tersedia": {
+      "label": "Tersedia",
+      "note": ""
+    },
+    "terbatas": {
+      "label": "Terbatas",
+      "note": "Stok lot ini terbatas — lot berikutnya ±{bulan}."
+    },
+    "habis": {
+      "label": "Habis",
+      "note": "Lot ini habis. Kabari saya saat ada."
+    },
+    "menunggu-panen": {
+      "label": "Menunggu panen",
+      "note": "Panen berikutnya ±{bulan}."
+    }
   },
   "products": [
     {
@@ -56,18 +91,51 @@
       "variety": "Lini S · Catimor",
       "farmer": "Anton Dwi P",
       "farmer_type": "single",
-      "notes": ["Cokelat", "Rempah", "Jeruk"],
+      "notes": [
+        "Cokelat",
+        "Rempah",
+        "Jeruk"
+      ],
       "roast_level": 3,
       "roast_confirmed": false,
-      "brew": ["V60", "French Press", "Tubruk"],
-      "grind": ["Biji utuh", "Bubuk — V60 / Filter", "Bubuk — Tubruk", "Bubuk — Espresso"],
+      "brew": [
+        "V60",
+        "French Press",
+        "Tubruk"
+      ],
+      "grind": [
+        "Biji utuh",
+        "Bubuk — V60 / Filter",
+        "Bubuk — Tubruk",
+        "Bubuk — Espresso"
+      ],
       "status": "tersedia",
       "img": "assets/img/produk/gayo.jpg",
       "variants": [
-        { "weight": "100 g", "grams": 100, "price": 45000, "sku": "NK-GYO-100" },
-        { "weight": "250 g", "grams": 250, "price": 99000, "sku": "NK-GYO-250" },
-        { "weight": "500 g", "grams": 500, "price": 180000, "sku": "NK-GYO-500" },
-        { "weight": "1 kg", "grams": 1000, "price": 340000, "sku": "NK-GYO-1K" }
+        {
+          "weight": "100 g",
+          "grams": 100,
+          "price": 45000,
+          "sku": "NK-GYO-100"
+        },
+        {
+          "weight": "250 g",
+          "grams": 250,
+          "price": 99000,
+          "sku": "NK-GYO-250"
+        },
+        {
+          "weight": "500 g",
+          "grams": 500,
+          "price": 180000,
+          "sku": "NK-GYO-500"
+        },
+        {
+          "weight": "1 kg",
+          "grams": 1000,
+          "price": 340000,
+          "sku": "NK-GYO-1K"
+        }
       ]
     },
     {
@@ -85,18 +153,51 @@
       "variety": "Typica · Catimor · Lini S",
       "farmer": "Kintamani Coffee Collective",
       "farmer_type": "collective",
-      "notes": ["Jeruk", "Bunga", "Teh hitam"],
+      "notes": [
+        "Jeruk",
+        "Bunga",
+        "Teh hitam"
+      ],
       "roast_level": 2,
       "roast_confirmed": false,
-      "brew": ["V60", "Kalita", "Aeropress"],
-      "grind": ["Biji utuh", "Bubuk — V60 / Filter", "Bubuk — Tubruk", "Bubuk — Espresso"],
-      "status": "tersedia",
+      "brew": [
+        "V60",
+        "Kalita",
+        "Aeropress"
+      ],
+      "grind": [
+        "Biji utuh",
+        "Bubuk — V60 / Filter",
+        "Bubuk — Tubruk",
+        "Bubuk — Espresso"
+      ],
+      "status": "menunggu-panen",
       "img": "assets/img/produk/kintamani.jpg",
       "variants": [
-        { "weight": "100 g", "grams": 100, "price": 40000, "sku": "NK-KTM-100" },
-        { "weight": "250 g", "grams": 250, "price": 90000, "sku": "NK-KTM-250" },
-        { "weight": "500 g", "grams": 500, "price": 180000, "sku": "NK-KTM-500" },
-        { "weight": "1 kg", "grams": 1000, "price": 352000, "sku": "NK-KTM-1K" }
+        {
+          "weight": "100 g",
+          "grams": 100,
+          "price": 40000,
+          "sku": "NK-KTM-100"
+        },
+        {
+          "weight": "250 g",
+          "grams": 250,
+          "price": 90000,
+          "sku": "NK-KTM-250"
+        },
+        {
+          "weight": "500 g",
+          "grams": 500,
+          "price": 180000,
+          "sku": "NK-KTM-500"
+        },
+        {
+          "weight": "1 kg",
+          "grams": 1000,
+          "price": 352000,
+          "sku": "NK-KTM-1K"
+        }
       ]
     },
     {
@@ -114,18 +215,52 @@
       "variety": "Typica · Bourbon · USDA · Komasti",
       "farmer": "Andi Wijaya",
       "farmer_type": "single",
-      "notes": ["Madu", "Apel", "Melati"],
+      "notes": [
+        "Madu",
+        "Apel",
+        "Melati"
+      ],
       "roast_level": 2,
       "roast_confirmed": false,
-      "brew": ["V60", "Kalita", "Aeropress", "French Press"],
-      "grind": ["Biji utuh", "Bubuk — V60 / Filter", "Bubuk — Tubruk", "Bubuk — Espresso"],
+      "brew": [
+        "V60",
+        "Kalita",
+        "Aeropress",
+        "French Press"
+      ],
+      "grind": [
+        "Biji utuh",
+        "Bubuk — V60 / Filter",
+        "Bubuk — Tubruk",
+        "Bubuk — Espresso"
+      ],
       "status": "terbatas",
       "img": "assets/img/produk/ijen.jpg",
       "variants": [
-        { "weight": "100 g", "grams": 100, "price": 39000, "sku": "NK-IJN-100" },
-        { "weight": "250 g", "grams": 250, "price": 83000, "sku": "NK-IJN-250" },
-        { "weight": "500 g", "grams": 500, "price": 152000, "sku": "NK-IJN-500" },
-        { "weight": "1 kg", "grams": 1000, "price": 297000, "sku": "NK-IJN-1K" }
+        {
+          "weight": "100 g",
+          "grams": 100,
+          "price": 39000,
+          "sku": "NK-IJN-100"
+        },
+        {
+          "weight": "250 g",
+          "grams": 250,
+          "price": 83000,
+          "sku": "NK-IJN-250"
+        },
+        {
+          "weight": "500 g",
+          "grams": 500,
+          "price": 152000,
+          "sku": "NK-IJN-500"
+        },
+        {
+          "weight": "1 kg",
+          "grams": 1000,
+          "price": 297000,
+          "sku": "NK-IJN-1K"
+        }
       ]
     },
     {
@@ -143,18 +278,51 @@
       "variety": "Andung Sari · Yellow Caturra",
       "farmer": "Tamansari Coffee Collective",
       "farmer_type": "collective",
-      "notes": ["Jeruk manis", "Gula merah", "Teh"],
+      "notes": [
+        "Jeruk manis",
+        "Gula merah",
+        "Teh"
+      ],
       "roast_level": 1,
       "roast_confirmed": false,
-      "brew": ["V60", "Kalita", "Aeropress"],
-      "grind": ["Biji utuh", "Bubuk — V60 / Filter", "Bubuk — Tubruk", "Bubuk — Espresso"],
+      "brew": [
+        "V60",
+        "Kalita",
+        "Aeropress"
+      ],
+      "grind": [
+        "Biji utuh",
+        "Bubuk — V60 / Filter",
+        "Bubuk — Tubruk",
+        "Bubuk — Espresso"
+      ],
       "status": "tersedia",
       "img": "assets/img/produk/semeru.jpg",
       "variants": [
-        { "weight": "100 g", "grams": 100, "price": 36000, "sku": "NK-SMR-100" },
-        { "weight": "250 g", "grams": 250, "price": 86000, "sku": "NK-SMR-250" },
-        { "weight": "500 g", "grams": 500, "price": 149000, "sku": "NK-SMR-500" },
-        { "weight": "1 kg", "grams": 1000, "price": 287000, "sku": "NK-SMR-1K" }
+        {
+          "weight": "100 g",
+          "grams": 100,
+          "price": 36000,
+          "sku": "NK-SMR-100"
+        },
+        {
+          "weight": "250 g",
+          "grams": 250,
+          "price": 86000,
+          "sku": "NK-SMR-250"
+        },
+        {
+          "weight": "500 g",
+          "grams": 500,
+          "price": 149000,
+          "sku": "NK-SMR-500"
+        },
+        {
+          "weight": "1 kg",
+          "grams": 1000,
+          "price": 287000,
+          "sku": "NK-SMR-1K"
+        }
       ]
     },
     {
@@ -172,18 +340,51 @@
       "variety": "Tugusari",
       "farmer": "M. Supriyadi",
       "farmer_type": "single",
-      "notes": ["Kacang", "Cokelat", "Tembakau"],
+      "notes": [
+        "Kacang",
+        "Cokelat",
+        "Tembakau"
+      ],
       "roast_level": 4,
       "roast_confirmed": false,
-      "brew": ["Tubruk", "Vietnam Drip", "Espresso"],
-      "grind": ["Biji utuh", "Bubuk — Tubruk", "Bubuk — Espresso", "Bubuk — V60 / Filter"],
+      "brew": [
+        "Tubruk",
+        "Vietnam Drip",
+        "Espresso"
+      ],
+      "grind": [
+        "Biji utuh",
+        "Bubuk — Tubruk",
+        "Bubuk — Espresso",
+        "Bubuk — V60 / Filter"
+      ],
       "status": "tersedia",
       "img": "assets/img/produk/arjuno.jpg",
       "variants": [
-        { "weight": "100 g", "grams": 100, "price": 25000, "sku": "NK-ARJ-100" },
-        { "weight": "250 g", "grams": 250, "price": 42000, "sku": "NK-ARJ-250" },
-        { "weight": "500 g", "grams": 500, "price": 78000, "sku": "NK-ARJ-500" },
-        { "weight": "1 kg", "grams": 1000, "price": 148000, "sku": "NK-ARJ-1K" }
+        {
+          "weight": "100 g",
+          "grams": 100,
+          "price": 25000,
+          "sku": "NK-ARJ-100"
+        },
+        {
+          "weight": "250 g",
+          "grams": 250,
+          "price": 42000,
+          "sku": "NK-ARJ-250"
+        },
+        {
+          "weight": "500 g",
+          "grams": 500,
+          "price": 78000,
+          "sku": "NK-ARJ-500"
+        },
+        {
+          "weight": "1 kg",
+          "grams": 1000,
+          "price": 148000,
+          "sku": "NK-ARJ-1K"
+        }
       ]
     },
     {
@@ -201,18 +402,50 @@
       "variety": "Belum tercantum di label",
       "farmer": "Agustion Pangestu",
       "farmer_type": "single",
-      "notes": ["Cokelat hitam", "Karamel"],
+      "notes": [
+        "Cokelat hitam",
+        "Karamel"
+      ],
       "roast_level": 5,
       "roast_confirmed": false,
-      "brew": ["Tubruk", "Vietnam Drip", "Espresso"],
-      "grind": ["Biji utuh", "Bubuk — Tubruk", "Bubuk — Espresso", "Bubuk — V60 / Filter"],
+      "brew": [
+        "Tubruk",
+        "Vietnam Drip",
+        "Espresso"
+      ],
+      "grind": [
+        "Biji utuh",
+        "Bubuk — Tubruk",
+        "Bubuk — Espresso",
+        "Bubuk — V60 / Filter"
+      ],
       "status": "tersedia",
       "img": "assets/img/produk/raung.jpg",
       "variants": [
-        { "weight": "100 g", "grams": 100, "price": 23000, "sku": "NK-RNG-100" },
-        { "weight": "250 g", "grams": 250, "price": 46000, "sku": "NK-RNG-250" },
-        { "weight": "500 g", "grams": 500, "price": 80000, "sku": "NK-RNG-500" },
-        { "weight": "1 kg", "grams": 1000, "price": 152000, "sku": "NK-RNG-1K" }
+        {
+          "weight": "100 g",
+          "grams": 100,
+          "price": 23000,
+          "sku": "NK-RNG-100"
+        },
+        {
+          "weight": "250 g",
+          "grams": 250,
+          "price": 46000,
+          "sku": "NK-RNG-250"
+        },
+        {
+          "weight": "500 g",
+          "grams": 500,
+          "price": 80000,
+          "sku": "NK-RNG-500"
+        },
+        {
+          "weight": "1 kg",
+          "grams": 1000,
+          "price": 152000,
+          "sku": "NK-RNG-1K"
+        }
       ]
     },
     {
@@ -230,18 +463,51 @@
       "variety": "Excelsa",
       "farmer": "H.O. Hariono",
       "farmer_type": "single",
-      "notes": ["Berry", "Gula aren", "Kayu manis"],
+      "notes": [
+        "Berry",
+        "Gula aren",
+        "Kayu manis"
+      ],
       "roast_level": 3,
       "roast_confirmed": false,
-      "brew": ["Tubruk", "V60", "Cold brew"],
-      "grind": ["Biji utuh", "Bubuk — Tubruk", "Bubuk — V60 / Filter", "Bubuk — Espresso"],
+      "brew": [
+        "Tubruk",
+        "V60",
+        "Cold brew"
+      ],
+      "grind": [
+        "Biji utuh",
+        "Bubuk — Tubruk",
+        "Bubuk — V60 / Filter",
+        "Bubuk — Espresso"
+      ],
       "status": "tersedia",
       "img": "assets/img/produk/excelsa.jpg",
       "variants": [
-        { "weight": "100 g", "grams": 100, "price": 26000, "sku": "NK-EXC-100" },
-        { "weight": "250 g", "grams": 250, "price": 53000, "sku": "NK-EXC-250" },
-        { "weight": "500 g", "grams": 500, "price": 97000, "sku": "NK-EXC-500" },
-        { "weight": "1 kg", "grams": 1000, "price": 185000, "sku": "NK-EXC-1K" }
+        {
+          "weight": "100 g",
+          "grams": 100,
+          "price": 26000,
+          "sku": "NK-EXC-100"
+        },
+        {
+          "weight": "250 g",
+          "grams": 250,
+          "price": 53000,
+          "sku": "NK-EXC-250"
+        },
+        {
+          "weight": "500 g",
+          "grams": 500,
+          "price": 97000,
+          "sku": "NK-EXC-500"
+        },
+        {
+          "weight": "1 kg",
+          "grams": 1000,
+          "price": 185000,
+          "sku": "NK-EXC-1K"
+        }
       ]
     },
     {
@@ -260,18 +526,51 @@
       "farmer": "",
       "farmer_type": "blend",
       "composition": "70% Robusta Raung (Natural) · 30% Arabika Ijen (Full Wash)",
-      "notes": ["Cokelat", "Karamel", "Kacang"],
+      "notes": [
+        "Cokelat",
+        "Karamel",
+        "Kacang"
+      ],
       "roast_level": 4,
       "roast_confirmed": false,
-      "brew": ["Espresso", "Vietnam Drip", "Tubruk"],
-      "grind": ["Biji utuh", "Bubuk — Espresso", "Bubuk — Tubruk", "Bubuk — V60 / Filter"],
+      "brew": [
+        "Espresso",
+        "Vietnam Drip",
+        "Tubruk"
+      ],
+      "grind": [
+        "Biji utuh",
+        "Bubuk — Espresso",
+        "Bubuk — Tubruk",
+        "Bubuk — V60 / Filter"
+      ],
       "status": "tersedia",
       "img": "assets/img/produk/blend-7030.jpg",
       "variants": [
-        { "weight": "100 g", "grams": 100, "price": 30000, "sku": "NK-B7030-100" },
-        { "weight": "250 g", "grams": 250, "price": 55000, "sku": "NK-B7030-250" },
-        { "weight": "500 g", "grams": 500, "price": 90000, "sku": "NK-B7030-500" },
-        { "weight": "1 kg", "grams": 1000, "price": 170000, "sku": "NK-B7030-1K" }
+        {
+          "weight": "100 g",
+          "grams": 100,
+          "price": 30000,
+          "sku": "NK-B7030-100"
+        },
+        {
+          "weight": "250 g",
+          "grams": 250,
+          "price": 55000,
+          "sku": "NK-B7030-250"
+        },
+        {
+          "weight": "500 g",
+          "grams": 500,
+          "price": 90000,
+          "sku": "NK-B7030-500"
+        },
+        {
+          "weight": "1 kg",
+          "grams": 1000,
+          "price": 170000,
+          "sku": "NK-B7030-1K"
+        }
       ]
     },
     {
@@ -290,18 +589,51 @@
       "farmer": "",
       "farmer_type": "blend",
       "composition": "60% Robusta Raung (Natural) · 40% Arabika Ijen (Full Wash)",
-      "notes": ["Cokelat susu", "Jeruk", "Rempah"],
+      "notes": [
+        "Cokelat susu",
+        "Jeruk",
+        "Rempah"
+      ],
       "roast_level": 3,
       "roast_confirmed": false,
-      "brew": ["V60", "Espresso", "Vietnam Drip"],
-      "grind": ["Biji utuh", "Bubuk — V60 / Filter", "Bubuk — Espresso", "Bubuk — Tubruk"],
+      "brew": [
+        "V60",
+        "Espresso",
+        "Vietnam Drip"
+      ],
+      "grind": [
+        "Biji utuh",
+        "Bubuk — V60 / Filter",
+        "Bubuk — Espresso",
+        "Bubuk — Tubruk"
+      ],
       "status": "tersedia",
       "img": "assets/img/produk/blend-6040.jpg",
       "variants": [
-        { "weight": "100 g", "grams": 100, "price": 33000, "sku": "NK-B6040-100" },
-        { "weight": "250 g", "grams": 250, "price": 57000, "sku": "NK-B6040-250" },
-        { "weight": "500 g", "grams": 500, "price": 105000, "sku": "NK-B6040-500" },
-        { "weight": "1 kg", "grams": 1000, "price": 195000, "sku": "NK-B6040-1K" }
+        {
+          "weight": "100 g",
+          "grams": 100,
+          "price": 33000,
+          "sku": "NK-B6040-100"
+        },
+        {
+          "weight": "250 g",
+          "grams": 250,
+          "price": 57000,
+          "sku": "NK-B6040-250"
+        },
+        {
+          "weight": "500 g",
+          "grams": 500,
+          "price": 105000,
+          "sku": "NK-B6040-500"
+        },
+        {
+          "weight": "1 kg",
+          "grams": 1000,
+          "price": 195000,
+          "sku": "NK-B6040-1K"
+        }
       ]
     }
   ],
@@ -366,10 +698,22 @@
     "title": "Nocturne Circle",
     "intro": "Harga lebih baik untuk yang kembali lagi. Daftar sekali, dapat kode membermu.",
     "steps": [
-      { "no": "01", "text": "Daftar tanpa akun: nama, asal/domisili, email, nomor WhatsApp." },
-      { "no": "02", "text": "Kode member dikirim lewat email." },
-      { "no": "03", "text": "Sebutkan kode saat memesan lewat WhatsApp." },
-      { "no": "04", "text": "Pembelian berkelanjutan menaikkan tingkat." }
+      {
+        "no": "01",
+        "text": "Daftar tanpa akun: nama, asal/domisili, email, nomor WhatsApp."
+      },
+      {
+        "no": "02",
+        "text": "Kode member dikirim lewat email."
+      },
+      {
+        "no": "03",
+        "text": "Sebutkan kode saat memesan lewat WhatsApp."
+      },
+      {
+        "no": "04",
+        "text": "Pembelian berkelanjutan menaikkan tingkat."
+      }
     ],
     "tiers_note": "Tingkat dan besaran diskon menunggu keputusan pemilik (brief bagian 20)."
   }
