@@ -1,149 +1,205 @@
-# SKILLS.md — Reverse Engineering Agent Skills (dari postingan @cabbitar)
+# SKILLS.md — REA: semua link postingan @cabbitar, sudah jadi skill & alur kerja
 
-Dokumen ini adalah hasil menyalin **seluruh skill GitHub** yang ada di postingan
-[@cabbitar — "STOP WASTING HOURS TRYING TO LEARN REA"](https://x.com/cabbitar/status/2115467413953056921),
-lalu menerapkannya sebagai cara kerja di percakapan ini.
+Sumber: [@cabbitar — "STOP WASTING HOURS TRYING TO LEARN REA"](https://x.com/cabbitar/status/2115467413953056921) (2026-10-28).
 
 | Item | Nilai |
 | --- | --- |
-| Sumber skill | <https://github.com/morluto/rea> → folder `.agents/skills/` |
-| Commit yang disalin | `bf115be2cd900724a5bbd59a5cefc7af1dc2576f` (branch `main`) |
-| Tanggal salin | 2026-10-29 |
-| Lokasi di repo ini | [`.agents/skills/`](.agents/skills/) |
-| Jumlah skill | 5 skill, 17 file, ~220 KB |
-| Metode | `cp -r` verbatim (tidak ada isi yang diubah) |
+| Link di postingan | 46 baris → **38 URL unik**, 37 terverifikasi, 1 mati |
+| Skill tersalin/dibuat | **7 skill** (18 file REA + 1 skill roadmap + 1 skill finder) |
+| Lokasi | [`.agents/skills/`](.agents/skills/) |
+| Metode | `cp -r` verbatim untuk skill upstream; `rea-roadmap` ditulis dari hasil resolusi link |
+| Tanggal verifikasi link | 2026-10-29 |
 
 ---
 
-## 1. Skill yang sudah dicopy
+## 1. Skill yang aktif di repo ini
 
-| # | Skill | Fungsi inti | File |
+| # | Skill | Asal | Fungsi |
 | --- | --- | --- | --- |
-| 1 | **reverse-engineer-anything** (v55) | Skill utama REA: menentukan rute tool yang benar untuk tiap jenis target, mengumpulkan *Evidence*, lalu menjawab pertanyaan analis — dari APK, binary native, .NET, Electron/JS, firmware, sampai capture jaringan. | [`SKILL.md`](.agents/skills/reverse-engineer-anything/SKILL.md) + 7 file `references/` (android, javascript, native & artifact, runtime observation, environment, evidence workflow, connection & recovery) |
-| 2 | **rea-analysis-optimization** | Mencari sumber pekerjaan yang tidak perlu di provider/workflow analisis, mengubahnya di tempat yang benar, dan memverifikasi investigasi tetap setara. Termasuk studi kasus Kuna. | [`SKILL.md`](.agents/skills/rea-analysis-optimization/SKILL.md) + `references/kuna-case-study.md` |
-| 3 | **rea-ci-tests-audit** | Audit CI & test suite: mana check yang masih menangkap regresi nyata, mana biaya yang bisa dipotong, mendeteksi false pass dan fixture drift. | [`SKILL.md`](.agents/skills/rea-ci-tests-audit/SKILL.md) + `references/measurement-and-ci.md` |
-| 4 | **rea-tool-design** | Merancang/mengubah tool investigasi: batas tool, kontrak CLI/MCP, capability provider, semantik Evidence. | [`SKILL.md`](.agents/skills/rea-tool-design/SKILL.md) |
-| 5 | **rea-changelog-update** | Menyusun changelog / release notes dari Git history yang dipin, dengan atribusi kontributor yang terverifikasi. | [`SKILL.md`](.agents/skills/rea-changelog-update/SKILL.md) |
+| 1 | **rea-roadmap** | **baru** — dibuat dari 46 link postingan | Alur kerja 7 tahap + indeks semua resource + skrip cek kesiapan |
+| 2 | **reverse-engineer-anything** (v55) | `morluto/rea` | Routing tool per jenis target, Evidence-first, 7 file referensi |
+| 3 | **find-reverse-engineered** | `alexgaoth/awesome-reverse-engineered` | Cari tool open-source hasil RE (indeks 17.000+ proyek), plus MCP server di repo itu |
+| 4 | **rea-analysis-optimization** | `morluto/rea` | Optimasi provider/workflow analisis |
+| 5 | **rea-ci-tests-audit** | `morluto/rea` | Audit CI & test suite |
+| 6 | **rea-tool-design** | `morluto/rea` | Desain tool investigasi & semantik Evidence |
+| 7 | **rea-changelog-update** | `morluto/rea` | Release notes dari Git history terpin |
 
-Semua skill memakai format `SKILL.md` berisi front-matter `name` + `description`:
-deskripsi itu yang dibaca agent untuk memutuskan *kapan* skill diaktifkan,
-sedangkan isi lengkapnya baru dimuat saat relevan (progressive disclosure).
+Front-matter `name` + `description` tiap skill adalah pemicunya: agent memilih
+skill dari deskripsi itu, isi lengkap baru dimuat saat relevan.
 
 ---
 
-## 2. GitHub & resource lain di postingan yang sama
+## 2. Semua link postingan (sudah di-resolve dari `t.co`)
 
-**Repo/GitHub yang disebut** (yang bisa diverifikasi):
+### START HERE
 
-| Nama di postingan | Repo | Keterangan |
+| Label | URL |
+| --- | --- |
+| REA Official Repository | <https://github.com/morluto/rea> |
+| REA Official Website | <https://rea.tools/> |
+| Installation & Agent Setup | <https://github.com/morluto/rea/blob/main/docs/installation.md> |
+| Your First REA Investigation | <https://rea.tools/first-investigation/> |
+| REA Guides | <https://rea.tools/guides/> |
+| Guided MCP Prompts | <https://github.com/morluto/rea/blob/main/docs/mcp-prompts.md> |
+
+### WATCH & FOLLOW ALONG
+
+| Label | URL |
+| --- | --- |
+| How To Use REA To Clone Any Software In Minutes | <https://www.youtube.com/watch?v=FnB9tHKBJXQ> |
+| REA + Pi Coding Agent Tutorial | <https://www.datacamp.com/tutorial/reverse-engineer-anything-rea-tutorial> |
+| Ghidra Tutorial for Beginners | <https://www.youtube.com/watch?v=OFAxXXcLXbc> |
+| Frida for Android Reverse Engineering | <https://www.youtube.com/watch?v=GHh9P-Dyq1w> |
+| pwn.college: Reverse Engineering | <https://pwn.college/intro-re-pwn~5933fc84/reversing/> |
+| Malware Unicorn RE101 | <https://malwareunicorn.org/workshops/re101> |
+
+### REAL REA INVESTIGATIONS
+
+| Label | URL |
+| --- | --- |
+| Notes Export | <https://rea.tools/first-investigation/> |
+| Notion Clipboard | <https://rea.tools/showcase/notion/> |
+| DX-Ball Reconstruction | <https://rea.tools/showcase/dx-ball/> |
+| Aegis APK | <https://rea.tools/showcase/aegis/> |
+| TH04 Bullet Patterns | <https://rea.tools/showcase/th04/> |
+| (bonus, tidak di postingan) CTF showcase | <https://rea.tools/showcase/ctf/> |
+
+### GITHUB REPOS
+
+| Label | URL |
+| --- | --- |
+| REA | <https://github.com/morluto/rea> |
+| Awesome Reverse Engineering | <https://github.com/morluto/awesome-reverse-engineering> |
+| REA Gems | <https://github.com/sqwu/rea-gems> |
+| Awesome Reverse-Engineered | <https://github.com/alexgaoth/awesome-reverse-engineered> |
+| Ghidra | <https://github.com/NationalSecurityAgency/ghidra> |
+| JADX | <https://github.com/skylot/jadx> |
+| Frida | <https://github.com/frida/frida> |
+| ILSpy | <https://github.com/icsharpcode/ILSpy> |
+| x64dbg | <https://github.com/x64dbg/x64dbg> |
+
+### BOOKS
+
+| Label | URL | Catatan |
 | --- | --- | --- |
-| REA | [morluto/rea](https://github.com/morluto/rea) | Sumber 5 skill di atas; `npx rea-agents@latest setup` |
-| Awesome Reverse Engineering | [morluto/awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering) | Kurasi tool & materi RE (binary, app, firmware, format, protokol) — tidak memuat agent skill |
-| REA Gems | [sqwu/rea-gems](https://github.com/sqwu/rea-gems) | Galeri kasus RE nyata yang dibangun dengan REA, auto-update harian — bukan skill |
-| Ghidra | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | SRE framework (decompiler) |
-| JADX | [skylot/jadx](https://github.com/skylot/jadx) | Dex → Java decompiler |
-| Frida | [frida/frida](https://github.com/frida/frida) | Dynamic instrumentation |
-| ILSpy | [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy) | .NET decompiler |
-| x64dbg | [x64dbg/x64dbg](https://github.com/x64dbg/x64dbg) | Debugger user-mode Windows |
+| The Ghidra Book, 2nd Edition | <https://nostarch.com/ghidra-book-2e> | No Starch, berbayar |
+| Reverse Engineering for Beginners | <https://beginners.re/> | gratis (Dennis Yurichev) |
+| Practical Binary Analysis | <https://nostarch.com/binaryanalysis> | No Starch, berbayar |
+| Practical Malware Analysis | <https://nostarch.com/malware> | No Starch, berbayar |
+| The Android Malware Handbook | <https://nostarch.com/androidmalwarehandbook> | No Starch, berbayar |
+| Reversing: Secrets of Reverse Engineering | shortlink → <https://www.wiley.com/en-us> | **mati**: halaman produk Wiley hilang. ISBN `978-0764574818` |
 
-> Repo "Awesome Reverse-Engineered" dan beberapa link lain di postingan memakai
-> shortlink `t.co` yang tidak bisa di-resolve dari sandbox ini, jadi tidak saya
-> cantumkan URL-nya supaya tidak salah tebak.
+### RESEARCH PAPERS
 
-**Buku:** The Ghidra Book (2nd ed.), Reverse Engineering for Beginners, Practical
-Binary Analysis, Practical Malware Analysis, The Android Malware Handbook,
-Reversing: Secrets of Reverse Engineering.
+| Label | URL |
+| --- | --- |
+| LLM4Decompile | <https://arxiv.org/abs/2403.05286> |
+| AutoDecompiler | <https://arxiv.org/abs/2606.16162> |
+| SALT4Decompile | <https://arxiv.org/abs/2509.14646> (judul v2: *ALT4Decompile*) |
+| Decomperson | <https://www.usenix.org/conference/usenixsecurity22/presentation/burk> |
+| DIRTY | <https://www.usenix.org/system/files/sec22-chen-qibin.pdf> |
+| Automatically Attacking Software RE Agents | <https://arxiv.org/abs/2605.30667> |
+| Does Reverse Engineering Need a Bigger Model? | <https://rea.tools/blog/reverse-engineering-models/> |
 
-**Paper:** LLM4Decompile, AutoDecompiler, SALT4Decompile, Decomperson, DIRTY,
-"Automatically Attacking Software RE Agents", "Does Reverse Engineering Need a
-Bigger Model?".
+### FREE COURSES & PRACTICE
 
-**Kursus gratis:** OpenSecurityTraining2 x86-64 Assembly, reversing.zone
-(Reverse Engineering / Reversing Hell), Malware Unicorn RE101, Nightmare, RPISEC
-Modern Binary Exploitation, OWASP MAS.
+| Label | URL |
+| --- | --- |
+| OpenSecurityTraining2: x86-64 Assembly | <https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about> |
+| pwn.college: Reverse Engineering | <https://pwn.college/intro-re-pwn~5933fc84/reversing/> |
+| pwn.college: Reversing Hell | <https://pwn.college/reversing-hell/> |
+| Malware Unicorn RE101 | <https://malwareunicorn.org/workshops/re101> |
+| Nightmare | <https://github.com/guyinatuxedo/nightmare> |
+| RPISEC Modern Binary Exploitation | <https://github.com/RPISEC/MBE> |
+| OWASP Mobile Application Security | <https://mas.owasp.org/> |
 
-**Urutan belajar yang direkomendasikan postingan:**
-Install REA → Notes Export → Notion → CTF binary → Aegis APK → DX-Ball → baru
-Ghidra, assembly, dan paper-paper.
+Tabel per-baris lengkap dengan kode `t.co`, status verifikasi, dan catatan
+metode ada di
+[`.agents/skills/rea-roadmap/references/resources.md`](.agents/skills/rea-roadmap/references/resources.md).
 
 ---
 
-## 3. Cara mengaktifkan skill
+## 3. Alur kerja yang dijalankan (isi skill `rea-roadmap`)
 
-Tiga jalur, pilih satu:
+```
+Tahap 1 Setup → 2 Notes Export → 3 CTF binary → 4 Aegis APK
+      → 5 Notion / DX-Ball / TH04 → 6 Ghidra + assembly → 7 Paper + tooling
+```
 
-**a. Sudah aktif di repo ini (tanpa install apa pun)**
-Skill ada di `.agents/skills/`. Agent yang membaca `.agents/skills/` (Codex-style,
-Claude Code, dsb.) akan menemukannya otomatis. Saya di percakapan ini juga sudah
-membaca dan memakai isinya.
+Tiap tahap punya **tujuan, resource kanonik, prompt siap tempel, kriteria keluar,
+dan jebakan** — detail di
+[`learning-path.md`](.agents/skills/rea-roadmap/references/learning-path.md).
 
-**b. Install resmi via npm (butuh Node.js, mengikat MCP server `rea`)**
+Cara kerjanya di percakapan ini:
+
+| Langkah | Yang saya lakukan |
+| --- | --- |
+| 0. Tetapkan posisi | Jalankan `bash .agents/skills/rea-roadmap/scripts/check_readiness.sh` → tahu Node/`rea`/engine/target |
+| 1. Rute target | Klasifikasikan target lewat skill `reverse-engineer-anything` (APK? native? Electron? pcap?) |
+| 2. Jalankan tahap | Ambil tahap aktif, beri prompt siap tempel, dampingi hasilnya |
+| 3. Evidence dulu | Setiap klaim disertai path/digest/byte range/tool + daftar "belum diketahui" |
+| 4. Uji kriteria | Naik tahap hanya kalau bukti keluar tahap ini ada |
+| 5. Tutup | Sebut tahap sekarang + satu aksi berikutnya + resource yang dipakai |
+
+### Hasil eksekusi Langkah 0 di sandbox ini (2026-10-29)
+
+```
+OK     node                   v22.22.3
+OK     npx                    10.9.8
+TIDAK  rea CLI                belum terpasang
+WARN   state ~/.rea           belum ada — setup belum pernah dijalankan
+WARN   ghidra / jadx / java / frida / tshark   tidak terdeteksi
+OK     python3                Python 3.11.2
+```
+
+Artinya: **posisi saat ini = Tahap 1 (setup) yang belum dijalankan**, dan
+`ghidra` belum ada sehingga Tahap 3+ belum bisa dieksekusi di sini. Skill
+`rea-roadmap` siap sebagai metodologi; engine-nya harus dipasang di mesin Anda
+(atau saya jalankan `npx rea-agents@latest setup` di sini **setelah Anda
+menyetujui**, meski MCP yang terpasang tidak otomatis masuk ke sesi ini).
+
+---
+
+## 4. Cara mengaktifkan
+
+**a. Sudah aktif dari repo (tanpa install)**
+Semua skill ada di `.agents/skills/`; agent yang membaca folder itu langsung
+menemukannya.
+
+**b. Instalasi resmi (butuh Node, mendaftarkan MCP `rea`)**
 
 ```bash
-npx rea-agents@latest setup     # daftarkan server + pasang skill
-rea doctor                      # cek kesehatan instalasi
+npx rea-agents@latest setup     # rea-agents 6.8.0 saat verifikasi
+rea doctor                      # cek setelah restart agent
 ```
 
 **c. Plugin Claude Code / Codex**
 
 ```bash
-# Claude Code
 /plugin marketplace add morluto/rea
 /plugin install rea@rea
-
-# Codex
-codex plugin install morluto/rea
 ```
 
-Ingat: **skill = instruksi, bukan engine.** Meng-copy skill tidak otomatis
-memasang Ghidra/JADX/Frida/Kuna atau mendaftarkan MCP `rea`. Jadi di sandbox ini
-skill-nya aktif sebagai metodologi, tapi tool `rea` (open_binary,
-analyze_function, inspect_android_package, dst.) tidak tersedia untuk dieksekusi.
+Untuk skill pencari tool: plugin `alexgaoth/awesome-reverse-engineered`
+(`plugin/skills/find-reverse-engineered`), bisa dipakai langsung dengan
+`python3 .agents/skills/find-reverse-engineered/scripts/re_index.py search tuya local`.
+
+Ingat: **skill = instruksi, bukan engine.** Menyalin skill tidak memasang Ghidra,
+JADX, Frida, Kuna, atau Node.
 
 ---
 
-## 4. Aturan yang saya terapkan mulai sekarang di percakapan ini
-
-Diambil langsung dari isi skill (terutama `reverse-engineer-anything`):
-
-1. **Evidence-first, no hand-waving.** Setiap klaim tentang artefak harus punya
-   jejak: digest/byte range, path, tool, dan batasannya. Kalau belum ada bukti,
-   saya tulis "belum diketahui", bukan menebak.
-2. **Route target dulu, baru pilih tool.** Jenis target menentukan jalur:
-   ASAR/JS tree → `analyze_javascript_application`; APK → `inspect_android_package`;
-   archive/PyInstaller → `open_binary` + `inspect_artifact`; native → `open_binary`;
-   capture HAR/SAZ/qlog → `inspect_web_network_capture`; packet capture → TShark
-   path; firmware → Binwalk/Unblob; WASM → `inspect_wasm_artifact`; dsb.
-3. **Summary-first.** Mulai dari `detail: "summary"`, baru page bagian tertentu via
-   `inspect_analysis_view`. Jangan minta hasil lengkap kalau tidak perlu.
-4. **Tidak mengulang call yang identik.** Kalau gagal, penyebabnya harus berubah
-   atau blocker-nya harus sudah dibereskan dulu.
-5. **Batas otorisasi dipertahankan.** Investigasi ≠ izin mengubah/menjalankan
-   target. Menjalankan target, menulis output, publish, merge, atau install
-   software baru selalu butuh izin eksplisit.
-6. **Investigasi vs implementasi dipisah.** "Analisa dulu" artinya tidak ada edit
-   kode; "perbaiki" artinya scope tetap dijaga.
-7. **Recovery bertahap.** MCP timeout ≠ pekerjaan berhenti; retry sekali untuk
-   call yang aman diulang, lalu lapor dan minta restart client. `rea doctor` hanya
-   untuk registrasi milik `setup`, bukan install plugin.
-8. **Build vs source.** Untuk repo sumber yang lengkap, pakai tool repo biasa —
-   jangan pura-pura menjalankan RE atas binary yang tidak ada.
-9. **Skill optimasi & audit tidak dipakai untuk kerja rutin.** Butuh pertanyaan
-   performa/regresi yang konkret dulu, bukan sekadar "biar cepat".
-
----
-
-## 5. Contoh prompt pemicu
+## 5. Prompt pemicu
 
 | Tujuan | Prompt |
 | --- | --- |
-| Investigasi app/binary | "Pakai `reverse-engineer-anything`: jelaskan bagaimana fitur export di `<path/app.apk>` bekerja, lampirkan Evidence dan bagian yang belum diketahui." |
-| Bandingkan versi | "Bandingkan `app-v1.apk` vs `app-v2.apk` di jalur auth, tunjukkan fungsi yang berubah." |
-| Capture jaringan | "Analisa `capture.har` ini: endpoint apa saja, field mana yang dikirim, dan apa yang tidak bisa disimpulkan." |
-| Audit CI | "Pakai `rea-ci-tests-audit`: cek workflow mana yang false pass dan mana yang bisa dipangkas tanpa kehilangan proteksi." |
-| Optimasi analisis | "Pakai `rea-analysis-optimization`: kenapa analisis JS tree ini lambat, dan di mana perbaikan paling murah?" |
-| Desain tool | "Pakai `rea-tool-design`: rancang tool untuk membaca signature APK beserta semantik Evidence-nya." |
-| Changelog | "Pakai `rea-changelog-update`: susun release notes dari tag `rea-agents-X` sampai SHA Y." |
+| Mulai dari nol | "Jalankan roadmap REA dari awal, cek environment dulu." |
+| Cek posisi | "Saya di tahap berapa? Jalankan check_readiness lalu simpulkan." |
+| Rute target | "Target saya APK `<nama>`. Rute roadmap + tool-nya apa?" |
+| Naik tahap | "Buktikan kriteria selesai Tahap 2, lalu lanjut ke Tahap 3." |
+| Cari resource | "Resource roadmap untuk topik `<topik>` (paper/buku/kursus) yang mana?" |
+| Cari tool | "Pakai `find-reverse-engineered`: cari tool open-source untuk `<produk>`." |
+| Investigasi mendalam | "Pakai `reverse-engineer-anything` pada `<path>`; sertakan Evidence dan batasannya." |
 
 ---
 
@@ -151,20 +207,30 @@ Diambil langsung dari isi skill (terutama `reverse-engineer-anything`):
 
 ```
 .
-├── SKILLS.md                          ← dokumen ini (index + cara pakai)
+├── SKILLS.md                                ← dokumen ini
 └── .agents/
-    └── skills/                        ← salinan verbatim dari morluto/rea
-        ├── README.md                  ← catatan sumber & atribusi
-        ├── reverse-engineer-anything/ SKILL.md + references/ (7 file)
-        ├── rea-analysis-optimization/ SKILL.md + references/ + agents/
-        ├── rea-ci-tests-audit/        SKILL.md + references/ + agents/
-        ├── rea-tool-design/           SKILL.md
-        └── rea-changelog-update/      SKILL.md
+    └── skills/
+        ├── README.md                        ← atribusi & daftar skill
+        ├── rea-roadmap/                     ← BARU: alur kerja dari 46 link
+        │   ├── SKILL.md
+        │   ├── references/{resources,learning-path,installation,mcp-prompts,source-verification}.md
+        │   └── scripts/check_readiness.sh
+        ├── find-reverse-engineered/         ← dari awesome-reverse-engineered (MIT)
+        │   ├── SKILL.md, LICENSE
+        │   └── scripts/re_index.py
+        ├── reverse-engineer-anything/       ← dari morluto/rea
+        │   ├── SKILL.md + references/ (7 file)
+        ├── rea-analysis-optimization/       SKILL.md + references/ + agents/
+        ├── rea-ci-tests-audit/              SKILL.md + references/ + agents/
+        ├── rea-tool-design/                 SKILL.md
+        └── rea-changelog-update/            SKILL.md
 ```
 
-Untuk sinkron ulang di masa depan:
+Sinkron ulang skill upstream:
 
 ```bash
 git clone --depth 1 https://github.com/morluto/rea /tmp/rea
-rsync -a /tmp/rea/.agents/skills/ .agents/skills/   # README.md lokal tetap aman
+rsync -a /tmp/rea/.agents/skills/ .agents/skills/       # README.md lokal aman
+git clone --depth 1 https://github.com/alexgaoth/awesome-reverse-engineered /tmp/are
+rsync -a /tmp/are/plugin/skills/find-reverse-engineered/ .agents/skills/find-reverse-engineered/
 ```
