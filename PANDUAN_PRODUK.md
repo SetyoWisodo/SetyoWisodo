@@ -300,6 +300,10 @@ Books
 
 Simpan, lalu produk ini masuk ke bagian itu. Tanpa langkah ini, orang yang membuka `gumroad.com/setyowisodo` tidak melihat buku Anda sama sekali.
 
+**Mengganti nama bagian itu di kemudian hari.** Namanya bukan diatur di halaman produk, melainkan di pengaturan profil: buka `gumroad.com/settings/profile` (atau klik **Edit profile** di halaman profil publik) → cari daftar **Sections** → klik bagian yang ingin diganti → ubah namanya → **Save**. Perubahan langsung tampak sebagai judul di atas kartu produk pada `gumroad.com/setyowisodo`.
+
+**Harga tampil dalam Rupiah di layar Anda — itu wajar.** Gumroad mendeteksi mata uang pengunjung (pojok kanan bawah halaman profil: *Rp (Indonesian Rupiah) — detected*), lalu menampilkan harga yang sudah dikonversi. Pembeli di Amerika tetap melihat **$45**. Tidak ada yang perlu diubah, dan jumlah yang Anda terima tetap dihitung dari harga USD.
+
 **4. Gumroad Discover.** Kategori masih `Other`; ganti, lalu isi tag. Persis lima tag ini:
 
 | Kolom | Isi |
