@@ -86,7 +86,7 @@ Ukuran berkasnya **2560 × 1440** (rasio 16:9), sama dengan bingkai cover Gumroa
 | **Pay what you want** | **MATI** |
 | **Quantity** | kosongkan (tak terbatas) |
 | **Versions / tiers** | kosongkan |
-| **Category** | `Education` → subkategori buku/academic bila ditawarkan |
+| **Category** | `Education > Science` — pilihan terdekat untuk buku iklim/ketahanan; daftar Gumroad tidak punya "Environment" |
 | **Tags** | `climate change`, `disaster risk`, `adaptation`, `resilience`, `Indonesia` |
 | **Call to action** | kosongkan |
 
@@ -324,7 +324,7 @@ Kalau bagian *Bio* dibiarkan kosong, halaman profil hanya menampilkan nama dan k
 
 | Kolom | Isi |
 |---|---|
-| Category | `Education` |
+| Category | `Education > Science` |
 | Tag 1 | `climate change` |
 | Tag 2 | `disaster risk` |
 | Tag 3 | `adaptation` |
