@@ -29,7 +29,7 @@ MUTED = (0.62, 0.68, 0.75)
 
 ED = [
     dict(
-        src=os.path.join(HERE, "Surviving_the_Future.pdf"),
+        src=os.path.join(PUB, "Surviving_the_Future_EN_ebook.pdf"),
         out=os.path.join(PUB, "Surviving_the_Future_EN_sample.pdf"),
         pages=[*range(1, 33)],        # 1-based, inklusif; halaman gambar dicari otomatis
         lang="en",
@@ -45,17 +45,17 @@ ED = [
             ("25 data tables and 11 figures", "every number traceable to a named source"),
             ("24 case studies", "Bhola, Amphan, Chicago 1995, the Ahr valley, Cape Town, Chennai"),
             ("Worklists and worksheets", "an emergency checklist and a local risk profile you can fill in"),
-            ("Glossary, analytical caveats, index", "and 172 sources, with notes on every event figure"),
+            ("Glossary, analytical caveats, index", "and 152 sources, with notes on every event figure"),
         ],
         cta_head="GET THE COMPLETE EDITION",
         cta_body="The full PDF, EPUB and print editions are available from the publisher.",
-        cta_url="[ isi alamat toko Anda di sini ]",
+        cta_url="setyowisodo.gumroad.com/l/surviving-the-future",
         foot_tpl="FREE SAMPLE  \u00b7  Surviving the Future  \u00b7  full edition: {total} pages",
         legal="This sample may be shared freely. The complete edition is licensed to the "
               "individual who bought it and may not be redistributed.",
     ),
     dict(
-        src=os.path.join(HERE, "Surviving_the_Future_ID.pdf"),
+        src=os.path.join(PUB, "Bertahan_Hidup_di_Masa_Depan_ID_ebook.pdf"),
         out=os.path.join(PUB, "Bertahan_Hidup_di_Masa_Depan_ID_sample.pdf"),
         pages=[*range(1, 35)],
         lang="id",
@@ -71,11 +71,11 @@ ED = [
             ("25 tabel data dan 11 gambar", "setiap angka dapat ditelusuri ke sumbernya"),
             ("24 studi kasus", "Bhola, Amphan, Chicago 1995, Lembah Ahr, Cape Town, Chennai"),
             ("Ceklis dan lembar kerja", "daftar periksa darurat dan profil risiko lokal yang bisa Anda isi"),
-            ("Glosarium, catatan analitis, indeks", "dan 172 sumber, dengan catatan untuk setiap angka peristiwa"),
+            ("Glosarium, catatan analitis, indeks", "dan 152 sumber, dengan catatan untuk setiap angka peristiwa"),
         ],
         cta_head="DAPATKAN EDISI LENGKAP",
         cta_body="PDF lengkap, EPUB, dan edisi cetak tersedia dari penerbit.",
-        cta_url="[ isi alamat toko Anda di sini ]",
+        cta_url="setyowisodo.gumroad.com/l/surviving-the-future",
         foot_tpl="SAMPEL GRATIS  \u00b7  Bertahan Hidup di Masa Depan  \u00b7  edisi lengkap: {total} halaman",
         legal="Sampel ini boleh dibagikan. Edisi lengkap dilisensikan kepada pembeli "
               "dan tidak boleh disebarluaskan.",
@@ -176,7 +176,9 @@ def build(cfg):
     for pno in cfg["pages"]:
         out.insert_pdf(src, from_page=pno - 1, to_page=pno - 1)
 
-    for page in out:
+    for i, page in enumerate(out):
+        if i == 0:          # halaman sampul: tanpa catatan kaki
+            continue
         sample_footer(page, cfg, pw)
 
     closing_page(out, cfg, pw, ph)

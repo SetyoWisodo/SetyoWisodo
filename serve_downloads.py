@@ -116,7 +116,8 @@ def build_html(host=""):
     parts.append('<h2>Buku</h2><div class="grid">')
     for tag, slug in EDITIONS:
         for f, t in [
-            (f"{slug}_interior.pdf", f"{tag} — PDF isi"),
+            (f"{slug}_ebook.pdf", f"{tag} — PDF lengkap (bersampul)"),
+            (f"{slug}_interior.pdf", f"{tag} — PDF interior (untuk cetak)"),
             (f"{slug}_sample.pdf", f"{tag} — sampel gratis"),
             (f"{slug}.epub", f"{tag} — EPUB"),
             (f"{slug}.docx", f"{tag} — DOCX"),

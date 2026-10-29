@@ -1,0 +1,10 @@
+# Versi yang menghasilkan tata letak final (457 hlm EN / 473 hlm ID).
+# pyphen WAJIB ada: tanpa kamus pemisahan kata, baris pecah lebih awal
+# dan buku melebar 2 halaman (459) — sampul, sampel, dan daftar isi ikut bergeser.
+fpdf2==2.7.9
+pyphen
+pymupdf
+python-docx
+pillow
+pypdf
+matplotlib

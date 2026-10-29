@@ -4,7 +4,7 @@ Empat berkas, semuanya ada di folder [book/publish](https://github.com/SetyoWiso
 
 | # | Berkas | Ukuran | Tautan |
 |---|---|---|---|
-| 1 | `Surviving_the_Future_EN_interior.pdf` — 457 hlm, A4 | 3,00 MB | https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN_interior.pdf |
+| 1 | `Surviving_the_Future_EN_ebook.pdf` — 457 hlm, A4, **bersampul** | 4,25 MB | https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN_ebook.pdf |
 | 2 | `Surviving_the_Future_EN.epub` | 1,78 MB | https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN.epub |
 | 3 | `Surviving_the_Future_EN.docx` | 1,14 MB | https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN.docx |
 | 4 | `Surviving_the_Future_EN_figures.zip` — 11 gambar 300 dpi | 0,65 MB | https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN_figures.zip |
@@ -29,6 +29,6 @@ Klik tautan → **Download raw file** (kanan atas) → berkas masuk folder Downl
 
 ## Jangan
 
-- Jangan unggah `*_cover_print.pdf` — itu bungkus cetak untuk percetakan.
+- Jangan unggah `*_cover_print.pdf` (bungkus cetak) dan jangan `*_interior.pdf` (untuk percetakan, tanpa sampul di halaman pertama).
 - Jangan beri kata sandi pada PDF — berkas terkunci tidak bisa distempel.
 - Jangan pakai **Disable all downloads** — pembeli harus bisa mengunduh.

@@ -223,7 +223,7 @@ Klik tab **Content** di atas. Unggah **empat berkas** (tombol *Upload files*):
 
 | # | Berkas | Catatan |
 |---|---|---|
-| 1 | `book/publish/Surviving_the_Future_EN_interior.pdf` | **nyalakan stempel PDF pada berkas ini** |
+| 1 | `book/publish/Surviving_the_Future_EN_ebook.pdf` | **nyalakan stempel PDF pada berkas ini** — sudah bersampul |
 | 2 | `book/publish/Surviving_the_Future_EN.epub` | tidak bisa distempel |
 | 3 | `book/publish/Surviving_the_Future_EN.docx` | tidak bisa distempel |
 | 4 | `book/publish/Surviving_the_Future_EN_figures.zip` | 11 gambar 300 dpi |
@@ -237,7 +237,7 @@ Beri nama tiap bagian agar pembeli tahu apa yang dia unduh:
 - `03 · The book (DOCX)`
 - `04 · Figure pack (11 figures, 300 dpi)`
 
-> **Jangan unggah** `*_cover_print.pdf` — itu bungkus cetak untuk percetakan, bukan buku, dan akan membingungkan pembeli. Jangan juga memberi kata sandi pada PDF: Gumroad tidak bisa menstempel berkas terkunci.
+> **Jangan unggah** `*_cover_print.pdf` — itu bungkus cetak untuk percetakan, bukan buku. **Jangan juga** `*_interior.pdf` untuk pembeli: berkas itu untuk percetakan, halaman pertamanya halaman judul teks tanpa sampul. Yang dijual adalah `*_ebook.pdf`. Jangan beri kata sandi pada PDF — Gumroad tidak bisa menstempel berkas terkunci.
 
 ## Langkah 8 · Tab Receipt
 
@@ -329,7 +329,7 @@ bertahan-hidup-di-masa-depan
 | Cover 1–3 | `cover_id_1_hero.png`, `cover_id_2_inside.png`, `cover_id_3_quote.png` |
 | Thumbnail | `thumb_id.png` |
 | Price | `29` · USD |
-| Tab Content | `Bertahan_Hidup_di_Masa_Depan_ID_interior.pdf` (**stempel NYALA**), `..._ID.epub`, `..._ID.docx`, `..._ID_figures.zip` |
+| Tab Content | `Bertahan_Hidup_di_Masa_Depan_ID_ebook.pdf` (**stempel NYALA**), `..._ID.epub`, `..._ID.docx`, `..._ID_figures.zip` |
 | Receipt | kalimat yang sama, diterjemahkan bebas, atau kosongkan |
 
 Halaman buku ini 473 halaman — angka itu sudah tertulis di deskripsi, jangan diubah.

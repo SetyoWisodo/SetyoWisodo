@@ -473,6 +473,8 @@ def build_docx(cfg):
     sec.left_margin, sec.right_margin = Mm(30), Mm(30)
     sec.top_margin, sec.bottom_margin = Mm(30), Mm(40)
     sec.header_distance, sec.footer_distance = Mm(15), Mm(14)
+    # halaman sampul tanpa kepala/kaki berjalan
+    sec.different_first_page_header_footer = True
 
     # ---- kepala & kaki halaman berjalan ----
     def _hdr(container, text, align):
@@ -490,6 +492,17 @@ def build_docx(cfg):
         p.alignment = align
         p.paragraph_format.first_line_indent = Mm(0)
         _field(p, " PAGE ", "1")
+
+    # ---- halaman sampul ----
+    cover_jpg = cfg["img"].replace("_cover_ebook.jpg", "_cover_front.jpg")
+    if os.path.exists(cover_jpg):
+        p = doc.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        p.paragraph_format.first_line_indent = Mm(0)
+        p.paragraph_format.space_before = Pt(0)
+        p.paragraph_format.space_after = Pt(0)
+        p.add_run().add_picture(cover_jpg, width=Mm(150))
+        doc.add_page_break()
 
     # ---- halaman judul ----
     for _ in range(6):

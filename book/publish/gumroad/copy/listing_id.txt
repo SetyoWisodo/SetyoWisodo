@@ -40,7 +40,7 @@ YANG ANDA DAPATKAN
 
 Empat berkas, satu pembayaran, tanpa langganan:
 
-* Buku dalam PDF - 473 halaman, tata letak siap cetak, ber-bookmark lengkap
+* Buku dalam PDF - 473 halaman, lengkap dengan sampul, ber-bookmark penuh
 * Buku dalam EPUB - untuk ponsel, tablet, dan e-reader
 * Buku dalam DOCX - bila Anda ingin mengutip, membuat ringkasan, atau menerjemahkan
 * Paket gambar - 11 gambar 300 dpi, dengan keterangan dan baris sumber,

@@ -80,8 +80,8 @@ Dihasilkan oleh `final_audit.py`. Dijalankan ulang sampai nol FAIL.
 
 ## docx
 
-- ✅ EN: 3029 paragraf, 25 tabel, 24 baris sumber, tanpa jejak AI
-- ✅ ID: 3023 paragraf, 25 tabel, 24 baris sumber, tanpa jejak AI
+- ✅ EN: 3031 paragraf, 25 tabel, 24 baris sumber, tanpa jejak AI
+- ✅ ID: 3025 paragraf, 25 tabel, 24 baris sumber, tanpa jejak AI
 
 ## produk
 

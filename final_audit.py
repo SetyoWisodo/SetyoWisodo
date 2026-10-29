@@ -582,6 +582,8 @@ def check_freshness():
     src = max(os.path.getmtime(f) for f in (EN, ID, "references.py", "figures.py"))
     stale = []
     for path in (EN_PDF, ID_PDF,
+                 "book/publish/Surviving_the_Future_EN_ebook.pdf",
+                 "book/publish/Bertahan_Hidup_di_Masa_Depan_ID_ebook.pdf",
                  "book/publish/Surviving_the_Future_EN_interior.pdf",
                  "book/publish/Bertahan_Hidup_di_Masa_Depan_ID_interior.pdf",
                  "book/publish/Surviving_the_Future_EN.epub",
