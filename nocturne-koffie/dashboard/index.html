@@ -50,10 +50,15 @@ tr.alert-row td{background:#fff1ec}
 footer{margin-top:34px;border-top:2px solid var(--ink);padding-top:14px;font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:space-between}
 code{background:var(--paper2);padding:1px 5px;border-radius:3px;font-size:12px}
 .legend{font-size:12px;color:var(--muted);margin:-4px 0 10px}
+.pill{display:inline-block;font-size:11px;letter-spacing:.04em;padding:2px 8px;border-radius:99px;border:1px solid}
+.pill.ok{color:#1f6b3a;border-color:#1f6b3a;background:#e8f2ea}
+.pill.warn{color:#8a5a00;border-color:#b78621;background:#fbf1d9}
+.pill.dim{color:var(--muted);border-color:rgba(22,17,13,.2)}
+th.num,td.num{text-align:right;font-variant-numeric:tabular-nums}
 </style></head><body><div class="wrap">
 <header class="top">
   <div class="brand">Nocturne<small>Koffie Brand · papan harian</small></div>
-  <div class="tanggal">Jumat, 30 Oktober 2026<small>Divisi aktif: 6 · dibuat 30 Oct 2026 00:35 WIB</small></div>
+  <div class="tanggal">Selasa, 03 November 2026<small>Divisi aktif: 7 · dibuat 30 Oct 2026 00:53 WIB</small></div>
 </header>
 <div class="grid kpi">
 <div><span>Order minggu ini</span><b>3</b><em>target 90 hari: 25/bulan</em></div>
@@ -70,11 +75,11 @@ code{background:var(--paper2);padding:1px 5px;border-radius:3px;font-size:12px}
       <div></div></div>
 <div class="alert peringatan">
       <div><div class="lvl">peringatan</div><div class="div">Penjualan & CRM</div></div>
-      <div><b>Order NK-1028-01 (Bagus) menunggu 2 hari.</b><p>Konfirmasi & kirim hari ini; balas < 2 jam.</p></div>
+      <div><b>Order NK-1028-01 (Bagus) menunggu 6 hari.</b><p>Konfirmasi & kirim hari ini; balas < 2 jam.</p></div>
       <div></div></div>
 <div class="alert peringatan">
       <div><div class="lvl">peringatan</div><div class="div">Penjualan & CRM</div></div>
-      <div><b>Order NK-1028-02 (Dewi) menunggu 2 hari.</b><p>Konfirmasi & kirim hari ini; balas < 2 jam.</p></div>
+      <div><b>Order NK-1028-02 (Dewi) menunggu 6 hari.</b><p>Konfirmasi & kirim hari ini; balas < 2 jam.</p></div>
       <div></div></div>
 <div class="alert info">
       <div><div class="lvl">info</div><div class="div">Operasional & Logistik</div></div>
@@ -97,16 +102,49 @@ code{background:var(--paper2);padding:1px 5px;border-radius:3px;font-size:12px}
       <div><b>8 dokumen legal belum selesai.</b><p>Lihat daftar di papan bagian Legal.</p></div>
       <div></div></div>
 </div></section>
-<section><h2>Enam divisi</h2><div class="grid divisi">
+<section><h2>Target divisi — Nov 2026</h2>
+<div class="legend">Target dari <code>data/divisi.json</code> · aktual dihitung dari berkas data, bukan diketik · volume order/batch/omzet memakai <b>30 hari terakhir</b>. 11 tercapai · 13 di bawah target · 2 belum ada datanya.</div>
+<table><tr><th>Divisi</th><th>Ukuran</th><th class="num">Target</th><th class="num">Aktual</th><th>Status</th></tr>
+<tr><td><b>D1</b> Produksi & QC</td><td>Batch tercatat</td><td class="num">↑ 4</td><td class="num">4</td><td><span class="pill ok">tercapai</span></td></tr>
+<tr><td><b>D1</b> </td><td>Batch ditolak</td><td class="num">↓ 15</td><td class="num">25</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D1</b> </td><td>Skor cupping rata-rata</td><td class="num">↑ 84</td><td class="num">84,1</td><td><span class="pill ok">tercapai</span></td></tr>
+<tr><td><b>D1</b> </td><td>Selisih status stok situs</td><td class="num">↓ 0</td><td class="num">0</td><td><span class="pill ok">tercapai</span></td></tr>
+<tr><td><b>D2</b> Penjualan & CRM</td><td>Order retail</td><td class="num">↑ 25</td><td class="num">3</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D2</b> </td><td>Nilai order rata-rata</td><td class="num">↑ Rp130.000</td><td class="num">Rp132.333</td><td><span class="pill ok">tercapai</span></td></tr>
+<tr><td><b>D2</b> </td><td>Langganan aktif</td><td class="num">↑ 3</td><td class="num">0</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D2</b> </td><td>Akun B2B aktif</td><td class="num">↑ 1</td><td class="num">0</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D3</b> Marketing & Pertumbuhan</td><td>Konten terbit</td><td class="num">↑ 16</td><td class="num">0</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D3</b> </td><td>Konten terlambat</td><td class="num">↓ 0</td><td class="num">0</td><td><span class="pill ok">tercapai</span></td></tr>
+<tr><td><b>D3</b> </td><td>Chat masuk</td><td class="num">↑ 40</td><td class="num">11</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D3</b> </td><td>Followers IG</td><td class="num">↑ 300</td><td class="num">187</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D4</b> Kreatif & Media</td><td>Video jadi</td><td class="num">↑ 8</td><td class="num">5</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D4</b> </td><td>Carousel jadi</td><td class="num">↑ 4</td><td class="num">7</td><td><span class="pill ok">tercapai</span></td></tr>
+<tr><td><b>D4</b> </td><td>Aset siap tayang</td><td class="num">↑ 12</td><td class="num">15</td><td><span class="pill ok">tercapai</span></td></tr>
+<tr><td><b>D4</b> </td><td>Klip mentah minggu ini</td><td class="num">↑ 30</td><td class="num">—</td><td><span class="pill dim">tanpa data</span></td></tr>
+<tr><td><b>D5</b> Operasional & Logistik</td><td>Order perlu diproses</td><td class="num">↓ 0</td><td class="num">2</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D5</b> </td><td>Resi belum dikirim</td><td class="num">↓ 0</td><td class="num">2</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D5</b> </td><td>Order telat > 1 hari</td><td class="num">↓ 2</td><td class="num">2</td><td><span class="pill ok">tercapai</span></td></tr>
+<tr><td><b>D6</b> Keuangan</td><td>Omzet retail</td><td class="num">↑ 3.2 jt</td><td class="num">Rp397.000</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D6</b> </td><td>Margin terburuk</td><td class="num">↑ 35</td><td class="num">42,4</td><td><span class="pill ok">tercapai</span></td></tr>
+<tr><td><b>D6</b> </td><td>Break-even</td><td class="num">↓ 35</td><td class="num">35</td><td><span class="pill ok">tercapai</span></td></tr>
+<tr><td><b>D6</b> </td><td>Biaya tetap</td><td class="num">↓ 1.3 jt</td><td class="num">1.3 jt</td><td><span class="pill ok">tercapai</span></td></tr>
+<tr><td><b>D7</b> Brand & Legal</td><td>Dokumen legal selesai</td><td class="num">↑ 5</td><td class="num">1</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D7</b> </td><td>Dokumen tertunda</td><td class="num">↓ 3</td><td class="num">8</td><td><span class="pill warn">di bawah</span></td></tr>
+<tr><td><b>D7</b> </td><td>Klaim melanggar</td><td class="num">↓ 0</td><td class="num">—</td><td><span class="pill dim">tanpa data</span></td></tr>
+</table></section>
+<section><h2>Tujuh divisi</h2><div class="grid divisi">
 <div class="card"><h3>Produksi & QC</h3><div class="owner">Ais Coffee Roastery · Nocturne memeriksa</div>
       <dl><dt>Batch 30 hari</dt><dd>4</dd><dt>Batch ditolak</dt><dd>1</dd><dt>SKU stok kritis</dt><dd>1</dd><dt>Skor cupping rata</dt><dd>84.1</dd></dl>
       <div class="next"><b>Langkah berikutnya:</b> Catat batch sangrai berikutnya & perbarui status stok di situs.</div></div>
 <div class="card"><h3>Penjualan & CRM</h3><div class="owner">owner · WhatsApp Business</div>
       <dl><dt>Order perlu diproses</dt><dd>2</dd><dt>Restock jatuh tempo</dt><dd>0</dd><dt>Chat masuk</dt><dd>11</dd><dt>Resi belum dikirim</dt><dd>2</dd></dl>
       <div class="next"><b>Langkah berikutnya:</b> Balas semua chat < 2 jam dan kirim resi yang tertunda.</div></div>
-<div class="card"><h3>Marketing & Konten</h3><div class="owner">owner · IG / TikTok</div>
-      <dl><dt>Konten hari ini</dt><dd>0</dd><dt>Konten terlambat</dt><dd>0</dd><dt>Followers IG</dt><dd>187</dd><dt>Chat dari konten</dt><dd>—</dd></dl>
+<div class="card"><h3>Marketing & Pertumbuhan</h3><div class="owner">owner · IG / TikTok / marketplace</div>
+      <dl><dt>Konten hari ini</dt><dd>1</dd><dt>Konten terlambat</dt><dd>0</dd><dt>Chat masuk</dt><dd>11</dd><dt>Followers IG</dt><dd>187</dd></dl>
       <div class="next"><b>Langkah berikutnya:</b> Selesaikan konten terjadwal; kalau kosong, rekam 3 klip mentah hari ini.</div></div>
+<div class="card"><h3>Kreatif & Media</h3><div class="owner">owner (rekam) · agent (aset)</div>
+      <dl><dt>Aset di manifest</dt><dd>15</dd><dt>Video jadi</dt><dd>5</dd><dt>Video terencode</dt><dd>ya</dd><dt>Klip mentah</dt><dd>rekam saat produksi</dd></dl>
+      <div class="next"><b>Langkah berikutnya:</b> Jalankan <code>python3 tools/kreatif.py</code> setelah ada klip baru, lalu tayangkan sesuai jadwal.</div></div>
 <div class="card"><h3>Operasional & Logistik</h3><div class="owner">owner · packing & kurir</div>
       <dl><dt>Siap dikirim</dt><dd>2</dd><dt>Tanpa resi</dt><dd>2</dd><dt>Order 30 hari</dt><dd>3</dd><dt>Kemasan tersedia</dt><dd>cek stok</dd></dl>
       <div class="next"><b>Langkah berikutnya:</b> Packing hanya setelah pembayaran terkonfirmasi; kirim resi hari yang sama.</div></div>
@@ -118,18 +156,36 @@ code{background:var(--paper2);padding:1px 5px;border-radius:3px;font-size:12px}
       <div class="next"><b>Langkah berikutnya:</b> Lengkapi NIB & izin publikasi nama petani sebelum kampanye besar.</div></div>
 </div></section>
 <section><h2>Marketing — jadwal konten</h2>
-<div class="empty">Tidak ada konten terjadwal hari ini. Rekam 3 klip saat sangrai/packing untuk stok konten.</div>
+<div class="alert info"><div><div class="lvl">hari ini</div><div class="div">IG Reels</div></div><div><b>12 menit terakhir sebelum kopi dikemas</b><p>Pilar Proses · status siap</p></div><div></div></div>
 <h2 style="margin-top:14px">Berikutnya</h2><table><tr><th>Tanggal</th><th>Platform</th><th>Judul</th><th>Pilar</th></tr>
-<tr><td>2026-11-03</td><td>IG Reels</td><td>12 menit terakhir sebelum kopi dikemas</td><td>Proses</td></tr>
 <tr><td>2026-11-04</td><td>IG Carousel</td><td>Tanggal sangrai, bukan tanggal kedaluwarsa</td><td>Bukti</td></tr>
 <tr><td>2026-11-05</td><td>TikTok</td><td>Suara first crack</td><td>Proses</td></tr>
 <tr><td>2026-11-06</td><td>IG Story</td><td>Tiga tanda kopi masih segar + jajak pendapat</td><td>Edukasi</td></tr>
+<tr><td>2026-11-07</td><td>IG Carousel</td><td>Minggu ini satu batch tidak lolos</td><td>Bukti</td></tr>
 </table>
 </section>
+<section><h2>Kreatif &amp; Media — aset siap tayang</h2>
+<div class="legend">Manifest <code>data/kreatif.json</code> · dibuat 2026-10-29 · video terencode: ya. Buka <a href="../konten/index.html">hub konten</a> untuk pratinjau dan caption.</div>
+<table><tr><th>Aset</th><th>Rasio</th><th>Platform</th><th>Jadwal</th><th>Status</th></tr>
+<tr><td>12 menit terakhir sebelum kopi dikemas</td><td>9:16</td><td>IG Reels</td><td>3 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Tanggal sangrai, bukan tanggal kedaluwarsa</td><td>9:16</td><td>IG Carousel (penutup) + Reels</td><td>4 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Suara first crack</td><td>9:16</td><td>TikTok</td><td>5 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Minggu ini satu batch tidak lolos</td><td>9:16</td><td>IG Reels</td><td>7 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Order hari ini, dikirim hari ini</td><td>9:16</td><td>IG Reels</td><td>13 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Kenapa kami mencetak tanggal sangrai, bukan kedaluwarsa</td><td>4:5</td><td>Instagram (carousel)</td><td>4–11 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Rasa terbaiknya 7–21 hari setelah sangrai</td><td>4:5</td><td>Instagram (carousel)</td><td>4–11 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Di tiap kantong ada tiga hal</td><td>4:5</td><td>Instagram (carousel)</td><td>4–11 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Biji utuh atau digiling?</td><td>4:5</td><td>Instagram (carousel)</td><td>4–11 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Kalau kami giling, sebutkan alatnya</td><td>4:5</td><td>Instagram (carousel)</td><td>4–11 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Belum punya grinder? Mulai dari sini</td><td>4:5</td><td>Instagram (carousel)</td><td>4–11 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Batch yang tidak lolos tidak dikirim</td><td>4:5</td><td>Instagram (carousel)</td><td>7 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Tiga tanda kopi masih segar</td><td>9:16</td><td>Instagram Story</td><td>6 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+<tr><td>Kopi di rumah Anda berapa lama?</td><td>9:16</td><td>Instagram Story</td><td>6 Nov 2026</td><td><span class="pill dim">siap</span></td></tr>
+</table></section>
 <section><h2>Penjualan — pesanan perlu diproses</h2>
 <table><tr><th>Nomor</th><th>Tanggal</th><th>Nama</th><th>Produk</th><th>Ukuran</th><th class="num">Qty</th><th class="num">Total</th><th>Status</th><th class="num">Umur</th></tr>
-<tr class="alert-row"><td>NK-1028-01</td><td>2026-10-28</td><td>Bagus</td><td>Blend 70/30</td><td>1 kg</td><td class="num">1</td><td class="num">Rp170.000</td><td><span class="badge b-baru">baru</span></td><td class="num">2h</td></tr>
-<tr class="alert-row"><td>NK-1028-02</td><td>2026-10-28</td><td>Dewi</td><td>Gayo</td><td>100 g</td><td class="num">3</td><td class="num">Rp135.000</td><td><span class="badge b-baru">diproses</span></td><td class="num">2h</td></tr>
+<tr class="alert-row"><td>NK-1028-01</td><td>2026-10-28</td><td>Bagus</td><td>Blend 70/30</td><td>1 kg</td><td class="num">1</td><td class="num">Rp170.000</td><td><span class="badge b-baru">baru</span></td><td class="num">6h</td></tr>
+<tr class="alert-row"><td>NK-1028-02</td><td>2026-10-28</td><td>Dewi</td><td>Gayo</td><td>100 g</td><td class="num">3</td><td class="num">Rp135.000</td><td><span class="badge b-baru">diproses</span></td><td class="num">6h</td></tr>
 </table>
 </section>
 <section><h2>Produksi — stok per SKU</h2><div class="legend">Sisa dihitung dari green bean × yield, bukan dari kopi jadi. “Beda” = status di situs berbeda dari hitungan lot.</div>
@@ -180,9 +236,11 @@ code{background:var(--paper2);padding:1px 5px;border-radius:3px;font-size:12px}
 <tr><td>Domain & email brand</td><td style="color:var(--red)"><b>belum</b></td><td>Email Gmail dipakai sementara</td></tr>
 </table></section>
 <footer>
-  <span>Dibuat otomatis oleh <code>tools/papan.py</code> pada 30 Oct 2026 00:35 WIB ·
+  <span>Dibuat otomatis oleh <code>tools/papan.py</code> pada 30 Oct 2026 00:53 WIB ·
     <a href="../brand/index.html">brand kit</a> ·
     <a href="../komersial/penawaran-b2b.html">penawaran B2B</a> ·
-    <a href="../komersial/harga-grosir.csv">harga grosir</a></span>
+    <a href="../komersial/harga-grosir.csv">harga grosir</a> ·
+    <a href="../konten/index.html">hub konten</a> ·
+    <a href="../operasional/00-struktur-divisi.md">struktur divisi</a></span>
   <span>Angka biaya di <code>data/biaya.json</code> masih <b>asumsi</b> — ganti dengan angka nyata.</span>
 </footer></div></body></html>

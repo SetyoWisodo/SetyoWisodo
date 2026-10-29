@@ -35,6 +35,20 @@ D = lambda *p: os.path.join(ROOT, "data", *p)
 
 RP = lambda n: "Rp" + f"{round(n):,}".replace(",", ".")
 
+
+def fmt_angka(n, satuan=""):
+    """Format angka target/aktual menurut satuannya. None → em dash."""
+    if n is None:
+        return "—"
+    if satuan == "Rp" or satuan == "Rp/bulan":
+        teks = f"{round(n / 1_000_000, 1)} jt" if abs(n) >= 1_000_000 else RP(n)
+        return teks
+    if isinstance(n, float) and not n.is_integer():
+        return f"{n:.1f}".replace(".", ",")
+    if isinstance(n, float):
+        n = int(n)
+    return str(n)
+
 TARGET = {            # target 90 hari, dari marketing/00-strategi-90hari.md
     "order_bulan": 25,
     "aov": 130000,
@@ -293,6 +307,120 @@ def analisa_kpi(kpi):
     }
 
 
+# ─────────────────────────── target & aktual divisi ────────────────────────
+def bulan_ke(periode, hari_ini):
+    """0 = bulan_1, 1 = bulan_2, 2 = bulan_3. Di luar rentang → dijepit."""
+    if not periode:
+        return 0
+    teks = str(periode.get("bulan_1") or "")
+    bln = {"Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "Mei": 5, "Jun": 6, "Jul": 7,
+           "Agu": 8, "Sep": 9, "Okt": 10, "Nov": 11, "Des": 12}
+    try:
+        kode, tahun = teks.split()
+        mulai = date(int(tahun), bln[kode[:3]], 1)
+    except Exception:
+        return 0
+    selisih = (hari_ini.year - mulai.year) * 12 + (hari_ini.month - mulai.month)
+    return max(0, min(2, selisih))
+
+
+def hitung_aktual(catalog, pesanan, batch, konten, kpi_last, stok, qc, proses, resi,
+                  legal, kreatif, margin_stats, hari_ini):
+    """Satu nilai per kunci KPI di data/divisi.json. None = belum ada datanya."""
+    sejak30 = hari_ini - timedelta(days=30)
+    bulan_ini = [(p) for p in pesanan
+                 if (tgl := parse_tanggal(p.get("tanggal"))) and tgl.year == hari_ini.year
+                 and tgl.month == hari_ini.month
+                 and (p.get("status") or "").lower() not in ("batal", "dibatalkan")]
+    jendela = "bulan berjalan"
+    if not bulan_ini:  # awal bulan / belum ada transaksi → pakai 30 hari terakhir
+        bulan_ini = [p for p in pesanan
+                     if (tgl := parse_tanggal(p.get("tanggal"))) and sejak30 <= tgl <= hari_ini
+                     and (p.get("status") or "").lower() not in ("batal", "dibatalkan")]
+        jendela = "30 hari terakhir"
+    omzet_bulan = sum(float(p.get("total") or 0) for p in bulan_ini)
+    aov_bulan = omzet_bulan / len(bulan_ini) if bulan_ini else None
+
+    batch_bulan = [b for b in batch
+                   if (tgl := parse_tanggal(b.get("tanggal"))) and tgl.year == hari_ini.year
+                   and tgl.month == hari_ini.month]
+    if not batch_bulan:
+        batch_bulan = [b for b in batch
+                       if (tgl := parse_tanggal(b.get("tanggal"))) and sejak30 <= tgl <= hari_ini]
+    ditolak_bulan = [b for b in batch_bulan
+                     if (b.get("status") or "").lower() in ("ditolak", "reject")]
+    pct_ditolak = (len(ditolak_bulan) / len(batch_bulan) * 100) if batch_bulan else None
+
+    konten_bulan = [k for k in konten
+                    if (tgl := parse_tanggal(k.get("tanggal"))) and tgl.year == hari_ini.year
+                    and tgl.month == hari_ini.month]
+    terbit = [k for k in konten_bulan if (k.get("status") or "").lower() in ("terbit", "selesai", "done")]
+    telat = [k for k in konten_bulan
+             if (k.get("status") or "belum").lower() not in ("terbit", "selesai", "done")
+             and (parse_tanggal(k.get("tanggal")) or hari_ini) < hari_ini]
+
+    aset = (kreatif or {}).get("items", [])
+    video = [a for a in aset if a.get("format") == "video"]
+    carousel = [a for a in aset if a.get("id", "").startswith("carousel")]
+
+    legal_selesai = sum(1 for x in legal if (x.get("status") or "").lower() in ("selesai", "ada", "done"))
+
+    return {
+        "_jendela": (jendela, ""),
+        "_aset_dibuat": ((kreatif or {}).get("dibuat"), ""),
+        "batch_bulan": (len(batch_bulan), "batch"),
+        "batch_ditolak_pct": (round(pct_ditolak, 1) if pct_ditolak is not None else None, "%"),
+        "skor_cupping": (qc.get("skor_rata"), "poin"),
+        "beda_status": (sum(1 for s in stok if s.get("beda_status")), "SKU"),
+        "order_retail": (len(bulan_ini), "order"),
+        "aov": (round(aov_bulan) if aov_bulan else None, "Rp"),
+        "langganan": (kpi_last["langganan"] if kpi_last else None, "akun"),
+        "b2b": (kpi_last["b2b"] if kpi_last else None, "akun"),
+        "konten_terbit": (len(terbit), "post"),
+        "konten_telat": (len(telat), "post"),
+        "chat_wa": (kpi_last["chat"] if kpi_last else None, "chat"),
+        "followers_ig": (kpi_last["followers"] if kpi_last else None, "akun"),
+        "video_jadi": (len(video), "video"),
+        "carousel_jadi": (len(carousel), "set"),
+        "aset_siap": (len(aset), "aset"),
+        "klip_mentah": (None, "klip"),
+        "order_proses": (len(proses), "order"),
+        "resi_kosong": (len(resi), "order"),
+        "order_telat": (len([p for p in proses if (p.get("umur_hari") or 0) > 1]), "order"),
+        "omzet": (round(omzet_bulan) if bulan_ini else None, "Rp"),
+        "margin_terburuk": (round(margin_stats["terburuk"] * 100, 1), "%"),
+        "break_even": (margin_stats["break_even"], "order/bulan"),
+        "biaya_tetap": (round(margin_stats["biaya_tetap"]), "Rp/bulan"),
+        "legal_selesai": (legal_selesai, "dokumen"),
+        "legal_tertunda": (len(legal) - legal_selesai, "dokumen"),
+        "klaim_melanggar": (None, "temuan"),
+    }
+
+
+def susun_target_divisi(divisi_json, aktual, hari_ini):
+    """Baris tabel: divisi, KPI, target bulan ini, aktual, status."""
+    if not divisi_json:
+        return [], None
+    idx = bulan_ke(divisi_json.get("periode"), hari_ini)
+    label_bulan = (divisi_json.get("periode") or {}).get(f"bulan_{idx + 1}", "—")
+    rows = []
+    for dv in divisi_json.get("divisi", []):
+        for k in dv.get("kpi", []):
+            tgt_all = k.get("target")
+            target = tgt_all[idx] if isinstance(tgt_all, list) and len(tgt_all) > idx else tgt_all
+            nilai, satuan = aktual.get(k["kunci"], (None, k.get("satuan", "")))
+            if nilai is None or target is None:
+                status = "tanpa data"
+            else:
+                naik = (k.get("arah") or "naik") == "naik"
+                tercapai = nilai >= target if naik else nilai <= target
+                status = "tercapai" if tercapai else "di bawah"
+            rows.append({"kode": dv["kode"], "divisi": dv["nama"], "nama": k["nama"],
+                         "target": target, "aktual": nilai, "satuan": satuan,
+                         "arah": k.get("arah", "naik"), "status": status})
+    return rows, label_bulan
+
+
 # ──────────────────────────────── peringatan ──────────────────────────────
 def susun_peringatan(stok, margin, proses, resi, follow, konten_telat, qc, legal, pipeline=None):
     out = []
@@ -405,12 +533,18 @@ tr.alert-row td{background:#fff1ec}
 footer{margin-top:34px;border-top:2px solid var(--ink);padding-top:14px;font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:space-between}
 code{background:var(--paper2);padding:1px 5px;border-radius:3px;font-size:12px}
 .legend{font-size:12px;color:var(--muted);margin:-4px 0 10px}
+.pill{display:inline-block;font-size:11px;letter-spacing:.04em;padding:2px 8px;border-radius:99px;border:1px solid}
+.pill.ok{color:#1f6b3a;border-color:#1f6b3a;background:#e8f2ea}
+.pill.warn{color:#8a5a00;border-color:#b78621;background:#fbf1d9}
+.pill.dim{color:var(--muted);border-color:rgba(22,17,13,.2)}
+th.num,td.num{text-align:right;font-variant-numeric:tabular-nums}
 """
 
 DIVISI = [
     ("Produksi & QC", "Ais Coffee Roastery · Nocturne memeriksa"),
     ("Penjualan & CRM", "owner · WhatsApp Business"),
-    ("Marketing & Konten", "owner · IG / TikTok"),
+    ("Marketing & Pertumbuhan", "owner · IG / TikTok / marketplace"),
+    ("Kreatif & Media", "owner (rekam) · agent (aset)"),
     ("Operasional & Logistik", "owner · packing & kurir"),
     ("Keuangan", "owner · catatan kas"),
     ("Brand & Legal", "owner · dokumen usaha"),
@@ -443,7 +577,7 @@ def render(ctx):
 <style>{CSS}</style></head><body><div class="wrap">
 <header class="top">
   <div class="brand">Nocturne<small>Koffie Brand · papan harian</small></div>
-  <div class="tanggal">{tgl_teks}<small>Divisi aktif: 6 · dibuat {ctx['dibuat']}</small></div>
+  <div class="tanggal">{tgl_teks}<small>Divisi aktif: 7 · dibuat {ctx['dibuat']}</small></div>
 </header>""")
 
     # KPI
@@ -473,9 +607,35 @@ def render(ctx):
         o.append('<div class="empty">Tidak ada peringatan. Sistem bersih untuk hari ini.</div>')
     o.append("</div></section>")
 
+    # Target divisi
+    tgt_rows = ctx.get("target_divisi") or []
+    if tgt_rows:
+        tercapai = sum(1 for r in tgt_rows if r["status"] == "tercapai")
+        bawah = sum(1 for r in tgt_rows if r["status"] == "di bawah")
+        tanpa = sum(1 for r in tgt_rows if r["status"] == "tanpa data")
+        o.append('<section><h2>Target divisi — ' + (ctx.get("label_bulan") or "bulan ini") + '</h2>')
+        jendela = (ctx.get("jendela_data") or "bulan berjalan")
+        o.append(f'<div class="legend">Target dari <code>data/divisi.json</code> · aktual dihitung dari berkas data, '
+                 f'bukan diketik · volume order/batch/omzet memakai <b>{jendela}</b>. '
+                 f'{tercapai} tercapai · {bawah} di bawah target · {tanpa} belum ada datanya.</div>')
+        o.append('<table><tr><th>Divisi</th><th>Ukuran</th><th class="num">Target</th>'
+                 '<th class="num">Aktual</th><th>Status</th></tr>')
+        kode_akhir = None
+        for r in tgt_rows:
+            nama_div = r["divisi"] if r["kode"] != kode_akhir else ""
+            kode_akhir = r["kode"]
+            kelas = {"tercapai": "ok", "di bawah": "warn", "tanpa data": "dim"}[r["status"]]
+            tgt = fmt_angka(r["target"], r["satuan"])
+            akt = fmt_angka(r["aktual"], r["satuan"])
+            arah = "↑" if r["arah"] == "naik" else "↓"
+            o.append(f'<tr><td><b>{r["kode"]}</b> {nama_div}</td><td>{r["nama"]}</td>'
+                     f'<td class="num">{arah} {tgt}</td><td class="num">{akt}</td>'
+                     f'<td><span class="pill {kelas}">{r["status"]}</span></td></tr>')
+        o.append('</table></section>')
+
     # Divisi
     st = ctx["divisi"]
-    o.append('<section><h2>Enam divisi</h2><div class="grid divisi">')
+    o.append('<section><h2>Tujuh divisi</h2><div class="grid divisi">')
     for nama, owner in DIVISI:
         info = st.get(nama, {})
         o.append(f"""<div class="card"><h3>{nama}</h3><div class="owner">{owner}</div>
@@ -504,6 +664,19 @@ def render(ctx):
     o.append("</section>")
 
     # Pesanan
+    if ctx.get("kreatif"):
+        kr = ctx["kreatif"]
+        o.append('<section><h2>Kreatif &amp; Media — aset siap tayang</h2>')
+        o.append(f'<div class="legend">Manifest <code>data/kreatif.json</code> · dibuat {kr.get("dibuat", "—")} · '
+                 f'video terencode: {"ya" if kr.get("video_terencode") else "belum"}. '
+                 f'Buka <a href="../konten/index.html">hub konten</a> untuk pratinjau dan caption.</div>')
+        o.append('<table><tr><th>Aset</th><th>Rasio</th><th>Platform</th><th>Jadwal</th><th>Status</th></tr>')
+        for a in kr.get("items", [])[:14]:
+            o.append(f'<tr><td>{a.get("judul")}</td><td>{a.get("rasio")}</td>'
+                     f'<td>{a.get("platform")}</td><td>{a.get("jadwal")}</td>'
+                     f'<td><span class="pill {"ok" if a.get("status") == "tayang" else "dim"}">{a.get("status")}</span></td></tr>')
+        o.append('</table></section>')
+
     o.append('<section><h2>Penjualan — pesanan perlu diproses</h2>')
     if ctx["proses"]:
         o.append('<table><tr><th>Nomor</th><th>Tanggal</th><th>Nama</th><th>Produk</th><th>Ukuran</th><th class="num">Qty</th><th class="num">Total</th><th>Status</th><th class="num">Umur</th></tr>')
@@ -602,7 +775,9 @@ def render(ctx):
   <span>Dibuat otomatis oleh <code>tools/papan.py</code> pada {ctx['dibuat']} ·
     <a href="../brand/index.html">brand kit</a> ·
     <a href="../komersial/penawaran-b2b.html">penawaran B2B</a> ·
-    <a href="../komersial/harga-grosir.csv">harga grosir</a></span>
+    <a href="../komersial/harga-grosir.csv">harga grosir</a> ·
+    <a href="../konten/index.html">hub konten</a> ·
+    <a href="../operasional/00-struktur-divisi.md">struktur divisi</a></span>
   <span>Angka biaya di <code>data/biaya.json</code> masih <b>asumsi</b> — ganti dengan angka nyata.</span>
 </footer></div></body></html>""")
     return "\n".join(o)
@@ -626,6 +801,7 @@ def main():
     konten = baca_csv(D("konten-14hari.csv"))
     batch = baca_csv(D("batch-qc.csv"))
     kpi = baca_csv(D("kpi.csv"))
+    divisi_json = baca_json(D("divisi.json"), {})
 
     margin, per_pack, yield_, target_margin = hitung_margin(catalog, biaya)
     stok = hitung_stok(catalog, stok_raw, biaya, pesanan, hari_ini)
@@ -648,8 +824,15 @@ def main():
     }
 
     peringatan = susun_peringatan(stok, margin, proses, resi, follow, konten_telat, qc, legal, pipeline)
+    kreatif = baca_json(D("kreatif.json"), {})
 
     kritis = sum(1 for s in stok if s["beda_status"] or s["status_hitung"] == "habis")
+    margin_stats = {"terburuk": rata_margin, "break_even": break_even["order_per_bulan"],
+                    "biaya_tetap": biaya_tetap}
+    aktual = hitung_aktual(catalog, pesanan, batch, konten, kpi_last, stok, qc, proses, resi,
+                           legal, kreatif, margin_stats, hari_ini)
+    target_divisi, label_bulan = susun_target_divisi(divisi_json, aktual, hari_ini)
+    jendela_data = aktual.get("_jendela", ("bulan berjalan", ""))[0]
     divisi = {
         "Produksi & QC": {
             "metrics": [("Batch 30 hari", qc["jumlah_30h"]),
@@ -665,12 +848,19 @@ def main():
                         ("Resi belum dikirim", len(resi))],
             "next": "Balas semua chat < 2 jam dan kirim resi yang tertunda." if (proses or resi) else "Tidak ada yang menunggu — pakai waktu untuk menyapa 5 pelanggan lama.",
         },
-        "Marketing & Konten": {
+        "Marketing & Pertumbuhan": {
             "metrics": [("Konten hari ini", len(konten_hari)),
                         ("Konten terlambat", len(konten_telat)),
-                        ("Followers IG", kpi_last["followers"] if kpi_last else "—"),
-                        ("Chat dari konten", "—")],
+                        ("Chat masuk", kpi_last["chat"] if kpi_last else "—"),
+                        ("Followers IG", kpi_last["followers"] if kpi_last else "—")],
             "next": "Selesaikan konten terjadwal; kalau kosong, rekam 3 klip mentah hari ini.",
+        },
+        "Kreatif & Media": {
+            "metrics": [("Aset di manifest", len(kreatif.get("items", []))),
+                        ("Video jadi", sum(1 for a in kreatif.get("items", []) if a.get("format") == "video")),
+                        ("Video terencode", "ya" if kreatif.get("video_terencode") else "belum"),
+                        ("Klip mentah", "rekam saat produksi")],
+            "next": "Jalankan <code>python3 tools/kreatif.py</code> setelah ada klip baru, lalu tayangkan sesuai jadwal.",
         },
         "Operasional & Logistik": {
             "metrics": [("Siap dikirim", len(proses)),
@@ -702,6 +892,8 @@ def main():
         "proses": proses, "follow": follow, "resi": resi,
         "stok": stok, "margin": margin, "qc": qc, "legal": legal, "pipeline": pipeline,
         "break_even": break_even, "rata_margin": rata_margin,
+        "target_divisi": target_divisi, "label_bulan": label_bulan, "kreatif": kreatif,
+        "jendela_data": jendela_data,
     }
 
     if args.json:
@@ -724,6 +916,11 @@ def main():
     print(f"  order diproses  : {len(proses)} | restock due: {len(follow)} | resi kosong: {len(resi)}")
     print(f"  konten hari ini : {len(konten_hari)} | terlambat: {len(konten_telat)}")
     print(f"  margin terburuk : {rata_margin*100:.0f}% | break-even {break_even['order_per_bulan']} order/bulan")
+    if target_divisi:
+        tercapai = sum(1 for r in target_divisi if r["status"] == "tercapai")
+        bawah = sum(1 for r in target_divisi if r["status"] == "di bawah")
+        tanpa = sum(1 for r in target_divisi if r["status"] == "tanpa data")
+        print(f"  target {label_bulan}: {tercapai} tercapai | {bawah} di bawah | {tanpa} tanpa data")
     print(f"  dashboard       : dashboard/index.html")
 
 

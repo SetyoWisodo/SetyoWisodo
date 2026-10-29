@@ -19,10 +19,16 @@ nocturne-koffie/
 ├── data/catalog.json             ← SATU-SATUNYA file yang perlu diubah rutin
 ├── brand/                        logo SVG, OG card, 9 label kantong + lembar A4, brand kit
 ├── komersial/                    harga grosir 4 tingkat, penawaran B2B, pipeline prospek
-├── operasional/                  6 divisi: struktur, SOP, KPI, runbook minggu 1
-├── tools/papan.py                generator papan harian (stdlib, tanpa dependensi)
+├── operasional/                  7 divisi: struktur, alur kerja + target per divisi
+│   ├── divisi/                   D1…D7 — satu berkas per divisi
+│   └── arsip/                    SOP versi 6 divisi (rujukan sejarah, tidak dipakai)
+├── konten/                       hub konten: 5 video 9:16, carousel, story, feed
+├── kampanye/index.html           landing page kampanye (hasil generate)
+├── tools/papan.py                generator papan harian + tabel target divisi
 ├── tools/brandkit.py             generator logo, OG card, label kantong (Pillow)
 ├── tools/komersial.py            generator harga grosir + penawaran B2B
+├── tools/kreatif.py              generator video 9:16, carousel, story, hub konten
+├── tools/kampanye.py             generator landing page kampanye
 ├── dashboard/index.html          papan harian hasil generate (jangan diedit manual)
 ├── panduan/PANDUAN-LANDING-PAGE.md
 ├── panduan/07-sistem-motion.md
@@ -38,9 +44,17 @@ python3 -m http.server 8080        # situs  → http://localhost:8080
 python3 tools/papan.py             # hitung ulang papan harian
 python3 tools/brandkit.py          # buat ulang label + logo (butuh Pillow)
 python3 tools/komersial.py         # buat ulang harga grosir + penawaran B2B
+python3 tools/kreatif.py           # render 5 video + carousel + story (butuh ffmpeg)
+python3 tools/kreatif.py --cepat    # hanya gambar (tanpa encode video)
+python3 tools/kampanye.py          # buat ulang landing kampanye dari katalog + manifest
 ```
 
+`tools/kreatif.py` butuh ffmpeg. Di sandbox: `pip install --break-system-packages imageio-ffmpeg`
+(FFmpeg biner tidak ikut tersimpan antar-sesi — generator akan gagal-soft ke gambar saja bila tidak ada,
+dan itu dilaporkan di keluaran terminal serta di `data/kreatif.json` → `video_terencode`).
+
 Halaman yang perlu dibuka: `/` (situs) · `/dashboard/` (papan harian) ·
+`/kampanye/` (landing kampanye konten) · `/konten/` (hub aset, `noindex`) ·
 `/brand/` (brand kit) · `/komersial/penawaran-b2b.html` (proposal B2B).
 
 Harus lewat server — katalog dimuat dengan `fetch`, dan `file://` akan diblokir browser.
@@ -66,7 +80,9 @@ Harus lewat server — katalog dimuat dengan `fetch`, dan `file://` akan dibloki
 
 ## Papan harian (menjalankan bisnis)
 
-`tools/papan.py` membaca 7 berkas data lalu menulis `dashboard/index.html` + `dashboard/data.json`.
+`tools/papan.py` membaca 10 berkas data lalu menulis `dashboard/index.html` + `dashboard/data.json`.
+Sejak revisi 7 divisi, papan juga menampilkan **tabel target vs aktual per divisi** — target dibaca dari
+`data/divisi.json`, aktual dihitung dari berkas data (tidak diketik).
 Tanpa dependensi, tanpa server tambahan.
 
 | Berkas | Isi | Siapa yang mengisi |
@@ -77,8 +93,10 @@ Tanpa dependensi, tanpa server tambahan.
 | `data/batch-qc.csv` | catatan sangrai + skor cupping + lolos/tolak | D1 |
 | `data/pesanan.csv` | satu baris per order | D2 |
 | `data/konten-14hari.csv` | jadwal konten + status | D3 |
-| `data/kpi.csv` | KPI mingguan | D5 |
-| `data/legal.json` | status dokumen usaha | D6 |
+| `data/kpi.csv` | KPI mingguan (order, omzet, chat, followers) | D6 |
+| `data/legal.json` | status dokumen usaha | D7 |
+| `data/divisi.json` | **target & KPI 7 divisi, 3 bulan** — satu-satunya tempat angka target | owner |
+| `data/kreatif.json` | manifest aset konten (video/carousel/story, status tayang) | D4 |
 
 Yang dihitung otomatis: margin tiap ukuran, HPP, break-even, sisa bungkus per SKU
 (dari green bean × yield; blend dari komponennya), order terlambat, resi kosong,
@@ -91,9 +109,11 @@ python3 tools/papan.py --tanggal 2026-11-03  # tanggal lain
 python3 tools/papan.py --json                # ringkasan untuk dibaca mesin
 ```
 
-**Enam divisi** (detail di `operasional/`): Produksi & QC · Penjualan & CRM ·
-Marketing & Konten · Operasional & Logistik · Keuangan · Brand & Legal.
-Ritme: 25 menit/hari + ±7 jam/minggu. Mulai dari `operasional/07-runbook-minggu-1.md`.
+**Tujuh divisi** (alur kerja + target per divisi di `operasional/divisi/`): Produksi & QC ·
+Penjualan & CRM · Marketing & Pertumbuhan · Kreatif & Media · Operasional & Logistik ·
+Keuangan · Brand & Legal. Ritme: 25 menit/hari + ±15 jam/minggu untuk satu orang —
+urutannya di `operasional/00-struktur-divisi.md`, mulai eksekusi dari
+`operasional/07-runbook-minggu-1.md`. Angka target hanya di `data/divisi.json`.
 
 ## Yang WAJIB dikonfirmasi sebelum tayang
 
@@ -131,13 +151,16 @@ menunggu konfirmasi pemilik." Jangan dihapus sebelum beres.
 | `brand/README.md` | brand kit: logo, label 70×100 mm, aturan cetak & pemakaian logo |
 | `komersial/01-panduan-grosir.md` | 4 tingkat harga grosir, aturan margin, alur jual B2B |
 | `marketing/08-konten-siap-pakai.md` | 7 post + 3 skrip TikTok + 9 judul marketplace siap salin |
-| `operasional/00-struktur-divisi.md` | 6 divisi, RACI, ritme harian/mingguan, eskalasi |
-| `operasional/01-produksi-qc.md` | rantai produksi, kode batch, gerbang QC, aturan stok |
-| `operasional/02-penjualan-crm.md` | alur order, template WA, langganan, pipeline B2B |
-| `operasional/03-marketing-konten.md` | rekam saat produksi, ritme posting, aturan klaim |
-| `operasional/04-operasional-logistik.md` | SOP packing, ongkir, retur, opname |
-| `operasional/05-keuangan.md` | HPP, target margin, break-even, tutup buku |
-| `operasional/06-brand-legal.md` | identitas, klaim terlarang, privasi petani, dokumen |
+| `marketing/09-media-kreator.md` | **playbook konten media kreator**: pipeline aset, bank 12 hook, jadwal, 3 angka ukur, aturan caption |
+| `operasional/00-struktur-divisi.md` | 7 divisi, RACI, ritme harian/mingguan, cara membaca tabel target |
+| `operasional/divisi/README.md` | indeks 7 divisi + cara mengubah target di `data/divisi.json` |
+| `operasional/divisi/D1-produksi-qc.md` | alur 10 langkah satu batch, gerbang QC, target & DoD |
+| `operasional/divisi/D2-penjualan-crm.md` | chat→order→pelanggan, naskah wajib, alur B2B, target |
+| `operasional/divisi/D3-marketing-pertumbuhan.md` | konten→chat, 7 kanal, ritme 90 menit, target |
+| `operasional/divisi/D4-kreatif-media.md` | klip mentah vs aset render, spesifikasi teknis, target |
+| `operasional/divisi/D5-operasional-logistik.md` | packing, cut-off 15.00, ongkir, opname, target |
+| `operasional/divisi/D6-keuangan.md` | HPP, margin, break-even, tutup buku, target |
+| `operasional/divisi/D7-brand-legal.md` | gerbang klaim 4 pertanyaan, izin, dokumen, target |
 | `operasional/07-runbook-minggu-1.md` | rencana 10 hari pertama per divisi |
 | `panduan/07-sistem-motion.md` | **Sistem gerak** — 5 skill motion teratas + 13 gerak yang dipasang, token, larangan, 10 butir uji |
 | `marketing/00-strategi-90hari.md` | Strategi 90 hari (positioning, segmen, ritme 7 jam/minggu, KPI) |

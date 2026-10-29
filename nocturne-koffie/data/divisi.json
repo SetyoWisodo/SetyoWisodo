@@ -1,0 +1,339 @@
+{
+  "_catatan": "Sumber tunggal target & KPI tiap divisi. Tiap KPI membawa `target` 3 bulan (bulan_1..bulan_3). Papan harian membaca berkas ini untuk tabel target-vs-aktual. Ubah angka di sini, bukan di dokumen. Target adalah rencana, bukan hasil.",
+  "periode": {
+    "bulan_1": "Nov 2026",
+    "bulan_2": "Des 2026",
+    "bulan_3": "Jan 2027"
+  },
+  "divisi": [
+    {
+      "kode": "D1",
+      "nama": "Produksi & QC",
+      "mandat": "Tidak ada satu bungkus pun keluar tanpa pernah dicicipi.",
+      "pemilik": "Owner (pilih biji & putuskan lolos/tolak) · pelaksana sangrai: Ais Coffee Roastery",
+      "bergantung_pada": [],
+      "menyuplai": [
+        "D2",
+        "D4",
+        "D5"
+      ],
+      "kpi": [
+        {
+          "nama": "Batch tercatat",
+          "kunci": "batch_bulan",
+          "satuan": "batch",
+          "arah": "naik",
+          "target": [4, 6, 8]
+        },
+        {
+          "nama": "Batch ditolak",
+          "kunci": "batch_ditolak_pct",
+          "satuan": "%",
+          "arah": "turun",
+          "target": [15, 12, 10]
+        },
+        {
+          "nama": "Skor cupping rata-rata",
+          "kunci": "skor_cupping",
+          "satuan": "poin",
+          "arah": "naik",
+          "target": [84, 85, 85]
+        },
+        {
+          "nama": "Selisih status stok situs",
+          "kunci": "beda_status",
+          "satuan": "SKU",
+          "arah": "turun",
+          "target": [0, 0, 0]
+        }
+      ],
+      "target_tambahan": {
+        "batch_per_bulan": [4, 6, 8],
+        "persen_batch_ditolak_maks": [15, 12, 10],
+        "skor_cupping_min": [84, 85, 85],
+        "yield_min": [0.79, 0.79, 0.8],
+        "selisih_status_stok_maks": [0, 0, 0]
+      }
+    },
+    {
+      "kode": "D2",
+      "nama": "Penjualan & CRM",
+      "mandat": "Setiap chat berubah jadi order, setiap order jadi pelanggan yang kembali.",
+      "pemilik": "Owner",
+      "bergantung_pada": [
+        "D1"
+      ],
+      "menyuplai": [
+        "D5",
+        "D6"
+      ],
+      "kpi": [
+        {
+          "nama": "Order retail",
+          "kunci": "order_retail",
+          "satuan": "order",
+          "arah": "naik",
+          "target": [25, 50, 85]
+        },
+        {
+          "nama": "Nilai order rata-rata",
+          "kunci": "aov",
+          "satuan": "Rp",
+          "arah": "naik",
+          "target": [130000, 145000, 155000]
+        },
+        {
+          "nama": "Langganan aktif",
+          "kunci": "langganan",
+          "satuan": "akun",
+          "arah": "naik",
+          "target": [3, 10, 20]
+        },
+        {
+          "nama": "Akun B2B aktif",
+          "kunci": "b2b",
+          "satuan": "akun",
+          "arah": "naik",
+          "target": [1, 2, 4]
+        }
+      ],
+      "target_tambahan": {
+        "langganan_aktif": [3, 10, 20],
+        "akun_b2b": [1, 2, 4],
+        "repeat_rate_pct": [15, 25, 35],
+        "balas_kurang_2jam_pct": [90, 95, 95]
+      }
+    },
+    {
+      "kode": "D3",
+      "nama": "Marketing & Pertumbuhan",
+      "mandat": "Menjadikan proses produksi sebagai alasan orang percaya, lalu menuntun mereka ke WhatsApp.",
+      "pemilik": "Owner dibantu agent",
+      "bergantung_pada": [
+        "D1",
+        "D4"
+      ],
+      "menyuplai": [
+        "D2"
+      ],
+      "kpi": [
+        {
+          "nama": "Konten terbit",
+          "kunci": "konten_terbit",
+          "satuan": "post",
+          "arah": "naik",
+          "target": [16, 20, 24]
+        },
+        {
+          "nama": "Konten terlambat",
+          "kunci": "konten_telat",
+          "satuan": "post",
+          "arah": "turun",
+          "target": [0, 0, 0]
+        },
+        {
+          "nama": "Chat masuk",
+          "kunci": "chat_wa",
+          "satuan": "chat",
+          "arah": "naik",
+          "target": [40, 100, 180]
+        },
+        {
+          "nama": "Followers IG",
+          "kunci": "followers_ig",
+          "satuan": "akun",
+          "arah": "naik",
+          "target": [300, 800, 1500]
+        }
+      ],
+      "target_tambahan": {
+        "konten_terbit_bulan": [16, 20, 24],
+        "saves_per_post_min": [10, 15, 20],
+        "klik_wa_dari_konten": [20, 40, 60],
+        "listing_marketplace": [3, 6, 9],
+        "biaya_per_chat_wa_maks": [25000, 20000, 18000]
+      }
+    },
+    {
+      "kode": "D4",
+      "nama": "Kreatif & Media",
+      "mandat": "Membuat aset visual yang layak dipakai brand kopi premium — tanpa menunggu fotografer.",
+      "pemilik": "Owner (rekam) + agent (aset desain & video)",
+      "bergantung_pada": [
+        "D1",
+        "D7"
+      ],
+      "menyuplai": [
+        "D3",
+        "D2"
+      ],
+      "kpi": [
+        {
+          "nama": "Video jadi",
+          "kunci": "video_jadi",
+          "satuan": "video",
+          "arah": "naik",
+          "target": [8, 12, 16]
+        },
+        {
+          "nama": "Carousel jadi",
+          "kunci": "carousel_jadi",
+          "satuan": "set",
+          "arah": "naik",
+          "target": [4, 6, 8]
+        },
+        {
+          "nama": "Aset siap tayang",
+          "kunci": "aset_siap",
+          "satuan": "aset",
+          "arah": "naik",
+          "target": [12, 18, 24]
+        },
+        {
+          "nama": "Klip mentah minggu ini",
+          "kunci": "klip_mentah",
+          "satuan": "klip",
+          "arah": "naik",
+          "target": [30, 40, 50]
+        }
+      ],
+      "target_tambahan": {
+        "klip_mentah_per_bulan": [30, 40, 50],
+        "video_jadi_per_bulan": [8, 12, 16],
+        "carousel_per_bulan": [4, 6, 8],
+        "aset_baru_per_minggu": [3, 4, 5],
+        "waktu_produksi_1_video_maks_menit": [45, 30, 25]
+      }
+    },
+    {
+      "kode": "D5",
+      "nama": "Operasional & Logistik",
+      "mandat": "Paket sampai utuh, di hari yang sama, dengan resi yang bisa dilacak.",
+      "pemilik": "Owner",
+      "bergantung_pada": [
+        "D2",
+        "D1"
+      ],
+      "menyuplai": [],
+      "kpi": [
+        {
+          "nama": "Order perlu diproses",
+          "kunci": "order_proses",
+          "satuan": "order",
+          "arah": "turun",
+          "target": [0, 0, 0]
+        },
+        {
+          "nama": "Resi belum dikirim",
+          "kunci": "resi_kosong",
+          "satuan": "order",
+          "arah": "turun",
+          "target": [0, 0, 0]
+        },
+        {
+          "nama": "Order telat > 1 hari",
+          "kunci": "order_telat",
+          "satuan": "order",
+          "arah": "turun",
+          "target": [2, 1, 0]
+        }
+      ],
+      "target_tambahan": {
+        "kirim_hari_sama_pct": [85, 90, 95],
+        "order_telat_maks": [2, 1, 0],
+        "salah_kirim": [0, 0, 0],
+        "komplain_kemasan_pct_maks": [4, 3, 2]
+      }
+    },
+    {
+      "kode": "D6",
+      "nama": "Keuangan",
+      "mandat": "Tahu laba per bungkus, bukan hanya ramai order.",
+      "pemilik": "Owner",
+      "bergantung_pada": [
+        "D2",
+        "D5"
+      ],
+      "menyuplai": [
+        "D1",
+        "D3"
+      ],
+      "kpi": [
+        {
+          "nama": "Omzet retail",
+          "kunci": "omzet",
+          "satuan": "Rp",
+          "arah": "naik",
+          "target": [3200000, 7200000, 13200000]
+        },
+        {
+          "nama": "Margin terburuk",
+          "kunci": "margin_terburuk",
+          "satuan": "%",
+          "arah": "naik",
+          "target": [35, 38, 40]
+        },
+        {
+          "nama": "Break-even",
+          "kunci": "break_even",
+          "satuan": "order/bulan",
+          "arah": "turun",
+          "target": [35, 35, 35]
+        },
+        {
+          "nama": "Biaya tetap",
+          "kunci": "biaya_tetap",
+          "satuan": "Rp/bulan",
+          "arah": "turun",
+          "target": [1275000, 1275000, 1275000]
+        }
+      ],
+      "target_tambahan": {
+        "margin_kotor_min_pct": [35, 38, 40],
+        "omzet_retail": [3200000, 7200000, 13200000],
+        "break_even_order_per_bulan": [35, 35, 35],
+        "pengeluaran_tanpa_bukti": [0, 0, 0]
+      }
+    },
+    {
+      "kode": "D7",
+      "nama": "Brand & Legal",
+      "mandat": "Semua yang diklaim bisa dipertanggungjawabkan; semua yang ditampilkan sudah diizinkan.",
+      "pemilik": "Owner",
+      "bergantung_pada": [],
+      "menyuplai": [
+        "D3",
+        "D4",
+        "D2"
+      ],
+      "kpi": [
+        {
+          "nama": "Dokumen legal selesai",
+          "kunci": "legal_selesai",
+          "satuan": "dokumen",
+          "arah": "naik",
+          "target": [5, 7, 8]
+        },
+        {
+          "nama": "Dokumen tertunda",
+          "kunci": "legal_tertunda",
+          "satuan": "dokumen",
+          "arah": "turun",
+          "target": [3, 1, 0]
+        },
+        {
+          "nama": "Klaim melanggar",
+          "kunci": "klaim_melanggar",
+          "satuan": "temuan",
+          "arah": "turun",
+          "target": [0, 0, 0]
+        }
+      ],
+      "target_tambahan": {
+        "dokumen_legal_selesai": [5, 7, 8],
+        "pelanggaran_klaim": [0, 0, 0],
+        "izin_petani_selesai": [3, 6, 7]
+      }
+    }
+  ]
+}

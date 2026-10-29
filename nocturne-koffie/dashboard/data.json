@@ -1,6 +1,6 @@
 {
-  "hari_ini": "2026-10-30",
-  "dibuat": "30 Oct 2026 00:35 WIB",
+  "hari_ini": "2026-11-03",
+  "dibuat": "30 Oct 2026 00:53 WIB",
   "kpi": {
     "minggu": "1",
     "mulai": "2026-10-26",
@@ -23,13 +23,13 @@
     {
       "level": "peringatan",
       "divisi": "Penjualan & CRM",
-      "teks": "Order NK-1028-01 (Bagus) menunggu 2 hari.",
+      "teks": "Order NK-1028-01 (Bagus) menunggu 6 hari.",
       "aksi": "Konfirmasi & kirim hari ini; balas < 2 jam."
     },
     {
       "level": "peringatan",
       "divisi": "Penjualan & CRM",
-      "teks": "Order NK-1028-02 (Dewi) menunggu 2 hari.",
+      "teks": "Order NK-1028-02 (Dewi) menunggu 6 hari.",
       "aksi": "Konfirmasi & kirim hari ini; balas < 2 jam."
     },
     {
@@ -106,26 +106,47 @@
       ],
       "next": "Balas semua chat < 2 jam dan kirim resi yang tertunda."
     },
-    "Marketing & Konten": {
+    "Marketing & Pertumbuhan": {
       "metrics": [
         [
           "Konten hari ini",
-          0
+          1
         ],
         [
           "Konten terlambat",
           0
         ],
         [
-          "Followers IG",
-          187
+          "Chat masuk",
+          11
         ],
         [
-          "Chat dari konten",
-          "—"
+          "Followers IG",
+          187
         ]
       ],
       "next": "Selesaikan konten terjadwal; kalau kosong, rekam 3 klip mentah hari ini."
+    },
+    "Kreatif & Media": {
+      "metrics": [
+        [
+          "Aset di manifest",
+          15
+        ],
+        [
+          "Video jadi",
+          5
+        ],
+        [
+          "Video terencode",
+          "ya"
+        ],
+        [
+          "Klip mentah",
+          "rekam saat produksi"
+        ]
+      ],
+      "next": "Jalankan <code>python3 tools/kreatif.py</code> setelah ada klip baru, lalu tayangkan sesuai jadwal."
     },
     "Operasional & Logistik": {
       "metrics": [
@@ -191,9 +212,7 @@
       "next": "Lengkapi NIB & izin publikasi nama petani sebelum kampanye besar."
     }
   },
-  "konten_hari": [],
-  "konten_telat": [],
-  "konten_berikut": [
+  "konten_hari": [
     {
       "tanggal": "2026-11-03",
       "hari": "Senin",
@@ -202,7 +221,10 @@
       "judul": "12 menit terakhir sebelum kopi dikemas",
       "pilar": "Proses",
       "status": "siap"
-    },
+    }
+  ],
+  "konten_telat": [],
+  "konten_berikut": [
     {
       "tanggal": "2026-11-04",
       "hari": "Selasa",
@@ -229,6 +251,15 @@
       "judul": "Tiga tanda kopi masih segar + jajak pendapat",
       "pilar": "Edukasi",
       "status": "siap"
+    },
+    {
+      "tanggal": "2026-11-07",
+      "hari": "Jumat",
+      "platform": "IG Carousel",
+      "jenis": "Carousel",
+      "judul": "Minggu ini satu batch tidak lolos",
+      "pilar": "Bukti",
+      "status": "siap"
     }
   ],
   "proses": [
@@ -247,7 +278,7 @@
       "sumber": "whatsapp",
       "resi": "",
       "catatan": "minta giling espresso",
-      "umur_hari": 2,
+      "umur_hari": 6,
       "telat": true
     },
     {
@@ -268,7 +299,7 @@
       "null": [
         " minta kartu ucapan"
       ],
-      "umur_hari": 2,
+      "umur_hari": 6,
       "telat": true
     }
   ],
@@ -289,7 +320,7 @@
       "sumber": "instagram",
       "resi": "",
       "catatan": "COD area kota",
-      "umur_hari": 3
+      "umur_hari": 7
     },
     {
       "tanggal": "2026-10-28",
@@ -309,7 +340,7 @@
       "null": [
         " minta kartu ucapan"
       ],
-      "umur_hari": 2
+      "umur_hari": 6
     }
   ],
   "stok": [
@@ -975,5 +1006,476 @@
     "order_per_bulan": 35,
     "order_per_minggu": 8
   },
-  "rata_margin": 0.4236222222222222
+  "rata_margin": 0.4236222222222222,
+  "target_divisi": [
+    {
+      "kode": "D1",
+      "divisi": "Produksi & QC",
+      "nama": "Batch tercatat",
+      "target": 4,
+      "aktual": 4,
+      "satuan": "batch",
+      "arah": "naik",
+      "status": "tercapai"
+    },
+    {
+      "kode": "D1",
+      "divisi": "Produksi & QC",
+      "nama": "Batch ditolak",
+      "target": 15,
+      "aktual": 25.0,
+      "satuan": "%",
+      "arah": "turun",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D1",
+      "divisi": "Produksi & QC",
+      "nama": "Skor cupping rata-rata",
+      "target": 84,
+      "aktual": 84.1,
+      "satuan": "poin",
+      "arah": "naik",
+      "status": "tercapai"
+    },
+    {
+      "kode": "D1",
+      "divisi": "Produksi & QC",
+      "nama": "Selisih status stok situs",
+      "target": 0,
+      "aktual": 0,
+      "satuan": "SKU",
+      "arah": "turun",
+      "status": "tercapai"
+    },
+    {
+      "kode": "D2",
+      "divisi": "Penjualan & CRM",
+      "nama": "Order retail",
+      "target": 25,
+      "aktual": 3,
+      "satuan": "order",
+      "arah": "naik",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D2",
+      "divisi": "Penjualan & CRM",
+      "nama": "Nilai order rata-rata",
+      "target": 130000,
+      "aktual": 132333,
+      "satuan": "Rp",
+      "arah": "naik",
+      "status": "tercapai"
+    },
+    {
+      "kode": "D2",
+      "divisi": "Penjualan & CRM",
+      "nama": "Langganan aktif",
+      "target": 3,
+      "aktual": 0,
+      "satuan": "akun",
+      "arah": "naik",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D2",
+      "divisi": "Penjualan & CRM",
+      "nama": "Akun B2B aktif",
+      "target": 1,
+      "aktual": 0,
+      "satuan": "akun",
+      "arah": "naik",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D3",
+      "divisi": "Marketing & Pertumbuhan",
+      "nama": "Konten terbit",
+      "target": 16,
+      "aktual": 0,
+      "satuan": "post",
+      "arah": "naik",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D3",
+      "divisi": "Marketing & Pertumbuhan",
+      "nama": "Konten terlambat",
+      "target": 0,
+      "aktual": 0,
+      "satuan": "post",
+      "arah": "turun",
+      "status": "tercapai"
+    },
+    {
+      "kode": "D3",
+      "divisi": "Marketing & Pertumbuhan",
+      "nama": "Chat masuk",
+      "target": 40,
+      "aktual": 11,
+      "satuan": "chat",
+      "arah": "naik",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D3",
+      "divisi": "Marketing & Pertumbuhan",
+      "nama": "Followers IG",
+      "target": 300,
+      "aktual": 187,
+      "satuan": "akun",
+      "arah": "naik",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D4",
+      "divisi": "Kreatif & Media",
+      "nama": "Video jadi",
+      "target": 8,
+      "aktual": 5,
+      "satuan": "video",
+      "arah": "naik",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D4",
+      "divisi": "Kreatif & Media",
+      "nama": "Carousel jadi",
+      "target": 4,
+      "aktual": 7,
+      "satuan": "set",
+      "arah": "naik",
+      "status": "tercapai"
+    },
+    {
+      "kode": "D4",
+      "divisi": "Kreatif & Media",
+      "nama": "Aset siap tayang",
+      "target": 12,
+      "aktual": 15,
+      "satuan": "aset",
+      "arah": "naik",
+      "status": "tercapai"
+    },
+    {
+      "kode": "D4",
+      "divisi": "Kreatif & Media",
+      "nama": "Klip mentah minggu ini",
+      "target": 30,
+      "aktual": null,
+      "satuan": "klip",
+      "arah": "naik",
+      "status": "tanpa data"
+    },
+    {
+      "kode": "D5",
+      "divisi": "Operasional & Logistik",
+      "nama": "Order perlu diproses",
+      "target": 0,
+      "aktual": 2,
+      "satuan": "order",
+      "arah": "turun",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D5",
+      "divisi": "Operasional & Logistik",
+      "nama": "Resi belum dikirim",
+      "target": 0,
+      "aktual": 2,
+      "satuan": "order",
+      "arah": "turun",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D5",
+      "divisi": "Operasional & Logistik",
+      "nama": "Order telat > 1 hari",
+      "target": 2,
+      "aktual": 2,
+      "satuan": "order",
+      "arah": "turun",
+      "status": "tercapai"
+    },
+    {
+      "kode": "D6",
+      "divisi": "Keuangan",
+      "nama": "Omzet retail",
+      "target": 3200000,
+      "aktual": 397000,
+      "satuan": "Rp",
+      "arah": "naik",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D6",
+      "divisi": "Keuangan",
+      "nama": "Margin terburuk",
+      "target": 35,
+      "aktual": 42.4,
+      "satuan": "%",
+      "arah": "naik",
+      "status": "tercapai"
+    },
+    {
+      "kode": "D6",
+      "divisi": "Keuangan",
+      "nama": "Break-even",
+      "target": 35,
+      "aktual": 35,
+      "satuan": "order/bulan",
+      "arah": "turun",
+      "status": "tercapai"
+    },
+    {
+      "kode": "D6",
+      "divisi": "Keuangan",
+      "nama": "Biaya tetap",
+      "target": 1275000,
+      "aktual": 1275000,
+      "satuan": "Rp/bulan",
+      "arah": "turun",
+      "status": "tercapai"
+    },
+    {
+      "kode": "D7",
+      "divisi": "Brand & Legal",
+      "nama": "Dokumen legal selesai",
+      "target": 5,
+      "aktual": 1,
+      "satuan": "dokumen",
+      "arah": "naik",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D7",
+      "divisi": "Brand & Legal",
+      "nama": "Dokumen tertunda",
+      "target": 3,
+      "aktual": 8,
+      "satuan": "dokumen",
+      "arah": "turun",
+      "status": "di bawah"
+    },
+    {
+      "kode": "D7",
+      "divisi": "Brand & Legal",
+      "nama": "Klaim melanggar",
+      "target": 0,
+      "aktual": null,
+      "satuan": "temuan",
+      "arah": "turun",
+      "status": "tanpa data"
+    }
+  ],
+  "label_bulan": "Nov 2026",
+  "kreatif": {
+    "_catatan": "Manifest aset kreatif. Dibaca situs (strip 'Di balik sangrai') dan papan harian. Ubah status jadi 'tayang' setelah diposting.",
+    "dibuat": "2026-10-29",
+    "video_terencode": true,
+    "items": [
+      {
+        "id": "reel-menit-terakhir",
+        "judul": "12 menit terakhir sebelum kopi dikemas",
+        "platform": "IG Reels",
+        "format": "video",
+        "rasio": "9:16",
+        "file": "reel-01-menit-terakhir.mp4",
+        "poster": "reel-01-poster.jpg",
+        "durasi": 7,
+        "jadwal": "3 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Proses sangrai: berhenti berdasarkan catatan, bukan perasaan.",
+        "caption": "Dua belas menit terakhir sebelum kopi ini bisa dikirim.\n\nSuhu turun, first crack lewat, dan kami berhenti di titik development yang\nsudah ditentukan untuk batch ini. Kalau berhenti 20 detik lebih lama, rasanya\nberubah — jadi kami berhenti berdasarkan catatan, bukan perasaan.\n\nSetelah itu kopi masih harus menunggu: dicicipi besok, dicicipi lagi hari ke-7,\nbaru dikemas dengan tanggal sangrai & kode batch.\n\nKopi batch minggu ini: [produk] · [tanggal sangrai]\nPesan lewat tautan di bio.\n\n#kopibanyuwangi #proseskopi #specialtycoffeeindonesia #nocturnekoffie"
+      },
+      {
+        "id": "reel-tanggal-sangrai",
+        "judul": "Tanggal sangrai, bukan tanggal kedaluwarsa",
+        "platform": "IG Carousel (penutup) + Reels",
+        "format": "video",
+        "rasio": "9:16",
+        "file": "reel-02-tanggal-sangrai.mp4",
+        "poster": "reel-02-poster.jpg",
+        "durasi": 7,
+        "jadwal": "4 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Bukti kesegaran yang bisa dihitung sendiri oleh pembeli.",
+        "caption": "Kami tidak mencetak tanggal kedaluwarsa. Kami mencetak tanggal sangrai.\n\nKopi bukan makanan yang \"rusak\" di satu tanggal. Rasa terbaiknya ada di jendela\n7–21 hari setelah disangrai. Setelah itu masih enak, hanya kehilangan bagian\npaling menariknya.\n\nDi tiap kantong: tanggal sangrai · kode batch · level roast 1–5.\nKalau rasanya tidak sesuai, sebutkan kode batch-nya — kami bisa cek catatan QC,\nbukan menebak.\n\n#kopisegar #kopibanyuwangi #nocturnekoffie"
+      },
+      {
+        "id": "reel-first-crack",
+        "judul": "Suara first crack",
+        "platform": "TikTok",
+        "format": "video",
+        "rasio": "9:16",
+        "file": "reel-03-first-crack.mp4",
+        "poster": "reel-03-poster.jpg",
+        "durasi": 7,
+        "jadwal": "5 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Audio asli first crack — hook tanpa perlu bicara.",
+        "caption": ""
+      },
+      {
+        "id": "reel-batch-ditolak",
+        "judul": "Minggu ini satu batch tidak lolos",
+        "platform": "IG Reels",
+        "format": "video",
+        "rasio": "9:16",
+        "file": "reel-04-batch-ditolak.mp4",
+        "poster": "reel-04-poster.jpg",
+        "durasi": 7,
+        "jadwal": "7 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Kepercayaan dibangun dari hal yang berani ditolak.",
+        "caption": "Minggu ini satu batch tidak lolos.\n\nSkornya 81,5 — ambang kami 83. Aftertaste-nya pahit dan manisnya tidak muncul.\nBatch itu tidak dikirim. Biji disangrai ulang, dicicipi lagi, baru masuk kemasan.\n\nKerugiannya nyata untuk kami, tapi lebih baik kami menanggungnya daripada Anda\nmenerima kopi yang \"agak beda\" dari yang Anda beli sebelumnya.\n\nBukan cerita bagus — ini bagian dari pekerjaannya: menolak hasil sendiri kalau\ntidak memenuhi standar.\n\n#qualitycontrol #kopibanyuwangi #nocturnekoffie"
+      },
+      {
+        "id": "reel-kirim-hari-ini",
+        "judul": "Order hari ini, dikirim hari ini",
+        "platform": "IG Reels",
+        "format": "video",
+        "rasio": "9:16",
+        "file": "reel-05-kirim-hari-ini.mp4",
+        "poster": "reel-05-poster.jpg",
+        "durasi": 7,
+        "jadwal": "13 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Janji operasional yang bisa dicek: cut-off 15.00, resi hari itu.",
+        "caption": ""
+      },
+      {
+        "id": "carousel-01a",
+        "judul": "Kenapa kami mencetak tanggal sangrai, bukan kedaluwarsa",
+        "platform": "Instagram (carousel)",
+        "format": "gambar",
+        "rasio": "4:5",
+        "file": "carousel-01a.jpg",
+        "poster": "carousel-01a.jpg",
+        "jadwal": "4–11 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Bukti · slide 1 dari 3",
+        "caption": "Simpan untuk dibaca lagi.\n\nKami mencetak tanggal sangrai karena itu satu-satunya bukti kesegaran yang\nbisa Anda periksa sendiri. Kata \"fresh\" tidak bisa diperiksa.\n\nBatch terbaru ada di tautan bio."
+      },
+      {
+        "id": "carousel-01b",
+        "judul": "Rasa terbaiknya 7–21 hari setelah sangrai",
+        "platform": "Instagram (carousel)",
+        "format": "gambar",
+        "rasio": "4:5",
+        "file": "carousel-01b.jpg",
+        "poster": "carousel-01b.jpg",
+        "jadwal": "4–11 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Bukti · slide 2 dari 3",
+        "caption": "Simpan untuk dibaca lagi.\n\nKami mencetak tanggal sangrai karena itu satu-satunya bukti kesegaran yang\nbisa Anda periksa sendiri. Kata \"fresh\" tidak bisa diperiksa.\n\nBatch terbaru ada di tautan bio."
+      },
+      {
+        "id": "carousel-01c",
+        "judul": "Di tiap kantong ada tiga hal",
+        "platform": "Instagram (carousel)",
+        "format": "gambar",
+        "rasio": "4:5",
+        "file": "carousel-01c.jpg",
+        "poster": "carousel-01c.jpg",
+        "jadwal": "4–11 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Bukti · slide 3 dari 3",
+        "caption": "Simpan untuk dibaca lagi.\n\nKami mencetak tanggal sangrai karena itu satu-satunya bukti kesegaran yang\nbisa Anda periksa sendiri. Kata \"fresh\" tidak bisa diperiksa.\n\nBatch terbaru ada di tautan bio."
+      },
+      {
+        "id": "carousel-02a",
+        "judul": "Biji utuh atau digiling?",
+        "platform": "Instagram (carousel)",
+        "format": "gambar",
+        "rasio": "4:5",
+        "file": "carousel-02a.jpg",
+        "poster": "carousel-02a.jpg",
+        "jadwal": "4–11 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Edukasi · slide 1 dari 2",
+        "caption": "Simpan untuk dibaca lagi.\n\nKami mencetak tanggal sangrai karena itu satu-satunya bukti kesegaran yang\nbisa Anda periksa sendiri. Kata \"fresh\" tidak bisa diperiksa.\n\nBatch terbaru ada di tautan bio."
+      },
+      {
+        "id": "carousel-02b",
+        "judul": "Kalau kami giling, sebutkan alatnya",
+        "platform": "Instagram (carousel)",
+        "format": "gambar",
+        "rasio": "4:5",
+        "file": "carousel-02b.jpg",
+        "poster": "carousel-02b.jpg",
+        "jadwal": "4–11 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Edukasi · slide 2 dari 2",
+        "caption": "Simpan untuk dibaca lagi.\n\nKami mencetak tanggal sangrai karena itu satu-satunya bukti kesegaran yang\nbisa Anda periksa sendiri. Kata \"fresh\" tidak bisa diperiksa.\n\nBatch terbaru ada di tautan bio."
+      },
+      {
+        "id": "carousel-03a",
+        "judul": "Belum punya grinder? Mulai dari sini",
+        "platform": "Instagram (carousel)",
+        "format": "gambar",
+        "rasio": "4:5",
+        "file": "carousel-03a.jpg",
+        "poster": "carousel-03a.jpg",
+        "jadwal": "4–11 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Jualan · slide 1 dari 2",
+        "caption": "Simpan untuk dibaca lagi.\n\nKami mencetak tanggal sangrai karena itu satu-satunya bukti kesegaran yang\nbisa Anda periksa sendiri. Kata \"fresh\" tidak bisa diperiksa.\n\nBatch terbaru ada di tautan bio."
+      },
+      {
+        "id": "carousel-04a",
+        "judul": "Batch yang tidak lolos tidak dikirim",
+        "platform": "Instagram (carousel)",
+        "format": "gambar",
+        "rasio": "4:5",
+        "file": "carousel-04a.jpg",
+        "poster": "carousel-04a.jpg",
+        "jadwal": "7 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Slide gelap dengan stempel QC.",
+        "caption": "Setiap batch dicicipi sebelum dijual. Yang tidak lolos tidak dikirim.\n\nKami tidak menjualnya dengan diskon, dan tidak mengirimnya dengan label berbeda.\nDisangrai ulang.\n\nSkor dan catatan tiap batch kami simpan. Kalau mau tahu batch kopi Anda,\nsebutkan kode batch di kemasan."
+      },
+      {
+        "id": "story-01",
+        "judul": "Tiga tanda kopi masih segar",
+        "platform": "Instagram Story",
+        "format": "gambar",
+        "rasio": "9:16",
+        "file": "story-01.jpg",
+        "poster": "story-01.jpg",
+        "jadwal": "6 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Story teks",
+        "caption": "Teks di layar: Aroma keluar saat dibuka. / Biji masih mengkilap, tidak berminyak berlebih. / Mengembang (bloom) saat diseduh."
+      },
+      {
+        "id": "story-02",
+        "judul": "Kopi di rumah Anda berapa lama?",
+        "platform": "Instagram Story",
+        "format": "gambar",
+        "rasio": "9:16",
+        "file": "story-02.jpg",
+        "poster": "story-02.jpg",
+        "jadwal": "6 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Story poll",
+        "caption": "Teks di layar: Jawaban Anda menentukan kapan kami tawarkan restock."
+      },
+      {
+        "id": "post-01-peta-rasa",
+        "judul": "Peta Rasa — tiga keluarga kopi",
+        "platform": "Instagram (feed)",
+        "format": "gambar",
+        "rasio": "1:1",
+        "file": "post-01-peta-rasa.jpg",
+        "poster": "post-01-peta-rasa.jpg",
+        "jadwal": "10 Nov 2026",
+        "status": "siap",
+        "caption_ringkas": "Post jualan utama: paket termurah sebagai pintu masuk.",
+        "caption": "Belum tahu mau mulai dari mana?\n\nPeta Rasa: tiga keluarga kopi dalam satu kotak.\n— Blue Mount Ijen (arabika, 1.700–1.800 mdpl)\n— Raung (robusta, 422–443 mdpl)\n— Ijen Excelsa (excelsa, 434–442 mdpl)\n\nTiga-tiganya dari Banyuwangi, tiga profil rasa yang betul-betul berbeda.\n\nRp79.000 untuk 3 × 100 g (biasanya Rp88.000 kalau dibeli terpisah).\nPesan lewat tautan di bio — sebut saja \"PETA RASA\"."
+      }
+    ]
+  },
+  "jendela_data": "30 hari terakhir"
 }
