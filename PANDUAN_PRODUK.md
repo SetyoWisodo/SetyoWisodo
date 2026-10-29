@@ -352,21 +352,59 @@ Tombol **Publish** (kanan atas). Setelah terbit, buka halamannya di jendela peny
 - [ ] Judul, deskripsi berformat, tiga gambar tampil
 - [ ] Harga terbaca $45, bukan $0
 - [ ] Tombol beli bisa diklik sampai ke halaman pembayaran
-- [ ] Tidak ada teks `[link to your free sample product]` yang tersisa (kalau sampel belum ada, biarkan dulu — diganti di Langkah 17)
+- [ ] Sampai sampel terbit, teks `[link to your free sample product]` di deskripsi masih ada — ini **sengaja** ditunda; diganti dengan URL sampel tepat setelah produk sampel terbit
 
 ---
 
 ## Langkah 11 · Uji beli dengan kode diskon 100%
 
-Ini satu-satunya cara memastikan stempel pembeli benar-benar bekerja.
+Ini satu-satunya cara membuktikan stempel pembeli benar-benar bekerja sebelum ada orang yang membayar $45.
 
-1. **Settings → Discounts → New discount** (atau dari halaman produk: *Checkout → Discounts*).
-2. Kode: `TESTSENDIRI` · Diskon: **100%** · Batas pemakaian: **1**.
-3. Beli produk Anda sendiri dengan kode itu memakai email yang berbeda dari email akun (mis. Gmail pribadi).
-4. Unduh PDF dari email konfirmasi, buka halaman 1 — **email pembeli harus tercetak di sana**.
-5. Hapus kode `TESTSENDIRI` setelah selesai.
+### 11a · Membuat kode
 
-Kalau stempel tidak muncul: toggle stempel di tab Content belum menyala, atau berkas yang diunggah bukan `*_interior.pdf`.
+1. Buka `gumroad.com/discounts` — kalau harus lewat menu: sidebar kiri **Everything else** → **Discounts**.
+2. Klik **New discount**.
+3. Isi persis:
+
+| Kolom | Isi |
+|---|---|
+| Name (internal, tidak dilihat pembeli) | `Test purchase — hapus setelah selesai` |
+| Code | `TESTSENDIRI` |
+| Discount type | **Percentage** |
+| Amount | `100` |
+| Limit quantity of discounted products | `1` |
+| Limit to product | **Surviving the Future** |
+| Minimum quantity | kosongkan |
+| Valid until | kosongkan — akan dihapus manual |
+
+4. **Save**.
+
+Batas `1` itu penting: kalau lupa, siapa pun yang menebak kode ini bisa mengambil buku gratis. "Limit to product" juga penting supaya kode tidak ikut berlaku di produk sampel nanti.
+
+### 11b · Membeli
+
+1. Buka jendela **incognito** (Ctrl+Shift+N) — supaya tidak memakai sesi akun Anda.
+2. Buka `https://setyowisodo.gumroad.com/l/surviving-the-future`.
+3. Klik **I want this**.
+4. Di halaman bayar, klik tautan **Add discount code** (kadang berbunyi *Have a discount code?*), tempel `TESTSENDIRI`, klik **Apply**.
+5. Total harus berubah menjadi **$0** — bukan $45.
+6. Isi email yang **berbeda** dari email akun Gumroad (mis. Gmail pribadi Anda). Ini bagian inti ujian: stempel akan mencetak email ini.
+7. Selesaikan pembelian. Pada total $0 biasanya tidak perlu nomor kartu.
+
+### 11c · Memeriksa hasilnya
+
+1. Unduh **PDF** dari halaman terima kasih atau dari email konfirmasi.
+2. Buka — halaman pertama harus **sampul berwarna**, bukan halaman judul teks.
+3. Cari stempel: **email yang Anda pakai tadi harus tercetak** di halaman itu (biasanya di kaki halaman).
+4. Jumlah halaman harus **458**.
+5. Buka EPUB-nya sebentar: harus terbuka dan bergambar, walau tidak bisa distempel.
+
+Kalau stempel tidak muncul: toggle **Stamp this PDF with buyer information** di tab Content belum menyala, atau berkas yang diunggah bukan `*_ebook.pdf`.
+
+### 11d · Membersihkan
+
+1. Kembali ke `gumroad.com/discounts`, hapus kode `TESTSENDIRI`. Jangan hanya dibiarkan tidak aktif — kode batas 1 yang lupa dihapus adalah pintu gratis kalau nanti batasnya dinaikkan.
+2. Pembelian uji $0 boleh dibiarkan di daftar Sales; ia tidak dihitung sebagai penjualan berbayar dan tidak membuka Discover.
 
 ---
 
