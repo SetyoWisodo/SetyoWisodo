@@ -280,7 +280,42 @@ Kalimat terakhir itu janji refund yang sama dengan kebijakan *No refunds allowed
 
 ## Langkah 9 · Tab Share
 
-Tab ini menampilkan tautan pendek produk. Itu tautan yang Anda sebarkan. Salin, lalu simpan di catatan — dipakai di Langkah 17 dan di bio profil.
+Empat bagian di satu halaman. Urutannya dari atas ke bawah.
+
+**1. Share — tautan produk.** Klik **Copy URL**. Hasilnya:
+
+```
+https://setyowisodo.gumroad.com/l/surviving-the-future
+```
+
+Itu satu-satunya tautan yang disebar. Jangan pakai *Copy checkout URL* untuk promosi — tautan itu langsung membuka halaman bayar, terasa memaksa.
+
+**2. Landing page — JANGAN DISENTUH.** Tombol **Copy prompt** di situ membangun halaman pengganti buatan AI yang **menggantikan seluruh halaman produk, termasuk tombol beli bawaan**. Selama halaman itu belum dipasang dan lolos uji, produk tidak bisa dibeli. Biarkan kosong; halaman bawaan Gumroad sudah rapi dan harga $45 tampil di sana.
+
+**3. Profile.** Tulisan *"You currently have no sections in your profile to display this"* berarti produk ini belum muncul di halaman profil Anda. Klik **create one here**, beri nama bagian:
+
+```
+Books
+```
+
+Simpan, lalu produk ini masuk ke bagian itu. Tanpa langkah ini, orang yang membuka `gumroad.com/setyowisodo` tidak melihat buku Anda sama sekali.
+
+**4. Gumroad Discover.** Kategori masih `Other`; ganti, lalu isi tag. Persis lima tag ini:
+
+| Kolom | Isi |
+|---|---|
+| Category | `Education` |
+| Tag 1 | `climate change` |
+| Tag 2 | `disaster risk` |
+| Tag 3 | `adaptation` |
+| Tag 4 | `resilience` |
+| Tag 5 | `Indonesia` |
+| Display your product's 1-5 star rating | biarkan **nyala** |
+| Content meant only for adults | **MATI** |
+
+Discover menahan biaya 30% **hanya** untuk penjualan yang datang lewat Discover; penjualan dari tautan Anda sendiri tetap 10% + biaya proses. Kategori dan tag hanya membuka pintunya — produk baru benar-benar tampil di Discover setelah ada satu penjualan berbayar dan Risk Review selesai. Uji beli 100% tidak dihitung sebagai penjualan berbayar.
+
+Klik **Save changes** setelah empat bagian itu beres.
 
 ## Langkah 10 · Terbitkan
 
