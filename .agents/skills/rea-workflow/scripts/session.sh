@@ -215,9 +215,36 @@ def cmd_path(args):
     d, st = latest()
     print(d); print(d / "state.json"); print(d / "findings.md")
 
+def cmd_tools(args):
+    tp = Path(os.environ["REA_WORKFLOW_DIR"]) / "references" / "re-toolchain.json"
+    if not tp.is_file(): sys.exit(f"index tool tidak ditemukan: {tp}")
+    data = json.loads(tp.read_text(encoding="utf-8"))
+    tools = data["tools"]
+    group = None; stage = None
+    i = 0
+    while i < len(args):
+        if args[i] == "--group" and i+1 < len(args): group = args[i+1]; i += 2
+        elif args[i] == "--stage" and i+1 < len(args): stage = int(args[i+1]); i += 2
+        elif args[i] in ("--list","-l"): group = ""; i += 1
+        else: sys.exit("pakai: tools [--group analysis-core|mobile|binary|network|rebuild] [--stage N]")
+    if args == ["--list"] or (group == "" ):
+        from collections import Counter
+        for g, n in Counter(x["group"] for x in tools).items(): print(f"{g:<14} {n}")
+        print(f"{'total':<14} {len(tools)}  (+4 tanpa tautan: REA workflows, clean-room loop)")
+        print("\npipeline:", "; ".join(data["meta"].get("pipelines", [])))
+        return
+    rows = [x for x in tools if (group is None or x["group"] == group)
+            and (stage is None or x.get("stage") == stage)]
+    if not rows: print("tidak ada hasil"); return
+    for x in rows:
+        star = f"{x['stars']}★" if x.get("stars") else "—"
+        print(f"[{x['group']:<13}] {x['label']}  ({star}, {x.get('license') or '?'}, {x['kind']}, tahap {x.get('stage')})")
+        print(f"                {x['url']}")
+        if x.get("note"): print(f"                catatan: {x['note']}")
+
 CMD = {"init": cmd_init, "status": cmd_status, "gate": cmd_gate, "advance": cmd_advance,
        "log": cmd_log, "unknown": cmd_unknown, "resolve": cmd_resolve,
-       "report": cmd_report, "list": cmd_list, "path": cmd_path}
+       "report": cmd_report, "tools": cmd_tools, "list": cmd_list, "path": cmd_path}
 
 if len(sys.argv) < 2 or sys.argv[1] in ("-h", "--help", "help"):
     print(__doc__ or "")

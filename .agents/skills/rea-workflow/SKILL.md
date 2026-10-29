@@ -77,6 +77,7 @@ F0 tanya → F1 cek alat → F2 rute → F3 ambil bukti → F4 pisahkan fakta/du
 | F1 | `rea-roadmap` (`scripts/check_readiness.sh`) | Fakta lingkungan: Node, `rea`, Ghidra/JADX/Frida, target |
 | F2 | `reverse-engineer-anything` | Routing resmi per jenis target (sumber kebenaran) |
 | F3 | `reverse-engineer-anything` | Nama tool, kontrak, semantik Evidence |
+| F3 | `references/re-toolchain.md` | Memilih tool konkret (Ghidra/IDA/jadx/Apktool/Frida/angr/mitmproxy/…) sesuai target |
 | F3b | `find-reverse-engineered` | Kalau target tidak punya API/SDK/spesifikasi → cari tool open-source |
 | F4–F6 | `reverse-engineer-anything` | Batas interpretasi, unknown, perbandingan versi |
 | F6b | `rea-tool-design` | Kalau deliverable-nya justru tool/CLI/MCP baru |

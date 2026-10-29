@@ -4,7 +4,9 @@ Sumber: [@cabbitar — "STOP WASTING HOURS TRYING TO LEARN REA"](https://x.com/c
 
 | Item | Nilai |
 | --- | --- |
-| Link di postingan | 46 baris → **38 URL unik**, 37 terverifikasi, 1 mati |
+| Postingan yang diadopsi | 2 — [@cabbitar (roadmap REA)](https://x.com/cabbitar/status/2115467413953056921) + [@0xDeniAi (20 repo toolchain)](https://x.com/0xDeniAi/status/2114847015091794206) |
+| Link di postingan @cabbitar | 46 baris → **38 URL unik**, 37 terverifikasi, 1 mati |
+| Repo di postingan @0xDeniAi | **20** (16 bertautan + 4 disebut tanpa tautan) — semua dikonfirmasi via GitHub API |
 | Skill tersalin/dibuat | **8 skill** — 5 dari `morluto/rea`, 1 finder (MIT), 2 disusun di repo ini |
 | Pintu masuk | [`rea-workflow`](.agents/skills/rea-workflow/SKILL.md) — satu loop 8 fase |
 | Lokasi | [`.agents/skills/`](.agents/skills/) |
@@ -31,7 +33,7 @@ skill dari deskripsi itu, isi lengkap baru dimuat saat relevan.
 
 ---
 
-## 2. Semua link postingan (sudah di-resolve dari `t.co`)
+## 2. Semua link postingan @cabbitar (sudah di-resolve dari `t.co`)
 
 ### START HERE
 
@@ -184,6 +186,65 @@ Aturan repo yang mengikat semua agent ada di [`AGENTS.md`](AGENTS.md).
 
 ---
 
+
+## 2c. Toolchain studio — 20 repo dari postingan @0xDeniAi
+
+Postingan kedua ([@0xDeniAi](https://x.com/0xDeniAi/status/2114847015091794206))
+menyusun 20 repo jadi "studio RE" dalam 5 grup. Semuanya sudah di-resolve dan
+dimasukkan ke alur kerja:
+
+| Grup | Repo | Dipakai di fase |
+| --- | --- | --- |
+| 01 analysis core | REA, Ghidra, GhidraMCP, ida-pro-mcp | F3 (static evidence) |
+| 02 mobile & apps | jadx, Apktool, Frida, ILSpy | F3/F6 (tahap 4) |
+| 03 binary & low-level | radare2, x64dbg, ImHex, angr | F3 (tahap 3/6) |
+| 04 network & runtime | mitmproxy, dnSpy, rizin, raddebugger | F3 (capture/runtime) |
+| 05 rebuild & verify | awesome-ai-reverse-engineering, awesome-reverse-engineering, *REA workflows*, *clean-room loop* | F5/F6/F7 |
+
+Pipeline yang disebut postingan itu sekarang jadi **mode rebuild** resmi di F5–F7:
+
+```
+binary → REA → SPEC.md → rebuild → oracle → retry
+```
+
+Dipetakan ke fase: binary = F0–F2, REA = F3, SPEC.md = F4 (+`templates/spec.md`),
+rebuild = F6, oracle = F5 (`verify_reconstruction` / uji hitung / diff),
+retry = F7→F3 **hanya untuk selisih** yang ditemukan.
+
+Enam prompt REA resmi juga dipasang ke fase:
+
+| Prompt | Fase |
+| --- | --- |
+| `investigate_feature` | F3 |
+| `compare_application_versions` | F3/F5 |
+| `verify_reconstruction` | F5 (oracle) |
+| `trace_crash` | F3 |
+| `audit_residual_unknowns` | F7 |
+| `prepare_bounded_process_capture` | F3 runtime (rancang dulu, eksekusi butuh izin) |
+
+Query offline:
+
+```bash
+bash .agents/skills/rea-workflow/scripts/session.sh tools --list
+bash .agents/skills/rea-workflow/scripts/session.sh tools --group mobile
+bash .agents/skills/rea-workflow/scripts/session.sh tools --stage 6
+```
+
+### Selisih klaim postingan vs fakta
+
+| Klaim | Temuan | Tindakan |
+| --- | --- | --- |
+| "awesome-ai-reverse-engineering: 122 repos" | README repo (2026-10-29) menulis **118 repos** (74 MCP + 17 mobile + 4 web + 19 skills + 4 kasus) | pakai 118, selisih dicatat |
+| "dnSpy" | tautan → fork aktif `dnSpyEx/dnSpy`; repo asli `dnSpy/dnSpy` **archived** (29.7k★) | rekomendasikan fork, sebut status asli |
+| "REA workflows" & "clean-room loop" | tidak ada tautan di postingan | dipetakan ke `mcp-prompts.md` + pipeline di atas |
+| 16 tautan `t.co` | sebagian terpotong (`…`), redirect 404 | nama repo penuh + lisensi + star dikonfirmasi via GitHub API |
+
+Detail per-repo (star, lisensi, peran, catatan): 
+[`.agents/skills/rea-workflow/references/re-toolchain.md`](.agents/skills/rea-workflow/references/re-toolchain.md)
+dan versi mesin `re-toolchain.json` (18 entri bertautan).
+
+---
+
 ## 3. Antrean tahap (isi `rea-roadmap`)
 
 ```
@@ -266,6 +327,8 @@ JADX, Frida, Kuna, atau Node.
 | Tujuan | Prompt |
 | --- | --- |
 | Jalankan alur kerja | "Pakai `rea-workflow`: mulai sesi baru untuk `<target>`, tunjukkan fase dan gate-nya." |
+| Bangun ulang fitur | "Mode rebuild: buat SPEC.md dari Evidence, lalu uji pakai oracle." |
+| Pilih tool | "Tool apa yang dipakai untuk `<jenis target>`? Cek `session.sh tools`." |
 | Mulai dari nol | "Jalankan roadmap REA dari awal, cek environment dulu." |
 | Cek posisi | "Saya di tahap berapa? Jalankan check_readiness lalu simpulkan." |
 | Rute target | "Target saya APK `<nama>`. Rute roadmap + tool-nya apa?" |
@@ -285,10 +348,11 @@ JADX, Frida, Kuna, atau Node.
 └── .agents/
     └── skills/
         ├── README.md                        ← atribusi & daftar skill
-        ├── rea-workflow/                    ← BARU: penggabung, pintu masuk
+        ├── rea-workflow/                    ← penggabung, pintu masuk
         │   ├── SKILL.md
-        │   ├── references/{phases,target-routing,evidence-contract,skill-map}.md
-        │   ├── templates/finding.md
+        │   ├── references/{phases,target-routing,evidence-contract,skill-map,re-toolchain}.md
+        │   ├── references/re-toolchain.json
+        │   ├── templates/{finding,spec}.md
         │   └── scripts/session.sh
         ├── rea-roadmap/                     ← BARU: alur kerja dari 46 link
         │   ├── SKILL.md

@@ -34,6 +34,19 @@ target first"*. Kalau ada perbedaan, file asli itu yang menang — buka
 | AgentEnv bundle web app | `capture_browser_scenario` → `export_environment_bundle` | — | baca `environments.md` |
 | Tidak ada API/SDK/spesifikasi | `find-reverse-engineered` | python3 | tool open-source + lisensi |
 
+## Engine & tool pendukung (dari `references/re-toolchain.md`)
+
+| Kebutuhan | Utama | Pendukung |
+| --- | --- | --- |
+| Decompiler native | Ghidra (atau IDA/Kuna) | radare2 / rizin untuk terminal, ImHex untuk format file |
+| Agent mengendalikan decompiler | REA MCP | GhidraMCP, ida-pro-mcp |
+| Android | engine Android REA / jadx | Apktool (resource), Frida (runtime, butuh izin) |
+| .NET | `inspect_managed_artifact` | ILSpy, dnSpy (fork `dnSpyEx`) |
+| Traffic | `inspect_web_network_capture` | mitmproxy untuk menangkap |
+| Runtime native | tool runtime REA | x64dbg (Windows), raddebugger, Frida |
+| "Input apa yang lolos" | analisis cabang manual | angr (symbolic execution) |
+| Cari tool yang sudah ada | `find-reverse-engineered` | awesome-ai-reverse-engineering (118 entri tergrading) |
+
 ## Aturan pemilihan
 
 1. **Pertanyaan menentukan tool.** "Bagaimana login divalidasi" → kode (APK/native),

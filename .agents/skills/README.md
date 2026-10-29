@@ -42,9 +42,11 @@ rea-workflow/
 │   ├── phases.md                detail per fase: masuk, lakukan, gate, salah umum
 │   ├── target-routing.md        matriks target → tool pertama (termasuk mode tanpa MCP)
 │   ├── evidence-contract.md     isi minimum satu butir Evidence + larangan
-│   └── skill-map.md             skill mana dipakai di fase mana, plus non-goal
-├── templates/finding.md         lembar kerja per temuan (E1, E2, …)
-└── scripts/session.sh           state machine: init/status/gate/advance/log/unknown/report
+│   ├── skill-map.md             skill mana dipakai di fase mana, plus non-goal
+│   ├── re-toolchain.md          20 repo toolchain (@0xDeniAi): 5 grup, lisensi, peran
+│   └── re-toolchain.json        versi mesin untuk `session.sh tools`
+├── templates/{finding,spec}.md  lembar temuan + SPEC.md mode rebuild
+└── scripts/session.sh           state machine: init/status/gate/advance/log/unknown/tools/report
 ```
 
 ## Isi `rea-roadmap`

@@ -93,6 +93,15 @@ runtime dengan pertanyaan statis.
 
 **Keluaran:** daftar Evidence bernomor (E1, E2, …) dengan sumber dan arti.
 
+**Prompt REA terpandu** (dari `docs/mcp-prompts.md`) — pakai ini kalau MCP aktif:
+
+| Prompt | Dipakai saat |
+| --- | --- |
+| `investigate_feature` | pertanyaan "bagaimana fitur X bekerja" |
+| `compare_application_versions` | pertanyaan "apa yang berubah antara versi A dan B" |
+| `trace_crash` | ada gejala crash yang harus dihubungkan ke jalur kode |
+| `prepare_bounded_process_capture` | butuh eksperimen runtime; rancang dulu, eksekusi belakangan (izin) |
+
 **Gate F3:** tiap butir E punya tool + sumber; tidak ada butir tanpa sumber.
 Kalau Evidence tidak lengkap, tulis batasnya sekarang (bukan nanti).
 
@@ -138,6 +147,18 @@ cabang ke semua input.
 
 **Gate F5:** klaim utama punya status verifikasi eksplisit.
 
+**Oracle untuk mode rebuild.** Kalau deliverable-nya rekonstruksi, F5 wajib punya
+minimal satu oracle konkret:
+
+| Oracle | Cara | Batas |
+| --- | --- | --- |
+| Uji hitung manual | hitung ulang konstanta/aritmetika dengan contoh angka dari Evidence | tidak menangkap efek samping |
+| `verify_reconstruction` | uji spesifikasi terhadap Evidence pembanding yang tersimpan | butuh MCP + dua artefak |
+| Perilaku nyata (dengan izin) | jalankan target dan pembanding pada input yang sama | butuh izin eksekusi; bedakan lingkungan |
+| Diff biner | bandingkan build sendiri vs asli pada bagian kritis | hanya menunjukkan perbedaan, bukan kesetaraan |
+
+Tanpa salah satu di atas, rekonstruksi disebut **draft**, bukan hasil.
+
 **Salah umum:** "verifikasi" dengan mengulang tool yang sama; menganggap
 dokumentasi vendor membuktikan isi binary.
 
@@ -155,6 +176,14 @@ ringkasan.
 Kalau deliverable-nya tool → pindah ke `rea-tool-design`. Kalau release notes →
 `rea-changelog-update`.
 
+**Mode rebuild (clean-room).** Kalau permintaannya "bangun ulang fitur ini",
+keluarannya adalah `SPEC.md` + implementasi, dengan urutan dari postingan
+toolchain: `binary → REA → SPEC.md → rebuild → oracle → retry`.
+
+Isi minimum `SPEC.md`: perilaku yang dibuktikan (dengan E-id), input/output,
+konstanta, kondisi batas, yang **tidak** direkonstruksi, dan oracle yang akan
+dipakai untuk menguji. Template: [`../templates/spec.md`](../templates/spec.md).
+
 **Keluaran:** jawaban final.
 
 **Gate F6:** setiap klaim di "Jawaban" punya penopang di "Bukti"; scope tidak
@@ -171,7 +200,10 @@ bertambah dari F0.
 1. Daftar `unknown` (yang tersisa) + apa yang dibutuhkan untuk menutupnya.
 2. Satu aksi berikutnya yang konkret.
 3. `session.sh report` → simpan/ tempel ringkasan.
-4. Kalau sesi ini menyelesaikan satu tahap roadmap, tandai lulusnya kriteria
+4. Kalau ada iterasi rebuild: selisih antara build sendiri dan target dicatat
+   sebagai `unknown` baru, lalu F3 diulang **hanya untuk selisih itu** (bukan
+   mengulang seluruh investigasi).
+5. Kalau sesi ini menyelesaikan satu tahap roadmap, tandai lulusnya kriteria
    keluar di `rea-roadmap/references/learning-path.md` dan sebut tahap berikutnya.
 
 **Keluaran:** ringkasan sesi + next step.

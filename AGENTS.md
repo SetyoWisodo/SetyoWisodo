@@ -34,10 +34,11 @@ memanggil skill yang tepat.
 | Mulai sesi kerja | `bash .agents/skills/rea-workflow/scripts/session.sh init "<label>" --target <path>` |
 | Status & gate | `bash .agents/skills/rea-workflow/scripts/session.sh status` |
 | Cari tool open-source | `python3 .agents/skills/find-reverse-engineered/scripts/re_index.py search <kata>` |
+| Pilih tool untuk target | `bash .agents/skills/rea-workflow/scripts/session.sh tools --stage 4` |
 
 ## Indeks & provenance
 
-- [`SKILLS.md`](SKILLS.md) — daftar skill, semua link roadmap, status verifikasi.
+- [`SKILLS.md`](SKILLS.md) — daftar skill, semua link kedua postingan, status verifikasi.
 - [`.agents/skills/README.md`](.agents/skills/README.md) — asal tiap skill + lisensi.
 
 State sesi disimpan di `/tmp/rea-workflow/` (di luar tracked tree). Jangan

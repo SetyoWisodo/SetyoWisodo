@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "source_post": "https://x.com/0xDeniAi/status/2114847015091794206",
+    "title": "20 GitHub repos to build a reverse engineering studio",
+    "resolved_at": "2026-10-29",
+    "method": "t.co redirect + GitHub API untuk memastikan nama repo penuh, lisensi, star (beberapa tautan terpotong di postingan)",
+    "counts": {
+      "repos_linked": 16,
+      "repos_named_without_link": 4,
+      "total": 20
+    },
+    "prompt_inventory": [
+      "investigate_feature",
+      "compare_application_versions",
+      "verify_reconstruction",
+      "trace_crash",
+      "audit_residual_unknowns",
+      "prepare_bounded_process_capture"
+    ],
+    "pipelines": [
+      "binary -> REA -> SPEC.md -> rebuild -> oracle -> retry"
+    ]
+  },
+  "tools": [
+    {
+      "group": "analysis-core",
+      "label": "REA",
+      "url": "https://github.com/morluto/rea",
+      "stars": null,
+      "license": null,
+      "kind": "mcp",
+      "stage": 3,
+      "note": "MCP tunggal; sumber 5 skill di repo ini"
+    },
+    {
+      "group": "analysis-core",
+      "label": "Ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "stars": 95751,
+      "license": "Apache-2.0",
+      "kind": "decompiler",
+      "stage": 3,
+      "note": null
+    },
+    {
+      "group": "analysis-core",
+      "label": "GhidraMCP",
+      "url": "https://github.com/LaurieWired/GhidraMCP",
+      "stars": 11631,
+      "license": "Apache-2.0",
+      "kind": "mcp",
+      "stage": 3,
+      "note": "Tautan postingan terpotong ('…Gh'); dikonfirmasi via GitHub API"
+    },
+    {
+      "group": "analysis-core",
+      "label": "ida-pro-mcp",
+      "url": "https://github.com/mrexodia/ida-pro-mcp",
+      "stars": 13208,
+      "license": "MIT",
+      "kind": "mcp",
+      "stage": 3,
+      "note": "Butuh lisensi IDA Pro"
+    },
+    {
+      "group": "mobile",
+      "label": "jadx",
+      "url": "https://github.com/skylot/jadx",
+      "stars": 51362,
+      "license": "Apache-2.0",
+      "kind": "decompiler",
+      "stage": 4,
+      "note": null
+    },
+    {
+      "group": "mobile",
+      "label": "Apktool",
+      "url": "https://github.com/iBotPeaches/Apktool",
+      "stars": 26797,
+      "license": "Apache-2.0",
+      "kind": "rebuild",
+      "stage": 4,
+      "note": null
+    },
+    {
+      "group": "mobile",
+      "label": "Frida",
+      "url": "https://github.com/frida/frida",
+      "stars": 22537,
+      "license": "wxWindows",
+      "kind": "runtime",
+      "stage": 4,
+      "note": "Runtime: butuh izin eksekusi"
+    },
+    {
+      "group": "mobile",
+      "label": "ILSpy",
+      "url": "https://github.com/icsharpcode/ILSpy",
+      "stars": 26866,
+      "license": "MIT",
+      "kind": "decompiler",
+      "stage": 6,
+      "note": null
+    },
+    {
+      "group": "binary",
+      "label": "radare2",
+      "url": "https://github.com/radareorg/radare2",
+      "stars": 25203,
+      "license": "LGPL-3.0",
+      "kind": "decompiler",
+      "stage": 3,
+      "note": "GitHub menandai NOASSERTION; lisensi LGPLv3"
+    },
+    {
+      "group": "binary",
+      "label": "x64dbg",
+      "url": "https://github.com/x64dbg/x64dbg",
+      "stars": 50072,
+      "license": "GPL-3.0",
+      "kind": "runtime",
+      "stage": 6,
+      "note": "Windows; GPL punya konsekuensi distribusi"
+    },
+    {
+      "group": "binary",
+      "label": "ImHex",
+      "url": "https://github.com/WerWolv/ImHex",
+      "stars": null,
+      "license": null,
+      "kind": "format",
+      "stage": 5,
+      "note": "Hex editor + pattern language"
+    },
+    {
+      "group": "binary",
+      "label": "angr",
+      "url": "https://github.com/angr/angr",
+      "stars": null,
+      "license": null,
+      "kind": "symbolic",
+      "stage": 3,
+      "note": "Symbolic execution; jawab 'input apa yang lolos'"
+    },
+    {
+      "group": "network",
+      "label": "mitmproxy",
+      "url": "https://github.com/mitmproxy/mitmproxy",
+      "stars": 46481,
+      "license": "MIT",
+      "kind": "capture",
+      "stage": 5,
+      "note": "Menghasilkan capture untuk inspect_web_network_capture"
+    },
+    {
+      "group": "network",
+      "label": "dnSpy (fork dnSpyEx)",
+      "url": "https://github.com/dnSpyEx/dnSpy",
+      "stars": null,
+      "license": "GPL-3.0",
+      "kind": "runtime",
+      "stage": 6,
+      "note": "Repo asli dnSpy/dnSpy ARCHIVED; postingan menautkan fork aktif"
+    },
+    {
+      "group": "network",
+      "label": "rizin",
+      "url": "https://github.com/rizinorg/rizin",
+      "stars": null,
+      "license": "LGPL-3.0",
+      "kind": "decompiler",
+      "stage": 3,
+      "note": "Fork radare2"
+    },
+    {
+      "group": "network",
+      "label": "raddebugger",
+      "url": "https://github.com/EpicGames/raddebugger",
+      "stars": 8710,
+      "license": "MIT",
+      "kind": "runtime",
+      "stage": 6,
+      "note": "Tautan terpotong; dikonfirmasi via API"
+    },
+    {
+      "group": "rebuild",
+      "label": "awesome-ai-reverse-engineering",
+      "url": "https://github.com/zhuyansen/awesome-ai-reverse-engineering",
+      "stars": 24,
+      "license": "NOASSERTION",
+      "kind": "index",
+      "stage": 7,
+      "note": "README 2026-10-29: 118 repo (postingan bilang 122), tiap entri dinilai"
+    },
+    {
+      "group": "rebuild",
+      "label": "awesome-reverse-engineering",
+      "url": "https://github.com/morluto/awesome-reverse-engineering",
+      "stars": 1400,
+      "license": "CC0-1.0",
+      "kind": "index",
+      "stage": 7,
+      "note": null
+    }
+  ]
+}
