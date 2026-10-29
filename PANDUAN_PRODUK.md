@@ -87,7 +87,7 @@ Ukuran berkasnya **2560 × 1440** (rasio 16:9), sama dengan bingkai cover Gumroa
 | **Quantity** | kosongkan (tak terbatas) |
 | **Versions / tiers** | kosongkan |
 | **Category** | `Education > Science` — pilihan terdekat untuk buku iklim/ketahanan; daftar Gumroad tidak punya "Environment" |
-| **Tags** | `climate change`, `disaster risk`, `adaptation`, `resilience`, `Indonesia` |
+| **Tags** | sepuluh tag di Langkah 9: `climate change`, `sustainability`, `environment`, `science`, `resilience`, `nonfiction`, `ebook`, `book`, `disaster risk`, `Indonesia` |
 | **Call to action** | kosongkan |
 
 ## Langkah 6 · Simpan
@@ -326,13 +326,21 @@ Kalau bagian *Bio* dibiarkan kosong, halaman profil hanya menampilkan nama dan k
 |---|---|
 | Category | `Education > Science` |
 | Tag 1 | `climate change` |
-| Tag 2 | `disaster risk` |
-| Tag 3 | `adaptation` |
-| Tag 4 | `resilience` |
-| Tag 5 | `Indonesia` |
+| Tag 2 | `sustainability` |
+| Tag 3 | `environment` |
+| Tag 4 | `science` |
+| Tag 5 | `resilience` |
+| Tag 6 | `nonfiction` |
+| Tag 7 | `ebook` |
+| Tag 8 | `book` |
+| Tag 9 | `disaster risk` |
+| Tag 10 | `Indonesia` |
 | Display your product's 1-5 star rating | biarkan **nyala** |
 | Content meant only for adults | **MATI** |
 
+**Mengapa sepuluh tag ini.** Pencarian Discover mencocokkan **semua** kata yang diketik pembeli, dan kata itu boleh berasal dari nama, nama penulis, deskripsi, **atau** tag — bobotnya sama. Artinya tag adalah satu-satunya cara menjangkau kata yang tidak ada di judul dan deskripsi. Deskripsi produk ini memuat *resilience*, *future*, *book*, *climate*, *crisis*; ia **tidak** memuat *sustainability*, *environment*, *science*, *nonfiction*, *ebook*, *disaster*, *Indonesia*. Enam tag terakhir karena itu bukan hiasan: tanpa mereka, pencarian "sustainability" tidak akan pernah memunculkan buku ini.
+
+Batasnya 10 tag, 2–20 karakter. **Pakai spasi, jangan tanda hubung** — filter Discover di Gumroad mengubah tanda hubung pada URL menjadi spasi, sehingga tag `climate-change` tidak akan pernah bisa dipilih sebagai filter.
 Discover menahan biaya 30% **hanya** untuk penjualan yang datang lewat Discover; penjualan dari tautan Anda sendiri tetap 10% + biaya proses. Kategori dan tag hanya membuka pintunya — produk baru benar-benar tampil di Discover setelah ada satu penjualan berbayar dan Risk Review selesai. Uji beli 100% tidak dihitung sebagai penjualan berbayar.
 
 Klik **Save changes** setelah empat bagian itu beres.
