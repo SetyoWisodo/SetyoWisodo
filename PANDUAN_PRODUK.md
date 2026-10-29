@@ -260,11 +260,23 @@ Nama berkas sudah terisi otomatis dari zip — biarkan apa adanya:
 
 ## Langkah 8 · Tab Receipt
 
-Boleh dikosongkan. Kalau ingin diisi, satu kalimat:
+Dua isian saja, keduanya sengaja pendek.
+
+**Button text** (batas 26 karakter) — tombol yang diklik pembeli untuk membuka berkasnya:
 
 ```
-Thank you. Your files are in your Gumroad library — the PDF, the EPUB, the DOCX, and a figure pack you may reuse in your own slides and reports. If anything goes wrong, reply to this email.
+Download your files
 ```
+
+19 karakter. Jangan diganti "View content": kata *download* yang dicari pembeli.
+
+**Custom message** (batas 500 karakter) — 301 karakter, ikut terkirim di email pembeli:
+
+```
+Thank you for buying Surviving the Future. Your four files are in your Gumroad library: the complete PDF (cover plus 457 pages), the EPUB, the DOCX, and a figure pack you may reuse in your own slides and reports. If a download fails, reply to this email and I will send a working copy within 24 hours.
+```
+
+Kalimat terakhir itu janji refund yang sama dengan kebijakan *No refunds allowed*: pengganti berkas dalam 24 jam, bukan uang kembali. Setelah menempel keduanya, klik **Save changes**.
 
 ## Langkah 9 · Tab Share
 
