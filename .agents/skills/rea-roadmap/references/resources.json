@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "source_post": "https://x.com/cabbitar/status/2115467413953056921",
+    "title": "STOP WASTING HOURS TRYING TO LEARN REA",
+    "resolved_at": "2026-10-29",
+    "canonical_list_source": "user paste 2026-10-29",
+    "counts": { "rows_in_post": 46, "unique_urls_in_post": 38, "verified_in_post": 37, "dead_in_post": 1, "index_entries": 43 }
+  },
+  "resources": [
+    { "id": "rea-repo", "category": "start", "label": "REA Official Repository", "url": "https://github.com/morluto/rea", "tco": ["BWBmiQEwNo", "OfBDMN188q"], "status": "verified" },
+    { "id": "rea-site", "category": "start", "label": "REA Official Website", "url": "https://rea.tools/", "tco": ["4dIHc21mvJ", "wsSJxOSPCH"], "status": "verified" },
+    { "id": "rea-install", "category": "start", "label": "Installation & Agent Setup", "url": "https://github.com/morluto/rea/blob/main/docs/installation.md", "tco": ["xNXl6J9VCc"], "status": "verified", "local": "references/installation.md" },
+    { "id": "rea-first", "category": "start", "label": "Your First REA Investigation", "url": "https://rea.tools/first-investigation/", "tco": ["DYf3xgnV47"], "status": "verified", "stage": 2 },
+    { "id": "rea-guides", "category": "start", "label": "REA Guides", "url": "https://rea.tools/guides/", "tco": ["QGZ9FWzoLT"], "status": "verified" },
+    { "id": "rea-mcp-prompts", "category": "start", "label": "Guided MCP Prompts", "url": "https://github.com/morluto/rea/blob/main/docs/mcp-prompts.md", "tco": ["SXYOLMYuiV"], "status": "verified", "local": "references/mcp-prompts.md" },
+
+    { "id": "video-clone", "category": "watch", "label": "How To Use REA To Clone Any Software In Minutes", "url": "https://www.youtube.com/watch?v=FnB9tHKBJXQ", "tco": ["nLoW5lQSya"], "status": "verified" },
+    { "id": "tutorial-datacamp", "category": "watch", "label": "REA + Pi Coding Agent Tutorial", "url": "https://www.datacamp.com/tutorial/reverse-engineer-anything-rea-tutorial", "tco": ["pRK7Lupz3p"], "status": "verified" },
+    { "id": "video-ghidra", "category": "watch", "label": "Ghidra Tutorial for Beginners", "url": "https://www.youtube.com/watch?v=OFAxXXcLXbc", "tco": ["3zF4dKP7T1"], "status": "verified", "stage": 6 },
+    { "id": "video-frida", "category": "watch", "label": "Frida for Android Reverse Engineering", "url": "https://www.youtube.com/watch?v=GHh9P-Dyq1w", "tco": ["3DRoh6JVai"], "status": "verified", "stage": 4 },
+    { "id": "pwncollege-re", "category": "watch", "label": "pwn.college: Reverse Engineering", "url": "https://pwn.college/intro-re-pwn~5933fc84/reversing/", "tco": ["JwGtHkXNyi", "fN8TctIsJH"], "status": "verified", "stage": 3 },
+    { "id": "re101", "category": "watch", "label": "Malware Unicorn RE101", "url": "https://malwareunicorn.org/workshops/re101#0", "tco": ["eZn3B6kCIw"], "status": "verified", "note": "anchor #0 = slide pertama; juga muncul di FREE COURSES" },
+
+    { "id": "showcase-notion", "category": "investigation", "label": "Notion Clipboard", "url": "https://rea.tools/showcase/notion/", "tco": ["cX1RHdoAId"], "status": "verified", "stage": 5 },
+    { "id": "showcase-dxball", "category": "investigation", "label": "DX-Ball Reconstruction", "url": "https://rea.tools/showcase/dx-ball/", "tco": ["8xMpGBWzoM"], "status": "verified", "stage": 5 },
+    { "id": "showcase-aegis", "category": "investigation", "label": "Aegis APK", "url": "https://rea.tools/showcase/aegis/", "tco": ["WXrVqlvQyy"], "status": "verified", "stage": 4 },
+    { "id": "showcase-th04", "category": "investigation", "label": "TH04 Bullet Patterns", "url": "https://rea.tools/showcase/th04/", "tco": ["SZn0eKmwjl"], "status": "verified", "stage": 5 },
+    { "id": "showcase-ctf", "category": "investigation", "label": "CTF binary (bonus, dari sitemap)", "url": "https://rea.tools/showcase/ctf/", "tco": [], "status": "verified", "stage": 3, "note": "tidak tertulis di postingan" },
+
+    { "id": "repo-awesome-re", "category": "repo", "label": "Awesome Reverse Engineering", "url": "https://github.com/morluto/awesome-reverse-engineering", "tco": ["2VyINxmT8U"], "status": "verified", "note": "daftar kanonik user menampilkan ulang morluto/rea di baris ini; lihat delta #4" },
+    { "id": "repo-gems", "category": "repo", "label": "REA Gems", "url": "https://github.com/sqwu/rea-gems", "tco": ["vSkQiDDUmF"], "status": "verified" },
+    { "id": "repo-awesome-reversed", "category": "repo", "label": "Awesome Reverse-Engineered", "url": "https://github.com/alexgaoth/awesome-reverse-engineered", "tco": ["gWMn83eany"], "status": "verified", "note": "berisi agent skill find-reverse-engineered + MCP server" },
+    { "id": "repo-ghidra", "category": "repo", "label": "Ghidra", "url": "https://github.com/NationalSecurityAgency/ghidra", "tco": ["0gMtMY4RCu"], "status": "verified", "stage": 6 },
+    { "id": "repo-jadx", "category": "repo", "label": "JADX", "url": "https://github.com/skylot/jadx", "tco": ["5ggYWjjsEr"], "status": "verified", "stage": 4 },
+    { "id": "repo-frida", "category": "repo", "label": "Frida", "url": "https://github.com/frida/frida", "tco": ["y5bvsxaa59"], "status": "verified", "stage": 4 },
+    { "id": "repo-ilspy", "category": "repo", "label": "ILSpy", "url": "https://github.com/icsharpcode/ILSpy", "tco": ["idIw9ivn7A"], "status": "verified" },
+    { "id": "repo-x64dbg", "category": "repo", "label": "x64dbg", "url": "https://github.com/x64dbg/x64dbg", "tco": ["LpfepVOwuO"], "status": "verified" },
+
+    { "id": "book-ghidra", "category": "book", "label": "The Ghidra Book, 2nd Edition", "url": "https://nostarch.com/ghidra-book-2e", "tco": ["ii106DSVjD"], "status": "verified", "paid": true },
+    { "id": "book-re4b", "category": "book", "label": "Reverse Engineering for Beginners", "url": "https://go.yurichev.com/", "aliases": ["https://beginners.re/"], "tco": ["PfJphVXExb"], "status": "verified", "paid": false },
+    { "id": "book-binary-analysis", "category": "book", "label": "Practical Binary Analysis", "url": "https://nostarch.com/binaryanalysis/", "tco": ["sF4Amx6j54"], "status": "verified", "paid": true },
+    { "id": "book-malware", "category": "book", "label": "Practical Malware Analysis", "url": "https://nostarch.com/malware", "tco": ["cN26SPvKJS"], "status": "verified", "paid": true },
+    { "id": "book-android-malware", "category": "book", "label": "The Android Malware Handbook", "url": "https://nostarch.com/androidmalwarehandbook", "tco": ["eyKem7Z3Gg"], "status": "verified", "paid": true },
+    { "id": "book-reversing", "category": "book", "label": "Reversing: Secrets of Reverse Engineering", "url": "https://www.wiley.com/en-sg", "tco": ["1q93RBDEXb"], "status": "dead", "paid": true, "note": "halaman produk hilang; ISBN 978-0764574818" },
+
+    { "id": "paper-llm4decompile", "category": "paper", "label": "LLM4Decompile", "url": "https://arxiv.org/abs/2403.05286", "tco": ["Fq7Ylg6RNZ"], "status": "verified" },
+    { "id": "paper-autodecompiler", "category": "paper", "label": "AutoDecompiler", "url": "https://arxiv.org/abs/2606.16162", "tco": ["4QNdcgObtZ"], "status": "verified" },
+    { "id": "paper-salt4decompile", "category": "paper", "label": "SALT4Decompile (arXiv v2: ALT4Decompile)", "url": "https://arxiv.org/abs/2509.14646", "tco": ["5f1rumeCEa"], "status": "verified" },
+    { "id": "paper-decomperson", "category": "paper", "label": "Decomperson", "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/burk", "tco": ["bxldhHoBep"], "status": "verified" },
+    { "id": "paper-dirty", "category": "paper", "label": "DIRTY", "url": "https://usenix.org/system/files/sec22-chen-qibin.pdf", "tco": ["tD2QxL2fJT"], "status": "verified" },
+    { "id": "paper-attacking-agents", "category": "paper", "label": "Automatically Attacking Software RE AI Agents", "url": "https://arxiv.org/abs/2605.30667", "tco": ["Dmt5VEOAOr"], "status": "verified" },
+    { "id": "paper-bigger-model", "category": "paper", "label": "Does Reverse Engineering Need a Bigger Model?", "url": "https://rea.tools/blog/reverse-engineering-models/", "tco": ["a03lCuHBr3"], "status": "verified" },
+
+    { "id": "course-ost2", "category": "course", "label": "OpenSecurityTraining2: x86-64 Assembly (Arch1001)", "url": "https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about", "tco": ["Rc9Q5DGYSE"], "status": "verified", "stage": 6 },
+    { "id": "course-reversing-hell", "category": "course", "label": "pwn.college: Reversing Hell", "url": "https://pwn.college/reversing-hell/", "tco": ["2zeALSOmRp"], "status": "verified", "stage": 7 },
+    { "id": "course-nightmare", "category": "course", "label": "Nightmare", "url": "https://github.com/guyinatuxedo/nightmare", "tco": ["vnyZM6JZiM"], "status": "verified", "stage": 3 },
+    { "id": "course-rpisec", "category": "course", "label": "RPISEC Modern Binary Exploitation", "url": "https://github.com/RPISEC/MBE", "tco": ["XE9qjyjPYZ"], "status": "verified", "stage": 3 },
+    { "id": "course-owasp-mas", "category": "course", "label": "OWASP Mobile Application Security", "url": "https://mas.owasp.org/", "tco": ["SQdHYyeneN"], "status": "verified", "stage": 4 }
+  ]
+}

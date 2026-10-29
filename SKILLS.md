@@ -51,7 +51,7 @@ skill dari deskripsi itu, isi lengkap baru dimuat saat relevan.
 | Ghidra Tutorial for Beginners | <https://www.youtube.com/watch?v=OFAxXXcLXbc> |
 | Frida for Android Reverse Engineering | <https://www.youtube.com/watch?v=GHh9P-Dyq1w> |
 | pwn.college: Reverse Engineering | <https://pwn.college/intro-re-pwn~5933fc84/reversing/> |
-| Malware Unicorn RE101 | <https://malwareunicorn.org/workshops/re101> |
+| Malware Unicorn RE101 | <https://malwareunicorn.org/workshops/re101#0> |
 
 ### REAL REA INVESTIGATIONS
 
@@ -83,11 +83,11 @@ skill dari deskripsi itu, isi lengkap baru dimuat saat relevan.
 | Label | URL | Catatan |
 | --- | --- | --- |
 | The Ghidra Book, 2nd Edition | <https://nostarch.com/ghidra-book-2e> | No Starch, berbayar |
-| Reverse Engineering for Beginners | <https://beginners.re/> | gratis (Dennis Yurichev) |
+| Reverse Engineering for Beginners | <https://go.yurichev.com/> | gratis (Dennis Yurichev); `beginners.re` = alias halaman yang sama |
 | Practical Binary Analysis | <https://nostarch.com/binaryanalysis> | No Starch, berbayar |
 | Practical Malware Analysis | <https://nostarch.com/malware> | No Starch, berbayar |
 | The Android Malware Handbook | <https://nostarch.com/androidmalwarehandbook> | No Starch, berbayar |
-| Reversing: Secrets of Reverse Engineering | shortlink → <https://www.wiley.com/en-us> | **mati**: halaman produk Wiley hilang. ISBN `978-0764574818` |
+| Reversing: Secrets of Reverse Engineering | shortlink → <https://www.wiley.com/en-sg> (locale Anda) | **mati**: halaman produk Wiley hilang, mendarat di beranda penerbit. ISBN `978-0764574818` |
 
 ### RESEARCH PAPERS
 
@@ -108,10 +108,22 @@ skill dari deskripsi itu, isi lengkap baru dimuat saat relevan.
 | OpenSecurityTraining2: x86-64 Assembly | <https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about> |
 | pwn.college: Reverse Engineering | <https://pwn.college/intro-re-pwn~5933fc84/reversing/> |
 | pwn.college: Reversing Hell | <https://pwn.college/reversing-hell/> |
-| Malware Unicorn RE101 | <https://malwareunicorn.org/workshops/re101> |
+| Malware Unicorn RE101 | <https://malwareunicorn.org/workshops/re101#0> |
 | Nightmare | <https://github.com/guyinatuxedo/nightmare> |
 | RPISEC Modern Binary Exploitation | <https://github.com/RPISEC/MBE> |
 | OWASP Mobile Application Security | <https://mas.owasp.org/> |
+
+### Sinkronisasi dengan daftar kanonik (paste user, 2026-10-29)
+
+Daftar di atas sudah dicocokkan dengan URL yang Anda paste. Empat selisih, semua
+sudah diperiksa ulang:
+
+| Item | Hasil resolve awal | Daftar Anda | Status |
+| --- | --- | --- | --- |
+| Reverse Engineering for Beginners | `beginners.re` | `go.yurichev.com` | **sama** — halaman identik (judul & `content-length` 6256, Apache/2.4.52). Sekarang `go.yurichev.com` jadi URL utama, `beginners.re` alias |
+| Reversing: Secrets of RE | `wiley.com/en-us` | `wiley.com/en-sg` | **sama-sama beranda Wiley**, beda locale → tetap `mati` |
+| Malware Unicorn RE101 | tanpa anchor | `…/re101#0` | anchor slide pertama, sudah dipakai |
+| GITHUB REPOS baris 2 | `morluto/awesome-reverse-engineering` | `github.com/morluto/rea` (dobel) | **belum pasti** — kemungkinan artefak display URL X saat copy; yang ter-resolve tetap `awesome-reverse-engineering` (judulnya cocok), dan keduanya dicatat |
 
 Tabel per-baris lengkap dengan kode `t.co`, status verifikasi, dan catatan
 metode ada di
@@ -135,6 +147,7 @@ Cara kerjanya di percakapan ini:
 | Langkah | Yang saya lakukan |
 | --- | --- |
 | 0. Tetapkan posisi | Jalankan `bash .agents/skills/rea-roadmap/scripts/check_readiness.sh` → tahu Node/`rea`/engine/target |
+| 0b. Ambil resource | `bash …/scripts/find_resource.sh --stage 4` (atau `--category paper`) → URL terverifikasi, bukan dari ingatan |
 | 1. Rute target | Klasifikasikan target lewat skill `reverse-engineer-anything` (APK? native? Electron? pcap?) |
 | 2. Jalankan tahap | Ambil tahap aktif, beri prompt siap tempel, dampingi hasilnya |
 | 3. Evidence dulu | Setiap klaim disertai path/digest/byte range/tool + daftar "belum diketahui" |
@@ -213,8 +226,8 @@ JADX, Frida, Kuna, atau Node.
         ├── README.md                        ← atribusi & daftar skill
         ├── rea-roadmap/                     ← BARU: alur kerja dari 46 link
         │   ├── SKILL.md
-        │   ├── references/{resources,learning-path,installation,mcp-prompts,source-verification}.md
-        │   └── scripts/check_readiness.sh
+        │   ├── references/{resources.md,resources.json,learning-path,installation,mcp-prompts,source-verification}
+        │   └── scripts/{check_readiness.sh,find_resource.sh}
         ├── find-reverse-engineered/         ← dari awesome-reverse-engineered (MIT)
         │   ├── SKILL.md, LICENSE
         │   └── scripts/re_index.py

@@ -23,11 +23,13 @@ butuh persetujuan eksplisit user (lihat `references/installation.md`).
 
 | File | Isi |
 | --- | --- |
-| [`references/resources.md`](references/resources.md) | Semua 46 link postingan, sudah di-resolve dari shortlink `t.co` + status verifikasi |
+| [`references/resources.md`](references/resources.md) | Semua 46 link postingan, sudah di-resolve dari shortlink `t.co` + status verifikasi + delta terhadap daftar kanonik user |
+| [`references/resources.json`](references/resources.json) | Versi mesin dari tabel di atas (43 entri: label, URL, tco, kategori, tahap, status, berbayar/gratis) |
 | [`references/learning-path.md`](references/learning-path.md) | 7 tahap: kriteria masuk/keluar, perintah, prompt, jebakan |
 | [`references/installation.md`](references/installation.md) | Salinan `docs/installation.md` upstream (setup, client, engine, update/remove) |
 | [`references/mcp-prompts.md`](references/mcp-prompts.md) | Salinan `docs/mcp-prompts.md` upstream (prompt MCP terpandu) |
 | [`scripts/check_readiness.sh`](scripts/check_readiness.sh) | Cek read-only: Node, npx, CLI `rea`, engine (Ghidra/JADX/Frida/Java), target file |
+| [`scripts/find_resource.sh`](scripts/find_resource.sh) | Query offline ke `resources.json`: `--stage N`, `--category repo|book|paper|…`, `--check`, atau pencarian kata bebas |
 
 Skill pendamping di repo yang sama: `reverse-engineer-anything` (cara memilih
 tool & Evidence), `find-reverse-engineered` (mencari tool open-source hasil RE
@@ -60,8 +62,9 @@ hanya menyuplai **urutan belajar**; pemilihan tool tetap milik skill itu.
 
 Ambil tahap aktif dari `references/learning-path.md`. Untuk tahap itu:
 
-1. Sebutkan tujuan satu kalimat dan resource kanoniknya (link dari
-   `references/resources.md`).
+1. Sebutkan tujuan satu kalimat dan resource kanoniknya. Ambil lewat
+   `bash scripts/find_resource.sh --stage <N>` supaya URL yang dipakai selalu
+   yang sudah diverifikasi, bukan hafalan.
 2. Berikan **perintah atau prompt siap tempel** ke agent user.
 3. Tunggu user mengerjakan; tawarkan mendampingi analisis hasilnya.
 4. Uji kriteria selesai. Jika gagal, perbaiki penyebabnya (bukan mengulang

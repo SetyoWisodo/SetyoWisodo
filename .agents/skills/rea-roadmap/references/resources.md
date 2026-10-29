@@ -2,8 +2,14 @@
 
 Sumber: [x.com/cabbitar/status/2115467413953056921](https://x.com/cabbitar/status/2115467413953056921)
 ("STOP WASTING HOURS TRYING TO LEARN REA", 2026-10-28).
-Semua shortlink `t.co` di-resolve pada **2026-10-29** dengan mengikuti redirect
-HTTP dan mencocokkan judul halaman tujuan. Kolom *Status* memakai istilah:
+Ada **dua sumber** yang dipakai dan sudah dicocokkan satu sama lain:
+
+1. Hasil resolve `t.co` oleh agent pada 2026-10-29 (mengikuti redirect HTTP).
+2. Daftar URL yang di-paste user pada 2026-10-29 (URL hasil ekspansi di sisi
+   user; dipakai sebagai kanonik bila berbeda). Selisihnya dicatat di bagian
+   [Delta terhadap daftar kanonik](#delta-terhadap-daftar-kanonik-user).
+
+Kolom *Status* memakai istilah:
 
 - **terverifikasi** — redirect diikuti, judul/URL tujuan cocok dengan label postingan
 - **terverifikasi (judul)** — redirect tidak menampilkan URL akhir, tetapi judul +
@@ -33,7 +39,7 @@ terpisah. Situs resmi tetap <https://rea.tools/>.
 | 3 | Ghidra Tutorial for Beginners | `t.co/3zF4dKP7T1` | <https://www.youtube.com/watch?v=OFAxXXcLXbc> | terverifikasi (URL akhir dari header redirect) |
 | 4 | Frida for Android Reverse Engineering | `t.co/3DRoh6JVai` | <https://www.youtube.com/watch?v=GHh9P-Dyq1w> | terverifikasi |
 | 5 | pwn.college: Reverse Engineering | `t.co/JwGtHkXNyi`, `t.co/fN8TctIsJH` | <https://pwn.college/intro-re-pwn~5933fc84/reversing/> | terverifikasi |
-| 6 | Malware Unicorn RE101 | `t.co/eZn3B6kCIw` | <https://malwareunicorn.org/workshops/re101> | terverifikasi |
+| 6 | Malware Unicorn RE101 | `t.co/eZn3B6kCIw` | <https://malwareunicorn.org/workshops/re101#0> | terverifikasi (anchor `#0` = slide pertama) |
 
 ## REAL REA INVESTIGATIONS (showcase)
 
@@ -74,11 +80,11 @@ server di `mcp/` untuk mencari 17.000+ proyek hasil reverse engineering.
 | # | Label | Shortlink | URL hasil resolve | Status |
 | --- | --- | --- | --- | --- |
 | 1 | The Ghidra Book, 2nd Edition | `t.co/ii106DSVjD` | <https://nostarch.com/ghidra-book-2e> | terverifikasi |
-| 2 | Reverse Engineering for Beginners | `t.co/PfJphVXExb` | <https://beginners.re/> | terverifikasi (judul) |
+| 2 | Reverse Engineering for Beginners | `t.co/PfJphVXExb` | <https://go.yurichev.com/> | terverifikasi (judul) — `beginners.re` adalah alias halaman yang sama |
 | 3 | Practical Binary Analysis | `t.co/sF4Amx6j54` | <https://nostarch.com/binaryanalysis> | terverifikasi |
 | 4 | Practical Malware Analysis | `t.co/cN26SPvKJS` | <https://nostarch.com/malware> | terverifikasi |
 | 5 | The Android Malware Handbook | `t.co/eyKem7Z3Gg` | <https://nostarch.com/androidmalwarehandbook> | terverifikasi |
-| 6 | Reversing: Secrets of Reverse Engineering | `t.co/1q93RBDEXb` | <https://www.wiley.com/en-us> | **mati** — halaman produk Wiley sudah tidak ada; shortlink mendarat di beranda penerbit |
+| 6 | Reversing: Secrets of Reverse Engineering | `t.co/1q93RBDEXb` | <https://www.wiley.com/en-sg> (user) / `en-us` (agent) | **mati** — halaman produk Wiley sudah tidak ada; shortlink mendarat di beranda penerbit sesuai locale |
 
 Untuk #6, buku Eldad Eilam (Wiley, 2005) masih bisa dicari lewat ISBN
 `978-0764574818` di toko buku mana pun. Jangan menebak URL produk baru.
@@ -102,7 +108,7 @@ Untuk #6, buku Eldad Eilam (Wiley, 2005) masih bisa dicari lewat ISBN
 | 1 | OpenSecurityTraining2: x86-64 Assembly | `t.co/Rc9Q5DGYSE` | <https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about> | terverifikasi |
 | 2 | pwn.college: Reverse Engineering | `t.co/fN8TctIsJH` | <https://pwn.college/intro-re-pwn~5933fc84/reversing/> | terverifikasi |
 | 3 | pwn.college: Reversing Hell | `t.co/2zeALSOmRp` | <https://pwn.college/reversing-hell/> | terverifikasi |
-| 4 | Malware Unicorn RE101 | `t.co/eZn3B6kCIw` | <https://malwareunicorn.org/workshops/re101> | terverifikasi |
+| 4 | Malware Unicorn RE101 | `t.co/eZn3B6kCIw` | <https://malwareunicorn.org/workshops/re101#0> | terverifikasi |
 | 5 | Nightmare | `t.co/vnyZM6JZiM` | <https://github.com/guyinatuxedo/nightmare> | terverifikasi |
 | 6 | RPISEC Modern Binary Exploitation | `t.co/XE9qjyjPYZ` | <https://github.com/RPISEC/MBE> | terverifikasi |
 | 7 | OWASP Mobile Application Security | `t.co/SQdHYyeneN` | <https://mas.owasp.org/> | terverifikasi |
@@ -114,3 +120,32 @@ Untuk #6, buku Eldad Eilam (Wiley, 2005) masih bisa dicari lewat ISBN
 - Setelah duplikat digabung: **38 URL unik**; 37 terverifikasi, 1 mati (Wiley).
 - Instalasi: `npx rea-agents@latest setup` — paket npm `rea-agents`, versi terbaru
   yang tercatat saat verifikasi: **6.8.0**.
+
+## Delta terhadap daftar kanonik (user)
+
+Daftar URL yang di-paste user pada 2026-10-29 dibandingkan dengan hasil resolve
+agent. Empat selisih, semuanya sudah diperiksa ulang:
+
+| # | Item | Hasil resolve agent | Daftar kanonik user | Kesimpulan |
+| --- | --- | --- | --- | --- |
+| 1 | Reverse Engineering for Beginners | `beginners.re` | `go.yurichev.com` | **Sama**. Keduanya menyajikan halaman identik (judul sama, `content-length` 6256, Apache/2.4.52 Ubuntu). Pakai `go.yurichev.com` sebagai URL utama, `beginners.re` sebagai alias. |
+| 2 | Reversing: Secrets of Reverse Engineering | `wiley.com/en-us` | `wiley.com/en-sg` | **Sama-sama beranda penerbit**, hanya beda locale. Halaman produknya memang sudah tidak ada → status tetap `mati`. |
+| 3 | Malware Unicorn RE101 | tanpa anchor | `…/workshops/re101#0` | Anchor `#0` menunjuk slide pertama pada dek workshop. Tidak mengubah tujuan. |
+| 4 | GITHUB REPOS baris 2 | `morluto/awesome-reverse-engineering` | `github.com/morluto/rea` (dobel dengan baris 1) | **Belum pasti.** Resolusi `t.co/2VyINxmT8U` menghasilkan `morluto/awesome-reverse-engineering` dan judul halamannya cocok ("Curated reverse-engineering tools…"). Duplikat di daftar user kemungkinan artefak *display URL* X saat copy. Kedua repo tetap dicatat; jangan menghapus salah satunya. |
+
+### Aturan bila dua sumber berbeda lagi di kemudian hari
+
+1. Ikuti daftar user bila URL-nya terbuka dan judulnya cocok dengan label.
+2. Bila keduanya menuju halaman yang isinya identik, simpan keduanya (utama +
+   alias) dan sebutkan di tabel.
+3. Bila salah satunya tidak lagi menampilkan produk yang dimaksud, tandai `mati`
+   dan jangan mengarang penggantinya.
+
+### Cuplikan kanonik yang diverifikasi ulang
+
+```text
+go.yurichev.com   -> judul '"Reverse Engineering for Beginners" book', 6256 byte
+beginners.re      -> judul sama, 6256 byte (alias)
+wiley.com/en-sg   -> beranda Wiley (produk tidak ada)
+wiley.com/en-us   -> beranda Wiley (produk tidak ada)
+```

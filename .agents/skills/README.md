@@ -36,12 +36,14 @@ rea-roadmap/
 ├── SKILL.md                      alur kerja 5 langkah + aturan turunan
 ├── references/
 │   ├── resources.md              semua 46 link postingan yang sudah di-resolve
+│   ├── resources.json            versi mesin (43 entri) untuk query offline
 │   ├── learning-path.md          7 tahap: prompt, kriteria keluar, jebakan
 │   ├── installation.md           salinan docs/installation.md upstream
 │   ├── mcp-prompts.md            salinan docs/mcp-prompts.md upstream
 │   └── source-verification.md    prosedur resolve t.co + bukti yang disimpan
 └── scripts/
-    └── check_readiness.sh        cek read-only: node, rea, Ghidra, JADX, Frida, target
+    ├── check_readiness.sh        cek read-only: node, rea, Ghidra, JADX, Frida, target
+    └── find_resource.sh          query resources.json per tahap/kategori/kata
 ```
 
 ## Catatan link relatif
