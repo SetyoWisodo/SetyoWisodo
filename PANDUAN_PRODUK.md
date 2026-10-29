@@ -300,7 +300,23 @@ Books
 
 Simpan, lalu produk ini masuk ke bagian itu. Tanpa langkah ini, orang yang membuka `gumroad.com/setyowisodo` tidak melihat buku Anda sama sekali.
 
-**Mengganti nama bagian itu di kemudian hari.** Namanya bukan diatur di halaman produk, melainkan di pengaturan profil: buka `gumroad.com/settings/profile` (atau klik **Edit profile** di halaman profil publik) → cari daftar **Sections** → klik bagian yang ingin diganti → ubah namanya → **Save**. Perubahan langsung tampak sebagai judul di atas kartu produk pada `gumroad.com/setyowisodo`.
+**Di mana bagian profil itu diatur.** Bukan di halaman produk, dan bukan di tab *About*. Halaman `gumroad.com/settings/profile` punya empat tab — **About · Design · Pages · Share** — dan bagian-bagian profil tinggal di tab **Pages**. Tab *About* hanya memuat Name, Bio, dan Avatar.
+
+Jadi: **Edit profile** → tab **Pages** → klik bagian yang ada (kalau kosong, klik **Add section**) → isi nama:
+
+```
+Books
+```
+
+lalu centang produk **Surviving the Future** di dalamnya → **Save**. Judul *Books* langsung muncul di atas kartu produk pada `gumroad.com/setyowisodo` setelah halaman di-refresh.
+
+**Bio di tab About — pakai kalimat ini (201 karakter):**
+
+```
+Author of Surviving the Future — a book about what actually protects people when the water rises, the harvest fails, or the grid goes down. 24 chapters, 152 sources, eleven original figures, 457 pages.
+```
+
+Kalau bagian *Bio* dibiarkan kosong, halaman profil hanya menampilkan nama dan kartu buku tanpa satu pun penjelasan — pembeli yang masuk dari tautan tidak tahu siapa penulisnya. Toggle **Show your storefront on product pages** biarkan **nyala**.
 
 **Harga tampil dalam Rupiah di layar Anda — itu wajar.** Gumroad mendeteksi mata uang pengunjung (pojok kanan bawah halaman profil: *Rp (Indonesian Rupiah) — detected*), lalu menampilkan harga yang sudah dikonversi. Pembeli di Amerika tetap melihat **$45**. Tidak ada yang perlu diubah, dan jumlah yang Anda terima tetap dihitung dari harga USD.
 
