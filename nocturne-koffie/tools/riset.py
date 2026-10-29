@@ -26,6 +26,10 @@ import csv
 import hashlib
 import json
 import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from tanggal import hari_ini  # noqa: E402
 import re
 import statistics
 import unicodedata
@@ -708,7 +712,7 @@ def main():
     kom = analisa_komentar(kom_rows)
     kw = analisa_kata_kunci(kw_rows)
     briefs = buat_brief(ref["pola"], kom, kreatif)
-    tgl = date.today()
+    tgl = hari_ini()
 
     asli = sum(1 for b in ref["baris"] if b["status"] == "asli")
     contoh = ref["n"] - asli

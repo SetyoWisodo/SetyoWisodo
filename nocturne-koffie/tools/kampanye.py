@@ -14,6 +14,10 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from tanggal import hari_ini  # noqa: E402
 from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -335,7 +339,7 @@ def main():
     if not catalog:
         raise SystemExit("data/catalog.json tidak ada — tidak ada harga yang boleh dikarang.")
 
-    html = bangun(catalog, kreatif, date.today())
+    html = bangun(catalog, kreatif, hari_ini())
     video = [i for i in kreatif.get("items", []) if i.get("format") == "video"]
 
     if args.cek:

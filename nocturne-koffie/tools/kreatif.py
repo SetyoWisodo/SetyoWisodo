@@ -22,6 +22,10 @@ import argparse
 import json
 import math
 import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from tanggal import hari_ini  # noqa: E402
 import random
 import shutil
 import subprocess
@@ -647,7 +651,7 @@ def main():
     args = ap.parse_args()
 
     os.makedirs(OUT, exist_ok=True)
-    tgl = date.fromisoformat(args.tanggal) if args.tanggal else date.today()
+    tgl = date.fromisoformat(args.tanggal) if args.tanggal else hari_ini()
     items = []
     video_ok = False
 

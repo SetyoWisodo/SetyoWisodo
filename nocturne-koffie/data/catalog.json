@@ -4,7 +4,9 @@
     "sumber": "Brief Website Nocturne Koffie Brand — FINAL 3.7 (4 Okt 2026), bagian 10 & 5",
     "catatan": "Harga, kategori, proses, elevasi & nama petani dikutip dari brief bagian 10.3 & 10.4. Tasting notes, tingkat sangrai (roast_level), dan desa/kecamatan sebagian masih USULAN dan wajib dikonfirmasi pemilik sebelum situs dinyatakan tayang. Lihat panduan/PANDUAN-LANDING-PAGE.md bagian 'Gerbang data'.",
     "versi": "2.0",
-    "diperbarui": "2026-10-29"
+    "diperbarui": "2026-10-29",
+    "stock_updated": "2026-10-30",
+    "catatan_status": "Semua SKU diset 'tersedia' atas permintaan pemilik (30 Okt 2026) sebagai asumsi kerja: stok dianggap tersedia untuk semua produk. Ganti kembali per SKU bila angka lot nyata berbeda — papan akan menandai selisih status."
   },
   "brand": {
     "name": "Nocturne Koffie",
@@ -171,7 +173,7 @@
         "Bubuk — Tubruk",
         "Bubuk — Espresso"
       ],
-      "status": "menunggu-panen",
+      "status": "tersedia",
       "img": "assets/img/produk/kintamani.jpg",
       "variants": [
         {
@@ -234,7 +236,7 @@
         "Bubuk — Tubruk",
         "Bubuk — Espresso"
       ],
-      "status": "terbatas",
+      "status": "tersedia",
       "img": "assets/img/produk/ijen.jpg",
       "variants": [
         {

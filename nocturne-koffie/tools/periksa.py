@@ -1,0 +1,326 @@
+#!/usr/bin/env python3
+"""
+Gerbang periksa — QA otomatis untuk seluruh situs & data Nocturne.
+
+Dijalankan setelah semua generator. Memeriksa 6 hal yang paling sering rusak diam-diam:
+
+  1. Berkas wajib ada (halaman, aset, data)
+  2. Tautan lokal di setiap halaman benar-benar menuju berkas yang ada
+  3. Tag HTML seimbang (tidak ada div yang lupa ditutup)
+  4. Data saling cocok (produk ↔ lot, manifest ↔ berkas aset, brief ↔ manifest)
+  5. Klaim terlarang tidak muncul di halaman publik
+  6. Batas ukuran (halaman awal < 1,5 MB; folder konten < 12 MB)
+
+Menulis `laporan/periksa.md` + `laporan/periksa.json`. Exit code 1 bila ada temuan kritis.
+
+Pakai:
+    python3 tools/periksa.py
+    python3 tools/periksa.py --ringkas     # hanya cetak tabel terminal
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from tanggal import hari_ini  # noqa: E402
+import re
+from datetime import date
+from html.parser import HTMLParser
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, "laporan")
+
+HALAMAN_PUBLIK = ["index.html", "kampanye/index.html", "komersial/penawaran-b2b.html", "brand/index.html"]
+# halaman internal (noindex) tidak diperiksa klaim: riset & papan sengaja memuat daftar kata terlarang
+
+HALAMAN = [
+    "index.html",
+    "dashboard/index.html",
+    "kampanye/index.html",
+    "konten/index.html",
+    "riset/index.html",
+    "brand/index.html",
+    "komersial/penawaran-b2b.html",
+    "laporan/index.html",
+]
+
+DATA = [
+    "data/catalog.json", "data/biaya.json", "data/stok-lot.json", "data/divisi.json",
+    "data/kreatif.json", "data/legal.json", "data/batch-qc.csv", "data/pesanan.csv",
+    "data/konten-14hari.csv", "data/kpi.csv", "data/riset-referensi.csv",
+    "data/riset-komentar.csv", "data/riset-kata-kunci.csv",
+]
+
+DOKUMEN = [
+    "README.md", "operasional/00-struktur-divisi.md", "operasional/divisi/README.md",
+    "marketing/09-media-kreator.md", "skills/README.md",
+    "skills/social-media-riset/SKILL.md", "skills/komentar-mining/SKILL.md",
+    "skills/search-intent-riset/SKILL.md", "brand/README.md", "komersial/01-panduan-grosir.md",
+]
+
+KLAIM_TERLARANG = [
+    (r"\broastery kami\b", "menyebut Nocturne sebagai roastery"),
+    (r"\bkami menyangrai sendiri\b", "klaim menyangrai sendiri"),
+    (r"\bnomor satu\b", "klaim nomor satu"),
+    (r"\bterbaik di banyuwangi\b", "klaim tanpa bukti"),
+    (r"\btermurah\b", "klaim termurah"),
+    (r"\bpromo\b", "kata promo (bertentangan dengan posisi brand)"),
+    (r"\bburuan\b", "kata buruan"),
+]
+
+VOID = {"br", "img", "meta", "link", "input", "source", "hr", "area", "base", "col",
+        "embed", "track", "wbr", "path", "circle", "rect", "line", "use", "stop"}
+
+
+# ─────────────────────────────── utilitas ─────────────────────────────────
+def baca(path):
+    with open(os.path.join(ROOT, path), encoding="utf-8", errors="ignore") as f:
+        return f.read()
+
+
+def ukuran(path):
+    p = os.path.join(ROOT, path)
+    if os.path.isdir(p):
+        return sum(os.path.getsize(os.path.join(d, f)) for d, _, fs in os.walk(p) for f in fs)
+    return os.path.getsize(p) if os.path.exists(p) else 0
+
+
+class Seimbang(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.tumpuk, self.galat, self.tautan = [], [], []
+
+    def handle_starttag(self, tag, attrs):
+        if tag not in VOID:
+            self.tumpuk.append(tag)
+        for k, v in attrs:
+            if k in ("href", "src") and v:
+                self.tautan.append((tag, k, v))
+
+    def handle_endtag(self, tag):
+        if tag in VOID:
+            return
+        if self.tumpuk and self.tumpuk[-1] == tag:
+            self.tumpuk.pop()
+        else:
+            self.galat.append((tag, list(self.tumpuk[-3:]), self.getpos()))
+
+
+def tautan_lokal(dari, nilai):
+    """Kembalikan path lokal relatif terhadap ROOT, atau None bila eksternal."""
+    v = nilai.strip()
+    if not v or v.startswith(("#", "http://", "https://", "mailto:", "tel:", "data:", "javascript:")):
+        return None
+    v = v.split("#")[0].split("?")[0]
+    if not v:
+        return None
+    dasar = os.path.dirname(os.path.join(ROOT, dari))
+    return os.path.normpath(os.path.join(dasar, v))
+
+
+# ──────────────────────────────── pemeriksaan ─────────────────────────────
+def periksa(catatan):
+    hasil = []
+
+    def tambah(kategori, status, teks, detail=""):
+        hasil.append({"kategori": kategori, "status": status, "teks": teks, "detail": detail})
+        if status == "gagal":
+            catatan.append(teks)
+
+    # 1 · berkas wajib
+    hilang = [p for p in HALAMAN + DATA + DOKUMEN if not os.path.exists(os.path.join(ROOT, p))]
+    tambah("Berkas wajib", "lolos" if not hilang else "gagal",
+           f"{len(HALAMAN + DATA + DOKUMEN) - len(hilang)}/{len(HALAMAN + DATA + DOKUMEN)} berkas ada",
+           ", ".join(hilang))
+
+    # 2 · tautan + 3 · tag seimbang
+    total_tautan = 0
+    rusak = []
+    tag_rusak = []
+    for h in HALAMAN:
+        if not os.path.exists(os.path.join(ROOT, h)):
+            continue
+        parse = Seimbang()
+        parse.feed(baca(h))
+        if parse.tumpuk or parse.galat:
+            tag_rusak.append(f"{h}: sisa {parse.tumpuk or parse.galat[:2]}")
+        for _, _, v in parse.tautan:
+            tujuan = tautan_lokal(h, v)
+            if tujuan is None:
+                continue
+            total_tautan += 1
+            if not os.path.exists(tujuan):
+                rusak.append(f"{h} → {v}")
+
+    tambah("Tautan lokal", "lolos" if not rusak else "gagal",
+           f"{total_tautan - len(rusak)}/{total_tautan} tautan menuju berkas yang ada",
+           "; ".join(rusak[:8]))
+    tambah("Struktur HTML", "lolos" if not tag_rusak else "gagal",
+           f"{len(HALAMAN) - len(tag_rusak)}/{len(HALAMAN)} halaman tag-nya seimbang",
+           "; ".join(tag_rusak))
+
+    # 4 · data saling cocok
+    cat = json.loads(baca("data/catalog.json"))
+    stok = json.loads(baca("data/stok-lot.json"))
+    kreatif = json.loads(baca("data/kreatif.json"))
+    divisi = json.loads(baca("data/divisi.json"))
+
+    produk = [p["id"] for p in cat["products"]]
+    status_bukan_tersedia = [f'{p["name"]}={p["status"]}' for p in cat["products"] if p["status"] != "tersedia"]
+    tambah("Stok semua SKU", "lolos" if not status_bukan_tersedia else "peringatan",
+           f'{len(produk) - len(status_bukan_tersedia)}/{len(produk)} SKU berstatus tersedia',
+           ", ".join(status_bukan_tersedia))
+
+    lot_aktif = {l["produk"] for l in stok["lots"] if (l.get("status") or "aktif") == "aktif"}
+    komponen = {"raung", "blue-mount-ijen"}
+    tanpa_lot = [p for p in produk
+                 if p not in lot_aktif and not any(x in baca("data/catalog.json") for x in [])]
+    tanpa_lot = [p for p in tanpa_lot
+                 if next(x for x in cat["products"] if x["id"] == p)["category"] != "Signature Blend"]
+    tambah("Produk ↔ lot", "lolos" if not tanpa_lot else "gagal",
+           f"{len(produk) - len(tanpa_lot)}/{len(produk)} produk punya lot aktif (blend memakai komponen)",
+           ", ".join(tanpa_lot))
+
+    aset_hilang = [i["file"] for i in kreatif["items"]
+                   if not os.path.exists(os.path.join(ROOT, "konten", i["file"]))]
+    aset_hilang += [i["poster"] for i in kreatif["items"]
+                    if not os.path.exists(os.path.join(ROOT, "konten", i["poster"]))]
+    tambah("Manifest ↔ aset", "lolos" if not aset_hilang else "gagal",
+           f'{len(kreatif["items"])} item manifest · {len(aset_hilang)} berkas hilang',
+           ", ".join(aset_hilang[:6]))
+
+    # brief ↔ manifest
+    brief_berkas = []
+    bdir = os.path.join(ROOT, "riset", "brief")
+    if os.path.isdir(bdir):
+        brief_berkas = [f for f in os.listdir(bdir) if f.endswith(".md")]
+    id_aset = {i["id"] for i in kreatif["items"]}
+    brief_menggantung = []
+    for b in brief_berkas:
+        teks = baca(os.path.join("riset", "brief", b))
+        for m in re.finditer(r"`((?:reel|carousel|story|post)-[a-z0-9-]+)`", teks):
+            if m.group(1) not in id_aset:
+                brief_menggantung.append(f"{b}: {m.group(1)}")
+    tambah("Brief ↔ aset", "lolos" if not brief_menggantung else "peringatan",
+           f"{len(brief_berkas)} brief · {len(brief_menggantung)} aset tidak ditemukan",
+           ", ".join(brief_menggantung[:5]))
+
+    # target tiap KPI punya 3 angka
+    target_salah = []
+    for dv in divisi["divisi"]:
+        for k in dv["kpi"]:
+            t = k.get("target")
+            if not (isinstance(t, list) and len(t) == 3):
+                target_salah.append(f'{dv["kode"]}/{k["kunci"]}')
+    n_kpi = sum(len(dv["kpi"]) for dv in divisi["divisi"])
+    tambah("Target divisi", "lolos" if not target_salah else "gagal",
+           f"{n_kpi - len(target_salah)}/{n_kpi} KPI punya target 3 bulan",
+           ", ".join(target_salah))
+
+    # 5 · klaim terlarang — hanya teks yang terlihat pembaca, hanya halaman publik.
+    #     Halaman internal (riset/dashboard/konten) sengaja memuat daftar kata terlarang, jadi dikecualikan.
+    def teks_tampak(html):
+        t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.S | re.I)
+        t = re.sub(r"<[^>]+>", " ", t)
+        t = re.sub(r"&[a-z]+;|&#\d+;", " ", t)
+        return re.sub(r"\s+", " ", t).lower()
+
+    temuan = []
+    for h in HALAMAN_PUBLIK:
+        if not os.path.exists(os.path.join(ROOT, h)):
+            continue
+        teks = teks_tampak(baca(h))
+        for pola, alasan in KLAIM_TERLARANG:
+            m = re.search(pola, teks)
+            if m:
+                konteks = teks[max(0, m.start() - 40):m.end() + 40].strip()
+                temuan.append(f"{h}: …{konteks}… ({alasan})")
+    tambah("Klaim terlarang", "lolos" if not temuan else "gagal",
+           f"{len(temuan)} temuan di {len(HALAMAN_PUBLIK)} halaman publik", "; ".join(temuan[:6]))
+
+    # 6 · ukuran
+    awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \
+        + ukuran("assets/css/motion.css") + ukuran("assets/js/motion.js")
+    konten = ukuran("konten")
+    tambah("Berat halaman awal", "lolos" if awal < 1_500_000 else "gagal",
+           f"{awal/1024:.0f} KB (batas 1.500 KB)")
+    tambah("Berat folder konten", "lolos" if konten < 12_000_000 else "peringatan",
+           f"{konten/1024/1024:.1f} MB (batas 12 MB)")
+
+    return hasil
+
+
+def md(hasil, tgl):
+    gagal = [h for h in hasil if h["status"] == "gagal"]
+    peringatan = [h for h in hasil if h["status"] == "peringatan"]
+    lulus = [h for h in hasil if h["status"] == "lolos"]
+    icon = {"lolos": "✅ lolos", "peringatan": "⚠️ peringatan", "gagal": "❌ gagal"}
+
+    o = [f"""# Laporan periksa — {tgl.isoformat()}
+
+Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
+
+| Ringkasan | Jumlah |
+| --- | --- |
+| Pemeriksaan lolos | **{len(lulus)}** |
+| Peringatan | **{len(peringatan)}** |
+| Gagal (harus diperbaiki) | **{len(gagal)}** |
+
+| Kategori | Status | Hasil | Catatan |
+| --- | --- | --- | --- |
+"""]
+    for h in hasil:
+        o.append(f'| {h["kategori"]} | {icon[h["status"]]} | {h["teks"]} | {h["detail"] or "—"} |\n')
+    o.append("""
+## Yang belum bisa diperiksa mesin
+
+| Hal | Kenapa | Siapa yang memeriksa |
+| --- | --- | --- |
+| Rasa kopi & keputusan batch | butuh manusia mencicipi | D1 |
+| Angka biaya nyata | masih asumsi di `data/biaya.json` | D6 |
+| Izin publikasi nama petani | butuh dokumen tertulis | D7 |
+| Data riset kompetitor | masih baris `contoh` | D3 |
+| Tayang di IG/TikTok/marketplace | tidak ada akses akun | owner |
+
+Laporan ini memeriksa **konsistensi**, bukan kebenaran pasar. Semua lolos berarti
+"sistem tidak bertentangan dengan dirinya sendiri", bukan "bisnis sudah terbukti".
+""")
+    return "".join(o)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--ringkas", action="store_true")
+    args = ap.parse_args()
+
+    catatan = []
+    hasil = periksa(catatan)
+    tgl = hari_ini()
+
+    gagal = [h for h in hasil if h["status"] == "gagal"]
+    peringatan = [h for h in hasil if h["status"] == "peringatan"]
+
+    if not args.ringkas:
+        os.makedirs(OUT, exist_ok=True)
+        with open(os.path.join(OUT, "periksa.md"), "w", encoding="utf-8") as f:
+            f.write(md(hasil, tgl))
+        with open(os.path.join(OUT, "periksa.json"), "w", encoding="utf-8") as f:
+            json.dump({"dibuat": tgl.isoformat(), "hasil": hasil}, f, ensure_ascii=False, indent=2)
+
+    print(f"Periksa situs — {tgl.isoformat()}")
+    for h in hasil:
+        tanda = {"lolos": "OK ", "peringatan": "!! ", "gagal": "XX "}[h["status"]]
+        print(f"  {tanda}{h['kategori']:<22} {h['teks']}"
+              + (f"  → {h['detail'][:70]}" if h["detail"] else ""))
+    print(f"  kesimpulan: {len(hasil)-len(gagal)-len(peringatan)} lolos · "
+          f"{len(peringatan)} peringatan · {len(gagal)} gagal")
+    if not args.ringkas:
+        print("  laporan: laporan/periksa.md")
+    raise SystemExit(1 if gagal else 0)
+
+
+if __name__ == "__main__":
+    main()

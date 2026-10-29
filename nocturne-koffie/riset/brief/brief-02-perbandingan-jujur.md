@@ -1,6 +1,6 @@
 # Brief 02 — Perbandingan jujur
 
-> Dibuat 2026-10-29 oleh `tools/riset.py` dari `data/riset-referensi.csv` dan
+> Dibuat 2026-10-30 oleh `tools/riset.py` dari `data/riset-referensi.csv` dan
 > `data/riset-komentar.csv`. **Status data:** lihat kolom `status` di CSV. Selama barisnya
 > masih `contoh`, angka di brief ini adalah contoh mekanisme — bukan bukti pasar.
 

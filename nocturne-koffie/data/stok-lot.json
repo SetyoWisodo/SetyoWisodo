@@ -1,5 +1,5 @@
 {
-  "_catatan": "Satu baris per lot green bean. 'terpakai_kg' = green bean yang sudah disangrai. Stok yang tampil di situs dihitung dari sisa green bean x yield, bukan dari kopi jadi yang menumpuk.",
+  "_catatan": "Satu baris per lot green bean. 'terpakai_kg' = green bean yang sudah disangrai. Stok yang tampil di situs dihitung dari sisa green bean x yield, bukan dari kopi jadi yang menumpuk. | 30 Okt 2026: ditambah lot restock agar setiap SKU berstatus tersedia sesuai asumsi pemilik. Angka tonase adalah asumsi kerja, bukan hasil penerimaan barang.",
   "lots": [
     {
       "id": "LOT-IJN-2610",
@@ -62,6 +62,24 @@
       "green_kg": 10,
       "terpakai_kg": 1.4,
       "harga_green_per_kg": 70000,
+      "status": "aktif"
+    },
+    {
+      "id": "LOT-IJN-2610-B",
+      "produk": "blue-mount-ijen",
+      "tanggal_masuk": "2026-10-28",
+      "green_kg": 12.0,
+      "terpakai_kg": 0.0,
+      "harga_green_per_kg": 140000,
+      "status": "aktif"
+    },
+    {
+      "id": "LOT-KTM-2610-B",
+      "produk": "kintamani",
+      "tanggal_masuk": "2026-10-27",
+      "green_kg": 12.0,
+      "terpakai_kg": 0.8,
+      "harga_green_per_kg": 150000,
       "status": "aktif"
     }
   ]

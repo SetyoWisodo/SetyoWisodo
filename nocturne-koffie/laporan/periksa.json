@@ -1,0 +1,71 @@
+{
+  "dibuat": "2026-10-30",
+  "hasil": [
+    {
+      "kategori": "Berkas wajib",
+      "status": "lolos",
+      "teks": "31/31 berkas ada",
+      "detail": ""
+    },
+    {
+      "kategori": "Tautan lokal",
+      "status": "lolos",
+      "teks": "87/87 tautan menuju berkas yang ada",
+      "detail": ""
+    },
+    {
+      "kategori": "Struktur HTML",
+      "status": "lolos",
+      "teks": "8/8 halaman tag-nya seimbang",
+      "detail": ""
+    },
+    {
+      "kategori": "Stok semua SKU",
+      "status": "lolos",
+      "teks": "9/9 SKU berstatus tersedia",
+      "detail": ""
+    },
+    {
+      "kategori": "Produk ↔ lot",
+      "status": "lolos",
+      "teks": "9/9 produk punya lot aktif (blend memakai komponen)",
+      "detail": ""
+    },
+    {
+      "kategori": "Manifest ↔ aset",
+      "status": "lolos",
+      "teks": "15 item manifest · 0 berkas hilang",
+      "detail": ""
+    },
+    {
+      "kategori": "Brief ↔ aset",
+      "status": "lolos",
+      "teks": "5 brief · 0 aset tidak ditemukan",
+      "detail": ""
+    },
+    {
+      "kategori": "Target divisi",
+      "status": "lolos",
+      "teks": "29/29 KPI punya target 3 bulan",
+      "detail": ""
+    },
+    {
+      "kategori": "Klaim terlarang",
+      "status": "lolos",
+      "teks": "0 temuan di 4 halaman publik",
+      "detail": ""
+    },
+    {
+      "kategori": "Berat halaman awal",
+      "status": "lolos",
+      "teks": "89 KB (batas 1.500 KB)",
+      "detail": ""
+    },
+    {
+      "kategori": "Berat folder konten",
+      "status": "lolos",
+      "teks": "3.8 MB (batas 12 MB)",
+      "detail": ""
+    }
+  ]
+}

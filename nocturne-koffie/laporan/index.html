@@ -1,0 +1,127 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Laporan otomatis — Nocturne Koffie</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F5EFE4;--paper2:#EFE6D6;--ink:#16110D;--muted:#6b6156;--orange:#E1542B;
+--gold:#D9A441;--espresso:#4A2C1A;--line:1px solid rgba(22,17,13,.14)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 Inter,system-ui,-apple-system,sans-serif}
+.wrap{max-width:1160px;margin:0 auto;padding:34px clamp(16px,4vw,40px) 70px}
+h1{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:clamp(30px,5vw,48px);line-height:.98;
+letter-spacing:-.035em;margin:6px 0 8px;font-weight:800}
+h2{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:clamp(20px,2.4vw,27px);letter-spacing:-.02em;
+margin:40px 0 6px;border-top:2px solid var(--ink);padding-top:13px}
+h3{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:16px;margin:0 0 3px}
+.kicker{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+.lede{max-width:72ch;color:var(--muted);margin:0 0 10px;font-size:14.5px}
+.grid{display:grid;gap:14px}
+.kpi{grid-template-columns:repeat(auto-fit,minmax(160px,1fr));margin-top:18px}
+.kpi div{border:var(--line);border-radius:8px;padding:13px 15px;background:#fff8}
+.kpi span{display:block;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+.kpi b{display:block;font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:25px;letter-spacing:-.02em;
+line-height:1.1;margin:4px 0 1px}
+.kpi em{font-size:11.5px;color:var(--muted);font-style:normal}
+table{width:100%;border-collapse:collapse;font-size:13.2px;margin-top:10px}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid rgba(22,17,13,.12);vertical-align:top}
+th{font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+tr.grup td{background:var(--paper2);font-weight:600;font-size:12px;letter-spacing:.06em}
+.pill{display:inline-block;font-size:10.5px;padding:2px 7px;border-radius:99px;border:1px solid;white-space:nowrap}
+.pill.ok{color:#1f6b3a;border-color:#1f6b3a;background:#e8f2ea}
+.pill.warn{color:#8a5a00;border-color:#b78621;background:#fbf1d9}
+.pill.dim{color:var(--muted);border-color:rgba(22,17,13,.2)}
+.pill.hot{color:#fff;border-color:var(--orange);background:var(--orange)}
+.note{border-left:4px solid var(--gold);background:#fbf1d9;padding:11px 15px;border-radius:4px;
+font-size:13px;margin:16px 0 0}
+.note b{display:block;margin-bottom:2px}
+.aset{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:14px}
+.aset figure{margin:0}
+.aset img{width:100%;display:block;border-radius:5px;border:var(--line);background:var(--ink)}
+.aset figcaption{font-size:11px;color:var(--muted);margin-top:5px;line-height:1.4}
+code{background:var(--paper2);padding:1px 5px;border-radius:3px;font-size:12px}
+footer{margin-top:42px;border-top:2px solid var(--ink);padding-top:13px;font-size:12px;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:space-between}
+a{color:inherit}
+@media print{body{background:#fff}.wrap{padding:0}h2{break-after:avoid}table{break-inside:auto}}
+</style></head><body><div class="wrap">
+<p class="kicker">Dijalankan otomatis · 30 Oktober 2026 · 2026-10-30</p>
+<h1>Laporan otomatis</h1>
+<p class="lede">Semua keluaran dibuat ulang dari berkas data: brand kit, harga grosir, 15 aset konten,
+landing kampanye, dasbor riset, papan harian, lalu diperiksa mesin. Angka di halaman ini bukan hasil
+ketik tangan — kalau salah, sumbernya di <code>data/</code>.</p>
+
+<div class="grid kpi">
+  <div><span>Pemeriksaan</span><b>11/11</b><em>0 peringatan · 0 gagal</em></div>
+  <div><span>SKU tersedia</span><b>9/9</b><em>+ 2 paket</em></div>
+  <div><span>Aset konten</span><b>15</b><em>5 video 9:16</em></div>
+  <div><span>Target tercapai</span><b>13</b><em>14 di bawah · 2 tanpa data</em></div>
+  <div><span>Margin terburuk</span><b>42,4%</b><em>target ≥ 35%</em></div>
+  <div><span>Break-even</span><b>35</b><em>order/bulan</em></div>
+  <div><span>Order tercatat</span><b>3</b><em>minggu terakhir</em></div>
+  <div><span>Brief riset</span><b>5</b><em>dari 27 post referensi</em></div>
+</div>
+
+<h2>1 · Hasil pemeriksaan mesin</h2>
+<p class="lede">Gerbang ini memeriksa konsistensi, bukan kebenaran pasar. Semua lolos berarti
+sistem tidak bertentangan dengan dirinya sendiri.</p>
+<table><thead><tr><th>Pemeriksaan</th><th>Status</th><th>Hasil</th><th>Catatan</th></tr></thead>
+<tbody><tr><td>Berkas wajib</td><td><span class="pill ok">lolos</span></td><td>31/31 berkas ada</td><td class="kicker">—</td></tr><tr><td>Tautan lokal</td><td><span class="pill ok">lolos</span></td><td>87/87 tautan menuju berkas yang ada</td><td class="kicker">—</td></tr><tr><td>Struktur HTML</td><td><span class="pill ok">lolos</span></td><td>8/8 halaman tag-nya seimbang</td><td class="kicker">—</td></tr><tr><td>Stok semua SKU</td><td><span class="pill ok">lolos</span></td><td>9/9 SKU berstatus tersedia</td><td class="kicker">—</td></tr><tr><td>Produk ↔ lot</td><td><span class="pill ok">lolos</span></td><td>9/9 produk punya lot aktif (blend memakai komponen)</td><td class="kicker">—</td></tr><tr><td>Manifest ↔ aset</td><td><span class="pill ok">lolos</span></td><td>15 item manifest · 0 berkas hilang</td><td class="kicker">—</td></tr><tr><td>Brief ↔ aset</td><td><span class="pill ok">lolos</span></td><td>5 brief · 0 aset tidak ditemukan</td><td class="kicker">—</td></tr><tr><td>Target divisi</td><td><span class="pill ok">lolos</span></td><td>29/29 KPI punya target 3 bulan</td><td class="kicker">—</td></tr><tr><td>Klaim terlarang</td><td><span class="pill ok">lolos</span></td><td>0 temuan di 4 halaman publik</td><td class="kicker">—</td></tr><tr><td>Berat halaman awal</td><td><span class="pill ok">lolos</span></td><td>89 KB (batas 1.500 KB)</td><td class="kicker">—</td></tr><tr><td>Berat folder konten</td><td><span class="pill ok">lolos</span></td><td>3.8 MB (batas 12 MB)</td><td class="kicker">—</td></tr></tbody></table>
+
+<h2>2 · Ketersediaan produk</h2>
+<p class="lede">Sesuai arahan pemilik hari ini: <b>semua produk dianggap tersedia</b>. Stok di bawah
+dihitung papan dari lot green bean × yield — bukan diketik. Ganti angka lot saat penerimaan barang nyata.</p>
+<table><thead><tr><th>Produk</th><th>Harga</th><th>Sisa (hitung lot)</th><th>Status situs</th></tr></thead>
+<tbody><tr><td><b>Gayo</b><br><span class="kicker">Single Origin · Arabika Origin · Aceh</span></td><td>100 g Rp45.000 · 250 g Rp99.000 · 500 g Rp180.000 · 1 kg Rp340.000</td><td>7 bungkus 250 g</td><td><span class="pill ok">tersedia</span></td></tr><tr><td><b>Kintamani</b><br><span class="kicker">Single Origin · Arabika Origin · Bali</span></td><td>100 g Rp40.000 · 250 g Rp90.000 · 500 g Rp180.000 · 1 kg Rp352.000</td><td>35 bungkus 250 g</td><td><span class="pill ok">tersedia</span></td></tr><tr><td><b>Blue Mount Ijen</b><br><span class="kicker">Single Origin · Arabika Origin · Banyuwangi</span></td><td>100 g Rp39.000 · 250 g Rp83.000 · 500 g Rp152.000 · 1 kg Rp297.000</td><td>48 bungkus 250 g</td><td><span class="pill ok">tersedia</span></td></tr><tr><td><b>Semeru</b><br><span class="kicker">Single Origin · Arabika Origin · Malang</span></td><td>100 g Rp36.000 · 250 g Rp86.000 · 500 g Rp149.000 · 1 kg Rp287.000</td><td>14 bungkus 250 g</td><td><span class="pill ok">tersedia</span></td></tr><tr><td><b>Arjuno</b><br><span class="kicker">Single Origin · Robusta Origin · Malang</span></td><td>100 g Rp25.000 · 250 g Rp42.000 · 500 g Rp78.000 · 1 kg Rp148.000</td><td>32 bungkus 250 g</td><td><span class="pill ok">tersedia</span></td></tr><tr><td><b>Raung</b><br><span class="kicker">Single Origin · Robusta Origin · Banyuwangi</span></td><td>100 g Rp23.000 · 250 g Rp46.000 · 500 g Rp80.000 · 1 kg Rp152.000</td><td>44 bungkus 250 g</td><td><span class="pill ok">tersedia</span></td></tr><tr><td><b>Ijen Excelsa</b><br><span class="kicker">Single Origin · Excelsa Origin · Banyuwangi</span></td><td>100 g Rp26.000 · 250 g Rp53.000 · 500 g Rp97.000 · 1 kg Rp185.000</td><td>27 bungkus 250 g</td><td><span class="pill ok">tersedia</span></td></tr><tr><td><b>Blend 70/30</b><br><span class="kicker">Signature Blend · Signature Blend · Raung × Ijen</span></td><td>100 g Rp30.000 · 250 g Rp55.000 · 500 g Rp90.000 · 1 kg Rp170.000</td><td>64 bungkus 250 g</td><td><span class="pill ok">tersedia</span></td></tr><tr><td><b>Blend 60/40</b><br><span class="kicker">Signature Blend · Signature Blend · Raung × Ijen</span></td><td>100 g Rp33.000 · 250 g Rp57.000 · 500 g Rp105.000 · 1 kg Rp195.000</td><td>74 bungkus 250 g</td><td><span class="pill ok">tersedia</span></td></tr><tr><td><b>Peta Rasa</b><br><span class="kicker">Paket · 3 × 100 g</span></td><td>Rp79.000</td><td>paket (dari komponen)</td><td><span class="pill ok">tersedia</span></td></tr><tr><td><b>Jelajah Arabika</b><br><span class="kicker">Paket · 3 × 100 g</span></td><td>Rp109.000</td><td>paket (dari komponen)</td><td><span class="pill ok">tersedia</span></td></tr></tbody></table>
+
+<h2>3 · Target divisi (Nov 2026)</h2>
+<p class="lede">Target dari <code>data/divisi.json</code>, aktual dihitung dari berkas transaksi.
+Bulan berjalan baru dimulai — "di bawah" pada awal bulan itu normal.</p>
+<table><thead><tr><th>Ukuran</th><th class="num">Target</th><th class="num">Aktual</th><th>Satuan</th><th>Status</th></tr></thead>
+<tbody><tr class="grup"><td colspan="5">D1 · Produksi & QC</td></tr><tr><td>Batch tercatat</td><td class="num">↑ 4</td><td class="num">4</td><td>batch</td><td><span class="pill ok">tercapai</span></td></tr><tr><td>Batch ditolak</td><td class="num">↓ 15</td><td class="num">25</td><td>%</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Skor cupping rata-rata</td><td class="num">↑ 84</td><td class="num">84,1</td><td>poin</td><td><span class="pill ok">tercapai</span></td></tr><tr><td>Selisih status stok situs</td><td class="num">↓ 0</td><td class="num">0</td><td>SKU</td><td><span class="pill ok">tercapai</span></td></tr><tr class="grup"><td colspan="5">D2 · Penjualan & CRM</td></tr><tr><td>Order retail</td><td class="num">↑ 25</td><td class="num">3</td><td>order</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Nilai order rata-rata</td><td class="num">↑ Rp130.000</td><td class="num">Rp132.333</td><td>Rp</td><td><span class="pill ok">tercapai</span></td></tr><tr><td>Langganan aktif</td><td class="num">↑ 3</td><td class="num">0</td><td>akun</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Akun B2B aktif</td><td class="num">↑ 1</td><td class="num">0</td><td>akun</td><td><span class="pill warn">di bawah</span></td></tr><tr class="grup"><td colspan="5">D3 · Marketing & Pertumbuhan</td></tr><tr><td>Konten terbit</td><td class="num">↑ 16</td><td class="num">0</td><td>post</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Konten terlambat</td><td class="num">↓ 0</td><td class="num">0</td><td>post</td><td><span class="pill ok">tercapai</span></td></tr><tr><td>Chat masuk</td><td class="num">↑ 40</td><td class="num">11</td><td>chat</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Followers IG</td><td class="num">↑ 300</td><td class="num">187</td><td>akun</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Referensi kompetitor dianalisis</td><td class="num">↑ 20</td><td class="num">0</td><td>post</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Kata kunci terpetakan</td><td class="num">↑ 12</td><td class="num">12</td><td>frasa</td><td><span class="pill ok">tercapai</span></td></tr><tr class="grup"><td colspan="5">D4 · Kreatif & Media</td></tr><tr><td>Video jadi</td><td class="num">↑ 8</td><td class="num">5</td><td>video</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Carousel jadi</td><td class="num">↑ 4</td><td class="num">7</td><td>set</td><td><span class="pill ok">tercapai</span></td></tr><tr><td>Aset siap tayang</td><td class="num">↑ 12</td><td class="num">15</td><td>aset</td><td><span class="pill ok">tercapai</span></td></tr><tr><td>Klip mentah minggu ini</td><td class="num">↑ 30</td><td class="num">—</td><td>klip</td><td><span class="pill dim">tanpa data</span></td></tr><tr><td>Brief dari riset</td><td class="num">↑ 4</td><td class="num">5</td><td>brief</td><td><span class="pill ok">tercapai</span></td></tr><tr class="grup"><td colspan="5">D5 · Operasional & Logistik</td></tr><tr><td>Order perlu diproses</td><td class="num">↓ 0</td><td class="num">2</td><td>order</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Resi belum dikirim</td><td class="num">↓ 0</td><td class="num">2</td><td>order</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Order telat > 1 hari</td><td class="num">↓ 2</td><td class="num">2</td><td>order</td><td><span class="pill ok">tercapai</span></td></tr><tr class="grup"><td colspan="5">D6 · Keuangan</td></tr><tr><td>Omzet retail</td><td class="num">↑ 3,2 jt</td><td class="num">Rp397.000</td><td>Rp</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Margin terburuk</td><td class="num">↑ 35</td><td class="num">42,4</td><td>%</td><td><span class="pill ok">tercapai</span></td></tr><tr><td>Break-even</td><td class="num">↓ 35</td><td class="num">35</td><td>order/bulan</td><td><span class="pill ok">tercapai</span></td></tr><tr><td>Biaya tetap</td><td class="num">↓ 1,3 jt</td><td class="num">1,3 jt</td><td>Rp/bulan</td><td><span class="pill ok">tercapai</span></td></tr><tr class="grup"><td colspan="5">D7 · Brand & Legal</td></tr><tr><td>Dokumen legal selesai</td><td class="num">↑ 5</td><td class="num">1</td><td>dokumen</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Dokumen tertunda</td><td class="num">↓ 3</td><td class="num">8</td><td>dokumen</td><td><span class="pill warn">di bawah</span></td></tr><tr><td>Klaim melanggar</td><td class="num">↓ 0</td><td class="num">—</td><td>temuan</td><td><span class="pill dim">tanpa data</span></td></tr></tbody></table>
+
+<h2>4 · Aset konten siap tayang</h2>
+<p class="lede">Dirender dari label produk + data batch. Ini grafik &amp; teks, bukan footage sangrai —
+footage asli selalu menang bila tersedia.</p>
+<div class="grid aset"><figure><img src="../konten/reel-01-poster.jpg" alt="12 menit terakhir sebelum kopi dikemas" loading="lazy"><figcaption>12 menit terakhir sebelum kopi dikemas<br><span class="kicker">9:16 · 3 Nov 2026</span></figcaption></figure><figure><img src="../konten/reel-02-poster.jpg" alt="Tanggal sangrai, bukan tanggal kedaluwarsa" loading="lazy"><figcaption>Tanggal sangrai, bukan tanggal kedaluwarsa<br><span class="kicker">9:16 · 4 Nov 2026</span></figcaption></figure><figure><img src="../konten/reel-03-poster.jpg" alt="Suara first crack" loading="lazy"><figcaption>Suara first crack<br><span class="kicker">9:16 · 5 Nov 2026</span></figcaption></figure><figure><img src="../konten/reel-04-poster.jpg" alt="Minggu ini satu batch tidak lolos" loading="lazy"><figcaption>Minggu ini satu batch tidak lolos<br><span class="kicker">9:16 · 7 Nov 2026</span></figcaption></figure><figure><img src="../konten/reel-05-poster.jpg" alt="Order hari ini, dikirim hari ini" loading="lazy"><figcaption>Order hari ini, dikirim hari ini<br><span class="kicker">9:16 · 13 Nov 2026</span></figcaption></figure></div>
+
+<h2>5 · Riset konten &amp; kata kunci</h2>
+<table><tbody>
+<tr><td><b>Outlier teratas</b></td><td>Kopi Rp50 ribu vs Rp150 ribu — bedanya di mana?</td>
+<td class="num">2.9×</td></tr>
+<tr><td><b>Pola dominan</b></td><td>Diagnosis masalah → sudut: Diagnosis masalah</td>
+<td class="num">1 post</td></tr>
+<tr><td><b>Komentar dianalisis</b></td><td>12 kutipan (≤ 24 kata, tanpa identitas)</td>
+<td class="num">pertanyaan</td></tr>
+<tr><td><b>Kata kunci</b></td><td>12 frasa · dijawab halaman
+58% · 5 celah</td>
+<td class="num">confidence belum ada data asli</td></tr>
+</tbody></table>
+
+<div class="note"><b>Yang masih asumsi — jangan dibaca sebagai fakta</b>
+Biaya di <code>data/biaya.json</code> masih asumsi (mempengaruhi HPP, margin, break-even) ·
+tonase lot ditambah hari ini atas arahan "semua tersedia", bukan hasil penerimaan barang ·
+27 baris riset masih berlabel <code>contoh</code> ·
+8 dokumen legal belum selesai · belum ada unggahan ke IG/TikTok/marketplace dari sistem ini.</div>
+
+<h2>6 · Halaman lain</h2>
+<table><tbody>
+<tr><td><a href="../index.html">Situs</a></td><td>katalog 9 SKU + 2 paket, semua tersedia</td></tr>
+<tr><td><a href="../dashboard/index.html">Papan harian</a></td><td>peringatan, target divisi, stok, margin, QC, riset</td></tr>
+<tr><td><a href="../kampanye/index.html">Landing kampanye</a></td><td>konten kreator + UTM WhatsApp</td></tr>
+<tr><td><a href="../konten/index.html">Hub konten</a></td><td>15 aset + caption siap salin</td></tr>
+<tr><td><a href="../riset/index.html">Dasbor riset</a></td><td>outlier, pola, komentar, kata kunci, brief</td></tr>
+<tr><td><a href="../brand/index.html">Brand kit</a></td><td>9 label 70×100 mm, lembar A4, logo, OG card</td></tr>
+<tr><td><a href="../komersial/penawaran-b2b.html">Penawaran B2B</a></td><td>4 tier harga grosir + alur kerja</td></tr>
+<tr><td><a href="periksa.md">Laporan periksa (markdown)</a></td><td>versi teks untuk dibaca cepat</td></tr>
+</tbody></table>
+
+<footer>
+  <span>Dibuat <code>tools/laporan.py</code> · sumber: <code>laporan/periksa.json</code>,
+    <code>dashboard/data.json</code>, <code>data/catalog.json</code>,
+    <code>data/kreatif.json</code>, <code>riset/data.json</code></span>
+  <span>Semua grafik lokal · tanpa CDN aset · halaman <code>noindex</code></span>
+</footer></div></body></html>

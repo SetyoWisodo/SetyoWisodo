@@ -1,6 +1,6 @@
 # Swipe file — referensi konten & kata kunci
 
-> Dibuat 2026-10-29 oleh `tools/riset.py`. 0 baris asli, 27 baris contoh.
+> Dibuat 2026-10-30 oleh `tools/riset.py`. 0 baris asli, 27 baris contoh.
 > Confidence: **belum ada data asli** (27 post). Sampel kecil = arah, bukan kepastian.
 
 ## Post outlier

@@ -32,6 +32,9 @@ nocturne-koffie/
 ├── tools/kreatif.py              generator video 9:16, carousel, story, hub konten
 ├── tools/kampanye.py             generator landing page kampanye
 ├── tools/riset.py                analisis konten ramai, komentar, kata kunci → brief
+├── tools/periksa.py              gerbang QA: 11 pemeriksaan konsistensi → laporan/periksa.md
+├── tools/laporan.py              satu halaman ringkasan → laporan/index.html
+├── tools/jalankan.py             jalankan seluruh pipeline berurutan (~96 detik)
 ├── dashboard/index.html          papan harian hasil generate (jangan diedit manual)
 ├── panduan/PANDUAN-LANDING-PAGE.md
 ├── panduan/07-sistem-motion.md
@@ -52,6 +55,10 @@ python3 tools/kreatif.py --cepat    # hanya gambar (tanpa encode video)
 python3 tools/kampanye.py          # buat ulang landing kampanye dari katalog + manifest
 python3 tools/riset.py             # analisis riset → riset/index.html + swipe file + brief
 python3 tools/riset.py --cek       # ringkasan riset tanpa menulis berkas
+
+python3 tools/jalankan.py          # ← SEMUA langkah di atas, berurutan, + periksa + laporan
+python3 tools/jalankan.py --cepat  # lewati encode video (lebih cepat ~15 detik)
+python3 tools/periksa.py           # gerbang QA saja (exit 1 bila ada temuan kritis)
 ```
 
 `tools/kreatif.py` butuh ffmpeg. Di sandbox: `pip install --break-system-packages imageio-ffmpeg`
@@ -61,6 +68,7 @@ dan itu dilaporkan di keluaran terminal serta di `data/kreatif.json` → `video_
 Halaman yang perlu dibuka: `/` (situs) · `/dashboard/` (papan harian) ·
 `/kampanye/` (landing kampanye konten) · `/konten/` (hub aset, `noindex`) ·
 `/riset/` (dasbor riset konten & kata kunci, `noindex`) ·
+`/laporan/` (ringkasan otomatis + hasil pemeriksaan, `noindex`) ·
 `/brand/` (brand kit) · `/komersial/penawaran-b2b.html` (proposal B2B).
 
 Harus lewat server — katalog dimuat dengan `fetch`, dan `file://` akan diblokir browser.
@@ -106,6 +114,10 @@ Tanpa dependensi, tanpa server tambahan.
 | `data/riset-referensi.csv` | tangkapan post sejenis (hook, format, metrik) — `status` contoh/asli | D3 |
 | `data/riset-komentar.csv` | kutipan komentar pembeli → keberatan & FAQ | D3 |
 | `data/riset-kata-kunci.csv` | kata kunci Google/marketplace/TikTok + halaman target | D3 |
+
+Semua 9 SKU + 2 paket diset **tersedia** atas arahan pemilik (30 Okt 2026) sebagai asumsi kerja;
+lot restock ditambahkan di `data/stok-lot.json`. Ganti angka lot saat penerimaan barang nyata —
+papan akan menandai selisih status tanpa perlu mengubah kode.
 
 Yang dihitung otomatis: margin tiap ukuran, HPP, break-even, sisa bungkus per SKU
 (dari green bean × yield; blend dari komponennya), order terlambat, resi kosong,
