@@ -35,6 +35,7 @@ memanggil skill yang tepat.
 | Status & gate | `bash .agents/skills/rea-workflow/scripts/session.sh status` |
 | Cari tool open-source | `python3 .agents/skills/find-reverse-engineered/scripts/re_index.py search <kata>` |
 | Pilih tool untuk target | `bash .agents/skills/rea-workflow/scripts/session.sh tools --stage 4` |
+| Cek batas nyata lingkungan | `.agents/skills/rea-workflow/references/capability-matrix.md` |
 
 ## Indeks & provenance
 
