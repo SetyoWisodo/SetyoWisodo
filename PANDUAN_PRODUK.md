@@ -341,7 +341,19 @@ Kalau bagian *Bio* dibiarkan kosong, halaman profil hanya menampilkan nama dan k
 **Mengapa sepuluh tag ini.** Pencarian Discover mencocokkan **semua** kata yang diketik pembeli, dan kata itu boleh berasal dari nama, nama penulis, deskripsi, **atau** tag — bobotnya sama. Artinya tag adalah satu-satunya cara menjangkau kata yang tidak ada di judul dan deskripsi. Deskripsi produk ini memuat *resilience*, *future*, *book*, *climate*, *crisis*; ia **tidak** memuat *sustainability*, *environment*, *science*, *nonfiction*, *ebook*, *disaster*, *Indonesia*. Enam tag terakhir karena itu bukan hiasan: tanpa mereka, pencarian "sustainability" tidak akan pernah memunculkan buku ini.
 
 Batasnya 10 tag, 2–20 karakter. **Pakai spasi, jangan tanda hubung** — filter Discover di Gumroad mengubah tanda hubung pada URL menjadi spasi, sehingga tag `climate-change` tidak akan pernah bisa dipilih sebagai filter.
-Discover menahan biaya 30% **hanya** untuk penjualan yang datang lewat Discover; penjualan dari tautan Anda sendiri tetap 10% + biaya proses. Kategori dan tag hanya membuka pintunya — produk baru benar-benar tampil di Discover setelah ada satu penjualan berbayar dan Risk Review selesai. Uji beli 100% tidak dihitung sebagai penjualan berbayar.
+Discover menahan biaya 30% **hanya** untuk penjualan yang datang lewat Discover; penjualan dari tautan Anda sendiri tetap 10% + biaya proses.
+
+### Kenapa buku belum muncul di Discover
+
+Mencari judulnya dari akun lain dan mendapat **"No products found"** adalah hasil yang benar untuk produk baru — bukan tanda ada yang salah isi. Discover punya pintu berlapis: produk harus hidup, tidak diarsipkan, toggle rating menyala, kategori terisi, nama akun terisi, metode payout terpasang, akun lolos pemeriksaan, **dan sudah ada minimal satu penjualan berbayar**. Gumroad juga menjalankan *Risk Review* manual.
+
+Uji beli 100% **tidak** dihitung sebagai penjualan berbayar. Jadi sampai ada orang pertama yang benar-benar membayar $45, produk ini tidak akan muncul di pencarian Discover siapa pun, termasuk milik Anda sendiri.
+
+Dua hal lagi yang membuat pencarian di layar Discover sering kosong:
+- Chip subkategori yang aktif (mis. **Medicine**) mempersempit hasil. Klik chip itu untuk melepasnya sebelum menyimpulkan apa pun.
+- Peringkat Discover diurutkan dari **biaya yang didapat Gumroad** dalam tiga bulan terakhir, bukan dari jumlah penjualan. Produk baru tanpa riwayat akan berada di dasar — bahkan judul yang persis sama pun sulit muncul.
+
+Kesimpulan praktis: **jangan menunggu Discover.** Trafik awal datang dari tautan yang Anda sebar sendiri (`gumroad.com/l/surviving-the-future`) dan dari halaman profil. Discover adalah bonus yang mungkin terbuka setelah penjualan berbayar pertama.
 
 Klik **Save changes** setelah empat bagian itu beres.
 
