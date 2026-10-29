@@ -1,0 +1,122 @@
+{
+  "brand": {
+    "name": "Nocturne Koffie",
+    "tagline": "Coffee for the hours after dark.",
+    "city": "Banyuwangi, Jawa Timur",
+    "whatsapp": "62812XXXXXXXX",
+    "instagram": "https://instagram.com/nocturnekoffie",
+    "tokopedia": "",
+    "shopee": "",
+    "tiktok": "",
+    "email": "halo@nocturnekoffie.id"
+  },
+  "products": [
+    {
+      "id": "midnight-espresso",
+      "name": "Midnight Espresso",
+      "category": "espresso",
+      "roast": "Dark",
+      "origin": "Blend Arabika Ijen + Robusta",
+      "notes": ["Cokelat hitam", "Gula aren", "Kacang panggang"],
+      "desc": "Blend pekat untuk espresso dan kopi susu. Body tebal, tidak tenggelam oleh susu, setelah-rasa manis seperti gula aren.",
+      "badge": "Terlaris",
+      "img": "assets/img/product-beans.jpg",
+      "variants": [
+        { "weight": "250 g", "price": 85000, "sku": "NK-ME-250" },
+        { "weight": "500 g", "price": 155000, "sku": "NK-ME-500" },
+        { "weight": "1 kg", "price": 290000, "sku": "NK-ME-1K" }
+      ],
+      "grind": ["Biji utuh", "Espresso", "Moka pot", "V60 / Filter", "Tubruk"]
+    },
+    {
+      "id": "nocturne-house",
+      "name": "Nocturne House",
+      "category": "espresso",
+      "roast": "Medium-Dark",
+      "origin": "House blend 100% Arabika",
+      "notes": ["Karamel", "Almond", "Jeruk manis"],
+      "desc": "Blend rumahan yang paling aman untuk semua metode. Manis, bersih, dan konsisten dari batch ke batch.",
+      "badge": "Best value",
+      "img": "assets/img/product-beans.jpg",
+      "variants": [
+        { "weight": "250 g", "price": 80000, "sku": "NK-NH-250" },
+        { "weight": "500 g", "price": 148000, "sku": "NK-NH-500" },
+        { "weight": "1 kg", "price": 275000, "sku": "NK-NH-1K" }
+      ],
+      "grind": ["Biji utuh", "Espresso", "Moka pot", "V60 / Filter", "Tubruk"]
+    },
+    {
+      "id": "dawn-filter",
+      "name": "Dawn Filter",
+      "category": "filter",
+      "roast": "Medium",
+      "origin": "Single origin Arabika Java Ijen",
+      "notes": ["Teh hitam", "Madu", "Kayu manis"],
+      "desc": "Untuk V60 dan tubruk. Bersih dengan keasaman rendah, cocok untuk yang baru pindah dari kopi sachet.",
+      "badge": "Single origin",
+      "img": "assets/img/product-beans.jpg",
+      "variants": [
+        { "weight": "250 g", "price": 95000, "sku": "NK-DF-250" },
+        { "weight": "500 g", "price": 175000, "sku": "NK-DF-500" },
+        { "weight": "1 kg", "price": 330000, "sku": "NK-DF-1K" }
+      ],
+      "grind": ["Biji utuh", "V60 / Filter", "Tubruk", "Cold brew"]
+    },
+    {
+      "id": "blue-hour",
+      "name": "Blue Hour",
+      "category": "filter",
+      "roast": "Light",
+      "origin": "Single origin natural process",
+      "notes": ["Berry", "Anggur", "Cokelat susu"],
+      "desc": "Lot kecil, proses natural. Buahnya jelas, manis, dan berubah setelah 10 hari dari tanggal roasting.",
+      "badge": "Lot terbatas",
+      "img": "assets/img/product-beans.jpg",
+      "variants": [
+        { "weight": "250 g", "price": 105000, "sku": "NK-BH-250" },
+        { "weight": "500 g", "price": 195000, "sku": "NK-BH-500" }
+      ],
+      "grind": ["Biji utuh", "V60 / Filter", "Cold brew"]
+    },
+    {
+      "id": "decaf-lull",
+      "name": "Decaf Lull",
+      "category": "decaf",
+      "roast": "Medium",
+      "origin": "Decaf sugarcane process",
+      "notes": ["Karamel", "Hazelnut", "Kismis"],
+      "desc": "Tanpa kafein, tanpa rasa kosong. Untuk shift malam, ibu menyusui, atau siapa pun yang ingin kopi pukul 10 malam.",
+      "badge": "Tanpa kafein",
+      "img": "assets/img/product-beans.jpg",
+      "variants": [
+        { "weight": "250 g", "price": 100000, "sku": "NK-DL-250" },
+        { "weight": "500 g", "price": 185000, "sku": "NK-DL-500" }
+      ],
+      "grind": ["Biji utuh", "Espresso", "V60 / Filter", "Tubruk"]
+    },
+    {
+      "id": "night-drip",
+      "name": "Night Drip",
+      "category": "bundle",
+      "roast": "Medium",
+      "origin": "Drip bag isi 10",
+      "notes": ["Cokelat", "Jeruk", "Manis"],
+      "desc": "10 drip bag sekali pakai untuk kantor, hotel, dan hampers. Cukup tuang air panas, tanpa alat apa pun.",
+      "badge": "Cocok untuk hadiah",
+      "img": "assets/img/product-beans.jpg",
+      "variants": [
+        { "weight": "10 sachet", "price": 65000, "sku": "NK-ND-10" },
+        { "weight": "30 sachet", "price": 180000, "sku": "NK-ND-30" }
+      ],
+      "grind": ["Drip bag (sudah digiling)"]
+    }
+  ],
+  "subscription": {
+    "name": "Langganan Bulanan",
+    "options": [
+      { "label": "250 g × 2 per bulan", "price": 155000, "save": "hemat 5%" },
+      { "label": "500 g × 2 per bulan", "price": 290000, "save": "hemat 7%" },
+      { "label": "1 kg per bulan (untuk kantor)", "price": 265000, "save": "hemat 9%" }
+    ]
+  }
+}
