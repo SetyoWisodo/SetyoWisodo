@@ -19,6 +19,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="assets/css/site.css" />
+<link rel="stylesheet" href="assets/css/motion.css" />
+<script>
+  /* Set kelas gerak sebelum paint supaya tidak ada kedipan konten. */
+  (function () {
+    var d = document.documentElement;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('no-motion');
+    else d.classList.add('motion');
+    /* jaring aman: kalau motion.js gagal dimuat, konten tidak boleh tetap tersembunyi */
+    setTimeout(function () {
+      if (!d.classList.contains('motion-ready')) d.classList.remove('motion');
+    }, 2500);
+  })();
+</script>
 </head>
 <body>
 
@@ -86,8 +99,8 @@
   <section class="hero" aria-labelledby="hero-title">
     <div class="wrap hero__top">
       <h1 class="hero__title" id="hero-title">
-        <span>Kopi dari petani.</span>
-        <span>Diseduh untukmu.</span>
+        <span class="lm"><span>Kopi dari petani.</span></span>
+        <span class="lm"><span>Diseduh untukmu.</span></span>
       </h1>
       <p class="hero__intro" data-brand="intro">
         Setiap kemasan menyebut nama petani, desa, dan ketinggian kebunnya.
@@ -119,9 +132,9 @@
   <!-- ── 5 · OUR COLLECTION ────────────────────────────────────── -->
   <section class="collection" id="koleksi" aria-labelledby="koleksi-title">
     <div class="wrap collection__head">
-      <p class="kicker"><span class="dot" aria-hidden="true"></span> Sembilan kopi · uji coba</p>
-      <h2 class="h2" id="koleksi-title">Our Collection</h2>
-      <p class="lede">
+      <p class="kicker" data-parallax="0.05"><span class="dot" aria-hidden="true"></span> Sembilan kopi · uji coba</p>
+      <h2 class="h2" data-rv id="koleksi-title">Our Collection</h2>
+      <p class="lede" data-rv data-rv-delay="80ms">
         Semua detail terbuka: nama petani, daerah tanam, ketinggian, varietas,
         proses, dan harga per ukuran. Tingkat sangrai kami tentukan per biji —
         titik di mana rasanya paling utuh.
@@ -205,7 +218,7 @@
     <div class="wrap subs__grid">
       <div class="subs__head">
         <p class="kicker kicker--light"><span class="dot" aria-hidden="true"></span> Langganan</p>
-        <h2 class="h2 h2--light" id="langganan-title">Kopimu habis,<br />kami ingat.</h2>
+        <h2 class="h2 h2--light" data-rv id="langganan-title">Kopimu habis,<br />kami ingat.</h2>
         <p class="lede lede--light">
           Pilih paket, sisanya kami urus. Setiap siklus dikirim tepat setelah
           sangrai mingguan, dan kamu boleh ganti kopi kapan saja.
@@ -221,7 +234,7 @@
   <section class="manifesto" id="manifesto" aria-labelledby="manifesto-title">
     <div class="wrap manifesto__in">
       <p class="kicker"><span class="dot" aria-hidden="true"></span> Manifesto</p>
-      <h2 class="h2" id="manifesto-title">Kami tidak memutar drumnya.<br />Kami memutuskan apakah layak dikirim.</h2>
+      <h2 class="h2" data-rv id="manifesto-title">Kami tidak memutar drumnya.<br />Kami memutuskan apakah layak dikirim.</h2>
 
       <div class="manifesto__cols">
         <div class="manifesto__quote">
@@ -271,7 +284,7 @@
     <div class="wrap member__in">
       <div>
         <p class="kicker"><span class="dot" aria-hidden="true"></span> Member</p>
-        <h2 class="h2" id="member-title">Nocturne Circle</h2>
+        <h2 class="h2" data-rv id="member-title">Nocturne Circle</h2>
         <p class="lede">Harga lebih baik untuk yang kembali lagi. Daftar sekali, dapat kode membermu.</p>
         <p class="micro" id="member-note">Tingkat dan besaran diskon menunggu keputusan pemilik.</p>
       </div>
@@ -286,7 +299,7 @@
   <!-- ── 9 · PENUTUP / WA ─────────────────────────────────────── -->
   <section class="closing" aria-labelledby="closing-title">
     <div class="wrap closing__in">
-      <h2 class="closing__title" id="closing-title">Mau kopi yang<br />bisa kamu lacak?</h2>
+      <h2 class="closing__title" data-rv id="closing-title">Mau kopi yang<br />bisa kamu lacak?</h2>
       <div class="closing__right">
         <p class="lede">Sebutkan cara seduhmu, kami bantu pilihkan biji, ukuran, dan gilingannya. Dibalas manusia, bukan bot.</p>
         <a class="btn btn--orange btn--lg" href="#" data-wa="closing">Pesan via WhatsApp</a>
@@ -365,5 +378,6 @@
 </script>
 
 <script src="assets/js/site.js" defer></script>
+<script src="assets/js/motion.js" defer></script>
 </body>
 </html>

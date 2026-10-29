@@ -1,0 +1,231 @@
+/* ============================================================
+   Nocturne — motion layer (v1)
+   Prinsip yang dipakai (diturunkan dari 5 skill motion teratas):
+   1. Animasikan transform & opacity saja — tidak pernah layout.
+   2. Satu ease keluarga: expo-out untuk masuk, in-out untuk state.
+   3. Stagger 60–90 ms, durasi 480–900 ms. Lebih dari itu terasa lambat.
+   4. Setiap animasi punya alasan (menuntun mata), bukan hiasan.
+   5. prefers-reduced-motion = semua statis, konten tetap terbaca.
+   ============================================================ */
+
+:root{
+  --ease-out:cubic-bezier(.16,1,.3,1);      /* expo out  — untuk masuk */
+  --ease-in-out:cubic-bezier(.65,0,.35,1);  /* state change */
+  --ease-spring:cubic-bezier(.34,1.56,.64,1);
+  --d-fast:240ms;
+  --d-mid:620ms;
+  --d-slow:900ms;
+  --d-intro:1100ms;
+}
+
+/* hanya aktif kalau JS hidup — tanpa JS semua konten terlihat normal */
+html.motion .rv{
+  opacity:0;
+  transform:translate3d(0,26px,0);
+  transition:opacity var(--d-mid) var(--ease-out),transform var(--d-mid) var(--ease-out);
+  transition-delay:var(--rv-delay,0ms);
+  will-change:opacity,transform;
+}
+html.motion .rv.is-in{opacity:1;transform:none;will-change:auto}
+
+/* varian: hanya opacity (untuk elemen yang sudah punya transform lain) */
+html.motion .rv-fade{opacity:0;transition:opacity var(--d-mid) var(--ease-out);transition-delay:var(--rv-delay,0ms)}
+html.motion .rv-fade.is-in{opacity:1}
+
+/* ── bar kemajuan gulir ─────────────────────────────────── */
+.scrollbar{
+  position:fixed;top:0;left:0;right:0;height:2px;z-index:200;
+  background:transparent;pointer-events:none;
+}
+.scrollbar i{
+  display:block;height:100%;width:100%;
+  background:linear-gradient(90deg,var(--orange),var(--gold));
+  transform:scaleX(0);transform-origin:0 50%;
+  will-change:transform;
+}
+
+/* ── intro: navbar, headline, kartu ─────────────────────── */
+html.motion .nav{animation:navIn var(--d-mid) var(--ease-out) backwards}
+@keyframes navIn{from{opacity:0;transform:translate3d(0,-12px,0)}to{opacity:1;transform:none}}
+
+html.motion .promobar{animation:navIn var(--d-mid) var(--ease-out) both}
+
+/* baris headline dengan topeng */
+.lm{display:block;overflow:hidden;padding-bottom:.06em}
+.lm > span{display:block;will-change:transform}
+html.motion .lm > span{transform:translate3d(0,108%,0);animation:lineUp var(--d-slow) var(--ease-out) both}
+html.motion .lm:nth-child(1) > span{animation-delay:120ms}
+html.motion .lm:nth-child(2) > span{animation-delay:220ms}
+@keyframes lineUp{to{transform:none}}
+
+html.motion .hero__intro{animation:fadeUp var(--d-slow) var(--ease-out) 380ms backwards}
+@keyframes fadeUp{from{opacity:0;transform:translate3d(0,18px,0)}to{opacity:1;transform:none}}
+
+html.motion .marquee{animation:fadeUp var(--d-slow) var(--ease-out) 460ms backwards}
+
+/* ── gambar produk: reveal topeng + skala ───────────────── */
+html.motion .card .card__media{clip-path:inset(12% 0 12% 0);transition:clip-path var(--d-slow) var(--ease-out)}
+html.motion .card .card__media img{transform:scale(1.06);transition:transform 1.1s var(--ease-out)}
+html.motion .card.is-in .card__media{clip-path:inset(0 0 0 0)}
+html.motion .card.is-in .card__media img{transform:scale(1)}
+.card:hover .card__media img{transform:scale(1.04)!important}
+
+/* ── kartu hero: muncul bergilir saat load ──────────────── */
+html.motion .hcard{
+  opacity:0;
+  animation:cardIn var(--d-slow) var(--ease-out) both;
+  animation-delay:calc(520ms + var(--i,0) * 55ms);
+}
+@keyframes cardIn{
+  from{opacity:0;transform:translate3d(0,34px,0) scale(.97)}
+  to{opacity:1;transform:none}
+}
+
+/* ── tilt 3D pada kartu produk ─────────────────────────── */
+.tilt{transform-style:preserve-3d}
+.tilt__inner{
+  transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateZ(0);
+  transition:transform 420ms var(--ease-out);
+  will-change:transform;
+}
+@media (hover:none){.tilt__inner{transform:none!important}}
+
+/* ── tombol magnetik ────────────────────────────────────── */
+.mag{transform:translate3d(var(--mx,0px),var(--my,0px),0);transition:transform 260ms var(--ease-out)}
+.mag:active{transform:translate3d(var(--mx,0px),var(--my,0px),0) scale(.98)}
+
+/* ── glow kursor di hero ────────────────────────────────── */
+.cursor-glow{
+  position:fixed;top:0;left:0;width:520px;height:520px;
+  margin:-260px 0 0 -260px;border-radius:50%;
+  pointer-events:none;z-index:5;
+  background:radial-gradient(circle,rgba(225,84,43,.16),rgba(217,164,65,.07) 42%,transparent 68%);
+  filter:blur(10px);
+  opacity:0;transition:opacity 400ms ease;
+  will-change:transform;
+}
+.cursor-glow.is-on{opacity:1}
+@media (hover:none),(prefers-reduced-motion:reduce){.cursor-glow{display:none}}
+
+/* ── rail item: geser masuk bergilir ───────────────────── */
+html.motion .rail__list li{opacity:0;transform:translate3d(0,10px,0);transition:opacity 480ms var(--ease-out),transform 480ms var(--ease-out)}
+html.motion .rail.is-in .rail__list li{opacity:1;transform:none}
+html.motion .rail.is-in .rail__list li:nth-child(1){transition-delay:0ms}
+html.motion .rail.is-in .rail__list li:nth-child(2){transition-delay:60ms}
+html.motion .rail.is-in .rail__list li:nth-child(3){transition-delay:120ms}
+html.motion .rail.is-in .rail__list li:nth-child(4){transition-delay:180ms}
+html.motion .rail.is-in .rail__list li:nth-child(5){transition-delay:240ms}
+html.motion .rail.is-in .rail__list li:nth-child(6){transition-delay:300ms}
+html.motion .rail.is-in .rail__list li:nth-child(7){transition-delay:360ms}
+html.motion .rail.is-in .rail__list li:nth-child(8){transition-delay:420ms}
+
+/* ── garis seksi yang tumbuh ────────────────────────────── */
+html.motion .rail{border-top-color:transparent;position:relative}
+html.motion .rail::before{
+  content:"";position:absolute;top:-2px;left:0;height:2px;width:100%;
+  background:var(--ink);transform:scaleX(0);transform-origin:0 50%;
+  transition:transform 900ms var(--ease-out);
+}
+html.motion .rail.is-in::before{transform:scaleX(1)}
+
+/* ── angka seksi besar saat masuk (manifesto) ───────────── */
+html.motion .steps li{opacity:0;transform:translate3d(0,18px,0);transition:opacity 560ms var(--ease-out),transform 560ms var(--ease-out)}
+html.motion .steps.is-in li{opacity:1;transform:none}
+html.motion .steps.is-in li:nth-child(1){transition-delay:0ms}
+html.motion .steps.is-in li:nth-child(2){transition-delay:90ms}
+html.motion .steps.is-in li:nth-child(3){transition-delay:180ms}
+html.motion .steps.is-in li:nth-child(4){transition-delay:270ms}
+
+/* ── paket langganan ────────────────────────────────────── */
+html.motion .plan{opacity:0;transform:translate3d(0,22px,0);transition:opacity 600ms var(--ease-out),transform 600ms var(--ease-out)}
+html.motion .subs__cards.is-in .plan{opacity:1;transform:none}
+html.motion .subs__cards.is-in .plan:nth-child(1){transition-delay:0ms}
+html.motion .subs__cards.is-in .plan:nth-child(2){transition-delay:90ms}
+html.motion .subs__cards.is-in .plan:nth-child(3){transition-delay:180ms}
+
+/* ── langkah member ─────────────────────────────────────── */
+html.motion .member__steps li{opacity:0;transform:translate3d(0,14px,0);transition:opacity 480ms var(--ease-out),transform 480ms var(--ease-out)}
+html.motion .member__steps.is-in li{opacity:1;transform:none}
+html.motion .member__steps.is-in li:nth-child(n){transition-delay:calc((var(--i,0)) * 70ms)}
+
+/* ── garis bawah tautan nav saat hover ──────────────────── */
+.nav__menu a::after{transition:right 320ms var(--ease-out)}
+
+/* ── poster footer: dorongan horizontal saat digulir ────── */
+html.motion .foot__poster{will-change:transform}
+
+/* ── quote manifesto: pudar mengikuti posisi ────────────── */
+html.motion .manifesto__quote{transition:none;will-change:transform,opacity}
+
+/* ── tombol: tekanan & kilau ────────────────────────────── */
+.btn{position:relative;overflow:hidden}
+.btn::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(105deg,transparent 30%,rgba(255,255,255,.28),transparent 70%);
+  transform:translateX(-130%);
+  transition:transform 620ms var(--ease-out);
+  pointer-events:none;
+}
+.btn:hover::after{transform:translateX(130%)}
+.btn--pill,.btn--ink,.btn--orange{isolation:isolate}
+
+/* ── kartu hero: gradien bergerak halus saat hover ──────── */
+.hcard{background-size:140% 140%!important;background-position:0% 0%;transition:transform 320ms var(--ease-out),box-shadow 320ms var(--ease-out),background-position 700ms var(--ease-out)}
+.hcard:hover{background-position:60% 40%}
+
+/* ── FAB masuk setelah hero ─────────────────────────────── */
+html.motion .fab{opacity:0;transform:translate3d(0,16px,0);transition:opacity 400ms var(--ease-out),transform 400ms var(--ease-out),background 200ms ease}
+html.motion .fab.is-in{opacity:1;transform:none}
+html.motion .fab:hover{transform:translateY(-2px)}
+
+/* ── menu mobile: panel turun ───────────────────────────── */
+html.motion .mmenu:not([hidden]){animation:menuIn 420ms var(--ease-out) both}
+@keyframes menuIn{from{opacity:0;transform:translate3d(0,-14px,0)}to{opacity:1;transform:none}}
+html.motion .mmenu:not([hidden]) .mmenu__list a{animation:menuItem 520ms var(--ease-out) both}
+html.motion .mmenu:not([hidden]) .mmenu__list a:nth-child(1){animation-delay:60ms}
+html.motion .mmenu:not([hidden]) .mmenu__list a:nth-child(2){animation-delay:110ms}
+html.motion .mmenu:not([hidden]) .mmenu__list a:nth-child(3){animation-delay:160ms}
+html.motion .mmenu:not([hidden]) .mmenu__list a:nth-child(4){animation-delay:210ms}
+html.motion .mmenu:not([hidden]) .mmenu__list a:nth-child(5){animation-delay:260ms}
+@keyframes menuItem{from{opacity:0;transform:translate3d(0,10px,0)}to{opacity:1;transform:none}}
+
+/* ── filter chip: tekan ─────────────────────────────────── */
+.chip{transition:background 200ms var(--ease-in-out),color 200ms var(--ease-in-out),border-color 200ms var(--ease-in-out),transform 200ms var(--ease-spring)}
+.chip:active{transform:scale(.95)}
+.chip.is-on{animation:chipPop 320ms var(--ease-spring)}
+@keyframes chipPop{0%{transform:scale(.94)}60%{transform:scale(1.04)}100%{transform:scale(1)}}
+
+/* ── ukuran produk: angka berganti dengan geser ─────────── */
+.price__value{display:inline-block}
+.price__value.is-swap{animation:priceSwap 320ms var(--ease-out)}
+@keyframes priceSwap{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:none}}
+
+/* ── keadaan statis total ───────────────────────────────── */
+html.no-motion .rv,
+html.no-motion .rv-fade,
+html.no-motion .rail__list li,
+html.no-motion .steps li,
+html.no-motion .plan,
+html.no-motion .member__steps li,
+html.no-motion .hcard,
+html.no-motion .fab{opacity:1!important;transform:none!important;animation:none!important}
+
+html.no-motion .lm > span{transform:none!important;animation:none!important}
+html.no-motion .card__media{clip-path:none!important}
+html.no-motion .card__media img{transform:none!important}
+html.no-motion .rail{border-top-color:var(--ink)}
+html.no-motion .rail::before{display:none}
+html.no-motion .scrollbar{display:none}
+html.no-motion .btn::after{display:none}
+
+/* ── hormati setelan sistem (lapis kedua, tanpa JS) ─────── */
+@media (prefers-reduced-motion:reduce){
+  .rv,.rv-fade,.rail__list li,.steps li,.plan,.member__steps li,.hcard,.fab{opacity:1!important;transform:none!important;animation:none!important}
+  .lm > span{transform:none!important;animation:none!important}
+  .card__media{clip-path:none!important}
+  .card__media img{transform:none!important}
+  .scrollbar,.cursor-glow{display:none}
+  .btn::after{display:none}
+  .rail{border-top-color:var(--ink)}
+  .rail::before{display:none}
+}

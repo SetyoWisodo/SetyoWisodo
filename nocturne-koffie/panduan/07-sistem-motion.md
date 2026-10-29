@@ -1,0 +1,165 @@
+# Sistem Gerak (Motion) — Nocturne Koffie
+
+Referensi: gaya situs seperti [motionsites.ai](https://motionsites.ai/) — hero bergerak,
+scroll-driven reveal, tipografi besar yang masuk bertopeng, kursor yang bereaksi.
+Dokumen ini mencatat **5 skill motion teratas** yang jadi acuan, apa yang diambil dari
+masing-masing, dan **spesifikasi gerak yang benar-benar dipasang** di landing page.
+
+Status: **terpasang** (`assets/css/motion.css` + `assets/js/motion.js`). Tanpa library,
+tanpa build step.
+
+---
+
+## 1. Hasil pencarian: 5 skill motion teratas
+
+Diverifikasi lewat GitHub API pada 29 Okt 2026 (bintang, lisensi, isi repo).
+
+| # | Repo | ★ | Lisensi | Fokus | Yang saya ambil |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [greensock/gsap-skills](https://github.com/greensock/gsap-skills) | 17.462 | MIT | Skill resmi GSAP: core, timeline, **ScrollTrigger**, performance, `matchMedia` | Semantik scroll-trigger (`start`/`end`, `scrub` = animasi "mengejar" posisi scroll), aturan **hanya animasikan transform & opacity**, `gsap.matchMedia()` untuk reduced-motion. Saya tidak memakai GSAP-nya (lihat §2), tapi perilakunya ditiru |
+| 2 | [Jakubantalik/transitions.dev](https://github.com/Jakubantalik/transitions.dev) | 5.898 | source-available | 43 transisi UI siap tempel, tiap snippet membawa **guard `prefers-reduced-motion`** | Token durasi/easing, pola *origin-aware* untuk panel menu, transisi harga/teks (blur + geser), aturan "setiap transisi wajib punya versi statis" |
+| 3 | [oil-oil/oil-motion](https://github.com/oil-oil/oil-motion) | 2.715 | MIT | Animasi web dari video/sequence: scroll, pointer, drag, sentuh, gyro | **Taksonomi driver** (`scroll \| pointer \| drag \| touch \| time`) dan tiga mode waktu (`scrub`, `segment-play`, `autonomous`). Ini yang membuat gerak saya punya "sebab", bukan sekadar diputar |
+| 4 | [AThevon/genjutsu](https://github.com/AThevon/genjutsu) | 702 | source-available | Creative coding: motion, **micro-interaction**, design system di Web/GSAP/Motion/Three | Bahasa micro-interaction: tombol punya tekanan & kilau, chip "pop" saat dipilih, harga bergeser saat berubah, kursor sebagai lapisan suasana |
+| 5 | [agiwhitelist/auteur](https://github.com/agiwhitelist/auteur) | 1.044 | MIT | "Mengarahkan website seperti film" + linter anti-slop | Disiplin arah: **satu ide gerak per seksi**, tidak ada animasi tanpa fungsi, dan linter anti-slop versi manual (daftar larangan di §6) |
+
+Sebutan terhormat (tidak dipakai langsung): `freshtechbro/claudedesignskills` (1.168★, 3D/graphics),
+`juliobsz/skills` (1.020★, "award-caliber websites"), `199-biotechnologies/motion-dev-animations-skill`
+(215★, Motion.dev/spring), `MustBeSimo/web-design-studio` (50★, cinematic scroll).
+
+> Catatan kejujuran: repo-repo itu adalah **skill untuk agent**, bukan kode yang bisa di-`npm install`.
+> Isinya panduan cara mengerjakan animasi. Yang saya pakai adalah prinsip + spesifikasi teknisnya,
+> lalu saya tulis ulang implementasinya untuk situs ini.
+
+---
+
+## 2. Kenapa tanpa GSAP / tanpa React
+
+| Pilihan | Alasan ditolak |
+| --- | --- |
+| GSAP + ScrollTrigger via CDN | Menambah ±70 KB JS + satu titik gagal jaringan. Preview in-app memblokir sebagian sumber eksternal; kalau CDN gagal, halaman kehilangan seluruh geraknya |
+| Framer Motion / Motion One | Butuh React atau bundler — brief 14 memilih situs statis ringan |
+| Video/WebGL hero | Bertentangan dengan 5.8 brief: **hero sengaja tanpa gambar** agar cepat di HP. motionsites.ai banyak memakai video 3D; itu justru yang tidak boleh ditiru untuk brand ini |
+
+Yang saya bangun: **mini-engine ±200 baris** (IntersectionObserver + satu loop `rAF`),
+memakai properti yang sama dengan yang diajarkan gsap-skills. Kalau nanti butuh `pin` dan
+`scrub` rumit, `motion.js` bisa diganti GSAP tanpa mengubah CSS (kelasnya sudah terpisah).
+
+---
+
+## 3. Token gerak (satu keluarga easing)
+
+| Token | Nilai | Dipakai untuk |
+| --- | --- | --- |
+| `--ease-out` | `cubic-bezier(.16,1,.3,1)` (expo out) | Semua elemen **masuk** — cepat di awal, mendarat pelan |
+| `--ease-in-out` | `cubic-bezier(.65,0,.35,1)` | Perubahan state (warna chip, filter) |
+| `--ease-spring` | `cubic-bezier(.34,1.56,.64,1)` | Umpan balik sentuhan saja (chip, tombol) — **jangan** untuk elemen besar |
+| `--d-fast` | 240 ms | Hover, chip, warna |
+| `--d-mid` | 620 ms | Reveal teks & kartu |
+| `--d-slow` | 900 ms | Topeng headline, media produk |
+| `--d-intro` | 1100 ms | Rangkaian pembuka total |
+
+Aturan: **maksimal dua durasi berbeda dalam satu layar**; stagger 55–90 ms.
+
+---
+
+## 4. Daftar gerak yang terpasang (M01–M13)
+
+| Kode | Nama | Pemicu (driver) | Properti | Durasi | Tujuan |
+| --- | --- | --- | --- | --- | --- |
+| M01 | Intro berurutan | time (saat muat) | `opacity`, `translateY` | 240–900 ms, cascade 120→520 ms | Navbar → headline baris 1 → baris 2 → paragraf → kartu hero. Mata dibimbing dari kiri atas ke deretan produk |
+| M02 | Topeng headline | time | `translateY(108%)` → 0, `overflow:hidden` | 900 ms | Tipografi terasa "tercetak", bukan muncul biasa |
+| M03 | Bar kemajuan gulir | scroll | `scaleX` | kontinu | Umpan balik posisi; 2 px, warna orange→gold |
+| M04 | Reveal seksi | scroll (IO) | `opacity`, `translateY 26px` | 620 ms | Tiap seksi masuk sekali, lalu diam |
+| M05 | Topeng media produk | scroll (IO) | `clip-path inset()` + `scale 1.06→1` | 900 ms | Foto stiker terasa dibuka seperti halaman majalah |
+| M06 | Stagger kartu | scroll (IO) | `opacity`, `translateY`, delay `(i%2)*80ms` | 620 ms | Dua kolom masuk bergilir, tidak serempak |
+| M07 | Parallax hero | scroll | `translateY` judul/paragraf, `translateX` marquee, `opacity` hero | kontinu | Hero "tertinggal" saat digulir — kedalaman tanpa gambar |
+| M08 | Parallax label & poster | scroll | `translateY/translateX` | kontinu | Judul koleksi melayang halus; poster footer bergeser 46 px |
+| M09 | Quote manifesto | scroll | `opacity .35→1`, `translateY 16→0` | kontinu | Kutipan "menyala" saat pembaca sampai |
+| M10 | Magnet tombol | pointer | `translate3d` ≤ 7 px | 260 ms | Tombol terasa "hidup" dan mudah diklik |
+| M11 | Tilt kartu | pointer | `perspective(900px) rotateX/Y` ≤ 3,5° | lerp 0.14/frame | Media sedikit mengikuti kursor; bukan efek mainan karena kecil |
+| M12 | Glow kursor hero | pointer | `translate3d` + radial gradient, lerp 0.09 | kontinu | Suasana hangat di hero; hilang di bagian lain supaya tidak norak |
+| M13 | Umpan balik mikro | event | kilau tombol (`::after`), chip pop, harga geser, panel menu turun berurutan | 320–620 ms | Konfirmasi bahwa aksi diterima |
+
+Ditambah yang sudah ada sebelumnya: marquee nama produk (otomatis, bisa dijeda),
+marquee teks pemisah, garis rail yang tumbuh (`scaleX`), langkah manifesto & paket
+langganan yang masuk bergilir.
+
+---
+
+## 5. Aturan yang dipegang (dari 5 skill di atas)
+
+1. **Hanya `transform` dan `opacity`.** Tidak pernah `width`, `top`, `margin`, atau `filter: blur` besar — itu memicu layout/paint dan bikin scroll tersendat di HP kelas menengah.
+2. **Satu sebab per gerak.** Scroll, pointer, atau waktu. Tidak ada animasi yang berjalan sendiri di luar viewport.
+3. **Sekali jalan.** Reveal memakai `once` (`io.unobserve`) — kecuali bar kemajuan yang memang kontinu.
+4. **Tidak ada gerak tanpa fungsi.** Kalau animasi tidak menuntun mata atau mengonfirmasi aksi, ia dihapus.
+5. **Stagger, bukan serempak.** Maksimal 8 item per kelompok (lebih dari itu terasa lambat, bukan mewah).
+6. **Reduced motion adalah lapis kedua.** CSS `@media` + kelas `html.no-motion` + `matchMedia` runtime (kalau pengguna mengubah setelan saat halaman terbuka).
+
+### Performa
+
+| Aturan | Angka |
+| --- | --- |
+| `will-change` | hanya saat animasi aktif, dilepas setelahnya (`.rv.is-in` mengembalikan `will-change:auto`) |
+| Loop `rAF` | **satu** loop untuk semua parallax, di-throttle dengan flag `ticking` |
+| Elemen yang diukur per frame | ≤ 10 (hero, poster, quote, layer ber-`data-parallax`) |
+| Pointer handler | hanya `pointermove` yang di-lerp di dalam `rAF`, tidak menulis style langsung tiap event |
+| Target | 60 fps di HP 2–4 juta rupiah; tidak ada pergeseran layout (CLS 0 dari gerak) |
+
+---
+
+## 6. Larangan (linter anti-slop versi manual)
+
+| Jangan | Kenapa |
+| --- | --- |
+| Animasi `bounce`/`elastic` pada elemen besar atau teks | Terasa murah; simpan untuk umpan balik sentuhan kecil |
+| Teks huruf-per-huruf (typewriter/scramble) | Mengganggu pembacaan, dan brand ini menjual ketenangan |
+| Parallax pada teks body | Menyulitkan membaca; parallax hanya untuk judul, quote, poster |
+| Kursor kustom yang menggantikan kursor asli | Risiko aksesibilitas & terasa norak di perangkat sentuh |
+| Gerak berulang abadi selain marquee | Baterai & perhatian; marquee pun wajib bisa dijeda |
+| Video/3D di hero | Melanggar keputusan brief 5.8 (hero ringan, tanpa gambar) |
+| Animasi saat `prefers-reduced-motion: reduce` | Wajib mati total, bukan diperlambat |
+| Lebih dari satu aksen warna dalam satu animasi | Melanggar aturan visual brief 12 |
+
+---
+
+## 7. Cara mengubah / menambah gerak
+
+| Ingin | Lakukan |
+| --- | --- |
+| Ubah kecepatan semua reveal | Ubah `--d-mid` di `assets/css/motion.css` (`:root`) |
+| Ubah intensitas parallax | Atribut `data-parallax="0.05"` di HTML; 0 = diam, 0.12 = kuat |
+| Matikan satu efek | Hapus kelas/atribut terkait (`data-rv`, `data-parallax`) — tidak ada JS yang perlu diubah |
+| Tambah elemen yang muncul saat digulir | Beri `data-rv` (dan `data-rv-delay="80ms"` bila perlu) |
+| Tambah elemen parallax | Beri `data-parallax="0.06"` |
+| Naik ke GSAP nanti | Ganti isi `motion.js`; CSS `.rv`, `.is-in`, `.lm` tetap dipakai |
+
+---
+
+## 8. Uji sebelum tayang (10 butir)
+
+- [ ] 1. Muat ulang halaman: navbar → headline → paragraf → kartu hero masuk berurutan, tidak ada kedipan konten mentah.
+- [ ] 2. Tidak ada elemen yang tetap tak terlihat setelah halaman selesai dimuat (uji juga dengan koneksi lambat / throttle 3G).
+- [ ] 3. Gulir dari atas ke bawah: tiap seksi muncul **sekali**, tidak berkedip saat naik-turun.
+- [ ] 4. Bar kemajuan gulir bergerak mulus sampai ujung halaman.
+- [ ] 5. Hero memudar/melayang saat digulir, dan pulih saat kembali ke atas.
+- [ ] 6. Kursor di hero memunculkan glow; keluar hero → glow hilang.
+- [ ] 7. Tombol bergerak halus saat disentuh kursor, kembali ke posisi semula saat kursor pergi.
+- [ ] 8. Tilt kartu maksimal terasa halus (tidak goyang), dan **mati** di perangkat sentuh.
+- [ ] 9. Setelan OS "Reduce Motion" → semua statis, semua konten terbaca, tidak ada elemen hilang.
+- [ ] 10. DevTools Performance saat scroll: tidak ada frame > 33 ms beruntun; tidak ada peringatan layout shift dari animasi.
+
+---
+
+## 9. Kalau ingin lebih agresif (opsi, belum dipasang)
+
+| Opsi | Biaya | Risiko |
+| --- | --- | --- |
+| GSAP + ScrollTrigger (pin & scrub penuh) | ±70 KB JS | Titik gagal CDN; perlu fallback |
+| Hero dengan canvas partikel/WebGL | 200 KB+, GPU berat di HP | Bertentangan dengan 5.8 (hero ringan) |
+| Horizontal scroll untuk Our Collection | Sedang | Menyembunyikan 7 dari 9 produk; buruk untuk katalog |
+| Page-transition ala motionsites | Sedang | Situs ini satu halaman; tidak ada halaman tujuan |
+| Cursor kustom penuh | Rendah | Aksesibilitas & kesan "template" |
+
+Rekomendasi: **jangan** tambah lagi sebelum ada data. Gerak yang ada sekarang sudah
+"cukup hidup" untuk brand kopi premium; menambah efek berisiko menggeser kesan dari
+*tenang-mahal* ke *ramai*.

@@ -13,9 +13,12 @@ nocturne-koffie/
 ├── assets/
 │   ├── css/site.css              Paper · Ink · Burnt Orange · Espresso · Roast Gold
 │   ├── js/site.js                render katalog, marquee, filter, pesan WhatsApp
+│   ├── js/motion.js              lapisan gerak (tanpa library): reveal, parallax, magnet, tilt
+│   ├── css/motion.css            token & aturan animasi
 │   └── img/produk/               9 foto stiker kemasan (4:5, dari brief)
 ├── data/catalog.json             ← SATU-SATUNYA file yang perlu diubah rutin
 ├── panduan/PANDUAN-LANDING-PAGE.md
+├── panduan/07-sistem-motion.md
 └── marketing/                    strategi, kalender konten, copy, CRM, B2B
 ```
 
@@ -43,6 +46,9 @@ Harus lewat server — katalog dimuat dengan `fetch`, dan `file://` akan dibloki
 - Format pesan WhatsApp baku sesuai brief 6.2 (siap dibaca sistem di fase integrasi)
 - JSON-LD `Brand`, meta OG, `noscript` dengan tautan WA
 - Mobile: panel menu penuh, FAB WhatsApp, tanpa horizontal scroll
+- **Motion layer**: intro berurutan, topeng headline, bar kemajuan gulir, reveal saat scroll,
+  parallax hero/kartu/poster, tombol magnetik, tilt kartu, glow kursor, dan micro-feedback —
+  semuanya mati otomatis pada `prefers-reduced-motion`
 
 ## Yang WAJIB dikonfirmasi sebelum tayang
 
@@ -77,6 +83,7 @@ menunggu konfirmasi pemilik." Jangan dihapus sebelum beres.
 | File | Isi |
 | --- | --- |
 | `panduan/PANDUAN-LANDING-PAGE.md` | **Panduan pembuatan landing page** — 13 bagian, 25 butir QA |
+| `panduan/07-sistem-motion.md` | **Sistem gerak** — 5 skill motion teratas + 13 gerak yang dipasang, token, larangan, 10 butir uji |
 | `marketing/00-strategi-90hari.md` | Strategi 90 hari (positioning, segmen, ritme 7 jam/minggu, KPI) |
 | `marketing/01-kalender-konten-30hari.md` | 30 hari konten + aset yang direkam saat produksi |
 | `marketing/02-copy-library.md` | Bio, caption, 6 template WhatsApp, 4 skrip B2B |

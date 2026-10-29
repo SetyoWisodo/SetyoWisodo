@@ -511,6 +511,8 @@
     }
     const subs = $('#subs-cards');
     if (subs) subs.innerHTML = '<p class="micro micro--light">Daftar paket tidak dapat dimuat. Hubungi kami lewat WhatsApp.</p>';
+    window.__nocturneReady = true;
+    document.dispatchEvent(new CustomEvent('nocturne:ready'));
   }
 
   /* ---------- boot ---------- */
@@ -532,6 +534,8 @@
       initUI();
       handleHash();
       document.documentElement.classList.add('is-ready');
+      window.__nocturneReady = true;
+      document.dispatchEvent(new CustomEvent('nocturne:ready'));
     })
     .catch(fail);
 })();

@@ -4,6 +4,9 @@ Turunan langsung dari **Brief Website FINAL 3.7 (4 Okt 2026)**, bagian 04, 05, 0
 Dokumen ini bukan ringkasan brief. Isinya **cara mengerjakan landing page**: urutan, spesifikasi yang
 mengikat, cara uji, dan daftar yang harus dikonfirmasi sebelum tayang.
 
+Lapisan gerak (animasi) dijelaskan terpisah di [`07-sistem-motion.md`](07-sistem-motion.md) —
+dokumen itu memuat 5 skill motion yang jadi acuan dan 13 gerak yang terpasang.
+
 Status pekerjaan: **landing page versi uji coba sudah dibangun** dan mengikuti aturan di sini
 (`index.html`, `assets/`, `data/catalog.json`). Yang berstatus sementara ditandai di bagian 8.
 
