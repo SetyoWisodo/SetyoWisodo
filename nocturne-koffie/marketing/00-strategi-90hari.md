@@ -1,3 +1,8 @@
+> **Catatan (29 Okt 2026):** dokumen ini ditulis sebelum Brief Website FINAL 3.7 diterima.
+> Dua hal perlu diselaraskan saat dipakai: (1) Nocturne adalah **brand kopi**, bukan roastery —
+> sangrai dikerjakan Ais Coffee Roastery; (2) katalog kini **9 SKU** dengan 4 ukuran
+> (100/250/500/1 kg) sesuai brief bagian 10, bukan 6 SKU. Angka strategi & ritme kerja tetap berlaku.
+
 # Nocturne Koffie — Strategi Marketing 90 Hari
 
 > Aturan main Anda: **fokus produksi & QC**. Semua yang di dokumen ini dirancang

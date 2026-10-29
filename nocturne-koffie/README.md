@@ -1,100 +1,91 @@
-# Nocturne Koffie — Website + Sistem Marketing
+# Nocturne Koffie — Landing Page + Sistem Marketing
 
-Website katalog + mesin penjualan untuk roastery kopi. Tanpa framework, tanpa
-build step, tanpa biaya hosting. Semua order masuk ke **WhatsApp** (tempat Anda
-paling mudah closing), jadi tidak perlu payment gateway di tahap awal.
+Landing page katalog + pintu masuk order WhatsApp untuk **Nocturne Koffie Brand**
+(brand kopi Banyuwangi — bukan roastery; sangrai dikerjakan Ais Coffee Roastery).
+
+Dibangun mengikuti **Brief Website FINAL 3.7 (4 Okt 2026)**. Panduan pengerjaan,
+spesifikasi komponen, dan daftar data yang masih menunggu konfirmasi ada di
+[`panduan/PANDUAN-LANDING-PAGE.md`](panduan/PANDUAN-LANDING-PAGE.md).
 
 ```
 nocturne-koffie/
-├── index.html               halaman tunggal (hero, produk, QC, proses, langganan, grosir, FAQ)
+├── index.html                    landing page (10 seksi, sesuai brief bagian 05)
 ├── assets/
-│   ├── css/style.css        desain: midnight + amber, Fraunces + Inter
-│   ├── js/app.js            render katalog, keranjang, checkout WhatsApp
-│   └── img/                 3 foto placeholder (ganti dengan foto asli)
-├── data/catalog.json        ← SATU-SATUNYA file yang perlu Anda ubah
-└── marketing/               strategi, kalender konten, copy, marketplace, CRM
+│   ├── css/site.css              Paper · Ink · Burnt Orange · Espresso · Roast Gold
+│   ├── js/site.js                render katalog, marquee, filter, pesan WhatsApp
+│   └── img/produk/               9 foto stiker kemasan (4:5, dari brief)
+├── data/catalog.json             ← SATU-SATUNYA file yang perlu diubah rutin
+├── panduan/PANDUAN-LANDING-PAGE.md
+└── marketing/                    strategi, kalender konten, copy, CRM, B2B
 ```
 
-## Cara menjalankan
+## Menjalankan
 
 ```bash
 cd nocturne-koffie
 python3 -m http.server 8080     # buka http://localhost:8080
 ```
 
-Harus lewat server (bukan dobel-klik `index.html`) karena katalog dimuat via
-`fetch`. Kalau dibuka langsung dari file, browser memblokir `fetch` dan katalog
-tidak muncul.
+Harus lewat server — katalog dimuat dengan `fetch`, dan `file://` akan diblokir browser.
 
-## Yang WAJIB diganti sebelum dipakai
+## Yang sudah jalan
 
-Buka `data/catalog.json`:
+- Hero headline 2 baris + **deretan kartu nama produk bergulir** (hanya nama, tanpa harga/foto)
+- Klik nama di hero → meluncur ke kartu produk, tersorot 2 detik, URL berubah ke `#produk`
+- Tombol jeda guliran, berhenti saat kursor menyentuh, hormati `prefers-reduced-motion`
+- Katalog 9 SKU + 2 paket: foto 4:5, badge stok, nomor editorial, tasting notes,
+  lima bulatan roast, **plakat petani** (nama, desa, elevasi, varietas), harga 4 ukuran
+- Filter Jenis / Daerah / Ketersediaan yang menyaring grid **dan** rail editorial
+- Pemilih ukuran & gilingan → harga dan pesan WhatsApp ikut berubah
+- Status stok 4 tingkat: Tersedia · Terbatas · Habis · Menunggu panen
+  (Habis/Menunggu panen → tombol berubah jadi "Kabari saya saat ada")
+- Seksi Langganan (3 paket), Manifesto, Member (Nocturne Circle), penutup WA, footer poster
+- Format pesan WhatsApp baku sesuai brief 6.2 (siap dibaca sistem di fase integrasi)
+- JSON-LD `Brand`, meta OG, `noscript` dengan tautan WA
+- Mobile: panel menu penuh, FAB WhatsApp, tanpa horizontal scroll
 
-| Field | Isi sekarang | Ganti jadi |
+## Yang WAJIB dikonfirmasi sebelum tayang
+
+Daftar lengkap + alasannya ada di panduan bagian 8. Ringkasnya:
+
+| # | Hal | Kenapa penting |
 | --- | --- | --- |
-| `brand.whatsapp` | `62812XXXXXXXX` | nomor WA asli, format `62…` tanpa `+` dan tanpa spasi |
-| `brand.instagram` | `instagram.com/nocturnekoffie` | URL IG asli |
-| `brand.city` | Banyuwangi | kota asli |
-| `products[].variants[].price` | harga contoh | harga asli Anda |
-| `products[].notes` / `origin` | contoh | sesuai green bean yang benar-benar ada |
+| 1 | Tingkat sangrai per produk (dari file desain label) | Sekarang masih usulan; badge menampilkan tanda "konfirmasi" |
+| 2 | Tasting notes 3 kata per produk | Hanya Raung yang berasal dari label |
+| 3 | Izin publikasi 7 nama petani | Nama sudah tayang dengan data brief |
+| 4 | Blue Mount Ijen: Andi Wijaya atau Ijen Coffee Collective | Dua-duanya ada di brief, harus dipilih satu |
+| 5 | Status stok nyata per SKU + tanggal | Sekarang hanya Blue Mount Ijen yang "Terbatas" |
+| 6 | Konflik angka elevasi (Semeru, Raung, Ijen) & varietas Gayo/Semeru | Katalog vs label kemasan berbeda |
+| 7 | Nomor WhatsApp Business aktif | Sekarang `628988188800` dari brief |
+| 8 | Jam operasional & target balas 2 jam | Janji layanan |
+| 9 | Angka program Member | Belum ditampilkan karena belum diputuskan |
+| 10 | Tautan marketplace resmi | Belum ada, jadi tidak ditautkan |
 
-Harga, nama, ukuran, dan pilihan gilingan otomatis muncul di website dan ikut
-dihitung di keranjang. Setelah mengubah file, cukup refresh browser.
+Selama butir 1–6 belum beres, footer menampilkan "Situs versi uji coba — sebagian data
+menunggu konfirmasi pemilik." Jangan dihapus sebelum beres.
 
-Ganti 3 gambar di `assets/img/` dengan foto asli (nama file sama, atau ubah
-`img` per produk). Ukuran ideal: hero 1600×900, produk 1200×750, format JPG
-< 300 KB supaya cepat di HP.
+## Aturan yang tidak boleh dilanggar
 
-## Cara deploy (gratis)
+1. Nocturne **bukan** roastery. Tulis "brand kopi"; sangrai oleh **Ais Coffee Roastery**.
+2. Tidak ada klaim "terbaik", "satu-satunya", "fresh daily", atau klaim kesehatan.
+3. Harga & produk hanya diubah di `data/catalog.json`, tidak di `index.html`.
+4. Harga situs = harga marketplace (10.9). Jangan perang harga dengan diri sendiri.
+5. Petani: nama boleh (dengan izin), foto & titik lokasi tidak.
 
-| Platform | Langkah | Catatan |
-| --- | --- | --- |
-| **Netlify Drop** | buka app.netlify.com/drop, tarik folder `nocturne-koffie` | paling cepat, gratis, HTTPS otomatis |
-| **GitHub Pages** | push repo, Settings → Pages → root | cocok karena proyek ini sudah di Git |
-| **Vercel** | import repo, framework "Other" | gratis untuk hobby |
+## Dokumen marketing
 
-Setelah punya domain, arahkan ke hosting tersebut (Netlify/Vercel memberi
-petunjuk DNS). Update `canonical` di `index.html` kalau domain berbeda.
+| File | Isi |
+| --- | --- |
+| `panduan/PANDUAN-LANDING-PAGE.md` | **Panduan pembuatan landing page** — 13 bagian, 25 butir QA |
+| `marketing/00-strategi-90hari.md` | Strategi 90 hari (positioning, segmen, ritme 7 jam/minggu, KPI) |
+| `marketing/01-kalender-konten-30hari.md` | 30 hari konten + aset yang direkam saat produksi |
+| `marketing/02-copy-library.md` | Bio, caption, 6 template WhatsApp, 4 skrip B2B |
+| `marketing/03-marketplace-dan-ads.md` | Judul & deskripsi listing, bundling, aturan iklan |
+| `marketing/04-whatsapp-crm-dan-b2b.md` | Alur follow up H+0…H+60, langganan, pipeline kafe |
+| `marketing/05-kpi-tracker.csv` | Tracker mingguan |
+| `marketing/06-checklist-launch-14hari.md` | Checklist 14 hari |
 
-## Fitur yang sudah jalan
-
-- Katalog 6 produk dengan filter kategori (espresso/filter/decaf/bundle)
-- Varian ukuran (250 g / 500 g / 1 kg) + pilihan gilingan per produk
-- Harga berubah otomatis saat varian diganti
-- Keranjang tersimpan di browser (localStorage) — tidak hilang saat refresh
-- Checkout menyusun pesan WhatsApp lengkap: item, qty, subtotal, nama & alamat
-- Tombol WhatsApp di hero, CTA, grosir, dan footer dengan pesan berbeda per konteks
-- Langganan bulanan (klik → chat WA dengan paket terisi)
-- JSON-LD `LocalBusiness` untuk SEO + meta OG untuk preview saat dibagikan
-- Mobile-first, tombol keranjang melayang, animasi reveal yang menghormati
-  `prefers-reduced-motion`
-
-## Yang sengaja TIDAK dibuat (dan alasannya)
-
-- **Payment gateway**: belum perlu. Transfer/QRIS via WA lebih murah dan
-  pembeli tahap awal biasanya tanya dulu sebelum bayar.
-- **Login/akun**: menambah friksi, tidak menambah penjualan di skala ini.
-- **Blog**: SEO lokal lebih efektif lewat Google Business Profile dulu.
-- **Keranjang multi-halaman**: satu modal cukup dan lebih cepat di HP.
-
-## Dokumen marketing (baca berurutan)
-
-| File | Isi | Waktu baca |
-| --- | --- | --- |
-| `marketing/00-strategi-90hari.md` | positioning, ICP, tangga harga, ritme 7 jam/minggu, target 90 hari | 12 mnt |
-| `marketing/06-checklist-launch-14hari.md` | langkah konkret 2 minggu sampai siap jualan | 8 mnt |
-| `marketing/02-copy-library.md` | bio, 15 caption, template WA, skrip B2B | 15 mnt |
-| `marketing/01-kalender-konten-30hari.md` | 30 hari konten dengan hook & aset | 10 mnt |
-| `marketing/03-marketplace-dan-ads.md` | judul & deskripsi listing, bundling, aturan iklan | 10 mnt |
-| `marketing/04-whatsapp-crm-dan-b2b.md` | alur follow up, langganan, pipeline kafe | 10 mnt |
-| `marketing/05-kpi-tracker.csv` | tracker mingguan (buka di Sheets) | — |
-
-## Prinsip yang dipakai di semua materi
-
-1. **Anda jual kesegaran + bukti QC**, bukan harga murah atau "kopi enak".
-2. **Satu pesan, empat pintu**: konten → website/WA/marketplace.
-3. **Jangan diskon harga satuan** — pakai bonus atau gratis ongkir.
-4. **B2B lebih besar daripada retail** (1 kafe 5 kg ≈ 15 order retail 250 g),
-   tapi retail membangun bukti sosial yang dipakai saat jualan B2B.
-5. **Waktu Anda dibatasi 7 jam/minggu.** Kalau sebuah aktivitas tidak masuk
-   ritme itu, jangan dikerjakan.
+> **Catatan:** file `marketing/` ditulis sebelum brief ini diterima. Dua hal perlu
+> diselaraskan: (a) kata "roastery" untuk Nocturne harus diganti "brand kopi", dan
+> (b) produk/harga di materi itu masih versi lama (6 SKU), sedangkan situs kini memakai
+> 9 SKU dari brief bagian 10. Panduan landing page sudah memakai data brief.
