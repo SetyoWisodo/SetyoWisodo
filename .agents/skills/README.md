@@ -18,6 +18,7 @@ sinkron ulang. Satu-satunya skill yang ditulis tangan di sini adalah
 
 | Skill | Asal | Kapan dipakai |
 | --- | --- | --- |
+| [`rea-workflow`](rea-workflow/SKILL.md) | **baru** — penggabung 7 skill | **Pintu masuk tunggal.** Loop 8 fase (F0 intake → F7 tutup) dengan gate, kontrak Evidence, routing target, mesin state sesi, dan peta delegasi ke skill lain. |
 | [`rea-roadmap`](rea-roadmap/SKILL.md) | **baru**, disusun dari 46 link postingan | Menjalankan roadmap 7 tahap (setup → Notes Export → CTF → APK → Electron/game → Ghidra → paper) sebagai alur kerja yang bisa diuji, plus indeks semua resource. |
 | [`reverse-engineer-anything`](reverse-engineer-anything/SKILL.md) | `morluto/rea` | Skill utama REA: memilih tool per jenis target (native, managed, Electron/JS, APK, firmware, packaged, browser, capture jaringan/paket/signal), Evidence-first. |
 | [`find-reverse-engineered`](find-reverse-engineered/SKILL.md) | `alexgaoth/awesome-reverse-engineered` | Mencari tool open-source hasil reverse engineering untuk app/API/protokol/format tertutup; indeks 17.000+ proyek lewat `scripts/re_index.py`. |
@@ -26,8 +27,25 @@ sinkron ulang. Satu-satunya skill yang ditulis tangan di sini adalah
 | [`rea-tool-design`](rea-tool-design/SKILL.md) | `morluto/rea` | Merancang/mengubah tool investigasi, kontrak CLI/MCP, semantik Evidence. |
 | [`rea-changelog-update`](rea-changelog-update/SKILL.md) | `morluto/rea` | Menyusun release notes/changelog dari Git history terpin. |
 
+Mulai dari `rea-workflow`; skill lain adalah rujukan yang dipanggil per fase
+(lihat `rea-workflow/references/skill-map.md`).
+
 Setiap skill memakai **progressive disclosure**: `SKILL.md` adalah pintu masuk,
 detail berat di `references/` dibaca hanya saat dibutuhkan.
+
+## Isi `rea-workflow`
+
+```
+rea-workflow/
+├── SKILL.md                     loop 8 fase + gate + aturan + format jawaban
+├── references/
+│   ├── phases.md                detail per fase: masuk, lakukan, gate, salah umum
+│   ├── target-routing.md        matriks target → tool pertama (termasuk mode tanpa MCP)
+│   ├── evidence-contract.md     isi minimum satu butir Evidence + larangan
+│   └── skill-map.md             skill mana dipakai di fase mana, plus non-goal
+├── templates/finding.md         lembar kerja per temuan (E1, E2, …)
+└── scripts/session.sh           state machine: init/status/gate/advance/log/unknown/report
+```
 
 ## Isi `rea-roadmap`
 

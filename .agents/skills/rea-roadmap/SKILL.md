@@ -9,6 +9,12 @@ metadata:
 
 # REA roadmap → alur kerja
 
+> **Bagian dari alur kerja terpadu.** Skill ini menyediakan *antrean tahap* dan
+> indeks resource. Untuk mengerjakan satu target dari awal sampai laporan,
+> ikuti loop 8 fase di
+> [`../rea-workflow/SKILL.md`](../rea-workflow/SKILL.md); roadmap ini dipakai di
+> fase F0 (menentukan target) dan F1/F7 (kesiapan & penutupan).
+
 Skill ini mengubah satu postingan roadmap (46 link) menjadi urutan kerja yang
 bisa dijalankan, bukan daftar bacaan. Setiap tahap punya **tujuan, resource
 kanonik, perintah/prompt siap pakai, dan kriteria selesai**. Jangan lompat tahap

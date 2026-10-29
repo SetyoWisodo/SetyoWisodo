@@ -5,7 +5,8 @@ Sumber: [@cabbitar — "STOP WASTING HOURS TRYING TO LEARN REA"](https://x.com/c
 | Item | Nilai |
 | --- | --- |
 | Link di postingan | 46 baris → **38 URL unik**, 37 terverifikasi, 1 mati |
-| Skill tersalin/dibuat | **7 skill** (18 file REA + 1 skill roadmap + 1 skill finder) |
+| Skill tersalin/dibuat | **8 skill** — 5 dari `morluto/rea`, 1 finder (MIT), 2 disusun di repo ini |
+| Pintu masuk | [`rea-workflow`](.agents/skills/rea-workflow/SKILL.md) — satu loop 8 fase |
 | Lokasi | [`.agents/skills/`](.agents/skills/) |
 | Metode | `cp -r` verbatim untuk skill upstream; `rea-roadmap` ditulis dari hasil resolusi link |
 | Tanggal verifikasi link | 2026-10-29 |
@@ -16,6 +17,7 @@ Sumber: [@cabbitar — "STOP WASTING HOURS TRYING TO LEARN REA"](https://x.com/c
 
 | # | Skill | Asal | Fungsi |
 | --- | --- | --- | --- |
+| 0 | **rea-workflow** | **baru** — penggabung semuanya | Pintu masuk tunggal: loop 8 fase + gate + kontrak Evidence + routing + state sesi |
 | 1 | **rea-roadmap** | **baru** — dibuat dari 46 link postingan | Alur kerja 7 tahap + indeks semua resource + skrip cek kesiapan |
 | 2 | **reverse-engineer-anything** (v55) | `morluto/rea` | Routing tool per jenis target, Evidence-first, 7 file referensi |
 | 3 | **find-reverse-engineered** | `alexgaoth/awesome-reverse-engineered` | Cari tool open-source hasil RE (indeks 17.000+ proyek), plus MCP server di repo itu |
@@ -131,7 +133,58 @@ metode ada di
 
 ---
 
-## 3. Alur kerja yang dijalankan (isi skill `rea-roadmap`)
+## 2b. Alur kerja terpadu (`rea-workflow`)
+
+Semua skill di atas tidak lagi dipakai sendiri-sendiri. `rea-workflow`
+menggabungkannya jadi **satu loop 8 fase dengan gate**: fase tidak boleh maju
+sebelum gate-nya lulus, dan gate hanya lulus kalau ada bukti.
+
+```
+F0 Intake & scope ──► F1 Environment ──► F2 Route ──► F3 Evidence
+        ▲                                                  │
+        │                                                  ▼
+      F7 Catat & tutup ◄── F6 Deliverable ◄── F5 Verifikasi ◄── F4 Interpretasi
+```
+
+| Fase | Keluaran | Gate |
+| --- | --- | --- |
+| F0 | Pertanyaan satu kalimat + target + batas izin | Pertanyaan bisa dijawab; target konkret |
+| F1 | `check_readiness.sh` + tool yang dipakai | Tool tersedia, atau klaim diturunkan |
+| F2 | Rute + alasan + alternatif ditolak | Rute ada di matriks target |
+| F3 | Evidence E1, E2, … | Tiap butir punya sumber |
+| F4 | Fakta vs inferensi vs unknown | Tidak ada inferensi tanpa rujukan E |
+| F5 | Hasil uji silang | Klaim utama punya status verifikasi |
+| F6 | Jawaban 4 bagian | Tiap klaim punya penopang |
+| F7 | Unknown + next step + arsip | Unknown tercatat |
+
+Peta delegasi (siapa dipanggil di fase mana):
+
+| Fase | Skill |
+| --- | --- |
+| F0, F1, F7 | `rea-roadmap` (antrean 7 tahap, readiness, resource) |
+| F2–F6 | `reverse-engineer-anything` (routing resmi, tool, Evidence) |
+| F3 (bila target tertutup) | `find-reverse-engineered` |
+| F6 (deliverable = tool / notes) | `rea-tool-design` / `rea-changelog-update` |
+| atas permintaan | `rea-analysis-optimization`, `rea-ci-tests-audit` |
+
+Mesin state sesi (data di `/tmp/rea-workflow/`, bukan di Git):
+
+```bash
+S=.agents/skills/rea-workflow/scripts/session.sh
+bash $S init "apk aegis login" --target /path/app.apk
+bash $S status
+bash $S gate F2 --pass "APK -> inspect_android_package"
+bash $S advance          # ditolak kalau gate fase ini belum PASS
+bash $S log "E1: classes2.dex -> LoginActivity"
+bash $S unknown "validasi native? cek lib*.so"
+bash $S report
+```
+
+Aturan repo yang mengikat semua agent ada di [`AGENTS.md`](AGENTS.md).
+
+---
+
+## 3. Antrean tahap (isi `rea-roadmap`)
 
 ```
 Tahap 1 Setup → 2 Notes Export → 3 CTF binary → 4 Aegis APK
@@ -142,19 +195,12 @@ Tiap tahap punya **tujuan, resource kanonik, prompt siap tempel, kriteria keluar
 dan jebakan** — detail di
 [`learning-path.md`](.agents/skills/rea-roadmap/references/learning-path.md).
 
-Cara kerjanya di percakapan ini:
+Urutan kerjanya sudah dipindahkan ke loop 8 fase di `rea-workflow` (bagian 2b).
+Ringkasnya: F0 nyatakan pertanyaan → F1 cek alat → F2 pilih rute → F3 ambil
+Evidence → F4 pisahkan fakta/dugaan → F5 uji silang → F6 jawab dengan sitasi →
+F7 catat unknown. Roadmap hanya menentukan **target** sesi berikutnya.
 
-| Langkah | Yang saya lakukan |
-| --- | --- |
-| 0. Tetapkan posisi | Jalankan `bash .agents/skills/rea-roadmap/scripts/check_readiness.sh` → tahu Node/`rea`/engine/target |
-| 0b. Ambil resource | `bash …/scripts/find_resource.sh --stage 4` (atau `--category paper`) → URL terverifikasi, bukan dari ingatan |
-| 1. Rute target | Klasifikasikan target lewat skill `reverse-engineer-anything` (APK? native? Electron? pcap?) |
-| 2. Jalankan tahap | Ambil tahap aktif, beri prompt siap tempel, dampingi hasilnya |
-| 3. Evidence dulu | Setiap klaim disertai path/digest/byte range/tool + daftar "belum diketahui" |
-| 4. Uji kriteria | Naik tahap hanya kalau bukti keluar tahap ini ada |
-| 5. Tutup | Sebut tahap sekarang + satu aksi berikutnya + resource yang dipakai |
-
-### Hasil eksekusi Langkah 0 di sandbox ini (2026-10-29)
+### Hasil F1 (environment) di sandbox ini (2026-10-29)
 
 ```
 OK     node                   v22.22.3
@@ -166,10 +212,23 @@ OK     python3                Python 3.11.2
 ```
 
 Artinya: **posisi saat ini = Tahap 1 (setup) yang belum dijalankan**, dan
-`ghidra` belum ada sehingga Tahap 3+ belum bisa dieksekusi di sini. Skill
-`rea-roadmap` siap sebagai metodologi; engine-nya harus dipasang di mesin Anda
-(atau saya jalankan `npx rea-agents@latest setup` di sini **setelah Anda
-menyetujui**, meski MCP yang terpasang tidak otomatis masuk ke sesi ini).
+`ghidra` belum ada sehingga Tahap 3+ belum bisa dieksekusi di sini. State sesi
+percakapan ini juga sudah dibuat:
+
+```
+sesi   : sesi-percakapan  (alur kerja REA percakapan ini)
+target : (belum ada)
+F0     FAIL   target artefak nyata belum diberikan
+F1     PASS   readiness 2026-10-29 (rea CLI tidak ada -> klaim dibatasi)
+langkah: gate F0 lalu advance
+```
+
+Artinya jujur: alur kerja aktif, tapi **F0 belum bisa lulus karena belum ada
+target nyata**. Kirim satu artefak (APK/binary/HAR/bundle JS) dan F0 langsung
+lulus. Semua skill siap sebagai metodologi; engine (Ghidra/JADX/Frida/MCP `rea`)
+harus dipasang di mesin target — bisa juga saya jalankan
+`npx rea-agents@latest setup` di sini **setelah Anda menyetujui**, meski MCP yang
+terpasang tidak otomatis masuk ke sesi ini.
 
 ---
 
@@ -206,6 +265,7 @@ JADX, Frida, Kuna, atau Node.
 
 | Tujuan | Prompt |
 | --- | --- |
+| Jalankan alur kerja | "Pakai `rea-workflow`: mulai sesi baru untuk `<target>`, tunjukkan fase dan gate-nya." |
 | Mulai dari nol | "Jalankan roadmap REA dari awal, cek environment dulu." |
 | Cek posisi | "Saya di tahap berapa? Jalankan check_readiness lalu simpulkan." |
 | Rute target | "Target saya APK `<nama>`. Rute roadmap + tool-nya apa?" |
@@ -220,10 +280,16 @@ JADX, Frida, Kuna, atau Node.
 
 ```
 .
+├── AGENTS.md                                ← aturan kerja untuk semua agent
 ├── SKILLS.md                                ← dokumen ini
 └── .agents/
     └── skills/
         ├── README.md                        ← atribusi & daftar skill
+        ├── rea-workflow/                    ← BARU: penggabung, pintu masuk
+        │   ├── SKILL.md
+        │   ├── references/{phases,target-routing,evidence-contract,skill-map}.md
+        │   ├── templates/finding.md
+        │   └── scripts/session.sh
         ├── rea-roadmap/                     ← BARU: alur kerja dari 46 link
         │   ├── SKILL.md
         │   ├── references/{resources.md,resources.json,learning-path,installation,mcp-prompts,source-verification}
