@@ -1,0 +1,93 @@
+{
+  "_catatan": "Definisi ceruk, audiens, tawaran, dan pagar bahasa untuk studio konten. Diubah manusia; dibaca tools/studio.py. Jangan menaruh angka target di sini — target ada di data/divisi.json.",
+  "niche": {
+    "satu_kalimat": "Kopi specialty dari Banyuwangi yang menyebut nama petani, desa, ketinggian, tanggal sangrai, dan kode batch — disangrai mingguan oleh Ais Coffee Roastery.",
+    "definisi": "Kopi rumahan & kafe kecil di Indonesia yang pembelinya mulai peduli asal-usul biji, tapi tidak mau dipaksa paham istilah teknis.",
+    "bukan": [
+      "bukan roastery — kami tidak menyangrai sendiri",
+      "bukan kopi susu kekinian / minuman siap minum",
+      "bukan grosir termurah — harga punya lantai (margin tier)",
+      "bukan brand oleh-oleh — kemasan bukan suvenir",
+      "bukan penjual alat seduh atau mesin espresso"
+    ],
+    "kata_kunci_ceruk": ["kopi", "banyuwangi", "arabika", "robusta", "excelsa", "sangrai", "manual brew", "seduh", "biji", "giling", "tubruk", "v60", "petani", "ijen", "raung", "gayo", "kintamani", "semeru", "arjuno"]
+  },
+  "audiens": {
+    "segmen": [
+      {
+        "nama": "Pemula penasaran",
+        "umur": "22–32",
+        "kebutuhan": "kopi enak tanpa alat mahal, penjelasan sederhana",
+        "keberatan": "takut salah pilih; tidak punya grinder",
+        "kanal": "TikTok, IG Reels",
+        "harga_nyaman": "Rp23.000–46.000",
+        "pintu_masuk": "Raung 100 g / Night Drip bila tersedia"
+      },
+      {
+        "nama": "Rumahan rutin",
+        "umur": "28–45",
+        "kebutuhan": "stok bulanan yang bisa diulang, rasa konsisten",
+        "keberatan": "boros kalau salah; bingung pilih ukuran",
+        "kanal": "IG Carousel, WhatsApp Status",
+        "harga_nyaman": "Rp79.000–152.000",
+        "pintu_masuk": "Peta Rasa → langganan Solo 250 g"
+      },
+      {
+        "nama": "Pekerja kantor / WFH",
+        "umur": "25–40",
+        "kebutuhan": "kopi untuk kerja, praktis, tidak pahit",
+        "keberatan": "tidak mau ribet menimbang",
+        "kanal": "IG Reels, marketplace",
+        "harga_nyaman": "Rp83.000–180.000",
+        "pintu_masuk": "Blue Mount Ijen 250 g (giling sesuai alat)"
+      },
+      {
+        "nama": "Kafe & resto kecil",
+        "umur": "—",
+        "kebutuhan": "pasokan stabil 5–30 kg/bulan, harga jelas, termin",
+        "keberatan": "ragu konsistensi batch & kemampuan pasok",
+        "kanal": "WA langsung, kunjungan, penawaran B2B",
+        "harga_nyaman": "harga tier grosir",
+        "pintu_masuk": "sampel 2 × 250 g (dibayar) → 5 kg uji"
+      }
+    ]
+  },
+  "tawaran": {
+    "janji_utama": "Tanggal sangrai dan kode batch tercetak di tiap kantong; batch yang tidak lolos tidak dikirim.",
+    "bukti": ["batch-qc.csv", "label bertanggal sangrai", "cut-off 15.00 WIB", "harga katalog terbuka"],
+    "tangga": [
+      { "tingkat": "coba", "tawaran": "Raung 100 g", "harga": 23000, "tujuan": "menghapus risiko" },
+      { "tingkat": "paket", "tawaran": "Peta Rasa 3 × 100 g", "harga": 79000, "tujuan": "menaikkan nilai order" },
+      { "tingkat": "rutin", "tawaran": "Langganan Solo 250 g", "harga": 46000, "tujuan": "menaikkan repeat" },
+      { "tingkat": "grosir", "tawaran": "Tier 5–30 kg", "harga": 0, "tujuan": "akun B2B" }
+    ],
+    "larangan_janji": ["gratis ongkir tanpa keputusan", "diskon satuan", "garansi uang kembali", "member diskon (belum diputuskan)"]
+  },
+  "bahasa": {
+    "sapaan": "Anda",
+    "kata_dilarang": ["promo", "diskon", "buruan", "termurah", "nomor satu", "terbaik di", "dijamin", "pasti enak", "roastery kami", "menyangrai sendiri"],
+    "wajib_dalam_skrip": ["minimal satu angka atau tanggal", "minimal satu sumber data", "satu CTA WhatsApp"],
+    "panjang_kalimat_maks": 18,
+    "superlatif_dilarang": ["paling", "terbaik", "terlezat", "terkuat", "nomor satu"]
+  },
+  "pengecualian_makna_ganda": [
+    { "frasa": "nocturne", "kenapa": "di mesin pencari berarti genre musik klasik / nama merek lain", "tindakan": "jangan pernah jadi kata kunci tunggal; selalu 'nocturne koffie' atau 'nocturne kopi'" },
+    { "frasa": "kopi ijen", "kenapa": "bisa berarti kopi dari kafe Ijen, bukan dari gunung Ijen", "tindakan": "pakai 'Blue Mount Ijen' atau 'arabika Ijen 1.700–1.800 mdpl'" },
+    { "frasa": "kopi luwak", "kenapa": "isu etis & banyak penipuan; bukan ceruk kami", "tindakan": "jangan dibidik sebagai kata kunci, jangan dibahas kecuali ditanya" },
+    { "frasa": "kopi susu", "kenapa": "ceruk minuman siap saji, bukan biji", "tindakan": "hindari di judul listing; boleh muncul di komentar saja" },
+    { "frasa": "arabika murah", "kenapa": "menarik pembeli harga yang salah target", "tindakan": "ganti dengan 'arabika 100 g mulai Rp39.000' bila perlu menyebut harga" }
+  ],
+  "pesaing": [
+    { "nama": "Roastery besar nasional", "jenis": "roastery", "kanal": "IG + marketplace", "skala": "besar", "catatan": "menang volume & iklan; kalah di cerita petani lokal" },
+    { "nama": "Brand kopi daerah Banyuwangi", "jenis": "brand lokal", "kanal": "IG + WA", "skala": "sedang", "catatan": "pesaing langsung; umumnya tidak mencetak kode batch" },
+    { "nama": "Kafe lokal yang menjual biji", "jenis": "kafe", "kanal": "IG + offline", "skala": "kecil", "catatan": "menang kepercayaan rasa; kalah jangkauan" },
+    { "nama": "Toko marketplace generik", "jenis": "reseller", "kanal": "marketplace", "skala": "besar", "catatan": "menang harga & ulasan; tanpa cerita asal-usul" }
+  ],
+  "gaya_rekam": [
+    { "gaya": "Tangan saja (tanpa wajah)", "cocok_untuk": ["proses", "tutorial", "harga"], "alat": "tripod HP, cahaya jendela", "catatan": "paling mudah diulang; aman untuk pemilik yang tidak mau tampil" },
+    { "gaya": "Teks besar di atas latar gelap", "cocok_untuk": ["pengakuan", "larangan", "angka"], "alat": "tangkapan layar data + tools/kreatif.py", "catatan": "bisa dibuat tanpa merekam apa pun" },
+    { "gaya": "Produk berputar di meja", "cocok_untuk": ["harga", "banding"], "alat": "meja kayu + label", "catatan": "poster sudah tersedia di konten/" },
+    { "gaya": "Close-up bunyi (first crack)", "cocok_untuk": ["proses", "otoritas"], "alat": "HP dekat drum saat sangrai", "catatan": "audio asli lebih kuat daripada musik" },
+    { "gaya": "Layar catatan QC", "cocok_untuk": ["pengakuan", "otoritas"], "alat": "tangkapan spreadsheet batch-qc.csv", "catatan": "blur nama pembeli; angka boleh tampil" }
+  ]
+}

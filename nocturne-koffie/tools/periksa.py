@@ -45,6 +45,7 @@ HALAMAN = [
     "brand/index.html",
     "komersial/penawaran-b2b.html",
     "laporan/index.html",
+    "studio/index.html",
 ]
 
 DATA = [
@@ -52,13 +53,16 @@ DATA = [
     "data/kreatif.json", "data/legal.json", "data/batch-qc.csv", "data/pesanan.csv",
     "data/konten-14hari.csv", "data/kpi.csv", "data/riset-referensi.csv",
     "data/riset-komentar.csv", "data/riset-kata-kunci.csv",
+    "data/studio-niche.json", "data/studio-hooks.csv", "data/studio-industri.csv",
+    "studio/data.json", "studio/brief-senin.md",
 ]
 
 DOKUMEN = [
     "README.md", "operasional/00-struktur-divisi.md", "operasional/divisi/README.md",
     "marketing/09-media-kreator.md", "skills/README.md",
     "skills/social-media-riset/SKILL.md", "skills/komentar-mining/SKILL.md",
-    "skills/search-intent-riset/SKILL.md", "brand/README.md", "komersial/01-panduan-grosir.md",
+    "skills/search-intent-riset/SKILL.md", "skills/studio-konten/SKILL.md",
+    "brand/README.md", "komersial/01-panduan-grosir.md",
 ]
 
 KLAIM_TERLARANG = [
@@ -240,6 +244,60 @@ def periksa(catatan):
                 temuan.append(f"{h}: …{konteks}… ({alasan})")
     tambah("Klaim terlarang", "lolos" if not temuan else "gagal",
            f"{len(temuan)} temuan di {len(HALAMAN_PUBLIK)} halaman publik", "; ".join(temuan[:6]))
+
+    # 5b · skrip studio: harus lolos cek suara & asetnya ada
+    import csv as _csv
+    sdir = os.path.join(ROOT, "studio", "skrip")
+    skrip = sorted(f for f in os.listdir(sdir) if f.endswith(".md")) if os.path.isdir(sdir) else []
+    masalah_skrip = []
+    for f in skrip:
+        t = baca(os.path.join("studio", "skrip", f))
+        if "whatsapp" not in t.lower():
+            masalah_skrip.append(f"{f}: tanpa CTA WhatsApp")
+        if not re.search(r"\d|satu|dua|tiga|empat|lima|enam|tujuh", t, re.I):
+            masalah_skrip.append(f"{f}: tanpa angka sama sekali")
+        for m in re.finditer(r"`((?:reel|carousel|story|post)-[a-z0-9-]+)`", t):
+            if m.group(1) not in id_aset:
+                masalah_skrip.append(f"{f}: aset {m.group(1)} tidak ada di manifest")
+    if len(skrip) != 5:
+        masalah_skrip.append(f"jumlah skrip {len(skrip)}, seharusnya 5")
+    tambah("Skrip studio", "lolos" if not masalah_skrip else "gagal",
+           f"{len(skrip)} skrip siap rekam · {len(masalah_skrip)} masalah",
+           "; ".join(masalah_skrip[:6]))
+
+    # 5c · bank hook: status & struktur valid, aset ada, tidak ada hook kembar
+    with open(os.path.join(ROOT, "data", "studio-hooks.csv"), encoding="utf-8", newline="") as f:
+        bank = [r for r in _csv.DictReader(f) if (r.get("hook") or "").strip()]
+    import riset as _riset
+    kunci_struktur = {k for k, _, _ in _riset.HOOK}
+    masalah_hook = []
+    for i, r in enumerate(bank, 2):
+        if r["struktur"] not in kunci_struktur:
+            masalah_hook.append(f"baris {i}: struktur “{r['struktur']}” tidak dikenal")
+        if (r["status"] or "").strip() not in ("dipakai", "belum"):
+            masalah_hook.append(f"baris {i}: status “{r['status']}” harus dipakai/belum")
+        if r["aset"] and r["aset"] not in id_aset:
+            masalah_hook.append(f"baris {i}: aset {r['aset']} tidak ada")
+    judul = [r["hook"].strip().lower() for r in bank]
+    kembar = {j for j in judul if judul.count(j) > 1}
+    if kembar:
+        masalah_hook.append("hook kembar: " + ", ".join(list(kembar)[:3]))
+    tambah("Bank hook", "lolos" if not masalah_hook else "gagal",
+           f"{len(bank)} hook · {sum(1 for r in bank if r['status'] == 'dipakai')} dipakai · "
+           f"{len(bank) - sum(1 for r in bank if r['status'] == 'dipakai')} tersedia",
+           "; ".join(masalah_hook[:6]))
+
+    # 5d · peta kerangka 50 slot: jumlah & label harus utuh
+    st = json.loads(baca("studio/data.json"))
+    peta = st.get("peta", {})
+    total_slot = sum(peta.values()) if peta else 0
+    label_salah = [k for k in ("otomatis", "manual", "tidak") if k not in peta]
+    if total_slot != 50:
+        label_salah.append(f"jumlah slot {total_slot}, seharusnya 50")
+    tambah("Peta 50 slot", "lolos" if not label_salah else "gagal",
+           f"{peta.get('otomatis', 0)} otomatis · {peta.get('manual', 0)} manual · "
+           f"{peta.get('tidak', 0)} tidak dipakai (total {total_slot})",
+           "; ".join(label_salah))
 
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \

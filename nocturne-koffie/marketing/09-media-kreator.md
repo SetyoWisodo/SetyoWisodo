@@ -87,6 +87,27 @@ jangan menambahkan intro ("Halo semuanya, kali ini…").
 Hook yang **tidak boleh** dipakai: "promo", "buruan", "diskon", "termurah", "nomor satu",
 "terbaik di Banyuwangi", "fresh from the roastery" tanpa tanggal.
 
+### 4b. Bank hook versi mesin — `data/studio-hooks.csv`
+
+12 hook di atas adalah yang sudah terjadwal. Bank lengkapnya sekarang **30 hook** di
+`data/studio-hooks.csv` dengan kolom `struktur` (10 kategori), `pilar`, `aset`, dan `status`
+(`dipakai` / `belum`). `tools/studio.py` membaca berkas ini, mengurutkan berdasarkan lift median
+struktur, lalu memilih **satu film pertama** — hanya dari hook yang asetnya benar-benar ada di
+`data/kreatif.json`.
+
+Siklus yang dipakai (bukan 50 agent, tapi 4 perintah):
+
+| Langkah | Perintah / berkas | Yang diputuskan |
+| --- | --- | --- |
+| pilih hook | `python3 tools/studio.py` → §05 | satu hook, satu struktur, satu aset |
+| tulis skrip | `studio/skrip/skrip-01..05-*.md` | 9 detik: hook 3s + 2 baris bukti + CTA |
+| cek suara | otomatis (`cek_suara`) | kata terlarang, superlatif, kalimat > 18 kata, angka, CTA |
+| rekam | `studio/skrip/`, shot list per struktur | 8–10 klip sesuai 5 skrip |
+| tandai | ubah `status` jadi `dipakai` | supaya tidak terpilih lagi minggu depan |
+
+Aturan tambahan: **jangan menulis hook baru sebelum 18 hook `belum` habis.** Menambah bank lebih
+cepat daripada memakai bank adalah cara paling umum membuat jadwal macet.
+
 ---
 
 ## 5. Jadwal batch 1 (3–20 Nov 2026)
@@ -180,6 +201,7 @@ Catat ketiga angka di `data/kpi.csv` setiap Jumat; papan akan membandingkannya d
 
 | Kapan | Aktivitas | Keluaran |
 | --- | --- | --- |
+| Senin 5 menit | baca `studio/brief-senin.md`, ambil 1 keputusan (dobel/hentikan/uji) | keputusan minggu |
 | Saat produksi (Senin) | rekam 8–10 klip 30–60 detik, tanpa bicara | klip mentah |
 | Sabtu 20 menit | `tools/kreatif.py` + pilih 5 klip terbaik | aset + manifest |
 | Selasa 90 menit | tulis caption, jadwalkan 7 aset | CSV terisi |
@@ -188,3 +210,28 @@ Catat ketiga angka di `data/kpi.csv` setiap Jumat; papan akan membandingkannya d
 
 **Aturan stok:** selalu sisakan minimal **5 aset siap** yang belum tayang. Kalau stok < 5,
 minggu itu prioritasnya merekam, bukan menjadwalkan.
+
+---
+
+## 11. Studio 10 tahap — dari angka ke skrip
+
+Kerangka "full social media team" (10 folder, 50 agent) dijalankan `tools/studio.py` sebagai
+**fungsi deterministik**: 46 slot otomatis, 2 manual, 2 sengaja tidak dipakai. Alasannya biaya —
+50 agent LLM berarti 50 kali token untuk pekerjaan yang sebagian besar berupa median, lift, dan
+pengecekan kata terlarang. Hitungan seperti itu lebih murah, lebih cepat, dan bisa diperiksa ulang.
+
+| Tahap | Untuk D3 | Untuk D4 |
+| ---: | --- | --- |
+| 01 niche | pagar positioning & kata terlarang | bahasa yang boleh dipakai |
+| 02 pesaing | siapa yang dipantau, catatan industri | rencana video jawaban |
+| 03 outlier | pola yang naik, dead views | acuan struktur, bukan footage |
+| 04 kreator | watchlist ≥2 outlier | referensi gaya, bukan tiruan |
+| 05 hook | pilih film pertama | hook + aset siap |
+| 06 format | format prioritas per platform | gaya rekam & shot list |
+| 07 skrip | cek suara, CTA, sumber klaim | 5 skrip 9 detik siap rekam |
+| 08 skala | pola yang disimpan | 3 remix per pemenang |
+| 09 lapor | dobel / hentikan / uji | antrean rekam |
+| 10 ops | jadwal mingguan | cek pemakaian ulang |
+
+Batasnya jelas: studio **merencanakan**, tidak menayangkan. Semua keputusan dari baris `contoh`
+masih berlabel contoh sampai `data/riset-referensi.csv` diisi baris `asli`.

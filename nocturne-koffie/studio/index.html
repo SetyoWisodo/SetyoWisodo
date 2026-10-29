@@ -1,0 +1,359 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Studio Konten — Nocturne Koffie</title><meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F5EFE4;--paper2:#EFE6D6;--ink:#16110D;--muted:#6b6156;--orange:#E1542B;
+--gold:#D9A441;--espresso:#4A2C1A;--line:1px solid rgba(22,17,13,.14);--green:#1f6b3a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 Inter,system-ui,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:34px clamp(16px,4vw,40px) 76px}
+h1{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:clamp(30px,5vw,47px);line-height:.98;
+letter-spacing:-.035em;margin:6px 0 8px;font-weight:800}
+h2{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:clamp(20px,2.5vw,27px);letter-spacing:-.02em;
+margin:42px 0 4px;border-top:2px solid var(--ink);padding-top:13px}
+h2 small{display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);
+font-weight:600;margin-bottom:6px}
+h3{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:16.5px;margin:0 0 4px}
+.kicker{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.lede{max-width:74ch;color:var(--muted);margin:0 0 8px;font-size:14.4px}
+.grid{display:grid;gap:13px}
+.kpi{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:16px}
+.kpi div{border:var(--line);border-radius:8px;padding:12px 14px;background:#fff8}
+.kpi span{display:block;font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}
+.kpi b{display:block;font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:24px;letter-spacing:-.02em;line-height:1.1;margin:4px 0 1px}
+.kpi em{font-size:11.5px;color:var(--muted);font-style:normal}
+table{width:100%;border-collapse:collapse;font-size:13.1px;margin-top:10px}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid rgba(22,17,13,.12);vertical-align:top}
+th{font-size:10.4px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+tr.grup td{background:var(--paper2);font-weight:600;font-size:12px;letter-spacing:.05em}
+.pill{display:inline-block;font-size:10.3px;padding:2px 7px;border-radius:99px;border:1px solid;white-space:nowrap}
+.pill.ok{color:var(--green);border-color:var(--green);background:#e8f2ea}
+.pill.warn{color:#8a5a00;border-color:#b78621;background:#fbf1d9}
+.pill.dim{color:var(--muted);border-color:rgba(22,17,13,.2)}
+.pill.hot{color:#fff;border-color:var(--orange);background:var(--orange)}
+.cards{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-top:14px}
+.card{border:var(--line);border-radius:8px;padding:15px 17px;background:#fff8}
+.card .meta{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 5px}
+.card ul{margin:6px 0 0;padding-left:17px;font-size:13.2px}
+.hook{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:15px;background:var(--paper2);
+padding:7px 11px;border-radius:4px;margin:7px 0;line-height:1.3}
+.beat{display:grid;grid-template-columns:56px 1fr;gap:10px;padding:7px 0;border-bottom:1px dashed rgba(22,17,13,.16);font-size:13.4px}
+.beat:last-child{border-bottom:0}
+.beat b{font-variant-numeric:tabular-nums;color:var(--orange)}
+.note{border-left:4px solid var(--gold);background:#fbf1d9;padding:11px 15px;border-radius:4px;font-size:13px;margin:16px 0 0}
+.note b{display:block;margin-bottom:2px}
+code{background:var(--paper2);padding:1px 5px;border-radius:3px;font-size:12px}
+footer{margin-top:42px;border-top:2px solid var(--ink);padding-top:13px;font-size:12px;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:8px 22px;justify-content:space-between}
+a{color:inherit}
+</style></head><body><div class="wrap">
+<p class="kicker">D3 Marketing × D4 Kreatif · 10 tahap · dibuat 30 Oktober 2026</p>
+<h1>Studio konten</h1>
+<p class="lede">Kerangka 10 folder / 50 agent dijalankan sebagai <b>fungsi deterministik</b>: tiap tahap
+membaca berkas, menghitung, dan menulis keluaran yang bisa diperiksa. Yang tidak bisa dihitung mesin
+ditandai <span class="pill warn">manual</span> — bukan diklaim otomatis.</p>
+<div class="note"><b>Status data: belum ada data asli</b>
+27 baris referensi, dan belum ada yang berstatus <code>asli</code> — semuanya <code>contoh</code>.
+Artinya urutan dan pola di halaman ini <b>contoh cara kerja</b>, bukan bukti tentang pasar.
+Begitu Anda mengisi baris asli (tanggal ambil + tautan), angkanya berubah sendiri dan baru bisa dipakai
+memutuskan. Confidence hanya dihitung dari baris <code>asli</code>.</div>
+<div class="grid kpi">
+  <div><span>Tahap</span><b>10</b><em>dari niche sampai ops</em></div>
+  <div><span>Slot kerangka</span><b>50</b><em>46 otomatis · 2 manual · 2 tidak dipakai</em></div>
+  <div><span>Bank hook</span><b>30</b><em>18 belum dipakai</em></div>
+  <div><span>Skrip</span><b>5</b><em>5 siap rekam</em></div>
+  <div><span>Outlier ceruk</span><b>23</b><em>dari 27 post dianalisis</em></div>
+  <div><span>Watchlist kreator</span><b>1</b><em>syarat: ≥2 outlier &amp; aktif ≤30 hari</em></div>
+</div>
+<h2><small>Tahap 01 · niche research</small>Ceruk, audiens, tawaran</h2>
+<p class="lede">Kopi specialty dari Banyuwangi yang menyebut nama petani, desa, ketinggian, tanggal sangrai, dan kode batch — disangrai mingguan oleh Ais Coffee Roastery.</p>
+<div class="grid cards">
+  <article class="card"><p class="meta">Bukan (pagar positioning)</p><ul>
+    <li>bukan roastery — kami tidak menyangrai sendiri</li><li>bukan kopi susu kekinian / minuman siap minum</li><li>bukan grosir termurah — harga punya lantai (margin tier)</li><li>bukan brand oleh-oleh — kemasan bukan suvenir</li><li>bukan penjual alat seduh atau mesin espresso</li></ul></article>
+  <article class="card"><p class="meta">Kata kunci ceruk</p>
+    <p style="font-size:13px;margin:0">kopi, banyuwangi, arabika, robusta, excelsa, sangrai, manual brew, seduh, biji, giling, tubruk, v60, petani, ijen …</p>
+    <p class="meta" style="margin-top:10px">Kata dilarang di skrip</p>
+    <p style="font-size:13px;margin:0">promo, diskon, buruan, termurah, nomor satu, terbaik di, dijamin, pasti enak …</p></article>
+</div>
+<table><thead><tr><th>Segmen</th><th>Kebutuhan</th><th>Keberatan</th><th>Kanal</th><th class="num">Harga nyaman</th><th>Pintu masuk</th></tr></thead><tbody>
+<tr><td><b>Pemula penasaran</b><br><span class="kicker">22–32</span></td><td>kopi enak tanpa alat mahal, penjelasan sederhana</td><td>takut salah pilih; tidak punya grinder</td><td>TikTok, IG Reels</td><td class="num">Rp23.000–46.000</td><td>Raung 100 g / Night Drip bila tersedia</td></tr><tr><td><b>Rumahan rutin</b><br><span class="kicker">28–45</span></td><td>stok bulanan yang bisa diulang, rasa konsisten</td><td>boros kalau salah; bingung pilih ukuran</td><td>IG Carousel, WhatsApp Status</td><td class="num">Rp79.000–152.000</td><td>Peta Rasa → langganan Solo 250 g</td></tr><tr><td><b>Pekerja kantor / WFH</b><br><span class="kicker">25–40</span></td><td>kopi untuk kerja, praktis, tidak pahit</td><td>tidak mau ribet menimbang</td><td>IG Reels, marketplace</td><td class="num">Rp83.000–180.000</td><td>Blue Mount Ijen 250 g (giling sesuai alat)</td></tr><tr><td><b>Kafe &amp; resto kecil</b><br><span class="kicker">—</span></td><td>pasokan stabil 5–30 kg/bulan, harga jelas, termin</td><td>ragu konsistensi batch &amp; kemampuan pasok</td><td>WA langsung, kunjungan, penawaran B2B</td><td class="num">harga tier grosir</td><td>sampel 2 × 250 g (dibayar) → 5 kg uji</td></tr>
+</tbody></table>
+<h3 style="margin-top:18px">Tangga tawaran</h3>
+<table><thead><tr><th>Tingkat</th><th>Tawaran</th><th class="num">Harga</th><th>Tujuan</th></tr></thead><tbody>
+<tr><td>coba</td><td>Raung 100 g</td><td class="num">Rp23.000</td><td>menghapus risiko</td></tr><tr><td>paket</td><td>Peta Rasa 3 × 100 g</td><td class="num">Rp79.000</td><td>menaikkan nilai order</td></tr><tr><td>rutin</td><td>Langganan Solo 250 g</td><td class="num">Rp46.000</td><td>menaikkan repeat</td></tr><tr><td>grosir</td><td>Tier 5–30 kg</td><td class="num">sesuai tier</td><td>akun B2B</td></tr>
+</tbody></table>
+<h3 style="margin-top:18px">Pencari frasa — usulan dari komentar pembeli</h3>
+<table><thead><tr><th>Usulan frasa</th><th>Asal</th><th>Status</th></tr></thead><tbody>
+<tr><td><b>kopi di kulkas berbau</b></td><td>“saya simpan di kulkas malah berbau kulkas…”</td><td><span class="pill warn">usulan — cek manual</span></td></tr>
+<tr><td><b>kopi pahit karena gilingan suhu</b></td><td>“pahitnya karena gilingan atau suhu air?…”</td><td><span class="pill warn">usulan — cek manual</span></td></tr>
+<tr><td><b>kopi minggu rasa hambar</b></td><td>“baru beli 2 minggu tapi rasanya hambar…”</td><td><span class="pill warn">usulan — cek manual</span></td></tr>
+<tr><td><b>kopi beda robusta arabika</b></td><td>“bedanya robusta sama arabika apa ya…”</td><td><span class="pill warn">usulan — cek manual</span></td></tr>
+<tr><td><b>kopi ke luar jawa</b></td><td>“bisa kirim ke luar jawa?…”</td><td><span class="pill warn">usulan — cek manual</span></td></tr>
+<tr><td><b>kopi rugi</b></td><td>“kok berani buang? rugi dong…”</td><td><span class="pill warn">usulan — cek manual</span></td></tr>
+<tr><td><b>kopi cod banyuwangi kota</b></td><td>“bisa COD Banyuwangi kota?…”</td><td><span class="pill warn">usulan — cek manual</span></td></tr>
+</tbody></table>
+<h3 style="margin-top:18px">Makna ganda — frasa yang tidak boleh jadi kata kunci tunggal</h3><table><thead><tr><th>Frasa</th><th>Kenapa</th><th>Tindakan</th><th>Kena di kata kunci</th></tr></thead><tbody>
+<tr><td><b>nocturne</b></td><td>di mesin pencari berarti genre musik klasik / nama merek lain</td><td>jangan pernah jadi kata kunci tunggal; selalu &#x27;nocturne koffie&#x27; atau &#x27;nocturne kopi&#x27;</td><td><span class="pill ok">aman</span></td></tr>
+<tr><td><b>kopi ijen</b></td><td>bisa berarti kopi dari kafe Ijen, bukan dari gunung Ijen</td><td>pakai &#x27;Blue Mount Ijen&#x27; atau &#x27;arabika Ijen 1.700–1.800 mdpl&#x27;</td><td><span class="pill ok">aman</span></td></tr>
+<tr><td><b>kopi luwak</b></td><td>isu etis &amp; banyak penipuan; bukan ceruk kami</td><td>jangan dibidik sebagai kata kunci, jangan dibahas kecuali ditanya</td><td><span class="pill ok">aman</span></td></tr>
+<tr><td><b>kopi susu</b></td><td>ceruk minuman siap saji, bukan biji</td><td>hindari di judul listing; boleh muncul di komentar saja</td><td><span class="pill ok">aman</span></td></tr>
+<tr><td><b>arabika murah</b></td><td>menarik pembeli harga yang salah target</td><td>ganti dengan &#x27;arabika 100 g mulai Rp39.000&#x27; bila perlu menyebut harga</td><td><span class="pill ok">aman</span></td></tr>
+</tbody></table>
+<h2><small>Tahap 02 · competitor tracking</small>Pesaing, industri, video jawaban</h2>
+<p class="lede">Peringkat di bawah adalah <b>akun yang benar-benar kita tangkap</b> di
+<code>data/riset-referensi.csv</code> — bukan klaim "top 50 perusahaan industri".</p>
+<table><thead><tr><th>Akun</th><th class="num">Post</th><th class="num">Views median</th><th class="num">Pengikut</th></tr></thead><tbody>
+<tr><td>(contoh) akun kopi spesialti ID</td><td class="num">10</td><td class="num">142 rb</td><td class="num">48 rb</td></tr>
+<tr><td>(contoh) brand kopi daerah</td><td class="num">15</td><td class="num">58 rb</td><td class="num">21 rb</td></tr>
+<tr><td>(contoh) toko kopi marketplace</td><td class="num">2</td><td class="num">10 rb</td><td class="num">5 rb</td></tr>
+</tbody></table>
+<h3 style="margin-top:18px">Catatan industri (dicatat manual)</h3><table><thead><tr><th>Tanggal</th><th>Sumber</th><th>Topik</th><th>Dampak</th><th>Tindakan</th></tr></thead><tbody>
+<tr><td>2026-10-24</td><td>(contoh) pengumuman platform</td><td>Perubahan jangkauan konten video pendek di beranda</td><td>jangkauan organik reels bisa turun 10-20%</td><td>perkuat simpan &amp; bagikan, bukan sekadar tayangan</td></tr>
+<tr><td>2026-10-25</td><td>(contoh) komunitas kopi</td><td>Makin banyak brand lokal mencetak tanggal sangrai</td><td>keunggulan &quot;&quot;tanggal sangrai&quot;&quot; mulai jadi standar</td><td>pindah penekanan ke kode batch + catatan QC</td></tr>
+<tr><td>2026-10-26</td><td>(contoh) marketplace</td><td>Biaya iklan marketplace naik</td><td>biaya per chat bisa naik</td><td>uji organik dulu; iklan hanya bila biaya per chat &lt;= Rp25.000</td></tr>
+<tr><td>2026-10-27</td><td>(contoh) tren konsumen</td><td>Permintaan kopi robusta lokal naik</td><td>peluang untuk Raung &amp; Arjuno</td><td>siapkan stok Raung; jadikan pintu masuk termurah</td></tr>
+</tbody></table>
+<h3 style="margin-top:18px">Rencana video jawaban</h3><div class="grid cards">
+<article class="card"><p class="meta">tiktok · lift 2,9× · Perbandingan A vs B</p>
+  <h3>Jawab dengan sudut kita</h3>
+  <div class="hook">Arabika Ijen vs robusta Raung: ketinggian, rasa, dan cara seduhnya</div>
+  <ul><li><b>Acuan:</b> “Kopi Rp50 ribu vs Rp150 ribu — bedanya di mana?”</li>
+    <li><b>Sudut:</b> Perbandingan jujur</li>
+    <li><b>Aset:</b> <code>carousel-02a</code></li>
+    <li><b>Alasan:</b> pola yang sama bekerja 2,9× untuk akun itu; kita pakai dengan bukti milik sendiri</li></ul></article>
+<article class="card"><p class="meta">tiktok · lift 2,3× · Diagnosis masalah</p>
+  <h3>Jawab dengan sudut kita</h3>
+  <div class="hook">Kopi pahit padahal baru beli: cek tanggal sangrai, gilingan, lalu suhu air</div>
+  <ul><li><b>Acuan:</b> “Barista jelasin kenapa kopi kafe terasa lebih kuat”</li>
+    <li><b>Sudut:</b> Diagnosis masalah</li>
+    <li><b>Aset:</b> <code>reel-tanggal-sangrai</code></li>
+    <li><b>Alasan:</b> pola yang sama bekerja 2,3× untuk akun itu; kita pakai dengan bukti milik sendiri</li></ul></article>
+</div>
+<h2><small>Tahap 03 · outlier videos</small>Ranking, filter ceruk, dead views</h2>
+<p class="lede">23 post masuk ceruk, 4 di luar ceruk (tetap dihitung baseline,
+tidak dipakai sebagai pola). Dead views = views &lt; 50% baseline: 10 post.</p>
+<table><thead><tr><th>#</th><th>Hook</th><th>Struktur</th><th class="num">Views</th><th class="num">Lift</th>
+<th class="num">ER</th><th class="num">Simpan</th><th>Status data</th></tr></thead><tbody>
+<tr><td class="num">1</td><td>Kopi Rp50 ribu vs Rp150 ribu — bedanya di mana?</td><td>Perbandingan A vs B</td><td class="num">412 rb</td><td class="num"><span class="pill ok">2,9×</span></td><td class="num">6,0%</td><td class="num">0,8%</td><td><span class="pill dim">contoh</span></td></tr>
+<tr><td class="num">2</td><td>Barista jelasin kenapa kopi kafe terasa lebih kuat</td><td>Diagnosis masalah</td><td class="num">320 rb</td><td class="num"><span class="pill ok">2,3×</span></td><td class="num">6,3%</td><td class="num">0,8%</td><td><span class="pill dim">contoh</span></td></tr>
+<tr><td class="num">3</td><td>Aku salah simpan kopi 3 bulan, ini yang terjadi</td><td>Larangan / peringatan</td><td class="num">260 rb</td><td class="num"><span class="pill warn">1,8×</span></td><td class="num">6,9%</td><td class="num">0,8%</td><td><span class="pill dim">contoh</span></td></tr>
+<tr><td class="num">4</td><td>Kenapa kopimu pahit padahal baru beli</td><td>Diagnosis masalah</td><td class="num">210 rb</td><td class="num"><span class="pill dim">1,5×</span></td><td class="num">6,8%</td><td class="num">1,2%</td><td><span class="pill dim">contoh</span></td></tr>
+<tr><td class="num">5</td><td>Kami buang 3 kg kopi minggu ini</td><td>Pengakuan / biaya nyata</td><td class="num">186 rb</td><td class="num"><span class="pill dim">1,3×</span></td><td class="num">9,0%</td><td class="num">1,0%</td><td><span class="pill dim">contoh</span></td></tr>
+<tr><td class="num">6</td><td>Tiga tanda kopi sudah tidak layak diseduh</td><td>Angka / daftar</td><td class="num">130 rb</td><td class="num"><span class="pill warn">1,8×</span></td><td class="num">9,6%</td><td class="num">2,4%</td><td><span class="pill dim">contoh</span></td></tr>
+<tr><td class="num">7</td><td>Kopi 250 g vs 1 kg — mana yang lebih hemat?</td><td>Perbandingan A vs B</td><td class="num">112 rb</td><td class="num"><span class="pill warn">1,6×</span></td><td class="num">9,0%</td><td class="num">2,1%</td><td><span class="pill dim">contoh</span></td></tr>
+<tr><td class="num">8</td><td>Tiga kesalahan menyimpan kopi</td><td>Angka / daftar</td><td class="num">98 rb</td><td class="num"><span class="pill dim">0,7×</span></td><td class="num">8,4%</td><td class="num">2,1%</td><td><span class="pill dim">contoh</span></td></tr>
+</tbody></table>
+<h2><small>Tahap 04 · outlier creators</small>Kreator yang layak dipantau</h2>
+<p class="lede">Masuk watchlist bila dua syarat terpenuhi: <b>≥2 outlier</b> dan <b>aktif ≤30 hari</b>.
+Satu video meledak belum membuktikan apa pun.</p>
+<table><thead><tr><th>Akun</th><th class="num">Post</th><th class="num">Outlier</th><th class="num">Interaksi/1K</th>
+<th class="num">Views median</th><th>Riwayat ≤30 hari</th><th>Watchlist</th></tr></thead><tbody>
+<tr><td>(contoh) akun kopi spesialti ID<br><span class="kicker">tiktok</span></td><td class="num">10</td><td class="num">2</td><td class="num">69,3</td><td class="num">142 rb</td><td><span class="pill ok">ya</span></td><td><span class="pill hot">pantau</span></td></tr>
+<tr><td>(contoh) brand kopi daerah<br><span class="kicker">instagram</span></td><td class="num">15</td><td class="num">0</td><td class="num">89,0</td><td class="num">58 rb</td><td><span class="pill ok">ya</span></td><td><span class="pill dim">—</span></td></tr>
+<tr><td>(contoh) toko kopi marketplace<br><span class="kicker">marketplace</span></td><td class="num">2</td><td class="num">0</td><td class="num">38,0</td><td class="num">10 rb</td><td><span class="pill ok">ya</span></td><td><span class="pill dim">—</span></td></tr>
+</tbody></table>
+<h2><small>Tahap 05 · hooks</small>Bank hook &amp; pilih film pertama</h2>
+<div class="grid cards">
+  <article class="card"><p class="meta">Film pertama minggu ini</p>
+    <div class="hook">Kopi pahit padahal baru beli? Cek tiga hal ini.</div>
+    <ul><li><b>Struktur:</b> Diagnosis masalah</li>
+      <li><b>Lift median struktur:</b> 2,3×</li>
+      <li><b>Aset:</b> <code>reel-tanggal-sangrai</code></li>
+      <li><b>Kenapa ini:</b> lift tertinggi di antara hook yang asetnya sudah siap dan belum dipakai.</li></ul>
+  </article>
+  <article class="card"><p class="meta">Hitung struktur</p>
+    <table style="margin-top:0"><tbody>
+    <tr><td>Diagnosis masalah</td><td class="num">2/4</td><td class="num">2,3×</td></tr><tr><td>Perbandingan A vs B</td><td class="num">2/3</td><td class="num">2,2×</td></tr><tr><td>Angka / daftar</td><td class="num">3/7</td><td class="num">1,8×</td></tr><tr><td>Larangan / peringatan</td><td class="num">2/3</td><td class="num">1,8×</td></tr><tr><td>Pengakuan / biaya nyata</td><td class="num">3/4</td><td class="num">1,7×</td></tr><tr><td>Proses di balik layar</td><td class="num">1/4</td><td class="num">—</td></tr><tr><td>Otoritas / orang dalam</td><td class="num">2/2</td><td class="num">—</td></tr><tr><td>Relatable / POV</td><td class="num">1/1</td><td class="num">—</td></tr><tr><td>Tutorial langkah</td><td class="num">1/1</td><td class="num">—</td></tr><tr><td>Harga / penawaran</td><td class="num">1/1</td><td class="num">—</td></tr>
+    </tbody></table>
+    <p class="meta" style="margin-top:8px">kolom: belum dipakai / total · lift median</p>
+  </article>
+</div>
+<h2><small>Tahap 06 · formats &amp; trends</small>Format, gaya rekam, kuartal</h2><table><thead><tr><th>Platform</th><th>Format</th><th class="num">Post</th><th class="num">ER median</th><th class="num">Lift median</th><th class="num">Durasi</th></tr></thead><tbody>
+<tr><td>instagram</td><td><b>carousel</b></td><td class="num">10</td><td class="num">9,2%</td><td class="num">1,0×</td><td class="num">4s</td></tr>
+<tr><td>tiktok</td><td><b>reel</b></td><td class="num">10</td><td class="num">7,1%</td><td class="num">1,0×</td><td class="num">24s</td></tr>
+</tbody></table>
+<div class="grid cards">
+  <article class="card"><p class="meta">Kuartal atas · lift median 1,8×</p>
+    <ul><li>Format: reel (3), carousel (2)</li>
+      <li>Struktur: Larangan / peringatan (1), Perbandingan A vs B (2), Angka / daftar (1), Diagnosis masalah (1)</li>
+      <li>Durasi median: 21s</li></ul>
+    <p class="meta" style="margin-top:8px">Contoh</p>
+    <div class="hook" style="font-size:13.5px">Barista jelasin kenapa kopi kafe terasa lebih kuat</div><div class="hook" style="font-size:13.5px">Kopi Rp50 ribu vs Rp150 ribu — bedanya di mana?</div>
+  </article>
+  <article class="card"><p class="meta">Kuartal bawah · lift median 0,3×</p>
+    <ul><li>Format: reel (2), post (3)</li>
+      <li>Struktur: Harga / penawaran (1), Proses di balik layar (1), Angka / daftar (1), Tutorial langkah (2)</li>
+      <li>Durasi median: 1s</li></ul>
+    <p class="meta" style="margin-top:8px">Jangan ditiru</p>
+    <div class="hook" style="font-size:13.5px">Cara menyeduh kopi tanpa alat mahal</div><div class="hook" style="font-size:13.5px">Tiga alat seduh di bawah 100 ribu</div>
+  </article>
+</div>
+<h3 style="margin-top:18px">Pemetaan gaya rekam</h3><table><thead><tr><th>Gaya</th><th>Cocok untuk struktur</th><th>Alat</th><th>Catatan</th></tr></thead><tbody>
+<tr><td><b>Tangan saja (tanpa wajah)</b></td><td>proses, tutorial, harga</td><td>tripod HP, cahaya jendela</td><td>paling mudah diulang; aman untuk pemilik yang tidak mau tampil</td></tr>
+<tr><td><b>Teks besar di atas latar gelap</b></td><td>pengakuan, larangan, angka</td><td>tangkapan layar data + tools/kreatif.py</td><td>bisa dibuat tanpa merekam apa pun</td></tr>
+<tr><td><b>Produk berputar di meja</b></td><td>harga, banding</td><td>meja kayu + label</td><td>poster sudah tersedia di konten/</td></tr>
+<tr><td><b>Close-up bunyi (first crack)</b></td><td>proses, otoritas</td><td>HP dekat drum saat sangrai</td><td>audio asli lebih kuat daripada musik</td></tr>
+<tr><td><b>Layar catatan QC</b></td><td>pengakuan, otoritas</td><td>tangkapan spreadsheet batch-qc.csv</td><td>blur nama pembeli; angka boleh tampil</td></tr>
+</tbody></table>
+<h2><small>Tahap 07 · scripts</small>Lima skrip 9 detik</h2><p class="lede">Format 9 detik: hook 3 detik, dua baris bukti, satu CTA. Semua skrip lolos cek suara: tanpa kata terlarang, kalimat ≤ 18 kata, ada angka, ada CTA, dan setiap klaim menyebut berkas sumber.</p>
+<article class="card" style="margin-top:12px">
+  <p class="meta">Skrip 01 · Angka / daftar · Bukti · 9s ·
+    <span class="pill ok">siap rekam</span> · suara 100/100</p>
+  <h3>Satu kantong, tiga angka yang bisa Anda cek.</h3>
+  <div class="beat"><b>3s</b><div>Satu kantong, tiga angka yang bisa Anda cek.<br><span class="kicker">brand/label-ijen.png</span></div></div><div class="beat"><b>2s</b><div>Tanggal sangrai, kode batch, level roast 1–5 — semuanya tercetak di label.<br><span class="kicker">brand/label-ijen.png</span></div></div><div class="beat"><b>2s</b><div>Cocokkan kode batch dengan catatan QC yang kami simpan.<br><span class="kicker">batch-qc.csv</span></div></div><div class="beat"><b>2s</b><div>Cek label, lalu tanya apa pun lewat WhatsApp.<br><span class="kicker">—</span></div></div>
+  <p class="lede" style="margin-top:8px;font-size:13px"><b>Shot list:</b> Tiga kartu teks berisi angka → kantong kopi &amp; alat seduh di meja<br>
+    <b>Aset:</b> <code>carousel-01c</code> · <b>Sumber:</b> <code>batch-qc.csv</code>, <code>brand/label-ijen.png</code></p>
+</article>
+<article class="card" style="margin-top:12px">
+  <p class="meta">Skrip 02 · Larangan / peringatan · Bukti · 9s ·
+    <span class="pill ok">siap rekam</span> · suara 100/100</p>
+  <h3>Kopi tidak punya tanggal kedaluwarsa yang jujur.</h3>
+  <div class="beat"><b>3s</b><div>Kopi tidak punya tanggal kedaluwarsa yang jujur.<br><span class="kicker">catalog.json</span></div></div><div class="beat"><b>2s</b><div>Yang menentukan bukan kedaluwarsa, tapi jarak dari tanggal sangrai.<br><span class="kicker">catalog.json</span></div></div><div class="beat"><b>2s</b><div>Puncak rasa 7–21 hari. Lewat 60 hari masih aman, tapi tidak lagi sama.<br><span class="kicker">catalog.json</span></div></div><div class="beat"><b>2s</b><div>Pesan lewat WhatsApp — sebutkan metode seduh &amp; kota Anda.<br><span class="kicker">—</span></div></div>
+  <p class="lede" style="margin-top:8px;font-size:13px"><b>Shot list:</b> Kopi di dalam kulkas → diangkat → dipindah ke wadah kedap<br>
+    <b>Aset:</b> <code>carousel-01a</code> · <b>Sumber:</b> <code>catalog.json</code></p>
+</article>
+<article class="card" style="margin-top:12px">
+  <p class="meta">Skrip 03 · Larangan / peringatan · Edukasi · 9s ·
+    <span class="pill ok">siap rekam</span> · suara 100/100</p>
+  <h3>Jangan simpan kopi di kulkas.</h3>
+  <div class="beat"><b>3s</b><div>Jangan simpan kopi di kulkas.<br><span class="kicker">studio-niche.json</span></div></div><div class="beat"><b>2s</b><div>Uap dapur masuk lewat valve, aroma bumbu ikut pindah ke biji.<br><span class="kicker">studio-niche.json</span></div></div><div class="beat"><b>2s</b><div>Cukup wadah kedap, tempat gelap, suhu ruang. Puncak rasa 7–21 hari.<br><span class="kicker">catalog.json</span></div></div><div class="beat"><b>2s</b><div>Pesan lewat WhatsApp — sebutkan metode seduh &amp; kota Anda.<br><span class="kicker">—</span></div></div>
+  <p class="lede" style="margin-top:8px;font-size:13px"><b>Shot list:</b> Kopi di dalam kulkas → diangkat → dipindah ke wadah kedap<br>
+    <b>Aset:</b> <code>story-01</code> · <b>Sumber:</b> <code>catalog.json</code>, <code>studio-niche.json</code></p>
+</article>
+<article class="card" style="margin-top:12px">
+  <p class="meta">Skrip 04 · Angka / daftar · Edukasi · 9s ·
+    <span class="pill ok">siap rekam</span> · suara 100/100</p>
+  <h3>Gilingan Anda menentukan 40% rasanya.</h3>
+  <div class="beat"><b>3s</b><div>Gilingan Anda menentukan 40% rasanya.<br><span class="kicker">catalog.json</span></div></div><div class="beat"><b>2s</b><div>Terlalu halus: pahit dan sepat. Terlalu kasar: asam dan hambar.<br><span class="kicker">catalog.json</span></div></div><div class="beat"><b>2s</b><div>Sebut alat seduh Anda, kami giling di ukuran yang sesuai.<br><span class="kicker">catalog.json</span></div></div><div class="beat"><b>2s</b><div>Tanya ukuran giling lewat WhatsApp, sebut alat seduh Anda.<br><span class="kicker">—</span></div></div>
+  <p class="lede" style="margin-top:8px;font-size:13px"><b>Shot list:</b> Tiga kartu teks berisi angka → kantong kopi &amp; alat seduh di meja<br>
+    <b>Aset:</b> <code>carousel-02b</code> · <b>Sumber:</b> <code>catalog.json</code></p>
+</article>
+<article class="card" style="margin-top:12px">
+  <p class="meta">Skrip 05 · Pengakuan / biaya nyata · Bukti · 9s ·
+    <span class="pill ok">siap rekam</span> · suara 100/100</p>
+  <h3>Resi dikirim hari itu, bukan besok.</h3>
+  <div class="beat"><b>3s</b><div>Resi dikirim hari itu, bukan besok.<br><span class="kicker">catalog.json</span></div></div><div class="beat"><b>2s</b><div>Order sebelum 15.00 WIB diproses dan diserahkan ke kurir hari yang sama.<br><span class="kicker">catalog.json</span></div></div><div class="beat"><b>2s</b><div>Kalau lewat jam itu, resi baru keluar besok pagi — kami tulis apa adanya.<br><span class="kicker">catalog.json</span></div></div><div class="beat"><b>2s</b><div>Order lewat WhatsApp sebelum 15.00 WIB.<br><span class="kicker">—</span></div></div>
+  <p class="lede" style="margin-top:8px;font-size:13px"><b>Shot list:</b> Layar catatan QC (blur nama) → tumpukan bungkus ditolak<br>
+    <b>Aset:</b> <code>reel-kirim-hari-ini</code> · <b>Sumber:</b> <code>catalog.json</code></p>
+</article>
+<p class="lede" style="margin-top:10px">Antrean skrip berikutnya: Kami tidak menurunkan ambang walau stok kosong.; Kami buang 4 kg bulan ini. Ini yang terjadi.; Yang kami periksa sebelum satu batch boleh dikirim.; Sehari sebelum dikirim, kopi ini masih di drum.; POV: kopi mahal disimpan di dekat bumbu dapur. (8 hook tersisa).</p>
+<h2><small>Tahap 08 · scaling</small>Bedah pemenang, simpan struktur, remix</h2><table><thead><tr><th>Hook pemenang</th><th>Struktur</th><th>Format</th><th class="num">Lift</th><th class="num">Durasi</th><th>Alasan</th></tr></thead><tbody>
+<tr><td>Kopi Rp50 ribu vs Rp150 ribu — bedanya di mana?</td><td>Perbandingan A vs B</td><td>tiktok/reel</td><td class="num">2,9×</td><td class="num">21.0s</td><td>format duel harga; teks besar di 1 detik pertama</td></tr>
+<tr><td>Barista jelasin kenapa kopi kafe terasa lebih kuat</td><td>Diagnosis masalah</td><td>tiktok/reel</td><td class="num">2,3×</td><td class="num">30.0s</td><td>wajah + seragam + demo</td></tr>
+</tbody></table>
+<h3 style="margin-top:18px">Remix konsep (struktur disimpan, isi diganti)</h3><div class="grid cards">
+<article class="card"><p class="meta">ganti produk · dari “Kopi Rp50 ribu vs Rp150 ribu — bedanya d…”</p>
+  <div class="hook">Arabika Ijen vs robusta Raung: ketinggian, rasa, dan cara seduhnya</div>
+  <ul><li>Perbandingan jujur — versi untuk SKU lain: pakai angka batch &amp; harga SKU itu</li><li><b>Aset:</b> <code>carousel-02a</code></li></ul></article>
+<article class="card"><p class="meta">ganti audiens · dari “Kopi Rp50 ribu vs Rp150 ribu — bedanya d…”</p>
+  <div class="hook">Arabika Ijen vs robusta Raung: ketinggian, rasa, dan cara seduhnya</div>
+  <ul><li>Perbandingan jujur — versi untuk segmen lain: bahasanya lebih teknis/lebih awam</li><li><b>Aset:</b> <code>carousel-02a</code></li></ul></article>
+<article class="card"><p class="meta">ganti format · dari “Kopi Rp50 ribu vs Rp150 ribu — bedanya d…”</p>
+  <div class="hook">Arabika Ijen vs robusta Raung: ketinggian, rasa, dan cara seduhnya</div>
+  <ul><li>Perbandingan jujur — versi carousel 4:5 dari hook yang sama, 3 slide</li><li><b>Aset:</b> <code>carousel-02a</code></li></ul></article>
+<article class="card"><p class="meta">ganti produk · dari “Barista jelasin kenapa kopi kafe terasa …”</p>
+  <div class="hook">Kopi pahit padahal baru beli: cek tanggal sangrai, gilingan, lalu suhu air</div>
+  <ul><li>Diagnosis masalah — versi untuk SKU lain: pakai angka batch &amp; harga SKU itu</li><li><b>Aset:</b> <code>reel-tanggal-sangrai</code></li></ul></article>
+<article class="card"><p class="meta">ganti audiens · dari “Barista jelasin kenapa kopi kafe terasa …”</p>
+  <div class="hook">Kopi pahit padahal baru beli: cek tanggal sangrai, gilingan, lalu suhu air</div>
+  <ul><li>Diagnosis masalah — versi untuk segmen lain: bahasanya lebih teknis/lebih awam</li><li><b>Aset:</b> <code>reel-tanggal-sangrai</code></li></ul></article>
+<article class="card"><p class="meta">ganti format · dari “Barista jelasin kenapa kopi kafe terasa …”</p>
+  <div class="hook">Kopi pahit padahal baru beli: cek tanggal sangrai, gilingan, lalu suhu air</div>
+  <ul><li>Diagnosis masalah — versi carousel 4:5 dari hook yang sama, 3 slide</li><li><b>Aset:</b> <code>reel-tanggal-sangrai</code></li></ul></article>
+</div>
+<h3 style="margin-top:18px">Pola paling dibagikan</h3><table><thead><tr><th>Hook</th><th>Struktur</th><th class="num">Interaksi/views</th></tr></thead><tbody>
+<tr><td>Jangan beli kopi yang cuma ada tanggal kedaluwarsanya</td><td>Larangan / peringatan</td><td class="num">10.1%</td></tr>
+<tr><td>Tiga tanda kopi sudah tidak layak diseduh</td><td>Angka / daftar</td><td class="num">9.6%</td></tr>
+<tr><td>Kopi 250 g vs 1 kg — mana yang lebih hemat?</td><td>Perbandingan A vs B</td><td class="num">9.0%</td></tr>
+<tr><td>Kami buang 3 kg kopi minggu ini</td><td>Pengakuan / biaya nyata</td><td class="num">9.0%</td></tr>
+<tr><td>Jangan giling kopi di awal minggu</td><td>Larangan / peringatan</td><td class="num">8.8%</td></tr>
+</tbody></table>
+<h2><small>Tahap 09 · reporting &amp; briefs</small>Keputusan mingguan</h2>
+<div class="grid cards">
+  <article class="card"><p class="meta">Dobel</p><div class="hook">Perbandingan A vs B</div>
+    <ul><li>Kopi Rp50 ribu vs Rp150 ribu — bedanya di mana? — 2,9×</li><li>Barista jelasin kenapa kopi kafe terasa lebih kuat — 2,3×</li></ul></article>
+  <article class="card"><p class="meta">Hentikan</p>
+    <ul><li>Tiga kesalahan menyimpan kopi — 0,7×</li><li>Proses sangrai 12 menit dalam 20 detik — 0,7×</li></ul>
+    <p class="meta" style="margin-top:8px">lift &lt; 0,9× = kalah dari kebiasaan akun</p></article>
+  <article class="card"><p class="meta">Uji (satu saja)</p>
+    <div class="hook">Satu kantong, tiga angka yang bisa Anda cek.</div>
+    <p class="meta" style="margin-top:8px">Laporan tim: 30 hook · 5 skrip ·
+      1 kreator dipantau · 23 outlier ceruk</p></article>
+</div>
+<p class="lede" style="margin-top:12px">Brief lengkap: <code>studio/brief-senin.md</code> ·
+5 skrip: <code>studio/skrip/</code> · data mesin: <code>studio/data.json</code></p>
+<h2><small>Tahap 10 · content operations</small>Jadwal, pemakaian ulang, pemetaan 50 slot</h2>
+<table><thead><tr><th>Hari</th><th>Tugas</th><th>Divisi</th><th>Berkas / perintah</th></tr></thead><tbody>
+<tr><td>Senin</td><td>Baca brief + pilih 1 keputusan</td><td>D3</td><td><code>studio/brief-senin.md</code></td></tr><tr><td>Senin</td><td>Sangrai + catat batch</td><td>D1</td><td><code>data/batch-qc.csv</code></td></tr><tr><td>Selasa</td><td>Tambah 5 baris referensi + 3 komentar</td><td>D3</td><td><code>data/riset-*.csv</code></td></tr><tr><td>Selasa</td><td>Jalankan studio + tulis caption</td><td>D3</td><td><code>python3 tools/studio.py</code></td></tr><tr><td>Rabu</td><td>Rekam 8–10 klip sesuai 5 skrip</td><td>D4</td><td><code>studio/skrip/*.md</code></td></tr><tr><td>Rabu</td><td>Pipeline B2B 5 pesan</td><td>D2</td><td><code>komersial/pipeline-b2b.csv</code></td></tr><tr><td>Kamis</td><td>Cupping + gerbang klaim aset minggu depan</td><td>D1+D7</td><td><code>data/batch-qc.csv</code></td></tr><tr><td>Jumat</td><td>Kas, margin, biaya per chat</td><td>D6</td><td><code>data/kpi.csv</code></td></tr><tr><td>Sabtu</td><td>Packing + kirim + render aset</td><td>D5+D4</td><td><code>konten/</code></td></tr><tr><td>Minggu</td><td>Review papan + 3 prioritas</td><td>owner</td><td><code>dashboard/index.html</code></td></tr>
+</tbody></table>
+<p class="lede" style="margin-top:10px">Cek pemakaian ulang: 0 pasang hook nyaris duplikat ·
+0 skrip mirip konten yang sudah terjadwal. Playbook dibaca: 8 berkas.</p>
+<h3 style="margin-top:18px">Pemetaan kerangka 50 agent → siapa yang mengerjakan</h3><table><thead><tr><th>Folder</th><th>Slot</th><th>Dikerjakan</th><th>Keterangan</th></tr></thead><tbody>
+<tr><td><b>01 niche research</b></td><td>niche definition</td><td><span class="pill ok">otomatis</span></td><td>data/studio-niche.json → divalidasi, tampil di §1</td></tr>
+<tr><td></td><td>audience and offer</td><td><span class="pill ok">otomatis</span></td><td>4 segmen + tangga tawaran, dipakai menyusun skrip</td></tr>
+<tr><td></td><td>leaders and competitors</td><td><span class="pill warn">manual</span></td><td>data/studio-niche.json → `pesaing` (isi sendiri)</td></tr>
+<tr><td></td><td>search phrase finder</td><td><span class="pill ok">otomatis</span></td><td>gabungan kata kunci + pertanyaan komentar</td></tr>
+<tr><td></td><td>double-meaning excludes</td><td><span class="pill ok">otomatis</span></td><td>aturan makna ganda dicek ke daftar kata kunci</td></tr>
+<tr><td><b>02 competitor tracking</b></td><td>competitor agent</td><td><span class="pill ok">otomatis</span></td><td>akun pesaing dari data/riset-referensi.csv</td></tr>
+<tr><td></td><td>industry agent</td><td><span class="pill warn">manual</span></td><td>data/studio-industri.csv (dicatat manusia)</td></tr>
+<tr><td></td><td>creator tracker</td><td><span class="pill ok">otomatis</span></td><td>grup per akun → §4</td></tr>
+<tr><td></td><td>top 50 company ranker</td><td><span class="pill ok">otomatis</span></td><td>peringkat akun yang benar-benar ditangkap (bukan top-50 industri)</td></tr>
+<tr><td></td><td>answer video planner</td><td><span class="pill ok">otomatis</span></td><td>rencana video jawaban untuk 3 outlier pesaing teratas</td></tr>
+<tr><td><b>03 outlier videos</b></td><td>outlier finder</td><td><span class="pill ok">otomatis</span></td><td>lift = views ÷ median akun×format</td></tr>
+<tr><td></td><td>niche match filter</td><td><span class="pill ok">otomatis</span></td><td>cocokkan kata kunci ceruk ke hook/topik</td></tr>
+<tr><td></td><td>views + engagement ranker</td><td><span class="pill ok">otomatis</span></td><td>ranking lift &amp; ER</td></tr>
+<tr><td></td><td>saves + shares ranker</td><td><span class="pill ok">otomatis</span></td><td>ranking simpan% &amp; bagikan%</td></tr>
+<tr><td></td><td>dead views flag</td><td><span class="pill ok">otomatis</span></td><td>views &lt; 50% baseline ditandai</td></tr>
+<tr><td><b>04 outlier creators</b></td><td>creator finder</td><td><span class="pill ok">otomatis</span></td><td>akun dengan ≥1 outlier</td></tr>
+<tr><td></td><td>engagement per 1K views</td><td><span class="pill ok">otomatis</span></td><td>interaksi ÷ views × 1000</td></tr>
+<tr><td></td><td>two outlier minimum</td><td><span class="pill ok">otomatis</span></td><td>syarat ≥2 outlier untuk masuk watchlist</td></tr>
+<tr><td></td><td>30 day history flag</td><td><span class="pill ok">otomatis</span></td><td>post ≤30 hari terakhir ≥3 → layak dipantau</td></tr>
+<tr><td></td><td>creator watchlist</td><td><span class="pill ok">otomatis</span></td><td>irisan dua syarat di atas</td></tr>
+<tr><td><b>05 hooks</b></td><td>hook bank</td><td><span class="pill ok">otomatis</span></td><td>data/studio-hooks.csv (30 hook)</td></tr>
+<tr><td></td><td>structure grouper</td><td><span class="pill ok">otomatis</span></td><td>10 struktur: Angka / daftar, Diagnosis masalah, Harga / penawaran, Larangan / peringatan, Otoritas / orang dalam, …</td></tr>
+<tr><td></td><td>structure counter</td><td><span class="pill ok">otomatis</span></td><td>jumlah hook per struktur</td></tr>
+<tr><td></td><td>median views ranker</td><td><span class="pill ok">otomatis</span></td><td>lift median struktur dari data referensi</td></tr>
+<tr><td></td><td>first film picker</td><td><span class="pill ok">otomatis</span></td><td>hook dengan lift tertinggi + aset siap + belum dipakai</td></tr>
+<tr><td><b>06 formats &amp; trends</b></td><td>format finder</td><td><span class="pill ok">otomatis</span></td><td>ER median per platform × format</td></tr>
+<tr><td></td><td>filming style mapper</td><td><span class="pill ok">otomatis</span></td><td>5 gaya rekam → struktur yang cocok</td></tr>
+<tr><td></td><td>top vs bottom quarter</td><td><span class="pill ok">otomatis</span></td><td>kuartal lift atas vs bawah</td></tr>
+<tr><td></td><td>copy this week</td><td><span class="pill ok">otomatis</span></td><td>satu format prioritas minggu ini per platform</td></tr>
+<tr><td></td><td>formats to copy</td><td><span class="pill ok">otomatis</span></td><td>format dengan lift median ≥2 dan n ≥2</td></tr>
+<tr><td><b>07 scripts</b></td><td>top 5 hooks</td><td><span class="pill ok">otomatis</span></td><td>ranking struktur → 5 hook teratas</td></tr>
+<tr><td></td><td>script writer</td><td><span class="pill ok">otomatis</span></td><td>skrip 7 detik: hook → bukti → akibat → CTA</td></tr>
+<tr><td></td><td>voice matcher</td><td><span class="pill ok">otomatis</span></td><td>cek kata terlarang, panjang kalimat, superlatif, angka, CTA</td></tr>
+<tr><td></td><td>source citer</td><td><span class="pill ok">otomatis</span></td><td>tiap klaim wajib menyebut berkas data</td></tr>
+<tr><td></td><td>next script loop</td><td><span class="pill ok">otomatis</span></td><td>antrean 5 skrip berikutnya dari sisa bank</td></tr>
+<tr><td><b>08 scaling</b></td><td>winner breakdown</td><td><span class="pill ok">otomatis</span></td><td>bedah pemenang: hook, struktur, format, durasi, pilar</td></tr>
+<tr><td></td><td>structure keeper</td><td><span class="pill ok">otomatis</span></td><td>struktur pemenang disimpan sebagai pola wajib</td></tr>
+<tr><td></td><td>concept remixer</td><td><span class="pill ok">otomatis</span></td><td>3 konsep turunan per pemenang (produk/audiens berbeda)</td></tr>
+<tr><td></td><td>script per concept</td><td><span class="pill ok">otomatis</span></td><td>satu hook disiapkan per konsep</td></tr>
+<tr><td></td><td>most shared patterns</td><td><span class="pill ok">otomatis</span></td><td>pola dengan bagikan% tertinggi</td></tr>
+<tr><td><b>09 reporting &amp; briefs</b></td><td>top 10 table</td><td><span class="pill ok">otomatis</span></td><td>10 post/aset teratas</td></tr>
+<tr><td></td><td>Monday brief</td><td><span class="pill ok">otomatis</span></td><td>studio/brief-senin.md</td></tr>
+<tr><td></td><td>double down, stop, test</td><td><span class="pill ok">otomatis</span></td><td>3 keputusan dari data, bukan selera</td></tr>
+<tr><td></td><td>five scripts</td><td><span class="pill ok">otomatis</span></td><td>studio/skrip/*.md</td></tr>
+<tr><td></td><td>team report</td><td><span class="pill ok">otomatis</span></td><td>hitungan per tahap → §10 &amp; laporan/index.html</td></tr>
+<tr><td><b>10 content operations</b></td><td>Claude connector</td><td><span class="pill dim">tidak</span></td><td>tidak dipakai: tidak ada kredensial &amp; tidak boleh mengarang akses</td></tr>
+<tr><td></td><td>Claude Code setup</td><td><span class="pill dim">tidak</span></td><td>tidak dipakai: pipeline berjalan lokal tanpa layanan luar</td></tr>
+<tr><td></td><td>agent playbook reader</td><td><span class="pill ok">otomatis</span></td><td>membaca skills/*.md + operasional/divisi/D3-D4</td></tr>
+<tr><td></td><td>agent reuse check</td><td><span class="pill ok">otomatis</span></td><td>deteksi hook/skrip nyaris duplikat</td></tr>
+<tr><td></td><td>recurring agent</td><td><span class="pill ok">otomatis</span></td><td>jadwal mingguan di studio/data.json + ops doc</td></tr>
+</tbody></table>
+<div class="note"><b>Kenapa tidak 50 agent LLM</b>
+50 agent berarti 50 kali biaya token untuk pekerjaan yang sebagian besar berupa hitungan tetap
+(median, lift, ranking, pengecekan kata terlarang). Di sini semua itu jadi fungsi Python:
+<b>0 token per tahap</b>, hasilnya bisa diulang dan diperiksa. Yang benar-benar butuh pertimbangan
+manusia — memilih sudut, menilai rasa, menghubungi orang — tetap di tangan Anda dan ditandai
+<span class="pill warn">manual</span>.</div>
+<footer>
+  <span>Dibuat <code>tools/studio.py</code> · kerangka 10 tahap diadaptasi dari @dsqjaffa ·
+    sumber data <code>data/riset-*.csv</code>, <code>data/studio-*.csv/json</code>,
+    <code>data/kreatif.json</code>, <code>data/catalog.json</code></span>
+  <span><a href="../riset/index.html">dasbor riset</a> · <a href="../konten/index.html">hub konten</a> ·
+    <a href="../dashboard/index.html">papan harian</a> · <a href="../laporan/index.html">laporan</a></span>
+</footer></div></body></html>

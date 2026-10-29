@@ -10,9 +10,10 @@ periksa paling akhir (gerbang), lalu laporan.
     3. kreatif    5 video 9:16, carousel, story, feed, hub konten
     4. kampanye   landing kampanye dari katalog + manifest
     5. riset      outlier, pola, komentar, kata kunci → brief
-    6. papan      dashboard harian + target divisi
-    7. periksa    gerbang QA (berhenti bila ada temuan kritis)
-    8. laporan    satu halaman ringkasan untuk dinilai
+    6. studio     10 tahap (nilai → hook → skrip → brief Senin) di atas hasil riset
+    7. papan      dashboard harian + target divisi
+    8. periksa    gerbang QA (berhenti bila ada temuan kritis)
+    9. laporan    satu halaman ringkasan untuk dinilai
 
 Pakai:
     python3 tools/jalankan.py                 # semua langkah
@@ -68,6 +69,7 @@ def main():
         ("kreatif", ["tools/kreatif.py"] + (["--cepat"] if args.cepat else [])),
         ("kampanye", ["tools/kampanye.py"]),
         ("riset", ["tools/riset.py"]),
+        ("studio", ["tools/studio.py"]),
         ("papan", ["tools/papan.py", "--tanggal", TGL]),
         ("periksa", ["tools/periksa.py"]),
         ("laporan", ["tools/laporan.py"]),
@@ -87,6 +89,7 @@ def main():
     print("  kampanye/index.html         ← landing kampanye konten")
     print("  konten/index.html           ← 15 aset + caption")
     print("  riset/index.html            ← riset konten & kata kunci")
+    print("  studio/index.html           ← 10 tahap: hook → skrip → brief Senin")
     print("Jalankan server: python3 -m http.server 8080")
 
 

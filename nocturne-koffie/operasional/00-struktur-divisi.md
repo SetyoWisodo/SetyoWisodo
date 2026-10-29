@@ -14,6 +14,11 @@ Target angkanya hidup di `data/divisi.json` — bukan di dokumen.
 `komentar-mining`, `search-intent-riset`. Sumber data `data/riset-*.csv`, mesin analisis
 `tools/riset.py`, keluaran `riset/` (dasbor, swipe file, brief).
 
+**Studio konten (D3 + D4):** [`skills/studio-konten/SKILL.md`](../skills/studio-konten/SKILL.md) —
+kerangka 10 tahap (niche → pesaing → outlier → kreator → hook → format → skrip → skala → lapor → ops)
+dijalankan `tools/studio.py`. 50 slot: 46 otomatis, 2 manual, 2 sengaja tidak dipakai (Claude connector).
+Keluaran `studio/index.html`, `studio/brief-senin.md`, `studio/skrip/`. Tanpa API, tanpa biaya token.
+
 ---
 
 ## 1. Tujuh divisi
@@ -22,8 +27,8 @@ Target angkanya hidup di `data/divisi.json` — bukan di dokumen.
 | --- | --- | --- | --- | --- |
 | D1 | **Produksi & QC** | Pilih green bean, jadwalkan sangrai, cicipi tiap batch, putuskan lolos/tolak, catat batch | Owner + mitra Ais | `data/batch-qc.csv`, `data/stok-lot.json` |
 | D2 | **Penjualan & CRM** | Balas WhatsApp, konfirmasi order, follow-up, langganan, pipeline B2B | Owner | `data/pesanan.csv`, `komersial/pipeline-b2b.csv` |
-| D3 | **Marketing & Pertumbuhan** | Riset konten sejenis & kata kunci, pilih & jadwalkan konten, tulis caption, kelola marketplace & kampanye, ukur hasil | Owner dibantu agent | `data/konten-14hari.csv`, `data/kpi.csv`, `data/riset-*.csv` |
-| D4 | **Kreatif & Media** | Kerjakan brief riset, rekam klip mentah, render aset (video/carousel/story), jaga standar visual | Owner (rekam) + agent (aset) | `tools/kreatif.py`, `data/kreatif.json`, `konten/`, `riset/brief/` |
+| D3 | **Marketing & Pertumbuhan** | Riset konten sejenis & kata kunci, pilih & jadwalkan konten, tulis caption, kelola marketplace & kampanye, ukur hasil | Owner dibantu agent | `data/konten-14hari.csv`, `data/kpi.csv`, `data/riset-*.csv`, `data/studio-*.csv/json` |
+| D4 | **Kreatif & Media** | Kerjakan brief riset, rekam klip mentah, render aset (video/carousel/story), jaga standar visual | Owner (rekam) + agent (aset) | `tools/kreatif.py`, `data/kreatif.json`, `konten/`, `riset/brief/`, `studio/skrip/` |
 | D5 | **Operasional & Logistik** | Packing, ongkir, kirim, resi, retur, opname kemasan | Owner | `data/pesanan.csv` |
 | D6 | **Keuangan** | Catat kas, hitung HPP & margin, jaga harga, break-even | Owner | `data/biaya.json`, papan |
 | D7 | **Brand & Legal** | Konsistensi klaim, aset brand, dokumen usaha, izin petani & mitra | Owner | `data/legal.json`, brief 11.8 |
@@ -52,6 +57,7 @@ keputusan berhenti di D1; D2 hanya menerima kabar "stok varian ini kosong minggu
 | Ongkir & kurir | D5 | D2 | — |
 | Aset mana yang tayang | D3 | D7 | D4 |
 | Pola riset yang dipakai | D3 | D4, D7 | D2 |
+| Brief Senin + 5 skrip 9 detik (`studio/`) | D3 | D4 | D7 (klaim), owner (keputusan) |
 | Data referensi dianggap `asli`? | D3 (diperiksa owner) | — | D4 |
 | Standar visual & format aset | D4 | D7 | D3 |
 | Klaim di situs, IG, marketplace | D7 | D3, D4 | semua |
@@ -81,6 +87,7 @@ keputusan berhenti di D1; D2 hanya menerima kabar "stok varian ini kosong minggu
 | Kamis | 30 mnt cupping + gerbang klaim aset minggu depan | D1 → D7 | Status SKU akurat, aset lolos/ditahan |
 | Jumat | 30 mnt keuangan: kas, margin, tagihan | D6 | Baris KPI minggu ini |
 | Sabtu | 40 mnt packing + kirim + opname kemasan | D5 | Semua order terkirim |
+| Senin | 5 mnt baca `studio/brief-senin.md`, ambil 1 keputusan (dobel/hentikan/uji) | D3 | Prioritas konten minggu ini |
 | Sabtu | 15 mnt tambah 5 baris referensi + 3 komentar (`data/riset-*.csv`) | D3 | Riset minggu depan siap |
 | Sabtu | 20 mnt render aset minggu depan (`tools/kreatif.py`) | D4 | `data/kreatif.json` diperbarui |
 | Minggu | 30 mnt review papan + rencana minggu depan | owner | 3 prioritas minggu depan |
@@ -138,6 +145,7 @@ Papan membaca 9 berkas dan menghitung sendiri:
 | Perlu keputusan hari ini | semua | urutan kerja hari ini (kritis dulu) |
 | **Target divisi** | `divisi.json` + semua | divisi mana yang tertinggal bulan ini |
 | **Riset** | `riset/data.json` | pola mana yang dipakai minggu ini, celah kata kunci |
+| **Studio konten** | `studio/data.json` | film pertama, 5 skrip siap rekam, dobel/hentikan/uji |
 | Tujuh divisi | hitungan | siapa yang harus bergerak |
 | Jadwal konten | `konten-14hari.csv` | posting atau tayangkan aset siap |
 | Aset siap tayang | `kreatif.json` | aset mana yang belum dijadwalkan |

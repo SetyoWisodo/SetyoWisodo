@@ -1,6 +1,6 @@
 {
   "hari_ini": "2026-10-30",
-  "dibuat": "30 Oct 2026 01:35 WIB",
+  "dibuat": "30 Oct 2026 03:44 WIB",
   "kpi": {
     "minggu": "1",
     "mulai": "2026-10-26",
@@ -1651,6 +1651,97 @@
         "judul": "Pengakuan biaya",
         "aset": "reel-batch-ditolak"
       }
+    ]
+  },
+  "studio": {
+    "dibuat": "2026-10-30",
+    "tahap": 10,
+    "peta": {
+      "otomatis": 46,
+      "manual": 2,
+      "tidak": 2
+    },
+    "hook_total": 30,
+    "hook_belum": 18,
+    "skrip_siap": 5,
+    "skrip": [
+      {
+        "no": 1,
+        "judul": "Satu kantong, tiga angka yang bisa Anda cek.",
+        "struktur": "angka",
+        "status": "siap rekam",
+        "aset": "carousel-01c"
+      },
+      {
+        "no": 2,
+        "judul": "Kopi tidak punya tanggal kedaluwarsa yang jujur.",
+        "struktur": "larangan",
+        "status": "siap rekam",
+        "aset": "carousel-01a"
+      },
+      {
+        "no": 3,
+        "judul": "Jangan simpan kopi di kulkas.",
+        "struktur": "larangan",
+        "status": "siap rekam",
+        "aset": "story-01"
+      },
+      {
+        "no": 4,
+        "judul": "Gilingan Anda menentukan 40% rasanya.",
+        "struktur": "angka",
+        "status": "siap rekam",
+        "aset": "carousel-02b"
+      },
+      {
+        "no": 5,
+        "judul": "Resi dikirim hari itu, bukan besok.",
+        "struktur": "pengakuan",
+        "status": "siap rekam",
+        "aset": "reel-kirim-hari-ini"
+      }
+    ],
+    "film_pertama": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
+    "outlier_ceruk": 23,
+    "kreator_watchlist": [
+      "(contoh) akun kopi spesialti ID"
+    ],
+    "format_prioritas": [
+      {
+        "platform": "instagram",
+        "format": "carousel",
+        "lift": 1.0
+      },
+      {
+        "platform": "tiktok",
+        "format": "reel",
+        "lift": 1.0
+      }
+    ],
+    "keputusan": {
+      "dobel": "Perbandingan A vs B",
+      "hentikan": [
+        "Tiga kesalahan menyimpan kopi",
+        "Proses sangrai 12 menit dalam 20 detik"
+      ],
+      "uji": [
+        "Satu kantong, tiga angka yang bisa Anda cek."
+      ]
+    },
+    "reuse": {
+      "duplikat_hook": [],
+      "mirip_terbit": []
+    },
+    "berikut": "2026-11-02",
+    "docs": [
+      "skills/README.md",
+      "skills/social-media-riset/SKILL.md",
+      "skills/komentar-mining/SKILL.md",
+      "skills/search-intent-riset/SKILL.md",
+      "skills/studio-konten/SKILL.md",
+      "marketing/09-media-kreator.md",
+      "operasional/divisi/D3-marketing-pertumbuhan.md",
+      "operasional/divisi/D4-kreatif-media.md"
     ]
   }
 }

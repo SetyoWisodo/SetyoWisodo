@@ -1,0 +1,31 @@
+hook,struktur,pilar,aset,status,dipakai_di
+12 menit terakhir sebelum kopi ini dikemas.,proses,Proses,reel-menit-terakhir,dipakai,reel-01
+"20 detik lebih lama, rasanya berubah.",proses,Proses,reel-menit-terakhir,dipakai,reel-01
+Kami tidak mencetak tanggal kedaluwarsa.,larangan,Bukti,reel-tanggal-sangrai,dipakai,reel-02
+Rasa terbaiknya 7-21 hari setelah sangrai.,angka,Edukasi,reel-tanggal-sangrai,dipakai,reel-02
+Minggu ini satu batch tidak lolos.,pengakuan,Bukti,reel-batch-ditolak,dipakai,reel-04
+"Skornya 81,5. Ambang kami 83.",angka,Bukti,reel-batch-ditolak,dipakai,reel-04
+"Order sebelum jam 15.00, dikirim hari itu.",angka,Bukti,reel-kirim-hari-ini,dipakai,reel-05
+Biji utuh bertahan 3-4x lebih lama.,banding,Edukasi,carousel-02a,dipakai,carousel-02
+Belum punya grinder? Mulai dari sini.,diagnosis,Jualan,carousel-03a,dipakai,carousel-03a
+Tiga tanda kopi masih segar.,angka,Edukasi,story-01,dipakai,story-01
+Kopi di rumah Anda berapa lama?,diagnosis,Edukasi,story-02,dipakai,story-02
+Dengar ini sekali.,proses,Proses,reel-first-crack,dipakai,reel-03
+Kopi pahit padahal baru beli? Cek tiga hal ini.,diagnosis,Edukasi,reel-tanggal-sangrai,belum,
+Kami buang 4 kg bulan ini. Ini yang terjadi.,pengakuan,Bukti,reel-batch-ditolak,belum,
+Jangan simpan kopi di kulkas.,larangan,Edukasi,story-01,belum,
+Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.,diagnosis,Edukasi,carousel-02b,belum,
+Rp23.000 vs Rp152.000: bedanya bukan cuma berat.,banding,Jualan,carousel-01c,belum,
+"Arabika Ijen vs robusta Raung, satu meja.",banding,Edukasi,carousel-02a,belum,
+Yang kami periksa sebelum satu batch boleh dikirim.,otoritas,Bukti,reel-first-crack,belum,
+"Satu kantong, tiga angka yang bisa Anda cek.",angka,Bukti,carousel-01c,belum,
+Gilingan Anda menentukan 40% rasanya.,angka,Edukasi,carousel-02b,belum,
+POV: kopi mahal disimpan di dekat bumbu dapur.,pov,Edukasi,story-01,belum,
+Cara menyeduh tanpa alat mahal: 3 langkah.,tutorial,Edukasi,reel-menit-terakhir,belum,
+Kami tidak menurunkan ambang walau stok kosong.,pengakuan,Bukti,reel-batch-ditolak,belum,
+Harga per gram: cara adil membandingkan kopi.,harga,Jualan,post-01-peta-rasa,belum,
+"Kode batch: kalau rasanya beda, sebutkan ini.",otoritas,Bukti,carousel-01c,belum,
+Kopi tidak punya tanggal kedaluwarsa yang jujur.,larangan,Bukti,carousel-01a,belum,
+"Sehari sebelum dikirim, kopi ini masih di drum.",proses,Proses,reel-menit-terakhir,belum,
+"Resi dikirim hari itu, bukan besok.",pengakuan,Bukti,reel-kirim-hari-ini,belum,
+Tiga hal yang membuat kopi rumahan terasa hambar.,angka,Edukasi,carousel-02b,belum,

@@ -19,8 +19,9 @@ nocturne-koffie/
 ├── data/catalog.json             ← SATU-SATUNYA file yang perlu diubah rutin
 ├── brand/                        logo SVG, OG card, 9 label kantong + lembar A4, brand kit
 ├── komersial/                    harga grosir 4 tingkat, penawaran B2B, pipeline prospek
-├── skills/                       3 skill riset: sosial media, komentar, mesin pencari (SKILL.md)
+├── skills/                       4 skill: riset sosial, komentar, mesin pencari, studio konten (SKILL.md)
 ├── riset/                        dasbor riset, swipe file, brief konten (hasil generate)
+├── studio/                       studio konten 10 tahap: halaman, brief Senin, 5 skrip (hasil generate)
 ├── operasional/                  7 divisi: struktur, alur kerja + target per divisi
 │   ├── divisi/                   D1…D7 — satu berkas per divisi
 │   └── arsip/                    SOP versi 6 divisi (rujukan sejarah, tidak dipakai)
@@ -32,7 +33,11 @@ nocturne-koffie/
 ├── tools/kreatif.py              generator video 9:16, carousel, story, hub konten
 ├── tools/kampanye.py             generator landing page kampanye
 ├── tools/riset.py                analisis konten ramai, komentar, kata kunci → brief
-├── tools/periksa.py              gerbang QA: 11 pemeriksaan konsistensi → laporan/periksa.md
+├── data/studio-niche.json        ceruk, 4 segmen audiens, tangga tawaran, kata terlarang
+├── data/studio-hooks.csv         30 hook bertag struktur/pilar/aset + status dipakai
+├── data/studio-industri.csv      catatan tren industri (diisi manual)
+├── tools/studio.py               studio konten 10 tahap → halaman, brief Senin, 5 skrip
+├── tools/periksa.py              gerbang QA: 14 pemeriksaan konsistensi → laporan/periksa.md
 ├── tools/laporan.py              satu halaman ringkasan → laporan/index.html
 ├── tools/jalankan.py             jalankan seluruh pipeline berurutan (~96 detik)
 ├── dashboard/index.html          papan harian hasil generate (jangan diedit manual)
@@ -55,6 +60,8 @@ python3 tools/kreatif.py --cepat    # hanya gambar (tanpa encode video)
 python3 tools/kampanye.py          # buat ulang landing kampanye dari katalog + manifest
 python3 tools/riset.py             # analisis riset → riset/index.html + swipe file + brief
 python3 tools/riset.py --cek       # ringkasan riset tanpa menulis berkas
+python3 tools/studio.py            # studio 10 tahap → brief Senin + 5 skrip siap rekam
+python3 tools/studio.py --cek      # ringkasan 10 tahap di terminal
 
 python3 tools/jalankan.py          # ← SEMUA langkah di atas, berurutan, + periksa + laporan
 python3 tools/jalankan.py --cepat  # lewati encode video (lebih cepat ~15 detik)
@@ -68,6 +75,7 @@ dan itu dilaporkan di keluaran terminal serta di `data/kreatif.json` → `video_
 Halaman yang perlu dibuka: `/` (situs) · `/dashboard/` (papan harian) ·
 `/kampanye/` (landing kampanye konten) · `/konten/` (hub aset, `noindex`) ·
 `/riset/` (dasbor riset konten & kata kunci, `noindex`) ·
+`/studio/` (studio konten 10 tahap + brief Senin, `noindex`) ·
 `/laporan/` (ringkasan otomatis + hasil pemeriksaan, `noindex`) ·
 `/brand/` (brand kit) · `/komersial/penawaran-b2b.html` (proposal B2B).
 
@@ -172,11 +180,12 @@ menunggu konfirmasi pemilik." Jangan dihapus sebelum beres.
 | `brand/README.md` | brand kit: logo, label 70×100 mm, aturan cetak & pemakaian logo |
 | `komersial/01-panduan-grosir.md` | 4 tingkat harga grosir, aturan margin, alur jual B2B |
 | `marketing/08-konten-siap-pakai.md` | 7 post + 3 skrip TikTok + 9 judul marketplace siap salin |
-| `skills/README.md` | **3 skill riset** (social-media-riset, komentar-mining, search-intent-riset) + aturan etika & bukti |
+| `skills/README.md` | **4 skill** (social-media-riset, komentar-mining, search-intent-riset, studio-konten) + aturan etika & bukti |
 | `skills/social-media-riset/SKILL.md` | outlier post, baseline median, taksonomi hook, swipe file, brief |
 | `skills/komentar-mining/SKILL.md` | bahasa pembeli → keberatan/FAQ/copy, aturan kutipan ≤ 24 kata |
 | `skills/search-intent-riset/SKILL.md` | Google/marketplace/TikTok/mesin jawaban AI, prioritas & celah halaman |
-| `marketing/09-media-kreator.md` | **playbook konten media kreator**: pipeline aset, bank 12 hook, jadwal, 3 angka ukur, aturan caption |
+| `skills/studio-konten/SKILL.md` | 10 tahap / 50 slot: peta otomatis vs manual, hook → skrip 9 detik → brief Senin, aturan cek suara |
+| `marketing/09-media-kreator.md` | **playbook konten media kreator**: pipeline aset, bank 30 hook (versi mesin), jadwal, 3 angka ukur, aturan caption, studio 10 tahap |
 | `operasional/00-struktur-divisi.md` | 7 divisi, RACI, ritme harian/mingguan, cara membaca tabel target |
 | `operasional/divisi/README.md` | indeks 7 divisi + cara mengubah target di `data/divisi.json` |
 | `operasional/divisi/D1-produksi-qc.md` | alur 10 langkah satu batch, gerbang QC, target & DoD |

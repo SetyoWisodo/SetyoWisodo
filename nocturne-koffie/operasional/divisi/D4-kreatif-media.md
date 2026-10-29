@@ -137,6 +137,27 @@ untuk Nocturne, hook versi kita, aset yang dipakai, bukti yang wajib tampil, dan
 **Jangan** mengambil hook, footage, audio, atau desain milik akun yang dianalisis. Yang diambil pola.
 Angka yang tampil di konten harus berasal dari `batch-qc.csv`, `catalog.json`, atau `pesanan.csv`.
 
+## 4c. Skrip 9 detik dari studio
+
+`tools/studio.py` menulis 5 skrip ke `studio/skrip/`. Bedanya dengan brief: brief memberi **arah**,
+skrip memberi **teks per detik** yang sudah lolos cek suara.
+
+| Bagian | Isi | Durasi |
+| --- | --- | ---: |
+| Hook | satu kalimat dari `data/studio-hooks.csv` | 3 detik |
+| Bukti 1 | angka/tanggal dari `batch-qc.csv` atau `catalog.json` | 2 detik |
+| Bukti 2 | akibat atau perbandingan yang bisa dicek | 2 detik |
+| CTA | WhatsApp + sebut metode seduh & kota | 2 detik |
+
+Yang **tidak** boleh diubah saat merekam:
+
+1. **Teks hook** — sudah dipilih berdasarkan lift median dan aset yang tersedia.
+2. **Angka** — kalau angkanya berubah (batch baru), jalankan ulang `studio.py`; jangan diedit tangan.
+3. **Sumber klaim** — baris `Sumber data` di tiap skrip wajib tetap ada saat review D7.
+
+Yang **boleh** diubah: shot list, urutan pengambilan, pencahayaan, dan bunyi ruangan.
+Setelah direkam, ubah `status` hook di `data/studio-hooks.csv` menjadi `dipakai`.
+
 ## 5. Serah terima
 
 | Dari | Kepada | Apa |

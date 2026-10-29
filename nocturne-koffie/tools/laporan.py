@@ -91,7 +91,8 @@ a{color:inherit}
 """
 
 
-def bangun(tgl, cek, papan, katalog, kreatif, riset, divisi):
+def bangun(tgl, cek, papan, katalog, kreatif, riset, divisi, studio=None):
+    studio = studio or {}
     hasil = cek.get("hasil", [])
     gagal = [h for h in hasil if h["status"] == "gagal"]
     peringatan = [h for h in hasil if h["status"] == "peringatan"]
@@ -170,6 +171,7 @@ ketik tangan — kalau salah, sumbernya di <code>data/</code>.</p>
   <div><span>Break-even</span><b>{papan.get('break_even',{}).get('order_per_bulan','—')}</b><em>order/bulan</em></div>
   <div><span>Order tercatat</span><b>{k.get('order','—')}</b><em>minggu terakhir</em></div>
   <div><span>Brief riset</span><b>{len(riset.get('brief',[]))}</b><em>dari {riset.get('referensi',0)} post referensi</em></div>
+  <div><span>Skrip siap rekam</span><b>{studio.get('skrip_siap',0)}/5</b><em>{studio.get('hook_belum',0)} hook tersedia · 0 token</em></div>
 </div>
 
 <h2>1 · Hasil pemeriksaan mesin</h2>
@@ -208,19 +210,43 @@ footage asli selalu menang bila tersedia.</p>
 <td class="num">confidence {riset.get('confidence','—')}</td></tr>
 </tbody></table>
 
+<h2>6 · Studio konten — 10 tahap, 50 slot</h2>
+<p class="lede">Kerangka “tim social media 10 folder / 50 agent” dijalankan sebagai fungsi deterministik:
+tiap tahap membaca berkas, menghitung, menulis keluaran. Tidak ada agent LLM yang menagih token per post.</p>
+<table><tbody>
+<tr><td><b>Pemetaan 50 slot</b></td><td>{studio.get('peta',{}).get('otomatis',0)} otomatis ·
+{studio.get('peta',{}).get('manual',0)} manual · {studio.get('peta',{}).get('tidak',0)} sengaja tidak dipakai</td>
+<td class="num">{studio.get('tahap',0)} tahap</td></tr>
+<tr><td><b>Bank hook</b></td><td>{studio.get('hook_total',0)} hook · {studio.get('hook_belum',0)} belum dipakai ·
+film pertama: “{studio.get('film_pertama') or '—'}”</td><td class="num">aset dicek ke manifest</td></tr>
+<tr><td><b>Skrip</b></td><td>{studio.get('skrip_siap',0)} dari {len(studio.get('skrip',[]))} siap rekam ·
+format 9 detik (hook 3s + 2 bukti + CTA)</td><td class="num">cek suara ≥ 88</td></tr>
+<tr><td><b>Keputusan minggu ini</b></td><td>dobel: {(studio.get('keputusan') or {}).get('dobel','—')} ·
+hentikan: {", ".join((studio.get('keputusan') or {}).get('hentikan') or []) or 'tidak ada'} ·
+uji: {((studio.get('keputusan') or {}).get('uji') or ['—'])[0]}</td>
+<td class="num">dari data referensi</td></tr>
+<tr><td><b>Outlier &amp; kreator</b></td><td>{studio.get('outlier_ceruk',0)} post dalam ceruk ·
+{len(studio.get('kreator_watchlist') or [])} kreator lolos syarat ≥2 outlier</td>
+<td class="num">confidence {riset.get('confidence','—')}</td></tr>
+<tr><td><b>Cek pemakaian ulang</b></td><td>{len((studio.get('reuse') or {}).get('duplikat_hook') or [])} hook nyaris duplikat ·
+{len((studio.get('reuse') or {}).get('mirip_terbit') or [])} skrip mirip jadwal terbit</td>
+<td class="num">brief Senin</td></tr>
+</tbody></table>
+
 <div class="note"><b>Yang masih asumsi — jangan dibaca sebagai fakta</b>
 Biaya di <code>data/biaya.json</code> masih asumsi (mempengaruhi HPP, margin, break-even) ·
 tonase lot ditambah hari ini atas arahan "semua tersedia", bukan hasil penerimaan barang ·
 {riset.get('referensi_contoh',0)} baris riset masih berlabel <code>contoh</code> ·
 8 dokumen legal belum selesai · belum ada unggahan ke IG/TikTok/marketplace dari sistem ini.</div>
 
-<h2>6 · Halaman lain</h2>
+<h2>7 · Halaman lain</h2>
 <table><tbody>
 <tr><td><a href="../index.html">Situs</a></td><td>katalog 9 SKU + 2 paket, semua tersedia</td></tr>
 <tr><td><a href="../dashboard/index.html">Papan harian</a></td><td>peringatan, target divisi, stok, margin, QC, riset</td></tr>
 <tr><td><a href="../kampanye/index.html">Landing kampanye</a></td><td>konten kreator + UTM WhatsApp</td></tr>
 <tr><td><a href="../konten/index.html">Hub konten</a></td><td>15 aset + caption siap salin</td></tr>
 <tr><td><a href="../riset/index.html">Dasbor riset</a></td><td>outlier, pola, komentar, kata kunci, brief</td></tr>
+<tr><td><a href="../studio/index.html">Studio konten</a></td><td>10 tahap: niche → outlier → hook → skrip → brief Senin</td></tr>
 <tr><td><a href="../brand/index.html">Brand kit</a></td><td>9 label 70×100 mm, lembar A4, logo, OG card</td></tr>
 <tr><td><a href="../komersial/penawaran-b2b.html">Penawaran B2B</a></td><td>4 tier harga grosir + alur kerja</td></tr>
 <tr><td><a href="periksa.md">Laporan periksa (markdown)</a></td><td>versi teks untuk dibaca cepat</td></tr>
@@ -229,7 +255,7 @@ tonase lot ditambah hari ini atas arahan "semua tersedia", bukan hasil penerimaa
 <footer>
   <span>Dibuat <code>tools/laporan.py</code> · sumber: <code>laporan/periksa.json</code>,
     <code>dashboard/data.json</code>, <code>data/catalog.json</code>,
-    <code>data/kreatif.json</code>, <code>riset/data.json</code></span>
+    <code>data/kreatif.json</code>, <code>riset/data.json</code>, <code>studio/data.json</code></span>
   <span>Semua grafik lokal · tanpa CDN aset · halaman <code>noindex</code></span>
 </footer></div></body></html>"""
 
@@ -242,13 +268,14 @@ def main():
     kreatif = baca("data", "kreatif.json")
     riset = baca("riset", "data.json")
     divisi = baca("data", "divisi.json")
+    studio = baca("studio", "data.json", default={})
 
     if not cek.get("hasil"):
         print("laporan/periksa.json belum ada — jalankan tools/periksa.py dulu.")
         raise SystemExit(1)
 
     os.makedirs(OUT, exist_ok=True)
-    html = bangun(tgl, cek, papan, katalog, kreatif, riset, divisi)
+    html = bangun(tgl, cek, papan, katalog, kreatif, riset, divisi, studio)
     with open(os.path.join(OUT, "index.html"), "w", encoding="utf-8") as f:
         f.write(html)
     print(f"laporan/index.html ditulis · {len(html)/1024:.0f} KB")

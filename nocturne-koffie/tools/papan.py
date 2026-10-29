@@ -713,6 +713,45 @@ def render(ctx):
                  + f'</p><div class="next">Prioritas: perbaiki halaman yang sudah ada sebelum membuat halaman baru.</div></div>')
         o.append('</div></section>')
 
+    if ctx.get("studio"):
+        st = ctx["studio"]
+        kp = st.get("keputusan") or {}
+        sk = st.get("skrip") or []
+        peta = st.get("peta") or {}
+        o.append('<section><h2>Studio konten — 10 tahap, brief Senin</h2>')
+        o.append(f'<div class="legend">Dibuat <code>tools/studio.py</code> · {st.get("dibuat", "—")} · '
+                 f'peta 50 slot: {peta.get("otomatis", 0)} otomatis · {peta.get("manual", 0)} manual · '
+                 f'{peta.get("tidak", 0)} tidak dipakai. '
+                 f'<a href="../studio/index.html">Buka studio</a> · '
+                 f'<a href="../studio/brief-senin.md">brief Senin</a> · '
+                 f'<a href="../skills/studio-konten/SKILL.md">playbook</a>.</div>')
+        o.append('<div class="grid">')
+        o.append(f'<div class="card"><h3>Bank hook</h3>'
+                 f'<div class="owner">{st.get("hook_total", 0)} hook · {st.get("hook_belum", 0)} belum dipakai</div>'
+                 f'<p style="margin:8px 0 0;font-size:13.5px">Film pertama: “{st.get("film_pertama") or "—"}”</p>'
+                 f'<div class="next">aset dicek ke manifest sebelum dipilih</div></div>')
+        o.append(f'<div class="card"><h3>Skrip siap rekam</h3>'
+                 f'<div class="owner">{st.get("skrip_siap", 0)} dari {len(sk)} skrip</div>'
+                 f'<p style="margin:8px 0 0;font-size:13.5px">'
+                 + (sk[0]["judul"] if sk else "—")
+                 + '</p><div class="next">9 detik: hook 3s + 2 bukti + CTA</div></div>')
+        o.append(f'<div class="card"><h3>Keputusan minggu ini</h3>'
+                 f'<div class="owner">dobel: {kp.get("dobel", "—")}</div>'
+                 f'<p style="margin:8px 0 0;font-size:13.5px">Hentikan: '
+                 + (", ".join(kp.get("hentikan") or []) or "tidak ada")
+                 + '</p><div class="next">satu uji: '
+                 + ((kp.get("uji") or ["—"])[0]) + '</div></div>')
+        o.append('</div>')
+        if sk:
+            o.append('<table><tr><th>#</th><th>Skrip</th><th>Struktur</th><th>Aset</th><th>Status</th></tr>')
+            for x in sk:
+                o.append(f'<tr><td class="num">{x.get("no")}</td><td>{x.get("judul")}</td>'
+                         f'<td>{x.get("struktur")}</td><td><code>{x.get("aset")}</code></td>'
+                         f'<td><span class="pill {"ok" if x.get("status") == "siap rekam" else "dim"}">'
+                         f'{x.get("status")}</span></td></tr>')
+            o.append('</table>')
+        o.append('</section>')
+
     o.append('<section><h2>Penjualan — pesanan perlu diproses</h2>')
     if ctx["proses"]:
         o.append('<table><tr><th>Nomor</th><th>Tanggal</th><th>Nama</th><th>Produk</th><th>Ukuran</th><th class="num">Qty</th><th class="num">Total</th><th>Status</th><th class="num">Umur</th></tr>')
@@ -864,6 +903,7 @@ def main():
     kreatif = baca_json(D("kreatif.json"), {})
     riset = baca_json(D("riset.json"), {}) if os.path.exists(D("riset.json")) else baca_json(
         os.path.join(ROOT, "riset", "data.json"), {})
+    studio = baca_json(os.path.join(ROOT, "studio", "data.json"), {})
 
     kritis = sum(1 for s in stok if s["beda_status"] or s["status_hitung"] == "habis")
     margin_stats = {"terburuk": rata_margin, "break_even": break_even["order_per_bulan"],
@@ -932,7 +972,7 @@ def main():
         "stok": stok, "margin": margin, "qc": qc, "legal": legal, "pipeline": pipeline,
         "break_even": break_even, "rata_margin": rata_margin,
         "target_divisi": target_divisi, "label_bulan": label_bulan, "kreatif": kreatif,
-        "jendela_data": jendela_data, "riset": riset,
+        "jendela_data": jendela_data, "riset": riset, "studio": studio,
     }
 
     if args.json:

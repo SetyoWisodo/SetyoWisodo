@@ -4,19 +4,19 @@
     {
       "kategori": "Berkas wajib",
       "status": "lolos",
-      "teks": "31/31 berkas ada",
+      "teks": "38/38 berkas ada",
       "detail": ""
     },
     {
       "kategori": "Tautan lokal",
       "status": "lolos",
-      "teks": "87/87 tautan menuju berkas yang ada",
+      "teks": "95/95 tautan menuju berkas yang ada",
       "detail": ""
     },
     {
       "kategori": "Struktur HTML",
       "status": "lolos",
-      "teks": "8/8 halaman tag-nya seimbang",
+      "teks": "9/9 halaman tag-nya seimbang",
       "detail": ""
     },
     {
@@ -53,6 +53,24 @@
       "kategori": "Klaim terlarang",
       "status": "lolos",
       "teks": "0 temuan di 4 halaman publik",
+      "detail": ""
+    },
+    {
+      "kategori": "Skrip studio",
+      "status": "lolos",
+      "teks": "5 skrip siap rekam · 0 masalah",
+      "detail": ""
+    },
+    {
+      "kategori": "Bank hook",
+      "status": "lolos",
+      "teks": "30 hook · 12 dipakai · 18 tersedia",
+      "detail": ""
+    },
+    {
+      "kategori": "Peta 50 slot",
+      "status": "lolos",
+      "teks": "46 otomatis · 2 manual · 2 tidak dipakai (total 50)",
       "detail": ""
     },
     {

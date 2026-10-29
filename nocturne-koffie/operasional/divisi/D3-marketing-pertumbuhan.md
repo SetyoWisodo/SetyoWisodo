@@ -90,6 +90,7 @@ Dua pertanyaan berbeda, dua skill berbeda:
 | "Konten sejenis apa yang ramai, dan kenapa?" | `social-media-riset` | `data/riset-referensi.csv` | outlier + pola + brief |
 | "Pembeli memakai kalimat apa?" | `komentar-mining` | `data/riset-komentar.csv` | keberatan → slide/FAQ |
 | "Orang mencari apa, dan halaman kita menjawabnya?" | `search-intent-riset` | `data/riset-kata-kunci.csv` | prioritas + celah halaman |
+| "Minggu ini dobel apa, hentikan apa, uji apa?" | `studio-konten` (10 tahap) | `data/studio-*.csv/json` | `studio/brief-senin.md` + 5 skrip |
 
 Aturan yang mengikat:
 
@@ -99,6 +100,35 @@ Aturan yang mengikat:
 3. **Adaptasi pola, bukan salin konten.** Hook, footage, audio, dan desain orang lain tidak dipakai.
 4. **Angka orang lain bukan klaim kita.** Bukti kita: `batch-qc.csv`, `catalog.json`, `pesanan.csv`.
 5. **Semua klaim baru tetap lewat D7** sebelum tayang.
+
+---
+
+## 2c. Studio 10 tahap — pengganti "50 agent"
+
+Kerangka tim social media 10 folder / 50 agent dijalankan `tools/studio.py` sebagai **fungsi
+deterministik**: 46 slot otomatis, 2 manual, 2 tidak dipakai. Satu perintah, 0 token, 0,2 detik.
+
+| Tahap | D3 memakainya untuk | Keluaran yang dibaca |
+| ---: | --- | --- |
+| 01 niche | menjaga positioning & kata terlarang | `studio/index.html` §01 |
+| 02 pesaing | memutuskan siapa yang dipantau | §02 + `data/studio-industri.csv` |
+| 03 outlier | melihat pola yang naik & dead views | §03 |
+| 04 kreator | watchlist (≥2 outlier, aktif ≤30 hari) | §04 |
+| 05 hook | memilih satu film pertama | §05 |
+| 06 format | format prioritas per platform | §06 |
+| 07 skrip | cek suara, CTA, sumber klaim | `studio/skrip/` |
+| 08 skala | remix 3 konsep per pemenang | §08 |
+| 09 lapor | **dobel / hentikan / uji** | `studio/brief-senin.md` |
+| 10 ops | jadwal & cek pemakaian ulang | §10 |
+
+Aturan:
+
+1. **Senin 5 menit:** baca `studio/brief-senin.md`, ambil **satu** keputusan. Tiga sekaligus = tidak ada
+   yang benar-benar diuji.
+2. **Bank hook dulu, hook baru kemudian.** Jangan menulis hook baru sebelum 18 hook `belum` habis.
+3. **Satu keputusan UJI per minggu.** Kalau seminggu ada lima eksperimen, tidak ada yang bisa dibaca.
+4. **Keputusan dari baris `contoh` masih contoh.** Brief mencetak peringatan sampai ada baris `asli`.
+5. **Studio tidak menayangkan.** Unggahan, balas chat, dan pembayaran tetap manual.
 
 ---
 
@@ -118,6 +148,7 @@ Aturan yang mengikat:
 | 10 | Isi `data/konten-14hari.csv` | baris terjadwal |
 | 20 | Ukur minggu lalu: simpan, chat, biaya per chat | baris `data/kpi.csv` |
 | 10 | Pilih satu hal yang akan diulang & satu yang dihentikan | catatan 2 baris |
+| 5 | Baca `studio/brief-senin.md` (dobel/hentikan/uji) | 1 keputusan minggu |
 
 Sebelum blok 25 menit menulis caption: **20 menit riset** (tambah baris referensi + komentar,
 jalankan `tools/riset.py`, pilih 1–3 brief). Riset tanpa brief tidak dihitung selesai.
