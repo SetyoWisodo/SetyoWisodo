@@ -158,6 +158,29 @@ Yang **tidak** boleh diubah saat merekam:
 Yang **boleh** diubah: shot list, urutan pengambilan, pencahayaan, dan bunyi ruangan.
 Setelah direkam, ubah `status` hook di `data/studio-hooks.csv` menjadi `dipakai`.
 
+## 4d. Gerak & landing page (skill `motion-web`)
+
+Tujuh repo desain dari post `@thegreatest_sv` (29 Okt 2026) dipakai sebagai **aturan + komponen**,
+bukan library tambahan. Playbooknya `skills/motion-web/SKILL.md`; mesinnya `tools/motion.py`
+dan `tools/slop.py`.
+
+| Yang dipakai | Berkas | Untuk apa |
+| --- | --- | --- |
+| kontrak token | `data/design-system.json` | sumber warna/radius/ukuran/easing; audit memeriksa CSS terhadapnya |
+| komponen gerak | `assets/js/motion-ui.js` + `assets/css/motion-ui.css` | spotlight, count-up, magnet, teks per kata, pin, bilah kemajuan |
+| adegan 9:16 | `motion/frame-01..05.html` + `motion/timeline.json` | dari 5 skrip studio, siap direkam |
+| audit anti-slop | `tools/slop.py` → `laporan/slop.md` | 29 aturan: slop, kualitas, gerak, kontrak desain |
+
+Aturan kerja:
+
+1. **Satu ide gerak per bagian.** Hero boleh punya teks per kata; bagian lain cukup reveal.
+2. **Hanya transform/opacity.** Kalau butuh lebar/tinggi berubah, itu bukan animasi — itu layout.
+3. **Reduced-motion mematikan semua gerak**, isi tetap terbaca.
+4. **Kritis harus nol** sebelum aset jadi. Perhatian diputuskan, bukan diabaikan.
+5. **Adegan HTML bukan video.** Rekam layar 1080×1920 atau render ffmpeg di mesin yang punya ffmpeg;
+   sandbox ini tidak punya encoder dan tidak diklaim punya.
+6. **Tidak ada Figma, Blender, atau GSAP** di lingkungan ini. Jangan menulis "sudah diimpor dari Figma".
+
 ## 5. Serah terima
 
 | Dari | Kepada | Apa |

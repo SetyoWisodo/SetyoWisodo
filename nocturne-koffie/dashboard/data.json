@@ -1,6 +1,6 @@
 {
   "hari_ini": "2026-10-30",
-  "dibuat": "30 Oct 2026 03:44 WIB",
+  "dibuat": "30 Oct 2026 15:11 WIB",
   "kpi": {
     "minggu": "1",
     "mulai": "2026-10-26",
@@ -1667,38 +1667,38 @@
     "skrip": [
       {
         "no": 1,
-        "judul": "Satu kantong, tiga angka yang bisa Anda cek.",
-        "struktur": "angka",
+        "judul": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
+        "struktur": "diagnosis",
         "status": "siap rekam",
-        "aset": "carousel-01c"
+        "aset": "reel-tanggal-sangrai"
       },
       {
         "no": 2,
-        "judul": "Kopi tidak punya tanggal kedaluwarsa yang jujur.",
-        "struktur": "larangan",
-        "status": "siap rekam",
-        "aset": "carousel-01a"
-      },
-      {
-        "no": 3,
-        "judul": "Jangan simpan kopi di kulkas.",
-        "struktur": "larangan",
-        "status": "siap rekam",
-        "aset": "story-01"
-      },
-      {
-        "no": 4,
-        "judul": "Gilingan Anda menentukan 40% rasanya.",
-        "struktur": "angka",
+        "judul": "Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.",
+        "struktur": "diagnosis",
         "status": "siap rekam",
         "aset": "carousel-02b"
       },
       {
-        "no": 5,
-        "judul": "Resi dikirim hari itu, bukan besok.",
-        "struktur": "pengakuan",
+        "no": 3,
+        "judul": "Rp23.000 vs Rp152.000: bedanya bukan cuma berat.",
+        "struktur": "banding",
         "status": "siap rekam",
-        "aset": "reel-kirim-hari-ini"
+        "aset": "carousel-01c"
+      },
+      {
+        "no": 4,
+        "judul": "Arabika Ijen vs robusta Raung, satu meja.",
+        "struktur": "banding",
+        "status": "siap rekam",
+        "aset": "carousel-02a"
+      },
+      {
+        "no": 5,
+        "judul": "Tiga hal yang membuat kopi rumahan terasa hambar.",
+        "struktur": "angka",
+        "status": "siap rekam",
+        "aset": "carousel-02b"
       }
     ],
     "film_pertama": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
@@ -1725,7 +1725,7 @@
         "Proses sangrai 12 menit dalam 20 detik"
       ],
       "uji": [
-        "Satu kantong, tiga angka yang bisa Anda cek."
+        "Kopi pahit padahal baru beli? Cek tiga hal ini."
       ]
     },
     "reuse": {

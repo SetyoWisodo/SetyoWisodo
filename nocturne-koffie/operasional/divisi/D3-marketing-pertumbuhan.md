@@ -132,6 +132,20 @@ Aturan:
 
 ---
 
+## 2d. Landing page: gerak yang dipertanggungjawabkan
+
+Landing page kampanye dibuat `tools/kampanye.py` dan sekarang memakai komponen gerak dari
+`skills/motion-web` (reveal, teks per kata, angka berjalan, tombol magnet, pin bertahap, bilah
+kemajuan). Aturan yang mengikat D3 saat menyunting halaman itu:
+
+1. **Jangan menambah efek baru tanpa alasan.** Satu ide gerak per bagian; sisanya statis.
+2. **Jangan mengubah HTML hasil generate.** Ubah `tools/kampanye.py`, lalu regenerasi.
+3. **Setiap perubahan halaman wajib lewat `tools/slop.py`.** Kritis harus nol; perhatian diputuskan.
+4. **Angka di halaman berasal dari `data/catalog.json`** — gerak tidak boleh menutupi angka yang salah.
+5. **Uji di `?t=` bukan alasan menunda.** Yang diukur tetap simpan, chat, dan biaya per chat.
+
+---
+
 ## 3. Ritme kerja
 
 ### Harian — 10 menit

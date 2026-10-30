@@ -99,7 +99,7 @@ def bangun(catalog, kreatif, tgl):
     baris_produk = ""
     for p in produk_pilihan(catalog):
         normal = (f'<s>{rp(p["normal"])}</s>' if p.get("normal") else "")
-        baris_produk += f"""      <a class="pilih" href="{wa(f'Halo, saya mau pesan {p["produk"]} (SKU {p["sku"]}). Lihat di halaman kampanye.', p["kanal"])}" target="_blank" rel="noopener">
+        baris_produk += f"""      <a class="pilih" data-ui="spotlight" href="{wa(f'Halo, saya mau pesan {p["produk"]} (SKU {p["sku"]}). Lihat di halaman kampanye.', p["kanal"])}" target="_blank" rel="noopener">
         <span class="pilih__nama">{p["nama"]}</span>
         <span class="pilih__ket">{p["ket"]}</span>
         <span class="pilih__harga">{rp(p["harga"])} {normal}</span>
@@ -136,6 +136,7 @@ def bangun(catalog, kreatif, tgl):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="../assets/css/site.css" />
+<link rel="stylesheet" href="../assets/css/motion-ui.css" />
 <style>
   /* ── lapisan khusus halaman kampanye (token dari site.css, tidak diubah) ── */
   .kp{{padding-block:clamp(34px,6vw,72px)}}
@@ -187,10 +188,17 @@ def bangun(catalog, kreatif, tgl):
   .tutup .btn--orange{{margin-top:20px}}
   .kaki{{display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between;font-size:12px;color:var(--ink-55);padding:22px 0 40px;border-top:1px solid rgba(22,17,13,.16)}}
   .kaki a{{color:inherit}}
+  /* komponen gerak (motion-ui) khusus halaman ini */
+  .bukti.ui-pin__step{{border-top:2px solid var(--ink);padding-top:14px}}
+  .bukti .ui-pin__step{{opacity:1;transform:none}}
+  html.ui-motion .bukti .ui-pin__step{{opacity:.4}}
+  html.ui-motion .bukti .ui-pin__step.ui-on{{opacity:1}}
+  html.ui-motion .bukti .ui-pin__step h3{{color:var(--espresso)}}
   @media (prefers-reduced-motion:reduce){{.pilih{{transition:none}}.pilih:hover{{transform:none}}}}
 </style>
 </head>
 <body>
+<div class="ui-progress"><i></i></div>
 
 <header class="nav is-solid">
   <div class="wrap nav__in">
@@ -213,20 +221,20 @@ def bangun(catalog, kreatif, tgl):
   <section class="kp wrap">
     <div class="kp__head">
       <p class="kicker">Kampanye · {tgl.strftime('%B %Y')} · {len(video)} klip · 1 halaman</p>
-      <h1>Kopi yang <em>jujur</em> soal tanggal.</h1>
+      <h1 data-ui="words">Kopi yang <em>jujur</em> soal tanggal.</h1>
       <p class="lede">Kami tidak mencetak tanggal kedaluwarsa. Yang tercetak di tiap kantong:
         <b>tanggal sangrai</b>, <b>kode batch</b>, dan <b>level roast</b>. Prosesnya kami rekam —
         supaya Anda tidak perlu percaya pada kata “fresh”.</p>
       <div class="kp__acts">
-        <a class="btn btn--orange btn--lg" href="{wa('Halo, saya mau pesan kopi. Boleh dibantu pilih?', SUMBER['hero'])}" target="_blank" rel="noopener">Pesan via WhatsApp</a>
+        <a class="btn btn--orange btn--lg" data-ui="magnet" href="{wa('Halo, saya mau pesan kopi. Boleh dibantu pilih?', SUMBER['hero'])}" target="_blank" rel="noopener">Pesan via WhatsApp</a>
         <a class="btn" href="#klip">Lihat {len(video)} klip proses →</a>
       </div>
       <p class="kp__note">Senin–Sabtu 09.00–21.00 WIB · dibalas biasanya di bawah 2 jam · kirim hari yang sama untuk order sebelum 15.00.</p>
     </div>
 
-    <div class="angka">
-      <div><b>3 hal</b><span>tercetak di tiap kantong: tanggal sangrai, kode batch, level roast</span></div>
-      <div><b>7–21 hari</b><span>jendela rasa terbaik setelah sangrai</span></div>
+    <div class="angka" data-ui="reveal">
+      <div><b data-ui="count" data-to="3" data-suffix=" hal">3 hal</b><span>tercetak di tiap kantong: tanggal sangrai, kode batch, level roast</span></div>
+      <div><b data-ui="count" data-from="7" data-to="21" data-prefix="7–" data-suffix=" hari">7–21 hari</b><span>jendela rasa terbaik setelah sangrai</span></div>
       <div><b>15.00 WIB</b><span>batas order untuk dikirim di hari yang sama</span></div>
     </div>
   </section>
@@ -249,20 +257,20 @@ def bangun(catalog, kreatif, tgl):
   <section class="kp wrap">
     <p class="kicker">Alasan, bukan slogan</p>
     <h2>Tiga hal yang kami pertanggungjawabkan.</h2>
-    <div class="bukti">
-      <article>
+    <div class="bukti" data-ui="pin">
+      <article class="ui-pin__step">
         <span>01 · QC</span>
         <h3>Batch ditolak tidak dikirim</h3>
         <p>Setiap batch dicicipi dan diberi skor. Ambang kami 83. Batch berskor 81,5 tidak dijual dengan
           diskon, tidak diganti label — disangrai ulang, dicicipi lagi.</p>
       </article>
-      <article>
+      <article class="ui-pin__step">
         <span>02 · Proses</span>
         <h3>Berhenti berdasarkan catatan</h3>
         <p>Titik henti sangrai ditentukan per batch, bukan perasaan. Dua puluh detik lebih lama bisa
           mengubah rasa — karena itu suhu dan waktu dicatat, lalu diulang untuk batch berikutnya.</p>
       </article>
-      <article>
+      <article class="ui-pin__step">
         <span>03 · Layanan</span>
         <h3>Order sebelum 15.00 dikirim hari itu</h3>
         <p>Senin–Sabtu. Resi dikirim hari yang sama, bukan besok. Kalau kami tidak bisa memenuhi,
@@ -304,7 +312,7 @@ def bangun(catalog, kreatif, tgl):
       <h2>Kalau ragu, tanya dulu.</h2>
       <p class="lede">Sebutkan metode seduh dan alat yang Anda punya. Kami sarankan kopi dan tingkat gilingan
         yang cocok — atau bilang saja kalau belum ada yang cocok. Lebih baik tidak jadi beli daripada salah beli.</p>
-      <a class="btn btn--orange btn--lg" href="{wa('Halo, saya mau tanya-tanya dulu soal kopi dan alat seduh saya.', SUMBER['hero'])}" target="_blank" rel="noopener">Tanya via WhatsApp</a>
+      <a class="btn btn--orange btn--lg" data-ui="magnet" href="{wa('Halo, saya mau tanya-tanya dulu soal kopi dan alat seduh saya.', SUMBER['hero'])}" target="_blank" rel="noopener">Tanya via WhatsApp</a>
     </div>
   </section>
 </main>
@@ -316,7 +324,8 @@ def bangun(catalog, kreatif, tgl):
       <a href="../index.html">Situs</a> ·
       <a href="../konten/index.html">Hub konten</a> ·
       <a href="../brand/index.html">Brand kit</a> ·
-      <a href="../komersial/penawaran-b2b.html">Grosir</a>
+      <a href="../komersial/penawaran-b2b.html">Grosir</a> ·
+      <a href="../motion/index.html">Lab gerak</a>
     </span>
   </div>
   <p class="kp__note" style="padding-bottom:34px">Halaman dibuat otomatis oleh <code>tools/kampanye.py</code>
@@ -324,6 +333,7 @@ def bangun(catalog, kreatif, tgl):
     Label utm: <code>kampanye={KAMPANYE}</code>.</p>
 </footer>
 
+<script src="../assets/js/motion-ui.js" defer></script>
 </body>
 </html>
 """

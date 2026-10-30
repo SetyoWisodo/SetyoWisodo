@@ -116,7 +116,7 @@ def html_proposal(baris, tgl):
         idx = TIER.index(t) + 1
         return f"""<div class="tier">
       <div class="tier__no">0{idx}</div>
-      <h4>{t['nama']}</h4>
+      <h3>{t['nama']}</h3>
       <p class="tier__min">Mulai {t['min_kg']} kg / pengiriman</p>
       <p class="tier__term">Termin: {t['termin']}</p>
     </div>"""
@@ -137,7 +137,8 @@ body{{margin:0;background:#fff;color:var(--ink);font:15px/1.6 Inter,system-ui,sa
 h1{{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:42px;line-height:1.02;letter-spacing:-.03em;margin:0 0 14px}}
 h2{{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin:38px 0 12px;border-top:2px solid var(--ink);padding-top:12px}}
 h3{{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:20px;margin:0 0 6px}}
-h4{{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:16px;margin:8px 0 2px}}
+.tier h3{{font-size:16px;margin:8px 0 2px}}
+.tier{{border-top:2px solid var(--ink);padding-top:14px}}
 p{{margin:0 0 12px;max-width:62ch}}
 .lede{{font-size:17px;max-width:56ch}}
 .hero{{display:grid;grid-template-columns:1.4fr 1fr;gap:34px;align-items:start}}
@@ -152,7 +153,7 @@ th{{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--mu
 td.num,th.num{{text-align:right;font-variant-numeric:tabular-nums}}
 .tiers{{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:8px}}
 .tier{{border:var(--line);padding:12px}}
-.tier__no{{font:700 10px/1 Inter,sans-serif;letter-spacing:.16em;color:var(--orange)}}
+.tier__no{{font:700 10px/1 Inter,sans-serif;letter-spacing:.16em;color:var(--espresso)}}
 .tier__min{{font-size:12.5px;margin:6px 0 0}}
 .tier__term{{font-size:11.5px;color:var(--muted);margin:2px 0 0}}
 .two{{display:grid;grid-template-columns:1fr 1fr;gap:30px}}

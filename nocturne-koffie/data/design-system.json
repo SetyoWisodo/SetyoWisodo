@@ -1,0 +1,270 @@
+{
+  "_catatan": "Kontrak desain mesin (pengganti peran 'Figma source'): token yang boleh dipakai, nilai yang dilarang, dan pengecualian yang diikat kesepakatan FINAL 3.7. Dibaca tools/slop.py (audit) dan tools/motion.py (lab gerak). Jangan menambah nilai di sini tanpa mengubah CSS-nya juga.",
+  "versi": "1.0.0",
+  "diperbarui": "2026-10-30",
+  "sumber_kebenaran": [
+    "assets/css/site.css (:root)",
+    "assets/css/motion.css (:root)",
+    "panduan/07-sistem-motion.md",
+    "kesepakatan kerja FINAL 3.7 (warna & tipografi tidak boleh diubah)"
+  ],
+  "warna": {
+    "inti": {
+      "--paper": "#F5EFE4",
+      "--paper-2": "#EFE6D6",
+      "--ink": "#16110D",
+      "--orange": "#E1542B",
+      "--espresso": "#4A2C1A",
+      "--gold": "#D9A441"
+    },
+    "turunan": {
+      "--ink-80": "rgba(22,17,13,.8)",
+      "--ink-55": "rgba(22,17,13,.55)",
+      "--g1a": "#E1542B",
+      "--g1b": "#4A2C1A",
+      "--g2a": "#D9A441",
+      "--g2b": "#7A4A1E",
+      "--g3a": "#93381F",
+      "--g3b": "#16110D",
+      "--g4a": "#B4703A",
+      "--g4b": "#3A2013"
+    },
+    "boleh_dipakai": [
+      "#F5EFE4",
+      "#EFE6D6",
+      "#16110D",
+      "#E1542B",
+      "#4A2C1A",
+      "#D9A441",
+      "#7A4A1E",
+      "#93381F",
+      "#B4703A",
+      "#3A2013",
+      "#fff",
+      "#ffffff",
+      "transparent",
+      "currentColor",
+      "inherit"
+    ],
+    "larangan": [
+      {
+        "pola": "ungu/violet",
+        "contoh": [
+          "#7c3aed",
+          "#8b5cf6",
+          "#a855f7"
+        ],
+        "alasan": "sinyal paling kuat UI buatan AI, dan di luar palet brand"
+      },
+      {
+        "pola": "cyan di atas gelap",
+        "contoh": [
+          "#22d3ee",
+          "#06b6d4"
+        ],
+        "alasan": "idem; bukan warna brand"
+      },
+      {
+        "pola": "gradien ungu",
+        "contoh": [
+          "linear-gradient(...#8b5cf6...#3b82f6)"
+        ],
+        "alasan": "idem"
+      }
+    ]
+  },
+  "tipografi": {
+    "keluarga": {
+      "--display": "Bricolage Grotesque",
+      "--serif": "Fraunces",
+      "--body": "Inter"
+    },
+    "skala_px": [
+      8.5,
+      9.5,
+      10,
+      10.5,
+      11,
+      11.5,
+      12,
+      12.5,
+      13,
+      13.5,
+      14,
+      14.5,
+      15,
+      16,
+      17,
+      19,
+      20,
+      22,
+      24,
+      26,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48,
+      56,
+      64,
+      76,
+      96,
+      105
+    ],
+    "skala_rem": [
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      0.98,
+      1,
+      1.06,
+      1.1,
+      1.2,
+      1.5,
+      1.7,
+      2,
+      2.4,
+      2.6,
+      3.6,
+      6.6
+    ],
+    "rasio_h1_ke_body": 6.17,
+    "catatan": "Angka px/rem di atas adalah nilai yang benar-benar ada di CSS. Nilai baru harus ditambahkan di sini dulu supaya audit tidak menandainya."
+  },
+  "radius": [
+    "0",
+    "0 0 8px 0",
+    "3px",
+    "4px",
+    "6px",
+    "8px",
+    "20px",
+    "50%",
+    "999px",
+    "2px"
+  ],
+  "spasi": {
+    "skala_px": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      34,
+      36,
+      40,
+      44,
+      46,
+      48,
+      52,
+      56,
+      64,
+      72,
+      80
+    ],
+    "catatan": "Spasi memakai clamp() untuk bagian besar; angka di atas adalah nilai dasar yang dipakai sebagai batas atas/bawah."
+  },
+  "gerak": {
+    "easing": {
+      "--ease-out": "cubic-bezier(.16,1,.3,1)",
+      "--ease-in-out": "cubic-bezier(.65,0,.35,1)",
+      "--ease-spring": "cubic-bezier(.2,.8,.2,1)"
+    },
+    "durasi": {
+      "--d-fast": "240ms",
+      "--d-mid": "620ms",
+      "--d-slow": "900ms",
+      "--d-intro": "1100ms"
+    },
+    "aturan": [
+      "Hanya animasikan transform dan opacity. Lebar, tinggi, top, left, margin tidak pernah dianimasikan.",
+      "Satu keluarga easing: expo-out untuk masuk, in-out untuk perubahan state, spring tanpa overshoot untuk umpan balik sentuhan.",
+      "Stagger 55–90 ms; durasi 240–1100 ms.",
+      "Setiap animasi punya prefers-reduced-motion: konten tetap terlihat tanpa gerak.",
+      "Loop scroll dibungkus satu requestAnimationFrame dengan flag ticking; listener scroll pasif.",
+      "will-change hanya selama animasi berjalan, lalu dikembalikan ke auto.",
+      "Tidak ada animasi tak berujung kecuali marquee brand, dan marquee berhenti saat reduced-motion."
+    ]
+  },
+  "halaman_publik": [
+    "index.html",
+    "kampanye/index.html",
+    "komersial/penawaran-b2b.html",
+    "brand/index.html"
+  ],
+  "berkas_css": [
+    "assets/css/site.css",
+    "assets/css/motion.css",
+    "assets/css/motion-ui.css"
+  ],
+  "pengecualian": [
+    {
+      "id": "cream-palette",
+      "keputusan": "dipertahankan",
+      "alasan": "Latar krem #F5EFE4 adalah warna kertas pada kesepakatan FINAL 3.7, bukan pilihan refleks. Menggantinya berarti mengubah brand.",
+      "sumber": "FINAL 3.7 · brand/README.md"
+    },
+    {
+      "id": "overused-font",
+      "keputusan": "dipertahankan",
+      "alasan": "Bricolage Grotesque (display) + Fraunces (serif) + Inter (body) dikunci brief. Inter hanya untuk badan teks panjang, bukan headline.",
+      "sumber": "FINAL 3.7 · panduan/07 §3"
+    },
+    {
+      "id": "oversized-h1",
+      "keputusan": "dipertahankan",
+      "alasan": "Headline maksimal 6,6rem di desktop sudah diuji tidak memotong di 360 px; ukuran besar adalah bagian dari hierarki brand.",
+      "sumber": "FINAL 3.7 · index.html .hero__title"
+    },
+    {
+      "id": "kicker-above-heading",
+      "keputusan": "dibatasi",
+      "alasan": "Label kecil di atas judul dipakai maksimal 2 per halaman sebagai penanda bagian, bukan hiasan berulang.",
+      "sumber": "marketing/09 · panduan/07"
+    },
+    {
+      "id": "marquee",
+      "keputusan": "dipertahankan",
+      "alasan": "Marquee adalah elemen brand di bawah hero (teks 9 SKU). Wajib berhenti saat reduced-motion.",
+      "sumber": "index.html .marquee"
+    },
+    {
+      "id": "radial-spotlight-glow",
+      "keputusan": "dipertahankan terbatas",
+      "alasan": "Satu sorotan mengikuti kursor di hero saja, mati di perangkat sentuh dan saat reduced-motion.",
+      "sumber": "assets/js/motion.js §4a"
+    },
+    {
+      "id": "em-dash-overuse",
+      "keputusan": "dipertahankan dengan batas",
+      "alasan": "Tanda pisah adalah jeda napas pada naskah brand (FINAL 3.7). Setelah dihitung: 1 tanda pisah per 50-60 kata di halaman panjang. Batas audit ditetapkan 1 per 45 kata; di atas itu baru diperingatkan.",
+      "sumber": "FINAL 3.7 · naskah halaman"
+    },
+    {
+      "id": "tiny-text",
+      "keputusan": "label mikro ≥ 10 px",
+      "alasan": "Label huruf kapital ber-tracking lebar (10-10,5 px) hanya dipakai untuk penanda non-informatif; teks informatif tidak pernah di bawah 12,5 px. Ambang audit: < 10 px.",
+      "sumber": "assets/css/site.css"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+/* ============================================================
+   Nocturne — motion-ui.css  (lapisan komponen gerak, v1)
+
+   Diadaptasi dari tiga repo yang dibuka 30 Okt 2026:
+     · DavidHDev/react-bits    → pola spotlight kartu, hitung angka,
+                                 tombol magnet, pecah teks per kata
+     · greensock/gsap-skills   → semantik pin/scrub, transform+opacity saja
+     · pbakaus/impeccable      → pembatas "slop": tanpa overshoot,
+                                 tanpa denyut status, tanpa kedip kursor
+
+   Aturan yang dipegang file ini:
+     1. Semua efek hanya menyentuh transform & opacity.
+     2. Tanpa JS (atau saat `prefers-reduced-motion`) isi tetap terbaca penuh.
+     3. Tidak ada animasi tak berujung. Ticker hanya dipakai bila memang
+        diminta lewat data-ui="ticker", dan berhenti saat reduced-motion.
+     4. Efek hanya hidup di perangkat dengan kursor presisi, kecuali reveal
+        (yang juga berguna di sentuh).
+   ============================================================ */
+
+/* ── reveal saat masuk viewport ───────────────────────────── */
+/* keadaan awal hanya aktif kalau JS sudah menandai html.ui-motion —
+   tanpa JS tidak ada konten yang tersembunyi */
+html.ui-motion [data-ui="reveal"]{
+  opacity:0;
+  transform:translate3d(0,18px,0);
+  transition:opacity var(--d-mid) var(--ease-out),transform var(--d-mid) var(--ease-out);
+  transition-delay:var(--ui-delay,0ms);
+}
+html.ui-motion [data-ui="reveal"].ui-in{opacity:1;transform:none}
+
+/* ── teks per kata (react-bits: SplitText / TextReveal) ───── */
+html.ui-motion [data-ui="words"] .ui-word{
+  display:inline-block;
+  opacity:0;
+  transform:translate3d(0,.42em,0);
+  transition:opacity .52s var(--ease-out),transform .62s var(--ease-out);
+  transition-delay:calc(var(--ui-delay,0ms) + var(--w,0) * 38ms);
+}
+html.ui-motion [data-ui="words"].ui-in .ui-word{opacity:1;transform:none;will-change:auto}
+
+/* elemen dengan markup di dalamnya: cukup fade, jangan dipecah */
+html.ui-motion [data-ui="words"].ui-word-utuh{
+  opacity:0;transition:opacity var(--d-mid) var(--ease-out);
+}
+html.ui-motion [data-ui="words"].ui-word-utuh.ui-in{opacity:1}
+
+/* ── spotlight kartu (react-bits: SpotlightCard) ──────────── */
+[data-ui="spotlight"]{position:relative;isolation:isolate}
+[data-ui="spotlight"]::after{
+  content:"";
+  position:absolute;inset:0;z-index:0;
+  pointer-events:none;
+  opacity:0;
+  transition:opacity var(--d-fast) var(--ease-in-out);
+  background:radial-gradient(220px circle at var(--mx,50%) var(--my,50%),
+    rgba(217,164,65,.16), rgba(217,164,65,0) 62%);
+}
+[data-ui="spotlight"]:hover::after,
+[data-ui="spotlight"]:focus-within::after{opacity:1}
+[data-ui="spotlight"] > *{position:relative;z-index:1}
+
+/* ── tombol magnet (react-bits: MagneticButton) ───────────── */
+[data-ui="magnet"]{transition:transform 220ms var(--ease-out)}
+[data-ui="magnet"].ui-off{transition:none}
+
+/* ── angka berjalan (react-bits: CountUp) ─────────────────── */
+[data-ui="count"]{font-variant-numeric:tabular-nums}
+
+/* ── pin + langkah gulir (gsap-skills: ScrollTrigger pin) ─── */
+.ui-pin{position:relative}
+.ui-pin__stage{position:sticky;top:calc(var(--nav-h,66px) + 12px)}
+.ui-pin__step{
+  opacity:.38;
+  transform:translate3d(0,0,0) scale(.99);
+  transition:opacity var(--d-mid) var(--ease-out),transform var(--d-mid) var(--ease-out);
+}
+.ui-pin__step.ui-on{opacity:1;transform:none}
+.ui-pin__step h3{transition:color var(--d-mid) var(--ease-in-out)}
+.ui-pin__step.ui-on h3{color:var(--espresso)}
+
+/* ── bilah kemajuan (semantik scrub, bukan parallax liar) ─── */
+.ui-progress{
+  position:fixed;top:0;left:0;right:0;height:2px;z-index:300;
+  background:transparent;pointer-events:none;
+}
+.ui-progress i{
+  display:block;height:100%;width:100%;
+  background:var(--orange);
+  transform:scaleX(0);transform-origin:0 50%;
+  will-change:transform;
+}
+
+/* ── ticker (dipakai hanya kalau diminta) ─────────────────── */
+[data-ui="ticker"]{overflow:hidden}
+[data-ui="ticker"] > *{
+  display:inline-flex;gap:0;
+  animation:ui-ticker 26s linear infinite;
+  will-change:transform;
+}
+@keyframes ui-ticker{from{transform:translate3d(0,0,0)}to{transform:translate3d(-50%,0,0)}}
+
+/* ── kurangi gerak: semua kembali statis & terbaca ────────── */
+@media (prefers-reduced-motion:reduce){
+  [data-ui="reveal"],
+  html.ui-motion [data-ui="words"] .ui-word{
+    opacity:1 !important;
+    transform:none !important;
+    transition:none !important;
+  }
+  [data-ui="spotlight"]::after,
+  [data-ui="magnet"]{transition:none !important;transform:none !important}
+  [data-ui="ticker"] > *{animation:none !important;transform:none !important}
+  .ui-pin__stage{position:static}
+  .ui-pin__step{opacity:1;transform:none;transition:none}
+  .ui-progress{display:none}
+}

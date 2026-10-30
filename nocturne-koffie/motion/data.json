@@ -1,0 +1,55 @@
+{
+  "dibuat": "2026-10-30",
+  "repo_total": 7,
+  "repo_dipakai_utuh": 4,
+  "repo_prinsip_saja": 1,
+  "repo_tidak_dipakai": 1,
+  "adegan": [
+    {
+      "no": 1,
+      "judul": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
+      "durasi": 9.0,
+      "beat": 4,
+      "berkas": "motion/frame-01.html"
+    },
+    {
+      "no": 2,
+      "judul": "Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.",
+      "durasi": 9.0,
+      "beat": 4,
+      "berkas": "motion/frame-02.html"
+    },
+    {
+      "no": 3,
+      "judul": "Rp23.000 vs Rp152.000: bedanya bukan cuma berat.",
+      "durasi": 9.0,
+      "beat": 4,
+      "berkas": "motion/frame-03.html"
+    },
+    {
+      "no": 4,
+      "judul": "Arabika Ijen vs robusta Raung, satu meja.",
+      "durasi": 9.0,
+      "beat": 4,
+      "berkas": "motion/frame-04.html"
+    },
+    {
+      "no": 5,
+      "judul": "Tiga hal yang membuat kopi rumahan terasa hambar.",
+      "durasi": 9.0,
+      "beat": 4,
+      "berkas": "motion/frame-05.html"
+    }
+  ],
+  "audit": {
+    "aturan": 29,
+    "kritis": 0,
+    "perhatian": 0
+  },
+  "batas": [
+    "Figma MCP: tanpa akun Figma",
+    "Blender: tidak ada, 3D diganti CSS 3D",
+    "HyperFrames: tanpa render server",
+    "GSAP: tidak dipasang"
+  ]
+}

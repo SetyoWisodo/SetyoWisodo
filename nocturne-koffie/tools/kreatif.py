@@ -584,7 +584,7 @@ def hub_html(items, tgl):
       <div class="media {it['format']}">{media}</div>
       <div class="isi">
         <p class="meta">{it['platform']} · {it['rasio']}{' · ' + str(it.get('durasi','')) + 's' if it.get('durasi') else ''}</p>
-        <h3>{it['judul']}</h3>
+        <h2>{it['judul']}</h2>
         <p class="cap">{it['caption_ringkas']}</p>
         <p class="jadwal">Jadwal: {it['jadwal']} · status: <b>{it['status']}</b></p>
         <details><summary>Caption lengkap</summary><pre>{it['caption']}</pre></details>
@@ -615,7 +615,7 @@ h1{{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:clamp(30px,5vw,
 .media video{{width:100%;height:100%;object-fit:cover;display:block}}
 .isi{{padding:14px 16px 18px}}
 .meta{{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}}
-h3{{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:19px;margin:0 0 6px;line-height:1.15}}
+h2,h3{{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:19px;margin:0 0 6px;line-height:1.15}}
 .cap{{font-size:13.5px;color:var(--muted);margin:0 0 10px}}
 .jadwal{{font-size:12px;margin:0 0 10px;color:var(--muted)}}
 details{{font-size:12.5px}}

@@ -163,3 +163,35 @@ langganan yang masuk bergilir.
 Rekomendasi: **jangan** tambah lagi sebelum ada data. Gerak yang ada sekarang sudah
 "cukup hidup" untuk brand kopi premium; menambah efek berisiko menggeser kesan dari
 *tenang-mahal* ke *ramai*.
+
+---
+
+## 8. Pembaruan 30 Okt 2026 — tujuh repo desain diterapkan
+
+Post `@thegreatest_sv` (29 Okt 2026) menyebut tujuh repo. Yang diterapkan di sini, dan yang tidak:
+
+| Repo | Status di repo ini |
+| --- | --- |
+| `nextlevelbuilder/ui-ux-pro-max-skill` | **dipakai prinsipnya** — disiplin token lewat `data/design-system.json` |
+| `pbakaus/impeccable` | **dipakai** — 62 antipattern jadi 29 aturan di `tools/slop.py` |
+| `GLips/Figma-Context-MCP` | **prinsip saja** — tidak ada akun Figma; kontrak JSON menggantikan perannya |
+| `DavidHDev/react-bits` | **dipakai, ditulis ulang vanilla** — spotlight, count-up, magnet, teks per kata |
+| `greensock/gsap-skills` | **aturan performa dipakai**, GSAP-nya tidak (lihat §2) |
+| `heygen-com/hyperframes` | **dipakai idenya** — adegan 9:16 HTML + timeline, tanpa render server |
+| `ahujasid/mcp-for-blender` | **tidak dipakai** — tidak ada Blender; 3D sebatas CSS tilt ≤ 3,5° |
+
+Playbook lengkap: [`skills/motion-web/SKILL.md`](../skills/motion-web/SKILL.md).
+Lab gerak (komponen hidup + 5 adegan): `/motion/index.html`.
+Audit terakhir: `laporan/slop.md`.
+
+**Yang berubah dari versi 1 dokumen ini:**
+
+1. `--ease-spring` tidak lagi memantul: `cubic-bezier(.34,1.56,.64,1)` → `cubic-bezier(.2,.8,.2,1)`.
+   Overshoot pada chip/tombol adalah salah satu penanda UI buatan mesin.
+2. Denyut `pulseTarget` pada kartu target dihapus; diganti cincin statis 3 px.
+3. Oranye tidak lagi dipakai untuk teks kecil (kontras 3,33:1 di atas kertas). Teks kecil memakai
+   `--espresso` (11:1); oranye tetap untuk garis, panah, dan teks ≥ 24 px.
+4. Tombol CTA berisi teks `--ink` di atas oranye (4,91:1) — sebelumnya putih (3,82:1).
+5. `will-change` hanya dipasang pada lapisan yang bergerak terus (bilah gulir, glow kursor,
+   poster footer, kutipan manifesto, ticker); elemen yang masuk sekali tidak lagi memakainya.
+6. Label mikro minimum 10 px; sebelumnya ada 8,5 px.

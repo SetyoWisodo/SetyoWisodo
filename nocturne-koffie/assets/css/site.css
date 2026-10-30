@@ -125,10 +125,12 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 }
 .btn:hover{transform:translateY(-2px)}
 .btn--pill{background:var(--ink);color:var(--paper);border-color:var(--ink);padding:12px 20px}
-.btn--pill:hover{background:var(--orange);border-color:var(--orange)}
+.btn--pill:hover{background:var(--orange);border-color:var(--orange);color:var(--ink)}
 .btn--ink{background:var(--ink);color:var(--paper)}
-.btn--ink:hover{background:var(--orange);border-color:var(--orange)}
-.btn--orange{background:var(--orange);color:#fff;border-color:var(--orange)}
+.btn--ink:hover{background:var(--orange);border-color:var(--orange);color:var(--ink)}
+/* teks CTA memakai ink, bukan putih: putih di atas oranye hanya 3,82:1,
+   ink di atas oranye 4,91:1 — palet tetap, keterbacaan naik */
+.btn--orange{background:var(--orange);color:var(--ink);border-color:var(--orange)}
 .btn--orange:hover{background:var(--ink);border-color:var(--ink)}
 .btn--lg{padding:18px 32px;font-size:15px}
 
@@ -177,7 +179,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   letter-spacing:-.02em;
 }
 .brand__line{
-  font-size:8.5px;letter-spacing:.34em;text-transform:uppercase;
+  font-size:10px;letter-spacing:.26em;text-transform:uppercase;
   color:var(--ink-55);margin-top:4px;padding-left:1px;
 }
 
@@ -420,7 +422,7 @@ body.is-locked{overflow:hidden}
   display:flex;align-items:baseline;gap:12px;
 }
 .rail__no{
-  font-size:11px;font-weight:600;letter-spacing:.18em;color:var(--orange);
+  font-size:11px;font-weight:600;letter-spacing:.18em;color:var(--espresso);
   transform:translateY(-3px);
 }
 .rail__list{
@@ -441,7 +443,7 @@ body.is-locked{overflow:hidden}
   text-align:left;
   transition:color .16s ease,padding-left .16s ease;
 }
-.rail__item:hover{color:var(--orange);padding-left:6px}
+.rail__item:hover{color:var(--espresso);padding-left:6px}
 .rail__item b{
   font-family:var(--display);font-weight:600;font-size:clamp(1rem,1.6vw,1.2rem);
   letter-spacing:-.01em;
@@ -552,7 +554,7 @@ body.is-locked{overflow:hidden}
   padding:14px 16px;border-radius:4px;margin-bottom:16px;
 }
 .plaque__label{
-  font-size:9.5px;letter-spacing:.24em;text-transform:uppercase;
+  font-size:10px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--gold);margin:0 0 6px;
 }
 .plaque__name{
@@ -612,7 +614,7 @@ body.is-locked{overflow:hidden}
 .card__btn{width:100%;margin-top:2px}
 .card__btn[aria-disabled="true"]{opacity:.55}
 .card__stock-note{
-  font-size:12px;color:var(--orange);margin:8px 0 0;
+  font-size:12px;color:var(--espresso);margin:8px 0 0;
 }
 
 .collection__foot{
@@ -669,7 +671,7 @@ body.is-locked{overflow:hidden}
 }
 .steps li:first-child{border-top:0;padding-top:0}
 .steps__no{
-  font-size:11px;font-weight:600;letter-spacing:.16em;color:var(--orange);
+  font-size:11px;font-weight:600;letter-spacing:.16em;color:var(--espresso);
   padding-top:5px;
 }
 .steps h3{
@@ -689,7 +691,7 @@ body.is-locked{overflow:hidden}
 .member__steps{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:s}
 .member__steps li{display:grid;grid-template-columns:26px 1fr;gap:12px;font-size:14px;line-height:1.55}
 .member__steps b{
-  font-family:var(--display);font-size:12px;letter-spacing:.06em;color:var(--orange);
+  font-family:var(--display);font-size:12px;letter-spacing:.06em;color:var(--espresso);
 }
 .member__cta{display:grid;gap:10px;justify-items:start}
 
@@ -718,7 +720,7 @@ body.is-locked{overflow:hidden}
   color:var(--ink-55);margin:0 0 10px;font-weight:600;
 }
 .foot__nav a{display:block;font-size:14px;padding:4px 0}
-.foot__nav a:hover{color:var(--orange)}
+.foot__nav a:hover{color:var(--espresso)}
 
 .foot__poster{
   font-family:var(--display);font-weight:800;
@@ -748,10 +750,7 @@ body.is-locked{overflow:hidden}
 
 .noscript{padding-block:22px}
 
-/* kartu target highlight */
-@keyframes pulseTarget{
-  0%{box-shadow:0 0 0 0 rgba(225,84,43,.55)}
-  100%{box-shadow:0 0 0 16px rgba(225,84,43,0)}
-}
-.card.is-target{animation:pulseTarget 1.8s ease-out 1}
-@media (prefers-reduced-motion:reduce){.card.is-target{animation:none}}
+/* kartu target: cincin statis, tanpa denyut.
+   Denyut berulang adalah penanda UI buatan mesin dan membuat mata lelah
+   saat harga di halaman ini sudah bergerak sendiri. */
+.card.is-target{box-shadow:0 0 0 3px var(--orange)}

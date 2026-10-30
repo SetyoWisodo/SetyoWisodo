@@ -1,0 +1,212 @@
+{
+  "dibuat": "2026-10-30",
+  "fps_saran": 30,
+  "catatan": "Satu baris per cue. Rekam layar 1080×1920 atau render ffmpeg.",
+  "adegan": [
+    {
+      "adegan": 1,
+      "berkas": "frame-01.html",
+      "judul": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
+      "pilar": "Edukasi",
+      "durasi": 9.0,
+      "aset": "reel-tanggal-sangrai",
+      "poster": "konten/reel-02-poster.jpg",
+      "shot_list": "Tangan menimbang kopi → close-up gilingan → cangkir di meja",
+      "sumber_data": "`batch-qc.csv`, `catalog.json`",
+      "cues": [
+        {
+          "mulai": 0.0,
+          "durasi": 3.0,
+          "selesai": 3.0,
+          "teks": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 3.0,
+          "durasi": 2.0,
+          "selesai": 5.0,
+          "teks": "Pertama: gilingan terlalu halus untuk alat Anda. Kedua: air di atas 94°C.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 5.0,
+          "durasi": 2.0,
+          "selesai": 7.0,
+          "teks": "Ketiga: kopi sudah lewat 21 hari dari tanggal sangrai.",
+          "sumber": "batch-qc.csv"
+        },
+        {
+          "mulai": 7.0,
+          "durasi": 2.0,
+          "selesai": 9.0,
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
+          "sumber": null
+        }
+      ]
+    },
+    {
+      "adegan": 2,
+      "berkas": "frame-02.html",
+      "judul": "Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.",
+      "pilar": "Edukasi",
+      "durasi": 9.0,
+      "aset": "carousel-02b",
+      "poster": "konten/carousel-02b.jpg",
+      "shot_list": "Tangan menimbang kopi → close-up gilingan → cangkir di meja",
+      "sumber_data": "`catalog.json`",
+      "cues": [
+        {
+          "mulai": 0.0,
+          "durasi": 3.0,
+          "selesai": 3.0,
+          "teks": "Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 3.0,
+          "durasi": 2.0,
+          "selesai": 5.0,
+          "teks": "Biasanya bukan biji: rasio 1:15 dan gilingan lebih halus mengekstrak lebih banyak.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 5.0,
+          "durasi": 2.0,
+          "selesai": 7.0,
+          "teks": "Coba 15 g kopi untuk 225 ml air, lalu bandingkan dengan resep Anda sekarang.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 7.0,
+          "durasi": 2.0,
+          "selesai": 9.0,
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
+          "sumber": null
+        }
+      ]
+    },
+    {
+      "adegan": 3,
+      "berkas": "frame-03.html",
+      "judul": "Rp23.000 vs Rp152.000: bedanya bukan cuma berat.",
+      "pilar": "Jualan",
+      "durasi": 9.0,
+      "aset": "carousel-01c",
+      "poster": "konten/carousel-01c.jpg",
+      "shot_list": "Dua kantong berdampingan → tuang biji ke dua mangkuk",
+      "sumber_data": "`catalog.json`",
+      "cues": [
+        {
+          "mulai": 0.0,
+          "durasi": 3.0,
+          "selesai": 3.0,
+          "teks": "Rp23.000 vs Rp152.000: bedanya bukan cuma berat.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 3.0,
+          "durasi": 2.0,
+          "selesai": 5.0,
+          "teks": "Rp23.000 itu 100 g robusta Raung. Rp152.000 itu 500 g arabika Ijen.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 5.0,
+          "durasi": 2.0,
+          "selesai": 7.0,
+          "teks": "Per gram: Rp230 lawan Rp304. Bedanya di proses dan ketinggian tanam.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 7.0,
+          "durasi": 2.0,
+          "selesai": 9.0,
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
+          "sumber": null
+        }
+      ]
+    },
+    {
+      "adegan": 4,
+      "berkas": "frame-04.html",
+      "judul": "Arabika Ijen vs robusta Raung, satu meja.",
+      "pilar": "Edukasi",
+      "durasi": 9.0,
+      "aset": "carousel-02a",
+      "poster": "konten/carousel-02a.jpg",
+      "shot_list": "Dua kantong berdampingan → tuang biji ke dua mangkuk",
+      "sumber_data": "`catalog.json`",
+      "cues": [
+        {
+          "mulai": 0.0,
+          "durasi": 3.0,
+          "selesai": 3.0,
+          "teks": "Arabika Ijen vs robusta Raung, satu meja.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 3.0,
+          "durasi": 2.0,
+          "selesai": 5.0,
+          "teks": "Ijen 1.700–1.800 mdpl, proses natural: manis, buah, aftertaste panjang.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 5.0,
+          "durasi": 2.0,
+          "selesai": 7.0,
+          "teks": "Raung 422–443 mdpl: body tebal, cokelat gelap, pahit halus di akhir.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 7.0,
+          "durasi": 2.0,
+          "selesai": 9.0,
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
+          "sumber": null
+        }
+      ]
+    },
+    {
+      "adegan": 5,
+      "berkas": "frame-05.html",
+      "judul": "Tiga hal yang membuat kopi rumahan terasa hambar.",
+      "pilar": "Edukasi",
+      "durasi": 9.0,
+      "aset": "carousel-02b",
+      "poster": "konten/carousel-02b.jpg",
+      "shot_list": "Tiga kartu teks berisi angka → kantong kopi & alat seduh di meja",
+      "sumber_data": "`catalog.json`",
+      "cues": [
+        {
+          "mulai": 0.0,
+          "durasi": 3.0,
+          "selesai": 3.0,
+          "teks": "Tiga hal yang membuat kopi rumahan terasa hambar.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 3.0,
+          "durasi": 2.0,
+          "selesai": 5.0,
+          "teks": "Gilingan terlalu kasar. Air terlalu dingin. Kopi lewat 30 hari dari sangrai.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 5.0,
+          "durasi": 2.0,
+          "selesai": 7.0,
+          "teks": "Cek satu per satu; yang tersering ternyata gilingan.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 7.0,
+          "durasi": 2.0,
+          "selesai": 9.0,
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
+          "sumber": null
+        }
+      ]
+    }
+  ]
+}

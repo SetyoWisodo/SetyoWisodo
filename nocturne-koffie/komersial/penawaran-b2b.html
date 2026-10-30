@@ -14,7 +14,8 @@ body{margin:0;background:#fff;color:var(--ink);font:15px/1.6 Inter,system-ui,san
 h1{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:42px;line-height:1.02;letter-spacing:-.03em;margin:0 0 14px}
 h2{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin:38px 0 12px;border-top:2px solid var(--ink);padding-top:12px}
 h3{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:20px;margin:0 0 6px}
-h4{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:16px;margin:8px 0 2px}
+.tier h3{font-size:16px;margin:8px 0 2px}
+.tier{border-top:2px solid var(--ink);padding-top:14px}
 p{margin:0 0 12px;max-width:62ch}
 .lede{font-size:17px;max-width:56ch}
 .hero{display:grid;grid-template-columns:1.4fr 1fr;gap:34px;align-items:start}
@@ -29,7 +30,7 @@ th{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut
 td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
 .tiers{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:8px}
 .tier{border:var(--line);padding:12px}
-.tier__no{font:700 10px/1 Inter,sans-serif;letter-spacing:.16em;color:var(--orange)}
+.tier__no{font:700 10px/1 Inter,sans-serif;letter-spacing:.16em;color:var(--espresso)}
 .tier__min{font-size:12.5px;margin:6px 0 0}
 .tier__term{font-size:11.5px;color:var(--muted);margin:2px 0 0}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:30px}
@@ -72,22 +73,22 @@ sekadar kopi: ada tanggal sangrai, kode batch, dan catatan skor rasa untuk setia
 <h2>Empat tingkat kemitraan</h2>
 <div class="tiers"><div class="tier">
       <div class="tier__no">01</div>
-      <h4>Kafe kecil</h4>
+      <h3>Kafe kecil</h3>
       <p class="tier__min">Mulai 5 kg / pengiriman</p>
       <p class="tier__term">Termin: COD / transfer di muka</p>
     </div><div class="tier">
       <div class="tier__no">02</div>
-      <h4>Kafe aktif</h4>
+      <h3>Kafe aktif</h3>
       <p class="tier__min">Mulai 10 kg / pengiriman</p>
       <p class="tier__term">Termin: Net 7 hari</p>
     </div><div class="tier">
       <div class="tier__no">03</div>
-      <h4>Kantor / Hotel</h4>
+      <h3>Kantor / Hotel</h3>
       <p class="tier__min">Mulai 20 kg / pengiriman</p>
       <p class="tier__term">Termin: Net 14 hari</p>
     </div><div class="tier">
       <div class="tier__no">04</div>
-      <h4>Reseller / Private label</h4>
+      <h3>Reseller / Private label</h3>
       <p class="tier__min">Mulai 30 kg / pengiriman</p>
       <p class="tier__term">Termin: Net 14 hari + DP 50%</p>
     </div></div>

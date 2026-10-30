@@ -1,0 +1,236 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lab Gerak — Nocturne Koffie</title>
+<meta name="description" content="Komponen gerak dan adegan 9:16 untuk konten D4: spotlight, hitung angka, tombol magnet, pin bertahap, dan audit anti-slop.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,300&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<link rel="stylesheet" href="../assets/css/motion-ui.css">
+<style>
+:root{--paper:#F5EFE4;--paper2:#EFE6D6;--ink:#16110D;--muted:#6F655A;--orange:#E1542B;
+--espresso:#4A2C1A;--gold:#D9A441;--line:1px solid rgba(22,17,13,.16)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:32px clamp(16px,4vw,44px) 80px}
+h1{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:clamp(34px,6vw,64px);line-height:.94;
+letter-spacing:-.04em;margin:8px 0 10px;font-weight:800}
+h2{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:clamp(22px,3vw,32px);letter-spacing:-.025em;
+margin:48px 0 6px;border-top:2px solid var(--ink);padding-top:14px}
+h3{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:18px;margin:0 0 6px;letter-spacing:-.01em}
+.kicker{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin:0}
+.lede{max-width:72ch;color:#3E362F;margin:0 0 10px;font-size:15.5px}
+.grid{display:grid;gap:14px}
+.kpi{grid-template-columns:repeat(auto-fit,minmax(160px,1fr));margin-top:18px}
+.kpi div{border:var(--line);padding:14px 16px;background:#fff8}
+.kpi span{display:block;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.kpi b{display:block;font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:28px;line-height:1.05;margin:4px 0}
+.kpi em{font-style:normal;font-size:11.5px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:13.6px;margin-top:12px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid rgba(22,17,13,.14);vertical-align:top}
+th{font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td b{font-weight:600}
+.pill{display:inline-block;font-size:10.5px;padding:2px 8px;border:1px solid var(--espresso);border-radius:99px;
+color:var(--espresso);white-space:nowrap}
+.pill.no{border-color:rgba(22,17,13,.3);color:var(--muted)}
+.pill.ok{background:var(--espresso);color:var(--paper);border-color:var(--espresso)}
+.demo{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:18px}
+.box{border:2px solid var(--ink);padding:20px;background:rgba(255,255,255,.4)}
+.box .num{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:38px;line-height:1;letter-spacing:-.03em}
+.box p{font-size:13.4px;margin:8px 0 0;color:#3E362F}
+.box .src{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:12px}
+.btn{display:inline-block;background:var(--orange);color:var(--ink);font-weight:700;text-decoration:none;
+padding:14px 22px;border-radius:999px;border:2px solid var(--orange)}
+.quote{border-top:2px solid var(--ink);padding-top:12px;margin-top:22px;font-family:"Fraunces",Georgia,serif;
+font-style:italic;font-size:19px;line-height:1.5;max-width:60ch}
+.lm{display:block;overflow:hidden}
+.lm > span{display:block}
+.angka{font-variant-numeric:tabular-nums}
+.pin{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;margin-top:18px;align-items:start}
+@media(max-width:800px){.pin{grid-template-columns:1fr}}
+.pin__steps{display:grid;gap:12px}
+.pin__step{border-left:0;border-top:1px solid rgba(22,17,13,.18);padding-top:10px}
+.pin__step h3{font-size:16px}
+.pin__step p{font-size:13.6px;margin:0;color:#3E362F}
+.frames{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:16px}
+.frame{display:block;text-decoration:none;color:inherit}
+.frame__media{position:relative;aspect-ratio:9/16;background:var(--ink);overflow:hidden;border-radius:4px}
+.frame__media img{width:100%;height:100%;object-fit:cover;display:block;opacity:.9}
+.frame__play{position:absolute;inset:auto 0 0 0;padding:10px 12px;background:linear-gradient(transparent,rgba(22,17,13,.85));
+color:var(--paper);font-size:11.5px;letter-spacing:.06em}
+.frame figcaption{font-size:12.6px;margin-top:8px;line-height:1.45}
+code{background:var(--paper2);padding:1px 5px;border-radius:3px;font-size:12.4px}
+pre{background:var(--ink);color:var(--paper);padding:14px 16px;overflow:auto;font-size:12.4px;line-height:1.55;
+border-radius:4px;margin:12px 0 0}
+.note{border-top:2px solid var(--gold);padding-top:12px;margin-top:18px;font-size:13.6px;color:#3E362F}
+footer{margin-top:44px;border-top:2px solid var(--ink);padding-top:14px;font-size:12.4px;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+a{color:inherit}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style></head><body>
+<div class="ui-progress"><i></i></div>
+<div class="wrap">
+  <p class="kicker">Divisi D4 · kreatif &amp; media · dibuat 30 Oktober 2026</p>
+  <h1 data-ui="words">Lab gerak</h1>
+  <p class="lede">Tujuh repo dari post <b>@thegreatest_sv</b> (29 Okt 2026) diterapkan di sini — bukan
+  dipasang sebagai plugin, tapi dipakai sebagai <b>aturan dan komponen</b> yang bisa diperiksa ulang.
+  Dua di antaranya tidak bisa dipakai di lingkungan ini (Figma dan Blender tidak ada), dan itu ditulis
+  apa adanya di kolom kanan.</p>
+
+  <div class="grid kpi">
+    <div><span>Repo</span><b>4 + 1</b><em>dipakai utuh + prinsipnya (Figma)</em></div>
+    <div><span>Aturan audit</span><b>29</b><em>0 kritis · 0 perhatian</em></div>
+    <div><span>Adegan 9:16</span><b>5</b><em>dari 5 skrip studio</em></div>
+    <div><span>Komponen</span><b>6</b><em>vanilla, tanpa React</em></div>
+    <div><span>Berat tambahan</span><b>13,7 KB</b><em>CSS + JS komponen, tanpa CDN</em></div>
+  </div>
+
+  <h2>1 · Tujuh repo, apa yang benar-benar dipakai</h2>
+  <p class="lede">Kolom terakhir menunjuk berkas di repo ini — kalau tidak ada bukti, jangan percaya
+  klaimnya.</p>
+  <table><thead><tr><th>Repo</th><th>Yang dipakai</th><th>Yang tidak</th><th>Bukti</th></tr></thead>
+  <tbody><tr>
+      <td><b>1. UI UX Pro Max</b><br><span class="lede" style="font-size:12px">nextlevelbuilder/ui-ux-pro-max-skill</span></td>
+      <td>Disiplin token: warna, radius, ukuran font, keluarga font dikunci di data/design-system.json lalu dipakai sebagai sumber audit. Palet &amp; font tidak diambil dari repo (brand sudah dikunci FINAL 3.7).</td>
+      <td><span class="pill no">Instalasi CLI/plugin, katalog palet siap pakai, pencarian font otomatis.</span></td>
+      <td><code>data/design-system.json · tools/slop.py (ds-warna, ds-radius, ds-ukuran-font)</code></td>
+    </tr><tr>
+      <td><b>2. Impeccable</b><br><span class="lede" style="font-size:12px">pbakaus/impeccable</span></td>
+      <td>62 antipattern-nya jadi daftar periksa audit: 29 di antaranya bisa diukur dari berkas (garis sisi tebal, teks gradien, easing memantul, denyut status, spasi seragam, label kicker, tanda pisah berlebihan). Temuan nyata langsung diperbaiki.</td>
+      <td><span class="pill no">Plugin untuk Claude/Cursor/Copilot, browser-bundle, agen review otomatis.</span></td>
+      <td><code>tools/slop.py · laporan/slop.md</code></td>
+    </tr><tr>
+      <td><b>3. Framelink Figma MCP</b><br><span class="lede" style="font-size:12px">GLips/Figma-Context-MCP</span></td>
+      <td>Prinsipnya: layout punya sumber yang bisa dibaca mesin. Di sini peran Figma digantikan data/design-system.json, dan output tree ringkas dipakai sebagai bentuk keluaran audit (satu baris per temuan, bukan tangkapan layar).</td>
+      <td><span class="pill no">Server MCP &amp; token Figma: tidak ada akun Figma di lingkungan ini, jadi tidak diklaim.</span></td>
+      <td><code>data/design-system.json · laporan/slop.json</code></td>
+    </tr><tr>
+      <td><b>4. React Bits</b><br><span class="lede" style="font-size:12px">DavidHDev/react-bits</span></td>
+      <td>Empat pola ditulis ulang tanpa React: SpotlightCard, CountUp, MagneticButton, TextReveal per kata, plus pola pin. Semuanya di assets/js/motion-ui.js, dipanggil lewat atribut data-ui.</td>
+      <td><span class="pill no">Paket React/Next, registry shadcn, komponen WebGL/three (berat, di atas fold).</span></td>
+      <td><code>assets/js/motion-ui.js · assets/css/motion-ui.css · motion/index.html</code></td>
+    </tr><tr>
+      <td><b>5. GSAP Skills</b><br><span class="lede" style="font-size:12px">greensock/gsap-skills</span></td>
+      <td>Semantik ScrollTrigger (pin, scrub, start/end) ditiru mini-engine satu loop rAF. Aturan performa repo itu jadi gerbang audit: hanya transform/opacity, listener pasif, will-change tidak permanen, reduced-motion wajib.</td>
+      <td><span class="pill no">GSAP sendiri (≈70 KB + CDN). Belum perlu selama adegan tanpa pin rumit; kelas CSS-nya sudah dipisah supaya bisa ditukar nanti.</span></td>
+      <td><code>assets/js/motion.js · assets/js/motion-ui.js · tools/slop.py (animasi-layout, listener-pasif)</code></td>
+    </tr><tr>
+      <td><b>6. HyperFrames</b><br><span class="lede" style="font-size:12px">heygen-com/hyperframes</span></td>
+      <td>Adegan 9:16 ditulis sebagai HTML dengan timeline waktu eksplisit (motion/frame-01..05.html + motion/timeline.json). Tiap adegan bisa diseek (?t=3.2) dan direkam layar, atau dirender ffmpeg di mesin yang punya ffmpeg.</td>
+      <td><span class="pill no">Runtime HyperFrames, render server, AI voice/avatar. Encode video tidak dijalankan di sandbox ini (tidak ada ffmpeg) — dan tidak diklaim ada.</span></td>
+      <td><code>motion/frame-*.html · motion/timeline.json</code></td>
+    </tr><tr>
+      <td><b>7. MCP for Blender</b><br><span class="lede" style="font-size:12px">ahujasid/mcp-for-blender</span></td>
+      <td>Tidak ada Blender di lingkungan ini, jadi **tidak dipakai**. Penggantinya: bidang miring CSS 3D sederhana (kartu produk) yang tetap ringan, dengan batas putar 3,5° — lebih dari itu terasa mainan.</td>
+      <td><span class="pill no">Blender, MCP server, Meshy/Tripo (berbayar), aset GLB.</span></td>
+      <td><code>assets/js/motion.js §4c (tilt kartu)</code></td>
+    </tr></tbody></table>
+
+  <h2>2 · Komponen gerak (hidup di halaman ini)</h2>
+  <p class="lede">Semua komponen ditulis ulang dari React ke vanilla JS dan dipanggil lewat atribut
+  <code>data-ui</code>. Coba: gerakkan kursor di kartu, klik tombol, gulir ke blok pin di bawah.</p>
+  <div class="demo">
+    <div class="box" data-ui="spotlight">
+      <p class="kicker">Spotlight kartu</p>
+      <h3>Kartu produk yang menyala di bawah kursor</h3>
+      <p>Sorotan mengikuti pointer, mati di perangkat sentuh dan saat reduced-motion — bukan cahaya
+      yang berdenyut sendiri.</p>
+      <p class="src">react-bits · SpotlightCard → motion-ui.js</p>
+    </div>
+    <div class="box">
+      <p class="kicker">Hitung angka</p>
+      <div class="num angka" data-ui="count" data-to="83" data-duration="1100">83</div>
+      <p>Ambang QC tampil sebagai angka yang berjalan saat masuk layar. Tanpa overshoot, tanpa
+      angka berkedip.</p>
+      <p class="src">react-bits · CountUp → motion-ui.js</p>
+    </div>
+    <div class="box">
+      <p class="kicker">Tombol magnet</p>
+      <a class="btn" href="frame-01.html" data-ui="magnet">Putar adegan 01 →</a>
+      <p style="margin-top:14px">Geseran maksimal 6 px. Lebih dari itu terasa seperti mainan.</p>
+      <p class="src">react-bits · MagneticButton → motion-ui.js</p>
+    </div>
+  </div>
+
+  <div class="pin" data-ui="pin">
+    <div>
+      <h3 style="margin-bottom:10px">Pin bertahap (semantik ScrollTrigger)</h3>
+      <p class="lede">Tiga langkah menyala mengikuti posisi gulir — satu loop <code>requestAnimationFrame</code>,
+      listener pasif, tanpa GSAP. Ini yang dipakai untuk menjelaskan proses sangrai di landing page.</p>
+      <pre>data-ui="pin"
+  .ui-pin__step  ×3   → menyala saat progres 0 → 1</pre>
+    </div>
+    <div class="pin__steps">
+      <div class="pin__step"><h3>01 · Drum mulai</h3><p>Suhu masuk, biji berubah warna.</p></div>
+      <div class="pin__step"><h3>02 · First crack</h3><p>Bunyi retak pertama — titik yang menentukan.</p></div>
+      <div class="pin__step"><h3>03 · Berhenti di catatan</h3><p>Bukan di perasaan: berhenti saat development tercapai.</p></div>
+    </div>
+  </div>
+
+  <div class="quote" data-ui="reveal">Gerak yang baik tidak terlihat sebagai gerak.<br>Ia hanya membuat mata tahu ke mana harus pergi.</div>
+
+  <h2>3 · Adegan 9:16 — menulis HTML, bukan merender video</h2>
+  <p class="lede">Tiap adegan adalah halaman HTML dengan timeline waktu eksplisit. Bisa diputar,
+  dijeda, dan diseek (<code>?t=3.2</code>). Untuk jadi video: rekam layar, atau render ffmpeg di
+  mesin yang punya ffmpeg — di sandbox ini tidak ada, dan tidak diklaim ada.</p>
+  <div class="frames"><figure class="frame" style="margin:0">
+          <a href="frame-01.html" class="frame__media" aria-label="Putar adegan 01">
+            <img src="../konten/reel-02-poster.jpg" alt="Poster adegan 01"><span class="frame__play">▶ 9 detik · 4 beat</span>
+          </a>
+          <figcaption><b>Kopi pahit padahal baru beli? Cek tiga hal ini.</b><br><span class="lede" style="font-size:12px">Edukasi · reel-tanggal-sangrai</span></figcaption>
+        </figure><figure class="frame" style="margin:0">
+          <a href="frame-02.html" class="frame__media" aria-label="Putar adegan 02">
+            <img src="../konten/carousel-02b.jpg" alt="Poster adegan 02"><span class="frame__play">▶ 9 detik · 4 beat</span>
+          </a>
+          <figcaption><b>Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.</b><br><span class="lede" style="font-size:12px">Edukasi · carousel-02b</span></figcaption>
+        </figure><figure class="frame" style="margin:0">
+          <a href="frame-03.html" class="frame__media" aria-label="Putar adegan 03">
+            <img src="../konten/carousel-01c.jpg" alt="Poster adegan 03"><span class="frame__play">▶ 9 detik · 4 beat</span>
+          </a>
+          <figcaption><b>Rp23.000 vs Rp152.000: bedanya bukan cuma berat.</b><br><span class="lede" style="font-size:12px">Jualan · carousel-01c</span></figcaption>
+        </figure><figure class="frame" style="margin:0">
+          <a href="frame-04.html" class="frame__media" aria-label="Putar adegan 04">
+            <img src="../konten/carousel-02a.jpg" alt="Poster adegan 04"><span class="frame__play">▶ 9 detik · 4 beat</span>
+          </a>
+          <figcaption><b>Arabika Ijen vs robusta Raung, satu meja.</b><br><span class="lede" style="font-size:12px">Edukasi · carousel-02a</span></figcaption>
+        </figure><figure class="frame" style="margin:0">
+          <a href="frame-05.html" class="frame__media" aria-label="Putar adegan 05">
+            <img src="../konten/carousel-02b.jpg" alt="Poster adegan 05"><span class="frame__play">▶ 9 detik · 4 beat</span>
+          </a>
+          <figcaption><b>Tiga hal yang membuat kopi rumahan terasa hambar.</b><br><span class="lede" style="font-size:12px">Edukasi · carousel-02b</span></figcaption>
+        </figure></div>
+
+  <h3 style="margin-top:26px">Timeline (bahan perekaman)</h3>
+  <table><thead><tr><th>Adegan</th><th>Waktu</th><th>Teks</th><th>Sumber klaim</th></tr></thead>
+  <tbody><tr><td>01</td><td class="angka">0.0–3.0s</td><td>Kopi pahit padahal baru beli? Cek tiga hal ini.</td><td>catalog.json</td></tr><tr><td>01</td><td class="angka">3.0–5.0s</td><td>Pertama: gilingan terlalu halus untuk alat Anda. Kedua: air di atas 94°C.</td><td>catalog.json</td></tr><tr><td>01</td><td class="angka">5.0–7.0s</td><td>Ketiga: kopi sudah lewat 21 hari dari tanggal sangrai.</td><td>batch-qc.csv</td></tr><tr><td>01</td><td class="angka">7.0–9.0s</td><td>Pesan lewat WhatsApp — sebutkan metode seduh &amp; kota Anda.</td><td>—</td></tr><tr><td>02</td><td class="angka">0.0–3.0s</td><td>Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.</td><td>catalog.json</td></tr><tr><td>02</td><td class="angka">3.0–5.0s</td><td>Biasanya bukan biji: rasio 1:15 dan gilingan lebih halus mengekstrak lebih banyak.</td><td>catalog.json</td></tr><tr><td>02</td><td class="angka">5.0–7.0s</td><td>Coba 15 g kopi untuk 225 ml air, lalu bandingkan dengan resep Anda sekarang.</td><td>catalog.json</td></tr><tr><td>02</td><td class="angka">7.0–9.0s</td><td>Pesan lewat WhatsApp — sebutkan metode seduh &amp; kota Anda.</td><td>—</td></tr><tr><td>03</td><td class="angka">0.0–3.0s</td><td>Rp23.000 vs Rp152.000: bedanya bukan cuma berat.</td><td>catalog.json</td></tr><tr><td>03</td><td class="angka">3.0–5.0s</td><td>Rp23.000 itu 100 g robusta Raung. Rp152.000 itu 500 g arabika Ijen.</td><td>catalog.json</td></tr><tr><td>03</td><td class="angka">5.0–7.0s</td><td>Per gram: Rp230 lawan Rp304. Bedanya di proses dan ketinggian tanam.</td><td>catalog.json</td></tr><tr><td>03</td><td class="angka">7.0–9.0s</td><td>Pesan lewat WhatsApp — sebutkan metode seduh &amp; kota Anda.</td><td>—</td></tr><tr><td>04</td><td class="angka">0.0–3.0s</td><td>Arabika Ijen vs robusta Raung, satu meja.</td><td>catalog.json</td></tr><tr><td>04</td><td class="angka">3.0–5.0s</td><td>Ijen 1.700–1.800 mdpl, proses natural: manis, buah, aftertaste panjang.</td><td>catalog.json</td></tr><tr><td>04</td><td class="angka">5.0–7.0s</td><td>Raung 422–443 mdpl: body tebal, cokelat gelap, pahit halus di akhir.</td><td>catalog.json</td></tr><tr><td>04</td><td class="angka">7.0–9.0s</td><td>Pesan lewat WhatsApp — sebutkan metode seduh &amp; kota Anda.</td><td>—</td></tr><tr><td>05</td><td class="angka">0.0–3.0s</td><td>Tiga hal yang membuat kopi rumahan terasa hambar.</td><td>catalog.json</td></tr><tr><td>05</td><td class="angka">3.0–5.0s</td><td>Gilingan terlalu kasar. Air terlalu dingin. Kopi lewat 30 hari dari sangrai.</td><td>catalog.json</td></tr><tr><td>05</td><td class="angka">5.0–7.0s</td><td>Cek satu per satu; yang tersering ternyata gilingan.</td><td>catalog.json</td></tr><tr><td>05</td><td class="angka">7.0–9.0s</td><td>Pesan lewat WhatsApp — sebutkan metode seduh &amp; kota Anda.</td><td>—</td></tr></tbody></table>
+  <p class="lede" style="margin-top:8px">Berkas mesin: <code>motion/timeline.json</code> ·
+  satu baris per cue, tanpa angka yang tidak dilacak ke <code>data/</code>.</p>
+
+  <h2>4 · Audit anti-slop terakhir</h2>
+  <p class="lede">29 aturan diperiksa mesin dari 62 antipattern Impeccable + aturan performa
+  GSAP Skills + kontrak token. Hasil sekarang: <b>0 kritis · 0 perhatian</b>.</p>
+  <table><thead><tr><th>Aturan</th><th>Berkas</th><th>Bukti</th></tr></thead><tbody><tr><td colspan="3">Tidak ada temuan kritis maupun perhatian pada audit terakhir.</td></tr></tbody></table>
+  <p class="lede" style="margin-top:8px">Laporan penuh: <a href="../laporan/slop.md">laporan/slop.md</a> ·
+  kontrak: <a href="../data/design-system.json">data/design-system.json</a>.</p>
+
+  <h2>5 · Batas yang tidak saya tutupi</h2>
+  <div class="note">
+    <p style="margin:0 0 8px"><b>Figma MCP</b> — tidak ada akun Figma di sini. Yang diambil prinsipnya:
+    layout punya sumber mesin. Sumber itu kini <code>data/design-system.json</code>.</p>
+    <p style="margin:0 0 8px"><b>MCP for Blender</b> — Blender tidak ada, aset 3D tidak dibuat.
+    Penggantinya bidang miring CSS 3D maksimal 3,5°, bukan model GLB.</p>
+    <p style="margin:0 0 8px"><b>HyperFrames</b> — runtime dan render server tidak dipasang. Yang ada:
+    adegan HTML deterministik + timeline. Encode video tetap di luar sandbox.</p>
+    <p style="margin:0"><b>GSAP</b> — tidak dipasang (≈70 KB + CDN). Semantiknya ditiru; kelas CSS
+    dipisah supaya bisa ditukar bila nanti butuh pin/scrub rumit.</p>
+  </div>
+
+  <footer>
+    <span>Dibuat <code>tools/motion.py</code> · audit <code>tools/slop.py</code> ·
+      komponen <code>assets/js/motion-ui.js</code></span>
+    <span><a href="../index.html">situs</a> · <a href="../kampanye/index.html">landing kampanye</a> ·
+      <a href="../studio/index.html">studio konten</a> · <a href="../konten/index.html">hub konten</a></span>
+  </footer>
+</div>
+<script src="../assets/js/motion-ui.js"></script>
+</body></html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Adegan 05 — Tiga hal yang membuat kopi rumahan terasa hambar.</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F5EFE4;--ink:#16110D;--orange:#E1542B;--gold:#D9A441;--espresso:#4A2C1A;--muted:#B8AC9C}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#0B0908;color:var(--paper);font-family:Inter,system-ui,sans-serif}
+#panggung{position:fixed;inset:0;display:grid;place-items:center}
+#kanvas{position:relative;width:1080px;height:1920px;transform-origin:center center;overflow:hidden;
+background:radial-gradient(120% 90% at 50% 0%,#241A14 0%,#16110D 58%,#0D0A08 100%)}
+#latar{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.22;filter:saturate(.85)}
+#butir{position:absolute;inset:0;background:radial-gradient(60% 50% at 50% 70%,rgba(225,84,43,.16),transparent 70%)}
+.isi{position:absolute;inset:0;padding:200px 92px 240px;display:block}
+.beat{position:absolute;left:92px;right:92px;top:290px;bottom:300px;display:flex;flex-direction:column;
+gap:26px;opacity:0;transform:translate3d(0,34px,0);
+transition:opacity .42s cubic-bezier(.16,1,.3,1),transform .52s cubic-bezier(.16,1,.3,1)}
+.beat.on{opacity:1;transform:none}
+.beat--hook{font-family:"Bricolage Grotesque",Inter,sans-serif;font-weight:800;font-size:104px;line-height:.94;
+letter-spacing:-.045em;text-wrap:balance}
+.beat--isi{font-family:"Bricolage Grotesque",Inter,sans-serif;font-weight:600;font-size:66px;line-height:1.06;
+letter-spacing:-.025em;text-wrap:pretty}
+.beat--cta{font-family:"Inter",sans-serif;font-weight:600;font-size:42px;line-height:1.25;color:var(--gold);
+letter-spacing:-.01em;justify-content:flex-end}
+.sumber{font-size:24px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+/* versi reduced-motion: semua teks ditumpuk, tidak ada yang disembunyikan */
+body.redup .beat{position:static;opacity:1;transform:none;font-size:42px;line-height:1.2;letter-spacing:-.02em;
+margin-bottom:22px;font-family:Inter,sans-serif;font-weight:600;color:var(--paper)}
+body.redup .beat--cta{color:var(--gold)}
+body.redup .isi{justify-content:flex-start;padding-top:190px}
+body.redup .beat .sumber{font-size:20px}
+.merk{position:absolute;left:92px;top:92px;display:flex;align-items:center;gap:16px}
+.merk i{width:22px;height:22px;border-radius:50%;background:var(--gold);box-shadow:inset -2px 0 0 0 #16110D;display:block}
+.merk b{font-family:"Bricolage Grotesque",Inter,sans-serif;font-size:30px;letter-spacing:-.02em}
+.merk span{font-size:16px;letter-spacing:.26em;text-transform:uppercase;color:var(--muted);display:block;margin-top:2px}
+.pilar{position:absolute;right:92px;top:100px;font-size:20px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.bilah{position:absolute;left:92px;right:92px;bottom:120px;height:4px;background:rgba(245,239,228,.18);overflow:hidden}
+.bilah i{display:block;height:100%;width:100%;background:var(--orange);transform:scaleX(0);transform-origin:0 50%}
+.kendali{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);display:flex;gap:10px;align-items:center;
+background:rgba(22,17,13,.86);border:1px solid rgba(245,239,228,.18);padding:10px 14px;border-radius:999px;
+font-size:13px;color:#F5EFE4;z-index:10}
+.kendali button{font:inherit;background:transparent;border:1px solid rgba(245,239,228,.35);color:inherit;
+padding:6px 12px;border-radius:999px;cursor:pointer}
+.kendali button:hover{background:rgba(245,239,228,.12)}
+.kendali .waktu{font-variant-numeric:tabular-nums;letter-spacing:.04em;color:#C9BFB2}
+@media (prefers-reduced-motion:reduce){.beat{transition:none}}
+</style></head>
+<body>
+<div id="panggung"><div id="kanvas">
+  <div id="latar" style="background-image:url(../konten/carousel-02b.jpg)"></div><div id="butir"></div>
+  <div class="merk"><i></i><div><b>Nocturne</b><span>Koffie · Banyuwangi</span></div></div>
+  <div class="pilar">Edukasi</div>
+  <div class="isi"><div class="beat beat--hook" data-i="0"><div>Tiga hal yang membuat kopi rumahan terasa hambar.</div><div class="sumber">sumber: catalog.json</div></div><div class="beat beat--isi" data-i="1"><div>Gilingan terlalu kasar. Air terlalu dingin. Kopi lewat 30 hari dari sangrai.</div><div class="sumber">sumber: catalog.json</div></div><div class="beat beat--isi" data-i="2"><div>Cek satu per satu; yang tersering ternyata gilingan.</div><div class="sumber">sumber: catalog.json</div></div><div class="beat beat--cta" data-i="3"><div>Pesan lewat WhatsApp — sebutkan metode seduh &amp; kota Anda.</div></div></div>
+  <div class="bilah"><i></i></div>
+</div></div>
+<div class="kendali" role="group" aria-label="Kendali adegan">
+  <button type="button">Jeda</button>
+  <span class="waktu">0,0s / 9.0s</span>
+  <span style="color:#8C8175">adegan 05 · Tiga hal yang membuat kopi rumahan ter</span>
+</div>
+<script>window.__ADEgan = {"no": 5, "judul": "Tiga hal yang membuat kopi rumahan terasa hambar.", "durasi": 9.0, "cues": [{"mulai": 0.0, "durasi": 3.0, "selesai": 3.0, "teks": "Tiga hal yang membuat kopi rumahan terasa hambar.", "sumber": "catalog.json"}, {"mulai": 3.0, "durasi": 2.0, "selesai": 5.0, "teks": "Gilingan terlalu kasar. Air terlalu dingin. Kopi lewat 30 hari dari sangrai.", "sumber": "catalog.json"}, {"mulai": 5.0, "durasi": 2.0, "selesai": 7.0, "teks": "Cek satu per satu; yang tersering ternyata gilingan.", "sumber": "catalog.json"}, {"mulai": 7.0, "durasi": 2.0, "selesai": 9.0, "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.", "sumber": null}]};</script>
+<script>
+(function(){
+  var data = window.__ADEgan;
+  var beats = Array.prototype.slice.call(document.querySelectorAll('.beat'));
+  var bilah = document.querySelector('.bilah i');
+  var waktu = document.querySelector('.kendali .waktu');
+  var tombol = document.querySelector('.kendali button');
+  var mulai = 0, jalan = true, terakhir = 0, t = 0;
+  var kurangi = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (kurangi) document.body.classList.add('redup');
+  var total = data.durasi;
+
+  function skala() {
+    var k = Math.min(window.innerWidth / 1080, (window.innerHeight - 90) / 1920);
+    document.getElementById('kanvas').style.transform = 'scale(' + k.toFixed(4) + ')';
+  }
+  window.addEventListener('resize', skala, { passive: true });
+  skala();
+
+  function gambar() {
+    beats.forEach(function (b, i) {
+      var c = data.cues[i];
+      if (!c) return;
+      var nyala = kurangi ? true : (t >= c.mulai && t < c.selesai + 0.001);
+      b.classList.toggle('on', nyala);
+    });
+    if (bilah) bilah.style.transform = 'scaleX(' + Math.min(1, t / total).toFixed(4) + ')';
+    if (waktu) waktu.textContent = t.toFixed(1) + 's / ' + total.toFixed(1) + 's';
+  }
+
+  function loop(ts) {
+    if (!terakhir) terakhir = ts;
+    var dt = (ts - terakhir) / 1000;
+    terakhir = ts;
+    if (jalan) {
+      t += dt;
+      if (t > total) { t = total; jalan = false; if (tombol) tombol.textContent = 'Ulang'; }
+      gambar();
+    }
+    requestAnimationFrame(loop);
+  }
+
+  tombol.addEventListener('click', function () {
+    if (t >= total) { t = 0; jalan = true; tombol.textContent = 'Jeda'; }
+    else { jalan = !jalan; tombol.textContent = jalan ? 'Jeda' : 'Main'; }
+    gambar();
+  });
+
+  var q = new URLSearchParams(location.search).get('t');
+  if (q !== null && !isNaN(parseFloat(q))) { t = Math.min(total, parseFloat(q)); jalan = false; tombol.textContent = 'Main'; }
+  gambar();
+  if (!kurangi) requestAnimationFrame(loop);
+})();
+</script>
+</body></html>

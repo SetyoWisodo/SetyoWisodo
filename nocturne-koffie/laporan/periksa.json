@@ -4,19 +4,19 @@
     {
       "kategori": "Berkas wajib",
       "status": "lolos",
-      "teks": "38/38 berkas ada",
+      "teks": "51/51 berkas ada",
       "detail": ""
     },
     {
       "kategori": "Tautan lokal",
       "status": "lolos",
-      "teks": "95/95 tautan menuju berkas yang ada",
+      "teks": "120/120 tautan menuju berkas yang ada",
       "detail": ""
     },
     {
       "kategori": "Struktur HTML",
       "status": "lolos",
-      "teks": "9/9 halaman tag-nya seimbang",
+      "teks": "15/15 halaman tag-nya seimbang",
       "detail": ""
     },
     {
@@ -71,6 +71,30 @@
       "kategori": "Peta 50 slot",
       "status": "lolos",
       "teks": "46 otomatis · 2 manual · 2 tidak dipakai (total 50)",
+      "detail": ""
+    },
+    {
+      "kategori": "Kontrak desain",
+      "status": "lolos",
+      "teks": "6 warna inti · 10 radius · 7 aturan gerak · 8 pengecualian terdokumentasi",
+      "detail": ""
+    },
+    {
+      "kategori": "Anti-slop",
+      "status": "lolos",
+      "teks": "29 aturan · 0 kritis · 0 perhatian",
+      "detail": ""
+    },
+    {
+      "kategori": "Komponen gerak",
+      "status": "lolos",
+      "teks": "6 jenis komponen dipakai · 6 ditangani motion-ui.js",
+      "detail": ""
+    },
+    {
+      "kategori": "Adegan 9:16",
+      "status": "lolos",
+      "teks": "5 adegan · total 9 detik masing-masing",
       "detail": ""
     },
     {

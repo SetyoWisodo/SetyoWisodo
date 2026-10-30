@@ -14,14 +14,17 @@ nocturne-koffie/
 │   ├── css/site.css              Paper · Ink · Burnt Orange · Espresso · Roast Gold
 │   ├── js/site.js                render katalog, marquee, filter, pesan WhatsApp
 │   ├── js/motion.js              lapisan gerak (tanpa library): reveal, parallax, magnet, tilt
-│   ├── css/motion.css            token & aturan animasi
+│   ├── css/motion.css            token & aturan animasi (situs utama)
+│   ├── css/motion-ui.css         komponen gerak: spotlight, count, magnet, pin, ticker
+│   ├── js/motion-ui.js           komponen vanilla (adaptasi react-bits) + loop rAF
 │   └── img/produk/               9 foto stiker kemasan (4:5, dari brief)
 ├── data/catalog.json             ← SATU-SATUNYA file yang perlu diubah rutin
 ├── brand/                        logo SVG, OG card, 9 label kantong + lembar A4, brand kit
 ├── komersial/                    harga grosir 4 tingkat, penawaran B2B, pipeline prospek
-├── skills/                       4 skill: riset sosial, komentar, mesin pencari, studio konten (SKILL.md)
+├── skills/                       5 skill: riset sosial, komentar, mesin pencari, studio konten, motion-web
 ├── riset/                        dasbor riset, swipe file, brief konten (hasil generate)
 ├── studio/                       studio konten 10 tahap: halaman, brief Senin, 5 skrip (hasil generate)
+├── motion/                       lab gerak + 5 adegan 9:16 + timeline (hasil generate)
 ├── operasional/                  7 divisi: struktur, alur kerja + target per divisi
 │   ├── divisi/                   D1…D7 — satu berkas per divisi
 │   └── arsip/                    SOP versi 6 divisi (rujukan sejarah, tidak dipakai)
@@ -37,6 +40,9 @@ nocturne-koffie/
 ├── data/studio-hooks.csv         30 hook bertag struktur/pilar/aset + status dipakai
 ├── data/studio-industri.csv      catatan tren industri (diisi manual)
 ├── tools/studio.py               studio konten 10 tahap → halaman, brief Senin, 5 skrip
+├── data/design-system.json       kontrak token: warna, tipografi, radius, gerak, pengecualian
+├── tools/motion.py               lab gerak + 5 adegan 9:16 dari skrip studio
+├── tools/slop.py                 audit anti-slop (29 aturan) → laporan/slop.md
 ├── tools/periksa.py              gerbang QA: 14 pemeriksaan konsistensi → laporan/periksa.md
 ├── tools/laporan.py              satu halaman ringkasan → laporan/index.html
 ├── tools/jalankan.py             jalankan seluruh pipeline berurutan (~96 detik)
@@ -62,6 +68,8 @@ python3 tools/riset.py             # analisis riset → riset/index.html + swipe
 python3 tools/riset.py --cek       # ringkasan riset tanpa menulis berkas
 python3 tools/studio.py            # studio 10 tahap → brief Senin + 5 skrip siap rekam
 python3 tools/studio.py --cek      # ringkasan 10 tahap di terminal
+python3 tools/motion.py            # lab gerak + 5 adegan 9:16
+python3 tools/slop.py              # audit anti-slop & kontrak desain
 
 python3 tools/jalankan.py          # ← SEMUA langkah di atas, berurutan, + periksa + laporan
 python3 tools/jalankan.py --cepat  # lewati encode video (lebih cepat ~15 detik)
@@ -76,6 +84,7 @@ Halaman yang perlu dibuka: `/` (situs) · `/dashboard/` (papan harian) ·
 `/kampanye/` (landing kampanye konten) · `/konten/` (hub aset, `noindex`) ·
 `/riset/` (dasbor riset konten & kata kunci, `noindex`) ·
 `/studio/` (studio konten 10 tahap + brief Senin, `noindex`) ·
+`/motion/` (lab gerak + 5 adegan 9:16, `noindex`) ·
 `/laporan/` (ringkasan otomatis + hasil pemeriksaan, `noindex`) ·
 `/brand/` (brand kit) · `/komersial/penawaran-b2b.html` (proposal B2B).
 
@@ -185,6 +194,7 @@ menunggu konfirmasi pemilik." Jangan dihapus sebelum beres.
 | `skills/komentar-mining/SKILL.md` | bahasa pembeli → keberatan/FAQ/copy, aturan kutipan ≤ 24 kata |
 | `skills/search-intent-riset/SKILL.md` | Google/marketplace/TikTok/mesin jawaban AI, prioritas & celah halaman |
 | `skills/studio-konten/SKILL.md` | 10 tahap / 50 slot: peta otomatis vs manual, hook → skrip 9 detik → brief Senin, aturan cek suara |
+| `skills/motion-web/SKILL.md` | 7 repo desain → kontrak token, komponen vanilla, audit anti-slop, adegan 9:16, batas (tanpa Figma/Blender/encoder) |
 | `marketing/09-media-kreator.md` | **playbook konten media kreator**: pipeline aset, bank 30 hook (versi mesin), jadwal, 3 angka ukur, aturan caption, studio 10 tahap |
 | `operasional/00-struktur-divisi.md` | 7 divisi, RACI, ritme harian/mingguan, cara membaca tabel target |
 | `operasional/divisi/README.md` | indeks 7 divisi + cara mengubah target di `data/divisi.json` |

@@ -4,15 +4,15 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 
 | Ringkasan | Jumlah |
 | --- | --- |
-| Pemeriksaan lolos | **14** |
+| Pemeriksaan lolos | **18** |
 | Peringatan | **0** |
 | Gagal (harus diperbaiki) | **0** |
 
 | Kategori | Status | Hasil | Catatan |
 | --- | --- | --- | --- |
-| Berkas wajib | ✅ lolos | 38/38 berkas ada | — |
-| Tautan lokal | ✅ lolos | 95/95 tautan menuju berkas yang ada | — |
-| Struktur HTML | ✅ lolos | 9/9 halaman tag-nya seimbang | — |
+| Berkas wajib | ✅ lolos | 51/51 berkas ada | — |
+| Tautan lokal | ✅ lolos | 120/120 tautan menuju berkas yang ada | — |
+| Struktur HTML | ✅ lolos | 15/15 halaman tag-nya seimbang | — |
 | Stok semua SKU | ✅ lolos | 9/9 SKU berstatus tersedia | — |
 | Produk ↔ lot | ✅ lolos | 9/9 produk punya lot aktif (blend memakai komponen) | — |
 | Manifest ↔ aset | ✅ lolos | 15 item manifest · 0 berkas hilang | — |
@@ -22,6 +22,10 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 | Skrip studio | ✅ lolos | 5 skrip siap rekam · 0 masalah | — |
 | Bank hook | ✅ lolos | 30 hook · 12 dipakai · 18 tersedia | — |
 | Peta 50 slot | ✅ lolos | 46 otomatis · 2 manual · 2 tidak dipakai (total 50) | — |
+| Kontrak desain | ✅ lolos | 6 warna inti · 10 radius · 7 aturan gerak · 8 pengecualian terdokumentasi | — |
+| Anti-slop | ✅ lolos | 29 aturan · 0 kritis · 0 perhatian | — |
+| Komponen gerak | ✅ lolos | 6 jenis komponen dipakai · 6 ditangani motion-ui.js | — |
+| Adegan 9:16 | ✅ lolos | 5 adegan · total 9 detik masing-masing | — |
 | Berat halaman awal | ✅ lolos | 89 KB (batas 1.500 KB) | — |
 | Berat folder konten | ✅ lolos | 3.8 MB (batas 12 MB) | — |
 

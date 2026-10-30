@@ -11,7 +11,7 @@
 :root{
   --ease-out:cubic-bezier(.16,1,.3,1);      /* expo out  — untuk masuk */
   --ease-in-out:cubic-bezier(.65,0,.35,1);  /* state change */
-  --ease-spring:cubic-bezier(.34,1.56,.64,1);
+  --ease-spring:cubic-bezier(.2,.8,.2,1);    /* tanpa overshoot: pantulan adalah penanda slop */
   --d-fast:240ms;
   --d-mid:620ms;
   --d-slow:900ms;
@@ -24,7 +24,6 @@ html.motion .rv{
   transform:translate3d(0,26px,0);
   transition:opacity var(--d-mid) var(--ease-out),transform var(--d-mid) var(--ease-out);
   transition-delay:var(--rv-delay,0ms);
-  will-change:opacity,transform;
 }
 html.motion .rv.is-in{opacity:1;transform:none;will-change:auto}
 
@@ -52,7 +51,7 @@ html.motion .promobar{animation:navIn var(--d-mid) var(--ease-out) both}
 
 /* baris headline dengan topeng */
 .lm{display:block;overflow:hidden;padding-bottom:.06em}
-.lm > span{display:block;will-change:transform}
+.lm > span{display:block}
 html.motion .lm > span{transform:translate3d(0,108%,0);animation:lineUp var(--d-slow) var(--ease-out) both}
 html.motion .lm:nth-child(1) > span{animation-delay:120ms}
 html.motion .lm:nth-child(2) > span{animation-delay:220ms}

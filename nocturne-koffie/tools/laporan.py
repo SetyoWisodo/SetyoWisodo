@@ -91,8 +91,10 @@ a{color:inherit}
 """
 
 
-def bangun(tgl, cek, papan, katalog, kreatif, riset, divisi, studio=None):
+def bangun(tgl, cek, papan, katalog, kreatif, riset, divisi, studio=None, gerak=None, slop=None):
     studio = studio or {}
+    gerak = gerak or {}
+    slop = slop or {}
     hasil = cek.get("hasil", [])
     gagal = [h for h in hasil if h["status"] == "gagal"]
     peringatan = [h for h in hasil if h["status"] == "peringatan"]
@@ -172,6 +174,7 @@ ketik tangan — kalau salah, sumbernya di <code>data/</code>.</p>
   <div><span>Order tercatat</span><b>{k.get('order','—')}</b><em>minggu terakhir</em></div>
   <div><span>Brief riset</span><b>{len(riset.get('brief',[]))}</b><em>dari {riset.get('referensi',0)} post referensi</em></div>
   <div><span>Skrip siap rekam</span><b>{studio.get('skrip_siap',0)}/5</b><em>{studio.get('hook_belum',0)} hook tersedia · 0 token</em></div>
+  <div><span>Audit desain</span><b>{slop.get('kritis','—')}</b><em>kritis · {slop.get('perhatian','—')} perhatian dari {slop.get('aturan_diperiksa','—')} aturan</em></div>
 </div>
 
 <h2>1 · Hasil pemeriksaan mesin</h2>
@@ -239,7 +242,25 @@ tonase lot ditambah hari ini atas arahan "semua tersedia", bukan hasil penerimaa
 {riset.get('referensi_contoh',0)} baris riset masih berlabel <code>contoh</code> ·
 8 dokumen legal belum selesai · belum ada unggahan ke IG/TikTok/marketplace dari sistem ini.</div>
 
-<h2>7 · Halaman lain</h2>
+<h2>7 · Gerak &amp; audit desain</h2>
+<p class="lede">Tujuh repo desain dari post <code>@thegreatest_sv</code> diterapkan sebagai komponen
+vanilla, kontrak token, dan audit — bukan sebagai library tambahan. Lima dipakai, satu diganti
+prinsipnya (Figma), satu tidak dipakai (Blender).</p>
+<table><tbody>
+<tr><td><b>Repo dipakai</b></td><td>{gerak.get('repo_total',7)} repo · 4 komponen vanilla ·
+{len(gerak.get('adegan') or [])} adegan 9:16</td><td class="num">0 dependency baru</td></tr>
+<tr><td><b>Audit anti-slop</b></td><td>{slop.get('aturan_diperiksa','—')} aturan diperiksa mesin dari 62 antipattern ·
+{slop.get('kritis','—')} kritis · {slop.get('perhatian','—')} perhatian</td>
+<td class="num">{len(slop.get('temuan',[]))} catatan</td></tr>
+<tr><td><b>Pengecualian brand</b></td><td>palet krem, font, ukuran headline: dipertahankan dengan alasan tertulis
+di <code>data/design-system.json</code></td><td class="num">8 keputusan</td></tr>
+<tr><td><b>Adegan siap rekam</b></td><td>{(gerak.get('adegan') or [{}])[0].get('judul','—')} · dst.
+(5 file HTML, timeline 9 detik per adegan)</td><td class="num">rekam layar / ffmpeg</td></tr>
+<tr><td><b>Yang tidak ada</b></td><td>Figma, Blender, encoder video, GSAP — ditulis apa adanya, tidak diklaim</td>
+<td class="num">batas</td></tr>
+</tbody></table>
+
+<h2>8 · Halaman lain</h2>
 <table><tbody>
 <tr><td><a href="../index.html">Situs</a></td><td>katalog 9 SKU + 2 paket, semua tersedia</td></tr>
 <tr><td><a href="../dashboard/index.html">Papan harian</a></td><td>peringatan, target divisi, stok, margin, QC, riset</td></tr>
@@ -247,6 +268,8 @@ tonase lot ditambah hari ini atas arahan "semua tersedia", bukan hasil penerimaa
 <tr><td><a href="../konten/index.html">Hub konten</a></td><td>15 aset + caption siap salin</td></tr>
 <tr><td><a href="../riset/index.html">Dasbor riset</a></td><td>outlier, pola, komentar, kata kunci, brief</td></tr>
 <tr><td><a href="../studio/index.html">Studio konten</a></td><td>10 tahap: niche → outlier → hook → skrip → brief Senin</td></tr>
+<tr><td><a href="../motion/index.html">Lab gerak</a></td><td>komponen gerak, 5 adegan 9:16, ringkasan audit anti-slop</td></tr>
+<tr><td><a href="slop.md">Audit anti-slop</a></td><td>29 aturan, pengecualian brand, yang tidak bisa diperiksa mesin</td></tr>
 <tr><td><a href="../brand/index.html">Brand kit</a></td><td>9 label 70×100 mm, lembar A4, logo, OG card</td></tr>
 <tr><td><a href="../komersial/penawaran-b2b.html">Penawaran B2B</a></td><td>4 tier harga grosir + alur kerja</td></tr>
 <tr><td><a href="periksa.md">Laporan periksa (markdown)</a></td><td>versi teks untuk dibaca cepat</td></tr>
@@ -255,7 +278,8 @@ tonase lot ditambah hari ini atas arahan "semua tersedia", bukan hasil penerimaa
 <footer>
   <span>Dibuat <code>tools/laporan.py</code> · sumber: <code>laporan/periksa.json</code>,
     <code>dashboard/data.json</code>, <code>data/catalog.json</code>,
-    <code>data/kreatif.json</code>, <code>riset/data.json</code>, <code>studio/data.json</code></span>
+    <code>data/kreatif.json</code>, <code>riset/data.json</code>, <code>studio/data.json</code>, <code>motion/data.json</code>,
+    <code>laporan/slop.json</code></span>
   <span>Semua grafik lokal · tanpa CDN aset · halaman <code>noindex</code></span>
 </footer></div></body></html>"""
 
@@ -269,13 +293,15 @@ def main():
     riset = baca("riset", "data.json")
     divisi = baca("data", "divisi.json")
     studio = baca("studio", "data.json", default={})
+    gerak = baca("motion", "data.json", default={})
+    slop = baca("laporan", "slop.json", default={})
 
     if not cek.get("hasil"):
         print("laporan/periksa.json belum ada — jalankan tools/periksa.py dulu.")
         raise SystemExit(1)
 
     os.makedirs(OUT, exist_ok=True)
-    html = bangun(tgl, cek, papan, katalog, kreatif, riset, divisi, studio)
+    html = bangun(tgl, cek, papan, katalog, kreatif, riset, divisi, studio, gerak, slop)
     with open(os.path.join(OUT, "index.html"), "w", encoding="utf-8") as f:
         f.write(html)
     print(f"laporan/index.html ditulis · {len(html)/1024:.0f} KB")

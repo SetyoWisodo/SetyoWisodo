@@ -46,6 +46,9 @@ HALAMAN = [
     "komersial/penawaran-b2b.html",
     "laporan/index.html",
     "studio/index.html",
+    "motion/index.html",
+    "motion/frame-01.html", "motion/frame-02.html", "motion/frame-03.html",
+    "motion/frame-04.html", "motion/frame-05.html",
 ]
 
 DATA = [
@@ -55,6 +58,8 @@ DATA = [
     "data/riset-komentar.csv", "data/riset-kata-kunci.csv",
     "data/studio-niche.json", "data/studio-hooks.csv", "data/studio-industri.csv",
     "studio/data.json", "studio/brief-senin.md",
+    "data/design-system.json", "motion/timeline.json", "motion/data.json",
+    "assets/css/motion-ui.css", "assets/js/motion-ui.js", "laporan/slop.md",
 ]
 
 DOKUMEN = [
@@ -62,6 +67,7 @@ DOKUMEN = [
     "marketing/09-media-kreator.md", "skills/README.md",
     "skills/social-media-riset/SKILL.md", "skills/komentar-mining/SKILL.md",
     "skills/search-intent-riset/SKILL.md", "skills/studio-konten/SKILL.md",
+    "skills/motion-web/SKILL.md",
     "brand/README.md", "komersial/01-panduan-grosir.md",
 ]
 
@@ -298,6 +304,69 @@ def periksa(catatan):
            f"{peta.get('otomatis', 0)} otomatis · {peta.get('manual', 0)} manual · "
            f"{peta.get('tidak', 0)} tidak dipakai (total {total_slot})",
            "; ".join(label_salah))
+
+    # 5e · kontrak desain + audit anti-slop
+    ds = json.loads(baca("data/design-system.json"))
+    slop = json.loads(baca("laporan/slop.json")) if os.path.exists(os.path.join(ROOT, "laporan/slop.json")) else {}
+    ds_kurang = [k for k in ("warna", "tipografi", "radius", "gerak", "pengecualian", "halaman_publik")
+                 if k not in ds]
+    css_hilang = [f for f in ds["berkas_css"] if not os.path.exists(os.path.join(ROOT, f))]
+    tambah("Kontrak desain", "lolos" if not (ds_kurang or css_hilang) else "gagal",
+           f"{len(ds.get('warna', {}).get('inti', {}))} warna inti · "
+           f"{len(ds.get('radius', []))} radius · {len(ds.get('gerak', {}).get('aturan', []))} aturan gerak · "
+           f"{len(ds.get('pengecualian', []))} pengecualian terdokumentasi",
+           "; ".join(ds_kurang + css_hilang))
+
+    if slop:
+        kritis_slop = slop.get("kritis", 0)
+        perhatian_slop = slop.get("perhatian", 0)
+        tambah("Anti-slop", "gagal" if kritis_slop else ("peringatan" if perhatian_slop else "lolos"),
+               f"{slop.get('aturan_diperiksa', 0)} aturan · {kritis_slop} kritis · {perhatian_slop} perhatian",
+               "; ".join(f'{t["aturan"]}: {t["bukti"][:48]}'
+                         for t in slop.get("temuan", []) if t["tingkat"] == "kritis")[:200])
+    else:
+        tambah("Anti-slop", "peringatan", "laporan/slop.json belum ada", "jalankan tools/slop.py")
+
+    # 5f · komponen gerak: setiap data-ui dipakai harus ada penanganannya
+    js_gerak = baca("assets/js/motion-ui.js")
+    ditangani = set(re.findall(r'data-ui="([a-z-]+)"', js_gerak))
+    dipakai, tanpa_skrip = set(), []
+    for h in HALAMAN:
+        if not os.path.exists(os.path.join(ROOT, h)):
+            continue
+        isi = baca(h)
+        for m in re.finditer(r'data-ui="([a-z-]+)"', isi):
+            dipakai.add(m.group(1))
+            if "motion-ui.js" not in isi and "motion.js" not in isi:
+                tanpa_skrip.append(f"{h}:{m.group(1)}")
+    liar = sorted(dipakai - ditangani)
+    tambah("Komponen gerak", "lolos" if not (liar or tanpa_skrip) else "gagal",
+           f"{len(dipakai)} jenis komponen dipakai · {len(ditangani)} ditangani motion-ui.js",
+           "; ".join(liar + tanpa_skrip[:4]))
+
+    # 5g · adegan 9:16 utuh & bisa direkam
+    tl_path = os.path.join(ROOT, "motion", "timeline.json")
+    masalah_adegan = []
+    if os.path.exists(tl_path):
+        tl = json.loads(baca("motion/timeline.json"))
+        if len(tl.get("adegan", [])) != 5:
+            masalah_adegan.append(f'{len(tl.get("adegan", []))} adegan, seharusnya 5')
+        for a in tl.get("adegan", []):
+            if not a.get("cues"):
+                masalah_adegan.append(f'adegan {a.get("adegan")} tanpa cue')
+                continue
+            total = round(sum(c["durasi"] for c in a["cues"]), 2)
+            if abs(total - 9.0) > 0.01:
+                masalah_adegan.append(f'adegan {a["adegan"]}: total {total}s, seharusnya 9s')
+            if any(not c.get("teks") for c in a["cues"]):
+                masalah_adegan.append(f'adegan {a["adegan"]}: ada cue tanpa teks')
+            if not os.path.exists(os.path.join(ROOT, "motion", a["berkas"])):
+                masalah_adegan.append(f'adegan {a["adegan"]}: {a["berkas"]} tidak ada')
+    else:
+        masalah_adegan.append("motion/timeline.json tidak ada")
+    tambah("Adegan 9:16", "lolos" if not masalah_adegan else "gagal",
+           "5 adegan · total 9 detik masing-masing",
+           "; ".join(masalah_adegan[:4]))
 
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \
