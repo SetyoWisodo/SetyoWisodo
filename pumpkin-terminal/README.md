@@ -264,6 +264,17 @@ Laplace smoothing `(hit+1)/(hit+miss+2)`.
   bergerak sesuai sinyal. Di pasar nyata kamu membeli setelah postingan itu dibaca
   semua orang.
 
+### Sudah dibaca dan diuji, bukan ditiru
+
+Dua thread lain yang beredar juga saya bedah, dan hasilnya ditulis apa adanya:
+
+- [`docs/QUANT-STACK.md`](docs/QUANT-STACK.md) — 10 repo kuant (329k bintang, dicek
+  lewat API). Empat metodenya dipakai; dua lapisan yang dibangun dari situ **diukur
+  lalu dimatikan** karena tidak membayar dirinya sendiri.
+- [`docs/POLYMARKET-BOT-REVIEW.md`](docs/POLYMARKET-BOT-REVIEW.md) — "bot BTC 5 menit"
+  yang katanya profit jutaan. Aritmetikanya setengah benar, mekanismenya tidak bisa
+  dipakai, dan produk yang sebenarnya dijual adalah tautan referral.
+
 ### Menjalankan
 
 ```bash
