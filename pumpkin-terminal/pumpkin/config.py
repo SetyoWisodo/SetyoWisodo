@@ -76,6 +76,71 @@ class SimConfig:
 
 
 @dataclass
+class WhaleRules:
+    """Aturan radar whale — inti 'big data' dari aliran dompet."""
+
+    window_ticks: int = 6            # jendela agregasi sinyal
+    min_whales_confirm: int = 3      # minimal whale berbeda sebelum dianggap sinyal
+    min_net_inflow_usd: float = 8_000.0
+    min_signal: float = 0.62
+    max_rug_risk: float = 0.42       # forensics: tolak di atas ini
+    max_chase_pct: float = 0.10      # jangan beli kalau harga sudah lari >12% dari sinyal
+    min_whale_reputation: float = 0.35
+    entry_delay_ticks: int = 1       # deteksi + forensics + inklusi transaksi
+    max_tracked_tokens: int = 400
+
+
+@dataclass
+class ScalpRules:
+    """Aturan eksekusi: 5% saldo per posisi, target +50% dalam hitungan detik."""
+
+    position_pct: float = 0.05       # 5% dari total ekuitas
+    take_profit_pct: float = 0.50
+    stop_loss_pct: float = 0.08
+    trail_after_pct: float = 0.18
+    trail_distance_pct: float = 0.06
+    max_hold_ticks: int = 12
+    max_concurrent: int = 3
+    max_pct_of_liquidity: float = 0.01
+    entry_fee_pct: float = 0.010
+    exit_fee_pct: float = 0.010
+    entry_slippage_pct: float = 0.020
+    exit_slippage_pct: float = 0.025
+
+    @property
+    def round_trip_cost_pct(self) -> float:
+        return (self.entry_fee_pct + self.exit_fee_pct
+                + self.entry_slippage_pct + self.exit_slippage_pct)
+
+    @property
+    def breakeven_hit_rate(self) -> float:
+        """Hit-rate minimum agar target +50% / stop -20% tidak merugi.
+
+        Menang = +50% - biaya, kalah = -20% - biaya.
+        """
+        win = self.take_profit_pct - self.round_trip_cost_pct
+        loss = self.stop_loss_pct + self.round_trip_cost_pct
+        return loss / (win + loss)
+
+
+@dataclass
+class WhaleSimConfig:
+    start_balance: float = 250.0
+    ticks: int = 2_400
+    tick_seconds_wall: float = 0.1
+    sim_seconds_per_tick: int = 2      # 1 tick ≈ 2 detik pasar (pump.fun cepat)
+    tokens_per_tick: int = 6
+    whales: int = 48
+    seed: int = 21
+    edge_mode: Literal["informed", "noise"] = "informed"
+    speed: float = 1.0
+
+    @property
+    def sim_minutes(self) -> float:
+        return self.ticks * self.sim_seconds_per_tick / 60.0
+
+
+@dataclass
 class Config:
     sim: SimConfig = field(default_factory=SimConfig)
     filters: FilterRules = field(default_factory=FilterRules)
@@ -86,6 +151,20 @@ class Config:
         d["risk"]["round_trip_cost_pct"] = self.risk.round_trip_cost_pct
         d["sim"]["sim_minutes"] = self.sim.sim_minutes
         return d
+
+    whale_sim: WhaleSimConfig = field(default_factory=WhaleSimConfig)
+    whale: WhaleRules = field(default_factory=WhaleRules)
+    scalp: ScalpRules = field(default_factory=ScalpRules)
+
+    def to_dict(self) -> dict[str, Any]:
+        d = asdict(self)
+        d["risk"]["round_trip_cost_pct"] = self.risk.round_trip_cost_pct
+        d["sim"]["sim_minutes"] = self.sim.sim_minutes
+        d["scalp"]["round_trip_cost_pct"] = self.scalp.round_trip_cost_pct
+        d["scalp"]["breakeven_hit_rate"] = self.scalp.breakeven_hit_rate
+        d["whale_sim"]["sim_minutes"] = self.whale_sim.sim_minutes
+        return d
+
 
 
 DEFAULT_CONFIG = Config()

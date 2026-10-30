@@ -1,14 +1,13 @@
-"""Server dashboard Pumpkin Terminal — hanya stdlib, nol dependensi.
+"""Server dashboard — dua desk, satu proses, stdlib saja.
 
-    python run.py serve --port 8000
+    /            Pumpkin Terminal (scan semua pair)
+    /whale       Whale Radar (mengikuti aliran dompet whale)
 
-Endpoint:
-    GET  /                 dashboard
-    GET  /api/state        snapshot JSON
-    GET  /api/stream       Server-Sent Events (dashboard memakai ini)
-    POST /api/control      {"action": "start|pause|reset", "speed": 0.5..8}
-    GET  /api/report       laporan sesi (JSON)
-    GET  /api/report.md    laporan sesi (Markdown)
+Endpoint generik per desk:
+    GET  /api/<desk>/state        snapshot JSON
+    GET  /api/<desk>/stream       Server-Sent Events
+    POST /api/<desk>/control      {"action": "start|pause|reset|speed"}
+    GET  /api/<desk>/report.md    unduh laporan
 """
 
 from __future__ import annotations
@@ -22,39 +21,41 @@ from pathlib import Path
 from .config import Config
 from .engine import Desk
 from .report import build_report, write_report
+from .whale_desk import WhaleDesk, write_whale_report
 
 STATIC = Path(__file__).resolve().parent / "static"
 
 
-class Session:
-    """Satu sesi paper trading yang berjalan di thread sendiri."""
+class BaseSession:
+    desk_name = "scan"
 
-    def __init__(self, cfg: Config):
-        self.cfg = cfg
+    def __init__(self) -> None:
         self.lock = threading.RLock()
-        self.desk: Desk | None = None
         self.paused = False
-        self.speed = cfg.sim.speed
+        self.speed = 1.0
         self._stop = threading.Event()
         self._thread: threading.Thread | None = None
-        self._event_cursor = 0
-        self._session_no = 0
+        self._cursor = 0
         self._finished_at: float | None = None
-        self.new_session()
+        self._started = False
 
-    # ------------------------------------------------------------------ life
+    # anak kelas mengisi ini
+    def make_desk(self):  # pragma: no cover - abstrak
+        raise NotImplementedError
+
+    def tick_delay(self) -> float:  # pragma: no cover - abstrak
+        return 0.1
+
     def new_session(self) -> None:
         with self.lock:
-            if self.desk is not None:
+            if getattr(self, "desk", None) is not None:
                 self.desk.scribe.close()
-            self._session_no += 1
-            # tiap sesi baru memakai pasar yang berbeda — bukan mengulang seed yang sama
-            self.cfg.sim.seed += 1013
-            self.desk = Desk(self.cfg)
+            self.desk = self.make_desk()
             self.paused = False
+            self._cursor = self.desk.scribe.total
             self._finished_at = None
-            self._event_cursor = self.desk.scribe.total
-        if self._thread is None or not self._thread.is_alive():
+        if not self._started:
+            self._started = True
             self._thread = threading.Thread(target=self._loop, daemon=True)
             self._thread.start()
 
@@ -63,51 +64,84 @@ class Session:
             t0 = time.time()
             if not self.paused:
                 with self.lock:
-                    if self.desk and not self.desk.finished:
+                    if not self.desk.finished:
                         self.desk.tick()
-                    elif self.desk and self.desk.finished:
-                        if self._finished_at is None:
-                            self._finished_at = time.time()
-                        elif time.time() - self._finished_at > 8.0:
-                            # lanjut otomatis ke sesi berikutnya (pasar berbeda)
-                            self.new_session()
-            target = self.cfg.sim.tick_seconds_wall / max(0.1, self.speed)
-            time.sleep(max(0.0, target - (time.time() - t0)))
+                    elif self._finished_at is None:
+                        self._finished_at = time.time()
+                    elif time.time() - self._finished_at > 8.0:
+                        self.new_session()
+            time.sleep(max(0.0, self.tick_delay() / max(0.1, self.speed) - (time.time() - t0)))
 
     def stop(self) -> None:
         self._stop.set()
 
-    # -------------------------------------------------------------- payloads
     def snapshot(self) -> dict:
         with self.lock:
             d = self.desk.snapshot()
-            events = [e.public() for e in d_events(self.desk, self._event_cursor)]
-            self._event_cursor = self.desk.scribe.total
+            events = [e.public() for e in self._new_events()]
+            self._cursor = self.desk.scribe.total
         d["events"] = events
         d["paused"] = self.paused
         d["speed"] = self.speed
         return d
 
+    def _new_events(self):
+        buf = list(self.desk.scribe.buffer)
+        total = self.desk.scribe.total
+        start = max(0, len(buf) - (total - self._cursor))
+        if total - self._cursor > len(buf):
+            start = 0
+        return buf[start:][-60:]
 
-def d_events(desk: Desk, cursor: int):
-    """Ambil event baru sejak cursor (dibatasi 60 per payload)."""
-    buf = list(desk.scribe.buffer)
-    total = desk.scribe.total
-    start_in_buf = max(0, len(buf) - (total - cursor))
-    if total - cursor > len(buf):
-        start_in_buf = 0
-    return buf[start_in_buf:][-60:]
+
+class ScanSession(BaseSession):
+    desk_name = "scan"
+
+    def __init__(self, cfg: Config):
+        super().__init__()
+        self.cfg = cfg
+        self.speed = cfg.sim.speed
+        self.new_session()
+
+    def make_desk(self):
+        # tiap sesi baru = pasar berbeda
+        self.cfg.sim.seed += 1013
+        return Desk(self.cfg)
+
+    def tick_delay(self):
+        return self.cfg.sim.tick_seconds_wall
+
+
+class WhaleSession(BaseSession):
+    desk_name = "whale"
+
+    def __init__(self, cfg: Config):
+        super().__init__()
+        self.cfg = cfg
+        self.speed = cfg.whale_sim.speed
+        self.new_session()
+
+    def make_desk(self):
+        self.cfg.whale_sim.seed += 733
+        return WhaleDesk(self.cfg.whale_sim, self.cfg.whale, self.cfg.scalp)
+
+    def tick_delay(self):
+        return self.cfg.whale_sim.tick_seconds_wall
+
+    def report_md(self) -> Path:
+        with self.lock:
+            _, md = write_whale_report(self.desk)
+        return md
 
 
 class Handler(BaseHTTPRequestHandler):
-    session: Session
+    sessions: dict[str, BaseSession] = {}
 
-    def log_message(self, *args):  # senyap
+    def log_message(self, *args):
         pass
 
     # ------------------------------------------------------------------ util
-    def _send(self, code: int, body: bytes, ctype: str = "application/json",
-              extra: dict | None = None) -> None:
+    def _send(self, code, body: bytes, ctype="application/json", extra=None):
         self.send_response(code)
         self.send_header("Content-Type", ctype)
         self.send_header("Content-Length", str(len(body)))
@@ -121,35 +155,61 @@ class Handler(BaseHTTPRequestHandler):
         except (BrokenPipeError, ConnectionResetError):
             pass
 
-    def _json(self, obj, code: int = 200) -> None:
-        self._send(code, json.dumps(obj, ensure_ascii=False).encode(), "application/json")
+    def _json(self, obj, code=200):
+        self._send(code, json.dumps(obj, ensure_ascii=False).encode())
+
+    def _page(self, name: str):
+        f = STATIC / name
+        if not f.exists():
+            return self._send(404, b"halaman belum ada", "text/plain")
+        self._send(200, f.read_bytes(), "text/html; charset=utf-8")
+
+    def _parse(self):
+        """/api/<desk>/<action> → (desk, action)"""
+        parts = self.path.split("?")[0].strip("/").split("/")
+        if len(parts) >= 3 and parts[0] == "api":
+            desk = "scan" if parts[1] == "scan" else parts[1]
+            return desk, parts[2]
+        return None, None
 
     # ------------------------------------------------------------------- get
-    def do_GET(self) -> None:  # noqa: N802
+    def do_GET(self):  # noqa: N802
+        try:
+            return self._route_get()
+        except Exception as exc:  # jangan biarkan satu bug mematikan koneksi
+            import traceback
+            traceback.print_exc()
+            return self._json({"error": str(exc)}, 500)
+
+    def _route_get(self):
         path = self.path.split("?")[0]
         if path in ("/", "/index.html"):
-            f = STATIC / "index.html"
-            if not f.exists():
-                return self._send(404, b"dashboard belum ada", "text/plain")
-            return self._send(200, f.read_bytes(), "text/html; charset=utf-8")
-        if path == "/api/state":
-            return self._json(self.session.snapshot())
-        if path == "/api/stream":
-            return self._stream()
-        if path == "/api/report":
-            with self.session.lock:
-                return self._json(build_report(self.session.desk))
-        if path == "/api/report.md":
-            with self.session.lock:
-                desk = self.session.desk
-            jpath, mpath = write_report(desk)
-            return self._send(200, mpath.read_bytes(), "text/markdown; charset=utf-8",
-                              {"Content-Disposition": f'attachment; filename="pumpkin-{desk.session_id}.md"'})
+            return self._page("index.html")
+        if path in ("/whale", "/whale.html"):
+            return self._page("whale.html")
         if path == "/healthz":
-            return self._json({"ok": True})
+            return self._json({"ok": True, "desks": list(self.sessions)})
+
+        desk, action = self._parse()
+        if desk not in self.sessions:
+            return self._send(404, b"not found", "text/plain")
+        session = self.sessions[desk]
+
+        if action == "state":
+            return self._json(session.snapshot())
+        if action == "stream":
+            return self._stream(session)
+        if action == "report.md":
+            if desk == "whale":
+                p = session.report_md()
+            else:
+                with session.lock:
+                    _, p = write_report(session.desk)
+            return self._send(200, p.read_bytes(), "text/markdown; charset=utf-8",
+                              {"Content-Disposition": f'attachment; filename="{p.name}"'})
         return self._send(404, b"not found", "text/plain")
 
-    def _stream(self) -> None:
+    def _stream(self, session: BaseSession):
         self.send_response(200)
         self.send_header("Content-Type", "text/event-stream; charset=utf-8")
         self.send_header("Cache-Control", "no-cache, no-transform")
@@ -161,7 +221,7 @@ class Handler(BaseHTTPRequestHandler):
             self.wfile.write(b": connected\n\n")
             self.wfile.flush()
             while True:
-                payload = self.session.snapshot()
+                payload = session.snapshot()
                 self.wfile.write(b"data: " + json.dumps(payload, ensure_ascii=False).encode() + b"\n\n")
                 self.wfile.flush()
                 time.sleep(0.3)
@@ -169,32 +229,30 @@ class Handler(BaseHTTPRequestHandler):
             return
 
     # ------------------------------------------------------------------ post
-    def do_POST(self) -> None:  # noqa: N802
-        path = self.path.split("?")[0]
+    def do_POST(self):  # noqa: N802
+        desk, action = self._parse()
         length = int(self.headers.get("Content-Length") or 0)
         try:
             body = json.loads(self.rfile.read(length) or b"{}")
         except json.JSONDecodeError:
             body = {}
-        if path != "/api/control":
+        if desk not in self.sessions or action != "control":
             return self._send(404, b"not found", "text/plain")
-        if self.headers.get("Content-Type", "").startswith("text/plain"):
-            pass
-        action = body.get("action", "")
-        s = self.session
-        if action == "pause":
+        s = self.sessions[desk]
+        act = body.get("action", "")
+        if act == "pause":
             s.paused = True
-        elif action == "start":
+        elif act == "start":
             s.paused = False
-        elif action == "reset":
+        elif act == "reset":
             s.new_session()
-        elif action == "speed":
+        elif act == "speed":
             s.speed = max(0.25, min(16.0, float(body.get("speed", 1.0))))
         else:
             return self._json({"error": "action tidak dikenal"}, 400)
         return self._json({"ok": True, "paused": s.paused, "speed": s.speed})
 
-    def do_OPTIONS(self) -> None:  # noqa: N802
+    def do_OPTIONS(self):  # noqa: N802
         self.send_response(204)
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "GET,POST,OPTIONS")
@@ -204,16 +262,19 @@ class Handler(BaseHTTPRequestHandler):
 
 def serve(host: str = "0.0.0.0", port: int = 8000, cfg: Config | None = None) -> None:
     cfg = cfg or Config()
-    Handler.session = Session(cfg)
+    Handler.sessions = {"scan": ScanSession(cfg), "whale": WhaleSession(cfg)}
     httpd = ThreadingHTTPServer((host, port), Handler)
     httpd.daemon_threads = True
     print(f"\n  PUMPKIN TERMINAL · http://{host}:{port}")
-    print(f"  mode={cfg.sim.edge_mode} · saldo ${cfg.sim.start_balance:,.2f} · "
-          f"{cfg.sim.ticks:,} tick · paper trading (tidak ada wallet)\n")
+    print(f"  /       scan desk   · mode={cfg.sim.edge_mode}")
+    print(f"  /whale  whale radar · mode={cfg.whale_sim.edge_mode} · "
+          f"{cfg.scalp.position_pct*100:.0f}% per posisi · target +{cfg.scalp.take_profit_pct*100:.0f}%")
+    print(f"  paper trading murni — tidak ada wallet, tidak ada order on-chain\n")
     try:
         httpd.serve_forever()
     except KeyboardInterrupt:
         print("\n  berhenti.")
     finally:
-        Handler.session.stop()
+        for s in Handler.sessions.values():
+            s.stop()
         httpd.server_close()

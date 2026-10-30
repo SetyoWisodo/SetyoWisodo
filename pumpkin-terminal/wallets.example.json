@@ -1,0 +1,5 @@
+[
+  {"address": "GANTI_DENGAN_ADDRESS_WHALE_1", "label": "Smart Money #1", "min_usd": 5000},
+  {"address": "GANTI_DENGAN_ADDRESS_WHALE_2", "label": "Early Sniper #2", "min_usd": 2000},
+  {"address": "GANTI_DENGAN_ADDRESS_WHALE_3", "label": "Rotation Fund #3", "min_usd": 10000}
+]

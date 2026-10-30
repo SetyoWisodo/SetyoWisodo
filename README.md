@@ -168,24 +168,32 @@ cara build-nya ada di [`book/`](book/README.md).
 
 ---
 
-### 🎃 Pumpkin Terminal — Desk Trading 6 Agen (Paper Trading)
+### 🎃 Pumpkin Terminal — Desk Trading 6 Agen + 🐋 Whale Radar (Paper Trading)
 
-Jawaban teknis atas thread viral "$80 → $5.432 dalam semalam". Enam agen
-(**Scout → Filter → Analyst → Sniper → Guard → Scribe**) memindai pair Solana,
-menolak ~99% token karena aturan risiko, dan mencatat setiap keputusan —
-**tanpa wallet dan tanpa order on-chain**.
+Jawaban teknis atas thread viral "$80 → $5.432 dalam semalam". Dua desk, satu repo,
+**tanpa wallet dan tanpa order on-chain**:
+
+- **Scan desk** — enam agen (Scout → Filter → Analyst → Sniper → Guard → Scribe)
+  memindai semua pair baru, menolak ~99% karena aturan risiko.
+- **Whale Radar** — memantau dompet whale, mengagregasi aliran dana jadi satu sinyal,
+  menilai token dalam milidetik (dev %, bundle %, LP, riwayat rug), lalu mengeksekusi
+  **5% ekuitas per posisi** dengan target **+50%**.
 
 Yang menarik justru hasilnya: dengan pipeline lengkap di pasar simulasi yang ramah,
-median **+174%**; tanpa keahlian sama sekali (filter dilewati, skor acak),
-median **−46%** dan habis di fee 5,5% per round-trip. Klaim +6.690% di thread
+scan desk median **+174%** vs tanpa keahlian **−46%**; Whale Radar median **+10,2%**
+(hit rate 44,8% vs impas 33,0%) saat whale-nya punya informasi, dan **−0,8%** saat
+whale-nya acak — karena lapisan reputasi berhenti trading. Klaim +6.690% di thread
 berada jauh di luar ekor distribusi bahkan dari simulasi itu sendiri.
 
 ```bash
-cd pumpkin-terminal && python run.py serve   # dashboard live
-python run.py bench                          # uji jujur: strategi vs lempar panah
+cd pumpkin-terminal
+python run.py serve        # dashboard: localhost:8000  dan  /whale
+python run.py bench        # uji jujur: strategi vs lempar panah
+python run.py whale-bench  # uji jujur: informed whales vs whale acak
 ```
 
-Kode, aturan filter/risiko, dan 25 test: [`pumpkin-terminal/`](pumpkin-terminal/README.md)
+Kode, aturan filter/risiko, konektor data nyata (Helius), dan 46 test:
+[`pumpkin-terminal/`](pumpkin-terminal/README.md)
 
 ---
 

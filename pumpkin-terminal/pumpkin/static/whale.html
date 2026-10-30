@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Whale Radar — Pumpkin Terminal</title>
+<style>
+  :root{
+    --bg:#06080b; --panel:#0c1118; --panel2:#111a24; --line:#1c2734;
+    --txt:#d7e0ea; --dim:#7d8b9c; --accent:#38bdf8; --accent2:#7dd3fc;
+    --green:#2fdc8b; --red:#ff4d63; --gold:#ffb020; --purple:#b98cff; --whale:#38bdf8;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    background:
+      radial-gradient(1100px 520px at 10% -12%, rgba(56,189,248,.13), transparent 60%),
+      radial-gradient(900px 420px at 92% -5%, rgba(185,140,255,.09), transparent 55%),
+      var(--bg);
+    color:var(--txt);
+    font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace;
+    font-size:12.5px; line-height:1.45;
+  }
+  .wrap{max-width:1600px;margin:0 auto;padding:14px 16px 40px}
+  header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+         border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:14px}
+  .logo{font-size:19px;font-weight:700;letter-spacing:.4px}
+  .logo span{color:var(--accent)}
+  .badge{border:1px solid rgba(56,189,248,.4);color:var(--accent2);
+         background:rgba(56,189,248,.08);border-radius:4px;padding:2px 7px;font-size:10.5px;
+         letter-spacing:.8px;text-transform:uppercase}
+  .badge.sim{border-color:rgba(255,77,99,.45);color:#ff8b9b;background:rgba(255,77,99,.08)}
+  .nav a{color:var(--dim);text-decoration:none;font-size:11px;border:1px solid var(--line);
+         border-radius:5px;padding:4px 9px}
+  .nav a:hover{color:var(--accent2);border-color:var(--accent)}
+  .spacer{flex:1}
+  .conn{font-size:10.5px;padding:2px 7px;border-radius:4px;border:1px solid var(--line);color:var(--dim)}
+  .conn.on{color:var(--green);border-color:rgba(47,220,139,.4)}
+  button{background:var(--panel2);color:var(--txt);border:1px solid var(--line);
+    border-radius:5px;padding:5px 11px;font-family:inherit;font-size:11.5px;cursor:pointer;transition:.15s}
+  button:hover{border-color:var(--accent);color:var(--accent2)}
+  button.primary{border-color:rgba(56,189,248,.45);color:var(--accent2)}
+  button.speed.on{border-color:var(--accent);color:#fff;background:rgba(56,189,248,.16)}
+  .clock{color:var(--dim);font-size:11px;text-align:right}
+  .clock b{color:var(--txt)}
+
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(126px,1fr));gap:8px;margin-bottom:12px}
+  .kpi{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);
+       border-radius:7px;padding:9px 11px}
+  .kpi .lbl{color:var(--dim);font-size:9.5px;text-transform:uppercase;letter-spacing:.8px}
+  .kpi .val{font-size:17px;font-weight:600;margin-top:2px;letter-spacing:-.3px}
+  .kpi .sub{color:var(--dim);font-size:10px;margin-top:1px}
+  .up{color:var(--green)} .down{color:var(--red)} .neu{color:var(--txt)} .warn{color:var(--gold)}
+
+  .grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(360px,1fr);gap:12px}
+  @media (max-width:1120px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:9px;overflow:hidden}
+  .card h3{margin:0;padding:9px 12px;font-size:10.5px;letter-spacing:1.1px;text-transform:uppercase;
+           color:var(--dim);border-bottom:1px solid var(--line);display:flex;justify-content:space-between;
+           align-items:center;font-weight:600}
+  .card h3 em{font-style:normal;color:var(--accent2)}
+  .card .body{padding:11px 12px}
+  #chart{width:100%;height:180px;display:block}
+
+  table{width:100%;border-collapse:collapse;font-size:11px}
+  th{color:var(--dim);text-align:left;font-weight:500;font-size:9.5px;letter-spacing:.8px;
+     text-transform:uppercase;padding:5px 6px;border-bottom:1px solid var(--line)}
+  td{padding:5px 6px;border-bottom:1px solid rgba(28,39,52,.6);white-space:nowrap}
+  tr:hover td{background:rgba(255,255,255,.015)}
+  .num{text-align:right;font-variant-numeric:tabular-nums}
+  .empty{color:var(--dim);text-align:center;padding:14px;font-size:11px}
+
+  .bar{height:4px;background:#1b2733;border-radius:3px;overflow:hidden;margin-top:4px;width:110px}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,#38bdf8,#2fdc8b)}
+  .rep{height:4px;background:#1b2733;border-radius:3px;overflow:hidden;width:70px;display:inline-block;vertical-align:middle}
+  .rep i{display:block;height:100%;background:linear-gradient(90deg,#ff4d63,#ffb020,#2fdc8b)}
+  .tag{font-size:9.5px;padding:1px 5px;border-radius:3px;border:1px solid var(--line);color:var(--dim)}
+  .tag.tp{color:var(--green);border-color:rgba(47,220,139,.35)}
+  .tag.sl{color:var(--red);border-color:rgba(255,77,99,.35)}
+  .tag.time{color:var(--gold);border-color:rgba(255,176,32,.35)}
+
+  #log{height:290px;overflow:auto;padding:8px 10px;font-size:10.8px}
+  .ev{display:flex;gap:7px;padding:2px 0;border-bottom:1px solid rgba(28,39,52,.5)}
+  .ev .ag{width:74px;flex:none;font-weight:700;font-size:9.5px;letter-spacing:.4px}
+  .ev .tx{color:var(--dim);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .ev.reject .tx{color:#8d6a6f}
+  .ev.rug .tx{color:#ff6b7d}
+  .ev.enter .tx,.ev.exit .tx{color:var(--txt)}
+
+  .strip{display:flex;gap:14px;flex-wrap:wrap;color:var(--dim);font-size:10.5px;
+         border:1px dashed var(--line);border-radius:7px;padding:8px 11px;margin-bottom:12px}
+  .strip b{color:var(--txt);font-weight:600}
+  .note{margin-top:14px;border:1px solid rgba(56,189,248,.25);background:rgba(56,189,248,.05);
+        border-radius:8px;padding:11px 13px;color:#a9c2d4;font-size:11px}
+  .note b{color:#7dd3fc}
+  .scroll{max-height:250px;overflow:auto}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">🐋 WHALE <span>RADAR</span></div>
+    <div class="badge sim" title="Tanpa wallet, tanpa order on-chain">paper trading · simulasi</div>
+    <div class="badge" id="modeBadge">mode: —</div>
+    <div class="nav"><a href="/">← scan desk</a></div>
+    <div class="spacer"></div>
+    <div class="conn" id="conn">menghubungkan…</div>
+    <div style="display:flex;gap:6px;align-items:center">
+      <button id="btnPause" class="primary">Pause</button>
+      <button id="btnReset">Sesi Baru</button>
+      <button class="speed" data-s="1">1×</button>
+      <button class="speed" data-s="2">2×</button>
+      <button class="speed" data-s="4">4×</button>
+      <button id="btnReport">Laporan</button>
+    </div>
+    <div class="clock" id="clock"></div>
+  </header>
+
+  <div class="strip" id="strip"></div>
+  <div class="kpis" id="kpis"></div>
+
+  <div class="grid">
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div class="card">
+        <h3>Kurva Ekuitas <em id="eqNow">—</em></h3>
+        <div class="body"><canvas id="chart"></canvas></div>
+      </div>
+
+      <div class="card">
+        <h3>Aliran Whale (sinyal aktif) <em id="sigNote"></em></h3>
+        <div class="body" style="padding:0 0 4px">
+          <div class="scroll" style="max-height:210px">
+            <table>
+              <thead><tr><th>Token</th><th class="num">Whale</th><th class="num">Inflow</th>
+                <th class="num">Reputasi</th><th class="num">Sinyal</th><th>Status</th></tr></thead>
+              <tbody id="sigBody"><tr><td colspan="6" class="empty">menunggu aliran whale…</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Posisi Terbuka · target +50% <em id="posCount">0</em></h3>
+        <div class="body" style="padding:0 0 4px">
+          <table>
+            <thead><tr><th>Token</th><th class="num">Ukuran</th><th class="num">Unrealized</th>
+              <th>Progres ke +50%</th><th class="num">Tahan</th></tr></thead>
+            <tbody id="posBody"><tr><td colspan="5" class="empty">belum ada posisi</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Trade <em id="tradeCount">0</em></h3>
+        <div class="body" style="padding:0 0 4px">
+          <div class="scroll">
+            <table>
+              <thead><tr><th>Token</th><th class="num">Sinyal</th><th class="num">Ukuran</th>
+                <th class="num">PnL %</th><th class="num">PnL $</th><th class="num">Tahan</th><th>Exit</th></tr></thead>
+              <tbody id="tradeBody"><tr><td colspan="7" class="empty">belum ada trade</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div class="card">
+        <h3>Papan Reputasi Whale <em id="whaleNote"></em></h3>
+        <div class="body" style="padding:0 0 4px">
+          <div class="scroll" style="max-height:230px">
+            <table>
+              <thead><tr><th>Dompet</th><th>Label</th><th class="num">Hit/Miss</th><th>Reputasi</th></tr></thead>
+              <tbody id="whaleBody"><tr><td colspan="4" class="empty">mengumpulkan rekam jejak…</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Log RADAR <em id="logTotal">0</em></h3>
+        <div id="log"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>Target +50% dalam hitungan detik — sekarang kamu bisa lihat harganya.</b>
+    Dengan posisi <span id="nPos">5%</span> ekuitas, target +50% dan stop −20%, plus biaya
+    round-trip 6,5%, hit rate impas adalah <b id="nBe">37,9%</b>. Artinya: menang 4 dari 10
+    trade masih bisa merugi. Latency forensics di panel ini <i>nyata</i> (diukur), tapi
+    entry selalu tertunda 1 tick karena deteksi → analisis → inklusi transaksi.
+    Yang membuat ini bekerja di simulasi adalah whale-nya benar-benar punya informasi;
+    di pasar nyata kamu membeli <i>setelah</i> mereka, dan mereka adalah exit liquidity-mu.
+  </div>
+</div>
+
+<script>
+const COLORS = {RADAR:"#38bdf8", FORENSICS:"#b98cff", SNIPER:"#2fdc8b", GUARD:"#ff4d63", SCRIBE:"#7d8b9c"};
+let state = null, pollTimer = null;
+const $ = id => document.getElementById(id);
+const fmtUsd = v => (v<0?"-$":"$") + Math.abs(v).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmtN = v => Number(v||0).toLocaleString("en-US");
+const fmtK = v => v>=1e6? "$"+(v/1e6).toFixed(1)+"M" : v>=1e3? "$"+(v/1e3).toFixed(0)+"k" : "$"+Math.round(v);
+const sign = v => v>0?"up":(v<0?"down":"neu");
+const pct = v => (v>0?"+":"") + Number(v).toFixed(1) + "%";
+
+function renderStrip(k, c){
+  $("strip").innerHTML = [
+    ["Posisi", `<b>${c.position_pct}%</b> ekuitas`],
+    ["Target", `<b>+${c.take_profit_pct}%</b>`],
+    ["Stop", `<b>−${c.stop_loss_pct}%</b>`],
+    ["Biaya round-trip", `<b>${c.round_trip_cost_pct}%</b>`],
+    ["Hit-rate impas", `<b>${c.breakeven_hit_rate}%</b>`],
+    ["Entry delay", `<b>${c.entry_delay_ticks} tick</b> ≈ ${c.entry_delay_ticks*c.sim_seconds_per_tick}s`],
+    ["Jangan kejar", `<b>&gt;${c.max_chase_pct ?? 10}%</b> di atas harga sinyal`],
+    ["Waktu pasar", `<b>${k.sim_minutes} menit</b> (dipadatkan)`],
+  ].map(([l,v]) => `<span>${l} ${v}</span>`).join("");
+  $("nPos").textContent = c.position_pct + "%";
+  $("nBe").textContent = String(c.breakeven_hit_rate).replace(".", ",") + "%";
+}
+
+function renderKpis(k){
+  const beat = k.win_rate > k.empirical_breakeven;
+  const skip = (k.rejected["terlalu_telat"]||0);
+  const items = [
+    ["Ekuitas", fmtUsd(k.equity), `${pct(k.pnl_pct)} dari ${fmtUsd(k.start_balance)}`, sign(k.pnl_pct)],
+    ["PnL", fmtUsd(k.pnl_usd), `${k.trades} trade · ${k.open_positions} terbuka`, sign(k.pnl_usd)],
+    ["Hit rate", k.win_rate.toFixed(1)+"%", `impas ${k.empirical_breakeven}% (empiris)`, beat?"up":"down"],
+    ["Sinyal → +50%", k.signal_hit_rate.toFixed(1)+"%", `${fmtN(k.signal_probes)} sinyal dipantau`, k.signal_hit_rate>=40?"up":"neu"],
+    ["TP +50%", fmtN(k.tp_hits), `${k.avg_hold_s}s rata-rata tahan`, "neu"],
+    ["Whale Tx", fmtN(k.whale_tx), `${fmtK(k.whale_volume)} inflow`, "warn"],
+    ["Ditolak", fmtN(k.rejected.rug_risk), `rug-risk · ${fmtN(skip)} telat`, "neu"],
+    ["Latency", k.latency_p50_ms.toFixed(2)+"ms", `p95 ${k.latency_p95_ms.toFixed(2)}ms`, "neu"],
+  ];
+  $("kpis").innerHTML = items.map(([l,v,s,c]) =>
+    `<div class="kpi"><div class="lbl">${l}</div><div class="val ${c}">${v}</div><div class="sub">${s}</div></div>`).join("");
+  $("eqNow").textContent = fmtUsd(k.equity)+"  "+pct(k.pnl_pct);
+  $("eqNow").className = sign(k.pnl_pct);
+  $("modeBadge").textContent = "whale: " + k.edge_mode;
+  $("clock").innerHTML = `sesi <b>${k.session_id}</b><br>tick <b>${fmtN(k.tick)}</b>/${fmtN(k.ticks_total)} · ${k.finished?"SELESAI":"BERJALAN"}`;
+  $("posCount").textContent = k.open_positions + " aktif";
+}
+
+function renderSignals(sig, k){
+  $("sigNote").textContent = sig.length ? sig.length + " kandidat" : "";
+  if(!sig.length){ $("sigBody").innerHTML = `<tr><td colspan="6" class="empty">menunggu aliran whale…</td></tr>`; return; }
+  $("sigBody").innerHTML = sig.map(s => {
+    const st = s.signal >= .62 ? `<span class="tag tp">layak</span>` :
+               s.whales >= 3 ? `<span class="tag">evaluasi</span>` : `<span class="tag">lemah</span>`;
+    return `<tr><td><b>${s.symbol}</b></td><td class="num">${s.whales}</td>
+      <td class="num">${fmtK(s.net_usd)}</td><td class="num">${s.avg_reputation.toFixed(2)}</td>
+      <td class="num ${s.signal>=.62?'up':''}">${s.signal.toFixed(2)}</td><td>${st}</td></tr>`;
+  }).join("");
+}
+
+function renderPositions(ps){
+  if(!ps.length){ $("posBody").innerHTML = `<tr><td colspan="5" class="empty">belum ada posisi</td></tr>`; return; }
+  $("posBody").innerHTML = ps.map(p => `<tr>
+    <td><b>${p.symbol}</b></td>
+    <td class="num">${fmtUsd(p.size_usd)}</td>
+    <td class="num ${sign(p.unrealized_pct)}">${pct(p.unrealized_pct)}</td>
+    <td><div class="bar"><i style="width:${Math.round(p.progress*100)}%"></i></div></td>
+    <td class="num">${p.age_s}/${p.target_s}s</td></tr>`).join("");
+}
+
+function renderTrades(ts){
+  $("tradeCount").textContent = state.kpis.trades + " total";
+  if(!ts.length){ $("tradeBody").innerHTML = `<tr><td colspan="7" class="empty">belum ada trade</td></tr>`; return; }
+  $("tradeBody").innerHTML = ts.map(t => {
+    const cls = t.reason.startsWith("take_profit") ? "tp" : (t.reason==="stop_loss"?"sl":(t.reason==="time_stop"?"time":""));
+    return `<tr><td><b>${t.symbol}</b></td><td class="num">${t.score.toFixed(2)}</td>
+      <td class="num">${fmtUsd(t.size_usd)}</td>
+      <td class="num ${sign(t.pnl_pct)}">${t.pnl_pct.toFixed(1)}%</td>
+      <td class="num ${sign(t.pnl_usd)}">${fmtUsd(t.pnl_usd)}</td>
+      <td class="num">${t.hold_ticks*2}s</td>
+      <td><span class="tag ${cls}">${t.reason}</span></td></tr>`;
+  }).join("");
+}
+
+function renderWhales(ws, stats){
+  $("whaleNote").textContent = stats ? `${stats.tracked} dompet · ${stats.reliable} reliabel` : "";
+  if(!ws.length){ $("whaleBody").innerHTML = `<tr><td colspan="4" class="empty">mengumpulkan rekam jejak…</td></tr>`; return; }
+  $("whaleBody").innerHTML = ws.map(w => `<tr>
+    <td title="${w.address}">${w.address.slice(0,9)}…</td>
+    <td style="color:var(--dim)">${w.label}</td>
+    <td class="num">${w.hits}/${w.misses}</td>
+    <td><span class="rep"><i style="width:${Math.round(w.reputation*100)}%"></i></span>
+        <span class="num" style="margin-left:5px">${w.reputation.toFixed(2)}</span></td></tr>`).join("");
+}
+
+function renderLog(events){
+  if(!events || !events.length) return;
+  const log = $("log"), frag = document.createDocumentFragment();
+  for(const e of events){
+    const d = document.createElement("div");
+    d.className = "ev " + (e.kind||"");
+    d.innerHTML = `<span class="ag" style="color:${COLORS[e.agent]||"#888"}">${e.agent}</span>
+      <span class="tx">${String(e.message).replace(/[<>&]/g,"")}</span>`;
+    frag.appendChild(d);
+  }
+  log.appendChild(frag);
+  while(log.childNodes.length > 200) log.removeChild(log.firstChild);
+  log.scrollTop = log.scrollHeight;
+}
+
+const cv = $("chart"), ctx = cv.getContext("2d");
+function drawChart(curve, start){
+  const dpr = window.devicePixelRatio || 1, w = cv.clientWidth, h = cv.clientHeight;
+  cv.width = w*dpr; cv.height = h*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+  ctx.clearRect(0,0,w,h);
+  if(!curve || curve.length < 2){
+    ctx.fillStyle="#37424f"; ctx.font="12px ui-monospace"; ctx.textAlign="center";
+    ctx.fillText("menunggu data…", w/2, h/2); return;
+  }
+  const vals = curve.map(p=>p[1]);
+  const mn = Math.min(start, ...vals), mx = Math.max(start, ...vals);
+  const pad = (mx-mn)*0.15 || 1, lo = mn-pad, hi = mx+pad;
+  const X = i => 8 + i*(w-16)/(curve.length-1);
+  const Y = v => h-10 - (v-lo)/(hi-lo)*(h-22);
+  ctx.strokeStyle="rgba(125,139,156,.15)";
+  for(let g=0; g<=3; g++){ const y = 10 + g*(h-20)/3;
+    ctx.beginPath(); ctx.moveTo(6,y); ctx.lineTo(w-6,y); ctx.stroke(); }
+  ctx.strokeStyle="rgba(56,189,248,.5)"; ctx.setLineDash([4,4]);
+  ctx.beginPath(); ctx.moveTo(6,Y(start)); ctx.lineTo(w-6,Y(start)); ctx.stroke();
+  ctx.setLineDash([]);
+  const up = vals[vals.length-1] >= start;
+  const grd = ctx.createLinearGradient(0,0,0,h);
+  grd.addColorStop(0, up? "rgba(47,220,139,.26)":"rgba(255,77,99,.24)");
+  grd.addColorStop(1, "rgba(0,0,0,0)");
+  ctx.beginPath(); ctx.moveTo(X(0), Y(curve[0][1]));
+  curve.forEach((p,i)=>ctx.lineTo(X(i), Y(p[1])));
+  ctx.lineTo(X(curve.length-1), h-10); ctx.lineTo(X(0), h-10); ctx.closePath();
+  ctx.fillStyle = grd; ctx.fill();
+  ctx.beginPath(); ctx.moveTo(X(0), Y(curve[0][1]));
+  curve.forEach((p,i)=>ctx.lineTo(X(i), Y(p[1])));
+  ctx.strokeStyle = up? "#2fdc8b":"#ff4d63"; ctx.lineWidth = 1.8; ctx.stroke();
+  ctx.fillStyle="#7d8b9c"; ctx.font="10px ui-monospace"; ctx.textAlign="left";
+  ctx.fillText("$"+hi.toFixed(0), 10, 18); ctx.fillText("$"+lo.toFixed(0), 10, h-14);
+}
+
+function apply(s){
+  state = s;
+  renderStrip(s.kpis, s.config);
+  renderKpis(s.kpis); renderSignals(s.signals, s.kpis);
+  renderPositions(s.positions); renderTrades(s.trades);
+  renderWhales(s.leaderboard, s.whales);
+  renderLog(s.events);
+  drawChart(s.equity_curve, s.kpis.start_balance);
+  $("btnPause").textContent = s.paused ? "Lanjut" : "Pause";
+  document.querySelectorAll(".speed").forEach(b =>
+    b.classList.toggle("on", Math.abs(parseFloat(b.dataset.s) - s.speed) < .01));
+  $("logTotal").textContent = state.kpis.whale_tx + " tx";
+  if(!pollTimer){ $("conn").textContent = "live · SSE"; $("conn").classList.add("on"); }
+}
+
+function startPolling(){
+  $("conn").textContent = "polling"; $("conn").classList.remove("on");
+  if(pollTimer) return;
+  pollTimer = setInterval(async ()=>{
+    try{ const r = await fetch("/api/whale/state"); apply(await r.json()); }catch(e){}
+  }, 800);
+}
+function startStream(){
+  try{
+    const es = new EventSource("/api/whale/stream");
+    es.onmessage = ev => { try{ apply(JSON.parse(ev.data)); }catch(e){} };
+    es.onerror = () => { es.close(); startPolling(); };
+    setTimeout(()=>{ if(!state) startPolling(); }, 4000);
+  }catch(e){ startPolling(); }
+}
+async function control(action, extra={}){
+  await fetch("/api/whale/control",{method:"POST",headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({action, ...extra})});
+}
+$("btnPause").onclick = () => control(state && state.paused ? "start" : "pause");
+$("btnReset").onclick = () => { $("log").innerHTML=""; control("reset"); };
+document.querySelectorAll(".speed").forEach(b =>
+  b.onclick = () => control("speed", {speed:parseFloat(b.dataset.s)}));
+$("btnReport").onclick = () => { window.location = "/api/whale/report.md"; };
+window.addEventListener("resize", () => state && drawChart(state.equity_curve, state.kpis.start_balance));
+
+startStream();
+</script>
+</body>
+</html>
