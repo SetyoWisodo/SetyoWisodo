@@ -168,6 +168,27 @@ cara build-nya ada di [`book/`](book/README.md).
 
 ---
 
+### 🎃 Pumpkin Terminal — Desk Trading 6 Agen (Paper Trading)
+
+Jawaban teknis atas thread viral "$80 → $5.432 dalam semalam". Enam agen
+(**Scout → Filter → Analyst → Sniper → Guard → Scribe**) memindai pair Solana,
+menolak ~99% token karena aturan risiko, dan mencatat setiap keputusan —
+**tanpa wallet dan tanpa order on-chain**.
+
+Yang menarik justru hasilnya: dengan pipeline lengkap di pasar simulasi yang ramah,
+median **+174%**; tanpa keahlian sama sekali (filter dilewati, skor acak),
+median **−46%** dan habis di fee 5,5% per round-trip. Klaim +6.690% di thread
+berada jauh di luar ekor distribusi bahkan dari simulasi itu sendiri.
+
+```bash
+cd pumpkin-terminal && python run.py serve   # dashboard live
+python run.py bench                          # uji jujur: strategi vs lempar panah
+```
+
+Kode, aturan filter/risiko, dan 25 test: [`pumpkin-terminal/`](pumpkin-terminal/README.md)
+
+---
+
 ### 📊 Statistik GitHub (GitHub Analytics)
 
 Statistik GitHub tersedia di profil: [github.com/SetyoWisodo](https://github.com/SetyoWisodo).

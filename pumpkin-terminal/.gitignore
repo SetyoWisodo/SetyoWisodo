@@ -1,0 +1,4 @@
+# hasil sesi (laporan, event log) — artefak, bukan kode
+runs/
+__pycache__/
+*.pyc

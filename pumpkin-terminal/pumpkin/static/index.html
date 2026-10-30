@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pumpkin Terminal — Paper Trading Desk</title>
+<style>
+  :root{
+    --bg:#07090c; --panel:#0d1117; --panel2:#111823; --line:#1d2632;
+    --txt:#d7e0ea; --dim:#7d8b9c; --accent:#ff8a2b; --accent2:#ffb865;
+    --green:#2fdc8b; --red:#ff4d63; --blue:#4ea8ff; --purple:#b98cff;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    background:
+      radial-gradient(1100px 500px at 15% -10%, rgba(255,138,43,.10), transparent 60%),
+      radial-gradient(900px 400px at 95% 0%, rgba(78,168,255,.07), transparent 55%),
+      var(--bg);
+    color:var(--txt);
+    font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace;
+    font-size:12.5px; line-height:1.45;
+  }
+  a{color:var(--accent2)}
+  .wrap{max-width:1560px;margin:0 auto;padding:14px 16px 40px}
+
+  /* ---------- header ---------- */
+  header{display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+         border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:14px}
+  .logo{font-size:19px;font-weight:700;letter-spacing:.5px}
+  .logo span{color:var(--accent)}
+  .badge{border:1px solid rgba(255,138,43,.45);color:var(--accent2);
+         background:rgba(255,138,43,.08);border-radius:4px;padding:2px 7px;font-size:10.5px;
+         letter-spacing:1px;text-transform:uppercase}
+  .badge.sim{border-color:rgba(255,77,99,.5);color:#ff8b9b;background:rgba(255,77,99,.08)}
+  .spacer{flex:1}
+  .clock{color:var(--dim);font-size:11.5px;text-align:right}
+  .clock b{color:var(--txt);font-weight:600}
+  .conn{font-size:10.5px;padding:2px 7px;border-radius:4px;border:1px solid var(--line);color:var(--dim)}
+  .conn.on{color:var(--green);border-color:rgba(47,220,139,.4)}
+
+  /* ---------- controls ---------- */
+  .ctrls{display:flex;gap:6px;align-items:center}
+  button{
+    background:var(--panel2);color:var(--txt);border:1px solid var(--line);
+    border-radius:5px;padding:5px 11px;font-family:inherit;font-size:11.5px;cursor:pointer;
+    transition:.15s;
+  }
+  button:hover{border-color:var(--accent);color:var(--accent2)}
+  button.on{background:rgba(255,138,43,.16);border-color:var(--accent)}
+  button.primary{border-color:rgba(255,138,43,.5);color:var(--accent2)}
+  button.speed.on{border-color:var(--accent);color:#fff;background:rgba(255,138,43,.16)}
+
+  /* ---------- kpi ---------- */
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:8px;margin-bottom:12px}
+  .kpi{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);
+       border-radius:7px;padding:9px 11px}
+  .kpi .lbl{color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:.8px}
+  .kpi .val{font-size:17px;font-weight:600;margin-top:2px;letter-spacing:-.3px}
+  .kpi .sub{color:var(--dim);font-size:10.5px;margin-top:1px}
+  .up{color:var(--green)} .down{color:var(--red)} .neu{color:var(--txt)}
+
+  /* ---------- layout ---------- */
+  .grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(340px,1fr);gap:12px}
+  @media (max-width:1080px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:9px;overflow:hidden}
+  .card h3{margin:0;padding:9px 12px;font-size:10.5px;letter-spacing:1.2px;text-transform:uppercase;
+           color:var(--dim);border-bottom:1px solid var(--line);display:flex;justify-content:space-between;
+           align-items:center;font-weight:600}
+  .card h3 em{font-style:normal;color:var(--accent2)}
+  .card .body{padding:11px 12px}
+
+  #chart{width:100%;height:190px;display:block}
+
+  /* ---------- agents ---------- */
+  .agents{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .agent{background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:8px 9px;
+         border-left:2px solid var(--c,var(--accent))}
+  .agent .top{display:flex;justify-content:space-between;align-items:baseline}
+  .agent .nm{font-weight:700;font-size:11px;letter-spacing:1px;color:var(--c,var(--accent2))}
+  .agent .ct{font-size:15px;font-weight:600}
+  .agent .lb{font-size:9.5px;color:var(--dim);text-transform:uppercase;letter-spacing:.5px}
+  .agent .msg{color:var(--dim);font-size:10.5px;margin-top:4px;min-height:26px;
+              overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;
+              -webkit-box-orient:vertical}
+
+  /* ---------- log ---------- */
+  #log{height:330px;overflow:auto;padding:8px 10px;font-size:11px;scroll-behavior:smooth}
+  .ev{display:flex;gap:7px;padding:2px 0;border-bottom:1px solid rgba(29,38,50,.5)}
+  .ev .ag{width:64px;flex:none;font-weight:700;font-size:10px;letter-spacing:.5px}
+  .ev .tx{color:var(--dim);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .ev.reject .tx{color:#8d6a6f}
+  .ev.exit .tx,.ev.enter .tx{color:var(--txt)}
+
+  /* ---------- tables ---------- */
+  table{width:100%;border-collapse:collapse;font-size:11px}
+  th{color:var(--dim);text-align:left;font-weight:500;font-size:9.5px;letter-spacing:.8px;
+     text-transform:uppercase;padding:5px 6px;border-bottom:1px solid var(--line)}
+  td{padding:5px 6px;border-bottom:1px solid rgba(29,38,50,.55);white-space:nowrap}
+  tr:hover td{background:rgba(255,255,255,.015)}
+  .num{text-align:right;font-variant-numeric:tabular-nums}
+  .tag{font-size:9.5px;padding:1px 5px;border-radius:3px;border:1px solid var(--line);color:var(--dim)}
+  .tag.trail{color:var(--green);border-color:rgba(47,220,139,.35)}
+  .tag.stop{color:var(--red);border-color:rgba(255,77,99,.35)}
+  .empty{color:var(--dim);text-align:center;padding:14px;font-size:11px}
+
+  .note{margin-top:14px;border:1px solid rgba(255,77,99,.28);background:rgba(255,77,99,.05);
+        border-radius:8px;padding:11px 13px;color:#c9b3b6;font-size:11px}
+  .note b{color:#ff9aa8}
+  .scroll{max-height:230px;overflow:auto}
+  .flex{display:flex;gap:12px;flex-wrap:wrap}
+  .stat{font-size:11px;color:var(--dim)}
+  .stat b{color:var(--txt);font-weight:600}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">🎃 PUMPKIN <span>TERMINAL</span></div>
+    <div class="badge sim" title="Tidak ada wallet, tidak ada order on-chain">paper trading · simulasi</div>
+    <div class="badge" id="edgeBadge">edge: —</div>
+    <div class="spacer"></div>
+    <div class="conn" id="conn">menghubungkan…</div>
+    <div class="ctrls">
+      <button id="btnPause" class="primary">Pause</button>
+      <button id="btnReset">Sesi Baru</button>
+      <button class="speed" data-s="1">1×</button>
+      <button class="speed" data-s="2">2×</button>
+      <button class="speed" data-s="4">4×</button>
+      <button id="btnReport">Unduh Laporan</button>
+    </div>
+    <div class="clock" id="clock"></div>
+  </header>
+
+  <div class="kpis" id="kpis"></div>
+
+  <div class="grid">
+    <div style="display:flex;flex-direction:column;gap:12px">
+
+      <div class="card">
+        <h3>Kurva Ekuitas <em id="eqNow">—</em></h3>
+        <div class="body"><canvas id="chart"></canvas></div>
+      </div>
+
+      <div class="card">
+        <h3>Posisi Terbuka <em id="posCount">0</em></h3>
+        <div class="body" style="padding:0 0 4px">
+          <table>
+            <thead><tr>
+              <th>Token</th><th>Skor</th><th class="num">Ukuran</th><th class="num">Unrealized</th>
+              <th class="num">Puncak</th><th class="num">Umur</th>
+            </tr></thead>
+            <tbody id="posBody"><tr><td colspan="6" class="empty">belum ada posisi — desk sedang menunggu</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Trade Terakhir <em id="tradeCount">0</em></h3>
+        <div class="body" style="padding:0 0 4px">
+          <div class="scroll" style="max-height:260px">
+            <table>
+              <thead><tr>
+                <th>Token</th><th class="num">Skor</th><th class="num">Ukuran</th>
+                <th class="num">PnL %</th><th class="num">PnL $</th><th>Exit</th>
+              </tr></thead>
+              <tbody id="tradeBody"><tr><td colspan="6" class="empty">belum ada trade</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <div class="card">
+        <h3>6 Agen</h3>
+        <div class="body"><div class="agents" id="agents"></div></div>
+      </div>
+
+      <div class="card">
+        <h3>Log SCRIBE <em id="logTotal">0 event</em></h3>
+        <div id="log"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">
+    <b>Ini simulasi, bukan mesin uang.</b> Tidak ada wallet, private key, atau order on-chain
+    di mana pun dalam kode ini. Angka di layar berasal dari generator pasar sintetis; mode
+    <i>correlated</i> menyuntikkan sinyal momentum yang memang bisa ditangkap agen, jadi hasil
+    positifnya adalah bukti pipeline bekerja — bukan bukti strategi ini profitable.
+    Jalankan <code>python run.py bench</code> untuk membandingkan: desk lengkap (median +174%)
+    vs tanpa keahlian sama sekali (median −46%, 270 trade, habis di fee).
+    Thread yang mengklaim $80 → $5.432 (+6.690%) adalah paper trading dengan satu undian
+    yang beruntung — jauh di luar ekor distribusi simulasi ini sendiri.
+  </div>
+</div>
+
+<script>
+const AGENT_COLORS = {
+  SCOUT:"#4ea8ff", FILTER:"#ff8a2b", ANALYST:"#b98cff",
+  SNIPER:"#2fdc8b", GUARD:"#ff4d63", SCRIBE:"#7d8b9c"
+};
+const AGENT_ORDER = ["SCOUT","FILTER","ANALYST","SNIPER","GUARD","SCRIBE"];
+const AGENT_SUB = {
+  SCOUT:"pair dipindai", FILTER:"lolos / ditolak", ANALYST:"dinilai / lolos",
+  SNIPER:"entry / dilewati", GUARD:"exit", SCRIBE:"baris log"
+};
+
+let state = null;
+const $ = id => document.getElementById(id);
+const fmtUsd = v => (v<0?"-$":"$") + Math.abs(v).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmtN = v => Number(v||0).toLocaleString("en-US");
+const sign = v => v>0?"up":(v<0?"down":"neu");
+const pct = v => (v>0?"+":"") + Number(v).toFixed(2) + "%";
+
+/* ---------------- render ---------------- */
+function renderKpis(k){
+  const items = [
+    ["Ekuitas", fmtUsd(k.equity), `${pct(k.pnl_pct)} dari ${fmtUsd(k.start_balance)}`, sign(k.pnl_pct)],
+    ["PnL", fmtUsd(k.pnl_usd), `${k.trades} trade · ${k.win_rate}% win`, sign(k.pnl_usd)],
+    ["Pair Dipindai", fmtN(k.scanned), `${k.sim_minutes} menit pasar`, "neu"],
+    ["Ditolak", fmtN(k.rejected), `${k.rejection_rate}% rejection`, "neu"],
+    ["Expectancy", fmtUsd(k.expectancy), "rata-rata per trade", sign(k.expectancy)],
+    ["Max DD", k.max_drawdown_pct.toFixed(2)+"%", `fee ${fmtUsd(k.fees_paid)}`, "down"],
+    ["Kas", fmtUsd(k.cash), `${k.open_positions} posisi terbuka`, "neu"],
+  ];
+  $("kpis").innerHTML = items.map(([l,v,s,c]) =>
+    `<div class="kpi"><div class="lbl">${l}</div><div class="val ${c}">${v}</div><div class="sub">${s}</div></div>`
+  ).join("");
+  $("eqNow").textContent = fmtUsd(k.equity) + "  " + pct(k.pnl_pct);
+  $("eqNow").className = sign(k.pnl_pct);
+  $("clock").innerHTML = `sesi <b>${k.session_id}</b><br>tick <b>${fmtN(k.tick)}</b>/${fmtN(k.ticks_total)} · ${k.finished?"SELESAI":"BERJALAN"}`;
+  $("edgeBadge").textContent = "edge: " + k.edge_mode;
+  $("logTotal").textContent = fmtN(state.agents.find(a=>a.name==="SCRIBE")?.total||0) + " event";
+}
+
+function renderAgents(agents){
+  $("agents").innerHTML = AGENT_ORDER.map(name => {
+    const a = agents.find(x=>x.name===name) || {counts:{},last:""};
+    const c = a.counts||{};
+    let main = 0, sub = "";
+    if (name==="SCOUT") main = c.scanned||0;
+    else if (name==="FILTER") { main = c.lolos||0; sub = `lolos · ${fmtN(c.ditolak||0)} ditolak`; }
+    else if (name==="ANALYST") { main = c.lolos||0; sub = `lolos · ${fmtN(c.tolak_skor||0)} < ambang`; }
+    else if (name==="SNIPER") { main = c.entry||0; sub = `entry · ${fmtN(c.dilewati||0)} dilewati`; }
+    else if (name==="GUARD") { main = Object.entries(c).filter(([k])=>k.startsWith("exit")).reduce((s,[,v])=>s+v,0); sub = "posisi ditutup"; }
+    else { main = a.total||0; sub = "event tercatat"; }
+    if (!sub) sub = AGENT_SUB[name];
+    return `<div class="agent" style="--c:${AGENT_COLORS[name]}">
+      <div class="top"><span class="nm">${name}</span><span class="ct">${fmtN(main)}</span></div>
+      <div class="lb">${sub}</div>
+      <div class="msg">${(a.last||"—").replace(/[<>&]/g,"")}</div>
+    </div>`;
+  }).join("");
+}
+
+function renderPositions(ps){
+  $("posCount").textContent = ps.length + " aktif";
+  if(!ps.length){ $("posBody").innerHTML = `<tr><td colspan="6" class="empty">belum ada posisi — desk sedang menunggu</td></tr>`; return; }
+  $("posBody").innerHTML = ps.map(p=>`<tr>
+    <td><b>${p.symbol}</b></td>
+    <td class="num">${p.score.toFixed(2)}</td>
+    <td class="num">${fmtUsd(p.size_usd)}</td>
+    <td class="num ${sign(p.unrealized_pct)}">${pct(p.unrealized_pct)}</td>
+    <td class="num ${sign(p.peak_pct)}">${pct(p.peak_pct)}</td>
+    <td class="num">${p.age}</td></tr>`).join("");
+}
+
+function renderTrades(ts){
+  $("tradeCount").textContent = state.kpis.trades + " total";
+  if(!ts.length){ $("tradeBody").innerHTML = `<tr><td colspan="6" class="empty">belum ada trade</td></tr>`; return; }
+  $("tradeBody").innerHTML = ts.map(t=>`<tr>
+    <td><b>${t.symbol}</b></td>
+    <td class="num">${t.score.toFixed(2)}</td>
+    <td class="num">${fmtUsd(t.size_usd)}</td>
+    <td class="num ${sign(t.pnl_pct)}">${pct(t.pnl_pct)}</td>
+    <td class="num ${sign(t.pnl_usd)}">${fmtUsd(t.pnl_usd)}</td>
+    <td><span class="tag ${t.reason==="trailing_stop"?"trail":(t.reason==="stop_loss"?"stop":"")}">${t.reason}</span></td>
+  </tr>`).join("");
+}
+
+function renderLog(events){
+  if(!events || !events.length) return;
+  const log = $("log");
+  const frag = document.createDocumentFragment();
+  for(const e of events){
+    const d = document.createElement("div");
+    d.className = "ev " + (e.kind||"");
+    d.innerHTML = `<span class="ag" style="color:${AGENT_COLORS[e.agent]||"#888"}">${e.agent}</span>
+                   <span class="tx">${String(e.message).replace(/[<>&]/g,"")}</span>`;
+    frag.appendChild(d);
+  }
+  log.appendChild(frag);
+  while(log.childNodes.length > 220) log.removeChild(log.firstChild);
+  log.scrollTop = log.scrollHeight;
+}
+
+/* ---------------- chart ---------------- */
+const cv = $("chart"), ctx = cv.getContext("2d");
+function drawChart(curve, start){
+  const dpr = window.devicePixelRatio || 1;
+  const w = cv.clientWidth, h = cv.clientHeight;
+  cv.width = w*dpr; cv.height = h*dpr;
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  ctx.clearRect(0,0,w,h);
+  if(!curve || curve.length < 2){
+    ctx.fillStyle="#37424f"; ctx.font="12px ui-monospace"; ctx.textAlign="center";
+    ctx.fillText("menunggu data pasar…", w/2, h/2); return;
+  }
+  const vals = curve.map(p=>p[1]);
+  const mn = Math.min(start, ...vals), mx = Math.max(start, ...vals);
+  const pad = (mx-mn)*0.15 || 1;
+  const lo = mn-pad, hi = mx+pad;
+  const X = i => 8 + i*(w-16)/(curve.length-1);
+  const Y = v => h-10 - (v-lo)/(hi-lo)*(h-22);
+
+  ctx.strokeStyle="rgba(125,139,156,.18)"; ctx.lineWidth=1;
+  for(let g=0; g<=3; g++){ const y = 10 + g*(h-20)/3;
+    ctx.beginPath(); ctx.moveTo(6,y); ctx.lineTo(w-6,y); ctx.stroke(); }
+
+  ctx.strokeStyle="rgba(255,138,43,.55)"; ctx.setLineDash([4,4]);
+  ctx.beginPath(); ctx.moveTo(6,Y(start)); ctx.lineTo(w-6,Y(start)); ctx.stroke();
+  ctx.setLineDash([]);
+
+  const last = vals[vals.length-1];
+  const up = last >= start;
+  const grd = ctx.createLinearGradient(0,0,0,h);
+  grd.addColorStop(0, up? "rgba(47,220,139,.28)":"rgba(255,77,99,.26)");
+  grd.addColorStop(1, "rgba(0,0,0,0)");
+
+  ctx.beginPath(); ctx.moveTo(X(0), Y(curve[0][1]));
+  curve.forEach((p,i)=>ctx.lineTo(X(i), Y(p[1])));
+  ctx.lineTo(X(curve.length-1), h-10); ctx.lineTo(X(0), h-10); ctx.closePath();
+  ctx.fillStyle = grd; ctx.fill();
+
+  ctx.beginPath(); ctx.moveTo(X(0), Y(curve[0][1]));
+  curve.forEach((p,i)=>ctx.lineTo(X(i), Y(p[1])));
+  ctx.strokeStyle = up? "#2fdc8b" : "#ff4d63"; ctx.lineWidth = 1.8; ctx.stroke();
+
+  const lx = X(curve.length-1), ly = Y(last);
+  ctx.beginPath(); ctx.arc(lx,ly,3.2,0,7); ctx.fillStyle = up? "#2fdc8b":"#ff4d63"; ctx.fill();
+
+  ctx.fillStyle="#7d8b9c"; ctx.font="10px ui-monospace"; ctx.textAlign="left";
+  ctx.fillText("$"+hi.toFixed(0), 10, 18); ctx.fillText("$"+lo.toFixed(0), 10, h-14);
+}
+
+/* ---------------- data ---------------- */
+function apply(s){
+  state = s;
+  renderKpis(s.kpis); renderAgents(s.agents);
+  renderPositions(s.positions); renderTrades(s.trades);
+  renderLog(s.events);
+  drawChart(s.equity_curve, s.kpis.start_balance);
+  $("btnPause").textContent = s.paused ? "Lanjut" : "Pause";
+  document.querySelectorAll(".speed").forEach(b=>
+    b.classList.toggle("on", Math.abs(parseFloat(b.dataset.s) - s.speed) < .01));
+  if(!pollTimer){ $("conn").textContent = "live · SSE"; $("conn").classList.add("on"); }
+}
+
+let pollTimer = null;
+function startPolling(){
+  $("conn").textContent = "polling"; $("conn").classList.remove("on");
+  if(pollTimer) return;
+  pollTimer = setInterval(async ()=>{
+    try{ const r = await fetch("/api/state"); apply(await r.json()); }catch(e){}
+  }, 800);
+}
+
+function startStream(){
+  try{
+    const es = new EventSource("/api/stream");
+    es.onmessage = ev => { try{ apply(JSON.parse(ev.data)); }catch(e){} };
+    es.onerror = () => { es.close(); startPolling(); };
+    setTimeout(()=>{ if(!state) startPolling(); }, 4000);
+  }catch(e){ startPolling(); }
+}
+
+async function control(action, extra={}){
+  await fetch("/api/control",{method:"POST",headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({action, ...extra})});
+}
+$("btnPause").onclick = () => control(state && state.paused ? "start" : "pause");
+$("btnReset").onclick = () => { $("log").innerHTML=""; control("reset"); };
+document.querySelectorAll(".speed").forEach(b =>
+  b.onclick = () => control("speed",{speed:parseFloat(b.dataset.s)}));
+$("btnReport").onclick = () => { window.location = "/api/report.md"; };
+window.addEventListener("resize", ()=> state && drawChart(state.equity_curve, state.kpis.start_balance));
+
+startStream();
+</script>
+</body>
+</html>
