@@ -1,0 +1,7 @@
+GSAP 3.15.0 — https://gsap.com
+Lisensi: Standard "no charge" license — https://gsap.com/standard-license
+Berkas ini disalin apa adanya dari paket npm `gsap` (dist/gsap.min.js), tanpa CDN.
+
+Ringkas: GSAP gratis untuk dipakai di situs komersial, termasuk karya untuk klien,
+SELAMA tidak menjual ulang GSAP itu sendiri atau membuat alat yang bersaing dengan GSAP.
+Baca lisensi lengkapnya di tautan di atas — ringkasan ini bukan pengganti lisensi.

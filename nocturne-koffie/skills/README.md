@@ -33,6 +33,7 @@ python3 tools/studio.py --cek  # ringkasan 10 tahap di terminal (0,2 detik)
 
 python3 tools/motion.py        # lab gerak + 5 adegan 9:16 (dari skrip studio)
 python3 tools/film.py          # lembar film: frame, ketukan, arc energi → motion/film-sheet.md
+python3 tools/render_film.py   # klip 9:16 jadi: 540 frame → motion/out/klip-01-nocturne-9s.mp4
 python3 tools/slop.py          # audit anti-slop & kontrak desain → laporan/slop.md
 ```
 

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <script src="../vendor/gsap.min.js"></script>
+    <style>
+      /* font brand: berkas lokal, bukan CDN — lint HyperFrames menolak keluarga
+         font tanpa @font-face karena renderer tidak bisa menebak berkasnya */
+      @font-face { font-family: "Bricolage Grotesque"; font-weight: 800; font-display: block;
+                   src: url("../vendor/fonts/bricolage-800.ttf") format("truetype"); }
+      @font-face { font-family: "Fraunces"; font-weight: 300; font-display: block;
+                   src: url("../vendor/fonts/fraunces-300.ttf") format("truetype"); }
+      @font-face { font-family: "Inter"; font-weight: 400; font-display: block;
+                   src: url("../vendor/fonts/inter-400.ttf") format("truetype"); }
+      @font-face { font-family: "Inter"; font-weight: 600; font-display: block;
+                   src: url("../vendor/fonts/inter-600.ttf") format("truetype"); }
+      :root {
+        --paper: #f5efe4; --paper-2: #efe6d6; --ink: #16110d;
+        --orange: #e1542b; --espresso: #4a2c1a;
+        --display: "Bricolage Grotesque", sans-serif;
+        --serif: "Fraunces", serif;
+        --body: "Inter", sans-serif;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: transparent; }
+      #cue-1 {
+        width: 1080px; height: 1920px; padding: 300px 84px 240px;
+        display: flex; flex-direction: column; justify-content: center;
+        font-family: var(--body); color: var(--ink);
+      }
+      .label { font-size: 22px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--espresso); margin-bottom: 34px; }
+      .teks { line-height: 0.98; letter-spacing: -0.025em; max-width: 960px;
+              font-size: 92px; font-family: var(--display);
+              font-weight: 800; }
+      .garis { width: 120px; height: 4px; background: var(--ink); margin-top: 40px; }
+      .garis--oranye { background: var(--orange); }
+      .kecil { margin-top: 22px; font-size: 20px; letter-spacing: 0.1em; color: rgba(22, 17, 13, 0.55); }
+    </style>
+  </head>
+  <body>
+    <div id="cue-1" data-composition-id="cue-1" data-start="0"
+         data-duration="3" data-width="1080" data-height="1920">
+      <p class="label">judul masuk · tier 4</p>
+      <h1 class="teks">Kopi pahit padahal baru beli? Cek tiga hal ini.</h1>
+      <div class="garis"></div>
+      <p class="kecil">cue 1 · 0s–3s · catalog.json</p>
+    </div>
+    <script>
+      /* timeline sub-komposisi: paused, tanpa jam internal. Perender yang men-seek. */
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo(".teks", { y: 46, opacity: 0 }, { y: 0, opacity: 1, duration: 0.40, ease: "power3.out" }, 0);
+      tl.fromTo(".label", { opacity: 0 }, { opacity: 1, duration: 0.24 }, 0);
+      tl.to("#cue-1", { opacity: 0, duration: 0.26, ease: "power2.in" }, 2.74);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["cue-1"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

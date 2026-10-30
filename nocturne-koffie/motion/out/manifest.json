@@ -1,0 +1,30 @@
+{
+  "dibuat": "2026-10-30",
+  "berkas": "motion/out/klip-01-nocturne-9s.mp4",
+  "ukuran_kb": 341.1,
+  "sha256_16": "ed9b8118bd9a0b4d",
+  "resolusi": [
+    1080,
+    1920
+  ],
+  "fps": 60,
+  "frame": 540,
+  "durasi_detik": 9.0,
+  "adegan": 1,
+  "judul": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
+  "sumber_angka": "motion/film-sheet.json (turunan motion/timeline.json ← studio/skrip)",
+  "warna": "data/design-system.json",
+  "font": [
+    "bricolage-grotesque-latin-800-normal.ttf",
+    "fraunces-latin-300-normal.ttf",
+    "inter-latin-400-normal.ttf",
+    "inter-latin-600-normal.ttf"
+  ],
+  "perender": "tools/render_film.py (Pillow → ffmpeg) · ffmpeg 7.0.2-static dari pypi imageio-ffmpeg",
+  "bukan_perender": [
+    "Remotion — terpasang & bundling lolos, render butuh Chrome (libnspr4 tidak ada)",
+    "HyperFrames — terpasang & lint 0 error, render butuh Chrome",
+    "GSAP — dipakai di halaman & komposisi HyperFrames, bukan di perender ini",
+    "Lottie — JSON 9 detik dibuat & diverifikasi, bukan di perender ini"
+  ]
+}

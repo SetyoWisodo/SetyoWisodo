@@ -4,13 +4,13 @@
     {
       "kategori": "Berkas wajib",
       "status": "lolos",
-      "teks": "57/57 berkas ada",
+      "teks": "75/75 berkas ada",
       "detail": ""
     },
     {
       "kategori": "Tautan lokal",
       "status": "lolos",
-      "teks": "124/124 tautan menuju berkas yang ada",
+      "teks": "129/129 tautan menuju berkas yang ada",
       "detail": ""
     },
     {
@@ -107,6 +107,12 @@
       "kategori": "Film gerak",
       "status": "lolos",
       "teks": "20 cue · 120 BPM · 540 frame/adegan · 20 repo terdokumentasi",
+      "detail": ""
+    },
+    {
+      "kategori": "Mesin terpasang",
+      "status": "lolos",
+      "teks": "GSAP 3.15.0 · Lottie 5.13.0 · Remotion 4.0.539 · HyperFrames 0.8.221 · klip 540 frame + 4 sub-komposisi · font Google di 13 halaman (lama, dicatat)",
       "detail": ""
     },
     {

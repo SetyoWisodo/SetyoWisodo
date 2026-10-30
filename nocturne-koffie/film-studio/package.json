@@ -1,0 +1,36 @@
+{
+  "name": "nocturne-film-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mesin film Nocturne: Remotion, HyperFrames, GSAP, Lottie — dipasang, diperiksa, dan dipakai di repo ini.",
+  "scripts": {
+    "pasang": "npm install --no-audit --no-fund",
+    "vendor": "node scripts/vendor.mjs",
+    "lottie": "node lottie/buat-lottie.mjs",
+    "verifikasi": "node scripts/verifikasi.mjs",
+    "remotion:bundle": "remotion bundle remotion/index.jsx --out-dir out/bundle",
+    "remotion:render": "remotion render remotion/index.jsx KlipNocturne out/remotion.mp4 --concurrency=1",
+    "remotion:compositions": "remotion compositions remotion/index.jsx",
+    "hf:lint": "hyperframes lint hyperframes",
+    "hf:check": "hyperframes check hyperframes",
+    "hf:render": "hyperframes render hyperframes",
+    "hf:browser": "hyperframes browser ensure",
+    "hf:doctor": "hyperframes doctor",
+    "cek-browser": "node scripts/cek-browser.mjs"
+  },
+  "dependencies": {
+    "@fontsource/bricolage-grotesque": "5.3.0",
+    "@fontsource/fraunces": "5.3.0",
+    "@fontsource/inter": "5.3.0",
+    "@remotion/cli": "4.0.539",
+    "@sparticuz/chromium": "153.0.0",
+    "gsap": "3.15.0",
+    "hyperframes": "0.8.221",
+    "jsdom": "27.0.1",
+    "lottie-web": "5.13.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.539"
+  }
+}

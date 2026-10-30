@@ -231,6 +231,37 @@ Aturan kerja:
 5. **Tanpa browser/ffmpeg, jangan klaim video jadi.** Rekam layar atau serahkan lembar ini
    ke mesin yang punya keduanya.
 
+## 4g. Mesin film: empat pustaka, satu klip jadi (30 Okt 2026)
+
+Divisi kreatif tidak lagi bergantung pada "nanti kalau ada tools". Empat mesin motion sudah
+terpasang di `film-studio/` lewat npm, dengan versi dipin dan skrip yang bisa dijalankan ulang.
+
+| Mesin | Versi | Status nyata | Dipakai untuk |
+| --- | --- | --- | --- |
+| GSAP + ScrollTrigger | 3.15.0 | jalan penuh, diuji | timeline ketukan di `/motion/` + komposisi HyperFrames |
+| Lottie (lottie-web) | 5.13.0 | jalan penuh, diuji | pemutar 9 detik di `/motion/` |
+| Remotion | 4.0.539 | bundel lolos, render **tidak** | komposisi React 4 cue, menunggu mesin ber-Chrome |
+| HyperFrames | 0.8.221 | lint 0/0, render **tidak** | root + 4 sub-komposisi, menunggu mesin ber-Chrome |
+
+**Untuk produksi harian sekarang, perender yang dipakai adalah `python3 tools/render_film.py`**
+— 540 frame PNG dari lembar film + font brand asli, dienkode ffmpeg ke H.264 1080×1920/60 fps.
+Keluaran terakhir: `motion/out/klip-01-nocturne-9s.mp4` (341 KB, 9,00 s) dengan
+`motion/out/manifest.json` (sha256, encoder, sumber angka).
+
+Aturan yang mengikat divisi:
+
+1. **Jangan klaim output Remotion/HyperFrames** selama yang ada di `motion/out/` adalah keluaran
+   `render_film.py`. Dua mesin itu baru dipakai saat render di mesin ber-Chrome.
+2. **Angka dari `motion/film-sheet.json`.** Tidak ada durasi yang diketik ulang di JSX/HTML.
+3. **Tanpa CDN** untuk pustaka JS; semuanya di `assets/vendor/` dengan lisensi tercatat.
+4. **Halaman awal tidak boleh menyentuh pustaka mesin.** Dimuat malas di `/motion/` saja.
+5. **QC visual wajib sebelum tayang:** `python3 tools/render_film.py --still 90` lalu periksa
+   frame; jangan menilai dari kode.
+6. **Lisensi Remotion** gratis untuk ≤ 3 orang; lebih dari itu perlu lisensi berbayar sebelum
+   dipakai komersial (`laporan/mesin.md` §5).
+
+Laporan lengkap: `laporan/mesin.md`. Proyek mesinnya: `film-studio/README.md`.
+
 ## 5. Serah terima
 
 | Dari | Kepada | Apa |

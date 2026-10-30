@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import glob
 import os
 import sys
 
@@ -62,6 +63,15 @@ DATA = [
     "motion/film-sheet.md", "motion/film-sheet.json", "skills/motion-film/SKILL.md",
     "assets/css/motion-ui.css", "assets/js/motion-ui.js", "laporan/slop.md",
     "assets/css/motion-3d.css", "assets/js/motion-3d.js", "data/design-system.json",
+    "assets/vendor/gsap.min.js", "assets/vendor/ScrollTrigger.min.js",
+    "assets/vendor/lottie.min.js", "assets/vendor/mesin.json",
+    "assets/js/mesin.js", "assets/lottie/nocturne-9s.json",
+    "assets/fonts/bricolage-grotesque-latin-800-normal.ttf",
+    "assets/fonts/fraunces-latin-300-normal.ttf",
+    "assets/fonts/inter-latin-400-normal.ttf",
+    "motion/out/klip-01-nocturne-9s.mp4", "motion/out/manifest.json",
+    "film-studio/package.json", "film-studio/remotion/Klip.jsx",
+    "film-studio/hyperframes/index.html", "film-studio/lottie/buat-lottie.mjs",
 ]
 
 DOKUMEN = [
@@ -69,8 +79,9 @@ DOKUMEN = [
     "marketing/09-media-kreator.md", "skills/README.md",
     "skills/social-media-riset/SKILL.md", "skills/komentar-mining/SKILL.md",
     "skills/search-intent-riset/SKILL.md", "skills/studio-konten/SKILL.md",
-    "skills/motion-web/SKILL.md",
+    "skills/motion-web/SKILL.md", "skills/motion-film/SKILL.md",
     "brand/README.md", "komersial/01-panduan-grosir.md",
+    "film-studio/README.md", "assets/fonts/LISENSI.md",
 ]
 
 KLAIM_TERLARANG = [
@@ -440,6 +451,90 @@ def periksa(catatan):
            f"{n_cue} cue · {grid.get('bpm', '—')} BPM · {grid.get('frame_total', '—')} frame/adegan · "
            f"20 repo terdokumentasi",
            "; ".join(masalah_film[:4]))
+
+    # 5j · mesin terpasang: berkas vendor ada, tanpa CDN, klip & komposisi nyata
+    mesin_path = os.path.join(ROOT, "assets", "vendor", "mesin.json")
+    masalah_mesin = []
+    mesin = json.loads(baca("assets/vendor/mesin.json")) if os.path.exists(mesin_path) else {}
+    if not mesin:
+        masalah_mesin.append("assets/vendor/mesin.json belum ada — jalankan film-studio/scripts/vendor.mjs")
+    else:
+        for p in mesin.get("paket", {}):
+            if not mesin["paket"][p]:
+                masalah_mesin.append(f"versi {p} kosong")
+        for v in mesin.get("vendor", []):
+            q = os.path.join(ROOT, v["berkas"])
+            if not os.path.exists(q):
+                masalah_mesin.append(f'{v["berkas"]} tidak ada')
+            elif "CDN" in baca(v["berkas"])[:4000] and "cdn." in baca(v["berkas"])[:4000].lower():
+                masalah_mesin.append(f'{v["berkas"]} masih memuat CDN')
+    # pustaka mesin tidak boleh dari CDN di halaman mana pun.
+    # (Google Fonts masih dipakai halaman web — itu keputusan lama dan dicatat,
+    #  bukan kegagalan; yang diperiksa di sini hanya CDN pustaka JS.)
+    for h in HALAMAN:
+        if not os.path.exists(os.path.join(ROOT, h)):
+            continue
+        isi = baca(h)
+        for pola in ("cdn.jsdelivr.net", "unpkg.com", "cdnjs.cloudflare.com"):
+            if pola in isi:
+                masalah_mesin.append(f"{h} memuat {pola}")
+    if "cdn.jsdelivr.net" in baca("film-studio/hyperframes/index.html"):
+        masalah_mesin.append("komposisi HyperFrames masih memuat gsap dari CDN")
+    halaman_googlefont = [h for h in HALAMAN
+                          if os.path.exists(os.path.join(ROOT, h))
+                          and "fonts.googleapis.com" in baca(h)]
+    if len(halaman_googlefont) > 2:
+        masalah_mesin = masalah_mesin  # dicatat di teks, bukan kegagalan
+    # Lottie: struktur & isi
+    lp = os.path.join(ROOT, "assets", "lottie", "nocturne-9s.json")
+    if os.path.exists(lp):
+        lot = json.loads(baca("assets/lottie/nocturne-9s.json"))
+        teks = [l for l in lot.get("layers", []) if l.get("ty") == 5]
+        if lot.get("op") != 540 or lot.get("fr") != 60:
+            masalah_mesin.append(f'lottie {lot.get("op")} frame / {lot.get("fr")} fps, seharusnya 540/60')
+        if len(teks) != 4:
+            masalah_mesin.append(f"{len(teks)} lapisan teks, seharusnya 4 (satu per cue)")
+        if len(lot.get("markers", [])) != 4:
+            masalah_mesin.append("penanda cue lottie bukan 4")
+    else:
+        masalah_mesin.append("assets/lottie/nocturne-9s.json tidak ada")
+    # klip jadi: harus benar-benar video, dengan manifest yang cocok
+    mp = os.path.join(ROOT, "motion", "out", "klip-01-nocturne-9s.mp4")
+    nf = os.path.join(ROOT, "motion", "out", "manifest.json")
+    if os.path.exists(mp):
+        kepala = open(mp, "rb").read(12)
+        if kepala[4:8] != b"ftyp":
+            masalah_mesin.append("klip mp4 tanpa kotak ftyp (bukan MP4 sungguhan)")
+        if not os.path.exists(nf):
+            masalah_mesin.append("manifest.json klip tidak ada")
+        else:
+            man = json.loads(baca("motion/out/manifest.json"))
+            for k in ("sha256_16", "perender", "fps", "frame", "sumber_angka"):
+                if not man.get(k):
+                    masalah_mesin.append(f"manifest klip tanpa {k}")
+            if man.get("fps") != 60 or man.get("frame") != 540:
+                masalah_mesin.append(f'manifest {man.get("fps")} fps / {man.get("frame")} frame, seharusnya 60/540')
+    else:
+        masalah_mesin.append("motion/out/klip-01-nocturne-9s.mp4 belum dirender")
+    # proyek mesin: pin versi + komposisi hyperframes lengkap
+    pkg = json.loads(baca("film-studio/package.json")) if os.path.exists(os.path.join(ROOT, "film-studio/package.json")) else {}
+    for p in ("gsap", "lottie-web", "remotion", "hyperframes"):
+        v = pkg.get("dependencies", {}).get(p)
+        if not v:
+            masalah_mesin.append(f"film-studio/package.json tanpa {p}")
+        elif any(c in v for c in ("^", "~")):
+            masalah_mesin.append(f"versi {p} tidak dipin ({v})")
+    sub = glob.glob(os.path.join(ROOT, "film-studio", "hyperframes", "compositions", "cue-*.html"))
+    if len(sub) != 4:
+        masalah_mesin.append(f"{len(sub)} sub-komposisi HyperFrames, seharusnya 4")
+    # ukuran: halaman awal tidak boleh menyentuh pustaka mesin
+    if "gsap" in baca("index.html") or "lottie" in baca("index.html"):
+        masalah_mesin.append("index.html memuat pustaka mesin di atas fold")
+    tambah("Mesin terpasang", "lolos" if not masalah_mesin else "gagal",
+           f"GSAP {mesin.get('paket', {}).get('gsap', '—')} · Lottie {mesin.get('paket', {}).get('lottie-web', '—')} · "
+           f"Remotion {mesin.get('paket', {}).get('remotion', '—')} · HyperFrames {mesin.get('paket', {}).get('hyperframes', '—')} · "
+           f"klip 540 frame + 4 sub-komposisi · font Google di {len(halaman_googlefont)} halaman (lama, dicatat)",
+           "; ".join(masalah_mesin[:4]))
 
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \

@@ -1,0 +1,525 @@
+{
+  "dibuat": "2026-10-30",
+  "grid": {
+    "bpm": 120,
+    "fps": 60,
+    "frame_per_beat": 30.0,
+    "frame_per_bar": 120.0,
+    "frame_total": 540,
+    "durasi": 9.0,
+    "catatan": "120 BPM dipilih karena batas cue studio (3/5/7 s) jatuh di ketukan 6/10/14. Pada 100 atau 133 BPM batas itu meleset."
+  },
+  "arc": {
+    "nama": "cold-open",
+    "tier": [
+      4,
+      2,
+      3,
+      5
+    ],
+    "alasan": "9 detik terlalu pendek untuk ramp; hook harus memukul di 0-3 s, lalu beri satu lembah supaya payoff terasa naik."
+  },
+  "adegan": [
+    {
+      "adegan": 1,
+      "judul": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
+      "berkas": "frame-01.html",
+      "aset": "reel-tanggal-sangrai",
+      "durasi": 9.0,
+      "frame_total": 540,
+      "arc": "cold-open",
+      "rasio_hold": 0.22,
+      "cues": [
+        {
+          "cue": 1,
+          "mulai": 0.0,
+          "selesai": 3.0,
+          "durasi": 3.0,
+          "frame": [
+            0,
+            180
+          ],
+          "frame_total": 180,
+          "ketukan": 0.0,
+          "di_grid": true,
+          "di_birama": true,
+          "tier": 4,
+          "band": "frasa kamera",
+          "perangkat": "judul masuk",
+          "kamera": "dorong 4%",
+          "sfx": "whoosh masuk (puncak terukur)",
+          "teks": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
+          "sumber": "catalog.json",
+          "ada_angka": false
+        },
+        {
+          "cue": 2,
+          "mulai": 3.0,
+          "selesai": 5.0,
+          "durasi": 2.0,
+          "frame": [
+            180,
+            300
+          ],
+          "frame_total": 120,
+          "ketukan": 6.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 2,
+          "band": "frasa kamera",
+          "perangkat": "daftar 1-2",
+          "kamera": "diam (lembah)",
+          "sfx": "tick",
+          "teks": "Pertama: gilingan terlalu halus untuk alat Anda. Kedua: air di atas 94°C.",
+          "sumber": "catalog.json",
+          "ada_angka": true
+        },
+        {
+          "cue": 3,
+          "mulai": 5.0,
+          "selesai": 7.0,
+          "durasi": 2.0,
+          "frame": [
+            300,
+            420
+          ],
+          "frame_total": 120,
+          "ketukan": 10.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 3,
+          "band": "frasa kamera",
+          "perangkat": "daftar 3 + angka",
+          "kamera": "geser 2%",
+          "sfx": "tick",
+          "teks": "Ketiga: kopi sudah lewat 21 hari dari tanggal sangrai.",
+          "sumber": "batch-qc.csv",
+          "ada_angka": true
+        },
+        {
+          "cue": 4,
+          "mulai": 7.0,
+          "selesai": 9.0,
+          "durasi": 2.0,
+          "frame": [
+            420,
+            540
+          ],
+          "frame_total": 120,
+          "ketukan": 14.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 5,
+          "band": "frasa kamera",
+          "perangkat": "payoff + CTA",
+          "kamera": "tarik 3%",
+          "sfx": "impact + logo",
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
+          "sumber": "tanpa angka",
+          "ada_angka": false
+        }
+      ]
+    },
+    {
+      "adegan": 2,
+      "judul": "Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.",
+      "berkas": "frame-02.html",
+      "aset": "carousel-02b",
+      "durasi": 9.0,
+      "frame_total": 540,
+      "arc": "cold-open",
+      "rasio_hold": 0.22,
+      "cues": [
+        {
+          "cue": 1,
+          "mulai": 0.0,
+          "selesai": 3.0,
+          "durasi": 3.0,
+          "frame": [
+            0,
+            180
+          ],
+          "frame_total": 180,
+          "ketukan": 0.0,
+          "di_grid": true,
+          "di_birama": true,
+          "tier": 4,
+          "band": "frasa kamera",
+          "perangkat": "judul masuk",
+          "kamera": "dorong 4%",
+          "sfx": "whoosh masuk (puncak terukur)",
+          "teks": "Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.",
+          "sumber": "catalog.json",
+          "ada_angka": false
+        },
+        {
+          "cue": 2,
+          "mulai": 3.0,
+          "selesai": 5.0,
+          "durasi": 2.0,
+          "frame": [
+            180,
+            300
+          ],
+          "frame_total": 120,
+          "ketukan": 6.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 2,
+          "band": "frasa kamera",
+          "perangkat": "daftar 1-2",
+          "kamera": "diam (lembah)",
+          "sfx": "tick",
+          "teks": "Biasanya bukan biji: rasio 1:15 dan gilingan lebih halus mengekstrak lebih banyak.",
+          "sumber": "catalog.json",
+          "ada_angka": true
+        },
+        {
+          "cue": 3,
+          "mulai": 5.0,
+          "selesai": 7.0,
+          "durasi": 2.0,
+          "frame": [
+            300,
+            420
+          ],
+          "frame_total": 120,
+          "ketukan": 10.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 3,
+          "band": "frasa kamera",
+          "perangkat": "daftar 3 + angka",
+          "kamera": "geser 2%",
+          "sfx": "tick",
+          "teks": "Coba 15 g kopi untuk 225 ml air, lalu bandingkan dengan resep Anda sekarang.",
+          "sumber": "catalog.json",
+          "ada_angka": true
+        },
+        {
+          "cue": 4,
+          "mulai": 7.0,
+          "selesai": 9.0,
+          "durasi": 2.0,
+          "frame": [
+            420,
+            540
+          ],
+          "frame_total": 120,
+          "ketukan": 14.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 5,
+          "band": "frasa kamera",
+          "perangkat": "payoff + CTA",
+          "kamera": "tarik 3%",
+          "sfx": "impact + logo",
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
+          "sumber": "tanpa angka",
+          "ada_angka": false
+        }
+      ]
+    },
+    {
+      "adegan": 3,
+      "judul": "Rp23.000 vs Rp152.000: bedanya bukan cuma berat.",
+      "berkas": "frame-03.html",
+      "aset": "carousel-01c",
+      "durasi": 9.0,
+      "frame_total": 540,
+      "arc": "cold-open",
+      "rasio_hold": 0.22,
+      "cues": [
+        {
+          "cue": 1,
+          "mulai": 0.0,
+          "selesai": 3.0,
+          "durasi": 3.0,
+          "frame": [
+            0,
+            180
+          ],
+          "frame_total": 180,
+          "ketukan": 0.0,
+          "di_grid": true,
+          "di_birama": true,
+          "tier": 4,
+          "band": "frasa kamera",
+          "perangkat": "judul masuk",
+          "kamera": "dorong 4%",
+          "sfx": "whoosh masuk (puncak terukur)",
+          "teks": "Rp23.000 vs Rp152.000: bedanya bukan cuma berat.",
+          "sumber": "catalog.json",
+          "ada_angka": true
+        },
+        {
+          "cue": 2,
+          "mulai": 3.0,
+          "selesai": 5.0,
+          "durasi": 2.0,
+          "frame": [
+            180,
+            300
+          ],
+          "frame_total": 120,
+          "ketukan": 6.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 2,
+          "band": "frasa kamera",
+          "perangkat": "daftar 1-2",
+          "kamera": "diam (lembah)",
+          "sfx": "tick",
+          "teks": "Rp23.000 itu 100 g robusta Raung. Rp152.000 itu 500 g arabika Ijen.",
+          "sumber": "catalog.json",
+          "ada_angka": true
+        },
+        {
+          "cue": 3,
+          "mulai": 5.0,
+          "selesai": 7.0,
+          "durasi": 2.0,
+          "frame": [
+            300,
+            420
+          ],
+          "frame_total": 120,
+          "ketukan": 10.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 3,
+          "band": "frasa kamera",
+          "perangkat": "daftar 3 + angka",
+          "kamera": "geser 2%",
+          "sfx": "tick",
+          "teks": "Per gram: Rp230 lawan Rp304. Bedanya di proses dan ketinggian tanam.",
+          "sumber": "catalog.json",
+          "ada_angka": true
+        },
+        {
+          "cue": 4,
+          "mulai": 7.0,
+          "selesai": 9.0,
+          "durasi": 2.0,
+          "frame": [
+            420,
+            540
+          ],
+          "frame_total": 120,
+          "ketukan": 14.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 5,
+          "band": "frasa kamera",
+          "perangkat": "payoff + CTA",
+          "kamera": "tarik 3%",
+          "sfx": "impact + logo",
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
+          "sumber": "tanpa angka",
+          "ada_angka": false
+        }
+      ]
+    },
+    {
+      "adegan": 4,
+      "judul": "Arabika Ijen vs robusta Raung, satu meja.",
+      "berkas": "frame-04.html",
+      "aset": "carousel-02a",
+      "durasi": 9.0,
+      "frame_total": 540,
+      "arc": "cold-open",
+      "rasio_hold": 0.22,
+      "cues": [
+        {
+          "cue": 1,
+          "mulai": 0.0,
+          "selesai": 3.0,
+          "durasi": 3.0,
+          "frame": [
+            0,
+            180
+          ],
+          "frame_total": 180,
+          "ketukan": 0.0,
+          "di_grid": true,
+          "di_birama": true,
+          "tier": 4,
+          "band": "frasa kamera",
+          "perangkat": "judul masuk",
+          "kamera": "dorong 4%",
+          "sfx": "whoosh masuk (puncak terukur)",
+          "teks": "Arabika Ijen vs robusta Raung, satu meja.",
+          "sumber": "catalog.json",
+          "ada_angka": false
+        },
+        {
+          "cue": 2,
+          "mulai": 3.0,
+          "selesai": 5.0,
+          "durasi": 2.0,
+          "frame": [
+            180,
+            300
+          ],
+          "frame_total": 120,
+          "ketukan": 6.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 2,
+          "band": "frasa kamera",
+          "perangkat": "daftar 1-2",
+          "kamera": "diam (lembah)",
+          "sfx": "tick",
+          "teks": "Ijen 1.700–1.800 mdpl, proses natural: manis, buah, aftertaste panjang.",
+          "sumber": "catalog.json",
+          "ada_angka": true
+        },
+        {
+          "cue": 3,
+          "mulai": 5.0,
+          "selesai": 7.0,
+          "durasi": 2.0,
+          "frame": [
+            300,
+            420
+          ],
+          "frame_total": 120,
+          "ketukan": 10.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 3,
+          "band": "frasa kamera",
+          "perangkat": "daftar 3 + angka",
+          "kamera": "geser 2%",
+          "sfx": "tick",
+          "teks": "Raung 422–443 mdpl: body tebal, cokelat gelap, pahit halus di akhir.",
+          "sumber": "catalog.json",
+          "ada_angka": true
+        },
+        {
+          "cue": 4,
+          "mulai": 7.0,
+          "selesai": 9.0,
+          "durasi": 2.0,
+          "frame": [
+            420,
+            540
+          ],
+          "frame_total": 120,
+          "ketukan": 14.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 5,
+          "band": "frasa kamera",
+          "perangkat": "payoff + CTA",
+          "kamera": "tarik 3%",
+          "sfx": "impact + logo",
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
+          "sumber": "tanpa angka",
+          "ada_angka": false
+        }
+      ]
+    },
+    {
+      "adegan": 5,
+      "judul": "Tiga hal yang membuat kopi rumahan terasa hambar.",
+      "berkas": "frame-05.html",
+      "aset": "carousel-02b",
+      "durasi": 9.0,
+      "frame_total": 540,
+      "arc": "cold-open",
+      "rasio_hold": 0.22,
+      "cues": [
+        {
+          "cue": 1,
+          "mulai": 0.0,
+          "selesai": 3.0,
+          "durasi": 3.0,
+          "frame": [
+            0,
+            180
+          ],
+          "frame_total": 180,
+          "ketukan": 0.0,
+          "di_grid": true,
+          "di_birama": true,
+          "tier": 4,
+          "band": "frasa kamera",
+          "perangkat": "judul masuk",
+          "kamera": "dorong 4%",
+          "sfx": "whoosh masuk (puncak terukur)",
+          "teks": "Tiga hal yang membuat kopi rumahan terasa hambar.",
+          "sumber": "catalog.json",
+          "ada_angka": false
+        },
+        {
+          "cue": 2,
+          "mulai": 3.0,
+          "selesai": 5.0,
+          "durasi": 2.0,
+          "frame": [
+            180,
+            300
+          ],
+          "frame_total": 120,
+          "ketukan": 6.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 2,
+          "band": "frasa kamera",
+          "perangkat": "daftar 1-2",
+          "kamera": "diam (lembah)",
+          "sfx": "tick",
+          "teks": "Gilingan terlalu kasar. Air terlalu dingin. Kopi lewat 30 hari dari sangrai.",
+          "sumber": "catalog.json",
+          "ada_angka": true
+        },
+        {
+          "cue": 3,
+          "mulai": 5.0,
+          "selesai": 7.0,
+          "durasi": 2.0,
+          "frame": [
+            300,
+            420
+          ],
+          "frame_total": 120,
+          "ketukan": 10.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 3,
+          "band": "frasa kamera",
+          "perangkat": "daftar 3 + angka",
+          "kamera": "geser 2%",
+          "sfx": "tick",
+          "teks": "Cek satu per satu; yang tersering ternyata gilingan.",
+          "sumber": "catalog.json",
+          "ada_angka": false
+        },
+        {
+          "cue": 4,
+          "mulai": 7.0,
+          "selesai": 9.0,
+          "durasi": 2.0,
+          "frame": [
+            420,
+            540
+          ],
+          "frame_total": 120,
+          "ketukan": 14.0,
+          "di_grid": true,
+          "di_birama": false,
+          "tier": 5,
+          "band": "frasa kamera",
+          "perangkat": "payoff + CTA",
+          "kamera": "tarik 3%",
+          "sfx": "impact + logo",
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
+          "sumber": "tanpa angka",
+          "ada_angka": false
+        }
+      ]
+    }
+  ],
+  "masalah": []
+}

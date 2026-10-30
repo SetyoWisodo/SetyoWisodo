@@ -27,15 +27,15 @@
 | --- | --- | --- |
 | **DOBEL** | pola “Perbandingan A vs B” | struktur dengan lift median tertinggi di data |
 | **HENTIKAN** | Tiga kesalahan menyimpan kopi ; Proses sangrai 12 menit dalam 20 detik | lift < 0,9× — kalah dari kebiasaan akun |
-| **UJI** | Kopi pahit padahal baru beli? Cek tiga hal ini. | satu eksperimen per minggu, bukan lima |
+| **UJI** | Satu kantong, tiga angka yang bisa Anda cek. | satu eksperimen per minggu, bukan lima |
 
 ## 3 · Lima skrip siap rekam
 
-- **Skrip 01** (Diagnosis masalah) — “Kopi pahit padahal baru beli? Cek tiga hal ini.” · suara 100/100 · aset `reel-tanggal-sangrai`
-- **Skrip 02** (Diagnosis masalah) — “Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.” · suara 100/100 · aset `carousel-02b`
-- **Skrip 03** (Perbandingan A vs B) — “Rp23.000 vs Rp152.000: bedanya bukan cuma berat.” · suara 100/100 · aset `carousel-01c`
-- **Skrip 04** (Perbandingan A vs B) — “Arabika Ijen vs robusta Raung, satu meja.” · suara 100/100 · aset `carousel-02a`
-- **Skrip 05** (Angka / daftar) — “Tiga hal yang membuat kopi rumahan terasa hambar.” · suara 100/100 · aset `carousel-02b`
+- **Skrip 01** (Angka / daftar) — “Satu kantong, tiga angka yang bisa Anda cek.” · suara 100/100 · aset `carousel-01c`
+- **Skrip 02** (Larangan / peringatan) — “Kopi tidak punya tanggal kedaluwarsa yang jujur.” · suara 100/100 · aset `carousel-01a`
+- **Skrip 03** (Larangan / peringatan) — “Jangan simpan kopi di kulkas.” · suara 100/100 · aset `story-01`
+- **Skrip 04** (Angka / daftar) — “Gilingan Anda menentukan 40% rasanya.” · suara 100/100 · aset `carousel-02b`
+- **Skrip 05** (Pengakuan / biaya nyata) — “Resi dikirim hari itu, bukan besok.” · suara 100/100 · aset `reel-kirim-hari-ini`
 
 Berkas lengkap: `studio/skrip/`. Setelah direkam, ubah status hook di `data/studio-hooks.csv`
 menjadi `dipakai` agar tidak dipilih lagi.

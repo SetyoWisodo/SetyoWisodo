@@ -247,3 +247,56 @@ karena menuntut Node/React/Chromium/ffmpeg/After Effects yang tidak ada di sandb
 Gerbang baru: `tools/periksa.py` cek **Film gerak** — 20 cue di ketukan, frame cocok durasi,
 arc punya puncak dan lembah, tidak ada angka tanpa sumber, skill terdokumentasi.
 Hasil terakhir: **20 lolos · 0 peringatan · 0 gagal**.
+
+---
+
+## 11. Pembaruan 30 Okt 2026 (keempat) — empat mesin dipasang, satu klip jadi
+
+Lembar film §10 masih wacana: 8 dari 20 repo tidak dipakai karena menuntut Node/React/Chromium.
+Pembaruan ini mengubah keadaan itu. **GSAP, Lottie, Remotion, dan HyperFrames sekarang benar-benar
+terpasang** lewat `npm` di `film-studio/`, dengan versi dipin dan skrip yang sudah dijalankan.
+
+| Mesin | Versi | Terpasang | Diuji di sandbox | Mentok di |
+| --- | --- | --- | --- | --- |
+| GSAP + ScrollTrigger | 3.15.0 | `assets/vendor/gsap.min.js` (73 KB), `ScrollTrigger.min.js` (45 KB) | timeline 4 cue, total 9,00 s, transform berubah (jsdom) | animasi di layar tanpa browser |
+| Lottie | lottie-web 5.13.0 | `assets/vendor/lottie.min.js` (306 KB) + `assets/lottie/nocturne-9s.json` | JSON 9 lapisan dimuat, di-seek per cue, lapisan berganti | metrik font / rasterisasi di jsdom |
+| Remotion | 4.0.539 | `@remotion/cli`, `remotion/Klip.jsx` | **`remotion bundle` lolos** (`out/bundle`) | `render` → `libnspr4.so` |
+| HyperFrames | 0.8.221 | root + 4 sub-komposisi | **`hyperframes lint` 0 error, 0 warning** | `browser ensure` & `render` (TLS diblokir) |
+
+### Kenapa render tetap tidak bisa, dan apa penggantinya
+
+Chrome tidak bisa jalan di sandbox ini: `@sparticuz/chromium` bisa diunduh dari npm, tetapi
+binernya butuh `libnspr4.so`/`libnss3.so` yang tidak tersedia dan tidak bisa dipasang dari
+repositori OS. Karena itu video jadi dibuat jalur ketiga yang tidak butuh browser:
+
+```
+motion/film-sheet.json → 540 frame PNG (Pillow, font brand asli) → ffmpeg H.264 bt709
+```
+
+Hasil: `motion/out/klip-01-nocturne-9s.mp4` — 1080×1920 · 60 fps · 9,00 s · 341 KB.
+Perintahnya `python3 tools/render_film.py`. **Ini bukan keluaran Remotion/HyperFrames** dan tidak
+diklaim begitu; keduanya menunggu mesin ber-Chrome (`npm run remotion:render`, `npm run hf:render`).
+
+### Yang masuk ke halaman `/motion/`
+
+| Bagian | Mesin | Cara muat |
+| --- | --- | --- |
+| §6 timeline 18 ketukan | GSAP + ScrollTrigger | `assets/js/mesin.js`, dimuat saat bagian masuk layar |
+| §6 pemutar 9 detik | lottie-web | JSON 6,8 KB, penggaris waktu + penanda cue |
+| §6 klip jadi | `<video>` | `preload="metadata"`, 341 KB |
+
+Halaman awal tetap **89 KB** dan tidak menyentuh satu pun pustaka ini — `periksa.py` cek
+**Mesin terpasang** sekarang menolak `gsap`/`lottie` di `index.html`.
+
+### Aturan baru yang mengikat
+
+1. **Tanpa CDN** untuk pustaka JS. Semua dari `assets/vendor/`; komposisi HyperFrames memakai
+   `hyperframes/vendor/gsap.min.js`.
+2. **Versi dipin** (`"gsap": "3.15.0"`, bukan `^3.15.0`). Gate menolak rentang.
+3. **Satu sumber angka.** Keempat mesin membaca `film-sheet.json`; tidak ada durasi yang ditulis
+   ulang di JSX atau HTML.
+4. **`prefers-reduced-motion`** memarkir GSAP di keadaan akhir dan Lottie di frame cue terakhir.
+5. **Lisensi dicatat.** Remotion gratis untuk ≤ 3 orang; di atas itu perlu lisensi berbayar
+   sebelum dipakai komersial. Detail di `laporan/mesin.md` §5.
+
+Gerbang terakhir: **21 lolos · 0 peringatan · 0 gagal** (cek baru: *Mesin terpasang*).

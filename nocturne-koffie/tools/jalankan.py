@@ -12,6 +12,7 @@ periksa paling akhir (gerbang), lalu laporan.
     5. riset      outlier, pola, komentar, kata kunci → brief
     6. studio     10 tahap (nilai → hook → skrip → brief Senin) di atas hasil riset
     7. motion     lab gerak + 5 adegan 9:16 dari skrip studio
+    8. render     klip 9:16 jadi: 540 frame → MP4 (butuh Pillow + ffmpeg)
     8. slop       audit anti-slop & kontrak desain (29 aturan)
     9. papan      dashboard harian + target divisi
    10. periksa    gerbang QA (berhenti bila ada temuan kritis)
@@ -74,6 +75,7 @@ def main():
         ("studio", ["tools/studio.py"]),
         ("motion", ["tools/motion.py"]),
         ("film", ["tools/film.py"]),
+        ("render", ["tools/render_film.py"]),
         ("slop", ["tools/slop.py"]),
         ("papan", ["tools/papan.py", "--tanggal", TGL]),
         ("periksa", ["tools/periksa.py"]),
@@ -97,6 +99,7 @@ def main():
     print("  studio/index.html           ← 10 tahap: hook → skrip → brief Senin")
     print("  motion/index.html           ← lab gerak + 5 adegan 9:16 siap rekam")
     print("  motion/film-sheet.md        ← lembar film: frame, ketukan, arc energi")
+    print("  motion/out/klip-01-*.mp4    ← klip jadi 9 detik (kalau ffmpeg tersedia)")
     print("  laporan/slop.md             ← audit anti-slop & kontrak desain")
     print("Jalankan server: python3 -m http.server 8080")
 

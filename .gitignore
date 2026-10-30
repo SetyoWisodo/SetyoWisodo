@@ -1,9 +1,12 @@
-# Object file
-*.o
+# Dependensi mesin film (dipulihkan dengan: cd nocturne-koffie/film-studio && npm install)
+node_modules/
 
-# Ada Library Information
-*.ali
+# Hasil render sementara — video jadi tetap disimpan, frame per-frame tidak
+nocturne-koffie/motion/out/frame/
+nocturne-koffie/film-studio/out/
+*.mp4.tmp
 
-# Book build intermediates
-book/.gen/
+# Sampah sistem
+.DS_Store
 __pycache__/
+*.pyc

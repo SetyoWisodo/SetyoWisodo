@@ -160,6 +160,24 @@ color:var(--paper);font-size:11.5px;letter-spacing:.06em}
 code{background:var(--paper2);padding:1px 5px;border-radius:3px;font-size:12.4px}
 pre{background:var(--ink);color:var(--paper);padding:14px 16px;overflow:auto;font-size:12.4px;line-height:1.55;
 border-radius:4px;margin:12px 0 0}
+.mesin{border:2px solid var(--ink);padding:18px;background:rgba(255,255,255,.42);margin-top:16px}
+.mesin__kepala{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;justify-content:space-between}
+.mesin__kepala span{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.bilah{display:flex;align-items:flex-end;gap:10px;height:150px;margin:18px 0 6px}
+.bilah div{flex:1;background:var(--espresso);transform-origin:50% 100%;transform:scaleY(.08);position:relative}
+.bilah div:nth-child(5n){background:var(--orange)}
+.bilah div span{position:absolute;left:0;right:0;top:100%;text-align:center;font-size:10px;color:var(--muted);margin-top:6px}
+.bilah__kaki{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:22px;font-size:12.4px;color:var(--muted)}
+.bilah__kaki button{font:inherit;font-size:12.5px;padding:7px 14px;border:2px solid var(--ink);border-radius:999px;
+background:transparent;color:var(--ink);cursor:pointer}
+.pemutar{display:grid;grid-template-columns:minmax(0,240px) minmax(0,1fr);gap:18px;margin-top:16px;align-items:start}
+.pemutar__layar{border:2px solid var(--ink);background:var(--paper2);aspect-ratio:9/16;border-radius:4px;overflow:hidden}
+.pemutar__kontrol label{display:block;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.pemutar__kontrol input[type=range]{width:100%;accent-color:var(--orange);margin:6px 0 14px}
+.pemutar__kontrol button{font:inherit;font-size:13px;padding:9px 16px;border:2px solid var(--ink);border-radius:999px;
+background:var(--ink);color:var(--paper);cursor:pointer}
+.pemutar__kontrol p{font-size:12.8px;color:#3E362F;margin:12px 0 0}
+@media(max-width:700px){.pemutar{grid-template-columns:1fr}.pemutar__layar{max-width:240px}}
 .note{border-top:2px solid var(--gold);padding-top:12px;margin-top:18px;font-size:13.6px;color:#3E362F}
 footer{margin-top:44px;border-top:2px solid var(--ink);padding-top:14px;font-size:12.4px;color:var(--muted);
 display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
@@ -372,6 +390,19 @@ def lab(frames, slop, kreatif, tgl):
     berkas_gerak = ["assets/css/motion-ui.css", "assets/js/motion-ui.js",
                     "assets/css/motion-3d.css", "assets/js/motion-3d.js"]
     berat = sum(os.path.getsize(os.path.join(ROOT, f)) for f in berkas_gerak) / 1024
+    # 18 ketukan = 9 detik @ 120 BPM; tinggi batang = tier cue pada ketukan itu
+    fs_path = os.path.join(ROOT, "motion", "film-sheet.json")
+    tier_per_ketukan = {}
+    if os.path.exists(fs_path):
+        with open(fs_path, encoding="utf-8") as f:
+            fs = json.load(f)
+        for c in fs["adegan"][0]["cues"]:
+            for k in range(int(c["mulai"] * 2), int(c["selesai"] * 2)):
+                tier_per_ketukan[k] = c["tier"]
+    bilah = "".join(
+        f'<div data-ketukan="{(tier_per_ketukan.get(k, 1) * 20)}"><span>{k + 1}</span></div>'
+        for k in range(18))
+
     kritis = slop.get("kritis", 0)
     perhatian = slop.get("perhatian", 0)
     aturan = slop.get("aturan_diperiksa", 0)
@@ -523,7 +554,71 @@ def lab(frames, slop, kreatif, tgl):
   <p class="lede" style="margin-top:8px">Laporan penuh: <a href="../laporan/slop.md">laporan/slop.md</a> ·
   kontrak: <a href="../data/design-system.json">data/design-system.json</a>.</p>
 
-  <h2>6 · Batas yang tidak saya tutupi</h2>
+  <h2>6 · Mesin yang sekarang terpasang</h2>
+  <p class="lede">Empat pustaka dipasang sungguhan lewat <code>npm</code>, bukan disebut di dokumentasi.
+  Kolom terakhir menunjuk bukti yang bisa dibuka sendiri — termasuk satu klip <code>.mp4</code> jadi.</p>
+  <table><thead><tr><th>Mesin</th><th>Versi</th><th>Dipasang</th><th>Dipakai di</th><th>Bukti yang bisa dibuka</th></tr></thead>
+  <tbody>
+    <tr><td><b>GSAP</b></td><td>3.15.0</td><td><span class="pill ok">lokal</span> <code>assets/vendor/gsap.min.js</code></td>
+      <td>timeline ketukan di bawah + komposisi HyperFrames</td>
+      <td><code>assets/vendor/gsap.min.js</code> (73 KB)</td></tr>
+    <tr><td><b>ScrollTrigger</b></td><td>3.15.0</td><td><span class="pill ok">lokal</span></td>
+      <td>memicu timeline saat bagian ini masuk layar</td>
+      <td><code>assets/vendor/ScrollTrigger.min.js</code></td></tr>
+    <tr><td><b>Lottie</b></td><td>lottie-web 5.13.0</td><td><span class="pill ok">lokal</span></td>
+      <td>pemutar 9 detik di bawah (540 frame, 4 cue)</td>
+      <td><code>assets/lottie/nocturne-9s.json</code> (6,8 KB)</td></tr>
+    <tr><td><b>HyperFrames</b></td><td>0.8.221</td><td><span class="pill ok">CLI</span> di <code>film-studio/</code></td>
+      <td>komposisi 9 detik: root + 4 sub-komposisi</td>
+      <td><code>film-studio/hyperframes/index.html</code> · <code>npx hyperframes lint</code> = 0 error, 0 warning</td></tr>
+    <tr><td><b>Remotion</b></td><td>4.0.539</td><td><span class="pill ok">npm</span></td>
+      <td>komposisi React 4 cue + bilah kemajuan</td>
+      <td><code>film-studio/remotion/Klip.jsx</code> · bundel lolos (<code>out/bundle</code>)</td></tr>
+  </tbody></table>
+
+  <h3 style="margin-top:26px">GSAP — timeline 18 ketukan</h3>
+  <p class="lede">Batang di bawah adalah 18 ketukan adegan 9 detik (120 BPM). Tingginya tier energi
+  tiap cue: 4 · 2 · 3 · 5. Klik putar untuk mengulang; tanpa GSAP batangnya tetap terlihat statis.</p>
+  <div class="mesin" data-mesin="gsap">
+    <div class="mesin__kepala"><span>GSAP 3.15 · ScrollTrigger</span><span>120 BPM · 30 frame/ketukan</span></div>
+    <div class="bilah" aria-hidden="true">
+      {bilah}
+    </div>
+    <div class="bilah__kaki">
+      <span>cue 1 tier 4 · cue 2 tier 2 (lembah) · cue 3 tier 3 · cue 4 tier 5 (payoff)</span>
+      <button type="button" data-mesin-ulang>Putar ulang</button>
+    </div>
+  </div>
+
+  <h3 style="margin-top:26px">Lottie — pemutar 9 detik</h3>
+  <p class="lede">Animasi vektor yang lahir dari <code>motion/film-sheet.json</code>. Geser penggaris
+  untuk memeriksa tiap cue; penanda cue ikut terbaca. Berkas 6,8 KB — bukan video.</p>
+  <div class="mesin" data-mesin="lottie" data-lottie-sumber="../assets/lottie/nocturne-9s.json">
+    <div class="pemutar">
+      <div class="pemutar__layar" data-lottie-tempat aria-label="Pemutar Lottie adegan 01"></div>
+      <div class="pemutar__kontrol">
+        <label for="lottie-slider">Waktu (frame)</label>
+        <input id="lottie-slider" type="range" min="0" max="539" value="0" data-lottie-slider>
+        <button type="button" data-lottie-putar>Putar</button>
+        <p><b class="angka" data-lottie-waktu>0,00 s</b> · cue aktif: <b data-lottie-cue>—</b></p>
+        <p>Dimuat malas: 306 KB pustaka baru diunduh saat bagian ini masuk layar. Halaman awal tidak
+        menyentuhnya.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 style="margin-top:26px">Klip jadi — satu-satunya bukti visual</h3>
+  <p class="lede">540 frame dirender <code>tools/render_film.py</code> (Pillow) lalu dienkode ffmpeg 7.0.2
+  ke H.264, 1080×1920, 60 fps, bt709. Bahasa desainnya sama dengan komposisi Remotion & HyperFrames,
+  tetapi perendernya jalur A — karena Chrome tidak bisa jalan di sandbox ini.</p>
+  <video src="../motion/out/klip-01-nocturne-9s.mp4" controls muted loop playsinline preload="metadata"
+    style="width:min(280px,60vw);border:2px solid var(--ink);border-radius:4px;display:block;margin-top:12px"
+    aria-label="Klip 9 detik adegan 01: Kopi pahit padahal baru beli"></video>
+  <p class="lede" style="margin-top:10px">Berkas: <a href="../motion/out/klip-01-nocturne-9s.mp4">klip-01-nocturne-9s.mp4</a>
+  (341 KB) · <a href="../motion/out/manifest.json">manifest.json</a> (sha256, encoder, sumber angka) ·
+  <a href="../motion/film-sheet.md">lembar film</a>.</p>
+
+  <h2>7 · Batas yang tidak saya tutupi</h2>
   <div class="note">
     <p style="margin:0 0 8px"><b>Figma MCP</b> — tidak ada akun Figma di sini. Yang diambil prinsipnya:
     layout punya sumber mesin. Sumber itu kini <code>data/design-system.json</code>.</p>
@@ -544,6 +639,7 @@ def lab(frames, slop, kreatif, tgl):
   </footer>
 </div>
 <script src="../assets/js/motion-ui.js"></script>
+<script src="../assets/js/mesin.js" defer></script>
 </body></html>
 """
 

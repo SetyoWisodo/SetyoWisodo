@@ -4,14 +4,14 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 
 | Ringkasan | Jumlah |
 | --- | --- |
-| Pemeriksaan lolos | **20** |
+| Pemeriksaan lolos | **21** |
 | Peringatan | **0** |
 | Gagal (harus diperbaiki) | **0** |
 
 | Kategori | Status | Hasil | Catatan |
 | --- | --- | --- | --- |
-| Berkas wajib | ✅ lolos | 57/57 berkas ada | — |
-| Tautan lokal | ✅ lolos | 124/124 tautan menuju berkas yang ada | — |
+| Berkas wajib | ✅ lolos | 75/75 berkas ada | — |
+| Tautan lokal | ✅ lolos | 129/129 tautan menuju berkas yang ada | — |
 | Struktur HTML | ✅ lolos | 15/15 halaman tag-nya seimbang | — |
 | Stok semua SKU | ✅ lolos | 9/9 SKU berstatus tersedia | — |
 | Produk ↔ lot | ✅ lolos | 9/9 produk punya lot aktif (blend memakai komponen) | — |
@@ -28,6 +28,7 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 | Adegan 9:16 | ✅ lolos | 5 adegan · total 9 detik masing-masing | — |
 | Panggung 3D | ✅ lolos | 3 komponen dipakai · 15.8 KB CSS+JS · jatuh datar tanpa JS | — |
 | Film gerak | ✅ lolos | 20 cue · 120 BPM · 540 frame/adegan · 20 repo terdokumentasi | — |
+| Mesin terpasang | ✅ lolos | GSAP 3.15.0 · Lottie 5.13.0 · Remotion 4.0.539 · HyperFrames 0.8.221 · klip 540 frame + 4 sub-komposisi · font Google di 13 halaman (lama, dicatat) | — |
 | Berat halaman awal | ✅ lolos | 89 KB (batas 1.500 KB) | — |
 | Berat folder konten | ✅ lolos | 3.8 MB (batas 12 MB) | — |
 
