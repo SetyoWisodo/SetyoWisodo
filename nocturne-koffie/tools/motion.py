@@ -505,6 +505,10 @@ def lab(frames, slop, kreatif, tgl):
   dijeda, dan diseek (<code>?t=3.2</code>). Untuk jadi video: rekam layar, atau render ffmpeg di
   mesin yang punya ffmpeg — di sandbox ini tidak ada, dan tidak diklaim ada.</p>
   <div class="frames">{kartu_frame}</div>
+  <p class="lede" style="margin-top:12px">Lembar film — nomor frame, ketukan, arc energi, dan cue
+  suara untuk tiap adegan: <a href="film-sheet.md"><code>motion/film-sheet.md</code></a>
+  (<code>tools/film.py</code> · 120 BPM · 540 frame · 20 cue). Dibuat karena 5 klip yang
+  bagusnya beda-beda tetap terasa acak; grid yang sama membuatnya satu keluarga.</p>
 
   <h3 style="margin-top:26px">Timeline (bahan perekaman)</h3>
   <table><thead><tr><th>Adegan</th><th>Waktu</th><th>Teks</th><th>Sumber klaim</th></tr></thead>

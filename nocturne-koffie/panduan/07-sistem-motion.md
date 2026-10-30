@@ -222,3 +222,28 @@ satu bayangan jauh, bukan gradien dan bukan glow — gradien teks adalah temuan 
 Gerbang baru: `tools/periksa.py` cek **Panggung 3D** (berkas ada, `perspective`/`preserve-3d`/
 `translateZ` terpakai, gerbang 900 px, listener pasif, reduced-motion, komponen `data-3d` dikenali,
 berat ≤ 24 KB). Hasil terakhir: 19 lolos · 0 peringatan · 0 gagal.
+
+## 10. Pembaruan 30 Okt 2026 (ketiga) — 20 repo motion → lembar film
+
+Post `@Mikadzyki_NFT` (28 Okt 2026) mendaftar 20 repo motion design. Semua tautan dilacak ke
+repo aslinya, lalu dipilah: **6 dipakai aturannya, 6 dipakai prinsipnya, 8 tidak dipakai**
+karena menuntut Node/React/Chromium/ffmpeg/After Effects yang tidak ada di sandbox.
+
+| Yang dipakai | Dari | Wujudnya di repo ini |
+| --- | --- | --- |
+| `seek(t)` deterministik, 2 rAF setelah seek, beat map, larangan angka karangan | `howseen-ai/claude-motion-design` | `motion/frame-0N.html` + lembar film |
+| tabel durasi, hukum A1/A6/A18, matematika beat-sync | `t3knobox/klik-anim-skill-creation` | `motion/film-sheet.md` §1–2 |
+| tabel durasi UI, 1/3 rule, anggaran stagger | `LottieFiles/motion-design-skill` | `skills/motion-film` hukum 5–6 |
+| satu bentuk, transformasi bukan cut; spring damping ≥ 0,72 | `AbubakrChan/product-launch-motion`, `199-biotechnologies/motion-dev-animations-skill` | hukum 7–8 |
+
+| Angka yang sekarang mengikat | Nilai |
+| --- | --- |
+| Tempo | 120 BPM (alasan aritmetika, bukan selera) |
+| Grid | 30 frame/ketukan · 120 frame/birama · 540 frame/adegan |
+| Arc | `cold-open`: tier 4 / 2 / 3 / 5 |
+| Porsi lembah | 15–45% durasi adegan (sekarang 22%) |
+| Durasi cue maksimum | 3,6 s (frasa kamera) |
+
+Gerbang baru: `tools/periksa.py` cek **Film gerak** — 20 cue di ketukan, frame cocok durasi,
+arc punya puncak dan lembah, tidak ada angka tanpa sumber, skill terdokumentasi.
+Hasil terakhir: **20 lolos · 0 peringatan · 0 gagal**.

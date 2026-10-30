@@ -4,13 +4,13 @@
     {
       "kategori": "Berkas wajib",
       "status": "lolos",
-      "teks": "54/54 berkas ada",
+      "teks": "57/57 berkas ada",
       "detail": ""
     },
     {
       "kategori": "Tautan lokal",
       "status": "lolos",
-      "teks": "123/123 tautan menuju berkas yang ada",
+      "teks": "124/124 tautan menuju berkas yang ada",
       "detail": ""
     },
     {
@@ -101,6 +101,12 @@
       "kategori": "Panggung 3D",
       "status": "lolos",
       "teks": "3 komponen dipakai · 15.8 KB CSS+JS · jatuh datar tanpa JS",
+      "detail": ""
+    },
+    {
+      "kategori": "Film gerak",
+      "status": "lolos",
+      "teks": "20 cue · 120 BPM · 540 frame/adegan · 20 repo terdokumentasi",
       "detail": ""
     },
     {

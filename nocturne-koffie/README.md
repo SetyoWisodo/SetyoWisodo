@@ -23,10 +23,10 @@ nocturne-koffie/
 ├── data/catalog.json             ← SATU-SATUNYA file yang perlu diubah rutin
 ├── brand/                        logo SVG, OG card, 9 label kantong + lembar A4, brand kit
 ├── komersial/                    harga grosir 4 tingkat, penawaran B2B, pipeline prospek
-├── skills/                       5 skill: riset sosial, komentar, mesin pencari, studio konten, motion-web
+├── skills/                       6 skill: riset sosial, komentar, mesin pencari, studio konten, motion-web, motion-film
 ├── riset/                        dasbor riset, swipe file, brief konten (hasil generate)
 ├── studio/                       studio konten 10 tahap: halaman, brief Senin, 5 skrip (hasil generate)
-├── motion/                       lab gerak + 5 adegan 9:16 + timeline (hasil generate)
+├── motion/                       lab gerak + 5 adegan 9:16 + timeline + lembar film (hasil generate)
 ├── operasional/                  7 divisi: struktur, alur kerja + target per divisi
 │   ├── divisi/                   D1…D7 — satu berkas per divisi
 │   └── arsip/                    SOP versi 6 divisi (rujukan sejarah, tidak dipakai)
@@ -44,8 +44,9 @@ nocturne-koffie/
 ├── tools/studio.py               studio konten 10 tahap → halaman, brief Senin, 5 skrip
 ├── data/design-system.json       kontrak token: warna, tipografi, radius, gerak, pengecualian
 ├── tools/motion.py               lab gerak + 5 adegan 9:16 dari skrip studio
+├── tools/film.py                 lembar film: 540 frame, 120 BPM, arc energi, cue suara
 ├── tools/slop.py                 audit anti-slop (29 aturan) → laporan/slop.md
-├── tools/periksa.py              gerbang QA: 14 pemeriksaan konsistensi → laporan/periksa.md
+├── tools/periksa.py              gerbang QA: 20 pemeriksaan konsistensi → laporan/periksa.md
 ├── tools/laporan.py              satu halaman ringkasan → laporan/index.html
 ├── tools/jalankan.py             jalankan seluruh pipeline berurutan (~96 detik)
 ├── dashboard/index.html          papan harian hasil generate (jangan diedit manual)
@@ -66,6 +67,7 @@ python3 tools/komersial.py         # buat ulang harga grosir + penawaran B2B
 python3 tools/kreatif.py           # render 5 video + carousel + story (butuh ffmpeg)
 python3 tools/kreatif.py --cepat    # hanya gambar (tanpa encode video)
 python3 tools/kampanye.py          # buat ulang landing kampanye dari katalog + manifest
+python3 tools/film.py              # lembar film 9 detik: frame, ketukan, arc energi
 python3 tools/riset.py             # analisis riset → riset/index.html + swipe file + brief
 python3 tools/riset.py --cek       # ringkasan riset tanpa menulis berkas
 python3 tools/studio.py            # studio 10 tahap → brief Senin + 5 skrip siap rekam

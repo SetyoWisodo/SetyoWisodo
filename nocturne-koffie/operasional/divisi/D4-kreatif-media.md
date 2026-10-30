@@ -207,6 +207,30 @@ Aturan kerja:
 Gerbang: `python3 tools/periksa.py` punya cek **Panggung 3D** (berkas, gating, jatuh datar,
 anggaran ≤ 24 KB).
 
+## 4f. Lembar film: dari skrip ke frame (skill `motion-film`)
+
+Post `@Mikadzyki_NFT` (28 Okt 2026) mengumpulkan 20 repo motion. Yang diambil hukum
+produksinya, bukan library-nya: **durasi = bobot, arc energi, sinkron ketukan, larangan
+angka karangan**. Mesinnya `tools/film.py`; playbooknya `skills/motion-film/SKILL.md`.
+
+| Hasil | Berkas | Isi |
+| --- | --- | --- |
+| Lembar film | `motion/film-sheet.md` | cue → frame → ketukan → tier energi → kamera → SFX |
+| Data mesin | `motion/film-sheet.json` | dipakai `tools/periksa.py` (cek "Film gerak") |
+| Grid | 120 BPM · 60 fps | 1 ketukan 30 frame · 1 birama 120 frame · 9 s = 540 frame |
+
+Aturan kerja:
+
+1. **120 BPM bukan selera.** Batas cue studio (3/5/7 s) jatuh tepat di ketukan 6/10/14.
+   Tempo lain membuat gerak berhenti "nyaris" pas.
+2. **Arc energi per adegan:** `cold-open` — tier 4 / 2 / 3 / 5. Lembah di cue 2 wajib;
+   tanpa lembah, payoff tidak terasa naik.
+3. **Empat still sebelum render penuh** (`?t=0.5`, `3.2`, `5.2`, `7.2`). Yang gagal baca
+   diperbaiki di still, bukan setelah render 540 frame.
+4. **Cue yang memuat angka wajib menyebut sumber** (`data/`); cue CTA tanpa angka boleh kosong.
+5. **Tanpa browser/ffmpeg, jangan klaim video jadi.** Rekam layar atau serahkan lembar ini
+   ke mesin yang punya keduanya.
+
 ## 5. Serah terima
 
 | Dari | Kepada | Apa |

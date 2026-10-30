@@ -59,6 +59,7 @@ DATA = [
     "data/studio-niche.json", "data/studio-hooks.csv", "data/studio-industri.csv",
     "studio/data.json", "studio/brief-senin.md",
     "data/design-system.json", "motion/timeline.json", "motion/data.json",
+    "motion/film-sheet.md", "motion/film-sheet.json", "skills/motion-film/SKILL.md",
     "assets/css/motion-ui.css", "assets/js/motion-ui.js", "laporan/slop.md",
     "assets/css/motion-3d.css", "assets/js/motion-3d.js", "data/design-system.json",
 ]
@@ -403,6 +404,42 @@ def periksa(catatan):
     tambah("Panggung 3D", "lolos" if not masalah_3d else "gagal",
            f"{len(dipakai_3d)} komponen dipakai · {berat_3d:.1f} KB CSS+JS · jatuh datar tanpa JS",
            "; ".join(masalah_3d[:4]))
+
+    # 5i · film gerak: lembar film harus konsisten dengan timeline & skill-nya ada
+    masalah_film = []
+    fp = os.path.join(ROOT, "motion", "film-sheet.json")
+    if not os.path.exists(fp):
+        masalah_film.append("motion/film-sheet.json belum ada — jalankan tools/film.py")
+    else:
+        fs = json.loads(baca("motion/film-sheet.json"))
+        grid = fs.get("grid", {})
+        fpb = grid.get("frame_per_beat", 30)
+        adegan = fs.get("adegan", [])
+        if len(adegan) != 5:
+            masalah_film.append(f"{len(adegan)} adegan, seharusnya 5")
+        for a in adegan:
+            tiers = [c["tier"] for c in a["cues"]]
+            if max(tiers) < 5 or min(tiers) > 2:
+                masalah_film.append(f"adegan {a['adegan']}: arc energi tanpa puncak/lembah")
+            if a.get("frame_total") != int(round(a["durasi"] * grid.get("fps", 60))):
+                masalah_film.append(f"adegan {a['adegan']}: frame tidak cocok durasi")
+            for c in a["cues"]:
+                if not c.get("di_grid"):
+                    masalah_film.append(f"adegan {a['adegan']} cue {c['cue']}: di luar ketukan")
+                if c["frame"][1] - c["frame"][0] != int(round(c["durasi"] * grid.get("fps", 60))):
+                    masalah_film.append(f"adegan {a['adegan']} cue {c['cue']}: frame salah")
+                if c.get("sumber", "") == "—":
+                    masalah_film.append(f"adegan {a['adegan']} cue {c['cue']}: angka tanpa sumber")
+        masalah_film += fs.get("masalah", [])
+    if not os.path.exists(os.path.join(ROOT, "skills", "motion-film", "SKILL.md")):
+        masalah_film.append("skills/motion-film/SKILL.md tidak ada")
+    if not os.path.exists(os.path.join(ROOT, "motion", "film-sheet.md")):
+        masalah_film.append("motion/film-sheet.md tidak ada")
+    n_cue = sum(len(a["cues"]) for a in fs.get("adegan", [])) if os.path.exists(fp) else 0
+    tambah("Film gerak", "lolos" if not masalah_film else "gagal",
+           f"{n_cue} cue · {grid.get('bpm', '—')} BPM · {grid.get('frame_total', '—')} frame/adegan · "
+           f"20 repo terdokumentasi",
+           "; ".join(masalah_film[:4]))
 
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \

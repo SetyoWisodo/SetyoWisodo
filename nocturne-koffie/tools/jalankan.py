@@ -73,6 +73,7 @@ def main():
         ("riset", ["tools/riset.py"]),
         ("studio", ["tools/studio.py"]),
         ("motion", ["tools/motion.py"]),
+        ("film", ["tools/film.py"]),
         ("slop", ["tools/slop.py"]),
         ("papan", ["tools/papan.py", "--tanggal", TGL]),
         ("periksa", ["tools/periksa.py"]),
@@ -95,6 +96,7 @@ def main():
     print("  riset/index.html            ← riset konten & kata kunci")
     print("  studio/index.html           ← 10 tahap: hook → skrip → brief Senin")
     print("  motion/index.html           ← lab gerak + 5 adegan 9:16 siap rekam")
+    print("  motion/film-sheet.md        ← lembar film: frame, ketukan, arc energi")
     print("  laporan/slop.md             ← audit anti-slop & kontrak desain")
     print("Jalankan server: python3 -m http.server 8080")
 
