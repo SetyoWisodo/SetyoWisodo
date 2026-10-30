@@ -21,6 +21,7 @@ from pathlib import Path
 from .config import Config
 from .engine import Desk
 from .report import build_report, write_report
+from .social_desk import SocialDesk, write_social_report
 from .whale_desk import WhaleDesk, write_whale_report
 
 STATIC = Path(__file__).resolve().parent / "static"
@@ -134,6 +135,28 @@ class WhaleSession(BaseSession):
         return md
 
 
+class SocialSession(BaseSession):
+    desk_name = "social"
+
+    def __init__(self, cfg: Config):
+        super().__init__()
+        self.cfg = cfg
+        self.speed = cfg.social_sim.speed
+        self.new_session()
+
+    def make_desk(self):
+        self.cfg.social_sim.seed += 977      # tiap sesi baru = pasar berbeda
+        return SocialDesk(self.cfg.social_sim, self.cfg.social)
+
+    def tick_delay(self):
+        return self.cfg.social_sim.tick_seconds_wall
+
+    def report_md(self) -> Path:
+        with self.lock:
+            _, md = write_social_report(self.desk)
+        return md
+
+
 class Handler(BaseHTTPRequestHandler):
     sessions: dict[str, BaseSession] = {}
 
@@ -187,6 +210,8 @@ class Handler(BaseHTTPRequestHandler):
             return self._page("index.html")
         if path in ("/whale", "/whale.html"):
             return self._page("whale.html")
+        if path in ("/social", "/social.html"):
+            return self._page("social.html")
         if path == "/healthz":
             return self._json({"ok": True, "desks": list(self.sessions)})
 
@@ -200,7 +225,7 @@ class Handler(BaseHTTPRequestHandler):
         if action == "stream":
             return self._stream(session)
         if action == "report.md":
-            if desk == "whale":
+            if desk in ("whale", "social"):
                 p = session.report_md()
             else:
                 with session.lock:
@@ -262,11 +287,15 @@ class Handler(BaseHTTPRequestHandler):
 
 def serve(host: str = "0.0.0.0", port: int = 8000, cfg: Config | None = None) -> None:
     cfg = cfg or Config()
-    Handler.sessions = {"scan": ScanSession(cfg), "whale": WhaleSession(cfg)}
+    Handler.sessions = {"scan": ScanSession(cfg), "whale": WhaleSession(cfg),
+                        "social": SocialSession(cfg)}
     httpd = ThreadingHTTPServer((host, port), Handler)
     httpd.daemon_threads = True
     print(f"\n  PUMPKIN TERMINAL · http://{host}:{port}")
     print(f"  /       scan desk   · mode={cfg.sim.edge_mode}")
+    print(f"  /social social radar · pasar={cfg.social_sim.mode} · "
+          f"p̂≥{cfg.social.min_p_win:.2f} · target {cfg.social.min_tp*100:.0f}-"
+          f"{cfg.social.max_tp*100:.0f}%")
     print(f"  /whale  whale radar · mode={cfg.whale_sim.edge_mode} · "
           f"{cfg.scalp.position_pct*100:.0f}% per posisi · target +{cfg.scalp.take_profit_pct*100:.0f}%")
     print(f"  paper trading murni — tidak ada wallet, tidak ada order on-chain\n")

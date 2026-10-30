@@ -16,10 +16,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from pumpkin.config import Config, SimConfig, WhaleSimConfig  # noqa: E402
+from pumpkin.config import (Config, SimConfig, SocialSimConfig,  # noqa: E402
+                            WhaleSimConfig)
 from pumpkin.engine import Desk            # noqa: E402
 from pumpkin.report import write_report    # noqa: E402
 from pumpkin.whale_desk import WhaleDesk, write_whale_report  # noqa: E402
+from pumpkin.social_desk import (SocialDesk, run_social_bench,  # noqa: E402
+                                 write_social_report)
 
 
 def _cfg(args) -> Config:
@@ -118,6 +121,76 @@ def cmd_bench(args) -> int:
     out = Path(__file__).resolve().parent / "runs" / "bench.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps({"ticks": args.ticks, "results": out_rows}, indent=2), encoding="utf-8")
+    print(f"  detail: {out}\n")
+    return 0
+
+
+
+def _social_cfg(args) -> SocialSimConfig:
+    return SocialSimConfig(
+        start_balance=getattr(args, "balance", 250.0),
+        ticks=getattr(args, "ticks", 1200),
+        seed=getattr(args, "seed", 21),
+        mode=getattr(args, "mode", "dirty"),
+        tokens_per_tick=getattr(args, "tokens_per_tick", 6),
+    )
+
+
+def cmd_social(args) -> int:
+    cfg = Config()
+    sim = _social_cfg(args)
+    desk = SocialDesk(sim, cfg.social)
+    total = sim.ticks
+    step = max(1, total // 20)
+    print(f"\n  SOCIAL RADAR · pasar={sim.mode} · seed={sim.seed} · "
+          f"p̂ min {cfg.social.min_p_win:.2f}")
+    print(f"  saldo ${sim.start_balance:,.2f} · {total:,} tick "
+          f"(≈{sim.sim_minutes:.0f} menit pasar)\n")
+    while not desk.finished:
+        desk.tick()
+        if desk.tick_no % step == 0:
+            k = desk.kpis()
+            print(f"   tick {desk.tick_no:>5,} · ekuitas ${k['equity']:>9,.2f} "
+                  f"({k['pnl_pct']:+7.2f}%) · trade {k['trades']:>3} · "
+                  f"win {k['win_rate']:5.1f}% · koordinasi dibuang "
+                  f"{k['rejected'].get('koordinasi', 0)}")
+    k = desk.kpis()
+    print(f"\n  selesai: ekuitas ${k['equity']:,.2f} ({k['pnl_pct']:+.2f}%) · "
+          f"{k['trades']} trade · win rate {k['win_rate']:.1f}% · "
+          f"expectancy {k['expectancy_pct']:+.2f}%/trade")
+    jpath, mpath = write_social_report(desk)
+    print(f"  laporan: {mpath}")
+    print(f"  json   : {jpath}\n")
+    return 0
+
+
+def cmd_social_bench(args) -> int:
+    print("\n  SOCIAL RADAR — apakah lapisan deteksi koordinasi layak dipakai?\n")
+    rep = run_social_bench(ticks=args.ticks, seeds=args.seeds)
+    for a in rep["results"]:
+        print(f"  {a['arm']:>13} · {a['sessions']} sesi")
+        print(f"      median PnL  : {a['median_pnl_pct']:+7.2f}%   "
+              f"IQR {a['q1_pnl_pct']:+.2f}% .. {a['q3_pnl_pct']:+.2f}%")
+        print(f"      rentang     : {a['min_pnl_pct']:+.2f}% .. {a['max_pnl_pct']:+.2f}%")
+        print(f"      sesi profit : {a['profitable_sessions']}/{a['sessions']} · "
+              f"win rate {a['avg_win_rate']:.1f}% · trade {a['avg_trades']:.0f} · "
+              f"expectancy {a['avg_expectancy_pct']:+.2f}%/trade\n")
+
+    base = {a["arm"]: a for a in rep["results"]}
+    with_f = base["dirty+filter"]["median_pnl_pct"]
+    no_f = base["dirty-filter"]["median_pnl_pct"]
+    print(f"  Kesimpulan: di pasar yang sama, tanpa detektor koordinasi median "
+          f"{no_f:+.2f}% vs {with_f:+.2f}% dengan detektor. "
+          f"Selisih {with_f - no_f:+.2f} poin — itu nilai lapisan tersebut.\n")
+    print("   • 'dirty-filter' = trader yang membaca jumlah mention saja. Bot farm")
+    print("     membuat token naik 2-3 tick lalu menjatuhkannya; dia yang menanggung.")
+    print("   • Angka ini mengukur mesin di pasar sintetis, bukan hasil di Solana.")
+    print("   • Win rate di sini dihitung dari trade yang benar-benar dieksekusi,")
+    print("     dibandingkan dengan ambang impas empiris (bukan target 70% di atas kertas).\n")
+
+    out = Path(__file__).resolve().parent / "runs" / "social-bench.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(rep, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"  detail: {out}\n")
     return 0
 
@@ -282,6 +355,20 @@ def main() -> int:
     ww.add_argument("--poll", type=float, default=6.0)
     ww.set_defaults(func=cmd_whale_watch)
 
+
+    so = sub.add_parser("social", help="jalankan Social Radar headless")
+    so.add_argument("--ticks", type=int, default=1200)
+    so.add_argument("--balance", type=float, default=250.0)
+    so.add_argument("--seed", type=int, default=21)
+    so.add_argument("--mode", choices=("dirty", "clean"), default="dirty")
+    so.add_argument("--tokens-per-tick", type=int, default=6)
+    so.set_defaults(func=cmd_social)
+
+    sb = sub.add_parser("social-bench", help="bandingkan dengan vs tanpa detektor koordinasi")
+    sb.add_argument("--ticks", type=int, default=1000)
+    sb.add_argument("--seeds", type=int, default=10)
+    sb.set_defaults(func=cmd_social_bench)
+
     v = sub.add_parser("serve", help="jalankan dashboard live")
     common(v)
     v.add_argument("--host", default="0.0.0.0")
@@ -290,6 +377,8 @@ def main() -> int:
     v.add_argument("--whale-edge", choices=("informed", "noise"), default="informed")
     v.add_argument("--whale-ticks", type=int, default=2400)
     v.add_argument("--whale-balance", type=float, default=250.0)
+    v.add_argument("--social-mode", choices=("dirty", "clean"), default="dirty")
+    v.add_argument("--social-ticks", type=int, default=1600)
     v.set_defaults(func=cmd_serve)
 
     args = p.parse_args()

@@ -141,6 +141,50 @@ class WhaleSimConfig:
 
 
 @dataclass
+class SocialRules:
+    """Aturan desk sosial: probabilitas, biaya, dan disiplin."""
+
+    min_p_win: float = 0.72
+    max_coordination: float = 0.50
+    min_signal: float = 0.52
+    entry_delay_ticks: int = 1
+    cost_round_trip: float = 0.040
+    stop_loss: float = 0.06
+    min_tp: float = 0.08
+    max_tp: float = 0.30
+    tp1_fraction: float = 0.5          # ambil separuh posisi di 60% target
+    max_hold_ticks: int = 15
+    max_concurrent: int = 4
+    max_position_pct: float = 0.05
+    max_pct_of_liquidity: float = 0.01
+    daily_loss_limit_pct: float = 0.02
+    daily_target_pct: float = 0.01
+    day_length_ticks: int = 900
+    use_coordination_filter: bool = True
+    use_forensics: bool = True
+    withdraw_at_multiple: float = 2.0   # tarik modal saat ekuitas 2x modal awal
+
+
+@dataclass
+class SocialSimConfig:
+    start_balance: float = 250.0
+    ticks: int = 2400
+    tick_seconds_wall: float = 0.08
+    sim_seconds_per_tick: int = 3
+    tokens_per_tick: int = 6
+    whales: int = 48
+    kols: int = 45
+    bots: int = 220
+    seed: int = 21
+    mode: Literal["clean", "dirty"] = "dirty"   # dirty = ada bot farm
+    speed: float = 1.0
+
+    @property
+    def sim_minutes(self) -> float:
+        return self.ticks * self.sim_seconds_per_tick / 60.0
+
+
+@dataclass
 class Config:
     sim: SimConfig = field(default_factory=SimConfig)
     filters: FilterRules = field(default_factory=FilterRules)
@@ -155,6 +199,8 @@ class Config:
     whale_sim: WhaleSimConfig = field(default_factory=WhaleSimConfig)
     whale: WhaleRules = field(default_factory=WhaleRules)
     scalp: ScalpRules = field(default_factory=ScalpRules)
+    social: SocialRules = field(default_factory=SocialRules)
+    social_sim: SocialSimConfig = field(default_factory=SocialSimConfig)
 
     def to_dict(self) -> dict[str, Any]:
         d = asdict(self)
@@ -163,6 +209,7 @@ class Config:
         d["scalp"]["round_trip_cost_pct"] = self.scalp.round_trip_cost_pct
         d["scalp"]["breakeven_hit_rate"] = self.scalp.breakeven_hit_rate
         d["whale_sim"]["sim_minutes"] = self.whale_sim.sim_minutes
+        d["social_sim"]["sim_minutes"] = self.social_sim.sim_minutes
         return d
 
 

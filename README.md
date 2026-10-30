@@ -168,7 +168,7 @@ cara build-nya ada di [`book/`](book/README.md).
 
 ---
 
-### 🎃 Pumpkin Terminal — Desk Trading 6 Agen + 🐋 Whale Radar (Paper Trading)
+### 🎃 Pumpkin Terminal — 6 Agen + 🐋 Whale Radar + 📡 Social Radar (Paper Trading)
 
 Jawaban teknis atas thread viral "$80 → $5.432 dalam semalam". Dua desk, satu repo,
 **tanpa wallet dan tanpa order on-chain**:
@@ -178,21 +178,27 @@ Jawaban teknis atas thread viral "$80 → $5.432 dalam semalam". Dua desk, satu 
 - **Whale Radar** — memantau dompet whale, mengagregasi aliran dana jadi satu sinyal,
   menilai token dalam milidetik (dev %, bundle %, LP, riwayat rug), lalu mengeksekusi
   **5% ekuitas per posisi** dengan target **+50%**.
+- **Social Radar** — membaca postingan & berita, menilai reputasi akun secara empiris,
+  mendeteksi bot farm (teks klon, burst, akun baru), lalu memakai probabilitas menang
+  **p̂** dan target yang diturunkan dari biaya: `t > ((1−p)·s + c)/p`.
+  Entry hanya kalau **p̂ ≥ 0,72**, ukuran dari **Kelly ¼** (cap 5%), plus batas rugi harian 2%.
 
 Yang menarik justru hasilnya: dengan pipeline lengkap di pasar simulasi yang ramah,
 scan desk median **+174%** vs tanpa keahlian **−46%**; Whale Radar median **+10,2%**
 (hit rate 44,8% vs impas 33,0%) saat whale-nya punya informasi, dan **−0,8%** saat
-whale-nya acak — karena lapisan reputasi berhenti trading. Klaim +6.690% di thread
-berada jauh di luar ekor distribusi bahkan dari simulasi itu sendiri.
+whale-nya acak — karena lapisan reputasi berhenti trading. Social Radar: win rate
+**77,4%** terukur (10 sesi), median **+9,6%**, dan **−2,4%** kalau detektor bot dimatikan.
+Klaim +6.690% di thread berada jauh di luar ekor distribusi bahkan dari simulasi itu sendiri.
 
 ```bash
 cd pumpkin-terminal
-python run.py serve        # dashboard: localhost:8000  dan  /whale
+python run.py serve        # dashboard: localhost:8000  ·  /whale  ·  /social
 python run.py bench        # uji jujur: strategi vs lempar panah
 python run.py whale-bench  # uji jujur: informed whales vs whale acak
+python run.py social-bench # uji jujur: dengan vs tanpa detektor bot
 ```
 
-Kode, aturan filter/risiko, konektor data nyata (Helius), dan 46 test:
+Kode, aturan filter/risiko, konektor data nyata (Helius), dan 76 test:
 [`pumpkin-terminal/`](pumpkin-terminal/README.md)
 
 ---

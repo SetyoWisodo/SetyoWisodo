@@ -6,11 +6,13 @@ Dibangun sebagai jawaban atas thread viral @Shelpid_WI3M ("$80 → $5.432 dalam 
 Arsitekturnya nyata dan bisa dijalankan; angka di thread itu tidak.
 
 ```bash
-python run.py serve        # dashboard live → localhost:8000  ( /  dan  /whale )
+python run.py serve        # dashboard live → localhost:8000  ( /  /whale  /social )
 python run.py sim          # sesi headless scan-desk + laporan
 python run.py whale        # sesi headless Whale Radar + laporan
 python run.py bench        # uji jujur: apakah profit datang dari strategi?
 python run.py whale-bench  # uji jujur: informed whales vs whale acak
+python run.py social       # sesi headless Social Radar + laporan
+python run.py social-bench # uji jujur: dengan vs tanpa detektor koordinasi
 ```
 
 Tanpa dependency. Python 3.10+ saja. Tidak ada `pip install`, tidak ada API key.
@@ -152,6 +154,126 @@ Selama data itu tidak ada, FILTER menolak — dan itu memang seharusnya.
 
 ---
 
+## 📡 Social Radar — berita, KOL, dan bot farm
+
+Modul ketiga menjawab permintaan yang paling eksplisit: **"win rate di atas 70%,
+masukkan semua berita, dan harga yang bergerak karena postingan orang berpengaruh —
+dengan logika matematika yang kelihatan."**
+
+```
+post X/Telegram → sentimen + ticker + engagement
+                → graf pengaruh (reputasi empiris per akun, bukan daftar statis)
+                → deteksi koordinasi (5 fitur: teks klon, burst, akun baru,
+                  rasio follower, konsentrasi ticker)
+                → agregasi: velocity, akselerasi, reach  (turunan, bukan level)
+                → p̂ = σ(bias + Σ wᵢ·fiturᵢ)
+                → target diturunkan dari biaya, EV ≥ 2× biaya, Kelly ¼, cap 5%
+                → GUARD: separuh keluar di 60% target, stop keras, trailing, time stop
+                → JOURNAL (SQLite): setiap trade & setiap penolakan
+```
+
+### Tiga permintaan, tiga penyesuaian yang jujur
+
+**1. "Win rate >70%" tidak bisa berdiri sendiri — ia harus dibandingkan dengan impas.**
+Hit rate impas untuk target `t`, stop `s`, biaya `c` adalah `(s+c)/(t+s)`:
+
+| Target | Stop | Biaya | Hit rate impas |
+|---|---|---|---|
+| 6% | 6% | 1,5% | **62,5%** |
+| 10% | 6% | 1,5% | **46,9%** |
+| 15% | 8% | 1,5% | **41,3%** |
+| 15% | 8% | 4,0% | **52,2%** |
+| 10% | 6% | 6,5% | **78,1%** ← menang 70% masih rugi |
+
+Jadi target 70% baru masuk akal kalau biayanya kecil dan targetnya tidak serakah.
+Desk ini memakai biaya 4,0% (fee + slippage dua arah) dan mengunci p̂ ≥ 0,72.
+
+**2. "Kalau tidak mendukung 1000% dalam satu koin, jangan dipaksa" → jadi aturan keras.**
+Target minimum dihitung dari biaya, bukan dari harapan:
+
+```
+t > ((1 − p)·s + c) / p
+```
+
+Pada p = 0,72, s = 6%, c = 4% → target ≥ 17,1%; sistem lalu juga menuntut
+`EV ≥ 2× biaya`, dan menolak trade kalau `upside_est × 0,7 < target`.
+Frasa "jangan dipaksa" sekarang punya kode dan angka, bukan niat.
+
+**3. "Modal + free trading" → aturan vault.** Saat ekuitas mencapai 2× modal,
+desk menarik modal awal ke vault dan **berhenti mempertaruhkan uangmu**. Setelah itu
+semua trading memakai uang profit. Itu batas struktural atas risiko kehilangan modal —
+bukan janji, dan bukan jaminan.
+
+### Hasil uji — diukur, bukan diklaim
+
+**10 sesi per lengan, 800 tick, $250 awal, p̂ ≥ 0,72, target 8–30%, stop 6%, 5% ekuitas/posisi.**
+
+| Lengan | Median PnL | IQR | Sesi profit | Win rate | Trade | Expectancy/trade |
+|---|---|---|---|---|---|---|
+| **Pasar kotor + detektor koordinasi** | **+9,6%** | +5,1% .. +16,6% | **10/10** | **77,4%** | 28 | +7,75% |
+| Pasar kotor, **tanpa** detektor (naif) | **−2,4%** | −2,6% .. −1,4% | 1/10 | 48,3% | 90 | −1,10% |
+| Pasar bersih (tanpa bot farm) + detektor | **+14,1%** | +3,2% .. +20,6% | 9/10 | 74,8% | 32 | +7,36% |
+
+Yang boleh kamu simpulkan dari tabel itu, dan yang tidak:
+
+- **Win rate 77,4% diukur dari trade yang benar-benar dieksekusi**, dengan ambang
+  impas empiris ±30% (rata-rata menang +13,7% vs kalah −8%). Jadi angkanya
+  bukan 70% di atas kertas — ia lewat ambang impas dengan selisih lebar.
+- **Tanpa detektor koordinasi, median berbalik negatif** (−2,4%) meski win rate-nya
+  masih 48%: 90 trade vs 28 trade, karena trader naif terus membeli shill trap.
+  Selisih +12,0 poin itulah nilai lapisan tersebut — dan itu sebabnya lapisan itu ada.
+- **Pasar bersih lebih untung** (+14,1%) karena tidak ada jebakan. Artinya filtrasi
+  tidak "membuang alpha"; ia membuang kerugian.
+- **Rata-rata p̂ saat entry 0,73 vs win rate 77,4%** → model sedikit *under-confident*,
+  yang arahnya aman (menolak lebih banyak, bukan lebih sedikit).
+- **Semua ini di pasar sintetis.** Harga di sini benar-benar bereaksi pada sinyal.
+  Di pasar nyata kamu adalah orang terakhir yang membaca postingan itu.
+
+Detail mentah: `runs/social-bench.json`.
+
+### Kenapa lapisan koordinasi itu inti, bukan hiasan
+
+Bot farm membuat token naik 2–3 tick lalu menjatuhkannya. Trader yang hanya menghitung
+jumlah mention akan membeli tepat di puncak — dan dialah yang jadi exit liquidity.
+Detektor di sini memakai lima fitur yang semuanya murah dihitung:
+
+| Fitur | Bobot | Yang ditangkap |
+|---|---|---|
+| Duplikasi teks (Jaccard 3-gram ≥ 0,72) | 0,30 | templateshilling yang sama persis |
+| Burst (semua post ≤ 3 tick) | 0,24 | serangan serempak, bukan diskusi |
+| Akun baru (< 7 hari) | 0,18 | farm yang baru dibuat |
+| Rasio follower/following tidak wajar | 0,14 | akun beli follower |
+| Konsentrasi satu ticker | 0,14 | semua menempel satu token |
+
+Reputasi akun **tidak** berasal dari daftar statis: setiap akun ditandai berhasil kalau
+token yang ia sebut naik ≥25% setelah disebut, gagal kalau tidak, lalu dihitung dengan
+Laplace smoothing `(hit+1)/(hit+miss+2)`.
+
+### Yang modul ini bukan
+
+- **Bukan data X/Telegram sungguhan.** Postingan, KOL, bot, dan berita dihasilkan
+  generator di `social_market.py`. `docs/SOCIAL-ALPHA-RESEARCH.md` memetakan tooling
+  nyata (FinBERT, CIB graph analytics, KOL tracker) dan apa yang sengaja tidak diambil.
+- **Bukan bukti strategi ini profit di Solana.** Yang diukur adalah mesinnya: apakah
+  aturan risiko, kalibrasi p̂, dan filter koordinasi bekerja seperti yang dirancang.
+- **Bukan jaminan win rate 70% di pasar nyata.** Di simulasi, harga benar-benar
+  bergerak sesuai sinyal. Di pasar nyata kamu membeli setelah postingan itu dibaca
+  semua orang.
+
+### Menjalankan
+
+```bash
+python run.py social --ticks 1200 --mode dirty    # sesi headless + laporan
+python run.py social-bench --ticks 800 --seeds 10 # dengan vs tanpa detektor koordinasi
+python run.py serve                              # → /social
+```
+
+Hasil mentah tersimpan di `runs/social-bench.json`; laporan per sesi ada di
+`runs/<session>/social-report.md`. Matematikanya di `docs/MATEMATIKA.md`,
+riset tooling-nya di `docs/SOCIAL-ALPHA-RESEARCH.md`.
+
+---
+
 ## Hasil uji jujur — scan desk
 
 `python run.py bench` menjalankan 10 sesi per mode, saldo awal $80, 1.000 tick:
@@ -258,9 +380,18 @@ pumpkin-terminal/
 │   ├── agents.py           SCOUT, FILTER, ANALYST, SNIPER, GUARD, SCRIBE
 │   ├── engine.py           loop tick, portofolio, eksekusi
 │   ├── report.py           laporan JSON + Markdown
+│   ├── whale_desk.py       Whale Radar: aliran whale + forensics
+│   ├── whales.py           reputasi whale (Laplace) + agregasi aliran
+│   ├── forensics.py        rug_risk & latency
+│   ├── social_signal.py    sentimen, graf pengaruh, deteksi koordinasi, p̂ & Kelly
+│   ├── social_market.py    pasar sintetis: KOL, bot farm, berita, rezim
+│   ├── social_desk.py      Social Radar: entry, exit bertingkat, vault, KPI
+│   ├── journal.py          SQLite: trade, keputusan, berita
 │   ├── server.py           dashboard (stdlib HTTP + SSE)
-│   └── static/index.html   UI terminal
-└── tests/test_desk.py      25 test: aturan filter, stop, trailing, invariant portofolio
+│   └── static/             index.html · whale.html · social.html
+├── docs/MATEMATIKA.md      hit-rate impas, required TP, EV, Kelly, survival
+├── docs/SOCIAL-ALPHA-RESEARCH.md  riset tooling sosial + apa yang tidak diambil
+└── tests/                  76 test: filter, stop, trailing, invariant, p̂, Kelly
 ```
 
 ```bash
