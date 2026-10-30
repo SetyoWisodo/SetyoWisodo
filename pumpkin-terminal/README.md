@@ -278,6 +278,59 @@ riset tooling-nya di `docs/SOCIAL-ALPHA-RESEARCH.md`.
 
 ---
 
+## 🧪 Dari "10 repo kuant paling berbahaya di internet"
+
+Ada thread X ([@carm1nee, 29 Okt 2026](https://x.com/carm1nee/status/2115936358003052667))
+yang menyusun 10 repo kuant jadi satu stack: OpenBB, TradingAgents, qlib, RD-Agent,
+gs-quant, nautilus_trader, Chronos, QuantLib, skfolio, vectorbt — klaim **329k+ bintang**.
+
+Saya cek angkanya lewat GitHub API: **329.414 bintang, benar**. Jadi yang diuji bukan
+bintangnya, tapi satu pertanyaan: *apa yang bisa masuk ke sistem ini tanpa membuatnya
+lebih buruk?* Batasnya keras — stdlib, tanpa GPU, tanpa data berbayar, paper trading.
+
+Ringkasan lengkap (termasuk angka tiap uji) ada di
+[`docs/QUANT-STACK.md`](docs/QUANT-STACK.md). Yang masuk ke kode:
+
+| Diambil | Jadi apa |
+|---|---|
+| struktur *TradingAgents* (bull vs bear → tim risiko) | `committee.py`: 8 keberatan + veto/perkecil, **tanpa** LLM |
+| IC & pruning faktor (*qlib*, *RD-Agent*) | `analytics.py`: IC point-biserial + CI bootstrap 95% |
+| CVaR, heat, risk of ruin (*gs-quant*, *skfolio*) | KPI risiko di laporan, dashboard, dan snapshot |
+| ide forecast sebagai gerbang (*Chronos*) | `_forecast_gate`: proyeksi drift 3-tick vs target |
+
+Yang **tidak** diambil: OpenBB (butuh dependency & API key), QuantLib (memecoin tanpa
+opsi), model Chronos (butuh torch), vectorbt (kami tidak punya data historis berlabel —
+backtest massal di pasar sintetis hanya mengukur generator). nautilus_trader tidak perlu:
+desk ini sudah event-driven per tick, dan determinisme yang belum ada sudah ditambahkan.
+
+### Yang penting: dua lapisan diukur, lalu dimatikan
+
+| Uji | Hasil | Keputusan |
+|---|---|---|
+| **Komite veto agregat** (4 sesi × 450 tick) | median **+5,83%** vs **+6,63%** tanpa komite; CVaR **−15,30%** vs −14,07%; win rate sama (69,8%) | **default MATI** |
+| **Gerbang ramalan** (5 sesi × 450 tick) | median +6,29% vs +6,39%; win rate 69,2% vs 68,3%; trade 18,4 vs 18,6 | **default MATI** (opsional) |
+| **IC 8 keberatan komite** (52 trade) | hanya `target_tidak_terjangkau` yang mendekati signifikan (IC −0,22, CI −0,41…0,00). Skor gabungan: IC −0,09, CI melewati nol | skor gabungan tidak dipakai sebagai veto |
+
+Lalu IC fitur inti pada 127 trade yang benar-benar dieksekusi:
+
+| Fitur | IC | CI 95% | Terbukti? |
+|---|---|---|---|
+| `momentum` | **+0,24** | +0,05 … +0,43 | **ya** |
+| `regime` | +0,05 | −0,15 … +0,21 | belum |
+| `social` | +0,04 | −0,13 … +0,24 | belum |
+| `coordination` | +0,03 | −0,17 … +0,19 | belum |
+| `safety` | −0,04 | −0,21 … +0,11 | belum |
+| `liquidity` | −0,05 | −0,22 … +0,12 | belum |
+
+`social` dan `coordination` tidak terbukti **karena restriction of range**: keduanya
+sudah dipakai menyaring, jadi variasi yang tersisa di dalam sampel tinggal sedikit.
+Momentum tidak pernah jadi filter keras — karena itu ia masih membawa informasi.
+
+Dan justru di sini jebakan tuning-nya: menaikkan bobot momentum berdasarkan tabel ini
+adalah overfitting pada 127 sampel. Tabelnya ditulis sebagai temuan, bukan instruksi.
+
+---
+
 ## Hasil uji jujur — scan desk
 
 `python run.py bench` menjalankan 10 sesi per mode, saldo awal $80, 1.000 tick:
@@ -390,12 +443,15 @@ pumpkin-terminal/
 │   ├── social_signal.py    sentimen, graf pengaruh, deteksi koordinasi, p̂ & Kelly
 │   ├── social_market.py    pasar sintetis: KOL, bot farm, berita, rezim
 │   ├── social_desk.py      Social Radar: entry, exit bertingkat, vault, KPI
+│   ├── committee.py        komite risiko: 8 keberatan, veto/perkecil (default mati)
+│   ├── analytics.py        IC + CI bootstrap, CVaR, heat, risk of ruin
 │   ├── journal.py          SQLite: trade, keputusan, berita
 │   ├── server.py           dashboard (stdlib HTTP + SSE)
 │   └── static/             index.html · whale.html · social.html
 ├── docs/MATEMATIKA.md      hit-rate impas, required TP, EV, Kelly, survival
 ├── docs/SOCIAL-ALPHA-RESEARCH.md  riset tooling sosial + apa yang tidak diambil
-└── tests/                  77 test: filter, stop, trailing, invariant, p̂, Kelly
+├── docs/QUANT-STACK.md     10 repo kuant dari thread X: diambil/dibuang + hasil uji
+└── tests/                  92 test: filter, stop, trailing, invariant, p̂, Kelly, IC, CVaR
 ```
 
 ```bash

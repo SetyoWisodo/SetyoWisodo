@@ -20,6 +20,8 @@ import uuid
 from pathlib import Path
 
 from .agents import Scribe
+from .analytics import feature_ic, portfolio_heat, risk_report
+from .committee import BearResearcher, RiskCommittee, stop_risk_pct
 from .config import RUNS_DIR, SocialRules, SocialSimConfig
 from .forensics import DevLedger, Forensics
 from .journal import Journal
@@ -32,7 +34,8 @@ from .social_signal import (AlphaEngine, InfluenceGraph, SocialAggregator,
 class LivePosition:
     __slots__ = ("address", "symbol", "qty", "entry_price", "entry_tick", "cost_usd",
                  "initial_qty", "peak_price", "last_price", "realized", "tp1_done",
-                 "p_win", "ev_pct", "tp", "sl", "features", "fees", "initial_cost")
+                 "p_win", "ev_pct", "tp", "sl", "features", "fees", "initial_cost",
+                 "bear_score", "bear_features")
 
     def __init__(self, address: str, symbol: str, qty: float, entry_price: float,
                  entry_tick: int, cost_usd: float, p_win: float, ev_pct: float,
@@ -55,6 +58,8 @@ class LivePosition:
         self.sl = sl
         self.features = features
         self.fees = 0.0
+        self.bear_score = 0.0
+        self.bear_features: dict = {}
 
     @property
     def gain(self) -> float:
@@ -92,6 +97,12 @@ class SocialDesk:
             min_tp=self.rules.min_tp,
             max_tp=self.rules.max_tp,
         )
+        self.bear = BearResearcher()
+        self.committee = RiskCommittee(
+            veto_at=self.rules.bear_veto,
+            downsize_at=self.rules.bear_downsize_at,
+            heat_cap=self.rules.max_heat_pct,
+        )
         self.scribe = Scribe(self.run_dir)
         self.journal = Journal(self.run_dir / "trades.db")
 
@@ -125,6 +136,11 @@ class SocialDesk:
         self._probe_total = 0
         self._probe_hit = 0
         self._p_log: list[float] = []
+        self._labeled: list[dict] = []       # untuk IC per fitur
+        self._labeled_obj: list[dict] = []   # IC per keberatan komite
+        self._downsized = 0
+        self._committee_log: list[dict] = []
+        self._bear_sum: list[float] = []
 
     # ------------------------------------------------------------------ util
     def _log(self, agent: str, kind: str, message: str, **data) -> None:
@@ -254,6 +270,9 @@ class SocialDesk:
                 "safety": d.features["safety"], "momentum": d.features["momentum"],
                 "regime": d.features["regime"], "liquidity": d.features["liquidity"]},
         )
+        pos = self.positions[d.token]
+        pos.bear_score = getattr(d, "bear_score", 0.0)
+        pos.bear_features = dict(getattr(d, "bear_features", {}) or {})
         self._log("SNIPER", "enter",
                   f"BELI {d.symbol} ${size:,.2f} · p̂ {d.p_win:.2f} · EV {d.ev_pct*100:+.2f}% "
                   f"· TP {d.take_profit*100:.1f}% / SL {d.stop_loss*100:.1f}%",
@@ -340,6 +359,10 @@ class SocialDesk:
             hold_ticks=self.tick_no - pos.entry_tick,
         )
         self._day_pnl += pnl
+        self._labeled.append({"features": dict(pos.features), "won": pnl > 0})
+        if pos.bear_features:
+            self._labeled_obj.append({"features": dict(pos.bear_features),
+                                      "bear": pos.bear_score, "won": pnl > 0})
         self._log("GUARD", "exit",
                   f"JUAL {pos.symbol} {pnl_pct*100:+.2f}% (${pnl:+.2f}) · {reason} · "
                   f"tahan {self.tick_no - pos.entry_tick} tick",
@@ -411,6 +434,58 @@ class SocialDesk:
                           f"{sig.symbol} ditolak · {'; '.join(decision.reasons[:2])}")
                 continue
 
+            if self.rules.use_forecast_gate:
+                ok, why = self._forecast_gate(tok, decision)
+                if not ok:
+                    self._bump("proyeksi")
+                    self._log("RISK", "reject", f"{sig.symbol} dilewati · {why}")
+                    self.journal.record_decision(
+                        session=self.session_id, tick=self.tick_no, token=tok.address,
+                        symbol=sig.symbol, approved=False, p_win=decision.p_win,
+                        coordination=sig.coordination, social=sig.strength,
+                        safety=decision.features.get("safety", 0.0), reasons=[why])
+                    continue
+
+            # ---- komite risiko: lawan bicara yang mencari alasan menolak
+            #      bear SELALU dihitung supaya keberatannya bisa diukur IC-nya;
+            #      ia hanya punya kuasa veto kalau use_committee aktif.
+            bear = self.bear.examine(
+                features=decision.features, decision=decision,
+                price_hist=self._price_hist.get(tok.address, []),
+                max_hold_ticks=self.rules.max_hold_ticks,
+                heat=self._heat(), heat_cap=self.rules.max_heat_pct)
+            decision.bear_score = bear.score
+            decision.bear_features = {o.key: o.severity for o in bear.objections}
+            self._bear_sum.append(bear.score)
+
+            if self.rules.use_committee:
+                verdict = self.committee.sign_off(
+                    bear=bear, decision=decision, heat=self._heat(),
+                    new_heat=stop_risk_pct(decision.size_pct, decision.stop_loss))
+                self._committee_log.append({
+                    "tick": self.tick_no, "symbol": sig.symbol,
+                    "bear": round(bear.score, 3), "approved": verdict.approved,
+                    "scale": round(verdict.scale, 2), "note": verdict.note,
+                    "objections": [o.public() for o in bear.objections],
+                })
+                self._committee_log = self._committee_log[-40:]
+                if not verdict.approved:
+                    self._bump("komite")
+                    self._log("RISK", "reject", f"{sig.symbol} ditolak komite · {verdict.note}")
+                    self.journal.record_decision(
+                        session=self.session_id, tick=self.tick_no, token=tok.address,
+                        symbol=sig.symbol, approved=False, p_win=decision.p_win,
+                        coordination=sig.coordination, social=sig.strength,
+                        safety=decision.features.get("safety", 0.0),
+                        reasons=[verdict.note])
+                    continue
+                if verdict.scale < 1.0:
+                    decision.size_pct = max(0.01, decision.size_pct * verdict.scale)
+                    self._downsized += 1
+                    self._log("RISK", "downsize",
+                              f"{sig.symbol} diperkecil ke {verdict.scale*100:.0f}% · "
+                              f"bear {bear.score:.2f}")
+
             self._queue.append((self.tick_no + self.rules.entry_delay_ticks, decision))
             self._traded.add(sig.symbol)
             self._signal_probes.append({"token": tok.address, "price": tok.price,
@@ -421,6 +496,28 @@ class SocialDesk:
                       f"TP {decision.take_profit*100:.1f}% · EV {decision.ev_pct*100:+.2f}%")
             if len(self.positions) + len(self._queue) >= self.rules.max_concurrent:
                 return
+
+    def _heat(self) -> float:
+        """Total risiko terbuka: uang yang hilang kalau semua stop kena."""
+        return portfolio_heat(
+            [p.cost_usd * p.sl for p in self.positions.values()], self.equity())
+
+    def _forecast_gate(self, tok, decision) -> tuple[bool, str]:
+        """Gerbang ramalan sederhana: apakah drift 3 tick terakhir sanggup mencapai TP
+        dalam sisa waktu yang diizinkan?
+
+        Ini satu-satunya keberatan komite yang lolos uji IC di data kami
+        (lihat ``docs/QUANT-STACK.md``); sisanya terbukti derau.
+        """
+        h = self._price_hist.get(tok.address, [])
+        if len(h) < 4:
+            return True, ""
+        drift = (h[-1] / h[0] - 1.0) / 3.0
+        proyeksi = max(0.0, drift) * self.rules.max_hold_ticks
+        if proyeksi < decision.take_profit * 0.6:
+            return False, (f"proyeksi {proyeksi*100:+.1f}% < 60% target "
+                           f"{decision.take_profit*100:.1f}%")
+        return True, ""
 
     def _momentum(self, tok) -> float:
         """Momentum dinilai sebagai BAND, bukan "makin naik makin bagus".
@@ -562,11 +659,39 @@ class SocialDesk:
             "halted": self.tick_no < self._halted_until,
             "latency_p50_ms": lat["p50"],
             "latency_p95_ms": lat["p95"],
+            "heat_pct": round(self._heat() * 100, 2),
+            "bear_avg": round(sum(self._bear_sum) / len(self._bear_sum), 3)
+            if self._bear_sum else 0.0,
+            "committee_vetoes": self._rejected.get("komite", 0),
+            "downsized": self._downsized,
+            "risk": self._risk_kpis(),
             "accounts": self.graph.stats(),
             "mode": self.sim.mode,
             "cost_pct": round(self.rules.cost_round_trip * 100, 2),
             "finished": self.finished,
         }
+
+    def _risk_kpis(self) -> dict:
+        trades = [{"pnl_pct": t.pnl_pct * 100, "pnl_usd": t.pnl_usd} for t in self.trades]
+        rep = risk_report(trades, self.start_balance)
+        rep.pop("trades", None)
+        return rep
+
+    def feature_scores(self) -> dict:
+        """IC per fitur: fitur mana yang benar-benar bergerak bersama kemenangan."""
+        return feature_ic(self._labeled)
+
+    def objection_scores(self) -> dict:
+        """IC tiap keberatan komite. Yang IC-nya nol berarti cuma basa-basi."""
+        keys = ["hype_tanpa_substansi", "percakapan_dipesan", "kejar_harga",
+                "rezim_lemah", "likuiditas_tipis", "target_tidak_terjangkau",
+                "margin_tipis", "portofolio_panas"]
+        rows = [{"features": {k: r["features"].get(k, 0.0) for k in keys},
+                 "won": r["won"]} for r in self._labeled_obj]
+        ic = feature_ic(rows)
+        ic["_skor_total"] = feature_ic([{"features": {"bear": r["bear"]},
+                                        "won": r["won"]} for r in self._labeled_obj]).get("bear", {})
+        return ic
 
     def snapshot(self) -> dict:
         ec = self._exit_cost()
@@ -585,6 +710,9 @@ class SocialDesk:
             } for p in self.positions.values()],
             "trades": [t.public() for t in self.trades[-20:]][::-1],
             "leaderboard": self.graph.leaderboard(8),
+            "committee": self._committee_log[-8:][::-1],
+            "feature_ic": self.feature_scores(),
+            "objection_ic": self.objection_scores(),
             "news": [n.public() for n in self.market.news[-6:]],
             "equity_curve": self.equity_curve[-400:],
             "config": {
@@ -633,6 +761,10 @@ def build_social_report(desk: SocialDesk) -> dict:
         "account_stats": desk.graph.stats(),
         "news": [n.public() for n in desk.market.news],
         "rejected": dict(desk._rejected),
+        "risk": k.get("risk", {}),
+        "feature_ic": desk.feature_scores(),
+        "objection_ic": desk.objection_scores(),
+        "committee": desk._committee_log[-20:],
         "disclaimer": DISCLAIMER,
     }
 
@@ -655,6 +787,11 @@ def render_social_markdown(d: dict) -> str:
                      for n in d["news"][-10:]) or "| — | — | — |"
 
     rej = ", ".join(f"{k2} ×{v}" for k2, v in sorted(d["rejected"].items())) or "—"
+    ic_rows = "\n".join(
+        f"| `{kk}` | {v['ic']:+.3f} | {v['lo']:+.2f} … {v['hi']:+.2f} | "
+        f"{'**ya**' if v['berguna'] else 'belum'} |"
+        for kk, v in sorted(d.get("feature_ic", {}).items(),
+                            key=lambda kv: -abs(kv[1]["ic"]))) or "| — | — | — | — |"
     calib = (k["win_rate"] - k["avg_p_win"] * 100) if k["trades"] else 0.0
     edge = "**ya**" if k["win_rate"] > k["empirical_breakeven"] else "**tidak**"
 
@@ -705,6 +842,26 @@ def render_social_markdown(d: dict) -> str:
 | Akun | Jenis | Followers | Hit | Miss | Reputasi |
 |---|---|---|---|---|---|
 {leaders}
+
+## Risiko
+
+| Metrik | Nilai |
+|---|---|
+| CVaR 95% (per trade) | {k['risk'].get('cvar_95_pct', 0):.2f}% |
+| Kerugian ekor rata-rata | ${k['risk'].get('cvar_95_usd', 0):,.2f} |
+| Persentil P05 / P50 / P95 | {k['risk'].get('percentiles', {}).get('p05', 0):.2f}% / {k['risk'].get('percentiles', {}).get('p50', 0):.2f}% / {k['risk'].get('percentiles', {}).get('p95', 0):.2f}% |
+| Risk of ruin (DD 30%) | {('%.1f%%' % k['risk']['risk_of_ruin_pct']) if k['risk'].get('risk_of_ruin_pct') is not None else '— (butuh ≥30 trade)'} |
+| Heat portofolio terbuka | {k['heat_pct']:.2f}% ekuitas |
+
+## IC fitur (uji apakah fitur benar-benar bergerak bersama kemenangan)
+
+| Fitur | IC | CI 95% | Terbukti? |
+|---|---|---|---|
+{ic_rows}
+
+> IC dihitung hanya pada trade yang dieksekusi. Fitur yang CI-nya melewati nol
+> **belum terbukti** — berapa pun besar angkanya. Jangan tuning pada tabel ini
+> memakai data yang sama yang dipakai menghitungnya.
 
 ## Berita yang masuk
 

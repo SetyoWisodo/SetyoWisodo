@@ -9,6 +9,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from pumpkin.analytics import (cvar, feature_ic, point_biserial,  # noqa: E402
+                               portfolio_heat, prune_features, risk_of_ruin,
+                               risk_report)
+from pumpkin.committee import BearResearcher, RiskCommittee  # noqa: E402
 from pumpkin.config import SocialRules, SocialSimConfig  # noqa: E402
 from pumpkin.journal import Journal  # noqa: E402
 from pumpkin.social_desk import SocialDesk, build_social_report, render_social_markdown  # noqa: E402
@@ -307,6 +311,132 @@ class TestDesk(unittest.TestCase):
         import json
         snap = json.dumps(self.desk.snapshot())
         self.assertNotIn('"quality"', snap)
+
+
+
+
+class TestAnalytics(unittest.TestCase):
+    def test_ic_mendeteksi_fitur_yang_benar(self):
+        vals = [i / 100 for i in range(100)]
+        wins = [v > 0.5 for v in vals]
+        self.assertGreater(point_biserial(vals, wins), 0.5)
+        self.assertLess(point_biserial(vals, [not w for w in wins]), -0.5)
+        self.assertEqual(point_biserial([0.1] * 20, [True, False] * 10), 0.0)
+
+    def test_ic_derau_tidak_dianggap_berguna(self):
+        import random as _r
+        rng = _r.Random(1)
+        rows = [{"features": {"fitur": rng.random()}, "won": rng.random() < 0.5}
+                for _ in range(80)]
+        ic = feature_ic(rows)
+        self.assertFalse(ic["fitur"]["berguna"])
+        self.assertEqual(prune_features(ic)[0], [])
+
+    def test_cvar_lebih_buruk_dari_rata_rata(self):
+        pnls = [10, 8, 6, 4, -2, -3, -20, -35]
+        self.assertLess(cvar(pnls, 0.25), sum(pnls) / len(pnls))
+        self.assertAlmostEqual(cvar(pnls, 0.25), -27.5, places=6)
+
+    def test_heat_adalah_bagian_ekuitas(self):
+        self.assertAlmostEqual(portfolio_heat([0.3, 0.3, 0.6], 100.0), 0.012, places=6)
+        self.assertEqual(portfolio_heat([1.0], 0.0), 1.0)
+
+    def test_risk_of_ruin_nol_tanpa_kerugian(self):
+        self.assertEqual(risk_of_ruin(1.0, 0.10, 0.0), 0.0)
+        self.assertEqual(risk_of_ruin(0.70, 0.10, 0.0), 0.0)
+        self.assertEqual(risk_of_ruin(0.0, 0.10, 0.05), 1.0)
+
+    def test_risk_of_ruin_butuh_sampel(self):
+        rows = [{"pnl_pct": 1.0, "pnl_usd": 0.1}] * 5
+        self.assertIsNone(risk_report(rows, 250)["risk_of_ruin_pct"])
+        self.assertIsNotNone(risk_report(rows * 8, 250)["risk_of_ruin_pct"])
+
+    def test_risk_of_ruin_naik_saat_edge_memburuk(self):
+        bagus = risk_of_ruin(0.75, 0.14, 0.06, 0.30, paths=800)
+        buruk = risk_of_ruin(0.40, 0.05, 0.15, 0.30, paths=800)
+        self.assertLess(bagus, buruk)
+
+
+class TestCommittee(unittest.TestCase):
+    def _decision(self, **kw):
+        base = dict(token="T", symbol="T", p_win=0.80, ev_pct=0.08, take_profit=0.15,
+                    stop_loss=0.06, required_tp=0.12, upside_est=0.4, size_pct=0.05,
+                    approved=True, reasons=[], features={})
+        base.update(kw)
+        from pumpkin.social_signal import AlphaDecision
+        return AlphaDecision(**base)
+
+    def test_keberatan_koordinasi_dihasilkan(self):
+        bear = BearResearcher().examine(
+            features=dict(social=0.9, coordination=0.8, safety=0.3, regime=0.3,
+                          momentum=0.5, liquidity=0.2),
+            decision=self._decision(), price_hist=[1, 1.1, 1.2, 1.35],
+            max_hold_ticks=15)
+        keys = {o.key for o in bear.objections}
+        self.assertIn("percakapan_dipesan", keys)
+        self.assertIn("hype_tanpa_substansi", keys)
+        self.assertGreater(bear.score, 0.6)
+
+    def test_komite_menolak_di_atas_ambang(self):
+        c = RiskCommittee(veto_at=0.6)
+        from pumpkin.committee import BearCase, Objection
+        bear = BearCase(0.75, "Berhenti.", [Objection("x", 0.9, "contoh")])
+        v = c.sign_off(bear=bear, decision=self._decision(), heat=0.0, new_heat=0.003)
+        self.assertFalse(v.approved)
+        self.assertIn("menolak", v.note)
+
+    def test_komite_memperkecil_bukan_menolak(self):
+        c = RiskCommittee(veto_at=0.9, downsize_at=0.4, downsize_scale=0.5)
+        from pumpkin.committee import BearCase, Objection
+        bear = BearCase(0.5, "hati-hati", [Objection("x", 0.5, "contoh")])
+        v = c.sign_off(bear=bear, decision=self._decision(), heat=0.0, new_heat=0.003)
+        self.assertTrue(v.approved)
+        self.assertLess(v.scale, 1.0)
+        self.assertGreaterEqual(v.scale, 0.25)
+
+    def test_heat_penuh_menolak(self):
+        c = RiskCommittee(heat_cap=0.01)
+        from pumpkin.committee import BearCase
+        v = c.sign_off(bear=BearCase(0.0, "", []), decision=self._decision(),
+                       heat=0.009, new_heat=0.004)
+        self.assertFalse(v.approved)
+        self.assertIn("heat", v.note)
+
+    def test_komite_tidak_boleh_memperbesar(self):
+        c = RiskCommittee()
+        from pumpkin.committee import BearCase
+        v = c.sign_off(bear=BearCase(0.0, "", []), decision=self._decision(),
+                       heat=0.0, new_heat=0.003)
+        self.assertEqual(v.scale, 1.0)
+
+
+class TestDeskRisiko(unittest.TestCase):
+    """Komite default MATI — keputusan trading harus sama seperti sebelumnya."""
+
+    def test_default_komite_mati(self):
+        self.assertFalse(SocialRules().use_committee)
+        self.assertFalse(SocialRules().use_forecast_gate)
+
+    def test_kpi_risiko_ada(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            d = SocialDesk(SocialSimConfig(ticks=220, seed=4), SocialRules(), Path(tmp))
+            while not d.finished:
+                d.tick()
+            k = d.kpis()
+        self.assertIn("cvar_95_pct", k["risk"])
+        self.assertIn("risk_of_ruin_pct", k["risk"])
+        self.assertGreaterEqual(k["heat_pct"], 0.0)
+        self.assertEqual(len(d._labeled), k["trades"])
+
+    def test_komite_bisa_dinyalakan(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            d = SocialDesk(SocialSimConfig(ticks=160, seed=4),
+                           SocialRules(use_committee=True), Path(tmp))
+            while not d.finished:
+                d.tick()
+            snap = d.snapshot()
+        self.assertIn("committee", snap)
+        self.assertEqual(len(snap["committee"]), len(d._committee_log))
 
 
 if __name__ == "__main__":

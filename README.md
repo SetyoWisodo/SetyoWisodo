@@ -199,7 +199,12 @@ python run.py whale-bench  # uji jujur: informed whales vs whale acak
 python run.py social-bench # uji jujur: dengan vs tanpa detektor bot
 ```
 
-Kode, aturan filter/risiko, konektor data nyata (Helius), dan 77 test:
+Tambahan riset: 10 repo kuant dari thread X (329k bintang, dicek lewat API) diuji satu
+per satu — empat diambil metodenya, dua lapisan (komite veto & gerbang ramalan)
+**diukur lalu dimatikan** karena tidak membayar dirinya sendiri. Lihat
+[`docs/QUANT-STACK.md`](pumpkin-terminal/docs/QUANT-STACK.md).
+
+Kode, aturan filter/risiko, konektor data nyata (Helius), dan 92 test:
 [`pumpkin-terminal/`](pumpkin-terminal/README.md)
 
 ---

@@ -416,6 +416,9 @@ class AlphaDecision:
     size_pct: float
     approved: bool
     reasons: list[str] = field(default_factory=list)
+    features: dict[str, float] = field(default_factory=dict)
+    bear_score: float = 0.0
+    bear_features: dict[str, float] = field(default_factory=dict)
 
     def public(self) -> dict:
         return {

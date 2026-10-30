@@ -139,6 +139,8 @@ def _social_cfg(args) -> SocialSimConfig:
 def cmd_social(args) -> int:
     cfg = Config()
     sim = _social_cfg(args)
+    if getattr(args, "committee", False):
+        cfg.social.use_committee = True
     desk = SocialDesk(sim, cfg.social)
     total = sim.ticks
     step = max(1, total // 20)
@@ -362,6 +364,8 @@ def main() -> int:
     so.add_argument("--seed", type=int, default=21)
     so.add_argument("--mode", choices=("dirty", "clean"), default="dirty")
     so.add_argument("--tokens-per-tick", type=int, default=6)
+    so.add_argument("--committee", action="store_true",
+                    help="aktifkan veto komite risiko (terukur tidak menambah edge)")
     so.set_defaults(func=cmd_social)
 
     sb = sub.add_parser("social-bench", help="bandingkan dengan vs tanpa detektor koordinasi")

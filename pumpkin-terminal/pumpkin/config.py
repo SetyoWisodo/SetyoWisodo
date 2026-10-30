@@ -162,6 +162,11 @@ class SocialRules:
     day_length_ticks: int = 900
     use_coordination_filter: bool = True
     use_forensics: bool = True
+    use_committee: bool = False       # veto agregat komite — TERUKUR TIDAK MEMBANTU, default mati
+    use_forecast_gate: bool = False   # diuji: netral (win rate +0.9pp, median -0.1pp) — opt-in
+    bear_veto: float = 0.62           # skor keberatan yang langsung menolak
+    bear_downsize_at: float = 0.50    # skor keberatan yang memperkecil posisi
+    max_heat_pct: float = 0.08        # total risiko terbuka maksimum (ekuitas)
     withdraw_at_multiple: float = 2.0   # tarik modal saat ekuitas 2x modal awal
 
 

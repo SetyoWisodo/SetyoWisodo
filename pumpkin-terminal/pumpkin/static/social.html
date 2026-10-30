@@ -195,6 +195,17 @@
       </div>
 
       <div class="card">
+        <h3>Risiko &amp; IC Fitur <em id="riskNote"></em></h3>
+        <div class="body" style="padding:9px 12px 4px">
+          <div id="riskRow" style="display:flex;gap:16px;flex-wrap:wrap;font-size:10.5px;color:var(--dim)"></div>
+          <table style="margin-top:8px">
+            <thead><tr><th>Fitur</th><th class="num">IC</th><th class="num">CI 95%</th><th>Terbukti?</th></tr></thead>
+            <tbody id="icBody"><tr><td colspan="4" class="empty">butuh ≥3 trade tertutup</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
         <h3>Log RADAR <em id="logTotal">0</em></h3>
         <div id="log"></div>
       </div>
@@ -209,6 +220,10 @@
     sampel kecil (20–30 trade), jadi win rate-nya bisa 50–90%. Angka yang diklaim
     (73,5% dari 10 sesi × 800 tick, median +13,4%) berasal dari
     <code>run.py social-bench</code> — jalankan sendiri untuk memverifikasi.
+    <b>IC fitur</b> di panel kanan adalah uji sesungguhnya: kalau CI 95%-nya melewati
+    nol, fitur itu belum terbukti membantu — berapa pun besar angkanya. Komite risiko
+    (8 keberatan gaya TradingAgents) sudah diukur dan <b>dimatikan</b> karena tidak
+    membayar dirinya sendiri: lihat <code>docs/QUANT-STACK.md</code>.
     Pasar, postingan, KOL, dan bot di halaman ini <b>dihasilkan generator</b>;
     angka ini mengukur mesinnya, bukan pasar Solana nyata.
   </div>
@@ -324,6 +339,32 @@ function renderNews(news){
     <td style="white-space:normal">${esc(n.headline)}</td></tr>`).join("");
 }
 
+function renderRisk(k){
+  const r = k.risk || {};
+  $("riskNote").textContent = k.heat_pct !== undefined ? `heat ${k.heat_pct}%` : "";
+  $("riskRow").innerHTML = [
+    ["CVaR 95%", (r.cvar_95_pct ?? 0).toFixed(2) + "%", (r.cvar_95_pct ?? 0) < 0 ? "down" : "neu"],
+    ["Kerugian ekor", fmtUsd(r.cvar_95_usd ?? 0), "neu"],
+    ["Risk of ruin", (r.risk_of_ruin_pct === null || r.risk_of_ruin_pct === undefined)
+        ? "— (butuh 30 trade)" : r.risk_of_ruin_pct.toFixed(1) + "%",
+     (r.risk_of_ruin_pct ?? 0) > 25 ? "down" : "neu"],
+    ["Heat", (k.heat_pct ?? 0).toFixed(2) + "%", "neu"],
+  ].map(([l,v,c]) => `<span>${l} <b class="${c}">${v}</b></span>`).join("");
+}
+
+function renderIc(ic){
+  const rows = Object.entries(ic || {});
+  if(!rows.length){ $("icBody").innerHTML = `<tr><td colspan="4" class="empty">butuh ≥3 trade tertutup</td></tr>`; return; }
+  rows.sort((a,b) => Math.abs(b[1].ic) - Math.abs(a[1].ic));
+  $("icBody").innerHTML = rows.map(([k,v]) => {
+    const ok = v.berguna;
+    return `<tr><td>${esc(k)}</td>
+      <td class="num ${v.ic>0?"up":"down"}">${v.ic.toFixed(3)}</td>
+      <td class="num">${v.lo.toFixed(2)} … ${v.hi.toFixed(2)}</td>
+      <td>${ok ? '<span class="tag tp">ya</span>' : '<span class="tag">belum</span>'}</td></tr>`;
+  }).join("");
+}
+
 function renderLog(events){
   if(!events || !events.length) return;
   const log = $("log"), frag = document.createDocumentFragment();
@@ -381,6 +422,7 @@ function apply(s){
   renderPositions(s.positions); renderTrades(s.trades);
   renderAccounts(s.leaderboard, s.kpis.accounts);
   renderNews(s.news || []);
+  renderRisk(s.kpis); renderIc(s.feature_ic);
   renderLog(s.events);
   drawChart(s.equity_curve, s.kpis.start_balance);
   $("btnPause").textContent = s.paused ? "Lanjut" : "Pause";
