@@ -369,8 +369,9 @@ def frame_html(s, poster, tgl):
 
 # ───────────────────────────── lab gerak ───────────────────────────────────
 def lab(frames, slop, kreatif, tgl):
-    berat = (os.path.getsize(os.path.join(ROOT, "assets/css/motion-ui.css"))
-             + os.path.getsize(os.path.join(ROOT, "assets/js/motion-ui.js"))) / 1024
+    berkas_gerak = ["assets/css/motion-ui.css", "assets/js/motion-ui.js",
+                    "assets/css/motion-3d.css", "assets/js/motion-3d.js"]
+    berat = sum(os.path.getsize(os.path.join(ROOT, f)) for f in berkas_gerak) / 1024
     kritis = slop.get("kritis", 0)
     perhatian = slop.get("perhatian", 0)
     aturan = slop.get("aturan_diperiksa", 0)
@@ -432,8 +433,8 @@ def lab(frames, slop, kreatif, tgl):
     <div><span>Repo</span><b>4 + 1</b><em>dipakai utuh + prinsipnya (Figma)</em></div>
     <div><span>Aturan audit</span><b>{aturan}</b><em>{kritis} kritis · {perhatian} perhatian</em></div>
     <div><span>Adegan 9:16</span><b>{len(frames)}</b><em>dari 5 skrip studio</em></div>
-    <div><span>Komponen</span><b>6</b><em>vanilla, tanpa React</em></div>
-    <div><span>Berat tambahan</span><b>{f"{berat:.1f}".replace(".", ",")} KB</b><em>CSS + JS komponen, tanpa CDN</em></div>
+    <div><span>Komponen</span><b>6 + 3</b><em>vanilla + panggung 3D</em></div>
+    <div><span>Berat tambahan</span><b>{f"{berat:.1f}".replace(".", ",")} KB</b><em>dua lapisan CSS + JS, tanpa CDN</em></div>
   </div>
 
   <h2>1 · Tujuh repo, apa yang benar-benar dipakai</h2>
@@ -485,7 +486,21 @@ def lab(frames, slop, kreatif, tgl):
 
   <div class="quote" data-ui="reveal">Gerak yang baik tidak terlihat sebagai gerak.<br>Ia hanya membuat mata tahu ke mana harus pergi.</div>
 
-  <h2>3 · Adegan 9:16 — menulis HTML, bukan merender video</h2>
+  <h2>3 · Panggung 3D untuk landing page</h2>
+  <p class="lede">Gaya "sangat 3D" dari galeri desain bukan WebGL: <b>perspective</b>, objek
+  berlapis di kedalaman berbeda, lantai berpetak, dan kamera yang bergerak. Tiga komponennya
+  hidup di <a href="../kampanye/index.html">landing kampanye</a> — di sini hanya daftarnya.</p>
+  <table><thead><tr><th>Komponen</th><th>Atribut</th><th>Batas</th></tr></thead><tbody>
+    <tr><td><b>Panggung hero</b><br><span class="lede" style="font-size:12px">3 kartu di 3 kedalaman + chip data</span></td><td><code>data-3d="panggung"</code></td><td>rotasi 14° · dolly 150 px</td></tr>
+    <tr><td><b>Silinder klip</b><br><span class="lede" style="font-size:12px">5 pane, 72° per langkah</span></td><td><code>data-3d="silinder"</code></td><td>radius 292 px · perspective 1400 px</td></tr>
+    <tr><td><b>Kartu timbul</b><br><span class="lede" style="font-size:12px">tiga kartu produk</span></td><td><code>data-3d="timbul"</code></td><td>miring maks 8° · anak +16 px</td></tr>
+  </tbody></table>
+  <p class="lede" style="margin-top:8px">Jatuh datar di tiga keadaan: tanpa JS, layar &lt; 900 px,
+  dan <code>prefers-reduced-motion</code>. Korsel berubah menjadi grid, bukan setengah lingkaran
+  yang setengah jadi. Berkas: <code>assets/css/motion-3d.css</code> ·
+  <code>assets/js/motion-3d.js</code>.</p>
+
+  <h2>4 · Adegan 9:16 — menulis HTML, bukan merender video</h2>
   <p class="lede">Tiap adegan adalah halaman HTML dengan timeline waktu eksplisit. Bisa diputar,
   dijeda, dan diseek (<code>?t=3.2</code>). Untuk jadi video: rekam layar, atau render ffmpeg di
   mesin yang punya ffmpeg — di sandbox ini tidak ada, dan tidak diklaim ada.</p>
@@ -497,19 +512,20 @@ def lab(frames, slop, kreatif, tgl):
   <p class="lede" style="margin-top:8px">Berkas mesin: <code>motion/timeline.json</code> ·
   satu baris per cue, tanpa angka yang tidak dilacak ke <code>data/</code>.</p>
 
-  <h2>4 · Audit anti-slop terakhir</h2>
+  <h2>5 · Audit anti-slop terakhir</h2>
   <p class="lede">{aturan} aturan diperiksa mesin dari 62 antipattern Impeccable + aturan performa
   GSAP Skills + kontrak token. Hasil sekarang: <b>{kritis} kritis · {perhatian} perhatian</b>.</p>
   <table><thead><tr><th>Aturan</th><th>Berkas</th><th>Bukti</th></tr></thead><tbody>{aturan_rows}</tbody></table>
   <p class="lede" style="margin-top:8px">Laporan penuh: <a href="../laporan/slop.md">laporan/slop.md</a> ·
   kontrak: <a href="../data/design-system.json">data/design-system.json</a>.</p>
 
-  <h2>5 · Batas yang tidak saya tutupi</h2>
+  <h2>6 · Batas yang tidak saya tutupi</h2>
   <div class="note">
     <p style="margin:0 0 8px"><b>Figma MCP</b> — tidak ada akun Figma di sini. Yang diambil prinsipnya:
     layout punya sumber mesin. Sumber itu kini <code>data/design-system.json</code>.</p>
-    <p style="margin:0 0 8px"><b>MCP for Blender</b> — Blender tidak ada, aset 3D tidak dibuat.
-    Penggantinya bidang miring CSS 3D maksimal 3,5°, bukan model GLB.</p>
+    <p style="margin:0 0 8px"><b>MCP for Blender</b> — Blender tidak ada, jadi tidak ada model GLB.
+    Penggantinya CSS 3D sungguhan (perspective + translateZ, rotasi ≤ 14°) — cukup untuk panggung
+    dan kartu, bukan untuk benda bertekstur.</p>
     <p style="margin:0 0 8px"><b>HyperFrames</b> — runtime dan render server tidak dipasang. Yang ada:
     adegan HTML deterministik + timeline. Encode video tetap di luar sandbox.</p>
     <p style="margin:0"><b>GSAP</b> — tidak dipasang (≈70 KB + CDN). Semantiknya ditiru; kelas CSS

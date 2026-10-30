@@ -10,7 +10,7 @@ Dibuat `tools/slop.py`. Sumber aturan: `pbakaus/impeccable`
 | Aturan diperiksa mesin | **29** |
 | Temuan kritis | **0** |
 | Temuan perhatian | **0** |
-| Catatan info | **6** |
+| Catatan info | **7** |
 | Temuan yang masuk daftar pengecualian | **0** |
 | Pengecualian terdokumentasi (kesepakatan brand) | **8** |
 
@@ -36,6 +36,7 @@ Dibuat `tools/slop.py`. Sumber aturan: `pbakaus/impeccable`
 | `radial-glow` | assets/css/motion.css | 1 radial-gradient | dipakai hanya untuk sorotan kursor di hero &amp; spotlight kartu; mati saat reduced-motion |
 | `radial-glow` | assets/css/motion-ui.css | 1 radial-gradient | dipakai hanya untuk sorotan kursor di hero &amp; spotlight kartu; mati saat reduced-motion |
 | `loop-tak-berujung` | assets/css/motion-ui.css | animation:ui-ticker 26s linear infinite | — |
+| `radial-glow` | assets/css/motion-3d.css | 3 radial-gradient | dipakai hanya untuk sorotan kursor di hero &amp; spotlight kartu; mati saat reduced-motion |
 
 ## 4 · Yang dikecualikan karena kesepakatan brand
 

@@ -17,6 +17,8 @@ nocturne-koffie/
 │   ├── css/motion.css            token & aturan animasi (situs utama)
 │   ├── css/motion-ui.css         komponen gerak: spotlight, count, magnet, pin, ticker
 │   ├── js/motion-ui.js           komponen vanilla (adaptasi react-bits) + loop rAF
+│   ├── css/motion-3d.css         panggung 3D: kartu berlapis, silinder klip, kartu timbul
+│   ├── js/motion-3d.js           kamera kursor + dolly gulir, korsel silinder (tanpa WebGL)
 │   └── img/produk/               9 foto stiker kemasan (4:5, dari brief)
 ├── data/catalog.json             ← SATU-SATUNYA file yang perlu diubah rutin
 ├── brand/                        logo SVG, OG card, 9 label kantong + lembar A4, brand kit

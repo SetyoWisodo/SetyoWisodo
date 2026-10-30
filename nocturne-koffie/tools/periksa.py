@@ -60,6 +60,7 @@ DATA = [
     "studio/data.json", "studio/brief-senin.md",
     "data/design-system.json", "motion/timeline.json", "motion/data.json",
     "assets/css/motion-ui.css", "assets/js/motion-ui.js", "laporan/slop.md",
+    "assets/css/motion-3d.css", "assets/js/motion-3d.js", "data/design-system.json",
 ]
 
 DOKUMEN = [
@@ -367,6 +368,41 @@ def periksa(catatan):
     tambah("Adegan 9:16", "lolos" if not masalah_adegan else "gagal",
            "5 adegan · total 9 detik masing-masing",
            "; ".join(masalah_adegan[:4]))
+
+
+    # 5h · panggung 3D: berkas, gating, jatuh datar, dan anggaran berat
+    css3d = baca("assets/css/motion-3d.css")
+    js3d = baca("assets/js/motion-3d.js")
+    masalah_3d = []
+    if not css3d or not js3d:
+        masalah_3d.append("assets/css/motion-3d.css atau assets/js/motion-3d.js tidak ada")
+    for wajib in ("perspective:", "preserve-3d", "translateZ", "prefers-reduced-motion", "html.ui-3d"):
+        if wajib not in css3d:
+            masalah_3d.append(f"motion-3d.css tanpa {wajib}")
+    for wajib in ("prefers-reduced-motion", "passive: true", "requestAnimationFrame"):
+        if wajib not in js3d:
+            masalah_3d.append(f"motion-3d.js tanpa {wajib}")
+    if "matchMedia('(min-width: 900px)')" not in js3d:
+        masalah_3d.append("motion-3d.js tanpa gerbang lebar 900 px")
+    teknis = {"panggung", "timbul", "silinder"}
+    dipakai_3d, liar_3d, tanpa3d = set(), [], []
+    for h in HALAMAN:
+        if not os.path.exists(os.path.join(ROOT, h)):
+            continue
+        isi = baca(h)
+        for m in re.finditer(r'data-3d="([a-z]+)"', isi):
+            dipakai_3d.add(m.group(1))
+            if "motion-3d.js" not in isi:
+                tanpa3d.append(h)
+    liar_3d = sorted(dipakai_3d - teknis)
+    masalah_3d += [f"komponen 3D tanpa penanganan: {x}" for x in liar_3d]
+    masalah_3d += [f"{h}: memakai data-3d tanpa motion-3d.js" for h in sorted(set(tanpa3d))]
+    berat_3d = (len(css3d.encode()) + len(js3d.encode())) / 1024
+    if berat_3d > 24:
+        masalah_3d.append(f"berat lapisan 3D {berat_3d:.1f} KB, batas 24 KB")
+    tambah("Panggung 3D", "lolos" if not masalah_3d else "gagal",
+           f"{len(dipakai_3d)} komponen dipakai · {berat_3d:.1f} KB CSS+JS · jatuh datar tanpa JS",
+           "; ".join(masalah_3d[:4]))
 
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \

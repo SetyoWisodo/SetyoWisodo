@@ -195,3 +195,30 @@ Audit terakhir: `laporan/slop.md`.
 5. `will-change` hanya dipasang pada lapisan yang bergerak terus (bilah gulir, glow kursor,
    poster footer, kutipan manifesto, ticker); elemen yang masuk sekali tidak lagi memakainya.
 6. Label mikro minimum 10 px; sebelumnya ada 8,5 px.
+
+## 9. Pembaruan 30 Okt 2026 (kedua) — landing page gaya 3D
+
+Permintaan: *"gaya landing page-nya sangat 3D seperti website di postingan itu"* (post
+`@viktoroddy`, 30 Okt 2026 — motionsites, land-book, landdding, recent.design, 60fps).
+
+Yang dibaca dari galeri itu bukan warna atau layout tertentu (itu milik brand masing-masing),
+melainkan **struktur panggung**: satu titik hilang, objek berlapis di `translateZ` berbeda,
+petak lantai sebagai petunjuk kedalaman, dan kamera yang bergerak halus.
+
+| Aspek | Keputusan | Alasan |
+| --- | --- | --- |
+| Teknologi | CSS 3D (`perspective`, `preserve-3d`, `translateZ`) | WebGL/three.js menambah ±600 KB dan menyulitkan audit token |
+| Jumlah panggung | **satu per halaman** (hero kampanye) | dua panggung = halaman terasa demo, bukan katalog |
+| Kedalaman | kartu depan `+44px`, belakang `-96px`, chip `+190px` | hierarki: angka terpenting paling dekat |
+| Rotasi | kursor 14° (`rotateY`) / 8° (`rotateX`); kartu timbul 8°/6° | di atas 15° teks mulai sulit dibaca |
+| Dolly gulir | maks 150 px | memberi "kamera mundur" tanpa efek parallax liar |
+| Silinder klip | 5 pane, 72°, radius 292 px, perspective 1400 px | cukup untuk 5 aset 9:16; pane depan 1,26× |
+| Jatuh datar | tanpa JS · < 900 px · reduced-motion | korsel jadi grid, kartu tidak miring, judul tanpa bayangan |
+| Berat | 16,0 KB CSS+JS | naik dari 13,7 KB; batas audit 24 KB |
+
+Tipografi judul memakai bayangan bertumpuk **tiga lapis tipis** (`0 1px`, `0 2px`, `0 3px`) plus
+satu bayangan jauh, bukan gradien dan bukan glow — gradien teks adalah temuan kritis di `slop.py`.
+
+Gerbang baru: `tools/periksa.py` cek **Panggung 3D** (berkas ada, `perspective`/`preserve-3d`/
+`translateZ` terpakai, gerbang 900 px, listener pasif, reduced-motion, komponen `data-3d` dikenali,
+berat ≤ 24 KB). Hasil terakhir: 19 lolos · 0 peringatan · 0 gagal.

@@ -3,7 +3,7 @@
   "aturan_diperiksa": 29,
   "kritis": 0,
   "perhatian": 0,
-  "info": 6,
+  "info": 7,
   "dikecualikan": 8,
   "temuan_dikecualikan": 0,
   "temuan": [
@@ -72,6 +72,17 @@
       "bukti": "animation:ui-ticker 26s linear infinite",
       "catatan": "",
       "dikecualikan": false
+    },
+    {
+      "aturan": "radial-glow",
+      "nama": "Sorotan radial dekoratif",
+      "kategori": "slop",
+      "tingkat": "info",
+      "sumber": "impeccable#radial-halo",
+      "berkas": "assets/css/motion-3d.css",
+      "bukti": "3 radial-gradient",
+      "catatan": "dipakai hanya untuk sorotan kursor di hero & spotlight kartu; mati saat reduced-motion",
+      "dikecualikan": false
     }
   ],
   "per_aturan": {
@@ -81,7 +92,7 @@
     "bounce-easing": 0,
     "pulsing-dot": 0,
     "blinking-cursor": 0,
-    "radial-glow": 3,
+    "radial-glow": 4,
     "marquee": 0,
     "kicker-above-heading": 0,
     "em-dash-overuse": 0,

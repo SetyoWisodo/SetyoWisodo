@@ -59,14 +59,16 @@ def kartu_video(it, no):
              f'playsinline preload="none" aria-label="{judul}"></video>'
              if src.endswith(".mp4")
              else f'<img class="klip__media" src="{poster}" alt="{judul}" loading="lazy" width="1080" height="1920">')
-    return f"""    <figure class="klip">
-      <div class="klip__frame">{media}</div>
-      <figcaption>
-        <span class="klip__no">{no:02d} · {it.get('platform','')} · {it.get('rasio','')}</span>
-        <b>{judul}</b>
-        <span class="klip__cap">{caption}</span>
-      </figcaption>
-    </figure>"""
+    return f"""      <div class="silinder__pane">
+        <figure class="klip">
+          <div class="klip__frame">{media}</div>
+          <figcaption>
+            <span class="klip__no">{no:02d} · {it.get('platform','')} · {it.get('rasio','')}</span>
+            <b>{judul}</b>
+            <span class="klip__cap">{caption}</span>
+          </figcaption>
+        </figure>
+      </div>"""
 
 
 def produk_pilihan(catalog):
@@ -99,7 +101,7 @@ def bangun(catalog, kreatif, tgl):
     baris_produk = ""
     for p in produk_pilihan(catalog):
         normal = (f'<s>{rp(p["normal"])}</s>' if p.get("normal") else "")
-        baris_produk += f"""      <a class="pilih" data-ui="spotlight" href="{wa(f'Halo, saya mau pesan {p["produk"]} (SKU {p["sku"]}). Lihat di halaman kampanye.', p["kanal"])}" target="_blank" rel="noopener">
+        baris_produk += f"""      <a class="pilih" data-ui="spotlight" data-3d="timbul" href="{wa(f'Halo, saya mau pesan {p["produk"]} (SKU {p["sku"]}). Lihat di halaman kampanye.', p["kanal"])}" target="_blank" rel="noopener">
         <span class="pilih__nama">{p["nama"]}</span>
         <span class="pilih__ket">{p["ket"]}</span>
         <span class="pilih__harga">{rp(p["harga"])} {normal}</span>
@@ -137,6 +139,7 @@ def bangun(catalog, kreatif, tgl):
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="../assets/css/site.css" />
 <link rel="stylesheet" href="../assets/css/motion-ui.css" />
+<link rel="stylesheet" href="../assets/css/motion-3d.css" />
 <style>
   /* ── lapisan khusus halaman kampanye (token dari site.css, tidak diubah) ── */
   .kp{{padding-block:clamp(34px,6vw,72px)}}
@@ -153,7 +156,6 @@ def bangun(catalog, kreatif, tgl):
   .angka b{{display:block;font-family:var(--display);font-size:clamp(26px,3.4vw,34px);line-height:1;letter-spacing:-.03em}}
   .angka span{{display:block;font-size:12.5px;color:var(--ink-55);margin-top:6px}}
 
-  .galeri{{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:clamp(14px,2vw,24px);margin-top:26px;align-items:start}}
   .klip{{margin:0}}
   .klip__frame{{position:relative;aspect-ratio:9/16;background:var(--ink);border-radius:4px;overflow:hidden}}
   .klip__media{{width:100%;height:100%;object-fit:cover;display:block;background:var(--ink)}}
@@ -169,8 +171,9 @@ def bangun(catalog, kreatif, tgl):
   .bukti p{{font-size:13.6px;line-height:1.62;color:var(--ink-80);margin:0}}
 
   .pilih-grup{{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:26px}}
-  .pilih{{display:flex;flex-direction:column;gap:5px;padding:20px 20px 18px;border:2px solid var(--ink);border-radius:4px;text-decoration:none;color:inherit;background:rgba(255,255,255,.35);transition:transform .2s ease,background .2s ease}}
-  .pilih:hover{{transform:translateY(-3px);background:#fff}}
+  .pilih{{display:flex;flex-direction:column;gap:5px;padding:20px 20px 18px;border:2px solid var(--ink);border-radius:4px;text-decoration:none;color:inherit;background:rgba(255,255,255,.35);transform-style:preserve-3d;transition:transform .32s var(--ease-out),background .2s var(--ease-in-out)}}
+  .pilih > *{{transform:translateZ(16px)}}
+  .pilih:hover{{background:#fff}}
   .pilih__nama{{font-family:var(--display);font-size:20px;letter-spacing:-.02em}}
   .pilih__ket{{font-size:12.5px;color:var(--ink-55)}}
   .pilih__harga{{font-family:var(--display);font-size:22px;margin-top:6px}}
@@ -217,19 +220,51 @@ def bangun(catalog, kreatif, tgl):
 </header>
 
 <main>
-  <!-- ── HERO ───────────────────────────────────────────────── -->
-  <section class="kp wrap">
-    <div class="kp__head">
-      <p class="kicker">Kampanye · {tgl.strftime('%B %Y')} · {len(video)} klip · 1 halaman</p>
-      <h1 data-ui="words">Kopi yang <em>jujur</em> soal tanggal.</h1>
-      <p class="lede">Kami tidak mencetak tanggal kedaluwarsa. Yang tercetak di tiap kantong:
-        <b>tanggal sangrai</b>, <b>kode batch</b>, dan <b>level roast</b>. Prosesnya kami rekam —
-        supaya Anda tidak perlu percaya pada kata “fresh”.</p>
-      <div class="kp__acts">
-        <a class="btn btn--orange btn--lg" data-ui="magnet" href="{wa('Halo, saya mau pesan kopi. Boleh dibantu pilih?', SUMBER['hero'])}" target="_blank" rel="noopener">Pesan via WhatsApp</a>
-        <a class="btn" href="#klip">Lihat {len(video)} klip proses →</a>
+  <!-- ── HERO · panggung 3D ─────────────────────────────────── -->
+  <section class="kp wrap panggung" data-3d="panggung">
+    <div class="panggung__grid">
+      <div class="panggung__teks">
+        <p class="kicker">Kampanye · {tgl.strftime('%B %Y')} · {len(video)} klip · 1 halaman</p>
+        <h1 class="teks-3d" data-ui="words">Kopi yang <em>jujur</em> soal tanggal.</h1>
+        <p class="lede">Kami tidak mencetak tanggal kedaluwarsa. Yang tercetak di tiap kantong:
+          <b>tanggal sangrai</b>, <b>kode batch</b>, dan <b>level roast</b>. Prosesnya kami rekam —
+          supaya Anda tidak perlu percaya pada kata “fresh”.</p>
+        <div class="kp__acts">
+          <a class="btn btn--orange btn--lg" data-ui="magnet" href="{wa('Halo, saya mau pesan kopi. Boleh dibantu pilih?', SUMBER['hero'])}" target="_blank" rel="noopener">Pesan via WhatsApp</a>
+          <a class="btn" href="#klip">Lihat {len(video)} klip proses →</a>
+        </div>
+        <p class="kp__note">Senin–Sabtu 09.00–21.00 WIB · dibalas biasanya di bawah 2 jam · kirim hari yang sama untuk order sebelum 15.00.</p>
       </div>
-      <p class="kp__note">Senin–Sabtu 09.00–21.00 WIB · dibalas biasanya di bawah 2 jam · kirim hari yang sama untuk order sebelum 15.00.</p>
+
+      <!-- objek panggung: tiga kartu di tiga kedalaman. Dekoratif, jadi
+           disembunyikan dari pembaca layar — angkanya sudah ada di teks. -->
+      <div class="panggung__ruang" aria-hidden="true">
+        <div class="panggung__dasar"></div>
+        <div class="panggung__bayang"></div>
+        <div class="panggung__objek" data-3d-objek>
+          <article class="lempeng lempeng--1">
+            <span class="lempeng__label">Tercetak · 01</span>
+            <span class="lempeng__nilai">3 hal</span>
+            <span class="lempeng__garis"></span>
+            <span class="lempeng__note">tanggal sangrai · kode batch · level roast</span>
+          </article>
+          <article class="lempeng lempeng--2">
+            <span class="lempeng__label">Tercetak · 02</span>
+            <span class="lempeng__nilai">7–21</span>
+            <span class="lempeng__garis"></span>
+            <span class="lempeng__note">hari jendela rasa terbaik setelah sangrai</span>
+          </article>
+          <article class="lempeng lempeng--3">
+            <span class="lempeng__label">Tercetak · 03</span>
+            <span class="lempeng__nilai">83</span>
+            <span class="lempeng__garis"></span>
+            <span class="lempeng__note">ambang skor QC; batch 81,5 tidak dikirim</span>
+          </article>
+        </div>
+        <span class="panggung__chip panggung__chip--a">batch dicek ulang</span>
+        <span class="panggung__chip panggung__chip--b">1.700–1.800 mdpl</span>
+        <span class="panggung__chip panggung__chip--c">bukan tanggal kedaluwarsa</span>
+      </div>
     </div>
 
     <div class="angka" data-ui="reveal">
@@ -245,8 +280,19 @@ def bangun(catalog, kreatif, tgl):
     <h2>Yang biasanya tidak diperlihatkan.</h2>
     <p class="lede lede--tight">Lima klip, masing-masing tujuh detik. Dirender dari data batch dan catatan QC —
       bukan stok video. Putar dengan suara mati dulu; caption di bawah tiap klip menjelaskan konteksnya.</p>
-    <div class="galeri">
+    <div class="silinder-blok" data-3d="silinder" tabindex="0" role="group"
+         aria-label="Korsel {len(video)} klip proses. Pakai tombol atau panah kiri dan kanan untuk memutar.">
+      <div class="silinder">
+      <div class="silinder__rim">
 {klip_html}
+      </div>
+      </div>
+      <div class="silinder__cap" aria-live="polite"></div>
+      <div class="silinder__nav">
+        <button type="button" data-putar="-1" aria-label="Klip sebelumnya">← Sebelumnya</button>
+        <span data-hitungan>1 / {len(video)}</span>
+        <button type="button" data-putar="1" aria-label="Klip berikutnya">Berikutnya →</button>
+      </div>
     </div>
     <p class="kp__note" style="margin-top:18px">Video ini dibuat otomatis oleh <code>tools/kreatif.py</code> dari
       label produk dan catatan batch. Tanpa footage asli, tanpa model — yang ditampilkan adalah angka dan proses
@@ -334,6 +380,7 @@ def bangun(catalog, kreatif, tgl):
 </footer>
 
 <script src="../assets/js/motion-ui.js" defer></script>
+<script src="../assets/js/motion-3d.js" defer></script>
 </body>
 </html>
 """

@@ -1,0 +1,265 @@
+/* ============================================================
+   Nocturne — motion-3d.css  (panggung 3D, v1)
+
+   Sumber gaya: galeri desain pada post @viktoroddy (30 Okt 2026) —
+   motionsites.ai, land-book.com, landdding.com, recent.design,
+   60fps.design, dan galeri award websites. Yang ditiru adalah
+   STRUKTUR panggungnya, bukan tampilannya:
+     · satu titik hilang (perspective) + lantai berpetak
+     · objek berlapis di kedalaman berbeda (translateZ)
+     · kamera bergerak halus mengikuti kursor & gulir
+     · tipografi besar dengan bayangan bertumpuk tipis (bukan
+       gradien, bukan glow)
+
+   Bukan WebGL / three.js / CDN:
+     · hanya transform 3D CSS (perspective, preserve-3d, translateZ)
+     · kedalaman dipakai untuk hierarki: kartu terpenting paling
+       dekat kamera, bukan sekadar hiasan
+     · tanpa JS, tanpa kursor presisi, layar < 900 px, atau saat
+       prefers-reduced-motion: semua lapisan jatuh datar & terbaca
+   ============================================================ */
+
+/* ── 0 · sumbu gerak (diisi assets/js/motion-3d.js) ───────── */
+[data-3d]{--rx:0deg;--ry:0deg;--ty:0deg;--tx:0deg;--pz:0px;--sudut:0deg}
+
+/* ── 1 · panggung hero ────────────────────────────────────── */
+.panggung{position:relative;isolation:isolate;overflow-x:clip}
+/* judul di kolom sempit: ukuran turun, bukan dipotong */
+.panggung .panggung__teks h1{font-size:clamp(36px,4.8vw,64px)}
+.panggung__grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);
+  gap:clamp(26px,4vw,64px);
+  align-items:center;
+}
+.panggung__ruang{
+  position:relative;
+  min-height:clamp(380px,40vw,470px);
+  perspective:1200px;
+  perspective-origin:50% 46%;
+  transform-style:preserve-3d;
+}
+.panggung__objek{
+  position:absolute;left:50%;top:calc(50% - 10px);
+  width:420px;height:330px;
+  margin:-165px 0 0 -210px;
+  transform-style:preserve-3d;
+  transform:rotateX(var(--rx)) rotateY(var(--ry)) translate3d(0,0,var(--pz));
+  transition:transform 260ms var(--ease-out);
+}
+
+/* lantai berpetak: petunjuk kedalaman, satu-satunya "dekorasi" */
+.panggung__dasar{
+  position:absolute;left:50%;bottom:6px;
+  width:min(660px,116%);height:230px;
+  transform:translateX(-50%) rotateX(76deg);
+  transform-origin:50% 100%;
+  background-image:
+    linear-gradient(rgba(22,17,13,.15) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(22,17,13,.15) 1px,transparent 1px);
+  background-size:42px 42px;
+  -webkit-mask-image:radial-gradient(58% 62% at 50% 34%,#16110D 0%,transparent 74%);
+  mask-image:radial-gradient(58% 62% at 50% 34%,#16110D 0%,transparent 74%);
+  pointer-events:none;
+}
+.panggung__bayang{
+  position:absolute;left:50%;bottom:26px;
+  width:78%;height:74px;
+  transform:translateX(-50%);
+  background:radial-gradient(50% 50% at 50% 50%,rgba(22,17,13,.22),transparent 72%);
+  pointer-events:none;
+}
+
+/* kartu lapis (lempeng): tiga benda yang sama, tiga kedalaman */
+.lempeng{
+  position:absolute;left:0;top:0;
+  width:210px;height:292px;
+  display:flex;flex-direction:column;justify-content:space-between;
+  padding:18px 16px 16px;
+  background:var(--paper);
+  border:2px solid var(--ink);
+  border-radius:4px;
+  box-shadow:0 30px 48px -34px rgba(22,17,13,.8),0 2px 0 rgba(255,255,255,.7) inset;
+  transform-style:preserve-3d;
+  transition:transform 620ms var(--ease-out),opacity 620ms var(--ease-out);
+}
+.lempeng--1{left:0;top:30px;transform:translate3d(0,0,-96px) rotateY(-19deg) rotateZ(-2deg)}
+.lempeng--2{left:105px;top:0;transform:translate3d(0,0,44px) rotateY(0deg)}
+.lempeng--3{left:210px;top:30px;transform:translate3d(0,0,-96px) rotateY(19deg) rotateZ(2deg)}
+
+.lempeng__label{
+  font-family:var(--body);
+  font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ink-55);
+}
+.lempeng__nilai{
+  font-family:var(--display);
+  font-size:clamp(40px,4.4vw,56px);
+  line-height:.9;letter-spacing:-.04em;
+  margin-top:auto;
+}
+.lempeng__garis{height:2px;background:var(--ink);margin:10px 0 0;transform:translateZ(1px)}
+.lempeng__note{font-size:12.5px;line-height:1.45;color:var(--ink-80);margin-top:8px}
+.lempeng--2{box-shadow:0 40px 60px -34px rgba(22,17,13,.85),0 2px 0 rgba(255,255,255,.7) inset}
+
+/* keping data yang mengambang di kedalaman lain */
+.panggung__chip{
+  position:absolute;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  padding:6px 10px;
+  border:1px solid rgba(22,17,13,.22);
+  border-radius:999px;
+  background:rgba(245,239,228,.92);
+  color:var(--ink-80);
+  white-space:nowrap;
+  transform-style:preserve-3d;
+}
+.panggung__chip--a{left:0;top:2%;transform:translate3d(0,0,150px)}
+.panggung__chip--b{right:2%;top:24%;transform:translate3d(0,0,90px)}
+.panggung__chip--c{left:6%;bottom:0;transform:translate3d(0,0,190px)}
+
+/* judul dengan tebal tipis bertumpuk — bukan gradien, bukan glow */
+.teks-3d{
+  text-shadow:
+    0 1px 0 rgba(74,44,26,.16),
+    0 2px 0 rgba(74,44,26,.11),
+    0 3px 0 rgba(74,44,26,.07),
+    0 16px 28px rgba(74,44,26,.12);
+}
+.teks-3d em{text-shadow:inherit}
+
+/* ── 2 · korsel silinder (5 klip di satu lingkaran) ───────── */
+/* keadaan dasar = grid datar yang terbaca penuh tanpa JS */
+.silinder-blok{position:relative;margin-top:28px}
+.silinder{position:relative}
+.silinder__rim{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:clamp(14px,2vw,22px);
+  align-items:start;
+}
+.silinder__pane{margin:0}
+.silinder__pane .klip__frame{aspect-ratio:9/16}
+.silinder__nav{display:none}
+.silinder__cap{display:none}
+
+/* mode panggung: hanya bila JS memasang html.ui-3d (≥ 900 px, tanpa reduced-motion) */
+html.ui-3d .silinder{
+  height:clamp(420px,50vw,520px);
+  perspective:1400px;
+  perspective-origin:50% 42%;
+  overflow:hidden;
+}
+html.ui-3d .silinder__rim{
+  display:block;
+  position:absolute;left:50%;top:calc(50% - 16px);
+  width:0;height:0;
+  transform-style:preserve-3d;
+  transform:translate3d(-50%,-50%,0) rotateY(var(--sudut));
+  transition:transform 760ms var(--ease-out);
+}
+html.ui-3d .silinder__pane{
+  position:absolute;left:0;top:0;
+  width:200px;
+  margin:-178px 0 0 -100px;
+  transform-style:preserve-3d;
+  transform:rotateY(calc(var(--i,0) * 72deg)) translateZ(292px);
+  opacity:.34;
+  transition:opacity 480ms var(--ease-in-out);
+}
+html.ui-3d .silinder__pane.is-on{opacity:1}
+html.ui-3d .silinder__pane figcaption{display:none}
+html.ui-3d .silinder__pane .klip__frame{
+  box-shadow:0 40px 60px -40px rgba(22,17,13,.9);
+  border-radius:4px;
+  overflow:hidden;
+}
+html.ui-3d .silinder-blok .silinder__cap{
+  display:block;
+  min-height:44px;
+  margin-top:14px;
+  font-size:13px;
+  line-height:1.5;
+  color:var(--ink-80);
+  max-width:56ch;
+}
+html.ui-3d .silinder-blok .silinder__nav{
+  display:flex;align-items:center;gap:10px;
+  margin-top:10px;
+}
+html.ui-3d .silinder-blok .silinder__nav button{
+  font:inherit;font-size:12.5px;
+  padding:7px 13px;
+  background:transparent;
+  color:var(--ink);
+  border:2px solid var(--ink);
+  border-radius:999px;
+  cursor:pointer;
+  transition:background 200ms var(--ease-in-out),color 200ms var(--ease-in-out);
+}
+html.ui-3d .silinder-blok .silinder__nav button:hover{background:var(--ink);color:var(--paper)}
+html.ui-3d .silinder-blok .silinder__nav span{font-size:12.5px;color:var(--ink-55);font-variant-numeric:tabular-nums}
+
+/* ── 3 · kartu timbul (tilt) ──────────────────────────────── */
+.pilih-grup{perspective:900px}
+[data-3d="timbul"]{
+  transform-style:preserve-3d;
+  transform:rotateX(var(--tx)) rotateY(var(--ty));
+  transition:transform 320ms var(--ease-out);
+}
+[data-3d="timbul"] .tilt__dalam{
+  transform:translateZ(18px);
+  transform-style:preserve-3d;
+}
+html.ui-3d [data-3d="timbul"]:hover{
+  box-shadow:0 26px 40px -30px rgba(22,17,13,.75);
+}
+
+/* ── 4 · jatuh datar: tanpa kedalaman, tetap terbaca ──────── */
+@media (max-width:899px){
+  .panggung__grid{grid-template-columns:minmax(0,1fr)}
+  .panggung__ruang{min-height:300px;order:-1}
+  .panggung__objek{width:300px;height:236px;margin:-118px 0 0 -150px}
+  .lempeng{width:150px;height:206px;padding:14px 12px 12px}
+  .lempeng--1{left:0;top:24px}
+  .lempeng--2{left:75px;top:0}
+  .lempeng--3{left:150px;top:24px}
+  .panggung__chip--b,
+  .panggung__chip--c{display:none}
+  .panggung__dasar{height:170px}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .panggung__objek,
+  .lempeng,
+  [data-3d="timbul"],
+  html.ui-3d .silinder__rim{
+    transform:none !important;
+    transition:none !important;
+  }
+  html.ui-3d .silinder{
+    height:auto;
+    perspective:none;
+    overflow:visible;
+  }
+  html.ui-3d .silinder__rim{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:18px;
+    position:static;
+    width:auto;height:auto;
+    transform-style:flat;
+  }
+  html.ui-3d .silinder__pane{
+    position:static;
+    width:auto;
+    margin:0;
+    opacity:1;
+    transform:none;
+  }
+  html.ui-3d .silinder__pane figcaption{display:flex}
+  html.ui-3d .silinder-blok .silinder__nav,
+  html.ui-3d .silinder-blok .silinder__cap{display:none}
+  .teks-3d{text-shadow:none}
+  .panggung__dasar{display:none}
+}

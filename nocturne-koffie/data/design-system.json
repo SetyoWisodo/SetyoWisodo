@@ -1,6 +1,6 @@
 {
   "_catatan": "Kontrak desain mesin (pengganti peran 'Figma source'): token yang boleh dipakai, nilai yang dilarang, dan pengecualian yang diikat kesepakatan FINAL 3.7. Dibaca tools/slop.py (audit) dan tools/motion.py (lab gerak). Jangan menambah nilai di sini tanpa mengubah CSS-nya juga.",
-  "versi": "1.0.0",
+  "versi": "1.1.0",
   "diperbarui": "2026-10-30",
   "sumber_kebenaran": [
     "assets/css/site.css (:root)",
@@ -203,7 +203,8 @@
       "Setiap animasi punya prefers-reduced-motion: konten tetap terlihat tanpa gerak.",
       "Loop scroll dibungkus satu requestAnimationFrame dengan flag ticking; listener scroll pasif.",
       "will-change hanya selama animasi berjalan, lalu dikembalikan ke auto.",
-      "Tidak ada animasi tak berujung kecuali marquee brand, dan marquee berhenti saat reduced-motion."
+      "Tidak ada animasi tak berujung kecuali marquee brand, dan marquee berhenti saat reduced-motion.",
+      "Kedalaman (3D) hanya lewat transform: perspective, rotateX/Y maks 14° (panggung) dan 8° (kartu), translateZ sebagai hierarki. Tanpa WebGL, tanpa library, tanpa CDN; jatuh datar di layar < 900 px."
     ]
   },
   "halaman_publik": [
@@ -215,7 +216,8 @@
   "berkas_css": [
     "assets/css/site.css",
     "assets/css/motion.css",
-    "assets/css/motion-ui.css"
+    "assets/css/motion-ui.css",
+    "assets/css/motion-3d.css"
   ],
   "pengecualian": [
     {
@@ -266,5 +268,42 @@
       "alasan": "Label huruf kapital ber-tracking lebar (10-10,5 px) hanya dipakai untuk penanda non-informatif; teks informatif tidak pernah di bawah 12,5 px. Ambang audit: < 10 px.",
       "sumber": "assets/css/site.css"
     }
-  ]
+  ],
+  "tigaD": {
+    "_catatan": "Kontrak panggung 3D. Semua nilai di sini cocok dengan assets/css/motion-3d.css dan assets/js/motion-3d.js; ubah keduanya bersamaan.",
+    "berkas": [
+      "assets/css/motion-3d.css",
+      "assets/js/motion-3d.js"
+    ],
+    "perspective_px": [
+      900,
+      1200,
+      1400
+    ],
+    "rotasi_maks_deg": {
+      "panggung_kursor": 14,
+      "panggung_sumbu_x": 8,
+      "kartu_timbul": 8,
+      "kartu_sumbu_x": 6
+    },
+    "kedalaman_px": {
+      "lempeng_belakang": -96,
+      "lempeng_depan": 44,
+      "chip": 190,
+      "dolly_gulir": -150,
+      "silinder_radius": 292
+    },
+    "mode_aktif": "html.ui-3d — dipasang hanya bila JS jalan, layar ≥ 900 px, dan bukan prefers-reduced-motion",
+    "jatuh_datar": [
+      "tanpa JS",
+      "prefers-reduced-motion",
+      "layar < 900 px"
+    ],
+    "aturan": [
+      "Kedalaman dipakai untuk hierarki: kartu terpenting paling dekat kamera, bukan sekadar hiasan.",
+      "Hanya transform & opacity; tidak ada filter blur di lapisan yang bergerak.",
+      "Tidak ada animasi tak berujung: panggung bergerak karena kursor/gulir, silinder karena ditekan.",
+      "Tanpa JS seluruh isi tampil datar: korsel menjadi grid, kartu tidak miring, judul tanpa bayangan."
+    ]
+  }
 }

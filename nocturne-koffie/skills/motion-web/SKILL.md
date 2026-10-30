@@ -58,7 +58,7 @@ diverifikasi** dan meninggalkan sisanya dengan alasan tertulis.
 Jangan pakai untuk: membuat video jadi (tidak ada encoder di sini), mengimpor desain Figma,
 atau membuat model 3D.
 
-## Empat lapisan sistem
+## Lima lapisan sistem
 
 | Lapisan | Berkas | Peran |
 | --- | --- | --- |
@@ -66,6 +66,7 @@ atau membuat model 3D.
 | 2 · Gerak halaman | `assets/css/motion.css` + `assets/js/motion.js` | reveal, parallax, topeng media, tilt — dipakai situs utama |
 | 3 · Komponen | `assets/css/motion-ui.css` + `assets/js/motion-ui.js` | komponen lepas: spotlight, count-up, magnet, teks per kata, pin, bilah kemajuan |
 | 4 · Adegan | `motion/frame-*.html` + `motion/timeline.json` | adegan 9:16 dari skrip studio, siap direkam |
+| 5 · Panggung 3D | `assets/css/motion-3d.css` + `assets/js/motion-3d.js` | kedalaman CSS: kartu berlapis, silinder klip, kartu timbul |
 
 Audit (`tools/slop.py`) memeriksa lapisan 1–3, lalu memeriksa halaman publik.
 
@@ -100,6 +101,42 @@ Aturan pemakaian:
 4. **`prefers-reduced-motion` mematikan semuanya**, bukan memperlambat.
 5. **Efek pointer mati di perangkat sentuh.**
 
+## Panggung 3D (lapisan 5)
+
+Gaya "sangat 3D" pada galeri desain (motionsites, land-book, landdding, recent.design, 60fps)
+bukan WebGL: itu **perspective + objek berlapis + kamera yang bergerak**. Yang diadopsi:
+
+| Komponen | Atribut | Yang bergerak | Batas |
+| --- | --- | --- | --- |
+| panggung | `data-3d="panggung"` + anak `data-3d-objek` | kamera mengikuti kursor & mundur saat digulir | rotasi 14° / 8°, dolly 150 px |
+| silinder | `data-3d="silinder"` + `.silinder__rim` + `.silinder__pane` | 5 pane di lingkaran 72°, diputar tombol/panah | radius 292 px, perspective 1400 px |
+| kartu timbul | `data-3d="timbul"` | kemiringan kartu mengikuti kursor | 8° / 6°, anak `translateZ(16px)` |
+
+```html
+<section data-3d="panggung">
+  <div class="panggung__ruang">
+    <div class="panggung__objek" data-3d-objek>
+      <article class="lempeng lempeng--1">…</article>
+      <article class="lempeng lempeng--2">…</article>
+      <article class="lempeng lempeng--3">…</article>
+    </div>
+  </div>
+</section>
+```
+
+Aturan lapisan ini:
+
+1. **Kedalaman = hierarki.** Kartu terpenting paling dekat kamera (`translateZ(44px)`), kartu
+   penjelas di belakang (`-96px`). Bukan hiasan acak.
+2. **Mode hanya hidup bila tiga syarat terpenuhi:** JS jalan, layar ≥ 900 px, bukan
+   `prefers-reduced-motion`. Kelasnya `html.ui-3d`; tanpa itu semuanya datar dan terbaca.
+3. **Tanpa JS korsel menjadi grid**, bukan lingkaran setengah jadi — isi tidak boleh tersembunyi.
+4. **Tidak ada animasi tak berujung.** Panggung bergerak karena kursor/gulir, silinder karena ditekan.
+5. **Tanpa `filter: blur`** di lapisan yang bergerak; kedalaman cukup dari perspektif dan skala.
+6. **Nilai ada di kontrak** (`data/design-system.json` → `tigaD`), bukan angka liar di CSS.
+
+Satu panggung per halaman. Dua panggung 3D membuat halaman terasa seperti demo, bukan katalog.
+
 ## Aturan yang tidak boleh dilanggar (gerbang audit)
 
 | Aturan | Kenapa | Konsekuensi bila dilanggar |
@@ -121,7 +158,8 @@ Aturan pemakaian:
 3. **Pasang gerak minimal:** bilah kemajuan, reveal per bagian, satu `words` di hero,
    `magnet` di CTA utama, `spotlight` di kartu pilihan. Tidak lebih.
 4. **Jalankan audit:** `python3 tools/slop.py` → `laporan/slop.md`. Kritis harus nol.
-5. **Periksa gerbang:** `python3 tools/periksa.py` (cek kontrak desain, anti-slop, komponen, adegan).
+5. **Periksa gerbang:** `python3 tools/periksa.py` (cek kontrak desain, anti-slop, komponen, adegan,
+   panggung 3D).
 
 ## Alur kerja adegan 9:16
 
@@ -135,7 +173,8 @@ Aturan pemakaian:
 ## Batas yang harus diingat
 
 - **Tidak ada Figma.** Figma-Context-MCP hanya dipakai prinsipnya; token di repo ini adalah sumbernya.
-- **Tidak ada Blender.** Tidak ada aset 3D, tidak ada GLB; 3D sebatas CSS `rotateX/rotateY` kecil.
+- **Tidak ada Blender.** Tidak ada aset 3D, tidak ada GLB. Yang ada: 3D CSS (`perspective`,
+  `preserve-3d`, `translateZ`) — cukup untuk panggung kartu dan silinder, bukan model 3D.
 - **Tidak ada encoder video.** Adegan HTML deterministik; video jadi dibuat di luar sandbox.
 - **GSAP tidak dipasang.** Semantiknya ditiru; kalau nanti butuh pin/scrub rumit, `motion.js`
   bisa ditukar tanpa mengubah kelas CSS.

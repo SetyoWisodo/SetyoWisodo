@@ -4,13 +4,13 @@
     {
       "kategori": "Berkas wajib",
       "status": "lolos",
-      "teks": "51/51 berkas ada",
+      "teks": "54/54 berkas ada",
       "detail": ""
     },
     {
       "kategori": "Tautan lokal",
       "status": "lolos",
-      "teks": "120/120 tautan menuju berkas yang ada",
+      "teks": "123/123 tautan menuju berkas yang ada",
       "detail": ""
     },
     {
@@ -76,7 +76,7 @@
     {
       "kategori": "Kontrak desain",
       "status": "lolos",
-      "teks": "6 warna inti · 10 radius · 7 aturan gerak · 8 pengecualian terdokumentasi",
+      "teks": "6 warna inti · 10 radius · 8 aturan gerak · 8 pengecualian terdokumentasi",
       "detail": ""
     },
     {
@@ -95,6 +95,12 @@
       "kategori": "Adegan 9:16",
       "status": "lolos",
       "teks": "5 adegan · total 9 detik masing-masing",
+      "detail": ""
+    },
+    {
+      "kategori": "Panggung 3D",
+      "status": "lolos",
+      "teks": "3 komponen dipakai · 15.8 KB CSS+JS · jatuh datar tanpa JS",
       "detail": ""
     },
     {

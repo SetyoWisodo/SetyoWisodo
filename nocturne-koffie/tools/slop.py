@@ -44,7 +44,7 @@ CSS_FILES = DS["berkas_css"]
 PUBLIK = DS["halaman_publik"]
 INTERNAL = ["dashboard/index.html", "laporan/index.html", "riset/index.html",
             "konten/index.html", "studio/index.html", "motion/index.html"]
-JS_FILES = ["assets/js/motion.js", "assets/js/motion-ui.js", "assets/js/site.js"]
+JS_FILES = ["assets/js/motion.js", "assets/js/motion-ui.js", "assets/js/motion-3d.js", "assets/js/site.js"]
 
 PEN_KECUALIAN = {p["id"]: p for p in DS["pengecualian"]}
 

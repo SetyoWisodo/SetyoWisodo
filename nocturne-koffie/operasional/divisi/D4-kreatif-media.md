@@ -181,6 +181,32 @@ Aturan kerja:
    sandbox ini tidak punya encoder dan tidak diklaim punya.
 6. **Tidak ada Figma, Blender, atau GSAP** di lingkungan ini. Jangan menulis "sudah diimpor dari Figma".
 
+## 4e. Panggung 3D (landing page gaya galeri award)
+
+Post `@viktoroddy` (30 Okt 2026) mengumpulkan galeri desain: motionsites, land-book, landdding,
+recent.design, 60fps, dan galeri award websites. Ciri yang diambil: **perspective, objek berlapis
+di kedalaman berbeda, lantai berpetak, kamera yang bergerak halus.** Bukan WebGL, bukan three.js.
+
+| Komponen | Berkas | Dipakai di |
+| --- | --- | --- |
+| panggung hero (3 kartu di 3 kedalaman + chip data) | `assets/css/motion-3d.css`, `assets/js/motion-3d.js` | `kampanye/index.html` hero |
+| silinder klip (5 pane, 72° per langkah) | idem | galeri klip kampanye |
+| kartu timbul (tilt 8°) | idem | 3 kartu produk di kampanye |
+
+Aturan kerja:
+
+1. **Satu panggung per halaman.** Hero saja. Bagian lain tetap datar.
+2. **Kedalaman = hierarki.** Angka terpenting paling dekat kamera; penjelas di belakang.
+3. **Hanya `transform` & `opacity`.** Tanpa `filter: blur` di lapisan bergerak.
+4. **Jatuh datar wajib:** tanpa JS, di bawah 900 px, dan saat reduced-motion, semuanya datar dan
+   terbaca. Korsel berubah menjadi grid.
+5. **Angka di kartu harus berasal dari data**, bukan angka baru: 3 hal, 7–21 hari, ambang QC 83.
+6. **Objek 3D bukan foto produk.** Ini ilustrasi CSS; label cetak tetap di `brand/`, jangan
+   mengklaim panggung ini sebagai mockup kemasan final.
+
+Gerbang: `python3 tools/periksa.py` punya cek **Panggung 3D** (berkas, gating, jatuh datar,
+anggaran ≤ 24 KB).
+
 ## 5. Serah terima
 
 | Dari | Kepada | Apa |
