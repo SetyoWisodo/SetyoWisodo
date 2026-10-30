@@ -259,6 +259,8 @@ Aturan yang mengikat divisi:
    frame; jangan menilai dari kode.
 6. **Lisensi Remotion** gratis untuk ≤ 3 orang; lebih dari itu perlu lisensi berbayar sebelum
    dipakai komersial (`laporan/mesin.md` §5).
+7. **Perbaiki tanda baca dulu, baru render.** Renderer sengaja tidak mengubah teks brief;
+   kesalahan di skrip akan terbawa persis ke video (contoh: "WhatsApp —" tanpa lanjutan).
 
 Laporan lengkap: `laporan/mesin.md`. Proyek mesinnya: `film-studio/README.md`.
 
