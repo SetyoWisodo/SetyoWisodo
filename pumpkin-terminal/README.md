@@ -210,22 +210,26 @@ bukan janji, dan bukan jaminan.
 
 | Lengan | Median PnL | IQR | Sesi profit | Win rate | Trade | Expectancy/trade |
 |---|---|---|---|---|---|---|
-| **Pasar kotor + detektor koordinasi** | **+9,6%** | +5,1% .. +16,6% | **10/10** | **77,4%** | 28 | +7,75% |
-| Pasar kotor, **tanpa** detektor (naif) | **−2,4%** | −2,6% .. −1,4% | 1/10 | 48,3% | 90 | −1,10% |
+| **Pasar kotor + detektor koordinasi** | **+13,4%** | +5,1% .. +17,7% | **10/10** | **73,5%** | 35 | +6,41% |
+| Pasar kotor, **tanpa** detektor (naif) | **−2,1%** | −2,6% .. −1,6% | 0/10 | 44,6% | 78 | −2,58% |
 | Pasar bersih (tanpa bot farm) + detektor | **+14,1%** | +3,2% .. +20,6% | 9/10 | 74,8% | 32 | +7,36% |
 
 Yang boleh kamu simpulkan dari tabel itu, dan yang tidak:
 
-- **Win rate 77,4% diukur dari trade yang benar-benar dieksekusi**, dengan ambang
-  impas empiris ±30% (rata-rata menang +13,7% vs kalah −8%). Jadi angkanya
-  bukan 70% di atas kertas — ia lewat ambang impas dengan selisih lebar.
-- **Tanpa detektor koordinasi, median berbalik negatif** (−2,4%) meski win rate-nya
-  masih 48%: 90 trade vs 28 trade, karena trader naif terus membeli shill trap.
-  Selisih +12,0 poin itulah nilai lapisan tersebut — dan itu sebabnya lapisan itu ada.
+- **Win rate 73,5% diukur dari trade yang benar-benar dieksekusi**, dengan expectancy
+  +6,41% per trade setelah fee dan slippage. Ambang impas empiris dihitung di setiap
+  laporan sesi (`empirical_breakeven`) dari rata-rata menang vs kalah yang sungguh
+  terjadi — bukan angka 70% yang ditempel di atas kertas.
+- **Tanpa detektor koordinasi, median berbalik negatif** (−2,1%) dan 0 dari 10 sesi
+  profit, meski win rate-nya masih 44,6%. Trade-nya 78 vs 35: trader naif terus membeli
+  shill trap. Selisih **+15,5 poin** itulah nilai lapisan tersebut.
 - **Pasar bersih lebih untung** (+14,1%) karena tidak ada jebakan. Artinya filtrasi
-  tidak "membuang alpha"; ia membuang kerugian.
-- **Rata-rata p̂ saat entry 0,73 vs win rate 77,4%** → model sedikit *under-confident*,
-  yang arahnya aman (menolak lebih banyak, bukan lebih sedikit).
+  tidak membuang alpha; ia membuang kerugian.
+- **Rata-rata p̂ saat entry 0,736 vs win rate 73,5%** → model hampir persis terkalibrasi
+  (selisih 0,1 poin), yang berarti ambang 0,72 memang bekerja sebagai ambang, bukan hiasan.
+- **Bench ini deterministik**: seed tetap + urutan pemrosesan terurut, jadi menjalankannya
+  dua kali memberi angka yang sama. Kalau kamu ubah aturan, angkanya berubah — dan itu
+  memang tujuannya.
 - **Semua ini di pasar sintetis.** Harga di sini benar-benar bereaksi pada sinyal.
   Di pasar nyata kamu adalah orang terakhir yang membaca postingan itu.
 
@@ -391,7 +395,7 @@ pumpkin-terminal/
 │   └── static/             index.html · whale.html · social.html
 ├── docs/MATEMATIKA.md      hit-rate impas, required TP, EV, Kelly, survival
 ├── docs/SOCIAL-ALPHA-RESEARCH.md  riset tooling sosial + apa yang tidak diambil
-└── tests/                  76 test: filter, stop, trailing, invariant, p̂, Kelly
+└── tests/                  77 test: filter, stop, trailing, invariant, p̂, Kelly
 ```
 
 ```bash

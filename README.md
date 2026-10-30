@@ -170,7 +170,7 @@ cara build-nya ada di [`book/`](book/README.md).
 
 ### 🎃 Pumpkin Terminal — 6 Agen + 🐋 Whale Radar + 📡 Social Radar (Paper Trading)
 
-Jawaban teknis atas thread viral "$80 → $5.432 dalam semalam". Dua desk, satu repo,
+Jawaban teknis atas thread viral "$80 → $5.432 dalam semalam". Tiga desk, satu repo,
 **tanpa wallet dan tanpa order on-chain**:
 
 - **Scan desk** — enam agen (Scout → Filter → Analyst → Sniper → Guard → Scribe)
@@ -187,7 +187,8 @@ Yang menarik justru hasilnya: dengan pipeline lengkap di pasar simulasi yang ram
 scan desk median **+174%** vs tanpa keahlian **−46%**; Whale Radar median **+10,2%**
 (hit rate 44,8% vs impas 33,0%) saat whale-nya punya informasi, dan **−0,8%** saat
 whale-nya acak — karena lapisan reputasi berhenti trading. Social Radar: win rate
-**77,4%** terukur (10 sesi), median **+9,6%**, dan **−2,4%** kalau detektor bot dimatikan.
+**73,5%** terukur (10 sesi, 800 tick), median **+13,4%**, dan **−2,1%** kalau detektor
+bot dimatikan (0/10 sesi profit) — jadi lapisan itu memang yang menjaga.
 Klaim +6.690% di thread berada jauh di luar ekor distribusi bahkan dari simulasi itu sendiri.
 
 ```bash
@@ -198,7 +199,7 @@ python run.py whale-bench  # uji jujur: informed whales vs whale acak
 python run.py social-bench # uji jujur: dengan vs tanpa detektor bot
 ```
 
-Kode, aturan filter/risiko, konektor data nyata (Helius), dan 76 test:
+Kode, aturan filter/risiko, konektor data nyata (Helius), dan 77 test:
 [`pumpkin-terminal/`](pumpkin-terminal/README.md)
 
 ---

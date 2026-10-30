@@ -174,7 +174,8 @@ class SocialMarket(WhaleMarket):
             tok.hype_peak = max(getattr(tok, "hype_peak", 0.0), tok.social_boost)
 
         # 2. Bot farm: serempak, teks kembar, akun baru
-        for addr in list(self.shill):
+        # urutan harus deterministik: set string berbeda urutan antar-proses
+        for addr in sorted(self.shill):
             tok = self.tokens.get(addr)
             if tok is None:
                 self.shill.discard(addr)
