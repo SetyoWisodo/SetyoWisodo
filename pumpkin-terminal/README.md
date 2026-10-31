@@ -274,6 +274,9 @@ Dua thread lain yang beredar juga saya bedah, dan hasilnya ditulis apa adanya:
 - [`docs/POLYMARKET-BOT-REVIEW.md`](docs/POLYMARKET-BOT-REVIEW.md) — "bot BTC 5 menit"
   yang katanya profit jutaan. Aritmetikanya setengah benar, mekanismenya tidak bisa
   dipakai, dan produk yang sebenarnya dijual adalah tautan referral.
+  Termasuk eksperimen **dua dompet (UP + DOWN)** yang diuji lewat
+  [`tools/polymarket_dual_wallet.py`](tools/polymarket_dual_wallet.py): cut yang kalah
+  di 35¢ menghasilkan win rate 67,2% **dan** EV −2,84% per pasang.
 
 ### Menjalankan
 
@@ -462,7 +465,7 @@ pumpkin-terminal/
 ├── docs/MATEMATIKA.md      hit-rate impas, required TP, EV, Kelly, survival
 ├── docs/SOCIAL-ALPHA-RESEARCH.md  riset tooling sosial + apa yang tidak diambil
 ├── docs/QUANT-STACK.md     10 repo kuant dari thread X: diambil/dibuang + hasil uji
-└── tests/                  92 test: filter, stop, trailing, invariant, p̂, Kelly, IC, CVaR
+└── tests/                  100 test: filter, stop, trailing, invariant, p̂, Kelly, IC, CVaR
 ```
 
 ```bash

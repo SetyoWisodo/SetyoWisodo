@@ -204,7 +204,7 @@ per satu — empat diambil metodenya, dua lapisan (komite veto & gerbang ramalan
 **diukur lalu dimatikan** karena tidak membayar dirinya sendiri. Lihat
 [`docs/QUANT-STACK.md`](pumpkin-terminal/docs/QUANT-STACK.md).
 
-Kode, aturan filter/risiko, konektor data nyata (Helius), dan 92 test:
+Kode, aturan filter/risiko, konektor data nyata (Helius), dan 100 test:
 [`pumpkin-terminal/`](pumpkin-terminal/README.md)
 
 ---
