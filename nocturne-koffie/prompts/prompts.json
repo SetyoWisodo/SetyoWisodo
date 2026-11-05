@@ -12,7 +12,7 @@
     "copy",
     "kriteria_terima"
   ],
-  "total_karakter": 17542,
+  "total_karakter": 17953,
   "masalah": [],
   "prompts": [
     {
@@ -21,8 +21,8 @@
       "kategori": "Hero",
       "halaman": "index.html",
       "tingkat": "wajib",
-      "karakter": 2064,
-      "kriteria": 5,
+      "karakter": 2183,
+      "kriteria": 6,
       "komponen": 3,
       "angka_dari": [
         "data/design-system.json#warna",
@@ -36,7 +36,7 @@
       "kategori": "Hero",
       "halaman": "index.html",
       "tingkat": "wajib",
-      "karakter": 2607,
+      "karakter": 2899,
       "kriteria": 7,
       "komponen": 4,
       "angka_dari": [

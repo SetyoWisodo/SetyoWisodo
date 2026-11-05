@@ -321,6 +321,12 @@ Aturan yang mengikat:
 7. **Ubah satu sisi, jalankan verifikasi.** `node tools/verifikasi-biji.mjs` membandingkan proyeksi
    JS dengan poster CPU; selisih maksimum 0,6% adalah batas.
 
+**Susunan hero (revisi 5 Nov 2026):** biji di **kiri**, teks di **kanan**. Motto
+"Terjaga untuk rasa yang sesungguhnya." jadi `h1` (baris 2 Fraunces italic), dan headline
+"Kopi dari petani. Diseduh untukmu." turun jadi baris pendukung. Motto disimpan di
+`data/catalog.json#brand.motto`; ukurannya diukur dengan metrik font asli oleh gerbang.
+Jangan menaikkan ukuran motto tanpa menjalankan `python3 tools/periksa.py`.
+
 Laporan: `laporan/biji-3d.md`.
 
 ## 5. Serah terima

@@ -37,6 +37,28 @@ Alur dihitung dari **sudut azimut**, bukan dari koordinat z. Percobaan pertama m
 hasilnya alur menghilang saat sisi datar diratakan — kesalahan itu yang membuat poster pertama
 tampak seperti bola.
 
+## 2b · Susunan beranda (5 Nov 2026, revisi)
+
+Permintaan pemilik: **biji 3D di kiri layar, motto Nocturne di kanan.**
+
+| Kolom | Isi |
+| --- | --- |
+| kiri (0,86 fr) | bingkai 4:5 berisi biji 3D + 6 titik senyawa, lebar maks 440 px |
+| kanan (1,14 fr) | label mikro · motto · baris pendukung · paragraf · petunjuk sentuh |
+
+- **Motto:** "Terjaga untuk / rasa yang sesungguhnya." Baris 1 Bricolage Grotesque 800,
+  baris 2 Fraunces 300 italic `--espresso`. Disimpan di `data/catalog.json#brand.motto`,
+  jadi bukan teks liar di HTML.
+- **Baris pendukung:** "Kopi dari petani. Diseduh untukmu." (headline brand lama, tetap ada
+  sebagai kalimat kedua, Fraunces italic `--ink-55`).
+- **DOM tetap teks-dulu, tampilan dibalik lewat CSS Grid** (`grid-column: 1` untuk biji,
+  `grid-column: 2` untuk teks) supaya `h1` tidak tenggelam di urutan dokumen.
+- **Ukuran motto dihitung, bukan ditebak.** `periksa.py` membaca `clamp()` dan fraksi kolom
+  langsung dari `assets/css/biji.css`, lalu mengukur lebar baris dengan metrik font asli
+  (Bricolage 800 & Fraunces 300) pada 360–1920 px. Uji negatif sudah dilakukan: menaikkan
+  `clamp` ke 4,4rem membuat gerbang gagal ("motto meluap di 900px").
+- Di bawah 900 px: satu kolom, teks dulu lalu biji; motto `clamp(1,6rem, 7,2vw, 2,6rem)`.
+
 ## 3 · Warna medium roast — hanya dari token
 
 | Peran | Token | Hex |

@@ -334,15 +334,73 @@
   line-height: 1.5;
 }
 
-/* ── tata letak hero ─────────────────────────────────────── */
+/* ── tata letak hero: biji di KIRI, teks di KANAN ─────────── */
+.hero__kicker {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero__title span:last-child {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: -0.015em;
+}
+
+.hero__brandline {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(0.98rem, 1.3vw, 1.12rem);
+  line-height: 1.4;
+  color: var(--ink-55);
+  margin: 0;
+}
+
+/* motto lebih panjang dari headline lama — ukurannya diturunkan supaya
+   "rasa yang sesungguhnya." tidak pernah patah di tengah frasa */
+.hero__title {
+  /* ukuran ini dihitung dari metrik font asli: "rasa yang sesungguhnya."
+     dalam Fraunces 300 italic harus muat di kolom kanan pada 360–1440 px.
+     Diverifikasi tools/periksa.py cek "Biji 3D" (butir motto). */
+  font-size: clamp(1.7rem, 3.2vw, 3.1rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+}
+
+@media (max-width: 899px) {
+  .hero__title {
+    font-size: clamp(1.6rem, 7.2vw, 2.6rem);
+  }
+}
+
 @media (min-width: 900px) {
   .hero__top {
-    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    grid-template-columns: minmax(0, 0.86fr) minmax(0, 1.14fr);
     align-items: center;
+    column-gap: clamp(26px, 4vw, 62px);
+    row-gap: 0;
   }
 
+  /* DOM tetap teks-dulu (h1 tidak tenggelam), tampilan dibalik di sini */
   .biji {
-    justify-self: end;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    width: min(100%, 440px);
+  }
+
+  .hero__kiri {
+    grid-column: 2;
+    grid-row: 1;
+    justify-items: start;
+  }
+
+  .hero__intro {
+    justify-self: start;
+    align-self: auto;
+    padding-bottom: 0;
   }
 }
 

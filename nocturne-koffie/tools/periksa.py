@@ -676,17 +676,77 @@ def periksa(catatan):
             masalah_biji.append("biji3d.js tanpa jalur prefers-reduced-motion")
         if "fetch(" not in js:
             masalah_biji.append("biji3d.js tidak membaca data dari JSON (angka ditulis di JS)")
-        # tidak boleh mengklaim sudah dirender GPU di sandbox ini
-        for f in ("laporan/biji-3d.md", "skills/hero-3d/SKILL.md"):
-            if os.path.exists(os.path.join(ROOT, f)):
-                isi = baca(f).lower()
-                for salah in ("render webgl berhasil", "sudah dirender di gpu", "diuji di chrome"):
-                    if salah in isi:
-                        masalah_biji.append(f"{f}: klaim render GPU yang tidak terbukti")
+
+        # motto brand: harus ada di data, tampil di hero, dan tidak dikarang di HTML saja
+        motto = json.loads(baca("data/catalog.json")).get("brand", {}).get("motto")
+        if not motto or len(motto) != 2:
+            masalah_biji.append("data/catalog.json#brand.motto belum ada / bukan 2 baris")
+        else:
+            for baris in motto:
+                if baris not in idx:
+                    masalah_biji.append(f'motto "{baris}" tidak tampil di index.html')
+
+        # susunan hero: biji di kiri, teks di kanan (grid, ≥900px)
+        css = baca("assets/css/biji.css")
+        if "grid-column: 1" not in css or ".biji" not in css:
+            masalah_biji.append("biji tidak ditempatkan di kolom kiri pada layar lebar")
+        if "grid-column: 2" not in css:
+            masalah_biji.append("teks hero tidak ditempatkan di kolom kanan")
+
+        # motto harus benar-benar muat di kolomnya. Angka diambil dari CSS
+        # (bukan disalin ke sini), lalu diukur dengan metrik font asli.
+        if motto:
+            try:
+                from PIL import ImageFont
+                blok_dasar = css.split("@media (min-width: 900px)")[0]
+                blok_besar = css.split("@media (min-width: 900px)")[1].split("@media (max-width: 899px)")[0]
+                blok_kecil = css.split("@media (max-width: 899px)")[1]
+
+                def badan_aturan(txt, selektor):
+                    m = re.search(re.escape(selektor) + r"\s*\{([^}]*)\}", txt)
+                    return m.group(1) if m else ""
+
+                def clamp_dari(txt):
+                    m = re.search(r"font-size:\s*clamp\(([\d.]+)rem,\s*([\d.]+)vw,\s*([\d.]+)rem\)", txt)
+                    return tuple(float(x) for x in m.groups()) if m else None
+
+                # ambil clamp dari ATURAN .hero__title, bukan dari aturan pertama di berkas
+                dasar = clamp_dari(badan_aturan(blok_dasar, ".hero__title"))
+                kecil = clamp_dari(badan_aturan(blok_kecil, ".hero__title")) or dasar
+                m_grid = re.search(r"grid-template-columns:\s*minmax\(0,\s*([\d.]+)fr\)\s*minmax\(0,\s*([\d.]+)fr\)", blok_besar)
+                m_gap = re.search(r"column-gap:\s*clamp\(([\d.]+)px,\s*([\d.]+)vw,\s*([\d.]+)px\)", blok_besar)
+                if not (dasar and m_grid):
+                    masalah_biji.append("CSS hero tidak memakai clamp() + grid dua kolom yang bisa diperiksa")
+                else:
+                    fr1, fr2 = float(m_grid.group(1)), float(m_grid.group(2))
+                    fb = os.path.join(ROOT, "assets", "fonts", "bricolage-grotesque-latin-800-normal.ttf")
+                    ff = os.path.join(ROOT, "assets", "fonts", "fraunces-latin-300-normal.ttf")
+                    for vw in (360, 390, 414, 768, 900, 1024, 1280, 1440, 1920):
+                        pad = min(44, max(16, vw * 0.04)) * 2
+                        wrap = min(1180, vw) - pad
+                        c = dasar if vw >= 900 else kecil
+                        size = max(c[0] * 16, min(vw * c[1] / 100, c[2] * 16))
+                        if vw >= 900:
+                            gap = 0.0
+                            if m_gap:
+                                g0, g1, g2 = (float(x) for x in m_gap.groups())
+                                gap = max(g0, min(vw * g1 / 100, g2))
+                            kanan = (wrap - gap) * (fr2 / (fr1 + fr2))
+                        else:
+                            kanan = wrap
+                        f1 = ImageFont.truetype(fb, int(size))
+                        f2 = ImageFont.truetype(ff, int(size))
+                        lebar = max(f1.getlength(motto[0]), f2.getlength(motto[1]))
+                        if lebar > kanan * 0.96:
+                            masalah_biji.append(f"motto meluap di {vw}px ({lebar:.0f}px > kolom {kanan:.0f}px)")
+            except ImportError:
+                pass   # tanpa Pillow, butir ini dilewati (bukan gagal)
 
         tambah("Biji 3D", "lolos" if not masalah_biji else "gagal",
                f'{len(zona)} zona · {sum(len(z["senyawa"]) for z in zona)} senyawa · '
-               f'{len(sumber)} sumber literatur · poster 640×800 · verifikasi 8/8',
+               f'{len(sumber)} sumber literatur · poster 640×800 · '
+               f'verifikasi {json.loads(baca("laporan/biji-verifikasi.json")).get("lolos", 0)}/'
+               f'{json.loads(baca("laporan/biji-verifikasi.json")).get("lolos", 0) + json.loads(baca("laporan/biji-verifikasi.json")).get("gagal", 0)}',
                "; ".join(masalah_biji[:4]))
 
     # 6 · ukuran

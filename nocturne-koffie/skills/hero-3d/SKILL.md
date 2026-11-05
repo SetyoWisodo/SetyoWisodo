@@ -92,6 +92,22 @@ Angka yang ditampilkan menyebut sumbernya (S1–S4 di `data/biji3d.json`), misal
 hasil lab biji Nocturne**, dan bentuk bijinya model 3D, bukan hasil pindai. Kalimat itu ada di
 `kejujuran.catatan_tampil` dan tampil di panel serta di daftar statis.
 
+## 5b · Susunan halaman
+
+Biji **kiri**, teks **kanan** (revisi 5 Nov 2026). Motto "Terjaga untuk / rasa yang sesungguhnya."
+jadi `h1`; headline lama turun jadi baris pendukung.
+
+| Hal | Aturan |
+| --- | --- |
+| Grid | `0,86fr / 1,14fr`, jarak `clamp(26px, 4vw, 62px)`, hanya ≥900 px |
+| Biji | maks 440 px, `justify-self: start` |
+| Motto | `clamp(1,7rem, 3,2vw, 3,1rem)`, baris 2 Fraunces 300 italic |
+| Mobile | satu kolom, teks dulu, motto `clamp(1,6rem, 7,2vw, 2,6rem)` |
+| Sumber teks | `data/catalog.json#brand.motto` — jangan menulis motto langsung di HTML |
+
+Ukuran motto tidak boleh dinaikkan tanpa mengukur: `periksa.py` menghitung lebar baris dengan
+metrik font asli dan menolak kalau melewati 96% kolom.
+
 ## 6 · Interaksi
 
 | Aksi | Perilaku |

@@ -370,5 +370,17 @@ terbukti: matematika geometri, kesesuaian JS↔Python, struktur HTML, jalur post
 lewat jsdom. Bentuk biji adalah model, bukan hasil pindai; rentang senyawa dari literatur, bukan
 lab Nocturne — keduanya ditulis di halaman.
 
-Gerbang terakhir: **23 lolos · 0 peringatan · 0 gagal** (cek baru: *Biji 3D*).
+**Susunan beranda (revisi 5 Nov 2026).** Biji dipindah ke **kiri** layar, teks ke **kanan**:
+
+| Kolom | Isi |
+| --- | --- |
+| kiri `0,86fr` | biji 3D maks 440 px + 6 titik senyawa |
+| kanan `1,14fr` | label mikro · motto `h1` · baris pendukung · paragraf · petunjuk |
+
+Motto "Terjaga untuk / rasa yang sesungguhnya." memakai Bricolage 800 + Fraunces italic
+`--espresso`, disimpan di `data/catalog.json#brand.motto`. Ukuran `clamp(1,7rem, 3,2vw, 3,1rem)`
+bukan pilihan selera: gerbang membaca `clamp()` dan fraksi kolom dari CSS, lalu mengukur lebar
+baris dengan metrik font asli pada 360–1920 px. Uji negatif: menaikkan ke 4,4rem → gerbang gagal.
+
+Gerbang terakhir: **23 lolos · 0 peringatan · 0 gagal** (cek *Biji 3D* kini juga memeriksa motto).
 Laporan: `laporan/biji-3d.md`.
