@@ -4,13 +4,13 @@
     {
       "kategori": "Berkas wajib",
       "status": "lolos",
-      "teks": "79/79 berkas ada",
+      "teks": "86/86 berkas ada",
       "detail": ""
     },
     {
       "kategori": "Tautan lokal",
       "status": "lolos",
-      "teks": "129/129 tautan menuju berkas yang ada",
+      "teks": "132/132 tautan menuju berkas yang ada",
       "detail": ""
     },
     {
@@ -118,13 +118,19 @@
     {
       "kategori": "Prompt kelas atas",
       "status": "lolos",
-      "teks": "8 prompt · 7 blok · 14 ribu karakter · token patuh · galeri salin",
+      "teks": "9 prompt · 7 blok · 17 ribu karakter · token patuh · galeri salin",
+      "detail": ""
+    },
+    {
+      "kategori": "Biji 3D",
+      "status": "lolos",
+      "teks": "6 zona · 12 senyawa · 4 sumber literatur · poster 640×800 · verifikasi 8/8",
       "detail": ""
     },
     {
       "kategori": "Berat halaman awal",
       "status": "lolos",
-      "teks": "89 KB (batas 1.500 KB)",
+      "teks": "98 KB (batas 1.500 KB)",
       "detail": ""
     },
     {

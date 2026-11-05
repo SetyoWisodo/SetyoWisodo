@@ -9,7 +9,7 @@ berkelas; kalau tidak bisa disalin, cari gaya prompt itu di GitHub dan platform 
 Jawaban singkat: **halaman-halamannya bisa saya baca, isi prompt-nya tidak.** Keduanya menaruh
 prompt di balik akun berbayar. Yang saya lakukan: memetakan anatomi publiknya, lalu membangun
 pustaka prompt sendiri dengan bentuk yang sama, memakai repo berlisensi CC0/MIT, dan mengisinya
-dengan data Nocturne. Hasilnya 8 prompt, 14.935 karakter, 0 masalah di gerbang.
+dengan data Nocturne. Hasilnya 9 prompt, 17.542 karakter, 0 masalah di gerbang.
 
 ## 1 · Apa yang benar-benar ada di dua platform itu
 
@@ -55,20 +55,21 @@ langsung menampilkannya.
 Pencarian GitHub untuk `"jiro.build"` menemukan 185 berkas — sebagian besar artikel dan daftar
 tautan, bukan salinan prompt. Tidak ada yang saya pakai sebagai bahan prompt.
 
-## 4 · Delapan prompt yang dihasilkan
+## 4 · Sembilan prompt yang dihasilkan
 
 | # | id | Halaman | Karakter | Inti |
 | ---: | --- | --- | ---: | --- |
 | 01 | `hero-beranda` | `index.html` | 2.064 | Tipografi raksasa + satu foto produk |
-| 02 | `menu-katalog` | `katalog.html` | 2.322 | Sembilan SKU sebagai tabel editorial |
-| 03 | `produk-gayo` | `produk/gayo.html` | 1.971 | Data petani sebagai keterangan teknis |
-| 04 | `cerita-ais` | `cerita.html` | 1.719 | Esai + garis waktu, Ais sebagai mitra |
-| 05 | `langganan` | `langganan.html` | 1.782 | Ritme kirim, aritmetika terlihat |
-| 06 | `b2b-grosir` | `grosir.html` | 1.680 | Tabel harga bertingkat yang bisa diaudit |
-| 07 | `panduan-seduh` | `seduh.html` | 1.667 | Tiga metode, siap dicetak |
-| 08 | `kampanye-ongkir` | `kampanye/ongkir.html` | 1.730 | Satu tawaran, satu tombol |
+| 02 | `hero-biji-3d` | `index.html` | 2.607 | Satu biji 3D yang bisa diputar & disentuh |
+| 03 | `menu-katalog` | `katalog.html` | 2.322 | Sembilan SKU sebagai tabel editorial |
+| 04 | `produk-gayo` | `produk/gayo.html` | 1.971 | Data petani sebagai keterangan teknis |
+| 05 | `cerita-ais` | `cerita.html` | 1.719 | Esai + garis waktu, Ais sebagai mitra |
+| 06 | `langganan` | `langganan.html` | 1.782 | Ritme kirim, aritmetika terlihat |
+| 07 | `b2b-grosir` | `grosir.html` | 1.680 | Tabel harga bertingkat yang bisa diaudit |
+| 08 | `panduan-seduh` | `seduh.html` | 1.667 | Tiga metode, siap dicetak |
+| 09 | `kampanye-ongkir` | `kampanye/ongkir.html` | 1.730 | Satu tawaran, satu tombol |
 
-Total 14.935 karakter · rata-rata 1.867 · semua lolos gerbang.
+Total 17.542 karakter · rata-rata 1.949 · semua lolos gerbang.
 
 ## 5 · Gerbang yang menjaga mutu
 
@@ -98,7 +99,7 @@ Catatan penting: pemindaian dilakukan **per kalimat afirmatif** — prompt meman
 ## 7 · Perintah
 
 ```bash
-python3 tools/prompt.py --cek    # validasi 8 prompt
+python3 tools/prompt.py --cek    # validasi 9 prompt
 python3 tools/prompt.py          # tulis prompts/prompts.json + prompts/index.html
 python3 tools/periksa.py         # gerbang penuh, termasuk cek "Prompt kelas atas"
 ```

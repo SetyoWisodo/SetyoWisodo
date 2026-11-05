@@ -1,0 +1,314 @@
+{
+  "versi": "1.0",
+  "diperbarui": "2026-11-05",
+  "_catatan": "Satu sumber kebenaran untuk biji kopi 3D di hero: bentuk, warna sangrai, titik sentuh, dan senyawa di dalamnya. Dipakai tiga hal sekaligus — perender poster (tools/biji.py), perender WebGL (assets/js/biji3d.js), dan gerbang QA (tools/periksa.py). Kalau angka di sini berubah, ketiganya ikut.",
+  "biji": {
+    "spesies": "Coffea arabica",
+    "proses": "Natural Classic",
+    "asal_contoh": "Gayo · 1.346 mdpl",
+    "tingkat_sangrai": {
+      "nama": "Medium roast",
+      "skala_nocturne": "3 dari 5",
+      "agtron_perkiraan": "55–60",
+      "catatan": "Warna permukaan cokelat muda–sedang, minyak belum mengkilap rata; crease masih jelas. Nilai Agtron di sini perkiraan visual, bukan hasil pengukuran."
+    }
+  },
+  "geometri": {
+    "_catatan": "Satuan relatif; panjang biji = 2.0. Bentuk dasar elipsoid lalu diratakan di sisi +Z dan diberi alur (crease) berbentuk S memanjang sumbu X. Deformasi diterapkan pada titik, bukan pada shader, supaya poster dan WebGL memakai bentuk yang sama.",
+    "sumbu": {
+      "a": 1.0,
+      "b": 0.62,
+      "c": 0.46
+    },
+    "ratakan": {
+      "sisi_z": 1,
+      "faktor": 0.72,
+      "mulai": 0.0
+    },
+    "alur": {
+      "amplitudo": 0.42,
+      "frekuensi": 1.15,
+      "lebar": 0.115,
+      "dalam": 0.52
+    },
+    "ujung": {
+      "taper": 0.16
+    },
+    "tekstur": {
+      "amplitudo": 0.0045,
+      "frekuensi": 9.0
+    },
+    "resolusi": {
+      "desktop": [
+        150,
+        300
+      ],
+      "seluler": [
+        92,
+        184
+      ],
+      "poster": [
+        300,
+        600
+      ]
+    }
+  },
+  "warna": {
+    "_catatan": "Semua hex berasal dari data/design-system.json#warna.boleh_dipakai. Tidak ada warna baru: cokelat sangrai disusun dari token brand.",
+    "gelap": "#3A2013",
+    "tengah": "#7A4A1E",
+    "terang": "#B4703A",
+    "kilau": "#D9A441",
+    "kertas": "#F5EFE4"
+  },
+  "kamera": {
+    "posisi": [
+      0.95,
+      0.95,
+      4.4
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "fov_deg": 30,
+    "_catatan": "Sudut pandang datang dari posisi kamera. Rotasi model di JS mulai dari 0 supaya render WebGL dan poster PNG memakai sudut yang sama.",
+    "putar_otomatis_deg_per_detik": 4.5,
+    "geser_maks_deg": 22
+  },
+  "cahaya": {
+    "kunci": [
+      0.4,
+      0.7,
+      0.92
+    ],
+    "isi": [
+      -0.78,
+      0.02,
+      0.4
+    ],
+    "kekuatan_kunci": 1.0,
+    "kekuatan_isi": 0.38,
+    "kilau_pangkat": 34,
+    "kilau_kekuatan": 0.34
+  },
+  "sumber_angka": [
+    {
+      "id": "S1",
+      "judul": "Changes in Major Chemical Constituents of Green Coffee Beans during the Roasting",
+      "terbitan": "Korean Journal of Food Science and Technology, 2006",
+      "tautan": "https://koreascience.kr/article/JAKO200603042160962.page",
+      "dipakai_untuk": "kafein 1,0% (Arabika, basis kering, stabil saat sangrai); trigonelin 0,87–0,90% dan turun ±50% pada sangrai lebih gelap; klorogenat 4,38–4,66%"
+    },
+    {
+      "id": "S2",
+      "judul": "The effect of coffee beans roasting on its chemical composition",
+      "terbitan": "Potravinarstvo, DOI 10.5219/1062, 2019",
+      "tautan": "https://doi.org/10.5219/1062",
+      "dipakai_untuk": "sukrosa terdegradasi 96–98% pada medium roast; klorogenat turun 65% pada medium; terbentuknya asam asetat, format, laktat; HMF terukur"
+    },
+    {
+      "id": "S3",
+      "judul": "The Dynamic Changes of Chlorogenic Acids and Alkaloids in Coffee Processing and Brewing: A Systematic Literature Review",
+      "terbitan": "2026",
+      "tautan": "https://www.researchgate.net/publication/404166276",
+      "dipakai_untuk": "kafein Arabika 0,9–1,3%; trigonelin Arabika 7,20–12,95 mg/g basis kering; rentang penurunan klorogenat 52–99%"
+    },
+    {
+      "id": "S4",
+      "judul": "Komposisi umum biji Arabika (lipid 15–16%, melanoidin, pirazin/furanon)",
+      "terbitan": "literatur umum, tanpa satu makalah tertentu",
+      "tautan": "",
+      "dipakai_untuk": "angka yang ditandai 'umum' di bawah — rentang buku teks, bukan hasil satu percobaan"
+    }
+  ],
+  "zona": [
+    {
+      "id": "cekungan",
+      "nama": "Cekungan tengah",
+      "arah": [
+        0.0,
+        0.04,
+        1.0
+      ],
+      "warna_titik": "#B4703A",
+      "ringkas": "Alur S tempat dua belahan biji bertemu. Di sini panas paling terkurung saat sangrai.",
+      "senyawa": [
+        {
+          "nama": "Sukrosa sisa",
+          "rumus": "C12H22O11",
+          "rentang": "6–9% (biji hijau) → sisa <4% pada medium",
+          "peran": "sumber karamelisasi; yang tersisa memberi rasa manis pendek",
+          "sumber": "S2",
+          "keyakinan": "kuat"
+        },
+        {
+          "nama": "5-HMF",
+          "rumus": "C6H6O3",
+          "rentang": "terbentuk pada medium roast (terukur, bukan nol)",
+          "peran": "penanda karamelisasi; berlebih terasa pahit-asam",
+          "sumber": "S2",
+          "keyakinan": "kuat"
+        }
+      ]
+    },
+    {
+      "id": "kulit-luar",
+      "nama": "Kulit sangrai",
+      "arah": [
+        -0.62,
+        0.12,
+        0.78
+      ],
+      "warna_titik": "#7A4A1E",
+      "ringkas": "Permukaan yang menyentuh drum. Warna cokelat medium berasal dari reaksi Maillard di lapisan ini.",
+      "senyawa": [
+        {
+          "nama": "Melanoidin",
+          "rumus": "polimer",
+          "rentang": "terbentuk sejak ±150 °C, bertambah sampai akhir sangrai",
+          "peran": "bobot dan warna cangkir; menahan volatil",
+          "sumber": "S4",
+          "keyakinan": "umum"
+        },
+        {
+          "nama": "Pirazin & furanon",
+          "rumus": "C4H4N2 · C4H6O2",
+          "rentang": "volatil, satuan ppb–ppm",
+          "peran": "aroma kacang sangrai dan karamel",
+          "sumber": "S4",
+          "keyakinan": "umum"
+        }
+      ]
+    },
+    {
+      "id": "inti",
+      "nama": "Inti biji",
+      "arah": [
+        0.42,
+        -0.1,
+        0.9
+      ],
+      "warna_titik": "#93381F",
+      "ringkas": "Bagian dalam yang paling stabil terhadap panas. Dua alkaloid di sini hampir tidak berubah.",
+      "senyawa": [
+        {
+          "nama": "Kafein",
+          "rumus": "C8H10N4O2",
+          "rentang": "0,9–1,3% (Arabika, basis kering)",
+          "peran": "pahit dasar; praktis tidak rusak saat sangrai",
+          "sumber": "S1",
+          "keyakinan": "kuat"
+        },
+        {
+          "nama": "Trigonelin",
+          "rumus": "C7H7NO2",
+          "rentang": "0,87–0,90% hijau → turun ±50% pada medium",
+          "peran": "pahit dalam, sedikit earthy; sebagian berubah jadi niasin",
+          "sumber": "S1",
+          "keyakinan": "kuat"
+        }
+      ]
+    },
+    {
+      "id": "minyak",
+      "nama": "Bintik minyak",
+      "arah": [
+        0.78,
+        -0.16,
+        0.6
+      ],
+      "warna_titik": "#B4703A",
+      "ringkas": "Pada medium roast minyak mulai naik ke permukaan. Ini yang membuat biji terlihat hidup, bukan kering.",
+      "senyawa": [
+        {
+          "nama": "Lipid kopi",
+          "rumus": "trigliserida",
+          "rentang": "±15–16% massa biji Arabika",
+          "peran": "membawa aroma larut lemak; mouthfeel",
+          "sumber": "S4",
+          "keyakinan": "umum"
+        },
+        {
+          "nama": "Diterpen (kafestol, kahweol)",
+          "rumus": "C20H28O3",
+          "rentang": "fraksi kecil dari lipid",
+          "peran": "sebagian tertahan kertas filter, lolos di tubruk",
+          "sumber": "S4",
+          "keyakinan": "umum"
+        }
+      ]
+    },
+    {
+      "id": "ujung",
+      "nama": "Ujung biji",
+      "arah": [
+        0.18,
+        0.72,
+        0.62
+      ],
+      "warna_titik": "#7A4A1E",
+      "ringkas": "Titik tempat embrio. Panas paling cepat masuk lewat sini, jadi perubahan trigonelin paling jauh.",
+      "senyawa": [
+        {
+          "nama": "Asam nikotinat (niasin)",
+          "rumus": "C6H5NO2",
+          "rentang": "naik seiring trigonelin terurai",
+          "peran": "hasil samping sangrai; menandai tingkat kegelapan",
+          "sumber": "S1",
+          "keyakinan": "kuat"
+        },
+        {
+          "nama": "Trigonelin sisa",
+          "rumus": "C7H7NO2",
+          "rentang": "7,2–12,95 mg/g basis kering pada medium",
+          "peran": "penyeimbang pahit",
+          "sumber": "S3",
+          "keyakinan": "kuat"
+        }
+      ]
+    },
+    {
+      "id": "serat",
+      "nama": "Daging & serat",
+      "arah": [
+        -0.34,
+        -0.68,
+        0.64
+      ],
+      "warna_titik": "#93381F",
+      "ringkas": "Struktur selulosa yang menyimpan asam. Di sini keasaman cangkir ditentukan.",
+      "senyawa": [
+        {
+          "nama": "Klorogenat (5-CQA)",
+          "rumus": "C16H18O9",
+          "rentang": "4,38–4,66% hijau → turun ±65% pada medium",
+          "peran": "keasaman & body; sisa berlebih terasa sepat",
+          "sumber": "S1",
+          "keyakinan": "kuat"
+        },
+        {
+          "nama": "Asam kuiniat & asetat",
+          "rumus": "C7H12O6 · C2H4O2",
+          "rentang": "terbentuk saat sangrai medium",
+          "peran": "asam terasa di ujung lidah; penanda sangrai",
+          "sumber": "S2",
+          "keyakinan": "kuat"
+        }
+      ]
+    }
+  ],
+  "kejujuran": {
+    "yang_bisa_diklaim": [
+      "Rentang senyawa di atas berasal dari literatur ilmiah terbuka (lihat sumber_angka), untuk Arabika medium roast pada umumnya.",
+      "Bentuk dan warna biji 3D adalah model, bukan hasil pemindaian biji Nocturne."
+    ],
+    "yang_tidak_boleh_diklaim": [
+      "Bahwa ini hasil uji laboratorium biji Nocturne.",
+      "Bahwa kadar senyawa tiap lot sama dengan rentang literatur.",
+      "Bahwa warna di layar sama persis dengan warna biji asli (bergantung monitor)."
+    ],
+    "catatan_tampil": "Rentang senyawa = literatur Arabika medium roast, bukan hasil lab biji Nocturne. Bentuk biji = model 3D, bukan hasil pindai."
+  }
+}

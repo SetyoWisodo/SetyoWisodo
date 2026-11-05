@@ -1,0 +1,55 @@
+{
+  "dibuat": "2026-11-05",
+  "sidik": "2c9fd24a89bed256",
+  "lolos": 9,
+  "gagal": 0,
+  "selisih_proyeksi_maks_persen": 0.005,
+  "butir": [
+    {
+      "nama": "Skrip WebGL dimuat",
+      "ok": true,
+      "detail": "NocturneBiji3D tersedia (buatBiji, kamera, proyeksiLayar)"
+    },
+    {
+      "nama": "Angka dari data, bukan JS",
+      "ok": true,
+      "detail": "tidak ada geometri yang ditulis ulang di JS"
+    },
+    {
+      "nama": "Tanpa pustaka 3D dari CDN",
+      "ok": true,
+      "detail": "nol referensi CDN"
+    },
+    {
+      "nama": "JS = Python (proyeksi)",
+      "ok": true,
+      "detail": "selisih maksimum 0.00% · 6 titik"
+    },
+    {
+      "nama": "Mesh & normal",
+      "ok": true,
+      "detail": "3280 vertex · 100.0% normal keluar (sisa 1,2% = kutub, fallback radial) · setengah panjang 0.942 · tebal 1.245 · NaN 0 · galat unit 3.8e-17"
+    },
+    {
+      "nama": "Alur terbentuk",
+      "ok": true,
+      "detail": "tengah z=-0.458 vs pinggir z=0.391"
+    },
+    {
+      "nama": "HTML titik ↔ zona",
+      "ok": true,
+      "detail": "6 tombol · 6 blok zona · semua id cocok"
+    },
+    {
+      "nama": "Poster PNG beralfa",
+      "ok": true,
+      "detail": "640×800 · 104 KB · RGBA"
+    },
+    {
+      "nama": "Warna hanya dari data",
+      "ok": true,
+      "detail": "JS 0 hex · Python 0 hex"
+    }
+  ],
+  "catatan": "Dijalankan tanpa GPU. Memeriksa matematika geometri, kecocokan JS<->Python, struktur HTML, dan poster. Bukan render WebGL."
+}

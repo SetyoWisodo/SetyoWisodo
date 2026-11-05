@@ -1,0 +1,381 @@
+/* ============================================================
+   Nocturne — biji.css
+   Biji kopi 3D di hero. Semua warna memakai token dari
+   data/design-system.json; tidak ada hex baru di berkas ini.
+
+   Aturan:
+   · Poster PNG adalah gambar awal. Kanvas WebGL menimpanya setelah siap,
+     jadi tidak ada kotak kosong saat memuat.
+   · Tanpa JavaScript: poster tetap tampil, titik tidak muncul, dan daftar
+     senyawa tetap bisa dibuka lewat <details>.
+   · prefers-reduced-motion: tidak ada denyut, tidak ada transisi.
+   ============================================================ */
+
+.hero__kiri {
+  display: grid;
+  gap: clamp(16px, 2vw, 26px);
+  align-content: end;
+}
+
+.hero__petunjuk {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--ink-55);
+  max-width: 42ch;
+}
+
+/* ── bingkai ─────────────────────────────────────────────── */
+.biji {
+  position: relative;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+  justify-self: center;
+  width: min(100%, 520px);
+}
+
+.biji__bingkai {
+  position: relative;
+  container-type: inline-size;
+}
+
+.biji__panggung {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  touch-action: pan-y;
+  cursor: grab;
+  will-change: transform;
+  outline: none;
+}
+
+.biji__panggung:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 6px;
+}
+
+.biji__panggung--tarik {
+  cursor: grabbing;
+}
+
+.biji__poster,
+.biji__kanvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.biji__poster {
+  object-fit: contain;
+  /* poster PNG beralfa: latarnya transparan, jadi menyatu di latar apa pun */
+}
+
+.biji--siap[data-biji-mode="webgl"] .biji__poster {
+  opacity: 0;
+  transition: opacity 420ms var(--ease-out);
+}
+
+.biji__kanvas {
+  opacity: 0;
+  transition: opacity 520ms var(--ease-out);
+}
+
+.biji--siap[data-biji-mode="webgl"] .biji__kanvas {
+  opacity: 1;
+}
+
+/* ── titik senyawa ───────────────────────────────────────── */
+.biji__lapis {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.biji__titik {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: clamp(30px, 8.5cqw, 38px);
+  height: clamp(30px, 8.5cqw, 38px);
+  margin: calc(clamp(30px, 8.5cqw, 38px) / -2) 0 0 calc(clamp(30px, 8.5cqw, 38px) / -2);
+  padding: 0;
+  border: 1.5px solid var(--paper);
+  border-radius: 50%;
+  background: rgba(22, 17, 13, 0.28);
+  color: var(--paper);
+  font-family: var(--body);
+  font-size: clamp(11px, 2.6cqw, 13px);
+  font-weight: 600;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  opacity: 0;
+  transform: translate(0, 0);
+  transition: background-color 200ms var(--ease-out), border-color 200ms var(--ease-out),
+    opacity 260ms var(--ease-out), box-shadow 200ms var(--ease-out);
+  box-shadow: 0 0 0 0 rgba(217, 164, 65, 0);
+}
+
+.biji__titik::after {
+  /* cincin luar tipis, menandai area ketuk lebih luas dari yang terlihat */
+  content: "";
+  position: absolute;
+  inset: -9px;
+  border-radius: 50%;
+}
+
+.biji__titik:hover,
+.biji__titik:focus-visible {
+  background: var(--ink);
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(217, 164, 65, 0.28);
+  outline: none;
+}
+
+.biji__titik--aktif {
+  background: var(--orange);
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+/* denyut halus supaya titik terlihat bisa diketuk — hanya satu kali, bukan loop */
+.biji--siap .biji__titik {
+  animation: bijiMasuk 520ms var(--ease-out) both;
+}
+
+@keyframes bijiMasuk {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── panel senyawa ───────────────────────────────────────── */
+.biji__panel {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: min(100%, 330px);
+  max-height: 76%;
+  overflow: auto;
+  padding: 16px 16px 14px;
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  border-radius: 4px;
+  box-shadow: 0 18px 40px -28px rgba(22, 17, 13, 0.85);
+  z-index: 3;
+}
+
+.biji__panel[hidden] {
+  display: none;
+}
+
+.biji__panel-kepala {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.biji__tutup {
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 22px;
+  line-height: 1;
+  padding: 0 2px;
+  cursor: pointer;
+}
+
+.biji__judul {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: -0.01em;
+  margin: 6px 0 4px;
+}
+
+.biji__ringkas {
+  font-size: 13.2px;
+  line-height: 1.5;
+  color: var(--ink-80);
+  margin: 0 0 10px;
+}
+
+.biji__senyawa {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.biji__senyawa li {
+  display: grid;
+  gap: 2px;
+  padding-top: 9px;
+  border-top: 1px solid rgba(22, 17, 13, 0.16);
+  font-size: 12.8px;
+  line-height: 1.45;
+}
+
+.biji__senyawa b {
+  font-family: var(--body);
+  font-weight: 600;
+  font-size: 13.6px;
+}
+
+.biji__rumus {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--espresso);
+  font-size: 12.6px;
+}
+
+.biji__rentang {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.biji__peran {
+  color: var(--ink-80);
+}
+
+.biji__sumber {
+  font-size: 10.6px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-55);
+}
+
+.biji__catatan,
+.biji__detailcat {
+  font-size: 11.4px;
+  line-height: 1.5;
+  color: var(--ink-55);
+  margin: 12px 0 0;
+  padding-top: 9px;
+  border-top: 1px solid rgba(22, 17, 13, 0.16);
+}
+
+/* ── kaki & daftar tanpa sentuh ──────────────────────────── */
+.biji__kaki {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 11.4px;
+  letter-spacing: 0.04em;
+  color: var(--ink-55);
+  border-top: 1px solid rgba(22, 17, 13, 0.16);
+  padding-top: 9px;
+}
+
+.biji__kaki b {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.biji__sangrai {
+  font-variant-numeric: tabular-nums;
+}
+
+.biji__detail {
+  border-top: 1px solid rgba(22, 17, 13, 0.16);
+  padding-top: 9px;
+  font-size: 12.4px;
+}
+
+.biji__detail summary {
+  cursor: pointer;
+  color: var(--ink-55);
+  font-size: 11.6px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.biji__detail summary:hover {
+  color: var(--ink);
+}
+
+.biji__zona {
+  margin-top: 14px;
+  padding-left: 12px;
+  border-left: 2px solid rgba(22, 17, 13, 0.16);
+}
+
+.biji__zona--aktif {
+  border-left-color: var(--orange);
+}
+
+.biji__zona-judul {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-family: var(--display);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 2px;
+  letter-spacing: -0.01em;
+}
+
+.biji__no {
+  font-family: var(--serif);
+  font-size: 13px;
+  color: var(--ink-55);
+  font-variant-numeric: tabular-nums;
+}
+
+.biji__zringkas {
+  margin: 0 0 6px;
+  font-size: 12.2px;
+  color: var(--ink-80);
+  line-height: 1.5;
+}
+
+/* ── tata letak hero ─────────────────────────────────────── */
+@media (min-width: 900px) {
+  .hero__top {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    align-items: center;
+  }
+
+  .biji {
+    justify-self: end;
+  }
+}
+
+@media (max-width: 899px) {
+  .biji {
+    margin-top: clamp(18px, 4vw, 30px);
+  }
+
+  .biji__panel {
+    position: fixed;
+    inset: auto 12px 12px 12px;
+    width: auto;
+    max-height: 58vh;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .biji__titik,
+  .biji__kanvas,
+  .biji__poster {
+    transition: none;
+    animation: none;
+  }
+
+  .biji--siap .biji__titik {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/* cetak: biji tidak perlu ikut */
+@media print {
+  .biji {
+    display: none;
+  }
+}

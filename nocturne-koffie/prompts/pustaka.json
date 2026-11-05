@@ -2,15 +2,41 @@
   "versi": "1.0",
   "diperbarui": "2026-10-30",
   "_catatan": "Pustaka prompt kelas atas untuk halaman Nocturne. Setiap entri adalah spesifikasi desain utuh yang bisa ditempel ke agen koding (Claude Code, Cursor, v0, Bolt, Lovable). Angka, warna, dan nama produk diambil dari data/catalog.json dan data/design-system.json — bukan karangan. Prompt di sini DITULIS SENDIRI untuk Nocturne; tidak ada teks prompt berbayar dari motionsite.ai atau jiro.build yang disalin (keduanya paywall: $19–$199 dan $48–$384). Anatomi tujuh bloknya mengikuti pustaka berlisensi CC0 superdesigndev/superdesign-prompts.",
-  "sumber_kebenaran": ["data/catalog.json", "data/design-system.json", "brand/README.md", "panduan/07-sistem-motion.md"],
+  "sumber_kebenaran": [
+    "data/catalog.json",
+    "data/design-system.json",
+    "brand/README.md",
+    "panduan/07-sistem-motion.md"
+  ],
   "anatomi": [
-    {"blok": "ringkasan", "isi": "Satu paragraf: apa yang dibangun, untuk siapa, dan kesan yang harus tersisa setelah 3 detik."},
-    {"blok": "gaya", "isi": "Arah visual + token persis: hex, keluarga font, skala clamp, radius, tekstur. Tanpa token, prompt hanya jadi 'buat cantik'."},
-    {"blok": "tata_letak", "isi": "Struktur per bagian, urutan, lebar kolom, dan apa yang turun/hilang di mobile."},
-    {"blok": "komponen", "isi": "Elemen yang mudah dirusak agen: kartu produk, pemilih gramasi, tabel harga, formulir."},
-    {"blok": "gerak", "isi": "Durasi, easing, properti yang boleh dianimasikan, dan perilaku prefers-reduced-motion."},
-    {"blok": "copy", "isi": "Teks yang harus muncul apa adanya, dan larangan klaim. Ini yang membedakan halaman brand dari template generik."},
-    {"blok": "kriteria_terima", "isi": "Butir yang bisa diperiksa mesin: berat halaman, kontras, jumlah kolom, tidak ada angka tanpa sumber."}
+    {
+      "blok": "ringkasan",
+      "isi": "Satu paragraf: apa yang dibangun, untuk siapa, dan kesan yang harus tersisa setelah 3 detik."
+    },
+    {
+      "blok": "gaya",
+      "isi": "Arah visual + token persis: hex, keluarga font, skala clamp, radius, tekstur. Tanpa token, prompt hanya jadi 'buat cantik'."
+    },
+    {
+      "blok": "tata_letak",
+      "isi": "Struktur per bagian, urutan, lebar kolom, dan apa yang turun/hilang di mobile."
+    },
+    {
+      "blok": "komponen",
+      "isi": "Elemen yang mudah dirusak agen: kartu produk, pemilih gramasi, tabel harga, formulir."
+    },
+    {
+      "blok": "gerak",
+      "isi": "Durasi, easing, properti yang boleh dianimasikan, dan perilaku prefers-reduced-motion."
+    },
+    {
+      "blok": "copy",
+      "isi": "Teks yang harus muncul apa adanya, dan larangan klaim. Ini yang membedakan halaman brand dari template generik."
+    },
+    {
+      "blok": "kriteria_terima",
+      "isi": "Butir yang bisa diperiksa mesin: berat halaman, kontras, jumlah kolom, tidak ada angka tanpa sumber."
+    }
   ],
   "larangan_global": [
     "Jangan menyebut Nocturne sebagai roastery. Penyangraian oleh Ais Coffee Roastery, Banyuwangi.",
@@ -35,8 +61,26 @@
         "Tautan teks dengan garis bawah tumbuh 0 ke 100% lebar dalam 400 ms memakai cubic-bezier(.16,1,.3,1).",
         "Penanda produk: tiga potongan data dipisah titik tengah, tidak pernah lebih dari satu baris di 360 px."
       ],
-      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [240, 900], "stagger_ms": 90, "properti": ["transform", "opacity"], "reduced_motion": "semua elemen langsung pada keadaan akhir"},
-      "copy": ["Kopi dari petani.", "Diseduh untukmu.", "SINGLE ORIGIN · JAWA TIMUR", "Lihat katalog", "Cara menyeduh"],
+      "gerak": {
+        "easing": "cubic-bezier(.16,1,.3,1)",
+        "durasi_ms": [
+          240,
+          900
+        ],
+        "stagger_ms": 90,
+        "properti": [
+          "transform",
+          "opacity"
+        ],
+        "reduced_motion": "semua elemen langsung pada keadaan akhir"
+      },
+      "copy": [
+        "Kopi dari petani.",
+        "Diseduh untukmu.",
+        "SINGLE ORIGIN · JAWA TIMUR",
+        "Lihat katalog",
+        "Cara menyeduh"
+      ],
       "kriteria_terima": [
         "Hanya memakai hex dari daftar boleh_dipakai data/design-system.json.",
         "Headline tidak pernah lebih dari dua baris di 360 px dan tidak terpotong.",
@@ -44,7 +88,61 @@
         "Kontras teks utama terhadap --paper minimal 12:1.",
         "Dengan prefers-reduced-motion, seluruh konten terlihat tanpa animasi."
       ],
-      "angka_dari": ["data/design-system.json#warna", "data/design-system.json#gerak", "data/catalog.json#products[0]"]
+      "angka_dari": [
+        "data/design-system.json#warna",
+        "data/design-system.json#gerak",
+        "data/catalog.json#products[0]"
+      ]
+    },
+    {
+      "id": "hero-biji-3d",
+      "judul": "Hero 3D: satu biji kopi medium roast yang bisa disentuh",
+      "kategori": "Hero",
+      "halaman": "index.html",
+      "tingkat": "wajib",
+      "ringkas": "Satu biji Arabika 3D di kanan, tipografi di kiri, enam titik senyawa di permukaan biji. Kesan yang harus tersisa: benda nyata yang bisa diperiksa, bukan hiasan.",
+      "prompt": "Bangun hero beranda Nocturne Koffie dengan satu objek 3D: biji kopi Arabika medium roast. Latar --paper #F5EFE4 dengan butir kertas halus 3,5% (radial-gradient titik #16110D 0,5px pada tile 4px). Kiri: label mikro 'SINGLE ORIGIN · JAWA TIMUR' Inter 600 11px tracking 0.22em --espresso; headline Bricolage Grotesque 800 clamp(2,6rem,7,2vw,6,6rem) line-height 0.94 letter-spacing -0.035em, dua baris 'Kopi dari petani.' dan 'Diseduh untukmu.' dengan baris kedua Fraunces 300 italic --espresso; satu paragraf Inter 400 16px line-height 1.6 maksimal 44 karakter per baris berisi 'Disangrai mingguan oleh Ais Coffee Roastery di Banyuwangi.'; satu baris petunjuk mikro dengan titik --orange 6px: 'Putar bijinya, ketuk titiknya — setiap titik menyimpan senyawa yang berbeda.' Kanan: bingkai 4:5 berisi biji, lebar maksimal 520px. Bentuk biji: elipsoid setengah-sumbu 1,00 x 0,62 x 0,46, ujung meruncing (y,z dikali 1 - 0,16(|x|/a)^3), sisi +Z diratakan sampai 72%, dua belahan menggelembung 0,2c, alur S memanjang sumbu X dengan kedalaman 0,52c dan lebar 0,115 rad, pitting sinus amplitudo 0,0045. Warna permukaan HANYA dari token: bayangan #3A2013, badan #7A4A1E, bagian atas #B4703A, kilau minyak #D9A441; satu cahaya kunci hangat dari kanan-atas, satu cahaya isi dingin dari kiri, specular pangkat 34 kekuatan 0,34, plus oklusi di dalam alur supaya terlihat cekung. Enam titik di permukaan, diameter 34px, cincin 1,5px --paper, latar rgba(22,17,13,0,28), angka Inter 600; mengecil dan berhenti berdenyut saat prefers-reduced-motion. Ketuk titik membuka panel 330px dengan latar --paper, border 2px --ink, radius 4px: judul zona, ringkasan satu kalimat, lalu tiap senyawa menampilkan nama, rumus kimia dalam Fraunces italic --espresso, rentang angka tabular-nums, peran rasa, dan tanda sumber ('literatur terukur' atau 'rentang umum'). Panel ditutup dengan tombol x, ketukan kedua, atau Escape. Biji bisa diputar dengan geser, batas pitch 22 derajat, dan berputar sendiri 4,5 derajat per detik hanya setelah 1,6 detik tanpa sentuhan. Poster PNG 640x800 tampil lebih dulu sebagai gambar awal; kanvas WebGL menimpanya dengan transisi opacity 520ms. Tanpa WebGL, poster tetap tampil dan tombol titik disembunyikan; daftar enam zona tetap terbaca di elemen details di bawah bingkai. Gerak memakai cubic-bezier(.16,1,.3,1), hanya transform dan opacity. Tulis di bawah panel: 'Rentang senyawa = literatur Arabika medium roast, bukan hasil lab biji Nocturne. Bentuk biji = model 3D, bukan hasil pindai.' Jangan memakai three.js, React Three Fiber, atau CDN; jangan memakai latar gelap; jangan menaruh teks di atas biji.",
+      "komponen": [
+        "Titik senyawa sebagai <button> asli dengan aria-pressed, area ketuk 48px lewat pseudo-elemen, dan posisi mengikuti rotasi model.",
+        "Panel senyawa sebagai <aside aria-live=\"polite\">, bisa ditutup dengan x, Escape, atau ketukan kedua.",
+        "Daftar statis enam zona di dalam <details> supaya senyawa tetap terbaca tanpa WebGL maupun tanpa JavaScript.",
+        "Poster PNG sebagai lapisan pertama: <img loading=\"eager\"> dengan mix-blend-mode multiply agar menyatu dengan kertas."
+      ],
+      "gerak": {
+        "easing": "cubic-bezier(.16,1,.3,1)",
+        "durasi_ms": [
+          200,
+          620
+        ],
+        "stagger_ms": 0,
+        "properti": [
+          "transform",
+          "opacity",
+          "background-color",
+          "box-shadow"
+        ],
+        "reduced_motion": "tanpa putar otomatis, tanpa mengambang, tanpa transisi; titik langsung terlihat"
+      },
+      "copy": [
+        "Kopi dari petani.",
+        "Diseduh untukmu.",
+        "Putar bijinya, ketuk titiknya — setiap titik menyimpan senyawa yang berbeda.",
+        "Rentang senyawa = literatur Arabika medium roast, bukan hasil lab biji Nocturne."
+      ],
+      "kriteria_terima": [
+        "Tidak ada hex di luar daftar boleh_dipakai data/design-system.json.",
+        "Enam zona, dua senyawa per zona, setiap senyawa punya sumber yang terdaftar.",
+        "Poster PNG tampil sebelum WebGL siap dan tetap tampil bila WebGL gagal.",
+        "Tanpa JavaScript, enam zona tetap terbaca lewat <details>.",
+        "Tidak ada pustaka 3D dari CDN; skrip 3D di bawah 30 KB.",
+        "Posisi titik hasil hitungan skrip sama dengan poster dalam 0,6% (diuji node tools/verifikasi-biji.mjs).",
+        "Kontrol putar bisa dipakai keyboard: panah memutar, Home mengembalikan sudut awal."
+      ],
+      "angka_dari": [
+        "data/biji3d.json#geometri",
+        "data/biji3d.json#zona",
+        "data/design-system.json#warna"
+      ]
     },
     {
       "id": "menu-katalog",
@@ -59,8 +157,26 @@
         "Penyaring tanpa JavaScript tetap menampilkan semua baris; filter hanya menyembunyikan, tidak pernah mengosongkan tabel.",
         "Harga rata kanan dengan font-variant-numeric: tabular-nums agar tidak bergoyang."
       ],
-      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [240, 420], "stagger_ms": 55, "properti": ["transform", "opacity"], "reduced_motion": "tanpa stagger, semua baris langsung tampak"},
-      "copy": ["Sembilan kopi, sembilan petani.", "Single Origin", "Signature Blend", "Tersedia", "Harga per 100 g"],
+      "gerak": {
+        "easing": "cubic-bezier(.16,1,.3,1)",
+        "durasi_ms": [
+          240,
+          420
+        ],
+        "stagger_ms": 55,
+        "properti": [
+          "transform",
+          "opacity"
+        ],
+        "reduced_motion": "tanpa stagger, semua baris langsung tampak"
+      },
+      "copy": [
+        "Sembilan kopi, sembilan petani.",
+        "Single Origin",
+        "Signature Blend",
+        "Tersedia",
+        "Harga per 100 g"
+      ],
       "kriteria_terima": [
         "Sembilan baris produk dan harganya identik dengan data/catalog.json.",
         "Tidak ada angka yang tidak ada di katalog (rating, jumlah pembeli, stok).",
@@ -68,7 +184,10 @@
         "Semua tombol penyaring bisa dicapai dengan Tab dan berstatus aria-pressed.",
         "Berat halaman di bawah 1.500 KB."
       ],
-      "angka_dari": ["data/catalog.json#products", "data/design-system.json#spasi"]
+      "angka_dari": [
+        "data/catalog.json#products",
+        "data/design-system.json#spasi"
+      ]
     },
     {
       "id": "produk-gayo",
@@ -83,8 +202,26 @@
         "Tingkat sangrai divisualkan lima batang 6 px, bukan bintang.",
         "Tabel spesifikasi memakai dl/dt/dd, bukan div bertumpuk."
       ],
-      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [180, 240], "stagger_ms": 0, "properti": ["opacity", "transform"], "reduced_motion": "pergantian harga dan foto tanpa transisi"},
-      "copy": ["Gayo", "Arabika Origin · Aceh · 1.346 mdpl", "Cokelat · Rempah · Jeruk", "Tambah ke pesanan", "Disangrai mingguan oleh Ais Coffee Roastery di Banyuwangi."],
+      "gerak": {
+        "easing": "cubic-bezier(.16,1,.3,1)",
+        "durasi_ms": [
+          180,
+          240
+        ],
+        "stagger_ms": 0,
+        "properti": [
+          "opacity",
+          "transform"
+        ],
+        "reduced_motion": "pergantian harga dan foto tanpa transisi"
+      },
+      "copy": [
+        "Gayo",
+        "Arabika Origin · Aceh · 1.346 mdpl",
+        "Cokelat · Rempah · Jeruk",
+        "Tambah ke pesanan",
+        "Disangrai mingguan oleh Ais Coffee Roastery di Banyuwangi."
+      ],
       "kriteria_terima": [
         "Empat harga gramasi sama dengan varian di data/catalog.json untuk id gayo.",
         "Nama petani, ketinggian, varietas, dan proses persis seperti katalog.",
@@ -92,7 +229,10 @@
         "Halaman berfungsi penuh tanpa JavaScript.",
         "Kontras harga terhadap latar minimal 7:1."
       ],
-      "angka_dari": ["data/catalog.json#products[0]", "data/design-system.json#warna"]
+      "angka_dari": [
+        "data/catalog.json#products[0]",
+        "data/design-system.json#warna"
+      ]
     },
     {
       "id": "cerita-ais",
@@ -107,8 +247,24 @@
         "Kutipan tarik tanpa kartu, hanya garis 2px --gold di kiri.",
         "Tautan penutup dengan garis bawah yang sama seperti hero."
       ],
-      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [400, 900], "stagger_ms": 70, "properti": ["opacity", "transform"], "reduced_motion": "tanpa animasi, garis waktu penuh dari awal"},
-      "copy": ["Tiga tangan sebelum cangkir Anda.", "Nocturne tidak menyangrai. Penyangraian dikerjakan Ais Coffee Roastery di Banyuwangi, dan itu tertulis di setiap kemasan.", "Lihat sembilan kopi"],
+      "gerak": {
+        "easing": "cubic-bezier(.16,1,.3,1)",
+        "durasi_ms": [
+          400,
+          900
+        ],
+        "stagger_ms": 70,
+        "properti": [
+          "opacity",
+          "transform"
+        ],
+        "reduced_motion": "tanpa animasi, garis waktu penuh dari awal"
+      },
+      "copy": [
+        "Tiga tangan sebelum cangkir Anda.",
+        "Nocturne tidak menyangrai. Penyangraian dikerjakan Ais Coffee Roastery di Banyuwangi, dan itu tertulis di setiap kemasan.",
+        "Lihat sembilan kopi"
+      ],
       "kriteria_terima": [
         "Kalimat tentang Ais Coffee Roastery muncul apa adanya di paragraf pertama.",
         "Tidak ada klaim menyangrai sendiri di seluruh berkas.",
@@ -116,7 +272,10 @@
         "Lebar baris badan esai tidak melebihi 68 karakter pada 1280 px.",
         "Tidak ada gambar orang; hanya bidang warna dan tipografi."
       ],
-      "angka_dari": ["data/catalog.json#brand", "data/catalog.json#products"]
+      "angka_dari": [
+        "data/catalog.json#brand",
+        "data/catalog.json#products"
+      ]
     },
     {
       "id": "langganan",
@@ -131,8 +290,25 @@
         "Ringkasan sticky yang tetap terbaca saat halaman digulir.",
         "Penghitung total tanpa pembulatan tersembunyi."
       ],
-      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [200], "stagger_ms": 0, "properti": ["transform", "opacity", "background-color"], "reduced_motion": "perubahan langsung tanpa transisi"},
-      "copy": ["Kopi datang sebelum habis.", "Pilih ritmenya. Kami yang mengingat.", "Lanjut lewat WhatsApp", "Ongkir dihitung saat konfirmasi lewat WhatsApp"],
+      "gerak": {
+        "easing": "cubic-bezier(.16,1,.3,1)",
+        "durasi_ms": [
+          200
+        ],
+        "stagger_ms": 0,
+        "properti": [
+          "transform",
+          "opacity",
+          "background-color"
+        ],
+        "reduced_motion": "perubahan langsung tanpa transisi"
+      },
+      "copy": [
+        "Kopi datang sebelum habis.",
+        "Pilih ritmenya. Kami yang mengingat.",
+        "Lanjut lewat WhatsApp",
+        "Ongkir dihitung saat konfirmasi lewat WhatsApp"
+      ],
       "kriteria_terima": [
         "Tidak ada harga coret atau persentase hemat yang tidak bisa dihitung dari katalog.",
         "Tiga ritme menampilkan 12, 6, dan 4 kiriman setahun (aritmetika benar).",
@@ -140,7 +316,10 @@
         "Tanpa elemen hitung mundur.",
         "Tombol WhatsApp memakai nomor 628988188800."
       ],
-      "angka_dari": ["data/catalog.json#products[].variants", "data/catalog.json#brand.whatsapp"]
+      "angka_dari": [
+        "data/catalog.json#products[].variants",
+        "data/catalog.json#brand.whatsapp"
+      ]
     },
     {
       "id": "b2b-grosir",
@@ -155,8 +334,23 @@
         "Formulir yang menyusun pesan WhatsApp dari isian, tanpa backend dan tanpa data hilang.",
         "Catatan kaki bintang yang menjelaskan asal angka."
       ],
-      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [300], "stagger_ms": 0, "properti": ["opacity"], "reduced_motion": "tanpa animasi"},
-      "copy": ["Beli per kilogram, bukan per kemasan.", "Minimum pembukaan 5 kg per varian.", "Minta penawaran", "Ongkir dari Banyuwangi"],
+      "gerak": {
+        "easing": "cubic-bezier(.16,1,.3,1)",
+        "durasi_ms": [
+          300
+        ],
+        "stagger_ms": 0,
+        "properti": [
+          "opacity"
+        ],
+        "reduced_motion": "tanpa animasi"
+      },
+      "copy": [
+        "Beli per kilogram, bukan per kemasan.",
+        "Minimum pembukaan 5 kg per varian.",
+        "Minta penawaran",
+        "Ongkir dari Banyuwangi"
+      ],
       "kriteria_terima": [
         "Setiap harga per kg bisa dihitung ulang dari harga 1 kg di katalog.",
         "Tidak ada klaim diskon di luar tabel.",
@@ -164,7 +358,10 @@
         "Formulir bisa dikirim tanpa backend (tautan WhatsApp).",
         "Istilah terlarang ('partner', 'solusi', 'ekosistem') tidak muncul."
       ],
-      "angka_dari": ["data/catalog.json#products[].variants", "komersial/01-panduan-grosir.md"]
+      "angka_dari": [
+        "data/catalog.json#products[].variants",
+        "komersial/01-panduan-grosir.md"
+      ]
     },
     {
       "id": "panduan-seduh",
@@ -179,8 +376,22 @@
         "Ilustrasi SVG inline 1 px yang tetap tajam saat dicetak.",
         "Aturan @media print yang memisahkan setiap metode ke halaman sendiri."
       ],
-      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [180], "stagger_ms": 0, "properti": ["color"], "reduced_motion": "sama, tidak ada animasi masuk"},
-      "copy": ["Tiga cara, satu hasil yang bisa diulang.", "15 g kopi, 250 ml air, 92 derajat", "Kalau terasa terlalu pahit, giling lebih kasar 2 klik."],
+      "gerak": {
+        "easing": "cubic-bezier(.16,1,.3,1)",
+        "durasi_ms": [
+          180
+        ],
+        "stagger_ms": 0,
+        "properti": [
+          "color"
+        ],
+        "reduced_motion": "sama, tidak ada animasi masuk"
+      },
+      "copy": [
+        "Tiga cara, satu hasil yang bisa diulang.",
+        "15 g kopi, 250 ml air, 92 derajat",
+        "Kalau terasa terlalu pahit, giling lebih kasar 2 klik."
+      ],
       "kriteria_terima": [
         "Tiga metode menampilkan rasio, suhu, dan waktu yang konsisten satu sama lain.",
         "Tidak ada animasi masuk; halaman terbaca segera.",
@@ -188,7 +399,10 @@
         "Ilustrasi SVG tidak memakai warna di luar token.",
         "Kata terlarang ('perfect', 'ultimate', 'rahasia') tidak muncul."
       ],
-      "angka_dari": ["konten/", "data/design-system.json#tipografi"]
+      "angka_dari": [
+        "konten/",
+        "data/design-system.json#tipografi"
+      ]
     },
     {
       "id": "kampanye-ongkir",
@@ -203,8 +417,23 @@
         "Blok syarat yang selalu terlihat, tidak dilipat ke dalam accordion.",
         "Angka bukti memakai harga termurah yang benar-benar ada di katalog."
       ],
-      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [620], "stagger_ms": 70, "properti": ["transform", "opacity"], "reduced_motion": "tanpa animasi, semua terlihat"},
-      "copy": ["Ongkir kami yang bayar. Kopinya tetap kopi yang sama.", "Tidak ada minimum belanja, tidak ada kode yang harus diingat.", "Pesan lewat WhatsApp"],
+      "gerak": {
+        "easing": "cubic-bezier(.16,1,.3,1)",
+        "durasi_ms": [
+          620
+        ],
+        "stagger_ms": 70,
+        "properti": [
+          "transform",
+          "opacity"
+        ],
+        "reduced_motion": "tanpa animasi, semua terlihat"
+      },
+      "copy": [
+        "Ongkir kami yang bayar. Kopinya tetap kopi yang sama.",
+        "Tidak ada minimum belanja, tidak ada kode yang harus diingat.",
+        "Pesan lewat WhatsApp"
+      ],
       "kriteria_terima": [
         "Harga 100 g terendah yang tampil sama dengan varian termurah di katalog (Rp23.000).",
         "Tidak ada hitung mundur, stok terbatas, atau tanggal kedaluwarsa palsu.",
@@ -212,7 +441,10 @@
         "Syarat kampanye terlihat tanpa perlu klik.",
         "Berat halaman di bawah 300 KB karena tanpa gambar."
       ],
-      "angka_dari": ["data/catalog.json#products", "kampanye/"]
+      "angka_dari": [
+        "data/catalog.json#products",
+        "kampanye/"
+      ]
     }
   ]
 }

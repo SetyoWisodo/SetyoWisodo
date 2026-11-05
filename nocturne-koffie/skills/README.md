@@ -1,6 +1,6 @@
 # Skills — riset konten & mesin pencari
 
-Tujuh skill untuk D3 (Marketing & Pertumbuhan) dan D4 (Kreatif & Media).
+Delapan skill untuk D3 (Marketing & Pertumbuhan) dan D4 (Kreatif & Media).
 Formatnya mengikuti konvensi **SKILL.md** (YAML frontmatter + prosedur yang bisa dijalankan ulang),
 diadaptasi dari tiga sumber: kerangka *social media research skills*, disiplin bukti *claude-ads*
 (dibuka 29 Okt 2026), dan kerangka **10 folder / 50 agent** dari post `@dsqjaffa` (28 Okt 2026).
@@ -23,7 +23,8 @@ diadaptasi dari tiga sumber: kerangka *social media research skills*, disiplin b
 | [`studio-konten`](studio-konten/SKILL.md) | D3 + D4 | butuh keputusan mingguan (dobel/hentikan/uji) & 5 skrip siap rekam | `studio/index.html`, `studio/brief-senin.md`, `studio/skrip/*.md` |
 | [`motion-web`](motion-web/SKILL.md) | D4 + D3 | membuat gerak halaman / landing page, atau memeriksa "apakah ini terlihat buatan mesin" | `motion/index.html`, 5 adegan 9:16, `laporan/slop.md` |
 | [`motion-film`](motion-film/SKILL.md) | D4 | mengubah 5 skrip studio jadi klip yang framenya konsisten: ketukan, arc energi, cue suara | `motion/film-sheet.md` + `.json` (540 frame, 120 BPM) |
-| [`desain-prompt`](desain-prompt/SKILL.md) | D4 + D3 | membangun/merombak halaman dengan brief yang tokennya bisa diperiksa mesin | `prompts/pustaka.json` (8 prompt), `prompts/index.html` |
+| [`desain-prompt`](desain-prompt/SKILL.md) | D4 + D3 | membangun/merombak halaman dengan brief yang tokennya bisa diperiksa mesin | `prompts/pustaka.json` (9 prompt), `prompts/index.html` |
+| [`hero-3d`](hero-3d/SKILL.md) | D4 | hero objek 3D: bentuk parametrik, titik senyawa, poster + WebGL | `index.html` hero, `assets/js/biji3d.js`, `assets/img/biji-3d-poster.png` |
 
 Dua perintah menjalankan keempatnya (urutannya penting: studio membaca hasil riset):
 
@@ -36,10 +37,12 @@ python3 tools/motion.py        # lab gerak + 5 adegan 9:16 (dari skrip studio)
 python3 tools/film.py          # lembar film: frame, ketukan, arc energi → motion/film-sheet.md
 python3 tools/render_film.py   # klip 9:16 jadi: 540 frame → motion/render/klip-01-nocturne-9s.mp4
 python3 tools/prompt.py        # pustaka prompt kelas atas → prompts/index.html
+python3 tools/biji.py          # poster biji 3D (CPU) → assets/img/biji-3d-poster.png
+node tools/verifikasi-biji.mjs # 9 uji geometri & HTML, tanpa GPU
 python3 tools/slop.py          # audit anti-slop & kontrak desain → laporan/slop.md
 ```
 
-## Aturan yang berlaku untuk ketujuh skill
+## Aturan yang berlaku untuk kedelapan skill
 
 1. **Data publik saja.** Tidak mengambil konten akun privat, tidak menembus login, tidak menyalin
    database pihak lain. Semua baris masuk ke `data/riset-*.csv` **secara manual** oleh owner.

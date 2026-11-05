@@ -54,7 +54,7 @@ a{color:inherit}
   tata letak per bagian, gerak dengan durasi, teks yang harus muncul apa adanya, dan kriteria terima yang
   bisa diperiksa mesin. Tempel ke Claude Code, Cursor, v0, Bolt, atau Lovable.</p>
   <p class="lede kecil">Versi pustaka 1.0 · diperbarui 2026-10-30 ·
-  8 prompt · 7 larangan global</p>
+  9 prompt · 7 larangan global</p>
 
   <h2>Anatomi tujuh blok</h2>
   <p class="lede">Ini yang membedakan prompt "buatkan hero yang cantik" dari prompt yang keluarannya bisa ditebak.</p>
@@ -82,8 +82,25 @@ a{color:inherit}
         <p class="kecil">Angka dari: <code>data/design-system.json#warna</code>, <code>data/design-system.json#gerak</code>, <code>data/catalog.json#products[0]</code></p>
       </details>
     </section>
+    <section class="prompt" id="hero-biji-3d">
+      <div class="prompt__meta"><b>02</b><span>Hero</span>
+        <span>index.html</span><span>wajib</span>
+        <span>2,607 karakter</span></div>
+      <h3>Hero 3D: satu biji kopi medium roast yang bisa disentuh</h3>
+      <p class="prompt__ringkas">Satu biji Arabika 3D di kanan, tipografi di kiri, enam titik senyawa di permukaan biji. Kesan yang harus tersisa: benda nyata yang bisa diperiksa, bukan hiasan.</p>
+      <pre id="prompt-hero-biji-3d">Bangun hero beranda Nocturne Koffie dengan satu objek 3D: biji kopi Arabika medium roast. Latar --paper #F5EFE4 dengan butir kertas halus 3,5% (radial-gradient titik #16110D 0,5px pada tile 4px). Kiri: label mikro &#x27;SINGLE ORIGIN · JAWA TIMUR&#x27; Inter 600 11px tracking 0.22em --espresso; headline Bricolage Grotesque 800 clamp(2,6rem,7,2vw,6,6rem) line-height 0.94 letter-spacing -0.035em, dua baris &#x27;Kopi dari petani.&#x27; dan &#x27;Diseduh untukmu.&#x27; dengan baris kedua Fraunces 300 italic --espresso; satu paragraf Inter 400 16px line-height 1.6 maksimal 44 karakter per baris berisi &#x27;Disangrai mingguan oleh Ais Coffee Roastery di Banyuwangi.&#x27;; satu baris petunjuk mikro dengan titik --orange 6px: &#x27;Putar bijinya, ketuk titiknya — setiap titik menyimpan senyawa yang berbeda.&#x27; Kanan: bingkai 4:5 berisi biji, lebar maksimal 520px. Bentuk biji: elipsoid setengah-sumbu 1,00 x 0,62 x 0,46, ujung meruncing (y,z dikali 1 - 0,16(|x|/a)^3), sisi +Z diratakan sampai 72%, dua belahan menggelembung 0,2c, alur S memanjang sumbu X dengan kedalaman 0,52c dan lebar 0,115 rad, pitting sinus amplitudo 0,0045. Warna permukaan HANYA dari token: bayangan #3A2013, badan #7A4A1E, bagian atas #B4703A, kilau minyak #D9A441; satu cahaya kunci hangat dari kanan-atas, satu cahaya isi dingin dari kiri, specular pangkat 34 kekuatan 0,34, plus oklusi di dalam alur supaya terlihat cekung. Enam titik di permukaan, diameter 34px, cincin 1,5px --paper, latar rgba(22,17,13,0,28), angka Inter 600; mengecil dan berhenti berdenyut saat prefers-reduced-motion. Ketuk titik membuka panel 330px dengan latar --paper, border 2px --ink, radius 4px: judul zona, ringkasan satu kalimat, lalu tiap senyawa menampilkan nama, rumus kimia dalam Fraunces italic --espresso, rentang angka tabular-nums, peran rasa, dan tanda sumber (&#x27;literatur terukur&#x27; atau &#x27;rentang umum&#x27;). Panel ditutup dengan tombol x, ketukan kedua, atau Escape. Biji bisa diputar dengan geser, batas pitch 22 derajat, dan berputar sendiri 4,5 derajat per detik hanya setelah 1,6 detik tanpa sentuhan. Poster PNG 640x800 tampil lebih dulu sebagai gambar awal; kanvas WebGL menimpanya dengan transisi opacity 520ms. Tanpa WebGL, poster tetap tampil dan tombol titik disembunyikan; daftar enam zona tetap terbaca di elemen details di bawah bingkai. Gerak memakai cubic-bezier(.16,1,.3,1), hanya transform dan opacity. Tulis di bawah panel: &#x27;Rentang senyawa = literatur Arabika medium roast, bukan hasil lab biji Nocturne. Bentuk biji = model 3D, bukan hasil pindai.&#x27; Jangan memakai three.js, React Three Fiber, atau CDN; jangan memakai latar gelap; jangan menaruh teks di atas biji.</pre>
+      <div class="aksi">
+        <button data-salin="prompt-hero-biji-3d">Salin prompt</button>
+        <button class="ghost" data-buka="prompt-hero-biji-3d">Baca prompt penuh</button>
+      </div>
+      <details style="margin-top:14px"><summary class="kecil">Komponen &amp; kriteria terima</summary>
+        <ul class="kecil"><li>Titik senyawa sebagai &lt;button&gt; asli dengan aria-pressed, area ketuk 48px lewat pseudo-elemen, dan posisi mengikuti rotasi model.</li><li>Panel senyawa sebagai &lt;aside aria-live=&quot;polite&quot;&gt;, bisa ditutup dengan x, Escape, atau ketukan kedua.</li><li>Daftar statis enam zona di dalam &lt;details&gt; supaya senyawa tetap terbaca tanpa WebGL maupun tanpa JavaScript.</li><li>Poster PNG sebagai lapisan pertama: &lt;img loading=&quot;eager&quot;&gt; dengan mix-blend-mode multiply agar menyatu dengan kertas.</li></ul>
+        <ul class="kecil"><li>Tidak ada hex di luar daftar boleh_dipakai data/design-system.json.</li><li>Enam zona, dua senyawa per zona, setiap senyawa punya sumber yang terdaftar.</li><li>Poster PNG tampil sebelum WebGL siap dan tetap tampil bila WebGL gagal.</li><li>Tanpa JavaScript, enam zona tetap terbaca lewat &lt;details&gt;.</li><li>Tidak ada pustaka 3D dari CDN; skrip 3D di bawah 30 KB.</li><li>Posisi titik hasil hitungan skrip sama dengan poster dalam 0,6% (diuji node tools/verifikasi-biji.mjs).</li><li>Kontrol putar bisa dipakai keyboard: panah memutar, Home mengembalikan sudut awal.</li></ul>
+        <p class="kecil">Angka dari: <code>data/biji3d.json#geometri</code>, <code>data/biji3d.json#zona</code>, <code>data/design-system.json#warna</code></p>
+      </details>
+    </section>
     <section class="prompt" id="menu-katalog">
-      <div class="prompt__meta"><b>02</b><span>Katalog</span>
+      <div class="prompt__meta"><b>03</b><span>Katalog</span>
         <span>katalog.html</span><span>wajib</span>
         <span>2,322 karakter</span></div>
       <h3>Katalog: sembilan kopi, satu tabel yang jujur</h3>
@@ -100,7 +117,7 @@ a{color:inherit}
       </details>
     </section>
     <section class="prompt" id="produk-gayo">
-      <div class="prompt__meta"><b>03</b><span>Produk</span>
+      <div class="prompt__meta"><b>04</b><span>Produk</span>
         <span>produk/gayo.html</span><span>wajib</span>
         <span>1,971 karakter</span></div>
       <h3>Halaman produk: satu kopi, seluruh jejaknya</h3>
@@ -117,7 +134,7 @@ a{color:inherit}
       </details>
     </section>
     <section class="prompt" id="cerita-ais">
-      <div class="prompt__meta"><b>04</b><span>Editorial</span>
+      <div class="prompt__meta"><b>05</b><span>Editorial</span>
         <span>cerita.html</span><span>wajib</span>
         <span>1,719 karakter</span></div>
       <h3>Cerita: Ais Coffee Roastery sebagai mitra, bukan milik</h3>
@@ -134,7 +151,7 @@ a{color:inherit}
       </details>
     </section>
     <section class="prompt" id="langganan">
-      <div class="prompt__meta"><b>05</b><span>Penjualan</span>
+      <div class="prompt__meta"><b>06</b><span>Penjualan</span>
         <span>langganan.html</span><span>penting</span>
         <span>1,782 karakter</span></div>
       <h3>Langganan: ritme kirim, bukan diskon</h3>
@@ -151,7 +168,7 @@ a{color:inherit}
       </details>
     </section>
     <section class="prompt" id="b2b-grosir">
-      <div class="prompt__meta"><b>06</b><span>Penjualan</span>
+      <div class="prompt__meta"><b>07</b><span>Penjualan</span>
         <span>grosir.html</span><span>penting</span>
         <span>1,680 karakter</span></div>
       <h3>Grosir: tabel harga bertingkat yang bisa diaudit</h3>
@@ -168,7 +185,7 @@ a{color:inherit}
       </details>
     </section>
     <section class="prompt" id="panduan-seduh">
-      <div class="prompt__meta"><b>07</b><span>Editorial</span>
+      <div class="prompt__meta"><b>08</b><span>Editorial</span>
         <span>seduh.html</span><span>penting</span>
         <span>1,667 karakter</span></div>
       <h3>Panduan seduh: resep yang bisa diikuti sambil berdiri</h3>
@@ -185,7 +202,7 @@ a{color:inherit}
       </details>
     </section>
     <section class="prompt" id="kampanye-ongkir">
-      <div class="prompt__meta"><b>08</b><span>Kampanye</span>
+      <div class="prompt__meta"><b>09</b><span>Kampanye</span>
         <span>kampanye/ongkir.html</span><span>penting</span>
         <span>1,730 karakter</span></div>
       <h3>Landing kampanye: satu tawaran, satu tombol, tanpa hitung mundur</h3>

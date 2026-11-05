@@ -5,7 +5,7 @@ Sumber gagasan: dua pustaka prompt berbayar yang populer di kalangan *vibe coder
 isinya setara. Skill ini mengubah cara menulis brief desain: bukan "buatkan hero yang cantik",
 melainkan spesifikasi yang tokennya bisa diperiksa mesin.
 
-Hasil kerja: `prompts/pustaka.json` (8 prompt) → `prompts/index.html` (galeri, tombol salin).
+Hasil kerja: `prompts/pustaka.json` (9 prompt) → `prompts/index.html` (galeri, tombol salin).
 
 ## Kapan dipakai
 
@@ -106,18 +106,19 @@ Aturan penguat: **satu jangkar estetika per prompt**, **satu ajakan utama per ha
 6. Jangan memakai hitung mundur, "stok terbatas", atau harga coret yang tidak bisa dihitung.
 7. Jangan memakai foto orang minum kopi sebagai hero; hero memakai produk atau tipografi.
 
-## 6 · Delapan prompt yang ada sekarang
+## 6 · Sembilan prompt yang ada sekarang
 
 | # | id | Halaman | Karakter | Inti |
 | ---: | --- | --- | ---: | --- |
-| 01 | `hero-beranda` | `index.html` | 2,064 | Tipografi raksasa + satu foto produk, tanpa blob/gradient |
-| 02 | `menu-katalog` | `katalog.html` | 2,322 | Sembilan SKU sebagai tabel editorial, filter tetap jalan tanpa JavaScript |
-| 03 | `produk-gayo` | `produk/gayo.html` | 1,971 | Data petani & ketinggian sebagai keterangan teknis, bukan hiasan |
-| 04 | `cerita-ais` | `cerita.html` | 1,719 | Esai + garis waktu; Ais sebagai mitra, bukan milik |
-| 05 | `langganan` | `langganan.html` | 1,782 | Ritme kirim, aritmetika yang terlihat, tanpa diskon palsu |
-| 06 | `b2b-grosir` | `grosir.html` | 1,680 | Tabel harga bertingkat yang bisa diaudit ulang |
-| 07 | `panduan-seduh` | `seduh.html` | 1,667 | Tiga metode, siap dicetak, tanpa animasi masuk |
-| 08 | `kampanye-ongkir` | `kampanye/ongkir.html` | 1,730 | Satu tawaran, satu tombol, tanpa hitung mundur |
+| 01 | `hero-beranda` | `index.html` | 2.064 | Tipografi raksasa + satu foto produk |
+| 02 | `hero-biji-3d` | `index.html` | 2.607 | Satu biji 3D yang bisa diputar & disentuh |
+| 03 | `menu-katalog` | `katalog.html` | 2.322 | Sembilan SKU sebagai tabel editorial |
+| 04 | `produk-gayo` | `produk/gayo.html` | 1.971 | Data petani sebagai keterangan teknis |
+| 05 | `cerita-ais` | `cerita.html` | 1.719 | Esai + garis waktu, Ais sebagai mitra |
+| 06 | `langganan` | `langganan.html` | 1.782 | Ritme kirim, aritmetika terlihat |
+| 07 | `b2b-grosir` | `grosir.html` | 1.680 | Tabel harga bertingkat yang bisa diaudit |
+| 08 | `panduan-seduh` | `seduh.html` | 1.667 | Tiga metode, siap dicetak |
+| 09 | `kampanye-ongkir` | `kampanye/ongkir.html` | 1.730 | Satu tawaran, satu tombol |
 
 Nomor karakter dihitung ulang oleh `tools/prompt.py`; kalau berbeda sedikit, percayai berkas.
 
@@ -132,7 +133,7 @@ Nomor karakter dihitung ulang oleh `tools/prompt.py`; kalau berbeda sedikit, per
 
 | Yang bisa dibuktikan | Perintah / berkas |
 | --- | --- |
-| 8 prompt, 7 blok, 0 masalah | `python3 tools/prompt.py --cek` |
+| 9 prompt, 7 blok, 0 masalah | `python3 tools/prompt.py --cek` |
 | Token patuh (tidak ada hex liar) | `periksa.py` cek *Prompt kelas atas* |
 | Harga di prompt ada di katalog | `tools/prompt.py` §harga |
 | Galeri bisa disalin | `prompts/index.html`, tombol `Salin prompt` |

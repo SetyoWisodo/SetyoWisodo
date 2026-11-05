@@ -24,6 +24,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="assets/css/site.css" />
 <link rel="stylesheet" href="assets/css/motion.css" />
+<link rel="stylesheet" href="assets/css/biji.css" />
 <script>
   /* Set kelas gerak sebelum paint supaya tidak ada kedipan konten. */
   (function () {
@@ -102,15 +103,85 @@
   <!-- ── 3 · HERO ──────────────────────────────────────────────── -->
   <section class="hero" aria-labelledby="hero-title">
     <div class="wrap hero__top">
-      <h1 class="hero__title" id="hero-title">
-        <span class="lm"><span>Kopi dari petani.</span></span>
-        <span class="lm"><span>Diseduh untukmu.</span></span>
-      </h1>
-      <p class="hero__intro" data-brand="intro">
-        Setiap kemasan menyebut nama petani, desa, dan ketinggian kebunnya.
-        Disangrai mingguan oleh Ais Coffee Roastery di Banyuwangi. Dikemas dan
-        dikirim dari kota yang sama.
-      </p>
+      <div class="hero__kiri">
+        <h1 class="hero__title" id="hero-title">
+          <span class="lm"><span>Kopi dari petani.</span></span>
+          <span class="lm"><span>Diseduh untukmu.</span></span>
+        </h1>
+        <p class="hero__intro" data-brand="intro">
+          Setiap kemasan menyebut nama petani, desa, dan ketinggian kebunnya.
+          Disangrai mingguan oleh Ais Coffee Roastery di Banyuwangi. Dikemas dan
+          dikirim dari kota yang sama.
+        </p>
+        <p class="hero__petunjuk micro"><span class="dot" aria-hidden="true"></span>
+          Putar bijinya, ketuk titiknya — setiap titik menyimpan senyawa yang berbeda.</p>
+      </div>
+
+      <figure class="biji" data-biji3d data-biji-sumber="data/biji3d.json"
+              aria-labelledby="biji-judul">
+        <div class="biji__bingkai">
+          <div class="biji__panggung" data-biji-panggung
+               aria-label="Model 3D biji kopi Arabika medium roast. Geser untuk memutar, atau pakai tombol panah.">
+            <img class="biji__poster" src="assets/img/biji-3d-poster.png" width="640" height="800"
+                 alt="Biji kopi Arabika medium roast: cokelat sedang, permukaan dua belahan dengan alur tengah." />
+            <canvas class="biji__kanvas" data-biji-kanvas aria-hidden="true"></canvas>
+            <div class="biji__lapis" data-biji-lapis>
+<button type="button" class="biji__titik" data-biji-titik="cekungan" aria-pressed="false" aria-label="Titik 1: Cekungan tengah — lihat senyawa"><span>1</span></button><button type="button" class="biji__titik" data-biji-titik="kulit-luar" aria-pressed="false" aria-label="Titik 2: Kulit sangrai — lihat senyawa"><span>2</span></button><button type="button" class="biji__titik" data-biji-titik="inti" aria-pressed="false" aria-label="Titik 3: Inti biji — lihat senyawa"><span>3</span></button><button type="button" class="biji__titik" data-biji-titik="minyak" aria-pressed="false" aria-label="Titik 4: Bintik minyak — lihat senyawa"><span>4</span></button><button type="button" class="biji__titik" data-biji-titik="ujung" aria-pressed="false" aria-label="Titik 5: Ujung biji — lihat senyawa"><span>5</span></button><button type="button" class="biji__titik" data-biji-titik="serat" aria-pressed="false" aria-label="Titik 6: Daging & serat — lihat senyawa"><span>6</span></button>
+            </div>
+          </div>
+
+          <aside class="biji__panel" data-biji-panel hidden aria-live="polite">
+            <div class="biji__panel-kepala">
+              <p class="kicker" id="biji-judul">Senyawa di dalam biji</p>
+              <button type="button" class="biji__tutup" data-biji-tutup aria-label="Tutup panel senyawa">×</button>
+            </div>
+            <p class="biji__judul" data-biji-judul role="heading" aria-level="2"></p>
+            <p class="biji__ringkas" data-biji-ringkas></p>
+            <ul class="biji__senyawa" data-biji-senyawa></ul>
+            <p class="biji__catatan">Rentang senyawa = literatur Arabika medium roast, bukan hasil lab biji Nocturne. Bentuk biji = model 3D, bukan hasil pindai.</p>
+          </aside>
+        </div>
+
+        <figcaption class="biji__kaki">
+          <span>Arabika · Gayo · 1.346 mdpl · <b>Medium roast</b></span>
+          <span class="biji__sangrai">skala 3 dari 5</span>
+        </figcaption>
+
+        <details class="biji__detail" data-biji-detail>
+          <summary>Baca senyawa tanpa memutar biji</summary>
+          <p class="biji__detailcat">Rentang senyawa = literatur Arabika medium roast, bukan hasil lab biji Nocturne. Bentuk biji = model 3D, bukan hasil pindai.</p>
+      <div class="biji__zona" data-biji-zona="cekungan">
+        <p class="biji__zona-judul"><span class="biji__no">01</span>Cekungan tengah</p>
+        <p class="biji__zringkas">Alur S tempat dua belahan biji bertemu. Di sini panas paling terkurung saat sangrai.</p>
+        <ul class="biji__senyawa"><li><b>Sukrosa sisa</b> <span class="biji__rumus">C12H22O11</span><span class="biji__rentang">6–9% (biji hijau) → sisa <4% pada medium</span><span class="biji__peran">sumber karamelisasi; yang tersisa memberi rasa manis pendek</span><span class="biji__sumber">literatur terukur · S2</span></li><li><b>5-HMF</b> <span class="biji__rumus">C6H6O3</span><span class="biji__rentang">terbentuk pada medium roast (terukur, bukan nol)</span><span class="biji__peran">penanda karamelisasi; berlebih terasa pahit-asam</span><span class="biji__sumber">literatur terukur · S2</span></li></ul>
+      </div>
+      <div class="biji__zona" data-biji-zona="kulit-luar">
+        <p class="biji__zona-judul"><span class="biji__no">02</span>Kulit sangrai</p>
+        <p class="biji__zringkas">Permukaan yang menyentuh drum. Warna cokelat medium berasal dari reaksi Maillard di lapisan ini.</p>
+        <ul class="biji__senyawa"><li><b>Melanoidin</b> <span class="biji__rumus">polimer</span><span class="biji__rentang">terbentuk sejak ±150 °C, bertambah sampai akhir sangrai</span><span class="biji__peran">bobot dan warna cangkir; menahan volatil</span><span class="biji__sumber">rentang umum · S4</span></li><li><b>Pirazin & furanon</b> <span class="biji__rumus">C4H4N2 · C4H6O2</span><span class="biji__rentang">volatil, satuan ppb–ppm</span><span class="biji__peran">aroma kacang sangrai dan karamel</span><span class="biji__sumber">rentang umum · S4</span></li></ul>
+      </div>
+      <div class="biji__zona" data-biji-zona="inti">
+        <p class="biji__zona-judul"><span class="biji__no">03</span>Inti biji</p>
+        <p class="biji__zringkas">Bagian dalam yang paling stabil terhadap panas. Dua alkaloid di sini hampir tidak berubah.</p>
+        <ul class="biji__senyawa"><li><b>Kafein</b> <span class="biji__rumus">C8H10N4O2</span><span class="biji__rentang">0,9–1,3% (Arabika, basis kering)</span><span class="biji__peran">pahit dasar; praktis tidak rusak saat sangrai</span><span class="biji__sumber">literatur terukur · S1</span></li><li><b>Trigonelin</b> <span class="biji__rumus">C7H7NO2</span><span class="biji__rentang">0,87–0,90% hijau → turun ±50% pada medium</span><span class="biji__peran">pahit dalam, sedikit earthy; sebagian berubah jadi niasin</span><span class="biji__sumber">literatur terukur · S1</span></li></ul>
+      </div>
+      <div class="biji__zona" data-biji-zona="minyak">
+        <p class="biji__zona-judul"><span class="biji__no">04</span>Bintik minyak</p>
+        <p class="biji__zringkas">Pada medium roast minyak mulai naik ke permukaan. Ini yang membuat biji terlihat hidup, bukan kering.</p>
+        <ul class="biji__senyawa"><li><b>Lipid kopi</b> <span class="biji__rumus">trigliserida</span><span class="biji__rentang">±15–16% massa biji Arabika</span><span class="biji__peran">membawa aroma larut lemak; mouthfeel</span><span class="biji__sumber">rentang umum · S4</span></li><li><b>Diterpen (kafestol, kahweol)</b> <span class="biji__rumus">C20H28O3</span><span class="biji__rentang">fraksi kecil dari lipid</span><span class="biji__peran">sebagian tertahan kertas filter, lolos di tubruk</span><span class="biji__sumber">rentang umum · S4</span></li></ul>
+      </div>
+      <div class="biji__zona" data-biji-zona="ujung">
+        <p class="biji__zona-judul"><span class="biji__no">05</span>Ujung biji</p>
+        <p class="biji__zringkas">Titik tempat embrio. Panas paling cepat masuk lewat sini, jadi perubahan trigonelin paling jauh.</p>
+        <ul class="biji__senyawa"><li><b>Asam nikotinat (niasin)</b> <span class="biji__rumus">C6H5NO2</span><span class="biji__rentang">naik seiring trigonelin terurai</span><span class="biji__peran">hasil samping sangrai; menandai tingkat kegelapan</span><span class="biji__sumber">literatur terukur · S1</span></li><li><b>Trigonelin sisa</b> <span class="biji__rumus">C7H7NO2</span><span class="biji__rentang">7,2–12,95 mg/g basis kering pada medium</span><span class="biji__peran">penyeimbang pahit</span><span class="biji__sumber">literatur terukur · S3</span></li></ul>
+      </div>
+      <div class="biji__zona" data-biji-zona="serat">
+        <p class="biji__zona-judul"><span class="biji__no">06</span>Daging & serat</p>
+        <p class="biji__zringkas">Struktur selulosa yang menyimpan asam. Di sini keasaman cangkir ditentukan.</p>
+        <ul class="biji__senyawa"><li><b>Klorogenat (5-CQA)</b> <span class="biji__rumus">C16H18O9</span><span class="biji__rentang">4,38–4,66% hijau → turun ±65% pada medium</span><span class="biji__peran">keasaman & body; sisa berlebih terasa sepat</span><span class="biji__sumber">literatur terukur · S1</span></li><li><b>Asam kuiniat & asetat</b> <span class="biji__rumus">C7H12O6 · C2H4O2</span><span class="biji__rentang">terbentuk saat sangrai medium</span><span class="biji__peran">asam terasa di ujung lidah; penanda sangrai</span><span class="biji__sumber">literatur terukur · S2</span></li></ul>
+      </div>
+        </details>
+      </figure>
     </div>
 
     <div class="marquee" id="marquee" role="region" aria-label="Nama produk Nocturne — pilih untuk melihat detail">
@@ -383,5 +454,6 @@
 
 <script src="assets/js/site.js" defer></script>
 <script src="assets/js/motion.js" defer></script>
+<script src="assets/js/biji3d.js" defer></script>
 </body>
 </html>

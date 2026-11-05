@@ -1,0 +1,79 @@
+{
+  "dibuat": "2026-11-05",
+  "berkas": "assets/img/biji-3d-poster.png",
+  "ukuran_kb": 104.2,
+  "segitiga_tergambar": 359400,
+  "zona": 6,
+  "senyawa": 12,
+  "titik_tampak": 6,
+  "posisi_layar_persen": [
+    {
+      "id": "cekungan",
+      "x": 44.56,
+      "y": 53.36,
+      "tampak": true,
+      "arah_permukaan": [
+        0.0,
+        0.0184,
+        0.4598
+      ]
+    },
+    {
+      "id": "kulit-luar",
+      "x": 26.69,
+      "y": 50.31,
+      "tampak": true,
+      "arah_permukaan": [
+        -0.3414,
+        0.0661,
+        0.4296
+      ]
+    },
+    {
+      "id": "inti",
+      "x": 56.19,
+      "y": 56.69,
+      "tampak": true,
+      "arah_permukaan": [
+        0.2092,
+        -0.0498,
+        0.4483
+      ]
+    },
+    {
+      "id": "minyak",
+      "x": 73.21,
+      "y": 59.1,
+      "tampak": true,
+      "arah_permukaan": [
+        0.506,
+        -0.1038,
+        0.3892
+      ]
+    },
+    {
+      "id": "ujung",
+      "x": 51.41,
+      "y": 35.68,
+      "tampak": true,
+      "arah_permukaan": [
+        0.1007,
+        0.4026,
+        0.3467
+      ]
+    },
+    {
+      "id": "serat",
+      "x": 36.2,
+      "y": 68.42,
+      "tampak": true,
+      "arah_permukaan": [
+        -0.1885,
+        -0.377,
+        0.3548
+      ]
+    }
+  ],
+  "masalah": [],
+  "catatan": "Poster dirender CPU oleh tools/biji.py dengan mesh & shader yang sama seperti assets/js/biji3d.js. Bukan render WebGL."
+}

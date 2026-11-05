@@ -1,7 +1,7 @@
 {
   "dibuat": "2026-11-05",
   "versi": "1.0",
-  "jumlah": 8,
+  "jumlah": 9,
   "larangan_global": 7,
   "anatomi": [
     "ringkasan",
@@ -12,7 +12,7 @@
     "copy",
     "kriteria_terima"
   ],
-  "total_karakter": 14935,
+  "total_karakter": 17542,
   "masalah": [],
   "prompts": [
     {
@@ -28,6 +28,21 @@
         "data/design-system.json#warna",
         "data/design-system.json#gerak",
         "data/catalog.json#products[0]"
+      ]
+    },
+    {
+      "id": "hero-biji-3d",
+      "judul": "Hero 3D: satu biji kopi medium roast yang bisa disentuh",
+      "kategori": "Hero",
+      "halaman": "index.html",
+      "tingkat": "wajib",
+      "karakter": 2607,
+      "kriteria": 7,
+      "komponen": 4,
+      "angka_dari": [
+        "data/biji3d.json#geometri",
+        "data/biji3d.json#zona",
+        "data/design-system.json#warna"
       ]
     },
     {

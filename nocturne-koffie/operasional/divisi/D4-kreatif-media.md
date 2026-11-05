@@ -294,6 +294,35 @@ Aturan yang mengikat:
 6. **Nilai hasilnya dengan mata di tangkapan layar.** Prompt yang lolos gerbang masih bisa
    menghasilkan halaman jelek.
 
+## 4i. Hero biji 3D (5 Nov 2026)
+
+Tampilan awal beranda sekarang satu objek: biji kopi Arabika medium roast yang bisa diputar dan
+disentuh. Setiap titik di permukaannya membuka senyawa yang ada di dalam biji.
+
+| Bagian | Berkas | Catatan |
+| --- | --- | --- |
+| Data | `data/biji3d.json` | bentuk, warna, 6 zona, 12 senyawa, 4 sumber literatur |
+| Renderer | `assets/js/biji3d.js` | WebGL tanpa pustaka, ±18 KB |
+| Poster | `assets/img/biji-3d-poster.png` | 640×800 RGBA, gambar awal & cadangan |
+| Verifikasi | `tools/verifikasi-biji.mjs` + `tools/biji.py` | 9 lolos tanpa GPU |
+
+Aturan yang mengikat:
+
+1. **Tidak ada tiga.js / React Three Fiber / CDN.** Jalur motionsite.ai ditolak karena ±600 KB dan
+   latar gelap; Nocturne memakai WebGL mentah dengan latar kertas.
+2. **Angka bentuk dan warna hanya di `data/biji3d.json`.** Kode JS dan Python tidak boleh menulis
+   ulang sumbu, faktor, atau hex.
+3. **Warna dari token.** Cokelat medium disusun dari `--g4b`, `--g2b`, `--g4a`, `--gold`, bukan hex baru.
+4. **Setiap senyawa wajib punya sumber dan tanda keyakinan.** Tanpa itu, gate menolak.
+5. **Kalimat kejujuran wajib tampil:** rentang senyawa = literatur, bukan lab Nocturne; bentuk = model,
+   bukan hasil pindai.
+6. **Jangan klaim render GPU.** Di sandbox ini WebGL belum pernah jalan; yang diuji matematika,
+   struktur, dan jalur poster.
+7. **Ubah satu sisi, jalankan verifikasi.** `node tools/verifikasi-biji.mjs` membandingkan proyeksi
+   JS dengan poster CPU; selisih maksimum 0,6% adalah batas.
+
+Laporan: `laporan/biji-3d.md`.
+
 ## 5. Serah terima
 
 | Dari | Kepada | Apa |

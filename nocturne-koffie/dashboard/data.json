@@ -1,6 +1,6 @@
 {
-  "hari_ini": "2026-10-30",
-  "dibuat": "30 Oct 2026 16:33 WIB",
+  "hari_ini": "2026-11-05",
+  "dibuat": "05 Nov 2026 15:20 WIB",
   "kpi": {
     "minggu": "1",
     "mulai": "2026-10-26",
@@ -17,13 +17,13 @@
     {
       "level": "peringatan",
       "divisi": "Penjualan & CRM",
-      "teks": "Order NK-1028-01 (Bagus) menunggu 2 hari.",
+      "teks": "Order NK-1028-01 (Bagus) menunggu 8 hari.",
       "aksi": "Konfirmasi & kirim hari ini; balas < 2 jam."
     },
     {
       "level": "peringatan",
       "divisi": "Penjualan & CRM",
-      "teks": "Order NK-1028-02 (Dewi) menunggu 2 hari.",
+      "teks": "Order NK-1028-02 (Dewi) menunggu 8 hari.",
       "aksi": "Konfirmasi & kirim hari ini; balas < 2 jam."
     },
     {
@@ -37,6 +37,12 @@
       "divisi": "Operasional & Logistik",
       "teks": "Order NK-1028-02 belum punya nomor resi.",
       "aksi": "Kirim resi ke pembeli lewat WhatsApp."
+    },
+    {
+      "level": "info",
+      "divisi": "Marketing & Konten",
+      "teks": "2 konten lewat jadwal.",
+      "aksi": "Selesaikan atau jadwalkan ulang hari ini."
     },
     {
       "level": "info",
@@ -104,11 +110,11 @@
       "metrics": [
         [
           "Konten hari ini",
-          0
+          1
         ],
         [
           "Konten terlambat",
-          0
+          2
         ],
         [
           "Chat masuk",
@@ -206,27 +212,7 @@
       "next": "Lengkapi NIB & izin publikasi nama petani sebelum kampanye besar."
     }
   },
-  "konten_hari": [],
-  "konten_telat": [],
-  "konten_berikut": [
-    {
-      "tanggal": "2026-11-03",
-      "hari": "Senin",
-      "platform": "IG Reels",
-      "jenis": "Video",
-      "judul": "12 menit terakhir sebelum kopi dikemas",
-      "pilar": "Proses",
-      "status": "siap"
-    },
-    {
-      "tanggal": "2026-11-04",
-      "hari": "Selasa",
-      "platform": "IG Carousel",
-      "jenis": "Carousel",
-      "judul": "Tanggal sangrai, bukan tanggal kedaluwarsa",
-      "pilar": "Bukti",
-      "status": "siap"
-    },
+  "konten_hari": [
     {
       "tanggal": "2026-11-05",
       "hari": "Rabu",
@@ -235,7 +221,31 @@
       "judul": "Suara first crack",
       "pilar": "Proses",
       "status": "siap"
+    }
+  ],
+  "konten_telat": [
+    {
+      "tanggal": "2026-11-03",
+      "hari": "Senin",
+      "platform": "IG Reels",
+      "jenis": "Video",
+      "judul": "12 menit terakhir sebelum kopi dikemas",
+      "pilar": "Proses",
+      "status": "siap",
+      "lewat": 2
     },
+    {
+      "tanggal": "2026-11-04",
+      "hari": "Selasa",
+      "platform": "IG Carousel",
+      "jenis": "Carousel",
+      "judul": "Tanggal sangrai, bukan tanggal kedaluwarsa",
+      "pilar": "Bukti",
+      "status": "siap",
+      "lewat": 1
+    }
+  ],
+  "konten_berikut": [
     {
       "tanggal": "2026-11-06",
       "hari": "Kamis",
@@ -243,6 +253,33 @@
       "jenis": "Story",
       "judul": "Tiga tanda kopi masih segar + jajak pendapat",
       "pilar": "Edukasi",
+      "status": "siap"
+    },
+    {
+      "tanggal": "2026-11-07",
+      "hari": "Jumat",
+      "platform": "IG Carousel",
+      "jenis": "Carousel",
+      "judul": "Minggu ini satu batch tidak lolos",
+      "pilar": "Bukti",
+      "status": "siap"
+    },
+    {
+      "tanggal": "2026-11-09",
+      "hari": "Senin",
+      "platform": "TikTok",
+      "jenis": "Video",
+      "judul": "Tiga penyebab kopi rumahan pahit",
+      "pilar": "Edukasi",
+      "status": "siap"
+    },
+    {
+      "tanggal": "2026-11-10",
+      "hari": "Selasa",
+      "platform": "IG Post",
+      "jenis": "Post",
+      "judul": "Peta Rasa: tiga keluarga kopi",
+      "pilar": "Jualan",
       "status": "siap"
     }
   ],
@@ -262,7 +299,7 @@
       "sumber": "whatsapp",
       "resi": "",
       "catatan": "minta giling espresso",
-      "umur_hari": 2,
+      "umur_hari": 8,
       "telat": true
     },
     {
@@ -283,7 +320,7 @@
       "null": [
         " minta kartu ucapan"
       ],
-      "umur_hari": 2,
+      "umur_hari": 8,
       "telat": true
     }
   ],
@@ -304,7 +341,7 @@
       "sumber": "instagram",
       "resi": "",
       "catatan": "COD area kota",
-      "umur_hari": 3
+      "umur_hari": 9
     },
     {
       "tanggal": "2026-10-28",
@@ -324,7 +361,7 @@
       "null": [
         " minta kartu ucapan"
       ],
-      "umur_hari": 2
+      "umur_hari": 8
     }
   ],
   "stok": [
@@ -1087,10 +1124,10 @@
       "divisi": "Marketing & Pertumbuhan",
       "nama": "Konten terlambat",
       "target": 0,
-      "aktual": 0,
+      "aktual": 2,
       "satuan": "post",
       "arah": "turun",
-      "status": "tercapai"
+      "status": "di bawah"
     },
     {
       "kode": "D3",
@@ -1491,7 +1528,7 @@
       }
     ]
   },
-  "jendela_data": "bulan berjalan",
+  "jendela_data": "30 hari terakhir",
   "riset": {
     "dibuat": "2026-10-30",
     "referensi": 27,
@@ -1654,7 +1691,7 @@
     ]
   },
   "studio": {
-    "dibuat": "2026-10-30",
+    "dibuat": "2026-11-05",
     "tahap": 10,
     "peta": {
       "otomatis": 46,
@@ -1667,38 +1704,38 @@
     "skrip": [
       {
         "no": 1,
-        "judul": "Satu kantong, tiga angka yang bisa Anda cek.",
-        "struktur": "angka",
+        "judul": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
+        "struktur": "diagnosis",
         "status": "siap rekam",
-        "aset": "carousel-01c"
+        "aset": "reel-tanggal-sangrai"
       },
       {
         "no": 2,
-        "judul": "Kopi tidak punya tanggal kedaluwarsa yang jujur.",
-        "struktur": "larangan",
-        "status": "siap rekam",
-        "aset": "carousel-01a"
-      },
-      {
-        "no": 3,
-        "judul": "Jangan simpan kopi di kulkas.",
-        "struktur": "larangan",
-        "status": "siap rekam",
-        "aset": "story-01"
-      },
-      {
-        "no": 4,
-        "judul": "Gilingan Anda menentukan 40% rasanya.",
-        "struktur": "angka",
+        "judul": "Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.",
+        "struktur": "diagnosis",
         "status": "siap rekam",
         "aset": "carousel-02b"
       },
       {
-        "no": 5,
-        "judul": "Resi dikirim hari itu, bukan besok.",
-        "struktur": "pengakuan",
+        "no": 3,
+        "judul": "Rp23.000 vs Rp152.000: bedanya bukan cuma berat.",
+        "struktur": "banding",
         "status": "siap rekam",
-        "aset": "reel-kirim-hari-ini"
+        "aset": "carousel-01c"
+      },
+      {
+        "no": 4,
+        "judul": "Arabika Ijen vs robusta Raung, satu meja.",
+        "struktur": "banding",
+        "status": "siap rekam",
+        "aset": "carousel-02a"
+      },
+      {
+        "no": 5,
+        "judul": "Tiga hal yang membuat kopi rumahan terasa hambar.",
+        "struktur": "angka",
+        "status": "siap rekam",
+        "aset": "carousel-02b"
       }
     ],
     "film_pertama": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
@@ -1725,14 +1762,14 @@
         "Proses sangrai 12 menit dalam 20 detik"
       ],
       "uji": [
-        "Satu kantong, tiga angka yang bisa Anda cek."
+        "Kopi pahit padahal baru beli? Cek tiga hal ini."
       ]
     },
     "reuse": {
       "duplikat_hook": [],
       "mirip_terbit": []
     },
-    "berikut": "2026-11-02",
+    "berikut": "2026-11-09",
     "docs": [
       "skills/README.md",
       "skills/social-media-riset/SKILL.md",

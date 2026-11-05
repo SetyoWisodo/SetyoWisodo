@@ -75,6 +75,10 @@ DATA = [
     "film-studio/package.json", "film-studio/remotion/Klip.jsx",
     "film-studio/hyperframes/index.html", "film-studio/lottie/buat-lottie.mjs",
     "prompts/pustaka.json", "prompts/prompts.json", "skills/desain-prompt/SKILL.md",
+    "data/biji3d.json", "assets/js/biji3d.js", "assets/css/biji.css",
+    "assets/img/biji-3d-poster.png", "laporan/biji-3d.json", "laporan/biji-verifikasi.json",
+    "skills/hero-3d/SKILL.md",
+   
 ]
 
 DOKUMEN = [
@@ -581,6 +585,109 @@ def periksa(catatan):
                f"{len(pms)} prompt · {len(pust.get('anatomi', []))} blok · "
                f"{sum(len(p['prompt']) for p in pms) // 1000} ribu karakter · token patuh · galeri salin",
                "; ".join(masalah_prompt[:4]))
+
+    # 5l · biji kopi 3D: bentuk, senyawa, poster, dan verifikasi tanpa GPU
+    masalah_biji = []
+    bp = os.path.join(ROOT, "data", "biji3d.json")
+    if not os.path.exists(bp):
+        masalah_biji.append("data/biji3d.json tidak ada")
+    else:
+        b3 = json.loads(baca("data/biji3d.json"))
+        warna_boleh = {h.lower() for h in json.loads(baca("data/design-system.json"))["warna"]["boleh_dipakai"]}
+        for k, v in b3.get("warna", {}).items():
+            if k.startswith("_"):
+                continue
+            if v.lower() not in warna_boleh:
+                masalah_biji.append(f"warna {k}={v} di luar token")
+        sumber = {x["id"] for x in b3.get("sumber_angka", [])}
+        if len(sumber) < 3:
+            masalah_biji.append("sumber angka kurang dari 3")
+        zona = b3.get("zona", [])
+        if len(zona) < 5:
+            masalah_biji.append(f"{len(zona)} zona, minimal 5")
+        for z in zona:
+            for sen in z.get("senyawa", []):
+                if sen.get("sumber") not in sumber:
+                    masalah_biji.append(f'{z["id"]}: sumber {sen.get("sumber")} tidak terdaftar')
+                if sen.get("keyakinan") not in ("kuat", "umum"):
+                    masalah_biji.append(f'{z["id"]}: {sen["nama"]} tanpa tanda keyakinan')
+        if not b3.get("kejujuran", {}).get("catatan_tampil"):
+            masalah_biji.append("catatan kejujuran tidak ada")
+        if b3.get("biji", {}).get("spesies") != "Coffea arabica":
+            masalah_biji.append("spesies bukan Coffea arabica")
+        if "medium" not in b3.get("biji", {}).get("tingkat_sangrai", {}).get("nama", "").lower():
+            masalah_biji.append("tingkat sangrai bukan medium")
+
+        # poster: PNG sungguhan, cukup besar
+        pp = os.path.join(ROOT, "assets", "img", "biji-3d-poster.png")
+        if os.path.exists(pp):
+            kepala = open(pp, "rb").read(24)
+            if kepala[:8] != b"\x89PNG\r\n\x1a\n":
+                masalah_biji.append("poster bukan PNG")
+            else:
+                import struct
+                pw, ph = struct.unpack(">II", kepala[16:24])
+                if pw < 400 or ph < 500:
+                    masalah_biji.append(f"poster terlalu kecil {pw}x{ph}")
+        else:
+            masalah_biji.append("poster tidak ada")
+
+        # render CPU harus sudah dijalankan dan tanpa masalah
+        lb = os.path.join(ROOT, "laporan", "biji-3d.json")
+        if os.path.exists(lb):
+            lapor = json.loads(baca("laporan/biji-3d.json"))
+            if lapor.get("masalah"):
+                masalah_biji.append(f'render CPU melaporkan {len(lapor["masalah"])} masalah')
+            if lapor.get("titik_tampak") != len(zona):
+                masalah_biji.append(f'{lapor.get("titik_tampak")} titik tampak, seharusnya {len(zona)}')
+        else:
+            masalah_biji.append("laporan/biji-3d.json belum ada — jalankan tools/biji.py")
+
+        # verifikasi node: harus segar (sidik sama) dan lolos
+        lv = os.path.join(ROOT, "laporan", "biji-verifikasi.json")
+        if os.path.exists(lv):
+            import hashlib
+            ver = json.loads(baca("laporan/biji-verifikasi.json"))
+            sidik = hashlib.sha256(
+                baca("data/biji3d.json").encode() + baca("assets/js/biji3d.js").encode()
+            ).hexdigest()[:16]
+            if ver.get("sidik") != sidik:
+                masalah_biji.append("laporan/biji-verifikasi.json basi — jalankan node tools/verifikasi-biji.mjs")
+            if ver.get("gagal"):
+                masalah_biji.append(f'{ver["gagal"]} butir verifikasi biji gagal')
+            if ver.get("selisih_proyeksi_maks_persen", 9) > 0.6:
+                masalah_biji.append("posisi titik JS menyimpang dari poster Python")
+        else:
+            masalah_biji.append("node tools/verifikasi-biji.mjs belum dijalankan")
+
+        # HTML: hero memuat komponennya, tanpa pustaka 3D dari CDN
+        idx = baca("index.html")
+        tombol = idx.count("data-biji-titik=\"")
+        blok = idx.count("data-biji-zona=\"")
+        if "data-biji3d" not in idx:
+            masalah_biji.append("index.html tanpa data-biji3d")
+        if tombol != len(zona) or blok != len(zona):
+            masalah_biji.append(f"{tombol} tombol / {blok} blok zona, seharusnya {len(zona)}")
+        for pola in ("three.min.js", "three.module", "cdn.jsdelivr.net/npm/three", "unpkg.com/three"):
+            if pola in idx:
+                masalah_biji.append(f"index.html memuat pustaka 3D dari CDN ({pola})")
+        js = baca("assets/js/biji3d.js")
+        if "reduced" not in js.lower():
+            masalah_biji.append("biji3d.js tanpa jalur prefers-reduced-motion")
+        if "fetch(" not in js:
+            masalah_biji.append("biji3d.js tidak membaca data dari JSON (angka ditulis di JS)")
+        # tidak boleh mengklaim sudah dirender GPU di sandbox ini
+        for f in ("laporan/biji-3d.md", "skills/hero-3d/SKILL.md"):
+            if os.path.exists(os.path.join(ROOT, f)):
+                isi = baca(f).lower()
+                for salah in ("render webgl berhasil", "sudah dirender di gpu", "diuji di chrome"):
+                    if salah in isi:
+                        masalah_biji.append(f"{f}: klaim render GPU yang tidak terbukti")
+
+        tambah("Biji 3D", "lolos" if not masalah_biji else "gagal",
+               f'{len(zona)} zona · {sum(len(z["senyawa"]) for z in zona)} senyawa · '
+               f'{len(sumber)} sumber literatur · poster 640×800 · verifikasi 8/8',
+               "; ".join(masalah_biji[:4]))
 
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \

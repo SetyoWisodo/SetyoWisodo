@@ -334,3 +334,41 @@ klaim terlarang, kata kosong, kriteria terima kurang dari empat, serta blok gera
 tetap boleh menulis "jangan sebut roastery kami".
 
 Gerbang terakhir: **22 lolos · 0 peringatan · 0 gagal**. Laporan: `laporan/prompt.md`.
+
+---
+
+## 13. Pembaruan 5 Nov 2026 — hero biji kopi 3D (tag 3D motionsite.ai & jiro.build)
+
+Referensi yang dipetakan: tag **`#3d`** motionsite.ai (13 item) dan header 3D di jiro.build
+(`Digital Art 3D — Cube`, `Auren`, `Morphi`). Yang bisa diambil tanpa membayar hanya bentuknya:
+**satu objek, latar nyaris kosong, tipografi di sisi lain, satu titik interaksi.** Teks prompt
+mereka tetap di balik paywall dan tidak disalin.
+
+| Sumber | Yang terbaca | Keputusan |
+| --- | --- | --- |
+| `motionsite.ai/sections/interactive-3d-hero` (Cripton) | React Three Fiber + Framer Motion, dark glassmorphism | **tidak diikuti** — ±600 KB dan latar gelap melanggar brief |
+| `3d-animation-hero`, `aero`, `netro`, `beyond` | satu objek 3D + scroll animation + satu ajakan | diikuti polanya |
+| `jiro.build` header 3D | objek di satu sisi, ruang kosong besar, teks tidak menempel objek | diikuti komposisinya |
+
+**Yang dibangun:** biji Arabika medium roast sebagai mesh parametrik (elipsoid 1,00 × 0,62 × 0,46,
+ujung meruncing, sisi datar 72%, dua belahan, alur S sedalam 0,52c, pitting 0,0045). Warna hanya
+dari token: `#3A2013 → #7A4A1E → #B4703A`, kilau `#D9A441`.
+
+| Lapisan | Berkas | Angka |
+| --- | --- | --- |
+| Data bentuk & senyawa | `data/biji3d.json` | 6 zona · 12 senyawa · 4 sumber |
+| Renderer WebGL tanpa pustaka | `assets/js/biji3d.js` | ±18 KB |
+| Poster CPU (gambar awal & cadangan) | `assets/img/biji-3d-poster.png` | 640×800 RGBA |
+| Verifikasi tanpa GPU | `tools/verifikasi-biji.mjs` | 9 lolos · selisih JS↔Python 0,005% |
+
+Interaksi: geser memutar (pitch ±22°), panah & `Home` untuk keyboard, ketuk titik membuka panel
+senyawa (rumus, rentang, peran, sumber, tanda keyakinan), `Esc` menutup. Tanpa WebGL poster tetap
+tampil; tanpa JavaScript enam zona tetap terbaca di `<details>`.
+
+**Batas:** render WebGL belum pernah dijalankan di sandbox ini (Chrome butuh `libnspr4`). Yang
+terbukti: matematika geometri, kesesuaian JS↔Python, struktur HTML, jalur poster, dan interaksi
+lewat jsdom. Bentuk biji adalah model, bukan hasil pindai; rentang senyawa dari literatur, bukan
+lab Nocturne — keduanya ditulis di halaman.
+
+Gerbang terakhir: **23 lolos · 0 peringatan · 0 gagal** (cek baru: *Biji 3D*).
+Laporan: `laporan/biji-3d.md`.

@@ -23,8 +23,8 @@ nocturne-koffie/
 ├── data/catalog.json             ← SATU-SATUNYA file yang perlu diubah rutin
 ├── brand/                        logo SVG, OG card, 9 label kantong + lembar A4, brand kit
 ├── komersial/                    harga grosir 4 tingkat, penawaran B2B, pipeline prospek
-├── skills/                       7 skill: riset sosial, komentar, mesin pencari, studio konten,
-│                                  motion-web, motion-film, desain-prompt
+├── skills/                       8 skill: riset sosial, komentar, mesin pencari, studio konten,
+│                                  motion-web, motion-film, desain-prompt, hero-3d
 ├── film-studio/                  GSAP · Lottie · Remotion · HyperFrames terpasang (npm, versi dipin)
 ├── assets/vendor/                gsap 3.15, ScrollTrigger, lottie-web 5.13 (lokal, tanpa CDN)
 ├── assets/lottie/                nocturne-9s.json — 9 lapisan, 540 frame, 4 penanda cue
@@ -51,9 +51,11 @@ nocturne-koffie/
 ├── tools/film.py                 lembar film: 540 frame, 120 BPM, arc energi, cue suara
 ├── tools/render_film.py          perender klip 9:16 (540 frame Pillow → ffmpeg H.264)
 ├── tools/prompt.py               pustaka prompt kelas atas: validasi token → prompts/index.html
+├── tools/biji.py                 biji kopi 3D: poster CPU 640×800 + validasi senyawa
+├── tools/verifikasi-biji.mjs     uji geometri JS↔Python, mesh, HTML — tanpa GPU
 ├── prompts/                      8 prompt spesifikasi desain + galeri salin sekali klik
 ├── tools/slop.py                 audit anti-slop (29 aturan) → laporan/slop.md
-├── tools/periksa.py              gerbang QA: 22 pemeriksaan konsistensi → laporan/periksa.md
+├── tools/periksa.py              gerbang QA: 23 pemeriksaan konsistensi → laporan/periksa.md
 ├── tools/laporan.py              satu halaman ringkasan → laporan/index.html
 ├── tools/jalankan.py             jalankan seluruh pipeline berurutan (~96 detik)
 ├── dashboard/index.html          papan harian hasil generate (jangan diedit manual)

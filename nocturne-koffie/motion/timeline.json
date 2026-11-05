@@ -6,40 +6,40 @@
     {
       "adegan": 1,
       "berkas": "frame-01.html",
-      "judul": "Satu kantong, tiga angka yang bisa Anda cek.",
-      "pilar": "Bukti",
+      "judul": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
+      "pilar": "Edukasi",
       "durasi": 9.0,
-      "aset": "carousel-01c",
-      "poster": "konten/carousel-01c.jpg",
-      "shot_list": "Tiga kartu teks berisi angka → kantong kopi & alat seduh di meja",
-      "sumber_data": "`batch-qc.csv`, `brand/label-ijen.png`",
+      "aset": "reel-tanggal-sangrai",
+      "poster": "konten/reel-02-poster.jpg",
+      "shot_list": "Tangan menimbang kopi → close-up gilingan → cangkir di meja",
+      "sumber_data": "`batch-qc.csv`, `catalog.json`",
       "cues": [
         {
           "mulai": 0.0,
           "durasi": 3.0,
           "selesai": 3.0,
-          "teks": "Satu kantong, tiga angka yang bisa Anda cek.",
-          "sumber": "brand/label-ijen.png"
+          "teks": "Kopi pahit padahal baru beli? Cek tiga hal ini.",
+          "sumber": "catalog.json"
         },
         {
           "mulai": 3.0,
           "durasi": 2.0,
           "selesai": 5.0,
-          "teks": "Tanggal sangrai, kode batch, level roast 1–5 — semuanya tercetak di label.",
-          "sumber": "brand/label-ijen.png"
+          "teks": "Pertama: gilingan terlalu halus untuk alat Anda. Kedua: air di atas 94°C.",
+          "sumber": "catalog.json"
         },
         {
           "mulai": 5.0,
           "durasi": 2.0,
           "selesai": 7.0,
-          "teks": "Cocokkan kode batch dengan catatan QC yang kami simpan.",
+          "teks": "Ketiga: kopi sudah lewat 21 hari dari tanggal sangrai.",
           "sumber": "batch-qc.csv"
         },
         {
           "mulai": 7.0,
           "durasi": 2.0,
           "selesai": 9.0,
-          "teks": "Cek label, lalu tanya apa pun lewat WhatsApp.",
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
           "sumber": null
         }
       ]
@@ -47,33 +47,33 @@
     {
       "adegan": 2,
       "berkas": "frame-02.html",
-      "judul": "Kopi tidak punya tanggal kedaluwarsa yang jujur.",
-      "pilar": "Bukti",
+      "judul": "Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.",
+      "pilar": "Edukasi",
       "durasi": 9.0,
-      "aset": "carousel-01a",
-      "poster": "konten/carousel-01a.jpg",
-      "shot_list": "Kopi di dalam kulkas → diangkat → dipindah ke wadah kedap",
+      "aset": "carousel-02b",
+      "poster": "konten/carousel-02b.jpg",
+      "shot_list": "Tangan menimbang kopi → close-up gilingan → cangkir di meja",
       "sumber_data": "`catalog.json`",
       "cues": [
         {
           "mulai": 0.0,
           "durasi": 3.0,
           "selesai": 3.0,
-          "teks": "Kopi tidak punya tanggal kedaluwarsa yang jujur.",
+          "teks": "Kenapa kopi kafe terasa lebih kuat dari kopi rumahan.",
           "sumber": "catalog.json"
         },
         {
           "mulai": 3.0,
           "durasi": 2.0,
           "selesai": 5.0,
-          "teks": "Yang menentukan bukan kedaluwarsa, tapi jarak dari tanggal sangrai.",
+          "teks": "Biasanya bukan biji: rasio 1:15 dan gilingan lebih halus mengekstrak lebih banyak.",
           "sumber": "catalog.json"
         },
         {
           "mulai": 5.0,
           "durasi": 2.0,
           "selesai": 7.0,
-          "teks": "Puncak rasa 7–21 hari. Lewat 60 hari masih aman, tapi tidak lagi sama.",
+          "teks": "Coba 15 g kopi untuk 225 ml air, lalu bandingkan dengan resep Anda sekarang.",
           "sumber": "catalog.json"
         },
         {
@@ -88,33 +88,33 @@
     {
       "adegan": 3,
       "berkas": "frame-03.html",
-      "judul": "Jangan simpan kopi di kulkas.",
-      "pilar": "Edukasi",
+      "judul": "Rp23.000 vs Rp152.000: bedanya bukan cuma berat.",
+      "pilar": "Jualan",
       "durasi": 9.0,
-      "aset": "story-01",
-      "poster": "konten/story-01.jpg",
-      "shot_list": "Kopi di dalam kulkas → diangkat → dipindah ke wadah kedap",
-      "sumber_data": "`catalog.json`, `studio-niche.json`",
+      "aset": "carousel-01c",
+      "poster": "konten/carousel-01c.jpg",
+      "shot_list": "Dua kantong berdampingan → tuang biji ke dua mangkuk",
+      "sumber_data": "`catalog.json`",
       "cues": [
         {
           "mulai": 0.0,
           "durasi": 3.0,
           "selesai": 3.0,
-          "teks": "Jangan simpan kopi di kulkas.",
-          "sumber": "studio-niche.json"
+          "teks": "Rp23.000 vs Rp152.000: bedanya bukan cuma berat.",
+          "sumber": "catalog.json"
         },
         {
           "mulai": 3.0,
           "durasi": 2.0,
           "selesai": 5.0,
-          "teks": "Uap dapur masuk lewat valve, aroma bumbu ikut pindah ke biji.",
-          "sumber": "studio-niche.json"
+          "teks": "Rp23.000 itu 100 g robusta Raung. Rp152.000 itu 500 g arabika Ijen.",
+          "sumber": "catalog.json"
         },
         {
           "mulai": 5.0,
           "durasi": 2.0,
           "selesai": 7.0,
-          "teks": "Cukup wadah kedap, tempat gelap, suhu ruang. Puncak rasa 7–21 hari.",
+          "teks": "Per gram: Rp230 lawan Rp304. Bedanya di proses dan ketinggian tanam.",
           "sumber": "catalog.json"
         },
         {
@@ -129,7 +129,48 @@
     {
       "adegan": 4,
       "berkas": "frame-04.html",
-      "judul": "Gilingan Anda menentukan 40% rasanya.",
+      "judul": "Arabika Ijen vs robusta Raung, satu meja.",
+      "pilar": "Edukasi",
+      "durasi": 9.0,
+      "aset": "carousel-02a",
+      "poster": "konten/carousel-02a.jpg",
+      "shot_list": "Dua kantong berdampingan → tuang biji ke dua mangkuk",
+      "sumber_data": "`catalog.json`",
+      "cues": [
+        {
+          "mulai": 0.0,
+          "durasi": 3.0,
+          "selesai": 3.0,
+          "teks": "Arabika Ijen vs robusta Raung, satu meja.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 3.0,
+          "durasi": 2.0,
+          "selesai": 5.0,
+          "teks": "Ijen 1.700–1.800 mdpl, proses natural: manis, buah, aftertaste panjang.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 5.0,
+          "durasi": 2.0,
+          "selesai": 7.0,
+          "teks": "Raung 422–443 mdpl: body tebal, cokelat gelap, pahit halus di akhir.",
+          "sumber": "catalog.json"
+        },
+        {
+          "mulai": 7.0,
+          "durasi": 2.0,
+          "selesai": 9.0,
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
+          "sumber": null
+        }
+      ]
+    },
+    {
+      "adegan": 5,
+      "berkas": "frame-05.html",
+      "judul": "Tiga hal yang membuat kopi rumahan terasa hambar.",
       "pilar": "Edukasi",
       "durasi": 9.0,
       "aset": "carousel-02b",
@@ -141,69 +182,28 @@
           "mulai": 0.0,
           "durasi": 3.0,
           "selesai": 3.0,
-          "teks": "Gilingan Anda menentukan 40% rasanya.",
+          "teks": "Tiga hal yang membuat kopi rumahan terasa hambar.",
           "sumber": "catalog.json"
         },
         {
           "mulai": 3.0,
           "durasi": 2.0,
           "selesai": 5.0,
-          "teks": "Terlalu halus: pahit dan sepat. Terlalu kasar: asam dan hambar.",
+          "teks": "Gilingan terlalu kasar. Air terlalu dingin. Kopi lewat 30 hari dari sangrai.",
           "sumber": "catalog.json"
         },
         {
           "mulai": 5.0,
           "durasi": 2.0,
           "selesai": 7.0,
-          "teks": "Sebut alat seduh Anda, kami giling di ukuran yang sesuai.",
+          "teks": "Cek satu per satu; yang tersering ternyata gilingan.",
           "sumber": "catalog.json"
         },
         {
           "mulai": 7.0,
           "durasi": 2.0,
           "selesai": 9.0,
-          "teks": "Tanya ukuran giling lewat WhatsApp, sebut alat seduh Anda.",
-          "sumber": null
-        }
-      ]
-    },
-    {
-      "adegan": 5,
-      "berkas": "frame-05.html",
-      "judul": "Resi dikirim hari itu, bukan besok.",
-      "pilar": "Bukti",
-      "durasi": 9.0,
-      "aset": "reel-kirim-hari-ini",
-      "poster": "konten/reel-05-poster.jpg",
-      "shot_list": "Layar catatan QC (blur nama) → tumpukan bungkus ditolak",
-      "sumber_data": "`catalog.json`",
-      "cues": [
-        {
-          "mulai": 0.0,
-          "durasi": 3.0,
-          "selesai": 3.0,
-          "teks": "Resi dikirim hari itu, bukan besok.",
-          "sumber": "catalog.json"
-        },
-        {
-          "mulai": 3.0,
-          "durasi": 2.0,
-          "selesai": 5.0,
-          "teks": "Order sebelum 15.00 WIB diproses dan diserahkan ke kurir hari yang sama.",
-          "sumber": "catalog.json"
-        },
-        {
-          "mulai": 5.0,
-          "durasi": 2.0,
-          "selesai": 7.0,
-          "teks": "Kalau lewat jam itu, resi baru keluar besok pagi — kami tulis apa adanya.",
-          "sumber": "catalog.json"
-        },
-        {
-          "mulai": 7.0,
-          "durasi": 2.0,
-          "selesai": 9.0,
-          "teks": "Order lewat WhatsApp sebelum 15.00 WIB.",
+          "teks": "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda.",
           "sumber": null
         }
       ]

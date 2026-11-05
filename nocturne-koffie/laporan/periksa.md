@@ -4,14 +4,14 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 
 | Ringkasan | Jumlah |
 | --- | --- |
-| Pemeriksaan lolos | **22** |
+| Pemeriksaan lolos | **23** |
 | Peringatan | **0** |
 | Gagal (harus diperbaiki) | **0** |
 
 | Kategori | Status | Hasil | Catatan |
 | --- | --- | --- | --- |
-| Berkas wajib | ✅ lolos | 79/79 berkas ada | — |
-| Tautan lokal | ✅ lolos | 129/129 tautan menuju berkas yang ada | — |
+| Berkas wajib | ✅ lolos | 86/86 berkas ada | — |
+| Tautan lokal | ✅ lolos | 132/132 tautan menuju berkas yang ada | — |
 | Struktur HTML | ✅ lolos | 16/16 halaman tag-nya seimbang | — |
 | Stok semua SKU | ✅ lolos | 9/9 SKU berstatus tersedia | — |
 | Produk ↔ lot | ✅ lolos | 9/9 produk punya lot aktif (blend memakai komponen) | — |
@@ -29,8 +29,9 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 | Panggung 3D | ✅ lolos | 3 komponen dipakai · 15.8 KB CSS+JS · jatuh datar tanpa JS | — |
 | Film gerak | ✅ lolos | 20 cue · 120 BPM · 540 frame/adegan · 20 repo terdokumentasi | — |
 | Mesin terpasang | ✅ lolos | GSAP 3.15.0 · Lottie 5.13.0 · Remotion 4.0.539 · HyperFrames 0.8.221 · klip 540 frame + 4 sub-komposisi · font Google di 14 halaman (lama, dicatat) | — |
-| Prompt kelas atas | ✅ lolos | 8 prompt · 7 blok · 14 ribu karakter · token patuh · galeri salin | — |
-| Berat halaman awal | ✅ lolos | 89 KB (batas 1.500 KB) | — |
+| Prompt kelas atas | ✅ lolos | 9 prompt · 7 blok · 17 ribu karakter · token patuh · galeri salin | — |
+| Biji 3D | ✅ lolos | 6 zona · 12 senyawa · 4 sumber literatur · poster 640×800 · verifikasi 8/8 | — |
+| Berat halaman awal | ✅ lolos | 98 KB (batas 1.500 KB) | — |
 | Berat folder konten | ✅ lolos | 3.8 MB (batas 12 MB) | — |
 
 ## Yang belum bisa diperiksa mesin
