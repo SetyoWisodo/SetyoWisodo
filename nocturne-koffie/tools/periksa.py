@@ -23,6 +23,7 @@ import argparse
 import json
 import glob
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -48,6 +49,7 @@ HALAMAN = [
     "laporan/index.html",
     "studio/index.html",
     "motion/index.html",
+    "prompts/index.html",
     "motion/frame-01.html", "motion/frame-02.html", "motion/frame-03.html",
     "motion/frame-04.html", "motion/frame-05.html",
 ]
@@ -69,9 +71,10 @@ DATA = [
     "assets/fonts/bricolage-grotesque-latin-800-normal.ttf",
     "assets/fonts/fraunces-latin-300-normal.ttf",
     "assets/fonts/inter-latin-400-normal.ttf",
-    "motion/out/klip-01-nocturne-9s.mp4", "motion/out/manifest.json",
+    "motion/render/klip-01-nocturne-9s.mp4", "motion/render/manifest.json",
     "film-studio/package.json", "film-studio/remotion/Klip.jsx",
     "film-studio/hyperframes/index.html", "film-studio/lottie/buat-lottie.mjs",
+    "prompts/pustaka.json", "prompts/prompts.json", "skills/desain-prompt/SKILL.md",
 ]
 
 DOKUMEN = [
@@ -499,8 +502,8 @@ def periksa(catatan):
     else:
         masalah_mesin.append("assets/lottie/nocturne-9s.json tidak ada")
     # klip jadi: harus benar-benar video, dengan manifest yang cocok
-    mp = os.path.join(ROOT, "motion", "out", "klip-01-nocturne-9s.mp4")
-    nf = os.path.join(ROOT, "motion", "out", "manifest.json")
+    mp = os.path.join(ROOT, "motion", "render", "klip-01-nocturne-9s.mp4")
+    nf = os.path.join(ROOT, "motion", "render", "manifest.json")
     if os.path.exists(mp):
         kepala = open(mp, "rb").read(12)
         if kepala[4:8] != b"ftyp":
@@ -508,14 +511,14 @@ def periksa(catatan):
         if not os.path.exists(nf):
             masalah_mesin.append("manifest.json klip tidak ada")
         else:
-            man = json.loads(baca("motion/out/manifest.json"))
+            man = json.loads(baca("motion/render/manifest.json"))
             for k in ("sha256_16", "perender", "fps", "frame", "sumber_angka"):
                 if not man.get(k):
                     masalah_mesin.append(f"manifest klip tanpa {k}")
             if man.get("fps") != 60 or man.get("frame") != 540:
                 masalah_mesin.append(f'manifest {man.get("fps")} fps / {man.get("frame")} frame, seharusnya 60/540')
     else:
-        masalah_mesin.append("motion/out/klip-01-nocturne-9s.mp4 belum dirender")
+        masalah_mesin.append("motion/render/klip-01-nocturne-9s.mp4 belum dirender")
     # proyek mesin: pin versi + komposisi hyperframes lengkap
     pkg = json.loads(baca("film-studio/package.json")) if os.path.exists(os.path.join(ROOT, "film-studio/package.json")) else {}
     for p in ("gsap", "lottie-web", "remotion", "hyperframes"):
@@ -535,6 +538,49 @@ def periksa(catatan):
            f"Remotion {mesin.get('paket', {}).get('remotion', '—')} · HyperFrames {mesin.get('paket', {}).get('hyperframes', '—')} · "
            f"klip 540 frame + 4 sub-komposisi · font Google di {len(halaman_googlefont)} halaman (lama, dicatat)",
            "; ".join(masalah_mesin[:4]))
+
+    # 5k · pustaka prompt kelas atas: struktur 7 blok, token patuh, tanpa klaim karangan
+    masalah_prompt = []
+    pustaka_path = os.path.join(ROOT, "prompts", "pustaka.json")
+    if not os.path.exists(pustaka_path):
+        masalah_prompt.append("prompts/pustaka.json tidak ada")
+    else:
+        pust = json.loads(baca("prompts/pustaka.json"))
+        warna_boleh = {h.lower() for h in json.loads(baca("data/design-system.json"))["warna"]["boleh_dipakai"]}
+        pms = pust.get("prompts", [])
+        if len(pust.get("anatomi", [])) != 7:
+            masalah_prompt.append(f'{len(pust.get("anatomi", []))} blok anatomi, seharusnya 7')
+        if not pust.get("larangan_global"):
+            masalah_prompt.append("larangan_global kosong")
+        for p in pms:
+            pid = p.get("id", "?")
+            if len(p.get("prompt", "")) < 1200:
+                masalah_prompt.append(f"{pid}: prompt terlalu pendek")
+            if len(p.get("kriteria_terima", [])) < 4:
+                masalah_prompt.append(f"{pid}: kriteria terima < 4")
+            if not p.get("angka_dari"):
+                masalah_prompt.append(f"{pid}: tanpa sumber angka")
+            if "reduced_motion" not in p.get("gerak", {}):
+                masalah_prompt.append(f"{pid}: gerak tanpa reduced_motion")
+            for hx in set(re.findall(r"#[0-9a-fA-F]{6}", p.get("prompt", ""))):
+                if hx.lower() not in warna_boleh:
+                    masalah_prompt.append(f"{pid}: warna {hx} di luar token")
+        # halaman galeri harus benar-benar memuat semua prompt
+        galeri = baca("prompts/index.html") if os.path.exists(os.path.join(ROOT, "prompts/index.html")) else ""
+        tidak_termuat = [p["id"] for p in pms if f'id="{p["id"]}"' not in galeri]
+        if tidak_termuat:
+            masalah_prompt.append(f"galeri tidak memuat: {', '.join(tidak_termuat[:3])}")
+        if galeri.count("data-salin=") < len(pms):
+            masalah_prompt.append("tombol salin kurang dari jumlah prompt")
+        # tidak boleh ada klaim menyalin prompt berbayar
+        teks = json.dumps(pust, ensure_ascii=False).lower()
+        for kata in ("disalin dari jiro", "disalin dari motionsite"):
+            if kata in teks:
+                masalah_prompt.append(f"klaim menyalin dari platform berbayar: {kata}")
+        tambah("Prompt kelas atas", "lolos" if not masalah_prompt else "gagal",
+               f"{len(pms)} prompt · {len(pust.get('anatomi', []))} blok · "
+               f"{sum(len(p['prompt']) for p in pms) // 1000} ribu karakter · token patuh · galeri salin",
+               "; ".join(masalah_prompt[:4]))
 
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \

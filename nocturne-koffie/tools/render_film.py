@@ -35,7 +35,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from tanggal import hari_ini  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, "motion", "out")
+OUT = os.path.join(ROOT, "motion", "render")
 FRAMES = os.path.join(OUT, "frame")
 
 W, H = 1080, 1920
@@ -170,7 +170,7 @@ def tulis_still(n, adegan, warna, fps):
     img = gambar_frame(n, total, fps, adegan, warna, masih=True)
     jalur = os.path.join(OUT, f"still-{n:03d}.png")
     img.save(jalur, optimize=True)
-    print(f"still {n} → motion/out/{os.path.basename(jalur)} ({os.path.getsize(jalur) / 1024:.0f} KB)")
+    print(f"still {n} → motion/render/{os.path.basename(jalur)} ({os.path.getsize(jalur) / 1024:.0f} KB)")
     return jalur
 
 
@@ -211,7 +211,7 @@ def main():
         if n % 90 == 0:
             print(f"  frame {n}/{total}")
 
-    print(f"{total} frame ditulis · motion/out/frame/")
+    print(f"{total} frame ditulis · motion/render/frame/")
     if args.tanpa_encode:
         return
 

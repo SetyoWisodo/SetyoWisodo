@@ -49,7 +49,7 @@ Karena itu **video jadi dibuat lewat jalur ketiga** yang tidak butuh Chrome:
 motion/film-sheet.json → 540 frame PNG (Pillow) → ffmpeg (H.264, bt709)
 ```
 
-Hasilnya `motion/out/klip-01-nocturne-9s.mp4` — 1080×1920, 60 fps, 9,00 detik, 341 KB.
+Hasilnya `motion/render/klip-01-nocturne-9s.mp4` — 1080×1920, 60 fps, 9,00 detik, 341 KB.
 Dibuat `tools/render_film.py`. Ini **bukan** Remotion dan **bukan** HyperFrames, dan tidak
 saya klaim sebagai keduanya.
 
@@ -88,7 +88,7 @@ Chrome. Tidak ada perubahan kode yang perlu dilakukan saat pindah mesin.
 3. **Versi dipin, bukan `^`.** `periksa.py` menolak rentang versi.
 4. **Angka dari lembar film.** Keempat mesin membaca `film-sheet.json`; tidak ada durasi atau teks
    yang ditulis ulang di JSX/HTML.
-5. **Tidak ada klaim render.** Selama `motion/out/*.mp4` yang ada hanya keluaran `render_film.py`,
+5. **Tidak ada klaim render.** Selama `motion/render/*.mp4` yang ada hanya keluaran `render_film.py`,
    dokumentasi menyebutnya begitu.
 
 ## Lisensi

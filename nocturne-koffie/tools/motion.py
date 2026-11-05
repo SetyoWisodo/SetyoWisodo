@@ -611,11 +611,11 @@ def lab(frames, slop, kreatif, tgl):
   <p class="lede">540 frame dirender <code>tools/render_film.py</code> (Pillow) lalu dienkode ffmpeg 7.0.2
   ke H.264, 1080×1920, 60 fps, bt709. Bahasa desainnya sama dengan komposisi Remotion & HyperFrames,
   tetapi perendernya jalur A — karena Chrome tidak bisa jalan di sandbox ini.</p>
-  <video src="../motion/out/klip-01-nocturne-9s.mp4" controls muted loop playsinline preload="metadata"
+  <video src="../motion/render/klip-01-nocturne-9s.mp4" controls muted loop playsinline preload="metadata"
     style="width:min(280px,60vw);border:2px solid var(--ink);border-radius:4px;display:block;margin-top:12px"
     aria-label="Klip 9 detik adegan 01: Kopi pahit padahal baru beli"></video>
-  <p class="lede" style="margin-top:10px">Berkas: <a href="../motion/out/klip-01-nocturne-9s.mp4">klip-01-nocturne-9s.mp4</a>
-  (341 KB) · <a href="../motion/out/manifest.json">manifest.json</a> (sha256, encoder, sumber angka) ·
+  <p class="lede" style="margin-top:10px">Berkas: <a href="../motion/render/klip-01-nocturne-9s.mp4">klip-01-nocturne-9s.mp4</a>
+  (341 KB) · <a href="../motion/render/manifest.json">manifest.json</a> (sha256, encoder, sumber angka) ·
   <a href="../motion/film-sheet.md">lembar film</a>.</p>
 
   <h2>7 · Batas yang tidak saya tutupi</h2>

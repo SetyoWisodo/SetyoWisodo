@@ -1,0 +1,218 @@
+{
+  "versi": "1.0",
+  "diperbarui": "2026-10-30",
+  "_catatan": "Pustaka prompt kelas atas untuk halaman Nocturne. Setiap entri adalah spesifikasi desain utuh yang bisa ditempel ke agen koding (Claude Code, Cursor, v0, Bolt, Lovable). Angka, warna, dan nama produk diambil dari data/catalog.json dan data/design-system.json — bukan karangan. Prompt di sini DITULIS SENDIRI untuk Nocturne; tidak ada teks prompt berbayar dari motionsite.ai atau jiro.build yang disalin (keduanya paywall: $19–$199 dan $48–$384). Anatomi tujuh bloknya mengikuti pustaka berlisensi CC0 superdesigndev/superdesign-prompts.",
+  "sumber_kebenaran": ["data/catalog.json", "data/design-system.json", "brand/README.md", "panduan/07-sistem-motion.md"],
+  "anatomi": [
+    {"blok": "ringkasan", "isi": "Satu paragraf: apa yang dibangun, untuk siapa, dan kesan yang harus tersisa setelah 3 detik."},
+    {"blok": "gaya", "isi": "Arah visual + token persis: hex, keluarga font, skala clamp, radius, tekstur. Tanpa token, prompt hanya jadi 'buat cantik'."},
+    {"blok": "tata_letak", "isi": "Struktur per bagian, urutan, lebar kolom, dan apa yang turun/hilang di mobile."},
+    {"blok": "komponen", "isi": "Elemen yang mudah dirusak agen: kartu produk, pemilih gramasi, tabel harga, formulir."},
+    {"blok": "gerak", "isi": "Durasi, easing, properti yang boleh dianimasikan, dan perilaku prefers-reduced-motion."},
+    {"blok": "copy", "isi": "Teks yang harus muncul apa adanya, dan larangan klaim. Ini yang membedakan halaman brand dari template generik."},
+    {"blok": "kriteria_terima", "isi": "Butir yang bisa diperiksa mesin: berat halaman, kontras, jumlah kolom, tidak ada angka tanpa sumber."}
+  ],
+  "larangan_global": [
+    "Jangan menyebut Nocturne sebagai roastery. Penyangraian oleh Ais Coffee Roastery, Banyuwangi.",
+    "Jangan mengarang angka: harga, ketinggian, kadar air, jumlah pelanggan, rating.",
+    "Jangan menambah warna di luar daftar boleh_dipakai di data/design-system.json.",
+    "Jangan memuat pustaka dari CDN. Semua aset lokal.",
+    "Jangan memakai em dash berpasangan sebagai hiasan; tanda pisah hanya untuk rentang angka.",
+    "Jangan membuat ulasan/testimoni fiktif.",
+    "Jangan memakai foto stok orang minum kopi sebagai hero; hero memakai foto produk atau tipografi."
+  ],
+  "prompts": [
+    {
+      "id": "hero-beranda",
+      "judul": "Hero beranda: tipografi raksasa di atas kertas krem",
+      "kategori": "Hero",
+      "halaman": "index.html",
+      "tingkat": "wajib",
+      "ringkas": "Hero dua kolom yang menaruh nama kopi dan asalnya sebagai objek tipografis utama, dengan satu foto produk yang dipotong keras di kanan. Kesan yang harus tersisa: katalog kopi serius, bukan kedai.",
+      "prompt": "Bangun hero beranda untuk Nocturne Koffie, merek kopi specialty dari Banyuwangi. Kanvas kertas krem --paper #F5EFE4 dengan butir kertas halus (radial-gradient titik #16110D 0.5px pada tile 4px, opasitas 3,5%). Teks memakai --ink #16110D; satu aksen saja --orange #E1542B untuk garis pendek 44 px di bawah headline dan status stok; --espresso #4A2C1A hanya untuk label mikro. Tipografi: headline Bricolage Grotesque 800, clamp(2.6rem, 7.2vw, 6.6rem), line-height 0.94, letter-spacing -0.035em, dua baris: 'Kopi dari petani.' lalu 'Diseduh untukmu.' Baris kedua memakai Fraunces 300 italic, bukan Bricolage. Label mikro di atas headline: 'SINGLE ORIGIN · JAWA TIMUR' huruf Inter 600 11px, tracking 0.22em, warna --espresso. Badan teks Inter 400 16px, line-height 1.6, maksimal 46 karakter per baris, warna rgba(22,17,13,.8): 'Setiap kemasan menyebut nama petani, desa, dan ketinggian kebunnya. Disangrai mingguan oleh Ais Coffee Roastery di Banyuwangi.' Dua aksi: tombol utama 'Lihat katalog' (latar --ink, teks --paper, radius 999px, padding 14px 22px, tanpa bayangan) dan tautan teks 'Cara menyeduh' dengan garis bawah 1px yang tumbuh dari kiri saat hover. Kanan: satu foto produk rasio 4:5, dipotong rata di tepi kanan kanvas, tanpa sudut membulat, tanpa bayangan; di bawahnya penanda kecil 'Gayo · 1.346 mdpl · Natural Classic' dalam Inter 500 12px. Grid: kolom 1.05fr / 0.95fr, jarak clamp(24px, 4vw, 56px), pembungkus maksimal 1180px, padding vertikal clamp(64px, 9vw, 132px). Garis rambut 1px rgba(22,17,13,.16) memisahkan hero dari bagian berikutnya. Di bawah 900px: satu kolom, foto turun ke bawah teks, tinggi foto 62vh, label mikro tetap. Gerak: satu timeline masuk, ekspo-out cubic-bezier(.16,1,.3,1); label 0 ms, headline 90 ms, badan 180 ms, tombol 270 ms, foto 240 ms dengan scale 1.03 ke 1; hanya transform dan opacity; total di bawah 900 ms; prefers-reduced-motion membuat semuanya langsung terlihat tanpa gerak. Jangan pakai gradient ungu, blob, glassmorphism, atau bayangan lembut; jangan pakai foto orang minum kopi; jangan tulis 'roastery kami'.",
+      "komponen": [
+        "Tombol utama tanpa bayangan, radius 999px, border 2px solid --ink; status hover menggeser latar ke --espresso.",
+        "Tautan teks dengan garis bawah tumbuh 0 ke 100% lebar dalam 400 ms memakai cubic-bezier(.16,1,.3,1).",
+        "Penanda produk: tiga potongan data dipisah titik tengah, tidak pernah lebih dari satu baris di 360 px."
+      ],
+      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [240, 900], "stagger_ms": 90, "properti": ["transform", "opacity"], "reduced_motion": "semua elemen langsung pada keadaan akhir"},
+      "copy": ["Kopi dari petani.", "Diseduh untukmu.", "SINGLE ORIGIN · JAWA TIMUR", "Lihat katalog", "Cara menyeduh"],
+      "kriteria_terima": [
+        "Hanya memakai hex dari daftar boleh_dipakai data/design-system.json.",
+        "Headline tidak pernah lebih dari dua baris di 360 px dan tidak terpotong.",
+        "Berat halaman awal di bawah 1.500 KB tanpa pustaka dari CDN.",
+        "Kontras teks utama terhadap --paper minimal 12:1.",
+        "Dengan prefers-reduced-motion, seluruh konten terlihat tanpa animasi."
+      ],
+      "angka_dari": ["data/design-system.json#warna", "data/design-system.json#gerak", "data/catalog.json#products[0]"]
+    },
+    {
+      "id": "menu-katalog",
+      "judul": "Katalog: sembilan kopi, satu tabel yang jujur",
+      "kategori": "Katalog",
+      "halaman": "katalog.html",
+      "tingkat": "wajib",
+      "ringkas": "Daftar sembilan SKU sebagai tabel editorial yang bisa dipindai dalam lima detik: nama, asal, proses, catatan rasa, harga 100 g. Tanpa kartu berbayang, tanpa badge diskon palsu.",
+      "prompt": "Bangun halaman katalog untuk sembilan kopi Nocturne. Latar --paper #F5EFE4. Ini tabel editorial, bukan grid kartu: setiap baris memisah dengan garis rambut 1px rgba(22,17,13,.16), tinggi baris minimal 92 px, dan pada hover seluruh baris bergeser 4 px ke kanan serta latar berubah ke --paper-2 #EFE6D6. Kolom desktop: nomor (Fraunces 300 20px, rgba(22,17,13,.55)), nama + asal (Bricolage Grotesque 800 26px, line-height 1), proses dan ketinggian (Inter 500 12.5px, tracking 0.08em, uppercase, --espresso), catatan rasa (Inter 400 14.5px, dipisah ' · '), harga 100 g (Inter 600 15px, tabular-nums, rata kanan), panah 16 px. Di bawah 760px setiap baris menjadi tiga tingkat: nama besar, satu baris meta yang dipotong dengan ellipsis, lalu harga di kanan bawah; nomor tetap terlihat. Data yang tampil persis: 01 Gayo — Aceh, 1.346 mdpl, Natural Classic, Cokelat · Rempah · Jeruk, Rp45.000; 02 Kintamani — Bali, 1.300 mdpl, Full Wash, Jeruk · Bunga · Teh hitam, Rp40.000; 03 Blue Mount Ijen — Jawa Timur, 1.700–1.800 mdpl, Full Wash, Madu · Apel · Melati, Rp39.000; 04 Semeru — Jawa Timur, 1.486 mdpl, Natural Classic, Jeruk manis · Gula merah · Teh, Rp36.000; 05 Arjuno — Jawa Timur, 712 mdpl, Natural, Kacang · Cokelat · Tembakau, Rp25.000; 06 Raung — Jawa Timur, 422–443 mdpl, Natural, Cokelat hitam · Karamel, Rp23.000; 07 Ijen Excelsa — Jawa Timur, 434–442 mdpl, Natural, Berry · Gula aren · Kayu manis, Rp26.000; 08 Blend 70/30 — Signature Blend, Natural · Full Wash, Cokelat · Karamel · Kacang, Rp30.000; 09 Blend 60/40 — Signature Blend, Natural · Full Wash, Cokelat susu · Jeruk · Rempah, Rp33.000. Di atas tabel: penyaring empat tombol teks (Semua / Single Origin / Signature Blend / Tersedia), tombol aktif memakai garis bawah 2px --orange, bukan pil berwarna. Judul halaman: 'Sembilan kopi, sembilan petani.' dalam Bricolage 800 clamp(2.2rem, 5.4vw, 4.2rem), disusul satu paragraf Inter 15.5px maksimal 62 karakter per baris. Filter bekerja tanpa memuat ulang halaman dan tanpa mengubah tinggi tabel secara mendadak. Semua harga memakai format Rp tanpa desimal dan tabular-nums. Gerak: baris muncul dengan stagger 55 ms, hanya opacity dan translateY 12px, maksimal 420 ms; prefers-reduced-motion mematikan stagger. Jangan tampilkan badge 'best seller', 'diskon', atau stok tinggal beberapa; jangan mengarang rating.",
+      "komponen": [
+        "Baris katalog sebagai anchor penuh, target klik minimal 44 px tinggi, fokus keyboard terlihat sebagai outline 2px --orange.",
+        "Penyaring tanpa JavaScript tetap menampilkan semua baris; filter hanya menyembunyikan, tidak pernah mengosongkan tabel.",
+        "Harga rata kanan dengan font-variant-numeric: tabular-nums agar tidak bergoyang."
+      ],
+      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [240, 420], "stagger_ms": 55, "properti": ["transform", "opacity"], "reduced_motion": "tanpa stagger, semua baris langsung tampak"},
+      "copy": ["Sembilan kopi, sembilan petani.", "Single Origin", "Signature Blend", "Tersedia", "Harga per 100 g"],
+      "kriteria_terima": [
+        "Sembilan baris produk dan harganya identik dengan data/catalog.json.",
+        "Tidak ada angka yang tidak ada di katalog (rating, jumlah pembeli, stok).",
+        "Tabel tetap terbaca pada 360 px tanpa gulir horizontal.",
+        "Semua tombol penyaring bisa dicapai dengan Tab dan berstatus aria-pressed.",
+        "Berat halaman di bawah 1.500 KB."
+      ],
+      "angka_dari": ["data/catalog.json#products", "data/design-system.json#spasi"]
+    },
+    {
+      "id": "produk-gayo",
+      "judul": "Halaman produk: satu kopi, seluruh jejaknya",
+      "kategori": "Produk",
+      "halaman": "produk/gayo.html",
+      "tingkat": "wajib",
+      "ringkas": "Halaman detail yang menjawab tiga pertanyaan pembeli: rasanya seperti apa, dari mana, dan berapa. Data petani dan ketinggian tampil sebagai keterangan teknis, bukan hiasan.",
+      "prompt": "Bangun halaman produk untuk Gayo, single origin Arabika dari Aceh. Dua kolom, 55/45. Kiri: foto produk rasio 4:5 dengan latar --paper-2 #EFE6D6, tanpa sudut membulat, tanpa bayangan; di bawahnya empat gambar kecil 1:1 sebagai penunjuk sudut pandang, aktif ditandai garis 2px --orange. Kanan: nomor produk '01' dalam Fraunces 300 64px rgba(22,17,13,.25); nama 'Gayo' Bricolage Grotesque 800 clamp(2.4rem, 5.6vw, 4.4rem) line-height 0.95; satu baris asal 'Arabika Origin · Aceh · 1.346 mdpl' Inter 500 12.5px uppercase tracking 0.14em --espresso. Tiga catatan rasa tampil sebagai teks, bukan pil: 'Cokelat · Rempah · Jeruk' Inter 400 17px. Pemilih gramasi empat tombol persegi (radius 4px, border 1px rgba(22,17,13,.28)): 100 g Rp45.000, 250 g Rp99.000, 500 g Rp180.000, 1 kg Rp340.000; yang aktif berlatar --ink dengan teks --paper; harga utama di kiri tombol 'Tambah ke pesanan' berubah mengikuti pilihan tanpa memuat ulang. Tombol utama memakai --orange #E1542B dengan teks --ink, border 2px --ink, radius 999px. Di bawahnya tabel spesifikasi dua kolom dengan garis rambut: Petani Anton Dwi P; Ketinggian 1.346 mdpl; Varietas Lini S · Catimor; Proses Natural Classic; Tingkat sangrai 3 dari 5 (tampilkan sebagai lima batang, tiga terisi --espresso); Seduh V60, French Press, Tubruk; Giling biji utuh atau bubuk sesuai metode. Satu paragraf kecil yang jujur: 'Disangrai mingguan oleh Ais Coffee Roastery di Banyuwangi, lalu dikemas dan dikirim dari kota yang sama.' Bagian bawah: tiga kartu kopi lain dengan latar --paper, bukan kartu berbayang, masing-masing hanya nama, asal, harga 100 g. Gerak: pemilih gramasi menukar harga dengan crossfade 180 ms; foto berganti dengan opacity 240 ms; tidak ada zoom saat hover pada foto utama. Halaman ini harus tetap utuh tanpa JavaScript: semua varian tampil sebagai daftar harga, tombol hanya mempercepat. Jangan menulis 'roastery kami', jangan mengarang tanggal sangrai, jangan menampilkan skor cangkir yang tidak pernah diukur.",
+      "komponen": [
+        "Pemilih gramasi sebagai radio group asli sehingga bisa dioperasikan keyboard.",
+        "Tingkat sangrai divisualkan lima batang 6 px, bukan bintang.",
+        "Tabel spesifikasi memakai dl/dt/dd, bukan div bertumpuk."
+      ],
+      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [180, 240], "stagger_ms": 0, "properti": ["opacity", "transform"], "reduced_motion": "pergantian harga dan foto tanpa transisi"},
+      "copy": ["Gayo", "Arabika Origin · Aceh · 1.346 mdpl", "Cokelat · Rempah · Jeruk", "Tambah ke pesanan", "Disangrai mingguan oleh Ais Coffee Roastery di Banyuwangi."],
+      "kriteria_terima": [
+        "Empat harga gramasi sama dengan varian di data/catalog.json untuk id gayo.",
+        "Nama petani, ketinggian, varietas, dan proses persis seperti katalog.",
+        "Tidak ada kata 'roastery kami' di seluruh berkas.",
+        "Halaman berfungsi penuh tanpa JavaScript.",
+        "Kontras harga terhadap latar minimal 7:1."
+      ],
+      "angka_dari": ["data/catalog.json#products[0]", "data/design-system.json#warna"]
+    },
+    {
+      "id": "cerita-ais",
+      "judul": "Cerita: Ais Coffee Roastery sebagai mitra, bukan milik",
+      "kategori": "Editorial",
+      "halaman": "cerita.html",
+      "tingkat": "wajib",
+      "ringkas": "Halaman naratif yang menjelaskan rantai: petani, penyangrai mitra, pengemas. Ditulis seperti esai majalah, dengan satu garis waktu vertikal. Tanpa foto penyangraian yang tidak pernah ada kameranya.",
+      "prompt": "Bangun halaman cerita untuk Nocturne Koffie. Ini esai, bukan halaman penjualan. Latar --paper #F5EFE4, kolom teks maksimal 62 karakter, Fraunces 300 untuk badan esai pada 19px line-height 1.65, Bricolage Grotesque 800 untuk tiga subjudul, Inter 500 11px tracking 0.22em untuk label bagian. Struktur: (1) kepala esai dengan judul 'Tiga tangan sebelum cangkir Anda.' Bricolage 800 clamp(2.4rem, 6vw, 5rem) line-height 0.95, dan satu kalimat pengantar Fraunces italic 22px; (2) garis waktu vertikal 1px rgba(22,17,13,.2) dengan empat titik 7px --espresso: petani di Aceh, Jawa Timur, dan Bali; sortir dan sangrai mingguan di Ais Coffee Roastery, Banyuwangi; pengemasan di Banyuwangi; pengiriman dari kota yang sama. Setiap titik berisi label tanggal relatif seperti 'Minggu ke-1' dan satu paragraf 60 kata; (3) kutipan tarik Fraunces 300 italic 28px dengan tanda petik besar --gold #D9A441 di kiri, mengenai alasan kemasan menyebut nama petani; (4) penutup dengan tautan teks 'Lihat sembilan kopi' bergaris bawah. Tanpa foto wajah, tanpa foto penyangraian; ilustrasi hanya berupa bidang warna --paper-2 dengan nomor besar dan garis. Paragraf pertama wajib memuat kalimat: 'Nocturne tidak menyangrai. Penyangraian dikerjakan Ais Coffee Roastery di Banyuwangi, dan itu tertulis di setiap kemasan.' Gerak: paragraf muncul dengan opacity 0 ke 1 dan translateY 10px, 400 ms, dipicu IntersectionObserver satu kali; garis waktu tumbuh dari atas ke bawah 900 ms memakai scaleY dengan transform-origin top. prefers-reduced-motion: semua terlihat, garis waktu penuh. Jangan membuat testimoni pelanggan, jangan mengarang nama petani baru selain yang ada di katalog, jangan memakai kata 'artisan', 'passion', atau 'crafted with love'.",
+      "komponen": [
+        "Garis waktu dengan titik yang tidak pernah bergeser saat garis tumbuh.",
+        "Kutipan tarik tanpa kartu, hanya garis 2px --gold di kiri.",
+        "Tautan penutup dengan garis bawah yang sama seperti hero."
+      ],
+      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [400, 900], "stagger_ms": 70, "properti": ["opacity", "transform"], "reduced_motion": "tanpa animasi, garis waktu penuh dari awal"},
+      "copy": ["Tiga tangan sebelum cangkir Anda.", "Nocturne tidak menyangrai. Penyangraian dikerjakan Ais Coffee Roastery di Banyuwangi, dan itu tertulis di setiap kemasan.", "Lihat sembilan kopi"],
+      "kriteria_terima": [
+        "Kalimat tentang Ais Coffee Roastery muncul apa adanya di paragraf pertama.",
+        "Tidak ada klaim menyangrai sendiri di seluruh berkas.",
+        "Tidak ada testimoni atau nama orang yang tidak ada di katalog.",
+        "Lebar baris badan esai tidak melebihi 68 karakter pada 1280 px.",
+        "Tidak ada gambar orang; hanya bidang warna dan tipografi."
+      ],
+      "angka_dari": ["data/catalog.json#brand", "data/catalog.json#products"]
+    },
+    {
+      "id": "langganan",
+      "judul": "Langganan: ritme kirim, bukan diskon",
+      "kategori": "Penjualan",
+      "halaman": "langganan.html",
+      "tingkat": "penting",
+      "ringkas": "Halaman langganan yang menjual kepastian (kopi datang tiap dua atau empat minggu) tanpa mengarang penghematan. Tiga pilihan ritme dengan perhitungan yang terlihat.",
+      "prompt": "Bangun halaman langganan kopi untuk Nocturne Koffie. Latar --paper #F5EFE4, satu kolom utama maksimal 980 px. Judul: 'Kopi datang sebelum habis.' Bricolage Grotesque 800 clamp(2.3rem, 5.6vw, 4.4rem), line-height 0.95, letter-spacing -0.03em. Subjudul Fraunces 300 italic 20px rgba(22,17,13,.8): 'Pilih ritmenya. Kami yang mengingat.' Tiga pilihan ritme sebagai baris besar yang bisa dipilih, bukan kartu: Setiap 2 minggu, Setiap 4 minggu, Setiap 6 minggu. Setiap baris menampilkan: nama ritme (Bricolage 800 24px), satu kalimat penjelasan (Inter 400 14.5px), dan satu angka jujur: '12 kiriman setahun', '6 kiriman setahun', '4 kiriman setahun'. Yang dipilih ditandai garis kiri 3px --orange dan latar --paper-2. Di bawahnya pemilih isi: 250 g atau 500 g, dengan harga satuan yang tampil langsung dari katalog: 250 g mulai Rp42.000, 500 g mulai Rp78.000, dan total per kiriman dihitung di tempat memakai JavaScript sederhana yang bisa diverifikasi mata. Kotak ringkasan menempel di kanan pada desktop (sticky 24 px dari atas): isi pilihan, harga per kiriman, jumlah kiriman setahun, dan satu baris 'Ongkir dihitung saat konfirmasi lewat WhatsApp' tanpa angka ongkir karangan. Tombol utama 'Lanjut lewat WhatsApp' berlatar --ink, teks --paper, radius 999px. Di bawah ringkasan, tiga butir janji yang bisa ditepati: bisa dijeda kapan saja, bisa ganti kopi tiap kiriman, tanpa biaya pembukaan. Gerak: perubahan pilihan memicu transisi 200 ms pada garis penanda dan angka total; angka memakai tabular-nums sehingga tidak bergoyang. Tanpa countdown, tanpa 'hanya hari ini', tanpa harga coret. Di bawah 900 px ringkasan turun ke bawah dan berhenti menempel. Semua harga yang tampil harus berasal dari data/catalog.json; kalau ragu, tampilkan 'mulai Rp' dan biarkan katalog yang menentukan.",
+      "komponen": [
+        "Baris ritme sebagai radio asli dengan garis penanda kiri.",
+        "Ringkasan sticky yang tetap terbaca saat halaman digulir.",
+        "Penghitung total tanpa pembulatan tersembunyi."
+      ],
+      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [200], "stagger_ms": 0, "properti": ["transform", "opacity", "background-color"], "reduced_motion": "perubahan langsung tanpa transisi"},
+      "copy": ["Kopi datang sebelum habis.", "Pilih ritmenya. Kami yang mengingat.", "Lanjut lewat WhatsApp", "Ongkir dihitung saat konfirmasi lewat WhatsApp"],
+      "kriteria_terima": [
+        "Tidak ada harga coret atau persentase hemat yang tidak bisa dihitung dari katalog.",
+        "Tiga ritme menampilkan 12, 6, dan 4 kiriman setahun (aritmetika benar).",
+        "Total per kiriman berubah benar saat gramasi ditukar.",
+        "Tanpa elemen hitung mundur.",
+        "Tombol WhatsApp memakai nomor 628988188800."
+      ],
+      "angka_dari": ["data/catalog.json#products[].variants", "data/catalog.json#brand.whatsapp"]
+    },
+    {
+      "id": "b2b-grosir",
+      "judul": "Grosir: tabel harga bertingkat yang bisa diaudit",
+      "kategori": "Penjualan",
+      "halaman": "grosir.html",
+      "tingkat": "penting",
+      "ringkas": "Halaman B2B untuk kafe dan kantor: tiga tingkat volume, harga per kg, syarat minimum, dan formulir penawaran. Nada tenang, tanpa bahasa sales.",
+      "prompt": "Bangun halaman grosir B2B untuk Nocturne Koffie. Latar --paper #F5EFE4. Kepala: label mikro 'UNTUK KAFE, KANTOR, DAN RESELLER' Inter 600 11px tracking 0.22em --espresso; judul 'Beli per kilogram, bukan per kemasan.' Bricolage 800 clamp(2.2rem, 5.4vw, 4.2rem) line-height 0.96; paragraf Inter 16px maksimal 60 karakter per baris: 'Harga bertingkat, jadwal sangrai mingguan, dan kemasan 1 kg berpita. Minimum pembukaan 5 kg per varian.' Tabel harga tiga tingkat dengan garis rambut horizontal, kepala tabel uppercase Inter 600 10.5px tracking 0.13em: Tingkat Mulai 5 kg, Mulai 15 kg, Mulai 30 kg; setiap sel berisi harga per kg untuk tiga contoh kopi dan tulisan 'hubungi untuk 30 kg ke atas' pada kolom terakhir. Semua angka harga per kg harus dihitung dari harga 1 kg di katalog dan diberi tanda bintang yang menjelaskan 'harga per kg dihitung dari harga 1 kg katalog, di luar ongkir'. Di bawah tabel, dua kolom: kiri daftar empat syarat (minimum 5 kg per varian, pemesanan 7 hari sebelum tanggal sangrai, pembayaran 50% di muka, ongkir dari Banyuwangi), kanan formulir penawaran dengan empat isian (nama usaha, kota, volume per bulan dalam kg, varian yang diminati) dan satu tombol 'Minta penawaran' berlatar --ink. Formulir mengirim lewat tautan WhatsApp yang sudah terisi teks, bukan backend. Garis rambut 2px --ink memisahkan setiap blok. Gerak: tabel muncul dengan opacity 0 ke 1, 300 ms; tidak ada efek lain. Di bawah 760 px tabel berubah menjadi tiga blok bertumpuk yang masing-masing tetap menyebut tingkat volumenya, tidak boleh gulir horizontal. Jangan memakai kata 'partner', 'solusi', 'ekosistem'; jangan mengarang diskon di luar tabel; jangan menulis 'roastery kami'.",
+      "komponen": [
+        "Tabel harga yang runtuh menjadi blok bertumpuk di mobile, bukan gulir horizontal.",
+        "Formulir yang menyusun pesan WhatsApp dari isian, tanpa backend dan tanpa data hilang.",
+        "Catatan kaki bintang yang menjelaskan asal angka."
+      ],
+      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [300], "stagger_ms": 0, "properti": ["opacity"], "reduced_motion": "tanpa animasi"},
+      "copy": ["Beli per kilogram, bukan per kemasan.", "Minimum pembukaan 5 kg per varian.", "Minta penawaran", "Ongkir dari Banyuwangi"],
+      "kriteria_terima": [
+        "Setiap harga per kg bisa dihitung ulang dari harga 1 kg di katalog.",
+        "Tidak ada klaim diskon di luar tabel.",
+        "Tabel tidak memaksa gulir horizontal pada 360 px.",
+        "Formulir bisa dikirim tanpa backend (tautan WhatsApp).",
+        "Istilah terlarang ('partner', 'solusi', 'ekosistem') tidak muncul."
+      ],
+      "angka_dari": ["data/catalog.json#products[].variants", "komersial/01-panduan-grosir.md"]
+    },
+    {
+      "id": "panduan-seduh",
+      "judul": "Panduan seduh: resep yang bisa diikuti sambil berdiri",
+      "kategori": "Editorial",
+      "halaman": "seduh.html",
+      "tingkat": "penting",
+      "ringkas": "Tiga metode (V60, tubruk, French press) sebagai kartu instruksi dengan rasio, suhu, dan waktu. Tata letak dua kolom yang bisa dibaca dari jauh di dapur.",
+      "prompt": "Bangun halaman panduan seduh untuk Nocturne Koffie. Latar --paper #F5EFE4. Judul: 'Tiga cara, satu hasil yang bisa diulang.' Bricolage Grotesque 800 clamp(2.2rem, 5.2vw, 4rem). Pengantar Inter 16px maksimal 58 karakter per baris. Tiga metode disusun bertumpuk, bukan tiga kartu sejajar, karena tiap metode punya langkah berbeda panjangnya: V60 (15 g kopi, 250 ml air, 92 derajat, 2 menit 30 detik, giling sedang), Tubruk (12 g kopi, 200 ml air, 95 derajat, 4 menit, giling halus), French Press (18 g kopi, 300 ml air, 94 derajat, 4 menit, giling kasar). Setiap metode: nomor besar Fraunces 300 56px rgba(22,17,13,.22) di kiri; nama metode Bricolage 800 30px; tiga baris data kunci dalam Inter 600 13px uppercase tracking 0.1em (rasio, suhu, waktu); daftar langkah bernomor 1 sampai 5 dengan Inter 400 16.5px line-height 1.6, jarak antar langkah 14 px, angka langkah memakai Fraunces 300 20px --espresso; satu catatan kecil 'Kalau terasa terlalu pahit, giling lebih kasar 2 klik.' Setiap metode dipisah garis rambut 1px rgba(22,17,13,.18) dan jarak vertikal clamp(40px, 6vw, 72px). Di kanan atas, kotak kecil berisi rumus rasio 1:16,7 dalam Bricolage 800 20px dan penjelasan satu baris. Tanpa video, tanpa gambar produk berulang; satu ilustrasi garis sederhana per metode memakai SVG inline 1px --espresso (kerucut, gelas, plunger). Gerak: tidak ada animasi masuk; hanya garis bawah pada tautan dan transisi warna 180 ms. Halaman ini harus bisa dicetak: pada media print, latar putih, teks hitam, garis tetap, dan setiap metode tidak terpotong antar halaman. Jangan mengarang suhu atau rasio di luar angka di atas; jangan memakai kata 'perfect', 'ultimate', 'rahasia'.",
+      "komponen": [
+        "Daftar langkah bernomor dengan penanda Fraunces, bukan bullet.",
+        "Ilustrasi SVG inline 1 px yang tetap tajam saat dicetak.",
+        "Aturan @media print yang memisahkan setiap metode ke halaman sendiri."
+      ],
+      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [180], "stagger_ms": 0, "properti": ["color"], "reduced_motion": "sama, tidak ada animasi masuk"},
+      "copy": ["Tiga cara, satu hasil yang bisa diulang.", "15 g kopi, 250 ml air, 92 derajat", "Kalau terasa terlalu pahit, giling lebih kasar 2 klik."],
+      "kriteria_terima": [
+        "Tiga metode menampilkan rasio, suhu, dan waktu yang konsisten satu sama lain.",
+        "Tidak ada animasi masuk; halaman terbaca segera.",
+        "Hasil cetak tidak memotong satu metode pun.",
+        "Ilustrasi SVG tidak memakai warna di luar token.",
+        "Kata terlarang ('perfect', 'ultimate', 'rahasia') tidak muncul."
+      ],
+      "angka_dari": ["konten/", "data/design-system.json#tipografi"]
+    },
+    {
+      "id": "kampanye-ongkir",
+      "judul": "Landing kampanye: satu tawaran, satu tombol, tanpa hitung mundur",
+      "kategori": "Kampanye",
+      "halaman": "kampanye/ongkir.html",
+      "tingkat": "penting",
+      "ringkas": "Halaman kampanye gratis ongkir untuk Jawa Timur dengan satu tawaran jelas, bukti yang bisa diperiksa, dan satu ajakan. Dibangun supaya tidak terasa seperti iklan diskon.",
+      "prompt": "Bangun landing kampanye untuk Nocturne Koffie: gratis ongkir untuk pengiriman ke Jawa Timur, tanpa minimum, selama bulan berjalan. Latar --paper #F5EFE4, satu kolom maksimal 760 px, rata kiri. Label mikro 'KAMPANYE · JAWA TIMUR' Inter 600 11px tracking 0.22em --espresso. Judul 'Ongkir kami yang bayar. Kopinya tetap kopi yang sama.' Bricolage Grotesque 800 clamp(2.2rem, 6vw, 4.6rem) line-height 0.94 letter-spacing -0.035em, dengan frasa 'Ongkir kami yang bayar' dalam Fraunces 300 italic --espresso untuk jeda tipografis. Satu paragraf Inter 16px: 'Berlaku untuk semua pengiriman ke Jawa Timur selama bulan ini. Tidak ada minimum belanja, tidak ada kode yang harus diingat.' Tiga butir bukti dalam baris berjarak, masing-masing dengan angka Inter 600 20px tabular-nums dan keterangan Inter 14px: '9 kopi' siap kirim, 'Rp23.000' harga 100 g paling rendah di katalog, '1 kali' sangrai tiap minggu. Tombol tunggal 'Pesan lewat WhatsApp' --ink di atas --paper, radius 999px, lebar mengikuti isi; di bawahnya tautan sekunder 'Lihat katalog dulu'. Satu blok syarat kecil 13px rgba(22,17,13,.55): hanya Jawa Timur, hanya bulan berjalan, berat maksimal 5 kg per pesanan, berlaku juga untuk grosir. Tanpa gambar, tanpa ilustrasi, tanpa hitung mundur, tanpa stok palsu. Satu-satunya hiasan adalah garis rambut 1px di antara blok dan satu bidang --paper-2 setinggi 120 px di bagian paling atas sebagai kepala visual kosong. Gerak: judul masuk dengan opacity dan translateY 14 px, 620 ms, satu kali; butir bukti menyusul stagger 70 ms. prefers-reduced-motion mematikan semua. Jangan menulis 'promo terbatas', 'jangan sampai kehabisan', atau tanggal palsu; tanggal kampanye diambil dari parameter dan bila tidak ada, tulis 'bulan berjalan'.",
+      "komponen": [
+        "Satu tombol utama saja; tidak ada tombol kedua yang bersaing.",
+        "Blok syarat yang selalu terlihat, tidak dilipat ke dalam accordion.",
+        "Angka bukti memakai harga termurah yang benar-benar ada di katalog."
+      ],
+      "gerak": {"easing": "cubic-bezier(.16,1,.3,1)", "durasi_ms": [620], "stagger_ms": 70, "properti": ["transform", "opacity"], "reduced_motion": "tanpa animasi, semua terlihat"},
+      "copy": ["Ongkir kami yang bayar. Kopinya tetap kopi yang sama.", "Tidak ada minimum belanja, tidak ada kode yang harus diingat.", "Pesan lewat WhatsApp"],
+      "kriteria_terima": [
+        "Harga 100 g terendah yang tampil sama dengan varian termurah di katalog (Rp23.000).",
+        "Tidak ada hitung mundur, stok terbatas, atau tanggal kedaluwarsa palsu.",
+        "Hanya satu tombol ajakan utama di seluruh halaman.",
+        "Syarat kampanye terlihat tanpa perlu klik.",
+        "Berat halaman di bawah 300 KB karena tanpa gambar."
+      ],
+      "angka_dari": ["data/catalog.json#products", "kampanye/"]
+    }
+  ]
+}

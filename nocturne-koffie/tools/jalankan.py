@@ -99,7 +99,7 @@ def main():
     print("  studio/index.html           ← 10 tahap: hook → skrip → brief Senin")
     print("  motion/index.html           ← lab gerak + 5 adegan 9:16 siap rekam")
     print("  motion/film-sheet.md        ← lembar film: frame, ketukan, arc energi")
-    print("  motion/out/klip-01-*.mp4    ← klip jadi 9 detik (kalau ffmpeg tersedia)")
+    print("  motion/render/klip-01-*.mp4    ← klip jadi 9 detik (kalau ffmpeg tersedia)")
     print("  laporan/slop.md             ← audit anti-slop & kontrak desain")
     print("Jalankan server: python3 -m http.server 8080")
 

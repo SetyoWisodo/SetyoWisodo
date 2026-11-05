@@ -1,7 +1,7 @@
 # Mesin film Nocturne — status pemasangan
 
 Diperbarui 30 Oktober 2026 · sumber: `film-studio/package.json`, `assets/vendor/mesin.json`,
-`motion/out/manifest.json`, `laporan/periksa.json`.
+`motion/render/manifest.json`, `laporan/periksa.json`.
 
 Permintaannya jelas: **HyperFrames, Remotion, GSAP, Lottie dipaksa pasang dengan berbagai cara.**
 Keempatnya sekarang terpasang di repo ini — bukan dirujuk, bukan dikutip dari README orang.
@@ -31,8 +31,8 @@ Ringkas: **dua mesin berjalan penuh, dua mesin berhenti tepat di pintu Chrome.**
 | Komposisi HyperFrames | `film-studio/hyperframes/index.html` + `compositions/cue-1..4.html` | 5 berkas, lint 0/0 |
 | Komposisi Remotion | `film-studio/remotion/Klip.jsx` + bundel `out/bundle` | 4 `Sequence`, spring `damping 200` |
 | Uji mesin | `npm run verifikasi` (di `film-studio/`) | **4 lolos · 0 gagal** |
-| **Klip jadi** | `motion/out/klip-01-nocturne-9s.mp4` | 1080×1920 · 60 fps · 9,00 s · 341 KB · H.264 bt709 |
-| Manifest klip | `motion/out/manifest.json` | sha256, encoder ffmpeg 7.0.2, sumber angka |
+| **Klip jadi** | `motion/render/klip-01-nocturne-9s.mp4` | 1080×1920 · 60 fps · 9,00 s · 341 KB · H.264 bt709 |
+| Manifest klip | `motion/render/manifest.json` | sha256, encoder ffmpeg 7.0.2, sumber angka |
 
 ## 3 · Satu hal yang harus jujur disebut
 

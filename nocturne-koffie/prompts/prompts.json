@@ -1,0 +1,144 @@
+{
+  "dibuat": "2026-11-05",
+  "versi": "1.0",
+  "jumlah": 8,
+  "larangan_global": 7,
+  "anatomi": [
+    "ringkasan",
+    "gaya",
+    "tata_letak",
+    "komponen",
+    "gerak",
+    "copy",
+    "kriteria_terima"
+  ],
+  "total_karakter": 14935,
+  "masalah": [],
+  "prompts": [
+    {
+      "id": "hero-beranda",
+      "judul": "Hero beranda: tipografi raksasa di atas kertas krem",
+      "kategori": "Hero",
+      "halaman": "index.html",
+      "tingkat": "wajib",
+      "karakter": 2064,
+      "kriteria": 5,
+      "komponen": 3,
+      "angka_dari": [
+        "data/design-system.json#warna",
+        "data/design-system.json#gerak",
+        "data/catalog.json#products[0]"
+      ]
+    },
+    {
+      "id": "menu-katalog",
+      "judul": "Katalog: sembilan kopi, satu tabel yang jujur",
+      "kategori": "Katalog",
+      "halaman": "katalog.html",
+      "tingkat": "wajib",
+      "karakter": 2322,
+      "kriteria": 5,
+      "komponen": 3,
+      "angka_dari": [
+        "data/catalog.json#products",
+        "data/design-system.json#spasi"
+      ]
+    },
+    {
+      "id": "produk-gayo",
+      "judul": "Halaman produk: satu kopi, seluruh jejaknya",
+      "kategori": "Produk",
+      "halaman": "produk/gayo.html",
+      "tingkat": "wajib",
+      "karakter": 1971,
+      "kriteria": 5,
+      "komponen": 3,
+      "angka_dari": [
+        "data/catalog.json#products[0]",
+        "data/design-system.json#warna"
+      ]
+    },
+    {
+      "id": "cerita-ais",
+      "judul": "Cerita: Ais Coffee Roastery sebagai mitra, bukan milik",
+      "kategori": "Editorial",
+      "halaman": "cerita.html",
+      "tingkat": "wajib",
+      "karakter": 1719,
+      "kriteria": 5,
+      "komponen": 3,
+      "angka_dari": [
+        "data/catalog.json#brand",
+        "data/catalog.json#products"
+      ]
+    },
+    {
+      "id": "langganan",
+      "judul": "Langganan: ritme kirim, bukan diskon",
+      "kategori": "Penjualan",
+      "halaman": "langganan.html",
+      "tingkat": "penting",
+      "karakter": 1782,
+      "kriteria": 5,
+      "komponen": 3,
+      "angka_dari": [
+        "data/catalog.json#products[].variants",
+        "data/catalog.json#brand.whatsapp"
+      ]
+    },
+    {
+      "id": "b2b-grosir",
+      "judul": "Grosir: tabel harga bertingkat yang bisa diaudit",
+      "kategori": "Penjualan",
+      "halaman": "grosir.html",
+      "tingkat": "penting",
+      "karakter": 1680,
+      "kriteria": 5,
+      "komponen": 3,
+      "angka_dari": [
+        "data/catalog.json#products[].variants",
+        "komersial/01-panduan-grosir.md"
+      ]
+    },
+    {
+      "id": "panduan-seduh",
+      "judul": "Panduan seduh: resep yang bisa diikuti sambil berdiri",
+      "kategori": "Editorial",
+      "halaman": "seduh.html",
+      "tingkat": "penting",
+      "karakter": 1667,
+      "kriteria": 5,
+      "komponen": 3,
+      "angka_dari": [
+        "konten/",
+        "data/design-system.json#tipografi"
+      ]
+    },
+    {
+      "id": "kampanye-ongkir",
+      "judul": "Landing kampanye: satu tawaran, satu tombol, tanpa hitung mundur",
+      "kategori": "Kampanye",
+      "halaman": "kampanye/ongkir.html",
+      "tingkat": "penting",
+      "karakter": 1730,
+      "kriteria": 5,
+      "komponen": 3,
+      "angka_dari": [
+        "data/catalog.json#products",
+        "kampanye/"
+      ]
+    }
+  ],
+  "sumber": {
+    "bentuk": [
+      "superdesigndev/superdesign-prompts (prompt CC0) — anatomi blok",
+      "Ilm-Alan/frontend-design (MIT) — satu jangkar estetika",
+      "oil-oil/oil-ui (MIT) — urutan kerja desain"
+    ],
+    "dilihat_tapi_berbayar": [
+      "motionsite.ai — $19/item · $99/tahun · $199 seumur hidup",
+      "jiro.build — $48/3 bulan · $99/tahun · $379→$179 seumur hidup"
+    ],
+    "catatan": "Tidak ada teks prompt berbayar yang disalin; yang diadopsi hanya bentuk publik & anatomi dari pustaka CC0/MIT."
+  }
+}

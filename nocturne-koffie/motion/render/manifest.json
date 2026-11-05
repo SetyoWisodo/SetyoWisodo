@@ -1,8 +1,8 @@
 {
-  "dibuat": "2026-10-30",
-  "berkas": "motion/out/klip-01-nocturne-9s.mp4",
+  "dibuat": "2026-11-05",
+  "berkas": "motion/render/klip-01-nocturne-9s.mp4",
   "ukuran_kb": 341.1,
-  "sha256_16": "ed9b8118bd9a0b4d",
+  "sha256_16": "dd5b5818b612c758",
   "resolusi": [
     1080,
     1920
@@ -20,7 +20,7 @@
     "inter-latin-400-normal.ttf",
     "inter-latin-600-normal.ttf"
   ],
-  "perender": "tools/render_film.py (Pillow → ffmpeg) · ffmpeg 7.0.2-static dari pypi imageio-ffmpeg",
+  "perender": "tools/render_film.py (Pillow → ffmpeg) · ffmpeg n9.0.2-17-g2a571b6068-20260930 dari pypi imageio-ffmpeg",
   "bukan_perender": [
     "Remotion — terpasang & bundling lolos, render butuh Chrome (libnspr4 tidak ada)",
     "HyperFrames — terpasang & lint 0 error, render butuh Chrome",

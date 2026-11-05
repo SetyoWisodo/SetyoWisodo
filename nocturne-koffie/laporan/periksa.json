@@ -1,10 +1,10 @@
 {
-  "dibuat": "2026-10-30",
+  "dibuat": "2026-11-05",
   "hasil": [
     {
       "kategori": "Berkas wajib",
       "status": "lolos",
-      "teks": "75/75 berkas ada",
+      "teks": "79/79 berkas ada",
       "detail": ""
     },
     {
@@ -16,7 +16,7 @@
     {
       "kategori": "Struktur HTML",
       "status": "lolos",
-      "teks": "15/15 halaman tag-nya seimbang",
+      "teks": "16/16 halaman tag-nya seimbang",
       "detail": ""
     },
     {
@@ -112,7 +112,13 @@
     {
       "kategori": "Mesin terpasang",
       "status": "lolos",
-      "teks": "GSAP 3.15.0 · Lottie 5.13.0 · Remotion 4.0.539 · HyperFrames 0.8.221 · klip 540 frame + 4 sub-komposisi · font Google di 13 halaman (lama, dicatat)",
+      "teks": "GSAP 3.15.0 · Lottie 5.13.0 · Remotion 4.0.539 · HyperFrames 0.8.221 · klip 540 frame + 4 sub-komposisi · font Google di 14 halaman (lama, dicatat)",
+      "detail": ""
+    },
+    {
+      "kategori": "Prompt kelas atas",
+      "status": "lolos",
+      "teks": "8 prompt · 7 blok · 14 ribu karakter · token patuh · galeri salin",
       "detail": ""
     },
     {

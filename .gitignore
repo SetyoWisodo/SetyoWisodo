@@ -2,7 +2,7 @@
 node_modules/
 
 # Hasil render sementara — video jadi tetap disimpan, frame per-frame tidak
-nocturne-koffie/motion/out/frame/
+nocturne-koffie/motion/render/frame/
 nocturne-koffie/film-studio/out/
 *.mp4.tmp
 

@@ -273,7 +273,7 @@ repositori OS. Karena itu video jadi dibuat jalur ketiga yang tidak butuh browse
 motion/film-sheet.json → 540 frame PNG (Pillow, font brand asli) → ffmpeg H.264 bt709
 ```
 
-Hasil: `motion/out/klip-01-nocturne-9s.mp4` — 1080×1920 · 60 fps · 9,00 s · 341 KB.
+Hasil: `motion/render/klip-01-nocturne-9s.mp4` — 1080×1920 · 60 fps · 9,00 s · 341 KB.
 Perintahnya `python3 tools/render_film.py`. **Ini bukan keluaran Remotion/HyperFrames** dan tidak
 diklaim begitu; keduanya menunggu mesin ber-Chrome (`npm run remotion:render`, `npm run hf:render`).
 
@@ -300,3 +300,37 @@ Halaman awal tetap **89 KB** dan tidak menyentuh satu pun pustaka ini — `perik
    sebelum dipakai komersial. Detail di `laporan/mesin.md` §5.
 
 Gerbang terakhir: **21 lolos · 0 peringatan · 0 gagal** (cek baru: *Mesin terpasang*).
+
+---
+
+## 12. Pembaruan 5 Nov 2026 — pustaka prompt kelas atas (motionsite.ai & jiro.build)
+
+Dua pustaka prompt berbayar yang ramai dipakai *vibe coder* sudah dipetakan. Hasil pemetaan,
+dengan batasnya disebut terang-terangan:
+
+| Platform | Isi | Harga | Yang bisa diambil |
+| --- | --- | ---: | --- |
+| motionsite.ai | 570+ template/section/background, prompt + source | $19/item · $99/tahun · $199 seumur hidup | kategori, tag, dan cara mereka menulis deskripsi gaya |
+| jiro.build | 1.317 komponen + 137 template per industri | $48/3 bln · $99/tahun · $384→$179 | **susunan hasil render**: urutan bagian, ritme tipografi, pola CTA |
+
+Teks prompt keduanya ada di balik akun berbayar, jadi **tidak ada satu kata pun yang disalin**.
+Bentuk penulisannya diambil dari repo berlisensi terbuka:
+
+| Repo | Lisensi | Yang diambil |
+| --- | --- | --- |
+| `superdesigndev/superdesign-prompts` | prompt **CC0**, kode MIT | anatomi tujuh blok + tingkat kekhususan |
+| `oil-oil/oil-ui` | MIT | urutan kerja: fakta produk → grayscale → implementasi → tinjau tangkapan layar |
+| `Ilm-Alan/frontend-design` | MIT | satu jangkar estetika per brief |
+| `ihlamury/design-skills` | MIT | batas dari design system nyata |
+
+**Delapan prompt** yang dihasilkan (`prompts/pustaka.json`, galeri `prompts/index.html`):
+hero beranda, katalog sembilan SKU, produk Gayo, cerita Ais, langganan, grosir B2B, panduan seduh,
+dan kampanye ongkir. Total 14.935 karakter; rata-rata 1.867 karakter per prompt.
+
+Gerbang baru: `tools/prompt.py --cek` + cek **Prompt kelas atas** di `periksa.py`. Yang ditolak:
+prompt di bawah 1.200 karakter, warna di luar `boleh_dipakai`, harga yang tidak ada di katalog,
+klaim terlarang, kata kosong, kriteria terima kurang dari empat, serta blok gerak tanpa
+`prefers-reduced-motion`. Pemindaian klaim berjalan **per kalimat afirmatif**, sehingga prompt
+tetap boleh menulis "jangan sebut roastery kami".
+
+Gerbang terakhir: **22 lolos · 0 peringatan · 0 gagal**. Laporan: `laporan/prompt.md`.

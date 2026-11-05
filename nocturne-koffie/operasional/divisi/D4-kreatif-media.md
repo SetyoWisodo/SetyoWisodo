@@ -245,12 +245,12 @@ terpasang di `film-studio/` lewat npm, dengan versi dipin dan skrip yang bisa di
 
 **Untuk produksi harian sekarang, perender yang dipakai adalah `python3 tools/render_film.py`**
 — 540 frame PNG dari lembar film + font brand asli, dienkode ffmpeg ke H.264 1080×1920/60 fps.
-Keluaran terakhir: `motion/out/klip-01-nocturne-9s.mp4` (341 KB, 9,00 s) dengan
-`motion/out/manifest.json` (sha256, encoder, sumber angka).
+Keluaran terakhir: `motion/render/klip-01-nocturne-9s.mp4` (341 KB, 9,00 s) dengan
+`motion/render/manifest.json` (sha256, encoder, sumber angka).
 
 Aturan yang mengikat divisi:
 
-1. **Jangan klaim output Remotion/HyperFrames** selama yang ada di `motion/out/` adalah keluaran
+1. **Jangan klaim output Remotion/HyperFrames** selama yang ada di `motion/render/` adalah keluaran
    `render_film.py`. Dua mesin itu baru dipakai saat render di mesin ber-Chrome.
 2. **Angka dari `motion/film-sheet.json`.** Tidak ada durasi yang diketik ulang di JSX/HTML.
 3. **Tanpa CDN** untuk pustaka JS; semuanya di `assets/vendor/` dengan lisensi tercatat.
@@ -263,6 +263,36 @@ Aturan yang mengikat divisi:
    kesalahan di skrip akan terbawa persis ke video (contoh: "WhatsApp —" tanpa lanjutan).
 
 Laporan lengkap: `laporan/mesin.md`. Proyek mesinnya: `film-studio/README.md`.
+
+## 4h. Pustaka prompt: brief yang bisa diperiksa mesin (5 Nov 2026)
+
+Divisi kreatif tidak lagi menulis "buatkan hero yang cantik". Setiap halaman baru dimulai dari satu
+spesifikasi di `prompts/pustaka.json` — tujuh blok: ringkasan, gaya (hex & font persis), tata letak
+per bagian, komponen, gerak, copy, kriteria terima.
+
+| Halaman | Prompt | Inti |
+| --- | --- | --- |
+| `index.html` | `hero-beranda` | tipografi raksasa + satu foto produk |
+| `katalog.html` | `menu-katalog` | sembilan SKU sebagai tabel editorial |
+| `produk/gayo.html` | `produk-gayo` | data petani sebagai keterangan teknis |
+| `cerita.html` | `cerita-ais` | esai + garis waktu, Ais sebagai mitra |
+| `langganan.html` | `langganan` | ritme kirim, aritmetika terlihat |
+| `grosir.html` | `b2b-grosir` | tabel harga bertingkat yang bisa diaudit |
+| `seduh.html` | `panduan-seduh` | tiga metode, siap dicetak |
+| `kampanye/ongkir.html` | `kampanye-ongkir` | satu tawaran, satu tombol |
+
+Aturan yang mengikat:
+
+1. **Token tidak boleh ditambah lewat prompt.** `tools/prompt.py` menolak hex di luar
+   `data/design-system.json`.
+2. **Harga dan nama produk disalin dari katalog**, bukan diketik ulang; gerbang menolak angka Rp
+   yang tidak ada di `data/catalog.json`.
+3. **Satu ajakan utama per halaman.** Dua tombol bersaing membuat konversi jatuh.
+4. **Tidak ada hitung mundur, stok palsu, testimoni fiktif.** Ini larangan global, berlaku juga di prompt.
+5. **Prompt berbayar tidak disalin.** motionsite.ai dan jiro.build dipakai sebagai pelajaran bentuk;
+   isinya tidak diambil (lihat `laporan/prompt.md` §2).
+6. **Nilai hasilnya dengan mata di tangkapan layar.** Prompt yang lolos gerbang masih bisa
+   menghasilkan halaman jelek.
 
 ## 5. Serah terima
 

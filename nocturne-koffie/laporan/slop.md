@@ -1,4 +1,4 @@
-# Audit anti-slop & kontrak desain — 2026-10-30
+# Audit anti-slop & kontrak desain — 2026-11-05
 
 Dibuat `tools/slop.py`. Sumber aturan: `pbakaus/impeccable`
 (`antipatterns.json`, 62 aturan), `greensock/gsap-skills` (aturan performa),
