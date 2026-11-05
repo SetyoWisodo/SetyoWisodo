@@ -749,6 +749,32 @@ def periksa(catatan):
                f'{json.loads(baca("laporan/biji-verifikasi.json")).get("lolos", 0) + json.loads(baca("laporan/biji-verifikasi.json")).get("gagal", 0)}',
                "; ".join(masalah_biji[:4]))
 
+
+    # 5b · halaman biji sangrai (dijual: roasted beans)
+    halaman = "biji-sangrai/index.html"
+    if not os.path.exists(os.path.join(ROOT, halaman)):
+        tambah("Biji sangrai", "gagal", "biji-sangrai/index.html belum dibuat")
+    else:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("roasted", os.path.join(ROOT, "tools", "roasted.py"))
+        roasted = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(roasted)
+        teks = baca(halaman)
+        katalog = json.loads(baca("data/catalog.json"))
+        ds = json.loads(baca("data/design-system.json"))
+        masalah_jual = roasted.periksa(teks, katalog, ds)
+
+        # halaman harus hasil generate: jalankan ulang di memori, bandingkan
+        segar = roasted.bangun(katalog, ds)
+        if segar != teks:
+            masalah_jual.append("berkas tidak sama dengan hasil generate — jalankan python3 tools/roasted.py")
+
+        jumlah = len(katalog["products"])
+        tambah("Biji sangrai", "lolos" if not masalah_jual else "gagal",
+               f"{jumlah} SKU · {len({v['grams'] for p in katalog['products'] for v in p['variants']})} ukuran · "
+               f"harga dari katalog · tanpa CDN · reduced-motion",
+               "; ".join(masalah_jual[:4]))
+
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \
         + ukuran("assets/css/motion.css") + ukuran("assets/js/motion.js")

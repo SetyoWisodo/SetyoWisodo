@@ -127,7 +127,7 @@ memakai geometri yang sama.
 | --- | --- | --- |
 | Data & poster (CPU) | `python3 tools/biji.py` | 359.400 segitiga · 6/6 titik tampak · 0 masalah |
 | Matematika & berkas (Node) | `node tools/verifikasi-biji.mjs` | **9 lolos** · selisih posisi JS↔Python **0,005%** |
-| Gerbang konsistensi | `python3 tools/periksa.py` | **23 lolos · 0 peringatan · 0 gagal** |
+| Gerbang konsistensi | `python3 tools/periksa.py` | **24 lolos · 0 peringatan · 0 gagal** |
 | Interaksi (jsdom, di luar repo) | skrip uji sementara | **11 lolos** — panel, aria-pressed, Esc, 6 zona |
 
 **Yang tidak terbukti:** render WebGL di layar. Chrome tidak bisa dijalankan di sandbox ini

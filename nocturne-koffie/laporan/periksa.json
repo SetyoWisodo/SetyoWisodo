@@ -10,7 +10,7 @@
     {
       "kategori": "Tautan lokal",
       "status": "lolos",
-      "teks": "132/132 tautan menuju berkas yang ada",
+      "teks": "134/134 tautan menuju berkas yang ada",
       "detail": ""
     },
     {
@@ -125,6 +125,12 @@
       "kategori": "Biji 3D",
       "status": "lolos",
       "teks": "6 zona · 12 senyawa · 4 sumber literatur · poster 640×800 · verifikasi 9/9",
+      "detail": ""
+    },
+    {
+      "kategori": "Biji sangrai",
+      "status": "lolos",
+      "teks": "9 SKU · 4 ukuran · harga dari katalog · tanpa CDN · reduced-motion",
       "detail": ""
     },
     {

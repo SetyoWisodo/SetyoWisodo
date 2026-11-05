@@ -382,5 +382,5 @@ Motto "Terjaga untuk / rasa yang sesungguhnya." memakai Bricolage 800 + Fraunces
 bukan pilihan selera: gerbang membaca `clamp()` dan fraksi kolom dari CSS, lalu mengukur lebar
 baris dengan metrik font asli pada 360–1920 px. Uji negatif: menaikkan ke 4,4rem → gerbang gagal.
 
-Gerbang terakhir: **23 lolos · 0 peringatan · 0 gagal** (cek *Biji 3D* kini juga memeriksa motto).
+Gerbang terakhir: **24 lolos · 0 peringatan · 0 gagal** (cek *Biji 3D* juga memeriksa motto; cek baru *Biji sangrai*).
 Laporan: `laporan/biji-3d.md`.
