@@ -595,7 +595,8 @@ def hub_html(items, tgl):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Hub Konten — Nocturne Koffie</title>
 <meta name="robots" content="noindex">
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" href="../assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/fonts.css">
 <style>
 :root{{--paper:#F5EFE4;--ink:#16110D;--muted:#6b6156;--orange:#E1542B;--gold:#D9A441;--line:1px solid rgba(22,17,13,.14)}}
 *{{box-sizing:border-box}}

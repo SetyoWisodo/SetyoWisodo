@@ -1,0 +1,508 @@
+{
+  "versi": 1,
+  "diperbarui": "2026-11-05",
+  "sumber": [
+    "freestylefly/awesome-gpt-image-2 — taksonomi 22 template (product, poster, photography, illustration, 3D, character, infographic, brand, document) + struktur Guidance/Pitfalls per template",
+    "willwulfken/MidJourney-Styles-and-Keywords-Reference — daftar kata gaya, medium, dan pencahayaan yang bisa dipakai ulang",
+    "jamez-bondos/awesome-gpt4o-images, ZeroLu/awesome-nanobanana-pro — contoh prompt yang hasilnya bisa dilihat, bukan klaim"
+  ],
+  "aturan": [
+    "Satu objek protagonis per gambar. Kalau ada dua benda, salah satunya kalah penting.",
+    "Sebut bahan dan sumber cahaya, jangan sebut merek kamera atau nama seniman hidup.",
+    "Tulis negatif secara eksplisit: teks di dalam gambar, tangan, logo, tanda air, latar putih bersih, proporsi biji salah.",
+    "Rasio ditentukan sebelum prompt; jangan memotong setelah jadi.",
+    "Untuk halaman web: latar gambar harus menyatu dengan warna kertas #F5EFE4 atau hitam #16110D — tidak boleh ada kotak putih di atas kertas krem."
+  ],
+  "gaya": [
+    {
+      "id": "3d-hiperrealis",
+      "nama": "3D hiper-realistis",
+      "kategori": "3D",
+      "kapan": "Hero biji kopi, halaman produk, poster",
+      "ciri": [
+        "satu objek",
+        "cahaya studio",
+        "permukaan berminyak",
+        "kontak bayangan benar",
+        "tanpa latar ramai"
+      ],
+      "prompt": "hyper realistic 3D render of a single medium-roast coffee bean, ultra detailed cracked surface with oil sheen, studio softbox from upper left plus warm rim light, neutral cream backdrop, physically accurate contact shadow, 85mm macro look, no text",
+      "negatif": [
+        "teks",
+        "biji ganda",
+        "latar pelangi",
+        "plastik mengkilap berlebih"
+      ],
+      "alat": "generator",
+      "rasio": [
+        "4:5",
+        "1:1"
+      ]
+    },
+    {
+      "id": "3d-tanah-liat",
+      "nama": "3D tanah liat",
+      "kategori": "3D",
+      "kapan": "Konten ramah, ilustrasi fitur, stiker",
+      "ciri": [
+        "permukaan matte",
+        "bentuk membulat",
+        "satu warna dominan",
+        "latar polos"
+      ],
+      "prompt": "clay render of a coffee cup and bean, matte clay material, rounded soft forms, single warm terracotta color, plain cream background, soft ambient occlusion, no text",
+      "negatif": [
+        "teks",
+        "kilau logam",
+        "detail realistis",
+        "latar ramai"
+      ],
+      "alat": "generator",
+      "rasio": [
+        "1:1",
+        "4:5"
+      ]
+    },
+    {
+      "id": "cat-air",
+      "nama": "Cat air",
+      "kategori": "Ilustrasi",
+      "kapan": "Kartu rasa, konten lembut, kado",
+      "ciri": [
+        "tepi air tidak rata",
+        "satu-dua warna",
+        "kertas bertekstur",
+        "ruang kosong banyak"
+      ],
+      "prompt": "loose watercolor of a coffee bean and a slice of orange on textured cream paper, two pigments only, soft bleeding edges, lots of empty space, no text",
+      "negatif": [
+        "teks",
+        "vektor tajam",
+        "gradien digital",
+        "warna neon"
+      ],
+      "alat": "generator",
+      "rasio": [
+        "4:5",
+        "1:1"
+      ]
+    },
+    {
+      "id": "editorial-swiss",
+      "nama": "Editorial Swiss",
+      "kategori": "Cetak",
+      "kapan": "Lembar brand, katalog cetak, halaman tentang kami",
+      "ciri": [
+        "grid 12 kolom",
+        "satu huruf tebal rapat",
+        "banyak ruang kosong",
+        "satu garis pemisah",
+        "tanpa ornamen"
+      ],
+      "prompt": "swiss editorial layout, single large grotesque headline, generous white space, one hairline rule, photograph of a coffee bean placed on a strict 12-column grid, cream and near-black only, no decoration",
+      "negatif": [
+        "teks dekoratif",
+        "gradien",
+        "bayangan",
+        "banyak warna"
+      ],
+      "alat": "keduanya",
+      "rasio": [
+        "4:5",
+        "3:2"
+      ]
+    },
+    {
+      "id": "garis-tinta",
+      "nama": "Garis tinta",
+      "kategori": "Ilustrasi",
+      "kapan": "Diagram proses, ikon, panduan seduh",
+      "ciri": [
+        "satu ketebalan garis",
+        "tanpa isi warna",
+        "latar krem",
+        "goresan tangan terkendali"
+      ],
+      "prompt": "single-weight ink line illustration of a coffee bean and a dripper, warm black on cream, no fill, no shading, hand-drawn but controlled, no text",
+      "negatif": [
+        "warna isi",
+        "gradien",
+        "teks",
+        "gaya kartun kekanak-kanakan"
+      ],
+      "alat": "pillow",
+      "rasio": [
+        "1:1",
+        "4:5"
+      ]
+    },
+    {
+      "id": "halftone-koran",
+      "nama": "Halftone koran",
+      "kategori": "Cetak",
+      "kapan": "Konten edukasi, kutipan, pengumuman",
+      "ciri": [
+        "titik raster kasar",
+        "satu warna di atas kertas",
+        "tepi keras",
+        "kesan murah tapi sengaja"
+      ],
+      "prompt": "single-color halftone print of a coffee bean on newsprint, coarse dot screen, warm black ink, hard edges, slightly imperfect registration, no text",
+      "negatif": [
+        "foto full color",
+        "teks",
+        "blur",
+        "gradien halus"
+      ],
+      "alat": "pillow",
+      "rasio": [
+        "4:5",
+        "1:1"
+      ]
+    },
+    {
+      "id": "identitas-brand-board",
+      "nama": "Papan identitas brand",
+      "kategori": "Dokumen",
+      "kapan": "Lembar brand, presentasi B2B, brief desainer",
+      "ciri": [
+        "satu grid",
+        "contoh huruf",
+        "contoh warna",
+        "satu foto",
+        "label kecil 11-12 px"
+      ],
+      "prompt": "brand identity board layout on cream paper, one large specimen letter, three color swatches, one coffee bean photograph, strict grid, small labeled captions, no decoration",
+      "negatif": [
+        "teks palsu di gambar",
+        "banyak ornamen",
+        "mockup palsu"
+      ],
+      "alat": "keduanya",
+      "rasio": [
+        "3:2",
+        "4:5"
+      ]
+    },
+    {
+      "id": "infografis-rasa",
+      "nama": "Infografis rasa",
+      "kategori": "Dokumen",
+      "kapan": "Kartu rasa per SKU, panduan pilihan, materi B2B",
+      "ciri": [
+        "roda rasa sederhana",
+        "label pendek",
+        "angka jelas",
+        "tanpa ikon dekoratif"
+      ],
+      "prompt": "flavor wheel infographic for coffee, six segments with short labels, thin lines, warm orange and espresso brown on cream, generous spacing, no icons, no gradients",
+      "negatif": [
+        "teks panjang",
+        "3D",
+        "gradien",
+        "ikon kartun"
+      ],
+      "alat": "pillow",
+      "rasio": [
+        "1:1",
+        "4:5"
+      ]
+    },
+    {
+      "id": "isometrik-teknis",
+      "nama": "Isometrik teknis",
+      "kategori": "Ilustrasi",
+      "kapan": "Rantai produksi, penjelasan B2B, diagram alur",
+      "ciri": [
+        "sudut 30 derajat",
+        "garis tipis",
+        "label angka",
+        "tanpa bayangan dramatis"
+      ],
+      "prompt": "isometric technical diagram of a small coffee roastery workflow, thin uniform line work, three stations, numbered markers, warm black lines on cream, no gradients, no text labels",
+      "negatif": [
+        "teks berkas",
+        "bayangan realistis",
+        "warna banyak",
+        "perspektif kacau"
+      ],
+      "alat": "pillow",
+      "rasio": [
+        "16:9",
+        "3:2"
+      ]
+    },
+    {
+      "id": "ladang-dokumenter",
+      "nama": "Ladang dokumenter",
+      "kategori": "Fotografi",
+      "kapan": "Cerita asal-usul, halaman petani, laporan tahunan",
+      "ciri": [
+        "cahaya pagi kabur",
+        "bukit dan kebun kopi",
+        "tanpa gaya iklan",
+        "warna tanah dan hijau tua"
+      ],
+      "prompt": "documentary photograph of a coffee plantation on a volcanic slope at dawn, mist between rows, muted green and soil brown, natural light, no people in frame, honest reportage look, no text",
+      "negatif": [
+        "teks",
+        "efek HDR",
+        "langit ungu",
+        "kebun tidak realistis"
+      ],
+      "alat": "generator",
+      "rasio": [
+        "16:9",
+        "3:2"
+      ]
+    },
+    {
+      "id": "makro-tekstur",
+      "nama": "Makro tekstur",
+      "kategori": "Fotografi",
+      "kapan": "Bagian proses sangrai, bukti kualitas, carousel edukasi",
+      "ciri": [
+        "isi bingkai penuh satu permukaan",
+        "kedalaman bidang dangkal",
+        "serat retak terlihat",
+        "minyak di permukaan"
+      ],
+      "prompt": "extreme macro of a medium-roast coffee bean surface, cracked crease, oily sheen, shallow depth of field, raking side light revealing texture, warm brown tones, no props, no text",
+      "negatif": [
+        "seluruh biji terlihat",
+        "teks",
+        "latar ramai",
+        "kabut buram"
+      ],
+      "alat": "generator",
+      "rasio": [
+        "4:5",
+        "3:2"
+      ]
+    },
+    {
+      "id": "poster-arsir-2warna",
+      "nama": "Poster arsir dua warna",
+      "kategori": "Cetak",
+      "kapan": "Poster event, sampul zine, konten organik yang ingin terlihat dicetak",
+      "ciri": [
+        "dua tinta saja",
+        "garis arsir diagonal",
+        "kertas krem",
+        "tanpa gradien"
+      ],
+      "prompt": "two-ink screen print poster of a single coffee bean, espresso brown and burnt orange on cream paper, diagonal hatch shading, hard edges, visible paper grain, flat color areas, no gradients, no text",
+      "negatif": [
+        "gradien",
+        "foto realistis",
+        "teks",
+        "lebih dari dua warna"
+      ],
+      "alat": "pillow",
+      "rasio": [
+        "4:5",
+        "2:3"
+      ]
+    },
+    {
+      "id": "potong-kertas",
+      "nama": "Potong kertas",
+      "kategori": "Ilustrasi",
+      "kapan": "Kampanye ramah keluarga, kartu ucapan, konten Desember",
+      "ciri": [
+        "lapisan kertas bertumpuk",
+        "bayangan tipis",
+        "bentuk sederhana",
+        "warna tanah"
+      ],
+      "prompt": "layered paper cut illustration of a coffee cup, hills and sun, warm earth tones, soft drop shadows between layers, cream background, craft feel, no text",
+      "negatif": [
+        "teks",
+        "3D glossy",
+        "warna neon",
+        "detail rumit"
+      ],
+      "alat": "generator",
+      "rasio": [
+        "1:1",
+        "4:5"
+      ]
+    },
+    {
+      "id": "potret-petani",
+      "nama": "Potret petani",
+      "kategori": "Fotografi",
+      "kapan": "Kartu asal-usul per SKU — hanya dengan izin tertulis dari yang dipotret",
+      "ciri": [
+        "potret lingkungan kerja",
+        "cahaya alami",
+        "pandangan ke arah kamera",
+        "tanpa senyum lebay"
+      ],
+      "prompt": "environmental portrait of a coffee farmer standing among coffee trees, natural morning light, calm neutral expression, work clothes, shallow depth of field, documentary style, no text",
+      "negatif": [
+        "teks",
+        "kulit terlalu halus",
+        "senyum iklan",
+        "latar studio"
+      ],
+      "alat": "generator",
+      "rasio": [
+        "4:5",
+        "3:4"
+      ]
+    },
+    {
+      "id": "produk-kertas",
+      "nama": "Produk di atas kertas",
+      "kategori": "Fotografi",
+      "kapan": "Katalog, halaman jual, label cetak",
+      "ciri": [
+        "latar krem #F5EFE4",
+        "cahaya siang lembut",
+        "bayangan elips pendek",
+        "warna biji jujur tanpa filter"
+      ],
+      "prompt": "roasted coffee bean on warm cream paper background, even soft daylight from the left, short soft elliptical shadow, true brown color, gentle vignette only at corners, clean catalog still life, no text, no props",
+      "negatif": [
+        "teks",
+        "bayangan ganda",
+        "gradien ungu",
+        "latar abu-abu",
+        "kilau plastik"
+      ],
+      "alat": "generator",
+      "rasio": [
+        "4:5",
+        "1:1"
+      ]
+    },
+    {
+      "id": "produk-studio-gelap",
+      "nama": "Produk studio gelap",
+      "kategori": "Fotografi",
+      "kapan": "Hero beranda, kartu produk unggulan, sampul kampanye gelap",
+      "ciri": [
+        "latar hampir hitam",
+        "satu sumber cahaya dari kanan atas",
+        "tepi hangat keemasan",
+        "bayangan jatuh lembut",
+        "grain halus"
+      ],
+      "prompt": "single roasted coffee bean standing upright on a matte black surface, dramatic low-key studio lighting from upper right, warm rim light on the crease, soft contact shadow, subtle film grain, dark brown and amber palette, centered composition, macro product photography, no text",
+      "negatif": [
+        "teks",
+        "logo",
+        "tangan",
+        "latar putih",
+        "biji warna hijau mentah",
+        "pantulan berlebih"
+      ],
+      "alat": "generator",
+      "rasio": [
+        "4:5",
+        "16:9"
+      ]
+    },
+    {
+      "id": "risograf-overprint",
+      "nama": "Risograf overprint",
+      "kategori": "Cetak",
+      "kapan": "Kampanye musiman, stiker, kemasan edisi terbatas",
+      "ciri": [
+        "dua tinta bertumpuk",
+        "ketidaksejajaran kecil",
+        "tekstur tinta tidak rata",
+        "warna cerah kusam"
+      ],
+      "prompt": "risograph print of coffee cherries and a bean, fluorescent orange and deep teal inks overlapping, visible misregistration, uneven ink texture, cream paper, flat shapes, no text",
+      "negatif": [
+        "foto",
+        "teks",
+        "gradien digital",
+        "bayangan realistis"
+      ],
+      "alat": "pillow",
+      "rasio": [
+        "1:1",
+        "4:5"
+      ]
+    },
+    {
+      "id": "seduh-aksi",
+      "nama": "Seduh aksi",
+      "kategori": "Fotografi",
+      "kapan": "Halaman resep, kampanye pagi, konten reels",
+      "ciri": [
+        "uap tipis",
+        "gerak air",
+        "tangan tanpa wajah",
+        "meja kayu",
+        "cahaya jendela"
+      ],
+      "prompt": "pour-over coffee brewing on a dark wooden table, thin steam, water stream mid-pour, hand holding kettle without face visible, morning window light from the left, warm neutral palette, shallow focus, no text, no logos",
+      "negatif": [
+        "wajah",
+        "logo",
+        "teks",
+        "tangan cacat",
+        "cangkir plastik"
+      ],
+      "alat": "generator",
+      "rasio": [
+        "4:5",
+        "9:16"
+      ]
+    },
+    {
+      "id": "tipografi-ekspresif",
+      "nama": "Tipografi ekspresif",
+      "kategori": "Cetak",
+      "kapan": "Motto, kutipan, pengumuman besar",
+      "ciri": [
+        "huruf jadi gambar",
+        "satu kata",
+        "skala ekstrem",
+        "kontras tinggi"
+      ],
+      "prompt": "typographic poster with one enormous word in a condensed grotesque, near-black ink on cream paper, tight negative tracking, word cropped at the edges, no illustration, no other elements",
+      "negatif": [
+        "teks panjang",
+        "ilustrasi",
+        "gradien",
+        "font script"
+      ],
+      "alat": "pillow",
+      "rasio": [
+        "4:5",
+        "9:16"
+      ]
+    },
+    {
+      "id": "ui-kartu-produk",
+      "nama": "Kartu produk (tangkapan UI)",
+      "kategori": "Antarmuka",
+      "kapan": "Tangkapan layar kartu produk untuk marketplace, feed, dan materi B2B — bukan untuk halaman situs (di situs, kartu harus HTML hidup)",
+      "ciri": [
+        "kartu 4:5 di tengah",
+        "label harga tabular",
+        "satu foto produk",
+        "garis rambut 1 px",
+        "tanpa bayangan dramatis"
+      ],
+      "prompt": "clean product card for a coffee bag, cream background, one photograph at top, tabular price line, 1px hairline separator, square corners, no drop shadow, no decorative icons, layout only, no lorem text",
+      "negatif": [
+        "teks palsu",
+        "ikon dekoratif",
+        "bayangan tebal",
+        "sudut membulat besar",
+        "gradien"
+      ],
+      "alat": "pillow",
+      "rasio": [
+        "4:5",
+        "1:1"
+      ]
+    }
+  ]
+}

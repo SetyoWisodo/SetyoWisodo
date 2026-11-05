@@ -1,0 +1,32 @@
+/* Huruf Nocturne Koffie — dilayani sendiri, tanpa CDN.
+   Dibangun oleh tools/font.py dari keluarga variabel Google Fonts (OFL 1.1).
+   Jangan sunting tangan: jalankan `python3 tools/font.py` untuk membangun ulang. */
+
+@font-face{
+  font-family:"Bricolage Grotesque";
+  src:url("../fonts/bricolage.woff2") format("woff2");
+  font-weight:600 800;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Fraunces";
+  src:url("../fonts/fraunces.woff2") format("woff2");
+  font-weight:300 700;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Fraunces";
+  src:url("../fonts/fraunces-italic.woff2") format("woff2");
+  font-weight:300 400;
+  font-style:italic;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Inter";
+  src:url("../fonts/inter.woff2") format("woff2");
+  font-weight:400 700;
+  font-style:normal;
+  font-display:swap;
+}

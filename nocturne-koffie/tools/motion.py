@@ -363,8 +363,8 @@ def frame_html(s, poster, tgl):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Adegan {s['no']:02d} — {escape(s['judul'])}</title>
 <meta name="robots" content="noindex">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preload" href="../assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/fonts.css">
 <style>{FRAME_CSS}</style></head>
 <body>
 <div id="panggung"><div id="kanvas">
@@ -446,8 +446,8 @@ def lab(frames, slop, kreatif, tgl):
 <title>Lab Gerak — Nocturne Koffie</title>
 <meta name="description" content="Komponen gerak dan adegan 9:16 untuk konten D4: spotlight, hitung angka, tombol magnet, pin bertahap, dan audit anti-slop.">
 <meta name="robots" content="noindex">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,300&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" href="../assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/fonts.css">
 <link rel="stylesheet" href="../assets/css/site.css">
 <link rel="stylesheet" href="../assets/css/motion-ui.css">
 <style>{CSS}</style></head><body>

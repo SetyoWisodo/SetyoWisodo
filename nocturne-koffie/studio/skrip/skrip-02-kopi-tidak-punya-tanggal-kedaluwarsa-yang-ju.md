@@ -1,23 +1,23 @@
-# Skrip 05 — Angka / daftar · Edukasi
+# Skrip 02 — Larangan / peringatan · Bukti
 
 > Dibuat 2026-11-05 oleh `tools/studio.py` · status **siap rekam** ·
 > skor suara 100/100 · struktur ini naik 1,8× di data referensi.
 
 **Hook (0–3 detik):**
 ```
-Tiga hal yang membuat kopi rumahan terasa hambar.
+Kopi tidak punya tanggal kedaluwarsa yang jujur.
 ```
 
 | # | Durasi | Teks di layar | Sumber klaim |
 | ---: | ---: | --- | --- |
-| 1 | 3s | Tiga hal yang membuat kopi rumahan terasa hambar. | catalog.json |
-| 2 | 2s | Gilingan terlalu kasar. Air terlalu dingin. Kopi lewat 30 hari dari sangrai. | catalog.json |
-| 3 | 2s | Cek satu per satu; yang tersering ternyata gilingan. | catalog.json |
+| 1 | 3s | Kopi tidak punya tanggal kedaluwarsa yang jujur. | catalog.json |
+| 2 | 2s | Yang menentukan bukan kedaluwarsa, tapi jarak dari tanggal sangrai. | catalog.json |
+| 3 | 2s | Puncak rasa 7–21 hari. Lewat 60 hari masih aman, tapi tidak lagi sama. | catalog.json |
 | 4 | 2s | Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda. | — |
 
-**Visual (shot list):** Tiga kartu teks berisi angka → kantong kopi & alat seduh di meja
+**Visual (shot list):** Kopi di dalam kulkas → diangkat → dipindah ke wadah kedap
 
-**Aset:** `carousel-02b` — ada di manifest.
+**Aset:** `carousel-01a` — ada di manifest.
 
 **Sumber data:** `catalog.json`
 

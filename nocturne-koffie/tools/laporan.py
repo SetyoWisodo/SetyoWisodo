@@ -155,8 +155,8 @@ def bangun(tgl, cek, papan, katalog, kreatif, riset, divisi, studio=None, gerak=
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Laporan otomatis — Nocturne Koffie</title>
 <meta name="robots" content="noindex">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" href="../assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/fonts.css">
 <style>{CSS}</style></head><body><div class="wrap">
 <p class="kicker">Dijalankan otomatis · {tgl.strftime('%d')} {BULAN[tgl.month-1]} {tgl.year} · {tgl.isoformat()}</p>
 <h1>Laporan otomatis</h1>

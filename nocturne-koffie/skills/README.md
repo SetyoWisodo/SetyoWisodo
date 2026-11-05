@@ -1,6 +1,6 @@
-# Skills — riset konten & mesin pencari
+# Skills — riset konten, mesin pencari, halaman, gambar, huruf
 
-Delapan skill untuk D3 (Marketing & Pertumbuhan) dan D4 (Kreatif & Media).
+Sebelas skill untuk D3 (Marketing & Pertumbuhan) dan D4 (Kreatif & Media).
 Formatnya mengikuti konvensi **SKILL.md** (YAML frontmatter + prosedur yang bisa dijalankan ulang),
 diadaptasi dari tiga sumber: kerangka *social media research skills*, disiplin bukti *claude-ads*
 (dibuka 29 Okt 2026), dan kerangka **10 folder / 50 agent** dari post `@dsqjaffa` (28 Okt 2026).
@@ -26,6 +26,13 @@ diadaptasi dari tiga sumber: kerangka *social media research skills*, disiplin b
 | [`desain-prompt`](desain-prompt/SKILL.md) | D4 + D3 | membangun/merombak halaman dengan brief yang tokennya bisa diperiksa mesin | `prompts/pustaka.json` (9 prompt), `prompts/index.html` |
 | [`hero-3d`](hero-3d/SKILL.md) | D4 | hero objek 3D: render hiper-realistis, 6 titik senyawa, kemiringan halus | `index.html` hero, `assets/js/biji3d.js`, `assets/img/biji-3d-poster.jpg` |
 
+| [`landing-page-ai`](landing-page-ai/SKILL.md) | D3 + D4 | membangun halaman baru / merombak halaman yang terasa template, atau menulis brief untuk agen koding lain | aturan 9 butir, rencana layar berangka, gerbang 27 butir |
+| [`gaya-gambar`](gaya-gambar/SKILL.md) | D4 | butuh gambar baru (hero, poster, kartu rasa) atau menilai hasil generator sebelum dipasang | `data/gaya-gambar.json` (20 gaya) + 6 pemeriksaan |
+| [`pasangan-font`](pasangan-font/SKILL.md) | D4 | memilih huruf, memeriksa bobot yang hilang, memindahkan huruf dari CDN | `assets/css/fonts.css`, 4 woff2 231 KB, butir **Huruf lokal** |
+
+Tiga skill terakhir lahir dari penelusuran GitHub 5 Nov 2026 (ambang 3.000 bintang); daftar lengkapnya di
+[`laporan/skill-github.md`](../laporan/skill-github.md).
+
 Dua perintah menjalankan keempatnya (urutannya penting: studio membaca hasil riset):
 
 ```bash
@@ -37,7 +44,9 @@ python3 tools/motion.py        # lab gerak + 5 adegan 9:16 (dari skrip studio)
 python3 tools/film.py          # lembar film: frame, ketukan, arc energi → motion/film-sheet.md
 python3 tools/render_film.py   # klip 9:16 jadi: 540 frame → motion/render/klip-01-nocturne-9s.mp4
 python3 tools/prompt.py        # pustaka prompt kelas atas → prompts/index.html
-python3 tools/biji.py          # poster biji 3D (CPU) → assets/img/biji-3d-poster.png
+python3 tools/biji.py          # poster biji 3D (CPU) → assets/img/biji-3d-poster.webp
+python3 tools/font.py          # huruf lokal: unduh → iris → woff2 → fonts.css
+python3 tools/font.py --cek    # 14 halaman tanpa Google Fonts, bobot cocok
 node tools/verifikasi-biji.mjs # 9 uji geometri & HTML, tanpa GPU
 python3 tools/slop.py          # audit anti-slop & kontrak desain → laporan/slop.md
 ```

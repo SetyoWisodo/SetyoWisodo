@@ -10,7 +10,7 @@
     {
       "kategori": "Tautan lokal",
       "status": "lolos",
-      "teks": "136/136 tautan menuju berkas yang ada",
+      "teks": "166/166 tautan menuju berkas yang ada",
       "detail": ""
     },
     {
@@ -112,7 +112,7 @@
     {
       "kategori": "Mesin terpasang",
       "status": "lolos",
-      "teks": "GSAP 3.15.0 · Lottie 5.13.0 · Remotion 4.0.539 · HyperFrames 0.8.221 · klip 540 frame + 4 sub-komposisi · font Google di 14 halaman (lama, dicatat)",
+      "teks": "GSAP 3.15.0 · Lottie 5.13.0 · Remotion 4.0.539 · HyperFrames 0.8.221 · klip 540 frame + 4 sub-komposisi · huruf lokal di 16 halaman",
       "detail": ""
     },
     {
@@ -141,8 +141,20 @@
     },
     {
       "kategori": "Pintu semua",
-      "status": "lolos",
+      "status": "gagal",
       "teks": "14 halaman tertaut · angka dari periksa.json · satu berkas",
+      "detail": "angka gerbang tidak mutakhir — jalankan tools/semua.py"
+    },
+    {
+      "kategori": "Huruf lokal",
+      "status": "lolos",
+      "teks": "4 berkas variabel 231 KB · 0 permintaan ke Google Fonts · rentang bobot cocok dengan CSS",
+      "detail": ""
+    },
+    {
+      "kategori": "Pustaka gaya",
+      "status": "lolos",
+      "teks": "19 gaya · 5 kategori · tiap gaya: prompt + negatif + rasio + alat",
       "detail": ""
     },
     {

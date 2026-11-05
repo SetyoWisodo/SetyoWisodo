@@ -90,6 +90,8 @@ python3 tools/studio.py            # studio 10 tahap → brief Senin + 5 skrip s
 python3 tools/studio.py --cek      # ringkasan 10 tahap di terminal
 python3 tools/motion.py            # lab gerak + 5 adegan 9:16
 python3 tools/slop.py              # audit anti-slop & kontrak desain
+python3 tools/font.py              # huruf lokal: unduh → kunci sumbu → iris → woff2 → fonts.css
+python3 tools/font.py --cek        # 14 halaman tanpa Google Fonts, rentang bobot cocok
 
 python3 tools/jalankan.py          # ← SEMUA langkah di atas, berurutan, + periksa + laporan
 python3 tools/jalankan.py --cepat  # lewati encode video (lebih cepat ~15 detik)
@@ -109,6 +111,23 @@ Halaman yang perlu dibuka: `/` (situs) · `/dashboard/` (papan harian) ·
 `/brand/` (brand kit) · `/komersial/penawaran-b2b.html` (proposal B2B).
 
 Harus lewat server — katalog dimuat dengan `fetch`, dan `file://` akan diblokir browser.
+
+## Huruf: dilayani sendiri, bukan dari CDN
+
+Sampai 5 Nov 2026 ke-14 halaman memuat huruf dari `fonts.googleapis.com`. Sekarang
+`assets/fonts/` memuat **4 berkas variabel woff2 (231 KB)** — Bricolage Grotesque 600–800,
+Fraunces 300–700, Fraunces italic 300–400, Inter 400–700 — dan `assets/css/fonts.css`
+mendeklarasikan rentang bobotnya. Dua bobot yang dulu tidak ada (Inter 700, Bricolage 600–700)
+kini tersedia, jadi tidak ada lagi huruf tebal sintetis dari peramban.
+Sumber: `github.com/google/fonts` (OFL 1.1) · dibangun oleh `tools/font.py`.
+
+## Penelusuran skill GitHub (5 Nov 2026)
+
+Ambang 3.000 bintang; hasil lengkap, termasuk yang ditolak dan alasannya, ada di
+[`laporan/skill-github.md`](laporan/skill-github.md). Tiga skill baru:
+[`landing-page-ai`](skills/landing-page-ai/SKILL.md),
+[`gaya-gambar`](skills/gaya-gambar/SKILL.md) (20 gaya di `data/gaya-gambar.json`),
+[`pasangan-font`](skills/pasangan-font/SKILL.md).
 
 ## Yang sudah jalan
 

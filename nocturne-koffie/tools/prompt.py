@@ -243,9 +243,8 @@ def bangun_html(pustaka, ds):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pustaka prompt kelas atas — Nocturne Koffie</title>
 <meta name="description" content="Delapan spesifikasi desain utuh untuk halaman Nocturne Koffie: token persis, tata letak per bagian, gerak, dan kriteria terima.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,300&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" href="../assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/fonts.css">
 <style>{CSS}</style>
 </head>
 <body>

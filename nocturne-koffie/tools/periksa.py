@@ -540,7 +540,7 @@ def periksa(catatan):
     tambah("Mesin terpasang", "lolos" if not masalah_mesin else "gagal",
            f"GSAP {mesin.get('paket', {}).get('gsap', '—')} · Lottie {mesin.get('paket', {}).get('lottie-web', '—')} · "
            f"Remotion {mesin.get('paket', {}).get('remotion', '—')} · HyperFrames {mesin.get('paket', {}).get('hyperframes', '—')} · "
-           f"klip 540 frame + 4 sub-komposisi · font Google di {len(halaman_googlefont)} halaman (lama, dicatat)",
+           f"klip 540 frame + 4 sub-komposisi · huruf lokal di {len(HALAMAN) - len(halaman_googlefont)} halaman",
            "; ".join(masalah_mesin[:4]))
 
     # 5k · pustaka prompt kelas atas: struktur 7 blok, token patuh, tanpa klaim karangan
@@ -840,6 +840,96 @@ def periksa(catatan):
         tambah("Pintu semua", "lolos" if not masalah_semua else "gagal",
                f"{len(mod.HALAMAN)} halaman tertaut · angka dari periksa.json · satu berkas",
                "; ".join(masalah_semua[:4]))
+
+    # 5e · huruf: dilayani sendiri, rentang bobotnya nyata (bukan huruf sintetis peramban)
+    masalah_huruf = []
+    css_huruf = "assets/css/fonts.css"
+    if not os.path.exists(os.path.join(ROOT, css_huruf)):
+        masalah_huruf.append("assets/css/fonts.css belum ada — jalankan python3 tools/font.py")
+    else:
+        isi_huruf = baca(css_huruf)
+        pasangan = re.findall(
+            r'font-family:"([^"]+)"[^}]*?url\("\.\./fonts/([^"]+\.woff2)"\)[^}]*?'
+            r'font-weight:(\d+) (\d+);[^}]*?font-style:(\w+);', isi_huruf, re.S)
+        if len(pasangan) < 4:
+            masalah_huruf.append(f"fonts.css hanya memuat {len(pasangan)} @font-face")
+        for nama, berkas, a, b, gaya in pasangan:
+            path = os.path.join(ROOT, "assets", "fonts", berkas)
+            if not os.path.exists(path):
+                masalah_huruf.append(f"{berkas} tidak ada")
+                continue
+            try:
+                from fontTools.ttLib import TTFont
+                f = TTFont(path)
+                sumbu = {x.axisTag: (x.minValue, x.maxValue) for x in f["fvar"].axes}
+                nyata = sumbu.get("wght")
+                if not nyata or (int(nyata[0]), int(nyata[1])) != (int(a), int(b)):
+                    masalah_huruf.append(f"{berkas}: sumbu wght {nyata} ≠ CSS {a}–{b}")
+                if os.path.getsize(path) < 20_000:
+                    masalah_huruf.append(f"{berkas} terlalu kecil — iris gagal")
+            except Exception as e:  # noqa: BLE001
+                masalah_huruf.append(f"{berkas} tidak terbaca: {e}")
+        # bobot yang dipakai stylesheet harus masuk salah satu rentang
+        rentang = [(int(b[0]), int(b[1])) for b in [(x[2], x[3]) for x in pasangan]]
+        dipakai = set()
+        for css in glob.glob(os.path.join(ROOT, "assets", "css", "*.css")):
+            for m in re.finditer(r"font-weight:\s*(\d{3})", baca(os.path.relpath(css, ROOT))):
+                dipakai.add(int(m.group(1)))
+        liar = sorted(w for w in dipakai if not any(a <= w <= b for a, b in rentang))
+        if liar:
+            masalah_huruf.append("bobot tanpa berkas: " + ", ".join(str(w) for w in liar))
+        for h in HALAMAN:
+            path = os.path.join(ROOT, h)
+            if not os.path.exists(path) or h.startswith("biji-sangrai"):
+                continue
+            isi = baca(h)
+            if "fonts.googleapis.com" in isi or "fonts.gstatic.com" in isi:
+                masalah_huruf.append(f"{h} masih memuat huruf dari CDN")
+            elif "assets/css/fonts.css" not in isi:
+                masalah_huruf.append(f"{h} tidak memuat fonts.css")
+    berat_huruf = sum(ukuran(f"assets/fonts/{x['berkas']}") for x in [
+        {"berkas": "bricolage.woff2"}, {"berkas": "fraunces.woff2"},
+        {"berkas": "fraunces-italic.woff2"}, {"berkas": "inter.woff2"}])
+    tambah("Huruf lokal", "lolos" if not masalah_huruf else "gagal",
+           f"4 berkas variabel {berat_huruf/1024:.0f} KB · 0 permintaan ke Google Fonts · "
+           f"rentang bobot cocok dengan CSS",
+           "; ".join(masalah_huruf[:4]))
+
+    # 5f · pustaka gaya gambar: skema utuh, id unik, tiap gaya bisa dipakai tanpa menebak
+    masalah_gaya = []
+    path_gaya = os.path.join(ROOT, "data", "gaya-gambar.json")
+    if not os.path.exists(path_gaya):
+        masalah_gaya.append("data/gaya-gambar.json belum ada")
+    else:
+        gaya = json.loads(baca("data/gaya-gambar.json"))
+        daftar = gaya.get("gaya", [])
+        wajib = ("id", "nama", "kategori", "kapan", "ciri", "prompt", "negatif", "rasio", "alat")
+        id_terpakai = set()
+        kategori = set()
+        for g in daftar:
+            kurang = [k for k in wajib if not g.get(k)]
+            if kurang:
+                masalah_gaya.append(f'{g.get("id", "?")}: kurang {", ".join(kurang)}')
+            if g.get("id") in id_terpakai:
+                masalah_gaya.append(f'id ganda: {g.get("id")}')
+            id_terpakai.add(g.get("id"))
+            kategori.add(g.get("kategori"))
+            if g.get("alat") not in ("pillow", "generator", "keduanya"):
+                masalah_gaya.append(f'{g.get("id")}: alat tidak dikenal ({g.get("alat")})')
+            if len(g.get("negatif", [])) < 2:
+                masalah_gaya.append(f'{g.get("id")}: negatif kurang dari 2')
+        if len(daftar) < 18:
+            masalah_gaya.append(f"hanya {len(daftar)} gaya")
+        teks_skill = baca("skills/gaya-gambar/SKILL.md") if os.path.exists(
+            os.path.join(ROOT, "skills", "gaya-gambar", "SKILL.md")) else ""
+        if "data/gaya-gambar.json" not in teks_skill:
+            masalah_gaya.append("skill gaya-gambar tidak menunjuk pustakanya")
+    tambah("Pustaka gaya", "lolos" if not masalah_gaya else "gagal",
+           f"{len(json.loads(baca('data/gaya-gambar.json'))['gaya'])} gaya · "
+           f"{len({g['kategori'] for g in json.loads(baca('data/gaya-gambar.json'))['gaya']})} kategori · "
+           f"tiap gaya: prompt + negatif + rasio + alat"
+           if not masalah_gaya else "gagal",
+           "; ".join(masalah_gaya[:4]))
 
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \

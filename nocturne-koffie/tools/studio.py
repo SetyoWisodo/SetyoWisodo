@@ -873,8 +873,8 @@ def dasbor(d, tgl):
     o = [f"""<!DOCTYPE html><html lang="id"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Studio Konten — Nocturne Koffie</title><meta name="robots" content="noindex">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" href="../assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/fonts.css">
 <style>{CSS}</style></head><body><div class="wrap">
 <p class="kicker">D3 Marketing × D4 Kreatif · 10 tahap · dibuat {tgl_id(tgl)}</p>
 <h1>Studio konten</h1>
