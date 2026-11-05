@@ -84,6 +84,7 @@ def main():
         ("papan", ["tools/papan.py", "--tanggal", TGL]),
         ("periksa", ["tools/periksa.py"]),
         ("laporan", ["tools/laporan.py"]),
+        ("semua", ["tools/semua.py"]),
     ]
 
     total = 0.0
@@ -94,6 +95,7 @@ def main():
     print("─" * 78)
     print(f"Selesai dalam {time.time()-t0:.0f} detik ({len(langkah_list)} langkah).")
     print("Buka:")
+    print("  semua.html                  ← SATU pintu: semua halaman + unduhan")
     print("  laporan/index.html          ← ringkasan untuk dinilai")
     print("  dashboard/index.html        ← papan harian + target divisi")
     print("  index.html                  ← situs")

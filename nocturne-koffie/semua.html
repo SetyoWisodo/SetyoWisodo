@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semua halaman — Nocturne Koffie</title>
+<meta name="description" content="Satu alamat untuk meninjau seluruh hasil kerja Nocturne Koffie: situs, halaman jual, brand kit, konten, gerak, dan laporan.">
+<meta name="theme-color" content="#F5EFE4">
+<!-- dibuat tools/semua.py · sidik struktur d8f4259b7d0f · jangan diedit tangan -->
+<link rel="icon" href="brand/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Semua halaman — Nocturne Koffie">
+<meta property="og:image" content="assets/img/biji-3d-poster.webp">
+<style>
+@font-face{font-family:"Bricolage Grotesque";src:url("assets/fonts/bricolage-grotesque-latin-800-normal.ttf") format("truetype");font-weight:800;font-display:swap}
+@font-face{font-family:"Fraunces";src:url("assets/fonts/fraunces-latin-300-normal.ttf") format("truetype");font-weight:300;font-display:swap}
+@font-face{font-family:"Inter";src:url("assets/fonts/inter-latin-400-normal.ttf") format("truetype");font-weight:400;font-display:swap}
+@font-face{font-family:"Inter";src:url("assets/fonts/inter-latin-600-normal.ttf") format("truetype");font-weight:600;font-display:swap}
+
+:root{
+  --paper:#F5EFE4; --paper-2:#EFE6D6; --ink:#16110D; --orange:#E1542B;
+  --gold:#D9A441; --espresso:#4A2C1A;
+  --ink-80:rgba(22,17,13,.8); --ink-55:rgba(22,17,13,.55); --garis:rgba(22,17,13,.16);
+  --display:"Bricolage Grotesque",Impact,system-ui,sans-serif;
+  --serif:"Fraunces",Georgia,serif; --body:"Inter",system-ui,sans-serif;
+  --pad:clamp(18px,4vw,52px); --ease:cubic-bezier(.22,.61,.36,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+  font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
+.wrap{max-width:1240px;margin-inline:auto;padding-inline:var(--pad)}
+
+.kepala{padding-block:clamp(34px,6vw,64px) clamp(20px,3vw,32px);border-bottom:2px solid var(--ink)}
+.kepala .micro{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;
+  color:var(--ink-55);display:flex;align-items:center;gap:9px;margin:0 0 14px}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--orange)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,7.6vw,4.6rem);
+  line-height:.9;letter-spacing:-.04em;margin:0;text-transform:uppercase}
+h1 em{font-family:var(--serif);font-style:italic;font-weight:300;text-transform:none;
+  color:var(--espresso);font-size:.62em;display:block;letter-spacing:-.01em;margin-top:.14em}
+.lede{margin:18px 0 0;max-width:56ch;color:var(--ink-80);font-size:clamp(14.5px,1.5vw,16.5px)}
+
+.angka{display:grid;grid-template-columns:repeat(2,1fr);gap:0;margin-top:clamp(24px,4vw,36px);
+  border-top:1px solid var(--garis)}
+.angka div{padding:16px 0;border-bottom:1px solid var(--garis)}
+.angka div:nth-child(odd){border-right:1px solid var(--garis);padding-right:14px}
+.angka div:nth-child(even){padding-left:16px}
+.angka b{display:block;font-family:var(--display);font-size:clamp(1.5rem,4vw,2.1rem);
+  line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.angka span{display:block;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-55);margin-top:7px}
+.angka .ok{color:var(--espresso)}
+
+.bagian{padding-block:clamp(28px,4.4vw,46px);border-bottom:1px solid var(--garis)}
+.bagian__kepala{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:16px}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(1.1rem,2.6vw,1.5rem);
+  letter-spacing:-.02em;text-transform:uppercase;margin:0}
+.bagian__jumlah{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-55)}
+.kisi{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr))}
+
+.kartu{display:flex;flex-direction:column;border:2px solid var(--ink);border-radius:3px;
+  overflow:hidden;background:rgba(255,255,255,.4);
+  transition:transform .3s var(--ease),background .24s var(--ease),box-shadow .3s var(--ease)}
+.kartu:hover{transform:translateY(-3px);background:#fff;box-shadow:0 16px 34px -22px rgba(0,0,0,.6)}
+.kartu__media{display:block;background:var(--paper-2);border-bottom:1px solid var(--garis)}
+.kartu__media img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.kartu__media--kosong{display:grid;place-items:center;height:74px;color:var(--espresso);
+  background:repeating-linear-gradient(135deg,var(--paper-2) 0 8px,rgba(74,44,26,.05) 8px 16px)}
+.kartu__isi{display:flex;flex-direction:column;gap:5px;padding:14px 15px 15px}
+.kartu__kelompok{font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--orange);font-weight:600}
+.kartu__judul{font-family:var(--display);font-weight:800;font-size:1.05rem;letter-spacing:-.02em;line-height:1.15}
+.kartu__ket{font-size:12.5px;color:var(--ink-80);line-height:1.55}
+.kartu__buka{margin-top:8px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  font-weight:600;color:var(--ink-55);transition:color .2s,gap .2s;display:flex;gap:6px}
+.kartu:hover .kartu__buka{color:var(--orange);gap:10px}
+.hilang{color:var(--orange);font-size:11px;letter-spacing:.06em;text-transform:none}
+
+.unduh-kisi{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr))}
+.unduh{display:flex;flex-direction:column;gap:3px;padding:13px 15px;border:1.5px solid var(--garis);
+  border-radius:3px;transition:border-color .24s,background .24s}
+.unduh:hover{border-color:var(--ink);background:#fff}
+.unduh b{font-weight:600;font-size:13.5px}
+.unduh span{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-55)}
+
+.kaki{padding-block:26px 34px;font-size:12px;color:var(--ink-55);line-height:1.7}
+.kaki b{color:var(--ink);font-weight:600}
+
+@media (min-width:720px){
+  .angka{grid-template-columns:repeat(4,1fr)}
+  .angka div{border-right:1px solid var(--garis);border-bottom:0;padding:20px 18px}
+  .angka div:first-child{padding-left:0}
+  .angka div:last-child{border-right:0}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition:none!important;animation:none!important}
+  .kartu:hover{transform:none}
+}
+</style>
+</head>
+<body>
+
+<header class="kepala">
+  <div class="wrap">
+    <p class="micro"><span class="dot" aria-hidden="true"></span>Satu pintu · semua hasil kerja · 2026-11-05</p>
+    <h1>Nocturne<em>Semua halaman</em></h1>
+    <p class="lede">
+      Banyuwangi, Jawa Timur. Biji sangrai dari petani bernama,
+      disangrai mingguan oleh Ais Coffee Roastery. Di bawah ini seluruh yang bisa Anda tinjau —
+      situs, halaman jual, aset cetak, konten, gerak, dan laporan.
+    </p>
+    <div class="angka">
+      <div><b class="ok">25/25</b><span>Gerbang QA lolos</span></div>
+      <div><b>9</b><span>Biji · 4 ukuran</span></div>
+      <div><b>Rp23.000</b><span>Harga mulai 100 g</span></div>
+      <div><b>6 × 2</b><span>Zona senyawa di hero</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+    <section class="bagian" id="situs">
+      <div class="bagian__kepala">
+        <h2>Situs</h2>
+        <span class="bagian__jumlah">4 halaman</span>
+      </div>
+      <div class="kisi">
+      <a class="kartu kartu--utama" href="index.html">
+        <span class="kartu__media"><img src="assets/img/biji-3d-poster.webp" alt="" loading="lazy" decoding="async" width="400" height="300"></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Situs</span>
+          <span class="kartu__judul">Beranda</span>
+          <span class="kartu__ket">Biji kopi render 3D di kiri, motto “Terjaga untuk rasa yang sesungguhnya.” di kanan. Enam titik senyawa bisa diketuk.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="kartu" href="biji-sangrai/index.html">
+        <span class="kartu__media"><img src="assets/img/produk/ijen.jpg" alt="" loading="lazy" decoding="async" width="400" height="300"></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Situs</span>
+          <span class="kartu__judul">Biji sangrai</span>
+          <span class="kartu__ket">Halaman jual roasted beans: 9 biji, tabel harga, tombol WhatsApp per biji, catatan rasa yang bisa digeser.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="kartu" href="kampanye/index.html">
+        <span class="kartu__media"><img src="konten/carousel-01a.jpg" alt="" loading="lazy" decoding="async" width="400" height="300"></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Situs</span>
+          <span class="kartu__judul">Landing kampanye</span>
+          <span class="kartu__ket">Halaman kampanye “kopi yang jujur soal tanggal”, lengkap dengan kode UTM.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="kartu" href="komersial/penawaran-b2b.html">
+        <span class="kartu__media"><img src="assets/img/produk/gayo.jpg" alt="" loading="lazy" decoding="async" width="400" height="300"></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Situs</span>
+          <span class="kartu__judul">Penawaran B2B</span>
+          <span class="kartu__ket">Harga grosir empat tier untuk kedai, kantor, dan reseller.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      </div>
+    </section>
+    <section class="bagian" id="papan-dan-laporan">
+      <div class="bagian__kepala">
+        <h2>Papan &amp; laporan</h2>
+        <span class="bagian__jumlah">3 halaman</span>
+      </div>
+      <div class="kisi">
+      <a class="kartu" href="laporan/index.html">
+        <span class="kartu__media kartu__media--kosong" aria-hidden="true"><svg viewBox="0 0 40 56" width="26" height="36"><ellipse cx="20" cy="28" rx="14" ry="20" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 9c-3 6-3 12 0 19s3 13 0 19" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Papan &amp; laporan</span>
+          <span class="kartu__judul">Ringkasan penilaian</span>
+          <span class="kartu__ket">Satu halaman berisi apa yang sudah selesai, bukti, dan batasnya.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="kartu" href="dashboard/index.html">
+        <span class="kartu__media kartu__media--kosong" aria-hidden="true"><svg viewBox="0 0 40 56" width="26" height="36"><ellipse cx="20" cy="28" rx="14" ry="20" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 9c-3 6-3 12 0 19s3 13 0 19" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Papan &amp; laporan</span>
+          <span class="kartu__judul">Papan harian</span>
+          <span class="kartu__ket">Target 29 KPI per divisi, ritme kerja harian dan mingguan.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="kartu" href="laporan/slop.md">
+        <span class="kartu__media kartu__media--kosong" aria-hidden="true"><svg viewBox="0 0 40 56" width="26" height="36"><ellipse cx="20" cy="28" rx="14" ry="20" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 9c-3 6-3 12 0 19s3 13 0 19" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Papan &amp; laporan</span>
+          <span class="kartu__judul">Audit anti-slop</span>
+          <span class="kartu__ket">29 aturan desain, 0 temuan kritis. Berkas teks, bukan halaman.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      </div>
+    </section>
+    <section class="bagian" id="aset-cetak">
+      <div class="bagian__kepala">
+        <h2>Aset cetak</h2>
+        <span class="bagian__jumlah">1 halaman</span>
+      </div>
+      <div class="kisi">
+      <a class="kartu" href="brand/index.html">
+        <span class="kartu__media"><img src="brand/label-blue-mount-ijen.png" alt="" loading="lazy" decoding="async" width="400" height="300"></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Aset cetak</span>
+          <span class="kartu__judul">Brand kit</span>
+          <span class="kartu__ket">Logo, palet, tipografi, 9 label siap cetak 70×100 mm, lembar A4.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      </div>
+    </section>
+    <section class="bagian" id="konten">
+      <div class="bagian__kepala">
+        <h2>Konten</h2>
+        <span class="bagian__jumlah">3 halaman</span>
+      </div>
+      <div class="kisi">
+      <a class="kartu" href="konten/index.html">
+        <span class="kartu__media"><img src="konten/post-01-peta-rasa.jpg" alt="" loading="lazy" decoding="async" width="400" height="300"></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Konten</span>
+          <span class="kartu__judul">Konten siap pakai</span>
+          <span class="kartu__ket">15 aset: carousel, story, feed, dan 5 reel 9:16 dengan caption.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="kartu" href="studio/index.html">
+        <span class="kartu__media kartu__media--kosong" aria-hidden="true"><svg viewBox="0 0 40 56" width="26" height="36"><ellipse cx="20" cy="28" rx="14" ry="20" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 9c-3 6-3 12 0 19s3 13 0 19" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Konten</span>
+          <span class="kartu__judul">Studio konten</span>
+          <span class="kartu__ket">Sepuluh tahap dari nilai brand sampai brief hari Senin.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="kartu" href="riset/index.html">
+        <span class="kartu__media kartu__media--kosong" aria-hidden="true"><svg viewBox="0 0 40 56" width="26" height="36"><ellipse cx="20" cy="28" rx="14" ry="20" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 9c-3 6-3 12 0 19s3 13 0 19" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Konten</span>
+          <span class="kartu__judul">Riset &amp; swipe file</span>
+          <span class="kartu__ket">Pola konten ramai, kata kunci, dan lima brief turunan.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      </div>
+    </section>
+    <section class="bagian" id="gerak">
+      <div class="bagian__kepala">
+        <h2>Gerak</h2>
+        <span class="bagian__jumlah">1 halaman</span>
+      </div>
+      <div class="kisi">
+      <a class="kartu" href="motion/index.html">
+        <span class="kartu__media"><img src="motion/render/frame/0000.png" alt="" loading="lazy" decoding="async" width="400" height="300"></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Gerak</span>
+          <span class="kartu__judul">Lab gerak</span>
+          <span class="kartu__ket">Lima adegan 9:16, timeline 120 BPM, dan lembar film 540 frame.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      </div>
+    </section>
+    <section class="bagian" id="prompt">
+      <div class="bagian__kepala">
+        <h2>Prompt</h2>
+        <span class="bagian__jumlah">1 halaman</span>
+      </div>
+      <div class="kisi">
+      <a class="kartu" href="prompts/index.html">
+        <span class="kartu__media kartu__media--kosong" aria-hidden="true"><svg viewBox="0 0 40 56" width="26" height="36"><ellipse cx="20" cy="28" rx="14" ry="20" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 9c-3 6-3 12 0 19s3 13 0 19" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Prompt</span>
+          <span class="kartu__judul">Pustaka prompt</span>
+          <span class="kartu__ket">Sembilan prompt kelas atas dengan tujuh blok dan token warna yang patuh.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      </div>
+    </section>
+    <section class="bagian" id="berkas-tunggal">
+      <div class="bagian__kepala">
+        <h2>Berkas tunggal</h2>
+        <span class="bagian__jumlah">1 halaman</span>
+      </div>
+      <div class="kisi">
+      <a class="kartu" href="biji-sangrai/biji-sangrai-luring.html">
+        <span class="kartu__media kartu__media--kosong" aria-hidden="true"><svg viewBox="0 0 40 56" width="26" height="36"><ellipse cx="20" cy="28" rx="14" ry="20" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M20 9c-3 6-3 12 0 19s3 13 0 19" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        <span class="kartu__isi">
+          <span class="kartu__kelompok">Berkas tunggal</span>
+          <span class="kartu__judul">Versi 1 berkas (unduh)</span>
+          <span class="kartu__ket">Halaman biji sangrai dengan CSS, JS, huruf, dan gambar disisipkan — bisa dibuka tanpa server.</span>
+          <span class="kartu__buka">Buka <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      </div>
+    </section>
+
+    <section class="bagian">
+      <div class="bagian__kepala">
+        <h2>Berkas unduhan</h2>
+        <span class="bagian__jumlah">siap diunduh</span>
+      </div>
+      <div class="unduh-kisi">
+        <a class="unduh" href="motion/render/klip-01-nocturne-9s.mp4"><b>Klip jadi 9 detik · 9:16</b><span>MP4 · 341 KB</span></a>
+        <a class="unduh" href="konten/reel-01-menit-terakhir.mp4"><b>Reel 01 · menit terakhir</b><span>MP4 · 321 KB</span></a>
+        <a class="unduh" href="brand/label-sheet-a4.png"><b>Lembar label A4 siap cetak</b><span>PNG · 996 KB</span></a>
+        <a class="unduh" href="assets/img/biji-3d-poster.webp"><b>Render biji 640×800</b><span>WebP · 31 KB</span></a>
+        <a class="unduh" href="semua.html"><b>Halaman ini (satu berkas)</b><span>HTML</span></a>
+      </div>
+    </section>
+</main>
+
+<footer class="kaki">
+  <div class="wrap">
+    <b>Nocturne Koffie</b> — Banyuwangi, Jawa Timur ·
+    +62 898-8188-800 · nocturnekoffiebrand@gmail.com<br>
+    Halaman ini dibuat otomatis oleh <b>tools/semua.py</b> dari <b>laporan/periksa.json</b>,
+    <b>data/catalog.json</b>, dan <b>data/biji3d.json</b>. Angkanya bukan karangan: kalau gerbang
+    berubah, halaman ini ikut berubah.
+  </div>
+</footer>
+
+</body>
+</html>

@@ -55,12 +55,14 @@ nocturne-koffie/
 ├── tools/biji_render.py          pasang render hiper-realistis → biji-3d-poster.jpg
 ├── tools/verifikasi-biji.mjs     uji data, poster, titik, markup — 12 butir tanpa peramban
 ├── tools/pratinjau.py            skema tata letak hero (1280 & 390 px) dari angka CSS
+├── semua.html                    SATU pintu: semua halaman, angka gerbang, unduhan
 ├── biji-sangrai/                 landing roasted beans: toko.css, toko.js, index.html (generated)
 ├── prompts/                      8 prompt spesifikasi desain + galeri salin sekali klik
 ├── tools/slop.py                 audit anti-slop (29 aturan) → laporan/slop.md
-├── tools/periksa.py              gerbang QA: 25 pemeriksaan konsistensi → laporan/periksa.md
+├── tools/periksa.py              gerbang QA: 26 pemeriksaan konsistensi → laporan/periksa.md
 ├── tools/roasted.py              halaman penjualan biji sangrai dari katalog → biji-sangrai/
 ├── tools/luring.py               versi 1 berkas: CSS, JS, huruf & gambar disisipkan
+├── tools/semua.py                pintu tunggal: semua.html (14 halaman + unduhan)
 ├── tools/laporan.py              satu halaman ringkasan → laporan/index.html
 ├── tools/jalankan.py             jalankan seluruh pipeline berurutan (~96 detik)
 ├── dashboard/index.html          papan harian hasil generate (jangan diedit manual)

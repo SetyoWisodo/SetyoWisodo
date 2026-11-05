@@ -4,14 +4,14 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 
 | Ringkasan | Jumlah |
 | --- | --- |
-| Pemeriksaan lolos | **25** |
+| Pemeriksaan lolos | **26** |
 | Peringatan | **0** |
 | Gagal (harus diperbaiki) | **0** |
 
 | Kategori | Status | Hasil | Catatan |
 | --- | --- | --- | --- |
 | Berkas wajib | ✅ lolos | 86/86 berkas ada | — |
-| Tautan lokal | ✅ lolos | 134/134 tautan menuju berkas yang ada | — |
+| Tautan lokal | ✅ lolos | 136/136 tautan menuju berkas yang ada | — |
 | Struktur HTML | ✅ lolos | 16/16 halaman tag-nya seimbang | — |
 | Stok semua SKU | ✅ lolos | 9/9 SKU berstatus tersedia | — |
 | Produk ↔ lot | ✅ lolos | 9/9 produk punya lot aktif (blend memakai komponen) | — |
@@ -33,8 +33,9 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 | Biji 3D | ✅ lolos | 6 zona · 12 senyawa · 4 sumber literatur · poster 640×800 · verifikasi 12/12 | — |
 | Biji sangrai | ✅ lolos | 9 SKU · 4 ukuran · harga dari katalog · tanpa CDN · reduced-motion | — |
 | Berkas luring | ✅ lolos | 1 berkas 975 KB · CSS+JS+huruf+gambar tersisip · 0 tautan aset relatif | dibuka langsung dari folder unduhan |
+| Pintu semua | ✅ lolos | 14 halaman tertaut · angka dari periksa.json · satu berkas | — |
 | Berat halaman awal | ✅ lolos | 98 KB (batas 1.500 KB) | — |
-| Berat folder konten | ✅ lolos | 3.8 MB (batas 12 MB) | — |
+| Berat folder konten | ✅ lolos | 3.9 MB (batas 12 MB) | — |
 
 ## Yang belum bisa diperiksa mesin
 

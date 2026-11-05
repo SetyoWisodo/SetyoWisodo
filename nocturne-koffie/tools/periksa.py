@@ -814,6 +814,33 @@ def periksa(catatan):
                    f"1 berkas {besar:.0f} KB · CSS+JS+huruf+gambar tersisip · 0 tautan aset relatif",
                    "dibuka langsung dari folder unduhan")
 
+
+    # 5d · pintu "semua.html" — satu alamat untuk meninjau semuanya
+    if not os.path.exists(os.path.join(ROOT, "semua.html")):
+        tambah("Pintu semua", "gagal", "semua.html belum dibuat — jalankan python3 tools/semua.py")
+    else:
+        import importlib.util as _iu2
+        spec = _iu2.spec_from_file_location("semua", os.path.join(ROOT, "tools", "semua.py"))
+        mod = _iu2.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        masalah_semua = []
+        teks_semua = baca("semua.html")
+        for path, judul, *_ in mod.HALAMAN:
+            if not os.path.exists(os.path.join(ROOT, path)):
+                masalah_semua.append(f"{judul}: berkas hilang ({path})")
+            if path not in teks_semua:
+                masalah_semua.append(f"{judul} tidak tertaut")
+        # kesegaran: sidik struktur + angka gerbang (bukan banding berkas penuh —
+        # angka di halaman ini berasal dari laporan yang sedang ditulis)
+        if f"sidik struktur {mod.sidik()}" not in teks_semua:
+            masalah_semua.append("sidik struktur tidak cocok — jalankan python3 tools/semua.py")
+        angka_kini = mod.angka()
+        if f"{angka_kini['lolos']}/{angka_kini['cek']}" not in teks_semua:
+            masalah_semua.append("angka gerbang tidak mutakhir — jalankan tools/semua.py")
+        tambah("Pintu semua", "lolos" if not masalah_semua else "gagal",
+               f"{len(mod.HALAMAN)} halaman tertaut · angka dari periksa.json · satu berkas",
+               "; ".join(masalah_semua[:4]))
+
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \
         + ukuran("assets/css/motion.css") + ukuran("assets/js/motion.js")

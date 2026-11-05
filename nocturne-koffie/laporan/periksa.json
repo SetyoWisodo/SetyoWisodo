@@ -10,7 +10,7 @@
     {
       "kategori": "Tautan lokal",
       "status": "lolos",
-      "teks": "134/134 tautan menuju berkas yang ada",
+      "teks": "136/136 tautan menuju berkas yang ada",
       "detail": ""
     },
     {
@@ -140,6 +140,12 @@
       "detail": "dibuka langsung dari folder unduhan"
     },
     {
+      "kategori": "Pintu semua",
+      "status": "lolos",
+      "teks": "14 halaman tertaut · angka dari periksa.json · satu berkas",
+      "detail": ""
+    },
+    {
       "kategori": "Berat halaman awal",
       "status": "lolos",
       "teks": "98 KB (batas 1.500 KB)",
@@ -148,7 +154,7 @@
     {
       "kategori": "Berat folder konten",
       "status": "lolos",
-      "teks": "3.8 MB (batas 12 MB)",
+      "teks": "3.9 MB (batas 12 MB)",
       "detail": ""
     }
   ]
