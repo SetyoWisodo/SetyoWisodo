@@ -6,9 +6,12 @@
 (function () {
   'use strict';
 
-  var akar = document.documentElement;
-  var kurangi = window.matchMedia('(prefers-reduced-motion: reduce)');
-  var santai = function () { return kurangi.matches; };
+  /* matchMedia tidak selalu ada (peramban lama, lingkungan uji): anggap saja
+     pengguna tidak minta gerak dikurangi, jangan sampai seluruh skrip mati. */
+  var kurangi = typeof window.matchMedia === 'function'
+    ? window.matchMedia('(prefers-reduced-motion: reduce)')
+    : { matches: false };
+  var santai = function () { return !!kurangi.matches; };
 
   /* ---------- 1 · jam Banyuwangi (WIB) ---------- */
   function jam() {

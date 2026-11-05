@@ -73,6 +73,7 @@ def main():
         ("kreatif", ["tools/kreatif.py"] + (["--cepat"] if args.cepat else [])),
         ("kampanye", ["tools/kampanye.py"]),
         ("roasted", ["tools/roasted.py"]),
+        ("luring", ["tools/luring.py"]),
         ("prompt", ["tools/prompt.py"]),
         ("riset", ["tools/riset.py"]),
         ("studio", ["tools/studio.py"]),
@@ -98,6 +99,7 @@ def main():
     print("  index.html                  ← situs")
     print("  kampanye/index.html         ← landing kampanye konten")
     print("  biji-sangrai/index.html     ← halaman jual roasted beans")
+    print("  biji-sangrai/biji-sangrai-luring.html ← versi 1 berkas (buka tanpa server)")
     print("  konten/index.html           ← 15 aset + caption")
     print("  riset/index.html            ← riset konten & kata kunci")
     print("  studio/index.html           ← 10 tahap: hook → skrip → brief Senin")

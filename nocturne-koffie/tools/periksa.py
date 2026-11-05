@@ -775,6 +775,31 @@ def periksa(catatan):
                f"harga dari katalog · tanpa CDN · reduced-motion",
                "; ".join(masalah_jual[:4]))
 
+
+    # 5c · berkas tunggal (luring) — supaya bisa dibuka dari folder unduhan
+    luring = "biji-sangrai/biji-sangrai-luring.html"
+    if not os.path.exists(os.path.join(ROOT, luring)):
+        tambah("Berkas luring", "gagal", "biji-sangrai/biji-sangrai-luring.html belum dibuat")
+    else:
+        import importlib.util as _iu
+        spec = _iu.spec_from_file_location("luring", os.path.join(ROOT, "tools", "luring.py"))
+        mod = _iu.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        import contextlib
+        import io as _io
+        tangkap = _io.StringIO()
+        with contextlib.redirect_stdout(tangkap):
+            kode = mod.periksa()
+        keluaran = tangkap.getvalue().strip().splitlines()
+        if kode != 0:
+            tambah("Berkas luring", "gagal", keluaran[-1] if keluaran else "gagal",
+                   "; ".join(b for b in keluaran if b.startswith("XX"))[:180])
+        else:
+            besar = os.path.getsize(os.path.join(ROOT, luring)) / 1024
+            tambah("Berkas luring", "lolos",
+                   f"1 berkas {besar:.0f} KB · CSS+JS+huruf+gambar tersisip · 0 tautan aset relatif",
+                   "dibuka langsung dari folder unduhan")
+
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \
         + ukuran("assets/css/motion.css") + ukuran("assets/js/motion.js")

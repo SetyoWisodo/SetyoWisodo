@@ -130,3 +130,42 @@ manual, dan kata yang langsung menyala penuh.
    dipalsukan di template semacam ini justru saya kosongkan lalu isi dengan data.
 4. **Harga mengikuti katalog.** Kalau `data/catalog.json` berubah, jalankan
    `python3 tools/roasted.py` lalu `python3 tools/periksa.py`.
+
+## 8 · Versi satu berkas untuk dibuka dari folder unduhan
+
+Gejala yang dilaporkan pemilik (5 Nov 2026): halaman dibuka dari
+`file:///C:/Users/…/Downloads/ssddw.html` dan tampil sebagai HTML mentah —
+tanpa gaya, tanpa gerak, gambar rusak.
+
+Sebabnya bukan CSS-nya hilang, tapi **berkasnya terpisah**: `index.html`
+menautkan `toko.css`, `toko.js`, dan `../assets/…`. Begitu HTML-nya diunduh
+sendirian ke folder Downloads, ketiga tautan itu menunjuk ke tempat kosong.
+
+Solusi: `python3 tools/luring.py` → **`biji-sangrai/biji-sangrai-luring.html`**
+(975 KB), satu berkas yang berisi:
+
+| Isi | Cara disisipkan |
+| --- | --- |
+| `toko.css` | `<style>` di dalam berkas |
+| Huruf | `data:font/ttf;base64` — dipangkas ke karakter yang dipakai |
+| `toko.js` | `<script>` di akhir `<body>` |
+| 9 label biji | `data:image/jpeg;base64`, diperkecil ke 340 px, kualitas 68 |
+| favicon | `data:image/svg+xml;base64` |
+| Tautan antar-halaman | diubah ke `https://nocturnekoffie.id/…` supaya tetap bisa diklik |
+
+Berkas ini **hanya untuk pratinjau/berbagi**. Situs sesungguhnya tetap memakai
+berkas terpisah (`index.html` + `toko.css` + `toko.js` + `assets/`), karena
+versi tunggal mengubah gambar jadi base64 yang tidak bisa di-cache peramban.
+
+Dua cara membuka yang benar:
+
+| Cara | Perintah / langkah |
+| --- | --- |
+| Berkas tunggal | klik dua kali `biji-sangrai-luring.html` — cukup, tidak butuh server |
+| Situs asli | `python3 -m http.server 8080` di folder proyek, buka `localhost:8080/biji-sangrai/` |
+
+Gerbang: cek **Berkas luring** di `periksa.py` menolak bila masih ada aset
+bertautan relatif, CSS/JS belum disisipkan, `@font-face` hilang,
+`prefers-reduced-motion` hilang, tautan WhatsApp hilang, ada biji yang lenyap,
+atau ukuran melewati 2 MB.
+

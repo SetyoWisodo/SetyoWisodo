@@ -134,6 +134,12 @@
       "detail": ""
     },
     {
+      "kategori": "Berkas luring",
+      "status": "lolos",
+      "teks": "1 berkas 975 KB · CSS+JS+huruf+gambar tersisip · 0 tautan aset relatif",
+      "detail": "dibuka langsung dari folder unduhan"
+    },
+    {
       "kategori": "Berat halaman awal",
       "status": "lolos",
       "teks": "98 KB (batas 1.500 KB)",
