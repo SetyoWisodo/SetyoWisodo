@@ -53,6 +53,7 @@ nocturne-koffie/
 ├── tools/prompt.py               pustaka prompt kelas atas: validasi token → prompts/index.html
 ├── tools/biji.py                 biji kopi 3D: poster CPU 640×800 + validasi senyawa
 ├── tools/verifikasi-biji.mjs     uji geometri JS↔Python, mesh, HTML — tanpa GPU
+├── tools/pratinjau.py            skema tata letak hero (1280 & 390 px) dari angka CSS
 ├── prompts/                      8 prompt spesifikasi desain + galeri salin sekali klik
 ├── tools/slop.py                 audit anti-slop (29 aturan) → laporan/slop.md
 ├── tools/periksa.py              gerbang QA: 23 pemeriksaan konsistensi → laporan/periksa.md

@@ -59,6 +59,12 @@ Permintaan pemilik: **biji 3D di kiri layar, motto Nocturne di kanan.**
   `clamp` ke 4,4rem membuat gerbang gagal ("motto meluap di 900px").
 - Di bawah 900 px: satu kolom, teks dulu lalu biji; motto `clamp(1,6rem, 7,2vw, 2,6rem)`.
 
+**Pratinjau:** `python3 tools/pratinjau.py` → `laporan/pratinjau-hero.png`
+(skema 1280 px + 390 px). Skrip ini membaca angka dari CSS dan memakai font asli, jadi
+posisi kiri/kanan serta lebar baris bisa dilihat. Ini **skema, bukan tangkapan layar
+peramban** — Chromium tidak bisa dipasang di sandbox (libnspr4 hilang), dan gambar itu
+menuliskan batas tersebut di dalam dirinya sendiri.
+
 ## 3 · Warna medium roast — hanya dari token
 
 | Peran | Token | Hex |
