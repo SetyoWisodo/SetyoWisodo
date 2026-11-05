@@ -13,7 +13,9 @@ Yang dikerjakan skrip ini (bukan generator gambar — gambarnya dibuat di luar):
    2. memotong ke rasio 4:5 lalu mengecilkan ke 640×800;
    3. memeriksa bahwa keenam titik zona benar-benar jatuh di atas biji
       (pikselnya bukan latar) dan tidak saling menumpuk;
-   4. menulis `assets/img/biji-3d-poster.jpg` + `laporan/biji-render.json`.
+   4. meratakan derau latar ke warna kertas, supaya gambar tidak tampak
+      sebagai kotak di atas halaman;
+   5. menulis `assets/img/biji-3d-poster.webp` + `laporan/biji-render.json`.
 
 Sumber render: `assets/img/biji-render-02.png` (928×1152).
 Titik zona disimpan di `data/biji3d.json` pada kunci `titik_foto` (persen).
@@ -34,13 +36,14 @@ from PIL import Image, ImageStat
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SUMBER = os.path.join(ROOT, "assets", "img", "biji-render-02.png")
-POSTER = os.path.join(ROOT, "assets", "img", "biji-3d-poster.jpg")
+POSTER = os.path.join(ROOT, "assets", "img", "biji-3d-poster.webp")
 DATA = os.path.join(ROOT, "data", "biji3d.json")
 LAPORAN = os.path.join(ROOT, "laporan", "biji-render.json")
 
 KERTAS = (245, 239, 228)   # --paper #F5EFE4 dari data/design-system.json
 LEBAR, TINGGI = 640, 800
-KUALITAS = 86   # JPEG: gambar ini foto, PNG 640×800 jadi 600 KB lebih
+KUALITAS = 82          # WebP: foto + alfa, 66 KB (PNG 640×800 = 600 KB lebih)
+TOLERANSI_DERAU = 6    # piksel sedekat ini ke warna kertas dianggap latar bersih
 
 
 def baca_data() -> dict:
@@ -94,6 +97,75 @@ def potong_4_5(im: Image.Image) -> Image.Image:
     return im.resize((LEBAR, TINGGI), Image.LANCZOS)
 
 
+def rapikan_latar(im: Image.Image) -> Image.Image:
+    """Ratakan vignette latar studio ke warna kertas, tanpa menyentuh biji.
+
+    Render punya latar bergradasi halus (sudut ±235, tengah ±245). Satu
+    pergeseran global tidak cukup; memotong latar jadi transparan menyisakan
+    pita derau; dan mengoreksi semua piksel membuat biji ikut pucat. Jadi:
+
+      1. latar diperkirakan dengan bidang kuadratik yang dipasang hanya pada
+         sel-sel terang (sel yang isinya biji tidak dipakai);
+      2. koreksi diterapkan hanya pada piksel yang dekat dengan bidang itu —
+         biji yang jauh lebih gelap tidak tersentuh;
+      3. sisa derau di dekat warna kertas disetel tepat ke kertas.
+    """
+    import numpy as np
+
+    a = np.asarray(im.convert("RGB")).astype("float32")
+    h, w = a.shape[:2]
+    kertas = np.array(KERTAS, dtype="float32")
+    luma = a[:, :, 0] * 0.299 + a[:, :, 1] * 0.587 + a[:, :, 2] * 0.114
+
+    # 1 · sampel latar: sel 20 px yang mayoritas terang
+    sel = 20
+    xs, ys, vals = [], [], []
+    for y0 in range(0, h - sel + 1, sel):
+        for x0 in range(0, w - sel + 1, sel):
+            blok = luma[y0:y0 + sel, x0:x0 + sel]
+            if float(np.percentile(blok, 50)) < 215:
+                continue                      # sel ini berisi biji — lewati
+            piksel = a[y0:y0 + sel, x0:x0 + sel].reshape(-1, 3)
+            xs.append(x0 + sel / 2)
+            ys.append(y0 + sel / 2)
+            vals.append(np.percentile(piksel, 85, axis=0))
+    if len(xs) < 8:
+        return im                              # latar tidak terbaca: biarkan apa adanya
+
+    xs = np.array(xs) / w
+    ys = np.array(ys) / h
+    vals = np.array(vals)
+    A = np.column_stack([np.ones_like(xs), xs, ys, xs * xs, xs * ys, ys * ys])
+
+    bidang = np.zeros((h, w, 3), dtype="float32")
+    yy, xx = np.mgrid[0:h, 0:w]
+    xx = xx / w
+    yy = yy / h
+    M = np.stack([np.ones_like(xx), xx, yy, xx * xx, xx * yy, yy * yy], axis=-1)
+    for c in range(3):
+        koef, *_ = np.linalg.lstsq(A, vals[:, c], rcond=None)
+        bidang[:, :, c] = M @ koef
+
+    # 2 · koreksi hanya di dekat latar
+    defisit = kertas - bidang
+    jarak = np.abs(a - bidang).max(axis=2)
+    bobot = np.clip(1.0 - (jarak - 8.0) / 16.0, 0.0, 1.0)[:, :, None]
+    hasil = np.clip(a + defisit * bobot, 0, 255)
+
+    # 3 · derau halus di sekitar kertas
+    dekat = np.abs(hasil - kertas).max(axis=2) <= TOLERANSI_DERAU
+    hasil[dekat] = kertas
+
+    # 4 · cincin terluar 2 px dipaksa tepat ke kertas, supaya tepi gambar
+    #     tidak pernah terlihat sebagai garis saat object-fit: cover
+    tepi = 2
+    hasil[:tepi, :] = kertas
+    hasil[-tepi:, :] = kertas
+    hasil[:, :tepi] = kertas
+    hasil[:, -tepi:] = kertas
+    return Image.fromarray(hasil.astype("uint8"), "RGB")
+
+
 def apakah_biji(px: tuple[int, int, int], ambang: int = 60) -> bool:
     """Piksel dianggap biji kalau jauh lebih gelap daripada kertas."""
     return (KERTAS[0] - px[0]) > ambang and (KERTAS[1] - px[1]) > ambang
@@ -134,6 +206,7 @@ def laporan(im: Image.Image, data: dict, catatan: dict) -> dict:
         "poster": os.path.relpath(POSTER, ROOT),
         "ukuran": [im.width, im.height],
         "rasio": round(im.width / im.height, 3),
+        "tepi": "derau latar diratakan ke #F5EFE4 (latar tidak dipotong)",
         "latar": catatan,
         "titik": {z["id"]: z["titik_foto"] for z in data["zona"]},
         "catatan": "Gambar dihasilkan generator gambar, bukan hasil pindai biji "
@@ -152,9 +225,16 @@ def main() -> int:
         return 1
 
     with Image.open(SUMBER) as src:
-        im, catatan = samakan_latar(src.convert("RGB"))
+        im = src.convert("RGB")
+    catatan = {"latar_awal": warna_latar(im)}
     im = potong_4_5(im)
+    im = rapikan_latar(im)
+    catatan["latar_akhir"] = warna_latar(im)
     masalah = periksa(im, data)
+    for xy in ((2, 2), (im.width - 3, 2), (2, im.height - 3), (im.width - 3, im.height - 3)):
+        if max(abs(im.getpixel(xy)[i] - KERTAS[i]) for i in range(3)) > 3:
+            masalah.append(f"sudut {xy} tidak menyatu dengan kertas: {im.getpixel(xy)}")
+    im_rapi = im
 
     if a.cek:
         for m in masalah:
@@ -170,14 +250,14 @@ def main() -> int:
         print("poster tidak ditulis")
         return 1
 
-    im.save(POSTER, "JPEG", quality=KUALITAS, optimize=True, progressive=True)
+    im_rapi.save(POSTER, "WEBP", quality=KUALITAS, method=6)
     with open(LAPORAN, "w", encoding="utf-8") as f:
-        json.dump(laporan(im, data, catatan), f, indent=2, ensure_ascii=False)
+        json.dump(laporan(im_rapi, data, catatan), f, indent=2, ensure_ascii=False)
         f.write("\n")
 
     kb = os.path.getsize(POSTER) / 1024
     print(f"{os.path.relpath(POSTER, ROOT)} · {im.width}×{im.height} · {kb:.0f} KB · "
-          f"latar rgb{catatan['latar_akhir']} (asal rgb{catatan['latar_asal']}) · "
+          f"latar rgb{catatan['latar_akhir']} (asal rgb{catatan['latar_awal']}) · "
           f"{len(data['zona'])} titik di atas biji")
     return 0
 

@@ -1,11 +1,11 @@
 {
   "dibuat": "2026-11-05",
-  "sidik": "1f278eb5fb31b842",
+  "sidik": "cf4f636d9d182050",
   "lolos": 12,
   "gagal": 0,
   "poster": {
-    "berkas": "assets/img/biji-3d-poster.jpg",
-    "ukuran_kb": 53
+    "berkas": "assets/img/biji-3d-poster.webp",
+    "ukuran_kb": 31
   },
   "butir": [
     {
@@ -14,9 +14,9 @@
       "detail": "6 berkas lengkap"
     },
     {
-      "nama": "Poster JPEG 4:5 · 640×800",
+      "nama": "Poster WebP 4:5 · 640×800",
       "ok": true,
-      "detail": "JPEG 640×800 · 53 KB"
+      "detail": "WebP 640×800 · 31 KB"
     },
     {
       "nama": "Skrip membaca data (fetch)",

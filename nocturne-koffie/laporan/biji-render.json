@@ -1,21 +1,17 @@
 {
   "sumber": "assets/img/biji-render-02.png",
-  "poster": "assets/img/biji-3d-poster.jpg",
+  "poster": "assets/img/biji-3d-poster.webp",
   "ukuran": [
     640,
     800
   ],
   "rasio": 0.8,
+  "tepi": "derau latar diratakan ke #F5EFE4 (latar tidak dipotong)",
   "latar": {
-    "latar_asal": [
+    "latar_awal": [
       241,
       236,
       224
-    ],
-    "selisih": [
-      4,
-      3,
-      4
     ],
     "latar_akhir": [
       245,

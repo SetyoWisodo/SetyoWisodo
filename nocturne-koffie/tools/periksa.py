@@ -76,7 +76,7 @@ DATA = [
     "film-studio/hyperframes/index.html", "film-studio/lottie/buat-lottie.mjs",
     "prompts/pustaka.json", "prompts/prompts.json", "skills/desain-prompt/SKILL.md",
     "data/biji3d.json", "assets/js/biji3d.js", "assets/css/biji.css",
-    "assets/img/biji-3d-poster.jpg", "laporan/biji-render.json", "laporan/biji-verifikasi.json",
+    "assets/img/biji-3d-poster.webp", "laporan/biji-render.json", "laporan/biji-verifikasi.json",
     "skills/hero-3d/SKILL.md",
    
 ]
@@ -619,11 +619,11 @@ def periksa(catatan):
             masalah_biji.append("tingkat sangrai bukan medium")
 
         # poster: JPEG 4:5 (render hiper-realistis), bukan PNG mesh lagi
-        pp = os.path.join(ROOT, "assets", "img", "biji-3d-poster.jpg")
+        pp = os.path.join(ROOT, "assets", "img", "biji-3d-poster.webp")
         if os.path.exists(pp):
-            kepala = open(pp, "rb").read(4)
-            if kepala[:2] != b"\xff\xd8":
-                masalah_biji.append("poster bukan JPEG")
+            kepala = open(pp, "rb").read(16)
+            if kepala[:4] != b"RIFF" or kepala[8:12] != b"WEBP":
+                masalah_biji.append("poster bukan WebP")
             else:
                 from PIL import Image
                 with Image.open(pp) as pim:
@@ -632,6 +632,12 @@ def periksa(catatan):
                     masalah_biji.append(f"poster terlalu kecil {pw}x{ph}")
                 if abs(pw / ph - 0.8) > 0.02:
                     masalah_biji.append(f"poster tidak 4:5 ({pw}x{ph})")
+                # latar harus menyatu dengan kertas, bukan kotak bergradasi
+                for xy in ((2, 2), (pw - 3, 2), (2, ph - 3), (pw - 3, ph - 3)):
+                    px = pim.convert("RGB").getpixel(xy)
+                    if max(abs(px[i] - (245, 239, 228)[i]) for i in range(3)) > 4:
+                        masalah_biji.append(f"sudut poster {xy} tidak menyatu dengan #F5EFE4: {px}")
+                        break
         else:
             masalah_biji.append("poster tidak ada")
 
@@ -652,7 +658,7 @@ def periksa(catatan):
         if os.path.exists(lv):
             import hashlib
             ver = json.loads(baca("laporan/biji-verifikasi.json"))
-            with open(os.path.join(ROOT, "assets", "img", "biji-3d-poster.jpg"), "rb") as fp:
+            with open(os.path.join(ROOT, "assets", "img", "biji-3d-poster.webp"), "rb") as fp:
                 poster_bytes = fp.read()
             sidik = hashlib.sha256(
                 baca("data/biji3d.json").encode() + baca("assets/js/biji3d.js").encode() + poster_bytes

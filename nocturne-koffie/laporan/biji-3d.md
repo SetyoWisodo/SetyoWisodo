@@ -7,7 +7,7 @@
 > | Hal | Sebelum | Sekarang |
 > | --- | --- | --- |
 > | Bentuk | mesh parametrik 6.000+ segitiga, digambar WebGL | satu render 3D 640×800 dari generator gambar |
-> | Poster | PNG RGBA hasil `tools/biji.py` | `assets/img/biji-3d-poster.jpg`, 53 KB, latar disamakan `#F5EFE4` |
+> | Poster | PNG RGBA hasil `tools/biji.py` | `assets/img/biji-3d-poster.webp`, 31 KB, latar diratakan ke `#F5EFE4` |
 > | Gerak | putar bebas (yaw/pitch) | kemiringan halus ±7°, kembali sendiri |
 > | Titik 6 zona | proyeksi 3D → layar | `titik_foto` (persen gambar) di `data/biji3d.json` |
 > | Pemeriksa | matematika proyeksi JS ↔ Python | `tools/verifikasi-biji.mjs` 12 butir + `tools/biji_render.py` (titik harus jatuh di biji) |
@@ -165,3 +165,24 @@ python3 tools/periksa.py         # cek "Biji 3D"
 `periksa.py` juga menolak laporan verifikasi yang **basi**: sidik sha256 dari `data/biji3d.json`
 + `assets/js/biji3d.js` harus cocok. Kalau salah satu diubah tanpa menjalankan ulang verifikasi,
 gerbang gagal.
+
+### Catatan teknis pemasangan render (5 Nov 2026)
+
+Render perlu menyatu dengan kertas `#F5EFE4`, kalau tidak ia tampak sebagai kotak
+foto di atas halaman. Tiga percobaan gagal sebelum cara keempat berhasil:
+
+| Percobaan | Hasil |
+| --- | --- |
+| Geser warna global (satu selisih untuk semua piksel) | vignette sudut ±235 vs tengah ±245 tidak tertutup; sudut masih berlatar gelap |
+| Potong latar jadi transparan dengan ambang kecerahan | pita derau tersisa di garis lipatan; tepi bergerigi |
+| Flood fill dari 4 sudut | bayangan asli ikut terhapus, dan derau di garis lipatan jadi bintik putih |
+| **Bidang kuadratik dari sel terang + koreksi lokal + cincin tepi** | **berhasil** — sudut `(245,239,230)`, biji tidak ikut pucat |
+
+Cara terakhir: latar diperkirakan dengan bidang kuadratik yang hanya memakai sel
+20 px yang mayoritas terang (sel berisi biji dilewati). Koreksi diterapkan hanya
+pada piksel yang dekat dengan bidang itu, jadi biji yang jauh lebih gelap tidak
+tersentuh. Dua piksel terluar dipaksa tepat ke warna kertas supaya tidak ada
+garis tepi saat `object-fit: cover`.
+
+`periksa.py` menguji ini: keempat sudut poster harus dalam jarak 4 dari `#F5EFE4`.
+

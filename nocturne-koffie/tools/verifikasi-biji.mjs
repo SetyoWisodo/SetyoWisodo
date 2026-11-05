@@ -36,7 +36,7 @@ const WAJIB = [
   'data/biji3d.json',
   'assets/js/biji3d.js',
   'assets/css/biji.css',
-  'assets/img/biji-3d-poster.jpg',
+  'assets/img/biji-3d-poster.webp',
   'index.html',
   'laporan/biji-render.json'
 ];
@@ -46,23 +46,27 @@ cek('Berkas wajib ada', hilang.length === 0, hilang.length ? 'hilang: ' + hilang
 /* poster: JPEG 4:5, ukuran wajar */
 let posterOk = false;
 let posterDetail = 'poster tidak ada';
-if (ada('assets/img/biji-3d-poster.jpg')) {
-  const buf = bacaBin('assets/img/biji-3d-poster.jpg');
-  const jpeg = buf[0] === 0xff && buf[1] === 0xd8;
+if (ada('assets/img/biji-3d-poster.webp')) {
+  const buf = bacaBin('assets/img/biji-3d-poster.webp');
+  const webp = buf.toString('ascii', 0, 4) === 'RIFF' && buf.toString('ascii', 8, 12) === 'WEBP';
   const kb = Math.round(buf.length / 1024);
-  /* ukuran piksel: cari marker SOF0/SOF2 (0xFFC0-0xFFCF) */
+  /* alfa: chunk VP8X dengan bit ALPHA (0x10) di byte flag */
+  const vp8x = buf.indexOf('VP8X');
   let lebar = 0, tinggi = 0;
-  for (let i = 2; i < buf.length - 9; i++) {
-    if (buf[i] === 0xff && buf[i + 1] >= 0xc0 && buf[i + 1] <= 0xcf && buf[i + 1] !== 0xc4 && buf[i + 1] !== 0xc8 && buf[i + 1] !== 0xcc) {
-      tinggi = buf.readUInt16BE(i + 5);
-      lebar = buf.readUInt16BE(i + 7);
-      break;
+  if (vp8x > 0) {
+    lebar = buf.readUIntLE(vp8x + 12, 3) + 1;
+    tinggi = buf.readUIntLE(vp8x + 15, 3) + 1;
+  } else {
+    const vp8 = buf.indexOf('VP8 ');
+    if (vp8 > 0) {
+      lebar = buf.readUInt16LE(vp8 + 14) & 0x3fff;
+      tinggi = buf.readUInt16LE(vp8 + 16) & 0x3fff;
     }
   }
-  posterOk = jpeg && lebar === 640 && tinggi === 800 && kb < 300;
-  posterDetail = `${jpeg ? 'JPEG' : 'bukan JPEG'} ${lebar}×${tinggi} · ${kb} KB`;
+  posterOk = webp && lebar === 640 && tinggi === 800 && kb < 250;
+  posterDetail = `${webp ? 'WebP' : 'bukan WebP'} ${lebar}×${tinggi} · ${kb} KB`;
 }
-cek('Poster JPEG 4:5 · 640×800', posterOk, posterDetail);
+cek('Poster WebP 4:5 · 640×800', posterOk, posterDetail);
 
 /* ── 2 · data ─────────────────────────────────────────────────────── */
 const data = JSON.parse(baca('data/biji3d.json'));
@@ -131,7 +135,7 @@ cek('Catatan kejujuran tampil', jujur, jujur ? 'menyebut render 3D, bukan pindai
 const sidik = createHash('sha256')
   .update(baca('data/biji3d.json'))
   .update(baca('assets/js/biji3d.js'))
-  .update(bacaBin('assets/img/biji-3d-poster.jpg'))
+  .update(bacaBin('assets/img/biji-3d-poster.webp'))
   .digest('hex')
   .slice(0, 16);
 
@@ -151,7 +155,7 @@ writeFileSync(
     sidik,
     lolos,
     gagal,
-    poster: { berkas: 'assets/img/biji-3d-poster.jpg', ukuran_kb: Math.round(statSync(join(ROOT, 'assets/img/biji-3d-poster.jpg')).size / 1024) },
+    poster: { berkas: 'assets/img/biji-3d-poster.webp', ukuran_kb: Math.round(statSync(join(ROOT, 'assets/img/biji-3d-poster.webp')).size / 1024) },
     butir
   }, null, 2) + '\n',
   'utf8'
