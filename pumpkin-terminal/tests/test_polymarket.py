@@ -14,6 +14,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 
+from longshot_1c import PRICE as LOTTERY_PRICE, run as run_lottery  # noqa: E402
 from polymarket_dual_wallet import HALF_SPREAD, fair_up, run  # noqa: E402
 
 
@@ -58,6 +59,29 @@ class TestDuaDompet(unittest.TestCase):
         add = run(3000, "add", 0.35)
         cut = run(3000, "cut", 0.35)
         self.assertLess(add["ev_pct"], cut["ev_pct"])
+
+
+class TestLongshot(unittest.TestCase):
+    """Tiket 1,2¢: break-even = harga; edge hanya muncul kalau vol salah diukur."""
+
+    def test_harga_wajar_tidak_memberi_edge(self):
+        r = run_lottery(600, k=1.0, ticket=10.0, bankroll=10_000.0)
+        self.assertLess(r["ev_per_contract_c"], 0.0)   # menembus ambang = adverse selection
+        self.assertLess(r["hit_rate_pct"], 100 * LOTTERY_PRICE)
+
+    def test_vol_yang_diremehkan_menghasilkan_edge(self):
+        r = run_lottery(600, k=3.0, ticket=10.0, bankroll=10_000.0)
+        self.assertGreater(r["ev_per_contract_c"], 0.0)
+        self.assertGreater(r["hit_rate_pct"], 100 * LOTTERY_PRICE)
+
+    def test_ev_naik_seiring_kesalahan_vol(self):
+        evs = [run_lottery(400, k=k, ticket=10.0, bankroll=10_000.0)["ev_per_contract_c"]
+               for k in (1.0, 1.5, 2.5)]
+        self.assertEqual(evs, sorted(evs))
+
+    def test_tiket_besar_bangkrut_walau_ev_positif(self):
+        r = run_lottery(600, k=1.2, ticket=2_000.0, bankroll=4_000.0)
+        self.assertTrue(r["ruined"])
 
 
 if __name__ == "__main__":

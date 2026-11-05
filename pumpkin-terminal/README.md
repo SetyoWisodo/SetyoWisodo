@@ -277,6 +277,9 @@ Dua thread lain yang beredar juga saya bedah, dan hasilnya ditulis apa adanya:
   Termasuk eksperimen **dua dompet (UP + DOWN)** yang diuji lewat
   [`tools/polymarket_dual_wallet.py`](tools/polymarket_dual_wallet.py): cut yang kalah
   di 35¢ menghasilkan win rate 67,2% **dan** EV −2,84% per pasang.
+- [`docs/LONGSHOT-1C-REVIEW.md`](docs/LONGSHOT-1C-REVIEW.md) — wallet yang beli kontrak
+  1¢ lalu dibayar $1. Mekanismenya nyata, tapi yang ditampilkan cuma pembilang tanpa
+  penyebut; dan pada harga wajar, membeli di ekor justru **−37%** (adverse selection).
 
 ### Menjalankan
 
@@ -465,7 +468,7 @@ pumpkin-terminal/
 ├── docs/MATEMATIKA.md      hit-rate impas, required TP, EV, Kelly, survival
 ├── docs/SOCIAL-ALPHA-RESEARCH.md  riset tooling sosial + apa yang tidak diambil
 ├── docs/QUANT-STACK.md     10 repo kuant dari thread X: diambil/dibuang + hasil uji
-└── tests/                  100 test: filter, stop, trailing, invariant, p̂, Kelly, IC, CVaR
+└── tests/                  104 test: filter, stop, trailing, invariant, p̂, Kelly, IC, CVaR
 ```
 
 ```bash
