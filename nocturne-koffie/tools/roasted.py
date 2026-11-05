@@ -78,12 +78,13 @@ def daftar_biji(katalog: dict) -> str:
     baris = []
     for p in katalog["products"]:
         mulai = min(v["price"] for v in p["variants"])
-        kecil = p["variants"][0]["weight"].replace(" ", "")
-        besar = p["variants"][-1]["weight"].replace(" ", "")
+        kecil = p["variants"][0]["weight"]
+        besar = p["variants"][-1]["weight"]
         tempat = p["region"]
         if p.get("district") and p["district"] != p["region"]:
             tempat = f'{p["district"]}, {p["region"]}'
-        elev = p.get("elevation") or "—"
+        # blend tidak punya ketinggian tunggal: tulis apa adanya, jangan tanda hubung
+        elev = p.get("elevation") or "campuran lot"
         pesan = (
             f"Halo Nocturne, saya mau pesan {p['name']} "
             f"({p['category']}). Boleh info stok dan tanggal sangrai terbaru?"
@@ -108,12 +109,15 @@ def daftar_biji(katalog: dict) -> str:
 def kartu_rasa(katalog: dict) -> str:
     kartu = []
     for i, p in enumerate(katalog["products"]):
-        catatan = p["notes"]
-        if len(catatan) > 1:
-            teks = ", ".join(html.escape(n).lower() for n in catatan[:-1])
-            teks += f" dan <em>{html.escape(catatan[-1]).lower()}</em>"
+        catatan = [n.lower() for n in p["notes"]]
+        catatan[0] = catatan[0][:1].upper() + catatan[0][1:]
+        if len(catatan) > 2:
+            teks = ", ".join(html.escape(n) for n in catatan[:-1])
+            teks += f", dan <em>{html.escape(catatan[-1])}</em>"
+        elif len(catatan) == 2:
+            teks = f"{html.escape(catatan[0])} dan <em>{html.escape(catatan[1])}</em>"
         else:
-            teks = f"<em>{html.escape(catatan[0]).lower()}</em>"
+            teks = f"<em>{html.escape(catatan[0])}</em>"
         tempat = p["region"]
         if p.get("district") and p["district"] != p["region"]:
             tempat = f'{p["district"]}, {p["region"]}'
@@ -122,9 +126,9 @@ def kartu_rasa(katalog: dict) -> str:
           <blockquote class="rasa__kutip">{teks}.</blockquote>
           <figcaption class="rasa__meta">
             <span><b>{html.escape(p['name'])}</b></span>
-            <span>{html.escape(tempat)} · {html.escape(p.get('elevation') or '—')}</span>
+            <span>{html.escape(tempat)} · {html.escape(p.get('elevation') or 'campuran lot')}</span>
             <span>{html.escape(p['process'])}</span>
-            <span>Petani: {html.escape(p['farmer'])}</span>
+            <span>{'Petani: ' + html.escape(p['farmer']) if p.get('farmer') else 'Racikan Nocturne'}</span>
           </figcaption>
         </figure>"""
         )
@@ -146,17 +150,22 @@ def pita(katalog: dict) -> str:
 def kata_kata(teks: str) -> str:
     """Pecah intro jadi kata; kalimat terakhir diserif-miringkan.
 
-    Tanpa JavaScript semua kata tetap terbaca (warna redup hanya diaktifkan
-    ketika kelas `js` ada di <html>).
+    Titik kalimat menempel pada kata terakhirnya — bukan span sendiri, supaya
+    tidak ada spasi menggantung sebelum titik dan tidak ada titik dobel.
+    Tanpa JavaScript semua kata tetap terbaca; warna redup hanya aktif ketika
+    kelas `js` ada di <html>.
     """
     kalimat = [k.strip() for k in teks.split(". ") if k.strip()]
     keluaran, total = [], len(kalimat)
     for i, kal in enumerate(kalimat):
-        akhir = "." if i == total - 1 else "."
+        kal = kal.rstrip(".")
         kelas = "kata kata--serif" if i == total - 1 else "kata"
-        for kata in kal.split():
-            keluaran.append(f'<span class="{kelas}">{html.escape(kata)}</span>')
-        keluaran.append(f'<span class="kata">{akhir}</span>')
+        kata = kal.split()
+        for j, w in enumerate(kata):
+            isi = html.escape(w)
+            if j == len(kata) - 1:
+                isi += "."
+            keluaran.append(f'<span class="{kelas}">{isi}</span>')
     return "\n        ".join(keluaran)
 
 
@@ -366,7 +375,7 @@ def bangun(katalog: dict, ds: dict) -> str:
       </div>
       <p class="catatan-kecil">
         <b>Harga di atas untuk 100 g.</b> Ukuran 250 g, 500 g, dan 1 kg punya harga sendiri —
-        klik pesan untuk daftar lengkapnya. Semua {n['jumlah']} biji berstatus tersedia saat halaman ini dibuat.
+        klik pesan untuk daftar lengkapnya. Seluruh biji di tabel berstatus tersedia saat halaman ini dibuat.
         Level sangrai tercatat 1–5; level 3 berarti medium.
       </p>
     </div>
