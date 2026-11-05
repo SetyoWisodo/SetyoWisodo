@@ -51,8 +51,9 @@ nocturne-koffie/
 ├── tools/film.py                 lembar film: 540 frame, 120 BPM, arc energi, cue suara
 ├── tools/render_film.py          perender klip 9:16 (540 frame Pillow → ffmpeg H.264)
 ├── tools/prompt.py               pustaka prompt kelas atas: validasi token → prompts/index.html
-├── tools/biji.py                 biji kopi 3D: poster CPU 640×800 + validasi senyawa
-├── tools/verifikasi-biji.mjs     uji geometri JS↔Python, mesh, HTML — tanpa GPU
+├── tools/biji.py                 validasi zona & senyawa biji (perender mesh: lama)
+├── tools/biji_render.py          pasang render hiper-realistis → biji-3d-poster.jpg
+├── tools/verifikasi-biji.mjs     uji data, poster, titik, markup — 12 butir tanpa peramban
 ├── tools/pratinjau.py            skema tata letak hero (1280 & 390 px) dari angka CSS
 ├── biji-sangrai/                 landing roasted beans: toko.css, toko.js, index.html (generated)
 ├── prompts/                      8 prompt spesifikasi desain + galeri salin sekali klik

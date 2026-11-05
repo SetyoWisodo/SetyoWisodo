@@ -1,55 +1,72 @@
 {
   "dibuat": "2026-11-05",
-  "sidik": "2c9fd24a89bed256",
-  "lolos": 9,
+  "sidik": "1f278eb5fb31b842",
+  "lolos": 12,
   "gagal": 0,
-  "selisih_proyeksi_maks_persen": 0.005,
+  "poster": {
+    "berkas": "assets/img/biji-3d-poster.jpg",
+    "ukuran_kb": 53
+  },
   "butir": [
     {
-      "nama": "Skrip WebGL dimuat",
+      "nama": "Berkas wajib ada",
       "ok": true,
-      "detail": "NocturneBiji3D tersedia (buatBiji, kamera, proyeksiLayar)"
+      "detail": "6 berkas lengkap"
     },
     {
-      "nama": "Angka dari data, bukan JS",
+      "nama": "Poster JPEG 4:5 · 640×800",
       "ok": true,
-      "detail": "tidak ada geometri yang ditulis ulang di JS"
+      "detail": "JPEG 640×800 · 53 KB"
     },
     {
-      "nama": "Tanpa pustaka 3D dari CDN",
+      "nama": "Skrip membaca data (fetch)",
       "ok": true,
-      "detail": "nol referensi CDN"
+      "detail": "fetch + titik_foto dipakai"
     },
     {
-      "nama": "JS = Python (proyeksi)",
+      "nama": "Setiap zona punya titik_foto",
       "ok": true,
-      "detail": "selisih maksimum 0.00% · 6 titik"
+      "detail": "6 zona"
     },
     {
-      "nama": "Mesh & normal",
+      "nama": "Titik di dalam bingkai",
       "ok": true,
-      "detail": "3280 vertex · 100.0% normal keluar (sisa 1,2% = kutub, fallback radial) · setengah panjang 0.942 · tebal 1.245 · NaN 0 · galat unit 3.8e-17"
+      "detail": "semua 5–95%"
     },
     {
-      "nama": "Alur terbentuk",
+      "nama": "Titik tidak menumpuk",
       "ok": true,
-      "detail": "tengah z=-0.458 vs pinggir z=0.391"
+      "detail": "jarak semua ≥ 8%"
     },
     {
-      "nama": "HTML titik ↔ zona",
+      "nama": "Tombol HTML = zona data",
       "ok": true,
-      "detail": "6 tombol · 6 blok zona · semua id cocok"
+      "detail": "6 tombol · 6 zona"
     },
     {
-      "nama": "Poster PNG beralfa",
+      "nama": "Label tombol menyebut zona berurutan",
       "ok": true,
-      "detail": "640×800 · 104 KB · RGBA"
+      "detail": "1=Cekungan tengah · 2=Kulit sangrai · 3=Inti biji · 4=Bintik minyak · 5=Ujung biji · 6=Daging & serat"
     },
     {
-      "nama": "Warna hanya dari data",
+      "nama": "<details> 6 zona tanpa JS",
       "ok": true,
-      "detail": "JS 0 hex · Python 0 hex"
+      "detail": "6 blok zona di <details>"
+    },
+    {
+      "nama": "Hormat prefers-reduced-motion",
+      "ok": true,
+      "detail": "CSS + JS"
+    },
+    {
+      "nama": "Tanpa pustaka 3D / sisa WebGL",
+      "ok": true,
+      "detail": "bersih"
+    },
+    {
+      "nama": "Catatan kejujuran tampil",
+      "ok": true,
+      "detail": "menyebut render 3D, bukan pindai"
     }
-  ],
-  "catatan": "Dijalankan tanpa GPU. Memeriksa matematika geometri, kecocokan JS<->Python, struktur HTML, dan poster. Bukan render WebGL."
+  ]
 }

@@ -1,10 +1,17 @@
+> **Revisi 5 Nov 2026.** Biji di beranda tidak lagi digambar sebagai mesh
+> WebGL. Bentuknya sekarang **render hiper-realistis** (`assets/img/biji-render-02.png`
+> → `assets/img/biji-3d-poster.jpg` lewat `tools/biji_render.py`), dengan enam
+> titik di atas gambar (`titik_foto`, persen) dan kemiringan halus ±7°.
+> Bagian WebGL di bawah adalah cara lama — jangan dipakai untuk membuat hero baru.
+> Alasan penggantian: mesh parametrik terbaca seperti gumpalan cokelat, bukan biji.
+
 # Hero 3D — Satu Biji Kopi, Senyawa di Dalamnya
 
 Sumber gagasan: tag **3D** di motionsite.ai (13 item) dan header 3D di jiro.build, ditambah
 kebutuhan brand sendiri: hero Nocturne harus menunjukkan **benda** yang bisa disentuh, bukan
 foto orang minum kopi.
 
-Hasil kerja: `index.html` hero + `assets/js/biji3d.js` (WebGL ±18 KB) + `assets/img/biji-3d-poster.png`
+Hasil kerja (lama): `index.html` hero + `assets/js/biji3d.js` (WebGL ±18 KB) + poster PNG mesh
 (640×800) + `data/biji3d.json` (bentuk, warna, 6 zona, 12 senyawa, 4 sumber literatur).
 
 ## Kapan dipakai

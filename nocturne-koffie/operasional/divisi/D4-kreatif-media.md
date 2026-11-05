@@ -303,7 +303,7 @@ disentuh. Setiap titik di permukaannya membuka senyawa yang ada di dalam biji.
 | --- | --- | --- |
 | Data | `data/biji3d.json` | bentuk, warna, 6 zona, 12 senyawa, 4 sumber literatur |
 | Renderer | `assets/js/biji3d.js` | WebGL tanpa pustaka, ±18 KB |
-| Poster | `assets/img/biji-3d-poster.png` | 640×800 RGBA, gambar awal & cadangan |
+| Poster | `assets/img/biji-3d-poster.jpg` | render 640×800 (4:5), 53 KB, latar `#F5EFE4` |
 | Verifikasi | `tools/verifikasi-biji.mjs` + `tools/biji.py` | 9 lolos tanpa GPU |
 
 Aturan yang mengikat:
@@ -326,6 +326,12 @@ Aturan yang mengikat:
 "Kopi dari petani. Diseduh untukmu." turun jadi baris pendukung. Motto disimpan di
 `data/catalog.json#brand.motto`; ukurannya diukur dengan metrik font asli oleh gerbang.
 Jangan menaikkan ukuran motto tanpa menjalankan `python3 tools/periksa.py`.
+
+**Revisi 5 Nov 2026:** biji di beranda diganti **render hiper-realistis**
+(`assets/img/biji-3d-poster.jpg`), bukan mesh WebGL lagi. Bangun ulang dengan
+`python3 tools/biji_render.py`; periksa dengan `node tools/verifikasi-biji.mjs`
+(12 butir) dan `python3 tools/periksa.py`. Enam titik zona memakai `titik_foto`
+(persen gambar) dan wajib jatuh di atas biji — skrip render menolaknya kalau tidak.
 
 Laporan: `laporan/biji-3d.md`.
 

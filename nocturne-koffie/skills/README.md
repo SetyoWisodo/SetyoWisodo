@@ -24,7 +24,7 @@ diadaptasi dari tiga sumber: kerangka *social media research skills*, disiplin b
 | [`motion-web`](motion-web/SKILL.md) | D4 + D3 | membuat gerak halaman / landing page, atau memeriksa "apakah ini terlihat buatan mesin" | `motion/index.html`, 5 adegan 9:16, `laporan/slop.md` |
 | [`motion-film`](motion-film/SKILL.md) | D4 | mengubah 5 skrip studio jadi klip yang framenya konsisten: ketukan, arc energi, cue suara | `motion/film-sheet.md` + `.json` (540 frame, 120 BPM) |
 | [`desain-prompt`](desain-prompt/SKILL.md) | D4 + D3 | membangun/merombak halaman dengan brief yang tokennya bisa diperiksa mesin | `prompts/pustaka.json` (9 prompt), `prompts/index.html` |
-| [`hero-3d`](hero-3d/SKILL.md) | D4 | hero objek 3D: bentuk parametrik, titik senyawa, poster + WebGL | `index.html` hero, `assets/js/biji3d.js`, `assets/img/biji-3d-poster.png` |
+| [`hero-3d`](hero-3d/SKILL.md) | D4 | hero objek 3D: render hiper-realistis, 6 titik senyawa, kemiringan halus | `index.html` hero, `assets/js/biji3d.js`, `assets/img/biji-3d-poster.jpg` |
 
 Dua perintah menjalankan keempatnya (urutannya penting: studio membaca hasil riset):
 

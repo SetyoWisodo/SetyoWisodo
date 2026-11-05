@@ -1,177 +1,160 @@
 /**
- * Verifikasi biji 3D — tanpa browser, tanpa dependensi.
+ * Verifikasi biji kopi beranda — tanpa peramban, tanpa dependensi.
  *
  *   node tools/verifikasi-biji.mjs
  *
- * Yang diperiksa:
- *  1. Skrip WebGL (`assets/js/biji3d.js`) memuat data dari `data/biji3d.json`
- *     dan tidak menulis angka geometri sendiri.
- *  2. Geometri JS = geometri Python. Titik senyawa diproyeksikan memakai
- *     kamera yang sama, lalu dibandingkan dengan posisi di
- *     `laporan/biji-3d.json` (hasil render CPU oleh tools/biji.py).
- *     Kalau kedua sisi tidak sinkron, hasilnya akan berbeda jauh.
- *  3. Mesh: jumlah vertex, batas ruang (biji tidak lebih besar dari 2,0),
- *     normal menghadap keluar, kedalaman alur > 0.
- *  4. HTML: jumlah tombol titik = jumlah zona; semua id zona ada di panel.
- *  5. Tidak ada pustaka 3D dari CDN.
+ * Yang diperiksa (versi 2, 5 Nov 2026 — render hiper-realistis, bukan mesh WebGL):
+ *   1. berkas wajib ada dan poster benar-benar JPEG 4:5
+ *   2. skrip membaca data lewat fetch, bukan menulis angka sendiri
+ *   3. setiap zona punya titik_foto dua angka 0–100
+ *   4. tidak ada titik yang menumpuk atau keluar dari gambar
+ *   5. tombol di HTML cocok satu-satu dengan zona di data
+ *   6. urutan & aria-label tombol menyebut nama zona yang benar
+ *   7. <details> 6 zona tetap ada untuk pembaca tanpa JavaScript
+ *   8. jalur prefers-reduced-motion ada di CSS maupun JS
+ *   9. tanpa pustaka 3D dari CDN, tanpa sisa jalur WebGL
+ *  10. catatan kejujuran menyebut render, bukan pindai
  *
- * Yang TIDAK diperiksa: hasil render WebGL sesungguhnya (butuh GPU + browser).
+ * Keluaran: laporan/biji-verifikasi.json (berisi sidik sha256 supaya
+ * periksa.py bisa menolak laporan yang basi).
  */
-import { readFileSync, writeFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { dirname, resolve } from 'node:path';
+import { readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
+import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import vm from 'node:vm';
 
-const here = dirname(fileURLToPath(import.meta.url));
-const root = resolve(here, '..');
-const baca = (p) => readFileSync(resolve(root, p), 'utf8');
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+const baca = (rel) => readFileSync(join(ROOT, rel), 'utf8');
+const bacaBin = (rel) => readFileSync(join(ROOT, rel));
+const ada = (rel) => existsSync(join(ROOT, rel));
 
-const hasil = [];
-const catat = (nama, ok, detail) => {
-  hasil.push({ nama, ok, detail });
-  console.log(`  ${ok ? 'OK  ' : 'XX  '} ${nama.padEnd(24)} ${detail}`);
-};
+const butir = [];
+const cek = (nama, ok, detail = '') => butir.push({ nama, ok: !!ok, detail });
 
-/* ── 1 · muat skrip dengan shim window/document minimal ─────────────────── */
-const sandbox = {
-  window: {
-    matchMedia: () => ({ matches: false, addEventListener() {} }),
-    innerWidth: 1280,
-    devicePixelRatio: 2,
-    addEventListener() {},
-    requestAnimationFrame() { return 0; },
-    cancelAnimationFrame() {},
-    IntersectionObserver: undefined,
-  },
-  document: {
-    readyState: 'complete',
-    querySelectorAll: () => [],
-    addEventListener() {},
-  },
-  performance: { now: () => 0 },
-  console,
-  fetch: () => Promise.reject(new Error('tidak dipakai')),
-  setTimeout,
-  clearTimeout,
-};
-sandbox.globalThis = sandbox;
-vm.createContext(sandbox);
-vm.runInContext(baca('assets/js/biji3d.js'), sandbox, { filename: 'biji3d.js' });
-
-const lib = sandbox.window.NocturneBiji3D;
-const data = JSON.parse(baca('data/biji3d.json'));
-
-catat('Skrip WebGL dimuat', !!lib && typeof lib.buatBiji === 'function',
-  lib ? 'NocturneBiji3D tersedia (buatBiji, kamera, proyeksiLayar)' : 'tidak ada');
-
-const kode = baca('assets/js/biji3d.js');
-const angkaKeras = [
-  ['0.62', 'sumbu b'],
-  ['0.46', 'sumbu c'],
-  ['0.72', 'faktor ratakan'],
+/* ── 1 · berkas wajib ─────────────────────────────────────────────── */
+const WAJIB = [
+  'data/biji3d.json',
+  'assets/js/biji3d.js',
+  'assets/css/biji.css',
+  'assets/img/biji-3d-poster.jpg',
+  'index.html',
+  'laporan/biji-render.json'
 ];
-const keras = angkaKeras.filter(([n]) => kode.includes(n));
-catat('Angka dari data, bukan JS', keras.length === 0,
-  keras.length ? `JS menulis ulang: ${keras.map((k) => k[1]).join(', ')}` : 'tidak ada geometri yang ditulis ulang di JS');
+const hilang = WAJIB.filter((f) => !ada(f));
+cek('Berkas wajib ada', hilang.length === 0, hilang.length ? 'hilang: ' + hilang.join(', ') : `${WAJIB.length} berkas lengkap`);
 
-const cdn = ['cdn.jsdelivr.net', 'unpkg.com', 'three.min.js', 'cdnjs.cloudflare.com'].filter((c) => kode.includes(c));
-catat('Tanpa pustaka 3D dari CDN', cdn.length === 0, cdn.length ? cdn.join(', ') : 'nol referensi CDN');
-
-/* ── 2 · geometri: JS vs Python ─────────────────────────────────────────── */
-const biji = lib.buatBiji(data);
-const cam = lib.kamera(data.kamera);
-const W = 640, H = 800, aspek = W / H;
-const laporan = JSON.parse(baca('laporan/biji-3d.json'));
-const posPython = new Map(laporan.posisi_layar_persen.map((p) => [p.id, p]));
-
-let selisihMaks = 0;
-const baris = [];
-for (const z of data.zona) {
-  const p = biji.arahKePermukaan(z.arah);
-  const layar = lib.proyeksiLayar(cam, p, W, H, aspek);
-  const x = (layar[0] / W) * 100;
-  const y = (layar[1] / H) * 100;
-  const ref = posPython.get(z.id);
-  const dx = Math.abs(x - ref.x);
-  const dy = Math.abs(y - ref.y);
-  selisihMaks = Math.max(selisihMaks, dx, dy);
-  baris.push(`${z.id} Δ${Math.max(dx, dy).toFixed(2)}%`);
+/* poster: JPEG 4:5, ukuran wajar */
+let posterOk = false;
+let posterDetail = 'poster tidak ada';
+if (ada('assets/img/biji-3d-poster.jpg')) {
+  const buf = bacaBin('assets/img/biji-3d-poster.jpg');
+  const jpeg = buf[0] === 0xff && buf[1] === 0xd8;
+  const kb = Math.round(buf.length / 1024);
+  /* ukuran piksel: cari marker SOF0/SOF2 (0xFFC0-0xFFCF) */
+  let lebar = 0, tinggi = 0;
+  for (let i = 2; i < buf.length - 9; i++) {
+    if (buf[i] === 0xff && buf[i + 1] >= 0xc0 && buf[i + 1] <= 0xcf && buf[i + 1] !== 0xc4 && buf[i + 1] !== 0xc8 && buf[i + 1] !== 0xcc) {
+      tinggi = buf.readUInt16BE(i + 5);
+      lebar = buf.readUInt16BE(i + 7);
+      break;
+    }
+  }
+  posterOk = jpeg && lebar === 640 && tinggi === 800 && kb < 300;
+  posterDetail = `${jpeg ? 'JPEG' : 'bukan JPEG'} ${lebar}×${tinggi} · ${kb} KB`;
 }
-catat('JS = Python (proyeksi)', selisihMaks < 0.6,
-  `selisih maksimum ${selisihMaks.toFixed(2)}% · ${baris.length} titik`);
+cek('Poster JPEG 4:5 · 640×800', posterOk, posterDetail);
 
-/* ── 3 · mesh ───────────────────────────────────────────────────────────── */
-const [rx, ry] = [40, 80];
-let minY = 99, maxY = -99, maxX = -99, normalKeluar = 0, total = 0, nan = 0, panjangNormal = 0;
-const pusat = [];
-for (let i = 0; i <= rx; i++) {
-  const tx = (Math.PI * i) / rx;
-  for (let j = 0; j < ry; j++) {
-    const tp = (2 * Math.PI * j) / ry;
-    const p = biji.titik(tx, tp);
-    const n = biji.normal(tx, tp);
-    total++;
-    if (p[1] < minY) minY = p[1];
-    if (p[1] > maxY) maxY = p[1];
-    if (Math.abs(p[0]) > maxX) maxX = Math.abs(p[0]);
-    if (n[0] * p[0] + n[1] * p[1] + n[2] * p[2] > 0) normalKeluar++;
-    if (!Number.isFinite(p[0] + p[1] + p[2] + n[0] + n[1] + n[2])) nan++;
-    panjangNormal += Math.abs(Math.hypot(n[0], n[1], n[2]) - 1);
-    if (i === Math.floor(rx / 2)) pusat.push(p);
+/* ── 2 · data ─────────────────────────────────────────────────────── */
+const data = JSON.parse(baca('data/biji3d.json'));
+const js = baca('assets/js/biji3d.js');
+const idx = baca('index.html');
+const css = baca('assets/css/biji.css');
+const zona = data.zona || [];
+
+cek('Skrip membaca data (fetch)', js.includes('fetch(') && js.includes('titik_foto'),
+  js.includes('titik_foto') ? 'fetch + titik_foto dipakai' : 'titik_foto tidak dipakai');
+
+/* ── 3 · titik_foto ───────────────────────────────────────────────── */
+const tanpaTitik = zona.filter((z) => !Array.isArray(z.titik_foto) || z.titik_foto.length !== 2);
+const luar = zona.filter((z) => Array.isArray(z.titik_foto) &&
+  (z.titik_foto[0] < 5 || z.titik_foto[0] > 95 || z.titik_foto[1] < 5 || z.titik_foto[1] > 95));
+cek('Setiap zona punya titik_foto', tanpaTitik.length === 0,
+  tanpaTitik.length ? 'tanpa titik: ' + tanpaTitik.map((z) => z.id).join(', ') : `${zona.length} zona`);
+cek('Titik di dalam bingkai', luar.length === 0,
+  luar.length ? 'keluar: ' + luar.map((z) => z.id).join(', ') : 'semua 5–95%');
+
+/* ── 4 · jarak antar titik ────────────────────────────────────────── */
+let rapat = '';
+for (let i = 0; i < zona.length; i++) {
+  for (let j = i + 1; j < zona.length; j++) {
+    const a = zona[i].titik_foto, b = zona[j].titik_foto;
+    const d = Math.hypot(a[0] - b[0], (a[1] - b[1]) * 0.8);
+    if (d < 8) rapat += `${zona[i].id}–${zona[j].id} (${d.toFixed(1)}%) `;
   }
 }
-const lebarAlur = Math.min(...pusat.map((p) => p[2]));
-const tebalPinggir = Math.max(...pusat.map((p) => p[2]));
-const persenKeluar = (normalKeluar / total) * 100;
-const ralatNormal = panjangNormal / total;
-catat('Mesh & normal', nan === 0 && persenKeluar > 97 && maxX <= 1.001 && ralatNormal < 1e-6,
-  `${total} vertex · ${persenKeluar.toFixed(1)}% normal keluar (sisa 1,2% = kutub, fallback radial) · `
-  + `setengah panjang ${maxX.toFixed(3)} · tebal ${(maxY - minY).toFixed(3)} · NaN ${nan} · galat unit ${ralatNormal.toExponential(1)}`);
-catat('Alur terbentuk', lebarAlur < tebalPinggir * 0.72,
-  `tengah z=${lebarAlur.toFixed(3)} vs pinggir z=${tebalPinggir.toFixed(3)}`);
+cek('Titik tidak menumpuk', rapat === '', rapat || 'jarak semua ≥ 8%');
 
-/* ── 4 · HTML ───────────────────────────────────────────────────────────── */
-const html = baca('index.html');
-const tombol = (html.match(/data-biji-titik="/g) || []).length;
-const zonaHtml = (html.match(/data-biji-zona="/g) || []).length;
-const idZona = data.zona.map((z) => z.id);
-const semuaAda = idZona.every((id) => html.includes(`data-biji-titik="${id}"`) && html.includes(`data-biji-zona="${id}"`));
-catat('HTML titik ↔ zona', tombol === idZona.length && zonaHtml === idZona.length && semuaAda,
-  `${tombol} tombol · ${zonaHtml} blok zona · semua id cocok`);
+/* ── 5 · tombol HTML ↔ zona ───────────────────────────────────────── */
+const idsData = zona.map((z) => z.id).sort();
+const idsHtml = [...idx.matchAll(/data-biji-titik="([^"]+)"/g)].map((m) => m[1]).sort();
+cek('Tombol HTML = zona data', JSON.stringify(idsData) === JSON.stringify(idsHtml),
+  `${idsHtml.length} tombol · ${idsData.length} zona`);
 
-const poster = readFileSync(resolve(root, 'assets/img/biji-3d-poster.png'));
-const pngOk = poster.subarray(1, 4).toString() === 'PNG';
-const pw = poster.readUInt32BE(16), ph = poster.readUInt32BE(20);
-const tipeWarna = poster[25];   // 6 = RGBA
-catat('Poster PNG beralfa', pngOk && pw >= 400 && ph >= 500 && tipeWarna === 6,
-  `${pw}×${ph} · ${(poster.length / 1024).toFixed(0)} KB · ${tipeWarna === 6 ? 'RGBA' : 'tanpa alfa'}`);
+/* ── 6 · urutan & label tombol ────────────────────────────────────── */
+const urutan = [...idx.matchAll(/aria-label="Titik (\d+): ([^—]+)—/g)];
+const cocokUrut = urutan.length === zona.length &&
+  urutan.every((m, i) => Number(m[1]) === i + 1 && zona[i].nama.toLowerCase().startsWith(m[2].trim().toLowerCase().split(' ')[0]));
+cek('Label tombol menyebut zona berurutan', cocokUrut,
+  urutan.map((m) => `${m[1]}=${m[2].trim()}`).join(' · ') || 'pola aria-label tidak ditemukan');
 
-const hexDiJs = (kode.match(/#[0-9a-fA-F]{6}/g) || []);
-const hexDiPy = (baca('tools/biji.py').match(/#[0-9a-fA-F]{6}/g) || []);
-catat('Warna hanya dari data', hexDiJs.length === 0 && hexDiPy.length === 0,
-  `JS ${hexDiJs.length} hex · Python ${hexDiPy.length} hex`);
+/* ── 7 · tanpa JavaScript tetap terbaca ───────────────────────────── */
+const blokDetail = (idx.match(/data-biji-zona="/g) || []).length;
+cek('<details> 6 zona tanpa JS', blokDetail === zona.length && idx.includes('<details'),
+  `${blokDetail} blok zona di <details>`);
 
-const gagal = hasil.filter((h) => !h.ok).length;
+/* ── 8 · reduced motion ───────────────────────────────────────────── */
+cek('Hormat prefers-reduced-motion', css.includes('prefers-reduced-motion') && js.toLowerCase().includes('reduced'),
+  'CSS + JS');
 
-/* sidik jari: kalau data atau skrip berubah tanpa verifikasi dijalankan ulang,
-   tools/periksa.py akan menolak laporan yang basi ini */
+/* ── 9 · tanpa CDN / sisa WebGL ───────────────────────────────────── */
+const cdn = ['three.min.js', 'three.module', 'cdn.jsdelivr', 'unpkg.com', 'skypack'];
+const kenaCdn = cdn.filter((p) => idx.includes(p) || js.includes(p));
+const sisaWebgl = js.includes('getContext(') || idx.includes('data-biji-kanvas');
+cek('Tanpa pustaka 3D / sisa WebGL', kenaCdn.length === 0 && !sisaWebgl,
+  kenaCdn.length ? 'CDN: ' + kenaCdn.join(', ') : (sisaWebgl ? 'masih ada jalur kanvas' : 'bersih'));
+
+/* ── 10 · kejujuran ───────────────────────────────────────────────── */
+const jujur = /render 3D/i.test(idx) && /bukan hasil pindai/i.test(idx);
+cek('Catatan kejujuran tampil', jujur, jujur ? 'menyebut render 3D, bukan pindai' : 'catatan tidak sesuai');
+
+/* ── keluaran ─────────────────────────────────────────────────────── */
 const sidik = createHash('sha256')
   .update(baca('data/biji3d.json'))
   .update(baca('assets/js/biji3d.js'))
+  .update(bacaBin('assets/img/biji-3d-poster.jpg'))
   .digest('hex')
   .slice(0, 16);
 
-writeFileSync(resolve(root, 'laporan/biji-verifikasi.json'), JSON.stringify({
-  dibuat: new Date().toISOString().slice(0, 10),
-  sidik,
-  lolos: hasil.length - gagal,
-  gagal,
-  selisih_proyeksi_maks_persen: Number(selisihMaks.toFixed(3)),
-  butir: hasil.map((h) => ({ nama: h.nama, ok: h.ok, detail: h.detail })),
-  catatan: 'Dijalankan tanpa GPU. Memeriksa matematika geometri, kecocokan JS<->Python, '
-    + 'struktur HTML, dan poster. Bukan render WebGL.',
-}, null, 2) + '\n');
-console.log(`\n  ${hasil.length - gagal} lolos · ${gagal} gagal`);
-console.log('  Catatan: ini memeriksa matematika & berkas, bukan hasil render WebGL.\n');
+const lolos = butir.filter((b) => b.ok).length;
+const gagal = butir.length - lolos;
+
+for (const b of butir) {
+  console.log(`  ${b.ok ? 'OK ' : 'XX '}  ${b.nama.padEnd(32)} ${b.detail}`);
+}
+console.log(`\n  ${lolos} lolos · ${gagal} gagal`);
+console.log('  Catatan: ini memeriksa data, gambar, dan markup — bukan hasil render di peramban.');
+
+writeFileSync(
+  join(ROOT, 'laporan/biji-verifikasi.json'),
+  JSON.stringify({
+    dibuat: new Date().toISOString().slice(0, 10),
+    sidik,
+    lolos,
+    gagal,
+    poster: { berkas: 'assets/img/biji-3d-poster.jpg', ukuran_kb: Math.round(statSync(join(ROOT, 'assets/img/biji-3d-poster.jpg')).size / 1024) },
+    butir
+  }, null, 2) + '\n',
+  'utf8'
+);
+
 process.exit(gagal ? 1 : 0);

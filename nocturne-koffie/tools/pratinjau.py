@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CSS = ROOT / "assets" / "css" / "biji.css"
 CATALOG = ROOT / "data" / "catalog.json"
 DESIGN = ROOT / "data" / "design-system.json"
-POSTER = ROOT / "assets" / "img" / "biji-3d-poster.png"
+POSTER = ROOT / "assets" / "img" / "biji-3d-poster.jpg"
 FONT_DIR = ROOT / "assets" / "fonts"
 
 F_JUDUL = FONT_DIR / "bricolage-grotesque-latin-800-normal.ttf"

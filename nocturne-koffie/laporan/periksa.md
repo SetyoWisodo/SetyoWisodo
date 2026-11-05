@@ -30,7 +30,7 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 | Film gerak | ✅ lolos | 20 cue · 120 BPM · 540 frame/adegan · 20 repo terdokumentasi | — |
 | Mesin terpasang | ✅ lolos | GSAP 3.15.0 · Lottie 5.13.0 · Remotion 4.0.539 · HyperFrames 0.8.221 · klip 540 frame + 4 sub-komposisi · font Google di 14 halaman (lama, dicatat) | — |
 | Prompt kelas atas | ✅ lolos | 9 prompt · 7 blok · 17 ribu karakter · token patuh · galeri salin | — |
-| Biji 3D | ✅ lolos | 6 zona · 12 senyawa · 4 sumber literatur · poster 640×800 · verifikasi 9/9 | — |
+| Biji 3D | ✅ lolos | 6 zona · 12 senyawa · 4 sumber literatur · poster 640×800 · verifikasi 12/12 | — |
 | Biji sangrai | ✅ lolos | 9 SKU · 4 ukuran · harga dari katalog · tanpa CDN · reduced-motion | — |
 | Berkas luring | ✅ lolos | 1 berkas 975 KB · CSS+JS+huruf+gambar tersisip · 0 tautan aset relatif | dibuka langsung dari folder unduhan |
 | Berat halaman awal | ✅ lolos | 98 KB (batas 1.500 KB) | — |

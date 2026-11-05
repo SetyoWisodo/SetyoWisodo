@@ -76,7 +76,7 @@ DATA = [
     "film-studio/hyperframes/index.html", "film-studio/lottie/buat-lottie.mjs",
     "prompts/pustaka.json", "prompts/prompts.json", "skills/desain-prompt/SKILL.md",
     "data/biji3d.json", "assets/js/biji3d.js", "assets/css/biji.css",
-    "assets/img/biji-3d-poster.png", "laporan/biji-3d.json", "laporan/biji-verifikasi.json",
+    "assets/img/biji-3d-poster.jpg", "laporan/biji-render.json", "laporan/biji-verifikasi.json",
     "skills/hero-3d/SKILL.md",
    
 ]
@@ -618,45 +618,49 @@ def periksa(catatan):
         if "medium" not in b3.get("biji", {}).get("tingkat_sangrai", {}).get("nama", "").lower():
             masalah_biji.append("tingkat sangrai bukan medium")
 
-        # poster: PNG sungguhan, cukup besar
-        pp = os.path.join(ROOT, "assets", "img", "biji-3d-poster.png")
+        # poster: JPEG 4:5 (render hiper-realistis), bukan PNG mesh lagi
+        pp = os.path.join(ROOT, "assets", "img", "biji-3d-poster.jpg")
         if os.path.exists(pp):
-            kepala = open(pp, "rb").read(24)
-            if kepala[:8] != b"\x89PNG\r\n\x1a\n":
-                masalah_biji.append("poster bukan PNG")
+            kepala = open(pp, "rb").read(4)
+            if kepala[:2] != b"\xff\xd8":
+                masalah_biji.append("poster bukan JPEG")
             else:
-                import struct
-                pw, ph = struct.unpack(">II", kepala[16:24])
-                if pw < 400 or ph < 500:
+                from PIL import Image
+                with Image.open(pp) as pim:
+                    pw, ph = pim.size
+                if pw < 600 or ph < 750:
                     masalah_biji.append(f"poster terlalu kecil {pw}x{ph}")
+                if abs(pw / ph - 0.8) > 0.02:
+                    masalah_biji.append(f"poster tidak 4:5 ({pw}x{ph})")
         else:
             masalah_biji.append("poster tidak ada")
 
-        # render CPU harus sudah dijalankan dan tanpa masalah
-        lb = os.path.join(ROOT, "laporan", "biji-3d.json")
-        if os.path.exists(lb):
-            lapor = json.loads(baca("laporan/biji-3d.json"))
-            if lapor.get("masalah"):
-                masalah_biji.append(f'render CPU melaporkan {len(lapor["masalah"])} masalah')
-            if lapor.get("titik_tampak") != len(zona):
-                masalah_biji.append(f'{lapor.get("titik_tampak")} titik tampak, seharusnya {len(zona)}')
+        # render sudah dipasang dan latarnya menyatu dengan kertas
+        lr = os.path.join(ROOT, "laporan", "biji-render.json")
+        if os.path.exists(lr):
+            lapor = json.loads(baca("laporan/biji-render.json"))
+            latar = lapor.get("latar", {}).get("latar_akhir")
+            if latar != [245, 239, 228]:
+                masalah_biji.append(f'latar render {latar} bukan #F5EFE4')
+            if len(lapor.get("titik", {})) != len(zona):
+                masalah_biji.append("laporan/biji-render.json tidak memuat semua titik")
         else:
-            masalah_biji.append("laporan/biji-3d.json belum ada — jalankan tools/biji.py")
+            masalah_biji.append("laporan/biji-render.json belum ada — jalankan tools/biji_render.py")
 
         # verifikasi node: harus segar (sidik sama) dan lolos
         lv = os.path.join(ROOT, "laporan", "biji-verifikasi.json")
         if os.path.exists(lv):
             import hashlib
             ver = json.loads(baca("laporan/biji-verifikasi.json"))
+            with open(os.path.join(ROOT, "assets", "img", "biji-3d-poster.jpg"), "rb") as fp:
+                poster_bytes = fp.read()
             sidik = hashlib.sha256(
-                baca("data/biji3d.json").encode() + baca("assets/js/biji3d.js").encode()
+                baca("data/biji3d.json").encode() + baca("assets/js/biji3d.js").encode() + poster_bytes
             ).hexdigest()[:16]
             if ver.get("sidik") != sidik:
                 masalah_biji.append("laporan/biji-verifikasi.json basi — jalankan node tools/verifikasi-biji.mjs")
             if ver.get("gagal"):
                 masalah_biji.append(f'{ver["gagal"]} butir verifikasi biji gagal')
-            if ver.get("selisih_proyeksi_maks_persen", 9) > 0.6:
-                masalah_biji.append("posisi titik JS menyimpang dari poster Python")
         else:
             masalah_biji.append("node tools/verifikasi-biji.mjs belum dijalankan")
 
@@ -676,6 +680,10 @@ def periksa(catatan):
             masalah_biji.append("biji3d.js tanpa jalur prefers-reduced-motion")
         if "fetch(" not in js:
             masalah_biji.append("biji3d.js tidak membaca data dari JSON (angka ditulis di JS)")
+        if "data-biji-kanvas" in idx or "getContext('webgl'" in js:
+            masalah_biji.append("sisa jalur WebGL masih ada, padahal sudah diganti render")
+        if "titik_foto" not in js:
+            masalah_biji.append("biji3d.js tidak memakai titik_foto untuk menaruh titik")
 
         # motto brand: harus ada di data, tampil di hero, dan tidak dikarang di HTML saja
         motto = json.loads(baca("data/catalog.json")).get("brand", {}).get("motto")

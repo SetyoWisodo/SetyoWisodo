@@ -18,8 +18,13 @@ Rumus permukaan, proyeksi kamera, dan pencahayaan di sini adalah cermin dari
 
 Pakai:
     python3 tools/biji.py             # poster + laporan
-    python3 tools/biji.py --cek       # validasi saja (cepat, tanpa render)
-    python3 tools/biji.py --kecil     # poster 420×525 untuk pratinjau cepat
+    python3 tools/biji.py --cek       # validasi data saja (cepat, tanpa render)
+    python3 tools/biji.py --kecil     # (lama) poster mesh 420×525
+
+  CATATAN 5 Nov 2026: perender mesh di skrip ini SUDAH TIDAK DIPAKAI untuk
+  beranda. Pemilik menilai bentuknya "sangat aneh", jadi poster diganti render
+  hiper-realistis lewat `tools/biji_render.py`. Skrip ini dipertahankan untuk
+  `--cek` (validasi zona & senyawa) dan sebagai jejak cara lama.
 """
 from __future__ import annotations
 
@@ -34,7 +39,7 @@ from tanggal import hari_ini  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "biji3d.json")
-POSTER = os.path.join(ROOT, "assets", "img", "biji-3d-poster.png")
+POSTER = os.path.join(ROOT, "assets", "img", "biji-3d-poster-mesh.png")
 LAPORAN = os.path.join(ROOT, "laporan", "biji-3d.json")
 
 

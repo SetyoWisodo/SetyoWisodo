@@ -358,7 +358,7 @@ dari token: `#3A2013 → #7A4A1E → #B4703A`, kilau `#D9A441`.
 | --- | --- | --- |
 | Data bentuk & senyawa | `data/biji3d.json` | 6 zona · 12 senyawa · 4 sumber |
 | Renderer WebGL tanpa pustaka | `assets/js/biji3d.js` | ±18 KB |
-| Poster CPU (gambar awal & cadangan) | `assets/img/biji-3d-poster.png` | 640×800 RGBA |
+| Poster | `assets/img/biji-3d-poster.jpg` | render 640×800, latar menyatu dengan kertas |
 | Verifikasi tanpa GPU | `tools/verifikasi-biji.mjs` | 9 lolos · selisih JS↔Python 0,005% |
 
 Interaksi: geser memutar (pitch ±22°), panah & `Home` untuk keyboard, ketuk titik membuka panel
@@ -382,5 +382,22 @@ Motto "Terjaga untuk / rasa yang sesungguhnya." memakai Bricolage 800 + Fraunces
 bukan pilihan selera: gerbang membaca `clamp()` dan fraksi kolom dari CSS, lalu mengukur lebar
 baris dengan metrik font asli pada 360–1920 px. Uji negatif: menaikkan ke 4,4rem → gerbang gagal.
 
-Gerbang terakhir: **24 lolos · 0 peringatan · 0 gagal** (cek *Biji 3D* juga memeriksa motto; cek baru *Biji sangrai*).
+Gerbang terakhir: **25 lolos · 0 peringatan · 0 gagal** (cek *Biji 3D* juga memeriksa motto; cek baru *Biji sangrai*).
 Laporan: `laporan/biji-3d.md`.
+
+### 13b · Revisi 5 Nov 2026 — biji tidak lagi mesh
+
+Mesh parametrik + WebGL di §13 menghasilkan bentuk yang terbaca seperti gumpalan
+cokelat mengilap; pemilik menyebutnya "sangat aneh". Penggantinya:
+
+| Hal | Aturan baru |
+| --- | --- |
+| Visual | satu render hiper-realistis 640×800 (`assets/img/biji-3d-poster.jpg`) |
+| Pembuat | `tools/biji_render.py` — menyamakan latar ke `#F5EFE4`, potong 4:5, periksa 6 titik |
+| Titik zona | `titik_foto` di `data/biji3d.json` (persen gambar), wajib jatuh di atas biji |
+| Gerak | kemiringan paralaks maksimal **7°**, kembali sendiri setelah 900 ms |
+| Tanpa gerak | `prefers-reduced-motion` mematikan kemiringan sepenuhnya |
+| Pemeriksa | `node tools/verifikasi-biji.mjs` (12 butir) |
+
+Kaidah umum yang tetap berlaku: satu objek, satu gerak, satu ajakan; tidak ada
+putaran penuh; tidak ada pustaka 3D dari CDN.

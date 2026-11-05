@@ -151,6 +151,10 @@
           "sumber": "S2",
           "keyakinan": "kuat"
         }
+      ],
+      "titik_foto": [
+        45.0,
+        47.0
       ]
     },
     {
@@ -180,6 +184,10 @@
           "sumber": "S4",
           "keyakinan": "umum"
         }
+      ],
+      "titik_foto": [
+        33.5,
+        37.5
       ]
     },
     {
@@ -209,6 +217,10 @@
           "sumber": "S1",
           "keyakinan": "kuat"
         }
+      ],
+      "titik_foto": [
+        57.0,
+        57.0
       ]
     },
     {
@@ -238,6 +250,10 @@
           "sumber": "S4",
           "keyakinan": "umum"
         }
+      ],
+      "titik_foto": [
+        64.5,
+        44.5
       ]
     },
     {
@@ -267,6 +283,10 @@
           "sumber": "S3",
           "keyakinan": "kuat"
         }
+      ],
+      "titik_foto": [
+        47.0,
+        24.5
       ]
     },
     {
@@ -296,6 +316,10 @@
           "sumber": "S2",
           "keyakinan": "kuat"
         }
+      ],
+      "titik_foto": [
+        33.0,
+        66.0
       ]
     }
   ],
@@ -310,5 +334,6 @@
       "Bahwa warna di layar sama persis dengan warna biji asli (bergantung monitor)."
     ],
     "catatan_tampil": "Rentang senyawa = literatur Arabika medium roast, bukan hasil lab biji Nocturne. Bentuk biji = model 3D, bukan hasil pindai."
-  }
+  },
+  "_catatan_tampilan": "Sejak 5 Nov 2026 bentuk biji memakai render hiper-realistis (assets/img/biji-render-02.png diolah tools/biji_render.py menjadi biji-3d-poster.jpg). Kunci `arah` dan `geometri` disimpan sebagai jejak model lama dan tidak lagi dipakai untuk menempatkan titik; titik memakai `titik_foto` (persen gambar)."
 }

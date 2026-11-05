@@ -1,3 +1,21 @@
+# Biji kopi di beranda
+
+> **Revisi 5 Nov 2026 — mesh diganti render.** Pemilik menilai bentuk biji hasil
+> mesh parametrik "sangat aneh" (terbaca seperti gumpalan cokelat mengilap).
+> Sejak itu beranda memakai **render hiper-realistis**:
+>
+> | Hal | Sebelum | Sekarang |
+> | --- | --- | --- |
+> | Bentuk | mesh parametrik 6.000+ segitiga, digambar WebGL | satu render 3D 640×800 dari generator gambar |
+> | Poster | PNG RGBA hasil `tools/biji.py` | `assets/img/biji-3d-poster.jpg`, 53 KB, latar disamakan `#F5EFE4` |
+> | Gerak | putar bebas (yaw/pitch) | kemiringan halus ±7°, kembali sendiri |
+> | Titik 6 zona | proyeksi 3D → layar | `titik_foto` (persen gambar) di `data/biji3d.json` |
+> | Pemeriksa | matematika proyeksi JS ↔ Python | `tools/verifikasi-biji.mjs` 12 butir + `tools/biji_render.py` (titik harus jatuh di biji) |
+>
+> Bagian di bawah ini adalah catatan **versi mesh** dan dipertahankan sebagai
+> jejak cara lama. Yang berlaku sekarang ada di `laporan/biji-render.json`,
+> `laporan/biji-verifikasi.json`, dan `laporan/biji-sangrai.md`.
+
 # Hero biji kopi 3D — laporan
 
 Diperbarui 5 November 2026 · sumber: `data/biji3d.json`, `assets/js/biji3d.js`,
@@ -13,7 +31,7 @@ Referensi bentuk diambil dari tag 3D motionsite.ai dan header 3D jiro.build.
 | --- | --- | --- |
 | Data bentuk, warna, zona, senyawa | `data/biji3d.json` | 6 zona · 12 senyawa · 4 sumber literatur |
 | Renderer WebGL (tanpa pustaka) | `assets/js/biji3d.js` | ±18 KB · WebGL 1 · 2 shader |
-| Poster CPU (gambar awal & cadangan) | `assets/img/biji-3d-poster.png` | 640×800 RGBA · 104 KB |
+| Poster (versi mesh, lama) | `assets/img/biji-3d-poster-mesh.png` kalau dibuat ulang | 640×800 RGBA |
 | Gaya | `assets/css/biji.css` | token brand, tanpa hex baru |
 | Hero | `index.html` | poster → kanvas → 6 titik → panel senyawa |
 | Renderer poster | `tools/biji.py` | 359.400 segitiga · 20 detik |

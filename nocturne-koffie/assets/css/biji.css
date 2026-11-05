@@ -46,8 +46,11 @@
   aspect-ratio: 4 / 5;
   touch-action: pan-y;
   cursor: grab;
-  will-change: transform;
   outline: none;
+  /* render datar yang dimiringkan: sudut maksimal 7°, jadi tidak pernah
+     terlihat seperti kartu yang berputar penuh */
+  perspective: 1000px;
+  perspective-origin: 50% 45%;
 }
 
 .biji__panggung:focus-visible {
@@ -59,8 +62,7 @@
   cursor: grabbing;
 }
 
-.biji__poster,
-.biji__kanvas {
+.biji__poster {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -69,22 +71,17 @@
 }
 
 .biji__poster {
-  object-fit: contain;
-  /* poster PNG beralfa: latarnya transparan, jadi menyatu di latar apa pun */
+  object-fit: cover;
+  /* latar render sudah disamakan dengan --paper (#F5EFE4) oleh
+     tools/biji_render.py, jadi tepi gambar menyatu dengan halaman */
+  transform-origin: 50% 55%;
+  transition: transform 480ms var(--ease-out);
+  backface-visibility: hidden;
 }
 
-.biji--siap[data-biji-mode="webgl"] .biji__poster {
-  opacity: 0;
-  transition: opacity 420ms var(--ease-out);
-}
-
-.biji__kanvas {
-  opacity: 0;
-  transition: opacity 520ms var(--ease-out);
-}
-
-.biji--siap[data-biji-mode="webgl"] .biji__kanvas {
-  opacity: 1;
+@media (prefers-reduced-motion: reduce) {
+  .biji__poster { transition: none; }
+  .biji__panggung { perspective: none; }
 }
 
 /* ── titik senyawa ───────────────────────────────────────── */
@@ -419,7 +416,6 @@
 
 @media (prefers-reduced-motion: reduce) {
   .biji__titik,
-  .biji__kanvas,
   .biji__poster {
     transition: none;
     animation: none;
