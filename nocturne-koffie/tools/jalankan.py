@@ -9,6 +9,7 @@ periksa paling akhir (gerbang), lalu laporan.
     2. komersial  harga grosir 4 tier + penawaran B2B
     3. kreatif    5 video 9:16, carousel, story, feed, hub konten
     4. kampanye   landing kampanye dari katalog + manifest
+    4b. roasted   halaman jual biji sangrai dari katalog + pustaka prompt
     5. riset      outlier, pola, komentar, kata kunci → brief
     6. studio     10 tahap (nilai → hook → skrip → brief Senin) di atas hasil riset
     7. motion     lab gerak + 5 adegan 9:16 dari skrip studio
@@ -71,6 +72,8 @@ def main():
         ("komersial", ["tools/komersial.py", "--tanggal", TGL]),
         ("kreatif", ["tools/kreatif.py"] + (["--cepat"] if args.cepat else [])),
         ("kampanye", ["tools/kampanye.py"]),
+        ("roasted", ["tools/roasted.py"]),
+        ("prompt", ["tools/prompt.py"]),
         ("riset", ["tools/riset.py"]),
         ("studio", ["tools/studio.py"]),
         ("motion", ["tools/motion.py"]),
@@ -94,6 +97,7 @@ def main():
     print("  dashboard/index.html        ← papan harian + target divisi")
     print("  index.html                  ← situs")
     print("  kampanye/index.html         ← landing kampanye konten")
+    print("  biji-sangrai/index.html     ← halaman jual roasted beans")
     print("  konten/index.html           ← 15 aset + caption")
     print("  riset/index.html            ← riset konten & kata kunci")
     print("  studio/index.html           ← 10 tahap: hook → skrip → brief Senin")

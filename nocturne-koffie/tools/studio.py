@@ -277,8 +277,10 @@ SUMBER_BEAT = {
 
 CTA = "Pesan lewat WhatsApp — sebutkan metode seduh & kota Anda."
 CTA_KHUSUS = {
-    "Resi dikirim hari itu, bukan besok.": "Order lewat WhatsApp sebelum 15.00 WIB.",
-    "Sehari sebelum dikirim, kopi ini masih di drum.": "Order lewat WhatsApp sebelum 15.00 WIB.",
+    # CTA tidak membawa angka: batas jam 15.00 sudah disebut di cue 2 beserta
+    # sumbernya. Menuliskannya lagi di CTA = angka tanpa sumber (gerbang gagal).
+    "Resi dikirim hari itu, bukan besok.": "Order lewat WhatsApp hari ini — resi dikabari di chat.",
+    "Sehari sebelum dikirim, kopi ini masih di drum.": "Order lewat WhatsApp hari ini — resi dikabari di chat.",
     "Kami buang 4 kg bulan ini. Ini yang terjadi.": "Tanya kode batch lewat WhatsApp — kami buka catatannya.",
     "Kami tidak menurunkan ambang walau stok kosong.": "Tanya kode batch lewat WhatsApp — kami buka catatannya.",
     "Kode batch: kalau rasanya beda, sebutkan ini.": "Sebut kode batch lewat WhatsApp — kami buka catatannya.",

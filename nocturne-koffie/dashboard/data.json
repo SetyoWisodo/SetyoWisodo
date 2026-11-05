@@ -1,6 +1,6 @@
 {
   "hari_ini": "2026-11-05",
-  "dibuat": "05 Nov 2026 15:20 WIB",
+  "dibuat": "05 Nov 2026 15:55 WIB",
   "kpi": {
     "minggu": "1",
     "mulai": "2026-10-26",
@@ -1323,7 +1323,7 @@
   "label_bulan": "Nov 2026",
   "kreatif": {
     "_catatan": "Manifest aset kreatif. Dibaca situs (strip 'Di balik sangrai') dan papan harian. Ubah status jadi 'tayang' setelah diposting.",
-    "dibuat": "2026-10-30",
+    "dibuat": "2026-11-05",
     "video_terencode": true,
     "items": [
       {
@@ -1530,7 +1530,7 @@
   },
   "jendela_data": "30 hari terakhir",
   "riset": {
-    "dibuat": "2026-10-30",
+    "dibuat": "2026-11-05",
     "referensi": 27,
     "referensi_asli": 0,
     "referensi_contoh": 27,

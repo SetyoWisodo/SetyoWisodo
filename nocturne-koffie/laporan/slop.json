@@ -3,9 +3,9 @@
   "aturan_diperiksa": 29,
   "kritis": 0,
   "perhatian": 0,
-  "info": 7,
+  "info": 8,
   "dikecualikan": 8,
-  "temuan_dikecualikan": 0,
+  "temuan_dikecualikan": 1,
   "temuan": [
     {
       "aturan": "radial-glow",
@@ -83,6 +83,17 @@
       "bukti": "3 radial-gradient",
       "catatan": "dipakai hanya untuk sorotan kursor di hero & spotlight kartu; mati saat reduced-motion",
       "dikecualikan": false
+    },
+    {
+      "aturan": "kicker-above-heading",
+      "nama": "Label kecil di atas judul",
+      "kategori": "slop",
+      "tingkat": "info",
+      "sumber": "impeccable#kicker-above-heading",
+      "berkas": "index.html",
+      "bukti": "6 label kicker",
+      "catatan": "kontrak: maksimal 2 per halaman",
+      "dikecualikan": true
     }
   ],
   "per_aturan": {
@@ -94,7 +105,7 @@
     "blinking-cursor": 0,
     "radial-glow": 4,
     "marquee": 0,
-    "kicker-above-heading": 0,
+    "kicker-above-heading": 1,
     "em-dash-overuse": 0,
     "buzzword": 0,
     "tiny-text": 0,

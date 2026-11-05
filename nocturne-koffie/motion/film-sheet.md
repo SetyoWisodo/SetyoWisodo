@@ -1,6 +1,6 @@
 # Lembar film — 5 adegan, 9.0 detik, 60 fps
 
-Dibuat `tools/film.py` pada 2026-10-30 dari `motion/timeline.json` (yang lahir dari 5 skrip
+Dibuat `tools/film.py` pada 2026-11-05 dari `motion/timeline.json` (yang lahir dari 5 skrip
 `tools/studio.py`). Lembar ini **tidak merender video**: ia menghitung frame, ketukan,
 dan urutan kerja supaya render di mesin lain bisa deterministik.
 
