@@ -83,6 +83,7 @@ def main():
         ("slop", ["tools/slop.py"]),
         ("papan", ["tools/papan.py", "--tanggal", TGL]),
         ("huruf", ["tools/font.py", "--cek"]),
+        ("rak", ["tools/rak.py"]),
         ("periksa", ["tools/periksa.py"]),
         ("laporan", ["tools/laporan.py"]),
         ("semua", ["tools/semua.py"]),

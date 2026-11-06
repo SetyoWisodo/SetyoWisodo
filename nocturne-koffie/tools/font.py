@@ -79,6 +79,36 @@ KELUARGA = [
         "keterangan": "motto & kutipan: miring asli, bukan miring buatan peramban",
     },
     {
+        "id": "newsreader",
+        "nama": "Newsreader",
+        "gaya": "normal",
+        "sumber": "ofl/newsreader/Newsreader%5Bopsz%2Cwght%5D.ttf",
+        "sumber_terbaca": "ofl/newsreader/Newsreader[opsz,wght].ttf",
+        "pin": {"wght": 400},
+        "berat": (400, 400),
+        "keterangan": "judul katalog & sinopsis (rak sangrai)",
+    },
+    {
+        "id": "newsreader-italic",
+        "nama": "Newsreader",
+        "gaya": "italic",
+        "sumber": "ofl/newsreader/Newsreader-Italic%5Bopsz%2Cwght%5D.ttf",
+        "sumber_terbaca": "ofl/newsreader/Newsreader-Italic[opsz,wght].ttf",
+        "pin": {"wght": 400},
+        "berat": (400, 400),
+        "keterangan": "baris kredit miring (rak sangrai)",
+    },
+    {
+        "id": "intertight",
+        "nama": "Inter Tight",
+        "gaya": "normal",
+        "sumber": "ofl/intertight/InterTight%5Bwght%5D.ttf",
+        "sumber_terbaca": "ofl/intertight/InterTight[wght].ttf",
+        "pin": {"wght": (500, 600)},
+        "berat": (500, 600),
+        "keterangan": "label kecil, tab, tombol (rak sangrai)",
+    },
+    {
         "id": "inter",
         "nama": "Inter",
         "gaya": "normal",
@@ -163,11 +193,12 @@ def tulis_css() -> None:
     ]
     for e in KELUARGA:
         a, b = e["berat"]
+        bobot = f"{a} {b}" if a != b else f"{a}"
         baris += [
             "@font-face{",
             f'  font-family:"{e["nama"]}";',
             f'  src:url("../fonts/{e["id"]}.woff2") format("woff2");',
-            f'  font-weight:{a} {b};',
+            f"  font-weight:{bobot};",
             f'  font-style:{e["gaya"]};',
             "  font-display:swap;",
             "}",

@@ -1,18 +1,18 @@
-# Laporan periksa — 2026-11-05
+# Laporan periksa — 2026-11-06
 
 Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 
 | Ringkasan | Jumlah |
 | --- | --- |
-| Pemeriksaan lolos | **27** |
+| Pemeriksaan lolos | **28** |
 | Peringatan | **0** |
 | Gagal (harus diperbaiki) | **1** |
 
 | Kategori | Status | Hasil | Catatan |
 | --- | --- | --- | --- |
-| Berkas wajib | ✅ lolos | 86/86 berkas ada | — |
-| Tautan lokal | ✅ lolos | 166/166 tautan menuju berkas yang ada | — |
-| Struktur HTML | ✅ lolos | 16/16 halaman tag-nya seimbang | — |
+| Berkas wajib | ✅ lolos | 87/87 berkas ada | — |
+| Tautan lokal | ✅ lolos | 173/173 tautan menuju berkas yang ada | — |
+| Struktur HTML | ✅ lolos | 17/17 halaman tag-nya seimbang | — |
 | Stok semua SKU | ✅ lolos | 9/9 SKU berstatus tersedia | — |
 | Produk ↔ lot | ✅ lolos | 9/9 produk punya lot aktif (blend memakai komponen) | — |
 | Manifest ↔ aset | ✅ lolos | 15 item manifest · 0 berkas hilang | — |
@@ -28,14 +28,15 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 | Adegan 9:16 | ✅ lolos | 5 adegan · total 9 detik masing-masing | — |
 | Panggung 3D | ✅ lolos | 3 komponen dipakai · 15.8 KB CSS+JS · jatuh datar tanpa JS | — |
 | Film gerak | ✅ lolos | 20 cue · 120 BPM · 540 frame/adegan · 20 repo terdokumentasi | — |
-| Mesin terpasang | ✅ lolos | GSAP 3.15.0 · Lottie 5.13.0 · Remotion 4.0.539 · HyperFrames 0.8.221 · klip 540 frame + 4 sub-komposisi · huruf lokal di 16 halaman | — |
+| Mesin terpasang | ✅ lolos | GSAP 3.15.0 · Lottie 5.13.0 · Remotion 4.0.539 · HyperFrames 0.8.221 · klip 540 frame + 4 sub-komposisi · huruf lokal di 17 halaman | — |
 | Prompt kelas atas | ✅ lolos | 9 prompt · 7 blok · 17 ribu karakter · token patuh · galeri salin | — |
 | Biji 3D | ✅ lolos | 6 zona · 12 senyawa · 4 sumber literatur · poster 640×800 · verifikasi 12/12 | — |
 | Biji sangrai | ✅ lolos | 9 SKU · 4 ukuran · harga dari katalog · tanpa CDN · reduced-motion | — |
 | Berkas luring | ✅ lolos | 1 berkas 975 KB · CSS+JS+huruf+gambar tersisip · 0 tautan aset relatif | dibuka langsung dari folder unduhan |
-| Pintu semua | ❌ gagal | 14 halaman tertaut · angka dari periksa.json · satu berkas | angka gerbang tidak mutakhir — jalankan tools/semua.py |
+| Pintu semua | ❌ gagal | 15 halaman tertaut · angka dari periksa.json · satu berkas | Rak sangrai tidak tertaut; sidik struktur tidak cocok — jalankan python3 tools/semua.py; angka gerbang tidak mutakhir — jalankan tools/semua.py |
 | Huruf lokal | ✅ lolos | 4 berkas variabel 231 KB · 0 permintaan ke Google Fonts · rentang bobot cocok dengan CSS | — |
-| Pustaka gaya | ✅ lolos | 19 gaya · 5 kategori · tiap gaya: prompt + negatif + rasio + alat | — |
+| Pustaka gaya | ✅ lolos | 20 gaya · 6 kategori · tiap gaya: prompt + negatif + rasio + alat | — |
+| Rak sangrai | ✅ lolos | 12 kotak 3D · sampul 363 KB · punggung 179 KB · uji asap lolos | — |
 | Berat halaman awal | ✅ lolos | 98 KB (batas 1.500 KB) | — |
 | Berat folder konten | ✅ lolos | 3.9 MB (batas 12 MB) | — |
 

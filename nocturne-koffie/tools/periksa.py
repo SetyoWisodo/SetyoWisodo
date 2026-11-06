@@ -24,6 +24,7 @@ import json
 import glob
 import os
 import re
+import subprocess
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -40,6 +41,7 @@ HALAMAN_PUBLIK = ["index.html", "kampanye/index.html", "komersial/penawaran-b2b.
 
 HALAMAN = [
     "index.html",
+    "rak/index.html",
     "dashboard/index.html",
     "kampanye/index.html",
     "konten/index.html",
@@ -930,6 +932,43 @@ def periksa(catatan):
            f"tiap gaya: prompt + negatif + rasio + alat"
            if not masalah_gaya else "gagal",
            "; ".join(masalah_gaya[:4]))
+
+    # 5g · rak sangrai: atlas, data, dan uji asap tanpa peramban
+    masalah_rak = []
+    for berkas, ukuran_wajib in (("assets/img/rak/covers.webp", (1744, 2336)),
+                                 ("assets/img/rak/spines.webp", (2688, 1152))):
+        path = os.path.join(ROOT, berkas)
+        if not os.path.exists(path):
+            masalah_rak.append(f"{berkas} belum ada — jalankan python3 tools/rak.py")
+        elif os.path.getsize(path) > 900_000:
+            masalah_rak.append(f"{berkas} {os.path.getsize(path)/1024:.0f} KB terlalu berat")
+    if not os.path.exists(os.path.join(ROOT, "rak/data.js")):
+        masalah_rak.append("rak/data.js belum ada")
+    if not os.path.exists(os.path.join(ROOT, "rak/rak.js")):
+        masalah_rak.append("rak/rak.js belum ada")
+    else:
+        js_rak = baca("rak/rak.js")
+        # harga tidak boleh diketik di skrip: harus dari data.js (katalog)
+        if re.search(r"Rp\s?\d", js_rak):
+            masalah_rak.append("harga diketik di rak.js — harus dari data.js")
+        if "requestAnimationFrame" not in js_rak:
+            masalah_rak.append("rak.js tidak memakai satu rAF")
+        css_rak = re.sub(r"/\*.*?\*/", "", baca("rak/rak.css"), flags=re.S)
+        if "@keyframes" in css_rak:
+            masalah_rak.append("rak.css memakai @keyframes — seharusnya WAAPI")
+    # uji asap (opsional: butuh jsdom di /tmp/jsdom)
+    jsdom = "/tmp/jsdom/node_modules/jsdom/lib/api.js"
+    uji_rak = "dilewati"
+    if os.path.exists(jsdom) and os.path.exists(os.path.join(ROOT, "tools/rak-uji.mjs")):
+        proses = subprocess.run(["node", "tools/rak-uji.mjs"], cwd=ROOT,
+                                capture_output=True, text=True, timeout=120)
+        uji_rak = "lolos" if proses.returncode == 0 else "gagal"
+        if proses.returncode != 0:
+            masalah_rak.append("uji asap rak gagal: " + (proses.stdout or proses.stderr).strip()[-200:])
+    tambah("Rak sangrai", "lolos" if not masalah_rak else "gagal",
+           f"12 kotak 3D · sampul {ukuran('assets/img/rak/covers.webp')/1024:.0f} KB · "
+           f"punggung {ukuran('assets/img/rak/spines.webp')/1024:.0f} KB · uji asap {uji_rak}",
+           "; ".join(masalah_rak[:4]))
 
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \

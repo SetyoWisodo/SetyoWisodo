@@ -121,6 +121,34 @@ mendeklarasikan rentang bobotnya. Dua bobot yang dulu tidak ada (Inter 700, Bric
 kini tersedia, jadi tidak ada lagi huruf tebal sintetis dari peramban.
 Sumber: `github.com/google/fonts` (OFL 1.1) · dibangun oleh `tools/font.py`.
 
+## Rak sangrai — hero rak 3D (`rak/`)
+
+Halaman empat berkas: `rak/index.html`, `rak/rak.css`, `rak/rak.js`, `rak/data.js`.
+Dua belas lot (9 kopi + 2 paket + kartu member) berdiri di rak; satu ditarik keluar
+dan diputar −90° menghadap Anda. Panah, tab kategori, geser, roda, papan tombol,
+kursor kustom (cincin → cakram "BUKA / OPEN"), dan lembar detail yang tumbuh dari
+sampul dengan tinta menyebar.
+
+| Bagian | Isi |
+| --- | --- |
+| `tools/rak.py` | membangun dua atlas dari `data/catalog.json`: `assets/img/rak/covers.webp` (1744×2336, 12 kotak 4×3) dan `spines.webp` (2688×1152, 12 kotak sebaris) + `rak/data.js` |
+| `tools/rak-uji.mjs` | uji asap tanpa peramban (jsdom): 26 butir — galat JS, jarak punggung, sudut kotak aktif, tab, panah, buka/tutup, harga & WhatsApp dari katalog, tinta |
+| `tools/rak-pratinjau.py` | pratinjau komposisi (`laporan/rak-pratinjau.png`, `…-detail.png`) — **perkiraan**, bukan tangkapan peramban |
+
+Gerbang `tools/periksa.py` butir **Rak sangrai**: atlas ada & tidak terlalu berat, harga tidak
+diketik di `rak.js`, satu `requestAnimationFrame`, tanpa `@keyframes`, dan uji asap dijalankan
+(butir "dilewati" bila jsdom tidak ada).
+
+```bash
+python3 tools/rak.py            # bangun atlas + data.js
+node tools/rak-uji.mjs          # 26 butir uji asap (butuh: npm i jsdom --prefix /tmp/jsdom)
+python3 tools/rak-pratinjau.py  # gambar pratinjau komposisi
+```
+
+Batas yang diakui: tidak ada peramban di sandbox, jadi tampilan 3D sungguhan — perspektif,
+bayangan, ketajaman teks, kursor — **belum pernah saya lihat**. Uji asap membuktikan skrip,
+geometri, dan sambungan, bukan rupa.
+
 ## Penelusuran skill GitHub (5 Nov 2026)
 
 Ambang 3.000 bintang; hasil lengkap, termasuk yang ditolak dan alasannya, ada di

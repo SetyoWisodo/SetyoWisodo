@@ -30,6 +30,9 @@ HALAMAN = [
     ("index.html", "Beranda", "Situs",
      "Biji kopi render 3D di kiri, motto “Terjaga untuk rasa yang sesungguhnya.” di kanan. "
      "Enam titik senyawa bisa diketuk.", "assets/img/biji-3d-poster.webp"),
+    ("rak/index.html", "Rak sangrai", "Situs",
+     "Hero rak 3D: dua belas lot berdiri di rak, satu ditarik keluar dan diputar "
+     "menghadap Anda. Panah, tab, geser, roda, dan kursor kustom.", ""),
     ("biji-sangrai/index.html", "Biji sangrai", "Situs",
      "Halaman jual roasted beans: 9 biji, tabel harga, tombol WhatsApp per biji, "
      "catatan rasa yang bisa digeser.", "assets/img/produk/ijen.jpg"),
@@ -149,7 +152,7 @@ def sidik() -> str:
     return hashlib.sha256(bahan.encode("utf-8")).hexdigest()[:12]
 
 
-def bangun() -> tuple[str, list[str]]:
+def bangun() -> tuple[str, list[str], list[str]]:
     a = angka()
     b = baca_json("data/catalog.json")["brand"]
     kelompok = []
@@ -328,12 +331,15 @@ h2{{font-family:var(--display);font-weight:800;font-size:clamp(1.1rem,2.6vw,1.5r
 </html>
 """
     masalah = []
+    catatan = []
     for path, judul, _, _, gambar in HALAMAN:
         if not os.path.exists(os.path.join(ROOT, path)):
             masalah.append(f"{judul}: berkas {path} tidak ada")
         if gambar and not os.path.exists(os.path.join(ROOT, gambar)):
-            masalah.append(f"{judul}: pratinjau {gambar} tidak ada")
-    return isi, masalah
+            # pratinjau yang belum dirender bukan alasan menolak membangun pintu:
+            # media kosong ditampilkan sebagai pita siluet, dan dicatat di catatan
+            catatan.append(f"{judul}: pratinjau {gambar} belum ada (ditampilkan siluet)")
+    return isi, masalah, catatan
 
 
 def periksa() -> int:
@@ -369,11 +375,13 @@ def main() -> int:
     a = ap.parse_args()
     if a.cek:
         return periksa()
-    teks, masalah = bangun()
+    teks, masalah, catatan = bangun()
     if masalah:
         for m in masalah:
             print("XX", m)
         return 1
+    for c in catatan:
+        print("  catatan:", c)
     with open(KELUAR, "w", encoding="utf-8") as f:
         f.write(teks)
     print(f"semua.html · {len(teks):,} karakter · {len(HALAMAN)} halaman · "
