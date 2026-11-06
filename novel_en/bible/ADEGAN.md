@@ -692,7 +692,7 @@ Aksen: 211 kata · The woman was thirty-nine years old. She had her hair pinned 
 
 **05 · G-02 — Satu detik yang menebal**
 Shot: orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
-Aksen: 786 kata · At 07:00:03, my mother sat me on the bench and took a form out of the canvas bag.
+Aksen: 788 kata · At 07:00:03, my mother sat me on the bench and took a form out of the canvas bag.
 
 ---
 
@@ -719,3 +719,85 @@ Aksen: 398 kata · Here is what I have worked out since, and I have to be honest
 **05 · G-02 — Satu detik yang menebal**
 Shot: orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
 Aksen: 347 kata · We sat there until the shift change.
+
+---
+
+## Bab 24 — Alive
+
+`Arc III` · 28mm · merah ruang mati, biru monitor · merah-biru
+
+**01 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 190 kata · The hospital file was nine pages long and I had read it four times, and it took Vey eleven
+
+**02 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 197 kata · R. Halim.
+
+**03 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 288 kata · I went to the ring hospital at noon, because I wanted to stand in the room where the sessi
+
+**04 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 531 kata · I found the niche record in the archive by doing the thing I should have done eleven days 
+
+**05 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 352 kata · I found my father in the administration office with the manifest of a ship in front of him
+
+---
+
+## Bab 25 — Called Back
+
+`Arc III` · 28mm · merah ruang mati, biru monitor · merah-biru
+
+**01 · G-12 — Pengakuan di bawah tekanan**
+Shot: hitung mundur terdengar → dua orang tak bisa menyentuh → wajah → hitung mundur menang
+Aksen: 183 kata · The recall order came in at 09:11 on the tenth of November, and it was addressed to R. WAR
+
+**02 · G-10 — Ruang yang berputar**
+Shot: air miring di gelas → lorong miring → tubuh menahan → akibat medis
+Aksen: 192 kata · Here is what the Cendana is. It is a hundred and twenty people in a hull laid out for nine
+
+**03 · G-12 — Pengakuan di bawah tekanan**
+Shot: hitung mundur terdengar → dua orang tak bisa menyentuh → wajah → hitung mundur menang
+Aksen: 311 kata · There is a particular hour in the relay room that I have never been able to describe to an
+
+**04 · G-10 — Ruang yang berputar**
+Shot: air miring di gelas → lorong miring → tubuh menahan → akibat medis
+Aksen: 259 kata · “You are going to get on that ship,” I said.
+
+**05 · G-12 — Pengakuan di bawah tekanan**
+Shot: hitung mundur terdengar → dua orang tak bisa menyentuh → wajah → hitung mundur menang
+Aksen: 904 kata · I want to describe this properly, because I have described the bad things properly and it 
+
+---
+
+## Bab 26 — Already Exists
+
+`Arc III` · 28mm · merah ruang mati, biru monitor · merah-biru
+
+**01 · G-03 — Pelajaran di permukaan**
+Shot: over-the-shoulder ke papan → close-up garis → tangan guru → dua-shot
+Aksen: 222 kata · The last entry in the ledger is not the last one anybody keyed. It is the last one anybody
+
+**02 · G-11 — Palindrom**
+Shot: gambar/kalimat pembuka → echo di tengah → echo di akhir → satu detail berubah
+Aksen: 306 kata · I want to explain what a sender is, because the whole of what happened next depends on it 
+
+**03 · G-03 — Pelajaran di permukaan**
+Shot: over-the-shoulder ke papan → close-up garis → tangan guru → dua-shot
+Aksen: 445 kata · “Draw it,” I said.
+
+**04 · G-11 — Palindrom**
+Shot: gambar/kalimat pembuka → echo di tengah → echo di akhir → satu detail berubah
+Aksen: 193 kata · “Vey,” I said. “Has anybody tried?”
+
+**05 · G-03 — Pelajaran di permukaan**
+Shot: over-the-shoulder ke papan → close-up garis → tangan guru → dua-shot
+Aksen: 284 kata · “There is a paper,” Rasya said, when I told him. “Nineteen ninety-nine. Kim, and a group a
+
+**06 · G-11 — Palindrom**
+Shot: gambar/kalimat pembuka → echo di tengah → echo di akhir → satu detail berubah
+Aksen: 101 kata · I went out to the lock that night and stood with my face against the glass and watched the

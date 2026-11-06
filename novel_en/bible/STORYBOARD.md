@@ -7,9 +7,9 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 
 ## Status
 
-- Bab tertulis: **23 / 100**
-- Total kata: **43,448**
-- Rata-rata: **1889 kata/bab**
+- Bab tertulis: **26 / 100**
+- Total kata: **48,461**
+- Rata-rata: **1863 kata/bab**
 
 
 ## Papan ringkas
@@ -37,12 +37,15 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 | 19 | Refusal | G-05 | Nara | 2183.11.06 | 1807 | 6 | 45 | 12.6 |
 | 20 | Four Thousand People | G-12 | Nara | 2183.11.07 | 2215 | 6 | 58 | 11.5 |
 | 21 | Who Keeps the Lights | G-01 + G-10 | Nara | 2183.11.08 | 1630 | 5 | 30 | 16.0 |
-| 22 | The Recording at Seven | G-02 + G-08 | Nara | 2183.11.09 | 1777 | 5 | 29 | 15.7 |
+| 22 | The Recording at Seven | G-02 + G-08 | Nara | 2183.11.09 | 1779 | 5 | 29 | 15.7 |
 | 23 | The One Who Paid | G-02 + G-08 | Nara | 2183.11.09 | 1686 | 5 | 22 | 15.0 |
+| 24 | Alive | G-08 | Nara | 2183.11.10 | 1569 | 5 | 40 | 13.6 |
+| 25 | Called Back | G-12 + G-10 | Nara | 2183.11.10 | 1860 | 5 | 39 | 15.0 |
+| 26 | Already Exists | G-03 + G-11 | Nara | 2183.11.11 | 1565 | 6 | 58 | 10.0 |
 
 ## Pola dan lubang
 
-- belum ditulis: 77 bab, mulai bab 24
+- belum ditulis: 74 bab, mulai bab 27
 
 ## Papan per bab
 
@@ -290,7 +293,7 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-AIII-C021-S05` · 326 kata · There is a thing that happens to me in the relay room when a number is too large to hold in my head:
 
 ### V1-AIII-C022 — The Recording at Seven
-`The Room at Seven` · POV Nara · 2183.11.09 · 1777 kata · hadir: Nara, Danu
+`The Room at Seven` · POV Nara · 2183.11.09 · 1779 kata · hadir: Nara, Danu
 - **Beat:** She finds twenty-two-year-old footage of the relay room.
 - **Hook:** A seven-year-old signed the form. Her handwriting. Her A.
 - **Templat:** G-02 Satu detik yang menebal + G-08 Tangan yang tidak sampai · lensa 28mm · merah ruang mati, biru monitor · merah-biru
@@ -299,7 +302,7 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-AIII-C022-S02` · 415 kata · Rasya Wardhana had taken his coat off. This was, in nine years of Kemuning, the single most shocking
   - `V1-AIII-C022-S03` · 191 kata · The spool was called *KM-C-RINGC-2161-0920*, and it was four hundred and eleven hours long, and it h
   - `V1-AIII-C022-S04` · 211 kata · The woman was thirty-nine years old. She had her hair pinned the way my mother pinned her hair, with
-  - `V1-AIII-C022-S05` · 786 kata · At 07:00:03, my mother sat me on the bench and took a form out of the canvas bag.
+  - `V1-AIII-C022-S05` · 788 kata · At 07:00:03, my mother sat me on the bench and took a form out of the canvas bag.
 
 ### V1-AIII-C023 — The One Who Paid
 `The Room at Seven` · POV Nara · 2183.11.09 · 1686 kata · hadir: Nara, Sekar, Danu
@@ -312,3 +315,40 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-AIII-C023-S03` · 268 kata · I want to explain what that date is, and I want to do it without putting my fist through the wall of
   - `V1-AIII-C023-S04` · 398 kata · Here is what I have worked out since, and I have to be honest about the difference between what the 
   - `V1-AIII-C023-S05` · 347 kata · We sat there until the shift change.
+
+### V1-AIII-C024 — Alive
+`The Room at Seven` · POV Nara · 2183.11.10 · 1569 kata · hadir: Nara, Danu
+- **Beat:** The death certificate is false; Danu is not surprised by the name.
+- **Hook:** My father did not ask who she was. He asked where.
+- **Templat:** G-08 Tangan yang tidak sampai · lensa 28mm · merah ruang mati, biru monitor · merah-biru
+- **Shot utama:** dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+  - `V1-AIII-C024-S01` · 190 kata · The hospital file was nine pages long and I had read it four times, and it took Vey eleven seconds t
+  - `V1-AIII-C024-S02` · 197 kata · R. Halim.
+  - `V1-AIII-C024-S03` · 288 kata · I went to the ring hospital at noon, because I wanted to stand in the room where the sessions had ha
+  - `V1-AIII-C024-S04` · 531 kata · I found the niche record in the archive by doing the thing I should have done eleven days earlier, w
+  - `V1-AIII-C024-S05` · 352 kata · I found my father in the administration office with the manifest of a ship in front of him and a pen
+
+### V1-AIII-C025 — Called Back
+`The Room at Seven` · POV Nara · 2183.11.10 · 1860 kata · hadir: Nara, Rasya, Vey
+- **Beat:** Rasya is recalled to the inner routes and chooses to stay.
+- **Hook:** He stayed. And then, in the dark of the relay room, he kissed her.
+- **Templat:** G-12 Pengakuan di bawah tekanan + G-10 Ruang yang berputar · lensa 28mm · merah ruang mati, biru monitor · merah-biru
+- **Shot utama:** hitung mundur terdengar → dua orang tak bisa menyentuh → wajah → hitung mundur menang
+  - `V1-AIII-C025-S01` · 183 kata · The recall order came in at 09:11 on the tenth of November, and it was addressed to R. WARDHANA, FIE
+  - `V1-AIII-C025-S02` · 192 kata · Here is what the Cendana is. It is a hundred and twenty people in a hull laid out for ninety, with n
+  - `V1-AIII-C025-S03` · 311 kata · There is a particular hour in the relay room that I have never been able to describe to anybody who 
+  - `V1-AIII-C025-S04` · 259 kata · “You are going to get on that ship,” I said.
+  - `V1-AIII-C025-S05` · 904 kata · I want to describe this properly, because I have described the bad things properly and it is only fa
+
+### V1-AIII-C026 — Already Exists
+`The Room at Seven` · POV Nara · 2183.11.11 · 1565 kata · hadir: Nara, Vey
+- **Beat:** Nara works out that the packet only arrives if she sends it.
+- **Hook:** If it arrives, I must have sent it. There is no version of this where I get to choose.
+- **Templat:** G-03 Pelajaran di permukaan + G-11 Palindrom · lensa 28mm · merah ruang mati, biru monitor · merah-biru
+- **Shot utama:** over-the-shoulder ke papan → close-up garis → tangan guru → dua-shot
+  - `V1-AIII-C026-S01` · 222 kata · The last entry in the ledger is not the last one anybody keyed. It is the last one anybody will rece
+  - `V1-AIII-C026-S02` · 306 kata · I want to explain what a sender is, because the whole of what happened next depends on it being exac
+  - `V1-AIII-C026-S03` · 445 kata · “Draw it,” I said.
+  - `V1-AIII-C026-S04` · 193 kata · “Vey,” I said. “Has anybody tried?”
+  - `V1-AIII-C026-S05` · 284 kata · “There is a paper,” Rasya said, when I told him. “Nineteen ninety-nine. Kim, and a group at Maryland
+  - `V1-AIII-C026-S06` · 101 kata · I went out to the lock that night and stood with my face against the glass and watched the buoy turn
