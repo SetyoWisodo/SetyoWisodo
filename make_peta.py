@@ -18,9 +18,12 @@ from reportlab.platypus.tableofcontents import TableOfContents
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import peta_novel.peta_content as P  # noqa: E402
+MODUL = sys.argv[1] if len(sys.argv) > 1 else "peta_content"
+_slug = MODUL.replace("-", "_")
+import importlib  # noqa: E402
+P = importlib.import_module("peta_novel." + _slug)
 
-OUT = os.path.join(HERE, "PETA_SEBELUM_CAHAYA_SAMPAI.pdf")
+OUT = os.path.join(HERE, getattr(P, "OUTPUT", "PETA_SEBELUM_CAHAYA_SAMPAI.pdf"))
 
 F = os.path.join(HERE, "fonts")
 for n, f in (("Body", "Tinos-Regular.ttf"), ("Body-It", "Tinos-Italic.ttf"),
@@ -123,7 +126,7 @@ class Doc(BaseDocTemplate):
     def __init__(self, path, **kw):
         BaseDocTemplate.__init__(self, path, pagesize=A4, leftMargin=ML, rightMargin=MR,
                                  topMargin=MT, bottomMargin=MB,
-                                 title="Sebelum Cahaya Sampai — peta novel 750.000 kata",
+                                 title=getattr(P, "META_TITLE", "Sebelum Cahaya Sampai — peta novel"),
                                  author="Setyo Wisodo",
                                  subject="Fiksi ilmiah + romance, 10 volume, 300 bab",
                                  creator="make_peta.py", **kw)
@@ -165,28 +168,27 @@ def draw_cover(canv, doc):
 
     canv.setFillColor(GLOW)
     canv.setFont("Head-Bd", 9.4)
-    canv.drawString(ML, PAGE_H - 34 * mm, "PETA NOVEL  ·  750.000 KATA  ·  300 BAB")
+    canv.drawString(ML, PAGE_H - 34 * mm, getattr(P, "COVER_KICKER", ""))
 
+    judul = getattr(P, "JUDUL", ["SEBELUM", "CAHAYA", "SAMPAI"])
     canv.setFillColor(colors.white)
-    canv.setFont("Head-Bd", 34)
-    canv.drawString(ML, PAGE_H - 52 * mm, "SEBELUM")
-    canv.drawString(ML, PAGE_H - 66 * mm, "CAHAYA")
-    canv.drawString(ML, PAGE_H - 80 * mm, "SAMPAI")
+    canv.setFont("Head-Bd", 34 if len(judul) > 2 else 30)
+    y0 = PAGE_H - 52 * mm
+    for i, baris in enumerate(judul):
+        canv.drawString(ML, y0 - i * 14 * mm, baris)
 
+    tagline = getattr(P, "TAGLINE", [])
     canv.setFillColor(colors.HexColor("#9FD3DF"))
     canv.setFont("Body-It", 13.2)
-    canv.drawString(ML, PAGE_H - 92 * mm, "Kau boleh mengirim cinta ke masa depan.")
-    canv.drawString(ML, PAGE_H - 98 * mm, "Harganya: kau lupa bahwa kau pernah mengirimnya.")
+    for i, baris in enumerate(tagline):
+        canv.drawString(ML, PAGE_H - 92 * mm - i * 6 * mm, baris)
 
     canv.setFillColor(colors.HexColor("#7FA6B3"))
     canv.setFont("Head", 8.4)
-    canv.drawString(ML, PAGE_H - 108 * mm, "Fiksi ilmiah  ·  romance  ·  10 volume  ·  2.500 kata per bab")
+    canv.drawString(ML, PAGE_H - 108 * mm, getattr(P, "COVER_SUB", ""))
 
     y = 96 * mm
-    for tag, isi in [("DUNIA", "Relai Tertunda: pesan dijadwalkan, ingatan dibayar."),
-                     ("TOKOH", "Enam orang yang ingin dan butuh hal yang berbeda."),
-                     ("TIKUNGAN", "Sepuluh pengungkapan, semuanya ditanam lebih dulu."),
-                     ("VOL 1", "Bab 1–30, dirinci sampai adegan dan pengaitnya.")]:
+    for tag, isi in getattr(P, "COVER_TAGS", []):
         canv.setFillColor(GLOW)
         canv.setFont("Head-Bd", 8.0)
         canv.drawString(ML, y, tag)
@@ -292,18 +294,7 @@ def tambah(story, blocks):
         blok(b, story)
 
 
-BAGIAN = [
-    ("01", "Dunia & aturan", "Relai Tertunda, harga ingatan, Buku Tagihan.", P.ATURAN),
-    ("02", "Enam tokoh", "Ingin, butuh, dan satu rahasia masing-masing.", P.TOKOH),
-    ("03", "Arsitektur 10 volume", "Apa yang pembaca kira, dan apa yang sebenarnya.", P.ARSITEKTUR),
-    ("04", "Tangga tikungan", "Sepuluh pengungkapan dan tempat penanamannya.", P.TANGGA),
-    ("05", "Volume 1 — bab 1–30", "Dirinci per bab: isi, tikungan, pengait.", P.bab_vol1()),
-    ("06", "Volume 2–10", "Enam titik pasti tiap volume.", P.VOL_LANJUT),
-    ("07", "Arsitektur emosi", "Peta romance per volume.", P.EMOSI),
-    ("08", "Mesin ketakterdugaan", "Empat aturan yang membuat plot tak tertebak.", P.MESIN),
-    ("09", "Rencana serialisasi", "Jadwal, bentuk bab, dan jenis pengait.", P.SERIAL),
-    ("10", "Audit & langkah berikutnya", "Alat pemeriksa dan urutan kerja.", P.AUDIT),
-]
+BAGIAN = P.BAGIAN
 
 
 def build(path):

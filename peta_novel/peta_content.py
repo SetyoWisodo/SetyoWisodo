@@ -429,3 +429,26 @@ LANGKAH = [
      "Novel 750.000 kata bukan novel yang panjang. Ia novel pendek yang diulang tiga ratus kali, "
      "dengan disiplin yang sama setiap kali."),
 ]
+
+
+OUTPUT = "PETA_SEBELUM_CAHAYA_SAMPAI.pdf"
+META_TITLE = "Sebelum Cahaya Sampai — peta novel 750.000 kata"
+COVER_KICKER = "PETA NOVEL  ·  750.000 KATA  ·  300 BAB"
+COVER_SUB = "Fiksi ilmiah  ·  romance  ·  10 volume  ·  2.500 kata per bab"
+COVER_TAGS = [("DUNIA", "Relai Tertunda: pesan dijadwalkan, ingatan dibayar."),
+              ("TOKOH", "Enam orang yang ingin dan butuh hal yang berbeda."),
+              ("TIKUNGAN", "Sepuluh pengungkapan, semuanya ditanam lebih dulu."),
+              ("VOL 1", "Bab 1–30, dirinci sampai adegan dan pengaitnya.")]
+
+BAGIAN = [
+    ("01", "Dunia & aturan", "Relai Tertunda, harga ingatan, Buku Tagihan.", ATURAN),
+    ("02", "Enam tokoh", "Ingin, butuh, dan satu rahasia masing-masing.", TOKOH),
+    ("03", "Arsitektur 10 volume", "Apa yang pembaca kira, dan apa yang sebenarnya.", ARSITEKTUR),
+    ("04", "Tangga tikungan", "Sepuluh pengungkapan dan tempat penanamannya.", TANGGA),
+    ("05", "Volume 1 — bab 1–30", "Dirinci per bab: isi, tikungan, pengait.", bab_vol1()),
+    ("06", "Volume 2–10", "Enam titik pasti tiap volume.", VOL_LANJUT),
+    ("07", "Arsitektur emosi", "Peta romance per volume.", EMOSI),
+    ("08", "Mesin ketakterdugaan", "Empat aturan yang membuat plot tak tertebak.", MESIN),
+    ("09", "Rencana serialisasi", "Jadwal, bentuk bab, dan jenis pengait.", SERIAL),
+    ("10", "Audit & langkah berikutnya", "Alat pemeriksa dan urutan kerja.", AUDIT),
+]
