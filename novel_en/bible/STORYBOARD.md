@@ -7,9 +7,9 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 
 ## Status
 
-- Bab tertulis: **15 / 100**
-- Total kata: **26,921**
-- Rata-rata: **1794 kata/bab**
+- Bab tertulis: **18 / 100**
+- Total kata: **31,775**
+- Rata-rata: **1765 kata/bab**
 
 
 ## Papan ringkas
@@ -31,10 +31,13 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 | 13 | Interrogation | Nara | 2183.11.03 | 1723 | 3 | 59 | 10.9 |
 | 14 | Three Years Ago | Nara | 2183.11.04 | 1527 | 5 | 60 | 10.4 |
 | 15 | The Wrong Trust | Nara | 2183.11.04 | 1651 | 5 | 36 | 11.1 |
+| 16 | Residue | Nara | 2183.11.05 | 1659 | 5 | 59 | 9.9 |
+| 17 | Installments | Nara | 2183.11.05 | 1518 | 6 | 50 | 11.3 |
+| 18 | How Much | Nara | 2183.11.06 | 1661 | 6 | 39 | 11.7 |
 
 ## Pola dan lubang
 
-- belum ditulis: 85 bab, mulai bab 16
+- belum ditulis: 82 bab, mulai bab 19
 
 ## Papan per bab
 
@@ -174,3 +177,35 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-AII-C015-S03` · 295 kata · He put both hands around it, the way you hold a bird.
   - `V1-AII-C015-S04` · 530 kata · So I told him.
   - `V1-AII-C015-S05` · 266 kata · We worked until six. At some point I put my head down on the bench for a minute, and the minute beca
+
+### V1-AII-C016 — Residue
+`The Ledger` · POV Nara · 2183.11.05 · 1659 kata · hadir: Nara, Rasya
+- **Beat:** Confrontation in the corridor outside the relay room.
+- **Hook:** “I paid for you,” he said, “three years before I met you.”
+  - `V1-AII-C016-S01` · 249 kata · I caught him in the corridor outside the relay room at seven, which is the hour when the night shift
+  - `V1-AII-C016-S02` · 444 kata · The corridor was empty. Somewhere behind the wall, the water plant began its morning cycle, and the 
+  - `V1-AII-C016-S03` · 284 kata · I hit him.
+  - `V1-AII-C016-S04` · 380 kata · “Paying.”
+  - `V1-AII-C016-S05` · 292 kata · I do not know why I did what I did next.
+
+### V1-AII-C017 — Installments
+`The Ledger` · POV Nara · 2183.11.05 · 1518 kata · hadir: Nara, Rasya
+- **Beat:** Rasya tries to say his sister’s name and cannot finish it.
+- **Hook:** He could not remember whether she had been older or younger.
+  - `V1-AII-C017-S01` · 204 kata · He brought the notebook the next day, which was not what I expected.
+  - `V1-AII-C017-S02` · 187 kata · The first page said:
+  - `V1-AII-C017-S03` · 167 kata · The notebook was sixty-one pages long.
+  - `V1-AII-C017-S04` · 184 kata · “Four payments,” I said.
+  - `V1-AII-C017-S05` · 348 kata · “Say her name,” I said.
+  - `V1-AII-C017-S06` · 416 kata · I did not know what to say, so I said nothing for a while, and the silence did what silence does in 
+
+### V1-AII-C018 — How Much
+`The Ledger` · POV Nara · 2183.11.06 · 1661 kata · hadir: Nara, Rasya
+- **Beat:** They try to measure what he has lost and discover it cannot be measured.
+- **Hook:** What is missing does not feel missing. That was the cruellest part.
+  - `V1-AII-C018-S01` · 99 kata · “How much?” I said.
+  - `V1-AII-C018-S02` · 316 kata · We tried anyway. That is what people like us do.
+  - `V1-AII-C018-S03` · 199 kata · The other ways took us four days.
+  - `V1-AII-C018-S04` · 590 kata · We found her on the fourth day.
+  - `V1-AII-C018-S05` · 133 kata · I did not sleep that night either, but for a different reason.
+  - `V1-AII-C018-S06` · 313 kata · There were eleven thousand hours of footage of me.
