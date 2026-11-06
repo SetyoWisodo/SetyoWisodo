@@ -7,9 +7,9 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 
 ## Status
 
-- Bab tertulis: **11 / 100**
-- Total kata: **20,368**
-- Rata-rata: **1851 kata/bab**
+- Bab tertulis: **15 / 100**
+- Total kata: **26,921**
+- Rata-rata: **1794 kata/bab**
 
 
 ## Papan ringkas
@@ -23,14 +23,18 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 | 5 | Two Readings | Nara | 2183.10.30 | 1748 | 3 | 59 | 10.4 |
 | 6 | At My Fingertips | Nara | 2183.10.31 | 1858 | 5 | 26 | 14.2 |
 | 7 | Not Yet Sent | Nara | 2183.10.31 | 1604 | 3 | 46 | 11.8 |
-| 8 | The Charge | Nara | 2183.11.01 | 1841 | 5 | 39 | 11.8 |
+| 8 | The Charge | Nara | 2183.11.01 | 1888 | 5 | 38 | 12.3 |
 | 9 | Been Here Before | Nara | 2183.11.01 | 1596 | 4 | 58 | 10.9 |
 | 10 | Nine Days | Nara | 2183.11.02 | 1718 | 5 | 45 | 11.4 |
 | 11 | She Counts Grams | Vey | 2183.11.02 | 1944 | 5 | 21 | 15.1 |
+| 12 | Recipient | Nara | 2183.11.03 | 1581 | 4 | 47 | 8.7 |
+| 13 | Interrogation | Nara | 2183.11.03 | 1723 | 3 | 59 | 10.9 |
+| 14 | Three Years Ago | Nara | 2183.11.04 | 1527 | 5 | 60 | 10.4 |
+| 15 | The Wrong Trust | Nara | 2183.11.04 | 1651 | 5 | 36 | 11.1 |
 
 ## Pola dan lubang
 
-- belum ditulis: 89 bab, mulai bab 12
+- belum ditulis: 85 bab, mulai bab 16
 
 ## Papan per bab
 
@@ -96,10 +100,10 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-0AI-C007-S03` · 969 kata · The reader was a Biro field unit, the kind that costs more than a house and does only three things: 
 
 ### V1-0AI-C008 — The Charge
-`The Warm Core` · POV Nara · 2183.11.01 · 1841 kata · hadir: Nara, Danu, Rasya
+`The Warm Core` · POV Nara · 2183.11.01 · 1888 kata · hadir: Nara, Danu, Rasya
 - **Beat:** Nara is accused of forgery; Danu closes the inquiry; she cannot recall three years.
 - **Hook:** She realised she could not remember the last three years clearly.
-  - `V1-0AI-C008-S01` · 371 kata · They charged me at nine in the morning in the room with the child’s drawing of the station on the wa
+  - `V1-0AI-C008-S01` · 418 kata · They charged me at nine in the morning in the room with the child’s drawing of the station on the wa
   - `V1-0AI-C008-S02` · 440 kata · It took eleven minutes, which is apparently the length of everything on Kemuning.
   - `V1-0AI-C008-S03` · 464 kata · Then Danu stood up.
   - `V1-0AI-C008-S04` · 407 kata · I went back to my quarters and stood in the shower for a long time with the water on cold, because I
@@ -133,3 +137,40 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-AII-C011-S03` · 389 kata · The registry charges forty grams a year to maintain a section nine seal.
   - `V1-AII-C011-S04` · 347 kata · In 2162, a year after the incident, I broke a rule.
   - `V1-AII-C011-S05` · 463 kata · At three in the morning on the second of November, she came into the relay room, which she was forbi
+
+### V1-AII-C012 — Recipient
+`The Ledger` · POV Nara · 2183.11.03 · 1581 kata · hadir: Nara, Vey, Rasya
+- **Beat:** Cross-checking the ledger: every unpaid packet resolves to Nara.
+- **Hook:** The sender signed with her hand, and dated it from the future.
+  - `V1-AII-C012-S01` · 341 kata · The ledger room is not a room. It is a cabinet the size of a wardrobe at the back of the administrat
+  - `V1-AII-C012-S02` · 548 kata · By noon we had resolved four hundred of the four thousand one hundred.
+  - `V1-AII-C012-S03` · 504 kata · The next part is the part I still dream about.
+  - `V1-AII-C012-S04` · 179 kata · I stood up and walked to the window and looked at the buoy.
+
+### V1-AII-C013 — Interrogation
+`The Ledger` · POV Nara · 2183.11.03 · 1723 kata · hadir: Nara, Vey
+- **Beat:** Nara corners Vey in the relay room; Vey answers with a question.
+- **Hook:** “Forty grams a year,” Vey said. “That is what he has been paying.”
+  - `V1-AII-C013-S01` · 810 kata · I waited until midnight, because Vey keeps office hours the way the tide keeps them, which is to say
+  - `V1-AII-C013-S02` · 353 kata · I sat down on the floor of the relay room with my back against rack nine, which is the coldest place
+  - `V1-AII-C013-S03` · 550 kata · I do not know how long I sat there.
+
+### V1-AII-C014 — Three Years Ago
+`The Ledger` · POV Nara · 2183.11.04 · 1527 kata · hadir: Nara, Rasya
+- **Beat:** Rasya describes the day he came to Kemuning and did not introduce himself.
+- **Hook:** He quoted her, word for word, from a conversation she does not remember.
+  - `V1-AII-C014-S01` · 146 kata · He came back the next morning with two coffees, because apparently that is how the Biro apologises.
+  - `V1-AII-C014-S02` · 375 kata · “I came in at six in the morning,” he said. “The *Rendang* docks at six. I had a bag with a change o
+  - `V1-AII-C014-S03` · 276 kata · “At nine,” he said, “I went to the relay room. You were on shift. You had your sleeves rolled up and
+  - `V1-AII-C014-S04` · 360 kata · “At noon,” he said, “I ate in the mess. You came in with a tray and sat two tables over with a child
+  - `V1-AII-C014-S05` · 358 kata · He left at four in the afternoon, twenty-two hours after he arrived.
+
+### V1-AII-C015 — The Wrong Trust
+`The Ledger` · POV Nara · 2183.11.04 · 1651 kata · hadir: Nara, Rasya
+- **Beat:** They work the night shift together; she lets him hold the core.
+- **Hook:** His jacket tasted like her. Not like a memory of her. Like her.
+  - `V1-AII-C015-S01` · 109 kata · The core had to be kept cold, and the cold well behind rack nine had been running at four degrees ab
+  - `V1-AII-C015-S02` · 441 kata · There is a particular intimacy to working with someone in a relay room at two in the morning that ha
+  - `V1-AII-C015-S03` · 295 kata · He put both hands around it, the way you hold a bird.
+  - `V1-AII-C015-S04` · 530 kata · So I told him.
+  - `V1-AII-C015-S05` · 266 kata · We worked until six. At some point I put my head down on the bench for a minute, and the minute beca

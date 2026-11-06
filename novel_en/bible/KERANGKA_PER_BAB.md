@@ -34,7 +34,7 @@ tiga kartu sebelumnya, dan aturan ini.
 - **Arc IX — The Weight** (bab 81–90)
 - **Arc X — The Beneficiary** (bab 91–100)
 
-Tertulis: **1 / 100**
+Tertulis: **15 / 100**
 
 ---
 
@@ -52,7 +52,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Nara, Vey, Danu, Rasya
 
 ### Bab 2 — Ash Protocol  
-`belum` · 2183.10.29 · POV Nara
+`selesai` · 2183.10.29 · POV Nara
 
 - **Beat:** Vey orders the core sealed; Nara copies a maintenance entry with a one-character checksum.
 - **Hook:** Whatever Danu had opened in Buoy Seven, somebody had wanted her to find it.
@@ -61,7 +61,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Nara, Vey, Danu, Rasya
 
 ### Bab 3 — The Quarterly Ship  
-`belum` · 2183.10.30 · POV Nara
+`selesai` · 2183.10.30 · POV Nara
 
 - **Beat:** The supply ship docks four days early; the audit opens in the common room.
 - **Hook:** Danu says the log was a terminal fault, and fourteen people decide not to look at each other.
@@ -70,7 +70,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Nara, Danu, Rasya, Kirana
 
 ### Bab 4 — Net Zero  
-`belum` · 2183.10.30 · POV Nara
+`selesai` · 2183.10.30 · POV Nara
 
 - **Beat:** The ledger shows 4,100 messages sent with zero payment, booked against the station.
 - **Hook:** Every one of the four thousand one hundred was addressed to N. Adisurya.
@@ -79,7 +79,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Nara, Danu, Rasya, Kirana
 
 ### Bab 5 — Two Readings  
-`belum` · 2183.10.30 · POV Nara
+`selesai` · 2183.10.30 · POV Nara
 
 - **Beat:** Nara and Rasya argue about the relay and the ledger; he knows her case number.
 - **Hook:** Rasya asks whether her mother grew up lunar-side, and he is right.
@@ -88,7 +88,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Nara, Rasya
 
 ### Bab 6 — At My Fingertips  
-`belum` · 2183.10.31 · POV Nara
+`selesai` · 2183.10.31 · POV Nara
 
 - **Beat:** Nara touches the sealed core and tastes a memory that is not hers.
 - **Hook:** The grief was not a stranger’s. It was her mother’s.
@@ -98,7 +98,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Nara, Vey
 
 ### Bab 7 — Not Yet Sent  
-`belum` · 2183.10.31 · POV Nara
+`selesai` · 2183.10.31 · POV Nara
 
 - **Beat:** Rasya finds the core she hid; the packet is dated forty years ahead.
 - **Hook:** The signature was hers, down to the broken A.
@@ -107,7 +107,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Nara, Rasya, Vey
 
 ### Bab 8 — The Charge  
-`belum` · 2183.11.01 · POV Nara
+`selesai` · 2183.11.01 · POV Nara
 
 - **Beat:** Nara is accused of forgery; Danu closes the inquiry; she cannot recall three years.
 - **Hook:** She realised she could not remember the last three years clearly.
@@ -116,7 +116,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Nara, Danu, Rasya
 
 ### Bab 9 — Been Here Before  
-`belum` · 2183.11.01 · POV Nara
+`selesai` · 2183.11.01 · POV Nara
 
 - **Beat:** Rasya admits a one-day visit three years ago under another name.
 - **Hook:** “I came here once,” he said. “To see the person whose file I had paid.”
@@ -125,7 +125,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Nara, Rasya
 
 ### Bab 10 — Nine Days  
-`belum` · 2183.11.02 · POV Nara
+`selesai` · 2183.11.02 · POV Nara
 
 - **Beat:** Archive search: nine days are missing from her seventh year.
 - **Hook:** The file was signed by her father.
@@ -137,7 +137,7 @@ Tertulis: **1 / 100**
 
 
 ### Bab 11 — She Counts Grams  
-`belum` · 2183.11.02 · POV Vey
+`selesai` · 2183.11.02 · POV Vey
 
 - **Beat:** Vey narrates sixty years of holding twelve thousand undelivered packets.
 - **Hook:** It knows who has been paying. It has chosen to say nothing.
@@ -146,7 +146,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Vey, Nara
 
 ### Bab 12 — Recipient  
-`belum` · 2183.11.03 · POV Nara
+`selesai` · 2183.11.03 · POV Nara
 
 - **Beat:** Cross-checking the ledger: every unpaid packet resolves to Nara.
 - **Hook:** The sender signed with her hand, and dated it from the future.
@@ -155,7 +155,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Nara, Vey, Rasya
 
 ### Bab 13 — Interrogation  
-`belum` · 2183.11.03 · POV Nara
+`selesai` · 2183.11.03 · POV Nara
 
 - **Beat:** Nara corners Vey in the relay room; Vey answers with a question.
 - **Hook:** “Forty grams a year,” Vey said. “That is what he has been paying.”
@@ -164,7 +164,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Nara, Vey
 
 ### Bab 14 — Three Years Ago  
-`belum` · 2183.11.04 · POV Nara
+`selesai` · 2183.11.04 · POV Nara
 
 - **Beat:** Rasya describes the day he came to Kemuning and did not introduce himself.
 - **Hook:** He quoted her, word for word, from a conversation she does not remember.
@@ -172,7 +172,7 @@ Tertulis: **1 / 100**
 - **Hadir:** Nara, Rasya
 
 ### Bab 15 — The Wrong Trust  
-`belum` · 2183.11.04 · POV Nara
+`selesai` · 2183.11.04 · POV Nara
 
 - **Beat:** They work the night shift together; she lets him hold the core.
 - **Hook:** His jacket tasted like her. Not like a memory of her. Like her.
