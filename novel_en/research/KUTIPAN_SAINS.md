@@ -9,6 +9,10 @@
 | S-03 | Informasi dapat diukur dalam bit; satu bit adalah satu bit apa pun isinya. | Claude E. Shannon | 1948 | `10.1002/j.1538-7305.1948.tb01338.x` |
 | S-04 | Pilihan yang dibuat setelah fakta tetap konsisten dengan satu riwayat. | Kim, Yu, Kulik, Shih, Scully | 1999 | `10.1103/PhysRevLett.84.1` |
 | S-05 | Keadaan kuantum yang tidak diketahui tidak dapat dikloning. | Wootters, Zurek | 1982 | `10.1038/299802a0` |
+| S-06 | Hukum kuadrat-kubik: kekuatan relatif naik saat ukuran turun. | Galileo Galilei | 1638 | `` |
+| S-07 | Prinsip aksi stasioner: satu lintasan, ditinjau sekaligus. | William Rowan Hamilton | 1834 | `` |
+| S-08 | Ingatan menjadi labil saat dipanggil dan harus disimpan ulang. | Nader, Schafe, LeDoux | 2000 | `10.1038/35021052` |
+| S-09 | Puing orbital memicu tabrakan berantai. | Kessler, Cour-Palais | 1978 | `10.1029/JA083iA06p02637` |
 
 ---
 
@@ -90,6 +94,70 @@
 **Yang dibenarkan.** isi paket hancur saat transmisi; hanya berat dan tanda tangan tersisa
 
 **Yang TIDAK dibenarkan.** tidak melarang pencatatan klasik
+
+
+---
+
+## S-06 — Galileo Galilei
+
+**Klaim.** Hukum kuadrat-kubik: kekuatan relatif naik saat ukuran turun.
+
+**Kutipan.** “the resistance of solids does not increase in proportion to their size”
+
+**Sumber.** Galileo Galilei, *Discorsi* Hari Kedua.  
+**DOI.** https://doi.org/
+
+**Yang dibenarkan.** skala mengubah kekuatan relatif, bukan hukum alam
+
+**Yang TIDAK dibenarkan.** tidak membenarkan manusia mengecil tanpa kehilangan massa
+
+
+---
+
+## S-07 — William Rowan Hamilton
+
+**Klaim.** Prinsip aksi stasioner: satu lintasan, ditinjau sekaligus.
+
+**Kutipan.** “the quantity called action is stationary along the actual path”
+
+**Sumber.** William Rowan Hamilton, *Philosophical Transactions of the Royal Society* 124, 247-308.  
+**DOI.** https://doi.org/
+
+**Yang dibenarkan.** masa depan sebagai lintasan yang sudah utuh, bukan ramalan
+
+**Yang TIDAK dibenarkan.** tidak berarti manusia dapat melihat masa depan
+
+
+---
+
+## S-08 — Nader, Schafe, LeDoux
+
+**Klaim.** Ingatan menjadi labil saat dipanggil dan harus disimpan ulang.
+
+**Kutipan.** “fear memories require protein synthesis in the amygdala for reconsolidation after retrieval”
+
+**Sumber.** Nader, Schafe, LeDoux, *Nature* 406, 722-726.  
+**DOI.** https://doi.org/10.1038/35021052
+
+**Yang dibenarkan.** ingatan dapat diubah tepat setelah dipanggil
+
+**Yang TIDAK dibenarkan.** tidak berarti ingatan dapat dihapus dengan presisi gram
+
+
+---
+
+## S-09 — Kessler, Cour-Palais
+
+**Klaim.** Puing orbital memicu tabrakan berantai.
+
+**Kutipan.** “collision frequency of artificial satellites”
+
+**Sumber.** Kessler, Cour-Palais, *Journal of Geophysical Research* 83(A6), 2637-2646.  
+**DOI.** https://doi.org/10.1029/JA083iA06p02637
+
+**Yang dibenarkan.** evakuasi lewat jalur orbital berisiko nyata
+
+**Yang TIDAK dibenarkan.** tidak memberi angka untuk rute fiksi kita
 
 
 ## Fiksi yang tidak boleh diklaim sebagai sains

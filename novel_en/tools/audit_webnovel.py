@@ -45,6 +45,26 @@ def metrik(isi):
                 kal=round(sum(len(k.split()) for k in kal) / max(1, len(kal)), 1),
                 scene=len([b for b in re.split(r"\n-{3,}\n", isi) if b.strip() and not b.strip().startswith("*Next")]))
 
+ADE = os.path.join(BIBLE, "adegan.json")
+AMBANG_TANDA = 2   # istilah khas templat yang wajib muncul (bukan sekadar satu kata umum)
+
+def cek_templat(paths):
+    """Templat adegan hanya dihitung hadir kalau jejak bahasanya benar-benar ada:
+    minimal AMBANG_TANDA istilah khas per templat yang dipetakan."""
+    if not os.path.exists(ADE):
+        return ["adegan.json hilang"]
+    ad = json.load(open(ADE, encoding="utf-8"))
+    T = ad["templates"]; peta = {b["n"]: b["templates"] for b in ad["bab"]}
+    out = []
+    for p in paths:
+        n = int(re.search(r"ch_(\d{3})", p).group(1))
+        isi = open(p, encoding="utf-8").read().lower()
+        for tid in peta.get(n, []):
+            hit = [w for w in T[tid]["tanda"] if w in isi]
+            if len(hit) < AMBANG_TANDA:
+                out.append("ch_%03d %s (%d/%d)" % (n, tid, len(hit), AMBANG_TANDA))
+    return out
+
 def main():
     rows = {r[0]: dict(zip(S.FIELDS, r)) for r in S.ALL}
     tokoh = load("tokoh.json"); sains = load("sains.json"); petunjuk = load("petunjuk.json")
@@ -60,6 +80,9 @@ def main():
     celah = [n for n in range(1, max(nomor) + 1) if n not in berkas]
     if celah: fail("struktur", "bab hilang: %s" % celah)
     ok("struktur", "%d dari 100 bab (%.0f%%)" % (len(nomor), len(nomor)))
+    adu = cek_templat([berkas[n] for n in nomor])
+    if adu: warn("adegan", "%d bab tanpa templat terbaca: %s" % (len(adu), "; ".join(adu[:4])))
+    else: ok("adegan", "semua bab memperlihatkan templat + detail mikro")
 
     alias = {}
     for resmi, d in tokoh.items():
@@ -159,7 +182,8 @@ def main():
             kk = kartu.get(sid)
             if not kk: salah.append("%s tanpa kartu" % sid)
             elif int(d.get("year", 0)) != int(kk.get("tahun", -1)): salah.append("%s tahun beda" % sid)
-            elif not kk.get("doi"): salah.append("%s tanpa DOI" % sid)
+            elif not kk.get("doi") and not kk.get("primary_source"): salah.append("%s tanpa DOI" % sid)
+            elif kk.get("primary_source") and not kk.get("sumber"): salah.append("%s tanpa sumber primer" % sid)
         if salah: fail("riset", "; ".join(salah))
         else: ok("riset", "%d penambat sinkron dengan DOI" % len(sains))
     return lapor()

@@ -1,0 +1,1165 @@
+{
+ "templates": {
+  "G-01": {
+   "tanda": [
+    "the size of",
+    "times the size",
+    "hectare",
+    "tonnes",
+    "kilomet",
+    "scale",
+    "compared with",
+    "bigger than",
+    "smaller than"
+   ],
+   "nama": "Skala yang mempermalukan",
+   "asal": "Interstellar / Ant-Man",
+   "shot": [
+    "close-up tangan di benda",
+    "wide yang membuka ruang",
+    "detail angka",
+    "reaksi wajah"
+   ]
+  },
+  "G-02": {
+   "tanda": [
+    "slower",
+    "stopp",
+    "thicken",
+    "did not fall",
+    "hung",
+    "longer than a second",
+    "half a second",
+    "in the quiet"
+   ],
+   "nama": "Satu detik yang menebal",
+   "asal": "The Matrix / Inception",
+   "shot": [
+    "orbit lambat",
+    "insert detail mikro",
+    "mata",
+    "pelebaran ke waktu normal"
+   ]
+  },
+  "G-03": {
+   "tanda": [
+    "draw",
+    "diagram",
+    "board",
+    "column",
+    "row",
+    "sketch",
+    "line by line",
+    "on the glass"
+   ],
+   "nama": "Pelajaran di permukaan",
+   "asal": "Interstellar / Arrival",
+   "shot": [
+    "over-the-shoulder ke papan",
+    "close-up garis",
+    "tangan guru",
+    "dua-shot"
+   ]
+  },
+  "G-04": {
+   "tanda": [
+    "thumb",
+    "slug",
+    "pocket",
+    "sleeve",
+    "weigh",
+    "serial number",
+    "ring in",
+    "rubbed"
+   ],
+   "nama": "Totem",
+   "asal": "Inception",
+   "shot": [
+    "benda di telapak",
+    "kebiasaan memeriksa",
+    "close-up tekstur",
+    "benda hilang"
+   ]
+  },
+  "G-05": {
+   "tanda": [
+    "two",
+    "either",
+    "left",
+    "right",
+    "choose",
+    "pad",
+    "door",
+    "eleven centimetres"
+   ],
+   "nama": "Dua pintu",
+   "asal": "The Matrix",
+   "shot": [
+    "dua objek dalam satu bingkai",
+    "jari",
+    "napas",
+    "gerakan kecil"
+   ]
+  },
+  "G-06": {
+   "tanda": [
+    "meanwhile",
+    "at the same time",
+    "elsewhere",
+    "while",
+    "hours",
+    "same hour",
+    "elsewhere on"
+   ],
+   "nama": "Jam bertingkat",
+   "asal": "Inception",
+   "shot": [
+    "jangkar bersama",
+    "potong ke jalur lambat",
+    "potong ke jalur cepat",
+    "kembali ke jangkar"
+   ]
+  },
+  "G-07": {
+   "tanda": [
+    "list",
+    "scroll",
+    "entry",
+    "queue",
+    "log",
+    "message",
+    "line after line",
+    "page after page"
+   ],
+   "nama": "Tumpukan pesan",
+   "asal": "Interstellar",
+   "shot": [
+    "daftar menggulir",
+    "satu baris berhenti",
+    "wajah membaca",
+    "baris terakhir"
+   ]
+  },
+  "G-08": {
+   "tanda": [
+    "glass",
+    "could not touch",
+    "through the window",
+    "reach",
+    "airlock",
+    "on the other side",
+    "separated"
+   ],
+   "nama": "Tangan yang tidak sampai",
+   "asal": "Interstellar",
+   "shot": [
+    "dua sisi medium",
+    "sentuhan dicoba",
+    "medium menolak",
+    "makna sampai"
+   ]
+  },
+  "G-09": {
+   "tanda": [
+    "table",
+    "map",
+    "plan",
+    "briefing",
+    "we will",
+    "everyone in the room",
+    "laid out"
+   ],
+   "nama": "Briefing heist",
+   "asal": "Ant-Man",
+   "shot": [
+    "meja dan objek",
+    "peta",
+    "wajah tiap orang",
+    "satu baris ramalan gagal"
+   ]
+  },
+  "G-10": {
+   "tanda": [
+    "tilt",
+    "spinning",
+    "corridor",
+    "gravity",
+    "floor",
+    "wall",
+    "ceiling",
+    "rolled"
+   ],
+   "nama": "Ruang yang berputar",
+   "asal": "Inception",
+   "shot": [
+    "air miring di gelas",
+    "lorong miring",
+    "tubuh menahan",
+    "akibat medis"
+   ]
+  },
+  "G-11": {
+   "tanda": [
+    "again",
+    "same",
+    "mirror",
+    "backward",
+    "palindrome",
+    "returned",
+    "the second time"
+   ],
+   "nama": "Palindrom",
+   "asal": "Arrival",
+   "shot": [
+    "gambar/kalimat pembuka",
+    "echo di tengah",
+    "echo di akhir",
+    "satu detail berubah"
+   ]
+  },
+  "G-12": {
+   "tanda": [
+    "count",
+    "second",
+    "clock",
+    "time left",
+    "countdown",
+    "remaining",
+    "eleven days"
+   ],
+   "nama": "Pengakuan di bawah tekanan",
+   "asal": "Ant-Man / Interstellar",
+   "shot": [
+    "hitung mundur terdengar",
+    "dua orang tak bisa menyentuh",
+    "wajah",
+    "hitung mundur menang"
+   ]
+  }
+ },
+ "bab": [
+  {
+   "n": 1,
+   "templates": [
+    "G-01",
+    "G-04"
+   ],
+   "lensa": "32mm",
+   "cahaya": "lampu kerja sodium, bayangan keras",
+   "warna": "kelabu-amber"
+  },
+  {
+   "n": 2,
+   "templates": [
+    "G-05",
+    "G-09"
+   ],
+   "lensa": "32mm",
+   "cahaya": "lampu kerja sodium, bayangan keras",
+   "warna": "kelabu-amber"
+  },
+  {
+   "n": 3,
+   "templates": [
+    "G-09",
+    "G-01"
+   ],
+   "lensa": "32mm",
+   "cahaya": "lampu kerja sodium, bayangan keras",
+   "warna": "kelabu-amber"
+  },
+  {
+   "n": 4,
+   "templates": [
+    "G-07",
+    "G-01"
+   ],
+   "lensa": "32mm",
+   "cahaya": "lampu kerja sodium, bayangan keras",
+   "warna": "kelabu-amber"
+  },
+  {
+   "n": 5,
+   "templates": [
+    "G-03"
+   ],
+   "lensa": "32mm",
+   "cahaya": "lampu kerja sodium, bayangan keras",
+   "warna": "kelabu-amber"
+  },
+  {
+   "n": 6,
+   "templates": [
+    "G-02"
+   ],
+   "lensa": "32mm",
+   "cahaya": "lampu kerja sodium, bayangan keras",
+   "warna": "kelabu-amber"
+  },
+  {
+   "n": 7,
+   "templates": [
+    "G-04",
+    "G-08"
+   ],
+   "lensa": "32mm",
+   "cahaya": "lampu kerja sodium, bayangan keras",
+   "warna": "kelabu-amber"
+  },
+  {
+   "n": 8,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "32mm",
+   "cahaya": "lampu kerja sodium, bayangan keras",
+   "warna": "kelabu-amber"
+  },
+  {
+   "n": 9,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "32mm",
+   "cahaya": "lampu kerja sodium, bayangan keras",
+   "warna": "kelabu-amber"
+  },
+  {
+   "n": 10,
+   "templates": [
+    "G-08",
+    "G-01"
+   ],
+   "lensa": "32mm",
+   "cahaya": "lampu kerja sodium, bayangan keras",
+   "warna": "kelabu-amber"
+  },
+  {
+   "n": 11,
+   "templates": [
+    "G-07",
+    "G-06"
+   ],
+   "lensa": "40mm",
+   "cahaya": "neon bangku, hijau dingin",
+   "warna": "hijau-kertas"
+  },
+  {
+   "n": 12,
+   "templates": [
+    "G-07",
+    "G-01"
+   ],
+   "lensa": "40mm",
+   "cahaya": "neon bangku, hijau dingin",
+   "warna": "hijau-kertas"
+  },
+  {
+   "n": 13,
+   "templates": [
+    "G-03"
+   ],
+   "lensa": "40mm",
+   "cahaya": "neon bangku, hijau dingin",
+   "warna": "hijau-kertas"
+  },
+  {
+   "n": 14,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "40mm",
+   "cahaya": "neon bangku, hijau dingin",
+   "warna": "hijau-kertas"
+  },
+  {
+   "n": 15,
+   "templates": [
+    "G-04",
+    "G-12"
+   ],
+   "lensa": "40mm",
+   "cahaya": "neon bangku, hijau dingin",
+   "warna": "hijau-kertas"
+  },
+  {
+   "n": 16,
+   "templates": [
+    "G-02",
+    "G-05"
+   ],
+   "lensa": "40mm",
+   "cahaya": "neon bangku, hijau dingin",
+   "warna": "hijau-kertas"
+  },
+  {
+   "n": 17,
+   "templates": [
+    "G-03"
+   ],
+   "lensa": "40mm",
+   "cahaya": "neon bangku, hijau dingin",
+   "warna": "hijau-kertas"
+  },
+  {
+   "n": 18,
+   "templates": [
+    "G-07"
+   ],
+   "lensa": "40mm",
+   "cahaya": "neon bangku, hijau dingin",
+   "warna": "hijau-kertas"
+  },
+  {
+   "n": 19,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "40mm",
+   "cahaya": "neon bangku, hijau dingin",
+   "warna": "hijau-kertas"
+  },
+  {
+   "n": 20,
+   "templates": [
+    "G-12"
+   ],
+   "lensa": "40mm",
+   "cahaya": "neon bangku, hijau dingin",
+   "warna": "hijau-kertas"
+  },
+  {
+   "n": 21,
+   "templates": [
+    "G-01",
+    "G-10"
+   ],
+   "lensa": "28mm",
+   "cahaya": "merah ruang mati, biru monitor",
+   "warna": "merah-biru"
+  },
+  {
+   "n": 22,
+   "templates": [
+    "G-02",
+    "G-08"
+   ],
+   "lensa": "28mm",
+   "cahaya": "merah ruang mati, biru monitor",
+   "warna": "merah-biru"
+  },
+  {
+   "n": 23,
+   "templates": [
+    "G-02",
+    "G-08"
+   ],
+   "lensa": "28mm",
+   "cahaya": "merah ruang mati, biru monitor",
+   "warna": "merah-biru"
+  },
+  {
+   "n": 24,
+   "templates": [
+    "G-08"
+   ],
+   "lensa": "28mm",
+   "cahaya": "merah ruang mati, biru monitor",
+   "warna": "merah-biru"
+  },
+  {
+   "n": 25,
+   "templates": [
+    "G-12",
+    "G-10"
+   ],
+   "lensa": "28mm",
+   "cahaya": "merah ruang mati, biru monitor",
+   "warna": "merah-biru"
+  },
+  {
+   "n": 26,
+   "templates": [
+    "G-03",
+    "G-11"
+   ],
+   "lensa": "28mm",
+   "cahaya": "merah ruang mati, biru monitor",
+   "warna": "merah-biru"
+  },
+  {
+   "n": 27,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "28mm",
+   "cahaya": "merah ruang mati, biru monitor",
+   "warna": "merah-biru"
+  },
+  {
+   "n": 28,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "28mm",
+   "cahaya": "merah ruang mati, biru monitor",
+   "warna": "merah-biru"
+  },
+  {
+   "n": 29,
+   "templates": [
+    "G-04",
+    "G-01"
+   ],
+   "lensa": "28mm",
+   "cahaya": "merah ruang mati, biru monitor",
+   "warna": "merah-biru"
+  },
+  {
+   "n": 30,
+   "templates": [
+    "G-02",
+    "G-08"
+   ],
+   "lensa": "28mm",
+   "cahaya": "merah ruang mati, biru monitor",
+   "warna": "merah-biru"
+  },
+  {
+   "n": 31,
+   "templates": [
+    "G-09",
+    "G-04"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu dermaga, putih keras",
+   "warna": "putih-baja"
+  },
+  {
+   "n": 32,
+   "templates": [
+    "G-09",
+    "G-06"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu dermaga, putih keras",
+   "warna": "putih-baja"
+  },
+  {
+   "n": 33,
+   "templates": [
+    "G-08"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu dermaga, putih keras",
+   "warna": "putih-baja"
+  },
+  {
+   "n": 34,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu dermaga, putih keras",
+   "warna": "putih-baja"
+  },
+  {
+   "n": 35,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu dermaga, putih keras",
+   "warna": "putih-baja"
+  },
+  {
+   "n": 36,
+   "templates": [
+    "G-07"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu dermaga, putih keras",
+   "warna": "putih-baja"
+  },
+  {
+   "n": 37,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu dermaga, putih keras",
+   "warna": "putih-baja"
+  },
+  {
+   "n": 38,
+   "templates": [
+    "G-09"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu dermaga, putih keras",
+   "warna": "putih-baja"
+  },
+  {
+   "n": 39,
+   "templates": [
+    "G-12"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu dermaga, putih keras",
+   "warna": "putih-baja"
+  },
+  {
+   "n": 40,
+   "templates": [
+    "G-11"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu dermaga, putih keras",
+   "warna": "putih-baja"
+  },
+  {
+   "n": 41,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "35mm",
+   "cahaya": "ruang tribunal tanpa jendela",
+   "warna": "putih-datar"
+  },
+  {
+   "n": 42,
+   "templates": [
+    "G-01",
+    "G-07"
+   ],
+   "lensa": "35mm",
+   "cahaya": "ruang tribunal tanpa jendela",
+   "warna": "putih-datar"
+  },
+  {
+   "n": 43,
+   "templates": [
+    "G-04"
+   ],
+   "lensa": "35mm",
+   "cahaya": "ruang tribunal tanpa jendela",
+   "warna": "putih-datar"
+  },
+  {
+   "n": 44,
+   "templates": [
+    "G-04"
+   ],
+   "lensa": "35mm",
+   "cahaya": "ruang tribunal tanpa jendela",
+   "warna": "putih-datar"
+  },
+  {
+   "n": 45,
+   "templates": [
+    "G-12"
+   ],
+   "lensa": "35mm",
+   "cahaya": "ruang tribunal tanpa jendela",
+   "warna": "putih-datar"
+  },
+  {
+   "n": 46,
+   "templates": [
+    "G-08"
+   ],
+   "lensa": "35mm",
+   "cahaya": "ruang tribunal tanpa jendela",
+   "warna": "putih-datar"
+  },
+  {
+   "n": 47,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "35mm",
+   "cahaya": "ruang tribunal tanpa jendela",
+   "warna": "putih-datar"
+  },
+  {
+   "n": 48,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "35mm",
+   "cahaya": "ruang tribunal tanpa jendela",
+   "warna": "putih-datar"
+  },
+  {
+   "n": 49,
+   "templates": [
+    "G-10"
+   ],
+   "lensa": "35mm",
+   "cahaya": "ruang tribunal tanpa jendela",
+   "warna": "putih-datar"
+  },
+  {
+   "n": 50,
+   "templates": [
+    "G-01"
+   ],
+   "lensa": "35mm",
+   "cahaya": "ruang tribunal tanpa jendela",
+   "warna": "putih-datar"
+  },
+  {
+   "n": 51,
+   "templates": [
+    "G-01",
+    "G-07"
+   ],
+   "lensa": "24mm",
+   "cahaya": "neon pasar, uap",
+   "warna": "kuning-kotor"
+  },
+  {
+   "n": 52,
+   "templates": [
+    "G-07"
+   ],
+   "lensa": "24mm",
+   "cahaya": "neon pasar, uap",
+   "warna": "kuning-kotor"
+  },
+  {
+   "n": 53,
+   "templates": [
+    "G-07"
+   ],
+   "lensa": "24mm",
+   "cahaya": "neon pasar, uap",
+   "warna": "kuning-kotor"
+  },
+  {
+   "n": 54,
+   "templates": [
+    "G-09"
+   ],
+   "lensa": "24mm",
+   "cahaya": "neon pasar, uap",
+   "warna": "kuning-kotor"
+  },
+  {
+   "n": 55,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "24mm",
+   "cahaya": "neon pasar, uap",
+   "warna": "kuning-kotor"
+  },
+  {
+   "n": 56,
+   "templates": [
+    "G-02"
+   ],
+   "lensa": "24mm",
+   "cahaya": "neon pasar, uap",
+   "warna": "kuning-kotor"
+  },
+  {
+   "n": 57,
+   "templates": [
+    "G-07"
+   ],
+   "lensa": "24mm",
+   "cahaya": "neon pasar, uap",
+   "warna": "kuning-kotor"
+  },
+  {
+   "n": 58,
+   "templates": [
+    "G-08"
+   ],
+   "lensa": "24mm",
+   "cahaya": "neon pasar, uap",
+   "warna": "kuning-kotor"
+  },
+  {
+   "n": 59,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "24mm",
+   "cahaya": "neon pasar, uap",
+   "warna": "kuning-kotor"
+  },
+  {
+   "n": 60,
+   "templates": [
+    "G-12",
+    "G-08"
+   ],
+   "lensa": "24mm",
+   "cahaya": "neon pasar, uap",
+   "warna": "kuning-kotor"
+  },
+  {
+   "n": 61,
+   "templates": [
+    "G-07"
+   ],
+   "lensa": "45mm",
+   "cahaya": "strip koridor",
+   "warna": "kelabu-hangat"
+  },
+  {
+   "n": 62,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "45mm",
+   "cahaya": "strip koridor",
+   "warna": "kelabu-hangat"
+  },
+  {
+   "n": 63,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "45mm",
+   "cahaya": "strip koridor",
+   "warna": "kelabu-hangat"
+  },
+  {
+   "n": 64,
+   "templates": [
+    "G-02"
+   ],
+   "lensa": "45mm",
+   "cahaya": "strip koridor",
+   "warna": "kelabu-hangat"
+  },
+  {
+   "n": 65,
+   "templates": [
+    "G-04"
+   ],
+   "lensa": "45mm",
+   "cahaya": "strip koridor",
+   "warna": "kelabu-hangat"
+  },
+  {
+   "n": 66,
+   "templates": [
+    "G-08"
+   ],
+   "lensa": "45mm",
+   "cahaya": "strip koridor",
+   "warna": "kelabu-hangat"
+  },
+  {
+   "n": 67,
+   "templates": [
+    "G-01"
+   ],
+   "lensa": "45mm",
+   "cahaya": "strip koridor",
+   "warna": "kelabu-hangat"
+  },
+  {
+   "n": 68,
+   "templates": [
+    "G-12"
+   ],
+   "lensa": "45mm",
+   "cahaya": "strip koridor",
+   "warna": "kelabu-hangat"
+  },
+  {
+   "n": 69,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "45mm",
+   "cahaya": "strip koridor",
+   "warna": "kelabu-hangat"
+  },
+  {
+   "n": 70,
+   "templates": [
+    "G-07"
+   ],
+   "lensa": "45mm",
+   "cahaya": "strip koridor",
+   "warna": "kelabu-hangat"
+  },
+  {
+   "n": 71,
+   "templates": [
+    "G-09"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu darurat merah",
+   "warna": "merah-gelap"
+  },
+  {
+   "n": 72,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu darurat merah",
+   "warna": "merah-gelap"
+  },
+  {
+   "n": 73,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu darurat merah",
+   "warna": "merah-gelap"
+  },
+  {
+   "n": 74,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu darurat merah",
+   "warna": "merah-gelap"
+  },
+  {
+   "n": 75,
+   "templates": [
+    "G-02"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu darurat merah",
+   "warna": "merah-gelap"
+  },
+  {
+   "n": 76,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu darurat merah",
+   "warna": "merah-gelap"
+  },
+  {
+   "n": 77,
+   "templates": [
+    "G-12"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu darurat merah",
+   "warna": "merah-gelap"
+  },
+  {
+   "n": 78,
+   "templates": [
+    "G-09"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu darurat merah",
+   "warna": "merah-gelap"
+  },
+  {
+   "n": 79,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu darurat merah",
+   "warna": "merah-gelap"
+  },
+  {
+   "n": 80,
+   "templates": [
+    "G-11"
+   ],
+   "lensa": "50mm",
+   "cahaya": "lampu darurat merah",
+   "warna": "merah-gelap"
+  },
+  {
+   "n": 81,
+   "templates": [
+    "G-02"
+   ],
+   "lensa": "32mm",
+   "cahaya": "satu lampu bangku",
+   "warna": "amber-tunggal"
+  },
+  {
+   "n": 82,
+   "templates": [
+    "G-01"
+   ],
+   "lensa": "32mm",
+   "cahaya": "satu lampu bangku",
+   "warna": "amber-tunggal"
+  },
+  {
+   "n": 83,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "32mm",
+   "cahaya": "satu lampu bangku",
+   "warna": "amber-tunggal"
+  },
+  {
+   "n": 84,
+   "templates": [
+    "G-08"
+   ],
+   "lensa": "32mm",
+   "cahaya": "satu lampu bangku",
+   "warna": "amber-tunggal"
+  },
+  {
+   "n": 85,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "32mm",
+   "cahaya": "satu lampu bangku",
+   "warna": "amber-tunggal"
+  },
+  {
+   "n": 86,
+   "templates": [
+    "G-07"
+   ],
+   "lensa": "32mm",
+   "cahaya": "satu lampu bangku",
+   "warna": "amber-tunggal"
+  },
+  {
+   "n": 87,
+   "templates": [
+    "G-12"
+   ],
+   "lensa": "32mm",
+   "cahaya": "satu lampu bangku",
+   "warna": "amber-tunggal"
+  },
+  {
+   "n": 88,
+   "templates": [
+    "G-04"
+   ],
+   "lensa": "32mm",
+   "cahaya": "satu lampu bangku",
+   "warna": "amber-tunggal"
+  },
+  {
+   "n": 89,
+   "templates": [
+    "G-03"
+   ],
+   "lensa": "32mm",
+   "cahaya": "satu lampu bangku",
+   "warna": "amber-tunggal"
+  },
+  {
+   "n": 90,
+   "templates": [
+    "G-11"
+   ],
+   "lensa": "32mm",
+   "cahaya": "satu lampu bangku",
+   "warna": "amber-tunggal"
+  },
+  {
+   "n": 91,
+   "templates": [
+    "G-07"
+   ],
+   "lensa": "40mm",
+   "cahaya": "abu fajar",
+   "warna": "abu-biru"
+  },
+  {
+   "n": 92,
+   "templates": [
+    "G-11"
+   ],
+   "lensa": "40mm",
+   "cahaya": "abu fajar",
+   "warna": "abu-biru"
+  },
+  {
+   "n": 93,
+   "templates": [
+    "G-08"
+   ],
+   "lensa": "40mm",
+   "cahaya": "abu fajar",
+   "warna": "abu-biru"
+  },
+  {
+   "n": 94,
+   "templates": [
+    "G-05"
+   ],
+   "lensa": "40mm",
+   "cahaya": "abu fajar",
+   "warna": "abu-biru"
+  },
+  {
+   "n": 95,
+   "templates": [
+    "G-12"
+   ],
+   "lensa": "40mm",
+   "cahaya": "abu fajar",
+   "warna": "abu-biru"
+  },
+  {
+   "n": 96,
+   "templates": [
+    "G-06"
+   ],
+   "lensa": "40mm",
+   "cahaya": "abu fajar",
+   "warna": "abu-biru"
+  },
+  {
+   "n": 97,
+   "templates": [
+    "G-04"
+   ],
+   "lensa": "40mm",
+   "cahaya": "abu fajar",
+   "warna": "abu-biru"
+  },
+  {
+   "n": 98,
+   "templates": [
+    "G-07"
+   ],
+   "lensa": "40mm",
+   "cahaya": "abu fajar",
+   "warna": "abu-biru"
+  },
+  {
+   "n": 99,
+   "templates": [
+    "G-11"
+   ],
+   "lensa": "40mm",
+   "cahaya": "abu fajar",
+   "warna": "abu-biru"
+  },
+  {
+   "n": 100,
+   "templates": [
+    "G-11",
+    "G-08"
+   ],
+   "lensa": "40mm",
+   "cahaya": "abu fajar",
+   "warna": "abu-biru"
+  }
+ ]
+}

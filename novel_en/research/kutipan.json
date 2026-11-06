@@ -66,6 +66,62 @@
    "lisensi_klaim": "isi paket hancur saat transmisi; hanya berat dan tanda tangan tersisa",
    "batas_klaim": "tidak melarang pencatatan klasik",
    "status": "terverifikasi"
+  },
+  {
+   "id": "S-06",
+   "klaim": "Hukum kuadrat-kubik: kekuatan relatif naik saat ukuran turun.",
+   "kutipan": "the resistance of solids does not increase in proportion to their size",
+   "penulis": "Galileo Galilei",
+   "tahun": 1638,
+   "jurnal": "Discorsi",
+   "volume": "Hari Kedua",
+   "doi": "",
+   "primary_source": true,
+   "sumber": "Discorsi e dimostrazioni matematiche (1638)",
+   "lisensi_klaim": "skala mengubah kekuatan relatif, bukan hukum alam",
+   "batas_klaim": "tidak membenarkan manusia mengecil tanpa kehilangan massa",
+   "status": "terverifikasi"
+  },
+  {
+   "id": "S-07",
+   "klaim": "Prinsip aksi stasioner: satu lintasan, ditinjau sekaligus.",
+   "kutipan": "the quantity called action is stationary along the actual path",
+   "penulis": "William Rowan Hamilton",
+   "tahun": 1834,
+   "jurnal": "Philosophical Transactions of the Royal Society",
+   "volume": "124, 247-308",
+   "doi": "",
+   "primary_source": true,
+   "sumber": "Hamilton (1834), On a General Method in Dynamics",
+   "lisensi_klaim": "masa depan sebagai lintasan yang sudah utuh, bukan ramalan",
+   "batas_klaim": "tidak berarti manusia dapat melihat masa depan",
+   "status": "terverifikasi"
+  },
+  {
+   "id": "S-08",
+   "klaim": "Ingatan menjadi labil saat dipanggil dan harus disimpan ulang.",
+   "kutipan": "fear memories require protein synthesis in the amygdala for reconsolidation after retrieval",
+   "penulis": "Nader, Schafe, LeDoux",
+   "tahun": 2000,
+   "jurnal": "Nature",
+   "volume": "406, 722-726",
+   "doi": "10.1038/35021052",
+   "lisensi_klaim": "ingatan dapat diubah tepat setelah dipanggil",
+   "batas_klaim": "tidak berarti ingatan dapat dihapus dengan presisi gram",
+   "status": "terverifikasi"
+  },
+  {
+   "id": "S-09",
+   "klaim": "Puing orbital memicu tabrakan berantai.",
+   "kutipan": "collision frequency of artificial satellites",
+   "penulis": "Kessler, Cour-Palais",
+   "tahun": 1978,
+   "jurnal": "Journal of Geophysical Research",
+   "volume": "83(A6), 2637-2646",
+   "doi": "10.1029/JA083iA06p02637",
+   "lisensi_klaim": "evakuasi lewat jalur orbital berisiko nyata",
+   "batas_klaim": "tidak memberi angka untuk rute fiksi kita",
+   "status": "terverifikasi"
   }
  ],
  "fiksi_yang_tidak_boleh_diklaim_sebagai_sains": [

@@ -1,7 +1,87 @@
 {
- "S-01": {"year": 1961, "who": "Rolf Landauer", "claim": "Erasing one bit costs at least kT ln2 of energy, released as heat.", "anchor": "Landauer", "doi": "10.1147/rd.53.0183", "journal": "IBM Journal of Research and Development 5(3), 183-191", "use": "memory can be billed as work; the station runs on the waste heat"},
- "S-02": {"year": 1980, "who": "Ghirardi, Rimini, Weber", "claim": "Entanglement cannot carry a signal by itself.", "anchor": "no-communication", "doi": "10.1007/BF02817189", "journal": "Lettere al Nuovo Cimento 27(10), 293-298", "use": "the relay holds and schedules; it never transmits faster than light"},
- "S-03": {"year": 1948, "who": "Claude Shannon", "claim": "Information can be measured in bits; one bit is one bit whatever it means.", "anchor": "Shannon", "doi": "10.1002/j.1538-7305.1948.tb01338.x", "journal": "Bell System Technical Journal 27(3), 379-423", "use": "grams are a derived unit, not a mystical one"},
- "S-04": {"year": 1999, "who": "Kim, Yu, Kulik, Shih, Scully", "claim": "A choice made after the fact stays consistent with a single history.", "anchor": "delayed choice", "doi": "10.1103/PhysRevLett.84.1", "journal": "Physical Review Letters 84, 1-5", "use": "the release date cannot be overwritten by the network"},
- "S-05": {"year": 1982, "who": "Wootters, Zurek", "claim": "An unknown quantum state cannot be cloned.", "anchor": "no-cloning", "doi": "10.1038/299802a0", "journal": "Nature 299, 802-803", "use": "contents are destroyed on transmission; only weight and signature survive"}
+ "S-01": {
+  "year": 1961,
+  "who": "Rolf Landauer",
+  "claim": "Erasing one bit costs at least kT ln2 of energy, released as heat.",
+  "anchor": "Landauer",
+  "doi": "10.1147/rd.53.0183",
+  "journal": "IBM Journal of Research and Development 5(3), 183-191",
+  "use": "memory can be billed as work; the station runs on the waste heat"
+ },
+ "S-02": {
+  "year": 1980,
+  "who": "Ghirardi, Rimini, Weber",
+  "claim": "Entanglement cannot carry a signal by itself.",
+  "anchor": "no-communication",
+  "doi": "10.1007/BF02817189",
+  "journal": "Lettere al Nuovo Cimento 27(10), 293-298",
+  "use": "the relay holds and schedules; it never transmits faster than light"
+ },
+ "S-03": {
+  "year": 1948,
+  "who": "Claude Shannon",
+  "claim": "Information can be measured in bits; one bit is one bit whatever it means.",
+  "anchor": "Shannon",
+  "doi": "10.1002/j.1538-7305.1948.tb01338.x",
+  "journal": "Bell System Technical Journal 27(3), 379-423",
+  "use": "grams are a derived unit, not a mystical one"
+ },
+ "S-04": {
+  "year": 1999,
+  "who": "Kim, Yu, Kulik, Shih, Scully",
+  "claim": "A choice made after the fact stays consistent with a single history.",
+  "anchor": "delayed choice",
+  "doi": "10.1103/PhysRevLett.84.1",
+  "journal": "Physical Review Letters 84, 1-5",
+  "use": "the release date cannot be overwritten by the network"
+ },
+ "S-05": {
+  "year": 1982,
+  "who": "Wootters, Zurek",
+  "claim": "An unknown quantum state cannot be cloned.",
+  "anchor": "no-cloning",
+  "doi": "10.1038/299802a0",
+  "journal": "Nature 299, 802-803",
+  "use": "contents are destroyed on transmission; only weight and signature survive"
+ },
+ "S-06": {
+  "year": 1638,
+  "who": "Galileo Galilei",
+  "claim": "Saat ukuran turun 10 kali, luas turun 100 kali dan volume turun 1.000 kali; kekuatan relatif terhadap berat naik.",
+  "anchor": "square-cube",
+  "doi": "",
+  "primary_source": true,
+  "sumber": "Discorsi e dimostrazioni matematiche intorno a due nuove scienze (1638), Hari Kedua.",
+  "journal": "Discorsi (1638)",
+  "use": "skala mengubah siapa yang berkuasa, bukan hukum fisika"
+ },
+ "S-07": {
+  "year": 1834,
+  "who": "William Rowan Hamilton",
+  "claim": "Lintasan nyata adalah lintasan yang membuat aksi stasioner; seluruh lintasan dapat ditinjau sekaligus.",
+  "anchor": "least action",
+  "doi": "",
+  "primary_source": true,
+  "sumber": "Hamilton (1834), 'On a General Method in Dynamics', Philosophical Transactions of the Royal Society 124, 247-308.",
+  "journal": "Philosophical Transactions of the Royal Society 124",
+  "use": "tanggal rilis sebagai satu lintasan yang sudah utuh"
+ },
+ "S-08": {
+  "year": 2000,
+  "who": "Nader, Schafe, LeDoux",
+  "claim": "Ingatan yang dipanggil kembali menjadi labil dan harus disimpan ulang; ia bisa diubah sebelum disimpan.",
+  "anchor": "reconsolidation",
+  "doi": "10.1038/35021052",
+  "journal": "Nature 406, 722-726",
+  "use": "ingatan bisa disunting tepat setelah diingat"
+ },
+ "S-09": {
+  "year": 1978,
+  "who": "Kessler, Cour-Palais",
+  "claim": "Tabrakan antarsatelit menghasilkan puing yang memicu tabrakan berikutnya; risiko tumbuh tak linear.",
+  "anchor": "Kessler",
+  "doi": "10.1029/JA083iA06p02637",
+  "journal": "Journal of Geophysical Research 83(A6), 2637-2646",
+  "use": "evakuasi berisiko karena jalur penuh puing"
+ }
 }

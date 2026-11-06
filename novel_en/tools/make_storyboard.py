@@ -17,6 +17,9 @@ def metrik(t):
 
 def main():
     rows = {r[0]: dict(zip(S.FIELDS, r)) for r in S.ALL}
+    ad = json.load(open(os.path.join(B, "adegan.json"), encoding="utf-8")) if os.path.exists(os.path.join(B, "adegan.json")) else None
+    AD = {b["n"]: b for b in ad["bab"]} if ad else {}
+    TT = ad["templates"] if ad else {}
     arc = {r[0]: (k, j) for k, j, g in S.ARCS for r in g}
     berkas = {}
     for p in glob.glob(os.path.join(V, "ch_*.md")):
@@ -30,13 +33,14 @@ def main():
     o.append("- Total kata: **%s**" % format(total, ","))
     o.append("- Rata-rata: **%d kata/bab**\n" % (total // max(1, len(berkas))))
     o += ["\n## Papan ringkas\n",
-          "| Bab | Judul | POV | Tanggal | Kata | Scene | Dialog% | Kalimat |",
-          "|---:|---|---|---|---:|---:|---:|---:|"]
+          "| Bab | Judul | Templat | POV | Tanggal | Kata | Scene | Dialog% | Kalimat |",
+          "|---:|---|---|---|---|---:|---:|---:|---:|"]
     pola = []
     for n in sorted(berkas):
         judul, isi = open(berkas[n], encoding="utf-8").read().split("\n", 1)
         judul = judul.lstrip("# ").split("\u2014")[-1].strip(); m = metrik(isi); c = rows[n]
-        o.append("| %d | %s | %s | %s | %d | %d | %d | %.1f |" % (n, judul, c["pov"], c["d"], m["kata"], m["scene"], m["dialog"], m["kal"]))
+        tpl = " + ".join(AD.get(n, {}).get("templates", [])) or "—"
+        o.append("| %d | %s | %s | %s | %s | %d | %d | %d | %.1f |" % (n, judul, tpl, c["pov"], c["d"], m["kata"], m["scene"], m["dialog"], m["kal"]))
         if m["kata"] < 1500: pola.append("bab %d: %d kata" % (n, m["kata"]))
         if m["dialog"] < 20: pola.append("bab %d: dialog %d%%" % (n, m["dialog"]))
     belum = [n for n in range(1, 101) if n not in berkas]
@@ -51,6 +55,10 @@ def main():
         o.append("\n### %s — %s" % (kode, judul.lstrip("# ").split("\u2014")[-1].strip()))
         o.append("`%s` · POV %s · %s · %d kata · hadir: %s" % (j, c["pov"], c["d"], m["kata"], c["cast"]))
         o.append("- **Beat:** %s" % c["beat"]); o.append("- **Hook:** %s" % c["hook"])
+        if n in AD:
+            b_ = AD[n]
+            o.append("- **Templat:** %s · lensa %s · %s · %s" % (" + ".join("%s %s" % (t, TT[t]["nama"]) for t in b_["templates"]), b_["lensa"], b_["cahaya"], b_["warna"]))
+            o.append("- **Shot utama:** %s" % " → ".join(TT[b_["templates"][0]]["shot"]))
         for i, b in enumerate([x for x in re.split(r"\n-{3,}\n", isi) if x.strip() and not x.strip().startswith("*Next")], 1):
             baris = [y for y in b.split("\n") if y.strip()]
             o.append("  - `%s-S%02d` · %d kata · %s" % (kode, i, len(b.split()), baris[0][:100] if baris else ""))
