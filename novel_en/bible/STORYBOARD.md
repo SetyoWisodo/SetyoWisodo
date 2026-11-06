@@ -8,8 +8,8 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 ## Status
 
 - Bab tertulis: **20 / 100**
-- Total kata: **35,566**
-- Rata-rata: **1778 kata/bab**
+- Total kata: **35,640**
+- Rata-rata: **1782 kata/bab**
 
 
 ## Papan ringkas
@@ -35,7 +35,7 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 | 17 | Installments | Nara | 2183.11.05 | 1518 | 6 | 50 | 11.3 |
 | 18 | How Much | Nara | 2183.11.06 | 1661 | 6 | 39 | 11.7 |
 | 19 | Refusal | Nara | 2183.11.06 | 1682 | 6 | 47 | 12.3 |
-| 20 | Four Thousand People | Nara | 2183.11.07 | 2097 | 6 | 61 | 10.9 |
+| 20 | Four Thousand People | Nara | 2183.11.07 | 2171 | 6 | 59 | 11.4 |
 
 ## Pola dan lubang
 
@@ -224,11 +224,11 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-AII-C019-S06` · 443 kata · The response came at four in the afternoon, which is faster than anything in the nine systems has ev
 
 ### V1-AII-C020 — Four Thousand People
-`The Ledger` · POV Nara · 2183.11.07 · 2097 kata · hadir: Nara, Danu, Rasya
+`The Ledger` · POV Nara · 2183.11.07 · 2171 kata · hadir: Nara, Danu, Rasya
 - **Beat:** Danu explains what evacuation costs and asks her to let the debt stand.
 - **Hook:** “If you fix this,” her father said, “four thousand people die of paperwork.”
   - `V1-AII-C020-S01` · 273 kata · My father did not shout. That was the worst of it. He had not shouted since I was nine, and the sile
-  - `V1-AII-C020-S02` · 916 kata · He stood up and went to the window, which looks at the wall of the next ring.
+  - `V1-AII-C020-S02` · 990 kata · He stood up and went to the window, which looks at the wall of the next ring.
   - `V1-AII-C020-S03` · 149 kata · The room was very quiet.
   - `V1-AII-C020-S04` · 479 kata · He came around the desk and stood in front of me, and for a moment I thought he was going to put his
   - `V1-AII-C020-S05` · 170 kata · I did the sum in my head on the way out, because my hands were shaking and arithmetic is the only th

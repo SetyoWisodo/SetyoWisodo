@@ -34,7 +34,7 @@ tiga kartu sebelumnya, dan aturan ini.
 - **Arc IX — The Weight** (bab 81–90)
 - **Arc X — The Beneficiary** (bab 91–100)
 
-Tertulis: **15 / 100**
+Tertulis: **20 / 100**
 
 ---
 
@@ -182,7 +182,7 @@ Tertulis: **15 / 100**
 - **Hadir:** Nara, Rasya
 
 ### Bab 16 — Residue  
-`belum` · 2183.11.05 · POV Nara
+`selesai` · 2183.11.05 · POV Nara
 
 - **Beat:** Confrontation in the corridor outside the relay room.
 - **Hook:** “I paid for you,” he said, “three years before I met you.”
@@ -191,7 +191,7 @@ Tertulis: **15 / 100**
 - **Hadir:** Nara, Rasya
 
 ### Bab 17 — Installments  
-`belum` · 2183.11.05 · POV Nara
+`selesai` · 2183.11.05 · POV Nara
 
 - **Beat:** Rasya tries to say his sister’s name and cannot finish it.
 - **Hook:** He could not remember whether she had been older or younger.
@@ -201,7 +201,7 @@ Tertulis: **15 / 100**
 - **Hadir:** Nara, Rasya
 
 ### Bab 18 — How Much  
-`belum` · 2183.11.06 · POV Nara
+`selesai` · 2183.11.06 · POV Nara
 
 - **Beat:** They try to measure what he has lost and discover it cannot be measured.
 - **Hook:** What is missing does not feel missing. That was the cruellest part.
@@ -211,7 +211,7 @@ Tertulis: **15 / 100**
 - **Hadir:** Nara, Rasya
 
 ### Bab 19 — Refusal  
-`belum` · 2183.11.06 · POV Nara
+`selesai` · 2183.11.06 · POV Nara
 
 - **Beat:** Nara attempts to stop the instalments through the Bureau portal.
 - **Hook:** The Bureau replied with one line: audit escalated, station scheduled for evacuation.
@@ -220,7 +220,7 @@ Tertulis: **15 / 100**
 - **Hadir:** Nara, Vey, Rasya
 
 ### Bab 20 — Four Thousand People  
-`belum` · 2183.11.07 · POV Nara
+`selesai` · 2183.11.07 · POV Nara
 
 - **Beat:** Danu explains what evacuation costs and asks her to let the debt stand.
 - **Hook:** “If you fix this,” her father said, “four thousand people die of paperwork.”
