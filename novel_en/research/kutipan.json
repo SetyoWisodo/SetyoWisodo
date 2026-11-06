@@ -1,0 +1,76 @@
+{
+ "catatan": "Buku kutipan sains Volume I. Tahun harus sama dengan bible/sains.json.",
+ "kartu": [
+  {
+   "id": "S-01",
+   "klaim": "Menghapus satu bit berbiaya energi minimal kT ln 2, keluar sebagai panas.",
+   "kutipan": "logical irreversibility inevitably leads to heat generation",
+   "penulis": "Rolf Landauer",
+   "tahun": 1961,
+   "jurnal": "IBM Journal of Research and Development",
+   "volume": "5(3), 183–191",
+   "doi": "10.1147/rd.53.0183",
+   "lisensi_klaim": "memori dapat ditagih sebagai kerja; panas penghapusan nyata",
+   "batas_klaim": "tidak berarti isi memori dapat dibaca dari panas; alat 'residu' adalah fiksi yang diakui",
+   "status": "terverifikasi"
+  },
+  {
+   "id": "S-02",
+   "klaim": "Keadaan terjerat tidak dapat membawa sinyal dengan sendirinya.",
+   "kutipan": "no superluminal transmission of signals can be obtained",
+   "penulis": "Ghirardi, Rimini, Weber",
+   "tahun": 1980,
+   "jurnal": "Lettere al Nuovo Cimento",
+   "volume": "27(10), 293–298",
+   "doi": "10.1007/BF02817189",
+   "lisensi_klaim": "relai menahan dan menjadwalkan, tidak pernah mengirim lebih cepat dari cahaya",
+   "batas_klaim": "tidak melarang korelasi, hanya sinyal yang dapat dikendalikan",
+   "status": "terverifikasi",
+   "catatan": "Hasil 1978 yang sah: Eberhard, Nuovo Cimento B 46, 392–419, DOI 10.1007/BF02728628."
+  },
+  {
+   "id": "S-03",
+   "klaim": "Informasi dapat diukur dalam bit; satu bit adalah satu bit apa pun isinya.",
+   "kutipan": "a measure of information",
+   "penulis": "Claude E. Shannon",
+   "tahun": 1948,
+   "jurnal": "Bell System Technical Journal",
+   "volume": "27(3), 379–423",
+   "doi": "10.1002/j.1538-7305.1948.tb01338.x",
+   "lisensi_klaim": "gram adalah satuan turunan dari bit",
+   "batas_klaim": "tidak memberi tahu makna pesan",
+   "status": "terverifikasi"
+  },
+  {
+   "id": "S-04",
+   "klaim": "Pilihan yang dibuat setelah fakta tetap konsisten dengan satu riwayat.",
+   "kutipan": "delayed choice of whether to observe which-path information",
+   "penulis": "Kim, Yu, Kulik, Shih, Scully",
+   "tahun": 1999,
+   "jurnal": "Physical Review Letters",
+   "volume": "84, 1–5; arXiv:quant-ph/9903047",
+   "doi": "10.1103/PhysRevLett.84.1",
+   "lisensi_klaim": "tanggal rilis tidak dapat ditimpa keputusan kemudian",
+   "batas_klaim": "tidak berarti masa depan mengubah masa lalu; tidak ada sinyal mundur waktu",
+   "status": "terverifikasi"
+  },
+  {
+   "id": "S-05",
+   "klaim": "Keadaan kuantum yang tidak diketahui tidak dapat dikloning.",
+   "kutipan": "the linearity of quantum mechanics forbids such replication",
+   "penulis": "Wootters, Zurek",
+   "tahun": 1982,
+   "jurnal": "Nature",
+   "volume": "299, 802–803",
+   "doi": "10.1038/299802a0",
+   "lisensi_klaim": "isi paket hancur saat transmisi; hanya berat dan tanda tangan tersisa",
+   "batas_klaim": "tidak melarang pencatatan klasik",
+   "status": "terverifikasi"
+  }
+ ],
+ "fiksi_yang_tidak_boleh_diklaim_sebagai_sains": [
+  "tarif gram sebagai mata uang memori",
+  "kemampuan Nara mengecap residu memori",
+  "trust dan liabilitas tunda sebagai instrumen hukum"
+ ]
+}

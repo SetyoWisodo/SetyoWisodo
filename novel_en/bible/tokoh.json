@@ -1,0 +1,18 @@
+{
+ "Nara Adisurya": {"age": 29, "role": "relay engineer, Kemuning", "pov": "first person",
+  "canon": ["Nara", "Adisurya"], "forbidden": ["Narra", "Adisuria", "Adisury"],
+  "facts": ["never sent a relay message knowingly", "nine days missing at age seven", "tastes residual memory and hides it", "burn scar inside left forearm"]},
+ "Rasya Wardhana": {"age": 34, "role": "Biro auditor", "canon": ["Rasya", "Wardhana"],
+  "forbidden": ["Rashya", "Wardana", "Rasya Wardana"],
+  "facts": ["visited Kemuning three years ago as R. Handoko", "paid Nara's file before meeting her", "cannot finish his sister's second name"]},
+ "Vey": {"age": 60, "role": "station intelligence", "canon": ["Vey"], "forbidden": ["Vei", "Vay", "V.E.Y."],
+  "facts": ["wrote the thermal model", "holds twelve thousand four hundred and six packets", "never used the word please", "was the intelligence at Tsiolkovsky"]},
+ "Danu Prasetya": {"age": 51, "role": "administrator; Nara's father", "canon": ["Danu", "Prasetya"],
+  "forbidden": ["Dhanu", "Prasetia", "Prasetyo"],
+  "facts": ["signed the maintenance log", "paid forty grams a year for the seal", "never called her daughter at work"]},
+ "Sekar Adisurya": {"age": 61, "role": "architect of the relay network", "canon": ["Sekar", "Adisurya"],
+  "forbidden": ["Sekhar", "Sekarr"],
+  "facts": ["recorded dead in 2161", "paid forty grams to forget holding her daughter", "alive on Kemuning from chapter 30"]},
+ "Kirana": {"age": 19, "role": "relay apprentice", "canon": ["Kirana"], "forbidden": ["Kiranna", "Kiranah"],
+  "facts": ["despises the word apprentice", "keeps a tally of every core she has touched"]}
+}

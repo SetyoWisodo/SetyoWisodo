@@ -1,0 +1,160 @@
+{
+ "P-01": {
+  "planted": 1,
+  "paid": null,
+  "object": "the core resealed with a visible seam",
+  "note": "carried to Volume II",
+  "carry": true
+ },
+ "P-02": {
+  "planted": 2,
+  "paid": 8,
+  "object": "the maintenance entry with a one-character checksum, copied to Nara's slate",
+  "note": "stops the forgery charge"
+ },
+ "P-03": {
+  "planted": 3,
+  "paid": null,
+  "object": "line four of the paper manifest: 61 kg sealed, out before in",
+  "note": "carried to Volume II",
+  "carry": true
+ },
+ "P-04": {
+  "planted": 4,
+  "paid": 12,
+  "object": "the ledger line: 4,100 packets, 290 kg, beneficiary N. Adisurya",
+  "note": "spine of Arc II"
+ },
+ "P-05": {
+  "planted": 5,
+  "paid": 9,
+  "object": "Rasya repeats her case number, never spoken aloud",
+  "note": "proves he read her file first"
+ },
+ "P-06": {
+  "planted": 6,
+  "paid": 15,
+  "object": "the taste of ginger and rain on the sealed core",
+  "note": "her reading ability"
+ },
+ "P-07": {
+  "planted": 7,
+  "paid": 16,
+  "object": "the packet dated forty years ahead, signed in her hand",
+  "note": "future signature proven"
+ },
+ "P-08": {
+  "planted": 10,
+  "paid": 24,
+  "object": "nine days missing from her seventh year, signed by Danu",
+  "note": "leads to the nine sessions"
+ },
+ "P-09": {
+  "planted": 11,
+  "paid": 13,
+  "object": "the forty-gram annual seal fee",
+  "note": "Vey knows who pays"
+ },
+ "P-10": {
+  "planted": 17,
+  "paid": 18,
+  "object": "Rasya cannot finish his sister's name",
+  "note": "cost of the tariff, shown"
+ },
+ "P-11": {
+  "planted": 19,
+  "paid": 20,
+  "object": "the evacuation order and the eleven-day clock",
+  "note": "clock of Arc IV"
+ },
+ "P-12": {
+  "planted": 21,
+  "paid": 28,
+  "object": "the class nine holding line that heats the station",
+  "note": "power from the liability"
+ },
+ "P-13": {
+  "planted": 22,
+  "paid": 23,
+  "object": "the seven-year-old's signature on the trust form",
+  "note": "she is the beneficiary"
+ },
+ "P-14": {
+  "planted": 24,
+  "paid": 30,
+  "object": "wrist tag 4471 belonged to M. Halim",
+  "note": "the body in the niche is not Sekar"
+ },
+ "P-15": {
+  "planted": 26,
+  "paid": 27,
+  "object": "the closed loop: the packet arrives only if she sends it",
+  "note": "she must become the sender"
+ },
+ "P-16": {
+  "planted": 29,
+  "paid": 31,
+  "object": "the calibration slug taken from the dead room",
+  "note": "the thief wants her blamed"
+ },
+ "P-17": {
+  "planted": 31,
+  "paid": 40,
+  "object": "the door log: her key, her sleep",
+  "note": "she cannot prove innocence"
+ },
+ "P-18": {
+  "planted": 34,
+  "paid": 54,
+  "object": "the Tsiolkovsky terminal sold to Bukit",
+  "note": "the proof that voids the debt"
+ },
+ "P-19": {
+  "planted": 36,
+  "paid": 88,
+  "object": "Kirana's tally slate",
+  "note": "the record becomes a gift"
+ },
+ "P-20": {
+  "planted": 42,
+  "paid": null,
+  "object": "one packet clearing 290 kg",
+  "note": "the debt was never the debt"
+ },
+ "P-21": {
+  "planted": 51,
+  "paid": 53,
+  "object": "the memory market on Bukit",
+  "note": "the tariff as economy"
+ },
+ "P-22": {
+  "planted": 54,
+  "paid": 59,
+  "object": "the terminal's local memory with 4,099 unsent entries",
+  "note": "seized by the Bureau"
+ },
+ "P-23": {
+  "planted": 63,
+  "paid": 64,
+  "object": "nine medical sessions in nine days",
+  "note": "paced erasure"
+ },
+ "P-24": {
+  "planted": 65,
+  "paid": 92,
+  "object": "the trust names a description, not a name",
+  "note": "ambiguous by design"
+ },
+ "P-25": {
+  "planted": 71,
+  "paid": 80,
+  "object": "the receivership order",
+  "note": "the station is no longer theirs"
+ },
+ "P-26": {
+  "planted": 81,
+  "paid": 84,
+  "object": "Nara holding packets by the hour",
+  "note": "voluntary erasure"
+ }
+}

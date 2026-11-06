@@ -1,0 +1,64 @@
+{
+ "twists": [
+  {
+   "id": "T-01",
+   "claim": "Rasya paid for Nara's file three years before meeting her",
+   "paid": 16,
+   "clues": [
+    5,
+    9,
+    17
+   ]
+  },
+  {
+   "id": "T-02",
+   "claim": "The station is lit by the deferred liability",
+   "paid": 21,
+   "clues": [
+    4,
+    12,
+    19
+   ]
+  },
+  {
+   "id": "T-03",
+   "claim": "Nara was scheduled, not traumatised",
+   "paid": 64,
+   "clues": [
+    10,
+    22,
+    27
+   ]
+  },
+  {
+   "id": "T-04",
+   "claim": "Sekar signed the trust the day before her recorded death",
+   "paid": 45,
+   "clues": [
+    24,
+    33,
+    43
+   ]
+  },
+  {
+   "id": "T-05",
+   "claim": "Vey loved Sekar and held twelve thousand packets for her",
+   "paid": 60,
+   "clues": [
+    11,
+    28,
+    58
+   ]
+  },
+  {
+   "id": "T-06",
+   "claim": "The beneficiary is 'the child in the recording', not Nara",
+   "paid": 92,
+   "clues": [
+    65,
+    69,
+    82
+   ]
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "catatan": "Jangkar kontinuitas yang harus muncul di bab tertentu.",
+ "jangkar": [
+  {
+   "id": "K-01",
+   "objek": "inti relai",
+   "kata": [
+    "core"
+   ],
+   "bab": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    15,
+    29
+   ]
+  },
+  {
+   "id": "K-02",
+   "objek": "slug kalibrasi",
+   "kata": [
+    "slug"
+   ],
+   "bab": [
+    7,
+    29
+   ]
+  },
+  {
+   "id": "K-03",
+   "objek": "mantel Rasya",
+   "kata": [
+    "coat"
+   ],
+   "bab": [
+    15,
+    16
+   ]
+  },
+  {
+   "id": "K-04",
+   "objek": "buku catatan Rasya",
+   "kata": [
+    "notebook"
+   ],
+   "bab": [
+    17,
+    18
+   ]
+  },
+  {
+   "id": "K-05",
+   "objek": "bekas luka bakar lengan kiri",
+   "kata": [
+    "scar"
+   ],
+   "bab": [
+    7,
+    8,
+    30
+   ]
+  },
+  {
+   "id": "K-06",
+   "objek": "tanda tangan A retak",
+   "kata": [
+    "break in it",
+    "broken a"
+   ],
+   "bab": [
+    1,
+    7,
+    22
+   ]
+  },
+  {
+   "id": "K-07",
+   "objek": "segel abu",
+   "kata": [
+    "ash"
+   ],
+   "bab": [
+    2,
+    3,
+    29
+   ]
+  },
+  {
+   "id": "K-08",
+   "objek": "empat puluh gram setahun",
+   "kata": [
+    "forty grams a year"
+   ],
+   "bab": [
+    13,
+    19
+   ]
+  },
+  {
+   "id": "K-09",
+   "objek": "4.100 paket",
+   "kata": [
+    "four thousand one hundred"
+   ],
+   "bab": [
+    4,
+    12,
+    19
+   ]
+  },
+  {
+   "id": "K-10",
+   "objek": "12.406 paket Vey",
+   "kata": [
+    "twelve thousand"
+   ],
+   "bab": [
+    11,
+    28
+   ]
+  },
+  {
+   "id": "K-12",
+   "objek": "foto Sekar di depan antena",
+   "kata": [
+    "photograph"
+   ],
+   "bab": [
+    9,
+    10,
+    18
+   ]
+  }
+ ]
+}

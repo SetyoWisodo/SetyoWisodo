@@ -1,0 +1,11 @@
+{
+ "era": "I", "years": "2183-2201", "station": "Kemuning", "population": 4011,
+ "relay_rule": "Messages are scheduled, never sent faster than light. Contents are destroyed on transmission; only weight, hold time and sender signature survive.",
+ "tariff": {"unit": "gram of memory", "one_year_hold": "one day of the strongest memory",
+  "weights": {"longing": 2, "grief": 7, "love": 40, "guilt": 90},
+  "consequence": "The sender does not know what was taken. Only a hollow remains."},
+ "hard_bars": ["no information faster than light", "erasure costs energy (Landauer)", "contents cannot be cloned"],
+ "deferred_liability": "A relay that cannot draw on a sender books the cost against the installation.",
+ "power": "61% of station electricity is waste heat from packet lattices",
+ "carry_to_vol2": ["P-01", "P-03"]
+}
