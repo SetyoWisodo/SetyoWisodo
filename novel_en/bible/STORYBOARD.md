@@ -7,9 +7,9 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 
 ## Status
 
-- Bab tertulis: **20 / 100**
-- Total kata: **38,331**
-- Rata-rata: **1916 kata/bab**
+- Bab tertulis: **23 / 100**
+- Total kata: **43,448**
+- Rata-rata: **1889 kata/bab**
 
 
 ## Papan ringkas
@@ -36,10 +36,13 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 | 18 | How Much | G-07 | Nara | 2183.11.06 | 1661 | 6 | 39 | 11.7 |
 | 19 | Refusal | G-05 | Nara | 2183.11.06 | 1807 | 6 | 45 | 12.6 |
 | 20 | Four Thousand People | G-12 | Nara | 2183.11.07 | 2215 | 6 | 58 | 11.5 |
+| 21 | Who Keeps the Lights | G-01 + G-10 | Nara | 2183.11.08 | 1630 | 5 | 30 | 16.0 |
+| 22 | The Recording at Seven | G-02 + G-08 | Nara | 2183.11.09 | 1777 | 5 | 29 | 15.7 |
+| 23 | The One Who Paid | G-02 + G-08 | Nara | 2183.11.09 | 1686 | 5 | 22 | 15.0 |
 
 ## Pola dan lubang
 
-- belum ditulis: 80 bab, mulai bab 21
+- belum ditulis: 77 bab, mulai bab 24
 
 ## Papan per bab
 
@@ -273,3 +276,39 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-AII-C020-S04` · 479 kata · He came around the desk and stood in front of me, and for a moment I thought he was going to put his
   - `V1-AII-C020-S05` · 170 kata · I did the sum in my head on the way out, because my hands were shaking and arithmetic is the only th
   - `V1-AII-C020-S06` · 96 kata · Rasya was waiting in the corridor outside, sitting on the bench with his elbows on his knees.
+
+### V1-AIII-C021 — Who Keeps the Lights
+`The Room at Seven` · POV Nara · 2183.11.08 · 1630 kata · hadir: Nara, Vey, Kirana
+- **Beat:** Nara traces station power and finds it is drawn from the deferred liability.
+- **Hook:** Kemuning was not lit by electricity. It was lit by four thousand griefs.
+- **Templat:** G-01 Skala yang mempermalukan + G-10 Ruang yang berputar · lensa 28mm · merah ruang mati, biru monitor · merah-biru
+- **Shot utama:** close-up tangan di benda → wide yang membuka ruang → detail angka → reaksi wajah
+  - `V1-AIII-C021-S01` · 326 kata · The water tilted.
+  - `V1-AIII-C021-S02` · 397 kata · The utility spine runs behind the ring hospital and takes a maintenance key and a form. I had the ke
+  - `V1-AIII-C021-S03` · 233 kata · “Vey,” I said. “Does the station pay for its own lights?”
+  - `V1-AIII-C021-S04` · 335 kata · I did the arithmetic on the back of the maintenance form, which is what maintenance forms are for.
+  - `V1-AIII-C021-S05` · 326 kata · There is a thing that happens to me in the relay room when a number is too large to hold in my head:
+
+### V1-AIII-C022 — The Recording at Seven
+`The Room at Seven` · POV Nara · 2183.11.09 · 1777 kata · hadir: Nara, Danu
+- **Beat:** She finds twenty-two-year-old footage of the relay room.
+- **Hook:** A seven-year-old signed the form. Her handwriting. Her A.
+- **Templat:** G-02 Satu detik yang menebal + G-08 Tangan yang tidak sampai · lensa 28mm · merah ruang mati, biru monitor · merah-biru
+- **Shot utama:** orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
+  - `V1-AIII-C022-S01` · 161 kata · The archive room is not cold because anybody decided it should be. It is cold because it sits agains
+  - `V1-AIII-C022-S02` · 415 kata · Rasya Wardhana had taken his coat off. This was, in nine years of Kemuning, the single most shocking
+  - `V1-AIII-C022-S03` · 191 kata · The spool was called *KM-C-RINGC-2161-0920*, and it was four hundred and eleven hours long, and it h
+  - `V1-AIII-C022-S04` · 211 kata · The woman was thirty-nine years old. She had her hair pinned the way my mother pinned her hair, with
+  - `V1-AIII-C022-S05` · 786 kata · At 07:00:03, my mother sat me on the bench and took a form out of the canvas bag.
+
+### V1-AIII-C023 — The One Who Paid
+`The Room at Seven` · POV Nara · 2183.11.09 · 1686 kata · hadir: Nara, Sekar, Danu
+- **Beat:** In the recording, Sekar pays forty grams and then stops embracing her daughter.
+- **Hook:** After she signed, she never held me again. Not once.
+- **Templat:** G-02 Satu detik yang menebal + G-08 Tangan yang tidak sampai · lensa 28mm · merah ruang mati, biru monitor · merah-biru
+- **Shot utama:** orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
+  - `V1-AIII-C023-S01` · 389 kata · The recording ran on.
+  - `V1-AIII-C023-S02` · 274 kata · “She was frightened,” Danu said.
+  - `V1-AIII-C023-S03` · 268 kata · I want to explain what that date is, and I want to do it without putting my fist through the wall of
+  - `V1-AIII-C023-S04` · 398 kata · Here is what I have worked out since, and I have to be honest about the difference between what the 
+  - `V1-AIII-C023-S05` · 347 kata · We sat there until the shift change.

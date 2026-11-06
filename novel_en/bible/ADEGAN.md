@@ -641,3 +641,81 @@ Aksen: 170 kata · I did the sum in my head on the way out, because my hands wer
 **06 · G-12 — Pengakuan di bawah tekanan**
 Shot: hitung mundur terdengar → dua orang tak bisa menyentuh → wajah → hitung mundur menang
 Aksen: 96 kata · Rasya was waiting in the corridor outside, sitting on the bench with his elbows on his kne
+
+---
+
+## Bab 21 — Who Keeps the Lights
+
+`Arc III` · 28mm · merah ruang mati, biru monitor · merah-biru
+
+**01 · G-01 — Skala yang mempermalukan**
+Shot: close-up tangan di benda → wide yang membuka ruang → detail angka → reaksi wajah
+Aksen: 326 kata · The water tilted.
+
+**02 · G-10 — Ruang yang berputar**
+Shot: air miring di gelas → lorong miring → tubuh menahan → akibat medis
+Aksen: 397 kata · The utility spine runs behind the ring hospital and takes a maintenance key and a form. I 
+
+**03 · G-01 — Skala yang mempermalukan**
+Shot: close-up tangan di benda → wide yang membuka ruang → detail angka → reaksi wajah
+Aksen: 233 kata · “Vey,” I said. “Does the station pay for its own lights?”
+
+**04 · G-10 — Ruang yang berputar**
+Shot: air miring di gelas → lorong miring → tubuh menahan → akibat medis
+Aksen: 335 kata · I did the arithmetic on the back of the maintenance form, which is what maintenance forms 
+
+**05 · G-01 — Skala yang mempermalukan**
+Shot: close-up tangan di benda → wide yang membuka ruang → detail angka → reaksi wajah
+Aksen: 326 kata · There is a thing that happens to me in the relay room when a number is too large to hold i
+
+---
+
+## Bab 22 — The Recording at Seven
+
+`Arc III` · 28mm · merah ruang mati, biru monitor · merah-biru
+
+**01 · G-02 — Satu detik yang menebal**
+Shot: orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
+Aksen: 161 kata · The archive room is not cold because anybody decided it should be. It is cold because it s
+
+**02 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 415 kata · Rasya Wardhana had taken his coat off. This was, in nine years of Kemuning, the single mos
+
+**03 · G-02 — Satu detik yang menebal**
+Shot: orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
+Aksen: 191 kata · The spool was called *KM-C-RINGC-2161-0920*, and it was four hundred and eleven hours long
+
+**04 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 211 kata · The woman was thirty-nine years old. She had her hair pinned the way my mother pinned her 
+
+**05 · G-02 — Satu detik yang menebal**
+Shot: orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
+Aksen: 786 kata · At 07:00:03, my mother sat me on the bench and took a form out of the canvas bag.
+
+---
+
+## Bab 23 — The One Who Paid
+
+`Arc III` · 28mm · merah ruang mati, biru monitor · merah-biru
+
+**01 · G-02 — Satu detik yang menebal**
+Shot: orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
+Aksen: 389 kata · The recording ran on.
+
+**02 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 274 kata · “She was frightened,” Danu said.
+
+**03 · G-02 — Satu detik yang menebal**
+Shot: orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
+Aksen: 268 kata · I want to explain what that date is, and I want to do it without putting my fist through t
+
+**04 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 398 kata · Here is what I have worked out since, and I have to be honest about the difference between
+
+**05 · G-02 — Satu detik yang menebal**
+Shot: orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
+Aksen: 347 kata · We sat there until the shift change.
