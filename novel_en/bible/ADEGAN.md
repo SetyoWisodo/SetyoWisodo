@@ -887,3 +887,93 @@ Aksen: 356 kata · The ash was intact. I want to be exact about that, because in
 **06 · G-01 — Skala yang mempermalukan**
 Shot: close-up tangan di benda → wide yang membuka ruang → detail angka → reaksi wajah
 Aksen: 531 kata · Danu came at nine. He came alone, without the seal, without the slate, and he stood in the
+
+---
+
+## Bab 30 — Who Are You
+
+`Arc III` · 28mm · merah ruang mati, biru monitor · merah-biru
+
+**01 · G-02 — Satu detik yang menebal**
+Shot: orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
+Aksen: 403 kata · I did not raise the alarm. That is the first thing I have to explain, and I have explained
+
+**02 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 133 kata · The crawl is quiet in a way that the rest of the station is not. In the crawl you can hear
+
+**03 · G-02 — Satu detik yang menebal**
+Shot: orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
+Aksen: 140 kata · The crawl opens into the junction above the cold wells, and the junction has a hatch, and 
+
+**04 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 254 kata · The cold-well room at four degrees with the strip light on is the colour of a bruise. The 
+
+**05 · G-02 — Satu detik yang menebal**
+Shot: orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
+Aksen: 492 kata · I want to describe the second that followed, because it is the one I have run back most of
+
+**06 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 904 kata · There is a pressure door between the cold-well room and the ladder bay. It is not a hatch.
+
+---
+
+## Bab 31 — The Ash Locker
+
+`Arc IV` · 50mm · lampu dermaga, putih keras · putih-baja
+
+**01 · G-09 — Briefing heist**
+Shot: meja dan objek → peta → wajah tiap orang → satu baris ramalan gagal
+Aksen: 160 kata · The station went into lockdown at 14:00 on the fourteenth of November, and I want to say a
+
+**02 · G-04 — Totem**
+Shot: benda di telapak → kebiasaan memeriksa → close-up tekstur → benda hilang
+Aksen: 304 kata · We met in the administration office at 14:20: my father, Rasya, Kirana because she refused
+
+**03 · G-09 — Briefing heist**
+Shot: meja dan objek → peta → wajah tiap orang → satu baris ramalan gagal
+Aksen: 136 kata · Here is what the briefing said, in the order it was said.
+
+**04 · G-04 — Totem**
+Shot: benda di telapak → kebiasaan memeriksa → close-up tekstur → benda hilang
+Aksen: 269 kata · Rasya picked up the ash photograph and held it to the light.
+
+**05 · G-09 — Briefing heist**
+Shot: meja dan objek → peta → wajah tiap orang → satu baris ramalan gagal
+Aksen: 830 kata · The interview room is on the administration level, and it has a table with a ring on the u
+
+**06 · G-04 — Totem**
+Shot: benda di telapak → kebiasaan memeriksa → close-up tekstur → benda hilang
+Aksen: 238 kata · We opened the locker at 17:20 by breaking the seal under camera, with my father reading th
+
+---
+
+## Bab 32 — Six Days
+
+`Arc IV` · 50mm · lampu dermaga, putih keras · putih-baja
+
+**01 · G-09 — Briefing heist**
+Shot: meja dan objek → peta → wajah tiap orang → satu baris ramalan gagal
+Aksen: 402 kata · There were three ships and eleven berths and four thousand and eleven people, and the arit
+
+**02 · G-06 — Jam bertingkat**
+Shot: jangkar bersama → potong ke jalur lambat → potong ke jalur cepat → kembali ke jangkar
+Aksen: 166 kata · This is the part where Vey was useful, and I want to say so, because in the days afterward
+
+**03 · G-09 — Briefing heist**
+Shot: meja dan objek → peta → wajah tiap orang → satu baris ramalan gagal
+Aksen: 228 kata · We built the plan on the table with paper and a ruler, the way you build a plan when the c
+
+**04 · G-06 — Jam bertingkat**
+Shot: jangkar bersama → potong ke jalur lambat → potong ke jalur cepat → kembali ke jangkar
+Aksen: 295 kata · Here is what the hospital register said, and I have the sheet, and I have read it eleven t
+
+**05 · G-09 — Briefing heist**
+Shot: meja dan objek → peta → wajah tiap orang → satu baris ramalan gagal
+Aksen: 439 kata · This is where I have to put the two clocks, because the next four days were lived in two o
+
+**06 · G-06 — Jam bertingkat**
+Shot: jangkar bersama → potong ke jalur lambat → potong ke jalur cepat → kembali ke jangkar
+Aksen: 82 kata · I put the pencil down.

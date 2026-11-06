@@ -7,9 +7,9 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 
 ## Status
 
-- Bab tertulis: **29 / 100**
-- Total kata: **53,803**
-- Rata-rata: **1855 kata/bab**
+- Bab tertulis: **32 / 100**
+- Total kata: **59,736**
+- Rata-rata: **1866 kata/bab**
 
 
 ## Papan ringkas
@@ -45,10 +45,13 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 | 27 | A Decade’s Weight | G-05 | Nara | 2183.11.11 | 1653 | 5 | 29 | 15.5 |
 | 28 | What Vey Holds | G-05 | Nara | 2183.11.12 | 1639 | 6 | 60 | 12.9 |
 | 29 | An Ordinary Morning | G-04 + G-01 | Nara | 2183.11.12 | 2029 | 6 | 23 | 15.5 |
+| 30 | Who Are You | G-02 + G-08 | Nara | 2183.11.13 | 2339 | 6 | 22 | 14.1 |
+| 31 | The Ash Locker | G-09 + G-04 | Nara | 2183.11.14 | 1949 | 6 | 40 | 13.2 |
+| 32 | Six Days | G-09 + G-06 | Nara | 2183.11.15 | 1625 | 6 | 42 | 16.2 |
 
 ## Pola dan lubang
 
-- belum ditulis: 71 bab, mulai bab 30
+- belum ditulis: 68 bab, mulai bab 33
 
 ## Papan per bab
 
@@ -393,3 +396,42 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-AIII-C029-S04` · 207 kata · There is a particular kind of cold that starts in the wrist.
   - `V1-AIII-C029-S05` · 356 kata · The ash was intact. I want to be exact about that, because in the days afterwards a great deal was s
   - `V1-AIII-C029-S06` · 531 kata · Danu came at nine. He came alone, without the seal, without the slate, and he stood in the doorway o
+
+### V1-AIII-C030 — Who Are You
+`The Room at Seven` · POV Nara · 2183.11.13 · 2339 kata · hadir: Nara, Sekar
+- **Beat:** The intruder is cornered in the maintenance corridor.
+- **Hook:** “Who are you?” Nara said. The woman turned, and she had her mother’s face.
+- **Templat:** G-02 Satu detik yang menebal + G-08 Tangan yang tidak sampai · lensa 28mm · merah ruang mati, biru monitor · merah-biru
+- **Shot utama:** orbit lambat → insert detail mikro → mata → pelebaran ke waktu normal
+  - `V1-AIII-C030-S01` · 403 kata · I did not raise the alarm. That is the first thing I have to explain, and I have explained it since 
+  - `V1-AIII-C030-S02` · 133 kata · The crawl is quiet in a way that the rest of the station is not. In the crawl you can hear the ring 
+  - `V1-AIII-C030-S03` · 140 kata · The crawl opens into the junction above the cold wells, and the junction has a hatch, and the hatch 
+  - `V1-AIII-C030-S04` · 254 kata · The cold-well room at four degrees with the strip light on is the colour of a bruise. The wells are 
+  - `V1-AIII-C030-S05` · 492 kata · I want to describe the second that followed, because it is the one I have run back most often, and b
+  - `V1-AIII-C030-S06` · 904 kata · There is a pressure door between the cold-well room and the ladder bay. It is not a hatch. It is a p
+
+### V1-AIV-C031 — The Ash Locker
+`The Evacuation` · POV Nara · 2183.11.14 · 1949 kata · hadir: Nara, Sekar, Danu
+- **Beat:** Sekar will not explain; Danu locks down the station; the locker is found emptied from inside.
+- **Hook:** The door log had one entry, and it was my key, and I had been asleep.
+- **Templat:** G-09 Briefing heist + G-04 Totem · lensa 50mm · lampu dermaga, putih keras · putih-baja
+- **Shot utama:** meja dan objek → peta → wajah tiap orang → satu baris ramalan gagal
+  - `V1-AIV-C031-S01` · 160 kata · The station went into lockdown at 14:00 on the fourteenth of November, and I want to say at the star
+  - `V1-AIV-C031-S02` · 304 kata · We met in the administration office at 14:20: my father, Rasya, Kirana because she refused to leave,
+  - `V1-AIV-C031-S03` · 136 kata · Here is what the briefing said, in the order it was said.
+  - `V1-AIV-C031-S04` · 269 kata · Rasya picked up the ash photograph and held it to the light.
+  - `V1-AIV-C031-S05` · 830 kata · The interview room is on the administration level, and it has a table with a ring on the underside f
+  - `V1-AIV-C031-S06` · 238 kata · We opened the locker at 17:20 by breaking the seal under camera, with my father reading the number o
+
+### V1-AIV-C032 — Six Days
+`The Evacuation` · POV Nara · 2183.11.15 · 1625 kata · hadir: Nara, Danu, Vey
+- **Beat:** Evacuation logistics: three ships, eleven pressure berths, four thousand people.
+- **Hook:** The list of who could not be moved was ninety-one names long, and my mother’s was on it.
+- **Templat:** G-09 Briefing heist + G-06 Jam bertingkat · lensa 50mm · lampu dermaga, putih keras · putih-baja
+- **Shot utama:** meja dan objek → peta → wajah tiap orang → satu baris ramalan gagal
+  - `V1-AIV-C032-S01` · 402 kata · There were three ships and eleven berths and four thousand and eleven people, and the arithmetic did
+  - `V1-AIV-C032-S02` · 166 kata · This is the part where Vey was useful, and I want to say so, because in the days afterwards there we
+  - `V1-AIV-C032-S03` · 228 kata · We built the plan on the table with paper and a ruler, the way you build a plan when the computers a
+  - `V1-AIV-C032-S04` · 295 kata · Here is what the hospital register said, and I have the sheet, and I have read it eleven times.
+  - `V1-AIV-C032-S05` · 439 kata · This is where I have to put the two clocks, because the next four days were lived in two of them at 
+  - `V1-AIV-C032-S06` · 82 kata · I put the pencil down.
