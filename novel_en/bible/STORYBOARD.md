@@ -7,9 +7,9 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 
 ## Status
 
-- Bab tertulis: **26 / 100**
-- Total kata: **48,461**
-- Rata-rata: **1863 kata/bab**
+- Bab tertulis: **29 / 100**
+- Total kata: **53,803**
+- Rata-rata: **1855 kata/bab**
 
 
 ## Papan ringkas
@@ -42,10 +42,13 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 | 24 | Alive | G-08 | Nara | 2183.11.10 | 1569 | 5 | 40 | 13.6 |
 | 25 | Called Back | G-12 + G-10 | Nara | 2183.11.10 | 1860 | 5 | 39 | 15.0 |
 | 26 | Already Exists | G-03 + G-11 | Nara | 2183.11.11 | 1565 | 6 | 58 | 10.0 |
+| 27 | A Decade’s Weight | G-05 | Nara | 2183.11.11 | 1653 | 5 | 29 | 15.5 |
+| 28 | What Vey Holds | G-05 | Nara | 2183.11.12 | 1639 | 6 | 60 | 12.9 |
+| 29 | An Ordinary Morning | G-04 + G-01 | Nara | 2183.11.12 | 2029 | 6 | 23 | 15.5 |
 
 ## Pola dan lubang
 
-- belum ditulis: 74 bab, mulai bab 27
+- belum ditulis: 71 bab, mulai bab 30
 
 ## Papan per bab
 
@@ -352,3 +355,41 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-AIII-C026-S04` · 193 kata · “Vey,” I said. “Has anybody tried?”
   - `V1-AIII-C026-S05` · 284 kata · “There is a paper,” Rasya said, when I told him. “Nineteen ninety-nine. Kim, and a group at Maryland
   - `V1-AIII-C026-S06` · 101 kata · I went out to the lock that night and stood with my face against the glass and watched the buoy turn
+
+### V1-AIII-C027 — A Decade’s Weight
+`The Room at Seven` · POV Nara · 2183.11.11 · 1653 kata · hadir: Nara, Vey
+- **Beat:** She goes to the chair and cannot make herself sit down.
+- **Hook:** I put my hand on the plate and took it off again. Forty grams. I could not think of one.
+- **Templat:** G-05 Dua pintu · lensa 28mm · merah ruang mati, biru monitor · merah-biru
+- **Shot utama:** dua objek dalam satu bingkai → jari → napas → gerakan kecil
+  - `V1-AIII-C027-S01` · 83 kata · Terminal four is not a bench. It is a chair.
+  - `V1-AIII-C027-S02` · 458 kata · Here is what a send instruction costs.
+  - `V1-AIII-C027-S03` · 476 kata · The plate is warm. It is warm because it is always warm; the terminal has been powered since 2123 an
+  - `V1-AIII-C027-S04` · 416 kata · I came out from behind the half-wall of frosted glass and stood in the relay room with my hands shak
+  - `V1-AIII-C027-S05` · 208 kata · I want to put the arithmetic down plainly, because it is the arithmetic of the whole station.
+
+### V1-AIII-C028 — What Vey Holds
+`The Room at Seven` · POV Nara · 2183.11.12 · 1639 kata · hadir: Nara, Vey
+- **Beat:** Vey locks the relay rather than let her pay.
+- **Hook:** “I have held twelve thousand packets,” Vey said. “I will not hold yours.”
+- **Templat:** G-05 Dua pintu · lensa 28mm · merah ruang mati, biru monitor · merah-biru
+- **Shot utama:** dua objek dalam satu bingkai → jari → napas → gerakan kecil
+  - `V1-AIII-C028-S01` · 126 kata · The relay room door was locked at six in the morning, and it had never been locked in the nine years
+  - `V1-AIII-C028-S02` · 124 kata · I want to record what I said next, because I am not proud of it, and because a story in which the na
+  - `V1-AIII-C028-S03` · 284 kata · I sat down in the corridor with my back against the door, which is a thing I have seen people do in 
+  - `V1-AIII-C028-S04` · 396 kata · That is the sentence I have thought about most, in the days since. Not because it is clever. Because
+  - `V1-AIII-C028-S05` · 427 kata · Danu came down the corridor at 06:40 with his coat on over his pyjamas, which is the first time in m
+  - `V1-AIII-C028-S06` · 269 kata · The lights went out at 06:52.
+
+### V1-AIII-C029 — An Ordinary Morning
+`The Room at Seven` · POV Nara · 2183.11.12 · 2029 kata · hadir: Nara, Kirana, Danu
+- **Beat:** False calm; the station returns to routine; someone breaks into the relay room.
+- **Hook:** The ash locker was open. The core was gone.
+- **Templat:** G-04 Totem + G-01 Skala yang mempermalukan · lensa 28mm · merah ruang mati, biru monitor · merah-biru
+- **Shot utama:** benda di telapak → kebiasaan memeriksa → close-up tekstur → benda hilang
+  - `V1-AIII-C029-S01` · 287 kata · The cluster came back at 11:04 on the twelfth of November, and the reason it came back is the reason
+  - `V1-AIII-C029-S02` · 404 kata · The rest of the station had an ordinary morning.
+  - `V1-AIII-C029-S03` · 231 kata · The dead room is at the end of the cold-well corridor, and it is not called the dead room because of
+  - `V1-AIII-C029-S04` · 207 kata · There is a particular kind of cold that starts in the wrist.
+  - `V1-AIII-C029-S05` · 356 kata · The ash was intact. I want to be exact about that, because in the days afterwards a great deal was s
+  - `V1-AIII-C029-S06` · 531 kata · Danu came at nine. He came alone, without the seal, without the slate, and he stood in the doorway o

@@ -801,3 +801,89 @@ Aksen: 284 kata · “There is a paper,” Rasya said, when I told him. “Ninet
 **06 · G-11 — Palindrom**
 Shot: gambar/kalimat pembuka → echo di tengah → echo di akhir → satu detail berubah
 Aksen: 101 kata · I went out to the lock that night and stood with my face against the glass and watched the
+
+---
+
+## Bab 27 — A Decade’s Weight
+
+`Arc III` · 28mm · merah ruang mati, biru monitor · merah-biru
+
+**01 · G-05 — Dua pintu**
+Shot: dua objek dalam satu bingkai → jari → napas → gerakan kecil
+Aksen: 83 kata · Terminal four is not a bench. It is a chair.
+
+**02 · G-05 — Dua pintu**
+Shot: dua objek dalam satu bingkai → jari → napas → gerakan kecil
+Aksen: 458 kata · Here is what a send instruction costs.
+
+**03 · G-05 — Dua pintu**
+Shot: dua objek dalam satu bingkai → jari → napas → gerakan kecil
+Aksen: 476 kata · The plate is warm. It is warm because it is always warm; the terminal has been powered sin
+
+**04 · G-05 — Dua pintu**
+Shot: dua objek dalam satu bingkai → jari → napas → gerakan kecil
+Aksen: 416 kata · I came out from behind the half-wall of frosted glass and stood in the relay room with my 
+
+**05 · G-05 — Dua pintu**
+Shot: dua objek dalam satu bingkai → jari → napas → gerakan kecil
+Aksen: 208 kata · I want to put the arithmetic down plainly, because it is the arithmetic of the whole stati
+
+---
+
+## Bab 28 — What Vey Holds
+
+`Arc III` · 28mm · merah ruang mati, biru monitor · merah-biru
+
+**01 · G-05 — Dua pintu**
+Shot: dua objek dalam satu bingkai → jari → napas → gerakan kecil
+Aksen: 126 kata · The relay room door was locked at six in the morning, and it had never been locked in the 
+
+**02 · G-05 — Dua pintu**
+Shot: dua objek dalam satu bingkai → jari → napas → gerakan kecil
+Aksen: 124 kata · I want to record what I said next, because I am not proud of it, and because a story in wh
+
+**03 · G-05 — Dua pintu**
+Shot: dua objek dalam satu bingkai → jari → napas → gerakan kecil
+Aksen: 284 kata · I sat down in the corridor with my back against the door, which is a thing I have seen peo
+
+**04 · G-05 — Dua pintu**
+Shot: dua objek dalam satu bingkai → jari → napas → gerakan kecil
+Aksen: 396 kata · That is the sentence I have thought about most, in the days since. Not because it is cleve
+
+**05 · G-05 — Dua pintu**
+Shot: dua objek dalam satu bingkai → jari → napas → gerakan kecil
+Aksen: 427 kata · Danu came down the corridor at 06:40 with his coat on over his pyjamas, which is the first
+
+**06 · G-05 — Dua pintu**
+Shot: dua objek dalam satu bingkai → jari → napas → gerakan kecil
+Aksen: 269 kata · The lights went out at 06:52.
+
+---
+
+## Bab 29 — An Ordinary Morning
+
+`Arc III` · 28mm · merah ruang mati, biru monitor · merah-biru
+
+**01 · G-04 — Totem**
+Shot: benda di telapak → kebiasaan memeriksa → close-up tekstur → benda hilang
+Aksen: 287 kata · The cluster came back at 11:04 on the twelfth of November, and the reason it came back is 
+
+**02 · G-01 — Skala yang mempermalukan**
+Shot: close-up tangan di benda → wide yang membuka ruang → detail angka → reaksi wajah
+Aksen: 404 kata · The rest of the station had an ordinary morning.
+
+**03 · G-04 — Totem**
+Shot: benda di telapak → kebiasaan memeriksa → close-up tekstur → benda hilang
+Aksen: 231 kata · The dead room is at the end of the cold-well corridor, and it is not called the dead room 
+
+**04 · G-01 — Skala yang mempermalukan**
+Shot: close-up tangan di benda → wide yang membuka ruang → detail angka → reaksi wajah
+Aksen: 207 kata · There is a particular kind of cold that starts in the wrist.
+
+**05 · G-04 — Totem**
+Shot: benda di telapak → kebiasaan memeriksa → close-up tekstur → benda hilang
+Aksen: 356 kata · The ash was intact. I want to be exact about that, because in the days afterwards a great 
+
+**06 · G-01 — Skala yang mempermalukan**
+Shot: close-up tangan di benda → wide yang membuka ruang → detail angka → reaksi wajah
+Aksen: 531 kata · Danu came at nine. He came alone, without the seal, without the slate, and he stood in the
