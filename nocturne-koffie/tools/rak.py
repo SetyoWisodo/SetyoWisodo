@@ -30,6 +30,7 @@ from __future__ import annotations
 import json
 import math
 import os
+import subprocess
 import sys
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps, ImageStat
@@ -61,6 +62,23 @@ KOBALT = (31, 63, 176)
 MERAH = (200, 62, 40)
 
 # ------------------------------------------------------------------- muat ----
+def muat_kemasan() -> dict:
+    """Foto kemasan yang sudah dijadikan 3D (tools/kemasan.py).
+
+    Kalau berkasnya belum ada, rak memakai seni poster seperti sekarang. Jadi
+    halaman tidak pernah menunggu: begitu foto datang dan diproses, rak otomatis
+    memakainya.
+    """
+    path = os.path.join(ROOT, "data", "kemasan.json")
+    if not os.path.exists(path):
+        return {}
+    try:
+        isi = json.load(open(path, encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    return {k["id"]: k for k in isi.get("kemasan", [])}
+
+
 def muat_katalog() -> dict:
     with open(os.path.join(ROOT, "data", "catalog.json"), encoding="utf-8") as f:
         return json.load(f)
@@ -126,6 +144,9 @@ def siapkan_item(kat: dict) -> list[dict]:
             "synopsis": b["desc"],
             "art": b["img"],
         })
+    kemasan = muat_kemasan()
+    for it in item:
+        it["kemasan"] = kemasan.get(it["id"])
     m = kat["member"]
     item.append({
         "id": "circle",
@@ -213,6 +234,19 @@ def potong_seni(path: str, ukuran: tuple[int, int]) -> Image.Image:
     return ImageOps.fit(sisa, ukuran, Image.LANCZOS, centering=(0.5, 0.5))
 
 
+def tempel_kemasan(im: Image.Image, path_3d: str, kotak: tuple[int, int, int, int]) -> bool:
+    """Tempel kemasan 3D (beralfa, sudah serong) di atas kanvas. True bila berhasil."""
+    p = os.path.join(ROOT, path_3d)
+    if not os.path.exists(p):
+        return False
+    foto = Image.open(p).convert("RGBA")
+    x, y, w, h = kotak
+    skala = min(w / foto.width, h / foto.height)
+    foto = foto.resize((max(1, int(foto.width * skala)), max(1, int(foto.height * skala))), Image.LANCZOS)
+    im.paste(foto, (x + (w - foto.width) // 2, y + (h - foto.height) // 2), foto)
+    return True
+
+
 def gambar_sampul(item: dict, ukuran: tuple[int, int], aksen, ukuran_judul: int) -> Image.Image:
     """Sampul 1 : 1,9 — seni dua tinta di atas, judul serif, pita kobalt di bawah."""
     w, h = ukuran
@@ -224,7 +258,13 @@ def gambar_sampul(item: dict, ukuran: tuple[int, int], aksen, ukuran_judul: int)
 
     # --- seni di bagian atas
     seni_h = int(H * 0.50)
-    if item["art"]:
+    if item.get("kemasan"):
+        im.paste((247, 243, 234), (pad, int(H * 0.085), W - pad, int(H * 0.085) + seni_h))
+        tempel_kemasan(im, item["kemasan"]["tiga_d"],
+                       (pad + int(W * 0.02), int(H * 0.075), W - 2 * pad - int(W * 0.04), seni_h + int(H * 0.02)))
+        d.rectangle([pad, int(H * 0.085), W - pad, int(H * 0.085) + seni_h], outline=TINTA, width=max(1, S))
+        seni = None
+    elif item["art"]:
         seni = dua_tinta(potong_seni(item["art"], (W - 2 * pad, seni_h)), aksen)
     else:
         seni = Image.new("RGB", (W - 2 * pad, seni_h), KERTAS)
@@ -234,8 +274,9 @@ def gambar_sampul(item: dict, ukuran: tuple[int, int], aksen, ukuran_judul: int)
                    fill=aksen)
         ds.ellipse([seni.width // 2 - r // 3, seni_h // 2 - r // 3,
                     seni.width // 2 + r // 3, seni_h // 2 + r // 3], fill=KERTAS)
-    im.paste(seni, (pad, int(H * 0.085)))
-    d.rectangle([pad, int(H * 0.085), W - pad, int(H * 0.085) + seni_h], outline=TINTA, width=max(1, S))
+    if seni is not None:
+        im.paste(seni, (pad, int(H * 0.085)))
+        d.rectangle([pad, int(H * 0.085), W - pad, int(H * 0.085) + seni_h], outline=TINTA, width=max(1, S))
 
     # --- kepala
     tengah(d, (W // 2, int(H * 0.045)), "A NOCTURNE KOFFIE LOT", font("intertight.woff2", int(H * 0.019)),
@@ -295,7 +336,13 @@ def gambar_punggung(item: dict, ukuran: tuple[int, int], aksen, ukuran_judul: in
 
     # --- ilustrasi di ujung kanan (setelah diputar 90° jadi ujung atas)
     sisi = Hl
-    if item["art"]:
+    if item.get("kemasan") and os.path.exists(os.path.join(ROOT, item["kemasan"]["depan"])):
+        kecil = Image.open(os.path.join(ROOT, item["kemasan"]["depan"])).convert("RGBA")
+        kecil = ImageOps.fit(kecil, (sisi, sisi), Image.LANCZOS, centering=(0.5, 0.28))
+        latar = Image.new("RGB", (sisi, sisi), dasar)
+        latar.paste(kecil, (0, 0), kecil)
+        kecil = latar
+    elif item["art"]:
         kecil = dua_tinta(potong_seni(item["art"], (sisi, sisi)), aksen)
     else:
         kecil = Image.new("RGB", (sisi, sisi), dasar)
@@ -367,6 +414,7 @@ def data_js(item: list[dict]) -> str:
         "ITEMS": ringkas,
         "TABS": tab,
         "START": 5,
+        "KEMASAN": sorted(k for k in muat_kemasan()),
     }
     baris = ",\n".join(f'  {json.dumps(k)}: {json.dumps(v, ensure_ascii=False)}' for k, v in isi.items())
     return ("/* Rak sangrai — data untuk hero rak (dibangun tools/rak.py dari data/catalog.json).\n"
@@ -463,6 +511,27 @@ def cek() -> list[str]:
     return masalah
 
 
+def siapkan_kemasan() -> None:
+    """Kalau ada foto baru di assets/img/kemasan/sumber/, jalankan pipa 3D lebih dulu.
+
+    Dengan begitu pemilik hanya perlu menaruh foto lalu menjalankan `tools/rak.py`
+    (atau `tools/jalankan.py`) — tidak ada langkah tersembunyi.
+    """
+    sumber = os.path.join(ROOT, "assets", "img", "kemasan", "sumber")
+    if not os.path.isdir(sumber):
+        return
+    foto = [f for f in os.listdir(sumber) if os.path.splitext(f)[1].lower() in (".jpg", ".jpeg", ".png", ".webp")]
+    if not foto:
+        return
+    data = os.path.join(ROOT, "data", "kemasan.json")
+    segar = os.path.exists(data) and os.path.getmtime(data) >= max(
+        os.path.getmtime(os.path.join(sumber, f)) for f in foto)
+    if segar:
+        return
+    print(f"  kemasan: {len(foto)} foto baru → bangun 3D dulu (tools/kemasan.py)")
+    subprocess.run([sys.executable, os.path.join(ROOT, "tools", "kemasan.py")], check=False)
+
+
 if __name__ == "__main__":
     if "--cek" in sys.argv:
         m = cek()
@@ -470,6 +539,7 @@ if __name__ == "__main__":
             print("  ✗", x)
         print("  kesimpulan:", "OK" if not m else f"{len(m)} masalah")
         sys.exit(0 if not m else 1)
+    siapkan_kemasan()
     bangun()
     m = cek()
     for x in m:

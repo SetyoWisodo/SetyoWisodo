@@ -145,6 +145,42 @@ node tools/rak-uji.mjs          # 26 butir uji asap (butuh: npm i jsdom --prefix
 python3 tools/rak-pratinjau.py  # gambar pratinjau komposisi
 ```
 
+### Foto kemasan → kemasan 3D (pipa aset)
+
+Foto kemasan **tidak pernah** dipasang langsung di halaman. Alurnya:
+
+```
+assets/img/kemasan/sumber/<id>.jpg     foto apa adanya (boleh masih berlatar)
+        ↓  tools/kemasan.py
+        · buang latar (banjir-warna dua ambang + gerus bayangan/halo)
+        · rapikan ke isi, normalisasi tinggi 1200 px
+        · bangun kotak bervolume: sisi kanan + sisi atas dari warna tepi kemasan,
+          perspektif (tepi kanan memendek, sisi menyusul), cahaya kiri→kanan
+        · serong 10° ke kiri, latar transparan, WebP q88
+        ↓
+assets/img/kemasan/<id>-depan.webp     bidang depan bersih
+assets/img/kemasan/<id>-3d.webp        kotak 3D, serong 10° ke kiri, tanpa latar
+        ↓  tools/rak.py (otomatis memakai bila ada)
+rak (sampul + punggung) · lembar detail
+```
+
+| Berkas | Isi |
+| --- | --- |
+| `tools/kemasan.py` | pipa di atas; `--cek` memeriksa alfa 4 sudut, arah serong **diukur dari hasil** (`cek_serong`), piksel hampir-transparan berwarna menyala, ukuran |
+| `assets/img/kemasan/sumber/` | tempat menjatuhkan foto; nama berkas = `id` katalog (`gayo.jpg`, `blue-mount-ijen.png`, …) |
+| `data/kemasan.json` | catatan setiap kemasan: sumber, dua keluaran, ukuran, serong |
+| `laporan/kemasan-3d.png` | lembar periksa semua kemasan 3D di atas kertas |
+
+```bash
+python3 tools/kemasan.py         # proses semua foto di folder sumber
+python3 tools/kemasan.py --demo  # contoh dari label brand (tidak menyentuh aset situs)
+```
+
+**Batas yang jujur:** tidak ada model penghapus latar berbasis ML di sini. Latar dibuang
+dengan banjir-warna, jadi foto berlatar polos (satu warna meja/karton) hasilnya bersih;
+foto berlatar ramai akan menyisakan tepi. Efek "3D" adalah kotak bervolume (dua bidang sisi
+dari warna tepi + perspektif + gradien cahaya), bukan model 3D sungguhan dengan tekstur.
+
 Batas yang diakui: tidak ada peramban di sandbox, jadi tampilan 3D sungguhan — perspektif,
 bayangan, ketajaman teks, kursor — **belum pernah saya lihat**. Uji asap membuktikan skrip,
 geometri, dan sambungan, bukan rupa.

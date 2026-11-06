@@ -4,14 +4,19 @@
    API + satu requestAnimationFrame; tidak ada @keyframes di berkas ini. */
 
 :root{
-  --paper:#F5EFE4;
-  --sheet:#FAF6EE;
-  --ink:#16110D;
-  --muted:#6D6558;
+  /* Palet mengikuti halaman rujukan: kertas hangat netral, tinta hampir hitam,
+     satu aksen kobalt. Kalau ingin kembali ke warna brand (#F5EFE4 / #E1542B),
+     cukup ganti dua baris di bawah — tidak ada warna lain yang perlu diubah. */
+  --paper:#EDEBE6;
+  --sheet:#F4F2ED;
+  --ink:#141414;
+  --muted:#6D6A63;
+  --accent:#1F3FB0;
+  --brand-paper:#F5EFE4;
+  --brand-orange:#E1542B;
   --espresso:#4A2C1A;
-  --accent:#E1542B;
   --gold:#D9A441;
-  --rule:rgba(22,17,13,.9);
+  --rule:rgba(20,20,20,.9);
   --ease:cubic-bezier(.2,.8,.2,1);
   --H:min(46vh,31vw);
 }
@@ -20,7 +25,7 @@
 html,body{margin:0;height:100%}
 body{
   background:var(--paper);color:var(--ink);
-  font-family:"Inter","Inter Tight",system-ui,sans-serif;
+  font-family:"Inter Tight","Inter",system-ui,sans-serif;
   overflow:hidden;user-select:none;-webkit-font-smoothing:antialiased;
 }
 @media (pointer:fine){
@@ -56,8 +61,8 @@ button.box,button.lbl{appearance:none;background:none;border-radius:0;font:inher
 
 .logo{display:flex;flex-direction:column;align-items:center;gap:5px;color:var(--accent);text-align:center}
 .logo__a{
-  font-family:"Bricolage Grotesque","Inter Tight",sans-serif;font-weight:800;
-  font-size:22px;line-height:1;letter-spacing:.03em;text-transform:uppercase;
+  font-family:"Newsreader",Georgia,serif;font-weight:700;
+  font-size:22px;line-height:1;letter-spacing:.04em;text-transform:uppercase;
 }
 .logo__b{
   font-family:"Inter Tight",sans-serif;font-weight:600;font-size:9px;line-height:1;
@@ -127,7 +132,7 @@ button.box,button.lbl{appearance:none;background:none;border-radius:0;font:inher
 .line{display:block}
 .line:not(:last-child){position:absolute;left:0;top:0;width:100%}
 .cap__title .line{
-  font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:31px;
+  font-family:"Newsreader",Georgia,serif;font-weight:400;font-size:31px;
   line-height:1.12;letter-spacing:-.01em;
 }
 .cap__sub .line{
@@ -202,12 +207,12 @@ button.box,button.lbl{appearance:none;background:none;border-radius:0;font:inher
 .detail__left .mask{width:100%;text-align:left}
 .detail__sub .line{color:var(--accent)}
 .detail__title .line,.detail__title{
-  font-family:"Fraunces",Georgia,serif;font-weight:700;
+  font-family:"Newsreader",Georgia,serif;font-weight:400;
   font-size:clamp(44px,5.4vw,84px);line-height:1;letter-spacing:-.025em;margin:0;
 }
 .detail__meta .line{color:var(--muted)}
 .detail__syn .line{
-  font-family:"Fraunces",Georgia,serif;font-weight:400;font-size:17px;line-height:1.5;
+  font-family:"Newsreader",Georgia,serif;font-weight:400;font-size:17px;line-height:1.5;
   max-width:42ch;
 }
 .detail__harga .line{
@@ -215,7 +220,7 @@ button.box,button.lbl{appearance:none;background:none;border-radius:0;font:inher
   letter-spacing:.06em;line-height:1.5;text-transform:uppercase;color:var(--espresso);
 }
 .detail__credit .line{
-  font-family:"Fraunces",Georgia,serif;font-style:italic;font-size:15px;color:var(--muted);
+  font-family:"Newsreader",Georgia,serif;font-style:italic;font-size:15px;color:var(--muted);
   line-height:1.4;
 }
 .detail__cta{

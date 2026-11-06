@@ -84,6 +84,7 @@ def main():
         ("papan", ["tools/papan.py", "--tanggal", TGL]),
         ("huruf", ["tools/font.py", "--cek"]),
         ("rak", ["tools/rak.py"]),
+        ("kemasan", ["tools/kemasan.py", "--cek"]),
         ("periksa", ["tools/periksa.py"]),
         ("laporan", ["tools/laporan.py"]),
         ("semua", ["tools/semua.py"]),

@@ -970,6 +970,28 @@ def periksa(catatan):
            f"punggung {ukuran('assets/img/rak/spines.webp')/1024:.0f} KB · uji asap {uji_rak}",
            "; ".join(masalah_rak[:4]))
 
+    # 5h · kemasan 3D: hanya diperiksa bila foto sudah diproses
+    masalah_kemasan = []
+    path_kemasan = os.path.join(ROOT, "data", "kemasan.json")
+    jumlah_kemasan = 0
+    if not os.path.exists(path_kemasan):
+        teks_kemasan = "belum ada foto diproses"
+    else:
+        import importlib.util as _iu3
+        spec3 = _iu3.spec_from_file_location("kemasan", os.path.join(ROOT, "tools", "kemasan.py"))
+        modk = _iu3.module_from_spec(spec3)
+        spec3.loader.exec_module(modk)
+        masalah_kemasan = modk.cek()
+        jumlah_kemasan = len(json.loads(baca("data/kemasan.json")).get("kemasan", []))
+        teks_kemasan = f"{jumlah_kemasan} kemasan · alfa bersih · serong 10° ke kiri (diukur)"
+        # sumber mentah tidak boleh dipakai langsung di halaman
+        for h in HALAMAN:
+            path_h = os.path.join(ROOT, h)
+            if os.path.exists(path_h) and "kemasan/sumber/" in baca(h):
+                masalah_kemasan.append(f"{h} memuat foto mentah (kemasan/sumber/)")
+    tambah("Kemasan 3D", "lolos" if not masalah_kemasan else "gagal",
+           teks_kemasan, "; ".join(masalah_kemasan[:4]))
+
     # 6 · ukuran
     awal = ukuran("index.html") + ukuran("assets/css/site.css") + ukuran("assets/js/site.js") \
         + ukuran("assets/css/motion.css") + ukuran("assets/js/motion.js")
