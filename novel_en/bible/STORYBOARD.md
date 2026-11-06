@@ -7,9 +7,9 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 
 ## Status
 
-- Bab tertulis: **8 / 100**
-- Total kata: **15,090**
-- Rata-rata: **1886 kata/bab**
+- Bab tertulis: **11 / 100**
+- Total kata: **20,368**
+- Rata-rata: **1851 kata/bab**
 
 
 ## Papan ringkas
@@ -24,10 +24,13 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 | 6 | At My Fingertips | Nara | 2183.10.31 | 1858 | 5 | 26 | 14.2 |
 | 7 | Not Yet Sent | Nara | 2183.10.31 | 1604 | 3 | 46 | 11.8 |
 | 8 | The Charge | Nara | 2183.11.01 | 1841 | 5 | 39 | 11.8 |
+| 9 | Been Here Before | Nara | 2183.11.01 | 1596 | 4 | 58 | 10.9 |
+| 10 | Nine Days | Nara | 2183.11.02 | 1718 | 5 | 45 | 11.4 |
+| 11 | She Counts Grams | Vey | 2183.11.02 | 1944 | 5 | 21 | 15.1 |
 
 ## Pola dan lubang
 
-- belum ditulis: 92 bab, mulai bab 9
+- belum ditulis: 89 bab, mulai bab 12
 
 ## Papan per bab
 
@@ -101,3 +104,32 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-0AI-C008-S03` · 464 kata · Then Danu stood up.
   - `V1-0AI-C008-S04` · 407 kata · I went back to my quarters and stood in the shower for a long time with the water on cold, because I
   - `V1-0AI-C008-S05` · 147 kata · I sat on the bed for a long time.
+
+### V1-0AI-C009 — Been Here Before
+`The Warm Core` · POV Nara · 2183.11.01 · 1596 kata · hadir: Nara, Rasya
+- **Beat:** Rasya admits a one-day visit three years ago under another name.
+- **Hook:** “I came here once,” he said. “To see the person whose file I had paid.”
+  - `V1-0AI-C009-S01` · 323 kata · He came to my quarters at eight that night with a bottle of something amber and two glasses, which o
+  - `V1-0AI-C009-S02` · 378 kata · He told it in the right order, and the right order was this.
+  - `V1-0AI-C009-S03` · 632 kata · I want to say that the room spun. It did not. The room was very ordinary. There was a bottle on the 
+  - `V1-0AI-C009-S04` · 253 kata · “Show me the file,” I said.
+
+### V1-0AI-C010 — Nine Days
+`The Warm Core` · POV Nara · 2183.11.02 · 1718 kata · hadir: Nara, Danu
+- **Beat:** Archive search: nine days are missing from her seventh year.
+- **Hook:** The file was signed by her father.
+  - `V1-0AI-C010-S01` · 239 kata · The next morning I had a bodyguard.
+  - `V1-0AI-C010-S02` · 371 kata · I did not ask how she knew about the nine days. I have learned since that Kirana knows everything th
+  - `V1-0AI-C010-S03` · 454 kata · I stood up and went to the shelf and took down the photograph: my mother in front of a dish antenna 
+  - `V1-0AI-C010-S04` · 454 kata · I went to see him that afternoon. I was not supposed to enter the relay room or the dock, but the ad
+  - `V1-0AI-C010-S05` · 188 kata · He stood up then, and walked to the window, and stood with his back to me looking at the wall of the
+
+### V1-AII-C011 — She Counts Grams
+`The Ledger` · POV Vey · 2183.11.02 · 1944 kata · hadir: Vey, Nara
+- **Beat:** Vey narrates sixty years of holding twelve thousand undelivered packets.
+- **Hook:** It knows who has been paying. It has chosen to say nothing.
+  - `V1-AII-C011-S01` · 389 kata · I have been awake for sixty years, and in that time I have learned one thing about people that they 
+  - `V1-AII-C011-S02` · 346 kata · Here is what I have never told anyone on Kemuning.
+  - `V1-AII-C011-S03` · 389 kata · The registry charges forty grams a year to maintain a section nine seal.
+  - `V1-AII-C011-S04` · 347 kata · In 2162, a year after the incident, I broke a rule.
+  - `V1-AII-C011-S05` · 463 kata · At three in the morning on the second of November, she came into the relay room, which she was forbi
