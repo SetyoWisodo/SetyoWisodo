@@ -7,9 +7,9 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 
 ## Status
 
-- Bab tertulis: **18 / 100**
-- Total kata: **31,775**
-- Rata-rata: **1765 kata/bab**
+- Bab tertulis: **20 / 100**
+- Total kata: **35,566**
+- Rata-rata: **1778 kata/bab**
 
 
 ## Papan ringkas
@@ -34,10 +34,12 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 | 16 | Residue | Nara | 2183.11.05 | 1659 | 5 | 59 | 9.9 |
 | 17 | Installments | Nara | 2183.11.05 | 1518 | 6 | 50 | 11.3 |
 | 18 | How Much | Nara | 2183.11.06 | 1661 | 6 | 39 | 11.7 |
+| 19 | Refusal | Nara | 2183.11.06 | 1682 | 6 | 47 | 12.3 |
+| 20 | Four Thousand People | Nara | 2183.11.07 | 2097 | 6 | 61 | 10.9 |
 
 ## Pola dan lubang
 
-- belum ditulis: 82 bab, mulai bab 19
+- belum ditulis: 80 bab, mulai bab 21
 
 ## Papan per bab
 
@@ -209,3 +211,25 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-AII-C018-S04` · 590 kata · We found her on the fourth day.
   - `V1-AII-C018-S05` · 133 kata · I did not sleep that night either, but for a different reason.
   - `V1-AII-C018-S06` · 313 kata · There were eleven thousand hours of footage of me.
+
+### V1-AII-C019 — Refusal
+`The Ledger` · POV Nara · 2183.11.06 · 1682 kata · hadir: Nara, Vey, Rasya
+- **Beat:** Nara attempts to stop the instalments through the Bureau portal.
+- **Hook:** The Bureau replied with one line: audit escalated, station scheduled for evacuation.
+  - `V1-AII-C019-S01` · 88 kata · The Bureau portal is a grey screen in the corner of the administration office with a keyboard that h
+  - `V1-AII-C019-S02` · 367 kata · The form is called a Refusal of Maintenance. It exists because the charter’s authors, who were paran
+  - `V1-AII-C019-S03` · 272 kata · I sat there for a long time.
+  - `V1-AII-C019-S04` · 322 kata · “The first,” Vey said, “is to pay the debt.”
+  - `V1-AII-C019-S05` · 177 kata · I filed the refusal at seven forty-one in the morning.
+  - `V1-AII-C019-S06` · 443 kata · The response came at four in the afternoon, which is faster than anything in the nine systems has ev
+
+### V1-AII-C020 — Four Thousand People
+`The Ledger` · POV Nara · 2183.11.07 · 2097 kata · hadir: Nara, Danu, Rasya
+- **Beat:** Danu explains what evacuation costs and asks her to let the debt stand.
+- **Hook:** “If you fix this,” her father said, “four thousand people die of paperwork.”
+  - `V1-AII-C020-S01` · 273 kata · My father did not shout. That was the worst of it. He had not shouted since I was nine, and the sile
+  - `V1-AII-C020-S02` · 916 kata · He stood up and went to the window, which looks at the wall of the next ring.
+  - `V1-AII-C020-S03` · 149 kata · The room was very quiet.
+  - `V1-AII-C020-S04` · 479 kata · He came around the desk and stood in front of me, and for a moment I thought he was going to put his
+  - `V1-AII-C020-S05` · 170 kata · I did the sum in my head on the way out, because my hands were shaking and arithmetic is the only th
+  - `V1-AII-C020-S06` · 96 kata · Rasya was waiting in the corridor outside, sitting on the bench with his elbows on his knees.
