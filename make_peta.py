@@ -325,8 +325,11 @@ def build(path):
         tambah(story, isi)
         story.append(PageBreak())
 
-    story.append(SectionHead("11", "Mengapa cerita ini bekerja", label="11 · Mengapa cerita ini bekerja"))
-    tambah(story, P.LANGKAH)
+    if hasattr(P, "LANGKAH"):
+        n = len(P.BAGIAN) + 1
+        story.append(SectionHead("%02d" % n, "Mengapa cerita ini bekerja",
+                                 label="%02d · Mengapa cerita ini bekerja" % n))
+        tambah(story, P.LANGKAH)
     doc.multiBuild(story)
     return doc.page
 
