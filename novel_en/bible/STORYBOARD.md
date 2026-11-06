@@ -7,9 +7,9 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 
 ## Status
 
-- Bab tertulis: **32 / 100**
-- Total kata: **59,736**
-- Rata-rata: **1866 kata/bab**
+- Bab tertulis: **34 / 100**
+- Total kata: **62,880**
+- Rata-rata: **1849 kata/bab**
 
 
 ## Papan ringkas
@@ -48,10 +48,12 @@ Papan ini turunan naskah, bukan sumber fakta baru.
 | 30 | Who Are You | G-02 + G-08 | Nara | 2183.11.13 | 2339 | 6 | 22 | 14.1 |
 | 31 | The Ash Locker | G-09 + G-04 | Nara | 2183.11.14 | 1949 | 6 | 40 | 13.2 |
 | 32 | Six Days | G-09 + G-06 | Nara | 2183.11.15 | 1625 | 6 | 42 | 16.2 |
+| 33 | The Second Name | G-08 | Nara | 2183.11.15 | 1588 | 6 | 48 | 12.5 |
+| 34 | The Terminal Sale | G-06 | Nara | 2183.11.16 | 1542 | 5 | 56 | 13.4 |
 
 ## Pola dan lubang
 
-- belum ditulis: 68 bab, mulai bab 33
+- belum ditulis: 66 bab, mulai bab 35
 
 ## Papan per bab
 
@@ -435,3 +437,28 @@ Papan ini turunan naskah, bukan sumber fakta baru.
   - `V1-AIV-C032-S04` · 295 kata · Here is what the hospital register said, and I have the sheet, and I have read it eleven times.
   - `V1-AIV-C032-S05` · 439 kata · This is where I have to put the two clocks, because the next four days were lived in two of them at 
   - `V1-AIV-C032-S06` · 82 kata · I put the pencil down.
+
+### V1-AIV-C033 — The Second Name
+`The Evacuation` · POV Nara · 2183.11.15 · 1588 kata · hadir: Nara, Rasya, Sekar
+- **Beat:** Sekar gives Rasya back the second half of his sister’s name.
+- **Hook:** “Ayu Halim Wardhana,” she said. “She was in the room with you.”
+- **Templat:** G-08 Tangan yang tidak sampai · lensa 50mm · lampu dermaga, putih keras · putih-baja
+- **Shot utama:** dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+  - `V1-AIV-C033-S01` · 179 kata · The observation glass in the interview room is one-way, forty millimetres thick, and set into a wall
+  - `V1-AIV-C033-S02` · 141 kata · “Ayu Wardhana,” Rasya said. “My sister. Eleven years old. She died in Ring C on the eleventh of Sept
+  - `V1-AIV-C033-S03` · 453 kata · I watched Rasya’s face do something I had never seen it do.
+  - `V1-AIV-C033-S04` · 443 kata · The glass was cold. I noticed that at some point, because my hand had been on it long enough to have
+  - `V1-AIV-C033-S05` · 153 kata · I could not hear what she said next.
+  - `V1-AIV-C033-S06` · 206 kata · Rasya came out of the interview room at 23:20 with the casualty schedule in his hand and his face ar
+
+### V1-AIV-C034 — The Terminal Sale
+`The Evacuation` · POV Nara · 2183.11.16 · 1542 kata · hadir: Nara, Danu
+- **Beat:** Danu admits he sold the Tsiolkovsky terminal to a dealer on Bukit in 2171.
+- **Hook:** “I sold it because it still had her handwriting in it.”
+- **Templat:** G-06 Jam bertingkat · lensa 50mm · lampu dermaga, putih keras · putih-baja
+- **Shot utama:** jangkar bersama → potong ke jalur lambat → potong ke jalur cepat → kembali ke jangkar
+  - `V1-AIV-C034-S01` · 247 kata · My father’s office at four in the morning on the sixteenth of November was the emptiest I had ever s
+  - `V1-AIV-C034-S02` · 375 kata · Here is what he told me, and I am going to put it down in the order he said it, because the order is
+  - `V1-AIV-C034-S03` · 330 kata · This is where I have to put the two clocks, because my father told the story in two of them at once,
+  - `V1-AIV-C034-S04` · 274 kata · “Why are you telling me this now?” I said.
+  - `V1-AIV-C034-S05` · 304 kata · I put my hand flat on the inventory.

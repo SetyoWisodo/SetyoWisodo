@@ -977,3 +977,59 @@ Aksen: 439 kata · This is where I have to put the two clocks, because the next 
 **06 · G-06 — Jam bertingkat**
 Shot: jangkar bersama → potong ke jalur lambat → potong ke jalur cepat → kembali ke jangkar
 Aksen: 82 kata · I put the pencil down.
+
+---
+
+## Bab 33 — The Second Name
+
+`Arc IV` · 50mm · lampu dermaga, putih keras · putih-baja
+
+**01 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 179 kata · The observation glass in the interview room is one-way, forty millimetres thick, and set i
+
+**02 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 141 kata · “Ayu Wardhana,” Rasya said. “My sister. Eleven years old. She died in Ring C on the eleven
+
+**03 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 453 kata · I watched Rasya’s face do something I had never seen it do.
+
+**04 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 443 kata · The glass was cold. I noticed that at some point, because my hand had been on it long enou
+
+**05 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 153 kata · I could not hear what she said next.
+
+**06 · G-08 — Tangan yang tidak sampai**
+Shot: dua sisi medium → sentuhan dicoba → medium menolak → makna sampai
+Aksen: 206 kata · Rasya came out of the interview room at 23:20 with the casualty schedule in his hand and h
+
+---
+
+## Bab 34 — The Terminal Sale
+
+`Arc IV` · 50mm · lampu dermaga, putih keras · putih-baja
+
+**01 · G-06 — Jam bertingkat**
+Shot: jangkar bersama → potong ke jalur lambat → potong ke jalur cepat → kembali ke jangkar
+Aksen: 247 kata · My father’s office at four in the morning on the sixteenth of November was the emptiest I 
+
+**02 · G-06 — Jam bertingkat**
+Shot: jangkar bersama → potong ke jalur lambat → potong ke jalur cepat → kembali ke jangkar
+Aksen: 375 kata · Here is what he told me, and I am going to put it down in the order he said it, because th
+
+**03 · G-06 — Jam bertingkat**
+Shot: jangkar bersama → potong ke jalur lambat → potong ke jalur cepat → kembali ke jangkar
+Aksen: 330 kata · This is where I have to put the two clocks, because my father told the story in two of the
+
+**04 · G-06 — Jam bertingkat**
+Shot: jangkar bersama → potong ke jalur lambat → potong ke jalur cepat → kembali ke jangkar
+Aksen: 274 kata · “Why are you telling me this now?” I said.
+
+**05 · G-06 — Jam bertingkat**
+Shot: jangkar bersama → potong ke jalur lambat → potong ke jalur cepat → kembali ke jangkar
+Aksen: 304 kata · I put my hand flat on the inventory.
