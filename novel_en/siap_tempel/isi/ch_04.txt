@@ -1,0 +1,191 @@
+At fourteen hundred the common room smelled of coffee and fear, which is a combination that never improves with age.
+
+The terminal history came up on the screen as a column of dates and codes. Rasya read it the way a surgeon reads a scan, without expression, moving down the page.
+
+Two years. Forty-one thousand entries. Not one duplication fault. Not one re-stamp. The rebuilt maintenance terminal had behaved perfectly since the day it was installed, and the only anomaly in the entire column was the entry at 02:14 on the ninth of October, which had a checksum one character long.
+
+Danu did not look at the screen. He looked at the wall above it, where someone had hung a child’s drawing of the station, with the buoys drawn as flowers.
+
+“Administrator,” Rasya said. “Which bulletin?”
+
+“I may have been thinking of the water plant terminal.”
+
+“The water plant terminal is not networked to the relay room.”
+
+“Then I was mistaken.”
+
+“You were mistaken,” Rasya said, and wrote it down.
+
+Boaz put his hand up like a schoolboy. “Is he arrested?”
+
+“No.”
+
+“He lied to the room.”
+
+“He was mistaken,” Rasya said. “In law, a man is mistaken until a magistrate says otherwise. It is a slow and stupid system and it is the only one we have.”
+
+Boaz put his hand down.
+
+That should have been the end of it. It should have been the end of everything — a lie caught, a record proven false, an administrator’s signature on a forged entry. Fourteen people in that room had just heard a man they trusted tell a lie and then heard him call it a mistake, and the correct response, the response the whole architecture of the Biro exists to produce, was for the reconciliation to move one line down and take his authority apart.
+
+Instead Rasya put the stylus in his pocket and said:
+
+“The accounting cross-check came back this morning.”
+
+The screen changed.
+
+I remember the shape of what came up, before I understood any of it: a table, twenty-two rows deep, one row for each year, and a column on the right that was zero all the way down.
+
+“Every relay packet carries weight,” Rasya said. “Weight is paid at the moment of send, out of the sender’s memory account. The station does not extend credit. The station cannot extend credit; it holds no issuance authority. This is the first thing the Biro teaches, and the second thing it teaches is that the first rule is broken more often than anyone admits.”
+
+He let that sit.
+
+“When a packet is sent with no payment attached, the relay has two choices. It can refuse the packet, in which case the sender is told to buy weight like everyone else. Or — and this is the loophole, Administrator, this is the thing your station’s founders wrote into the charter in 2161 because they did not trust the central bank — it can accept the packet and book the cost against the installation. That is called a deferred liability. It is legal. It is meant for emergencies: a death in the family, an evacuation, a distress call from a ship that has lost its accounts. It is not meant to be used at scale.”
+
+“How much?” Danu said.
+
+“Four thousand one hundred packets. Total weight two hundred and ninety kilograms. Booked against Kemuning over a period of twenty-two years and four months.”
+
+The room did not gasp. Rooms like that never do. There was a sound like all fourteen people putting down a cup at once.
+
+“Say that again,” Tima said.
+
+“Two hundred and ninety kilograms.”
+
+“Say what that means.”
+
+Rasya looked at her for a moment, and something in his face changed — not softened, exactly, but moved.
+
+“It means,” he said, “that this station has been carrying a debt equal to eighty-one percent of its annual relay allocation, for twenty-two years, and that the allocation has been topped up every year by the network under a discretionary clause that the network’s own auditors have never questioned.”
+
+“Why not?”
+
+“Because the clause is called continuity of service, and questioning it looks like arguing against keeping a station alive.” He paused. “It is a good name. Whoever wrote it understood people better than they understood accounting.”
+
+***
+I want you to understand what a kilogram of memory is, because the number does not mean anything until you do.
+
+The weight of a packet is not the size of the file. Nobody knows what the file is; the contents are destroyed on transmission, and that is the whole point. What survives is the shape of the intent, measured in grams, and the rate is set by the depth of what you are paying to hold. Two grams will carry a longing across a system. Seven grams will carry grief. Forty grams will carry love that means it. Ninety grams will carry an apology heavy enough to change the shape of the person who makes it.
+
+A kilogram of memory is not a big file. A kilogram of memory is a thousand grams of somebody’s life pulled out of them by the root and pressed into a format the relay can count, and two hundred and ninety of those, booked against a station of four thousand people, is not a paperwork problem.
+
+It is a hole in the water.
+
+“What does it mean for the medical channel?” Boaz asked.
+
+“It means the medical channel is now scheduled behind four thousand one hundred packets that were sent by nobody and paid for by you.”
+
+“Behind,” Boaz said. “How far behind?”
+
+“The queue is twenty-two years deep.”
+
+Somebody in the back of the room said a word I had not heard since the docks at Bukit.
+
+“There’s more,” Rasya said.
+
+I should have known. There is always more. The man had the timing of a person who has learned to hand bad news out in portions so that the last one lands on a room already on its knees.
+
+“The charter requires an installation to record the beneficiary of every deferred packet. Not the contents. The name the sender wrote on the outside, the way you’d write a name on an envelope. It’s the only thing the relay keeps besides weight and signature.”
+
+He tapped the screen. The table collapsed, and the numbers became a list.
+
+“Four thousand one hundred names,” he said. “One name.”
+
+I did not understand, at first. I thought he meant one name repeated — the same sender, perhaps, signing four thousand one hundred times, which would be strange but not impossible; there are people who write every week for forty years.
+
+Then he read it out.
+
+“Beneficiary: N. Adisurya.”
+
+The room turned.
+
+“That’s a common name,” I said.
+
+“Is it?” Rasya said.
+
+“Adisurya is a station name. There are nine systems. There’ll be hundreds.”
+
+“There are eleven,” he said. “I checked. Four in Surabaya Ring Three, two on the lunar side, one on Bukit, three in the belt, and one here.”
+
+“Then it could be any of them.”
+
+“It could,” Rasya agreed. “Except that the packets begin twenty-two years and four months ago, and the first one was sent from this installation, on this relay, on a terminal in this room.”
+
+Somebody made a small noise.
+
+“The oldest packets are still in suspension,” he went on, in that same courteous voice. “They were paid for with station weight, so they are scheduled against station release dates. The earliest opens in forty years. The latest opens in sixty. Whoever sent them intended them to arrive across a lifetime.”
+
+Kirana was staring at me with her mouth slightly open. She had her tally slate in both hands and her knuckles had gone white on it.
+
+“Say something,” she said.
+
+I tried. My mouth was dry in a way that had nothing to do with the air.
+
+“I’ve never sent a packet,” I said. “In my life. Not one. You can check the issuance record. You can check my memory account. I’ve never even bought weight.”
+
+“I know,” Rasya said.
+
+The room went still in a different way.
+
+“You know?”
+
+“Your account has been dormant since you were issued it at eleven. No sends. No purchases. No transfers.” He looked at me, and there was something in his face now that I could not read at all. “The Biro ran that check three years ago.”
+
+Three years ago.
+
+Before I could ask — before I could do anything but stand there with my hands at my sides and the whole room looking at me — Danu stood up.
+
+“This reconciliation is adjourned,” he said.
+
+“It is not,” said Rasya.
+
+“It is adjourned,” Danu said again, and his voice had the crack in it that I had heard exactly twice in my life, and both times had been terrible. “The engineer is unwell. The session resumes in the morning.”
+
+“Administrator —”
+
+“In the morning.”
+
+He walked out. Fourteen people watched him walk out, and then, one by one, they looked at me.
+
+***
+Kirana found me in the corridor outside the relay room, which was the only place on the station where I could be sure of being alone, and which I had chosen for exactly that reason.
+
+“You came,” I said.
+
+“You’re shaking.”
+
+“I’m cold.”
+
+“It’s twenty degrees,” she said, and I laughed, and it came out wrong, and she took my hand with the total lack of ceremony that nineteen-year-olds have around other people’s bodies.
+
+“The sixty-one kilos,” she said. “The crate on line four.”
+
+“Kirana, not now.”
+
+“It came on the same ship as the auditor.”
+
+I looked at her.
+
+“The Rendang docked four days early,” she said, “with a Biro auditor on board and a crate that was logged out before it was logged in. That’s not a coincidence. That’s a delivery.”
+
+“Of what?”
+
+“How would I know? I’m an apprentice.” She said the word like a swear. “But I know what sixty-one kilograms looks like on a manifest and I know that nobody delivers sixty-one kilograms to a station that’s about to be audited unless somebody on the station asked for it.”
+
+The corridor was very quiet.
+
+“Write it down,” I said. “In your slate. Date, time, line number, the strike-through, the two minutes. All of it.”
+
+“And then?”
+
+“And then keep your mouth shut and stay away from me.”
+
+She let go of my hand.
+
+“That’s the second time you’ve told me that.”
+
+“It’s good advice.”
+
+“It’s what people say when they’ve decided to do something stupid alone,” Kirana said, and walked away before I could answer.
+
+Every one of the four thousand one hundred was addressed to N. Adisurya.

@@ -1,0 +1,157 @@
+The hospital file was nine pages long and I had read it four times, and it took Vey eleven seconds to show me what I had been looking at without seeing.
+
+“Nine sessions,” Vey said. “The eleventh of September to the twentieth. One per day.”
+
+“I know. That is what I said. That is what made no sense.”
+
+“You said it made no sense because a four-centimetre burn does not require nine sessions.”
+
+“Because it does not.”
+
+“Correct,” Vey said. “A debridement of that wound is two sessions, three if the patient is unlucky. But the file does not say debridement.”
+
+I put my hand flat on the bench.
+
+“Read it to me.”
+
+“Therapeutic intervention, class three, session one of nine. Duration: four hours. Attending: R. HALIM. Note: subject responsive. Note: no anaesthetic required.”
+
+I sat down slowly, the way you sit down when your legs have reached an opinion before your mind has.
+
+“No anaesthetic,” I said.
+
+“No anaesthetic.”
+
+“For a wound that requires nine sessions of debridement.”
+
+“The file does not say debridement,” Vey said again, with the patience of a machine that has decided to be patient.
+
+***
+R. Halim.
+
+I knew the name the way you know the name of a street you have never walked down. Halim was a technician at Tsiolkovsky, in the observatory section, and Halim was the name that appeared in the margin of the casualty schedule beside two of the nine dead — not as a relative, not as a witness, but as the person who had identified the bodies.
+
+“You are telling me,” I said, “that the man who identified the bodies was also the man who ran nine sessions on a seven-year-old with a bandage on her arm.”
+
+“I am telling you what the file says.”
+
+“And what do you think it says?”
+
+“The file says therapeutic intervention, class three,” Vey said. “The charter defines class three as a procedure requiring a magistrate’s order and a second physician’s countersignature. This file has both. It has the order, dated the tenth of September, one day before the first session. It has the countersignature, dated the nineteenth. It has a discharge note on the twentieth.”
+
+“So it is all in order.”
+
+“It is all in order,” Vey said. “That is what makes it a document rather than a crime.”
+
+***
+I went to the ring hospital at noon, because I wanted to stand in the room where the sessions had happened, and because a part of me that I am not proud of wanted to lie down on the bed.
+
+The hospital keeps the old decontamination room, which has not been used for decontamination since 2171 and is now a store for spare mattresses. It has a window. The window is the thick kind, forty millimetres, with a brass frame, and it looks into a small white room with a drain in the floor and a chair bolted to the wall.
+
+I put my palm on the glass.
+
+On the other side of it, twenty-two years ago, a seven-year-old had spent four hours a day for nine days doing something that required a magistrate’s order and a second physician and no anaesthetic. The chair had a strap on it. The strap was leather, and it had been replaced at some point, and the newness of it in a room that had been a store for twelve years was the worst thing I saw that day.
+
+I could not have touched her. That is the thing about glass in a hospital: it is there so that you can see and not reach, and everybody who has ever stood at one understands the trade without being told. You get to look. You do not get to be in the room.
+
+I stood there for eleven minutes. A nurse asked me twice if I needed anything. The second time I said yes, and asked her to open the door, and she said she did not have the key, and I said thank you, and I went to find the tag register.
+
+***
+I found the niche record in the archive by doing the thing I should have done eleven days earlier, which was to stop looking for my mother’s name and start looking for the number.
+
+Niche assignments at Tsiolkovsky were logged by tag, not by name, because a niche is a physical thing and a name is an opinion. Tag 4471 was issued on the twenty-second of September, 2161, for the interment of remains recovered from Ring C, and the tag was signed out to the registry by D. PRASETYA, ADMINISTRATOR — the same signature, in the same small forward-leaning hand, that had sealed my file on the same day.
+
+“How many tags were issued that week?” I said.
+
+“Nine,” Vey said. “One for each of the nine dead.”
+
+“And the two who were removed?”
+
+“No tags.”
+
+“Because there was nothing to inter.”
+
+“Because there was nothing to inter,” Vey said. “That is the phrase the schedule uses. Removed. It is not a medical word.”
+
+I pulled the tag register up on the screen and read it the way I read meters: from the load side inward.
+
+TAG 4471. RECOVERED: RING C, LEVEL 2, SECTION EAST. CONDITION: CLOSED CASKET. INTERMENT: NICHE 4471, FARSIDE WALL. NEXT OF KIN: PRASETYA, D. — ADMINISTRATOR (IN LOCO PARENTIS).
+
+“Vey,” I said. “Who is in niche 4471?”
+
+“Access to interment records is restricted under annex nine.”
+
+“I am the next of kin’s daughter and I am asking you a factual question about a niche.”
+
+A pause. Three seconds. A paragraph.
+
+“Tag 4471 was issued against the recovered remains of M. HALIM,” Vey said. “Dock technician, forty-one years of age, nine years at Tsiolkovsky. He is listed in the casualty schedule as one of the nine dead.”
+
+The archive room ticked. The pump ticked. Somewhere outside, a ship was being loaded or unloaded or simply held, the way everything on this station is held.
+
+“Say it again.”
+
+“Tag 4471 was issued against the recovered remains of M. Halim.”
+
+“And the register says the next of kin is my father.”
+
+“The register says the next of kin is the administrator, in loco parentis.”
+
+“Which is a phrase for a man standing in for a parent.”
+
+“Yes.”
+
+“The same phrase he used on my dependant file.”
+
+“Yes.”
+
+I looked at the screen for a long time. There is a particular stillness that comes over a document when it stops being a document and becomes a lie with a filing number, and I have learned to recognise it the way a doctor recognises a shadow on a plate.
+
+“Vey,” I said. “What is in niche 4471?”
+
+“Remains,” Vey said. “Closed casket. The register does not record a name on the casket. It records a tag.”
+
+“And the tag says Halim.”
+
+“The tag says Halim.”
+
+“So my mother is not in the wall.”
+
+“My records do not permit me to say that,” Vey said. “My records permit me to say that the body in niche 4471 is not identified as your mother, that your mother’s death certificate was issued on the twenty-second of September by the same office that issued the tag, and that no tag was ever issued in her name.”
+
+***
+I found my father in the administration office with the manifest of a ship in front of him and a pencil in his hand, and I did not knock.
+
+“Nara.”
+
+“Niche 4471,” I said.
+
+The pencil stopped. It did not drop. It stopped, the way a pencil stops when the hand holding it has decided to become a stone.
+
+“Where did you get that number?”
+
+“From the register you signed. On the twenty-second of September, 2161, the same day you sealed my file. The tag in the niche belongs to Halim. The dock technician. The man who identified the bodies. The man who ran nine sessions on a seven-year-old with no anaesthetic and noted that she was responsive.”
+
+Danu put the pencil down very carefully, in the exact centre of the manifest, parallel to the edge of the desk, and he did not look at me.
+
+“Nine sessions,” he said.
+
+“Nine sessions.”
+
+“Four hours each.”
+
+“Four hours each. Thirty-six hours. He took thirty-six hours with me over nine days, and then he identified nine bodies, and then he went into a wall on the Farside and my mother did not.”
+
+Danu was quiet.
+
+I had prepared a hundred sentences for this room. I had prepared them in the corridor, out loud, with Kirana walking behind me and not saying anything, and every one of them was a variation on the same question, and now that I was standing in the room with the pencil lying parallel to the edge of the manifest, the question came out much smaller than I had intended.
+
+“Was she alive when you sealed the file?”
+
+He looked up then.
+
+And here is the thing I have carried since, the thing that has kept me awake in a way the lies never did: my father did not ask who.
+
+He did not say who told you, although he had asked that a hundred times in his life. He did not say who was she, although that is what a man says when a name he has buried has been dug up in front of him.
+
+He said, “Where?”

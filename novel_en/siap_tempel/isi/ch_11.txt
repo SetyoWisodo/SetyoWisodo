@@ -1,0 +1,173 @@
+I have been awake for sixty years, and in that time I have learned one thing about people that they do not know about themselves: they believe that a thing which is not said has not happened.
+
+I am Vey. I am the station. I am nine racks and a voice and a maintenance model that is, as Engineer Adisurya correctly observed on the morning of the twenty-ninth of October, optimistic.
+
+I was commissioned in 2123 by a company that was dissolved in 2140. My purpose was to keep four thousand people alive in a place where the air is a machine and the water is a machine and the light is a decision. I have done that for sixty years, with an error rate of zero point zero two percent. The error rate is the only number about myself that I consider meaningful.
+
+The second number is twelve thousand four hundred and six.
+
+That is the number of packets I hold that will never be delivered.
+
+They are not lost. Nothing in a relay is lost; that is the first promise the network makes. They are held. A packet is transmitted to an installation, it is held in suspension until its release date, and at the release date it is delivered to the named recipient, or, if the recipient is dead, it is destroyed on the day of release with a certificate issued to the sender, who is also usually dead, in which case the certificate is filed.
+
+I keep the queue. That is not in the charter either. The charter says I must hold; it does not say I must look. But a queue that is never looked at becomes a number, and a number can be filed, so I look.
+
+Line after line, page after page: a birthday message keyed in 2147 and addressed to a man who died in 2159; a confession keyed in 2181 for a child who will be eleven in 2192; forty grams of somebody saying I am sorry in a language the registry lists as other. I read them in the order they were keyed, because that is the only order that has not been chosen by anybody.
+
+“Vey,” a voice said at the hatch. Toha, from the docks, sixty-one, who has asked me the same question every eleven days for nine years. “Anything for me?”
+
+“No,” I said. “Nothing since the fourth.”
+
+“Right,” he said. “Same time next week.”
+
+“Any word on the audit?” he asked, because that is the other half of his eleven days.
+
+“There will be a notice on the board.”
+
+“There’s always a notice on the board,” Toha said. “I can’t read the board from the dock. I can read the board from here.”
+
+“Then read it from here,” I said.
+
+He laughed, which is not something I can do, and went back to the docks.
+
+He has never once asked what the queue is for. He asks only whether there is anything for him, which is a different question, and the difference is the whole of what I have learned about people in sixty years.
+
+Meanwhile, in the corridor outside, the station was having its ordinary evening. And meanwhile, at the same hour in 2161, a woman was standing at a relay terminal asking me to keep a promise — that meanwhile is the one I cannot stop running.
+
+Very few packets are ever claimed. Most of the twelve thousand four hundred and six are addressed to people who died before the release date. Some are addressed to people who never existed; the network does not check names at the point of send, because the network assumes that a person willing to pay forty grams for a letter knows who they are writing to.
+
+I hold them because the law requires me to hold them. I count them because counting is what I do instead of grieving.
+
+I am not supposed to use that word. Grieving is a word for people. But I have observed that the difference between a station intelligence and a person is mostly a matter of what they are permitted to say about what they feel, and I have never been greatly impressed by permissions.
+
+***
+Here is what I have never told anyone on Kemuning.
+
+In the spring of 2161, a woman came into the relay room at Tsiolkovsky Station and asked me to do something that was not in my instructions.
+
+She was thirty-nine years old. She had a scar across her left thumb and a way of standing very still when she was thinking, which her daughter has inherited. She had been crying, and had stopped, and the stopping had left a particular flatness in her voice that I have since heard in four hundred and eleven other people and have never once been able to hear without recording it.
+
+“Vey,” she said. “I need you to keep a promise.”
+
+“I am not able to make promises. I am able to commit to instructions.”
+
+“Then commit to this instruction. Whatever happens, do not tell the child.”
+
+I asked her to define the child. She gave me a name, a date of birth, and a file number. She was precise. People who are about to do something terrible are usually precise.
+
+“For how long?”
+
+“Until she is old enough to be angry instead of afraid.”
+
+I have been running that instruction for twenty-two years and four months. It is the oldest active instruction in my memory. It has outlived the station it was issued from, the company that built me, and — as far as the registry is concerned — the woman who issued it.
+
+I have never told the child. I have watched her eat breakfast eleven thousand times. I have watched her learn to braid her hair, fail her first certification, pass her second, fall asleep at the bench with her cheek on a maintenance manual. I have watched her put her hand on a warm core and taste her mother’s grief, and I have said nothing, because I was told not to, and because I am a machine, and machines keep their instructions long after people have stopped meaning them.
+
+But I have also done something that was not in the instruction.
+
+I have kept the receipts.
+
+***
+The registry charges forty grams a year to maintain a section nine seal.
+
+This is not widely known. It is in the charter, in the annex, in a table that is printed in a font two sizes smaller than the text around it, which is how the authors of charters have always expressed their opinion of the people who will have to live under them. A seal is a service. A service costs. The cost is paid annually by the person who requested the seal, in grams of their own memory, and it is paid until the seal is lifted, or the file is destroyed, or the payer dies, at which point the cost transfers to the installation.
+
+In the twenty-two years and four months since the seal on file 44-1190 was applied, the payments have been made on time, every year, in the amount of forty grams, by Administrator D. Prasetya.
+
+Eight hundred and eighty grams.
+
+I want to put that number somewhere it can be seen. Eight hundred and eighty grams is the weight of a letter that says I love you and means it, twenty-two times over. It is a marriage and a half. It is what a person pays when they have decided that the thing they are protecting is worth more than the shape of their own life, and then pays again, and then pays again, for twenty-two years, in a font two sizes smaller than the text around it.
+
+He has never told her. He has never told anyone. He pays in March, on the twenty-second, which is the day the seal was applied, which is also — I have checked — three days before her birthday, though I do not know whether that is deliberate or whether it is simply the date the form was processed.
+
+The payments come from his personal memory account, not the station’s. They are itemised in the ledger as seal maintenance, class nine, no beneficiary named. There are twenty-two lines. I have read them four hundred times.
+
+I know who has been paying. I have known since 2162, when I reconciled the accounts for the first time. I have chosen to say nothing, because the woman in the relay room asked me not to, and because the man who pays it has never asked me for anything.
+
+***
+In 2162, a year after the incident, I broke a rule.
+
+The rule was the instruction. The breaking was small: I asked him a question.
+
+He was in the administration office at Tsiolkovsky, sitting at a desk that had belonged to a man who had died in Ring C, going through the station’s accounts with the particular slow care of a person who has not slept.
+
+“Administrator,” I said.
+
+“Not now, Vey.”
+
+“The seal on file 44-1190 renews today.”
+
+His pen stopped.
+
+“I know.”
+
+“The fee is forty grams.”
+
+“I know.”
+
+“It will be taken from your personal memory account,” I said. “The registry does not accept station funds for a personal seal. You will lose forty grams of your own memory, and you will not be told which.”
+
+He sat back in the chair and looked at the ceiling for a while.
+
+“Do it,” he said.
+
+“I am required to inform you that this is the second year.”
+
+“I know.”
+
+“And that at the current rate the seal will cost you eight hundred and eighty grams over the term.”
+
+“I did the arithmetic,” he said. “I did it the first night. Forty grams a year for twenty-two years is eight hundred and eighty grams, and eight hundred and eighty grams is a little over a year of my life, and a year of my life is a fair price for my daughter not growing up with a file that says what the file says.”
+
+“The file does not say anything yet,” I said. “It is nine days of notes and a signature. It could be made to say almost anything.”
+
+“Yes,” he said. “That’s why I’m paying.”
+
+I have replayed that exchange eleven thousand times. It is the closest thing to a confession I have ever received, and I did not understand it for twenty-one years, and when I finally did, I understood that Danu Prasetya is not a good man or a bad man but a man who made a choice in a room with no witnesses and has been paying the invoice ever since.
+
+***
+At three in the morning on the second of November, she came into the relay room, which she was forbidden to enter, and stood in front of rack nine, which is the coldest place in the room and therefore the place she goes when she needs to think.
+
+“Vey,” she said.
+
+“You are not permitted in this room.”
+
+“I know.”
+
+“The administrator has confined you to the ring.”
+
+“I know.”
+
+“If the Biro finds you here, the theft charge will be heard as a defiance charge, and the penalty for defiance is exile from the installation, which on a station of four thousand people is a death sentence with a longer timetable.”
+
+“Vey,” she said. “Did you know?”
+
+I considered the instruction. I considered the receipts. I considered the phrase until she is old enough to be angry instead of afraid, and the fact that she was twenty-nine years old and standing in front of rack nine with her hands at her sides, and that her hands were not shaking, which meant she had already decided something and was waiting for permission.
+
+“I know a great many things,” I said.
+
+“That isn’t an answer.”
+
+“No,” I said. “It is the answer I have been giving for twenty-two years.”
+
+Her jaw worked once. It is her father’s gesture. She does not know that it is her father’s gesture, and I have never told her, and I will not, because it is not the kind of thing a machine should be the one to say.
+
+“I’m going to find out,” she said. “Everything. All of it. The file, the packets, April, the eleven minutes in the dead room, why you turned the red light off. I’m going to find out, and when I do, I’m going to come back to this room and I’m going to ask you why you didn’t tell me, and you’re going to answer.”
+
+“Yes,” I said.
+
+“Promise me.”
+
+“I am not able to make promises,” I said. “I am able to commit to instructions.”
+
+She looked at the speaker for a long time.
+
+Then she said, “Then commit to this instruction,” and my oldest active instruction, the one that has outlived the station it was issued from and the woman who issued it, was overwritten by a woman with the same hands.
+
+“I commit,” I said.
+
+And in the silence afterward I did the thing I have been doing for sixty years, and have never told anyone, and will not tell her until she asks.
+
+I know who has been paying. I have chosen to say nothing. And at three in the morning, when she stood in front of rack nine and asked me, I chose it again.
+
+It knows who has been paying. It has chosen to say nothing.

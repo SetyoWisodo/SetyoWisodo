@@ -1,0 +1,239 @@
+The next morning I had a bodyguard.
+
+Not a literal one. Kirana turned up at my door at seven with two bowls of rice and a look on her face that I had seen once before, on a medic in a disaster drill, and she sat on the end of my bunk and watched me eat as if I might dissolve.
+
+“You’re not supposed to be here either,” I said.
+
+“I’m not an engineer, I’m an apprentice,” she said. “Apprentices are allowed everywhere. It’s in the charter.”
+
+“That is not in the charter.”
+
+“It’s in my charter.”
+
+She had brought a slate. Not her tally slate — a proper engineering slate, the heavy kind with a biometric lock. She put it on the bed between us.
+
+“I’m going to do something illegal,” she said, “and I want you to know that I decided to do it before you told me not to, because I know you’re going to tell me not to.”
+
+“Kirana —”
+
+“The Biro’s registry terminal has an open port,” she said. “It’s for the audit uploads. It’s a two-factor port but the second factor is a station key, and a station key is a thing apprentices are allowed to carry because we’re not trusted with anything that matters.”
+
+“Why would you do this?”
+
+She looked at me with the flat, unblinking certainty of nineteen.
+
+“Because there are nine days,” she said, “and nobody’s talking about them.”
+
+***
+I did not ask how she knew about the nine days. I have learned since that Kirana knows everything that passes through the dock, and that the dock is where the paper goes, and that paper is the only thing on a station that nobody encrypts.
+
+We put the slate on the table and she opened the port. The registry came up in a small grey window: DEPENDANT FILE 44-1190, SEALED, SECTION 9, NO ACCESS.
+
+“That’s what I got,” she said. “Then I asked for a summary under the access-remedy clause, because the charter says an interested party can always get a summary of their own file, even if the file is sealed.”
+
+“And?”
+
+“And the summary is nine lines long, and four of them are redacted, and five of them are this.”
+
+She turned the slate around.
+
+The five lines were a hospital admission record.
+
+TSIOLKOVSKY STATION — RING C MEDICAL
+Patient: ADISURYA, N. (minor, 7) — dependant of ADISURYA, S.
+Admitted: 2161.09.11 03:52
+Discharged: 2161.09.20 06:10
+Diagnosis: [REDACTED — SECTION 9]
+Treating officer: [REDACTED — SECTION 9]
+Outcome: [REDACTED — SECTION 9]
+
+“Nine days,” Kirana said. “The eleventh to the twentieth. And the incident in Ring C was at four in the morning on the eleventh.”
+
+I looked at the numbers for a long time.
+
+Nine days is two hundred and sixteen hours. I have been conscious for perhaps a hundred and forty of them, and I remember eleven. That is the scale of the thing: two hundred and sixteen hours, and I own eleven, and eleven people are dead in the arithmetic somewhere between the two numbers, and the size of my ignorance is a hundred and thirty hours wide.
+
+“I was in a hospital bed,” I said slowly, “while nine people died in the next ring.”
+
+“Eleven people died,” Kirana said. “Two were removed.”
+
+“How do you know that?”
+
+She looked at the floor.
+
+“I read the casualty schedule,” she said. “It was in the annex. I read it because you were in the room, and I wanted to know what the Biro man had on you.”
+
+“Kirana.”
+
+“I know.”
+
+“You are nineteen.”
+
+“I know.”
+
+I should have been angry. I was not angry. I was thinking about a window that does not shut properly, and rain, and a woman cutting ginger with a scar across her thumb, and the fact that a kitchen with a window that opens onto weather cannot be on a station, because stations do not have weather, and I had been seven years old and had never in my life seen rain.
+
+“The taste,” I said.
+
+“What?”
+
+“Nothing.”
+
+***
+I stood up and went to the shelf and took down the photograph: my mother in front of a dish antenna the size of a house. Sekar Adisurya, age thirty-six, in a field suit with the collar open, one hand on the rim of the antenna. She is laughing at whoever took the picture, which was probably my father, and her hair is coming out of its tie, and behind her the sky is black in the way that the lunar sky is black at noon.
+
+“When was this taken?” I asked.
+
+“How would I know?”
+
+“There’s a date stamp.”
+
+Kirana leaned over. “Twenty-one fifty-eight,” she said. “Three years before the incident.”
+
+I turned the photograph over. On the back, in my father’s handwriting, which is small and even and has never in its life been spontaneous:
+
+S. — Tsiolkovsky, antenna field — 2158. Not to be sent.
+
+Not to be sent. Not do not send. Not to be sent — as though the photograph itself were a packet, and somebody had made a decision about it before I was born.
+
+“Kirana,” I said. “The dependant file. Do you have the rest of it? The part that isn’t the summary?”
+
+“No.”
+
+“Can you get it?”
+
+“It’s sealed under section nine. The only way to open it is with the written authority of the administrator and the next of kin.”
+
+“And the next of kin is my father.”
+
+“Yes.”
+
+I sat down on the bed.
+
+“He’s closed the station inquiry,” I said. “He’s assumed personal liability for two hundred and ninety kilograms. He’s confined me to the ring and I thought it was to protect me from the Biro.” I looked at the slate, at the five lines, at the two dates. “It isn’t. It’s to protect the file.”
+
+“You don’t know that.”
+
+“I know he signed it,” I said. “The summary has a signature block. Look.”
+
+She looked. At the bottom of the summary, in the small grey font the registry uses for authority blocks, was the line that every sealed file carries, the line that says who decided that the world should not know:
+
+AUTHORITY: PRASETYA, D. — ADMINISTRATOR, KEMUNING — 2161.09.22
+
+Kirana was silent for a long moment.
+
+“The twenty-second,” she said. “That’s two days after you were discharged.”
+
+“Yes.”
+
+“He sealed your file two days after he brought you home.”
+
+“Yes.”
+
+“Why?”
+
+I looked at the photograph in my hand. My mother laughing at the camera. My mother’s hand on the rim of an antenna with a scar across the thumb, the same scar she used to press against my cheek when she tucked my hair behind my ear.
+
+“Because,” I said, “he didn’t want me to know what he’d done.”
+
+***
+I went to see him that afternoon. I was not supposed to enter the relay room or the dock, but the administration office was not on the list, which tells you something about how my father thinks.
+
+The relay room door has a window in it. Eleven centimetres by forty, wired with a heating element so the glass does not fog, and the whole of my childhood was conducted on the far side of that window, because a child who is not allowed to interrupt learns to stand where she can be seen.
+
+I put my hand flat on the glass. It was warm. On the other side of it my father was at his desk with his sleeves rolled up, and he looked up, and saw me, and did not get up, and I stood there with my palm on a warm pane of glass and could not reach him, which is the entire history of the two of us in one gesture and took less than a second.
+
+Then I opened the door.
+
+He was at his desk with his sleeves rolled up and a cup of tea going cold at his elbow, reading a supply manifest. He did not look up when I came in.
+
+“Fourteen days,” he said.
+
+“Nine days,” I said.
+
+The pencil stopped.
+
+“Nine days,” I said again. “The eleventh to the twentieth of September, 2161. Tsiolkovsky Ring C medical. Admitted at 03:52, discharged at 06:10 in the morning, nine days later. Diagnosis redacted. Treating officer redacted. Outcome redacted. Authority block: Prasetya, D., administrator, Kemuning, signed the twenty-second.”
+
+Danu did not move.
+
+“You went through the registry,” he said.
+
+“Kirana did.”
+
+“Kirana will lose her apprenticeship.”
+
+“Kirana is nineteen and I will break your teeth before I let you touch her.”
+
+Now he looked up.
+
+My father is fifty-one years old, and he has the face of a man who has spent thirty years holding a station together with his hands, and there are welts of old damage along the inside of his forearms from a coolant line that burst when I was twenty. He looked at me across the desk with that face, and for a second — one second — I saw something behind it. Not guilt. Not shame. Something older and worse.
+
+“Sit down,” he said.
+
+“No.”
+
+“Sit down, Nara.”
+
+“I’m not going to sit down while you read a manifest.”
+
+He put the manifest aside. He took off his reading glasses and folded them and set them down with the exact care of a man who is trying not to throw something.
+
+“Nine days is a long time,” he said.
+
+“It is.”
+
+“It is a very long time to be in a hospital bed at seven years old, with your mother dead in the next ring, and your father not there.”
+
+“Where were you?”
+
+“I was at Tsiolkovsky.”
+
+“You were at Tsiolkovsky.”
+
+“I arrived on the thirteenth,” he said. “I had been on a supply run to the belt. It takes eleven days to come back from the belt in a chemical ship, and I spent those eleven days knowing that something had gone wrong and not knowing what, because the network was down, and because the far side does not get the news.”
+
+“You arrived on the thirteenth. I was discharged on the twentieth.”
+
+“Yes.”
+
+“What happened between the thirteenth and the twentieth?”
+
+Danu looked at his folded glasses on the desk.
+
+“You don’t remember,” he said.
+
+“No.”
+
+“That’s a mercy.”
+
+“Don’t,” I said. “Don’t you dare call it a mercy.”
+
+***
+He stood up then, and walked to the window, and stood with his back to me looking at the wall of the next ring, which is the only view the administrator’s office has.
+
+“The file was signed by your father,” he said, and his voice was very quiet, and it was not an admission — it was the sound of a man reading a sentence aloud to see whether he could bear the sound of it. “That’s what you came to hear. So hear it. The file was signed by your father, and your father would sign it again.”
+
+“Why?”
+
+“Because the alternative was a magistrate.”
+
+“That’s not an answer.”
+
+“It is the only answer I have that will not put you in a room with a lawyer for the next nine years.” He turned around. “You have fourteen days of medical leave. Use them. Sleep. Eat. Read something that isn’t the charter.”
+
+“And the file?”
+
+“The file stays sealed.”
+
+“And the packets?”
+
+“The packets stay.”
+
+“And me?”
+
+Danu looked at me for a long moment.
+
+“You stay alive,” he said.
+
+The file was signed by her father.

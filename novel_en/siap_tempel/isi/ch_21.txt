@@ -1,0 +1,143 @@
+The water tilted.
+
+I noticed it at 06:40, standing in the corridor outside my quarters with a glass in my hand, because I had woken up with the room rolling slowly to the left and had decided, in the way you decide things at six in the morning, that the problem was dehydration.
+
+The glass was one of the station’s, thick-bottomed, with a chip out of the rim. I filled it at the fountain and turned to walk back, and the surface of the water leaned against the side of the glass like a coin in a pocket, and stayed leaned for the length of three steps, and then levelled.
+
+I stopped. I started again. It leaned again.
+
+Down the corridor, Toha’s girl — eleven, one of the dock families, always barefoot in a place where barefoot is a medical event — watched me do this twice before she said, “It does that in the morning.”
+
+“Why does it do that in the morning?”
+
+“‘Cause everyone’s walking the same way,” she said, with the terrible patience of a child explaining something to an adult who has failed to notice the sun. “In the morning everyone goes to the docks. All the water goes the other way.”
+
+She was wrong about the mechanism and right about the phenomenon, which is the usual condition of eleven-year-olds. The station is a ring, and a ring is a rotating frame, and every kilogram of water I carry down the corridor of a rotating frame is a mass I am dragging tangentially, and tangential motion in a rotating frame produces an acceleration perpendicular to it, and an acceleration perpendicular to the surface is a tilt. The corridor has a fountain, the fountain has water, and every shift change the whole station politely informs itself of the fact that it is spinning.
+
+I drank the water, which tasted of the pipe, and went to find out why the lights were still on.
+
+***
+The utility spine runs behind the ring hospital and takes a maintenance key and a form. I had the key. Kirana had the form, because Kirana had been forging my countersignature on maintenance forms for a week and had decided, in her new and alarming frankness, to confess it by doing it in front of me.
+
+“You could just ask me to sign,” I said.
+
+“You’d ask what it was for.”
+
+“That’s generally the point of a signature.”
+
+We went down the spine with a torch, because the spine does not have lights, which is the first joke of the morning. The power room is a box at the end of it, the size of a laundry, and it smells of ozone and hot dust and something faintly sweet that I have never been able to identify and have never wanted to.
+
+The wall diagram is a metre wide and printed on a single sheet of steel that was bolted up when the station was built and has been annotated by hand ever since, in three generations of maintenance hand. The reactor is drawn as a circle with a cross through it. The loads come off it as lines: ring lighting, ring heating, the pumps, the docks, the cold wells, the relay cluster, the hospital.
+
+And beside the reactor, drawn in a different colour, with an arrow that runs into the station from outside the ring, is the Bureau line.
+
+“What’s the Bureau line?” Kirana said.
+
+“That’s what I’m here to find out.”
+
+The meters are old and mechanical and honest, and I read them the way I was taught at the academy: from the load side inward, not from the supply side outward, because a supply meter tells you what a room is given, and a load meter tells you what it takes. It took me forty minutes. Kirana read the second column and I read the third, and we met at the bottom of the sheet, and the numbers met too, which is either a good sign or the sign of a very tidy crime.
+
+Ring lighting, at 06:00 on a winter morning: 310 kilowatts.
+
+The Bureau line, the same hour: 310 kilowatts.
+
+“It’s a coincidence,” Kirana said.
+
+“Nothing on this sheet is a coincidence. It’s been bolted to a wall for sixty years. Coincidence is a thing that happens to people, not to meters.”
+
+***
+“Vey,” I said. “Does the station pay for its own lights?”
+
+Vey’s speaker clicked, which is what it does before a sentence it has already decided how to say.
+
+“Define pay,” Vey said.
+
+“Define it yourself. You’re the one with the charter.”
+
+“The installation purchases power from the Bureau of Relay Accountability under the scheduled tariff, annex six, table two. The tariff is denominated in bits.”
+
+“In bits.”
+
+“Shannon, 1948,” Vey said. “Information is measured in bits. The annex borrows the unit because the annex was written by a relay engineer who had read Shannon and had a sense of humour, and because the Bureau has never in its history been willing to price a thing in kilograms.”
+
+I sat down on the step of the power room, which was dusty, and put my elbows on my knees.
+
+“Say the rest of it.”
+
+“The tariff rate is one point one kilowatts per thousand grams held, per hour, against class nine instruments.”
+
+The number went through me the way a cold draught goes through a door.
+
+“Per thousand grams held,” I said.
+
+“Per thousand grams held.”
+
+“So the lights are not paid for with money.”
+
+“The station has no money,” Vey said. “The station has holdings. The Bureau accepts holdings as collateral and extends power against the collateral, and the collateral is the packets.”
+
+Kirana said, very quietly, “All of them?”
+
+“All of them.”
+
+***
+I did the arithmetic on the back of the maintenance form, which is what maintenance forms are for.
+
+Four thousand one hundred packets at two hundred and ninety grams is one thousand one hundred and eighty-nine kilograms. At one point one kilowatts per thousand grams per hour, that is one point three one kilowatts. One point three kilowatts is a kettle.
+
+“That can’t be right,” I said.
+
+“It is exactly right,” Vey said. “The annex rate applies to the held weight. The held weight is what the Bureau counts. What the Bureau counts is not the same as what the Bureau charges for.”
+
+“Then what does it charge for?”
+
+“Read table three.”
+
+Table three is not on the wall. Table three is in the charter, and the charter is nine hundred pages, and Vey has read all of it, and I have read eleven pages and the index, and I am told that this makes me better read than most engineers.
+
+Table three says the tariff is computed on assessed weight, and assessed weight is the weight of the instrument at the time of assessment, and instruments are assessed at the anniversary of their sealing.
+
+“So it doubles,” I said. “Every year.”
+
+“It compounds,” Vey said. “At twelve per cent, under annex six, table three, footnote four.”
+
+Kirana had stopped reading over my shoulder. She was looking at the meters, at the little brass wheels turning, at the honest mechanical fact of 310 kilowatts going out of a wall and into a ring where four thousand people were waking up and boiling water.
+
+“Say the number,” she said.
+
+“Four thousand one hundred packets,” I said. “Twenty-two years of compounding. The assessed weight of the holdings is —” I did it twice, because the first answer was absurd. “Two hundred and eighty-one tonnes.”
+
+The number sat in the power room.
+
+“Two hundred and eighty-one tonnes of somebody’s memory,” Kirana said.
+
+“Two hundred and eighty-one tonnes of somebody’s memory,” I said, “is what keeps the lights on.”
+
+***
+There is a thing that happens to me in the relay room when a number is too large to hold in my head: I put my palm flat on a surface and press. I did it now, on the steel of the wall diagram, on the Bureau line, which was drawn in red and had been drawn by a hand that had pressed harder than the rest.
+
+“Vey,” I said. “If the holdings are released — if the packets go home, if the refusal is granted and the Bureau is ordered to release them — what happens to the tariff?”
+
+“The collateral is withdrawn.”
+
+“And the power?”
+
+“The power is withdrawn with it,” Vey said. “The Bureau is required to give notice. The notice period is eleven days.”
+
+Everything in this station is eleven days. I have begun to think that eleven is not a number the Bureau chose. I have begun to think it is a number the Bureau is.
+
+“So if I win,” I said, “the lights go out.”
+
+“If you win,” Vey said, “the lights go out in eleven days, and the evacuation you have been granted is scheduled for the seventeenth, and the evacuation ships require the docks to be lit, and the docks require the ring pumps, and the ring pumps require the tariff.”
+
+I looked at the meters.
+
+The brass wheels turned. Somewhere above us, four thousand people were running water into kettles and taking pills and arguing about the queue for the showers, and every one of them was being lit by a ledger entry written by somebody who had died before they were born.
+
+“Who else knows this?” I said.
+
+“The administrator,” Vey said. “He has known since 2162.”
+
+I put my hand on the cold steel and left it there.
+
+Kemuning was not lit by electricity. It was lit by four thousand griefs, and I had spent nine years walking under them and calling it a job.

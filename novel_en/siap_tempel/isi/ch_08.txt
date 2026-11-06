@@ -1,0 +1,185 @@
+They charged me at nine in the morning in the room with the child’s drawing of the station on the wall, which is the room Kemuning uses for everything, because a station of four thousand people cannot afford two rooms for bad news.
+
+“Forgery of a packet header,” Rasya said. “Theft of a sealed core. Falsification of an ash seal.”
+
+He read it out the way he read everything: evenly, without relish, one item at a time, as though he were reading a schedule of maintenance. Fourteen chairs. Eleven of them full. The other three had been left empty by people who had discovered urgent business elsewhere, and everyone in the room knew exactly what that meant and nobody said it.
+
+“The penalties are set by the charter,” he said. “Forgery of a header carries a minimum of four years’ suspension of licence. Theft of a sealed core carries restitution of the holding weight plus the cost of the seal. Falsification of an ash seal is a class three offence, because the seal exists to protect the record, and the record exists to protect the station.”
+
+“And the maximum?” I asked.
+
+“There is no maximum,” he said. “That’s the point of it.”
+
+I had not slept. I had spent the night in the relay room with the core in the cold well and my hand on the bench, and at some point around four in the morning I had pushed up my sleeve and looked at the scar on the inside of my left forearm, four centimetres long and pale and shaped like a comma, and had tried to remember the day it was made.
+
+“Engineer Adisurya,” Rasya said. “Do you have anything to say before the reconciliation moves to evidence?”
+
+“Yes,” I said. “Do you know what a mirror is?”
+
+He looked up.
+
+“The maintenance mirror,” I said. “Local copy of every log entry, updated every ninety seconds, held on a drive in the bench drawer in case the main archive goes down. Every entry in the mirror is chained: each one carries a hash of the one before it, signed with Vey’s mark, and Vey cannot be edited because Vey is the archive.”
+
+“I know what the mirror is.”
+
+“Then ask it when I saw the checksum.”
+
+The room stirred. Somebody at the back — Boaz, I think — made a sound that might have been a laugh if it had been allowed to become one.
+
+Rasya put up his hand.
+
+“Bring the mirror,” he said.
+
+***
+It took eleven minutes, which is apparently the length of everything on Kemuning.
+
+Vey produced the chain. The entry at 02:14 on the ninth of October appeared in the mirror at 02:15 and thirty seconds, exactly as the archive held it: signed D. PRASETYA, cause code 41-7, checksum one character long. The chain ran backward to the station’s founding and forward to the present, each link signed, each link intact.
+
+“The mirror copy is genuine,” Rasya said.
+
+“Yes.”
+
+“It shows that the checksum was already one character long at 02:15 on the ninth of October.”
+
+“Yes.”
+
+“Three weeks before you touched it.”
+
+“Yes.”
+
+“Which means the entry was falsified by whoever made it, and not by you, unless you falsified it and then went back in time to put it in the mirror.”
+
+“I’m good,” I said, “but not that good.”
+
+Rasya put his stylus down and looked at me for a long moment. There was something in his face that I had not seen before, and it took me a while to recognise it, because it was the last thing I expected to see on the face of a Biro auditor in the middle of a charge hearing.
+
+It was relief.
+
+“The forgery charge is withdrawn,” he said.
+
+The room let out a breath.
+
+“The theft charge stands,” he went on. “The seal charge stands. Those are yours, Engineer Adisurya, and I watched you commit a theft and I will be writing it up in language that will make a magistrate reach for the water jug.”
+
+“I understand.”
+
+“Do you?”
+
+“I broke the seal,” I said. “I took the core. I put a slug in the sleeve and resin on the seam and I stamped your mark back into it with my thumb.”
+
+“That is not what I am charging you with.”
+
+I stopped.
+
+“It isn’t?”
+
+“I have no evidence of any of that,” Rasya said. “The sensors were offline. The only witness to what happened in that room between two and eleven minutes past two is a station intelligence that has already told me, in writing, that it does not know. What I am charging you with is the theft of a sealed core, which I can prove because you were holding it when I opened the door.”
+
+“You’re letting me off.”
+
+“I am charging you with what I can prove,” he said. “I am doing it because I am a bad auditor and a worse policeman, and because the alternative is that I let a lie stand in a record I am responsible for, and I have spent nineteen years watching what happens when people do that.”
+
+***
+Then Danu stood up.
+
+He had been sitting by the door the whole time, in the chair that is not the important chair, with his hands folded. He had not said a word while a Biro auditor read out a list of offences against his daughter.
+
+“The station closes the inquiry,” he said.
+
+Rasya turned.
+
+“Administrator, the theft charge is a Biro matter. The station cannot close it.”
+
+“The station is not closing the Biro’s matter. The station is closing its own.” Danu drew a folded paper from his jacket. Actual paper, which on Kemuning is the equivalent of drawing a knife. “Section nine of the station charter. Emergency provision. In the event of an unresolved record dispute that threatens the operational integrity of the installation, the administrator may close the station’s inquiry, assume personal liability for the disputed weight, and refer the matter to the Biro for resolution at its own pace.”
+
+“You’re assuming the liability.”
+
+“I am.”
+
+“Personally.”
+
+“The form says personally,” Danu said. “It has a box. I have ticked the box.”
+
+He put the paper on the table. Everyone looked at it the way people look at a live animal.
+
+Two hundred and ninety kilograms of memory. Three hundred and twenty thousand grams of somebody’s life. And Danu Prasetya, who irons his socks, had just signed his name under a box that said he would carry it.
+
+“You can’t,” I said.
+
+“It’s done.”
+
+“You can’t afford it.”
+
+“No,” he said. “I can’t.”
+
+“Then why?”
+
+He looked at me. He has a way of looking at me that goes through me and lands somewhere behind my head, at a person who is not in the room.
+
+“Because the alternative,” he said, “is that a magistrate in another system reads a file about this station and decides for us what happened in April.”
+
+The room went very quiet.
+
+April.
+
+I had not said April. I had not said the send date. I had not said one word about the packet or the header or the forty grams, and neither had Rasya, because the header was sealed evidence and the reading of it was itself a crime.
+
+Danu had said it anyway.
+
+“What about April?” I asked.
+
+“Nothing.”
+
+“You said April.”
+
+“I said the file,” Danu said. “The file about this station. The audit file. It has dates in it. April is a date.” He picked up his paper and folded it, and his hands were perfectly steady, and that steadiness was the most frightening thing in the room. “The session is closed. The engineer is on medical leave for fourteen days. She is not to enter the relay room, the dead room, or the dock. If she does, the Biro may arrest her, and I will not stop it.”
+
+He walked out.
+
+***
+I went back to my quarters and stood in the shower for a long time with the water on cold, because I was shaking and cold water gives the shaking somewhere to go.
+
+Fourteen days. No relay room. No dock. A station of four thousand people, and I was to be confined to the ring like a child.
+
+I got out and dried myself and sat on the edge of the bed with a towel around my shoulders and tried to think.
+
+The problem was not the charge. The charge was survivable; the forgery had already fallen apart, and the theft was true, and I would pay for it. The problem was April.
+
+I had been sedated on the eleventh of April. I knew that because of the burn, because of the four days, because of my father sitting by the bed with his hands folded on his knees. I knew it the way I know the shape of my own room.
+
+But when I tried to put the eleventh of April in order — when I tried to say what had happened on the tenth, or the twelfth, or the day I came home — I could not do it. Not the way you cannot remember a dream. The other way. The way you cannot remember a room you have just walked out of, where the shape of it is still there and the contents are gone.
+
+I sat very still in the towel and did the arithmetic on my own life.
+
+Nine years on this station. Four of them on rotation at Bukit before that. And before Bukit, the academy, and before the academy, the year I spent doing nothing at all in Surabaya, the year everybody has, the year I have always described as the year I was waiting.
+
+I tried to remember the year I was waiting.
+
+I tried to remember the year before it.
+
+I tried to remember the spring I turned twenty-six and the autumn I turned twenty-seven, and I found — and I want to be exact about this, because it is the exact point where my life before this week ends and everything else begins — I found that I could remember the weather. I could remember the station’s weather, the rationing, the smell of the corridors in summer, the arguments, the faces, the way the light came in.
+
+I could not remember a single thing I had done.
+
+***
+I sat on the bed for a long time.
+
+Then I got up and put on my boots and walked to the door of my quarters and stood with my hand on it, doing the thing I had been doing since I was seven years old, which is bargaining with myself in a corridor.
+
+Fourteen days. My father’s rules. A Biro auditor with a key to every door on the station.
+
+I opened the door.
+
+Kirana was standing in the corridor with her tally slate against her chest, and she looked at my face and said:
+
+“How long have you been like this?”
+
+“Like what?”
+
+“You’ve got the door look.”
+
+“What’s the door look?”
+
+“The one where you’ve decided something and you’re waiting for somebody to ask you if you’re sure.” She held out the slate. “I’m asking.”
+
+I could not remember the last three years clearly.

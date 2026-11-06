@@ -1,0 +1,161 @@
+The archive room is not cold because anybody decided it should be. It is cold because it sits against the outer shell, and the outer shell is minus one hundred and forty degrees on the shadow side, and no amount of insulation in the world wins an argument with the shadow side.
+
+I had been in it twice in nine years. Once to fetch a license, once to fetch a spool.
+
+“Vey,” I said. “Tsiolkovsky. Relay room. September 2161.”
+
+“You do not have access.”
+
+“I know. Ask me again.”
+
+A pause. Vey is capable of a pause exactly as long as the sentence it is standing in front of, and this one was three seconds, which for Vey is a paragraph.
+
+“The Biro field unit in the relay room has an archive port,” Vey said. “The port is not sealed. The port is only occupied.”
+
+“Occupied by what?”
+
+“By a man who has been sitting in front of it since midnight.”
+
+***
+Rasya Wardhana had taken his coat off. This was, in nine years of Kemuning, the single most shocking thing I had seen in the station.
+
+He had his sleeves rolled to the elbow and his forearms on the bench and the field unit open in front of him, and the unit was chattering — the small mechanical chatter of a machine writing to itself — and beside it, on a slate propped against a mug, a queue of eleven archive requests sat in a column, all of them stamped with the same word.
+
+“Denied,” I said.
+
+“Denied,” he said, without looking up. “Eleven times. The Tsiolkovsky archive was transferred to the inner routes in 2169 and the inner routes do not answer a Bureau port.”
+
+“Then why ask eleven times?”
+
+“Because a denial is a record,” Rasya said, “and eleven denials in one night is a pattern, and a pattern is something a magistrate can be shown.”
+
+I sat down opposite him. The archive room’s other bench was covered in printouts: the tariff annex, the casualty schedule, a photograph of a buoy, a page I recognised as my own personnel file with a coffee ring on it.
+
+“What do you want from me?” he said.
+
+“I want to see the footage.”
+
+He looked up then.
+
+“Which footage?”
+
+“The relay room at Tsiolkovsky. The twentieth of September, 2161, at seven in the morning.” I put my hand flat on the bench. “I was in the hospital bed, you said. I was discharged on the twentieth. But my discharge is stamped at eleven, and the relay room is four hundred metres from the hospital, and I want to know what a seven-year-old who could not walk four hundred metres was doing in a relay room at seven in the morning.”
+
+Rasya was quiet for a moment.
+
+“The archive holds camera coverage,” he said. “Coverage is stored locally for ninety days and then transferred. The transfer to the inner routes in 2169 included the local spools. If the spool survived, it survived as a camera file, not as evidence.”
+
+“Then get the camera file.”
+
+“I cannot get the camera file.”
+
+“Then I will.”
+
+He looked at me for a long moment, and then he did the thing that I have never been able to decide about, which is that he turned the field unit around to face me and pushed it across the bench.
+
+“You will need a station credential,” he said. “Yours is suspended. Mine is not.”
+
+***
+The spool was called KM-C-RINGC-2161-0920, and it was four hundred and eleven hours long, and it had been written by a camera bolted to the ceiling of a relay room on a station that no longer existed.
+
+We watched it at sixty-four times speed.
+
+That is the strange arithmetic of archives: four hundred and eleven hours of an empty room is four hundred and eleven hours of a chair, a bench, a window with the Earth in it, and a door. At sixty-four times, the light moves visibly across the floor. At sixty-four times, the Earth turns in the window like a coin someone is spinning very slowly. At sixty-four times, a person who enters a room crosses it in four frames and is gone.
+
+“There,” Vey said.
+
+“Where?”
+
+“The timestamp. 07:00:03.”
+
+I put my hand on the unit and slowed it to real time, and then to a quarter, and then to something the unit’s own manual does not have a name for, which the engineers at the academy used to call reading.
+
+The room filled. A door opened at the far end. A woman came in with a child.
+
+***
+The woman was thirty-nine years old. She had her hair pinned the way my mother pinned her hair, with the one pin that never held, and she was carrying a canvas bag over one shoulder and holding a child’s hand with the other, and she was talking fast, the way she talked when she was frightened and did not want anybody to know.
+
+The child was seven. The child had a bandage on her left forearm, four centimetres long, and the bandage was not fresh; it had the grey look of a dressing that has been changed twice and has begun to be a nuisance.
+
+The child was me.
+
+I have seen photographs of myself at seven. There is one on my shelf, in front of the antenna field, squinting. A photograph is a fact about light. This was not a photograph. This was the room, and the smell of the room came back to me before I had decided to let it — hot dust, ozone, the sweet thing I have never been able to name — and my hand went to the bench and my palm went flat and I pressed.
+
+“Engineer,” Rasya said.
+
+“Don’t.”
+
+“Your hand is shaking.”
+
+“It’s cold in here.”
+
+“It’s fourteen degrees.”
+
+“Then it’s cold.”
+
+***
+At 07:00:03, my mother sat me on the bench and took a form out of the canvas bag.
+
+At 07:00:04, she put a stylus in my hand.
+
+At 07:00:05, she knelt in front of me and said something that the camera did not record, because the camera was bolted to the ceiling and had no microphone, and this is the great cruelty of archives: they keep the light and throw away the sound everywhere.
+
+At 07:00:06, the child looked at the form.
+
+At 07:00:07, the child signed it.
+
+I slowed it until the unit complained. I slowed it until a single frame held on the screen for eleven seconds, half a second of a morning stretched until it was longer than a shift, and the second thickened around me the way a second thickens when you are falling, and in that second I watched my own seven-year-old hand make two letters and a stop.
+
+The A came out wrong. It always came out wrong. My mother’s A has a small break in it, on the left stroke, where the stylus skipped, and mine has the same break, because a child copies her mother’s hand the way a child copies her mother’s accent, without ever being taught.
+
+N. A.
+
+The unit put the frame number in the corner: FRAME 4471. TIME 07:00:07. CAM KM-C-RL4.
+
+“That is your hand,” Rasya said.
+
+“That is my hand.”
+
+“And your signature.”
+
+“It is not my signature. It is a child’s signature. Look at the A. A signature is what you write when you know how to write it. That is a child copying her mother, and she got the A wrong, and the wrong A is the one on four thousand one hundred packets.”
+
+The room was very quiet. The pump ticked. The Earth turned in the window of a station that no longer existed, and my mother’s hand was on my shoulder, and I could see every line of it, and I could not touch it.
+
+I put my palm against the screen. The screen was glass. Behind the glass, twenty-two years away, a woman was kneeling in front of a child with a stylus in her hand, and the child was signing something, and neither of them knew that the signature would be lifted out of that second and used four thousand one hundred times.
+
+The door opened. I did not turn around; I did not need to, because the door of the archive room has a hinge that announces the administrator, and every hinge on this station announces my father.
+
+“You should not be watching this,” Danu said.
+
+“You should not have sealed it.”
+
+He came and stood at the end of the bench, in the place where he has stood for as long as I can remember, with his hands behind his back. On the screen, the frame held: a woman kneeling, a child with a stylus, a shoulder under a hand.
+
+“Turn it off,” he said.
+
+“No.”
+
+“Nara.”
+
+“No.” I put my hand flat on the bench beside the unit. “You signed the seal on the twenty-second of September. Two days after this. Two days after a seven-year-old signed a form in a relay room at seven in the morning, and you sealed the file that had the form in it, and you have been paying the registry forty grams a year ever since to keep it shut. So do not tell me to turn it off. Tell me what she made me sign.”
+
+Danu looked at the screen for a long time. His face did the thing it does, the thing I have watched since I was a child: it stopped moving, in the way a face stops moving when the person behind it has decided to hold a door shut from the inside.
+
+“I was not there,” he said. “I arrived on the thirteenth.”
+
+“I know when you arrived. I am asking what she made me sign.”
+
+“I do not know.”
+
+It was the first time in my life I had heard my father say those three words without a document in front of him, and I did not believe him, and I did not say so, and the three of us stood in a cold room against the outer shell with a frozen second on the screen between us.
+
+“What did she make me sign?” I said.
+
+Rasya was quiet for a long moment.
+
+“I don’t know yet,” he said. “The form is not in the frame. But the relay room logs every form it processes, and the logs survived, and there is one entry from that morning with a time of 07:00:11.”
+
+“What does it say?”
+
+“It says: payment received, forty grams, personal account.”

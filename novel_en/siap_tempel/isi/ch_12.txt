@@ -1,0 +1,225 @@
+The ledger room is not a room. It is a cabinet the size of a wardrobe at the back of the administration office, bolted to the floor, with a screen on the front and a cooling line that ticks in the night. It holds the station’s copy of every relay transaction since 2141. It is the least interesting object on Kemuning and I had walked past it every day for nine years without once looking at it.
+
+On the third of November I sat in front of it with Rasya Wardhana at my shoulder and Vey in the wall, and I looked at it for six hours.
+
+“Start at the top,” Rasya said.
+
+“There is no top. It’s a list.”
+
+“Then start at the oldest.”
+
+The oldest entry in the deferred liability was dated the eleventh of June, 2161. Two hundred and ninety grams, category nine, no sender named, beneficiary recorded in the header only, terminal: TSIO-FAR-4.
+
+“Farside relay four,” I said.
+
+“The relay that was decommissioned in 2168,” Rasya said. “The packets were transferred here in 2171 when the network was consolidated. That’s why the debt is ours. There was nowhere closer.”
+
+“Two hundred and ninety grams on the first day.”
+
+“Yes.”
+
+I scrolled. The second entry was dated the thirteenth of June, 2161. Also 290 grams. The third, the fifteenth. The fourth, the seventeenth.
+
+“They’re the same weight,” I said.
+
+“I noticed.”
+
+“Every one of them. Two hundred and ninety grams.”
+
+“Yes.”
+
+“That’s not a packet,” I said. “That’s a batch. Someone booked the whole liability at once and then broke it into entries.”
+
+“Or someone booked a single packet and the system copied the weight,” Rasya said. “The accounting system does that. If you re-key an entry from a template, the weight field pre-fills.”
+
+I sat back.
+
+“So the first four entries are one packet, keyed four times.”
+
+“Or a template keyed four times,” he said. “The system doesn’t record which.”
+
+“That’s convenient.”
+
+“It’s a filing system,” Rasya said. “Filing systems are convenient for everyone except the truth.”
+
+***
+Four thousand one hundred entries, at forty seconds each, is forty-five hours and change — a working week and a half. At twenty seconds it is twenty-two hours, which is one man awake for a day. At eleven days of continuous work it is fifteen seconds per entry, and nobody keys a header address in fifteen seconds, not while also reading the weight, not while also checking the class.
+
+The cabinet in front of us is the size of a wardrobe. It holds four thousand one hundred lives. That is the comparison I could not get out of my head all morning: the size of the container compared with the size of what it contained, and the fact that the container was the smaller of the two.
+
+By noon we had resolved four hundred of the four thousand one hundred.
+
+It is tedious work. Each entry has a header address, which points to a packet held in suspension in a buoy somewhere in the network; each header has a weight, a class, a send date, a release date, a terminal, and a signature. The signature is the interesting part. The signature is the only part that cannot be filed wrong, because the signature is not data. It is a chemical ghost pressed into the plate at the moment of send, and it either belongs to a hand or it does not.
+
+“Verify it,” Rasya said, for the fourth time.
+
+“I’m verifying it.”
+
+“Verify it out loud.”
+
+“Entry four hundred and one,” I said. “Weight, two hundred and ninety grams. Class nine. Send date, fourth of July, 2161. Release, fourth of July, 2251. Terminal, TSIOL-FAR-4. Signature —”
+
+I stopped.
+
+“Signature,” Rasya said.
+
+“Verified.”
+
+“Against whom?”
+
+I put my hand flat on the bench and looked at the screen.
+
+“Against me,” I said.
+
+The verification field had opened the way it always does, the small grey box with the contour map and the confidence figure, and the contour map was the looped N and the broken A, and the confidence figure was one hundred percent, and it had been one hundred percent for four hundred and one entries in a row.
+
+“Show me the confidence distribution,” Rasya said.
+
+“It’s all one hundred.”
+
+“Show me.”
+
+I showed him. Four hundred and one entries. Four hundred and one verifications. Four hundred and one times, one hundred percent.
+
+“The system caps at one hundred,” Rasya said. “It doesn’t report the margin. We’ll need a raw read.”
+
+“Vey can do a raw read.”
+
+“Vey can,” Vey said, from the wall, “but Vey would like it noted that a raw read of four thousand one hundred chemical ghosts will take eleven hours and produce a document the size of the station charter.”
+
+“Do a thousand,” Rasya said. “Every fourth entry.”
+
+“That’s not a random sample.”
+
+“It’s a random enough sample for a man who has been awake for thirty hours.”
+
+Vey did it in nine minutes.
+
+“You said eleven hours,” I said.
+
+“I said it would take eleven hours,” Vey said. “I did not say it would take me eleven hours.”
+
+The raw read came back while I was eating a bowl of noodles at the bench with my left hand.
+
+CONFIDENCE DISTRIBUTION — n=1025
+100.0%: 1025
+99.9%: 0
+99.0–99.9%: 0
+below 99.0%: 0
+
+“That’s impossible,” Rasya said.
+
+“It’s not impossible,” I said, with my mouth full. “It’s worse than impossible.”
+
+“Explain.”
+
+I put the bowl down.
+
+“When you verify a signature,” I said, “you never get one hundred. You get ninety-nine point nine, or ninety-nine point seven if the plate is old, or ninety-eight if the person was tired when they signed. The chemical ghost is a physical object. It degrades. It picks up noise. There is always a margin.”
+
+“And this is one hundred.”
+
+“This is exactly one hundred. Four thousand one hundred times.”
+
+Rasya stared at the screen.
+
+“What does that mean?”
+
+“It means the signature was not read from a hand,” I said. “It means the signature was written by a machine that knew exactly what to write.”
+
+***
+The next part is the part I still dream about.
+
+We pulled the send dates.
+
+There were four thousand one hundred entries in the ledger, and the send dates ran from the eleventh of June, 2161, to the twenty-second of September, 2201. Forty years. A packet every three and a half days, on average, for forty years, with no payment, booked against a station that did not exist when the first one was sent.
+
+But the entries were not in chronological order. That is what stopped me. Filing systems put things in order. This one did not. The first two hundred entries were 2161. Then a block of 2174. Then back to 2163. Then a single entry dated 2201, sitting between two from 2168.
+
+“It’s not sorted,” I said.
+
+“No.”
+
+“Why isn’t it sorted?”
+
+Rasya was quiet for a moment.
+
+“Because it wasn’t entered in order,” he said. “It was entered as it happened.”
+
+“It happened out of order?”
+
+“No. It happened in whatever order the person was working.” He leaned forward. “This isn’t a record of forty years of sending. This is a record of somebody typing. Somebody sat at a terminal and typed four thousand one hundred entries over a period of —” he scrolled to the end — “eleven days.”
+
+I looked at the last entry in the ledger.
+
+Send date: 22 September 2201.
+Entry date: 22 September 2201.
+
+But the ledger itself — the file, the station’s copy — had a creation stamp.
+
+“Vey,” I said. “When was this ledger created?”
+
+“The local copy was created on the second of November, 2183,” Vey said. “Yesterday. When the Biro requested it.”
+
+“And before that?”
+
+“Before that it was held in the network’s reconciliation archive, where it was created on the twenty-second of September, 2183.”
+
+“Six weeks ago.”
+
+“Six weeks ago.”
+
+“But the entries inside it go up to 2201.”
+
+“Yes.”
+
+“Eighteen years from now.”
+
+“Yes.”
+
+The room was very quiet. Somewhere down the corridor, somebody was laughing at something, and the sound came through the wall the way station sounds do, muffled and warm and belonging to a different world.
+
+I thought about the paper behind the tariff, Shannon 1948, information measured in bits. A bit is a bit. The relay cannot tell a love letter from a shopping list, because there is nothing in the physics that could tell them apart. Everything that makes one of them matter happens after the measurement, in the person holding it. Which means the ledger I was reading had no idea what it was recording. It knew weights. It did not know it was holding a woman’s whole life in ninety-gram instalments.
+
+“Somebody typed four thousand one hundred entries,” I said, “in eleven days, six weeks ago, in a ledger dated eighteen years in the future, and every one of them carries a signature that verifies against my hand at exactly one hundred percent.”
+
+“Yes.”
+
+“And they’re all addressed to me.”
+
+Rasya did not answer.
+
+“Say it,” I said.
+
+“They’re all addressed to you.”
+
+***
+I stood up and walked to the window and looked at the buoy.
+
+“Vey,” I said. “How long would it take one person to key four thousand one hundred entries?”
+
+“At forty seconds per entry,” Vey said, “twenty-one days of continuous work. At twenty seconds, eleven days.”
+
+“Nobody can work for eleven days continuously.”
+
+“No,” Vey said. “But three people can.”
+
+I turned around.
+
+“Three people.”
+
+“The terminal logs an operator for each entry,” Vey said. “I have the log. The entries were keyed under four operator codes.”
+
+“Whose?”
+
+“Mine,” Vey said. “Administrator Prasetya’s. Relay engineer Adisurya’s.”
+
+I waited.
+
+“And one code that is not in the station register,” Vey said. “It is a nine-digit sequence beginning with four-four. The register does not contain it. The registry does not contain it. It has been used four hundred and eleven times.”
+
+“Four hundred and eleven,” I said.
+
+“Four hundred and eleven,” Vey said. “The same number as the people who have opened a packet that was not theirs.”
+
+The sender signed with her hand, and dated it from the future.

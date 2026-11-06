@@ -1,0 +1,179 @@
+The Bureau portal is a grey screen in the corner of the administration office with a keyboard that has three keys worn smooth: submit, cancel, and Y.
+
+I had used it twice in nine years. Once to renew my relay licence, once to request a copy of my own personnel record, which had been pending for four years and which I now understood would never arrive.
+
+The third time was on the sixth of November at seven in the morning, and I used it to refuse a payment.
+
+***
+The form is called a Refusal of Maintenance. It exists because the charter’s authors, who were paranoid in the way that only people who have been governed badly can be, wanted to make sure that no citizen could be trapped inside a seal forever by somebody else’s money.
+
+The logic is simple. If a seal is maintained by an annual payment from a payer, and the subject of the seal does not consent to that maintenance, the subject may refuse it. The refusal transfers the cost to the installation. The installation then has eleven days to either pay the fee from the public account or refer the seal to the registry for review. In either case, the seal is opened to inspection, because a seal that nobody is paying for cannot be a secret.
+
+It is a good law. It was written by somebody who had thought about the problem for a long time.
+
+It has one hole in it, and the hole is eleven words long, and the words are in the annex, in a font two sizes smaller than the text around it:
+
+Any refusal under this section shall trigger a review of all class nine instruments held by the installation.
+
+I read that sentence eleven times before I touched the keyboard.
+
+Then I read it again.
+
+“Vey,” I said. “The annex says a refusal triggers a review of all class nine instruments. What is a class nine instrument in the plural?”
+
+“Every deferred packet on my books,” Vey said. “Four thousand one hundred of them.”
+
+I put my hand flat on the desk and looked at the number until it stopped being a number.
+
+“A review of four thousand one hundred instruments,” I said. “What is the review actually testing?”
+
+“Solvency. Whether this installation can carry the weight it has booked.”
+
+“And when it decides it can’t?”
+
+“Then the weight goes back to the network,” Vey said, “the packets are either transferred or destroyed with certificates, and the difference between what they weigh and what this station can pay is entered as a shortfall.”
+
+“And a shortfall means?”
+
+“Receivership,” Vey said. “Which suspends the charter. And a station without a charter cannot buy air.”
+
+***
+I sat there for a long time.
+
+That is not a metaphor. A station cannot buy air without a charter, because air is bought on credit, and credit requires a legal person, and a station in receivership is not a legal person. It is a piece of real estate in a vacuum. The people in it are not evicted, because there is nowhere to evict them to. They are simply not supplied. The ships stop coming. The contract for the water processor lapses. The medical supplies, which are ordered eleven months in advance, are already on a manifest somewhere in the belt, and the manifest is cancelled.
+
+There is a word for it in the charter. It is called decapacitation, which is the politest word ever invented for letting four thousand people run out of air.
+
+“So if I refuse,” I said, “I open my file, and the station dies.”
+
+“If you refuse and the review finds the station insolvent,” Vey said. “The review takes eleven days.”
+
+“Eleven days.”
+
+“It is a good number.”
+
+“Stop saying that.”
+
+“It is a prime number,” Vey said. “It is also the period in which the Bureau is obliged to act on a refusal, and the period in which a station may submit a solvency plan, and the period in which a medical evacuation can be authorised. The charter’s authors were fond of eleven. I have often wondered whether one of them was superstitious.”
+
+I put my face in my hands.
+
+“There has to be another way,” I said.
+
+“There are four other ways,” Vey said. “I have been examining them for six weeks.”
+
+“Tell me.”
+
+***
+“The first,” Vey said, “is to pay the debt.”
+
+“Two hundred and ninety kilograms.”
+
+“At the current rate of exchange, a kilogram of memory costs about four years of a person’s discretionary memory. Two hundred and ninety kilograms would require a thousand lifetimes. It is not possible for one station. It is theoretically possible for a network.”
+
+“The network won’t pay.”
+
+“The network has already refused,” Vey said. “The consolidation agreement of 2171 transferred the liability to Kemuning and struck out the clause that would have allowed the network to absorb it. The clause was struck out by a committee. The committee’s minutes record that the transfer was administratively convenient.”
+
+“The second way?”
+
+“To prove that the debt is not yours,” Vey said. “The liability was incurred at Tsiolkovsky. If the packets were keyed at a terminal that was not authorised to book against Kemuning, the debt is void. That is a legal argument, and it would take four years, and it would require the original terminal records, which were purged in the consolidation.”
+
+“The third?”
+
+“To find the payer,” Vey said. “A deferred liability is a debt of the sender. If the sender can be identified and made to pay, the liability transfers to them. The sender’s signature is in every header. The signature verifies against your hand.”
+
+“I know.”
+
+“I am not accusing you,” Vey said. “I am describing the third way.”
+
+“And the fourth?”
+
+Vey was quiet for a moment.
+
+“The fourth,” it said, “is to let the review happen, and to have a solvency plan ready that is so obviously in the station’s favour that the Bureau has no choice but to approve it.”
+
+“What would that look like?”
+
+“It would look like a station that has already solved the problem,” Vey said. “It would look like a station that can demonstrate, on paper, that the four thousand one hundred packets are not a debt but an asset.”
+
+***
+The screen had two pads, not two buttons. Submit on the left, worn smooth by nine years of licences and forms. Cancel on the right, worn smooth by nothing at all, because nobody on this station had ever cancelled anything.
+
+I put my hand flat between them and left it there long enough for the glass to warm under my palm. That is the whole of the choice, in the end: two squares of glass, eleven centimetres apart, and a woman who had spent nine years pressing the left one without thinking.
+
+“Nara,” Vey said.
+
+“Don’t.”
+
+“I was going to say that the kettle has been on for eleven minutes.”
+
+I laughed, which was the wrong response to a kindness, and pressed the left pad.
+
+I filed the refusal at seven forty-one in the morning.
+
+I want to be honest about why. I have told myself a hundred times that I did it because the fourth way required information I did not have, and the information was in the file, and the file was sealed, and the seal would only open if the payment stopped. I have told myself that I was making a calculated bet: eleven days of review, and in eleven days I would find the answer, and the answer would save the station.
+
+That is what I told myself. It is also true. But the deeper truth is that I was twenty-nine years old, and I had just learned that my father had been buying my ignorance for forty grams a year for twenty-two years, and I wanted the file open more than I wanted to be careful.
+
+The form took forty seconds. The confirmation took eleven.
+
+Then the screen said:
+
+REFUSAL ACCEPTED — FILE 44-1190
+PAYER: PRASETYA, D.
+PAYMENT SUSPENDED
+REVIEW SCHEDULED — 11 DAYS
+
+I sat back.
+
+***
+The response came at four in the afternoon, which is faster than anything in the nine systems has ever moved.
+
+I was in the relay room, because I was not supposed to be, and Rasya was with me, because he was not supposed to be either. We were watching the buoy. It had been a long day and neither of us had said anything for an hour.
+
+The terminal chimed.
+
+“Bureau of Relay Accountability,” I read. “Reference: refusal 44-1190. Your refusal has been recorded. In accordance with annex nine, subsection four, the review has been escalated to full audit, and the installation Kemuning has been scheduled for evacuation.”
+
+Rasya stood up so fast the chair went over.
+
+“There’s more,” I said.
+
+“Read it.”
+
+“The evacuation is scheduled for the seventeenth of November. Four thousand people. Eleven days.”
+
+The room was very quiet.
+
+“Say something,” I said.
+
+“It’s eleven days,” he said. “It was always going to be eleven days.”
+
+“You knew.”
+
+“I suspected.” He picked up the chair and set it upright with great care, the way a man does when his hands want to do something else. “The Bureau does not evacuate stations. The Bureau has no ships. The Bureau has a list of ships it can request from the reserve fleet, and the reserve fleet is nine weeks out, and the only way to move four thousand people in eleven days is to put them on whatever is already moving.”
+
+“The Rendang holds forty.”
+
+“The Rendang holds forty,” he agreed. “Which means the Bureau has already requisitioned something bigger, which means somebody in the network has already decided that this station is going to be emptied, which means the review is not a review at all. It is a schedule.”
+
+I looked at the screen.
+
+“I did this,” I said.
+
+“No.”
+
+“I filed the form.”
+
+“You filed a form that was written into the charter by people who wanted citizens to have a way out of a seal,” Rasya said. “The fact that the exit leads into a vacuum is not your doing. It is theirs. It has been theirs since 2161.”
+
+I put my hand on the bench.
+
+“What happens now?” I said.
+
+“Now,” Rasya said, “we have eleven days to find something that makes a station solvent, or four thousand people get put on a ship that was built to carry ore.”
+
+I put the screen flat on the bench so that we could both read it, and the Bureau replied with one line, which I have read four hundred times since and which I will be reading until the day I die:
+
+audit escalated, station scheduled for evacuation.
