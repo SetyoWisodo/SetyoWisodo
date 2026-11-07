@@ -138,15 +138,26 @@ sampul dengan tinta menyebar.
 | --- | --- |
 | `tools/rak.py` | membangun dua atlas dari `data/catalog.json`: `assets/img/rak/covers.webp` (1744×2336, 12 kotak 4×3) dan `spines.webp` (2688×1152, 12 kotak sebaris) + `rak/data.js` |
 | `tools/rak-uji.mjs` | uji asap tanpa peramban (jsdom): 26 butir — galat JS, jarak punggung, sudut kotak aktif, tab, panah, buka/tutup, harga & WhatsApp dari katalog, tinta |
+| `tools/rak-spek.mjs` | **konformansi spesifikasi template** (105 butir): token, ws/d/gap, F(r), pegas 5,2/18, tirai 1050 ms, tinta 520+1250 ms, cincin 42 px, kursor 58 px, caption 650 ms, tab 0,6 s, butir kertas, aria, larangan `@keyframes`/opacity |
 | `tools/rak-pratinjau.py` | pratinjau komposisi (`laporan/rak-pratinjau.png`, `…-detail.png`) — **perkiraan**, bukan tangkapan peramban |
 
 Gerbang `tools/periksa.py` butir **Rak sangrai**: atlas ada & tidak terlalu berat, harga tidak
-diketik di `rak.js`, satu `requestAnimationFrame`, tanpa `@keyframes`, dan uji asap dijalankan
-(butir "dilewati" bila jsdom tidak ada).
+diketik di `rak.js`, satu `requestAnimationFrame`, tanpa `@keyframes`, uji asap dijalankan
+(butir "dilewati" bila jsdom tidak ada), dan **konformansi spesifikasi 105/105**.
+
+Spesifikasinya adalah prompt template motionsite.ai (Leon Vasari "VHS filmography shelf",
+6 Nov 2026) yang diterjemahkan ke merek ini: tiap angka dipertahankan apa adanya — `ws = H·142/840`,
+`d = H·474/900`, `gap = H·0,03`, `F(r) = r(ws+gap) + (d−ws+1,6gap)·B(r)`, pegas 5,2/18,
+tirai 1050 ms `cubic-bezier(.76,0,.18,1)`, teks 900 ms jeda `620 + i·75`, tinta 520 + 1250 ms,
+tutup 850 ms, cincin putar 42 px, kursor 58 px. Yang **diganti** hanya isi: film → lot kopi
+(9 kopi + 2 paket + kartu member), dekade → kategori, huruf judul → Newsreader/Fraunces merek,
+dan bahasa label → Indonesia. Yang **tidak dipakai**: empat lembar gambar Higgsfield berbayar
+(atlasnya dibangun sendiri oleh `tools/rak.py` dengan ukuran yang sama).
 
 ```bash
 python3 tools/rak.py            # bangun atlas + data.js
 node tools/rak-uji.mjs          # 26 butir uji asap (butuh: npm i jsdom --prefix /tmp/jsdom)
+node tools/rak-spek.mjs         # 105 butir konformansi terhadap spesifikasi template
 python3 tools/rak-pratinjau.py  # gambar pratinjau komposisi
 ```
 

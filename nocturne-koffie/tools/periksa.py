@@ -1001,9 +1001,18 @@ def periksa(catatan):
         uji_rak = "lolos" if proses.returncode == 0 else "gagal"
         if proses.returncode != 0:
             masalah_rak.append("uji asap rak gagal: " + (proses.stdout or proses.stderr).strip()[-200:])
+    # konformansi terhadap spesifikasi template (motionsite.ai / Leon Vasari VHS shelf)
+    spek_rak = "dilewati"
+    if os.path.exists(os.path.join(ROOT, "tools/rak-spek.mjs")):
+        proses = subprocess.run(["node", "tools/rak-spek.mjs"], cwd=ROOT,
+                                capture_output=True, text=True, timeout=120)
+        spek_rak = "105/105" if proses.returncode == 0 else "gagal"
+        if proses.returncode != 0:
+            masalah_rak.append("spesifikasi rak gagal: " + (proses.stdout or proses.stderr).strip()[-200:])
     tambah("Rak sangrai", "lolos" if not masalah_rak else "gagal",
            f"12 kotak 3D · sampul {ukuran('assets/img/rak/covers.webp')/1024:.0f} KB · "
-           f"punggung {ukuran('assets/img/rak/spines.webp')/1024:.0f} KB · uji asap {uji_rak}",
+           f"punggung {ukuran('assets/img/rak/spines.webp')/1024:.0f} KB · uji asap {uji_rak} · "
+           f"spesifikasi template {spek_rak}",
            "; ".join(masalah_rak[:4]))
 
     # 5i · pustaka skill: frontmatter, nama = folder, description wajar, terdaftar di README
