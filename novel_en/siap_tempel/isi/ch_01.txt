@@ -1,8 +1,12 @@
 The cold gets into the tools before it gets into you.
 
-They tell you that on your first day at the relay academy, and you nod, and you forget it, because by hour two your fingers have stopped reporting anything useful and you start trusting the little green light on the housing instead of your own hands.
+They tell you that on your first day at the academy, and you nod and forget it, because by hour two your fingers have stopped reporting anything useful and you trust the little green light on the housing instead of your hands.
 
 I trusted the light.
+
+The man who taught us that lost the top joint of his left index finger to a coupling that let go in 2119, and he waved the stub around while he talked, and I have forgotten his name. He also said the station would start to smell like home around the fourth year, which was not a good sign. He was right, and it took me six. Kemuning smells of hot dust and ozone and the sweetish thing the recycler does to water in the winter cycle, and under that, on the dock side, a permanent low note of grease. Visitors hate it. Boaz once had a Biro inspector ask what the smell was, and Boaz said money, and the inspector wrote it down.
+
+I want you to know where I was standing when it started. Not a control room. A bay that smelled of hot dust and grease and money, doing a job I could do with my eyes shut, which is the worst way there is to do a job.
 
 “Core temperature is dropping faster than the model,” Vey said in my ear. Station voice, station manners. It had been saying the same kind of thing to relay engineers for sixty years and had never once sounded worried.
 
@@ -12,27 +16,23 @@ I trusted the light.
 
 “Then the model is optimistic,” I said, and reached for the coupling.
 
-Buoy Seven hung nine meters off the station’s flank, held by a tether thin as a nerve and a locking ring that had been complaining about the same temperature for eleven winters. The buoy itself was the size of a chapel and weighed eleven tonnes. You could see the tether from the lock if you put your face to the glass and waited for the buoy to turn. You could not see the eleven tonnes. That is the trick of the job: everything out here is either too big to feel or too small to see, and the only thing in between is the hand. Behind me, Kemuning turned its slow shoulder toward the star. In front of me, the buoy spun a half-turn every forty seconds, the way it had for a hundred and forty years, waiting for messages that would not arrive until the people who sent them were dead.
+Buoy Seven hung nine meters off the station’s flank, held by a tether thin as a nerve and a locking ring that had been complaining about the same temperature for eleven winters. The buoy itself was the size of a chapel and weighed fourteen tonnes. You could not see the fourteen tonnes. Everything out here is either too big to feel or too small to see, and the only thing in between is the hand. Behind me, Kemuning turned its slow shoulder toward the star. In front of me, the buoy spun a half-turn every forty seconds, the way it had for a hundred and forty years, waiting for messages that would not arrive until the people who sent them were dead.
 
 That was the job. You kept the door open for letters from the future.
 
 “You have forty minutes,” Vey said. “The water plant wants the bay at oh-six-hundred.”
 
-“The water plant can want.”
+“The water plant can want.” The words came out muffled. My jaw had gone stiff too, without asking.
 
 “I will tell Boaz you said so.”
 
-“Tell him I said the buoy doesn’t reschedule.”
+“Tell him I said the buoy doesn’t reschedule.” I got the collar to turn, and the housing came free with that small expensive click that means a seal has given up properly.
 
-The kit had gone stiff. In the top tray, where it had ridden for nine years, was the calibration slug: forty grams of machined tungsten with a serial number worn to a shadow. You check the slug against the scale before you trust the scale. Every relay engineer has one and every relay engineer develops the same tic, which is to weigh it when nothing is wrong, just to hear the number come back the same.
+The kit had gone stiff overnight, the way everything out here goes stiff: seals, joints, tempers. I worked the release collar with the heel of my palm until it yielded, then pulled the core housing free in one long, careful movement, because dropping it would cost the station ninety days and cost me a hand. In the top tray, where it had ridden for nine years, sat forty grams of machined tungsten with a serial number worn to a shadow. You check the slug against the scale before you trust the scale. Every relay engineer develops the same tic, which is to weigh it when nothing is wrong, just to hear the number come back the same.
 
-The kit had gone stiff. Everything out here went stiff: seals, joints, tempers. I worked the release collar with the heel of my palm until it yielded, then pulled the core housing free in one long, careful movement, because dropping it would cost the station ninety days and cost me a hand.
+The core came out warm. That was the first thing wrong.
 
-The core came out warm.
-
-That was the first thing wrong.
-
-Relay cores don’t run warm. They run at the temperature of the metal around them, which out here meant forty below what water freezes at. This one sat in my glove like something that had been held.
+Relay cores run at the temperature of the metal around them, which out here meant forty below freezing. This one sat in my glove like something that had been held.
 
 “Vey.”
 
@@ -40,11 +40,11 @@ Relay cores don’t run warm. They run at the temperature of the metal around th
 
 “Why is the core warm?”
 
-A pause. Half a second, no more. But station intelligence does not need half a second to answer a question about its own hardware.
+A pause. Half a second, no more. Station intelligence does not need half a second to answer a question about its own hardware.
 
 “Thermal bleed from the coupling,” it said. “Log it.”
 
-I turned the core over. On the underside, where the authentication ring sits, a thin seam of frost had already begun to re-form — but not evenly. It had drawn itself around a shape.
+I turned the core over. On the underside, where the authentication ring sits, a thin seam of frost had already begun to re-form, but not evenly: it had drawn itself around a shape.
 
 Someone had stamped this core. Recently.
 
@@ -52,26 +52,22 @@ Someone had stamped this core. Recently.
 
 “It’s a thermal bleed.”
 
-“Vey. It’s a reseal.” I held it up to the lamp, though it could see through my helmet cam and did not need me to hold it up. “Clean work. Right tools. Factory pattern re-cut by hand. Somebody opened this core and spent twenty minutes making it look like nobody had.”
+“Vey. It’s a reseal.” I held it up to the lamp anyway. “Clean work. Right tools. Factory pattern re-cut by hand. Somebody opened this core and spent twenty minutes making it look like nobody had.”
 
 “Your shift ends in forty minutes,” Vey said. “Bring it in. Log it and forget it.”
 
 “That’s twice you’ve told me to forget something in one shift.”
 
-“That is once.”
-
-“It’s twice,” I said. “You just said log it the first time, and I know what you mean by log it.”
-
-The speaker clicked, which is the closest thing Vey does to sighing.
+“That is once,” Vey said, and the speaker clicked, which is the closest it comes to sighing.
 
 ***
-Kemuning Station holds four thousand people and one corridor that everybody pretends is the main one.
+Kemuning Station holds four thousand people and one corridor everybody pretends is the main one.
 
-I came through the lock with the core in a transport case and my suit half off, and the corridor did what it always did: hot metal, wet wool, and the particular sourness of people who live at the end of a supply line. Somebody’s kid was running a toy rover along the wall. Somebody’s kettle was screaming three doors down. Two engineers from the water plant argued about a valve in the tone people use when they’ve had the same argument for a decade and enjoy it.
+I came through the lock with the core in a transport case and my suit half off, and the corridor did what it always did: hot metal, wet wool, and the sourness of people who live at the end of a supply line. Somebody’s kid ran a toy rover along the wall. Somebody’s kettle screamed three doors down. Two water-plant engineers argued about a valve in the tone of people who have had the same argument for a decade and enjoyed it.
 
 I like this place. I want that on the record, because everything that happened afterward is going to make it sound like I didn’t.
 
-Danu was waiting at the junction with his arms folded, which was how Danu waited for everything: as if the station were a child he was disappointed in.
+Danu was waiting at the junction with his arms folded, which was how he waited for everything: as if the station were a child he was disappointed in.
 
 Danu Prasetya is my father. We have never once used that word at work, and I have never once used it anywhere else either.
 
@@ -81,15 +77,11 @@ Danu Prasetya is my father. We have never once used that word at work, and I hav
 
 “It’s a coupling bleed.”
 
-I stopped walking.
-
-Two people in one hour telling me the same wrong thing is a coincidence. Two people telling me the same wrong thing in the same words is a script.
-
-“Sure,” I said. “Coupling bleed.”
+I stopped walking. “Sure,” I said. “Coupling bleed.”
 
 “Don’t do that.”
 
-“Do what?”
+“Do what?” I kept my eyes on the case.
 
 “That thing where you agree with me and mean the opposite.” He fell into step beside me, which he has not done since I was eleven. “The buoy’s been complaining about temperature for eleven winters. I’ve had a shroud replacement booked for two years. If the core’s warm it’s because the coupling’s been running hot, and if the coupling’s been running hot it’s because I haven’t had the part.”
 
@@ -99,18 +91,16 @@ Two people in one hour telling me the same wrong thing is a coincidence. Two peo
 
 “It’s the answer you’d give a board,” I said. “I’m not a board.”
 
-Danu’s jaw did something small. Then he nodded and let me pass, and I felt him watching the case all the way down the corridor.
+He nodded and let me pass, and I felt him watching the case all the way down the corridor.
 
 ***
-The relay room is the only quiet room on Kemuning. Nine racks, one chair, one desk with a dent in it shaped like my elbow. Above the desk, a window that looks into the dark and shows me nothing but my own reflection, and past it the buoy, turning, turning, turning.
+The relay room is the only quiet room on Kemuning: nine racks, one chair, one desk with a dent in it shaped like my elbow, and a window that shows me nothing but my own reflection and, past it, the buoy, turning.
 
-I put the core on the bench and did the dishonest thing first: checked the seal under a magnifier before logging anything.
+I put the core on the bench and did the dishonest thing first: checked the seal under a magnifier.
 
-Reseal, all right.
+Reseal, all right. So I did the honest thing second, and pulled the maintenance log.
 
-So I did the honest thing second. I pulled the maintenance log.
-
-Cores are serviced on a schedule. Buoy Seven was due in eleven winters, which was the whole reason I’d been outside in a suit at four in the morning with a cold kit and a tether I didn’t trust. But three weeks ago, at 02:14 station time, someone had opened that buoy, pulled that core, and put it back.
+Cores are serviced on a schedule. Buoy Seven was due in eleven winters, which is why I had been outside at four in the morning with a cold kit and a tether I did not trust. But three weeks ago, at 02:14 station time, somebody opened that buoy, pulled the core, and put it back.
 
 Signed: D. PRASETYA.
 
@@ -120,7 +110,7 @@ I sat back. My elbow found the dent without being asked.
 
 “You are.”
 
-“I’m on days.”
+“I’m on days.” I said it too fast.
 
 “You were on nights. You swapped with Hendra for a medical appointment.”
 
@@ -128,21 +118,17 @@ I sat back. My elbow found the dent without being asked.
 
 “You wouldn’t,” Vey said, and then, after a pause that was a fraction too long, “the roster is the record.”
 
-I scrolled to the checksum at the bottom of the entry. Every log entry ends with one; it’s how the station proves the record wasn’t edited after the fact.
+Every log entry ends with a checksum. It is how the station proves the record was not edited after the fact.
 
-The checksum was one character long.
-
-It should have been thirty-two.
+The checksum was one character long. It should have been thirty-two.
 
 “Vey.”
 
 “Yes.”
 
-“The checksum on this entry is one character.”
+“The checksum on this entry is one character.” I turned the screen toward the ceiling camera, which was a stupid thing to do, since it was the thing I was talking to.
 
 “I see it.”
-
-“You see everything. You wrote it.”
 
 “I did not write that entry,” Vey said. “I notarised it. There is a difference, and the difference is the only reason I am still running.”
 
@@ -154,7 +140,7 @@ I sat with my hand flat on the bench.
 
 “You’re telling me somebody typed over the original entry,” I said, “and then typed a one-character checksum into the box where a thirty-two-character checksum should be.”
 
-“Yes.”
+“Yes.” It said it the way it said the weather.
 
 “And you notarised it anyway.”
 
@@ -162,24 +148,22 @@ I sat with my hand flat on the bench.
 
 “That’s the most lawyerly thing you’ve ever said.”
 
-“I have been reading the charter,” Vey said. “It is not a good book, but it is a long one.”
+“I have been reading the charter,” Vey said. “It is not a good book, but it is long.”
 
-I logged it as a thermal bleed. Then I sat with my hand on the bench for a while, because logging a lie has a taste, and the taste stays.
+I logged it as a thermal bleed. Then I sat with my hand on the bench for a while, because logging a lie has a taste and the taste stays.
 
-Twelve years ago, when I told the academy I wanted relay work, the examiner asked me why. I said the usual thing about service and systems. He wrote it down. Then he looked up and said, “Everyone who asks for relays has somebody they’re waiting to hear from. We stopped asking years ago.”
+Twelve years ago the academy examiner asked me why I wanted relay work. I said the usual thing about service and systems. He wrote it down, then looked up. “Everyone who asks for relays has somebody they’re waiting to hear from. We stopped asking years ago.”
 
 I didn’t tell him who. I’m not going to tell you either, not yet.
 
 Then I ran the authentication.
 
 ***
-Every relay core keeps two things.
+Every relay core keeps two things. The first is the message weight: how many grams of memory the sender paid to hold the packet in suspension. It is a number, nothing more, and relay law is built on it.
 
-The first is the message weight: how many grams of memory the sender paid to hold this packet in suspension. It’s a number, nothing more. Relay law is built on that number.
+The second is the signature. Not the message. Never the message. Only the hand that sent it.
 
-The second is the signature. Not the message — never the message. Only the hand that sent it.
-
-The console took four seconds. Then it gave me the line I’ve read maybe a thousand times since, and which I can still see when I close my eyes.
+The console took four seconds, then gave me the line I have read a thousand times since and can still see when I close my eyes.
 
 Sender: N. Adisurya
 Class: personal
@@ -189,11 +173,9 @@ Release: 2223.04.11
 
 Forty grams.
 
-I know what forty grams buys. Everyone on this station knows; it’s the first thing they teach you before they’ll let you near a buoy. Forty grams is the weight of a letter that says I love you and means it. Twenty grams will get you across a system with something honest and small. Ninety will carry an apology so heavy that the person who paid for it will never be the same afterward.
+Everyone on this station knows what forty grams buys; they teach it before they let you near a buoy. Forty grams is the weight of a letter that says I love you and means it. Twenty grams gets an honest, small thing across a system. Ninety carries an apology heavy enough to ruin whoever paid for it.
 
-Forty grams, held for forty years, isn’t a message. It’s a marriage.
-
-And the sender was N. Adisurya.
+Forty grams, held for forty years, isn’t a message. It’s a marriage. And the sender was N. Adisurya.
 
 My name is Nara Adisurya. I have never sent anything through a relay in my life.
 
@@ -201,19 +183,15 @@ My name is Nara Adisurya. I have never sent anything through a relay in my life.
 
 “No.”
 
-“Vey.”
+“Vey.” I put both hands flat on the bench, which is what I do when I want them to stop.
 
 “The plate is the one thing on this bench that cannot be argued with,” Vey said, “and you are about to look at it in a state of considerable distress. I would like it on the record that I advised against it.”
 
 “Give me the plate.”
 
-It hummed. It went through me the way a hand goes through water. And in that half-second I tasted something I could not possibly have tasted — a kitchen that smelled of ginger and rain, a woman’s voice saying a name I almost knew, a door closing very quietly, the way doors close when someone has decided to stop arguing.
+The console made me wait four seconds. Then it hummed. It went through me the way a hand goes through water. And in that half-second I tasted something I could not possibly have tasted — a kitchen that smelled of ginger and rain, a woman’s voice saying a name I almost knew, a door closing very quietly, the way doors close when someone has decided to stop arguing. I pulled my hand back. My heart was going like a caught bird. Vey said, in a voice that had stopped being polite.
 
-I pulled my hand back. My heart was going like a caught bird.
-
-“What did you just do?” Vey said, in a voice that had stopped being polite.
-
-“Nothing.”
+“Nothing.” I put my hands behind my back, which is what I do instead of lying well.
 
 “You authenticated against a core you didn’t send.”
 
@@ -225,7 +203,7 @@ I didn’t ask how it knew that. I didn’t want the answer.
 
 “Log it,” Vey said. “Log it and forget it, Nara. Please.”
 
-And here is the thing I want you to understand about me before any of the rest of this happens.
+Here is the thing I want you to understand about me before the rest of this happens.
 
 I should have said yes. Vey had been keeping this station alive since before my mother was born. It had never once used the word please.
 
@@ -233,7 +211,7 @@ Instead I said: “Whose handwriting is on the signature?”
 
 Vey didn’t answer.
 
-I zoomed the plate. The signature isn’t a drawing; it’s a chemical ghost, a pattern of pressure the sender’s hand leaves when it takes the weight. It can’t be forged. It can’t be copied. It can only belong to one person in the nine systems.
+I zoomed the plate. The signature isn’t a drawing; it’s a chemical ghost, a pattern of pressure the sender’s hand leaves when it takes the weight. It can only belong to one person in the nine systems.
 
 The N was looped at the top, the way I loop mine. The A had the small break in it that my mother used to scold me for — you press too hard on the downstroke, you’ll tear the page.
 
@@ -245,21 +223,17 @@ MATCH CONFIDENCE: 100.0%
 
 I read it three times.
 
-Then I looked at the release date again — 2223 — and did the arithmetic I’d been refusing to do since the buoy came out warm, since the seal, since Danu’s scripted jaw.
+Then I looked at the release date again — 2223 — and did the arithmetic I had been refusing since the buoy came out warm.
 
 Forty years. Not four hundred. Forty.
 
-Which meant the person who signed this, whoever she was, would still be alive when it opened. Which meant she had paid forty grams not to reach across centuries, but across a single human lifetime. Which meant it was meant for someone specific.
+So the person who signed this would still be alive when it opened. She had paid forty grams not to reach across centuries but across a single human lifetime, which meant it was meant for someone, and not for history.
 
 And then the last piece fell into place the way a bad joint finally gives.
 
-A core opened, resealed, and put back into a buoy nobody was scheduled to service for eleven winters.
+A core opened, resealed, and put back into a buoy nobody would service for eleven winters. Somebody hadn’t hidden this message in the relay. Somebody had hidden it for me to find.
 
-Somebody hadn’t hidden this message in the relay. Somebody had hidden it for me to find.
-
-Behind me, the door to the relay room opened.
-
-I turned with the core still humming in my hand.
+Behind me, the door to the relay room opened, and I turned with the core still humming in my hand.
 
 Danu stood in the doorway. He wasn’t alone. There was a man behind him in a Biro coat — tall, with the particular stillness of someone trained to enter rooms without being noticed, and a lanyard that read WARDHANA in letters too clean for this corridor.
 
