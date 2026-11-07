@@ -190,44 +190,6 @@ Batas yang diakui: tidak ada peramban di sandbox, jadi tampilan 3D sungguhan —
 bayangan, ketajaman teks, kursor — **belum pernah saya lihat**. Uji asap membuktikan skrip,
 geometri, dan sambungan, bukan rupa.
 
-## Potong-buka — kemasan dibuka bagian demi bagian (`cutaway/`)
-
-Halaman ini menerapkan metode skill **Cutaway** dari repositori
-[`Nyxera0x/cutaway`](https://github.com/Nyxera0x/cutaway) (61 ★, MIT, 6 Nov 2026; isi post
-`x.com/Nyxera0x/status/2118689860437315679` — halaman X-nya sendiri tidak bisa dibuka dari
-sandbox, repo sumbernya yang terbaca). Metodenya: **satu gambar acuan diukur, ceklis bernomor
-ditulis sebelum satu baris kode, objek dibangun ulang dari kode, setiap bagian punya kamera
-sendiri, `render(t)` murni.**
-
-Bedanya dari sumber: objeknya bukan mahluk robotik berwarna hijau, tapi **kemasan Nocturne
-200 g** — 7 bagian, palet kertas Nocturne, dan angka isi dari `data/catalog.json`. Tidak ada
-three.js/WebGL: sembilan transform CSS per bidang, satu fungsi `render(t)`.
-
-```bash
-python3 tools/cutaway.py          # ukur acuan → cutaway/data.js + laporan/cutaway-checklist.md
-python3 tools/cutaway.py --cek    # angka data.js vs piksel acuan (rasio, tinta per pita)
-python3 tools/cutaway-still.py    # lembar still skema → cutaway/still/lembar-still.png
-node tools/cutaway-uji.mjs        # 38 butir tanpa peramban: murni, loop, 9 kamera, sambungan
-python3 tools/cutaway-luring.py   # satu berkas HTML tanpa tautan luar
-```
-
-| Berkas | Isi |
-| --- | --- |
-| `cutaway/index.html` + `cutaway.css` | halaman: panggung 3D, daftar 7 bagian, kartu spesifikasi, rel waktu |
-| `cutaway/cutaway.js` | `render(t)` murni: kamera per ketukan, bukaan bagian, goyang halus dari `t` |
-| `cutaway/data.js` | dibangun `tools/cutaway.py` — `UKUR`, `BAGIAN`, `KAMERA`, `KETUKAN`, `CEKLIS`. Jangan disunting tangan |
-| `laporan/cutaway-checklist.md` | ceklis 12 baris bernomor, setiap kata kabur diberi angka |
-| `cutaway/still/lembar-still.png` | 3 frame skema (sampul, badan terbuka, isi sangrai) |
-
-Angka yang dipegang: ketukan 2–3 s, bagian terbuka 1,0 s lalu menutup 0,55 s, objek 60–70%
-tinggi panggung, satu aksen kobalt untuk bagian yang bergerak, porsi gelap ≥ 0,8 × acuan
-(14,3% → 11,4%), dan **tidak ada dua ketukan memakai kamera yang sama**.
-
-**Batas yang jujur.** Yang bisa dibuktikan: ukuran acuan, ceklis, geometri, kontrak `render(t)`,
-sambungan tombol/rel — semuanya lewat uji tanpa peramban. Yang **tidak**: rupa halaman
-(tidak ada Chromium) dan **film 60 fps + skor prosedural** (butuh Playwright + ffmpeg, tidak ada
-di sini). Lembar still adalah **skema geometri** dari `cutaway-still.py`, bukan tangkapan layar.
-
 ## Impor skill dari luar (post X, artikel, repo)
 
 Skill yang datang dari tautan luar (mis. post X) **tidak bisa saya buka sendiri** — X menolak
@@ -240,7 +202,7 @@ python3 tools/skill_impor.py --nama rak-gerak --dari /tmp/post.txt \
     --sumber "https://x.com/…/status/…" \
     --baris-tabel "| [\`rak-gerak\`](rak-gerak/SKILL.md) | D4 | kapan dipakai | keluaran |"
 
-python3 tools/skill_impor.py --cek     # 12 skill · frontmatter · nama = folder · terdaftar di README
+python3 tools/skill_impor.py --cek     # 11 skill · frontmatter · nama = folder · terdaftar di README
 ```
 
 Yang dilakukan: menulis `skills/<slug>/SKILL.md` dengan frontmatter (`name`, `description`

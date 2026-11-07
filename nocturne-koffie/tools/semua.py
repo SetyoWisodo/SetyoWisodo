@@ -33,10 +33,6 @@ HALAMAN = [
     ("rak/index.html", "Rak sangrai", "Situs",
      "Hero rak 3D: dua belas lot berdiri di rak, satu ditarik keluar dan diputar "
      "menghadap Anda. Panah, tab, geser, roda, dan kursor kustom.", ""),
-    ("cutaway/index.html", "Potong-buka", "Situs",
-     "Kemasan Blue Mount Ijen dibuka bagian demi bagian: 7 bagian, 9 ketukan, "
-     "satu kamera per bagian. Metode Cutaway (MIT), dibangun dari kode tanpa WebGL.",
-     "cutaway/still/lembar-still.png"),
     ("biji-sangrai/index.html", "Biji sangrai", "Situs",
      "Halaman jual roasted beans: 9 biji, tabel harga, tombol WhatsApp per biji, "
      "catatan rasa yang bisa digeser.", "assets/img/produk/ijen.jpg"),
@@ -83,7 +79,6 @@ UNDUHAN = [
     ("konten/reel-01-menit-terakhir.mp4", "Reel 01 · menit terakhir", "MP4"),
     ("brand/label-sheet-a4.png", "Lembar label A4 siap cetak", "PNG"),
     ("assets/img/biji-3d-poster.webp", "Render biji 640×800", "WebP"),
-    ("cutaway/cutaway-luring.html", "Potong-buka · satu berkas", "HTML"),
     ("semua.html", "Halaman ini (satu berkas)", "HTML"),
 ]
 

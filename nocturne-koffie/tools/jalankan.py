@@ -85,9 +85,6 @@ def main():
         ("huruf", ["tools/font.py", "--cek"]),
         ("rak", ["tools/rak.py"]),
         ("kemasan", ["tools/kemasan.py", "--cek"]),
-        ("cutaway", ["tools/cutaway.py"]),
-        ("cutaway-still", ["tools/cutaway-still.py"]),
-        ("cutaway-luring", ["tools/cutaway-luring.py"]),
         ("skill", ["tools/skill_impor.py", "--cek"]),
         ("periksa", ["tools/periksa.py"]),
         ("laporan", ["tools/laporan.py"]),
@@ -107,8 +104,6 @@ def main():
     print("  dashboard/index.html        ← papan harian + target divisi")
     print("  index.html                  ← situs")
     print("  kampanye/index.html         ← landing kampanye konten")
-    print("  cutaway/index.html          ← kemasan dipotong-buka (7 bagian, 9 kamera)")
-    print("  cutaway/cutaway-luring.html ← versi 1 berkas halaman potong-buka")
     print("  biji-sangrai/index.html     ← halaman jual roasted beans")
     print("  biji-sangrai/biji-sangrai-luring.html ← versi 1 berkas (buka tanpa server)")
     print("  konten/index.html           ← 15 aset + caption")
