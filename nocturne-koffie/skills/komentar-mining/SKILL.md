@@ -1,10 +1,7 @@
 ---
 name: komentar-mining
-description: >
-  Menambang komentar publik untuk menemukan bahasa pembeli: keberatan, pertanyaan yang berulang,
-  permintaan, dan kalimat yang bisa langsung dipakai jadi caption atau FAQ. Menghasilkan rekap
-  jenis komentar + daftar tindakan. Dipakai D3 saat butuh copy yang terdengar seperti pembeli,
-  bukan brosur. Kutipan dipotong ≤ 24 kata dan tanpa identitas.
+description: Menambang komentar publik untuk menemukan bahasa pembeli: keberatan, pertanyaan berulang, permintaan, dan kalimat yang langsung bisa jadi caption atau FAQ. Menghasilkan rekap jenis komentar + daftar tindakan, untuk D3 saat butuh copy yang terdengar seperti pembeli. Kutipan ≤ 24 kata, tanpa identitas.
+
 version: 1.0.0
 author: Nocturne Koffie (D3 Marketing)
 license: internal
@@ -14,6 +11,7 @@ metadata:
   keluaran: [riset/index.html (bagian 4), riset/swipe-file.md]
   perintah: python3 tools/riset.py
   izin_akses: baca berkas lokal + tulis folder riset/
+
 ---
 
 # Komentar Mining — bahasa pembeli → copy

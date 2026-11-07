@@ -85,6 +85,7 @@ def main():
         ("huruf", ["tools/font.py", "--cek"]),
         ("rak", ["tools/rak.py"]),
         ("kemasan", ["tools/kemasan.py", "--cek"]),
+        ("skill", ["tools/skill_impor.py", "--cek"]),
         ("periksa", ["tools/periksa.py"]),
         ("laporan", ["tools/laporan.py"]),
         ("semua", ["tools/semua.py"]),

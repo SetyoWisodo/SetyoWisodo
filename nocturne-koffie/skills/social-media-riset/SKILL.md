@@ -1,10 +1,7 @@
 ---
 name: social-media-riset
-description: >
-  Riset konten sosial yang ramai untuk dijadikan acuan D3 & D4. Gunakan saat ingin tahu post/video
-  sejenis mana yang naik di atas kebiasaan akunnya, kenapa ia bekerja, pola hook apa yang berulang,
-  dan format apa yang menyimpan. Menghasilkan swipe file + brief konten siap dikerjakan dari
-  data/riset-referensi.csv. Tidak melakukan scraping dan tidak memakai API berbayar.
+description: Riset konten sosial yang ramai sebagai acuan D3 & D4: post mana yang naik di atas kebiasaan akunnya, kenapa ia bekerja, pola hook apa yang berulang, format apa yang menyimpan. Menghasilkan swipe file + brief dari data/riset-referensi.csv, tanpa scraping dan tanpa API berbayar.
+
 version: 1.0.0
 author: Nocturne Koffie (D3 Marketing × D4 Kreatif)
 license: internal
@@ -20,6 +17,7 @@ metadata:
     - riset/data.json
   perintah: python3 tools/riset.py
   izin_akses: baca berkas lokal + tulis folder riset/
+
 ---
 
 # Riset Konten Sosial — Outlier & Pola

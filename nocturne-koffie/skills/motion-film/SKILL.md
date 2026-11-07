@@ -1,3 +1,8 @@
+---
+name: motion-film
+description: Mengubah skrip studio menjadi klip 9:16 yang framenya konsisten: ketukan 120 BPM, arc energi, cue suara, dan QA render (pop scan, seam loop). Dipakai D4 saat butuh film pendek dari kode. Menghasilkan motion/film-sheet.md + .json (540 frame) dan klip mp4.
+---
+
 # Film Gerak dari Kode — 20 Repo, 1 Lembar Kerja
 
 Sumber: post `@Mikadzyki_NFT`, 28 Okt 2026 — "20 GitHub repos that turn your agents into a

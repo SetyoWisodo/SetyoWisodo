@@ -1,10 +1,7 @@
 ---
 name: search-intent-riset
-description: >
-  Riset mesin pencari untuk D3: Google, pencarian marketplace, pencarian TikTok, dan mesin jawaban AI.
-  Mengubah daftar kata kunci menjadi prioritas kerja, menemukan celah antara yang dicari orang dan
-  yang benar-benar tertulis di halaman kita, lalu menunjuk halaman mana yang harus diperbaiki.
-  Membaca halaman target langsung (bukan menebak) dan tidak mengarang volume pencarian.
+description: Riset mesin pencari untuk D3: Google, marketplace, TikTok, dan mesin jawaban AI. Mengubah kata kunci jadi prioritas kerja, menemukan celah antara yang dicari orang dan yang tertulis di halaman kita, lalu menunjuk halaman yang harus diperbaiki. Volume pencarian tidak dikarang.
+
 version: 1.0.0
 author: Nocturne Koffie (D3 Marketing)
 license: internal
@@ -14,6 +11,7 @@ metadata:
   keluaran: [riset/index.html (bagian 5), riset/swipe-file.md]
   perintah: python3 tools/riset.py
   izin_akses: baca berkas lokal + tulis folder riset/
+
 ---
 
 # Riset Niat Pencarian — Google, marketplace, TikTok, mesin jawaban

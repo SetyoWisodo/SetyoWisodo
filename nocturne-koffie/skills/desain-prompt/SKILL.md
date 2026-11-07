@@ -1,3 +1,8 @@
+---
+name: desain-prompt
+description: Cara menulis brief desain sebagai spesifikasi yang tokennya bisa diperiksa mesin, bukan permintaan "buatkan hero yang cantik". Dipakai untuk membangun atau merombak halaman, menolak referensi yang kabur, dan menyiapkan brief untuk agen koding lain. Menghasilkan prompts/pustaka.json (9 prompt) dan prompts/index.html.
+---
+
 # Prompt Kelas Atas — Halaman yang Terasa Dirancang
 
 Sumber gagasan: dua pustaka prompt berbayar yang populer di kalangan *vibe coder*

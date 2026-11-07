@@ -1,3 +1,9 @@
+---
+name: hero-3d
+description: Hero objek 3D di beranda: poster biji kopi hiper-realistis yang diketuk untuk membuka enam titik senyawa, dengan kemiringan halus dan jatuh datar tanpa JS. Dipakai saat mengubah gambar hero atau menambah titik senyawa. Menghasilkan assets/img/biji-3d-poster.webp + assets/js/biji3d.js.
+
+---
+
 > **Revisi 5 Nov 2026.** Biji di beranda tidak lagi digambar sebagai mesh
 > WebGL. Bentuknya sekarang **render hiper-realistis** (`assets/img/biji-render-02.png`
 > → `assets/img/biji-3d-poster.jpg` lewat `tools/biji_render.py`), dengan enam

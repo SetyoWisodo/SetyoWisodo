@@ -1,11 +1,7 @@
 ---
 name: studio-konten
-description: >
-  Menjalankan alur kerja "tim social media" 10 tahap (niche → pesaing → outlier → kreator → hook →
-  format → skrip → skala → lapor → ops) sebagai mesin deterministik, bukan 50 agent LLM. Gunakan
-  saat butuh rencana konten mingguan yang bisa dipertanggungjawabkan: apa yang di-dobel, apa yang
-  dihentikan, apa yang diuji, dan 5 skrip siap rekam. Menghasilkan studio/index.html,
-  studio/brief-senin.md, dan studio/skrip/*.md dari data lokal. Tanpa API, tanpa token.
+description: Menjalankan alur "tim social media" 10 tahap (niche → pesaing → outlier → kreator → hook → format → skrip → skala → lapor → ops) sebagai mesin deterministik, bukan 50 agent LLM. Menghasilkan rencana konten mingguan yang bisa dipertanggungjawabkan: apa yang di-dobel, dihentikan, diuji, plus 5 skrip siap rekam.
+
 version: 1.0.0
 author: Nocturne Koffie (D3 Marketing × D4 Kreatif)
 license: internal
@@ -28,6 +24,7 @@ metadata:
     - studio/data.json
   perintah: python3 tools/studio.py
   izin_akses: baca berkas lokal + tulis folder studio/
+
 ---
 
 # Studio Konten — 10 Tahap, 50 Slot, 0 Token

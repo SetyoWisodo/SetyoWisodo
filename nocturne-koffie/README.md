@@ -98,6 +98,11 @@ python3 tools/jalankan.py --cepat  # lewati encode video (lebih cepat ~15 detik)
 python3 tools/periksa.py           # gerbang QA saja (exit 1 bila ada temuan kritis)
 ```
 
+**Dependensi Python:** `pillow`, `fonttools`, `brotli` (dipasang sekali; sandbox ini
+mengosongkannya antar sesi). Tanpa Pillow, `tools/periksa.py` tetap jalan — butir yang butuh
+piksel dilewati dengan catatan, bukan gagal. Uji asap `rak/` butuh `jsdom` (`npm i jsdom --prefix /tmp/jsdom`);
+tanpa itu butirnya ditandai "dilewati".
+
 `tools/kreatif.py` butuh ffmpeg. Di sandbox: `pip install --break-system-packages imageio-ffmpeg`
 (FFmpeg biner tidak ikut tersimpan antar-sesi — generator akan gagal-soft ke gambar saja bila tidak ada,
 dan itu dilaporkan di keluaran terminal serta di `data/kreatif.json` → `video_terencode`).
@@ -184,6 +189,26 @@ dari warna tepi + perspektif + gradien cahaya), bukan model 3D sungguhan dengan 
 Batas yang diakui: tidak ada peramban di sandbox, jadi tampilan 3D sungguhan — perspektif,
 bayangan, ketajaman teks, kursor — **belum pernah saya lihat**. Uji asap membuktikan skrip,
 geometri, dan sambungan, bukan rupa.
+
+## Impor skill dari luar (post X, artikel, repo)
+
+Skill yang datang dari tautan luar (mis. post X) **tidak bisa saya buka sendiri** — X menolak
+permintaan tanpa sesi login, dan sandbox ini hanya punya akses ke github/npm/pypi. Jadi isinya
+harus datang dari Anda: teks tempelan atau tangkapan layar. Untuk itu ada satu jalur:
+
+```bash
+# setelah teks post-nya ditempel ke /tmp/post.txt
+python3 tools/skill_impor.py --nama rak-gerak --dari /tmp/post.txt \
+    --sumber "https://x.com/…/status/…" \
+    --baris-tabel "| [\`rak-gerak\`](rak-gerak/SKILL.md) | D4 | kapan dipakai | keluaran |"
+
+python3 tools/skill_impor.py --cek     # 11 skill · frontmatter · nama = folder · terdaftar di README
+```
+
+Yang dilakukan: menulis `skills/<slug>/SKILL.md` dengan frontmatter (`name`, `description`
+ringkas dari paragraf pertama), menyisipkan baris tabel **setelah baris skill terakhir** di
+`skills/README.md`, lalu memeriksa ulang. Yang **tidak** dilakukan: mengarang isi — kalau teks
+sumbernya kosong, alat berhenti dan bilang begitu.
 
 ## Penelusuran skill GitHub (5 Nov 2026)
 

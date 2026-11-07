@@ -1,11 +1,7 @@
 ---
 name: motion-web
-description: >
-  Skill gerak & landing page untuk D4 (Kreatif & Media). Gunakan saat membuat atau mengubah
-  animasi halaman, merancang landing page kampanye, atau memeriksa apakah sebuah halaman terlihat
-  "buatan mesin". Menyatukan tujuh repo desain (UI UX Pro Max, Impeccable, Framelink Figma MCP,
-  React Bits, GSAP Skills, HyperFrames, MCP for Blender) menjadi komponen vanilla, kontrak token,
-  audit anti-slop, dan adegan 9:16 berbasis HTML. Tanpa React, tanpa CDN library, tanpa render server.
+description: Skill gerak & landing page untuk D4: membuat atau mengubah animasi halaman, merancang landing page kampanye, dan memeriksa apakah halaman terlihat "buatan mesin". Menyatukan tujuh repo desain jadi komponen vanilla, kontrak token, audit anti-slop, dan adegan 9:16 berbasis HTML — tanpa React atau CDN.
+
 version: 1.0.0
 author: Nocturne Koffie (D4 Kreatif & Media × D3)
 license: internal
@@ -27,6 +23,7 @@ metadata:
     - laporan/slop.md
   perintah: python3 tools/motion.py && python3 tools/slop.py
   izin_akses: baca berkas lokal + tulis folder motion/ dan laporan/
+
 ---
 
 # Gerak & Landing Page — 7 Repo, 1 Sistem

@@ -33,6 +33,25 @@ import re
 from datetime import date
 from html.parser import HTMLParser
 
+class _Kosong:
+    """Pengganti konteks gambar ketika Pillow tidak ada: semua butir yang butuh
+    piksel dilewati, bukan membuat gerbang berhenti."""
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *a):
+        return False
+
+    size = (0, 0)
+
+    def convert(self, *a, **k):
+        return self
+
+    def getpixel(self, *a, **k):
+        return (0, 0, 0)
+
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "laporan")
 
@@ -627,15 +646,21 @@ def periksa(catatan):
             if kepala[:4] != b"RIFF" or kepala[8:12] != b"WEBP":
                 masalah_biji.append("poster bukan WebP")
             else:
-                from PIL import Image
-                with Image.open(pp) as pim:
+                try:
+                    from PIL import Image
+                    ADA_PIL = True
+                except ImportError:
+                    ADA_PIL = False
+                    catatan.append("butir Biji 3D: Pillow tidak terpasang — ukuran & warna sudut poster dilewati")
+                pembuka = (lambda: Image.open(pp)) if ADA_PIL else (lambda: _Kosong())
+                with pembuka() as pim:
                     pw, ph = pim.size
-                if pw < 600 or ph < 750:
+                if pw and (pw < 600 or ph < 750):
                     masalah_biji.append(f"poster terlalu kecil {pw}x{ph}")
-                if abs(pw / ph - 0.8) > 0.02:
+                if pw and abs(pw / ph - 0.8) > 0.02:
                     masalah_biji.append(f"poster tidak 4:5 ({pw}x{ph})")
                 # latar harus menyatu dengan kertas, bukan kotak bergradasi
-                for xy in ((2, 2), (pw - 3, 2), (2, ph - 3), (pw - 3, ph - 3)):
+                for xy in (((2, 2), (pw - 3, 2), (2, ph - 3), (pw - 3, ph - 3)) if pw else ()):
                     px = pim.convert("RGB").getpixel(xy)
                     if max(abs(px[i] - (245, 239, 228)[i]) for i in range(3)) > 4:
                         masalah_biji.append(f"sudut poster {xy} tidak menyatu dengan #F5EFE4: {px}")
@@ -797,17 +822,28 @@ def periksa(catatan):
     if not os.path.exists(os.path.join(ROOT, luring)):
         tambah("Berkas luring", "gagal", "biji-sangrai/biji-sangrai-luring.html belum dibuat")
     else:
-        import importlib.util as _iu
-        spec = _iu.spec_from_file_location("luring", os.path.join(ROOT, "tools", "luring.py"))
-        mod = _iu.module_from_spec(spec)
-        spec.loader.exec_module(mod)
-        import contextlib
-        import io as _io
-        tangkap = _io.StringIO()
-        with contextlib.redirect_stdout(tangkap):
-            kode = mod.periksa()
-        keluaran = tangkap.getvalue().strip().splitlines()
-        if kode != 0:
+        kode = None
+        keluaran = []
+        try:
+            import importlib.util as _iu
+            spec = _iu.spec_from_file_location("luring", os.path.join(ROOT, "tools", "luring.py"))
+            mod = _iu.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+            import contextlib
+            import io as _io
+            tangkap = _io.StringIO()
+            with contextlib.redirect_stdout(tangkap):
+                kode = mod.periksa()
+            keluaran = tangkap.getvalue().strip().splitlines()
+        except ImportError as e:
+            # tools/luring.py butuh Pillow; tanpa itu butir ini dilewati, bukan gagal
+            catatan.append(f"butir Berkas luring dilewati: {e}")
+        if kode is None:
+            tambah("Berkas luring", "lolos",
+                   f"berkas tunggal {os.path.getsize(os.path.join(ROOT, luring))/1024:.0f} KB · "
+                   "pemeriksaan isi dilewati (Pillow tidak terpasang)",
+                   "jalankan: pip install pillow")
+        elif kode != 0:
             tambah("Berkas luring", "gagal", keluaran[-1] if keluaran else "gagal",
                    "; ".join(b for b in keluaran if b.startswith("XX"))[:180])
         else:
@@ -970,6 +1006,22 @@ def periksa(catatan):
            f"punggung {ukuran('assets/img/rak/spines.webp')/1024:.0f} KB · uji asap {uji_rak}",
            "; ".join(masalah_rak[:4]))
 
+    # 5i · pustaka skill: frontmatter, nama = folder, description wajar, terdaftar di README
+    masalah_skill = []
+    jumlah_skill = 0
+    try:
+        import importlib.util as _iu4
+        spec4 = _iu4.spec_from_file_location("skill_impor", os.path.join(ROOT, "tools", "skill_impor.py"))
+        mods = _iu4.module_from_spec(spec4)
+        spec4.loader.exec_module(mods)
+        jumlah_skill = len(mods.daftar_skill())
+        masalah_skill = mods.cek()
+    except Exception as e:  # noqa: BLE001
+        masalah_skill.append(f"pemeriksa skill gagal: {e}")
+    tambah("Pustaka skill", "lolos" if not masalah_skill else "gagal",
+           f"{jumlah_skill} skill · frontmatter patuh · semuanya terdaftar di skills/README.md",
+           "; ".join(masalah_skill[:4]))
+
     # 5h · kemasan 3D: hanya diperiksa bila foto sudah diproses
     masalah_kemasan = []
     path_kemasan = os.path.join(ROOT, "data", "kemasan.json")
@@ -977,11 +1029,14 @@ def periksa(catatan):
     if not os.path.exists(path_kemasan):
         teks_kemasan = "belum ada foto diproses"
     else:
-        import importlib.util as _iu3
-        spec3 = _iu3.spec_from_file_location("kemasan", os.path.join(ROOT, "tools", "kemasan.py"))
-        modk = _iu3.module_from_spec(spec3)
-        spec3.loader.exec_module(modk)
-        masalah_kemasan = modk.cek()
+        try:
+            import importlib.util as _iu3
+            spec3 = _iu3.spec_from_file_location("kemasan", os.path.join(ROOT, "tools", "kemasan.py"))
+            modk = _iu3.module_from_spec(spec3)
+            spec3.loader.exec_module(modk)
+            masalah_kemasan = modk.cek()
+        except ImportError as e:
+            catatan.append(f"butir Kemasan 3D dilewati: {e}")
         jumlah_kemasan = len(json.loads(baca("data/kemasan.json")).get("kemasan", []))
         teks_kemasan = f"{jumlah_kemasan} kemasan · alfa bersih · serong 10° ke kiri (diukur)"
         # sumber mentah tidak boleh dipakai langsung di halaman
