@@ -1,9 +1,10 @@
 # Skills — riset konten, mesin pencari, halaman, gambar, huruf
 
-Sebelas skill untuk D3 (Marketing & Pertumbuhan) dan D4 (Kreatif & Media).
+Dua belas skill untuk D3 (Marketing & Pertumbuhan) dan D4 (Kreatif & Media).
 Formatnya mengikuti konvensi **SKILL.md** (YAML frontmatter + prosedur yang bisa dijalankan ulang),
-diadaptasi dari tiga sumber: kerangka *social media research skills*, disiplin bukti *claude-ads*
-(dibuka 29 Okt 2026), dan kerangka **10 folder / 50 agent** dari post `@dsqjaffa` (28 Okt 2026).
+diadaptasi dari empat sumber: kerangka *social media research skills*, disiplin bukti *claude-ads*
+(dibuka 29 Okt 2026), kerangka **10 folder / 50 agent** dari post `@dsqjaffa` (28 Okt 2026), dan
+metode **Cutaway** dari post `@Nyxera0x` (7 Nov 2026).
 
 | Sumber | Yang diambil | Yang **tidak** diambil |
 | --- | --- | --- |
@@ -11,6 +12,7 @@ diadaptasi dari tiga sumber: kerangka *social media research skills*, disiplin b
 | [`AgriciDaniel/claude-ads`](https://github.com/AgriciDaniel/claude-ads) | disiplin bukti: temuan deterministik, sumber tercatat, klaim yang tidak terverifikasi diturunkan statusnya, "tool tidak tersedia = keputusan, bukan sukses" | 12 integrasi platform iklan & perubahan akun |
 | [`@thegreatest_sv` — 7 repo desain](https://x.com/thegreatest_sv/status/2115876572464812071) (30 Okt 2026) | struktur gerak & tata kelola desain: kontrak token, komponen, audit anti-slop, adegan HTML | 2 dari 7 tidak dipakai di sini (Figma tanpa akun, Blender tidak ada); sisanya ditulis ulang vanilla |
 | [`@Mikadzyki_NFT` — 20 repo motion](https://x.com/Mikadzyki_NFT/status/2115407628138324221) (28 Okt 2026) | hukum produksi film: durasi = bobot, arc energi, beat-sync 120 BPM, larangan angka karangan, QA render (pop scan, seam loop) | 8 dari 20 tidak dipakai (Remotion, HyperFrames, After Effects, Lottie, Playwright/ffmpeg tidak ada di sini) |
+| [`Nyxera0x/cutaway`](https://github.com/Nyxera0x/cutaway) (61 ★, MIT, 6 Nov 2026) | metode objek potong-buka: ukur acuan sebelum kode, ceklis 10–12 baris berangka, satu kamera per ketukan, `render(t)` murni | three.js/WebGL, tema robotik, film Playwright + ffmpeg (tidak ada di sandbox) |
 | [`@dsqjaffa` — 10 folder / 50 agent](https://x.com/dsqjaffa/status/2115541614986711387) | **struktur kerja** 10 tahap: niche → pesaing → outlier → kreator → hook → format → skrip → skala → lapor → ops | 50 pemanggilan LLM berbayar, Claude connector, agent per post. Diganti fungsi Python: 46 slot otomatis, 2 manual, 2 tidak dipakai |
 
 ## Daftar skill
@@ -25,10 +27,10 @@ diadaptasi dari tiga sumber: kerangka *social media research skills*, disiplin b
 | [`motion-film`](motion-film/SKILL.md) | D4 | mengubah 5 skrip studio jadi klip yang framenya konsisten: ketukan, arc energi, cue suara | `motion/film-sheet.md` + `.json` (540 frame, 120 BPM) |
 | [`desain-prompt`](desain-prompt/SKILL.md) | D4 + D3 | membangun/merombak halaman dengan brief yang tokennya bisa diperiksa mesin | `prompts/pustaka.json` (9 prompt), `prompts/index.html` |
 | [`hero-3d`](hero-3d/SKILL.md) | D4 | hero objek 3D: render hiper-realistis, 6 titik senyawa, kemiringan halus | `index.html` hero, `assets/js/biji3d.js`, `assets/img/biji-3d-poster.jpg` |
-
 | [`landing-page-ai`](landing-page-ai/SKILL.md) | D3 + D4 | membangun halaman baru / merombak halaman yang terasa template, atau menulis brief untuk agen koding lain | aturan 9 butir, rencana layar berangka, gerbang 27 butir |
 | [`gaya-gambar`](gaya-gambar/SKILL.md) | D4 | butuh gambar baru (hero, poster, kartu rasa) atau menilai hasil generator sebelum dipasang | `data/gaya-gambar.json` (20 gaya) + 6 pemeriksaan |
 | [`pasangan-font`](pasangan-font/SKILL.md) | D4 | memilih huruf, memeriksa bobot yang hilang, memindahkan huruf dari CDN | `assets/css/fonts.css`, 4 woff2 231 KB, butir **Huruf lokal** |
+| [`cutaway-objek`](cutaway-objek/SKILL.md) | D4 | objek yang bagian dalamnya harus diperiksa: kemasan dibuka bagian demi bagian, satu kamera per ketukan | `cutaway/index.html`, `cutaway/data.js`, `laporan/cutaway-checklist.md` |
 
 Tiga skill terakhir lahir dari penelusuran GitHub 5 Nov 2026 (ambang 3.000 bintang); daftar lengkapnya di
 [`laporan/skill-github.md`](../laporan/skill-github.md).
@@ -51,7 +53,7 @@ node tools/verifikasi-biji.mjs # 9 uji geometri & HTML, tanpa GPU
 python3 tools/slop.py          # audit anti-slop & kontrak desain → laporan/slop.md
 ```
 
-## Aturan yang berlaku untuk kedelapan skill
+## Aturan yang berlaku untuk kedua belas skill
 
 1. **Data publik saja.** Tidak mengambil konten akun privat, tidak menembus login, tidak menyalin
    database pihak lain. Semua baris masuk ke `data/riset-*.csv` **secara manual** oleh owner.

@@ -61,6 +61,7 @@ HALAMAN_PUBLIK = ["index.html", "kampanye/index.html", "komersial/penawaran-b2b.
 HALAMAN = [
     "index.html",
     "rak/index.html",
+    "cutaway/index.html",
     "dashboard/index.html",
     "kampanye/index.html",
     "konten/index.html",
@@ -98,6 +99,7 @@ DATA = [
     "prompts/pustaka.json", "prompts/prompts.json", "skills/desain-prompt/SKILL.md",
     "data/biji3d.json", "assets/js/biji3d.js", "assets/css/biji.css",
     "assets/img/biji-3d-poster.webp", "laporan/biji-render.json", "laporan/biji-verifikasi.json",
+    "cutaway/data.js", "laporan/cutaway-checklist.md", "cutaway/still/lembar-still.png",
     "skills/hero-3d/SKILL.md",
    
 ]
@@ -1005,6 +1007,37 @@ def periksa(catatan):
            f"12 kotak 3D · sampul {ukuran('assets/img/rak/covers.webp')/1024:.0f} KB · "
            f"punggung {ukuran('assets/img/rak/spines.webp')/1024:.0f} KB · uji asap {uji_rak}",
            "; ".join(masalah_rak[:4]))
+
+    # 5h · potong-buka: metode Cutaway (Nyxera0x, MIT) — angka vs acuan + kontrak render(t)
+    masalah_cut = []
+    for berkas in ("cutaway/index.html", "cutaway/data.js", "cutaway/cutaway.js",
+                   "cutaway/cutaway.css", "cutaway/cutaway-luring.html",
+                   "laporan/cutaway-checklist.md", "cutaway/still/lembar-still.png"):
+        if not os.path.exists(os.path.join(ROOT, berkas)):
+            masalah_cut.append(f"{berkas} belum ada — jalankan python3 tools/cutaway.py")
+    if os.path.exists(os.path.join(ROOT, "cutaway/cutaway.js")):
+        js_cut = re.sub(r"/\*.*?\*/", "", baca("cutaway/cutaway.js"), flags=re.S)
+        if "Math.random" in js_cut:
+            masalah_cut.append("cutaway.js memakai Math.random — render(t) tidak murni")
+        if "render(t)" not in baca("cutaway/cutaway.js") and "function render(t)" not in js_cut:
+            masalah_cut.append("cutaway.js tanpa render(t)")
+        css_cut = re.sub(r"/\*.*?\*/", "", baca("cutaway/cutaway.css"), flags=re.S)
+        if "@keyframes" in css_cut:
+            masalah_cut.append("cutaway.css memakai @keyframes — gerak harus dari t")
+    uji_cut = "dilewati"
+    for perintah, kunci in ((["python3", "tools/cutaway.py", "--cek"], "angka"),
+                            (["node", "tools/cutaway-uji.mjs"], "uji")):
+        if kunci == "uji" and not os.path.exists("/tmp/jsdom/node_modules/jsdom/lib/api.js"):
+            continue
+        proses = subprocess.run(perintah, cwd=ROOT, capture_output=True, text=True, timeout=120)
+        if kunci == "uji":
+            uji_cut = "lolos" if proses.returncode == 0 else "gagal"
+        if proses.returncode != 0:
+            masalah_cut.append(f"{kunci} gagal: " + (proses.stdout or proses.stderr).strip()[-180:])
+    tambah("Potong-buka", "lolos" if not masalah_cut else "gagal",
+           "7 bagian · 9 ketukan/9 kamera · render(t) murni · uji tanpa peramban "
+           f"{uji_cut} · film 60 fps tidak dirender (tanpa Chromium/ffmpeg)",
+           "; ".join(masalah_cut[:4]))
 
     # 5i · pustaka skill: frontmatter, nama = folder, description wajar, terdaftar di README
     masalah_skill = []
