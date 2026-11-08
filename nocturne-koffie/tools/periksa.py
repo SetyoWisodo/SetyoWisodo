@@ -1015,6 +1015,37 @@ def periksa(catatan):
            f"spesifikasi template {spek_rak}",
            "; ".join(masalah_rak[:4]))
 
+    # 5k · foto katalog: 9 SKU × 3 sudut + hero, satu rig, halaman + versi luring
+    masalah_katalog = []
+    for berkas in ("katalog/index.html", "katalog/katalog.js", "katalog/katalog.css",
+                   "katalog/katalog-luring.html", "data/katalog.js", "data/katalog-render.json",
+                   "laporan/katalog-render.png"):
+        if not os.path.exists(os.path.join(ROOT, berkas)):
+            masalah_katalog.append(f"{berkas} belum ada — jalankan python3 tools/katalog.py")
+    if os.path.exists(os.path.join(ROOT, "katalog/katalog.js")):
+        js_k = re.sub(r"/\*.*?\*/", "", baca("katalog/katalog.js"), flags=re.S)
+        if re.search(r"Rp\s?\d", js_k):
+            masalah_katalog.append("harga diketik di katalog.js — harus dari data/katalog.js")
+        if "Math.random" in js_k:
+            masalah_katalog.append("katalog.js memakai Math.random")
+        css_k = re.sub(r"/\*.*?\*/", "", baca("katalog/katalog.css"), flags=re.S)
+        if "@keyframes" in css_k:
+            masalah_katalog.append("katalog.css memakai @keyframes")
+    uji_kat = "dilewati"
+    for perintah, kunci in ((["python3", "tools/katalog.py", "--cek"], "aset"),
+                            (["node", "tools/katalog-uji.mjs"], "halaman")):
+        if kunci == "halaman" and not os.path.exists("/tmp/jsdom/node_modules/jsdom/lib/api.js"):
+            continue
+        proses = subprocess.run(perintah, cwd=ROOT, capture_output=True, text=True, timeout=300)
+        if kunci == "halaman":
+            uji_kat = "lolos" if proses.returncode == 0 else "gagal"
+        if proses.returncode != 0:
+            masalah_katalog.append(f"{kunci} gagal: " + (proses.stdout or proses.stderr).strip()[-180:])
+    tambah("Foto katalog", "lolos" if not masalah_katalog else "gagal",
+           "9 SKU × 3 sudut + hero · satu rig · aset & halaman diperiksa tanpa peramban "
+           f"{uji_kat} · versi 1 berkas ada",
+           "; ".join(masalah_katalog[:4]))
+
     # 5i · pustaka skill: frontmatter, nama = folder, description wajar, terdaftar di README
     masalah_skill = []
     jumlah_skill = 0

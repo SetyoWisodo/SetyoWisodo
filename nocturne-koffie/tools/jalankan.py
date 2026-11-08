@@ -85,6 +85,8 @@ def main():
         ("huruf", ["tools/font.py", "--cek"]),
         ("rak", ["tools/rak.py"]),
         ("rak-spek", ["tools/rak-spek.mjs"]),
+        ("katalog", ["tools/katalog.py"]),
+        ("katalog-luring", ["tools/katalog-luring.py"]),
         ("kemasan", ["tools/kemasan.py", "--cek"]),
         ("skill", ["tools/skill_impor.py", "--cek"]),
         ("periksa", ["tools/periksa.py"]),

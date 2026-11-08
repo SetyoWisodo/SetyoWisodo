@@ -33,6 +33,10 @@ HALAMAN = [
     ("rak/index.html", "Rak sangrai", "Situs",
      "Hero rak 3D: dua belas lot berdiri di rak, satu ditarik keluar dan diputar "
      "menghadap Anda. Panah, tab, geser, roda, dan kursor kustom.", ""),
+    ("katalog/index.html", "Foto katalog & hero", "Situs",
+     "Sembilan lot difoto dengan satu rig: tiga sudut per SKU, cahaya, latar, dan "
+     "bayangan yang sama. Termasuk hero 16:9 untuk landing page.",
+     "assets/img/katalog/blue-mount-ijen-0.jpg"),
     ("biji-sangrai/index.html", "Biji sangrai", "Situs",
      "Halaman jual roasted beans: 9 biji, tabel harga, tombol WhatsApp per biji, "
      "catatan rasa yang bisa digeser.", "assets/img/produk/ijen.jpg"),

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id" data-type="product">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Foto katalog & hero — Nocturne Koffie</title>
+<meta name="description" content="Sembilan lot kopi Nocturne difoto dengan satu rig: tiga sudut per SKU, cahaya yang sama, kertas yang sama. Dipakai untuk foto katalog dan hero landing page." />
+<meta name="robots" content="noindex" />
+<meta name="theme-color" content="#EDEBE6" />
+<link rel="icon" href="../brand/favicon.svg" type="image/svg+xml" />
+<link rel="preload" href="../assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="stylesheet" href="../assets/css/fonts.css" />
+<link rel="stylesheet" href="katalog.css" />
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="bar">
+  <a class="lbl box" href="../index.html">Kembali / Back</a>
+  <div class="logo">
+    <span class="logo__a">Nocturne</span>
+    <span class="logo__b">Koffie · Banyuwangi</span>
+  </div>
+  <p class="lbl bar__right" id="barKanan">Sembilan lot · satu rig</p>
+</header>
+
+<main>
+  <!-- ------------------------------------------------------------- hero --- -->
+  <section class="hero" id="hero" aria-label="Hero landing page">
+    <div class="hero__teks">
+      <div class="mask"><p class="lbl hero__atas" id="heroAtas">Foto katalog · rig studio</p></div>
+      <div class="mask"><h1 class="hero__judul" id="heroJudul">Kopi yang<br />difoto<br /><em>satu kali, benar.</em></h1></div>
+      <div class="mask"><p class="hero__isi" id="heroIsi">
+        Sembilan lot, satu meja, satu lampu. Sudut 0°, −18°, dan 40° untuk setiap
+        kemasan — dipakai bergantian di katalog, dan versi 16:9 untuk hero.
+        Semua dari label yang sama, jadi tidak ada foto yang berubah gaya.
+      </p></div>
+      <div class="mask hero__aksi">
+        <a class="box hero__cta" id="heroCta" href="#" rel="noopener">Pesan lewat WhatsApp</a>
+        <a class="lbl hero__tautan" href="#katalog">Lihat sembilan lot</a>
+      </div>
+      <dl class="meta" id="heroMeta"></dl>
+    </div>
+
+    <figure class="hero__gambar" id="heroGambar">
+      <img id="heroImg" alt="Kemasan Nocturne, foto hero 16:9" width="2400" height="1350" />
+      <figcaption class="lbl" id="heroCap">16:9 · 2400 × 1350 · objek 72% tinggi</figcaption>
+    </figure>
+  </section>
+
+  <!-- ---------------------------------------------------------- katalog --- -->
+  <section class="katalog" id="katalog" aria-label="Katalog sembilan lot">
+    <div class="katalog__kepala">
+      <div class="mask"><h2 class="katalog__judul">Katalog</h2></div>
+      <div class="mask"><p class="lbl katalog__ket" id="katalogKet">9 lot · 3 sudut · hover untuk sudut 3/4</p></div>
+      <div class="sudut" role="group" aria-label="Sudut foto">
+        <button class="lbl box sudut__btn is-on" data-sudut="0" type="button">0°</button>
+        <button class="lbl box sudut__btn" data-sudut="18" type="button">−18°</button>
+        <button class="lbl box sudut__btn" data-sudut="40" type="button">40°</button>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span class="lbl">© Nocturne Koffie · Banyuwangi</span>
+  <span class="lbl">Dirender dari label · bukan generator gambar</span>
+  <span class="lbl"><a href="https://wa.me/628988188800" rel="noopener">WA</a></span>
+</footer>
+
+<!-- ------------------------------------------------------------ detal --- -->
+<div class="detal" id="detal" role="dialog" aria-modal="true" aria-label="Detail lot">
+  <button class="lbl box detal__tutup" id="tutup" type="button">Tutup / Close</button>
+  <div class="detal__isi">
+    <figure class="detal__foto">
+      <img id="dFot" alt="" width="2000" height="2000" />
+      <figcaption class="lbl" id="dCap">0°</figcaption>
+    </figure>
+    <div class="detal__teks">
+      <p class="lbl detal__no" id="dNo">01 / 09</p>
+      <div class="mask"><h3 class="detal__judul" id="dNama">Gayo</h3></div>
+      <div class="mask"><p class="lbl detal__asal" id="dAsal"></p></div>
+      <div class="mask"><p class="detal__notes" id="dNotes"></p></div>
+      <ul class="detal__pilih" id="dPilih"></ul>
+      <p class="detal__harga" id="dHarga"></p>
+      <a class="box detal__cta" id="dCta" href="#" rel="noopener">Pesan lewat WhatsApp</a>
+      <div class="detal__sudut" id="dSudut"></div>
+    </div>
+  </div>
+</div>
+
+<div class="cur" id="cur" aria-hidden="true"><span class="cur__ring"></span><span class="cur__dot"></span></div>
+
+<script src="../data/katalog.js"></script>
+<script src="katalog.js"></script>
+</body>
+</html>

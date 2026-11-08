@@ -1,5 +1,5 @@
 {
-  "dibuat": "2026-11-06",
+  "dibuat": "2026-11-08",
   "hasil": [
     {
       "kategori": "Berkas wajib",
@@ -10,7 +10,7 @@
     {
       "kategori": "Tautan lokal",
       "status": "lolos",
-      "teks": "173/173 tautan menuju berkas yang ada",
+      "teks": "174/174 tautan menuju berkas yang ada",
       "detail": ""
     },
     {
@@ -141,9 +141,9 @@
     },
     {
       "kategori": "Pintu semua",
-      "status": "gagal",
-      "teks": "15 halaman tertaut · angka dari periksa.json · satu berkas",
-      "detail": "Rak sangrai tidak tertaut; sidik struktur tidak cocok — jalankan python3 tools/semua.py; angka gerbang tidak mutakhir — jalankan tools/semua.py"
+      "status": "lolos",
+      "teks": "16 halaman tertaut · angka dari periksa.json · satu berkas",
+      "detail": ""
     },
     {
       "kategori": "Huruf lokal",
@@ -160,7 +160,19 @@
     {
       "kategori": "Rak sangrai",
       "status": "lolos",
-      "teks": "12 kotak 3D · sampul 363 KB · punggung 179 KB · uji asap lolos",
+      "teks": "12 kotak 3D · sampul 363 KB · punggung 179 KB · uji asap lolos · spesifikasi template 105/105",
+      "detail": ""
+    },
+    {
+      "kategori": "Pustaka skill",
+      "status": "lolos",
+      "teks": "12 skill · frontmatter patuh · semuanya terdaftar di skills/README.md",
+      "detail": ""
+    },
+    {
+      "kategori": "Kemasan 3D",
+      "status": "lolos",
+      "teks": "belum ada foto diproses",
       "detail": ""
     },
     {

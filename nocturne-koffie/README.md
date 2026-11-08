@@ -201,6 +201,38 @@ Batas yang diakui: tidak ada peramban di sandbox, jadi tampilan 3D sungguhan —
 bayangan, ketajaman teks, kursor — **belum pernah saya lihat**. Uji asap membuktikan skrip,
 geometri, dan sambungan, bukan rupa.
 
+## Foto katalog & hero — satu rig, sembilan lot (`katalog/`)
+
+Foto produk tidak datang dari generator gambar (ditolak 5 Nov) dan tidak dari Blender (tidak ada
+di sandbox). Yang dipakai: **rig studio deterministik** yang merender label vektor yang sudah
+ada — sudut, cahaya, latar, dan bayangan yang sama untuk kesembilan SKU, sehingga katalognya
+terbaca sebagai satu sesi foto.
+
+| Bagian | Isi |
+| --- | --- |
+| `tools/katalog.py` | render 9 SKU × 3 sudut (0°, −18°, 40°) + hero 16:9; proyeksi 3D + **homografi balik**, key light kiri-atas, sisi/atas papan kosong, bayangan kontak & jatuh, latar kertas + vignette |
+| `katalog/index.html` + `.css` + `.js` | halaman bukti: hero 16:9 dengan judul di kiri, grid 9 kartu (hover → sudut 3/4), detail dengan pilihan ukuran, sudut, dan tautan WhatsApp |
+| `tools/katalog-uji.mjs` | 27 butir tanpa peramban: data = `catalog.json`, 9 kartu, pergantian sudut, harga varian, WA, Escape |
+| `tools/katalog-luring.py` | satu berkas HTML **1,1 MB** (foto diperkecil disisipkan) |
+| `laporan/katalog-render.png` | lembar kontak 9 × 3 untuk menilai keseragaman seri |
+
+Angka yang dipegang: objek **70%** tinggi bidang (toleransi 8% antar SKU), hero **72%** di
+`x = 68%` (kiri kosong untuk judul), tebal kemasan **6,5%**, pitch **−5°**, muka samping
+**62%** kecerahan (kanan) / **96%** (kiri), katalog **2000²**, hero **2400×1350**.
+
+```bash
+python3 tools/katalog.py            # render semua SKU → assets/img/katalog/ (4,0 MB)
+python3 tools/katalog.py --cek      # ukuran, tinggi objek, konsistensi rig
+node tools/katalog-uji.mjs          # halaman: data, kartu, sudut, harga, WhatsApp
+python3 tools/katalog-luring.py     # versi satu berkas untuk dibuka tanpa server
+```
+
+**Batas:** ini render dari label, **bukan** pemotretan kemasan fisik; kemasan dimodelkan sebagai
+kotak (gusset & zipper tidak dimodelkan). Tampilan halaman belum pernah dilihat — tidak ada
+Chromium. Sumber gagasan: post [`@thegreatest_sv`](https://x.com/thegreatest_sv/status/2119129564047982889)
+(7 repo 3D, 7 Nov 2026) — **nol** repo di post itu dijalankan di sini; yang dipakai resep rig-nya.
+Skill: [`skills/katalog-render`](skills/katalog-render/SKILL.md).
+
 ## Impor skill dari luar (post X, artikel, repo)
 
 Skill yang datang dari tautan luar (mis. post X) **tidak bisa saya buka sendiri** — X menolak

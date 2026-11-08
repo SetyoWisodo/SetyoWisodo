@@ -1,9 +1,10 @@
-# Skills — riset konten, mesin pencari, halaman, gambar, huruf
+# Skills — riset konten, mesin pencari, halaman, gambar, huruf, foto produk
 
-Sebelas skill untuk D3 (Marketing & Pertumbuhan) dan D4 (Kreatif & Media).
+Dua belas skill untuk D3 (Marketing & Pertumbuhan) dan D4 (Kreatif & Media).
 Formatnya mengikuti konvensi **SKILL.md** (YAML frontmatter + prosedur yang bisa dijalankan ulang),
-diadaptasi dari tiga sumber: kerangka *social media research skills*, disiplin bukti *claude-ads*
-(dibuka 29 Okt 2026), dan kerangka **10 folder / 50 agent** dari post `@dsqjaffa` (28 Okt 2026).
+diadaptasi dari empat sumber: kerangka *social media research skills*, disiplin bukti *claude-ads*
+(dibuka 29 Okt 2026), kerangka **10 folder / 50 agent** dari post `@dsqjaffa` (28 Okt 2026),
+dan resep **studio rig** dari post `@thegreatest_sv` (7 Nov 2026).
 
 | Sumber | Yang diambil | Yang **tidak** diambil |
 | --- | --- | --- |
@@ -29,6 +30,7 @@ diadaptasi dari tiga sumber: kerangka *social media research skills*, disiplin b
 | [`landing-page-ai`](landing-page-ai/SKILL.md) | D3 + D4 | membangun halaman baru / merombak halaman yang terasa template, atau menulis brief untuk agen koding lain | aturan 9 butir, rencana layar berangka, gerbang 27 butir |
 | [`gaya-gambar`](gaya-gambar/SKILL.md) | D4 | butuh gambar baru (hero, poster, kartu rasa) atau menilai hasil generator sebelum dipasang | `data/gaya-gambar.json` (20 gaya) + 6 pemeriksaan |
 | [`pasangan-font`](pasangan-font/SKILL.md) | D4 | memilih huruf, memeriksa bobot yang hilang, memindahkan huruf dari CDN | `assets/css/fonts.css`, 4 woff2 231 KB, butir **Huruf lokal** |
+| [`katalog-render`](katalog-render/SKILL.md) | D4 | foto katalog & hero: tiga sudut per SKU dari satu rig, cahaya dan latar sama | `assets/img/katalog/`, `data/katalog.js`, `katalog/index.html` |
 
 Tiga skill terakhir lahir dari penelusuran GitHub 5 Nov 2026 (ambang 3.000 bintang); daftar lengkapnya di
 [`laporan/skill-github.md`](../laporan/skill-github.md).
@@ -51,7 +53,7 @@ node tools/verifikasi-biji.mjs # 9 uji geometri & HTML, tanpa GPU
 python3 tools/slop.py          # audit anti-slop & kontrak desain → laporan/slop.md
 ```
 
-## Aturan yang berlaku untuk kedelapan skill
+## Aturan yang berlaku untuk semua skill
 
 1. **Data publik saja.** Tidak mengambil konten akun privat, tidak menembus login, tidak menyalin
    database pihak lain. Semua baris masuk ke `data/riset-*.csv` **secara manual** oleh owner.

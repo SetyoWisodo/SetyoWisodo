@@ -1,17 +1,17 @@
-# Laporan periksa — 2026-11-06
+# Laporan periksa — 2026-11-08
 
 Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 
 | Ringkasan | Jumlah |
 | --- | --- |
-| Pemeriksaan lolos | **28** |
+| Pemeriksaan lolos | **31** |
 | Peringatan | **0** |
-| Gagal (harus diperbaiki) | **1** |
+| Gagal (harus diperbaiki) | **0** |
 
 | Kategori | Status | Hasil | Catatan |
 | --- | --- | --- | --- |
 | Berkas wajib | ✅ lolos | 87/87 berkas ada | — |
-| Tautan lokal | ✅ lolos | 173/173 tautan menuju berkas yang ada | — |
+| Tautan lokal | ✅ lolos | 174/174 tautan menuju berkas yang ada | — |
 | Struktur HTML | ✅ lolos | 17/17 halaman tag-nya seimbang | — |
 | Stok semua SKU | ✅ lolos | 9/9 SKU berstatus tersedia | — |
 | Produk ↔ lot | ✅ lolos | 9/9 produk punya lot aktif (blend memakai komponen) | — |
@@ -33,10 +33,12 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 | Biji 3D | ✅ lolos | 6 zona · 12 senyawa · 4 sumber literatur · poster 640×800 · verifikasi 12/12 | — |
 | Biji sangrai | ✅ lolos | 9 SKU · 4 ukuran · harga dari katalog · tanpa CDN · reduced-motion | — |
 | Berkas luring | ✅ lolos | 1 berkas 975 KB · CSS+JS+huruf+gambar tersisip · 0 tautan aset relatif | dibuka langsung dari folder unduhan |
-| Pintu semua | ❌ gagal | 15 halaman tertaut · angka dari periksa.json · satu berkas | Rak sangrai tidak tertaut; sidik struktur tidak cocok — jalankan python3 tools/semua.py; angka gerbang tidak mutakhir — jalankan tools/semua.py |
+| Pintu semua | ✅ lolos | 16 halaman tertaut · angka dari periksa.json · satu berkas | — |
 | Huruf lokal | ✅ lolos | 4 berkas variabel 231 KB · 0 permintaan ke Google Fonts · rentang bobot cocok dengan CSS | — |
 | Pustaka gaya | ✅ lolos | 20 gaya · 6 kategori · tiap gaya: prompt + negatif + rasio + alat | — |
-| Rak sangrai | ✅ lolos | 12 kotak 3D · sampul 363 KB · punggung 179 KB · uji asap lolos | — |
+| Rak sangrai | ✅ lolos | 12 kotak 3D · sampul 363 KB · punggung 179 KB · uji asap lolos · spesifikasi template 105/105 | — |
+| Pustaka skill | ✅ lolos | 12 skill · frontmatter patuh · semuanya terdaftar di skills/README.md | — |
+| Kemasan 3D | ✅ lolos | belum ada foto diproses | — |
 | Berat halaman awal | ✅ lolos | 98 KB (batas 1.500 KB) | — |
 | Berat folder konten | ✅ lolos | 3.9 MB (batas 12 MB) | — |
 

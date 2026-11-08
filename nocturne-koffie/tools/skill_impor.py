@@ -172,6 +172,12 @@ def impor(nama: str, dari: str, sumber: str = "", judul: str = "",
         baris = baris_tabel.strip()
         if not baris.startswith("|"):
             baris = f"| [`{slug}`]({slug}/SKILL.md) | D3 + D4 | {baris} |"
+        elif f"({slug}/SKILL.md)" not in baris:
+            # baris dikirim sudah berbentuk tabel tetapi tanpa kolom nama: sisipkan
+            # kolom tautan di depan, jangan menimpa kolom divisi ("D4") — dulu baris
+            # seperti ini lolos tapi tidak dianggap terdaftar, dan divisinya hilang.
+            sel = baris.split("|")
+            baris = "|".join(sel[:1] + [f" [`{slug}`]({slug}/SKILL.md) "] + sel[1:])
         # sisipkan SETELAH baris tabel skill terakhir, bukan di awal berkas
         baris_tabel_skill = list(re.finditer(
             r"^\|\s*\[`[a-z0-9-]+`\]\([a-z0-9-]+/SKILL\.md\)[^\n]*$", teks_readme, flags=re.M))
