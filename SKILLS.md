@@ -7,10 +7,10 @@ Sumber: [@cabbitar — "STOP WASTING HOURS TRYING TO LEARN REA"](https://x.com/c
 | Postingan yang diadopsi | 2 — [@cabbitar (roadmap REA)](https://x.com/cabbitar/status/2115467413953056921) + [@0xDeniAi (20 repo toolchain)](https://x.com/0xDeniAi/status/2114847015091794206) |
 | Link di postingan @cabbitar | 46 baris → **38 URL unik**, 37 terverifikasi, 1 mati |
 | Repo di postingan @0xDeniAi | **20** (16 bertautan + 4 disebut tanpa tautan) — semua dikonfirmasi via GitHub API |
-| Skill tersalin/dibuat | **8 skill** — 5 dari `morluto/rea`, 1 finder (MIT), 2 disusun di repo ini |
+| Skill tersalin/dibuat | **9 skill** — 5 dari `morluto/rea`, 1 finder (MIT), 2 disusun di repo ini, 1 katalog (Awesome-REA, MIT) |
 | Pintu masuk | [`rea-workflow`](.agents/skills/rea-workflow/SKILL.md) — satu loop 8 fase |
 | Lokasi | [`.agents/skills/`](.agents/skills/) |
-| Metode | `cp -r` verbatim untuk skill upstream; `rea-roadmap` ditulis dari hasil resolusi link |
+| Metode | `cp -r` verbatim untuk skill upstream; `rea-roadmap` ditulis dari hasil resolusi link; `rea-catalog` ditulis dari `AGENTS.md` + `data/README.md` + `scripts/validate.py` Awesome-REA |
 | Tanggal verifikasi link | 2026-10-29 |
 
 ---
@@ -27,6 +27,7 @@ Sumber: [@cabbitar — "STOP WASTING HOURS TRYING TO LEARN REA"](https://x.com/c
 | 5 | **rea-ci-tests-audit** | `morluto/rea` | Audit CI & test suite |
 | 6 | **rea-tool-design** | `morluto/rea` | Desain tool investigasi & semantik Evidence |
 | 7 | **rea-changelog-update** | `morluto/rea` | Release notes dari Git history terpin |
+| 8 | **rea-catalog** | `reacher-z/Awesome-REA` (MIT, 1.999★) | Baca katalog 1.130 tool + 123 relasi REA + 235 paper dengan saringan `target`/`relationship`; periksa catatan baru terhadap format katalog sebelum diusulkan |
 
 Front-matter `name` + `description` tiap skill adalah pemicunya: agent memilih
 skill dari deskripsi itu, isi lengkap baru dimuat saat relevan.

@@ -9,6 +9,7 @@ satu skill baru (`rea-roadmap`) yang dibangun dari seluruh link postingan.
 | <https://github.com/morluto/rea> | `.agents/skills/` | `bf115be2cd900724a5bbd59a5cefc7af1dc2576f` (main) | ikuti `LICENSE` upstream |
 | <https://github.com/alexgaoth/awesome-reverse-engineered> | `plugin/skills/find-reverse-engineered/` | `main` | MIT © 2026 Alex Gao (`find-reverse-engineered/LICENSE`) |
 | <https://rea.tools/> | `docs/installation.md`, `docs/mcp-prompts.md` (dari repo REA) | commit yang sama | sama dengan upstream |
+| <https://github.com/reacher-z/Awesome-REA> | `AGENTS.md`, `data/README.md`, `scripts/validate.py`, `CONTRIBUTING.md` | dibaca di `a1a6b24` (main, 8 Nov 2026) | MIT © reacher-z — **tidak ada berkas upstream yang disalin** |
 
 Isi skill upstream tidak diubah supaya `diff` terhadap upstream tetap bersih saat
 sinkron ulang. Satu-satunya skill yang ditulis tangan di sini adalah
@@ -26,6 +27,7 @@ sinkron ulang. Satu-satunya skill yang ditulis tangan di sini adalah
 | [`rea-ci-tests-audit`](rea-ci-tests-audit/SKILL.md) | `morluto/rea` | Audit CI & test suite: false pass, fixture drift, biaya. |
 | [`rea-tool-design`](rea-tool-design/SKILL.md) | `morluto/rea` | Merancang/mengubah tool investigasi, kontrak CLI/MCP, semantik Evidence. |
 | [`rea-changelog-update`](rea-changelog-update/SKILL.md) | `morluto/rea` | Menyusun release notes/changelog dari Git history terpin. |
+| [`rea-catalog`](rea-catalog/SKILL.md) | **baru** — dari `reacher-z/Awesome-REA` (MIT) | Mencari tool/paper RE di katalog 1.130 + 123 + 235 catatan lewat GitHub API, dan memeriksa satu catatan baru terhadap format katalog (field wajib, kosakata `relationship`/`targets`/`class`, bukti terpin, `verified_at`, larangan kalimat tinjauan) sebelum diusulkan. |
 
 Mulai dari `rea-workflow`; skill lain adalah rujukan yang dipanggil per fase
 (lihat `rea-workflow/references/skill-map.md`).
