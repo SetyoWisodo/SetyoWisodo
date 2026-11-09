@@ -133,14 +133,21 @@ langkah(3);
 const R = window.RAK;
 catat(!!R, 'window.RAK tersedia');
 const jumlahKotak = doc.querySelectorAll('.tape').length;
-catat(jumlahKotak === 36, '36 kotak di panggung (12 × 3 salinan)', String(jumlahKotak));
-catat(doc.querySelectorAll('.tape .sp').length === 36 && doc.querySelectorAll('.tape .cv').length === 36,
-  'tiap kotak punya dua sisi (punggung + sampul)');
+// Jumlah kotak mengikuti data (9 kemasan × 3 salinan = 27); dulu dipaku 36
+// karena rak berisi 12 kaset. Yang penting: tiga salinan per lot, tidak kurang.
+const harapKotak = R.ITEMS.length * 3;
+catat(jumlahKotak === harapKotak, `${R.ITEMS.length} lot × 3 salinan = ${harapKotak} kotak`,
+  String(jumlahKotak));
+catat(doc.querySelectorAll('.tape .sp').length === harapKotak &&
+      doc.querySelectorAll('.tape .cv').length === harapKotak,
+  'tiap kotak punya dua sisi (sisi gusset + muka stiker)');
 catat(doc.querySelectorAll('.tab').length === R.TABS.length, 'tab dibangun dari data',
   `${doc.querySelectorAll('.tab').length} tab`);
 
 // geometri: jarak antar kotak = ws + gap
-const ws = 414 * 142 / 840, gap = 414 * 0.03, d = 414 * 474 / 900;
+// rasio muka dari data (kemasan 500 g), bukan angka kaset yang dipaku di uji
+const FACE = R.FACE || { cv: 474 / 900, sp: 142 / 840 };
+const ws = 414 * FACE.sp, gap = 414 * 0.03, d = 414 * FACE.cv;
 const posisi = Array.from(doc.querySelectorAll('.tape'))
   .map((el) => ({ x: angka(el.style.transform, 'translate3d'), vis: el.style.visibility }))
   .filter((p) => p.vis !== 'hidden')

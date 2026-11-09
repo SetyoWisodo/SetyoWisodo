@@ -665,7 +665,8 @@ def tulis_js(hasil: list[dict]) -> None:
         "keterangan": "Dibangun tools/katalog.py dari data/catalog.json + data/kemasan-katalog.json "
                       "+ assets/img/katalog. Harga = varian terkecil; jangan diketik di JS.",
         "rig": {"sudut": list(SUDUT), "katalog_px": KATALOG, "hero_px": list(HERO)},
-        "kemasan": {"status": sp.get("status"), "bentuk": sp.get("bentuk"),
+        "kemasan": {"status": sp.get("status"), "bentuk": u.get("bentuk", sp.get("bentuk")),
+                    "stiker": sp.get("stiker"),
                     "ukuran": u["kunci"], "lebar": u["lebar"], "tinggi": u["tinggi"],
                     "gusset": u["gusset"], "segel": u["segel"], "zipper": u["zipper"],
                     "berat": u.get("berat"), "bahan": sp.get("bahan", {}).get("nama"),

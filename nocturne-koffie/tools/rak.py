@@ -386,31 +386,80 @@ def gambar_punggung(item: dict, ukuran: tuple[int, int], aksen, ukuran_judul: in
 
 
 # ------------------------------------------------------------------ tulis ----
+POUCH = os.path.join(ROOT, "assets", "img", "pouch")
+
+
+def muka_pouch(id_: str) -> tuple[str, str] | None:
+    """Dua muka kemasan untuk rak: muka stiker (belakang) dan sisi gusset.
+
+    Kalau berkasnya belum ada (mis. `tools/pouch.py` belum dijalankan), rak
+    memakai atlas kaset lama — bukan mengarang bentuk kemasan.
+    """
+    muka = os.path.join(POUCH, f"{id_}-muka.png")
+    sisi = os.path.join(POUCH, f"{id_}-sisi.png")
+    if os.path.exists(muka) and os.path.exists(sisi):
+        return muka, sisi
+    return None
+
+
+def ada_label(id_: str) -> bool:
+    return os.path.exists(os.path.join(ROOT, "brand", f"label-{id_}.png"))
+
+
 def data_js(item: list[dict]) -> str:
-    peta_sampul = {it["id"]: KOTAK_SAMPUL[i] for i, it in enumerate(item)}
-    peta_punggung = {it["id"]: KOTAK_PUNGGUNG[i] for i, it in enumerate(item)}
-    crop = {}
-    for it in item:
-        crop[f'cover-{it["id"]}'] = ["covers", *peta_sampul[it["id"]]]
-        crop[f'spine-{it["id"]}'] = ["spines", *peta_punggung[it["id"]]]
+    """Data rak: muka kemasan (kalau sudah dirender) atau atlas kaset lama."""
+    pouch = {it["id"]: muka_pouch(it["id"]) for it in item}
+    crop: dict = {}
+    if all(pouch.values()):
+        # --- jalur kemasan: satu berkas per muka, tanpa atlas
+        sheet: dict = {}
+        rasio_cv = rasio_sp = 0.0
+        for it in item:
+            muka, sisi = pouch[it["id"]]
+            with Image.open(muka) as im_c:
+                w_c, h_c = im_c.size
+            with Image.open(sisi) as im_s:
+                w_s, h_s = im_s.size
+            sheet[f'muka-{it["id"]}'] = [f'../assets/img/pouch/{it["id"]}-muka.png', w_c, h_c]
+            sheet[f'sisi-{it["id"]}'] = [f'../assets/img/pouch/{it["id"]}-sisi.png', w_s, h_s]
+            crop[f'cover-{it["id"]}'] = [f'muka-{it["id"]}', 0, 0, w_c, h_c]
+            crop[f'spine-{it["id"]}'] = [f'sisi-{it["id"]}', 0, 0, w_s, h_s]
+            rasio_cv = max(rasio_cv, w_c / h_c)
+            rasio_sp = max(rasio_sp, w_s / h_s)
+        rasio = {"cv": round(rasio_cv, 4), "sp": round(rasio_sp, 4)}
+        bahan = "kemasan"
+    else:
+        sheet = {
+            "covers": ["../assets/img/rak/covers.webp", *COVERS],
+            "spines": ["../assets/img/rak/spines.webp", *SPINES],
+        }
+        for i, it in enumerate(item):
+            crop[f'cover-{it["id"]}'] = ["covers", *KOTAK_SAMPUL[i]]
+            crop[f'spine-{it["id"]}'] = ["spines", *KOTAK_PUNGGUNG[i]]
+        rasio = {"cv": round(474 / 900, 4), "sp": round(142 / 840, 4)}
+        bahan = "kaset"
+
     ringkas = []
     for it in item:
         ringkas.append({k: it[k] for k in (
             "id", "no", "name", "line", "meta", "kind", "tab", "notes", "farmer",
             "status", "harga", "harga_teks", "ukuran", "ukuran_teks", "synopsis")})
     tab = [
-        {"id": "semua", "label": "SEMUA", "sub": "semua lot"},
-        {"id": "arabika", "label": "ARABIKA", "sub": "4 lot"},
-        {"id": "robusta", "label": "ROBUSTA", "sub": "2 lot"},
-        {"id": "excelsa", "label": "EXCELSA", "sub": "1 lot"},
-        {"id": "racikan", "label": "RACIKAN", "sub": "blend · paket"},
+        {"id": "semua", "label": "SEMUA", "sub": f"{len(item)} lot"},
+        {"id": "arabika", "label": "ARABIKA",
+         "sub": f'{sum(1 for it in item if it["tab"] == "arabika")} lot'},
+        {"id": "robusta", "label": "ROBUSTA",
+         "sub": f'{sum(1 for it in item if it["tab"] == "robusta")} lot'},
+        {"id": "excelsa", "label": "EXCELSA",
+         "sub": f'{sum(1 for it in item if it["tab"] == "excelsa")} lot'},
+        {"id": "racikan", "label": "RACIKAN",
+         "sub": f'{sum(1 for it in item if it["tab"] == "racikan")} lot'},
     ]
     isi = {
-        "SHEET": {
-            "covers": ["../assets/img/rak/covers.webp", *COVERS],
-            "spines": ["../assets/img/rak/spines.webp", *SPINES],
-        },
+        "SHEET": sheet,
         "CROP": crop,
+        "FACE": rasio,
+        "BAHAN": bahan,
         "ITEMS": ringkas,
         "TABS": tab,
         "START": 5,
@@ -425,6 +474,20 @@ def data_js(item: list[dict]) -> str:
 def bangun() -> None:
     kat = muat_katalog()
     item = siapkan_item(kat)
+    # Rak memuat barang yang benar-benar punya kemasan: hanya lot dengan label
+    # merek. Paket & kartu member tetap ada di katalog/ dan katalog harga, tetapi
+    # tidak berdiri di rak karena tidak punya kemasan untuk ditampilkan.
+    berlabel = [it for it in item if ada_label(it["id"])]
+    if berlabel:
+        item = berlabel
+    pakai_pouch = all(muka_pouch(it["id"]) for it in item)
+    if pakai_pouch:
+        print(f'  rak        {len(item)} kemasan (muka stiker + sisi gusset)')
+        os.makedirs(os.path.dirname(DATA), exist_ok=True)
+        with open(DATA, "w", encoding="utf-8") as f:
+            f.write(data_js(item))
+        print(f'  data.js    {len(item)} lot · {os.path.getsize(DATA)/1024:.0f} KB')
+        return
     assert len(item) == 12, f"butuh 12 kotak, dapat {len(item)}"
     os.makedirs(IMG, exist_ok=True)
     os.makedirs(os.path.dirname(DATA), exist_ok=True)
@@ -477,7 +540,28 @@ def bangun() -> None:
 def cek() -> list[str]:
     masalah = []
     kat = muat_katalog()
-    item = siapkan_item(kat)
+    item = [it for it in siapkan_item(kat) if ada_label(it["id"])] or siapkan_item(kat)
+    if all(muka_pouch(it["id"]) for it in item):
+        # jalur kemasan: yang diperiksa berkas muka, bukan atlas kaset
+        for it in item:
+            for jenis in ("muka", "sisi"):
+                p_muka = os.path.join(POUCH, f'{it["id"]}-{jenis}.png')
+                if not os.path.exists(p_muka):
+                    masalah.append(f'{jenis} {it["id"]} tidak ada — jalankan tools/pouch.py')
+                elif os.path.getsize(p_muka) > 900_000:
+                    masalah.append(f'{jenis} {it["id"]} terlalu berat')
+        if not os.path.exists(DATA):
+            masalah.append("rak/data.js belum ada")
+        else:
+            teks = open(DATA, encoding="utf-8").read()
+            if '"FACE"' not in teks or '"BAHAN": "kemasan"' not in teks:
+                masalah.append("data.js belum menyebut muka kemasan (FACE/BAHAN)")
+            for it in item:
+                if f'\"cover-{it["id"]}\"' not in teks or f'\"spine-{it["id"]}\"' not in teks:
+                    masalah.append(f'potongan {it["id"]} tidak ada di data.js')
+                if it["harga_teks"] not in teks:
+                    masalah.append(f'harga {it["id"]} ({it["harga_teks"]}) tidak ada di data.js')
+        return masalah
     for nama, ukuran in (("covers.webp", COVERS), ("spines.webp", SPINES)):
         p = os.path.join(IMG, nama)
         if not os.path.exists(p):

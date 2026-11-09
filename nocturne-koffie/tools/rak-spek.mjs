@@ -2,6 +2,10 @@
  * Konformansi rak sangrai terhadap spesifikasi template (motionsite.ai / Leon Vasari
  * "VHS filmography shelf") yang dipakai 6–7 Nov 2026.
  *
+ * 9 Nov 2026: pemilik meminta objek rak diganti dari kaset VHS menjadi kemasan
+ * kopi 3D. Geometri muka kini dari data (rak/data.js → FACE), dan butir yang
+ * menyebut rasio kaset diperbarui menjadi dua jalur (data + cadangan).
+ *
  * Kenapa ada berkas ini: spesifikasinya panjang dan penuh angka (ws = H·142/840,
  * pegas 5,2/18, tirai 1050 ms, tinta 520+1250 ms, cincin 58 px …). Angka seperti
  * ini gampang berubah tanpa sengaja saat berkas dirapikan. Uji ini membaca
@@ -57,8 +61,14 @@ ada('--H:min(46vh,31vw)', 'token: --H min(46vh,31vw) desktop', css);
 ada('--H:min(60vw,40svh)', 'token: --H min(60vw,40svh) ≤767px', css);
 
 // -------------------------------------------------------------- geometri ---
-ada(/ws = H \* 142 \/ 840/, 'spine width = H·142/840');
-ada(/d = H \* 474 \/ 900/, 'cover width = H·474/900');
+// Sejak 9 Nov 2026 objek rak = kemasan kopi, bukan kaset: rasio muka dibaca dari
+// data (FACE). Angka kaset (H·142/840, H·474/900) tetap ada sebagai cadangan
+// kalau data belum menyebut rasio — jadi uji ini memeriksa kedua jalur.
+ada(/ws = H \* FACE\.sp/, 'spine width = H·FACE.sp (dari data)');
+ada(/d = H \* FACE\.cv/, 'cover width = H·FACE.cv (dari data)');
+ada(/cv: 474 \/ 900, sp: 142 \/ 840/, 'cadangan rasio kaset 474/900 & 142/840 dipertahankan');
+ada(/"FACE"/, 'data menyebut FACE', data);
+ada(/"BAHAN": "kemasan"/, 'data menyebut bahan kemasan', data);
 ada(/gap = H \* 0\.03/, 'gap = H·0,03');
 ada('const COPIES = 3', '12 film × 3 salinan = 36 kotak');
 ada(/const HALF = TOTAL \/ 2/, 'relatif ±18 (TOTAL/2)');

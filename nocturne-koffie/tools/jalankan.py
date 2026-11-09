@@ -86,6 +86,7 @@ def main():
         ("rak", ["tools/rak.py"]),
         ("rak-spek", ["tools/rak-spek.mjs"]),
         ("katalog", ["tools/katalog.py"]),
+        ("pouch", ["tools/pouch.py"]),
         ("katalog-luring", ["tools/katalog-luring.py"]),
         ("kemasan", ["tools/kemasan.py", "--cek"]),
         ("skill", ["tools/skill_impor.py", "--cek"]),

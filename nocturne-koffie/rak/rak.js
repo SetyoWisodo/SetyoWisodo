@@ -34,11 +34,17 @@
   probe.style.cssText = 'position:absolute;left:-9999px;top:0;width:0;height:var(--H)';
   document.body.appendChild(probe);
 
+  // Rasio muka datang dari data (`FACE`): untuk kemasan kopi 500 g, muka stiker
+  // ≈ 0,519 × tinggi dan sisi gusset ≈ 0,173 × tinggi. Angka kaset lama
+  // (142/840 dan 474/900) hanya dipakai kalau data belum menyebutnya — jadi
+  // mengganti bentuk objek tidak perlu menyunting mesin animasinya.
+  const FACE = R.FACE || { cv: 474 / 900, sp: 142 / 840 };
+
   let H = 0, ws = 0, d = 0, gap = 0;
   function ukur() {
     H = probe.offsetHeight || 320;
-    ws = H * 142 / 840;
-    d = H * 474 / 900;
+    ws = H * FACE.sp;
+    d = H * FACE.cv;
     gap = H * 0.03;
     stage.style.setProperty('--ws', ws + 'px');
     stage.style.setProperty('--d', d + 'px');

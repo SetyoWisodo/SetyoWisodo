@@ -1017,7 +1017,8 @@ def periksa(catatan):
 
     # 5k · foto katalog: 9 SKU × 3 sudut + hero, satu rig, halaman + versi luring
     masalah_katalog = []
-    for berkas in ("katalog/index.html", "katalog/katalog.js", "katalog/katalog.css",
+    for berkas in ("tools/pouch.py", "laporan/pouch-spesimen.png",
+                   "katalog/index.html", "katalog/katalog.js", "katalog/katalog.css",
                    "katalog/katalog-luring.html", "data/katalog.js", "data/katalog-render.json",
                    "data/kemasan-katalog.json", "laporan/katalog-render.png",
                    "laporan/kemasan-spesimen.png"):
@@ -1054,7 +1055,7 @@ def periksa(catatan):
     if pasar_buruk:
         masalah_katalog.append(f"{pasar_buruk} foto marketplace bukan putih murni / hilang")
     uji_kat = "dilewati"
-    for perintah, kunci in ((["python3", "tools/katalog.py", "--cek"], "aset"),
+    for perintah, kunci in ((["python3", "tools/pouch.py", "--cek"], "kemasan"),
                             (["node", "tools/katalog-uji.mjs"], "halaman")):
         if kunci == "halaman" and not os.path.exists("/tmp/jsdom/node_modules/jsdom/lib/api.js"):
             continue
@@ -1064,8 +1065,9 @@ def periksa(catatan):
         if proses.returncode != 0:
             masalah_katalog.append(f"{kunci} gagal: " + (proses.stdout or proses.stderr).strip()[-180:])
     tambah("Foto katalog", "lolos" if not masalah_katalog else "gagal",
-           "9 SKU × 3 sudut + hero · 18 foto marketplace putih murni · spesifikasi kemasan "
-           f"terbaca · aset & halaman diperiksa tanpa peramban {uji_kat} · versi 1 berkas ada",
+           "9 SKU kemasan 500 g flat-bottom (stiker belakang) · 3 sudut + hero + muka valve "
+           f"+ 2 muka rak · 18 foto marketplace putih murni · halaman diperiksa {uji_kat} · "
+           "versi 1 berkas ada",
            "; ".join(masalah_katalog[:4]))
 
     # 5i · pustaka skill: frontmatter, nama = folder, description wajar, terdaftar di README

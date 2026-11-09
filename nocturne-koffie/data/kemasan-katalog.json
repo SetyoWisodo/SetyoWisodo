@@ -1,9 +1,9 @@
 {
-  "_catatan": "Spesifikasi kemasan yang dipakai tools/katalog.py. Angka di bawah ini SEMENTARA: dipilih supaya rasio label yang sudah ada (827x1181) pas, bukan hasil pengukuran kemasan fisik. Kirim ukuran/ warna/ tampilan sebenarnya, lalu angka di sini diganti dan semua foto dirender ulang.",
-  "status": "sementara — belum dikonfirmasi pemilik",
+  "_catatan": "Spesifikasi kemasan yang dipakai tools/pouch.py (dan tools/katalog.py). Angka 500 g di bawah berasal dari pemilik (9 Nov 2026): kemasan flat-bottom 13,5 x 26 cm, valve di muka depan, stiker 12 x 17 cm di tengah muka belakang. Ketebalan (sisi/bawah) masih asumsi dan ditandai di laporan.",
+  "status": "500 g dikonfirmasi pemilik (ukuran & stiker); ketebalan & warna bahan masih asumsi",
   "satuan": "mm",
-  "bentuk": "stand-up pouch, segel atas, zipper",
-  "ukuran_aktif": "250",
+  "bentuk": "flat-bottom pouch, valve di muka depan, stiker di muka belakang",
+  "ukuran_aktif": "500",
   "ukuran": {
     "100": {
       "lebar": 100,
@@ -22,34 +22,47 @@
       "berat": "250 g"
     },
     "500": {
-      "lebar": 150,
-      "tinggi": 250,
-      "gusset": 40,
-      "segel": 14,
-      "zipper": 30,
-      "berat": "500 g"
+      "lebar": 135,
+      "tinggi": 260,
+      "sisi": 45,
+      "gusset": 90,
+      "segel": 15,
+      "zipper": 32,
+      "chamfer": 10,
+      "berat": "500 g",
+      "bentuk": "flat-bottom",
+      "sumber": "pemilik: 13,5 x 26 cm (9 Nov 2026)",
+      "catatan": "sisi 45 mm & chamfer 10 mm = asumsi bentuk flat-bottom 500 g; ganti bila diukur"
     }
   },
   "bahan": {
-    "nama": "kraft matte (sementara)",
-    "warna": "#F0EBE0",
-    "kilap": 0.22,
-    "catatan": "kilap 0 = matte total, 1 = metalik mengilap. Warna dipakai untuk sisi, tutup, dan pita segel."
+    "nama": "hitam doff (asumsi dari foto produk yang dikirim)",
+    "warna": "#1B1A18",
+    "kilap": 0.16,
+    "catatan": "kilap 0 = matte total, 1 = metalik. Ganti warna bila kemasan sebenarnya silver/putih."
   },
   "depan": {
-    "cetak_penuh": true,
+    "cetak_penuh": false,
     "margin": 0,
-    "catatan": "cetak_penuh true = desain menutupi seluruh muka depan. false + margin mm = label ditempel di atas bahan."
+    "catatan": "muka depan = bahan polos + valve; desain ada di stiker muka belakang."
   },
   "valve": {
-    "ada": false,
+    "ada": true,
     "x": 0.5,
-    "y_dari_atas": 60,
+    "y_dari_atas": 52,
     "diameter": 15,
-    "catatan": "valve satu arah (degassing). x = 0..1 dari kiri muka depan, y_dari_atas dalam mm."
+    "catatan": "valve di muka depan (bukan di muka stiker), supaya tidak tertutup stiker."
   },
   "segel": {
     "gerigi": 7,
     "catatan": "gerigi = jarak garis crimp dalam mm"
+  },
+  "stiker": {
+    "lebar": 120,
+    "tinggi": 170,
+    "x": 0.5,
+    "y": 0.5,
+    "sudut": 0,
+    "catatan": "ukuran dari pemilik: 12 x 17 cm, ditempel di tengah muka belakang. x/y = 0..1 dari kiri/atas muka belakang."
   }
 }

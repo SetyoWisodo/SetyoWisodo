@@ -46,14 +46,19 @@
   // belum mengonfirmasi ukuran & bahan, statusnya ditulis apa adanya di halaman.
   const KP = K.kemasan || null;
   const KEMASAN_TEKS = KP
-    ? KP.lebar + ' × ' + KP.tinggi + ' mm · gusset ' + KP.gusset +
-      ' mm · zipper ' + KP.zipper + ' mm · ' + (KP.bahan || 'bahan belum diisi')
+    ? KP.lebar + ' × ' + KP.tinggi + ' mm · ' + (KP.bentuk || 'pouch') +
+      ' · zipper ' + KP.zipper + ' mm · ' + (KP.bahan || 'bahan belum diisi')
+    : '';
+  const STIKER_TEKS = (KP && KP.stiker)
+    ? 'Stiker ' + KP.stiker.lebar + ' × ' + KP.stiker.tinggi + ' mm ditempel di tengah muka ' +
+      'belakang' + (KP.valve ? '; valve di muka depan, jadi tidak tertutup.' : '.')
     : '';
   if (KP) {
     const el = $('#kemasan');
     el.innerHTML = '<b>Kemasan ' + KP.berat + '</b> — ' + KEMASAN_TEKS +
       '. Warna bahan <b>' + KP.warna + '</b>, kilap ' + KP.kilap +
-      (KP.valve ? ', dengan valve satu arah' : ', tanpa valve') + '. ' +
+      (KP.valve ? ', dengan valve satu arah di muka depan' : ', tanpa valve') + '. ' +
+      STIKER_TEKS + ' ' +
       (KP.status ? 'Status spesifikasi: ' + KP.status + '.' : '');
     if (/sementara|belum/i.test(KP.status || '')) el.classList.add('is-sementara');
   }
