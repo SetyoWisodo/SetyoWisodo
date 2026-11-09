@@ -1,5 +1,5 @@
 {
-  "dibuat": "2026-11-08",
+  "dibuat": "2026-11-09",
   "hasil": [
     {
       "kategori": "Berkas wajib",
@@ -141,9 +141,9 @@
     },
     {
       "kategori": "Pintu semua",
-      "status": "lolos",
+      "status": "gagal",
       "teks": "16 halaman tertaut · angka dari periksa.json · satu berkas",
-      "detail": ""
+      "detail": "angka gerbang tidak mutakhir — jalankan tools/semua.py"
     },
     {
       "kategori": "Huruf lokal",
@@ -161,6 +161,12 @@
       "kategori": "Rak sangrai",
       "status": "lolos",
       "teks": "12 kotak 3D · sampul 363 KB · punggung 179 KB · uji asap lolos · spesifikasi template 105/105",
+      "detail": ""
+    },
+    {
+      "kategori": "Foto katalog",
+      "status": "lolos",
+      "teks": "9 SKU kemasan 500 g flat-bottom (stiker belakang) · 3 sudut + hero + 4 studio 2000 px + 2 muka rak · 18 foto marketplace putih murni · halaman diperiksa lolos · versi 1 berkas ada",
       "detail": ""
     },
     {

@@ -213,7 +213,8 @@ gusset, segel, zipper, valve, warna, dan kilap dibaca dari `data/kemasan-katalog
 | --- | --- |
 | `data/kemasan-katalog.json` | spesifikasi kemasan (mm, sisi, segel, zipper, valve, stiker, warna, kilap). **Sumber angka bentuk** — ganti di sini, bukan di kode |
 | `tools/katalog.py` | rig studio & kotak label (dipakai untuk uji/sudut); render 3 sudut + hero + 18 foto marketplace |
-| `tools/pouch.py` | **kemasan sebenarnya**: flat-bottom 500 g, 8 titik penampang, stiker 12 × 17 cm di muka belakang, valve di muka depan; keluaran + dua muka datar untuk `rak/` |
+| `tools/foto.py` | **renderer foto e-commerce** (dipakai sekarang): permukaan 3D, shading per piksel, latar studio/putih murni, 4 pandangan 2000 px, lembar kontak `laporan/katalog-render.png` |
+| `tools/pouch.py` | renderer lama (gradien per muka). Masih dipakai untuk `laporan/pouch-spesimen.png`; foto katalog **tidak** lagi dari sini |
 | `katalog/index.html` + `.css` + `.js` | halaman bukti: hero 16:9, grid 9 kartu, detail (ukuran, sudut, WhatsApp, spesifikasi kemasan), strip **foto marketplace** |
 | `tools/katalog-uji.mjs` | 36 butir tanpa peramban: data, kartu, sudut, harga, WA, spesifikasi kemasan, foto putih |
 | `tools/katalog-luring.py` | satu berkas HTML **1,1 MB** (foto diperkecil disisipkan) |
@@ -226,6 +227,10 @@ gusset, segel, zipper, valve, warna, dan kilap dibaca dari `data/kemasan-katalog
 | `<id>-hero.jpg` | 2400 × 1350 | hero landing page (kiri sengaja kosong untuk judul) |
 | `pasar/<id>-1x1.jpg` | 1000 × 1000 | foto utama Tokopedia / Shopee / TikTok Shop |
 | `pasar/<id>-4x5.jpg` | 1080 × 1350 | feed & katalog sosial |
+| `studio/<id>-depan.jpg` | 2000 × 2000 | muka stiker, latar putih murni |
+| `studio/<id>-tiga-perempat.jpg` | 2000 × 2000 | pandangan utama halaman brand (kertas studio + bayangan kontak + pantulan) |
+| `studio/<id>-valve.jpg` | 2000 × 2000 | muka valve, latar putih murni |
+| `studio/<id>-sisi.jpg` | 2000 × 2000 | dinding gusset 45°, latar putih murni |
 
 Foto marketplace memakai **latar putih murni tanpa bayangan** — bukan versi kecil dari foto
 katalog, karena aturan foto utama marketplace menolak latar berwarna. `--cek` menguji keempat
@@ -252,9 +257,10 @@ python3 tools/katalog-luring.py         # versi satu berkas untuk dibuka tanpa s
 | Bahan | `#1B1A18`, kilap 0,16 (doff) | **asumsi** dari foto produk |
 
 ```bash
-python3 tools/pouch.py            # 9 SKU: 3 sudut + hero + valve + 2 muka rak (≈ 9 menit)
-python3 tools/pouch.py --satu gayo
-python3 tools/pouch.py --cek      # geometri = JSON, latar marketplace putih, berkas rak ada
+python3 tools/foto.py             # 9 SKU: 3 sudut + hero + 4 studio + 2 pasar (≈ 27 menit)
+python3 tools/foto.py --satu gayo # satu SKU untuk menilai cahaya sebelum render penuh
+python3 tools/foto.py --cek       # geometri = JSON, ukuran 2000 px, latar putih murni
+python3 tools/pouch.py            # renderer lama: lembar spesimen untuk dicocokkan ke fisik
 python3 tools/rak.py              # data rak membaca muka pouch → rak berisi kemasan, bukan kaset
 ```
 

@@ -27,6 +27,7 @@
       "nama": "Gayo",
       "status": "siap",
       "ukuran": "500",
+      "bentuk": "flat-bottom",
       "geometri": {
         "lebar": 135,
         "tinggi": 260,
@@ -35,7 +36,6 @@
         "zipper": 32
       },
       "sisi": 45,
-      "bentuk": "flat-bottom",
       "bahan": "hitam doff (asumsi dari foto produk yang dikirim)",
       "stiker": {
         "lebar": 120,
@@ -52,93 +52,106 @@
         "diameter": 15,
         "catatan": "valve di muka depan (bukan di muka stiker), supaya tidak tertutup stiker."
       },
-      "tinggi_objek_px": 1400,
+      "tinggi_objek_px": 1520,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/gayo-0.jpg",
+          "kb": 114.4,
           "kotak": [
-            636,
-            240,
-            1364,
-            1640
-          ],
-          "kb": 104.3
+            604,
+            280,
+            1396,
+            1800
+          ]
         },
         "18": {
           "berkas": "assets/img/katalog/gayo-18.jpg",
+          "kb": 122.9,
           "kotak": [
-            624,
-            240,
-            1376,
-            1640
-          ],
-          "kb": 109.2
+            579,
+            280,
+            1421,
+            1800
+          ]
         },
         "40": {
           "berkas": "assets/img/katalog/gayo-40.jpg",
+          "kb": 112.4,
           "kotak": [
-            634,
-            240,
-            1367,
-            1640
-          ],
-          "kb": 110.0
+            578,
+            280,
+            1422,
+            1800
+          ]
         },
         "hero": {
           "berkas": "assets/img/katalog/gayo-hero.jpg",
+          "kb": 83.8,
           "kotak": [
-            1372,
+            1337,
             162,
-            1892,
-            1134
-          ],
-          "kb": 70.2
+            1927,
+            1242
+          ]
         }
       },
       "pasar": {
         "1x1": {
           "berkas": "assets/img/katalog/pasar/gayo-1x1.jpg",
-          "kb": 38.5,
+          "kb": 38.1,
           "ukuran": [
             1000,
             1000
+          ],
+          "kotak": [
+            291,
+            100,
+            709,
+            900
           ]
         },
         "4x5": {
           "berkas": "assets/img/katalog/pasar/gayo-4x5.jpg",
-          "kb": 53.7,
+          "kb": 50.3,
           "ukuran": [
             1080,
             1350
+          ],
+          "kotak": [
+            286,
+            243,
+            793,
+            1215
           ]
         }
       },
-      "pouch": {
-        "valve": {
-          "berkas": "assets/img/pouch/gayo-valve.jpg",
-          "kotak": [
-            637,
-            280,
-            1364,
-            1680
-          ],
-          "kb": 64.7
+      "studio": {
+        "depan": {
+          "berkas": "assets/img/studio/gayo-depan.jpg",
+          "kb": 110.0
         },
-        "muka": {
-          "berkas": "assets/img/pouch/gayo-muka.png",
-          "kb": 216.5,
-          "ukuran": [
-            623,
-            1200
-          ]
+        "tiga-perempat": {
+          "berkas": "assets/img/studio/gayo-tiga-perempat.jpg",
+          "kb": 130.0
+        },
+        "valve": {
+          "berkas": "assets/img/studio/gayo-valve.jpg",
+          "kb": 56.8
         },
         "sisi": {
-          "berkas": "assets/img/pouch/gayo-sisi.png",
-          "kb": 4.7,
-          "ukuran": [
-            208,
-            1202
-          ]
+          "berkas": "assets/img/studio/gayo-sisi.jpg",
+          "kb": 96.3
+        }
+      },
+      "pouch": {
+        "muka": {
+          "berkas": "assets/img/pouch/gayo-muka.png"
+        },
+        "sisi": {
+          "berkas": "assets/img/pouch/gayo-sisi.png"
+        },
+        "valve": {
+          "berkas": "assets/img/studio/gayo-valve.jpg"
         }
       }
     },
@@ -147,6 +160,7 @@
       "nama": "Kintamani",
       "status": "siap",
       "ukuran": "500",
+      "bentuk": "flat-bottom",
       "geometri": {
         "lebar": 135,
         "tinggi": 260,
@@ -155,7 +169,6 @@
         "zipper": 32
       },
       "sisi": 45,
-      "bentuk": "flat-bottom",
       "bahan": "hitam doff (asumsi dari foto produk yang dikirim)",
       "stiker": {
         "lebar": 120,
@@ -172,93 +185,106 @@
         "diameter": 15,
         "catatan": "valve di muka depan (bukan di muka stiker), supaya tidak tertutup stiker."
       },
-      "tinggi_objek_px": 1400,
+      "tinggi_objek_px": 1520,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/kintamani-0.jpg",
+          "kb": 115.3,
           "kotak": [
-            636,
-            240,
-            1364,
-            1640
-          ],
-          "kb": 105.6
+            604,
+            280,
+            1396,
+            1800
+          ]
         },
         "18": {
           "berkas": "assets/img/katalog/kintamani-18.jpg",
+          "kb": 123.8,
           "kotak": [
-            624,
-            240,
-            1376,
-            1640
-          ],
-          "kb": 110.0
+            579,
+            280,
+            1421,
+            1800
+          ]
         },
         "40": {
           "berkas": "assets/img/katalog/kintamani-40.jpg",
+          "kb": 113.5,
           "kotak": [
-            634,
-            240,
-            1367,
-            1640
-          ],
-          "kb": 111.1
+            578,
+            280,
+            1422,
+            1800
+          ]
         },
         "hero": {
           "berkas": "assets/img/katalog/kintamani-hero.jpg",
+          "kb": 84.5,
           "kotak": [
-            1372,
+            1337,
             162,
-            1892,
-            1134
-          ],
-          "kb": 71.1
+            1927,
+            1242
+          ]
         }
       },
       "pasar": {
         "1x1": {
           "berkas": "assets/img/katalog/pasar/kintamani-1x1.jpg",
-          "kb": 39.2,
+          "kb": 38.7,
           "ukuran": [
             1000,
             1000
+          ],
+          "kotak": [
+            291,
+            100,
+            709,
+            900
           ]
         },
         "4x5": {
           "berkas": "assets/img/katalog/pasar/kintamani-4x5.jpg",
-          "kb": 54.6,
+          "kb": 51.0,
           "ukuran": [
             1080,
             1350
+          ],
+          "kotak": [
+            286,
+            243,
+            793,
+            1215
           ]
         }
       },
-      "pouch": {
-        "valve": {
-          "berkas": "assets/img/pouch/kintamani-valve.jpg",
-          "kotak": [
-            637,
-            280,
-            1364,
-            1680
-          ],
-          "kb": 64.7
+      "studio": {
+        "depan": {
+          "berkas": "assets/img/studio/kintamani-depan.jpg",
+          "kb": 111.2
         },
-        "muka": {
-          "berkas": "assets/img/pouch/kintamani-muka.png",
-          "kb": 216.6,
-          "ukuran": [
-            623,
-            1200
-          ]
+        "tiga-perempat": {
+          "berkas": "assets/img/studio/kintamani-tiga-perempat.jpg",
+          "kb": 130.6
+        },
+        "valve": {
+          "berkas": "assets/img/studio/kintamani-valve.jpg",
+          "kb": 56.8
         },
         "sisi": {
-          "berkas": "assets/img/pouch/kintamani-sisi.png",
-          "kb": 4.7,
-          "ukuran": [
-            208,
-            1202
-          ]
+          "berkas": "assets/img/studio/kintamani-sisi.jpg",
+          "kb": 97.5
+        }
+      },
+      "pouch": {
+        "muka": {
+          "berkas": "assets/img/pouch/kintamani-muka.png"
+        },
+        "sisi": {
+          "berkas": "assets/img/pouch/kintamani-sisi.png"
+        },
+        "valve": {
+          "berkas": "assets/img/studio/kintamani-valve.jpg"
         }
       }
     },
@@ -267,6 +293,7 @@
       "nama": "Blue Mount Ijen",
       "status": "siap",
       "ukuran": "500",
+      "bentuk": "flat-bottom",
       "geometri": {
         "lebar": 135,
         "tinggi": 260,
@@ -275,7 +302,6 @@
         "zipper": 32
       },
       "sisi": 45,
-      "bentuk": "flat-bottom",
       "bahan": "hitam doff (asumsi dari foto produk yang dikirim)",
       "stiker": {
         "lebar": 120,
@@ -292,93 +318,106 @@
         "diameter": 15,
         "catatan": "valve di muka depan (bukan di muka stiker), supaya tidak tertutup stiker."
       },
-      "tinggi_objek_px": 1400,
+      "tinggi_objek_px": 1520,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/blue-mount-ijen-0.jpg",
+          "kb": 120.5,
           "kotak": [
-            636,
-            240,
-            1364,
-            1640
-          ],
-          "kb": 109.2
+            604,
+            280,
+            1396,
+            1800
+          ]
         },
         "18": {
           "berkas": "assets/img/katalog/blue-mount-ijen-18.jpg",
+          "kb": 128.5,
           "kotak": [
-            624,
-            240,
-            1376,
-            1640
-          ],
-          "kb": 114.2
+            579,
+            280,
+            1421,
+            1800
+          ]
         },
         "40": {
           "berkas": "assets/img/katalog/blue-mount-ijen-40.jpg",
+          "kb": 116.7,
           "kotak": [
-            634,
-            240,
-            1367,
-            1640
-          ],
-          "kb": 114.4
+            578,
+            280,
+            1422,
+            1800
+          ]
         },
         "hero": {
           "berkas": "assets/img/katalog/blue-mount-ijen-hero.jpg",
+          "kb": 87.2,
           "kotak": [
-            1372,
+            1337,
             162,
-            1892,
-            1134
-          ],
-          "kb": 73.4
+            1927,
+            1242
+          ]
         }
       },
       "pasar": {
         "1x1": {
           "berkas": "assets/img/katalog/pasar/blue-mount-ijen-1x1.jpg",
-          "kb": 40.8,
+          "kb": 40.5,
           "ukuran": [
             1000,
             1000
+          ],
+          "kotak": [
+            291,
+            100,
+            709,
+            900
           ]
         },
         "4x5": {
           "berkas": "assets/img/katalog/pasar/blue-mount-ijen-4x5.jpg",
-          "kb": 56.7,
+          "kb": 53.5,
           "ukuran": [
             1080,
             1350
+          ],
+          "kotak": [
+            286,
+            243,
+            793,
+            1215
           ]
         }
       },
-      "pouch": {
-        "valve": {
-          "berkas": "assets/img/pouch/blue-mount-ijen-valve.jpg",
-          "kotak": [
-            637,
-            280,
-            1364,
-            1680
-          ],
-          "kb": 64.7
+      "studio": {
+        "depan": {
+          "berkas": "assets/img/studio/blue-mount-ijen-depan.jpg",
+          "kb": 117.8
         },
-        "muka": {
-          "berkas": "assets/img/pouch/blue-mount-ijen-muka.png",
-          "kb": 226.8,
-          "ukuran": [
-            623,
-            1200
-          ]
+        "tiga-perempat": {
+          "berkas": "assets/img/studio/blue-mount-ijen-tiga-perempat.jpg",
+          "kb": 136.3
+        },
+        "valve": {
+          "berkas": "assets/img/studio/blue-mount-ijen-valve.jpg",
+          "kb": 56.8
         },
         "sisi": {
-          "berkas": "assets/img/pouch/blue-mount-ijen-sisi.png",
-          "kb": 4.7,
-          "ukuran": [
-            208,
-            1202
-          ]
+          "berkas": "assets/img/studio/blue-mount-ijen-sisi.jpg",
+          "kb": 100.4
+        }
+      },
+      "pouch": {
+        "muka": {
+          "berkas": "assets/img/pouch/blue-mount-ijen-muka.png"
+        },
+        "sisi": {
+          "berkas": "assets/img/pouch/blue-mount-ijen-sisi.png"
+        },
+        "valve": {
+          "berkas": "assets/img/studio/blue-mount-ijen-valve.jpg"
         }
       }
     },
@@ -387,6 +426,7 @@
       "nama": "Semeru",
       "status": "siap",
       "ukuran": "500",
+      "bentuk": "flat-bottom",
       "geometri": {
         "lebar": 135,
         "tinggi": 260,
@@ -395,7 +435,6 @@
         "zipper": 32
       },
       "sisi": 45,
-      "bentuk": "flat-bottom",
       "bahan": "hitam doff (asumsi dari foto produk yang dikirim)",
       "stiker": {
         "lebar": 120,
@@ -412,93 +451,106 @@
         "diameter": 15,
         "catatan": "valve di muka depan (bukan di muka stiker), supaya tidak tertutup stiker."
       },
-      "tinggi_objek_px": 1400,
+      "tinggi_objek_px": 1520,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/semeru-0.jpg",
+          "kb": 114.9,
           "kotak": [
-            636,
-            240,
-            1364,
-            1640
-          ],
-          "kb": 104.9
+            604,
+            280,
+            1396,
+            1800
+          ]
         },
         "18": {
           "berkas": "assets/img/katalog/semeru-18.jpg",
+          "kb": 123.3,
           "kotak": [
-            624,
-            240,
-            1376,
-            1640
-          ],
-          "kb": 109.7
+            579,
+            280,
+            1421,
+            1800
+          ]
         },
         "40": {
           "berkas": "assets/img/katalog/semeru-40.jpg",
+          "kb": 113.3,
           "kotak": [
-            634,
-            240,
-            1367,
-            1640
-          ],
-          "kb": 110.7
+            578,
+            280,
+            1422,
+            1800
+          ]
         },
         "hero": {
           "berkas": "assets/img/katalog/semeru-hero.jpg",
+          "kb": 84.2,
           "kotak": [
-            1372,
+            1337,
             162,
-            1892,
-            1134
-          ],
-          "kb": 70.8
+            1927,
+            1242
+          ]
         }
       },
       "pasar": {
         "1x1": {
           "berkas": "assets/img/katalog/pasar/semeru-1x1.jpg",
-          "kb": 39.1,
+          "kb": 38.5,
           "ukuran": [
             1000,
             1000
+          ],
+          "kotak": [
+            291,
+            100,
+            709,
+            900
           ]
         },
         "4x5": {
           "berkas": "assets/img/katalog/pasar/semeru-4x5.jpg",
-          "kb": 54.4,
+          "kb": 50.9,
           "ukuran": [
             1080,
             1350
+          ],
+          "kotak": [
+            286,
+            243,
+            793,
+            1215
           ]
         }
       },
-      "pouch": {
-        "valve": {
-          "berkas": "assets/img/pouch/semeru-valve.jpg",
-          "kotak": [
-            637,
-            280,
-            1364,
-            1680
-          ],
-          "kb": 64.7
+      "studio": {
+        "depan": {
+          "berkas": "assets/img/studio/semeru-depan.jpg",
+          "kb": 110.6
         },
-        "muka": {
-          "berkas": "assets/img/pouch/semeru-muka.png",
-          "kb": 216.3,
-          "ukuran": [
-            623,
-            1200
-          ]
+        "tiga-perempat": {
+          "berkas": "assets/img/studio/semeru-tiga-perempat.jpg",
+          "kb": 130.4
+        },
+        "valve": {
+          "berkas": "assets/img/studio/semeru-valve.jpg",
+          "kb": 56.8
         },
         "sisi": {
-          "berkas": "assets/img/pouch/semeru-sisi.png",
-          "kb": 4.7,
-          "ukuran": [
-            208,
-            1202
-          ]
+          "berkas": "assets/img/studio/semeru-sisi.jpg",
+          "kb": 97.2
+        }
+      },
+      "pouch": {
+        "muka": {
+          "berkas": "assets/img/pouch/semeru-muka.png"
+        },
+        "sisi": {
+          "berkas": "assets/img/pouch/semeru-sisi.png"
+        },
+        "valve": {
+          "berkas": "assets/img/studio/semeru-valve.jpg"
         }
       }
     },
@@ -507,6 +559,7 @@
       "nama": "Arjuno",
       "status": "siap",
       "ukuran": "500",
+      "bentuk": "flat-bottom",
       "geometri": {
         "lebar": 135,
         "tinggi": 260,
@@ -515,7 +568,6 @@
         "zipper": 32
       },
       "sisi": 45,
-      "bentuk": "flat-bottom",
       "bahan": "hitam doff (asumsi dari foto produk yang dikirim)",
       "stiker": {
         "lebar": 120,
@@ -532,93 +584,106 @@
         "diameter": 15,
         "catatan": "valve di muka depan (bukan di muka stiker), supaya tidak tertutup stiker."
       },
-      "tinggi_objek_px": 1400,
+      "tinggi_objek_px": 1520,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/arjuno-0.jpg",
+          "kb": 112.4,
           "kotak": [
-            636,
-            240,
-            1364,
-            1640
-          ],
-          "kb": 102.8
+            604,
+            280,
+            1396,
+            1800
+          ]
         },
         "18": {
           "berkas": "assets/img/katalog/arjuno-18.jpg",
+          "kb": 120.7,
           "kotak": [
-            624,
-            240,
-            1376,
-            1640
-          ],
-          "kb": 107.5
+            579,
+            280,
+            1421,
+            1800
+          ]
         },
         "40": {
           "berkas": "assets/img/katalog/arjuno-40.jpg",
+          "kb": 111.3,
           "kotak": [
-            634,
-            240,
-            1367,
-            1640
-          ],
-          "kb": 108.9
+            578,
+            280,
+            1422,
+            1800
+          ]
         },
         "hero": {
           "berkas": "assets/img/katalog/arjuno-hero.jpg",
+          "kb": 82.5,
           "kotak": [
-            1372,
+            1337,
             162,
-            1892,
-            1134
-          ],
-          "kb": 69.3
+            1927,
+            1242
+          ]
         }
       },
       "pasar": {
         "1x1": {
           "berkas": "assets/img/katalog/pasar/arjuno-1x1.jpg",
-          "kb": 37.8,
+          "kb": 37.2,
           "ukuran": [
             1000,
             1000
+          ],
+          "kotak": [
+            291,
+            100,
+            709,
+            900
           ]
         },
         "4x5": {
           "berkas": "assets/img/katalog/pasar/arjuno-4x5.jpg",
-          "kb": 52.6,
+          "kb": 49.3,
           "ukuran": [
             1080,
             1350
+          ],
+          "kotak": [
+            286,
+            243,
+            793,
+            1215
           ]
         }
       },
-      "pouch": {
-        "valve": {
-          "berkas": "assets/img/pouch/arjuno-valve.jpg",
-          "kotak": [
-            637,
-            280,
-            1364,
-            1680
-          ],
-          "kb": 64.7
+      "studio": {
+        "depan": {
+          "berkas": "assets/img/studio/arjuno-depan.jpg",
+          "kb": 107.3
         },
-        "muka": {
-          "berkas": "assets/img/pouch/arjuno-muka.png",
-          "kb": 209.1,
-          "ukuran": [
-            623,
-            1200
-          ]
+        "tiga-perempat": {
+          "berkas": "assets/img/studio/arjuno-tiga-perempat.jpg",
+          "kb": 127.4
+        },
+        "valve": {
+          "berkas": "assets/img/studio/arjuno-valve.jpg",
+          "kb": 56.8
         },
         "sisi": {
-          "berkas": "assets/img/pouch/arjuno-sisi.png",
-          "kb": 4.7,
-          "ukuran": [
-            208,
-            1202
-          ]
+          "berkas": "assets/img/studio/arjuno-sisi.jpg",
+          "kb": 95.2
+        }
+      },
+      "pouch": {
+        "muka": {
+          "berkas": "assets/img/pouch/arjuno-muka.png"
+        },
+        "sisi": {
+          "berkas": "assets/img/pouch/arjuno-sisi.png"
+        },
+        "valve": {
+          "berkas": "assets/img/studio/arjuno-valve.jpg"
         }
       }
     },
@@ -627,6 +692,7 @@
       "nama": "Raung",
       "status": "siap",
       "ukuran": "500",
+      "bentuk": "flat-bottom",
       "geometri": {
         "lebar": 135,
         "tinggi": 260,
@@ -635,7 +701,6 @@
         "zipper": 32
       },
       "sisi": 45,
-      "bentuk": "flat-bottom",
       "bahan": "hitam doff (asumsi dari foto produk yang dikirim)",
       "stiker": {
         "lebar": 120,
@@ -652,93 +717,106 @@
         "diameter": 15,
         "catatan": "valve di muka depan (bukan di muka stiker), supaya tidak tertutup stiker."
       },
-      "tinggi_objek_px": 1400,
+      "tinggi_objek_px": 1520,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/raung-0.jpg",
+          "kb": 118.9,
           "kotak": [
-            636,
-            240,
-            1364,
-            1640
-          ],
-          "kb": 107.9
+            604,
+            280,
+            1396,
+            1800
+          ]
         },
         "18": {
           "berkas": "assets/img/katalog/raung-18.jpg",
+          "kb": 127.0,
           "kotak": [
-            624,
-            240,
-            1376,
-            1640
-          ],
-          "kb": 112.4
+            579,
+            280,
+            1421,
+            1800
+          ]
         },
         "40": {
           "berkas": "assets/img/katalog/raung-40.jpg",
+          "kb": 115.3,
           "kotak": [
-            634,
-            240,
-            1367,
-            1640
-          ],
-          "kb": 112.7
+            578,
+            280,
+            1422,
+            1800
+          ]
         },
         "hero": {
           "berkas": "assets/img/katalog/raung-hero.jpg",
+          "kb": 86.5,
           "kotak": [
-            1372,
+            1337,
             162,
-            1892,
-            1134
-          ],
-          "kb": 72.5
+            1927,
+            1242
+          ]
         }
       },
       "pasar": {
         "1x1": {
           "berkas": "assets/img/katalog/pasar/raung-1x1.jpg",
-          "kb": 40.1,
+          "kb": 39.6,
           "ukuran": [
             1000,
             1000
+          ],
+          "kotak": [
+            291,
+            100,
+            709,
+            900
           ]
         },
         "4x5": {
           "berkas": "assets/img/katalog/pasar/raung-4x5.jpg",
-          "kb": 56.2,
+          "kb": 52.9,
           "ukuran": [
             1080,
             1350
+          ],
+          "kotak": [
+            286,
+            243,
+            793,
+            1215
           ]
         }
       },
-      "pouch": {
-        "valve": {
-          "berkas": "assets/img/pouch/raung-valve.jpg",
-          "kotak": [
-            637,
-            280,
-            1364,
-            1680
-          ],
-          "kb": 64.7
+      "studio": {
+        "depan": {
+          "berkas": "assets/img/studio/raung-depan.jpg",
+          "kb": 115.4
         },
-        "muka": {
-          "berkas": "assets/img/pouch/raung-muka.png",
-          "kb": 226.9,
-          "ukuran": [
-            623,
-            1200
-          ]
+        "tiga-perempat": {
+          "berkas": "assets/img/studio/raung-tiga-perempat.jpg",
+          "kb": 134.0
+        },
+        "valve": {
+          "berkas": "assets/img/studio/raung-valve.jpg",
+          "kb": 56.8
         },
         "sisi": {
-          "berkas": "assets/img/pouch/raung-sisi.png",
-          "kb": 4.7,
-          "ukuran": [
-            208,
-            1202
-          ]
+          "berkas": "assets/img/studio/raung-sisi.jpg",
+          "kb": 99.3
+        }
+      },
+      "pouch": {
+        "muka": {
+          "berkas": "assets/img/pouch/raung-muka.png"
+        },
+        "sisi": {
+          "berkas": "assets/img/pouch/raung-sisi.png"
+        },
+        "valve": {
+          "berkas": "assets/img/studio/raung-valve.jpg"
         }
       }
     },
@@ -747,6 +825,7 @@
       "nama": "Ijen Excelsa",
       "status": "siap",
       "ukuran": "500",
+      "bentuk": "flat-bottom",
       "geometri": {
         "lebar": 135,
         "tinggi": 260,
@@ -755,7 +834,6 @@
         "zipper": 32
       },
       "sisi": 45,
-      "bentuk": "flat-bottom",
       "bahan": "hitam doff (asumsi dari foto produk yang dikirim)",
       "stiker": {
         "lebar": 120,
@@ -772,47 +850,47 @@
         "diameter": 15,
         "catatan": "valve di muka depan (bukan di muka stiker), supaya tidak tertutup stiker."
       },
-      "tinggi_objek_px": 1400,
+      "tinggi_objek_px": 1520,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/ijen-excelsa-0.jpg",
+          "kb": 115.9,
           "kotak": [
-            636,
-            240,
-            1364,
-            1640
-          ],
-          "kb": 105.4
+            604,
+            280,
+            1396,
+            1800
+          ]
         },
         "18": {
           "berkas": "assets/img/katalog/ijen-excelsa-18.jpg",
+          "kb": 124.0,
           "kotak": [
-            624,
-            240,
-            1376,
-            1640
-          ],
-          "kb": 110.4
+            579,
+            280,
+            1421,
+            1800
+          ]
         },
         "40": {
           "berkas": "assets/img/katalog/ijen-excelsa-40.jpg",
+          "kb": 113.8,
           "kotak": [
-            634,
-            240,
-            1367,
-            1640
-          ],
-          "kb": 111.4
+            578,
+            280,
+            1422,
+            1800
+          ]
         },
         "hero": {
           "berkas": "assets/img/katalog/ijen-excelsa-hero.jpg",
+          "kb": 84.6,
           "kotak": [
-            1372,
+            1337,
             162,
-            1892,
-            1134
-          ],
-          "kb": 71.2
+            1927,
+            1242
+          ]
         }
       },
       "pasar": {
@@ -822,43 +900,56 @@
           "ukuran": [
             1000,
             1000
+          ],
+          "kotak": [
+            291,
+            100,
+            709,
+            900
           ]
         },
         "4x5": {
           "berkas": "assets/img/katalog/pasar/ijen-excelsa-4x5.jpg",
-          "kb": 54.3,
+          "kb": 51.1,
           "ukuran": [
             1080,
             1350
+          ],
+          "kotak": [
+            286,
+            243,
+            793,
+            1215
           ]
         }
       },
-      "pouch": {
-        "valve": {
-          "berkas": "assets/img/pouch/ijen-excelsa-valve.jpg",
-          "kotak": [
-            637,
-            280,
-            1364,
-            1680
-          ],
-          "kb": 64.7
+      "studio": {
+        "depan": {
+          "berkas": "assets/img/studio/ijen-excelsa-depan.jpg",
+          "kb": 112.3
         },
-        "muka": {
-          "berkas": "assets/img/pouch/ijen-excelsa-muka.png",
-          "kb": 217.3,
-          "ukuran": [
-            623,
-            1200
-          ]
+        "tiga-perempat": {
+          "berkas": "assets/img/studio/ijen-excelsa-tiga-perempat.jpg",
+          "kb": 131.6
+        },
+        "valve": {
+          "berkas": "assets/img/studio/ijen-excelsa-valve.jpg",
+          "kb": 56.8
         },
         "sisi": {
-          "berkas": "assets/img/pouch/ijen-excelsa-sisi.png",
-          "kb": 4.7,
-          "ukuran": [
-            208,
-            1202
-          ]
+          "berkas": "assets/img/studio/ijen-excelsa-sisi.jpg",
+          "kb": 97.7
+        }
+      },
+      "pouch": {
+        "muka": {
+          "berkas": "assets/img/pouch/ijen-excelsa-muka.png"
+        },
+        "sisi": {
+          "berkas": "assets/img/pouch/ijen-excelsa-sisi.png"
+        },
+        "valve": {
+          "berkas": "assets/img/studio/ijen-excelsa-valve.jpg"
         }
       }
     },
@@ -867,6 +958,7 @@
       "nama": "Blend 70/30",
       "status": "siap",
       "ukuran": "500",
+      "bentuk": "flat-bottom",
       "geometri": {
         "lebar": 135,
         "tinggi": 260,
@@ -875,7 +967,6 @@
         "zipper": 32
       },
       "sisi": 45,
-      "bentuk": "flat-bottom",
       "bahan": "hitam doff (asumsi dari foto produk yang dikirim)",
       "stiker": {
         "lebar": 120,
@@ -892,93 +983,106 @@
         "diameter": 15,
         "catatan": "valve di muka depan (bukan di muka stiker), supaya tidak tertutup stiker."
       },
-      "tinggi_objek_px": 1400,
+      "tinggi_objek_px": 1520,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/blend-7030-0.jpg",
+          "kb": 116.5,
           "kotak": [
-            636,
-            240,
-            1364,
-            1640
-          ],
-          "kb": 105.8
+            604,
+            280,
+            1396,
+            1800
+          ]
         },
         "18": {
           "berkas": "assets/img/katalog/blend-7030-18.jpg",
+          "kb": 124.4,
           "kotak": [
-            624,
-            240,
-            1376,
-            1640
-          ],
-          "kb": 110.7
+            579,
+            280,
+            1421,
+            1800
+          ]
         },
         "40": {
           "berkas": "assets/img/katalog/blend-7030-40.jpg",
+          "kb": 114.0,
           "kotak": [
-            634,
-            240,
-            1367,
-            1640
-          ],
-          "kb": 111.4
+            578,
+            280,
+            1422,
+            1800
+          ]
         },
         "hero": {
           "berkas": "assets/img/katalog/blend-7030-hero.jpg",
+          "kb": 84.7,
           "kotak": [
-            1372,
+            1337,
             162,
-            1892,
-            1134
-          ],
-          "kb": 70.9
+            1927,
+            1242
+          ]
         }
       },
       "pasar": {
         "1x1": {
           "berkas": "assets/img/katalog/pasar/blend-7030-1x1.jpg",
-          "kb": 38.9,
+          "kb": 38.8,
           "ukuran": [
             1000,
             1000
+          ],
+          "kotak": [
+            291,
+            100,
+            709,
+            900
           ]
         },
         "4x5": {
           "berkas": "assets/img/katalog/pasar/blend-7030-4x5.jpg",
-          "kb": 54.5,
+          "kb": 50.9,
           "ukuran": [
             1080,
             1350
+          ],
+          "kotak": [
+            286,
+            243,
+            793,
+            1215
           ]
         }
       },
-      "pouch": {
-        "valve": {
-          "berkas": "assets/img/pouch/blend-7030-valve.jpg",
-          "kotak": [
-            637,
-            280,
-            1364,
-            1680
-          ],
-          "kb": 64.7
+      "studio": {
+        "depan": {
+          "berkas": "assets/img/studio/blend-7030-depan.jpg",
+          "kb": 112.8
         },
-        "muka": {
-          "berkas": "assets/img/pouch/blend-7030-muka.png",
-          "kb": 221.5,
-          "ukuran": [
-            623,
-            1200
-          ]
+        "tiga-perempat": {
+          "berkas": "assets/img/studio/blend-7030-tiga-perempat.jpg",
+          "kb": 131.8
+        },
+        "valve": {
+          "berkas": "assets/img/studio/blend-7030-valve.jpg",
+          "kb": 56.8
         },
         "sisi": {
-          "berkas": "assets/img/pouch/blend-7030-sisi.png",
-          "kb": 4.7,
-          "ukuran": [
-            208,
-            1202
-          ]
+          "berkas": "assets/img/studio/blend-7030-sisi.jpg",
+          "kb": 97.9
+        }
+      },
+      "pouch": {
+        "muka": {
+          "berkas": "assets/img/pouch/blend-7030-muka.png"
+        },
+        "sisi": {
+          "berkas": "assets/img/pouch/blend-7030-sisi.png"
+        },
+        "valve": {
+          "berkas": "assets/img/studio/blend-7030-valve.jpg"
         }
       }
     },
@@ -987,6 +1091,7 @@
       "nama": "Blend 60/40",
       "status": "siap",
       "ukuran": "500",
+      "bentuk": "flat-bottom",
       "geometri": {
         "lebar": 135,
         "tinggi": 260,
@@ -995,7 +1100,6 @@
         "zipper": 32
       },
       "sisi": 45,
-      "bentuk": "flat-bottom",
       "bahan": "hitam doff (asumsi dari foto produk yang dikirim)",
       "stiker": {
         "lebar": 120,
@@ -1012,47 +1116,47 @@
         "diameter": 15,
         "catatan": "valve di muka depan (bukan di muka stiker), supaya tidak tertutup stiker."
       },
-      "tinggi_objek_px": 1400,
+      "tinggi_objek_px": 1520,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/blend-6040-0.jpg",
+          "kb": 116.6,
           "kotak": [
-            636,
-            240,
-            1364,
-            1640
-          ],
-          "kb": 105.9
+            604,
+            280,
+            1396,
+            1800
+          ]
         },
         "18": {
           "berkas": "assets/img/katalog/blend-6040-18.jpg",
+          "kb": 124.6,
           "kotak": [
-            624,
-            240,
-            1376,
-            1640
-          ],
-          "kb": 111.0
+            579,
+            280,
+            1421,
+            1800
+          ]
         },
         "40": {
           "berkas": "assets/img/katalog/blend-6040-40.jpg",
+          "kb": 114.1,
           "kotak": [
-            634,
-            240,
-            1367,
-            1640
-          ],
-          "kb": 111.5
+            578,
+            280,
+            1422,
+            1800
+          ]
         },
         "hero": {
           "berkas": "assets/img/katalog/blend-6040-hero.jpg",
+          "kb": 84.7,
           "kotak": [
-            1372,
+            1337,
             162,
-            1892,
-            1134
-          ],
-          "kb": 70.9
+            1927,
+            1242
+          ]
         }
       },
       "pasar": {
@@ -1062,43 +1166,56 @@
           "ukuran": [
             1000,
             1000
+          ],
+          "kotak": [
+            291,
+            100,
+            709,
+            900
           ]
         },
         "4x5": {
           "berkas": "assets/img/katalog/pasar/blend-6040-4x5.jpg",
-          "kb": 54.7,
+          "kb": 51.0,
           "ukuran": [
             1080,
             1350
+          ],
+          "kotak": [
+            286,
+            243,
+            793,
+            1215
           ]
         }
       },
-      "pouch": {
-        "valve": {
-          "berkas": "assets/img/pouch/blend-6040-valve.jpg",
-          "kotak": [
-            637,
-            280,
-            1364,
-            1680
-          ],
-          "kb": 64.7
+      "studio": {
+        "depan": {
+          "berkas": "assets/img/studio/blend-6040-depan.jpg",
+          "kb": 112.9
         },
-        "muka": {
-          "berkas": "assets/img/pouch/blend-6040-muka.png",
-          "kb": 222.0,
-          "ukuran": [
-            623,
-            1200
-          ]
+        "tiga-perempat": {
+          "berkas": "assets/img/studio/blend-6040-tiga-perempat.jpg",
+          "kb": 132.0
+        },
+        "valve": {
+          "berkas": "assets/img/studio/blend-6040-valve.jpg",
+          "kb": 56.8
         },
         "sisi": {
-          "berkas": "assets/img/pouch/blend-6040-sisi.png",
-          "kb": 4.7,
-          "ukuran": [
-            208,
-            1202
-          ]
+          "berkas": "assets/img/studio/blend-6040-sisi.jpg",
+          "kb": 97.9
+        }
+      },
+      "pouch": {
+        "muka": {
+          "berkas": "assets/img/pouch/blend-6040-muka.png"
+        },
+        "sisi": {
+          "berkas": "assets/img/pouch/blend-6040-sisi.png"
+        },
+        "valve": {
+          "berkas": "assets/img/studio/blend-6040-valve.jpg"
         }
       }
     }

@@ -1,4 +1,4 @@
-# Laporan periksa — 2026-11-08
+# Laporan periksa — 2026-11-09
 
 Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 
@@ -6,7 +6,7 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 | --- | --- |
 | Pemeriksaan lolos | **31** |
 | Peringatan | **0** |
-| Gagal (harus diperbaiki) | **0** |
+| Gagal (harus diperbaiki) | **1** |
 
 | Kategori | Status | Hasil | Catatan |
 | --- | --- | --- | --- |
@@ -33,10 +33,11 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 | Biji 3D | ✅ lolos | 6 zona · 12 senyawa · 4 sumber literatur · poster 640×800 · verifikasi 12/12 | — |
 | Biji sangrai | ✅ lolos | 9 SKU · 4 ukuran · harga dari katalog · tanpa CDN · reduced-motion | — |
 | Berkas luring | ✅ lolos | 1 berkas 975 KB · CSS+JS+huruf+gambar tersisip · 0 tautan aset relatif | dibuka langsung dari folder unduhan |
-| Pintu semua | ✅ lolos | 16 halaman tertaut · angka dari periksa.json · satu berkas | — |
+| Pintu semua | ❌ gagal | 16 halaman tertaut · angka dari periksa.json · satu berkas | angka gerbang tidak mutakhir — jalankan tools/semua.py |
 | Huruf lokal | ✅ lolos | 4 berkas variabel 231 KB · 0 permintaan ke Google Fonts · rentang bobot cocok dengan CSS | — |
 | Pustaka gaya | ✅ lolos | 20 gaya · 6 kategori · tiap gaya: prompt + negatif + rasio + alat | — |
 | Rak sangrai | ✅ lolos | 12 kotak 3D · sampul 363 KB · punggung 179 KB · uji asap lolos · spesifikasi template 105/105 | — |
+| Foto katalog | ✅ lolos | 9 SKU kemasan 500 g flat-bottom (stiker belakang) · 3 sudut + hero + 4 studio 2000 px + 2 muka rak · 18 foto marketplace putih murni · halaman diperiksa lolos · versi 1 berkas ada | — |
 | Pustaka skill | ✅ lolos | 12 skill · frontmatter patuh · semuanya terdaftar di skills/README.md | — |
 | Kemasan 3D | ✅ lolos | belum ada foto diproses | — |
 | Berat halaman awal | ✅ lolos | 98 KB (batas 1.500 KB) | — |
