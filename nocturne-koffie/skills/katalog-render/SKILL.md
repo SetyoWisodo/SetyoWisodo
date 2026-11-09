@@ -106,6 +106,31 @@ Urutan kerja yang benar setelah angka datang: **isi JSON → `--spesimen` (cocok
 di tangan) → render penuh → `--cek` → uji halaman → versi luring → `periksa.py`**. Kalau
 spesimen belum cocok, jangan render 36 foto; yang salah masih JSON, bukan kode.
 
+### Kemasan nyata: flat-bottom, valve, dan stiker
+
+Kalau pemilik mengirim **bentuk** kemasan (bukan cuma ukuran), kotak label tidak cukup.
+Kasus 9 Nov 2026: flat-bottom 13,5 × 26 cm, valve di muka depan, desain sebagai **stiker
+12 × 17 cm di tengah muka belakang**. Yang berubah:
+
+| Hal | Kotak label (`katalog.py`) | Kemasan nyata (`pouch.py`) |
+| --- | --- | --- |
+| Penampang | 4 titik (persegi) | **8 titik**: panel, chamfer, sisi gusset |
+| Atas | gusset penuh → seperti flap | menyempit **72%** karena zipper menarik panel |
+| Muka | 3 (depan, sisi, atas) | **8** muka dari daftar `MUKA` (pasangan titik + normal) |
+| Desain | label menutup panel | **stiker** ditempel: bayangan, tepi, posisi dari spesifikasi |
+| Valve | tidak ada | cincin + kubah + busur pantulan di muka depan |
+| Muka jualan | depan | **belakang** (sisi stiker) — valve tidak boleh terhalang |
+| Keluaran tambahan | — | `<id>-valve.jpg`, `<id>-muka.png`, `<id>-sisi.png` untuk rak |
+
+Aturan yang terbukti: **jangan menghitung skala proyeksi dalam milimeter lalu memakainya
+sebagai piksel.** Bug pertama di `pouch.py` membuat seluruh gambar keluar 8,6 px karena
+koordinat mm dipakai langsung; hasilnya terlihat seperti potongan kecil di tengah kanvas
+kosong. Kalikan hasil proyeksi dengan `tinggi_piksel / tinggi_mm` sebelum menyentuh PIL.
+
+Aturan kedua: **tekstur muka sempit jangan diberi tenun berjarak tetap.** Muka chamfer 10 mm
+hanya selebar beberapa piksel; garis tenun tiap 3 px membuatnya tampak seperti karung.
+Jarak tenun harus proporsional terhadap lebar tekstur, atau dimatikan untuk muka sempit.
+
 ### Yang belum didukung (jangan dijanjikan)
 
 Panel belakang berdesain, jendela transparan, foil/spot-UV, sisi gusset berlipat-lipat,
@@ -159,8 +184,9 @@ muka dengan gusset bawah**, muka belakang polos sewarna bahan.
 | --- | --- |
 | Rupa akhir halaman katalog | **belum pernah dilihat** — tidak ada Chromium; uji hanya memeriksa data & sambungan |
 | Foto sebagai "foto produk" | ini render dari label, bukan pemotretan kemasan fisik |
-| Akurasi bentuk | pouch empat muka + gusset bawah; lipatan gusset tidak dimodelkan sebagai geometri, hanya digelapkan |
+| Akurasi bentuk | flat-bottom 8 titik (panel + chamfer + sisi); lipatan kertas di sudut, jahitan, foil/spot-UV tidak dimodelkan |
+| Ketebalan kemasan 500 g | **asumsi** 45 mm sisi / 10 mm chamfer (ukuran & stiker dari pemilik) |
 | Panel belakang | polos sewarna bahan — desain belakang belum ada |
-| Angka kemasan sekarang | **sementara** (100×160 / 120×200 / 150×250 mm) sampai pemilik mengonfirmasi |
+| Angka kemasan sekarang | 500 g: 135 × 260 mm (pemilik) + ketebalan asumsi |
 | Model 3D dari tujuh repo | tidak satu pun dijalankan (butuh GPU/Blender/bobot) |
 | Sudut 40° di versi luring | tidak disisipkan ke berkas tunggal (hemat 400 KB); tombolnya jatuh ke sudut 0° |

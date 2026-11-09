@@ -211,13 +211,14 @@ gusset, segel, zipper, valve, warna, dan kilap dibaca dari `data/kemasan-katalog
 
 | Bagian | Isi |
 | --- | --- |
-| `data/kemasan-katalog.json` | spesifikasi kemasan (mm, warna, kilap, valve). **Sumber angka bentuk** — ganti di sini, bukan di kode |
-| `tools/katalog.py` | render 9 SKU × 3 sudut (0°, −18°, 40°) + hero 16:9 + 18 foto marketplace; proyeksi perspektif + homografi balik, 8 titik & back-face culling, key light kiri-atas |
+| `data/kemasan-katalog.json` | spesifikasi kemasan (mm, sisi, segel, zipper, valve, stiker, warna, kilap). **Sumber angka bentuk** — ganti di sini, bukan di kode |
+| `tools/katalog.py` | rig studio & kotak label (dipakai untuk uji/sudut); render 3 sudut + hero + 18 foto marketplace |
+| `tools/pouch.py` | **kemasan sebenarnya**: flat-bottom 500 g, 8 titik penampang, stiker 12 × 17 cm di muka belakang, valve di muka depan; keluaran + dua muka datar untuk `rak/` |
 | `katalog/index.html` + `.css` + `.js` | halaman bukti: hero 16:9, grid 9 kartu, detail (ukuran, sudut, WhatsApp, spesifikasi kemasan), strip **foto marketplace** |
 | `tools/katalog-uji.mjs` | 36 butir tanpa peramban: data, kartu, sudut, harga, WA, spesifikasi kemasan, foto putih |
 | `tools/katalog-luring.py` | satu berkas HTML **1,1 MB** (foto diperkecil disisipkan) |
 | `laporan/katalog-render.png` | lembar kontak 9 × 3 untuk menilai keseragaman seri |
-| `laporan/kemasan-spesimen.png` | tiga ukuran bersebelahan, skala mm — untuk dicocokkan dengan kemasan di tangan |
+| `laporan/pouch-spesimen.png` | muka stiker · muka valve · 3/4 — untuk dicocokkan dengan kemasan di tangan |
 
 | Keluaran foto | Ukuran | Untuk |
 | --- | --- | --- |
@@ -240,15 +241,32 @@ node tools/katalog-uji.mjs              # halaman katalog
 python3 tools/katalog-luring.py         # versi satu berkas untuk dibuka tanpa server
 ```
 
-**Kalau spesifikasi kemasan dikirim:** isi `data/kemasan-katalog.json` → `--spesimen` (cocokkan
-ke kemasan di tangan) → render penuh → `--cek` → uji halaman → versi luring → `periksa.py`.
-Angka yang sekarang dipakai **masih sementara** (100 × 160 / 120 × 200 / 150 × 250 mm, kraft
-matte `#F0EBE0`, kilap 0,22, tanpa valve) — dipilih supaya rasio label pas, bukan hasil ukur.
-Statusnya ditulis apa adanya di halaman katalog (`data/kemasan-katalog.json` → `status`).
+### Kemasan 500 g flat-bottom (spesifikasi pemilik, 9 Nov 2026)
 
-**Batas:** ini render dari label, **bukan** pemotretan kemasan fisik; pouch dimodelkan empat
-muka + gusset bawah (lipatan gusset hanya digelapkan, panel belakang polos, belum ada jendela
-transparan/foil/spot-UV). Tampilan halaman belum pernah dilihat — tidak ada Chromium. Sumber
+| Angka | Nilai | Sumber |
+| --- | --- | --- |
+| Ukuran | **135 × 260 mm** | pemilik |
+| Bentuk | **flat-bottom**, valve di **muka depan** | pemilik |
+| Stiker | **120 × 170 mm**, di **tengah muka belakang** | pemilik |
+| Ketebalan sisi / chamfer | 45 mm / 10 mm | **asumsi** |
+| Bahan | `#1B1A18`, kilap 0,16 (doff) | **asumsi** dari foto produk |
+
+```bash
+python3 tools/pouch.py            # 9 SKU: 3 sudut + hero + valve + 2 muka rak (≈ 9 menit)
+python3 tools/pouch.py --satu gayo
+python3 tools/pouch.py --cek      # geometri = JSON, latar marketplace putih, berkas rak ada
+python3 tools/rak.py              # data rak membaca muka pouch → rak berisi kemasan, bukan kaset
+```
+
+**Rak sangrai** (`rak/`) kini menampilkan **kemasan 500 g**, bukan kaset VHS: muka stiker sebagai
+"sampul", sisi gusset sebagai "punggung". Rasio muka dibaca dari `rak/data.js → FACE`, jadi
+mengganti objek tidak menyunting mesin animasi. Rak memuat **9 lot berlabel**; paket dan kartu
+member tetap ada di katalog tapi tidak berdiri di rak (tidak punya kemasan).
+
+Laporan lengkap angka & batas: [`laporan/kemasan-500g.md`](laporan/kemasan-500g.md).
+
+**Batas:** ini render dari label + geometri sendiri, **bukan** pemotretan kemasan fisik; lipatan
+kertas di sudut, jahitan, foil/spot-UV, dan cetakan di muka depan tidak dimodelkan. Tampilan halaman belum pernah dilihat — tidak ada Chromium. Sumber
 gagasan: post [`@thegreatest_sv`](https://x.com/thegreatest_sv/status/2119129564047982889)
 (7 repo 3D, 7 Nov 2026) — **nol** repo di post itu dijalankan di sini; yang dipakai resep rig-nya.
 Skill: [`skills/katalog-render`](skills/katalog-render/SKILL.md).
