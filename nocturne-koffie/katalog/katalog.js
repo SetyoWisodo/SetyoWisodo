@@ -41,6 +41,44 @@
     ].map(([k, v]) => '<div><dt>' + k + '</dt><dd>' + v + '</dd></div>').join('');
   }
 
+  /* --------------------------------------------- spesifikasi kemasan --- */
+  // Angka dari data/kemasan-katalog.json (lewat window.KATALOG.kemasan). Selama pemilik
+  // belum mengonfirmasi ukuran & bahan, statusnya ditulis apa adanya di halaman.
+  const KP = K.kemasan || null;
+  const KEMASAN_TEKS = KP
+    ? KP.lebar + ' × ' + KP.tinggi + ' mm · gusset ' + KP.gusset +
+      ' mm · zipper ' + KP.zipper + ' mm · ' + (KP.bahan || 'bahan belum diisi')
+    : '';
+  if (KP) {
+    const el = $('#kemasan');
+    el.innerHTML = '<b>Kemasan ' + KP.berat + '</b> — ' + KEMASAN_TEKS +
+      '. Warna bahan <b>' + KP.warna + '</b>, kilap ' + KP.kilap +
+      (KP.valve ? ', dengan valve satu arah' : ', tanpa valve') + '. ' +
+      (KP.status ? 'Status spesifikasi: ' + KP.status + '.' : '');
+    if (/sementara|belum/i.test(KP.status || '')) el.classList.add('is-sementara');
+  }
+
+  /* ----------------------------------------------------- marketplace --- */
+  const strip = $('#pasarStrip');
+  if (strip) {
+    SKU.forEach((s) => {
+      const li = document.createElement('li');
+      li.innerHTML =
+        '<figure style="margin:0">' +
+          '<img src="' + (s.pasar['1x1'] || '') + '" alt="Kemasan ' + s.nama +
+            ' latar putih untuk marketplace" width="1000" height="1000" loading="lazy" />' +
+          '<figcaption>' + s.nama + '</figcaption>' +
+        '</figure>';
+      strip.appendChild(li);
+    });
+    const ada = SKU.filter((s) => s.pasar && s.pasar['1x1']).length;
+    if (ada) {
+      $('#pasarCatatan').textContent =
+        ada + ' lot · ' + (ada * 2) + ' berkas · latar #FFFFFF · tanpa bayangan · ' +
+        '1:1 1000 px + 4:5 1080 × 1350';
+    }
+  }
+
   /* ----------------------------------------------------- teks masuk --- */
   function naik(sel, tunda = 0) {
     document.querySelectorAll(sel).forEach((el, i) => {
@@ -105,6 +143,13 @@
     });
     const u = s.ukuran[varianAktif] || s.ukuran[0];
     $('#dHarga').textContent = rupiah(u.harga) + ' · ' + u.label;
+    if ($('#dKemasan')) {
+      // ukuran kemasan foto = ukuran yang dirender rig; berat lain belum difoto
+      $('#dKemasan').textContent = KP
+        ? 'Foto: kemasan ' + KP.ukuran + ' g (' + KP.lebar + ' × ' + KP.tinggi +
+          ' mm) · pesanan ' + u.label + ' dikemas sesuai ukuran tersebut'
+        : u.label;
+    }
     $('#dCta').href = WA + '?text=' + encodeURIComponent(
       'Halo Nocturne, saya mau pesan ' + s.nama + ' ' + u.label + ' (' + rupiah(u.harga) + ').');
 

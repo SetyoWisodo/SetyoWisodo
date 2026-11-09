@@ -1,0 +1,55 @@
+{
+  "_catatan": "Spesifikasi kemasan yang dipakai tools/katalog.py. Angka di bawah ini SEMENTARA: dipilih supaya rasio label yang sudah ada (827x1181) pas, bukan hasil pengukuran kemasan fisik. Kirim ukuran/ warna/ tampilan sebenarnya, lalu angka di sini diganti dan semua foto dirender ulang.",
+  "status": "sementara — belum dikonfirmasi pemilik",
+  "satuan": "mm",
+  "bentuk": "stand-up pouch, segel atas, zipper",
+  "ukuran_aktif": "250",
+  "ukuran": {
+    "100": {
+      "lebar": 100,
+      "tinggi": 160,
+      "gusset": 30,
+      "segel": 12,
+      "zipper": 26,
+      "berat": "100 g"
+    },
+    "250": {
+      "lebar": 120,
+      "tinggi": 200,
+      "gusset": 35,
+      "segel": 13,
+      "zipper": 28,
+      "berat": "250 g"
+    },
+    "500": {
+      "lebar": 150,
+      "tinggi": 250,
+      "gusset": 40,
+      "segel": 14,
+      "zipper": 30,
+      "berat": "500 g"
+    }
+  },
+  "bahan": {
+    "nama": "kraft matte (sementara)",
+    "warna": "#F0EBE0",
+    "kilap": 0.22,
+    "catatan": "kilap 0 = matte total, 1 = metalik mengilap. Warna dipakai untuk sisi, tutup, dan pita segel."
+  },
+  "depan": {
+    "cetak_penuh": true,
+    "margin": 0,
+    "catatan": "cetak_penuh true = desain menutupi seluruh muka depan. false + margin mm = label ditempel di atas bahan."
+  },
+  "valve": {
+    "ada": false,
+    "x": 0.5,
+    "y_dari_atas": 60,
+    "diameter": 15,
+    "catatan": "valve satu arah (degassing). x = 0..1 dari kiri muka depan, y_dari_atas dalam mm."
+  },
+  "segel": {
+    "gerigi": 7,
+    "catatan": "gerigi = jarak garis crimp dalam mm"
+  }
+}

@@ -206,30 +206,50 @@ geometri, dan sambungan, bukan rupa.
 Foto produk tidak datang dari generator gambar (ditolak 5 Nov) dan tidak dari Blender (tidak ada
 di sandbox). Yang dipakai: **rig studio deterministik** yang merender label vektor yang sudah
 ada — sudut, cahaya, latar, dan bayangan yang sama untuk kesembilan SKU, sehingga katalognya
-terbaca sebagai satu sesi foto.
+terbaca sebagai satu sesi foto. **Bentuk kemasannya tidak ditanam di kode**: lebar, tinggi,
+gusset, segel, zipper, valve, warna, dan kilap dibaca dari `data/kemasan-katalog.json`.
 
 | Bagian | Isi |
 | --- | --- |
-| `tools/katalog.py` | render 9 SKU × 3 sudut (0°, −18°, 40°) + hero 16:9; proyeksi 3D + **homografi balik**, key light kiri-atas, sisi/atas papan kosong, bayangan kontak & jatuh, latar kertas + vignette |
-| `katalog/index.html` + `.css` + `.js` | halaman bukti: hero 16:9 dengan judul di kiri, grid 9 kartu (hover → sudut 3/4), detail dengan pilihan ukuran, sudut, dan tautan WhatsApp |
-| `tools/katalog-uji.mjs` | 27 butir tanpa peramban: data = `catalog.json`, 9 kartu, pergantian sudut, harga varian, WA, Escape |
+| `data/kemasan-katalog.json` | spesifikasi kemasan (mm, warna, kilap, valve). **Sumber angka bentuk** — ganti di sini, bukan di kode |
+| `tools/katalog.py` | render 9 SKU × 3 sudut (0°, −18°, 40°) + hero 16:9 + 18 foto marketplace; proyeksi perspektif + homografi balik, 8 titik & back-face culling, key light kiri-atas |
+| `katalog/index.html` + `.css` + `.js` | halaman bukti: hero 16:9, grid 9 kartu, detail (ukuran, sudut, WhatsApp, spesifikasi kemasan), strip **foto marketplace** |
+| `tools/katalog-uji.mjs` | 36 butir tanpa peramban: data, kartu, sudut, harga, WA, spesifikasi kemasan, foto putih |
 | `tools/katalog-luring.py` | satu berkas HTML **1,1 MB** (foto diperkecil disisipkan) |
 | `laporan/katalog-render.png` | lembar kontak 9 × 3 untuk menilai keseragaman seri |
+| `laporan/kemasan-spesimen.png` | tiga ukuran bersebelahan, skala mm — untuk dicocokkan dengan kemasan di tangan |
 
-Angka yang dipegang: objek **70%** tinggi bidang (toleransi 8% antar SKU), hero **72%** di
-`x = 68%` (kiri kosong untuk judul), tebal kemasan **6,5%**, pitch **−5°**, muka samping
-**62%** kecerahan (kanan) / **96%** (kiri), katalog **2000²**, hero **2400×1350**.
+| Keluaran foto | Ukuran | Untuk |
+| --- | --- | --- |
+| `<id>-{0,18,40}.jpg` | 2000 × 2000 | katalog web, halaman produk |
+| `<id>-hero.jpg` | 2400 × 1350 | hero landing page (kiri sengaja kosong untuk judul) |
+| `pasar/<id>-1x1.jpg` | 1000 × 1000 | foto utama Tokopedia / Shopee / TikTok Shop |
+| `pasar/<id>-4x5.jpg` | 1080 × 1350 | feed & katalog sosial |
+
+Foto marketplace memakai **latar putih murni tanpa bayangan** — bukan versi kecil dari foto
+katalog, karena aturan foto utama marketplace menolak latar berwarna. `--cek` menguji keempat
+sudut setiap berkas pasar harus ≥ 250 di semua kanal.
 
 ```bash
-python3 tools/katalog.py            # render semua SKU → assets/img/katalog/ (4,0 MB)
-python3 tools/katalog.py --cek      # ukuran, tinggi objek, konsistensi rig
-node tools/katalog-uji.mjs          # halaman: data, kartu, sudut, harga, WhatsApp
-python3 tools/katalog-luring.py     # versi satu berkas untuk dibuka tanpa server
+python3 tools/katalog.py                # render penuh (≈ 90 detik)
+python3 tools/katalog.py --ukuran 500   # paksa satu ukuran pouch
+python3 tools/katalog.py --satu gayo    # satu SKU, untuk mencoba sudut/cahaya
+python3 tools/katalog.py --spesimen     # lembar tiga ukuran, untuk dicocokkan ke fisik
+python3 tools/katalog.py --cek          # ukuran, konsistensi, latar putih, geometri = JSON
+node tools/katalog-uji.mjs              # halaman katalog
+python3 tools/katalog-luring.py         # versi satu berkas untuk dibuka tanpa server
 ```
 
-**Batas:** ini render dari label, **bukan** pemotretan kemasan fisik; kemasan dimodelkan sebagai
-kotak (gusset & zipper tidak dimodelkan). Tampilan halaman belum pernah dilihat — tidak ada
-Chromium. Sumber gagasan: post [`@thegreatest_sv`](https://x.com/thegreatest_sv/status/2119129564047982889)
+**Kalau spesifikasi kemasan dikirim:** isi `data/kemasan-katalog.json` → `--spesimen` (cocokkan
+ke kemasan di tangan) → render penuh → `--cek` → uji halaman → versi luring → `periksa.py`.
+Angka yang sekarang dipakai **masih sementara** (100 × 160 / 120 × 200 / 150 × 250 mm, kraft
+matte `#F0EBE0`, kilap 0,22, tanpa valve) — dipilih supaya rasio label pas, bukan hasil ukur.
+Statusnya ditulis apa adanya di halaman katalog (`data/kemasan-katalog.json` → `status`).
+
+**Batas:** ini render dari label, **bukan** pemotretan kemasan fisik; pouch dimodelkan empat
+muka + gusset bawah (lipatan gusset hanya digelapkan, panel belakang polos, belum ada jendela
+transparan/foil/spot-UV). Tampilan halaman belum pernah dilihat — tidak ada Chromium. Sumber
+gagasan: post [`@thegreatest_sv`](https://x.com/thegreatest_sv/status/2119129564047982889)
 (7 repo 3D, 7 Nov 2026) — **nol** repo di post itu dijalankan di sini; yang dipakai resep rig-nya.
 Skill: [`skills/katalog-render`](skills/katalog-render/SKILL.md).
 

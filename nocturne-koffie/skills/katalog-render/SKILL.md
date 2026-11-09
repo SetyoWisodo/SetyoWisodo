@@ -45,13 +45,20 @@ rig-nya**, dan itu diakui di laporan. Yang benar-benar dipakai untuk menghasilka
 
 ## Resep yang dipakai (angka, bukan kesan)
 
+Bentuk kemasan **tidak lagi ditanam di kode**: lebar, tinggi, gusset, segel, zipper, valve,
+warna bahan, dan kilap dibaca dari `data/kemasan-katalog.json`. Yang tinggal di kode hanya
+rig cahaya, sudut, dan tata letak bidang.
+
 | Bagian | Angka | Alasan |
 | --- | --- | --- |
 | Sudut | **0°, −18°, 40°** | depan untuk katalog, 3/4 untuk hover, sisi untuk meyakinkan bentuk |
 | Pitch kamera | **−5°** | sedikit dari atas; lebih dari 8° membuat label terbaca miring |
-| Tebal kemasan | **6,5% lebar depan** | karton terisi 200–250 g, bukan balok |
+| Geometri | **dari `data/kemasan-katalog.json`** (lebar/tinggi/gusset/segel/zipper mm) | angka pemilik, bukan tebakan; tinggi label = tinggi − pita segel |
+| Tebal = gusset | **gusset ÷ lebar** (mis. 35/120) | gusset menentukan kedalaman, bukan asumsi "kotak" |
 | Key light | arah **(−0,62, −0,78)** | kiri-atas, sama untuk semua SKU |
-| Muka samping | **62%** kecerahan muka depan (kanan) · **96%** (kiri, saat kena lampu) | satu sumber cahaya |
+| Muka samping | **74%** kecerahan muka depan (kanan) · **96%** (kiri, saat kena lampu) | satu sumber cahaya |
+| Muka atas | hanya **12% kedalaman gusset** | di bawah segel kedua panel terjepit; gusset penuh membuat tutup seperti flap amplop |
+| Kilau bahan | `bahan.kilap` **0–1** (0,22 untuk kraft matte) | pita vertikal dari arah key light, bukan refleksi palsu |
 | Gradien samping | turun **30%** ke tepi jauh | sisi jauh selalu lebih gelap |
 | Muka atas | **102%** + turun 20% ke kanan | cahaya dari atas |
 | Latar | `#EDEBE6` → `#F6F3EC` + vignette | kertas brand, bukan putih studio |
@@ -63,16 +70,47 @@ rig-nya**, dan itu diakui di laporan. Yang benar-benar dipakai untuk menghasilka
 ## Alur kerja
 
 ```bash
-python3 tools/katalog.py            # render 9 SKU × 3 sudut + 9 hero  → 4 MB
-python3 tools/katalog.py --satu gayo   # satu SKU saja, untuk mencoba sudut/cahaya
-python3 tools/katalog.py --cek      # ukuran, tinggi objek, letak objek di hero, konsistensi
-node tools/katalog-uji.mjs          # halaman katalog: data, kartu, sudut, harga, WA (tanpa peramban)
-python3 tools/katalog-luring.py     # satu berkas HTML 1,1 MB, foto disisipkan (tanpa server)
+python3 tools/katalog.py                # 9 SKU × 3 sudut + 9 hero + 18 foto pasar
+python3 tools/katalog.py --ukuran 500   # paksa satu ukuran pouch (100/250/500)
+python3 tools/katalog.py --satu gayo    # satu SKU saja, untuk mencoba sudut/cahaya
+python3 tools/katalog.py --spesimen     # hanya lembar tiga ukuran (untuk dicocokkan ke fisik)
+python3 tools/katalog.py --cek          # ukuran, tinggi objek, konsistensi, latar putih pasar
+node tools/katalog-uji.mjs              # halaman: data, kartu, sudut, harga, WA, spesifikasi
+python3 tools/katalog-luring.py         # satu berkas HTML 1,1 MB, foto disisipkan (tanpa server)
 ```
 
-Keluaran: `assets/img/katalog/<id>-{0,18,40,hero}.jpg`, `data/katalog.js` (harga dari
-`data/catalog.json`), `laporan/katalog-render.png` (lembar kontak 9 × 3), dan halaman
-`katalog/index.html`.
+Keluaran: `assets/img/katalog/<id>-{0,18,40,hero}.jpg`, `assets/img/katalog/pasar/<id>-{1x1,4x5}.jpg`
+(latar **putih murni**, tanpa bayangan — syarat foto utama marketplace),
+`data/katalog.js` (harga dari `data/catalog.json`, geometri dari `data/kemasan-katalog.json`),
+`laporan/katalog-render.png` (lembar kontak 9 × 3), `laporan/kemasan-spesimen.png`
+(tiga ukuran bersebelahan, skala mm), dan halaman `katalog/index.html`.
+
+## Kalau pemilik mengirim spesifikasi kemasan
+
+Ini jalur yang dipakai sejak 9 Nov 2026: pemilik mengirim ukuran, warna, dan tampilan
+kemasan; angka itu masuk ke **`data/kemasan-katalog.json`**, lalu render dijalankan ulang.
+Tidak ada angka kemasan yang boleh ditanam kembali di kode.
+
+| Yang diminta | Kunci | Efeknya di foto |
+| --- | --- | --- |
+| Lebar × tinggi pouch (mm) per berat | `ukuran.<berat>.{lebar,tinggi}` | rasio objek; tinggi label = tinggi − pita segel |
+| Gusset / kedalaman (mm) | `ukuran.<berat>.gusset` | tebal kemasan di semua sudut, panjang bayangan |
+| Pita segel atas & zipper (mm) | `ukuran.<berat>.{segel,zipper}` | pita kertas di atas desain, dua garis zipper |
+| Warna & jenis bahan | `bahan.{warna,nama}` | warna sisi, muka atas, dan pita segel |
+| Kilap bahan | `bahan.kilap` | 0 matte (kraft) · 1 mengilap (metalik/PE) |
+| Label menutup penuh? margin (mm) | `depan.{cetak_penuh,margin}` | cetak penuh vs label ditempel di atas bahan |
+| Valve degassing | `valve.{ada,x,y_dari_atas,diameter}` | cincin valve di muka depan |
+| Berat yang dipakai untuk foto | `ukuran_aktif` | satu seri foto memakai satu ukuran |
+
+Urutan kerja yang benar setelah angka datang: **isi JSON → `--spesimen` (cocokkan ke kemasan
+di tangan) → render penuh → `--cek` → uji halaman → versi luring → `periksa.py`**. Kalau
+spesimen belum cocok, jangan render 36 foto; yang salah masih JSON, bukan kode.
+
+### Yang belum didukung (jangan dijanjikan)
+
+Panel belakang berdesain, jendela transparan, foil/spot-UV, sisi gusset berlipat-lipat,
+dan kemasan tegak bersegel pres (bukan zipper). Bentuk sekarang = **stand-up pouch empat
+muka dengan gusset bawah**, muka belakang polos sewarna bahan.
 
 ## Tiga kesalahan yang sudah dibayar di sini
 
@@ -86,6 +124,19 @@ Keluaran: `assets/img/katalog/<id>-{0,18,40,hero}.jpg`, `data/katalog.js` (harga
 3. **Pangkas dengan ambang warna.** Latar kertas `#EDEBE6` dan kertas label `#F0EBE0` hanya
    beda beberapa satuan; `getbbox` dengan ambang 12 ikut memotong tepi objek dan menyisakan
    kotak. Yang benar: pangkas tepat sebesar padding geometri yang sudah dihitung.
+
+4. **Tanda kedalaman proyeksi terbalik.** Selama beberapa iterasi, `k = f / (f + z2)` membuat
+   titik yang lebih dekat justru mengecil, sehingga foto menampilkan **punggung** kemasan dan
+   muka depan terlihat sebagai sisi. Gejalanya membingungkan: tutup atas seperti flap, label
+   miring ke arah yang salah. Pelajaran: pada render geometris, **periksa satu fakta yang bisa
+   dihitung** (mis. titik depan harus punya z terbesar dan lebar terbesar) sebelum menyalahkan
+   cahaya atau tekstur. Perbaikannya bukan tambal-sulam, tetapi menulis ulang fungsi kotak
+   dengan 8 titik + normal muka + back-face culling + urutan gambar dari z.
+
+5. **Titik tambahan di poligon topeng.** Untuk membuat sisi "menggembung" ada titik kelima yang
+   ditaruh di ujung daftar; urutan poligon jadi menyilang dan topengnya menusuk ke luar seperti
+   flap. Kalau bentuk butuh lebih dari 4 titik, urutannya harus mengelilingi muka, bukan
+   ditambahkan di akhir.
 
 ## Aturan yang memegang seluruh skill
 
@@ -108,6 +159,8 @@ Keluaran: `assets/img/katalog/<id>-{0,18,40,hero}.jpg`, `data/katalog.js` (harga
 | --- | --- |
 | Rupa akhir halaman katalog | **belum pernah dilihat** — tidak ada Chromium; uji hanya memeriksa data & sambungan |
 | Foto sebagai "foto produk" | ini render dari label, bukan pemotretan kemasan fisik |
-| Akurasi bentuk | kemasan dimodelkan sebagai kotak; lipatan gusset dan zipper tidak dimodelkan |
+| Akurasi bentuk | pouch empat muka + gusset bawah; lipatan gusset tidak dimodelkan sebagai geometri, hanya digelapkan |
+| Panel belakang | polos sewarna bahan — desain belakang belum ada |
+| Angka kemasan sekarang | **sementara** (100×160 / 120×200 / 150×250 mm) sampai pemilik mengonfirmasi |
 | Model 3D dari tujuh repo | tidak satu pun dijalankan (butuh GPU/Blender/bobot) |
 | Sudut 40° di versi luring | tidak disisipkan ke berkas tunggal (hemat 400 KB); tombolnya jatuh ke sudut 0° |

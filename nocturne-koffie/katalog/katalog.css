@@ -241,3 +241,43 @@ button.box{appearance:none;border-radius:0}
   html{scroll-behavior:auto}
   .kartu,.kartu__bingkai img,.cur__ring,.cur__dot{transition-duration:1ms}
 }
+
+/* --------------------------------------------------- spesifikasi kemasan --- */
+.kemasan{
+  margin:14px 0 0;max-width:52ch;font-size:11.5px;line-height:1.6;color:var(--muted);
+  border-left:2px solid var(--brand-orange);padding-left:12px;
+}
+.kemasan b{font-weight:600;color:var(--ink)}
+.kemasan.is-sementara{border-left-color:var(--accent)}
+
+/* --------------------------------------------------------- marketplace --- */
+.pasar{padding:0 32px clamp(48px,7vw,96px)}
+.pasar__kepala{
+  display:grid;grid-template-columns:1fr minmax(0,52ch);gap:clamp(16px,3vw,48px);
+  align-items:end;border-top:1px solid var(--garis);padding-top:20px;margin-bottom:clamp(16px,3vw,28px);
+}
+.pasar__judul{font-family:"Fraunces",Georgia,serif;font-weight:500;font-size:clamp(24px,3vw,34px);margin:0}
+.pasar__isi{margin:0;font-size:13px;line-height:1.65;color:var(--muted);max-width:52ch}
+.pasar__isi strong{color:var(--ink);font-weight:600}
+.pasar__strip{
+  list-style:none;margin:0;padding:0;display:grid;
+  grid-template-columns:repeat(9,minmax(0,1fr));gap:8px;
+}
+.pasar__strip li{border:1px solid var(--garis);background:#fff}
+.pasar__strip img{width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;background:#fff}
+.pasar__strip figcaption{
+  font-size:9px;line-height:1;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--muted);padding:6px 5px;border-top:1px solid var(--garis);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.pasar__catatan{margin:12px 0 0}
+.detal__kemasan{margin:8px 0 0;color:var(--muted)}
+
+@media (max-width:900px){
+  .pasar__kepala{grid-template-columns:1fr}
+  .pasar__strip{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+@media (max-width:560px){
+  .pasar,.katalog{padding-left:20px;padding-right:20px}
+  .pasar__strip{grid-template-columns:repeat(3,minmax(0,1fr))}
+}

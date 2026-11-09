@@ -4,7 +4,8 @@
 Isi disatukan: CSS, data, skrip, dan **foto diperkecil** (JPEG data URI). Foto
 asli 2000 px tidak disisipkan — sembilan SKU × tiga sudut akan jadi 12 MB dan
 halaman luring jadi tidak terpakai. Yang disisipkan: sudut 0° (760 px) + sudut
-18° (520 px) per SKU, dan hero 1200 px untuk lot unggulan. Batas 2,5 MB.
+18° (520 px) per SKU, hero 1200 px untuk lot unggulan, dan foto marketplace
+latar putih 300 px. Batas 2,5 MB.
 
 Pakai:
     python3 tools/katalog-luring.py           # tulis katalog/katalog-luring.html
@@ -33,6 +34,7 @@ HURUF = [("Fraunces", "fraunces.woff2", "300 700", "normal"),
          ("Fraunces", "fraunces-italic.woff2", "300 400", "italic"),
          ("Inter Tight", "intertight.woff2", "400 600", "normal")]
 FOTO = {"0": 760, "18": 520}
+PASAR = {"1x1": 300, "4x5": 260}          # foto marketplace, cukup untuk pratinjau
 HERO_LEBAR = 1200
 KUALITAS = 74
 BATAS = 2_500_000
@@ -67,6 +69,12 @@ def data_tertanam() -> str:
         jh = os.path.join(ROOT, s["foto"]["hero"])
         if os.path.exists(jh):
             s["foto"]["hero"] = data_uri(jh, HERO_LEBAR)
+        # foto marketplace (latar putih) disisipkan kecil: di berkas luring ini
+        # fungsinya menunjukkan hasilnya, bukan untuk diunduh marketplace
+        for kunci, lebar in PASAR.items():
+            jp = os.path.join(ROOT, (s.get("pasar") or {}).get(kunci, ""))
+            if os.path.exists(jp):
+                s["pasar"][kunci] = data_uri(jp, lebar)
     return ("/* Foto disisipkan sebagai data URI (diperkecil) — versi luring. */\n"
             "window.KATALOG = " + json.dumps(obj, ensure_ascii=False, separators=(",", ":")) + ";\n")
 

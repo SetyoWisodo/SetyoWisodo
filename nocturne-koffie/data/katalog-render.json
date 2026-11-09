@@ -26,47 +26,74 @@
       "id": "gayo",
       "nama": "Gayo",
       "status": "siap",
+      "ukuran": "250",
+      "geometri": {
+        "lebar": 120,
+        "tinggi": 200,
+        "gusset": 35,
+        "segel": 13,
+        "zipper": 28
+      },
+      "bahan": "kraft matte (sementara)",
       "tinggi_objek_px": 1400,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/gayo-0.jpg",
           "kotak": [
-            500,
+            573,
             240,
-            1501,
+            1427,
             1640
           ],
-          "kb": 121.6
+          "kb": 108.0
         },
         "18": {
           "berkas": "assets/img/katalog/gayo-18.jpg",
           "kotak": [
-            538,
+            571,
             240,
-            1463,
+            1429,
             1640
           ],
-          "kb": 122.5
+          "kb": 114.9
         },
         "40": {
           "berkas": "assets/img/katalog/gayo-40.jpg",
           "kotak": [
-            631,
+            596,
             240,
-            1369,
+            1405,
             1640
           ],
-          "kb": 104.9
+          "kb": 110.5
         },
         "hero": {
           "berkas": "assets/img/katalog/gayo-hero.jpg",
           "kotak": [
-            1307,
+            1335,
             162,
-            1957,
+            1930,
             1134
           ],
-          "kb": 81.2
+          "kb": 75.2
+        }
+      },
+      "pasar": {
+        "1x1": {
+          "berkas": "assets/img/katalog/pasar/gayo-1x1.jpg",
+          "kb": 41.4,
+          "ukuran": [
+            1000,
+            1000
+          ]
+        },
+        "4x5": {
+          "berkas": "assets/img/katalog/pasar/gayo-4x5.jpg",
+          "kb": 56.1,
+          "ukuran": [
+            1080,
+            1350
+          ]
         }
       }
     },
@@ -74,47 +101,74 @@
       "id": "kintamani",
       "nama": "Kintamani",
       "status": "siap",
+      "ukuran": "250",
+      "geometri": {
+        "lebar": 120,
+        "tinggi": 200,
+        "gusset": 35,
+        "segel": 13,
+        "zipper": 28
+      },
+      "bahan": "kraft matte (sementara)",
       "tinggi_objek_px": 1400,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/kintamani-0.jpg",
           "kotak": [
-            500,
+            573,
             240,
-            1501,
+            1427,
             1640
           ],
-          "kb": 122.6
+          "kb": 109.1
         },
         "18": {
           "berkas": "assets/img/katalog/kintamani-18.jpg",
           "kotak": [
-            538,
+            571,
             240,
-            1463,
+            1429,
             1640
           ],
-          "kb": 124.3
+          "kb": 115.7
         },
         "40": {
           "berkas": "assets/img/katalog/kintamani-40.jpg",
           "kotak": [
-            631,
+            596,
             240,
-            1369,
+            1405,
             1640
           ],
-          "kb": 105.5
+          "kb": 111.8
         },
         "hero": {
           "berkas": "assets/img/katalog/kintamani-hero.jpg",
           "kotak": [
-            1307,
+            1335,
             162,
-            1957,
+            1930,
             1134
           ],
-          "kb": 82.5
+          "kb": 75.7
+        }
+      },
+      "pasar": {
+        "1x1": {
+          "berkas": "assets/img/katalog/pasar/kintamani-1x1.jpg",
+          "kb": 42.1,
+          "ukuran": [
+            1000,
+            1000
+          ]
+        },
+        "4x5": {
+          "berkas": "assets/img/katalog/pasar/kintamani-4x5.jpg",
+          "kb": 57.0,
+          "ukuran": [
+            1080,
+            1350
+          ]
         }
       }
     },
@@ -122,47 +176,74 @@
       "id": "blue-mount-ijen",
       "nama": "Blue Mount Ijen",
       "status": "siap",
+      "ukuran": "250",
+      "geometri": {
+        "lebar": 120,
+        "tinggi": 200,
+        "gusset": 35,
+        "segel": 13,
+        "zipper": 28
+      },
+      "bahan": "kraft matte (sementara)",
       "tinggi_objek_px": 1400,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/blue-mount-ijen-0.jpg",
           "kotak": [
-            500,
+            573,
             240,
-            1501,
+            1427,
             1640
           ],
-          "kb": 130.4
+          "kb": 115.2
         },
         "18": {
           "berkas": "assets/img/katalog/blue-mount-ijen-18.jpg",
           "kotak": [
-            538,
+            571,
             240,
-            1463,
+            1429,
             1640
           ],
-          "kb": 131.1
+          "kb": 121.9
         },
         "40": {
           "berkas": "assets/img/katalog/blue-mount-ijen-40.jpg",
           "kotak": [
-            631,
+            596,
             240,
-            1369,
+            1405,
             1640
           ],
-          "kb": 111.4
+          "kb": 116.6
         },
         "hero": {
           "berkas": "assets/img/katalog/blue-mount-ijen-hero.jpg",
           "kotak": [
-            1307,
+            1335,
             162,
-            1957,
+            1930,
             1134
           ],
-          "kb": 86.9
+          "kb": 79.6
+        }
+      },
+      "pasar": {
+        "1x1": {
+          "berkas": "assets/img/katalog/pasar/blue-mount-ijen-1x1.jpg",
+          "kb": 45.1,
+          "ukuran": [
+            1000,
+            1000
+          ]
+        },
+        "4x5": {
+          "berkas": "assets/img/katalog/pasar/blue-mount-ijen-4x5.jpg",
+          "kb": 60.8,
+          "ukuran": [
+            1080,
+            1350
+          ]
         }
       }
     },
@@ -170,47 +251,74 @@
       "id": "semeru",
       "nama": "Semeru",
       "status": "siap",
+      "ukuran": "250",
+      "geometri": {
+        "lebar": 120,
+        "tinggi": 200,
+        "gusset": 35,
+        "segel": 13,
+        "zipper": 28
+      },
+      "bahan": "kraft matte (sementara)",
       "tinggi_objek_px": 1400,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/semeru-0.jpg",
           "kotak": [
-            500,
+            573,
             240,
-            1501,
+            1427,
             1640
           ],
-          "kb": 122.1
+          "kb": 108.3
         },
         "18": {
           "berkas": "assets/img/katalog/semeru-18.jpg",
           "kotak": [
-            538,
+            571,
             240,
-            1463,
+            1429,
             1640
           ],
-          "kb": 123.6
+          "kb": 115.4
         },
         "40": {
           "berkas": "assets/img/katalog/semeru-40.jpg",
           "kotak": [
-            631,
+            596,
             240,
-            1369,
+            1405,
             1640
           ],
-          "kb": 105.0
+          "kb": 111.2
         },
         "hero": {
           "berkas": "assets/img/katalog/semeru-hero.jpg",
           "kotak": [
-            1307,
+            1335,
             162,
-            1957,
+            1930,
             1134
           ],
-          "kb": 81.9
+          "kb": 75.3
+        }
+      },
+      "pasar": {
+        "1x1": {
+          "berkas": "assets/img/katalog/pasar/semeru-1x1.jpg",
+          "kb": 41.8,
+          "ukuran": [
+            1000,
+            1000
+          ]
+        },
+        "4x5": {
+          "berkas": "assets/img/katalog/pasar/semeru-4x5.jpg",
+          "kb": 56.5,
+          "ukuran": [
+            1080,
+            1350
+          ]
         }
       }
     },
@@ -218,47 +326,74 @@
       "id": "arjuno",
       "nama": "Arjuno",
       "status": "siap",
+      "ukuran": "250",
+      "geometri": {
+        "lebar": 120,
+        "tinggi": 200,
+        "gusset": 35,
+        "segel": 13,
+        "zipper": 28
+      },
+      "bahan": "kraft matte (sementara)",
       "tinggi_objek_px": 1400,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/arjuno-0.jpg",
           "kotak": [
-            500,
+            573,
             240,
-            1501,
+            1427,
             1640
           ],
-          "kb": 118.3
+          "kb": 105.2
         },
         "18": {
           "berkas": "assets/img/katalog/arjuno-18.jpg",
           "kotak": [
-            538,
+            571,
             240,
-            1463,
+            1429,
             1640
           ],
-          "kb": 120.0
+          "kb": 112.0
         },
         "40": {
           "berkas": "assets/img/katalog/arjuno-40.jpg",
           "kotak": [
-            631,
+            596,
             240,
-            1369,
+            1405,
             1640
           ],
-          "kb": 102.0
+          "kb": 108.5
         },
         "hero": {
           "berkas": "assets/img/katalog/arjuno-hero.jpg",
           "kotak": [
-            1307,
+            1335,
             162,
-            1957,
+            1930,
             1134
           ],
-          "kb": 79.6
+          "kb": 73.3
+        }
+      },
+      "pasar": {
+        "1x1": {
+          "berkas": "assets/img/katalog/pasar/arjuno-1x1.jpg",
+          "kb": 40.1,
+          "ukuran": [
+            1000,
+            1000
+          ]
+        },
+        "4x5": {
+          "berkas": "assets/img/katalog/pasar/arjuno-4x5.jpg",
+          "kb": 54.5,
+          "ukuran": [
+            1080,
+            1350
+          ]
         }
       }
     },
@@ -266,47 +401,74 @@
       "id": "raung",
       "nama": "Raung",
       "status": "siap",
+      "ukuran": "250",
+      "geometri": {
+        "lebar": 120,
+        "tinggi": 200,
+        "gusset": 35,
+        "segel": 13,
+        "zipper": 28
+      },
+      "bahan": "kraft matte (sementara)",
       "tinggi_objek_px": 1400,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/raung-0.jpg",
           "kotak": [
-            500,
+            573,
             240,
-            1501,
+            1427,
             1640
           ],
-          "kb": 128.0
+          "kb": 113.3
         },
         "18": {
           "berkas": "assets/img/katalog/raung-18.jpg",
           "kotak": [
-            538,
+            571,
             240,
-            1463,
+            1429,
             1640
           ],
-          "kb": 128.9
+          "kb": 119.8
         },
         "40": {
           "berkas": "assets/img/katalog/raung-40.jpg",
           "kotak": [
-            631,
+            596,
             240,
-            1369,
+            1405,
             1640
           ],
-          "kb": 109.5
+          "kb": 114.8
         },
         "hero": {
           "berkas": "assets/img/katalog/raung-hero.jpg",
           "kotak": [
-            1307,
+            1335,
             162,
-            1957,
+            1930,
             1134
           ],
-          "kb": 85.1
+          "kb": 78.1
+        }
+      },
+      "pasar": {
+        "1x1": {
+          "berkas": "assets/img/katalog/pasar/raung-1x1.jpg",
+          "kb": 43.8,
+          "ukuran": [
+            1000,
+            1000
+          ]
+        },
+        "4x5": {
+          "berkas": "assets/img/katalog/pasar/raung-4x5.jpg",
+          "kb": 59.7,
+          "ukuran": [
+            1080,
+            1350
+          ]
         }
       }
     },
@@ -314,47 +476,74 @@
       "id": "ijen-excelsa",
       "nama": "Ijen Excelsa",
       "status": "siap",
+      "ukuran": "250",
+      "geometri": {
+        "lebar": 120,
+        "tinggi": 200,
+        "gusset": 35,
+        "segel": 13,
+        "zipper": 28
+      },
+      "bahan": "kraft matte (sementara)",
       "tinggi_objek_px": 1400,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/ijen-excelsa-0.jpg",
           "kotak": [
-            500,
+            573,
             240,
-            1501,
+            1427,
             1640
           ],
-          "kb": 123.4
+          "kb": 109.4
         },
         "18": {
           "berkas": "assets/img/katalog/ijen-excelsa-18.jpg",
           "kotak": [
-            538,
+            571,
             240,
-            1463,
+            1429,
             1640
           ],
-          "kb": 125.0
+          "kb": 116.3
         },
         "40": {
           "berkas": "assets/img/katalog/ijen-excelsa-40.jpg",
           "kotak": [
-            631,
+            596,
             240,
-            1369,
+            1405,
             1640
           ],
-          "kb": 106.0
+          "kb": 112.2
         },
         "hero": {
           "berkas": "assets/img/katalog/ijen-excelsa-hero.jpg",
           "kotak": [
-            1307,
+            1335,
             162,
-            1957,
+            1930,
             1134
           ],
-          "kb": 83.2
+          "kb": 76.0
+        }
+      },
+      "pasar": {
+        "1x1": {
+          "berkas": "assets/img/katalog/pasar/ijen-excelsa-1x1.jpg",
+          "kb": 42.3,
+          "ukuran": [
+            1000,
+            1000
+          ]
+        },
+        "4x5": {
+          "berkas": "assets/img/katalog/pasar/ijen-excelsa-4x5.jpg",
+          "kb": 57.3,
+          "ukuran": [
+            1080,
+            1350
+          ]
         }
       }
     },
@@ -362,47 +551,74 @@
       "id": "blend-7030",
       "nama": "Blend 70/30",
       "status": "siap",
+      "ukuran": "250",
+      "geometri": {
+        "lebar": 120,
+        "tinggi": 200,
+        "gusset": 35,
+        "segel": 13,
+        "zipper": 28
+      },
+      "bahan": "kraft matte (sementara)",
       "tinggi_objek_px": 1400,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/blend-7030-0.jpg",
           "kotak": [
-            500,
+            573,
             240,
-            1501,
+            1427,
             1640
           ],
-          "kb": 124.0
+          "kb": 110.1
         },
         "18": {
           "berkas": "assets/img/katalog/blend-7030-18.jpg",
           "kotak": [
-            538,
+            571,
             240,
-            1463,
+            1429,
             1640
           ],
-          "kb": 125.5
+          "kb": 116.9
         },
         "40": {
           "berkas": "assets/img/katalog/blend-7030-40.jpg",
           "kotak": [
-            631,
+            596,
             240,
-            1369,
+            1405,
             1640
           ],
-          "kb": 106.3
+          "kb": 112.5
         },
         "hero": {
           "berkas": "assets/img/katalog/blend-7030-hero.jpg",
           "kotak": [
-            1307,
+            1335,
             162,
-            1957,
+            1930,
             1134
           ],
-          "kb": 83.1
+          "kb": 76.0
+        }
+      },
+      "pasar": {
+        "1x1": {
+          "berkas": "assets/img/katalog/pasar/blend-7030-1x1.jpg",
+          "kb": 42.4,
+          "ukuran": [
+            1000,
+            1000
+          ]
+        },
+        "4x5": {
+          "berkas": "assets/img/katalog/pasar/blend-7030-4x5.jpg",
+          "kb": 57.5,
+          "ukuran": [
+            1080,
+            1350
+          ]
         }
       }
     },
@@ -410,47 +626,74 @@
       "id": "blend-6040",
       "nama": "Blend 60/40",
       "status": "siap",
+      "ukuran": "250",
+      "geometri": {
+        "lebar": 120,
+        "tinggi": 200,
+        "gusset": 35,
+        "segel": 13,
+        "zipper": 28
+      },
+      "bahan": "kraft matte (sementara)",
       "tinggi_objek_px": 1400,
       "keluaran": {
         "0": {
           "berkas": "assets/img/katalog/blend-6040-0.jpg",
           "kotak": [
-            500,
+            573,
             240,
-            1501,
+            1427,
             1640
           ],
-          "kb": 124.2
+          "kb": 110.3
         },
         "18": {
           "berkas": "assets/img/katalog/blend-6040-18.jpg",
           "kotak": [
-            538,
+            571,
             240,
-            1463,
+            1429,
             1640
           ],
-          "kb": 125.7
+          "kb": 117.1
         },
         "40": {
           "berkas": "assets/img/katalog/blend-6040-40.jpg",
           "kotak": [
-            631,
+            596,
             240,
-            1369,
+            1405,
             1640
           ],
-          "kb": 106.5
+          "kb": 112.6
         },
         "hero": {
           "berkas": "assets/img/katalog/blend-6040-hero.jpg",
           "kotak": [
-            1307,
+            1335,
             162,
-            1957,
+            1930,
             1134
           ],
-          "kb": 83.3
+          "kb": 76.1
+        }
+      },
+      "pasar": {
+        "1x1": {
+          "berkas": "assets/img/katalog/pasar/blend-6040-1x1.jpg",
+          "kb": 42.6,
+          "ukuran": [
+            1000,
+            1000
+          ]
+        },
+        "4x5": {
+          "berkas": "assets/img/katalog/pasar/blend-6040-4x5.jpg",
+          "kb": 57.6,
+          "ukuran": [
+            1080,
+            1350
+          ]
         }
       }
     }

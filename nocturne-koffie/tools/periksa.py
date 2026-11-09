@@ -1019,7 +1019,8 @@ def periksa(catatan):
     masalah_katalog = []
     for berkas in ("katalog/index.html", "katalog/katalog.js", "katalog/katalog.css",
                    "katalog/katalog-luring.html", "data/katalog.js", "data/katalog-render.json",
-                   "laporan/katalog-render.png"):
+                   "data/kemasan-katalog.json", "laporan/katalog-render.png",
+                   "laporan/kemasan-spesimen.png"):
         if not os.path.exists(os.path.join(ROOT, berkas)):
             masalah_katalog.append(f"{berkas} belum ada — jalankan python3 tools/katalog.py")
     if os.path.exists(os.path.join(ROOT, "katalog/katalog.js")):
@@ -1031,6 +1032,27 @@ def periksa(catatan):
         css_k = re.sub(r"/\*.*?\*/", "", baca("katalog/katalog.css"), flags=re.S)
         if "@keyframes" in css_k:
             masalah_katalog.append("katalog.css memakai @keyframes")
+    # foto marketplace: sembilan lot × dua rasio, latar putih murni di sudutnya
+    kat_pasar, pasar_buruk = 0, 0
+    for kunci_berkas in ("data/katalog-render.json",):
+        if os.path.exists(os.path.join(ROOT, kunci_berkas)):
+            with open(os.path.join(ROOT, kunci_berkas), encoding="utf-8") as f:
+                d_kat = json.load(f)
+            for s_kat in d_kat.get("sku", []):
+                for r, e in (s_kat.get("pasar") or {}).items():
+                    jalur_p = os.path.join(ROOT, e["berkas"])
+                    if not os.path.exists(jalur_p):
+                        pasar_buruk += 1
+                        continue
+                    kat_pasar += 1
+                    with Image.open(jalur_p) as im_p:
+                        rgb_p = im_p.convert("RGB")
+                        for titik in ((0, 0), (rgb_p.width - 1, 0)):
+                            if min(rgb_p.getpixel(titik)) < 250:
+                                pasar_buruk += 1
+                                break
+    if pasar_buruk:
+        masalah_katalog.append(f"{pasar_buruk} foto marketplace bukan putih murni / hilang")
     uji_kat = "dilewati"
     for perintah, kunci in ((["python3", "tools/katalog.py", "--cek"], "aset"),
                             (["node", "tools/katalog-uji.mjs"], "halaman")):
@@ -1042,8 +1064,8 @@ def periksa(catatan):
         if proses.returncode != 0:
             masalah_katalog.append(f"{kunci} gagal: " + (proses.stdout or proses.stderr).strip()[-180:])
     tambah("Foto katalog", "lolos" if not masalah_katalog else "gagal",
-           "9 SKU × 3 sudut + hero · satu rig · aset & halaman diperiksa tanpa peramban "
-           f"{uji_kat} · versi 1 berkas ada",
+           "9 SKU × 3 sudut + hero · 18 foto marketplace putih murni · spesifikasi kemasan "
+           f"terbaca · aset & halaman diperiksa tanpa peramban {uji_kat} · versi 1 berkas ada",
            "; ".join(masalah_katalog[:4]))
 
     # 5i · pustaka skill: frontmatter, nama = folder, description wajar, terdaftar di README

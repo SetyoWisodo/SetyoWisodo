@@ -85,6 +85,41 @@ for (const s of SKU) {
 }
 catat(hargaOk, 'harga & varian di data sama dengan data/catalog.json');
 
+// ------------------------------------------- 1b. spesifikasi kemasan ---
+// Angka di halaman harus sama dengan berkas spesifikasi, bukan diketik di JS.
+const spek = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/kemasan-katalog.json'), 'utf8'));
+const aktif = spek.ukuran[spek.ukuran_aktif];
+catat(!!K.kemasan, 'data katalog memuat spesifikasi kemasan');
+catat(K.kemasan && K.kemasan.lebar === aktif.lebar && K.kemasan.tinggi === aktif.tinggi,
+  'lebar & tinggi di data = data/kemasan-katalog.json',
+  K.kemasan ? `${K.kemasan.lebar}×${K.kemasan.tinggi} mm` : '—');
+catat(K.kemasan && K.kemasan.gusset === aktif.gusset,
+  'gusset di data = data/kemasan-katalog.json', K.kemasan ? `${K.kemasan.gusset} mm` : '—');
+const teksKemasan = doc.getElementById('kemasan').textContent;
+catat(teksKemasan.includes(String(aktif.lebar)) && teksKemasan.includes(String(aktif.tinggi)),
+  'halaman menulis ukuran kemasan', teksKemasan.slice(0, 60) + '…');
+catat(/sementara|belum/i.test(spek.status || '')
+  ? doc.getElementById('kemasan').classList.contains('is-sementara')
+  : true, 'status spesifikasi sementara ditandai di halaman');
+
+// foto marketplace: putih murni, dua rasio, sembilan lot
+const strip = [...doc.querySelectorAll('#pasarStrip li')];
+catat(strip.length === 9, 'strip marketplace berisi 9 lot', String(strip.length));
+let pasarOk = true;
+for (const s of SKU) {
+  for (const r of ['1x1', '4x5']) {
+    const j = path.join(ROOT, (s.pasar || {})[r] || '');
+    if (!fs.existsSync(j)) { pasarOk = false; catat(false, `${s.id}: foto pasar ${r} tidak ada`); }
+  }
+  if (!/-1x1\.jpg$/.test((s.pasar || {})['1x1'] || '')) {
+    pasarOk = false; catat(false, `${s.id}: jalur foto pasar salah`);
+  }
+}
+catat(pasarOk, 'foto marketplace 1:1 dan 4:5 ada untuk semua lot');
+catat(/latar #FFFFFF/.test(doc.getElementById('pasarCatatan').textContent),
+  'catatan marketplace menyebut latar putih murni',
+  doc.getElementById('pasarCatatan').textContent);
+
 // --------------------------------------------------------- 2. kartu DOM ---
 const kartu = [...doc.querySelectorAll('.kartu')];
 catat(kartu.length === 9, '9 kartu katalog dibuat', String(kartu.length));
@@ -115,6 +150,8 @@ const detal = doc.getElementById('detal');
 catat(detal.classList.contains('is-buka'), 'klik kartu membuka detail');
 const nama = doc.getElementById('dNama').textContent;
 catat(nama === SKU[2].nama, 'judul detail = SKU yang diklik', nama);
+catat(/\d+ × \d+ mm/.test(doc.getElementById('dKemasan').textContent),
+  'panel detail menyebut ukuran kemasan', doc.getElementById('dKemasan').textContent.slice(0, 52) + '…');
 catat(doc.getElementById('dHarga').textContent.includes('Rp'), 'harga tampil sebagai rupiah',
   doc.getElementById('dHarga').textContent);
 const varianBtns = [...doc.querySelectorAll('#dPilih button')];
