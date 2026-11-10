@@ -13,7 +13,7 @@ Empat repo yang disebut:
 | # | Repo | Bintang (dicek 30 Okt 2026) | Isinya sebenarnya |
 |---|---|---|---|
 | 01 | `GMGNAI/gmgn-skills` | 701 (push 29 Okt) | skill OpenAPI GMGN: query token/wallet/market, eksekusi swap |
-| 02 | `TauricResearch/TradingAgents` | **121.738** (push 4 Nov) | framework riset multi-agen LLM (bull vs bear), untuk bar harian + berita |
+| 02 | `TauricResearch/TradingAgents` | **121.738** (push 4 Nov) | framework riset multi-agen LLM (bull vs bear) di atas data Yahoo Finance; eksekusinya ke **bursa simulasi** |
 | 03 | `jup-ag/agent-skills` | 86 (push 7 Jul) | dokumen/skill untuk integrasi Jupiter |
 | 04 | `xai-org/xai-sdk-python` | 606 (push 30 Okt) | SDK resmi xAI — klien HTTP |
 
@@ -106,6 +106,16 @@ Itulah jepitannya:
 > Return 16,8x dalam 8 jam butuh koin yang **gila**.
 
 Tidak ada satu buku yang bisa dua-duanya sekaligus.
+
+Dua hal yang bisa melonggarkan analisis ini, dan sudah diperiksa:
+
+* **Stop trailing, bukan stop tetap.** `gmgn-skills` memang punya trailing stop.
+  Tapi trailing −6% justru **memperbanyak** exit, bukan mengurangi: trade yang
+  berakhir +53% harus sudah mencapai +63% dulu dan tidak boleh mundur 6% dari puncak.
+  Syarat "tidak pernah mundur 6% sebelum puncak" tetap berlaku.
+* **Entry setelah momentum terkonfirmasi (drift).** Itu sudah dimodelkan di §4–§5:
+  dengan drift 50%/jam pun 16,8x cuma 1 dari ~1.500; untuk membuatnya jadi *median*,
+  drift-nya harus 0,89/jam.
 
 ## 4. Kalau modelnya dibuat netral, apakah 16,8x mungkin?
 
@@ -211,7 +221,34 @@ aritmetikanya — dan aritmetikanya menolak.
 4. Ulangi dengan modal kertas 30 hari. Kalau edge-nya nyata, ia bertahan; kalau tidak,
    ia menghilang di bulan kedua — pola yang sudah terlihat di dua thread sebelumnya.
 
-## 10. Reproduksi
+## 10. Lampiran: keempat repo dibuka, bukan cuma dihitung bintangnya
+
+Dibaca langsung dari README masing-masing repo lewat GitHub API (30 Okt 2026):
+
+| Repo | Bisa apa (dari README-nya sendiri) | Bisa menghasilkan 11 trade Solana? |
+|---|---|---|
+| `GMGNAI/gmgn-skills` | data on-chain SOL/BSC/Base/ETH, **market/limit order, take-profit/stop-loss, trailing stop, "cooking orders"**, manajemen wallet | **Ya** — ini satu-satunya yang menyentuh order nyata |
+| `TauricResearch/TradingAgents` | riset multi-agen di atas ticker Yahoo Finance (`AAPL`, `0700.HK`, `BTC-USD`, …), keputusan dinilai "on final closes" | **Tidak.** Ticker memecoin Solana tidak ada di Yahoo Finance |
+| `jup-ag/agent-skills` | installer plugin (`scripts/install_plugin.sh`) untuk Codex / Claude Code | **Tidak.** Isinya dokumen integrasi |
+| `xai-org/xai-sdk-python` | klien gRPC Python untuk API xAI | **Tidak.** Ini HTTP/gRPC client |
+
+Dan satu kalimat di README TradingAgents yang menutup seluruh cerita:
+
+> "The Portfolio Manager approves/rejects the transaction proposal. If approved, the
+> order will be sent to the **simulated exchange** and executed."
+
+Jadi repo yang di thread itu disebut sebagai **"Analyst"** — yang katanya "bull vs bear
+sebelum setiap beli" — (a) tidak bisa melihat token Solana, dan (b) eksekusinya
+**simulasi**. Yang bisa menaruh order cuma `gmgn-skills`. Artinya: dari empat repo,
+**satu** yang benar-benar trading, **satu** kerangka riset bar harian dengan bursa
+simulasi, dan **dua** pipa. Keputusan "apa yang dibeli" tetap 100% milik prompt yang
+tidak ditampilkan.
+
+Itu bukan alasan untuk tidak memakai keempatnya — arsitekturnya justru wajar. Tapi
+artinya angka 16,8x **tidak berasal dari repo-repo itu**. Repo hanya menyediakan
+tangan; otaknya ada di tempat lain, dan otak itulah yang dijual lewat link.
+
+## 11. Reproduksi
 
 ```bash
 python tools/agent_swarm_repost.py                    # semua bagian
