@@ -280,6 +280,13 @@ Dua thread lain yang beredar juga saya bedah, dan hasilnya ditulis apa adanya:
 - [`docs/LONGSHOT-1C-REVIEW.md`](docs/LONGSHOT-1C-REVIEW.md) — wallet yang beli kontrak
   1¢ lalu dibayar $1. Mekanismenya nyata, tapi yang ditampilkan cuma pembilang tanpa
   penyebut; dan pada harga wajar, membeli di ekor justru **−37%** (adverse selection).
+- [`docs/AGENT-SWARM-REPOST-REVIEW.md`](docs/AGENT-SWARM-REPOST-REVIEW.md) — "4 repo
+  GitHub ditempel ke Grok bot, $231,70 jadi $3.892,78 dalam 8 jam". Aritmetikanya
+  benar, tapi **9 hijau dengan stop −6%** dan **16,8x** saling mengunci: yang satu
+  butuh koin tenang, yang lain butuh koin gila. Diuji lewat
+  [`tools/agent_swarm_repost.py`](tools/agent_swarm_repost.py): pada model netral
+  (martingale, `E[faktor] = 1,00`), 16,8x muncul **kurang dari 1 dari 400.000**
+  percobaan; kombinasinya ~1 dari 2,6 juta.
 
 ### Menjalankan
 
@@ -468,7 +475,7 @@ pumpkin-terminal/
 ├── docs/MATEMATIKA.md      hit-rate impas, required TP, EV, Kelly, survival
 ├── docs/SOCIAL-ALPHA-RESEARCH.md  riset tooling sosial + apa yang tidak diambil
 ├── docs/QUANT-STACK.md     10 repo kuant dari thread X: diambil/dibuang + hasil uji
-└── tests/                  104 test: filter, stop, trailing, invariant, p̂, Kelly, IC, CVaR
+└── tests/                  122 test: filter, stop, trailing, invariant, p̂, Kelly, IC, CVaR, barrier
 ```
 
 ```bash
