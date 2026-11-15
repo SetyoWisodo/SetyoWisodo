@@ -56,21 +56,23 @@ Baris poin tidak perlu diapa-apakan. Jangan pakai Heading 1 — judul produk sud
 
 **Hanya edisi Inggris yang dijual.** Teks `listing_id.txt` dan `listing_bundle.txt` tidak dipakai — edisi Indonesia disimpan untuk koreksi internal, bukan untuk dipasarkan.
 
-**Ganti setelah sampel terbit:** di deskripsi EN ada baris rujukan ke sampel. Letaknya **bukan di awal** — ia ada di bagian **IF $45 IS TOO MUCH**, yaitu setelah bagian **WHY $45** dan sebelum **WHO IT IS FOR**, kira-kira 60% ke bawah teks:
+**Tautan sampel: sudah terisi, bukan lagi penanda.** Baris di deskripsi EN sudah memakai tautan yang hidup hari ini:
 
 ```
 IF $45 IS TOO MUCH
 
-Read the free sample first: [link to your free sample product]
-
-The full table of contents, ...
+Read the free sample first: https://drive.google.com/file/d/1xMv4FV13smEonk-GcEbAXuhSkoXPoMjP/view
 ```
 
-Cara cepat menemukannya: klik di dalam kotak Description, lalu **Ctrl+End** (kursor melompat ke ujung teks; baris itu ada di atas bagian WHO IT IS FOR). Blok teks di kurung siku itulah yang diganti, misalnya menjadi:
+Berkasnya 36 halaman, 2,85 MB, dan terbuka untuk siapa pun yang punya tautan (tanpa perlu masuk akun Google).
+
+**Kalau nanti produk sampel $0 di Gumroad sudah terbit**, ganti satu baris itu menjadi URL produknya:
 
 ```
-Read the free sample first: setyowisodo.gumroad.com/l/surviving-the-future-sample
+Read the free sample first: https://setyowisodo.gumroad.com/l/surviving-the-future-sample
 ```
+
+Caranya: klik di kotak Description, **Ctrl+End** (kursor ke ujung teks), lalu **Ctrl+F** dan cari `drive.google`. Ganti satu baris itu saja; bagian lain tidak diubah.
 
 (Baris serupa di edisi ID tidak perlu diurus — edisi itu tidak dijual.)
 

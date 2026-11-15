@@ -213,6 +213,11 @@ menyebarkan berkas bukan alasan memperlakukan seratus pembeli lain sebagai tersa
 
 ## 9. Yang masih harus Anda isi
 
-Both listing files contain `[link to your free sample product]` /
-`[tautan ke produk sampel]`. Setelah produk sampel jadi, ambil URL-nya
-(`gumroad.com/l/xxxxx`) dan ganti penanda itu.
+Tautan sampel **sudah terisi** di kedua berkas listing: menunjuk ke berkas PDF di
+Google Drive yang terbuka untuk siapa pun yang punya tautan —
+
+    https://drive.google.com/file/d/1xMv4FV13smEonk-GcEbAXuhSkoXPoMjP/view
+
+Kalau produk sampel $0 di Gumroad nanti sudah terbit, ganti baris itu dengan
+URL produknya (`gumroad.com/l/xxxxx`) supaya pembaca mendarat di Gumroad, bukan
+di Drive.

@@ -36,6 +36,14 @@ em{color:#333}
 """
 
 
+LINK = re.compile(r"(https?://[^\s<]+)")
+
+
+def esc(t):
+    """Escape, lalu jadikan URL bisa diklik."""
+    return LINK.sub(r'<a href="\1">\1</a>', html.escape(t))
+
+
 def convert(text):
     lines = text.replace("\r\n", "\n").split("\n")
 
@@ -57,12 +65,12 @@ def convert(text):
 
     def flush_para():
         if para:
-            out.append("<p>" + html.escape(" ".join(para)) + "</p>")
+            out.append("<p>" + esc(" ".join(para)) + "</p>")
             para.clear()
 
     def flush_list():
         if items:
-            out.append("<ul>" + "".join(f"<li>{html.escape(i)}</li>" for i in items) + "</ul>")
+            out.append("<ul>" + "".join(f"<li>{esc(i)}</li>" for i in items) + "</ul>")
             items.clear()
 
     i = 0

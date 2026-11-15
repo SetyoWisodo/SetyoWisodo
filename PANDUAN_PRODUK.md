@@ -50,7 +50,7 @@ Yang ikut terbawa: subjudul, garis pemisah, daftar poin, tebal-miring. Kotak pet
 
 **Kalau hasil tempelannya berantakan:** tempel teks dari `listing_en.txt` per bagian, lalu rapikan dengan toolbar — dropdown **Text** → *Heading 2* untuk baris `WHAT MAKES THIS DIFFERENT`, `WHY $45`, dan seterusnya; tombol **bullet list** untuk baris berawalan `*`; sisanya biarkan *Paragraph*. Jangan pakai Heading 1: judul produk sudah ada di atas halaman.
 
-**Setelah produk sampel terbit** (Langkah 17), kembali ke sini dan ganti teks `[link to your free sample product]` menjadi URL sampel.
+**Tautan sampel sudah terisi** — baris `Read the free sample first:` menunjuk ke PDF di Google Drive yang bisa dibuka siapa pun. Kalau nanti produk sampel $0 di Gumroad (Langkah 17) sudah terbit, kembali ke sini dan ganti satu baris itu dengan URL produknya.
 
 ## Langkah 3 · URL
 
@@ -183,7 +183,7 @@ Kalau nanti angka refund terasa mengganggu penjualan, cukup ubah dropdown ke **1
 ```
 Because this is a digital download, all sales are final. If a file will not open,
 or you received the wrong edition, write to me and I will send a working copy
-within 24 hours. A free 35-page sample is available so you can judge the book
+within 24 hours. A free 36-page sample is available so you can judge the book
 before you buy.
 ```
 
@@ -195,7 +195,7 @@ Pilih `14-day money back guarantee`, lalu tempel:
 Write to me within 14 days of purchase and I will refund you in full, no
 questions asked. If a file will not open or you received the wrong edition, I
 will send a working copy first, and refund you if that does not solve it. The
-free 35-page sample exists so you can judge the book before you buy it.
+free 36-page sample exists so you can judge the book before you buy it.
 ```
 
 **Kalau Anda tetap memilih "No refunds allowed",** fine print-nya harus berubah supaya tidak bertentangan dengan pilihan itu:
@@ -203,7 +203,7 @@ free 35-page sample exists so you can judge the book before you buy it.
 ```
 Because this is a digital download, all sales are final. If a file will not open,
 or you received the wrong edition, write to me and I will send a working copy
-within 24 hours. A free 35-page sample is available so you can judge the book
+within 24 hours. A free 36-page sample is available so you can judge the book
 before you buy.
 ```
 
@@ -364,7 +364,7 @@ Tombol **Publish** (kanan atas). Setelah terbit, buka halamannya di jendela peny
 - [ ] Judul, deskripsi berformat, tiga gambar tampil
 - [ ] Harga terbaca $45, bukan $0
 - [ ] Tombol beli bisa diklik sampai ke halaman pembayaran
-- [ ] Sampai sampel terbit, teks `[link to your free sample product]` di deskripsi masih ada — ini **sengaja** ditunda; diganti dengan URL sampel tepat setelah produk sampel terbit
+- [ ] Baris `Read the free sample first:` menampilkan tautan yang bisa diklik, dan tautannya membuka PDF 36 halaman tanpa minta masuk akun
 
 ---
 

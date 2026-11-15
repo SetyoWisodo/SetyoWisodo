@@ -16,15 +16,15 @@ WHAT IS IN IT
 * The preface: why this book exists and what it refuses to do
 * All of Chapter 1, complete
 * One data spread from Chapter 2, including a figure
-* A closing page that shows what the remaining 422 pages contain
+* A closing page that lists what the complete edition contains
 
-And the Indonesian edition of the same sample is included.
+Every figure in it is cited to a named source, the same as in the book.
 
 
 WHAT YOU WILL NOT GET
 ---------------------
 
-The other 422 pages. The 24 case studies. The 25 data tables. The worklists.
+The rest of the book. The 24 case studies. The 25 data tables. The worklists.
 
 If the first chapter earns it, the rest of the book is one click away.
 
