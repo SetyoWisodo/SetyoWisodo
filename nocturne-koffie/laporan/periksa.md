@@ -1,10 +1,10 @@
-# Laporan periksa — 2026-11-09
+# Laporan periksa — 2026-11-18
 
 Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 
 | Ringkasan | Jumlah |
 | --- | --- |
-| Pemeriksaan lolos | **31** |
+| Pemeriksaan lolos | **32** |
 | Peringatan | **0** |
 | Gagal (harus diperbaiki) | **1** |
 
@@ -32,13 +32,14 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 | Prompt kelas atas | ✅ lolos | 9 prompt · 7 blok · 17 ribu karakter · token patuh · galeri salin | — |
 | Biji 3D | ✅ lolos | 6 zona · 12 senyawa · 4 sumber literatur · poster 640×800 · verifikasi 12/12 | — |
 | Biji sangrai | ✅ lolos | 9 SKU · 4 ukuran · harga dari katalog · tanpa CDN · reduced-motion | — |
-| Berkas luring | ✅ lolos | 1 berkas 975 KB · CSS+JS+huruf+gambar tersisip · 0 tautan aset relatif | dibuka langsung dari folder unduhan |
-| Pintu semua | ❌ gagal | 16 halaman tertaut · angka dari periksa.json · satu berkas | angka gerbang tidak mutakhir — jalankan tools/semua.py |
-| Huruf lokal | ✅ lolos | 4 berkas variabel 231 KB · 0 permintaan ke Google Fonts · rentang bobot cocok dengan CSS | — |
+| Berkas luring | ✅ lolos | berkas tunggal 975 KB · pemeriksaan isi dilewati (Pillow tidak terpasang) | jalankan: pip install pillow |
+| Pintu semua | ✅ lolos | 16 halaman tertaut · angka dari periksa.json · satu berkas | — |
+| Huruf lokal | ❌ gagal | 4 berkas variabel 231 KB · 0 permintaan ke Google Fonts · rentang bobot cocok dengan CSS | bricolage.woff2 tidak terbaca: No module named 'fontTools'; fraunces.woff2 tidak terbaca: No module named 'fontTools'; fraunces-italic.woff2 tidak terbaca: No module named 'fontTools'; intertight.woff2 tidak terbaca: No module named 'fontTools' |
 | Pustaka gaya | ✅ lolos | 20 gaya · 6 kategori · tiap gaya: prompt + negatif + rasio + alat | — |
-| Rak sangrai | ✅ lolos | 12 kotak 3D · sampul 363 KB · punggung 179 KB · uji asap lolos · spesifikasi template 105/105 | — |
-| Foto katalog | ✅ lolos | 9 SKU kemasan 500 g flat-bottom (stiker belakang) · 3 sudut + hero + 4 studio 2000 px + 2 muka rak · 18 foto marketplace putih murni · halaman diperiksa lolos · versi 1 berkas ada | — |
+| Rak sangrai | ✅ lolos | 12 kotak 3D · sampul 363 KB · punggung 179 KB · uji asap dilewati · spesifikasi template 105/105 | — |
+| Foto katalog | ✅ lolos | 9 SKU kemasan 500 g flat-bottom (stiker belakang) · 3 sudut + hero + 4 studio 2000 px + 2 muka rak · 18 foto marketplace putih murni · halaman diperiksa dilewati · versi 1 berkas ada | — |
 | Pustaka skill | ✅ lolos | 12 skill · frontmatter patuh · semuanya terdaftar di skills/README.md | — |
+| Pustaka gerak | ✅ lolos | 22 skill · 20 repo @0xMovez · 5 salinan verbatim ber-LICENSE · frontmatter patuh · terdaftar di SKILLS.md | — |
 | Kemasan 3D | ✅ lolos | belum ada foto diproses | — |
 | Berat halaman awal | ✅ lolos | 98 KB (batas 1.500 KB) | — |
 | Berat folder konten | ✅ lolos | 3.9 MB (batas 12 MB) | — |

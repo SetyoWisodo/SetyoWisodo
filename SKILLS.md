@@ -1,4 +1,19 @@
-# SKILLS.md — REA: semua link postingan @cabbitar, sudah jadi skill & alur kerja
+# SKILLS.md — pustaka skill repo ini
+
+Dua pustaka skill, dua sumber. Keduanya ada di `.agents/skills/`.
+
+| Bagian | Sumber | Skill | Pintu masuk | Lokasi |
+| --- | --- | --- | --- | --- |
+| **A** | [@cabbitar — REA](https://x.com/cabbitar/status/2115467413953056921) + [@0xDeniAi](https://x.com/0xDeniAi/status/2114847015091794206) | 9 | [`rea-workflow`](.agents/skills/rea-workflow/SKILL.md) | bagian 1–5 di bawah |
+| **B** | [@0xMovez — 20 repo motion studio](https://x.com/0xMovez/status/2121312707588583455) | **22** | [`motion-studio`](.agents/skills/motion-studio/SKILL.md) | bagian 6 di bawah |
+
+Isi bagian A ditulis untuk pekerjaan reverse engineering; bagian B untuk gerak, 3D, suara, dan
+encode video. Keduanya tidak saling bergantung.
+
+---
+
+## Bagian A — REA (@cabbitar)
+
 
 Sumber: [@cabbitar — "STOP WASTING HOURS TRYING TO LEARN REA"](https://x.com/cabbitar/status/2115467413953056921) (2026-10-28).
 
@@ -378,3 +393,70 @@ rsync -a /tmp/rea/.agents/skills/ .agents/skills/       # README.md lokal aman
 git clone --depth 1 https://github.com/alexgaoth/awesome-reverse-engineered /tmp/are
 rsync -a /tmp/are/plugin/skills/find-reverse-engineered/ .agents/skills/find-reverse-engineered/
 ```
+
+---
+
+## Bagian B — gerak, 3D, suara, encode (@0xMovez, 20 repo)
+
+Sumber: [@0xMovez — "These 20 GitHub repos will turn your Fable 5.2 into a premier motion
+studio"](https://x.com/0xMovez/status/2121312707588583455) (13 Nov 2026), 5.162 suka.
+Semua 20 tautan `t.co` di-resolve 29 Okt 2026; tiap repo diverifikasi lewat GitHub API
+(bintang, lisensi, commit, tanggal push). Urutan yang dipakai postingan itu sendiri:
+**skill → scene → motion → sound → final cut** — itu juga urutan skill `motion-studio`.
+
+### Tabel 20 item → skill
+
+| # | Item di postingan | Repo (terverifikasi) | ★ | Lisensi | Skill di repo ini | Cara dibuat |
+| --- | --- | --- | --- | --- | --- | --- |
+| 01 | `/motion-design-skill` | `LottieFiles/motion-design-skill` | 3.301 | MIT | [`motion-design`](.agents/skills/motion-design/SKILL.md) | **salinan verbatim** (`skills/motion-design/`, commit `2e1f3c052dd7`) |
+| 02 | `ai-kit` | `motiondivision/ai-kit` | 123 | **tanpa LICENSE** | [`motion-ai-kit`](.agents/skills/motion-ai-kit/SKILL.md) | ditulis sendiri + tautan (tidak disalin) |
+| 03 | Remotion Skills | `remotion-dev/skills` | 7.456 | **tanpa LICENSE** | [`remotion-skills`](.agents/skills/remotion-skills/SKILL.md) | indeks 13 skill, ditulis sendiri |
+| 04 | `/hairline` | `lucasmarkes/hairline` | 3.995 | MIT | [`hairline-create`](.agents/skills/hairline-create/SKILL.md), [`hairline-adopt`](.agents/skills/hairline-adopt/SKILL.md) | **salinan verbatim** (`skills/`, commit `034f4bf9902c`) |
+| 05 | `/anatomy` | `wheresryan22/anatomy` | 27.987 | MIT | [`anatomy`](.agents/skills/anatomy/SKILL.md) | **salinan verbatim** (SKILL + references + kit, commit `1482e8469b0a`) |
+| 06 | `/anatomy-reveal` | `annnguyentt/anatomy-reveal-skill` | 117 | MIT | [`anatomy-reveal`](.agents/skills/anatomy-reveal/SKILL.md) | **salinan verbatim** (SKILL + references + template .mjs, commit `dd01e1c04559`) |
+| 07 | `/blender-agents` | `scenario-labs/blender-plugin` | 1.046 | GPL-3.0-or-later | [`blender-mcp`](.agents/skills/blender-mcp/SKILL.md) | ditulis sendiri (upstream tak punya skill 3D) |
+| 08 | Three.js | `mrdoob/three.js` | 118.797 | MIT | [`threejs`](.agents/skills/threejs/SKILL.md) | ditulis sendiri |
+| 09 | react-three-rapier | `pmndrs/react-three-rapier` | 1.675 | MIT | [`rapier-physics`](.agents/skills/rapier-physics/SKILL.md) | ditulis sendiri |
+| 10 | react-postprocessing | `pmndrs/react-postprocessing` | 1.651 | MIT | [`postprocessing`](.agents/skills/postprocessing/SKILL.md) | ditulis sendiri |
+| 11 | three.quarks | `Alchemist0823/three.quarks` | 1.227 | MIT | [`quarks-vfx`](.agents/skills/quarks-vfx/SKILL.md) | ditulis sendiri |
+| 12 | Tweakpane | `cocopon/tweakpane` | 4.703 | MIT | [`tweakpane`](.agents/skills/tweakpane/SKILL.md) | ditulis sendiri |
+| 13 | GSAP | `greensock/GSAP` | 30.867 | GreenSock (bukan MIT) | [`gsap`](.agents/skills/gsap/SKILL.md) | ditulis sendiri |
+| 14 | Remotion | `remotion-dev/remotion` | 73.999 | Remotion License (bukan MIT) | [`remotion`](.agents/skills/remotion/SKILL.md) | ditulis sendiri |
+| 15 | Manim | `ManimCommunity/manim` | 42.657 | MIT | [`manim`](.agents/skills/manim/SKILL.md) | ditulis sendiri |
+| 16 | Lottie | `airbnb/lottie-web` | 32.497 | MIT | [`lottie`](.agents/skills/lottie/SKILL.md) | ditulis sendiri |
+| 17 | Openverse API | `WordPress/openverse` | 688 | MIT | [`openverse-audio`](.agents/skills/openverse-audio/SKILL.md) | ditulis sendiri |
+| 18 | librosa | `librosa/librosa` | 9.005 | ISC | [`librosa-beat`](.agents/skills/librosa-beat/SKILL.md) | ditulis sendiri |
+| 19 | WhisperX | `m-bain/whisperX` | 25.445 | BSD-2-Clause | [`whisperx-captions`](.agents/skills/whisperx-captions/SKILL.md) | ditulis sendiri |
+| 20 | FFmpeg | `FFmpeg/FFmpeg` | 67.522 | LGPL/GPL | [`ffmpeg-encode`](.agents/skills/ffmpeg-encode/SKILL.md) | ditulis sendiri |
+
+Pintu masuk: [`motion-studio`](.agents/skills/motion-studio/SKILL.md) — peta tahap → skill,
+aturan tanpa CDN, dan urutan 6 langkah dari spesifikasi sampai encode.
+
+### Bagian B, yang perlu diucapkan terang-terangan
+
+1. **Hanya 5 skill yang disalin verbatim** — semuanya berlisensi MIT dan berkas `LICENSE`
+   ikut disalin. Sepuluh entri lain adalah **panduan yang ditulis di repo ini**: cara pasang,
+   API inti, dan jebakan, dengan commit upstream dicatat di kepala setiap `SKILL.md`.
+2. **`ai-kit` dan `remotion-dev/skills` tidak punya berkas lisensi.** Menyalin isinya berarti
+   mengambil hak yang tidak diberikan, jadi keduanya hanya ditautkan dan diringkas.
+3. **Tujuh item di bawah ambang 3.000 bintang** yang biasa dipakai repo ini — `react-three-rapier`
+   (1.675), `react-postprocessing` (1.651), `three.quarks` (1.227), `Openverse` (688),
+   `blender-plugin` (1.046), `anatomy-reveal` (117), `ai-kit` (123). Tetap dimasukkan karena
+   Anda meminta **semua** item di postingan; kolom ★ dibuat supaya kelihatan mana yang di bawah
+   ambang. Kalau mau dibersihkan, hapus barisnya dari tabel dan foldernya dari `.agents/skills/`.
+4. **Postingan menyebut "Openverse API 5,2 juta+"** — angka itu klaim postingan, bukan hasil
+   ukur repo ini. Yang bisa saya pastikan: endpoint `api.openverse.org/v1/audio/` hidup dan
+   memberi hasil dengan filter lisensi.
+
+### Bagian B, yang belum pernah dijalankan di sini
+
+Sandbox ini **tidak punya** Blender, GPU, FFmpeg, maupun pustaka Python/Node di atas — jadi
+**tidak satu pun** dari 20 item sudah dijalankan di sini. Yang dikerjakan: 20 tautan
+di-resolve, tiap repo diverifikasi lewat GitHub API (bintang, lisensi, commit, tanggal push),
+lima skill MIT disalin verbatim beserta `LICENSE`, dan enam belas item lain ditulis dari
+dokumentasi repo pada commit yang dicatat.
+
+Batas per skill juga ditulis di dalam `SKILL.md` masing-masing, khususnya `blender-mcp`,
+`rapier-physics`, `postprocessing`, `quarks-vfx`, `remotion`, `remotion-skills`,
+`whisperx-captions`, dan `manim` — semuanya **belum diuji jalan** di mesin ini.
+Kalau dipasang di mesin Anda, uji satu perintah kecil dulu sebelum satu proyek penuh.

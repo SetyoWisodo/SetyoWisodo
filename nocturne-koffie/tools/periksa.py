@@ -1046,7 +1046,15 @@ def periksa(catatan):
                         pasar_buruk += 1
                         continue
                     kat_pasar += 1
-                    with Image.open(jalur_p) as im_p:
+                    # impor lokal + lewati bila Pillow tidak ada: `Image` di fungsi
+                    # ini dulu hanya terikat kalau butir brand-kit sempat jalan
+                    # (bug laten yang ketemu 9 Nov 2026)
+                    try:
+                        from PIL import Image as _PILImage
+                    except ImportError:
+                        catatan.append("butir foto pasar dilewati: Pillow tidak terpasang")
+                        break
+                    with _PILImage.open(jalur_p) as im_p:
                         rgb_p = im_p.convert("RGB")
                         for titik in ((0, 0), (rgb_p.width - 1, 0)):
                             if min(rgb_p.getpixel(titik)) < 250:
@@ -1086,6 +1094,51 @@ def periksa(catatan):
     tambah("Pustaka skill", "lolos" if not masalah_skill else "gagal",
            f"{jumlah_skill} skill · frontmatter patuh · semuanya terdaftar di skills/README.md",
            "; ".join(masalah_skill[:4]))
+
+    # 5j · pustaka gerak (.agents/skills, 20 repo postingan @0xMovez)
+    masalah_gerak = []
+    gerak_dir = os.path.join(os.path.dirname(ROOT), ".agents", "skills")
+    sk_md = os.path.join(os.path.dirname(ROOT), "SKILLS.md")
+    daftar_gerak = ["motion-studio", "motion-design", "motion-ai-kit", "remotion-skills",
+                    "hairline-create", "hairline-adopt", "anatomy", "anatomy-reveal",
+                    "blender-mcp", "threejs", "rapier-physics", "postprocessing",
+                    "quarks-vfx", "tweakpane", "gsap", "remotion", "manim", "lottie",
+                    "openverse-audio", "librosa-beat", "whisperx-captions", "ffmpeg-encode"]
+    teks_skills = baca(os.path.join("..", "SKILLS.md")) if os.path.exists(sk_md) else ""
+    for slug in daftar_gerak:
+        path = os.path.join(gerak_dir, slug, "SKILL.md")
+        if not os.path.exists(path):
+            masalah_gerak.append(f"{slug}: SKILL.md tidak ada")
+            continue
+        with open(path, encoding="utf-8") as f:
+            teks = f.read()
+        m_fm = re.match(r"^---\n(.*?)\n---", teks, re.S)
+        if not m_fm:
+            masalah_gerak.append(f"{slug}: tanpa frontmatter")
+            continue
+        fm = m_fm.group(1)
+        if not re.search(rf"^name:\s*{re.escape(slug)}\s*$", fm, re.M):
+            masalah_gerak.append(f"{slug}: name ≠ nama folder")
+        # description bisa satu baris atau blok YAML (`description: >`)
+        m_desk = re.search(r"^description:\s*(.*)$", fm, re.M)
+        desk = m_desk.group(1) if m_desk else ""
+        if desk.strip() in (">", "|", ">-", "|-"):
+            sisa = fm[m_desk.end():].splitlines()
+            desk = " ".join(b.strip() for b in sisa if b.startswith((" ", "\t")))
+        if len(desk.strip()) < 60:
+            masalah_gerak.append(f"{slug}: description terlalu pendek ({len(desk.strip())})")
+        if len(re.findall(r"^## ", teks, re.M)) < 3:
+            masalah_gerak.append(f"{slug}: kurang dari 3 bagian '##'")
+        if f".agents/skills/{slug}/SKILL.md" not in teks_skills:
+            masalah_gerak.append(f"{slug}: tidak terdaftar di SKILLS.md")
+    # yang disalin verbatim wajib membawa LICENSE upstream
+    for slug in ("motion-design", "hairline-create", "hairline-adopt", "anatomy", "anatomy-reveal"):
+        if not os.path.exists(os.path.join(gerak_dir, slug, "LICENSE")):
+            masalah_gerak.append(f"{slug}: LICENSE upstream tidak ikut disalin")
+    tambah("Pustaka gerak", "lolos" if not masalah_gerak else "gagal",
+           f"{len(daftar_gerak)} skill · 20 repo @0xMovez · 5 salinan verbatim ber-LICENSE · "
+           f"frontmatter patuh · terdaftar di SKILLS.md",
+           "; ".join(masalah_gerak[:4]))
 
     # 5h · kemasan 3D: hanya diperiksa bila foto sudah diproses
     masalah_kemasan = []

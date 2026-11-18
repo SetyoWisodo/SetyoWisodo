@@ -13,6 +13,13 @@ Alur kerja itu menggabungkan 7 skill di `.agents/skills/` menjadi loop 8 fase
 dengan gate. Jangan memilih skill sendiri di awal — jalankan loop, biarkan loop
 memanggil skill yang tepat.
 
+Pekerjaan **gerak/3D/suara/video** punya pintu masuk sendiri:
+
+> **[`.agents/skills/motion-studio/SKILL.md`](.agents/skills/motion-studio/SKILL.md)**
+
+Itu peta 20 repo (22 skill) dari postingan @0xMovez — skill gerak, scene 3D, animasi,
+suara, sampai encode. Aturannya sama: satu tahap, satu alat, tanpa CDN.
+
 ## Lima aturan
 
 1. **Evidence sebelum klaim.** Setiap pernyataan tentang target harus bisa
@@ -39,7 +46,7 @@ memanggil skill yang tepat.
 
 ## Indeks & provenance
 
-- [`SKILLS.md`](SKILLS.md) — daftar skill, semua link kedua postingan, status verifikasi.
+- [`SKILLS.md`](SKILLS.md) — dua pustaka: REA (@cabbitar, 9 skill) dan gerak (@0xMovez, 22 skill), lengkap dengan bintang, lisensi, dan status verifikasi.
 - [`.agents/skills/README.md`](.agents/skills/README.md) — asal tiap skill + lisensi.
 
 State sesi disimpan di `/tmp/rea-workflow/` (di luar tracked tree). Jangan
