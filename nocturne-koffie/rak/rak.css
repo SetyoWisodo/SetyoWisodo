@@ -19,6 +19,10 @@
   --rule:rgba(20,20,20,.9);
   --ease:cubic-bezier(.2,.8,.2,1);
   --H:min(46vh,31vw);
+  /* --cy: pusat vertikal rak. Satu variabel, dipakai CSS DAN rak.js, supaya
+     cincin putar, caption, dan syarat "kursor di sampul" tidak bisa meleset
+     satu sama lain saat tata letak berubah. */
+  --cy:50%;
 }
 
 *{box-sizing:border-box}
@@ -28,9 +32,9 @@ body{
   font-family:"Inter Tight","Inter",system-ui,sans-serif;
   overflow:hidden;user-select:none;-webkit-font-smoothing:antialiased;
 }
-@media (pointer:fine){
-  html,body,a,button{cursor:none}
-}
+/* Kursor bawaan disembunyikan hanya setelah kursor kustom siap; kalau JS
+   gagal, kursor bawaan tetap ada (jangan bikin halaman tak bisa diklik). */
+.ada-kursor, .ada-kursor a, .ada-kursor button{cursor:none}
 
 /* ---------------------------------------------------------------- label --- */
 .lbl{
@@ -72,7 +76,7 @@ button.box,button.lbl{appearance:none;background:none;border-radius:0;font:inher
 /* ---------------------------------------------------------------- tabs --- */
 .tabs{
   position:fixed;left:50%;transform:translateX(-50%);z-index:14;
-  top:calc(50% - var(--H)/2 - 86px);
+  top:calc(var(--cy) - var(--H)/2 - 86px);
 }
 .tabs__ind{
   position:absolute;top:0;height:23px;background:var(--accent);z-index:0;
@@ -89,13 +93,40 @@ button.box,button.lbl{appearance:none;background:none;border-radius:0;font:inher
 .tab:first-of-type{margin-left:0}
 .tab.is-on{color:#fff}
 
+/* -------------------------------------------------------------- lantai --- */
+/* Garis lengkung tempat kemasan berpijak + bayangan kontak lembut. Dua lapis,
+   bukan gambar: bayangan radial di luar, garis 1px di dalam. */
+.lantai{
+  position:fixed;left:50%;z-index:9;pointer-events:none;
+  top:calc(var(--cy) + var(--H) * .47);transform:translate(-50%,-50%);
+  width:min(96vw,calc(var(--H) * 3.6));height:calc(var(--H) * .3);
+  background:radial-gradient(50% 50% at 50% 42%,
+    rgba(40,32,20,.30), rgba(40,32,20,.10) 55%, transparent 72%);
+}
+.lantai::after{
+  content:"";position:absolute;left:4%;right:4%;top:46%;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(20,20,20,.20) 18%,
+    rgba(20,20,20,.20) 82%,transparent);
+}
+
+/* -------------------------------------------------------------- indeks --- */
+/* Nomor lot yang sedang terbuka, di kiri garis lantai. Pembaca tahu posisinya
+   tanpa harus menghitung kemasan satu per satu. */
+.indeks{
+  position:fixed;left:32px;z-index:12;margin:0;color:var(--muted);
+  top:calc(var(--cy) + var(--H) * .47 - 1.6em);
+}
+
 /* --------------------------------------------------------------- stage --- */
 .shelf{
   position:fixed;left:0;right:0;z-index:10;
-  top:calc(50% - var(--H)/2 - 40px);height:calc(var(--H) + 80px);
+  top:calc(var(--cy) - var(--H)/2 - 40px);height:calc(var(--H) + 80px);
+  /* P = 2200 px: rujukan memakai 1400 untuk lembar 840 px. Z kotak kita
+     mencapai −680 px di ujung busur; P 1400 akan membuat ujung itu meledak
+     ukurannya. 2200 menjaga perbesaran dekat < 1,4×. */
   perspective:2200px;perspective-origin:50% 50%;touch-action:pan-y;
 }
-.stage{position:absolute;left:50%;top:50%;width:0;height:0;transform-style:preserve-3d}
+.stage{position:absolute;left:50%;top:var(--cy);width:0;height:0;transform-style:preserve-3d}
 .tape{position:absolute;left:0;top:0;width:0;height:0;transform-style:preserve-3d;will-change:transform}
 .face{
   position:absolute;top:calc(var(--H) * -.5);height:var(--H);
@@ -123,7 +154,7 @@ button.box,button.lbl{appearance:none;background:none;border-radius:0;font:inher
 
 /* --------------------------------------------------------------- caption --- */
 .cap{
-  position:fixed;left:0;right:0;z-index:12;top:calc(50% + var(--H)/2 + 30px);
+  position:fixed;left:0;right:0;z-index:12;top:calc(var(--cy) + var(--H)/2 + 30px);
   display:flex;flex-direction:column;align-items:center;gap:9px;pointer-events:none;
 }
 .mask{
@@ -148,7 +179,7 @@ button.box,button.lbl{appearance:none;background:none;border-radius:0;font:inher
 .arrow{
   position:fixed;z-index:14;width:44px;height:44px;padding:0;border:0;background:none;
   color:var(--ink);display:grid;place-items:center;
-  top:calc(50% + var(--H)/2 + 40px);
+  top:calc(var(--cy) + var(--H)/2 + 40px);
 }
 .arrow--l{left:20px}
 .arrow--r{right:20px}
@@ -161,6 +192,68 @@ button.box,button.lbl{appearance:none;background:none;border-radius:0;font:inher
 }
 .foot .lbl{color:var(--ink)}
 .foot a{color:var(--ink);text-decoration:none}
+
+/* ------------------------------------------------------------- kanji --- */
+/* Dua baris kanji besar di belakang rak, dicetak dengan titik halftone.
+ * Rujukan memakai 映画 / の記憶; di sini artinya kopi — 珈琲 ("kopi") dan
+ * の記憶 ("dan kenangan"), jadi bukan salinan kata asing di halaman kopi.
+ * Lapisan ini dekoratif (aria-hidden) dan tidak pernah menutupi teks. */
+.kanji{
+  position:fixed;z-index:4;right:3vw;top:50%;transform:translateY(-50%);
+  display:flex;flex-direction:column;align-items:flex-end;gap:.02em;
+  font-family:"Kopi Kanji","Hiragino Mincho ProN","Yu Mincho",serif;
+  color:var(--ink);pointer-events:none;user-select:none;
+  opacity:.20;mix-blend-mode:multiply;
+  line-height:1;letter-spacing:-.02em;
+}
+.kanji__a{font-size:clamp(120px,22vh,260px)}
+.kanji__b{font-size:clamp(64px,11.5vh,138px);opacity:.85}
+/* Halftone: titik 3 px di grid 4 px, bukan gambar. Masked ke bentuk glyph
+   lewat SVG (lihat tools/rak.py) — di sini hanya tekstur latarnya. */
+.kanji--halftone{
+  -webkit-mask-image:radial-gradient(circle at 50% 50%,#000 1.4px,transparent 1.5px);
+  mask-image:radial-gradient(circle at 50% 50%,#000 1.4px,transparent 1.5px);
+  -webkit-mask-size:4px 4px;mask-size:4px 4px;
+}
+@media (max-width:767px){
+  .kanji{right:-2vw;top:auto;bottom:calc(100% - var(--cy) + var(--H) * .02);transform:none}
+  .kanji__a{font-size:clamp(76px,17vw,120px)}
+  .kanji__b{font-size:clamp(40px,9vw,64px)}
+}
+@media (prefers-reduced-motion:reduce){.kanji{opacity:.16}}
+
+/* ------------------------------------------------------- garis waktu --- */
+/* Rujukan menaruh 1955 – 1990 di bawah rak. Di halaman kopi angka tahun tidak
+   ada artinya; yang ada dan terbukti di katalog adalah ketinggian kebun
+   (420 – 1.800 mdpl) dan tingkat sangrai (1 – 5). Garisnya memakai ketinggian,
+   titik yang menyala = lot yang sedang dibuka. Kalau lot tidak punya mdpl
+   (blend), titiknya tidak digambar — bukan dikarang 0. */
+.timeline{
+  position:fixed;left:50%;transform:translateX(-50%);z-index:12;
+  bottom:calc(24px + env(safe-area-inset-bottom,0px));
+  width:min(70vw,560px);height:26px;pointer-events:none;
+  color:var(--muted);
+}
+.timeline__axis{
+  position:absolute;left:0;right:0;top:9px;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(20,20,20,.22) 6%,rgba(20,20,20,.22) 94%,transparent);
+}
+.timeline__dot{
+  position:absolute;top:6px;width:7px;height:7px;margin-left:-3.5px;border-radius:50%;
+  background:var(--paper);border:1px solid var(--muted);
+  transition:background-color .45s var(--ease),border-color .45s var(--ease),transform .45s var(--ease);
+}
+.timeline__dot.is-on{background:var(--accent);border-color:var(--accent);transform:scale(1.55)}
+.timeline__tick{
+  position:absolute;top:14px;font-size:9px;letter-spacing:.06em;transform:translateX(-50%);
+  font-family:"Inter Tight",sans-serif;white-space:nowrap;color:var(--muted);
+}
+.timeline__tick:first-of-type{transform:translateX(0)}
+.timeline__tick:last-of-type{transform:translateX(-100%)}
+@media (max-width:767px){
+  .timeline{width:calc(100vw - 96px);bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+  .timeline__tick{font-size:8px}
+}
 
 /* -------------------------------------------------------------- kursor --- */
 .cur{
@@ -238,7 +331,7 @@ button.box,button.lbl{appearance:none;background:none;border-radius:0;font:inher
   .logo__b{font-size:7.5px}
   .lbl{font-size:9px}
   .bar__right{display:none}
-  .tabs{top:calc(50% - var(--H)/2 - 70px)}
+  .tabs{top:calc(var(--cy) - var(--H)/2 - 70px)}
   .tab{padding:0 7px;font-size:9px;gap:4px}
   .cap__title .line{font-size:24px}
   .arrow--l{left:6px}

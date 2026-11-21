@@ -12,6 +12,12 @@
  * `rak/rak.js`, `rak/rak.css`, dan `rak/index.html`, lalu membandingkan setiap
  * butir dengan spesifikasi — tanpa peramban, tanpa menebak.
  *
+ * 21 Nov 2026: geometri rak naik dari garis lurus ke BUSUR ala rujukan VHS
+ * (scl(u)=1/(1+(|u|/U)^1.6) + tabel integral XS). Butir yang mendeskripsikan
+ * rumus lama (z = o·0,2H, y = −o·0,025H, culling |x| > W/2+1,5d, z-index
+ * 100−|r|·4, kursor meluncur di rak.js) diperbarui ke rumus busur yang baru;
+ * bukan dilonggarkan — masing-masing masih diuji terhadap angka yang pasti.
+ *
  * Keluaran: baris "OK" untuk butir yang sama, "~" untuk penyimpangan yang
  * DISENGAJA (dengan alasan), "XX" untuk yang hilang/salah (menggagalkan uji).
  *
@@ -28,6 +34,9 @@ const js = fs.readFileSync(path.join(ROOT, 'rak/rak.js'), 'utf8');
 const css = fs.readFileSync(path.join(ROOT, 'rak/rak.css'), 'utf8');
 const html = fs.readFileSync(path.join(ROOT, 'rak/index.html'), 'utf8');
 const data = fs.readFileSync(path.join(ROOT, 'rak/data.js'), 'utf8');
+// kursor dipindah ke berkas sendiri 21 Nov 2026 (supaya rak.js tinggal satu
+// urusan: rak). Uji membaca keduanya.
+const kursor = fs.readFileSync(path.join(ROOT, 'rak/rak-kursor.js'), 'utf8');
 
 const gagal = [];
 const menyimpang = [];
@@ -46,9 +55,12 @@ const sama = (ok, spek, alasan) => {
   if (ok) { lolos++; if (verbose) console.log(`  OK ${spek}`); }
   else { menyimpang.push(`${spek} — ${alasan}`); if (verbose || true) console.log(`  ~  ${spek} — ${alasan}`); }
 };
+const namaSumber = (sumber) =>
+  sumber === js ? 'rak.js' : sumber === css ? 'rak.css'
+    : sumber === html ? 'rak/index.html' : sumber === kursor ? 'rak-kursor.js' : 'berkas';
 const ada = (pola, spek, sumber = js) =>
   catat(typeof pola === 'string' ? sumber.includes(pola) : pola.test(sumber), spek,
-    `tidak ditemukan di ${sumber === js ? 'rak.js' : sumber === css ? 'rak.css' : 'rak/index.html'}`);
+    `tidak ditemukan di ${namaSumber(sumber)}`);
 
 // ---------------------------------------------------------------- token ---
 ada('--paper:#EDEBE6', 'token: --paper #EDEBE6', css);
@@ -69,7 +81,15 @@ ada(/d = H \* FACE\.cv/, 'cover width = H·FACE.cv (dari data)');
 ada(/cv: 474 \/ 900, sp: 142 \/ 840/, 'cadangan rasio kaset 474/900 & 142/840 dipertahankan');
 ada(/"FACE"/, 'data menyebut FACE', data);
 ada(/"BAHAN": "kemasan"/, 'data menyebut bahan kemasan', data);
-ada(/gap = H \* 0\.03/, 'gap = H·0,03');
+ada(/gap = H \* 0\.035/, 'gap = H·0,035');
+ada(/Math\.pow\(Math\.abs\(u\) \/ U, 1\.6\)/, 'scl(u) = 1/(1+(|u|/U)^1,6)');
+ada(/function bangunBusur/, 'tabel integral XS dibangun sekali per ukuran');
+ada(/U = H \* \(window\.innerWidth < 768 \? 1\.05 : 1\.3\)/,
+  'U = 1,3H (ponsel 1,05H) — jatuh kedalaman busur');
+ada(/const xs = xsc\(u\)/, 'posisi layar = integral busur xsc(u)');
+ada(/Math\.sign\(u\) \* Math\.min\(1, Math\.abs\(u\) \/ U\) \* 26/, 'belok rotateY 26°·(|u|/U)');
+ada(/H \* 0\.5 \* \(1 - sc\) \* 0\.42/, 'bowl-sink 0,42·H(1−sc)');
+ada(/perspective:2200px/, 'perspektif 2200 px (rujukan 1400 untuk lembar 840 px)', css);
 ada('const COPIES = 3', '12 film × 3 salinan = 36 kotak');
 ada(/const HALF = TOTAL \/ 2/, 'relatif ±18 (TOTAL/2)');
 ada(/r \* \(ws \+ gap\) \+ \(d - ws \+ 1\.6 \* gap\) \* step\(r\)/, 'F(r) = r(ws+gap) + (d−ws+1,6gap)·B(r)');
@@ -79,13 +99,15 @@ ada(/a \* a \* \(3 - 2 \* a\)/, 'bukaan o = smoothstep(1−|r|)');
 // ------------------------------------------------------------ jejak 3D ---
 ada("' rotateZ(' + (-4.5 * o)", 'kemiringan −4,5°·o');
 ada('rotateZ(', 'urutan transform translate3d → rotateZ → rotateX → rotateY');
-ada(/o \* 0\.2 \* H/, 'pulled out: translateZ 0,2H');
-ada(/-o \* 0\.025 \* H/, 'angkat: translateY −0,025H');
-ada(/t\.lift \* 0\.045 \* H/, 'hover lift 0,045H');
-ada(/\(o \* 0\.55\)/, 'shading punggung o·0,55');
-ada(/\(\(1 - o\) \* 0\.5\)/, 'shading sampul (1−o)·0,5');
-ada('100 - Math.abs(r) * 4', 'z-index 100−|r|·4');
-ada('W / 2 + 1.5 * d', 'culling: |x| > W/2 + 1,5d');
+ada(/o \* H \* 0\.1/, 'pulled out: translateZ o·0,1H di atas kedalaman busur');
+ada(/2200 \* \(1 - k\)/, 'kedalaman z = P(1−k) — makin ke tepi makin jauh');
+ada(/o \* H \* 0\.012/, 'angkat: translateY +0,012H·o (busur sudah menenggelamkan tepi)');
+ada(/t\.lift \* H \* 0\.05/, 'hover lift 0,05H');
+ada(/\(1 - sc\) \* 0\.32/, 'shading punggung: o·0,55 + (1−sc)·0,32');
+ada(/\(\(1 - o\) \* 0\.82\)/, 'shading sampul (1−o)·0,82');
+ada(/Math\.round\(3000 \+ z\)/, 'z-index mengikuti kedalaman (3000+z)');
+ada(/Math\.abs\(xs\) - \(d \* sc\) \/ 2 > W \/ 2/,
+  'culling menurut tepi kotak di layar: |xs| − lebar/2 > W/2');
 
 // --------------------------------------------------------------- pegas ---
 ada(/dragging \? 18 : 5\.2/, 'pegas s: 5,2 (diam) / 18 (geser)');
@@ -126,7 +148,7 @@ ada('translateX(', 'indikator tab digeser translateX');
 
 // -------------------------------------------------------------- kursor ---
 ada('width:58px;height:58px', 'kursor 58 px', css);
-ada('ease(dts, 16)', 'kursor mengikuti 1−e^(−16·dt)');
+ada(/1 - Math\.exp\(-16/, 'kursor mengikuti 1−e^(−16·dt) di rak-kursor.js', kursor);
 ada('scale(.72)', 'kursor di atas punggung: 0,72', css);
 ada('scale(.55)', 'kursor di atas tombol: 0,55', css);
 ada('scale(1.75)', 'kursor di atas sampul: 1,75 + kobalt', css);
@@ -181,6 +203,32 @@ ada('160', 'roda: 160 ms');
 ada('> 5', 'geser mulai setelah 5 px');
 ada('Math.round(T)', 'geser/roda snap ke bilangan bulat');
 ada('is-', 'kursor punya keadaan (kelas)');
+
+// -------------------------------------------- tambahan paritas 21 Nov 2026 ---
+// Rujukan VHS punya empat lapisan yang dulu tidak ada di rak Nocturne: kanji
+// halftone, garis waktu, bayangan lantai, dan nomor lot. Semua diuji di sini.
+const fonts = fs.readFileSync(path.join(ROOT, 'assets/css/fonts.css'), 'utf8');
+ada('珈琲', 'kanji 珈琲 (kopi) — kata sendiri, bukan 映画', html);
+ada('の記憶', 'kanji の記憶 (dan kenangan)', html);
+ada('kanji--halftone', 'kanji ditutup tekstur halftone', css);
+ada(/mask-size:4px 4px/, 'halftone: titik di grid 4 px', css);
+const tanpaKomentarHtml = html.replace(/<!--[\s\S]*?-->/g, '');
+catat(!tanpaKomentarHtml.includes('映画'), 'kanji rujukan (映画) tidak disalin', 'masih ada 映画');
+ada('Kopi Kanji', '@font-face "Kopi Kanji" dari subset IPAexGothic', fonts);
+ada('unicode-range:U+306E', 'unicode-range kanji dibatasi 7 glif', fonts);
+catat(fs.existsSync(path.join(ROOT, 'assets/fonts/kopikanji.woff2')), 'subfont kanji ada di assets/fonts', 'kopikanji.woff2 hilang');
+catat(fs.existsSync(path.join(ROOT, 'assets/fonts/LISENSI-IPA.txt')), 'lisensi IPA v1.0 ikut disertakan', 'LISENSI-IPA.txt hilang');
+ada('id="timeline"', 'garis waktu ada di halaman', html);
+ada('timeline__axis', 'garis sumbu garis waktu', css);
+ada('bangunWaktu', 'garis waktu dibangun dari data (bukan tahun karangan)');
+ada('it.mdpl', 'titik garis waktu memakai ketinggian katalog');
+catat(!js.replace(/\/\*[\s\S]*?\*\//g, '').includes('1955')
+  && !html.replace(/<!--[\s\S]*?-->/g, '').includes('1955')
+  && !html.replace(/<!--[\s\S]*?-->/g, '').includes('1990'),
+  'tahun rujukan (1955–1990) tidak dipakai', 'ada tahun karangan');
+ada('class="lantai"', 'bayangan lantai di bawah rak', html);
+ada('.lantai{', 'gaya bayangan lantai', css);
+ada('id="indeks"', 'nomor lot aktif tampil', html);
 
 // larangan
 catat(!/@keyframes/.test(css.replace(/\/\*[\s\S]*?\*\//g, '')), 'tanpa @keyframes', 'ada @keyframes');

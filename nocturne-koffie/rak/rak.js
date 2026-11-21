@@ -28,6 +28,12 @@
   const capTitle = $('.cap__title'), capSub = $('.cap__sub'), capMeta = $('.cap__meta');
   const tabsEl = $('.tabs'), tabsInd = $('#tabsInd');
   const cur = $('#cur');
+  const indeksEl = $('#indeks');
+  const waktuEl = $('#timeline');
+  const KURSOR = window.RAK_KURSOR || null;
+  if (typeof document !== 'undefined' && matchMedia('(pointer:fine)').matches && cur) {
+    document.documentElement.classList.add('ada-kursor');
+  }
 
   // ------------------------------------------------------------- geometri ---
   const probe = document.createElement('div');
@@ -40,16 +46,78 @@
   // mengganti bentuk objek tidak perlu menyunting mesin animasinya.
   const FACE = R.FACE || { cv: 474 / 900, sp: 142 / 840 };
 
-  let H = 0, ws = 0, d = 0, gap = 0;
+  let H = 0, ws = 0, d = 0, gap = 0, U = 0, XS = null;
+
+  /* Garis waktu. Rujukan menulis 1955 – 1990; halaman kopi tidak punya tahun,
+     jadi sumbunya ketinggian kebun (mdpl dari katalog). Lot tanpa mdpl (blend)
+     tidak diberi titik: lebih baik kosong daripada angka karangan. */
+  let titikWaktu = [];
+  function bangunWaktu() {
+    if (!waktuEl) return;
+    const ada = ITEMS.filter((it) => it.mdpl);
+    waktuEl.querySelectorAll('.timeline__dot, .timeline__tick').forEach((n) => n.remove());
+    if (!ada.length) return;
+    const lo = Math.min(...ada.map((it) => it.mdpl));
+    const hi = Math.max(...ada.map((it) => it.mdpl));
+    const pos = (mdpl) => 4 + ((mdpl - lo) / Math.max(1, hi - lo)) * 92;
+    titikWaktu = ada.map((it) => {
+      const d = document.createElement('i');
+      d.className = 'timeline__dot';
+      d.style.left = pos(it.mdpl) + '%';
+      waktuEl.appendChild(d);
+      return { el: d, no: it.no };
+    });
+    const bawah = document.createElement('span');
+    bawah.className = 'timeline__tick';
+    bawah.style.left = '4%';
+    bawah.textContent = lo.toLocaleString('id-ID') + ' mdpl';
+    const atas = document.createElement('span');
+    atas.className = 'timeline__tick';
+    atas.style.left = '96%';
+    atas.textContent = hi.toLocaleString('id-ID') + ' mdpl';
+    waktuEl.append(bawah, atas);
+  }
+  bangunWaktu();
+
+  /* Busur: rujukan memakai scl(u)=1/(1+(|u|/U)^1.6) lalu mengintegralkan
+     skalanya untuk mendapat posisi layar. Hasilnya: kemasan di tepi mengecil
+     DAN merapat — bukan cuma mengecil. Tabel XS dihitung sekali per ukuran;
+     langkah 2 px cukup halus dan jauh lebih murah daripada integral tiap frame. */
+  function bangunBusur() {
+    // U = 1,3 H (ponsel 1,05 H) — angka rujukan, tidak diubah. Konsekuensinya
+    // jujur: pada 1440 px hanya sekitar 5 punggung yang tampak, karena busur
+    // melengkung keluar layar. Itu perilaku rak melengkung, bukan bug; lot lain
+    // tetap tercapai lewat seret, roda, panah, atau tab.
+    U = H * (window.innerWidth < 768 ? 1.05 : 1.3);
+    const langkah = 2;
+    const maks = U * 1.95;
+    XS = new Float64Array(Math.ceil(maks / langkah) + 2);
+    let akum = 0;
+    for (let i = 0; i < XS.length; i++) {
+      const u = i * langkah;
+      XS[i] = akum;
+      akum += 2 / (1 + Math.pow(u / U, 1.6)) * langkah;
+    }
+  }
+
+  const scl = (u) => 1 / (1 + Math.pow(Math.abs(u) / U, 1.6));
+  function xsc(u) {
+    const i = Math.min(XS.length - 1, Math.abs(u) / 2);
+    const i0 = Math.floor(i), f = i - i0;
+    const v = XS[i0] + (XS[Math.min(i0 + 1, XS.length - 1)] - XS[i0]) * f;
+    return Math.sign(u) * v;
+  }
+
   function ukur() {
     H = probe.offsetHeight || 320;
     ws = H * FACE.sp;
     d = H * FACE.cv;
-    gap = H * 0.03;
+    gap = H * 0.035;
     stage.style.setProperty('--ws', ws + 'px');
     stage.style.setProperty('--d', d + 'px');
     document.documentElement.style.setProperty('--ws', ws + 'px');
     document.documentElement.style.setProperty('--d', d + 'px');
+    bangunBusur();
   }
   ukur();
 
@@ -112,6 +180,19 @@
   let dragging = false, dragged = false, drag0 = null;
   let wheelT = 0;
   let last = performance.now();
+
+  /* Pusat rak dari CSS, bukan dari innerHeight/2: --cy boleh persen atau px,
+     dan satu-satunya sumber kebenaran tetap stylesheet (rujukan memakai 41%). */
+  let cyCache = null;
+  function pusatRak() {
+    if (cyCache !== null) return cyCache;
+    const mentah = getComputedStyle(document.documentElement).getPropertyValue('--cy').trim();
+    const n = parseFloat(mentah);
+    cyCache = Number.isFinite(n)
+      ? (mentah.endsWith('%') ? (n / 100) * window.innerHeight : n)
+      : window.innerHeight / 2;
+    return cyCache;
+  }
 
   // --------------------------------------------------------------- kompas ---
   function tapeAktif() {
@@ -185,7 +266,11 @@
   function frame(now) {
     const dts = Math.min(50, now - last) / 1000;
     last = now;
-    const W = window.innerWidth, cy = window.innerHeight / 2;
+    // --cy: tinggi pusat rak diukur dari elemen stage, bukan ditebak dari
+    // innerHeight/2. Kalau bar atau caption bergeser, cincin putar dan syarat
+    // "kursor di sampul" ikut bergeser — tidak lagi meleset 20–40 px.
+    const W = window.innerWidth;
+    const cy = pusatRak();
 
     // --- pegas posisi
     const k = RM ? 60 : (dragging ? 18 : 5.2);
@@ -223,20 +308,33 @@
       const tujuan = (hover === t.v && Math.abs(r) > 0.5 && !isOpen) ? 1 : 0;
       t.lift = lerp(t.lift, tujuan, ease(dts, RM ? 40 : 12));
 
-      const x = F(r);
-      if (Math.abs(x) > W / 2 + 1.5 * d) { t.el.style.visibility = 'hidden'; continue; }
+      // Rujukan: u = panjang busur, sc = skala layar, k = 1/sc. Kemasan
+      // diletakkan pada kedalaman yang menghasilkan skala itu, jadi yang di
+      // tepi benar-benar lebih kecil DAN lebih rapat — bukan cuma menyusut.
+      const u = F(r);
+      if (Math.abs(u) > U * 1.95) { t.el.style.visibility = 'hidden'; continue; }
+      const sc = scl(u);
+      const k = 1 / sc;
+      // Posisi layar sesudah proyeksi perspektif = xsc(u); x hanya nilai
+      // sebelum dibagi. Culling harus memakai posisi layar itu, bukan x —
+      // kalau tidak, kotak yang sebenarnya masih di layar ikut disembunyikan.
+      const xs = xsc(u);
+      const x = xs * k;
+      if (Math.abs(xs) - (d * sc) / 2 > W / 2) { t.el.style.visibility = 'hidden'; continue; }
       t.el.style.visibility = 'visible';
 
-      const y = -o * 0.025 * H - t.lift * 0.045 * H;
-      const z = o * 0.2 * H;
+      const y = (H * 0.5 * (1 - sc) * 0.42 + o * H * 0.012 - t.lift * H * 0.05) * k;
+      const z = 2200 * (1 - k) + o * H * 0.1;
+      const rotY = Math.sign(u) * Math.min(1, Math.abs(u) / U) * 26 * (1 - o)
+        - 90 * o + tiltY * o;
       t.el.style.transform =
         'translate3d(' + x.toFixed(2) + 'px,' + y.toFixed(2) + 'px,' + z.toFixed(2) + 'px)' +
         ' rotateZ(' + (-4.5 * o).toFixed(3) + 'deg)' +
         ' rotateX(' + (tiltX * o).toFixed(3) + 'deg)' +
-        ' rotateY(' + (-90 * o + tiltY * o).toFixed(3) + 'deg)';
-      t.el.style.zIndex = String(Math.round(100 - Math.abs(r) * 4));
-      t.sp.style.setProperty('--shade', (o * 0.55).toFixed(3));
-      t.cv.style.setProperty('--shade', ((1 - o) * 0.5).toFixed(3));
+        ' rotateY(' + rotY.toFixed(3) + 'deg)';
+      t.el.style.zIndex = String(Math.round(3000 + z));
+      t.sp.style.setProperty('--shade', Math.min(0.6, o * 0.55 + (1 - sc) * 0.32).toFixed(3));
+      t.cv.style.setProperty('--shade', ((1 - o) * 0.82).toFixed(3));
     }
 
     // --- tombol putar: muncul saat rak hampir diam
@@ -247,10 +345,11 @@
     ring.style.pointerEvents = rs > 0.5 ? 'auto' : 'none';
     ring.tabIndex = rs > 0.5 ? 0 : -1;
 
-    // --- kursor
-    px = lerp(px, mx, ease(dts, 16));
-    py = lerp(py, my, ease(dts, 16));
-    cur.style.transform = 'translate3d(' + px.toFixed(2) + 'px,' + py.toFixed(2) + 'px,0)';
+    // --- kursor: geraknya di rak-kursor.js (1 - e^(-16·dt)); di sini hanya status
+    if (indeksEl) {
+      const it = ITEMS[((Math.round(s) % N) + N) % N];
+      if (indeksEl.textContent !== it.no) indeksEl.textContent = it.no + ' / ' + String(N).padStart(2, '0');
+    }
 
     requestAnimationFrame(frame);
   }
@@ -260,9 +359,11 @@
   function kursor(ev) {
     const diAtasKotak = ev.target.closest && ev.target.closest('.tape');
     const diAtasTombol = ev.target.closest && ev.target.closest('button,a');
-    cur.classList.toggle('is-open', onCover && !isOpen && !!diAtasKotak);
-    cur.classList.toggle('is-spine', !onCover && !isOpen && !!diAtasKotak);
-    cur.classList.toggle('is-btn', isOpen ? !!(diAtasTombol && !diAtasKotak) : !!diAtasTombol);
+    if (!KURSOR) return;
+    if (onCover && !isOpen && diAtasKotak) KURSOR.setState('open');
+    else if (!onCover && !isOpen && diAtasKotak) KURSOR.setState('spine');
+    else if (isOpen ? (diAtasTombol && !diAtasKotak) : diAtasTombol) KURSOR.setState('btn');
+    else KURSOR.setState('');
   }
 
   window.addEventListener('pointermove', (ev) => {
@@ -371,7 +472,7 @@
     isi(it);
     poster(it.id);
     isOpen = true;
-    cur.classList.remove('is-open', 'is-spine');
+    if (KURSOR) KURSOR.setState('');
 
     const t = tapeAktif();
     const rect = t.cv.getBoundingClientRect();
@@ -426,7 +527,7 @@
   // --------------------------------------------------------------- muat awal ---
   Object.values(R.SHEET).forEach(([url]) => { const im = new Image(); im.src = url; });
 
-  window.addEventListener('resize', () => { ukur(); });
+  window.addEventListener('resize', () => { cyCache = null; ukur(); });
 
   // judul pertama langsung terpasang tanpa slide
   const i0 = ((Math.round(s) % N) + N) % N;

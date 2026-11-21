@@ -51,3 +51,15 @@
   font-style:normal;
   font-display:swap;
 }
+
+/* Subset kanji (7 glif: 珈琲の記憶焙煎) dari IPAexGothic, arsip lisensi IPA v1.0
+   di ../fonts/LISENSI-IPA.txt. Dipakai hanya untuk label Jepang di halaman rak;
+   tidak ada CDN Jepang yang dipanggil. Subset 1,9 KB — bukan font penuh 4 MB. */
+@font-face{
+  font-family:"Kopi Kanji";
+  src:url("../fonts/kopikanji.woff2") format("woff2");
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
+  unicode-range:U+306E,U+5C71,U+61B6,U+7119,U+714E,U+73C8,U+7432;
+}

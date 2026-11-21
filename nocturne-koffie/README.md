@@ -129,17 +129,25 @@ Sumber: `github.com/google/fonts` (OFL 1.1) · dibangun oleh `tools/font.py`.
 
 ## Rak sangrai — hero rak 3D (`rak/`)
 
-Halaman empat berkas: `rak/index.html`, `rak/rak.css`, `rak/rak.js`, `rak/data.js`.
-Dua belas lot (9 kopi + 2 paket + kartu member) berdiri di rak; satu ditarik keluar
-dan diputar −90° menghadap Anda. Panah, tab kategori, geser, roda, papan tombol,
-kursor kustom (cincin → cakram "BUKA / OPEN"), dan lembar detail yang tumbuh dari
-sampul dengan tinta menyebar.
+Halaman lima berkas: `rak/index.html`, `rak/rak.css`, `rak/rak.js`, `rak/rak-kursor.js`,
+`rak/data.js`. Sembilan lot 500 g berdiri di rak **melengkung** (busur `scl(u)` +
+tabel integral `XS`); satu ditarik keluar dan diputar −90° menghadap Anda. Panah, tab
+kategori, geser, roda, papan tombol, kursor kustom (cincin → cakram "BUKA / OPEN"),
+lembar detail yang tumbuh dari sampul dengan tinta menyebar, kanji halftone 珈琲 / の記憶,
+garis waktu ketinggian kebun, dan bayangan lantai.
+
+**Paritas rujukan (21 Nov 2026).** Geometri, pegas, tirai detail, dan tinta mengikuti
+resep rujukan "VHS archive" yang dikirim pemilik; **aset, font, dan kata tidak**:
+atlas kemasan tetap dari `tools/rak.py`, kanji diganti 珈琲 / の記憶 (bukan 映画),
+font kanji = subset 7 glif IPAexGothic (`assets/fonts/kopikanji.woff2`, lisensi IPA v1.0),
+dan garis waktu memakai **ketinggian kebun** dari katalog (422–1.700 mdpl), bukan
+tahun 1955–1990 karangan. Lot blend tanpa mdpl tidak diberi titik.
 
 | Bagian | Isi |
 | --- | --- |
 | `tools/rak.py` | membangun dua atlas dari `data/catalog.json`: `assets/img/rak/covers.webp` (1744×2336, 12 kotak 4×3) dan `spines.webp` (2688×1152, 12 kotak sebaris) + `rak/data.js` |
-| `tools/rak-uji.mjs` | uji asap tanpa peramban (jsdom): 26 butir — galat JS, jarak punggung, sudut kotak aktif, tab, panah, buka/tutup, harga & WhatsApp dari katalog, tinta |
-| `tools/rak-spek.mjs` | **konformansi spesifikasi template** (105 butir): token, ws/d/gap, F(r), pegas 5,2/18, tirai 1050 ms, tinta 520+1250 ms, cincin 42 px, kursor 58 px, caption 650 ms, tab 0,6 s, butir kertas, aria, larangan `@keyframes`/opacity |
+| `tools/rak-uji.mjs` | uji asap tanpa peramban (jsdom): 28 butir — galat JS, posisi punggung = rumus busur, merapat & mengecil ke tepi, sudut kotak aktif, tab, panah, buka/tutup, harga & WhatsApp dari katalog, tinta |
+| `tools/rak-spek.mjs` | **konformansi spesifikasi template** (133 butir): token, ws/d/gap, F(r), pegas 5,2/18, tirai 1050 ms, tinta 520+1250 ms, cincin 42 px, kursor 58 px, caption 650 ms, tab 0,6 s, butir kertas, aria, larangan `@keyframes`/opacity |
 | `tools/rak-pratinjau.py` | pratinjau komposisi (`laporan/rak-pratinjau.png`, `…-detail.png`) — **perkiraan**, bukan tangkapan peramban |
 
 Gerbang `tools/periksa.py` butir **Rak sangrai**: atlas ada & tidak terlalu berat, harga tidak

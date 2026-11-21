@@ -24,3 +24,16 @@ membaca glyph untuk render video. Hanya subset Latin; aksara lain tidak disertak
 tipografinya benar-benar Bricolage/Fraunces/Inter — bukan font pengganti. Italic Fraunces
 tidak tersedia di paket Fontsource, jadi `<em>` pada video tidak dimiringkan;
 di halaman web italic tetap dipakai karena browser memiringkan sendiri.
+
+## Kanji (IPAexGothic, subset)
+
+`kopikanji.woff2` adalah subset **7 glif** (珈琲の記憶焙煎) dari `ipaexg.ttf`,
+IPAexGothic 003.01, diterbitkan oleh IPA (Information-technology Promotion
+Agency, Jepang) di bawah **IPA Font License Agreement v1.0** — salinan lengkap
+ada di `LISENSI-IPA.txt` (wajib ikut bila font disebarkan). Lisensi mengizinkan
+pemakaian komersial dan penyematan; larangan: menjual font sebagai font, atau
+mengubah nama keluarga font.
+
+Dibuat dengan `pyftsubset ipaexg.ttf --text="珈琲の記憶焙煎" --flavor=woff2
+--no-hinting --layout-features=''`. Tanpa langkah ini, halaman rak hanya punya
+glyph Latin dan kanji akan jatuh ke font sistem (kotak kosong di banyak mesin).

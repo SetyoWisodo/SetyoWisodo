@@ -31,12 +31,23 @@
   <!-- tombol diisi rak.js dari window.RAK.TABS -->
 </nav>
 
+<!-- kanji dekoratif: "kopi" dan "dan kenangan", bukan 映画 dari rujukan -->
+<div class="kanji kanji--halftone" aria-hidden="true">
+  <span class="kanji__a">珈琲</span>
+  <span class="kanji__b">の記憶</span>
+</div>
+
+<!-- bayangan lantai di bawah rak: satu gradien radial, bukan gambar -->
+<div class="lantai" aria-hidden="true"></div>
+
 <section class="shelf" aria-label="Rak kemasan kopi" id="shelf">
   <div class="stage" id="stage"></div>
   <button class="ring" id="ring" aria-label="Buka lot">
     <svg viewBox="0 0 12 14" aria-hidden="true"><path d="M1 1 L11 7 L1 13 Z" /></svg>
   </button>
 </section>
+
+<p class="indeks lbl" id="indeks" aria-hidden="true"></p>
 
 <div class="cap" aria-live="polite" aria-atomic="true">
   <div class="mask cap__title"><span class="line"></span></div>
@@ -50,6 +61,11 @@
 <button class="arrow arrow--r" id="next" aria-label="Lot berikutnya">
   <svg viewBox="0 0 18 10" aria-hidden="true"><path d="M13 1 L17 5 L13 9 M17 5 H1" /></svg>
 </button>
+
+<!-- garis waktu: ketinggian kebun, bukan tahun karangan -->
+<div class="timeline" id="timeline" aria-hidden="true">
+  <div class="timeline__axis"></div>
+</div>
 
 <footer class="foot">
   <span class="lbl">© Nocturne Koffie · Banyuwangi</span>
@@ -110,6 +126,7 @@
 </div>
 
 <script src="data.js"></script>
+<script src="rak-kursor.js"></script>
 <script src="rak.js"></script>
 </body>
 </html>

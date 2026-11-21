@@ -10,7 +10,7 @@
     {
       "kategori": "Tautan lokal",
       "status": "lolos",
-      "teks": "174/174 tautan menuju berkas yang ada",
+      "teks": "175/175 tautan menuju berkas yang ada",
       "detail": ""
     },
     {
@@ -136,8 +136,8 @@
     {
       "kategori": "Berkas luring",
       "status": "lolos",
-      "teks": "berkas tunggal 975 KB · pemeriksaan isi dilewati (Pillow tidak terpasang)",
-      "detail": "jalankan: pip install pillow"
+      "teks": "1 berkas 975 KB · CSS+JS+huruf+gambar tersisip · 0 tautan aset relatif",
+      "detail": "dibuka langsung dari folder unduhan"
     },
     {
       "kategori": "Pintu semua",
@@ -147,9 +147,9 @@
     },
     {
       "kategori": "Huruf lokal",
-      "status": "gagal",
+      "status": "lolos",
       "teks": "4 berkas variabel 231 KB · 0 permintaan ke Google Fonts · rentang bobot cocok dengan CSS",
-      "detail": "bricolage.woff2 tidak terbaca: No module named 'fontTools'; fraunces.woff2 tidak terbaca: No module named 'fontTools'; fraunces-italic.woff2 tidak terbaca: No module named 'fontTools'; intertight.woff2 tidak terbaca: No module named 'fontTools'"
+      "detail": ""
     },
     {
       "kategori": "Pustaka gaya",
@@ -159,15 +159,15 @@
     },
     {
       "kategori": "Rak sangrai",
-      "status": "lolos",
-      "teks": "12 kotak 3D · sampul 363 KB · punggung 179 KB · uji asap dilewati · spesifikasi template 105/105",
-      "detail": ""
+      "status": "gagal",
+      "teks": "12 kotak 3D · sampul 363 KB · punggung 179 KB · uji asap lolos · spesifikasi template gagal",
+      "detail": "spesifikasi rak gagal: — tidak ditemukan di rak.js\n   · z-index 100−|r|·4 — tidak ditemukan di rak.js\n   · culling: |x| > W/2 + 1,5d — tidak ditemukan di rak.js\n   · kursor mengikuti 1−e^(−16·dt) — tidak ditemukan di rak.js"
     },
     {
       "kategori": "Foto katalog",
-      "status": "gagal",
-      "teks": "9 SKU kemasan 500 g flat-bottom (stiker belakang) · 3 sudut + hero + 4 studio 2000 px + 2 muka rak · 18 foto marketplace putih murni · halaman diperiksa dilewati · versi 1 berkas ada",
-      "detail": "foto gagal: ack (most recent call last):\n  File \"/home/user/SetyoWisodo/nocturne-koffie/tools/foto.py\", line 46, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'; kemasan gagal: home/user/SetyoWisodo/nocturne-koffie/tools/pouch.py\", line 45, in <module>\n    from PIL import Image, ImageChops, ImageDraw, ImageFilter\nModuleNotFoundError: No module named 'PIL'"
+      "status": "lolos",
+      "teks": "9 SKU kemasan 500 g flat-bottom (stiker belakang) · 3 sudut + hero + 4 studio 2000 px + 2 muka rak · 18 foto marketplace putih murni · halaman diperiksa lolos · versi 1 berkas ada",
+      "detail": ""
     },
     {
       "kategori": "Pustaka skill",

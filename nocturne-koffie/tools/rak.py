@@ -94,6 +94,15 @@ def baris_tab(kind: str) -> str:
     return "racikan"
 
 
+def _mdpl(teks: str) -> int | None:
+    """'1.700–1.800 mdpl' → 1700 (batas bawah); '' → None. Satu angka untuk
+    menaruh titik di garis waktu, dua angka teksnya tetap utuh di 'meta'."""
+    import re as _re
+    # "1.346 mdpl" / "1.700–1.800 mdpl" / "422–443 mdpl" → angka pertama utuh
+    m = _re.search(r"(\d{1,3}(?:[.]\d{3})*)", (teks or "").split("mdpl")[0])
+    return int(m.group(1).replace(".", "")) if m else None
+
+
 def siapkan_item(kat: dict) -> list[dict]:
     """12 kotak: 9 kopi + 2 paket + kartu member, urut nomor katalog."""
     item: list[dict] = []
@@ -105,7 +114,14 @@ def siapkan_item(kat: dict) -> list[dict]:
             "no": p["no"],
             "name": p["name"],
             "line": f'{p["region"].upper()} · {p["process"].upper()}',
-            "meta": f'{p["elevation"]} · {p["kind"].upper()} · SANGGAI {p["roast_level"]}/5',
+            # "·" diganti " / " bila ketinggian kosong, supaya tidak ada baris
+            # yang dimulai dengan titik pemisah (Blend tidak punya mdpl).
+            "meta": " · ".join(x for x in (
+                p["elevation"], p["kind"].upper(), f'SANGGAI {p["roast_level"]}/5') if x),
+            # Dua angka yang dipakai garis waktu rak: ketinggian (mdpl) dan
+            # tingkat sangrai 1–5. Keduanya dari katalog, bukan karangan.
+            "mdpl": _mdpl(p["elevation"]),
+            "sangrai": p["roast_level"],
             "kind": p["kind"],
             "tab": baris_tab(p["kind"]),
             "notes": p["notes"],
@@ -424,9 +440,17 @@ def data_js(item: list[dict]) -> str:
             sheet[f'sisi-{it["id"]}'] = [f'../assets/img/pouch/{it["id"]}-sisi.png', w_s, h_s]
             crop[f'cover-{it["id"]}'] = [f'muka-{it["id"]}', 0, 0, w_c, h_c]
             crop[f'spine-{it["id"]}'] = [f'sisi-{it["id"]}', 0, 0, w_s, h_s]
+            # Kemasan 500 g: 13,5 cm lebar muka → 26 cm tinggi, dan sisi gusset
+            # 9 cm. Angka FISIK ini yang dipakai, bukan rasio piksel berkas:
+            # muka dan sisi dirender pada tinggi kanvas sama, jadi w/h berkas
+            # gusset (320/924) menggelembungkan punggung jadi 34% lebar muka
+            # padahal seharusnya 9/13,5 = 67% dari muka → 9/26 = 35% dari tinggi.
+            # Akibat nyata: kemasan tampak seperti papan, bukan kantong.
             rasio_cv = max(rasio_cv, w_c / h_c)
             rasio_sp = max(rasio_sp, w_s / h_s)
-        rasio = {"cv": round(rasio_cv, 4), "sp": round(rasio_sp, 4)}
+        TINGGI_M, LEBAR_MUKA_M, LEBAR_SISI_M = 0.26, 0.135, 0.09
+        rasio = {"cv": round(LEBAR_MUKA_M / TINGGI_M, 4),
+                 "sp": round(LEBAR_SISI_M / TINGGI_M, 4)}
         bahan = "kemasan"
     else:
         sheet = {
@@ -442,7 +466,7 @@ def data_js(item: list[dict]) -> str:
     ringkas = []
     for it in item:
         ringkas.append({k: it[k] for k in (
-            "id", "no", "name", "line", "meta", "kind", "tab", "notes", "farmer",
+            "id", "no", "name", "line", "meta", "mdpl", "sangrai", "kind", "tab", "notes", "farmer",
             "status", "harga", "harga_teks", "ukuran", "ukuran_teks", "synopsis")})
     tab = [
         {"id": "semua", "label": "SEMUA", "sub": f"{len(item)} lot"},

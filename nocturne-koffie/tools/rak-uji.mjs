@@ -147,23 +147,91 @@ catat(doc.querySelectorAll('.tab').length === R.TABS.length, 'tab dibangun dari 
 // geometri: jarak antar kotak = ws + gap
 // rasio muka dari data (kemasan 500 g), bukan angka kaset yang dipaku di uji
 const FACE = R.FACE || { cv: 474 / 900, sp: 142 / 840 };
-const ws = 414 * FACE.sp, gap = 414 * 0.03, d = 414 * FACE.cv;
+const H = 414;
+const ws = H * FACE.sp, gap = H * 0.035, d = H * FACE.cv;
+
+/* Busur yang dipakai rak.js: scl(u) = 1/(1+(|u|/U)^1.6) lalu diintegralkan
+   untuk mendapat posisi layar. Uji harus memakai fungsi yang sama — dulu uji
+   menganggap jarak antar punggung selalu konstan, dan itu memang benar untuk
+   versi linear. Setelah rak memakai busur, konstanta itu berhenti berlaku. */
+// Sama dengan rak.js: 1,3 H di layar lebar, 1,05 H di ponsel.
+const LEBAR_UJI = 1440;
+const U = H * (LEBAR_UJI < 768 ? 1.05 : 1.3);
+const XS = (() => {
+  const langkah = 2, maks = U * 1.95, arr = new Float64Array(Math.ceil(maks / langkah) + 2);
+  let ak = 0;
+  for (let i = 0; i < arr.length; i++) { const u = i * langkah; arr[i] = ak; ak += 2 / (1 + Math.pow(u / U, 1.6)) * langkah; }
+  return arr;
+})();
+const sclU = (u) => 1 / (1 + Math.pow(Math.abs(u) / U, 1.6));
+const xscU = (u) => {
+  const i = Math.min(XS.length - 1, Math.abs(u) / 2);
+  const i0 = Math.floor(i), f = i - i0;
+  const v = XS[i0] + (XS[Math.min(i0 + 1, XS.length - 1)] - XS[i0]) * f;
+  return Math.sign(u) * v;
+};
+const stepArc = (r) => (Math.abs(r) < 1 ? (r + Math.sin(Math.PI * r) / Math.PI) / 2 : Math.sign(r) * 0.5);
+const Farc = (r) => r * (ws + gap) + (d - ws + 1.6 * gap) * stepArc(r);
 const posisi = Array.from(doc.querySelectorAll('.tape'))
   .map((el) => ({ x: angka(el.style.transform, 'translate3d'), vis: el.style.visibility }))
   .filter((p) => p.vis !== 'hidden')
   .map((p) => p.x)
   .sort((a, b) => a - b);
-catat(posisi.length >= 10, 'minimal 10 kotak terlihat pada 1440 px', String(posisi.length));
-let jarakSalah = 0;
-for (let i = 1; i < posisi.length; i++) {
-  const jarak = posisi[i] - posisi[i - 1];
-  // di sekitar kotak aktif, tetangga terdorong setengah lebar sampul
-  const dekat = Math.abs(posisi[i]) < d || Math.abs(posisi[i - 1]) < d;
-  const harap = dekat ? ws + gap + (d - ws) * 0.9 : ws + gap;
-  if (jarak < 0.9 * (ws + gap) || jarak > harap + 1) jarakSalah++;
+// Punggung yang terlihat di 1440 px: busur boleh memuat semuanya (rujukan
+// memakai 11 per sisi); yang diuji adalah isi rak benar-benar terlihat.
+// Sembilan lot, tapi yang tampak sebagai punggung lebih sedikit karena satu
+// lot sedang terbuka (jadi sampul) dan ujung busur memudar di tepi layar.
+// Rujukan pun begitu: 11 per sisi dari 12 film, bukan semuanya sekaligus.
+catat(posisi.length >= 5, 'punggung terlihat di 1440 px (sisanya di luar busur)',
+  String(posisi.length));
+
+// Jarak antar punggung tidak lagi seragam: dengan busur, tetangga di ujung
+// merapat. Yang diuji sekarang: setiap posisi harus cocok dengan rumus busur
+// (toleransi 2 px), dan makin jauh dari pusat jaraknya makin rapat.
+let meleset = 0;
+const teoretis = [];
+const NLOT = R.ITEMS.length;
+for (let r = -NLOT; r <= NLOT; r++) {
+  const u = Farc(r);
+  if (Math.abs(u) > U * 1.95) continue;
+  const sc = sclU(u), k = 1 / sc;
+  const xs = xscU(u);                       // posisi yang terlihat di layar
+  if (Math.abs(xs) - (d * sc) / 2 > LEBAR_UJI / 2) continue;   // di luar tepi
+  teoretis.push({ x: xs * k, xs });         // x = nilai transform (dibagi lagi oleh perspektif)
 }
-catat(jarakSalah === 0, 'jarak punggung = lebar punggung + celah, melebar di kotak aktif',
-  `${jarakSalah} jarak menyimpang`);
+for (const x of posisi) {
+  if (!teoretis.some((t) => Math.abs(t.x - x) < 2.5)) meleset++;
+}
+catat(meleset === 0, 'posisi tiap punggung = rumus busur (scl + integral XS)',
+  `${meleset} posisi menyimpang`);
+
+/* Jarak diukur di LAYAR (xs), bukan di nilai transform: transform dikali 1/sc
+   supaya proyeksi perspektif membatalkannya, jadi angka mentahnya justru
+   membesar ke tepi. Yang dibaca mata adalah xs. */
+const layar = posisi.map((x) => {
+  let dekat = teoretis[0];
+  for (const t of teoretis) if (Math.abs(t.x - x) < Math.abs(dekat.x - x)) dekat = t;
+  return dekat.xs;
+});
+/* Busur berarti dua hal yang bisa diukur tanpa peramban:
+   1. jarak antar titik tengah di LAYAR menyusut ke tepi (tetangga merapat);
+   2. lebar punggung yang tampak (d·sc) juga menyusut.
+   Nilai dibaca dari fungsi busur itu sendiri — angka transform mentah tidak
+   bisa dipakai karena justru dikali 1/sc agar proyeksi perspektif
+   membatalkannya. */
+const busur = [];
+for (let r = -4; r <= 4; r++) {
+  const u = Farc(r);
+  busur.push({ r, xs: xscU(u), lebar: d * sclU(u) });
+}
+const jarak = [];
+for (let i = 1; i < busur.length; i++) jarak.push(busur[i].xs - busur[i - 1].xs);
+const rapatKeTepi = jarak[jarak.length - 1] < jarak[Math.floor(jarak.length / 2)] - 1;
+const kecilKeTepi = busur[busur.length - 1].lebar < busur[Math.floor(busur.length / 2)].lebar - 1;
+const mengecil = rapatKeTepi && kecilKeTepi;
+catat(mengecil, 'punggung merapat & mengecil ke tepi (busur, bukan garis lurus)',
+  'jarak ' + jarak.map((v) => v.toFixed(0)).join(' ')
+  + ' · lebar ' + busur.map((b) => b.lebar.toFixed(0)).join(' '));
 
 // kotak aktif: berputar −90° dengan kemiringan −4,5°
 const aktifEl = Array.from(doc.querySelectorAll('.tape'))
