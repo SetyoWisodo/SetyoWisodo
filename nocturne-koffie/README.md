@@ -55,6 +55,7 @@ nocturne-koffie/
 ├── tools/biji_render.py          pasang render hiper-realistis → biji-3d-poster.jpg
 ├── tools/verifikasi-biji.mjs     uji data, poster, titik, markup — 12 butir tanpa peramban
 ├── tools/pratinjau.py            skema tata letak hero (1280 & 390 px) dari angka CSS
+├── tools/rencana.py              rencana website komersial: apa yang sudah ada, apa yang belum
 ├── semua.html                    SATU pintu: semua halaman, angka gerbang, unduhan
 ├── biji-sangrai/                 landing roasted beans: toko.css, toko.js, index.html (generated)
 ├── prompts/                      8 prompt spesifikasi desain + galeri salin sekali klik

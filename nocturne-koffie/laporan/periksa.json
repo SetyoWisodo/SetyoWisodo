@@ -1,5 +1,5 @@
 {
-  "dibuat": "2026-11-18",
+  "dibuat": "2026-11-21",
   "hasil": [
     {
       "kategori": "Berkas wajib",
@@ -165,9 +165,9 @@
     },
     {
       "kategori": "Foto katalog",
-      "status": "lolos",
+      "status": "gagal",
       "teks": "9 SKU kemasan 500 g flat-bottom (stiker belakang) · 3 sudut + hero + 4 studio 2000 px + 2 muka rak · 18 foto marketplace putih murni · halaman diperiksa dilewati · versi 1 berkas ada",
-      "detail": ""
+      "detail": "foto gagal: ack (most recent call last):\n  File \"/home/user/SetyoWisodo/nocturne-koffie/tools/foto.py\", line 46, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'; kemasan gagal: home/user/SetyoWisodo/nocturne-koffie/tools/pouch.py\", line 45, in <module>\n    from PIL import Image, ImageChops, ImageDraw, ImageFilter\nModuleNotFoundError: No module named 'PIL'"
     },
     {
       "kategori": "Pustaka skill",

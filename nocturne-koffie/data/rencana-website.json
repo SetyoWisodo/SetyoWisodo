@@ -1,0 +1,240 @@
+{
+ "halaman_publik": [
+  {
+   "berkas": "index.html",
+   "nama": "Beranda",
+   "isi": "hero rak + koleksi + langganan + member",
+   "kb": 27.1
+  },
+  {
+   "berkas": "biji-sangrai/index.html",
+   "nama": "Biji sangrai",
+   "isi": "halaman ala jiro.build, 9 lot",
+   "kb": 28.8
+  },
+  {
+   "berkas": "katalog/index.html",
+   "nama": "Katalog foto",
+   "isi": "bukti sesi foto, 9 SKU",
+   "kb": 5.5
+  },
+  {
+   "berkas": "rak/index.html",
+   "nama": "Rak 3D",
+   "isi": "rak kemasan 500 g, 9 lot",
+   "kb": 4.9
+  },
+  {
+   "berkas": "kampanye/index.html",
+   "nama": "Kampanye",
+   "isi": "landing kampanye",
+   "kb": 20.9
+  },
+  {
+   "berkas": "komersial/penawaran-b2b.html",
+   "nama": "Penawaran B2B",
+   "isi": "harga grosir & sampel",
+   "kb": 9.1
+  },
+  {
+   "berkas": "motion/index.html",
+   "nama": "Lab gerak",
+   "isi": "pustaka gerak & pratinjau",
+   "kb": 28.5
+  },
+  {
+   "berkas": "brand/index.html",
+   "nama": "Brand kit",
+   "isi": "logo, label, palet",
+   "kb": 5.0
+  }
+ ],
+ "halaman_dapur": [
+  {
+   "berkas": "dashboard/index.html",
+   "nama": "papan harian",
+   "kb": 33.5
+  },
+  {
+   "berkas": "konten/index.html",
+   "nama": "konten siap pakai",
+   "kb": 14.6
+  },
+  {
+   "berkas": "laporan/index.html",
+   "nama": "laporan",
+   "kb": 24.2
+  },
+  {
+   "berkas": "prompts/index.html",
+   "nama": "pustaka prompt",
+   "kb": 40.7
+  },
+  {
+   "berkas": "riset/index.html",
+   "nama": "riset",
+   "kb": 23.5
+  },
+  {
+   "berkas": "studio/index.html",
+   "nama": "studio konten",
+   "kb": 42.2
+  },
+  {
+   "berkas": "semua.html",
+   "nama": "pintu satu berkas",
+   "kb": 20.5
+  }
+ ],
+ "angka": {
+  "lot": 9,
+  "ukuran": [
+   "1 kg",
+   "100 g",
+   "250 g",
+   "500 g"
+  ],
+  "foto_studio": 36,
+  "foto_pasar": 18,
+  "mb_aset": 17.2,
+  "kb_beranda": 27.1,
+  "tautan_wa_beranda": 6,
+  "kartu_dari_js": true,
+  "ada_jsonld": true,
+  "sitemap": false,
+  "robots": false,
+  "404": false,
+  "manifest": false,
+  "legal_selesai": 1,
+  "legal_total": 9,
+  "legal_belum": [
+   "NIB (perizinan berusaha)",
+   "Sertifikat halal",
+   "Izin publikasi nama petani (7 nama)",
+   "Izin pemakaian nama & logo Ais Coffee Roastery",
+   "Kebijakan privasi",
+   "Syarat & ketentuan",
+   "Kebijakan pengiriman & ongkir",
+   "Domain & email brand"
+  ]
+ },
+ "blokir": [
+  {
+   "butir": "Domain & email brand",
+   "status": "Belum dibeli. Situs masih `nocturnekoffie.id` sebagai canonical tanpa DNS; email memakai Gmail.",
+   "jalan": "beli domain + email → ganti canonical, sitemap, OG URL"
+  },
+  {
+   "butir": "Kebijakan privasi",
+   "status": "Belum ada. Wajib sebelum formulir member/analitik aktif.",
+   "jalan": "tulis di halaman `/privasi/` dari `data/legal.json`, bukan dokumen baru"
+  },
+  {
+   "butir": "Syarat & ketentuan",
+   "status": "Belum ada. Wajib memuat garansi & pengembalian.",
+   "jalan": "tulis di `/syarat/`, rujuk ke `data/catalog.json` untuk klaim"
+  },
+  {
+   "butir": "Kebijakan pengiriman & ongkir",
+   "status": "Butuh keputusan kurir dan tarif — keputusan Anda.",
+   "jalan": "tabel kurir di `/pengiriman/` setelah keputusan"
+  },
+  {
+   "butir": "Izin nama petani & Ais Coffee Roastery",
+   "status": "Nama sudah tayang, izin belum.",
+   "jalan": "surat izin tertulis; bukan pekerjaan kode"
+  },
+  {
+   "butir": "Pembayaran otomatis",
+   "status": "Belum ada gateway; semua order lewat WhatsApp.",
+   "jalan": "butuh akun Midtrans/Xendit (NIB) — jangan dikarang"
+  }
+ ],
+ "peta": [
+  {
+   "pekerjaan": "Beranda komersial (keranjang + ringkasan order)",
+   "skill": "motion-web, landing-page-ai",
+   "ukuran": "sedang"
+  },
+  {
+   "pekerjaan": "Halaman produk per lot (`/lot/<id>/`)",
+   "skill": "katalog-render, landing-page-ai",
+   "ukuran": "sedang"
+  },
+  {
+   "pekerjaan": "Halaman kebijakan (privasi, syarat, pengiriman)",
+   "skill": "landing-page-ai",
+   "ukuran": "kecil"
+  },
+  {
+   "pekerjaan": "Sitemap, robots.txt, 404, manifest",
+   "skill": "motion-web",
+   "ukuran": "kecil"
+  },
+  {
+   "pekerjaan": "Struktur data produk & FAQ (JSON-LD)",
+   "skill": "search-intent-riset",
+   "ukuran": "kecil"
+  },
+  {
+   "pekerjaan": "Gerak masuk halaman produk + transisi",
+   "skill": "motion-web, gsap, motion-design",
+   "ukuran": "sedang"
+  },
+  {
+   "pekerjaan": "Nada & teks halaman (bukan template)",
+   "skill": "desain-prompt, studio-konten",
+   "ukuran": "kecil"
+  },
+  {
+   "pekerjaan": "Hero 3D adegan (three.js + postprocessing)",
+   "skill": "threejs, postprocessing, quarks-vfx, tweakpane",
+   "ukuran": "besar"
+  },
+  {
+   "pekerjaan": "Fisika di halaman (biji jatuh, kotak bertumpuk)",
+   "skill": "rapier-physics",
+   "ukuran": "besar, opsional"
+  },
+  {
+   "pekerjaan": "Figure penjelas isometrik (proses sangrai)",
+   "skill": "anatomy, anatomy-reveal",
+   "ukuran": "sedang"
+  },
+  {
+   "pekerjaan": "Garis isometrik yang menjawab pointer",
+   "skill": "hairline-create, hairline-adopt",
+   "ukuran": "sedang"
+  },
+  {
+   "pekerjaan": "Video produk dari data katalog",
+   "skill": "remotion, remotion-skills, ffmpeg-encode",
+   "ukuran": "besar"
+  },
+  {
+   "pekerjaan": "Animasi diagram (rasio seduh, profil sangrai)",
+   "skill": "manim",
+   "ukuran": "sedang"
+  },
+  {
+   "pekerjaan": "Lottie penanda proses",
+   "skill": "lottie",
+   "ukuran": "kecil"
+  },
+  {
+   "pekerjaan": "Musik & SFX berlisensi",
+   "skill": "openverse-audio, librosa-beat",
+   "ukuran": "kecil"
+  },
+  {
+   "pekerjaan": "Caption animasi (bila ada narasi)",
+   "skill": "whisperx-captions",
+   "ukuran": "sedang"
+  },
+  {
+   "pekerjaan": "Aset 3D dari Blender (bila perlu mesh baru)",
+   "skill": "blender-mcp",
+   "ukuran": "besar, belum teruji"
+  }
+ ]
+}

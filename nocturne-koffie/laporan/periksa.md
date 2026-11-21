@@ -1,12 +1,12 @@
-# Laporan periksa — 2026-11-18
+# Laporan periksa — 2026-11-21
 
 Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 
 | Ringkasan | Jumlah |
 | --- | --- |
-| Pemeriksaan lolos | **32** |
+| Pemeriksaan lolos | **31** |
 | Peringatan | **0** |
-| Gagal (harus diperbaiki) | **1** |
+| Gagal (harus diperbaiki) | **2** |
 
 | Kategori | Status | Hasil | Catatan |
 | --- | --- | --- | --- |
@@ -37,7 +37,12 @@ Dibuat otomatis oleh `tools/periksa.py` setelah seluruh generator dijalankan.
 | Huruf lokal | ❌ gagal | 4 berkas variabel 231 KB · 0 permintaan ke Google Fonts · rentang bobot cocok dengan CSS | bricolage.woff2 tidak terbaca: No module named 'fontTools'; fraunces.woff2 tidak terbaca: No module named 'fontTools'; fraunces-italic.woff2 tidak terbaca: No module named 'fontTools'; intertight.woff2 tidak terbaca: No module named 'fontTools' |
 | Pustaka gaya | ✅ lolos | 20 gaya · 6 kategori · tiap gaya: prompt + negatif + rasio + alat | — |
 | Rak sangrai | ✅ lolos | 12 kotak 3D · sampul 363 KB · punggung 179 KB · uji asap dilewati · spesifikasi template 105/105 | — |
-| Foto katalog | ✅ lolos | 9 SKU kemasan 500 g flat-bottom (stiker belakang) · 3 sudut + hero + 4 studio 2000 px + 2 muka rak · 18 foto marketplace putih murni · halaman diperiksa dilewati · versi 1 berkas ada | — |
+| Foto katalog | ❌ gagal | 9 SKU kemasan 500 g flat-bottom (stiker belakang) · 3 sudut + hero + 4 studio 2000 px + 2 muka rak · 18 foto marketplace putih murni · halaman diperiksa dilewati · versi 1 berkas ada | foto gagal: ack (most recent call last):
+  File "/home/user/SetyoWisodo/nocturne-koffie/tools/foto.py", line 46, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'; kemasan gagal: home/user/SetyoWisodo/nocturne-koffie/tools/pouch.py", line 45, in <module>
+    from PIL import Image, ImageChops, ImageDraw, ImageFilter
+ModuleNotFoundError: No module named 'PIL' |
 | Pustaka skill | ✅ lolos | 12 skill · frontmatter patuh · semuanya terdaftar di skills/README.md | — |
 | Pustaka gerak | ✅ lolos | 22 skill · 20 repo @0xMovez · 5 salinan verbatim ber-LICENSE · frontmatter patuh · terdaftar di SKILLS.md | — |
 | Kemasan 3D | ✅ lolos | belum ada foto diproses | — |
