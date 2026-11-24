@@ -2,6 +2,19 @@
 
 **Hanya edisi Inggris yang dijual.** Edisi Indonesia tetap disimpan sebagai pembanding saat menyunting; berkasnya tidak ditautkan di sini.
 
+## Berkas final lengkap — Google Drive (paling cepat)
+
+Satu folder, terbuka untuk siapa pun yang punya tautan:
+
+**https://drive.google.com/drive/folders/1AJ2CS0H1_Iq6zOrPKjXtsNZSCLCo4AHl**
+
+| Berkas | Tautan langsung | Ukuran |
+|---|---|---|
+| PDF lengkap 458 hlm (bersampul) | https://drive.google.com/file/d/1Slp6Yp6YEB4T6lW6ylL-wOEZLWdOx7AZ/view | 4,37 MB |
+| EPUB | https://drive.google.com/file/d/1gKU1KioI6DEGWfwv9gbJFhlom7jBSMR5/view | 1,86 MB |
+| DOCX | https://drive.google.com/file/d/1FM14R17hBEsSaQ4voEksqiz-HVK0utEP/view | 2,36 MB |
+| Keempat berkas dalam satu zip | https://drive.google.com/file/d/1XlShiCbSxG2PZLt-pXBYA1N32FzR2ZJZ/view | 8,82 MB |
+
 ## Berkas jualan
 
 | Berkas | Tautan | Ukuran | SHA-256 |
