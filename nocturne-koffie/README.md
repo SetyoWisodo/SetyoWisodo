@@ -127,6 +127,26 @@ mendeklarasikan rentang bobotnya. Dua bobot yang dulu tidak ada (Inter 700, Bric
 kini tersedia, jadi tidak ada lagi huruf tebal sintetis dari peramban.
 Sumber: `github.com/google/fonts` (OFL 1.1) · dibangun oleh `tools/font.py`.
 
+## Katalog produk 3D (`assets/img/katalog-3d/`)
+
+Sembilan lot 500 g dirender ulang untuk **kartu landing** dan **pemutar 360°**.
+Renderernya tetap `tools/foto.py` (permukaan 3D + cahaya per piksel yang sudah
+dipakai halaman katalog), hanya keluarannya yang berbeda: latar **transparan**
+dan ukuran yang masuk akal untuk halaman awal.
+
+| Bagian | Isi |
+| --- | --- |
+| `tools/katalog3d.py` | 5 sudut kartu (0°, −18°, 28°, 55°, 90°) @640 px + 16 langkah putar @440 px per lot · WebP alpha · `--cek` memeriksa berkas, berat, dan jumlah langkah |
+| `assets/js/katalog3d.js` | mengganti gambar kartu, putaran halus saat hover (8 langkah, 2,6 s), `<dialog>` pemutar 360° (seret, ← →, Esc) · tanpa perpustakaan · 15 langkah sisanya baru diunduh saat kartu disentuh |
+| `data/katalog-3d.json` · `data/katalog3d.js` | daftar berkas + ukuran (dibangun, jangan disunting) |
+| `laporan/katalog-3d.png` | lembar bukti sembilan kartu untuk menilai konsistensi cahaya |
+
+**Angka (24 Nov 2026):** 189 berkas · 1,8 MB total · kartu 57–62 KB per lot ·
+putar 98–103 KB per lot · hanya 500 g, karena itu satu-satunya ukuran yang spek
+fisiknya dikonfirmasi pemilik (13,5 × 26 cm, gusset 9 cm, stiker 12 × 17 cm).
+Paket dan kartu member tetap memakai foto lama: bentuknya belum pernah
+dispesifikasikan, jadi tidak dirender.
+
 ## Rak sangrai — hero rak 3D (`rak/`)
 
 Halaman lima berkas: `rak/index.html`, `rak/rak.css`, `rak/rak.js`, `rak/rak-kursor.js`,

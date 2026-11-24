@@ -1079,6 +1079,42 @@ def periksa(catatan):
            f"{uji_kat} · versi 1 berkas ada",
            "; ".join(masalah_katalog[:4]))
 
+    # 5k2 · katalog produk 3D di landing page: 9 lot × (5 sudut + 16 langkah putar)
+    masalah_k3 = []
+    for berkas in ("tools/katalog3d.py", "data/katalog-3d.json", "data/katalog3d.js",
+                   "assets/js/katalog3d.js", "laporan/katalog-3d.png"):
+        if not os.path.exists(os.path.join(ROOT, berkas)):
+            masalah_k3.append(f"{berkas} belum ada — jalankan python3 tools/katalog3d.py")
+    if os.path.exists(os.path.join(ROOT, "tools/katalog3d.py")):
+        proses = subprocess.run(["python3", "tools/katalog3d.py", "--cek"], cwd=ROOT,
+                                capture_output=True, text=True, timeout=300)
+        if proses.returncode != 0:
+            masalah_k3.append("katalog3d --cek gagal: "
+                              + (proses.stdout or proses.stderr).strip()[-180:])
+    if os.path.exists(os.path.join(ROOT, "index.html")):
+        indeks = baca("index.html")
+        for wajib in ("data/katalog3d.js", "assets/js/katalog3d.js"):
+            if wajib not in indeks:
+                masalah_k3.append(f"index.html belum memuat {wajib}")
+    if os.path.exists(os.path.join(ROOT, "assets/js/katalog3d.js")):
+        js_k3 = re.sub(r"/\*.*?\*/", "", baca("assets/js/katalog3d.js"), flags=re.S)
+        if "Math.random" in js_k3:
+            masalah_k3.append("katalog3d.js memakai Math.random")
+        if "prefers-reduced-motion" not in js_k3:
+            masalah_k3.append("katalog3d.js tidak menghormati prefers-reduced-motion")
+        if "MutationObserver" not in js_k3:
+            masalah_k3.append("katalog3d.js tidak menunggu kartu dibuat site.js")
+    berat_k3 = 0
+    for akar, _, berkas in os.walk(os.path.join(ROOT, "assets/img/katalog-3d")):
+        for b in berkas:
+            berat_k3 += os.path.getsize(os.path.join(akar, b))
+    if berat_k3 / 1024 / 1024 > 24:
+        masalah_k3.append(f"folder katalog-3d {berat_k3/1024/1024:.1f} MB > 24 MB")
+    tambah("Katalog 3D", "lolos" if not masalah_k3 else "gagal",
+           f"9 lot × (5 sudut kartu + 16 langkah putar) · {berat_k3/1024/1024:.1f} MB · "
+           "kartu landing memakai render transparan · pemutar 360 ada",
+           "; ".join(masalah_k3[:4]))
+
     # 5i · pustaka skill: frontmatter, nama = folder, description wajar, terdaftar di README
     masalah_skill = []
     jumlah_skill = 0

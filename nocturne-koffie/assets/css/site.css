@@ -754,3 +754,51 @@ body.is-locked{overflow:hidden}
    Denyut berulang adalah penanda UI buatan mesin dan membuat mata lelah
    saat harga di halaman ini sudah bergerak sendiri. */
 .card.is-target{box-shadow:0 0 0 3px var(--orange)}
+
+/* ------------------------------------------------------- katalog 3D --- */
+/* Kartu produk memakai render transparan (tools/katalog3d.py). Latar kartu
+   tetap kertas brand supaya sembilan kemasan terbaca sebagai satu keluarga,
+   bukan sembilan gambar tempelan. */
+.card__media.k3{background:linear-gradient(180deg,var(--paper-2),#E7DCCA)}
+.card__media.k3 img{
+  object-fit:contain;
+  padding:4% 6%;
+  filter:drop-shadow(0 18px 22px rgba(34,25,15,.22));
+  transition:transform .5s cubic-bezier(.2,.7,.2,1),filter .5s ease;
+}
+.card__media.k3:hover img{transform:translateY(-1.5%) scale(1.015)}
+.card__media.k3 img:active{cursor:grabbing}
+
+/* pemutar 360° */
+.k3d{
+  border:0;padding:0;margin:auto;max-width:min(92vw,560px);
+  background:var(--paper);color:var(--ink);
+  border-radius:10px;box-shadow:0 30px 80px -30px rgba(22,17,13,.55);
+}
+.k3d::backdrop{background:rgba(22,17,13,.55);backdrop-filter:blur(3px)}
+.k3d__kepala{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 18px 6px}
+.k3d__nama{margin:0;font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.k3d__tutup{
+  border:1px solid rgba(22,17,13,.25);background:transparent;color:var(--ink);
+  width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:15px;line-height:1;
+}
+.k3d__panggung{
+  display:grid;place-items:center;padding:0 18px;
+  touch-action:pan-y;cursor:grab;user-select:none;
+}
+.k3d__panggung.is-seret{cursor:grabbing}
+.k3d__panggung img{
+  width:100%;height:auto;max-height:64vh;object-fit:contain;
+  filter:drop-shadow(0 22px 26px rgba(34,25,15,.28));
+  -webkit-user-drag:none;
+}
+.k3d__petunjuk{
+  margin:10px 18px 18px;font-size:11px;letter-spacing:.04em;color:var(--ink-2, #57503F);
+}
+.k3d__petunjuk kbd{
+  font-family:inherit;font-size:10px;padding:1px 5px;border-radius:3px;
+  border:1px solid rgba(22,17,13,.28);background:var(--paper-2);
+}
+@media (prefers-reduced-motion:reduce){
+  .card__media.k3 img,.card__media.k3:hover img{transition:none;transform:none}
+}

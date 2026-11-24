@@ -1,0 +1,1203 @@
+{
+ "_keterangan": "Katalog produk 3D untuk landing page. Dibangun tools/katalog3d.py dari data/catalog.json + data/kemasan-katalog.json. Render sendiri (bukan pemotretan), latar transparan, 500 g saja.",
+ "sudut_kartu": [
+  0,
+  -18,
+  28,
+  55,
+  90
+ ],
+ "langkah_putar": 16,
+ "kartu_px": 640,
+ "putar_px": 440,
+ "sku": [
+  {
+   "id": "gayo",
+   "no": "01",
+   "nama": "Gayo",
+   "ukuran": "500 g",
+   "kartu": {
+    "0": {
+     "berkas": "assets/img/katalog-3d/gayo-0.webp",
+     "kb": 11.0,
+     "ukuran": [
+      369,
+      706
+     ]
+    },
+    "-18": {
+     "berkas": "assets/img/katalog-3d/gayo-18.webp",
+     "kb": 15.8,
+     "ukuran": [
+      404,
+      728
+     ]
+    },
+    "28": {
+     "berkas": "assets/img/katalog-3d/gayo-28.webp",
+     "kb": 15.3,
+     "ukuran": [
+      416,
+      736
+     ]
+    },
+    "55": {
+     "berkas": "assets/img/katalog-3d/gayo-55.webp",
+     "kb": 12.6,
+     "ukuran": [
+      391,
+      749
+     ]
+    },
+    "90": {
+     "berkas": "assets/img/katalog-3d/gayo-90.webp",
+     "kb": 4.0,
+     "ukuran": [
+      250,
+      732
+     ]
+    }
+   },
+   "putar": {
+    "00": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/00.webp",
+     "kb": 6.8,
+     "derajat": 0
+    },
+    "01": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/01.webp",
+     "kb": 9.9,
+     "derajat": 22
+    },
+    "02": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/02.webp",
+     "kb": 8.8,
+     "derajat": 45
+    },
+    "03": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/03.webp",
+     "kb": 6.6,
+     "derajat": 68
+    },
+    "04": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/04.webp",
+     "kb": 2.9,
+     "derajat": 90
+    },
+    "05": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/05.webp",
+     "kb": 5.1,
+     "derajat": 112
+    },
+    "06": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/06.webp",
+     "kb": 5.6,
+     "derajat": 135
+    },
+    "07": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/07.webp",
+     "kb": 5.4,
+     "derajat": 158
+    },
+    "08": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/08.webp",
+     "kb": 3.4,
+     "derajat": 180
+    },
+    "09": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/09.webp",
+     "kb": 5.3,
+     "derajat": 202
+    },
+    "10": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/10.webp",
+     "kb": 5.5,
+     "derajat": 225
+    },
+    "11": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/11.webp",
+     "kb": 4.9,
+     "derajat": 248
+    },
+    "12": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/12.webp",
+     "kb": 2.8,
+     "derajat": 270
+    },
+    "13": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/13.webp",
+     "kb": 7.3,
+     "derajat": 292
+    },
+    "14": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/14.webp",
+     "kb": 9.1,
+     "derajat": 315
+    },
+    "15": {
+     "berkas": "assets/img/katalog-3d/gayo-putar/15.webp",
+     "kb": 9.8,
+     "derajat": 338
+    }
+   },
+   "kb_kartu": 58.7,
+   "kb_putar": 99.2
+  },
+  {
+   "id": "kintamani",
+   "no": "02",
+   "nama": "Kintamani",
+   "ukuran": "500 g",
+   "kartu": {
+    "0": {
+     "berkas": "assets/img/katalog-3d/kintamani-0.webp",
+     "kb": 11.3,
+     "ukuran": [
+      369,
+      706
+     ]
+    },
+    "-18": {
+     "berkas": "assets/img/katalog-3d/kintamani-18.webp",
+     "kb": 15.9,
+     "ukuran": [
+      404,
+      728
+     ]
+    },
+    "28": {
+     "berkas": "assets/img/katalog-3d/kintamani-28.webp",
+     "kb": 15.6,
+     "ukuran": [
+      416,
+      736
+     ]
+    },
+    "55": {
+     "berkas": "assets/img/katalog-3d/kintamani-55.webp",
+     "kb": 12.7,
+     "ukuran": [
+      391,
+      749
+     ]
+    },
+    "90": {
+     "berkas": "assets/img/katalog-3d/kintamani-90.webp",
+     "kb": 4.0,
+     "ukuran": [
+      250,
+      732
+     ]
+    }
+   },
+   "putar": {
+    "00": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/00.webp",
+     "kb": 6.9,
+     "derajat": 0
+    },
+    "01": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/01.webp",
+     "kb": 10.0,
+     "derajat": 22
+    },
+    "02": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/02.webp",
+     "kb": 8.9,
+     "derajat": 45
+    },
+    "03": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/03.webp",
+     "kb": 6.6,
+     "derajat": 68
+    },
+    "04": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/04.webp",
+     "kb": 2.9,
+     "derajat": 90
+    },
+    "05": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/05.webp",
+     "kb": 5.1,
+     "derajat": 112
+    },
+    "06": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/06.webp",
+     "kb": 5.6,
+     "derajat": 135
+    },
+    "07": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/07.webp",
+     "kb": 5.4,
+     "derajat": 158
+    },
+    "08": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/08.webp",
+     "kb": 3.4,
+     "derajat": 180
+    },
+    "09": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/09.webp",
+     "kb": 5.3,
+     "derajat": 202
+    },
+    "10": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/10.webp",
+     "kb": 5.5,
+     "derajat": 225
+    },
+    "11": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/11.webp",
+     "kb": 4.9,
+     "derajat": 248
+    },
+    "12": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/12.webp",
+     "kb": 2.8,
+     "derajat": 270
+    },
+    "13": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/13.webp",
+     "kb": 7.3,
+     "derajat": 292
+    },
+    "14": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/14.webp",
+     "kb": 9.2,
+     "derajat": 315
+    },
+    "15": {
+     "berkas": "assets/img/katalog-3d/kintamani-putar/15.webp",
+     "kb": 9.9,
+     "derajat": 338
+    }
+   },
+   "kb_kartu": 59.5,
+   "kb_putar": 99.7
+  },
+  {
+   "id": "blue-mount-ijen",
+   "no": "03",
+   "nama": "Blue Mount Ijen",
+   "ukuran": "500 g",
+   "kartu": {
+    "0": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-0.webp",
+     "kb": 12.2,
+     "ukuran": [
+      369,
+      706
+     ]
+    },
+    "-18": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-18.webp",
+     "kb": 16.7,
+     "ukuran": [
+      404,
+      728
+     ]
+    },
+    "28": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-28.webp",
+     "kb": 16.1,
+     "ukuran": [
+      416,
+      736
+     ]
+    },
+    "55": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-55.webp",
+     "kb": 13.2,
+     "ukuran": [
+      391,
+      749
+     ]
+    },
+    "90": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-90.webp",
+     "kb": 4.0,
+     "ukuran": [
+      250,
+      732
+     ]
+    }
+   },
+   "putar": {
+    "00": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/00.webp",
+     "kb": 7.5,
+     "derajat": 0
+    },
+    "01": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/01.webp",
+     "kb": 10.6,
+     "derajat": 22
+    },
+    "02": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/02.webp",
+     "kb": 9.2,
+     "derajat": 45
+    },
+    "03": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/03.webp",
+     "kb": 6.9,
+     "derajat": 68
+    },
+    "04": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/04.webp",
+     "kb": 2.9,
+     "derajat": 90
+    },
+    "05": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/05.webp",
+     "kb": 5.1,
+     "derajat": 112
+    },
+    "06": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/06.webp",
+     "kb": 5.6,
+     "derajat": 135
+    },
+    "07": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/07.webp",
+     "kb": 5.4,
+     "derajat": 158
+    },
+    "08": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/08.webp",
+     "kb": 3.4,
+     "derajat": 180
+    },
+    "09": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/09.webp",
+     "kb": 5.3,
+     "derajat": 202
+    },
+    "10": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/10.webp",
+     "kb": 5.5,
+     "derajat": 225
+    },
+    "11": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/11.webp",
+     "kb": 4.9,
+     "derajat": 248
+    },
+    "12": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/12.webp",
+     "kb": 2.8,
+     "derajat": 270
+    },
+    "13": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/13.webp",
+     "kb": 7.6,
+     "derajat": 292
+    },
+    "14": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/14.webp",
+     "kb": 9.6,
+     "derajat": 315
+    },
+    "15": {
+     "berkas": "assets/img/katalog-3d/blue-mount-ijen-putar/15.webp",
+     "kb": 10.6,
+     "derajat": 338
+    }
+   },
+   "kb_kartu": 62.2,
+   "kb_putar": 102.9
+  },
+  {
+   "id": "semeru",
+   "no": "04",
+   "nama": "Semeru",
+   "ukuran": "500 g",
+   "kartu": {
+    "0": {
+     "berkas": "assets/img/katalog-3d/semeru-0.webp",
+     "kb": 11.3,
+     "ukuran": [
+      369,
+      706
+     ]
+    },
+    "-18": {
+     "berkas": "assets/img/katalog-3d/semeru-18.webp",
+     "kb": 15.8,
+     "ukuran": [
+      404,
+      728
+     ]
+    },
+    "28": {
+     "berkas": "assets/img/katalog-3d/semeru-28.webp",
+     "kb": 15.4,
+     "ukuran": [
+      416,
+      736
+     ]
+    },
+    "55": {
+     "berkas": "assets/img/katalog-3d/semeru-55.webp",
+     "kb": 12.7,
+     "ukuran": [
+      391,
+      749
+     ]
+    },
+    "90": {
+     "berkas": "assets/img/katalog-3d/semeru-90.webp",
+     "kb": 4.0,
+     "ukuran": [
+      250,
+      732
+     ]
+    }
+   },
+   "putar": {
+    "00": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/00.webp",
+     "kb": 6.9,
+     "derajat": 0
+    },
+    "01": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/01.webp",
+     "kb": 10.0,
+     "derajat": 22
+    },
+    "02": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/02.webp",
+     "kb": 8.9,
+     "derajat": 45
+    },
+    "03": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/03.webp",
+     "kb": 6.6,
+     "derajat": 68
+    },
+    "04": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/04.webp",
+     "kb": 2.9,
+     "derajat": 90
+    },
+    "05": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/05.webp",
+     "kb": 5.1,
+     "derajat": 112
+    },
+    "06": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/06.webp",
+     "kb": 5.6,
+     "derajat": 135
+    },
+    "07": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/07.webp",
+     "kb": 5.4,
+     "derajat": 158
+    },
+    "08": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/08.webp",
+     "kb": 3.4,
+     "derajat": 180
+    },
+    "09": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/09.webp",
+     "kb": 5.3,
+     "derajat": 202
+    },
+    "10": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/10.webp",
+     "kb": 5.5,
+     "derajat": 225
+    },
+    "11": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/11.webp",
+     "kb": 4.9,
+     "derajat": 248
+    },
+    "12": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/12.webp",
+     "kb": 2.8,
+     "derajat": 270
+    },
+    "13": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/13.webp",
+     "kb": 7.2,
+     "derajat": 292
+    },
+    "14": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/14.webp",
+     "kb": 9.2,
+     "derajat": 315
+    },
+    "15": {
+     "berkas": "assets/img/katalog-3d/semeru-putar/15.webp",
+     "kb": 9.9,
+     "derajat": 338
+    }
+   },
+   "kb_kartu": 59.2,
+   "kb_putar": 99.6
+  },
+  {
+   "id": "arjuno",
+   "no": "05",
+   "nama": "Arjuno",
+   "ukuran": "500 g",
+   "kartu": {
+    "0": {
+     "berkas": "assets/img/katalog-3d/arjuno-0.webp",
+     "kb": 10.7,
+     "ukuran": [
+      369,
+      706
+     ]
+    },
+    "-18": {
+     "berkas": "assets/img/katalog-3d/arjuno-18.webp",
+     "kb": 15.2,
+     "ukuran": [
+      404,
+      728
+     ]
+    },
+    "28": {
+     "berkas": "assets/img/katalog-3d/arjuno-28.webp",
+     "kb": 14.9,
+     "ukuran": [
+      416,
+      736
+     ]
+    },
+    "55": {
+     "berkas": "assets/img/katalog-3d/arjuno-55.webp",
+     "kb": 12.4,
+     "ukuran": [
+      391,
+      749
+     ]
+    },
+    "90": {
+     "berkas": "assets/img/katalog-3d/arjuno-90.webp",
+     "kb": 4.0,
+     "ukuran": [
+      250,
+      732
+     ]
+    }
+   },
+   "putar": {
+    "00": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/00.webp",
+     "kb": 6.7,
+     "derajat": 0
+    },
+    "01": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/01.webp",
+     "kb": 9.7,
+     "derajat": 22
+    },
+    "02": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/02.webp",
+     "kb": 8.7,
+     "derajat": 45
+    },
+    "03": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/03.webp",
+     "kb": 6.6,
+     "derajat": 68
+    },
+    "04": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/04.webp",
+     "kb": 2.9,
+     "derajat": 90
+    },
+    "05": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/05.webp",
+     "kb": 5.1,
+     "derajat": 112
+    },
+    "06": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/06.webp",
+     "kb": 5.6,
+     "derajat": 135
+    },
+    "07": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/07.webp",
+     "kb": 5.4,
+     "derajat": 158
+    },
+    "08": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/08.webp",
+     "kb": 3.4,
+     "derajat": 180
+    },
+    "09": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/09.webp",
+     "kb": 5.3,
+     "derajat": 202
+    },
+    "10": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/10.webp",
+     "kb": 5.5,
+     "derajat": 225
+    },
+    "11": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/11.webp",
+     "kb": 4.9,
+     "derajat": 248
+    },
+    "12": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/12.webp",
+     "kb": 2.8,
+     "derajat": 270
+    },
+    "13": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/13.webp",
+     "kb": 7.1,
+     "derajat": 292
+    },
+    "14": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/14.webp",
+     "kb": 9.0,
+     "derajat": 315
+    },
+    "15": {
+     "berkas": "assets/img/katalog-3d/arjuno-putar/15.webp",
+     "kb": 9.6,
+     "derajat": 338
+    }
+   },
+   "kb_kartu": 57.2,
+   "kb_putar": 98.3
+  },
+  {
+   "id": "raung",
+   "no": "06",
+   "nama": "Raung",
+   "ukuran": "500 g",
+   "kartu": {
+    "0": {
+     "berkas": "assets/img/katalog-3d/raung-0.webp",
+     "kb": 11.8,
+     "ukuran": [
+      369,
+      706
+     ]
+    },
+    "-18": {
+     "berkas": "assets/img/katalog-3d/raung-18.webp",
+     "kb": 16.5,
+     "ukuran": [
+      404,
+      728
+     ]
+    },
+    "28": {
+     "berkas": "assets/img/katalog-3d/raung-28.webp",
+     "kb": 15.9,
+     "ukuran": [
+      416,
+      736
+     ]
+    },
+    "55": {
+     "berkas": "assets/img/katalog-3d/raung-55.webp",
+     "kb": 12.9,
+     "ukuran": [
+      391,
+      749
+     ]
+    },
+    "90": {
+     "berkas": "assets/img/katalog-3d/raung-90.webp",
+     "kb": 4.0,
+     "ukuran": [
+      250,
+      732
+     ]
+    }
+   },
+   "putar": {
+    "00": {
+     "berkas": "assets/img/katalog-3d/raung-putar/00.webp",
+     "kb": 7.2,
+     "derajat": 0
+    },
+    "01": {
+     "berkas": "assets/img/katalog-3d/raung-putar/01.webp",
+     "kb": 10.3,
+     "derajat": 22
+    },
+    "02": {
+     "berkas": "assets/img/katalog-3d/raung-putar/02.webp",
+     "kb": 9.0,
+     "derajat": 45
+    },
+    "03": {
+     "berkas": "assets/img/katalog-3d/raung-putar/03.webp",
+     "kb": 6.8,
+     "derajat": 68
+    },
+    "04": {
+     "berkas": "assets/img/katalog-3d/raung-putar/04.webp",
+     "kb": 2.9,
+     "derajat": 90
+    },
+    "05": {
+     "berkas": "assets/img/katalog-3d/raung-putar/05.webp",
+     "kb": 5.1,
+     "derajat": 112
+    },
+    "06": {
+     "berkas": "assets/img/katalog-3d/raung-putar/06.webp",
+     "kb": 5.6,
+     "derajat": 135
+    },
+    "07": {
+     "berkas": "assets/img/katalog-3d/raung-putar/07.webp",
+     "kb": 5.4,
+     "derajat": 158
+    },
+    "08": {
+     "berkas": "assets/img/katalog-3d/raung-putar/08.webp",
+     "kb": 3.4,
+     "derajat": 180
+    },
+    "09": {
+     "berkas": "assets/img/katalog-3d/raung-putar/09.webp",
+     "kb": 5.3,
+     "derajat": 202
+    },
+    "10": {
+     "berkas": "assets/img/katalog-3d/raung-putar/10.webp",
+     "kb": 5.5,
+     "derajat": 225
+    },
+    "11": {
+     "berkas": "assets/img/katalog-3d/raung-putar/11.webp",
+     "kb": 4.9,
+     "derajat": 248
+    },
+    "12": {
+     "berkas": "assets/img/katalog-3d/raung-putar/12.webp",
+     "kb": 2.8,
+     "derajat": 270
+    },
+    "13": {
+     "berkas": "assets/img/katalog-3d/raung-putar/13.webp",
+     "kb": 7.4,
+     "derajat": 292
+    },
+    "14": {
+     "berkas": "assets/img/katalog-3d/raung-putar/14.webp",
+     "kb": 9.4,
+     "derajat": 315
+    },
+    "15": {
+     "berkas": "assets/img/katalog-3d/raung-putar/15.webp",
+     "kb": 10.3,
+     "derajat": 338
+    }
+   },
+   "kb_kartu": 61.1,
+   "kb_putar": 101.3
+  },
+  {
+   "id": "ijen-excelsa",
+   "no": "07",
+   "nama": "Ijen Excelsa",
+   "ukuran": "500 g",
+   "kartu": {
+    "0": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-0.webp",
+     "kb": 11.2,
+     "ukuran": [
+      369,
+      706
+     ]
+    },
+    "-18": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-18.webp",
+     "kb": 15.8,
+     "ukuran": [
+      404,
+      728
+     ]
+    },
+    "28": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-28.webp",
+     "kb": 15.4,
+     "ukuran": [
+      416,
+      736
+     ]
+    },
+    "55": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-55.webp",
+     "kb": 12.9,
+     "ukuran": [
+      391,
+      749
+     ]
+    },
+    "90": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-90.webp",
+     "kb": 4.0,
+     "ukuran": [
+      250,
+      732
+     ]
+    }
+   },
+   "putar": {
+    "00": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/00.webp",
+     "kb": 7.0,
+     "derajat": 0
+    },
+    "01": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/01.webp",
+     "kb": 10.1,
+     "derajat": 22
+    },
+    "02": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/02.webp",
+     "kb": 8.9,
+     "derajat": 45
+    },
+    "03": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/03.webp",
+     "kb": 6.8,
+     "derajat": 68
+    },
+    "04": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/04.webp",
+     "kb": 2.9,
+     "derajat": 90
+    },
+    "05": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/05.webp",
+     "kb": 5.1,
+     "derajat": 112
+    },
+    "06": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/06.webp",
+     "kb": 5.6,
+     "derajat": 135
+    },
+    "07": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/07.webp",
+     "kb": 5.4,
+     "derajat": 158
+    },
+    "08": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/08.webp",
+     "kb": 3.4,
+     "derajat": 180
+    },
+    "09": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/09.webp",
+     "kb": 5.3,
+     "derajat": 202
+    },
+    "10": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/10.webp",
+     "kb": 5.5,
+     "derajat": 225
+    },
+    "11": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/11.webp",
+     "kb": 4.9,
+     "derajat": 248
+    },
+    "12": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/12.webp",
+     "kb": 2.8,
+     "derajat": 270
+    },
+    "13": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/13.webp",
+     "kb": 7.2,
+     "derajat": 292
+    },
+    "14": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/14.webp",
+     "kb": 9.3,
+     "derajat": 315
+    },
+    "15": {
+     "berkas": "assets/img/katalog-3d/ijen-excelsa-putar/15.webp",
+     "kb": 10.2,
+     "derajat": 338
+    }
+   },
+   "kb_kartu": 59.3,
+   "kb_putar": 100.4
+  },
+  {
+   "id": "blend-7030",
+   "no": "08",
+   "nama": "Blend 70/30",
+   "ukuran": "500 g",
+   "kartu": {
+    "0": {
+     "berkas": "assets/img/katalog-3d/blend-7030-0.webp",
+     "kb": 11.5,
+     "ukuran": [
+      369,
+      706
+     ]
+    },
+    "-18": {
+     "berkas": "assets/img/katalog-3d/blend-7030-18.webp",
+     "kb": 15.7,
+     "ukuran": [
+      404,
+      728
+     ]
+    },
+    "28": {
+     "berkas": "assets/img/katalog-3d/blend-7030-28.webp",
+     "kb": 15.7,
+     "ukuran": [
+      416,
+      736
+     ]
+    },
+    "55": {
+     "berkas": "assets/img/katalog-3d/blend-7030-55.webp",
+     "kb": 12.7,
+     "ukuran": [
+      391,
+      749
+     ]
+    },
+    "90": {
+     "berkas": "assets/img/katalog-3d/blend-7030-90.webp",
+     "kb": 4.0,
+     "ukuran": [
+      250,
+      732
+     ]
+    }
+   },
+   "putar": {
+    "00": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/00.webp",
+     "kb": 7.0,
+     "derajat": 0
+    },
+    "01": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/01.webp",
+     "kb": 10.0,
+     "derajat": 22
+    },
+    "02": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/02.webp",
+     "kb": 8.9,
+     "derajat": 45
+    },
+    "03": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/03.webp",
+     "kb": 6.7,
+     "derajat": 68
+    },
+    "04": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/04.webp",
+     "kb": 2.9,
+     "derajat": 90
+    },
+    "05": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/05.webp",
+     "kb": 5.1,
+     "derajat": 112
+    },
+    "06": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/06.webp",
+     "kb": 5.6,
+     "derajat": 135
+    },
+    "07": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/07.webp",
+     "kb": 5.4,
+     "derajat": 158
+    },
+    "08": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/08.webp",
+     "kb": 3.4,
+     "derajat": 180
+    },
+    "09": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/09.webp",
+     "kb": 5.3,
+     "derajat": 202
+    },
+    "10": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/10.webp",
+     "kb": 5.5,
+     "derajat": 225
+    },
+    "11": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/11.webp",
+     "kb": 4.9,
+     "derajat": 248
+    },
+    "12": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/12.webp",
+     "kb": 2.8,
+     "derajat": 270
+    },
+    "13": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/13.webp",
+     "kb": 7.2,
+     "derajat": 292
+    },
+    "14": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/14.webp",
+     "kb": 9.1,
+     "derajat": 315
+    },
+    "15": {
+     "berkas": "assets/img/katalog-3d/blend-7030-putar/15.webp",
+     "kb": 10.1,
+     "derajat": 338
+    }
+   },
+   "kb_kartu": 59.6,
+   "kb_putar": 99.9
+  },
+  {
+   "id": "blend-6040",
+   "no": "09",
+   "nama": "Blend 60/40",
+   "ukuran": "500 g",
+   "kartu": {
+    "0": {
+     "berkas": "assets/img/katalog-3d/blend-6040-0.webp",
+     "kb": 11.5,
+     "ukuran": [
+      369,
+      706
+     ]
+    },
+    "-18": {
+     "berkas": "assets/img/katalog-3d/blend-6040-18.webp",
+     "kb": 15.9,
+     "ukuran": [
+      404,
+      728
+     ]
+    },
+    "28": {
+     "berkas": "assets/img/katalog-3d/blend-6040-28.webp",
+     "kb": 15.8,
+     "ukuran": [
+      416,
+      736
+     ]
+    },
+    "55": {
+     "berkas": "assets/img/katalog-3d/blend-6040-55.webp",
+     "kb": 12.7,
+     "ukuran": [
+      391,
+      749
+     ]
+    },
+    "90": {
+     "berkas": "assets/img/katalog-3d/blend-6040-90.webp",
+     "kb": 4.0,
+     "ukuran": [
+      250,
+      732
+     ]
+    }
+   },
+   "putar": {
+    "00": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/00.webp",
+     "kb": 7.0,
+     "derajat": 0
+    },
+    "01": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/01.webp",
+     "kb": 10.1,
+     "derajat": 22
+    },
+    "02": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/02.webp",
+     "kb": 8.9,
+     "derajat": 45
+    },
+    "03": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/03.webp",
+     "kb": 6.7,
+     "derajat": 68
+    },
+    "04": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/04.webp",
+     "kb": 2.9,
+     "derajat": 90
+    },
+    "05": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/05.webp",
+     "kb": 5.1,
+     "derajat": 112
+    },
+    "06": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/06.webp",
+     "kb": 5.6,
+     "derajat": 135
+    },
+    "07": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/07.webp",
+     "kb": 5.4,
+     "derajat": 158
+    },
+    "08": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/08.webp",
+     "kb": 3.4,
+     "derajat": 180
+    },
+    "09": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/09.webp",
+     "kb": 5.3,
+     "derajat": 202
+    },
+    "10": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/10.webp",
+     "kb": 5.5,
+     "derajat": 225
+    },
+    "11": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/11.webp",
+     "kb": 4.9,
+     "derajat": 248
+    },
+    "12": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/12.webp",
+     "kb": 2.8,
+     "derajat": 270
+    },
+    "13": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/13.webp",
+     "kb": 7.2,
+     "derajat": 292
+    },
+    "14": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/14.webp",
+     "kb": 9.1,
+     "derajat": 315
+    },
+    "15": {
+     "berkas": "assets/img/katalog-3d/blend-6040-putar/15.webp",
+     "kb": 10.1,
+     "derajat": 338
+    }
+   },
+   "kb_kartu": 59.9,
+   "kb_putar": 100.0
+  }
+ ]
+}
