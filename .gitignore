@@ -12,3 +12,8 @@ book/publish/sold/
 # Berkas buku yang dijual: jangan masuk repo. Aset komersial disimpan di
 # Google Drive (tautan ada di UNDUHAN.md) dan dihitung ulang oleh build.py.
 book/publish/
+
+# Naskah panjang buku (216.000 dan 213.000 kata) — aset komersial, bukan isi repo.
+# Salinan hidupnya ada di Google Drive; lihat TAUTAN_BERKAS.md.
+book.md
+book_id.md
