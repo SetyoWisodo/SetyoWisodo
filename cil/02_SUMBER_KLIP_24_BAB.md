@@ -568,8 +568,8 @@ twelve-year-old actually need to know?"
 Florida, sebagai badai Kategori 4, lalu bergerak jauh ke pedalaman dan
 menjatuhkan hujan ekstrem di Appalachia selatan.
 
-**Angka:** setidaknya **230 kematian** di enam negara bagian — badai daratan
-terdeadliest sejak Katrina 2005; kerusakan melebihi **US$78 miliar**.
+**Angka:** setidaknya **230 kematian** di enam negara bagian — badai darat
+paling deadly sejak Katrina 2005; kerusakan melebihi **US$78 miliar**.
 
 **Sumber terverifikasi:**
 
