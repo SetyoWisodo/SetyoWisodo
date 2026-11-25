@@ -14,15 +14,23 @@ lompat.
 
 ## Tugasmu
 
-Buat video YouTube untuk 24 tema buku *Surviving the Future*. Satu video satu
-bab. Setiap video memakai enam bagian berurutan:
+Buat **dua jenis** video untuk 24 tema buku *Surviving the Future*:
 
-1. **Peristiwa** — tempat, tanggal, apa yang terjadi
-2. **Klip** — 7–12 detik pernyataan ahli dari sumber terdaftar
-3. **Angka** — apa yang diukur dan apa yang tidak
-4. **Analisis** — suara kamu sendiri, dan ini bagian terpanjang
-5. **Bila terulang** — langkah bernomor, diurutkan sesuai prioritas
-6. **CTA** — satu kalimat buku, lalu tautan
+**A. Shorts — target utama, 45–75 detik, vertikal.** Empat per bab, satu per
+`shorts_beats` di `03_kartu_klip.json`. Enam bagian: hook (≤12 kata) →
+peristiwa → satu angka → putaran → payoff → jembatan ke buku. Aturan lengkap:
+`07_SISTEM_SHORTS.md`.
+
+**B. Long-form — wajib, 5–7 menit, horizontal.** Satu per bab. Enam bagian:
+peristiwa → klip ahli → angka → analisis → bila terulang → CTA.
+
+**Kenapa keduanya:** views Shorts tidak dihitung ke syarat 4.000 jam tonton.
+Dua jalur monetisasi itu terpisah. Long-form adalah jalur yang secara matematis
+lebih mungkin dicapai, jadi jangan menundanya.
+
+**Yang tidak boleh dilakukan:** memotong long-form menjadi Short. Short dibangun
+dari beat yang berbeda, dan kalau dipotong hasilnya selalu terasa seperti
+potongan.
 
 ## Tiga aturan yang tidak boleh dilanggar
 
@@ -57,15 +65,39 @@ menampilkannya seolah ahli itu yang bicara.
 - Jangan memakai musik di bawah klip wawancara. Content ID memblokir audio.
 - Jangan menampilkan nama akun pribadi penyebar misinformasi.
 - Jangan menjanjikan diskon selain `LAUNCH20` dan `KAMPUS25`.
+- Jangan menyebut harga di dalam video. Harga hanya di deskripsi dan pinned
+  comment.
+- Jangan memakai musik di Shorts, tanpa pengecualian.
 - Jangan menyebut perubahan iklim sebagai satu-satunya sebab konflik bersenjata
   (khususnya Bab 12). Buku ini secara eksplisit menolak penyederhanaan itu.
 
-## Tautan
+## Tautan dan UTM
 
 Buku: **https://setyowisodo.gumroad.com/l/surviving-the-future** ($45)
 
+Setiap video memakai UTM sendiri, wajib:
+
+```
+...surviving-the-future?utm_source=youtube&utm_medium=shorts&utm_campaign=ch04&utm_content=s2
+```
+
+`ch04` = bab 4, `s2` = Short beat 2. Untuk long-form: `utm_medium=video`,
+`utm_content=video`.
+
 Sampel gratis:
 **https://drive.google.com/file/d/1xMv4FV13smEonk-GcEbAXuhSkoXPoMjP/view**
+
+## Jadwal 13 minggu pertama
+
+| Fase | Minggu | Shorts/minggu | Long-form/minggu |
+|---|---|---|---|
+| Kalibrasi | 1–2 | 3 | 1 |
+| Ritme | 3–8 | 4 | 1 |
+| Skala | 9–13 | 5 | 1 |
+
+Setelah 13 minggu: 52 Shorts + 13 long-form. Itu cukup untuk menilai sebelum
+memproduksi 96 Shorts penuh. **Jangan lebih dari 1 Short per hari**, dan jangan
+dua Short berurutan dengan struktur identik.
 
 ## Urutan pengerjaan yang saya sarankan
 
@@ -87,7 +119,8 @@ Untuk setiap video yang sudah dirender, kirim:
 - tautan video
 - daftar aset + lisensi + detik yang dipakai
 - naskah host lengkap
-- konfirmasi bahwa enam bagian ada, dan durasi klip ≤ 20%
+- konfirmasi enam bagian ada, dan durasi klip ≤ 20%
+- untuk Shorts: retensi 3 detik, retensi akhir, dan klik dari UTM
 
 Saya akan meninjau sebelum publikasi. Setelah tiga video berturut-turut lolos
 tanpa revisi, kita longgarkan menjadi tinjauan mingguan.

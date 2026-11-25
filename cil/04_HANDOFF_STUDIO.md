@@ -147,6 +147,87 @@ Contoh manifes:
 
 ---
 
+## 5b. Pipeline Shorts (target utama)
+
+Short dan long-form dibangun dari **beat berbeda**, bukan saling memotong. Detail
+lengkap ada di `07_SISTEM_SHORTS.md`; di sini bagian yang menyangkut mesin.
+
+```
+[1] pilih bab + beat          -> dari 03_kartu_klip.json
+[2] tulis naskah 45-75 dtk    -> 6 bagian wajib, anggaran 2,6 kata/detik
+[3] pilih aset                -> utamakan quote card + citra PD/CC BY
+[4] render vertikal           -> 1080x1920, teks aman di 15% tengah
+[5] jalankan gerbang shorts   -> daftar di bawah
+[6] review manusia            -> hook + potong detik
+[7] upload + UTM              -> utm_campaign=chNN, utm_content=sN
+[8] catat di dashboard        -> retensi 3 dtk, retensi akhir, klik
+```
+
+### Gerbang keras khusus Shorts
+
+1. **Durasi** 45–75 detik (batas keras: 180 detik, tetapi di atas 90 hanya
+   boleh dengan persetujuan manusia).
+2. **Hook** ≤ 12 kata dan mulai di detik 0. Deteksi: tidak boleh ada kata
+   "tahukah", "di video kali ini", "hai", "welcome back".
+3. **Satu angka saja** dalam seluruh naskah. Kalau ada dua entri `numbers[]`
+   yang muncul, tolak.
+4. **Kredit di layar**, bukan hanya deskripsi — minimal 2 detik per aset.
+5. **Tidak ada musik** sama sekali di track audio.
+6. **Tidak ada harga** ("$45", "45 dollars", "forty-five") di naskah video.
+7. **Tidak ada "link di deskripsi" lebih dari sekali.**
+8. **Struktur 6 bagian** harus lengkap; bagian "putaran" tidak boleh kosong.
+9. **Hash templat** berbeda dari 3 Shorts terakhir.
+10. **Nama berkas dan metadata** memuat `ch{NN}` dan `s{N}` supaya UTM bisa
+    dicocokkan otomatis.
+
+### Dashboard yang harus dihasilkan mesin
+
+Satu baris per Short, diekspor mingguan:
+
+```
+tanggal | ch | beat | durasi | retensi_3s | retensi_akhir | views | klik | utm_content
+```
+
+Tiga keputusan yang diambil dari tabel ini:
+
+- `retensi_3s < 60%` → hook salah, ganti (jangan perbaiki videonya)
+- `retensi_akhir < 25%` → bagian putaran terlalu lemah
+- `klik = 0` pada 20 Shorts → CTA atau audiens salah
+
+---
+
+## 5c. Dua sumber pendapatan — angka yang harus dipegang
+
+Angka ini untuk keputusan, bukan untuk promosi.
+
+**Buku.** $45, fee Gumroad 10% + $0,50 → bersih sekitar **$40 per eksemplar**.
+
+**Shorts.** Bayaran sekitar **$0,03–0,10 per 1.000 views** (bervariasi besar;
+audiens AS/Eropa di ujung atas).
+
+Maka:
+
+| Views Shorts | Perkiraan pendapatan iklan | Setara buku |
+|---|---|---|
+| 100.000 | $3–10 | 0,1–0,25 eksemplar |
+| 1.000.000 | $30–100 | 1–2,5 eksemplar |
+| 10.000.000 | $300–1.000 | 8–25 eksemplar |
+
+**Kesimpulan operasional:** satu penjualan buku setara 10.000–30.000 views
+Shorts. Jadi:
+
+1. **Buku adalah produk; YouTube adalah saluran.** Setiap keputusan produksi
+   diuji dengan pertanyaan "apakah ini menambah klik ke Gumroad?"
+2. **Jangan mengukur kanal dengan views.** Ukur dengan klik, lalu penjualan.
+3. **Long-form tetap wajib**, bukan karena aturan, tapi karena 4.000 jam =
+   240.000 menit ≈ 100.000 views long-form — jauh lebih mungkin dicapai
+   daripada 10 juta views Shorts dalam 90 hari.
+4. **Pendapatan Shorts struktural tidak stabil.** Setelah masuk YPP, penghasilan
+   iklan Shorts mensyaratkan 10 juta views per 90 hari berjalan. Turun → berhenti
+   (iklan long-form tetap). Jangan pernah menjadikannya tumpuan.
+
+---
+
 ## 6. Spesifikasi keluaran
 
 - **Video:** 1920×1080, 24–30 fps, H.264, audio −16 LUFS.
