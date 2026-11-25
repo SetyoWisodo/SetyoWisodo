@@ -14,6 +14,17 @@ dari riwayat Git walaupun berkasnya nanti dihapus.
 
 Keduanya sekarang ada di `.gitignore`, jadi tidak akan masuk lagi tanpa sengaja.
 
+## Google Drive
+
+| Berkas | Status |
+|---|---|
+| Folder `Surviving the Future — final files (2026)` | **privat** — hanya pemilik akun yang bisa membuka |
+| PDF 458 hlm, EPUB, DOCX, zip empat berkas | **privat** — tidak ada izin `anyoneWithLink` |
+| Sampel gratis 36 hlm | **publik** — sengaja, karena tautannya dipakai di deskripsi produk $45 |
+
+Kalau sampel juga dibuat privat, tautan di deskripsi produk berbayar akan mati
+dan pembaca tidak bisa menilai buku sebelum membeli.
+
 ## Yang tetap ada di repo (dan boleh)
 
 - `book/src/en/`, `book/src/id/` — naskah sumber yang dipakai `book/build.py`.
@@ -21,6 +32,23 @@ Keduanya sekarang ada di `.gitignore`, jadi tidak akan masuk lagi tanpa sengaja.
 - `book/build.py`, `book/template/`, `book/fonts/` — mesin produksi.
 - Dokumen panduan, angka, dan laporan (`.md`, `.json`).
 - `novel_en/` — naskah serial; memang untuk diterbitkan, bukan produk berbayar.
+
+## Yang belum tertutup: riwayat Git
+
+Menghapus berkas dari commit terbaru **tidak** menghapusnya dari riwayat. Siapa
+pun yang tahu SHA commit lama masih bisa mengambil berkasnya lewat API, dan
+GitHub menyimpan commit itu selama repo masih publik. Ini sudah diperiksa:
+`repos/.../contents/book/publish/Surviving_the_Future_EN_ebook.pdf?ref=c238e86`
+masih menjawab `4369837 byte`.
+
+Ada dua cara menutupnya:
+
+1. **Jadikan repo private** — satu tombol, semua riwayat ikut tertutup, tidak
+   ada yang perlu ditulis ulang. Ini yang paling aman.
+2. **Tulis ulang riwayat** (`git filter-repo --path book/publish --invert-paths`)
+   lalu force-push semua branch. Berkas benar-benar hilang dari repo, tetapi
+   semua commit berubah, PR lama tertutup, dan semua branch agent yang masih
+   aktif akan kehilangan dasar. Belum dikerjakan karena sifatnya merusak.
 
 ## Kalau mau benar-benar privat
 
