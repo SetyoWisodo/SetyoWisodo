@@ -180,13 +180,41 @@ lengkap ada di `07_SISTEM_SHORTS.md`; di sini bagian yang menyangkut mesin.
 10. **Nama berkas dan metadata** memuat `ch{NN}` dan `s{N}` supaya UTM bisa
     dicocokkan otomatis.
 
+### Gerbang algoritma (bukan hak cipta — ini soal distribusi)
+
+Mesin juga harus menolak render kalau:
+
+11. **Hook tidak memuat angka, kontradiksi, atau nama tempat.** Hook generik
+    ("iklim makin buruk") gagal di viewed-vs-swiped.
+12. **Tidak ada bagian "putaran"** (koreksi terhadap anggapan umum). Ini satu-
+    satunya bagian yang menghasilkan komentar substantif.
+13. **Judul > 60 karakter** atau memuat huruf kapital semua.
+14. **Tidak ada UTM** pada tautan, atau `utm_campaign` tidak cocok dengan bab.
+15. **Tiga angka atau lebih** muncul di naskah Short (aturan: satu).
+
+Dan mesin harus **mewajibkan prediksi** sebelum upload:
+
+```json
+{"video":"ch13-s2","prediksi":{"viewed_vs_swiped":0.72,
+ "avg_pct_viewed":0.78,"klik_utm":4},"alasan":"..."}
+```
+
+Setelah 48 jam, dashboard membandingkan prediksi dengan hasil. Tanpa ini,
+mesin hanya menghasilkan video; dengan ini, mesin menghasilkan **model** tentang
+apa yang bekerja untuk audiens ini.
+
 ### Dashboard yang harus dihasilkan mesin
 
 Satu baris per Short, diekspor mingguan:
 
 ```
-tanggal | ch | beat | durasi | retensi_3s | retensi_akhir | views | klik | utm_content
+tanggal | ch | beat | durasi | viewed_vs_swiped | avg_pct_viewed |
+engaged_views | retention_0_30 | klik | utm_content | prediksi | selisih
 ```
+
+Kolom `engaged_views` wajib ada dan **menggantikan** `views` sebagai angka
+pembanding. Sejak 31 Maret 2025 satu view dihitung saat video mulai diputar,
+jadi headline views tidak lagi sebanding antar waktu atau antar video.
 
 Tiga keputusan yang diambil dari tabel ini:
 

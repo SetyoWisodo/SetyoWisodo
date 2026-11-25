@@ -1,5 +1,5 @@
 {
- "schema_version": "1.0",
+ "schema_version": "1.1",
  "generated": "2026-10-18",
  "purpose": "Kartu operasional per bab untuk studio clipper otomatis. Sumber kebenaran untuk semua angka, kutipan, sumber klip, dan langkah rekomendasi.",
  "product": {
@@ -2451,5 +2451,66 @@
   "no_price_in_video": true,
   "beats_per_chapter": 4,
   "utm_pattern": "https://setyowisodo.gumroad.com/l/surviving-the-future?utm_source=youtube&utm_medium=shorts&utm_campaign=ch{NN}&utm_content=s{N}"
+ },
+ "platform_facts_checked": "2026-10-18",
+ "youtube": {
+  "shorts_max_seconds": 180,
+  "shorts_classified_by": "aspect ratio square or vertical + duration, automatic",
+  "view_definition_since_2025_03_31": "counts when video starts to play or replay, no minimum",
+  "engaged_views": "views where viewer stayed past initial seconds, excludes loops",
+  "view_definition_extended_2026_08_24": "same definition across long-form and live",
+  "ypp_tier1": {
+   "subs": 500,
+   "watch_hours_12mo": 3000,
+   "shorts_views_90d": 3000000,
+   "uploads_90d": 3
+  },
+  "ypp_tier2": {
+   "subs": 1000,
+   "watch_hours_12mo": 4000,
+   "shorts_views_90d": 10000000
+  },
+  "ypp_new_thresholds_from": "2027-02-01",
+  "ypp_new_thresholds": {
+   "watch_hours_12mo": 8000,
+   "shorts_views_90d": 20000000
+  },
+  "shorts_revenue_maintenance": "10M shorts views per rolling 90 days; below that shorts ad revenue pauses",
+  "shorts_views_do_not_count_toward_watch_hours": true,
+  "official_signals": [
+   "watch history",
+   "search history",
+   "subscriptions",
+   "likes",
+   "dislikes",
+   "not interested",
+   "dont recommend channel",
+   "satisfaction surveys"
+  ],
+  "inauthentic_content_policy": "15 Jul 2025, replaces repetitious; assessed at channel level",
+  "climate_misinformation": "content promoting claims contrary to scientific consensus may not run ads; educational/doc/news may run ads",
+  "controversial_issues_2026": "non-graphic discussion eligible for full ads"
+ },
+ "economics": {
+  "book_price_usd": 45,
+  "gumroad_fee": "10% + $0.50 direct; 30% discover",
+  "net_per_book_usd_approx": 40,
+  "shorts_rpm_range_usd": [
+   0.03,
+   0.1
+  ],
+  "one_book_equals_shorts_views": [
+   10000,
+   30000
+  ],
+  "longform_views_needed_for_4000_hours": 100000
+ },
+ "benchmarks_unofficial": {
+  "note": "YouTube does not publish benchmark. These are creator-data working targets, not rules.",
+  "viewed_vs_swiped_target": 0.7,
+  "avg_pct_viewed_target_under_45s": 0.8,
+  "retention_0_30_longform_target": 0.4,
+  "kill_after_shorts_if_below": 0.5,
+  "kill_after_shorts_count": 12
  }
 }

@@ -3,14 +3,21 @@
 Halo Cil. Ini paket kerja untuk kanal YouTube klip iklim. Baca berurutan, jangan
 lompat.
 
-## Lampiran
+## Lampiran, dan urutan membacanya
 
-1. `00_BRIEF_CIL.md` — aturan, struktur video, checklist
-2. `02_SUMBER_KLIP_24_BAB.md` — 24 bab: peristiwa, sumber klip, angka, langkah
-3. `05_daftar_isi_24_bab.md` — judul bab
-4. `06_sampel_36_halaman.pdf` — sampel resmi buku
-5. `03_kartu_klip.json` — data terstruktur (kalau kamu jalan di sistem yang bisa
-   membaca JSON, pakai ini sebagai sumber kebenaran)
+Baca **berurutan**, jangan acak:
+
+1. `10_OPERASI_HARIAN.md` — jadwal mingguan dan alur kerja. Mulai dari sini.
+2. `09_ALGORITMA.md` — apa yang benar-benar menggerakkan distribusi, dan mitos
+   yang harus dibuang. **Ini bagian yang paling menentukan.**
+3. `07_SISTEM_SHORTS.md` — format Short: 6 bagian, hook, anggaran kata, metrik.
+4. `00_BRIEF_CIL.md` — aturan YouTube dan hak cipta, checklist.
+5. `02_SUMBER_KLIP_24_BAB.md` — 24 bab: peristiwa, sumber, angka, langkah.
+6. `03_kartu_klip.json` — data terstruktur + 96 beat Shorts.
+7. `05_daftar_isi_24_bab.md` — judul 24 bab.
+   `06_sampel_36_halaman.pdf` — sampel resmi, untuk mengutip Bab 1 dengan tepat.
+8. `04_HANDOFF_STUDIO.md` — untuk pemilik, bukan untukmu (kecuali kamu perlu
+   tahu gerbang apa yang akan menolak rendermu).
 
 ## Tugasmu
 

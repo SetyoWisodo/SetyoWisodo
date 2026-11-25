@@ -1,49 +1,67 @@
-CIL — BERKAS KERJA KANAL YOUTUBE
+CIL — SISTEM KERJA KANAL YOUTUBE
 Surviving the Future (2026) · Setyo Wisodo
+Dibuat 2026-10-18. Angka platform dicek hari itu dan bisa berubah.
 
-ISI ZIP INI
-01_KIRIM_KE_CIL.md         pesan tugas + lampiran (mulai dari sini)
-07_SISTEM_SHORTS.md        SISTEM KERJA SHORTS: hook, 6 bagian, jadwal, metrik
-00_BRIEF_CIL.md            aturan YouTube, struktur video, tautan, checklist
-02_SUMBER_KLIP_24_BAB.md   24 bab: peristiwa + sumber klip + angka + langkah
-03_kartu_klip.json         data terstruktur + 96 beat Shorts siap pakai
-04_HANDOFF_STUDIO.md       untuk pemilik: pipeline, gerbang keras, dashboard
-05_daftar_isi_24_bab.md    judul bab
-06_sampel_36_halaman.pdf   sampel resmi (untuk mengutip Bab 1 dengan tepat)
+URUTAN BACA (jangan acak)
+1. 10_OPERASI_HARIAN.md    jadwal mingguan, alur 11 langkah, templat naskah
+2. 09_ALGORITMA.md         sinyal asli, mitos, 7 taktik, 6 jebakan, dashboard
+3. 07_SISTEM_SHORTS.md     anatomi Short, hook, anggaran kata, metrik
+4. 00_BRIEF_CIL.md         aturan YouTube + hak cipta
+5. 02_SUMBER_KLIP_24_BAB.md  24 bab: sumber, angka, langkah
+6. 03_kartu_klip.json      data mesin + 96 beat Shorts
+7. 05_daftar_isi_24_bab.md   judul bab
+   06_sampel_36_halaman.pdf sampel resmi (untuk mengutip Bab 1 dengan tepat)
+8. 04_HANDOFF_STUDIO.md    untuk pemilik saja
 
-TIGA ANGKA YANG HARUS DIINGAT
-1. Shorts maksimal 3 menit sejak Okt 2024. Sasaran kita 45-75 detik.
-2. Views Shorts TIDAK dihitung ke syarat 4.000 jam tonton. Dua jalur terpisah.
-   Long-form adalah jalur yang lebih mungkin dimenangkan.
-3. 1 Februari 2027 ambang naik jadi 8.000 jam / 20 juta views. Jangan tunda.
+TUJUH HAL YANG PALING SERING SALAH
+1. Shorts sekarang 3 menit (sejak Okt 2024). Sasaran kita tetap 45-75 detik.
+2. Views Shorts TIDAK masuk syarat 4.000 jam tonton. Dua jalur terpisah.
+3. Sejak 31 Mar 2025 "view" dihitung saat video mulai diputar. Pakai
+   ENGAGED VIEWS untuk membandingkan video, bukan headline views.
+4. Sinyal nomor satu Shorts = viewed vs swiped away (berapa yang memilih
+   menonton, bukan menggeser). Bukan judul, bukan hashtag.
+5. YouTube tidak memakai jadwal upload, tag, atau jumlah subscriber sebagai
+   sinyal. Berhenti mengoptimasi itu.
+6. 1 Feb 2027 ambang YPP naik: 8.000 jam / 20 juta views.
+7. Konten templat massal = "inauthentic content" (sejak 15 Jul 2025), dinilai
+   per channel. Karena itu struktur tiap video harus berbeda.
 
-HITUNGAN YANG MENENTUKAN PRIORITAS
-1 buku terjual = sekitar $40 bersih.
-10 juta views Shorts = sekitar $300-1.000 = 8-25 eksemplar buku.
-Jadi: buku adalah produk, YouTube adalah saluran. Ukur klik, bukan views.
+EKONOMI (yang menentukan prioritas)
+1 buku bersih   = sekitar $40
+1.000 views     = $0,03-0,10
+1 buku          = 10.000-30.000 views Shorts
+Kesimpulan: buku adalah produk, YouTube adalah saluran. Ukur KLIK, bukan views.
 
-CARA PAKAI
-1. Baca 07_SISTEM_SHORTS.md dulu. Itu operasi harian.
-2. Ambil satu bab dari 03_kartu_klip.json (butuh 4 beat Shorts per bab).
-3. Short: hook <=12 kata, satu angka, ada bagian "putaran", payoff 1-3 langkah.
-4. Long-form: 5-7 menit, dari bab yang sama tapi beat berbeda.
-5. Sebelum upload, jalankan checklist di 07 bagian 12.
+METRIK YANG DIBACA SETIAP MINGGU (hanya enam)
+1. viewed vs swiped away   target >70%  -> hook
+2. avg % viewed            target >80%  -> struktur
+3. engaged views                          -> volume jujur
+4. retention 0:30 (long)   target >40%  -> intro
+5. klik UTM                               -> jembatan
+6. penjualan                              -> apakah berhasil
 
-ATURAN YANG PALING SERING DILANGGAR
-- Memotong long-form jadi Short. Hasilnya selalu terasa seperti potongan.
-- Musik di Shorts. Content ID memblokir audio.
-- Menyebut harga di dalam video.
-- 24 video dengan templat sama. Itu "inauthentic content" sejak 15 Jul 2025.
-- Angka yang tidak ada di buku atau di 03_kartu_klip.json.
-- Menyebut buku dibuat dengan AI. Jangan pernah.
+ATURAN BERHENTI
+12 Shorts <50% viewed-vs-swiped  -> ganti hook, jangan tambah volume
+20 Shorts 0 klik                 -> ganti CTA
+3 bulan 0 penjualan              -> tinjau halaman produk, bukan video
 
-YANG TIDAK ADA DI ZIP INI
-Berkas buku (PDF/EPUB/DOCX). Buku berbayar, tidak ikut dikirim.
+LARANGAN
+- Musik di video. Content ID memblokir audio.
+- Harga di dalam video. Harga hanya di deskripsi dan pinned comment.
+- Memotong long-form menjadi Short.
+- Menampilkan wajah korban bencana.
+- Menyebut buku dibuat dengan AI.
+- Angka di luar 03_kartu_klip.json tanpa sumber primer di layar.
 
 HARGA & TAUTAN
 Buku  : https://setyowisodo.gumroad.com/l/surviving-the-future   ($45)
 Sampel: https://drive.google.com/file/d/1xMv4FV13smEonk-GcEbAXuhSkoXPoMjP/view
 Kode  : LAUNCH20 (20%), KAMPUS25 (25%). Tidak ada kode lain.
 
-Tautan wajib pakai UTM:
+UTM wajib per video:
 ?utm_source=youtube&utm_medium=shorts&utm_campaign=chNN&utm_content=sN
+(long-form: utm_medium=video&utm_content=video)
+
+YANG TIDAK ADA DI ZIP INI
+Berkas buku lengkap (PDF/EPUB/DOCX). Buku berbayar, tidak ikut dikirim.
+Sampel 36 halaman SUDAH ada di zip ini.
