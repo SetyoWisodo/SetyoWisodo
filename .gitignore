@@ -8,3 +8,7 @@ __pycache__/
 
 # salinan pembeli: berisi data pribadi, jangan masuk repo
 book/publish/sold/
+
+# Berkas buku yang dijual: jangan masuk repo. Aset komersial disimpan di
+# Google Drive (tautan ada di UNDUHAN.md) dan dihitung ulang oleh build.py.
+book/publish/
