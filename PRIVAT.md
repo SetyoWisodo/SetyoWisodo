@@ -11,6 +11,8 @@ dari riwayat Git walaupun berkasnya nanti dihapus.
 | `book/publish/` — PDF, EPUB, DOCX, ZIP gambar, gambar 3D, foto marketplace | 92,3 MB, 69 berkas | `c7ad085` |
 | `book.md` — naskah EN lengkap | 216.031 kata | `38cf8b8` |
 | `book_id.md` — naskah ID lengkap | 213.000 kata | `38cf8b8` |
+| `Surviving_the_Future.pdf` — render 457 hlm di akar repo | 2,95 MB | `ed36248` |
+| `Surviving_the_Future_ID.pdf` — render 457 hlm edisi ID | 2,74 MB | `ed36248` |
 
 Keduanya sekarang ada di `.gitignore`, jadi tidak akan masuk lagi tanpa sengaja.
 
