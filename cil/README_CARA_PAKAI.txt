@@ -2,10 +2,13 @@ CIL — BERKAS KERJA KANAL YOUTUBE
 Surviving the Future (2026) · Setyo Wisodo
 
 ISI ZIP INI
+01_KIRIM_KE_CIL.md         pesan tugas + lampiran (mulai dari sini)
 00_BRIEF_CIL.md            aturan YouTube, struktur video, tautan, checklist
 02_SUMBER_KLIP_24_BAB.md   24 bab: peristiwa + sumber klip + angka + langkah
-01_daftar_isi_24_bab.md    judul bab
-08_sampel_36_halaman.pdf   sampel resmi (untuk mengutip Bab 1 dengan tepat)
+03_kartu_klip.json         data terstruktur untuk studio/mesin
+04_HANDOFF_STUDIO.md       untuk pemilik: integrasi pipeline + gerbang keras
+05_daftar_isi_24_bab.md    judul bab
+06_sampel_36_halaman.pdf   sampel resmi (untuk mengutip Bab 1 dengan tepat)
 
 CARA PAKAI
 1. Baca 00_BRIEF_CIL.md dari atas. Jangan lompat.

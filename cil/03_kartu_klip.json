@@ -1,0 +1,1196 @@
+{
+  "schema_version": "1.0",
+  "generated": "2026-10-18",
+  "purpose": "Kartu operasional per bab untuk studio clipper otomatis. Sumber kebenaran untuk semua angka, kutipan, sumber klip, dan langkah rekomendasi.",
+  "product": {
+    "title": "Surviving the Future: Crisis, Climate, and Human Resilience",
+    "author": "Setyo Wisodo",
+    "year": 2026,
+    "chapters": 24,
+    "pages": 457,
+    "price_usd": 45,
+    "url": "https://setyowisodo.gumroad.com/l/surviving-the-future",
+    "sample_url": "https://drive.google.com/file/d/1xMv4FV13smEonk-GcEbAXuhSkoXPoMjP/view",
+    "codes_allowed": ["LAUNCH20", "KAMPUS25"],
+    "codes_forbidden": ["BUNDLEUP40"]
+  },
+  "global_rules": {
+    "max_clip_seconds": 12,
+    "max_clip_share_of_video": 0.2,
+    "min_original_commentary_seconds": 90,
+    "template_reuse_forbidden": true,
+    "ai_disclosure_required_if_synthetic_voice_or_visual": true,
+    "book_ai_authorship_mention": "forbidden",
+    "music_under_interview_clip": "forbidden",
+    "numbers_outside_this_file": "forbidden unless primary source cited on screen"
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title_en": "Introduction: The Warming World",
+      "theme_id": "Krisis pemanasan global",
+      "case_study": "The 2022 Pakistan Floods",
+      "opening_line": "In the summer of 2022, a monsoon system carried moisture from the Arabian Sea across Pakistan for eight consecutive weeks.",
+      "event": {
+        "place": "Pakistan",
+        "date": "2022-06 to 2022-08",
+        "summary": "Monsun membawa uap dari Laut Arab selama delapan minggu berturut-turut. Pada akhir Agustus sepertiga negara terendam."
+      },
+      "numbers": [
+        {"claim": "orang terdampak", "value": "33 juta", "source": "buku bab 1 (UNDRR 2023)", "verified": true},
+        {"claim": "kematian", "value": "1.700", "source": "buku bab 1", "verified": true},
+        {"claim": "rumah rusak atau hancur", "value": "2,2 juta", "source": "buku bab 1", "verified": true},
+        {"claim": "kerugian ekonomi", "value": "US$14,9 miliar kerusakan + US$15,2 miliar kerugian, sekitar 4,8% PDB", "source": "buku bab 1 (UNDRR 2023)", "verified": true},
+        {"claim": "tanaman hancur", "value": "2 juta hektare; panen kapas turun sekitar sepertiga", "source": "buku bab 1", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "Al Jazeera",
+          "item": "Global warming, man-made factors worsened Pakistan floods: Study",
+          "date": "2022-09-16",
+          "url": "https://www.aljazeera.com/news/2022/9/16/global-warming-man-made-factors-worsened-pakistan-floods-study",
+          "format": "text",
+          "speaker": "Friederike Otto",
+          "affiliation": "Imperial College London, penulis senior World Weather Attribution",
+          "quote": "What we saw in Pakistan is exactly what climate projections have been predicting for years.",
+          "quote_status": "verbatim",
+          "use": "attribution_required"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "item": "Global warming, man-made factors worsened Pakistan floods: Study",
+          "date": "2022-09-16",
+          "url": "https://www.aljazeera.com/news/2022/9/16/global-warming-man-made-factors-worsened-pakistan-floods-study",
+          "format": "text",
+          "speaker": "Ayesha Siddiqi",
+          "affiliation": "University of Cambridge",
+          "quote": "This disaster was the result of vulnerability that was constructed over many, many years.",
+          "quote_status": "verbatim",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["NOAA satelit banjir Indus", "NASA Earth Observatory citra Sindh"],
+      "steps_if_repeated": [
+        "Pastikan peringatan dini sampai ke rumah tangga, bukan hanya ke kantor pusat. Peringatan 24 jam dapat menurunkan kerusakan sekitar 30%.",
+        "Publikasikan peta risiko dan jalur evakuasi sebelum musim hujan.",
+        "Tandai sekolah dan balai desa sebagai titik pengungsian sejak sebelum musim.",
+        "Cairkan dana darurat berdasarkan prakiraan, sebelum air naik.",
+        "Periksa kapasitas drainase dan bendungan terhadap skenario hujan terburuk yang pernah tercatat."
+      ],
+      "cta": "The book has a 457-page chapter-by-chapter account of what failed here — and the checklist that would have changed the outcome.",
+      "forbidden": ["menyebut persentase atribusi tanpa menyebut studinya", "menyebut angka korban di luar 1.700 tanpa rentang"]
+    },
+    {
+      "id": 2,
+      "title_en": "The Physical Science of Global Warming",
+      "theme_id": "Sains fisik pemanasan",
+      "case_study": "The Keeling Curve",
+      "opening_line": "In March 1958, a thirty-year-old geochemist named Charles David Keeling hauled a gas analyser up the northern slope of Mauna Loa.",
+      "event": {
+        "place": "Mauna Loa, Hawai'i",
+        "date": "1958-03",
+        "summary": "Pengukuran CO2 pertama di udara Pasifik bersih; awal kurva yang menjadi catatan iklim paling berpengaruh."
+      },
+      "numbers": [
+        {"claim": "bacaan CO2 pertama", "value": "sekitar 315 ppm", "source": "buku bab 2 (NOAA 2024)", "verified": true},
+        {"claim": "CO2 Mei 2024", "value": "426,7 ppm (Scripps)", "source": "Scripps, 2024-06-06", "verified": true},
+        {"claim": "kenaikan tahunan", "value": "2,92 ppm di atas Mei 2023", "source": "Scripps, 2024-06-06", "verified": true},
+        {"claim": "suhu 2023", "value": "sekitar 1,45 C di atas 1850-1900", "source": "buku bab 2 (WMO 2025)", "verified": true},
+        {"claim": "suhu 2024", "value": "sekitar 1,55 C di atas 1850-1900", "source": "buku bab 2 (WMO 2025)", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "Scripps Institution of Oceanography",
+          "item": "During Year of Extremes, Carbon Dioxide Levels Surge Faster than Ever",
+          "date": "2024-06-06",
+          "url": "https://keelingcurve.ucsd.edu/2024/06/06/during-year-of-extremes-carbon-dioxide-levels-surge-faster-than-ever/",
+          "format": "text",
+          "speaker": "Ralph Keeling",
+          "affiliation": "Direktur Scripps CO2 Program, UC San Diego",
+          "quote": "Fossil fuel pollution just keeps building up, much like trash in a landfill.",
+          "quote_status": "verbatim",
+          "use": "attribution_required"
+        },
+        {
+          "outlet": "NASA",
+          "item": "Temperatures Rising: NASA Confirms 2024 Warmest Year on Record",
+          "date": "2025-01-10",
+          "url": "https://www.giss.nasa.gov/staff/gschmidt/",
+          "format": "text",
+          "speaker": "Gavin Schmidt",
+          "affiliation": "Direktur NASA Goddard Institute for Space Studies",
+          "quote": "The long-term trends are very clear.",
+          "quote_status": "verbatim",
+          "use": "public_domain"
+        }
+      ],
+      "visual_public_domain": ["NOAA Mauna Loa Observatory", "grafik kurva Keeling dari Our World in Data (CC BY 4.0)"],
+      "steps_if_repeated": [
+        "Jangan membaca satu tahun sebagai tren. Buku menulis tegas: Neither figure should be read as 'the climate has reached 1.5 C'.",
+        "Bandingkan beberapa himpunan data: NASA, NOAA, Berkeley Earth, Copernicus. Arah yang sama adalah sinyal.",
+        "Bedakan observasi, atribusi, dan proyeksi; jangan campur dalam satu kalimat."
+      ],
+      "cta": "Chapter 2 is the one to read if you want to argue with a graph and win.",
+      "forbidden": ["menyebut 2024 = 1,4 C", "menyebut 1,5 C sudah tercapai", "mencampur angka NOAA, NASA, dan WMO dalam satu kalimat tanpa menyebut lembaganya"]
+    },
+    {
+      "id": 3,
+      "title_en": "Climate Systems, Feedbacks and Monitoring",
+      "theme_id": "Sistem iklim dan umpan balik",
+      "case_study": "Argo and the Ocean That Was Hiding",
+      "opening_line": "A climate is not a temperature. It is a machine with several moving parts.",
+      "event": {
+        "place": "Samudra global",
+        "date": "2000-sekarang",
+        "summary": "Sebelum 2000 interior laut disampel seperti benua yang dipetakan beberapa lusin pelancong. Argo mengubahnya menjadi sensus rutin."
+      },
+      "numbers": [
+        {"claim": "jumlah pelampung", "value": "sekitar 4.000", "source": "buku bab 3 (IPCC 2019b)", "verified": true},
+        {"claim": "siklus satu pelampung", "value": "sekitar 10 hari; bertahan sekitar 4 tahun", "source": "buku bab 3", "verified": true},
+        {"claim": "laju kenaikan muka laut", "value": "sekitar 3 mm per tahun dan meningkat", "source": "NASA Curious Universe, Gavin Schmidt", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "NASA's Curious Universe",
+          "item": "Earth's Expanding Oceans",
+          "date": "2021-07-26",
+          "url": "https://www.nasa.gov/podcasts/curious-universe/earths-expanding-oceans/",
+          "format": "audio",
+          "speaker": "Gavin Schmidt",
+          "affiliation": "NASA Goddard Institute for Space Studies",
+          "quote": "rising at about three millimeters per year and accelerating",
+          "quote_status": "paraphrase_check_before_use",
+          "use": "public_domain_segment_only",
+          "note": "Ambil potongan yang hanya berisi suara Schmidt; jangan sertakan musik atau sting podcast."
+        }
+      ],
+      "visual_public_domain": ["NOAA animasi Argo", "NASA visualisasi arus laut", "grafik Our World in Data (CC BY 4.0)"],
+      "steps_if_repeated": [
+        "Jangan potong anggaran program pemantauan saat anggaran ketat; data yang hilang tidak bisa diganti.",
+        "Setiap angka iklim harus disertai ketidakpastiannya.",
+        "Waspadai perubahan non-linear: sistem yang tampak stabil bisa melewati ambang tanpa peringatan."
+      ],
+      "cta": "The ocean decides how fast the rest of the climate system moves. Chapter 3 explains why.",
+      "forbidden": ["menyebut angka kenaikan muka laut tanpa satuan per tahun", "mengklaim tipping point sudah terlewati"]
+    },
+    {
+      "id": 4,
+      "title_en": "Extreme Heat and Urban Health",
+      "theme_id": "Panas ekstrem dan kesehatan kota",
+      "case_study": "The European Summer of 2022",
+      "opening_line": "Heat is the deadliest climate hazard in most years, and the least visible.",
+      "event": {
+        "place": "Eropa",
+        "date": "2022-05-30 to 2022-09-04",
+        "summary": "Musim panas terpanas yang tercatat di Eropa. Suhu melewati 40 C di Inggris untuk pertama kalinya, 47 C di Portugal; kebakaran menghanguskan lebih dari 800.000 hektare."
+      },
+      "numbers": [
+        {"claim": "kematian terkait panas", "value": "61.672 (95% CI 37.643-86.807)", "source": "Ballester et al. 2023, Nature Medicine", "verified": true},
+        {"claim": "pembanding 2003", "value": "lebih dari 70.000 kematian berlebih", "source": "buku bab 4", "verified": true},
+        {"claim": "suhu Inggris", "value": "melewati 40 C untuk pertama kali", "source": "buku bab 4", "verified": true},
+        {"claim": "kebakaran", "value": "lebih dari 800.000 hektare", "source": "buku bab 4", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "BBC World Service, The Climate Question",
+          "item": "How do we stay cool in a warming world?",
+          "date": "2023-01-15",
+          "url": "https://www.bbc.com/audio/play/w3ct3kk4",
+          "format": "audio",
+          "speaker": "Zerin Osho / Karim Elgendy / Chhavi Sachdev",
+          "affiliation": "Institute for Governance & Sustainable Development / Chatham House / jurnalis",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "fair_use_short",
+          "note": "Pilih satu pernyataan 8-12 detik tentang pendinginan pasif atau pertumbuhan AC. Transkripsikan dulu, verifikasi kata per kata, baru pakai."
+        },
+        {
+          "outlet": "ISGlobal / Nature Medicine",
+          "item": "Record-breaking heat in the summer of 2022 caused more than 61,000 deaths in Europe",
+          "date": "2023-07-10",
+          "url": "https://doi.org/10.1038/s41591-023-02419-z",
+          "format": "text",
+          "speaker": "Hicham Achebak",
+          "affiliation": "Inserm / ISGlobal, penulis terakhir studi",
+          "quote": "The fact that more than 61,600 people in Europe died of heat stress in the summer of 2022, even though, unlike in 2003, many countries already had active prevention plans in place, suggests that the adaptation strategies currently available may still be insufficient.",
+          "quote_status": "verbatim",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["Copernicus/ESA peta suhu permukaan (CC BY)", "NASA anomali suhu global"],
+      "steps_if_repeated": [
+        "Rencana panas dengan ambang bernama: pada ambang X, siapa menelepon siapa, dan jam berapa.",
+        "Daftar warga rentan di tingkat kotamadya; pelajaran 2003 adalah yang mati justru yang tidak terdaftar.",
+        "Telepon, jangan hanya menyiarkan: kotamadya dengan daftar menelepon warganya.",
+        "Ruang sejuk yang bisa dicapai tanpa mobil, dengan jam buka dan rute angkutan yang dipublikasikan.",
+        "Satu ruangan di rumah didinginkan lebih dulu; tirai gelap dan ventilasi silang.",
+        "Minum sebelum haus, dan kurangi aktivitas luar pada jam puncak."
+      ],
+      "cta": "Chapter 4 is where the book turns heat from weather into arithmetic.",
+      "forbidden": ["menyebut 61.700 tanpa tahun", "mengatakan AC adalah solusi utama", "menyebut angka kematian tanpa menyebut studi Ballester"]
+    },
+    {
+      "id": 5,
+      "title_en": "Water Scarcity and Drought",
+      "theme_id": "Air dan kekeringan",
+      "case_study": "Chennai's Day Zero",
+      "opening_line": "In June 2019, the reservoirs that supply Chennai, a city of about nine million people, fell to one per cent of their capacity.",
+      "event": {
+        "place": "Chennai, India",
+        "date": "2019-06",
+        "summary": "Empat waduk utama turun ke satu persen kapasitas. Truk air berjalan di rute tetap; kereta membawa air dari sungai Cauvery; sekolah tutup."
+      },
+      "numbers": [
+        {"claim": "populasi kota", "value": "sekitar 9 juta", "source": "buku bab 5", "verified": true},
+        {"claim": "kapasitas waduk", "value": "1%", "source": "buku bab 5 (Gleick 2023)", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "BBC Future",
+          "item": "How to stop another 'Day Zero'",
+          "date": "2021-01-05",
+          "url": "https://www.bbc.com/future/article/20210105-day-zero-how-chennais-wetlands-could-save-it-from-drought",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "BBC",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "fair_use_short"
+        },
+        {
+          "outlet": "World Bank Blogs",
+          "item": "Rethinking wastewater: Chennai's journey towards water security",
+          "date": "2024-03-16",
+          "url": "https://blogs.worldbank.org/en/water/rethinking-wastewater-chennais-journey-towards-water-security",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "World Bank",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["ESA Copernicus Sentinel-2 citra waduk Puzhal (CC BY)", "NASA Earth Observatory"],
+      "steps_if_repeated": [
+        "Wajibkan panen air hujan di atap untuk bangunan baru; ini reformasi yang bertahan setelah krisis.",
+        "Pasang meteran dan tetapkan harga yang jujur; tanpa meteran tidak ada yang tahu siapa memakai berapa.",
+        "Pulihkan danau dan wetland yang tertutup bangunan; itu penyimpanan air gratis.",
+        "Tulis rencana jatah sebelum krisis, supaya alokasi tidak jatuh ke pasar tanker.",
+        "Siapkan sumber kedua: desalinasi, daur ulang, atau transfer antar cekungan, dan uji sebelum kemarau berikutnya."
+      ],
+      "cta": "Chennai didn't run out of water in a day. Chapter 5 shows the four decisions that made Day Zero possible.",
+      "forbidden": ["menyebut angka kerugian presisi", "menyebut 11 juta penduduk (buku memakai sekitar 9 juta)"]
+    },
+    {
+      "id": 6,
+      "title_en": "Floods and Sea Level Rise",
+      "theme_id": "Banjir dan kenaikan muka laut",
+      "case_study": "Jakarta and the Sea",
+      "opening_line": "On 29 October 2024, a line of thunderstorms stalled over the province of Valencia in eastern Spain and released more rain in eight hours than the region normally receives in a year.",
+      "event": {
+        "place": "Jakarta, Indonesia",
+        "date": "1970s-sekarang",
+        "summary": "Kota di delta tiga belas sungai, di atas sedimen lunak. Penyedotan air tanah mempercepat penurunan tanah."
+      },
+      "numbers": [
+        {"claim": "penurunan tanah", "value": "hingga 4 meter sejak 1970-an; 1-15 cm per tahun", "source": "buku bab 6 (IPCC 2022a)", "verified": true},
+        {"claim": "sungai", "value": "13 sungai", "source": "buku bab 6", "verified": true},
+        {"claim": "banjir besar", "value": "2007, 2013, dan banjir Tahun Baru 2020 masing-masing mengungsikan ratusan ribu orang", "source": "buku bab 6", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "BBC World Service, The Climate Question",
+          "item": "Jakarta: A warning?",
+          "date": null,
+          "url": "https://www.bbc.com/audio/play/w3ct0xb7",
+          "format": "audio",
+          "speaker": "Resty Woro Yuniar (reporter) dan insinyur pengendali banjir",
+          "affiliation": "BBC",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "fair_use_short",
+          "note": "Verifikasi tanggal tayang di halaman episode sebelum dikutip."
+        }
+      ],
+      "visual_public_domain": ["NASA Earth Observatory perubahan garis pantai Jakarta", "ESA Copernicus"],
+      "steps_if_repeated": [
+        "Hentikan penyedotan air tanah lebih dulu, sebelum membangun tanggul; tanggul tidak berguna kalau tanahnya masih turun.",
+        "Pompa, keruk, dan rawat saluran; pemeliharaan drainase adalah tindakan iklim termurah.",
+        "Publikasikan peta risiko banjir per alamat sebelum kontrak sewa atau jual beli ditandatangani.",
+        "Siapkan rencana mundur terencana untuk kawasan yang biayanya sudah melebihi manfaatnya.",
+        "Tetapkan aturan tegas: jangan menyeberangi air yang mengalir."
+      ],
+      "cta": "Jakarta is not unlucky. Chapter 6 is about a city that made three reasonable decisions, each of which made the next flood worse.",
+      "forbidden": ["menyebut Jakarta tenggelam seluruhnya", "menyebut angka korban tanpa sumber"]
+    },
+    {
+      "id": 7,
+      "title_en": "Food Security and Agriculture",
+      "theme_id": "Ketahanan pangan",
+      "case_study": "The 2023 Rice Shock",
+      "opening_line": "In May 2022, the government of India banned wheat exports with a single notification.",
+      "event": {
+        "place": "India dan pasar global",
+        "date": "2022-05 dan 2023",
+        "summary": "Larangan ekspor gandum setelah gelombang panas Maret memotong panen; setahun kemudian larangan ekspor beras setelah monsun buruk."
+      },
+      "numbers": [
+        {"claim": "ketergantungan beras", "value": "sekitar 3,5 miliar orang mendapat seperlima kalori atau lebih dari beras", "source": "buku bab 7 (Zhao et al. 2017)", "verified": true},
+        {"claim": "perdagangan beras", "value": "hanya sekitar 10% produksi menyeberangi perbatasan", "source": "buku bab 7", "verified": true},
+        {"claim": "pangsa India", "value": "sekitar 40% ekspor beras dunia", "source": "buku bab 7", "verified": true},
+        {"claim": "harga beras", "value": "naik sekitar 30% dalam beberapa bulan", "source": "buku bab 7", "verified": true},
+        {"claim": "panen gandum India", "value": "terpotong sekitar 5%", "source": "buku bab 7 (World Bank 2022)", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "BBC World Service, The Food Chain",
+          "item": "episode tentang beras dan larangan ekspor India",
+          "date": "2023-12",
+          "url": null,
+          "format": "audio",
+          "speaker": null,
+          "affiliation": "BBC",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "fair_use_short",
+          "note": "Cari di BBC Sounds dengan kata kunci 'The Food Chain rice'. Verifikasi judul dan tanggal sebelum dipakai."
+        },
+        {
+          "outlet": "FAO",
+          "item": "The State of Food Security and Nutrition in the World",
+          "date": "annual",
+          "url": "https://www.fao.org/publications/sofi",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "FAO",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["USDA citra pertanian", "NASA Earth Observatory", "grafik Our World in Data harga pangan (CC BY 4.0)"],
+      "steps_if_repeated": [
+        "Pegang stok penyangga, bukan hanya mengandalkan pasar.",
+        "Diversifikasi impor; ketergantungan pada satu eksportir adalah risiko yang bisa dihitung.",
+        "Jangan memberlakukan larangan ekspor sebagai refleks; larangan menaikkan harga di luar dan memicu larangan balasan.",
+        "Sediakan asuransi panen dan prakiraan musim untuk petani kecil.",
+        "Lindungi konsumen termiskin lewat transfer tunai, bukan subsidi harga yang dinikmati semua orang."
+      ],
+      "cta": "One notification in New Delhi moved the price of rice in Manila. Chapter 7 is about that chain.",
+      "forbidden": ["menyebut kelaparan global akibat larangan", "menyebut angka harga di luar sekitar 30%"]
+    },
+    {
+      "id": 8,
+      "title_en": "Ecosystems and Biodiversity Loss",
+      "theme_id": "Ekosistem dan keanekaragaman hayati",
+      "case_study": "The Great Barrier Reef",
+      "opening_line": "In the first half of 2024, the Great Barrier Reef experienced its fifth mass bleaching event in eight years.",
+      "event": {
+        "place": "Queensland, Australia",
+        "date": "2024-02 to 2024-04",
+        "summary": "Peristiwa pemutihan massal kelima sejak 2016; survei udara atas lebih dari 1.000 terumbu."
+      },
+      "numbers": [
+        {"claim": "terumbu memutih", "value": "73% terumbu yang disurvei di taman laut", "source": "Reef Snapshot 2023-24, AIMS/CSIRO/Reef Authority", "verified": true},
+        {"claim": "jumlah terumbu", "value": "sekitar 3.000 terumbu individu", "source": "buku bab 8 (IPCC 2019b)", "verified": true},
+        {"claim": "panjang", "value": "lebih dari 2.300 km", "source": "buku bab 8", "verified": true},
+        {"claim": "dampak 2016", "value": "membunuh sekitar separuh karang di bagian utara", "source": "buku bab 8", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "AIMS / CSIRO",
+          "item": "New report on Great Barrier Reef shows coral cover increases before onset of serious bleaching, cyclones",
+          "date": "2024-08-07",
+          "url": "https://www.csiro.au/en/news/all/news/2024/april/reef-snapshot-details-widespread-coral-bleaching-on-the-great-barrier-reef",
+          "format": "text",
+          "speaker": "David Wachenfeld",
+          "affiliation": "Research Program Director, Australian Institute of Marine Science",
+          "quote": "We are only one large scale disturbance event away from a reversal of the recent recovery.",
+          "quote_status": "verbatim",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["NOAA Coral Reef Watch peta pemutihan", "AIMS footage (minta izin atau pakai CC BY jika tersedia)"],
+      "steps_if_repeated": [
+        "Kurangi tekanan lokal yang bisa dikendalikan: limpasan pertanian, sedimen, nitrogen, dan bintang laut berduri.",
+        "Tutup sementara perikanan tertentu agar ikan herbivora kembali mengontrol alga.",
+        "Jangan menjual pemulihan karang sebagai solusi iklim; yang membunuh karang adalah jarak antar-gangguan yang makin pendek.",
+        "Lindungi daerah yang masih dingin sebagai tempat perlindungan termal."
+      ],
+      "cta": "Chapter 8 has the numbers from five bleaching events, and the reason the fifth one matters more than the first.",
+      "forbidden": ["menyebut terumbu sudah mati total", "menyebut 50% terumbu mati pada 2024 (angka buku adalah 73% memutih, bukan mati)"]
+    },
+    {
+      "id": 9,
+      "title_en": "Health Impacts of Climate Change",
+      "theme_id": "Kesehatan",
+      "case_study": "The 2024 Dengue Epidemic",
+      "opening_line": "In 2024, the Pan American Health Organization recorded more than 12 million cases of dengue in the Americas.",
+      "event": {
+        "place": "Amerika",
+        "date": "2024",
+        "summary": "Epidemi terbesar yang tercatat; Brasil menyumbang sekitar separuh kasus."
+      },
+      "numbers": [
+        {"claim": "kasus Amerika 2024", "value": "lebih dari 12 juta", "source": "buku bab 9 (PAHO)", "verified": true},
+        {"claim": "kasus Brasil", "value": "lebih dari 6 juta suspek", "source": "buku bab 9", "verified": true},
+        {"claim": "negara endemik", "value": "sekitar 140 negara, naik dari 9 pada 1970-an", "source": "BBC The Climate Question, 2023-03-06", "verified": true},
+        {"claim": "peningkatan infeksi", "value": "30 kali lipat dalam 50 tahun (WHO)", "source": "BBC The Climate Question, 2023-03-06", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "BBC World Service, The Climate Question",
+          "item": "How can we prevent the spread of disease in a warming world?",
+          "date": "2023-03-06",
+          "url": "https://www.bbc.co.uk/programmes/w3ct3kkc",
+          "format": "audio",
+          "speaker": "Dr Dewi Iriani / Valdya Baraputri",
+          "affiliation": "Dokter anak, RS Koja Jakarta / BBC News Indonesia",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "fair_use_short"
+        },
+        {
+          "outlet": "NPR Short Wave",
+          "item": "Does it feel like mosquitoes are getting worse?",
+          "date": "2025-06-24",
+          "url": "https://www.npr.org/transcripts/1266983858",
+          "format": "audio",
+          "speaker": "entomolog dan ekolog (lihat transkrip)",
+          "affiliation": "NPR",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "fair_use_short",
+          "note": "Transkrip lengkap tersedia di URL; pilih 8-12 detik tentang perilaku nyamuk atau perlindungan diri."
+        }
+      ],
+      "visual_public_domain": ["PAHO peta kasus", "WHO/PAHO grafik", "CDC gambar Aedes aegypti (public domain)"],
+      "steps_if_repeated": [
+        "Buang air tergenang; ini intervensi termurah dan paling sering dilewatkan.",
+        "Surveilans sebelum kasus, bukan sesudahnya.",
+        "Lindungi diri: lengan panjang, kelambu, repelan bersertifikat, hindari jam gigitan puncak.",
+        "Siapkan kapasitas lab dan rumah sakit sebelum musim hujan.",
+        "Jangan menunggu vaksin; vaksin dengue hanya sebagian efektif dan tidak untuk semua orang."
+      ],
+      "cta": "Chapter 9 treats a mosquito as infrastructure — something that can be maintained or neglected.",
+      "forbidden": ["menyebut dengue hanya penyakit tropis", "menyebut vaksin sebagai solusi tunggal"]
+    },
+    {
+      "id": 10,
+      "title_en": "Economic Impacts and Financial Resilience",
+      "theme_id": "Ekonomi dan asuransi",
+      "case_study": "The 2017 Atlantic Hurricane Season",
+      "opening_line": "In August 2017, Hurricane Harvey stalled over Houston and dropped more than 1,500 millimetres of rain in five days.",
+      "event": {
+        "place": "Atlantik dan Karibia",
+        "date": "2017-08 to 2017-10",
+        "summary": "Tiga pendaratan dalam enam minggu; ujian terbesar sistem asuransi dan rekonstruksi sejak Katrina."
+      },
+      "numbers": [
+        {"claim": "kerusakan total", "value": "sekitar US$300 miliar", "source": "buku bab 10", "verified": true},
+        {"claim": "porsi diasuransikan", "value": "sekitar sepertiga", "source": "buku bab 10", "verified": true},
+        {"claim": "Harvey", "value": "US$125 miliar, sebagian besar dari banjir bukan angin", "source": "buku bab 10", "verified": true},
+        {"claim": "kematian Maria", "value": "2.975 kematian berlebih", "source": "buku bab 10 (GWU 2018)", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "NPR Consider This",
+          "item": "Home insurance rates are rising due to climate change. What could break that cycle?",
+          "date": "2024-07-18",
+          "url": "https://www.npr.org/2024/07/18/1198912918/home-insurance-rates-are-rising-due-to-climate-change-what-could-break-that-cycl",
+          "format": "audio",
+          "speaker": "Adrianne Todman",
+          "affiliation": "Acting Secretary, US Department of Housing and Urban Development",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "fair_use_short"
+        }
+      ],
+      "visual_public_domain": ["NOAA citra satelit Harvey, Irma, Maria", "grafik Our World in Data (CC BY 4.0)"],
+      "steps_if_repeated": [
+        "Baca polis sebelum bencana, terutama klausul banjir; kerusakan angin sering ditanggung, kerusakan air sering tidak.",
+        "Foto dan inventaris barang sebelum kejadian, simpan salinannya di cloud.",
+        "Klaim cepat, dan banding kalau ditolak, dengan dokumentasi.",
+        "Jangan berasumsi bantuan publik menutup semuanya; bantuan cenderung masuk ke rumah tangga yang punya dokumen kepemilikan.",
+        "Perkuat rumah sekarang: atap, pengikat, drainase; premi mengikuti risiko, dan risiko bisa diturunkan."
+      ],
+      "cta": "Insurance is where climate change sends its invoice. Chapter 10 reads the invoice line by line.",
+      "forbidden": ["menyebut semua kerusakan diasuransikan", "menyebut angka kerugian tanpa tahun"]
+    },
+    {
+      "id": 11,
+      "title_en": "Migration and Displacement",
+      "theme_id": "Migrasi dan pengungsian",
+      "case_study": "Tuvalu and the Falepili Union",
+      "opening_line": "Tuvalu is a country of nine coral atolls with a population of about eleven thousand people and a highest point of less than five metres.",
+      "event": {
+        "place": "Tuvalu",
+        "date": "2023-sekarang",
+        "summary": "Negara atol tanpa sungai dan tanpa tempat tinggi untuk mundur; treaty Falepili mengatur jalur migrasi dengan Australia."
+      },
+      "numbers": [
+        {"claim": "atol", "value": "9 atol dan pulau karang", "source": "buku bab 11 (UNHCR 2023)", "verified": true},
+        {"claim": "luas daratan", "value": "sekitar 26 km persegi", "source": "buku bab 11", "verified": true},
+        {"claim": "populasi", "value": "sekitar 11.000", "source": "buku bab 11", "verified": true},
+        {"claim": "titik tertinggi", "value": "kurang dari 5 meter", "source": "buku bab 11", "verified": true},
+        {"claim": "muka laut Funafuti", "value": "sekitar 3,4 mm per tahun", "source": "buku bab 11 (IPCC 2019b)", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "BBC World Service, The Climate Question",
+          "item": "What can we do about climate migration?",
+          "date": "2021-03-29",
+          "url": "https://www.bbc.co.uk/programmes/w3ct0xbl",
+          "format": "audio",
+          "speaker": "Dr Tasneem Siddiqui / Dr Kanta Kumari Rigaud",
+          "affiliation": "Refugee and Migratory Movements Research Unit, Bangladesh / World Bank",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "fair_use_short"
+        }
+      ],
+      "visual_public_domain": ["NASA citra atol Funafuti", "UNHCR footage dengan atribusi"],
+      "steps_if_repeated": [
+        "Relokasi terencana, bukan evakuasi mendadak; mulai dari yang paling rentan.",
+        "Pertahankan kewarganegaraan dan status hukum; ini inti perjuangan Tuvalu dalam Falepili Union.",
+        "Kirim remitansi dan keterampilan, bukan hanya bantuan barang.",
+        "Tentukan siapa yang memutuskan sebuah tempat tidak lagi layak dihuni, dan berdasarkan bukti apa."
+      ],
+      "cta": "Chapter 11 is about the hardest question in climate policy: who decides when a country is no longer habitable?",
+      "forbidden": ["menyebut Tuvalu sudah dievakuasi", "menyebut seluruh warga sudah pindah"]
+    },
+    {
+      "id": 12,
+      "title_en": "Conflict, Security and Stability",
+      "theme_id": "Konflik dan keamanan",
+      "case_study": "The Lake Chad Basin",
+      "opening_line": "The Lake Chad basin was once one of the largest inland water bodies in Africa.",
+      "event": {
+        "place": "Cekungan Danau Chad",
+        "date": "1960-an-sekarang",
+        "summary": "Danau menyusut karena curah hujan turun, irigasi meningkat, dan populasi bertambah."
+      },
+      "numbers": [
+        {"claim": "luas danau 1960-an", "value": "sekitar 25.000 km persegi", "source": "buku bab 12", "verified": true},
+        {"claim": "luas sekarang", "value": "sekitar sepersepuluhnya", "source": "buku bab 12 (Gleick 2023)", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "UNEP / Lake Chad Basin Commission",
+          "item": "laporan dan data cekungan Danau Chad",
+          "date": null,
+          "url": "https://www.unep.org",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "UNEP",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["NASA Earth Observatory citra Danau Chad 1970-an vs sekarang", "ESA Copernicus"],
+      "steps_if_repeated": [
+        "Jangan militerisasi respons iklim; keamanan lebih baik datang dari layanan publik.",
+        "Perbaiki mata pencaharian lebih dulu: perikanan, penggembalaan, pertanian lembah surut.",
+        "Bagi air lintas batas lewat perjanjian; sengketa air lebih sering diselesaikan dengan kesepakatan.",
+        "Bangun peringatan dini bersama antarnegara di cekungan yang sama."
+      ],
+      "cta": "Chapter 12 is the most careful chapter in the book, and the one most likely to be misquoted. Read it before you clip it.",
+      "forbidden": ["mengatakan perubahan iklim menyebabkan Boko Haram", "menyederhanakan konflik menjadi satu sebab", "menyebut angka pengungsi tanpa sumber"]
+    },
+    {
+      "id": 13,
+      "title_en": "Infrastructure, Shelter and Energy Resilience",
+      "theme_id": "Infrastruktur dan energi",
+      "case_study": "The Texas Grid Failure of 2021",
+      "opening_line": "In February 2021, a polar vortex pushed Arctic air into Texas and stayed for a week.",
+      "event": {
+        "place": "Texas, Amerika Serikat",
+        "date": "2021-02-13 to 2021-02-20",
+        "summary": "Winter Storm Uri. Suhu turun ke level yang tidak dialami selama puluhan tahun; jaringan dirancang untuk beban musim panas."
+      },
+      "numbers": [
+        {"claim": "pelanggan tanpa listrik", "value": "sekitar 4 juta", "source": "PBS NewsHour, 2021-02-19", "verified": true},
+        {"claim": "terdampak krisis air", "value": "sekitar 14 juta orang", "source": "PBS NewsHour, 2021-02-19", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "PBS NewsHour",
+          "item": "Millions remain without power in frigid temperatures after major winter storm",
+          "date": "2021-02-16",
+          "url": "https://www.pbs.org/newshour/show/millions-remain-without-power-in-frigid-temperatures-after-major-winter-storm",
+          "format": "video",
+          "speaker": "Michael Wara",
+          "affiliation": "Director, Climate and Energy Policy Program, Stanford Woods Institute",
+          "quote": "So, it really is a traditional power plant problem, not a clean energy problem.",
+          "quote_status": "verbatim",
+          "use": "fair_use_short"
+        },
+        {
+          "outlet": "PBS NewsHour",
+          "item": "Texas power grid struggles with system-wide stresses caused by brutal heat wave",
+          "date": "2023-06-29",
+          "url": "https://www.pbs.org/newshour/show/texas-power-grid-struggles-with-system-wide-stresses-caused-by-brutal-heat-wave",
+          "format": "video",
+          "speaker": "Michael Webber",
+          "affiliation": "University of Texas at Austin",
+          "quote": "We basically built our grid for the weather of the past.",
+          "quote_status": "verbatim",
+          "use": "fair_use_short"
+        }
+      ],
+      "visual_public_domain": ["NOAA citra badai musim dingin", "FERC/NERC diagram (public domain)"],
+      "steps_if_repeated": [
+        "Petakan ketergantungan, bukan hanya redundansi: gas ke listrik ke air ke rumah sakit.",
+        "Isolasi dan beri pemanas pada sumur gas dan jalur pipa; ini akar kegagalan Texas.",
+        "Pasokan cadangan untuk fasilitas yang tidak boleh berhenti: klinik, dialisis, apotek; uji di bawah beban setahun sekali.",
+        "Interkoneksi dengan jaringan tetangga untuk daya darurat.",
+        "Sediakan air minum tiga hari dan uang tunai tiga hari; pembaca kartu mati saat listrik mati."
+      ],
+      "cta": "Chapter 13 is the chapter to hand to anyone who says the grid is a political problem. It is an engineering problem with a political schedule.",
+      "forbidden": ["menyalahkan energi terbarukan sebagai penyebab", "menyebut angka kematian tanpa sumber"]
+    },
+    {
+      "id": 14,
+      "title_en": "Climate Literacy and Education",
+      "theme_id": "Literasi iklim dan pendidikan",
+      "case_study": "Italy's Compulsory Climate Curriculum",
+      "opening_line": "In 2019, Italy became the first country to make climate change and sustainable development compulsory subjects in all state schools.",
+      "event": {
+        "place": "Italia",
+        "date": "2019, berlaku 2020-2021",
+        "summary": "Kurikulum wajib iklim di semua sekolah negara, disisipkan ke mata pelajaran yang sudah ada."
+      },
+      "numbers": [
+        {"claim": "jam per tahun", "value": "sekitar 33 jam di setiap jenjang", "source": "buku bab 14 (UNESCO 2020)", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "UNESCO",
+          "item": "laporan pendidikan perubahan iklim",
+          "date": "2020",
+          "url": "https://www.unesco.org/en/climate-change/education",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "UNESCO",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["UNESCO foto ruang kelas dengan atribusi", "stok CC BY untuk kelas"],
+      "steps_if_repeated": [
+        "Mandat saja tidak cukup; yang mengubah kelas adalah pelatihan guru, materi, dan asesmen.",
+        "Latih guru yang belum pernah belajar subjeknya, dengan bahan yang bisa dipakai anak dua belas tahun.",
+        "Jangan menambah mata pelajaran baru kalau jadwal penuh; sisipkan ke geografi, sains, sejarah, kewarganegaraan.",
+        "Ukur hasilnya, dan pastikan pengukuran tidak berubah menjadi indoktrinasi."
+      ],
+      "cta": "Chapter 14 asks a question most climate books avoid: what does a twelve-year-old actually need to know?",
+      "forbidden": ["menyebut kurikulum gagal total", "menyebut angka jam di luar 33"]
+    },
+    {
+      "id": 15,
+      "title_en": "Data, Statistics and Misinformation",
+      "theme_id": "Data dan misinformasi",
+      "case_study": "Hurricane Helene and the Information Emergency",
+      "opening_line": "On 26 September 2024, Hurricane Helene made landfall in Florida's Big Bend as a Category 4 storm.",
+      "event": {
+        "place": "Florida, Georgia, South Carolina, North Carolina, Tennessee",
+        "date": "2024-09-26",
+        "summary": "Badai Kategori 4 dengan medan angin luar biasa besar; hujan ekstrem di Appalachia selatan; sistem air hancur."
+      },
+      "numbers": [
+        {"claim": "kematian", "value": "setidaknya 230 di enam negara bagian", "source": "buku bab 15 (NOAA NCEI 2024)", "verified": true},
+        {"claim": "kerusakan", "value": "melebihi US$78 miliar", "source": "buku bab 15", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "NOAA NCEI",
+          "item": "laporan badai Helene",
+          "date": "2024",
+          "url": "https://www.ncei.noaa.gov",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "NOAA",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "public_domain"
+        },
+        {
+          "outlet": "FEMA",
+          "item": "halaman respons rumor Helene",
+          "date": "2024-10",
+          "url": "https://www.fema.gov",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "FEMA",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "public_domain"
+        }
+      ],
+      "visual_public_domain": ["NOAA GOES-East citra Helene", "NASA Earth Observatory"],
+      "steps_if_repeated": [
+        "Verifikasi sebelum membagikan; satu tangkapan layar tanpa sumber adalah klaim, bukan bukti.",
+        "Cek apakah lembaga yang disebut benar-benar ada dan benar-benar mengeluarkan pernyataan itu.",
+        "Kenali tiga kesalahan statistik yang berulang: rentang waktu dipilih, rata-rata dibanding titik, ketidakpastian diabaikan.",
+        "Siapkan jawaban sebelum klaim menyebar (prebunking).",
+        "Jangan menyebarkan ulang klaim palsu tanpa menyensor nama akun."
+      ],
+      "cta": "Chapter 15 is the shortest route from 'I saw a graph' to 'I know what's wrong with this graph'.",
+      "forbidden": ["menampilkan nama akun pribadi penyebar klaim", "menyebut klaim palsu tanpa menyebut koreksinya"]
+    },
+    {
+      "id": 16,
+      "title_en": "Household Preparedness: Water, Food, Shelter and Risk",
+      "theme_id": "Kesiapan rumah tangga",
+      "case_study": "Hurricane Maria and Household Survival in Puerto Rico",
+      "opening_line": "When Hurricane Maria struck Puerto Rico on 20 September 2017, it did more than damage buildings.",
+      "event": {
+        "place": "Puerto Rico",
+        "date": "2017-09-20",
+        "summary": "Bukan hanya bangunan yang rusak; listrik, air, jalan, dan komunikasi runtuh bersamaan."
+      },
+      "numbers": [
+        {"claim": "populasi terdampak", "value": "3,4 juta orang", "source": "buku bab 16", "verified": true},
+        {"claim": "kerusakan", "value": "sekitar US$90 miliar", "source": "buku bab 16", "verified": true},
+        {"claim": "kematian berlebih", "value": "2.975 (95% CI 2.658-3.290)", "source": "GWU 2018, dikutip buku bab 16", "verified": true},
+        {"claim": "durasi tanpa listrik", "value": "berbulan-bulan, sebagian hampir setahun", "source": "buku bab 16", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "NIST / NCST",
+          "item": "Technical Investigation of Hurricane Maria's Impacts on Puerto Rico",
+          "date": "2018-11",
+          "url": "https://www.nist.gov/system/files/documents/2018/11/07/proj_4_aug2018_hurricane_maria_mortality_final.pdf",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "NIST",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "public_domain"
+        },
+        {
+          "outlet": "New England Journal of Medicine",
+          "item": "Mortality in Puerto Rico after Hurricane Maria",
+          "date": "2018",
+          "url": "https://doi.org/10.1056/NEJMsa1803972",
+          "format": "text",
+          "speaker": "Nishant Kishore et al.",
+          "affiliation": "Harvard T.H. Chan School of Public Health",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["NOAA citra Maria", "FEMA foto respons (public domain)"],
+      "steps_if_repeated": [
+        "Air: 4 liter per orang per hari minimal 3 hari, plus filter atau tablet purifikasi.",
+        "Makanan: 3 hari makanan tidak mudah rusak tanpa perlu dimasak, dan pembuka kaleng manual.",
+        "Obat: persediaan 7 hari, kotak P3K, daftar dosis tertulis.",
+        "Dokumen: identitas, polis, sertifikat properti, catatan vaksin, dalam map tahan air dan salinan cloud.",
+        "Daya: power bank terisi, baterai cadangan, senter, radio baterai atau engkol.",
+        "Panas: rencana ruangan terpanas, tirai gelap, daftar tempat ber-AC dalam jarak jalan kaki.",
+        "Banjir: jalur ke tanah tinggi, titik temu, aturan tidak melewati air mengalir.",
+        "Uang tunai untuk tiga hari; pembaca kartu mati saat listrik mati.",
+        "Tanggungan: kebutuhan anak, lansia, hewan, dan siapa pun yang tidak bisa evakuasi sendiri.",
+        "Tetangga: nama dan nomor dua rumah terdekat, dan satu kontak di luar daerah."
+      ],
+      "cta": "Chapter 16 is a checklist you can actually finish before the weekend.",
+      "forbidden": ["menyebut 64 kematian resmi sebagai angka akhir", "menyebut bantuan federal datang cepat"]
+    },
+    {
+      "id": 17,
+      "title_en": "Health, Emergency Response and Special Populations",
+      "theme_id": "Layanan kesehatan dan kelompok rentan",
+      "case_study": "The 2003 European Heatwave",
+      "opening_line": "In August 2003, a high-pressure system settled over Europe and stayed for two weeks.",
+      "event": {
+        "place": "Eropa",
+        "date": "2003-08",
+        "summary": "Suhu siang melewati 40 C di sebagian Prancis; suhu malam tetap tinggi sehingga tubuh tidak sempat pulih."
+      },
+      "numbers": [
+        {"claim": "kematian berlebih", "value": "sekitar 70.000 di Eropa", "source": "buku bab 17", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "Santé publique France",
+          "item": "laporan rencana panas nasional",
+          "date": "annual",
+          "url": "https://www.santepubliquefrance.fr",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "Santé publique France",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["Copernicus peta panas 2003 (rekonstruksi)", "ESA"],
+      "steps_if_repeated": [
+        "Rencana panas empat tingkat dengan pemicu meteorologis yang jelas.",
+        "Daftar warga isolasi di tingkat kotamadya.",
+        "Kewajiban rumah sakit melaporkan kunjungan gawat darurat harian selama periode panas.",
+        "Pendingin di fasilitas kesehatan, bukan hanya di kantor.",
+        "Sadari batasnya: daftar hanya memuat orang yang sudah dikenal layanan sosial."
+      ],
+      "cta": "Chapter 17 explains why Europe's deadliest natural disaster was a weather forecast.",
+      "forbidden": ["menyebut 70.000 tanpa menyebut Eropa", "menyebut angka Prancis saja sebagai total Eropa"]
+    },
+    {
+      "id": 18,
+      "title_en": "Social Capital, Mutual Aid and Governance",
+      "theme_id": "Modal sosial dan pemerintahan",
+      "case_study": "The Ahr Valley Flood, Germany 2021",
+      "opening_line": "In the early hours of 15 July 2021, heavy rain fell on the Ahr valley in western Germany.",
+      "event": {
+        "place": "Lembah Ahr, Jerman barat",
+        "date": "2021-07-15",
+        "summary": "Hujan 100-200 mm dalam kurang dari 24 jam di tanah yang sudah basah; sungai naik dalam hitungan jam."
+      },
+      "numbers": [
+        {"claim": "curah hujan", "value": "100-200 mm dalam kurang dari 24 jam", "source": "buku bab 18", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "BBC World Service, The Climate Question",
+          "item": "Can we reduce lives lost from extreme weather?",
+          "date": "2022-06-06",
+          "url": "https://www.bbc.com/audio/play/w3ct3kk2",
+          "format": "audio",
+          "speaker": null,
+          "affiliation": "BBC",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "fair_use_short",
+          "note": "Episode tentang target PBB: semua orang terlindungi peringatan dini."
+        }
+      ],
+      "visual_public_domain": ["Copernicus Sentinel citra banjir Ahr (CC BY)", "DWD peta peringatan"],
+      "steps_if_repeated": [
+        "Perpendek rantai peringatan: dari badan yang akan mengevakuasi, bukan badan yang mengukur.",
+        "Pesan harus menyebut tempat dan tindakan, bukan hanya besaran cuaca.",
+        "Terapkan cell broadcast ke semua ponsel di area terdampak.",
+        "Latihan di musim sepi, bukan di musim hujan.",
+        "Tetapkan satu pejabat yang bertanggung jawab untuk setiap ambang peringatan."
+      ],
+      "cta": "The forecast was right. Chapter 18 explains why that wasn't enough.",
+      "forbidden": ["menyebut warga panik", "menyalahkan korban"]
+    },
+    {
+      "id": 19,
+      "title_en": "Renewable Energy and Appropriate Technologies",
+      "theme_id": "Energi terbarukan dan teknologi tepat guna",
+      "case_study": "Bangladesh's Solar Home System Programme",
+      "opening_line": "In the chars of northern Bangladesh — islands of silt that appear and disappear with the rivers — grid electricity arrived late, if at all.",
+      "event": {
+        "place": "Bangladesh",
+        "date": "1990-an-2020-an",
+        "summary": "Sistem surya rumah tangga dibiayai kredit mikro; rumah tangga membayar uang muka kecil dan mencicil."
+      },
+      "numbers": [
+        {"claim": "sistem terpasang", "value": "lebih dari 4 juta", "source": "buku bab 19 (IRENA 2023)", "verified": true},
+        {"claim": "orang terjangkau", "value": "sekitar 20 juta", "source": "buku bab 19", "verified": true},
+        {"claim": "uang muka", "value": "10-15% dari biaya sistem", "source": "buku bab 19", "verified": true},
+        {"claim": "ukuran sistem", "value": "50-100 watt", "source": "buku bab 19", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "World Bank / IDCOL",
+          "item": "dokumentasi dan evaluasi program Solar Home System",
+          "date": null,
+          "url": "https://www.worldbank.org",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "World Bank",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["World Bank foto proyek (CC BY)", "IRENA grafik"],
+      "steps_if_repeated": [
+        "Biayai lewat cicilan, bukan hibah penuh; rumah tangga yang membayar punya insentif merawat.",
+        "Latih teknisi lokal untuk pasang dan rawat.",
+        "Tegakkan standar kualitas lewat pengujian dan sertifikasi.",
+        "Rancang untuk penggunaan produktif, bukan hanya lampu: pompa, pendingin, alat usaha.",
+        "Jangan menganggap jaringan pusat akan datang cepat ke pulau silt."
+      ],
+      "cta": "Chapter 19 is about the cheapest kilowatt-hour in the book — the one you don't need.",
+      "forbidden": ["menyebut program tanpa kendala", "menyebut angka di luar 4 juta sistem"]
+    },
+    {
+      "id": 20,
+      "title_en": "Climate Psychology and Mental Health",
+      "theme_id": "Psikologi iklim",
+      "case_study": "The Camp Fire and Its Aftermath",
+      "opening_line": "On the morning of 8 November 2018, a faulty transmission line sparked a fire in the foothills of the Sierra Nevada in northern California.",
+      "event": {
+        "place": "Paradise, California",
+        "date": "2018-11-08",
+        "summary": "Api bergerak melalui kota dalam beberapa jam; jalur evakuasi terbatas; komunikasi gagal."
+      },
+      "numbers": [
+        {"claim": "kematian akibat panas BC 2021 (pembanding bab 22)", "value": "sekitar 619", "source": "BC Coroners Service 2022", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "CAL FIRE",
+          "item": "Camp Fire incident report",
+          "date": "2019",
+          "url": "https://www.fire.ca.gov",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "California Department of Forestry and Fire Protection",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "public_domain"
+        },
+        {
+          "outlet": "Epidemiologic Reviews",
+          "item": "The epidemiology of post-traumatic stress disorder after disasters",
+          "date": "2005",
+          "url": "https://doi.org/10.1093/epirev/mxi003",
+          "format": "text",
+          "speaker": "Galea, Nandi & Vlahov",
+          "affiliation": "Columbia University",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["CAL FIRE foto insiden", "NASA citra asap Camp Fire"],
+      "steps_if_repeated": [
+        "Sediakan transportasi untuk yang tidak bisa mengungsi sendiri, dan daftar yang memberi tahu petugas di mana mereka berada.",
+        "Rencanakan evakuasi berdasarkan orang, bukan kendaraan.",
+        "Dukungan mental jangka panjang, bukan hanya konseling krisis.",
+        "Beri makna dan tindakan; kecemasan turun ketika orang punya sesuatu yang bisa dikerjakan.",
+        "Komunikasikan tanpa keputusasaan: satu tindakan konkret lebih menenangkan daripada sepuluh proyeksi."
+      ],
+      "cta": "Chapter 20 is not about despair. It is about what actually helps.",
+      "forbidden": ["menampilkan korban tanpa konteks", "menggunakan istilah solastalgia tanpa menjelaskannya"]
+    },
+    {
+      "id": 21,
+      "title_en": "Governance, Justice and Civic Engagement",
+      "theme_id": "Keadilan dan tata kelola",
+      "case_study": "The Loss and Damage Fund",
+      "opening_line": "In the summer of 2022, monsoon rainfall in Pakistan reached roughly three times the national average.",
+      "event": {
+        "place": "Negosiasi iklim PBB",
+        "date": "1991, COP27 2022, COP28 2023",
+        "summary": "Vanuatu mengusulkan mekanisme asuransi pada 1991; dana disepakati di COP27 dan dioperasikan di COP28."
+      },
+      "numbers": [
+        {"claim": "janji awal", "value": "beberapa ratus juta dolar", "source": "buku bab 21 (UNEP 2023)", "verified": true},
+        {"claim": "kebutuhan diperkirakan", "value": "ratusan miliar per tahun", "source": "buku bab 21", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "UNFCCC",
+          "item": "keputusan COP27 dan COP28 tentang loss and damage",
+          "date": "2022-11 / 2023-11",
+          "url": "https://unfccc.int",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "UNFCCC",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        },
+        {
+          "outlet": "The Guardian",
+          "item": "Saleemul Huq obituary",
+          "date": "2023-12-08",
+          "url": "https://www.theguardian.com/environment/2023/dec/08/saleemul-huq-obituary",
+          "format": "text",
+          "speaker": "Saleemul Huq",
+          "affiliation": "pendiri ICCCAD, Bangladesh (1952-2023)",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["UNFCCC foto sidang (dengan atribusi)", "COP footage resmi"],
+      "steps_if_repeated": [
+        "Pisahkan bantuan kemanusiaan dari kompensasi; keduanya sah, tetapi hanya yang kedua mengakui tanggung jawab.",
+        "Tuntut skala, formula kontribusi, dan jadwal.",
+        "Litigasi iklim sebagai jalur paralel ketika negosiasi macet.",
+        "Transisi yang adil bagi pekerja di industri yang harus berubah.",
+        "Sertakan masyarakat terdampak dalam keputusan, bukan hanya sebagai penerima."
+      ],
+      "cta": "Chapter 21 is about the difference between charity and obligation.",
+      "forbidden": ["menyebut dana sudah berjalan penuh", "menyebut angka janji tanpa menyebut tahun"]
+    },
+    {
+      "id": 22,
+      "title_en": "Case Studies: Heat, Fire, Flood and Urban Extremes",
+      "theme_id": "Studi kasus panas dan kebakaran",
+      "case_study": "Lytton and the 2021 Heat Dome",
+      "opening_line": "On 29 June 2021, the village of Lytton in British Columbia recorded 49.6 C, the highest temperature ever measured in Canada.",
+      "event": {
+        "place": "Lytton, British Columbia, Kanada",
+        "date": "2021-06-29",
+        "summary": "Rekor suhu Kanada; dua hari kemudian desa terbakar; rekonstruksi menjadi sengketa perencanaan."
+      },
+      "numbers": [
+        {"claim": "suhu rekor", "value": "49,6 C", "source": "buku bab 22 (Philip et al. 2022)", "verified": true},
+        {"claim": "rekor sebelumnya", "value": "45 C pada 1937", "source": "buku bab 22", "verified": true},
+        {"claim": "kematian akibat panas BC", "value": "sekitar 619, sebagian besar di atas 70 tahun dan tinggal sendiri", "source": "buku bab 22 (BC Coroners Service 2022)", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "BC Coroners Service",
+          "item": "Extreme Heat and Human Mortality: A Review of Heat-Related Deaths in B.C. in Summer 2021",
+          "date": "2022",
+          "url": "https://www2.gov.bc.ca",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "BC Coroners Service",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        },
+        {
+          "outlet": "World Weather Attribution",
+          "item": "studi atribusi heat dome Pasifik Barat Laut 2021 (Philip et al. 2022)",
+          "date": "2022",
+          "url": "https://www.worldweatherattribution.org",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "World Weather Attribution",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["NASA citra panas Pasifik Barat Laut", "USFS foto kebakaran (public domain)"],
+      "steps_if_repeated": [
+        "Perlakukan rekor panas sebagai kegagalan desain, bukan kejadian langka.",
+        "Sediakan transportasi evakuasi untuk yang tidak punya kendaraan.",
+        "Ubah kode bangunan dan pengelolaan vegetasi sebelum musim berikutnya.",
+        "Putuskan membangun kembali: lokasi sama, lebih tinggi, atau tidak sama sekali.",
+        "Perhatikan urutannya: panas, lalu api, lalu sengketa perencanaan."
+      ],
+      "cta": "Chapter 22 compares nine disasters. The pattern is the same in all of them.",
+      "forbidden": ["menyebut korban tewas dalam kebakaran tanpa angka resmi", "menyebut Lytton dibangun ulang sepenuhnya"]
+    },
+    {
+      "id": 23,
+      "title_en": "Case Studies: Drought, Food, Water and Security",
+      "theme_id": "Bencana lambat",
+      "case_study": "The 2011 Somali Famine",
+      "opening_line": "In July 2011, the United Nations declared famine in two regions of southern Somalia.",
+      "event": {
+        "place": "Somalia selatan",
+        "date": "2011-07",
+        "summary": "Peringatan sudah ada berbulan-bulan; deklarasi datang setelah ambang terpenuhi dan setelah akses tertutup."
+      },
+      "numbers": [
+        {"claim": "waktu peringatan", "value": "FEWS NET memproyeksikan krisis berbulan-bulan sebelumnya dan menerbitkan peta wilayah berisiko", "source": "buku bab 23", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "FEWS NET",
+          "item": "peta dan proyeksi ketahanan pangan Somalia 2011",
+          "date": "2011",
+          "url": "https://fews.net",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "Famine Early Warning Systems Network",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "public_domain"
+        },
+        {
+          "outlet": "FAO / FSNAU",
+          "item": "Mortality among populations of southern and central Somalia affected by severe food insecurity and famine during 2010-2012",
+          "date": "2013",
+          "url": "https://www.fsnau.org",
+          "format": "text",
+          "speaker": "Checchi & Robinson",
+          "affiliation": "FAO/FSNAU",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["FEWS NET peta", "UNICEF/WFP foto dengan atribusi"],
+      "steps_if_repeated": [
+        "Cairkan dana antisipatif berdasarkan prakiraan, bukan berdasarkan jumlah kematian.",
+        "Negosiasikan akses sebelum darurat, bukan selama darurat.",
+        "Targetkan pada mata pencaharian: ternak, benih, akses pasar.",
+        "Perhatikan kerentanan yang dibangun: kemiskinan, harga pangan, marginalisasi politik."
+      ],
+      "cta": "The warning worked. That is the most uncomfortable sentence in the book, and it is Chapter 23.",
+      "forbidden": ["menyebut kelaparan sebagai bencana alam murni", "menyebut angka kematian tanpa sumber Checchi"]
+    },
+    {
+      "id": 24,
+      "title_en": "Action Plans and Checklists for Survival",
+      "theme_id": "Rencana aksi",
+      "case_study": "From Bhola to Amphan",
+      "opening_line": "On 12 November 1970, the Bhola cyclone struck the coast of East Pakistan, now Bangladesh.",
+      "event": {
+        "place": "Teluk Benggala, Bangladesh",
+        "date": "1970-11-12 dan 2020-05",
+        "summary": "Badai yang sama kuatnya, dua sistem yang berbeda: Bhola tanpa peringatan dan tanpa tempat berlindung; Amphan dengan relawan, shelter, dan evakuasi."
+      },
+      "numbers": [
+        {"claim": "kematian Bhola 1970", "value": "sekitar 300.000 (rentang 300.000-500.000)", "source": "buku bab 24 (CRED 2023)", "verified": true},
+        {"claim": "kematian Amphan 2020", "value": "sekitar 100", "source": "buku bab 24 (CRED 2023)", "verified": true},
+        {"claim": "orang dipindahkan sebelum Amphan", "value": "lebih dari 2,4 juta", "source": "buku bab 24", "verified": true},
+        {"claim": "efek peringatan 24 jam", "value": "mengurangi kerusakan sekitar 30%", "source": "buku bab 24", "verified": true}
+      ],
+      "clips": [
+        {
+          "outlet": "CRED / EM-DAT",
+          "item": "data siklon Bhola dan Amphan",
+          "date": "2023",
+          "url": "https://www.emdat.be",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "Centre for Research on the Epidemiology of Disasters",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        },
+        {
+          "outlet": "WMO",
+          "item": "State of the Global Climate",
+          "date": "2023",
+          "url": "https://wmo.int",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "World Meteorological Organization",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "cc_attribution"
+        },
+        {
+          "outlet": "Cyclone Preparedness Programme Bangladesh",
+          "item": "program relawan peringatan dan evakuasi",
+          "date": null,
+          "url": "https://www.cpp.gov.bd",
+          "format": "text",
+          "speaker": null,
+          "affiliation": "CPP, Bangladesh",
+          "quote": null,
+          "quote_status": "to_source",
+          "use": "attribution_required"
+        }
+      ],
+      "visual_public_domain": ["NASA citra Amphan", "NOAA citra siklon Teluk Benggala"],
+      "steps_if_repeated": [
+        "Peringatan, latihan, rencana panas, penyimpanan air, pemeliharaan drainase, dan perlindungan sosial sebelum tanggul laut dan peningkatan jaringan listrik.",
+        "Rencanakan berbasis orang, bukan aset.",
+        "Ukur kapabilitas, bukan dokumen: cakupan air dan makanan dua minggu, waktu peringatan sampai, kapasitas shelter, daya cadangan fasilitas kritis, waktu pemulihan air dan listrik.",
+        "Latih dan publikasikan hasilnya; pengukuran hanya mengubah perilaku kalau independen dan terbuka.",
+        "Ulangi siklus setiap tahun; rencana yang tidak pernah diuji bukan kesiapan."
+      ],
+      "cta": "Twenty-four chapters, one checklist. This is the video to watch before the next one happens.",
+      "forbidden": ["menyebut badai Amphan lebih lemah", "mengurangi angka Bhola menjadi satu angka tanpa rentang"]
+    }
+  ]
+}
