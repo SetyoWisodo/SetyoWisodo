@@ -2,10 +2,11 @@
 ## Klip podcast & pernyataan ahli, 24 tema buku *Surviving the Future*
 
 Dokumen ini untuk Cil, agen yang membuat klip untuk kanal YouTube. Isinya
-aturan main, 24 paket tema (satu per bab), daftar sumber klip, dan tautan
-pembelian.
+aturan main, struktur video, dan tautan pembelian. Daftar per bab — peristiwa,
+angka, sumber klip terakreditasi, dan langkah "bila terulang" — ada di
+`02_SUMBER_KLIP_24_BAB.md`.
 
-**Dibaca dari atas. Jangan lompat ke bagian 4 tanpa bagian 1.**
+**Dibaca dari atas. Jangan lompat ke bagian 3 tanpa bagian 1.**
 
 ---
 
@@ -70,24 +71,22 @@ potong-tempel.** Anda mewarisi risiko mereka, dan kualitasnya buruk.
 
 # 2. Bentuk video yang saya rekomendasikan
 
-Tiga format, dipakai bergilir supaya kanal tidak terlihat seperti pabrik.
+Tiga format. Semuanya memakai lima bagian di bagian 3; yang berbeda hanya
+penekanannya. Bergilir, supaya kanal tidak terlihat seperti pabrik.
 
-## Format A — "Klaim + bukti" (8–12 menit, format utama)
+## Format A — "Peristiwa + langkah" (utama, 5–7 menit)
 
-1. **0:00–0:15** — satu angka yang mengejutkan, diucapkan sendiri. Tanpa klip.
-2. **0:15–0:45** — mengapa angka itu penting, satu kalimat tesis.
-3. **0:45–3:00** — klip 1 (≤12 detik) → jeda → analisis Anda 40–60 detik.
-4. **3:00–6:00** — klip 2 (≤12 detik dari sumber lain, sudut berbeda) → analisis.
-5. **6:00–8:30** — apa yang biasanya salah dipahami; satu koreksi.
-6. **8:30–10:00** — apa yang bisa dilakukan pembaca minggu ini.
-7. **Penutup** — satu kalimat buku, lalu tautan.
+1. **0:00–0:40** — peristiwa: tempat, tanggal, satu kalimat pembuka buku.
+2. **0:40–1:00** — klip ahli (7–12 detik).
+3. **1:00–1:45** — angka, dan apa yang tidak diukur angka itu.
+4. **1:45–3:00** — analisis Anda: mengapa hasilnya begitu.
+5. **3:00–4:45** — "bila terulang": 4–6 langkah bernomor dari berkas sumber.
+6. **4:45–5:00** — CTA ke buku.
 
-Rasio yang harus dijaga: **klip ≤ 20% durasi video.** Sisanya suara Anda.
+## Format B — "Satu langkah" (3–4 menit)
 
-## Format B — "Satu bab, satu pelajaran" (5–7 menit)
-
-Satu tema dari bagian 3, satu klip, satu angka, satu tindakan. Untuk upload
-selingan di antara Format A.
+Satu klip, satu langkah, satu alasan. Cocok untuk seri pendek di Shorts, tetapi
+**bukan** untuk 24 tema sekaligus — itu akan jadi templat massal.
 
 ## Format C — "Koreksi" (4–6 menit)
 
@@ -95,196 +94,73 @@ Ambil satu klaim iklim yang beredar, tunjukkan bukti yang membantahnya, lalu
 sebutkan bab mana yang membahasnya. Format ini paling kuat untuk kanal baru,
 karena tidak bergantung pada footage orang lain sama sekali.
 
----
-
-# 3. 24 paket tema
-
-Setiap paket: tema (dari buku), kalimat pembuka bab yang bisa dikutip, studi
-kasus, dan angka yang boleh disebut. Kalimat pembuka di bawah ini **dikutip
-dari buku** — boleh dibacakan, dengan sebutan "dari buku saya".
-
-## Bab 1 — Krisis pemanasan global
-- **Kalimat pembuka:** "In the summer of 2022, a monsoon system carried moisture
-  from the Arabian Sea across Pakistan for eight consecutive weeks."
-- **Studi kasus:** banjir Pakistan 2022 — sepertiga negara terendam, 33 juta
-  orang terdampak.
-- **Angka:** 2020–2024 lima tahun terpanas yang pernah tercatat; 2024 tahun
-  terpanas.
-- **Sudut klip:** wawancara meteorologi tentang monsun; footage satelit NOAA.
-
-## Bab 2 — Sains fisik pemanasan
-- **Kalimat pembuka:** "In March 1958, a thirty-year-old geochemist named Charles
-  David Keeling hauled a gas analyser up the northern slope of Mauna Loa."
-- **Studi kasus:** Kurva Keeling — 315 ppm saat pertama diukur.
-- **Sudut klip:** sejarah sains; Arrhenius 1896; Tyndall 1850-an.
-- **Catatan:** ini paket paling aman untuk kanal baru — semua visual bisa dari
-  NOAA/NASA domain publik.
-
-## Bab 3 — Sistem iklim dan umpan balik
-- **Kalimat pembuka:** "A climate is not a temperature. It is a machine with
-  several moving parts."
-- **Studi kasus:** Argo — armada pelampung yang mengubah samudra dari peta
-  jarang menjadi sensus rutin.
-- **Sudut klip:** animasi arus laut; penjelasan tipping point.
-
-## Bab 4 — Panas ekstrem dan kesehatan kota
-- **Kalimat pembuka:** "Heat is the deadliest climate hazard in most years, and
-  the least visible."
-- **Studi kasus:** musim panas Eropa 2022.
-- **Angka:** suhu harian di sebagian Prancis melewati 40 °C pada 2003; malam
-  yang tetap panas mencegah tubuh pulih.
-- **Sudut klip:** wawancara dokter ruang gawat darurat; heat island.
-
-## Bab 5 — Air dan kekeringan
-- **Kalimat pembuka:** "In June 2019, the reservoirs that supply Chennai, a city
-  of about nine million people, fell to one per cent of their capacity."
-- **Studi kasus:** Chennai, Day Zero.
-- **Sudut klip:** wawancara utilitas air; footage waduk kering.
-
-## Bab 6 — Banjir dan kenaikan muka laut
-- **Kalimat pembuka:** "On 29 October 2024, a line of thunderstorms stalled over
-  the province of Valencia in eastern Spain and released more rain in eight hours
-  than the region normally receives in a year."
-- **Studi kasus:** Jakarta dan laut; Valencia 2024.
-- **Sudut klip:** footage banjir (fair use, ≤12 detik) atau domain publik NOAA.
-
-## Bab 7 — Ketahanan pangan
-- **Kalimat pembuka:** "In May 2022, the government of India banned wheat exports
-  with a single notification."
-- **Angka:** panen gandum terpotong sekitar 5% akibat gelombang panas Maret.
-- **Sudut klip:** wawancara agronom; pasar gandum.
-
-## Bab 8 — Ekosistem dan keanekaragaman hayati
-- **Kalimat pembuka:** "In the first half of 2024, the Great Barrier Reef
-  experienced its fifth mass bleaching event in eight years."
-- **Angka:** sekitar 73% terumbu yang disurvei memutih.
-- **Sudut klip:** footage bawah laut CC BY; wawancara ilmuwan karang.
-
-## Bab 9 — Kesehatan
-- **Kalimat pembuka:** "In 2024, the Pan American Health Organization recorded
-  more than 12 million cases of dengue in the Americas."
-- **Angka:** Brasil sendiri melaporkan lebih dari enam juta kasus suspek.
-- **Sudut klip:** wawancara epidemiolog; peta penyebaran vektor.
-
-## Bab 10 — Ekonomi dan asuransi
-- **Kalimat pembuka:** "In August 2017, Hurricane Harvey stalled over Houston and
-  dropped more than 1,500 millimetres of rain in five days."
-- **Angka:** kerugian sekitar US$125 miliar, sebagian besar dari banjir.
-- **Sudut klip:** wawancara aktuaris; grafik premi asuransi.
-
-## Bab 11 — Migrasi dan pengungsian
-- **Kalimat pembuka:** "Tuvalu is a country of nine coral atolls with a population
-  of about eleven thousand people and a highest point of less than five metres."
-- **Studi kasus:** Tuvalu dan Falepili Union.
-- **Sudut klip:** wawancara diplomatik; footage atol (domain publik/CC).
-
-## Bab 12 — Konflik dan keamanan
-- **Kalimat pembuka:** "The Lake Chad basin was once one of the largest inland
-  water bodies in Africa."
-- **Angka:** dari sekitar 25.000 km² pada 1960-an menjadi kira-kira sepersepuluhnya.
-- **Sudut klip:** wawancara analis keamanan; **hati-hati**: jangan menyederhanakan
-  konflik menjadi "disebabkan iklim" — buku ini justru menolak itu.
-
-## Bab 13 — Infrastruktur dan energi
-- **Kalimat pembuka:** "In February 2021, a polar vortex pushed Arctic air into
-  Texas and stayed for a week."
-- **Studi kasus:** kegagalan jaringan listrik Texas 2021.
-- **Sudut klip:** wawancara operator jaringan; diagram beban musim dingin.
-
-## Bab 14 — Literasi iklim dan pendidikan
-- **Kalimat pembuka:** "In 2019, Italy became the first country to make climate
-  change and sustainable development compulsory subjects in all state schools."
-- **Angka:** sekitar 33 jam setahun di setiap jenjang.
-- **Sudut klip:** wawancara guru; ruang kelas (CC).
-
-## Bab 15 — Data dan misinformasi
-- **Kalimat pembuka:** "On 26 September 2024, Hurricane Helene made landfall in
-  Florida's Big Bend as a Category 4 storm."
-- **Studi kasus:** Helene dan keadaan darurat informasi.
-- **Sudut klip:** wawancara jurnalis data; tangkapan layar klaim palsu
-  (**jangan** menampilkan akun pribadi; sensor namanya).
-
-## Bab 16 — Kesiapan rumah tangga
-- **Kalimat pembuka:** "When Hurricane Maria struck Puerto Rico on 20 September
-  2017, it did more than damage buildings."
-- **Studi kasus:** Maria — 3,4 juta orang kehilangan sistem yang mereka andalkan.
-- **Sudut klip:** wawancara ahli kesiapsiagaan; daftar 72 jam pertama.
-
-## Bab 17 — Layanan kesehatan dan kelompok rentan
-- **Kalimat pembuka:** "In August 2003, a high-pressure system settled over
-  Europe and stayed for two weeks."
-- **Studi kasus:** gelombang panas Eropa 2003.
-- **Sudut klip:** wawancara geriatri; rencana aksi panas.
-
-## Bab 18 — Modal sosial dan pemerintahan
-- **Kalimat pembuka:** "In the early hours of 15 July 2021, heavy rain fell on the
-  Ahr valley in western Germany."
-- **Angka:** 100–200 mm dalam kurang dari 24 jam di tanah yang sudah basah.
-- **Studi kasus:** banjir lembah Ahr 2021.
-- **Sudut klip:** wawancara sistem peringatan dini; footage (fair use, singkat).
-
-## Bab 19 — Energi terbarukan dan teknologi tepat guna
-- **Kalimat pembuka:** "In the chars of northern Bangladesh — islands of silt that
-  appear and disappear with the rivers — grid electricity arrived late, if at all."
-- **Studi kasus:** program Solar Home System Bangladesh.
-- **Sudut klip:** wawancara insinyur energi; panel surya di atap.
-
-## Bab 20 — Psikologi iklim
-- **Kalimat pembuka:** "On the morning of 8 November 2018, a faulty transmission
-  line sparked a fire in the foothills of the Sierra Nevada in northern California."
-- **Studi kasus:** Camp Fire dan akibat jangka panjangnya.
-- **Sudut klip:** wawancara psikolog trauma; **jangan** memakai footage korban
-  tanpa izin dan tanpa konteks.
-
-## Bab 21 — Keadilan dan tata kelola
-- **Kalimat pembuka:** "In the summer of 2022, monsoon rainfall in Pakistan reached
-  roughly three times the national average."
-- **Studi kasus:** Loss and Damage Fund.
-- **Sudut klip:** wawancara negosiator; sidang COP (fair use, singkat).
-
-## Bab 22 — Studi kasus panas dan kebakaran
-- **Kalimat pembuka:** "On 29 June 2021, the village of Lytton in British Columbia
-  recorded 49.6 °C, the highest temperature ever measured in Canada."
-- **Angka:** rekor sebelumnya 45 °C pada 1937.
-- **Sudut klip:** wawancara klimatolog; footage kebakaran domain publik (USFS).
-
-## Bab 23 — Bencana lambat
-- **Kalimat pembuka:** "In July 2011, the United Nations declared famine in two
-  regions of southern Somalia."
-- **Studi kasus:** kelaparan Somalia 2011 — peringatan sudah ada berbulan-bulan
-  sebelumnya.
-- **Sudut klip:** wawancara FEWS NET; peta risiko pangan.
-
-## Bab 24 — Rencana aksi
-- **Kalimat pembuka:** "On 12 November 1970, the Bhola cyclone struck the coast of
-  East Pakistan, now Bangladesh."
-- **Angka:** Bhola 1970 menewaskan sekitar 300.000 orang (rentang 300.000–500.000);
-  Amphan 2020, badai sekuat itu, menewaskan sekitar seratus orang setelah lebih
-  dari 2,4 juta orang dipindahkan sebelum badai tiba.
-- **Sudut klip:** wawancara lembaga peringatan dini; **ini video penutup seri**.
+Rasio yang harus dijaga di ketiganya: **klip ≤ 20% durasi video.**
 
 ---
 
-# 4. Sumber klip
+# 3. Struktur video — wajib, satu pola untuk 24 bab
 
-## 4.1 Yang aman tanpa izin (domain publik AS / CC BY)
+Setiap video punya enam bagian, berurutan. Ini yang membuat klipnya punya
+fungsi, bukan jadi hiasan.
+
+1. **Peristiwa** (30–60 detik, suara Anda). Sebut tempat, tanggal, dan apa yang
+   terjadi. Satu kalimat pembuka buku boleh dibacakan di sini.
+2. **Klip** (7–12 detik). Satu pernyataan ahli dari sumber terdaftar di
+   `02_SUMBER_KLIP_24_BAB.md`. Bukan dua, bukan montase.
+3. **Angka** (30–45 detik). Apa yang diukur, oleh siapa, dan apa yang **tidak**
+   diukur oleh angka itu.
+4. **Analisis** (60–90 detik). Bagian Anda. Ini yang membedakan kanal ini dari
+   repost.
+5. **"Bila terulang"** (60–90 detik). Langkah-langkah dari berkas sumber.
+   Diurutkan, bukan daftar keinginan.
+6. **CTA** (10–15 detik). Satu kalimat buku, lalu tautan.
+
+Total: 4–7 menit. Klip tetap di bawah 20% durasi.
+
+**Kenapa bagian 5 tidak boleh dilewatkan:** itulah nilai yang dijual buku ini.
+Bukan prediksi, tapi urutan tindakan. Kalau Cil memangkas bagian ini, video
+berubah menjadi berita iklim biasa, dan tidak ada alasan orang membeli bukunya.
+
+---
+
+# 4. Cara memakai berkas sumber
+
+`02_SUMBER_KLIP_24_BAB.md` berisi, untuk setiap bab: peristiwa, angka yang
+sudah dicek, sumber audio/video yang bisa dipakai, dan langkah "bila terulang".
+
+Mulai dari sana. Jangan mencari klip dulu lalu mencari tema; mulai dari tema,
+lalu ambil klip yang paling pas untuk tema itu.
+
+---
+
+# 5. Sumber klip
+
+## 5.1 Yang aman tanpa izin (domain publik AS / CC BY)
 
 | Sumber | Isi | Catatan |
 |---|---|---|
-| NASA Image and Video Library | luar angkasa, Bumi, ISS | karya pemerintah AS, domain publik |
-| NOAA | badai, satelit, laut, visualisasi data | domain publik, wajib atribusi |
+| NASA Image and Video Library | luar angkasa, Bumi, ISS | karya pemerintah AS, domain publik. **Logo NASA tidak boleh dipakai** — bukan bagian domain publik. |
+| NOAA | badai, satelit, laut, visualisasi data | domain publik; kredit adalah sopan santun, bukan syarat lisensi |
 | USGS | gempa, peta, hidrologi | domain publik |
 | USFS / NIFC | kebakaran hutan | domain publik |
-| WMO | video iklim | boleh, wajib atribusi, lisensi CC standar |
-| YouTube berfilter Creative Commons | ribuan video | wajib cek lisensi per video |
+| WMO | video iklim | **boleh, gratis, tanpa izin tertulis** — wajib atribusi; videonya tunduk pada lisensi Creative Commons standar |
+| YouTube berfilter Creative Commons | jutaan video | **cari dengan filter "Creative Commons"**; lisensi hanya CC BY, jadi boleh komersial dengan atribusi. Cek lisensi per video — tidak semua kanal memakai filter itu dengan benar. |
+| Our World in Data | grafik iklim, CO₂, energi | **CC BY 4.0**, boleh dipakai komersial dengan sitasi |
+| Copernicus / ESA | citra satelit, data iklim | gratis dan terbuka; cek lisensi per produk (ERA5 = CC BY 4.0) |
 
-Format atribusi yang dipakai di deskripsi:
+Format atribusi yang dipakai di deskripsi — **tiga baris, selalu lengkap**:
 
 ```
-Footage: NOAA / NASA (public domain). Video: [judul], [URL], [tanggal].
+Footage: NOAA (public domain) — "GOES-East captures Hurricane Helene", 26 Sep 2024.
+Chart: Our World in Data (CC BY 4.0) — "Annual CO2 emissions", accessed 2026-10-18.
+Interview clip: BBC World Service, The Climate Question, "How do we stay cool in a
+warming world?", 15 Jan 2023 — used for commentary, 9 seconds.
 ```
 
-## 4.2 Yang butuh kehati-hatian (fair use)
+Untuk CC BY, kredit harus menyebut **lisensi dan apakah ada perubahan**. Contoh:
+`Adapted from Our World in Data (CC BY 4.0); cropped and re-coloured.`
+
+## 5.2 Yang butuh kehati-hatian (fair use)
 
 Podcast, wawancara TV, footage berita, klip konferensi. Aturannya di bagian 1.2.
 Tambahan yang jarang disebut orang:
@@ -296,7 +172,7 @@ Tambahan yang jarang disebut orang:
   jawabannya bisa dijadikan screenshot di deskripsi.
 - Jangan pakai klip dari kanal yang jelas-jelas hasil reupload.
 
-## 4.3 Yang jangan dipakai
+## 5.3 Yang jangan dipakai
 
 - Rekaman musik (Content ID memblokir berdasarkan audio).
 - Footage drone berlisensi stok tanpa tanda terima lisensi.
@@ -305,9 +181,9 @@ Tambahan yang jarang disebut orang:
 
 ---
 
-# 5. Tautan dan ajakan bertindak
+# 6. Tautan dan ajakan bertindak
 
-## 5.1 Yang dipakai di setiap video
+## 6.1 Yang dipakai di setiap video
 
 Buku: **https://setyowisodo.gumroad.com/l/surviving-the-future** ($45)
 
@@ -316,13 +192,13 @@ Sampel gratis 36 halaman:
 
 Kode: `LAUNCH20` (20%), `KAMPUS25` (25%). Tidak ada kode lain.
 
-## 5.2 Tiga ajakan yang boleh dipakai, bergilir
+## 6.2 Tiga ajakan yang boleh dipakai, bergilir
 
 1. "The book is 457 pages, 24 chapters, 152 cited sources. Link below."
 2. "Read the first chapter free before you buy anything."
 3. "If you teach or plan for a living, the figure pack alone is worth the price."
 
-## 5.3 Pasar AS dan Eropa — yang perlu diketahui Cil
+## 6.3 Pasar AS dan Eropa — yang perlu diketahui Cil
 
 - **Harga satu, dalam dolar.** Pembeli di Uni Eropa dan Inggris akan melihat VAT
   ditambahkan di checkout; Gumroad yang memungut dan menyetorkannya sebagai
@@ -335,23 +211,25 @@ Kode: `LAUNCH20` (20%), `KAMPUS25` (25%). Tidak ada kode lain.
 
 ---
 
-# 6. Checklist sebelum menekan Publish
+# 7. Checklist sebelum menekan Publish
 
 - [ ] Ada komentar asli saya sendiri di video ini, bukan hanya klip
 - [ ] Total durasi klip ≤ 20% durasi video
 - [ ] Tidak ada klip tunggal lebih dari 15 detik
 - [ ] Tidak ada musik berhak cipta di bawah klip
 - [ ] Semua sumber footage ditulis di deskripsi, dengan URL
-- [ ] Tidak ada angka yang tidak ada di buku atau di bagian 3 dokumen ini
+- [ ] Tidak ada angka yang tidak ada di buku atau di `02_SUMBER_KLIP_24_BAB.md`
 - [ ] Tidak ada klaim bahwa buku dibuat dengan AI
 - [ ] Tidak ada janji diskon selain `LAUNCH20` dan `KAMPUS25`
 - [ ] Tautan Gumroad ada di deskripsi dan di pinned comment
+- [ ] Ada bagian "bila terulang" dengan langkah bernomor, bukan daftar keinginan
+- [ ] Kutipan ahli benar-benar diucapkan di klip, bukan parafrase yang ditampilkan sebagai kutipan
 - [ ] Templat video berbeda dari video sebelumnya (pembuka, urutan, grafik)
 - [ ] Kalau ada suara/visual sintetis: label "altered or synthetic content" menyala
 
 ---
 
-# 7. Satu hal yang paling menentukan
+# 8. Satu hal yang paling menentukan
 
 Kanal semacam ini gagal bukan karena melanggar hak cipta, tapi karena
 menganggap klipnya sebagai isi dan komentarnya sebagai tempelan. Terbalik.

@@ -24,3 +24,30 @@
 22. Case Studies: Heat, Fire, Flood and Urban Extremes
 23. Case Studies: Drought, Food, Water and Security
 24. Action Plans and Checklists for Survival
+
+## Studi kasus tiap bab
+
+1. Banjir Pakistan 2022
+2. Kurva Keeling
+3. Argo — armada pelampung
+4. Musim panas Eropa 2022
+5. Chennai, Day Zero
+6. Jakarta dan laut
+7. Rice shock 2023
+8. Great Barrier Reef
+9. Epidemi dengue 2024
+10. Musim badai Atlantik 2017
+11. Tuvalu dan Falepili Union
+12. Cekungan Danau Chad
+13. Kegagalan jaringan listrik Texas 2021
+14. Kurikulum iklim wajib Italia
+15. Hurricane Helene dan darurat informasi
+16. Hurricane Maria dan daya tahan rumah tangga
+17. Gelombang panas Eropa 2003
+18. Banjir lembah Ahr 2021
+19. Program Solar Home System Bangladesh
+20. Camp Fire dan akibatnya
+21. Dana Loss and Damage
+22. Lytton dan heat dome 2021
+23. Kelaparan Somalia 2011
+24. Dari Bhola ke Amphan
