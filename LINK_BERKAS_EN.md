@@ -1,28 +1,27 @@
 # Berkas tab Content — produk EN
 
-## Paling cepat: satu berkas zip (8,41 MB)
+> **Berkas final tidak lagi ada di repo.** Repo ini publik, jadi PDF/EPUB/DOCX
+> sudah dikeluarkan (commit `c7ad085`). Salinannya ada di Google Drive; lihat
+> `TAUTAN_BERKAS.md`.
 
-https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/GUMROAD_EN_berkas.zip
+Berkas yang perlu diunggah ke tab **Content** Gumroad, empat biji:
 
-Isinya empat berkas, **sudah dinamai sesuai urutan unggah**, jadi setelah diekstrak Anda tinggal memilih keempatnya sekaligus:
-
-| Berkas di dalam zip | Ukuran | Nama bagian di Gumroad |
+| Nama bagian di Gumroad | Jenis | Ukuran |
 |---|---|---|
-| `01 - The book (PDF, 457 pages).pdf` | 4,17 MB | biarkan apa adanya |
-| `02 - The book (EPUB).epub` | 1,78 MB | biarkan apa adanya |
-| `03 - The book (DOCX).docx` | 2,25 MB | biarkan apa adanya |
-| `04 - Figure pack (11 figures, 300 dpi).zip` | 0,65 MB | biarkan apa adanya |
+| `01 - The book (PDF, 457 pages).pdf` | PDF bersampul, 458 hlm | 4,17 MB |
+| `02 - The book (EPUB).epub` | EPUB | 1,78 MB |
+| `03 - The book (DOCX).docx` | DOCX | 2,25 MB |
+| `04 - Figure pack (11 figures, 300 dpi).zip` | 11 gambar | 0,65 MB |
 
-## Kalau ingin mengunduh satu per satu
+Nama bagian itu sengaja berangka di depan supaya urutannya benar di halaman
+produk. Nama berkas aslinya:
 
-| # | Berkas | Ukuran | Tautan |
-|---|---|---|---|
-| 1 | `Surviving_the_Future_EN_ebook.pdf` — sampul + 457 halaman | 4,17 MB | https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN_ebook.pdf |
-| 2 | `Surviving_the_Future_EN.epub` | 1,78 MB | https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN.epub |
-| 3 | `Surviving_the_Future_EN.docx` | 2,25 MB | https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN.docx |
-| 4 | `Surviving_the_Future_EN_figures.zip` — 11 gambar 300 dpi | 0,65 MB | https://github.com/SetyoWisodo/SetyoWisodo/blob/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN_figures.zip |
+- `Surviving_the_Future_EN_ebook.pdf`
+- `Surviving_the_Future_EN.epub`
+- `Surviving_the_Future_EN.docx`
+- `Surviving_the_Future_EN_figures.zip`
 
-Klik tautan → **Download raw file** (kanan atas).
+Keempatnya juga tersedia sebagai satu zip: `GUMROAD_EN_berkas.zip` (8,82 MB).
 
 ## Urutan kerja di tab Content
 

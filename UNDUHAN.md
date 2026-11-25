@@ -2,42 +2,32 @@
 
 **Hanya edisi Inggris yang dijual.** Edisi Indonesia tetap disimpan sebagai pembanding saat menyunting; berkasnya tidak ditautkan di sini.
 
-## Berkas final lengkap — Google Drive (paling cepat)
+## BERKAS INI TIDAK LAGI DI REPO
 
-Satu folder, terbuka untuk siapa pun yang punya tautan:
+Repo GitHub ini publik, jadi berkas jualan tidak boleh tinggal di sini. Semua
+PDF, EPUB, DOCX, gambar 3D, dan foto marketplace sudah dikeluarkan dari
+repository (commit `c7ad085`) dan `book/publish/` sekarang masuk `.gitignore`.
 
-**https://drive.google.com/drive/folders/1AJ2CS0H1_Iq6zOrPKjXtsNZSCLCo4AHl**
+**Salinan hidupnya ada di Google Drive** — buka dari tautan di `TAUTAN_BERKAS.md`
+(berkas itu sengaja tidak memuat tautan, hanya cara mendapatkannya).
 
-| Berkas | Tautan langsung | Ukuran |
+**Berkasnya bisa dibuat ulang** dari naskah di `book/src/` dengan `python book/build.py`.
+
+## Berkas jualan (yang ada di Drive, bukan di repo)
+
+| Berkas | Isi | Ukuran |
 |---|---|---|
-| PDF lengkap 458 hlm (bersampul) | https://drive.google.com/file/d/1Slp6Yp6YEB4T6lW6ylL-wOEZLWdOx7AZ/view | 4,37 MB |
-| EPUB | https://drive.google.com/file/d/1gKU1KioI6DEGWfwv9gbJFhlom7jBSMR5/view | 1,86 MB |
-| DOCX | https://drive.google.com/file/d/1FM14R17hBEsSaQ4voEksqiz-HVK0utEP/view | 2,36 MB |
-| Keempat berkas dalam satu zip | https://drive.google.com/file/d/1XlShiCbSxG2PZLt-pXBYA1N32FzR2ZJZ/view | 8,82 MB |
-
-## Berkas jualan
-
-| Berkas | Tautan | Ukuran | SHA-256 |
-|---|---|---|---|
-| PDF lengkap — sampul + 457 halaman (458 hlm) | [Unduh](https://github.com/SetyoWisodo/SetyoWisodo/raw/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN_ebook.pdf) | 4.17 MB | `9cceacc16748cffe` |
-| EPUB | [Unduh](https://github.com/SetyoWisodo/SetyoWisodo/raw/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN.epub) | 1.78 MB | `6d51fe17fc3bd899` |
-| DOCX | [Unduh](https://github.com/SetyoWisodo/SetyoWisodo/raw/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN.docx) | 2.25 MB | `20a26edefa557b6a` |
-| Sampel gratis — 36 hlm, bersampul | [Unduh](https://github.com/SetyoWisodo/SetyoWisodo/raw/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN_sample.pdf) | 2.85 MB | `d274988e162fb0f6` |
-| Paket gambar — 11 gambar 300 dpi | [Unduh](https://github.com/SetyoWisodo/SetyoWisodo/raw/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN_figures.zip) | 0.65 MB | `7f113762407ef971` |
-| PDF interior untuk percetakan — tanpa sampul, 457 hlm | [Unduh](https://github.com/SetyoWisodo/SetyoWisodo/raw/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN_interior.pdf) | 2.95 MB | `712b6c04ebc8ddb5` |
-
-## Sampel gratis — tautan publik
-
-| Apa | Tautan | Catatan |
-|---|---|---|
-| Baca di peramban (Google Drive) | https://drive.google.com/file/d/1xMv4FV13smEonk-GcEbAXuhSkoXPoMjP/view | 36 hlm, terbuka untuk siapa pun yang punya tautan |
-| Unduh langsung | https://drive.google.com/uc?export=download&id=1xMv4FV13smEonk-GcEbAXuhSkoXPoMjP | untuk tombol "download sample" |
-
-Tautan ini yang dipakai di deskripsi produk berbayar ($45) dan di surel penawaran. Gratis dibagikan; lisensi sampel memang mengizinkan.
+| `Surviving_the_Future_EN_ebook.pdf` | sampul + halaman judul + isi, 458 hlm | 4,17 MB |
+| `Surviving_the_Future_EN.epub` | untuk ponsel, tablet, e-reader | 1,78 MB |
+| `Surviving_the_Future_EN.docx` | untuk dikutip, dikutip ulang, diterjemahkan | 2,25 MB |
+| `Surviving_the_Future_EN_sample.pdf` | sampel gratis 36 hlm | 2,85 MB |
+| `Surviving_the_Future_EN_figures.zip` | 11 gambar 300 dpi | 0,65 MB |
+| `Surviving_the_Future_EN_interior.pdf` | untuk percetakan, tanpa sampul | 2,95 MB |
+| `Surviving_the_Future_EN_cover_print.pdf` | bungkus penuh 17,93 × 11,94 inci | 1,07 MB |
 
 ## Sampul cetak
 
-- [Surviving_the_Future_EN_cover_print.pdf](https://github.com/SetyoWisodo/SetyoWisodo/raw/arena/3b1aa1ad-setyowisodo/book/publish/Surviving_the_Future_EN_cover_print.pdf) — bungkus penuh 17,93 × 11,94 inci, spine 1,143 inci
+- [Surviving_the_Future_EN_cover_print.pdf]([lihat TAUTAN_BERKAS.md]) — bungkus penuh 17,93 × 11,94 inci, spine 1,143 inci
 
 ## Gambar untuk Gumroad
 
