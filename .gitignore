@@ -17,3 +17,8 @@ book/publish/
 # Salinan hidupnya ada di Google Drive; lihat TAUTAN_BERKAS.md.
 book.md
 book_id.md
+
+# Dua PDF lama di akar repo: hasil render 457 halaman dari book.md.
+# Naskah penuh + hasil render = aset komersial. Tidak disimpan di repo publik.
+Surviving_the_Future.pdf
+Surviving_the_Future_ID.pdf
