@@ -63,9 +63,45 @@ potong-tempel.** Anda mewarisi risiko mereka, dan kualitasnya buruk.
   Library, atau tidak sama sekali.
 - **Jangan ucapkan hal yang tidak ada di buku.** Kalau Cil menambah angka, angka
   itu harus dari sumber primer di bagian 3, bukan dari ingatan.
-- **Jangan menyebut buku ini dibuat dengan AI.** Nol penyebutan, di video mana pun.
+- **Jangan menyebut buku ini dibuat dengan AI.** Nol penyebutan soal **buku**,
+  di video mana pun. Ini larangan tentang asal-usul buku, bukan larangan
+  menyebut AI sama sekali: kalau video memakai suara sintetis atau visual
+  sintetis realistis, disclosure YouTube **wajib** dan harus dinyalakan. Dua hal
+  berbeda; jangan tertukar.
 - **Jangan janjikan diskon.** Harga $45. Kode yang ada hanya `LAUNCH20` (20%)
   dan `KAMPUS25` (25%). `BUNDLEUP40` sudah dibatalkan.
+  **Status verifikasi: kode belum dicek ke Gumroad pada 25 Nov 2026.** Cek
+  sebelum video pertama terbit, lalu catat tanggalnya di sini. Kalau
+  `LAUNCH20` sudah mati, jangan sebut di video.
+
+---
+
+## 1.4 Host, suara, dan disclosure — keputusan yang harus dikunci
+
+Dokumen ini tidak menentukan siapa yang bicara; itu keputusan pemilik. Tapi
+mesin butuh jawabannya, jadi tulis di sini sebelum render pertama. Tiga pilihan,
+sama seperti `04_HANDOFF_STUDIO.md` §8d:
+
+| | Suara | Label "AI use" | Beban jadwal |
+|---|---|---|---|
+| **A** | host manusia (Anda) | tidak perlu | +60–90 mnt rekaman per bab |
+| **B** | TTS untuk semua | **nyalakan** (tidak wajib, tapi disarankan) | 0 |
+| **C** | TTS untuk Shorts, manusia untuk long-form | nyalakan untuk Shorts saja | +60 mnt per bab |
+
+**Aturan teknis untuk semua pilihan:**
+
+- Teks yang dibacakan adalah `line` (Inggris) di `shorts_beats` — **bukan**
+  `hook`, yang berbahasa Indonesia dan hanya catatan produksi.
+- Kalau memakai TTS: jangan meniru suara orang nyata. Narasi naskah sendiri
+  dengan suara generik tidak wajib dilabeli, tapi labelnya gratis.
+- Kalau memakai klip audio ahli: suara ahli **tidak boleh** diganti TTS.
+  Kutipan teks dirender sebagai quote card, bukan dibacakan seolah ahli bicara.
+- Kalau memilih A atau C, rekam satu kalimat pembuka yang sama untuk semua
+  video ("I'm … and this is what actually happened."). Itu bukan template; itu
+  identitas, dan justru mencegah kanal terbaca sebagai pabrik.
+
+**Yang dipilih:** ____________________ (A / B / C), dicatat tanggal
+____________________.
 
 ---
 

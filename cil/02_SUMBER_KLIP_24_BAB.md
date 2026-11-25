@@ -31,6 +31,24 @@ Tiga aturan yang tidak boleh dilanggar:
 3. **Kalau ragu, jangan pakai.** Satu klip yang tidak jelas lisensinya bisa
    menenggelamkan seluruh kanal. Ada cukup banyak sumber resmi di bawah.
 
+## Status verifikasi — 25 November 2026
+
+Angka di berkas ini diambil dari dalam buku, dan sebagian besar berasal dari
+riset yang sudah dicek saat penulisan. Tapi **statusnya tidak seragam**, dan
+review 25 November 2026 menemukan tiga hal yang harus Anda tahu sebelum
+memakai berkas ini sebagai sumber:
+
+1. **`verified` di `03_kartu_klip.json` berarti "ada di dalam buku", bukan
+   "dicek ulang ke sumber primer hari ini".** 61 dari 72 angka masih bersumber
+   pada "buku bab N" tanpa nama lembaga.
+2. **Sebagian sumber belum difetch ulang**, jadi tautan dan tanggalnya belum
+   dipastikan hidup. Yang sudah dipastikan pada 25 November 2026: BBC Future
+   (Bangladesh/Amphan, 20 Jul 2022), BBC The Climate Question "How do we stay
+   cool" (20 Jul 2022), PBS NewsHour Texas (16 Feb 2021 dan 29 Jun 2023), dan
+   BBC The Food Chain "Should we eat less rice?" (16 Jan 2025).
+3. **Klip yang belum `verbatim` bukan berarti salah** — hanya berarti teks
+   kutipannya belum diambil. Validator memberi daftarnya setiap kali dijalankan.
+
 **Cara verifikasi 2 menit sebelum memakai klip:**
 
 - Buka halaman episode. Pastikan kanalnya resmi (BBC Sounds, NPR, PBS NewsHour,
@@ -894,9 +912,22 @@ book, and it is Chapter 23."
 Timur (kini Bangladesh); gelombang badai mencapai beberapa meter; pulau-pulau
 rendah tersapu dengan sedikit peringatan.
 
-**Angka:** sekitar **300.000** kematian (rentang 300.000–500.000). Lima puluh
-tahun kemudian, Amphan (Mei 2020) — badai sekuat itu — menewaskan sekitar
-**seratus** orang, setelah lebih dari **2,4 juta** orang dipindahkan lebih dulu.
+**Angka:** sekitar **300.000** kematian menurut estimasi resmi WMO; rentang
+dalam literatur 300.000–500.000, dan sebut rentangnya kalau memakai angka
+lebih tinggi. Lima puluh tahun kemudian, Amphan (Mei 2020) — badai sekuat itu
+— menewaskan **26 orang di Bangladesh** menurut BBC Future (20 Jul 2022),
+setelah lebih dari **2,4 juta** orang dipindahkan lebih dulu.
+
+**Jangan pakai "sekitar seratus" untuk Amphan.** Dua sumber yang bisa
+ditunjuk memberi dua angka berbeda: BBC Future menulis 26 kematian, dan
+beberapa sumber lain menyebut angka yang lebih tinggi bila menghitung
+kematian di India dan setelahnya. Pilih satu, sebut sumbernya di layar, dan
+jangan membulatkan ke "seratus" — pembulatan ke atas justru melemahkan
+argumen yang ingin Anda buat.
+
+**Kekuatan sistemnya, dengan angka:** CPP sekarang punya **lebih dari 76.000
+relawan, separuh perempuan** (BBC Future, 20 Jul 2022). Pada 1970 Bangladesh
+hanya punya 44 tempat penampungan; pada pertengahan 2000-an hampir 4.000.
 
 **Kalimat tesis untuk video penutup:** badainya tidak berubah. Yang berubah
 adalah sistemnya — tempat penampungan yang ditinggikan, relawan, peringatan
@@ -989,8 +1020,11 @@ Semua dikutip dari buku; sebut "dari buku saya" saat membacakan.
 Ini daftar angka dan klaim yang sering beredar, tetapi **tidak** ada di buku,
 atau sudah usang:
 
-- Angka Bhola "setengah juta" tanpa rentang. Buku memakai ±300.000, dengan
-  rentang 300.000–500.000.
+- Angka Bhola "setengah juta" tanpa rentang. Buku memakai ±300.000 (estimasi
+  WMO), dengan rentang 300.000–500.000 dalam literatur — selalu sebut
+  rentangnya bila menyebut angka yang lebih tinggi.
+- Angka Amphan: BBC Future (20 Jul 2022) menulis **26** kematian; jangan
+  dibulatkan menjadi "sekitar seratus".
 - "Dua juta orang dipindahkan" untuk Amphan. Buku memakai **lebih dari 2,4
   juta**.
 - "Satu juta spesies terancam punah **pada 2050**". Buku mengutip IPBES 2019:

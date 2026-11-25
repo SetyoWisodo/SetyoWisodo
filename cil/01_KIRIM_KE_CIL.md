@@ -69,6 +69,8 @@ menampilkannya seolah ahli itu yang bicara.
 ## Larangan
 
 - Jangan menyebut buku ini dibuat dengan AI. Tidak pernah, di video mana pun.
+  (Disclosure YouTube untuk suara/visual sintetis **bukan** pelanggaran aturan
+  ini — itu wajib. Dua hal berbeda.)
 - Jangan memakai musik di bawah klip wawancara. Content ID memblokir audio.
 - Jangan menampilkan nama akun pribadi penyebar misinformasi.
 - Jangan menjanjikan diskon selain `LAUNCH20` dan `KAMPUS25`.
@@ -96,27 +98,46 @@ Sampel gratis:
 
 ## Jadwal 13 minggu pertama
 
-| Fase | Minggu | Shorts/minggu | Long-form/minggu |
-|---|---|---|---|
-| Kalibrasi | 1–2 | 3 | 1 |
-| Ritme | 3–8 | 4 | 1 |
-| Skala | 9–13 | 5 | 1 |
+| Fase | Minggu | Shorts/minggu | Long-form/minggu | Catatan |
+|---|---|---|---|---|
+| Kalibrasi | 1–2 | 3 | 1 | **tanpa target angka** — kumpulkan baseline |
+| Ritme | 3–8 | 4 | 1 | target ditetapkan di minggu 5 dari data sendiri |
+| Skala | 9–13 | 5 | 1 | hanya kalau aturan berhenti belum terpicu |
 
 Setelah 13 minggu: 52 Shorts + 13 long-form. Itu cukup untuk menilai sebelum
 memproduksi 96 Shorts penuh. **Jangan lebih dari 1 Short per hari**, dan jangan
 dua Short berurutan dengan struktur identik.
 
+**Penting soal angka:** jangan pakai 70% viewed / 80% avg sebagai patokan
+minggu pertama. Belum ada baseline, jadi angka itu hanya akan membuat Anda
+mengganti hook yang sebenarnya bekerja. Ukur 12 Shorts pertama, ambil median,
+lalu target = median + 10 poin. Lihat `09_ALGORITMA.md` §3.3 dan
+`07_SISTEM_SHORTS.md` §10.
+
 ## Urutan pengerjaan yang saya sarankan
 
-Jangan mulai dari Bab 1. Mulai dari empat bab yang paling kuat visualnya dan
-paling sedikit risiko hak ciptanya:
+Jangan mulai dari Bab 1, dan jangan mulai dari bab yang klipnya belum siap.
+Urutannya ditentukan oleh satu hal: **bab mana yang bisa dirender hari ini
+tanpa verifikasi tambahan.** Cek sendiri dengan:
+
+```
+python3 validate_kartu_klip.py --siap
+```
+
+Per 25 November 2026 hasilnya: **bab 1, 2, 8, 13**. Empat itu yang dirender
+lebih dulu, dalam urutan kekuatan visual:
 
 1. **Bab 13** — Texas 2021. Dua kutipan PBS verbatim, footage NOAA.
-2. **Bab 24** — Bhola ke Amphan. Angka paling dramatis di seluruh buku.
-3. **Bab 4** — Eropa 2022. Bisa dibuat tanpa satu pun klip berhak cipta.
-4. **Bab 8** — Great Barrier Reef. Kutipan AIMS verbatim, citra NOAA.
+2. **Bab 8** — Great Barrier Reef. Kutipan AIMS verbatim, citra NOAA.
+3. **Bab 2** — Kurva Keeling. NASA/NOAA domain publik, satu angka yang kuat.
+4. **Bab 1** — Pakistan 2022. Dua kutipan Al Jazeera verbatim, citra satelit.
 
-Empat video itu cukup untuk menguji apakah formatnya bekerja sebelum Anda
+**Bab 4 dan 24 sengaja tidak masuk empat pertama**, walaupun secara isi paling
+kuat. Alasannya teknis: keduanya masih punya klip `to_source`. Bab 4 punya
+klip BBC yang belum ditranskrip; bab 24 punya tiga klip yang belum diverifikasi.
+Keduanya menjadi prioritas **sprint verifikasi**, dan masuk gelombang kedua.
+
+Empat video pertama cukup untuk menguji apakah formatnya bekerja sebelum Anda
 memproduksi dua puluh sisanya.
 
 ## Yang saya butuhkan balik
@@ -127,7 +148,8 @@ Untuk setiap video yang sudah dirender, kirim:
 - daftar aset + lisensi + detik yang dipakai
 - naskah host lengkap
 - konfirmasi enam bagian ada, dan durasi klip ≤ 20%
-- untuk Shorts: retensi 3 detik, retensi akhir, dan klik dari UTM
+- untuk Shorts: viewed vs swiped away, avg % viewed, engaged views, klik UTM
+  (bukan retensi 3 detik — YouTube menyebutnya "How many chose to view")
 
 Saya akan meninjau sebelum publikasi. Setelah tiga video berturut-turut lolos
 tanpa revisi, kita longgarkan menjadi tinjauan mingguan.

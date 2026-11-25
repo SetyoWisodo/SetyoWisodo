@@ -275,16 +275,34 @@ terlalu rapi terbaca sebagai otomatis.
 
 Ukur **per Short**, tiga angka saja:
 
-1. **Retensi 3 detik** — kalau di bawah 60%, hooknya salah. Ganti, jangan
-   perbaiki videonya.
-2. **Retensi sampai akhir** — kalau di bawah 25%, bagian putaran terlalu lemah.
-3. **Klik ke Gumroad** (dari UTM) — kalau nol setelah 20 Shorts, CTA-nya salah
-   atau audiensnya salah.
+1. **Viewed vs swiped away** — berapa yang memilih menonton, bukan menggeser.
+2. **Average percentage viewed** — berapa persen isi yang ditonton.
+3. **Klik ke Gumroad** (dari UTM) — berapa yang benar-benar menyeberang.
 
-Aturan berhenti: kalau setelah **12 Shorts** retensi 3 detik rata-rata masih di
-bawah 50%, hentikan produksi dan uji 6 hook berbeda pada topik yang sama
-sebelum melanjutkan. Jangan memproduksi 96 Shorts dengan hook yang tidak
-bekerja.
+## Minggu 1–4: ukur, jangan nilai
+
+Kanal ini belum punya satu video pun pada 25 November 2026. Artinya belum ada
+yang bisa dibandingkan, dan angka seperti "70% viewed" bukan target — itu angka
+kanal lain dengan audiens lain. Empat belas video pertama (12 Shorts + 2
+long-form) dijalankan **tanpa ambang**:
+
+- kumpulkan angka apa adanya;
+- minggu ke-5, ambil **median 12 Shorts pertama** — itu baseline Anda;
+- target minggu 6 dst = **baseline + 10 poin persentase**.
+
+64% dan 78% tetap tercetak di dinding sebagai aspirasi (`09_ALGORITMA.md` §3.3),
+tapi tidak pernah dipakai untuk memutuskan "hook salah".
+
+## Aturan berhenti
+
+- Setelah **12 Shorts**, kalau viewed-vs-swiped rata-rata masih **di bawah 50%**:
+  hentikan produksi, uji 6 hook berbeda pada topik yang sama.
+- Setelah **20 Shorts**, kalau klik UTM masih **nol**: CTA atau audiensnya salah.
+  Ganti CTA dulu, jangan ganti topik.
+- Setelah **3 bulan**, kalau penjualan masih **nol**: yang salah kemungkinan
+  halaman produk, bukan videonya.
+
+Jangan memproduksi 96 Shorts dengan hook yang tidak bekerja.
 
 ---
 
@@ -317,7 +335,11 @@ Aturan:
 - [ ] Judul ≤ 60 karakter, tanpa kapital semua
 - [ ] UTM sesuai format
 - [ ] Struktur berbeda dari 3 Short terakhir
+- [ ] Ada satu `original_element`: penilaian pribadi / koreksi liputan /
+      perbandingan lintas bab (bukan sekadar struktur berbeda)
+- [ ] Yang dibacakan adalah `line` (Inggris), bukan `hook` (Indonesia)
 - [ ] Tidak ada kata "AI" dalam konteks penulisan buku
+- [ ] Kalau suara sintetis: setelan "AI use" di YouTube Studio menyala
 
 Kalau satu saja gagal, **jangan upload**. Menunda satu hari lebih murah
 daripada memperbaiki kanal yang sudah dinilai.

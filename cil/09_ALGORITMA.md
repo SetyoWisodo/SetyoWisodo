@@ -75,7 +75,19 @@ mengira channelnya tumbuh.
 
 YouTube **menyimpan metrik lama** dengan nama **"Engaged views"** — hanya
 penonton yang bertahan melewati detik-detik pertama, tanpa menghitung loop.
-Sejak **24 Agustus 2026**, definisi yang sama diperluas ke semua format.
+
+Halaman bantuan "How engagement metrics are counted" (dicek 25 November 2026)
+menulis: *"Views are counted the moment a video starts to play across all
+formats, including Shorts, long-form videos (VODs), and live streams."* Artinya
+perluasan ke semua format **benar**, tapi **tanggal 24 Agustus 2026 tidak
+tercantum di halaman itu** — tanggal tersebut tidak bisa saya buktikan dari
+sumber resmi. Yang berlaku dalam praktik: pakai engaged views untuk semua
+perbandingan, dan jangan mengutip tanggalnya di video.
+
+Catatan tambahan dari halaman yang sama: sejak **November 2026** angka view
+publik di halaman tonton memasukkan estimasi **co-viewing** di layar TV. Ini
+membuat headline views makin tidak sebanding antar perangkat, dan makin
+memperkuat aturan di bawah.
 
 **Aturan untuk Cil dan untuk dashboard:** **jangan pernah pakai headline views
 untuk membandingkan video.** Pakai engaged views. Headline views hanya
@@ -89,8 +101,8 @@ bukan dari YouTube — perlakukan sebagai target kerja, bukan hukum:
 
 | Metrik | Target kerja | Kalau di bawah |
 |---|---|---|
-| Viewed vs swiped away | > 70% | hook salah; ganti, jangan perbaiki videonya |
-| Average percentage viewed | > 80% untuk Short ≤ 45 dtk | bagian tengah terlalu longgar |
+| Viewed vs swiped away | aspirasi > 70%, **bukan gerbang** | bandingkan dengan baseline 12 Shorts pertama |
+| Average percentage viewed | aspirasi > 80% untuk Short ≤ 45 dtk | bagian tengah terlalu longgar |
 | Replay/loop | > 100% | akhirnya tidak memicu untuk diulang |
 | Komentar per 1.000 engaged views | > 3 | tidak ada yang perlu ditanggapi penonton |
 

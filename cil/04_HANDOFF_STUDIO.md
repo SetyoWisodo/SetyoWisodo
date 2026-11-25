@@ -16,6 +16,7 @@ keluaran.
 | `03_kartu_klip.json` | **studio** | sumber kebenaran terstruktur |
 | `05_daftar_isi_24_bab.md` | Cil | daftar bab |
 | `06_sampel_36_halaman.pdf` | Cil | sampel resmi |
+| `validate_kartu_klip.py` | studio | validator: keluar kode 1 = jangan render |
 
 Aturan penting: **JSON adalah sumber kebenaran.** Kalau `02` dan `03` berbeda,
 JSON menang, dan `02` yang harus diperbaiki. Jangan biarkan mesin membaca
@@ -25,7 +26,7 @@ prosa bebas sebagai data.
 
 ## 2. Kontrak data
 
-`03_kartu_klip.json` v1.0. Field yang dipakai mesin:
+`03_kartu_klip.json` **v1.2** (schema 1.2, 25 Nov 2026). Field yang dipakai mesin:
 
 ```
 chapters[].id                      int 1..24
@@ -34,7 +35,11 @@ chapters[].event.{place,date,summary}
 chapters[].numbers[]               {claim, value, source, verified}
 chapters[].clips[]                 {outlet, item, date, url, format,
                                     speaker, affiliation, quote,
-                                    quote_status, use, note}
+                                    quote_candidate, quote_status,
+                                    quote_source, licence_note, use, note}
+chapters[].shorts_beats[]          {id, angle, hook, line, note}
+chapters[].beat_language           {spoken:"en", note:"id"}
+shorts_spec.spoken_field           "line" 
 chapters[].steps_if_repeated[]     langkah bernomor, sudah urut prioritas
 chapters[].cta                     satu kalimat penutup
 chapters[].forbidden[]             larangan spesifik bab itu
@@ -57,6 +62,18 @@ chapters[].forbidden[]             larangan spesifik bab itu
 - `to_source` — belum ada teks kutipan. Mesin harus mengambil dari `url`,
   mentranskrip, lalu manusia memilih potongannya.
 
+**Aturan `quote` yang mengikat mesin:** `quote` hanya boleh terisi kalau
+`quote_status` = `verbatim`. Kalimat kerja yang belum diverifikasi disimpan di
+`quote_candidate` — jangan pernah dirender sebagai kutipan, dan jangan pernah
+dipindahkan ke `quote` tanpa membuka sumbernya dulu. Field `quote_source`
+mencatat URL yang dicek, tanggal cek, dan statusnya (`page_verbatim`,
+`page_summary_verbatim`, `pending`, `pending_document`).
+
+**Bahasa.** `beat_language.spoken` = `en`. Yang dibacakan TTS/host adalah
+`line` (Inggris), **bukan** `hook`. Field `hook` adalah catatan produksi
+berbahasa Indonesia untuk Cil — tidak pernah masuk audio, tidak pernah masuk
+layar. Validator menolak `line` di atas 12 kata.
+
 **Jangan pernah** mengisi `quote` dengan hasil parafrase lalu memberi
 `quote_status: verbatim`. Ini kesalahan yang paling merusak kredibilitas, dan
 paling sulit diperbaiki setelah video terbit.
@@ -76,17 +93,37 @@ Ini bukan saran; ini yang harus membuat pipeline berhenti.
    tidak cocok, blokir.
 4. **Larangan bab.** Cocokkan naskah terhadap `forbidden[]`; kalau ada
    substring yang cocok, tandai untuk review manusia — jangan auto-publish.
-5. **Kata "AI".** Pindai naskah untuk "AI", "artificial intelligence", "model
-   bahasa", "ChatGPT", "dibuat dengan". Kalau muncul dalam konteks penulisan
-   buku, blokir. (Konteks topik AI boleh, tapi cek manual.)
+5. **Kata "AI" — dua arah, bukan satu.** Blokir klaim bahwa **buku** ditulis
+   atau dibuat dengan AI ("dibuat dengan AI", "written by AI", "AI-generated
+   book", nama model). Tapi **jangan** blokir, dan justru **wajibkan**,
+   disclosure untuk video: setelan "AI use" di YouTube Studio dinyalakan bila
+   ada suara sintetis yang meniru orang nyata, visual sintetis realistis, atau
+   musik AI sebagai fokus. Narasi TTS untuk naskah sendiri tidak wajib
+   dilabeli, tapi labelnya gratis dan menambah kepercayaan — nyalakan saja.
+   Gerbang lama memindai kata "AI" lalu memblokir, dan itu bisa memblokir
+   justru kalimat disclosure yang diwajibkan platform.
 6. **Musik.** Tolak track apa pun yang tidak berasal dari YouTube Audio Library
    atau lisensi yang tersimpan di manifes aset.
-7. **Templat.** Hash struktur video (urutan segmen + panjang tiap segmen, tanpa
-   isi) harus berbeda dari 3 video terakhir. Kalau sama, peringatkan.
+7. **Templat — hash saja tidak cukup.** Hash struktur (urutan + panjang
+   segmen) hanya menangkap variasi mekanis. YouTube secara eksplisit menyebut
+   "AI-generated content made with generic or unoriginal templates giving the
+   impression of mass production" sebagai inauthentic. Karena itu ada dua
+   gerbang: (a) hash struktur berbeda dari 3 video terakhir — peringatan saja,
+   dan (b) **gerbang manusia wajib**: setiap video harus punya minimal satu
+   dari empat hal yang tidak bisa diulang mesin, dicatat di field
+   `original_element` di manifes. Kalau kosong, video tidak boleh terbit.
 8. **Atribusi.** Setiap aset di timeline harus punya baris atribusi di deskripsi
    yang dihasilkan. Aset tanpa atribusi = gagal render.
 9. **Kode diskon.** Hanya `LAUNCH20` dan `KAMPUS25` yang boleh muncul. Apa pun
    selain itu, blokir.
+
+10. **Bahasa beat.** Naskah Short wajib bahasa Inggris; field `line` adalah
+    sumbernya. Kalau detektor bahasa menemukan kalimat Indonesia di naskah
+    yang akan dibacakan, tolak.
+
+11. **Klip belum siap.** Kalau bab masih punya klip `to_source` atau
+    `paraphrase_check_before_use`, mesin menolak render bab itu. Jalankan
+    `python3 validate_kartu_klip.py --siap` untuk daftar yang boleh.
 
 ---
 
@@ -102,12 +139,20 @@ Tiga hal ini tetap butuh mata manusia, dan sebaiknya memang begitu:
    orang lain, itu repost.
 3. **Vonis akhir soal `forbidden[]`.** Mesin cocokkan string; manusia menilai
    konteks.
+4. **Satu hal yang tidak bisa diulang mesin.** Wajib, dan dicatat di manifes
+   sebagai `original_element`: penilaian pribadi satu kalimat, koreksi terhadap
+   liputan media, atau perbandingan lintas bab. Ini gerbang terakhir sebelum
+   render. Tanpa ini, 96 Shorts dengan struktur sama akan lolos semua hash dan
+   tetap terbaca sebagai pabrik oleh reviewer manusia — persis contoh yang
+   disebut YouTube untuk konten inauthentic.
 
 ---
 
 ## 5. Pipeline yang saya sarankan
 
 ```
+[0] cek siap             -> python3 validate_kartu_klip.py --siap
+
 [1] pilih bab            -> baca 03_kartu_klip.json
 [2] ambil aset           -> klip sesuai format; quote card untuk "text"
 [3] transkrip klip       -> wajib, simpan .srt per aset
@@ -226,30 +271,46 @@ Tiga keputusan yang diambil dari tabel ini:
 
 ## 5c. Dua sumber pendapatan — angka yang harus dipegang
 
-Angka ini untuk keputusan, bukan untuk promosi.
+Angka ini untuk keputusan, bukan untuk promosi. Semua angka di sini juga ada di
+`03_kartu_klip.json` → `economics`, supaya mesin dan manusia tidak bisa berbeda.
 
-**Buku.** $45, fee Gumroad 10% + $0,50 → bersih sekitar **$40 per eksemplar**.
+**Buku.** $45. Direct: fee Gumroad 10% ($4,50) + $0,50, kartu 2,9% ($1,31) +
+$0,30 → **bersih $38,40**. Discover (Gumroad yang menemukan pembeli): 30% flat,
+proses termasuk → **bersih $31,50**. Kalau 80% penjualan direct dan 20%
+Discover, angka campuran yang dipakai untuk perencanaan: **$37,02**. Pakai
+$38,40 sebagai default, $31,50 untuk skenario konservatif.
 
-**Shorts.** Bayaran sekitar **$0,03–0,10 per 1.000 views** (bervariasi besar;
-audiens AS/Eropa di ujung atas).
+**Shorts.** Bayaran iklan sekitar **$0,03–0,10 per 1.000 views**; laporan
+industri 2026 (AIR Media-Tech, 274 kanal) memberi rentang tipikal $0,07–0,20
+dan $0,33 untuk audiens AS. Itu laporan pihak ketiga, bukan angka YouTube —
+pakai untuk perencanaan, jangan untuk janji.
 
 Maka:
 
-| Views Shorts | Perkiraan pendapatan iklan | Setara buku |
+| Views Shorts | Pendapatan iklan | Setara buku (iklan saja) |
 |---|---|---|
-| 100.000 | $3–10 | 0,1–0,25 eksemplar |
-| 1.000.000 | $30–100 | 1–2,5 eksemplar |
-| 10.000.000 | $300–1.000 | 8–25 eksemplar |
+| 100.000 | $3–10 | 0,08–0,26 eksemplar |
+| 1.000.000 | $30–100 | 0,8–2,6 eksemplar |
+| 10.000.000 | $300–1.000 | 8–26 eksemplar |
 
-**Kesimpulan operasional:** satu penjualan buku setara 10.000–30.000 views
-Shorts. Jadi:
+**Kesimpulan operasional — dan ini yang berubah dari versi sebelumnya:** satu
+penjualan buku setara **384.000–1.280.000 views iklan Shorts**, bukan
+10.000–30.000. Angka lama itu salah hitung 30–40 kali lipat; ia tercampur
+dengan asumsi funnel (lihat di bawah). Konsekuensinya keras, dan sebaiknya
+dihadapi sekarang:
 
-1. **Buku adalah produk; YouTube adalah saluran.** Setiap keputusan produksi
-   diuji dengan pertanyaan "apakah ini menambah klik ke Gumroad?"
-2. **Jangan mengukur kanal dengan views.** Ukur dengan klik, lalu penjualan.
-3. **Long-form tetap wajib**, bukan karena aturan, tapi karena 4.000 jam =
-   240.000 menit ≈ 100.000 views long-form — jauh lebih mungkin dicapai
-   daripada 10 juta views Shorts dalam 90 hari.
+1. **Pendapatan iklan Shorts tidak akan pernah membiayai kanal ini.** Pada
+   $0,07/1.000, satu juta views = $70. Satu buku = $38,40. Jadi buku jauh lebih
+   bernilai per orang, dan seluruh desain kanal harus diarahkan ke klik.
+2. **Funnel bisa masuk akal, tapi belum diukur.** Kalau 0,05–0,3% penonton
+   mengklik dan 1–3% dari yang mengklik membeli, satu buku datang dari
+   **11.000–200.000 views** (skenario dingin) atau **10.000–30.000** (skenario
+   hangat, audiens yang sudah mengenal Anda). Angka lama adalah skenario
+   hangat yang ditulis seolah hukum. `funnel_assumptions` di JSON menandainya
+   sebagai asumsi; ganti dengan data 12 Shorts pertama.
+3. **Long-form tetap wajib**, dan bukan karena aturan: 4.000 jam ≈ 100.000
+   views long-form, dan long-form juga membayar jauh lebih baik — pada RPM
+   $2,50–5,00, 100.000 views = **$250–500**, atau 6–13 buku setara iklan.
 4. **Pendapatan Shorts struktural tidak stabil.** Setelah masuk YPP, penghasilan
    iklan Shorts mensyaratkan 10 juta views per 90 hari berjalan. Turun → berhenti
    (iklan long-form tetap). Jangan pernah menjadikannya tumpuan.
@@ -259,7 +320,10 @@ Shorts. Jadi:
 ## 6. Spesifikasi keluaran
 
 - **Video:** 1920×1080, 24–30 fps, H.264, audio −16 LUFS.
-- **Shorts:** 1080×1920, potong dari versi panjang, bukan dibuat terpisah.
+- **Shorts:** 1080×1920, **dibangun dari `shorts_beats` di
+  `03_kartu_klip.json`, bukan dipotong dari long-form.** Empat beat per bab,
+  masing-masing jadi satu Short. Memotong long-form dilarang — lihat
+  `01_KIRIM_KE_CIL.md`.
 - **Judul:** max 70 karakter, memuat tempat atau angka, tanpa huruf kapital semua.
 - **Deskripsi:** 3 baris atribusi (lihat `00_BRIEF_CIL.md` bagian 5.1), lalu
   tautan Gumroad, lalu kode.
@@ -278,6 +342,18 @@ Sumber bisa dihapus, diprivat, atau di-geoblock. Aturannya:
    teks. Video tetap bisa terbit tanpa footage.
 3. Kalau seluruh sumber hilang, tunda video. Kanal ini tidak kekurangan bahan;
    ia kekurangan alasan untuk buru-buru.
+
+**Status data per 25 November 2026 — baca ini sebelum mempercayai kartu.**
+`verified: true` di `numbers[]` berarti **angka itu ada di dalam buku**, bukan
+bahwa ia sudah dicek ulang ke sumber primer hari ini. 61 dari 72 angka masih
+bersumber pada "buku bab N" tanpa nama lembaga atau nomor halaman. Untuk video,
+itu cukup — buku adalah sumbernya, dan Anda penulisnya. Tapi untuk video yang
+mengutip **lembaga**, buka dokumennya. Untuk kutipan, hanya `quote` dengan
+`quote_status: verbatim` yang boleh diberi tanda kutip; sisanya ada di
+`quote_candidate` dan **tidak boleh dirender sebagai kutipan**.
+
+Validator akan mengingatkan ini setiap kali dijalankan (`warn W1`). Itu bukan
+gangguan; itu daftar kerja.
 
 ---
 
@@ -316,6 +392,97 @@ bisa Anda jelaskan.
 
 ---
 
+## 8b. Perbaikan dari review Cil — 25 November 2026
+
+Review eksternal menemukan tiga hal yang mengubah dokumen ini. Ringkasnya, supaya
+tidak ada yang mengulang kesalahan yang sama:
+
+| Temuan | Status |
+|---|---|
+| Ekonomi salah 30–40× ("1 buku = 10.000–30.000 views") | **Diperbaiki**: §5c dan `economics` di JSON. Ekuivalensi iklan = 384.000–1.280.000 views; 10.000–30.000 adalah asumsi funnel audiens hangat dan sekarang dilabeli begitu. |
+| "Shorts dipotong dari long-form" bertentangan dengan larangan di `01` | **Diperbaiki**: §6. Shorts dibangun dari `shorts_beats`. |
+| Target >70% / >80% tanpa dasar, bisa membunuh kanal baru | **Diperbaiki**: lihat §8c. Minggu 1–4 = baseline, bukan gerbang. |
+| Hash struktur terlalu lemah untuk risiko inauthentic | **Diperbaiki**: gerbang manusia ke-4 (`original_element`) di §4, dan gerbang 7 dipecah dua. |
+| Gerbang 5 memblokir kata "AI" termasuk disclosure yang diwajibkan | **Diperbaiki**: §3 gerbang 5, dua arah. |
+| Versi skema 1.0 di sini vs 1.1 di JSON | **Diperbaiki**: v1.2 di keduanya, dengan validator. |
+| Beat: hook Indonesia, line Inggris — ambigu | **Diperbaiki**: `beat_language`, `spoken_field: line`. |
+
+Tiga hal yang review tidak bisa selesaikan dan tetap keputusan Anda: **siapa
+host-nya** (§8d), **nama dan handle kanal** (§8e), dan **apakah semua klip
+`to_source` akan diverifikasi atau diganti quote card** (validator memberi
+daftarnya setiap kali dijalankan).
+
+---
+
+## 8c. Baseline sebelum target — mengapa angka 70% diturunkan
+
+Versi sebelumnya menulis "viewed vs swiped > 70%" dan "avg % viewed > 80%"
+sebagai target di minggu pertama. Itu keliru, dan bukan karena angkanya terlalu
+tinggi — tapi karena **belum ada yang bisa dibandingkan**. Kanal ini belum
+punya satu video pun, jadi tidak ada baseline.
+
+Aturan yang berlaku sekarang:
+
+1. **Minggu 1–4: ukur, jangan nilai.** Empat belas video pertama (12 Shorts + 2
+   long-form) dijalankan tanpa ambang. Yang dikumpulkan: viewed-vs-swiped, avg %
+   viewed, retensi 0:30, engaged views, klik UTM.
+2. **Minggu 5: tetapkan baseline** = median dari 12 Shorts pertama. Itu angka
+   Anda, bukan angka orang lain.
+3. **Target = baseline + 10 poin persentase**, bukan 70%. Kalau baseline 41%,
+   target 51%. Kalau baseline 68%, target 78%.
+4. **70% / 80% tetap ada sebagai aspirasi**, dicetak di dinding, tapi bukan
+   gerbang yang memicu "ganti hook". Yang memicu perbaikan adalah **tren**, bukan
+   angka absolut.
+5. **Aturan berhenti tetap 50%** — di bawah itu, hook-nya memang salah, bukan
+   targetnya.
+
+---
+
+## 8d. Host dan disclosure — keputusan yang harus diambil sebelum video pertama
+
+Ini satu-satunya keputusan di paket ini yang **tidak bisa** diselesaikan dengan
+dokumen. Pilih satu, tulis di `00_BRIEF_CIL.md` §1.4, lalu jangan diubah lagi
+selama 13 minggu:
+
+**Pilihan A — host manusia.** Suara Anda, wajah opsional. Tidak ada label AI.
+Jadwal 11–13 jam/minggu harus ditambah 60–90 menit rekaman per bab, dan itu berarti
+ritme 1 bab/minggu menjadi 1 bab/10 hari. Kelebihan: kredibilitas, dan tiap video
+otomatis punya `original_element`.
+
+**Pilihan B — TTS.** Suara sintetis untuk naskah sendiri. Tidak wajib dilabeli
+menurut halaman bantuan YouTube (label wajib untuk yang **realistis dan bisa
+disalahartikan sebagai nyata** — meniru orang nyata, mengubah footage peristiwa
+nyata, atau musik AI sebagai fokus). Tapi nyalakan saja setelan "AI use": biayanya
+nol, dan risikonya kalau tidak dinyalakan lebih besar dari manfaatnya. Kelebihan:
+ritme 1 bab/minggu realistis. Kekurangan: `original_element` harus disuntik
+manual di setiap naskah, karena suara saja tidak lagi membuktikan kehadiran
+manusia.
+
+**Pilihan C — hybrid (rekomendasi).** TTS untuk 96 Shorts, suara Anda untuk 24
+long-form. Yang dibaca TTS adalah `line` (Inggris) yang sudah Anda setujui; yang
+direkam adalah analisis dan penilaian pribadi — bagian yang justru membuat
+long-form layak ditonton 5–7 menit. Biaya: satu sesi rekaman per bab.
+
+**Yang tidak boleh:** mencampur tanpa aturan. Kalau satu video TTS dan video
+berikutnya suara manusia tanpa alasan di dalam cerita, penonton membaca itu
+sebagai ketidakkonsistenan, dan YouTube membaca pola suara sebagai sinyal
+otomasi.
+
+---
+
+## 8e. Yang masih kosong — isi sebelum upload pertama
+
+Empat hal ini tidak ada di paket mana pun, dan semuanya dibutuhkan mesin:
+
+| Yang kosong | Kenapa penting | Diisi di |
+|---|---|---|
+| Nama kanal + handle | UTM tidak bisa diaudit tanpa identitas tetap; nama juga muncul di deskripsi | `00_BRIEF_CIL.md` §1.4 |
+| Jam upload (WIB → London/New York) | Audiens target AS/Eropa; mengunggah 03.00 WIB = 20.00 London sebelumnya | `10_OPERASI_HARIAN.md` §1 |
+| Alat dashboard | Kolom sudah ditentukan, alatnya belum: spreadsheet 6 kolom atau skrip | keputusan Anda; format kolom ada di §5b |
+| SOP komentar & koreksi | Video iklim akan dikoreksi orang; jawaban pertama menentukan nada seluruh komentar | `10_OPERASI_HARIAN.md` §10 |
+
+---
+
 ## 9. Satu hal yang akan menentukan umur kanal ini
 
 Studio otomatis akan mendorong Anda ke arah volume: 24 video, lalu 48, lalu
@@ -328,3 +495,25 @@ diulang mesin** — satu kalimat penilaian pribadi, satu koreksi terhadap liputa
 media, satu perbandingan lintas bab yang tidak ada di naskah. Kalau pipeline
 Anda menyisakan satu slot untuk itu di setiap video, studio ini akan terlihat
 seperti karya manusia yang dibantu mesin, bukan sebaliknya.
+
+---
+
+## 10. Batas paket ini — yang tidak boleh dijanjikan ke siapa pun
+
+Tiga hal ini sering dijanjikan orang yang membuat sistem seperti ini, dan
+ketiganya tidak benar:
+
+1. **"Kalau ikut sistem ini, kanal akan monen."** Tidak. Sistem ini
+   memaksimalkan peluang: tidak ada klaim hak cipta, tidak ada pelanggaran
+   inauthentic, dan setiap video punya alasan untuk ditonton. Distribusi tetap
+   keputusan YouTube, per penonton, dan tidak bisa dijamin.
+2. **"1 juta views = 30 buku."** Tidak. Satu juta views iklan = $30–100. Satu
+   juta views dengan funnel yang bekerja mungkin menghasilkan 3–30 buku, tapi
+   itu tergantung produk, harga, dan audiens — bukan pada views.
+3. **"Short lebih penting daripada long-form."** Tidak. Shorts membawa
+   jangkauan; long-form membayar dan memenuhi syarat monetisasi. Tanpa
+   long-form, seluruh beban ada pada 10 juta views Shorts per 90 hari.
+
+Yang boleh dijanjikan, dan cukup: **setiap video akan punya sumber yang bisa
+ditunjuk, kutipan yang benar-benar diucapkan, satu hal yang tidak bisa diulang
+mesin, dan angka yang bisa dibandingkan dengan video sebelumnya.**

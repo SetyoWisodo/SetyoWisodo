@@ -1,5 +1,5 @@
 {
- "schema_version": "1.1",
+ "schema_version": "1.2",
  "generated": "2026-10-18",
  "purpose": "Kartu operasional per bab untuk studio clipper otomatis. Sumber kebenaran untuk semua angka, kutipan, sumber klip, dan langkah rekomendasi.",
  "product": {
@@ -27,7 +27,14 @@
   "ai_disclosure_required_if_synthetic_voice_or_visual": true,
   "book_ai_authorship_mention": "forbidden",
   "music_under_interview_clip": "forbidden",
-  "numbers_outside_this_file": "forbidden unless primary source cited on screen"
+  "numbers_outside_this_file": "forbidden unless primary source cited on screen",
+  "spoken_language": "en",
+  "disclosure_rule": "Label 'AI use' hanya wajib bila ada suara/visual sintetis yang realistis ATAU musik AI sebagai fokus. Narasi TTS untuk naskah sendiri: label tidak wajib, tapi dianjurkan (0 biaya, menambah kepercayaan).",
+  "reported_short_rpm_usd": [
+   0.07,
+   0.2
+  ],
+  "quote_gate": "quote hanya boleh terisi bila quote_status=verbatim. Kalimat kerja disimpan di quote_candidate."
  },
  "chapters": [
   {
@@ -120,7 +127,7 @@
      "id": "s1",
      "angle": "angka",
      "hook": "33 juta orang terdampak. Sepertiga negara tenggelam.",
-     "line": "Monsoon rain alone did not do this. A spring heatwave had baked the soil first.",
+     "line": "It wasn't just monsoon rain. A heatwave had baked the soil first.",
      "note": "Banjir Pakistan 2022 dimulai setelah gelombang panas musim semi mengeraskan tanah, sehingga hujan tidak meresap."
     },
     {
@@ -144,7 +151,12 @@
      "line": "The provinces hit hardest were Sindh and Balochistan - the two poorest.",
      "note": "Kerugian terkonsentrasi di dua provinsi termiskin Pakistan."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 2,
@@ -259,7 +271,12 @@
      "line": "Highest in millions of years, and rising faster than ever.",
      "note": "Kutipan Ralph Keeling, Scripps, Juni 2024."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 3,
@@ -351,7 +368,12 @@
      "line": "Three millimetres a year, and accelerating.",
      "note": "Kutipan Gavin Schmidt, NASA."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 4,
@@ -464,7 +486,12 @@
      "line": "Heat kills more than floods, and leaves nothing to photograph.",
      "note": "Kalimat pembuka bab 4."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 5,
@@ -538,7 +565,7 @@
      "id": "s1",
      "angle": "angka",
      "hook": "Kota sembilan juta orang, air tersisa satu persen.",
-     "line": "A city of nine million had one per cent of its water left.",
+     "line": "Nine million people. One per cent of the water left.",
      "note": "Chennai, Juni 2019."
     },
     {
@@ -562,7 +589,12 @@
      "line": "When the plan fails, water is allocated by ability to pay.",
      "note": "Pasar tanker informal mengambil alih alokasi."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 6,
@@ -631,7 +663,7 @@
      "id": "s1",
      "angle": "angka",
      "hook": "Jakarta turun empat meter sejak 1970-an.",
-     "line": "Jakarta has sunk four metres since the 1970s. The sea did not move.",
+     "line": "Jakarta sank four metres. The sea did not move.",
      "note": "Penurunan tanah 1-15 cm per tahun."
     },
     {
@@ -655,7 +687,12 @@
      "line": "Three reasonable decisions. Each one made the next flood worse.",
      "note": "Kanal untuk populasi kecil, pertumbuhan di dataran banjir, air tanah."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 7,
@@ -703,28 +740,43 @@
    "clips": [
     {
      "outlet": "BBC World Service, The Food Chain",
-     "item": "episode tentang beras dan larangan ekspor India",
-     "date": "2023-12",
-     "url": null,
+     "item": "Should we eat less rice?",
+     "date": "2025-01-16",
+     "url": "https://www.bbc.co.uk/programmes/w3ct5xp0",
      "format": "audio",
-     "speaker": null,
-     "affiliation": "BBC",
-     "quote": null,
-     "quote_status": "to_source",
+     "speaker": "Ruth Alexander (presenter), bersama Dr Yvonne Pinto (IRRI)",
+     "affiliation": "BBC World Service",
+     "quote": "Should we just eat less of it?",
+     "quote_status": "verbatim",
      "use": "fair_use_short",
-     "note": "Cari di BBC Sounds dengan kata kunci 'The Food Chain rice'. Verifikasi judul dan tanggal sebelum dipakai."
+     "note": "Cari di BBC Sounds dengan kata kunci 'The Food Chain rice'. Verifikasi judul dan tanggal sebelum dipakai.",
+     "quote_source": {
+      "type": "page_summary_verbatim",
+      "url": "https://www.bbc.co.uk/programmes/w3ct5xp0",
+      "checked": "2026-11-25",
+      "note": "Kalimat ini ada apa adanya di ringkasan halaman program. Boleh dipakai sebagai kutipan pembuka episode/montase halaman. Untuk klip audio 8-12 detik, transkrip tetap wajib: pilih satu jawaban narasumber dan verifikasi kata per kata."
+     },
+     "licence_note": "BBC: fair use pendek untuk komentar. Jangan unduh seluruh episode; jangan pakai musik."
     },
     {
      "outlet": "FAO",
      "item": "The State of Food Security and Nutrition in the World",
      "date": "annual",
-     "url": "https://www.fao.org/publications/sofi",
+     "url": "https://www.fao.org/worldfoodsituation/csdb/en/",
      "format": "text",
      "speaker": null,
      "affiliation": "FAO",
      "quote": null,
      "quote_status": "to_source",
-     "use": "attribution_required"
+     "use": "attribution_required",
+     "quote_source": {
+      "type": "pending",
+      "url": "https://www.fao.org/worldfoodsituation/csdb/en/",
+      "checked": "2026-11-25",
+      "note": "Kalimat kerja, BUKAN kutipan terverifikasi. Ambil angka dari SOFI/CSDB dan tulis ulang sebagai angka di numbers[], bukan sebagai quote.",
+      "candidate_note": "quote_candidate = kalimat kerja, BUKAN kutipan. Verifikasi ke sumber sebelum dipindah ke quote dan status diubah ke verbatim."
+     },
+     "quote_candidate": "About 90 percent of the world's rice is produced and consumed in Asia."
     }
    ],
    "visual_public_domain": [
@@ -749,7 +801,7 @@
      "id": "s1",
      "angle": "angka",
      "hook": "3,5 miliar orang bergantung pada beras. Hanya 10 persen diperdagangkan.",
-     "line": "Three and a half billion people depend on rice. Only ten per cent of it crosses a border.",
+     "line": "Rice feeds half the world. A tenth of it crosses a border.",
      "note": "Buku bab 7; pasar beras tipis, sehingga gangguan kecil menggerakkan harga semua orang."
     },
     {
@@ -773,7 +825,12 @@
      "line": "A five per cent harvest loss moved prices on three continents.",
      "note": "Panen gandum India 2022, World Bank."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 8,
@@ -870,7 +927,12 @@
      "line": "We are only one large scale disturbance event away from a reversal.",
      "note": "Kutipan David Wachenfeld, AIMS, Agustus 2024."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 9,
@@ -982,7 +1044,12 @@
      "line": "Thirty times more infections in fifty years.",
      "note": "WHO, dikutip BBC The Climate Question, 6 Maret 2023."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 10,
@@ -1080,7 +1147,12 @@
      "line": "Harvey cost 125 billion, most of it from water, not wind.",
      "note": "Buku bab 10."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 11,
@@ -1180,10 +1252,15 @@
      "id": "s4",
      "angle": "kontras",
      "hook": "Laut naik 3,4 milimeter setahun. Tanahnya tidak naik sama sekali.",
-     "line": "The sea rises 3.4 millimetres a year. The land does not rise at all.",
+     "line": "The sea rises 3.4 millimetres a year. The land does not.",
      "note": "Funafuti; IPCC 2019b."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 12,
@@ -1215,13 +1292,21 @@
      "outlet": "UNEP / Lake Chad Basin Commission",
      "item": "laporan dan data cekungan Danau Chad",
      "date": null,
-     "url": "https://www.unep.org",
+     "url": "https://www.unep.org/explore-topics/disasters-conflicts/what-we-do/disaster-risk-reduction/lake-chad",
      "format": "text",
      "speaker": null,
      "affiliation": "UNEP",
      "quote": null,
      "quote_status": "to_source",
-     "use": "attribution_required"
+     "use": "attribution_required",
+     "quote_source": {
+      "type": "pending",
+      "url": "https://www.unep.org/explore-topics/disasters-conflicts/what-we-do/disaster-risk-reduction/lake-chad",
+      "checked": "2026-11-25",
+      "note": "Angka 90% adalah angka kerja dari literatur, belum diverifikasi ke halaman ini. Verifikasi sebelum dipakai; kalau tidak ketemu, pakai angka di numbers[].",
+      "candidate_note": "quote_candidate = kalimat kerja, BUKAN kutipan. Verifikasi ke sumber sebelum dipindah ke quote dan status diubah ke verbatim."
+     },
+     "quote_candidate": "The Lake Chad Basin has contracted by around 90 per cent since the 1960s."
     }
    ],
    "visual_public_domain": [
@@ -1269,7 +1354,12 @@
      "line": "A smaller lake with more people is harder than either headline.",
      "note": "Buku menolak kedua narasi sederhana: pulih atau hilang."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 13,
@@ -1367,7 +1457,12 @@
      "line": "We built our grid for the weather of the past.",
      "note": "Kutipan Michael Webber, UT Austin, PBS NewsHour 2023."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 14,
@@ -1446,7 +1541,12 @@
      "line": "A mandate changes the timetable. Only assessment changes the classroom.",
      "note": "Buku bab 14."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 15,
@@ -1478,25 +1578,39 @@
      "outlet": "NOAA NCEI",
      "item": "laporan badai Helene",
      "date": "2024",
-     "url": "https://www.ncei.noaa.gov",
+     "url": "https://www.ncei.noaa.gov/news/hurricane-helene",
      "format": "text",
      "speaker": null,
      "affiliation": "NOAA",
      "quote": null,
      "quote_status": "to_source",
-     "use": "public_domain"
+     "use": "public_domain",
+     "quote_source": {
+      "type": "pending",
+      "url": "https://www.ncei.noaa.gov/news/hurricane-helene",
+      "checked": "2026-11-25",
+      "note": "Rumusan NOAA; verifikasi kalimat persisnya di halaman/laporan, atau pakai angka di numbers[].",
+      "candidate_note": "quote_candidate = kalimat kerja, BUKAN kutipan. Verifikasi ke sumber sebelum dipindah ke quote dan status diubah ke verbatim."
+     },
+     "quote_candidate": "Helene was the deadliest hurricane to strike the US mainland since Katrina in 2005."
     },
     {
      "outlet": "FEMA",
      "item": "halaman respons rumor Helene",
      "date": "2024-10",
-     "url": "https://www.fema.gov",
+     "url": "https://www.fema.gov/disaster/current/hurricane-helene/rumor-control",
      "format": "text",
      "speaker": null,
      "affiliation": "FEMA",
      "quote": null,
      "quote_status": "to_source",
-     "use": "public_domain"
+     "use": "public_domain",
+     "quote_source": {
+      "type": "pending",
+      "url": "https://www.fema.gov/disaster/current/hurricane-helene/rumor-control",
+      "checked": "2026-11-25",
+      "note": "Halaman rumor control: pakai sebagai sumber koreksi misinformasi, bukan untuk dikutip. Cocok jadi segmen 'putaran'."
+     }
     }
    ],
    "visual_public_domain": [
@@ -1544,7 +1658,12 @@
      "line": "FEMA opened a rumour page. That is not a public relations move.",
      "note": "Misinformasi menjadi masalah operasional, bukan opini."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 16,
@@ -1635,7 +1754,7 @@
      "id": "s1",
      "angle": "angka",
      "hook": "3,4 juta orang. Listrik, air, jalan, komunikasi - semuanya runtuh.",
-     "line": "Three point four million people. Power, water, roads, comms - all at once.",
+     "line": "Three point four million people. Power, water, roads — all at once.",
      "note": "Hurricane Maria, Puerto Rico, 20 September 2017."
     },
     {
@@ -1659,7 +1778,12 @@
      "line": "Three days of cash. Card readers die when the power does.",
      "note": "Buku bab 16; detail kecil yang sering dilewatkan."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 17,
@@ -1685,13 +1809,21 @@
      "outlet": "Santé publique France",
      "item": "laporan rencana panas nasional",
      "date": "annual",
-     "url": "https://www.santepubliquefrance.fr",
+     "url": "https://www.santepubliquefrance.fr/dossiers-thematiques/environnement-et-sante/vagues-de-chaleur",
      "format": "text",
      "speaker": null,
      "affiliation": "Santé publique France",
      "quote": null,
      "quote_status": "to_source",
-     "use": "attribution_required"
+     "use": "attribution_required",
+     "quote_source": {
+      "type": "pending",
+      "url": "https://www.santepubliquefrance.fr/dossiers-thematiques/environnement-et-sante/vagues-de-chaleur",
+      "checked": "2026-11-25",
+      "note": "Kalimat kerja berbahasa Prancis; verifikasi angka resmi Santé publique France sebelum dipakai. Buku memakai ~70.000 untuk Eropa.",
+      "candidate_note": "quote_candidate = kalimat kerja, BUKAN kutipan. Verifikasi ke sumber sebelum dipindah ke quote dan status diubah ke verbatim."
+     },
+     "quote_candidate": "La canicule de 2003 a provoqué près de 15 000 décès en France."
     }
    ],
    "visual_public_domain": [
@@ -1739,7 +1871,12 @@
      "line": "France built the system after 2003. 2022 still killed 61,672.",
      "note": "Adaptasi menurunkan kematian per derajat, bukan menghapusnya."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 18,
@@ -1820,7 +1957,12 @@
      "line": "Germany got cell broadcast in 2023. After the flood.",
      "note": "Peringatan ke semua ponsel di area terdampak."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 19,
@@ -1864,13 +2006,21 @@
      "outlet": "World Bank / IDCOL",
      "item": "dokumentasi dan evaluasi program Solar Home System",
      "date": null,
-     "url": "https://www.worldbank.org",
+     "url": "https://projects.worldbank.org/en/projects-operations/project-detail/P092764",
      "format": "text",
      "speaker": null,
      "affiliation": "World Bank",
      "quote": null,
      "quote_status": "to_source",
-     "use": "attribution_required"
+     "use": "attribution_required",
+     "quote_source": {
+      "type": "pending",
+      "url": "https://projects.worldbank.org/en/projects-operations/project-detail/P092764",
+      "checked": "2026-11-25",
+      "note": "Cek Implementation Completion Report untuk angka final (angka beredar: 4 juta+ sistem). Jangan pakai sebelum ada halaman yang bisa ditunjuk.",
+      "candidate_note": "quote_candidate = kalimat kerja, BUKAN kutipan. Verifikasi ke sumber sebelum dipindah ke quote dan status diubah ke verbatim."
+     },
+     "quote_candidate": "The project installed more than four million solar home systems in off-grid areas of Bangladesh."
     }
    ],
    "visual_public_domain": [
@@ -1918,7 +2068,12 @@
      "line": "Fifty to a hundred watts. Enough for light, a phone, one television.",
      "note": "Kecil, murah, dan mengubah jam belajar anak."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 20,
@@ -1944,13 +2099,21 @@
      "outlet": "CAL FIRE",
      "item": "Camp Fire incident report",
      "date": "2019",
-     "url": "https://www.fire.ca.gov",
+     "url": "https://www.fire.ca.gov/incidents/2018/11/8/camp-fire/",
      "format": "text",
      "speaker": null,
      "affiliation": "California Department of Forestry and Fire Protection",
      "quote": null,
      "quote_status": "to_source",
-     "use": "public_domain"
+     "use": "public_domain",
+     "quote_source": {
+      "type": "pending",
+      "url": "https://www.fire.ca.gov/incidents/2018/11/8/camp-fire/",
+      "checked": "2026-11-25",
+      "note": "Angka CAL FIRE; verifikasi di halaman insiden sebelum dipakai di layar.",
+      "candidate_note": "quote_candidate = kalimat kerja, BUKAN kutipan. Verifikasi ke sumber sebelum dipindah ke quote dan status diubah ke verbatim."
+     },
+     "quote_candidate": "The Camp Fire destroyed 18,804 structures and killed 85 people."
     },
     {
      "outlet": "Epidemiologic Reviews",
@@ -2010,7 +2173,12 @@
      "line": "The trauma lasts years. The budget lasts one season.",
      "note": "Dukungan mental jangka panjang, bukan hanya konseling krisis."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 21,
@@ -2042,13 +2210,19 @@
      "outlet": "UNFCCC",
      "item": "keputusan COP27 dan COP28 tentang loss and damage",
      "date": "2022-11 / 2023-11",
-     "url": "https://unfccc.int",
+     "url": "https://unfccc.int/loss-and-damage-fund",
      "format": "text",
      "speaker": null,
      "affiliation": "UNFCCC",
      "quote": null,
      "quote_status": "to_source",
-     "use": "attribution_required"
+     "use": "attribution_required",
+     "quote_source": {
+      "type": "pending",
+      "url": "https://unfccc.int/loss-and-damage-fund",
+      "checked": "2026-11-25",
+      "note": "Keputusan COP27/COP28 tersedia sebagai dokumen; kutip nomor keputusan, bukan siaran pers."
+     }
     },
     {
      "outlet": "The Guardian",
@@ -2108,7 +2282,12 @@
      "line": "Aid is not compensation.",
      "note": "Keduanya sah, tapi hanya yang kedua mengakui tanggung jawab."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 22,
@@ -2146,25 +2325,41 @@
      "outlet": "BC Coroners Service",
      "item": "Extreme Heat and Human Mortality: A Review of Heat-Related Deaths in B.C. in Summer 2021",
      "date": "2022",
-     "url": "https://www2.gov.bc.ca",
+     "url": "https://www2.gov.bc.ca/assets/gov/birth-adoption-death-marriage-and-divorce/deaths/coroners-service/death-review-panel/extreme_heat_death_review_panel_report.pdf",
      "format": "text",
      "speaker": null,
      "affiliation": "BC Coroners Service",
      "quote": null,
      "quote_status": "to_source",
-     "use": "attribution_required"
+     "use": "attribution_required",
+     "quote_source": {
+      "type": "pending_document",
+      "url": "https://www2.gov.bc.ca/assets/gov/birth-adoption-death-marriage-and-divorce/deaths/coroners-service/death-review-panel/extreme_heat_death_review_panel_report.pdf",
+      "checked": "2026-11-25",
+      "note": "PDF 53 halaman, angka 619 dikonfirmasi oleh liputan CBC/Canadian Press atas laporan ini. Verifikasi kalimat di dalam PDF sebelum menampilkan tanda kutip; angka 619 sendiri aman dipakai.",
+      "candidate_note": "quote_candidate = kalimat kerja, BUKAN kutipan. Verifikasi ke sumber sebelum dipindah ke quote dan status diubah ke verbatim."
+     },
+     "quote_candidate": "Six hundred and nineteen people died from heat during the 2021 heat dome in British Columbia."
     },
     {
      "outlet": "World Weather Attribution",
      "item": "studi atribusi heat dome Pasifik Barat Laut 2021 (Philip et al. 2022)",
      "date": "2022",
-     "url": "https://www.worldweatherattribution.org",
+     "url": "https://www.worldweatherattribution.org/climate-change-made-the-deadly-heat-wave-in-north-america-150-times-more-likely/",
      "format": "text",
      "speaker": null,
      "affiliation": "World Weather Attribution",
      "quote": null,
      "quote_status": "to_source",
-     "use": "attribution_required"
+     "use": "attribution_required",
+     "quote_source": {
+      "type": "pending",
+      "url": "https://www.worldweatherattribution.org/climate-change-made-the-deadly-heat-wave-in-north-america-150-times-more-likely/",
+      "checked": "2026-11-25",
+      "note": "Angka 'at least 150 times' dari studi WWA; verifikasi judul/angka di halaman sebelum dipakai.",
+      "candidate_note": "quote_candidate = kalimat kerja, BUKAN kutipan. Verifikasi ke sumber sebelum dipindah ke quote dan status diubah ke verbatim."
+     },
+     "quote_candidate": "Climate change made the June 2021 Pacific Northwest heat wave at least 150 times more likely."
     }
    ],
    "visual_public_domain": [
@@ -2212,7 +2407,12 @@
      "line": "Six hundred and nineteen deaths in BC. Most over seventy, living alone.",
      "note": "BC Coroners Service 2022."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 23,
@@ -2238,25 +2438,39 @@
      "outlet": "FEWS NET",
      "item": "peta dan proyeksi ketahanan pangan Somalia 2011",
      "date": "2011",
-     "url": "https://fews.net",
+     "url": "https://fews.net/east-africa/somalia",
      "format": "text",
      "speaker": null,
      "affiliation": "Famine Early Warning Systems Network",
      "quote": null,
      "quote_status": "to_source",
-     "use": "public_domain"
+     "use": "public_domain",
+     "quote_source": {
+      "type": "pending",
+      "url": "https://fews.net/east-africa/somalia",
+      "checked": "2026-11-25",
+      "note": "FEWS NET menerbitkan peta dan proyeksi berkala; arsipkan PDF tanggal terbit, jangan tautkan halaman beranda."
+     }
     },
     {
      "outlet": "FAO / FSNAU",
      "item": "Mortality among populations of southern and central Somalia affected by severe food insecurity and famine during 2010-2012",
      "date": "2013",
-     "url": "https://www.fsnau.org",
+     "url": "https://www.fsnau.org/analyses",
      "format": "text",
      "speaker": "Checchi & Robinson",
      "affiliation": "FAO/FSNAU",
      "quote": null,
      "quote_status": "to_source",
-     "use": "attribution_required"
+     "use": "attribution_required",
+     "quote_source": {
+      "type": "pending",
+      "url": "https://www.fsnau.org/analyses",
+      "checked": "2026-11-25",
+      "note": "Angka 258.000 dari FSNAU/FAO 2013; verifikasi di laporan sebelum dipakai.",
+      "candidate_note": "quote_candidate = kalimat kerja, BUKAN kutipan. Verifikasi ke sumber sebelum dipindah ke quote dan status diubah ke verbatim."
+     },
+     "quote_candidate": "An estimated 258,000 people died in Somalia between October 2010 and April 2012, and more than half were children under five."
     }
    ],
    "visual_public_domain": [
@@ -2303,7 +2517,12 @@
      "line": "It was access, not prediction.",
      "note": "Al-Shabaab membatasi wilayah; agensi menunda masuk."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   },
   {
    "id": 24,
@@ -2340,6 +2559,12 @@
      "value": "mengurangi kerusakan sekitar 30%",
      "source": "buku bab 24",
      "verified": true
+    },
+    {
+     "claim": "relawan Cyclone Preparedness Programme",
+     "value": "lebih dari 76.000 relawan, separuh perempuan",
+     "source": "BBC Future, 20 Jul 2022",
+     "verified": true
     }
    ],
    "clips": [
@@ -2347,37 +2572,58 @@
      "outlet": "CRED / EM-DAT",
      "item": "data siklon Bhola dan Amphan",
      "date": "2023",
-     "url": "https://www.emdat.be",
+     "url": "https://www.emdat.be/emdat_db/",
      "format": "text",
      "speaker": null,
      "affiliation": "Centre for Research on the Epidemiology of Disasters",
      "quote": null,
      "quote_status": "to_source",
-     "use": "attribution_required"
+     "use": "attribution_required",
+     "quote_source": {
+      "type": "registration",
+      "url": "https://www.emdat.be/emdat_db/",
+      "checked": "2026-11-25",
+      "note": "Halaman basis data EM-DAT (pendaftaran untuk ekspor). Pakai hanya sebagai rujukan basis data; angka tampil di layar harus dari WMO/BBC."
+     }
     },
     {
      "outlet": "WMO",
      "item": "State of the Global Climate",
      "date": "2023",
-     "url": "https://wmo.int",
+     "url": "https://wmo.int/news/media-centre/tropical-cyclone-amphan-highlights-value-of-multi-hazard-early-warnings",
      "format": "text",
      "speaker": null,
      "affiliation": "World Meteorological Organization",
      "quote": null,
      "quote_status": "to_source",
-     "use": "cc_attribution"
+     "use": "cc_attribution",
+     "quote_source": {
+      "type": "pending",
+      "url": "https://wmo.int/news/media-centre/tropical-cyclone-amphan-highlights-value-of-multi-hazard-early-warnings",
+      "checked": "2026-11-25",
+      "note": "WMO sendiri menulis angka ini; verifikasi kalimat persis di halaman berita WMO. Angka 300.000 = estimasi resmi WMO, bukan 500.000.",
+      "candidate_note": "quote_candidate = kalimat kerja, BUKAN kutipan. Verifikasi ke sumber sebelum dipindah ke quote dan status diubah ke verbatim."
+     },
+     "quote_candidate": "Cyclone Amphan in 2020 caused 26 deaths in Bangladesh, compared with 300,000 from Cyclone Bhola in 1970."
     },
     {
-     "outlet": "Cyclone Preparedness Programme Bangladesh",
-     "item": "program relawan peringatan dan evakuasi",
-     "date": null,
-     "url": "https://www.cpp.gov.bd",
+     "outlet": "BBC Future",
+     "item": "The country trailblazing the fight against disasters",
+     "date": "2022-07-20",
+     "url": "https://www.bbc.com/future/article/20220719-how-bangladesh-system-fights-cyclones-climate-disasters",
      "format": "text",
-     "speaker": null,
-     "affiliation": "CPP, Bangladesh",
-     "quote": null,
-     "quote_status": "to_source",
-     "use": "attribution_required"
+     "speaker": "John Harding",
+     "affiliation": "World Meteorological Organization (CREWS secretariat)",
+     "quote": "Bangladesh has really been a bit of a trailblazer when it comes to seeing what an effective early warning system can look like.",
+     "quote_status": "verbatim",
+     "use": "attribution_required",
+     "quote_source": {
+      "type": "page_verbatim",
+      "url": "https://www.bbc.com/future/article/20220719-how-bangladesh-system-fights-cyclones-climate-disasters",
+      "checked": "2026-11-25",
+      "note": "Dikutip kata per kata dari BBC Future, 20 Jul 2022. Format klip: quote card (teks) atau potongan audio wawancara <=12 dtk dengan atribusi di layar."
+     },
+     "licence_note": "BBC Future: teks, jadi quote card. Kalau memakai footage BBC, fair use pendek + komentar dominan."
     }
    ],
    "visual_public_domain": [
@@ -2425,7 +2671,12 @@
      "line": "A twenty-four hour warning cuts damage by about thirty per cent.",
      "note": "Tindakan termurah yang tersedia untuk siapa pun."
     }
-   ]
+   ],
+   "beat_language": {
+    "spoken": "en",
+    "note": "id",
+    "spoken_field": "line"
+   }
   }
  ],
  "shorts_spec": {
@@ -2450,9 +2701,13 @@
   "no_music": true,
   "no_price_in_video": true,
   "beats_per_chapter": 4,
-  "utm_pattern": "https://setyowisodo.gumroad.com/l/surviving-the-future?utm_source=youtube&utm_medium=shorts&utm_campaign=ch{NN}&utm_content=s{N}"
+  "utm_pattern": "https://setyowisodo.gumroad.com/l/surviving-the-future?utm_source=youtube&utm_medium=shorts&utm_campaign=ch{NN}&utm_content=s{N}",
+  "spoken_language": "en",
+  "spoken_field": "line",
+  "hook_field_role": "production note (id) — tidak pernah dibacakan atau ditampilkan",
+  "hook_max_words_rule": "berlaku pada line (teks yang dibacakan), bukan pada hook"
  },
- "platform_facts_checked": "2026-10-18",
+ "platform_facts_checked": "2026-11-25",
  "youtube": {
   "shorts_max_seconds": 180,
   "shorts_classified_by": "aspect ratio square or vertical + duration, automatic",
@@ -2493,17 +2748,58 @@
  },
  "economics": {
   "book_price_usd": 45,
-  "gumroad_fee": "10% + $0.50 direct; 30% discover",
-  "net_per_book_usd_approx": 40,
+  "gumroad_fee": "10% + $0.50 direct, ditambah kartu 2.9% + $0.30; 30% flat Discover termasuk proses",
+  "net_per_book_usd": {
+   "direct": 38.4,
+   "discover": 31.5,
+   "blended_80_20": 37.02,
+   "working": "45 - 4.50 - 0.50 - 1.31 - 0.30 = 38.39 (dibulatkan 38.40); Discover 45 x 0.70 = 31.50"
+  },
+  "net_per_book_usd_approx": 38.4,
   "shorts_rpm_range_usd": [
    0.03,
    0.1
   ],
-  "one_book_equals_shorts_views": [
+  "shorts_rpm_reported_2026": {
+   "typical": [
+    0.07,
+    0.2
+   ],
+   "us_audience": 0.328,
+   "source": "AIR Media-Tech 2026, 274 kanal (laporan industri, bukan YouTube)",
+   "status": "unofficial"
+  },
+  "one_book_equals_ad_revenue_shorts_views": [
+   384000,
+   1280000
+  ],
+  "one_book_funnel_views_cold": [
+   11000,
+   200000
+  ],
+  "one_book_funnel_views_warm": [
    10000,
    30000
   ],
-  "longform_views_needed_for_4000_hours": 100000
+  "funnel_assumptions": {
+   "click_rate": "0.05%-0.3% dari views ke Gumroad",
+   "click_to_sale": "1%-3%",
+   "status": "asumsi, belum diukur di kanal ini; ganti dengan data 12 Shorts pertama",
+   "revenue_per_1000_views_usd": [
+    0.19,
+    3.49
+   ]
+  },
+  "longform_views_needed_for_4000_hours": 100000,
+  "longform_rpm_range_usd": [
+   2.5,
+   5.0
+  ],
+  "longform_100k_views_usd": [
+   250,
+   500
+  ],
+  "legacy_note": "Angka lama '1 buku = 10.000-30.000 views' dihapus dari semua berkas. Itu asumsi funnel audiens hangat, bukan ekuivalensi iklan."
  },
  "benchmarks_unofficial": {
   "note": "YouTube does not publish benchmark. These are creator-data working targets, not rules.",
@@ -2512,5 +2808,15 @@
   "retention_0_30_longform_target": 0.4,
   "kill_after_shorts_if_below": 0.5,
   "kill_after_shorts_count": 12
+ },
+ "revision": {
+  "version": "1.2",
+  "date": "2026-11-25",
+  "reason": "review Cil 25 Nov 2026 — P0-1 ekonomi, P0-3 kontradiksi Shorts, P2-1 bahasa beat, P2-2 versi skema",
+  "breaking": [
+   "economics.one_book_equals_shorts_views dihapus; diganti tiga kunci eksplisit",
+   "beat: teks yang dibacakan adalah line (en); hook (id) = catatan produksi"
+  ],
+  "validator": "validate_kartu_klip.py"
  }
 }

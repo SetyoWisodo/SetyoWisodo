@@ -7,20 +7,50 @@ eksekusi yang bisa dijalankan tanpa berpikir ulang setiap hari.
 
 # 1. Ritme mingguan
 
-Satu minggu = satu bab. Empat Shorts + satu long-form + satu quote card.
+Satu minggu = satu bab, **tapi hanya kalau klipnya sudah siap.** Kalau belum,
+minggu itu dipakai untuk verifikasi, bukan render. Ini bukan penurunan target;
+ini supaya video pertama tidak terbit dengan kutipan yang belum dicek.
+
+## 1a. Minggu verifikasi (wajib, sekali di awal)
+
+Sebelum Short pertama, empat bab yang klipnya sudah `verbatim` diverifikasi
+ulang dan sisanya dipetakan:
+
+| Kerja | Keluaran | Waktu |
+|---|---|---|
+| Buka 4 bab siap render (1, 2, 8, 13), cek URL, transkrip klip, pilih detik | 4 manifes aset | 6–8 jam |
+| Untuk 20 bab sisanya: putuskan per klip — verifikasi atau ganti quote card | tabel keputusan 39 klip | 3–4 jam |
+| Cek kode diskon di Gumroad, catat tanggal | 1 baris di `00` §1.3 | 15 mnt |
+
+Jalankan `python3 validate_kartu_klip.py --siap` untuk daftar bab yang boleh
+dirender. Daftar itu berubah setiap kali satu klip diverifikasi, dan itu
+satu-satunya cara memantau kemajuan verifikasi.
+
+## 1b. Ritme produksi (setelah minimal 4 bab siap)
 
 | Hari | Kerja | Keluaran | Waktu |
 |---|---|---|---|
-| **Senin** | Baca bab di `03_kartu_klip.json`, pilih 4 beat | 4 hook terpilih | 60 mnt |
-| **Selasa** | Tulis 4 naskah Short (155 kata @60 dtk) | 4 naskah | 90 mnt |
+| **Senin** | Baca bab di `03_kartu_klip.json`, pilih 4 beat | 4 beat terpilih | 60 mnt |
+| **Selasa** | Tulis 4 naskah Short dari `line` (bukan `hook`) | 4 naskah | 90 mnt |
 | **Rabu** | Render Short s1 + s2, jalankan gerbang | 2 Short siap | 90 mnt |
 | **Kamis** | Render Short s3 + s4, tulis naskah long-form | 2 Short + 1 naskah | 90 mnt |
 | **Jumat** | Render long-form, jalankan gerbang | 1 long-form | 120 mnt |
 | **Sabtu** | Upload semua, tulis deskripsi + UTM | 5 video terbit | 60 mnt |
 | **Minggu** | Baca dashboard, putuskan minggu depan | 1 keputusan | 30 mnt |
 
-Total: sekitar 9 jam per minggu per bab. Untuk 24 bab: sekitar 216 jam, atau
-6–9 bulan pada ritme ini.
+**Total realistis: 11–13 jam per bab**, bukan 9 — selisihnya adalah verifikasi
+klip, cek lisensi per aset (39 klip tersebar di 20+ domain, jadi tidak bisa
+sekali jalan), outreach izin untuk wawancara penting, pembuatan manifes aset,
+dan review manusia. Untuk 24 bab: **264–312 jam**, atau 7–11 bulan pada ritme
+satu bab per minggu.
+
+Kalau Anda memilih TTS (opsi B di `00` §1.4), tidak ada tambahan rekaman. Kalau
+memilih host manusia (A) atau hybrid (C), tambahkan 60–90 menit per bab untuk
+rekaman, dan ritme menjadi satu bab per 10 hari.
+
+**Cara mempercepat tanpa menurunkan mutu:** render dulu 4 bab yang sudah siap
+(1, 2, 8, 13) sambil memverifikasi bab berikutnya. Pipeline berjalan, verifikasi
+berjalan, dan tidak ada video yang menunggu.
 
 **Aturan:** kalau Rabu sudah lewat dan dua Short belum jadi, **jangan**
 mengejar ketertinggalan dengan menurunkan kualitas. Kurangi jumlah Short minggu
@@ -33,8 +63,10 @@ itu. Volume tidak pernah menyelamatkan hook yang lemah.
 Jalankan berurutan. Jangan melompat.
 
 ```
+[ 0 ] Cek bab siap                     -> python3 validate_kartu_klip.py --siap
 [ 1 ] Ambil beat dari 03_kartu_klip.json  -> id, angle, hook, line, note
-[ 2 ] Cek hook <= 12 kata                 -> kalau lebih, potong
+      (yang dibacakan = line / Inggris; hook = catatan produksi)
+[ 2 ] Cek line <= 12 kata                 -> kalau lebih, potong (hook = catatan)
 [ 3 ] Tulis naskah 6 bagian               -> hook/peristiwa/angka/putaran/payoff/jembatan
 [ 4 ] Hitung kata                          -> 60 dtk = 150-160 kata
 [ 5 ] Pilih aset                           -> quote card dulu, citra PD kedua
@@ -44,9 +76,10 @@ Jalankan berurutan. Jangan melompat.
 [ 9 ] Jalankan 10 gerbang (07 bagian 12)
 [10 ] Tulis judul <=60, deskripsi, UTM
 [11 ] Catat prediksi sebelum upload        -> lihat bagian 5
+[12 ] Catat original_element               -> 1 kalimat, wajib (04 bagian 4)
 ```
 
-Langkah 11 tidak biasa, dan itu intinya. Lihat bagian 5.
+Dua langkah terakhir tidak biasa, dan itu intinya. Lihat bagian 5.
 
 ---
 
@@ -201,7 +234,7 @@ Ketiganya memakai bahan yang sudah ada di `03_kartu_klip.json`.
 
 ---
 
-# 10. Ringkasan satu halaman (tempel di dinding)
+# 9b. Ringkasan satu halaman (tempel di dinding)
 
 ```
 SHORTS 45-75 dtk, vertikal
@@ -225,3 +258,84 @@ BERHENTI KALAU
   20 Shorts 0 klik -> ganti CTA
   3 bulan 0 penjualan -> tinjau halaman produk
 ```
+
+---
+
+# 10. Jam upload, dan mengapa 03.00 WIB bukan waktu yang buruk
+
+Audiens target ada di AS dan Eropa. YouTube tidak menghukum jam upload, tapi
+penonton pertama menentukan apakah video dapat dorongan awal — dan penonton
+pertama datang saat mereka bangun, bukan saat Anda selesai render.
+
+| Video | Jam WIB | Setara London | Setara New York | Alasan |
+|---|---|---|---|---|
+| Shorts | 05.00–07.00 | 22.00–00.00 (hari sebelumnya) | 17.00–19.00 | malam di AS, pagi di Eropa |
+| Long-form | 20.00–21.00 | 13.00–14.00 | 08.00–09.00 | siang Eropa, pagi AS |
+
+Aturan: **satu jadwal, dipegang 8 minggu, jangan diubah-ubah.** Kalau angka
+baseline sudah ada, uji dua jadwal berbeda selama 4 minggu dan bandingkan
+engaged views 48 jam pertama. Jangan mengubah jadwal setiap minggu — itu
+membuat data tidak bisa dibandingkan.
+
+---
+
+# 11. Dashboard: enam kolom, satu alat
+
+Alat yang dipakai: **satu spreadsheet** (Google Sheets cukup). Bukan dasbor
+buatan sendiri, bukan skrip dulu. Skrip dibuat setelah ada 12 baris data —
+sebelum itu, tidak ada yang perlu diotomatiskan.
+
+Kolom (satu baris per video):
+
+```
+tanggal | kode (ch13-s2) | durasi | viewed_vs_swiped | avg_pct_viewed |
+engaged_views | retention_0_30 | klik_utm | prediksi | selisih | catatan
+```
+
+Tiga aturan pengisian:
+
+1. Isi **48 jam setelah upload**, bukan 7 hari. Angka awal adalah yang
+   menentukan distribusi lanjutan.
+2. `prediksi` diisi **sebelum** upload (`10` §5), `selisih` dihitung otomatis.
+3. `catatan` hanya untuk satu hal: apa yang Anda ubah di video ini dibanding
+   video sebelumnya. Kalau kosong, tidak ada yang dipelajari.
+
+---
+
+# 12. Komentar: SOP tiga kalimat
+
+Kanal iklim akan dikoreksi orang, dan biasanya koreksinya benar sebagian. Nada
+balasan pertama menentukan nada seluruh komentar di bawahnya.
+
+**Kalau komentarnya koreksi yang benar:**
+> "You're right — [angka] is [angka yang benar], from [sumber]. I'll pin this.
+> The video's point stands, but the figure needs fixing."
+
+Lalu **sematkan komentar itu**, dan tambahkan koreksi di deskripsi. Jangan
+hapus komentar, jangan berdebat.
+
+**Kalau komentarnya salah tapi masuk akal:**
+> "That's the common reading. The primary source says [angka] — [sumber], page
+> [n]. Happy to be corrected if you have a different source."
+
+**Kalau komentarnya menyerang tanpa isi:** jangan dibalas. Satu balasan
+emosional menghasilkan dua puluh.
+
+**Kalau ada klaim yang berpotensi menyesatkan dan menyebar:** koreksi di
+komentar tersemat + satu Short baru yang membahas klaim itu. Jangan diamkan;
+diam dibaca sebagai pembenaran.
+
+---
+
+# 13. Kalau salah angka sudah terlanjur terbit
+
+Ini bukan skenario hipotetis; ini yang paling mungkin terjadi.
+
+1. **Jangan hapus videonya.** Menghapus membuang riwayat dan membuat koreksi
+   tidak bisa ditemukan.
+2. **Tambahkan koreksi di baris pertama deskripsi**, dengan tanggal:
+   "CORRECTION, 12 Dec 2026: an earlier version said X. It is Y (source)."
+3. **Sematkan komentar koreksi.**
+4. **Catat di dashboard** kolom `catatan`, supaya tidak terulang di bab lain.
+5. Kalau angkanya jadi inti video (bukan detail), buat Short koreksi. Itu
+   konten orisinal, bukan pengakuan salah — dan justru yang paling dipercaya.
