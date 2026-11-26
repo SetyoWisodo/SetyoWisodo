@@ -6,12 +6,12 @@ Dihasilkan otomatis oleh `book2/tools/audit_rujukan.py`.
 
 | Metrik | Nilai | Ambang rujukan | Status |
 |---|---:|---:|---|
-| Kata | 9.838 | — | — |
-| Sitasi dalam teks | 52 | ≥ 1 per 500 kata | lolos |
-| Sitasi per 1.000 kata | 5.29 | ≥ 2,0 | lolos |
-| Sumber unik | 30 | ≥ 40 | gagal |
+| Kata | 20.192 | — | — |
+| Sitasi dalam teks | 29 | ≥ 1 per 500 kata | gagal |
+| Sitasi per 1.000 kata | 1.44 | ≥ 2,0 | gagal |
+| Sumber unik | 26 | ≥ 40 | gagal |
 | Sitasi yatim (tak ada di bibliografi) | 0 | 0 | lolos |
-| Kalimat berangka tanpa sumber | 5 | ≤ 9 | lolos |
+| Kalimat berangka tanpa sumber | 12 | ≤ 20 | lolos |
 | Klaim di buku besar bukti | 45 | ≥ 120 | gagal |
 | Klaim terverifikasi | 40 | semua | gagal |
 
@@ -21,18 +21,46 @@ Tidak ada. Setiap sitasi punya entri bibliografi.
 
 ## Kalimat berangka tanpa sumber
 
-Total: **5** kalimat.
+Total: **12** kalimat.
 
-### `03-ch02.md` — 2
+### `02-bab01.md` — 1
 
-- In Europe, a 2 °C difference in a heatwave can separate a normal summer from a mass-casualty event, because the population's physiological margin is small at the top of the distribution.
-- A mean temperature rise of 2 °C does not mean every day is 2 °C warmer.
+- Kesimpulan praktisnya sering tidak nyaman: pada rentang 10–20 tahun, sebagian besar pekerjaan penyelamatan ada di sisi paparan dan kerentanan, bukan di sisi emisi.
 
-### `05-ch04.md` — 3
+### `03-bab02.md` — 2
 
-- The practical threshold for a labourer in the sun is much lower than 35 °C.
-- A dry 45 °C in a desert is survivable with water and shade, while humid heat at a lower temperature is not.
-- A humid 35 °C in a tropical city is not, and it is harder to explain to a population that has lived with such heat for generations without wet-bulb language.
+- Sebuah jalan bisa menahan genangan setinggi 30 sentimeter tanpa masalah, dan menjadi tidak bisa dilalui pada 40 sentimeter.
+- Menambah kapasitas drainase sebesar 10 persen mungkin tidak mengubah apa pun kalau hujan yang menjadi masalah adalah hujan yang 40 persen di atas normal.
+
+### `05-bab04.md` — 3
+
+- Suhu melewati 40 °C di Inggris untuk pertama kalinya dalam catatan.
+- Portugal mencatat 47 °C.
+- Pada suhu bola basah 31 °C, orang tua dan penderita penyakit kronis mulai mengalami kesulitan, terutama kalau tidak punya akses ke pendingin atau air.
+
+### `07-bab06.md` — 1
+
+- Harga beras dunia naik sekitar 30 persen dalam beberapa bulan.
+
+### `11-bab10.md` — 1
+
+- Angka resmi awal menyebut 64 kematian.
+
+### `12-bab11.md` — 1
+
+- Lebih dari 130 orang meninggal di Jerman, dan puluhan lainnya di Belgia.
+
+### `13-bab12.md` — 1
+
+- Tuvalu adalah negara kepulauan di Pasifik dengan luas daratan sekitar 26 kilometer persegi dan ketinggian rata-rata di bawah lima meter.
+
+### `15-bab14.md` — 1
+
+- Ketika prakiraan iklim menunjukkan rentang — misalnya, kenaikan muka laut antara 0,4 dan 0,8 meter pada 2100 — reaksi yang umum adalah menunggu sampai angkanya lebih pasti.
+
+### `16-bab15.md` — 1
+
+- Air setinggi 15 sentimeter yang mengalir deras bisa menjatuhkan orang dewasa; setinggi 30 sentimeter bisa menyeret mobil.
 
 ## Klaim yang belum terverifikasi
 

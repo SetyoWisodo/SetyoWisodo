@@ -41,7 +41,7 @@ YEAR = r"(?:18|19|20)\d{2}[a-z]?"
 # Nama (Tahun)  |  (Nama, Tahun)  |  (Nama et al., Tahun; Nama, Tahun)
 NARASI = re.compile(r"\b([A-Z][A-Za-zÀ-ÿ\-']+(?:\s+(?:et al\.|dkk\.|&\s+[A-Z][A-Za-zÀ-ÿ\-']+))?)\s+\(" + YEAR + r"\)")
 # penanda baru: (@kunci) atau @kunci, boleh beberapa dipisah spasi/koma
-KUNCI = re.compile(r"@([a-z]+\d{4}[a-z]?)")
+KUNCI = re.compile(r"@([a-z]+\d{4}[a-z]*)")
 KURUNG = re.compile(r"\(([^()]{2,240})\)")
 
 # Angka yang layak diperiksa: punya satuan/konteks kuantitatif, bukan tahun
