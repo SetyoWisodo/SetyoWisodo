@@ -214,6 +214,9 @@
   // Judul bab yang panjang dipotong pada pisahan "—" supaya kepala halaman
   // tidak membungkus menjadi dua baris.
   let short-title(h) = {
+    // Judul tanpa nomor (pengantar, daftar pustaka, catatan sumber) tidak
+    // menaikkan counter heading; pakai judulnya sendiri, bukan judul bab terakhir.
+    if h.numbering == none { return h.body }
     let n = str(counter(heading).at(h.location()).first())
     let cand = chapter-short.at(n, default: "")
     if cand != "" { cand } else { h.body }
@@ -225,6 +228,12 @@
     for e in ends {
       let nxt = starts.filter(s => s > e)
       if nxt.len() > 0 and e < p and p < nxt.first() { blank = true }
+    }
+    // halaman sebelum halaman pembuka (daftar isi, pembuka bagian) juga kosong
+    let e = ends.filter(e => e < p)
+    if e.len() > 0 {
+      let nxt = starts.filter(s => s > e.last() and s >= p)
+      if nxt.len() > 0 and nxt.first() == p { blank = true }
     }
     blank
   }
