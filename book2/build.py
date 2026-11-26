@@ -128,6 +128,47 @@ def build(lang: str, out_pdf: pathlib.Path) -> pathlib.Path:
     gen = GEN / lang
     gen.mkdir(parents=True, exist_ok=True)
 
+    # judul pendek pilihan, supaya kepala halaman terbaca wajar (bukan potongan
+    # frasa) dan tetap muat satu baris pada 9pt
+    SHORT = {
+        "id": {
+            2: "Krisis Tidak Datang Sekaligus",
+            3: "Indonesia sebagai Pembaca",
+            4: "Panas, Pembunuh Tak Terlihat",
+            5: "Air: Terlalu Banyak",
+            6: "Pangan: Satu Panen Gagal",
+            7: "Penyakit yang Bergerak",
+            8: "Uang: Asuransi dan Bantuan",
+            9: "Infrastruktur sebagai Rantai",
+            10: "Modal Sosial",
+            11: "Pengetahuan: Ramalan",
+            12: "Perpindahan",
+            13: "Keadilan: Siapa Mengemisikan",
+            14: "Ketidakpastian",
+            15: "Rumah Tangga",
+            16: "Komunitas dan Kota",
+            17: "Membaca Klaim",
+        },
+        "en": {
+            2: "Hazard, Exposure, Vulnerability",
+            3: "Crisis Does Not Arrive Alone",
+            5: "Heat, the Invisible Killer",
+            6: "Water: Too Much",
+            7: "Food: One Harvest Fails",
+            8: "Disease That Moves",
+            9: "Money: Insurance and Aid",
+            10: "Infrastructure as a Chain",
+            11: "Social Capital",
+            12: "Knowledge: Forecasts",
+            13: "Displacement",
+            14: "Justice: Who Emits",
+            15: "Uncertainty",
+            16: "Households",
+            17: "Communities and Cities",
+            18: "Reading the Claims",
+        },
+    }
+
     # judul pendek per bab, untuk kepala halaman
     titles = []
     num = 0
@@ -139,7 +180,25 @@ def build(lang: str, out_pdf: pathlib.Path) -> pathlib.Path:
                 continue
             num += 1
             title = line[2:].split("{")[0].strip()
-            titles.append((num, title.split("—")[0].strip()))
+            short = title.split("—")[0].strip()
+            # kepala halaman harus muat satu baris pada 9pt: potong pada koma
+            # atau titik dua terakhir yang masih di bawah ±34 karakter.
+            if len(short) > 30:
+                for sep in (": ", ", "):
+                    if sep in short:
+                        head = short.split(sep)[0].strip()
+                        if 4 < len(head) <= 34:
+                            short = head
+                            break
+                else:
+                    # tidak ada pemisah: potong pada kata terakhir yang muat
+                    words = short.split()
+                    while len(" ".join(words)) > 30:
+                        words.pop()
+                    if len(words) >= 2:
+                        short = " ".join(words)
+            short = SHORT.get(lang, {}).get(num, short)
+            titles.append((num, short))
 
     short_typ = "(" + ", ".join(f'"{n}": "{esc(v)}"' for n, v in titles) + ",)"
 
