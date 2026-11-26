@@ -161,22 +161,23 @@ def build(lang: str, out_pdf: pathlib.Path) -> pathlib.Path:
             17: "Membaca Klaim",
         },
         "en": {
-            2: "Hazard, Exposure, Vulnerability",
-            3: "Crisis Does Not Arrive Alone",
-            5: "Heat, the Invisible Killer",
-            6: "Water: Too Much",
-            7: "Food: One Harvest Fails",
-            8: "Disease That Moves",
-            9: "Money: Insurance and Aid",
-            10: "Infrastructure as a Chain",
-            11: "Social Capital",
-            12: "Knowledge: Forecasts",
-            13: "Displacement",
-            14: "Justice: Who Emits",
-            15: "Uncertainty",
-            16: "Households",
-            17: "Communities and Cities",
-            18: "Reading the Claims",
+            1: "Hazard, Exposure, Vulnerability",
+            2: "Crisis Does Not Arrive Alone",
+            3: "Indonesia as Reader",
+            4: "Heat, the Invisible Killer",
+            5: "Water: Too Much",
+            6: "Food: One Harvest Fails",
+            7: "Disease That Moves",
+            8: "Money: Insurance and Aid",
+            9: "Infrastructure as a Chain",
+            10: "Social Capital",
+            11: "Knowledge: Forecasts",
+            12: "Displacement",
+            13: "Justice: Who Emits",
+            14: "Uncertainty",
+            15: "Households",
+            16: "Communities and Cities",
+            17: "Reading the Claims",
         },
     }
 
@@ -184,6 +185,9 @@ def build(lang: str, out_pdf: pathlib.Path) -> pathlib.Path:
     titles = []
     num = 0
     for f in files:
+        # 00-* dan 99-* tidak menaikkan counter bab
+        if f.name.startswith(("00-", "99-")):
+            continue
         for line in f.read_text(encoding="utf-8").splitlines():
             if not line.startswith("# "):
                 continue
