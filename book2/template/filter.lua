@@ -129,7 +129,12 @@ local function Div(d)
     local num = d.attributes["number"] or ""
     local ttl = d.attributes["title"] or ""
     if is_typst then
-      local blocks = { pandoc.RawBlock("typst", string.format('#part-page(number: "%s", title: "%s", lang: "%s")', tesc(num), tesc(ttl), lang)) }
+      local paras0 = {}
+      for _, b in ipairs(d.content) do
+        if b.t == "Para" then table.insert(paras0, pandoc.utils.stringify(b.content)) end
+      end
+      local blurb = paras0[1] or ""
+      local blocks = { pandoc.RawBlock("typst", string.format('#part-page(number: "%s", title: "%s", blurb: "%s", lang: "%s")', tesc(num), tesc(ttl), cesc(blurb), lang)) }
       -- isi div = catatan bagian (satu paragraf); cetak kecil di bawah judul
       -- paragraf pertama = anak judul; sisanya = catatan
       local paras = {}

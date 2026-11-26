@@ -65,7 +65,7 @@
   #text(size: 12pt, style: "italic", fill: muted, body)
 ]
 
-#let part-page(number: "", title: "", lang: "en") = {
+#let part-page(number: "", title: "", blurb: "", lang: "en") = {
   [#metadata("part-pad") <chend>]
   pagebreak(to: "odd", weak: true)
   [#metadata(L.at(lang).part + " " + number) <partpage>]
@@ -76,6 +76,10 @@
     #line(length: 22%, stroke: 0.7pt + accent)
     #v(16pt)
     #heading(level: 1, numbering: none, supplement: [Part], outlined: true, bookmarked: true)[#title]
+    #if blurb != "" [
+      #v(18pt)
+      #block(width: 76%, align(center, text(font: serif, size: 11pt, style: "italic", fill: muted, blurb)))
+    ]
     #v(16pt)
   ]
   [#metadata("part-end") <partend>]
