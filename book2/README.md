@@ -33,15 +33,20 @@ Tiap bab: kasus pembuka → mekanisme → bukti → **kotak metode** → kontra-
 
 | | Inggris | Indonesia |
 |---|---|---|
-| Berkas bab ditulis | 18/18 | 4/18 ditulis ulang ber-sitasi |
-| Kata | 26.259 | 20.212 |
-| Halaman PDF | 123 | 111 |
-| Sitasi dalam teks | 86 | 29 |
-| Sumber unik dikutip | 47 | 26 |
+| Berkas bab ditulis | 19/19 | 19/19 |
+| Kata (sumber .md) | 72.901 | 62.632 |
+| Halaman PDF | 259 | 281 |
+| Sitasi dalam teks | 204 | 204 |
+| Sumber unik dikutip | 54 | 54 |
 | Sitasi yatim | 0 | 0 |
+| Kalimat berangka tanpa sumber | 8 | 37 |
+| Klaim di buku besar bukti | 145 | 145 |
+| Klaim terverifikasi | 145/145 | 145/145 |
 
-Edisi Inggris **lengkap dan dibangun**. Edisi Indonesia masih memakai bab lama
-(ber-sitasi baru 4 bab) dan perlu diselaraskan dengan struktur Inggris.
+Kedua edisi **lengkap dan dibangun**. Semua gate audit lolos: kepadatan sitasi
+≥2/1.000 kata, ≥40 sumber unik, 0 yatim, ≤1 kalimat berangka tanpa sumber per
+1.000 kata, dan ≥120 baris `klaim.csv` terverifikasi. Laporan per bahasa:
+`reference/laporan_audit_id.md` dan `reference/laporan_audit_en.md`.
 
 ## Build
 
@@ -63,23 +68,25 @@ Toolchain tidak persisten di sandbox; pasang ulang tiap sesi baru.
 - `src/id/` — `00-pengantar`, `02-bab01`…`99-pustaka`
 - `template/book.typ` — 6×9 in, Source Serif 4 + Source Sans 3, `#part-page(blurb:)`
 - `template/filter.lua` — `::: {.box}`, `::: lead`, `::: {.part}`, `[@a; @b]` → `#cite-group`
-- `reference/bibliografi.csv` — 79 entri; `reference/klaim.csv` — 45 klaim
+- `reference/bibliografi.csv` — 87 entri; `reference/klaim.csv` — 145 klaim
 - `reference/BLUEPRINT_EN.md` — kerangka, gaya, aturan sumber
 - `tools/audit_rujukan.py` — audit kepadatan sitasi, yatim, angka tanpa sumber
 - `publish/` — PDF, EPUB, DOCX, sampul untuk kedua bahasa
 
 ## Angka
 
-- **EN** — 123 hlm, 26.259 kata, 86 sitasi, 47 sumber, 0 yatim,
-  5 kalimat berangka tanpa sumber. PDF 778.573 B.
-- **ID** — 111 hlm, 20.212 kata, 29 sitasi, 26 sumber, 0 yatim, 12 kalimat berangka.
-  PDF 643.874 B.
+- **EN** — 259 hlm, 72.901 kata, 204 sitasi, 54 sumber, 0 yatim,
+  8 kalimat berangka tanpa sumber. `publish/en.pdf` 1.753.791 B.
+- **ID** — 281 hlm, 62.632 kata, 204 sitasi, 54 sumber, 0 yatim,
+  37 kalimat berangka tanpa sumber. `publish/id.pdf` 1.739.663 B.
+- Turunan: EPUB 337.986 B (EN) / 341.831 B (ID); DOCX 207.313 B / 194.096 B;
+  sampul JPG 200.908 B / 209.746 B.
 
 ## Catatan sumber
 
-- Setiap angka wajib punya baris di `reference/klaim.csv`: 40/45 terverifikasi ke sumber primer.
+- Setiap angka wajib punya baris di `reference/klaim.csv`: 145 baris, semuanya terverifikasi ke sumber.
 - Verifikasi mengubah empat angka: garis pantai **99.093 km**, beras **+10%**,
   Jakarta **1–15 cm/th (maks 28)**, Texas **14,4 juta**.
 - Kesepakatan cakupan: sitasi + kotak angka + kotak metode + daftar baca.
   **Tanpa glosarium, soal diskusi, atau latihan riset.**
-- Versi Inggris lebih dulu; versi Indonesia menyusul.
+- Versi Inggris lebih dulu; versi Indonesia diterjemahkan dari EN final dan kini sepadan strukturnya (19 berkas, jumlah bagian per bab sama).
