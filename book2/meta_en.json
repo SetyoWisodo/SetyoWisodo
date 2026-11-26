@@ -1,0 +1,50 @@
+{
+ "slug": "Understanding_Crisis",
+ "title": "Understanding Crisis",
+ "subtitle": "Why Climate Disasters Are Social Disasters",
+ "author": "Setyo Wisodo",
+ "year": "2026",
+ "publisher": "Independently published",
+ "lang": "en",
+ "contents_label": "Contents",
+ "index_label": "Index",
+ "dedication": "For those who lost their homes before anyone agreed it was a disaster.",
+ "keywords": [
+  "climate crisis",
+  "vulnerability",
+  "resilience",
+  "disaster policy",
+  "Indonesia",
+  "adaptation",
+  "climate justice",
+  "reference"
+ ],
+ "copyright": {
+  "rights_short": "© 2026 Setyo Wisodo. All rights reserved.",
+  "lines": [
+   "*Understanding Crisis: Why Climate Disasters Are Social Disasters*",
+   "© 2026 Setyo Wisodo. All rights reserved.",
+   "No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means — electronic, mechanical, photocopying, recording, or otherwise — without the prior written permission of the author, except for brief quotations in reviews and certain non-commercial uses permitted by applicable copyright law.",
+   "",
+   "First edition, 2026.",
+   "Published independently.",
+   "",
+   "Figures in this book are drawn from the sources named in the text and listed in the reference section. Where sources disagree, the disagreement is stated rather than averaged.",
+   "This book is a reference work developed from Chapter 1 of *Surviving the Future: Crisis, Climate, and Human Resilience* (2026), rebuilt as nineteen chapters that can be read independently."
+  ]
+ },
+ "back_cover": {
+  "headline": "Weather triggers. People decide who survives.",
+  "paragraphs": [
+   "Pakistan, 2022: one-third of the country under water, 33 million people affected. Texas, 2021: 4.4 million customers without power, and most of the dead were not killed by the storm. Europe, 2022: 61,672 heat deaths on a continent that had twenty years of heat plans behind it.",
+   "This book takes apart one sentence that is often repeated but rarely tested: climate disasters are social disasters. The physical hazard is real, but the death toll is set by things people build — where houses are placed, who is on the vulnerability list, whether a warning arrives as an instruction, and who can afford to leave.",
+   "Nineteen chapters, five parts: diagnosis, vulnerability, capacity, decisions, action. Every chapter ends with the observation that would prove it wrong."
+  ],
+  "bullets": [
+   "Separates hazard, exposure, and vulnerability — three things usually treated as one",
+   "Figures from Pakistan 2022, Texas 2021, Europe 2003 and 2022, Puerto Rico 2017, Bangladesh 1970–2020",
+   "Concrete steps for households, communities, and cities",
+   "Every chapter states what would prove it wrong"
+  ]
+ }
+}

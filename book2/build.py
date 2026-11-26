@@ -65,8 +65,18 @@ def extract_title(md_file: pathlib.Path) -> str:
 def sitasi_dipakai(gen_dir: pathlib.Path) -> list[str]:
     """Kunci sitasi dalam urutan kemunculan, dari berkas typst hasil konversi."""
     found: list[str] = []
+    pola_group = re.compile(r'cite-group\(\((.*?)\)\)', re.S)
+    pola_tunggal = re.compile(r'cite-ref\("([^"]+)"')
     for f in sorted(gen_dir.glob("*.typ")):
-        for m in re.finditer(r'cite-ref\("([^"]+)"', f.read_text(encoding="utf-8")):
+        if f.name.startswith("zz-"):
+            continue
+        isi = f.read_text(encoding="utf-8")
+        for m in pola_group.finditer(isi):
+            for raw in re.findall(r'"([^"]+)"', m.group(1)):
+                k = raw.lstrip("@")
+                if k and k not in found:
+                    found.append(k)
+        for m in pola_tunggal.finditer(isi):
             k = m.group(1).lstrip("@")
             if k not in found:
                 found.append(k)
@@ -86,7 +96,7 @@ def tulis_pustaka(gen_dir: pathlib.Path) -> int:
         if not r:
             baris.append(f'#bibentry(n: {i})[entri bibliografi tidak ditemukan: {k}]')
             continue
-        nama = r.get("penulis") or r["nama"]
+        nama = r.get("penulis", "")
         tahun, judul, terbit = r["tahun"], r["judul"], r["penerbit"]
         nama_rapi = nama[:-1] if nama.endswith(".") else nama
         baris.append(
