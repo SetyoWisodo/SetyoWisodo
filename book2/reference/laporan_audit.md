@@ -1,17 +1,17 @@
-# Laporan Audit Kesiapan Rujukan
+# Laporan Audit Kesiapan Rujukan — Edisi Inggris
 
-Dihasilkan otomatis oleh `book2/tools/audit_rujukan.py`.
+Dihasilkan otomatis oleh `book2/tools/audit_rujukan.py --lang en`.
 
 ## Ringkasan
 
 | Metrik | Nilai | Ambang rujukan | Status |
 |---|---:|---:|---|
-| Kata | 20.212 | — | — |
-| Sitasi dalam teks | 29 | ≥ 1 per 500 kata | gagal |
-| Sitasi per 1.000 kata | 1.43 | ≥ 2,0 | gagal |
-| Sumber unik | 26 | ≥ 40 | gagal |
+| Kata | 26.060 | — | — |
+| Sitasi dalam teks | 86 | ≥ 1 per 500 kata | lolos |
+| Sitasi per 1.000 kata | 3.30 | ≥ 2,0 | lolos |
+| Sumber unik | 47 | ≥ 40 | lolos |
 | Sitasi yatim (tak ada di bibliografi) | 0 | 0 | lolos |
-| Kalimat berangka tanpa sumber | 12 | ≤ 20 | lolos |
+| Kalimat berangka tanpa sumber | 5 | ≤ 26 | lolos |
 | Klaim di buku besar bukti | 45 | ≥ 120 | gagal |
 | Klaim terverifikasi | 40 | semua | gagal |
 
@@ -19,49 +19,32 @@ Dihasilkan otomatis oleh `book2/tools/audit_rujukan.py`.
 
 Tidak ada. Setiap sitasi punya entri bibliografi.
 
-## Kalimat berangka tanpa sumber
+## Catatan atas angka-angka ini
 
-Total: **12** kalimat.
+- **Sumber unik** dihitung dari kunci `@…` yang benar-benar muncul di `src/en/`. Bibliografi
+  memuat 79 entri; 47 di antaranya dikutip edisi ini, sisanya tersedia untuk bab Indonesia
+  dan untuk penambahan berikutnya.
+- **Kalimat berangka tanpa sumber** yang tersisa sebagian besar adalah pernyataan
+  mekanisme, bukan data (mis. "30 sentimeter air mengalir dapat menggeser mobil").
+- **Klaim buku besar** 45 baris adalah buku besar bersama untuk edisi ID dan EN; angka 45
+  belum mencerminkan seluruh 17 bab Inggris. Setiap angka baru yang masuk wajib menambah baris.
 
-### `02-bab01.md` — 1
+## Status per bagian
 
-- Kesimpulan praktisnya sering tidak nyaman: pada rentang 10–20 tahun, sebagian besar pekerjaan penyelamatan ada di sisi paparan dan kerentanan, bukan di sisi emisi.
+| Bagian | Bab | Kata | Sitasi | Sumber unik |
+|---|---:|---:|---:|---:|
+| Pengantar | — | 1.138 | 0 | 0 |
+| I — Diagnosis | 1–3 | 5.454 | 20 | 12 |
+| II — Vulnerability | 4–7 | 5.845 | 21 | 13 |
+| III — Capacity | 8–11 | 5.749 | 21 | 12 |
+| IV — Decisions | 12–14 | 3.763 | 10 | 7 |
+| V — Action | 15–17 | 4.032 | 14 | 8 |
 
-### `03-bab02.md` — 2
+## Yang belum selesai
 
-- Sebuah jalan bisa menahan genangan setinggi 30 sentimeter tanpa masalah, dan menjadi tidak bisa dilalui pada 40 sentimeter.
-- Menambah kapasitas drainase sebesar 10 persen mungkin tidak mengubah apa pun kalau hujan yang menjadi masalah adalah hujan yang 40 persen di atas normal.
-
-### `05-bab04.md` — 3
-
-- Suhu melewati 40 °C di Inggris untuk pertama kalinya dalam catatan.
-- Portugal mencatat 47 °C.
-- Pada suhu bola basah 31 °C, orang tua dan penderita penyakit kronis mulai mengalami kesulitan, terutama kalau tidak punya akses ke pendingin atau air.
-
-### `07-bab06.md` — 1
-
-- Harga beras dunia naik sekitar 30 persen dalam beberapa bulan.
-
-### `11-bab10.md` — 1
-
-- Angka resmi awal menyebut 64 kematian.
-
-### `12-bab11.md` — 1
-
-- Lebih dari 130 orang meninggal di Jerman, dan puluhan lainnya di Belgia.
-
-### `13-bab12.md` — 1
-
-- Tuvalu adalah negara kepulauan di Pasifik dengan luas daratan sekitar 26 kilometer persegi dan ketinggian rata-rata di bawah lima meter.
-
-### `15-bab14.md` — 1
-
-- Ketika prakiraan iklim menunjukkan rentang — misalnya, kenaikan muka laut antara 0,4 dan 0,8 meter pada 2100 — reaksi yang umum adalah menunggu sampai angkanya lebih pasti.
-
-### `16-bab15.md` — 1
-
-- Air setinggi 15 sentimeter yang mengalir deras bisa menjatuhkan orang dewasa; setinggi 30 sentimeter bisa menyeret mobil.
-
-## Klaim yang belum terverifikasi
-
-5 dari 45 klaim di buku besar belum berstatus `terverifikasi`.
+1. **Edisi Indonesia** baru 4 dari 17 bab ditulis ulang ber-sitasi. 13 bab masih memakai
+   teks v0.3 tanpa sitasi; sasaran berikutnya adalah menyelaraskannya bab demi bab.
+2. **Buku besar klaim** perlu tumbuh dari 45 menjadi ±120 baris agar setiap angka di 17 bab
+   Inggris punya baris sendiri. 5 klaim masih `perlu-cek`.
+3. **Glosarium, soal diskusi, latihan riset** tidak termasuk cakupan yang disepakati
+   (paket "standar") — jangan ditambahkan tanpa persetujuan.
