@@ -164,10 +164,10 @@ local function Table(t)
 end
 
 local function Str(s)
-  if is_typst and lang == "id" then
-    s.text = hyph_id(s.text)
-    return s
-  end
+  -- Hyphenation diserahkan ke Typst (pola bahasa + kamus kata).
+  -- Fungsi hyph_id sempat menandai semua kata dengan soft hyphen, tetapi
+  -- pada kata seperti "kebijakan" ia memotong di tengah klaster ("kebi-d-d").
+  return nil
 end
 
 local function Code() return nil end

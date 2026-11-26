@@ -126,7 +126,7 @@
   body,
 ) = {
   set document(title: title + ": " + subtitle, author: author, keywords: keywords)
-  set text(font: font, size: 11pt, lang: lang, fill: ink, hyphenate: lang != "id",
+  set text(font: font, size: 11pt, lang: lang, fill: ink, hyphenate: true,
            number-type: "lining", costs: (hyphenation: 60%, runt: 120%, widow: 200%, orphan: 200%))
   // Format: Times New Roman 12, A4, justify, first line indent 12.7mm, line spacing 1.25, antar paragraf 1.5
   set par(justify: true, leading: 0.32em, first-line-indent: (amount: 1.1em, all: false), spacing: 0.85em)
