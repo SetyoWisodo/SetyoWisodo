@@ -1,4 +1,4 @@
-# Catatan tentang Sumber, Angka, dan Batas Pengetahuan {.unnumbered}
+# Catatan tentang Sumber, Angka, dan Batas Pengetahuan {.unnumbered .unlisted}
 
 Buku ini memakai sitasi bernomor. Nomor kecil di belakang sebuah klaim menunjuk ke entri di Daftar Pustaka; nomornya mengikuti urutan kemunculan, bukan abjad. Sistem ini dipilih karena dua alasan: pembaca bisa memeriksa klaim tanpa meninggalkan halaman, dan setiap entri di Daftar Pustaka benar-benar dipakai — tidak ada entri menggantung untuk membangun kesan luas.
 
