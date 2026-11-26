@@ -47,7 +47,7 @@ Toolchain tidak persisten di sandbox; perlu dipasang ulang tiap sesi baru.
 
 ## Angka
 
-20.365 kata; 107 halaman; PDF 6×9 in; EPUB + DOCX + sampul 6×9 in.
+20.348 kata; 109 halaman; PDF 6×9 in; EPUB + DOCX + sampul 6×9 in.
 
 ## Catatan
 
