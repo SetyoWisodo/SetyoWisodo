@@ -1,4 +1,4 @@
-# Sumber dan Catatan {.unnumbered .unlisted}
+# Sumber dan Catatan {.unnumbered}
 
 Buku ini tidak memakai sistem catatan kaki per halaman. Sumber disebut di badan teks dengan nama lembaga atau penulis, dan daftar di bawah ini memuat karya yang benar-benar dipakai. Angka yang tidak memiliki sumber di sini adalah angka yang disebut sebagai perkiraan atau rentang di dalam teks.
 

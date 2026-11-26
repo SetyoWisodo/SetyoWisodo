@@ -71,7 +71,10 @@ def build_epub_docx(lang: str) -> tuple[pathlib.Path, pathlib.Path]:
         "epub3",
         format="markdown+smart",
         outputfile=str(epub),
-        extra_args=common + ["--split-level=1", "--epub-title-page=true"],
+        extra_args=common
+        + ["--split-level=1", "--epub-title-page=true"]
+        + ([f"--epub-cover-image={PUB / (meta['slug'] + '_cover_' + lang + '.jpg')}"]
+           if (PUB / (meta["slug"] + f"_cover_{lang}.jpg")).exists() else []),
     )
     docx = PUB / f"{meta['slug']}_{lang}.docx"
     pypandoc.convert_file(
