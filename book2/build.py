@@ -49,6 +49,18 @@ def convert(md_file: pathlib.Path, out_file: pathlib.Path, lang: str) -> None:
             "--wrap=none",
         ],
     )
+    # Berkas pembuka (00-*) berisi judul pengantar: tanpa nomor bab, sehingga
+    # penomoran bab tetap 1..N. Struktur: tambahkan "unnumbered" pada heading 1.
+    if md_file.name.startswith("00-"):
+        text = text.replace("= ", "= ", 1)
+        if text.startswith("= "):
+            text = "#heading(level: 1, numbering: none)" + text.split("\n", 1)[1].join(["\n", ""]) if False else text
+        baris = text.split("\n")
+        for i, ln in enumerate(baris):
+            if ln.startswith("= "):
+                baris[i] = "#heading(level: 1, numbering: none)[" + ln[2:].strip() + "]"
+                break
+        text = "\n".join(baris)
     out_file.write_text(
         '#import "../../template/book.typ": *\n' + text, encoding="utf-8")
 

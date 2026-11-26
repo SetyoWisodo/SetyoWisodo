@@ -288,11 +288,11 @@
           text(font: sans, size: 9.5pt, weight: "bold", tracking: 1.6pt, fill: accent,
             upper(L.at(lang).part) + " " + upper(el.body)))
       } else {
-        block(above: 0.32em,
-          link(el.location(), grid(columns: (1.7em, 1fr, auto), column-gutter: 4pt,
-            text(fill: muted, if el.numbering != none { numbering("1", ..counter(heading).at(el.location())) } else { "" }),
-            [ #el.body #box(width: 1fr, repeat[.]) ],
-            text(fill: muted, it.page()))))
+        block(above: 0.3em,
+          link(el.location(), grid(columns: (2.5em, 1fr, auto), column-gutter: 6pt,
+            text(size: 9.2pt, fill: muted, if el.numbering != none { numbering("1", ..counter(heading).at(el.location())) } else { "" }),
+            text(size: 9.2pt, hyphenate: false)[#el.body #box(width: 1fr, repeat[.])],
+            text(size: 9.2pt, fill: muted, it.page()))))
       }
     }
     #outline(depth: 1, indent: auto, title: none)
