@@ -55,6 +55,9 @@ BILANGAN = re.compile(
     r"miliar ton|ribu|juta orang)"
 )
 
+# istilah bahasa Indonesia yang memetakan ke kunci bibliografi tertentu
+ISTILAH_LEMBAGA = {"Bank Dunia": "worldbank2016"}
+
 SITASI_UMUM = (
     "IPCC", "WMO", "NOAA", "WHO", "FAO", "UNDRR", "OCHA", "IFRC", "CRED",
     "Bank Dunia", "World Bank", "BMKG", "BNPB", "BPS", "UNEP", "IEA",
@@ -88,6 +91,11 @@ def sitasi_dalam(teks: str) -> set[tuple[str, str]]:
         for m in re.finditer(re.escape(lembaga) + r"[^.\n]{0,40}?\(" + YEAR + r"\)", teks):
             tahun = re.search(YEAR, m.group(0))
             out.add((lembaga.split()[0].lower(), tahun.group(0)))
+    # istilah Indonesia untuk lembaga: "Bank Dunia (2016)" -> worldbank2016
+    for istilah, kunci in ISTILAH_LEMBAGA.items():
+        for m in re.finditer(re.escape(istilah) + r"[^.\n]{0,40}?\(" + YEAR + r"\)", teks):
+            out.discard((istilah.split()[0].lower(), re.search(YEAR, m.group(0)).group(0)))
+            out.add((kunci, re.search(YEAR, m.group(0)).group(0)))
     return out
 
 
