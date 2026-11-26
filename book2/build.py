@@ -61,6 +61,17 @@ def convert(md_file: pathlib.Path, out_file: pathlib.Path, lang: str) -> None:
                 baris[i] = "#heading(level: 1, numbering: none)[" + ln[2:].strip() + "]"
                 break
         text = "\n".join(baris)
+    # Berkas tanpa nomor bab (pengantar & catatan sumber): subjudul tidak
+    # dimasukkan ke penanda PDF, supaya struktur penanda tetap bab/bagian.
+    if md_file.name.startswith(("00-", "99-")):
+        baris = []
+        for ln in text.split("\n"):
+            if ln.startswith("== "):
+                judul = ln[3:].split("{")[0].strip()
+                baris.append(f"#heading(level: 2, outlined: false)[{judul}]")
+            else:
+                baris.append(ln)
+        text = "\n".join(baris)
     out_file.write_text(
         '#import "../../template/book.typ": *\n' + text, encoding="utf-8")
 
