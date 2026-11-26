@@ -10,6 +10,28 @@ A book that claims everything is social is as unusable as a book that claims not
 
 That is what this book attempts.
 
+## A note on what changed in this edition
+
+This book began as a single chapter. The first version argued that a climate disaster is a social
+disaster, and it did so in about ten thousand words, with a handful of cases.
+
+The book that follows is five times that length, and it is organised differently: not as an argument
+proceeded through, but as a set of findings that can be consulted. The change was not only a matter of
+length. It required deciding, for each claim, what the evidence actually supports, and recording the
+decision.
+
+Two consequences of that process are visible in the text.
+
+First, four figures were corrected during verification: the length of Indonesia's coastline, the size of
+the 2023 rice price rise, the Jakarta subsidence rate, and the scale of the Texas water outage. In each
+case the original figure was plausible and wrong, and the correction came from the primary source.
+
+Second, five claims remain unverified and are hedged or omitted. The reader will not find them in the
+text, and their absence is recorded in the ledger that accompanies this edition.
+
+A reference work is defined less by what it asserts than by what it can show. That is the standard this
+edition attempts.
+
 ## The scale of the harm, in one paragraph
 
 Before the argument, the arithmetic. Global mean surface temperature reached about 1.55 °C above the
