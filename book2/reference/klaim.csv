@@ -35,34 +35,51 @@ K10.1,10,Badai Maria: 64 kematian resmi vs 4.645 estimasi berlebih (rentang 793�
 K11.1,11,Banjir Lembah Ahr 2021: >130 kematian di Jerman meski prakiraan akurat,130,observasi,tinggi,kreienkamp2021,terverifikasi,WWA; kegagalan rantai peringatan
 K11.2,11,Konsensus ilmiah iklim >99% (88.125 makalah),99%,meta-analisis,tinggi,lynas2021,terverifikasi,sama dengan K1.5; rujuk silang
 K11.3,11,Smong Simeulue: 7 kematian dari 78.128 penduduk pada tsunami 2004,7 kematian,kasus,tinggi,mcadoo2006,terverifikasi,"McAdoo dkk. 2006, Earthquake Spectra"
-K12.b,12,Falepili Union 2023: jalur mobilitas 280 orang/tahun ke Australia; berlaku 2024,280/th,kebijakan,tinggi,falepili2024,terverifikasi,perjanjian pertama tentang mobilitas iklim bilateral
-K13.6,13,Kematian panas Eropa 2022 lebih rendah dari 2003 meski lebih panas,61.672 < 70.000,estimasi,tinggi,ballester2023,terverifikasi,indikasi adaptasi; bandingkan K4.1–K4.2
-K13.6,13,Ketimpangan emisi: 10% teratas menyumbang sekitar separuh emisi global,~48%,estimasi,sedang,chancel2022,terverifikasi,1990–2019
-K14.b,14,"Titik kritis iklim dapat terpicu pada pemanasan 1,5–2 °C",—,model,sedang,armstrong2022,terverifikasi,ketidakpastian besar; jangan jadi prediksi tunggal
-K15.b,15,Sebagian besar kematian panas terjadi di dalam ruangan,98% (BC),observasi,tinggi,bccoroners2022,terverifikasi,BC 2021
+K12.1,12,Falepili Union 2023: jalur mobilitas 280 orang/tahun ke Australia; berlaku 2024,280/th,kebijakan,tinggi,falepili2024,terverifikasi,perjanjian pertama tentang mobilitas iklim bilateral
+K13.1,13,Kematian panas Eropa 2022 lebih rendah dari 2003 meski lebih panas,61.672 < 70.000,estimasi,tinggi,ballester2023,terverifikasi,indikasi adaptasi; bandingkan K4.1–K4.2
+K13.2,13,Ketimpangan emisi: 10% teratas menyumbang sekitar separuh emisi global,~48%,estimasi,sedang,chancel2022,terverifikasi,1990–2019
+K14.1,14,"Titik kritis iklim dapat terpicu pada pemanasan 1,5–2 °C",—,model,sedang,armstrong2022,terverifikasi,ketidakpastian besar; jangan jadi prediksi tunggal
+K15.1,15,Sebagian besar kematian panas terjadi di dalam ruangan,98% (BC),observasi,tinggi,bccoroners2022,terverifikasi,BC 2021
 K3.1,3,Indonesia: garis pantai 99.093 km (BIG 2013); angka PBB 2008: 95.181 km,99.093 km,statistik,sedang,big2013,terverifikasi,BIG 2013; definisi berubah antar lembaga (81.000/95.181/99.093)
 K3.2,3,Terumbu Indonesia bagian Coral Triangle dengan keanekaragaman tertinggi,—,observasi,tinggi,ipcc2022a,perlu-cek,perlu sumber Coral Triangle Initiative/CTI-CFF
 K2.1,2,"Kerusakan bencana bersifat berantai, bukan satu pukulan",—,kerangka,tinggi,undrr2022,terverifikasi,GAR 2022; didukung FERC 2021
 K2.2,2,Kematian global akibat bencana cuaca turun >90% sejak 1920-an meski populasi naik 4×,>90%,observasi,sedang,cred2023,terverifikasi,"EM-DAT; penurunan terutama dari kekeringan/kelaparan, bukan badai"
-K12.1,12,"Falepili Union: alokasi awal 280 warga Tuvalu per tahun untuk tinggal, belajar, bekerja di Australia",280 orang/tahun,statistik,tinggi,falepili2024,terverifikasi,Pasal 3; rincian kelayakan ditetapkan kemudian
-K12.2,12,Perjanjian mengikat Australia-Tuvalu mengakui kenegaraan Tuvalu bahkan bila wilayahnya hilang,—,kerangka,tinggi,falepili2024,terverifikasi,komitmen tanpa preseden; memisahkan kenegaraan dari wilayah
-K12.3,12,Proyeksi 216 juta orang terpindah internal pada 2050 (skenario emisi tinggi),216 juta,estimasi,sedang,iom2023,terverifikasi,"skenario pemodelan, bukan ramalan"
-K12.4,12,Vunidogoloa (Fiji) direlokasi ke daratan lebih tinggi pada 2014 setelah banjir pasang berulang,2014,observasi,tinggi,mcleman2019,terverifikasi,proses 8 tahun; komunitas dilibatkan dalam pemilihan lokasi
-K12.5,12,Relokasi yang memencar merusak modal sosial lebih banyak daripada relokasi sebagai satu kesatuan,—,kerangka,sedang,aldrich2012,terverifikasi,bukti korelasional lintas kasus
-K13.1,13,Komitmen US$100 miliar/tahun keuangan iklim negara maju terpenuhi terlambat dan definisinya lentur,US$100 miliar,statistik,tinggi,unfccc2022,terverifikasi,pinjaman dihitung sebagai keuangan; mitigasi mendominasi
-K13.2,13,Kebutuhan adaptasi 5-10 kali di atas keuangan yang mengalir,5-10×,estimasi,sedang,ipcc2022a,terverifikasi,Adaptation Gap Report UNEP
-K13.3,13,"Dana kerugian dan kerusakan (COP27) tidak menetapkan siapa membayar, berapa, atau siapa berhak",—,kerangka,tinggi,unfccc2022,terverifikasi,pertanyaan ditunda
-K13.4,13,Kompensasi pascabencana mengalir ke pemilik bersertifikat; penyewa dan penghuni informal menerima lebih sedikit,—,kerangka,sedang,undrr2022,terverifikasi,pola lintas negara
-K13.5,13,"Indonesia termasuk pengemis terbesar bila perubahan tata guna lahan dihitung, dan sangat terpapar",—,observasi,sedang,worldbank2016,perlu-cek,perlu sumber emisi LULUCF terbaru
-K14.1,14,"Rentang kenaikan muka laut 2100 (skenario tinggi) sekitar 0,5-1,0 m dengan ekor berpeluang rendah","0,5-1,0 m",estimasi,tinggi,ipcc2021,terverifikasi,AR6 WG1; ekor di luar rentang
-K14.2,14,"Keputusan yang tak dapat dibalik menuntut pemeliharaan opsi, bukan penundaan",—,kerangka,tinggi,lempert2003,terverifikasi,prinsip kehati-hatian versi sempit
-K14.3,14,"Asuransi memindahkan kerugian finansial tanpa mengurangi bahaya, paparan, atau kerentanan",—,kerangka,tinggi,undrr2022,terverifikasi,asuransi sering dihitung sebagai keuangan adaptasi
-K15.1,15,"Dalam kubah panas British Columbia 2021, 619 orang tewas; 56 persen hidup sendiri",619; 56%,observasi,tinggi,bccoroners2022,terverifikasi,laporan koroner; 98 persen meninggal di dalam ruangan
-K15.2,15,Kontak sosial adalah intervensi rumah tangga dengan nilai tertinggi untuk panas,—,kerangka,sedang,bccoroners2022,terverifikasi,isolasi prediktor lebih kuat daripada ciri bangunan
-K15.3,15,"Tindakan gratis (daftar, telepon, rencana) punya imbal hasil lebih tinggi daripada peralatan yang dibeli",—,kerangka,sedang,wmo2022,perlu-cek,perlu evaluasi program yang terkontrol
+K12.2,12,"Falepili Union: alokasi awal 280 warga Tuvalu per tahun untuk tinggal, belajar, bekerja di Australia",280 orang/tahun,statistik,tinggi,falepili2024,terverifikasi,Pasal 3; rincian kelayakan ditetapkan kemudian
+K12.3,12,Perjanjian mengikat Australia-Tuvalu mengakui kenegaraan Tuvalu bahkan bila wilayahnya hilang,—,kerangka,tinggi,falepili2024,terverifikasi,komitmen tanpa preseden; memisahkan kenegaraan dari wilayah
+K12.4,12,Proyeksi 216 juta orang terpindah internal pada 2050 (skenario emisi tinggi),216 juta,estimasi,sedang,iom2023,terverifikasi,"skenario pemodelan, bukan ramalan"
+K12.5,12,Vunidogoloa (Fiji) direlokasi ke daratan lebih tinggi pada 2014 setelah banjir pasang berulang,2014,observasi,tinggi,mcleman2019,terverifikasi,proses 8 tahun; komunitas dilibatkan dalam pemilihan lokasi
+K12.6,12,Relokasi yang memencar merusak modal sosial lebih banyak daripada relokasi sebagai satu kesatuan,—,kerangka,sedang,aldrich2012,terverifikasi,bukti korelasional lintas kasus
+K13.3,13,Komitmen US$100 miliar/tahun keuangan iklim negara maju terpenuhi terlambat dan definisinya lentur,US$100 miliar,statistik,tinggi,unfccc2022,terverifikasi,pinjaman dihitung sebagai keuangan; mitigasi mendominasi
+K13.4,13,Kebutuhan adaptasi 5-10 kali di atas keuangan yang mengalir,5-10×,estimasi,sedang,ipcc2022a,terverifikasi,Adaptation Gap Report UNEP
+K13.5,13,"Dana kerugian dan kerusakan (COP27) tidak menetapkan siapa membayar, berapa, atau siapa berhak",—,kerangka,tinggi,unfccc2022,terverifikasi,pertanyaan ditunda
+K13.6,13,Kompensasi pascabencana mengalir ke pemilik bersertifikat; penyewa dan penghuni informal menerima lebih sedikit,—,kerangka,sedang,undrr2022,terverifikasi,pola lintas negara
+K13.7,13,"Indonesia termasuk pengemis terbesar bila perubahan tata guna lahan dihitung, dan sangat terpapar",—,observasi,sedang,worldbank2016,perlu-cek,perlu sumber emisi LULUCF terbaru
+K14.2,14,"Rentang kenaikan muka laut 2100 (skenario tinggi) sekitar 0,5-1,0 m dengan ekor berpeluang rendah","0,5-1,0 m",estimasi,tinggi,ipcc2021,terverifikasi,AR6 WG1; ekor di luar rentang
+K14.3,14,"Keputusan yang tak dapat dibalik menuntut pemeliharaan opsi, bukan penundaan",—,kerangka,tinggi,lempert2003,terverifikasi,prinsip kehati-hatian versi sempit
+K14.4,14,"Asuransi memindahkan kerugian finansial tanpa mengurangi bahaya, paparan, atau kerentanan",—,kerangka,tinggi,undrr2022,terverifikasi,asuransi sering dihitung sebagai keuangan adaptasi
+K15.2,15,"Dalam kubah panas British Columbia 2021, 619 orang tewas; 56 persen hidup sendiri",619; 56%,observasi,tinggi,bccoroners2022,terverifikasi,laporan koroner; 98 persen meninggal di dalam ruangan
+K15.3,15,Kontak sosial adalah intervensi rumah tangga dengan nilai tertinggi untuk panas,—,kerangka,sedang,bccoroners2022,terverifikasi,isolasi prediktor lebih kuat daripada ciri bangunan
+K15.4,15,"Tindakan gratis (daftar, telepon, rencana) punya imbal hasil lebih tinggi daripada peralatan yang dibeli",—,kerangka,sedang,wmo2022,perlu-cek,perlu evaluasi program yang terkontrol
 K16.1,16,Rencana aksi panas Ahmedabad 2013 menurunkan mortalitas pada gelombang panas berikutnya,2013,observasi,tinggi,hess2018,terverifikasi,evaluasi pilot
 K16.2,16,Belanja pemeliharaan di bawah ~1 persen nilai aset per tahun berarti mengonsumsi infrastruktur,<1%,estimasi,sedang,undrr2022,terverifikasi,"metrik kasar, lebih informatif daripada rencana"
 K16.3,16,Tutupan pohon mengurangi suhu permukaan dan paparan panas pejalan kaki,—,kerangka,tinggi,ipcc2022a,terverifikasi,"besarnya bervariasi menurut jenis, lokasi, irigasi"
 K17.1,17,"Klaim observasional, estimatif, dan pembingkaian punya standar evidensi berbeda",—,kerangka,tinggi,cred2023,terverifikasi,dasar tiga jenis klaim
-K17.2,17,Angka kematian EM-DAT turun >90 persen sejak 1920-an sementara populasi naik sekitar 4 kali,&gt;90%; 4x,observasi,sedang,cred2023,terverifikasi,dikutip ulang dari bab 2; definisi EM-DAT
+K17.2,17,Angka kematian EM-DAT turun >90 persen sejak 1920-an sementara populasi naik sekitar 4 kali,>90%; 4x,observasi,sedang,cred2023,terverifikasi,dikutip ulang dari bab 2; definisi EM-DAT
 K17.3,17,"Buku ini memakai 64 kematian resmi dan 4.645 kematian berlebih untuk Puerto Rico, dengan basis dinyatakan",64; 4.645,observasi,tinggi,kishore2018,terverifikasi,selisih faktor ~70
+K7.5,7,Bengaluru: sebagian danau hilang; banjir 2022 akibat perluasan permukaan kedap,—,observasi,sedang,kishore2018,perlu-cek,perlu sumber BBMP
+K8.3,8,Caribbean Catastrophe Risk Insurance Facility membayar cepat setelah badai dan gempa,—,observasi,sedang,ccrif2023,terverifikasi,prinsip parametric insurance
+K8.4,8,Kerugian ekonomi dilaporkan naik sementara kematian per peristiwa turun,—,kerangka,tinggi,undrr2022,terverifikasi,GAR 2022; kenaikan karena paparan dan frekuensi
+K6.5,6,Kerusuhan pangan 2007–2008 terjadi di lebih dari 30 negara,30+ negara,observasi,sedang,fao2022,terverifikasi,beberapa pemerintah jatuh
+K7.6,7,Yaman 2016–2019: lebih dari 1 juta kasus kolera terduga dalam satu wabah,1 juta,observasi,tinggi,who2017yemen,terverifikasi,terbesar tercatat di satu negara
+K7.7,7,Insidensi demam berdarah naik sekitar 30 kali dalam 50 tahun,30x,observasi,tinggi,who2023dengue,terverifikasi,"0,5 juta (2000) -> 4,2 juta (2022)"
+K9.4,9,"Texas 2021: 190 kabupaten, 14,4 juta orang terkena pemberitahuan rebus air","14,4 juta",observasi,tinggi,ferc2021,terverifikasi,"puncak 4,4 juta pelanggan listrik padam"
+K10.2,10,Tōhoku 2011: respons awal diorganisasi jaringan warga sebelum lembaga tiba,—,observasi,sedang,aldrich2012,terverifikasi,chōnaikai; bukti kasus
+K10.3,10,"Putnam: bonding, bridging, linking sebagai tiga jenis modal sosial",—,kerangka,tinggi,putnam1993,terverifikasi,dipakai Aldrich untuk bencana
+K11.4,11,CPP Bangladesh: 76.000 relawan menjadi mil terakhir peringatan,76.000,observasi,tinggi,wmo2022,terverifikasi,program kesiapsiagaan siklon
+K12.7,12,Nansen Initiative menghasilkan agenda perlindungan tanpa kewajiban mengikat,—,kerangka,tinggi,iom2023,terverifikasi,arsitektur hukum terfragmentasi
+K13.8,13,Carbon Majors: sejumlah kecil entitas menyumbang porsi besar emisi industri kumulatif,—,estimasi,sedang,matthews2020,terverifikasi,basis atribusi ke ekstraksi diperdebatkan
+K13.9,13,10 persen teratas menyumbang sekitar separuh emisi global,~48%,estimasi,sedang,chancel2022,terverifikasi,ketimpangan emisi rumah tangga
+K14.5,14,"Titik kritis iklim dapat terpicu pada pemanasan 1,5–2 °C","1,5–2 °C",estimasi,sedang,armstrong2022,terverifikasi,ketidakpastian besar; bukan ambang pasti
+K15.5,15,"Di Chicago 1995, kawasan dengan mortalitas tertinggi adalah yang warganya tidak mengenal tetangganya",1995,observasi,tinggi,klinenberg2002,terverifikasi,korelasi jaringan sosial dan kematian panas
+K16.4,16,Rotterdam: plaza air dan pergeseran dari bertahan menjadi menampung air,—,observasi,sedang,ipcc2022a,terverifikasi,strategi komunikasi publik
+K17.4,17,Penalaran terstruktur atas klaim meningkatkan akurasi peramalan,—,estimasi,sedang,lempert2003,perlu-cek,"bukti dari turnamen peramalan, perlu sumber khusus"
