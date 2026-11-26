@@ -10,6 +10,43 @@ A book that claims everything is social is as unusable as a book that claims not
 
 That is what this book attempts.
 
+## The scale of the harm, in one paragraph
+
+Before the argument, the arithmetic. Global mean surface temperature reached about 1.55 °C above the
+1850–1900 baseline in 2024, and about 1.43 °C in 2025 — the dip caused by the end of El Niño, not by
+policy [@wmo2025]. Atmospheric CO₂ reached roughly 422.8 ppm [@noaa2025]. In the quarter-century to
+2024, weather-related disasters killed an average of roughly 12,000 people a year, against roughly
+485,000 a year in the 1920s, on a planet with four times the population [@cred2023]. Reported
+economic losses, by contrast, have risen steadily [@undrr2022].
+
+Those two sentences sit next to each other in almost every serious assessment, and they are almost
+never reconciled in public argument. One side reads the falling death toll as proof that the problem
+is overstated. The other reads the rising losses as proof that it is understated. Both are reading a
+real number and drawing a conclusion the number cannot support.
+
+The reconciliation is the subject of this book. The death toll fell because a specific set of
+vulnerabilities — famine, unlit coastal villages, warning systems that did not exist — was reduced.
+Losses rose because a different variable, exposure, grew faster than the protection. A society can win
+on one and lose on the other in the same decade, and most have.
+
+## What the reader should be able to do at the end
+
+Four capabilities, stated in advance so that the book can be judged against them.
+
+**Separate the three terms.** Given a death toll, say which part is attributable to the physical
+hazard, which to where people were, and which to how easily they broke. This is harder than it sounds
+and it is the foundation of everything else.
+
+**Recognise a chain.** Given a disaster narrative, identify the sequence of failures rather than the
+single cause, and find the point at which the chain could have been cut most cheaply.
+
+**Read a number.** Distinguish an observation from an estimate from a framework; find the
+denominator; notice when a range has been collapsed into a point.
+
+**Judge a promise.** Given a policy commitment — a seawall, a heat plan, an insurance scheme, a
+relocation — ask what would have to be true for it to work, and what would show that it is not
+working.
+
 ## What the book does
 
 The structure is deliberately simple, and it follows from a single distinction.
