@@ -10,6 +10,25 @@ A book that claims everything is social is as unusable as a book that claims not
 
 That is what this book attempts.
 
+## How to read this book
+
+Three routes, for three kinds of reader.
+
+**If you have an afternoon**, read Chapter 1, then Chapter 17, then the chapter on the subject you care
+most about. Chapter 1 gives the framework and Chapter 17 gives the tools for judging any claim, including
+the book's own. The chapters between them are written to be read out of order.
+
+**If you are using the book for a decision** — a budget, a plan, a piece of legislation — read the chapter
+that matches the decision, then the falsification section at its end, then the reference list. The
+falsification section is where the chapter states what evidence would overturn it, which is the part a
+decision-maker most needs and most often skips.
+
+**If you are reading it as a student**, read in order. Each chapter assumes the vocabulary of the one
+before it, and the cases are cross-referenced.
+
+The book is designed to be used rather than finished. A reference work that is read once and put down has
+failed; one that is consulted repeatedly, for its cases and its tests, has done its job.
+
 ## The shape of the argument, in one page
 
 For a reader who wants the whole book before reading it.
