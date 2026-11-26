@@ -6,12 +6,12 @@ Dihasilkan otomatis oleh `book2/tools/audit_rujukan.py`.
 
 | Metrik | Nilai | Ambang rujukan | Status |
 |---|---:|---:|---|
-| Kata | 45.495 | — | — |
-| Sitasi dalam teks | 92 | ≥ 1 per 500 kata | lolos |
-| Sitasi per 1.000 kata | 2.02 | ≥ 2,0 | lolos |
+| Kata | 46.464 | — | — |
+| Sitasi dalam teks | 92 | ≥ 1 per 500 kata | gagal |
+| Sitasi per 1.000 kata | 1.98 | ≥ 2,0 | gagal |
 | Sumber unik | 53 | ≥ 40 | lolos |
 | Sitasi yatim (tak ada di bibliografi) | 0 | 0 | lolos |
-| Kalimat berangka tanpa sumber | 8 | ≤ 45 | lolos |
+| Kalimat berangka tanpa sumber | 8 | ≤ 46 | lolos |
 | Klaim di buku besar bukti | 45 | ≥ 120 | gagal |
 | Klaim terverifikasi | 40 | semua | gagal |
 
