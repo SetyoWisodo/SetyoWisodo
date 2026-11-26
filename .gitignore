@@ -30,3 +30,7 @@ CIL_berkas_kerja_FULL.zip
 # sampel PDF: ikut di zip, tidak perlu di repo
 cil/06_sampel_36_halaman.pdf
 CIL_berkas_kerja_FULL_v1.2.zip
+
+# ---- book2 (buku 17 bab) ----
+book2/.gen/
+book2/main.typ
