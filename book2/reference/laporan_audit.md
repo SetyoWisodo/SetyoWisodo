@@ -6,14 +6,14 @@ Dihasilkan otomatis oleh `book2/tools/audit_rujukan.py`.
 
 | Metrik | Nilai | Ambang rujukan | Status |
 |---|---:|---:|---|
-| Kata | 20.141 | — | — |
-| Sitasi dalam teks | 25 | ≥ 1 per 500 kata | gagal |
-| Sitasi per 1.000 kata | 1.24 | ≥ 2,0 | gagal |
-| Sumber unik | 22 | ≥ 40 | gagal |
+| Kata | 20.189 | — | — |
+| Sitasi dalam teks | 29 | ≥ 1 per 500 kata | gagal |
+| Sitasi per 1.000 kata | 1.44 | ≥ 2,0 | gagal |
+| Sumber unik | 26 | ≥ 40 | gagal |
 | Sitasi yatim (tak ada di bibliografi) | 0 | 0 | lolos |
-| Kalimat berangka tanpa sumber | 14 | ≤ 20 | lolos |
+| Kalimat berangka tanpa sumber | 12 | ≤ 20 | lolos |
 | Klaim di buku besar bukti | 45 | ≥ 120 | gagal |
-| Klaim terverifikasi | 29 | semua | gagal |
+| Klaim terverifikasi | 40 | semua | gagal |
 
 ## Sitasi yatim
 
@@ -21,7 +21,7 @@ Tidak ada. Setiap sitasi punya entri bibliografi.
 
 ## Kalimat berangka tanpa sumber
 
-Total: **14** kalimat.
+Total: **12** kalimat.
 
 ### `02-bab01.md` — 1
 
@@ -31,11 +31,6 @@ Total: **14** kalimat.
 
 - Sebuah jalan bisa menahan genangan setinggi 30 sentimeter tanpa masalah, dan menjadi tidak bisa dilalui pada 40 sentimeter.
 - Menambah kapasitas drainase sebesar 10 persen mungkin tidak mengubah apa pun kalau hujan yang menjadi masalah adalah hujan yang 40 persen di atas normal.
-
-### `04-bab03.md` — 2
-
-- Garis pantai sering dikutip sekitar 54.000 kilometer, meskipun angka resmi berbeda antar lembaga karena definisi pulau dan pasang-surut yang dipakai.
-- Yang tidak berbeda adalah proporsinya: sekitar 70 persen penduduk tinggal di wilayah pesisir atau dataran rendah.
 
 ### `05-bab04.md` — 3
 
@@ -69,4 +64,4 @@ Total: **14** kalimat.
 
 ## Klaim yang belum terverifikasi
 
-16 dari 45 klaim di buku besar belum berstatus `terverifikasi`.
+5 dari 45 klaim di buku besar belum berstatus `terverifikasi`.

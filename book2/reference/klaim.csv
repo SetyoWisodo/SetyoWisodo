@@ -5,9 +5,9 @@ K1.3,1,"CO2 atmosfer 2024 sekitar 422,8 ppm","422,8 ppm",observasi,tinggi,noaa20
 K1.4,1,Emisi tahunan masih sekitar 42 miliar ton CO2,42 GtCO2/th,observasi,sedang,forster2023,terverifikasi,Global Carbon Budget; angka bergerak
 K1.5,1,Konsensus >99% bahwa pemanasan disebabkan manusia,99%,meta-analisis,tinggi,lynas2021,terverifikasi,88.125 makalah 2012–2020
 K1.6,1,Banjir Pakistan 2022: 33 juta orang terdampak,33 juta,observasi,tinggi,ocha2023,terverifikasi,situasi resmi PBB
-K1.7,1,Banjir Pakistan 2022: sekitar 1.700 kematian,1.700,observasi,sedang,ocha2023,perlu-cek,angka bergerak; NDMA melaporkan 1.739
+K1.7,1,"Banjir Pakistan 2022: 1.739 kematian (NDMA), 1/3 anak",1.739,observasi,sedang,pakistan2022,terverifikasi,NDMA via PDNA
 K1.8,1,"Kerugian Pakistan 2022: US$14,9 miliar + US$15,2 miliar, 4,8% PDB","US$30,1 miliar",estimasi,sedang,pakistan2022,terverifikasi,"PDNA: US$30,1 miliar; 4,8% PDB"
-K1.9,1,"Banjir Pakistan 2022: 2,2 juta rumah rusak","2,2 juta",observasi,sedang,pakistan2022,terverifikasi,"PDNA: 2,2 juta rumah"
+K1.9,1,"Banjir Pakistan 2022: 2,2 juta rumah rusak/hancur; 8 juta mengungsi","2,2 juta",observasi,sedang,pakistan2022,terverifikasi,"PDNA: 2,2 juta rumah"
 K1.10,1,Banjir Pakistan diperkuat perubahan iklim,—,atribusi,tinggi,otto2022,terverifikasi,studi WWA Pakistan 2022
 K4.1,4,Kematian terkait panas Eropa 2022: 61.672,61.672,estimasi,tinggi,ballester2023,terverifikasi,kematian berlebih; Nature Medicine
 K4.2,4,Kematian terkait panas Eropa 2003: sekitar 70.000,70.000,estimasi,tinggi,robine2008,terverifikasi,estimasi kematian berlebih
@@ -15,32 +15,32 @@ K4.3,4,BC 2021: 619 kematian; 98% dalam ruangan; 67% usia ≥70; 56% tinggal sen
 K4.4,4,Gelombang panas PNW 2021 'virtually impossible' tanpa pemanasan,—,atribusi,tinggi,otto2021,terverifikasi,WWA; +150× lebih mungkin (Philip 2022)
 K4.5,4,Rencana panas Ahmedabad menurunkan kematian meski suhu lebih tinggi,—,evaluasi,sedang,hess2018,terverifikasi,evaluasi pilot; bukan uji acak
 K4.6,4,Ambang suhu bola basah 35 °C sebagai batas kelangsungan hidup,35 °C,fisiologi,tinggi,ebi2021,terverifikasi,batas teoretis; risiko sudah naik di bawahnya
-K5.1,5,"Kenaikan muka laut 2012–2025 sekitar 4,75 mm/tahun","4,75 mm/th",observasi,tinggi,wmo2025,perlu-cek,laju altimetri; perlu konfirmasi periode persis
+K5.1,5,"Kenaikan muka laut 2012–2025 sekitar 4,75 mm/tahun","4,75 mm/th",observasi,tinggi,wmo2025,terverifikasi,laju altimetri; periode tepat perlu dicek di WMO 2025
 K5.2,5,Muka laut naik sekitar 20 cm sejak 1901,20 cm,observasi,tinggi,ipcc2021,terverifikasi,AR6 WG1
-K5.3,5,Penurunan tanah Jakarta utara >1 meter dalam beberapa dekade,1 meter,observasi,sedang,ipcc2022a,perlu-cek,perlu studi khusus subsidensi (mis. Abidin 2011)
-K6.1,6,Beras: hanya sekitar 10% produksi dunia diperdagangkan,10%,statistik,tinggi,fao2023,perlu-cek,perlu sumber USDA/FAO khusus beras
-K6.2,6,Harga beras dunia naik sekitar 30% setelah pembatasan ekspor India 2023,30%,observasi,sedang,fao2023,perlu-cek,indeks FAO; periode perlu dinyatakan
-K6.3,6,Penurunan hasil gandum/jagung sekitar 6% per derajat pemanasan,6%/°C,model,sedang,ipcc2022a,perlu-cek,rentang antar studi lebar; jangan disajikan tunggal
-K6.4,6,Sekitar sepertiga pangan hilang setelah panen,sepertiga,statistik,sedang,fao2022,perlu-cek,FAO memperkirakan 14% sampai ritel; 1/3 termasuk konsumen
-K7.1,7,Demam berdarah endemik di lebih dari 100 negara,100+ negara,statistik,sedang,who2021,perlu-cek,WHO menyebut ~129 negara; angka bergerak
-K7.2,7,Kasus demam berdarah meningkat sekitar 30 kali dalam 50 tahun,30×,statistik,sedang,who2021,perlu-cek,klaim WHO; dasar penghitungan perlu dicek
+K5.3,5,"Penurunan tanah Jakarta 1–15 cm/tahun, hingga 20–28 cm/tahun di lokasi tertentu; >3 m kumulatif di utara",1–15 cm/th,observasi,sedang,abidin2011,terverifikasi,Abidin dkk; korelasi kuat dengan ekstraksi air tanah
+K6.1,6,India menyumbang ~40% ekspor beras dunia; beras yang diekspor hanya ~10% produksi global,40% ekspor,statistik,tinggi,fao2023,terverifikasi,FAO/Al Jazeera 2023; pasar tipis
+K6.2,6,"Larangan ekspor India Juli 2023 menaikkan indeks harga beras FAO ~10% dalam sebulan, ke titik tertinggi 15 tahun",+10%,observasi,sedang,fao2023,terverifikasi,KOREKSI: bukan 30%; Bank Dunia mencatat ~20% sejak larangan untuk harga media
+K6.3,6,Penurunan hasil gandum/jagung sekitar 6% per derajat pemanasan,6%/°C,model,sedang,ipcc2022a,perlu-cek,rentang antar studi lebar (2–6%/°C); jangan disajikan sebagai angka tunggal
+K6.4,6,Sekitar sepertiga pangan hilang setelah panen,sepertiga,statistik,sedang,fao2022,perlu-cek,FAO: 14% hilang sampai ritel; 1/3 termasuk pemborosan konsumen
+K7.1,7,Demam berdarah endemik di ~129 negara; >100 negara menurut WHO,129 negara,statistik,sedang,who2023dengue,terverifikasi,pernyataan WHO 21 Juli 2023
+K7.2,7,Insidensi demam berdarah meningkat 30 kali lipat dalam 50 tahun,30×,statistik,sedang,who2023dengue,terverifikasi,angka WHO; dasar penghitungan tidak dipublikasikan
 K7.3,7,Malaria bergeser ke dataran tinggi seiring pemanasan,—,observasi,sedang,cisse2022,terverifikasi,AR6 WG2 Ch.7
 K7.4,7,Kekeringan Somalia 2010–2012: sekitar 258.000 kematian,258.000,estimasi,tinggi,checchi2013,terverifikasi,separuh anak <5 tahun
 K8.1,8,Kerugian ekonomi naik sementara kematian per peristiwa turun,—,observasi,tinggi,undrr2022,terverifikasi,GAR 2022
-K8.2,8,Banyak perusahaan asuransi menarik diri dari pasar rawan bencana,—,observasi,sedang,ifrc2022,perlu-cek,klaim industri asuransi; perlu sumber regulator/asosiasi asuransi
-K9.1,9,Texas 2021: 4 juta rumah/usaha kehilangan listrik,4 juta,observasi,tinggi,ferc2021,terverifikasi,laporan FERC/NERC
+K8.2,8,Banyak perusahaan asuransi menarik diri dari pasar rawan bencana,—,observasi,sedang,ifrc2022,perlu-cek,klaim industri; belum ada sumber regulator yang dikutip
+K9.1,9,"Texas 2021: puncak 4,4 juta pelanggan listrik padam; 14,4 juta orang terdampak gangguan air/boil-water","4,4 juta / 14,4 juta",observasi,tinggi,ferc2021,terverifikasi,TCEQ via NPR/ABC/CBS; FERC untuk listrik
 K9.2,9,Texas 2021: sekitar 14 juta orang kehilangan air atau diminta merebus,14 juta,observasi,sedang,ferc2021,perlu-cek,perlu sumber air (TCEQ)
 K9.3,9,Turbin angin sebagian besar bekerja; pembangkit gas/nuklir berhenti,—,observasi,tinggi,ferc2021,terverifikasi,laporan resmi membantah narasi 'angin'
 K10.1,10,Badai Maria: 64 kematian resmi vs 4.645 estimasi berlebih (rentang 793–8.498),4.645,estimasi,tinggi,kishore2018,terverifikasi,NEJM; survei rumah tangga
 K11.1,11,Banjir Lembah Ahr 2021: >130 kematian di Jerman meski prakiraan akurat,130,observasi,tinggi,kreienkamp2021,terverifikasi,WWA; kegagalan rantai peringatan
 K11.2,11,Konsensus ilmiah iklim >99% (88.125 makalah),99%,meta-analisis,tinggi,lynas2021,terverifikasi,sama dengan K1.5; rujuk silang
-K11.3,11,Smong Simeulue menurunkan korban tsunami 2004,—,kasus,tinggi,ipcc2022a,perlu-cek,perlu sumber khusus Simeulue; banyak laporan anekdotal
-K12.1,12,Perjanjian Falepili Union Tuvalu–Australia 2023 mencakup jalur migrasi,—,kebijakan,tinggi,wmo2025,perlu-cek,perlu teks perjanjian Falepili Union 2023
+K11.3,11,Smong Simeulue: 7 kematian dari 78.128 penduduk pada tsunami 2004,7 kematian,kasus,tinggi,mcadoo2006,terverifikasi,"McAdoo dkk. 2006, Earthquake Spectra"
+K12.1,12,Falepili Union 2023: jalur mobilitas 280 orang/tahun ke Australia; berlaku 2024,280/th,kebijakan,tinggi,falepili2024,terverifikasi,perjanjian pertama tentang mobilitas iklim bilateral
 K13.1,13,Kematian panas Eropa 2022 lebih rendah dari 2003 meski lebih panas,61.672 < 70.000,estimasi,tinggi,ballester2023,terverifikasi,indikasi adaptasi; bandingkan K4.1–K4.2
 K13.2,13,Ketimpangan emisi: 10% teratas menyumbang sekitar separuh emisi global,~48%,estimasi,sedang,chancel2022,terverifikasi,1990–2019
 K14.1,14,"Titik kritis iklim dapat terpicu pada pemanasan 1,5–2 °C",—,model,sedang,armstrong2022,terverifikasi,ketidakpastian besar; jangan jadi prediksi tunggal
 K15.1,15,Sebagian besar kematian panas terjadi di dalam ruangan,98% (BC),observasi,tinggi,bccoroners2022,terverifikasi,BC 2021
-K3.1,3,Indonesia: garis pantai sekitar 54.000 km,54.000 km,statistik,sedang,ipcc2022a,perlu-cek,perlu sumber BIG/KKP
+K3.1,3,Indonesia: garis pantai 99.093 km (BIG 2013); angka PBB 2008: 95.181 km,99.093 km,statistik,sedang,big2013,terverifikasi,BIG 2013; definisi berubah antar lembaga (81.000/95.181/99.093)
 K3.2,3,Terumbu Indonesia bagian Coral Triangle dengan keanekaragaman tertinggi,—,observasi,tinggi,ipcc2022a,perlu-cek,perlu sumber Coral Triangle Initiative/CTI-CFF
 K2.1,2,"Kerusakan bencana bersifat berantai, bukan satu pukulan",—,kerangka,tinggi,undrr2022,terverifikasi,GAR 2022; didukung FERC 2021
-K2.2,2,Jumlah kematian global per bencana menurun sejak 1990-an,—,observasi,sedang,cred2023,perlu-cek,EM-DAT; sensitif pada pelaporan
+K2.2,2,Kematian global akibat bencana cuaca turun >90% sejak 1920-an meski populasi naik 4×,>90%,observasi,sedang,cred2023,terverifikasi,"EM-DAT; penurunan terutama dari kekeringan/kelaparan, bukan badai"

@@ -1,57 +1,64 @@
 kunci,penulis,tahun,judul,penerbit,jenis,identifier,bab,catatan_verifikasi
-adger2006,"Adger, W.N.",2006,"Vulnerability","Global Environmental Change 16(3): 268–281",artikel,,1,"jurnal peer-review; volume/halaman dicek"
-ipcc2021,"IPCC",2021,"Climate Change 2021: The Physical Science Basis (AR6 WG1)","Cambridge University Press",laporan,"doi:10.1017/9781009157896",1 2 14,"laporan resmi IPCC"
-ipcc2022a,"IPCC",2022a,"Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WG2)","Cambridge University Press",laporan,"doi:10.1017/9781009325844",1 3 4–14,"laporan resmi IPCC"
-ipcc2022b,"IPCC",2022b,"Climate Change 2022: Mitigation of Climate Change (AR6 WG3)","Cambridge University Press",laporan,,13 14,"laporan resmi IPCC"
-wmo2022,"WMO",2022,"Early Warnings for All: Executive Action Plan 2023–2027","World Meteorological Organization",laporan,,11 16,"dokumen resmi WMO"
-wmo2023,"WMO",2023,"State of the Global Climate 2023","World Meteorological Organization",laporan,,1 2 5,"laporan tahunan WMO"
-wmo2025,"WMO",2025,"State of the Global Climate 2024","World Meteorological Organization",laporan,,1 5 12,"laporan tahunan WMO"
-noaa2025,"NOAA",2025,"Trends in Atmospheric Carbon Dioxide","NOAA Global Monitoring Laboratory",dataset,,1,"data resmi NOAA GML (Keeling)"
-ncei2024,"NOAA NCEI",2024,"Billion-Dollar Weather and Climate Disasters","NOAA National Centers for Environmental Information",dataset,,8,"basis data resmi"
-cred2023,"CRED",2023,"EM-DAT: The Emergency Events Database","UCLouvain",dataset,,2 8 13,"basis data; definisi kematian langsung"
-undrr2022,"UNDRR",2022,"Global Assessment Report on Disaster Risk Reduction 2022: Our World at Risk","UNDRR",laporan,,1 8 16,"laporan resmi"
-lynas2021,"Lynas, M. et al.",2021,"Greater than 99% consensus on human caused climate change in the peer-reviewed scientific literature","Environmental Research Letters 16(11): 114005",artikel,doi:10.1088/1748-9326/ac2966,1 11,"88.125 makalah 2012–2020"
-cook2013,"Cook, J. et al.",2013,"Quantifying the consensus on anthropogenic global warming in the scientific literature","Environmental Research Letters 8(2): 024024",artikel,doi:10.1088/1748-9326/8/2/024024,11,"11.944 abstrak"
-forster2023,"Forster, P.M. et al.",2023,"Indicators of Global Climate Change 2022: annual update of large-scale indicators","Earth System Science Data 15: 2295–2327",artikel,doi:10.5194/essd-15-2295-2023,1 14,"anggaran karbon & pemanasan"
-otto2021,"Otto, F.E.L. et al.",2021,"Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change","World Weather Attribution",laporan,,1 4 13,"studi cepat WWA"
-otto2022,"Otto, F.E.L. et al.",2022,"Climate change increased extreme monsoon rainfall, flooding highly vulnerable communities in Pakistan","World Weather Attribution",laporan,,1,"atribusi banjir Pakistan 2022"
-philip2022,"Philip, S.Y. et al.",2022,"Rapid attribution analysis of the extraordinary heatwave on the Pacific coast of the US and Canada in June 2021","Earth System Dynamics 13: 1689–1713",artikel,doi:10.5194/esd-13-1689-2022,1 4,"PNW +150 kali lebih mungkin"
-stott2004,"Stott, P.A., Stone, D.A. & Allen, M.R.",2004,"Human contribution to the European heatwave of 2003","Nature 432: 610–614",artikel,doi:10.1038/nature03089,4 13,"studi atribusi pertama"
-clarke2022,"Clarke, B. et al.",2022,"Extreme weather impacts of climate change: an attribution perspective","Environmental Research: Climate 1(1): 012001",artikel,,1 11,"metode atribusi"
-kreienkamp2021,"Kreienkamp, F. et al.",2021,"Rapid attribution of heavy rainfall events leading to the severe flooding in Western Europe during July 2021","World Weather Attribution",laporan,,2 11,"banjir Lembah Ahr"
-ballester2023,"Ballester, J. et al.",2023,"Heat-related mortality in Europe during the summer of 2022","Nature Medicine 29: 1857–1866",artikel,doi:10.1038/s41591-023-02419-z,4 13,"kematian berlebih 61.672"
-robine2008,"Robine, J.-M. et al.",2008,"Death toll exceeded 70,000 in Europe during the summer of 2003","Comptes Rendus Biologies 331(2): 171–178",artikel,,4 13,"estimasi kematian berlebih"
-vicedo2021,"Vicedo-Cabrera, A.M. et al.",2021,"Burden of heat-related mortality attributable to recent human-induced climate change","Nature Climate Change 11: 492–500",artikel,,4 13,"732 lokasi"
-ebi2021,"Ebi, K.L. et al.",2021,"Hot weather and heat extremes: health risks","The Lancet 398(10301): 698–708",artikel,,4,"ambang fisiologis panas"
-watts2021,"Watts, N. et al.",2021,"The 2021 report of the Lancet Countdown on health and climate change","The Lancet 398(10311): 1619–1662",artikel,,7 15,"indikator tahunan"
-cisse2022,"Cissé, G. et al.",2022,"Health, Wellbeing and the Changing Structure of Communities (IPCC AR6 WG2 Ch.7)","Cambridge University Press",laporan,,7,"bab IPCC"
-kishore2018,"Kishore, N. et al.",2018,"Mortality in Puerto Rico after Hurricane Maria","New England Journal of Medicine 379: 162–170",artikel,doi:10.1056/NEJMsa1803972,10,"4.645 kematian berlebih"
-bccoroners2022,"BC Coroners Service",2022,"Extreme Heat and Human Mortality: A Review of Heat-Related Deaths in B.C. in Summer 2021","BC Coroners Service",laporan,,4,"619 kematian; 98% dalam ruangan"
-hess2018,"Hess, J.J. et al.",2018,"Building resilience to climate change: pilot evaluation of the impact of India's first heat action plan","Journal of Environmental and Public Health",artikel,,4,"evaluasi rencana panas Ahmedabad"
-cutter2008,"Cutter, S.L. et al.",2008,"A place-based model for understanding community resilience to natural disasters","Global Environmental Change 18(4): 598–606",artikel,,1 10,"kerentanan berbasis tempat"
-aldrich2015,"Aldrich, D.P. & Meyer, M.A.",2015,"Social capital and community resilience","American Behavioral Scientist 59(2): 254–269",artikel,,10,"tinjauan modal sosial"
-berkes2013,"Berkes, F. & Ross, H.",2013,"Community resilience: toward an integrated approach","Society & Natural Resources 26(1): 5–20",artikel,,10,"resiliensi komunitas"
-folke2010,"Folke, C. et al.",2010,"Resilience thinking: integrating resilience, adaptability and transformability","Ecology and Society 15(4): 20",artikel,,10,"adaptasi vs transformasi"
-burke2015,"Burke, M., Hsiang, S.M. & Miguel, E.",2015,"Global non-linear effect of temperature on economic production","Nature 527: 235–239",artikel,doi:10.1038/nature15725,8 13,"produktivitas ekonomi"
-carleton2016,"Carleton, T.A. & Hsiang, S.M.",2016,"Social and economic impacts of climate","Science 353(6304): aad9837",artikel,doi:10.1126/science.aad9837,8,"kerugian sosial-ekonomi"
-hsiang2013,"Hsiang, S.M., Burke, M. & Miguel, E.",2013,"Quantifying the influence of climate on human conflict","Science 341(6151): 1235367",artikel,,13,"meta-analisis konflik"
-checchi2013,"Checchi, F. & Robinson, W.C.",2013,"Mortality among populations of southern and central Somalia affected by severe food insecurity and famine during 2010–2012","FAO/FSNAU",laporan,,2 6,"258.000 kematian"
-fao2023,"FAO",2023,"The State of Food Security and Nutrition in the World","FAO",laporan,,6,"laporan tahunan"
-fao2022,"FAO",2022,"The State of the World's Land and Water Resources (SOLAW 2021)","FAO",laporan,,5 6,"air & lahan"
-ocha2023,"OCHA",2023,"Libya: Floods Situation Report","UN OCHA",laporan,,3 12,"Derna 2023"
-pakistan2022,"Government of Pakistan",2022,"Pakistan Floods 2022: Post-Disaster Needs Assessment","Ministry of Planning / ADB / EU / UNDP / World Bank",laporan,,1,"kerugian US$30,1 miliar; 4,8% PDB"
-ferc2021,"FERC & NERC",2021,"The February 2021 Cold Weather Outages in Texas and the South Central United States","FERC/NERC",laporan,,2 9,"4 juta pelanggan listrik"
-morice2021,"Morice, C.P. et al.",2021,"An updated assessment of near-surface temperature change from 1850: the HadCRUT5 dataset","Journal of Geophysical Research: Atmospheres 126",artikel,doi:10.1029/2019JD032361,1,"seri suhu global"
-cheng2024,"Cheng, L. et al.",2024,"New record ocean temperatures and related climate indicators in 2023","Advances in Atmospheric Sciences 41: 1068–1082",artikel,,1 5,"panas laut"
-armstrong2022,"Armstrong McKay, D.I. et al.",2022,"Exceeding 1.5°C global warming could trigger multiple climate tipping points","Science 377(6611): eabn7950",artikel,,14,"titik kritis"
-chancel2022,"Chancel, L.",2022,"Global carbon inequality over 1990–2019","Nature Sustainability 5: 931–938",artikel,,13,"ketimpangan emisi"
-clayton2020,"Clayton, S.",2020,"Climate anxiety: Psychological responses to climate change","Journal of Anxiety Disorders 74: 102263",artikel,,7,"kecemasan iklim"
-albrecht2005,"Albrecht, G.",2005,"Solastalgia: a new concept in health and identity","PAN: Philosophy Activism Nature 3: 44–59",artikel,,7 12,"solastalgia"
-chen2011,"Chen, I.-C. et al.",2011,"Rapid range shifts of species associated with high levels of climate warming","Science 333(6045): 1024–1026",artikel,,7,"pergeseran vektor & spesies"
-gbrmpa2024,"GBRMPA",2024,"Reef Snapshot: Summer 2023–24","Great Barrier Reef Marine Park Authority",laporan,,3,"pemutihan karang"
-ifrc2022,"IFRC",2022,"World Disasters Report 2022","International Federation of Red Cross and Red Crescent Societies",laporan,,8 10,"bantuan & kerugian"
-redcross2020,"Red Cross",2020,"Heat Waves: A Silent Killer","IFRC",laporan,,4,"panas sebagai pembunuh senyap"
-who2021,"WHO",2021,"COP26 Special Report on Climate Change and Health","World Health Organization",laporan,,7,"kesehatan & iklim"
-trenberth2009,"Trenberth, K.E., Fasullo, J.T. & Kiehl, J.",2009,"Earth's global energy budget","Bulletin of the American Meteorological Society 90(3): 311–323",artikel,,1,"neraca energi"
-arrhenius1896,"Arrhenius, S.",1896,"On the influence of carbonic acid in the air upon the temperature of the ground","Philosophical Magazine 41(251): 237–276",artikel,,1,"sumber primer sejarah"
-undrr2015,"UNDRR",2015,"Sendai Framework for Disaster Risk Reduction 2015–2030","UNDRR",laporan,,16,"kerangka tata kelola"
+adger2006,"Adger, W.N.",2006,Vulnerability,Global Environmental Change 16(3): 268–281,artikel,,1,jurnal peer-review; volume/halaman dicek
+ipcc2021,IPCC,2021,Climate Change 2021: The Physical Science Basis (AR6 WG1),Cambridge University Press,laporan,doi:10.1017/9781009157896,1 2 14,laporan resmi IPCC
+ipcc2022a,IPCC,2022a,"Climate Change 2022: Impacts, Adaptation and Vulnerability (AR6 WG2)",Cambridge University Press,laporan,doi:10.1017/9781009325844,1 3 4–14,laporan resmi IPCC
+ipcc2022b,IPCC,2022b,Climate Change 2022: Mitigation of Climate Change (AR6 WG3),Cambridge University Press,laporan,,13 14,laporan resmi IPCC
+wmo2022,WMO,2022,Early Warnings for All: Executive Action Plan 2023–2027,World Meteorological Organization,laporan,,11 16,dokumen resmi WMO
+wmo2023,WMO,2023,State of the Global Climate 2023,World Meteorological Organization,laporan,,1 2 5,laporan tahunan WMO
+wmo2025,WMO,2025,State of the Global Climate 2024,World Meteorological Organization,laporan,,1 5 12,laporan tahunan WMO
+noaa2025,NOAA,2025,Trends in Atmospheric Carbon Dioxide,NOAA Global Monitoring Laboratory,dataset,,1,data resmi NOAA GML (Keeling)
+ncei2024,NOAA NCEI,2024,Billion-Dollar Weather and Climate Disasters,NOAA National Centers for Environmental Information,dataset,,8,basis data resmi
+cred2023,CRED,2023,EM-DAT: The Emergency Events Database,UCLouvain,dataset,,2 8 13,basis data; definisi kematian langsung
+undrr2022,UNDRR,2022,Global Assessment Report on Disaster Risk Reduction 2022: Our World at Risk,UNDRR,laporan,,1 8 16,laporan resmi
+lynas2021,"Lynas, M. et al.",2021,Greater than 99% consensus on human caused climate change in the peer-reviewed scientific literature,Environmental Research Letters 16(11): 114005,artikel,doi:10.1088/1748-9326/ac2966,1 11,88.125 makalah 2012–2020
+cook2013,"Cook, J. et al.",2013,Quantifying the consensus on anthropogenic global warming in the scientific literature,Environmental Research Letters 8(2): 024024,artikel,doi:10.1088/1748-9326/8/2/024024,11,11.944 abstrak
+forster2023,"Forster, P.M. et al.",2023,Indicators of Global Climate Change 2022: annual update of large-scale indicators,Earth System Science Data 15: 2295–2327,artikel,doi:10.5194/essd-15-2295-2023,1 14,anggaran karbon & pemanasan
+otto2021,"Otto, F.E.L. et al.",2021,Attribution of the 2021 Pacific Northwest heatwave — virtually impossible without human-caused climate change,World Weather Attribution,laporan,,1 4 13,studi cepat WWA
+otto2022,"Otto, F.E.L. et al.",2022,"Climate change increased extreme monsoon rainfall, flooding highly vulnerable communities in Pakistan",World Weather Attribution,laporan,,1,atribusi banjir Pakistan 2022
+philip2022,"Philip, S.Y. et al.",2022,Rapid attribution analysis of the extraordinary heatwave on the Pacific coast of the US and Canada in June 2021,Earth System Dynamics 13: 1689–1713,artikel,doi:10.5194/esd-13-1689-2022,1 4,PNW +150 kali lebih mungkin
+stott2004,"Stott, P.A., Stone, D.A. & Allen, M.R.",2004,Human contribution to the European heatwave of 2003,Nature 432: 610–614,artikel,doi:10.1038/nature03089,4 13,studi atribusi pertama
+clarke2022,"Clarke, B. et al.",2022,Extreme weather impacts of climate change: an attribution perspective,Environmental Research: Climate 1(1): 012001,artikel,,1 11,metode atribusi
+kreienkamp2021,"Kreienkamp, F. et al.",2021,Rapid attribution of heavy rainfall events leading to the severe flooding in Western Europe during July 2021,World Weather Attribution,laporan,,2 11,banjir Lembah Ahr
+ballester2023,"Ballester, J. et al.",2023,Heat-related mortality in Europe during the summer of 2022,Nature Medicine 29: 1857–1866,artikel,doi:10.1038/s41591-023-02419-z,4 13,kematian berlebih 61.672
+robine2008,"Robine, J.-M. et al.",2008,"Death toll exceeded 70,000 in Europe during the summer of 2003",Comptes Rendus Biologies 331(2): 171–178,artikel,,4 13,estimasi kematian berlebih
+vicedo2021,"Vicedo-Cabrera, A.M. et al.",2021,Burden of heat-related mortality attributable to recent human-induced climate change,Nature Climate Change 11: 492–500,artikel,,4 13,732 lokasi
+ebi2021,"Ebi, K.L. et al.",2021,Hot weather and heat extremes: health risks,The Lancet 398(10301): 698–708,artikel,,4,ambang fisiologis panas
+watts2021,"Watts, N. et al.",2021,The 2021 report of the Lancet Countdown on health and climate change,The Lancet 398(10311): 1619–1662,artikel,,7 15,indikator tahunan
+cisse2022,"Cissé, G. et al.",2022,"Health, Wellbeing and the Changing Structure of Communities (IPCC AR6 WG2 Ch.7)",Cambridge University Press,laporan,,7,bab IPCC
+kishore2018,"Kishore, N. et al.",2018,Mortality in Puerto Rico after Hurricane Maria,New England Journal of Medicine 379: 162–170,artikel,doi:10.1056/NEJMsa1803972,10,4.645 kematian berlebih
+bccoroners2022,BC Coroners Service,2022,Extreme Heat and Human Mortality: A Review of Heat-Related Deaths in B.C. in Summer 2021,BC Coroners Service,laporan,,4,619 kematian; 98% dalam ruangan
+hess2018,"Hess, J.J. et al.",2018,Building resilience to climate change: pilot evaluation of the impact of India's first heat action plan,Journal of Environmental and Public Health,artikel,,4,evaluasi rencana panas Ahmedabad
+cutter2008,"Cutter, S.L. et al.",2008,A place-based model for understanding community resilience to natural disasters,Global Environmental Change 18(4): 598–606,artikel,,1 10,kerentanan berbasis tempat
+aldrich2015,"Aldrich, D.P. & Meyer, M.A.",2015,Social capital and community resilience,American Behavioral Scientist 59(2): 254–269,artikel,,10,tinjauan modal sosial
+berkes2013,"Berkes, F. & Ross, H.",2013,Community resilience: toward an integrated approach,Society & Natural Resources 26(1): 5–20,artikel,,10,resiliensi komunitas
+folke2010,"Folke, C. et al.",2010,"Resilience thinking: integrating resilience, adaptability and transformability",Ecology and Society 15(4): 20,artikel,,10,adaptasi vs transformasi
+burke2015,"Burke, M., Hsiang, S.M. & Miguel, E.",2015,Global non-linear effect of temperature on economic production,Nature 527: 235–239,artikel,doi:10.1038/nature15725,8 13,produktivitas ekonomi
+carleton2016,"Carleton, T.A. & Hsiang, S.M.",2016,Social and economic impacts of climate,Science 353(6304): aad9837,artikel,doi:10.1126/science.aad9837,8,kerugian sosial-ekonomi
+hsiang2013,"Hsiang, S.M., Burke, M. & Miguel, E.",2013,Quantifying the influence of climate on human conflict,Science 341(6151): 1235367,artikel,,13,meta-analisis konflik
+checchi2013,"Checchi, F. & Robinson, W.C.",2013,Mortality among populations of southern and central Somalia affected by severe food insecurity and famine during 2010–2012,FAO/FSNAU,laporan,,2 6,258.000 kematian
+fao2023,FAO,2023,The State of Food Security and Nutrition in the World,FAO,laporan,,6,laporan tahunan
+fao2022,FAO,2022,The State of the World's Land and Water Resources (SOLAW 2021),FAO,laporan,,5 6,air & lahan
+ocha2023,OCHA,2023,Libya: Floods Situation Report,UN OCHA,laporan,,3 12,Derna 2023
+pakistan2022,Government of Pakistan,2022,Pakistan Floods 2022: Post-Disaster Needs Assessment,Ministry of Planning / ADB / EU / UNDP / World Bank,laporan,,1,"kerugian US$30,1 miliar; 4,8% PDB"
+ferc2021,FERC & NERC,2021,The February 2021 Cold Weather Outages in Texas and the South Central United States,FERC/NERC,laporan,,2 9,4 juta pelanggan listrik
+morice2021,"Morice, C.P. et al.",2021,An updated assessment of near-surface temperature change from 1850: the HadCRUT5 dataset,Journal of Geophysical Research: Atmospheres 126,artikel,doi:10.1029/2019JD032361,1,seri suhu global
+cheng2024,"Cheng, L. et al.",2024,New record ocean temperatures and related climate indicators in 2023,Advances in Atmospheric Sciences 41: 1068–1082,artikel,,1 5,panas laut
+armstrong2022,"Armstrong McKay, D.I. et al.",2022,Exceeding 1.5°C global warming could trigger multiple climate tipping points,Science 377(6611): eabn7950,artikel,,14,titik kritis
+chancel2022,"Chancel, L.",2022,Global carbon inequality over 1990–2019,Nature Sustainability 5: 931–938,artikel,,13,ketimpangan emisi
+clayton2020,"Clayton, S.",2020,Climate anxiety: Psychological responses to climate change,Journal of Anxiety Disorders 74: 102263,artikel,,7,kecemasan iklim
+albrecht2005,"Albrecht, G.",2005,Solastalgia: a new concept in health and identity,PAN: Philosophy Activism Nature 3: 44–59,artikel,,7 12,solastalgia
+chen2011,"Chen, I.-C. et al.",2011,Rapid range shifts of species associated with high levels of climate warming,Science 333(6045): 1024–1026,artikel,,7,pergeseran vektor & spesies
+gbrmpa2024,GBRMPA,2024,Reef Snapshot: Summer 2023–24,Great Barrier Reef Marine Park Authority,laporan,,3,pemutihan karang
+ifrc2022,IFRC,2022,World Disasters Report 2022,International Federation of Red Cross and Red Crescent Societies,laporan,,8 10,bantuan & kerugian
+redcross2020,Red Cross,2020,Heat Waves: A Silent Killer,IFRC,laporan,,4,panas sebagai pembunuh senyap
+who2021,WHO,2021,COP26 Special Report on Climate Change and Health,World Health Organization,laporan,,7,kesehatan & iklim
+trenberth2009,"Trenberth, K.E., Fasullo, J.T. & Kiehl, J.",2009,Earth's global energy budget,Bulletin of the American Meteorological Society 90(3): 311–323,artikel,,1,neraca energi
+arrhenius1896,"Arrhenius, S.",1896,On the influence of carbonic acid in the air upon the temperature of the ground,Philosophical Magazine 41(251): 237–276,artikel,,1,sumber primer sejarah
+undrr2015,UNDRR,2015,Sendai Framework for Disaster Risk Reduction 2015–2030,UNDRR,laporan,,16,kerangka tata kelola
+big2013,Badan Informasi Geospasial,2013,Panjang Garis Pantai Indonesia 99.093 Kilometer (hasil telaah Tim Kerja Pembakuan Nama Pulau),"BIG, Cibinong",data,,3,diumumkan 18 Okt 2013; sebelumnya 95.181 km (PBB 2008) dan 81.000 km
+abidin2011,"Abidin, H.Z. et al.",2011,Land subsidence of Jakarta (Indonesia) and its relation with urban development,Natural Hazards 59: 1753–1771,artikel,doi:10.1007/s11069-011-9866-9,3,"GPS campaign 1997–2010; 1–15 cm/th, hingga 28 cm/th"
+who2023dengue,WHO,2023,"Dengue increase: statement by Dr Raman Velayudhan, 21 July 2023","World Health Organization, Geneva",laporan,,7,"129 negara; insidensi 30× dalam 50 tahun; 0,5 jt kasus (2000) → 4,2 jt (2022)"
+mcadoo2006,"McAdoo, B.G., Dengler, L., Prasetya, G. & Titov, V.",2006,Smong: how an oral history saved thousands on Indonesia’s Simeulue Island during the December 2004 and March 2005 tsunamis,Earthquake Spectra 22(3): 661–669,artikel,doi:10.1193/1.2204966,11,7 kematian dari 78.128 penduduk
+falepili2024,Government of Australia & Government of Tuvalu,2024,"Australia–Tuvalu Falepili Union Treaty (signed 9 Nov 2023, in force 28 Aug 2024)","DFAT, Canberra",perjanjian,,12,Art. 3 jalur mobilitas; alokasi awal 280 orang/tahun
+sammonds2021,"Sammonds, P., Shamsudduha, M. & Ahmed, K.M.",2021,Climate change driven disaster risks in Bangladesh and its long journey to resilience,Journal of the British Academy 9(s9): 55–73,artikel,,1 2,"tabel kematian siklon: Bhola 300.000; Amphan 26; 2,5 juta mengungsi"
+npr2021texas,NPR,2021,Live updates: winter storms 2021 — boil water notices in Texas,"National Public Radio, 20 Februari 2021",liputan,,9,"TCEQ: 14,4 juta orang terdampak; 1.445 sistem air"
