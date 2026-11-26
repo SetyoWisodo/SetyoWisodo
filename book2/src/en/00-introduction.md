@@ -10,6 +10,29 @@ A book that claims everything is social is as unusable as a book that claims not
 
 That is what this book attempts.
 
+## The shape of the argument, in one page
+
+For a reader who wants the whole book before reading it.
+
+**Part I** establishes that risk is a product of hazard, exposure, and vulnerability; that a disaster is a
+chain rather than an event; and that Indonesia is a useful reader of the framework rather than an exception
+to it.
+
+**Part II** examines who dies. Heat kills the isolated and the poor; water kills the exposed and the
+unwarned; food crises kill through prices rather than harvests; disease follows infrastructure rather than
+temperature.
+
+**Part III** examines what makes a place able to absorb a shock: money (insurance and aid that arrive late
+and unevenly), infrastructure (dependencies that fail in sequence), social capital (the network that does
+the first 72 hours), and knowledge (a warning that does not become an instruction).
+
+**Part IV** examines the decisions that cannot be avoided: displacement, justice, and uncertainty.
+
+**Part V** turns to action, at the scale of the household, the city, and the claim.
+
+The through-line is a single sentence: the death toll is set by social arrangements, and social arrangements
+can be changed.
+
 ## A note on what changed in this edition
 
 This book began as a single chapter. The first version argued that a climate disaster is a social
