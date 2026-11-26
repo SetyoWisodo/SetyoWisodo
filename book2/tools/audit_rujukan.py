@@ -135,9 +135,10 @@ def jalankan(ringkas: bool = False) -> int:
     bib = muat_bibliografi()
     klaim = muat_klaim()
 
-    # 1. kepadatan
+    # 1. kepadatan — hitung kemunculan (bukan unik), termasuk multi-kunci [@a; @b]
+    jumlah_sitasi = len(KUNCI.findall(semua))
     n_sitasi_kurung = len(KURUNG.findall(semua))
-    kepadatan = len(sitasi) / max(total_kata, 1) * 1000
+    kepadatan = jumlah_sitasi / max(total_kata, 1) * 1000
 
     # 2. keterlacakan
     # sitasi gaya lama (Nama, Tahun) tetap dihitung, tapi dipetakan ke kunci
@@ -176,7 +177,7 @@ def jalankan(ringkas: bool = False) -> int:
     baris.append("| Metrik | Nilai | Ambang rujukan | Status |")
     baris.append("|---|---:|---:|---|")
     baris.append(f"| Kata | {total_kata:,} | — | — |".replace(",", "."))
-    baris.append(f"| Sitasi dalam teks | {len(sitasi)} | ≥ 1 per 500 kata | {'lolos' if len(sitasi) >= total_kata/500 else 'gagal'} |")
+    baris.append(f"| Sitasi dalam teks | {jumlah_sitasi} | ≥ 1 per 500 kata | {'lolos' if jumlah_sitasi >= total_kata/500 else 'gagal'} |")
     baris.append(f"| Sitasi per 1.000 kata | {kepadatan:.2f} | ≥ 2,0 | {'lolos' if kepadatan >= 2 else 'gagal'} |")
     n_unik = len({s[0] for s in sitasi if s[0] in bib})
     baris.append(f"| Sumber unik | {n_unik} | ≥ 40 | {'lolos' if n_unik >= 40 else 'gagal'} |")
@@ -214,7 +215,7 @@ def jalankan(ringkas: bool = False) -> int:
     LAPORAN.write_text(laporan, encoding="utf-8")
 
     if ringkas:
-        print(f"kata={total_kata} sitasi={len(sitasi)} kepadatan={kepadatan:.2f}/1000 "
+        print(f"kata={total_kata} sitasi={jumlah_sitasi} kepadatan={kepadatan:.2f}/1000 "
               f"yatim={len(yatim)} tanpa_sumber={total_tanpa} klaim={len(klaim)}")
     else:
         print(laporan)
