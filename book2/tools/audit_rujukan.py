@@ -35,7 +35,7 @@ SRC = BOOK / "src" / "id"  # dipilih lewat --lang
 REF = BOOK / "reference"
 BIB = REF / "bibliografi.csv"
 KLAIM = REF / "klaim.csv"
-LAPORAN = REF / "laporan_audit.md"
+LAPORAN = REF / "laporan_audit.md"          # ditimpa per bahasa di __main__
 
 YEAR = r"(?:18|19|20)\d{2}[a-z]?"
 # Nama (Tahun)  |  (Nama, Tahun)  |  (Nama et al., Tahun; Nama, Tahun)
@@ -238,4 +238,6 @@ if __name__ == "__main__":
     ap.add_argument("--lang", default="id", choices=["id", "en"])
     a = ap.parse_args()
     globals()["SRC"] = BOOK / "src" / a.lang
+    # laporan per bahasa, supaya audit EN tidak menimpa audit ID
+    globals()["LAPORAN"] = REF / f"laporan_audit_{a.lang}.md"
     sys.exit(jalankan(a.ringkas))
