@@ -6,10 +6,10 @@ Dihasilkan otomatis oleh `book2/tools/audit_rujukan.py`.
 
 | Metrik | Nilai | Ambang rujukan | Status |
 |---|---:|---:|---|
-| Kata | 72.558 | — | — |
-| Sitasi dalam teks | 208 | ≥ 1 per 500 kata | lolos |
-| Sitasi per 1.000 kata | 2.87 | ≥ 2,0 | lolos |
-| Sumber unik | 54 | ≥ 40 | lolos |
+| Kata | 72.691 | — | — |
+| Sitasi dalam teks | 210 | ≥ 1 per 500 kata | lolos |
+| Sitasi per 1.000 kata | 2.89 | ≥ 2,0 | lolos |
+| Sumber unik | 56 | ≥ 40 | lolos |
 | Sitasi yatim (tak ada di bibliografi) | 0 | 0 | lolos |
 | Kalimat berangka tanpa sumber | 8 | ≤ 72 | lolos |
 | Klaim di buku besar bukti | 145 | ≥ 120 | lolos |
@@ -36,3 +36,4 @@ Total: **8** kalimat.
 - A humid 35 °C in a tropical city is not, and it is harder to explain to a population that has lived with such heat for generations without wet-bulb language.
 - There is a live scientific argument about the 35 °C wet-bulb figure, and the reader should know its shape, because it determines how alarming the projections should be.
 - The regions where humid heat approaches the threshold — the Persian Gulf, the Indus valley, parts of Southeast Asia — contain hundreds of millions of people, many of them outdoor workers, and the margin for error is smal
+

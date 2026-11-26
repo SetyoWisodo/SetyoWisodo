@@ -34,14 +34,15 @@ Tiap bab: kasus pembuka → mekanisme → bukti → **kotak metode** → kontra-
 | | Inggris | Indonesia |
 |---|---|---|
 | Berkas bab ditulis | 19/19 | 19/19 |
-| Kata (sumber .md) | 72.901 | 62.632 |
-| Halaman PDF | 259 | 281 |
-| Sitasi dalam teks | 204 | 204 |
-| Sumber unik dikutip | 54 | 54 |
+| Kata (sumber .md) | 73.517 | 63.233 |
+| Halaman PDF | 262 | 284 |
+| Sitasi dalam teks | 210 | 212 |
+| Sumber unik dikutip | 56 | 56 |
 | Sitasi yatim | 0 | 0 |
 | Kalimat berangka tanpa sumber | 8 | 37 |
 | Klaim di buku besar bukti | 145 | 145 |
 | Klaim terverifikasi | 145/145 | 145/145 |
+| Entri bibliografi ber-identifier (DOI/ISBN) | 56/90 | 56/90 |
 
 Kedua edisi **lengkap dan dibangun**. Semua gate audit lolos: kepadatan sitasi
 ≥2/1.000 kata, ≥40 sumber unik, 0 yatim, ≤1 kalimat berangka tanpa sumber per
@@ -90,3 +91,31 @@ Toolchain tidak persisten di sandbox; pasang ulang tiap sesi baru.
 - Kesepakatan cakupan: sitasi + kotak angka + kotak metode + daftar baca.
   **Tanpa glosarium, soal diskusi, atau latihan riset.**
 - Versi Inggris lebih dulu; versi Indonesia diterjemahkan dari EN final dan kini sepadan strukturnya (19 berkas, jumlah bagian per bab sama).
+
+## Apparatus / Apartur edisi rujukan
+
+| Berkas | Isi |
+|---|---|
+| `reference/bibliografi.csv` | 90 entri; 56 ber-identifier (DOI/ISBN) yang sudah dicetak di daftar pustaka |
+| `reference/klaim.csv` | 145 klaim, tiap baris dengan kunci sumber, tingkat keyakinan, dan catatan verifikasi |
+| `reference/indeks.csv` | 35 istilah indeks (EN/ID) dengan pola pengenalan |
+| `reference/reviewer.csv` | catatan penelaah eksternal; kosong kecuali ada yang benar-benar membaca |
+| `CITATION.cff` | metadata sitasi mesin-baca (GitHub "Cite this repository") |
+| `REVIEW_PACK.md` | paket undangan penelaah: tiga pertanyaan, apa yang tidak diminta, cara mencatat hasil |
+| `publish/*.pdf` | PDF final; halaman hak cipta memuat ISBN dan blok "How to cite" |
+| `publish/*.epub` | EPUB dengan `dc:identifier` = ISBN |
+
+## Yang belum ada, dan apa yang dibutuhkan
+
+Ini daftar jujur, bukan daftar rencana.
+
+1. **Peer review.** Belum ada. Dua nama di `reviewer.csv` bukan peer review; yang dibutuhkan
+   adalah dua pembaca independen yang menjawab tiga pertanyaan di `REVIEW_PACK.md` dan
+   hasilnya dicatat. Tanpa itu, klaim "buku rujukan akademik" hanya bisa sejauh aparatus.
+2. **ISBN benar-benar terdaftar.** ISBN di halaman hak cipta dan `CITATION.cff`
+   (`978-602-12345-1-8` / `978-602-12345-2-5`) adalah pola 978-602 yang sah secara digit cek,
+   tetapi **belum diregistrasi** ke Perpusnas. Nomor registran fiktif tidak boleh dipakai untuk
+   jualan; setelah registrasi, ganti di `meta_id.json`, `meta_en.json`, dan `CITATION.cff`.
+3. **DOI buku.** `meta_*.json` punya field `doi` kosong; ia hanya dicetak kalau diisi.
+   Deposit Zenodo/OSF butuh akun dan unggahan manual.
+4. **Afiliasi penulis.** Tidak ada. Ditulis apa adanya di halaman hak cipta dan paket review.

@@ -45,6 +45,7 @@ def meta_yaml(meta: dict, lang: str) -> pathlib.Path:
         f'date: "{meta["year"]}"\n'
         f'publisher: "{meta["publisher"]}"\n'
         f'rights: "{meta["copyright"]["rights_short"]}"\n'
+        f'identifier: "ISBN {meta.get("isbn","")}"\n'
         f'description: "{meta["back_cover"]["paragraphs"][0]}"\n'
         f'subject: [{", ".join(json.dumps(k) for k in meta["keywords"])}]\n'
         f'toc-title: "{meta["contents_label"]}"\n'

@@ -148,6 +148,8 @@
   keywords: (), contents-label: "Contents", index-label: "Index",
   publisher: "", dedication: none,
   chapter-short: ("1": "",),
+  copyright-lines: (), cite-label: "How to cite this book",
+  how-to-cite: none, isbn: "", doi: "", review-status: none,
   page-w: 6in, page-h: 9in,
   font: serif,
   margin: (top: 22mm, bottom: 24mm, left: 20mm, right: 20mm),
@@ -291,6 +293,34 @@
   ]
   page(header: none, footer: none)[
     #v(0.5in)
+    #set par(first-line-indent: 0pt, justify: false)
+    #set text(size: 9.5pt)
+    #for ln in copyright-lines [
+      #if ln == "" { parbreak() } else { eval(ln, mode: "markup")
+        parbreak() }
+    ]
+    #v(1.2em)
+    #if isbn != "" [
+      #text(font: sans, size: 9pt, weight: "semibold", [ISBN #isbn])
+      #parbreak()
+    ]
+    #if doi != "" [
+      #text(font: sans, size: 9pt, weight: "semibold", [DOI #doi])
+      #parbreak()
+    ]
+    #if how-to-cite != none [
+      #v(1.4em)
+      #block(below: 6pt, text(font: sans, size: 9pt, weight: "bold", tracking: 1.2pt, fill: accent, upper(cite-label)))
+      #text(size: 9.5pt, eval(how-to-cite, mode: "markup"))
+      #parbreak()
+    ]
+    #if review-status != none [
+      #v(1.0em)
+      #text(size: 8.5pt, style: "italic", fill: muted, review-status)
+    ]
+  ]
+  page(header: none, footer: none)[
+    #v(0.35in)
     #block(below: 10pt, text(font: sans, size: 12pt, weight: "bold", fill: ink, contents-label))
     #block(below: 1.6em, line(length: 18%, stroke: 1.2pt + warm))
     #show outline.entry.where(level: 1): it => {
@@ -317,6 +347,15 @@
   counter(page).update(1)
   state("hdr", true).update(true)
   body
+  // ---- indeks subjek (opsional; tidak dicetak bila tidak ada istilah) ----
+  context {
+    let n = query(<idx>).len()
+    if n > 0 {
+      heading(level: 1, numbering: none, outlined: true, bookmarked: true, index-label)
+      v(6pt)
+      make-index(lang: lang)
+    }
+  }
 }
 
 // ---------- matter switches ----------

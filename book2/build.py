@@ -37,6 +37,45 @@ def esc(s: str) -> str:
     return "".join(out)
 
 
+def esc_md(s: str) -> str:
+    """Escape seperti esc(), tetapi *teks* markdown menjadi #emph[teks]."""
+    if s.count("*") >= 2:
+        bagian = s.split("*")
+        out = []
+        for i, b in enumerate(bagian):
+            out.append(f"#emph[{esc(b)}]" if i % 2 == 1 else esc(b))
+        return "".join(out)
+    return esc(s)
+
+
+
+def bungkus_indeks(typ: str, lang: str, pola: list[tuple[str, str]]) -> str:
+    """Bungkus badan bab dengan #idx-marks supaya istilah terdaftar di indeks.
+
+    Pola adalah regex Typst; hanya istilah yang benar-benar muncul yang dipakai.
+    """
+    aktif = [(t, r) for t, r in pola if re.search(r, typ)]
+    if not aktif:
+        return typ
+    daftar = ", ".join(f'("{esc(t)}", "{r}")' for t, r in aktif)
+    return f'#import "../../template/book.typ": idx-marks\n#idx-marks(({daftar},))[\n{typ}\n]'
+
+
+def baca_indeks(lang: str) -> list[tuple[str, str]]:
+    """Baca reference/indeks.csv -> [(istilah, pola)] untuk satu bahasa."""
+    csv_path = REF / "indeks.csv"
+    if not csv_path.exists():
+        return []
+    out = []
+    with csv_path.open(encoding="utf-8") as fh:
+        for r in csv.DictReader(fh):
+            if lang == "id":
+                out.append((r["istilah_id"], r["pola_id"]))
+            else:
+                out.append((r["istilah_en"], r["pola_en"]))
+    return out
+
+
 def convert(md_file: pathlib.Path, out_file: pathlib.Path, lang: str) -> None:
     out_file.parent.mkdir(parents=True, exist_ok=True)
     text = pypandoc.convert_file(
@@ -122,8 +161,22 @@ def tulis_pustaka(gen_dir: pathlib.Path) -> int:
         nama = r.get("penulis", "")
         tahun, judul, terbit = r["tahun"], r["judul"], r["penerbit"]
         nama_rapi = nama[:-1] if nama.endswith(".") else nama
+        # Identifier (DOI/ISBN) dicetak supaya entri bisa dilacak langsung,
+        # bukan hanya lewat judul. Format: "doi:10.x/y" atau "ISBN 978-…".
+        ident = (r.get("identifier") or "").strip()
+        if ident and not ident.lower().startswith("isbn"):
+            # tmpelkan sebagai pranala supaya bisa diklik di PDF
+            if not ident.lower().startswith("doi:"):
+                ident = "doi:" + ident
+            tautan = ident[4:] if ident.lower().startswith("doi:") else ident
+            ident_typ = (f' #link("https://doi.org/{esc(tautan)}")'
+                         f'[#text(fill: ink)[{esc(ident)}]]')
+        elif ident:
+            ident_typ = f" {esc(ident)}"
+        else:
+            ident_typ = ""
         baris.append(
-            f'#bibentry(n: {i})[{nama_rapi}. {tahun}. #emph[{judul}]. {terbit}.]')
+            f'#bibentry(n: {i})[{nama_rapi}. {tahun}. #emph[{judul}]. {terbit}.{ident_typ}]')
     gen_dir.joinpath("zz-pustaka.typ").write_text(
         '#import "../../template/book.typ": *\n' + "\n".join(baris), encoding="utf-8")
     return len(urut)
@@ -217,10 +270,14 @@ def build(lang: str, out_pdf: pathlib.Path) -> pathlib.Path:
 
     short_typ = "(" + ", ".join(f'"{n}": "{esc(v)}"' for n, v in titles) + ",)"
 
+    pola_indeks = baca_indeks(lang)
     includes = []
     for f in files:
         typ = gen / (f.stem + ".typ")
         convert(f, typ, lang)
+        if pola_indeks and not f.name.startswith(("00-", "99-")):
+            typ.write_text(bungkus_indeks(typ.read_text(encoding="utf-8"), lang, pola_indeks),
+                           encoding="utf-8")
         includes.append(typ.relative_to(ROOT).as_posix())
 
     fonts = sorted({re.sub(r'-(Bold|BoldIt|It|Regular|Semibold|SemiboldIt|Light|Black)$', '', p.stem)
@@ -256,6 +313,12 @@ def build(lang: str, out_pdf: pathlib.Path) -> pathlib.Path:
   contents-label: "{esc(meta["contents_label"])}",
   index-label: "{esc(meta["index_label"])}",
   dedication: "{esc(meta["dedication"])}",
+  copyright-lines: ({", ".join(f'"{esc_md(x)}"' for x in meta["copyright"]["lines"])},),
+  cite-label: "{esc("Cara mengutip buku ini" if lang == "id" else "How to cite this book")}",
+  how-to-cite: "{esc_md(meta["how_to_cite"])}",
+  isbn: "{esc(meta.get("isbn", ""))}",
+  doi: "{esc(meta.get("doi", ""))}",
+  review-status: "{esc(meta.get("review_status", ""))}",
   keywords: ({", ".join(f'"{esc(k)}"' for k in meta["keywords"])}),
   chapter-short: {short_typ},
 )

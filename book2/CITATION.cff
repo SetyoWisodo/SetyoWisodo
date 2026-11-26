@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you cite this book, use the metadata below."
+type: book
+title: "Understanding Crisis: Why Climate Disasters Are Social Disasters"
+authors:
+  - family-names: Wisodo
+    given-names: Setyo
+year: 2026
+publisher:
+  name: "Independently published"
+language: en
+isbn: "978-602-12345-2-5"
+keywords:
+  - climate crisis
+  - vulnerability
+  - resilience
+  - disaster policy
+  - Indonesia
+  - adaptation
+  - climate justice
+abstract: >-
+  A reference work in seventeen chapters arguing that climate disasters are
+  social disasters. Every chapter states the observation that would prove it
+  wrong. Published in English and Indonesian.
+license: "All rights reserved"
+version: "1.0.0"
+date-released: "2026-01-01"
+references:
+  - type: book
+    title: "Memahami Krisis: Mengapa Bencana Iklim Menjadi Bencana Sosial"
+    authors:
+      - family-names: Wisodo
+        given-names: Setyo
+    year: 2026
+    publisher:
+      name: "Independently published"
+    language: id
+    isbn: "978-602-12345-1-8"

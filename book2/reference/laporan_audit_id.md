@@ -6,10 +6,10 @@ Dihasilkan otomatis oleh `book2/tools/audit_rujukan.py`.
 
 | Metrik | Nilai | Ambang rujukan | Status |
 |---|---:|---:|---|
-| Kata | 62.400 | — | — |
-| Sitasi dalam teks | 210 | ≥ 1 per 500 kata | lolos |
-| Sitasi per 1.000 kata | 3.37 | ≥ 2,0 | lolos |
-| Sumber unik | 54 | ≥ 40 | lolos |
+| Kata | 62.519 | — | — |
+| Sitasi dalam teks | 212 | ≥ 1 per 500 kata | lolos |
+| Sitasi per 1.000 kata | 3.39 | ≥ 2,0 | lolos |
+| Sumber unik | 56 | ≥ 40 | lolos |
 | Sitasi yatim (tak ada di bibliografi) | 0 | 0 | lolos |
 | Kalimat berangka tanpa sumber | 37 | ≤ 62 | lolos |
 | Klaim di buku besar bukti | 145 | ≥ 120 | lolos |
@@ -98,3 +98,4 @@ Total: **37** kalimat.
 - Proyeksi muka laut "0,3 sampai 1,0 meter pada 2100" bukan kegagalan sains; ia keluaran jujur dari model-model yang tidak sepakat.
 - Kota yang menerima standar periode ulang 100 tahun sedang menerima sejumlah kematian tertentu.
 - Kota yang menerima standar 1.000 tahun sedang membelanjakan lebih banyak untuk menerima lebih sedikit.
+

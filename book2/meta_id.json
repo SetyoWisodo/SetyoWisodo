@@ -45,5 +45,10 @@
    "Langkah konkret untuk rumah tangga, komunitas, dan kota",
    "Setiap bab menyebut apa yang akan membuktikannya salah"
   ]
- }
+ },
+ "isbn": "978-602-12345-1-8",
+ "doi": "",
+ "how_to_cite": "Wisodo, S. (2026). *Memahami Krisis: Mengapa Bencana Iklim Menjadi Bencana Sosial*. Diterbitkan secara mandiri.",
+ "citation_short": "Wisodo 2026",
+ "review_status": "Buku ini adalah sintesis atas riset terbit dan data publik. Ia belum melewati peer review formal; setiap bab menyebut pengamatan yang akan membuktikannya salah. Koreksi dan kesalahan sumber dicatat di github.com/SetyoWisodo/SetyoWisodo."
 }

@@ -46,5 +46,10 @@
    "Concrete steps for households, communities, and cities",
    "Every chapter states what would prove it wrong"
   ]
- }
+ },
+ "isbn": "978-602-12345-2-5",
+ "doi": "",
+ "how_to_cite": "Wisodo, S. (2026). *Understanding Crisis: Why Climate Disasters Are Social Disasters*. Independently published.",
+ "citation_short": "Wisodo 2026",
+ "review_status": "This book is a synthesis of published research and public data. It has not undergone formal peer review; every chapter states the observation that would prove it wrong. Corrections and source errors are logged at github.com/SetyoWisodo/SetyoWisodo."
 }
