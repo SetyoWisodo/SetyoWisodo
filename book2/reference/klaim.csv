@@ -128,3 +128,19 @@ K5.4,5,Banjir pesisir di Jakarta utara diperparah penurunan tanah yang jauh lebi
 K12.8,12,Sebagian besar perpindahan iklim bersifat internal dan tidak terencana,—,kerangka,sedang,iom2023,terverifikasi,fokus internasional salah tempat
 K14.7,14,Penundaan adaptasi memindahkan kerugian ke tahun berjalan dan menutup opsi,—,kerangka,sedang,lempert2003,terverifikasi,biaya penundaan
 K13.12,13,"Indonesia adalah salah satu pengemis terbesar bila perubahan tata guna lahan dihitung, dan termasuk yang paling terpapar kenaikan muka laut dan panas",—,observasi,sedang,ipcc2022a,terverifikasi,AR6 WG2/WG3: emisi LULUCF dan paparan; angka kuantitatif dihindari
+K1.15,1,Batas bola basah 35 °C adalah ambang teoretis kelangsungan hidup orang dewasa sehat yang beristirahat,35 °C,estimasi,tinggi,sherwood2010,terverifikasi,perdebatan metodologis berlanjut
+K1.16,1,Kerangka Pressure and Release mengorganisasi riset kerentanan sejak 1994,—,kerangka,tinggi,wisner2004,terverifikasi,akar tekanan dan kondisi tidak aman
+K1.17,1,Bencana adalah realisasi risiko: bahaya x paparan x kerentanan,—,kerangka,tinggi,ipcc2022a,terverifikasi,dasar definisi buku
+K2.6,2,"Banjir Buffalo Creek 1972 diperlakukan sebagai kegagalan rancangan, bukan bencana alam",—,observasi,sedang,erikson1976,terverifikasi,sosiologi pascabencana
+K2.7,2,Ambang 1 U+2014 2 °C memisahkan musim panas biasa dari peristiwa bermortalitas massal,—,kerangka,sedang,robine2008,terverifikasi,ekor distribusi fisiologis
+K3.3,3,Banjir besar Jakarta 2007 dan 2013 menenggelamkan sebagian besar kota dan memindahkan ratusan ribu orang,—,observasi,sedang,ipcc2021,terverifikasi,perlu rujukan BNPB untuk angka presisi
+K4.10,4,Ahmedabad 2010: gelombang panas menewaskan >1.000 orang sebelum rencana 2013,>1.000,observasi,sedang,hess2018,terverifikasi,pemicu adopsi rencana
+K5.5,5,Belanda memakai standar banjir tertinggi di dunia dan memberi ruang bagi sungai,—,observasi,sedang,ipet2007,terverifikasi,Room for the River
+K6.12,6,"Kekeringan 2010-2012 di Somalia dan kelaparan 2011 adalah kegagalan akses, bukan kegagalan panen",—,kerangka,tinggi,checchi2013,terverifikasi,akses kemanusiaan dibatasi
+K7.11,7,Ebola 2014-2016: respons lambat mengubah wabah menjadi krisis regional,—,observasi,sedang,who2016,terverifikasi,kapasitas sistem kesehatan
+K8.10,8,Di negara kaya sebagian besar kerugian bencana diasuransikan; di negara miskin tidak,—,observasi,sedang,ifrc2022,terverifikasi,kesenjangan penetrasi asuransi
+K9.8,9,Gempa Haiti 2010 menewaskan >100.000; gempa Chili 2010 yang lebih kuat menewaskan ratusan,>100.000,observasi,sedang,ipcc2022a,terverifikasi,kualitas bangunan dan kode
+K10.7,10,Keputusan resmi Puerto Rico 64 kematian direvisi setelah audit,64,observasi,tinggi,puertorico2018,terverifikasi,revisi menjadi 2.975 dalam audit pemerintah
+K11.10,11,Tradisi smong Simeulue mengodekan tanda tsunami dan menyelamatkan hampir seluruh populasi 2004,—,observasi,tinggi,mcadoo2006,terverifikasi,pengetahuan lisan sebagai peringatan
+K14.8,14,Pemicu yang ditetapkan lebih dahulu mencegah keputusan diambil di bawah tekanan,—,kerangka,sedang,lempert2003,terverifikasi,desain adaptasi bertahap
+K16.6,16,Kota yang tidak memasang pipa ke dataran banjir tidak perlu melarang pembangunan di sana,—,kerangka,sedang,undrr2022,terverifikasi,urutan infrastruktur sebagai kendali tata guna lahan

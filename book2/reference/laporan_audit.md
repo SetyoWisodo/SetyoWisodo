@@ -12,8 +12,8 @@ Dihasilkan otomatis oleh `book2/tools/audit_rujukan.py`.
 | Sumber unik | 54 | ≥ 40 | lolos |
 | Sitasi yatim (tak ada di bibliografi) | 0 | 0 | lolos |
 | Kalimat berangka tanpa sumber | 8 | ≤ 72 | lolos |
-| Klaim di buku besar bukti | 129 | ≥ 120 | lolos |
-| Klaim terverifikasi | 129 | semua | lolos |
+| Klaim di buku besar bukti | 145 | ≥ 120 | lolos |
+| Klaim terverifikasi | 145 | semua | lolos |
 
 ## Sitasi yatim
 
