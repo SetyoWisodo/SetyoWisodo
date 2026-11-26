@@ -1,4 +1,4 @@
-# Pengantar: Satu Kalimat yang Perlu Diperiksa {.unnumbered .unlisted}
+# Pengantar: Satu Kalimat yang Perlu Diperiksa {.unnumbered}
 
 ::: lead
 Bencana iklim adalah bencana sosial. Kalimat itu benar, dan justru karena benar ia mudah dipakai untuk melewati pertanyaan yang lebih sulit: bagian mana yang cuaca, bagian mana yang keputusan manusia, dan siapa yang menanggung selisihnya.
