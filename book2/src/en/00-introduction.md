@@ -85,6 +85,24 @@ Three practices are worth stating at the outset, because they shape what follows
 
 **Attribution is named.** "The study found" rather than "scientists say". Where a figure comes from a government, it is attributed to the government. Where it comes from an advocacy organisation, that is stated, even when the method is sound.
 
+## The conventions used in this book
+
+A short note on formatting and citation, so that the reader can navigate.
+
+**Citations** are numbered in order of first appearance and listed in the reference section. A number after
+a statement means the source is in the list.
+
+**Boxes** appear in three kinds: a case box, which presents an event; a method box, which explains how a
+number is produced; and a checklist box, which summarises an argument.
+
+**Ranges** are given in full. A figure without a range is a point estimate, and the text says so where that
+matters.
+
+**Units** are metric, with imperial equivalents only where a source uses them. Currency is US dollars at the
+year stated.
+
+**Translations** of non-English terms are given in parentheses at first use.
+
 ## Who the book is for
 
 It is written for three kinds of reader, and the structure is designed to let each use it differently.
