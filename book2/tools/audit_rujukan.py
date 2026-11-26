@@ -31,7 +31,7 @@ from collections import Counter, defaultdict
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 BOOK = ROOT / "book2"
-SRC = BOOK / "src" / "id"
+SRC = BOOK / "src" / "id"  # dipilih lewat --lang
 REF = BOOK / "reference"
 BIB = REF / "bibliografi.csv"
 KLAIM = REF / "klaim.csv"
@@ -141,7 +141,19 @@ def jalankan(ringkas: bool = False) -> int:
 
     # 2. keterlacakan
     # sitasi gaya lama (Nama, Tahun) tetap dihitung, tapi dipetakan ke kunci
-    peta = {r["penulis"].split(",")[0].lower(): k for k, r in bib.items()}
+    # nama depan DAN kata terakhir ("World Bank" -> "bank", "Badan Informasi Geospasial" -> "geospasial")
+    peta: dict[str, str] = {}
+    for k, r in bib.items():
+        peta.setdefault(k.lower(), k)          # kunci itu sendiri
+        for dalam in re.findall(r"\(([^)]+)\)", r["penulis"]):
+            for tok in re.split(r"[,\s]+", dalam):
+                if len(tok) > 2:
+                    peta.setdefault(tok.lower(), k)
+        bagian = re.split(r"[,\s]+", re.sub(r"\([^)]*\)", "", r["penulis"]).strip())
+        for tok in filter(None, bagian):
+            tok = tok.strip(".").lower()
+            if len(tok) > 2:
+                peta.setdefault(tok, k)
     yatim = sorted({s for s in sitasi if s[0] not in bib and s[0] not in peta})
     dikutip_kunci = {s[0] for s in sitasi}
 
@@ -214,5 +226,7 @@ def jalankan(ringkas: bool = False) -> int:
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--ringkas", action="store_true")
+    ap.add_argument("--lang", default="id", choices=["id", "en"])
     a = ap.parse_args()
+    globals()["SRC"] = BOOK / "src" / a.lang
     sys.exit(jalankan(a.ringkas))
