@@ -98,6 +98,18 @@ local function Header(h)
   return nil
 end
 
+local cited = {}
+
+local function Cite(c)
+  if not is_typst then return nil end
+  local keys = {}
+  for _, k in ipairs(c.citations) do
+    keys[#keys + 1] = k.id:gsub("^@", "")
+  end
+  return { pandoc.RawInline("typst", string.format('#cite-group(("%s",))',
+    table.concat(keys, '", "'))) }
+end
+
 local function Div(d)
   if d.classes:includes("box") then
     local title = d.attributes["title"] or ""
@@ -113,6 +125,27 @@ local function Div(d)
       return pandoc.Div(c, pandoc.Attr("", { "box", "box-" .. kind }))
     end
   end
+  if d.classes:includes("part") then
+    local num = d.attributes["number"] or ""
+    local ttl = d.attributes["title"] or ""
+    if is_typst then
+      local blocks = { pandoc.RawBlock("typst", string.format('#part-page(number: "%s", title: "%s", lang: "%s")', tesc(num), tesc(ttl), lang)) }
+      -- isi div = catatan bagian (satu paragraf); cetak kecil di bawah judul
+      -- paragraf pertama = anak judul; sisanya = catatan
+      local paras = {}
+      for _, b in ipairs(d.content) do
+        if b.t == "Para" then table.insert(paras, pandoc.utils.stringify(b.content)) end
+      end
+      for i = 2, #paras do
+        table.insert(blocks, pandoc.RawBlock("typst",
+          string.format('#v(20pt)\n#align(center, block(width: 68%%, align(center, text(size: 10pt, style: "italic", fill: muted, [%s]))))', cesc(paras[i]))))
+      end
+      return blocks
+    else
+      return nil
+    end
+  end
+
   if d.classes:includes("lead") then
     if is_typst then
       local blocks = { pandoc.RawBlock("typst", "#lead[") }
@@ -174,6 +207,6 @@ local function Code() return nil end
 
 return {
   { Meta = Meta },
-  { Header = Header, Div = Div, Table = Table },
+  { Header = Header, Div = Div, Table = Table, Cite = Cite },
   { Str = Str, Code = Code, Link = function(l) return l end }
 }

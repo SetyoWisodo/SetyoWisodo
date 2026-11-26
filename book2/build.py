@@ -7,6 +7,7 @@ Jalankan dari mana saja: python3 book2/build.py [--lang id] [--out foo.pdf]
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import pathlib
 import re
@@ -19,6 +20,7 @@ except ImportError as exc:  # pragma: no cover
     sys.exit("Butuh pypandoc + typst: pip install pypandoc_binary typst")
 
 ROOT = pathlib.Path(__file__).resolve().parent
+REF = ROOT / "reference"
 TPL = ROOT / "template"
 GEN = ROOT / ".gen"
 
@@ -60,6 +62,40 @@ def extract_title(md_file: pathlib.Path) -> str:
     return md_file.stem
 
 
+def sitasi_dipakai(gen_dir: pathlib.Path) -> list[str]:
+    """Kunci sitasi dalam urutan kemunculan, dari berkas typst hasil konversi."""
+    found: list[str] = []
+    for f in sorted(gen_dir.glob("*.typ")):
+        for m in re.finditer(r'cite-ref\("([^"]+)"', f.read_text(encoding="utf-8")):
+            k = m.group(1).lstrip("@")
+            if k not in found:
+                found.append(k)
+    return found
+
+
+def tulis_pustaka(gen_dir: pathlib.Path) -> int:
+    csv_path = REF / "bibliografi.csv"
+    if not csv_path.exists():
+        return 0
+    with csv_path.open(encoding="utf-8") as fh:
+        bib = {r["kunci"]: r for r in csv.DictReader(fh)}
+    urut = sitasi_dipakai(gen_dir)
+    baris = []
+    for i, k in enumerate(urut, 1):
+        r = bib.get(k)
+        if not r:
+            baris.append(f'#bibentry(n: {i})[entri bibliografi tidak ditemukan: {k}]')
+            continue
+        nama = r.get("penulis") or r["nama"]
+        tahun, judul, terbit = r["tahun"], r["judul"], r["penerbit"]
+        nama_rapi = nama[:-1] if nama.endswith(".") else nama
+        baris.append(
+            f'#bibentry(n: {i})[{nama_rapi}. {tahun}. #emph[{judul}]. {terbit}.]')
+    gen_dir.joinpath("zz-pustaka.typ").write_text(
+        '#import "../../template/book.typ": *\n' + "\n".join(baris), encoding="utf-8")
+    return len(urut)
+
+
 def build(lang: str, out_pdf: pathlib.Path) -> pathlib.Path:
     meta = json.loads((ROOT / f"meta_{lang}.json").read_text(encoding="utf-8"))
     src = ROOT / "src" / lang
@@ -77,11 +113,9 @@ def build(lang: str, out_pdf: pathlib.Path) -> pathlib.Path:
         for line in f.read_text(encoding="utf-8").splitlines():
             if not line.startswith("# "):
                 continue
-            if "{.part" in line:
-                continue
-            num += 1
             if "{.unnumbered" in line:
                 continue
+            num += 1
             title = line[2:].split("{")[0].strip()
             titles.append((num, title.split("—")[0].strip()))
 
@@ -97,9 +131,24 @@ def build(lang: str, out_pdf: pathlib.Path) -> pathlib.Path:
                     for p in (ROOT.parent / "book" / "fonts").glob("*.otf")})
     fontlist = "(" + ", ".join(f'"{f}"' for f in fonts) + ', "DejaVu Serif", "Serif")'
     fontlist = "(" + ", ".join(f'"{f}"' for f in fonts) + ", \"DejaVu Serif\", \"Serif\")" if fonts else "(\"DejaVu Serif\", \"Serif\")"
-    body = "\n".join(f'#include "{p}"' for p in includes)
+    n_bib = tulis_pustaka(gen)
+    pustaka_isi = ""
+    if n_bib:
+        isi = (gen / "zz-pustaka.typ").read_text(encoding="utf-8")
+        isi = "\n".join(l for l in isi.splitlines() if not l.startswith("#import"))
+        judul = "Daftar Pustaka" if lang == "id" else "References"
+        pustaka_isi = (f'\n#pagebreak(to: "odd", weak: true)\n'
+                       f'#heading(level: 1, numbering: none, outlined: true)[{judul}]\n'
+                       f'#v(6pt)\n{isi}\n')
+        print(f"pustaka: {n_bib} entri")
 
-    main = f'''#import "template/book.typ": book, part-page, lead, callout
+    paruh_depan = [p for p in includes if "/99-" not in p]
+    paruh_belakang = [p for p in includes if "/99-" in p]
+    body = "\n".join(f'#include "{p}"' for p in paruh_depan)
+    body += pustaka_isi
+    body += "\n".join(f'\n#include "{p}"' for p in paruh_belakang)
+
+    main = f'''#import "template/book.typ": *
 
 #show: book.with(
   title: "{esc(meta["title"])}",

@@ -36,6 +36,30 @@
   ]
 }
 
+// ---------- sitasi ----------
+#let cite-group(keys) = {
+  context {
+    let marks = query(<citekey>)
+    let nums = ()
+    for k in keys {
+      let pos = marks.position(m => m.value == k)
+      if pos != none { nums.push(pos + 1) }
+    }
+    if nums.len() > 0 {
+      text(size: 7pt, baseline: 0.34em, fill: accent, nums.map(str).join(","))
+    } else {
+      text(size: 7pt, baseline: 0.34em, fill: warm, "?")
+    }
+  }
+  for k in keys { [#metadata(k) <citekey>] }
+}
+
+#let bibentry(n: 0, body) = block(breakable: true, below: 0.42em, [
+  #grid(columns: (2.2em, 1fr), column-gutter: 2pt,
+    text(size: 9pt, fill: muted, [#n]),
+    text(size: 9pt, body))
+])
+
 #let lead(body) = block(above: 0.2em, below: 1.4em)[
   #set par(first-line-indent: 0pt)
   #text(size: 12pt, style: "italic", fill: muted, body)
