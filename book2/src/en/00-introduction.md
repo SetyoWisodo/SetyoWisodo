@@ -57,7 +57,7 @@ can be changed.
 This book began as a single chapter. The first version argued that a climate disaster is a social
 disaster, and it did so in about ten thousand words, with a handful of cases.
 
-The book that follows is five times that length, and it is organised differently: not as an argument
+The book that follows is seven times that length, and it is organised differently: not as an argument
 proceeded through, but as a set of findings that can be consulted. The change was not only a matter of
 length. It required deciding, for each claim, what the evidence actually supports, and recording the
 decision.

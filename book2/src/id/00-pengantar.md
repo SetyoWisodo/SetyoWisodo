@@ -46,7 +46,7 @@ Benang merahnya satu kalimat: jumlah korban ditentukan oleh susunan sosial, dan 
 
 Buku ini bermula dari satu bab. Versi pertamanya berargumen bahwa bencana iklim adalah bencana sosial, dan melakukannya dalam sekitar sepuluh ribu kata, dengan segenggam kasus.
 
-Buku yang ada di tangan Anda lima kali panjangnya, dan disusun dengan cara berbeda: bukan sebagai argumen yang dilalui berurutan, melainkan sebagai kumpulan temuan yang bisa dikonsultasikan. Perubahan itu bukan hanya soal panjang. Ia menuntut keputusan, untuk setiap klaim, tentang apa yang sebenarnya didukung bukti, dan pencatatan keputusan itu.
+Buku yang ada di tangan Anda tujuh kali panjangnya, dan disusun dengan cara berbeda: bukan sebagai argumen yang dilalui berurutan, melainkan sebagai kumpulan temuan yang bisa dikonsultasikan. Perubahan itu bukan hanya soal panjang. Ia menuntut keputusan, untuk setiap klaim, tentang apa yang sebenarnya didukung bukti, dan pencatatan keputusan itu.
 
 Dua konsekuensi dari proses itu terlihat di dalam teks.
 

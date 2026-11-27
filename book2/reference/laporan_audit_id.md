@@ -6,12 +6,12 @@ Dihasilkan otomatis oleh `book2/tools/audit_rujukan.py`.
 
 | Metrik | Nilai | Ambang rujukan | Status |
 |---|---:|---:|---|
-| Kata | 62.519 | — | — |
-| Sitasi dalam teks | 212 | ≥ 1 per 500 kata | lolos |
-| Sitasi per 1.000 kata | 3.39 | ≥ 2,0 | lolos |
-| Sumber unik | 56 | ≥ 40 | lolos |
+| Kata | 65.425 | — | — |
+| Sitasi dalam teks | 279 | ≥ 1 per 500 kata | lolos |
+| Sitasi per 1.000 kata | 4.26 | ≥ 2,0 | lolos |
+| Sumber unik | 67 | ≥ 40 | lolos |
 | Sitasi yatim (tak ada di bibliografi) | 0 | 0 | lolos |
-| Kalimat berangka tanpa sumber | 37 | ≤ 62 | lolos |
+| Kalimat berangka tanpa sumber | 39 | ≤ 65 | lolos |
 | Klaim di buku besar bukti | 145 | ≥ 120 | lolos |
 | Klaim terverifikasi | 145 | semua | lolos |
 
@@ -21,13 +21,15 @@ Tidak ada. Setiap sitasi punya entri bibliografi.
 
 ## Kalimat berangka tanpa sumber
 
-Total: **37** kalimat.
+Total: **39** kalimat.
 
-### `02-bab01.md` — 3
+### `02-bab01.md` — 5
 
 - Dalam lima hari, kota itu mencatat 739 kematian berlebih.
 - Kesimpulan praktisnya tidak nyaman dan sering dihindari: dalam horizon 10–20 tahun, sebagian besar pekerjaan penyelamatan nyawa ada di sisi paparan dan kerentanan, bukan di sisi emisi.
 - Pemerintah yang membelanjakan 95 persen anggaran iklimnya untuk respons sudah memutuskan untuk menerima angka kematian itu dan membayar pemakamannya.
+- Bab ini berargumen bahwa risiko adalah produk dari bahaya, paparan, dan kerentanan, dan bahwa dalam horison 10–20 tahun kerentanan adalah tempat bekerja yang paling produktif.
+- Kalau intensitas bahaya saja menjelaskan lebih dari 90 persen varians angka kematian, dan suku-suku sosial bersama-sama menambah kurang dari lima poin persentase, bab ini salah dan argumen Bab 8 sampai 11 runtuh.
 
 ### `03-bab02.md` — 6
 
@@ -98,4 +100,3 @@ Total: **37** kalimat.
 - Proyeksi muka laut "0,3 sampai 1,0 meter pada 2100" bukan kegagalan sains; ia keluaran jujur dari model-model yang tidak sepakat.
 - Kota yang menerima standar periode ulang 100 tahun sedang menerima sejumlah kematian tertentu.
 - Kota yang menerima standar 1.000 tahun sedang membelanjakan lebih banyak untuk menerima lebih sedikit.
-

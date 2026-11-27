@@ -34,15 +34,17 @@ Tiap bab: kasus pembuka → mekanisme → bukti → **kotak metode** → kontra-
 | | Inggris | Indonesia |
 |---|---|---|
 | Berkas bab ditulis | 19/19 | 19/19 |
-| Kata (sumber .md) | 73.517 | 63.233 |
-| Halaman PDF | 262 | 284 |
-| Sitasi dalam teks | 210 | 212 |
-| Sumber unik dikutip | 56 | 56 |
+| Kata (sumber .md) | 76.949 | 66.120 |
+| Halaman PDF | 268 | 290 |
+| Sitasi dalam teks | 279 | 279 |
+| Sumber unik dikutip | 67 | 67 |
 | Sitasi yatim | 0 | 0 |
-| Kalimat berangka tanpa sumber | 8 | 37 |
+| Kalimat berangka tanpa sumber | 8 | 39 |
 | Klaim di buku besar bukti | 145 | 145 |
 | Klaim terverifikasi | 145/145 | 145/145 |
-| Entri bibliografi ber-identifier (DOI/ISBN) | 56/90 | 56/90 |
+| Entri bibliografi | 99 | 99 |
+| Entri ber-identifier (DOI/ISBN) | 64/99 | 64/99 |
+| Bab dengan kepadatan sitasi >= 2,0/1.000 | 17/17 | 17/17 |
 
 Kedua edisi **lengkap dan dibangun**. Semua gate audit lolos: kepadatan sitasi
 ≥2/1.000 kata, ≥40 sumber unik, 0 yatim, ≤1 kalimat berangka tanpa sumber per
@@ -119,3 +121,22 @@ Ini daftar jujur, bukan daftar rencana.
 3. **DOI buku.** `meta_*.json` punya field `doi` kosong; ia hanya dicetak kalau diisi.
    Deposit Zenodo/OSF butuh akun dan unggahan manual.
 4. **Afiliasi penulis.** Tidak ada. Ditulis apa adanya di halaman hak cipta dan paket review.
+
+## Revisi menurut laporan penelaah (2026-11-27)
+
+Sembilan temuan penelaah dikerjakan sebagai berikut.
+
+| Temuan | Tindakan | Sisa |
+|---|---|---|
+| M1 aritmetik salah (risiko "tetap naik") | dihitung ulang: 2 x 0,67 x 0,67 = 0,89; teks dibetulkan + sitasi `kelman2012`, `birkmann2013` | — |
+| M2 falsifikasi tidak terukur | 17 seksi ditulis ulang: variabel, arah, ambang; 15 -> 33 sitasi | 2 bab (14, 17) masih kualitatif |
+| M3 atribusi bab 13 | Carbon Majors -> `heede2014`; klaim konsentrasi diberi ketidakpastian + `ipcc2021` | audit 210 sitasi lain belum selesai |
+| M4 literatur kontrarian absen | 9 sumber masuk: Gaillard, Kelman, Birkmann, Mercer, Tol, Kahan, Flyvbjerg, Bubeck, Ward | belum ada ekonom yang lebih keras (Nordhaus, Lomborg) |
+| M5 kerangka tanpa peringatan | seksi "where it bends" + MOVE + kritik Gaillard | — |
+| M7 kepadatan sitasi timpang | 6 bab di bawah ambang dinaikkan; kini 17/17 >= 2,0 | — |
+| M8 kasus kontra tanpa bukti | 14 seksi diberi 24 sitasi (dari 6) | — |
+| M10/M12 teks usang | "nineteen chapters" -> seventeen; "five times" -> seven | — |
+| M6 24 subjudul/bab | **belum dikerjakan** — restrukturisasi 17 bab | pekerjaan besar, belum dimulai |
+
+Kejujuran angka: 76.949 kata (EN), 279 sitasi, 67 sumber, 0 yatim, 145/145 klaim terverifikasi.
+Kepadatan 3,66/1.000 (EN) dan 4,26/1.000 (ID). ISBN masih belum diregistrasi; belum ada peer review.
