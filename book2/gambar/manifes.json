@@ -1,0 +1,71 @@
+[
+ {
+  "kunci": "amphan",
+  "berkas": "01-amphan-2020.jpg",
+  "berkas_sumber": "amphan.jpg",
+  "judul": "Siklon Amphan saat mendarat di Bangladesh",
+  "sumber": "ESA / Copernicus Sentinel",
+  "lisensi": "CC BY-SA 3.0 IGO (ESA). Kredit wajib. Sumber: ESA, 20 Mei 2020.",
+  "catatan": "Sentinel-3."
+ },
+ {
+  "kunci": "pakistan2010",
+  "berkas": "02-indus-2010.jpg",
+  "berkas_sumber": "pakistan2010.jpg",
+  "judul": "Banjir Indus, Pakistan, September 2010",
+  "sumber": "NASA / ASTER (Terra), NASA Photojournal PIA13368",
+  "lisensi": "Domain publik (NASA/JPL). Kredit wajib. Sumber: NASA Photojournal, 3 September 2010.",
+  "potong": [
+   0.06,
+   0.3,
+   0.94,
+   0.72
+  ],
+  "catatan": "Komposit warna semu; air tergenang tampak biru, vegetasi merah."
+ },
+ {
+  "kunci": "ecostress",
+  "berkas": "03-ecostress-2019.jpg",
+  "berkas_sumber": "ecostress.jpg",
+  "judul": "Suhu permukaan empat kota Eropa saat gelombang panas 2019",
+  "sumber": "NASA/JPL-Caltech, ECOSTRESS (PIA23148)",
+  "lisensi": "Domain publik (NASA/JPL-Caltech). Kredit wajib. Sumber: NASA/JPL, 2019.",
+  "catatan": "Peta suhu permukaan, bukan suhu udara."
+ },
+ {
+  "kunci": "tuvalu",
+  "berkas": "07-funafuti.jpg",
+  "berkas_sumber": "tuvalu.jpg",
+  "judul": "Atol Funafuti, Tuvalu",
+  "sumber": "NASA Earth Observatory (OLI-2/Landsat 9)",
+  "lisensi": "Domain publik (NASA). Kredit wajib. Sumber: NASA Earth Observatory, 28 September 2023.",
+  "catatan": "Atol rata-rata beberapa meter di atas muka laut."
+ },
+ {
+  "kunci": "katrina_banjir",
+  "berkas": "06-new-orleans-2005.jpg",
+  "berkas_sumber": "katrina_banjir.jpg",
+  "judul": "New Orleans setelah tanggul jebol, September 2005",
+  "sumber": "NOAA Corps (Mark Moran / Phil Eastman / Dave Demers)",
+  "lisensi": "Domain publik (NOAA, karya pegawai federal). Sumber: Wikimedia Commons.",
+  "catatan": "Foto helikopter NOAA, 11 September 2005."
+ },
+ {
+  "kunci": "panas2003",
+  "berkas": "04-anomali-panas-2003.jpg",
+  "berkas_sumber": "panas2003.jpg",
+  "judul": "Anomali suhu permukaan Juli 2003 dibanding 2001, Eropa",
+  "sumber": "NASA Earth Observatory (Reto Stöckli & Robert Simmon), MODIS/Terra",
+  "lisensi": "Domain publik (NASA). Sumber: NASA Earth Observatory; berkas Wikimedia Commons.",
+  "catatan": "Suhu permukaan siang hari, bukan suhu udara."
+ },
+ {
+  "kunci": "theewaterskloof",
+  "berkas": "05-theewaterskloof-2018.jpg",
+  "berkas_sumber": "theewaterskloof.jpg",
+  "judul": "Bendungan Theewaterskloof, Cape Town, Februari 2018",
+  "sumber": "Antti Lipponen / Sentinel-2B, via Wikimedia Commons",
+  "lisensi": "CC BY 2.0. Kredit wajib. Sumber: Wikimedia Commons (Flickr: anttilipponen).",
+  "catatan": "Bendungan utama Cape Town pada puncak krisis air."
+ }
+]

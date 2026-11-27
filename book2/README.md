@@ -34,14 +34,15 @@ Tiap bab: kasus pembuka → mekanisme → bukti → **kotak metode** → kontra-
 | | Inggris | Indonesia |
 |---|---|---|
 | Berkas bab ditulis | 19/19 | 19/19 |
-| Kata (sumber .md) | 77.108 | 66.251 |
-| Halaman PDF | 270 | 290 |
+| Kata (sumber .md) | 77.800 | 66.900 |
+| Halaman PDF | 282 | 300 |
+| Gambar ber-kredit | 7 | 7 |
 | Seksi H2 per bab | 10-12 | 10-12 |
 | Median kata per seksi | 406 | 406 |
 | Sitasi dalam teks | 289 | 288 |
 | Sumber unik dikutip | 71 | 71 |
 | Sitasi yatim | 0 | 0 |
-| Kalimat berangka tanpa sumber | 8 | 39 |
+| Kalimat berangka tanpa sumber | 8 | 41 |
 | Klaim di buku besar bukti | 145 | 145 |
 | Klaim terverifikasi | 145/145 | 145/145 |
 | Entri bibliografi | 104 | 104 |
@@ -62,6 +63,8 @@ python3 book2/build_extras.py --lang en   # -> cover JPG, EPUB, DOCX
 python3 book2/build.py --lang id
 python3 book2/build_extras.py --lang id
 python3 book2/tools/audit_rujukan.py --lang en
+python3 book2/gambar/sisipkan.py            # pasang caption ke naskah (--cabut untuk hapus)
+python3 book2/tools/siapkan_gambar.py       # rakit ulang gambar + pita kredit
 ```
 
 Toolchain tidak persisten di sandbox; pasang ulang tiap sesi baru.
@@ -76,16 +79,39 @@ Toolchain tidak persisten di sandbox; pasang ulang tiap sesi baru.
 - `reference/bibliografi.csv` — 87 entri; `reference/klaim.csv` — 145 klaim
 - `reference/BLUEPRINT_EN.md` — kerangka, gaya, aturan sumber
 - `tools/audit_rujukan.py` — audit kepadatan sitasi, yatim, angka tanpa sumber
+- `gambar/` — 7 gambar final (lebar 1800 px, kredit tercetak di dalam gambar),
+  `manifes.json` (sumber + lisensi setiap gambar), `caption.json` (caption EN/ID),
+  `sumber/` (berkas asli), `sisipkan.py` (menyisipkan/mencabut gambar dari naskah)
 - `publish/` — PDF, EPUB, DOCX, sampul untuk kedua bahasa
 
 ## Angka
 
-- **EN** — 259 hlm, 72.901 kata, 204 sitasi, 54 sumber, 0 yatim,
-  8 kalimat berangka tanpa sumber. `publish/en.pdf` 1.753.791 B.
-- **ID** — 281 hlm, 62.632 kata, 204 sitasi, 54 sumber, 0 yatim,
-  37 kalimat berangka tanpa sumber. `publish/id.pdf` 1.739.663 B.
-- Turunan: EPUB 337.986 B (EN) / 341.831 B (ID); DOCX 207.313 B / 194.096 B;
-  sampul JPG 200.908 B / 209.746 B.
+- **EN** — 282 hlm, 77.800 kata, 289 sitasi, 71 sumber, 0 yatim,
+  8 kalimat berangka tanpa sumber. `publish/en.pdf` 6.646.460 B.
+- **ID** — 300 hlm, 66.900 kata, 288 sitasi, 71 sumber, 0 yatim,
+  41 kalimat berangka tanpa sumber. `publish/id.pdf` 6.620.642 B.
+- Turunan (berisi 7 gambar isi): EPUB 4.881 KB (EN) / 4.885 KB (ID);
+  DOCX 4.759 KB / 4.746 KB; sampul JPG 200.908 B / 209.746 B.
+
+## Gambar
+
+Tujuh gambar, semuanya domain publik atau berlisensi terbuka, dengan kredit dan
+lisensi **tercetak di dalam berkas gambar** supaya ikut terbawa ke Word, EPUB, atau
+salinan cetak. Daftar kredit juga ada di "A Note on Sources" / "Catatan Sumber".
+
+| Berkas | Subjek | Bab | Sumber / lisensi |
+|---|---|---|---|
+| 01 | Siklon Amphan mendarat, 2020 | 1 | Copernicus Sentinel-3 / ESA, CC BY-SA 3.0 IGO |
+| 02 | Banjir dataran Indus, 2010 | 2 | NASA/JPL ASTER PIA13368, PD |
+| 03 | Suhu permukaan 4 kota, 2019 | 4 | NASA/JPL ECOSTRESS PIA23148, PD |
+| 04 | Anomali panas Eropa 2003 | 4 | NASA EO (Stöckli & Simmon), PD |
+| 05 | Theewaterskloof, Cape Town 2018 | 5 | Antti Lipponen / Sentinel-2B, CC BY 2.0 |
+| 06 | New Orleans setelah tanggul jebol, 2005 | 5 | NOAA Corps, PD |
+| 07 | Atol Funafuti, Tuvalu | 12 | NASA EO, Landsat 9 OLI-2, PD |
+
+Caption ada di `gambar/caption.json` (EN + ID) dan disisipkan oleh
+`python3 gambar/sisipkan.py`; `--cabut` menghapusnya kembali. Setiap gambar juga
+tercatat di `gambar/manifes.json` (berkas sumber, lisensi, catatan).
 
 ## Catatan sumber
 

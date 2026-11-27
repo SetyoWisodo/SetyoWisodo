@@ -64,6 +64,9 @@ def build_epub_docx(lang: str) -> tuple[pathlib.Path, pathlib.Path]:
         f"--metadata=lang:{lang}",
         "--toc",
         "--toc-depth=1",
+        # Gambar dirujuk relatif dari src/<lang>/ sebagai ../../gambar/...;
+        # tanpa ini pandoc mencari gambar di dalam src/ dan menjatuhkannya.
+        f"--resource-path={ROOT}:{SRC / lang}",
     ]
     PUB.mkdir(exist_ok=True)
     epub = PUB / f"{meta['slug']}_{lang}.epub"

@@ -1,0 +1,145 @@
+[
+ {
+  "kunci": "amphan",
+  "berkas": "01-amphan-2020.jpg",
+  "naskah": {
+   "en": "src/en/02-ch01.md",
+   "id": "src/id/02-bab01.md"
+  },
+  "jangkar": {
+   "en": "Bangladesh is the clearest case. Cyclone Bhola in 1970",
+   "id": "Bangladesh adalah kasus paling jernih. Siklon Bhola pada 1970"
+  },
+  "alt": {
+   "en": "Satellite image of Cyclone Amphan at landfall over Bangladesh, May 2020",
+   "id": "Citra satelit Siklon Amphan saat mendarat di Bangladesh, Mei 2020"
+  },
+  "caption": {
+   "en": "Cyclone Amphan making landfall over Bangladesh, 20 May 2020. Bhola in 1970 and Amphan in 2020 were cyclones of comparable strength; the difference in deaths was mostly built before either storm formed: shelters, volunteers, and warnings in local languages. Credit: contains modified Copernicus Sentinel data (2020), processed by ESA, CC BY-SA 3.0 IGO.",
+   "id": "Siklon Amphan mendarat di Bangladesh, 20 Mei 2020. Bhola pada 1970 dan Amphan pada 2020 adalah siklon dengan kekuatan setara; selisih korban jiwa sebagian besar dibangun sebelum kedua badai itu terbentuk: tempat penampungan, relawan, dan peringatan dalam bahasa lokal. Kredit: contains modified Copernicus Sentinel data (2020), processed by ESA, CC BY-SA 3.0 IGO."
+  }
+ },
+ {
+  "kunci": "theewaterskloof",
+  "berkas": "05-theewaterskloof-2018.jpg",
+  "naskah": {
+   "en": "src/en/06-ch05.md",
+   "id": "src/id/06-bab05.md"
+  },
+  "jangkar": {
+   "en": "### Cape Town, 2018: the drought that was managed",
+   "id": "### Cape Town, 2018: kekeringan yang dikelola"
+  },
+  "alt": {
+   "en": "Theewaterskloof Dam near Cape Town at low level, February 2018",
+   "id": "Bendungan Theewaterskloof dekat Cape Town saat muka air rendah, Februari 2018"
+  },
+  "caption": {
+   "en": "Theewaterskloof Dam, the main reservoir for Cape Town, in February 2018, at the height of the water crisis. The city cut demand by roughly half before the reservoirs emptied; the dam is the physical measure of how little margin was left. Credit: Antti Lipponen / Sentinel-2B, CC BY 2.0, via Wikimedia Commons.",
+   "id": "Bendungan Theewaterskloof, reservoir utama Cape Town, pada Februari 2018, di puncak krisis air. Kota itu memangkas permintaan sekitar separuh sebelum reservoir kosong; bendungan ini adalah ukuran fisik dari sisa margin yang ada. Kredit: Antti Lipponen / Sentinel-2B, CC BY 2.0, via Wikimedia Commons."
+  },
+  "posisi": "sesudah"
+ },
+ {
+  "kunci": "pakistan2010",
+  "berkas": "02-indus-2010.jpg",
+  "naskah": {
+   "en": "src/en/03-ch02.md",
+   "id": "src/id/03-bab02.md"
+  },
+  "jangkar": {
+   "en": "In Pakistan in 2022, the Indus rose for eight weeks.",
+   "id": "Di Pakistan pada 2022, sungai Indus naik selama delapan minggu."
+  },
+  "alt": {
+   "en": "Satellite image of flooding on the Indus plain in Pakistan, September 2010",
+   "id": "Citra satelit banjir di dataran Indus, Pakistan, September 2010"
+  },
+  "caption": {
+   "en": "Floodwater on the Indus plain, Pakistan, September 2010. This is a false-colour composite: water is blue, vegetation red, bare ground pale. Satellite images of a flood show the water; they cannot show who could not leave, what the water destroyed, or how long recovery took. Those are the links in the chain, and they are not visible from orbit. Credit: NASA/JPL-Caltech, ASTER on Terra, PIA13368.",
+   "id": "Air banjir di dataran Indus, Pakistan, September 2010. Ini komposit warna semu: air biru, vegetasi merah, tanah gundul pucat. Citra satelit sebuah banjir memperlihatkan airnya; citra itu tidak dapat memperlihatkan siapa yang tidak bisa pergi, apa yang dihancurkan air, atau berapa lama pemulihannya. Itulah mata rantai dalam rantai sebab, dan tidak terlihat dari orbit. Kredit: NASA/JPL-Caltech, ASTER di Terra, PIA13368."
+  }
+ },
+ {
+  "kunci": "ecostress",
+  "berkas": "03-ecostress-2019.jpg",
+  "naskah": {
+   "en": "src/en/05-ch04.md",
+   "id": "src/id/05-bab04.md"
+  },
+  "jangkar": {
+   "en": "Surface temperature varies by several degrees between neighbourhoods",
+   "id": "Suhu permukaan berbeda beberapa derajat antar lingkungan"
+  },
+  "alt": {
+   "en": "ECOSTRESS map of surface temperature in four European cities during the June 2019 heatwave",
+   "id": "Peta suhu permukaan ECOSTRESS di empat kota Eropa saat gelombang panas Juni 2019"
+  },
+  "caption": {
+   "en": "Land surface temperature in four European cities during the June 2019 heatwave, measured from the International Space Station. All four panels share a colour scale, which makes the internal texture of each city visible: the cool of parks and rivers, the heat of dense centres and asphalt. Credit: NASA/JPL-Caltech, ECOSTRESS, PIA23148.",
+   "id": "Suhu permukaan lahan di empat kota Eropa saat gelombang panas Juni 2019, diukur dari Stasiun Ruang Angkasa Internasional. Keempat panel memakai skala warna yang sama, sehingga tekstur di dalam tiap kota terlihat: dinginnya taman dan sungai, panasnya pusat kota yang padat dan aspal. Kredit: NASA/JPL-Caltech, ECOSTRESS, PIA23148."
+  }
+ },
+ {
+  "kunci": "panas2003",
+  "berkas": "04-anomali-panas-2003.jpg",
+  "naskah": {
+   "en": "src/en/05-ch04.md",
+   "id": "src/id/05-bab04.md"
+  },
+  "jangkar": {
+   "en": "### Europe, 2003 and 2022: same hazard, different vulnerability",
+   "id": "### Eropa, 2003 dan 2022: bahaya sama, kerentanan berbeda"
+  },
+  "alt": {
+   "en": "Map of land surface temperature anomalies in Europe in July 2003 compared with 2001",
+   "id": "Peta anomali suhu permukaan Eropa pada Juli 2003 dibandingkan 2001"
+  },
+  "caption": {
+   "en": "Land surface temperature in July 2003, compared with July 2001, from MODIS on Terra. This is the heat that killed an estimated 70,000 people, most of them indoors and mostly in France, where no heat warning system existed. Credit: NASA Earth Observatory, Reto Stöckli and Robert Simmon, MODIS Land Science Team.",
+   "id": "Suhu permukaan lahan pada Juli 2003 dibandingkan Juli 2001, dari MODIS di Terra. Inilah panas yang menewaskan sekitar 70.000 orang, sebagian besar di dalam ruangan dan terutama di Prancis, tempat tidak ada sistem peringatan panas. Kredit: NASA Earth Observatory, Reto Stöckli dan Robert Simmon, MODIS Land Science Team."
+  },
+  "posisi": "sesudah"
+ },
+ {
+  "kunci": "tuvalu",
+  "berkas": "07-funafuti.jpg",
+  "naskah": {
+   "en": "src/en/13-ch12.md",
+   "id": "src/id/13-bab12.md"
+  },
+  "jangkar": {
+   "en": "In November 2023, Australia and Tuvalu signed the Falepili Union.",
+   "id": "Pada November 2023, Australia dan Tuvalu menandatangani Falepili Union."
+  },
+  "alt": {
+   "en": "Satellite image of Funafuti atoll, Tuvalu",
+   "id": "Citra satelit atol Funafuti, Tuvalu"
+  },
+  "caption": {
+   "en": "Funafuti atoll, Tuvalu. The ring of land averages a few hundred metres wide; the highest point in the country is about five metres above sea level. This is the territory whose statehood the Falepili Union commits Australia to recognise even if it is lost. Credit: NASA Earth Observatory, Landsat 9 OLI-2.",
+   "id": "Atol Funafuti, Tuvalu. Cincin daratannya rata-rata selebar beberapa ratus meter; titik tertinggi negara ini sekitar lima meter di atas permukaan laut. Inilah wilayah yang kenegaraannya dijanjikan diakui Australia dalam Falepili Union bahkan bila wilayah itu hilang. Kredit: NASA Earth Observatory, Landsat 9 OLI-2."
+  }
+ },
+ {
+  "kunci": "katrina_banjir",
+  "berkas": "06-new-orleans-2005.jpg",
+  "naskah": {
+   "en": "src/en/06-ch05.md",
+   "id": "src/id/06-bab05.md"
+  },
+  "jangkar": {
+   "en": "### New Orleans, 2005: the levee that did not fail for the reason everyone thought",
+   "id": "### New Orleans, 2005: tanggul yang gagal bukan karena alasan yang semua orang sangka"
+  },
+  "alt": {
+   "en": "Aerial photograph of flooded New Orleans after the levee failures of 2005",
+   "id": "Foto udara New Orleans yang terendam setelah tanggul jebol pada 2005"
+  },
+  "caption": {
+   "en": "New Orleans in September 2005, after the levee failures. Most of the failures were not overtopping but undermining: the water went under the wall, not over it. The city then stayed flooded because the pumps had no power. Credit: NOAA Corps (Mark Moran, Phil Eastman, Dave Demers), public domain, via Wikimedia Commons.",
+   "id": "New Orleans pada September 2005, setelah tanggul jebol. Sebagian besar kegagalan bukan karena limpasan, melainkan karena gerusan di bawah: air melewati bawah dinding, bukan melimpas di atasnya. Kota kemudian tetap terendam karena pompa kehilangan listrik. Kredit: NOAA Corps (Mark Moran, Phil Eastman, Dave Demers), domain publik, via Wikimedia Commons."
+  },
+  "posisi": "sesudah"
+ }
+]

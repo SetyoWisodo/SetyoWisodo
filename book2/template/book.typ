@@ -183,6 +183,12 @@
   show table.cell.where(y: 0): set text(font: sans, weight: "semibold")
   show figure.where(kind: table): set block(breakable: true)
   show figure: set block(above: 1.1em, below: 1.1em)
+  // Gambar: caption tanpa nomor, lebih kecil, rapat dengan gambarnya, karena
+  // kredit sumber sudah tercetak di dalam gambar itu sendiri.
+  set figure(numbering: none)
+  show figure.where(kind: image): set text(size: 9.5pt, fill: ink.lighten(20%))
+  show figure.where(kind: image): set par(justify: false, leading: 0.58em)
+  show figure.caption: set par(first-line-indent: 0pt)
 
   // ---- headings ----
   set heading(numbering: (..nums) => if nums.pos().len() == 1 { numbering("1", ..nums) } else { none })

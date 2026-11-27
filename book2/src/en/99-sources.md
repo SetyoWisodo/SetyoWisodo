@@ -40,6 +40,22 @@ Several figures in this book are still moving, and the differences are stated ra
 
 **Second limit: uneven geographical coverage.** The available literature is densest for Europe and North America, because that is where most studies have been done and most data have been published. Chapter 3 and several other sections try to correct this imbalance with Indonesian and South Asian cases, but the imbalance does not disappear. The book should be read with the awareness that "the available evidence" is not the same as "the world".
 
+## Figures and credits
+
+Every figure in this book is a public-domain or openly licensed image, reproduced with the credit and licence printed in the image itself. None of them illustrates a private archive, a stock library, or an image whose rights could not be established.
+
+| Location in text | Subject | Source and licence |
+|---|---|---|
+| Chapter 1, Bangladesh | Cyclone Amphan at landfall, 2020 | Copernicus Sentinel-3 / ESA, CC BY-SA 3.0 IGO |
+| Chapter 2, Pakistan | Floodwater on the Indus plain, 2010 | NASA/JPL-Caltech, ASTER, PIA13368, public domain |
+| Chapter 4, urban heat | Land surface temperature, European heatwave 2019 | NASA/JPL-Caltech, ECOSTRESS, PIA23148, public domain |
+| Chapter 4, Europe 2003 | Land surface temperature anomaly, July 2003 | NASA Earth Observatory (Stöckli and Simmon), MODIS, public domain |
+| Chapter 5, Cape Town | Theewaterskloof Dam, 2018 | Antti Lipponen / Sentinel-2B, CC BY 2.0 |
+| Chapter 5, New Orleans | The city after the levee failures, 2005 | NOAA Corps, public domain |
+| Chapter 12, Tuvalu | Funafuti atoll | NASA Earth Observatory, Landsat 9 OLI-2, public domain |
+
+Two notes on how these are used. First, the satellite images are of hazard and exposure, not of vulnerability: they show where the water was, where the heat was, and how far it reached. What they cannot show is who could not leave. The captions say so where it matters, because an image carries an argument whether or not the text supplies one. Second, none of these images implies endorsement by NASA, ESA, NOAA, or any of the photographers, and no agency logo is reproduced.
+
 ## How to check this book
 
 For any numbered claim, the reader can take three steps:

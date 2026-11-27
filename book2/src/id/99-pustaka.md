@@ -40,6 +40,22 @@ Beberapa angka dalam buku ini masih bergerak, dan perbedaannya ditulis, bukan di
 
 **Batas kedua: cakupan geografis yang tidak seimbang.** Literatur yang tersedia paling padat untuk Eropa dan Amerika Utara, karena di situlah paling banyak studi dilakukan dan paling banyak data dipublikasikan. Bab 3 dan beberapa bagian lain berusaha mengoreksi ketimpangan ini dengan kasus Indonesia dan Asia Selatan, tetapi ketimpangannya tidak hilang. Buku ini harus dibaca dengan kesadaran bahwa "bukti yang tersedia" tidak sama dengan "dunia".
 
+## Gambar dan kredit
+
+Setiap gambar di buku ini adalah citra domain publik atau berlisensi terbuka, dan direproduksi dengan kredit serta lisensi yang tercetak di dalam gambarnya. Tidak ada satu pun yang berasal dari arsip pribadi, perpustakaan stok, atau citra yang status haknya tidak dapat dipastikan.
+
+| Letak di teks | Subjek | Sumber dan lisensi |
+|---|---|---|
+| Bab 1, Bangladesh | Siklon Amphan saat mendarat, 2020 | Copernicus Sentinel-3 / ESA, CC BY-SA 3.0 IGO |
+| Bab 2, Pakistan | Air banjir di dataran Indus, 2010 | NASA/JPL-Caltech, ASTER, PIA13368, domain publik |
+| Bab 4, panas perkotaan | Suhu permukaan lahan, gelombang panas Eropa 2019 | NASA/JPL-Caltech, ECOSTRESS, PIA23148, domain publik |
+| Bab 4, Eropa 2003 | Anomali suhu permukaan, Juli 2003 | NASA Earth Observatory (Stöckli dan Simmon), MODIS, domain publik |
+| Bab 5, Cape Town | Bendungan Theewaterskloof, 2018 | Antti Lipponen / Sentinel-2B, CC BY 2.0 |
+| Bab 5, New Orleans | Kota itu setelah tanggul jebol, 2005 | NOAA Corps, domain publik |
+| Bab 12, Tuvalu | Atol Funafuti | NASA Earth Observatory, Landsat 9 OLI-2, domain publik |
+
+Dua catatan tentang cara penggunaannya. Pertama, citra satelit menunjukkan bahaya dan keterpaparan, bukan kerentanan: citra itu memperlihatkan di mana airnya, di mana panasnya, dan sejauh mana jangkauannya. Yang tidak dapat diperlihatkan adalah siapa yang tidak bisa pergi. Caption menyatakannya di tempat yang penting, karena sebuah gambar membawa argumennya sendiri, apakah teksnya menyediakannya atau tidak. Kedua, tidak satu pun gambar ini menyiratkan dukungan NASA, ESA, NOAA, atau para fotografernya, dan tidak ada logo lembaga yang direproduksi.
+
 ## Cara memeriksa buku ini
 
 Untuk setiap klaim bernomor, pembaca bisa menempuh tiga langkah:

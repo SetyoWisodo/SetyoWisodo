@@ -6,12 +6,12 @@ Dihasilkan otomatis oleh `book2/tools/audit_rujukan.py`.
 
 | Metrik | Nilai | Ambang rujukan | Status |
 |---|---:|---:|---|
-| Kata | 66.251 | — | — |
+| Kata | 66.900 | — | — |
 | Sitasi dalam teks | 288 | ≥ 1 per 500 kata | lolos |
-| Sitasi per 1.000 kata | 4.35 | ≥ 2,0 | lolos |
+| Sitasi per 1.000 kata | 4.30 | ≥ 2,0 | lolos |
 | Sumber unik | 71 | ≥ 40 | lolos |
 | Sitasi yatim (tak ada di bibliografi) | 0 | 0 | lolos |
-| Kalimat berangka tanpa sumber | 39 | ≤ 66 | lolos |
+| Kalimat berangka tanpa sumber | 41 | ≤ 66 | lolos |
 | Klaim di buku besar bukti | 145 | ≥ 120 | lolos |
 | Klaim terverifikasi | 145 | semua | lolos |
 
@@ -21,7 +21,7 @@ Tidak ada. Setiap sitasi punya entri bibliografi.
 
 ## Kalimat berangka tanpa sumber
 
-Total: **39** kalimat.
+Total: **41** kalimat.
 
 ### `02-bab01.md` — 5
 
@@ -47,8 +47,9 @@ Total: **39** kalimat.
 - Dataran delta yang menurun 10 sentimeter per tahun mengubah paparannya tanpa pembangunan apa pun, tanpa perpindahan penduduk apa pun, tanpa keputusan kebijakan apa pun.
 - Segitiga Karang — kawasan laut yang mencakup Indonesia, Malaysia, Filipina, Papua Nugini, Kepulauan Solomon, dan Timor-Leste — mengandung sekitar 76 persen spesies karang dunia dan sekitar 37 persen spesies ikan karang d
 
-### `05-bab04.md` — 5
+### `05-bab04.md` — 6
 
+- Inilah panas yang menewaskan sekitar 70.000 orang, sebagian besar di dalam ruangan dan terutama di Prancis, tempat tidak ada sistem peringatan panas.
 - Ambang praktis bagi seorang buruh di bawah matahari jauh lebih rendah daripada 35 °C.
 - 45 °C kering di gurun bisa dilalui dengan air dan keteduhan, sementara panas lembap pada suhu lebih rendah tidak.
 - 35 °C lembap di kota tropis tidak, dan lebih sulit dijelaskan kepada populasi yang hidup dengan panas semacam itu selama beberapa generasi tanpa kosakata bola basah.
@@ -85,6 +86,10 @@ Total: **39** kalimat.
 - Alternatifnya — aplikasi cantik yang menjangkau 40 persen populasi yang punya ponsel pintar — bukan sistem peringatan.
 - Layanan meteorologi menghasilkan probabilitas: peluang 60 persen curah hujan di atas ambang, gelombang badai 1,5 meter, kecepatan angin 120 kilometer per jam.
 - Keterampilan yang penting tidak menarik: membaca pernyataan probabilitas dengan benar ("peluang 30 persen banjir" tidak berarti banjirnya akan kecil); memahami arti periode ulang ("banjir 1-dalam-100-tahun" bukan banjir 
+
+### `13-bab12.md` — 1
+
+- Kredit: NASA Earth Observatory, Landsat 9 OLI-2.](../../gambar/07-funafuti.jpg){width=100%}
 
 ### `14-bab13.md` — 1
 
