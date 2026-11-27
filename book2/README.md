@@ -34,16 +34,18 @@ Tiap bab: kasus pembuka → mekanisme → bukti → **kotak metode** → kontra-
 | | Inggris | Indonesia |
 |---|---|---|
 | Berkas bab ditulis | 19/19 | 19/19 |
-| Kata (sumber .md) | 76.949 | 66.120 |
-| Halaman PDF | 268 | 290 |
-| Sitasi dalam teks | 279 | 279 |
-| Sumber unik dikutip | 67 | 67 |
+| Kata (sumber .md) | 77.108 | 66.251 |
+| Halaman PDF | 270 | 290 |
+| Seksi H2 per bab | 10-12 | 10-12 |
+| Median kata per seksi | 406 | 406 |
+| Sitasi dalam teks | 289 | 288 |
+| Sumber unik dikutip | 71 | 71 |
 | Sitasi yatim | 0 | 0 |
 | Kalimat berangka tanpa sumber | 8 | 39 |
 | Klaim di buku besar bukti | 145 | 145 |
 | Klaim terverifikasi | 145/145 | 145/145 |
-| Entri bibliografi | 99 | 99 |
-| Entri ber-identifier (DOI/ISBN) | 64/99 | 64/99 |
+| Entri bibliografi | 104 | 104 |
+| Entri ber-identifier (DOI/ISBN) | 70/104 | 70/104 |
 | Bab dengan kepadatan sitasi >= 2,0/1.000 | 17/17 | 17/17 |
 
 Kedua edisi **lengkap dan dibangun**. Semua gate audit lolos: kepadatan sitasi
@@ -136,7 +138,9 @@ Sembilan temuan penelaah dikerjakan sebagai berikut.
 | M7 kepadatan sitasi timpang | 6 bab di bawah ambang dinaikkan; kini 17/17 >= 2,0 | — |
 | M8 kasus kontra tanpa bukti | 14 seksi diberi 24 sitasi (dari 6) | — |
 | M10/M12 teks usang | "nineteen chapters" -> seventeen; "five times" -> seven | — |
-| M6 24 subjudul/bab | **belum dikerjakan** — restrukturisasi 17 bab | pekerjaan besar, belum dimulai |
+| M6 24 subjudul/bab | **selesai** — 408 H2 digabung menjadi 186 seksi (10-12/bab, median 406 kata); subjudul lama jadi H3; paritas EN/ID 17/17 | isi tidak berubah (diverifikasi kata per kata) |
 
-Kejujuran angka: 76.949 kata (EN), 279 sitasi, 67 sumber, 0 yatim, 145/145 klaim terverifikasi.
-Kepadatan 3,66/1.000 (EN) dan 4,26/1.000 (ID). ISBN masih belum diregistrasi; belum ada peer review.
+Kejujuran angka: 77.108 kata (EN), 289 sitasi, 71 sumber, 0 yatim, 145/145 klaim terverifikasi.
+Kepadatan 3,75/1.000 (EN) dan 4,35/1.000 (ID). ISBN masih belum diregistrasi; belum ada peer review.
+Audit atribusi 240 kalimat: 6 sumber baru (`worldbank2021`, `npr2021texas`, `habibullah2012`,
+`nahar2022`, `headey2008`, `fao2023beras`), rincian di `reference/audit_sitasi.json`.

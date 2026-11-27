@@ -1,0 +1,1595 @@
+{
+ "01": {
+  "seksi": [
+   {
+    "judul": "The distinction that decides who pays",
+    "judul_id": "Pembedaan yang menentukan siapa yang membayar",
+    "h2": [
+     0
+    ]
+   },
+   {
+    "judul": "Where the vocabulary came from",
+    "judul_id": "Dari mana kosakata ini berasal",
+    "h2": [
+     1
+    ]
+   },
+   {
+    "judul": "One afternoon, two neighbourhoods",
+    "judul_id": "Satu sore, dua lingkungan",
+    "h2": [
+     2,
+     3
+    ]
+   },
+   {
+    "judul": "The three terms, taken apart",
+    "judul_id": "Ketiga istilah, dibongkar satu per satu",
+    "h2": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "judul": "The denominator problem",
+    "judul_id": "Masalah penyebut",
+    "h2": [
+     7,
+     8
+    ]
+   },
+   {
+    "judul": "The framework this book uses",
+    "judul_id": "Kerangka yang dipakai buku ini",
+    "h2": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "judul": "Where the framework is weakest",
+    "judul_id": "Di mana kerangka ini paling lemah",
+    "h2": [
+     12
+    ]
+   },
+   {
+    "judul": "The 1931 China floods",
+    "judul_id": "Banjir China 1931",
+    "h2": [
+     13,
+     14
+    ]
+   },
+   {
+    "judul": "What the framework cannot tell you",
+    "judul_id": "Apa yang tidak bisa diberitahukan kerangka ini",
+    "h2": [
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "judul": "A note on terminology",
+    "judul_id": "Catatan tentang istilah",
+    "h2": [
+     19
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     20
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     21
+    ]
+   }
+  ]
+ },
+ "02": {
+  "seksi": [
+   {
+    "judul": "The chain, and the four kinds of link",
+    "judul_id": "Rantai, dan empat jenis mata rantainya",
+    "h2": [
+     0
+    ]
+   },
+   {
+    "judul": "The four kinds of link",
+    "judul_id": "Empat jenis mata rantai",
+    "h2": [
+     1
+    ]
+   },
+   {
+    "judul": "A chain with a history: Puerto Rico",
+    "judul_id": "Rantai yang punya sejarah: Puerto Rico",
+    "h2": [
+     2,
+     3
+    ],
+    "tanpa_h3": true
+   },
+   {
+    "judul": "Why chains are more dangerous than single failures",
+    "judul_id": "Mengapa rantai lebih berbahaya daripada kegagalan tunggal",
+    "h2": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "judul": "The losses that never enter the statistics",
+    "judul_id": "Kerugian yang tidak pernah masuk statistik",
+    "h2": [
+     7,
+     8
+    ]
+   },
+   {
+    "judul": "Thresholds, and the case that defined the field",
+    "judul_id": "Ambang batas, dan kasus yang mendefinisikan bidang ini",
+    "h2": [
+     9,
+     10
+    ]
+   },
+   {
+    "judul": "The chain of information, and the counter-case",
+    "judul_id": "Rantai informasi, dan kasus pembandingnya",
+    "h2": [
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "judul": "Attribution, slow events, and a chain that was cut",
+    "judul_id": "Atribusi, peristiwa lambat, dan rantai yang berhasil diputus",
+    "h2": [
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "judul": "The chain as a budgeting tool",
+    "judul_id": "Rantai sebagai alat penganggaran",
+    "h2": [
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     21
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     22
+    ]
+   }
+  ]
+ },
+ "03": {
+  "seksi": [
+   {
+    "judul": "The archipelago as a test: subsidence and a hazard made by people",
+    "judul_id": "Nusantara sebagai ujian: penurunan tanah dan bahaya buatan manusia",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "Semarang and Jakarta: the same mechanism at two scales",
+    "judul_id": "Semarang dan Jakarta: mekanisme yang sama pada dua skala",
+    "h2": [
+     2,
+     3
+    ]
+   },
+   {
+    "judul": "Three kinds of flood, three defences",
+    "judul_id": "Tiga jenis banjir, tiga pertahanan",
+    "h2": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "judul": "Decentralisation, exposure, and the eruption that tested the system",
+    "judul_id": "Desentralisasi, paparan, dan letusan yang menguji sistem",
+    "h2": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "judul": "The smoke that crosses borders",
+    "judul_id": "Asap yang menyeberangi perbatasan",
+    "h2": [
+     10,
+     11
+    ]
+   },
+   {
+    "judul": "The city that is a river, and an island buying land",
+    "judul_id": "Kota yang juga sungai, dan pulau yang membeli daratan",
+    "h2": [
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "judul": "The Coral Triangle and the national adaptation plan",
+    "judul_id": "Segitiga Terumbu Karang dan rencana adaptasi nasional",
+    "h2": [
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "judul": "A note for the Indonesian reader",
+    "judul_id": "Catatan untuk pembaca Indonesia",
+    "h2": [
+     18,
+     19
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     20
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     21
+    ]
+   }
+  ]
+ },
+ "04": {
+  "seksi": [
+   {
+    "judul": "The counting problem, and two European heatwaves",
+    "judul_id": "Masalah penghitungan, dan dua gelombang panas Eropa",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "France 2003, and the arithmetic of a heat plan",
+    "judul_id": "Prancis 2003, dan aritmetika rencana panas",
+    "h2": [
+     2,
+     3
+    ]
+   },
+   {
+    "judul": "Why wet-bulb matters, and the British Columbia heat dome",
+    "judul_id": "Mengapa wet-bulb penting, dan kubah panas British Columbia",
+    "h2": [
+     4,
+     5
+    ]
+   },
+   {
+    "judul": "Ahmedabad, inequality, and the deaths that are not counted",
+    "judul_id": "Ahmedabad, ketimpangan, dan kematian yang tidak terhitung",
+    "h2": [
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "judul": "Heat and work, and where deaths fell",
+    "judul_id": "Panas dan kerja, dan di mana kematian menurun",
+    "h2": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "judul": "Heat in the informal city, and a moving threshold",
+    "judul_id": "Panas di kota informal, dan ambang batas yang bergeser",
+    "h2": [
+     12,
+     13
+    ]
+   },
+   {
+    "judul": "The heat plan as a political object",
+    "judul_id": "Rencana panas sebagai objek politik",
+    "h2": [
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "judul": "What a reader can check",
+    "judul_id": "Apa yang bisa diperiksa pembaca",
+    "h2": [
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "judul": "Auditing the plan, and the death that is not counted",
+    "judul_id": "Mengaudit rencana, dan kematian yang tidak terhitung",
+    "h2": [
+     20,
+     21
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     22
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     23
+    ]
+   }
+  ]
+ },
+ "05": {
+  "seksi": [
+   {
+    "judul": "Three floods, three defences: New Orleans",
+    "judul_id": "Tiga banjir, tiga pertahanan: New Orleans",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "The levee paradox, and drought as a slow flood",
+    "judul_id": "Paradoks tanggul, dan kekeringan sebagai banjir lambat",
+    "h2": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "judul": "Groundwater, subsidence, and the flash flood",
+    "judul_id": "Air tanah, penurunan tanah, dan banjir bandang",
+    "h2": [
+     5,
+     6
+    ]
+   },
+   {
+    "judul": "Cape Town, and the city that stored water",
+    "judul_id": "Cape Town, dan kota yang menyimpan air",
+    "h2": [
+     7,
+     8
+    ]
+   },
+   {
+    "judul": "Water as a justice problem",
+    "judul_id": "Air sebagai masalah keadilan",
+    "h2": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "judul": "Flood defence, insurance, and the city budget",
+    "judul_id": "Pertahanan banjir, asuransi, dan anggaran kota",
+    "h2": [
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "judul": "The adaptation that pays for itself",
+    "judul_id": "Adaptasi yang membiayai dirinya sendiri",
+    "h2": [
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "judul": "The water that is a political question",
+    "judul_id": "Air yang menjadi pertanyaan politik",
+    "h2": [
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     21
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     22
+    ]
+   }
+  ]
+ },
+ "06": {
+  "seksi": [
+   {
+    "judul": "The 2023 rice episode and its rehearsal",
+    "judul_id": "Episode beras 2023 dan gladi bersihnya",
+    "h2": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "judul": "The mechanics of a thin market",
+    "judul_id": "Mekanika pasar yang tipis",
+    "h2": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "judul": "Post-harvest loss, and paying before the harvest fails",
+    "judul_id": "Kehilangan pascapanen, dan membayar sebelum panen gagal",
+    "h2": [
+     6,
+     7
+    ]
+   },
+   {
+    "judul": "Why famines are now rare",
+    "judul_id": "Mengapa kelaparan kini jarang",
+    "h2": [
+     8,
+     9
+    ]
+   },
+   {
+    "judul": "The counter-case, and the farmer who switched crops",
+    "judul_id": "Kasus pembanding, dan petani yang berganti tanaman",
+    "h2": [
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "judul": "What a country can actually do",
+    "judul_id": "Apa yang benar-benar bisa dilakukan sebuah negara",
+    "h2": [
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "judul": "Smallholders are not a category",
+    "judul_id": "Petani kecil bukan satu kategori",
+    "h2": [
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "judul": "The market that is a public service",
+    "judul_id": "Pasar yang merupakan layanan publik",
+    "h2": [
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     23
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     24
+    ]
+   }
+  ]
+ },
+ "07": {
+  "seksi": [
+   {
+    "judul": "The mechanism is ecological, not meteorological",
+    "judul_id": "Mekanismenya ekologis, bukan meteorologis",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "Cholera in Yemen: the infrastructure case",
+    "judul_id": "Kolera di Yaman: kasus infrastruktur",
+    "h2": [
+     2
+    ]
+   },
+   {
+    "judul": "Malaria, and why climate disease is usually infrastructure disease",
+    "judul_id": "Malaria, dan mengapa penyakit iklim biasanya penyakit infrastruktur",
+    "h2": [
+     3,
+     4,
+     5
+    ]
+   },
+   {
+    "judul": "The 2024 dengue surge, and the disease that did not arrive",
+    "judul_id": "Lonjakan dengue 2024, dan penyakit yang tidak tiba",
+    "h2": [
+     6,
+     7
+    ]
+   },
+   {
+    "judul": "Mental health: the part counted last",
+    "judul_id": "Kesehatan mental: bagian yang dihitung terakhir",
+    "h2": [
+     8
+    ]
+   },
+   {
+    "judul": "Surveillance is the intervention",
+    "judul_id": "Surveilans adalah intervensinya",
+    "h2": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "judul": "What a health ministry should budget for",
+    "judul_id": "Untuk apa kementerian kesehatan seharusnya menganggarkan",
+    "h2": [
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "judul": "The surveillance dividend",
+    "judul_id": "Dividen surveilans",
+    "h2": [
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "judul": "The test, the cost of a case, and the system as adaptation",
+    "judul_id": "Tes, biaya satu kasus, dan sistem sebagai adaptasi",
+    "h2": [
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     22
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     23
+    ]
+   }
+  ]
+ },
+ "08": {
+  "seksi": [
+   {
+    "judul": "The divergence",
+    "judul_id": "Divergensi",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "The humanitarian financing gap",
+    "judul_id": "Celah pembiayaan kemanusiaan",
+    "h2": [
+     2,
+     3
+    ]
+   },
+   {
+    "judul": "Aid, timing, and how a sovereign pays",
+    "judul_id": "Bantuan, waktu, dan cara negara berdaulat membayar",
+    "h2": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "judul": "Loss and damage, and who counts as worth saving",
+    "judul_id": "Kerugian dan kerusakan, dan siapa yang dianggap layak diselamatkan",
+    "h2": [
+     7,
+     8
+    ]
+   },
+   {
+    "judul": "The counter-case, and what a finance ministry should do",
+    "judul_id": "Kasus pembanding, dan apa yang harus dilakukan kementerian keuangan",
+    "h2": [
+     9,
+     10
+    ]
+   },
+   {
+    "judul": "Türkiye, Syria, and the debt that outlasts the disaster",
+    "judul_id": "Türkiye, Suriah, dan utang yang bertahan lebih lama dari bencananya",
+    "h2": [
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "judul": "Insurance retreat, and the largest losses",
+    "judul_id": "Penarikan asuransi, dan kerugian terbesar",
+    "h2": [
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "judul": "The insurance that reaches the poorest",
+    "judul_id": "Asuransi yang menjangkau yang termiskin",
+    "h2": [
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     21
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     22
+    ]
+   }
+  ]
+ },
+ "09": {
+  "seksi": [
+   {
+    "judul": "The sectoral mistake",
+    "judul_id": "Kesalahan sektoral",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "The grid, and the hospital that stayed open",
+    "judul_id": "Jaringan listrik, dan rumah sakit yang tetap buka",
+    "h2": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "judul": "Building codes, and the community-scale alternative",
+    "judul_id": "Kode bangunan, dan alternatif berskala komunitas",
+    "h2": [
+     5,
+     6
+    ]
+   },
+   {
+    "judul": "The cost of redundancy, and what a regulator can require",
+    "judul_id": "Biaya redundansi, dan apa yang bisa diwajibkan regulator",
+    "h2": [
+     7,
+     8
+    ]
+   },
+   {
+    "judul": "Roads, and systems that held",
+    "judul_id": "Jalan, dan sistem yang bertahan",
+    "h2": [
+     9,
+     10
+    ]
+   },
+   {
+    "judul": "How infrastructure fails in a heatwave",
+    "judul_id": "Bagaimana infrastruktur gagal saat gelombang panas",
+    "h2": [
+     11,
+     12
+    ]
+   },
+   {
+    "judul": "Standards for the buildings we already have",
+    "judul_id": "Standar untuk bangunan yang sudah kita miliki",
+    "h2": [
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "judul": "A worked example: the water system",
+    "judul_id": "Contoh kerja: sistem air",
+    "h2": [
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "judul": "The hospital that moved, and the vulnerability that is a location",
+    "judul_id": "Rumah sakit yang pindah, dan kerentanan yang berupa lokasi",
+    "h2": [
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     23
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     24
+    ]
+   }
+  ]
+ },
+ "10": {
+  "seksi": [
+   {
+    "judul": "The two numbers",
+    "judul_id": "Dua angka itu",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "Smong, and Japan 2011",
+    "judul_id": "Smong, dan Jepang 2011",
+    "h2": [
+     2,
+     3
+    ]
+   },
+   {
+    "judul": "The dark side of bonding capital",
+    "judul_id": "Sisi gelap modal ikatan",
+    "h2": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "judul": "Sulawesi 2018, and the association that outlives the disaster",
+    "judul_id": "Sulawesi 2018, dan asosiasi yang hidup lebih lama dari bencananya",
+    "h2": [
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "judul": "The informal network, and the counter-case",
+    "judul_id": "Jaringan informal, dan kasus pembandingnya",
+    "h2": [
+     10,
+     11
+    ]
+   },
+   {
+    "judul": "What a city can do",
+    "judul_id": "Apa yang bisa dilakukan kota",
+    "h2": [
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   {
+    "judul": "The institution that is not a government",
+    "judul_id": "Institusi yang bukan pemerintah",
+    "h2": [
+     16,
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "judul": "Reciprocity as insurance",
+    "judul_id": "Timbal balik sebagai asuransi",
+    "h2": [
+     20,
+     21
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     22
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     23
+    ]
+   }
+  ]
+ },
+ "11": {
+  "seksi": [
+   {
+    "judul": "The Ahr valley, July 2021",
+    "judul_id": "Lembah Ahr, Juli 2021",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "The 2004 tsunami, and the last mile",
+    "judul_id": "Tsunami 2004, dan mil terakhir",
+    "h2": [
+     2,
+     3
+    ]
+   },
+   {
+    "judul": "Message design: what the evidence says",
+    "judul_id": "Desain pesan: apa kata buktinya",
+    "h2": [
+     4,
+     5
+    ]
+   },
+   {
+    "judul": "The forecast that arrives as a number",
+    "judul_id": "Prakiraan yang tiba sebagai angka",
+    "h2": [
+     6,
+     7
+    ]
+   },
+   {
+    "judul": "Local knowledge and climate literacy",
+    "judul_id": "Pengetahuan lokal dan literasi iklim",
+    "h2": [
+     8,
+     9
+    ]
+   },
+   {
+    "judul": "Why people do not evacuate",
+    "judul_id": "Mengapa orang tidak mengungsi",
+    "h2": [
+     10,
+     11
+    ]
+   },
+   {
+    "judul": "A warning is a public good",
+    "judul_id": "Peringatan adalah barang publik",
+    "h2": [
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "judul": "The warning that a community wrote itself",
+    "judul_id": "Peringatan yang ditulis komunitas sendiri",
+    "h2": [
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "judul": "The forecast that a fisherman already knew",
+    "judul_id": "Prakiraan yang sudah diketahui nelayan",
+    "h2": [
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "judul": "The sentence that ends the chapter",
+    "judul_id": "Kalimat yang menutup bab ini",
+    "h2": [
+     21
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     22
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     23
+    ]
+   }
+  ]
+ },
+ "12": {
+  "seksi": [
+   {
+    "judul": "Falepili: a treaty written before the water",
+    "judul_id": "Falepili: perjanjian yang ditulis sebelum airnya datang",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "What makes displacement voluntary",
+    "judul_id": "Apa yang membuat perpindahan bersifat sukarela",
+    "h2": [
+     2,
+     3
+    ]
+   },
+   {
+    "judul": "Bangladesh, and why planned relocation fails",
+    "judul_id": "Bangladesh, dan mengapa relokasi terencana gagal",
+    "h2": [
+     4,
+     5
+    ]
+   },
+   {
+    "judul": "Staying is a legitimate choice",
+    "judul_id": "Bertahan adalah pilihan yang sah",
+    "h2": [
+     6,
+     7
+    ]
+   },
+   {
+    "judul": "The destination problem",
+    "judul_id": "Masalah tujuan",
+    "h2": [
+     8,
+     9
+    ]
+   },
+   {
+    "judul": "What a receiving city does",
+    "judul_id": "Apa yang dilakukan kota penerima",
+    "h2": [
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "judul": "The legal vacuum, and the return that is not a success",
+    "judul_id": "Kekosongan hukum, dan kepulangan yang bukan keberhasilan",
+    "h2": [
+     13,
+     14
+    ]
+   },
+   {
+    "judul": "What a receiving city should have ready",
+    "judul_id": "Apa yang harus disiapkan kota penerima",
+    "h2": [
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "judul": "Five implications for policy",
+    "judul_id": "Lima implikasi bagi kebijakan",
+    "h2": [
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     22
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     23
+    ]
+   }
+  ]
+ },
+ "13": {
+  "seksi": [
+   {
+    "judul": "Two distributions, not one",
+    "judul_id": "Dua distribusi, bukan satu",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "The Carbon Majors accounting",
+    "judul_id": "Akuntansi Carbon Majors",
+    "h2": [
+     2
+    ]
+   },
+   {
+    "judul": "Adaptation finance, and the gap that defines it",
+    "judul_id": "Pembiayaan adaptasi, dan celah yang mendefinisikannya",
+    "h2": [
+     3,
+     4
+    ]
+   },
+   {
+    "judul": "Justice inside countries",
+    "judul_id": "Keadilan di dalam negara",
+    "h2": [
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "judul": "The case against, and why unjust policy fails",
+    "judul_id": "Kasus melawan, dan mengapa kebijakan tidak adil gagal",
+    "h2": [
+     8,
+     9
+    ]
+   },
+   {
+    "judul": "The counter-case, and what it produced",
+    "judul_id": "Kasus pembanding, dan apa yang dihasilkannya",
+    "h2": [
+     10,
+     11,
+     12
+    ]
+   },
+   {
+    "judul": "The colonial accounting",
+    "judul_id": "Pembukuan kolonial",
+    "h2": [
+     13,
+     14
+    ]
+   },
+   {
+    "judul": "What a just programme looks like",
+    "judul_id": "Seperti apa program yang adil",
+    "h2": [
+     15,
+     16
+    ]
+   },
+   {
+    "judul": "Who pays, who is counted late, and who is not counted",
+    "judul_id": "Siapa membayar, siapa dihitung terlambat, dan siapa tidak dihitung",
+    "h2": [
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "judul": "The jurisdiction that is not a state",
+    "judul_id": "Yurisdiksi yang bukan negara",
+    "h2": [
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     23
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     24
+    ]
+   }
+  ]
+ },
+ "14": {
+  "seksi": [
+   {
+    "judul": "Three kinds of uncertainty",
+    "judul_id": "Tiga jenis ketidakpastian",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "Why adaptation is not a one-time purchase",
+    "judul_id": "Mengapa adaptasi bukan pembelian sekali jadi",
+    "h2": [
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "judul": "The drainage decision, and the cost of delay",
+    "judul_id": "Keputusan drainase, dan biaya penundaan",
+    "h2": [
+     5,
+     6
+    ]
+   },
+   {
+    "judul": "Scenarios are not predictions",
+    "judul_id": "Skenario bukan ramalan",
+    "h2": [
+     7,
+     8
+    ]
+   },
+   {
+    "judul": "The precautionary principle, restated",
+    "judul_id": "Prinsip kehati-hatian, dirumuskan ulang",
+    "h2": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "judul": "When waiting was right",
+    "judul_id": "Ketika menunggu adalah keputusan yang benar",
+    "h2": [
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "judul": "The adaptation that is reversible",
+    "judul_id": "Adaptasi yang bisa dibalik",
+    "h2": [
+     15,
+     16
+    ]
+   },
+   {
+    "judul": "The option that is worth paying for",
+    "judul_id": "Opsi yang layak dibayar",
+    "h2": [
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "judul": "The review that is a legal obligation",
+    "judul_id": "Tinjauan yang merupakan kewajiban hukum",
+    "h2": [
+     20,
+     21
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     22
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     23
+    ]
+   }
+  ]
+ },
+ "15": {
+  "seksi": [
+   {
+    "judul": "The honest starting point",
+    "judul_id": "Titik awal yang jujur",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "What the evidence says about kits",
+    "judul_id": "Apa kata bukti tentang paket siaga",
+    "h2": [
+     2,
+     3
+    ]
+   },
+   {
+    "judul": "What is mostly sold and mostly useless",
+    "judul_id": "Yang paling banyak dijual dan paling tidak berguna",
+    "h2": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "judul": "The household in a collective action problem",
+    "judul_id": "Rumah tangga dalam masalah aksi kolektif",
+    "h2": [
+     7,
+     8
+    ]
+   },
+   {
+    "judul": "The limits, stated plainly",
+    "judul_id": "Batasnya, dinyatakan terus terang",
+    "h2": [
+     9,
+     10
+    ]
+   },
+   {
+    "judul": "Where household preparation was decisive",
+    "judul_id": "Ketika persiapan rumah tangga menentukan",
+    "h2": [
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "judul": "The plan nobody reads",
+    "judul_id": "Rencana yang tidak dibaca siapa pun",
+    "h2": [
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "judul": "The neighbour as infrastructure",
+    "judul_id": "Tetangga sebagai infrastruktur",
+    "h2": [
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "judul": "The preparation that a tenant and a child can do",
+    "judul_id": "Persiapan yang bisa dilakukan penyewa dan anak",
+    "h2": [
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     23
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     24
+    ]
+   }
+  ]
+ },
+ "16": {
+  "seksi": [
+   {
+    "judul": "What adaptive capacity actually is",
+    "judul_id": "Apa sebenarnya kapasitas adaptif itu",
+    "h2": [
+     0,
+     1
+    ]
+   },
+   {
+    "judul": "Shelters that get used",
+    "judul_id": "Tempat perlindungan yang benar-benar dipakai",
+    "h2": [
+     2
+    ]
+   },
+   {
+    "judul": "Land use is the real climate decision",
+    "judul_id": "Tata guna lahan adalah keputusan iklim yang sesungguhnya",
+    "h2": [
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "judul": "Where to allow building",
+    "judul_id": "Di mana pembangunan diizinkan",
+    "h2": [
+     7,
+     8
+    ]
+   },
+   {
+    "judul": "The budget test",
+    "judul_id": "Ujian anggaran",
+    "h2": [
+     9,
+     10,
+     11
+    ]
+   },
+   {
+    "judul": "Cities that moved fast",
+    "judul_id": "Kota yang bergerak cepat",
+    "h2": [
+     12,
+     13
+    ]
+   },
+   {
+    "judul": "The city that adapts by accident",
+    "judul_id": "Kota yang beradaptasi secara kebetulan",
+    "h2": [
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "judul": "The city as a collection of routines",
+    "judul_id": "Kota sebagai kumpulan rutinitas",
+    "h2": [
+     17,
+     18,
+     19
+    ]
+   },
+   {
+    "judul": "The city and the basin",
+    "judul_id": "Kota dan daerah tangkapan airnya",
+    "h2": [
+     20,
+     21
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     22
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     23
+    ]
+   }
+  ]
+ },
+ "17": {
+  "seksi": [
+   {
+    "judul": "Why a chapter on reading claims belongs here",
+    "judul_id": "Mengapa bab tentang membaca klaim ada di sini",
+    "h2": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "judul": "Test 2: what is the denominator?",
+    "judul_id": "Tes 2: apa penyebutnya?",
+    "h2": [
+     3
+    ]
+   },
+   {
+    "judul": "Test 3: is the range collapsed?",
+    "judul_id": "Tes 3: apakah rentangnya diciutkan?",
+    "h2": [
+     4
+    ]
+   },
+   {
+    "judul": "Tests 4 to 7: change, framing, horizon, counter-case",
+    "judul_id": "Tes 4 sampai 7: perubahan, pembingkaian, cakrawala waktu, kasus pembanding",
+    "h2": [
+     5,
+     6,
+     7,
+     8
+    ]
+   },
+   {
+    "judul": "How to read a climate report in twenty minutes",
+    "judul_id": "Cara membaca laporan iklim dalam dua puluh menit",
+    "h2": [
+     9,
+     10
+    ]
+   },
+   {
+    "judul": "The question the book cannot answer",
+    "judul_id": "Pertanyaan yang tidak bisa dijawab buku ini",
+    "h2": [
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "judul": "Applying the tests",
+    "judul_id": "Menerapkan tesnya",
+    "h2": [
+     14,
+     15,
+     16
+    ]
+   },
+   {
+    "judul": "What this book would have to show to be wrong",
+    "judul_id": "Apa yang harus ditunjukkan buku ini agar terbukti salah",
+    "h2": [
+     17,
+     18,
+     19,
+     20
+    ]
+   },
+   {
+    "judul": "The tests applied to this book's own numbers",
+    "judul_id": "Tes yang diterapkan pada angka buku ini sendiri",
+    "h2": [
+     21,
+     22,
+     23
+    ]
+   },
+   {
+    "judul": "What would prove this chapter wrong",
+    "judul_id": "Apa yang akan membuktikan bab ini salah",
+    "h2": [
+     24
+    ]
+   },
+   {
+    "judul": "The last page",
+    "judul_id": "Halaman terakhir",
+    "h2": [
+     25
+    ]
+   },
+   {
+    "judul": "Further reading",
+    "judul_id": "Daftar bacaan",
+    "h2": [
+     26
+    ]
+   }
+  ]
+ }
+}

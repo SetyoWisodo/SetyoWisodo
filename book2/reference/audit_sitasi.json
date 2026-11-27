@@ -1,0 +1,22 @@
+{
+ "tanggal": "2026-11-27",
+ "kalimat_diaudit": 241,
+ "temuan_utama": [
+  "216 juta (pindahan karena perubahan iklim) salah diatribusikan ke iom2023; sumber benar worldbank2021 (Groundswell Part 2, doi:10.1596/36248)",
+  "14 juta terdampak badai Texas: ferc2021 saja tidak memadai; ditambah npr2021texas",
+  "12 klaim memakai wmo2022 (Early Warnings for All) di luar cakupannya: 76.000 relawan CPP, 227.000 korban tsunami, fear appeals, ranking tindakan",
+  "fao2022 (SOLAW 2021, air & lahan) dipakai untuk kerusuhan pangan 2007-08 dan krisis 2022; diganti headey2008 / fao2023",
+  "angka indeks harga beras FAO diatribusikan ke fao2023 (SOFI); ditambah entri khusus fao2023beras",
+  "satu sitasi hilang di terjemahan ID (ipcc2021 di bab 17) - paritas dipulihkan"
+ ],
+ "entri_baru": [
+  "worldbank2021",
+  "npr2021texas",
+  "habibullah2012",
+  "nahar2022",
+  "headey2008",
+  "fao2023beras"
+ ],
+ "kalimat_skor_nol_tersisa": 18,
+ "catatan": "Skor nol bukan otomatis salah; banyak yang parafrase judul. Sisa 18 diperiksa manual: semuanya sah kecuali yang sudah diperbaiki."
+}

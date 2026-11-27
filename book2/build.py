@@ -100,6 +100,20 @@ def convert(md_file: pathlib.Path, out_file: pathlib.Path, lang: str) -> None:
                 baris[i] = "#heading(level: 1, numbering: none)[" + ln[2:].strip() + "]"
                 break
         text = "\n".join(baris)
+    # Pandoc menulis H1 sebagai "=" sehingga H2 menjadi "=" dan H3 menjadi "==".
+    # Naikkan H3 ke level 3 supaya gaya heading level 3 di templat terpakai.
+    baris = []
+    in_fence = False
+    for ln in text.split("\n"):
+        if ln.startswith("```"):
+            in_fence = not in_fence
+        # H2 (##) -> "== " (level 2). H3 (###) -> "=== " (level 3) yang tidak
+        # dikenali templat, jadi tulis ulang sebagai heading level 3 eksplisit.
+        if not in_fence and ln.startswith("=== "):
+            baris.append("#heading(level: 3, outlined: false)[" + ln[4:].split(" <")[0].strip() + "]")
+        else:
+            baris.append(ln)
+    text = "\n".join(baris)
     # Berkas tanpa nomor bab (pengantar & catatan sumber): subjudul tidak
     # dimasukkan ke penanda PDF, supaya struktur penanda tetap bab/bagian.
     if md_file.name.startswith(("00-", "99-")):

@@ -207,8 +207,8 @@
   }
   show heading.where(level: 2): it => block(above: 1.6em, below: 0.75em, sticky: true,
     text(size: 12pt, weight: "bold", fill: accent.darken(10%), it.body))
-  show heading.where(level: 3): it => block(above: 1.2em, below: 0.6em, sticky: true,
-    text(size: 12pt, weight: "bold", it.body))
+  show heading.where(level: 3): it => block(above: 1.35em, below: 0.5em, sticky: true,
+    text(size: 11pt, weight: "bold", fill: ink.lighten(8%), it.body))
   show heading.where(level: 4): it => block(above: 1em, below: 0.5em, sticky: true,
     text(size: 12pt, weight: "bold", style: "italic", it.body))
 
