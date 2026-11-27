@@ -34,8 +34,8 @@ Tiap bab: kasus pembuka → mekanisme → bukti → **kotak metode** → kontra-
 | | Inggris | Indonesia |
 |---|---|---|
 | Berkas bab ditulis | 19/19 | 19/19 |
-| Kata (sumber .md) | 77.800 | 66.900 |
-| Halaman PDF | 282 | 300 |
+| Kata (sumber .md) | 77.500 | 66.751 |
+| Halaman PDF | 276 | 298 |
 | Gambar ber-kredit | 7 | 7 |
 | Seksi H2 per bab | 10-12 | 10-12 |
 | Median kata per seksi | 406 | 406 |
@@ -86,12 +86,12 @@ Toolchain tidak persisten di sandbox; pasang ulang tiap sesi baru.
 
 ## Angka
 
-- **EN** — 282 hlm, 77.800 kata, 289 sitasi, 71 sumber, 0 yatim,
-  8 kalimat berangka tanpa sumber. `publish/en.pdf` 6.646.460 B.
-- **ID** — 300 hlm, 66.900 kata, 288 sitasi, 71 sumber, 0 yatim,
-  41 kalimat berangka tanpa sumber. `publish/id.pdf` 6.620.642 B.
-- Turunan (berisi 7 gambar isi): EPUB 4.881 KB (EN) / 4.885 KB (ID);
-  DOCX 4.759 KB / 4.746 KB; sampul JPG 200.908 B / 209.746 B.
+- **EN** — 276 hlm, 77.500 kata, 289 sitasi, 71 sumber, 0 yatim,
+  8 kalimat berangka tanpa sumber. `publish/en.pdf` 6.624.491 B.
+- **ID** — 298 hlm, 66.751 kata, 288 sitasi, 71 sumber, 0 yatim,
+  41 kalimat berangka tanpa sumber. `publish/id.pdf` 6.609.888 B.
+- Turunan (berisi 7 gambar isi): EPUB 4.998 KB (EN) / 5.002 KB (ID);
+  DOCX 4.872 KB / 4.859 KB; sampul JPG 200.908 B / 209.746 B.
 
 ## Gambar
 
