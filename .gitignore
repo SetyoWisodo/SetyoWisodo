@@ -34,3 +34,6 @@ CIL_berkas_kerja_FULL_v1.2.zip
 # ---- book2 (buku 17 bab) ----
 book2/.gen/
 book2/main.typ
+
+# Berkas kiriman review (biner besar, dibuat ulang dari book2/publish/)
+review_understanding_crisis/
