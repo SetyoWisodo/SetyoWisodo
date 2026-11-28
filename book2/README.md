@@ -34,8 +34,8 @@ Tiap bab: kasus pembuka → mekanisme → bukti → **kotak metode** → kontra-
 | | Inggris | Indonesia |
 |---|---|---|
 | Berkas bab ditulis | 19/19 | 19/19 |
-| Kata (sumber .md) | 77.500 | 66.751 |
-| Halaman PDF | 276 | 298 |
+| Kata (sumber .md) | 76.911 | 66.145 |
+| Halaman PDF | 221 | 243 |
 | Gambar ber-kredit | 7 | 7 |
 | Seksi H2 per bab | 10-12 | 10-12 |
 | Median kata per seksi | 406 | 406 |
@@ -74,7 +74,8 @@ Toolchain tidak persisten di sandbox; pasang ulang tiap sesi baru.
 - `meta_en.json`, `meta_id.json` — judul, subjudul, copyright, back cover, kata kunci
 - `src/en/` — `00-introduction`, `02-ch01`…`18-ch17` (bab N = berkas N+1)
 - `src/id/` — `00-pengantar`, `02-bab01`…`99-pustaka`
-- `template/book.typ` — 6×9 in, Source Serif 4 + Source Sans 3, `#part-page(blurb:)`
+- `template/book.typ` — **A4, Tinos 12 pt, margin 30/40/30/30, indentasi 12,7 mm**
+  (format yang sama dengan *Surviving the Future*), `#part-page(blurb:)`
 - `template/filter.lua` — `::: {.box}`, `::: lead`, `::: {.part}`, `[@a; @b]` → `#cite-group`
 - `reference/bibliografi.csv` — 87 entri; `reference/klaim.csv` — 145 klaim
 - `reference/BLUEPRINT_EN.md` — kerangka, gaya, aturan sumber
@@ -86,10 +87,10 @@ Toolchain tidak persisten di sandbox; pasang ulang tiap sesi baru.
 
 ## Angka
 
-- **EN** — 276 hlm, 77.500 kata, 289 sitasi, 71 sumber, 0 yatim,
-  8 kalimat berangka tanpa sumber. `publish/en.pdf` 6.624.491 B.
-- **ID** — 298 hlm, 66.751 kata, 288 sitasi, 71 sumber, 0 yatim,
-  41 kalimat berangka tanpa sumber. `publish/id.pdf` 6.609.888 B.
+- **EN** — 221 hlm, 76.911 kata, 289 sitasi, 71 sumber, 0 yatim,
+  8 kalimat berangka tanpa sumber. `publish/en.pdf` 6.395.819 B.
+- **ID** — 243 hlm, 66.145 kata, 288 sitasi, 71 sumber, 0 yatim,
+  41 kalimat berangka tanpa sumber. `publish/id.pdf` 6.375.610 B.
 - Turunan (berisi 7 gambar isi): EPUB 4.998 KB (EN) / 5.002 KB (ID);
   DOCX 4.872 KB / 4.859 KB; sampul JPG 200.908 B / 209.746 B.
 

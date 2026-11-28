@@ -1,6 +1,6 @@
 # Panduan Review — Understanding Crisis
 
-*Why Climate Disasters Are Social Disasters* · 17 bab · 276 halaman (EN)
+*Why Climate Disasters Are Social Disasters* · 17 bab · 221 halaman (EN)
 
 Berkas ini untuk memandu review, bukan bagian dari buku. Ia menunjuk halaman
 tertentu supaya penilaian tidak berubah menjadi pembacaan 276 halaman tanpa arah.
@@ -43,24 +43,24 @@ daftar pustaka, dan periksa apakah buku melaporkannya dengan tepat.
 | Bagian | Bab | Halaman | Isi |
 |---|---|---|---|
 | — | Pengantar | 5 | Kalimat yang diuji |
-| I — Diagnosis | 1. Hazard, Exposure, Vulnerability | 15 | Kerangka dasar |
-| | 2. Crisis Does Not Arrive as a Single Blow | 31 | Rantai kegagalan |
-| | 3. Indonesia as Reader, Not Example | 47 | Kasus Indonesia |
-| II — Kerentanan | 4. Heat, the Invisible Killer | 63 | Panas |
-| | 5. Water: Too Much, Too Little | 81 | Air, tanggul, amblesan |
-| | 6. Food: One Harvest, a Price Elsewhere | 97 | Pangan |
-| | 7. Disease That Moves | 111 | Penyakit |
-| III — Kapasitas | 8. Money: Who Counts as Worth Saving | 127 | Asuransi, bantuan |
-| | 9. Infrastructure as a Chain | 141 | Infrastruktur |
-| | 10. Social Capital | 155 | Modal sosial |
-| | 11. Knowledge: Forecasts That Do Not Arrive | 169 | Peringatan dini |
-| IV — Pilihan | 12. Displacement | 183 | Perpindahan |
-| | 13. Justice: Who Emits, Who Absorbs | 199 | Keadilan |
-| | 14. Uncertainty | 213 | Ketidakpastian |
-| V — Tindakan | 15. Households | 227 | Rumah tangga |
-| | 16. Communities and Cities | 241 | Kota |
-| | 17. Reading the Claims | 253 | Cara menilai janji iklim |
-| — | Catatan sumber & gambar | 269 | Kredit, batas pengetahuan |
+| I — Diagnosis | 1. Hazard, Exposure, Vulnerability | 13 | Kerangka dasar |
+| | 2. Crisis Does Not Arrive as a Single Blow | 25 | Rantai kegagalan |
+| | 3. Indonesia as Reader, Not Example | 37 | Kasus Indonesia |
+| II — Kerentanan | 4. Heat, the Invisible Killer | 51 | Panas |
+| | 5. Water: Too Much, Too Little | 65 | Air, tanggul, amblesan |
+| | 6. Food: One Harvest, a Price Elsewhere | 77 | Pangan |
+| | 7. Disease That Moves | 89 | Penyakit |
+| III — Kapasitas | 8. Money: Who Counts as Worth Saving | 101 | Asuransi, bantuan |
+| | 9. Infrastructure as a Chain | 111 | Infrastruktur |
+| | 10. Social Capital | 123 | Modal sosial |
+| | 11. Knowledge: Forecasts That Do Not Arrive | 133 | Peringatan dini |
+| IV — Pilihan | 12. Displacement | 145 | Perpindahan |
+| | 13. Justice: Who Emits, Who Absorbs | 159 | Keadilan |
+| | 14. Uncertainty | 171 | Ketidakpastian |
+| V — Tindakan | 15. Households | 183 | Rumah tangga |
+| | 16. Communities and Cities | 193 | Kota |
+| | 17. Reading the Claims | 203 | Cara menilai janji iklim |
+| — | Catatan sumber & gambar | 213 | Kredit, batas pengetahuan |
 
 Nomor halaman mengikuti PDF edisi Inggris.
 
@@ -70,8 +70,8 @@ Nomor halaman mengikuti PDF edisi Inggris.
 
 Angka ini hasil audit terakhir, bukan klaim pemasaran:
 
-- **77.500 kata**, 289 sitasi dalam teks, 71 sumber unik, 0 sitasi yatim
-- **3,73 sitasi per 1.000 kata** (ambang yang dipakai buku: 2,0)
+- **76.911 kata**, 289 sitasi dalam teks, 71 sumber unik, 0 sitasi yatim
+- **3,76 sitasi per 1.000 kata** (ambang yang dipakai buku: 2,0)
 - **145 klaim** di buku besar bukti, seluruhnya tertelusur ke sumber
 - **104 entri bibliografi**, 70 di antaranya ber-DOI/ISBN
 - **7 gambar**, semuanya domain publik atau CC, kredit tercetak di dalam gambar
@@ -100,10 +100,10 @@ merangkum.
 
 | Berkas | Untuk apa |
 |---|---|
-| `Understanding_Crisis_en.pdf` | membaca dan menandai — tata letak final |
+| `Understanding_Crisis_en.pdf` | membaca dan menandai — tata letak final (A4, format sama dengan *Surviving the Future*) |
 | `Understanding_Crisis_en.docx` | memberi komentar langsung di Word/Google Docs |
 | `Understanding_Crisis_en.epub` | membaca di ponsel/e-reader |
-| `Memahami_Krisis_id.pdf` | pembanding bahasa Indonesia, 298 hlm |
+| `Memahami_Krisis_id.pdf` | pembanding bahasa Indonesia, 243 hlm |
 
 Edisi Indonesia bukan terjemahan mesin: strukturnya sepadan 17/17 bab dan
 dipakai sebagai pemeriksa silang saat menyunting.

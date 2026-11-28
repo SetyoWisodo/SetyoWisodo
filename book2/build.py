@@ -337,12 +337,14 @@ def build(lang: str, out_pdf: pathlib.Path) -> pathlib.Path:
   chapter-short: {short_typ},
 )
 
+#mainmatter[
 {body}
+]
 '''
     (ROOT / "main.typ").write_text(main, encoding="utf-8")
     out_pdf.parent.mkdir(parents=True, exist_ok=True)
     typst.compile(str(ROOT / "main.typ"), output=str(out_pdf), root=str(ROOT),
-                  font_paths=[str(ROOT.parent / "book" / "fonts")])
+                  font_paths=[str(ROOT.parent / "fonts"), str(ROOT.parent / "book" / "fonts")])
     return out_pdf
 
 

@@ -4,8 +4,8 @@
 //  line spacing 1.25 within para, 1.5 between para, headings 1.5
 // =====================================================================
 
-#let serif = ("Source Serif 4", "DejaVu Serif", "Serif")
-#let sans = ("Source Sans 3", "DejaVu Sans", "Sans Serif")
+#let serif = ("Tinos", "Times New Roman", "DejaVu Serif", "Serif")
+#let sans = ("Tinos", "Times New Roman", "DejaVu Serif", "Serif")
 #let accent = rgb("#1f5f8b")
 #let warm = rgb("#c26a1b")
 #let ink = rgb("#1b1b1b")
@@ -150,20 +150,20 @@
   chapter-short: ("1": "",),
   copyright-lines: (), cite-label: "How to cite this book",
   how-to-cite: none, isbn: "", doi: "", review-status: none,
-  page-w: 6in, page-h: 9in,
+  page-w: 210mm, page-h: 297mm,
   font: serif,
-  margin: (top: 22mm, bottom: 24mm, left: 20mm, right: 20mm),
+  margin: (top: 30mm, bottom: 40mm, left: 30mm, right: 30mm),
   body,
 ) = {
   set document(title: title + ": " + subtitle, author: author, keywords: keywords)
-  set text(font: font, size: 11pt, lang: lang, fill: ink, hyphenate: true,
+  set text(font: font, size: 12pt, lang: lang, fill: ink, hyphenate: true,
            number-type: "lining", costs: (hyphenation: 60%, runt: 120%, widow: 200%, orphan: 200%))
   // Format: Times New Roman 12, A4, justify, first line indent 12.7mm, line spacing 1.25, antar paragraf 1.5
-  set par(justify: true, leading: 0.32em, first-line-indent: (amount: 1.1em, all: false), spacing: 0.85em)
+  set par(justify: true, leading: 0.55em, first-line-indent: 12.7mm, spacing: 0.90em)
   set page(
     width: page-w, height: page-h,
     margin: margin,
-    header-ascent: margin.top - 9mm, footer-descent: 11mm,
+    header-ascent: 18mm, footer-descent: 12mm,
   )
   set list(indent: 0.6em, body-indent: 0.5em, spacing: 0.55em, marker: ([•], [–]))
   set enum(indent: 0.6em, body-indent: 0.5em, spacing: 0.55em)
@@ -198,23 +198,23 @@
   show heading.where(level: 1): it => {
     if it.supplement == [Part] {
       // part title (placed inside part-page)
-      text(font: sans, size: 26pt, weight: "bold", fill: ink, it.body)
+      text(font: sans, size: 12pt, weight: "bold", fill: ink, it.body)
     } else {
       [#metadata("chapter-end") <chend>]
       pagebreak(to: "odd", weak: true)
       v(0.9in)
       if it.numbering != none {
-        block(below: 8pt, text(font: sans, size: 10pt, weight: "bold", tracking: 2.2pt, fill: accent,
+        block(below: 6pt, text(font: sans, size: 12pt, weight: "bold", tracking: 2.5pt, fill: accent,
           upper(L.at(lang).chapter + " " + counter(heading).display("1"))))
       }
-      block(below: 10pt, text(font: sans, size: 20pt, weight: "bold", it.body))
+      block(below: 10pt, text(font: sans, size: 12pt, weight: "bold", it.body))
       block(below: 1.6em, line(length: 18%, stroke: 1.2pt + warm))
     }
   }
   show heading.where(level: 2): it => block(above: 1.6em, below: 0.75em, sticky: true,
     text(size: 12pt, weight: "bold", fill: accent.darken(10%), it.body))
-  show heading.where(level: 3): it => block(above: 1.35em, below: 0.5em, sticky: true,
-    text(size: 11pt, weight: "bold", fill: ink.lighten(8%), it.body))
+  show heading.where(level: 3): it => block(above: 1.2em, below: 0.6em, sticky: true,
+    text(size: 12pt, weight: "bold", fill: ink, it.body))
   show heading.where(level: 4): it => block(above: 1em, below: 0.5em, sticky: true,
     text(size: 12pt, weight: "bold", style: "italic", it.body))
 
@@ -250,7 +250,7 @@
       let p = here().page()
       let on-opener = query(heading.where(level: 1)).any(h => h.location().page() == p)
       let on-part = query(<partpage>).any(h => h.location().page() == p)
-      if is-blank(p) or state("hdr", false).get() == false or on-part { return }
+      if is-blank(p) or on-part { return }
       if on-opener { return }
       let num = counter(page).display()
       let prev = query(heading.where(level: 1).before(here())).filter(h => h.supplement != [Part])
@@ -266,7 +266,8 @@
     },
     footer: context {
       let p = here().page()
-      if state("hdr", false).get() and not is-blank(p) {
+      // Halaman judul tidak bernomor; counter masih 0 di sana.
+      if p > 1 and not is-blank(p) {
         align(center, text(font: sans, size: 12pt, fill: muted, number-type: "lining", counter(page).display()))
       }
     },

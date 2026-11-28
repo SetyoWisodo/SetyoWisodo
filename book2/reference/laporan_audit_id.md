@@ -6,9 +6,9 @@ Dihasilkan otomatis oleh `book2/tools/audit_rujukan.py`.
 
 | Metrik | Nilai | Ambang rujukan | Status |
 |---|---:|---:|---|
-| Kata | 66.751 | — | — |
+| Kata | 66.145 | — | — |
 | Sitasi dalam teks | 288 | ≥ 1 per 500 kata | lolos |
-| Sitasi per 1.000 kata | 4.31 | ≥ 2,0 | lolos |
+| Sitasi per 1.000 kata | 4.35 | ≥ 2,0 | lolos |
 | Sumber unik | 71 | ≥ 40 | lolos |
 | Sitasi yatim (tak ada di bibliografi) | 0 | 0 | lolos |
 | Kalimat berangka tanpa sumber | 41 | ≤ 66 | lolos |
