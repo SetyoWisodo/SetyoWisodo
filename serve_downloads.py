@@ -61,7 +61,7 @@ def card(root, fname, title, note="", preview=True):
 def build_html(host=""):
     parts = []
 
-    base = f"https://{host}" if host else ""
+    base = host.rstrip("/") if host else ""
     parts.insert(0, f'''<div class="hero">
       <a class="btn" href="/copy/en" target="_blank">Buka teks deskripsi EN &nbsp;→</a>
       <p class="lede" style="margin:14px 0 0">Lalu <b>Ctrl+A</b>, <b>Ctrl+C</b>, dan tempel ke kotak
@@ -162,7 +162,13 @@ class Handler(BaseHTTPRequestHandler):
         path = urllib.parse.unquote(self.path.split("?")[0])
 
         if path in ("/", "/index.html"):
-            body = build_html(self.headers.get("Host", "")).encode()
+            # Di balik proxy preview, Host bisa berupa 127.0.0.1:8080 dan
+            # skemanya https. Pakai header proxy bila ada, supaya alamat yang
+            # ditampilkan ke pembaca adalah alamat yang benar-benar bisa dibuka.
+            host = (self.headers.get("X-Forwarded-Host")
+                    or self.headers.get("Host", ""))
+            skema = self.headers.get("X-Forwarded-Proto", "http")
+            body = build_html(f"{skema}://{host}" if host else "").encode()
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
             self.send_header("Content-Length", str(len(body)))
@@ -207,9 +213,14 @@ class Handler(BaseHTTPRequestHandler):
                         break
                 self.send_header("Content-Type", ctype)
                 self.send_header("Content-Length", str(size))
-                self.send_header(
-                    "Content-Disposition",
-                    f'attachment; filename="{os.path.basename(full)}"')
+                # Gambar ditampilkan di halaman (kartu thumbnail), jadi jangan
+                # dipaksa unduh — dengan attachment, <img> gagal memuat.
+                if ctype.startswith("image/"):
+                    self.send_header("Content-Disposition", "inline")
+                else:
+                    self.send_header(
+                        "Content-Disposition",
+                        f'attachment; filename="{os.path.basename(full)}"')
                 self.end_headers()
                 with open(full, "rb") as fh:
                     while chunk := fh.read(262144):
