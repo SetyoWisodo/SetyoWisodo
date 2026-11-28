@@ -107,6 +107,15 @@ def build_html(host=""):
     parts.append("</div>")
 
     parts.append('<h2>Buku terbaru — Understanding Crisis / Memahami Krisis (17 bab)</h2>'
+                 '<p class="lede" style="margin:-6px 0 10px">Tautan langsung untuk review:</p>'
+                 '<div class="grid" style="margin-bottom:18px">'
+                 '<a class="card" href="/b2/Understanding_Crisis_en.pdf" target="_blank">'
+                 '<div class="meta"><b>Buka PDF di tab baru</b>'
+                 '<span>276 hlm — cara tercepat membaca tanpa mengunduh</span></div></a>'
+                 '<a class="card" href="/b2/Understanding_Crisis_en.docx">'
+                 '<div class="meta"><b>DOCX untuk komentar</b>'
+                 '<span>beri catatan langsung di Word atau Google Docs</span></div></a>'
+                 '</div>'
                  '<p class="lede" style="margin:-6px 0 16px">Edisi rujukan dua bahasa, '
                  '7 gambar ber-kredit, 104 entri bibliografi. Inggris dan Indonesia '
                  'sama-sama lengkap; keduanya belum terbit dan belum punya ISBN terdaftar.</p>'
