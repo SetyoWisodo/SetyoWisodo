@@ -16,7 +16,13 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 PUB = os.path.join(HERE, "book", "publish")
+PUB2 = os.path.join(HERE, "book2", "publish")
 PORT = int(os.environ.get("PORT", "8080"))
+
+TAG_PDF = {"en": "Understanding_Crisis_en.pdf", "id": "Memahami_Krisis_id.pdf"}
+TAG_EPUB = {"en": "Understanding_Crisis_en.epub", "id": "Memahami_Krisis_id.epub"}
+TAG_DOCX = {"en": "Understanding_Crisis_en.docx", "id": "Memahami_Krisis_id.docx"}
+TAG_COVER = {"en": "Understanding_Crisis_cover_en.jpg", "id": "Memahami_Krisis_cover_id.jpg"}
 
 MKT = [
     ("hero", "Gambar utama", "22° — depan, punggung, tebal buku"),
@@ -43,12 +49,14 @@ def human(n):
     return f"{n:.1f} TB"
 
 
-def card(root, fname, title, note="", preview=True):
-    path = os.path.join(PUB, root, fname)
+def card(root, fname, title, note="", preview=True, pub=None):
+    pub = pub or PUB
+    path = os.path.join(pub, root, fname)
     if not os.path.exists(path):
         return ""
     size = human(os.path.getsize(path))
-    url = "/f/" + urllib.parse.quote("/".join(x for x in (root, fname) if x))
+    pref = "/b2/" if pub == PUB2 else "/f/"
+    url = pref + urllib.parse.quote("/".join(x for x in (root, fname) if x))
     img = (f'<img loading="lazy" src="{url}" alt="{html.escape(title)}">'
            if preview else '')
     return f'''<a class="card" href="{url}" download>
@@ -96,6 +104,19 @@ def build_html(host=""):
         ("gumroad", "profile_avatar.png", "Avatar profil"),
     ]:
         parts.append(card(root, f, t))
+    parts.append("</div>")
+
+    parts.append('<h2>Buku terbaru — Understanding Crisis / Memahami Krisis (17 bab)</h2>'
+                 '<p class="lede" style="margin:-6px 0 16px">Edisi rujukan dua bahasa, '
+                 '7 gambar ber-kredit, 104 entri bibliografi. Inggris dan Indonesia '
+                 'sama-sama lengkap; keduanya belum terbit dan belum punya ISBN terdaftar.</p>'
+                 '<div class="grid">')
+    for lang, tag in (("en", "EN"), ("id", "ID")):
+        for f, t in ((f"{TAG_PDF[lang]}", f"{tag} — PDF lengkap"),
+                     (f"{TAG_EPUB[lang]}", f"{tag} — EPUB"),
+                     (f"{TAG_DOCX[lang]}", f"{tag} — DOCX"),
+                     (f"{TAG_COVER[lang]}", f"{tag} — sampul")):
+            parts.append(card("", f, t, preview=f.endswith(".jpg"), pub=PUB2))
     parts.append("</div>")
 
     parts.append('<h2>Buku — edisi Inggris (satu-satunya yang dijual)</h2><div class="grid">')
@@ -197,10 +218,13 @@ class Handler(BaseHTTPRequestHandler):
                 self.wfile.write(body)
                 return
 
-        if path.startswith("/f/"):
-            rel = path[3:].lstrip("/")
-            full = os.path.normpath(os.path.join(PUB, rel))
-            if full.startswith(PUB) and os.path.isfile(full):
+        if path.startswith("/b2/") or path.startswith("/f/"):
+            if path.startswith("/b2/"):
+                akar, rel = PUB2, path[4:].lstrip("/")
+            else:
+                akar, rel = PUB, path[3:].lstrip("/")
+            full = os.path.normpath(os.path.join(akar, rel))
+            if full.startswith(akar) and os.path.isfile(full):
                 size = os.path.getsize(full)
                 self.send_response(200)
                 ctype = "application/octet-stream"
